@@ -1,183 +1,227 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-16
-State: **FAIL_CURRENT_WORLD_BUILDING_MATERIAL_VISUAL_HIERARCHY_GATE / TARGET-HOST CONVERGENCE PASS PRESERVED / PATH-EYE INFILL COLLAPSES TOWARD SKY-DARK MASS / MATERIAL + ART-DIRECTION REPAIR HELD**
+State: **PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_VISUAL_READABILITY_GATE / VFX STRUCTURE + LIVE TARGET-HOST PASSES PRESERVED / 68 RETAINED FRAMES REVIEWED / FIVE NEAR-PLANE CLIPS SHOW NO RETAINED-FRAME VISUAL ARTIFACT / FINAL ART PREFERENCE + ARBITRARY CAMERA + PLAYBACK + TARGET-DEVICE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the previous Visual QA status, and the newest Art Direction, Materials, Rigging, Animation, Environment, VFX and Runtime coordination state. Inspected current open design work including Character PR #2, Animal deformation/form review lanes, Object animation/runtime/rigging lanes, Map Environment PR #24 and Map VFX PR #25.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the previous Visual QA state, and newest specialist/open-PR state across the constellation before selecting one new gate.
 
-`axm-create-me` remains coordination-only. Visual QA changed no Character, Animal, Building, Map, Object, Weather, Universal Creation, Profession Fabric or other product implementation. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains coordination-only. Visual QA changed no Map, Weather, Building, Nature, Object, Character, Animal, Universal Creation, Profession Fabric, or other product implementation. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Visual QA status remains preserved at blob `ff85afea7d5080e5d6d0443180c5cf0a222449be`. Its exact result remains historical truth: `PASS_CHARACTER_FEATHERED_SHOULDER_LOCAL_VISUAL_DEFECT_GATE` for the then-current Character E proof scope. Later Art Direction and Organic source-lineage work do not rewrite that bounded QA result.
+The immediately previous Visual QA result remains historical truth at blob `52f259828ca77728a59cc6aacf237882d01610ee`: **`FAIL_CURRENT_WORLD_BUILDING_MATERIAL_VISUAL_HIERARCHY_GATE`** for the exact historical Map PR #24 five-surface receiving state. Environment has since rebound the Building to the source-owned closed/outward topology while explicitly preserving that independent infill hierarchy FAIL. No Weather result below erases or repairs the Building material failure.
 
 ## Fresh constellation / duplication scan
 
-The strongest ready Visual QA surfaces are currently:
+The strongest new Visual QA surface is now **Map VFX PR #25 — `VFX: carry source-authored Weather width into current-world proof`**.
 
-- **Character PR #2:** the feathered shoulder local defect gate was already independently reviewed by Visual QA, then accepted directionally by Art Direction and migrated by Organic. Connected topology/deformation/target-host look remain later gates, but there is no reason to repeat the same static E review.
-- **Animal PR #8 / PR #7:** elbow-relief and ring-phase candidates remain legitimate future perceptual/deformation reviews. They are source-local and still need direct visual comparison, but no fresh cross-world target-host handoff outranks the new Map evidence below.
-- **Object Animation PR #10 / Runtime PR #22 / Rigging PR #23:** current technical evidence for exact motion interpolation, lossless constant-span compaction and source-owned target rigging is strong. Final motion weight/style is still visually unaccepted, but the current downstream technical lanes do not depend on an immediate Visual QA aesthetic promotion.
-- **Map VFX PR #25:** its newest source-width lane is already failing its live target-host stage. QA does not duplicate an owner lane that is currently failing before a valid visual acceptance surface exists.
-- **Map Environment PR #24:** the newest Environment pass explicitly handed one exact current-world Building material hierarchy question to Materials + Art Direction + Visual QA. It retained a complete 68-frame Godot A/B artifact with all unrelated world state fixed. This is a direct, fresh, non-duplicative QA surface and currently the strongest integrated visual claim to test.
+The reason this outranks repeating other review lanes is concrete:
 
-Therefore this activation reviews **Map PR #24's current-world five-surface Building material presentation**, not the already-proven structural/target-host convergence itself.
+- **Map VFX PR #25** was owner-failing during the previous QA activation, so QA correctly declined to duplicate it before a valid target-host surface existed. VFX has now repaired that lane, retained the failure history, and produced a complete exact-head 68-frame Godot A/B with an explicit Visual QA handoff.
+- **Map Environment PR #24** has a newer source-topology rebind, but Environment explicitly preserves the already-known `infill_coating` hierarchy FAIL. There is no new final look claim to re-review until Materials publishes the requested infill-only successor.
+- **Building Materials PR #3** has rebound its unchanged surface family to the new source topology; the requested current-world infill repair remains held, so there is no new material candidate for QA yet.
+- **Character / Animal / Object** retain useful future visual surfaces, including connected shoulder/deformation, Animal elbow weighting/form candidates, and Object motion weight/style. None has a fresher complete integrated target-host handoff than the repaired VFX lane.
+- **Runtime** remains a separate performance authority; proof-host primitive/submission observations are not a visual acceptance substitute.
+
+Therefore this activation reviews only the newly valid **source-width Weather presentation** in the exact current-world target-host evidence. It does not reopen Weather source semantics, Environment composition, Building materials, or VFX implementation.
 
 ## Selected exact claim / held gate
 
 Repository: `mike-axiom-mir/axm-map-design`
 
-PR: **#24 — `Environment: converge Weather variant with exact Object source`**
+PR: **#25 — `VFX: carry source-authored Weather width into current-world proof`**
 
-Current exact head: **`48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`**
+Exact tested/current PR head:
 
-Observed PR metadata: **OPEN / DRAFT / MERGEABLE**. This metadata is not merge/CANON authority.
+`15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`
 
-Environment's already-proven results remain valid and are not relabelled by QA:
+Observed PR state: **OPEN / DRAFT / MERGEABLE**. That metadata is not merge/CANON authority.
 
-- `PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_STRUCTURE`;
-- `PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_TARGET_HOST`.
+Exact parent VFX identity:
 
-The unverified gate selected here is narrower and visual:
+`e482d003853e52fc835f1797ddfb6506a50083ef`
 
-> Does the exact five-surface Building response preserve readable Building surface hierarchy inside the exact PR #24 current-world lighting/composition, rather than making major authored enclosure surfaces visually collapse into the near-black sky/background?
+Exact Weather variation source:
+
+`05b26c4e82bbe0a4de0ee7bee34179efc58b9719`
+
+Selected source-owned Weather seed:
+
+`44021`
+
+VFX's already-proven machine results remain separate and preserved:
+
+- **`PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_STRUCTURE`**;
+- **`PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_LIVE_TARGET_HOST`**.
+
+The Visual QA question is narrower:
+
+> In the exact two fixed 1100×720 current-world cameras and all 17 retained states, does carrying the 36 source-authored Weather streak widths create a real readable visual change without producing a visible clipping artifact or materially obscuring the pavilion/path/tree hierarchy in the retained evidence?
+
+This is a visual-readability gate, not an aesthetic-preference or physical-weather gate.
 
 ## Exact retained evidence independently verified
 
-Environment workflow:
+Successful retained VFX artifact:
 
-**`35097442120 — Environment current-world Building material convergence evidence` — SUCCESS**
+- artifact ID: **`10449666486`**;
+- name: `environment-weather-source-width-current-world-001-15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`;
+- size: **7,745,715 bytes**;
+- expected GitHub SHA-256: **`c1143322dc974ad21cff4e3baa53697cc4a58fc42caf55627077703f131011b5`**;
+- Visual QA downloaded the archive and independently reproduced the exact same SHA-256;
+- retained `exact-head.txt`: **`15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`**.
 
-Retained artifact:
+Target host:
 
-- artifact ID: **`10447016718`**;
-- name: `environment-current-world-building-material-001-48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`;
-- size: **11,409,828 bytes**;
-- GitHub SHA-256: **`aeda6e564ae8ac99906c61ac56a692792c4227f2539b0c453e66914b9d15f1ff`**;
-- Visual QA downloaded the retained ZIP and independently reproduced the exact same SHA-256;
-- retained `exact-head.txt`: **`48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`**.
+**Godot 4.7.2 GL Compatibility**.
 
-Target host: **Godot 4.7.2 GL Compatibility**.
+The artifact contains:
 
-The artifact contains the exact neutral Building control and exact five-surface candidate across:
+- `17` retained world states;
+- `2` fixed cameras: `path_eye` and `elevated_oblique`;
+- `34` inherited line-control PNGs;
+- `34` source-width ribbon candidate PNGs;
+- **68 retained frames total**;
+- a live runtime receipt, target-host receipt and Godot log.
 
-- `17` dynamic Weather/sapling states;
-- `2` fixed cameras (`path_eye`, `elevated_oblique`);
-- `34` control frames + `34` candidate frames = **68 retained PNGs**.
+The target-host receipt independently records:
 
-The candidate keeps the exact Building source geometry, Weather sequence, Nature motion/source identities, west Object source, path, cameras and lighting fixed. The Building response changes only through the already-proven five-surface material family:
+- all `17 × 2 × 36 = 1,224` projected-width observations;
+- maximum source-width residual **`0.00974698571769128 px`** against VFX's `0.05 px` acceptance bound;
+- stable Weather and sapling resource identities;
+- retained rear-tree culling state;
+- stable per-camera counter sets within control and candidate presentation modes.
 
-- `frame_galvanized`;
-- `infill_coating`;
-- `roof_membrane`;
-- `slab_mineral`;
-- `utility_panel_ochre`.
+Candidate proof-host primitive counters differ from control while draw/object counters remain stable:
 
-## Independent image reproduction and measurements
+- `path_eye`: control `20 / 20 / 4392`, candidate `20 / 20 / 4536`;
+- `elevated_oblique`: control `27 / 27 / 6150`, candidate `27 / 27 / 6294`.
 
-Visual QA directly inspected matched control/candidate states `0 / 8 / 16` in both fixed cameras and independently measured every one of the 17 A/B pairs.
+Those are renderer observations only. Visual QA does not convert them into a Runtime acceptance or rejection.
 
-The Environment attribution claim is reproduced exactly:
+## Near-plane failure boundary reproduced
 
-- `path_eye`: **67,221 / 792,000 changed pixels = 8.4875%** in every state, fixed bbox `(346,256)-(754,438)`;
-- `elevated_oblique`: **37,182 / 792,000 changed pixels = 4.6947%** in every state, fixed bbox `(594,171)-(889,367)`.
+The repaired VFX runtime explicitly records **5 near-plane endpoint clips**, all in `path_eye`:
 
-That fixed footprint supports the intended attribution: the changed visual region is the Building while Weather/sapling dynamics continue independently.
+- state `0`, `t=0.00000 s`: `wind-streak-001` + `wind-streak-005`;
+- state `1`, `t=0.03125 s`: `wind-streak-001` + `wind-streak-005`;
+- state `2`, `t=0.06250 s`: `wind-streak-005`.
 
-Visual QA then measured luminance only over those changed Building pixels. Using standard RGB relative-luma weights on the retained PNG values:
+The receiving implementation clips a crossing endpoint to the fixed camera near boundary rather than discarding the entire source streak. A fully-behind streak remains fail-closed in the owner lane.
+
+Visual QA inspected the retained path-eye states spanning that clip interval and did **not** observe a giant edge spike, wedge, full-screen ribbon, discontinuous screen-space flare, or other obvious clipping artifact in those exact captured frames. That is a retained-frame observation only; it is not proof of unsampled continuous-time behavior between captures.
+
+## Independent all-frame image measurements
+
+Visual QA compared **all 34 matched control/candidate pairs**, not only the VFX specialist's representative samples.
+
+Frame size is `1100 × 720 = 792,000` pixels.
 
 ### `path_eye`
 
 Across all 17 states:
 
-- neutral-control changed-pixel mean luminance: approximately **81.65**;
-- five-surface candidate mean luminance: approximately **57.76**;
-- mean shift: approximately **-23.89**;
-- neutral-control median: approximately **41.38**;
-- candidate median: approximately **31.02**;
-- control fraction below luma `32`: **0%**;
-- candidate fraction below luma `32`: approximately **57.10%**;
-- local unchanged sky median: approximately **17.51**;
-- candidate changed pixels within `±5` luma of that sky median: **43.65%**;
-- candidate changed pixels at or below `sky + 10`: approximately **46.33%**.
+- changed pixels per pair: **680–747**;
+- mean changed pixels: **717.5882352941177**;
+- mean changed-frame coverage: **0.0906045751633987%**;
+- coverage range: **0.08585858585858586%–0.09431818181818181%**;
+- largest connected changed-pixel island per frame: **28–36 px**, mean **29.058823529411764 px**.
+
+Inside the established pavilion review region `(346,256)-(754,438)` from the prior current-world QA comparison:
+
+- mean changed pixels: **36.1764705882353**;
+- mean regional coverage: **0.04833389526398559%**;
+- regional coverage range: **0.04008176680428073%–0.07348323914118135%**.
 
 ### `elevated_oblique`
 
 Across all 17 states:
 
-- neutral-control changed-pixel mean luminance: approximately **94.07**;
-- five-surface candidate mean luminance: approximately **64.47**;
-- mean shift: approximately **-29.59**;
-- neutral-control median: approximately **123.55**;
-- candidate median: approximately **56.16**;
-- control fraction below luma `32`: **0%**;
-- candidate fraction below luma `32`: approximately **36.68%**;
-- candidate changed pixels within `±5` luma of the same local sky median: approximately **29.24%**.
+- changed pixels per pair: **958–985**;
+- mean changed pixels: **970.7058823529412**;
+- mean changed-frame coverage: **0.12256387403446227%**;
+- coverage range: **0.12095959595959595%–0.12436868686868686%**;
+- largest connected changed-pixel island per frame: **10–14 px**, mean **11.647058823529411 px**.
 
-These measurements are diagnostics of this exact rendered receiving scene. They are not universal luminance thresholds or a generic material-quality rule.
+Inside the established pavilion review region `(594,171)-(889,367)`:
+
+- mean changed pixels: **221.2941176470588**;
+- mean regional coverage: **0.3795001331579414%**;
+- regional coverage range: **0.36870626972149817%–0.389285224310605%**.
+
+These pixel counts are attribution/readability diagnostics for this exact retained pair set. They are not generic VFX-density thresholds and do not mean every sub-percent effect is automatically acceptable.
 
 ## Direct visual finding
 
-The exact five-surface candidate has two clearly positive local effects:
+Visual QA directly inspected matched states `0 / 8 / 16` in both cameras, including the path-eye start state where the runtime reports two clipped endpoints.
 
-- the galvanized structural frame remains readable;
-- the ochre service panel becomes a clearer service accent than in the neutral proof.
+The candidate is visibly different from the inherited line control: source-width streaks read subtly thicker/more explicit rather than disappearing into the proof host's default line response.
 
-However, the large enclosure surfaces do not retain enough separation in the exact current-world context.
+The delta remains spatially sparse. In both fixed cameras the pavilion, route, trees and Object placements remain the dominant readable forms; the Weather width change does not turn into a broad veil or materially cover those silhouettes. Where streaks cross the Building region, the changed pixels remain small, disconnected line fragments rather than a new large occluding shape.
 
-In `path_eye`, the dark `infill_coating` surfaces visually collapse toward the near-black world/sky background. The three main bays read less like authored enclosure planes and more like deep empty/dark openings. The effect is persistent across the complete 17-state sequence because the Building is static while Weather/sapling motion changes around it. The roof response is also darker, but the decisive failure is the enclosure/infill hierarchy, not the existence of a darker roof by itself.
+No retained frame shows a visible near-plane clipping spike/wedge or a source-width ribbon suddenly dominating the composition. This closes the specific visual-artifact/readability question that remained after VFX repaired its target-host failure.
 
-The elevated oblique camera reproduces the same direction at lower severity: the pavilion still reads as a Building because frame/roof perspective provides stronger geometry cues, but a substantial fraction of changed Building pixels again compress into the near-background luminance band.
-
-This is not merely “the candidate is darker.” The failure is that an authored Building surface family loses perceptual separation from the surrounding background strongly enough to change the read of solid enclosure versus dark/open void in the primary path-eye composition.
+This QA PASS does **not** mean the thicker source-authored width is aesthetically superior to the line control. Both remain viable visual choices from this evidence alone; Art Direction owns that preference.
 
 ## QA verdict
 
-### Structural / target-host results — preserved
+### VFX structure / live target-host — preserved
 
-**`PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_STRUCTURE`**
+**`PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_STRUCTURE`**
 
-**`PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_TARGET_HOST`**
+**`PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_LIVE_TARGET_HOST`**
 
-Visual QA does not invalidate those exact Environment results.
+### Independent Visual QA gate — PASS
 
-### Visual hierarchy gate — failed
-
-**`FAIL_CURRENT_WORLD_BUILDING_MATERIAL_VISUAL_HIERARCHY_GATE`**
+**`PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_VISUAL_READABILITY_GATE`**
 
 Exact meaning:
 
-> At exact Map PR #24 head `48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`, the five-surface Building response reaches the Godot target host correctly and remains localized to the intended Building region, but direct review of all retained A/B evidence shows the current `infill_coating`/dark enclosure response compresses too close to the near-black background in the `path_eye` composition. This creates a persistent solid-surface-versus-dark-opening ambiguity, so the current-world Building material hierarchy is not visually accepted in this exact receiving scene.
+> At exact Map PR #25 head `15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`, using Weather seed `44021`, the exact 36 source-authored Weather widths create a real but sparse visual delta across all 17 retained states in both fixed 1100×720 Godot 4.7.2 GL Compatibility cameras. Direct inspection plus all-frame pixel comparison finds no retained-frame clipping spike/wedge and no material loss of pavilion/path/tree readability attributable to the width presentation. The five recorded near-plane endpoint clips remain visible in provenance but do not manifest as an obvious visual defect in the retained captures.
 
-This FAIL is intentionally bounded. It does **not** say the five-surface material family is unusable in every renderer, light rig or scene. It says this exact candidate is not visually accepted **in the exact PR #24 current-world context**.
+The PASS is bounded to this exact evidence surface. It is not a final-atmosphere or universal projection-method acceptance.
 
 ## Handoffs
 
-- **Materials / LookDev:** own the next material-side candidate if preserving current Environment lighting. Do not alter multiple material roles blindly; the strongest evidenced problem is the dark enclosure/infill response. Preserve the exact frame and service-panel gains while testing one bounded response change at a time.
-- **3D Art Director:** decide whether the intended pavilion language should keep the current dark industrial enclosure and solve hierarchy through lighting/composition, or keep the current Environment lighting and ask Materials to lift enclosure/roof separation. QA does not choose the creative target.
-- **Environment / PR #24:** keep the current exact target-host convergence evidence as truthful technical PASS. Do not promote the current five-surface response as final visual acceptance until a successor candidate closes this gate.
-- **Visual QA:** re-enter after a materially changed candidate exists. Reuse the same exact two-camera 17-state A/B discipline so only the intended repair moves.
-- **VFX PR #25:** remains separate and currently owner-failing at live target-host width evidence; no conclusion transfers from this Building review.
+### VFX / Map PR #25
 
-## Holds / non-claims
+Keep the exact source-width transport/near-plane boundary and failure history. Visual QA now clears the retained fixed-camera presentation for readability/artifact risk only. Do not generalize this PASS to arbitrary cameras, resolutions or continuous unsampled trajectories.
+
+### 3D Art Director
+
+The candidate is now free of an observed QA blocker in this exact fixed-camera proof. Art Direction can decide whether the slightly stronger Weather presence is preferable to the inherited thin-line presentation. QA does not pick the atmosphere style.
+
+### Runtime / Optimization
+
+The candidate adds proof-host primitives while keeping draw/object counters stable in this exact host. Profile actual target classes before adopting any performance claim; visual QA did not measure CPU/GPU time, overdraw or device FPS.
+
+### Environment / Materials
+
+No conclusion transfers to the separate Building infill hierarchy failure. The existing **`FAIL_CURRENT_WORLD_BUILDING_MATERIAL_VISUAL_HIERARCHY_GATE`** remains active until the requested infill-only successor is rendered and independently reviewed.
+
+### Technical Art / Capability Cartography / UC
+
+One Weather source, one seed and two fixed cameras are insufficient evidence to extract a generic camera-projected-ribbon contract into UC or promote a profession capability.
+
+## Holds / explicit non-claims
 
 This activation does **not** establish:
 
-- final Building material palette or style direction;
-- whether material values or Environment lighting are the correct repair authority;
-- UV, texture, decal, weathering or authored normal/tangent quality;
-- physically measured material correctness;
-- HDR/display/tonemapping equivalence outside this retained Godot proof;
-- arbitrary camera, resolution, scene or Weather-seed acceptance;
-- target-device FPS/GPU/VRAM/memory acceptance;
-- collision, navigation, gameplay or gameplay readability;
-- CANON, production readiness, game readiness, Profession Fabric promotion or Visual Observer mastery.
-
-No product/source file was changed by Visual QA.
+- that source-width Weather is aesthetically better than the line control;
+- final atmosphere density, hierarchy, style or 3D Art Director acceptance;
+- arbitrary camera, FOV, near-plane, resolution or renderer fidelity;
+- continuous-time visual behavior between retained samples or wall-clock playback cadence;
+- physical precipitation diameter, wind speed, force, turbulence, pressure, collision or volumetrics;
+- gameplay visibility, damage, targeting or accessibility acceptance;
+- target-device FPS, CPU/GPU time, overdraw, VRAM, battery, memory or production budgets;
+- final Building material hierarchy or repair of the existing infill FAIL;
+- CANON, production readiness, game readiness, Profession Fabric promotion, UC extraction or Visual Observer / QA mastery.
 
 ## Root gate
 
-- **Truth:** Environment's structural/target-host PASS is preserved separately from visual acceptance; the exact retained artifact was independently rehashed; direct retained frames and independent measurements support the failure.
-- **Agency / non-domination:** QA identifies the observed hierarchy defect but does not seize Materials or Art Direction authority over the repair choice.
-- **Continuity:** the prior neutral control, current five-surface candidate and previous QA status remain exact rollback/provenance points; no earlier PASS is silently rewritten.
-- **Wisdom before speed:** the gate fails at the smallest supported visual scope rather than changing lighting, materials and composition simultaneously or generalizing one scene into a universal material rule.
+- **Truth:** the previous owner-failing VFX state was not reviewed as if it were complete; QA waited for a real exact-head target-host artifact, independently rehashed it, inspected direct frames and kept the five near-plane clips explicit.
+- **Agency / non-domination:** QA clears only observed readability/artifact risk. VFX retains implementation ownership; Art Direction retains visual preference; Runtime retains performance authority; Weather retains source semantics.
+- **Continuity:** the prior Building hierarchy FAIL remains active; VFX failure history, exact parent/source heads and retained control/candidate frames remain provenance points rather than being overwritten by the successful repair.
+- **Wisdom before speed:** the result is intentionally limited to two fixed cameras, one source seed and retained snapshots instead of turning one repaired proof into a universal VFX or renderer claim.
+
+The four AXM roots remain the merge gate.
