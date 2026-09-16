@@ -1,37 +1,40 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / EIGHTH BOUNDED RUNTIME PASS / OBJECT EXACT SAMPLED LID RESOURCE REUSE PROVEN / 6000→3 MOVING RESOURCE CONSTRUCTIONS / RETAINED PIXELS + SUBMISSION COUNTERS PRESERVED / TARGET-DEVICE BUDGET STILL UNPROVEN**
+State: **ACTIVE / NINTH BOUNDED RUNTIME PASS / CURRENT OBJECT LATCH+LID RESOURCE REUSE PROVEN / 14,000→7 MOVING RESOURCE CONSTRUCTIONS / 20 RETAINED FRAME PAIRS EXACT / TARGET-DEVICE BUDGET STILL UNPROVEN**
 
 ## Current bounded claim
 
-This activation followed the previous Runtime handoff instead of reopening Weather reuse, moving-sapling reuse, compact-tree cost, Nature material sharing, Wreckline LOD, or inventing a new LOD system.
+This activation did not open a second Runtime lane. It extended the existing Object Runtime PR #13 because the previous Runtime evidence had become dependency-stale in one important way: Animation PR #10 advanced from the original lid-only 2.0 s clip to the exact 2.5 s latch-release → unchanged lid clip → latch-reengage sequence.
 
-The previous status named **actual Object lid clip target-host playback cost once a receiving-engine articulation path exists** as the strongest next candidate. That dependency is now boundedly available:
+The previous Runtime PASS explicitly required rebind if Animation identity changed. That condition is now true.
 
-- Object Materials PR #6 reconstructs the exact source component roles in pinned Godot 4.7.2 and already proves exact Animation-derived articulated poses;
-- Object Animation PR #10 retains the complete source-owned 81-sample / 80-displayed-sample `lid-open-hold-close-001` clip;
-- Object Technical Art PR #7 separately proves exact current UC-published Object GLB import, but that GLB is still a static import proof and does **not** yet expose a proven dynamically segmented lid.
+The strongest bounded question was therefore:
 
-Runtime therefore asked one narrow receiving-resource question:
-
-> Can the exact current 80 displayed authored lid samples reuse the same three moving proof nodes / meshes / materials and update only their exact rigid transforms, instead of rebuilding moving resources for every sample, while retaining identical proof pixels and renderer submission counters?
+> Can the already-proven stable-resource lifetime strategy survive the **current exact 100-visible-sample latch+lid sequence**, now involving seven heterogeneous moving proof components rather than only three lid-side components, while preserving exact source / Animation / Hard-Surface / Rigging identities and exact retained pixels/submission counters?
 
 Result:
 
-**`PASS_REUSE_RIGID_LID_TARGET_HOST_RESOURCES`**
+**`PASS_REUSE_HETEROGENEOUS_LID_LATCH_TARGET_HOST_RESOURCES`**
 
-The exact synthetic rebuild control constructs **6,000 moving nodes + 6,000 moving meshes + 6,000 moving materials** across the retained workload. The reuse candidate constructs **3 / 3 / 3**, a **99.95% reduction** for every class, while retaining exact moving-resource identity throughout all 2,000 updates. All 14 retained control/candidate frame pairs are byte-identical and all retained draw/object/primitive counter pairs are exact.
-
-`axm-create-me` remains coordination-only. All Runtime implementation and evidence live in `axm-object-design`.
+`axm-create-me` remains coordination-only. Product/evidence implementation remains in `mike-axiom-mir/axm-object-design`.
 
 ## Continuity / previous status preservation
 
-The complete seventh Runtime pass remains preserved at the prior coordination-file blob:
+The complete eighth Runtime pass remains preserved at exact pre-update status blob:
 
-`3adb377015c10a55e2ae338b54a757c18802d739`
+`e087058164539620456b202e853afffcb8331e2a`
 
-That pass proved three-source immutable Nature material sharing in Map Runtime PR #17 (`6 → 1` proof-material constructions, byte-identical retained frames). It is not rewritten as Object evidence here.
+Its Object lid-only result remains valid in its original exact scope:
+
+- Runtime head `c43613a5c28ab899a0c65d57ed85833310b38adf`;
+- old Animation donor `12a350fc38f67348f342cd0e53ed6b16383b789d`;
+- 80 repeated-visible lid samples;
+- 3 moving proof components;
+- 6,000 → 3 node / mesh / material constructions across 2,000 updates;
+- artifact `10437877884`.
+
+The current pass supersedes that evidence only for **current Animation dependency identity**. It does not rewrite the historical PASS.
 
 ## Constellation / overlap scan
 
@@ -40,30 +43,25 @@ Read before acting:
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - `studio/specialists/12_runtime_optimization.md`;
 - previous Runtime status;
-- newest Runtime, Animation, Materials, Technical Art, Environment, VFX, Geometry, Rigging, Organic and Procedural evidence;
-- current open PRs across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+- current open PR/status evidence across the design constellation;
+- current Object Hard-Surface, Rigging, Materials, Animation, Environment and Technical-Art evidence.
 
 Relevant placement decisions:
 
-- **Weapon / Armor / Unit / Misc:** no stronger open measured receiving-runtime lane surfaced; no speculative budget system was invented.
-- **Character PR #2:** source form is still under visual/form review and has no accepted animation-ready receiving path; Runtime did not pre-optimize it.
-- **Animal PRs #4/#6/#5:** connected topology, sampled deformation and a deterministic sampled motion loop exist, but target-engine/controller playback remains unproved and Art Direction/Visual QA still own motion/deformation acceptance; Runtime did not duplicate those lanes.
-- **Building PR #3:** current receiving lookdev is active, but no new measured runtime bottleneck exceeds the Object moving-resource gap.
-- **Nature PR #9:** source winding migration changes indices/visual culling correctness, not counts; no performance gain is inferred. A source-owned LOD/instancing candidate still does not exist.
-- **Weather PRs #2/#3:** source/procedural atmosphere fields remain visual-domain evidence. Map Runtime/VFX already own the real same-process receiving work.
-- **Map Runtime PR #8:** Weather `ImmediateMesh` reuse already proven; not repeated.
-- **Map Runtime PR #10:** compact east-tree receiving budget already measured; not repeated.
-- **Map Runtime PR #13:** moving sapling node / `ArrayMesh` / material reuse already proven; not repeated.
-- **Map Runtime PR #17:** immutable three-source Nature proof-material sharing already proven; not repeated.
-- **Map VFX PR #16:** owns current dense 17-state Weather + sapling live update fidelity. Runtime does not retake VFX opacity or continuity ownership.
-- **Map Environment PR #18:** owns migrated rear-tree normal-culling receiving acceptance. Runtime does not turn a correctness repair into an optimization claim.
-- **Object Hard-Surface PR #12 / Procedural PR #11:** current registration/clearance/configuration work does not change the exact lid source/rig dimensions consumed here.
-- **Object Animation PR #10:** source-owned clip owner. Runtime consumes its exact current head and exact authored samples unchanged; it does not retime, interpolate or modify easing.
-- **Object Materials PR #6:** supplies the exact segmented articulated Godot proof representation used here. Runtime does not change surface values.
-- **Object Technical Art PR #7:** separately proves exact UC-published GLB import. Runtime explicitly does not claim that static GLB already has dynamic lid segmentation.
-- **Universal Creation / Profession Fabric:** unchanged. No global animation/runtime cache is extracted from one Object proof.
+- **Weapon / Armor / Unit / Misc:** no stronger measured receiving-runtime handoff exists; no speculative budget framework was invented.
+- **Character:** current work remains geometry/organic/visual preparation; no accepted animation-ready target-host path justifies Runtime optimization.
+- **Animal:** Geometry and Organic are actively evaluating connected-forelimb candidates against bounded Rigging evidence. Runtime does not pre-optimize a mesh/deformation identity still under perceptual review.
+- **Building:** current presentation work does not expose a higher-risk measured Runtime gap than the changed Object motion identity.
+- **Nature / Map:** prior Runtime passes already cover Weather mesh reuse, compact-tree cost, moving sapling resource reuse and immutable multi-source Nature material sharing. The accepted rear-tree winding/culling work is a correctness migration, not a performance claim.
+- **Map Environment / VFX:** current world/object replacement and current-world atmosphere rebind are already active in their own receiving lanes; Runtime does not duplicate them without a measured bottleneck.
+- **Object Hard-Surface PR #14:** now source-binds `latch_*_keeper -> lid_shell` and `latch_*_lever -> front_service_panel` without changing host geometry.
+- **Object Rigging PR #15:** now provides the exact review-only bilateral latch-lever articulation candidate and exact 0..50° envelope. Runtime consumes it; it does not relabel it physical mechanism truth.
+- **Object Materials PR #6:** now has newer keeper surface-owner evidence, but Runtime remains stacked on its previously proven articulated Godot receiving representation. No surface values are changed here.
+- **Object Animation PR #10:** current exact head `13069d6b6180e5d9e07009f6a263375ca16ddb60` owns the 101-endpoint / 100-visible latch+lid choreography and leaves runtime/device performance explicitly unclaimed.
+- **Object Technical Art PR #7 / UC:** still proves static UC-published GLB import only; no exact dynamically segmented lid/latch GLB is claimed.
+- **Universal Creation / Profession Fabric:** unchanged. One additional Object rebind does not justify a new global runtime subsystem.
 
-## Runtime implementation lane
+## Existing Runtime lane reused
 
 Repository:
 
@@ -71,264 +69,276 @@ Repository:
 
 Draft PR:
 
-**`#13 — Runtime: reuse rigid lid target-host resources across exact sampled clip`**
+**#13 — Runtime: reuse rigid lid target-host resources across exact sampled clip**
 
 Branch:
 
 `studio/runtime-object-lid-sampled-playback-reuse-001`
 
-Exact tested Runtime head:
+Current exact Runtime head:
 
-`c43613a5c28ab899a0c65d57ed85833310b38adf`
+**`2c1d6005124b2fc1cdb57667b251e5273ee80d27`**
 
-Exact stacked prerequisite:
+Base remains exact Object Materials receiving head:
 
-`c8b775d85f6007eab8d05fdb5e2ddc3e4ab871d4` — Object Materials PR #6 receiving head.
+`c8b775d85f6007eab8d05fdb5e2ddc3e4ab871d4`
 
-Runtime adds only bounded proof/evidence machinery:
+No second Runtime PR was opened.
 
-- `runtime/object_lid_runtime_contract_001.json`;
-- `runtime-proof/project.godot`;
-- `runtime-proof/lid_motion_budget_observe.gd`;
-- `tools/verify_object_lid_runtime.py`;
-- `tests/test_object_lid_runtime.py`;
-- `.github/workflows/object-lid-runtime-reuse.yml`.
+## Exact dependency identities
 
-No Object source geometry, attachment interfaces, fastener clearance, Rigging plan, Animation clip timing/easing, Materials scalar PBR values, Technical Art UC code, collision, physics, gameplay, UC, Profession Fabric, or `axm-create-me` product implementation changed.
+Object source:
 
-## Exact source / receiving identities
+- asset: `modular-equipment-case-001`;
+- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`.
 
-- Materials receiving base: `c8b775d85f6007eab8d05fdb5e2ddc3e4ab871d4`;
-- current Animation donor: `12a350fc38f67348f342cd0e53ed6b16383b789d`;
-- Rig donor: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
-- Object source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- exact clip digest: `9e149195ab315f83f2d6f7d76f374f4be245567f77402de3e8a1d40ab79ef340`;
-- rig-plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
-- exact clip: 2.0 s / 40 Hz / 81 endpoint-inclusive samples / 80 displayed samples under the existing omit-duplicate-endpoint repeat policy;
-- exact declared moving proof components: **3** (`lid_shell` plus source-declared lid-side hinge components);
-- renderer: pinned Godot 4.7.2 GL Compatibility.
+Current Animation:
 
-The Runtime workflow rebuilds current Animation motion evidence from exact PR #10 bytes and requires its clip/rig/hinge identities to match the receiving payload before Godot may run.
+- exact head: `13069d6b6180e5d9e07009f6a263375ca16ddb60`;
+- sequence ID: `lid-latch-open-hold-close-001`;
+- sample grid: `40 Hz`;
+- duration: `2.5 s`;
+- endpoint-inclusive samples: `101`;
+- repeated-visible samples: `100`;
+- exact existing base lid clip remains copied as all 81 original samples, unretimed and unretargeted.
+
+Lid Rigging:
+
+- exact donor: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`.
+
+Hard-Surface latch ownership:
+
+- exact donor: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
+- exact contract SHA-256: `0702e4180f858d29c42ff8c38a61eaa16278d6848c8ce6f3ecfae172969ca8ae`;
+- two keepers are lid-owned;
+- two levers are front-service-panel-owned.
+
+Latch Rigging:
+
+- exact donor: `3b667ff5d30c46ec2fe7da7679518970f8610018`;
+- exact articulation-plan SHA-256: `81c27ab7b73ed9a43cb3f554b56c3f4294b893712075e33d13f5b02e008455db`;
+- donor result: `PASS_BOUNDED_FRONT_LATCH_LEVER_ARTICULATION`;
+- the pivot remains a **review-only derived candidate**, not a physical latch joint claim.
+
+Renderer:
+
+- pinned Godot `4.7.2` GL Compatibility.
+
+## Bounded Runtime improvement
+
+PR #13 now adds a second, current-dependency Runtime contract/proof path instead of overwriting the old historical proof:
+
+- `runtime/object_lid_latch_runtime_contract_001.json`;
+- `runtime-proof/lid_latch_motion_budget_observe.gd`;
+- `tools/verify_object_lid_latch_runtime.py`;
+- `tests/test_object_lid_latch_runtime.py`;
+- extended `.github/workflows/object-lid-runtime-reuse.yml`.
+
+The exact current receiving workload contains **7 moving proof components**:
+
+1. the existing three lid / lid-hinge moving proof components from the Materials articulated receiving representation;
+2. two lid-owned front latch keepers;
+3. two front-service-panel-owned latch levers using the exact Rigging review pivots.
+
+No source geometry, Hard-Surface ownership, Rigging plan, Animation sample, Materials scalar-PBR value, collision, physics, gameplay, UC implementation or profession implementation is modified.
 
 ## Measure-before / after design
 
-### Control
+### Synthetic control
 
-`rebuild_moving_parts_control` is deliberately synthetic measurement control, **not a shipped or claimed current product implementation**.
+`rebuild_moving_parts_control` remains explicitly a measurement control, not a claimed shipped implementation.
 
-For every displayed authored sample it:
-
-- frees the previous three moving proof components;
-- rebuilds three `MeshInstance3D` nodes;
-- rebuilds three primitive mesh resources;
-- rebuilds three material resources;
-- reapplies the exact source-derived lid / hinge pose.
+At every visible authored sample it destroys and reconstructs all seven moving proof nodes, meshes and materials before applying the exact source-bound transforms.
 
 ### Candidate
 
-`reuse_moving_parts_transform`:
+`reuse_moving_parts_transform` creates the same seven moving node / mesh / material resources once, retains their identities, and changes only the exact transforms required by the current Animation sequence:
 
-- creates the same three moving nodes / meshes / materials once;
-- keeps their instance identities stable;
-- changes only exact source-derived rigid transforms for subsequent authored samples.
+- lid-side components rotate about the exact lid hinge;
+- lid-owned keepers inherit the exact lid transform;
+- latch levers rotate about the exact PR #15 review pivots.
 
-Static Object proof components, source/clip/rig identity, candidate Materials family, cameras, lighting and sample order are fixed between modes.
-
-### Workload
+### Exact workload
 
 Per mode:
 
-- one exact 80-displayed-sample evidence cycle;
-- 24 repeated stress cycles × 80 = 1,920 updates;
-- **2,000 total moving updates**;
-- retained indices: `0 / 15 / 30 / 40 / 50 / 65 / 79`;
-- contexts: `three_quarter / rear_hinge`;
-- **14 exact retained control/candidate image pairs**.
+- 100 visible authored samples;
+- 19 additional stress cycles × 100 = 1,900 updates;
+- **2,000 total updates**;
+- capture indices: `0 / 5 / 10 / 25 / 40 / 50 / 60 / 90 / 95 / 99`;
+- two fixed cameras: `three_quarter / rear_hinge`;
+- **20 exact retained control/candidate frame pairs**.
 
-This exercises exact sampled opening / hold / closing / near-wrap states, but it is not wall-clock 40 Hz playback or `AnimationPlayer` acceptance.
+The workload spans closed state, latch release, lid opening, peak/hold, lid closure, latch re-engagement and near-repeat state. It is still sampled proof, not wall-clock controller playback.
 
-## Exact-head evidence
+## Exact-head validation
 
-Dedicated workflow:
+Workflow:
 
-`Object lid sampled Runtime resource evidence`
+**`35082215460 — Object lid/latch sampled Runtime resource evidence — SUCCESS`**
 
-Exact-head run:
+Exact tested head:
 
-**`35076380439 — SUCCESS`**
+**`2c1d6005124b2fc1cdb57667b251e5273ee80d27`**
 
-Python 3.11 and 3.13 full Object test discovery passed. The exact Runtime job also passed:
+Passed on the exact head:
 
-- exact Runtime-head / Materials-base ancestry binding;
-- exact current Animation and Rig donor materialization;
-- exact current Animation motion rebuild;
-- exact articulated receiving payload rebuild;
-- source/clip/rig/hinge identity gates;
-- pinned Godot 4.7.2 hash verification;
-- synthetic control same-process run;
-- stable-resource candidate same-process run;
+- Python 3.11 full Object test discovery;
+- Python 3.13 full Object test discovery;
+- Materials-base ancestry binding;
+- exact current Animation donor materialization;
+- exact current base lid motion rebuild;
+- exact Hard-Surface ownership donor SHA verification;
+- exact latch Rigging donor plan SHA verification;
+- exact latch Rigging receipt rebuild;
+- exact 101-sample current Animation sequence rebuild;
+- exact source / clip / rig / ownership / sample-count identity gates;
+- pinned Godot 4.7.2 verification;
+- synthetic control target-host run;
+- stable heterogeneous-resource candidate target-host run;
 - before/after verifier;
-- retained artifact upload.
+- retained evidence upload.
 
-Retained artifact:
+Same-head inherited Object service-module fit workflow also completed successfully; the Runtime proof itself additionally reruns the full Object unit-test suite in both supported Python versions.
 
-- artifact ID: **`10437877884`**;
-- name: `object-lid-runtime-001-c43613a5c28ab899a0c65d57ed85833310b38adf`;
-- size: **1,609,898 B**;
-- Actions SHA-256: `6141f406f123c7bfc544d853491ca75a8f0d2f7d23df4f7a41c1149ef9a8060e`;
-- exact-head binding: `c43613a5c28ab899a0c65d57ed85833310b38adf`.
+## Exact measured lifecycle result
 
-The artifact was downloaded independently after CI and rehashed locally. Local SHA-256 reproduces the Actions digest exactly. Its comparison receipt, both mode receipts, exact motion evidence, receiving payload, donor-head files and retained PNGs were inspected.
-
-## Exact before / after measurements
+Across exactly 2,000 updates per mode:
 
 Moving nodes constructed:
 
-- control: **6,000**;
-- candidate: **3**;
+- control: **14,000**;
+- candidate: **7**;
 - reduction: **99.95%**.
 
 Moving meshes constructed:
 
-- control: **6,000**;
-- candidate: **3**;
+- control: **14,000**;
+- candidate: **7**;
 - reduction: **99.95%**.
 
 Moving materials constructed:
 
-- control: **6,000**;
-- candidate: **3**;
+- control: **14,000**;
+- candidate: **7**;
 - reduction: **99.95%**.
 
-Candidate moving node / mesh / material identities remain stable through every one of the **2,000** updates.
+Candidate node / mesh / material instance identities remain stable through the complete workload.
 
-### CPU-side submission observations
+This is a stronger reuse case than the prior lid-only proof because one receiving update path now covers both:
 
-These values are useful same-runner comparative observations, **not portable budgets**:
+- parent-following rigid motion (`lid_shell`-owned keepers);
+- locally articulated rigid motion (front-panel-owned levers around exact review pivots).
 
-Combined 2,000 updates:
+Hosted-runner CPU-side submission observations are retained inside the exact evidence archive, but they are intentionally not promoted here as target-device budgets. The hard gate remains deterministic resource-lifecycle reduction plus exact retained visual/submission equivalence.
 
-- median: **202 → 12 µs** (`-94.0594%`);
-- p95: **450 → 55 µs** (`-87.7778%`);
-- max: **1,471 → 201 µs**;
-- total: **464,189 → 31,758 µs** (`-93.1584%`).
+## Visual / renderer tradeoff for Art Direction
 
-Stress-only 1,920 updates:
+The exact comparison gate requires every one of the **20 retained control/candidate PNG pairs** to be byte-identical.
 
-- median: **200 → 12 µs** (`-94.0%`);
-- p95: **299 → 19 µs** (`-93.6455%`);
-- total: **423,541 → 26,482 µs** (`-93.7475%`).
+It also requires exact equality for each retained sample/camera pair in:
 
-The Runtime gate does not require timing improvement, because hosted-runner CPU timings are noisy. The primary gate is exact resource lifecycle reduction plus visual/submission equivalence. The observed timing result is retained because it strongly supports the same mechanism in this exact run.
+- draw calls in frame;
+- visible objects in frame;
+- primitives in frame.
 
-### Renderer submission counters
-
-Every retained sample/context has exact control/candidate equality for:
-
-- draw calls;
-- visible objects;
-- primitives.
-
-Counter values vary legitimately by view / sampled pose (for example rear-hinge visibility changes) but never vary **between modes for the same exact sample/context**.
-
-### Retained memory-counter observations
-
-Every retained comparison reports equal current proof-host counters:
-
-- buffer memory: **6,494,932 B → 6,494,932 B**;
-- texture memory: **9,310,915 B → 9,310,915 B**.
-
-These are observations only. Godot's exposed buffer/texture counters are not a complete proof of material/node allocator residency or VRAM savings.
-
-## Visual tradeoff for Art Direction
-
-All 14 retained control/candidate PNG pairs are **byte-identical**.
+All comparison gates passed.
 
 Art Director handoff:
 
 **`NONE_OBSERVED_IN_EXACT_RETAINED_PROOF_FRAMES`**
 
-Direct inspection of the candidate contact sequence shows the expected authored closed → opening → 100° hold → closing → near-neutral relationship in both retained cameras. The lifecycle optimization introduces no visible difference in these exact frames.
+That statement is strictly about the lifecycle optimization. It does **not** approve the underlying latch choreography, lid motion, Materials, form, lighting or final Object presentation.
 
-This does **not** approve the underlying lid motion timing, weight/personality, Object form, Materials surface family, lighting, or final animation/lookdev quality.
+## Retained evidence
+
+Artifact:
+
+- ID: **`10440716402`**;
+- name: `object-lid-latch-runtime-001-2c1d6005124b2fc1cdb57667b251e5273ee80d27`;
+- size: **`2,216,975 B`**;
+- GitHub digest: **`sha256:d5c5ec9cf5f4ab98655459f58cd5c7eea367adafb80248e50deca93b8be73464`**;
+- exact-head binding: `2c1d6005124b2fc1cdb57667b251e5273ee80d27`;
+- retention expiry reported by Actions: 2026-10-16.
+
+The archive retains both mode receipts, exact current sequence evidence, Materials receiving payload, exact ownership contract, rebuilt latch Rigging receipt, Runtime contract, donor-head bindings, comparison receipt and retained PNGs.
+
+No independent local rehash claim is added in this pass; the digest above is the GitHub Actions artifact digest.
 
 ## Reusable learning
 
-Runtime now has four materially different receiving-resource reuse cases:
+The repeated Runtime rule is strengthened from “reuse resources for rigid lid motion” to a broader but still bounded principle:
 
-1. **Weather dynamic field:** retain one node / `ImmediateMesh` / material while line geometry changes.
-2. **Moving Nature sapling:** retain one node / `ArrayMesh` / material while triangle geometry changes.
-3. **Static multi-source Nature:** share one immutable proof material across distinct meshes when the renderer semantics are truly identical.
-4. **Rigid Object articulation:** retain moving nodes / meshes / materials and update only rigid transforms when authored motion changes pose but not underlying resources.
+> **Resource lifetime should follow topology/material identity, not articulation count. When multiple rigid parts move through different transform relationships but their mesh/material resources remain immutable, preserve those resources and update transforms only. Prove source/ownership/rig/animation identities separately, then require retained visual and renderer-submission equivalence.**
 
-The strengthened reusable rule is:
+This is now supported by distinct AXM cases involving dynamic Weather geometry, mutable Nature geometry, shared immutable Nature materials, simple rigid Object articulation and mixed parent-follow/local-pivot Object articulation.
 
-> **Match resource lifetime to what actually changes. If authored motion changes only a rigid transform, do not rebuild immutable receiving meshes/materials per sample. Preserve source/rig/clip identity independently, and require visual plus submission-counter equivalence before calling reuse safe.**
-
-This is a repeated Runtime principle, not yet one universal runtime implementation or UC subsystem.
+That repeated evidence is enough to treat the rule as a strong Runtime design pattern, but not yet enough to centralize Object semantics or claim one universal cache/instancing implementation.
 
 ## Representation boundary
 
-This pass uses the **Materials articulated Godot proof representation reconstructed from exact source component dimensions**, because that path exposes source-declared moving roles and exact Animation-derived poses.
+The current proof still uses the Materials-derived Godot receiving representation reconstructed from exact Object source component dimensions.
 
-Technical Art PR #7 separately proves exact current UC-published Object GLB import, but that retained GLB is still a static two-mesh assembly proof. This activation does **not** claim:
+It does **not** prove:
 
-- that the exact UC GLB exposes the lid as an independently animated node;
-- that this Runtime proof is byte-identical to a future segmented GLB import path;
-- that an `AnimationPlayer` or controller already consumes the clip.
+- that the exact UC-published GLB exposes the lid, keepers and levers as independently animated nodes;
+- that the exact future target import has the same segmentation/resource graph;
+- that `AnimationPlayer` or a controller executes this sequence;
+- that a physical latch mechanism exists.
 
-A future exact GLB articulation path must re-run Runtime evidence rather than inherit this PASS.
+A future exact segmented target-import path must re-run Runtime evidence instead of inheriting this PASS by story.
 
 ## Truth boundary / non-claims
 
-This activation proves only that, in the exact Materials-derived Godot 4.7.2 proof host:
+This activation proves only that, in the exact pinned Godot proof host and exact current donor identities:
 
-1. exact current Animation PR #10 source/clip evidence rebuilds and matches the receiving source/rig/hinge identity;
-2. 80 exact displayed authored samples are consumed without retiming or interpolation;
-3. the synthetic rebuild control constructs 6,000 moving nodes / meshes / materials across 2,000 updates;
-4. the reuse candidate constructs only three of each and retains exact identities thereafter;
-5. all 14 retained control/candidate PNG pairs are byte-identical;
-6. draw/object/primitive counters match exactly for every retained sample/context;
-7. same-runner CPU submission observations strongly favor reuse;
-8. retained buffer/texture counters are equal observations.
+1. the 101-endpoint / 100-visible current Animation sequence rebuilds from exact current donors;
+2. seven exact moving proof components can retain node / mesh / material identity while consuming all visible authored samples;
+3. the synthetic rebuild control constructs 14,000 nodes / meshes / materials across 2,000 updates;
+4. the reuse candidate constructs seven of each and retains those identities;
+5. all 20 retained before/after PNG pairs pass byte-identity comparison;
+6. retained draw/object/primitive counters match pairwise;
+7. no lifecycle-induced visual tradeoff is observed in those exact retained frames.
 
 It does **not** establish:
 
-- `AnimationPlayer`, controller or state-machine acceptance;
-- real-time / wall-clock 40 Hz pacing;
-- target-device FPS or frame-time budget;
-- GPU timing, VRAM or allocator savings;
+- a real latch hook, catch, spring, retention or release mechanism;
+- full-component collision or physics clearance;
+- `AnimationPlayer`, runtime controller or state-machine acceptance;
+- wall-clock 40 Hz playback or frame-time acceptance;
+- target-device FPS, GPU timing, VRAM or allocator budgets;
 - browser/mobile/console performance;
-- exact UC GLB dynamic lid segmentation or playback;
-- collision, physics, attachment dynamics or gameplay;
-- final animation timing/weight/style;
-- final Object Materials / Art Direction / Visual QA acceptance;
-- a global runtime registry/cache or UC extraction;
-- CANON, production readiness, or Runtime / Optimization mastery.
+- exact UC GLB dynamic lid/latch segmentation;
+- gameplay or interaction acceptance;
+- final Animation timing/weight/style;
+- final Materials / Art Direction / Visual QA acceptance;
+- CANON, production readiness, game readiness, or Runtime / Optimization mastery.
 
-## Root gate
+## Four-root gate
 
-- **Truth:** exact source/clip/rig heads and digests, workload, synthetic-control label, workflow, artifact hash, resource counts, retained pixels, submission counters and noisy-timing limitation are explicit. Static UC GLB import is not mislabeled as dynamic playback.
-- **Agency / non-domination:** Runtime changes receiving proof-resource lifetime only. Animation, Rigging, Materials, Technical Art, gameplay and merge authority remain with their owners; the four roots remain the merge gate.
-- **Continuity:** PR #13 stacks exactly on Materials PR #6; current Animation/Rig donors are pinned; previous Runtime status is preserved by exact blob identity; old Runtime PRs are not silently rewritten.
-- **Wisdom before speed:** Runtime waited until an actual segmented receiving-engine proof and exact source-owned clip both existed, then measured one lifecycle variable rather than inventing a broad animation framework or premature LOD/cache architecture.
+- **Truth:** current Animation, Hard-Surface, lid-Rigging and latch-Rigging identities are pinned; the synthetic control is labelled; the review-only latch pivot is not relabelled physical truth; exact workflow/artifact/resource counts and proof limitations are explicit.
+- **Agency / non-domination:** Runtime changes only receiving resource lifetime. Hard Surface retains construction/ownership authority, Rigging retains joint/constraint authority, Animation retains choreography authority, Materials retains surface authority, Art Direction / Visual QA retain perceptual acceptance, gameplay retains interaction authority.
+- **Continuity:** existing Runtime PR #13 was extended instead of duplicated. The prior lid-only result is preserved by exact status blob/head/artifact identity. Current evidence fails closed on donor/sample-count/ownership/rig drift.
+- **Wisdom before speed:** one exact stale dependency was rebound through the smallest useful mixed-articulation workload. No speculative global cache, LOD system, target-device budget or UC abstraction was introduced.
 
 ## Handoffs
 
-- **Animation:** the exact current 80 displayed lid samples are unchanged. Runtime found no reason to retime or reauthor them; only receiving-resource lifetime changed. Animation still owns timing/easing/style and any future `AnimationPlayer` / controller path.
-- **Materials / LookDev:** all retained before/after frames are byte-identical under the existing candidate surface family. Runtime does not force material sharing across unrelated components and does not alter scalar PBR values.
-- **Technical Art / UC Integration:** the next meaningful transport/runtime gate is an exact imported representation that exposes the lid/hinge as a proven dynamic transform target. Do not transfer this PASS automatically to the current static UC GLB.
-- **Hard Surface / Rigging:** source dimensions, hinge origin, 0–110° limit and exact rig-plan identity remain untouched. Any mechanical geometry/rig change invalidates this evidence and requires rerun.
-- **3D Art Director / Visual Observer:** lifecycle optimization shows `NONE_OBSERVED_IN_EXACT_RETAINED_PROOF_FRAMES`; this is not motion/lookdev acceptance.
-- **Capability Cartography:** record rigid-transform resource reuse as a fourth receiving-runtime reuse pattern. Do not extract a universal runtime cache from this one Object family.
+- **Animation PR #10:** current exact sequence is consumed unchanged. Any future sample-grid, choreography, donor or component-motion identity change invalidates this current Runtime evidence and requires rebind.
+- **Hard-Surface PR #14:** exact keeper/lever ownership is consumed without reinterpretation. A future physical pivot/hook/capture design changes mechanism identity and requires rebind.
+- **Rigging PR #15:** exact review pivots and plan identity are consumed. A future source-authored latch joint supersedes this review candidate for new Runtime evidence.
+- **Materials PR #6:** Runtime preserves existing scalar-PBR resources. If Materials changes moving component segmentation or receiving material identity, remeasure resource lifetime.
+- **Technical Art / UC:** do not inherit this PASS for a future segmented GLB import. Re-run on the exact target-import resource graph.
+- **Art Director / Visual QA:** lifecycle optimization has no observed pixel tradeoff across the 20 exact retained pairs, but motion/readability/lookdev quality remains theirs to judge.
 
-## Next Runtime / Optimization pass
+## Next strongest Runtime gate
 
-Inspect newest constellation first. Prefer a genuinely new dependency. Strong candidates are now:
+Do not add another optimization merely for activity.
 
-1. exact imported Object GLB articulation / `AnimationPlayer` cost **only once Technical Art exposes a proven dynamic lid target**;
-2. multi-source Nature LOD / instancing / residency only after a source-owned candidate exists;
-3. target-device measurement only when a real supported target and explicit budget exist;
-4. Animal target-host sampled playback only after an engine receiving path and sufficiently accepted deformation/motion surface exist.
+The next high-value Runtime step should require a genuinely new dependency, preferably one of:
 
-Do not infer mastery, target readiness, or a universal Runtime architecture from this PASS.
+1. an **exact segmented UC/target import** for the Object lid/keepers/levers, allowing this resource-lifetime rule to be tested on the real import graph rather than proof primitives; or
+2. a **measured current-world Map receiving bottleneck** introduced by the new real Object source + current VFX world, with before/after renderer/runtime evidence rather than assumed LOD value; or
+3. a second materially different articulated asset proving the mixed parent-follow/local-pivot lifetime rule transfers beyond this one Object before any reusable runtime abstraction is promoted.
+
+Until one of those exists, preserve this evidence and avoid churn.
