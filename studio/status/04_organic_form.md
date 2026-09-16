@@ -1,25 +1,27 @@
 # 04 — Organic Form Specialist Status
 
 Date: 2026-09-16
-State: **PASS_BOUNDED_CHARACTER_SHOULDER_TRANSITION_CANDIDATE / BASELINE CHARACTER SOURCE PRESERVED / EXACT TAPERED A-B RETAINED / ART DIRECTION + VISUAL QA + CONNECTED TOPOLOGY + DEFORMATION + RUNTIME HELD**
+State: **PASS_RESTRAINED_CHARACTER_SHOULDER_REVIEW_VARIANT / BASELINE + PRIOR TAPERED CANDIDATE PRESERVED / 15% LOCAL BULK REDUCTION / ART DIRECTION + VISUAL QA + CONNECTED TOPOLOGY + DEFORMATION + RUNTIME HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, the current Organic status, newest Art Director / Geometry / Rigging / Animation / Environment / Visual Observer state, and the active design PR constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, the previous Organic status, current Art Director / Geometry / Rigging / Animation / Visual Observer / Capability Cartographer state, and the newest active PR constellation before selecting work.
 
-`axm-create-me` remains coordination-only. Product/source/evidence changes in this activation stay in `mike-axiom-mir/axm-character-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains coordination-only. Product/source/evidence implementation in this activation stays in `mike-axiom-mir/axm-character-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+
+Previous Organic status remains traceable in Git history at blob `4fa6fd71a68cab7e0f71655f38a2d19101e6f96f`.
 
 ## Constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no newer source-owned organic surface outranks the Character shoulder handoff. No duplicate Organic lane opened there.
-- **Character:** Organic PR #2 remains the first neutral A-rest source. Its exact retained flex audit records the bilateral shoulders as the shallowest neutral mass interface: only `2/10` upper-arm root-ring samples lie inside/on the ribcage. Art Direction still requires direct proportion/mass review before replacing the source body.
-- **Animal:** Geometry owns the connected-forelimb candidate, Rigging owns weighting, and Animation now has exact Godot sampled playback. Their unresolved gates are perceptual/deformation acceptance, so Organic does not reshape the neutral Animal source underneath active downstream evidence.
-- **Nature:** the original sapling and compact east tree are already consumed downstream. Organic PR #8 supplies the distinct east-rear source body. Geometry has now reproduced the tapered-cap winding repair across all three real Nature sources, while Environment / Visual QA still need an exact receiving-scene A/B for the rear/right Map slot. No Nature form retune is justified before that receiving evidence exists.
-- **Building / Object:** active work is manufactured geometry, materials, attachment/rigging and target-host integration rather than organic form.
-- **Weather / Map:** current dynamic and composition work is owned by VFX, Environment and Runtime.
-- **UC / Profession Fabric:** no shared organic abstraction is justified by this local Character question.
+- **Weapon / Armor / Unit / Misc:** no open design PR currently supplies a stronger source-owned organic problem than the Character shoulder review surface. No Organic lane was invented there.
+- **Character:** PR #2 already carries the neutral A-rest baseline plus one exact tapered shoulder-transition candidate. Art Direction and Visual QA have not accepted source migration. Their unresolved concern is perceptual mass/proportion, including whether the transition reads too armored/pointed/overbuilt.
+- **Animal:** Geometry, Rigging and Animation already own connected-forelimb, weighting/deformation and sampled-playback questions. Motion direction remains visually held. Organic does not reshape the Animal neutral source beneath those active downstream lanes.
+- **Nature:** the rear tree is already source-owned in Organic PR #8. More importantly, a new dedicated Geometry PR #9 now owns the explicit tapered-cap **source-generator migration** requested by Geometry / Technical Art / Visual QA / Cartography. Organic therefore does not duplicate or silently absorb that migration. Rear/right receiving-scene normal-culling acceptance remains separate.
+- **Building / Object:** current active questions are manufactured form, materials, articulation, attachment and integration rather than organic mass design.
+- **Weather / Map:** current work is atmosphere, scene composition, target-host integrity and runtime/resource behavior.
+- **UC / Profession Fabric:** no shared humanoid bridge abstraction is justified by a second Character review variant.
 
-The highest-leverage non-duplicative Organic question is therefore the already-measured Character shoulder transition. Because Art Direction has not accepted a source reshape, the bounded move is a **derived review candidate**, not a silent replacement of the source body.
+The highest-leverage non-duplicative Organic move was therefore **not** a new source body. It was one smaller derived Character shoulder review variant that addresses the exact remaining “overbuilt/armored” risk while leaving both the source and the prior tapered candidate intact for A/B/C review.
 
 ## Selected lane
 
@@ -27,7 +29,7 @@ Repository:
 
 `mike-axiom-mir/axm-character-design`
 
-Existing Organic draft PR extended:
+Existing draft PR extended:
 
 **#2 — `Organic Form: add first character neutral A-rest study`**
 
@@ -35,46 +37,34 @@ Branch:
 
 `studio/organic-character-neutral-a-001`
 
-Exact retained final head:
+Exact tested head:
 
-`f55b56f3e6578af09e57c888337446ec3640c8e9`
+`f7cbabbdc1bff949c58b2276ab2d660f80cc29c4`
 
-PR state after final evidence:
+PR state at completion:
 
 **OPEN / DRAFT / MERGEABLE**
 
-The baseline source is still the source-owned reference. The new shoulder body is explicitly:
+## Preserved identities
 
-`DERIVED_ORGANIC_FORM_CANDIDATE_NOT_ACCEPTED_SOURCE`
+### Source-owned baseline — unchanged
 
-## Exact baseline identity preserved
-
-Baseline study:
+Study:
 
 `character-neutral-a-001`
 
-Baseline source digest:
+- source digest: `64c39965e6638154b70727c29690ce4bd8e992c1400bc003d6a25dcbe73a56b6`;
+- mesh digest: `32adddbc9dab22d989869cdc64db24d0d89985a505f26483e7c6b27209f97dbe`;
+- `472` vertices / `880` triangles;
+- A-rest shoulder→wrist down angle `32.550003492193°`;
+- 13 flex zones remain `DECLARED_NOT_DEFORMATION_TESTED`;
+- original upper-arm root-ring / ribcage observation remains `2/10` samples inside/on on each side.
 
-`64c39965e6638154b70727c29690ce4bd8e992c1400bc003d6a25dcbe73a56b6`
+No baseline landmark, limb segment, primary mass, flex-zone truth state, authored height, coordinate convention, donor record or source/mesh identity changed.
 
-Baseline mesh digest:
+### Prior tapered review candidate — unchanged
 
-`32adddbc9dab22d989869cdc64db24d0d89985a505f26483e7c6b27209f97dbe`
-
-Baseline structural facts remain:
-
-- `472` vertices;
-- `880` triangles;
-- `0` degenerate triangles;
-- A-rest shoulder→wrist downward angle `32.550003492193°`;
-- all 13 flex zones remain `DECLARED_NOT_DEFORMATION_TESTED`;
-- original shoulder root-ring/ribcage observation remains `2/10` on both sides.
-
-No baseline landmark, limb segment, primary mass, flex-zone state, authored height, coordinate convention, donor record or primary source digest was changed.
-
-## Bounded improvement — tapered shoulder transition candidate
-
-Candidate study:
+Study:
 
 `character-neutral-a-shoulder-bridge-001`
 
@@ -82,146 +72,178 @@ Contract:
 
 `axm.character-shoulder-bridge-candidate/v0.2`
 
+- source digest: `efa9b7d93cb6101a7f1c59d30e88f88ceeb124c37b44140b21771420c4365a61`;
+- mesh digest: `6a1792607906a1d72822d96e72f86b0b6e0b108d2e242c42fcd40c5811f004e7`;
+- bridge anchor `[±0.16, 0.0, 1.43] m`;
+- anchor radius `0.100 m`;
+- shoulder/distal radius `0.075 m`;
+- upper-arm root radius `0.075 m`;
+- proximal bridge ring inside/on ribcage `6/10` each side;
+- `516` vertices / `960` triangles;
+- whole-body bounds and A-rest angle unchanged versus baseline.
+
+This remains a historical/current review candidate. It was **not** silently rewritten by the refinement below.
+
+## Bounded improvement — restrained shoulder bridge review variant
+
+New contract:
+
+`axm.character-shoulder-bridge-refinement/v0.1`
+
+New review variant:
+
+`character-neutral-a-shoulder-bridge-001-r0p085`
+
 Scoped result:
 
-**`PASS_BOUNDED_SHOULDER_TRANSITION_BRIDGE_CANDIDATE`**
+**`PASS_RESTRAINED_SHOULDER_BRIDGE_REVIEW_VARIANT`**
 
-The candidate adds only two local bilateral tapered proof regions:
+Only one modeled parameter changes relative to the exact prior tapered candidate:
 
-- `shoulder_bridge_L`;
-- `shoulder_bridge_R`.
+- bilateral `shoulder_transition_regions[*].radius_anchor_m`: **`0.100 m -> 0.085 m`**;
+- absolute reduction: `0.015 m`;
+- relative reduction: **15%**.
 
-Exact source-local bridge description per side:
+Everything else in the prior candidate is required to remain exact after normalization:
 
-- inner anchor: `[±0.16, 0.0, 1.43] m`;
-- endpoint: the existing exact `shoulder_L` / `shoulder_R` landmark;
-- anchor radius: `0.10 m`;
-- shoulder radius: `0.075 m`;
-- existing upper-arm root radius: `0.075 m`;
-- distal bridge/upper-arm radius mismatch: `0.0 m`;
-- bridge anchor ribcage implicit value: `0.645395692958` on both sides;
-- proximal bridge ring samples inside/on ribcage: `6/10` on both sides;
-- original upper-arm root ring inside/on ribcage retained as baseline truth: `2/10` on both sides.
+- same bridge anchors;
+- same shoulder endpoints;
+- same `0.075 m` distal bridge radius;
+- same `0.075 m` upper-arm root radius;
+- same baseline landmarks / segments / masses / flex zones / design constraints / coordinate system / donor / truth state;
+- same global candidate counts: `516` vertices / `960` triangles;
+- same whole-body bounds;
+- same A-rest angle.
 
-The `6/10` value is a local source-form continuity proxy only. It is **not** a deformation, skinning, anatomy or biological acceptance metric.
+Exact refined identities:
 
-Candidate mesh:
+- refined source digest: `ca3f117b23ec41c6571cadbfe5f798a6982f228d12663aa07860d3e83fd9f236`;
+- refined mesh digest: `160698abaeeca8323e1b12c237f023dbc1c8a46fb4b5d0493336ad0789fd6798`.
 
-- `516` vertices;
-- `960` triangles;
-- `+44` vertices / `+80` triangles versus baseline;
-- no degenerate triangles;
-- whole-body bounds unchanged;
-- A-rest angle unchanged at `32.550003492193°`.
+The audit pins both prior candidate digests. It removes the refinement metadata, restores the anchor radius to `0.100 m`, and requires exact canonical equality to the prior candidate. Any unrelated candidate drift therefore fails closed instead of being hidden inside the refinement.
 
-Exact candidate identities:
+## Structural / form observations
 
-- candidate source digest: `efa9b7d93cb6101a7f1c59d30e88f88ceeb124c37b44140b21771420c4365a61`;
-- candidate mesh digest: `6a1792607906a1d72822d96e72f86b0b6e0b108d2e242c42fcd40c5811f004e7`.
+The same local source-form continuity proxy changes bilaterally:
 
-## Direct visual evidence and rejected intermediate
+- prior tapered candidate proximal ring inside/on ribcage: `6/10`;
+- restrained variant: **`8/10`**;
+- original baseline upper-arm root truth remains `2/10` and is not relabelled.
 
-This activation did not stop at structural metrics.
+This is a geometric overlap observation only. More overlap is **not** treated as proof of anatomy, skinning or deformation quality.
 
-An earlier structurally green candidate added two ellipsoid shoulder masses. Exact intermediate head:
+Local bridge depth envelope changes from:
 
-`700a72d65f45c4206ea9aa6a756958853059ccaa`
+- prior candidate: `[-0.100,+0.100] m` in local scene Y around the bridge, total `0.200 m`;
+- restrained variant: `[-0.085,+0.085] m`, total `0.170 m`.
 
-Intermediate retained artifact:
+That is the intended **15% local bulk reduction**. The refined bridge also retreats locally from the prior inner/lower footprint while preserving the shoulder endpoint and full-body envelope.
 
-- artifact ID `10434972611`;
-- archive SHA-256 `01dd9fe07d6e6586d20eb28059a684210a5c5344b123062f0151bb438ec48f9b`.
+Before publication, the exact current Character source/candidate logic was reconstructed against the retained source/mesh digests and front/side/top wire comparisons were inspected while sweeping the bridge radius. The `0.085 m` variant was selected over `0.080 / 0.090 / 0.095 / 0.100 m` alternatives because it materially reduces the visible bridge envelope while retaining a taper rather than simply deleting the transition. CI now retains exact prior-v0.2 versus refined front/side/top SVG evidence from the same source logic.
 
-Its front/side/top wire evidence was rasterized and inspected directly. The candidate read as two oversized round shoulder bulbs rather than a restrained torso-to-arm transition. That structurally passing candidate was **rejected as the adopted Organic result** instead of being reported as success merely because tests were green.
-
-The retained v0.2 candidate replaces those ellipsoids with short tapered bridge regions. Direct inspection of the exact final retained front/side/top SVGs after rasterization shows:
-
-- the shoulder gap is locally occupied by a narrow tapered transition rather than a new spherical mass;
-- the upper-arm endpoint and A-rest limb direction remain visibly unchanged;
-- front/top views show the change localized around the shoulder root;
-- side-view body depth and the global body envelope remain visually unchanged at this proof-wire scale;
-- the candidate still reads as disconnected form-study geometry, not finished skin.
-
-These are Organic Form observations only. They do not substitute for Art Director or independent Visual QA acceptance.
+These are Organic Form observations only. Art Direction and Visual QA still own perceptual acceptance.
 
 ## Exact-head CI and retained evidence
 
-Final workflow:
+Workflow:
 
-`35068135451 — Character organic form baseline` — **SUCCESS**.
+**`35073350927 — Character organic form baseline` — SUCCESS**
 
-- Python 3.11: compile, full unit suite, baseline evidence, flex-transition audit, shoulder-transition candidate evidence, exact-head binding and artifact upload all PASS.
-- Python 3.13: compile and full unit suite PASS.
+Exact workflow head:
 
-Final retained artifact:
+`f7cbabbdc1bff949c58b2276ab2d660f80cc29c4`
+
+Python 3.13:
+
+- compile PASS;
+- full unit suite PASS.
+
+Python 3.11:
+
+- compile PASS;
+- full unit suite PASS;
+- baseline evidence PASS;
+- flex-transition audit PASS;
+- prior tapered shoulder candidate evidence PASS;
+- restrained shoulder refinement evidence PASS;
+- exact-head binding PASS;
+- retained artifact upload PASS.
+
+Retained artifact:
 
 - name: `character-neutral-a-001-evidence`;
-- artifact ID: **`10434996906`**;
-- size: `97,495` bytes;
-- exact workflow head: `f55b56f3e6578af09e57c888337446ec3640c8e9`;
-- archive SHA-256: **`370609871734790514fb1204335c90715da311c0a0ed0ab70fae8c5ab623f902`**.
+- artifact ID: **`10436634497`**;
+- size: **159,558 bytes**;
+- GitHub SHA-256: **`69fef6bf70848739164751d765236e68f86ba916a0ae209e30167dda666d57b1`**;
+- exact head: `f7cbabbdc1bff949c58b2276ab2d660f80cc29c4`.
 
-The artifact was downloaded independently and rehashed to the same SHA-256. Its `exact-head.txt` records the exact PR head above.
+The retained evidence now includes the previous baseline/flex/shoulder packet plus:
 
-Retained evidence includes:
+- refined review source JSON;
+- refined mesh JSON;
+- refined OBJ;
+- exact prior-v0.2 vs refined front/side/top SVGs;
+- shoulder refinement audit;
+- exact workflow-head binding.
 
-- original source / mesh / OBJ / front-side-top SVGs;
-- existing flex-transition audit;
-- shoulder candidate source / mesh / OBJ;
-- baseline/candidate shoulder front-side-top SVG A/B;
-- shoulder-transition audit;
-- exact-head binding.
+The workflow itself is the retained exact execution evidence. No target-engine Character import, rig or animation was run in this activation.
 
-The first workflow attempt in this activation at head `566458005aa7f87fd05f2342758db99f43bc7cdc` failed in the new negative-control test path. The failure was repaired by making the intended detached-bridge failure surface before the secondary overlap check; source form thresholds were not loosened. That failed run remains visible in Actions history.
+## Why this remains behind the visual gate
 
-The later ellipsoid candidate passed structurally but was rejected after direct visual inspection, then replaced with the smaller tapered candidate above. This visual rejection is retained in status rather than silently omitted.
+This refinement deliberately improves the review surface **without** converting a specialist guess into source authority.
 
-## Why this does not violate the Character visual gate
+The source-owned Character body remains `character-neutral-a-001`. The prior `0.100 -> 0.075 m` tapered candidate remains separately identifiable. The new `0.085 -> 0.075 m` candidate is a second derived review variant only.
 
-Art Direction still says the Character body needs direct proportion/mass-hierarchy review before **source reshaping**. This activation therefore does not overwrite `character-neutral-a-001` or declare the candidate accepted.
+Art Direction / Visual QA can therefore compare:
 
-The new candidate exists to make the shoulder question reviewable as an exact A/B while preserving the source. It can be discarded with no source migration if Art Direction / Visual QA find the shoulder too pointed, too armored, too broad, too narrow, or otherwise directionally wrong.
+1. baseline shoulder with no bridge;
+2. prior tapered bridge (`0.100 -> 0.075 m`);
+3. restrained tapered bridge (`0.085 -> 0.075 m`).
+
+No candidate becomes the Character source until the perceptual gate is explicitly resolved.
 
 ## Truth boundary / non-claims
 
 This activation does **not** establish:
 
 - anatomical, medical or biological correctness;
-- realistic shoulder anatomy or muscle structure;
-- Art Director or Visual Observer acceptance;
-- that the candidate should replace the baseline source;
-- connected or production skin topology;
-- edge flow, welding, manifoldness or final normals/tangents/UVs;
-- rigging, weights, constraints, skinning or deformation quality;
-- pose behavior, animation, locomotion or acting;
-- materials, shaders or final LookDev;
-- Armor or Unit fit compatibility;
-- target-engine import or runtime FPS/GPU/memory budgets;
+- realistic human shoulder, muscle or joint anatomy;
+- that larger or smaller overlap is biologically preferable;
+- Art Director acceptance;
+- independent Visual Observer / QA acceptance;
+- source migration or that either shoulder candidate should replace the baseline;
+- connected / welded / manifold production skin topology;
+- final edge flow, normals, tangents, UVs or self-intersection freedom;
+- rigging, weights, constraints, skinning, deformation, volume preservation or representative-pose quality;
+- animation, locomotion, acting or controller behavior;
+- materials / shaders / final LookDev;
+- Armor / Unit fit compatibility;
+- target-engine import, target-device FPS/GPU/memory/runtime acceptance;
 - collision, gameplay or game readiness;
-- UC or Profession Fabric promotion;
+- UC / Profession Fabric promotion;
 - CANON, production readiness or Organic Form mastery.
 
 ## Root gate
 
-- **Truth:** the baseline source remains exact and separately identified; the final candidate has distinct source/mesh digests; a structurally green but visually poor intermediate was rejected and recorded; all acceptance boundaries remain explicit.
-- **Agency / non-domination:** Organic supplies a bounded source-form candidate only. Art Direction / Visual Observer own perceptual acceptance; Geometry owns connected topology; Rigging owns deformation; Runtime owns cost; Armor/Unit own downstream fit. The four roots, not this specialist or Git permission, remain the merge gate.
-- **Continuity:** existing Character source evidence, 13 flex-zone truth states and all downstream identities remain intact. The candidate is additive/reviewable and rollback is branch-local.
-- **Wisdom before speed:** one measured shoulder issue was isolated into a small A/B candidate instead of reshaping the entire body, inventing a humanoid rig, or promoting generic Character machinery into UC.
+- **Truth:** baseline, prior candidate and refined review variant keep distinct exact identities. The new audit proves the single-field radius delta against the prior candidate and retains acceptance holds instead of calling a smaller shoulder “correct.”
+- **Agency / non-domination:** Organic authors a reviewable local form option only. Art Direction / Visual QA own perceptual acceptance; Geometry owns connected topology; Rigging owns deformation; Runtime owns cost; Armor/Unit own fit. Nature Geometry PR #9 keeps source-migration ownership for the separate vegetation winding issue.
+- **Continuity:** the source body and prior candidate are not overwritten. The new variant is additive, exact-digest bound and rollback-safe. Historical artifacts remain valid for their exact identities.
+- **Wisdom before speed:** one exact perceptual risk was narrowed by a 15% local change instead of reshaping the whole torso, prematurely connecting Character topology, reopening Animal, or duplicating Nature's now-active migration lane.
 
 ## Handoffs
 
-- **3D Art Director / Visual Observer:** review the exact retained baseline/candidate front/side/top evidence from artifact `10434996906`. Judge whether the tapered bridges improve torso-to-arm mass flow without producing an armored/pointed shoulder read. No source migration before that review.
-- **Geometry / Topology:** do not weld/connect this candidate yet. If visual form is accepted, the exact `0.10 -> 0.075 m` bridge ending on the existing `0.075 m` upper-arm root is one bounded transition to test; the proof regions are currently disconnected.
-- **Rigging / Deformation:** no deformation was executed. Treat `6/10` proximal bridge overlap, exact distal radius match and preserved flex-zone identities as setup evidence only.
-- **Armor / Unit:** the baseline body remains the source-owned fit reference. No candidate fit/socket compatibility is claimed.
-- **Animation / Motion:** no Character clip or controller is implied; Animal motion work remains separate.
-- **Nature / Environment:** rear/right Nature still waits for exact receiving-scene A/B; this Character activation does not alter that handoff.
-- **Technical Art / UC / Capability Cartographer:** keep this Character-specific transition semantics source-local. One stylized shoulder candidate does not justify a generic humanoid organic bridge abstraction.
+- **3D Art Director / Visual Observer:** compare the retained baseline, prior tapered candidate and restrained variant. The primary question is whether `0.085 -> 0.075 m` reduces the armored/pointed/overbuilt read while preserving enough torso-to-arm mass continuity. Do not inherit this Organic PASS as perceptual acceptance.
+- **Geometry / Topology:** do not weld/connect either candidate before that review. If the restrained version is accepted, use its exact `0.085 -> 0.075 m` bridge as the bounded source-form target while preserving the original `0.075 m` upper-arm root truth.
+- **Rigging / Deformation:** no deformation was executed. `8/10` proximal overlap and reduced local envelope are setup/form evidence only.
+- **Armor / Unit:** continue to use the baseline source as the fit reference until an explicit Character source migration occurs.
+- **Animal:** do not reshape the Animal body underneath the current Geometry/Rigging/Animation evidence; its next value is independent visual/deformation review, not Organic drift.
+- **Nature / Geometry / Technical Art / Environment:** Nature source-winding migration is now an occupied Geometry PR #9 lane. Organic does not duplicate it. Downstream receiving-scene / culling rebind remains separate.
+- **Technical Art / UC / Capability Cartographer:** keep this Character-specific shoulder semantics source-local. Two variants of one stylized shoulder question are not evidence for a generic UC humanoid bridge capability.
 
 ## Next Organic Form pass
 
-1. Consume Art Director / Visual Observer review of the exact shoulder A/B before changing or promoting the Character source.
-2. If accepted, hand one exact shoulder transition to Geometry before any whole-body connected-topology effort; let Rigging test only that accepted topology afterward.
-3. If rejected, repair only the named visual defect while keeping the baseline source stable.
-4. Prefer the exact rear/right Nature receiving A/B when Environment produces it; do not retune that source from wire views alone.
-5. Do not claim biology, deformation, runtime readiness, CANON or mastery from this bounded source-form candidate.
+1. Consume Art Director / Visual Observer comparison of baseline vs prior tapered vs restrained shoulder variant before any Character source migration.
+2. If one form is accepted, hand only that exact local transition to Geometry; let Rigging test representative deformation afterward.
+3. If both are rejected, change only the named perceptual defect while preserving baseline identity and prior evidence.
+4. Do not duplicate Nature PR #9's source-generator winding migration; consume its downstream receiving evidence only if it exposes a genuine organic-form issue.
+5. Keep biology, deformation, runtime readiness, CANON and mastery explicitly held.
