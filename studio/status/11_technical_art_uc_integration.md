@@ -1,241 +1,242 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_STRUCTURE / PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_TARGET_HOST / PASS_STABLE_RECEIVING_PREFIX_EXTENSION_CONTRACT / ENVIRONMENT_SUCCESSOR_ADOPTED / HOLD_RUNTIME_SUCCESSOR_REMEASURE / HOLD_CURRENT_WORLD_VISUAL_HIERARCHY / HOLD_UC_PROMOTION / MAP STACK DRAFT**
+State: **PASS_ANIMAL_CONNECTED_GEOMETRY_TO_CURRENT_UC_GLB / EXACT TECHNICAL-ART + GEOMETRY + UC IDENTITIES RETAINED / TRANSPORT-ONLY NORMALS EXPLICIT / HOLD_RIG-SKIN-ANIMATION-ENGINE / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, current design-repository work, the current Map receiving stack, and current `axm-universal-creation` state before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, current design-repository work, Animal Geometry/Rigging/Animation state, and current `axm-universal-creation` before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation is confined to the existing Technical Art lane in `mike-axiom-mir/axm-map-design`; no product code is added here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation is confined to the existing Technical Art lane in `mike-axiom-mir/axm-animal-design`; this file is only the coordination/status update.
 
-The immediately previous Object Technical Art result remains preserved by the prior status blob `07fdffe9e1dba3ed773bebad2dccc7671c924e83` and Object PR #21 head `8633fdcb367ae4d32146b5696142d0946716fe76`. Its UC runtime-clock / current Animation-authority / Godot target-host evidence is historical truth for that exact Object lineage and is not rewritten or demoted by this Map activation.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+
+The immediately previous Map Technical Art result remains preserved by prior status blob `e66f1e90ec135902248b21189885a0e17d78bf0a` and Map PR #27 head `8dea1a1d002a1842a5b2a118b2c11e10897cde33`. Its source-owned Building rebind and stable eight-field receiving-prefix result remains historical truth for that exact Map lineage. Nothing in this Animal activation rewrites or generalizes it.
 
 ## Fresh constellation / duplication scan
 
-- **Building Hard Surface:** PR #2 has now source-owned the previously derived closed/outward box-shell repair at exact head `57f66b1245812f0c3d402232a046b86c0b5c72d8`, source revision `service-pavilion-001/closed-outward-box-shells-002`, topology contract `closed-outward-12-triangle-v1`, pavilion SHA-256 `5f89ec4109d48f452f9e887ad5ca5449e1d0f6d6ee4b1896be6f25bc0a80736a`.
-- **Building Materials:** PR #3 has explicitly rebound its unchanged five-surface family to that current source at exact head `ca92ef79d65a2ba287b7a76464bedceb6a31a1b6`; material-profile SHA-256 remains `e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`.
-- **Building Procedural:** its existing generator has already performed an exact source-successor provenance refresh; no generator duplication was needed.
-- **Map Environment:** PR #24 has now independently adopted the source-owned Building successor into the 17-state current world at exact head `43d89a7cac48e57ebede0db8fc9983e8144222a0`; its source-successor structural and target-host workflows are green. The known current-world infill visual-hierarchy FAIL remains intentionally unresolved by Technical Art.
-- **Map Runtime:** PR #26 remains a truthful historical five-surface submission-cost proof at head `f2f719b2084a2df9340857658efb13c369b968aa`, based on historical Environment head `48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`. It has not yet remeasured the current source-successor Environment identity.
-- **Map VFX:** PR #25 has repaired its live Weather-width target-host path; no VFX receiving work is duplicated here.
-- **Object:** Hard Surface / Rigging / Animation / Technical Art / Runtime lanes remain active and preserve the previous Technical Art result; no second Object bridge was opened.
-- **Animal:** the existing Technical Art PR #3 still proves one explicit source-frame/material conversion into UC GLB for the earlier form-study surface. Geometry/Rigging have since produced stronger connected-topology evidence. That is a plausible future Technical Art transport rebind, but it was not started in this activation because the Map source-successor lane had just reached a complete exact-head evidence gate and one bounded lane is preferred over parallel churn.
-- **UC:** current main is `8576e075bf92f2907b8e58b8445826fbcd713cf0`. Its existing bounded `axm.surface-3d/v0.1` / deterministic GLB machinery remains available; current unrelated UC PRs cover unwrap/bake, a game asset and physics growth. This Map migration exposes no missing generic UC mechanism.
+- **Animal Technical Art:** PR #3 already owns Animal -> UC surface/GLB integration. It historically transports the disconnected Organic Form surface, so advancing that PR avoids a duplicate lane.
+- **Animal Geometry:** PR #4 exact current producer head `feb4b24cd36bcc879173138d240754f71db34834` owns the connected left-forelimb candidate `front-left-connected-chain-001`; candidate digest remains `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`, `42` vertices / `80` triangles.
+- **Animal Rigging:** PR #6 exact head `5625c9f796a75e8b441458c51093e55519490611` owns connected-topology sampled deformation/weighting evidence. It explicitly leaves transport/runtime to Technical Art and does not need to be duplicated.
+- **Animal Animation:** PR #5 owns the separate 1.0 s / 40 Hz sampled articulation loop and remains pinned to its own rig/weighting identity; no clip transport is mixed into this activation.
+- **Character / Object / Building / Map / Nature / Weather / other design repos:** active specialist lanes remain independently owned. No fresher unowned Technical Art gap displaced the already-deferred Animal connected-topology transport boundary.
+- **Universal Creation:** current main is `9a4ab8156772536526dd75bb2acab81e9b88f517`. Its existing `axm.surface-3d/v0.1`, `publish_glb()` and `verify_glb()` machinery is sufficient. The newest UC growth is unrelated bounded physics work; no missing generic UC mechanism was required here.
+- **Profession Fabric:** no promotion is justified. This is one Animal source family exercising a receiving transport boundary, not multi-domain profession evidence.
 
 ## Selected bounded integration gap
 
-Existing Map Materials PR #14 remained pinned to historical Building source:
+The existing Animal Technical Art PR #3 proved an explicit conversion from the **older disconnected form-study surface** into UC GLB, pinned to historical UC commit `640bd7dc177b90e023aad879b4c00051df7f4ee3`.
 
-`4faa769b406bf3ad0ba9489a77141c27f122ce51`
+Since then, Geometry PR #4 created a materially different connected forelimb candidate and Rigging PR #6 proved separate connected-topology deformation behavior. There was still no exact evidence that the **connected Geometry-owned surface identity** could cross the Animal -> UC boundary without copying Geometry into Technical Art or pretending the old disconnected receipt covered the new topology.
 
-while Building source authority and Building Materials had moved to the successor identities above.
+The highest-leverage bounded repair was therefore:
 
-There was also a concrete producer/receiver contract break: the source-owned Building evaluator added one trailing topology-evidence return value after the **eight values** consumed by the established Map receiver. The producer's original eight fields remained compatible, but both receiving layers destructured exactly eight values and failed with:
+> rebuild the exact connected Geometry candidate from its producer revision, adapt only the transport attributes required by the existing UC surface contract, publish it through current UC, re-verify it, and retain all three exact revision identities.
 
-`too many values to unpack (expected 8)`
-
-The correct Technical Art repair was not to copy Building topology semantics into Map or UC. It was to make the receiving boundary explicitly tolerant of **additive trailing producer evidence** while keeping the stable eight-field receiving prefix exact.
+This activation deliberately stops at **static geometry transport**. Rig/skin/weight/animation transport remains a separate future boundary.
 
 ## Existing Technical Art lane advanced
 
 Repository:
 
-`mike-axiom-mir/axm-map-design`
+`mike-axiom-mir/axm-animal-design`
 
-Draft PR:
+Existing draft PR:
 
-**#27 — `Technical Art: rebind Map Building receiver to source-owned topology`**
+**#3 — `Technical Art: prove explicit Animal surfaces -> UC GLB bridge`**
 
 Branch:
 
-`studio/technical-art-building-source-rebind-001`
+`studio/uc-surface-bridge-001`
 
-Base / established receiving host:
+Exact current/final tested Technical Art head:
 
-`0e2d571af4fd5772e9d48da013dc245914654660`
-
-Exact final tested Technical Art head:
-
-`8dea1a1d002a1842a5b2a118b2c11e10897cde33`
+**`ab227a89cf0d7da81e34f0a3af523724bda9fc60`**
 
 Observed PR state:
 
 **OPEN / DRAFT / MERGEABLE**.
 
-No merge or CANON authority is inferred.
+Mergeability and green CI are evidence metadata only, not merge/CANON authority.
 
-## Smallest reusable receiving contract
+## Exact producer / receiver identities
 
-PR #27 changes only the receiving/verification boundary needed for this migration:
+Animal source:
 
-- `tools/environment_building_source_replacement.py` and `tools/environment_building_material_receiving.py` require the established **eight-field producer prefix**;
-- additive trailing producer outputs are accepted and counted, rather than rejected by tuple destructuring;
-- the receiving layers do **not** inspect or reinterpret the successor's Building-owned `topology_summary`;
-- historical and successor source/material identities are pinned separately;
-- exact topology/surface partitions are compared so historical geometry cannot be silently relabelled as the successor merely because vertex positions and budgets match;
-- the existing PR #14 Godot observer/comparison host and material values remain unchanged.
+- source digest: `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`;
+- source surface digest: `1f8cb51e7047090c945e93e0a28520180725a2827882144a2c021fe55495734c`;
+- source coordinates: `+X forward, +Y left, +Z up`;
+- units: metres.
 
-Observed producer-extension counts:
+Connected Geometry producer:
 
-- historical Building evaluator: `0` additive trailing outputs;
-- source-owned successor evaluator: `1` additive trailing output.
+- exact Geometry head: `feb4b24cd36bcc879173138d240754f71db34834`;
+- candidate ID: `front-left-connected-chain-001`;
+- candidate SHA-256: `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`;
+- candidate vertices: `42`;
+- candidate triangles: `80`;
+- source-derived path: `shoulder_L -> elbow_L -> wrist_L -> front_paw_L`;
+- source-derived ring radii: `0.115 / 0.09 / 0.07 / 0.095 m`.
 
-This is a narrow producer/receiver compatibility contract. It is **not** a new Building topology abstraction and is not promoted into UC from one receiving family.
+Pinned current UC:
 
-## Exact structural evidence
+- repository: `mike-axiom-mir/axm-universal-creation`;
+- commit: `9a4ab8156772536526dd75bb2acab81e9b88f517`.
 
-Dedicated workflow:
+## Smallest reusable Technical Art repair
 
-**`35105775581 — Technical Art Building source rebind evidence` — SUCCESS**
+`axm_animal_design.uc_bridge` now has one shared explicit source->UC conversion core and a connected-candidate adapter.
 
-Exact head:
+The boundary preserves ownership:
 
-`8dea1a1d002a1842a5b2a118b2c11e10897cde33`
+- Geometry positions/indices are rebuilt from the exact Geometry checkout rather than copied into Technical Art;
+- exact candidate digest is required before transport;
+- because the Geometry candidate intentionally owns only positions/indices, Technical Art derives **transport-only vertex normals** using the same neutral average-of-unit-face-normals method used by the Animal form study;
+- the unchanged neutral Animal source material is attached explicitly;
+- those normals/materials are labelled transport attributes, not final authored shading data;
+- `[x_forward,y_left,z_up] -> [-y_left,z_up,x_forward]` remains explicit;
+- winding is reversed because the mapping changes handedness;
+- UC receives only its existing portable surface contract;
+- no Animal landmarks, radius policy, anatomy, weighting, rigging or animation semantics are added to UC.
 
-Scoped structural result:
+The historical disconnected form-study bridge remains intact and separately pinned to its old UC donor. The successor proof does not silently relabel historical evidence.
 
-`PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_STRUCTURE`
+## Exact result
 
-The exact old→successor comparison preserves:
+Scoped result:
 
-- `152` world vertices;
-- `228` triangles;
-- Building world placement translation;
-- all five material values and role order;
-- exact panel source identity;
-- unrelated seed-29 receiving state;
-- exact successor Hard-Surface identity;
-- exact successor-bound Materials identity.
+**`PASS_CONNECTED_GEOMETRY_CANDIDATE_TO_CURRENT_UC_GLB`**
 
-It also requires the geometry/surface-partition digests to **change**, preventing stale historical topology from being passed off as the new source.
+Exact final workflow family at Technical Art head `ab227a89cf0d7da81e34f0a3af523724bda9fc60`:
 
-Four explicit controls fail closed:
+- **`35111609808 — UC surface bridge evidence`: SUCCESS**;
+- **`35111609623 — Tests`: SUCCESS**;
+- inherited **`35111609593 — Weighting refinement evidence`: SUCCESS**.
 
-1. successor source-head drift;
-2. material-profile drift;
-3. stale historical topology;
-4. unrelated receiving-scene drift.
+The dedicated connected bridge job explicitly checked out and retained:
 
-All GitHub workflows reported on the exact PR #27 head are green, including the inherited Environment composition, Procedural variation, Environment Building-source replacement and Materials receiving-scene workflows.
+- Technical Art: `ab227a89cf0d7da81e34f0a3af523724bda9fc60`;
+- Geometry: `feb4b24cd36bcc879173138d240754f71db34834`;
+- UC: `9a4ab8156772536526dd75bb2acab81e9b88f517`.
 
-## Real target-host evidence
+Current UC re-verification preserved the source triangle count exactly:
 
-Scoped target-host result:
+- candidate triangles: `80`;
+- verified GLB triangles: `80`.
 
-`PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_TARGET_HOST`
+Emitted GLB SHA-256:
 
-Pinned host:
+`707529f727e9da56d56864a28b14f180dc96f826bdb8f950cac1d3170565d085`
 
-**Godot 4.7.2-stable, GL Compatibility**
+UC surface SHA-256:
 
-The exact successor neutral and five-surface receiving scenes reached the established fixed-camera target host while preserving the declared geometry/material budget.
+`0da2cdd2ea053f206c4458789aae9f851454830fbec5510776f5d5ba82ef1e13`
 
-Observed material-only A/B delta on the successor host:
+UC normalized specification SHA-256:
 
-- `path_eye`: `66,002 / 792,000` pixels changed (`8.3336%`), bbox `(346,256)-(753,437)`;
-- `elevated_oblique`: `32,476 / 792,000` pixels changed (`4.1005%`), bbox `(594,171)-(888,345)`.
+`c5a2cbee4f7693a7dc124d16edb4b5c5ad96976675d9ca229ec0e92dc45d94e2`
 
-This proves delivery/receiving behavior in those fixed contexts. It is **not** final aesthetic acceptance.
+## Retained evidence
 
-## Retained evidence and failure provenance
+Dedicated final artifact:
 
-Retained exact artifact:
+- ID: **`10452263266`**;
+- name: `quadruped-connected-topology-uc-bridge-evidence`;
+- size: **`7,571 B`**;
+- GitHub archive SHA-256: **`0f32b67ccffe87b889e50f05435ab79d801a59c3a1265c316a12cadf4200f3ee`**;
+- exact artifact head binding: `ab227a89cf0d7da81e34f0a3af523724bda9fc60`.
 
-- ID: **`10450685089`**;
-- name: `technical-art-building-source-rebind-001-8dea1a1d002a1842a5b2a118b2c11e10897cde33`;
-- size: **386,659 bytes**;
-- GitHub SHA-256: `661dd064575dac775dfe418da84b0f57b8120a5cb838f855277949ce36c7ac62`;
-- exact-head receipt: `8dea1a1d002a1842a5b2a118b2c11e10897cde33`.
+The artifact was downloaded during this activation and independently rehashed to the same SHA-256. Its six retained files include:
 
-The retained failure history is part of the evidence rather than being hidden:
+- exact Technical Art / Geometry / UC head receipts;
+- exact adapted UC surface JSON;
+- exact GLB bytes;
+- exact bridge evidence receipt.
 
-- run `35104851628` exposed the original `too many values to unpack (expected 8)` receiver failure;
-- later runs exposed an unchanged-file harness assumption and an over-broad unrelated-scene comparison;
-- those assertions were repaired rather than bypassed or weakened.
+The retained receipt explicitly records `static_geometry_transport: true` and `rig_weights_transport / skeleton_transport / animation_transport / target_engine_import: false`.
 
-## Downstream successor state
+## Fail-closed identity control
 
-After PR #27's receiving proof, Environment independently rebound the same source-owned Building successor into the full current world on PR #24.
+The evidence builder mutates one candidate position by `+1 mm` while leaving the expected candidate identity unchanged.
 
-Current Environment head:
+The bridge rejects the altered candidate as:
 
-`43d89a7cac48e57ebede0db8fc9983e8144222a0`
+`geometry candidate identity drift`
 
-Dedicated Environment workflow:
+and records:
 
-**`35103743617 — Environment current-world Building source-successor evidence` — SUCCESS**
+`PASS_REJECTED`.
 
-Scoped results:
+No near-geometry fallback, tolerance widening or silent source rewrite is accepted.
 
-- `PASS_CURRENT_WORLD_BUILDING_SOURCE_SUCCESSOR_STRUCTURE`;
-- `PASS_CURRENT_WORLD_BUILDING_SOURCE_SUCCESSOR_TARGET_HOST`.
+## Evidence-harness provenance defect found and repaired
 
-That Environment proof preserves the full Weather seed `44021` / 17-state sequence, Nature, exact west Object source, path, cameras, lighting and the unchanged five-surface material profile while importing the exact Building source builder rather than copying its face table.
+The first successful connected workflow run `35111455304` exposed a Technical Art evidence-harness problem: default `pull_request` checkout had retained GitHub's synthetic merge commit in `technical-art-head.txt` rather than the real PR head.
 
-Retained Environment successor artifact:
+The geometry/UC transport result itself was green, but that artifact was **not** accepted as final exact-head provenance.
 
-- ID: `10448628965`;
-- size: `20,193,645 bytes`;
-- SHA-256: `7d48e308e62eec1d0e9f0e072d05f3d45411810ce17a3141f0bc4a32b79cda33`.
+The workflow was repaired to checkout:
 
-The known current-world infill hierarchy problem remains a separate Materials / Art Direction / Visual QA gate. Technical Art does not convert a transport/source-successor PASS into visual acceptance.
+`${{ github.event.pull_request.head.sha || github.sha }}`
 
-## Runtime handoff now unblocked
+explicitly. Final run `35111609808` retains the true Technical Art head `ab227a89...` together with the exact Geometry and UC revisions. The earlier run remains historical evidence of the provenance defect rather than being silently ignored.
 
-Map Runtime PR #26 remains exact historical evidence for Environment head:
+## Handoffs recorded
 
-`48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`
+### Animal Technical Art PR #3
 
-and Runtime head:
+Evidence comment: **`5699544689`**.
 
-`f2f719b2084a2df9340857658efb13c369b968aa`
+### Animal Geometry PR #4
 
-Its historical `+12 draw calls / +12 objects` characterization remains truthful for that exact historical five-surface receiving chain.
+Handoff comment: **`5699547752`**.
 
-The earlier Runtime hold that Technical Art PR #27 was failing is now stale: PR #27 is exact-head green and Environment has also adopted the successor. Runtime can therefore perform an explicit successor remeasure against Environment `43d89a7c...` (or a later explicitly identified successor), while preserving the historical PR #26 evidence rather than inheriting current acceptance by label.
+Geometry remains authoritative for the exact positions/indices/radius derivation. This downstream transport PASS does not make the candidate canonical, visually accepted or deformation accepted. Future Geometry successors must rebind/rerun.
 
-Technical Art does **not** own or pre-accept that Runtime result.
+### Animal Rigging PR #6
+
+Boundary comment: **`5699550316`**.
+
+Rigging's connected deformation/weighting evidence remains separate. Technical Art transported no skeleton, weights, rig plan, `smoothstep-v0`, `ease-out-power-0p75-v1` or sampled poses. A future skin/rig transport path must explicitly consume an adopted exact Rigging identity rather than inheriting this static GLB PASS.
+
+### Animation / Visual QA / Runtime
+
+- Animation PR #5 receives no runtime/export acceptance from this proof.
+- Visual Observer / Art Director still own shading/topology/perceptual acceptance; transport-only normals are not an aesthetic claim.
+- Runtime / target-engine integration remains unproven; this activation ends at UC GLB verification.
 
 ## UC placement decision
 
 `axm-universal-creation` remains unchanged by this activation.
 
-The gap was a receiving-language compatibility problem between one evolving Building producer and established Map receivers. The generic lesson is useful — stable consumed prefixes plus explicitly bounded extension fields — but one Building→Map migration is not enough evidence to place a generic extension-envelope policy in UC.
+Current UC already has the required neutral mechanism: a bounded portable surface contract plus deterministic GLB publish/verify. The Animal-specific work is the explicit source-boundary adapter and exact producer provenance. Moving Animal coordinate/material/source semantics into UC would centralize domain knowledge for convenience and is not justified.
 
-Building topology meaning remains Building-owned. Map owns receiving composition. Technical Art owns this explicit boundary and provenance handoff. UC does not receive `topology_summary`, Building face policy, Map scene policy or Godot-specific acceptance logic for convenience.
-
-A future UC abstraction remains held until materially different producers/receivers demonstrate the same contract shape and placement is justified by evidence.
+No Profession Fabric promotion is justified from one Animal source family.
 
 ## Non-claims / remaining holds
 
-This activation does **not** prove or authorize:
+This activation does **not** establish or authorize:
 
-- merge/CANON of Map PR #27, Environment PR #24, Building Hard-Surface PR #2 or Building Materials PR #3;
-- Runtime PR #26 successor acceptance or any target-device performance budget;
-- final Building material preference or repair of the current-world infill visual hierarchy FAIL;
-- UV/texture/decal/weathering quality or final normals/tangents;
-- collision, navigation, gameplay or physics acceptance;
-- arbitrary producer-extension compatibility beyond this bounded eight-field-prefix receiving family;
-- promotion of the receiving-extension pattern into Universal Creation or Profession Fabric;
-- production readiness or Technical Art mastery.
-
-## Handoffs
-
-- **Runtime / Optimization:** PR #27 and Environment source-successor receiving are now green; explicitly remeasure the successor rather than relying on the historical PR #26 donor or inheriting this Technical Art PASS.
-- **Environment:** its current source-successor PASS remains the authoritative full-world receiving identity. No further topology migration is requested here.
-- **Materials / Art Direction / Visual QA:** the known `infill_coating` hierarchy FAIL remains independent of this transport PASS; preserve the source-successor identity when testing the requested infill-only visual repair.
-- **Building Hard Surface / Materials:** exact source and material identities are consumed without moving their semantics into Map or UC.
-- **Universal Creation:** no code change required or justified by this lane.
-- **Animal Technical Art:** connected-topology → UC transport is a plausible future bounded rebind because PR #3 predates the connected candidate, but it remains deferred to a separate activation rather than being mixed into this completed Map proof.
+- merge/CANON of Animal Technical Art PR #3, Geometry PR #4 or Rigging PR #6;
+- adoption of the connected Geometry candidate as final production topology;
+- final authored normals, tangents, UVs, materials or texture/shader quality;
+- skeleton, skin, weight or rig-plan transport;
+- connected deformation quality in UC or any engine;
+- Animation clip/export/playback transport;
+- engine import, runtime/controller or target-device playback;
+- collision or gameplay behavior;
+- visual quality, anatomy or Art Director acceptance;
+- CPU/GPU/FPS/memory/runtime budgets;
+- generic UC or Profession Fabric promotion;
+- production readiness, game readiness or Technical Art mastery.
 
 ## Root gate
 
-- **Truth:** historical and successor Building identities, producer extension count, failed receiving runs, exact-head CI, target-host evidence and downstream Environment adoption remain separately named and inspectable.
-- **Agency / non-domination:** Building retains topology authority, Materials retains surface authority, Environment retains world composition, Runtime retains budget acceptance, and Technical Art does not use UC as a domain-policy sink.
-- **Continuity:** prior Object Technical Art evidence and historical Map/Runtime evidence remain valid for their declared identities; source-successor evidence is added rather than silently rewriting predecessors.
-- **Wisdom before speed:** the smallest receiver contract repaired the actual break; no generic UC promotion or second simultaneous Technical Art implementation was started without cross-domain evidence.
+- **Truth:** old disconnected and new connected transports remain separately identified; exact Technical Art/Geometry/UC revisions, candidate digest, artifact digest, negative control and first-run provenance defect are retained explicitly.
+- **Agency / non-domination:** Geometry retains geometry authority; Rigging retains deformation/weight authority; Animation retains motion authority; Visual QA/Art Direction retain visual authority; Runtime retains engine/performance authority; UC is not used as a domain-policy sink.
+- **Continuity:** the existing Technical Art PR was advanced rather than replaced, its historical bridge remains valid, previous Map/Object Technical Art results remain historical truth, and no source identity was silently rewritten.
+- **Wisdom before speed:** the activation closes static connected geometry transport only. It does not jump directly into skeleton/skin/animation/engine integration or promote a generic UC abstraction from one source family.
 
 ## Current state
 
-`PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_STRUCTURE / PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_TARGET_HOST / PASS_STABLE_RECEIVING_PREFIX_EXTENSION_CONTRACT / ENVIRONMENT_SUCCESSOR_ADOPTED / HOLD_RUNTIME_SUCCESSOR_REMEASURE / HOLD_CURRENT_WORLD_VISUAL_HIERARCHY / HOLD_UC_PROMOTION / MAP STACK DRAFT`
+`PASS_ANIMAL_CONNECTED_GEOMETRY_TO_CURRENT_UC_GLB / EXACT TECHNICAL-ART + GEOMETRY + UC IDENTITIES RETAINED / TRANSPORT-ONLY NORMALS EXPLICIT / HOLD_RIG-SKIN-ANIMATION-ENGINE / HOLD_VISUAL_ACCEPTANCE / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT`
