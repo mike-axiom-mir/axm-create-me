@@ -1,199 +1,255 @@
 # 13 — Visual Observer / QA Specialist Status
 
-Date: 2026-09-16
-State: **FAIL_ANIMAL_EXACT_MIRROR_GENERATED_SMOOTH_NORMAL_VISUAL_NEUTRALITY / PASS_STATIC_SILHOUETTE_AND_FACE_SPLIT_NONCORRUPTION / VISUAL ADOPTION BLOCKED PENDING NORMAL-TANGENT POLICY + ART DIRECTION**
+Date: 2026-09-17
+State: **PASS_ANIMAL_EXPLICIT_LOGICAL_QUAD_NORMAL_STATIC_TOPOLOGY_SHADING_REDUCTION / PASS_STATIC_VISUAL_NONCORRUPTION / FINAL NORMAL-TANGENT VISUAL ADOPTION BLOCKED PENDING TANGENTS + DEFORMED SHADED REVIEW + ART DIRECTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current specialist status, newest Art Direction / Geometry / Materials / Rigging evidence and current open design-constellation PRs before selecting one bounded gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current Visual-QA / Art-Direction state, newest open design-constellation PRs, exact workflow results and retained render evidence before selecting one bounded gate.
 
-`axm-create-me` remains **coordination only**. Visual QA changed no Animal source, topology, rig, materials, Map, Object, Character, Runtime, Universal Creation, Profession Fabric or gameplay implementation.
+`axm-create-me` remains **coordination only**. Visual QA changed no Animal source, topology, normals, rig, materials, Map, Object, Character, Runtime, Universal Creation, Profession Fabric or gameplay implementation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The most consequential completed unverified visual claim is Animal Geometry PR #13's exact bilateral mirror-surface topology successor as observed through Materials PR #14.
+The highest-consequence completed unverified visual claim is Animal Materials PR #17's target-host review of Geometry PR #16's explicit logical-quad normal field on Geometry PR #13's exact-mirror topology.
 
 Why this outranks another lane in this activation:
 
-- Geometry #13 materially improves a structural invariant: the right surface changes 30 longitudinal quad diagonals while preserving all 42 positions / 80 triangles, restoring exact mirrored triangle correspondence and eliminating the previously measured bilateral structural-metric residual.
-- Rigging #15 has now explicitly rebound that exact topology and is green across 484 discrete structural pose observations, so the earlier Rigging structural hold is no longer the blocker.
-- Materials #14 supplied a real Godot 4.7.2 GL Compatibility A/B with positions, triangle/index budget, neutral material, lighting and camera fixed, but correctly held generated-normal visual neutrality for independent Art / QA review.
-- Technical Art has already transported the topology through current UC as static GLB and explicitly retained Materials / Art / QA normal-response authority instead of treating transport success as surface acceptance.
-- Map's Object footprint cue remains a valid independent QA handoff, but it is a tiny placement cue on an already-QA-green material parent and is lower-consequence than deciding whether a structural Animal topology successor silently changes most of the smooth-shaded visible surface.
-- Character remains structurally blocked by nonzero sampled shoulder intersections, so stronger Character visual acceptance is still premature.
+- the immediately previous QA gate found the exact-mirror topology structurally valuable but not visually neutral under triangle-generated vertex smoothing;
+- Art Direction explicitly held final Animal adoption pending a form-coherent, mirror-stable explicit normal/tangent policy and named this exact dependency as the next high-leverage visual proof;
+- Geometry PR #16 now provides one rollbackable, diagonal-invariant explicit vertex-normal candidate without changing positions or topology;
+- Materials PR #17 renders that exact field in the same neutral Godot target-host harness with positions, material, lighting and cameras held;
+- Rigging PR #18 subsequently proves sampled structural coherence of the same normal derivation through the established deformation envelope but explicitly does **not** claim shaded posed visual acceptance;
+- Map Runtime PR #34's current footprint-cue tradeoff is only one pixel / one blue-channel LSB per retained frame and is lower consequence than the Animal surface dependency;
+- Character remains structurally held by nonzero sampled shoulder intersections, so stronger Character visual acceptance would still outrun a known Geometry boundary.
 
-No duplicate Geometry, Materials, Rigging, Technical Art, Art Direction or repair implementation lane was opened.
+No duplicate Geometry, Materials, Rigging, Technical Art, Runtime, Art Direction or repair implementation lane was opened.
 
 ## Exact reviewed identity
 
 Repository: `mike-axiom-mir/axm-animal-design`
 
-Geometry owner PR: **#13 — `Geometry: restore exact bilateral surface correspondence`**
+Materials owner/review PR: **#17 — `Materials: render Geometry explicit logical-quad normals in Godot`**
 
-Exact Geometry donor head:
+Exact Materials head:
 
-`bdbb51303bd1b96866b06a71730ccc328bf4f2f6`
+`a2cd0a6135a7c8502aef9572f7079a3dd2632103`
 
-Materials receiving/review PR: **#14 — `Materials: review exact-mirror topology shading in Godot`**
+Exact normal-field Geometry donor:
 
-Exact reviewed Materials head:
+- PR #16 head `79e1667f6cc91e2ec8e41f01df18b6933c9c876d`;
+- normal module blob `14a1ba3a1e4c96270197f4f449505113f7bf3e6e`.
 
-`96e998e5c793057836e01656aca9f71481439c9b`
+Exact mirror-surface topology donor:
 
-Exact Geometry module blob:
+- PR #13 head `bdbb51303bd1b96866b06a71730ccc328bf4f2f6`;
+- topology module blob `9a0ebcc6169445996756bb446a87e3baf8b9cc33`.
 
-`9a0ebcc6169445996756bb446a87e3baf8b9cc33`
-
-Compared variants:
-
-- historical right: `front-right-connected-chain-elbow-source-successor-003`;
-- exact-mirror right: `front-right-connected-chain-elbow-source-successor-003-mirror-surface-topology-001`.
-
-Both remain 42 vertices / 80 triangles with identical compared positions and identical observed silhouette/foreground occupancy inside each matched camera/normal-mode pair.
+The compared historical-right and exact-mirror-right variants remain `42` vertices / `80` triangles with identical compared positions. Tangents remain explicitly `NOT_DEFINED_NO_UV_BASIS`.
 
 ## Retained evidence independently obtained
 
-Materials workflow:
+Exact-head workflow:
 
-`35152434735 — Materials bilateral topology shading review` — **SUCCESS**.
+`35157381606 — Materials explicit logical-quad normal review` — **SUCCESS**.
 
 Retained artifact:
 
-- ID `10469607407`;
-- size `99,798 B`;
-- GitHub SHA-256 `e9de500cca011e6192d9a2de7b73edbda01b3ce103672ac1563448c7ed3f2564`;
+- ID `10471167088`;
+- size `144,848 B`;
+- GitHub SHA-256 `39407e0b2bbb638b5fec158c784f2d2fa10b5495b5ca3d8dcc1a3d714b2576cf`;
 - independently downloaded and rehashed by Visual QA to the exact same SHA-256;
-- contains 8 target-host PNGs, exact source-pinned payload, telemetry and Materials receipt.
+- exact artifact head `a2cd0a6135a7c8502aef9572f7079a3dd2632103`;
+- contains 8 Godot target-host PNGs, source-pinned payload, telemetry and Materials receipt.
 
-Target host: Godot 4.7.2 GL Compatibility via Xvfb/X11.
+Target host: **Godot 4.7.2 GL Compatibility via Xvfb/X11**.
 
-Visual QA directly inspected all 8 PNGs and independently recomputed matched-image deltas.
+Visual QA directly inspected all 8 PNGs and independently recomputed matched-image deltas rather than inheriting the Materials interpretation.
 
 ## Exact reproduction
 
-### Face-split generated normals
+### Generated-smooth topology control
 
-The topology change is measurable but visually small in the retained static probe.
-
-Three-quarter:
-
-- 3,211 changed pixels >1 LSB;
-- 19,504 foreground pixels;
-- **16.46% of foreground** changed by the >1-LSB RGB criterion;
-- median absolute luma delta about **0.213 LSB**;
-- 95th percentile absolute luma delta about **2.00 LSB**;
-- max absolute luma delta about **4.00 LSB**.
-
-Grazing:
-
-- 2,790 changed pixels >1 LSB;
-- 21,972 foreground pixels;
-- **12.70% of foreground** changed;
-- median absolute luma delta about **0.213 LSB**;
-- 95th percentile about **2.21 LSB**;
-- max about **3.00 LSB**.
-
-Direct enlarged inspection reproduces diagonal/facet-response differences but no new silhouette break, hole, clipping artifact, spike, fold, gross seam or obvious focal corruption.
-
-### Vertex-smooth generated normals
-
-The same connectivity change is **not visually neutral** under area-weighted generated vertex normals.
+The new artifact reproduces the previous QA finding exactly.
 
 Three-quarter:
 
-- 16,522 changed pixels >1 LSB;
-- 19,504 foreground pixels;
-- **84.71% of foreground** changed;
-- median absolute luma delta about **4.65 LSB**;
-- mean absolute luma delta about **6.52 LSB**;
-- 95th percentile about **19.93 LSB**;
-- max about **51.20 LSB**.
+- foreground: `19,504` pixels;
+- changed >1 LSB: `16,522`;
+- **84.7108% of visible foreground**;
+- median absolute foreground luma delta `4.647 LSB`;
+- mean `6.5163 LSB`;
+- 95th percentile `19.9278 LSB`;
+- max `51.2046 LSB`.
 
 Grazing:
 
-- 18,113 changed pixels >1 LSB;
-- 21,972 foreground pixels;
-- **82.44% of foreground** changed;
-- median absolute luma delta about **4.86 LSB**;
-- mean absolute luma delta about **6.49 LSB**;
-- 95th percentile about **19.00 LSB**;
-- max about **47.20 LSB**.
+- foreground: `21,972` pixels;
+- changed >1 LSB: `18,113`;
+- **82.4367% of visible foreground**;
+- median `4.8596 LSB`;
+- mean `6.4910 LSB`;
+- 95th percentile `19.0 LSB`;
+- max `47.2046 LSB`.
 
-Direct inspection reproduces a visible redistribution of the smooth highlight / dark rolloff along the upper shaft, bend and lower-foot transition. The exact-mirror candidate preserves the outer silhouette but changes the internal surface read over most of the visible subject. This is a normal-response consequence of connectivity, not a camera or geometry-position change.
+This remains a clear failure of generated-smooth visual neutrality across the topology switch.
+
+### Explicit logical-quad normal field
+
+Holding Geometry PR #16's explicit per-vertex normal field across both topology variants materially reduces the topology-sensitive shading delta.
+
+Three-quarter:
+
+- changed >1 LSB: `6,398 / 19,504` visible foreground;
+- **32.8035%** of foreground changes;
+- changed-foreground fraction reduced **61.28%** relative to generated smoothing;
+- median absolute foreground luma delta `0.7874 LSB`;
+- mean `1.2812 LSB`, an **80.34%** reduction;
+- 95th percentile `4.9318 LSB`;
+- max `27.2768 LSB`.
+
+Grazing:
+
+- changed >1 LSB: `8,347 / 21,972`;
+- **37.9893%** of foreground changes;
+- changed-foreground fraction reduced **53.92%**;
+- median absolute foreground luma delta `0.9278 LSB`;
+- mean `1.3794 LSB`, a **78.75%** reduction;
+- 95th percentile `4.7152 LSB`;
+- max `26.2768 LSB`.
+
+The explicit field therefore substantially decouples the static surface read from the selected longitudinal triangle diagonals, but it does **not** make the result pixel-neutral. The retained residual is consistent with triangle-dependent interpolation across different diagonals even when vertex-normal vectors are identical.
+
+### Candidate generated -> explicit visual shift
+
+The explicit field is itself a real visible surface choice rather than a transparent implementation detail.
+
+On the exact-mirror candidate:
+
+- three-quarter: `10,918 / 19,504 = 55.98%` of visible foreground changes >1 LSB when switching generated -> explicit normals;
+- grazing: `12,683 / 21,972 = 57.72%` changes;
+- mean absolute foreground luma shift is `2.3260 / 2.4335 LSB` respectively.
+
+QA therefore does not convert the reduction result into an aesthetic preference.
+
+## Direct visual inspection
+
+At normal inspection scale, the exact-mirror explicit-normal candidate keeps the same outer silhouette and presents a substantially more stable upper-shaft -> elbow -> lower-segment highlight / shadow rolloff across the historical/exact topology comparison than the generated-smooth control.
+
+Enlarged A/B + amplified-difference inspection found no new:
+
+- silhouette break;
+- hole or culling loss;
+- spike;
+- clipping defect;
+- gross crease/seam;
+- dominant diagonal/facet imprint;
+- broad lighting corruption.
+
+The remaining explicit-normal difference is narrower and more local than the generated-smooth control, but it remains measurable and locally visible under amplification. QA does not call the topology switch visually neutral.
+
+## Deformed-normal follow-on boundary
+
+Rigging PR #18 exact head:
+
+`91e2fd01be63df807c035b39f7ec824a4a5a60b8`
+
+Workflow:
+
+`35158115102 — Rigging bilateral deformed logical-quad normal evidence` — **SUCCESS**.
+
+That lane re-derives Geometry's exact normal field on both elbows, both established weighting profiles and every integer pose `-60..+60°`: `484` pose-normal fields / `20,328` checked normal vectors. It reports finite/unit/outward normals, bilateral mirrored pose+normal correspondence and neutral equality to the static field within its retained tolerance.
+
+This is useful prerequisite evidence only. It is explicitly **not a deformed shaded-visual PASS**, not production skin-normal transport and not Animation acceptance. Static QA acceptance does not silently transfer through the deformation envelope.
 
 ## QA verdict
 
-### PASS — bounded spatial / face-split noncorruption
+### PASS — static topology-shading reduction
 
-**`PASS_ANIMAL_EXACT_MIRROR_STATIC_SILHOUETTE_AND_FACE_SPLIT_NONCORRUPTION`**
-
-Exact meaning:
-
-> In the two retained static cameras under the neutral probe, the exact-mirror topology introduces no observed silhouette corruption or gross face-split rendering defect. Face-split shading differences are measurable but small in absolute luma response.
-
-### FAIL — generated smooth-normal visual neutrality
-
-**`FAIL_ANIMAL_EXACT_MIRROR_GENERATED_SMOOTH_NORMAL_VISUAL_NEUTRALITY`**
+**`PASS_ANIMAL_EXPLICIT_LOGICAL_QUAD_NORMAL_STATIC_TOPOLOGY_SHADING_REDUCTION`**
 
 Exact meaning:
 
-> The exact-mirror topology cannot inherit a claim that its generated smooth-normal surface response is visually equivalent to the historical topology. More than 82% of the retained visible foreground changes by >1 LSB in both smooth-normal cameras, with clearly visible highlight/rolloff redistribution despite identical positions and silhouette.
+> In the two retained static Godot cameras, Geometry PR #16's exact explicit logical-quad vertex-normal field materially reduces the renderer-visible historical-vs-exact-mirror topology shading delta relative to triangle-generated vertex smoothing while positions, topology identities, material, lighting and cameras remain fixed.
 
-### BLOCKED — final visual adoption
+### PASS — bounded static visual noncorruption
 
-**`BLOCKED_ANIMAL_EXACT_MIRROR_FINAL_VISUAL_ADOPTION_PENDING_NORMAL_TANGENT_POLICY_AND_ART_DIRECTION`**
+**`PASS_ANIMAL_EXPLICIT_LOGICAL_QUAD_NORMAL_STATIC_VISUAL_NONCORRUPTION`**
 
-This is **not a rejection of Geometry PR #13**. Geometry's structural repair remains valuable and Rigging's exact rebind remains independently green. The blocker is narrower: before this topology is called visually non-regressive/preferred, the owning path needs an explicit normal/tangent policy and then a bounded Art Direction / Visual-QA review of that actual surface response. A deliberate authored-normal/tangent solution may preserve the structurally stronger topology without inheriting this generated-normal tradeoff.
+Exact meaning:
+
+> In these exact retained static views, the explicit-normal exact-mirror candidate introduces no observed silhouette break, hole, spike, clipping defect, gross crease/seam, dominant diagonal imprint or broad render corruption.
+
+### BLOCKED — final normal/tangent visual adoption
+
+**`BLOCKED_ANIMAL_EXACT_MIRROR_FINAL_NORMAL_TANGENT_VISUAL_ADOPTION__TANGENTS_AND_DEFORMED_SHADED_REVIEW_PENDING_ART_DIRECTION`**
+
+Reasons:
+
+1. the explicit field still leaves a nonzero topology/interpolation shading delta;
+2. the explicit field materially changes the candidate's own surface response relative to generated smoothing, so preference remains an Art-Direction decision;
+3. tangents/UV basis remain undefined;
+4. PR #18 proves sampled structural normal coherence but no shaded deformed visual evidence exists yet;
+5. exact normal/tangent transport through the intended production boundary remains separately owned by Technical Art.
+
+This is not a rollback request for Geometry PR #13 or PR #16.
 
 ## Handoffs
 
-### Materials PR #14
-
-Keep the current neutral probe as exact evidence that connectivity alone changes generated shading. Do not retune it into a final Animal material and do not relabel the smooth-normal delta as visually neutral.
-
-### Geometry PR #13
-
-Structural PASS remains intact. Visual QA requests no rollback to historical topology. Preserve the exact-mirror candidate as a separate identity while normal/tangent ownership is resolved.
-
 ### Art Direction
 
-Judge preference only after a deliberate normal/tangent receiving policy exists. The current QA result identifies a visible dependency; it does not decide whether the historical or exact-mirror smooth highlight is aesthetically better.
+The explicit normal field is now a credible static visual candidate rather than a numeric-only proposal. Judge whether its retained rolloff is the preferred form direction. Do not interpret QA's reduction/noncorruption PASS as aesthetic selection.
 
-### Rigging / Animation
+### Geometry PR #16
 
-Rigging #15's discrete structural rebind remains valid. This static shading review does not establish deformed-normal quality, continuous deformation appearance, animation interpolation/playback quality or skin-volume acceptance.
+Keep the normal field as a separate exact candidate identity. The static target-host evidence supports it as a meaningful reduction mechanism, but QA does not claim diagonal-invariant pixel output or final production normals.
 
-### Technical Art / Runtime
+### Materials PR #17
 
-Static GLB transport success does not close surface response. No target-device FPS, GPU, VRAM, memory, import, draw-call or shader-cost acceptance is made here.
+Keep the neutral target-host harness and exact current images. Do not retune PBR values to hide the residual interpolation delta.
 
-### Map Object footprint cue
+### Rigging PR #18
 
-The current-world west Object footprint cue remains a separate pending Visual-QA gate. It receives no acceptance or rejection from this Animal result.
+The structural deformed-normal PASS is useful and remains separate. Before static visual acceptance extends into motion/deformation, retain shaded representative posed evidence on the exact same source/topology/rig/normal chain.
+
+### Technical Art / UC
+
+If this normal policy advances, prove the exact explicit field crosses the intended GLB/receiving boundary without silent regeneration or substitution. Tangent-space behavior remains held until there is a real UV/tangent basis.
+
+### Runtime / Animation
+
+No target-device cost, animation timing, interpolation, playback or controller acceptance transfers from this static pass.
+
+### Map Runtime PR #34
+
+The one-pixel / one-LSB footprint-indexing tradeoff remains a separate pending Visual-QA/Art surface and receives no acceptance from this Animal result.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final Animal topology adoption or rejection;
-- authored normal/tangent correctness;
-- UV, texture, PBR, fur, subsurface or final material quality;
-- deformed-normal quality across the Rigging sweep;
-- continuous real-valued deformation safety between sampled poses;
+- pixel-neutral or fully topology-independent shading;
+- final aesthetic preference;
+- final production normal/tangent algorithm;
+- tangent or UV basis;
+- deformed shaded visual quality across the Rigging envelope;
+- production skin-normal transport;
 - anatomy, biology, muscle, skin sliding or volume preservation;
 - Animation clip/interpolation/playback acceptance;
 - arbitrary camera/FOV/lighting/renderer/display equivalence;
-- target-device performance or import-budget acceptance;
+- target-device CPU/GPU/FPS/VRAM/memory acceptance;
 - gameplay, collision or interaction readiness;
-- CANON, production/game readiness, or Visual Observer / QA mastery.
+- CANON;
+- production/game readiness;
+- Visual Observer / QA mastery.
 
-## Root gate
+## Four-root gate
 
-- **Truth:** the structural improvement and the renderer-visible tradeoff are both retained; neither is used to erase the other.
-- **Agency / non-domination:** Geometry owns topology, Materials owns surface evidence, Art Direction owns preference, Rigging/Animation own deformation/motion, Technical Art/Runtime own transport/cost, and QA changes no implementation.
-- **Continuity:** historical-right, exact-mirror Geometry, Rigging rebind, Materials target-host review and Technical-Art transport remain distinct rollback/evidence identities.
-- **Wisdom before speed:** resolve the normal/tangent dependency before layering final materials, animation acceptance or production claims over a topology whose generated smooth shading is demonstrably different.
+- **Truth:** the large static improvement and the remaining interpolation/visual-choice boundary are both retained; reduction is not relabelled as neutrality.
+- **Agency / non-domination:** Geometry owns the field, Materials owns target-host evidence, Rigging owns deformation, Technical Art owns transport, Art Direction owns preference and QA owns independent verification only.
+- **Continuity:** historical generated normals, exact-mirror topology, explicit normal field, static Materials evidence and deformed structural Rigging evidence remain separate exact identities with rollback/provenance preserved.
+- **Wisdom before speed:** accept the bounded static improvement while holding tangents, deformed shaded appearance and final preference instead of hiding those missing dependencies behind a green workflow.
 
 The four AXM roots remain the merge gate.
