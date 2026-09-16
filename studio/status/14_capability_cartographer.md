@@ -1,234 +1,205 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-16
-State: **PASS_NONADJACENT_SELF_INTERSECTION_CROSS_DOMAIN_PLACEMENT_MAP / ANIMAL + CHARACTER REUSE PROVED / UC IS CORRECT CANDIDATE HOME / UC ISSUE #162 OPEN / OPT-IN BOUNDED-WORK CONTRACT REQUIRED / PROFESSION_FABRIC_NOT_HOME / NO PRODUCT CODE MOVE / PRIOR VERTEX-FAN GAP STILL PENDING**
+State: **PASS_RIGID_RECEIVER_FRAME_DUPLICATION_MAP / BUILDING + OBJECT REPEAT SAME NEUTRAL LOCAL_TO_WORLD BASIS OPERATION / EXISTING STANDALONE AXM_STICKERS PLACEMENT CORE IS CORRECT CANDIDATE LAYER / EXACT TWO-DOMAIN DIGEST EQUIVALENCE PROBE REQUIRED BEFORE CONSOLIDATION / UC CORE + PROFESSION FABRIC NOT THE HOME / UC SELF-INTERSECTION ISSUE #162 STILL OPEN / NO PRODUCT CODE MOVE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest specialist status, recent coordination commits, current design-repository PRs, current `axm-universal-creation` topology machinery, and the relevant `axm-profession-fabric` cross-domain extraction precedent.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest specialist status, current open design PRs, current `axm-universal-creation` main, the standalone Sticker Fabric placement core currently packaged there, and the relevant `axm-profession-fabric` extraction precedent.
 
-`axm-create-me` remains **coordination only**. This activation changes only this Cartographer status and cross-repo coordination surfaces. No design source, mesh, material, rig, animation, runtime implementation, Universal Creation code, Profession Fabric body, or another specialist status is changed here.
-
-The latest coordination scan included fresh Character Geometry/Rigging work, Animal Organic/Rigging/Technical-Art work, Building Hard-Surface/Procedural evolution, Map Environment/VFX/Runtime evidence, Nature material/sidedness work, and the current Visual/Art-Direction decisions. The selected gap outranks those as a capability-placement question because the same low-level implementation now exists in two materially different source-owned geometry repos.
+`axm-create-me` remains **coordination only**. This activation changes only Cartography coordination/status and PR handoff comments. No Building/Object source, generator, Universal Creation implementation, Sticker Fabric implementation, Profession Fabric body, or acceptance policy was changed.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
+## Fresh constellation signal
+
+The newest specialist state materially changed the placement map in one useful way:
+
+- Character Geometry now uses the previously mapped nonadjacent-triangle observer not only for diagnosis but also to measure a topology-only repair from `374 -> 58` retained sampled pairs; UC self-intersection issue #162 therefore remains useful and open, but it does not require a second Cartography issue this pass.
+- Building Procedural PR #4 advanced to exact head `17b5a2a2f0a85857293dccc4f042c091324fef5a` and added a second orthogonal exact utility-panel receiver placement.
+- Object Procedural PR #11 remains at exact head `4fd7546d520b515533678464307d7a49d13479e0` with exact left/right/bilateral service-module placement through source-owned socket frames.
+- Current UC main is `a05f5fb083ad1454a0d92d001e0d3994a779826f`.
+- Profession Fabric PR #37 remains `EXPERIMENTAL / NO PROMOTION`; it is still a precedent for profession-level evidence procedure reuse, not for low-level spatial math.
+
+The strongest new Cartography question is therefore not another extraction from scratch. It is whether two design repos are independently reimplementing neutral rigid-frame placement while a lower shared layer already exists.
+
 ## Selected cross-repo learning
 
-### The same neutral nonadjacent-triangle self-intersection observer is now duplicated across Animal and Character, and current UC explicitly does not own that capability
+### Building and Object independently repeat the same neutral rigid local-to-world frame application
 
-This is stronger evidence than the previous activation's indexed vertex-fan finding because the repeated procedure has now actually been implemented and exercised in two materially different domains rather than existing as one implementation plus one untested need.
+#### Building Procedural PR #4
 
-## Evidence map
+Current exact head:
 
-### 1. Animal — first receiving implementation
+`17b5a2a2f0a85857293dccc4f042c091324fef5a`
 
-Repository / lane:
+`tools/build_pavilion_utility_panel_receivers.py` now generates two materially different exact receiver placements. The neutral spatial operation is:
 
-- `mike-axiom-mir/axm-animal-design`
-- Geometry PR #4, current head `feb4b24cd36bcc879173138d240754f71db34834`
-- path `src/axm_animal_design/self_intersection.py`
+- take panel-local axes `+X/+Y/+Z`;
+- map them to source-owned receiver `normal/lateral/up`;
+- use the fitted panel center as frame origin;
+- apply unit scale;
+- apply no extra rotation.
 
-The observer is domain-neutral at its API boundary:
+The two retained source receivers are orthogonal (`normal dot = 0.0`) and retain distinct frame, transformed-mesh and placement digests. Building correctly keeps receiver IDs, accepted tags, mount pattern, footprint, standoff/clearance, source identities and acceptance local.
 
-`inspect_triangle_self_intersections(positions, indices, *, epsilon=1e-9, max_examples=16)`
+#### Object Procedural PR #11
 
-It:
+Exact head:
 
-- accepts generic indexed triangle data only;
-- validates finite positions and bounded triangle indices;
-- excludes triangle pairs sharing a source vertex index;
-- performs AABB broad-phase rejection;
-- performs segment/triangle intersection tests;
-- handles coplanar triangle overlap explicitly;
-- rejects indexed or geometric degeneracy;
-- retains bounded examples;
-- reports factual counts plus a truth boundary.
+`4fd7546d520b515533678464307d7a49d13479e0`
 
-Animal uses the observer on its connected forelimb candidate and later deformed ring-phase work, but Animal source landmarks, radius reconciliation, connected-chain construction, rig probes and acceptance remain Animal-owned.
+`tools/build_service_module_configuration_family.py` contains the neutral point transform directly:
 
-### 2. Character — second materially different receiving implementation
+`origin + normal * outward + lateral * local_lateral + up * local_up`
 
-Repository / lane:
+It applies that transform over exact source-owned left/right service socket frames with unit receiving scale and no extra rotation, then builds the retained `empty / left-only / right-only / bilateral` configurations. Object correctly keeps occupancy allowlists/canonicalization, bilateral fit, asymmetric registration, source identities and acceptance local.
 
-- `mike-axiom-mir/axm-character-design`
-- Geometry PR #5, current head `eae6d296867ecaa40e8f5c3f1fe37d8e3019541e`
-- path `src/axm_character_design/self_intersection.py`
+These are different product semantics over the same low-level spatial operation. Building has prescribed panel receivers; Object has bounded optional socket occupancy. That difference is a reason **not** to centralize their product contracts, but it strengthens the case that the basis/matrix math itself should not keep diverging.
 
-Character explicitly records Animal PR #4 as the method donor and re-implements the same public function and geometric procedure locally rather than inheriting Animal geometry or Animal PASS.
+## Existing shared layer discovered
 
-The receiving domain is materially different:
+Current UC main `a05f5fb083ad1454a0d92d001e0d3994a779826f` already contains:
 
-- bilateral ribcage -> shoulder-transition -> upper-arm connected specimens;
-- `93` vertices / `182` triangles per exact shoulder candidate;
-- six retained posed meshes from `L/R × -40/0/+40°`;
-- exact connected Geometry and Rigging lineage preserved.
+`src/axm_stickers/placement.py`
 
-The observer produces a real domain-specific **FAIL**, not a copied success:
+That module explicitly declares itself:
 
-- left neutral: `61` detected nonadjacent triangle-pair intersections;
-- right neutral: `61`;
-- left `+40°`: `65`;
-- right `+40°`: `65`;
-- total across the six retained samples: `374` detected pairs.
+> `Renderer-independent 2D affine and rigid 3D socket attachment conventions.`
 
-The important capability lesson is that the same neutral machinery supports both green structural screening and useful failure diagnosis without importing either domain's construction policy.
+It already owns generic bounded spatial primitives:
 
-Character Geometry correctly keeps the repair local: the current defect is concentrated around ribcage-opening / shoulder-transition construction and is not evidence that UC should own shoulder semantics.
+- `identity()`;
+- `multiply(a, b)`;
+- `rigid(frame)` with finite affine, orthonormal and right-handed/reflection checks;
+- `inverse_rigid(frame)`;
+- `attachment_matrix(...)` with exact rule:
 
-### 3. Universal Creation — declared capability gap
+`world = target_frame × local_offset_and_scale × inverse(source_anchor_frame)`.
 
-Current `mike-axiom-mir/axm-universal-creation` main observed at:
+With identity source anchor, identity local offset and unit scale, that contract reduces to the same neutral target-frame application currently repeated by Building and Object. A target matrix whose first three columns are `normal/lateral/up` and whose translation is the receiving origin gives the same algebraic form as Object's explicit `origin + basis * local_point`; Building's box construction uses the same basis interpretation around its fitted panel center.
 
-`f5ccd414fc1824d0f810440caee38764c946a281`
+The current Sticker Fabric tests exercise rotated source/target frames, scaling, socket mismatch and rigid-frame rejection. Its documentation also states that `src/axm_stickers/` is a standalone core that imports only the Python standard library, can be used without UC, and should avoid divergent copies if it is later moved into the suggested dedicated `axm-sticker-fabric` repository.
 
-Current module:
-
-`src/axm_uc/mesh_topology.py`
-
-The UC observer is intentionally scoped to seam-welded **edge topology** and explicitly returns:
-
-- `vertex_manifoldness_checked: false`;
-- `self_intersection_checked: false`.
-
-That boundary remains truthful and should not be silently widened by Cartography.
-
-A scan found no existing open UC self-intersection PR/issue owning this extraction before this activation.
-
-### 4. Profession Fabric — wrong layer
-
-Profession Fabric PR #37 remains the stronger profession-level extraction precedent: one evidence-discipline procedure is exercised unchanged across three materially different source-owned domains and still remains `EXPERIMENTAL / NO PROMOTION`.
-
-The Animal/Character observer is different in kind. It is deterministic low-level indexed-mesh machinery, not a professional workflow, judgment policy or source-domain procedure.
-
-Therefore:
-
-**NO PROFESSION FABRIC CHANGE REQUESTED.**
+That repository-boundary statement matters: the correct reusable layer is **not “UC product semantics because UC happens to contain the code today.”** The neutral placement machinery belongs to the standalone Sticker Fabric placement core (or its eventual dedicated repository), while UC remains one consumer.
 
 ## Capability-placement decision
 
-### Correct candidate home: Universal Creation, but as a separate opt-in bounded diagnostic
+### Correct candidate layer: standalone `axm_stickers.placement`, not a new UC attachment system and not Profession Fabric
 
-The cross-domain reuse threshold is now materially satisfied for **placement**:
+The current evidence supports the **layer decision** but not an automatic consumer migration.
 
-- two materially different geometry domains;
-- same generic input shape (`positions`, `indices`);
-- same public function shape;
-- same intersection method;
-- one domain can use it for passing candidates while the other exposes a real failing candidate;
-- no Animal or Character source semantics are required by the observer;
-- UC already owns the neighboring generic mesh-topology diagnostics and explicitly declares self-intersection outside its current scope.
+Why this layer is correct:
 
-This is enough to support **UC as the correct home for the neutral observer**.
+1. the operation is deterministic low-level rigid-frame math rather than Building/Object semantics;
+2. the same operation now exists in two materially different design domains;
+3. a third existing implementation already owns renderer-independent rigid socket-frame conventions;
+4. that implementation is deliberately standalone from UC at the package boundary;
+5. Profession Fabric is the wrong abstraction because no profession judgment or workflow is involved.
 
-It is **not** enough to justify silently modifying `inspect_mesh_topology()` or copying domain acceptance policy into UC.
+Why migration remains held:
 
-### Important bounded-work constraint
+- Building and Object have not yet proven their exact current generated vertices/mesh digests through the shared matrix path;
+- `attachment_matrix()` is wrapped in Sticker definition/instance/socket compatibility contracts, while the two design repos only need the neutral rigid-frame subset;
+- forcing design repos to adopt Sticker product semantics merely to reuse matrix math would be the wrong abstraction boundary.
 
-The current Animal/Character algorithm enumerates unordered triangle pairs and then uses AABB rejection. Its worst-case work is therefore still quadratic in triangle count.
+Therefore Cartography does **not** request a new broad attachment API, does not move code, and does not ask either design repo to replace its current receipts.
 
-UC's existing `mesh_topology.py` permits up to `131,072` triangles for its edge-incidence observer. That limit is **not evidence** that a pairwise self-intersection observer is safe at the same scale.
+## Required bounded reuse probe before consolidation
 
-Therefore any UC extraction should:
+A safe next probe is exact and small:
 
-1. stay opt-in rather than run automatically as part of every `inspect_mesh_topology()` call;
-2. expose an explicit bounded-work contract — triangle count, pair budget, or equivalent fail-closed limit;
-3. retain deterministic finite-input/index/degeneracy validation;
-4. retain bounded example reporting;
-5. report facts rather than encode an Animal/Character threshold for how many intersections are acceptable;
-6. preserve explicit non-claims for adjacent topological-neighbour contacts, continuous deformation, collision-system acceptance, runtime/gameplay and visual quality.
+### Building
 
-No hard numeric shared budget is proposed by Cartography in this pass because no UC performance evidence has yet established the correct ceiling.
+For both retained utility-panel receivers:
 
-## Structural action taken
+1. construct the exact target rigid matrix from the already-fitted panel center plus source `normal/lateral/up` basis;
+2. use identity source anchor, identity offset and unit scale;
+3. apply the shared neutral frame path to the existing local proof geometry;
+4. require exact reproduction of the current transformed vertices and current mesh digest for both orthogonal receivers;
+5. retain all Building fit/tag/mount/clearance/source gates unchanged.
 
-Opened Universal Creation coordination issue:
+### Object
 
-**UC issue #162 — `Proposal: extract bounded nonadjacent triangle self-intersection observer`**
+For the exact left/right service sockets:
 
-The issue records the two exact donor/receiving heads, the current UC boundary, the opt-in/bounded-work requirement, domain-ownership exclusions and the rebind rule.
+1. express each current source socket basis/origin as the same rigid target matrix;
+2. use identity source anchor, identity offset and unit scale;
+3. require exact reproduction of current left-only, right-only and bilateral transformed vertices/mesh digests;
+4. retain occupancy, fit, registration, source and failure-policy gates unchanged.
 
-This is a placement proposal only. No UC implementation PR was opened and no code was moved by Cartography.
+If either domain fails exact equivalence, **stop consolidation** and preserve the current local implementations. Do not weaken tolerances or reinterpret axes to make the reuse story fit.
 
-Returned the placement result to:
+If both pass, the shared move should be only the minimal neutral rigid-frame application primitive needed by both domains. No receiver IDs, tags, occupancy semantics, fit policy, mount rules, registration keys, acceptance thresholds or source ownership should move with it.
 
-- Character Geometry PR #5 via comment `5700456668`;
-- Animal Geometry PR #4 via comment `5700458519`.
+## Coordination actions taken
 
-Both handoffs explicitly preserve historical local receipts and require an exact rebind/rerun if UC later gains the shared observer.
+Returned the bounded reuse probe to:
 
-## Rebind / provenance rule if UC implements #162
+- Building Procedural PR #4 via comment `5701320709`;
+- Object Procedural PR #11 via comment `5701323109`.
 
-Historical Animal and Character evidence remains truthful for the exact local implementations that produced it.
+Both comments explicitly preserve the current exact heads and historical receipts, require exact receiving-domain digest reproduction before any consolidation, and reject a universal attachment schema / Profession Fabric promotion.
 
-If UC later implements the observer:
+No new UC issue was opened because current shared machinery already exists; opening another “build this generic attachment math” issue would duplicate the existing Sticker Fabric capability rather than clarify placement.
 
-- Animal must pin the exact UC successor and rerun its receiving evidence before claiming a UC-backed path;
-- Character must do the same for its exact failing/repair lineage;
-- neither repo may relabel historical receipts as if they used the future UC module;
-- UC receives only the neutral observer and bounded-work contract, not source construction or acceptance semantics.
+## Prior Cartography findings retained
 
-## Previous Cartography finding retained — indexed vertex-fan connectivity
+### Nonadjacent triangle self-intersection
 
-The prior activation mapped a separate neutral topology gap:
+UC issue #162 — `Proposal: extract bounded nonadjacent triangle self-intersection observer` — remains open and separate.
 
-- Animal PR #4 has a local indexed vertex-fan diagnostic with a bow-tie negative control;
-- Character Geometry PR #3 explicitly leaves vertex-manifoldness beyond its edge gates unproven;
-- the prior handoff requested a second-domain unchanged-procedure probe before UC extraction.
+Its placement decision still stands: self-intersection is missing neutral mesh-diagnostic machinery adjacent to UC topology inspection, whereas rigid socket-frame placement is already implemented in the standalone Sticker Fabric core. These are different homes and must not be collapsed into “put shared things in UC.”
 
-That finding remains **pending**. Character's newer PR #5 selected self-intersection as the higher-leverage Geometry defect and did not complete the requested vertex-fan reuse probe. The new self-intersection placement decision does not silently close or supersede the vertex-fan gap.
+Fresh Character Geometry PR #7 further demonstrates the observer's usefulness by measuring a topology-only repair from `374` to `58` sampled nonadjacent pairs while correctly retaining a nonzero-intersection HOLD. That strengthens the need for the shared observer but does not broaden issue #162's truth boundary.
 
-Do not merge the two diagnostics into one vague "mesh validity" capability: indexed vertex-fan connectivity and geometric self-intersection are distinct properties with different algorithms and truth boundaries.
+### Indexed vertex-fan connectivity
+
+The earlier vertex-fan gap remains pending. Animal has the local diagnostic and Character still has not performed the requested unchanged-procedure second-domain probe. No extraction is authorized.
+
+### Building named producer result
+
+The prior Building named producer-result decision remains validated and Building-local. It is unrelated to the new neutral frame-math overlap.
 
 ## Current capability map
 
 | Capability / edge | Current evidence | Placement state |
 |---|---|---|
-| UC seam-welded edge topology | current `mesh_topology.py` | **shared machinery; declared edge scope remains correct** |
-| UC geometric self-intersection | `self_intersection_checked: false` | **declared missing neutral capability** |
-| Animal nonadjacent triangle observer | PR #4 `feb4b24...` | **first receiving implementation** |
-| Character nonadjacent triangle observer | PR #5 `eae6d296...` | **second materially different implementation + real FAIL diagnosis** |
-| shared nonadjacent self-intersection observer | UC issue #162 | **correct candidate home supported; implementation pending** |
-| indexed vertex-fan observer | Animal local + Character untested need | **separate prior gap; extraction still HOLD** |
-| Profession Fabric | PR #37 `ddb71acd...` | **profession-procedure precedent; not the mesh-diagnostic home** |
-| Building named producer contract | Hard Surface + Procedural evidence | **previous Cartography decision validated; remains Building-local** |
+| Building utility-panel receiver semantics | Building Procedural PR #4 `17b5a2a...` | **Building-owned** |
+| Object service-module occupancy / registration semantics | Object Procedural PR #11 `4fd7546d...` | **Object-owned** |
+| neutral rigid target-frame math | repeated in Building + Object; existing `axm_stickers.placement` on UC main `a05f5fb...` | **standalone Sticker Fabric layer is correct candidate home; exact consumer equivalence probe pending** |
+| UC self-intersection diagnostic | issue #162 | **separate UC candidate; implementation pending** |
+| indexed vertex-fan diagnostic | Animal local + Character untested need | **HOLD extraction** |
+| Profession Fabric bounded-variation evidence procedure | PR #37 `ddb71acd...` | **profession-level precedent only; no placement role here** |
 
 ## Reusable learning
 
-The studio-level lesson is:
-
-> **Repeated low-level code can be ready for shared placement before the source domains are ready to share acceptance policy. Extract the neutral measurement mechanism only after materially different receiving domains prove it, then preserve domain-owned thresholds, repair semantics and provenance. Also carry the algorithmic cost boundary with the extraction: a shared observer that is quadratic must not become an automatic universal gate merely because its API is generic.**
+> **Before extracting repeated design-repo code into UC, first check whether a lower standalone capability already owns the neutral mechanism. Shared product semantics and shared math are different things. Here, Building and Object should keep their receiver/socket meaning, while exact rigid-frame application belongs at the existing renderer-independent placement layer — but only after both receiving domains reproduce their current exact digests through it.**
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that UC already checks self-intersection;
-- a universal robust self-intersection solver for every geometric degeneracy;
-- adjacent-triangle fold-over/contact classification;
-- seam-welded self-intersection semantics for split-vertex meshes;
-- continuous collision/intersection freedom through animation;
-- a safe universal mesh-size or triangle-pair budget for the observer;
-- a Character shoulder repair;
-- Animal/Character visual, anatomy, deformation, collision, runtime or gameplay acceptance;
-- that the pending vertex-fan gap is solved;
+- that Building or Object already consumes `axm_stickers.placement`;
+- byte/digest equivalence of the shared path in either design repo yet;
+- a universal attachment, socket, receiver or occupancy schema;
+- runtime attach/detach, physics constraints, collision or gameplay;
+- permission to centralize Building fit/tag/clearance semantics or Object occupancy/registration semantics;
+- that Sticker Fabric must remain physically inside the UC repository;
+- that the suggested future `axm-sticker-fabric` repository should be created now;
 - Profession Fabric promotion;
-- CANON, production readiness, game readiness, or Cartography mastery.
+- closure of UC issue #162 or the vertex-fan gap;
+- CANON, production readiness, game readiness or Cartography mastery.
 
 ## Next evidence trigger
 
-Prioritize this placement edge when one of the following happens:
+Prioritize this placement edge when either Building or Object returns an exact digest-equivalence probe against the shared rigid-frame path. If one passes, wait for the second materially different receiving domain before requesting consolidation. If both pass unchanged, propose the smallest shared neutral helper/consumer rebind at the standalone Sticker Fabric layer and require each design repo to preserve/rerun its own domain evidence.
 
-1. UC issue #162 receives an implementation with an explicit bounded-work contract;
-2. Animal or Character is ready to rebind to that exact UC successor;
-3. a third materially different domain independently needs the same observer and reveals a missing geometric case;
-4. performance evidence shows the current pairwise method needs a different shared broad-phase structure before extraction.
-
-Otherwise do not duplicate the observer into more design repos. Keep repairs domain-owned and use issue #162 as the shared placement target.
+Otherwise keep the local implementations truthful and do not manufacture a reuse win.
 
 ## Roots check
 
-- **Truth:** the Character FAIL, Animal donor evidence, current UC non-capability and quadratic cost boundary remain separate facts; no green CI is relabelled as geometric acceptance.
-- **Agency / non-domination:** Animal and Character keep source/repair/acceptance authority; UC is proposed only as the home for neutral measurement machinery; Profession Fabric is not used as a convenience sink.
-- **Continuity:** exact repo/PR/head provenance is preserved, historical receipts remain valid, and any future shared implementation requires explicit receiving-domain rebind/rerun.
-- **Wisdom before speed:** placement is proposed only after two materially different implementations, and the shared design is constrained to avoid turning a bounded quadratic diagnostic into an automatic universal cost.
+- **Truth:** the repeated algebra, current exact design heads, existing Sticker Fabric implementation, package boundary, pending equivalence proof and prior open gaps remain distinct facts.
+- **Agency / non-domination:** Building keeps receiver/fit authority, Object keeps occupancy/registration authority, Sticker Fabric owns only neutral placement machinery, and no consumer is silently migrated.
+- **Continuity:** historical design receipts remain exact; comments request future rebind/rerun rather than relabelling old evidence; issue #162 and the vertex-fan gap remain separate provenance lines.
+- **Wisdom before speed:** reuse is mapped to an existing lower layer instead of inventing another UC subsystem, while actual consolidation waits for exact two-domain digest equivalence.
