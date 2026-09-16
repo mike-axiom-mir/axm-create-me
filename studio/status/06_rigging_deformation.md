@@ -1,29 +1,25 @@
 # 06 — Rigging & Deformation Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BILATERAL_LOGICAL_QUAD_NORMAL_FIELD_DEFORMATION_DENSE_SWEEPS / DEFORMED-NORMAL STRUCTURAL OBSERVER PASS / TANGENTS + SHADED VISUAL + ANIMATION + RUNTIME HELD**
+State: **PASS_BILATERAL_DEFORMED_TANGENT_FRAME_DENSE_SWEEPS / FIXED-UV TANGENT-FRAME STRUCTURAL OBSERVER PASS / SHADED VISUAL + ANIMATION + TRANSPORT + RUNTIME HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, newest specialist status, and the active design-repository dependency chain before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the newest specialist status, and the active design-repository constellation before selecting work.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation is in `mike-axiom-mir/axm-animal-design`; this status file records scope, exact identities, evidence, holds, failures and handoffs only.
+`axm-create-me` remains **coordination only**. Product implementation and evidence stay in `mike-axiom-mir/axm-animal-design`; this file records exact scope, evidence, holds, failures and handoffs only.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Constellation / duplication scan
 
-The strongest fresh Rigging-owned handoff was the Animal normal-field deformation gap, not another weighting or articulation experiment.
+The highest-leverage fresh Rigging-owned dependency was the deformed tangent-frame gap explicitly handed off by Animal Geometry PR #20, not another weighting, source-form or articulation change.
 
-- **Animal Geometry PR #16** now owns `axm.animal-bilateral-logical-quad-normal-field/v0.1`, a topology-diagonal-invariant explicit normal derivation over the exact Geometry #13 elbow topology. Geometry explicitly left deformed-normal behavior to Rigging.
-- **Animal Materials PR #17** rendered that exact static field in pinned Godot and found that it materially reduces, but does not eliminate, the historical-vs-exact-mirror shading delta. Materials correctly left deformed shaded quality, tangents and production transport unaccepted.
-- **Animal Rigging PR #15** remains the exact structural rig/topology authority for the bilateral elbow and already proves the established rig and weighting identities over the dense `-60..+60°` envelope.
-- **Character** retains separate shoulder topology/intersection history; there was no fresher exact dependency that justified changing its weights or articulation this pass.
-- **Object** already has mature lid/latch articulation and target-hierarchy Rigging lanes; no fresh unoccupied Object Rigging dependency outranked the explicit Animal handoff.
-- **Nature / Weather / Map / Building / Weapon / Armor / Unit / Misc** did not expose a stronger current Rigging-owned prerequisite. Nature motion remains VFX/Runtime-owned where applicable.
-- **Universal Creation / Profession Fabric** did not justify promotion or movement of Animal-specific rig or normal semantics.
-
-No duplicate active Rigging lane was opened. The new work consumes the fresh Geometry/Materials handoff while preserving PR #15 as historical exact rig authority.
+- **Animal Rigging PR #18** remains the exact deformed logical-quad normal-field authority at `91e2fd01be63df807c035b39f7ec824a4a5a60b8`; it proves 484 posed normal fields / 20,328 normals while explicitly holding tangents, shaded visual, Animation and Runtime.
+- **Animal Geometry PR #20** at `ca4bb8a2f144231f8755eacc980785d1807b79db` adds the first exact source-preserving structural UV/tangent basis for this elbow chain. It keeps the 42-source-vertex / 80-triangle surface intact while making the render-domain split explicit at 84 vertices, and it explicitly hands deformed tangent observation to Rigging.
+- **Character** still retains a Geometry-owned shoulder self-intersection HOLD; no new Character Rigging variable was justified by fresh evidence.
+- **Object** already has mature articulation lanes; **Nature** dynamic response remains VFX/Runtime-owned where applicable; **Building / Map / Weather / Weapon / Armor / Unit / Misc** exposed no stronger unoccupied Rigging dependency.
+- No competing Rigging implementation lane was found for this exact Animal tangent identity.
 
 ## Selected bounded improvement
 
@@ -31,168 +27,163 @@ Repository: `mike-axiom-mir/axm-animal-design`
 
 Draft stacked PR:
 
-**#18 — `Rigging: prove logical-quad normals across elbow deformation`**
+**#22 — `Rigging: prove tangent frames across elbow deformation`**
 
-Branch: `studio/rigging-bilateral-deformed-logical-quad-normals-001`
+Branch: `studio/rigging-bilateral-deformed-tangent-frame-001`
 
-Base: Materials PR #17 exact head **`a2cd0a6135a7c8502aef9572f7079a3dd2632103`**
+Base: Geometry PR #20 exact head **`ca4bb8a2f144231f8755eacc980785d1807b79db`**
 
-Exact current Rigging head: **`91e2fd01be63df807c035b39f7ec824a4a5a60b8`**
+Exact current Rigging head: **`63c65d57fda0595217f86d971ff8c67f256188be`**
 
-Observed PR state after evidence publication: **OPEN / DRAFT / MERGEABLE**. Repository metadata is evidence metadata only; it is not merge/CANON authority.
+Observed PR state after evidence completion: **OPEN / DRAFT / MERGEABLE**. Repository metadata does not grant merge/CANON authority.
 
 ## Why this was highest leverage
 
-The current Animal pipeline had reached a precise ownership boundary:
+The current exact Animal chain already had source/topology, structural rig/weights, deformed normals and a static structural UV/tangent basis. The only missing Rigging-owned question was whether **that exact Geometry tangent identity remains structurally coherent through the already-proven elbow deformation envelope**.
 
-1. Geometry #13 repaired exact bilateral surface correspondence.
-2. Rigging #15 proved the existing rig/weights remain structurally mirror-coherent on that topology.
-3. Geometry #16 introduced an explicit logical-quad normal field specifically to avoid diagonal-dependent generated normals.
-4. Materials #17 showed the static explicit field improves the target-host shading delta but does not establish deformed behavior.
+The smallest truthful action was therefore an observer, not a new rig: reuse the exact existing solver and weight profiles, hold Geometry #20's UVs/render mapping fixed, re-derive Geometry #16's unchanged logical-quad normals on each posed surface, and re-derive the tangent frame from posed positions + fixed UVs + posed normals.
 
-The missing dependency was therefore not a new rig. It was whether the **existing exact normal derivation remains structurally coherent on the exact already-proven Rigging poses**. That question belongs to Rigging because it is about a derived field under deformation, while final shading preference remains with Materials / Visual QA / Art Direction.
+No source positions, topology, rig hierarchy, joint origin/axis, influence radius, weighting profile, UV layout, normal policy, material, Animation clip or Runtime implementation was changed.
 
-The smallest truthful action was an observer: reuse the exact established rig and weights, pose the exact Geometry #13 surface, re-run Geometry #16's unchanged normal derivation on each posed surface, and measure bounded coherence. No source form, topology, joint, weight, pose, normal algorithm, material or animation was changed.
-
-## Exact source / rig / normal identity preserved
+## Exact identity preserved
 
 Pinned identities:
 
-- Geometry logical-quad normal head: `79e1667f6cc91e2ec8e41f01df18b6933c9c876d`;
-- Materials static target-host review head: `a2cd0a6135a7c8502aef9572f7079a3dd2632103`;
-- Geometry exact-mirror topology head: `bdbb51303bd1b96866b06a71730ccc328bf4f2f6`;
-- historical exact-mirror Rigging head: `4acd9286140dd008f2a4f01ff513912497313e4f`;
-- exact rig-plan + weighting-profile donor: `04760112deb81a8d145226fe7ee02923107c9916`;
+- Geometry UV/tangent head: `ca4bb8a2f144231f8755eacc980785d1807b79db`;
+- previous Rigging deformed-normal head: `91e2fd01be63df807c035b39f7ec824a4a5a60b8`;
+- exact rig/weight donor: `04760112deb81a8d145226fe7ee02923107c9916`;
+- Geometry UV/tangent module blob: `ba0b4e620f132413606177358e47bd32ae4d4965`;
+- deformed-normal module blob: `b8df083310727dcd05e7476b2158a081a5c25c8f`;
+- bilateral Rigging source module blob: `f0cdcd7bf2452e73070efc872f53274a5ae3bcba`;
 - rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
 - weighting-profile digest: `a23fdaf47bbf17b3b070faf66d408faaddaa68c4a0487ace8f484851b91482e4`;
-- Geometry normal-module Git blob: `14a1ba3a1e4c96270197f4f449505113f7bf3e6e`;
-- shared bilateral source-successor Rigging module Git blob: `f0cdcd7bf2452e73070efc872f53274a5ae3bcba`;
-- historical exact-mirror Rigging module Git blob: `038f71f598ab51f47f023b6f33ec1bcc1bedaa7b`;
-- baseline weighting: `smoothstep-v0`;
-- refined weighting: `ease-out-power-0p75-v1`, exponent `0.75`;
+- weight profiles: `smoothstep-v0` and `ease-out-power-0p75-v1` with exact exponent `0.75`;
 - joints: `front-elbow-L` and `front-elbow-R`;
-- influence radius: `0.11 m`;
-- tested envelope: every integer degree from `-60°` through `+60°`.
+- tested motion envelope: every integer angle from `-60°` through `+60°`.
 
-The workflow proves the dependency heads are ancestors where appropriate and separately pins exact module blobs so same-name implementation drift cannot inherit this result.
-
-A deliberate weighting mutation `0.75 -> 0.74` fails closed as **`HOLD_WEIGHTING_PROFILE_IDENTITY_DRIFT`**.
+The deliberate `0.75 -> 0.74` weighting mutation remains fail-closed.
 
 ## Bounded observer method
 
-For each exact side × weighting profile × integer pose:
+For each exact side × weighting profile × integer pose, the observer:
 
-1. use the existing Rigging solver to obtain the exact posed positions;
-2. reconstruct only pose-local ring centres from those already-posed ring vertices;
-3. call Geometry #16's unchanged `derive_logical_quad_normals()` on that posed surface;
-4. require the structural pose itself to remain PASS;
-5. require all normals to remain finite and unit-length within the exact proof tolerance;
-6. require ring normals to retain positive outward radial orientation;
-7. require the neutral `0°` re-derived field to match the exact static Geometry field within `1e-9`;
-8. require adjacent one-degree sampled normal directions to retain positive dot product, preventing a sampled >=90° direction flip;
-9. require exact left/right reflected posed positions and explicit normals to remain within the `1e-9` mirror proof tolerance.
+1. obtains posed source positions from the already-established Rigging solver;
+2. preserves Geometry #20's exact structural UV coordinates and 42→84 render-source mapping unchanged;
+3. re-derives Geometry #16's exact logical-quad normal field on the posed source surface;
+4. expands posed positions/normals through the exact 84-vertex render mapping;
+5. derives tangent/bitangent from posed render positions + unchanged UVs;
+6. Gram-Schmidt orthogonalizes tangent XYZ against the posed explicit normal and retains reflection handedness in tangent `w`;
+7. requires tangent unit error and |tangent·normal| within `1e-9`, exact zero UV drift, zero handedness drift against the static basis, exact neutral-frame reproduction within `1e-9`, and positive adjacent one-degree tangent-direction dot;
+8. requires bilateral reflected positions, normals and tangent XYZ plus opposite reflection handedness to remain within the existing `1e-9` proof tolerance.
 
-This re-derivation is an **evidence observer**. It is not a production skin-normal transport implementation.
+This is a finite **evidence observer**, not production skin/tangent transport.
 
 ## Bounded proof result
 
 Scoped state:
 
-**`PASS_BILATERAL_LOGICAL_QUAD_NORMAL_FIELD_DEFORMATION_DENSE_SWEEPS`**
+**`PASS_BILATERAL_DEFORMED_TANGENT_FRAME_DENSE_SWEEPS`**
 
 Directly exercised:
 
 - 2 elbows;
 - 2 exact weighting profiles;
 - 121 integer-angle samples per side/profile;
-- **484 posed normal fields total**;
-- 42 normals per posed field;
-- **20,328 directly checked deformed normal vectors**;
-- representative retained OBJ + explicit `vn` specimens at `-60/-30/0/+30/+60°` for both sides and both weighting profiles.
+- **484 posed tangent fields** total;
+- 84 render tangents per posed field;
+- **40,656 directly checked tangent vectors**.
 
-The exact-head tests establish:
+Across all four side/profile sweeps:
 
-- all four dense structural pose families remain PASS;
-- every posed explicit normal field remains finite/unit and outward-oriented under the observer gate;
-- neutral re-derived normals match the exact static field within `1e-9`;
-- the minimum adjacent one-degree sampled normal dot remains **strictly positive** for all four side/profile sweeps;
-- left/right reflected posed positions remain within `1e-9`;
-- left/right reflected explicit deformed normals remain within `1e-9`.
+- maximum tangent unit-length error: **`3.3306690738754696e-16`**;
+- maximum `|tangent·normal|`: **`1.1934897514720433e-15`**;
+- maximum UV drift: **`0.0`**;
+- handedness drift count: **`0`**;
+- neutral tangent reproduction residual: **`7.210895423038402e-13`**;
+- neutral normal reproduction residual: **`0.0`**;
+- minimum adjacent one-degree tangent XYZ dot: **`0.9998476962690883`**.
 
-This is a finite discrete proof. It does not mathematically establish every real-valued intermediate angle.
+Bilateral results for both weight profiles:
 
-## CI / exact-head evidence
+- maximum reflected posed-position residual: **`0.0 m`**;
+- maximum reflected normal residual: **`1.000088900582341e-12`**;
+- maximum UV residual: **`0.0`**;
+- maximum reflected tangent-XYZ residual: **`7.633310189221143e-13`**;
+- tangent handedness mismatches: **`0`**.
+
+This is a finite one-degree sampled proof; it is not a mathematical proof of every real-valued intermediate angle.
+
+## CI / retained evidence
 
 Dedicated workflow:
 
-**`35158115102 — Rigging bilateral deformed logical-quad normal evidence — SUCCESS`**
+**`35162365467 — Rigging bilateral deformed tangent-frame evidence — SUCCESS`**
 
-Exact head: `91e2fd01be63df807c035b39f7ec824a4a5a60b8`.
+Exact head: `63c65d57fda0595217f86d971ff8c67f256188be`.
 
-- Python 3.11: exact ancestry/blob checks PASS; exact historical Rigging donor checks PASS; compile PASS; full inherited Animal suite plus new deformed-normal tests PASS; retained evidence build PASS; artifact upload PASS.
-- Python 3.13: exact ancestry/blob checks PASS; exact historical Rigging donor checks PASS; compile PASS; full inherited Animal suite plus new deformed-normal tests PASS.
-- The exact weighting-identity negative control is part of the retained evidence and fails closed as intended.
+- Python 3.11: exact ancestry/module checks PASS; exact donor checkout PASS; compile PASS; full inherited Animal suite plus new observer tests PASS; retained evidence build PASS; artifact upload PASS.
+- Python 3.13: exact ancestry/module checks PASS; exact donor checkout PASS; compile PASS; full inherited Animal suite plus new observer tests PASS.
+- No rig rule, weight, tolerance, UV policy, normal policy or source geometry was weakened to obtain the PASS.
 
-No assertion, tolerance, rig rule, weighting rule, source geometry or normal derivation was weakened to obtain the green result.
+Retained artifact:
 
-## Retained artifact
+- ID: **`10473895531`**;
+- name: `animal-rigging-bilateral-deformed-tangent-frames-63c65d57fda0595217f86d971ff8c67f256188be`;
+- size: **`122,716 B`**;
+- retained files: **8**;
+- SHA-256: **`8ba40d9ea7017c01a059bf7c5eafc264dccaf4e35542d670277ee73518241a7e`**;
+- archive downloaded and independently rehashed this activation: **same SHA-256**.
 
-- artifact ID: **`10472097432`**;
-- name: `animal-rigging-bilateral-deformed-logical-quad-normals-91e2fd01be63df807c035b39f7ec824a4a5a60b8`;
-- size: **`805,151 B`**;
-- exact head: `91e2fd01be63df807c035b39f7ec824a4a5a60b8`;
-- GitHub-retained SHA-256: **`9b4cd39dec2afd508cb6887ef25e9c5acb07db35661a2f8b0d11bfc6336b41ec`**.
-
-This activation did **not** independently download/re-hash the archive, so the digest is reported as GitHub-retained metadata only.
-
-The packet retains machine-readable identity/evidence, the exact rig plan and weighting profile, Geometry prerequisite record, fail-closed weighting control, and 20 representative OBJ specimens with explicit vertex normals.
+The packet retains the full machine-readable observer receipt, exact rig plan, exact weighting profile, exact current/dependency head records and summary.
 
 ## Handoffs recorded
 
-- **Rigging PR #18:** evidence comment `5705510848` records exact head, workflow, 484-field / 20,328-normal result, artifact and non-claims.
-- **Geometry PR #16:** comment `5705511852` records that its unchanged normal derivation remains structurally coherent on the sampled exact Rigging envelope while preserving Geometry ownership and holding tangents/production transport.
-- **Materials PR #17:** comment `5705512686` explicitly states that this is not a shaded deformed-visual PASS and asks any future posed rendering to bind to PR #18's exact identities.
-- **Animation PR #5:** comment `5705513572` records that Animation still must explicitly rebind its own clip/interpolation/playback evidence to Geometry #13 / Rigging #15; no playback or timing acceptance transfers from this observer.
-- **Historical Rigging PR #15:** comment `5705514221` preserves PR #15 as the exact structural rig/topology authority and records PR #18 as a later observer, not a rewrite.
+- **Rigging PR #22:** evidence comment `5706040896` records exact numeric observer result, exact workflow, artifact digest and explicit non-claims.
+- **Geometry PR #20:** comment `5706042280` records that its exact UV/tangent identity survives the bounded Rigging pose observer without changing Geometry ownership or final UV acceptance.
+- **Historical Rigging PR #18:** continuity comment `5706043832` preserves its deformed-normal PASS as a separate exact prerequisite rather than rewriting it into tangent evidence.
+- **Materials PR #17:** comment `5706044608` keeps deformed shaded tangent-space appearance explicitly unaccepted and Materials / Visual QA / Art Direction-owned.
+- **Runtime PR #19:** comment `5706045518` records that the 42→84 tangent representation needs its own fresh Runtime storage/performance/transport measurement; prior normal-only budget does not transfer.
+- **Animation PR #5:** comment `5706046476` explicitly keeps timing, interpolation, clip, playback and target-host channel acceptance separate.
 
 ## Truth boundary / explicit non-claims
 
-This activation proves only a **bounded finite-sampled structural deformed-normal observer** over the exact existing Animal elbow rig and exact Geometry logical-quad normal derivation.
+This activation proves only a **bounded finite-sampled structural deformed-tangent-frame observer** over the exact existing Animal elbow rig and exact Geometry structural UV/tangent basis.
 
 It does **not** establish:
 
-- production skin-normal transformation or export semantics;
-- tangents, tangent-space basis or UV policy;
-- mathematical continuous normal behavior for every real-valued angle;
+- production skin/tangent transport or export semantics;
+- mathematical continuous tangent behavior for every real-valued pose;
+- tangent-space normal-map rendering or final texture/texel-density policy;
 - final shaded deformation quality or Art Direction / Visual QA acceptance;
 - anatomy, muscle behavior, volume preservation, skin sliding or production skin quality;
 - Animation timing, interpolation, clip, playback or motion acceptance;
-- exported skeleton/skin or target-host animation channels;
-- Runtime/controller, wall-clock playback, target-device memory/FPS/performance or gameplay acceptance;
+- exact Technical-Art / UC / GLB transport or importer regeneration/reorder safety;
+- Runtime/controller, target-device memory/FPS/performance, physics or gameplay acceptance;
 - CANON or merge authority;
 - production readiness, game readiness or Rigging mastery.
 
 ## Four-root gate
 
-- **Truth:** the new PASS is bound to exact Geometry, Materials, Rigging, module-blob and profile identities; the evidence keeps finite-sample and observer limitations explicit rather than calling it production normal transport.
-- **Agency / non-domination:** Geometry retains normal/topology ownership; Materials / Visual QA / Art Direction retain shading acceptance; Animation retains clip/playback authority; Technical Art / Runtime retain transport/controller/runtime authority.
-- **Continuity:** Rigging PR #15 remains an unchanged exact rollback/evidence point; PR #18 is a later stacked observer. No historical PASS/HOLD is relabelled.
-- **Wisdom before speed:** the existing rig, weights and Geometry normal policy were measured together before inventing another weighting profile, tangent policy or engine implementation.
+- **Truth:** the PASS is bound to exact Geometry/Rigging heads, module blobs, rig/profile digests and measured finite pose samples; production transport, shaded visual, Animation and Runtime gates remain visibly open.
+- **Agency / non-domination:** Geometry retains UV/normal/surface ownership; Materials / Visual QA / Art Direction retain visual acceptance; Animation retains clip/playback authority; Technical Art retains transport authority; Runtime retains storage/performance/controller authority; Mike / constitutional process retain CANON/merge authority.
+- **Continuity:** Rigging #18 and Geometry #20 remain separate rollback/evidence points; PR #22 consumes them without relabelling historical PASS/HOLD states.
+- **Wisdom before speed:** the exact new tangent identity was measured through the proven rig envelope before inventing another weighting profile, changing topology or promoting an Animal-specific observer into UC.
 
 ## Prior Rigging lanes retained as historical truth
 
-- Animal PR #15: `4acd9286140dd008f2a4f01ff513912497313e4f` — exact-mirror topology Rigging rebind; exact posed-vertex + retained structural surface-metric mirror PASS.
+- Animal PR #18: `91e2fd01be63df807c035b39f7ec824a4a5a60b8` — deformed logical-quad normal observer PASS.
+- Animal PR #15: `4acd9286140dd008f2a4f01ff513912497313e4f` — exact-mirror topology Rigging rebind PASS.
 - Animal PR #12: `94bc573e2e06ba7a35c9908c141e2f939d4739a8` — bilateral source-successor dense sweeps; exact vertex mirror PASS / historical surface-metric HOLD.
 - Animal PR #10: `b48bb957622ed5c82a24ca4fcb471f7ee9b5147a` — left source-successor elbow rebind.
-- Character PR #12: `329c485f567faeeb79198c7b1ebc2974b3c3db60` — stitch-edge shoulder rebind.
+- Character PR #12: `329c485f567faeeb79198c7b1ebc2974b3c3db60` — stitch-edge shoulder rebind with Geometry intersection HOLD retained.
 - Character PR #10: `e5b129ba936f252946f48921be5a3096d8c2f801` — diagonal-repair shoulder rebind.
 - Character PR #8: `ef73f87e0ebe4ce101b2fe25a92441ada7837b83` — opening-repair shoulder rebind.
 - Character PR #6: `62a60ee6b930d13898203d37b0cc9dab6b13d99d` — angle-conditioned shoulder release profile.
 
 ## Next Rigging & Deformation pass
 
-1. Re-scan the complete constellation; do not automatically continue Animal.
-2. If Materials / Visual QA produces a **posed shaded** review and identifies a precise deformation-normal defect, alter only the smallest Rigging-owned variable supported by that evidence; do not take tangent/material ownership.
-3. If Animation advances to Geometry #13 + Rigging #15, require an explicit exact-head clip/interpolation/target-host rebind before motion acceptance.
-4. If Geometry changes the explicit normal derivation or topology identity, preserve PR #18 and rerun rather than transferring its PASS by equivalence.
-5. Keep production skin-normal transport, tangent-space policy, final visual quality, Runtime/controller behavior, gameplay, CANON and mastery as independent gates.
+1. Re-scan the full design constellation; do not automatically continue Animal.
+2. If Materials / Visual QA produces a posed tangent-space shaded review and identifies a precise deformation defect, change only the smallest Rigging-owned variable justified by that evidence.
+3. If Animation advances, require an explicit exact-head clip/interpolation/playback rebind; this tangent observer must not become silent Animation acceptance.
+4. If Geometry changes UV, normal, render-domain or topology identity, preserve PR #22 and rerun instead of transferring its PASS by equivalence.
+5. Keep production tangent transport, target-host import behavior, Runtime/controller cost, gameplay, CANON and mastery as independent gates.
