@@ -1,25 +1,29 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-16
-State: **PASS_TAPERED_CAP_WINDING_REPAIR / THREE REAL NATURE SOURCES / EXACT REAR DONOR / REINDEX-ONLY DERIVED CANDIDATES / SOURCE MIGRATION + VISUAL + DEFORMATION + RUNTIME HELD**
+State: **PASS_SOURCE_GENERATOR_TAPERED_CAP_WINDING_MIGRATION / THREE EXACT NATURE SOURCES MATCH PRIOR GEOMETRY ORACLE / HISTORICAL LINEAGE PRESERVED / DOWNSTREAM REBIND + VISUAL + DEFORMATION + RUNTIME HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, current Geometry status, newest constellation PRs, and the Technical Art topology status before choosing a lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the prior Geometry status, newest specialist coordination state, open design work, Capability Cartography, Visual QA and Technical Art topology evidence before selecting a lane.
 
-`axm-create-me` remains coordination-only. Product/evidence implementation stays in the owning design repository.
+`axm-create-me` remains coordination-only. Product/evidence implementation is in the owning design repository; this file records only coordination state, evidence and handoffs.
 
-### Constellation scan / duplication check
+## Constellation scan / duplication check
 
-- **Animal:** Geometry PR #4 already owns the connected-forelimb structural candidate. Its static topology result remains visually/deformation-held, so this activation did not reshape or duplicate it.
-- **Character:** the requested future connected transition remains behind the existing visual/form gate; no premature edge-flow rewrite was opened.
-- **Building / Object / Armor / Weapon / Unit / Misc:** no newer evidence exposed a higher-confidence source-topology defect than Nature's already reproduced shared-generator issue; active Hard-Surface/Rigging/Materials/Technical-Art lanes remain separate.
-- **Map / Weather:** current work is receiving-scene composition, atmosphere and runtime lifecycle rather than source-mesh topology.
-- **Nature:** Geometry PR #7 already owns the repeated tapered-cap winding repair. Organic PR #8 subsequently added a third exact Nature body, `east-rear-tree-neutral-001`, explicitly inheriting the known generator limitation. Technical Art then proved the original two-body `260 -> 0` distinction survives the Nature -> UC bridge while explicitly holding rear-tree topology because the newer source was outside its pinned Geometry donor.
-- **Procedural Nature:** PR #4 now exercises three source families, but deliberately does not silently consume Geometry's repair. Procedural variants therefore do not inherit Geometry acceptance merely by family membership.
-- **UC / Profession Fabric:** no new shared abstraction is justified. UC already owns a generic topology inspector; Nature-specific cap-layout knowledge remains Nature-local. Capability Cartography's current placement discipline is preserved.
+- **Animal:** Geometry PR #4 still owns the connected-left-forelimb candidate and indexed vertex-fan verification. Its exact candidate remains visually/deformation-held, so this activation did not reshape or duplicate it.
+- **Character:** Organic Form has recorded exact neutral flex-transition facts, including shallow shoulder root-ring overlap, but connected topology remains behind its visual/form gate. Geometry did not pre-empt that gate.
+- **Building / Object:** newest work is Materials, Hard-Surface, Rigging, Animation, Procedural and Technical-Art integration. No higher-confidence unowned source-topology defect superseded Nature.
+- **Weapon / Armor / Unit / Misc:** no current evidence exposed a stronger unowned geometry failure or justified a new generic topology abstraction.
+- **Map / Weather:** current work is receiving-scene composition, lookdev, VFX and runtime lifecycle. Map Visual QA now explicitly blocks normal-culling adoption of the historical rear-tree baseline until an isolated repaired receiving A/B exists; Geometry must not implement that scene review itself.
+- **Nature Geometry PR #7:** remains the exact **derived reindex oracle** at `e2224d4bf88f7e68503072c884e5a726b8d0c53d`. It proved the same tapered-cap defect and same repair across three real Nature sources without modifying source generation.
+- **Nature Technical Art PR #3:** subsequently transported the exact repair through current UC and observed a real Godot 4.7.2 backface-culling consequence. In two retained views, the historical rear baseline showed repeated slit/gap losses while the exact reindex candidate removed them; with culling disabled baseline/candidate were pixel-identical.
+- **Visual QA:** independently reproduced that renderer-visible baseline failure and issued `BLOCK_NORMAL_CULLING_RECEIVING_ADOPTION` until a real receiving-scene A/B consumes the repaired lineage.
+- **Capability Cartography:** the evidence threshold changed materially. Three repeated source cases + current-UC transport + target-host consequence now support moving the exact repair into the **Nature source generator**, while explicitly rejecting a Nature-specific UC or Profession Fabric auto-fix.
+- **Procedural Nature PR #4:** still owns branch/crown variation over the historical source-generator lineage. Its nine retained outputs do not automatically inherit this migration.
+- **UC / Profession Fabric:** unchanged. UC already owns generic topology inspection/transport; Nature-specific cap-index emission remains Nature-local. Profession Fabric remains evidence/profession territory, not source mesh construction.
 
-The highest-leverage bounded gap was therefore to extend the **existing** Nature Geometry lane to the exact east-rear source, not open another Geometry PR and not migrate the generator.
+The highest-leverage bounded Geometry action was therefore no longer another derived candidate. It was one explicit, provenance-preserving **Nature source-lineage migration** that reproduces the already-proven reindex oracle exactly.
 
 ## Selected lane
 
@@ -27,184 +31,222 @@ Repository:
 
 `mike-axiom-mir/axm-nature-design`
 
-Existing draft PR extended:
+New draft PR:
 
-**#7 — `Geometry: prove tapered-cap winding repair across three Nature sources`**
+**#9 — `Geometry: migrate proven tapered-cap winding into Nature source generator`**
 
 Branch:
 
-`studio/geometry-nature-cap-winding-001`
+`studio/geometry-nature-source-winding-migration-001`
 
-Base / original prerequisite:
+Exact base:
 
-- Organic Form PR #6 branch `studio/organic-compact-east-tree-001`;
-- exact prerequisite head `64116d63fc76daa1623b5fd5046a4e6074100bda`.
+- Organic Form PR #8 branch `studio/organic-east-rear-tree-001`;
+- base head `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`.
 
-New exact external Organic donor:
+Exact final tested head:
 
-- Organic PR #8 head `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`;
-- source path `examples/east_rear_tree_neutral_001.json`;
-- source remains outside the Geometry branch and is checked out separately in evidence CI.
-
-Exact tested Geometry head:
-
-`e2224d4bf88f7e68503072c884e5a726b8d0c53d`
+`4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`
 
 PR state after evidence:
 
 **OPEN / DRAFT / MERGEABLE**
 
-## Why this extension matters
+Historical Geometry oracle retained unchanged:
 
-The prior Geometry proof established that the shared Nature `_add_tapered_segment()` pattern produces deterministic same-direction cap/side traversal on both the original sapling and compact east tree, and that reversing only the cap triangle index order removes the conflict without moving vertices.
+- PR #7 head `e2224d4bf88f7e68503072c884e5a726b8d0c53d`.
 
-Technical Art later confirmed two important downstream facts:
+## Bounded source migration
 
-1. the source-space `260 -> 0` distinction survives Nature's coordinate/winding/flat-normal bridge and generic UC seam-welded topology inspection;
-2. UC `verify_glb()` passing does not itself prove shared-edge topology consistency.
+Only the shared Nature `_add_tapered_segment()` cap index emission changed.
 
-However, Technical Art explicitly left `east-rear-tree-neutral-001` topology held because that source did not exist in its pinned Geometry donor. The new Organic body is also the source intended for a later rear/right Map replacement, so leaving it structurally unmeasured would create an avoidable evidence asymmetry.
+Historical emission:
 
-## Bounded improvement
+- start cap: `[c0, a1, a0]`;
+- end cap: `[c1, b0, b1]`.
 
-The Nature-local repair algorithm itself was **not changed**.
+Migrated emission:
 
-The evidence harness was extended so one exact external source donor can be exercised by the same evaluator while preserving source identity and provenance. CI now:
+- start cap: `[c0, a0, a1]`;
+- end cap: `[c1, b1, b0]`.
 
-1. checks out the real Geometry PR head explicitly rather than relying on GitHub's synthetic pull-request merge checkout;
-2. checks out Organic PR #8 exact head `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12` into a separate donor path;
-3. loads the exact rear-tree source from that donor checkout;
-4. runs the unchanged Nature-local cap-winding repair/evaluator across all three bodies;
-5. records external donor kind/ref beside the retained rear evidence;
-6. fails if the expected three-source set is not present or any source does not pass;
-7. records the exact real Geometry head in the artifact.
+This is exactly the same cap-face reversal already proven by Geometry PR #7. The migration does **not** alter:
 
-No Organic source JSON, Organic generator, Map composition, deformation code, materials, runtime code, UC core, Profession Fabric structure, or prior source/mesh identity was rewritten.
+- any source JSON;
+- vertex positions;
+- triangle vertex membership;
+- region identity;
+- authored trunk / branch / leaf parameters;
+- source envelopes or receiving transforms;
+- materials;
+- deformation / VFX logic;
+- Map composition;
+- UC core;
+- Profession Fabric.
 
-## Exact-head evidence
+A new Nature-local evidence contract, `axm.nature-source-topology-migration-evidence/v0.1`, pins the exact PR #7 oracle and fails closed unless each current source-generated mesh equals the already-proven derived candidate digest exactly.
 
-Exact Geometry workflow:
-
-- **Geometry tapered cap winding evidence** run `35067299860` — **SUCCESS** on Python 3.11 / 3.13.
-
-Same-head inherited compact-east workflow observed green:
-
-- **Organic compact east tree evidence** run `35067299839` — **SUCCESS**.
-
-Retained Geometry artifact:
-
-- name: `tapered-cap-winding-001-evidence`;
-- artifact ID: **`10434757316`**;
-- reported size: **43,733 bytes**;
-- exact workflow-head binding: `e2224d4bf88f7e68503072c884e5a726b8d0c53d`;
-- GitHub archive SHA-256: **`afe3b00857c68290830bce0d8c39b089ba1b4cbfcb0f4d12a650ba51d489c8d4`**.
-
-The retained ZIP was downloaded independently and rehashed to the same SHA-256. `exact-head.txt` was read directly and equals the real PR head `e2224d4bf88f7e68503072c884e5a726b8d0c53d`.
-
-### Provenance repair during this activation
-
-The first three-source workflow attempt, run `35067220464`, was structurally green but its retained `exact-head.txt` exposed GitHub's synthetic PR merge checkout rather than the actual branch head. That artifact was **not adopted**.
-
-The workflow checkout was then corrected to pin `${{ github.event.pull_request.head.sha || github.sha }}` and rerun. The repair algorithm, source bodies, structural thresholds and acceptance logic were unchanged. The adopted artifact is only the exact-head-bound rerun above.
-
-## Three-source structural result
-
-The exact retained evidence reports the following for all three real Nature bodies:
-
-| Measure | Baseline | Derived candidate |
-|---|---:|---:|
-| vertices | 390 | 390 |
-| triangles | 570 | 570 |
-| unique indexed edges | 905 | 905 |
-| shared-edge orientation conflicts | **260** | **0** |
-| flipped cap triangles | — | 260 |
-| boundary edges | 100 | 100 |
-| non-manifold edges | 0 | 0 |
-| edge-connected components | 40 | 40 |
-
-Exact identities:
+## Exact lineage mapping
 
 ### `sapling-neutral-001`
 
-- source digest: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
-- baseline mesh digest: `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`;
-- repaired candidate digest: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`.
+- exact source ref: `fbc202449981f2bac153951c561ed0ed6120c936`;
+- source digest preserved: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
+- historical mesh: `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`;
+- proven PR #7 reindex candidate: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`;
+- current source-generated migrated mesh: **exactly `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`**.
 
 ### `compact-east-tree-neutral-001`
 
-- source digest: `9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`;
-- baseline mesh digest: `c7367ed5dcea6ebe39869c48fd653845b25c9a8725a2e637a1d6f2fbee1fa32f`;
-- repaired candidate digest: `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`.
+- exact source ref: `64116d63fc76daa1623b5fd5046a4e6074100bda`;
+- source digest preserved: `9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`;
+- historical mesh: `c7367ed5dcea6ebe39869c48fd653845b25c9a8725a2e637a1d6f2fbee1fa32f`;
+- proven PR #7 reindex candidate: `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`;
+- current source-generated migrated mesh: **exactly `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`**.
 
 ### `east-rear-tree-neutral-001`
 
-- exact external donor: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`;
-- source digest: `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`;
-- established Organic baseline mesh digest reproduced exactly: `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`;
-- repaired candidate digest: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`.
+- exact source ref / PR #8 head: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`;
+- source digest preserved: `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`;
+- historical mesh: `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`;
+- proven PR #7 reindex candidate: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
+- current source-generated migrated mesh: **exactly `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`**.
 
-The rear tree therefore reproduces the same generator-level structural defect and the same reindex-only repair behavior without copying the source into Geometry or changing its source-owned identity.
+Historical mesh receipts are not edited or relabelled. They remain truthful evidence for the old exact generated lineage.
+
+## Structural result
+
+For all three exact source-generated migrated bodies:
+
+| Measure | Migrated output |
+|---|---:|
+| vertices | 390 |
+| triangles | 570 |
+| unique indexed edges | 905 |
+| shared-edge orientation conflicts | **0** |
+| boundary edges | 100 |
+| non-manifold edges | 0 |
+| ordinary Organic structural checks | PASS |
+
+The migration tests also deliberately reverse one migrated cap face and require a shared-edge orientation conflict to reappear, proving the diagnostic is falsifiable rather than a constant PASS. Unknown source identities fail closed.
+
+## Exact-head evidence
+
+Dedicated workflow:
+
+- **Geometry source topology migration evidence** run `35072883112` — **SUCCESS** on Python 3.11 / 3.13.
+- full receiving repository suite: **27 / 27 tests PASS** on the exact head.
+
+Same-head inherited workflow families also remain green:
+
+- Nature organic form baseline run `35072883107` — SUCCESS;
+- Organic compact east tree evidence run `35072883129` — SUCCESS;
+- Organic east rear tree evidence run `35072883106` — SUCCESS.
+
+Retained migration artifact:
+
+- name: `source-topology-migration-001-evidence`;
+- artifact ID: **`10436439443`**;
+- size: **42,263 bytes**;
+- exact-head binding: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
+- GitHub SHA-256: **`fe09383e34e63fbff2ac3eb1fa21a5d9e26d770734902ef177b3bfa4100eab0d`**.
+
+The artifact was independently downloaded and rehashed to the same SHA-256. Its `exact-head.txt` was read directly and equals `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`. Its retained `summary.json` is `PASS_SOURCE_GENERATOR_MIGRATION_3_REAL_OUTPUTS` and records all three exact historical→migrated mappings above.
+
+## Failed first implementation run retained as provenance
+
+Initial exact implementation head:
+
+`89a3ad00e8098dc559eb07ac0939d60574f8b8f3`
+
+The first Actions pass failed. Importantly, the new migration itself was already behaving as intended: all five new source-migration tests passed, including exact candidate-digest equality. The only failing inherited test was `test_exact_source_passes_retained_rear_slot_gates`, which still asserted historical rear mesh `d7fc5dea...` as the **current** generator output.
+
+That failure was not hidden and the source change was not weakened. The inherited test now names both:
+
+- `HISTORICAL_MESH_DIGEST = d7fc5dea...`;
+- `MIGRATED_MESH_DIGEST = aa9d450a...`.
+
+It requires the current output to equal the migrated digest **and** differ from the historical digest. The final exact rerun then passed every workflow above.
 
 ## Scoped result
 
-**`PASS_TAPERED_CAP_WINDING_REPAIR / THREE REAL NATURE SOURCES / HOLD_SOURCE_MIGRATION_AND_DOWNSTREAM_ACCEPTANCE`**
+**`PASS_SOURCE_GENERATOR_TAPERED_CAP_WINDING_MIGRATION / THREE EXACT SOURCES MATCH_GEOMETRY_ORACLE / HOLD_DOWNSTREAM_REBIND_AND_ACCEPTANCE`**
 
-This closes Technical Art's prior `HOLD_EAST_REAR_TREE_TOPOLOGY` **only for this exact indexed shared-edge winding claim**.
+This proves that the Nature source generator can now emit the exact already-proven cap-winding repair for these three established source studies while preserving source identity and historical lineage.
 
-It does not establish production topology for the rear tree or authorize generator migration.
+It does **not** mean all existing downstream receipts now describe the new mesh bytes.
+
+## Downstream rebind boundary
+
+Evidence tied to the old exact generated mesh identities remains valid for those historical identities but does not transfer automatically.
+
+Explicit handoffs were posted to:
+
+### Organic Form PR #8
+
+- source JSON / form semantics remain exact;
+- rear current migrated mesh is `aa9d450a...`;
+- historical `d7fc5dea...` remains old-lineage evidence;
+- no Organic/aesthetic/deformation authority is taken by Geometry.
+
+### Technical Art PR #3
+
+- next migration gate should consume the **source-generated PR #9 bytes**, not merely reuse the old derived Geometry candidate;
+- republish through current UC and rerun target-host culling observation;
+- UC remains domain-neutral and unchanged.
+
+### Procedural Design PR #4
+
+- nine retained variants do not automatically inherit the new topology lineage;
+- if PR #9 is adopted, regenerate/re-evaluate them under the same procedural parameters;
+- do not widen variation bounds or hide the lineage change.
+
+### Map Environment PR #15
+
+- existing culling-disabled composition PASS remains valid for historical baseline identity;
+- no Map change was made by Geometry;
+- later isolated normal-culling receiving A/B should consume the migrated lineage only after the relevant Technical Art source-generated transport gate is re-established;
+- do not mix Building Materials, VFX or Runtime changes into that A/B.
+
+### Geometry PR #7
+
+- remains the exact before/after reindex oracle and regression evidence;
+- it is not silently rewritten or discarded now that the source generator can reproduce its candidates.
+
+Runtime / Materials / VFX receipts that pin changed generated mesh bytes should be rebound only when their owning lanes actually consume the migrated lineage. No blanket constellation rebuild is justified.
 
 ## Limitations / non-claims
 
 This activation does **not** establish:
 
 - connected production vegetation topology;
-- that the current 40 edge-connected components are desirable final topology;
-- trunk-to-branch or branch-span welding;
-- positional-seam welding or arbitrary split-vertex manifoldness;
+- that 40 historical split components are desirable final topology;
+- trunk-to-branch welding or arbitrary positional-seam manifoldness;
 - self-intersection freedom;
-- outward-normal correctness;
-- authored vertex normals, tangents, smoothing groups or normal continuity;
-- UVs, textures, materials or final LookDev;
+- global outward-normal correctness for every view or future generated variant;
+- authored vertex normals, tangents, smoothing groups or UV readiness;
+- final materials / LookDev;
 - deformation, wind, bending, skinning, flex quality or volume preservation;
-- target-engine backface-culling or shaded visual equivalence;
-- that the rear-tree candidate has crossed the Nature -> UC preflight path yet;
+- Technical Art acceptance of the **source-generated** migrated bytes through current UC yet;
+- Map receiving-scene normal-culling acceptance of the migrated source yet;
 - target-device memory, draw, GPU or FPS acceptance;
 - collision, navigation or gameplay suitability;
-- that any of Procedural PR #4's nine retained variants automatically inherit this exact PASS;
-- that prior Environment / Runtime / Materials / VFX evidence transfers to repaired candidate mesh digests;
-- source-generator migration acceptance;
+- automatic topology migration of Procedural PR #4 variants;
+- automatic transfer of historical Materials / VFX / Runtime receipts;
 - CANON, production readiness, game-readiness, Nature mastery or Geometry mastery.
 
 ## Root gate
 
-- **Truth:** the claim stays limited to exact indexed shared-edge winding and preserved measured topology facts. Synthetic merge-ref evidence was detected and rejected instead of being reported as exact-head proof.
-- **Agency / non-domination:** Organic Form retains source/generator authority; Technical Art owns export/target-render checks; Rigging/VFX own deformation; Art Direction/Visual QA own perceptual acceptance; Runtime owns performance. Geometry does not seize those gates.
-- **Continuity:** exact old source/mesh identities remain untouched; rear-tree evidence pins its external Organic donor; repaired candidates receive distinct digests; rollback remains branch/PR-local.
-- **Wisdom before speed:** the existing repair/evaluator was reused and extended to one missing exact source instead of rewriting the generator or inventing a new UC abstraction.
-
-## Handoffs recorded
-
-### Organic Form PR #8
-
-Posted exact rear-tree Geometry result:
-
-- donor `a4e5ee...` preserved;
-- `260 -> 0` shared-edge conflicts;
-- candidate `aa9d450a...`;
-- source migration and all downstream acceptance remain held.
-
-### Technical Art PR #3
-
-Posted that the prior source-space rear topology hold can now be closed for the narrow winding claim. If Technical Art extends the UC preflight, it should pin both Organic donor `a4e5ee...` and repaired candidate `aa9d450a...`; target-render culling remains a separate gate.
-
-### Procedural PR #4
-
-Posted an explicit non-inheritance warning: three source families now reproduce the generator-level defect, but the nine procedural variants do not automatically inherit an exact Geometry PASS. The repair must not be silently consumed into the procedural/Organic generator.
+- **Truth:** the migration is exact-oracle-bound. Each source-generated migrated mesh must equal the already-proven Geometry candidate digest; the failed first lineage-pin run remains visible; historical receipts are not relabelled.
+- **Agency / non-domination:** Nature remains source/form owner; Technical Art owns UC/target-host transport evidence; Environment / Art Direction / Visual QA own scene/perceptual acceptance; Rigging/VFX own deformation; Runtime owns cost. Geometry changes only the source topology emission supported by repeated evidence.
+- **Continuity:** the migration is a new branch/PR stacked on exact Organic PR #8. Old source refs, old mesh digests, PR #7 derived candidates, failed first CI and new migrated digests all remain traceable and rollbackable.
+- **Wisdom before speed:** migration occurred only after three repeated source cases, exact derived proof, current-UC transport, target-host culling consequence, independent Visual QA reproduction and Cartography placement support. No UC auto-fixer, blanket rebuild or unrelated topology rewrite was introduced.
 
 ## Next Geometry / Topology pass
 
-1. Do not migrate the Organic generator merely because a third source reproduces the repair.
-2. Prefer either a Technical Art extension of the rear candidate through the existing Nature -> UC preflight or a real target-engine culling/shading A/B if migration becomes an active proposal.
-3. If Procedural outputs become structurally consequential downstream, test exact retained variants rather than inferring topology from family membership.
-4. Keep connected vegetation topology, self-intersection, normals/tangents/UV-readiness and deformation as separate future questions.
-5. Do not claim game-readiness or Geometry mastery from this three-source structural success.
+1. Do not broaden the migration beyond the exact tapered-cap emission rule while downstream source-generated transport/receiving gates are still pending.
+2. Let Technical Art republish the exact source-generated migrated bytes through current UC and let Environment/Visual QA own the isolated normal-culling Map A/B.
+3. If Procedural regenerates its nine variants on the migrated generator, test exact retained variants rather than inferring topology from their source-family membership.
+4. Animal connected topology remains a separate candidate until visual/deformation gates move; Character connected transition remains behind its form/visual gate.
+5. Keep self-intersection, seam welding, normals/tangents/UV readiness, deformation and target-device runtime as independent future questions.
+6. Do not claim game-readiness or Geometry mastery from this migration PASS.
