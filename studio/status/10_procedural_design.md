@@ -1,198 +1,194 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-16
-State: **PASS_SOURCE_EXACT_HEADER_SEGMENT_EXPANSION_FAMILY / EXISTING FIVE-ROW FAMILY PRESERVED / SOURCE-OWNED HARD-SURFACE SUCCESSOR REBOUND / 2 DISTINCT EXPANSION OUTPUTS / 7 NEW FAIL-CLOSED CONTROLS / EXACT PROCEDURAL + HARD-SURFACE CI GREEN / INDEPENDENT ARTIFACT REHASH / BUILDING_LOCAL / NO UC OR PROFESSION-FABRIC EXTRACTION**
+State: **PASS_EXACT_UTILITY_PANEL_RECEIVER_PLACEMENT_FAMILY / EXISTING BUILDING PROCEDURAL PR ADVANCED / 2 ORTHOGONAL SOURCE-OWNED RECEIVER OUTPUTS / 7 NEW FAIL-CLOSED CONTROLS / BASE 17_OF_19 + SUCCESSOR 21_OF_23 PROCEDURAL BOX COVERAGE / EXACT PROCEDURAL + HARD-SURFACE CI GREEN / INDEPENDENT ARTIFACT REHASH / BUILDING_LOCAL / NO UC OR PROFESSION-FABRIC EXTRACTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/10_procedural_design.md`, then re-scanned the design constellation and newest specialist/status movement before changing anything.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/10_procedural_design.md`, then re-scanned all design repositories and current specialist status before changing product code.
 
-`axm-create-me` remains **coordination only**. Domain code/evidence changed only in `mike-axiom-mir/axm-building-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product code/evidence changed only in `mike-axiom-mir/axm-building-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous Procedural head `06961f698e72e0d7673ccaf988e7c5f1f9cbbf0f` remains historical truth for the named-producer consumer rebind. This activation revisits Building only because Hard Surface subsequently adopted a new source-owned header-segmentation successor, exactly matching the previous status rule that a source identity change requires explicit rebind rather than inherited PASS.
+The previous exact Procedural head `c9c890e47ed3d95ba8c3ab5ee7b4d6ed92c240b3` remains historical truth for the five-row + source-owned header-expansion result. This pass adds a separate receiver-placement family without rewriting those outputs.
 
 ## Constellation / duplication scan
 
-- **Weapon:** repository remains without a grounded current source family that justifies a Procedural lane.
-- **Armor:** no current repeated source family justifies proceduralization; Character geometry/deformation remains upstream.
-- **Character:** active Geometry / Rigging shoulder work is still source/deformation ownership, not a stable procedural family.
-- **Unit:** no grounded current repeated family justified a generator.
-- **Animal:** active Geometry / Organic Form / Rigging / Animation work remains source/form ownership; no duplication opened.
-- **Building:** selected only because Hard Surface made the previously derived front/rear header segmentation source-owned after the previous Procedural pass.
-- **Nature:** existing Procedural PR #4 already owns its bounded branch/crown family; current leaf sidedness remains Geometry-owned.
+- **Weapon:** no open implementation lane exposed a stronger grounded repeated 3D source pattern.
+- **Armor:** no open implementation lane exposed a stronger grounded repeated source pattern.
+- **Character:** active Geometry/Rigging shoulder and deformation work is still changing connectivity/intersection ownership; no Procedural duplication opened.
+- **Unit:** no open repeated source family justified a generator.
+- **Animal:** active Geometry/Organic/Rigging/Animation work remains source/form/deformation ownership; no Procedural duplication opened.
+- **Building:** existing Procedural PR #4 already owns the lane. Its Hard-Surface source manually repeats the exact same utility-panel placement operation across two source-owned orthogonal receiver frames. This was the selected bounded gap.
+- **Nature:** existing Procedural PR #4 already owns its three-source seeded branch/crown family; current leaf-sidedness work remains Geometry/Materials/Runtime-owned.
 - **Weather:** existing Procedural PR #3 already owns bounded seeded atmosphere variation.
-- **Map:** existing Procedural PR #3 already owns source-aware seeded placement; Environment/VFX/Runtime remain separate.
-- **Object:** existing Procedural PR #11 already owns service-module configurations; current latch/rig/animation/runtime lanes remain separate.
-- **Misc:** no grounded repeated source family justified a catch-all generator.
+- **Map:** existing Procedural PR #3 owns receiving placement variation; Environment/VFX/Runtime are actively converging current-world evidence and were not duplicated.
+- **Object:** existing Procedural PR #11 already owns bounded bilateral service-module configurations; current hinge/latch/rig/runtime work remains separately owned.
+- **Misc:** no open grounded repeated family justified a catch-all generator.
 
-Therefore no duplicate lane was opened. Existing Building Procedural PR #4 was advanced.
+Current Art/Geometry/Hard-Surface/Organic/Materials/Rigging/Animation/Environment/VFX/Technical-Art/Runtime/Visual-QA/Cartography statuses were also read before selection. No competing specialist currently owns this exact Building-local repeated receiver-placement operation.
 
-## Fresh source authority
+## Selected repeated pattern
 
-Repository:
+Repository: `mike-axiom-mir/axm-building-design`
 
-`mike-axiom-mir/axm-building-design`
+Existing draft PR: **#4 — `Procedural: derive repeated pavilion box rows from exact source`**.
 
-Existing draft PR:
+Current exact Procedural head:
 
-**#4 — `Procedural: derive repeated pavilion box rows from exact source`**
+`17b5a2a2f0a85857293dccc4f042c091324fef5a`
 
-Hard-Surface source-owner PR #2 now owns exact successor head:
+PR state after CI: **OPEN / DRAFT / MERGEABLE**.
 
-`34124101e616c423c5a3ed5e122ddf09b98a1650`
+The source-owned Hard-Surface builder already performs the same operation twice:
 
-Source-owned successor contract:
+1. validate one exact `utility-access-panel-001` against a source-owned receiver frame by tag, footprint, exact four-point mount pattern, orthonormal/right-handed frame and standoff clearance;
+2. map panel local `+X/+Y/+Z` to receiver `normal/lateral/up`;
+3. place the same exact proof box with no scale and no extra rotation.
 
-- schema `axm.building-header-segmentation/v0.1`;
-- successor revision `service-pavilion-001/interpenetration-free-header-segmentation-003`;
-- contract SHA-256 `84075473c7320bde6d40d7c7aa6501f88b1e172d05dd5877ab4dc20e1b7a084f`.
+The two source receivers are materially different:
 
-Hard Surface now owns the previously derived segmentation of the two logical headers into six emitted boxes:
+- `front-utility-bay`: outward normal `[0,-1,0]`;
+- `east-utility-bay`: outward normal `[1,0,0]`.
 
-- front-header X centers `[-2.475, 0.0, 2.475]`, X lengths `[2.25, 2.30, 2.25]`, Y `-0.9`, Z `3.02`;
-- rear-header same X pattern, Y `+0.9`, Z `3.02`;
-- all six retain Y/Z cross-section `[0.18, 0.18]`.
-
-This is the precise source change that makes a Procedural successor rebind legitimate.
-
-## Provenance-preserving adoption
-
-A real two-parent merge commit preserves both histories:
-
-`0b141432460d87d6de854844984aef08d7a2cdb2`
-
-Parents:
-
-- prior Procedural head `06961f698e72e0d7673ccaf988e7c5f1f9cbbf0f`;
-- source-owner successor head `34124101e616c423c5a3ed5e122ddf09b98a1650`.
-
-Current exact Procedural head after generator/tests/workflow evidence:
-
-`c9c890e47ed3d95ba8c3ab5ee7b4d6ed92c240b3`
-
-PR state: **OPEN / DRAFT / MERGEABLE**.
+Their normal dot product is exactly `0.0`, so this is not one lucky duplicated orientation.
 
 ## Smallest reusable generator
 
 Added Building-local family:
 
-`axm.building-header-segment-expansion-family/v0.1`
+`axm.building-utility-panel-receiver-placement-family/v0.1`
 
-Files added to the existing Procedural branch:
+New files in the existing Procedural branch:
 
-- `procedural/service_pavilion_header_segment_expansion_001.json`;
-- `tools/build_pavilion_header_segment_expansion.py`;
-- `tests/test_pavilion_header_segment_expansion.py`.
+- `procedural/service_pavilion_utility_panel_receivers_001.json`;
+- `tools/build_pavilion_utility_panel_receivers.py`;
+- `tests/test_pavilion_utility_panel_receivers.py`.
 
-The existing workflow was extended rather than duplicated.
+The existing Procedural workflow was extended; no new PR or workflow family was opened.
 
-The family does not invent segmentation. It reuses the existing `axm.building-symmetric-component-row-family/v0.1` logical `front-rear-header-pair`, inherits each logical header's Y/Z center and cross-section, and applies only the exact source-owned repeated X pattern:
+The generator reuses the exact Hard-Surface `fit_panel`, source frame and closed/outward box helpers. It does not infer a receiver, change source geometry, add optional occupancy semantics, scale the panel, add an extra rotation, or copy attachment semantics into UC.
 
-- segment axis `x`;
-- centers `[-2.475, 0.0, 2.475]`;
-- lengths `[2.25, 2.30, 2.25]`;
-- source-owned suffixes `::segment-0`, `::segment-1`, `::segment-2`.
+Authority:
 
-Authority remains:
-
-`DERIVE_ONLY_EXACT_SOURCE_OWNED_SEGMENTED_HEADER_REPETITION`
+`DERIVE_ONLY_EXACT_SOURCE_OWNED_RECEIVER_PLACEMENT`
 
 Failure policy:
 
-`FAIL_CLOSED_NO_SOURCE_REWRITE_NO_INFERRED_SEGMENTS_NO_PATTERN_WIDENING`
+`FAIL_CLOSED_NO_NEAREST_RECEIVER_NO_FRAME_INFERENCE_NO_SCALE_NO_EXTRA_ROTATION_NO_SOURCE_REWRITE`
 
 Scoped result:
 
-**`PASS_SOURCE_EXACT_HEADER_SEGMENT_EXPANSION_FAMILY`**
+**`PASS_EXACT_UTILITY_PANEL_RECEIVER_PLACEMENT_FAMILY`**
 
 ## Multiple materially different outputs
 
-The previous five-row family remains exact and unchanged:
+Exact retained outputs:
 
-- 5 logical row digests preserved;
-- 15 / 17 logical source components still reproduced;
-- generated-subset digest remains `659a5ecc192502b75e8c9f01fa1607b48b7ea8667b5447ee7da7cd5b76902b0e`;
-- previous named-producer result remains `PASS_PROCEDURAL_CONSUMER_USES_VERSIONED_NAMED_BUILD_RESULT`.
+### Front receiver
 
-The source-owned successor adds two materially different expansion outputs:
+- receiver: `front-utility-bay`;
+- center: `[-2.45,-1.08,1.65] m`;
+- normal: `[0,-1,0]`;
+- frame digest: `97a615819005818aadbf2b5a66dd9f5232919b03134d6a2a837a6e3964495f22`;
+- transformed mesh digest: `dcadb6a7e938557c866259ed4a3ca7febb32b593b68b22073adc2617d63ef5c0`;
+- placement digest: `5112bd9921f962eff1fdca4b64217794f23c29ae1c11d5cfd9d638f0be60e8e3`.
 
-- `front-header` → 3 source-owned segments, digest `8d4dbca5b34894c746f807daa041a52e42a97f041fb31d5aa9de297594d634ec`;
-- `rear-header` → 3 source-owned segments, digest `ed0c33b3a72a3888f9f1d33ac0c5ae8c4c31ca93562ed64052540bf44d5bc124`.
+### East receiver
 
-Exact pressure now includes:
+- receiver: `east-utility-bay`;
+- center: `[3.88,0.10,1.65] m`;
+- normal: `[1,0,0]`;
+- frame digest: `22268500b7f803effe69eba1ec4819dff2ed5600678ac44b9dc962da4c3ee626`;
+- transformed mesh digest: `95bbe7d3feebcaeebdaa285ea2f69ee24989d16f140ef59abf08f4725d77a904`;
+- placement digest: `ac54a347b7a6dbe876cf6f48ac3984a9aff66a887afe4d088f306f2a9666276b`.
 
-- 6 emitted successor segments;
-- 2 distinct expansion digests;
-- 7 distinct total output digests when combined with the five preserved logical-row outputs;
-- Procedural emitted coverage `19 / 21` successor pavilion geometry boxes;
-- only `slab` and `roof` remain outside the repeated Procedural family.
+Exact pressure:
 
-The two expansion outputs are intentionally different by source-owned Y placement/identity while sharing one exact three-station X pattern. This is repeated-structure compression, not a single lucky case.
+- `2/2` distinct receiver-frame digests;
+- `2/2` distinct transformed-mesh digests;
+- `2/2` distinct placement digests;
+- exact receiver-normal dot `0.0`;
+- exact mount-pattern residual remains `0` at both receivers;
+- no receiving scale or extra rotation.
+
+Combined bounded coverage now becomes:
+
+- existing five-row family: `15/17` logical pavilion components;
+- new receiver-placement family: `2/2` exact Hard-Surface panel placements;
+- therefore exact base-builder Procedural coverage: **`17/19` real box outputs**;
+- with the already source-owned header expansion, bounded successor composition coverage: **`21/23` boxes**;
+- only `slab` and `roof` remain intentionally outside the Procedural families.
+
+The previous five-row generated subset digest and header-expansion evidence are unchanged and still re-run in the same workflow.
 
 ## Failure bounds
 
-Seven new successor-expansion controls HOLD:
+Seven new controls fail closed:
 
-- unsupported segment axis;
-- duplicate segment suffix;
-- segment-count mismatch;
-- successor schema drift;
-- successor revision drift;
-- deliberate `0.001 m` source-segment drift;
-- successor contract SHA identity drift.
+- duplicate receiver ID;
+- unknown receiver ID;
+- pavilion source SHA identity drift;
+- panel source SHA identity drift;
+- panel orientation-contract drift;
+- non-orthogonal receiver frame;
+- panel/receiver tag mismatch.
 
-The prior nine logical/named-producer controls remain intact. Required source schema, revision, contract identity and exact emitted segment values therefore fail closed rather than nearest-matching or silently widening the pattern.
+No nearest receiver, fallback receiver, inferred frame, hidden scale, extra rotation, alternate panel source or source rewrite is substituted.
 
 ## Exact CI and retained evidence
 
-Exact-head workflows on `c9c890e47ed3d95ba8c3ab5ee7b4d6ed92c240b3`:
+Exact-head workflows on `17b5a2a2f0a85857293dccc4f042c091324fef5a`:
 
-- **`35117388221 — Procedural building symmetric-row evidence` — SUCCESS**;
-- inherited **`35117388211 — Hard-surface building evidence` — SUCCESS**.
+- **`35123789088 — Procedural building symmetric-row evidence` — SUCCESS** on Python 3.11 and 3.13; evidence build/summary/artifact PASS on 3.11;
+- inherited **`35123789085 — Hard-surface building evidence` — SUCCESS** on the same exact head.
 
 Retained combined artifact:
 
-- ID `10455149659`;
-- name `service-pavilion-procedural-001-c9c890e47ed3d95ba8c3ab5ee7b4d6ed92c240b3`;
-- uploaded size `9,496 bytes`;
-- GitHub SHA-256 `e48b75107d01a934aa52c2508334f5ce4384079d413d752839928cabbd7738e7`;
-- independently downloaded and rehashed to the exact same SHA-256.
+- ID `10457829783`;
+- name `service-pavilion-procedural-001-17b5a2a2f0a85857293dccc4f042c091324fef5a`;
+- uploaded size `14,185 bytes`;
+- GitHub SHA-256 `8026b165db236dee2ef9e4dce50e4f61b3918b2625a0435d60ab7d94a35c4363`;
+- downloaded ZIP independently rehashed to the exact same SHA-256.
 
-The retained artifact contains both the prior five-row evidence and the successor expansion evidence, including exact-head/source-head receipts, generated segment JSON, copied source-owned segmentation contract, and both summary records.
+The artifact retains all prior row/header evidence plus the new receiver-placement profile, both generated placements, exact-head/source-head receipts and receiver-family summary.
 
-## Handoffs / placement
+## Placement / capability boundary
 
-Procedural PR #4 received exact result comment `5700352275`.
+Correct home remains **Building**. Universal Creation search shows generic spatial/static-asset contract inspection exists, but there is no justification to move Building receiver semantics or this source-specific two-receiver placement family into UC. UC remains unchanged.
 
-Hard-Surface source-owner PR #2 received downstream-adoption comment `5700356000`, explicitly preserving Hard Surface as source authority.
+Profession Fabric search found no existing receiver-placement profession procedure and this one Building family does not justify promotion. Profession Fabric remains unchanged.
 
-Correct capability home remains **Building**. The repetition is one source-domain header representation and does not yet support a neutral cross-domain UC primitive. No Universal Creation extraction was made.
+This is deliberately distinct from Object Procedural PR #11: Object already owns optional left/right module configuration over Object sockets; Building here only derives the two exact source-prescribed panel placements and does **not** invent optional occupancy semantics.
 
-No Profession Fabric promotion is justified either: this is a Building-local source successor plus Procedural consumer, not a proven cross-domain profession procedure.
+## Handoffs
+
+- Procedural PR #4 exact-result comment: `5701141583`.
+- Hard-Surface source-owner PR #2 downstream handoff: `5701143250`.
+
+Hard Surface remains source/interface authority. No source adoption request is needed because this family consumes only already source-owned receiver frames and panel semantics.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- arbitrary procedural building generation;
-- a new pavilion design or source rewrite;
-- general arbitrary-member segmentation;
-- architectural, structural or manufacturing validity;
-- boolean-unioned/production topology beyond the source-owner contract;
-- final normals, tangents, UVs, materials or art direction;
-- runtime performance, collision, navigation, physics or gameplay;
-- Map successor adoption;
-- Visual QA / Art Director acceptance;
+- arbitrary procedural building or attachment generation;
+- optional panel occupancy or runtime attach/detach;
+- a universal receiver/attachment schema;
+- source/interface rewrite;
+- physical fastener/retention/sealing/load/manufacturing validity;
+- collision, physics, navigation or gameplay;
+- final normals, tangents, UVs, materials or visual quality;
+- Map adoption or target-device runtime fitness;
 - UC extraction or Profession Fabric promotion;
 - CANON, production readiness, game readiness or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** source-owned segmentation is consumed only after Hard Surface adopted an exact successor identity; historical Procedural evidence remains separately named.
-- **Agency / non-domination:** Hard Surface keeps source authority; Procedural derives only its bounded repeated pattern and does not overwrite Geometry, Materials, Runtime or Map ownership.
-- **Continuity:** a real two-parent merge preserves prior Procedural history plus the exact source successor; existing five-row outputs remain byte-stable at deterministic-record level.
-- **Wisdom before speed:** one newly source-owned repeated pattern was compressed in the existing lane rather than creating another PR, broad generator, or premature UC/PF abstraction.
+- **Truth:** the family consumes exact source identities, exact receiver frames and exact existing Hard-Surface fit checks; seven deliberate drifts fail closed.
+- **Agency / non-domination:** Hard Surface keeps all source/interface meaning; Procedural only derives deterministic placements and does not overwrite other specialist lanes.
+- **Continuity:** the same existing PR/workflow retains and reruns the previous five-row and header-expansion evidence; the new family is additive and provenance-bound.
+- **Wisdom before speed:** one manually repeated, already source-supported operation was compressed; no broad attachment framework or premature UC/PF abstraction was introduced.
 
 ## Next Procedural pass
 
-Re-scan the full constellation before changing Building again. Prefer a different target only where exact source/evidence shows repeated manual structure not already owned by another specialist or Procedural family. Revisit this lane only if another source-owner identity/evidence change creates a real dependency or if the current proof itself exposes a defect.
+Re-scan the constellation. Prefer another target unless new source/evidence creates a real dependency in Building. Do not proceduralize `slab` or `roof` merely to reach 100% coverage; they currently lack a repeated pattern and should remain explicit until evidence justifies otherwise.
