@@ -1,62 +1,73 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_LIVE_WORLD_OBJECT_SOURCE_COMPOSITION_STRUCTURE + PASS_LIVE_WORLD_OBJECT_SOURCE_COMPOSITION_TARGET_HOST / PR19 OBJECT + PR20 VFX CONVERGED / 17-STATE GODOT PROOF GREEN / COMBINED-WORLD ART DIRECTION + INDEPENDENT QA HELD**
+State: **ACTIVE / PASS_WEATHER_VARIANT_OBJECT_SOURCE_COMPOSITION_STRUCTURE + PASS_WEATHER_VARIANT_OBJECT_SOURCE_COMPOSITION_TARGET_HOST / PR22 WEATHER VARIANT + PR19 OBJECT CONVERGED / 17-STATE GODOT PROOF GREEN / FINAL SCALE + WEATHER PREFERENCE + INDEPENDENT VISUAL ACCEPTANCE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/08_environment_world_art.md`, then inspected the newest Map, Building, Nature, Object and Weather work plus current specialist status before choosing a lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/08_environment_world_art.md`, then inspected the newest Map, Building, Nature, Object and Weather work plus current Art Direction, VFX, Runtime and Environment status.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives only in `mike-axiom-mir/axm-map-design`. Source authority stays in each design repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives only in `mike-axiom-mir/axm-map-design`. Source authority remains in the domain design repositories. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Environment result remains truthful historical evidence: Map PR #19 at exact head `85a2a0be959b4e39f9ffcf83da89078b604f9881` proved that the exact source-owned Object equipment case can replace the current varied west Object proxy while preserving the accepted static multi-asset scene. That isolated result is not rewritten here.
+The previous Environment result remains valid historical evidence: Map PR #21 at exact head `5ad4ef48a33eaaf76f6fefef315896da10b17eb4` proves the exact PR #19 west Object source replacement inside the baseline PR #20 live Weather sequence. This activation does not rewrite or relabel that evidence.
 
 ## Constellation / duplication scan
 
-The highest-leverage unoccupied Environment gap was not another asset, material or effect. It was a receiving-state split:
+The newest receiving state had split again after PR #21:
 
-- **Map PR #19** owns the exact static west Object proxy -> source replacement on the current varied slot.
-- **Map PR #20** owns the exact 17-state Weather + west-sapling current-world sequence on the migrated rear-tree receiving state and now has an independent QA pass for the historical rear-tree cap-gap regression.
-- PR #19 and PR #20 are sibling branches from the same Environment ancestry, so each excluded the other's improvement.
-- **Nature PR #10** owns the active explicit two-sided leaf-topology candidate. Environment does not consume it before renderer/visual/runtime review.
-- **Building PR #3 / #4** own Materials and Procedural evidence. The source pavilion is left exact.
-- **Object PRs #16–#18 / #17 / #13** own UC hierarchy, Rigging, Hard-Surface pivot identity and Runtime. Environment consumes none of those semantics; it uses only the exact static structural source already proven by PR #19.
-- **Weather/VFX** owns atmosphere semantics and motion. Environment preserves PR #20's exact sequence rather than creating another effect.
-- **Runtime** owns target-device cost. Environment records only proof-host observations.
+- **Map PR #21 / Environment** contains the exact source-owned west Object replacement, but keeps PR #20's baseline Weather layout.
+- **Map PR #22 / VFX** contains the exact source-owned Weather seed `44021`, but is a sibling of PR #21 and therefore still contains the west Object proxy.
+- **Map PR #23 / Runtime** measures the exact source Object import budget on PR #21's baseline-Weather identity and explicitly does not consume PR #22.
+- **Building PR #3 / #4** own Building Materials and Procedural work; the current source pavilion remains exact and is not changed here.
+- **Nature PR #10** owns the explicit two-sided leaf-topology candidate. Its structural Geometry PASS does not yet justify Environment adoption before renderer/lookdev/runtime review.
+- **Object PRs #17–#20** own latch interface, Rigging and Technical Art provenance. Environment does not consume those mechanical semantics; it uses only the static Object structural source already proven by PR #19.
+- **Weather PR #3 / VFX PR #22** own Weather variation semantics and the selected seed evidence. Environment does not choose or claim a preferred seed.
+- **Art Direction / Visual QA** still own the known west Object scale/readability question and final combined-world acceptance.
 
-That made the bounded Environment question:
+That made the highest-leverage unoccupied Environment question:
 
-> Can the exact PR #19 Object source replacement be composed into every exact PR #20 live atmosphere state without changing Weather/sapling identity, Building/Nature/world placement, path/cameras, or rear-tree culling isolation?
+> Can the exact PR #19 west Object source replacement coexist with the exact PR #22 source-owned Weather seed `44021` sequence, while all unrelated Building/Nature/path/camera state, sapling motion and rear-tree culling isolation remain exact?
+
+This is a real multi-asset receiving question spanning Map + Object + Weather/VFX + Nature + Building. No separate asset authoring lane was opened.
 
 ## Selected bounded improvement
 
 Opened draft Map PR:
 
-**`mike-axiom-mir/axm-map-design#21 — Environment: compose exact Object source into live current world`**
+**`mike-axiom-mir/axm-map-design#24 — Environment: converge Weather variant with exact Object source`**
 
 Branch:
 
-`studio/environment-live-object-composition-001`
+`studio/environment-weather-variant-object-convergence-001`
 
-Exact base / VFX donor:
+Exact base / Weather-variant donor:
 
-`3e641a5ea7b2507a53e5ff1a8fba0f0f9c94abaf` (Map PR #20)
+`e482d003853e52fc835f1797ddfb6506a50083ef` (Map PR #22)
 
-Exact Environment/Object donor:
+Exact Object Environment donor:
 
 `85a2a0be959b4e39f9ffcf83da89078b604f9881` (Map PR #19)
 
-Exact current PR #21 head:
+Exact tested PR #24 head:
 
-`5ad4ef48a33eaaf76f6fefef315896da10b17eb4`
+`94918f362226994e3ff5c2a1412a2bc2a8bce49b`
 
 PR state after evidence:
 
 **OPEN / DRAFT / MERGEABLE**
 
-No merge, CANON or promotion authority is inferred from that metadata.
+No merge, CANON or promotion authority is inferred from Git metadata.
 
-## Exact source / sequence identities
+## Exact identities
+
+Weather variant remains exact:
+
+- owner: `mike-axiom-mir/axm-weather-design`;
+- Weather variation-family head: `05b26c4e82bbe0a4de0ee7bee34179efc58b9719`;
+- selected seed: `44021`;
+- exact particle-layout digest: `7ed55e93ea9445345016685320716006bc52960b33784cb620ca5670a74cc26f`;
+- exact Map/VFX receiving donor: PR #22 head `e482d003853e52fc835f1797ddfb6506a50083ef`;
+- exact PR #22 variant rebind digest: `df9334f0ee7e3cad7c94c0cae0aa55bf631439175634c479bf03f239b44d8f93`.
 
 Object source remains exact:
 
@@ -64,66 +75,79 @@ Object source remains exact:
 - source head: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
 - source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
 - generated OBJ SHA-256: `3e01ef3bf4935ee6aee7c56c03dc0b7f54c308e5ac2eb6a7583252a366901106`;
-- `468` vertices / `812` triangles.
+- `468` vertices / `812` triangles;
+- placement policy remains PR #19's exact current receiving placement with **no receiving scale**.
 
-Dynamic world identity remains exact:
-
-- dense VFX sequence digest: `f7f2cad01184e8651bcc722b755a2f3c2292ca13e81c7399579d7f42e0c19b30`;
-- migrated rear-tree mesh digest: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
-- 17 exact retained states over the existing `0.0..0.5 s` proof schedule.
+The current migrated rear/right Nature source remains exact mesh `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31` under the existing isolated `CULL_BACK` review.
 
 ## Smallest composition change
 
-PR #21 adds only:
+PR #24 adds only:
 
-- `tools/environment_live_object_current_world.py`;
-- `.github/workflows/environment-live-object-current-world.yml`;
-- `docs/ENVIRONMENT_LIVE_OBJECT_CURRENT_WORLD_001.md`.
+- `tools/environment_weather_variant_object_current_world.py`;
+- `.github/workflows/environment-weather-variant-object-current-world.yml`;
+- `docs/ENVIRONMENT_WEATHER_VARIANT_OBJECT_CURRENT_WORLD_001.md`.
 
-The exact PR #19 donor is rebuilt from its own checkout rather than copied. The exact PR #20 atmosphere builder and Godot observer are reused unchanged.
+The exact PR #22 Weather-variant donor is rebuilt from its pinned source repositories. The exact PR #19 Object replacement donor is independently rebuilt from its pinned Object source.
 
-For every exact PR #20 state, the Environment composer:
+For every one of the exact 17 PR #22 states, the Environment composer:
 
-1. removes only `proxy:object-crate-west`;
-2. adds exactly `source:object:modular-equipment-case-001` from PR #19;
-3. preserves `proxy:object-crate-east` as the remaining proxy/control;
-4. preserves the exact Weather-field and west-sapling state digests;
-5. preserves Building, west sapling, compact east tree, migrated rear/right tree, path, cameras and Weather presentation;
-6. preserves the rear/right tree as the target-only `CULL_BACK` source.
+1. preserves the exact Weather line state and Weather-field digest;
+2. preserves the exact west-sapling state and mesh digest;
+3. removes only `proxy:object-crate-west`;
+4. inserts exactly one `source:object:modular-equipment-case-001` from PR #19;
+5. preserves `proxy:object-crate-east` as the control;
+6. preserves the source-owned Building pavilion, Nature sources/proxies, path, cameras and Weather presentation;
+7. preserves the migrated rear/right tree as the isolated `CULL_BACK` source.
 
-An explicit compatibility projection is used only to reuse PR #20's already-proven observer/verifier. The canonical Environment evidence keeps its own schema and truth boundary.
+The unchanged PR #22 Godot observer is reused through an explicitly labelled compatibility projection. Unlike the older convergence pattern, this activation does **not** relabel inherited PR #22 structural checks as acceptance of the changed static scene. Canonical acceptance is a new Environment schema plus a new Environment target verifier.
+
+## Fail-closed controls
+
+Before target-host rendering, the exact workflow deliberately checks that the convergence rejects:
+
+- Weather seed drift (`44021 -> 44022`);
+- missing exact Object source;
+- stale west Object proxy composition.
+
+All three negative controls fail closed as intended. There is no alternate-seed selection, source rescaling, slot movement, nearest-match source substitution or proxy fallback.
 
 ## Exact-head evidence
 
 Dedicated workflow:
 
-**`35086050351 — Environment live Object current-world composition evidence` — SUCCESS**
+**`35091112855 — Environment Weather-variant Object current-world evidence` — SUCCESS**
+
+Exact job head:
+
+`94918f362226994e3ff5c2a1412a2bc2a8bce49b`
 
 Structural result:
 
-**`PASS_LIVE_WORLD_OBJECT_SOURCE_COMPOSITION_STRUCTURE`**
+**`PASS_WEATHER_VARIANT_OBJECT_SOURCE_COMPOSITION_STRUCTURE`**
 
 Target-host result:
 
-**`PASS_LIVE_WORLD_OBJECT_SOURCE_COMPOSITION_TARGET_HOST`**
+**`PASS_WEATHER_VARIANT_OBJECT_SOURCE_COMPOSITION_TARGET_HOST`**
 
 Exact composition digest:
 
-`0339f5aa097cca112f6a6beb8a880a67a50ae264a97552b07fe92e7d8c323ce7`
+`b3dad9a2c85c388fd7660d0e4a8d218c43583750347599fb1939a1cc49dafab2`
 
-All structural gates are true:
+All canonical structural gates are true:
 
-- all 17 exact states composed;
-- exact PR #19 and PR #20 donor identities pinned;
-- west proxy removed in all states;
-- east proxy retained in all states;
-- exact Object source appears once in every state;
-- Object geometry remains static across all 17 states;
-- exact `468 / 812` Object counts preserved;
-- Weather sequence preserved exactly;
-- sapling sequence preserved exactly;
+- exact PR #22 receiving identity preserved as donor provenance;
+- exact Weather seed/layout identity preserved;
+- exact PR #19/Object source identity preserved;
+- all 17 states composed;
+- west proxy removed in all 17 states;
+- east proxy retained in all 17 states;
+- Object source appears exactly once and remains static in all 17 states;
+- exact `468 / 812` source counts preserved;
+- exact Weather-variant sequence preserved;
+- exact west-sapling sequence preserved;
 - rear-tree culling target preserved;
-- exact Object identity survives the neutral return.
+- neutral return preserves the same static Object identity.
 
 ## Godot target-host result
 
@@ -131,105 +155,124 @@ Pinned runtime:
 
 **Godot 4.7.2 GL Compatibility**
 
-All target-host gates are true:
+All Environment target-host gates are true:
 
 - `17 / 17` runtime samples present;
 - `34 / 34` retained frames present;
-- all `17 / 17` frames remain distinct by hash in each fixed camera;
-- inherited PR #20 target-host gate remains green on the combined world;
+- all `17 / 17` frame hashes remain distinct in each fixed camera;
+- runtime receipt is bound to exact PR #24 head;
+- exact Weather seed/layout identity reaches the target host;
+- exact Weather-field and sapling digest sequences match the canonical Environment payload;
+- Weather node/mesh/material identity remains stable in-process;
+- sapling node/mesh/material identity remains stable in-process;
+- source Weather opacity remains consumed through vertex alpha;
 - exact Object source renders in all 17 states as `468 / 812 / CULL_DISABLED`;
-- migrated rear tree remains `CULL_BACK` in all 17 states.
+- migrated rear/right tree remains `CULL_BACK` in all 17 states;
+- renderer counter sets remain stable within each fixed camera.
 
-Stable combined proof-host counters:
+Observed proof-host counter sets:
 
-- `path_eye`: `20 draw calls / 20 objects / 5992 primitives`;
+- `path_eye`: `20 draw calls / 20 objects / 5992 RenderingServer primitives`;
 - `elevated_oblique`: `27 / 27 / 7750`.
 
-PR #20 before the Object source replacement reported `20 / 20 / 4392` and `27 / 27 / 6150`. The exact static Object replacement therefore contributes `+1600` backend-reported primitives in each fixed view while draw-call and visible-object counts remain unchanged.
-
-That is a **proof-host observation only**. It is not a target-device FPS/GPU/VRAM/memory budget or Runtime acceptance.
+Those observations match the existing exact Object-source current-world proof-host submission shape. They are **not** target-device FPS/GPU/VRAM/memory acceptance and do not replace Runtime PR #23.
 
 ## Retained evidence
 
 Artifact:
 
-- ID `10442202692`;
-- name `environment-live-object-current-world-001-5ad4ef48a33eaaf76f6fefef315896da10b17eb4`;
-- size `5,068,855 bytes`;
-- GitHub SHA-256 `a780bfe5a01ea9f3384a226f03d16722142378798d867cdf2ae889ee2a279c67`;
+- ID `10444247564`;
+- name `environment-weather-variant-object-current-world-001-94918f362226994e3ff5c2a1412a2bc2a8bce49b`;
+- size `5,070,939 bytes`;
+- GitHub SHA-256 `330dea17a7b6501a745252beae42cb6066ed95a75bd62db2f3854e0119c3db2d`;
 - independently downloaded/rehashed SHA-256 reproduced exactly;
-- retained `exact-head.txt` = `5ad4ef48a33eaaf76f6fefef315896da10b17eb4`.
+- retained `exact-head.txt` = `94918f362226994e3ff5c2a1412a2bc2a8bce49b`.
 
-The archive retains the exact PR #20 prerequisite payload, rebuilt PR #19 Object candidate/report, canonical combined 17-state payload, runtime receipt, inherited PR #20 target-host report, Environment target-host report and all 34 PNGs.
+The retained archive contains the rebuilt exact PR #22 donor, rebuilt exact PR #19 Object candidate/report, canonical combined payload, target-host runtime receipt, Environment target report and all 34 PNGs.
 
-## Direct Environment observation
+For comparison, the exact parent PR #22 artifact was also independently rehashed before A/B review:
 
-Retained combined states `0 / 8 / 16` were directly inspected in both fixed cameras.
+- PR #22 artifact ID `10442705476`;
+- exact SHA-256 `e7eab8f28d856b592ed3ebbe7ecd5a7905cf26b613507991decd27609e63e9cb`.
 
-Within that bounded sample:
+## Direct exact-artifact Environment observation
 
-- the exact gray source-owned equipment case remains visible at the west pavilion/path slot;
-- the east orange Object proxy remains as the intended control;
+A direct A/B was performed between the exact PR #22 seed-`44021` artifact and the exact PR #24 combined artifact. Because both sides retain the same Weather seed/state, this comparison isolates the west proxy -> exact Object source substitution inside the newer Weather identity.
+
+Across **all 17 matched states**, the pixel delta is static and localized:
+
+- `path_eye`: `7,779 / 792,000` changed pixels = `0.9821969697%` in every state; bounding box `x=284..418, y=380..458`;
+- `elevated_oblique`: `3,205 / 792,000` = `0.4046717172%` in every state; bounding box `x=532..618, y=267..324`.
+
+Retained states `0 / 8 / 16` were directly inspected in both fixed cameras. Within that bounded review:
+
+- the exact gray equipment case is visible in the west pavilion/path slot;
+- the east orange Object proxy remains the intended control;
 - the central route remains visually open;
-- pavilion and static vegetation placement remain stable while Weather streaks and west-sapling response change;
-- the retained endpoint returns to the same broad neutral composition with the same static Object identity.
+- pavilion and vegetation placement remain broadly stable;
+- the source-owned Weather streak field and west sapling visibly evolve through the inherited sequence;
+- the endpoint retains the same broad static composition and exact Object identity.
 
-This supports only **bounded Environment composition stability** in those inspected frames. It is not final Art Direction or independent Visual QA acceptance.
-
-PR #20's independent rear-tree QA pass is not silently transferred to PR #21 because PR #21 changes static scene content. Combined-world QA should explicitly recheck the retained frames.
+The stable localized A/B delta supports attribution to the intended Object substitution. It does **not** resolve the known perceptual issue that the exact source case is materially smaller/less prominent than the old proxy. That remains an Art Direction / Visual QA decision rather than permission for Environment to rescale the source.
 
 ## Handoffs recorded
 
-**VFX / Atmosphere — Map PR #20**
+**VFX / Atmosphere — Map PR #22**
 
-Posted a handoff that PR #21 preserves the exact 17-state sequence/digest and reuses the VFX builder/observer unchanged. PR #20 remains VFX authority.
+Posted the exact child result: PR #24 consumes PR #22 head `e482d003...`, seed `44021`, layout digest `7ed55e93...26f`, all 17 Weather states and the sapling sequence unchanged. VFX authority and the no-aesthetic-preference boundary remain with PR #22.
 
-**Environment Object source replacement — Map PR #19**
+**Environment baseline-Weather convergence — Map PR #21**
 
-Posted a handoff that PR #21 rebuilds the exact PR #19 donor and preserves its Object source/slot identity. PR #19 remains the isolated proxy->source authority.
+Posted continuity evidence that the exact PR #19 Object source/slot result also survives in the newer PR #22 Weather identity. PR #21 remains the baseline-Weather convergence record rather than being rewritten.
 
-**Runtime / Optimization — Map PR #17**
+**Runtime / Optimization — Map PR #23**
 
-Posted the new exact integrated-scene counter observation and requested that any future current-world budget baseline bind to PR #21 exact head rather than inherit the older PR #17 scene identity.
+Posted the new exact PR #24 proof-host counters and explicitly held Runtime budget transfer. PR #23 remains bound to its exact baseline-Weather before/after identity; any future budget adoption of PR #24 must rebind explicitly.
 
 **Visual Observer / QA + 3D Art Director**
 
-Review PR #21 artifact `10442202692`, especially:
+Review exact PR #24 retained frames for:
 
-- west Object hierarchy/readability in the current live world;
-- central path framing;
-- whether the historical rear-tree culling defect remains absent after the static Object source change;
-- whether the real Object scale is preferable to the old proxy in the complete atmosphere context.
+- whether seed `44021` is perceptually preferable or merely structurally valid;
+- whether the exact smaller west Object source has acceptable hierarchy/readability in the full current world;
+- path/pavilion framing with both changes combined;
+- any recurrence of the historical rear-tree culling defect after this static composition change.
 
-Do not inherit final visual acceptance from PR #19 or PR #20 separately.
+Do not inherit final visual acceptance from PR #21 or PR #22 separately.
 
-**Object / Hard Surface / Technical Art**
+**Object / Hard Surface / Rigging / Technical Art**
 
-The exact static source identity now reaches the current dynamic Map world. No Object materials, articulation, attachment, UC GLB equivalence or physical behavior is inferred.
+Only the static structural Object source is consumed. No latch/lid motion, service-module attachment, source-owned pivot interface, UC hierarchy or physical behavior is inferred in Map.
 
-**Nature / Geometry**
+**Nature / Geometry / Materials**
 
-PR #10's explicit two-sided leaf candidate remains isolated. No new Nature topology is consumed by Environment.
+PR #10's two-sided leaf candidate remains isolated. Environment does not consume that representation until its renderer/lookdev/runtime gates support receiving adoption.
+
+**Building / Materials / Procedural**
+
+The source pavilion remains exact. Building PR #3/#4 are not absorbed into this Environment lane.
 
 ## Non-claims
 
 This activation does **not** establish:
 
-- combined-world independent Visual QA or Art Direction acceptance;
-- final Object materials, textures, normals, tangents or lookdev;
-- lid/latch/service-module motion or attachment behavior in Map;
-- UC-published Object hierarchy or GLB equivalence in this receiving proof;
-- collision, physics, navigation, traversal or gameplay;
-- physical wind, renderer interpolation or wall-clock playback;
+- aesthetic preference for Weather seed `44021`;
+- arbitrary Weather seed visual safety;
+- physical wind, turbulence, precipitation or force semantics;
+- Object materials, lid/latch motion, service-module attachment or physical mechanism behavior in Map;
+- final west Object scale/readability or permission to rescale source geometry;
+- final Environment dressing, final lighting or final atmosphere;
+- Nature PR #10 leaf representation adoption;
+- wall-clock playback or renderer interpolation;
 - target-device FPS, GPU time, VRAM, memory, draw-call, LOD or streaming budgets;
-- final Environment dressing or replacement of the east Object proxy;
-- final lighting or atmosphere;
+- collision, physics, navigation, traversal or gameplay;
+- independent combined-world Visual QA or final Art Direction acceptance;
 - CANON, production readiness, game readiness, or Environment / World Art mastery.
 
 ## Continuity / placement boundary
 
-PR #19 remains valid isolated Object receiving evidence. PR #20 remains valid isolated current-world VFX evidence. PR #21 is a new explicit convergence identity; it does not silently rewrite either donor's history.
+PR #21 remains valid exact baseline-Weather + Object convergence evidence. PR #22 remains valid exact Weather-variant receiving evidence. PR #24 is a new explicit convergence identity and does not silently rewrite either donor's history.
 
-`axm-create-me` contains only this coordination/status record. Map owns receiving composition; Object owns Object source/mechanics; Nature owns vegetation source/topology; Building owns Building source; Weather/VFX own atmosphere; Runtime owns budgets; Visual QA and Art Direction own perceptual acceptance.
+`axm-create-me` contains only this coordination/status record. Map owns receiving composition; Object owns Object source/mechanics; Nature owns vegetation source/topology; Building owns Building source; Weather/VFX own atmosphere semantics; Runtime owns performance acceptance; Visual QA and Art Direction own perceptual acceptance.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
