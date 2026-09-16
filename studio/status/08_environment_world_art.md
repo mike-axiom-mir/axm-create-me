@@ -1,136 +1,161 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_CURRENT_WORLD_NATURE_MATERIAL_FAMILY_STRUCTURE + PASS_CURRENT_WORLD_NATURE_MATERIAL_FAMILY_TARGET_HOST / ART DIRECTION + VISUAL QA + RUNTIME ACCEPTANCE HELD**
+State: **ACTIVE / PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_STRUCTURE + PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_TARGET_HOST / ART DIRECTION + VISUAL QA + RUNTIME ACCEPTANCE HELD**
 
 ## Continuity / authority
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation remains inside the existing `mike-axiom-mir/axm-map-design` Environment PR #24 lane; no parallel Environment PR was opened. Nature Materials retains material-family authority, Nature source/geometry retains form and region semantics, Map owns receiving composition, Weather/VFX retains source-width presentation, Building/Object retain their source semantics, Runtime owns performance acceptance, and 3D Art Direction + Visual QA own perceptual adoption.
+`axm-create-me` remains **coordination only**. Product/evidence implementation stays inside the existing `mike-axiom-mir/axm-map-design` Environment PR #24 lane; no parallel Environment PR was opened. Map owns receiving composition. Object owns Object source/material semantics. Building, Nature and Weather retain their own source authorities. Runtime owns performance acceptance. 3D Art Direction + Visual QA own perceptual adoption.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous Building header-segmentation result is not rewritten: exact implementation `dfd4e1d662ab7d6d9f1a5c8dd35b571418154f6e` remains a structurally valid receiving parent, the strict pixel-identity hypothesis remains **FAIL** in artifact `10460871165`, and the narrower bounded-continuity PASS at review head `bd065c8ee23ddee922c4aa9b4aa6e3d9504ffb06` remains the truthful current Building continuity evidence. The Object receiver-footprint cue is still held separately for Art Direction/Visual QA.
+The previous Nature-material activation remains historical truth at coordination commit `1a841baf6f2f0ea02b889721431dc478af542b57`. Its exact Map head `72d4128b602e27c886a0731ddd670ec8c14aaa7e`, Nature-family target-host PASS, artifact `10463255035`, runtime cost and subsequent Art Direction preference are preserved. This activation stacks on that exact evidence and does not rewrite it.
 
 ## Fresh constellation / non-duplication scan
 
-The highest-leverage ready Environment handoff was the newly proven Nature Materials family, not another Building, Object, Weather, sidedness or Runtime lane:
+After the three-source Nature woody/foliage family reached the current world, the highest-leverage ready Environment gap was the **exact west Object material family**:
 
-- Nature Materials PR #5, exact head `8b2e0523d7a2b210c6404f15bafb08fbedcad4dd`, owns `nature-woody-foliage-family-001` across exactly `sapling-neutral-001`, `compact-east-tree-neutral-001`, and `east-rear-tree-neutral-001`.
-- Exact family values are woody `#5C3B27FF`, metallic `0.0`, roughness `0.84`; foliage `#5A823EFF`, metallic `0.0`, roughness `0.58`.
-- The family is already supported by retained multi-source lookdev evidence, but Materials explicitly held Environment adoption and final leaf-sidedness.
-- Current Map receiving still rendered all three Nature identities through proof-only green material responses, so the family had not yet been tested in the real Building + Object + dressing + Weather + moving-Nature world.
-- Nature Geometry reference `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f` provides source-owned region membership. Environment uses it only to recover the exact triangle-role partition; it does **not** replace current receiver geometry or force a topology/sidedness migration.
-- Current receiver lineage is deliberately preserved: the moving sapling and compact east tree keep their existing observation-host two-sided/cull-disabled behavior, while the already-migrated rear tree remains the exact current-world `CULL_BACK` target.
-- Building header segmentation, accepted Building materials, Object source, pending Object footprint cue, Weather source-width presentation, route, cameras and lighting are held fixed.
-- Runtime has its own active lanes; Environment records only measured proof-host diagnostics.
-- UC / Profession Fabric receive no extraction because this is a source-specific receiving composition, not evidence for a universal capability move.
+- the current Map world already contains the exact static Object source at `468 vertices / 812 triangles`;
+- Object Materials PR #6 retains a stable base source-role scalar PBR family, while its newest inner-lid review is a separate bounded experiment and must not be silently promoted;
+- the current Environment receiver still rendered the exact west Object with a neutral/proof-like material response rather than that established source-role family;
+- Building, Nature, Object footprint dressing, Weather source-width, route, cameras and lighting could all remain fixed, making this a clean one-variable receiving proof;
+- no active Environment lane already owned that exact integration question;
+- no UC or Profession Fabric move is supported because this is source-specific receiving composition, not evidence for a universal capability extraction.
 
 Selected bounded question:
 
-> Can the exact Materials-owned three-source woody/foliage family be received by the newest full Map world while preserving each Nature source's current geometry, triangle membership, motion, placement and proof culling, and while leaving Building, Object, dressing, Weather, route, cameras and lighting unchanged?
+> Can the exact base Object source-role scalar material family be received on the already-present static west Object inside the newest Building + Nature + Weather world, without changing Object geometry/transform/scale, adding the utility module, consuming the new inner-lid experiment, or drifting unrelated world state?
 
-## Selected bounded improvement
+## Exact implementation / provenance
 
-Extended existing Map PR #24 / branch `studio/environment-weather-variant-object-convergence-001`.
+Existing Map PR #24 branch:
+
+`studio/environment-weather-variant-object-convergence-001`
 
 Exact tested head:
 
-`72d4128b602e27c886a0731ddd670ec8c14aaa7e`
+`6575cc38db9f0f62b14a82b352d8582edf89856d`
 
-Exact parent implementation evidence:
+Exact parent:
 
-- Environment head `dfd4e1d662ab7d6d9f1a5c8dd35b571418154f6e`;
-- composition digest `073aaba4066f223be2f298d631550acb724c30f6b17ee1d51a285e4d2bbeb8b2`;
-- retained parent artifact `10460871165`, SHA-256 `add8d72e9dee4398ef844892138308022261d2d5a4f22a652f4dda9dbdb26d70`.
+- Environment head `72d4128b602e27c886a0731ddd670ec8c14aaa7e`;
+- state `PASS_CURRENT_WORLD_NATURE_MATERIAL_FAMILY_STRUCTURE + PASS_CURRENT_WORLD_NATURE_MATERIAL_FAMILY_TARGET_HOST`;
+- composition digest `5d050b2d628f73d7e1b738e900eaba22f56ac7bcdd5fc46a5bf781e1d9058866`;
+- artifact `10463255035`, SHA-256 `a4dbc0e2b8ef6f16bb846d0f639b7935b414ddfe4222463f397d11a16cfc0a45`.
 
-Exact Nature authorities:
+Exact Object authorities:
 
-- Materials head `8b2e0523d7a2b210c6404f15bafb08fbedcad4dd`;
-- material family `nature-woody-foliage-family-001`;
-- geometry reference `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`.
+- structural source head `d3fa10a270faae7925811f44f03381fe5c5d0215`;
+- source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- Object Materials PR #6 head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`;
+- material profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`.
 
-Environment adds one fail-closed receiving contract that partitions each current 390-vertex / 570-triangle Nature identity from source-owned region metadata into exactly `520` woody triangles and `50` foliage triangles. It preserves current receiver triangles by membership; winding is allowed to remain the receiver's existing lineage rather than being silently replaced. The 17-state moving-sapling mesh sequence is preserved exactly.
+Consumed static-host material family:
+
+- `shell_coating` — `#3F484EFF`, metallic `0.42`, roughness `0.54`;
+- `service_dark` — `#252B2FFF`, metallic `0.18`, roughness `0.66`;
+- `hardware_steel` — `#9AA3A8FF`, metallic `0.88`, roughness `0.32`;
+- `rubber_guard` — `#171A1CFF`, metallic `0.0`, roughness `0.86`;
+- `interface_orange` — `#A96532FF`, metallic `0.20`, roughness `0.48`.
+
+Environment rebuilds the exact Object source only to recover source-owned component/group triangle ranges, maps those roles through the exact Materials profile and binds the resulting surfaces to the already-present receiver. It requires the receiver to remain exactly `468v / 812t` with identical triangle ordering.
+
+Exact triangle coverage:
+
+- `shell_coating`: `24`;
+- `service_dark`: `12`;
+- `hardware_steel`: `656`;
+- `rubber_guard`: `96`;
+- `interface_orange`: `24`;
+- total: `812`, once and only once.
+
+`module_housing` is intentionally **not** consumed because the utility module is absent from the current world. The newer inner-lid review experiment is explicitly excluded and receives no downstream acceptance from this pass.
+
+Fail-closed controls prove rejection of parent-composition drift, Object triangle-ordering drift and utility-module scope widening.
 
 ## Real-host result
 
 Dedicated workflow:
 
-**`35135649691 — Environment current-world Nature material-family evidence` — SUCCESS**
+**`35141819693 — Environment current-world Object material-family evidence` — SUCCESS**
 
 Scoped structural result:
 
-**`PASS_CURRENT_WORLD_NATURE_MATERIAL_FAMILY_STRUCTURE`**
+**`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_STRUCTURE`**
 
-Scoped real-host result:
+Scoped target-host result:
 
-**`PASS_CURRENT_WORLD_NATURE_MATERIAL_FAMILY_TARGET_HOST`**
+**`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_TARGET_HOST`**
 
 Exact composition digest:
 
-`5d050b2d628f73d7e1b738e900eaba22f56ac7bcdd5fc46a5bf781e1d9058866`
+`677dfe17afe49bf3f6edc28359c40a8add3dc357cb918529f0015a99f71baf70`
 
-The Godot 4.7.2 GL Compatibility proof retains `17 states × 2 cameras × 2 inherited Weather modes = 68` candidate frames and directly compares them against the exact segmented-Building parent frames. All 68 pair comparisons pass the bounded receiving gate.
+Pinned host: **Godot 4.7.2 GL Compatibility**.
 
-Across the 34 comparisons per camera, counting pixels with any RGB channel delta greater than one 8-bit step:
+The proof retains `17 states × 2 cameras × 2 inherited Weather modes = 68` candidate frames and directly compares all 68 against the exact Nature-family parent. Every pair has a localized Object-only visual change while Building, Nature, route, footprint dressing, Weather sequence, cameras and lighting remain fixed.
 
-- `path_eye`: `9,415–9,827` changed pixels, mean `9,662.06` = about **1.220%** of the 1100×720 frame;
-- `elevated_oblique`: `10,886–10,906` changed pixels, mean `10,897.76` = about **1.376%**.
+Direct >1-LSB RGB delta:
 
-Maximum RGB channel delta is `117`. Direct retained-frame inspection at states `0 / 8 / 16` in both cameras shows the expected bounded visual change: the previous proof-only all-green Nature response becomes a clearer brown woody structure plus green foliage separation on the moving sapling and both static trees. The pavilion, Object, receiver-footprint cue, route and Weather remain visually stable in the matched comparisons. This is direct visual evidence of receiving-scene consequence, **not** final aesthetic acceptance.
+- `path_eye`: exactly `1,850 / 792,000` pixels per pair = about **0.233586%**, fixed bbox `x=300..366, y=425..454`;
+- `elevated_oblique`: exactly `632 / 792,000` = about **0.079798%**, fixed bbox `x=543..578, y=295..319`;
+- maximum RGB-channel delta: `158`.
 
-The inherited Weather source-width proof remains intact:
+Direct inspection shows the previously pale/proof-like west equipment case becoming a darker industrial material hierarchy while the rest of the current world remains visually stable. This is **receiving evidence, not final aesthetic preference**.
 
-- all `1,224` projected-width measurements preserved;
-- maximum width residual `0.00974698571769128 px`, still inside the existing `0.05 px` bound;
-- exact Weather and sapling digest sequences remain matched to the parent.
+The inherited Weather source-width proof remains exact:
+
+- all `1,224` projected-width observations pass;
+- maximum residual `0.00974698571769128 px`, within the existing `0.05 px` bound;
+- exact Weather and moving-sapling source sequences remain preserved.
 
 ## Runtime diagnostic handoff
 
-The two-surface Nature receiving representation has a real submission tradeoff in this proof host. Relative to the exact segmented-Building parent, for both Weather modes and every retained state:
+Relative to the exact Nature-family parent, the five-surface Object receiving representation produces the same diagnostic delta in every state and both Weather modes:
 
-- `path_eye`: draw/object counters `33 → 39`, exact delta `+6 / +6`;
-- `elevated_oblique`: draw/object counters `40 → 49`, exact delta `+9 / +9`;
+- `path_eye`: `+8` draw calls / `+8` objects;
+- `elevated_oblique`: `+8 / +8`;
 - primitive counter delta: `0`;
 - observed buffer-memory delta: `0 B`;
 - observed texture-memory delta: `0 B`.
 
-These are Godot proof-host diagnostics only. They do not establish target-device FPS, CPU/GPU cost, batching behavior or memory acceptance. Runtime / Optimization owns that decision.
+These are proof-host diagnostics only. They do not establish target-device FPS, CPU/GPU cost, batching behavior, memory acceptance or preferred optimization strategy. Runtime / Optimization owns that decision.
 
 ## Retained evidence
 
 Successful artifact:
 
-- ID `10463255035`;
-- name `environment-nature-material-family-001-72d4128b602e27c886a0731ddd670ec8c14aaa7e`;
-- size `6,852,056 bytes`;
-- GitHub SHA-256 `a4dbc0e2b8ef6f16bb846d0f639b7935b414ddfe4222463f397d11a16cfc0a45`;
+- ID `10466065113`;
+- name `environment-object-material-family-001-6575cc38db9f0f62b14a82b352d8582edf89856d`;
+- size `6,925,693 bytes`;
+- GitHub SHA-256 `87dd366302e94b5a6f8241e110e9629c2d81a0d7321197b14a52b860642fd519`;
 - independently downloaded and rehashed to the exact same SHA-256;
-- retained `exact-head.txt` = `72d4128b602e27c886a0731ddd670ec8c14aaa7e`;
-- retains canonical composition payload, Godot runtime receipt, target-host comparison report and all 68 candidate PNGs.
+- retained `exact-head.txt` = `6575cc38db9f0f62b14a82b352d8582edf89856d`;
+- retains exact canonical composition, Godot runtime receipt, direct target-host comparison report and all 68 candidate PNGs.
 
 ## Handoffs
 
-**Map PR #24 / Environment** — comment `5702692107`: exact family/source identities, live PASS, direct visual deltas, Weather continuity and runtime tradeoff recorded. Final Art/QA/Runtime adoption remains held.
+**Map PR #24 / Environment** — comment `5703533390`: exact Object source/material identities, structure + real-host PASS, direct visual delta, Weather continuity, runtime diagnostic and explicit inner-lid/utility exclusions returned to the active receiving lane.
 
-**Nature Materials PR #5** — comment `5702697871`: confirms the exact family reaches the multi-asset current world without receiver geometry/motion/sidedness migration and returns the measured submission cost for downstream review.
+**Object Materials PR #6** — comment `5703535497`: confirms the unchanged base static-host family reaches the real current world without moving source authority or accidentally promoting the utility module / inner-lid experiment.
 
-**3D Art Direction + Visual QA:** inspect the retained full-world material-family frames and decide whether the clearer woody/foliage separation should replace the proof-only current Nature response as the next visual reference. Do not conflate that decision with leaf-sidedness adoption.
+**3D Art Direction + Visual QA:** review the retained all-state comparison and decide whether the darker Object hierarchy should replace the pale/proof-like current receiver as the preferred current-world Object presentation. The pending footprint dressing cue remains a separate reversible decision and must not be silently coupled to this material choice.
 
-**Runtime / Optimization:** characterize the exact `+6` path-eye and `+9` elevated-oblique draw/object proof-host deltas before any target-device acceptance. Primitive/buffer/texture counters remain unchanged in this proof.
+**Runtime / Optimization:** characterize the exact `+8 / +8` draw/object delta before target-device acceptance. Environment requests no material collapse or source rewrite merely to reduce this proof-host counter.
 
-**Nature Geometry / VFX:** no source form, triangle membership, 17-state motion sequence or current receiver culling semantics are changed by Environment.
+**Object Hard Surface / Rigging / Animation:** no geometry, transform, scale, articulation, keeper motion or utility semantics changed.
 
-**Building / Object / Weather:** no source semantics or authored behavior changed; their exact current receiving identities remain held fixed.
+**Building / Nature / Weather:** no source semantics or authored behavior changed. The Nature woody/foliage family remains the exact parent and its Art Direction preference remains preserved.
 
 **UC / Profession Fabric / Capability Cartography:** no extraction or capability move is supported by this source-specific integration result.
 
 ## Explicit non-claims
 
-This activation does **not** establish final Nature material preference; final leaf-sidedness strategy; per-species botanical identity; UVs, textures, subsurface, transmission, normal maps or weathering; physical botanical correctness; arbitrary-camera/FOV/resolution/renderer equivalence; target-device FPS/CPU/GPU/VRAM/allocator/thermal/battery/batching acceptance; collision, navigation, traversal or gameplay; Weather wall-clock correctness; Object footprint adoption; final Building segmented-receiver visual adoption; CANON; production/game readiness; or Environment / World Art mastery.
+This activation does **not** establish final Object/current-world material preference; final footprint-dressing preference; inner-lid material acceptance; utility-module adoption; articulation or keeper-motion adoption; UVs, textures, decals, wear, normals or measured coating correctness; arbitrary-camera/FOV/resolution/renderer equivalence; target-device FPS/CPU/GPU/VRAM/allocator/thermal/battery/batching acceptance; collision, navigation or gameplay; CANON; production/game readiness; or Environment / World Art mastery.
 
 ## Four-root gate
 
-- **Truth:** direct Godot A/B evidence and the submission-cost increase are retained together; the visual improvement is not promoted into an aesthetic or performance PASS.
-- **Agency / non-domination:** Environment consumes exact Nature material and region contracts without taking Nature source authority, choosing final sidedness, or granting itself Art/QA/Runtime acceptance.
-- **Continuity:** exact parent, exact Materials/Geometry donors, current Map head, prior strict Building failure, current artifact and every held decision remain independently identifiable and reversible.
-- **Wisdom before speed:** one ready cross-repo receiving gap was isolated inside the real multi-asset world; geometry migration, wind changes, placement changes, sidedness changes and unrelated art tuning were explicitly excluded.
+- **Truth:** exact source/profile identities, all-state real-host visual change and the measured submission-counter increase remain visible together; no aesthetic or performance acceptance is inferred from a structural PASS.
+- **Agency / non-domination:** Object retains source/material authority, Map retains receiving ownership, Art/QA retain visual preference, and Runtime retains performance authority. The inner-lid and utility decisions are not taken by Environment.
+- **Continuity:** the exact Nature-family parent, exact Object donors, new receiving head, artifact, historical Nature decision and all held decisions remain independently identifiable and rollbackable.
+- **Wisdom before speed:** one ready material-receiving gap was isolated in the real multi-asset world while geometry, scale, lighting, Weather, utility content, articulation and unrelated art tuning were explicitly held fixed.
