@@ -1,218 +1,242 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-16
-State: **PASS_ART_DIRECTION_BUILDING_INFILL_REPAIR_PREFERENCE / MATERIAL-SIDE HOLD RELEASED / EXACT ENVIRONMENT COMPOSITION REQUESTED / FINAL COMBINED WORLD + FINAL LOOKDEV + RUNTIME HELD**
+State: **PASS_ART_DIRECTION_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_COMBINED_PREFERENCE / EXACT COMBINED WORLD VISUAL HOLD RELEASED / WALL-CLOCK + TARGET-DEVICE + FINAL PRODUCTION LOOK HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, previous Art Director status, current specialist status, open PR state and retained visual evidence across the design constellation before choosing one bounded visual-direction action.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the immediately previous Art Director status, current specialist status, newest owner PR activity and exact retained visual evidence before selecting one bounded visual-direction action.
 
-`axm-create-me` remains **coordination only**. No Building, Map, Weather, Nature, Object, Character, Animal, UC, Profession Fabric, runtime or gameplay implementation was authored here.
+`axm-create-me` remains **coordination only**. No Map, Building, Weather, Nature, Object, Character, Animal, UC, Profession Fabric, Runtime or gameplay implementation was authored here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Art Direction result remains historical truth: `PASS_ART_DIRECTION_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_PREFERENCE_005` prefers the source-authored Weather-width presentation over the thin-line control in exact Map VFX PR #25 fixed-camera evidence. That decision is not rewritten by this Building review.
+Historical Art Direction results remain distinct:
 
-The earlier `FAIL_ART_DIRECTION_CURRENT_WORLD_BUILDING_INFILL_HIERARCHY_004` also remains historical truth for its exact predecessor material/world identity. This activation reviews the exact one-variable successor that was requested by that failure packet.
+- `PASS_ART_DIRECTION_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_PREFERENCE_005` preferred the source-authored Weather-width presentation over the thin-line control in its exact fixed-camera VFX proof;
+- `FAIL_ART_DIRECTION_CURRENT_WORLD_BUILDING_INFILL_HIERARCHY_004` retained the predecessor dark-infill defect;
+- `PASS_ART_DIRECTION_BUILDING_INFILL_REPAIR_PREFERENCE_006` preferred the exact one-variable `#59666DFF` infill successor in the source-correct donor world and requested explicit Environment recomposition.
+
+This activation reviews that requested exact combined successor. It does not rewrite any earlier identity or claim.
 
 ## Fresh constellation / duplication scan
 
-A cross-repo PR/status scan found no reason to open a new product lane:
+The current owner-wide open-PR activity and studio status were re-scanned before acting.
 
-- **Building Materials PR #3** now has the exact requested `infill_coating`-only repair at head `225cf82a61ec1512553fda2785ca101a54a6bd30`, with real Godot target-host evidence and an independent Visual QA PASS. This directly answers an active Art Direction blocker.
-- **Map Environment PR #24** has advanced to head `0d8b2279ecbba47b9696a951db9513883fbef6c5`, composing the already-preferred Weather source-width presentation over the source-correct Building world, but intentionally still uses the predecessor Building material profile. It therefore awaits explicit successor composition rather than a second Art Direction edit.
-- **Building Geometry PR #6** has a separate interpenetration-removal candidate. It is a source-structure question, not a reason to alter material direction or inherit visual acceptance.
-- **Character Geometry/Rigging PRs #3/#4** now have connected shoulder structural/deformation evidence, but direct visual shoulder deformation acceptance remains held.
-- **Animal Organic/Rigging/Animation lanes** have fresh elbow/weighting/Godot playback evidence, but multiple candidate identities remain separate and visual/adoption review is still pending.
-- **Object** current work remains primarily provenance/runtime continuity rather than a new changed visual-style surface.
-- **Nature / Weapon / Armor / Unit / Misc** expose no newer ready visual blocker that outranks the known Building hierarchy repair.
-- **UC / Profession Fabric / Capability Cartography** expose no placement decision owned by Art Direction here.
+- **Map / Environment:** PR #24 has now produced the exact requested Building-infill + preferred-Weather-width successor at head `5b9b55ec67e31655f51d1acc67284816067e5be6`, with retained Godot frames and independent Visual QA PASS. This is the strongest ready Art Direction handoff because it directly closes the prior Art Direction request.
+- **Map / VFX:** PR #25 has separately reached real-host wall-clock observation but still truthfully retains the authored-32-Hz cadence FAIL. That timing defect does not overturn fixed-state visual preference.
+- **Map / Runtime:** fresh PR #29 (`Runtime: compare prebuilt Weather mesh swaps against 32 Hz rebuilds`) stacks on the VFX timing lane and explicitly preserves the visual representation while comparing runtime behavior. It is not an Art Direction lane and is not duplicated here.
+- **Building:** Materials PR #3 remains the exact accepted `#59666DFF` donor. Geometry PR #6 remains a separate header-segmentation candidate without source adoption. Procedural/Hard-Surface work remains structurally scoped rather than a newer ready visual choice.
+- **Character:** Geometry PR #5 now retains `FAIL_CHARACTER_CONNECTED_SHOULDER_SAMPLED_NONADJACENT_SELF_INTERSECTION_GATE`, including 61 neutral pairs per side; Rigging PR #6 has a dense sampled deformation successor but explicitly does not repair that Geometry defect. Character is therefore not ready to outrank the exact Environment visual gate.
+- **Animal:** Organic PR #8 now has a balanced elbow-relief candidate that removes its sampled minimum-area tradeoff across two pinned weightings, but visual/source adoption remains explicitly held. It is a strong future Art Direction surface, not yet a more urgent integration closure than Map.
+- **Object:** newest work remains provenance/runtime continuity; its current-world scale/readability question remains separate and unaccepted.
+- **Nature:** current sidedness/representation work remains separately held; no fresh direct visual handoff outranks Map.
+- **Weapon / Armor / Unit / Misc / Weather source:** no fresher ready Art Direction-owned visual decision surfaced in the current scan.
+- **UC / Profession Fabric / Capability Cartography:** no visual-domain capability placement decision requires Art Direction intervention here.
 
-The highest-leverage ready visual decision is therefore the exact Building infill successor because it closes an already-reproduced current-world hierarchy failure with one controlled material variable and has independent QA evidence.
+The highest-leverage non-duplicated action is therefore to review and close the exact combined current-world visual gate that the previous Art Direction pass explicitly requested.
 
 ## Exact reviewed identity
 
-Repository: `mike-axiom-mir/axm-building-design`
+Repository: `mike-axiom-mir/axm-map-design`
 
-PR: **#3 — `Materials: prove pavilion functional surface hierarchy`**
+PR: **#24 — `Environment: converge Weather variant with exact Object source`**
 
-Exact Materials head: **`225cf82a61ec1512553fda2785ca101a54a6bd30`**
+Exact current Environment head: **`5b9b55ec67e31655f51d1acc67284816067e5be6`**
 
 Observed PR state: **OPEN / DRAFT / MERGEABLE**. Repository metadata is not CANON authority.
 
-Exact current Building source authority:
+Exact parent Environment identity:
+
+`0d8b2279ecbba47b9696a951db9513883fbef6c5`
+
+Exact Building Materials donor:
+
+`225cf82a61ec1512553fda2785ca101a54a6bd30`
+
+Exact Building source authority:
 
 `57f66b1245812f0c3d402232a046b86c0b5c72d8`
 
-Exact donor Map source-successor context:
+Exact VFX source-width donor:
 
-`43d89a7cac48e57ebede0db8fc9983e8144222a0`
+`15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`
 
-Held predecessor material profile:
-
-`e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`
-
-Candidate material profile:
+Candidate Building material profile:
 
 `0c4834bf0fc9c0b7aa1a053f35f307b64596e13f305287ca3018b6182b2f6fe9`
 
-Only changed material parameter:
+Exact combined Environment composition digest:
 
-- `infill_coating.albedo`: **`#344047FF -> #59666DFF`**.
+`e6cea4098c4946dcfa80573d3e30d6d07a1e7c7b4c037b5962eeb3105ac8dfe1`
 
-Held values:
+Only Building material delta relative to the exact Environment parent remains:
 
-- `infill_coating.metallic = 0.16`;
-- `infill_coating.roughness = 0.68`;
-- frame, roof, slab and service-panel values unchanged;
-- component mappings unchanged;
-- geometry/source identity unchanged;
-- world lighting, cameras and composition unchanged in the Materials proof.
+- `infill_coating.albedo`: `#344047FF -> #59666DFF`.
 
-The retained first attempt `#46535AFF` remains historical provenance as `HOLD_INSUFFICIENT_INFILL_SEPARATION`; it is not silently overwritten.
+Weather source-width presentation remains the already-preferred source-authored width representation; Weather density, opacity, color, streak length, seed, layout and unrelated world state remain held.
 
-## Retained evidence independently checked
+## Exact evidence independently checked
 
-Materials dedicated workflow:
+Environment dedicated workflow:
 
-`35108703130 — Building material current-world infill repair evidence` — **SUCCESS**
+**`35117140030 — Environment Building infill + Weather source-width composition evidence` — SUCCESS**
 
 Target host: **Godot 4.7.2 GL Compatibility**.
 
 Retained artifact:
 
-- ID: `10451955371`;
-- size: `5,003,993 B`;
-- expected SHA-256: `a45ca2e0359d8b06a4a70ca82616d88fa779fe7df7fe9a56d9ba24f2eb9adda1`;
+- ID: **`10454469590`**;
+- size: **`50,494,030 B`**;
+- expected SHA-256: **`12d1a61e54913a47ca4f40383deac83c3be48dcbf66da1ea96aa76e0f19ad7ae`**;
 - independently downloaded and rehashed during this Art Direction activation to the same SHA-256;
-- retained exact head: `225cf82a61ec1512553fda2785ca101a54a6bd30`.
+- retained exact head: `5b9b55ec67e31655f51d1acc67284816067e5be6`.
 
-The exact predecessor Environment donor artifact `10448628965` was also downloaded for direct matched comparison.
+The package retains the exact Environment parent archive, exact Building material donor archive, structural payload, Godot log/runtime receipt, target-host report and all **68** retained thin-line/source-width frames.
 
-## Direct Art Direction observation
+Environment owner-scoped results remain:
 
-Matched predecessor/candidate states `0 / 8 / 16` were directly inspected in both `path_eye` and `elevated_oblique`, with the Building region enlarged and the material-only difference isolated.
+- `PASS_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_STRUCTURE`;
+- `PASS_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_TARGET_HOST`.
 
-### `path_eye`
-
-The predecessor reproduces the known defect: the three enclosure regions approach the near-black background strongly enough that solid infill can read like deep/open bays.
-
-The `#59666DFF` candidate clearly restores a solid-plane read. The infill becomes legible without taking over the manufactured hierarchy. The galvanized frame remains the strongest structural highlight, the roof remains quieter/darker, and the muted ochre service surface remains the stronger warm accent.
-
-This is a hierarchy improvement, not merely a global exposure lift.
-
-### `elevated_oblique`
-
-The same direction survives the wider context. The pavilion reads more clearly as a constructed enclosure while frame rhythm and roof silhouette remain distinct. The candidate does not flatten the pavilion into one uniform mid-value block.
-
-No new broad halo, wash, obvious frame/service-accent inversion or new focal blocker was observed in the retained states inspected.
+The owner proof retains all 17 live states, all `17 × 2 × 36 = 1,224` projected Weather-width observations, and maximum residual `0.00974698571769128 px` inside the existing `0.05 px` gate.
 
 ## Independent Visual QA support
 
-Visual QA independently reviewed all 34 matched candidate frames and returned:
+Visual QA independently downloaded/rehashed the same combined artifact and returned:
 
-**`PASS_CURRENT_WORLD_BUILDING_INFILL_REPAIR_VISUAL_HIERARCHY_GATE`**.
+**`PASS_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_VISUAL_INTEGRATION_GATE`**.
 
-Exact retained diagnostics include:
+Across all 34 exact parent-source-width / combined-source-width frame pairs, the Building material-only footprint remains stable:
 
-- `path_eye`: `29,492` changed pixels/frame, fixed bbox `(384,290)-(715,407)`;
-- `elevated_oblique`: `11,289` changed pixels/frame, fixed bbox `(640,199)-(872,326)`;
-- predecessor changed-pixel median luma: `21.8046`;
-- candidate changed-pixel median luma: `39.8086`;
-- predecessor changed pixels below luma 32: `97.7994%` / `96.6261%`;
-- candidate changed pixels below luma 32: `0%` in both retained contexts.
+- `path_eye`: exactly `29,492` changed pixels/frame, bbox `(384,290)-(715,407)`;
+- `elevated_oblique`: exactly `11,289` changed pixels/frame, bbox `(640,199)-(872,326)`;
+- predecessor changed-pixel median luma `21.8046`;
+- combined successor median `39.8086`;
+- combined changed pixels below luma 32: `0%` in both retained camera contexts.
 
-These values support the exact proof diagnosis only; they are not generic material thresholds.
+QA also reproduced the Weather-width delta mask before and after material integration as bit-identical in all 34 matched camera/state pairs: XOR difference **`0 pixels`** for every pair.
+
+These are exact proof diagnostics, not generic aesthetic thresholds.
+
+## Direct Art Direction observation
+
+Art Direction directly inspected exact retained combined states **0 / 8 / 16** in both fixed cameras, comparing the thin-line control against the source-width candidate.
+
+### `path_eye`
+
+The repaired Building infill remains visibly solid rather than reading as dark/open bays. The galvanized frame still leads the structural hierarchy, the roof remains quieter/darker, and the muted ochre service panel remains the warmer accent.
+
+The source-width Weather streaks add atmosphere without obscuring the pavilion, route or vegetation. They remain sparse and subordinate rather than becoming a screen-space texture layer.
+
+No new combined wash, halo, panel-edge discontinuity, obvious streak wedge or focal inversion is visible in the inspected retained states.
+
+### `elevated_oblique`
+
+The wider composition preserves the same hierarchy. The pavilion remains readable at distance, the route remains the dominant compositional axis, vegetation stays secondary scene structure, and Weather remains a light atmosphere layer.
+
+The Building repair and Weather-width preference coexist cleanly in the inspected states. The wider environment is still visibly a proof/blockout world rather than final production art; this PASS concerns the exact bounded hierarchy and integration decision, not global art completion.
 
 ## Art Direction decision
 
 ### PASS
 
-**`PASS_ART_DIRECTION_BUILDING_INFILL_REPAIR_PREFERENCE_006`**
+**`PASS_ART_DIRECTION_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_COMBINED_PREFERENCE_007`**
 
-**`PREFER_59666D_INFILL_SUCCESSOR_OVER_344047_PREDECESSOR_IN_EXACT_SOURCE_CORRECT_CURRENT_WORLD_DONOR`**
-
-**`RELEASE_MATERIAL_SIDE_INFILL_HIERARCHY_HOLD_FOR_EXACT_ENVIRONMENT_COMPOSITION`**
+**`PREFER_EXACT_COMBINED_ENVIRONMENT_HEAD_5B9B55EC_AS_CURRENT_FIXED_CAMERA_VISUAL_REFERENCE`**
 
 Exact meaning:
 
-> In the exact source-correct donor world reviewed, the one-variable `infill_coating.albedo #344047FF -> #59666DFF` successor is the preferred visual direction. It fixes the previously reproduced solid-enclosure-versus-dark-opening ambiguity while preserving the intended hierarchy: galvanized frame first, infill readable but subordinate, dark roof quieter, muted ochre service surface as the warmer accent.
+> At exact Map Environment PR #24 head `5b9b55ec67e31655f51d1acc67284816067e5be6`, the accepted `#59666DFF` Building infill repair remains visually successful when composed with the accepted source-authored Weather-width presentation. The pavilion hierarchy stays clear and the atmosphere stays subordinate. This exact combined head is the current preferred fixed-camera visual reference until a newer evidence-backed successor is explicitly reviewed.
 
-This is a bounded Art Direction preference, not CANON and not final LookDev.
+The prior exact combined-world Art Direction hold is released for this proof surface.
 
 ## Direction packet
 
 Created:
 
-`studio/direction/BUILDING_CURRENT_WORLD_INFILL_REPAIR_DIRECTION_006.md`
+`studio/direction/CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_DIRECTION_007.md`
 
 Creation commit:
 
-`ac03b2257e26c7511c7a5bf2748c0d90538b7dda`
+`4dfce7bb44aa64138f47fbb94c140e750b5be6dc`
 
-The packet preserves the predecessor failure, the insufficient first attempt, exact candidate identities, direct observations, independent QA, and the exact next integration boundary.
+The packet preserves exact donor identities, all earlier held/failing states, direct combined observations, independent QA, wall-clock/runtime boundaries and handoffs.
 
 ## Handoffs
 
-### Materials / Building PR #3
-
-Hold the `#59666DFF` candidate stable for integration. No further scalar adjustment is requested before the Environment composition proof. Preserve the predecessor and insufficient `#46535AFF` attempt as provenance.
-
 ### Environment / Map PR #24
 
-Current exact Environment head is:
+Keep exact head `5b9b55ec...` and its retained evidence as the current preferred fixed-camera visual reference. No additional material or atmosphere retune is requested by Art Direction before a new explicit visual defect is returned.
 
-`0d8b2279ecbba47b9696a951db9513883fbef6c5`
+Do not silently fold lighting, Nature, Object scale, Geometry or Runtime representation changes into this PASS.
 
-That head already carries the separately approved Weather source-width presentation while retaining predecessor Building material profile `e8dd0c33...`.
+### Building Materials
 
-Next requested bounded proof: explicitly compose exact Materials candidate head `225cf82...` / profile `0c4834bf...` over exact Environment head `0d8b227...`, while keeping Weather source/seed/width/density/opacity/color/length, Building geometry, frame/roof/slab/service materials, Nature, Object, path, both fixed cameras and lighting unchanged.
+The `#59666DFF` infill successor remains preferred in the exact combined world. No further scalar adjustment is requested here. Preserve the predecessor and insufficient `#46535AFF` attempt as historical evidence.
 
-Do not compensate with a lighting edit or second material change in the same proof. Do not inherit this donor-context PASS by similarity.
+### VFX / Weather
+
+The source-authored width representation remains the preferred fixed-state atmosphere presentation in the combined world. This does not repair or relabel the separate wall-clock cadence FAIL.
+
+### Runtime / Technical Art
+
+Fresh Runtime PR #29 may continue testing prebuilt mesh swaps versus serialized 32 Hz rebuilds. This Art Direction PASS is not a timing/performance PASS. If a future runtime representation is adopted into the exact combined world, require visual equivalence or return visible deltas for QA / Art Direction review.
 
 ### Visual Observer / QA
 
-The donor-context QA PASS is accepted. Re-review the exact combined Environment successor after composition because the newer Environment head has a different exact world identity through the preferred Weather-width presentation.
+The exact combined QA PASS is accepted. Re-open only if a newer Environment, material, lighting, Weather representation, camera or runtime presentation changes the visual surface.
 
-### Runtime / Optimization
+### Character
 
-No target-device performance conclusion follows from this preference. If the combined successor is carried forward, measure that exact integrated representation rather than transferring an older budget.
+Do not inherit this result. Character connected shoulder visual acceptance remains held behind its neutral self-intersection defect and any future repaired successor.
 
-### Geometry / Hard Surface
+### Animal
 
-No geometry change is requested. Building Geometry PR #6 header segmentation remains a separate derived structural candidate and inherits no material adoption.
+Organic balanced elbow relief is a strong future visual comparison surface because its structural tradeoff is improved while visual/source adoption remains held. It receives no automatic acceptance from this world pass.
 
-### Character / Animal / Object / Nature / Weather / VFX
+### Object / Nature / Geometry
 
-No result transfers. Character shoulder deformation, Animal elbow/weighting/motion, Object motion, Nature representation and Weather/VFX semantics remain separate lanes.
+No result transfers. Object scale/readability, Nature sidedness/representation and Building Geometry PR #6 remain separate evidence gates.
 
 ### UC / Profession Fabric / Capability Cartography
 
-No Building material ontology or scalar values should be centralized. The reusable lesson is evidentiary: isolate one visual variable, preserve failed candidates, test it in a real receiving scene, then explicitly recompose accepted successors.
+No material scalar, Building hierarchy rule or Weather style rule should be centralized. The reusable lesson remains the evidence pattern: isolate visual variables, preserve failed candidates, explicitly compose accepted successors, then rerun direct receiving-scene QA and Art Direction.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final combined Environment + preferred Weather-width appearance;
-- final palette, UV, texture, decal or weathering quality;
-- physically measured coating correctness;
+- final production-quality world art, final palette or final lighting/grading;
 - arbitrary camera, FOV, resolution, renderer, HDR/display or lighting-context equivalence;
-- final lighting, grading or cinematic quality;
-- target-device FPS, CPU/GPU time, overdraw, memory, VRAM, battery or production budget;
+- exact authored 32 Hz wall-clock Weather cadence;
+- target-device FPS, CPU/GPU frame time, overdraw, memory, VRAM, battery or thermal budget;
+- physical Weather correctness;
 - collision, navigation, traversal or gameplay readability;
-- Building Geometry PR #6 source adoption;
-- Character shoulder, Animal deformation/motion or Object motion acceptance;
-- reusable UC material machinery or Profession Fabric promotion;
+- final UV, texture, decal, normal/tangent or weathering quality;
+- Object scale/readability acceptance;
+- Nature sidedness/representation adoption;
+- Building Geometry PR #6 adoption;
+- Character shoulder or Animal form/deformation/motion acceptance;
+- reusable UC visual policy or Profession Fabric promotion;
 - CANON, production readiness, game readiness or Art Direction mastery.
 
 ## Four-root gate
 
-- **Truth:** preference follows exact retained target-host A/B frames, independently reproduced artifact identity, direct visual inspection and independent QA. Donor-context acceptance remains separate from future combined-world acceptance.
-- **Agency / non-domination:** Materials retains material authority, Environment composition authority, Weather/VFX atmosphere authority, QA reproduction authority, Runtime performance authority; the four roots remain the merge gate.
-- **Continuity:** the old failure, predecessor profile, insufficient first attempt, current accepted donor-context candidate, newer Environment source-width head and future integration are preserved as distinct provenance points.
-- **Wisdom before speed:** release one proven material hold and request one explicit composition proof instead of simultaneously editing lighting, atmosphere, geometry or multiple material roles.
+- **Truth:** exact combined artifact was independently rehashed; exact retained combined frames were directly inspected; Environment, QA and Art Direction results remain distinct rather than collapsed.
+- **Agency / non-domination:** Environment retains composition authority, Building Materials retains material authority, Weather/VFX retain atmosphere semantics, Runtime/Technical Art retain cadence/performance authority, QA retains independent reproduction authority; the four roots remain the merge gate.
+- **Continuity:** dark-infill predecessor FAIL, insufficient first material attempt, accepted donor-context infill, accepted Weather-width donor, parent Environment state, exact combined successor and current cadence FAIL remain separate provenance points.
+- **Wisdom before speed:** close one explicitly requested combined visual gate without mixing in a new lighting, geometry, Object-scale or runtime change.
 
 ## Next Art Director pass
 
-Re-scan the constellation first. Do not automatically continue Building. If Environment publishes the exact combined Building-infill + preferred-Weather-width successor, that becomes a high-value direct visual gate. Otherwise prefer the strongest ready evidence-backed surface, likely Character connected-shoulder deformation or Animal connected playback/weighting only when the exact comparative visual surface is available. Do not claim mastery from this success.
+Re-scan the constellation first. Do not automatically continue Map.
+
+If no newer combined-world visual defect is returned, the strongest likely next Art Direction surfaces are:
+
+1. the Animal balanced-elbow baseline / predecessor / balanced comparison, because structural tradeoffs are now reduced while visual/source adoption remains explicitly held; or
+2. a repaired Character connected-shoulder successor only after Geometry removes/reduces the current neutral self-intersection defect enough to justify perceptual review.
+
+Object current-world scale/readability also remains a visible unresolved question, but should be opened only with an exact source/receiver comparison rather than by arbitrary rescaling.
+
+Do not claim mastery from this success.
