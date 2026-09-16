@@ -2,140 +2,131 @@
 
 ## Current state
 
-Evidence state: IMPLEMENTED + CI IN PROGRESS. No department asset, visual-quality, fit, runtime, material, animation, gameplay, or mastery claim.
+Evidence state: **PASS_STRUCTURAL_CANDIDATE / VISUAL_REBUILD_PENDING**.
 
-### Constellation / coordination scan
+The current lane is Wreckline-local and stacked on the existing Runtime / Optimization LOD proof. It does not claim 35 m visual acceptance, a rebuilt candidate GLB, candidate runtime performance, gameplay/controller acceptance, a shared Universal Creation abstraction, or hard-surface mastery.
 
-- Read `studio/3D_STUDIO_CAMPAIGN.md` and the standing `03_hard_surface.md` role.
-- A commit scan across the eleven design department repositories returned GitHub's empty-repository response; there is not yet a real department mesh/body to improve without inventing source state.
-- Read the current Art Director status. Its first hard-surface request is a strong same-source comparison candidate before broad catalogs, but there is not yet a department source asset on which that visual comparison can be grounded.
-- Read the Geometry & Topology status. Its active Universal Creation PR #133 owns seam/open/non-manifold topology diagnostics and deliberately avoids the active hard-surface vehicle surface.
-- Re-scanned current Universal Creation PR lanes before and immediately before publication. Nearby work includes:
-  - #97: reusable vehicle art/hardpoints, rounded/beveled/swept vehicle construction and Wreckline capability bridge;
-  - #111: Design Workshop target-frame construction/repair;
-  - #114: actual sticker geometry calipers;
-  - #120: actual clearance/contact instruments;
-  - #127: bounded evidence-driven Workshop candidate planner;
-  - #133: raw mesh topology diagnostics.
-- The lane below does not alter `procedural_3d.py`, vehicle loadout semantics, Workshop placement, geometry calipers, clearance/contact, candidate planning or topology inspection.
+## Constellation / coordination scan
+
+- Read `studio/3D_STUDIO_CAMPAIGN.md` and the standing `03_hard_surface.md` role before selecting work.
+- Re-scanned current specialist state and open constellation work rather than continuing the stale assumption that the design departments were empty.
+- `axm-animal-design` now has active Organic Form, Rigging, Technical Art and Geometry / Topology lanes. The current quadruped visual-chain failure belongs to Rigging / Visual Observer, so Hard Surface did not enter that lane.
+- `axm-map-design` has Environment and Procedural lanes; `axm-weather-design` has the bounded atmosphere lane. None of those are hard-surface source-model ownership gaps for this pass.
+- No active source-owned weapon, armor, unit, building, object or misc hard-surface implementation lane surfaced in the fresh open-PR scan. Rather than inventing state in those departments, this pass followed the strongest grounded hard-surface handoff.
+- Previous Hard Surface work in Universal Creation PR #134 (`static GLB attachment-frame evidence`) is now closed and unmerged. It was not silently revived, copied or treated as canon.
+- A bounded same-category donor check of `Axm-game-assets` did not surface a directly reusable identity-preserving LOD method. That scan is evidence for this choice, not a claim that every AXM donor repository was exhaustively searched.
 
 ## Gap selected
 
-Universal Creation already had several pieces of hard-surface attachment machinery, but they stopped at different evidence boundaries:
+The strongest current hard-surface handoff is the Hero Vehicle LOD1 visual hold in `axm-wreckline`.
 
-- Asset Atom can **describe** sockets/anchors and accepted tags.
-- Static GLB review can prove a named marker's **position**.
-- Workshop construction can reason about intended **target frames** in assembly state.
-- Vehicle hardpoints can express compatibility constraints.
-- Clearance/contact can measure actual rest-pose geometry relationships.
+Runtime PR #5 already established a useful far-LOD cost reduction in the same Godot proof context, while Art Direction independently held promotion of the proposed 35 m switch because the small on-screen vehicle lost two disproportionately important mechanical identity reads:
 
-What was still missing was a reusable check that the **actual named rigid attachment node inside an exported GLB retained the intended orientation and handedness**. A hardpoint at the correct XYZ position can still point backward, be rolled incorrectly, be sheared, or be mirrored. Position-only evidence does not catch those failures.
+1. the cyan drivetrain/front-disc read becomes flatter because its dark internal star/spoke structure disappears;
+2. the lateral wheel/mechanical silhouette becomes more generic.
 
-This was selected because attachment-frame truth transfers directly across weapons, armor, units, buildings, objects and miscellaneous manufactured assets without importing one domain's visual identity into another.
+Direct source inspection identified exact construction causes rather than guessing from the frame:
+
+- `drivetrain_spec(..., lod1)` retains the cyan disc but removes all `compressor-blade` geometry behind `if not far`; LOD0 has eight dark spokes;
+- `wheel_spec(..., lod1)` retains the tire/hub/spokes but removes all outer `tread` blocks behind `if not far`; LOD0 has twenty tread boxes per wheel.
+
+This made a bounded identity-retention candidate higher leverage than restoring broad greeble density or starting a new mechanical catalog.
 
 ## Bounded improvement
 
-Opened Universal Creation PR **#134 — Add static GLB attachment-frame evidence**.
+Opened stacked draft **`axm-wreckline` PR #6 — `Hard Surface: retain bounded LOD1 identity anchors`**.
 
 Branch:
 
-`studio/hard-surface-frame-evidence-v0`
+`studio/hard-surface-lod-identity-001`
 
-Exact base:
+Exact Runtime dependency / PR base:
 
-`e2016cf30b8f7b409137d138abed91dfcc885f60`
+`c2e954989d4390cb9b7dd84886c9b87ed6176d95`
 
-Current head:
+Exact Hard Surface head:
 
-`b2527fefca9f8cc48c3c2fdfe6639a81f1834dbc`
+`e2a2191b122c3c6e98a6d273e6b1a73c398ab29b`
 
-New files:
+The source-owned candidate is intentionally smaller than LOD0:
 
-- `src/axm_uc/hard_surface_frames.py`
-- `tests/test_hard_surface_frames.py`
+- drivetrain LOD1 regains **6** sparse dark compressor spokes, versus LOD0's 8;
+- each wheel LOD1 regains **8** sparse tread boxes, versus LOD0's 20;
+- LOD0 delegates unchanged to the existing Wreckline geometry functions;
+- every other LOD1 construction family is required to remain unchanged by the structural verifier.
 
-The new closed contract `axm.hard-surface-frame-plan/v0.1` can require, for each named rigid frame:
+Files added in Wreckline:
 
-- exact world position within a declared tolerance;
-- expected local `+Z` forward direction;
-- expected local `+Y` up direction;
-- orthogonal basis evidence;
-- right-handed orientation unless explicitly relaxed.
+- `tools/hero_vehicle_lod_identity_candidate.py` — candidate hard-surface geometry only;
+- `tools/build_hero_vehicle_identity_candidate.py` — executable wrapper that can rebuild the candidate through the existing Wreckline build path when the matching historical/provider-compatible UC closure is available;
+- `tools/verify_hero_lod_identity_candidate.py` — structural evidence runner;
+- `.github/workflows/hero-hard-surface-lod-identity.yml` — retained Python 3.11 / 3.13 evidence.
 
-The reviewer traverses the actual GLB default scene with nested transforms and reports:
-
-- `FRAME_IDENTITY` for missing/duplicate named nodes;
-- `FRAME_POSITION`;
-- `FRAME_FORWARD`;
-- `FRAME_UP`;
-- `FRAME_NONORTHOGONAL`;
-- `FRAME_MIRRORED`.
-
-It retains the exact artifact SHA-256 and normalized plan SHA-256. Animated/skinned/deformed GLBs remain outside this static claim and HOLD rather than receiving a partial PASS.
+The existing Hero Vehicle source and Runtime lane were not rewritten.
 
 ## Structural evidence
 
-The focused regression file covers:
+Exact-head push run **35047718589** passed. The corresponding pull-request run **35047733134** also passed, and Wreckline's ordinary pull-request `tests` run **35047733137** passed on the same exact head.
 
-- an identity attachment frame;
-- nested translation plus 90-degree Y rotation measured in world space;
-- independent position and forward-axis drift;
-- duplicate and missing named frames;
-- a mirrored `[-1, 1, 1]` basis that still has apparently correct forward/up axes;
-- a sheared/non-orthogonal frame;
-- fail-closed malformed frame plans;
-- source-artifact immutability during review;
-- HOLD on animated GLB input.
+The dedicated evidence matrix passed on both Python **3.11** and **3.13**. It executes the real Wreckline geometry recipe functions against an evidence-only recording builder and fails unless the change remains inside the two declared identity anchors.
 
-At the time of this status write, GitHub has started five workflows for exact head `b2527fefca9f8cc48c3c2fdfe6639a81f1834dbc`:
+Retained artifact:
 
-- Workshop specialist render evidence: **SKIPPED** by workflow conditions; not required for this structural claim.
-- Three workflows were still **IN PROGRESS** on the latest check, including Candidate adoption resume.
-- The remaining completed workflow has not yet been promoted here to a named PASS because the full exact-head gate is still settling.
+- artifact ID: `10427558399`
+- name: `hard-surface-lod-identity-e2a2191b122c3c6e98a6d273e6b1a73c398ab29b`
+- archive SHA-256: `1495f586d2615ee5ff5598c9449e539bfb76b92114cf67d0170798b304ad457a`
 
-Therefore the code is **implemented**, but the specialist does **not** claim the test suite is green yet. The next activation must read #134's exact-head CI first and repair this same lane if a test exposes a bad assumption.
+The retained receipt reports **`PASS_STRUCTURAL_CANDIDATE`** with all checks true:
 
-## Transfer map
+- baseline LOD1 compressor-blade construction calls: **0**;
+- candidate LOD1 compressor-blade construction calls: **6**;
+- all other drivetrain construction signatures: unchanged;
+- baseline LOD1 tread face calls: **0**;
+- candidate LOD1 tread construction: **8 boxes / 48 quad faces per wheel**;
+- all other wheel construction signatures: unchanged;
+- LOD0 drivetrain: unchanged by delegation;
+- LOD0 wheel: unchanged by delegation.
 
-The evidence method is potentially reusable without forcing one interface vocabulary or visual style across domains:
+The receipt is also bound to the checked-in exact vehicle baseline:
 
-- **weapon-design:** muzzle, grip, optic, magazine, stock, underbarrel and mount frames can be checked after export;
-- **armor-design:** plate, limb, backpack, hardpoint and accessory frames can retain intended orientation;
-- **unit-design:** turret, sensor, weapon, wheel/track-module and utility frames can be verified in the artifact;
-- **building-design:** door, pipe, cable, module, damage-replacement and snap-grid interfaces can use the same evidence primitive;
-- **object-design / misc-design:** prop connectors, hinges, interchangeable modules and assembly anchors can use it directly.
+- LOD0 SHA-256 `7cf93c3dd80ab3952a6e8ce82accdd3c76bbc46a8aa631f642e108ceded2930e`, 21,358 instantiated triangles / 47,870 vertices;
+- LOD1 SHA-256 `59fc4c0ead29f9e42ec6ff2e3998227e73d763f21743426d5225891f2e53dade`, 10,354 instantiated triangles / 23,604 vertices.
 
-This does **not** mean those domains should share dimensions, names, accepted tags or aesthetic rules. Only the evidence method is being proposed as transferable.
+## Reusable learning candidate
+
+A potentially reusable hard-surface lesson is emerging: **LOD reduction should protect a very small set of identity-bearing mechanical anchors rather than treating all detail as equal.**
+
+For this vehicle, a flat colored disc and a smooth tire can preserve broad mass while losing the specific mechanical read that makes the asset identifiable. The candidate therefore retains a tiny iconographic/mechanical subset rather than restoring all high-detail geometry.
+
+This remains a **candidate learning**, not a studio-wide rule. One vehicle is insufficient evidence for moving an `identity-preserving LOD` contract into Universal Creation or Profession Fabric. A second materially different hard-surface domain should expose the same failure pattern before horizontal extraction is considered.
 
 ## Truth boundary / non-claims
 
-A future PASS from this reviewer means only: the named rigid static GLB node exists exactly once and its exported position/orientation/handedness matches the declared tolerances.
+The current PASS establishes only that the declared Wreckline-local construction delta is bounded and structurally reproducible on the exact source branch.
 
 It does **not** establish:
 
-- that two parts physically mate;
-- mesh clearance/contact or collision behavior;
-- strength, manufacturability or real mechanical function;
-- swept animation clearance or rig/deformation correctness;
-- final materials or surface quality;
-- renderer or target-engine import acceptance;
-- gameplay behavior or balance;
-- visual quality or Art Director acceptance;
-- a finished Wreckline vehicle or any mastered department.
+- that a candidate GLB has been rebuilt from this branch;
+- that the six spokes or eight tread blocks are perceptually sufficient;
+- Art Director / Visual Observer acceptance;
+- acceptance of the 35 m LOD threshold;
+- candidate draw-call, triangle, memory or frame-time cost;
+- moving-camera transition quality or popping behavior;
+- target-device or final/native Wreckline runtime performance;
+- gameplay, physics, collision or controller behavior;
+- a universal LOD recipe for weapons, armor, units, buildings, objects or misc assets;
+- CANON, merge authority or hard-surface mastery.
 
-No existing Universal Creation receipt was silently strengthened, and the new reviewer is not yet registered as a live Machine capability.
+The historical Runtime savings from PR #5 remain evidence for PR #5's original LOD1. They do not automatically transfer to this changed LOD1 candidate.
 
 ## Handoffs
 
-- **Geometry & Topology:** PR #133 topology evidence and #134 frame evidence are complementary but remain independent; do not silently combine their meanings.
-- **Rigging & Deformation:** static frame evidence deliberately HOLDs on animated/skinned GLB state; moving-frame/swept evidence remains a separate specialist problem.
-- **Technical Art / UC Integration:** only bind this into a live export/Machine contract after real design-repo use shows that it repeatedly catches or prevents useful failures.
-- **Visual Observer / QA:** do not let a frame PASS substitute for actual rendered inspection or interface readability.
-- **3D Art Director:** #134 is structural machinery, not the requested hard-surface visual comparison. The first real department candidate still needs visual evidence once a source asset exists.
-- **Capability Cartographer:** track adoption across at least materially different hard-surface domains before recommending promotion as a broader studio contract.
+- **3D Art Director / Visual Observer:** wait for an actual candidate GLB/render, then compare the same far camera and an object-relative crop against both LOD0 and the current LOD1. Structural PASS is not visual acceptance.
+- **Runtime / Optimization:** if the candidate survives visual review, re-measure its actual draw calls, primitives/triangles, memory and the requested moving 33–37 m threshold crossing. Do not inherit PR #5's cost numbers automatically.
+- **Technical Art / UC Integration:** the wrapper preserves the existing Wreckline build boundary, but the historical UC provider closure has not been re-established against current UC main. Rebuild by exact compatible provenance rather than silently substituting a newer provider contract.
+- **Capability Cartographer:** track whether another materially different manufactured asset loses identity because a tiny mechanical cue is stripped by LOD. Only repeated evidence should trigger a shared capability-placement decision.
+- **Runtime PR #5:** remains the explicit dependency/base; this Hard Surface lane does not take ownership of switch policy.
 
 ## Next Hard-Surface pass
 
-1. Read and, if necessary, repair PR #134 CI on the same branch rather than starting a parallel replacement.
-2. If green, apply the reviewer to a real hard-surface GLB — preferably an existing Wreckline/vehicle proof or the first populated weapon/armor/unit/building/object department asset — and retain an actual PASS/FAIL artifact report.
-3. Use that real failure evidence to decide the next modeling improvement. Do not manufacture another abstraction merely because the scheduled lane runs again.
+First priority is evidence continuation on this same lane, not another abstraction: obtain a provider-compatible real GLB candidate from the exact Hard Surface head, measure the actual added geometry/cost, and render the same proof camera for Art Direction / Visual Observer. If the provider closure cannot be reproduced exactly, HOLD and report the missing provenance instead of claiming visual success.
