@@ -1,272 +1,242 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / FIRST BOUNDED RUNTIME LOD POLICY PASS / STACKED DRAFT PR OPEN**
+State: **ACTIVE / SECOND BOUNDED RUNTIME PASS / ACTIVE-ONLY LOD RESIDENCY FEASIBILITY PROVEN / PRODUCTION STREAMING NOT ACCEPTED**
 
 ## Bounded claim
 
-The first Runtime / Optimization activation found that the studio already had a real target-engine LOD comparison in Wreckline, but stopped immediately before the part this specialist owns: a reversible runtime switch policy and measured before/after runtime cost.
+This activation followed the strongest unresolved Runtime result from the previous Wreckline LOD pass instead of opening another optimization lane.
 
-This activation therefore did **not** build a new LOD generator, modify source art, invent a studio-wide budget, or move optimization machinery into Universal Creation. It opened one Wreckline-local candidate policy on the exact existing Hero Vehicle LOD evidence and measured its cost in the same Godot 4.7.2 proof context.
+The first Runtime pass had already shown that selecting the existing Hero Vehicle LOD1 at the exact 35.046398 m proof camera reduced visible Godot 4.7.2 draw calls and primitives, but its measured texture/buffer counters did not fall because **LOD0 and LOD1 remained resident together**. That result explicitly made no memory-saving claim.
 
-Result: at the already-observed far camera distance, selecting the existing Hero Vehicle LOD1 instead of LOD0 reduced visible proof-host draw calls and primitives substantially while retaining a small measured full-frame visual delta. This remains a **proof-host candidate**, not a production threshold or target-performance acceptance.
+The bounded follow-up therefore asked one narrower question on the same exact source assets and same Runtime PR:
+
+> If the inactive Hero Vehicle LOD is actually released instead of merely hidden, does observed proof-host residency fall while the alternate LOD stays active?
+
+Result: **yes, in this exact Godot proof host.** Releasing inactive LOD0 while LOD1 remained visible reclaimed measured RenderServer buffer and texture residency, and releasing LOD1 afterwards returned both counters exactly to the road-only baseline. The same evidence also exposes the cost of a naïve policy: synchronous import measured tens of milliseconds in CI, so this is **not** a production streaming/preload acceptance.
+
+No geometry, materials, threshold, source art, animation, gameplay controller, Universal Creation code, or `axm-create-me` product implementation was changed.
 
 ## Coordination / constellation scan
 
-Read before work:
+Read before acting:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - standing role `studio/specialists/12_runtime_optimization.md`;
-- specialist status packets 01 through 11;
-- current open PRs and current design/runtime evidence across the constellation.
+- current Runtime status;
+- Art Director, Hard Surface, Environment, Rigging, Visual Observer and Technical Art status;
+- current Wreckline Runtime / Animation / Hard Surface PRs and exact runtime evidence.
 
-Relevant neighboring ownership remains separate:
+Relevant current neighboring state:
 
-- Art Director owns visual acceptance and the shared visual baseline;
-- Geometry / Topology owns UC topology diagnostics (#133);
-- Hard Surface owns UC attachment-frame evidence (#134);
-- Organic + Rigging own the animal form/deformation chain;
-- Materials owns UC UV-density evidence (#135);
-- Animation owns Wreckline harpoon aim/fire/recover PR #4;
-- Environment / Procedural own map composition and seeded map variation;
-- VFX owns the weather wind visual baseline;
-- Technical Art owns the animal-design -> UC static surface/GLB bridge and explicitly leaves runtime cost/import proof to this lane.
+- **Art Director:** the original proposed 35 m Hero LOD switch remains on visual-direction HOLD because the existing LOD1 loses disproportionate object-relative mechanical identity. This activation does not clear or bypass that hold.
+- **Hard Surface:** Wreckline PR #6 remains the source-owned structural candidate that restores sparse compressor spokes and tread blocks. It has a structural PASS only; there is still no rebuilt candidate GLB/runtime measurement, so this activation does not inherit any of the old LOD1 cost numbers into that changed geometry.
+- **Animation:** Wreckline harpoon motion remains a separate mechanical-motion lane.
+- **Environment:** map PR #4 now has a real source-owned Nature + Weather slice but explicitly still lacks target-engine/runtime/performance evidence. It is a future Runtime consumer, not a stronger measured optimization target than the current Wreckline residency gap.
+- **Rigging / Visual Observer:** animal Rigging repaired the exact detached-paw subtree propagation structurally, while Visual Observer's older visual FAIL remains pending recheck. No target-runtime organic rig body exists yet, so Runtime did not enter that lane.
+- **Technical Art:** the animal -> UC bridge is static structural export evidence and explicitly leaves runtime cost/import proof separate.
 
-The design-department bodies currently provide useful source/structural evidence, but most do **not** yet provide a measured target-engine runtime baseline. Wreckline is the strongest current runtime target because its exact Hero Vehicle already has retained Godot 4.7.2 import, road/chase context, LOD0/LOD1, materials, animation and visual evidence.
+No competing active-only residency/streaming implementation lane was found. The existing Wreckline Runtime PR #5 was extended rather than creating another PR.
 
-No competing runtime LOD switch-policy lane was present when this pass was cut.
+## Existing measure-before baseline preserved
 
-## Gap selected
+Wreckline Runtime PR #5 already measured the exact original Hero Vehicle assets in Godot 4.7.2:
 
-Wreckline PR #3 already had a corrected green road/chase LOD observer using the exact Hero Vehicle and exact road GLBs.
+- LOD0: **21,358 triangles / 47,870 vertices / 96 surfaces**;
+- LOD1: **10,354 triangles / 23,604 vertices / 79 surfaces**.
 
-Its own retained gate said:
+At the existing exact far camera, the visibility-only LOD0 -> LOD1 switch previously measured:
 
-`automatic_lod_policy_gate = BLOCKED_MISSING_LOD_DISTANCE_CONTRACT`
+- visible draw calls: **102 -> 85**;
+- visible primitives: **22,496 -> 11,492**;
+- imported triangles: **21,358 -> 10,354**;
+- imported vertices: **47,870 -> 23,604**;
+- imported surfaces: **96 -> 79**.
 
-At its exact far observation distance of **35.0463981628418 m**, it had already measured:
+However, both LOD resources were resident. The prior proof therefore correctly recorded unchanged residency across the visibility switch and set memory optimization to `NOT_CLAIMED_BOTH_LODS_RESIDENT`.
 
-- Hero LOD0: **21,358 triangles / 47,870 vertices / 96 surfaces**;
-- Hero LOD1: **10,354 triangles / 23,604 vertices / 79 surfaces**;
-- LOD0 -> LOD1 full-frame changed ratio: **0.2833%** in that earlier observer;
-- LOD1 / LOD0 silhouette footprint ratio: **0.9372006386**;
-- target performance still `BLOCKED_MISSING_TARGET_BUDGET`.
-
-That made a local runtime policy/budget proof higher leverage than creating another generic optimization abstraction.
-
-The earlier v0.1 road/chase observer failed to parse before scene observation. That historical failure remains historical truth. The corrected v0.2 observer/run is the evidence consumed here.
+That non-improvement is the direct before-evidence for this activation.
 
 ## Bounded improvement
 
-Opened stacked draft PR:
+Repository:
 
-**`mike-axiom-mir/axm-wreckline#5 — Runtime: prove bounded hero LOD switch budget`**
+`mike-axiom-mir/axm-wreckline`
+
+Existing draft PR:
+
+`#5 — Runtime: prove bounded hero LOD switch budget`
 
 Branch:
 
 `studio/runtime-optimization-lod-policy-001`
 
-Exact Runtime lane head:
+Exact current Runtime head:
 
-`c2e954989d4390cb9b7dd84886c9b87ed6176d95`
+`f7d900a52cfe0e088d40c28d9a4486efb5894563`
 
-Stack/base:
+Added to the same lane:
 
-`evidence/3d-specialist-hero-runtime` (Wreckline PR #3)
+- `native/specialist-proof/runtime_lod_residency_observe.gd`;
+- `.github/workflows/hero-runtime-lod-residency-evidence.yml`.
 
-The PR remains **DRAFT / OPEN** and carries no merge/CANON or production-runtime claim.
+The new probe uses the exact checked-in source GLBs and verifies their manifest hashes before staging. It then measures a lifecycle rather than visibility alone:
 
-Added only three Wreckline-local files:
+1. road-only baseline;
+2. load LOD0 only;
+3. load LOD1 while keeping LOD0 resident, with LOD1 visible;
+4. release inactive LOD0 while LOD1 remains visible;
+5. release LOD1 and require measured memory to return exactly to road-only baseline.
 
-- `evidence/runtime/hero_vehicle_lod_policy_candidate.json`;
-- `native/specialist-proof/runtime_lod_policy_observe.gd`;
-- `.github/workflows/hero-runtime-lod-policy-evidence.yml`.
+No asset bytes are rewritten by the probe.
 
-No Hero source GLB, road source GLB, material evidence file, animation file, or UC source was modified.
+## Exact active-only residency result
 
-### Candidate policy
+Dedicated workflow:
 
-The bounded candidate declares:
+`Hero runtime LOD residency evidence`
 
-- enter LOD1 at **35.0 m**;
-- return LOD0 at **34.0 m**;
-- one-metre hysteresis only to prove deterministic non-thrashing state transitions;
-- Art Director review required;
-- target budget state remains `MISSING`;
-- promotion effect `NONE`.
+Exact-head run:
 
-The 35 m entry point is deliberately anchored to the exact already-measured **35.046398 m** far observation. It is not inferred as the mathematically optimal threshold and is not generalized to other cameras/assets.
+**35049487232 — SUCCESS**
 
-The one-metre return band is an anti-thrash proof mechanism, not a visual tuning claim.
+Retained artifact:
 
-## Measure-before baseline
+- artifact ID: **10427474633**;
+- name: `wreckline-hero-runtime-lod-residency-f7d900a52cfe0e088d40c28d9a4486efb5894563`;
+- archive digest: `sha256:ca667745651e8f481b7c227f6c896fc4d7461dcad348132f4c2fccc42a665f48`;
+- exact-head binding: `f7d900a52cfe0e088d40c28d9a4486efb5894563`.
 
-Before the candidate policy was allowed to select LOD1, the new observer forced LOD0 at the exact same 35.046398 m camera/context.
+The retained receipt was downloaded and inspected directly.
 
-Godot 4.7.2 runtime counters:
+Exact measured lifecycle:
 
-- visible draw calls: **102**;
-- visible objects: **102**;
-- visible primitives: **22,496**;
-- texture memory: **9,623,187 bytes**;
-- buffer memory: **7,400,828 bytes**.
+| state | buffer memory | texture memory | visible draw calls | visible primitives |
+|---|---:|---:|---:|---:|
+| road-only baseline | 6,472,644 B | 6,366,915 B | 6 | 1,138 |
+| LOD0 only | 7,071,504 B | 6,760,107 B | 102 | 22,496 |
+| both LODs resident, LOD1 visible | 7,400,828 B | 6,858,387 B | 85 | 11,492 |
+| LOD1 only after inactive LOD0 release | 6,801,968 B | 6,465,195 B | 85 | 11,492 |
+| after LOD1 release | 6,472,644 B | 6,366,915 B | 6 | 1,138 |
 
-Exact Godot import identity for the vehicle remained:
+Releasing the inactive LOD0 while LOD1 remained visible reclaimed:
 
-- LOD0: **21,358 triangles / 47,870 vertices / 96 surfaces**;
-- LOD1: **10,354 triangles / 23,604 vertices / 79 surfaces**.
+- **598,860 bytes of RenderServer buffer memory**;
+- **393,192 bytes of observed texture memory**.
 
-The workflow requires those imported counts to keep matching the measured policy basis rather than silently accepting a changed asset under an old threshold.
+The both-resident vehicle-specific buffer overhead above road-only was **928,184 bytes**. After dropping inactive LOD0, the remaining LOD1-only overhead was **329,324 bytes**. Therefore about **64.52% of the both-resident vehicle buffer overhead** was removed while preserving the visible LOD1 state.
 
-## After measurement
+The both-resident observed texture overhead above road-only was **491,472 bytes**. The LOD1-only observed overhead was **98,280 bytes**, so the measured texture counter fell by about **80.00% of that incremental both-resident overhead** after releasing inactive LOD0. Texture interpretation remains explicitly observational because sharing/caching behavior is renderer-dependent.
 
-At the same **35.046398 m** camera/context, the candidate state machine selected LOD1.
+After LOD1 was released as well, both measured counters returned **exactly** to the road-only baseline.
 
-Measured Godot runtime counters became:
+Current residency gate:
 
-- visible draw calls: **85**;
-- visible objects: **85**;
-- visible primitives: **11,492**;
-- texture memory: **9,623,187 bytes**;
-- buffer memory: **7,400,828 bytes**.
+**`PASS_SCOPED_ACTIVE_ONLY_RECLAIM_OBSERVED`**
 
-Measured before -> after reductions:
+This is stronger than the prior visibility-only result because the proof now distinguishes “not drawn” from “not resident.”
 
-- draw calls: **102 -> 85 = -17 / -16.67%**;
-- visible primitives: **22,496 -> 11,492 = -11,004 / -48.92%**;
-- imported triangles: **21,358 -> 10,354 = -11,004 / -51.52%**;
-- imported vertices: **47,870 -> 23,604 = -24,266 / -50.69%**;
-- imported surfaces: **96 -> 79 = -17 / -17.71%**.
+## Import-latency / streaming risk
 
-State-machine hysteresis also passed the exact bounded sequence:
+The same exact CI receipt measured synchronous GLB import time:
 
-`34.9 LOD0 -> 35.1 LOD1 -> 34.5 stays LOD1 -> 33.9 LOD0 -> 34.5 stays LOD0`
+- LOD0: **35,400 µs / 35.400 ms**;
+- LOD1: **11,276 µs / 11.276 ms**.
 
-Current gates from the retained receipt:
+These values are evidence from one GitHub runner and Godot 4.7.2 proof host. They are **not** a target-device latency budget or production frame-time measurement.
 
-- relative runtime budget: `PASS_SCOPED_PROOF_HOST`;
-- automatic LOD policy: `PASS_SCOPED_PROOF_HOST_CANDIDATE`;
-- target performance: `BLOCKED_MISSING_TARGET_BUDGET`;
-- memory: `NOT_CLAIMED_BOTH_LODS_RESIDENT`;
-- representative gameplay camera: `NOT_TESTED`;
-- final/native runtime: `NOT_TESTED`.
+They do establish an important design constraint for the next Runtime step: a naïve “free inactive LOD now, synchronously import it again exactly when needed” policy may recover residency while creating a visible hitch or missing-asset interval.
 
-## Exact CI / retained evidence
+Therefore:
 
-Exact Runtime lane head:
+- active-only residency feasibility: `PASS_SCOPED_ACTIVE_ONLY_RECLAIM_OBSERVED`;
+- synchronous import latency: `MEASURED_CI_PROOF_HOST_ONLY_NOT_TARGET_ACCEPTED`;
+- production streaming/preload policy: `NOT_TESTED`;
+- target memory budget: `BLOCKED_MISSING_TARGET_BUDGET`;
+- target performance/FPS: `BLOCKED_MISSING_TARGET_BUDGET`;
+- representative gameplay runtime: `NOT_TESTED`;
+- final/native Wreckline runtime: `NOT_TESTED`.
 
-`c2e954989d4390cb9b7dd84886c9b87ed6176d95`
+## Visual tradeoff / Art Director boundary
 
-All three relevant workflows observed for that head completed **SUCCESS**:
+This residency probe changes **no geometry or material state**, so it does not create a new static art comparison.
 
-- normal `tests` run **35045837516**;
-- dedicated `Hero runtime LOD policy evidence` run **35045837518**;
-- inherited `Hero specialist runtime evidence` run **35045837477**.
+The visual risk is temporal/runtime rather than geometric:
 
-Dedicated retained artifact:
+- releasing an inactive LOD can reclaim memory;
+- synchronous re-import can create a hitch or a period where the desired asset is unavailable;
+- therefore a real production policy would need evidence for preload distance/window, asynchronous/background load behavior if available, transition timing, and representative moving-camera continuity.
 
-- artifact ID: **10426922362**;
-- archive digest: `sha256:2cb280faafc1234111ef59ac046041aa64c9af7140f2316807e8f05acd982d5c`;
-- size: **197,148 bytes**;
-- retained policy JSON, exact runtime receipt, forced-LOD0 frame, automatic-LOD1 frame.
+The Art Director's existing **35 m visual hold remains unchanged**. This memory result does not make the existing LOD1 more acceptable visually and does not authorize the 35 m threshold.
 
-The artifact was downloaded during this activation and its receipt was inspected directly.
+Likewise, Hard Surface PR #6 changes the LOD1 geometry. If that candidate receives a real rebuilt GLB, **all relevant Runtime measurements must be repeated on that exact candidate** rather than inheriting this original LOD1 receipt.
 
-## Visual tradeoff / Art Director handoff
+## Continuity note on stacked Hard Surface lane
 
-At the exact same far camera, the new retained before/after comparison measured:
+Hard Surface PR #6 is stacked on the Runtime branch. After this activation advanced the Runtime base branch, GitHub's current PR metadata temporarily reports PR #6 as non-mergeable while its recorded base SHA still points at the earlier Runtime head. Runtime did not rewrite, merge, close, or supersede that Hard Surface lane.
 
-- **344 / 144,000 sampled pixels changed**;
-- changed ratio **0.2389%**;
-- prior exact far silhouette footprint ratio **93.72%**.
+Before Hard Surface resumes candidate GLB/runtime work, its branch relationship should be refreshed/rebased against the current Runtime head and its structural evidence rerun. No CANON/merge action is taken here because the four roots, not this specialist or Git permission, are the merge gate.
 
-I also inspected the two retained frames directly.
+## Reusable learning candidate
 
-Bounded visual observation:
+A bounded reusable Runtime lesson is now supported by this one real asset family:
 
-- the same vehicle remains clearly present at the same road position;
-- the overall far silhouette/read remains close in the two stills;
-- some fine lateral/mechanical detail is visibly simplified/repositioned in the LOD1 image;
-- there is no basis here to claim that a live transition is imperceptible, that 35 m is the best artistic switch distance, or that this survives a representative chase camera in motion.
+> **LOD visibility reduction and LOD residency reduction are separate contracts.** A hidden lower-detail/higher-detail resource can reduce draw cost while still consuming memory; a memory claim needs explicit lifecycle evidence showing what is actually loaded and released.
 
-Therefore visual state remains:
+A second candidate lesson is that active-only residency is not automatically “better”: it introduces load-latency risk. The useful optimization problem is therefore a three-way balance among visual acceptance, render cost, and residency/load timing rather than triangle count alone.
 
-**`REVIEW_REQUIRED`**
-
-Art Director / Visual Observer should inspect the exact retained frames and, preferably, an eventual moving threshold-crossing capture before this threshold can be promoted beyond proof-host candidate status.
-
-## Important memory result
-
-This pass produced an important non-improvement as well:
-
-texture/buffer memory counters were unchanged across the switch because **both LOD resources remain resident** in the proof host.
-
-Therefore this lane makes **no memory-saving claim**.
-
-A future residency/streaming lane would need to prove real resource unload/load or target-runtime residency behavior rather than treating hidden geometry as freed memory.
-
-## Why this was not moved into Universal Creation
-
-One successful Wreckline-local LOD state machine does not justify a universal LOD/runtime organ.
-
-The candidate is tied to:
-
-- one vehicle family;
-- one Godot proof host;
-- one camera context;
-- one measured far observation;
-- no target device/FPS budget.
-
-If a second materially different real asset family later demonstrates the same policy/evidence need, Technical Art / Capability Cartography can assess whether a horizontal contract exists. Until then, the smallest honest scope is Wreckline-local.
+These remain **candidate learnings**, not a Universal Creation or studio-wide runtime policy. One vehicle and one proof host are insufficient for horizontal promotion.
 
 ## Truth boundary / non-claims
 
-This pass proves only that, for this exact Hero Vehicle and proof-host context:
+This activation proves only that for the exact existing Wreckline Hero Vehicle LOD0/LOD1 assets in this exact Godot 4.7.2 CI proof host:
 
-1. a reversible 35 m / 34 m candidate state machine behaves deterministically;
-2. at the already-measured far camera, selecting existing LOD1 instead of LOD0 reduces measured Godot draw calls and primitives;
-3. exact before/after visual evidence exists for human review.
+1. both-resident LOD memory is measurably higher than active-only LOD1 memory;
+2. releasing inactive LOD0 while LOD1 remains visible reclaims measured buffer and texture residency;
+3. releasing LOD1 afterwards returns both measured counters exactly to the road-only baseline;
+4. synchronous re-import has measurable nonzero latency in CI.
 
 It does **not** establish:
 
-- target FPS;
+- target FPS or frame-time;
 - target hardware/device acceptance;
-- CPU/GPU frame-time acceptance;
-- memory optimization;
-- residency/streaming behavior;
-- an optimal LOD threshold;
+- a target memory budget;
+- asynchronous/background streaming support or quality;
+- hitch-free transitions;
+- an optimal preload/unload distance or time window;
 - representative gameplay-camera acceptance;
-- live transition/pop acceptance;
+- visual acceptance of the 35 m threshold;
+- performance of Hard Surface PR #6's changed LOD1 geometry;
+- environment-slice runtime cost;
+- organic-rig runtime cost;
 - final/native Wreckline runtime acceptance;
-- a studio-wide LOD budget;
-- that every asset should use the same threshold;
-- production readiness or runtime-optimization mastery.
+- a Universal Creation residency organ;
+- production readiness, CANON or Runtime / Optimization mastery.
 
 ## Root gate
 
-- **Truth:** exact source/import identity, before/after runtime counters, retained visual evidence and missing target budget are all explicit; unchanged memory is recorded rather than hidden.
-- **Agency / non-domination:** no artist/source lane was rewritten and no provisional threshold was silently promoted into product authority.
-- **Continuity:** PR #5 is stacked on the existing Wreckline runtime evidence chain, preserves the earlier failed/corrected evidence history, pins the source hashes/counts, and has `promotion_effect = NONE`.
-- **Wisdom before speed:** the lane closes one concrete measured blocker in the strongest current runtime body instead of inventing a universal optimization layer from a single vehicle.
+- **Truth:** the previous “memory unchanged because both LODs are resident” result remains visible; the new claim is tied to exact source identities and an actual release lifecycle. Import latency is reported rather than hidden behind the memory win.
+- **Agency / non-domination:** no art/source lane, threshold, gameplay runtime, or downstream Hard Surface decision is silently overridden by Runtime measurements.
+- **Continuity:** the existing Wreckline Runtime PR #5 was extended rather than replaced; prior receipts remain intact; exact asset identities and rollback remain available.
+- **Wisdom before speed:** the activation closes the specific memory ambiguity before proposing streaming architecture or a studio-wide budget, and refuses to trade a measured memory win for an unmeasured hitch claim.
 
 ## Handoffs
 
-- **Art Director / Visual Observer:** review artifact `10426922362` before any visual acceptance. Pay special attention to lateral/mechanical detail at the switch point and request a moving threshold-crossing proof if still acceptance is insufficient.
-- **Animation / Motion:** PR #4 remains separate. Do not infer that the LOD switch preserves animated module/articulation quality until exercised together.
-- **Materials / LookDev:** current LOD1 already has fewer material surfaces/bindings; this pass proves runtime count reduction, not material look parity at switch distance.
-- **Technical Art / UC Integration:** do not extract this into UC yet. Watch for a second real engine/asset family needing the same evidence contract first.
-- **Environment / World Art:** road remains fixed LOD0 here. Road LOD policy is a separate visual/composition problem; the earlier road LOD delta was much larger and must not inherit the vehicle threshold.
-- **Capability Cartography:** record the reusable pattern as a candidate only: exact asset identity + measured context anchor + hysteresis + runtime counters + retained visual review + explicit target-budget/memory non-claims.
+- **3D Art Director / Visual Observer:** the existing 35 m visual hold remains authoritative within its scope. No new aesthetic acceptance is implied by active-only residency.
+- **Hard Surface:** refresh PR #6 onto the current Runtime base before continuing. Once an exact identity-retention GLB exists, hand that exact candidate back to Runtime for draw/primitives/residency/import remeasurement; old numbers do not transfer.
+- **Environment / World Art:** the real Nature + Weather map slice now has a clear future Runtime handoff once a real engine/rendering path exists. Do not infer cost from OBJ/SVG evidence.
+- **Animation / Motion:** eventual streaming/preload timing must not interrupt active module/vehicle animation; this interaction is not tested here.
+- **Technical Art / UC Integration:** do not extract active-only residency into UC from this single vehicle. Watch for a second materially different receiving runtime first.
+- **Capability Cartographer:** track `visibility contract != residency contract` as a repeated-learning candidate. Horizontal placement should wait for another real asset/runtime family.
 
 ## Next Runtime / Optimization pass
 
-First re-read PR #5, Art Director/Visual Observer response, and newest product-runtime evidence.
+First read the newest Art Director / Hard Surface response and exact Wreckline branch state.
 
-If the vehicle threshold is not visually accepted, repair this same lane rather than widening it.
+Highest-value next choices, evidence permitting:
 
-If it is visually accepted but no target device/FPS budget exists, do **not** invent one. The next highest-risk measured gap is likely either:
+1. if Hard Surface PR #6 produces a real candidate GLB, remeasure that exact LOD1 for draw/primitives/residency/import cost and compare its identity tradeoff;
+2. otherwise, test the smallest safe preload/streaming feasibility that can reduce the synchronous-import hitch risk without inventing a target-device budget;
+3. if the Environment real slice reaches a target-engine renderer first, establish its first measured draw/memory baseline rather than continuing to optimize the same vehicle indefinitely.
 
-1. representative moving-camera threshold crossing / frame-time evidence; or
-2. actual resource residency/streaming, because this pass proves visibility switching does not reduce resident memory.
-
-Only propagate horizontally after a second materially different asset/runtime demonstrates the same need.
+Do not promote a universal streaming/LOD framework until a second materially different real asset/runtime demonstrates the same need.
