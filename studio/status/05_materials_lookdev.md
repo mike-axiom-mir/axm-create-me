@@ -1,21 +1,41 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-16
-State: **PASS_OBJECT_INNER_LID_EXISTING_FAMILY_SLOT_REVIEW_CANDIDATE / REAL GODOT 4-PAIR A-B / REVIEW SPLIT PIXEL-NEUTRAL / SOURCE ADOPTION + RUNTIME + ART + QA HELD**
+State: **PASS_OBJECT_INNER_LID_SOURCE_IDENTITY_REBIND / REAL GODOT 4-PAIR A-B / 12 RENDERS BYTE-IDENTICAL TO PRIOR REVIEW / SOURCE MATERIAL ASSIGNMENT + RUNTIME + ART + QA HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status and current constellation handoffs before acting. `axm-create-me` remains coordination-only. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status, current design-constellation PRs and the active Object Materials / Hard-Surface handoff before acting. `axm-create-me` remains coordination-only. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-No duplicate Materials lane was opened. Product/evidence work advanced existing `mike-axiom-mir/axm-object-design` draft PR #6 / branch `studio/materials-object-functional-surface-001`.
+No duplicate Materials lane was opened. Product/evidence work advanced the existing `mike-axiom-mir/axm-object-design` draft Materials PR #6 / branch `studio/materials-object-functional-surface-001`.
 
-The immediately previous Nature result remains historical truth: the bounded three-source woody/foliage family composes with the two retained leaf-sidedness strategies without hidden visual regression. Building infill/header work and Nature scalar choices remain untouched this activation.
+The previous inner-lid `service_dark` result remains historical truth. This activation did **not** retune it, add a new material, alter source geometry, change cameras/lighting, or silently promote it into source authority.
 
-## Selected gap
+## Selected highest-leverage gap
 
-Object Materials PR #6 already proved a six-member scalar-PBR family, owner-bound latch-keeper surface coherence and real articulated static-pose renders, but explicitly left **inner-lid material slots** unproven.
+The previous Materials pass could only identify the inward `lid_shell` face by the proof selector `source_local_min_z_face`. It explicitly held source adoption.
 
-That gap is now actionable because the Object constellation has exact source geometry, exact `0° / 50° / 100°` lid articulation, and exact keeper ownership. Rather than invent a new coating or rewrite Hard-Surface source geometry, Materials tested one bounded review-only slot on the inward lid face using an **existing** family member.
+Hard-Surface PR #26 has now closed that dependency by source-owning the exact same face as:
+
+- source surface ID: `lid_inner_service_surface`;
+- semantic: `interior_service_surface`;
+- component / role / kind: `lid_shell / lid_shell / box`;
+- selector: `source_local_min_z_face`;
+- exact scope: `2` triangles / `4` unique vertices;
+- material assignment: `UNASSIGNED`;
+- Materials review candidate adoption: `false`.
+
+Hard-Surface exact donor head:
+
+`e67353416209604aa50ad3ba57f71336f4384349`
+
+Exact donor blob:
+
+`873c03a73042213255c65df63cdff49edcf10a6c`
+
+Hard-Surface workflow `35145723350 — Object lid inner-surface identity evidence` is **SUCCESS**. Its retained artifact is `10467695682`, SHA-256 `bdf9184668de15cf035edccb8168cee35233e11be52b442bc058bf7937a45002`.
+
+The correct Materials move was therefore a provenance/semantic **rebind**, not another visual tweak.
 
 ## Existing Object Materials lane advanced
 
@@ -25,157 +45,129 @@ Existing draft PR: **#6 — `Materials: prove functional surface separation on c
 
 Branch: `studio/materials-object-functional-surface-001`
 
-Exact tested head:
+Exact current Materials head:
 
-`8e92324648d837a92b7c3e0b1107df1f58f9aa61`
+`036939603faf9bc8ee926adbc70fa6c772cd31bf`
 
-PR remains open / draft / mergeable at review.
+PR remains open / draft / mergeable.
 
 ## Bounded implementation
 
-New review contract:
+`lookdev/inner_lid_surface_review_001.json` advances to v0.2 and pins the exact Hard-Surface source-surface donor, including its exact head, path and Git blob plus the exact prior Materials review lineage that Hard Surface used to discover the repeated surface need.
 
-`lookdev/inner_lid_surface_review_001.json`
+`tools/build_object_inner_lid_material_evidence.py` now fail-closes unless:
 
-Fail-closed scope:
+- the source donor is `axm.object-hard-surface-surface-identity/v0.1`;
+- asset remains `modular-equipment-case-001`;
+- source surface is exactly `lid_inner_service_surface`;
+- component / role / kind remain `lid_shell / lid_shell / box`;
+- selector remains `source_local_min_z_face` with exact `2` triangle / `4` vertex scope;
+- source semantics remain `interior_service_surface`;
+- Hard Surface still assigns no material and reports `UNASSIGNED`;
+- Hard Surface still has not adopted the Materials candidate;
+- the source contract still points back to the exact prior Materials review head/blob;
+- Materials still uses existing `shell_coating` as exterior/control and existing `service_dark` only as the review candidate;
+- no new material scalar, geometry, UV, texture, decal or wear claim appears.
 
-- asset `modular-equipment-case-001`;
-- component `lid_shell`;
-- required role `lid_shell`;
-- required source kind `box`;
-- surface selector `source_local_min_z_face` only;
-- control material `shell_coating`;
-- candidate material `service_dark`;
-- candidate must already exist in the current material family;
-- no new material scalar may be authored;
-- exact open poses `mid_open = 50°` and `peak_open = 100°`;
-- exact render contexts `three_quarter` and dedicated `front_interior` proof camera.
+Additional fail-closed tests cover source-surface ID drift, selector drift, source material assignment, premature candidate adoption and review-lineage drift.
 
-Unchanged existing material values:
+## Exact structural + target-host evidence
 
-- `shell_coating`: `#3F484EFF`, metallic `0.42`, roughness `0.54`;
-- `service_dark`: `#252B2FFF`, metallic `0.18`, roughness `0.66`.
+Dedicated workflow:
 
-The review split is explicitly a Materials proof representation over the exact source box dimensions. It does **not** claim Hard-Surface/source has authored a production material slot.
+**`35146365961 — Object inner-lid material review evidence` — SUCCESS**
 
-`tools/build_object_inner_lid_material_evidence.py` pins the current material-profile digest, base geometry-contract digest and exact owner-bound articulation payload, rejects source/material/scope drift, and emits:
+Complete Object suite and new source-identity checks pass on Python **3.11 and 3.13**.
 
-`PASS_SOURCE_BOUND_INNER_LID_EXISTING_FAMILY_SLOT_PAYLOAD`.
+Scoped structural result:
 
-Six new fail-closed tests cover the happy path plus candidate-family, closed-pose, material-profile, new-scalar and face-selector drift. The complete Object suite remains **26 tests PASS** on Python 3.11 and 3.13.
+`PASS_SOURCE_OWNED_INNER_LID_EXISTING_FAMILY_SLOT_REBIND`
 
-## Retained failed draft and repair
-
-The first real-render observer attempt at exact head `c85517446a769e0d5f880fc0e9e32f47124f7b5e` was not overwritten.
-
-At `mid_open / three_quarter`, the custom split representation changed `6,448 / 508,400 = 1.2683%` of pixels **before** any material change, so the representation-neutrality gate failed.
-
-The defect was observer-local: custom +/-X lid faces used the wrong winding for Godot's front-face convention and `CULL_DISABLED` kept the incorrect faces visible, changing self-shadowing. The repair preserves the same box dimensions and same one-face material split but uses clockwise front-face winding plus ordinary back-face culling.
-
-Historical failed artifact:
-
-- ID `10464724033`;
-- size `216,276 B`;
-- SHA-256 `d5d210264864a65897a5105a7828a90bbee58f02721402f4d8b92ff751142230`.
-
-This remains retained evidence of the failed proof representation, not a material rejection.
-
-## Exact structural and target-host evidence
-
-Dedicated repaired workflow:
-
-**`35141690760 — Object inner-lid material review evidence` — SUCCESS**
-
-Exact workflow head:
-
-`8e92324648d837a92b7c3e0b1107df1f58f9aa61`
-
-Pinned target host:
+Pinned renderer:
 
 **Godot 4.7.2 GL Compatibility**.
 
-Target-host result:
+Target-host result remains:
 
-`PASS_TARGET_HOST_INNER_LID_EXISTING_FAMILY_SLOT_AB_READY`.
+`PASS_TARGET_HOST_INNER_LID_EXISTING_FAMILY_SLOT_AB_READY`
 
-The repaired review split is now **pixel-neutral** relative to the historical uniform lid in all four retained pose/context pairs:
-
-- `50° / three_quarter`: `0 / 508,400` changed pixels;
-- `50° / front_interior`: `0 / 508,400`;
-- `100° / three_quarter`: `0 / 508,400`;
-- `100° / front_interior`: `0 / 508,400`.
-
-Only after that neutral control is established does the inward lid face switch to existing `service_dark`.
-
-Candidate-vs-split-uniform direct render deltas:
+The exact four pose/context comparisons remain:
 
 | pose | three-quarter | front-interior |
 |---|---:|---:|
 | `50°` | `33,720 / 508,400 = 6.6326%` | `46,678 / 508,400 = 9.1814%` |
 | `100°` | `51,132 / 508,400 = 10.0574%` | `60,609 / 508,400 = 11.9215%` |
 
-Total candidate-changed pixels across the four direct A/Bs: `192,139`.
+The corrected split-uniform representation remains **0 changed pixels** against the historical uniform lid in all four contexts. Total material-candidate changed pixels remain `192,139`.
 
-Direct inspection shows the visible inward lid panel becomes the darker service-family surface while the exterior case/module hierarchy remains held in the retained contexts. The effect becomes larger at `100°` because more of the inward face is visible; this is evidence of observability, not final aesthetic acceptance.
+Most importantly, the new source-bound artifact was independently compared against the previous exact Materials artifact at head `8e92324648d837a92b7c3e0b1107df1f58f9aa61`: all **12 corresponding retained PNGs are byte-identical**. The rebind therefore changes provenance/semantic authority only in these retained contexts; it introduces no hidden visual change.
 
-Successful retained artifact:
+## Retained evidence
+
+New artifact:
+
+- ID `10467293091`;
+- name `object-inner-lid-material-source-rebind-001-036939603faf9bc8ee926adbc70fa6c772cd31bf`;
+- size `856,562 B`;
+- GitHub SHA-256 `1daa72d4da1abcf63aa9129186c9a1eb69dad32a26416e7e990844054b4ca5a6`;
+- independently downloaded/rehashed to the exact same digest.
+
+Previous exact artifact retained unchanged:
 
 - ID `10465024620`;
-- name `object-inner-lid-material-review-001-8e92324648d837a92b7c3e0b1107df1f58f9aa61`;
-- size `853,971 B`;
-- GitHub SHA-256 `ac3efa8cf1916d4e1ca7980c81cd50bb934d985409517a37797c495f3136f388`;
-- independently downloaded/rehashed to the exact same digest.
+- exact head `8e92324648d837a92b7c3e0b1107df1f58f9aa61`;
+- SHA-256 `ac3efa8cf1916d4e1ca7980c81cd50bb934d985409517a37797c495f3136f388`.
+
+No failed source-rebind draft was required this activation. The earlier observer-winding failure remains retained historical evidence from the prior pass and was not rewritten.
 
 ## Scoped result
 
-**`PASS_OBJECT_INNER_LID_EXISTING_FAMILY_SLOT_REVIEW_CANDIDATE`**
+**`PASS_OBJECT_INNER_LID_SOURCE_IDENTITY_REBIND`**
 
 Meaning:
 
-> The existing Object material family can support a bounded darker inward-lid review candidate using `service_dark` on only the exact source-local inward face, under exact open-lid poses, while preserving the current exterior `shell_coating`, source geometry and motion identity. The proof representation itself is pixel-neutral against the historical uniform-lid control in the retained Godot contexts.
+> The existing Object `service_dark` inward-lid review candidate is now bound to an exact source-owned manufactured surface identity rather than inferred from primitive topology, while source geometry, material scalars, articulation and retained appearance remain unchanged. Hard Surface still owns the surface identity and still assigns no material.
 
-This is a Materials review result only. It does not author the slot into Object source.
+This is stronger provenance and downstream composability, not a production material adoption.
 
 ## Handoffs
 
-Object Materials PR #6 comment `5703449137` records the exact head, retained failed draft, repaired workflow, render deltas, successful artifact and held claims.
+Object Materials PR #6 comment `5704014618` records the exact source donor, successful workflow, unchanged visual deltas, artifact digest and 12/12 byte-identical render comparison.
 
-### Hard Surface / source ownership
-
-If the candidate is later adopted, source ownership must explicitly author the inner-lid material slot or equivalent production surface identity. Materials does not silently convert a review face split into source truth.
-
-### Runtime / Optimization
-
-No runtime/shader/import cost is claimed. Runtime review becomes relevant only after a production source/import representation exists.
+Hard-Surface PR #26 comment `5704016107` records that Materials successfully consumed the source identity without taking source authority or turning `service_dark` into a source assignment.
 
 ### 3D Art Direction + Visual Observer / QA
 
-The candidate is now directly observable in two contexts and two open poses with a neutral representation control. Final hierarchy/readability preference remains theirs.
+The candidate is now source-semantically addressable and still directly observable in the same two open poses / two contexts. Final visual preference remains theirs.
+
+### Runtime / Technical Art
+
+No draw-call, shader, material-memory, frame-time, import-slot or target-device acceptance is claimed. They can now bind future cost/import evidence to a stable source surface ID instead of rediscovering a box face.
 
 ### UC / Profession Fabric
 
-No extraction is justified. The Object-specific `lid_shell` identity and existing material IDs remain Object-local. The reusable lesson is procedural: prove a review representation is visually neutral before attributing any later A/B delta to a material-slot candidate.
+No extraction is justified. One Object-specific inward-lid surface identity does not establish a universal material-slot ontology. The reusable learning is procedural: once a repeated material-review face becomes source-owned, rebind the Materials evidence to the source identity and prove that the provenance migration itself does not alter appearance before widening reuse.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a source-authored or production inner-lid material slot;
-- final structural OBJ/GLB material import or engine import equivalence;
+- final material assignment of `service_dark` to the source surface;
+- Art Direction or independent Visual QA acceptance;
+- final structural OBJ/GLB material import or renderer equivalence;
 - UVs, textures, decals, wear, baked normal/AO maps or microdetail;
 - physically measured coating correctness;
 - runtime draw-call, shader, memory, frame-time or target-device acceptance;
 - arbitrary renderer/camera/FOV/HDR/display equivalence;
-- final Art Director or independent Visual QA acceptance;
 - CANON, production readiness, game readiness or Materials mastery.
 
 ## Four-root gate
 
-- **Truth:** the first failed representation is retained; the repaired split is proven pixel-neutral before the material delta is interpreted.
-- **Agency / non-domination:** Hard Surface keeps source-surface authority, Runtime keeps cost authority, Art Direction / QA keep aesthetic acceptance, and Materials owns only the review candidate/evidence.
-- **Continuity:** previous Object, Nature and Building evidence remains historical and is not relabelled; the new result is a separate exact evidence edge.
-- **Wisdom before speed:** reuse an existing proven family member and prove the slot cleanly before inventing new textures, scalar variants or production import complexity.
+- **Truth:** source ownership, Materials preference and renderer evidence remain separate claims; 12/12 retained renders were independently compared before claiming visual continuity.
+- **Agency / non-domination:** Hard Surface owns the manufactured surface identity, Materials owns the review candidate, Runtime/Technical Art own cost/import acceptance, and Art Direction / QA own final aesthetic acceptance.
+- **Continuity:** the prior face-inferred Materials artifact remains valid historical evidence and is not relabelled; the new result adds an explicit source-identity edge.
+- **Wisdom before speed:** resolve provenance before adding more scalar variants, textures or production complexity.
 
 ## Next Materials pass
 
-Re-scan first. Do not retune this inner-lid candidate simply to create motion. Prefer an Art/QA receiving judgment, an explicit Hard-Surface adoption/rejection of the slot, or another fresh geometry-grounded material/UV/texture defect elsewhere in the constellation.
+Re-scan first. Do not retune the inner-lid candidate merely because the source identity now exists. Prefer a direct Art/QA receiving judgment, a Runtime/Technical-Art source-surface import/cost handoff, or a fresh geometry-grounded material/UV/texture defect elsewhere in the constellation.
