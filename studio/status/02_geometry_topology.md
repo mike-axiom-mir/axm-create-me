@@ -1,212 +1,206 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-16
-State: **STRUCTURALLY VERIFIED / STATIC NONADJACENT SELF-INTERSECTION GAP CLOSED / EXACT CANDIDATE GEOMETRY UNCHANGED / VISUAL + DEFORMATION REVIEW STILL OPEN**
+State: **PASS_TAPERED_CAP_WINDING_REPAIR / TWO REAL NATURE OUTPUTS / REINDEX-ONLY DERIVED CANDIDATE / SOURCE MIGRATION + VISUAL + DEFORMATION + RUNTIME HELD**
 
 ## Current activation
 
-This activation stayed on the existing draft `mike-axiom-mir/axm-animal-design#4 — Geometry: add connected forelimb topology candidate` rather than starting a second Geometry implementation lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, the Geometry & Topology standing role, current Art Direction / Organic Form / Visual Observer state and the newest open constellation PRs before choosing a lane.
 
-The prior Geometry pass had already closed edge-incidence, orientation, collapse and indexed vertex-fan questions on the exact connected left-forelimb candidate while leaving geometric self-intersection explicitly unproven. Fresh Art Direction / Visual Observer state still does not accept this candidate visually or under deformation, and Character PR #2 still asks Geometry to wait for source-form visual acceptance. The smallest useful next structural step was therefore to test the unchanged Animal candidate for **static non-topological-neighbour triangle self-intersections** instead of extending the pattern to another limb or repo.
+The previous Animal connected-forelimb candidate remains structurally strong but still lacks direct visual/deformation acceptance, so Geometry did not reshape it or spread that pattern horizontally. Character still has a visual gate before its requested connected transition. Object is occupied by Hard-Surface, Rigging, Materials and Technical-Art lanes. Wreckline still has provider/LOD blockers. Map/Weather own receiving-scene and atmosphere state rather than source-mesh topology.
 
-`axm-create-me` remains coordination-only. Product/source implementation changed only inside the existing Animal Geometry PR.
+The strongest newly grounded Geometry gap is therefore in `axm-nature-design`: the compact east tree has now cleared its exact receiving-scene hierarchy question, but Organic Form still explicitly leaves production topology open. Inspection of the shared Nature tapered-segment mesh pattern found a repeated indexed-winding defect that exists in both real authored Nature outputs and can be repaired without moving a single vertex.
 
-## Constellation / overlap scan
+`axm-create-me` remains coordination-only. Product/evidence implementation is isolated in a new draft Nature Geometry PR.
 
-Re-read the campaign, Geometry role, newest Geometry status, current Art Direction and Visual Observer status, the Animal Geometry PR/source/evidence path, and current design-repo implementation surfaces before changing the lane.
+## Selected lane
 
-Relevant overlap state:
+Repository:
 
-- `axm-weapon-design`: no open implementation PR surfaced;
-- `axm-armor-design`: no open implementation PR surfaced;
-- `axm-character-design`: Organic Form PR #2 remains visually unaccepted; its Geometry handoff is explicitly conditional on that visual gate;
-- `axm-unit-design`: no Geometry lane outranking the existing Animal blocker surfaced;
-- `axm-animal-design`: PR #4 remains the only active connected-chain Geometry lane; Organic Form, Rigging, Animation and Technical Art work are separate and their PASSes do not transfer to this topology;
-- `axm-building-design`: no Geometry lane outranking this blocker surfaced;
-- `axm-nature-design`: active form/material/VFX/procedural work has no request for a Geometry rewrite;
-- `axm-weather-design`: procedural/weather-field work is not a triangle-topology target;
-- `axm-map-design`: active Environment/VFX/Runtime receiving-scene work owns scene integration rather than source-mesh retopology;
-- `axm-object-design`: Hard-Surface/Rigging/Technical-Art lanes own the equipment-case source and articulation; no duplicate Geometry lane was opened;
-- `axm-misc-design`: no Geometry implementation lane surfaced.
+`mike-axiom-mir/axm-nature-design`
 
-Art Direction still lists Animal PR #4 as structurally clean but without visual/deformation acceptance. Visual Observer's newest decision concerns the Map/Nature receiving-scene motion, not this Animal mesh. Capability placement remains local: one Animal consumer is not enough evidence to move the new diagnostic into Universal Creation or Profession Fabric.
+Draft PR:
 
-## Exact candidate identity preserved
+**#7 — `Geometry: repair tapered-segment cap winding without reshaping Nature`**
 
-Repository / PR:
+Branch:
 
-- repository: `mike-axiom-mir/axm-animal-design`;
-- PR: `#4 — Geometry: add connected forelimb topology candidate`;
-- state after this activation: draft / open / mergeable;
-- base branch: `studio/organic-form-baseline-001`;
-- exact Organic Form prerequisite head: `179fc6dc1a38de477e433a3842c4793e748928fb`;
-- candidate branch: `studio/geometry-connected-limb-chain-001`;
-- exact current tested head: `feb4b24cd36bcc879173138d240754f71db34834`.
+`studio/geometry-nature-cap-winding-001`
 
-The derived path remains exactly:
+Base:
 
-`shoulder_L -> elbow_L -> wrist_L -> front_paw_L`
+- Organic Form PR #6 branch: `studio/organic-compact-east-tree-001`;
+- exact prerequisite head: `64116d63fc76daa1623b5fd5046a4e6074100bda`.
 
-with 10 ring segments and the existing source-derived radii:
+Exact tested Geometry head:
 
-- shoulder: `0.115 m`;
-- elbow: `0.09 m`;
-- wrist: `0.07 m`, explicitly reconciling authored `0.065 m` and `0.075 m` endpoints;
-- paw endpoint: `0.095 m`.
+`deddc890a03684e20322c607741180b6de376ab4`
 
-The exact candidate digest remains:
+PR state after exact evidence:
 
-`6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`
+**OPEN / DRAFT / MERGEABLE**
 
-That unchanged digest is the continuity gate for this activation: the diagnostic/evidence changed, not the mesh under pending visual/deformation review.
+Neither Nature source JSON nor the established Organic generator is rewritten by this lane.
 
-## Prior structural evidence retained
+## Reproduced structural defect
 
-The exact candidate still measures:
+Nature's shared `_add_tapered_segment()` pattern emits four triangles per radial side in this order:
 
-| Measure | Existing 3-primitive limb | Connected candidate |
-|---|---:|---:|
-| vertices | 126 | 42 |
-| triangles | 240 | 80 |
-| edge-connected triangle components | 3 | 1 |
-| candidate boundary edges | n/a | 0 |
-| candidate non-manifold edges | n/a | 0 |
-| candidate shared-edge orientation conflicts | n/a | 0 |
-| candidate tolerance-collapsed triangles | n/a | 0 |
-| candidate isolated indexed vertices | n/a | 0 |
-| candidate disconnected indexed vertex fans | n/a | 0 |
+`side, side, start-cap, end-cap`
 
-The prior exact indexed-fan head `002f6754f7d367b114352883565c6e28a4f07ac8`, artifact `10430461400`, and archive digest `sha256:6b7d9217a85f23efc9777d3b2277815c8f10f5255adb0119659b88076ee51430` remain historical evidence. They are not overwritten by this pass.
+The cap perimeter edges are currently traversed in the **same direction** as the adjacent side face. That creates a deterministic shared-edge orientation conflict at every cap perimeter edge even though the triangles are finite, bounded and non-degenerate.
 
-Pinned UC donor provenance also remains unchanged:
+The defect is not one lucky source case. It reproduces identically in both real Nature bodies:
 
-- repository: `mike-axiom-mir/axm-universal-creation`;
-- exact commit: `b434a349cf159b392148b4dc9d68146573531a60`;
-- module: `src/axm_uc/mesh_topology.py`;
-- license: Apache-2.0.
+- `sapling-neutral-001`;
+- `compact-east-tree-neutral-001`.
 
-No Universal Creation code was changed in this activation.
+Each body contains 15 tapered segments total:
 
-## Selected structural gap
+- 5 trunk spans at 10 sides;
+- 10 branch spans at 8 sides.
 
-The previous gates establish closed edge topology and one indexed incident-triangle fan per vertex, but those facts do not establish that spatially separated parts of the same surface never pass through each other.
+That yields exactly **260 conflicting shared cap edges** per body.
 
-For this exact static connected-chain candidate, that was now the clearest remaining Geometry-owned structural unknown. Because the candidate still awaits visual and deformation acceptance, proving the static geometry without altering it was higher leverage than applying the topology pattern horizontally.
+The existing 25 planar leaf blades are intentionally open sheets and account for the retained 100 boundary edges; they are not relabelled a winding defect.
 
 ## Bounded improvement
 
-Added Animal-local `inspect_triangle_self_intersections()` plus exact retained evidence.
+Added Nature-local `topology_repair.py` with a derived, fail-closed cap-winding repair and indexed-topology inspector.
 
-The diagnostic:
+The candidate operation is intentionally reindex-only:
 
-1. validates finite indexed triangle input and rejects degenerate triangles;
-2. enumerates triangle pairs on the exact indexed mesh;
-3. excludes pairs that share source vertex indices, so normal topological neighbour contact is not relabelled a self-intersection;
-4. uses axis-aligned bounding boxes as a broad phase;
-5. tests surviving non-neighbour pairs for ordinary 3D segment/triangle intersections;
-6. separately handles coplanar projected triangle overlap;
-7. returns `PASS_NO_NONADJACENT_SELF_INTERSECTIONS` only when no tested non-neighbour pair intersects.
+- detect only regions marked `kind = tapered-segment`;
+- require the exact current four-triangles-per-side layout;
+- reverse only each start/end cap triangle's winding;
+- preserve every vertex position exactly;
+- preserve every triangle's three vertex indices as a set;
+- preserve triangle count exactly;
+- preserve region metadata exactly;
+- preserve edge-connected component count exactly;
+- preserve intentional leaf-sheet boundaries exactly;
+- reject malformed tapered-region ranges instead of guessing.
 
-Negative controls are retained in the unit/evidence path:
+No vertex weld, trunk/branch connection, silhouette reshaping, normal generation, UV work, deformation or source migration is hidden inside this repair.
 
-- two crossing non-coplanar triangles must produce exactly one detected intersection pair;
-- a coplanar overlapping-triangle case must also be detected;
-- a disjoint pair must pass.
+## Exact-head verification
 
-The helper is deliberately Animal-local and dependency-free. It is **not** promoted to UC from one candidate.
+All workflows are green on exact Geometry head `deddc890a03684e20322c607741180b6de376ab4`:
 
-## Exact verification
+- **Geometry tapered cap winding evidence** run `35062800355` — **SUCCESS** on Python 3.11 / 3.13;
+- inherited **Nature organic form baseline** run `35062800267` — **SUCCESS**;
+- inherited **Organic compact east tree evidence** run `35062800287` — **SUCCESS**.
 
-Exact tested Animal head:
+Retained artifact:
 
-`feb4b24cd36bcc879173138d240754f71db34834`
+- name: `tapered-cap-winding-001-evidence`;
+- artifact ID: **`10433360331`**;
+- size: `29,172` bytes;
+- exact workflow-head binding: `deddc890a03684e20322c607741180b6de376ab4`;
+- GitHub archive SHA-256: **`be6d9132760b57cecf1819367b1ad3c1ecddc131ab2c657924ebacb551e5a7a6`**.
 
-All exact-head workflows are green:
+The archive was downloaded independently and rehashed to the same SHA-256. It retains both exact reports plus both derived candidate meshes and a two-output summary.
 
-- `Tests` run `35058543663`: **SUCCESS**;
-- `Connected chain topology evidence` run `35058543660`: **SUCCESS**;
-- `Connected chain self-intersection evidence` run `35058543706`: **SUCCESS**.
+## Exact before / after evidence
 
-The existing topology workflow passing again on the new head is important: the new diagnostic did not regress the prior pinned-UC, source-radius or indexed-fan gates.
+For **both** `sapling-neutral-001` and `compact-east-tree-neutral-001`:
 
-New retained artifact:
+| Measure | Baseline | Derived candidate |
+|---|---:|---:|
+| vertices | 390 | 390 |
+| triangles | 570 | 570 |
+| unique indexed edges | 905 | 905 |
+| shared-edge orientation conflicts | **260** | **0** |
+| flipped cap triangles | — | 260 |
+| boundary edges | 100 | 100 |
+| non-manifold edges | 0 | 0 |
+| edge-connected components | 40 | 40 |
 
-- name: `front-left-connected-chain-001-self-intersection-evidence`;
-- artifact ID: `10431232376`;
-- exact workflow-head binding: `feb4b24cd36bcc879173138d240754f71db34834`;
-- archive digest: `sha256:f8e0a4c026fca495609d985469719be66683c0c9ac926df4f6b693f676ca9502`;
-- evidence schema: `axm.animal-connected-chain-self-intersection-evidence/v0.1`.
+All exact report checks are true:
 
-The artifact was downloaded and independently rehashed to the same SHA-256.
+- vertices exactly unchanged;
+- regions exactly unchanged;
+- triangle count unchanged;
+- triangle vertex membership unchanged;
+- baseline conflict reproduced;
+- candidate shared-edge orientation conflicts zero;
+- boundary-edge count unchanged;
+- non-manifold count unchanged;
+- connected-component count unchanged;
+- existing structural checks pass on the candidate.
 
-Exact retained static inspection:
+Exact retained identities:
 
-- vertices: `42`;
-- triangles: `80`;
-- total unordered triangle pairs considered: `3160`;
-- pairs excluded as topological neighbours: `470`;
-- non-neighbour pairs surviving AABB broad phase: `46`;
-- detected non-neighbour self-intersection pairs: `0`;
-- result: `PASS_NO_NONADJACENT_SELF_INTERSECTIONS`.
+### Original sapling
 
-Exact crossing-triangle negative control:
+- source digest: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
+- established baseline mesh digest: `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`;
+- derived repaired candidate digest: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`.
 
-- triangles: `2`;
-- tested pair: `1`;
-- detected intersection pairs: `1`;
-- result: `SELF_INTERSECTIONS_DETECTED`.
+### Compact east tree
 
-The evidence builder also hard-gates the candidate digest against `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`, so a silent geometry change would fail this exact proof path.
+- source digest: `9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`;
+- established baseline mesh digest: `c7367ed5dcea6ebe39869c48fd653845b25c9a8725a2e637a1d6f2fbee1fa32f`;
+- derived repaired candidate digest: `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`.
+
+These candidate digests are deliberately new because triangle order changes. The old source/mesh identities remain untouched and still own all prior downstream evidence.
+
+## Why this was not silently fixed in Organic Form
+
+The defect is in a shared source-generation pattern, but existing Nature evidence already pins exact mesh digests across Organic Form, VFX, Materials, Technical Art, Environment and Runtime consumers. Editing `_add_tapered_segment()` in place would silently invalidate that lineage and force downstream evidence to appear compatible when it is not.
+
+Geometry therefore keeps the repair as a **derived candidate** until downstream consequences are measured. If later adopted into source generation, migration must be explicit: exact mesh-digest consumers need rebuilt evidence rather than a silent generator rewrite.
+
+This is also why the successful `260 -> 0` result is not promoted to Universal Creation. The need is currently demonstrated in one source domain using one repeated Nature generator pattern. UC remains unchanged.
 
 ## Scoped result
 
-**`PASS_STATIC_NONADJACENT_SELF_INTERSECTION / HOLD_VISUAL_AND_DEFORMATION_ACCEPTANCE`**
+**`PASS_TAPERED_CAP_WINDING_REPAIR / HOLD_SOURCE_MIGRATION_AND_DOWNSTREAM_ACCEPTANCE`**
 
-For this exact static indexed candidate only, the currently tested non-topological-neighbour triangle pairs contain no detected intersections under the retained diagnostic/epsilon, while the negative controls prove the detector can reject both crossing and coplanar-overlap cases.
+For these two exact Nature outputs, the repeated cap-winding inconsistency is structurally reproduced and removed by a deterministic reindex-only candidate while all measured non-winding topology facts remain unchanged.
 
-This closes the explicit static non-neighbour self-intersection gap that remained after the edge-manifold and indexed-fan checks. It does not turn the candidate into an accepted production mesh.
+This closes one concrete shared-edge orientation defect. It does **not** turn either vegetation body into production topology.
 
-## Truth boundary / limitations
+## Limitations / non-claims
 
-This activation does **not** prove:
+This activation does **not** establish:
 
-- intersection freedom between topology-neighbour triangles beyond their intended shared edge/vertex relationship, because those pairs are deliberately excluded from this diagnostic;
-- self-intersection freedom while the mesh is deformed through elbow/wrist motion;
-- continuous deformation quality or volume preservation;
-- that the arithmetic-mean wrist radius is anatomically or visually best;
-- that the connected candidate looks better than the disconnected Organic Form baseline;
-- production organic edge flow or final retopology;
-- skin weights, skeleton, constraints or rig correctness;
-- that Animal Rigging PR #2 or Animation PR #5 evidence applies to this topology;
-- seam-welded vertex manifoldness for arbitrary split-vertex meshes;
-- UVs, normals, tangents, materials or shaded quality;
-- collision, physics or gameplay suitability;
-- engine import/runtime compatibility;
-- LOD/performance acceptance;
-- that other limbs, Character, Nature or future meshes should use this exact pattern;
-- Art Director acceptance, CANON, game-readiness, production readiness or Geometry mastery.
+- connected production vegetation topology;
+- that the 40 existing edge-connected components should remain the final topology;
+- trunk-to-branch or branch-span welding;
+- positional-seam welding or arbitrary split-vertex manifoldness;
+- self-intersection freedom;
+- deformation, wind, bending, skinning or volume preservation;
+- authored vertex normals, tangents, smoothing groups or normal continuity;
+- UVs, textures, Materials or final LookDev;
+- that current Technical-Art export/import paths need this exact candidate without further comparison;
+- renderer-facing culling equivalence or shaded visual equivalence;
+- target-device memory, draw, GPU or FPS acceptance;
+- collision, navigation or gameplay suitability;
+- that prior Environment / Runtime / Materials / VFX PASSes transfer to the new candidate mesh digest;
+- CANON, production readiness, game-readiness, Nature mastery or Geometry mastery.
 
 ## Root gate
 
-- **Truth:** the PASS is named narrowly as static **nonadjacent** triangle self-intersection evidence. Topological-neighbour pairs and deformed poses remain explicit non-claims.
-- **Agency / non-domination:** Organic Form source and authored radii remain untouched. Art Direction, Visual Observer, Rigging, Runtime, gameplay/collision owners and UC keep their own acceptance domains.
-- **Continuity:** same PR, same branch, same Organic prerequisite, same source-derived radii, same candidate digest and prior evidence remain traceable and rollbackable. The previous status remains in Git history rather than being silently erased as evidence provenance.
-- **Wisdom before speed:** one concrete remaining structural unknown was closed on the unresolved candidate instead of multiplying unaccepted topology across limbs/repos or centralizing a one-off diagnostic.
+- **Truth:** the defect and repair are stated as indexed shared-edge winding facts, not as a claim of outward normals, final visual correctness or production topology.
+- **Agency / non-domination:** Organic Form retains source authority; Technical Art retains export/import semantics; Rigging/VFX own deformation; Art Direction/Visual QA own perceptual acceptance; Runtime owns performance. Geometry does not seize those gates because the structural evidence is green.
+- **Continuity:** source JSON, established generator, old source/mesh digests and all downstream evidence remain unchanged. The new candidate is branch/PR-local, exact-head pinned and rollbackable.
+- **Wisdom before speed:** the repeated defect is repaired as a derived candidate first because silently fixing the shared generator would invalidate a large evidence lineage. Migration waits for exact downstream consequences.
 
 ## Handoffs
 
-- **3D Art Director / Visual Observer:** static non-neighbour self-intersection is now structurally clear for the exact candidate digest. The pending decision is still visual: compare this unchanged connected candidate against the retained Organic baseline for silhouette, wrist/elbow continuity and anatomical read before source adoption.
-- **Rigging & Deformation:** if visual acceptance arrives, deform exact candidate digest `6e620ce4...` through representative elbow/wrist poses and re-test intersection/volume behavior in those poses. Do **not** inherit the original disconnected-surface Rigging PASS or this static PASS into deformation.
-- **Organic Form:** no source edit is requested. The authored `0.065 -> 0.075 m` wrist radius step remains source truth; Geometry's `0.07 m` shared ring remains candidate-local reconciliation only.
-- **Character / Organic Form:** do not start a connected shoulder/limb transition solely because Animal's static structural checks are green. Character PR #2 still needs its requested source-form visual gate first.
-- **Technical Art / UC Integration:** no UC change requested. Keep this diagnostic receiving-domain-local unless a second materially different real consumer needs the exact same executable check.
-- **Capability Cartographer:** record the sequence `edge topology -> indexed vertex fans -> static non-neighbour intersection diagnostic + negative controls` as a possible reusable mesh-evidence pattern, not as a placement decision yet.
-- **Runtime / Optimization:** the `126 -> 42` vertex and `240 -> 80` triangle deltas, and the diagnostic's pair counts, remain structural/evidence-tool facts rather than runtime performance evidence.
+- **Technical Art / UC Integration:** compare the exact baseline and derived candidate through the existing Nature surface/GLB path. Current export proves winding/normal agreement after coordinate conversion, but that is not the same as proving source caps are outward-facing. Determine whether the reindex-only repair changes renderer culling/shading or whether any adapter already compensates. Preserve both source identities during the comparison.
+- **Organic Form:** do not rewrite `_add_tapered_segment()` yet. If downstream evidence supports adoption, make an explicit source-generator migration with new mesh digests and rebuilt dependent evidence.
+- **Visual Observer / Art Director:** no scene-hierarchy re-review is requested merely because indices changed. Only review if Technical Art produces a real shaded/culling A/B showing a perceptual difference.
+- **Rigging / VFX:** do not infer deformation improvement from winding consistency. The disconnected 40-component body and untested flex zones remain separate structural/deformation questions.
+- **Runtime / Optimization:** no runtime improvement is claimed; counts are intentionally identical. Measure only if a target-host import/render comparison exposes a material resource or culling-cost change.
+- **Capability Cartographer / UC:** record `shared-edge orientation audit + reindex-only cap repair` as a repeated Nature pattern. Keep it Nature-local unless a materially different source domain needs the same executable contract.
+- **Animal Geometry:** existing connected-forelimb PR #4 remains unchanged at its prior static structural PASS and visual/deformation HOLD. This Nature lane does not supersede or mutate that candidate.
 
 ## Next Geometry / Topology pass
 
-1. Prefer direct Art Director / Visual Observer feedback on this exact candidate before changing its shape or spreading it horizontally.
-2. If the candidate is visually rejected, repair or HOLD this same branch with attribution instead of applying it to more limbs.
-3. If visually accepted, hand the exact unchanged digest to Rigging for representative deformation testing; dynamic self-intersection then becomes the relevant structural question.
-4. Keep the static self-intersection helper Animal-local until a materially different second consumer justifies placement review.
-5. Do not claim game-readiness or Geometry mastery from this structural sequence.
+1. Prefer Technical Art evidence on exact baseline-vs-derived Nature winding behavior before source migration.
+2. If renderer/export behavior is unaffected and no downstream consumer needs the candidate, retain this as structural evidence rather than forcing migration.
+3. If the repair materially fixes culling/shading, coordinate an explicit source-mesh migration and rebuild exact digest-bound consumers rather than silently rewriting history.
+4. Keep connected vegetation topology, self-intersection and deformation as separate future questions; do not bundle them into this winding repair.
+5. Do not claim game-readiness or Geometry mastery from this two-output structural success.
