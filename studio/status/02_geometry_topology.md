@@ -1,252 +1,225 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-16
-State: **PASS_SOURCE_GENERATOR_TAPERED_CAP_WINDING_MIGRATION / THREE EXACT NATURE SOURCES MATCH PRIOR GEOMETRY ORACLE / HISTORICAL LINEAGE PRESERVED / DOWNSTREAM REBIND + VISUAL + DEFORMATION + RUNTIME HELD**
+State: **PASS_BOUNDED_RING_PHASE_CANDIDATE_4P5 / EXACT EXISTING RIG PROBE REUSED / CONNECTIVITY + SOURCE PATH PRESERVED / VISUAL + SOURCE ADOPTION + CONTINUOUS MOTION + RUNTIME HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the prior Geometry status, newest specialist coordination state, open design work, Capability Cartography, Visual QA and Technical Art topology evidence before selecting a lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the previous Geometry status, current Art Direction / Organic Form / Rigging / Visual QA / Cartography state, and active design PRs before selecting a lane.
 
-`axm-create-me` remains coordination-only. Product/evidence implementation is in the owning design repository; this file records only coordination state, evidence and handoffs.
+`axm-create-me` remains coordination-only. Product/evidence implementation is in the owning design repository. The previous Nature source-winding migration status remains preserved in Git history at blob `9b306f17f8042edcecdadd8e7bfb8a46ce1913f9`; it is not silently rewritten by this Animal follow-up.
 
-## Constellation scan / duplication check
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-- **Animal:** Geometry PR #4 still owns the connected-left-forelimb candidate and indexed vertex-fan verification. Its exact candidate remains visually/deformation-held, so this activation did not reshape or duplicate it.
-- **Character:** Organic Form has recorded exact neutral flex-transition facts, including shallow shoulder root-ring overlap, but connected topology remains behind its visual/form gate. Geometry did not pre-empt that gate.
-- **Building / Object:** newest work is Materials, Hard-Surface, Rigging, Animation, Procedural and Technical-Art integration. No higher-confidence unowned source-topology defect superseded Nature.
-- **Weapon / Armor / Unit / Misc:** no current evidence exposed a stronger unowned geometry failure or justified a new generic topology abstraction.
-- **Map / Weather:** current work is receiving-scene composition, lookdev, VFX and runtime lifecycle. Map Visual QA now explicitly blocks normal-culling adoption of the historical rear-tree baseline until an isolated repaired receiving A/B exists; Geometry must not implement that scene review itself.
-- **Nature Geometry PR #7:** remains the exact **derived reindex oracle** at `e2224d4bf88f7e68503072c884e5a726b8d0c53d`. It proved the same tapered-cap defect and same repair across three real Nature sources without modifying source generation.
-- **Nature Technical Art PR #3:** subsequently transported the exact repair through current UC and observed a real Godot 4.7.2 backface-culling consequence. In two retained views, the historical rear baseline showed repeated slit/gap losses while the exact reindex candidate removed them; with culling disabled baseline/candidate were pixel-identical.
-- **Visual QA:** independently reproduced that renderer-visible baseline failure and issued `BLOCK_NORMAL_CULLING_RECEIVING_ADOPTION` until a real receiving-scene A/B consumes the repaired lineage.
-- **Capability Cartography:** the evidence threshold changed materially. Three repeated source cases + current-UC transport + target-host consequence now support moving the exact repair into the **Nature source generator**, while explicitly rejecting a Nature-specific UC or Profession Fabric auto-fix.
-- **Procedural Nature PR #4:** still owns branch/crown variation over the historical source-generator lineage. Its nine retained outputs do not automatically inherit this migration.
-- **UC / Profession Fabric:** unchanged. UC already owns generic topology inspection/transport; Nature-specific cap-index emission remains Nature-local. Profession Fabric remains evidence/profession territory, not source mesh construction.
+## Constellation / duplication scan
 
-The highest-leverage bounded Geometry action was therefore no longer another derived candidate. It was one explicit, provenance-preserving **Nature source-lineage migration** that reproduces the already-proven reindex oracle exactly.
+- **Nature:** Geometry PR #9 source migration has now propagated through Procedural and Technical Art, Environment proved the migrated rear tree in the real Map normal-culling receiving scene, Visual QA independently cleared the previous culling block, and Art Direction released that exact hold. Geometry therefore did not reopen Nature or duplicate downstream acceptance work.
+- **Character:** Organic Form now retains baseline, prior shoulder bridge and restrained `0.085 -> 0.075 m` review variant, but both Organic and Art Direction still hold connected topology behind direct A/B/C perceptual review. Geometry did not pre-empt that gate.
+- **Animal:** Geometry PR #4 still owns the exact connected left-forelimb baseline candidate. Rigging PR #6 has now supplied exact sampled `-60 / 0 / +60°` deformation evidence and explicitly exposed measurable local compression while holding shaded/perceptual acceptance. This creates a real Geometry question without authorizing a source-form rewrite.
+- **Building / Object:** current active work is Hard-Surface, Materials, Rigging, Animation, Procedural, Technical Art and Runtime integration; no stronger unowned topology failure superseded the Animal deformation-aware mesh question.
+- **Weapon / Armor / Unit / Misc:** no current evidence exposed a stronger unowned source-topology defect or justified a new generic topology abstraction.
+- **Map / Weather:** current work is receiving composition, VFX and runtime/renderer behavior; no product mesh rewrite belongs to Geometry from those lanes now.
+- **UC / Profession Fabric:** unchanged. UC already owns generic mesh inspection/transport, and Profession Fabric remains profession/evidence territory. Animal-specific connected-limb phase placement stays in `axm-animal-design`.
+
+No competing Geometry implementation lane was found for the connected Animal phase question. The highest-leverage bounded action was therefore a **derived angular ring-phase screen** on the exact PR #4 connected forelimb, using the exact existing Rigging probe as a donor rather than creating a second weighting/deformation implementation.
 
 ## Selected lane
 
 Repository:
 
-`mike-axiom-mir/axm-nature-design`
+`mike-axiom-mir/axm-animal-design`
 
 New draft PR:
 
-**#9 — `Geometry: migrate proven tapered-cap winding into Nature source generator`**
+**#7 — `Geometry: screen connected forelimb ring phase against exact rig probe`**
 
 Branch:
 
-`studio/geometry-nature-source-winding-migration-001`
+`studio/geometry-connected-limb-ring-phase-001`
 
 Exact base:
 
-- Organic Form PR #8 branch `studio/organic-east-rear-tree-001`;
-- base head `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`.
+- Geometry PR #4 branch `studio/geometry-connected-limb-chain-001`;
+- base head `feb4b24cd36bcc879173138d240754f71db34834`;
+- exact baseline connected candidate digest `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`.
 
 Exact final tested head:
 
-`4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`
+`95b53572037ca3de98811db52beb4262a34b7d42`
 
 PR state after evidence:
 
 **OPEN / DRAFT / MERGEABLE**
 
-Historical Geometry oracle retained unchanged:
+The original PR #4 baseline remains unchanged and rollbackable.
 
-- PR #7 head `e2224d4bf88f7e68503072c884e5a726b8d0c53d`.
+## Bounded Geometry improvement
 
-## Bounded source migration
+New Animal-local helper:
 
-Only the shared Nature `_add_tapered_segment()` cap index emission changed.
+`derive_ring_phase_candidate()`
 
-Historical emission:
+It derives from the completed PR #4 connected-chain mesh and rotates each existing path ring around its local transported tangent. It does **not**:
 
-- start cap: `[c0, a1, a0]`;
-- end cap: `[c1, b0, b1]`.
+- change the index list or topology connectivity;
+- add/remove vertices or triangles;
+- change source landmarks;
+- change source-derived shared-ring radii;
+- move endpoint poles;
+- modify Organic Form source JSON;
+- author a new rig, weighting rule or animation path;
+- modify UC or Profession Fabric.
 
-Migrated emission:
+The exact ten-segment connected chain has a `36°` segment pitch. The retained screen samples only:
 
-- start cap: `[c0, a0, a1]`;
-- end cap: `[c1, b1, b0]`.
+- `4.5°`;
+- `9.0°`;
+- `13.5°`;
+- `18.0°`.
 
-This is exactly the same cap-face reversal already proven by Geometry PR #7. The migration does **not** alter:
+This is a deliberately **non-exhaustive** one-eighth-pitch sweep through half one segment pitch. It is not an optimizer and does not claim a universal best phase.
 
-- any source JSON;
-- vertex positions;
-- triangle vertex membership;
-- region identity;
-- authored trunk / branch / leaf parameters;
-- source envelopes or receiving transforms;
-- materials;
-- deformation / VFX logic;
-- Map composition;
-- UC core;
-- Profession Fabric.
+## Exact donor reuse
 
-A new Nature-local evidence contract, `axm.nature-source-topology-migration-evidence/v0.1`, pins the exact PR #7 oracle and fails closed unless each current source-generated mesh equals the already-proven derived candidate digest exactly.
+The screen reuses existing Rigging evidence rather than copying its solver:
 
-## Exact lineage mapping
+- exact rig-plan ref: `04760112deb81a8d145226fe7ee02923107c9916`;
+- rig-plan SHA-256: `d2f39021a051bbf4a4912ae7ac6bedb8191bdf6d71f51d4075ae07ff5a7a3069`;
+- exact connected-deformation donor ref: `f4614ab2f691cd5c5d12b88fabc38ef848acd24e`;
+- donor module SHA-256: `16d3f093925654c176f626c9cd017dfad608a4d1ec7dd216813a00b11da13e1c`;
+- joint: `front-elbow-L`;
+- influence radius: `0.11 m`;
+- weighting: `smoothstep-v0`;
+- sampled poses: `-60 / 0 / +60°`.
 
-### `sapling-neutral-001`
+The evidence adapter substitutes each derived Geometry candidate into the exact donor inspection path; it does not add a second production deformation implementation.
 
-- exact source ref: `fbc202449981f2bac153951c561ed0ed6120c936`;
-- source digest preserved: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
-- historical mesh: `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`;
-- proven PR #7 reindex candidate: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`;
-- current source-generated migrated mesh: **exactly `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`**.
+## Structural gate
 
-### `compact-east-tree-neutral-001`
+Every sampled phase retains:
 
-- exact source ref: `64116d63fc76daa1623b5fd5046a4e6074100bda`;
-- source digest preserved: `9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`;
-- historical mesh: `c7367ed5dcea6ebe39869c48fd653845b25c9a8725a2e637a1d6f2fbee1fa32f`;
-- proven PR #7 reindex candidate: `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`;
-- current source-generated migrated mesh: **exactly `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`**.
+- `42` vertices;
+- `80` triangles;
+- exact PR #4 indices;
+- exact source-derived path points;
+- exact source-derived radii;
+- exact endpoint poles;
+- `PASS_CONNECTED_VERTEX_FANS`;
+- `PASS_NO_NONADJACENT_SELF_INTERSECTIONS` in the neutral mesh;
+- `0` collapsed triangles at every sampled pose;
+- `0` sampled nonadjacent self-intersection pairs at every sampled pose.
 
-### `east-rear-tree-neutral-001`
+Selection rule for this bounded screen:
 
-- exact source ref / PR #8 head: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`;
-- source digest preserved: `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`;
-- historical mesh: `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`;
-- proven PR #7 reindex candidate: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
-- current source-generated migrated mesh: **exactly `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`**.
+> A phase may be retained only when minimum triangle-area ratio and minimum edge-length ratio are no worse, while maximum triangle-area ratio and maximum edge-length ratio are no worse, than the exact baseline at **both** non-neutral sampled poses.
 
-Historical mesh receipts are not edited or relabelled. They remain truthful evidence for the old exact generated lineage.
+Only `4.5°` passes that rule in the retained four-phase sweep.
 
-## Structural result
+## Selected exact candidate
 
-For all three exact source-generated migrated bodies:
+ID:
 
-| Measure | Migrated output |
-|---|---:|
-| vertices | 390 |
-| triangles | 570 |
-| unique indexed edges | 905 |
-| shared-edge orientation conflicts | **0** |
-| boundary edges | 100 |
-| non-manifold edges | 0 |
-| ordinary Organic structural checks | PASS |
+`front-left-connected-chain-phase-4p5`
 
-The migration tests also deliberately reverse one migrated cap face and require a shared-edge orientation conflict to reappear, proving the diagnostic is falsifiable rather than a constant PASS. Unknown source identities fail closed.
+Digest:
+
+`ea26e0dfa93c0fb7ac0f54585fd981d05228d26f4d2937489228b06bb23f5b72`
+
+Exact baseline -> selected candidate sampled metrics:
+
+| Pose | Metric | PR #4 baseline | 4.5° candidate |
+|---|---|---:|---:|
+| -60° | minimum triangle-area ratio | 0.404056348 | **0.423818759** |
+| -60° | maximum triangle-area ratio | 1.208077660 | **1.207821508** |
+| -60° | minimum edge-length ratio | 0.773457548 | **0.776053244** |
+| -60° | maximum edge-length ratio | 1.210299455 | **1.208966861** |
+| +60° | minimum triangle-area ratio | 0.499954815 | **0.511735325** |
+| +60° | maximum triangle-area ratio | 1.241793396 | **1.240811051** |
+| +60° | minimum edge-length ratio | 0.778085959 | **0.779454781** |
+| +60° | maximum edge-length ratio | 1.240197117 | **1.239857388** |
+
+Neutral `0°` remains exact in the deformation probe (`1.0` area/edge ratios and zero collapsed/self-intersection failures).
+
+Scoped result:
+
+**`PASS_BOUNDED_RING_PHASE_CANDIDATE_4P5_VISUAL_HOLD`**
+
+Meaning: this exact derived phase candidate improves the retained sampled structural strain envelope under the exact existing Rigging probe while preserving topology connectivity, source path/radii, counts and endpoint poles. It is **not** source adoption or deformation-quality acceptance.
 
 ## Exact-head evidence
 
 Dedicated workflow:
 
-- **Geometry source topology migration evidence** run `35072883112` — **SUCCESS** on Python 3.11 / 3.13.
-- full receiving repository suite: **27 / 27 tests PASS** on the exact head.
+- **Connected chain ring phase evidence** run `35078692403` — **SUCCESS** on Python 3.11 / 3.13.
 
-Same-head inherited workflow families also remain green:
+Same-head inherited workflows:
 
-- Nature organic form baseline run `35072883107` — SUCCESS;
-- Organic compact east tree evidence run `35072883129` — SUCCESS;
-- Organic east rear tree evidence run `35072883106` — SUCCESS.
+- `Tests` run `35078692269` — SUCCESS;
+- `Connected chain topology evidence` run `35078692259` — SUCCESS;
+- `Connected chain self-intersection evidence` run `35078692371` — SUCCESS.
 
-Retained migration artifact:
+Retained artifact:
 
-- name: `source-topology-migration-001-evidence`;
-- artifact ID: **`10436439443`**;
-- size: **42,263 bytes**;
-- exact-head binding: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
-- GitHub SHA-256: **`fe09383e34e63fbff2ac3eb1fa21a5d9e26d770734902ef177b3bfa4100eab0d`**.
+- name: `front-left-connected-chain-ring-phase-001-evidence`;
+- artifact ID: **`10439710300`**;
+- size: **5,193 bytes**;
+- exact-head binding: `95b53572037ca3de98811db52beb4262a34b7d42`;
+- GitHub SHA-256: **`b12d002c901745c7891135b04cdc6e35aec5e5f673cdf60e59ffbec0fd9ac915`**.
 
-The artifact was independently downloaded and rehashed to the same SHA-256. Its `exact-head.txt` was read directly and equals `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`. Its retained `summary.json` is `PASS_SOURCE_GENERATOR_MIGRATION_3_REAL_OUTPUTS` and records all three exact historical→migrated mappings above.
+The artifact was independently downloaded and rehashed to the same SHA-256. Retained `exact-head.txt` equals the exact tested head. The retained archive includes baseline candidate, selected candidate and full four-phase summary.
 
-## Failed first implementation run retained as provenance
+## Handoffs
 
-Initial exact implementation head:
+### Rigging PR #6
 
-`89a3ad00e8098dc559eb07ac0939d60574f8b8f3`
+Geometry posted the exact candidate/donor handoff. Rigging remains owner of weighting/deformation interpretation. No weighting change is requested from Geometry; the new candidate is for independent shaded/perceptual comparison, not an inherited Rigging acceptance.
 
-The first Actions pass failed. Importantly, the new migration itself was already behaving as intended: all five new source-migration tests passed, including exact candidate-digest equality. The only failing inherited test was `test_exact_source_passes_retained_rear_slot_gates`, which still asserted historical rear mesh `d7fc5dea...` as the **current** generator output.
+### Geometry PR #4
 
-That failure was not hidden and the source change was not weakened. The inherited test now names both:
+Geometry posted a continuity handoff recording that PR #7 is additive and stacked on the exact PR #4 head. PR #4 baseline identity remains unchanged and must not be relabelled as the phased candidate.
 
-- `HISTORICAL_MESH_DIGEST = d7fc5dea...`;
-- `MIGRATED_MESH_DIGEST = aa9d450a...`.
+### Visual Observer / QA + 3D Art Director
 
-It requires the current output to equal the migrated digest **and** differ from the historical digest. The final exact rerun then passed every workflow above.
+Next requested evidence is the exact PR #4 baseline versus exact `4.5°` candidate in a **richer shaded/perspective** view at representative `-60 / neutral / +60°` poses. The question is whether the metric improvement actually reduces the visible elbow compression/pinching without introducing a worse silhouette/facet read.
 
-## Scoped result
+Do not infer a visual PASS from the structural/sampled-metric result.
 
-**`PASS_SOURCE_GENERATOR_TAPERED_CAP_WINDING_MIGRATION / THREE EXACT SOURCES MATCH_GEOMETRY_ORACLE / HOLD_DOWNSTREAM_REBIND_AND_ACCEPTANCE`**
+### Organic Form
 
-This proves that the Nature source generator can now emit the exact already-proven cap-winding repair for these three established source studies while preserving source identity and historical lineage.
-
-It does **not** mean all existing downstream receipts now describe the new mesh bytes.
-
-## Downstream rebind boundary
-
-Evidence tied to the old exact generated mesh identities remains valid for those historical identities but does not transfer automatically.
-
-Explicit handoffs were posted to:
-
-### Organic Form PR #8
-
-- source JSON / form semantics remain exact;
-- rear current migrated mesh is `aa9d450a...`;
-- historical `d7fc5dea...` remains old-lineage evidence;
-- no Organic/aesthetic/deformation authority is taken by Geometry.
-
-### Technical Art PR #3
-
-- next migration gate should consume the **source-generated PR #9 bytes**, not merely reuse the old derived Geometry candidate;
-- republish through current UC and rerun target-host culling observation;
-- UC remains domain-neutral and unchanged.
-
-### Procedural Design PR #4
-
-- nine retained variants do not automatically inherit the new topology lineage;
-- if PR #9 is adopted, regenerate/re-evaluate them under the same procedural parameters;
-- do not widen variation bounds or hide the lineage change.
-
-### Map Environment PR #15
-
-- existing culling-disabled composition PASS remains valid for historical baseline identity;
-- no Map change was made by Geometry;
-- later isolated normal-culling receiving A/B should consume the migrated lineage only after the relevant Technical Art source-generated transport gate is re-established;
-- do not mix Building Materials, VFX or Runtime changes into that A/B.
-
-### Geometry PR #7
-
-- remains the exact before/after reindex oracle and regression evidence;
-- it is not silently rewritten or discarded now that the source generator can reproduce its candidates.
-
-Runtime / Materials / VFX receipts that pin changed generated mesh bytes should be rebound only when their owning lanes actually consume the migrated lineage. No blanket constellation rebuild is justified.
+No source radius/mass change is requested. If Visual QA rejects the phase candidate because the issue is form rather than vertex placement, Organic Form retains source-shape authority; Geometry should not hide a form problem with more topology.
 
 ## Limitations / non-claims
 
 This activation does **not** establish:
 
-- connected production vegetation topology;
-- that 40 historical split components are desirable final topology;
-- trunk-to-branch welding or arbitrary positional-seam manifoldness;
-- self-intersection freedom;
-- global outward-normal correctness for every view or future generated variant;
-- authored vertex normals, tangents, smoothing groups or UV readiness;
-- final materials / LookDev;
-- deformation, wind, bending, skinning, flex quality or volume preservation;
-- Technical Art acceptance of the **source-generated** migrated bytes through current UC yet;
-- Map receiving-scene normal-culling acceptance of the migrated source yet;
-- target-device memory, draw, GPU or FPS acceptance;
-- collision, navigation or gameplay suitability;
-- automatic topology migration of Procedural PR #4 variants;
-- automatic transfer of historical Materials / VFX / Runtime receipts;
-- CANON, production readiness, game-readiness, Nature mastery or Geometry mastery.
+- that `4.5°` is globally optimal or universally reusable;
+- an exhaustive angular phase search;
+- continuous motion behavior between `-60 / 0 / +60°` samples;
+- volume preservation or production skinning quality;
+- shaded/perspective deformation acceptance;
+- silhouette or facet-quality acceptance;
+- anatomical/biological correctness;
+- source migration or replacement of PR #4;
+- final normals, tangents, UVs or materials;
+- animation/controller acceptance;
+- target-engine import or target-device FPS/GPU/memory/runtime acceptance;
+- collision, physics, navigation or gameplay suitability;
+- Character connected-topology readiness;
+- a UC generic ring-phase abstraction;
+- CANON, production readiness, game-readiness, Animal mastery or Geometry mastery.
 
 ## Root gate
 
-- **Truth:** the migration is exact-oracle-bound. Each source-generated migrated mesh must equal the already-proven Geometry candidate digest; the failed first lineage-pin run remains visible; historical receipts are not relabelled.
-- **Agency / non-domination:** Nature remains source/form owner; Technical Art owns UC/target-host transport evidence; Environment / Art Direction / Visual QA own scene/perceptual acceptance; Rigging/VFX own deformation; Runtime owns cost. Geometry changes only the source topology emission supported by repeated evidence.
-- **Continuity:** the migration is a new branch/PR stacked on exact Organic PR #8. Old source refs, old mesh digests, PR #7 derived candidates, failed first CI and new migrated digests all remain traceable and rollbackable.
-- **Wisdom before speed:** migration occurred only after three repeated source cases, exact derived proof, current-UC transport, target-host culling consequence, independent Visual QA reproduction and Cartography placement support. No UC auto-fixer, blanket rebuild or unrelated topology rewrite was introduced.
+- **Truth:** the exact PR #4 baseline remains separate; all four sampled phase identities and failures/successes are retained; the selected result is bounded to exact donor rig semantics and sampled metrics rather than called visually better.
+- **Agency / non-domination:** Geometry owns only the mesh candidate. Rigging owns deformation interpretation, Organic Form owns source mass/radii, Visual QA and Art Direction own perceptual acceptance, Runtime owns performance. CI and specialist rank do not grant merge/CANON authority.
+- **Continuity:** PR #7 is stacked on exact PR #4 without rewriting it. Exact donor refs, candidate digests, workflow head and retained artifact are pinned and rollbackable.
+- **Wisdom before speed:** one low-dimensional vertex-placement variable was tested before adding loops, changing source form, inventing a new rig or creating a generic UC feature. Visual proof remains required before adoption.
 
 ## Next Geometry / Topology pass
 
-1. Do not broaden the migration beyond the exact tapered-cap emission rule while downstream source-generated transport/receiving gates are still pending.
-2. Let Technical Art republish the exact source-generated migrated bytes through current UC and let Environment/Visual QA own the isolated normal-culling Map A/B.
-3. If Procedural regenerates its nine variants on the migrated generator, test exact retained variants rather than inferring topology from their source-family membership.
-4. Animal connected topology remains a separate candidate until visual/deformation gates move; Character connected transition remains behind its form/visual gate.
-5. Keep self-intersection, seam welding, normals/tangents/UV readiness, deformation and target-device runtime as independent future questions.
-6. Do not claim game-readiness or Geometry mastery from this migration PASS.
+1. Re-scan before acting; do not automatically continue Animal.
+2. Do not promote the `4.5°` candidate until Visual QA / Art Direction compare the exact phased and baseline deformations in a richer view.
+3. If the phased candidate is visually preferred, then consider whether the phase should become the exact Animal connected-candidate identity or remain a derived option; preserve PR #4 history either way.
+4. If the visual result rejects it, keep the failure and diagnose whether the next change belongs to Geometry edge flow or Organic source form rather than stacking more ungrounded loops.
+5. Character connected topology remains behind its shoulder A/B/C form gate.
+6. Keep continuous deformation, materials, runtime, collision/gameplay, CANON and mastery separate.
