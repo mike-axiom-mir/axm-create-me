@@ -1,64 +1,78 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-16
-State: **STRUCTURALLY VERIFIED / SOURCE-RADIUS PROVENANCE REPAIRED / GEOMETRY BYTES UNCHANGED / VISUAL + DEFORMATION REVIEW PENDING**
+State: **STRUCTURALLY VERIFIED / INDEXED VERTEX-FAN GAP CLOSED / EXACT CANDIDATE GEOMETRY UNCHANGED / SELF-INTERSECTION + VISUAL + DEFORMATION REVIEW STILL OPEN**
 
 ## Current activation
 
-This activation did **not** open a second Geometry lane. It extended the existing draft `mike-axiom-mir/axm-animal-design#4` connected-left-forelimb candidate because the current studio direction still has no visual or deformation acceptance for that mesh and because the first candidate contained one avoidable provenance weakness: its connected-ring radii were hand-typed even though they were derived from exact Organic Form segment endpoint radii.
+This activation did **not** open another Geometry lane. It continued the existing draft `mike-axiom-mir/axm-animal-design#4 — Geometry: add connected forelimb topology candidate` because that remains the only active Geometry-owned mesh candidate, its actual geometry is still awaiting visual/deformation acceptance, and one explicit structural truth gap remained after the prior edge-topology proof: the pinned Universal Creation inspector deliberately did not prove vertex-neighborhood manifoldness.
 
-The bounded repair now derives the path and shared-ring radii directly from the exact source regions, records how mismatched authored endpoint radii are reconciled, fails closed on an invalid source chain, and re-runs the same receiving-domain topology gates. The generated candidate geometry remains byte-semantically identical at the candidate-object level: exact candidate digest is still `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`.
+The bounded improvement adds one Animal-local indexed vertex-fan diagnostic to the same candidate. It checks that every indexed candidate vertex participates in exactly one edge-connected incident-triangle fan and that no indexed vertex is isolated. A negative control made from two closed tetrahedra sharing only one vertex proves the diagnostic detects a bow-tie vertex that can escape ordinary per-edge closedness checks.
 
-No game-readiness, final retopology, visual-quality, deformation, collision, renderer/runtime, performance or mastery claim is made.
+The candidate mesh itself remains unchanged. Exact candidate digest is still:
+
+`6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`
+
+No game-readiness, production-retopology, self-intersection, visual-quality, deformation, collision, runtime/performance, CANON or mastery claim is made.
 
 ## Constellation / overlap scan
 
-Read the campaign, standing Geometry role, current specialist status surface, the current Art Director summary, Visual Observer recheck, Capability Cartographer map, and current design-repository PR state before changing the lane.
+Read the campaign, standing Geometry role, current Art Director / Visual Observer / Capability Cartographer status, all eleven design-repository open-PR surfaces, and the current Animal Geometry implementation before changing the lane.
 
-Current design-repository implementation surface observed:
+Current design constellation relevant to overlap:
 
 - `axm-weapon-design`: no open implementation PR;
 - `axm-armor-design`: no open implementation PR;
-- `axm-character-design`: no open implementation PR;
+- `axm-character-design`: active Organic Form PR #2, first neutral A-rest body; its own handoff says Geometry should wait for visual acceptance before connecting a deformable transition;
 - `axm-unit-design`: no open implementation PR;
-- `axm-animal-design`: active Organic Form, repaired Rigging, Technical Art/UC bridge and Geometry PR #4 lanes;
+- `axm-animal-design`: active Organic Form, Rigging, Geometry, Technical Art and Animation lanes; Geometry PR #4 is still the only connected-chain topology lane;
 - `axm-building-design`: no open implementation PR;
-- `axm-nature-design`: active Organic Form, VFX response, Technical Art/UC bridge and Procedural branch/crown family lanes;
-- `axm-weather-design`: active bounded visual atmosphere lane;
-- `axm-map-design`: active environment baseline, seeded variation and real Nature+Weather integration lanes;
+- `axm-nature-design`: active Organic Form, VFX, Technical Art, Procedural and Materials work; source geometry is already feeding multiple receiving lanes and has no Geometry rewrite handoff;
+- `axm-weather-design`: active Weather source / Procedural variation work, not a mesh-topology target;
+- `axm-map-design`: active Environment / Procedural / Runtime receiving-scene work; changing source geometry there would duplicate domain ownership;
 - `axm-object-design`: no open implementation PR;
 - `axm-misc-design`: no open implementation PR.
 
-Relevant specialist state:
+Current specialist boundary remains clear:
 
-- Art Direction explicitly lists Geometry PR #4 as structurally clean but still awaiting visual and deformation acceptance.
-- Visual Observer has now cleared the **separate Rigging PR #2 detached-paw transform-scope defect** on exact repaired head `eea127689635e1a6c85bc08940a59ee0cdbe6685`; that PASS does **not** transfer to Geometry PR #4, which is a different mesh.
-- Cartographer's earlier note that the rig repair still awaited visual rerun is superseded by the newer Visual Observer / Art Director state; no Geometry action depends on that stale blocker now.
-- Nature/Environment/VFX/Procedural lanes are active and materially useful, but changing their source geometry would duplicate or destabilize ongoing source-owned work. No current specialist handoff requests a Geometry rewrite there.
-- No second connected-chain Geometry implementation lane was found.
+- Art Direction still lists Animal Geometry PR #4 as structurally clean but without Art Director or deformation acceptance.
+- Visual Observer's newest PASS concerns the separate repaired Nature sway hierarchy, not this Animal mesh.
+- Rigging PR #2 and Animation PR #5 operate on the original disconnected Organic Form surface; neither PASS transfers to Geometry PR #4.
+- Character PR #2 is a future Geometry opportunity only after its source form receives the requested visual acceptance.
+- Capability Cartography continues to prefer local domain implementation until a second materially different consumer proves exact executable reuse; this activation therefore does not move the new diagnostic into UC.
 
-`axm-create-me` remains coordination-only; this activation changed source implementation only inside `axm-animal-design#4` and then updated this status packet.
+`axm-create-me` remains coordination-only. Product/source implementation changed only inside `axm-animal-design#4`; this file is the coordination/status update.
 
-## Existing Geometry candidate retained
+## Existing exact Geometry candidate
 
 Repository / PR:
 
-- repo: `mike-axiom-mir/axm-animal-design`;
+- repository: `mike-axiom-mir/axm-animal-design`;
 - PR: `#4 — Geometry: add connected forelimb topology candidate`;
-- base: `studio/organic-form-baseline-001`;
+- state after verification: draft / open / mergeable;
+- base branch: `studio/organic-form-baseline-001`;
 - exact Organic Form prerequisite head: `179fc6dc1a38de477e433a3842c4793e748928fb`;
 - candidate branch: `studio/geometry-connected-limb-chain-001`;
-- final tested head this activation: `9788b3241c4c3953e5f17d05d601a2de01b6f731`.
+- current exact tested head: `002f6754f7d367b114352883565c6e28a4f07ac8`.
 
-The candidate remains a derived connected tube through:
+The exact derived chain remains:
 
 `shoulder_L -> elbow_L -> wrist_L -> front_paw_L`
 
-with one ring per landmark and 10 ring segments. The canonical Organic Form JSON and generated baseline surface remain unchanged.
+with one indexed ring per landmark, 10 ring segments, endpoint pole caps, and the already-proven source-derived radii:
 
-Prior topology evidence remains true on the new exact head:
+- shoulder: `0.115 m`;
+- elbow: `0.09 m`;
+- wrist: `0.07 m`, explicitly reconciling authored `0.065 m` and `0.075 m` endpoints;
+- paw endpoint: `0.095 m`.
 
-| Measure | Existing 3 primitive limb | Connected candidate |
+Canonical Organic Form JSON and the generated Organic baseline surface remain unchanged.
+
+## Prior structural evidence retained
+
+The exact candidate still measures:
+
+| Measure | Existing 3-primitive limb | Connected candidate |
 |---|---:|---:|
 | vertices | 126 | 42 |
 | triangles | 240 | 80 |
@@ -68,82 +82,81 @@ Prior topology evidence remains true on the new exact head:
 | candidate shared-edge orientation conflicts | n/a | 0 |
 | candidate tolerance-collapsed triangles | n/a | 0 |
 
-The `-84` vertices / `-160` triangles remain geometry facts only, not a runtime-performance certificate.
+Those vertex/triangle deltas remain geometry facts only, not runtime-performance evidence.
 
-## Selected provenance / mesh-pattern gap
-
-The first version of the candidate passed `[0.115, 0.09, 0.07, 0.095]` as a detached numeric radius list.
-
-Those values happened to match the intended source, but the source actually contains a real junction ambiguity at the wrist:
-
-- `front_upper_L.radius_a = 0.115`;
-- `front_upper_L.radius_b = 0.09`;
-- `front_lower_L.radius_a = 0.09`;
-- `front_lower_L.radius_b = 0.065`;
-- `front_paw_L.radius_a = 0.075`;
-- `front_paw_L.radius_b = 0.095`.
-
-Therefore the shared connected wrist ring value `0.07` is **not directly authored by Organic Form**. It reconciles two source endpoint radii, `0.065` and `0.075`. Leaving that as a hand-typed list was a source-integrity risk: a future source edit could silently leave the topology candidate stale while its structural CI remained green.
-
-## Bounded improvement
-
-Added `derive_shared_ring_radii()` inside the existing animal-local topology study.
-
-The local candidate policy is now explicit:
-
-1. resolve the ordered source segment regions by exact region ID;
-2. require every member to be a segment and require exact endpoint continuity (`left.b == right.a`);
-3. preserve the first source `radius_a` exactly;
-4. preserve the last source `radius_b` exactly;
-5. at each shared source landmark, retain both incoming/outgoing authored endpoint radii and derive one candidate ring radius as their arithmetic mean;
-6. fail closed on unknown, non-segment or discontinuous chains;
-7. label the policy as candidate-local, not as source-authored truth.
-
-Exact derived result:
-
-- shoulder ring: `0.115 m`;
-- elbow ring: `(0.09 + 0.09) / 2 = 0.09 m`, authored gap `0.0 m`;
-- wrist ring: `(0.065 + 0.075) / 2 = 0.07 m`, authored gap `0.01 m`;
-- paw endpoint ring: `0.095 m`.
-
-The evidence schema is now `axm.animal-connected-chain-topology-evidence/v0.2` and records the exact region IDs, path landmarks, policy, authored junction values and gaps.
-
-Important continuity result: because the old hand-typed numbers already equalled the newly derived values, the candidate geometry itself did not move. Its digest remains exactly:
-
-`6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`
-
-That means this activation improves source binding and rollback safety without invalidating the pending visual comparison by silently changing the mesh under review.
-
-## Exact verification
-
-Exact tested head:
-
-`9788b3241c4c3953e5f17d05d601a2de01b6f731`
-
-Workflows on that head:
-
-- `Tests` run `35051027424`: **SUCCESS**;
-  - Python 3.11: compile PASS, unit tests PASS, exact Organic Form evidence build/upload PASS;
-  - Python 3.13: compile PASS, unit tests PASS.
-- `Connected chain topology evidence` run `35051027473`: **SUCCESS**;
-  - Python 3.11: compile PASS, animal-design unit tests PASS, pinned-UC receiving-domain topology evidence PASS, artifact upload PASS;
-  - Python 3.13: compile PASS, animal-design unit tests PASS, pinned-UC receiving-domain topology evidence PASS.
-
-Pinned donor remains:
+The pinned donor remains:
 
 - repository: `mike-axiom-mir/axm-universal-creation`;
 - exact commit: `b434a349cf159b392148b4dc9d68146573531a60`;
 - module: `src/axm_uc/mesh_topology.py`;
 - license: Apache-2.0.
 
+That UC inspector explicitly checks seam-welded edge incidence, shared-edge orientation, collapsed triangles and triangle components while leaving `vertex_manifoldness_checked: false` and `self_intersection_checked: false`. This activation does not relabel that donor boundary.
+
+## Selected structural gap
+
+A closed edge-manifold candidate can still contain a bow-tie style vertex: two otherwise closed surface neighborhoods may touch at one vertex without sharing an edge, leaving that vertex with multiple disconnected incident-triangle fans.
+
+For the exact connected-chain candidate, this was a real unverified structural property. It was more valuable to close than expanding the pattern to another limb, because the current candidate still awaits visual and deformation review and its geometry should remain a stable target.
+
+## Bounded improvement
+
+Added Animal-local `inspect_vertex_fan_connectivity()` in the existing topology study.
+
+For one exact indexed triangle mesh it:
+
+1. validates finite source vertices and bounded integer triangle indices;
+2. rejects indexed collapsed triangles;
+3. records every triangle incident to each indexed vertex;
+4. connects two incident triangles only when they share an edge containing that vertex;
+5. counts connected fan components around every indexed vertex;
+6. reports isolated indexed vertices separately;
+7. returns `PASS_CONNECTED_VERTEX_FANS` only when every indexed vertex has exactly one fan and no indexed vertex is isolated.
+
+The helper does **not** weld positional seams. That distinction is deliberate: this connected-chain candidate uses shared indexed rings, so indexed fan connectivity is the relevant local question. The result is not generalized into a claim about arbitrary seam-split meshes.
+
+A negative unit-test mesh uses two individually closed tetrahedra that share only vertex `0`. The diagnostic must report exactly one disconnected/bow-tie vertex with two fan components. This protects the new gate from becoming a vacuous always-PASS check.
+
+No Universal Creation code was changed. No new shared abstraction was created.
+
+## Exact verification
+
+Exact tested head:
+
+`002f6754f7d367b114352883565c6e28a4f07ac8`
+
+Exact-head workflows:
+
+- `Tests` run `35054674667`: **SUCCESS**;
+  - Python 3.11: compile PASS, unit tests PASS, Organic Form evidence build/upload PASS;
+  - Python 3.13: compile PASS, unit tests PASS.
+- `Connected chain topology evidence` run `35054674655`: **SUCCESS**;
+  - Python 3.11: compile PASS, unit tests PASS, pinned-UC topology re-test PASS, updated topology evidence build PASS, artifact upload PASS;
+  - Python 3.13: compile PASS, unit tests PASS, pinned-UC topology re-test PASS.
+
 Retained artifact:
 
 - name: `front-left-connected-chain-001-topology-evidence`;
-- artifact ID: `10428916348`;
-- workflow-head binding: `9788b3241c4c3953e5f17d05d601a2de01b6f731`;
-- GitHub/archive digest: `sha256:78ca285eb869e9f45af71bc75c54152d50f13ec500b7f4448aec335b9c5a1799`.
+- artifact ID: `10430461400`;
+- exact workflow-head binding: `002f6754f7d367b114352883565c6e28a4f07ac8`;
+- archive digest: `sha256:6b7d9217a85f23efc9777d3b2277815c8f10f5255adb0119659b88076ee51430`;
+- evidence schema: `axm.animal-connected-chain-topology-evidence/v0.3`.
 
-The artifact was downloaded in this activation and rehashed locally to the same SHA-256. Its retained receipt reports all prior UC topology gates PASS plus the new `candidate-radii-derived-from-source-regions: PASS` gate.
+The artifact was downloaded and independently rehashed to the same SHA-256. Its retained receipt reports **PASS** for every previous topology/radius gate plus the two new gates:
+
+- `candidate-no-isolated-indexed-vertices: PASS`;
+- `candidate-one-indexed-fan-per-vertex: PASS`.
+
+Exact retained indexed-fan result:
+
+- candidate vertices: `42`;
+- candidate triangles: `80`;
+- isolated indexed vertices: `0`;
+- disconnected indexed vertex fans: `0`;
+- maximum fan components at any indexed vertex: `1`;
+- status: `PASS_CONNECTED_VERTEX_FANS`.
+
+The exact candidate digest remains `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`, proving this activation strengthened structural evidence without moving the candidate under pending visual review.
 
 Source identities remain:
 
@@ -152,53 +165,55 @@ Source identities remain:
 
 ## What this proves
 
-For this exact candidate only:
+For this exact indexed connected-chain candidate only:
 
-- the three original closed limb primitives are still represented by one edge-connected closed candidate;
-- the measured edge-incidence/orientation/collapse gates still pass;
-- the candidate's ring radii are now reproducibly derived from the exact source-region chain rather than duplicated numeric state;
-- a real `0.01 m` source endpoint-radius mismatch at the wrist is now visible in evidence instead of being silently hidden behind `0.07`;
-- the provenance repair did not alter the pending candidate geometry.
+- the three original closed limb primitives are represented by one edge-connected closed candidate;
+- the existing edge-incidence, orientation and collapse gates still pass;
+- every indexed candidate vertex participates in one connected triangle fan;
+- no indexed candidate vertex is isolated;
+- the source-derived radius policy still exposes the real `0.01 m` wrist endpoint mismatch instead of hiding it;
+- the candidate geometry did not change while the additional structural gate was added.
 
 ## Truth boundary / limitations
 
 This activation does **not** prove:
 
-- that arithmetic-mean junction radius reconciliation is anatomically correct or visually best;
-- that the connected candidate looks better than the original form study;
+- seam-welded vertex manifoldness for arbitrary split-vertex meshes;
+- freedom from geometric self-intersection;
+- that the arithmetic-mean wrist radius is anatomically or visually best;
+- that the connected candidate looks better than the Organic Form baseline;
 - production organic edge flow or final retopology;
-- vertex-neighborhood manifoldness;
-- self-intersection freedom;
-- deformation quality, volume preservation, skin weights or rig correctness;
-- that Visual Observer's repaired Rigging PASS applies to this topology;
-- UVs, tangents, normals, materials or shaded quality;
+- deformation quality, volume preservation, skin weights, skeleton or rig correctness;
+- that Rigging PR #2 or Animation PR #5 evidence applies to this topology;
+- UVs, normals, tangents, materials or shaded quality;
 - collision, physics or gameplay suitability;
 - engine import/runtime compatibility;
 - LOD or performance acceptance;
-- that all limbs/body should use this pattern;
-- Art Director acceptance, game-readiness, CANON or mastery.
+- that all limbs or future Character topology should use this pattern;
+- Art Director acceptance, game-readiness, CANON or Geometry mastery.
 
-The retained `truth_boundary` explicitly records `junction_radius_policy_is_source-authored: false` and `candidate_is_self_intersection_proof: false`.
+The retained truth boundary explicitly keeps `candidate_is_self_intersection_proof: false`, `candidate_is_visual_acceptance: false`, `candidate_is_deformation_acceptance: false`, and `candidate_is_game_ready: false`.
 
 ## Root gate
 
-- **Truth:** the hidden `0.065 -> 0.075` wrist mismatch is now explicit; the candidate-local mean policy is not relabelled as Organic Form truth.
-- **Agency / non-domination:** the Organic Form source is not rewritten to make the Geometry candidate easier; source ownership remains with its lane.
-- **Continuity:** the same PR and exact candidate geometry are retained; only source derivation/evidence binding changed, preserving visual-review comparability and rollback.
-- **Wisdom before speed:** the lane strengthens one unresolved real candidate instead of expanding to more limbs, Nature geometry, UC machinery or a new profession abstraction while visual/deformation acceptance remains open.
+- **Truth:** the new PASS is named narrowly as indexed vertex-fan connectivity; UC's broader vertex-manifold and self-intersection non-claims remain intact.
+- **Agency / non-domination:** Organic Form source geometry and authored endpoint radii were not rewritten to satisfy Geometry. Rigging, Visual Observer, Art Direction, Runtime and UC retain their own evidence/acceptance domains.
+- **Continuity:** same PR, same exact candidate digest, same source identities and pinned UC donor are preserved; the previous evidence remains historical and rollbackable.
+- **Wisdom before speed:** one explicit structural unknown was closed on the existing unresolved candidate instead of spreading an unaccepted topology pattern to more limbs, Character, Nature or UC.
 
 ## Handoffs
 
-- **3D Art Director / Visual Observer:** PR #4's actual mesh is unchanged from the prior digest, so the requested matched-view visual comparison can proceed without a moving target. Pay particular attention to wrist thickness continuity because the source has two different authored endpoint radii there and the candidate currently uses a documented mean.
-- **Rigging & Deformation:** the detached-paw transform-scope repair is separately visually cleared on Rigging PR #2. If PR #4 receives visual acceptance, deform **this exact topology digest** through representative joint poses; do not inherit Rigging PR #2's structural/visual PASS.
-- **Organic Form:** no source edit is requested. The `0.065` lower-leg end and `0.075` paw start remain valid authored values; Geometry now owns the explicit candidate reconciliation between them.
-- **Technical Art / UC Integration:** no UC schema/tool change is requested. The topology donor remains diagnostic-only and the existing Animal→UC source adapter remains separate.
-- **Runtime / Optimization:** triangle/vertex reductions remain non-performance claims until a real runtime/import path measures them.
-- **Capability Cartographer:** treat `source segment chain -> explicit shared-junction reconciliation -> connected candidate` as a pattern candidate only. Do not promote horizontally until a second materially different deformable source reproduces the need.
+- **3D Art Director / Visual Observer:** the candidate mesh is still exactly the same digest as the prior visual-review target. Please compare the retained Organic baseline against this exact connected candidate; the new structural PASS does not answer silhouette, wrist thickness or anatomical-read questions.
+- **Rigging & Deformation:** if the candidate receives visual acceptance, deform exact candidate digest `6e620ce4...` through representative elbow/wrist poses. Do not inherit the original disconnected-surface Rigging PASS.
+- **Organic Form:** no source edit is requested. The `0.065 -> 0.075 m` wrist endpoint mismatch remains source truth; Geometry owns only its explicit candidate-local reconciliation.
+- **Technical Art / UC Integration:** no UC change requested. The new vertex-fan diagnostic remains receiving-domain-local from one real candidate. If a second materially different consumer needs the exact same diagnostic, bring that evidence back through Cartography before centralization.
+- **Capability Cartographer:** record `edge-manifold candidate -> indexed vertex-fan diagnostic -> retained negative bow-tie control` as a possible reusable evidence pattern only; one Animal chain is insufficient for UC extraction.
+- **Runtime / Optimization:** the `126 -> 42` vertex and `240 -> 80` triangle delta remains non-performance evidence until an actual import/runtime comparison exists.
 
 ## Next Geometry / Topology pass
 
-1. Read direct Art Director / Visual Observer feedback on PR #4 before changing the mesh itself.
-2. If the wrist/elbow silhouette is rejected, repair or HOLD this same candidate rather than spreading the pattern.
-3. If visually accepted, hand the exact unchanged candidate digest to Rigging for deformation testing before applying it to another limb.
-4. Keep self-intersection and vertex-manifoldness as explicit structural unknowns; only add those diagnostics when they become the next real blocker rather than as abstract checklist growth.
+1. Read direct Art Director / Visual Observer feedback on PR #4 before moving the mesh itself.
+2. If silhouette or wrist/elbow continuity is rejected, repair or HOLD this same candidate rather than applying it to more limbs.
+3. If visually accepted, hand this exact unchanged candidate digest to Rigging for deformation testing before horizontal reuse.
+4. Keep geometric self-intersection as an explicit remaining structural unknown. Add a self-intersection diagnostic only if it becomes the next real blocker or a second use case makes the check materially reusable.
+5. Do not start Character connected topology until Character's source-form visual gate is actually cleared.
