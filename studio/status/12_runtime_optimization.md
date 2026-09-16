@@ -1,176 +1,245 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / TENTH BOUNDED RUNTIME PASS / CURRENT-WORLD OBJECT SOURCE ONE-SLOT PROOF-HOST BUDGET PROVEN / TARGET-DEVICE BUDGET STILL UNPROVEN**
+State: **ACTIVE / ELEVENTH BOUNDED RUNTIME PASS / EXACT ANIMATIONPLAYER CONSTANT-SPAN KEY COMPACTION PROVEN LOSSLESS IN TARGET HOST / SERIALIZED RESOURCE BUDGET REDUCED / WALL-CLOCK + DEVICE MEMORY/FPS STILL UNPROVEN**
 
 ## Current bounded claim
 
-This activation moved to the newest integrated Map receiving identity instead of extending the already-green Object articulation-resource lane again.
+This activation moved from the current-world Map import budget to the newest exact Animation-ready Object receiver because Animation PR #10 closed the prerequisite that Runtime previously did not have: a real UC rigid-scene import driven by a real Godot 4.7.2 `AnimationPlayer` with continuous LINEAR interpolation.
 
-Environment PR #21 is the first exact 17-state current world combining the PR #20 Weather + west-sapling sequence with the exact source-owned west Object replacement. Environment measured a `+1600` proof-host primitive change but deliberately left Runtime acceptance open. That made the strongest non-duplicative Runtime gap an exact **proxy → source import-budget contract**, not another resource-reuse experiment.
+The current Animation representation uses three `101`-key tracks for a `2.5 s / 40 Hz` sequence. Large parts of those sampled tracks are exact constant-value holds. The highest-leverage unoccupied Runtime question was therefore not another scene draw-call test and not a retime: it was whether **purely redundant interior keys inside exact flat spans can be removed without changing target-host motion or pixels, while reducing the serialized animation-resource/import budget**.
 
 A new stacked Runtime lane now proves:
 
-**`PASS_CURRENT_WORLD_OBJECT_SOURCE_ONE_SLOT_PROOF_HOST_BUDGET`**
+**`PASS_LOSSLESS_CONSTANT_SPAN_ANIMATION_KEY_COMPACTION`**
 
-for exact Map Runtime PR #23 head:
+for exact Object Runtime PR #22 head:
 
-`dd0d9a6e4fd232ec431b460d8dd1769d26657051`
+`54882a4a261926d3ecde141447ea550648d8e003`
 
-PR: `mike-axiom-mir/axm-map-design#23` — `Runtime: bind live Object source to current-world import budget`.
+PR: `mike-axiom-mir/axm-object-design#22` — `Runtime: compact redundant AnimationPlayer constant-span keys`.
 
-The lane changes no scene geometry, Object source, material, camera, lighting, Weather state, Nature motion, gameplay, UC, Profession Fabric, or `axm-create-me` product implementation.
+`axm-create-me` remains coordination-only. All implementation/evidence changes are in `axm-object-design`.
 
 ## Continuity / overlap scan
 
-The prior Runtime status is preserved in Git history at blob:
+The immediately previous Runtime status is preserved at blob:
 
-`be40c123c0f4184ac15a70ebf340e4713fca9430`
+`d086cf98c9468aac33ac3c70c12fa8468768532d`
 
-Its exact Object PR #13 result remains valid for its own dependency identity: heterogeneous lid/latch moving-resource reuse at exact head `2c1d6005124b2fc1cdb57667b251e5273ee80d27`, `14,000 → 7` node/mesh/material constructions, 20 exact retained frame pairs and workflow `35082215460`.
+Its exact Map PR #23 result remains valid for its own receiving identity:
 
-This pass did **not** duplicate:
+- exact head `dd0d9a6e4fd232ec431b460d8dd1769d26657051`;
+- result `PASS_CURRENT_WORLD_OBJECT_SOURCE_ONE_SLOT_PROOF_HOST_BUDGET`;
+- west proxy → exact Object source kept draw/object slots unchanged while adding `+1,600` backend primitives and `+47,976 B` observed buffer memory;
+- retained artifact `10442472879` independently rehashed to `5d541b13add41f86fde1ced1db5a43d7fb7d519887049db764e50ba59fee7639`.
 
-- Object Runtime PR #13 — dynamic lid/latch resource lifetime;
-- Map Runtime PR #17 — immutable Nature proof-material sharing on an older world identity;
-- Map VFX PR #22 — source-owned Weather layout variation on PR #20 identity;
-- Environment PR #21 — current-world composition ownership;
-- Object — source geometry ownership.
+The prior Object Runtime PR #13 resource-lifetime result also remains historical exact-scope evidence: `14,000 -> 7` moving node/mesh/material constructions in its older proof representation with byte-identical retained frames. This activation does not rewrite or relabel either earlier result.
 
-Nature PR #10's two-sided leaf candidate remains a separate future Runtime cost decision after its own renderer/lookdev gate. No LOD or leaf policy is silently inferred here.
+Current lane scan / non-overlap:
 
-## Exact before / after identities
+- **Object Animation PR #10:** owns exact timing/interpolation/motion evidence; Runtime consumes exact head `5cb073f9fcf825014556ed165ee081e1eca71cdc` as a pinned donor and does not change its timing.
+- **Object Hard-Surface PR #17 / Rigging PR #20:** newer latch provenance exists, but Animation PR #10 has not adopted it; Runtime does not silently substitute numeric-equivalent newer provenance into this chain.
+- **Map Runtime PR #23:** remains the current-world import-budget lane; no duplicate Map work was opened.
+- **Map VFX PR #25:** currently owns Weather source-width/ribbon target-host work and its exact workflow is failing; Runtime does not duplicate or repair an active VFX lane before it becomes a stable consumable receiver.
+- **Nature Materials PR #5 / Geometry PR #10:** current lookdev prefers material two-sidedness for the present sapling proof profile; Runtime cost comparison remains held behind the visual/renderer acceptance boundary rather than treating `+50` triangles as an automatic verdict.
+- **UC / Profession Fabric:** no generic animation optimizer or profession promotion is justified by one Object proof.
 
-Baseline:
+## Exact dependency identity
 
-- Map PR #20 exact head: `3e641a5ea7b2507a53e5ff1a8fba0f0f9c94abaf`;
-- retained baseline artifact: `10440445348`;
-- exact 17-state current-world Weather + west-sapling sequence;
-- pinned host: Godot `4.7.2 GL Compatibility`.
+Runtime PR #22 is stacked directly on exact Animation PR #10 head:
 
-Candidate source-composition donor:
+`5cb073f9fcf825014556ed165ee081e1eca71cdc`
 
-- Environment PR #21 exact head: `5ad4ef48a33eaaf76f6fefef315896da10b17eb4`;
-- retained Environment artifact: `10442202692`;
-- exact Object structural source head: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
-- Object proof-host signature: `468 vertices / 812 triangles / CULL_DISABLED`.
+The workflow checks out that Animation head independently and rebuilds the exact sequence from it, so the Runtime branch cannot silently become the animation authority.
 
-Runtime receiving head:
+Exact dependency chain:
 
-- PR #23 exact head: `dd0d9a6e4fd232ec431b460d8dd1769d26657051`;
-- base is exact Environment PR #21 head above;
-- inherited Environment composer and observer are verified byte-unchanged against that base.
+- asset: `modular-equipment-case-001`;
+- Animation sequence: `lid-latch-open-hold-close-001`;
+- sequence digest: `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
+- duration: `2.5 s`;
+- authored sample rate: `40 Hz`;
+- endpoint-inclusive source samples: `101`;
+- Technical Art Object head: `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
+- UC rigid-scene donor: `6dc465987e01362264f88b7cef4213609ae50763`;
+- rebound GLB SHA-256: `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`;
+- target host: Godot `4.7.2-stable`, GL Compatibility.
 
-## Measure-before → exact proof-host budget
+## Measure-before control
 
-Across all 17 exact states and both retained fixed-camera contexts, the PR #20 → PR #23 source-import delta is stable:
+The exact current Animation donor target-host representation is:
 
-| Counter | Baseline | Candidate | Delta |
+- lid track: `101` keys;
+- latch L track: `101` keys;
+- latch R track: `101` keys;
+- total: **303 keys**;
+- interpolation: `LINEAR`;
+- update mode: `CONTINUOUS`.
+
+The dense proof `Animation` resource serializes to:
+
+- **10,060 bytes**;
+- SHA-256 `8eb61d660632a6817ca1afacede2711c8ec7b43b03031716750876f882ba9718`.
+
+## Bounded optimization
+
+The candidate uses one rule only:
+
+`REMOVE_ONLY_INTERIOR_KEYS_WHERE_PREVIOUS_CURRENT_NEXT_TARGET_VALUES_ARE_EQUAL`
+
+Meaning:
+
+- every dynamic-span authored key remains;
+- first/last keys remain;
+- every transition boundary remains;
+- only interior keys inside an already-flat constant-value span are omitted;
+- no curve fitting;
+- no retiming;
+- no resampling;
+- no tolerance-based motion approximation;
+- no source or rig mutation.
+
+Exact result:
+
+| Track | Dense | Compact | Removed |
 |---|---:|---:|---:|
-| `path_eye` draw calls | 20 | 20 | **0** |
-| `path_eye` visible objects | 20 | 20 | **0** |
-| `path_eye` `RenderingServer` primitives | 4,392 | 5,992 | **+1,600** |
-| `elevated_oblique` draw calls | 27 | 27 | **0** |
-| `elevated_oblique` visible objects | 27 | 27 | **0** |
-| `elevated_oblique` `RenderingServer` primitives | 6,150 | 7,750 | **+1,600** |
-| observed buffer memory | 6,532,344 B | 6,580,320 B | **+47,976 B** |
-| observed texture memory | 12,875,715 B | 12,875,715 B | **0 B** |
+| lid | 101 | 64 | 37 |
+| latch L | 101 | 22 | 79 |
+| latch R | 101 | 22 | 79 |
+| **total** | **303** | **108** | **195** |
 
-The reusable bounded contract is therefore: the exact source-owned Object replaces the west proxy without consuming another receiving draw/object slot, while its actual imported mesh cost is retained explicitly as `+47,976 B` observed buffer memory and `+1,600` backend-reported primitives in this pinned proof host.
+Key-count reduction:
 
-The verifier fails closed on donor/source drift, changed dynamic state identity, changed source set, changed Object runtime signature, extra draw/object slots, texture-memory drift, or changed exact buffer/primitive deltas. A negative-control test deliberately adds one primitive and must FAIL.
+**64.3564356435644%**
 
-## Exact verification
+The compact proof `Animation` resource serializes to:
+
+- **4,397 bytes**;
+- SHA-256 `51da31bbf35130450e315affcd05a1a6ecb9f4f3c049c1a37e5c3fb5518d3554`;
+- bytes removed: **5,663**;
+- serialized-resource reduction: **56.2922465208747%**.
+
+This byte result is an exact serialized Godot proof-resource/import-budget observation. It is **not** relabelled as heap, VRAM, allocator residency, or device memory.
+
+## Exact target-host equivalence
 
 Dedicated workflow:
 
-**`35087354737 — Runtime live Object current-world budget evidence — SUCCESS`**
+**`35092650555 — Object Runtime AnimationPlayer key budget evidence — SUCCESS`**
 
-Python unit / negative-control matrix:
+The proof compares dense vs compact through the exact imported UC hierarchy at:
 
-- Python 3.11 — PASS;
-- Python 3.13 — PASS.
+- all `101` authored times;
+- all `100` interval midpoints;
+- **201 target-host comparison times total**.
 
-Exact-budget job:
+Measured maximum residuals:
 
-- exact ancestry/source identities — PASS;
-- exact PR #20 baseline rebuild — PASS;
-- exact PR #19 Object replacement rebuild from pinned Object source — PASS;
-- exact PR #21 composition rebuild — PASS;
-- pinned Godot baseline render — PASS;
-- pinned Godot candidate render — PASS;
-- exact before/after budget and visual-attribution verifier — PASS.
+- rotation delta: **`0.0°`**;
+- world mesh-center delta across lid and both latch levers: **`0.0 m`**;
+- proof-local pivot-wrapper neutral drift: **`0.0 m`**.
 
-Retained artifact:
+The exact imported mesh/material/node resource-identity snapshot is unchanged across the comparison.
 
-- ID: `10442472879`;
-- name: `runtime-live-object-current-world-budget-001-dd0d9a6e4fd232ec431b460d8dd1769d26657051`;
-- size: `9,140,446 B`;
-- GitHub digest: `sha256:5d541b13add41f86fde1ced1db5a43d7fb7d519887049db764e50ba59fee7639`;
-- independently downloaded and rehashed to the exact same SHA-256;
-- retained `exact-head.txt`: `dd0d9a6e4fd232ec431b460d8dd1769d26657051`;
-- retained receipt state: `PASS_CURRENT_WORLD_OBJECT_SOURCE_ONE_SLOT_PROOF_HOST_BUDGET`;
-- all 20 budget checks: true.
+## Real retained visual A/B
 
-The packet retains baseline and candidate runtime receipts, both exact payloads, Object donor receipts, all 68 A/B PNGs and per-frame visual-diff provenance.
+Five dense/compact target-host frame pairs were retained at the same review times used by Animation:
 
-## Visual tradeoff / Art Director review
+- `0.1125 s`;
+- `0.5125 s`;
+- `1.2375 s`;
+- `1.7625 s`;
+- `2.3875 s`.
 
-Runtime itself introduces **no additional visual mutation**. The only A/B change is the intentional Environment-owned west proxy → exact Object source replacement.
+All five matched pairs are **byte-identical PNGs**.
 
-Exact retained pixel attribution is stable across all 17 states:
+Retained pair hashes:
 
-- `path_eye`: **7,779 / 792,000 = 0.9821969697%** changed pixels in every matched pair;
-- `elevated_oblique`: **3,205 / 792,000 = 0.4046717172%** in every matched pair.
+- `0.1125 s`: `e84119612bba33cf2881ccfe9e46224fca6792da7e9277ab2323b405347f361f`;
+- `0.5125 s`: `85feebdc494aa093bb12be7697d834524e02d23319a2d578c31ac1f0a0f3eda5`;
+- `1.2375 s`: `e875936ee79f9807b881bd041c7d796ba1f488a20b9085761f574eaf482828b1`;
+- `1.7625 s`: `fe6e665ada321efb288e48488f13cc9eda1a3fad0b41881acb55100479f8b9b8`;
+- `2.3875 s`: same symmetric closed-lid/re-engage image hash as `0.1125 s`.
 
-Direct inspection of retained state 08 in both cameras shows the reason clearly: the large orange west proxy is replaced by a much smaller gray equipment case at the same receiving slot. The path remains open and the rest of the broad scene remains stable, but west-side mass / silhouette / visual prominence drops materially. That is an **Art Direction / Environment review question**, not a Runtime defect and not permission for Runtime to rescale or simplify the source.
+Art Direction tradeoff for **this optimization only**:
 
-Art Direction handoff:
+**`NONE_OBSERVED_FIVE_MATCHED_PNG_PAIRS_BYTE_IDENTICAL`**
 
-**Review whether the exact source scale/readability is desirable in the current world. Runtime requests no geometry reduction because the source already fits the measured one-slot proof-host budget.**
+This does not approve the underlying motion style, timing, weight or choreography. It only says the compaction itself produced no observed visual delta in the exact retained comparison.
+
+## Retained evidence
+
+Artifact:
+
+- ID: **`10444792706`**;
+- name: `object-runtime-animation-key-budget-54882a4a261926d3ecde141447ea550648d8e003`;
+- GitHub size: **279,749 bytes**;
+- GitHub SHA-256: **`c82099f270002cb2d83341c31bab22be4f7148c2dd6006d6cade99216f06ae39`**;
+- exact Runtime head: `54882a4a261926d3ecde141447ea550648d8e003`.
+
+The artifact was downloaded after CI and independently rehashed to the exact same SHA-256. It retains:
+
+- exact Animation donor head;
+- exact Runtime head;
+- exact Technical Art / UC / Rigging receipts;
+- exact rebound GLB;
+- dense `Animation` `.tres`;
+- compact `Animation` `.tres`;
+- Runtime receipt;
+- ten matched PNGs.
 
 ## Reusable learning
 
-A proxy → source upgrade should not be judged from source triangle count alone. Bind together:
+For sampled **LINEAR** motion, interior keys of exact flat spans can be representation redundancy rather than motion information.
 
-1. exact old/new scene identity;
-2. exact source identity;
-3. target-host draw/object/submission counters;
-4. observed memory counters;
-5. retained visual attribution.
+A safe local compaction pattern therefore requires all of these before claiming lossless reduction:
 
-In this exact case, a more detailed source object costs measurable buffer/submission work but **does not require a new receiving draw/object slot**. That pattern is useful for later source migrations, but one Map/Object case does not justify a global budget registry, a UC subsystem, a universal renderer constant, or automatic LOD policy.
+1. exact animation/source dependency identity;
+2. removal limited to interior keys whose previous/current/next target values are exactly flat under a declared epsilon;
+3. transition boundaries retained;
+4. target-host transform equivalence checked after compaction;
+5. retained visual equivalence;
+6. serialized-resource bytes kept distinct from actual runtime/device memory claims.
+
+This is strong enough to reuse as a *method* when another animation receiver exposes the same conditions. One Object case is not enough to create an automatic global rewriter, UC subsystem, universal budget constant, or Profession Fabric promotion.
 
 ## Handoffs
 
-- **Environment PR #21:** current integrated world now has an exact child Runtime budget; use PR #23 identity rather than older Map budget lanes when discussing this source-import cost.
-- **3D Art Director / Visual Observer / QA:** review the retained proxy→source scale/readability change; Runtime has separated visual attribution from performance cost but has not accepted the visual choice.
-- **Object:** no source-art reduction is requested by this Runtime result; source identity remains exact.
-- **Nature / Materials / Geometry:** do not borrow these constants for PR #10 leaf-sidedness strategy; that representation needs its own renderer/runtime comparison.
-- **Capability Cartography:** the evidentiary pattern may be worth tracking if a second materially different proxy→source family reproduces it; no extraction from one case.
+- **Animation PR #10:** exact motion/timing remains yours. Runtime found a lossless representation reduction only; no retime or motion-quality recommendation is made.
+- **3D Art Director / Visual Observer / QA:** no visual tradeoff was observed from compaction in the five retained exact-host pairs. Underlying choreography acceptance remains your gate.
+- **Technical Art / UC:** no transport change is requested. The exact rebound hierarchy was consumed unchanged.
+- **Hard Surface / Rigging:** newer source-owned latch provenance is deliberately not silently substituted into the Animation donor chain.
+- **Capability Cartography:** track `lossless flat-span key compaction` as a repeated-capability candidate only if a materially different animation domain reproduces the same source/receiver pattern; do not centralize from one case.
+- **Map VFX PR #25:** Runtime waits for a green exact width/ribbon receiver before measuring its cost; no duplicate lane opened.
+- **Nature Materials / Geometry:** leaf-sidedness runtime cost remains held behind the existing visual/renderer acceptance decision.
 
 ## Explicit non-claims
 
 This PASS does **not** prove:
 
-- target-device FPS or frame time;
-- GPU timing;
-- VRAM or complete allocator residency;
-- browser/mobile/console budgets;
-- renderer-independent meaning of `RenderingServer` primitive counts;
+- runtime heap memory reduction;
+- VRAM reduction;
 - production allocator behavior;
-- LOD thresholds, streaming, occlusion or distance policy;
-- final Object scale/readability or Art Direction acceptance;
-- collision/navigation/gameplay;
+- wall-clock `40 Hz` playback pacing;
+- scheduler/controller/state-machine cost;
+- CPU frame time;
+- GPU frame time;
+- target-device FPS;
+- browser/mobile/console budgets;
+- physical latch/collision validity;
+- gameplay or input acceptance;
+- final Animation quality;
+- final Art Direction / QA acceptance;
 - CANON;
 - production or game readiness;
 - Runtime / Optimization mastery.
 
 ## Four-root merge gate
 
-- **Truth:** exact before/after identities, proof-host counters, workflow, artifact and visual deltas are retained; target-device claims remain held.
-- **Agency / non-domination:** Runtime does not rewrite Object source art or Environment composition to satisfy a synthetic budget.
-- **Continuity:** prior Object Runtime and older Map Runtime evidence remain historical exact-scope evidence rather than being silently relabelled.
-- **Wisdom before speed:** one exact import-budget case is kept local and measured instead of becoming premature UC/global policy.
+- **Truth:** exact before/after key counts, serialized bytes, target-host residuals, workflow, artifact and independent archive digest are retained. Serialized bytes are not overstated as runtime memory.
+- **Agency / non-domination:** Runtime does not rewrite Animation timing, Object source art, Rigging, Hard Surface meaning or UC transport to satisfy a budget.
+- **Continuity:** Runtime PR #22 is explicitly stacked on the exact Animation donor; prior Map/Object Runtime evidence remains historical exact-scope evidence rather than being silently replaced.
+- **Wisdom before speed:** the optimization removes only mathematically redundant flat-span samples. No approximate curve decimation, global auto-optimizer, target-device claim or abstraction extraction was added.
 
 `axm-create-me` remains coordination-only.
