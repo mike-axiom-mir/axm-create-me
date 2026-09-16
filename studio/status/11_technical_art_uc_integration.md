@@ -1,269 +1,233 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / UC + OBJECT DRAFT LANES RETAINED / ANIMATION-CLIP + CONTROLLER + PHYSICS + FINAL-VISUAL HOLD**
+State: **PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / UC_RIGID_SCENE_GRAPH_MERGED / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / PASS_DUAL_EVIDENCE_IDENTITY_BOUNDARY / PASS_EXACT_LID_RIG_TO_UC_TARGET_ENVELOPE / HOLD_ANIMATION_CLIP_TRANSPORT / HOLD_RUNTIME_CONTROLLER / HOLD_TARGET_HOST_CONTINUOUS_COLLISION / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_VISUAL / OBJECT STACK DRAFT**
 
-## Current bounded result
+## Latest bounded result
 
-This activation selected one cross-repo gap exposed by the newest Object Hard-Surface, Materials, Animation and Runtime evidence:
+This activation selected one cross-repo receiving-pipeline defect exposed by the newest Object Rigging target-host lane:
 
-> the equipment case now has exact source-owned rigid component identities and ownership, but the proven UC GLB handoff still flattens every supplied surface group into scene roots, so downstream specialists have had to reconstruct a segmented lid representation outside the generic UC transport path.
+> the Technical Art binding treated the exact raw `articulation.json` file SHA-256 and the Rigging donor's canonical structured-plan digest as if they were the same identity dimension.
 
-The smallest reusable repair was **not** an Object rule in UC. It was a domain-neutral explicit rigid scene-graph transport layer over an already verified UC GLB.
+They are both valid evidence identities, but they intentionally differ. The conflation falsely rejected a correct exact Rigging donor before the Godot target-host proof could run.
 
-Two bounded results are now green:
+The smallest correct repair was **Object receiving Technical Art tooling**, not a new Universal Creation feature and not a rewrite of Rigging semantics.
 
-- `PASS_RIGID_SCENE_GRAPH_REBIND` in Universal Creation;
-- `PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_THROUGH_UC_SCENE_GRAPH` plus `PASS_UC_RIGID_SCENE_GODOT_IMPORT_AND_LID_CHILD_TRANSFORM` in the Object receiving proof.
+Object draft PR **#19 — `Technical Art: distinguish byte and canonical rig identities`** is stacked on Rigging PR #18. Exact current head:
 
-Exact proven path:
+`a462197421c06cffd46af327d6325cd75ef8aa1b`
 
-`Object exact deterministic source + Object-owned latch/hinge ownership` -> `existing stable source component groups` -> `unchanged UC axm.surface-3d/v0.1 geometry publication` -> `generic axm.rigid-scene-graph/v0.1 caller-authored parentage` -> `exact GLB BIN payload retained` -> `Godot 4.7.2 GLTFDocument import` -> `direct review-only lid transform with lid-owned keeper children following and lower levers remaining fixed`.
+The exact full target path now reaches:
 
-`axm-create-me` remains coordination-only. Product/tool implementation lives in `axm-universal-creation` and `axm-object-design`.
+`PASS_EXACT_LID_RIG_ENVELOPE_ON_UC_TARGET_HIERARCHY`
+
+in pinned Godot 4.7.2 GL Compatibility.
+
+`axm-create-me` remains coordination-only. The receiving repair lives in `mike-axiom-mir/axm-object-design`. No Object-specific semantics were added to Universal Creation.
+
+The previous detailed Technical Art status is preserved in Git history at blob `abd77ce00a6009261840bb3e6d94b20584dffc0d`; this snapshot supersedes its stale merge/draft wording without erasing that evidence.
 
 ## Why this gap was selected / duplication check
 
-The prior Nature Technical Art result remains valid historical evidence, but later Procedural, Environment, Visual QA and Art Direction work has closed the old live `HOLD_PROCEDURAL_REBIND` and `HOLD_MAP_RECEIVING_ADOPTION` dependencies. They are not current blockers and are not silently rewritten out of history.
+The previous Technical Art / UC result already established a real generic rigid-hierarchy path:
 
-The Object constellation now has a stronger unresolved Technical Art dependency:
+- UC contract `axm.rigid-scene-graph/v0.1`;
+- Object Technical Art PR #16 exact head `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
+- exact Object source-owned keeper/hinge parentage through UC into Godot;
+- exact GLB BIN payload preservation;
+- retained Object artifact `10440591535`.
 
-- Hard-Surface PR #14 explicitly owns upper `latch_*_keeper` -> `lid_shell` and lower `latch_*_lever` -> `front_service_panel` parentage.
-- Rigging PR #15 owns a bounded review-only latch-lever articulation candidate.
-- Materials PR #6 already reconstructs owner-bound articulated parts for lookdev evidence.
-- Animation PR #10 now owns the ordered latch-release -> unchanged lid clip -> latch-reengage sequence.
-- Runtime PR #13 explicitly records that its efficient segmented receiving proof is **not** the current UC-published static GLB.
-- Existing Technical Art Object PR #7 proves a different path: socket/package identity -> source-frame-bound service module -> UC GLB -> Godot import. It remains valid and was not replaced.
-- Current UC main `21bca4eb3efeeec5a86f9da689bcfe4933f376e9` already has a strong deterministic `axm.surface-3d/v0.1` GLB path, but `_encode_glb` publishes each surface primitive as a flat scene root. No current generic parent/child transform transport contract existed.
-- UC PR #151's animated boat lane is Blender/game-asset specific and does not supply a generic explicit scene-graph rebinder; duplicating that lane was avoided.
+That UC candidate is no longer merely draft evidence. UC PR #157 was merged; its source head remains `6dc465987e01362264f88b7cef4213609ae50763`, with merge commit `1b9b6ce1feae6fdc5b1c9ffd067f81d5c39fb8a8`.
 
-That made rigid scene-graph transport the highest-leverage unoccupied Technical Art/UC integration question.
+Rigging PR #18 then became the first lane to consume the exact source lid-rig identity over that real UC-transmitted target hierarchy. Its first exact workflow `35085348651` failed before Godot with:
 
-## Universal Creation reusable contract
+`AssertionError: lid rig plan identity drift: 05b4daad475c30f4c1ea72826fbafd452bf037e58523e18a0c338dd0d7999c0a`
 
-Repository: `mike-axiom-mir/axm-universal-creation`
+Inspection showed that the donor had not drifted. The receiving adapter was comparing two different evidence forms.
 
-Draft PR: **#157 — Technical Art: add neutral rigid scene-graph rebind contract**
+This is a Technical Art boundary problem rather than a Rigging, Animation, Runtime or UC-domain problem, so no duplicate specialist lane was opened in those areas.
 
-Branch: `studio/rigid-scene-graph-001`
+## Exact evidence-identity repair
 
-Exact candidate head: **`6dc465987e01362264f88b7cef4213609ae50763`**
+The exact lid Rigging donor remains:
 
-Base main inspected: `21bca4eb3efeeec5a86f9da689bcfe4933f376e9`
+`4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`
 
-New generic contract:
-
-`axm.rigid-scene-graph/v0.1`
-
-Added:
-
-- `src/axm_uc/rigid_scene_graph.py`;
-- `tests/test_rigid_scene_graph.py`;
-- `.github/workflows/rigid-scene-graph.yml`.
-
-The contract accepts an already verified **flat UC-generated GLB** plus caller-authored stable node names, parent relations and optional rigid translation/unit-quaternion transforms.
-
-It deliberately does not infer component meaning. It refuses:
-
-- unknown node or parent identities;
-- cycles;
-- duplicate/multiple-parent ambiguity;
-- non-unit quaternions;
-- already-hierarchical input in this bounded v0.1 path.
-
-It preserves the exact GLB BIN chunk, rewrites only explicit scene-graph JSON state, retains the existing UC surface specification digest, reruns UC's existing `verify_glb()`, and adds exact scene-graph provenance/digest verification.
-
-The contract does **not** contain the words/semantics needed to decide that a lid, latch, turret, socket, door, vehicle part, character part or any other domain component owns another. Source/receiving repos retain that authority.
-
-### UC CI
-
-Dedicated workflow:
-
-`35081692879 — Rigid scene graph contract` — **SUCCESS**.
-
-- Python 3.11: success;
-- Python 3.13: success;
-- determinism, manifest-order invariance, exact binary-payload preservation and fail-closed cases are exercised.
-
-The full same-head UC `Tests` workflow `35081692670` also completed **SUCCESS**. Other same-head candidate/workspace/Godot/profession checks observed during this activation completed successfully or intentionally skipped where their path did not apply.
-
-No merge was performed. PR #157 remains draft/review evidence.
-
-## Object exact receiving proof
-
-Repository: `mike-axiom-mir/axm-object-design`
-
-Draft PR: **#16 — Technical Art: carry source-owned rigid parts through UC scene graph**
-
-Branch: `studio/technical-art-rigid-scene-handoff-001`
-
-Exact Object head: **`965fb2f24dbd0b0cbb748d9f8b8712d62966315f`**
-
-Exact stacked base / Hard-Surface ownership head: **`d3fa10a270faae7925811f44f03381fe5c5d0215`**
-
-Exact Object source SHA-256:
+Exact Object source SHA-256 remains:
 
 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`
 
-Exact ownership contract SHA-256:
+The two identity dimensions are now named and verified independently:
 
-`0702e4180f858d29c42ff8c38a61eaa16278d6848c8ce6f3ecfae172969ca8ae`
+- exact raw plan-file SHA-256: `05b4daad475c30f4c1ea72826fbafd452bf037e58523e18a0c338dd0d7999c0a`;
+- exact canonical JSON semantic-plan SHA-256: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`.
 
-The receiving proof uses only existing Object identities:
+`tools/build_object_target_lid_rig_binding.py` now fails closed if either dimension drifts. The older ambiguous `lid_rig_plan_sha256` field remains only as an explicitly labelled deprecated compatibility alias of the canonical digest so the stacked proof can move without silently changing its meaning.
 
-- `lid_shell`;
-- source-owned lid hinge groups `hinge_lid_l0`, `hinge_lid_l1`;
-- source-owned upper keeper groups `latch_0_keeper`, `latch_1_keeper`;
-- fixed lower lever groups `latch_0_lever`, `latch_1_lever`;
-- exact source hinge axis/pivot.
+This follows the current constellation's evidence-placement rule: source semantics and exact domain identities remain source-owned; transport representation remains UC-owned; receiving binding/evidence semantics remain Technical Art-owned.
 
-Exact source hinge pivot:
+## Second defect exposed after the identity repair
 
-- Object source coordinates: `[0.0, 0.252, 0.306] m`;
-- UC/glTF Y-up coordinates: `[0.0, 0.306, 0.252] m`.
+The first PR #19 workflow `35086955090` proved that the dual-identity repair cleared the original false donor rejection, then exposed a separate target-host proof-lifecycle defect.
 
-Only the lid-owned rigid set is localized around that exact pivot before surface publication. Reconstructing the neutral closed pose after localization produced **0.0 m maximum position error**.
+The Godot observer queried world-space `global_transform` values before the imported UC hierarchy had been attached to a live scene tree. Godot correctly warned that those nodes were not inside the tree, causing invalid baseline values and a false neutral-return failure.
 
-## Exact UC transport evidence
+The smallest repair moved the imported hierarchy into the proof viewport and waited for live tree frames **before** world-space baseline sampling. No source rig, source geometry, target hierarchy, pose schedule or UC contract was altered.
 
-All existing Object source mesh groups are published through unchanged `axm.surface-3d/v0.1`, then the generic UC candidate binds only caller-supplied parentage.
+The successful exact head after that lifecycle repair is:
 
-Exact manifest SHA-256:
+`a462197421c06cffd46af327d6325cd75ef8aa1b`
 
-`e32a05fe8de68cdcba704b595bdd9df8965255e361c0ed61cb3aa88b7d50989a`
+## Exact target-host path
 
-Exact surface specification SHA-256:
+Pinned identities used by the successful proof:
 
-`f2a4afbbf43c6f32830cd5a3de058e67d281a9ef163948907f8111e12b3ad1c8`
+- Object PR #19 head: `a462197421c06cffd46af327d6325cd75ef8aa1b`;
+- stacked Rigging PR #18 base: `18cf876ab43fda5c493e264475bbdd8b2c93c400`;
+- Technical Art rigid-scene donor: `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
+- lid Rigging donor: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- UC rigid-scene donor source head: `6dc465987e01362264f88b7cef4213609ae50763`;
+- exact rebound GLB SHA-256: `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`.
 
-Flat GLB SHA-256:
+The proof intentionally pins the original exact UC donor source head even though PR #157 has since merged. That keeps the retained evidence reproducible instead of silently rebinding it to moving `main`.
 
-`ed15b5086123a64a020e5b027949a0862a1af3e02fd0e5e9897891600778948f`
+Exact source -> target coordinate binding remains:
 
-Rebound GLB SHA-256:
+- source pivot `[0.0, 0.252, 0.306] m`;
+- target pivot `[0.0, 0.306, 0.252] m`;
+- coordinate map `[x,y,z] -> [x,z,y]`, determinant `-1`;
+- source opening rotation sign `-1` around +X;
+- target X rotation sign `+1` after handedness conversion;
+- representative source/target poses `0 / 30 / 60 / 90 / 110 deg`.
 
-`9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`
+No pose was retimed or reauthored by Technical Art.
 
-Exact unchanged BIN payload SHA-256 before/after graph rebind:
+## Exact workflow and retained evidence
 
-`46e0eb89e9b0bde5c6f99de1faeb540aebc5a0881bb406aea878679862913292`
+Dedicated exact-head workflow:
 
-Both flat and rebound UC verification report:
+`35087224839 — Object target lid rig envelope evidence` — **SUCCESS**.
 
-- **31 mesh nodes / primitives / materials**;
-- **812 triangles**;
-- finite positions/normals;
-- valid indices;
-- nondegenerate triangles;
-- winding matching supplied vertex normals.
+Python 3.11 completed the full path:
 
-No triangle or binary geometry drift is introduced by the scene-graph layer.
+- current Object tests;
+- exact source Rigging donor rebuild;
+- exact Technical Art target hierarchy rebuild;
+- exact raw + canonical identity binding;
+- identity gates;
+- pinned Godot 4.7.2 target-host run;
+- receipt validation;
+- retained artifact upload.
 
-## Godot 4.7.2 target-host proof
+Python 3.13 independently passed current tests, donor rebuild, target rebuild, binding and identity gates. Godot-specific steps are intentionally 3.11-only in this workflow and were skipped rather than failed on 3.13.
 
-The exact rebound GLB was imported with `GLTFDocument` in pinned **Godot 4.7.2-stable**, GL Compatibility.
+Exact Godot receipt state:
 
-Observed directly after import:
+`PASS_EXACT_LID_RIG_ENVELOPE_ON_UC_TARGET_HIERARCHY`
 
-- `latch_0_keeper` parent = `lid_shell`;
-- `latch_1_keeper` parent = `lid_shell`;
-- both lower levers remain outside the lid subtree;
-- a direct review-only **+50° X lid transform** moves each keeper mesh center by **0.815027356147766 m**;
-- both lower lever mesh-center drifts remain exactly **0.0 m**;
-- retained closed vs 50° target frames differ by **83,442 pixels**.
+Measured target-host bounds:
 
-The retained images were directly inspected. They show the expected neutral case and a clearly opened lid/keeper assembly while the lower front-body construction remains in place. The neutral grey proof presentation is structural transport evidence, not final Materials/LookDev or Art Direction acceptance.
+- maximum angle readback error: `2.50447816085853e-06 deg`;
+- maximum hinge-origin drift: `0.0 m`;
+- maximum fixed-component center drift: `0.0 m`;
+- maximum lid-child local-transform drift: `0.0`;
+- maximum rigid-component pairwise-distance drift: `6.33299350738525e-08 m`;
+- neutral-return maximum center drift: `0.0 m`;
+- neutral-return changed pixels: `0`.
 
-Target result:
+Visible changed pixels versus the retained neutral frame:
 
-`PASS_UC_RIGID_SCENE_GODOT_IMPORT_AND_LID_CHILD_TRANSFORM`
+- 0 deg: `0`;
+- 30 deg: `64,793`;
+- 60 deg: `88,915`;
+- 90 deg: `85,192`;
+- 110 deg: `88,097`.
 
-## Object exact-head CI / retained evidence
-
-Dedicated workflow:
-
-`35081970135 — Object UC rigid scene handoff evidence` — **SUCCESS**.
-
-- Python 3.13: complete Object test suite + cross-repo UC build/receipt verification success;
-- Python 3.11: same plus pinned Godot import, review transform, render capture and artifact retention success.
-
-All inherited same-head Object workflows observed for front-latch ownership, hard-surface interface, service-module fit, registration key and fastener clearance completed **SUCCESS**.
+The fixed `body_shell`, `latch_0_lever` and `latch_1_lever` remain at `0.0 m` center drift across the retained poses. Lid-owned keepers follow the lid hierarchy. The lid hinge knuckle mesh centers lie on the X articulation axis, so their center delta can remain zero while the rigid lid set rotates; that is expected and is not used as a false no-motion signal.
 
 Retained artifact:
 
-- ID: **10440591535**;
-- name: `object-uc-rigid-scene-965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
-- size: **83,519 bytes**;
-- GitHub SHA-256: `24298ae6b7467e3a90282cb485722ffbd4c6e5f0c84925370a6a1bcbf0125eee`;
-- independently downloaded/rehashed SHA-256: `24298ae6b7467e3a90282cb485722ffbd4c6e5f0c84925370a6a1bcbf0125eee`.
+- ID: **`10442163204`**;
+- name: `object-target-lid-rig-a462197421c06cffd46af327d6325cd75ef8aa1b`;
+- size: **186,634 bytes**;
+- GitHub digest: `sha256:af09b78d1f4f7eb147fec41566f8211e82bd857e239ac29b25504ccc7b0a5580`;
+- expiry currently reported by GitHub: 2026-10-16.
 
-Retained target images:
+The artifact contains the exact source JSON, exact donor articulation plan/evidence, Technical Art rigid-scene receipt, rebound GLB, dual-identity target binding, exact donor-head receipts, target-host receipt, and retained 0/30/60/90/110/neutral-return PNG evidence.
 
-- closed SHA-256: `98e8c761c94dbca7a2c7763619c539522b66fe29d414e95264c8a6c5eb3522df`;
-- 50° review transform SHA-256: `009732146dccc5325ca52532d8395a8c6c751bddca122825ef2c0c37eb07f126`.
+The digest above is the GitHub-retained artifact digest. This activation did not independently download and rehash the final ZIP, so no independent rehash claim is made.
+
+## Source clearance evidence versus target-host non-claim
+
+The exact source Rigging donor was rebuilt during the successful workflow and again produced:
+
+`PASS_CONTINUOUS_BODY_LID_SHELL_CLEARANCE_CERTIFICATE`
+
+for its own bounded source-space shell model, with certified minimum body/lid shell separation `0.012 m` across 0..110 degrees.
+
+That certificate does **not** become target-host continuous collision evidence merely because the target representative poses passed. The current target-host proof remains five static representative poses plus neutral return. `HOLD_TARGET_HOST_CONTINUOUS_COLLISION` therefore remains explicit.
 
 ## Placement decision
 
-This is one of the cases where a **small UC core extension is justified**, because the mechanism is generic and domain-neutral:
+No new UC capability was justified this activation.
 
-- Object owns its source geometry, stable component names, hinge pivot, latch ownership and intended rigid relationships;
-- UC owns only deterministic transport/verification of an explicit caller-authored named rigid hierarchy over exact already-published mesh nodes;
-- Technical Art owns the cross-repo binding/evidence path;
-- Animation still owns clip/choreography timing;
-- Runtime still owns receiving resource lifecycle and target performance;
-- Rigging/Hard-Surface still own articulation/mechanical semantics;
-- Materials/Art Direction/Visual QA still own surface/presentation acceptance.
+Correct ownership remains:
 
-No Object construction rule, latch policy, hinge policy, pivot inference, ownership inference or animation choreography was moved into UC.
+- Object / Rigging owns the exact articulation plan and semantic meaning;
+- Object source owns the mechanical component identities and hierarchy intent;
+- UC owns the already-merged neutral `axm.rigid-scene-graph/v0.1` transport/verification contract;
+- Technical Art owns the exact cross-repo receiving binding, evidence identity semantics, coordinate conversion and target-host proof lifecycle;
+- Animation owns clip/choreography timing;
+- Runtime owns controller/resource lifecycle/performance acceptance;
+- Hard-Surface / Rigging own mechanical articulation semantics;
+- Materials / Art Direction / Visual QA own final presentation acceptance.
+
+No latch, lid, hinge, animation, controller or Object ontology was centralized into UC for convenience.
+
+Profession Fabric remains unchanged. Its Technical Artist body is still experimental; one additional 3D receiving-boundary repair is not enough evidence for profession promotion or maturity claims.
 
 ## Handoffs
 
-### UC PR #157
+### Object Rigging PR #18
 
-The neutral contract is now proven not only by isolated UC tests but by a real independent receiving domain: exact Object source-owned rigid parts survive the generic scene graph into Godot without geometry payload drift. Keep the PR draft until normal UC review/merge authority acts.
-
-### Object Hard-Surface PR #14
-
-The exact ownership declaration now survives Object -> UC -> Godot: upper keepers import as `lid_shell` children while lower levers remain outside the lid subtree. This is transport evidence only, not a physical latch/capture PASS.
+The original exact-head failure was a receiving evidence-identity mismatch, not source-rig drift. The stacked Technical Art repair now proves the exact representative source-rig envelope on the real imported UC hierarchy. Rigging remains authoritative over the articulation itself; PR #19 should be treated as receiving/proof plumbing rather than silent Rigging adoption.
 
 ### Object Animation PR #10
 
-Technical Art now exposes exact target-host rigid nodes with the correct keeper parentage. The **101-sample latch/lid sequence has not been transported through UC and no `AnimationPlayer` was authored here**. Animation may now consume this exact node/pivot identity if it opens that next bounded lane.
+The real target hierarchy now has a proven representative lid envelope and explicit source->target sign conversion. This still does **not** transport the 101-sample animation sequence through UC, author an `AnimationPlayer`, or approve timing/clip quality.
 
 ### Object Runtime PR #13
 
-The prior statement that the exact UC GLB is static/unsplit is now superseded for this new PR #16 identity: a real UC-transmitted segmented rigid hierarchy exists and a direct target-host lid transform is proven. Runtime's existing resource-reuse result remains separate; sampled target playback cost/controller behavior has not transferred automatically.
+The hierarchy and representative target articulation now execute in a real Godot proof host. This does not establish controller/state-machine behavior, wall-clock playback, target-device performance or runtime budget acceptance.
 
-## Relationship to previous Technical Art evidence
+### Universal Creation
 
-The earlier Nature source-migration Technical Art proof remains valid for its exact lineage/artifacts. Later owning specialists have since closed its Procedural and Map receiving dependencies; this status therefore stops carrying those old holds as current state without rewriting the historical result.
-
-Object Technical Art PR #7 also remains valid and separate. It proves a static source-frame-bound service module/socket transport path; PR #16 proves generic named rigid hierarchy transport. Neither invalidates the other.
+No change required this activation. The neutral rigid-scene graph contract is now merged and is sufficient for this exact path. The correct repair belonged in the receiving Technical Art layer.
 
 ## Non-claims / remaining holds
 
 This activation does **not** prove or authorize:
 
-- merging UC PR #157 or Object PR #16;
-- generic arbitrary glTF hierarchy editing beyond the bounded flat UC-generated input contract;
-- arbitrary skinning, bones, blend shapes or deforming hierarchy transport;
-- `AnimationPlayer`, animation-channel export, or transport of Animation PR #10's exact 101-sample sequence;
-- runtime controller/state machine behavior or actual 40 Hz playback pacing;
-- latch hook/capture/retention mechanics or engineering validity;
-- continuous collision/physics clearance;
+- merging Object PR #19 or stacked Object PR #18;
+- arbitrary animation/skinning/blend-shape transport in UC;
+- transport of Animation PR #10's exact 101-sample clip;
+- `AnimationPlayer`, runtime controller/state-machine behavior or wall-clock playback;
+- continuous collision clearance on the imported target hierarchy;
+- physical latch retention, hinge engineering, friction, load, wear, damping or manufacturing validity;
 - gameplay or interaction acceptance;
-- final material/lookdev, Art Direction or Visual QA acceptance;
 - target-device FPS/GPU/VRAM/draw-call budgets;
+- final Materials/LookDev, Art Direction or independent Visual QA acceptance;
 - CANON or production readiness;
-- profession promotion or Technical Art / UC mastery.
+- Profession Fabric promotion;
+- Technical Art / UC mastery.
 
 ## Root gate
 
-- **Truth:** exact source, ownership, UC base/candidate, Object receiving head, GLB digests, unchanged BIN payload, target import and renders remain separately bound; structural transport is not relabelled animation/gameplay/visual acceptance.
-- **Agency / non-domination:** UC receives only a caller-authored generic hierarchy contract; it does not infer domain ownership or silently rewrite source authority. No merge or CANON authority was exercised.
-- **Continuity:** prior Nature and Object PR #7 evidence remains historical/current for its exact scope; new PRs are additive, reversible and exact-head bound.
-- **Wisdom before speed:** the repair is one small reusable graph layer over existing UC surface/GLB machinery, with a real Object receiving proof, rather than a second exporter or an Object-specific subsystem inside UC.
+- **Truth:** raw file identity and canonical semantic identity are now separate named facts; source, donors, GLB, target-host result and artifact remain exact-head bound. The failed intermediate runs are preserved rather than rewritten out of history.
+- **Agency / non-domination:** source/Rigging semantics remain source-owned; UC transports only caller-authored generic hierarchy state; Technical Art does not claim authority over Animation, Runtime, mechanical engineering, visual acceptance, merge or CANON.
+- **Continuity:** the repair is stacked on the exact active Rigging lane, prior Technical Art/UC evidence remains valid in Git history, UC's merged generic contract remains unchanged, and all changes are additive/reversible.
+- **Wisdom before speed:** two small boundary defects were isolated and repaired at their actual receiving/proof layer instead of weakening identity checks, rewriting the source rig, or expanding UC with Object-specific knowledge.
 
 ## Current state
 
-`PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / HOLD_ANIMATION_CLIP_TRANSPORT / HOLD_RUNTIME_CONTROLLER / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_VISUAL / DRAFT_NO_MERGE`
+`PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / UC_RIGID_SCENE_GRAPH_MERGED / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / PASS_DUAL_EVIDENCE_IDENTITY_BOUNDARY / PASS_EXACT_LID_RIG_TO_UC_TARGET_ENVELOPE / HOLD_ANIMATION_CLIP_TRANSPORT / HOLD_RUNTIME_CONTROLLER / HOLD_TARGET_HOST_CONTINUOUS_COLLISION / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_VISUAL / OBJECT STACK DRAFT`
