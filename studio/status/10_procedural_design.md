@@ -1,7 +1,7 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-16
-State: **PASS_MAP_WEST_SAPLING_SOURCE_AWARE_SEEDED_VARIATION_REPAIR / ORIGINAL PROXY FAMILY PRESERVED / 3 MATERIAL SEEDS PASS / SEED_7 REJECTS 3 INVALID ATTEMPTS BEFORE SOURCE-COMPATIBLE OUTPUT / EXACT CI + RETAINED FAILURE CONTROL PASS / MAP-LOCAL / NO UC OR PROFESSION-FABRIC EXTRACTION**
+State: **PASS_MAP_MULTI_SOURCE_SEEDED_RECEIVING_COMPATIBILITY / FOUR EXACT SOURCE SLOT GATES / 3 MATERIAL SEEDS PASS / SEED_7 REJECTS 11 ATTEMPTS BEFORE ALL_SOURCE_COMPATIBLE_OUTPUT / OBJECT_ROTATION_POLICY_EXPLICIT / FAILURE_CONTROL PASS / EXACT CI + RETAINED EVIDENCE / MAP_LOCAL / NO UC OR PROFESSION-FABRIC EXTRACTION**
 
 ## Current activation
 
@@ -11,249 +11,168 @@ Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design
 
 The immediately previous Procedural status remains recoverable as exact Git blob:
 
-`94b5c2dcd53c7c2c15749471d54de54b786add0c`
+`6ea0fa9c004c7c730cd5bdc1dc651791954531e6`
 
-Its Building result `PASS_SOURCE_EXACT_SYMMETRIC_COMPONENT_ROW_GENERATOR` remains valid against Building PR #4 exact head `e110bb94fe4c6300df065050b0a279badacdc919`. That source-exact Building-local derivation is historical truth and is not rewritten by this Map repair.
+Its prior single west-sapling source-aware PASS remains historical truth and is not rewritten by this activation.
 
 ## Constellation / duplication scan
 
-The current eleven-repository scan supported repairing one already-existing procedural contract instead of opening a new generator lane.
+The whole design constellation was scanned before changing code. No grounded repeated production family justified inventing a new Weapon, Armor, Unit or Misc generator. Character and Animal are currently constrained by Organic / QA / Art Direction evidence. Building, Nature, Weather and Object already have active domain-local procedural or source-authoring lanes that should not be copied into Map. Object articulation/material/runtime work and Nature leaf-sidedness work are separately owned.
 
-- **Weapon:** no current source-owned repeated asset family requiring Procedural work.
-- **Armor:** no current source-owned repeated asset family requiring Procedural work.
-- **Character:** Organic form is still behind independent QA/source-migration decisions. Procedural body variation would outrun accepted form identity.
-- **Unit:** no current repeated source pattern strong enough for proceduralization.
-- **Animal:** Geometry already owns the bounded connected-forelimb ring-phase sweep while Organic/Rigging visual-deformation review remains active. A second parameter sweep would duplicate that work.
-- **Building:** the previous Procedural pass already extracted the exact repeated pavilion box rows. Hard-Surface and Materials retain their own active responsibilities. No reason exists to widen Building into arbitrary variants.
-- **Nature:** Nature Procedural already owns source-local branch/crown variation and migrated-lineage rebinding. Geometry/Materials now own the separate leaf-sidedness question.
-- **Weather:** Weather Procedural already owns deterministic seeded field variation. Current VFX work consumes source-owned Weather variants rather than asking Procedural to copy the generator.
-- **Map:** Procedural PR #3 already owns bounded seeded nature/object proxy placement. Later Environment work then proved an exact source-owned west sapling inside one retained generated layout, exposing a real acceptance gap in that older proxy-only generator. This is the selected repair.
-- **Object:** existing Procedural work already owns bilateral service-module configurations. Current latch/lid work belongs to Hard-Surface, Rigging, Animation, Technical Art and Runtime; no duplicate procedural mechanism lane was opened.
-- **Misc:** no current repeated source-owned pattern strong enough for Procedural work.
+Map, however, now has one repeated receiving-side pattern that has materially matured since the previous Procedural pass: the same deterministic six-proxy placement family feeds multiple slots for which exact source-owned replacements have independently been proven in receiving evidence. The old source-aware generator checked only the west sapling. That meant a structurally valid seeded layout could still reserve too little space for another already-proven real source.
 
-Current Map Environment PR #21 and the newer Weather-variant VFX receiving work are not duplicated here. They consume already-selected receiving identities. This activation changes only whether future Map Procedural variants may truthfully be called compatible with the already-proven west Nature source envelope.
+This is a Map receiving-contract problem, not a reason to proceduralize Nature/Object source semantics or centralize them into UC.
 
-## Repeated pattern / acceptance gap selected
+## Bounded repair selected
 
-Existing Map Procedural lane:
+Extended existing Map PR #3 rather than opening a duplicate lane.
 
-- repository: `mike-axiom-mir/axm-map-design`;
-- PR: **#3 — `Add bounded seeded environment variation family`**;
-- branch: `studio/procedural-environment-variation-001`;
-- original family: `axm.environment-variation-family/v0.1`;
-- original proxy-only evidence seeds: `7 / 29 / 83`.
+Exact current Map Procedural head:
 
-The original family was correctly bounded for **proxy composition**. It jittered only declared nature/object proxies, varied uniform scale/rotation inside authored ranges, and rejected candidates through the existing Map composition gate. Later Environment evidence materially changed what one of those slots is expected to host:
+`1ee14b799ba6918ef20b4052d34758e7cae1c29d`
 
-- target: `proxy:nature-tree-west-a`;
-- exact source: Nature `sapling-neutral-001`;
-- Nature source head: `fbc202449981f2bac153951c561ed0ed6120c936`;
-- exact source digest: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
-- exact mesh digest: `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`;
-- exact retained mesh: `390 vertices / 570 triangles`;
-- exact retained source size: `2.1603629093570857 × 1.4132717100681425 × 4.8610059432109285 m`;
-- receiving proof: Map Environment PR #4 head `e1cc463f0ae64d76da360fd9d4e87c5f551b6321`, retained artifact `10428450742`;
-- placement semantics: preserve receiving center XY, ground source minimum Z, no source scaling and no extra source rotation.
+Existing family remains unchanged:
 
-That later exact evidence exposed a genuine generator contract hole:
+`axm.environment-variation-family/v0.1`
 
-> a variant can PASS the old proxy composition gate while its reserved west-tree envelope is too small for the exact already-proven no-scale source.
+- same six declared Nature/Object proxy targets;
+- same authored XY jitter / uniform-scale / rotation ranges;
+- same deterministic `random.Random(seed)` sequence;
+- same maximum 32 attempts;
+- same Map composition evaluator;
+- same fail-closed philosophy.
 
-Historical seed `7`, attempt `0`, is the concrete case. Its old proxy-only output remains structurally valid as a proxy study with exact digest:
+New smallest reusable receiving contract:
 
-`37d7bce32e2a555f603fe5a03fe1886d1735c083bdba1d590244ceb171a5e224`
+`axm.environment-source-aware-variation-gate-set/v0.1`
 
-But its west-tree slot size is only:
+It composes four exact receiving-envelope gates without importing source-domain generation logic:
 
-`2.030724 × 2.030724 × 4.799894 m`
+1. **west sapling / `proxy:nature-tree-west-a`**
+   - Nature source head `fbc202449981f2bac153951c561ed0ed6120c936`;
+   - source digest `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
+   - mesh digest `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`;
+   - required source envelope `2.1603629093570857 x 1.4132717100681425 x 4.8610059432109285 m`;
+   - retained Map receiving artifact `10428450742`.
 
-The exact source height is `4.8610059432109285 m`, so that old candidate is approximately `0.06111194321092839 m` too short for the retained no-scale source contract even though the original proxy composition evaluator says PASS.
+2. **compact east tree / `proxy:nature-tree-east-b`**
+   - Nature source head `64116d63fc76daa1623b5fd5046a4e6074100bda`;
+   - source digest `9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`;
+   - mesh digest `c7367ed5dcea6ebe39869c48fd653845b25c9a8725a2e637a1d6f2fbee1fa32f`;
+   - Nature-authored declared fit envelope `1.6 x 1.6 x 4.0 m`;
+   - retained Map receiving artifact `10431229631`.
 
-This is not a Nature geometry defect and not an Environment/VFX styling question. It is a Procedural acceptance problem: the seeded rejection loop needs to know when a generated receiving envelope cannot host the exact source it is now meant to represent.
+3. **rear/right tree / `proxy:nature-tree-east-a`**
+   - migrated Nature source head `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
+   - source digest `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`;
+   - migrated mesh digest `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
+   - required source envelope `1.4659581334685274 x 1.2481818925645483 x 4.090100386015876 m`;
+   - retained Map receiving artifact `10437582047`.
 
-## Smallest reusable repair
+4. **west Object / `proxy:object-crate-west`**
+   - Object source head `d3fa10a270faae7925811f44f03381fe5c5d0215`;
+   - source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+   - generated OBJ SHA-256 `3e01ef3bf4935ee6aee7c56c03dc0b7f54c308e5ac2eb6a7583252a366901106`;
+   - deterministic local source envelope `0.87 x 0.57 x 0.422 m`;
+   - retained Map receiving artifact `10439842400`;
+   - explicit receiving rotation policy `FOLLOW_TARGET_Z_ROTATION` matching the already-proven Map Object replacement contract.
 
-The existing PR #3 branch now adds one Map-local source-aware acceptance layer instead of replacing the original generator.
+Nature gates use `NO_EXTRA_SOURCE_ROTATION`. Rotation policy is data, not inferred from category names. Unsupported policy fails before generation.
 
-Current exact head:
+## Acceptance / failure behavior
 
-**`6da17ad8a16bb93897c8099e1d23ea5789c9faf0`**
+For every deterministic attempt the existing Map candidate is generated first, unchanged. It is retained only when:
 
-New gate schema:
+- the original Map composition evaluator passes; and
+- **all four** declared source-envelope gates pass on that same candidate.
 
-`axm.environment-source-aware-variation-gate/v0.1`
+Otherwise the candidate is retained as rejected evidence and the existing seed stream advances. The generator does not widen ranges, rescale source assets, drop a failed source dependency or choose a least-bad result.
 
-New retained sweep schema:
+The retained rejection record now captures per-source PASS/HOLD state, checks and remaining margins. A source dependency therefore becomes visible evidence instead of an implicit assumption.
 
-`axm.environment-source-aware-variation-sweep/v0.1`
+A synthetic negative control makes only `compact-east-source-envelope-001` impossible, caps attempts at three and proves that one impossible declared dependency HOLDS the entire candidate set for all three attempts. It is explicitly labelled synthetic and is not an asset candidate.
 
-The repair:
+## Multiple-output evidence
 
-- preserves the original `environment_variation.py` family semantics, seed sequence, RNG, mutation ranges and Map composition evaluator;
-- pins the exact retained west-sapling source identity and source dimensions from the earlier Environment receiving proof;
-- evaluates the varied west proxy's rotated AABB footprint and reserved height against that exact source envelope;
-- accepts a generated attempt only if **both** the unchanged Map composition gate and the source-envelope gate PASS;
-- keeps the source unscaled;
-- keeps the original family bounds unchanged;
-- never chooses a nearest/least-bad result;
-- records every rejected attempt with its candidate digest, composition state, source-envelope state and remaining margins;
-- returns HOLD after bounded attempt exhaustion.
+The exact family still retains three materially different evidence seeds: `7`, `29`, `83`.
 
-Failure policy:
+Scoped result:
 
-`FAIL_CLOSED_KEEP_SEED_SEQUENCE_NO_BOUND_WIDENING_NO_SOURCE_SCALE_NO_LEAST_BAD_VARIANT`
+**`PASS_MAP_MULTI_SOURCE_SEEDED_RECEIVING_COMPATIBILITY`**
 
-The source-aware gate remains Map-local. It does not generate Nature geometry, infer Nature form, or move Nature semantics into Map.
+- seed `29`: PASS at attempt `0`; historical study digest remains exactly `6bb6a6436f2b13aff58a210b252bfcef310c8fd1cc76c2198d75cad819f0c499`;
+- seed `83`: PASS at attempt `0`; historical study digest remains exactly `fb06a593a65dc93ca619acf4288cea403aee3763573318d3be7c1e78cb8ecb7b`;
+- seed `7`: old single-west-source gate could accept attempt `3`; the four-source gate set correctly rejects **11** candidates and accepts attempt `11` instead.
 
-## Multi-output evidence
+The seed-7 rejection trail proves the new contract is materially active rather than decorative: rejected candidates include west-sapling, compact-east and rear/right Nature source-envelope HOLDs plus ordinary Map composition failure. The west Object envelope is non-blocking for these retained samples, but remains validated and provenance-bound on every candidate.
 
-The repair is not accepted from one lucky seed. The exact original evidence seeds `7 / 29 / 83` were rerun through the stronger combined gate.
+Total rejected attempts across the three retained seeds: **11**.
 
-| seed | historical proxy-only result | source-aware result | accepted attempt | accepted study digest |
-|---|---|---|---:|---|
-| `7` | proxy composition PASS at attempt `0`, but source envelope too short | **PASS_SOURCE_AWARE_VARIATION** after bounded rejections | `3` | `7d3adaa566e3dc32f2d3cb1709436e4df91ce2396f2eab20535a856d949ca649` |
-| `29` | PASS | **PASS_SOURCE_AWARE_VARIATION** unchanged | `0` | `6bb6a6436f2b13aff58a210b252bfcef310c8fd1cc76c2198d75cad819f0c499` |
-| `83` | PASS | **PASS_SOURCE_AWARE_VARIATION** unchanged | `0` | `fb06a593a65dc93ca619acf4288cea403aee3763573318d3be7c1e78cb8ecb7b` |
+The historical proxy-only generator remains regression-pinned; this repair changes its source-aware acceptance layer, not its random family.
 
-Scoped sweep result:
+## Exact CI and retained evidence
 
-**`PASS` — 3 / 3 materially different accepted variants, 3 / 3 unique study digests, 3 total rejected attempts.**
+Exact workflow:
 
-### Exact seed-7 rejection trail
+`35092338539 — Procedural environment variation` — **SUCCESS**
 
-The stronger contract retains why the seed advances instead of hiding failed candidates.
+Both Python 3.11 and Python 3.13 compile/regression jobs pass. Python 3.11 also rebuilds and retains both proxy-only and four-source-aware multi-seed evidence.
 
-1. **Attempt 0**
-   - original Map composition: `PASS`;
-   - source envelope: `HOLD`;
-   - west slot: `2.030724 × 2.030724 × 4.799894 m`;
-   - exact source height deficit: `-0.06111194321092839 m`;
-   - historical proxy-only digest remains `37d7bce32e2a555f603fe5a03fe1886d1735c083bdba1d590244ceb171a5e224`.
+Inherited exact-head Map composition workflow:
 
-2. **Attempt 1**
-   - original Map composition: `PASS`;
-   - source envelope: `HOLD`;
-   - west slot: `1.880597 × 1.880597 × 4.445048 m`;
-   - exact source height deficit: `-0.4159579432109286 m`.
+`35092338553 — Environment composition baseline` — **SUCCESS**
 
-3. **Attempt 2**
-   - source envelope: `PASS`;
-   - original Map composition: `FAIL`;
-   - west slot: `2.369816 × 2.369816 × 5.601384 m`;
-   - the generator therefore still refuses the candidate rather than treating source fit as authority over Map composition.
+Retained exact-head artifacts:
 
-4. **Attempt 3**
-   - original Map composition: `PASS`;
-   - source envelope: `PASS`;
-   - west slot: `2.301 × 2.301 × 5.438727 m`;
-   - accepted digest: `7d3adaa566e3dc32f2d3cb1709436e4df91ce2396f2eab20535a856d949ca649`;
-   - remaining source-fit AABB margins: approximately `[0.4300682990, 1.1771594983, 0.5777210568] m`.
+- `environment-variation-001-evidence`
+  - artifact ID `10444951162`;
+  - size `11,595` bytes;
+  - GitHub-retained SHA-256 `9be776f8ff0544054791a877b27c799d4efed43c4a1a281127a23bc5bc08fbc1`.
 
-This is the intended behavior: exact source fit cannot override the existing composition authority, and proxy composition cannot silently imply exact source compatibility.
+- `environment-source-aware-variation-001-evidence`
+  - artifact ID `10444458826`;
+  - size `23,041` bytes;
+  - GitHub-retained SHA-256 `998dd92a3fb279b455fb8e03b5e43601e0ec785c192232d6e60aa8f4caa4bc05`.
 
-## Original family continuity
+These new archive digests are reported from GitHub Actions metadata. They were **not independently downloaded/re-hashed in this activation**. The exact study digests and attempt-history assertions above are separately regression-pinned and passed in CI.
 
-The old proxy-only contract is not silently rewritten.
+Map PR #3 is **OPEN / MERGEABLE** at the exact head above.
 
-Regression tests pin its exact historical seed outputs:
+## Placement decision / non-overlap
 
-- seed `7`: `37d7bce32e2a555f603fe5a03fe1886d1735c083bdba1d590244ceb171a5e224`;
-- seed `29`: `6bb6a6436f2b13aff58a210b252bfcef310c8fd1cc76c2198d75cad819f0c499`;
-- seed `83`: `fb06a593a65dc93ca619acf4288cea403aee3763573318d3be7c1e78cb8ecb7b`.
+Correct home remains **Map** because this contract decides whether Map's authored seeded receiving envelopes can host exact external source bodies. Source-domain meaning stays where it already belongs:
 
-Those remain truthful proxy-composition results. The source-aware layer is the stronger acceptance contract only when the exact west sapling is intended to occupy that varied slot.
+- Nature owns Nature form/topology/material/deformation semantics;
+- Object owns Object geometry/interfaces/articulation/material semantics;
+- Environment owns world-art usefulness and composition adoption;
+- Runtime owns cost if a generated layout is actually adopted;
+- Art Direction / Visual QA own perceptual acceptance.
 
-The current exact-world seed `29` therefore remains unchanged. This activation does not invalidate or rewrite current Environment PR #21 merely because future procedural variants now have a stronger acceptance gate.
+No UC change is justified. The four gates are receiving-scene constraints coupled to this Map family, not a neutral cross-domain creation primitive.
 
-## Failure bounds
+No Profession Fabric change is justified. Its generic bounded-variation evidence procedure may rerun this repository's generator/evaluator, but Map rules and source gates remain in Map.
 
-Two fail-closed paths are exercised beyond the successful three-seed sweep.
-
-- an unknown source-aware target fails validation before generation rather than being guessed or redirected;
-- a synthetic impossible `100 × 100 × 100 m` source envelope, with exactly three allowed attempts, exhausts all three and returns **`HOLD_SOURCE_AWARE_VARIATION`**.
-
-That retained negative control does not widen family ranges, scale the source, change the seed, or accept a least-bad candidate.
-
-## Exact-head verification
-
-Exact head:
-
-`6da17ad8a16bb93897c8099e1d23ea5789c9faf0`
-
-Dedicated workflow:
-
-**`35086919320 — Procedural environment variation` — SUCCESS**
-
-- Python 3.11 compile: PASS;
-- Python 3.11 full regression suite: PASS;
-- original proxy-only multi-seed evidence rebuild: PASS;
-- source-aware multi-seed evidence rebuild: PASS;
-- source-aware artifact retention: PASS;
-- Python 3.13 compile: PASS;
-- Python 3.13 full regression suite: PASS.
-
-Retained source-aware artifact:
-
-- ID: **`10443035216`**;
-- name: `environment-source-aware-variation-001-evidence`;
-- size: **`15,479 bytes`**;
-- exact workflow head: `6da17ad8a16bb93897c8099e1d23ea5789c9faf0`;
-- GitHub archive SHA-256: **`a6197b8e60b39dd07010961823f1510e110601cd9175ec5954baaac581ed0e7b`**;
-- independently downloaded and rehashed to the same SHA-256.
-
-The archive retains:
-
-- all three accepted source-aware variants;
-- per-seed JSON receipts;
-- all three seed-7 rejection reasons;
-- accepted OBJ and top-view SVG evidence for each seed;
-- summary/provenance bindings;
-- the bounded impossible-source failure control.
-
-## Placement / reuse decision
-
-This remains **Map-local**.
-
-Why:
-
-- the mutation semantics are still Map composition semantics: which receiving proxy moves, how far, at what scale/rotation and under which path/spacing rules;
-- Nature owns the source geometry and meaning; Map only carries an exact previously-proven source envelope as a receiving constraint;
-- Universal Creation should not gain Map placement rules or a vegetation-specific acceptance policy for convenience;
-- Profession Fabric may describe/verify bounded-variation evidence procedures, but it should not become the mutation engine or source-slot authority;
-- one source-aware west-sapling consumer does not justify a universal source-placement framework.
-
-Capability Cartography can reconsider placement only after materially different receiving domains independently need the same neutral source-envelope acceptance behavior with compatible failure semantics.
+No new generator was opened in Weapon, Armor, Unit or Misc to create artificial coverage. Character/Animal active evidence lanes were not duplicated. Nature leaf-sidedness, Object rigging/animation/Technical Art/Runtime, Weather/VFX and Building lanes remain independent.
 
 ## Handoffs
 
-- **Environment / World Art:** current seed `29` remains exact and source-compatible, so current-world PR #21 needs no rework from this activation. If future seeds are materialized with the exact west sapling, consume the source-aware Procedural acceptance rather than assuming the old proxy-only PASS transfers.
-- **Nature:** no source rewrite, scale or geometry change occurred. Nature source authority stays exact and no new Nature rebind is requested.
-- **Visual Observer / Art Director:** this is structural procedural acceptance, not visual approval. The retained top-view boards show generated placements only; they do not prove attractive vegetation rhythm, final hierarchy or final world art.
-- **Runtime / Optimization:** no target-device FPS, draw-call, memory, LOD or streaming claim is made by source-envelope fit.
-- **VFX / Weather:** Weather generator and live atmosphere semantics remain separate and unchanged.
-- **Capability Cartographer:** this is a useful receiving/procedural dependency distinction, but not a UC extraction trigger. Historical proxy identity remains historical while source-aware acceptance is attached to exact source-envelope evidence.
-- **Procedural next pass:** add another source-aware slot only when exact source receiving evidence and repeated multi-seed need exist. Do not blanket-constrain unknown proxies or infer source envelopes from category labels.
+Environment / World Art may use the retained source-compatible variants as bounded candidates, but must still judge whether any is useful in the current world. Art Direction / Visual QA should not inherit aesthetic acceptance from envelope PASS. Nature/Object owners should update their own receiving gates only when exact source identity or required envelope materially changes. Runtime must remeasure any different seeded layout that becomes a receiving baseline rather than inheriting current-world budgets.
 
-## Truth boundary / non-claims
+Capability Cartography may record the repeated distinction between source-owned identity and receiving-envelope compatibility, but this activation does not support moving either domain knowledge or Map placement policy into a shared central system.
 
-This PASS proves only that the existing Map-local seeded proxy mutation loop can additionally reject candidates that cannot host the exact retained west-sapling envelope, while preserving the original Map composition authority, RNG, mutation ranges, historical proxy outputs and bounded failure behavior.
+## Explicit non-claims
 
-It does **not** prove:
+This activation does **not** prove:
 
-- that Nature source generation was revalidated in this branch; the gate consumes exact retained prior receiving evidence;
-- arbitrary source geometry fit beyond the exact pinned west sapling envelope;
-- compact east-tree, rear-tree, Building or Object replacement compatibility across arbitrary seeds;
-- final visual quality, believable vegetation distribution or clutter quality;
-- traversal/gameplay acceptance beyond the existing structural Map composition checks;
-- renderer/engine equivalence or target-device performance;
-- material/lookdev, deformation/wind or VFX quality;
-- a generic Universal Creation source-placement framework;
-- Profession Fabric promotion;
+- visual attractiveness, final dressing or hierarchy;
+- arbitrary-seed safety outside the retained bounded family and attempt limit;
+- final adoption of any generated layout;
+- final Nature topology/material/deformation correctness;
+- final Object materials, articulation, attachment or physical behavior;
+- collision, navigation or gameplay quality;
+- target-device FPS, GPU, VRAM, memory, LOD or streaming budgets;
+- optimal randomness or general procedural world generation;
+- Art Director / Visual QA acceptance;
 - CANON, production readiness, game readiness or Procedural Design mastery.
 
-## Four-root check
-
-- **Truth:** the historical proxy PASS is preserved as historical truth, while its missing exact-source implication is named explicitly. Exact source identity, rejected attempts, accepted attempts, CI and retained artifact digest are separated.
-- **Agency / non-domination:** Nature keeps source authority and Environment keeps world-art authority. Procedural cannot silently scale the source, widen bounds or override the existing composition evaluator.
-- **Continuity:** original seed digests remain pinned and rollbackable; current seed `29` world identity remains unchanged; the previous Building Procedural status remains preserved by exact blob identity.
-- **Wisdom before speed:** the repair strengthens one proven receiving relationship instead of inventing a universal procedural source-placement system from one source case.
+The scoped claim is only that the unchanged Map-local seeded placement family can now fail closed against **four exact already-proven source-receiving envelopes at once**, while preserving source authority, deterministic provenance, rollback and bounded failure behavior.
