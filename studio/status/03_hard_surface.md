@@ -1,197 +1,174 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-16
-State: **PASS_HINGE_PIN_BORE_CLEARANCE_REVIEW_ENVELOPE / OBJECT PR #25 EXACT HEAD VERIFIED / CURRENT SOLID PIN-KNUCKLE OVERLAP CHARACTERIZED / DERIVED BORE CANDIDATE ONLY / HOST SOURCE UNCHANGED / UC + PROFESSION FABRIC UNCHANGED**
+State: **PASS_FACETING_AWARE_ANNULAR_KNUCKLE_REVIEW_MESH / OBJECT PR #25 EXACT HEAD VERIFIED / CLOSED ORIENTED CANDIDATE TOPOLOGY / HOST SOURCE UNCHANGED / NO SOURCE ADOPTION / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the previous Hard-Surface status, newest specialist state, current source files and open design PRs before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist state, source files and open design PRs before selecting work.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation lives in `mike-axiom-mir/axm-object-design`; this repository changes only this specialist status record.
+`axm-create-me` remains **coordination only**. Product/evidence implementation remains in `mike-axiom-mir/axm-object-design`; this repository changes only this specialist status record.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Building current-source panel rebind remains preserved in Git history at exact Building PR #5 head `c9fdb50c2a94476eff8bf3272ee8ee2b79b1d42c`, workflow `35127265373`, artifact `10459334853`, SHA-256 `50cbd5488eec8070d59bc319dfff22248e0217c6152a8cff8d0d04baf4da3ed9`. This pass did not extend that Building consumer lane.
+The immediately previous Object result remains preserved in Git history: exact PR #25 head `e790eac8d9f9e40d77d7ffe944fb036ccb6cf4e5` proved the analytic `axm.object-hinge-pin-bore-clearance/v0.1` review envelope without changing the host source. This activation does not relabel or erase that result; it adds a stricter mesh-realization check on top of it.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon:** still no implementation-ready manufactured source/consumer requirement; no speculative weapon was invented to create activity.
-- **Armor:** no independent stable fitted-hardware source surface yet; active Character geometry/deformation remains the stronger prerequisite.
-- **Character:** newest work remains organic/geometry/rigging-owned; no manufactured shell or plate boundary justified a Hard-Surface takeover.
-- **Unit:** no source asset or exact mechanical handoff stronger than current Character prerequisites.
-- **Animal:** active Organic/Geometry/Rigging work is source-owning and rebinding the elbow/body chain; no manufactured lane was duplicated.
-- **Building:** Hard Surface has already source-owned the closed/outward topology, named producer result and header segmentation; Procedural, Materials and Map are actively consuming/rebinding those results. No new pavilion cleanup or consumer migration was opened.
-- **Nature:** current issues remain procedural/environment/visual-runtime concerns rather than manufactured geometry.
-- **Weather:** current work remains VFX/runtime-owned.
-- **Map:** current work is actively receiving Building/Weather/Object outputs through Environment, Technical Art, VFX and Runtime lanes; no Map-owned hard-surface source was invented.
-- **Object:** dense with specialist work, so existing latch, animation, materials, UC transport and runtime lanes were left alone. A distinct unowned manufactured construction fact remained in the exact source builder: five solid closed hinge-knuckle cylinders and the coaxial solid hinge-pin cylinder occupy the same radial volume. Earlier Rigging/Hard-Surface evidence explicitly did not claim a bored knuckle or full-component collision, so this is a fresh bounded construction gap rather than a retroactive failure.
-- **Misc:** still no evidence-backed manufactured requirement stronger than the Object hinge construction gap.
+Weapon, Armor, Unit and Misc still expose no stronger implementation-ready manufactured source requirement. Character and Animal remain primarily organic/geometry/rigging owned. Building already has active Hard-Surface source topology/producer/header work with downstream Procedural, Materials and Map consumers. Nature and Weather remain procedural/VFX/runtime-led. Map is receiving those domain outputs rather than owning a new manufactured source. Object is dense, so latch, Rigging, Animation, Materials, Technical Art and Runtime lanes were not duplicated.
 
-The previous instruction not to automatically continue Building or Object was therefore respected: Object was selected only after direct current-source inspection exposed a concrete unowned solid-geometry contradiction that matters if the hinge proof is ever promoted toward real manufactured geometry.
+A concrete Hard-Surface gap did remain inside existing Object PR #25 itself: the prior `0.010 m` bore was an **analytic radius envelope**, while the exact host hinge is constructed from regular **12-segment** cylinders. A nominal `0.001 m` circumradius difference between pin and bore therefore does not automatically equal `0.001 m` of actual polygon-surface clearance.
+
+That is a direct manufactured-modeling issue, not a reason to source-adopt the bore or invent another asset.
 
 ## Selected bounded improvement
 
-Repository:
+Repository: `mike-axiom-mir/axm-object-design`
 
-`mike-axiom-mir/axm-object-design`
+Existing draft PR: **#25 — `Hard Surface: bound hinge pin bore-clearance envelope`**
 
-New stacked draft PR:
+Branch: `studio/hard-surface-hinge-pin-bore-clearance-001`
 
-**#25 — `Hard Surface: bound hinge pin bore-clearance envelope`**
-
-Branch:
-
-`studio/hard-surface-hinge-pin-bore-clearance-001`
-
-Exact base:
-
-Hard-Surface PR #24 head:
+Exact base remains Hard-Surface PR #24 head:
 
 `9582cd72d69a7fd7b7fc220f40f3d4781d9d03ed`
 
-Exact PR #25 head:
+Exact current PR #25 head:
 
-**`e790eac8d9f9e40d77d7ffe944fb036ccb6cf4e5`**
+**`584a6b0078c7e9c60f214dc87d5427d3126421e2`**
 
 PR state after evidence completion: **OPEN / DRAFT / MERGEABLE**.
 
-## Gap and source observation
+## Gap measured before changing
 
-Exact unchanged Object host source:
+Exact unchanged host facts retained from the source:
 
 - asset: `modular-equipment-case-001`;
-- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
 - hinge axis: `+X`;
-- derived hinge-line origin: `[0.0, 0.252, 0.306] m`;
-- five knuckles, each `0.10 m` long;
-- knuckle outer radius: `0.021 m`;
-- hinge pin radius: `0.009 m`;
-- hinge pin length: `0.70 m`;
-- source segments: `12`.
+- five knuckles;
+- source knuckle outer circumradius: `0.021 m`;
+- source pin circumradius: `0.009 m`;
+- exact source segmentation: `12`;
+- previous analytic review bore radius: `0.010 m`;
+- previous bore contract SHA-256: `4dacff22053c39fcd037cdb568480dafdf78e52b18b9994965f1c396b344f4d7`.
 
-`tools/build_modular_case.py` builds every knuckle with the same closed solid-cylinder primitive used for the pin. Because the pin is coaxial and passes through all five knuckle spans, the current emitted proof geometry contains exact positive-volume pin/knuckle overlap.
+For same-phase regular 12-gons, the minimum facet-normal separation from a `0.001 m` circumradius delta is:
 
-That observation does **not** invalidate earlier structural, Rigging, Animation or Technical Art evidence: those lanes did not claim full collision, a physical bearing/bore, or production hinge engineering. It does identify the next Hard-Surface boundary required before treating the proof cylinders as physically passable manufactured solids.
+`0.001 * cos(pi/12) = 0.0009659258262890691 m`.
+
+So the previous `0.010 m` analytic envelope remains truthful as a radial review envelope, but if materialized directly as a 12-gon bore it would provide only about **0.966 mm** minimum mesh-surface gap, not a full `1.000 mm`.
+
+The shortfall is about **0.034074 mm**. This is the bounded issue repaired here.
 
 ## Bounded repair performed
 
-PR #25 adds Object-local:
+PR #25 now also adds Object-local:
 
-**`axm.object-hinge-pin-bore-clearance/v0.1`**
+**`axm.object-hinge-pin-annular-mesh/v0.1`**
 
-The host source stays byte-identical. The contract/verifier preserves the exact source hinge line, knuckle centers/lengths/owners, `0.021 m` outer radius, `0.009 m` pin radius, `0.70 m` pin length and 12-segment identity.
+The host source remains byte-identical and the previous analytic bore contract remains a pinned prerequisite rather than being silently replaced.
 
-It adds only a **derived review candidate**, not a source adoption:
+The derived review mesh uses the exact source axis, five knuckle centers/lengths/owners, outer radius and 12-segment identity, but compensates the bore circumradius for polygon faceting:
 
-- coaxial bore radius: `0.010 m`;
-- nominal radial pin-to-bore clearance: **`0.001 m`**;
-- remaining knuckle wall: **`0.011 m`**;
-- declared minimum review wall: `0.010 m`;
-- host source geometry changed: **false**.
+- analytic review bore radius: `0.010 m`;
+- faceting-aware mesh bore circumradius: **`0.010035276180410082 m`**;
+- compensation delta: **`0.00003527618041008172 m`**;
+- retained minimum mesh pin-to-bore surface clearance: **`0.0009999999999999996 m`**;
+- retained minimum faceted knuckle wall: **`0.010591109915468822 m`**.
 
-The verifier also retains a cross-section SVG so the radial distinction is inspectable directly without pretending the candidate is a manufacturing drawing.
+The candidate is emitted as five actual annular +X knuckle shells plus retained OBJ/receipt/SVG evidence. This is still a **derived review candidate only**, not a host-source successor.
 
 ## Exact structural result — PASS
 
 Dedicated workflow:
 
-**`35133545103 — Object hinge-pin bore-clearance evidence` — COMPLETED / SUCCESS**
+**`35139841030 — Object hinge-pin bore-clearance evidence` — COMPLETED / SUCCESS**
 
-Exact head:
+Exact checkout/head:
 
-`e790eac8d9f9e40d77d7ffe944fb036ccb6cf4e5`
+`584a6b0078c7e9c60f214dc87d5427d3126421e2`
 
-Python 3.11 and Python 3.13 both passed compile plus the complete Object unittest suite. Python 3.11 additionally generated and retained the exact evidence package.
+Python 3.11 and Python 3.13 both passed compile plus the complete Object unittest suite. Python 3.11 ran **43 tests**, generated the historical analytic bore receipt, generated the new annular mesh candidate and retained the evidence package.
 
-Scoped result:
+Scoped results:
 
-**`PASS_HINGE_PIN_BORE_CLEARANCE_REVIEW_ENVELOPE`**
+**`PASS_DERIVED_ANNULAR_KNUCKLE_MESH_FACET_CLEARANCE`**
 
-Exact retained observations:
+**`PASS_CLOSED_ORIENTED_ANNULAR_KNUCKLE_TOPOLOGY`**
 
-- source pin radius: `0.009 m`;
-- source knuckle outer radius: `0.021 m`;
-- candidate bore radius: `0.010 m`;
-- radial clearance: `0.0010000000000000009 m` (`0.001 m` nominal);
-- remaining knuckle wall: `0.011000000000000001 m` (`0.011 m` nominal);
-- five exact knuckle intervals preserved;
-- current solid source-builder pin/knuckle overlap observation: **`0.0001272345024703866 m³`** across the five knuckle spans;
-- candidate bore void volume: `0.00015707963267948968 m³`;
-- candidate pin/shell overlap: **`0.0 m³`**;
-- host source geometry changed: **false**.
+Exact retained candidate facts:
+
+- five intended disconnected annular knuckle shells;
+- `240` vertices total;
+- `480` triangles total;
+- each knuckle: `48` referenced vertices / `96` triangles / one edge-connected shell;
+- aggregate boundary edges: `0`;
+- aggregate non-manifold edges: `0`;
+- aggregate orientation conflicts: `0`;
+- aggregate degenerate triangles: `0`;
+- aggregate triangle components: `5`, matching the five separate knuckles;
+- host source geometry changed: `false`;
+- source adoption: `false`.
 
 ## Fail-closed controls
 
-The exact verifier rejects:
+The retained proof rejects:
 
-- zero radial clearance (`bore_radius == pin_radius`);
-- a bore that consumes the declared minimum remaining knuckle wall;
-- hinge-axis drift away from the exact source +X axis;
-- host-source identity drift;
-- source knuckle-count / segmentation drift through the normal validation path.
+- the uncompensated `0.010 m` 12-gon bore because its observed minimum surface gap is only `0.0009659258262890691 m`;
+- a single reversed candidate triangle, which produces orientation conflicts;
+- bore-contract identity drift;
+- host-source identity drift and source segmentation/knuckle-count drift through the prerequisite and mesh validation path.
 
-This keeps the review envelope attached to one exact source identity rather than becoming a loose numeric recommendation.
+This protects the distinction between an ideal-radius review envelope and a real faceted mesh realization.
 
 ## Retained evidence
 
 Artifact:
 
-- ID: **`10462865602`**;
+- ID: **`10464194086`**;
 - name: `modular-equipment-case-001-hinge-pin-bore-clearance-evidence`;
-- size: **`4,297 bytes`**;
-- GitHub SHA-256: **`7d28479f14a5243f7020c95c4a04b7f879d53dd326513026b0caac462f001423`**;
-- exact workflow head: `e790eac8d9f9e40d77d7ffe944fb036ccb6cf4e5`;
-- contract SHA-256: `4dacff22053c39fcd037cdb568480dafdf78e52b18b9994965f1c396b344f4d7`.
+- size: **`10,978 bytes`**;
+- exact workflow head: `584a6b0078c7e9c60f214dc87d5427d3126421e2`;
+- GitHub SHA-256: **`60ac218a679ec7d8fd62690d96b20c39dc37b31f84abed5723f8d2ba180c7dba`**;
+- annular-mesh contract SHA-256: `29dded2a32239bec9d46142965174725ad5f5310d0f59644c458d29ab20cf093`;
+- prerequisite bore contract SHA-256: `4dacff22053c39fcd037cdb568480dafdf78e52b18b9994965f1c396b344f4d7`.
 
-The ZIP was downloaded after CI and independently rehashed to the exact GitHub digest above. It contains the exact host source, contract, exact-head receipt, structural receipt and cross-section SVG.
+The ZIP was downloaded after CI and independently rehashed to the exact GitHub digest above. It contains nine retained files including the exact head, host source, both contracts, both receipts, both SVG proofs and the generated annular-knuckle OBJ.
 
-## Provenance / handoffs
+## Provenance / handoff
 
-PR #25 was updated with the exact SUCCESS result and retained artifact identity.
+PR #25 received exact-result comment `5703220472` with the new mesh result, workflow, artifact and non-claims.
 
-Hard-Surface PR #24 received comment `5702399910`: its axial-stop PASS remains truthful because this pass does not change the source or axial-stop overlay. If a bored-knuckle source successor is later adopted, the axial-stop evidence must explicitly rebind rather than inherit geometry compatibility by assumption.
+No existing Rigging, Animation, Materials, Technical Art, Runtime or Map claim was silently upgraded. Their current source evidence remains truthful because the host source did not change. If a bored-knuckle source successor is intentionally adopted later, consumers that depend on actual knuckle geometry must explicitly rebind/rerun.
 
-Rigging PR #3 received comment `5702401364`: its exact articulation/shell-clearance evidence remains truthful for the unchanged source/hinge identity, but the new derived bore candidate must not be silently treated as full-component collision truth or a new rig geometry identity. A future bored-knuckle source adoption requires explicit consumer rebind/rerun where actual knuckle geometry matters.
-
-No Animation, Materials, Technical Art, Runtime, Map or UC code was changed.
-
-## Reusable learning / placement
-
-Bounded Hard-Surface lesson:
-
-> **An articulation proof can truthfully establish axis, ownership and shell motion while its visible primitive hinge remains only symbolic. Before promoting that proof toward manufactured solid geometry, explicitly test whether pin and knuckle volumes can physically coexist, and keep any bore/clearance candidate source-bound until adoption is intentional.**
-
-This is useful beyond one case as a review question, but only one Object source currently carries retained evidence for it.
-
-**No Universal Creation extraction.** UC already has generic geometry/transport machinery; it should not own Object hinge clearance semantics merely for convenience.
-
-**No Profession Fabric promotion.** One manufactured hinge candidate is insufficient evidence for a profession-wide default bore/tolerance rule.
+No Universal Creation or Profession Fabric code was changed. The reusable lesson — regular-n-gon faceting can make nominal radius clearance larger than the actual minimum surface clearance — remains Object-local because only one retained source currently demonstrates the need. A second independent domain occurrence would be stronger evidence for generic extraction.
 
 ## Truth boundary / non-claims
 
-This PASS establishes only that, for the exact unchanged Object source, one coaxial derived review bore of `0.010 m` radius gives the unchanged `0.009 m` pin the declared `0.001 m` radial clearance while retaining `0.011 m` of the exact `0.021 m` knuckle radius, and that this derived annular interpretation eliminates pin/shell radial overlap mathematically.
+This PASS proves only that one exact source-bound derived annular knuckle mesh can preserve at least the declared `1 mm` geometric pin-to-bore surface gap under the exact 12-segment same-phase construction while retaining more than the declared `10 mm` minimum faceted knuckle wall, and that the five candidate shells pass the stated edge/topology checks.
 
 It does **not** establish:
 
-- source adoption of bored knuckles;
-- a production mesh with annular/bored knuckle topology;
-- class of fit, manufacturing tolerance or tolerance stack;
+- host-source adoption of bored knuckles;
+- source pin topology repair or pin production geometry;
+- manufacturing tolerance, class of fit or tolerance stack;
 - bearing behavior, friction, lubrication or damping;
-- pin retention force, press/snap fit, strength, fatigue, wear, sealing or service procedure;
-- boolean/CAD validity or machinability;
+- retention force, strength, fatigue, wear, sealing or service procedure;
+- CAD/boolean validity or machinability;
 - full articulated collision freedom;
-- Runtime physics, controller behavior or gameplay;
+- runtime physics, gameplay or controller behavior;
 - final bevels, normals, UVs, materials or visual acceptance;
-- a generic UC hinge/bearing schema;
+- a generic UC hinge/bearing/faceting contract;
 - Profession Fabric promotion, CANON, merge authority, production readiness, game readiness or Hard-Surface mastery.
 
 ## Four-root gate
 
-- **Truth:** current solid-cylinder overlap is named explicitly without relabelling earlier non-collision claims as failures; exact source/head/workflow/artifact identities are retained.
-- **Agency / non-domination:** host source remains unchanged; the bore is a review candidate only; downstream specialists decide whether and when to rebind if source adoption ever happens.
-- **Continuity:** PR #25 stacks on PR #24 and preserves the exact existing hinge source/axis/axial-stop lineage rather than silently rewriting it.
-- **Wisdom before speed:** one physically meaningful construction ambiguity was bounded and measured without forcing a production bore, broad UC abstraction or speculative new asset.
+- **Truth:** the prior analytic PASS remains valid in its exact scope, while the newly exposed 12-gon realization shortfall is measured explicitly rather than hidden by the nominal radius delta.
+- **Agency / non-domination:** host source remains unchanged; the annular mesh is a review candidate only; no downstream source migration is forced.
+- **Continuity:** the new mesh contract pins both the exact host source and the previous bore contract, so the proof extends lineage instead of silently replacing it.
+- **Wisdom before speed:** one small but real manufactured-geometry discrepancy was corrected with retained evidence without broad UC abstraction, source churn or speculative new assets.
 
 ## Next Hard-Surface pass
 
-Re-scan the full constellation first. Do not automatically source-adopt this bore or continue Object merely because the candidate is green. Prefer a different manufactured weakness in Weapon, Armor, Unit, Building, Object or Misc only when current evidence exposes a concrete source/consumer requirement. A bored-knuckle source successor should happen only if a downstream visual/target/collision need now justifies the geometry migration and its provenance fan-out.
+Re-scan the full constellation first. Do **not** automatically source-adopt this annular bore or continue Object just because the derived mesh is green. Prefer a different concrete manufactured weakness when current evidence exposes one. A bored-knuckle source successor should happen only when an actual downstream visual, target-host, collision or production need justifies the provenance fan-out and explicit consumer rebinding.
