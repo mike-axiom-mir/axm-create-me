@@ -24,17 +24,11 @@ The bounded move was therefore to create one **real deterministic 3D composition
 
 Opened `mike-axiom-mir/axm-map-design` PR **#2 — Add first cross-asset environment composition baseline**.
 
-Branch:
+Branch: `studio/environment-composition-baseline-001`
 
-`studio/environment-composition-baseline-001`
+Exact base: `5c9f743af53bc9586a136d17e7fb29e384a6930c`
 
-Exact base:
-
-`5c9f743af53bc9586a136d17e7fb29e384a6930c`
-
-Exact tested head:
-
-`c6a13d87f7dbb75f5f7765fa2e55b890a1078264`
+Exact tested head: `a233763af97fd0ac187013c97659af3496fbe177`
 
 Added:
 
@@ -55,20 +49,16 @@ The first study composes four explicit asset classes in one 24 m × 18 m scene:
 
 All geometry is explicitly `PROXY_ONLY`. Weather is represented only as a nonzero directional context with status `CONTEXT_ONLY_NOT_SIMULATED`.
 
-From the same source manifest the tool generates:
-
-- deterministic text `scene.obj` 3D geometry;
-- deterministic `top.svg` composition evidence;
-- `evidence.json` with the bounded structural result.
+From the same source manifest the tool generates deterministic text `scene.obj` 3D geometry, deterministic `top.svg` composition evidence, and `evidence.json` with the bounded structural result.
 
 ## Structural evidence
 
-GitHub Actions run **35044472697** completed both matrix jobs successfully for exact head `c6a13d87f7dbb75f5f7765fa2e55b890a1078264`:
+GitHub Actions run **35044571117** completed the substantive checks successfully for exact head `a233763af97fd0ac187013c97659af3496fbe177`:
 
 - Python 3.11: compile PASS; regression suite PASS; exact environment evidence build PASS; evidence artifact upload PASS.
-- Python 3.13: compile PASS; regression suite PASS. Evidence build/upload are intentionally 3.11-only and were skipped there.
+- Python 3.13: compile PASS; regression suite PASS. Evidence build/upload are intentionally 3.11-only and skipped there.
 
-The regression suite exercises:
+The tightened regression suite exercises:
 
 1. exact baseline PASS across all declared bounded checks;
 2. required presence of map/building/nature/object proxy classes;
@@ -78,19 +68,16 @@ The regression suite exercises:
 6. fail-closed detection when any candidate is relabelled as a final asset rather than `PROXY_ONLY`;
 7. fail-closed zero-length weather-context direction;
 8. deterministic OBJ/SVG generation from the same source;
-9. generated OBJ contains building, nature and object identities rather than a map-only shell.
+9. generated OBJ contains building, nature and object identities rather than a map-only shell;
+10. generated SVG contains both the readable-path cue and weather-direction visual cue.
 
-Retained Actions artifact:
+Retained Actions artifact: `environment-baseline-001-evidence`
 
-`environment-baseline-001-evidence`
+Artifact ID: **10425539589**
 
-Artifact ID: **10425459801**
+Artifact ZIP digest: `sha256:a110f50e4274f2126003eea1bb31d6f8883af94698e65a9d173c13eabfc92301`
 
-Artifact ZIP digest:
-
-`sha256:3c8382398e571874d142513d9209df83e3b51bcea03502b0922aaf26214ca406`
-
-The artifact is bound by GitHub to exact head `c6a13d87f7dbb75f5f7765fa2e55b890a1078264`.
+The artifact is bound by GitHub to exact head `a233763af97fd0ac187013c97659af3496fbe177`.
 
 ## Visual evidence boundary
 
@@ -106,8 +93,6 @@ Therefore:
 
 ## Replacement-by-contract rule
 
-This is the main reusable composition result of the pass:
-
 > A map-level proxy PASS does not transfer to a real department asset. Replace one proxy with a source-owned `building-design`, `nature-design`, `object-design`, or `weather-design` candidate, preserve exact provenance, then rerun the composition and visual checks.
 
 That lets the world become progressively real without centralizing source ownership into map-design or UC.
@@ -116,18 +101,7 @@ That lets the world become progressively real without centralizing source owners
 
 A PASS here means only that the exact proxy scene is deterministic, spans the declared asset classes, keeps the declared path clear, respects the declared proxy spacing, retains nonzero weather context, and keeps every composed asset explicitly labelled proxy-only.
 
-It does **not** establish:
-
-- final building architecture, vegetation or prop design;
-- believable scale beyond the declared numeric source values;
-- navigation, traversal, collision or gameplay encounter quality;
-- weather simulation, particles, wind response or VFX;
-- lighting, material or LookDev quality;
-- topology/manifoldness;
-- engine import, runtime performance or LOD acceptance;
-- Art Director / Visual Observer acceptance;
-- a studio-wide world style;
-- map-design or environment-art mastery.
+It does **not** establish final building architecture, vegetation or prop design; believable scale beyond declared numeric source values; navigation, traversal, collision or gameplay encounter quality; weather simulation, particles, wind response or VFX; lighting, material or LookDev quality; topology/manifoldness; engine import, runtime performance or LOD acceptance; Art Director / Visual Observer acceptance; a studio-wide world style; or environment-art mastery.
 
 The PR remains **OPEN**. Green structural CI is not silently converted into visual acceptance, merge, CANON or production readiness.
 
