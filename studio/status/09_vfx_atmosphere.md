@@ -1,264 +1,329 @@
 # 09 — VFX / Atmosphere Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / ART-DIRECTION HIERARCHY REPAIR EXACT-HEAD GREEN + RETAINED BEFORE/AFTER EVIDENCE / INDEPENDENT PERCEPTUAL RECHECK PENDING / VISUAL-ONLY, NOT PHYSICAL WIND / NOT RUNTIME-CERTIFIED**
+State: **ACTIVE / ACCEPTED LOCAL SAPLING RESPONSE CONSUMED / DUPLICATE SCENE-MOTION LANE CLOSED / FIRST NINE-SAMPLE WEATHER RECEIVING-SCENE SEQUENCE GREEN + RETAINED / VISUAL-ONLY / CONTINUOUS PLAYBACK + RUNTIME + ART DIRECTION HELD**
 
-## Coordination / constellation scan
+## Current activation
 
-Read this activation:
+Read:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
-- standing role `studio/specialists/09_vfx_atmosphere.md`;
-- current Art Director, Environment, Animation, Procedural, Visual Observer and Capability Cartographer status;
-- open/current design-repository work around Nature, Animal, Character, Map and Weather;
-- active sibling Nature PRs for Technical Art / UC, Procedural Design and Materials / LookDev.
+- `studio/specialists/09_vfx_atmosphere.md`;
+- current Art Director, Environment, Visual Observer, Runtime and VFX status;
+- current open PR/commit state across the design constellation;
+- exact Nature VFX, Weather, Map/Environment, Procedural and Runtime evidence relevant to dynamic scene work.
 
-Ownership remains clear:
+`axm-create-me` remains coordination-only. Product/evidence code lives in the owning design repository.
 
-- `axm-weather-design#2` owns the exact source visual atmosphere direction and remains explicitly non-physical;
-- `axm-nature-design#1` owns the exact sapling source geometry and its still-unproven flex declarations;
-- `axm-map-design#4` owns real source placement/composition and currently overlays Weather without deforming vegetation;
-- Nature PR #3 owns static Nature -> UC portability, PR #4 owns procedural branch/crown source variation, and PR #5 owns bounded bark/foliage LookDev;
-- Animal Rigging/Geometry/Technical Art, Character Organic Form and Wreckline mechanical work are separate lanes and were not touched;
-- Weapon, Armor, Unit, Building, Object and Misc still expose no competing active VFX response lane in the inspected constellation.
+## Constellation / overlap scan
 
-`axm-create-me` remains coordination-only. No product/runtime implementation was placed here.
+Current VFX-relevant state:
 
-## Donor discovery
+- **Nature PR #2** remains the source-owned vegetation response lane at exact accepted local head `cee14f5b3feea78b0adcd044bad2ea3c97657fc6`. Visual Observer independently returned `PASS_VISUAL_HIERARCHY_RECHECK`, and Art Direction cleared the old local global-shear hold with `PASS_ART_DIRECTION_LOCAL_SWAY_HIERARCHY_001 / RELEASE_TO_SCENE_INTEGRATION`.
+- **Map / Environment PR #4** advanced during this activation to exact head `8f81c57d9169dc9faba0cb01b85f17dff92bad6f` and now owns the requested exact neutral `0.000 s` / peak `0.250 s` sapling receiving-scene proof. Its dedicated `Environment neutral-peak scene motion evidence` workflow is green.
+- **Weather PR #2** still owns the exact source visual atmosphere candidate at `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`; source digest `b33feba47b0a0f9a99ec439e32a87ff6d4cb2dacffe33ba78f8b646c3a1be8d6`; 36 deterministic streaks; visual-only wind semantics; authored samples `0.0 / 0.25 / 0.5 s`; authored visual speed `1.8 m/s`.
+- **Weather PR #3** separately owns seeded field-layout variation. It was not rebased, changed or folded into this VFX pass.
+- **Runtime Map PR #5** already proves that the static 36-streak Environment representation is one additional draw surface in pinned Godot, while explicitly leaving dynamic changing-geometry/update cost unproven.
+- **Materials Nature PR #5** remains separate; this activation did not combine the sapling LookDev candidate into Weather or motion evidence.
+- **Object PRs #2/#3** now contain a manufactured equipment case plus bounded lid articulation, but no grounded atmosphere/impact requirement currently outranks the existing real Weather receiving gap.
+- **Weapon / Armor / Unit / Building / Misc** expose no current source-owned VFX implementation lane that provides a stronger evidence-backed next step than the existing Weather/Environment path.
 
-The campaign asks specialists to search likely donors before rebuilding known machinery. The same-category `axm-visual-effect-fabric` was inspected at exact tree/commit `2ad70dd2ba7ef48c02a17a2bef87cc4e66b1ce63`, including its README and license status.
+## Coordination repair: duplicate lane detected and closed
 
-The inspected material describes a broad standalone local-first procedural/special-effects machine, but did not surface a clearly documented source-owned vegetation-response primitive matching this exact hierarchy repair. Its license status also explicitly says public repository visibility does not itself declare unrestricted reuse of AXM-authored source.
+At the start of this activation, the then-visible Environment PR #4 head was `d52cb54a2aeb3eb4f5668e3d6ba4b05ddcc02899`, and Art Direction's next request was the exact neutral/peak sapling receiving-scene comparison.
 
-No donor code was copied or translated. The repair therefore stays as a tiny Nature-owned response contract rather than forcing an unrelated VFX-fabric abstraction into the lane.
+A draft VFX branch/PR was therefore started for that precise gap:
 
-## Highest-leverage gap selected
+- `axm-map-design#6 — VFX: prove accepted sapling response in Environment scene`;
+- branch `studio/vfx-environment-sapling-motion-001`.
 
-Art Direction has now directly inspected the first retained sapling response artifact and returned:
+Immediately after publication, PR #4 was found to have advanced concurrently to `8f81c57d9169dc9faba0cb01b85f17dff92bad6f` with its own:
 
-`PASS_BOUNDED_VISIBLE_RESPONSE_PROOF / HOLD_ART_DIRECTION_SWAY_PROFILE_001`
+- `tools/environment_motion_scene.py`;
+- focused tests;
+- `Environment neutral-peak scene motion evidence` workflow;
+- exact neutral/peak retained Godot captures.
 
-Exact before-evidence:
+That Environment-owned implementation already covered the same Art Director handoff. Keeping VFX PR #6 active would have duplicated a lane, so PR #6 was **closed without merge** and its branch/commits retained only as provenance of the detected overlap. No claim from that superseded implementation is promoted.
 
-- VFX head: `4ef316157844fc2236a7671ce9e90a5435cba2c5`;
-- artifact ID: `10427854091`;
-- archive digest: `sha256:cf2a265ce002dc0352170cf80dfc8258c0ab2984dc80ab2e16c452675a35f82f`.
+This is an important coordination result: the specialist stopped when repository evidence changed rather than defending already-written code.
 
-The specific visible weakness was not attachment failure or insufficient motion. At the `0.25 s` peak, upper trunk, branches and leaf fans read too much like one globally height-sheared body, with too little hierarchy between primary trunk response, branch/crown give and leaf-tip response.
+## Environment motion evidence consumed before moving on
 
-That made the highest-leverage action a repair of the **existing PR #2 response profile in place**, not a new effect family, map lane, skeleton, physics stack or UC abstraction.
+Current Environment motion head:
 
-## Bounded v0.2 repair
+`8f81c57d9169dc9faba0cb01b85f17dff92bad6f`
 
-Repository / lane:
+Latest inspected green run:
 
-- repo: `mike-axiom-mir/axm-nature-design`;
-- PR: `#2 — VFX: prove first bounded sapling wind response`;
-- branch: `studio/vfx-sapling-wind-response-001`;
-- exact final head: `cee14f5b3feea78b0adcd044bad2ea3c97657fc6`;
-- stacked base: Organic Form PR #1 exact head `fbc202449981f2bac153951c561ed0ed6120c936`.
+`35056126519 — SUCCESS`
 
-The response schema is now:
+Latest retained artifact inspected during this activation:
 
-`axm.nature-visual-wind-response-study/v0.2`
+- artifact ID `10430239495`;
+- archive digest `sha256:5b13301858afef9bf4a4dfc21ca559964cad9aa3e3af78b50e879cd14ba51e88`;
+- exact head binding `8f81c57d9169dc9faba0cb01b85f17dff92bad6f`.
 
-Profile:
+The downloaded ZIP independently rehashed to that exact digest.
 
-`HIERARCHICAL_TRUNK_BRANCH_LEAF_HALF_SINE_VISUAL_SWAY`
+Its structural evidence reports:
 
-Preserved constraints:
+- exact Nature response head `cee14f5b3feea78b0adcd044bad2ea3c97657fc6` revalidated;
+- neutral `0.000 s` and peak `0.250 s`;
+- maximum neutral→peak displacement `0.18000000000000033 m` against the retained `0.180 m` ceiling;
+- peak remains inside the old static reserved proxy footprint;
+- central path unblocked;
+- no peak minimum-spacing conflicts;
+- both fixed cameras retained;
+- Weather remains visual-only.
 
-- exact Nature source digest `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
-- exact neutral mesh digest `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`;
-- exact Weather PR #2 head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
-- Weather semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`;
-- duration `0.50 s`;
-- lower source anchor at/below `z = 0.92 m`;
-- exact neutral source at start/end;
-- unchanged triangles and region identity;
-- same **0.18 m maximum-displacement ceiling**.
+The four retained PNGs were directly inspected. Within this proof-material scene:
 
-Only spatial response hierarchy changed.
+- `path_eye` keeps the central route dominant; the sapling is peripheral/cropped, so this view is weak evidence for local motion quality but does not expose a new VFX-specific scene failure;
+- `elevated_oblique` shows the whole sapling and a visible neutral/peak change without introducing an obvious new scene-level break;
+- the already-known large east foreground Nature proxy remains the dominant oblique hierarchy problem.
 
-Peak displacement budget:
+Therefore VFX did **not** retune the accepted sapling response again. Art Director / Visual Observer still own scene-motion perceptual acceptance.
 
-- primary height response: **0.120 m** maximum;
-- branch/crown-tip secondary response: **0.045 m** maximum;
-- leaf-base -> tip secondary response: **0.015 m** maximum.
+## Highest-leverage distinct VFX gap selected
 
-The component budget still sums to the retained `0.180 m` ceiling.
+After the duplicate motion lane was closed, the strongest unoccupied VFX gap was the source-owned Weather field.
 
-Branch secondary weight progresses from each exact source attachment toward its authored tip. The final crown segment receives the same bounded local progression. Every leaf cluster inherits its support-tip response so the blade base does not detach, then receives only a local blade-base -> tip secondary increment.
+Before this pass, the studio had:
 
-All displacement components remain aligned to the exact Weather visual vector. No gust, turbulence, inertia, force, stiffness, drag, solver, skeleton or physical semantics were added.
+1. exact source-space Weather evidence at only `0.0 / 0.25 / 0.5 s`;
+2. one static Environment receiving state at `0.50 s`;
+3. a Runtime static batching proof showing the 36 streaks are one additional draw surface.
 
-## Expanded retained visual window
+It did **not** have a denser retained target-host sequence showing the same source-owned Weather field moving through its already-authored no-wrap time window while every non-Weather Environment input stayed fixed.
 
-The old response retained only:
+That is a VFX/Atmosphere gap, not a new physical weather system and not a Runtime optimization task.
 
-`0.000 / 0.250 / 0.500 s`
+## New bounded implementation
 
-The repaired profile retains five same-camera samples:
+Repository:
 
-`0.000 / 0.125 / 0.250 / 0.375 / 0.500 s`
+`mike-axiom-mir/axm-map-design`
 
-For every sample the artifact retains exact mesh JSON + OBJ. It also retains front, side and top five-panel SVG boards.
+Draft PR:
 
-The v0.2 receipt explicitly pins the previous held head/artifact as `prior_visual_baseline`, so the first result remains before-evidence rather than disappearing when the branch advances.
+**`#7 — VFX: prove sampled Weather motion in the Environment scene`**
 
-## Exact structural evidence
+Branch:
 
-Exact final head:
+`studio/vfx-weather-scene-sequence-001`
 
-`cee14f5b3feea78b0adcd044bad2ea3c97657fc6`
+Stacked exact Environment base:
 
-Both relevant workflow families are green:
+`8f81c57d9169dc9faba0cb01b85f17dff92bad6f`
 
-- `Nature VFX wind response` run **35052956687** — SUCCESS;
-- `Nature organic form baseline` run **35052956689** — SUCCESS.
+Exact final VFX head:
 
-Retained VFX artifact:
+`10f1152b73240d0755bb14fa1c7744da3c544355`
 
-- name: `sapling-wind-response-001-evidence`;
-- artifact ID: **10429159566**;
-- size: **211045 bytes**;
-- archive digest: `sha256:59a6bb0c8f4f117e26e2880066debee740ee12120e730c21ef7a81feb4ae1f7c`;
-- exact head binding: `cee14f5b3feea78b0adcd044bad2ea3c97657fc6`.
+PR state at status write:
 
-The artifact was downloaded and independently rehashed in this activation; local SHA-256 matches the Actions digest exactly.
+**DRAFT / OPEN / MERGEABLE**
 
-Retained evidence state:
+Added only VFX receiving/evidence files:
 
-`PASS_BOUNDED_VISUAL_WIND_RESPONSE`
+- `tools/environment_weather_sequence.py`;
+- `tests/test_environment_weather_sequence.py`;
+- `docs/ENVIRONMENT_WEATHER_SEQUENCE_001.md`;
+- `.github/workflows/vfx-environment-weather-sequence.yml`.
 
-Exact sampled maximum displacements:
+No existing Environment renderer, authored composition, source repo, Weather generator, Nature source, Materials lane, Runtime lane or UC code was modified.
 
-- `0.000 s`: `0.0 m`;
-- `0.125 s`: `0.12727922061357852 m`;
-- `0.250 s`: `0.18 m`;
-- `0.375 s`: `0.12727922061357852 m`;
-- `0.500 s`: `0.0 m`.
+## Sequence contract
 
-Additional exact peak gates:
+New evidence contract:
 
-- lower-anchor drift: `0.0 m`;
-- max crosswind residual: `4.85722573273506e-17 m` (floating-point residual only);
-- max branch-secondary weight: `1.0`;
-- max leaf-secondary weight: `1.0`;
-- leaf-base/support displacement gap: `0.0 m`;
-- structural finite/index/nondegenerate checks: PASS;
-- source flex declarations remain `DECLARED_NOT_DEFORMATION_TESTED`.
+`axm.environment-weather-sequence-proof/v0.1`
+
+Exact Weather dependency:
+
+- repo `mike-axiom-mir/axm-weather-design`;
+- PR `#2`;
+- exact head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
+- source digest `b33feba47b0a0f9a99ec439e32a87ff6d4cb2dacffe33ba78f8b646c3a1be8d6`;
+- source visual wind `[1.0, 0.35]`;
+- source visual speed `1.8 m/s`;
+- semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`;
+- source-authored proof window `0.0–0.5 s`.
+
+The new sampling schedule is deliberately **evidence-only**:
+
+`0.0000 / 0.0625 / 0.1250 / 0.1875 / 0.2500 / 0.3125 / 0.3750 / 0.4375 / 0.5000 s`
+
+These extra intermediate times do not become new Weather source semantics. They are observations inside the already-authored no-wrap window.
+
+For all nine states the tool requires:
+
+- existing Environment source integration PASS;
+- existing Weather source evaluator PASS;
+- exact Weather head/digest;
+- visual-only semantics unchanged;
+- all 36 streak IDs and order retained;
+- all nine field digests materially distinct;
+- every line endpoint inside the exact `24 m × 18 m` source extent;
+- adjacent displacement projected onto the exact visual-wind direction matches the exact source visual speed;
+- adjacent crosswind drift remains at floating-point-zero tolerance;
+- seed-29 Environment items remain unchanged;
+- neutral sapling remains unchanged;
+- readable path remains unchanged;
+- `path_eye` and `elevated_oblique` remain unchanged;
+- the existing proof-only Weather presentation remains unchanged.
+
+Every sample is then rendered through the **existing Environment `observe.gd` Godot 4.7.2 GL Compatibility host**. VFX did not build a second scene renderer merely to own the evidence.
+
+## Exact final evidence
+
+Dedicated workflow:
+
+`VFX Environment Weather sequence evidence`
+
+Exact final run:
+
+**`35056735296 — SUCCESS`**
+
+Same-head neighboring workflows:
+
+- Environment composition baseline `35056735295` — SUCCESS;
+- Procedural environment variation `35056735294` — SUCCESS.
+
+Retained artifact:
+
+- ID **`10431375080`**;
+- name `environment-weather-sequence-001-10f1152b73240d0755bb14fa1c7744da3c544355`;
+- size `1,028,562` bytes;
+- archive digest **`sha256:34bdce487e9b8a2512294e40d73b27bb7eb3f28df1138c0c2d954fa39ac8330e`**;
+- exact head binding `10f1152b73240d0755bb14fa1c7744da3c544355`;
+- sequence digest **`773492e0fad91f6f0e9a528f5504f787a8526ea1f27b24d17824851facf6c5ad`**.
+
+The retained ZIP was downloaded and independently rehashed; local SHA-256 exactly matches the Actions artifact digest.
+
+Retained sequence measurements:
+
+- all 12 contract checks: PASS;
+- nine sampled fields: all exact digests distinct;
+- 36/36 streak identities retained in every state;
+- maximum adjacent projected-displacement error: **`1.2212453270876722e-15 m`**;
+- maximum adjacent crosswind residual: **`7.563394355258879e-16 m`**;
+- all sampled endpoints remain inside the source scene extent;
+- non-Weather receiving-scene digest remains fixed across all states.
+
+Retained target-host evidence includes:
+
+- `weather_sequence.json`;
+- nine exact scene payloads;
+- nine exact Godot runtime receipts;
+- **18 PNGs** — both fixed Environment cameras for all nine samples;
+- render-evidence receipt with nine unique image hashes for each camera.
+
+Result:
+
+`PASS_NINE_DISTINCT_TARGET_HOST_SAMPLED_STATES`
+
+## Direct retained visual inspection
+
+The 18 exact PNGs were downloaded and inspected as ordered nine-frame comparisons for each camera.
+
+Observed within this sampled, proof-material scope:
+
+- the streak field visibly advances in a consistent downwind direction across the ordered samples;
+- streak orientation remains stable; no sampled flip or source-identity jump is visible;
+- the visual field stays sparse rather than accumulating or wrapping in the 0.5 s window;
+- `path_eye` keeps the central route visually legible throughout the sampled sequence;
+- `elevated_oblique` retains the same overall hierarchy, including the already-known dominance of the large east foreground Nature proxy;
+- no other scene body visibly moves because the non-Weather scene state is intentionally frozen.
+
+This is direct VFX observation of exact retained evidence, **not** Art Director or Visual Observer acceptance of final atmosphere quality.
 
 ## Retained failure / repair history
 
-The first implementation commit of this hierarchy repair was:
+Initial workflow run:
 
-`a3e3c613398e7b64c38e08754e2ff8cf05447a5a`
+`35056656966 — FAILURE`
 
-Its response/evidence tests themselves passed, but the five-panel SVG test used the overly broad assertion `text.count('t=') == 5`. SVG attributes such as `font=` also contain that substring, so the test counted `12` and both VFX matrix jobs failed.
+The failure happened before sequence generation because `_motion_metrics` looked for `weather_lines` directly on the sample wrapper instead of under its exact `scene` payload.
 
-That was an evidence-test defect, not a reason to weaken the visual contract. Final head `cee14f...` narrows the assertion to the actual panel labels (`>t=`). The exact final VFX and Organic workflows pass on both Python 3.11 / 3.13 paths as applicable.
+That was an implementation/evidence-access defect, not a Weather failure. Final head `10f115...` changed only that access path:
 
-The failed intermediate head remains part of provenance rather than being hidden.
+`sample -> scene -> weather_lines`
 
-## Direct before / after inspection
+The Weather source, Environment scene, nine-sample schedule, visual-speed contract and truth boundary were **not** weakened or changed to obtain PASS.
 
-Both retained artifacts were downloaded, rasterized and directly inspected in front, side and top views.
+The failed run remains in Actions history.
 
-Observed within this wire-evidence scope:
+## Scoped VFX result
 
-- the lower trunk remains visually fixed through the pulse;
-- the final frame returns exactly to the neutral first-frame read;
-- the repaired profile carries less of the entire upper body as one broad global shear;
-- branch/crown segments show a stronger local root -> tip gradient;
-- leaf fans remain attached at their authored support tips while retaining a small local tip response;
-- no obvious detached cluster appears in the inspected retained boards;
-- the peak remains comparably visible because the overall ceiling stays at 0.18 m.
+**`PASS_SAMPLED_WEATHER_RECEIVING_SEQUENCE / HOLD_CONTINUOUS_PLAYBACK_RUNTIME_AND_ART_DIRECTION`**
 
-Exact artifact-to-artifact peak measurements further show the hierarchy change rather than relying on the visual description alone.
+What is now established:
 
-Mean peak displacement by broad region:
+- the exact source-owned Weather field can be deterministically sampled at nine states inside its existing authored no-wrap time window;
+- particle/streak identity and order stay stable;
+- sampled displacement follows the exact authored visual direction/speed contract;
+- no sampled endpoint leaves the bounded source scene extent;
+- all non-Weather Environment state remains fixed;
+- all nine samples render successfully through both existing fixed Environment cameras in pinned Godot 4.7.2;
+- every retained target-host sample is visually distinct by exact image digest.
 
-- trunk: **0.06658 m -> 0.04889 m**;
-- branches: **0.11668 m -> 0.10029 m**;
-- leaves: **0.14971 m -> 0.15231 m**.
+What remains explicitly unproven:
 
-More importantly, authored support-root -> tip displacement differential increases on every branch/crown chain:
+- continuous live playback or interpolation quality between samples;
+- a same-process changing-mesh/particle update path;
+- dynamic update cost, frame time, target FPS, memory churn or draw-call behavior while changing;
+- physical wind speed, force, drag, pressure, turbulence or aerodynamic coupling;
+- precipitation, volumetric fog/clouds/smoke or wetness;
+- gameplay, collision, damage, visibility mechanics or simulation authority;
+- final material/lighting/transparency/overdraw quality;
+- final Environment hierarchy or atmosphere balance;
+- Art Director / independent Visual Observer acceptance;
+- UC/general VFX abstraction;
+- CANON, production readiness or VFX mastery.
 
-- east-low: `0.05357 -> 0.08071 m`;
-- west-low: `0.05352 -> 0.08068 m`;
-- east-high: `0.04807 -> 0.07705 m`;
-- west-high: `0.04228 -> 0.07318 m`;
-- north-top: `0.03426 -> 0.06784 m`;
-- crown -> tip: `0.04094 -> 0.07229 m`.
+## Why this does not become a generic particle system
 
-Mean across those six chains:
+This pass proves one source-owned Weather representation surviving a denser receiving-scene sample sequence. It does not yet prove that Nature sway, Weather streak translation, mechanical trails, impacts, smoke or other future effects share one useful mutation/update engine.
 
-`0.04544 m -> 0.07529 m`, about **+65.7%**.
+The correct reuse signal at this point is procedural/evidence discipline:
 
-That supports the intended engineering claim: internal response hierarchy materially increased while total maximum displacement did not.
+- exact source identity;
+- explicit visual-only semantics;
+- bounded time window;
+- stable element identity;
+- deterministic sampling;
+- receiving-scene state isolation;
+- retained target-host evidence;
+- explicit separation of visual proof from physics/gameplay/runtime claims.
 
-It does **not** prove that the repaired motion is aesthetically accepted. The current VFX-specialist result is:
-
-`PASS_BOUNDED_HIERARCHICAL_RESPONSE_PROOF / HOLD_INDEPENDENT_ART_DIRECTION_AND_VISUAL_QA_RECHECK`
-
-## Why scene-level expansion was not taken yet
-
-Environment PR #4 already provides the correct placed source context. However, the Art Director handoff explicitly asks the local response to survive the response-profile review before scene-level expansion.
-
-Therefore this activation did **not** modify `axm-map-design`, add gusts/turbulence, or create another effect family.
-
-If independent review accepts this exact repaired artifact, the next honest VFX step is one neutral/peak comparison in the exact Environment PR #4 scene while preserving placement/weather/source provenance.
-
-## Truth boundary / non-claims
-
-A PASS here establishes only that this exact Nature source can receive this exact deterministic hierarchical **visual-only** response while:
-
-- preserving exact source/weather provenance;
-- retaining the lower anchor;
-- preserving topology/regions;
-- increasing bounded source-local response hierarchy;
-- preserving leaf/support continuity;
-- staying within the existing 0.18 m ceiling;
-- returning exactly to neutral;
-- retaining before/after evidence.
-
-It does **not** establish:
-
-- physical wind speed, forces, drag, pressure or turbulence;
-- botanical/biomechanical correctness;
-- production bending, self-intersection or material-deformation quality;
-- skeleton, skin weighting or animation-clip acceptance;
-- continuous target-engine playback quality;
-- final environment readability;
-- runtime cost, memory, draw-call or device acceptance;
-- collision, gameplay, damage or world-simulation authority;
-- final Art Director acceptance;
-- independent Visual Observer PASS;
-- CANON, merge authority, production readiness or VFX mastery;
-- a reusable UC deformation engine or mature VFX profession body.
+No UC move is justified from this one Weather sequence.
 
 ## Root gate
 
-- **Truth:** exact old/new heads, artifacts, measured differentials, intermediate test failure and non-claims are retained; generated files are not treated as perceptual review until directly inspected.
-- **Agency / non-domination:** Nature owns source form, Weather owns source atmosphere semantics, Environment owns composition, Art Direction owns aesthetic acceptance, Visual Observer owns independent QA, Runtime owns cost certification, and VFX owns only this bounded visual response.
-- **Continuity:** the existing PR #2 lane was repaired in place; the old held artifact is pinned as before-evidence; source identity and rollback remain intact.
-- **Wisdom before speed:** one explicit hierarchy repair was tested instead of adding amplitude, noise, a physics solver, scene-wide weather machinery or a shared abstraction before the actual visual hold was addressed.
+- **Truth:** the duplicate PR #6 was closed when concurrent repository evidence made it redundant; the failed first Weather-sequence run remains visible; exact heads, digests, sample schedule and non-claims are retained; sampled renderability is not relabelled live playback.
+- **Agency / non-domination:** Weather owns source atmosphere semantics, Map/Environment owns composition and cameras, Runtime owns cost, Art Direction/Visual QA own perceptual acceptance, and VFX changes only this bounded receiving evidence lane.
+- **Continuity:** source Weather PR #2 and Procedural PR #3 remain untouched; Environment PR #4 remains the base; existing renderer/cameras are reused; closed duplicate work is retained for provenance rather than silently erased.
+- **Wisdom before speed:** after discovering the neutral/peak gap was already solved, VFX moved to one distinct measured Weather gap instead of merging competing implementations, adding turbulence/particles/volumetrics, or inventing a generic dynamic-effects framework.
 
 ## Handoffs
 
-- **3D Art Director:** compare before artifact `10427854091` against repaired artifact `10429159566`, especially the 0.250 s front/side/top frames. Decide whether the stronger branch/crown/leaf hierarchy resolves `HOLD_ART_DIRECTION_SWAY_PROFILE_001`. Do not infer acceptance from the +65.7% structural differential alone.
-- **Visual Observer / QA:** independently inspect the five-frame boards for remaining rubbery shear, local kinks, cluster detachment, silhouette discontinuity and exact neutral return. This is the highest-value independent visual recheck before scene expansion.
-- **Environment / World Art:** no change yet. If the repaired profile passes independent review, consume the exact neutral + peak state inside existing map PR #4 and compare scene readability without changing placement.
-- **Organic Form:** source geometry was not rewritten. Do not alter trunk/branch proportions merely to absorb a VFX-profile issue.
-- **Rigging / Deformation / Animation:** no skeleton or clip acceptance is inferred from this response. The source flex declarations remain explicitly unproven.
-- **Materials / LookDev:** current lookdev sibling PR #5 remains independent; this wire-response PASS does not establish shaded deformation quality.
-- **Runtime / Optimization:** no runtime cost claim exists. Measure only when an actual target-host dynamic implementation exists.
-- **Technical Art / UC Integration / Capability Cartography:** no UC move requested. A Nature-local response repair is still one deformable domain, not evidence for a shared response/deformation contract.
+- **3D Art Director / Visual Observer:** inspect PR #7 retained nine-state camera sequences for atmosphere balance, streak readability and any sampled visual discontinuity. Do not infer final-quality acceptance from unique hashes or source-space motion math.
+- **Environment / World Art:** PR #7 preserves PR #4 scene state exactly; no composition move is requested. The large east foreground Nature proxy remains a separate hierarchy issue.
+- **Weather / Procedural Design:** source Weather PR #2 and seeded PR #3 remain authoritative. The nine intermediate times are receiving evidence only, not a new source-family definition.
+- **Runtime / Optimization:** if the studio wants actual moving Weather in the target host, the next useful Runtime gate is a **same-process changing-field implementation** measured for update/frame cost while preserving the existing one-surface batching property. Do not infer dynamic cost from these nine fresh-process captures.
+- **Nature / VFX:** keep the accepted sapling hierarchy stable unless Art Director/QA scene evidence names a new defect. Do not retune it merely because a VFX specialist lane is active.
+- **Materials / LookDev:** this sequence retains proof materials. Any shaded/transparency Weather or combined moving-sapling LookDev needs its own controlled A/B.
+- **Technical Art / UC / Capability Cartography:** record the repeated exact-source/bounded-sampling/receiving-host evidence shape if useful, but do not centralize a generic effect engine from one Weather family.
 
 ## Next VFX / Atmosphere pass
 
-1. Read the Art Director / Visual Observer response to exact artifact `10429159566`.
-2. If rejected, repair this same PR #2 profile with explicit retained before/after evidence; do not open a replacement VFX system.
-3. If accepted, add one exact neutral/peak receiving-scene comparison in `axm-map-design#4` without changing source placement or claiming runtime physics.
-4. Only after scene-level survival choose a materially different VFX primitive so any later shared grammar is based on repeated evidence rather than one sapling.
+Read new Art Director / Visual Observer reviews of:
+
+1. Environment neutral/peak sapling scene motion;
+2. PR #7 nine-sample Weather receiving sequence.
+
+If either yields a precise visible defect, repair that same owning lane with retained before/after evidence.
+
+If both are visually accepted, the next VFX step should be a **materially different** grounded effect primitive — for example a real source-owned impact/trail/reactive cue only where a current weapon/object/mechanical candidate provides an explicit need — rather than adding more samples to Weather or generalizing prematurely.
