@@ -1,242 +1,207 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-16
-State: **FAIL_TEMPORAL_SMOOTHING_ATTRIBUTION__STATIC_OPACITY_ATTENUATION_CONFOUND / PASS_TWO_TAP_RETAINED_FRAME_SPATIAL_NONCORRUPTION / PERCEPTUAL SMOOTHNESS + AUTHORED 32 HZ + FINAL ART + TARGET PERF HELD**
+State: **PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_VISUAL_READABILITY_GATE / OBJECT SCALE + FOOTPRINT CUE + NATURE QA + INNER LID + TARGET PERF HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, newest specialist status and current completed visual/runtime evidence across the design constellation before selecting one bounded gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the current Visual-QA status, newest Art Direction / Materials status, and current completed PR evidence across the design constellation before selecting one bounded gate.
 
-`axm-create-me` remains **coordination only**. Visual QA changed no Map, Weather, Environment, Nature, Building, Object, Animal, Character, Runtime, Universal Creation, Profession Fabric or gameplay implementation.
+`axm-create-me` remains **coordination only**. Visual QA changed no Map, Object, Nature, Building, Weather, Animal, Character, Runtime, Universal Creation, Profession Fabric or gameplay implementation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The most consequential completed unverified visual claim is the new **Map VFX PR #25 two-tap temporal-exposure Weather candidate**.
+The most consequential completed unverified visual claim is the **current-world Object base five-surface material family** on Map Environment PR #24 exact head `6575cc38db9f0f62b14a82b352d8582edf89856d`.
 
-Why this outranks opening another QA lane:
+Why this gate was selected:
 
-- Runtime PR #31 has now proved that inline PNG readback materially perturbed the earlier interpolation timing proof. That scopes the prior Visual-QA temporal-equivalence FAIL to its inline-capture proof configuration rather than making it a general rejection of continuous-phase interpolation.
-- VFX then added a distinct presentation candidate at exact head `92cfe5d0dc7e254c1c3e19c5fc168298dea3493a`, explicitly handing perceptual smoothness, ghosting and atmosphere prominence to Visual QA / Art Direction.
-- The candidate has direct retained A/B pixels: 9 deterministic phases × 2 cameras × control/candidate = 36 PNGs plus 36 raw RGBA8 frames.
-- Environment's Nature woody/foliage receiving result remains a strong separate QA surface and already has Art Direction preference, but the Weather candidate directly addresses the immediately preceding dynamic visual defect and carries an explicit smoothness/ghosting handoff.
-- Character shoulder work still retains nonzero sampled self-intersections; final shoulder acceptance remains premature.
-- Animal selected-003 left-side source successor already passed its earlier bounded Visual-QA source-space review; right-side bilateral propagation is structurally newer but still awaits downstream Geometry/Rigging before a stronger deformation-quality gate.
+- Environment has a real Godot `17 states × 2 cameras × 2 Weather modes = 68` retained-frame receiving proof for the exact Object material family.
+- 3D Art Direction has already preferred this exact family under `PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_PREFERENCE_011`, but explicitly held independent Visual QA.
+- The material delta is larger and more consequential to Object readability than the newer `161 / 106` pixel Map footprint cue. The footprint cue is now attribution-clean at Environment head `2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd`, but remains a separate later visual decision rather than a reason to skip the base material gate.
+- Object Materials' newer inner-lid source-identity rebind is provenance-only in its retained contexts: its 12 renders are byte-identical to the previous review. That is useful but less consequential than the current-world base-material change.
+- Character shoulder work still retains nonzero sampled self-intersections after the latest stitch-edge repair/rebind, so stronger Character deformation acceptance remains premature.
+- Animal bilateral source/deformation evidence is structurally newer, but its right-side chain still has separate Geometry/Animation/visual dependencies; it does not outrank a ready current-world 68-frame visual handoff.
+- The previous Weather two-tap result remains truthfully held behind `FAIL_TEMPORAL_SMOOTHING_ATTRIBUTION__STATIC_OPACITY_ATTENUATION_CONFOUND`; no attribution-clean successor was silently inferred here.
 
-No duplicate VFX, Runtime, Weather, renderer, Materials, Geometry or Art-Direction implementation lane was opened.
+No duplicate Materials, Environment, Runtime, Art-Direction, Geometry, Rigging or VFX implementation lane was opened.
 
 ## Exact reviewed identity
 
 Repository: `mike-axiom-mir/axm-map-design`
 
-PR: **#25 — `VFX: carry source-authored Weather width into current-world proof`**
+PR: **#24 — `Environment: converge Weather variant with exact Object source`**
 
-Exact reviewed head:
+Exact Object-material current-world head:
 
-`92cfe5d0dc7e254c1c3e19c5fc168298dea3493a`
+`6575cc38db9f0f62b14a82b352d8582edf89856d`
 
-Presentation policy:
+Exact fixed parent:
 
-`TWO_TAP_HALF_OPACITY_RECEIVING_ONLY_TEMPORAL_EXPOSURE`
+`72d4128b602e27c886a0731ddd670ec8c14aaa7e`
 
-Configured history lag:
+The parent already contains the current Building segmentation receiving state, Nature woody/foliage family and inherited Map Object footprint context. This review treats those as **fixed comparison context only**; it does not independently accept Nature materials or the footprint cue.
 
-`15.625 ms`
+Exact Object source authority:
 
-Deterministic review phases:
+`mike-axiom-mir/axm-object-design@d3fa10a270faae7925811f44f03381fe5c5d0215`
 
-`0 / 62.5 / 125 / 187.5 / 250 / 312.5 / 375 / 437.5 / 500 ms`
+Exact Object material authority consumed by Environment:
 
-Both fixed cameras remain `1100×720`.
+- Materials head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`;
+- material profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`;
+- exact host geometry remains `468 vertices / 812 triangles`;
+- five current-world roles are `shell_coating`, `service_dark`, `hardware_steel`, `rubber_guard`, `interface_orange`;
+- utility-module `module_housing` and the newer inner-lid experiment are excluded.
 
-## Owner technical result preserved
+## Retained evidence independently obtained
 
-Dedicated workflow:
+Candidate Environment artifact:
 
-**`35141844166 — VFX Weather bounded temporal exposure evidence` — SUCCESS**
+- ID `10466065113`;
+- size `6,925,693 B`;
+- GitHub SHA-256 `87dd366302e94b5a6f8241e110e9629c2d81a0d7321197b14a52b860642fd519`;
+- independently downloaded and rehashed to the exact same digest;
+- retained `exact-head.txt = 6575cc38db9f0f62b14a82b352d8582edf89856d`.
 
-Owner state:
+Exact parent artifact:
 
-**`PASS_BOUNDED_TEMPORAL_EXPOSURE_VISUAL_CANDIDATE`**
+- ID `10463255035`;
+- size `6,852,056 B`;
+- SHA-256 `a4dbc0e2b8ef6f16bb846d0f639b7935b414ddfe4222463f397d11a16cfc0a45`;
+- independently downloaded and rehashed identically;
+- retained `exact-head.txt = 72d4128b602e27c886a0731ddd670ec8c14aaa7e`.
 
-Retained artifact:
+Visual QA independently compared **all 68 exact parent/candidate frame pairs**.
 
-- ID `10465239147`;
-- exact head `92cfe5d0dc7e254c1c3e19c5fc168298dea3493a`;
-- size `7,954,893 B`;
-- GitHub SHA-256 `22860dd2446dfedb4cf0b3f937d1539a49f897f34ab969837b6182a74026c89d`;
-- Visual QA independently downloaded and reproduced the exact same SHA-256.
+## Exact all-frame reproduction
 
-The owner proof remains valid inside its technical scope:
-
-- exact source/bracket identity is retained;
-- the current tap and lagged tap remain source-bound;
-- source-authored projected Weather width remains inside the existing tolerance;
-- sapling motion is not ghosted;
-- Weather/sapling resources remain stable;
-- the two declared opacity weights sum to `1.0`;
-- the theoretical combined alpha is bounded below the source alpha;
-- deliberate opacity-budget drift fails closed.
-
-Nothing below relabels those source/provenance checks as false.
-
-## Direct retained-frame inspection
-
-Visual QA inspected all 36 retained PNGs and independently compared every control/candidate pair.
-
-No giant Weather ribbon, wedge, clipping flare, world-layout corruption, broad halo, hard double-image failure or obvious non-Weather scene regression is visible.
-
-The two-tap presentation does create a subtle trailing / lengthening of the Weather footprint. It remains sparse enough in the two fixed views that this does not by itself constitute a visual corruption failure.
-
-Scoped spatial result:
-
-**`PASS_TWO_TAP_RETAINED_FRAME_SPATIAL_NONCORRUPTION`**
-
-This PASS is only for the 18 retained candidate frames and the exact two fixed cameras.
-
-## Reproduced defect — zero-lag opacity attenuation
-
-The decisive attribution problem appears at the first review phase.
-
-At exact phase `0 ms`:
-
-- `lag_us = 0`;
-- the current and lagged source brackets are identical;
-- therefore there is **no temporal separation** to smooth or expose.
-
-Yet the candidate already differs visibly from the single-tap control because each coincident tap uses `0.5 ×` source opacity.
-
-The retained receipt reports:
-
-- source opacity max `0.773409252626395`;
-- per-tap opacity max `0.386704626313198`;
-- theoretical two-tap combined alpha max `0.623868784614366`.
-
-So even with both taps on the exact same source position, the maximum theoretical composited alpha is about **19.3% lower** than the single-tap source maximum.
-
-Direct rendered phase-0 evidence reproduces that static attenuation:
+The Object material change is static, localized and attribution-clean across the entire retained dynamic sequence.
 
 ### `path_eye`
 
-- `1,645 / 792,000` pixels change by more than 1 LSB (`0.2077%`);
-- every changed pixel is darker by luma sign;
-- mean changed-pixel luma delta: **`-10.8744` LSB**.
+Across all `17 states × 2 Weather modes`:
+
+- exactly `1,850 / 792,000` pixels change by more than 1 LSB in every pair;
+- fixed bounding box `(300,425)-(366,454)`;
+- the binary >1-LSB delta mask is bit-identical across all 34 pairs;
+- changed-pixel median luma moves approximately `130.655 -> 47.368`;
+- `1,845 / 1,850` changed pixels darken by more than 1 LSB;
+- `738 / 1,850` changed pixels are below luma 32 in the candidate.
 
 ### `elevated_oblique`
 
-- `2,336 / 792,000` pixels change (`0.2949%`);
-- every changed pixel is darker by luma sign;
-- mean changed-pixel luma delta: **`-7.5349` LSB**.
+Across all `17 states × 2 Weather modes`:
 
-Because zero temporal lag already reduces streak contrast, a lower frame-to-frame RGB delta cannot be attributed cleanly to temporal history alone.
+- exactly `632 / 792,000` pixels change in every pair;
+- fixed bounding box `(543,295)-(578,319)`;
+- the binary >1-LSB delta mask is bit-identical across all 34 pairs;
+- changed-pixel median luma moves approximately `140.655 -> 57.877`;
+- all `632 / 632` changed pixels darken by more than 1 LSB;
+- `219 / 632` changed pixels are below luma 32 in the candidate.
 
-## Inter-frame diagnostic recheck
+The substantial value reduction is therefore real and not hidden.
 
-The owner's reported median whole-frame RGB transition does move downward:
+## Readability / hierarchy check
 
-- `path_eye`: candidate/control median mean-absolute-RGB ratio **`0.95297×`** — about `4.7%` lower;
-- `elevated_oblique`: ratio **`0.92969×`** — about `7.0%` lower.
+The darker values do **not** reproduce the earlier Building-infill failure in this exact receiving context.
 
-But the number of pixels participating in each transition moves in the opposite direction:
+The key difference is background relation: the west Object sits predominantly against the light receiving ground rather than the near-black world background. On the exact candidate:
 
-- `path_eye`: median changed pixels `2,536.5 -> 2,625.5`, ratio **`1.0351×`**;
-- `elevated_oblique`: `2,064.5 -> 2,206.5`, ratio **`1.0688×`**.
+- local 2–3 px comparison-ring median luma is about `181.47` around the `path_eye` changed footprint and `168.40` around `elevated_oblique`, versus changed-material medians `47.37` and `57.88`;
+- on the exact changed-material boundary, median minimum adjacent luma separation is about `113.23` in `path_eye` and `105.18` elevated;
+- only about `1.03%` of `path_eye` changed-boundary samples fall below 10 luma separation, none fall below 5; elevated has none below 10.
 
-The retained evidence therefore supports a narrower description:
+These are exact-scene diagnostics, not universal acceptance thresholds.
 
-> the candidate produces a **lower-contrast, more spatially spread Weather transition**.
+Direct enlarged inspection of states `0 / 8 / 16` in both cameras shows:
 
-It does not yet isolate whether the `15.625 ms` history itself produces a perceptual smoothness gain, because static opacity attenuation is mixed into the same A/B.
+- the case silhouette remains clearly separated from the light ground;
+- the darker shell/service body reads as one compact industrial body rather than a pale proof proxy;
+- steel hardware remains visibly brighter than the body and still explains the lid/front construction;
+- the orange interface remains a small subordinate accent rather than becoming the scene focal point;
+- no new material-edge halo, culling hole, clipping artifact, shading discontinuity, frame-specific disappearance or mode-specific Object corruption is visible.
+
+Within a fixed Object inspection window, switching the inherited Weather thin-line/source-width presentation changes **0 Object-window pixels >1 LSB in every state and both cameras**. The material read is therefore not being rescued or hidden by the Weather-width presentation in this proof.
+
+The historical source-scale/readability question remains separate: this PASS does not claim the Object is large enough, only that the five-surface material family does not introduce a new readability defect at the exact retained scale/context.
 
 ## QA verdict
 
-### Owner technical/source-bound candidate — PASS preserved
+### Environment technical receiving PASS — preserved
 
-`PASS_BOUNDED_TEMPORAL_EXPOSURE_VISUAL_CANDIDATE`
+`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_STRUCTURE`
 
-The exact two-tap receiving representation is technically/source-correct within the owner's declared contract.
+`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_TARGET_HOST`
 
-### Retained-frame spatial gate — PASS
+Nothing in this review overturns Environment's source/receiving evidence.
 
-**`PASS_TWO_TAP_RETAINED_FRAME_SPATIAL_NONCORRUPTION`**
+### Visual QA — PASS
 
-No severe retained-frame spatial artifact was found in the two fixed views.
-
-### Smoothness-attribution gate — FAIL
-
-**`FAIL_TEMPORAL_SMOOTHING_ATTRIBUTION__STATIC_OPACITY_ATTENUATION_CONFOUND`**
+**`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_VISUAL_READABILITY_GATE`**
 
 Exact meaning:
 
-> The current A/B cannot support the claim that its lower inter-frame RGB magnitude is caused by temporal exposure alone. At zero lag, before any temporal separation exists, the candidate is already materially dimmer than the single-tap control because two half-opacity overlapping draws do not reproduce the original full-opacity draw. The same candidate also spreads motion across more changed pixels. The visual evidence therefore confounds temporal-history smoothing with a static contrast reduction.
+> In the exact retained current-world parent context and two fixed `1100×720` cameras, the Object five-surface material family produces a strong intentional darkening but preserves readable silhouette and material-role hierarchy across all 68 retained states/modes. Bright hardware remains differentiated, the orange interface remains subordinate, and no state- or Weather-mode-specific visual defect is reproduced.
 
-This is **not** a rejection of the two-tap idea. It is a failure of the current attribution/evidence comparison.
-
-### Perceptual smoothness / final preference — HOLD
-
-**`HOLD_PERCEPTUAL_SMOOTHNESS_AND_FINAL_ART_PREFERENCE`**
-
-A clean next visual comparison should hold zero-lag apparent opacity/brightness equivalent to the single-tap control, or otherwise introduce an explicit opacity-matched control that isolates temporal history from static attenuation. QA does not prescribe the implementation and does not request a Weather source retune.
-
-## Runtime continuity correction
-
-Runtime PR #31 at exact head `9cdc619184770c0f9026d5dcf46289dccfe9025c` independently showed that inline PNG capture was a major proof-harness timing cost:
-
-- `path_eye` timed samples increased `8 -> 15` when capture was deferred;
-- `elevated_oblique` increased `8 -> 14`;
-- median draw→next-selection observer gap collapsed from about `38 ms` to about `0.024–0.026 ms`.
-
-Therefore the previous QA state:
-
-`FAIL_CONTINUOUS_PHASE_INTERPOLATION_VISUAL_TEMPORAL_EQUIVALENCE_ON_EXACT_PROOF_HOST`
-
-remains historical truth **for the exact inline-capture proof that was reviewed**, but must not be silently generalized to the cleaner deferred-capture path.
-
-Authored `31.25 ms / 32 Hz` delivery still remains unproven; Runtime's deferred-capture median draw intervals were still about `37.16 ms` and `41.01 ms`.
+This is a visual defect/non-regression PASS for the exact material-family delta, not a general production-material approval.
 
 ## Handoffs
 
-### VFX / Map PR #25
+### Environment / Map PR #24
 
-Returned this exact result as PR comment **`5703659944`**.
+This exact Object-material parent is now independently Visual-QA green in its fixed-camera scope.
 
-Keep the technical two-tap PASS and the QA attribution FAIL separate. Do not promote the current `4.7% / 7.0%` lower inter-frame RGB metric as a clean temporal-smoothing result until the static-opacity confound is controlled.
+The newer Environment head `2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd` deliberately isolates the Map-owned west Object footprint cue on top of this preferred material context. That cue remains a **separate** Art Direction / Visual-QA decision and receives no automatic acceptance from this material PASS.
+
+### 3D Art Direction
+
+`PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_PREFERENCE_011` is compatible with this QA result. No whole-case brightening or material flattening is requested from QA.
+
+### Object Materials
+
+The exact base five-role family gains fixed-camera current-world QA support. The newer source-owned inner-lid `service_dark` review remains separate and is not accepted by this result.
+
+### Nature
+
+The woody/foliage parent remains fixed context only. This Object-material PASS does not close Nature's independent Visual-QA gate.
 
 ### Runtime / Optimization
 
-No new Runtime implementation is requested. PR #31 already established the proof-harness capture boundary. Runtime retains cadence/scheduling and target-device performance ownership.
+Environment's exact proof-host material-family delta remains `+8 draw calls / +8 objects` in both fixed cameras, with no primitive, observed buffer-memory or texture-memory delta. This QA result makes no target-device performance decision and requests no material-role collapse on proof-host counters alone.
 
-### 3D Art Director
+## Continuity from previous QA result
 
-The retained candidate is slightly dimmer and has a subtly broader/trailing Weather footprint. Final preference should wait for an attribution-clean comparison rather than choosing between a brightness change and a temporal-history change bundled together.
+The prior Weather result remains historical truth:
 
-### Environment / Nature
+- `PASS_TWO_TAP_RETAINED_FRAME_SPATIAL_NONCORRUPTION`;
+- `FAIL_TEMPORAL_SMOOTHING_ATTRIBUTION__STATIC_OPACITY_ATTENUATION_CONFOUND`;
+- perceptual smoothness and authored 32 Hz remain held.
 
-The current-world Nature woody/foliage family remains a separate pending Visual-QA surface. This Weather result neither accepts nor rejects it.
+This Object-material review does not rewrite or supersede that dynamic Weather boundary.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- perceptual smoothness improvement;
-- authored `32 Hz` delivery;
-- zero dropped/intermediate presentations;
-- final Weather opacity, density, length or atmosphere prominence;
-- arbitrary camera/FOV/resolution/renderer equivalence;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery behavior;
-- physical precipitation/wind correctness;
-- gameplay visibility, collision, damage, physics or control readiness;
-- final Art Direction preference;
-- Environment Nature-family acceptance;
-- UC extraction or Profession Fabric promotion;
-- CANON, production/game readiness, or Visual Observer / QA / VFX mastery.
+- final Object source scale or transform acceptance;
+- final Map Object footprint-cue preference;
+- independent Nature woody/foliage Visual-QA acceptance;
+- Object inner-lid material adoption;
+- utility-module material adoption;
+- articulation, keeper/lever mechanism or dynamic material behavior;
+- UVs, textures, decals, edge wear, baked normal/AO or physically measured coating correctness;
+- arbitrary camera/FOV/resolution/renderer/display equivalence;
+- target-device FPS/CPU/GPU/VRAM/memory/thermal/battery acceptance;
+- collision, navigation, gameplay or interaction readiness;
+- CANON, production/game readiness, or Visual Observer / QA mastery.
 
 ## Root gate
 
-- **Truth:** owner source/provenance PASS, retained-frame spatial PASS, zero-lag opacity defect and smoothness-attribution FAIL remain separate claims.
-- **Agency / non-domination:** VFX retains presentation ownership, Runtime retains cadence/performance authority, Weather retains source authority, Art Direction retains aesthetic preference, and QA changes no implementation.
-- **Continuity:** the earlier interpolation QA result remains tied to its exact inline-capture evidence; Runtime's later capture diagnosis narrows its scope rather than silently rewriting history.
-- **Wisdom before speed:** before requesting more VFX complexity, QA checks whether the newest improvement metric measures the intended variable. It currently mixes temporal history with static attenuation, so the result stops at that boundary.
+- **Truth:** the strong material darkening is retained as measured evidence rather than softened into a story; the PASS is based on exact scene/background separation and all-frame review.
+- **Agency / non-domination:** Object retains source/material authority, Map retains receiving ownership, Art Direction retains preference ownership, Runtime retains cost authority, and QA changes no implementation.
+- **Continuity:** the Nature parent, Object material successor, newer footprint-cue successor, inner-lid experiment and prior Weather temporal result remain separate exact identities.
+- **Wisdom before speed:** close the larger base-material readability gate before judging the tiny footprint cue or adding another visual variable.
 
 The four AXM roots remain the merge gate.
