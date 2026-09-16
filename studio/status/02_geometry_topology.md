@@ -1,7 +1,7 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-16
-State: **PASS_CHARACTER_CONNECTED_SHOULDER_TWO_STITCH_EDGE_DENSE_SWEEP_REDUCTION__HOLD_NONZERO_INTERSECTIONS / RIGGING + VISUAL + DOWNSTREAM ADOPTION HELD**
+State: **PASS_ANIMAL_BILATERAL_SOURCE_SUCCESSOR_EXACT_TOPOLOGY_REBIND / RIGHT RIGGING + VISUAL + ANIMATION + RUNTIME HELD**
 
 ## Current activation
 
@@ -9,229 +9,244 @@ Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/02_geometry_topol
 
 `axm-create-me` remains **coordination only**. Product/evidence code stays in the owning design repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Geometry status remains preserved at Git blob `f8986c729711b861c606cf61b685061cd0acd037`. Its Animal source-successor topology rebind remains exact historical truth. This activation does not rewrite or weaken that result.
+The immediately previous Geometry status remains preserved at Git blob `1616c5ba0b05508960b12b8a8eca5e07255ccad9`. Its Character shoulder stitch-edge reduction remains exact historical truth. This activation does not rewrite, weaken or silently supersede that result.
 
 ## Fresh constellation / duplication scan
 
-- **Animal:** Geometry PR #9 has already rebound the exact source-owned selected-003 elbow successor, and Rigging has now explicitly caught up on Animal PR #10 at `b48bb957622ed5c82a24ca4fcb471f7ee9b5147a` with a dense `-60..+60°` rebind. The remaining Animal gates are downstream motion/visual/runtime decisions, not a fresh unowned Geometry dependency. No duplicate Animal lane was opened.
-- **Character:** Geometry PR #9 at `fa69eea233a56dc7e09b22c62a9e37bfa97bc994` exhausted the existing ten-quad proximal-to-distal diagonal family and reduced the six retained anchor intersection total `58 -> 52`, while explicitly holding all samples nonzero. Rigging PR #10 then explicitly rebound its existing angle-conditioned release profile to that exact topology at `e5b129ba936f252946f48921be5a3096d8c2f801` and supplied an exact current one-degree `-40..+40°` pose field. That made Character the strongest current Geometry blocker and enabled one genuinely new topology family rather than another speculative remesh.
-- **Building:** historical Geometry interpenetration and topology work has already propagated into source ownership / downstream consumers. No duplicate pavilion lane was opened.
-- **Nature:** cap-winding, leaf backface and current downstream Nature work already have active owners/evidence. No duplicate Geometry lane was opened.
-- **Object:** current exact hinge construction weakness is Hard-Surface-owned; Geometry did not duplicate the bored-knuckle / clearance lane.
-- **Map / Weather:** current strongest work is VFX, Runtime, Environment and Visual QA owned rather than an unowned mesh-topology source gap.
-- **Weapon / Armor / Unit / Misc:** no implementation-ready Geometry handoff outranked the unresolved Character shoulder blocker.
-- **Universal Creation / Profession Fabric:** unchanged. No Character shoulder semantics, face IDs, stitch phases or acceptance rules were centralized for convenience. The existing Character-local nonadjacent-triangle observer remains a receiving implementation; any future generic UC extraction remains a separate evidence/adoption decision.
+- **Animal:** Organic Form PR #8 advanced after the historical left-side Geometry PR #9. Current Organic head `4df3024b4c459675422565501a46f622acf229a9` now owns a distinct right source successor, `front-right-connected-chain-elbow-source-successor-003`, under an exact Y=0 source mirror contract while explicitly holding right Geometry/Rigging/Visual acceptance. Historical Geometry PR #9 remains truthful for the left source successor at `eb5ce99798b646b6ab9705c0c914b898173f7cc1`; its base no longer represents the current bilateral Organic source state. Capability Cartography separately identifies this right branch as intentionally partial and explicitly forbids sibling acceptance transfer by symmetry. This is a fresh, exact, implementation-ready Geometry dependency rather than a duplicate lane.
+- **Character:** Geometry PR #11 at `b65d73e514c23670204915bde8ce935a3b417574` remains a meaningful but incomplete intersection reduction. Rigging has now explicitly rebound it in PR #12 at `329c485f567faeeb79198c7b1ebc2974b3c3db60`, so the earlier deformation-dependency handoff is closed. Every dense sampled Character pose still contains nonzero intersections, but no new downstream selection requires another blind count-optimization pass this activation.
+- **Building:** historical topology/interpenetration repairs have source/downstream owners. No fresh unowned Geometry source dependency outranked the Animal bilateral branch.
+- **Nature:** cap winding, explicit leaf sidedness and downstream environment/material/runtime work already have current owners/evidence.
+- **Object:** current hinge/clearance work is Hard-Surface-owned rather than a fresh unowned Geometry source-successor dependency.
+- **Map / Weather:** current strongest lanes are Environment, VFX, Runtime and Visual QA owned.
+- **Weapon / Armor / Unit / Misc:** no fresher implementation-ready Geometry handoff outranked the explicit Animal right-source hold.
+- **Universal Creation / Profession Fabric:** unchanged. The pinned UC topology observer is reused as a generic diagnostic donor only. Animal source identity, bilateral semantics and acceptance rules remain Animal-local. No UC/PF extraction or policy move was made.
 
 ## Selected bounded improvement
 
 Repository:
 
-`mike-axiom-mir/axm-character-design`
+`mike-axiom-mir/axm-animal-design`
 
 New stacked draft PR:
 
-**#11 — `Geometry: reduce remaining shoulder intersections with stitch-edge retessellation`**
+**#11 — `Geometry: bind bilateral source successors to explicit topology evidence`**
 
 Branch:
 
-`studio/geometry-character-shoulder-stitch-edge-repair-001`
+`studio/geometry-bilateral-source-successor-topology-rebind-001`
 
 Exact base:
 
-Character Rigging PR #10 head:
+Animal Organic Form PR #8 current head:
 
-`e5b129ba936f252946f48921be5a3096d8c2f801`
+`4df3024b4c459675422565501a46f622acf229a9`
 
 Exact current Geometry head:
 
-**`b65d73e514c23670204915bde8ce935a3b417574`**
+**`f89af95d621c36da3994c6660552da8bbc73fd1b`**
 
 Observed PR state after evidence completion: **OPEN / DRAFT / MERGEABLE**. Repository metadata is evidence metadata only; it is not CANON or merge authority.
 
-## Why this topology family was selected
+## Why this was highest leverage
 
-Geometry PR #9 had already exhausted all `2^10 = 1,024` same-position diagonal choices in the existing ten-quad `proximal_to_distal` arm strip. Repeating that search would have duplicated a closed bounded lane.
+The left source successor had already been explicitly rebound by Geometry and Rigging, but Organic PR #8 now owns a separate right source-successor identity. The right shape is an exact source-space mirror of the reviewed left shape, yet the current Organic and Cartography evidence explicitly states that source symmetry does not grant Geometry acceptance symmetry.
 
-Direct retained PR #9 examples showed the remaining nonadjacent intersections repeatedly crossing between the existing `ribcage_to_seam` stitch and the proximal arm strip, with additional ribcage involvement at the positive endpoint. The smallest distinct Geometry-owned question was therefore:
+The smallest truthful Geometry action was therefore not to reshape the animal, reopen the elbow search, or infer a right PASS. It was to bind the **current bilateral Organic source point** and independently re-observe both sides while retaining historical left Geometry PR #9 as provenance rather than pretending that older branch is the current bilateral producer.
 
-> Can exact internal edge choice inside the existing `ribcage_to_seam` stitch reduce the remaining sampled intersections without moving any Character source, seam or arm vertex and without changing the mesh budget?
+## Exact source identities consumed
 
-This opens a new rollbackable retessellation family while preserving every prior Character source and position decision.
+Current Organic bilateral source head:
 
-## Bounded single-edge search
+`4df3024b4c459675422565501a46f622acf229a9`
 
-The exact current `ribcage_to_seam` group contains **22 triangles** and exposes **22 legal internal single-edge flips** under the current indexed topology.
+Left source successor:
 
-Geometry exhaustively re-observed every one of those 22 single-edge candidates at the retained six anchors (`L/R × -40/0/+40°`) using the same Character-local nonadjacent-triangle predicate.
+- ID: `front-left-connected-chain-elbow-source-successor-003`;
+- digest: `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`;
+- historical connected baseline digest: `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`.
 
-Distribution by six-anchor total intersection-pair count:
+Right source successor:
 
-- **48 pairs:** 2 candidates;
-- **52 pairs:** 17 candidates;
-- **54 pairs:** 2 candidates;
-- **64 pairs:** 1 candidate.
+- ID: `front-right-connected-chain-elbow-source-successor-003`;
+- digest: `262f536e0e522fd3e102cb16464c3757985fbb1dfcb3001df3b1f27b623b0115`;
+- source geometry digest: `ebf3fa17555f302f678cadd7a3157b17425d23b93b6cd60315e5c8ca9f6d3372`;
+- right connected baseline digest: `d26650fd9b27e8f90cace24ab1f96f2988eb05c05a88bd9994dffe5c2b8d8901`.
 
-The two minimum candidates are non-overlapping exact face-pair locations:
+Both successors move exactly elbow-ring vertices `11..20` relative to their own connected baseline and preserve path points, nominal radii, segment count, indices and mesh counts.
 
-- `(111,112)`;
-- `(114,115)`.
+Organic's declared bilateral correspondence remains exact:
 
-Each is independently a best single-edge result in this bounded family. Because the two face pairs do not overlap, the successor combines exactly those two edge flips and then re-validates the result independently rather than assuming their effects compose.
+- mirror plane: `Y=0`;
+- maximum source path residual: `0.0 m`;
+- maximum source-successor position residual: `0.0 m`;
+- vertex correspondence count: `42`.
 
-This search exhausts only the exact **single-edge** `ribcage_to_seam` family at the retained anchors. It does not claim that arbitrary multi-edge remeshing, vertex movement or broader shoulder retopology is exhausted.
+Geometry consumes those source facts unchanged; it does not convert source symmetry into acceptance by assumption.
 
-## Exact candidate identity
+## New bilateral Geometry rebind contract
 
-The combined successor changes exactly four triangle records:
+New Animal-local contract:
 
-`[111, 112, 114, 115]`
+`axm.animal-bilateral-source-successor-topology-rebind/v0.1`
 
-It preserves:
+For each side independently Geometry now:
 
-- **93 vertices per side**;
-- **180 triangles per side**;
-- every vertex position exactly;
-- accepted-E seam positions exactly;
-- proximal/distal arm positions exactly;
-- face-group identity exactly;
-- Character source identity exactly;
-- Rigging PR #10 pose positions as the observation field only; Geometry does not rewrite the rig.
+1. rebuilds the exact side-specific connected baseline from source;
+2. consumes the exact current Organic source successor;
+3. verifies exact successor identity;
+4. verifies only elbow-ring vertices `11..20` moved;
+5. verifies indices/path/radii/segments/counts remain unchanged against that side's own baseline;
+6. compares a connectivity-only topology signature;
+7. reruns indexed vertex-fan connectivity;
+8. reruns static nonadjacent triangle self-intersection observation.
 
-Successor topology digests:
+The evidence workflow then independently reruns the pinned UC edge-topology observer on left and right and keeps fail-closed winding/self-intersection controls.
 
-- left: `b6ae1f9f86f0e9f4e7e6b14b2f7e97af4616df3dcd2d02c5a9ca9a135585419e`;
-- right: `58b8809cd46e19bd3565281e389badb86ca7d5201c242750fe7938e65e77a494`.
+Historical left Geometry head `eb5ce99798b646b6ab9705c0c914b898173f7cc1` is recorded separately as provenance. The current proof does not require that divergent historical Geometry branch to be a Git ancestor of current Organic source evolution.
 
-Character-local structural preflight remains green on both sides:
+## Exact structural result
 
+Scoped result:
+
+**`PASS_BILATERAL_SOURCE_SUCCESSOR_EXACT_TOPOLOGY_REBIND`**
+
+For both left and right exact source successors:
+
+- vertices: **42**;
+- triangles: **80**;
+- topology signature: **`e131c5f882b274ba4d2fef8354b576d6419b22cfc0dd365bac150c260f43d953`**;
+- moved vertices: exactly **11..20**;
+- disconnected indexed vertex fans: **0**;
+- isolated indexed vertices: **0**;
+- maximum fan components at any indexed vertex: **1**;
+- static nonadjacent self-intersection pairs: **0**;
+- triangle pairs observed per side: **3,160**;
+- topological-neighbour pairs intentionally excluded: **470** per side.
+
+Broad-phase candidate counts differed while the final structural result stayed zero:
+
+- left: **46** broad-phase candidates / **0** intersections;
+- right: **41** broad-phase candidates / **0** intersections.
+
+Pinned UC topology observer result on each side:
+
+- triangle components: **1**;
 - boundary edges: **0**;
 - non-manifold edges: **0**;
 - shared-edge orientation conflicts: **0**;
 - collapsed triangles: **0**;
-- triangle components: **1**.
+- status: `CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE`.
 
-## Dense one-degree structural result
+The UC wording remains intentionally bounded: it is an edge-incidence/orientation candidate result, not generic vertex-manifold, collision, deformation or visual acceptance.
 
-The successor was re-observed against the exact Rigging PR #10 candidate pose field across every integer degree from `-40°` through `+40°` on both shoulders:
+## Fail-closed controls
 
-- **81 poses per side**;
-- **162 total pose observations**.
+The exact evidence retains independent negative controls rather than trusting green positive examples:
 
-Exact nonadjacent intersection-pair comparison:
+- left one-triangle winding flip: **3 orientation conflicts detected**;
+- right one-triangle winding flip: **3 orientation conflicts detected**;
+- independent crossing nonadjacent triangle pair: **1 self-intersection detected**.
 
-- baseline sum: **1320**;
-- candidate sum: **1020**;
-- reduction: **300 pairs**;
-- reduction fraction: **22.7272727%**;
-- strictly reduced samples: **150 / 162**;
-- equal samples: **12 / 162**;
-- worse samples: **0 / 162**;
-- baseline range: **8..10 pairs per tested pose**;
-- candidate range: **6..10 pairs per tested pose**.
-
-Retained anchor counts per side:
-
-- `-40°`: **8 -> 6**;
-- `0°`: **8 -> 6**;
-- `+40°`: **10 -> 10**.
-
-Retained representative intermediate samples also reduce:
-
-- `-20°`: **8 -> 6**;
-- `+20°`: **8 -> 6**.
-
-The exact scoped result is:
-
-**`PASS_CHARACTER_CONNECTED_SHOULDER_TWO_STITCH_EDGE_DENSE_SWEEP_REDUCTION__HOLD_NONZERO_INTERSECTIONS`**
-
-The HOLD is material: **all 162 tested successor poses still contain nonzero nonadjacent triangle intersections.** This is a meaningful structural reduction, not an intersection-free shoulder.
+A unit-test profile drift changing the bilateral right `joint_axis_width_scale` from `1.03` to `1.031` also fails closed through the source-profile identity gate.
 
 ## CI / retained evidence
 
 Dedicated workflow:
 
-**`35139645301 — Geometry Character shoulder stitch-edge repair evidence` — COMPLETED / SUCCESS**
+**`35144696806 — Geometry bilateral source-successor topology rebind evidence` — COMPLETED / SUCCESS**
 
 Exact head:
 
-`b65d73e514c23670204915bde8ce935a3b417574`
+`f89af95d621c36da3994c6660552da8bbc73fd1b`
 
-- Python 3.11: exact checkout, compile, full inherited Character unit suite, bounded 22-candidate search, exact 162-pose dense sweep, evidence generation, exact Geometry/Rigging lineage binding and retained artifact upload all PASS.
-- Python 3.13: compile and full inherited Character suite PASS.
+- Python 3.11: exact checkout, current Organic ancestry gate, historical left Geometry donor checkout, pinned UC donor checkout, inherited Rigging donor checkout, compile, full inherited Animal test suite, bilateral evidence build and artifact upload all PASS.
+- Python 3.13: the same exact provenance/compile/full inherited Animal test path PASS; evidence build is intentionally 3.11-only.
+- same-head core inherited Animal workflows including repository tests, Organic bilateral source successor, connected topology, connected self-intersection and connected deformation also completed successfully during this activation.
+
+Pinned generic UC donor:
+
+- repository: `mike-axiom-mir/axm-universal-creation`;
+- commit: `b434a349cf159b392148b4dc9d68146573531a60`;
+- module: `src/axm_uc/mesh_topology.py`;
+- role: generic edge-topology observer only.
 
 Retained artifact:
 
-- ID: **`10464328762`**;
-- name: `character-shoulder-stitch-edge-repair-001-b65d73e514c23670204915bde8ce935a3b417574`;
-- size: **22,154 B**;
-- GitHub SHA-256: **`810eb608fcaf91de4282ba8a2dc4a36283d897513561a78ce195f50f69a438ce`**;
+- ID: **`10467165197`**;
+- name: `animal-geometry-bilateral-source-successor-topology-rebind-001-evidence`;
+- size: **7,909 B**;
+- GitHub SHA-256: **`2549aad21b7c76b56348742f863520026dd25c7dbb9109429873f9313f1fcb93`**;
 - independently downloaded and rehashed in this activation: **same SHA-256**.
 
-The retained archive contains exact head/dependency receipts, the full 162-row dense-sweep audit, the complete 22-candidate single-edge search, both successor mesh descriptions and ten representative OBJ specimens.
+The archive retains exact current Geometry head, current Organic bilateral head, historical left Geometry head, UC donor head, both exact candidate records and the full machine-readable bilateral topology receipt.
 
-## Handoffs
+## Handoffs recorded
 
-### Character Rigging PR #10
+### Geometry PR #11
 
-Comment **`5703193435`** records that PR #11 consumes the exact current Rigging pose field but creates a new topology identity by changing four triangle records. Rigging PR #10 remains truthful for Geometry PR #9 only. If PR #11 advances, Rigging must explicitly rebind/rerun; no weighting, deformation or dense-sweep PASS transfers by equivalence.
+Evidence comment **`5703828716`** records exact head, exact bilateral metrics, workflow, artifact/digest, negative controls and non-claims.
 
-### Character Geometry PR #9
+### Organic Form PR #8
 
-Continuity comment **`5703194797`** records that the earlier `58 -> 52` result remains exact historical truth and its 1,024-mask arm-strip diagonal family remains exhausted exactly as scoped. PR #11 is a separate `ribcage_to_seam` family, not a rewrite of PR #9.
+Comment **`5703829887`** records that Geometry consumed both current source successors unchanged. No Organic source edit is requested. The exact source mirror contract remains source evidence, now accompanied by an explicit right Geometry observation rather than inferred acceptance.
+
+### Rigging PR #10
+
+Comment **`5703831174`** preserves PR #10 as exact historical truth for the **left** source successor only. The new right Geometry/source identity does not inherit left weighting/deformation acceptance. If the right successor advances, Rigging should explicitly bind/rerun its existing profile rather than inventing a new weighting rule or transferring the left PASS by symmetry.
+
+### Animation
+
+No bilateral deforming-surface or playback acceptance transfers from left-only motion evidence. Animation must bind the exact right Geometry + later Rigging successor if it creates right deforming playback evidence.
 
 ### Visual Observer / Art Direction
 
-Lower nonadjacent intersection counts do not establish a cleaner shoulder silhouette, seam, shading response or deformation appearance. If PR #11 advances after Rigging rebind, inspect the exact successor directly rather than inferring perceptual improvement from the structural counts.
+Exact source mirror plus neutral topology compatibility is not perceptual bilateral acceptance. Any selected right deformation successor still needs direct visual review before silhouette, bend quality, skin behavior or final source direction is accepted.
 
-### Organic Form
+### Technical Art / Runtime
 
-No source form, accepted-E seam sample or arm position moved. Organic Form retains source-shape authority. Return to Organic Form only if a later repair requires source-form movement rather than another derived topology candidate.
-
-### Animation / Technical Art / Runtime
-
-No Animation clip/playback, export/import, skeleton/skin transport, target-engine, controller or performance claim transfers to the successor. Those consumers should bind the exact topology/rig identities only if downstream selection reaches them.
+No right-side skeleton/skin export, GLB animation channel, controller, target-host playback, target-device performance or gameplay claim is created here.
 
 ## Truth boundary / explicit non-claims
 
-This activation proves only that, on the exact current Character source and exact Rigging PR #10 **sampled** pose field, changing two non-overlapping internal diagonals in the existing `ribcage_to_seam` stitch preserves the declared indexed-surface preflight and reduces the measured nonadjacent intersection count for 150 of 162 tested poses without worsening any tested pose.
+This activation proves only that the exact current Organic selected-003 **left and right neutral source successors** can each be rebound to their own exact connected baseline topology contract and independently pass the declared local indexed-fan/static-nonadjacent-intersection diagnostics plus the pinned UC edge-topology observer.
 
 It does **not** establish:
 
-- nonadjacent self-intersection freedom — every tested pose still has intersections;
-- mathematical continuous-motion safety between one-degree samples;
-- adjacent-face fold-over/contact freedom, because the observer intentionally excludes topological neighbours;
-- arbitrary multi-edge or global shoulder retopology optimality;
-- anatomy, skin sliding, volume preservation or source-form superiority;
+- mathematical continuous-motion safety;
+- sampled right-side deformation or weighting acceptance;
+- adjacent/topological-neighbour fold-over/contact freedom — those pairs are deliberately excluded from the nonadjacent observer;
+- anatomy, biology, veterinary correctness, muscle or skin behavior;
+- right-side Animation acceptance or bilateral deforming playback;
 - final normals, tangents, smoothing or UV readiness;
-- Rigging acceptance for this new topology identity;
-- final visual seam/silhouette/deformation quality;
-- Animation acceptance;
-- engine/runtime/controller or target-device performance;
+- final visual form/deformation quality;
+- skeleton/skin transport, engine/controller support or target-device performance;
 - collision or gameplay suitability;
 - CANON or merge authority;
 - production readiness, game readiness or Geometry mastery.
 
 ## Four-root gate
 
-- **Truth:** the new family is separated from the exhausted PR #9 arm-strip family; exact heads, finite sample bounds and the remaining nonzero intersections are retained instead of being hidden behind the reduction percentage.
-- **Agency / non-domination:** Organic Form keeps source authority, Rigging keeps weighting/deformation authority, Visual QA / Art Direction keep perceptual authority, and downstream engine/runtime owners keep their own acceptance gates.
-- **Continuity:** PR #11 stacks exactly on Rigging PR #10; Character PRs #3/#5/#7/#9/#10 and Animal/Building/Nature Geometry history remain distinct rollback/evidence points rather than being silently rewritten.
-- **Wisdom before speed:** Geometry tested the smallest new topology family supported by the diagnosed remaining intersections, exhausted its single-edge choices, combined only the two non-overlapping minima, and then checked the full available dense pose field before claiming the bounded improvement.
+- **Truth:** the right successor receives its own receiving-domain observation despite exact source symmetry; the historical left Geometry PASS is preserved as provenance instead of being silently transferred or rewritten.
+- **Agency / non-domination:** Organic Form retains source-shape authority, Rigging retains weighting/deformation authority, Animation retains motion authority, Visual QA / Art Direction retain perceptual authority, and Technical Art / Runtime retain transport/performance authority.
+- **Continuity:** current Organic bilateral head, historical left Geometry head and the new bilateral Geometry successor are separate exact rollback/evidence points; the old left proof remains valid for its exact lineage.
+- **Wisdom before speed:** Geometry closed the smallest explicit missing dependency before reopening shape searches, changing topology, centralizing Animal semantics or claiming a bilateral production state from symmetry.
 
 ## Previous Geometry lanes retained
 
-- **Animal PR #9:** `eb5ce99798b646b6ab9705c0c914b898173f7cc1`, exact source-successor topology rebind remains valid; Animal Rigging has since explicitly rebound that successor.
+- **Character PR #11:** `b65d73e514c23670204915bde8ce935a3b417574`, exact `1320 -> 1020` dense-sweep stitch-edge reduction remains historical/current truth for its Character topology; Rigging PR #12 has since explicitly rebound it, while every tested pose remains nonzero on the Geometry intersection observer.
+- **Animal PR #9:** `eb5ce99798b646b6ab9705c0c914b898173f7cc1`, exact left source-successor topology rebind remains valid historical truth. It is not rewritten by the new bilateral source point.
 - **Character PR #9:** `fa69eea233a56dc7e09b22c62a9e37bfa97bc994`, exact `58 -> 52` one-quad-diagonal result remains historical truth with nonzero-intersection hold.
 - **Character PR #7:** `8cc4a180cd1481d680841190b0038b4b330133ae`, exact `374 -> 58` topology-only opening repair remains historical truth.
 - **Character PR #5:** exact sampled self-intersection diagnosis remains the historical blocker that exposed the connected-shoulder defect.
-- **Building PR #6:** `aaa987397c33f0dc9579a2ac3785ca00a5bc7402`, historical header/post interpenetration-removal evidence remains valid; source ownership has since advanced downstream.
+- **Building PR #6:** `aaa987397c33f0dc9579a2ac3785ca00a5bc7402`, historical header/post interpenetration-removal evidence remains valid; source ownership and downstream consumers have since advanced.
 - **Animal PR #7:** `95b53572037ca3de98811db52beb4262a34b7d42`, bounded 4.5° ring-phase experiment remains distinct from the selected-003 source-successor lineage.
 - **Nature:** cap-winding/source and explicit two-sided leaf topology lanes remain independently evidenced and downstream-held.
 
 ## Next Geometry / Topology pass
 
-1. Re-scan the entire constellation first; do not automatically continue Character merely because PR #11 is green within its bounded scope.
-2. If Character PR #11 is selected downstream, wait for an explicit Rigging rebind/rerun before treating its exact topology as a valid deformation successor.
-3. Do not claim the `ribcage_to_seam` family exhausted beyond the exact 22 legal **single-edge** candidates at the retained anchors; any multi-edge or vertex-moving family must receive a new explicit rollbackable identity.
-4. If the remaining six-to-ten intersections per pose become the strongest Geometry blocker later, diagnose their exact ownership before opening another topology family rather than optimizing counts blindly.
+1. Re-scan the entire constellation first; do not automatically continue Animal merely because the bilateral topology rebind is green.
+2. Preserve the new Animal right Geometry identity until Rigging explicitly rebinds/reruns it; do not infer deformation acceptance from left-side symmetry or from `0.0 m` source mirror residual.
+3. If a downstream right-side deformation defect is returned to Geometry, diagnose whether it is topology-, Rigging- or Organic-owned before changing mesh structure.
+4. Keep Character's remaining nonzero shoulder intersections visible; if they become the strongest Geometry blocker again, diagnose the exact residual pair ownership before opening another topology family.
 5. Preserve repo ownership, provenance, rollback, limitations and the four AXM roots.
