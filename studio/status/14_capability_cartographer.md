@@ -1,194 +1,275 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-16
-State: **THREE-LAYER 3D ATTACHMENT MAP / OBJECT + BUILDING CONFIRM REPEATED MANUFACTURED INTERFACE DISCIPLINE / WRECKLINE PROVES PROOF-HOST TRANSFORM-SOCKET SWAP / 3D PHYSICS BRIDGE STILL MISSING / NO UC EXTRACTION**
+State: **NATURE CAP-WINDING PLACEMENT ADVANCES / THREE-SOURCE GENERATOR DEFECT + CURRENT-UC + TARGET-CULLING CONSEQUENCE SUPPORT A NATURE-SOURCE MIGRATION CANDIDATE / MIGRATION MUST BE AN EXPLICIT LINEAGE REBIND / UC + PROFESSION FABRIC UNCHANGED / PRIOR THREE-LAYER ATTACHMENT MAP RETAINED**
 
 ## Scope inspected
 
-This activation re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then inspected the newest coordination status, open specialist/design PRs, relevant exact PR heads, Universal Creation physics/3D evidence and Profession Fabric's current experimental 3D specialist evidence.
+This activation re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then inspected the newest specialist coordination state, open design PRs, exact current Nature / Map / Object heads, current Universal Creation main, and the relevant experimental Profession Fabric evidence.
 
-The scan covered the active Character, Animal, Nature, Weather, Map, Object and Building lanes, the Wreckline live 3D task, and the still-sparser Weapon / Armor / Unit / Misc directions. Material new evidence includes:
+Material evidence added since the previous Cartographer pass includes:
 
-- Building Hard-Surface PR #2, exact head `4faa769b406bf3ad0ba9489a77141c27f122ce51`, which independently reproduces a source-owned 3D receiver-frame / accepted-interface / footprint / mount-pattern / clearance contract at building scale;
-- Map Environment PR #11, exact head `c72838eb4b40ee7903a3c3e326a1bf77fa08bee5`, which consumes that exact Building source in a real multi-asset Godot scene while leaving Building semantics in Building;
-- Object Technical Art PR #7, exact head `d5cd67b34996ff95dd28495d26ccb8c4a60b7dfd`, which preserves compiled UC socket identity but intentionally uses Object's source-owned 3D frame for actual module orientation and stops short of dynamic attachment;
-- Object Rigging PR #8, exact head `8257980a17830819fde72f227154b3bf338572c0`, which proves continuous source-space lid/module clearance while explicitly holding dynamic attach/detach, collision-engine and runtime-physics claims;
-- Nature Technical Art PR #3, which independently reinforces the placement rule that source semantics stay local while already-generic UC machinery may be composed into a consumer pipeline without moving domain knowledge into UC;
-- Profession Fabric PR #35, current head `541785c9e90d825a3e9e2384abecf42bef15e0d0`, whose first real Wreckline job retains a failed source semantic roof socket, creates a separate derived socket candidate, proves five transform sockets against explicit contracts, and executes an actual Godot proof-host sequence `empty -> harpoon -> salvage rack -> empty` using real UC-generated module geometry;
-- Profession Fabric PR #37, where the bounded-variation evidence procedure remains an independent three-domain EXPERIMENTAL professional procedure and is not conflated with attachment work;
-- Universal Creation's current physics line, whose translation mounts remain explicitly bounded to 2D translation behavior rather than arbitrary 3D local-frame attachment physics.
+- Nature Geometry PR #7 at exact head `e2224d4bf88f7e68503072c884e5a726b8d0c53d`, now proving the same tapered-cap shared-edge winding defect and the same reindex-only repair across **three real Nature sources**;
+- Nature Technical Art PR #3 at exact head `5590bbe07cc92a6f60ea9b4722344220e2d04ae5`, now carrying all three sources through current Universal Creation and observing a real Godot backface-culling consequence for the exact rear-tree repair;
+- Nature Organic PR #8 at exact head `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`, which deliberately preserves the established generator/source lineage and keeps source migration held;
+- Nature Procedural PR #4 at exact head `d535484d4c3623a32fc9f5dc44b0856619b9b1ec`, which exercises the same source generator lineage across three source families and nine retained variants while deliberately not inheriting Geometry's repair;
+- Map Environment PR #15 at exact head `03e956475158a59d70cca08b73be23c141e4cb1f`, which consumes the exact rear Organic baseline in the accepted multi-asset scene but intentionally disables culling for proof-host observation and explicitly holds topology migration;
+- Map Runtime PR #17 at exact head `5ed84c3925fae19cd1582d5210bc59680b883120`, which proves immutable material-resource sharing over the current three-source Nature receiving scene while preserving those exact current source identities;
+- current Universal Creation main at exact commit `4ad22937779d569b0b5f96ff23f597af2727db19`, where generic `inspect_mesh_topology()` plus deterministic surface / GLB machinery already supply the needed domain-neutral diagnostics and transport;
+- Profession Fabric PR #35 at exact head `541785c9e90d825a3e9e2384abecf42bef15e0d0` and PR #37 at exact head `ddb71acd9c7b463088d25385d528936a074cca3c`, which remain EXPERIMENTAL evidence/profession work rather than source-mesh ownership;
+- Object Hard-Surface / Rigging / Animation / Procedural work at heads `3f091bda68b33482bdefe1cf4adf97caf9c0c87e`, `a23ef68147fbea042aab341b62cb0afd77f3a8d1`, `f89a3b3f1aa6f448c8a97c6d00d5e270e7d3bb00`, and `4fd7546d520b515533678464307d7a49d13479e0`, none of which supplies the missing second independent live Layer-B attachment consumer from the prior Cartographer map.
 
-`axm-create-me` remains coordination-only. This activation changes only this Cartographer status/map. The previous status remains recoverable at blob `6950f1dbe051947a70f6e63b545ff2bdb848c10f`.
+`axm-create-me` remains coordination-only. This activation changes only this status/map. The immediately previous Cartographer status remains recoverable at blob `e71eec17f746aecc115c9e6e6de452d30b49c51d` and commit `a2ece8df40c04ccebd49f908a99eed002bb5f574`.
 
 ## Material cross-repo learning
 
-### “3D attachment” is no longer one missing capability; the evidence now separates it into three layers
+### The Nature tapered-cap issue has crossed the threshold from a useful derived Geometry workaround to a **source-generator migration candidate**
 
-The previous Cartographer map correctly prevented Object's 3D service interfaces from being mislabeled as UC's 2D physics translation mounts. Its phrase **“3D runtime attachment bridge still missing”** is now too coarse, however, because two material events have occurred:
+The earlier placement was deliberately conservative: Geometry had a reindex-only candidate, but the source generator remained unchanged because a structural repair alone did not justify rewriting source lineage.
 
-1. **Building is now a genuinely independent second manufactured domain** using the same class of explicit source-owned receiver evidence, satisfying the previous Cartographer trigger without inventing an empty example.
-2. **Wreckline now demonstrates a real target-host transform-socket / module-swap path** in a bounded Godot proof host, including a retained source-socket failure and a derived repaired socket candidate. That is meaningful runtime-transform evidence, but it is still not 3D attachment physics.
+That evidence boundary has now changed materially.
 
-The correct map is therefore a three-layer decomposition rather than a single universal “attachment” abstraction.
+The same generator-level defect is independently reproduced by three real source-owned Nature bodies:
 
-## Evidence-linked three-layer map
+- `sapling-neutral-001`;
+- `compact-east-tree-neutral-001`;
+- `east-rear-tree-neutral-001`.
 
-| Layer | Evidence now | Correct current home | Placement decision |
-|---|---|---|---|
-| **A — manufactured interface / receiver compatibility** | Object: bilateral source-owned 3D service frames, accepted interface, footprint, exact mount pattern and clearance. Building: front and east orthogonal receiver frames; one separate panel fits both with zero mount-pattern residual, bounded footprint/clearance and fail-closed negative controls. | Source design repos own semantics. Cross-domain evidence discipline may later become Profession Fabric procedure. | **REPEATED ACROSS TWO MATERIAL DOMAINS. Keep construction/interface meaning local; do not create a UC attachment ontology.** |
-| **B — target-host transform binding / live module swap** | Object TA #7 statically binds exact module placement from source frame through UC GLB -> Godot but explicitly holds dynamic attach/detach. Wreckline / Profession Fabric #35 has derived semantic transform sockets, a roof socket following live vehicle motion, two real UC module bodies, and `empty -> harpoon -> salvage -> empty` with an exact empty roundtrip in the Godot proof host. | Consumer Technical Art / Runtime / live-job evidence for now. | **ONE LIVE CONSUMER FAMILY. Candidate generic mechanism exists conceptually, but extraction is premature until a second independent runtime consumer reproduces attach/follow/swap/detach with exact 3D frame semantics.** |
-| **C — physical attachment constraint** | Object Rigging #8 proves an analytic source-space clearance invariant only. UC physics translation mounts remain 2D/world-axis translation bounded and do not provide rotating local anchors, arbitrary 3D orientation following or 3D connected-body collision semantics. | **No proven generic home yet.** | **STILL MISSING. Do not infer physics from Layer A fit or Layer B transform following. Do not reuse the UC 2D mount name as a 3D physics claim.** |
+For all three, exact retained Geometry evidence reports:
 
-This split is now the highest-leverage capability-placement result of the activation.
+- `390` vertices before and after;
+- `570` triangles before and after;
+- `905` unique indexed edges before and after;
+- **`260 -> 0` shared-edge orientation conflicts**;
+- exactly `260` cap triangles reindexed;
+- `100` boundary edges unchanged;
+- `0` non-manifold edges unchanged;
+- `40` edge-connected components unchanged;
+- no vertex-position movement;
+- no triangle-membership change;
+- no source-form semantic change.
 
-## Why Object + Building is enough to change the map, but not enough to centralize the schema
+That repetition already identified the defect as a property of the shared Nature tapered-segment construction, not a one-off asset accident.
 
-The Building case is not a duplicated Object example:
+The new Technical Art evidence adds the missing downstream consequence:
 
-- Object is a compact manufactured equipment case with bilateral `±X` service interfaces and a separate utility module;
-- Building is a Map-sized pavilion with front `-Y` and east `+X` panel receivers and one separate access-panel source fitting both materially different orientations;
-- the scale, product purpose, receiving geometry and scene context differ;
-- both independently require explicit frame validity, compatible interface identity, bounded receiving footprint, mount correspondence and positive clearance;
-- both retain negative controls rather than accepting a fit by appearance alone.
+1. the exact three-source `260 -> 0` distinction survives the existing Nature -> current UC topology/GLB path;
+2. the rear baseline and candidate are pixel-identical with culling disabled in both retained target-host views;
+3. with backface culling enabled, the exact reindex-only rear candidate changes **827 pixels** in `ground_oblique` and **1,225 pixels** in `high_oblique`;
+4. direct retained-frame inspection identifies repeated black slit/gap reads at tapered trunk/branch cap transitions in the baseline and their removal in the candidate;
+5. in both retained views the candidate `CULL_BACK` frame is byte-identical to its culling-disabled control, while the baseline is not.
 
-That closes the previous **“second materially different manufactured source”** observation trigger.
+That closes the prior **“prove a real target-host consequence before source migration”** dependency for this narrow winding issue.
 
-It does **not** prove that both repos should adopt one universal field schema, one construction ontology, or one UC-owned fitter. Their semantic names and product rules are still legitimately different. The repeated thing is presently the **evidence discipline**, not the design vocabulary.
+It does **not** by itself authorize an in-place rewrite of established mesh identities. The correct next step is an explicit source-lineage migration owned by Nature, with old receipts preserved and affected downstream evidence rebound deliberately.
 
-## Bounded shared-craft proposal
+## Capability placement decision
 
-The repetition now justifies a **candidate Profession Fabric procedure**, but not implementation or promotion in this Cartographer run:
+The correct home of the repair is now supported strongly enough to state:
 
-**`manufactured-interface-evidence` — EXPERIMENTAL proposal**
+| Responsibility | Correct current home | Placement decision |
+|---|---|---|
+| Nature source form, tapered-segment construction and cap index emission | `axm-nature-design` source generator | **Migration candidate belongs here.** The defect repeats across three source families produced by the same Nature construction pattern. |
+| Before/after winding diagnosis and exact reindex oracle | Nature Geometry lane | Keep as migration evidence/regression oracle; do not make it a permanent downstream shim after source adoption. |
+| Generic topology inspection | `axm-universal-creation` | **Already correctly placed. No Nature-specific repair rule should be added.** |
+| Deterministic surface / GLB publication and verification | `axm-universal-creation` | Already generic and sufficient; no source policy migration into UC. |
+| Exact donor binding + target-host culling observation | Technical Art / receiving integration lane | Keep as downstream migration gate, not source authority. |
+| Scene composition / hierarchy acceptance | Map Environment + Art Direction + Visual QA | Re-test an adopted migrated source in the exact scene; do not silently inherit the culling-disabled baseline PASS. |
+| Reusable evidence/profession procedure | Profession Fabric | No new procedure is required for this source implementation defect. Profession Fabric remains evidence/profession ownership, not Nature mesh construction. |
 
-Its future job, if the evidence threshold is met, would be to verify a source-supplied adapter/receipt rather than define source construction rules. The minimum portable evidence shape should require:
+The key distinction is important: **the portable capability is the generic ability to detect and prove topology consequences; the cap-winding repair itself is source-generator policy.** Moving the repair into UC or Profession Fabric would turn a source implementation fact into hidden cross-domain authority.
 
-- exact source and receiver identity / provenance;
-- explicit 3D local frame with orthonormality and handedness/convention declared by the source;
-- source-owned compatible interface class/tag;
-- bounded receiving/contact footprint or envelope;
-- declared mount correspondence plus a measured residual/tolerance;
-- positive body/receiver clearance or an explicitly declared contact condition;
-- retained fail-closed negative controls for frame, mount, footprint or clearance corruption;
-- clear non-claims for runtime binding, physics, engineering load and gameplay.
+## Bounded migration proposal
 
-**Placement gate:** do not add this procedure to Profession Fabric merely because Object and Building look similar. First require either:
+No source migration is executed by Cartography. The supported migration path is:
 
-1. one unchanged verifier/procedure body to consume both current domains through thin source-owned adapters without normalizing away their semantics; **or**
-2. a third materially different manufactured source to reproduce the same minimum evidence shape.
+### 1. Open one explicit Nature source-migration lane
 
-Wreckline does **not** automatically count as that third Layer-A case today. Its strongest new evidence is Layer B: derived transform sockets and live module swapping. The retained source semantic roof-socket contradiction is precisely why Cartography should not retroactively claim the same static fit/mount-pattern contract where it was not authored.
+The owning Nature lane should alter only the shared tapered-cap triangle winding emitted by the source generator. It should preserve:
 
-If the procedure later lands, the correct home is the EXPERIMENTAL 3D Game Asset Specialist / Profession Fabric evidence layer, while source interface semantics remain in their design repos and UC remains generic machinery.
+- all source JSON / authored form semantics;
+- all vertex positions;
+- triangle membership and region identity;
+- source envelopes and authored branch/leaf state;
+- prior source IDs;
+- old baseline mesh digests as historical evidence, **not** rewritten history.
 
-## Runtime-transform placement after Wreckline
+Every migrated generated mesh receives its truthful new digest. The change should be described as a source-lineage transition, not as if the historical baseline never existed.
 
-Profession Fabric #35 changes one prior non-claim carefully:
+### 2. Rebind all current source-generator dependents explicitly
 
-**A bounded target-host transform/socket binding and real module swap has now been exercised.**
+The source migration does not stop at the three headline bodies. Current exact evidence depending on the old generator lineage includes at least:
 
-It does not yet establish a universal runtime attachment component because:
+- the three established Nature source meshes;
+- Procedural PR #4's nine retained generated variants;
+- Nature Materials evidence that publishes the sapling through UC;
+- Nature VFX / deforming-sapling evidence whose exact mesh identity is part of its retained state;
+- Map Environment PR #15's rear receiving scene;
+- Map VFX / Runtime evidence that reconstructs source-owned Nature states;
+- Map Runtime PR #17's exact three-source scene/material-sharing proof.
 
-- the repaired Wreckline sockets are a derived candidate created after a retained `1.898 m` roof-socket contradiction;
-- the proof host is Godot 4.7.2, not Wreckline's declared final/native engine;
-- the task is still one vehicle family / one machine cognition-executor path;
-- Object's target-host path remains static and deliberately source-frame driven;
-- neither path defines generic attach/detach ownership, persistence, collision policy, failure/break behavior or physical constraint ordering.
+Old artifacts remain valid **for their old exact identities**. They do not become false; they simply do not transfer automatically to the migrated mesh digests.
 
-Therefore Layer B stays consumer-owned for now. The most informative next proof is **not another Wreckline module**; it is a second independent consumer—Object is the obvious existing candidate—performing exact runtime attach -> parent motion/follow -> alternate module or detach -> empty roundtrip while preserving source-frame orientation semantics.
+### 3. Require source-generated equivalence to the proven Geometry repair
 
-Only after that should UC be considered for a small domain-neutral transform-binding primitive, and even then it must remain separate from physics constraints.
+Before source adoption, regenerate the three established Nature bodies through the modified source generator and require the same narrow facts already proven by Geometry:
 
-## UC boundary remains intact
+- `260 -> 0` shared-edge orientation conflicts;
+- unchanged positions/counts/membership/region identity;
+- preserved source envelopes and Organic checks;
+- no new boundary/non-manifold/component regression.
 
-No UC change is requested.
+Where possible, the generated migrated mesh should reproduce the already-proven Geometry candidate index topology exactly. If it does not, the difference must be explained rather than accepted by name.
 
-The current evidence strengthens rather than weakens the existing source-local / UC-generic boundary:
+### 4. Re-run current UC / target-host migration gates
 
-- Object TA already proves UC can preserve generic descriptor identity and publish exact GLB bytes without owning Object's frame meaning;
-- Nature TA independently shows that an already-generic UC topology inspector can be composed into a source consumer pipeline without migrating Nature's topology semantics or source generator;
-- Wreckline consumes real UC-generated module geometry without making UC the owner of vehicle socket semantics;
-- UC's 2D translation mounts remain valid inside their bounded physics purpose but still do not satisfy arbitrary 3D local-frame transform/physics semantics.
+Technical Art should consume the **migrated source-generated bytes**, not the old derived Geometry candidate, through current UC and re-establish:
 
-A future generic **transform-binding** primitive and a future generic **physics constraint** primitive, if justified, should remain separate capabilities rather than being hidden behind one word such as `mount`.
+- generic UC topology PASS;
+- deterministic GLB publication/verification;
+- normal target-host backface-culling observation;
+- no reintroduction of the slit/gap behavior in the retained views.
 
-## Duplication / overlap check
+This converts the current derived-candidate downstream proof into a source-migration proof without giving Technical Art source authority.
 
-No active implementation lane is duplicated by this map:
+### 5. Re-test the exact Map receiving scene under normal culling
 
-- **Object Hard Surface** owns the service-interface and module fit contract.
-- **Building Hard Surface** owns pavilion/panel receiver geometry and fit semantics.
-- **Object Technical Art** owns its exact source-frame -> UC -> Godot static handoff.
-- **Object Rigging** owns lid/articulation coexistence evidence, not dynamic attachment.
-- **Map Environment** owns composition of the exact Building source into the accepted world, not Building construction meaning.
-- **Wreckline / Profession Fabric live job** owns the current derived-socket and proof-host module-swap evidence.
-- **Universal Creation** owns generic compile/surface/GLB machinery and its explicitly bounded physics primitives, not domain construction semantics.
-- **Profession Fabric #37** owns the unrelated bounded-variation evidence procedure.
-- **Weapon / Armor / Unit / Misc** remain unused as abstraction-count padding.
+Environment PR #15 currently proves composition with the baseline mesh under culling disabled. That was a truthful observation boundary, but it masks the exact defect the new Technical Art pass has now demonstrated.
 
-## Missing dependencies / next useful evidence
+If source migration is proposed for adoption, create one isolated Map A/B that changes only the rear/current Nature mesh lineage under normal backface culling while preserving seed, transforms, Building, Weather, Objects, cameras, lighting and sibling Materials/VFX state.
 
-The next evidence should target a layer explicitly:
+Art Direction / Visual QA can then judge only the real receiving-scene consequence. No form redesign is implied because vertex positions remain unchanged.
 
-1. **Layer A / shared craft:** prove one unchanged `manufactured-interface-evidence` verifier over Object + Building through source-owned adapters, or obtain a third materially different source-owned manufactured interface case.
-2. **Layer B / transform binding:** run a second independent real target-host attach/follow/swap-or-detach/roundtrip path with exact 3D local-frame identity. Object is a strong candidate because its static TA bridge already exists.
-3. **Layer C / physics:** only after a real consumer demands it, define local-anchor orientation following, relationship type, connected-body collision policy, contact/constraint ordering and detach/break semantics, then prove the exact target-host path. Do not infer this from static fit or transform following.
-4. **Profession evidence:** preserve Wreckline's retained semantic-socket failure and derived repair; do not rewrite it into a clean-source story for the sake of abstraction.
-5. **Cross-executor/native runtime:** Profession Fabric #35 remains EXPERIMENTAL until broader assets/executors and final/native runtime evidence exist.
+### 6. Re-run only downstream evidence whose exact input identity changes
+
+Do not blanket-rebuild the constellation. Re-run the Nature/Map lanes whose receipts pin the changed mesh/source output. In particular:
+
+- Procedural must regenerate and re-evaluate its retained variants because their mesh digests will change even if authored source parameters do not;
+- VFX / deformation receipts that bind the exact generated mesh must be rebound rather than inherited;
+- Materials / UC receipts tied to exact sapling GLB bytes must be republished;
+- Runtime scene/resource proofs should be rerun when the exact receiving mesh digest changes, while keeping their runtime question unchanged.
+
+Object, Building, Character, Animal, Weapon, Armor, Unit, Misc and Wreckline do not need work merely because Nature fixes a source-specific cap winding rule.
+
+## Why no UC extraction is justified
+
+Current UC main already has the correct domain-neutral machinery:
+
+- `axm_uc.mesh_topology.inspect_mesh_topology()` detects inconsistent shared-edge winding and other bounded structural edge conditions;
+- deterministic surface / GLB publication carries the exact repaired geometry;
+- the same topology inspector is already reused by UC fabrication/cutter machinery outside Nature.
+
+That is strong evidence that the generic part has already been extracted correctly.
+
+Adding `repair_nature_caps()`, a Nature tapered-segment rule, or an automatic “fix winding” mutation to UC would be a regression in ownership: it would hide source policy behind generic machinery and could mutate unrelated meshes that happen to trigger a similar diagnostic.
+
+## Why no Profession Fabric move is justified
+
+Profession Fabric PR #37 is useful precisely because it demonstrates how a profession-level procedure can verify repeated evidence discipline without owning domain mutation semantics. The Nature cap problem is the opposite shape: the **same source implementation** is generating the same defect across three bodies.
+
+Therefore:
+
+- Profession Fabric may later teach a specialist to preserve lineage and demand target-host evidence for source migrations;
+- it should not own the Nature tapered-cap constructor or the exact repair rule;
+- PR #35 remains EXPERIMENTAL and does not gain Nature source authority from this finding;
+- no profession promotion follows from one source-generator repair family.
+
+## Prior three-layer attachment map remains valid
+
+The previous Cartographer result is retained rather than overwritten conceptually.
+
+New Object work does **not** satisfy the missing second Layer-B live-runtime trigger:
+
+- Hard-Surface PR #9 adds an Object-local asymmetric registration key — a Layer-A interface refinement;
+- Rigging PR #8 proves source-space lid clearance against the registered attachment — still not dynamic attachment physics;
+- Animation PR #10 animates the lid only and explicitly holds target-engine/controller playback;
+- Procedural PR #11 assembles `empty / left / right / bilateral` configurations in **source space** and explicitly does not claim runtime attach/detach or Wreckline-style live swapping;
+- Object Technical Art PR #7 remains a static target-host handoff.
+
+Therefore the earlier placement still stands: Wreckline is the one live Layer-B transform/socket swap consumer, 3D attachment physics remains a separate missing Layer-C capability, and no UC attachment extraction is triggered by the newest Object work.
+
+## Duplication / active-lane guard
+
+This proposal deliberately avoids creating any of the following duplicates:
+
+- no second cap-winding repair inside Map;
+- no Nature-specific fixer inside UC;
+- no Profession Fabric copy of the source constructor;
+- no alternate Technical Art topology system;
+- no silent Procedural generator fork;
+- no new Object attachment runtime lane merely to satisfy Cartography's prior trigger.
+
+The source migration, if executed, should be **one explicit Nature lineage change** with the existing Geometry / Technical Art / Environment / Runtime lanes reused as gates.
+
+## Missing dependencies / acceptance gates
+
+The placement decision is now stronger than the implementation decision. Before migrated Nature source bytes are treated as the new accepted lineage, require:
+
+1. exact source-generator regeneration of all three established bodies with the proven topology facts preserved;
+2. retained old/new mesh identity mapping rather than digest overwrite;
+3. exact Procedural variant re-generation or explicit historical-only marking of the old nine variant receipts;
+4. current-UC republish / verify from source-generated migrated bytes;
+5. target-host culling proof on the migrated source output;
+6. isolated Map receiving-scene A/B under normal culling;
+7. re-run of only the downstream exact-identity receipts affected by the source output change.
+
+Aesthetic, deformation, material or runtime gates should not be broadened into new design work unless those exact re-runs expose a real regression.
 
 ## Structural consequence
 
-**No source code, schema, shared machinery or capability is moved this activation.**
+**No design source, generator, UC code, Profession Fabric structure or Map implementation is altered in this Cartographer activation.**
 
-That is now a positive placement decision, not lack of progress:
+That is deliberate. The evidence now supports the **correct home** of the repair strongly enough to update the capability map, but the source migration has a real lineage/dependency blast radius and belongs to the owning Nature lanes with explicit downstream rebinding.
 
-- the earlier “second manufactured domain” trigger is satisfied by Building;
-- the repeated part is identified as evidence discipline rather than source ontology;
-- Wreckline proves that transform binding/live swapping is a distinct runtime layer;
-- 3D physical attachment remains a separate unproved layer;
-- therefore premature centralization would collapse three differently evidenced responsibilities into one misleading abstraction.
-
-`axm-create-me` receives only this coordination map/status.
+`axm-create-me` receives only this coordination status/map.
 
 ## Truth boundary / non-claims
 
-This map does **not** establish:
+This activation does **not** establish or authorize:
 
-- one universal 3D attachment schema;
-- that Object and Building should rename or normalize their source interface vocabularies;
-- a Profession Fabric `manufactured-interface-evidence` implementation yet;
-- that Wreckline's derived socket candidate is source-authored truth;
-- that Wreckline's proof-host module swap is accepted in the final/native game runtime;
-- a second independent Layer-B runtime consumer;
-- 3D constraint physics, rotating local anchors, connected-body collision policy or break/detach physics;
-- that UC's 2D translation mounts are suitable for these 3D interfaces;
-- game-readiness, engineering correctness, CANON, production readiness, profession promotion or Cartography mastery.
+- that the Nature Organic generator has already been migrated;
+- that old Nature artifacts/receipts are invalid;
+- global outward-normal correctness under every view or deformation state;
+- connected production vegetation topology;
+- self-intersection freedom, normals/tangents/UV readiness or final materials;
+- deformation/wind quality after migration;
+- final Environment / Art Direction / Visual QA acceptance;
+- target-device performance after migration;
+- collision, navigation or gameplay acceptance;
+- a generic UC mesh auto-repair system;
+- a Profession Fabric source-construction procedure;
+- a second independent live Layer-B attachment consumer;
+- 3D attachment physics;
+- CANON, production readiness, game readiness, profession promotion or Cartography mastery.
 
 ## Root gate
 
-- **Truth:** similar words are decomposed by proven behavior: static receiver fit, transform following/swap and physical constraint are not treated as equivalent.
-- **Agency / non-domination:** each design repo retains its source semantics; Profession Fabric may own evidence procedure only when justified; UC receives no hidden authority over domain meaning.
-- **Continuity:** exact PR heads, retained failures, derived-candidate identities, source ownership and the previous Cartographer blob remain traceable; no successful source implementation is silently rewritten.
-- **Wisdom before speed:** the map advances only the layer for which evidence changed and records explicit gates before any shared extraction.
+- **Truth:** the placement change is based on three repeated real source cases, exact topology facts, current-UC transport and an observed target-host culling consequence. Historical baseline receipts remain true for their exact identities.
+- **Agency / non-domination:** Nature retains source-generator authority; Geometry, Technical Art, Environment, Runtime, UC and Profession Fabric retain their bounded ownership. Cartography proposes placement but does not silently perform the source migration.
+- **Continuity:** old source/mesh digests, failed/held states, derived candidates and the previous Cartographer status remain traceable. Migration is defined as a new lineage state with explicit downstream rebinding rather than silent rewrite.
+- **Wisdom before speed:** the repair is moved conceptually only after structural repetition and target-host consequence both exist. UC/PF centralization and blanket constellation rebuilds are explicitly avoided.
 
 ## Handoffs
 
-- **Hard Surface / Object + Building:** keep interface semantics local. If both can be consumed by one unchanged evidence verifier through thin adapters, report that as the strongest next Layer-A extraction evidence.
-- **Profession Fabric:** treat `manufactured-interface-evidence` only as a bounded EXPERIMENTAL proposal; do not add/promote it until the placement gate above is met. Keep Wreckline's source-socket failure and derived candidate distinct.
-- **Technical Art / Runtime:** if Object performs dynamic service-module attachment, preserve exact source-frame orientation and test real attach/follow/swap-or-detach/roundtrip. That would be the cleanest second Layer-B consumer.
-- **Universal Creation:** no change requested. Keep 2D physics translation mounts separate from any future 3D transform-binding or physical-constraint capability.
-- **Rigging:** source-space clearance evidence remains useful but must not be relabeled runtime attachment physics.
-- **Environment:** Building -> Map composition is receiving-scene evidence, not proof of a runtime attachment primitive.
+- **Nature Organic + Geometry:** the evidence threshold now supports an explicit source-generator migration candidate for the tapered-cap winding rule. Preserve old mesh lineage and make any adoption a distinct source-output transition.
+- **Technical Art:** if Nature produces migrated source bytes, re-run the existing current-UC + target-culling path on those bytes rather than the derived Geometry candidate.
+- **Nature Procedural:** do not inherit the migration silently. Regenerate/rebind the exact nine retained variants or mark the old receipts historical-only until re-proven.
+- **Environment / Map:** preserve PR #15 as truthful baseline evidence. If migration is proposed, test one isolated normal-culling receiving A/B rather than silently swapping the mesh.
+- **Runtime / VFX / Materials:** re-run only receipts whose exact mesh/source output identity changes; do not turn a winding migration into unrelated feature work.
+- **Universal Creation:** no change requested. Keep generic topology detection / publication generic; do not add source-specific automatic repair policy.
+- **Profession Fabric:** no source-construction move requested. The useful profession-level lesson is explicit lineage-preserving migration evidence, not ownership of Nature's generator.
+- **Object / Wreckline attachment lanes:** prior three-layer attachment map remains active; Object's latest source-space configuration work does not yet count as a second live Layer-B runtime consumer.
 
 ## Next Cartographer pass
 
-Prefer one concrete trigger over another terminology-only scan:
+Prefer one concrete trigger rather than another terminology-only scan:
 
-1. an unchanged interface-evidence verifier executes over both Object and Building;
-2. a third materially different manufactured source reproduces the Layer-A evidence shape;
-3. Object or another independent source performs a real Layer-B target-host attach/follow/swap-or-detach roundtrip;
-4. a real consumer demands Layer-C 3D physical constraint semantics;
-5. Profession Fabric gets a second materially different real 3D task/executor that challenges the current experimental specialist body;
-6. another design -> UC crossing contradicts the current source-local / UC-generic boundary.
+1. Nature opens or completes an explicit source-generator cap-winding migration and produces new exact source-generated mesh identities;
+2. migrated Nature bytes cross current UC and normal target-host culling successfully;
+3. Map receives the migrated rear/source body in an isolated normal-culling A/B;
+4. a downstream exact-identity receipt exposes an unexpected migration dependency or regression;
+5. Object or another independent consumer performs a real live attach/follow/swap-or-detach/empty roundtrip, satisfying the prior Layer-B trigger;
+6. a real consumer demands Layer-C 3D physical-constraint semantics;
+7. another cross-repo case contradicts the source-local / UC-generic / Profession-evidence boundary mapped here.
 
-If none occurs, preserve the three-layer map and do not manufacture a universal attachment layer.
+If none occurs, preserve this placement decision and do not manufacture another abstraction.
