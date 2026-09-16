@@ -1,32 +1,32 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-16
-State: **PASS_OBJECT_ARTICULATED_SURFACE_FAMILY_STATIC_POSE_RECHECK / EXACT ANIMATION + RIG DONORS PINNED / 3 POSES × 2 GODOT CONTEXTS RETAINED / MATERIAL VALUES UNCHANGED / ANIMATION-RUNTIME + UV-TEXTURE + FINAL ART HELD**
+State: **PASS_OBJECT_SOURCE_OWNED_KEEPER_SURFACE_OWNER_BINDING / EXACT HARD-SURFACE + ANIMATION + RIG DONORS PINNED / REAL GODOT OWNER-BOUND VS LEGACY-FIXED A/B / MATERIAL VALUES UNCHANGED / LATCH-MECHANISM + ANIMATION-RUNTIME + COLLISION + UV-TEXTURE + FINAL ART HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, the standing Materials / LookDev role, newest specialist status and current open design work across the full constellation before selecting one bounded lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status, and current open work across the full eleven-repository design constellation before taking a lane.
 
-`axm-create-me` remains coordination-only. Product/evidence work was performed only in the source design repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains coordination-only. Product/evidence changes were made only in `mike-axiom-mir/axm-object-design`; this file records coordination evidence and handoffs. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous Materials result remains valid and historical: Building's service accent was refined at the Building source, re-proved standalone, re-consumed by Map PR #14, and subsequently released by Art Direction for its exact receiving-surface hierarchy question. This activation does not reopen that cleared scalar-PBR focal-weight decision.
+The immediately previous Materials result, `PASS_OBJECT_ARTICULATED_SURFACE_FAMILY_STATIC_POSE_RECHECK`, remains valid for its exact older representation and is preserved in Git history at status blob `7483e3e43eff79881dd96e07019fbf469af80a24`. This activation does not rewrite that evidence; it closes a newly available dependency.
 
 ## Full-constellation material readiness scan
 
-Current open design work was checked before taking a lane:
+- **Weapon / Armor / Unit / Misc:** still no stronger evidence-backed material/UV target than the active Object lane.
+- **Character:** current work remains source-form/transition oriented; Materials should not hide unresolved form under surfacing.
+- **Animal:** current Geometry/Rigging/Animation evidence is dominated by connected-form deformation and silhouette review; no explicit material defect outranks it.
+- **Building:** source Materials PR #3 and Map receiving Materials PR #14 already cover the current pavilion scalar-PBR question; Art Direction has released further tuning for that exact issue.
+- **Nature:** bounded woody/foliage Materials evidence exists, while the newest work is source-topology lineage migration and receiving culling integrity. Do not use Materials as a topology workaround.
+- **Weather:** current work remains VFX/atmosphere/procedural fidelity, not a surface-family defect.
+- **Map:** newest receiving work is Environment/Visual-QA normal-culling evidence; the Building material lane remains separate.
+- **Object:** this is where the material boundary materially changed. Hard-Surface PR #14 now makes exact front-latch component ownership explicit, resolving the previous Materials limitation that latches had to remain fixed/unclaimed in articulated lookdev evidence.
 
-- **Weapon / Armor / Unit / Misc:** no open current source/material PRs; no evidence-backed material target exists yet.
-- **Character:** PR #2 remains source-form / transition work with visual/deformation questions upstream of surfacing. Materials does not hide unresolved form under lookdev.
-- **Animal:** the newest active lane is connected-forelimb Rigging/Deformation PR #6 stacked on Geometry PR #4; Animation PR #5 remains a sampled-motion review surface. Those are deformation/motion questions, not a free Materials lane.
-- **Building:** Materials PR #3 is already source-refined at `b08f683f1c3f75c474fb347e1d1990c1c4426a33`; Map Materials PR #14 is already receiving-scene proven, and Art Direction has explicitly released further scalar-PBR focal-weight tuning for that exact issue.
-- **Nature:** Materials PR #5 remains a valid bounded woody/foliage lookdev lane. New Nature PR #9 is a source-generator topology-lineage migration; exact downstream material receipts should not be rebound casually until their mesh identity actually changes in a relevant path.
-- **Weather:** active work is VFX/procedural field variation, not a material-family defect.
-- **Map:** PR #14 remains the Building receiving material lane; PRs #15–#17 own Environment/VFX/Runtime. The rear-tree normal-culling issue is topology/receiving integrity, not a Materials workaround target.
-- **Object:** Materials PR #6 remained the one material lane with a named unresolved lookdev boundary: its surface family had only been challenged in closed static views, while Animation PR #10 now supplies exact source-owned lid poses. That gap could be closed without changing geometry, stealing Animation authority, or opening a duplicate PR.
+No duplicate Materials PR was opened.
 
 ## Bounded gap selected
 
-Existing Object Materials PR:
+Existing lane:
 
 **`mike-axiom-mir/axm-object-design#6 — Materials: prove functional surface separation on case + module`**
 
@@ -34,84 +34,68 @@ Branch:
 
 `studio/materials-object-functional-surface-001`
 
-The original Object Materials evidence already proved one six-material scalar-PBR family on the exact equipment case + right-service module in three fixed **closed** contexts. Its truth boundary explicitly left material response across lid articulation untested.
+The previous articulated Materials proof sampled exact lid poses but moved only `lid_shell` and lid-owned hinge knuckles because source ownership of the front latch pieces had not yet been established.
 
-Animation PR #10 later supplied a source-owned deterministic lid candidate. The highest-leverage Materials improvement was therefore not another material family or a blind retune. It was to make the existing family survive a materially different receiving condition: exact source-authored lid poses.
+Hard-Surface PR #14 now proves, for this exact source only:
 
-## Exact pinned donor identities
+- `latch_0_keeper` / `latch_1_keeper`, role `latch_keeper` -> owner `lid_shell`;
+- `latch_0_lever` / `latch_1_lever`, role `latch_lever` -> owner `front_service_panel`.
 
-Animation donor:
+That source contract explicitly does **not** define latch pivots, hook/capture geometry, release, retention, forces, articulated clearance, controller behavior, or gameplay.
 
-- repository: `mike-axiom-mir/axm-object-design`;
-- PR #10;
-- exact commit: `f89a3b3f1aa6f448c8a97c6d00d5e270e7d3bb00`;
+The highest-leverage Materials improvement was therefore to consume the exact ownership donor so the lid-owned **keeper surfaces** follow the lid rigidly in the static lookdev review while the lower levers remain fixed, then compare this against the historical fixed-keeper representation. No material values were retuned.
+
+## Exact pinned identities
+
+Current Object Materials head:
+
+`bcfe25f6ab56996a14c9744723ba015920308eab`
+
+PR #6 remains **OPEN / DRAFT / MERGEABLE**.
+
+Exact donors:
+
+- Animation PR #10 head: `12a350fc38f67348f342cd0e53ed6b16383b789d`;
 - clip: `lid-open-hold-close-001`;
-- duration: `2.0 s`;
-- sample rate: `40 Hz`;
-- authored peak: `100°` with explicit `10°` guard below the `110°` rig limit.
+- Rigging donor: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- Rig plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
+- Hard-Surface PR #14 ownership donor: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
+- ownership contract: `front-latch-ownership-001`;
+- ownership canonical digest: `c24b7856ce11c86847e3444de737d3299fec696b94fd71f209be736e0cb2a08b`.
 
-Rigging donor:
+Unchanged source/material identities:
 
-- exact commit: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
-- joint: `rear-lid-hinge-001`;
-- moving component: `lid_shell`;
-- fixed component: `body_shell`;
-- opening sign: `-1` around source `+X` hinge;
-- exact plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`.
+- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- module source SHA-256: `ffd7b42294d3af71e02aa172157beccefa08c6af2c1198f88836862d2a50fc2e`;
+- material profile SHA-256: `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`;
+- base geometry-contract SHA-256: `bc1f724744fa4d4f5bcd6469c7cc886a46632f1f160e0042252e2c9cec87b678`;
+- exact clip digest: `9e149195ab315f83f2d6f7d76f374f4be245567f77402de3e8a1d40ab79ef340`;
+- exact derived hinge origin: `[0.0, 0.252, 0.306] m`.
 
-The Materials extension pins these exact donors and derives the hinge origin from the exact Object source dimensions/hinge offsets:
+## Smallest reusable Materials repair
 
-`[0.0, 0.252, 0.306] m`.
+The existing articulated review was advanced to a v0.2 contract rather than creating a new material system.
 
-No motion identity, source geometry or rig plan was rewritten.
+Changed inside the existing Object Materials lane:
 
-## Smallest reusable Materials improvement
+- `lookdev/articulated_material_review_001.json` now pins the exact ownership donor in addition to Animation/Rigging;
+- `tools/build_object_material_articulation_evidence.py` validates exact source, motion, rig and ownership identity, derives keeper component names from the source-owned station contract, and fails closed on ownership/role drift;
+- `tests/test_material_articulation.py` now proves exact keeper inheritance and rejects accidental lever promotion;
+- `lookdev-proof/articulation_observe.gd` adds a bounded `owner_bound` representation plus a historical `legacy_fixed` control;
+- `.github/workflows/object-material-lookdev.yml` checks out the exact PR head, retains `exact-head.txt`, materializes all exact donors, renders both paths and retains the comparison.
 
-The existing Object Materials PR #6 was extended rather than creating a duplicate lane.
+The owner-follow list is **not** manually re-authored as a second domain truth. It is derived from the exact Hard-Surface ownership file and must resolve to exactly:
 
-New source-owned review contract:
+- `latch_0_keeper`;
+- `latch_1_keeper`.
 
-`lookdev/articulated_material_review_001.json`
+Lower levers are deliberately excluded.
 
-New evidence builder:
+## Material continuity
 
-`tools/build_object_material_articulation_evidence.py`
+No scalar-PBR value changed.
 
-New fixed target-host observer:
-
-`lookdev-proof/articulation_observe.gd`
-
-New fail-closed unit coverage:
-
-`tests/test_material_articulation.py`
-
-The workflow now materializes the exact pinned Animation and Rigging donor files and challenges the **unchanged** Object material family at three exact static samples from the clip:
-
-- `closed`: `t=0.000 s` -> `0°`;
-- `mid_open`: `t=0.375 s` -> `50°`;
-- `peak_open`: `t=0.750 s` -> `100°`.
-
-Two fixed Materials cameras are retained:
-
-- `three_quarter`;
-- `rear_hinge`.
-
-Only existing declared moving roles are transformed in the observer:
-
-- `lid_shell`;
-- `hinge_knuckle_lid`.
-
-Latches and all other components remain fixed/unclaimed. The observer does not run an AnimationPlayer, controller or gameplay state machine.
-
-## Material/source continuity
-
-No scalar lookdev value changed in this activation.
-
-Exact retained material profile SHA-256:
-
-`dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`
-
-Current six Object-local candidate materials remain:
+The current six Object-local candidate materials remain:
 
 - `shell_coating` — `#3F484EFF`, metallic `0.42`, roughness `0.54`;
 - `service_dark` — `#252B2FFF`, metallic `0.18`, roughness `0.66`;
@@ -120,188 +104,160 @@ Current six Object-local candidate materials remain:
 - `interface_orange` — `#A96532FF`, metallic `0.20`, roughness `0.48`;
 - `module_housing` — `#35596DFF`, metallic `0.34`, roughness `0.50`.
 
-The exact host/source SHA-256 remains:
+This activation repairs evidence coherence rather than manufacturing novelty through a material retune.
 
-`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`
+## Exact CI evidence
 
-The exact module source SHA-256 remains:
+Workflow:
 
-`ffd7b42294d3af71e02aa172157beccefa08c6af2c1198f88836862d2a50fc2e`
+`35079869527 — Object material lookdev evidence` — **SUCCESS**.
 
-The exact base geometry-contract SHA-256 remains:
+The exact Materials workflow:
 
-`bc1f724744fa4d4f5bcd6469c7cc886a46632f1f160e0042252e2c9cec87b678`.
+- passed the complete Object repository suite on Python 3.11 and 3.13;
+- checked out exact head `bcfe25f6ab56996a14c9744723ba015920308eab` and retained it in `exact-head.txt`;
+- rebuilt the unchanged base material payload;
+- materialized exact Animation, Rigging and latch-ownership donor files;
+- validated the source-bound v0.2 articulated payload;
+- rendered the original material A/B and the owner-bound/legacy-fixed comparison through pinned Godot `4.7.2` GL Compatibility;
+- retained both exact artifact sets.
 
-This is important: the new PASS was not manufactured by changing the material values after seeing the new views.
+Same-head inherited service-module fit workflow `35079869396` also passed. The separate inherited Hard-Surface interface workflow is not used as a substitute for the Materials evidence and need not be green for this scoped claim.
 
-## Exact current Object evidence
-
-Final tested Materials head:
-
-`c8b775d85f6007eab8d05fdb5e2ddc3e4ab871d4`
-
-PR #6 state:
-
-**OPEN / DRAFT / MERGEABLE**
-
-Exact-head workflows:
-
-- `35073436245 — Object material lookdev evidence` — **SUCCESS**;
-- inherited `35073436184 — Object service-module fit evidence` — **SUCCESS**;
-- inherited `35073436247 — Object hard-surface interface evidence` — **SUCCESS**.
-
-The Materials workflow passed the complete Object repository suite on Python 3.11 and 3.13, built the original closed material proof, fetched/materialized the exact donor commits, built the articulated material payload, and rendered/validated both proofs in pinned Godot `4.7.2` GL Compatibility.
-
-Source-bound articulated payload result:
+Source-bound result:
 
 **`PASS_SOURCE_BOUND_ARTICULATED_MATERIAL_REVIEW_PAYLOAD`**
 
-Target-host state:
+Target-host result:
 
-**`PASS_TARGET_HOST_ARTICULATED_SURFACE_AB_READY`**
+**`PASS_TARGET_HOST_ARTICULATED_SURFACE_OWNER_BOUND_AB_READY`**
 
-Exact clip digest:
+## Retained artifact
 
-`9e149195ab315f83f2d6f7d76f374f4be245567f77402de3e8a1d40ab79ef340`
+Owner-bound articulated artifact:
 
-## Retained exact artifact
+- ID: `10439871894`;
+- name: `object-material-articulation-001-bcfe25f6ab56996a14c9744723ba015920308eab`;
+- size: `890,922` bytes;
+- exact head: `bcfe25f6ab56996a14c9744723ba015920308eab`;
+- GitHub SHA-256: `45def7f50d67c02a7864c7a94858432830b21a38778172ecc8d61b37302c3fcc`;
+- independently downloaded/rehashed SHA-256: `45def7f50d67c02a7864c7a94858432830b21a38778172ecc8d61b37302c3fcc`.
 
-Articulated evidence artifact:
+The retained artifact contains the exact material profile, v0.2 review contract, exact Animation/Rigging/ownership donors and donor-head records, exact-head binding, build/runtime receipts, 12 neutral-vs-candidate articulated renders, and four additional historical-fixed ownership control renders.
 
-- ID: `10436749334`;
-- name: `object-material-articulation-001-c8b775d85f6007eab8d05fdb5e2ddc3e4ab871d4`;
-- size: `646,630` bytes;
-- exact workflow head: `c8b775d85f6007eab8d05fdb5e2ddc3e4ab871d4`;
-- GitHub SHA-256: `162f740537d0a2eebaeb29882e31297480070d52ecdeb28c8d79f8ffd425f51a`;
-- independently downloaded/rehashed SHA-256: `162f740537d0a2eebaeb29882e31297480070d52ecdeb28c8d79f8ffd425f51a`.
+## Real target-host comparisons
 
-The artifact contains the exact material profile, exact review contract, exact pinned donor clip/rig files, donor-head records, build/runtime receipts and all 12 baseline/candidate PNGs.
+### Candidate material family vs neutral proof material
 
-## Exact static-pose A/B measurements
-
-Candidate material family versus neutral proof material:
+On the owner-bound representation:
 
 | pose | three-quarter | rear-hinge |
 |---|---:|---:|
 | closed `0°` | `93,407 / 508,400 = 18.3727%` | `87,241 / 508,400 = 17.1599%` |
-| mid-open `50°` | `128,099 / 508,400 = 25.1965%` | `143,390 / 508,400 = 28.2042%` |
-| peak-open `100°` | `132,217 / 508,400 = 26.0065%` | `144,618 / 508,400 = 28.4457%` |
+| mid-open `50°` | `128,099 / 508,400 = 25.1965%` | `143,084 / 508,400 = 28.1440%` |
+| peak-open `100°` | `132,589 / 508,400 = 26.0797%` | `145,784 / 508,400 = 28.6751%` |
 
-These are attribution/visibility measurements only; pixel delta is not aesthetic acceptance.
+The unchanged material family therefore remains visibly differentiated after the ownership repair. Pixel delta is attribution evidence, not aesthetic acceptance.
 
-The candidate closed-to-pose comparisons independently prove the retained renders are materially different poses rather than repeated stills:
+### Owner-bound vs historical fixed-keeper representation
 
-- `50°` vs closed: `84,300` changed pixels in `three_quarter`, `94,629` in `rear_hinge`;
-- `100°` vs closed: `97,648` in `three_quarter`, `122,771` in `rear_hinge`.
+| pose | three-quarter | rear-hinge |
+|---|---:|---:|
+| `50°` | `4,497 / 508,400 = 0.88454%` | `1,062 / 508,400 = 0.20889%` |
+| `100°` | `3,555 / 508,400 = 0.69925%` | `2,450 / 508,400 = 0.48190%` |
+
+All four retained ownership comparison pairs are visibly different and localized.
 
 ## Direct render inspection
 
-All 12 exact retained PNGs were downloaded and directly inspected.
+The retained owner-bound and historical-fixed frames were downloaded and inspected directly.
 
-Across `0° / 50° / 100°`:
+Observed narrow correction:
 
-- the dark coated shell/service masses remain distinct from the brighter steel latch/hinge hardware;
-- the hinge line stays materially legible as the lid opens;
-- the dark guards remain subordinate and high-roughness in read;
-- the orange attachment interface and blue-grey receiving module remain readable in both fixed camera families;
-- the moving lid does not collapse the candidate back toward the neutral-proof visual hierarchy.
+- in the historical control, the bright steel keeper boxes remain at their closed front positions while the lid opens;
+- in the owner-bound representation, those same two keeper surfaces ride with the lid/front edge at both `50°` and `100°`;
+- the lower lever surfaces remain fixed with the front service panel as required by the source ownership contract;
+- the rest of the case/module surface hierarchy remains stable: dark shell/service masses, bright hinge/hardware, dark guards, orange interface and blue-grey module retain their established roles under the same proof lighting/cameras.
 
-At high opening angles the large lid face naturally becomes a stronger bright plane under the fixed key/fill. The current source/proof representation has one `lid_shell` role/material across all lid faces. That evidence does **not** justify inventing an inner-lid material, UV split, texture family or receiver-only lighting cheat. A separate interior surface treatment should wait for a real source/material-slot requirement or stronger Art Direction evidence.
-
-Therefore the correct Materials action is to preserve the successful material values and widen the evidence boundary, not churn scalar PBR values to manufacture visible novelty.
+The owner-bound view is more source-coherent for Materials review, but this observation is intentionally **not** called latch-mechanism correctness. At high opening angles the keepers simply inherit the lid rigid transform because that is the only source-supported relationship currently available.
 
 ## Materials decision
 
-**`PASS_OBJECT_ARTICULATED_SURFACE_FAMILY_STATIC_POSE_RECHECK`**
+**`PASS_OBJECT_SOURCE_OWNED_KEEPER_SURFACE_OWNER_BINDING`**
 
 Bound exactly to:
 
-- Object Materials PR #6 head `c8b775d85f6007eab8d05fdb5e2ddc3e4ab871d4`;
+- Object Materials PR #6 head `bcfe25f6ab56996a14c9744723ba015920308eab`;
 - exact unchanged material profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`;
-- Animation donor `f89a3b3f1aa6f448c8a97c6d00d5e270e7d3bb00`;
-- Rigging donor `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
-- artifact `10436749334` / SHA-256 `162f7405...`;
-- pinned Godot `4.7.2` GL Compatibility;
-- exact static `0° / 50° / 100°` samples;
-- exact `three_quarter` and `rear_hinge` cameras.
+- exact Animation head `12a350fc38f67348f342cd0e53ed6b16383b789d`;
+- exact Rig donor `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- exact Hard-Surface ownership donor `d3fa10a270faae7925811f44f03381fe5c5d0215` / digest `c24b7856...`;
+- artifact `10439871894` / SHA-256 `45def7f5...`;
+- Godot `4.7.2` GL Compatibility;
+- static exact `0° / 50° / 100°` samples and two fixed Materials cameras.
 
 Meaning:
 
-> The existing Object source-role scalar-PBR family remains visibly differentiated in the exact proof host at three materially different static poses sampled from the exact source-owned lid Animation candidate, without changing material values, source geometry, rig identity, camera family or proof lighting.
+> The existing Object material family can consume exact source-owned latch component ownership so only the two lid-owned keeper proof surfaces rigidly follow the exact lid pose in the Materials review representation. This produces a localized, directly observed correction relative to historical fixed-keeper evidence without changing material values, source geometry, rig identity or clip identity.
 
-This supersedes only the previous statement that Object materials had never been challenged beyond the closed pose.
+The prior static-pose PASS remains historical before-evidence rather than being silently relabelled.
 
 ## Reusable discovery / placement
 
-A useful bounded Materials method is now better supported:
+One bounded reusable Materials method is now stronger:
 
-1. prove a source-owned role/material family on unchanged geometry in fixed views;
-2. when the asset later becomes articulated, pin the exact motion/rig donors rather than inventing a second motion representation;
-3. sample materially different poses and rerender the same material family under the same lookdev contexts;
-4. keep material values unchanged unless the articulated context exposes a concrete surface defect;
-5. do not inherit Animation/controller/runtime authority merely because static poses render correctly.
+1. when an articulated surface review gains a later source-owned component-ownership contract, consume that exact contract rather than infer attachment visually;
+2. pin material, ownership, rig and motion identities separately;
+3. derive owner-follow components from the source domain contract instead of copying domain knowledge into the observer;
+4. retain the prior representation as a visible control so the correction can be attributed;
+5. treat rigid owner inheritance as a lookdev evidence representation only until Rigging/Animation prove any actual mechanism behavior.
 
-This is an evidence method, not a universal Object shader ontology. No UC core material schema, shared renderer policy or Profession Fabric promotion is justified by this one articulated Object family.
-
-## Historical Materials continuity
-
-The previous Building receiving-scene result remains valid in its exact scope and is preserved in Git history at prior status blob:
-
-`2fb708bf0a71aee307806d61d4f3fe944aee1231`
-
-It remains the source for the Building service-accent refinement and Map receiving proof; this activation does not silently replace that evidence with the Object result.
-
-The Object lane's original closed-pose evidence also remains historical:
-
-- original tested head `4776a00fc771801d0ad3b9cdde8a3dd5e5647407`;
-- artifact `10432215538`;
-- archive SHA-256 `b419288f758be4296a6a82c2a270661fafbecfef4acf53c52af0e19c307d3ab9`.
+This method remains Object-local evidence logic. One case does **not** justify a UC latch ontology, universal material attachment schema, or Profession Fabric promotion.
 
 ## Renderer / representation boundary
 
-This proof remains deliberately bounded:
-
 - renderer: Godot `4.7.2` GL Compatibility;
-- geometry: procedural proof representation reconstructed from exact source component dimensions, not byte-identical final OBJ/GLB material import;
-- pose application: exact donor angles applied as static transforms, not target-engine clip playback;
-- source cylinders and Godot proof cylinders do not establish byte-identical topology;
-- no authored UVs, textures, decals, grime, wear, baked normal/AO maps or interior surface slot;
+- geometry: procedural proof components reconstructed from exact source dimensions, not byte-identical final OBJ/GLB material import;
+- source cylinders and proof cylinders do not establish identical topology;
+- pose application: exact source-owned sampled angles applied as static transforms, not `AnimationPlayer` playback;
+- keeper motion in this observer is rigid owner-follow only, not a source-authored latch mechanism;
+- no UVs, textures, decals, wear, baked normal/AO maps or final inner-lid material slot;
 - no physically measured coating values;
-- no Blender/Cycles, Godot Forward+, browser/native renderer equivalence;
-- no target-device shader, draw-call, memory, GPU or frame-time budget.
+- no renderer equivalence beyond this exact proof host;
+- no target-device shader/material/runtime budget.
 
 ## Non-claims
 
 This activation does **not** establish:
 
-- continuous material response for every angle in `0..110°`;
-- `AnimationPlayer` playback, real-time cadence, interpolation, controller/state-machine, input or gameplay acceptance;
-- full-component articulation — latches remain fixed/unclaimed;
-- collision, attachment dynamics or physics;
-- final motion timing, weight, style or acting quality;
+- a latch pivot, hook/capture geometry, retention force, release path or timing;
+- keeper/lever articulated collision clearance;
+- full-component articulation;
+- Animation/Rigging adoption of keeper motion;
+- continuous material response across every angle in `0..110°`;
+- `AnimationPlayer`, wall-clock cadence, interpolation, controller/state-machine, input or gameplay acceptance;
 - final Object Art Direction or independent Visual Observer acceptance;
-- a need for an inner-lid material or UV split;
 - final UV, texture, decal, wear or weathering quality;
 - physically measured material correctness;
+- byte-identical final target import;
 - target-device runtime performance;
-- automatic transfer to Building/Nature material semantics;
+- automatic transfer to Building/Nature/other manufactured domains;
 - UC / Profession Fabric promotion;
 - CANON, production readiness, game readiness or Materials mastery.
 
-## Four-root check
-
-- **Truth:** exact donors, source/profile digests, exact workflow head, artifact digest, static pose identities and renderer boundary are retained. Static pose rendering is not relabelled runtime Animation acceptance.
-- **Agency / non-domination:** Materials changed only its own Object evidence lane. Animation owns motion, Rigging owns articulation structure, Hard Surface owns source construction, Art Direction / Visual QA own aesthetic acceptance, Runtime owns performance, and the four roots remain the merge gate.
-- **Continuity:** the existing material profile and source identities remain byte-stable; previous Building and original Object evidence remain historical rather than being silently overwritten.
-- **Wisdom before speed:** direct articulated renders did not expose enough evidence for a new material or scalar retune, so this pass strengthens validation coverage instead of inventing surface complexity for novelty.
-
 ## Handoffs
 
-- **3D Art Director:** Object now has exact static material evidence at `0° / 50° / 100°`. If Object becomes the next visual-direction priority, judge whether the large open-lid plane and existing functional material hierarchy are directionally useful before Materials invents an interior slot or retunes coating response.
-- **Visual Observer / QA:** review artifact `10436749334` for cross-pose surface readability only. Do not infer target-engine Animation playback or continuous-range material response from these static samples.
-- **Animation / Motion:** Materials posted the exact donor handoff to PR #10. Your timing/controller truth boundary is unchanged; Materials consumed only exact static angles.
-- **Hard Surface / Rigging:** source and articulation identity are unchanged. No new inner-face material boundary or component split is requested from this pass.
-- **Technical Art / UC:** no Object-specific material semantics or motion-to-lookdev machinery should be centralized into UC from this one result.
-- **Capability Cartographer:** the reusable discovery is a source-pinned articulated-lookdev **evidence method**, not a material ontology. Require broader repeated need before moving structure horizontally.
+- **Hard Surface PR #14:** Materials consumed the exact ownership contract and returned a handoff. Source ownership stays Hard-Surface/Object authority; the Materials PASS must not be read as mechanism proof.
+- **Animation PR #10:** Materials refreshed to the current exact clip head and returned a handoff. Existing `latches_disengaged_not_articulated` semantics remain intact; no Animation acceptance transfers from this static review.
+- **Rigging / Deformation:** no latch articulation, collision or retention requirement is inferred. If a future source-owned mechanism exists, Materials should consume that exact new evidence rather than extend this rigid-review shortcut silently.
+- **Art Director / Visual Observer:** the new owner-bound vs historical-fixed render set is available if the localized keeper-surface relationship becomes a consequential visual question. Materials does not self-grant final visual acceptance.
+- **Technical Art / UC / Capability Cartography:** this is an evidence-consumption pattern, not evidence for centralizing Object latch/material semantics.
 
-Next Materials priority should be evidence-led: take a new receiving/material defect only after Art Direction / Visual QA exposes one, or wait for a genuinely material-ready source/UV/texture handoff rather than reopening already-cleared scalar families.
+## Four-root check
+
+- **Truth:** exact current donors, source/profile identities, exact PR head, exact workflow/artifact identities and renderer limitations are retained; failed or unproved mechanism behavior is not promoted.
+- **Agency / non-domination:** source-owner decisions are consumed rather than silently overridden by Materials or centralized into UC.
+- **Continuity:** historical fixed-keeper/static-pose evidence remains traceable and is used as before-evidence rather than erased.
+- **Wisdom before speed:** the smallest exact ownership integration was chosen instead of inventing a latch rig, new UV/material family, or generic framework prematurely.
+
+Next Materials work should remain evidence-led: do not keep tuning this Object family unless Visual QA / Art Direction identifies a real surface defect, or another repository produces a genuinely material-ready UV/texture/surface requirement.
