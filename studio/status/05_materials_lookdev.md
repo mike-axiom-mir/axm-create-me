@@ -1,201 +1,219 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-16
-State: ACTIVE / BOUNDED REAL-RENDER MATERIAL REPAIR PASS / PROMOTION HOLD
+State: ACTIVE / NATURE SURFACE-FAMILY DELTA VISUALLY PROVEN / FINAL LOOKDEV HOLD
 
-## Bounded claim
+## Current bounded claim
 
-This activation moved from material-measurement abstraction into one real repeated-world surface defect.
+This activation selected the first source-owned Nature sapling as the strongest non-duplicative Materials / LookDev target.
 
-The highest-leverage Materials / LookDev gap found in the current constellation was the visible repeat seam on Wreckline's `open-straight-a` road cell. The road already had exact geometric/collision repeat evidence, but the same-camera Godot proof showed a sharp tonal transition across the repeated road/ground even though the measured collision boundary gap was zero.
+The previous Wreckline road `COLOR_0` repeat-seam repair already has a scoped direct-render PASS, and the newest Art Director state did not request another road material intervention. The Nature sapling is now reused by Environment, VFX, Procedural Design and Technical Art, while its portable GLB still carries only explicitly **proof-only** `woody` / `foliage` materials. Technical Art PR #3 explicitly leaves final bark/leaf appearance to Materials.
 
-The bounded result is now:
+The bounded result is:
 
-**`PASS_VISUALLY_INSPECTED_ROAD_PLANE_COLOR0_SEAM_REDUCTION`** for the exact `open-straight-a -> open-straight-a` static repeat in the Godot 4.7.2 proof host, at LOD0 and LOD1, using a derived COLOR_0-only candidate on the continuous road-plane materials.
+**`PASS_VISUALLY_INSPECTED_BOUNDED_WOODY_FOLIAGE_SEPARATION / HOLD_FINAL_LOOKDEV`**
 
-This is not a canonical-road promotion, not a universal UC material rule, and not a claim that every road pair or every renderer is seam-safe.
+for the exact neutral `sapling-neutral-001` geometry, using a source-owned material overlay rendered in Godot 4.7.2 GL Compatibility under three fixed contexts.
 
-## Constellation / donor scan
+This is not final vegetation surfacing, not Art Director acceptance, not botanical material truth, and not a UC material-policy promotion.
 
-The design constellation was re-read with current specialist state before selecting work.
+## Constellation / overlap scan
 
-- `axm-animal-design` is still primarily form / topology / deformation work. Its neutral surface remains appropriate while the articulated-chain visual failure and connected-limb candidate are being resolved; surfacing it now would duplicate or obscure those gates.
-- `axm-map-design` currently uses environment proxies and procedural placement candidates. Those scenes are useful composition evidence but are not yet the strongest material truth source.
-- `axm-weather-design` has a real bounded atmosphere proof, but its current gap is dynamic/environment integration rather than material authoring.
-- the other design departments do not yet expose a materially stronger rendered surface defect than the Wreckline donor lane.
-- Wreckline already contains retained real Godot material evidence, a repeated road, exact source identities, and a visible failure suitable for direct before/after lookdev review. Under the campaign donor protocol this made it the strongest receiving context rather than inventing another synthetic material fixture.
+Before building, current specialist status and active design lanes were checked.
 
-The previous UV / texel-density reviewer remains a useful reusable instrument. UC PR #135 itself is closed unmerged, but `src/axm_uc/material_uv_evidence.py` is present on current UC main. It was deliberately not forced onto this road because the road proof contains no texture bindings; the active failure is authored vertex-color continuity, not texel density.
+- Wreckline road seam: existing Materials repair remains scoped PASS; no duplicate road lane opened.
+- Wreckline Hard Surface / Runtime: active work is geometry/LOD identity and residency, not a material-authoring gap.
+- Animal Design: organic topology/deformation review is still more important than surfacing; Materials did not cover those unresolved structural gates.
+- Nature Design PR #1: exact source-owned sapling exists with planar leaf blades and no final material acceptance.
+- Nature Design PR #2: owns the bounded wind-response study; Materials does not change deformation.
+- Nature Design PR #3: owns the explicit Nature -> UC coordinate/winding/normal bridge and planar-leaf backface strategy. It emits two proof material groups only and explicitly marks them as not LookDev.
+- Nature Design PR #4: owns bounded source-form variation; it makes no material claim.
+- Map / Environment: consumes the source sapling in a real composition but owns placement and scene integration, not bark/leaf material definition.
 
-## Exact source lane
+The Materials lane therefore stacks on the exact Technical Art bridge rather than creating a parallel surface converter or editing UC.
+
+## Source lane / provenance
 
 Repository:
-- `mike-axiom-mir/axm-wreckline`
+- `mike-axiom-mir/axm-nature-design`
 
-Existing receiving lane:
-- draft PR #3 — `Evidence: run Hero Vehicle 001 through 3D specialist proof host`
-- branch `evidence/3d-specialist-hero-runtime`
-- exact evidence head for the successful road-seam run: `058837ea805a734a056bec5a787efea307abac67`
+Draft PR:
+- #5 — `Materials: add bounded sapling bark/leaf lookdev profile`
+- branch `studio/materials-sapling-lookdev-001`
+- base branch `studio/uc-nature-surface-bridge-001`
+- base / upstream bridge head: `9cab2df43d33effcc4fef3173d233f5a7fb00790`
+- final tested Materials head: `dfaec06a7e2bcfc9e7a77fbf21e149f0a85fca04`
 
-No new canonical asset was written. The repair remains a derived evidence candidate.
-
-Exact road identities retained by the proof:
-- LOD0 canonical SHA-256: `cfb65927800feb58c0585fb0dedbf8f61649fb9bc381fd16c5e953f56bd523f3`
-- LOD1 canonical SHA-256: `48ac787b17fecee0b84a7ce907da61e901cf962f2d0facb08da2a07b6bc96167`
-- collision SHA-256: `d23dccc5d3e03268435694d5958d3a36333fda10248852029bab8cac0a0881e9`
-
-Pinned source-generation donor:
+Pinned UC publication / verification provider:
 - `mike-axiom-mir/axm-universal-creation`
-- commit `e2016cf30b8f7b409137d138abed91dfcc885f60`
+- commit `49ef11ca42b2079dffbd595daa8ea8626b99d2ab`
 
-The workflow originally exposed a provenance bug by checking out moving UC main while the road manifest described the older provider state. The lane was repaired to use the exact authored UC provider. Canonical road reconstruction then reproduced the checked-in LOD0/LOD1 SHA identities exactly before any recolor candidate was allowed.
+Exact source identities retained:
+- Nature source digest: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`
+- Nature mesh digest: `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`
+- upstream leaf-sidedness strategy: `EXPLICIT_OPPOSITE_WINDING_BACKFACE_GEOMETRY`
 
-## Grounded material defect
+No source geometry, normals, indices, primitive IDs, leaf-backface strategy, flex data, wind data, environment placement or UC domain policy is changed by this lane.
 
-The road has authored glTF `COLOR_0` on its materials and zero texture bindings in this proof. With Godot's bounded COLOR_0 import adapter enabled, the canonical repeat visibly shows a strong tonal discontinuity across the join in both LOD0 and LOD1.
+## Bounded material candidate
 
-A reversible diagnostic had already established that disabling COLOR_0 largely suppresses the visible seam, but also strips the intended authored surface variation. Therefore `disable COLOR_0` is not accepted as a material repair.
+Upstream proof-only materials:
+- woody: `#6B5138FF`, metallic `0.0`, roughness `0.92`
+- foliage: `#4E7B45FF`, metallic `0.0`, roughness `0.88`
 
-The source of the repeat instability is the local-position-derived surface ageing used when the cell is authored: a reusable cell reaches one local coordinate state at its exit and restarts at the next cell's local origin. Geometry can repeat correctly while the baked color field does not.
+Derived Materials candidate:
+- woody: `#5C3B27FF`, metallic `0.0`, roughness `0.84`
+- foliage: `#5A823EFF`, metallic `0.0`, roughness `0.58`
 
-## Bounded repair
+The profile is intentionally small: only color / metallic / roughness are allowed. Unknown keys fail closed. The first profile is intentionally non-metallic. There are no textures or UV-dependent claims in this candidate.
 
-The existing Wreckline candidate path was repaired rather than creating a parallel material framework.
+Measured material-family separation:
+- baseline relative-luminance gap: `0.06919107366395635`
+- candidate relative-luminance gap: `0.12936999436623578`
+- baseline roughness gap: `0.040000000000000036`
+- candidate roughness gap: `0.26`
 
-The derived candidate:
-- rebuilds the exact canonical cell from the pinned UC provider first;
-- refuses to proceed if canonical GLB identity drifts;
-- changes only `COLOR_0` on the continuous road-plane materials `asphalt`, `ground`, `road-marking`, and `shoulder`;
-- uses a deterministic 18 m entry/exit feather into a repeatable local road cross-section color field;
-- leaves positions, normals, indices, material definitions, topology, transforms and collision unchanged;
-- leaves guardrail COLOR_0 canonical because its oriented beam endpoint topology does not satisfy the same simple cross-section closure proof;
-- leaves the LOD0 `asphalt-patch` material canonical rather than claiming that one local patch should become a repeat seam contract.
+The candidate is a combined color+roughness lookdev delta. The renderer evidence does **not** isolate how much of the visible change comes from roughness versus base color.
 
-A false-negative evidence gate was also repaired. The first closure check compared triangulation-weighted material means; duplicated triangle-edge vertices weight opposite sides differently, so the aggregate means could disagree even when the same spatial seam samples had identical RGB. The gate now collapses duplicates by material plus local cross-section coordinate and compares corresponding spatial samples directly.
+## Geometry / UC invariants
 
-A second diagnostic showed vertical lift could incorrectly affect seam membership when longitudinal distance was projected through road grade. The candidate now classifies feather distance along the horizontal road tangent, while cross-section color still retains local vertical information.
+A source-preserving overlay gate compares the non-material payload before and after the material profile. It passes with exact geometry identity unchanged.
 
-## Structural evidence
+Both baseline and candidate are published through the real pinned UC GLB path and independently verified:
+- triangles: 620 / 620
+- primitives: 2 / 2
+- materials: 2 / 2
+- finite positions/normals: PASS
+- indices in range: PASS
+- nondegenerate triangles: PASS
+- winding matches vertex normals: PASS
 
-Successful candidate receipt:
-- schema `axm.wreckline.seam-safe-road-candidate/v0.3`
-- state `DERIVED_CANDIDATE_BUILT_NOT_ACCEPTED`
-- canonical assets unchanged: `true`
-- provider source matches manifest: `true`
-- collision matches canonical: `true`
+Exact GLB identities:
+- baseline GLB SHA-256: `d926bb6ec0ff86c4f4f83d4431be7a6553b2bb1da4a5e691726a2867a7b5b05e`
+- candidate GLB SHA-256: `66813694b9122dd6142911da552e0329109b07af6ba3393d265f26d5aa6e8ab2`
 
-LOD0:
-- canonical reconstructed SHA equals canonical expected SHA exactly
-- candidate SHA-256: `742d4314b1689a337c1da7460898d2ebb7ffa83eed235d9c78389a76f3322b4f`
-- 1,138 triangles / 6 materials
-- 261 / 3,414 vertex-color entries changed
-- 14 corresponding road-plane boundary samples compared
-- missing entry samples: 0
-- missing exit samples: 0
-- maximum corresponding boundary RGB vector distance: **0.0**
+The baseline GLB identity matches the earlier Technical Art bridge evidence; the new candidate differs because only its material fields differ.
 
-LOD1:
-- canonical reconstructed SHA equals canonical expected SHA exactly
-- candidate SHA-256: `c49beff181eb3245f46f9b7cd2667735c1cdf36828b059d93304d547366a470b`
-- 212 triangles / 5 materials
-- 90 / 636 vertex-color entries changed
-- 14 corresponding road-plane boundary samples compared
-- missing entry samples: 0
-- missing exit samples: 0
-- maximum corresponding boundary RGB vector distance: **0.0**
+## Exact-head CI / retained evidence
 
-This is material-closure evidence for the scoped continuous road-plane surfaces. It is not guardrail seam proof.
+All relevant exact-head workflows are green together on `dfaec06a7e2bcfc9e7a77fbf21e149f0a85fca04`:
+- Nature organic form baseline run `35051922725` — SUCCESS
+- UC nature surface bridge run `35051922731` — SUCCESS
+- Materials sapling lookdev run `35051922727` — SUCCESS
+
+Retained Materials artifact:
+- ID `10428344320`
+- name `sapling-material-lookdev-001-dfaec06a7e2bcfc9e7a77fbf21e149f0a85fca04`
+- archive digest `sha256:41171a26e512d8eb736267fd28e0eac707c9907ff5b489e88406dc64e552d019`
+- exact head binding `dfaec06a7e2bcfc9e7a77fbf21e149f0a85fca04`
+
+The artifact retains the exact profile, baseline/candidate surface JSON, baseline/candidate GLBs, structural evidence receipt, Godot runtime receipt and six PNGs.
 
 ## Real renderer evidence / direct visual review
 
-Workflow:
-- `Road seam color repair candidate`
-- run `35048418427`
-- result: **SUCCESS**
-- Godot: `4.7.2-stable`, GL compatibility proof host
+Renderer proof host:
+- Godot `4.7.2-stable (official)`
+- GL Compatibility renderer
+- same exact baseline/candidate GLBs retained above
 
-Retained artifact:
-- ID `10428205343`
-- name `wreckline-road-seam-color-repair-c476afa9586c936a5ad9ca62284f14e052d24137`
-- head SHA recorded by artifact metadata: `058837ea805a734a056bec5a787efea307abac67`
-- archive digest: `sha256:95d9568425bacb45aaef28f379bd8a4e7b4bac9751d911299dd2309ef79ea442`
+Three fixed contexts are retained:
+- `neutral_three_quarter`
+- `grazing_side_key`
+- `crown_close`
 
-The artifact retains:
-- source contract
-- candidate receipt
-- LOD0 / LOD1 candidate GLBs
-- Godot runtime receipt
-- canonical and candidate PNGs for LOD0 and LOD1 under the exact same camera / lighting setup
+The first two whole-asset views made the material delta visually easy to miss because the sapling is sparse and occupies a small fraction of the frame. Rather than claiming quality from a numerical material difference, the evidence lane was repaired to add a bounded crown-close context while retaining the whole-asset contexts.
 
-Direct inspection of the retained images:
+Direct inspection of the final retained renders:
+- the candidate wood reads slightly warmer / darker in shadow than the proof-only baseline;
+- the sparse foliage separates somewhat more clearly from the woody branches, most legibly in the crown-close comparison;
+- the material delta remains visible under the grazing side-key context rather than existing only under one neutral key;
+- the change is deliberately modest and does not hide the primitive/sparse source form;
+- whole-asset views still read strongly through geometry and direct-light facets, so this is not evidence of finished bark/leaf richness;
+- no perceptual claim is made that roughness alone is responsible for the improvement because base color changed at the same time.
 
-### LOD0
-The canonical image has a clearly visible diagonal/cross-road tonal break at the repeat join, especially across the broad ground plane and continuing through the road surface. In the candidate image that broad tonal break is no longer visibly readable at the same location; the ground and roadway read continuously through the join at this fixed view. Guardrail geometry/color remains visually present but was not altered by the material candidate.
+The correct scoped visual verdict is therefore **visible bounded surface-family separation**, not `final lookdev PASS`.
 
-### LOD1
-The canonical image again has the same obvious broad light/dark repeat break. The candidate image removes that obvious road/ground tonal break under the same camera and lighting. The lower-detail road still reads as one continuous surface through the tested join.
+## Regression caught and repaired
 
-The four captured images are therefore **VISUALLY_INSPECTED for this exact proof context**. This is stronger than merely saying the candidate generated or the pixels changed.
+The first exact-head Materials workflow passed, but the repository's ordinary Organic baseline workflow failed because the new `test_materials_lookdev.py` assumed `PYTHONPATH=src` while full test discovery does not.
 
-The Godot runtime receipt independently reports `PASS_TARGET_HOST_COMPARISON_READY_FOR_VISUAL_REVIEW`; both canonical and candidate LOD0/LOD1 GLBs imported and captured successfully with the same COLOR_0 adapter.
+The test was repaired to follow the repository's existing import-safe test pattern (`src` inserted explicitly from repository root). The final exact head passes Organic baseline, UC bridge and Materials workflows together on the same head.
 
-## Anti-overlap / coordination event
-
-During this activation a separate stacked Materials branch / PR #7 was briefly opened to add the missing same-camera candidate render path. While that was happening, the existing Wreckline PR #3 source lane independently advanced with the same candidate-render path.
-
-PR #7 was immediately closed **without merge** rather than competing with the active source lane. Subsequent fixes were made on the existing PR #3 evidence lane so there is one retained road-seam truth chain, not two drifting implementations.
-
-This is an intentional continuity decision, not lost work.
+This failure is retained as integration evidence rather than hidden.
 
 ## Renderer / evidence limitations
 
-The proof host is Godot 4.7.2 using the GL compatibility renderer, one static camera, one lighting setup, and two repeats of one road cell. It does not establish renderer equivalence with Blender/Cycles, another Godot renderer, a browser renderer, or a future native Wreckline runtime.
+Current PASS is bounded to:
+- one neutral sapling source;
+- one exact UC bridge / GLB representation;
+- one Godot 4.7.2 GL Compatibility proof host;
+- three fixed lighting/camera contexts;
+- combined base-color + roughness PBR scalars.
 
-The candidate is not yet accepted for:
-- every road-cell pairing;
-- bends, merges, transitions or materially different road families;
-- moving-camera seam visibility;
-- guardrail continuity;
-- texture / UV quality (this road proof has no texture bindings);
-- mip/compression quality;
-- material memory or frame-time cost;
-- wetness, weather response, decals, damage or dynamic surface state;
-- production art direction;
-- canonical replacement;
-- game readiness or 3D/material mastery.
+Not established:
+- UV quality or texel density;
+- texture maps;
+- bark microdetail;
+- leaf normal maps;
+- leaf alpha cutout;
+- translucency, transmission or subsurface scattering;
+- physically measured species reflectance;
+- renderer equivalence with Blender/Cycles, other Godot renderers or browser/native game renderers;
+- wetness/weather material response;
+- interaction between this profile and the active VFX deformation lane;
+- environment-composition acceptance;
+- runtime/material memory cost;
+- final Art Director acceptance;
+- CANON, production readiness, game readiness or Materials mastery.
 
-The candidate changed a substantial number of pixels by design because the feather bands alter authored color variation near both cell ends. The visual PASS here means the obvious tested join is materially improved without visible loss of the broad road read in these retained views; it is not proof that 18 m is the final artistic feather width.
+The existing explicit planar-leaf backface geometry is inherited from Technical Art. This activation does not promote that strategy as a universal foliage solution.
 
 ## Propagation decision
 
-**Do not move this repair into Universal Creation yet.**
+**Do not move this material profile into Universal Creation.**
 
-The reusable candidate lesson is that a repeated asset may need a material coordinate / ageing contract expressed in repeat space rather than cell-local world position. One Wreckline road family is not enough evidence to change UC's generic surface ageing behavior for buildings, props, terrain, vegetation or unrelated meshes.
+Correct current placement:
+- Nature Design owns the domain-specific woody/foliage lookdev candidate.
+- Technical Art owns the portable surface/GLB bridge.
+- UC owns the generic publication/verification machinery only.
+- Art Direction decides whether this surface-family direction is aesthetically useful.
 
-Correct current home:
-- Wreckline owns this road-specific derived candidate and its repeat contract.
-- UC remains unchanged.
-- Capability Cartography / Technical Art should consider a domain-neutral repeat-space material coordinate only after a second materially different repeatable asset family reproduces the same local-position discontinuity.
+Reusable discovery worth watching, but not yet extracting: a source-owned material profile can overlay exact portable geometry while leaving UC domain-neutral, and sparse assets need a close material-review context because a distant whole-object render can conceal real but bounded surfacing differences.
 
-The earlier UV-density evidence remains orthogonal: use it when real embedded textures and UVs exist; do not pretend a texel-density instrument solves vertex-color continuity.
+A second materially different domain would be required before proposing any generic material-profile procedure or surface-family helper outside Nature Design.
 
 ## Four-root check
 
-- **Truth:** canonical identities are reconstructed exactly before mutation; direct render evidence is retained; the candidate is not called canonical or universal.
-- **Agency / non-domination:** no hidden promotion, auto-merge, silent source rewrite or UC policy change occurred.
-- **Continuity:** exact donor commit, road identities, candidate identities, workflow run and artifact digest are retained; duplicate PR #7 was closed rather than allowing parallel drift.
-- **Wisdom before speed:** the change is restricted to the four continuous road-plane materials, guardrail is left open, and no universal material abstraction is created from one success.
+- **Truth:** proof-only upstream materials remain labelled proof-only; geometry identity, exact source hashes, exact UC provider, CI and retained renderer evidence are recorded; modest visual change is not inflated into finished surfacing.
+- **Agency / non-domination:** no auto-merge, no canonical rewrite, no hidden source mutation and no UC policy centralization occurred.
+- **Continuity:** the lane stacks on exact Technical Art PR #3, preserves source and bridge identities, retains exact workflow/artifact provenance, and keeps the previous Wreckline material result as historical evidence below.
+- **Wisdom before speed:** the lane stops at two bounded material families and three review contexts instead of jumping prematurely to textures, botanical shaders, foliage systems or a universal material framework.
 
 ## Handoffs
 
-- **3D Art Director:** review the exact canonical/candidate LOD0 and LOD1 images for whether the 18 m feather preserves desirable variation rather than merely hiding the seam; no final art-direction acceptance is claimed here.
-- **Visual Observer / QA:** independently reproduce/inspect this exact artifact and test whether the join remains unobtrusive from a moving or alternate camera before canonical promotion.
-- **Geometry / Topology:** guardrail endpoint/cross-section correspondence is deliberately outside this material repair. Inspect only if direct visual evidence shows a remaining guardrail seam worth solving.
-- **Environment / World Art:** when a real repeated road enters an environment composition, use the exact candidate by provenance rather than a copied lookalike and judge it in scene context.
-- **Technical Art / UC Integration:** retain the exact provider pin lesson; moving UC main is not a valid substitute for the provider state recorded by an authored asset manifest.
-- **Capability Cartographer:** watch for a second repeatable asset family with the same local-position material discontinuity before proposing a shared repeat-space material-coordinate contract.
-- **Runtime / Optimization:** no performance gain is claimed. If this becomes canonical later, measure memory/draw/runtime effects independently.
+- **3D Art Director:** judge whether the warmer/darker wood and slightly clearer green foliage separation is worth retaining; this specialist does not claim final visual acceptance.
+- **Visual Observer / QA:** independently inspect the exact six retained PNGs and exact candidate GLB if a separate perceptual gate is needed.
+- **Environment / World Art:** do not silently replace the composed sapling's material state; if this candidate is accepted, consume it by exact provenance and compare it in the real map composition.
+- **VFX / Atmosphere:** wind-response ownership remains separate; only after the local material candidate is accepted should material behavior under the moving sapling be compared.
+- **Technical Art / UC Integration:** keep UC domain-neutral; no new two-sided or Nature-specific material field is requested by this pass.
+- **Capability Cartographer:** watch whether another domain independently needs the same source-owned material-overlay/proof-context procedure before proposing shared structure.
+- **Runtime / Optimization:** no performance claim; measure shader/material/runtime cost only after a candidate actually enters a runtime lane.
+
+## Previous activation retained — Wreckline repeat seam
+
+The earlier Materials activation remains valid historical evidence:
+
+**`PASS_VISUALLY_INSPECTED_ROAD_PLANE_COLOR0_SEAM_REDUCTION`** for the exact Wreckline `open-straight-a -> open-straight-a` static repeat at LOD0 and LOD1 in Godot 4.7.2.
+
+Key retained evidence:
+- Wreckline evidence head `058837ea805a734a056bec5a787efea307abac67`
+- workflow run `35048418427` — SUCCESS
+- artifact ID `10428205343`
+- archive digest `sha256:95d9568425bacb45aaef28f379bd8a4e7b4bac9751d911299dd2309ef79ea442`
+- 14 corresponding road-plane boundary samples at each LOD close at `0.0` maximum RGB vector distance
+- candidate changes only continuous road-plane `COLOR_0`; geometry/collision/material definitions remain unchanged
+- no UC promotion; repeat-space ageing/material coordinates remain only a reusable candidate lesson until a second materially different repeated asset reproduces the same failure.
 
 ## Next activation
 
-Do not add another material abstraction merely because this proof passed. First check Art Director / Visual QA feedback on the retained road images and current PR #3 state. If the road candidate survives, the next Materials task should be whichever real design asset presents the strongest observed surface failure: either a second repeated-family seam that can test reuse, or a materially different texture/UV/shader defect with actual render evidence.
+First check Art Director / Visual QA feedback and current PR #5 state. If this sapling material direction is accepted, the next strongest Materials step should be driven by observed evidence: either test the accepted profile inside the real Environment composition or move to the next asset that exposes a stronger real UV / texture / shader defect. Do not add texture complexity merely to make the system larger.
