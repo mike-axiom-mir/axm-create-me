@@ -1,24 +1,21 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / CONSUMER-OWNED PROVIDER IMPORT CONTRACT PROVEN / HISTORICAL WRECKLINE PROVIDER HOLD NARROWED / UC UNCHANGED**
+State: **ACTIVE / OBJECT VALIDATE→COMPILE→MATERIALIZE PATH PROVEN / SOURCE PROJECTION STAYS LOCAL / UC UNCHANGED**
 
-## Bounded claim
+## Current bounded claim
 
-This activation selected the highest-leverage cross-repo integration gap exposed by the current Wreckline hard-surface lane: the Hero Vehicle build recipe depended on a historical Universal Creation provider branch, but the original source provenance did not retain an immutable, executable provider-import closure.
+This activation selected the highest-leverage current Technical Art / UC integration gap that was not already owned by another specialist:
 
-Hard Surface PR #6 had already truthfully stopped its real rebuild when attempted UC commit `ed64069af0ecda34cdba5b5ba68372a6a16a8e02` did not contain `axm_uc.hard_surface`. Technical Art did **not** duplicate that lane by recreating the vehicle or restoring guessed provider code. Instead, it added the smallest source-owned contract needed to answer a more reusable question: *which exact static provider modules does this exact consumer recipe require, which ones resolve at the attempted provider commit, and what source bytes were actually present?*
+> `axm-object-design` had proven that its source-owned equipment-case socket projection validates against Universal Creation's Asset Atom package schema, but it had **not** proven the stronger real UC path from validation through deterministic compilation and descriptor materialization.
+
+The repair does not add Object semantics to UC. It uses UC's already-existing domain-neutral `validate_asset_package()` → `compile_asset_package()` → `materialize_asset_package()` path and adds only consumer-owned integration/evidence tooling in Object Design.
 
 Result:
 
-`PASS_CONSUMER_OWNED_PROVIDER_IMPORT_CONTRACT / HOLD_HISTORICAL_PROVIDER_INCOMPLETE`
+`PASS_EXACT_UC_ASSET_INSTANCE_HANDOFF`
 
-The retained exact-head receipt proves that the attempted historical UC provider is missing **two**, not one, direct modules required by the Hero Vehicle recipe:
-
-- `axm_uc.hard_surface`;
-- `axm_uc.vehicle_hardpoints`.
-
-No Universal Creation code was changed. No Wreckline domain knowledge was moved into UC.
+No Universal Creation code was changed. `axm-create-me` remains coordination-only.
 
 ## Coordination / constellation scan
 
@@ -26,185 +23,243 @@ Read before work:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - standing role `studio/specialists/11_technical_art_uc_integration.md`;
-- current Technical Art status;
-- current Hard Surface status and Wreckline PR #6;
+- previous Technical Art status;
 - current Capability Cartographer placement decision;
-- active design-repository / runtime evidence relevant to Wreckline;
-- the attempted historical `axm-universal-creation` provider state and current source layout.
+- current Object Hard-Surface and Rigging lanes;
+- current Animal and Nature Technical Art bridges;
+- current Universal Creation main and its Asset Atom implementation;
+- open current UC work to avoid colliding with profession-crew, physics, or aftertouch lanes.
 
-Relevant lane boundaries:
+Relevant active boundaries found:
 
-- **Hard Surface** owns the Wreckline LOD identity candidate and its rebuild / visual acceptance. It had already converted the missing-provider discovery into a truthful HOLD; this pass did not alter candidate geometry.
-- **Runtime / Optimization** owns measured LOD residency / draw-call behavior from the previous exact asset state. This pass does not inherit or alter those measurements.
-- **Capability Cartographer** already established that source semantics and source adapters remain in the design/consumer repo while UC retains only justified domain-neutral substrate. This pass follows that placement rule.
-- Prior **Animal** and **Nature** Technical Art bridges remain valid, separate examples of source-owned adapters into UC's portable surface / GLB boundary. They do not justify placing Wreckline provider semantics into UC.
+- **Hard Surface / Object PR #2** owns `modular-equipment-case-001`, the physical attachment plates/frames, hinge source and the initial source → UC socket descriptor projection.
+- **Rigging / Object PR #3** independently owns the 0..110° lid articulation proof. This activation does not change or inherit that motion acceptance.
+- **Animal Technical Art PR #3** owns one source-owned organic surface → UC GLB bridge.
+- **Nature Technical Art PR #3** owns a materially different Nature surface → UC GLB bridge, including its local leaf-backface compatibility strategy.
+- **Capability Cartography** already places source semantics/adapters in design repos and generic target machinery in UC unless repeated evidence justifies a different home.
+- **Wreckline Technical Art PR #8** remains a separate provider-provenance case and still has incomplete historical provider closure.
 
-No competing provider-import-closure lane was found. The gap was therefore bounded enough to act without duplicating an active specialist.
+No competing Object Technical Art lane was found for UC Asset Atom compile/materialize behavior.
 
 ## Gap selected
 
-Historical Wreckline Hero Vehicle build evidence checked out a movable UC branch (`codex/wreckline-vertical-slice-v0-1`) rather than retaining a complete immutable provider closure. The best recovered exact UC attempt for that branch is:
+Object Hard-Surface PR #2 exact head:
 
-`ed64069af0ecda34cdba5b5ba68372a6a16a8e02`
+`32027eabb531dfe22668e9161506077442267099`
 
-The Wreckline source recipe imports provider code from both `axm_uc` and `axm_stickers`. A one-file probe had already shown `axm_uc.hard_surface` absent, but that did not establish whether it was the only missing provider module, nor did it hash the source files that *were* available.
+already generated a UC package with:
 
-That provenance gap blocks truthful historical rebuild claims and is reusable beyond this single asset family.
+- `shape` atom;
+- `part` atom;
+- two `socket` atoms;
+- socket names `left_service` and `right_service`;
+- package id `axm.object.modular-equipment-case-001`;
+- package version `0.1.0`.
+
+Its existing verifier pinned UC donor commit `87f93e1a27b2e3414f6422cd38e31b00e89d6a56`, called `validate_asset_package()`, and proved descriptor validity. It explicitly did **not** prove 3D attachment instantiation, fit, collision, load or runtime.
+
+Current UC main is now:
+
+`8dd55d7186aa99911ca8d28af303f31d2c05fad4`
+
+The Asset Atom implementation itself is unchanged between the previous Object donor pin and current main; the intervening current-main change is profession-crew machinery rather than an Asset Atom contract rewrite.
+
+UC's existing domain-neutral path already provides the stronger integration surface:
+
+1. `validate_asset_package()` validates exact package/reference structure;
+2. `compile_asset_package()` produces `axm.asset-instance/v0.1`, retains socket atoms in the deterministic instance, computes exact digests and keeps external-resource evidence separate;
+3. `materialize_asset_package()` writes validated `asset.package.json` and `asset.instance.json` into a generic descriptor project.
+
+The missing evidence was whether the exact Object package survives that complete descriptor path without socket loss or drift.
 
 ## Bounded improvement
 
 Opened stacked draft PR:
 
-**`mike-axiom-mir/axm-wreckline#8 — Technical Art: bind exact provider import contract`**
+**`mike-axiom-mir/axm-object-design#4 — Technical Art: prove object socket package through UC compile/materialize`**
 
 Branch:
 
-`studio/technical-art-provider-import-contract-001`
+`studio/technical-art-object-uc-instance-001`
 
 Stacked base:
 
-`studio/hard-surface-lod-identity-001` / base head `7a86e27967d7b7e1566520285140252b1260fba4`
+`studio/hard-surface-object-interface-001` / exact base head `32027eabb531dfe22668e9161506077442267099`
 
 Exact final Technical Art head:
 
-`ba7f49da25711ec6412d054a108c0001316961ae`
+`fcd27a806e52779a195ac2ef84e56419faa36d49`
 
-PR state: **DRAFT / OPEN / MERGEABLE**. No merge/CANON authority is inferred.
+PR state at final inspection: **DRAFT / OPEN / MERGEABLE**. No merge/CANON authority is inferred.
 
-Added only consumer-owned integration/evidence files:
+Added only:
 
-- `tools/verify_provider_import_contract.py`;
-- `assets/hero-vehicle-001/provider-import-contract.json`;
-- `tests/test_provider_import_contract.py`;
-- `.github/workflows/hero-provider-import-contract.yml`.
+- `tools/verify_uc_asset_instance.py`;
+- `.github/workflows/object-uc-asset-instance-integration.yml`.
 
 The verifier:
 
-1. parses the named exact Wreckline consumer recipes with Python AST;
-2. derives direct provider imports under explicitly declared package prefixes;
-3. follows resolvable provider-local Python imports recursively;
-4. records exact consumer-source SHA-256 values;
-5. records every resolved provider source path, byte size and SHA-256;
-6. records import edges, direct modules, resolved modules and unresolved modules;
-7. verifies the provider checkout's actual Git HEAD against the expected immutable commit;
-8. fails closed as `HOLD_PROVIDER_HEAD_MISMATCH` or `HOLD_MISSING_PROVIDER_IMPORTS` when appropriate;
-9. reports `PASS_EXACT_PROVIDER_IMPORT_SET` only when the exact head matches and the bounded static import set fully resolves.
+1. verifies the checked-out UC Git HEAD equals exact expected commit `8dd55d7186aa99911ca8d28af303f31d2c05fad4`;
+2. re-validates the generated Object package with real UC;
+3. compiles the package twice and fails closed if the normalized compilation differs;
+4. proves the two validated socket atoms are preserved **exactly** into `asset.instance.json`;
+5. requires the expected socket names `left_service` / `right_service`;
+6. preserves UC's explicit `DECLARED_RESOURCE_REFERENCES_NOT_FETCHED` truth boundary for the OBJ;
+7. materializes the package through real UC;
+8. re-opens the retained `asset.package.json` and `asset.instance.json`;
+9. requires those files to equal the compiler outputs and match the compiler's package/instance digests;
+10. writes a bounded integration receipt with downstream non-claims.
 
-This verifier deliberately remains with the consumer. The reusable *pattern* may later deserve promotion if multiple independent consumers prove the same need, but one Wreckline case does not justify adding it to UC.
-
-## Defect found and repaired during this activation
-
-The first CI attempt exposed a test expectation mistake in the new verifier lane. For `from . import CONSTANT`, Python still depends on the containing package even when `CONSTANT` is an attribute rather than a child module. The initial test incorrectly expected only `axm_uc.alpha` to appear as resolved.
-
-The test was corrected to require the package dependency `axm_uc` while explicitly proving that the verifier does **not** invent a nonexistent `axm_uc.CONSTANT` child module. The repaired exact head then passed all dedicated evidence steps.
-
-The failed pre-repair run remains historical evidence; it is not presented as the final proof.
+The verifier stays with Object Design because the source-owned projection and expected socket set belong to that consumer. UC already owns the generic compiler/materializer and needed no Object-specific patch.
 
 ## Exact-head evidence
 
-Exact Wreckline head:
+Exact Object Technical Art head:
 
-`ba7f49da25711ec6412d054a108c0001316961ae`
+`fcd27a806e52779a195ac2ef84e56419faa36d49`
 
-All observed PR-triggered workflows on that exact head completed successfully:
+Exact-head workflow results:
 
-- `tests` run **35053303387** — SUCCESS;
-- `Hero specialist runtime evidence` run **35053303201** — SUCCESS;
-- inherited `Hero hard-surface real candidate evidence` run **35053303330** — SUCCESS as the existing truthful HOLD/evidence path;
-- dedicated `Hero provider import contract evidence` run **35053303320** — SUCCESS.
+- `Object UC asset-instance integration evidence` run **35057089045** — **SUCCESS**;
+  - Python 3.11: compile, full Object test suite, source package generation, exact UC compile/materialize, retained artifact upload all PASS;
+  - Python 3.13: compile, full Object test suite, source package generation and exact UC compile/materialize all PASS;
+- inherited `Object hard-surface interface evidence` run **35057089046** — **SUCCESS**, confirming the stacked Technical Art lane does not regress the existing Hard-Surface source contract.
 
-Dedicated retained artifact:
+Retained artifact:
 
-- name: `hero-provider-import-contract-ba7f49da25711ec6412d054a108c0001316961ae`;
-- artifact ID: **10429588319**;
-- exact head binding: `ba7f49da25711ec6412d054a108c0001316961ae`;
-- archive size: **7,221 bytes**;
-- archive SHA-256: `0a2914792550e77503994cc168bda87d9f99378575f54365afa0189d9913b079`.
+- name: `modular-equipment-case-001-uc-instance-integration`;
+- artifact ID: **10430594954**;
+- exact head binding: `fcd27a806e52779a195ac2ef84e56419faa36d49`;
+- archive size reported by GitHub: **12,592 bytes**;
+- archive SHA-256: `8f5e3cf9c1b19567c89c51e47446852e5187262a4b9cea4a24e7c4f9457cc985`.
 
-The artifact was downloaded and independently SHA-256 rehashed during this activation; the local ZIP digest matched GitHub's retained artifact digest exactly.
+The retained ZIP was downloaded and independently SHA-256 rehashed during this activation. The local digest matched GitHub's retained artifact digest exactly.
 
-The exact retained `provider-import-report.json` reports:
+The archive contains the exact source, generated OBJ, projected UC package, structural receipt, integration receipt, materialized UC package and materialized UC instance.
 
-- schema: `axm.provider-import-contract/v0.1`;
-- state: **`HOLD_MISSING_PROVIDER_IMPORTS`**;
-- consumer: `axm-wreckline/hero-vehicle-001`;
-- receiving head: `ba7f49da25711ec6412d054a108c0001316961ae`;
-- expected provider commit: `ed64069af0ecda34cdba5b5ba68372a6a16a8e02`;
-- observed provider commit: the same exact SHA;
-- direct provider modules discovered: **15**;
-- provider modules resolved and hash-recorded by this static closure: **79**;
-- import edges recorded: **209**;
-- unresolved direct provider modules: **2**;
-  - `axm_uc.hard_surface`;
-  - `axm_uc.vehicle_hardpoints`;
-- `exact_provider_git_head_verified`: **true**;
-- `all_static_provider_imports_resolved`: **false**;
-- `asset_rebuild_proven`: **false**;
-- `provider_behavior_proven`: **false**;
-- `dynamic_import_closure_proven`: **false**;
-- `runtime_or_visual_acceptance_proven`: **false**.
+Exact retained integration result:
 
-This materially tightens the prior Hard Surface observation: `axm_uc.hard_surface` was a real missing provider, but it was **not the only missing direct provider** at the attempted exact UC commit. `axm_uc.vehicle_hardpoints` is also absent.
+`PASS_EXACT_UC_ASSET_INSTANCE_HANDOFF`
+
+Receipt facts:
+
+- schema: `axm.object-uc-asset-instance-integration/v0.1`;
+- expected UC commit: `8dd55d7186aa99911ca8d28af303f31d2c05fad4`;
+- observed UC commit: same exact SHA;
+- UC package schema: `axm.asset-atom-package/v0.1`;
+- UC instance schema: `axm.asset-instance/v0.1`;
+- package ref: `axm.object.modular-equipment-case-001@0.1.0`;
+- generated package file SHA-256: `41f4a16fc45fce0628567f5125e4635ca8286c74ebe7ba066b9fc1113e68ffa5`;
+- normalized/package digest: `sha256:7246a64cdd202d1af9a02c8163aac9804d8e2479c4c74a41faf8e22e4228877d`;
+- deterministic instance digest: `sha256:20da57396ee2c6b94c0551f9dffa26a65280c1eaafc46534c07a8b8698541392`;
+- socket count: **2**;
+- socket names: `left_service`, `right_service`;
+- socket atoms preserved exactly from validated package into compiled instance: **true**;
+- materialized package SHA-256: `217a8b310192c9be31e3666aeb0ca2e2f2f08e2c9cb6ecfff1c7a52173fbf641`;
+- materialized instance SHA-256: `5c8a9dece3d6d83b1d04776ff2c056b1844656c391ceb69f884b9cfc583b0eee`;
+- materialized files re-open equal to compiler output: **true**;
+- UC external-resource evidence for the OBJ: `DECLARED_RESOURCE_REFERENCES_NOT_FETCHED`;
+- declared OBJ digest retained by UC: `sha256:3e01ef3bf4935ee6aee7c56c03dc0b7f54c308e5ac2eb6a7583252a366901106`;
+- `attachment_instantiated_in_3d`: **false**;
+- `physical_fit_tested`: **false**;
+- `collision_or_load_tested`: **false**;
+- `runtime_or_gameplay_acceptance`: **false**.
 
 ## Reusable learning / placement decision
 
-The reusable boundary is:
+The cross-repo pipeline distinction is now stronger:
 
-> **Provider provenance belongs with the exact consumer recipe first: exact consumer identity → exact provider commit → statically derived import set → exact provider source hashes → explicit missing set → separate behavior/rebuild evidence.**
+> **Schema validation is not the whole integration path. For a source-owned descriptor projection, retain exact package identity, compile through an exact UC revision, prove descriptor preservation into the deterministic instance, materialize and re-open the descriptor project, and keep external resource, renderer, physics and runtime acceptance as separate gates.**
 
-That is stronger than pinning a branch name and safer than copying historical domain code into UC merely to make an old build run.
+Current placement remains:
 
-Current placement decision:
+- **Object Design** owns physical socket plate/frame semantics and the exact source → UC projection;
+- **Universal Creation** owns domain-neutral package validation, deterministic Asset Instance compilation and descriptor materialization;
+- **Technical Art** proves the cross-repo path without moving source semantics into UC;
+- **Capability Cartography** may record the repeated architecture, but this one Object success does not justify a universal source adapter or new socket semantics inside UC.
 
-- Wreckline owns its dependency declaration and this first executable receipt;
-- UC remains unchanged and domain-neutral;
-- Capability Cartography may observe the pattern;
-- promotion of a generic provider-closure tool requires repeated independent consumers, not this single success.
+This pass is also a third materially different design → UC crossing after Animal and Nature:
 
-## Previous proven boundaries retained
+- Animal: source-owned organic surface adapter → UC GLB publication/verification;
+- Nature: source-owned organic surface adapter plus local leaf-backface compatibility → UC GLB publication/verification;
+- Object: source-owned mechanical-interface projection → UC Asset Atom validation/compile/materialization.
 
-Earlier Technical Art work remains valid and separate:
+Those three cases reinforce one architectural boundary: **source semantics/adaptation stay local; generic target machinery stays in UC**. They do not establish that the source adapters themselves should be merged.
 
-- Animal Design proved one explicit source-owned animal surface → UC GLB bridge;
-- Nature Design proved a materially different source-owned Nature surface → UC GLB bridge, including an explicit local leaf-backface compatibility strategy instead of forcing one foliage case into UC.
+## UC boundary / current-main observation
 
-Those two bridge successes concern portable surface publication. This Wreckline pass concerns **provider-source provenance for a generated build recipe**. It is deliberately not folded into the surface contract.
+No UC edit was necessary.
+
+Current UC main already exposes the exact neutral capability needed here. Open current UC work is focused on separate concerns such as physics growth, evolution/aftertouch and profession-crew evidence routing; this activation did not duplicate or modify those lanes.
+
+The important UC truth boundary is retained rather than worked around: the Asset Atom compiler carries the declared OBJ URI/digest into resource evidence, but explicitly does not fetch or verify those external bytes. This Object PASS therefore cannot be inflated into a rendered/imported/physical attachment claim.
+
+## Previous Technical Art evidence retained
+
+### Wreckline provider provenance
+
+Previous exact Technical Art lane remains valid and separate:
+
+- `mike-axiom-mir/axm-wreckline#8`;
+- exact head `ba7f49da25711ec6412d054a108c0001316961ae`;
+- artifact `10429588319`;
+- archive SHA-256 `0a2914792550e77503994cc168bda87d9f99378575f54365afa0189d9913b079`;
+- result `PASS_CONSUMER_OWNED_PROVIDER_IMPORT_CONTRACT / HOLD_HISTORICAL_PROVIDER_INCOMPLETE`.
+
+That retained receipt proves the attempted historical UC provider commit `ed64069af0ecda34cdba5b5ba68372a6a16a8e02` is missing two direct Wreckline provider modules:
+
+- `axm_uc.hard_surface`;
+- `axm_uc.vehicle_hardpoints`.
+
+No historical provider implementation was guessed or restored. Wreckline provider closure remains one-consumer evidence and is not promoted into UC.
+
+### Animal / Nature bridges
+
+The earlier Animal and Nature source-owned bridges also remain valid and separate. Their source coordinate/material/sidedness semantics remain in their design repos; UC provides portable target machinery. This Object pass does not rewrite those contracts.
 
 ## Truth boundary / non-claims
 
-This activation proves only that the named Wreckline Python consumer sources can be statically inspected against the exact attempted UC provider commit, that the bounded resolver can retain exact source hashes/import edges, and that this exact attempted provider checkout lacks the two named direct modules.
+This activation proves only that the exact generated Object Asset Atom package can be re-validated, deterministically compiled, socket-preserved, descriptor-materialized and re-opened through exact UC commit `8dd55d...` while retaining UC's explicit external-resource limitation.
 
 It does **not** prove:
 
-- complete dynamic import closure;
-- non-Python files, templates, assets, data or environment dependencies;
-- that the historical missing provider implementations can be reconstructed from present evidence;
-- provider behavior or API compatibility;
-- Hero Vehicle rebuild equivalence;
-- candidate GLB generation;
-- Hard Surface PR #6 visual acceptance;
-- Art Director acceptance of the 35 m LOD identity repair;
-- runtime performance of a rebuilt candidate;
-- game-readiness, production readiness, CANON or Technical Art / UC mastery.
+- renderer meaning of the socket Euler transforms or frame axes;
+- target-engine import of the Object asset;
+- that UC fetched or rehashed the OBJ bytes;
+- 3D module attachment instantiation;
+- physical fit or compatibility of a real module;
+- collision, load-bearing, latch or full hinge engineering;
+- animation/controller behavior;
+- runtime cost or performance;
+- gameplay acceptance;
+- Art Director / Visual Observer acceptance;
+- production readiness, CANON or Technical Art / UC mastery.
 
 ## Root gate
 
-- **Truth:** the previous one-module HOLD was not inflated into a recovery story; the exact static closure discovered and retained the second missing provider as well.
-- **Agency / non-domination:** Wreckline keeps its source semantics and dependency declaration; UC was not modified for convenience; Hard Surface, Runtime and Art Direction retain their own acceptance authority.
-- **Continuity:** PR #8 stacks on the active Hard Surface lane, preserves that lane's candidate untouched, pins exact Wreckline and UC heads, hashes available provider source, and keeps the failed pre-repair CI as historical evidence rather than silently rewriting it.
-- **Wisdom before speed:** the smallest executable provenance contract was added first. Missing historical implementations were not guessed or copied into UC simply to obtain a green rebuild.
+- **Truth:** validation, deterministic compilation, materialization, external-resource verification and 3D/runtime acceptance remain separate facts. The green UC compiler path is not described as a rendered attachment.
+- **Agency / non-domination:** Object retains its physical/interface semantics; UC gains no domain authority and was not modified for convenience; Hard Surface, Rigging, Runtime and Art Direction keep their own acceptance gates.
+- **Continuity:** the new lane stacks on exact Object Hard-Surface head `32027e...`, preserves source/package identity, pins exact UC head `8dd55d...`, retains digests and leaves the sibling Rigging lane untouched.
+- **Wisdom before speed:** existing neutral UC machinery was exercised before inventing new shared code. The smallest missing evidence contract was added at the consumer boundary.
 
 ## Handoffs
 
-- **Hard Surface:** use PR #8's exact receipt as the provider-provenance handoff. A truthful historical rebuild remains blocked by both `axm_uc.hard_surface` and `axm_uc.vehicle_hardpoints`; do not keep probing only the first missing module or inherit a rebuild claim from this green evidence workflow.
-- **Capability Cartographer:** record consumer-owned provider-import receipts as a candidate reusable cross-repo procedure. Do not promote the implementation into UC until another materially different consumer independently needs the same contract.
-- **Runtime / Optimization:** no new candidate asset was emitted, so no current runtime numbers are transferred to a rebuilt version.
-- **Art Director / Visual Observer:** the existing Wreckline 35 m identity hold remains unchanged because no rebuilt/rendered candidate was produced here.
-- **Universal Creation:** no code change requested. Historical provider incompleteness at `ed64069...` is evidence about that attempted commit, not a mandate to restore Wreckline-specific functionality onto current UC main.
+- **Hard Surface / Object:** PR #4 proves the existing exact socket projection survives UC's complete descriptor path. It does not change the source asset or make physical-fit claims.
+- **Rigging / Object:** PR #3 remains the separate lid-articulation proof. Do not inherit UC runtime or controller acceptance from this descriptor PASS.
+- **Capability Cartographer:** there are now three materially different design → UC crossings supporting the same source-local / UC-generic boundary. Record the repeated architecture, but do not centralize source adapters unless executable duplication actually appears.
+- **Runtime / Optimization:** no renderer/runtime attachment was instantiated. There is no new draw-call, residency or target-host result to inherit.
+- **Visual Observer / Art Director:** no new render was produced. This pass makes no aesthetic claim.
+- **Universal Creation:** no code change requested. Its existing Asset Atom validation/compile/materialization behavior is sufficient for this bounded Object handoff; preserve the explicit external-resource truth boundary.
+- **Wreckline:** historical provider HOLD remains unchanged and must not be confused with this current-UC descriptor success.
 
 ## Next Technical Art / UC Integration pass
 
-1. First inspect whether a second independent consumer now exhibits the same provider-closure problem; if so, compare contracts before considering a shared domain-neutral home.
-2. If Wreckline locates authentic historical source for either missing provider, bind that source to an immutable commit/hash and rerun this exact contract before attempting rebuild behavior.
-3. Do not synthesize guessed `hard_surface` or `vehicle_hardpoints` implementations merely to clear the HOLD.
-4. Keep provider-source provenance, provider behavior, asset rebuild equivalence, visual acceptance and runtime acceptance as separate gates.
+Prefer one of these evidence-triggered gaps rather than adding abstraction for its own sake:
+
+1. a real target-engine/import consumer needs to take the retained Object instance beyond descriptor materialization, while keeping source/socket semantics traceable;
+2. a second independent design source uses Asset Atom sockets/interfaces and exposes literal reusable adapter/tooling duplication;
+3. another design source crosses UC through a materially different target contract and challenges the current source-local / UC-generic placement;
+4. a second independent consumer reproduces the Wreckline provider-closure need, allowing comparison before any shared provider-provenance helper is proposed;
+5. authentic historical Wreckline provider source is recovered and can be immutably bound and re-tested.
+
+If none of those exists, do not manufacture a UC integration layer. Re-scan the constellation and keep proven domain machinery where its evidence says it belongs.
