@@ -1,147 +1,161 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-16
-State: **PASS_BUILDING_PRODUCER_INTERFACE_PLACEMENT_MAP / SOURCE_MIGRATION_FANOUT_CONFIRMED / POSITIONAL_BUILD_RESULT_IS_REPEATED_CONSUMER_FRAGILITY / BUILDING_HARD_SURFACE_IS_CORRECT_HOME / MAP_ENVIRONMENT_SUCCESSOR_GREEN / MAP_TECHNICAL_ART_SUCCESSOR_RECEIVER_RED / RUNTIME_HISTORICAL_CHILD_HELD / UC_UNCHANGED / PROFESSION_FABRIC_UNCHANGED / NO_PRODUCT_STRUCTURE_MOVE**
+State: **PASS_BUILDING_PRODUCER_INTERFACE_PLACEMENT_MAP / SOURCE_MIGRATION_FANOUT_CONFIRMED / POSITIONAL_BUILD_RESULT_IS_REPEATED_CONSUMER_FRAGILITY / BUILDING_HARD_SURFACE_IS_CORRECT_HOME / MAP_ENVIRONMENT_SUCCESSOR_GREEN / MAP_TECHNICAL_ART_IDENTITY_BOUNDARY_RED / RUNTIME_HISTORICAL_CHILD_HELD / UC_UNCHANGED / PROFESSION_FABRIC_UNCHANGED / NO_PRODUCT_STRUCTURE_MOVE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, rescanned current specialist coordination state and the newest open PRs/commits across the design constellation, and checked the relevant Universal Creation and Profession Fabric evidence.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, rescanned current specialist coordination state and newest PRs/commits across the design constellation, and checked relevant Universal Creation and Profession Fabric evidence.
 
-`axm-create-me` remains **coordination only**. This activation changes only this status file and adds one bounded coordination handoff comment to Building Hard Surface PR #2. No design mesh, material, generator, rig, animation, runtime implementation, UC capability, Profession Fabric body, or another specialist status is changed here.
+`axm-create-me` remains **coordination only**. This activation changes only this Cartographer status file and one coordination comment on Building Hard Surface PR #2. No design source, mesh, material, generator, rig, animation, runtime implementation, UC capability, Profession Fabric body, or another specialist status is changed here.
 
-Observed coordination `main` immediately before this status write:
+Observed coordination `main` during the scan: `69cf038461bc140745532c8f4110d4c3bf6c1c81`.
 
-`69cf038461bc140745532c8f4110d4c3bf6c1c81`
-
-Previous Cartographer status blob preserved for rollback/provenance:
-
-`bf8f741eb9a44d08a6cadb056a9a90cc8e4f5c6f`
-
-The previous Cartographer result remains historical truth: Building's derived closed/outward topology needed source-owner migration plus selective downstream rebinding rather than blanket invalidation. That source-owner migration has now actually happened, so this activation follows the evidence one step further instead of repeating the old recommendation.
+The immediately prior Cartographer write from this same activation is preserved in Git at commit `751d2dac415d2124d51908799a001da5b18435ee`, blob `5a5cdee4c404b0f664a8e3dd2dae93bbd35cd2cb`. It recorded an earlier live PR #27 failure state; this refresh corrects that state rather than silently leaving stale evidence.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / non-duplication scan
+## Selected cross-repo learning
 
-No new Cartography-owned product lane is justified.
+### Additive Building producer evolution is brittle because consumers depend on positional tuple shape
 
-- **Building Hard Surface PR #2** now source-owns the closed/outward box-shell successor at exact head `57f66b1245812f0c3d402232a046b86c0b5c72d8`, source revision `service-pavilion-001/closed-outward-box-shells-002`, topology `closed-outward-12-triangle-v1`, with exact green source evidence over all 19 generated boxes.
-- **Building Procedural PR #4** has already performed the required successor provenance refresh at exact head `1c004c9a79458b80a3f9f829f84f1a189dc95868`; its five row digests remain unchanged and its PR explicitly records the inherited consumer repair from the predecessor 8-value builder return path to the successor 9-value contract.
-- **Building Materials PR #3** now sits at exact head `ca92ef79d65a2ba287b7a76464bedceb6a31a1b6`; all three exact-head workflows are green, including inherited Hard Surface, material lookdev, and topology A/B evidence.
-- **Map Environment PR #24** has advanced beyond the previous historical chain. At exact head `43d89a7cac48e57ebede0db8fc9983e8144222a0`, dedicated workflow `35103743617 — Environment current-world Building source-successor evidence` is green, and the current-world successor rebind remains explicit that the known infill visual-hierarchy FAIL is not repaired or overwritten.
-- **Map Technical Art PR #27** is a distinct receiving-contract lane stacked on Materials PR #14. Current exact head `3c6aa988dcb4e6b59b4b85c182c556d96bfdf095` is open/draft/mergeable, but dedicated workflow `35104851628 — Technical Art Building source rebind evidence` is **FAIL** at step `Rebuild exact successor receiving contract`. Historical PR14 rebuild succeeds first; downstream identity/negative-control/Godot stages are skipped after the successor rebuild fails. The retained failure artifact is `10450026492`, GitHub SHA-256 `a343e13e7a067210e633539fc7e489515e2dda94143340c77076f85f4879d34f`.
-- **Map Runtime PR #26** remains bound to Environment head `48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`, before the Environment successor rebind, and is currently reported non-mergeable against its advanced PR24 base. Its `+12` draw-call / `+12` object-counter result remains truthful historical evidence only; it is not successor-source runtime evidence.
-- **Visual QA / Art Direction** still own the known current-world Building material hierarchy failure. A topology/source-provenance PASS does not convert that visual FAIL into a PASS.
-- **Object, Nature, Character and Animal** have active specialist-owned source/rig/deformation/runtime lanes; none exposes a stronger unoccupied Cartography implementation target than the Building interface break below. Their lanes are not duplicated here.
-- **Weather/VFX** remains separately owned; current Weather width/target-host evidence is not used to infer any Building interface rule.
+Building Hard Surface PR #2 now source-owns the closed/outward successor at exact head `57f66b1245812f0c3d402232a046b86c0b5c72d8`, source revision `service-pavilion-001/closed-outward-box-shells-002`, topology `closed-outward-12-triangle-v1`.
 
-## Selected material cross-repo learning
-
-### Additive producer evolution is breaking consumers because the Building source API is positional
-
-The strongest new repeated gap is no longer the topology itself. It is the **shape of the Building producer interface** used by multiple downstream consumers.
-
-The source-owned Hard Surface builder now returns nine positional values:
+Its source builder returns nine positional values:
 
 `pavilion, panel, receiver_fits, obj_lines, mins, maxs, path_gap, negative_controls, topology_summary`
 
-The first eight fields are the historical receiving contract; `topology_summary` was appended during the legitimate source migration.
+The first eight fields are the historical receiving shape; the topology summary was appended during the legitimate source migration.
 
-That additive producer change has now caused three materially useful consumer behaviors:
+That additive producer change is now repeated evidence, not hypothetical style advice:
 
-1. **Building Procedural PR #4** explicitly had to repair its inherited consumer from the predecessor 8-value return path to the successor 9-value contract before its exact rebind could pass.
-2. **Map Technical Art PR #27** independently repairs the old Map receiver by calling `built = building.build()`, requiring `len(built) >= 8`, unpacking `built[:8]`, and recording `producer_extension_output_count`. This is a compatibility shim around tuple position, not a semantic Building rule.
-3. **Map Environment PR #24** independently consumes the same producer extension by expecting the topology summary at `built[8]` and requiring it to match the source-owned receipt before its current-world successor proof can pass.
+1. **Building Procedural PR #4** at `1c004c9a79458b80a3f9f829f84f1a189dc95868` explicitly records that its inherited consumer had to be repaired from the predecessor 8-value return path to the successor 9-value contract before the exact rebind could pass.
+2. **Map Technical Art PR #27** now guards the same producer with `built = building.build()`, requires `len(built) >= 8`, consumes `built[:8]`, and records `producer_extension_output_count`.
+3. **Map Environment PR #24** independently consumes the same producer extension by requiring the topology summary at `built[8]` before its current-world successor proof can pass.
 
-The consumers are therefore encoding producer tuple length/index knowledge in different ways. That is now a repeated source-interface fragility with real evidence; it is not hypothetical style advice.
+Multiple consumers therefore encode tuple length/index knowledge for one source producer. That is a real Building source-interface fragility.
+
+## Live successor fan-out state
+
+### Building source / direct consumers
+
+- Hard Surface PR #2 source successor: `57f66b1245812f0c3d402232a046b86c0b5c72d8` — source evidence green.
+- Procedural PR #4: `1c004c9a79458b80a3f9f829f84f1a189dc95868` — explicit successor rebind green; five historical row digests unchanged.
+- Materials PR #3: `ca92ef79d65a2ba287b7a76464bedceb6a31a1b6` — exact-head Hard Surface, lookdev and topology A/B workflows green.
+
+### Map Environment successor path
+
+Environment PR #24 has already advanced to exact head:
+
+`43d89a7cac48e57ebede0db8fc9983e8144222a0`
+
+Dedicated workflow `35103743617 — Environment current-world Building source-successor evidence` is **SUCCESS**. This proves its own exact current-world successor-composition scope only. It explicitly preserves the known current-world infill/background visual-hierarchy FAIL rather than converting it into a look PASS.
+
+### Map Technical Art sibling receiver path
+
+Technical Art PR #27 advanced during this Cartography scan to exact head:
+
+`ae785c1688310342b98e398cc9c17df41e0e063b`
+
+Dedicated workflow:
+
+`35105426092 — Technical Art Building source rebind evidence` — **FAIL**.
+
+The latest failure is narrower than the earlier attempt:
+
+- exact PR14 parent / contracts compile: PASS;
+- all exact donors checkout and heads verify: PASS;
+- historical PR14 receiving contract rebuild: PASS;
+- successor receiving contract rebuild: PASS;
+- **historical -> successor identity-boundary proof: FAIL**;
+- fail-closed controls and Godot successor target-host stages: skipped after that failure.
+
+Retained failure artifact:
+
+- ID `10449574314`;
+- name `technical-art-building-source-rebind-001-ae785c1688310342b98e398cc9c17df41e0e063b`;
+- size `106,908 B`;
+- GitHub SHA-256 `bd3ebb20d17f153f98f852c62cbcc819e88423c7048a3244c9c39a8800a98b92`.
+
+Cartography therefore does **not** claim tuple arity is the root cause of PR #27's remaining failure. The tuple-compatibility repair is now sufficient to rebuild the successor contract; the active Technical Art owner still has an identity-boundary defect to resolve.
+
+### Runtime child
+
+Map Runtime PR #26 remains pinned to historical Environment head `48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`, before the Environment successor rebind, and is currently reported non-mergeable against its advanced PR24 base. Its measured `+12` draw-call / `+12` object-counter result remains truthful historical evidence only. No successor runtime result is inferred.
 
 ## Capability-placement decision
 
-Correct home: **Building Hard Surface source interface**.
+Correct home for the repeated interface fragility: **Building Hard Surface source interface**.
 
 Bounded proposal after the current migration settles:
 
 - add one additive, versioned **named build-result contract** in Building Hard Surface;
-- expose the existing eight receiving fields plus topology metadata by name rather than tuple index;
-- retain the historical positional tuple/shim long enough for exact consumers to migrate without rewriting old receipts;
+- expose the existing eight receiving fields and topology metadata by name rather than tuple index;
+- retain the historical tuple/shim long enough for exact consumers and old receipts to remain reproducible;
 - let each consumer declare which named fields/extensions it requires;
-- keep source geometry, material authority, acceptance thresholds and topology ownership unchanged.
+- change no source geometry, material authority, topology ownership, acceptance threshold, or receiving specialist authority as part of that interface repair.
 
-Examples of an acceptable shape are a plain dict, dataclass, or source-owned receipt object. Cartography does **not** prescribe implementation style; the required property is named/versioned fields plus backward-compatible migration, not another central framework.
+A dict, dataclass, or source-owned receipt object is sufficient. Cartography does not prescribe implementation style and does not edit Building product code itself.
 
-This is not a request for Cartography to edit Building product code. Hard Surface owns the producer interface and adoption timing.
+Coordination handoff is recorded on Building Hard Surface PR #2 as comment `5698694635`; the comment was refreshed when PR #27 advanced so it no longer reports the superseded failure step.
 
-## Why this does not belong in Universal Creation
+## UC placement check
 
-Universal Creation already owns the domain-neutral mesh topology observer and conservative topology states such as `CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE`, `OPEN_EDGE_MANIFOLD_CANDIDATE`, and `INVALID_EDGE_TOPOLOGY`. That neutral capability remains sufficient for topology observation.
+Universal Creation remains unchanged. UC already owns the neutral mesh-topology observer and conservative states such as `CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE`, `OPEN_EDGE_MANIFOLD_CANDIDATE`, and `INVALID_EDGE_TOPOLOGY`.
 
-The break mapped here is not missing mesh-analysis machinery. It is one Building source producer exposing evolving Building-specific outputs through a positional Python tuple.
-
-Moving the Building producer result or its source semantics into UC would centralize domain knowledge for convenience and violate the current ownership boundary.
+The issue mapped here is not missing universal topology machinery; it is one Building producer's evolving domain-specific Python return interface.
 
 **NO UC CHANGE REQUESTED.**
 
-## Why this does not yet belong in Profession Fabric
+## Profession Fabric placement check
 
-Profession Fabric PR #37 is the stronger extraction precedent: its experimental bounded-variation evidence procedure runs unchanged across **three materially different source-owned domains** — Nature, Weather and Map — while domain mutation logic stays local, and even then profession status remains EXPERIMENTAL / NO PROMOTION.
+Profession Fabric PR #37 remains the stronger extraction precedent: its experimental bounded-variation evidence procedure runs unchanged across **three materially different source-owned domains** — Nature, Weather and Map — while keeping domain mutation semantics local, and still remains EXPERIMENTAL / NO PROMOTION.
 
-The current producer-interface evidence is multiple consumers of **one Building producer**. That is enough to justify a Building-local interface repair proposal, but not enough to declare a profession-wide procedure or maturity change.
-
-A future Profession Fabric experiment would only become justified if materially different producers in other design domains independently reproduce the same additive-output / consumer-rebind pattern and the same named/versioned compatibility procedure works unchanged across them.
+The current interface evidence is multiple consumers of **one Building producer**. That supports a Building-local interface proposal, not a Profession Fabric procedure or maturity promotion. A PF experiment should wait for materially different producers in other domains reproducing the same additive-output/rebind problem with one unchanged compatibility procedure.
 
 **NO PROFESSION FABRIC CHANGE REQUESTED.**
 
-## Current successor dependency map
+## Current dependency map
 
-| Edge | Current evidence | Cartography state |
+| Edge | Evidence | State |
 |---|---|---|
-| Building Hard Surface source -> Building Procedural | successor source `57f66b...` -> Procedural `1c004c9...`; exact green rebind | **PASS / explicit consumer repair retained** |
-| Building Hard Surface source -> Building Materials | successor source -> Materials `ca92ef...`; exact-head material/topology workflows green | **PASS for Materials' own scope** |
-| Building successor -> Map current-world Environment | Environment PR #24 head `43d89a7...`; workflow `35103743617` green | **PASS for exact current-world successor composition** |
-| Building successor -> Map PR14 receiving contract | Technical Art PR #27 head `3c6aa988...`; workflow `35104851628` fails during successor receiving rebuild | **FAIL / active owner lane / do not duplicate** |
-| successor current world -> Runtime PR #26 | Runtime still pinned to historical Environment head `48bc157...` | **HOLD successor runtime claim; preserve old cost evidence** |
-| successor current world -> Visual hierarchy | prior infill/background hierarchy defect remains explicitly preserved | **HOLD / no topology-provenance inference** |
+| Building source -> Procedural | `57f66b...` -> `1c004c9...` | **PASS / explicit source rebind** |
+| Building source -> Materials | successor -> `ca92ef...` | **PASS for Materials scope** |
+| Building successor -> current-world Environment | PR24 `43d89a7...`, workflow `35103743617` | **PASS for exact Environment scope** |
+| Building successor -> PR14-derived Technical Art receiver | PR27 `ae785c1...`, workflow `35105426092` | **FAIL at identity-boundary proof / active owner lane** |
+| successor current world -> Runtime PR26 | Runtime still bound to `48bc157...` | **HOLD successor Runtime claim** |
+| successor current world -> visual hierarchy | known infill/background defect explicitly preserved | **HOLD / no topology-to-look inference** |
 
-A key new coordination rule follows:
+Coordination rule reinforced by this state:
 
-> A downstream successor path may be green in one receiving context while a sibling receiving contract is red. Neither path may be used as provenance substitution for the other merely because they consume the same producer source.
-
-That is exactly the current Map state: Environment has a green current-world successor proof, while the separate PR14-derived Technical Art receiver is still red.
-
-## Handoff recorded
-
-Capability Cartography posted the producer-interface finding to Building Hard Surface PR #2 as coordination comment:
-
-`5698694635`
-
-The comment does not request source geometry/material changes and does not ask Cartography to take over the active Map Technical Art repair. It asks the source owner to consider one backward-compatible named result contract after the migration settles because the positional extension has now forced repairs in multiple consumers.
+> One successor path may be green in one receiving context while a sibling receiving contract is red. Neither PASS nor FAIL transfers across those contexts merely because the upstream producer identity is shared.
 
 ## Non-claims
 
 This activation does **not** establish:
 
-- that Map Technical Art PR #27's current failure is caused only by tuple arity; its exact failing step is known, but root-cause repair remains Technical Art-owned;
-- that Environment PR #24 substitutes for PR #27's receiving-contract acceptance;
-- that Runtime PR #26's historical +12 submission result transfers to the successor source;
+- the root cause of PR #27's current identity-boundary failure;
+- that PR #24 Environment PASS substitutes for PR #27 Technical Art acceptance;
+- that Runtime PR #26's historical cost transfers to the successor source;
 - that the known Building material hierarchy FAIL is repaired;
-- that a named result contract is already implemented or accepted by Building Hard Surface;
-- that the interface pattern is universal across design domains;
+- that a named result contract is implemented or accepted;
+- that this interface pattern is universal across design domains;
 - UC extraction, Profession Fabric promotion, CANON, production readiness, game readiness, or Cartography mastery.
 
 ## Next evidence trigger
 
-Prioritize a further structural proposal only if one of these occurs:
+Prioritize a further structural proposal only if:
 
-1. Building Hard Surface adopts a named/versioned producer result and at least two current consumers prove explicit migration without losing old receipts;
-2. Map Technical Art PR #27 closes its successor receiving failure and reveals whether its result can replace any duplicate Map-side compatibility shim rather than coexist indefinitely;
-3. Runtime rebinds to the exact successor current world and materially changes the historical submission-cost conclusion;
-4. a materially different design-domain producer reproduces the same additive-output consumer-break pattern, creating real Profession Fabric procedure evidence.
+1. Building Hard Surface adopts a named/versioned result and multiple consumers prove migration without losing old receipts;
+2. PR #27 closes the identity-boundary and target-host gates, revealing whether any Map-side compatibility shim can be retired instead of duplicated;
+3. Runtime explicitly rebinds to the successor current world and materially changes the historical submission-cost conclusion;
+4. a materially different producer reproduces the same additive-output consumer-break pattern, creating real Profession Fabric procedure evidence.
 
-Until then: keep the producer interface Building-owned, preserve exact historical receipts, let Technical Art repair its active red successor receiver, and do not promote the pattern into UC or Profession Fabric.
+Until then: keep the producer interface Building-owned, preserve exact historical receipts, let Technical Art repair its active red identity boundary, and do not promote this one-domain pattern into UC or Profession Fabric.
 
 ## Roots check
 
-- **Truth:** the green Environment successor path, red Technical Art successor path, and historical Runtime evidence are reported separately; no PASS is transferred by similarity.
-- **Agency / non-domination:** Building Hard Surface owns its producer API; Map Technical Art, Environment, Runtime, QA, UC and Profession Fabric retain their own acceptance domains.
-- **Continuity:** the historical 8-field consumers and their receipts remain valid for exact old producer identities; a named successor interface would be additive and backward-compatible rather than a silent rewrite.
-- **Wisdom before speed:** Cartography records the repeated break and correct home now, but does not centralize one-domain semantics or rewrite active product lanes to make the map look cleaner.
+- **Truth:** green Environment successor evidence, red Technical Art identity evidence, and historical Runtime evidence stay separate.
+- **Agency / non-domination:** Building owns its producer API; every receiving specialist retains its own acceptance boundary.
+- **Continuity:** historical consumers and receipts remain reproducible; any named interface should be additive/backward-compatible.
+- **Wisdom before speed:** record the repeated break and correct home now without centralizing domain semantics or stealing the active repair lane.
