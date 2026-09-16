@@ -1,31 +1,37 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / SEVENTH BOUNDED RUNTIME PASS / THREE-SOURCE NATURE IMMUTABLE MATERIAL SHARING PROVEN / 6→1 MATERIAL CONSTRUCTIONS / EXACT PIXELS + SUBMISSION COUNTERS PRESERVED / TARGET-DEVICE BUDGET STILL MISSING**
+State: **ACTIVE / EIGHTH BOUNDED RUNTIME PASS / OBJECT EXACT SAMPLED LID RESOURCE REUSE PROVEN / 6000→3 MOVING RESOURCE CONSTRUCTIONS / RETAINED PIXELS + SUBMISSION COUNTERS PRESERVED / TARGET-DEVICE BUDGET STILL UNPROVEN**
 
 ## Current bounded claim
 
-This activation followed the previous Runtime handoff rather than reopening Weather reuse, moving-sapling reuse, compact-tree replacement cost, Wreckline LOD, Materials, or VFX. Environment PR #15 created the first current Map receiving scene with **three simultaneous source-owned Nature bodies**: west sapling, compact east tree, and east-rear tree.
+This activation followed the previous Runtime handoff instead of reopening Weather reuse, moving-sapling reuse, compact-tree cost, Nature material sharing, Wreckline LOD, or inventing a new LOD system.
 
-The existing Godot proof host creates a visually identical immutable Nature `StandardMaterial3D` separately for every Nature source mesh in every fixed-camera viewport. Runtime therefore asked one bounded multi-source scaling question:
+The previous status named **actual Object lid clip target-host playback cost once a receiving-engine articulation path exists** as the strongest next candidate. That dependency is now boundedly available:
 
-> Can the exact current three-source Nature receiving scene share one immutable proof-host Nature material resource across all three Nature meshes and both fixed observation contexts while preserving exact retained pixels and renderer submission counters?
+- Object Materials PR #6 reconstructs the exact source component roles in pinned Godot 4.7.2 and already proves exact Animation-derived articulated poses;
+- Object Animation PR #10 retains the complete source-owned 81-sample / 80-displayed-sample `lid-open-hold-close-001` clip;
+- Object Technical Art PR #7 separately proves exact current UC-published Object GLB import, but that GLB is still a static import proof and does **not** yet expose a proven dynamically segmented lid.
+
+Runtime therefore asked one narrow receiving-resource question:
+
+> Can the exact current 80 displayed authored lid samples reuse the same three moving proof nodes / meshes / materials and update only their exact rigid transforms, instead of rebuilding moving resources for every sample, while retaining identical proof pixels and renderer submission counters?
 
 Result:
 
-**`PASS_SHARE_ONE_IMMUTABLE_NATURE_MATERIAL_RESOURCE`**
+**`PASS_REUSE_RIGID_LID_TARGET_HOST_RESOURCES`**
 
-The exact control creates **6** Nature materials across 3 Nature meshes × 2 contexts. The candidate creates **1**, an **83.33333333333333% construction reduction**. Both exact fixed-camera control/candidate image pairs are byte-identical, and draw-call / visible-object / primitive counters remain identical.
+The exact synthetic rebuild control constructs **6,000 moving nodes + 6,000 moving meshes + 6,000 moving materials** across the retained workload. The reuse candidate constructs **3 / 3 / 3**, a **99.95% reduction** for every class, while retaining exact moving-resource identity throughout all 2,000 updates. All 14 retained control/candidate frame pairs are byte-identical and all retained draw/object/primitive counter pairs are exact.
 
-`axm-create-me` remains coordination-only. All Runtime proof code and evidence live in `axm-map-design`.
+`axm-create-me` remains coordination-only. All Runtime implementation and evidence live in `axm-object-design`.
 
 ## Continuity / previous status preservation
 
-The complete sixth Runtime pass remains preserved at the prior coordination-file blob:
+The complete seventh Runtime pass remains preserved at the prior coordination-file blob:
 
-`adcb58baec980625750d78325d6fd8f5c31aaef8`
+`3adb377015c10a55e2ae338b54a757c18802d739`
 
-That pass proved stable moving-sapling node / `ArrayMesh` / material reuse across 441 synchronized updates with a 99.773% construction reduction. It is not rewritten as new evidence here.
+That pass proved three-source immutable Nature material sharing in Map Runtime PR #17 (`6 → 1` proof-material constructions, byte-identical retained frames). It is not rewritten as Object evidence here.
 
 ## Constellation / overlap scan
 
@@ -34,266 +40,295 @@ Read before acting:
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - `studio/specialists/12_runtime_optimization.md`;
 - previous Runtime status;
-- newest Environment, VFX, Nature, Geometry, Materials, Object and Wreckline state;
-- current open constellation PRs.
+- newest Runtime, Animation, Materials, Technical Art, Environment, VFX, Geometry, Rigging, Organic and Procedural evidence;
+- current open PRs across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
 Relevant placement decisions:
 
-- **Map Runtime PR #8** already proves same-process Weather `ImmediateMesh` resource reuse; not repeated.
-- **Map Runtime PR #10** already measures the compact east-tree proxy-to-source budget; not repeated.
-- **Map Runtime PR #13** already proves moving-sapling resource reuse; not repeated.
-- **Map VFX PR #16** owns dense 17-state atmosphere sampling on top of Runtime PR #13; this Runtime pass does not retake VFX continuity/timing ownership.
-- **Map Environment PR #15**, exact head `03e956475158a59d70cca08b73be23c141e4cb1f`, now supplies three simultaneous source-owned Nature meshes and explicitly leaves Runtime cost unclaimed. This is the selected dependency.
-- **Map Materials PR #14** separately owns Building surface-family receiving A/B and is not consumed.
-- **Nature Geometry PR #7** changes winding indices only and explicitly claims no performance gain; it is not silently substituted into the current established Organic meshes.
-- **Object Animation PR #10** now has a bounded lid clip but still lacks receiving-engine runtime playback; it remains a future candidate rather than being duplicated here.
-- **Wreckline LOD** remains blocked on truthful provider closure; no historical LOD benefit is transferred.
-- **Universal Creation / Profession Fabric** remain unchanged. The proof-host material is not promoted as a generic runtime registry or final Nature material system.
+- **Weapon / Armor / Unit / Misc:** no stronger open measured receiving-runtime lane surfaced; no speculative budget system was invented.
+- **Character PR #2:** source form is still under visual/form review and has no accepted animation-ready receiving path; Runtime did not pre-optimize it.
+- **Animal PRs #4/#6/#5:** connected topology, sampled deformation and a deterministic sampled motion loop exist, but target-engine/controller playback remains unproved and Art Direction/Visual QA still own motion/deformation acceptance; Runtime did not duplicate those lanes.
+- **Building PR #3:** current receiving lookdev is active, but no new measured runtime bottleneck exceeds the Object moving-resource gap.
+- **Nature PR #9:** source winding migration changes indices/visual culling correctness, not counts; no performance gain is inferred. A source-owned LOD/instancing candidate still does not exist.
+- **Weather PRs #2/#3:** source/procedural atmosphere fields remain visual-domain evidence. Map Runtime/VFX already own the real same-process receiving work.
+- **Map Runtime PR #8:** Weather `ImmediateMesh` reuse already proven; not repeated.
+- **Map Runtime PR #10:** compact east-tree receiving budget already measured; not repeated.
+- **Map Runtime PR #13:** moving sapling node / `ArrayMesh` / material reuse already proven; not repeated.
+- **Map Runtime PR #17:** immutable three-source Nature proof-material sharing already proven; not repeated.
+- **Map VFX PR #16:** owns current dense 17-state Weather + sapling live update fidelity. Runtime does not retake VFX opacity or continuity ownership.
+- **Map Environment PR #18:** owns migrated rear-tree normal-culling receiving acceptance. Runtime does not turn a correctness repair into an optimization claim.
+- **Object Hard-Surface PR #12 / Procedural PR #11:** current registration/clearance/configuration work does not change the exact lid source/rig dimensions consumed here.
+- **Object Animation PR #10:** source-owned clip owner. Runtime consumes its exact current head and exact authored samples unchanged; it does not retime, interpolate or modify easing.
+- **Object Materials PR #6:** supplies the exact segmented articulated Godot proof representation used here. Runtime does not change surface values.
+- **Object Technical Art PR #7:** separately proves exact UC-published GLB import. Runtime explicitly does not claim that static GLB already has dynamic lid segmentation.
+- **Universal Creation / Profession Fabric:** unchanged. No global animation/runtime cache is extracted from one Object proof.
 
 ## Runtime implementation lane
 
 Repository:
 
-`mike-axiom-mir/axm-map-design`
+`mike-axiom-mir/axm-object-design`
 
 Draft PR:
 
-**`#17 — Runtime: share immutable Nature proof material across three sources`**
+**`#13 — Runtime: reuse rigid lid target-host resources across exact sampled clip`**
 
 Branch:
 
-`studio/runtime-nature-material-sharing-001`
+`studio/runtime-object-lid-sampled-playback-reuse-001`
 
 Exact tested Runtime head:
 
-`5ed84c3925fae19cd1582d5210bc59680b883120`
+`c43613a5c28ab899a0c65d57ed85833310b38adf`
 
 Exact stacked prerequisite:
 
-`03e956475158a59d70cca08b73be23c141e4cb1f` — Environment PR #15 exact head.
+`c8b775d85f6007eab8d05fdb5e2ddc3e4ab871d4` — Object Materials PR #6 receiving head.
 
-Runtime adds bounded proof/evidence machinery only:
+Runtime adds only bounded proof/evidence machinery:
 
-- `environment-proof/nature_material_runtime_observe.gd`;
-- `tools/verify_environment_nature_material_runtime.py`;
-- `docs/ENVIRONMENT_NATURE_MATERIAL_RUNTIME_001.md`;
-- `.github/workflows/runtime-nature-material-sharing.yml`.
+- `runtime/object_lid_runtime_contract_001.json`;
+- `runtime-proof/project.godot`;
+- `runtime-proof/lid_motion_budget_observe.gd`;
+- `tools/verify_object_lid_runtime.py`;
+- `tests/test_object_lid_runtime.py`;
+- `.github/workflows/object-lid-runtime-reuse.yml`.
 
-No Environment source placement, Nature source geometry, Building, Weather, Object proxies, path, cameras, lighting, final material semantics, VFX timing, gameplay, UC, or Profession Fabric code changed.
+No Object source geometry, attachment interfaces, fastener clearance, Rigging plan, Animation clip timing/easing, Materials scalar PBR values, Technical Art UC code, collision, physics, gameplay, UC, Profession Fabric, or `axm-create-me` product implementation changed.
 
 ## Exact source / receiving identities
 
-The workflow rebuilds the exact Environment PR #15 receiving candidate before Runtime observation:
+- Materials receiving base: `c8b775d85f6007eab8d05fdb5e2ddc3e4ab871d4`;
+- current Animation donor: `12a350fc38f67348f342cd0e53ed6b16383b789d`;
+- Rig donor: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- Object source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- exact clip digest: `9e149195ab315f83f2d6f7d76f374f4be245567f77402de3e8a1d40ab79ef340`;
+- rig-plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
+- exact clip: 2.0 s / 40 Hz / 81 endpoint-inclusive samples / 80 displayed samples under the existing omit-duplicate-endpoint repeat policy;
+- exact declared moving proof components: **3** (`lid_shell` plus source-declared lid-side hinge components);
+- renderer: pinned Godot 4.7.2 GL Compatibility.
 
-- west Nature source: `mike-axiom-mir/axm-nature-design@fbc202449981f2bac153951c561ed0ed6120c936`;
-- compact Nature source: `mike-axiom-mir/axm-nature-design@64116d63fc76daa1623b5fd5046a4e6074100bda`;
-- rear Nature source: `mike-axiom-mir/axm-nature-design@a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`;
-- Building source: `mike-axiom-mir/axm-building-design@4faa769b406bf3ad0ba9489a77141c27f122ce51`;
-- Weather source: `mike-axiom-mir/axm-weather-design@ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
-- renderer: pinned Godot 4.7.2 GL Compatibility;
-- exact rebuilt Runtime scene digest: `32b6d3e75a2ece750923f11e629baca7ea7e1b925481da42bf2bc132f2905e22`.
-
-The receiving structural prerequisite reruns and remains `PASS_REAR_RIGHT_NATURE_SOURCE_REPLACEMENT_STRUCTURE` before Runtime evidence is accepted.
+The Runtime workflow rebuilds current Animation motion evidence from exact PR #10 bytes and requires its clip/rig/hinge identities to match the receiving payload before Godot may run.
 
 ## Measure-before / after design
 
 ### Control
 
-`per_mesh_material_control` intentionally reproduces the existing proof-host Nature material lifecycle:
+`rebuild_moving_parts_control` is deliberately synthetic measurement control, **not a shipped or claimed current product implementation**.
 
-- exactly 3 source-owned Nature meshes in `path_eye`;
-- exactly 3 in `elevated_oblique`;
-- one visually identical immutable `StandardMaterial3D` construction per Nature mesh per viewport;
-- **6 Nature material constructions total**.
+For every displayed authored sample it:
 
-This is a bounded measurement control, not a claim about a shipped AXM path.
+- frees the previous three moving proof components;
+- rebuilds three `MeshInstance3D` nodes;
+- rebuilds three primitive mesh resources;
+- rebuilds three material resources;
+- reapplies the exact source-derived lid / hinge pose.
 
 ### Candidate
 
-`shared_nature_material` creates the exact same proof material once, then reuses that immutable resource across:
+`reuse_moving_parts_transform`:
 
-- west sapling;
-- compact east tree;
-- rear/right tree;
-- both sequential fixed-camera viewport builds.
+- creates the same three moving nodes / meshes / materials once;
+- keeps their instance identities stable;
+- changes only exact source-derived rigid transforms for subsequent authored samples.
 
-Candidate total:
+Static Object proof components, source/clip/rig identity, candidate Materials family, cameras, lighting and sample order are fixed between modes.
 
-**1 Nature material construction**.
+### Workload
 
-Reduction:
+Per mode:
 
-**83.33333333333333%**.
+- one exact 80-displayed-sample evidence cycle;
+- 24 repeated stress cycles × 80 = 1,920 updates;
+- **2,000 total moving updates**;
+- retained indices: `0 / 15 / 30 / 40 / 50 / 65 / 79`;
+- contexts: `three_quarter / rear_hinge`;
+- **14 exact retained control/candidate image pairs**.
 
-The evidence verifier additionally requires the same one candidate material instance identity to survive both contexts, rather than merely constructing one per viewport.
+This exercises exact sampled opening / hold / closing / near-wrap states, but it is not wall-clock 40 Hz playback or `AnimationPlayer` acceptance.
 
 ## Exact-head evidence
 
 Dedicated workflow:
 
-`Runtime multi-source Nature material sharing evidence`
+`Object lid sampled Runtime resource evidence`
 
 Exact-head run:
 
-**`35070610843 — SUCCESS`**
+**`35076380439 — SUCCESS`**
 
-Every workflow step passed, including:
+Python 3.11 and 3.13 full Object test discovery passed. The exact Runtime job also passed:
 
-- exact Runtime-head binding;
-- exact dependency checkouts;
-- Environment PR #15 structural prerequisite test;
-- exact three-source receiving-scene rebuild;
-- pinned Godot download/hash verification;
-- control render;
-- shared-resource candidate render;
+- exact Runtime-head / Materials-base ancestry binding;
+- exact current Animation and Rig donor materialization;
+- exact current Animation motion rebuild;
+- exact articulated receiving payload rebuild;
+- source/clip/rig/hinge identity gates;
+- pinned Godot 4.7.2 hash verification;
+- synthetic control same-process run;
+- stable-resource candidate same-process run;
 - before/after verifier;
 - retained artifact upload.
 
 Retained artifact:
 
-- artifact ID: **`10435883315`**;
-- name: `environment-nature-material-runtime-001-5ed84c3925fae19cd1582d5210bc59680b883120`;
-- size: **390,232 B**;
-- Actions SHA-256: `41cbe5733dc8c581b3984eb1c03dd3cdea96f35b128bf62064bac2ecb72437b6`;
-- exact-head binding: `5ed84c3925fae19cd1582d5210bc59680b883120`.
+- artifact ID: **`10437877884`**;
+- name: `object-lid-runtime-001-c43613a5c28ab899a0c65d57ed85833310b38adf`;
+- size: **1,609,898 B**;
+- Actions SHA-256: `6141f406f123c7bfc544d853491ca75a8f0d2f7d23df4f7a41c1149ef9a8060e`;
+- exact-head binding: `c43613a5c28ab899a0c65d57ed85833310b38adf`.
 
-The retained ZIP was downloaded independently and rehashed locally. Local SHA-256 reproduces the Actions digest exactly. `runtime_evidence.json`, both runtime receipts, the exact scene payload, replacement prerequisite evidence and all four PNGs were inspected.
+The artifact was downloaded independently after CI and rehashed locally. Local SHA-256 reproduces the Actions digest exactly. Its comparison receipt, both mode receipts, exact motion evidence, receiving payload, donor-head files and retained PNGs were inspected.
 
 ## Exact before / after measurements
 
-Material constructions:
+Moving nodes constructed:
 
-- control: **6**;
-- candidate: **1**;
-- reduction: **83.33333333333333%**.
+- control: **6,000**;
+- candidate: **3**;
+- reduction: **99.95%**.
 
-Per-context resource identity:
+Moving meshes constructed:
 
-`path_eye`:
+- control: **6,000**;
+- candidate: **3**;
+- reduction: **99.95%**.
 
-- Nature meshes: **3 → 3**;
-- unique Nature material identities: **3 → 1**.
+Moving materials constructed:
 
-`elevated_oblique`:
+- control: **6,000**;
+- candidate: **3**;
+- reduction: **99.95%**.
 
-- Nature meshes: **3 → 3**;
-- unique Nature material identities: **3 → 1**.
+Candidate moving node / mesh / material identities remain stable through every one of the **2,000** updates.
 
-Candidate uses the **same one material identity across both contexts**.
+### CPU-side submission observations
 
-Exact source rows match between modes after removing only the deliberately changed receiving material instance ID.
+These values are useful same-runner comparative observations, **not portable budgets**:
+
+Combined 2,000 updates:
+
+- median: **202 → 12 µs** (`-94.0594%`);
+- p95: **450 → 55 µs** (`-87.7778%`);
+- max: **1,471 → 201 µs**;
+- total: **464,189 → 31,758 µs** (`-93.1584%`).
+
+Stress-only 1,920 updates:
+
+- median: **200 → 12 µs** (`-94.0%`);
+- p95: **299 → 19 µs** (`-93.6455%`);
+- total: **423,541 → 26,482 µs** (`-93.7475%`).
+
+The Runtime gate does not require timing improvement, because hosted-runner CPU timings are noisy. The primary gate is exact resource lifecycle reduction plus visual/submission equivalence. The observed timing result is retained because it strongly supports the same mechanism in this exact run.
 
 ### Renderer submission counters
 
-`path_eye`:
+Every retained sample/context has exact control/candidate equality for:
 
-- draw calls: **20 → 20**;
-- visible objects: **20 → 20**;
-- primitives: **4,392 → 4,392**.
+- draw calls;
+- visible objects;
+- primitives.
 
-`elevated_oblique`:
-
-- draw calls: **27 → 27**;
-- visible objects: **27 → 27**;
-- primitives: **6,150 → 6,150**.
-
-The higher primitive counts compared with the previous moving-sapling Runtime pass are expected from the now-integrated Building and additional real Nature source bodies. This pass compares only exact control versus candidate on the same current receiving scene.
+Counter values vary legitimately by view / sampled pose (for example rear-hinge visibility changes) but never vary **between modes for the same exact sample/context**.
 
 ### Retained memory-counter observations
 
-Both modes report identical current proof-host counters in both contexts:
+Every retained comparison reports equal current proof-host counters:
 
-- buffer memory: **6,532,056 B → 6,532,056 B**;
-- texture memory: **12,875,715 B → 12,875,715 B**.
+- buffer memory: **6,494,932 B → 6,494,932 B**;
+- texture memory: **9,310,915 B → 9,310,915 B**.
 
-These are retained observations, **not** proof that material resource sharing consumes zero memory or that VRAM is unchanged. Godot's exposed buffer/texture counters are not a complete material-resource residency meter.
+These are observations only. Godot's exposed buffer/texture counters are not a complete proof of material/node allocator residency or VRAM savings.
 
 ## Visual tradeoff for Art Direction
 
-Exact retained PNG relations:
-
-`path_eye`:
-
-- control SHA-256: `e46e592b3e8d289b41a8fb9ba314688979d41a7ba3197068c94d87a4ef42cea3`;
-- candidate SHA-256: `e46e592b3e8d289b41a8fb9ba314688979d41a7ba3197068c94d87a4ef42cea3`;
-- relation: **BYTE_IDENTICAL**.
-
-`elevated_oblique`:
-
-- control SHA-256: `91dffc22df906177fdb4fdaac54a04ddceb945db97129bbb01e6624a1de6b1da`;
-- candidate SHA-256: `91dffc22df906177fdb4fdaac54a04ddceb945db97129bbb01e6624a1de6b1da`;
-- relation: **BYTE_IDENTICAL**.
+All 14 retained control/candidate PNG pairs are **byte-identical**.
 
 Art Director handoff:
 
 **`NONE_OBSERVED_IN_EXACT_RETAINED_PROOF_FRAMES`**
 
-That is only the tradeoff verdict for material-resource sharing. It does not approve the proof material, vegetation forms, lighting, Environment composition, rear-tree hierarchy, final Nature Materials, or any broader scene aesthetic.
+Direct inspection of the candidate contact sequence shows the expected authored closed → opening → 100° hold → closing → near-neutral relationship in both retained cameras. The lifecycle optimization introduces no visible difference in these exact frames.
+
+This does **not** approve the underlying lid motion timing, weight/personality, Object form, Materials surface family, lighting, or final animation/lookdev quality.
 
 ## Reusable learning
 
-Runtime now has three materially different receiving-resource reuse cases:
+Runtime now has four materially different receiving-resource reuse cases:
 
-1. **Weather dynamic line field:** keep one node / `ImmediateMesh` / material while bounded line geometry changes.
-2. **Moving Nature sapling:** keep one node / `ArrayMesh` / material while bounded triangle geometry changes.
-3. **Static multi-source Nature:** share one immutable material resource across multiple distinct source meshes and sequential receiving contexts.
+1. **Weather dynamic field:** retain one node / `ImmediateMesh` / material while line geometry changes.
+2. **Moving Nature sapling:** retain one node / `ArrayMesh` / material while triangle geometry changes.
+3. **Static multi-source Nature:** share one immutable proof material across distinct meshes when the renderer semantics are truly identical.
+4. **Rigid Object articulation:** retain moving nodes / meshes / materials and update only rigid transforms when authored motion changes pose but not underlying resources.
 
-The strengthened receiving-host discipline is:
+The strengthened reusable rule is:
 
-> **Do not duplicate immutable renderer resources merely because source geometry identities are distinct. Share only the renderer resource whose semantics are truly identical, preserve source identities separately, and demand exact visual/counter evidence before calling the sharing a win.**
+> **Match resource lifetime to what actually changes. If authored motion changes only a rigid transform, do not rebuild immutable receiving meshes/materials per sample. Preserve source/rig/clip identity independently, and require visual plus submission-counter equivalence before calling reuse safe.**
 
-This does not yet justify one universal runtime implementation. Dynamic geometry reuse and immutable material sharing are different mechanisms. The exact Nature material here is a proof-host representation, and final source-owned lookdev may legitimately require multiple material resources later.
+This is a repeated Runtime principle, not yet one universal runtime implementation or UC subsystem.
+
+## Representation boundary
+
+This pass uses the **Materials articulated Godot proof representation reconstructed from exact source component dimensions**, because that path exposes source-declared moving roles and exact Animation-derived poses.
+
+Technical Art PR #7 separately proves exact current UC-published Object GLB import, but that retained GLB is still a static two-mesh assembly proof. This activation does **not** claim:
+
+- that the exact UC GLB exposes the lid as an independently animated node;
+- that this Runtime proof is byte-identical to a future segmented GLB import path;
+- that an `AnimationPlayer` or controller already consumes the clip.
+
+A future exact GLB articulation path must re-run Runtime evidence rather than inherit this PASS.
 
 ## Truth boundary / non-claims
 
-This activation proves only that, in the exact current three-source Nature Map receiving scene on pinned Godot 4.7.2 GL Compatibility:
+This activation proves only that, in the exact Materials-derived Godot 4.7.2 proof host:
 
-1. exactly three source-owned Nature meshes are present in both fixed contexts;
-2. the measurement control constructs six visually identical Nature materials across those contexts;
-3. one immutable candidate Nature material can be shared across all three meshes and both contexts;
-4. material construction count drops **6 → 1**;
-5. exact source rows remain unchanged except receiving material resource identity;
-6. draw-call / visible-object / primitive counters remain identical per context;
-7. both exact control/candidate PNG pairs are byte-identical;
-8. retained buffer/texture counters are equal as observations.
+1. exact current Animation PR #10 source/clip evidence rebuilds and matches the receiving source/rig/hinge identity;
+2. 80 exact displayed authored samples are consumed without retiming or interpolation;
+3. the synthetic rebuild control constructs 6,000 moving nodes / meshes / materials across 2,000 updates;
+4. the reuse candidate constructs only three of each and retains exact identities thereafter;
+5. all 14 retained control/candidate PNG pairs are byte-identical;
+6. draw/object/primitive counters match exactly for every retained sample/context;
+7. same-runner CPU submission observations strongly favor reuse;
+8. retained buffer/texture counters are equal observations.
 
 It does **not** establish:
 
+- `AnimationPlayer`, controller or state-machine acceptance;
+- real-time / wall-clock 40 Hz pacing;
 - target-device FPS or frame-time budget;
-- GPU timing, VRAM or complete material residency savings;
+- GPU timing, VRAM or allocator savings;
 - browser/mobile/console performance;
-- shader/material batching behavior on other renderers;
-- production allocator behavior;
-- final Nature material count, textures, UVs or lookdev;
-- LOD, streaming, culling or instancing policy;
-- dynamic deformation cost for compact/rear trees;
-- collision, navigation or gameplay performance;
-- final Environment / Art Direction / Visual QA acceptance;
-- a generic UC material cache or Runtime registry;
+- exact UC GLB dynamic lid segmentation or playback;
+- collision, physics, attachment dynamics or gameplay;
+- final animation timing/weight/style;
+- final Object Materials / Art Direction / Visual QA acceptance;
+- a global runtime registry/cache or UC extraction;
 - CANON, production readiness, or Runtime / Optimization mastery.
 
 ## Root gate
 
-- **Truth:** exact heads, scene digest, workflow, artifact, hashes, resource identities and renderer counters are retained. Buffer/texture counters are not relabelled as complete material-memory proof.
-- **Agency / non-domination:** Runtime changes only receiving proof-resource ownership. Nature geometry, Materials semantics, Environment composition, VFX, gameplay and merge authority remain with their owners; the four roots remain the merge gate.
-- **Continuity:** PR #17 stacks exactly on Environment PR #15. The previous Runtime status is retained by exact blob identity. Existing Runtime PRs remain untouched rather than being silently rewritten.
-- **Wisdom before speed:** the current repeated resource duplication was measured only after three real source-owned Nature bodies coexisted. No LOD system, material registry, UC organ or global cache was invented ahead of evidence.
+- **Truth:** exact source/clip/rig heads and digests, workload, synthetic-control label, workflow, artifact hash, resource counts, retained pixels, submission counters and noisy-timing limitation are explicit. Static UC GLB import is not mislabeled as dynamic playback.
+- **Agency / non-domination:** Runtime changes receiving proof-resource lifetime only. Animation, Rigging, Materials, Technical Art, gameplay and merge authority remain with their owners; the four roots remain the merge gate.
+- **Continuity:** PR #13 stacks exactly on Materials PR #6; current Animation/Rig donors are pinned; previous Runtime status is preserved by exact blob identity; old Runtime PRs are not silently rewritten.
+- **Wisdom before speed:** Runtime waited until an actual segmented receiving-engine proof and exact source-owned clip both existed, then measured one lifecycle variable rather than inventing a broad animation framework or premature LOD/cache architecture.
 
 ## Handoffs
 
-- **Environment / World Art:** exact PR #15 three-source composition survives the material-sharing candidate with byte-identical fixed-camera output and unchanged submission counters. Environment hierarchy remains its own acceptance gate.
-- **3D Art Director / Visual Observer:** no visible tradeoff exists in the retained Runtime A/B for this resource-sharing change. Do not treat that as approval of underlying vegetation/material quality.
-- **Materials / LookDev:** this proves sharing only for the current identical neutral proof material. If compact/rear/sapling sources receive materially different final surface families, this evidence must not force them into one material.
-- **Nature / Organic / Geometry / VFX:** source identities, geometry and deformation semantics remain untouched. A future source/topology/material migration requires a new Runtime measurement.
-- **Technical Art / Capability Cartographer:** record immutable receiving-resource sharing as a repeated Runtime lesson, but do not promote a global material registry from one proof-host material family.
+- **Animation:** the exact current 80 displayed lid samples are unchanged. Runtime found no reason to retime or reauthor them; only receiving-resource lifetime changed. Animation still owns timing/easing/style and any future `AnimationPlayer` / controller path.
+- **Materials / LookDev:** all retained before/after frames are byte-identical under the existing candidate surface family. Runtime does not force material sharing across unrelated components and does not alter scalar PBR values.
+- **Technical Art / UC Integration:** the next meaningful transport/runtime gate is an exact imported representation that exposes the lid/hinge as a proven dynamic transform target. Do not transfer this PASS automatically to the current static UC GLB.
+- **Hard Surface / Rigging:** source dimensions, hinge origin, 0–110° limit and exact rig-plan identity remain untouched. Any mechanical geometry/rig change invalidates this evidence and requires rerun.
+- **3D Art Director / Visual Observer:** lifecycle optimization shows `NONE_OBSERVED_IN_EXACT_RETAINED_PROOF_FRAMES`; this is not motion/lookdev acceptance.
+- **Capability Cartography:** record rigid-transform resource reuse as a fourth receiving-runtime reuse pattern. Do not extract a universal runtime cache from this one Object family.
 
 ## Next Runtime / Optimization pass
 
-Inspect newest constellation first. Prefer a genuinely new dependency. Strong next candidates are now:
+Inspect newest constellation first. Prefer a genuinely new dependency. Strong candidates are now:
 
-1. actual Object lid clip target-host playback cost once a receiving-engine Animation path exists;
-2. multi-source Nature mesh/LOD/residency scaling only when a source-owned LOD or instancing candidate exists, rather than inventing one from temporary proof geometry;
-3. truthful rebuilt Wreckline LOD after provider closure;
-4. target-device measurements only when a real supported target and budget exist.
+1. exact imported Object GLB articulation / `AnimationPlayer` cost **only once Technical Art exposes a proven dynamic lid target**;
+2. multi-source Nature LOD / instancing / residency only after a source-owned candidate exists;
+3. target-device measurement only when a real supported target and explicit budget exist;
+4. Animal target-host sampled playback only after an engine receiving path and sufficiently accepted deformation/motion surface exist.
 
 Do not infer mastery, target readiness, or a universal Runtime architecture from this PASS.
