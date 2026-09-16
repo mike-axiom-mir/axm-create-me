@@ -1,29 +1,31 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-17
-State: **PASS_ANIMAL_EXPLICIT_LOGICAL_QUAD_NORMAL_TARGET_HOST_REVIEW / TOPOLOGY SHADING DELTA REDUCED 53.9171% BUT NOT ELIMINATED / FINAL NORMAL-TANGENT VISUAL ACCEPTANCE HELD**
+State: **PASS_ANIMAL_REPRESENTATIVE_DEFORMED_EXPLICIT_NORMAL_TARGET_HOST_REVIEW / EXPLICIT FIELD REDUCES TOPOLOGY SHADING DELTA IN 20/20 RETAINED POSE-CONTEXT PAIRS / FINAL NORMAL-TANGENT + TRANSPORT + ART-QA ACCEPTANCE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status, current Art Direction / Geometry / Visual-QA evidence and active design-constellation PRs before acting. `axm-create-me` remains coordination-only. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest Materials / Art Direction / Visual-QA / Rigging state and the current open design constellation before acting. `axm-create-me` remains coordination-only. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous Materials PR #14 result remains exact historical/current truth: Geometry PR #13's exact-mirror topology is not generated-smooth-normal visually neutral in the retained Godot contexts. This activation does not rewrite that evidence.
+The previous static Materials result remains exact history: Geometry PR #16's explicit logical-quad normal field materially reduced, but did not eliminate, historical-right versus exact-mirror-right topology shading sensitivity in the retained neutral Godot views. Art Direction then preferred that explicit field for static form response while explicitly holding final normal/tangent adoption pending representative posed-shaded evidence, a tangent basis and exact transport. Visual QA independently retained the same static reduction/noncorruption boundary. Rigging PR #18 subsequently proved the same normal derivation remains structurally coherent across the established elbow deformation envelope, but correctly did not claim shaded posed visual quality.
 
-The fresh highest-leverage receiving dependency was Geometry PR #16, which answered the Art Direction / QA hold with one explicit Animal-local logical-quad normal-field candidate while correctly withholding visual acceptance.
+That made the highest-leverage non-duplicative Materials action a real renderer review of the exact Rigging poses rather than another static probe, PBR retune, topology change or premature texture pass.
 
 ## Constellation / duplication scan
 
-The exact Animal chain now has a uniquely ready Materials handoff:
+The current Animal chain is now split cleanly by ownership:
 
-- Geometry PR #13 restores exact bilateral topology correspondence without moving the 42 source positions or changing the 80-triangle budget.
-- Materials PR #14 + Visual QA prove area-weighted triangle-generated smooth normals change visibly under that connectivity change.
-- Rigging PR #15 has already rebound the exact topology structurally and is not the current static Materials blocker.
-- Art Direction explicitly requests a fixed-material/fixed-lighting target-host comparison for any real explicit normal/tangent candidate.
-- Geometry PR #16 supplies that candidate at exact head `79e1667f6cc91e2ec8e41f01df18b6933c9c876d` and explicitly holds Materials / Art / QA acceptance.
-- Building, Nature and Object already have active Materials evidence lanes; retuning those would duplicate or disturb cleaner accepted/review-ready variables.
-- Character remains structurally blocked upstream; Weapon / Armor / Unit / Misc expose no fresher material-ready defect that outranks the Animal normal-response dependency.
+- Geometry PR #13 owns the exact-mirror surface topology.
+- Geometry PR #16 owns the explicit logical-quad normal-field derivation.
+- Materials PR #17 owns the retained static target-host normal-response comparison.
+- Rigging PR #18 owns structural deformed-normal evidence through the exact elbow envelope.
+- **Geometry PR #20** now separately owns the structural UV / tangent-basis candidate.
+- **Rigging PR #22** now separately owns deformed tangent-frame structural observation.
+- Art Direction owns aesthetic preference; Visual QA owns independent visual verification; Technical Art owns exact production transport; Runtime owns representation and target-device cost.
 
-No duplicate Geometry, Rigging, Technical-Art, Runtime, Art-Direction or QA implementation lane was opened.
+Because PR #20 and PR #22 landed as active exact owners during this activation, Materials did **not** duplicate UV generation, tangent derivation or deformed tangent-frame implementation.
+
+Building, Nature and Object retain their existing Materials evidence lanes; Character remains structurally constrained upstream. No fresher material-ready defect elsewhere outranked the explicitly requested Animal posed-shaded receiving proof.
 
 ## Selected bounded improvement
 
@@ -31,184 +33,196 @@ Repository: `mike-axiom-mir/axm-animal-design`
 
 New stacked draft PR:
 
-**#17 — `Materials: render Geometry explicit logical-quad normals in Godot`**
+**#21 — `Materials: review explicit normals through representative elbow poses`**
 
 Branch:
 
-`studio/materials-explicit-logical-quad-normal-review-001`
+`studio/materials-deformed-explicit-normal-review-001`
 
 Base:
 
-Geometry PR #16 branch / exact head:
+Rigging PR #18 branch / exact head:
 
-`79e1667f6cc91e2ec8e41f01df18b6933c9c876d`
+`91e2fd01be63df807c035b39f7ec824a4a5a60b8`
 
 Exact current Materials head:
 
-**`a2cd0a6135a7c8502aef9572f7079a3dd2632103`**
+**`eb9b0d9c6b2d5058c44bb874c2ec264b48f6b6e2`**
 
 Observed PR state after evidence completion: **OPEN / DRAFT / MERGEABLE**.
 
 Pinned provenance:
 
-- Geometry explicit-normal donor head `79e1667f6cc91e2ec8e41f01df18b6933c9c876d`;
-- `bilateral_logical_quad_normals.py` blob `14a1ba3a1e4c96270197f4f449505113f7bf3e6e`;
-- exact-mirror topology donor head `bdbb51303bd1b96866b06a71730ccc328bf4f2f6`;
+- Rigging deformed-normal donor head `91e2fd01be63df807c035b39f7ec824a4a5a60b8`;
+- Rigging deformed-normal module blob `b8df083310727dcd05e7476b2158a081a5c25c8f`;
+- static Materials PR #17 head `a2cd0a6135a7c8502aef9572f7079a3dd2632103`;
+- explicit-normal Geometry head `79e1667f6cc91e2ec8e41f01df18b6933c9c876d`;
+- explicit-normal module blob `14a1ba3a1e4c96270197f4f449505113f7bf3e6e`;
+- exact-mirror topology head `bdbb51303bd1b96866b06a71730ccc328bf4f2f6`;
 - topology module blob `9a0ebcc6169445996756bb446a87e3baf8b9cc33`;
-- generated-normal Materials baseline head `96e998e5c793057836e01656aca9f71481439c9b`.
+- rig / weighting donor `04760112deb81a8d145226fe7ee02923107c9916`.
 
 ## Evidence design
 
-The review keeps the established neutral Materials harness:
+The review consumes exact representative right-elbow positions and explicit normal vectors already retained by Rigging PR #18 for both established weighting identities:
 
-- exact source positions held;
-- exact 42-vertex / 80-triangle budget held;
-- neutral probe material held: albedo `[0.46, 0.49, 0.53, 1]`, metallic `0`, roughness `0.5`;
-- lighting held;
-- camera / FOV held within each matched context;
-- target host: Godot 4.7.2 GL Compatibility through Xvfb/X11;
-- contexts: `three_quarter` and `grazing`.
+- `smoothstep-v0`;
+- `ease-out-power-0p75-v1`.
 
-It renders historical-right and exact-mirror-right under two normal modes:
+Representative angles:
 
-1. `vertex_generated` — the prior area-weighted triangle-generated control;
-2. `logical_quad_explicit` — Geometry PR #16's explicit logical-quad per-vertex normal field.
+`-60°, -30°, 0°, +30°, +60°`.
 
-Before rendering, the payload fail-closes unless the historical-right and exact-mirror-right explicit normal vectors are numerically identical. Tangents remain exactly `NOT_DEFINED_NO_UV_BASIS`.
+For every weighting / angle pair it renders:
 
-The primary question is intentionally narrower than final lookdev:
+- `historical_right` and `exact_mirror_right` topology;
+- triangle-generated vertex smoothing and `logical_quad_explicit` normals;
+- fixed `three_quarter` and `grazing` camera contexts.
 
-> If the same explicit per-vertex normal vectors are held across both topology variants, how much of the topology-dependent shading delta remains in the real renderer?
+Total target-host capture: **80 real PNG renders**.
+
+Held controls:
+
+- per-pose source positions are identical across topology variants;
+- source geometric budget remains `42 vertices / 80 triangles`;
+- neutral probe material remains albedo `[0.46, 0.49, 0.53, 1]`, metallic `0`, roughness `0.5`;
+- lighting and camera are held within each context;
+- bilateral pose / normal provenance is retained from exact Rigging evidence;
+- tangents remain outside this lane and are truthfully held as `NOT_DEFINED_NO_UV_BASIS`.
+
+The verifier additionally requires the two weighting identities to produce byte-identical `0°` renders for every normal-mode / camera / topology combination, preserving the neutral static state as a continuity control.
+
+## Retained failed evidence and repair
+
+First exact workflow run:
+
+**`35162166163` — FAILED at payload construction**.
+
+All inherited Animal tests were green. The failure was a fail-closed observer bug: the payload builder compared Geometry's full exact-mirror repair receipt against the nested local candidate-state label. The correct full receipt state is `PASS_BILATERAL_EXACT_MIRROR_SURFACE_TOPOLOGY_REPAIR`; the observer expected `PASS_EXACT_MIRROR_SURFACE_TOPOLOGY_CANDIDATE`.
+
+The failed run is retained as evidence. The repair changes only that exact receipt identity check. It does not weaken source pinning, topology checks, normal checks, renderer controls or acceptance thresholds.
+
+Repair / final evidence head:
+
+`eb9b0d9c6b2d5058c44bb874c2ec264b48f6b6e2`.
 
 ## Exact target-host evidence
 
 Dedicated workflow:
 
-**`35157381606 — Materials explicit logical-quad normal review` — SUCCESS**
+**`35162443708 — Materials deformed explicit-normal review` — SUCCESS**.
 
-- Python 3.11 / 3.13 inherited Animal suites pass;
-- 3.11 completes real Godot capture, verification and retained artifact upload;
-- target-host state: `PASS_TARGET_HOST_EXPLICIT_LOGICAL_QUAD_NORMAL_REVIEW_CAPTURED`;
-- renderer signal: `EXPLICIT_NORMAL_FIELD_REDUCES_TOPOLOGY_SHADING_DELTA_IN_RETAINED_CONTEXTS`.
+- Python 3.11 and 3.13 inherited Animal suites pass;
+- 54 inherited tests pass in the target-host 3.11 lane;
+- Godot project validation passes;
+- renderer: **Godot 4.7.2 GL Compatibility**, Xvfb/X11, Mesa llvmpipe in CI;
+- target-host state: `PASS_TARGET_HOST_DEFORMED_EXPLICIT_NORMAL_REVIEW_CAPTURED`;
+- renderer signal: `EXPLICIT_NORMAL_FIELD_REDUCES_TOPOLOGY_SHADING_DELTA_IN_ALL_RETAINED_DEFORMED_CONTEXTS`.
 
-Retained artifact:
+Across all **20 retained pose / camera pairs**:
 
-- ID `10471167088`;
-- name `animal-materials-explicit-logical-quad-normal-review-a2cd0a6135a7c8502aef9572f7079a3dd2632103`;
-- size `144,848 B`;
-- GitHub SHA-256 `39407e0b2bbb638b5fec158c784f2d2fa10b5495b5ca3d8dcc1a3d714b2576cf`;
+- explicit logical-quad normals reduce the historical-vs-exact topology changed-pixel fraction in **20 / 20** pairs;
+- minimum pairwise reduction: **45.5222%**;
+- median pairwise reduction: **54.1435%**;
+- maximum pairwise reduction: **67.2968%**.
+
+Maximum topology-sensitive changed-pixel fraction anywhere in the retained set:
+
+- triangle-generated normals: **2.611834%** of full frame;
+- explicit logical-quad normals: **1.296875%** of full frame.
+
+All eight neutral `0°` cross-weighting controls are byte-identical, so changing weighting identity does not introduce neutral-pose render drift in the retained harness.
+
+The explicit field therefore remains a consistent partial renderer improvement under every representative deformed context tested, not merely in the prior static source pose.
+
+## Retained artifact
+
+Artifact:
+
+- ID `10474010309`;
+- name `animal-materials-deformed-explicit-normal-review-eb9b0d9c6b2d5058c44bb874c2ec264b48f6b6e2`;
+- size `1,439,420 B`;
+- GitHub SHA-256 `c44252d89535192ba88e9c73710b966fb97c7b1f1844a172ef4d02ad7a971933`;
 - independently downloaded and rehashed to the exact same digest;
-- contains 8 real PNG renders plus exact source-pinned payload, telemetry and Materials receipt.
-
-## Exact render result
-
-The fresh generated-smooth control reproduces the previous PR #14 / Visual-QA result:
-
-| mode | camera | changed pixels | full-frame fraction | visible foreground changed |
-|---|---|---:|---:|---:|
-| generated smooth | three-quarter | `16,522 / 691,200` | `2.390336%` | `84.71%` |
-| generated smooth | grazing | `18,113 / 691,200` | `2.620515%` | `82.44%` |
-
-With Geometry PR #16's **identical explicit per-vertex normal vectors** supplied to both historical and exact-mirror topology:
-
-| mode | camera | changed pixels | full-frame fraction | visible foreground changed |
-|---|---|---:|---:|---:|
-| explicit logical-quad | three-quarter | `6,398 / 691,200` | `0.925637%` | `32.80%` |
-| explicit logical-quad | grazing | `8,347 / 691,200` | `1.207610%` | `37.99%` |
-
-Maximum full-frame topology-dependent changed-pixel fraction therefore falls from:
-
-`2.620515% -> 1.207610%`
-
-for a measured reduction of:
-
-**`53.9171%`**.
-
-The exact-mirror candidate itself also changes visibly when switching from generated to explicit normals:
-
-- three-quarter: `10,918 / 691,200 = 1.579572%` full frame;
-- grazing: `12,683 / 691,200 = 1.834925%` full frame.
-
-Direct inspection shows the explicit field moderates the broad generated-normal redistribution, but the historical/exact images are still not visually identical around the bent shaft / lower transition.
+- 89 retained files total, including 80 PNG renders, exact source-pinned payload, target-host telemetry, Materials receipt and provenance notes.
 
 ## Material / shading learning
 
-This activation exposes a second dependency layer that was not visible from Geometry's vector invariants alone:
+The previous reusable observation now survives representative deformation in the same Animal domain:
 
-> **Diagonal-invariant vertex-normal vectors do not guarantee diagonal-invariant rendered shading.**
+> **Normal-vector invariance and rendered interpolation invariance are separate claims.**
 
-The historical-right and exact-mirror-right surfaces receive the same explicit vertex-normal vectors, yet changed triangle diagonals still alter the renderer's interior interpolation field. The explicit candidate is therefore a real partial repair, not a complete topology-neutral shading policy.
+Geometry's explicit logical-quad normal vectors remain structurally coherent through the Rigging envelope, and Materials now proves that they consistently reduce renderer sensitivity to the historical/exact triangle-diagonal change across all representative poses tested. But the residual is still nonzero: equal vertex-normal vectors do not erase triangle-interior interpolation differences.
 
-This does **not** invalidate Geometry PR #16's structural PASS. Geometry proved that the explicit normal vectors themselves are diagonal-invariant and bilaterally mirrored. Materials proves that rasterized interpolation over different triangles still leaves a residual target-host shading dependency.
+This strengthens the explicit field from a static partial repair into a representative deformed partial repair. It does **not** justify PBR compensation, topology rollback or relabelling the field as fully topology-neutral.
+
+No UC / Profession Fabric extraction is justified yet. The reusable rule is promising, but it has still only been reproduced inside one Animal surface family. Capability Cartography should centralize machinery only after materially different domains reproduce the dependency.
 
 ## Scoped Materials result
 
-**`PASS_ANIMAL_EXPLICIT_LOGICAL_QUAD_NORMAL_TARGET_HOST_REVIEW_CAPTURED`**
+**`PASS_ANIMAL_REPRESENTATIVE_DEFORMED_EXPLICIT_NORMAL_TARGET_HOST_REVIEW_CAPTURED`**
 
 with decision:
 
-**`HOLD_FINAL_ANIMAL_NORMAL_TANGENT_VISUAL_NEUTRALITY__EXPLICIT_VERTEX_FIELD_REDUCES_BUT_DOES_NOT_REMOVE_TOPOLOGY_RESPONSE`**
+**`HOLD_FINAL_ANIMAL_NORMAL_TANGENT_ADOPTION__RESIDUAL_INTERPOLATION_PLUS_TANGENT_TRANSPORT_ART_QA_REMAIN`**
 
-Meaning:
+Exact meaning:
 
-> Keep Geometry #16 as a useful explicit normal-field candidate, but do not claim that it fully closes the exact-mirror topology's surface-response dependency. Art Direction / Visual QA should review the exact retained explicit-normal renders. Any future interpolation-level repair must remain a separate rollbackable candidate and must not be hidden through PBR retuning, topology rollback or source-form edits.
+> Prefer retaining Geometry PR #16's explicit logical-quad field as the current normal candidate because its topology-shading benefit survives all representative deformed contexts tested. Do not call the surface topology-neutral or production-ready. The new Geometry PR #20 / Rigging PR #22 tangent chain, exact Technical-Art transport, independent posed Visual QA and Art Direction acceptance remain separate required gates.
 
-## Handoffs
+## Handoffs completed
 
-### Materials PR #17
+### Materials PR #21
 
-Comment `5705436602` records exact workflow, artifact digest, generated control reproduction, explicit-normal reduction, foreground fractions and the final Materials hold.
+Comment `5706066293` records exact workflow, 80-render evidence set, 20/20 reduction, min/median/max reductions, artifact digest, retained failed-run repair and current tangent-lane ownership boundary.
 
-### Geometry PR #16
+### Rigging PR #18
 
-Comment `5705437742` returns the new dependency boundary: same explicit vertex vectors still leave triangle-interpolation sensitivity. Geometry's structural normal-field PASS remains intact; no rollback is requested.
+Comment `5706068110` returns the renderer result against Rigging's exact representative pose data: the structural deformed normal field retains a consistent partial visual benefit without converting Rigging's structural PASS into shaded continuous-motion or production skin-normal transport acceptance.
 
-### Materials PR #14
+### Static Materials PR #17
 
-Comment `5705438487` preserves continuity: the generated-smooth baseline reproduces exactly at the retained metric level and remains valid evidence rather than being silently superseded.
+Comment `5706069708` preserves continuity: the static partial-repair conclusion remains valid and is now strengthened by representative posed evidence rather than silently superseded.
 
-### 3D Art Direction + Visual Observer / QA
+### Geometry PR #20 / Rigging PR #22
 
-Review the exact explicit-normal renders. Materials supplies the renderer evidence but does not turn a 53.9% reduction into aesthetic acceptance. The residual still touches about one-third of visible foreground in three-quarter and over one-third in grazing.
+No duplicate implementation was opened. Geometry owns the structural UV/tangent basis; Rigging owns deformed tangent-frame observation. Materials should consume their evidence only when a genuine target-host tangent-space visual question is ready.
 
-### Rigging / Deformation
+### Art Direction / Visual QA
 
-Static normal response does not prove deformed-normal quality. If this candidate advances, Rigging must re-observe the exact explicit field under its deformation envelope.
+The requested representative posed-shaded normal evidence is now available. Materials does not convert the 20/20 reduction into aesthetic or final adoption authority.
 
-### Technical Art / UC
+### Technical Art / Runtime
 
-No exact UC / GLB transport of this field is proven here. Current transport-only generated/averaged-normal evidence must not silently become an explicit-field transport PASS.
-
-### Runtime
-
-No target-device frame time, draw-call, shader, memory, interpolation cost or import-budget acceptance is claimed.
-
-### Capability placement
-
-No UC or Profession Fabric extraction is justified yet. The reusable learning is stronger than the prior Animal-only observation but still rests on one domain: **normal-vector invariance and rendered-interpolation invariance are separate claims**. Capability Cartography should only centralize machinery after materially different domains reproduce the dependency.
+No exact production normal/tangent transport, importer behaviour, render-domain split acceptance, target-device frame time, GPU cost, memory or shader acceptance transfers from this pass.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final Animal normal/tangent policy;
-- final topology adoption or rejection;
+- topology-neutral or pixel-neutral shading;
+- final Animal normal/tangent production policy;
+- final UV layout, texture packing or texel density;
+- tangent-space normal-map visual quality;
+- production skin-normal or tangent transport;
+- mathematically continuous deformed visual quality between sampled poses;
 - final Art Direction / Visual-QA acceptance;
-- tangent-space readiness or UV correctness;
 - texture, fur, skin, subsurface, decal or production PBR quality;
-- deformed-normal correctness;
-- UC/GLB transport of the exact field;
-- target-device performance or runtime/import acceptance;
-- arbitrary renderer/camera/HDR/display equivalence;
-- CANON, production readiness, game readiness or Materials mastery.
+- arbitrary camera, lighting, renderer, HDR or display equivalence;
+- target-device CPU/GPU/FPS/VRAM/memory acceptance;
+- Animation clip / interpolation / playback acceptance;
+- gameplay or collision readiness;
+- CANON;
+- production/game readiness;
+- Materials mastery.
 
 ## Four-root gate
 
-- **Truth:** a real 53.9% improvement is recorded without relabelling the remaining renderer delta as solved; the previous generated-normal failure remains intact.
-- **Agency / non-domination:** Geometry owns the candidate field, Materials owns target-host surface evidence, Art Direction / QA own visual acceptance, Rigging owns deformed normals, Technical Art owns transport and Runtime owns cost.
-- **Continuity:** PR #13 topology, PR #14 generated-normal evidence, PR #16 explicit vector field and PR #17 target-host receiving proof remain separate exact identities with rollback/provenance preserved.
-- **Wisdom before speed:** do not add textures or compensate with PBR values while the more fundamental interpolation dependency is still open.
+- **Truth:** all 20 retained deformed pose/context pairs improve, but the nonzero residual remains explicit; the failed first run and its exact observer repair are retained rather than erased.
+- **Agency / non-domination:** Geometry owns topology / UV / tangent structure, Rigging owns deformation, Materials owns receiving shading evidence, Art Direction / QA own visual acceptance, Technical Art owns transport and Runtime owns cost.
+- **Continuity:** static Materials evidence, deformed Rigging structure, new posed Materials renders and concurrent tangent lanes remain separate exact identities with rollback and provenance intact.
+- **Wisdom before speed:** advance the credible normal candidate through real posed evidence, but do not hide interpolation residuals with PBR retuning or duplicate the tangent lanes that already have owners.
 
 ## Next Materials pass
 
-Re-scan first. Do not keep iterating the same Animal neutral probe unless a genuinely new interpolation-level or transported explicit-normal candidate lands. Prefer either an Art/QA receiving judgment on PR #17, a fresh exact dependency created by another specialist, or a different material/UV/texture defect elsewhere in the constellation that is not already owned by an active lane.
+Re-scan first. Do not continue iterating this neutral normal probe unless a genuinely new exact receiving dependency lands. The most likely next Animal Materials gate is a **target-host tangent-space diagnostic** only after Geometry PR #20 and Rigging PR #22 provide stable exact structure and only if no other Materials lane already owns that review. Otherwise prefer a fresh bounded material / UV / texture / surface-family defect elsewhere in the constellation.
