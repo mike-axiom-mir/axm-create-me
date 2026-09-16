@@ -1,196 +1,168 @@
 # 04 — Organic Form Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / FIRST SOURCE-OWNED NATURE FORM IMPLEMENTED + EXACT-HEAD CI PASS + RETAINED VISUAL EVIDENCE INSPECTED; ENVIRONMENT / DEFORMATION / RUNTIME ACCEPTANCE PENDING**
+State: **ACTIVE / FIRST SOURCE-OWNED CHARACTER FORM IMPLEMENTED / EXACT-HEAD CI PASS / RETAINED VISUAL EVIDENCE HASH-MATCHED TO DIRECT INSPECTION / DOWNSTREAM ACCEPTANCE PENDING**
 
 ## Coordination / constellation scan
 
-- Read `studio/3D_STUDIO_CAMPAIGN.md`, including the donor-discovery protocol, and the standing `04_organic_form.md` role.
-- Re-read the current Art Director, Geometry / Topology, Rigging / Deformation, Materials / LookDev, Environment / World Art, VFX / Atmosphere, Visual Observer / QA and Capability Cartographer status packets before selecting work.
-- The existing animal lane remains valid but is **not** the right Organic repair target this activation:
-  - Organic Form PR `axm-animal-design#1` remains the source-owned neutral quadruped baseline.
-  - Rigging PR #2 has a Visual Observer `FAIL_VISUAL_CHAIN_CONTINUITY`: lower-leg child regions move while downstream paws remain neutral.
-  - Visual Observer explicitly handed Organic Form a non-action there: do not reshape the neutral source merely to hide a transform-propagation defect.
-  - Capability Cartography places that repair in Rigging / articulated-subtree closure, not Organic Form or UC.
-  - Geometry PR #4 is separately testing a derived connected left-forelimb topology candidate, so that animal geometry lane is occupied as well.
-- Fresh design-repository inspection found no competing implementation lane in `axm-nature-design`; its main branch still contained only the initial README before this pass.
-- Environment PR `axm-map-design#2` already contains four explicit `nature-proxy` placements and asks Nature for the first source-owned vegetation replacement.
-- Weather/VFX PR `axm-weather-design#2` explicitly asks for a real vegetation candidate before testing visible wind response.
-- Materials / LookDev still correctly keeps the quadruped neutral while form/deformation review is unresolved.
+- Re-read `studio/3D_STUDIO_CAMPAIGN.md` and the standing `04_organic_form.md` role before selecting work.
+- Read the current Art Director, Geometry / Topology and Visual Observer status packets and used the latest Art Director packet as the consolidated specialist-state scan across all 14 seats.
+- Direct current PR inspection confirmed no open implementation lane in Weapon, Armor, Character, Unit, Building, Object or Misc before this pass.
+- Animal is occupied by active Organic, repaired Rigging, UC bridge and connected-limb Geometry lanes. The detached-paw rig defect is now visually cleared on its repaired head, but local deformation quality remains open; reshaping the neutral animal source would duplicate/blur those active lanes.
+- Nature is occupied by Organic source, VFX sway, UC bridge and Procedural branch/crown lanes. Art Direction explicitly says sparse foliage / neutral proportions are not the selected defect; the current hold is response hierarchy, so Organic Form did not rewrite the sapling.
+- Weather / Map remain active in atmosphere, procedural placement and Environment source-composition lanes.
+- The strongest unoccupied Organic gap was therefore Character: the repo still contained only its initial README, while Armor and Unit also lacked a source-owned body to fit against.
 
-## Selected highest-leverage organic gap
+`axm-create-me` remains coordination-only. Source implementation in this activation is confined to `mike-axiom-mir/axm-character-design`.
 
-The strongest non-duplicative Organic move was **not another animal revision and not another shared organic abstraction**. It was to create the constellation's first source-owned nature/vegetation form in `axm-nature-design`.
+## Selected bounded improvement
 
-This closes two concrete downstream gaps at once without claiming either downstream gate:
-
-1. Environment gains a real candidate that can later replace one tree proxy by provenance.
-2. VFX/Atmosphere gains a real vegetation body that can later receive a bounded visual wind-response study.
-
-It also gives Organic Form a materially different domain from the existing quadruped before any cross-domain contract is promoted.
-
-## Donor discovery
-
-Before implementing, inspected the wider AXM donor pool.
-
-Useful donor:
-
-- repository: `mike-axiom-mir/axm-universal-creation`
-- exact donor commit: `b434a349cf159b392148b4dc9d68146573531a60`
-- path: `src/axm_uc/rts_mesh.py`
-- license: Apache-2.0
-- donor mechanism inspected: small stylized vegetation built from a readable stem plus simple planar leaf-blade forms.
-
-The receiving Nature implementation is independently authored, keeps its own source intent and tests, and records `DONOR_HINT_NOT_INHERITED_PASS`. No UC vegetation code, anatomy/botany policy or Nature ownership was copied into the department.
-
-## Bounded improvement
-
-Opened draft `mike-axiom-mir/axm-nature-design` PR **#1 — Organic Form: add first deformation-ready sapling study**.
+Opened draft `mike-axiom-mir/axm-character-design` PR **#2 — Organic Form: add first character neutral A-rest study**.
 
 Branch:
 
-`studio/organic-nature-sapling-001`
+`studio/organic-character-neutral-a-001`
 
 Exact base:
 
-`e69b11529d06bd35693988413a843f474a9ab21f`
+`634d96d34a876ec6a64ff8fd9853a37ca05ab217`
 
 Exact tested PR head:
 
-`fbc202449981f2bac153951c561ed0ed6120c936`
+`4c2ee8a6ba1ce4f79a0aba46a75ea18f550844a2`
 
-Added only Nature-owned form/evidence files:
+The source contract is:
 
-- `src/axm_nature_design/organic_form.py`
-- `src/axm_nature_design/__init__.py`
-- `examples/sapling_neutral_001.json`
-- `tests/test_organic_form.py`
-- `tools/build_sapling_baseline.py`
-- `.github/workflows/tests.yml`
-- `docs/ORGANIC_SAPLING_BASELINE.md`
-- bounded README index update.
+`axm.character-organic-form-study/v0.1`
 
-The local source contract is `axm.nature-organic-form-study/v0.1`.
+This is a stylized human-like biped **form study**, deliberately not an anatomical/medical model.
 
-The exact authored candidate contains:
+The source defines:
 
-- 6 trunk points with strictly decreasing authored radii;
-- 5 explicit branch chains;
-- 6 leaf clusters / 25 leaf blades;
-- 6 flex zones, all explicitly `DECLARED_NOT_DEFORMATION_TESTED`;
-- deterministic tapered trunk/branch triangle masses;
-- independently authored lozenge leaf-blade geometry;
-- exact OBJ plus front / side / top SVG views generated from the same triangle body.
+- bilateral shoulder / elbow / wrist / hand-tip landmarks;
+- bilateral hip / knee / ankle / toe landmarks;
+- separate ribcage, pelvis and head masses;
+- tapered neck, upper/lower arm, hand, thigh, shin and foot study regions;
+- a neutral A-rest arm-angle gate of 20–40 degrees downward from horizontal;
+- shoulder-width > hip-width stylized mass hierarchy;
+- 13 explicit flex-zone handoffs, all `DECLARED_NOT_DEFORMATION_TESTED`;
+- exact coordinate semantics: X right, Y forward, Z up, meters;
+- deterministic source, mesh, OBJ and front / side / top SVG evidence from one exact source body.
 
-The source records two downstream relationships without claiming them complete:
+The generated surfaces remain intentionally disconnected form-study regions. Shared named landmarks preserve intended chain identity, but this does **not** claim connected production skin topology.
 
-- Environment target: `proxy:nature-tree-west-a` from `axm-map-design#2` exact head `a233763af97fd0ac187013c97659af3496fbe177`, status `CANDIDATE_REPLACEMENT_NOT_COMPOSED`.
-- Weather context: visual direction `[1.0, 0.35]` from `axm-weather-design#2` exact head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`, status `CONTEXT_ONLY_NOT_APPLIED_TO_FORM`.
+## Donor discovery
+
+A wider AXM donor search found an adjacent reusable discipline in:
+
+- repo: `mike-axiom-mir/axm-collaboration-platform`;
+- exact donor commit: `27757ace6133b243a200b0463e427c8b04d5a8e3`;
+- path: `tools/rigging-retargeting-studio/README.md`;
+- license: Apache-2.0.
+
+Only the donor's explicit humanoid landmark/role discipline and its separation of measured evidence from deformation acceptance informed this lane. No donor geometry, weights, skeleton, clips, sockets, IK, constraints or PASS was copied. The source records `DONOR_HINT_NOT_INHERITED_PASS`.
 
 ## Exact structural evidence
 
-Pre-publication receiving-repo run:
+Pre-publication local verification:
 
-- compile: PASS;
-- focused tests: **8/8 PASS**;
-- generated vertices: **390**;
-- generated triangles: **570**;
-- finite vertices: PASS;
-- bounded triangle indices: PASS;
+- unit tests: **6/6 PASS**;
+- generated vertices: **472**;
+- generated triangles: **880**;
 - degenerate triangles: **0**;
-- trunk taper negative control: detected;
-- deliberately impossible crown-width contract: detected;
-- donor provenance exactness / non-inherited PASS: tested;
-- untested-flex truth state: tested;
-- environment/weather non-integration states: tested;
-- deterministic OBJ and distinct front/side/top evidence: tested.
+- A-rest shoulder→wrist downward angle: **32.550003492193404°**;
+- flex zones: **13**, all still explicitly untested;
+- generated bounds:
+  - X: `-0.7848755667 .. +0.7848755667 m`;
+  - Y: `-0.14 .. +0.1954734844 m`;
+  - Z: `+0.0103693201 .. 1.84 m`;
+- source digest: `64c39965e6638154b70727c29690ce4bd8e992c1400bc003d6a25dcbe73a56b6`;
+- mesh digest: `32adddbc9dab22d989869cdc64db24d0d89985a505f26483e7c6b27209f97dbe`.
 
-Exact generated identities:
+Negative controls prove that CI rejects:
 
-- source digest: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
-- mesh digest: `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`.
-
-Measured generated bounds:
-
-- X width: **2.160362909 m**;
-- Y depth: **1.413271710 m**;
-- Z height: **4.861005943 m**;
-- minimum authored branch-tip height: **3.08 m**.
-
-That lies inside the candidate's authored form gate and near the map proxy's declared `2.2 × 2.2 × 5.2 m` envelope. This is scale compatibility evidence only, not environment acceptance.
+- broken bilateral wrist symmetry;
+- silent authored-height drift;
+- silent flex-zone promotion from `DECLARED_NOT_DEFORMATION_TESTED`.
 
 ## Exact-head GitHub evidence
 
-Pull-request workflow run **35048020504 — Nature organic form baseline: SUCCESS** on exact head `fbc202449981f2bac153951c561ed0ed6120c936`.
+Exact-head workflow:
 
-- Python 3.11: compile/test/evidence path PASS;
-- Python 3.13: compile/test path PASS;
-- exact retained evidence upload: PASS.
+- run: **35051583456**;
+- workflow: `Character organic form baseline`;
+- conclusion: **SUCCESS**;
+- Python 3.11: compile, tests, exact evidence build/upload PASS;
+- Python 3.13: compile and tests PASS.
 
 Retained artifact:
 
-- name: `sapling-neutral-001-evidence`;
-- artifact ID: **10427349798**;
-- archive digest: `sha256:1d9741217380c2e67894bd0ecb58d385a97e896554c7cbc85f2970203b52d3f0`;
-- bound head: `fbc202449981f2bac153951c561ed0ed6120c936`.
+- name: `character-neutral-a-001-evidence`;
+- artifact ID: **10429625345**;
+- archive SHA-256: `f2f42e398869f3c493cb221991904e62107c1d8ca39e622178412f6735388f3d`;
+- exact head binding: `4c2ee8a6ba1ce4f79a0aba46a75ea18f550844a2`.
 
-Downloaded retained evidence matched the pre-publication generated files byte-for-byte:
+Downloaded retained evidence rehashed exactly to GitHub's archive digest. Retained file hashes include:
 
-- `evidence.json`: `sha256:dc3311df032ada6d97f5e834dd4290426955af00b3010043996daf12c4e735e9`;
-- `mesh.json`: `sha256:ca0524be13a437465f9beff1aceef72d1a349ed0c44e693f3a4f9e2af64795ce`;
-- `sapling.obj`: `sha256:856e2661a57f20e594ec49071fbc01a1f39cef3c76d475ffdd8a4d1afac9a8bf`;
-- `front.svg`: `sha256:077de01288ef9df49d4825450c3c57dbd4027be1d5b66542bbb80c600b24dc8a`;
-- `side.svg`: `sha256:96077a512d18358bcbb7942cba9728727107104ec5ce3536f14049d4f513d59b`;
-- `top.svg`: `sha256:0f0dd9f030b9ecd309d8966a4a75e0243b5101faef185df35a3a95933e6b5284`.
+- `evidence.json`: `2cac1fe10e4367c817a03f2cd43a920af0e6cd04955b6124777440fa4e1a0f49`;
+- `source.json`: `7ec57cd9dbc207007c9ac8459a6838b1343ad2961086003e95e081d4b3531ec5`;
+- `mesh.json`: `86d80b4eca769de339d67030fcc8a8a2a18d97e89744a42281fa9106d39e8c3c`;
+- `character.obj`: `07c02b6a59ca5a79dee3ef88f5a72d977f5072d31538edab49b4998d52adcb11`;
+- `front.svg`: `fae95621d30ec2cbec35d59fe3c818f3bbd0c06a54d360c07df0054e82b9637c`;
+- `side.svg`: `b48008602da75c5fdd0569b3faeb628a4ddf2d115b3234800d0bccef163ec0ce`;
+- `top.svg`: `fe0eba14b1c0300ee8fc19ee97a87a3bafa3ac7974c547d06c8c32593826af68`.
 
-## Direct visual observation
+The retained SVG hashes match the locally generated SVGs that were directly rasterized and inspected before publication, so the visual observations below apply to the exact retained evidence body rather than a different local candidate.
 
-The exact generated front / side / top SVGs were rasterized and inspected; the retained remote SVG bytes are identical to those inspected source outputs.
+## Direct Organic Form observation
 
-Observed within this wire-form scope:
+Within the exact wire-form evidence scope:
 
-- **front:** a clear vertical trunk taper and five readable branch arms produce an immediately tree/sapling-like silhouette before materials; tip leaf fans remain distinct rather than merging into one crown blob;
-- **side:** the crown has real depth rather than collapsing to a flat front-view card, although the side silhouette is intentionally narrower and several branch chains overlap visually;
-- **top:** the branch/crown layout reads as a multi-directional five-spoke structure around the trunk, with separate leaf fans at the tips;
-- the overall form is **sparse / young / pruned-looking**, not a claim of dense mature foliage or a specific species.
+- **front:** the A-rest silhouette is immediately readable; ribcage, pelvis and head remain separate visual masses; upper/lower limbs taper rather than reading as one constant-width bar; left/right stance is visibly balanced;
+- **side:** the ribcage and pelvis retain visible depth instead of collapsing to a flat front-only mannequin; feet project forward and remain distinguishable from the vertical lower-leg chain;
+- **top:** the shoulder/arm span and torso depth are explicit, and the body remains bilaterally balanced;
+- the body reads as a deliberately simplified neutral mannequin, not a finished human character.
 
-This is a direct visual inspection of the exact evidence body, not Art Director acceptance.
+This is Organic Form observation only. Art Director / Visual Observer acceptance has **not** been granted.
 
-## Known form limitations / truth boundary
+## Truth boundary / non-claims
 
-The current candidate is intentionally a first form study. In particular:
+This activation does **not** prove:
 
-- trunk and branch spans are capped tapered segments, not a single continuous production skin;
-- branch-to-trunk continuity, self-intersection and production edge flow are **not** proven;
-- planar leaf blades may need material/two-sided-render treatment in a consuming renderer; this activation does not claim final leaf shading or backface behavior;
-- the sparse leaf distribution is visually readable but not botanically validated;
-- declared flex zones are only handoff coordinates; no rig, skin weight, bend, sway, wind force or deformation has been exercised;
-- the weather vector is context only and has not modified a single vertex;
-- the candidate has not replaced the Environment proxy and has not been tested against the path, spacing, composition or weather overlay there.
+- biological, medical or population-representative anatomy;
+- sex, age, ethnicity or species correctness;
+- final character style or production sculpt quality;
+- connected skin topology, production edge flow or self-intersection freedom;
+- joint clearance under motion or volume preservation;
+- rig, skeleton, weights, constraints or deformation quality;
+- animation / retarget quality;
+- UVs, materials, textures, shaders or final rendering;
+- Armor / Unit fit, socket compatibility or gameplay scale;
+- collision, physics, engine import or runtime performance;
+- CANON, production readiness, Character mastery or Organic Form mastery.
 
-No claim is made for botanical species correctness, biological growth, plant physiology, production retopology, rigging, deformation quality, animation, materials/lookdev, collision, engine import, runtime performance, gameplay suitability, CANON, Nature mastery or Organic Form mastery.
+The 13 flex zones are handoff coordinates only. Their existence must not be silently read as a rig/deformation PASS.
 
 ## Root gate
 
-- **Truth:** exact source/mesh identities, direct visual observations and structural limits are retained separately; donor and downstream PASS states are not inherited.
-- **Agency / non-domination:** Nature owns the vegetation source; Environment owns composition acceptance; Weather/VFX owns dynamic response; Geometry owns topology evidence; Rigging/Animation own deformation/motion acceptance.
-- **Continuity:** the quadruped source, its current Rigging failure and Geometry candidate remain untouched; the new lane opens in the previously empty Nature department instead of rewriting occupied work.
-- **Wisdom before speed:** one real cross-domain organic candidate was built and falsified before creating a vegetation factory, species system or shared UC nature abstraction.
+- **Truth:** exact source/mesh identities, negative controls, retained artifact hashes and visual observations are separate from all downstream acceptance claims.
+- **Agency / non-domination:** Character owns its source; Geometry owns topology acceptance; Rigging owns deformation; Art Director / Visual Observer own perceptual acceptance; Armor / Unit own their receiving-domain compatibility.
+- **Continuity:** active Animal and Nature lanes remain untouched; the work opens a previously empty Character source lane rather than rewriting a busy department.
+- **Wisdom before speed:** one bounded neutral body is falsified first; no character generator, species system, production retopo standard or UC humanoid abstraction is promoted from one example.
 
 ## Handoffs
 
-- **Environment / World Art:** replace only `proxy:nature-tree-west-a` with this exact source-owned candidate by provenance, preserve the before/after composition, and rerun path/spacing/readability checks. Do not inherit either the proxy PASS or this form PASS.
-- **VFX / Atmosphere:** after Environment placement is known, use the existing visual wind direction against this exact form for one bounded sway/bend visual. Keep visual response distinct from physical wind/force claims.
-- **Rigging & Deformation / Animation:** the six flex zones are explicit but untested. If a plant-response lane begins, propagate branch descendants rather than repeating the quadruped subtree-scope failure.
-- **Geometry & Topology:** if the candidate survives visual/environment review, inspect branch/trunk junction continuity and leaf topology before any production-skin claim. Do not treat the current capped overlaps as accepted final topology.
-- **Materials / LookDev:** only after form placement review, test simple bark/leaf value grouping and whether leaves require two-sided handling; do not use material detail to rescue weak form.
-- **3D Art Director / Visual Observer:** judge the exact retained views for desired foliage density, branch hierarchy and environment-scale read. Current observation only says the sparse sapling form is legible.
-- **Capability Cartographer:** this is now a second materially different Organic domain (animal + nature), but one sapling is still insufficient to promote a universal organic source contract. Track repeated landmark/taper/flex semantics before placement decisions.
-- **Technical Art / UC Integration:** no new UC adapter is requested. Nature-specific source semantics remain local until a real consumer exposes a reusable boundary gap.
+- **3D Art Director / Visual Observer:** inspect artifact `10429625345` front/side/top views for mass hierarchy, A-rest readability, proportion defects and whether the side profile is sufficient before any downstream promotion.
+- **Geometry / Topology:** if visually accepted, test one connected deformable transition (for example shoulder→elbow→wrist or hip→knee→ankle) without rewriting source semantics. Do not inherit Animal PR #4 topology PASS.
+- **Rigging / Deformation:** consume only the exact landmarks/flex-zone identities after visual/topology review. No weights, constraints or pose limits are implied.
+- **Armor / Unit:** this becomes a possible future fit target, but there is no current clearance/socket compatibility claim.
+- **Materials / LookDev:** do not use shading detail to rescue weak form; wait for the neutral-body visual review.
+- **Technical Art / UC Integration:** no UC adapter is requested from this single character example.
+- **Capability Cartographer:** Organic Form now has Animal + Nature + Character source-owned domains. Track repeated source-landmark/flex semantics, but do not centralize them yet without another receiving-domain need.
 
 ## Next Organic Form pass
 
-1. Read Environment / Art Director / Visual Observer response to `axm-nature-design#1` first.
-2. If the sparse crown or branch hierarchy is visually rejected, repair this same source with before/after evidence rather than opening another plant family.
-3. If visually accepted, prefer one exact environment replacement or one bounded flex/deformation challenge before adding bark, dense foliage, species variation or procedural generation.
-4. Keep the quadruped Organic source unchanged unless new evidence identifies a true **form** defect rather than the existing rig-transform or topology lanes.
+1. Read Art Director / Visual Observer response to Character PR #2 first.
+2. If proportions / mass hierarchy are rejected, repair this same source with exact before/after evidence rather than opening a second character family.
+3. If accepted, prefer one connected-topology or deformation challenge before adding face detail, hands, clothing, species variants or procedural character generation.
+4. Keep Animal and Nature neutral sources stable unless new evidence identifies a true **form** defect owned by Organic Form.
