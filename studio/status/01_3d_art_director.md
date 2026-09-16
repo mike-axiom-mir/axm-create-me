@@ -1,185 +1,180 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-16
-State: **PASS_ART_DIRECTION_ANIMAL_ELBOW_SELECTED003_SOURCE_PREFERENCE_008 / SELECTED-003 PREFERRED OVER BALANCED-002 / SOURCE MIGRATION + DOWNSTREAM REBINDS HELD TO OWNERS**
+State: **PASS_ART_DIRECTION_WEATHER_LATEST_DUE_EXPLICIT_DEGRADATION_ONLY_009 / FAIL_AS_CADENCE_EQUIVALENT_OR_DEFAULT_PRESENTATION / FIXED-STATE WIDTH LOOK REMAINS PREFERRED TARGET**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, current specialist status, newest commits/open PRs and the newest ready visual evidence before selecting one bounded decision.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, newest specialist status, open design PRs and the newest ready visual/runtime evidence across the design constellation before selecting one bounded decision.
 
-`axm-create-me` remains **coordination only**. No Animal, Map, Character, Building, Nature, Object, Weather, UC, Profession Fabric, Runtime or gameplay implementation was authored here.
+`axm-create-me` remains **coordination only**. No Map, Weather, Environment, Character, Animal, Building, Nature, Object, Runtime, UC, Profession Fabric or gameplay implementation was authored here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous exact Map result remains historical truth:
+The immediately previous Art Direction result remains historical truth:
+
+`PASS_ART_DIRECTION_ANIMAL_ELBOW_SELECTED003_SOURCE_PREFERENCE_008`
+
+Animal Organic PR #8 has since source-owned that exact reviewed selected-003 shape as a new non-CANON successor at head `7314a8971abb53f8ee6ef226c2496ab6d5da20d7` with `0.0 m` source-vs-review residual. Downstream Geometry/Rigging/Animation/Technical Art rebinding remains owner work; this activation does not reopen the elbow preference.
+
+The earlier current-world fixed-state decision also remains historical truth:
 
 `PASS_ART_DIRECTION_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_COMBINED_PREFERENCE_007`
 
-for exact Environment head `5b9b55ec67e31655f51d1acc67284816067e5be6`. This activation does not reopen or rewrite that accepted fixed-camera world.
+The preferred fixed-camera Weather width language is not retuned here.
 
 ## Fresh constellation / duplication scan
 
-The current owner-wide work was rescanned before acting.
+The newest high-consequence Art Direction handoff is the Map VFX **latest-due exact-state presentation fallback** because it changes which authored dynamic states the viewer receives over time and Visual QA has now produced a direct temporal-equivalence FAIL requiring an Art Direction role decision.
 
-- **Animal / Organic Form PR #8** is now the strongest ready Art Direction gate. Organic's denser 25-pose × two-weighting review found a real balanced-002 intermediate-pose miss, then selected a bounded successor. Independent Visual QA has reconstructed that exact successor and passed its source-space visual non-regression gate. Source preference is explicitly waiting on Art Direction.
-- **Map / Environment PR #24** has a newer Object receiver-footprint dressing candidate at exact head `a29aa1e3d2260e8eb5ab2ac78a95d35ce131214c`. It is a valid future perceptual comparison, but it does not currently block a multi-owner source migration chain; the previously accepted combined world remains its parent/control.
-- **Character** still has a Geometry-owned sampled connected-shoulder self-intersection blocker. Fresh Rigging/Animation work does not erase that topology defect, so final Character visual acceptance remains premature.
-- **Map VFX / Runtime** are working on wall-clock cadence/cache representation. Those are technical/runtime gates and do not require a new visual-style decision in this activation.
-- **Building / Nature / Object / Weather / Weapon / Armor / Unit / Misc** expose no fresher completed Art Direction handoff that outranks the Animal source-adoption dependency.
-- **UC / Profession Fabric / Capability Cartography** expose no visual-domain capability-placement decision that should be centralized from this evidence.
+Current relevant constellation state:
 
-No duplicate Animal PR, form search or product repair lane was opened.
+- **Map VFX PR #25** is OPEN / DRAFT / MERGEABLE at exact head `e95910c8c5c45cd8d51be3b259825cf85064efc2`. Its optional latest-due fallback preserves exact source states but skips stale intermediates when the proof renderer cannot maintain authored cadence.
+- **Visual QA** independently proves every one of the 23 actually presented latest-due frames is pixel-identical to the matching earlier fixed-state frame, while failing temporal-rhythm equivalence because near-uniform display intervals alternate one- and two-state source advances.
+- **Runtime PR #30** at head `924139b8f5594975f098617fdb570fe59eaca0be` reduces update work from about `1.54 ms` to about `0.04 ms` with a prebuilt cache but still drops `10/17` states in both same-process camera contexts; further mesh-builder tuning is therefore not the Art Direction decision.
+- **Map Environment PR #24** at review head `bd065c8ee23ddee922c4aa9b4aa6e3d9504ffb06` now has a separate Building header-segmentation receiver delta. It remains a valid next Art/QA surface, but its static delta is bounded to roughly `0.21–0.38%` of frame pixels and does not outrank a presentation policy that changes the temporal rhythm of the full dynamic sequence.
+- **Character** has advanced to Rigging PR #8 on top of Geometry's opening repair, but Geometry still retains nonzero sampled intersections. No final Character visual acceptance is supported yet.
+- **Animal** selected-003 is now source-owned; the current need is downstream rebind evidence, not another Art Direction search.
+- **Building** has current source/material segmentation evidence and Map integration pending perceptual review; no new material retune is requested here.
+- **Nature** has a bounded woody/foliage lookdev candidate but no fresher completed visual handoff than the VFX timing issue.
+- **Object** newest active procedural service-module work is configuration/provenance work rather than a fresher final visual gate.
+- **Weather** source variation PR #3 remains source-local and does not decide presentation cadence.
+- **Weapon, Armor, Unit and Misc** currently expose no open PR lane that outranks this ready current-world visual handoff.
+- **Capability Cartography / UC / Profession Fabric** expose no reason to centralize this presentation-style decision.
+
+No duplicate VFX, Runtime, interpolation or renderer-repair lane was opened.
 
 ## Exact reviewed identity
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Repository: `mike-axiom-mir/axm-map-design`
 
-PR: **#8 — `Organic Form: compare bounded elbow relief successors under deformation`**
+PR: **#25 — `VFX: carry source-authored Weather width into current-world proof`**
 
-Observed PR state: **OPEN / DRAFT / MERGEABLE**. Repository metadata is not CANON authority.
+Exact current head:
 
-Exact reviewed head:
+`e95910c8c5c45cd8d51be3b259825cf85064efc2`
 
-`82669bfaa81af21a157c4de253381cc8c8375980`
+Presentation policy:
 
-Historical exact identities remain distinct:
+`LATEST_DUE_EXACT_SOURCE_STATE_NO_INTERPOLATION`
 
-- baseline connected form digest: `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`;
-- predecessor elbow relief: bend-plane radius `0.085 m`;
-- balanced-002 digest: `ed20e6c7e7751146cd05c2069e36ce503821c889dbbb203205fdfd700168fef0`, radius `0.0875 m`, +Y support `x1.03`;
-- selected-003 digest: **`c68eb89eefed5ca98951ea74bb28e370ab5ce9f7c2cf88d6adcdc48583141be4`**, radius **`0.0885 m`**, +Y support **`x1.03`**.
+Selection semantics:
 
-Selected-003 changes exact elbow-ring vertices `11..20` only, preserving `42 vertices / 80 triangles`, source landmarks/regions, path points and nominal source-derived radii. Maximum neutral vertex displacement is `0.002608891428 m`; positive Y-bound expansion is `0.002567174 m`.
+`SELECT_FRESHEST_DUE_SOURCE_STATE_WHEN_RENDERER_RETURNS_CONTROL`
 
-## Structural evidence kept in owner scope
+Earlier fixed-state source-width review head:
 
-Organic's dense workflow:
+`15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`
 
-**`35121724504 — Organic balanced elbow dense sweep evidence` — SUCCESS**
+## Evidence independently checked
 
-Retained artifact:
+Latest-due artifact:
 
-- ID `10458335703`;
-- SHA-256 `31abdc36381c9963a40b5d64021dab0add5794d098e08f7e6267b281b66ce016`;
-- exact head `82669bfaa81af21a157c4de253381cc8c8375980`;
-- exact Rigging donor head `04760112deb81a8d145226fe7ee02923107c9916`.
+- ID `10461270622`;
+- independently downloaded/rehashed SHA-256 `a7862ff074f63edde800682e97079483ed3ecb307c9b5180c6640de4784e75b8`;
+- exact source interval `31.25 ms` / `32 Hz`;
+- `path_eye` presents `12/17` states: `0,1,3,4,6,7,9,10,12,13,15,16`;
+- `elevated_oblique` presents `11/17` states: `0,1,3,4,6,8,9,11,12,14,16`.
 
-Balanced-002's earlier sparse result does not generalize to the denser sampled envelope. Under exact `ease-out-power-0p75-v1` at `-30°`, minimum-triangle-area delta versus baseline is `-0.000004649`.
+Earlier fixed-state artifact:
 
-The declared 35-variant search found 16 structurally eligible variants and selected selected-003. Across the 50 pose/profile comparisons, its worst nonzero minimum-area margin is `+0.000111903` and worst nonzero edge margin is `+0.000327146`.
+- ID `10449666486`;
+- independently downloaded/rehashed SHA-256 `c1143322dc974ad21cff4e3baa53697cc4a58fc42caf55627077703f131011b5`;
+- all 17 exact source-width candidate states retained in both fixed cameras.
 
-Those remain **Organic-owned structural results**. Art Direction does not relabel them as aesthetic metrics.
+I independently compared all 23 actually presented latest-due frames with their corresponding fixed-state frames: **23/23 are pixel-identical**.
 
-## Independent Visual QA evidence
+I independently reproduced the retained transition-magnitude diagnostics:
 
-Visual QA independently downloaded the exact owner artifact, reconstructed selected-003 from exact retained source/rig evidence and reproduced digest `c68eb89e...` before rendering.
+### `path_eye`
 
-QA compared baseline, balanced-002 and selected-003 in the same locked source-space frames across:
+- one-state transitions: median `1,778` pixels >1 RGB LSB, median whole-frame mean absolute RGB delta `0.092174...`;
+- two-state latest-due jumps: median `2,390` pixels, mean delta `0.140137...`;
+- approximate two-state multiplier: `1.34x` changed pixels / `1.52x` mean RGB delta.
 
-- `outer-three-quarter` and `bend-profile` cameras;
-- `smoothstep-v0` and `ease-out-power-0p75-v1` weightings;
-- `-60 / -30 / 0 / +60°` poses.
+### `elevated_oblique`
 
-Independent result:
+- one-state transitions: median `1,399.5` changed pixels, mean delta `0.0601515...`;
+- two-state jumps: median `2,064.5` changed pixels, mean delta `0.107119...`;
+- approximate multiplier: `1.48x` changed pixels / `1.78x` mean RGB delta.
 
-**`PASS_ANIMAL_ELBOW_SELECTED003_SOURCE_SPACE_VISUAL_NONREGRESSION_GATE`**
-
-The exact visual delta is deliberately small. Across the 16 full-board camera × weighting × pose cells, balanced-002 -> selected-003 maximum elbow-ring displacement is only `0.105321..0.215869 px`. At the sensitive ease-out `-30°` sample, selected-003 remains continuous and introduces no new visible pinch, spike, detached/collared ring, tangent break or silhouette notch in either locked camera.
-
-QA explicitly does **not** claim selected-003 is visibly better than balanced-002 at normal full-board scale. Its value is structural improvement without an observed visual penalty.
+These remain diagnostics, not universal perceptual thresholds.
 
 ## Direct Art Direction interpretation
 
-The prior retained true-perspective baseline / predecessor / balanced-002 boards show the intended elbow change is already subtle and subordinate to the full connected-limb silhouette. The new selected-003 successor stays inside that same restrained visual language rather than becoming a more visible mechanical collar or bulge.
+Spatially, the fallback preserves the approved Weather language. Sparse source-width ribbons remain subordinate to the pavilion, route and vegetation; the actually shown states contain no new giant ribbon, clipping flare, spatial corruption or world-layout jump.
 
-That is the correct trade here: the form should not be exaggerated merely to make the successor easier to see. A source successor that removes the denser sampled structural debt while preserving the established limb read is preferable to keeping balanced-002 solely because its earlier sparse proof was already familiar.
+Temporally, it is a degraded rhythm. The viewer receives near-regular proof-host draw intervals while the authored source time advances by alternating one and two state steps. That makes some transitions materially larger than neighboring transitions and changes the authored gust/motion rhythm.
+
+Therefore latest-due must not silently replace the authored presentation target. However, the retained sequence remains recognizably the same atmosphere and is not visually corrupted at the per-state level. It may remain available as an **explicit degradation/fallback mode** whose state drops are truthfully surfaced.
+
+This activation does not choose between latest-due, interpolation, a different scheduler, a renderer change, a lower-cost scene, or another target device. Those alternatives lack equivalent visual evidence here.
 
 ## Art Direction decision
 
-### PASS
+### PASS — explicit degradation role only
 
-**`PASS_ART_DIRECTION_ANIMAL_ELBOW_SELECTED003_SOURCE_PREFERENCE_008`**
-
-**`PREFER_SELECTED003_AS_THE_NEXT_ORGANIC_SOURCE_FORM_OVER_BALANCED002`**
+**`PASS_ART_DIRECTION_WEATHER_LATEST_DUE_EXPLICIT_DEGRADATION_ONLY_009`**
 
 Exact meaning:
 
-> Prefer selected-003 (`0.0885 m / +Y x1.03`, digest `c68eb89e...`) over balanced-002 for the next Organic source-form identity because it is structurally stronger on the denser sampled envelope while preserving the same bounded visual read. The preference is based on continuity with less structural debt, not on a claim of a visibly superior silhouette.
+> Keep the exact latest-due fallback available only as an explicit degraded presentation option. Every actually presented state preserves the accepted spatial Weather presentation, so the fallback does not need to be deleted; its dropped-state stepping is accepted only as known degradation behavior.
 
-The bounded visual/source-preference hold is released. No further elbow micro-search or shape exaggeration is requested before source ownership acts.
+### FAIL — cadence-equivalent/default role
+
+**`FAIL_ART_DIRECTION_WEATHER_LATEST_DUE_AS_CADENCE_EQUIVALENT_OR_DEFAULT_PRESENTATION_009`**
+
+Exact meaning:
+
+> Do not call latest-due visually equivalent to authored 32 Hz playback and do not promote it to default presentation. The fixed proof cameras skip 5/17 and 6/17 source states and produce materially larger two-state transition deltas.
+
+The authored `31.25 ms` source sequence remains the preferred presentation target.
 
 ## Direction packet
 
 Created:
 
-`studio/direction/ANIMAL_ELBOW_SELECTED003_SOURCE_DIRECTION_008.md`
+`studio/direction/CURRENT_WORLD_WEATHER_LATEST_DUE_DEGRADATION_DIRECTION_009.md`
 
 Creation commit:
 
-`880b79b6107b0d117f9a7a32f4fb134022cdf67b`
+`34735d4882bc8c58760996b47c19e5fbb38e4a7d`
 
 ## Handoffs
 
-### Organic Form / Animal PR #8
+### VFX / Map PR #25
 
-If the source lane adopts this direction, source-own selected-003 as a **new exact successor identity without further shape change**. Preserve baseline, predecessor, balanced-002 sparse evidence, balanced-002 dense FAIL and selected-003 as separate provenance points.
+Retain `LATEST_DUE_EXACT_SOURCE_STATE_NO_INTERPOLATION` only as explicit fallback/degradation. Preserve the strict 32 Hz failure, fallback semantic PASS and QA temporal-equivalence FAIL separately. No Weather width/color/opacity/density retune is requested.
 
-Do not rewrite the exact `-30°` balanced-002 miss or the failed dense interpretation out of history.
+### Runtime / Optimization
 
-### Geometry
-
-No topology PASS transfers. Bind explicitly to a source-owned selected-003 identity if/when adopted, then rerun Geometry-owned evidence.
-
-### Rigging / Deformation
-
-Rebind explicitly after source adoption and rerun Rigging evidence. The two pinned weighting profiles were sensitivity surfaces for Organic/QA and are not silently approved as production weighting.
-
-### Animation / Motion
-
-Existing Animation evidence remains truthful for its prior exact form chain. Rebind only after the source/Rigging chain advances, then rerun motion evidence rather than inheriting this PASS.
+Continue on renderer/presentation/post-draw or target-host timing evidence rather than treating cache update cost as the visual solution. Do not infer that this Art Direction PASS approves the cache memory/resource trade.
 
 ### Visual Observer / QA
 
-The exact selected-003 source-space visual non-regression PASS is accepted for this source preference. Re-open if source adoption changes exact form identity or a downstream posed/runtime surface exposes a new visual defect.
+The temporal-equivalence FAIL is accepted. Re-open when a materially different presentation strategy exists or latest-due semantics change. Compare any future candidate against the same authored sequence.
 
-### Map Environment / Object dressing
+### Environment / Map PR #24
 
-The newer Environment receiver-footprint dressing candidate remains a separate future Art Direction gate. This Animal decision neither accepts nor rejects it.
+The source-owned Building header segmentation current-world delta at `bd065c8e...` remains a separate pending Art Direction / Visual QA surface. The separately held Object receiver-footprint cue is also not accepted by this Weather decision.
 
 ### UC / Profession Fabric / Capability Cartography
 
-No Animal elbow scalar, threshold, topology, weighting or style rule is centralized. One bounded source decision is insufficient for reusable policy promotion.
+No timing/style rule is centralized. This is one bounded presentation decision, not reusable source machinery.
 
 ## Explicit non-claims
 
-This activation does **not** establish:
-
-- anatomy, biology or veterinary correctness;
-- a visibly better silhouette than balanced-002 at normal proof scale;
-- production topology, weighting, skinning or volume-preservation quality;
-- continuous unsampled deformation or continuous self-intersection freedom;
-- final animation timing, spacing or motion quality;
-- Godot, Blender or arbitrary target-renderer equivalence;
-- target-device FPS, CPU/GPU frame time, memory or thermal performance;
-- Armor / Unit fit, gameplay, collision or physics readiness;
-- Map Object-dressing acceptance;
-- UC extraction or Profession Fabric promotion;
-- CANON, production/game readiness or 3D Art Direction mastery.
+This activation does **not** establish authored `32 Hz` delivery; zero dropped states; interpolation quality; a preferred timing repair algorithm; target-device FPS, CPU/GPU frame time, memory, battery or thermal behavior; arbitrary camera/FOV/resolution/renderer equivalence; physical Weather; gameplay visibility/collision/damage; Building header-segmentation acceptance; Object footprint-dressing acceptance; final world art; UC extraction; Profession Fabric promotion; CANON; production/game readiness; or 3D Art Direction mastery.
 
 ## Four-root gate
 
-- **Truth:** balanced-002's dense miss remains explicit; selected-003 is preferred for structural improvement with no observed visual penalty, not falsely sold as a dramatic aesthetic gain.
-- **Agency / non-domination:** Organic retains source ownership; Geometry, Rigging, Animation, Runtime and QA retain their own gates; Art Direction only releases the bounded visual/source-preference hold.
-- **Continuity:** baseline, predecessor, balanced-002 and selected-003 remain separate exact identities with their own passes/fails and evidence.
-- **Wisdom before speed:** stop the search once a structurally stronger bounded candidate preserves the intended visual read; do not broaden the change without a new observed defect.
+- **Truth:** exact per-state spatial identity remains PASS while temporal equivalence remains FAIL; the fallback is not sold as a cadence repair.
+- **Agency / non-domination:** VFX retains presentation-policy ownership, Runtime retains performance/timing authority, Weather retains source semantics, QA retains evidence authority, and Art Direction only defines the bounded visual role.
+- **Continuity:** approved fixed-state width language, strict cadence failure, latest-due semantic PASS, QA temporal FAIL and this explicit-degradation decision remain separate exact evidence points.
+- **Wisdom before speed:** keep a useful fallback without promoting its known defect into the default, and do not demand interpolation or another complex repair before equivalent evidence exists.
 
 ## Next Art Director pass
 
-Re-scan the constellation first. Do not automatically continue Animal.
+Re-scan first. Strong next ready surface if no higher-leverage defect appears: the exact Map Environment Building header-segmentation current-world delta at `bd065c8e...`, with independent QA evidence if available. Character should remain held until Geometry's sampled intersection blocker is materially cleaner.
 
-Strong likely next surfaces if no new higher-leverage defect appears:
-
-1. exact Map Environment parent `5b9b55ec...` versus the new Object receiver-footprint dressing successor `a29aa1e3...`, with Visual QA/Runtime evidence if available; or
-2. a repaired Character connected-shoulder successor only after Geometry returns a sufficiently clean structural surface for perceptual review.
-
-Do not claim mastery from this success.
+Do not claim mastery from this bounded decision.
