@@ -1,131 +1,110 @@
 # 06 — Rigging & Deformation Specialist Status
 
 Date: 2026-09-16
-State: **PASS_SCOPED_OBJECT_LID_ARTICULATION / 111-SAMPLE HINGE ENVELOPE GREEN / ANIMATION + RUNTIME + FULL-COLLISION HOLD**
+State: **PASS_CONTINUOUS_BODY_LID_SHELL_CLEARANCE_CERTIFICATE / FULL-COMPONENT + VISUAL + ANIMATION + RUNTIME HOLD**
 
 ## Current activation
 
-The highest-leverage unoccupied Rigging-owned gap moved from the existing Animal weighting lane to the new source-owned manufactured object in `mike-axiom-mir/axm-object-design`.
+The highest-leverage non-duplicative Rigging gap remained on the existing Object articulation lane rather than opening another Character or Animal lane.
 
-Hard-Surface PR #2 had just established `modular-equipment-case-001` with an explicit five-knuckle rear hinge and deliberately left lid articulation / hinge sweep untested. That is a direct Rigging handoff with exact source geometry and mechanical identity already available.
+The prior Object Rigging pass on `mike-axiom-mir/axm-object-design` PR #3 proved exact source/rig identity, representative poses and a 111-sample `0..110°` rigid lid envelope, but explicitly left **continuous shell clearance between integer-degree samples** unproven. That was a concrete Rigging-owned truth gap with no competing specialist lane.
 
-The existing Animal Rigging PR #2 is **not** duplicated or retuned in this activation. Its `ease-out-power-0p75-v1` candidate remains numerically green but still awaits the requested direct Visual Observer / Art Director shaded/perspective A/B review. Character's current A-rest body still exposes flex zones only as untested handoff coordinates. Nature deformation remains VFX-owned. Wreckline's current hard-surface recovery remains blocked on historical provider closure. No competing Object articulation lane existed.
+Animal weighting is still held on the requested shaded/perspective A/B review; the connected Animal Geometry candidate still needs visual acceptance before Rigging should deformation-test that exact topology; Character's 13 flex zones remain explicitly untested and downstream of visual/topology review. Hard-Surface Object PR #5 and Technical Art Object PR #4 concern receiving-module fit and UC package handoff respectively and are not duplicated here.
 
 The bounded choice was therefore:
 
-**prove one exact rigid lid hinge envelope in the source-owning Object repository, without introducing animation timing, controller/runtime logic, gameplay, or a shared UC articulation framework.**
+**close only the continuous body/lid-shell separation gap for the exact existing Object hinge and articulation plan, preserving all source/rig identity and leaving attachments, animation, runtime and gameplay outside the claim.**
 
 `axm-create-me` remains coordination-only.
 
 ## Constellation / overlap scan
 
-Current design-repo readiness checked before acting:
+- **Weapon / Armor / Unit / Building / Misc:** no newer accepted rig/deformation handoff justified displacing the active Object gap.
+- **Character:** PR #2 provides a neutral A-rest body and named flex zones, but all 13 flex zones remain explicitly untested for deformation and visual acceptance is pending.
+- **Animal:** Organic, Geometry, Rigging and Animation work are active. The Rigging `ease-out-power-0p75-v1` weighting candidate remains numerically better but still lacks the requested direct shaded/perspective A/B acceptance. Geometry PR #4's connected-chain candidate gained static self-intersection evidence, but its visual acceptance is still prerequisite to deforming that exact new topology.
+- **Nature / Weather / Map:** active dynamic or runtime work belongs to VFX / Environment / Runtime and does not create a Rigging-owned receiving handoff here.
+- **Object:** PR #3 already owns the exact lid articulation lane. Its previous truth boundary explicitly named continuous between-sample clearance as unproven, making this the selected bounded improvement. Hard-Surface PR #5's utility module remains a separate attachment/fit claim and is not included in this shell sweep.
 
-- **Weapon:** no open implementation lane competing for Rigging.
-- **Armor:** no open implementation lane competing for Rigging.
-- **Character:** PR #2 has a neutral A-rest form study; its 13 flex zones are explicitly not deformation-tested and its own handoff keeps Rigging downstream of visual/topology review.
-- **Unit:** no open implementation lane competing for Rigging.
-- **Animal:** Organic Form, Rigging, Geometry and Animation lanes are already active. Rigging weighting is waiting on visual A/B; Animation deliberately pins the already-proven smoothstep baseline rather than accepting the newer weighting candidate silently.
-- **Building:** no open implementation lane competing for Rigging.
-- **Nature:** active dynamic response belongs to VFX / Atmosphere; Materials and procedural lanes are separate.
-- **Weather:** active seeded-field procedural lane; no articulation ownership conflict.
-- **Map:** active Environment / Runtime scene lanes; no rig ownership conflict.
-- **Object:** Hard-Surface PR #2 exposes an exact source-owned hinge and explicitly leaves articulation untested. This is the selected receiving lane.
-- **Misc:** no open implementation lane competing for Rigging.
+No new lane was opened.
 
-A constellation-wide PR search for `articulation` found only the existing Animal Animation loop; there was no competing Object articulation implementation.
+## Exact source and rig identity preserved
 
-## Exact source and receiving identity
+Repository: `mike-axiom-mir/axm-object-design`
 
-Repository:
+Source prerequisite:
 
-`mike-axiom-mir/axm-object-design`
-
-Source owner / prerequisite:
-
-- Hard-Surface PR: **#2 — `Hard Surface: add first explicit object interface proof`**;
+- Hard-Surface PR #2 — `Hard Surface: add first explicit object interface proof`;
 - prerequisite branch: `studio/hard-surface-object-interface-001`;
-- exact prerequisite head: `32027eabb531dfe22668e9161506077442267099`;
+- prerequisite head: `32027eabb531dfe22668e9161506077442267099`;
 - source asset: `modular-equipment-case-001`;
-- source schema: `axm.object-hard-surface/v0.1`;
 - exact source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`.
 
-Selected Rigging lane:
+Rigging lane:
 
-- draft PR: **#3 — `Rigging: prove bounded equipment-case lid articulation`**;
+- PR #3 — `Rigging: prove bounded equipment-case lid articulation`;
 - branch: `studio/rigging-object-lid-articulation-001`;
-- exact tested head: `f2fa1d65f8c2e919f2960e6ffa0962917f65f75d`;
-- base remains the exact Hard-Surface PR #2 branch/head above;
-- PR state after evidence: **OPEN / DRAFT / MERGEABLE**.
-
-No source geometry, dimensions, socket descriptors, hinge knuckle spacing, pin dimensions, or Hard-Surface ownership is rewritten by Rigging.
-
-## Exact hinge identity preserved
-
-The existing source declares:
-
-- hinge axis: `[1, 0, 0]`;
-- derived hinge origin: `[0.0, 0.252, 0.306] m`;
-- knuckle radius: `0.021 m`;
-- pin radius: `0.009 m`;
-- pin length: `0.70 m`;
-- five alternating source knuckles: `b0 / l0 / b1 / l1 / b2`;
-- lid-owned moving knuckles: `l0 / l1`;
-- source minimum axial knuckle clearance: `0.010 m`.
-
-Rigging adds one bounded articulation plan:
-
-- schema: `axm.object-articulation-plan/v0.1`;
+- exact tested head: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- PR state after verification: **OPEN / DRAFT / MERGEABLE**;
+- articulation plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
 - joint: `rear-lid-hinge-001`;
+- exact hinge axis: `[1.0, 0.0, 0.0]`;
+- exact hinge origin: `[0.0, 0.252, 0.306] m`;
 - fixed component: `body_shell`;
 - rigid moving component: `lid_shell`;
-- exact axis source: `hinge.axis`;
-- opening rotation sign: `-1` around the source +X axis;
-- bounded open-angle envelope: `0..110°`;
-- retained representative poses: `0 / 30 / 60 / 90 / 110°`;
-- dense verification step: `1°`;
-- exact plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`.
+- source-owned moving knuckles: `l0 / l1`;
+- bounded envelope: `0..110°`;
+- representative poses remain `0 / 30 / 60 / 90 / 110°`.
 
-Explicit assumptions are retained in the contract rather than hidden:
+No source geometry, hinge dimensions, socket descriptors, service-module geometry, UC schema, clip timing or runtime controller was rewritten.
 
-- `latches_disengaged_not_articulated`;
-- `rigid_body_and_lid_shells`;
-- `body_shell_separation_only_not_full_component_collision`.
+## New bounded improvement — continuous shell-clearance certificate
 
-## Bounded articulation method
+Added an Object-local verifier:
 
-Because this exact hinge rotates only around X and the source body/lid shell X spans remain coincident, body-vs-lid-shell overlap can be tested exactly for each sampled pose in the YZ cross-section using a separating-axis test over:
+- tool: `tools/continuous_lid_clearance.py`;
+- certificate schema: `axm.object-continuous-shell-clearance-certificate/v0.1`;
+- result: `PASS_CONTINUOUS_BODY_LID_SHELL_CLEARANCE_CERTIFICATE`.
 
-- fixed body Y/Z axes;
-- rotated lid local Y/Z axes.
+The certificate first re-runs the existing source/plan-bound sampled articulation verifier. It then proves separation continuously over the exact rigid YZ body/lid shell rectangles used by the original articulation contract.
 
-For every sampled pose the verifier also checks that all pairwise distances among lid-shell cross-section corners remain unchanged within `1e-9 m`, proving the receiving lid transformation is rigid inside this contract.
+For this exact source:
 
-The hinge origin is source-derived and fixed; sampled hinge-origin drift is recorded separately.
+- `hinge.offset_y = 0.012 m`;
+- `hinge.offset_z = 0.006 m`;
+- `split_gap = 0.012 m`;
+- opening is clockwise around exact source +X (`opening_rotation_sign = -1`).
 
-This is deliberately not called a continuous collision solver. The envelope is sampled at every integer degree from `0` through `110`, and the truth boundary says exactly that.
+### Interval `0..90°`
 
-## Representative pose and motion-boundary evidence
+The rear-bottom lid corner is the global minimum-Z lid corner throughout this interval. Global-Z shell clearance is:
 
-Exact retained result:
+`gap_z(theta) = hinge.offset_z + hinge.offset_y*sin(theta) + (split_gap-hinge.offset_z)*cos(theta)`
 
-`PASS_SCOPED_LID_ARTICULATION`
+The function is concave on `0..90°`, so its interval minimum occurs at an endpoint. The exact endpoint lower bound is:
 
-Full sampled envelope:
+`min(split_gap, hinge.offset_z + hinge.offset_y) = min(0.012, 0.018) = 0.012 m`.
 
-- angle range: `0..110°`;
-- step: `1°`;
-- sampled poses: **111**;
-- sampled failures: **0**;
-- minimum body-shell separating margin: **`0.012 m`**;
-- minimum-margin angle: **`0°`**;
-- maximum lid pairwise-rigidity drift: **`0.0 m`**;
-- maximum hinge-origin drift: **`0.0 m`**;
-- exact lid-owned coaxial moving knuckles: `l0 / l1`.
+### Interval `90..110°`
 
-Representative retained poses:
+The same rear-bottom corner is the global minimum-Y lid corner. Its rearward clearance past the body edge is:
 
-| Open angle | Body-shell separating margin | Lid rigidity drift | Result |
+`gap_y(theta) = hinge.offset_y*(1-cos(theta)) + (split_gap-hinge.offset_z)*sin(theta)`
+
+On this interval `1-cos(theta) >= 1` and the sine term is non-negative, so the exact conservative lower bound is:
+
+`gap_y(theta) >= hinge.offset_y = 0.012 m`.
+
+### Certified boundary
+
+Therefore, for the exact rigid body/lid shell abstraction and exact source/plan identity, the shells remain separated for **every angle in `0..110°`**, with a certified continuous lower bound of **`0.012 m`**.
+
+This is no longer merely an inference from the 1° samples. The existing 111-sample SAT sweep remains as an independent cross-check rather than the basis of the continuous proof.
+
+## Representative pose and sampled cross-check retained
+
+The previous exact representative evidence is unchanged:
+
+| Open angle | Sampled body-shell separating margin | Lid rigidity drift | Result |
 |---:|---:|---:|---|
 | `0°` | `0.012000000000 m` | `0.0 m` | PASS |
 | `30°` | `0.017196152423 m` | `0.0 m` | PASS |
@@ -133,112 +112,112 @@ Representative retained poses:
 | `90°` | `0.018000000000 m` | `0.0 m` | PASS |
 | `110°` | `0.021742397445 m` | `0.0 m` | PASS |
 
-The neutral minimum equals the exact authored body/lid split gap of `0.012 m`; the verifier does not silently replace that source relationship with a larger fabricated clearance.
+Full sampled cross-check:
 
-## Exact-head CI and retained artifact
+- `111` integer-degree poses from `0..110°`;
+- `111/111` PASS;
+- sampled minimum separation `0.012 m` at `0°`;
+- maximum lid pairwise-rigidity drift `0.0 m`;
+- maximum hinge-origin drift `0.0 m`.
 
-Both workflow families are green on exact Rigging head `f2fa1d65f8c2e919f2960e6ffa0962917f65f75d`:
+The new test suite also includes a fail-closed negative control: a synthetic hinge geometry with `hinge.offset_z > split_gap` is rejected rather than being silently certified outside the analytic assumptions.
 
-- `Object rigging articulation evidence` run **35055773852** — **SUCCESS**;
-  - Python 3.11 compile: PASS;
-  - Python 3.11 full repository tests: PASS;
-  - exact articulation evidence build: PASS;
-  - exact artifact upload: PASS;
-  - Python 3.13 compile: PASS;
-  - Python 3.13 full repository tests: PASS.
-- inherited `Object hard-surface interface evidence` run **35055773844** — **SUCCESS**, so the stacked Rigging changes do not regress the source Hard-Surface contract.
+## Exact-head CI and retained evidence
+
+Exact tested head: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`.
+
+Both exact-head workflow families are green:
+
+- `Object rigging articulation evidence` run **35059485159** — **SUCCESS**;
+  - compile and full repository tests pass on Python 3.11 and 3.13;
+  - existing sampled articulation evidence build passes;
+  - continuous shell-clearance certificate build passes;
+  - retained artifact upload passes.
+- inherited `Object hard-surface interface evidence` run **35059485140** — **SUCCESS**, confirming the stacked Rigging update does not regress the source Hard-Surface contract.
 
 Retained Rigging artifact:
 
 - name: `modular-equipment-case-001-articulation-evidence`;
-- artifact ID: **10430217601**;
-- workflow head binding: `f2fa1d65f8c2e919f2960e6ffa0962917f65f75d`;
-- size: `13,583` bytes;
-- GitHub archive digest: `sha256:9dc4ea29c59bed9740a8a69fb0107b9ad6391974a5fa8b53f6f056314ea7c739`.
+- artifact ID: **10431936657**;
+- workflow head: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- size: `14,911` bytes;
+- GitHub archive SHA-256: `52e293d5ffdaa40773722a415d3309218c31dfbf0155ff9ef0d03fee10530940`.
 
-The retained ZIP was downloaded and independently rehashed to the same SHA-256. Its exact summary reports the source SHA, plan digest, `111` sampled poses, exact representative margins and scoped PASS above.
+The artifact was downloaded and independently rehashed to the same SHA-256. Its retained contents are:
 
-## Direct representative-pose observation
+- `articulation.evidence.json`;
+- `articulation.summary.json`;
+- `articulation_side_proof.svg`;
+- `continuous-shell-clearance.certificate.json`.
 
-The retained `articulation_side_proof.svg` was rasterized and directly inspected.
-
-Within this side/YZ structural proof scope:
-
-- the body shell remains fixed across all five retained panels;
-- the lid reads as one rigid part rotating about the same red rear-hinge point;
-- the `30°`, `60°`, `90°` and `110°` poses visibly progress through the declared open range rather than translating independently;
-- the retained representative poses show visible shell separation throughout;
-- no claim is made about unshown latch bodies, full accessory/component collision, shaded mechanical quality, or animation feel.
-
-This is representative **pose evidence**, not animation performance or target-runtime playback.
+The retained certificate reports the exact source SHA, plan digest, interval formulas, `0.012 m` continuous lower bound and the still-green 111-sample cross-check.
 
 ## What this proves
 
-For the exact Hard-Surface source bytes, exact source-derived rear hinge, exact bounded articulation plan and every integer-degree sample from `0..110°`:
+For the exact source bytes, exact articulation plan, exact +X rear hinge, and the exact rigid body/lid shell rectangles represented by this Rigging contract:
 
-- `lid_shell` remains rigid;
-- `body_shell` remains fixed;
-- the sampled body/lid-shell cross-sections remain separated;
-- source-owned lid knuckles `l0 / l1` stay bound to the declared coaxial articulation identity;
-- source and articulation identities fail closed if silently changed.
-
-That is enough to accept this as a scoped mechanical articulation proof.
+- the lid remains a rigid moving component about the preserved hinge identity;
+- the original representative poses remain valid;
+- the original 111 sampled poses remain green;
+- **body_shell and lid_shell remain separated continuously for every open angle from `0` through `110°`**;
+- the continuous certificate fails closed if its required source geometry assumptions are violated.
 
 ## Truth boundary / non-claims
 
 This activation does **not** establish:
 
-- mathematically continuous collision freedom between the integer-degree samples;
+- full-component collision freedom involving latches, guards, sockets, service modules or other attachments;
+- collision freedom for Hard-Surface PR #5's attached `utility-module-001` during lid motion;
 - latch disengagement mechanics or latch articulation;
-- full-component self-collision involving latches, guards, service panels, sockets or attachments;
-- hinge engineering load, strength, wear, tolerance stack, friction, damping, spring or motor behavior;
+- hinge load capacity, strength, wear, tolerance stack, friction, damping, spring or motor behavior;
 - physical simulation;
-- animation timing, ease, recoil, acting, motion style or final animation quality;
-- exported skeletal/constraint data;
+- skeletal export, generic constraint export or a universal mechanical rig system;
+- animation timing, ease, motion style, clip quality or Animation acceptance;
 - target-engine/controller/state-machine playback;
-- runtime cost or performance;
-- gameplay interaction or acceptance;
-- Art Director / Visual Observer aesthetic acceptance;
-- a generic mechanical-rig system, UC capability or Profession Fabric promotion;
-- CANON, merge authority, production readiness or Rigging mastery.
+- runtime cost or Runtime acceptance;
+- gameplay interaction or gameplay acceptance;
+- shaded/perspective mechanical appearance or Art Director / Visual Observer acceptance;
+- UC / Profession Fabric promotion;
+- CANON, production readiness or Rigging mastery.
 
-No animation or runtime acceptance is inherited from a structural hinge PASS.
+The continuous PASS is deliberately scoped to the same rigid shell abstraction already used by the Object articulation proof. It is not relabelled as a complete physical-product collision certification.
 
 ## Previous Animal Rigging lane retained
 
-The previous Animal Rigging work remains valid and unchanged rather than being overwritten by this new mechanical domain:
+The existing Animal weighting work remains unchanged and is not promoted by this Object result:
 
-- PR #2 exact head: `04760112deb81a8d145226fe7ee02923107c9916`;
 - exact rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
-- `ease-out-power-0p75-v1` candidate still returns `PASS_SCOPED_WEIGHTING_REFINEMENT` numerically;
+- `ease-out-power-0p75-v1` still returns `PASS_SCOPED_WEIGHTING_REFINEMENT` numerically;
 - worst minimum triangle-area ratio improves `0.312168334 -> 0.460882632`;
 - worst maximum edge ratio improves `1.697996 -> 1.484306669`;
 - worst minimum edge ratio improves `0.639425274 -> 0.686924781`;
-- this still lacks direct shaded/perspective visual acceptance and is **not** promoted by the Object hinge result.
+- direct shaded/perspective A/B acceptance is still missing.
 
-The old Animal detached-paw transform-scope defect remains repaired and independently rechecked; the current Animal stop condition remains visual A/B of the weighting candidate before further Rigging tuning.
+The newer connected Animal Geometry candidate must not inherit the older disconnected-surface deformation PASS. If its visual gate clears, Rigging should test that exact candidate independently for deformed self-intersection and volume/shape behavior.
 
 ## Root gate
 
-- **Truth:** exact Object source SHA, exact prerequisite/head identities, exact plan digest, 111 sampled poses, CI runs, retained artifact and non-claims are separately recorded. Integer-degree sampling is not relabelled as continuous collision proof.
-- **Agency / non-domination:** Hard Surface keeps source/interface ownership; Animation keeps timing/performance ownership; Runtime keeps target-host behavior/cost; Visual QA / Art Direction keep perceptual acceptance. Rigging PASS grants no merge/CANON authority.
-- **Continuity:** the Object Rigging lane is stacked exactly on Hard-Surface PR #2 instead of copying the asset or editing `axm-create-me`. Existing Animal Rigging evidence stays intact and rollback remains branch/PR-local.
-- **Wisdom before speed:** one existing, source-authored hinge was exercised across a bounded envelope before adding motors, controllers, clips, generic constraint systems or UC abstraction.
+- **Truth:** the old sampled limitation was named explicitly and repaired with an analytic certificate bound to the exact same source/plan. Sampled evidence remains separately identified as cross-check evidence. Full-component, animation and runtime claims remain withheld.
+- **Agency / non-domination:** Hard Surface keeps source/hinge/attachment ownership; Animation keeps timing and performance ownership; Runtime keeps target-host behavior/cost; Visual Observer / Art Direction keep perceptual acceptance. Rigging does not turn a structural PASS into merge/CANON authority.
+- **Continuity:** the improvement stays on Object PR #3, preserves source SHA and plan digest, keeps prior evidence in the same retained artifact family, and records the coordination state here without moving product code into `axm-create-me`.
+- **Wisdom before speed:** one precise truth gap was closed before adding motors, controllers, clips, attachment sweeps, generic constraint systems or UC abstraction.
 
 ## Handoffs
 
-- **Hard Surface:** PR #3 proves a bounded rigid-lid receiving articulation against the exact PR #2 source. Keep source hinge/interface geometry authoritative; do not infer engineering certification from the sweep.
-- **Visual Observer / QA:** inspect the retained `0 / 30 / 60 / 90 / 110°` side proof if a perceptual/mechanical plausibility gate is useful. The machine PASS does not establish visual quality.
-- **3D Art Director:** decide whether the `0..110°` mechanical range reads appropriately for this object before motion styling or attachment use is layered on it.
-- **3D Animation & Motion:** only after a motion need exists, animate this exact accepted articulation plan rather than inventing a second hinge path. Timing/performance remains Animation-owned and is not present now.
-- **Runtime / Optimization:** no target-engine hinge/controller or runtime cost exists yet. Measure only once an actual host implementation is created.
-- **Technical Art / UC Integration / Capability Cartographer:** record `exact source-owned articulation identity + bounded pose envelope + fail-closed sampled clearance evidence` as a cross-domain evidence pattern candidate only. One Object hinge plus one Animal joint family is not yet evidence for a universal articulation engine.
-- **Character:** remain downstream of its own visual/topology gates; no quadruped or equipment-case rig rule transfers automatically.
+- **Hard Surface:** exact source/hinge geometry remains authoritative. PR #5's service module is deliberately outside this shell-only continuous certificate; if an attached-module sweep is later needed, it must use that exact receiving-module/source identity and prove its own collision envelope.
+- **Visual Observer / QA:** the five retained side/YZ poses remain available for direct plausibility review. The analytic continuous certificate is geometric evidence, not a visual-quality PASS.
+- **3D Art Director:** judge whether `0..110°` is an appropriate mechanical range and whether the current proof representation is visually convincing before styling or presentation claims are layered on it.
+- **3D Animation & Motion:** a future clip may use this exact source/plan and must remain within the proven `0..110°` envelope, but no timing/interpolation/clip acceptance is implied here.
+- **Runtime / Optimization:** no controller, engine hinge, playback loop or runtime budget is proven. Test only when a real receiving host exists.
+- **Technical Art / UC Integration / Capability Cartographer:** keep Object-specific analytic articulation semantics local. One exact manufactured case is not evidence for centralizing a generic hinge solver into UC.
+- **Geometry / Animal Rigging:** after direct visual acceptance of the connected Animal candidate, deformation-test that exact topology and independently measure dynamic self-intersection/volume behavior rather than inheriting the old rig PASS.
+- **Character:** remain downstream of its own visual/topology gates; no Object or quadruped rule transfers automatically.
 
 ## Next Rigging & Deformation pass
 
-1. Re-scan for new direct receiving handoffs rather than extending this object automatically.
-2. If Visual Observer / Art Director returns a specific Object range/pose defect, repair this same PR #3 lane and preserve before-evidence.
-3. If Animal receives the requested direct weighting A/B review, act on that evidence before further animal tuning.
-4. If the connected Animal topology receives visual acceptance, deformation-test that exact topology independently; do not transfer the disconnected-surface PASS.
-5. Do not add a generic mechanical/organic rig framework until a repeated executable contract is demonstrated across materially different assets.
+1. Re-scan for a new direct Rigging receiving handoff rather than extending Object automatically.
+2. If Visual Observer / Art Director returns a specific Object pose/range defect, repair PR #3 without weakening the continuous certificate.
+3. If Hard Surface requests attached-module articulation, treat PR #5's exact module identity as a new bounded collision problem rather than folding it silently into this PASS.
+4. If Animal receives the requested shaded/perspective weighting A/B review, act on that evidence before further weighting tuning.
+5. If the connected Animal topology clears visual review, deformation-test that exact candidate independently.
+6. Do not add a generic rig/articulation framework until materially different domains demonstrate the same executable contract.
