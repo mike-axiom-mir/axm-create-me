@@ -1,248 +1,326 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-16
-State: **PASS_NATURE_LEAF_SIDEDNESS_TARGET_HOST_AB / FAILED GODOT OBSERVER REPAIRED IN EXISTING LANE / MATERIAL-TWOSIDED PREFERRED FOR THIS PROOF PROFILE / FINAL VISUAL + RUNTIME + SOURCE ADOPTION HELD**
+State: **PASS_BUILDING_CLOSED_OUTWARD_TOPOLOGY_MATERIAL_RENDER_COMPATIBILITY / HISTORICAL CULLING DEFECT REPRODUCED / SOURCE + MAP ADOPTION + FINAL UV/NORMAL/RUNTIME/AD ACCEPTANCE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, the previous Materials status, newest Art Direction / Geometry / Visual QA coordination state, and current open design lanes before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, the previous Materials status, newest specialist status, and current design/UC lanes before acting.
 
-`axm-create-me` remains coordination-only. Product/evidence implementation in this activation changed only the existing Nature Materials PR #5 proof harness. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains coordination-only. Product/evidence implementation in this activation changed only the existing Building Materials lane. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The earlier Object Materials PASS and previous Nature sapling lookdev/environment-context PASS remain historical truth for their exact identities. This activation does not rewrite either.
+The prior exact Nature leaf-sidedness result remains historical truth for its exact identity: `PASS_TARGET_HOST_LEAF_SIDEDNESS_AB_CAPTURED` at Nature Materials head `0b7fdfac3be4d9c25236fa8733108e7d32533657`, with its renderer-local preference for material-side two-sided foliage. It is not rewritten or generalized by this activation.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no stronger currently evidenced Materials-owned defect surfaced.
-- **Character:** Art Direction + Visual QA still hold shoulder source migration on a form-language defect. Materials must not shade over that unresolved geometry/form gate.
-- **Animal:** locked perspective elbow/form/deformation review remains upstream; no material change should pre-empt that visual decision.
-- **Building:** existing scalar-PBR/environment evidence remains adequate for current state; no newer unowned material blocker outranks Nature.
-- **Weather / Map:** active lanes concern atmosphere, receiving composition, procedural layout and runtime rather than a new unowned surface-family defect.
-- **Object:** current newest work is hard-surface articulation, rigging, animation, Technical Art and Runtime. The earlier Materials keeper-owner binding remains valid and no duplicate Object Materials lane was opened.
-- **Nature:** Geometry PR #10 is structurally green and explicitly handed the unresolved real-render representation choice to Materials / Technical Art. The previous Materials exact run had since failed at the renderer observer rather than at the Geometry/material boundary. Repairing that exact existing lane was therefore the highest-leverage Materials action.
+- **Weapon / Armor / Unit / Misc:** no stronger newly evidenced Materials-owned blocker surfaced.
+- **Character:** Art Direction and Visual QA have cleared exact shoulder candidate E only as a form target; source migration / connected Geometry remains upstream of final surfacing.
+- **Animal:** current locked perspective/form/deformation questions remain upstream; no material pass should hide them.
+- **Nature:** the existing leaf-sidedness target-host A/B is already closed for its declared proof profile; do not extend it by inertia.
+- **Weather / Map:** active lanes concern Weather/VFX, receiving composition, procedural layout and runtime. Map Materials already produced source-owned Building receiving feedback; Art Direction explicitly kept topology migration out of that isolated Map A/B.
+- **Object:** newest work is articulation/rigging/animation/Technical-Art/runtime provenance and optimization. The earlier Object Materials result remains historical truth; no duplicate Object surfacing lane was opened.
+- **Universal Creation:** an active UV-padding / first-mip-safe lane already exists. Do not duplicate that work or move Building-specific renderer knowledge into UC from one domain.
+- **Building:** Geometry PR #6 exposed a new exact Materials dependency: its derived closed/outward shell fixes the repeated malformed 19-box face table and explicitly requires Materials to rerun culling/normal-facing evidence before any source migration. Existing Building Materials PR #3 had only proved its refined surface family on a procedural BoxMesh reference, not on the actual historical/candidate face tables. This was the highest-leverage non-duplicated gap.
 
 No new Materials PR was opened.
 
 ## Selected bounded lane
 
-Repository: `mike-axiom-mir/axm-nature-design`
+Repository: `mike-axiom-mir/axm-building-design`
 
-Existing draft PR: **#5 — `Materials: add bounded sapling bark/leaf lookdev profile`**
+Existing draft Materials PR: **#3 — `Materials: prove pavilion functional surface hierarchy`**
 
-Branch: `studio/materials-sapling-lookdev-001`
+Branch: `studio/materials-pavilion-surface-001`
 
-Exact repaired Materials head:
+Exact current Materials head:
 
-`0b7fdfac3be4d9c25236fa8733108e7d32533657`
+`0c409a88c1952ca04934f9db47cb282db27b5c3c`
 
-Exact Geometry donor remains:
+Exact Geometry donor:
 
-- PR #10 — `Geometry: test explicit two-sided leaf blade topology`;
-- head `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`;
-- donor state `PASS_EXPLICIT_DISJOINT_LEAF_BACKFACE_CANDIDATE`;
-- exact source study `sapling-neutral-001`.
+- PR #6 — `Geometry: prove closed outward topology for pavilion box shells`;
+- head `407d3aaf36c26829a64d964143e34587df6d8ea1`;
+- state `PASS_DERIVED_CLOSED_OUTWARD_BOX_TOPOLOGY_19_REAL_COMPONENTS`;
+- source owner remains Hard-Surface base `4faa769b406bf3ad0ba9489a77141c27f122ce51`;
+- the Geometry candidate is derived evidence only, not source migration.
 
-The established sapling material profile remains unchanged:
+Exact refined Building material profile remains unchanged:
 
-- `woody`: `#5C3B27FF`, metallic `0.0`, roughness `0.84`;
-- `foliage`: `#5A823EFF`, metallic `0.0`, roughness `0.58`.
+- profile SHA-256 `e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`;
+- five Building-local scalar PBR families;
+- all exact `17` pavilion components plus the `2` source-owned utility-panel placements remain explicitly mapped;
+- no new UV, texture, decal, weathering or shared UC material vocabulary was introduced.
 
-## Preserved failed run and exact diagnosis
+## Why this receiver proof was necessary
 
-Historical exact Materials run:
+Building Geometry PR #6 established that the historical repeated 8-vertex / 12-triangle box face table is structurally malformed across all 19 real outputs while preserving the exact source vertices, placement and geometry budget.
 
-`35085045016 — Materials leaf sidedness strategy evidence`
+Per historical box it reports:
 
-Historical exact head:
+- `6` boundary edges;
+- `2` non-manifold edges;
+- `4` shared-edge orientation conflicts;
+- `6` outward + `6` inward triangles.
 
-`2cd1a7531fe9ed6578dce65e736610b8fc6a2905`
+The derived candidate preserves `8` vertices / `12` triangles per box but reaches:
 
-The run correctly passed:
+- `0` boundary edges;
+- `0` non-manifold edges;
+- `0` shared-edge orientation conflicts;
+- `12` outward + `0` inward triangles.
 
-- exact Geometry donor checkout;
-- exact source-bound A/B packet construction;
-- geometry/material boundary validation;
-- proof-host staging;
-- pinned Godot 4.7.2 download.
+The pre-existing Materials proof did **not** render those actual face tables. It reconstructed the exact Building component boxes as Godot `BoxMesh` instances. That was valid same-geometry material evidence for the scalar surface family, but it could not answer whether the source/candidate triangle representation itself would preserve the established material look under back-face culling.
 
-It then failed specifically at `Render material-two-sided versus explicit-backface strategies`.
+This activation therefore added the smallest bounded receiver proof rather than changing material values.
 
-Exact job logs showed a Godot 4.7.2 GDScript parse failure, not a mesh/material failure. Warnings are treated as errors in the proof host; four image-comparison locals at `observe.gd:216..219` inferred their types from Variant-returning numeric helpers.
+## Implemented evidence path
 
-The historical failed run and artifact remain preserved. No Geometry rollback was requested.
+Inside the existing Building Materials branch only:
 
-## Smallest repair
+- added `tools/build_building_material_topology_ab_evidence.py`;
+- added `lookdev-topology-proof/project.godot`;
+- added `lookdev-topology-proof/observe.gd`;
+- added `.github/workflows/building-material-topology-ab.yml`.
 
-Changed only `lookdev-leaf-sidedness-proof/observe.gd` inside the existing Nature Materials lane:
+The builder:
 
-- `dr`, `dg`, `db` now have explicit `float` types and use `absf()`;
-- `local_max` now has explicit `float` type and uses `maxf()`.
+- checks out and pins exact Geometry donor head `407d3aaf36c26829a64d964143e34587df6d8ea1`;
+- asserts the current Building historical face table still matches the donor's historical table;
+- preserves the exact 19 source component identities, vertices, placements and panel receiver-frame transforms;
+- preserves the exact refined five-surface material profile;
+- builds three representations for the same proof contexts:
+  1. exact historical malformed face table;
+  2. exact Geometry PR #6 closed/outward candidate;
+  3. the existing Materials `BoxMesh` reference;
+- holds camera, lighting, source vertices and material values fixed within each comparison;
+- renders `front_service`, `east_service`, and `three_quarter` in pinned Godot 4.7.2 GL Compatibility;
+- retains all 9 PNGs, source-bound payload, build receipt and runtime receipt.
 
-No source geometry, Geometry donor, material scalar/color value, camera, lighting setup, comparison schema, receiving scene, UC contract or VFX behavior changed.
+The truth boundary explicitly keeps source migration, Map receiving equivalence, final normals/tangents, UVs/textures, Runtime acceptance and Art Direction acceptance false/unclaimed.
 
-Repair commit:
+## Proof-host repair provenance
 
-`0b7fdfac3be4d9c25236fa8733108e7d32533657`
+Direct frame inspection caught renderer-observer mistakes that CI structure alone did not reveal. Those superseded runs remain Actions provenance and were **not** promoted.
+
+### Superseded run 1
+
+- head `e3d5cc0c55f030766845411b27e385abe7087811`;
+- run `35095807338`;
+- structurally green;
+- direct review showed the candidate render was implausibly dark relative to the established BoxMesh reference.
+
+### Superseded run 2
+
+- head `98579a8c83cedcba9de830549b90961d198a66fe`;
+- run `35096064238`;
+- structurally green;
+- the observer incorrectly treated source `(x,y,z) -> Godot (x,z,-y)` as orientation-reversing and reversed source winding for that reason.
+
+### Superseded run 3
+
+- head `4b54377e7c1a0dfefdf08a913938bc1f6dd944c9`;
+- run `35096402933`;
+- structurally green;
+- source ordering was restored, but proof-host flat-normal / front-face handling still failed to reproduce the existing BoxMesh reference faithfully.
+
+### Final repair
+
+Exact current head:
+
+`0c409a88c1952ca04934f9db47cb282db27b5c3c`
+
+The final observer separates two concerns instead of silently conflating them:
+
+- preserve the source-owned physical outward normal from the exact source triangle order;
+- adapt only target-host triangle emission order so Godot `CULL_BACK` presents that same physical exterior in the proof representation.
+
+This is a Building Materials proof-host adapter rule, **not** a new Building source rule and not a UC abstraction.
 
 ## Exact target-host result
 
 Dedicated workflow:
 
-**`35090113134 — Materials leaf sidedness strategy evidence`**
+**`35096754776 — Building material topology A-B evidence`**
 
 Result:
 
 **COMPLETED / SUCCESS**
 
-All intended gates passed, including:
+Inherited exact-head workflows also passed on the same Materials head:
 
-- exact donor rebuild;
-- exact A/B packet build;
-- geometry/material boundary;
-- Godot 4.7.2 GL Compatibility render;
-- target-host receipt validation;
-- exact-head binding;
-- retained six-render artifact upload.
+- `35096754447 — Hard-surface building evidence` — **SUCCESS**;
+- `35096754587 — Building material lookdev evidence` — **SUCCESS**.
 
-Retained artifact:
+Final target-host state:
 
-- ID: `10443379564`;
-- name: `nature-leaf-sidedness-material-ab-0b7fdfac3be4d9c25236fa8733108e7d32533657`;
-- size: `73,650 B`;
-- GitHub SHA-256: `2d45af990804bfb03e1d6950bb5440a57948ff6bc8b413d0b92e8462e107a514`;
-- independently downloaded/rehashed SHA-256: `2d45af990804bfb03e1d6950bb5440a57948ff6bc8b413d0b92e8462e107a514`.
+**`PASS_TARGET_HOST_BUILDING_TOPOLOGY_MATERIAL_AB_CAPTURED`**
 
-Retained runtime state:
+Scoped Materials decision:
 
-**`PASS_TARGET_HOST_LEAF_SIDEDNESS_AB_CAPTURED`**
+**`PASS_BUILDING_CLOSED_OUTWARD_TOPOLOGY_MATERIAL_RENDER_COMPATIBILITY`**
 
 Pinned host:
 
 **Godot 4.7.2 stable, GL Compatibility**.
 
-## Exact A/B contract
+Retained exact-head artifact:
 
-### A — material-side two-sidedness
-
-- exact migrated `sapling-neutral-001` source mesh;
-- `390` vertices / `570` triangles;
-- woody `CULL_BACK`;
-- foliage `CULL_DISABLED`;
-- `50` foliage triangles.
-
-### B — explicit Geometry backfaces
-
-- exact Geometry PR #10 derived candidate;
-- `490` vertices / `620` triangles;
-- woody and foliage `CULL_BACK`;
-- `100` foliage triangles;
-- same material color / metallic / roughness values as A.
-
-The `+100 vertices / +50 triangles` delta is a payload fact only. It remains **not** a target-device performance conclusion.
+- ID `10446740795`;
+- name `building-material-topology-ab-0c409a88c1952ca04934f9db47cb282db27b5c3c`;
+- size `520,099 B`;
+- GitHub SHA-256 `8fd79c36567e8600d1c9decdac94f63f16b2c09c5aba86593538ef2d01479873`;
+- downloaded ZIP independently rehashed to the same SHA-256.
 
 ## Real-render comparison
 
-All frames are `720 x 560`, with lighting and camera held identical within each pair.
+All frames are `900 x 650` (`585,000` pixels). Same exact source vertices, refined material profile, proof-host camera and lighting are held within each comparison.
 
-### `whole_three_quarter`
+### Geometry candidate vs existing BoxMesh Materials reference
 
-- changed pixels: `30 / 403,200`;
-- changed coverage: `0.00744047619047619%`;
-- maximum channel delta: `0.647058829665184`;
-- mean absolute RGB channel delta: `0.0000129422139734887`.
+`front_service`:
 
-Direct inspection: the two full-tree frames are effectively indistinguishable at ordinary review scale. The changed pixels are sparse leaf-surface differences, not a broad silhouette or woody-material change.
+- changed pixels: `1 / 585,000`;
+- changed coverage: `0.00017094%`;
+- maximum RGB channel delta: `1/255`.
 
-### `crown_back`
+`east_service`:
 
-- changed pixels: `62 / 403,200`;
-- changed coverage: `0.0153769841269841%`;
-- maximum channel delta: `0.615686267614365`;
-- mean absolute RGB channel delta: `0.0000144270671686778`.
+- changed pixels: `0 / 585,000`;
+- changed coverage: `0%`;
+- maximum RGB channel delta: `0`.
 
-Direct inspection: the crown read remains almost identical. Small leaf-facing lighting differences appear locally; there is no broad crown silhouette change.
+`three_quarter`:
 
-### `crown_low_grazing`
+- changed pixels: `2 / 585,000`;
+- changed coverage: `0.00034188%`;
+- maximum RGB channel delta: `1/255`.
 
-- changed pixels: `302 / 403,200`;
-- changed coverage: `0.0749007936507936%`;
-- maximum channel delta: `0.615686267614365`;
-- mean absolute RGB channel delta: `0.000206102812816709`.
+Direct inspection: the derived closed/outward face table reproduces the established scalar-PBR Building read to renderer-noise scale in these exact contexts. This is **not** called byte-identical because two contexts contain one/two threshold-level changed pixels and PNG encodings are not asserted identical.
 
-Direct inspection: this is the only context where the representation difference becomes readily legible. The explicit opposite-wound candidate can show a localized dark/faceted triangular mix on a back-facing leaf cluster, while the material-two-sided source keeps that cluster visually more continuous under this proof-host face-normal treatment.
+### Historical malformed topology vs Geometry candidate
+
+`front_service`:
+
+- changed pixels: `194,110 / 585,000`;
+- changed coverage: `33.1812%`;
+- maximum RGB channel delta: `0.96470588`.
+
+`east_service`:
+
+- changed pixels: `107,513 / 585,000`;
+- changed coverage: `18.3783%`;
+- maximum RGB channel delta: `0.6627451`.
+
+`three_quarter`:
+
+- changed pixels: `97,467 / 585,000`;
+- changed coverage: `16.6610%`;
+- maximum RGB channel delta: `0.8117647`.
+
+Direct inspection reproduces the historical visual defect rather than merely inferring it from topology metrics:
+
+- the front ochre service panel shows a conspicuous triangular cutout / missing-face read;
+- the east service panel shows the same class of triangular cutout plus broken local face/shadow structure;
+- the three-quarter view preserves additional localized malformed-face artifacts;
+- the closed/outward candidate restores continuous service-panel surfaces and the established frame/infill material hierarchy.
+
+This makes the old triangular service-panel caveat materially more attributable to the malformed topology under this proof renderer. It does **not** prove the exact Map PR #14 receiving-scene caveat is solved, because that Map scene has not been rebound to a migrated Building source and rerun.
 
 ## Materials decision
 
-Scoped result:
+The material family itself did not need another scalar/color tweak. The higher-leverage improvement was making the Materials evidence path capable of challenging the **real topology representation** instead of assuming the synthetic BoxMesh reference was sufficient.
 
-**`PASS_TARGET_HOST_LEAF_SIDEDNESS_AB_CAPTURED`**
+For this exact derived candidate and renderer proof:
 
-Materials directional preference in this exact proof profile:
+> The Geometry PR #6 closed/outward topology is materially compatible with the existing refined Building five-surface family. It reproduces the established BoxMesh lookdev to renderer-noise scale while the historical malformed face table independently reproduces a large, visible culling/hole defect.
 
-**`PREFER_MATERIAL_TWOSIDED_CULL_DISABLED_FOR_CURRENT_SAPLING_PROOF_PROFILE`**
+This is a receiver-compatibility PASS only. Materials does not own source migration.
 
-Reason:
+## Reusable discovery / placement boundary
 
-> With the same source, scalar materials, lights and cameras, the material-side strategy retains the intended leaf read without the localized reversed-face faceting visible in the low-grazing explicit-backface sample. The other two contexts are nearly visually identical, so there is no look-development evidence here that justifies replacing the current source mesh with the heavier explicit-backface candidate.
+One reusable technical-art learning is supported, but not yet promoted into UC:
 
-This is deliberately **not** a universal two-sided-material rule and not a source migration veto. The proof host generates face normals directly from exact triangles; authored vertex normals/tangents, final leaf shader semantics, transmission and target renderer/device behavior can change the tradeoff.
+> When a source topology convention and a target renderer's front-face/culling convention differ in representation details, preserve the **physical source outward normal** and the **target-host emission order** as separate pieces of evidence. Do not silently rewrite source winding just to make a proof renderer look correct.
+
+Correct home today: the Building Materials proof harness, because evidence currently spans one Building topology family and one Godot GL Compatibility target host.
+
+No UC change and no Profession Fabric promotion is justified from this single domain. Promotion would require materially different source domains and target-host representations with the same separation proving necessary.
 
 ## Provenance / continuity
 
-- Nature Materials PR #5 remains the sole Materials lane.
-- Nature source migration PR #9 remains the current source-generated baseline lineage.
-- Geometry PR #10 remains the owner of explicit opposite-wound candidate geometry and stays review-only.
-- The failed `2cd1a753...` target-host run remains in Actions history as the before-repair evidence.
-- The repair changed only the Materials proof observer; it did not silently alter the compared assets.
-- UC receives no Nature-specific sidedness/material policy.
-- The older Nature material-profile and static Environment-context evidence remains historical truth for its exact heads.
-- The prior Object Materials PASS remains historical truth for its exact Object identity.
+- Building Materials PR #3 remains the sole Building Materials lane; no duplicate PR was opened.
+- Geometry PR #6 remains owner of the derived closed/outward candidate and its structural evidence.
+- Hard-Surface remains owner of Building source semantics and migration authority under the four roots.
+- Existing refined material profile identity is unchanged.
+- Historical malformed source topology remains preserved as before-evidence.
+- All three superseded green observer runs remain in Actions history; none was silently rewritten into the final PASS.
+- Final exact workflow/artifact/head are separately identified and rollbackable.
+- Materials handoff comment on PR #3: `5697556394`.
+- Geometry handoff comment on PR #6: `5697559503`.
+- Map PR #14 remains untouched; its prior receiving-scene evidence is not silently relabelled as topology-migrated proof.
+- UC and Profession Fabric remain unchanged.
 
 ## Renderer / evidence boundaries
 
 This result is bounded to:
 
-- Godot 4.7.2 GL Compatibility;
-- one exact `sapling-neutral-001` source identity;
-- one exact Geometry PR #10 review candidate;
-- the existing two-scalar-family material profile;
+- Godot 4.7.2 stable, GL Compatibility;
+- one exact Building source component/receiver identity;
+- one exact Geometry PR #6 derived topology candidate;
+- one exact refined scalar-PBR material profile;
 - three fixed static proof cameras;
-- proof-host per-triangle face normals.
+- the final Building Materials target-host face-emission adapter;
+- back-face-culling behavior in this proof host.
 
-It does **not** establish renderer equivalence across Forward+, Vulkan, mobile renderers or other engines.
+It does **not** establish renderer equivalence across Forward+, Vulkan, mobile renderers, Blender, other engines, or imported production meshes.
 
 ## Non-claims
 
 This activation does **not** establish:
 
+- Building source migration/adoption of Geometry PR #6;
+- that the exact Map PR #14 triangular caveat is solved;
+- final authored normals, tangents, smoothing or hard-edge policy;
+- UV quality, texel density, mip behavior, texture seams or first-mip-safe padding;
+- final texture, decal, dirt, wear, weathering, emissive or damage response;
+- physically measured concrete/steel/coating reflectance;
+- hidden/interpenetrating internal-face cleanup or boolean-unioned architecture;
+- runtime FPS, GPU time, draw-call, memory or target-device acceptance;
+- collision, navigation, physics or gameplay behavior;
 - final Art Direction or independent Visual QA acceptance;
-- final authored vertex normals/tangents;
-- UV/texture quality;
-- bark or leaf microdetail;
-- alpha cutout, transmission, subsurface, thickness or physically measured botanical reflectance;
-- moving/wind shading or deformation quality;
-- target-device FPS, GPU time, memory, draw-call or primitive-cost acceptance;
-- source migration, source rejection, or adoption by Environment / Map / VFX;
-- that `CULL_DISABLED` is always superior to explicit backface geometry;
-- UC abstraction or Profession Fabric promotion;
-- collision, physics, gameplay or runtime-controller acceptance;
+- UC abstraction, Profession Fabric promotion or a universal renderer adapter rule;
 - CANON, production readiness, game readiness or Materials mastery.
 
 ## Handoffs
 
-- **Geometry PR #10:** structural donor remains valid. Materials now has a real target-host A/B and does not request source migration from the current evidence; no Geometry rollback is implied.
-- **Visual Observer / QA + 3D Art Director:** inspect the exact six retained frames, especially the low-grazing leaf cluster. The current Materials preference is renderer/profile-local, not final aesthetic authority.
-- **Runtime / Optimization:** only if both strategies remain visually acceptable after QA/Art Direction should Runtime measure actual submission/memory/device cost. Do not convert `+50` triangles into a runtime verdict without measurement.
-- **Environment / VFX:** keep current receiving identities unchanged. Re-test the selected representation under actual wind/atmosphere motion before any rebind.
-- **Technical Art / UC Integration:** keep this Nature sidedness decision outside UC. A generic material/geometry sidedness contract would need evidence from materially different domains/rendering contexts first.
+- **Hard-Surface / Geometry:** the exact PR #6 derived candidate now has Materials target-host compatibility evidence. If migrated, create/identify the new source/builder identity explicitly; do not inherit this derived-candidate PASS as source authority.
+- **Materials after migration:** rebind/rerun this exact proof against the new source identity. A source migration is a provenance change even if the triangle numbers are numerically equal.
+- **Environment / Map:** only after explicit source migration should the exact Building receiving scene be rebound and rerun. The existing Map topology/light-shadow caveat is not declared solved from this isolated proof.
+- **Visual Observer / QA + 3D Art Director:** direct review of the retained 3-context historical/candidate/reference frames is now available. The scoped compatibility PASS is not final aesthetic acceptance.
+- **Runtime / Optimization:** if the migrated topology is adopted, measure actual imported mesh cost/device behavior; Materials provides no performance verdict.
+- **Technical Art / UC Integration:** keep the source-normal vs target-emission distinction local until multi-domain evidence justifies a neutral abstraction.
+- **UV/UC owners:** continue the active UV-padding/mip work independently; this pass intentionally does not duplicate it.
 
 ## Four-root gate
 
-- **Truth:** the initial renderer failure is preserved and diagnosed exactly; the final PASS is tied to a new exact head, exact workflow and retained artifact. Tiny pixel coverage is not mislabeled as byte-identical or universal equivalence.
-- **Agency / non-domination:** Materials records a bounded lookdev preference only. Geometry, Runtime, QA/Art Direction and downstream receiving owners retain their acceptance domains; the roots, not specialist rank or CI green, remain the merge gate.
-- **Continuity:** existing source, Geometry candidate, material profile, failed run, repaired run and prior evidence remain separately traceable and rollbackable.
-- **Wisdom before speed:** repair the real proof harness, inspect the actual frames, and stop before source migration / shader complexity / runtime claims that the evidence does not support.
+- **Truth:** the malformed topology defect is reproduced in real target-host frames; candidate/reference near-equivalence is reported with exact non-zero pixel deltas rather than called byte-identical; three earlier structurally green but visually wrong proof-host states are preserved as superseded evidence.
+- **Agency / non-domination:** Materials does not promote the Geometry candidate into Building source, does not overwrite Map acceptance, and does not convert CI green into Art Direction or Runtime authority. The roots remain the merge gate.
+- **Continuity:** source identity, Geometry donor, material profile, historical defect, superseded observer repairs, final head/run/artifact and cross-specialist handoffs are separately traceable.
+- **Wisdom before speed:** the pass stopped after proving the missing renderer/material compatibility boundary. It did not pile on UVs, textures, source migration, Map rebinding, runtime claims or a premature UC abstraction.
+
+## Previous retained Materials activation — Nature leaf sidedness
+
+The immediately preceding Materials activation remains valid for its exact Nature identity and is preserved in git history at the prior version of this status file. Its core retained facts are:
+
+- Nature Materials PR #5 exact repaired head `0b7fdfac3be4d9c25236fa8733108e7d32533657`;
+- Geometry donor PR #10 head `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`;
+- failed proof-host run `35085045016` preserved and repaired rather than hidden;
+- successful run `35090113134`;
+- artifact `10443379564`, SHA-256 `2d45af990804bfb03e1d6950bb5440a57948ff6bc8b413d0b92e8462e107a514`, independently rehashed;
+- state `PASS_TARGET_HOST_LEAF_SIDEDNESS_AB_CAPTURED`;
+- exact renderer-local preference `PREFER_MATERIAL_TWOSIDED_CULL_DISABLED_FOR_CURRENT_SAPLING_PROOF_PROFILE`;
+- no universal two-sided-material rule, source migration, Runtime verdict, final Art Direction acceptance, UC abstraction, CANON or mastery claim.
 
 ## Next Materials pass
 
-Re-scan first. Do not automatically extend Nature. If Visual QA / Art Direction or Runtime produces new evidence on this exact sidedness comparison, consume it without overwriting the retained A/B. Otherwise choose the strongest newly exposed Materials-owned gap elsewhere in the constellation rather than adding more sapling complexity by inertia.
+Re-scan first. Do not automatically extend Building. If Hard-Surface/Geometry migrates the candidate into a new source identity, the highest-value follow-up is the explicit Materials rebind plus exact receiving-scene rerun; otherwise choose the strongest newly exposed Materials-owned gap elsewhere rather than adding texture complexity by inertia.
