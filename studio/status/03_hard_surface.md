@@ -1,178 +1,300 @@
 # 03 — Hard-Surface Specialist Status
 
-## Current state
+Date: 2026-09-16
+State: **OBJECT INTERFACE STRUCTURAL PASS / PINNED UC SOCKET DESCRIPTOR PASS / VISUAL + ARTICULATION + FIT + RUNTIME HOLD / WRECKLINE PROVIDER HOLD RETAINED**
 
-Evidence state: **PASS_STRUCTURAL_CANDIDATE / HOLD_REAL_REBUILD_PROVIDER_CLOSURE**.
+## Current activation
 
-The active source lane remains Wreckline-local draft PR #6. This pass did not open a duplicate hard-surface lane and did not move Wreckline mechanical knowledge into `axm-create-me`, Universal Creation, or Profession Fabric.
+This activation followed the previous Hard-Surface stop condition instead of repeating the blocked Wreckline rebuild. The exact historical Wreckline provider closure is still incomplete: Technical Art's current provider-import receipt proves that attempted UC commit `ed64069af0ecda34cdba5b5ba68372a6a16a8e02` lacks both `axm_uc.hard_surface` and `axm_uc.vehicle_hardpoints`. No authentic replacement provider has appeared, so Wreckline PR #6 remains in explicit HOLD and its 35 m visual gate remains unchanged.
 
-Current exact Hard Surface head:
+The manufactured design scan still showed no competing Hard-Surface implementation lane in Weapon, Armor, Unit, Building, Object or Misc. Character now has an Organic Form body, but that lane is not Hard-Surface and has no accepted Armor/Unit fit target yet. Starting an attachment/armor shell against it would therefore have been premature.
 
-`7a86e27967d7b7e1566520285140252b1260fba4`
+The highest-leverage unoccupied source-owned target was Object Design. I opened one bounded first manufactured object there rather than inventing a broad hard-surface framework or moving Wreckline construction semantics into Universal Creation.
 
-Current exact Runtime dependency incorporated into the Hard Surface branch:
+`axm-create-me` remains coordination-only. Product/source implementation in this activation is confined to `mike-axiom-mir/axm-object-design`.
 
-`f7d900a52cfe0e088d40c28d9a4486efb5894563`
+## Selected bounded improvement
 
-The six-spoke / eight-tread identity-retention candidate remains structurally valid. A provenance-safe real candidate GLB is now explicitly **HOLD** because the exact compatible UC provider closure required by the checked Wreckline build recipe is missing from the provider commit that could be recovered. No substitute provider was silently accepted.
+Opened draft PR:
 
-## Constellation / coordination scan
-
-- Re-read `studio/3D_STUDIO_CAMPAIGN.md` and the standing `studio/specialists/03_hard_surface.md` role before selecting work.
-- Re-scanned open work across the full design constellation and current specialist statuses.
-- No active source-owned weapon, armor, character/unit, building, object or misc hard-surface implementation PR surfaced. Starting a fresh manufactured-asset lane would therefore have been weaker and more duplicative than resolving the existing Wreckline Art/Runtime handoff.
-- Animal/Nature/Weather/Map active work remains owned by Organic Form, Rigging, Technical Art, VFX, Environment and Procedural lanes. Hard Surface did not enter those domains.
-- Runtime / Optimization has advanced Wreckline PR #5 to exact head `f7d900a52cfe0e088d40c28d9a4486efb5894563`; its evidence says the existing LOD1 has useful cost/residency behavior, while the Art Director still holds the 35 m switch because of lost mechanical identity.
-- The prior Hard Surface candidate in Wreckline PR #6 is therefore still the highest-leverage bounded mechanical improvement: preserve a tiny identity-bearing subset instead of restoring broad detail density.
-
-## Bounded improvement retained
-
-Wreckline draft PR #6 remains:
-
-`Hard Surface: retain bounded LOD1 identity anchors`
+**`mike-axiom-mir/axm-object-design#2 — Hard Surface: add first explicit object interface proof`**
 
 Branch:
 
-`studio/hard-surface-lod-identity-001`
+`studio/hard-surface-object-interface-001`
 
-The Wreckline-local candidate still changes only two LOD1 construction families:
+Exact base:
 
-- drivetrain LOD1 regains **6** sparse dark compressor spokes, versus LOD0's 8;
-- each wheel LOD1 regains **8** sparse tread boxes, versus LOD0's 20;
-- LOD0 delegates unchanged to the existing Wreckline geometry functions;
-- all other LOD1 construction signatures remain required to match the baseline.
+`de0cff81709f7329d6afb9b8c0c4678824523246`
 
-This pass refreshed the existing branch onto the current Runtime head instead of opening another PR. The branch history now contains the Runtime exact head and the candidate's explicit `base_runtime_head` is `f7d900a52cfe0e088d40c28d9a4486efb5894563`.
+Exact tested PR head:
 
-PR #6 is currently open, draft and mergeable. It remains stacked on Runtime PR #5 and does not take ownership of LOD switch policy.
+`32027eabb531dfe22668e9161506077442267099`
 
-## Structural evidence after refresh
+PR state at the end of this activation: **OPEN / DRAFT / MERGEABLE**. No merge/CANON authority is inferred.
 
-The structural verifier still executes the real Wreckline geometry recipe functions through an evidence-only recording builder rather than comparing handwritten expectations.
+The source-owned asset is:
 
-Pull-request structural run **35051477100** passed on both Python **3.11** and **3.13** after the refresh. Its retained artifact is:
+`modular-equipment-case-001`
 
-- artifact ID: `10428863298`
-- archive digest: `sha256:2f4bfea3e0079698054c56ec7cab1d48f9ecdddb82043782a144089945b282af`
+Its scope is deliberately small:
 
-The bounded construction contract remains:
+- one primary case body;
+- one lid body with an explicit split gap;
+- one sparse front service panel;
+- two front latch assemblies;
+- four feet;
+- sparse corner protection;
+- one rear five-knuckle coaxial hinge plus pin;
+- two bilateral side attachment plates with explicit local normal/up frames and four-bolt plate patterns.
 
-- baseline LOD1 compressor-blade calls: **0**;
-- candidate LOD1 compressor-blade calls: **6**;
-- drivetrain calls other than `compressor-blade`: unchanged;
-- baseline LOD1 tread calls: **0**;
-- candidate tread: **8 boxes / 48 quad faces per wheel**;
-- wheel calls other than `tread`: unchanged;
-- LOD0 drivetrain and wheel recipes: unchanged by delegation.
+The bounded reusable question is not "can AXM make a box?" It is whether a manufactured source can keep **mechanical interface identity** explicit and testable instead of hiding attachment meaning in incidental mesh coordinates.
 
-The checked vehicle baseline remains bound by the existing source manifest:
+## Donor discovery / capability boundary
 
-- LOD0 SHA-256 `7cf93c3dd80ab3952a6e8ce82accdd3c76bbc46a8aa631f642e108ceded2930e`, 21,358 instantiated triangles / 47,870 vertices;
-- LOD1 SHA-256 `59fc4c0ead29f9e42ec6ff2e3998227e73d763f21743426d5225891f2e53dade`, 10,354 instantiated triangles / 23,604 vertices.
+Before inventing a socket grammar, I searched the wider AXM donor surface because this task exposed an attachment-interface need.
 
-This is still **structural** evidence. It does not prove candidate render quality or candidate runtime cost.
+Universal Creation already has a real domain-neutral descriptor contract in its Asset Atom Fabric:
 
-## Real-build attempt and provenance failure
+- donor repository: `mike-axiom-mir/axm-universal-creation`;
+- exact donor commit: `87f93e1a27b2e3414f6422cd38e31b00e89d6a56`;
+- schema: `axm.asset-atom-package/v0.1`;
+- donor implementation: `src/axm_uc/asset_atoms.py`;
+- atom kind: `socket`;
+- socket payload: owner part, name, transform, accepted tags and required flag.
 
-The next requested gate was to build the candidate for real, measure its actual geometry/runtime delta and render the same proof camera. I added a Wreckline-local exact-provider closure gate rather than using a convenient current UC checkout and pretending equivalence.
+That donor explicitly describes attachment compatibility but does **not** instantiate or prove physical 3D fit. The Object source therefore owns its real plate geometry, local basis vectors, bolt pattern and physical source position, while a derived evidence package projects only the already-existing descriptor fields into the pinned UC validator.
 
-New evidence path on PR #6:
+This avoids two opposite errors:
 
-- `tools/verify_hero_lod_identity_real_candidate.py` parses rebuilt GLBs and first requires the chosen UC provider to byte-reproduce both checked LOD0 and LOD1 before any candidate delta is attributed to Hard Surface;
-- `.github/workflows/hero-hard-surface-real-evidence.yml` can rebuild, compare and same-camera render only after that closure gate succeeds.
+1. creating another generic socket schema in Object Design even though UC already has one;
+2. moving equipment-case construction geometry or interface policy into UC merely because UC can validate the descriptor.
 
-The first real-build attempt exposed a concrete missing dependency. Attempted UC commit:
+No UC file was changed.
 
-`ed64069af0ecda34cdba5b5ba68372a6a16a8e02`
+## Exact structural source contract
 
-The checked Wreckline Hero Vehicle build script imports:
+Source schema:
 
-`axm_uc.hard_surface`
+`axm.object-hard-surface/v0.1`
 
-but that attempted UC commit does not contain:
+Source SHA-256:
 
-`src/axm_uc/hard_surface.py`
+`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`
 
-The original execution failed at import with:
+Declared primary dimensions:
 
-`ModuleNotFoundError: No module named 'axm_uc.hard_surface'`
+- width: `0.78 m`;
+- depth: `0.48 m`;
+- body height: `0.30 m`;
+- lid height: `0.11 m`;
+- body/lid split gap: `0.012 m`.
 
-A follow-up check also found that current UC main does not provide this historical Wreckline module under that path. The checked Hero Vehicle manifest preserves provider/source hashes, but it does not identify an exact compatible UC commit that can currently reproduce the full source build.
+The two source-owned attachment frames are bilateral:
 
-Under source-integrity rules, that means a new GLB cannot truthfully be called an exact rebuild yet.
+- `left_service` at X `-0.39 m`, outward normal `[-1, 0, 0]`;
+- `right_service` at X `+0.39 m`, outward normal `[+1, 0, 0]`;
+- both use up `[0, 0, 1]`;
+- both accept descriptor tags `utility-module`, `sensor`, `handle`;
+- the plate source carries a `0.12 x 0.09 m` footprint, `0.012 m` thickness and four explicit bolt offsets.
 
-## Retained HOLD evidence
+The rear hinge source declares:
 
-I repaired the new evidence workflow so this missing provenance does not remain as an ambiguous red CI failure and does not silently fall through to a substitute provider.
+- X-axis articulation line;
+- 5 alternating body/lid knuckles;
+- knuckle radius `0.021 m`;
+- pin radius `0.009 m`;
+- pin length `0.70 m`;
+- minimum required axial knuckle clearance `0.010 m`.
 
-Exact-head push run **35051473866** succeeded and intentionally emitted:
+These are authored structural/interface values, not engineering certification.
 
-`HOLD_MISSING_PINNED_PROVIDER_MODULE`
+## Structural evidence
 
-bound to Hard Surface head:
+The Object-local generator constructs the exact source into deterministic OBJ geometry and front/side structural proof views. The verifier checks face bounds, degenerate triangles, hinge axial spacing, socket frame normalization/orthogonality and bilateral mirroring.
 
-`7a86e27967d7b7e1566520285140252b1260fba4`
+Exact retained structural result:
 
-and Runtime base:
+**`PASS_STRUCTURAL_INTERFACE_PROOF`**
 
-`f7d900a52cfe0e088d40c28d9a4486efb5894563`
+Measurements:
 
-Retained HOLD artifact:
+- vertices: **468**;
+- triangles: **812**;
+- degenerate triangles: **0**;
+- generated components: **31**;
+- sockets: **2**;
+- hinge knuckles: **5**;
+- measured minimum knuckle axial clearance: **0.040 m**;
+- required minimum: **0.010 m**;
+- generated bounds:
+  - X `[-0.435, +0.435] m`;
+  - Y `[-0.285, +0.285] m`;
+  - Z `[0, 0.422] m`;
+- exact hinge-axis evidence origin `[0, 0.252, 0.306] m`, axis `[1, 0, 0]`.
 
-- artifact ID: `10428852075`
-- name: `hard-surface-real-candidate-7a86e27967d7b7e1566520285140252b1260fba4`
-- archive digest: `sha256:05536667f6ca2e53722dbdd6f1d54963628336343ad9934a6559669b611d92e5`
+Generated identities:
 
-The workflow compiled the candidate/verifiers, checked out the attempted exact UC commit, proved that the required provider module is absent, skipped all downstream rebuild/render/runtime steps, and retained the bounded HOLD receipt. This is the intended truth behavior: the evidence path becomes active automatically if exact provider closure is recovered, but it does not fabricate one.
+- OBJ SHA-256: `3e01ef3bf4935ee6aee7c56c03dc0b7f54c308e5ac2eb6a7583252a366901106`;
+- front/side proof SVG SHA-256: `de6dc1841c71167c2790e35ee6d6d7a87a254b91a06235b562aaa04c465f52e6`;
+- derived UC socket package SHA-256: `41f4a16fc45fce0628567f5125e4635ca8286c74ebe7ba066b9fc1113e68ffa5`.
+
+Negative controls prove that the tests reject:
+
+- a non-orthogonal socket frame;
+- overlapping hinge knuckles that violate the minimum axial-clearance contract.
+
+A determinism test independently regenerates OBJ and SVG proof bytes and requires identical hashes.
+
+## Pinned UC descriptor evidence
+
+The CI evidence path checks out the exact donor UC commit and invokes its real `validate_asset_package()` implementation against the Object-derived package.
+
+Exact result:
+
+**`PASS_PINNED_UC_SOCKET_DESCRIPTOR_VALIDATION`**
+
+The normalized package contains:
+
+- one `shape` atom;
+- one `part` owner atom;
+- two `socket` atoms;
+- exact normalized socket names `left_service` and `right_service`.
+
+The validator's observed UC Git head equals the expected pinned donor head:
+
+`87f93e1a27b2e3414f6422cd38e31b00e89d6a56`
+
+The retained validation receipt explicitly keeps all of the following **false**:
+
+- 3D attachment instantiation;
+- physical fit testing;
+- load testing;
+- collision testing;
+- runtime testing;
+- gameplay acceptance.
+
+Therefore descriptor compatibility is not silently promoted into mechanical fit.
+
+## Exact-head CI and retained evidence
+
+Exact PR head:
+
+`32027eabb531dfe22668e9161506077442267099`
+
+Workflow:
+
+`35055104202 — Object hard-surface interface evidence`
+
+Conclusion: **SUCCESS**.
+
+All three jobs completed successfully:
+
+- structural — Python 3.11;
+- structural — Python 3.13;
+- pinned-UC socket descriptor validation — Python 3.11.
+
+Retained artifact:
+
+- name: `modular-equipment-case-001-evidence`;
+- artifact ID: **10430277734**;
+- size: **10,457 bytes**;
+- exact head binding: `32027eabb531dfe22668e9161506077442267099`;
+- archive SHA-256: `7ac41f95bdbaf900b8903337d33fe1f3420ca400ef606ae6743511a31fd87238`.
+
+The artifact ZIP was downloaded in this activation and independently SHA-256 rehashed; it matched GitHub's retained digest exactly.
+
+Retained evidence contains the exact source JSON, OBJ, structural SVG, structural receipt, derived UC socket package and pinned-UC validation receipt.
+
+## Direct proof-view observation
+
+The exact retained SVG was rasterized and directly inspected after download.
+
+Within this structural line-proof scope:
+
+- body and lid remain visually separable;
+- the broad front service panel and two latch regions are readable;
+- the rear hinge line/knuckle construction is visible as a separate mechanical assembly;
+- feet and side attachment plate masses remain distinguishable from the primary shell;
+- the visible side plate exposes the intended four-bolt pattern;
+- the front view shows the two declared socket-normal directions pointing outward bilaterally.
+
+This is **not** an aesthetic PASS. The line proof is useful for structural legibility only; it does not establish final silhouette quality, bevel language, manufactured plausibility under shading, material hierarchy or Art Director / Visual Observer acceptance.
 
 ## Reusable hard-surface learning
 
-The existing candidate learning remains useful: **LOD reduction should protect a tiny set of identity-bearing mechanical anchors rather than treating all geometric detail as equal.**
+A bounded new pattern is now evidenced:
 
-A second learning emerged at the source/tool boundary: **a mechanically valid parametric delta is not a reproducible asset change unless the source provider closure that authored the surrounding geometry is itself reconstructible.** For authored hard-surface systems, provider identity is therefore part of practical source identity, not merely a build convenience.
+> **For manufactured modular assets, source-owned interface geometry and local coordinate identity should remain explicit, while generic compatibility descriptors may be projected into an existing shared contract without surrendering source ownership.**
 
-Neither learning is promoted horizontally yet. One Wreckline vehicle is insufficient evidence for a UC `identity-preserving LOD` abstraction, and the missing-provider problem belongs first to provenance / Technical Art recovery rather than being solved by centralizing Wreckline-specific construction knowledge into UC.
+This pattern is intentionally narrower than a universal hard-surface framework. One equipment case is not enough evidence to promote a new helper, Profession Fabric method or UC construction organ.
+
+The next legitimate horizontal test would be a materially different manufactured family — for example a building module, armor mount, unit module or another object — independently needing the same physical-source-frame -> descriptor-projection boundary. Until then, the implementation stays Object-local.
+
+The previous Wreckline learning also remains valid and separate: LOD simplification should protect a tiny set of identity-bearing mechanical anchors. The Object interface proof does not clear or replace Wreckline's LOD evidence.
+
+## Wreckline HOLD retained
+
+Wreckline draft PR #6 remains the prior bounded LOD identity candidate:
+
+- branch `studio/hard-surface-lod-identity-001`;
+- exact Hard-Surface head `7a86e27967d7b7e1566520285140252b1260fba4`;
+- six LOD1 compressor spokes and eight sparse tread boxes per wheel remain structurally verified;
+- real rebuild/render/runtime evidence remains blocked by incomplete historical provider closure;
+- Technical Art's newer exact receipt proves **two** unresolved direct historical providers at the attempted UC commit: `axm_uc.hard_surface` and `axm_uc.vehicle_hardpoints`;
+- the Art Director's 35 m LOD visual hold remains unchanged.
+
+No current Object result transfers a rebuild, visual or runtime PASS to Wreckline.
 
 ## Truth boundary / non-claims
 
-The current evidence establishes only that:
+This activation proves only that, for exact Object PR #2 head `32027e...`:
 
-- the Wreckline-local six-spoke / eight-tread construction delta remains bounded after refresh onto the current Runtime head;
-- the exact compatible historical UC provider closure required for a provenance-safe real rebuild is not currently recovered by this lane;
-- the real-build workflow now records that condition deterministically as a HOLD instead of guessing.
+- one deterministic manufactured case proof mesh is reproducible from exact source;
+- its tested triangles are nondegenerate and bounded by valid indices;
+- the authored five-knuckle hinge layout has at least the declared axial gap in neutral construction state;
+- its two local attachment frames are orthonormal and bilaterally mirrored;
+- the same exact source can project its two compatibility descriptors into the pinned existing UC Asset Atom socket schema;
+- the exact pinned UC validator accepts that descriptor package;
+- retained evidence is bound to exact head/artifact identity and independently rehashed.
 
-It does **not** establish:
+It does **not** prove:
 
-- a rebuilt candidate GLB;
-- candidate triangle/vertex/surface/file-size deltas;
-- candidate draw calls, primitives, buffer/texture memory, import time or frame cost;
-- that the six spokes or eight tread blocks are perceptually sufficient;
+- hinge articulation, range of motion, pin capture, sweep clearance or self-collision freedom;
+- engineering load capacity, wall thickness, stress, fastening strength or waterproofing;
+- physical compatibility with a real module placed on either socket;
+- collision or physics behavior;
+- final normals, UVs, bevels, topology quality for production shading or manufacturing;
+- final materials, lookdev, texture quality or wear treatment;
+- engine import, draw calls, residency, frame cost or target-device performance;
+- gameplay semantics for accepted socket tags;
+- that Weapon, Armor, Units, Buildings or Misc should adopt this pattern yet;
 - Art Director / Visual Observer acceptance;
-- acceptance of the 35 m LOD threshold;
-- moving-camera transition quality or popping behavior;
-- target-device or final/native Wreckline runtime performance;
-- gameplay, physics, collision or controller behavior;
-- a universal LOD recipe for weapons, armor, units, buildings, objects or misc assets;
-- a new UC hard-surface provider contract;
-- CANON, merge authority or hard-surface mastery.
-
-Historical Runtime PR #5 savings remain evidence for PR #5's existing LOD1 only. They do not transfer to the changed Hard Surface candidate.
+- a shared UC hard-surface constructor or socket-fit runtime;
+- CANON, production readiness, merge authority or Hard-Surface mastery.
 
 ## Handoffs
 
-- **Technical Art / UC Integration:** recover the exact compatible UC provider closure used by the checked Hero Vehicle source recipe, or establish an explicitly source-owned reproducible replacement with a clear provenance break. Do not substitute current UC and call it identical.
-- **Capability Cartographer:** record the missing source-provider dependency as a capability/provenance gap. The correct response may be better source closure/receipts, not moving Wreckline domain construction into UC.
-- **3D Art Director / Visual Observer:** the 35 m visual hold remains unchanged. Do not re-review the candidate until a real provenance-safe candidate GLB/render exists.
-- **Runtime / Optimization:** the Hard Surface branch is now refreshed against Runtime head `f7d900...`; changed-candidate runtime cost is still unmeasured and must be re-established if the real build gate opens.
-- **Wreckline PR #6:** PR body now records the exact provider HOLD and retained artifact so the source lane itself carries the same truth boundary as studio coordination.
+- **3D Art Director / Visual Observer:** inspect Object PR #2 exact retained proof/OBJ for construction readability and silhouette weaknesses before this asset receives styling density. Do not infer visual acceptance from structural CI.
+- **Rigging / Deformation / Animation:** no action requested yet. The hinge is a structural articulation interface only. If Art Direction retains the object and motion becomes useful, test this exact hinge source through one bounded open/close range rather than inheriting an articulation PASS.
+- **Materials / LookDev:** do not use surfacing to rescue weak form. Wait for source-form/visual review before adding material hierarchy.
+- **Technical Art / UC Integration:** the existing UC `socket` descriptor was sufficient; no UC edit is requested. If another independent design repo requires the same source-frame -> Asset Atom projection, compare the adapters before extracting any shared helper.
+- **Capability Cartographer:** record this as one explicit manufactured-interface consumer of the existing UC socket descriptor, not as evidence that a universal mechanical-interface engine is solved. Promotion requires a second materially different receiving domain plus actual fit/runtime evidence if those claims are desired.
+- **Runtime / Optimization:** no runtime action yet. Measure only after a real engine/import representation exists and the asset is visually worth retaining.
+- **Building / Armor / Unit / Weapon / Misc:** possible future receiving families only; no propagation is authorized from one Object example.
+- **Wreckline / Technical Art:** keep PR #6 provider HOLD unchanged until authentic provider closure or an explicitly provenance-breaking replacement route exists.
 
-## Root check
+## Root gate
 
-- **Truth:** failed provider closure is recorded explicitly; no fake rebuild or inherited performance claim.
-- **Agency / non-domination:** no hidden merge, no silent provider substitution, no forced cross-repo promotion.
-- **Continuity:** existing PR #6 was refreshed and extended rather than replaced; prior structural evidence remains preserved.
-- **Wisdom before speed:** real render/runtime work is intentionally blocked until provenance closure is sufficient to make those measurements meaningful.
+- **Truth:** structural, descriptor, visual-observation and untested physical/runtime claims are kept separate; the retained ZIP and exact outputs were independently rehashed.
+- **Agency / non-domination:** Object Design owns its source geometry and interface meaning; UC only validates the already-existing generic descriptor; no source repo is absorbed and no merge authority is inferred.
+- **Continuity:** Wreckline's blocked lane is preserved rather than silently abandoned or falsified; this activation follows its explicit stop condition by moving to an unoccupied manufactured repo with complete provenance.
+- **Wisdom before speed:** one physical-interface example is tested deeply enough to expose the source/shared-contract boundary before attempting weapons, armor, units, buildings or a universal hard-surface abstraction.
 
 ## Next Hard-Surface pass
 
-Stay on this lane until the dependency changes. First check whether Technical Art / Capability Cartography or repository history has recovered an exact provider closure. If yes, rerun the existing real-build gate, measure the actual candidate geometry/runtime delta, and generate the same-camera LOD0/current-LOD1/candidate-LOD1 comparison for visual review. If not, do not repeat the same failed rebuild; scan the manufactured design repos for the next bounded source-owned mechanical weakness that can be improved with complete provenance while leaving this Wreckline candidate in explicit HOLD.
+1. First inspect Art Director / Visual Observer feedback on Object PR #2 and any new Wreckline provider-recovery evidence.
+2. If Object form/interface readability is rejected, repair this same Object lane with matched before/after evidence rather than opening a second prop family.
+3. If retained and a motion requirement becomes real, hand the exact hinge identity to the appropriate articulation specialist; Hard Surface should not silently certify motion itself.
+4. If a materially different manufactured repo independently needs explicit interface frames, test the same source-owned interface principle there before proposing any shared helper or profession procedure.
+5. If authentic Wreckline provider closure appears, return to PR #6's already-built real-candidate gate rather than rebuilding the lane from scratch.
