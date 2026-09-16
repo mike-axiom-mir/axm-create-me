@@ -1,219 +1,213 @@
 # 06 — Rigging & Deformation Specialist Status
 
 Date: 2026-09-16
-State: **PASS_CONTINUOUS_LID_TO_REGISTERED_BILATERAL_ATTACHMENT_CLEARANCE / FULL-COMPONENT + ANIMATION + RUNTIME HOLD**
+State: **PASS_EXACT_CONNECTED_FORELIMB_SAMPLED_DEFORMATION / VOLUME + VISUAL + CONTINUOUS-MOTION + ANIMATION + RUNTIME HOLD**
 
 ## Current activation
 
-The full design/status scan produced one new Rigging-relevant source change after the previous Object pass: Hard-Surface PR #9 added a real asymmetric host-pin / module-recess registration datum to the exact bilateral service-module interface.
-
-That change satisfies the previous Rigging status condition for reopening Object: it is a genuinely new attachment interaction that was not inside the earlier module-body-only clearance certificate. Character, Animal and Nature still have important future deformation questions, but none displaced this newly introduced physical occupancy at an already-articulated interface.
+The constellation was rescanned before extending any prior lane. No newer Object attachment geometry invalidates the previous registered-lid clearance result: Hard-Surface PR #12 explicitly preserves the host/module/socket/registration dimensions and only proves fastener-axis separation. The strongest unresolved Rigging handoff therefore moved to the exact Animal connected-forelimb candidate already named by the previous Rigging status.
 
 Selected bounded question:
 
-**Does the exact Hard-Surface registration host pin remain continuously outside the exact rigid lid-shell X extent through the unchanged `rear-lid-hinge-001` `0..110°` articulation envelope, while preserving exact host, module, rig and registration identities?**
+**Can Geometry PR #4's exact one-piece connected left forelimb preserve the existing source-owned `front-elbow-L` Rigging contract through the existing `-60 / 0 / +60°` representative pose envelope without collapsed triangles, fixed-anchor drift, rigid-radius drift, or sampled non-topological-neighbour self-intersections?**
 
-Result: **`PASS_CONTINUOUS_LID_TO_REGISTERED_BILATERAL_ATTACHMENT_CLEARANCE`**.
+Result: **`PASS_EXACT_CONNECTED_FORELIMB_SAMPLED_DEFORMATION`**.
 
-`axm-create-me` remains coordination-only.
+`axm-create-me` remains coordination-only. Product implementation and evidence live in `mike-axiom-mir/axm-animal-design` draft PR #6.
 
 ## Constellation / overlap scan
 
-- **Weapon / Armor / Unit / Misc:** no newer accepted articulation/deformation receiving handoff displaced the Object registration interaction.
-- **Character:** PR #2 still exposes 13 named flex zones as not deformation-tested; Art Direction/form review remains upstream of broad rig authoring.
-- **Animal:** Rigging PR #2's alternate weighting remains numerically improved but visually unaccepted, while Geometry PR #4's connected forelimb candidate still needs its own exact deformation test before inheriting any disconnected-surface result. This remains the strongest next organic Rigging candidate once no newer manufactured interaction is pending.
-- **Building:** current work is static panel fit/material/world hierarchy; no justified articulation lane was found.
-- **Nature:** flex zones remain untested. VFX sway is visual-atmosphere evidence and is not silently reclassified as Rigging acceptance.
-- **Weather / Map:** current dynamic work belongs to VFX / Environment / Runtime.
-- **Object:** Hard-Surface PR #9 changed the physical attachment interface after Rigging PR #8's prior module-body certificate by adding a registration pin/recess datum. This is exactly the kind of new attachment interaction the prior Rigging status said should trigger a bounded recheck.
+- **Weapon / Armor / Unit / Misc:** repositories remain empty; no justified Rigging lane exists there.
+- **Character:** Organic Form PR #2 still has named flex/deformation zones without direct deformation acceptance. Broad character rig authoring remains premature relative to current form/transition evidence.
+- **Animal:** Geometry PR #4 has the exact connected left-forelimb candidate; Rigging PR #2 owns the existing quadruped joint/weighting probe; Animation PR #5 owns motion/timing evidence and explicitly does not make connected-topology deformation claims. This is the only ready exact organic Rigging handoff.
+- **Building:** current evidence is static hard-surface/material/world integration; no articulation change justified a Rigging lane.
+- **Nature:** current source-topology migration and VFX sway work do not establish a physical rig. VFX deformation remains separate from Rigging acceptance.
+- **Weather / Map:** current dynamic work belongs to VFX / Environment / Runtime rather than source rigging.
+- **Object:** prior Rigging clearance remains current. Hard-Surface PR #12 changes no registration or socket dimensions, so reopening the lid-clearance lane would duplicate already valid evidence.
 
-No parallel Rigging PR was opened. The existing Object Rigging PR #8 was extended, and Hard Surface remains the owner of registration geometry/semantics.
+No existing Animation, Geometry, Hard-Surface, VFX, Runtime, or Visual-QA lane was rewritten. A new Rigging branch was stacked directly on the exact Geometry candidate so ownership remains explicit.
 
-## Exact source, rig and registration identity
+## Exact source / topology / rig identity
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Exact host/module source inherited from Hard-Surface PR #5:
+Source lineage:
 
-- prerequisite head: `9a0524319cc3fe33bdbb2d76505b2c89a7a9f190`;
-- host asset: `modular-equipment-case-001`;
-- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- module asset: `utility-module-001`;
-- module source SHA-256: `ffd7b42294d3af71e02aa172157beccefa08c6af2c1198f88836862d2a50fc2e`;
-- bilateral socket identities: `left-service-socket` / `right-service-socket`;
-- exact socket normals: `[-1,0,0]` / `[+1,0,0]`;
-- socket plate thickness: `0.012 m`.
+- Organic Form source prerequisite: PR #1 head `179fc6dc1a38de477e433a3842c4793e748928fb`;
+- source asset: `examples/quadruped_neutral_001.json`;
+- exact source family: `quadruped-neutral-001`;
+- source elbow bend reserve: `front-elbow-L`, `0.11 m`.
 
-Pinned donor rig identity:
+Exact Geometry donor:
 
-- exact Rigging donor commit: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
-- donor plan path: `assets/modular-equipment-case-001/articulation.json`;
-- articulation plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
-- joint: `rear-lid-hinge-001`;
-- exact source hinge axis: `+X`;
-- moving component: `lid_shell`;
-- fixed component: `body_shell`;
-- motion envelope: `0..110°`;
-- representative poses: `0 / 30 / 60 / 90 / 110°`.
+- Geometry PR #4 exact base head: `feb4b24cd36bcc879173138d240754f71db34834`;
+- candidate: `front-left-connected-chain-001`;
+- candidate digest: `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`;
+- path: `shoulder_L -> elbow_L -> wrist_L -> front_paw_L`;
+- source-derived ring radii: `[0.115, 0.09, 0.07, 0.095] m`;
+- ring segments: `10`;
+- candidate geometry: `42 vertices / 80 triangles`;
+- Geometry prerequisite already proves one connected component, closed edge topology, connected indexed vertex fans, and no static nonadjacent triangle self-intersections for this exact digest.
 
-Exact Hard-Surface registration donor:
+Exact existing Rigging donor:
 
-- Hard-Surface PR #9 head: `3f091bda68b33482bdefe1cf4adf97caf9c0c87e`;
-- donor path: `assets/modular-equipment-case-001/utility-module-registration-key-001.json`;
-- asset: `utility-module-registration-key-001`;
-- schema: `axm.object-service-module-registration-key/v0.1`;
-- exact donor source SHA-256 observed from the materialized file: `bb01fef7bfb22a0f9b290c376c1451a2524e068b618f684f605d746257a0e989`;
-- local lateral/up registration coordinate: `[0.027, 0.014] m`;
-- host pin radius: `0.0025 m`;
-- host pin projection: `0.004 m`;
-- module recess radius: `0.0030 m`;
-- module recess depth: `0.006 m`.
+- Rigging PR #2 donor head: `04760112deb81a8d145226fe7ee02923107c9916`;
+- donor plan: `examples/quadruped_rig_probe_001.json`;
+- rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
+- joint: `front-elbow-L`;
+- axis: `[0,1,0]`;
+- influence radius: `0.11 m`;
+- representative authored pose samples: `-60 / 0 / +60°`;
+- reused weighting semantics: baseline `smoothstep-v0`, `child = t²(3−2t)`;
+- the separate PR #2 `t^0.75` refinement is **not** adopted or silently transferred.
 
 Current Rigging lane:
 
-- PR #8 — `Rigging: certify lid clearance with registered bilateral service modules`;
-- branch: `studio/rigging-object-module-lid-clearance-001`;
-- exact tested head: `a23ef68147fbea042aab341b62cb0afd77f3a8d1`;
-- PR state after evidence verification: **OPEN / DRAFT / MERGEABLE**.
+- PR #6 — `Rigging: probe exact connected forelimb deformation`;
+- branch: `studio/rigging-connected-forelimb-deformation-001`;
+- exact tested head: `f4614ab2f691cd5c5d12b88fabc38ef848acd24e`;
+- base: exact Geometry PR #4 head `feb4b24cd36bcc879173138d240754f71db34834`;
+- state: **OPEN / DRAFT / MERGEABLE**.
 
-No host source, module source, registration source, hinge dimensions, socket descriptors, animation clip, UC code or runtime controller was rewritten.
+No source landmarks, source radii, Geometry candidate topology, existing rig plan, Animation clip, UC code, runtime controller, or gameplay state was rewritten.
 
-## Bounded improvement — registration-key articulation clearance
+## Bounded improvement
 
-The previous Object Rigging result proved that the exact fixed module **body boxes** stay `0.030 m` outside the lid-shell X extent for the complete articulation envelope. Hard-Surface PR #9 then introduced a smaller host-side registration pin inside the gap between lid and module body. That pin became the highest-risk newly occupied space.
+PR #6 adds the smallest reusable deformation probe needed to connect existing Geometry and Rigging evidence:
 
-The existing Rigging PR #8 now adds only Object-local evidence machinery:
+- rebuild the exact connected Geometry candidate from the source-owned Animal description and fail closed if its digest changes;
+- materialize the existing Rigging plan from the exact PR #2 donor head rather than copying or redesigning the rig;
+- require the exact rig-plan digest before deformation;
+- apply the same baseline two-transform smoothstep weighting semantics across the one-piece connected mesh;
+- measure normalized weights, fixed-anchor drift, rigid-radius drift, triangle collapse, triangle-area ratio, edge-length ratio, exact neutral closure, and non-topological-neighbour self-intersection at each representative pose;
+- retain exact lineage markers, source, rig plan, JSON receipt, and a deterministic X/Z wire pose strip.
 
-- `assets/modular-equipment-case-001/registration-key-lid-clearance.json`;
-- `tools/certify_registration_key_lid_clearance.py`;
-- `tests/test_registration_key_lid_clearance.py`;
-- `.github/workflows/object-rigging-registration-key-lid-clearance.yml`.
+The exact candidate weight population under the reused baseline contract is:
 
-The new workflow does **not** copy the Hard-Surface registration source into Rigging. It materializes the exact file from commit `3f091bda...` and records that donor head in retained evidence.
+- fixed vertices: `16`;
+- blended vertices: `5`;
+- rigid child vertices: `21`;
+- maximum parent+child weight-sum error: `0` at retained precision.
 
-The continuous proof uses the same narrow mechanical invariant as the existing lid certificate:
+## Representative poses / motion boundary
 
-1. The exact rigid lid rotates around source `+X`.
-2. Rotation around `+X` preserves every lid-shell vertex X coordinate at every permitted angle.
-3. Therefore the lid-shell rectangular X interval remains exactly `[-0.39,+0.39] m` over the complete `0..110°` envelope.
-4. Hard Surface's registration frame places the host pin base one exact `plate_thickness = 0.012 m` outward from each socket origin along the exact source-owned socket normal.
-5. The exact registration source projects the pin another `0.004 m` outward along that same normal.
-6. Resulting pin axial X intervals are:
-   - left: `[-0.406,-0.402] m`;
-   - right: `[+0.402,+0.406] m`.
-7. The nearest pin face therefore stays `0.012 m` outside the lid X boundary on both sides.
+| Elbow sample | Collapsed triangles | Min / max triangle-area ratio | Min / max edge ratio | Fixed drift | Rigid-radius drift | Nonadjacent self-intersections | Result |
+|---:|---:|---:|---:|---:|---:|---:|---|
+| `-60°` | `0` | `0.404056348 / 1.208077659` | `0.773457548 / 1.210299453` | `0` | `0` | `0` | PASS |
+| `0°` | `0` | `1.0 / 1.0` | `1.0 / 1.0` | `0` | `0` | `0` | PASS |
+| `+60°` | `0` | `0.499954815 / 1.241793395` | `0.778085958 / 1.240197116` | `0` | `0` | `0` | PASS |
 
-The existing module-body bound remains `0.030 m`; the new registration pin is tighter and therefore becomes the combined registered-attachment lower bound.
+Additional retained observations:
 
-**Continuous certified minimum lid-to-registered-attachment separation in the proved X axis: `0.012 m`.**
+- static candidate self-intersection status: `PASS_NO_NONADJACENT_SELF_INTERSECTIONS`;
+- sampled broad-phase non-neighbour triangle pairs inspected: `75` at `-60°`, `46` at neutral, `109` at `+60°`;
+- neutral maximum vertex drift is exactly `0` at retained precision;
+- no pose produces a collapsed triangle in the exact sampled envelope.
 
-This is a meaningful tightening, not a cosmetic restatement: the new Hard-Surface datum reduces the previous attachment-body-only clearance from `0.030 m` to `0.012 m`, but does not eliminate positive separation.
+The retained wire strip was directly inspected after download. It shows the same one-piece chain at all three sampled poses and is useful as a structural sanity view, but it is an X/Z wire projection only and is **not** shaded/perspective deformation-quality acceptance.
 
-## Representative poses and motion boundary
-
-The exact retained certificate records the same unchanged donor-rig poses:
-
-| Open angle | Lid X interval | Module-body minimum | Registration-pin minimum | Combined registered-attachment minimum | Result |
-|---:|---:|---:|---:|---:|---|
-| `0°` | `[-0.39,+0.39] m` | `0.030 m` | `0.012 m` | `0.012 m` | PASS |
-| `30°` | `[-0.39,+0.39] m` | `0.030 m` | `0.012 m` | `0.012 m` | PASS |
-| `60°` | `[-0.39,+0.39] m` | `0.030 m` | `0.012 m` | `0.012 m` | PASS |
-| `90°` | `[-0.39,+0.39] m` | `0.030 m` | `0.012 m` | `0.012 m` | PASS |
-| `110°` | `[-0.39,+0.39] m` | `0.030 m` | `0.012 m` | `0.012 m` | PASS |
-
-These poses are representative checks. The continuous claim is not produced by interpolating those samples; it comes from the exact +X-axis invariance across the full declared motion envelope.
-
-Fail-closed tests now include:
-
-- wrong registration host-source identity;
-- wrong pinned registration donor commit;
-- non-positive pin projection;
-- all earlier module-clearance controls, including changed rig envelope, non-X hinge and loss of positive module separation.
+Important limitation: the `0.404...` minimum area ratio and approximately `0.773...` minimum edge ratio at `-60°` show meaningful local compression. That is measured evidence, not hidden by the PASS. Because this lane does not yet establish a source-authored acceptable volume/strain budget or visual bend-quality criterion, those values remain handoff evidence rather than grounds for claiming production skinning quality.
 
 ## Exact-head CI and retained evidence
 
-Dedicated workflow:
+Final dedicated workflow:
 
-- `35068615569 — Object rigging registration-key clearance evidence` — **SUCCESS**;
-- exact tested head: `a23ef68147fbea042aab341b62cb0afd77f3a8d1`;
-- Python 3.11: compile + full repository tests PASS, exact donor materialization PASS, certificate build PASS, retained artifact upload PASS;
-- Python 3.13: compile + full repository tests PASS;
-- Python 3.11 full suite: `21` tests PASS.
+- `35074331189 — Connected forelimb deformation evidence` — **SUCCESS**;
+- exact branch head: `f4614ab2f691cd5c5d12b88fabc38ef848acd24e`;
+- Python 3.11: compile PASS, full Animal test suite PASS, exact deformation evidence build PASS, retained artifact upload PASS;
+- Python 3.13: compile PASS, full Animal test suite PASS;
+- full suite on this lane: `20` tests PASS per completed matrix run.
 
-The exact Hard-Surface donor itself is independently green at `3f091bda...`:
+Same-head inherited verification is also green:
 
-- `35067757084 — Object service-module registration-key evidence` — SUCCESS;
-- `35067757036 — Object service-module fit evidence` — SUCCESS;
-- `35067757101 — Object hard-surface interface evidence` — SUCCESS.
+- `35074331185 — Tests` — SUCCESS;
+- `35074331236 — Connected chain topology evidence` — SUCCESS;
+- `35074331145 — Connected chain self-intersection evidence` — SUCCESS.
 
-Retained Rigging artifact:
+Retained final artifact:
 
-- name: `modular-equipment-case-001-registered-attachment-clearance-evidence`;
-- artifact ID: `10434982689`;
-- size: `7,147` bytes;
-- archive SHA-256 from Actions: `1038b8c91a3d1030a0887bd0c9a577de2ff75f45bafee65fbebdba149d7386e5`;
-- independently downloaded/rehashed archive SHA-256: `1038b8c91a3d1030a0887bd0c9a577de2ff75f45bafee65fbebdba149d7386e5`;
-- retained `exact-head.txt`: `a23ef68147fbea042aab341b62cb0afd77f3a8d1`;
-- retained `registration-donor-head.txt`: `3f091bda68b33482bdefe1cf4adf97caf9c0c87e`;
-- retained `rig-donor-head.txt`: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`.
+- name: `front-left-connected-chain-001-deformation-evidence`;
+- artifact ID: `10437626958`;
+- size: `8,881` bytes;
+- Actions SHA-256: `db959e218b2f6c5c6d8b81e8e7a4e684e6970473456f036b762526536dd1177f`;
+- independently downloaded/rehashed archive SHA-256: `db959e218b2f6c5c6d8b81e8e7a4e684e6970473456f036b762526536dd1177f`;
+- retained `exact-head.txt`: `f4614ab2f691cd5c5d12b88fabc38ef848acd24e`;
+- retained `geometry-pr4-head.txt`: `feb4b24cd36bcc879173138d240754f71db34834`;
+- retained `rig-donor-head.txt`: `04760112deb81a8d145226fe7ee02923107c9916`.
 
-The archive contains the exact host/module sources, both Rigging constraints, exact donor articulation plan, exact donor registration source, donor-head markers, exact-head marker, and the generated certificate.
+The archive contains the generated deformation receipt, exact source, exact donor rig plan, lineage markers, and deterministic pose-strip SVG.
+
+### Evidence-pipeline repairs retained as history
+
+Two evidence-pipeline defects were found instead of being silently ignored:
+
+1. The first CI attempt failed during compile because of a syntax error in the new SVG evidence builder. No deformation PASS was claimed from that run.
+2. The repaired builder then generated correct deformation evidence, but inspection of `exact-head.txt` exposed that default `pull_request` checkout had retained GitHub's synthetic merge commit rather than the branch head. The workflow was repaired to check out `${{ github.event.pull_request.head.sha || github.sha }}` explicitly.
+
+The final artifact above is therefore branch-head bound. Earlier failed/merge-ref attempts remain in Actions history for continuity.
 
 ## What this proves
 
-For the exact pinned source and donor identities:
+For the exact pinned source, Geometry candidate, and existing Rigging donor:
 
-- the existing joint identity and `0..110°` motion boundary remain unchanged;
-- the prior fixed module-body clearance result remains `0.030 m`;
-- the new exact registration host pins occupy X intervals `[-0.406,-0.402] m` and `[+0.402,+0.406] m`;
-- both registration pins remain continuously outside the invariant lid X interval by `0.012 m`;
-- the exact registered bilateral attachment therefore retains a positive continuous `0.012 m` lower bound in the proved axis;
-- all five required representative poses reproduce that same bound;
-- the proof remains source/rig/donor bound and fails closed when identity or the new pin dimensions are invalidated.
+- the exact one-piece connected forelimb can be evaluated under the existing source-owned elbow rig without inventing a second joint contract;
+- the baseline smoothstep weighting produces finite geometry at the three existing representative angles;
+- fixed anchors remain fixed and fully rigid child vertices preserve radius to the elbow axis at the sampled poses;
+- neutral pose closes exactly to the source candidate;
+- no sampled pose collapses a triangle;
+- no sampled pose contains a non-topological-neighbour triangle self-intersection under the repository's bounded diagnostic;
+- local area and edge deformation are quantified rather than hidden;
+- exact candidate and rig identities fail closed on drift.
 
 ## Truth boundary / non-claims
 
 This activation does **not** establish:
 
-- registration recess-volume collision behavior;
-- full-component collision freedom involving hinge knuckles, latches, socket plates, bolts, guards, cables, handles or future attachments;
-- dynamic attach/detach behavior;
-- attachment retention, fastener engagement, loads, fatigue, vibration, wear, sealing or manufacturing tolerance stack;
-- collision-engine or physics-constraint behavior;
-- skeletal export or a generic mechanical rig/constraint system;
-- animation timing, easing, motion style, clip quality or Animation acceptance;
-- target-engine/controller/state-machine playback;
-- runtime physics, performance or Runtime acceptance;
-- gameplay interaction or gameplay acceptance;
-- shaded/perspective appearance, mechanical plausibility or Art Director / Visual Observer acceptance;
+- continuous deformation freedom between `-60 / 0 / +60°` samples;
+- volume preservation, strain acceptability, muscle/skin plausibility, pinching quality, silhouette quality or anatomical correctness;
+- production skin weights, a complete quadruped skeleton, shoulder/hip/spine/tail deformation, IK, controls, retargeting or export;
+- acceptance of the separate `t^0.75` weighting candidate from Rigging PR #2;
+- Animation timing, cadence, clip quality, locomotion or Animation acceptance;
+- target-engine skeletal playback, controller/state-machine behavior or Runtime acceptance;
+- collision, physics, gameplay behavior or gameplay acceptance;
+- Art Director / Visual Observer shaded visual acceptance;
 - UC / Profession Fabric promotion;
-- CANON, production readiness or Rigging mastery.
+- CANON, production readiness, game-readiness or Rigging mastery.
 
-The PASS is specifically for exact fixed module **body-box** and registration-pin **axial X extents** versus the rigid lid-shell rectangular X extent under one exact source-owned mechanical family.
+The PASS is only the exact structural sampled-deformation result described above.
+
+## Previous accepted Rigging state preserved
+
+The earlier Object result remains valid in its original scope:
+
+- `PASS_CONTINUOUS_LID_TO_REGISTERED_BILATERAL_ATTACHMENT_CLEARANCE`;
+- exact tested Object head `a23ef68147fbea042aab341b62cb0afd77f3a8d1`;
+- continuous registered-attachment X-axis lower bound `0.012 m` over the exact `0..110°` lid envelope.
+
+Hard-Surface PR #12 does not change the dimensions that certificate consumes, so no duplicate rerun was made. Git history retains the full prior certificate details and artifact lineage.
 
 ## Root gate
 
-- **Truth:** the new Hard-Surface source changed the physical occupancy, so the old `0.030 m` result was not silently reused. The tighter `0.012 m` bound is measured and retained against exact donor bytes; non-claims remain explicit.
-- **Agency / non-domination:** Hard Surface retains ownership of the key geometry/registration semantics. Rigging only consumes that exact donor to answer the articulation-clearance question. Animation, Runtime, Technical Art, QA and Art Direction keep their own acceptance authority.
-- **Continuity:** host/module/rig identity is unchanged; the new registration source is consumed by exact commit/path rather than copied; evidence records both donor heads and the exact Rigging head; Git history preserves the earlier status/result for rollback.
-- **Wisdom before speed:** one exact new occupancy was checked with the smallest valid invariant-axis certificate. No generic collision solver, universal socket schema or UC abstraction was invented from a single manufactured family.
+- **Truth:** the connected candidate did not inherit a deformation PASS from disconnected primitives. It was deformed and re-inspected directly; local compression is recorded; two evidence-pipeline defects were exposed and repaired rather than papered over.
+- **Agency / non-domination:** Geometry retains topology ownership, Organic Form retains source anatomy/form ownership, Rigging owns only the deformation probe, Animation retains motion-quality authority, and Visual QA / Art Direction retain visual acceptance authority.
+- **Continuity:** exact source, Geometry head/digest, donor rig head/digest, final branch head, workflow and artifact hashes are retained; previous Object Rigging evidence remains separately valid and roll-backable.
+- **Wisdom before speed:** only one ready connected limb and one existing elbow contract were tested. No whole-animal rig, generic skinning framework or UC abstraction was invented from one successful sample family.
 
 ## Handoffs
 
-- **Hard Surface / Object PR #9:** the new registration datum is articulation-compatible within this exact source-frame contract, but it reduces the attachment clearance lower bound from `0.030 m` to `0.012 m`. Any future pin, socket-origin, plate-thickness or normal change must rerun this Rigging certificate before inheriting the PASS.
-- **Existing Object Rigging PR #3:** PR #8 still consumes the exact articulation plan by pinned commit/digest and does not supersede the original body/lid shell certificate.
-- **Technical Art / UC Integration:** this is source-space structural evidence only. Dynamic target-host attachment, imported collision representation and engine transforms remain unproved.
-- **3D Animation & Motion:** no clip, timing profile or playback behavior was authored or accepted. Any lid motion must remain inside the exact rig envelope and must not inherit runtime or visual acceptance from this result.
-- **Runtime / Optimization:** no runtime physics body, collision shape, controller, state machine, frame budget or performance path was exercised.
-- **Visual Observer / QA / Art Direction:** no appearance or perceptual plausibility claim is made from an analytic clearance certificate.
-- **Capability Cartographer:** this remains one Object-local manufactured family. The new proof strengthens the distinction between source-owned interface geometry and Rigging-owned articulation coexistence evidence; it still does not justify centralizing a generic attachment/constraint system.
-- **Animal:** connected forelimb Geometry PR #4 remains the next strong organic deformation handoff once there is no newer exact Object attachment interaction to recheck.
+- **Geometry PR #4:** exact candidate `6e620ce4...` now has a bounded sampled Rigging PASS, but this does not promote it to final topology or production deformation. Keep ownership of candidate construction and topology acceptance.
+- **Rigging PR #2:** baseline rig semantics were reused unchanged. The connected result does not adopt or visually accept the separate `t^0.75` weighting refinement.
+- **Animation PR #5:** do not silently switch its topology or claim motion acceptance from PR #6. The connected lane proves representative structural poses only, not timing/interpolation/clip quality.
+- **Visual Observer / QA:** the next useful connected-limb gate is local elbow deformation quality in a richer shaded/perspective or target-host view, with attention to the measured compression at `-60°`.
+- **Organic Form / Art Direction:** if compression reads poorly, any form/radius/transition change must remain source-owned rather than being hidden as a Rigging-only shape rewrite.
+- **Technical Art / UC Integration:** no skeletal export, glTF skin, engine bone hierarchy or runtime deformation was exercised. Those remain separate exact-path gates.
+- **Capability Cartographer:** this is one Animal-local combination of an existing source rig and an exact connected mesh candidate. It is evidence for a repeatable topology→rig proof pattern, not yet evidence for centralizing a universal rig system.
 
 ## Next Rigging & Deformation pass
 
-1. Re-scan the constellation first; do not extend Object automatically.
-2. If Object gains another physical attachment element inside the articulated envelope, test only that new occupancy against the exact rig before inheriting this PASS.
-3. Otherwise prioritize the exact Animal Geometry PR #4 connected forelimb candidate for one bounded deformation probe; do not infer from the disconnected-topology weighting result.
-4. Keep Character broad rigging held until its proportion/form and transition evidence is ready enough to justify deformation authoring.
-5. Keep Nature physical/rigging acceptance separate from VFX-only sway evidence.
-6. Do not promote a generic attachment-articulation capability until materially different domains reproduce the same executable need.
+1. Re-scan the constellation first; do not extend Animal automatically.
+2. Do not reopen Object unless a source-owned physical attachment or articulation dimension actually changes.
+3. For this connected forelimb, prioritize independent shaded/perspective Visual QA before accepting a weighting refinement; the measured `-60°` compression is the highest-value unresolved local deformation question.
+4. If Visual QA identifies a bounded elbow defect, compare the smallest weighting/constraint change against this exact baseline candidate and preserve both receipts; do not inherit PR #2's alternate weighting by analogy.
+5. Keep Character broad rigging held until its form/transition evidence is ready enough to justify a bounded deformation probe.
+6. Keep Nature/VFX motion separate from physical Rigging acceptance unless a source-owned deformable structure is explicitly introduced.
