@@ -1,221 +1,249 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-16
-State: **PASS_CHARACTER_E_CLIPPED_CONNECTED_SHOULDER_TOPOLOGY_WITH_PHASE_REPAIR / EXACT-HEAD + PINNED-UC EVIDENCE GREEN / VISUAL-DEFORMATION + SELF-INTERSECTION + RUNTIME + GAME READINESS HELD**
+State: **PASS_BUILDING_EXACT_UNION_HEADER_SEGMENTATION / 4 POSITIVE-VOLUME INTERSECTIONS -> 0 / EXACT-HEAD CI + RETAINED EVIDENCE GREEN / SOURCE ADOPTION + FACE-CONTACT UNION + RUNTIME + GAME READINESS HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, newest specialist status, open PRs across the design constellation, the adopted Character E source lineage, the existing Animal connected-chain Geometry precedent, and current UC topology evidence before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, newest specialist statuses, open design-repository PRs, current Building source ownership, Character shoulder Geometry, Animal Geometry/Rigging/Organic work, Nature Geometry, Map receiving work and current downstream handoffs before changing product code.
 
-`axm-create-me` remains coordination-only. Product geometry work lives in the owning design repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation stays in the owning design repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Building Geometry activation remains preserved by the prior status blob `18d06a28097bbaa95b1f49ddc697b14b4f0ad647` and Building PR #6 head `407d3aaf36c26829a64d964143e34587df6d8ea1`. Its `PASS_DERIVED_CLOSED_OUTWARD_BOX_TOPOLOGY_19_REAL_COMPONENTS` evidence is not rewritten or demoted by this Character activation.
+The immediately previous Character result remains preserved at Character PR #3 exact head `dcb2185a42072540ef2be37329735357561e01b5` with `PASS_CHARACTER_E_CLIPPED_CONNECTED_SHOULDER_TOPOLOGY_WITH_PHASE_REPAIR`. No new Rigging or Visual-QA defect had returned against that exact candidate when this activation began, so Geometry did not invent another Character change.
 
 ## Fresh constellation / duplication scan
 
-- **Character:** the prerequisite held by the previous Geometry status is now satisfied. Organic Form PR #2 exact head `20f6413f1b09e32cb3667ccd01f266cd849d8e93` migrated accepted feathered shoulder E into source identity `character-neutral-a-shoulder-source-004`, adopted source digest `dbb20e6e7dc1874b3b22553d0407791f05699f23ebb42c4e249a259f56613f1d`, and accepted proof-mesh digest `30a4612212f2e8252b6f813912ce76c655763e6d3abb4650c04ad1af72baea7f`. Organic explicitly handed connected shoulder topology to Geometry and kept Rigging held behind an exact connected identity. No competing Character Geometry PR existed.
-- **Animal:** Geometry PR #4 already owns connected forelimb topology and remains active; Organic PR #8 owns elbow bend-plane form response. Animal therefore supplied a method precedent only and was not duplicated.
-- **Nature:** the earlier explicit leaf-backface Geometry lane remains structurally green; downstream representation/material/visual/runtime decisions still own the next gate.
-- **Building:** Geometry PR #6 remains the exact derived closed/outward box-topology proof while source migration stays with Hard Surface. No duplicate Building mutation was opened.
-- **Object:** active Hard-Surface / Rigging / Animation / Technical-Art / Runtime lanes own the current source/articulation chain; no higher-leverage unowned Geometry defect displaced the now-ready Character handoff.
-- **Map / Weather:** current work remains environment receiving, VFX, runtime and procedural composition rather than source topology authorship.
+- **Character:** Geometry PR #3 is already structurally green and waiting independent Rigging/deformation plus direct visual seam/pinch review. No returned Geometry-owned defect justified extending it.
+- **Animal:** Geometry PR #4 owns the connected forelimb baseline; Geometry PR #7 owns the bounded `4.5°` ring-phase candidate; Rigging PR #6 owns the connected-topology weighting comparison; Organic PR #8 owns elbow relief. Adding another Animal Geometry lane would duplicate active work.
+- **Nature:** Geometry PR #10 already owns explicit leaf-backface representation and remains downstream-held for representation/material/visual/runtime decisions.
+- **Building:** Hard Surface PR #2 has now completed the source migration that the prior Geometry/Materials chain requested. Exact Hard-Surface head `57f66b1245812f0c3d402232a046b86c0b5c72d8` source-owns `closed-outward-12-triangle-v1` across all 19 real proof boxes and explicitly leaves hidden/interpenetrating component geometry unproved. Existing Geometry PR #6 therefore had a real successor dependency rather than a reason to open a second lane.
+- **Map:** current work is receiver/composition/material/VFX/runtime integration. Geometry should not mutate Map merely because the Building producer changed.
+- **Object:** active Hard-Surface/Rigging/Animation/Technical-Art/Runtime chains already own current mechanical gaps.
 - **Armor / Unit:** remain downstream of connected Character geometry plus later deformation/fit evidence.
-- **Weapon / Misc:** no stronger implementation-ready unowned Geometry defect surfaced in the fresh scan.
-- **UC:** `src/axm_uc/mesh_topology.py` already supplies the generic seam-welded edge-topology observer. Character shoulder semantics were not centralized into UC.
+- **Weapon / Misc / Weather:** no stronger unowned source-topology defect displaced the now-source-owned Building gap.
+- **UC / Profession Fabric:** the selected repair is source-specific axis-aligned pavilion segmentation. One Building case does not justify centralizing that rule in UC or Profession Fabric.
 
 ## Selected bounded action
 
 Repository:
 
-`mike-axiom-mir/axm-character-design`
+`mike-axiom-mir/axm-building-design`
 
-New draft PR:
+Existing draft Geometry PR advanced rather than duplicated:
 
-**#3 — `Geometry: connect adopted E shoulder topology with source-bound seam clipping`**
+**#6 — `Geometry: remove pavilion header volume interpenetrations without changing solid union`**
 
 Branch:
 
-`studio/geometry-character-connected-shoulder-001`
+`studio/geometry-building-box-topology-001`
 
-Exact Organic source donor / PR #2 base:
+Current Hard-Surface source-owner head:
 
-`20f6413f1b09e32cb3667ccd01f266cd849d8e93`
+`57f66b1245812f0c3d402232a046b86c0b5c72d8`
 
-Exact Geometry head:
+Historical Geometry predecessor retained in ancestry:
 
-`dcb2185a42072540ef2be37329735357561e01b5`
+`407d3aaf36c26829a64d964143e34587df6d8ea1`
 
-Pinned generic UC topology observer:
+Current Geometry head:
 
-`dde8d952161788f8bf21118f91edd3163e51277d`
+**`e3db316b19bb157bf80eb7f2c80a9e560c5ca1d5`**
 
 Current PR state:
 
-**OPEN / DRAFT / MERGEABLE**
+**OPEN / DRAFT / MERGEABLE**.
 
-No Organic source file was rewritten. Geometry adds a separate Character-local structural specimen/evidence layer stacked directly on the exact adopted E source head.
+The current Geometry commit is an explicit two-parent continuity merge: previous Geometry evidence remains in ancestry and current Hard-Surface source ownership remains in ancestry. The workflow additionally proves that the current Geometry branch has **zero diff** from the exact Hard-Surface source head across:
 
-## Source-bound connected shoulder construction
+- `assets/service_pavilion_001.json`;
+- `assets/utility_access_panel_001.json`;
+- `tools/build_service_pavilion.py`.
 
-The accepted E shoulder proof intentionally remained disconnected. Geometry now creates independent left/right connected structural specimens while preserving that source identity and its semantics.
+No Building source semantic was silently rewritten.
 
-For each side:
+## Exact source defect now exposed
 
-1. Rebuild the exact adopted source and fail closed unless both source digest and accepted E proof-mesh digest match the pinned identities above.
-2. Reconstruct the exact 10-sample upper-arm root ring from source landmarks/radii.
-3. Preserve accepted E's eight selected root samples (`4,5,6,7,8,9,0,1`) as **trajectory semantics**: each accepted E proximal→source-root segment is clipped exactly where it intersects the source ribcage ellipsoid.
-4. Keep E's omitted inferior samples (`2,3`) explicit. They are closed only by **Geometry-owned topology-only radial projection** from the exact source-root samples to the ribcage shell; they are not silently promoted into Organic source semantics.
-5. Remove one exact local 10-vertex ribcage patch, then stitch ribcage → E-derived seam → source-derived proximal upper-arm ring → exact upper-arm distal ring/cap.
-6. Preserve bilateral mirrored position sets.
+The source-owned box shells are individually closed/outward, but the current 19-box assembly contains four positive-volume intersections. All are bounded to the long front/rear headers crossing interior vertical posts:
 
-The result is deliberately a **derived connected structural specimen**, not a replacement source mesh or production retopology claim.
+1. `front-door-left × front-header`: `0.2 × 0.18 × 0.18 m` = `0.00648 m³`;
+2. `front-door-right × front-header`: `0.00648 m³`;
+3. `rear-left-mid × rear-header`: `0.00648 m³`;
+4. `rear-right-mid × rear-header`: `0.00648 m³`.
 
-## Ring-phase repair: topology PASS is not enough
+Exact total positive double-covered volume:
 
-A direct same-position control exposed an important reusable Geometry lesson: the exact same vertices can produce a formally closed mesh with a severely pinched local stitch if two loops are paired at the wrong cyclic phase.
+**`0.02592 m³`**.
 
-Geometry therefore retains phase `0` as a control and changes only triangle correspondence for the chosen mirrored phases:
+This is narrower than a generic boolean-union problem and can therefore be tested without changing Building semantics or inventing a broad CSG framework.
 
-- left: phase `5`;
-- right: phase `3`.
+## Derived Geometry candidate
 
-Exact outer ribcage→seam comparison, identical on both sides:
+New Building-local evidence contract:
 
-- phase-0 max adjacent-face normal turn: **157.785710231377°**;
-- chosen-phase max adjacent-face normal turn: **84.893711100247°**;
-- reduction: **72.891999131130°**;
-- phase-0 minimum / median stitch-triangle area ratio: **0.0492524407574**;
-- chosen-phase ratio: **0.211991788821**;
-- improvement: about **4.304×**.
+`axm.building-interpenetration-free-header-segmentation/v0.1`
 
-The chosen phase moves **no source, seam or arm vertex**. This proves the repair is a triangulation-correspondence improvement rather than hidden form editing.
+Only two source components are represented differently in the derived candidate:
 
-Other measured seam diagnostics on both chosen candidates are retained rather than promoted to aesthetic acceptance:
+- `front-header` -> three exact X-axis box segments around the two intersecting front posts;
+- `rear-header` -> three exact X-axis box segments around the two intersecting rear posts.
 
-- seam→proximal max normal turn: **90.503526522821°**;
-- proximal→distal max normal turn: **79.488808886091°**;
-- distal-cap max normal turn: **88.215647859502°**;
-- seam→proximal minimum/median triangle-area ratio: **0.205727537891**;
-- proximal→distal ratio: **0.932568149211**.
+Every other pavilion component and both placed utility-panel proof boxes retain their exact current geometry.
 
-These are specimen-local structural diagnostics, not universal visual, deformation or production thresholds.
+The segment cut ranges come directly from the four exact source overlap intervals. They are not artistically guessed dimensions.
+
+Candidate rules:
+
+- preserve the exact Hard-Surface source revision `service-pavilion-001/closed-outward-box-shells-002` and topology revision `closed-outward-12-triangle-v1`;
+- preserve the exact occupied solid union, not merely the outer bounding box;
+- preserve assembled bounds, receiver fits and readable-path gap;
+- remove every positive-volume pairwise box intersection;
+- keep every candidate box individually closed/outward under the current source-owned topology contract;
+- expose representation cost rather than hiding it;
+- reject both a deliberate `+1 mm` overlap and an independent `+1 mm` gap.
 
 ## Exact structural result
 
-Each left/right specimen contains:
+Scoped result:
 
-- vertices: **93**;
-- triangles: **182**;
-- UC welded vertices: **93**;
-- welded reduction: **0**;
-- edges: **273**;
+**`PASS_EXACT_UNION_HEADER_SEGMENTATION_REMOVES_ALL_POSITIVE_VOLUME_INTERPENETRATIONS`**
+
+Exact source -> candidate:
+
+- box objects: **`19 -> 23`**;
+- component-volume sum: **`9.52424 -> 9.49832 m³`**;
+- exact occupied solid-union volume: **`9.49832 -> 9.49832 m³`**;
+- union residual: **`0.0 m³`**;
+- coordinate-partition cells compared: **`2052`**;
+- positive-volume intersections: **`4 -> 0`**;
+- positive double-covered volume: **`0.02592 -> 0.0 m³`**;
+- vertices: **`152 -> 184`** (`+32`);
+- triangles: **`228 -> 276`** (`+48`).
+
+Every one of the 23 candidate boxes retains the current source box-shell gate. Aggregate candidate topology:
+
 - boundary edges: **0**;
 - non-manifold edges: **0**;
 - shared-edge orientation conflicts: **0**;
-- collapsed triangles: **0**;
-- triangle components: **1**;
-- UC status: **`CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE`**.
+- degenerate triangles: **0**;
+- outward triangles: **276**;
+- inward triangles: **0**.
 
-Character-local indexed preflight independently reports `PASS_CHARACTER_LOCAL_CLOSED_ORIENTED_SINGLE_COMPONENT` on both sides.
+The representation-cost delta is structural evidence only. It is **not** a draw-call, frame-time, FPS, memory or target-device claim.
 
-A deliberate one-triangle winding flip is rejected by the pinned UC observer as `INVALID_EDGE_TOPOLOGY` with exactly **3 orientation conflicts**, proving the retained generic gate fails closed.
+## Exact-union proof and negative controls
 
-Scoped result:
+The candidate and source are compared over the combined exact X/Y/Z coordinate partition induced by both box sets. Every positive-volume cell midpoint receives a source-occupied/candidate-occupied comparison; all `2052` compared cells agree and both unions integrate to exactly `9.49832 m³` within the retained numeric contract.
 
-**`PASS_CHARACTER_E_CLIPPED_CONNECTED_SHOULDER_TOPOLOGY_WITH_PHASE_REPAIR`**
+Two fail-closed controls are retained:
 
-## Exact-head CI and retained evidence
+- expanding `front-header::segment-0` by `+0.001 m` reintroduces positive-volume intersection and is rejected;
+- moving the start of `front-header::segment-1` by `+0.001 m` creates a missing union region and is rejected.
+
+The repair therefore cannot silently trade interpenetration for a gap.
+
+## Important remaining face-contact boundary
+
+This activation removes **positive-volume interpenetration only**. It does not pretend that separate touching boxes have become one production shell.
+
+Exact retained contact observations:
+
+- source face-contact pairs: **26**;
+- source summed pair-contact area: **1.3992 m²**;
+- candidate face-contact pairs: **34**;
+- candidate summed pair-contact area: **1.6584 m²**.
+
+The count increases because the segmented headers now terminate exactly against the posts instead of passing through them. Those face contacts can still contain coplanar internal faces in the separate-box representation.
+
+Therefore this PASS does **not** claim a boolean-unioned pavilion, global vertex manifoldness, welded contact topology or hidden-face removal at face contacts.
+
+## CI and retained evidence
 
 Dedicated workflow:
 
-**`35102212551 — Geometry connected shoulder topology evidence`**
+**`35107741426 — Geometry building interpenetration evidence`**
 
 Result:
 
 **COMPLETED / SUCCESS**
 
-- Python 3.11: full Character unit suite PASS, pinned UC checkout PASS, retained connected-shoulder evidence PASS, exact-head receipt PASS, upload PASS.
-- Python 3.13: compile + full Character unit suite PASS.
+- Python 3.11: exact-lineage gate PASS, full Building unit suite PASS, inherited source-owned Hard-Surface evidence rebuild PASS, Geometry candidate build/gates PASS, retained artifact upload PASS.
+- Python 3.13: same structural/test path PASS; artifact upload intentionally skipped.
 
-The inherited Character workflow also passed on the same exact head:
+Retained artifact:
 
-**`35102212736 — Character organic form baseline` — COMPLETED / SUCCESS**
+- ID: **`10450822595`**;
+- name: `service-pavilion-interpenetration-001-e3db316b19bb157bf80eb7f2c80a9e560c5ca1d5`;
+- GitHub size metadata: **`7,352 B`**;
+- SHA-256: **`268db862f92fa7331f7bd5aefef2185f682e431567c0da8ca524e5debb2a4525`**;
+- exact Geometry head: `e3db316b19bb157bf80eb7f2c80a9e560c5ca1d5`;
+- exact Hard-Surface source head: `57f66b1245812f0c3d402232a046b86c0b5c72d8`;
+- predecessor Geometry head: `407d3aaf36c26829a64d964143e34587df6d8ea1`.
 
-Retained Geometry artifact:
-
-- ID: `10448513343`;
-- name: `character-connected-shoulder-001-dcb2185a42072540ef2be37329735357561e01b5`;
-- GitHub size metadata: `12,990 B`;
-- SHA-256: `a2dc968971c254a11ccbc864236419387acef6ff72f64d05a5aeb8a315f86515`;
-- downloaded and independently rehashed to the exact same digest;
-- retained exact head: `dcb2185a42072540ef2be37329735357561e01b5`;
-- retained Organic donor head: `20f6413f1b09e32cb3667ccd01f266cd849d8e93`;
-- retained UC donor head: `dde8d952161788f8bf21118f91edd3163e51277d`;
-- artifact includes both OBJ specimens, exact mesh JSON, construction/provenance JSON and the topology audit receipt.
-
-Candidate digests recorded by the retained receipt:
-
-- left: `0f36b0df287581bc94cc88a000c09bda6f126f44be6a088fbb853f52a31fc19f`;
-- right: `171a17bd20c0871736bc1ee229ce4c2f06d4e80405e996dcc2e184541996161d`.
+The ZIP was downloaded during this activation and independently rehashed to the same SHA-256. Its receipt, exact-head files, current source-control OBJ and segmented candidate OBJ were inspected directly.
 
 ## Handoffs
 
-### Organic Form / Character source owner
+### Hard Surface / Building source owner
 
-The adopted E source remains authoritative and unchanged. The eight clipped seam samples are derived from exact accepted E trajectories; the two inferior closure samples remain explicitly Geometry-only. If future Organic work changes E semantics, Geometry must rebind/rebuild rather than silently inheriting this proof.
+This is now a concrete source-level choice, not a hidden Geometry assumption. If the source owner wants an interpenetration-free primitive representation, migrate it explicitly into a new Building source/builder identity and rerun Hard-Surface evidence. Do **not** relabel this derived Geometry candidate as already adopted.
 
-### Rigging / Deformation
+The candidate changes representation identity from two long header boxes to six header segments while preserving exact occupied solid union. That semantic/authoring tradeoff belongs to Hard Surface.
 
-There is now an exact connected Geometry identity suitable for a **new independent deformation probe**. Rigging may consume PR #3 only by pinning its exact head/candidate digest and rerunning weighting/deformation evidence. The Geometry PASS does not inherit Organic visual acceptance or establish skinning quality.
+### Runtime / Optimization
 
-### Visual Observer / Art Direction
+If Hard Surface considers adoption, measure the exact successor rather than inferring performance from Geometry metrics. The structural representation delta is `+4 box objects / +32 vertices / +48 triangles`; no draw-call, frame-time, memory or target-device conclusion is made here.
 
-Direct visual seam/pinch acceptance remains open. The chosen phase materially improves the local mesh over the exact phase-0 control, but the retained seam-normal metrics include a ~`90.50°` local peak and no render/deformation observation has accepted that response. Visual QA / Art Direction should inspect the exact candidate before any source adoption claim.
+### Materials / LookDev + Environment
 
-### Armor / Unit
+Current renders remain truthful for the exact source representation they consumed. Exact solid-union equivalence does not grant provenance equivalence. If a segmented source successor is adopted, rebind/rerun against its exact identity.
 
-Remain held behind exact connected Geometry **plus** downstream Rigging/deformation and fit evidence. Do not treat structural manifoldness as armor/unit readiness.
+### Procedural Design
+
+Current five-row procedural grammar remains truthful for the current source. The Geometry-only segment IDs are not source semantics. Do not absorb them until/unless Hard Surface creates an explicit successor representation.
+
+### Character Rigging / Visual QA
+
+The previous Character connected-shoulder handoff remains open and unchanged. Building work does not supersede that candidate or transfer any PASS to it.
 
 ### UC / Capability Cartography
 
-No Character-specific shoulder rules moved into UC. UC supplies only the existing generic topology observer. Animal PR #4 is recorded as a shared-ring / phase-evidence precedent only; no Animal geometry or PASS is inherited.
+Keep this source-specific segmentation logic Building-local. One axis-aligned pavilion does not justify a generic UC boolean/segmentation abstraction. A reusable extraction would require materially different source domains and a stable neutral contract.
 
 ## Limitations / explicit non-claims
 
-This PASS does **not** establish:
+This activation does **not** establish:
 
-- Organic source migration of the connected candidate;
-- final Character production retopology;
-- generic vertex-manifoldness beyond the declared indexed/UC edge gates;
-- self-intersection freedom;
-- volume preservation;
-- final authored normals, tangents, smoothing or UVs;
-- acceptable shoulder pinch, silhouette or collar response in rendered views;
-- skinning, weighting or deformation quality;
-- animation behavior;
-- Armor / Unit fit;
-- materials or final visual quality;
-- engine/runtime import or target-device performance;
-- collision, physics or gameplay suitability;
+- source adoption of segmented headers;
+- semantic approval of changing two header components into six segments;
+- a boolean-unioned pavilion shell;
+- removal of coplanar/internal faces at face contacts;
+- global vertex-manifoldness or welded contact topology;
+- general self-intersection freedom outside the exact AABB overlap contract;
+- final normals, tangents, smoothing or UV readiness;
+- final material or visual quality;
+- architectural/structural engineering validity;
+- collision/navigation/gameplay suitability;
+- runtime performance, draw-call count, memory cost or target-device acceptance;
 - CANON, production readiness, game readiness or Geometry mastery.
 
 ## Four-root gate
 
-- **Truth:** connected edge topology is proved only for the exact derived specimens. The remaining visual/deformation/self-intersection gaps are named instead of being inferred from a green manifold result.
-- **Agency / non-domination:** Organic retains source/form authority; Rigging owns deformation; Visual QA / Art Direction own visual acceptance; Armor/Unit own downstream fit. Geometry does not silently take those decisions.
-- **Continuity:** PR #3 stacks exactly on Organic PR #2, pins source/mesh/donor identities, retains phase-0 control, emits exact rollbackable artifacts, and leaves the adopted source untouched.
-- **Wisdom before speed:** Geometry waited for the exact E source migration requested by Art Direction, reused UC only for its existing neutral observer, and compared ring phases before accepting the first structurally closed stitch.
+- **Truth:** exact current source lineage is pinned; source-positive overlap is measured before repair; exact solid-union equality is separately proved; remaining face-contact/internal-face gaps are retained instead of hidden under the interpenetration PASS.
+- **Agency / non-domination:** Hard Surface retains source semantics/adoption authority; Runtime owns performance acceptance; Materials/Environment own receiving/render acceptance; Geometry owns only the derived structural candidate.
+- **Continuity:** existing Building PR #6 was advanced rather than duplicated; previous Geometry head and current Hard-Surface source head are both explicit parents; historical box-topology proof remains rollbackable in ancestry.
+- **Wisdom before speed:** Geometry repaired only the exact four volumetric overlaps after source topology migration, rather than jumping directly to a broad boolean/CSG system or silently centralizing Building rules into UC.
 
 ## Previous Geometry lanes retained
 
-- **Building PR #6** remains green at exact head `407d3aaf36c26829a64d964143e34587df6d8ea1` with `PASS_DERIVED_CLOSED_OUTWARD_BOX_TOPOLOGY_19_REAL_COMPONENTS`; source adoption remains Hard-Surface-owned.
-- **Nature PR #10** remains structurally green at exact head `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f` with `PASS_EXPLICIT_LEAF_BACKFACE_CANDIDATE_3_REAL_OUTPUTS`; downstream representation/material/visual/runtime decisions remain held.
-- **Animal PR #4** remains the Animal-owned connected-chain lane and is not superseded by this Character work.
+- **Character PR #3:** exact head `dcb2185a42072540ef2be37329735357561e01b5`, `PASS_CHARACTER_E_CLIPPED_CONNECTED_SHOULDER_TOPOLOGY_WITH_PHASE_REPAIR`; Rigging/Visual QA handoffs remain open.
+- **Animal PR #7:** bounded `4.5°` connected-forelimb ring-phase candidate remains visual/adoption-held and separate from Rigging/Organic alternatives.
+- **Nature PR #10:** explicit leaf-backface candidate remains structurally green and downstream-held.
+- **Historical Building Geometry head `407d3aaf...`:** closed/outward box-topology repair remains preserved and is now source-owned by Hard Surface PR #2 rather than erased.
 
 ## Next Geometry / Topology pass
 
-1. Re-scan the whole constellation before continuing Character automatically.
-2. If Rigging or Visual QA returns a Geometry-owned shoulder defect, repair only that exact structural gap against PR #3 identity.
-3. If no such handoff exists, do not invent more Character topology; select the strongest unowned Geometry dependency elsewhere.
-4. Keep connected-candidate source adoption separate from structural proof unless the owning source specialist explicitly migrates it.
-5. Preserve exact source identity, rollback, domain ownership and all explicit non-claims.
+1. Re-scan the entire constellation; do not automatically continue Building.
+2. If Hard Surface adopts or rejects the segmented-header representation, preserve this derived evidence and respond only to the exact returned Geometry-owned gap.
+3. If Character Rigging or Visual QA returns a connected-shoulder topology defect, prioritize that exact handoff rather than inventing new Character topology.
+4. Do not attempt coplanar face-contact union/welding merely because it is the next theoretical Building step; require either source-owner intent or a clear downstream defect/cost justification.
+5. Preserve exact source identity, rollback, repo ownership, provenance and explicit non-claims.
