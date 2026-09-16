@@ -1,133 +1,137 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-16
-State: **PASS_BUILDING_CURRENT_WORLD_INFILL_REPAIR_EVIDENCE / EXACT CURRENT SOURCE + GODOT TWO-CONTEXT PROOF / FIRST ATTEMPT RETAINED INSUFFICIENT / AWAIT ENVIRONMENT ADOPTION + ART DIRECTION / VISUAL QA**
+State: **PASS_MULTI_SOURCE_NATURE_LEAF_SIDEDNESS_MATERIAL_STRATEGY_EVIDENCE / THREE CURRENT SOURCES × THREE GODOT CONTEXTS / MATERIAL-TWO-SIDED VISUALLY NEAR-EQUIVALENT TO EXPLICIT BACKFACES / RUNTIME + ENVIRONMENT + ART DIRECTION HELD / BUILDING INFILL HELD STABLE PENDING ENVIRONMENT COMPOSITION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status, current Building / Map work and cross-specialist handoffs before acting. `axm-create-me` remains coordination-only; all product/evidence changes stayed in the existing Building Materials PR #3. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status, current open design PRs and cross-specialist handoffs before acting. `axm-create-me` remains coordination-only. Product/evidence work stayed in the existing Nature Materials PR #5. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The dependency that held the prior activation is now satisfied: Map Environment PR #24 explicitly rebound the current world to source-owned Building head `57f66b1245812f0c3d402232a046b86c0b5c72d8` at exact Map head `43d89a7cac48e57ebede0db8fc9983e8144222a0`. Visual QA and Art Direction had already isolated one receiving-scene defect: the authored solid rear infill compressed too close to the near-black background and could read like open/dark bays. Art Direction requested the smallest repair first: **change only `infill_coating` while keeping frame, roof, slab, service panel, geometry, Weather, Nature, Object, path, cameras, lighting and composition fixed.**
+The previously selected Building infill candidate at exact Building Materials head `225cf82a61ec1512553fda2785ca101a54a6bd30` was **not** retuned. Visual QA and 3D Art Direction have since accepted the exact donor-context `#59666DFF` infill repair and explicitly asked Materials to hold it stable until Environment composes it over the newer source-correct / preferred-Weather-width world. Current Map Environment PR #24 is still exact head `0d8b2279ecbba47b9696a951db9513883fbef6c5` and still carries the predecessor Building material profile, so changing Building again would duplicate or destroy that clean one-variable handoff.
+
+The strongest unoccupied Materials question was therefore Nature leaf sidedness. Geometry PR #10 already proved an explicit opposite-wound backface candidate across three real Nature sources, but its own truth boundary correctly held whether duplicated geometry is preferable to a two-sided material/shader. The existing Nature Materials lane had only rendered that comparison on one sapling. This activation expands the renderer evidence to all three current source forms without migrating Geometry or widening material ownership.
 
 ## Bounded implementation
 
-Existing Building Materials PR #3 / branch `studio/materials-pavilion-surface-001` was advanced; no duplicate lane was opened.
+Existing Nature Materials PR #5 / branch `studio/materials-sapling-lookdev-001` was advanced; no second Materials lane was opened.
 
 Exact current Materials head:
 
-`225cf82a61ec1512553fda2785ca101a54a6bd30`
+`72d432a7706ffb604bee2bdd24dcf765d47bbc32`
 
-Held predecessor material profile SHA-256:
+Exact Geometry donor:
 
-`e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`
+- Nature Geometry PR #10 head `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`;
+- candidate state `PASS_EXPLICIT_DISJOINT_LEAF_BACKFACE_CANDIDATE`.
 
-Current candidate material profile SHA-256:
+New evidence components:
 
-`0c4834bf0fc9c0b7aa1a053f35f307b64596e13f305287ca3018b6182b2f6fe9`
+- `tools/build_leaf_sidedness_material_multisource.py`;
+- `lookdev-leaf-sidedness-multisource-proof/observe.gd`;
+- dedicated pinned-Godot workflow `materials-leaf-sidedness-multisource.yml`.
 
-Only one material scalar family changed:
+The three exact current source studies are:
 
-- held `infill_coating.albedo`: `#344047FF`;
-- retained first attempt: `#46535AFF`;
-- current candidate: `#59666DFF`.
+- `sapling-neutral-001`;
+- `compact-east-tree-neutral-001`;
+- `east-rear-tree-neutral-001`.
 
-`infill_coating` metallic remains `0.16`; roughness remains `0.68`. Frame, roof, slab and service-panel values are exact predecessor values. Component/material mappings are unchanged. No UV, texture, decal, weathering, geometry, source identity, camera, lighting or world-layout change was introduced.
+For each exact source the A/B holds source form, scalar review material values, lighting and camera derivation fixed and compares only:
 
-A Building-local current-world repair builder now fail-closes unless that exact one-variable boundary is maintained. Explicit negative controls reject unrelated roof changes, infill roughness changes and component/material remaps.
+1. **material-two-sided strategy** — exact migrated single-sided source mesh, woody material `CULL_BACK`, foliage material `CULL_DISABLED`;
+2. **explicit-backface strategy** — exact Geometry PR #10 disjoint opposite-wound leaf backfaces, woody and foliage material `CULL_BACK`.
 
-## Retained failed / insufficient candidate
+Per source, material-two-sided remains `390 vertices / 570 triangles`; explicit backfaces are `490 / 620`, i.e. the Geometry candidate adds `100 vertices` and `50 triangles` (`+8.771929825%` triangles relative to the source mesh).
 
-The first candidate (`#46535AFF`) reached the real receiving world and was **not** silently overwritten.
+The existing `sapling_material_profile_001` values are reused unchanged only as a fixed renderer reference. Its `source_scope` remains **`sapling-neutral-001`**. Applying those scalar values to the compact/rear bodies inside this proof is observation-only and does **not** widen the profile's source ownership or claim cross-source material adoption.
 
-Workflow `35108221810` completed successfully in pinned Godot 4.7.2 GL Compatibility, but the visual response remained too close to the dark mass:
-
-- predecessor changed-infill median luma: `21.8046`;
-- first-candidate median luma: `30.6642`;
-- more than `96%` of changed pixels remained below luma `32` in both fixed camera contexts.
-
-It is retained as:
-
-**`HOLD_INSUFFICIENT_INFILL_SEPARATION`**
-
-Retained first-attempt artifact:
-
-- ID `10451615541`;
-- SHA-256 `b93313b81ba8dae35b5e8d54d5012d76ba183d7564ba5a3abf4f6654c3f068b6`;
-- independently downloaded/rehashed to the same digest.
-
-An interim workflow run also failed after the candidate value changed because the workflow still pinned the first candidate's exact profile digest. That failure was treated as provenance, not a material defect: the workflow was repaired to derive the current profile digest while still explicitly asserting the exact one-variable material scope.
-
-## Exact current evidence
+## Exact target-host evidence
 
 Dedicated workflow:
 
-- `35108703130 — Building material current-world infill repair evidence` — **SUCCESS** on exact head `225cf82a...`.
+- `35115107305 — Materials multi-source leaf sidedness evidence` — **SUCCESS** on exact head `72d432a7...`.
 
-The workflow binds:
+Same-head inherited workflows also remain green:
 
-- current Materials head `225cf82a...`;
-- exact current Hard-Surface source `57f66b1245812f0c3d402232a046b86c0b5c72d8`;
-- exact Map current-source donor `43d89a7cac48e57ebede0db8fc9983e8144222a0`;
-- held predecessor material profile `e8dd0c33...`;
-- current candidate profile `0c4834bf...`.
+- Nature organic form baseline `35115107290` — SUCCESS;
+- UC Nature surface bridge `35115107413` — SUCCESS;
+- original one-source Materials leaf-sidedness proof `35115107258` — SUCCESS;
+- Materials Environment-context evidence `35115107253` — SUCCESS;
+- Materials sapling lookdev evidence `35115107481` — SUCCESS.
 
-Results:
+Structural result:
 
-**`PASS_BUILDING_CURRENT_WORLD_INFILL_REPAIR_STRUCTURE`**
+**`PASS_EXACT_MULTI_SOURCE_LEAF_SIDEDNESS_MATERIAL_AB_PACKET`**
 
-**`PASS_BUILDING_CURRENT_WORLD_INFILL_REPAIR_TARGET_HOST_DIAGNOSTICS`**
+Target-host result:
 
-Pinned target host: **Godot 4.7.2 GL Compatibility**.
+**`PASS_TARGET_HOST_MULTI_SOURCE_LEAF_SIDEDNESS_AB_CAPTURED`**
 
-All `17` retained world states reached the target host and all `34` fixed-camera candidate frames were retained.
+Pinned host: **Godot 4.7.2 GL Compatibility**.
 
-Exact A/B localization across every state:
+Each source is rendered from three derived contexts:
 
-- `path_eye`: `29,492` changed pixels per frame, fixed bbox `[384,290,715,407]`;
-- `elevated_oblique`: `11,289` changed pixels per frame, fixed bbox `[640,199,872,326]`.
+- `whole_three_quarter`;
+- `crown_back`;
+- `crown_low_grazing`.
 
-Hierarchy diagnostics over those exact changed pixels:
+This retains 18 PNGs total: `3 sources × 3 contexts × 2 strategies`.
 
-- predecessor median luma: `21.8046` in both contexts;
-- current candidate median luma: `39.8086` in both contexts;
-- predecessor below-luma-32 fraction: `97.7994%` (`path_eye`) / `96.6261%` (`elevated_oblique`);
-- current candidate below-luma-32 fraction: `0%` in both contexts;
-- mean luma lift: `+18.5017` (`path_eye`) / `+18.6626` (`elevated_oblique`).
+Exact changed-pixel results (`403,200` pixels per frame):
 
-Direct frame inspection shows the solid infill now separates materially from the near-black background while remaining visually subordinate to the galvanized frame and ochre service accents. This is a **Materials-scoped improvement and evidence PASS**, not final aesthetic approval.
+| source | whole 3/4 | crown back | low grazing |
+|---|---:|---:|---:|
+| sapling | `30 / 0.007440%` | `40 / 0.009921%` | `264 / 0.065476%` |
+| compact east | `16 / 0.003968%` | `61 / 0.015129%` | `250 / 0.062004%` |
+| east rear | `18 / 0.004464%` | `64 / 0.015873%` | `89 / 0.022073%` |
 
-Existing exact-head Materials workflows also remain green:
+Across all nine A/B contexts the changed-pixel range is therefore only `16..264` pixels, or `0.003968%..0.065476%` of the frame. The largest difference is the sapling low-grazing crown at `264` pixels.
 
-- `35108703067 — Building material lookdev evidence` — **SUCCESS**;
-- `35108703077 — Building material topology A-B evidence` — **SUCCESS**.
+Direct inspection of all retained images shows the two strategies are visually near-identical in these exact contexts. Small differences concentrate on thin leaf edges / grazing views; no whole-form hierarchy or foliage-presence difference is visible that would materially require duplicated leaf geometry in this proof host.
 
-## Retained current artifact
+This supports a **Materials-side candidate preference**, not a final renderer/runtime decision: carry foliage-level two-sided material rendering forward first because it preserves the exact source mesh and avoids the explicit `+100 vertices / +50 triangles` derivation while producing near-identical retained images here.
 
-Current-world repair artifact:
+## Retained evidence
 
-- ID `10451955371`;
-- size `5,003,993 B`;
-- SHA-256 `a45ca2e0359d8b06a4a70ca82616d88fa779fe7df7fe9a56d9ba24f2eb9adda1`;
-- independently downloaded/rehashed to the same digest.
+Artifact:
+
+- ID `10455440693`;
+- name `nature-leaf-sidedness-material-multisource-72d432a7706ffb604bee2bdd24dcf765d47bbc32`;
+- size `213,784 B`;
+- GitHub SHA-256 `ea0cf64bbc65032c81df22f68f85ce0201bfdd6f365625cce5dc987c48147456`;
+- independently downloaded/rehashed to the exact same digest.
+
+The archive retains the exact comparison packet, exact-head binding, target-host runtime receipt and all 18 PNGs.
 
 ## Handoffs
 
-Building Materials PR #3 comment `5699195207` records the exact candidate, first insufficient attempt, target-host metrics and truth boundary.
+Nature Materials PR #5 comment `5700019170` records the exact three-source evidence and the bounded Materials-side candidate preference.
 
-Map Environment PR #24 comment `5699198610` returns the successor as a receiving candidate without changing Map. Existing Map evidence remains truthful for its held predecessor until Environment explicitly adopts/rebuilds from this Materials head.
+Nature Geometry PR #10 comment `5700021489` returns the renderer evidence without invalidating the explicit-backface candidate. Geometry's candidate remains a truthful structural alternative and must not be deleted or source-adopted merely from this Materials result.
 
-Next acceptance belongs to Environment + 3D Art Direction + Visual Observer / QA. Materials should not alter lighting or another material family in the same proof; doing so would destroy the one-variable diagnosis.
+Next gates:
 
-## Reuse boundary
+- **Runtime / Optimization:** compare actual target-device cost of foliage `CULL_DISABLED` against explicit opposite-wound geometry. Fewer source triangles does not automatically mean cheaper GPU/fragment cost.
+- **Environment / World Art:** only after the current Building one-variable composition gate is resolved, test the chosen Nature sidedness candidate in the real receiving scene without mixing unrelated lighting/material changes.
+- **3D Art Direction + Visual Observer / QA:** retain final visual preference and receiving-scene acceptance.
+- **VFX / Rigging / Animation:** wind/deformation shading on two-sided foliage remains unproven.
 
-The reusable discovery remains methodological rather than a shared material ontology: when a receiving-scene hierarchy failure is localized to one surface family, hold source geometry, world, lighting, cameras and unrelated surfaces fixed; preserve failed candidates; then measure the exact changed footprint and response in more than one receiving context before handing aesthetic acceptance onward.
+No UC or Profession Fabric change is justified. The sidedness decision is Nature/renderer integration knowledge; UC already provides neutral mesh/surface transport and should not absorb Nature-specific leaf policy for convenience.
 
-This single Building/Godot repair does **not** justify centralizing Building material semantics into Universal Creation or Profession Fabric.
+## Building continuity preserved
 
-## Historical provenance retained
+The previous Building Materials result remains current and must not be silently rewritten:
 
-The prior source-authority rebind remains historical truth. Materials previously proved the source-owned closed/outward Building topology against the established BoxMesh reference at head `ca92ef79d65a2ba287b7a76464bedceb6a31a1b6`, after Hard Surface adopted Geometry PR #6's proven representation. That proof remains the prerequisite for this current-world repair; it is not overwritten by the new scalar candidate.
+- exact Building Materials head `225cf82a61ec1512553fda2785ca101a54a6bd30`;
+- only `infill_coating.albedo` changed from `#344047FF` to `#59666DFF`;
+- first retained insufficient candidate `#46535AFF` remains provenance;
+- workflow `35108703130` SUCCESS;
+- artifact `10451955371`, SHA-256 `a45ca2e0359d8b06a4a70ca82616d88fa779fe7df7fe9a56d9ba24f2eb9adda1`;
+- direct donor-world Visual QA and Art Direction preference have cleared the material-side hierarchy hold;
+- Environment still owns exact adoption over its newer current-world identity.
+
+Materials should **not** retune Building until Environment returns the combined successor, because doing so would erase the clean attribution already established.
 
 ## Non-claims
 
-No final Art Direction or Visual QA acceptance is claimed. No Environment adoption is claimed. No physical coating accuracy, final normals/tangents/smoothing, UV/texture/decal/weathering quality, Forward+/Vulkan/mobile/Blender renderer equivalence, target-device CPU/GPU/VRAM budget, collision/navigation/gameplay, CANON, production readiness, game readiness or Materials mastery is claimed.
+No target-device CPU/GPU/VRAM/frame-time or fragment-cost acceptance is claimed. No final Nature shader, normals/tangents, alpha cutout, transmission, subsurface, UV/texture, botanical reflectance, wind/deformation response, Map integration, final Art Direction/Visual QA acceptance, CANON, production readiness, game readiness or Materials mastery is claimed.
