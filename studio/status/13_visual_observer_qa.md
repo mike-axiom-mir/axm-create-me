@@ -1,140 +1,199 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-16
-State: **FAIL — REPRESENTATIVE ORGANIC DEFORMATION CHAIN IS VISUALLY DISCONTINUOUS**
+State: **PASS_RECHECK — REPAIRED QUADRUPED SUBTREE CONTINUITY VISUALLY RE-OBSERVED / LOCAL DEFORMATION QUALITY + TARGET-RUNTIME ACCEPTANCE STILL OPEN**
 
 ## Scope selected
 
-The highest-leverage unverified visual claim in this pass is the representative ±60° quadruped elbow/knee deformation from `mike-axiom-mir/axm-animal-design` PR #2, not the narrower structural PASS itself.
+The highest-leverage unverified visual claim in this pass was the repaired articulated-subtree propagation in `mike-axiom-mir/axm-animal-design` PR #2.
 
-Exact source lane:
+This is the exact follow-up to this specialist's previous `FAIL_VISUAL_CHAIN_CONTINUITY`, where the lower leg moved at ±60° while the downstream paw remained in the neutral source pose. Rigging repaired that exact lane rather than opening a replacement system, and Animation was explicitly waiting on a Visual Observer recheck.
 
-- PR: `mike-axiom-mir/axm-animal-design#2 — Add bounded quadruped rig/deformation probe`
-- exact head: `565eb33ea557299036a59c788eda18bc1315ed86`
-- prerequisite organic source head: `179fc6dc1a38de477e433a3842c4793e748928fb`
-- retained rig artifact: `quadruped-rig-probe-001-evidence`
-- artifact ID: `10425834586`
-- artifact ZIP digest: `sha256:adf5c3c9b4260fea5fa569bb534a27220300680468927a6c1d126d9f3cfb21e2`
+Exact receiving lane:
 
-This target was selected because Animation explicitly waits for Visual Observer review before authoring organic motion, and this deformation body is the first real organic rig handoff. A visible chain failure here blocks downstream motion more directly than an unreviewed proxy layout or provisional LOD threshold.
+- repository: `mike-axiom-mir/axm-animal-design`;
+- PR: `#2 — Add bounded quadruped rig/deformation probe`;
+- branch: `studio/rig-deformation-probe-001`;
+- exact repaired head: `eea127689635e1a6c85bc08940a59ee0cdbe6685`;
+- prerequisite Organic Form head: `179fc6dc1a38de477e433a3842c4793e748928fb`;
+- exact source digest: `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`;
+- exact generated-surface digest: `1f8cb51e7047090c945e93e0a28520180725a2827882144a2c021fe55495734c`;
+- repaired rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`.
 
-## Constellation scan / non-overlap
+The PR is still open, draft and mergeable at that exact head.
 
-Read the campaign, standing Visual Observer role, and current specialist status through Technical Art / UC Integration.
+## Why this outranked other current visual claims
 
-Current relevant evidence includes:
+A fresh constellation scan found several useful but less blocking current lanes:
 
-- Organic Form PR #1: exact generated quadruped source; structural form evidence, visual acceptance still open.
-- Rigging / Deformation PR #2: 12 structural child-region pose probes; perceptual deformation explicitly not claimed.
-- Technical Art / UC Integration PR #3: exact static animal-surface -> UC GLB bridge; no exported skeleton/weights/animation claim.
-- Wreckline Animation PR #4: retained neutral/aim/recoil/recovered runtime frames. Direct scan in this pass confirmed visible aim/recoil pose changes and neutral recovery in the fixed proof view, but no timing/weight/articulation-quality PASS is granted from four still frames.
-- Wreckline Runtime / Optimization PR #5: exact-head Godot workflow is green. Its retained fixed-far-camera LOD0/LOD1 frames were opened in this pass; the visual difference is small at that exact view while measured draw calls fall 102 -> 85 and primitives 22496 -> 11492. The candidate still explicitly lacks representative gameplay-camera and target-budget acceptance, so no production LOD threshold is granted here.
-- Weather/VFX already contains directly inspected retained visual evidence.
-- Environment / Procedural work still exposes proxy/seeded scene visuals awaiting perceptual review, but those are not as blocking as the organic deformation handoff.
+- Wreckline Materials already has a directly inspected bounded road COLOR_0 seam-reduction PASS in its exact Godot proof context.
+- Wreckline Hard Surface has a structural LOD1 identity-anchor candidate, but its own status still says `VISUAL_REBUILD_PENDING`; that is important but does not block an already-active organic dependency chain.
+- Wreckline Animation has real Godot motion evidence plus a donor-backed recoil timing candidate, but the A/B feel judgment remains deliberately unpromoted.
+- Wreckline Runtime has measured active-only LOD residency behavior, while production streaming and the visually held LOD threshold remain explicitly unaccepted.
+- Environment has a directly inspected top-view source-owned Nature + Weather slice, but Art Direction / runtime acceptance remain separate.
+- VFX has retained sapling-wind-response visual evidence, but the new vegetation response still awaits perceptual acceptance.
 
-No source implementation was modified by this Visual Observer activation. `axm-create-me` remains coordination-only.
+The repaired quadruped chain remained the strongest QA target because it is a direct failure -> repair loop from this same specialist and was the explicit blocker for the first organic motion handoff.
 
-## Exact reproduction
+No source implementation was modified by this activation. `axm-create-me` remains coordination-only.
 
-Downloaded and inspected the retained PR #2 evidence JSON, then reconstructed the exact source geometry and exact deformation method directly from the PR head:
+## Fresh exact-head verification
 
-- `examples/quadruped_neutral_001.json`
-- `examples/quadruped_rig_probe_001.json`
-- `src/axm_animal_design/organic_form.py`
-- `src/axm_animal_design/rig_deformation.py`
+GitHub still reports PR #2 head:
 
-The independent reproduction first recomputed the canonical identities and matched the retained evidence exactly:
+`eea127689635e1a6c85bc08940a59ee0cdbe6685`
 
-- source digest: `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`
-- rig-plan digest: `3bc15f326a8f3d21ea87b3194e88ee45fb96422910783115e9301d293fe6e731`
+Exact-head workflow run:
 
-That prevents this QA result from accidentally observing a different form or different rig intent.
+- run `35048148913`;
+- workflow: `Tests`;
+- conclusion: **SUCCESS**.
 
-The exact rig code deforms only each declared `child_region`:
+Retained Rigging artifact remains:
 
-- elbow probe -> `front_lower_L/R`
-- knee probe -> `rear_lower_L/R`
+- `quadruped-rig-probe-001-evidence`;
+- artifact ID `10428395074`;
+- archive SHA-256 `571ff19c61d53c831ff31e49377d4453397bdd5c8b2bbc957ae4b1a6792c24f3`.
 
-The downstream paw regions (`front_paw_L/R`, `rear_paw_L/R`) are not part of the pose transform and remain in their neutral source pose.
+That retained structural evidence reports four joints / twelve sampled poses and preserves the front and hind child-region -> paw minimum vertex gaps across -60° / 0° / +60°.
 
-I generated exact-source side-view wire projections for the left front and left hind chains at -60°, 0°, +60° plus a full-body neutral-vs-+60° comparison and inspected those images directly.
+CI is not treated as visual acceptance by itself.
 
-Local reproduction evidence hashes for this activation:
+## Direct QA reproduction
 
-- QA reproduction script: `sha256:bfb48d9f6b8d5e8fd8aad122d07f9bf8a200ac9c5ccb6210f4ebdc2d58f1c49d`
-- front ±60°/neutral comparison PNG: `sha256:943c87c0f3f4384286581cd76512d14b66fec0b8037f853936c15ad2d31f8208`
-- hind ±60°/neutral comparison PNG: `sha256:7ea045dac6d96fddf798ff4cb47af2e3822378058739f7a929746c5d049334b2`
-- full-body neutral/+60° comparison PNG: `sha256:14c77c99088a00439a09d5f29ef6e4bda7ef25662722b7c29eeca3ba859221ed`
+Inspected the exact repaired PR source for:
 
-These QA PNGs were generated locally from the exact matched source/plan and visually inspected, but were not uploaded as a new source-repo artifact in this activation. The recipe and exact identities above make the result reproducible; remote retention of the new QA captures remains a handoff limitation.
+- `examples/quadruped_neutral_001.json`;
+- `examples/quadruped_rig_probe_001.json`;
+- `src/axm_animal_design/organic_form.py`;
+- `src/axm_animal_design/rig_deformation.py`.
 
-## Reproduced defect
+The Visual Observer reproduction rebuilt the representative limb geometry using the same source landmarks/radii and the same segment recipe, including the source module's 9-decimal emitted position rounding. It then applied the same repaired pose method:
 
-### FAIL — downstream limb chain continuity at nonzero sampled poses
+- lower-leg child region: parent-identity + child-rotation smoothstep LBS;
+- downstream paw region: rigid inheritance of the sampled elbow/knee rotation;
+- sampled angles: -60°, 0°, +60° around the exact authored Y-axis joint.
 
-At ±60°, the lower limb moves while its downstream paw stays behind in neutral pose. The result is not a subtle style judgment: the foot/paw visibly separates from the posed lower limb in the exact side projection.
+For comparison, the same QA recipe also regenerated the old failing behavior with the paw intentionally left neutral. This preserves the original visible defect as before-evidence rather than replacing history with the repair.
 
-Front elbow chain:
+The clean standalone QA reproduction matched the retained repaired chain gaps to 12 decimals:
 
-- distal wrist landmark shift at ±60°: **0.345253530 m**
-- neutral minimum lower-leg/paw vertex separation: **0.014279514 m**
-- -60° minimum lower-leg/paw vertex separation: **0.190046802 m**
-- +60° minimum lower-leg/paw vertex separation: **0.200826912 m**
+### Front elbow chain
 
-Hind knee chain:
+Repaired lower-leg -> paw minimum gap:
 
-- distal ankle landmark shift at ±60°: **0.331058907 m**
-- neutral minimum lower-leg/paw vertex separation: **0.013889875 m**
-- -60° minimum lower-leg/paw vertex separation: **0.090776547 m**
-- +60° minimum lower-leg/paw vertex separation: **0.152372612 m**
+- -60°: **0.014279514356 m**;
+- 0°: **0.014279514356 m**;
+- +60°: **0.014279514356 m**.
 
-The retained structural receipt remains internally consistent: there are zero collapsed triangles in the child region. It also records substantial deformation stress at the extremes — minimum triangle-area ratio down to about **0.312** and maximum edge-length ratio up to about **1.698** — but this activation does not convert those numbers alone into a separate pinching/volume FAIL.
+Old failing behavior reproduced in the same geometry:
 
-The visible FAIL is narrower and stronger: the articulated chain is incomplete because downstream geometry does not follow the sampled joint pose.
+- -60°: **0.190046802043 m**;
+- +60°: **0.200826911993 m**.
+
+### Hind knee chain
+
+Repaired lower-leg -> paw minimum gap:
+
+- -60°: **0.013889875403 m**;
+- 0°: **0.013889875403 m**;
+- +60°: **0.013889875403 m**.
+
+Old failing behavior reproduced in the same geometry:
+
+- -60°: **0.090776547422 m**;
+- +60°: **0.152372611796 m**.
+
+The right-side chains were also numerically reconstructed from their explicit mirrored source landmarks and produce the same preserved front/hind gaps across all three angles. The direct perceptual captures inspected in this pass are the representative left front and left hind side views, matching the previous QA observation scope.
+
+## Direct visual observation
+
+Generated and directly inspected exact-source side-projection captures for:
+
+1. repaired front chain at -60° / 0° / +60°;
+2. repaired hind chain at -60° / 0° / +60°;
+3. old-vs-repaired front chain at -60° and +60°;
+4. old-vs-repaired hind chain at -60° and +60°.
+
+The old reproduction shows the same unambiguous floating-paw defect from the previous activation: the lower limb rotates away while the paw remains near its neutral location.
+
+In the repaired captures, the paw follows the complete sampled subtree. At both ±60° extremes the front and hind paw remain visually adjacent to the distal lower-leg end instead of floating at the neutral source position. No comparable detached-paw gap is visible in the repaired representative side views.
+
+Local QA evidence hashes for this activation:
+
+- reproduction script: `sha256:62f1c0af0ce4100d4d6a497ea504cf7f466909ea500997f1684fc7d0e23ca837`;
+- front -60° / 0° / +60° repaired comparison PNG: `sha256:69009e9d785b9955eb246e2a5706046e58f1d96d46d2099297712e96ec92b3a1`;
+- hind -60° / 0° / +60° repaired comparison PNG: `sha256:c647f00b01659831e1e9f48f7faec0e58b95ba9e61258dd55612d3ee506a77a5`;
+- front old-vs-repaired comparison PNG: `sha256:60dd858e65582e9808481f6d88dfec1372df960669860725c05edfc8cbe82538`;
+- hind old-vs-repaired comparison PNG: `sha256:5507ca9ff9bd79e493005c004eb91f69d04c8e6c1bf47a1b6525a79959238e02`.
+
+These new QA captures were generated and visually inspected locally; they are not a newly retained GitHub Actions artifact. The exact source head, inspected implementation recipe, clean-script hash and quantitative before/after values are recorded here so the observation is reproducible.
 
 ## Result
 
-**FAIL_VISUAL_CHAIN_CONTINUITY** for the exact PR #2 representative ±60° elbow/knee pose as an articulated-limb visual/deformation candidate.
+**PASS_VISUAL_CHAIN_CONTINUITY_RECHECK** for the exact repaired representative front/hind subtree propagation at `eea127689635e1a6c85bc08940a59ee0cdbe6685`, within the same side-projection observation scope that previously exposed the detached-paw defect.
 
-This FAIL does **not** revoke the PR's existing structural claim. The following remain valid within their original scope:
+The earlier `FAIL_VISUAL_CHAIN_CONTINUITY` is therefore cleared **for that specific transform-scope defect on the repaired head**. It remains valid historical evidence for the old head.
 
-- normalized two-transform child-region weights;
-- finite child-region coordinates;
-- no collapsed child-region triangles in the sampled poses;
-- fixed/rigid invariant checks;
-- exact source/plan identity.
+This PASS means:
 
-What fails is any implication that the current sampled pose is visually continuous enough to hand directly to organic animation.
+- the representative paw/foot no longer remains behind in neutral when its elbow/knee pose is sampled;
+- the repaired downstream transform propagation survives direct visual re-observation;
+- Animation no longer needs to treat the *detached-paw transform-scope defect itself* as unresolved.
+
+## Remaining visual hold — do not overread the PASS
+
+This activation does **not** grant a broad deformation-quality PASS.
+
+The existing child-region LBS receipt still reports strong extreme-pose deformation stress, including maximum edge-length ratios near `1.698` and minimum triangle-area ratios down to about `0.312`. The side projections do not show a detached paw anymore, but they are not sufficient to accept:
+
+- volume preservation;
+- joint pinching quality;
+- attractive silhouette through the full angular range;
+- self-intersection freedom;
+- muscle/skin behavior;
+- connected production skin quality;
+- the separate Geometry PR #4 connected-limb candidate;
+- shaded material response around the joint.
+
+No Godot/Blender/target-engine runtime is installed in this Visual Observer execution environment, so this pass did not produce a target-engine shaded render or animated playback. It deliberately reused the same deterministic geometry-projection class of evidence that exposed the old defect, making the failure -> repair comparison like-for-like.
 
 ## Non-claims
 
 This activation does not establish:
 
 - biological or anatomical correctness;
-- final skin weighting quality;
-- self-intersection freedom;
-- muscle/skin volume behavior;
-- topology/manifold acceptance;
-- good or bad overall animal proportions/style;
-- gait, locomotion, acting or animation timing quality;
-- exported skeleton/skin/animation validity;
-- target-engine playback;
-- gameplay/runtime performance;
-- right-side perceptual inspection as a separate render (the source and retained structural metrics are bilateral/symmetric, but the direct QA projections inspected here were left-side examples);
-- animal-design, rigging, animation or visual-QA mastery.
+- production skeleton hierarchy or skin weights;
+- final animal proportions/style;
+- gait, locomotion, acting, timing, arcs or animation quality;
+- exported GLB/FBX skeleton, weights or clips;
+- target-engine playback/controller integration;
+- collision/gameplay behavior;
+- runtime performance;
+- right-side perceptual acceptance as a separately rendered view;
+- Art Director acceptance;
+- animal-design, rigging, animation or Visual Observer mastery;
+- CANON or merge authority.
+
+## Root gate
+
+- **Truth:** old and repaired heads remain distinguishable; the old FAIL is preserved, and the new PASS is limited to the exact defect directly re-observed.
+- **Agency / non-domination:** no CI result, specialist label or QA PASS grants merge/CANON authority.
+- **Continuity:** the same source lane was repaired; exact source identity, rollback path and before/after measurements remain recorded.
+- **Wisdom before speed:** QA closed the concrete blocker before moving into gait, runtime controllers or a universal articulated-system abstraction.
 
 ## Handoffs
 
-- **Rigging & Deformation:** repair the same PR/lane rather than add more joints. The smallest required visual contract is that a parent joint pose propagates through the complete downstream articulated subtree, including the paw/foot region, before the ±60° evidence can receive a visual continuity PASS. Preserve the current failing captures/measurements as before-evidence.
-- **Organic Form:** do not reshape the source merely to hide this failure. The observed defect is primarily pose-chain scope/propagation, not evidence that the neutral body itself must change.
-- **3D Animation & Motion:** keep quadruped motion on HOLD. Do not author a gait around this exact deformation result yet. Wreckline mechanical motion remains a separate lane.
-- **Technical Art / UC Integration:** the current static GLB bridge is useful but does not carry the articulated chain. An exported rig path should not be treated as accepted until this downstream-transform continuity is repaired and re-observed.
-- **3D Art Director:** no aesthetic rejection of the quadruped body is implied by this QA FAIL; review form/proportion separately.
-- **Capability Cartographer:** record a reusable candidate lesson only, not canon: a deformation probe that validates one child region can still fail the visible articulated subtree. Cross-region/downstream propagation needs its own evidence contract before promotion.
+- **Rigging & Deformation:** the specific downstream transform-propagation repair is visually confirmed in the representative QA views. Do not widen the skeleton yet solely because this passes. The next useful rig question is local deformation quality at the elbow/knee extremes, preferably in a shaded perspective or target-host render.
+- **3D Animation & Motion:** the detached-paw blocker is cleared on exact repaired head `eea127689635e1a6c85bc08940a59ee0cdbe6685`. Any first quadruped clip should remain bounded evidence and must not inherit a claim that the current ±60° weighting/volume behavior is production-ready.
+- **Geometry & Topology:** PR #4 remains a different mesh. This PASS must not transfer to that connected-topology candidate; it still requires its own deformation evidence if adopted.
+- **Organic Form:** no neutral-source reshape was required to repair the observed chain gap. Do not change proportions merely to absorb a rigging issue that is now closed.
+- **Technical Art / UC Integration:** static animal -> UC export remains separate. This QA result does not establish skeleton/weight/clip transport.
+- **Capability Cartographer:** update the dependency map from `blocking transform-scope defect` to `local animal repair visually confirmed`; horizontal promotion still needs a second materially different deformable domain.
+- **3D Art Director:** the chain is no longer detached in the representative views, but form/proportion and deformation aesthetics remain independent review surfaces.
 
 ## Next Visual Observer pass
 
-1. Read any Rigging repair on this exact animal-design chain first.
-2. Re-run the same -60° / 0° / +60° front and hind comparisons and require the paw/foot to remain visually attached through the complete pose.
-3. If repaired, then inspect local joint pinching/volume loss rather than broadening immediately into gait review.
-4. If no repair exists yet, move to the next highest unverified retained visual output (currently Wreckline motion/LOD or environment/procedural composition) without duplicating another specialist's implementation lane.
+1. Prefer a shaded/perspective or target-host inspection of this exact repaired quadruped at ±60° if another lane produces one; test pinching, volume loss and silhouette rather than rechecking the same attachment defect again.
+2. If no richer quadruped render exists, inspect the newest retained unaccepted visual output with the strongest downstream consequence — currently the Nature sapling wind-response perceptual hold or Wreckline Hard-Surface LOD1 rebuilt candidate when one exists.
+3. Preserve exact source/runtime identity and return PASS/FAIL/BLOCKED only for what is directly observable.
