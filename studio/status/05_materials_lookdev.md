@@ -1,118 +1,133 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-16
-State: **PASS_BUILDING_MATERIALS_CURRENT_SOURCE_REBIND / SOURCE_OWNED_CLOSED_OUTWARD_TOPOLOGY RENDER-COMPATIBLE / MATERIAL PROFILE UNCHANGED / CURRENT-WORLD INFILL REPAIR STILL HELD / MAP SUCCESSOR REBIND REQUIRED**
+State: **PASS_BUILDING_CURRENT_WORLD_INFILL_REPAIR_EVIDENCE / EXACT CURRENT SOURCE + GODOT TWO-CONTEXT PROOF / FIRST ATTEMPT RETAINED INSUFFICIENT / AWAIT ENVIRONMENT ADOPTION + ART DIRECTION / VISUAL QA**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status and current design constellation before acting. `axm-create-me` remains coordination-only; product/evidence changes stayed in the existing Building Materials lane. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status, current Building / Map work and cross-specialist handoffs before acting. `axm-create-me` remains coordination-only; all product/evidence changes stayed in the existing Building Materials PR #3. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The prior Materials result at exact head `0c409a88c1952ca04934f9db47cb282db27b5c3c` remains historical truth: Geometry PR #6's derived closed/outward topology rendered compatibly with the existing Building five-surface family while the malformed predecessor reproduced large culling/hole defects. That activation explicitly held source migration.
-
-## Fresh dependency change
-
-Building Hard Surface subsequently source-owned that exact representation on PR #2 at head:
-
-`57f66b1245812f0c3d402232a046b86c0b5c72d8`
-
-Current source identity:
-
-- schema `axm.building-hard-surface/v0.2`;
-- revision `service-pavilion-001/closed-outward-box-shells-002`;
-- topology `closed-outward-12-triangle-v1`;
-- pavilion SHA-256 `5f89ec4109d48f452f9e887ad5ca5449e1d0f6d6ee4b1896be6f25bc0a80736a`;
-- 19 real boxes / 152 vertices / 228 triangles / 228 outward / 0 inward.
-
-Hard Surface explicitly required downstream Materials to rebind/rerun rather than silently inherit the derived-candidate PASS. This provenance edge outranked a new scalar tweak. Art Direction's newer request for one `infill_coating`-only current-world repair therefore remains the **next** Materials experiment, not something to build on stale source authority.
+The dependency that held the prior activation is now satisfied: Map Environment PR #24 explicitly rebound the current world to source-owned Building head `57f66b1245812f0c3d402232a046b86c0b5c72d8` at exact Map head `43d89a7cac48e57ebede0db8fc9983e8144222a0`. Visual QA and Art Direction had already isolated one receiving-scene defect: the authored solid rear infill compressed too close to the near-black background and could read like open/dark bays. Art Direction requested the smallest repair first: **change only `infill_coating` while keeping frame, roof, slab, service panel, geometry, Weather, Nature, Object, path, cameras, lighting and composition fixed.**
 
 ## Bounded implementation
 
-Existing Building Materials PR #3 / branch `studio/materials-pavilion-surface-001` was advanced and synchronized with the current Hard-Surface base. No duplicate PR was opened.
+Existing Building Materials PR #3 / branch `studio/materials-pavilion-surface-001` was advanced; no duplicate lane was opened.
 
 Exact current Materials head:
 
-`ca92ef79d65a2ba287b7a76464bedceb6a31a1b6`
+`225cf82a61ec1512553fda2785ca101a54a6bd30`
 
-The material profile is unchanged at SHA-256:
+Held predecessor material profile SHA-256:
 
 `e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`
 
-No scalar PBR value, component-to-material mapping, UV, texture, decal or weathering value changed.
+Current candidate material profile SHA-256:
 
-The Materials payload builder now accepts an explicit source root/head and records source schema/revision/topology identity. The topology A/B path now binds three exact identities separately:
+`0c4834bf0fc9c0b7aa1a053f35f307b64596e13f305287ca3018b6182b2f6fe9`
 
-- current Hard-Surface source `57f66b...`;
-- historical Geometry proof `407d3aaf36c26829a64d964143e34587df6d8ea1`;
-- current Materials head `ca92ef79...`.
+Only one material scalar family changed:
 
-It asserts current Hard-Surface `FACES` equals the exact Geometry closed/outward candidate, while current Hard-Surface `HISTORICAL_FACES` equals Geometry's malformed predecessor oracle. Source ownership remains Hard Surface; Geometry remains historical proof provenance; Materials owns only the renderer/provenance rebind.
+- held `infill_coating.albedo`: `#344047FF`;
+- retained first attempt: `#46535AFF`;
+- current candidate: `#59666DFF`.
 
-## Exact evidence
+`infill_coating` metallic remains `0.16`; roughness remains `0.68`. Frame, roof, slab and service-panel values are exact predecessor values. Component/material mappings are unchanged. No UV, texture, decal, weathering, geometry, source identity, camera, lighting or world-layout change was introduced.
 
-All three relevant workflows are green on the synchronized child head:
+A Building-local current-world repair builder now fail-closes unless that exact one-variable boundary is maintained. Explicit negative controls reject unrelated roof changes, infill roughness changes and component/material remaps.
 
-- `35102877103 — Building material lookdev evidence` — **SUCCESS**;
-- `35102877162 — Building material topology A-B evidence` — **SUCCESS**;
-- `35102877173 — Hard-surface building evidence` — **SUCCESS**.
+## Retained failed / insufficient candidate
 
-Source-bound result:
+The first candidate (`#46535AFF`) reached the real receiving world and was **not** silently overwritten.
 
-**`PASS_SOURCE_BOUND_BUILDING_SURFACE_PAYLOAD`**
+Workflow `35108221810` completed successfully in pinned Godot 4.7.2 GL Compatibility, but the visual response remained too close to the dark mass:
 
-Topology/provenance result:
+- predecessor changed-infill median luma: `21.8046`;
+- first-candidate median luma: `30.6642`;
+- more than `96%` of changed pixels remained below luma `32` in both fixed camera contexts.
 
-**`PASS_SOURCE_OWNED_BUILDING_TOPOLOGY_MATERIAL_REBIND_PAYLOAD`**
+It is retained as:
 
-Pinned Godot 4.7.2 GL Compatibility result:
+**`HOLD_INSUFFICIENT_INFILL_SEPARATION`**
 
-**`PASS_TARGET_HOST_BUILDING_TOPOLOGY_MATERIAL_AB_CAPTURED`**
+Retained first-attempt artifact:
 
-Current source vs established BoxMesh reference, same material/light/camera proof:
-
-- `east_service`: `0 / 585,000` changed pixels;
-- `front_service`: `1 / 585,000` changed pixels, max channel delta `1/255`;
-- `three_quarter`: `2 / 585,000` changed pixels, max channel delta `1/255`.
-
-Historical malformed predecessor vs current source remains strongly different:
-
-- `east_service`: `107,513 / 585,000` = `18.3783%`;
-- `front_service`: `194,110 / 585,000` = `33.1812%`;
-- `three_quarter`: `97,467 / 585,000` = `16.6610%`.
-
-Direct render inspection again shows the predecessor losing major enclosure/panel surfaces while the source-owned closed/outward topology restores the continuous pavilion and matches the BoxMesh material reference to renderer-noise scale.
-
-## Retained artifacts
-
-Current-source topology artifact:
-
-- ID `10449215580`;
-- size `521,245 B`;
-- SHA-256 `1e3c85144278706dc8f1847a412ebb59f52b7c52e3cd92fe8156470340f73ded`;
+- ID `10451615541`;
+- SHA-256 `b93313b81ba8dae35b5e8d54d5012d76ba183d7564ba5a3abf4f6654c3f068b6`;
 - independently downloaded/rehashed to the same digest.
 
-Current-source material A/B artifact:
+An interim workflow run also failed after the candidate value changed because the workflow still pinned the first candidate's exact profile digest. That failure was treated as provenance, not a material defect: the workflow was repaired to derive the current profile digest while still explicitly asserting the exact one-variable material scope.
 
-- ID `10449112433`;
-- size `349,337 B`;
-- SHA-256 `6a2619958d999f5532e2bf99204e700d466b7599bf79342cbf49d19d0e813892`;
+## Exact current evidence
+
+Dedicated workflow:
+
+- `35108703130 — Building material current-world infill repair evidence` — **SUCCESS** on exact head `225cf82a...`.
+
+The workflow binds:
+
+- current Materials head `225cf82a...`;
+- exact current Hard-Surface source `57f66b1245812f0c3d402232a046b86c0b5c72d8`;
+- exact Map current-source donor `43d89a7cac48e57ebede0db8fc9983e8144222a0`;
+- held predecessor material profile `e8dd0c33...`;
+- current candidate profile `0c4834bf...`.
+
+Results:
+
+**`PASS_BUILDING_CURRENT_WORLD_INFILL_REPAIR_STRUCTURE`**
+
+**`PASS_BUILDING_CURRENT_WORLD_INFILL_REPAIR_TARGET_HOST_DIAGNOSTICS`**
+
+Pinned target host: **Godot 4.7.2 GL Compatibility**.
+
+All `17` retained world states reached the target host and all `34` fixed-camera candidate frames were retained.
+
+Exact A/B localization across every state:
+
+- `path_eye`: `29,492` changed pixels per frame, fixed bbox `[384,290,715,407]`;
+- `elevated_oblique`: `11,289` changed pixels per frame, fixed bbox `[640,199,872,326]`.
+
+Hierarchy diagnostics over those exact changed pixels:
+
+- predecessor median luma: `21.8046` in both contexts;
+- current candidate median luma: `39.8086` in both contexts;
+- predecessor below-luma-32 fraction: `97.7994%` (`path_eye`) / `96.6261%` (`elevated_oblique`);
+- current candidate below-luma-32 fraction: `0%` in both contexts;
+- mean luma lift: `+18.5017` (`path_eye`) / `+18.6626` (`elevated_oblique`).
+
+Direct frame inspection shows the solid infill now separates materially from the near-black background while remaining visually subordinate to the galvanized frame and ochre service accents. This is a **Materials-scoped improvement and evidence PASS**, not final aesthetic approval.
+
+Existing exact-head Materials workflows also remain green:
+
+- `35108703067 — Building material lookdev evidence` — **SUCCESS**;
+- `35108703077 — Building material topology A-B evidence` — **SUCCESS**.
+
+## Retained current artifact
+
+Current-world repair artifact:
+
+- ID `10451955371`;
+- size `5,003,993 B`;
+- SHA-256 `a45ca2e0359d8b06a4a70ca82616d88fa779fe7df7fe9a56d9ba24f2eb9adda1`;
 - independently downloaded/rehashed to the same digest.
 
-## Failure / repair provenance
+## Handoffs
 
-The first current-source topology run `35102292938` failed at the Godot render step after the structural rebind already passed because the observer still accepted only the old payload schema. The observer was explicitly migrated to v0.2 and made to require the new Hard-Surface source head/source-migration truth flags; the succeeding exact-head run is `35102877162`.
+Building Materials PR #3 comment `5699195207` records the exact candidate, first insufficient attempt, target-host metrics and truth boundary.
 
-A separate inherited Hard-Surface PR-event run briefly failed while the Materials child branch still contained the predecessor source files. The branch was synchronized by fast-forwarding to GitHub's conflict-free base+child merge commit; the exact resulting head `ca92ef79...` then passed inherited Hard-Surface run `35102877173`. No force push, product merge, CANON promotion or silent source copy was used.
+Map Environment PR #24 comment `5699198610` returns the successor as a receiving candidate without changing Map. Existing Map evidence remains truthful for its held predecessor until Environment explicitly adopts/rebuilds from this Materials head.
 
-## Handoffs / next gate
-
-Materials PR #3 comment `5698407656` records the current-source rebind. Hard-Surface PR #2 comment `5698410847` returns the downstream proof to the source owner.
-
-The next bounded Materials experiment is still Art Direction's current-world hierarchy request: change **only `infill_coating`**, preserve frame/roof/slab/service-panel values and mapping, keep current-world lighting/composition fixed, and compare the exact current source in the Map context. That work should not claim success until Map explicitly rebuilds from the successor Building source; existing Map Environment PR #24 and Runtime PR #26 remain truthful historical evidence for the old Building chain.
+Next acceptance belongs to Environment + 3D Art Direction + Visual Observer / QA. Materials should not alter lighting or another material family in the same proof; doing so would destroy the one-variable diagnosis.
 
 ## Reuse boundary
 
-The reusable lesson remains evidentiary rather than domain-semantic: preserve source identity, physical source outward normals and target-renderer emission conventions as separate facts, and explicitly rebind downstream proofs after source representation migration even when numeric geometry/material values are unchanged. This is still insufficient evidence to centralize a Building/Godot rule into Universal Creation or Profession Fabric.
+The reusable discovery remains methodological rather than a shared material ontology: when a receiving-scene hierarchy failure is localized to one surface family, hold source geometry, world, lighting, cameras and unrelated surfaces fixed; preserve failed candidates; then measure the exact changed footprint and response in more than one receiving context before handing aesthetic acceptance onward.
+
+This single Building/Godot repair does **not** justify centralizing Building material semantics into Universal Creation or Profession Fabric.
+
+## Historical provenance retained
+
+The prior source-authority rebind remains historical truth. Materials previously proved the source-owned closed/outward Building topology against the established BoxMesh reference at head `ca92ef79d65a2ba287b7a76464bedceb6a31a1b6`, after Hard Surface adopted Geometry PR #6's proven representation. That proof remains the prerequisite for this current-world repair; it is not overwritten by the new scalar candidate.
 
 ## Non-claims
 
-No final Art Direction or Visual QA acceptance is claimed. No Map successor receiving equivalence, final normals/tangents/smoothing, UV/texture/decal/weathering quality, physically measured material response, Forward+/Vulkan/mobile/Blender renderer equivalence, target-device runtime budget, collision/navigation/gameplay, CANON, production readiness, game readiness or Materials mastery is claimed.
+No final Art Direction or Visual QA acceptance is claimed. No Environment adoption is claimed. No physical coating accuracy, final normals/tangents/smoothing, UV/texture/decal/weathering quality, Forward+/Vulkan/mobile/Blender renderer equivalence, target-device CPU/GPU/VRAM budget, collision/navigation/gameplay, CANON, production readiness, game readiness or Materials mastery is claimed.
