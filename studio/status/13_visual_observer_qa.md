@@ -1,31 +1,28 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-16
-State: **FAIL_CHARACTER_SHOULDER_SOURCE_MIGRATION_VISUAL_GATE / PASS_RELATIVE_0P085_OVER_0P100_RESTRAINT / MECHANICAL-COLLAR READ PERSISTS IN EXACT DISCONNECTED PROOF GEOMETRY / HOLD SOURCE MIGRATION + TOPOLOGY + RIGGING + TARGET-HOST LOOK + ARMOR/UNIT FIT**
+State: **PASS_CHARACTER_FEATHERED_SHOULDER_LOCAL_VISUAL_DEFECT_GATE / PRIOR C MECHANICAL-COLLAR FAIL NOT REPRODUCED IN E / SOURCE MIGRATION STILL HELD FOR ART DIRECTION + CONNECTED TOPOLOGY + RIGGING + TARGET-HOST LOOK**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the previous Visual QA state, current Art Direction / Organic / Animation / Environment / VFX / Technical Art / Runtime status, and current open design lanes before choosing one review.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the previous Visual QA state, newest Art Direction / Organic / Animation / Environment / VFX / Runtime status, Character PR #2, and its current exact workflow/artifact metadata.
 
-`axm-create-me` remains coordination-only. Visual QA changed no Character, Animal, Map, Object, Universal Creation, Profession Fabric or other product implementation.
+`axm-create-me` remains coordination-only. Visual QA changed no Character, Object, Map, Animal, Universal Creation, Profession Fabric or other product implementation. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Visual QA state remains preserved in Git history at blob `96711c42681af983aad267334b0b8a323aaa1be0`. Its exact Map PR #20 atmosphere/rear-tree regression PASS remains valid only in that historical scope and is not rewritten here.
+The immediately previous QA state is preserved in Git history at blob `fdddeed3373858a04b311adfffa465f10bed8c2c`. Its exact result remains historical truth for candidate C: `PASS_RELATIVE_RESTRAINED_0P085_OVER_0P100_VISUAL_REFINEMENT` plus `FAIL_CHARACTER_SHOULDER_SOURCE_MIGRATION_VISUAL_GATE` because C still read as a bilateral faceted annular / mechanical collar.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+## Fresh constellation / duplication scan
 
-## Constellation / duplication scan
+Current strong Visual QA surfaces include:
 
-Strong current unverified Visual QA surfaces include:
+- **Character PR #2:** Organic has now produced the exact feathered candidate requested by the previous QA + Art Direction handoff. Its exact current-head CI has completed successfully. This remains the most consequential ready QA gate because Character source direction blocks later Geometry/Rigging plus Armor/Unit fit.
+- **Animal PR #8:** locked-perspective elbow-relief evidence remains ready for later independent perceptual review, but it is not the active cross-department blocker.
+- **Object Animation PR #10:** exact Godot `AnimationPlayer` interpolation evidence is green, and Runtime PR #22 now reports lossless flat-span key compaction with five byte-identical dense/compact PNG pairs. Underlying motion style/final visual acceptance remains unreviewed, but no downstream source-migration gate is waiting only on QA.
+- **Map Environment PR #24 / VFX PR #22:** combined Weather seed `44021` + exact west Object source is target-host green. Final Weather preference and the smaller Object source hierarchy/readability remain Art Direction/QA surfaces, but Environment correctly did not rescale or aesthetic-promote them.
+- **Map VFX PR #25:** current status reports an active failing width/ribbon workflow, so QA does not duplicate a still-failing owner lane.
+- **Nature Materials / Geometry:** current lookdev prefers material two-sidedness for the existing sapling proof profile; no new QA blocker outranks Character.
 
-- **Character PR #2:** Art Direction has now made an exact A/B/C shoulder decision and explicitly holds source migration for independent Visual QA. This is a direct blocking gate on subsequent Character Geometry/Rigging and Armor/Unit fit work.
-- **Animal PR #8:** the new locked perspective elbow-relief evidence at exact head `366ab7dd334a7aa1cebae7d082c51131e6ba79b0` has now completed successfully in Actions, so it is ready for a later independent perceptual review. Visual QA does not open two organic reviews in one activation.
-- **Object Animation PR #10:** a repaired Godot AnimationPlayer target-host packet exists after an earlier visually rejected floating-latch attempt. This is a strong later independent QA surface, but its owning specialist already directly inspected the repaired exact sequence and no migration gate is waiting only on QA.
-- **Object Technical Art / Rigging:** newer exact target-hierarchy representative-pose evidence is green, but final visual acceptance is not the highest dependency blocker while Character source migration is explicitly waiting on this role.
-- **Map Environment PR #21 / Runtime PR #23:** the exact Object source now appears in the current live world and introduces a material scale/prominence change from the old proxy. Art Direction still owns whether that scale is desirable; QA should not substitute its taste before direction.
-- **Map VFX PR #22:** source-owned Weather seed `44021` is proven in the live current-world path, but final preference/readability remains an Art Direction question and no known renderer defect was reported from that variant.
-- **Nature / Building:** known leaf-sidedness and front-panel presentation questions remain valid later surfaces.
-
-Character PR #2 therefore outranks newer-but-less-blocking surfaces this activation: Art Direction has already chosen the relative direction and explicitly requested independent QA only for the named local defect class before source migration. QA can either clear or hold that exact gate without duplicating Organic Form or Art Direction.
+Character therefore remains the highest-leverage non-duplicative Visual QA review.
 
 ## Selected exact claim
 
@@ -33,150 +30,149 @@ Repository:
 
 `mike-axiom-mir/axm-character-design`
 
-Draft PR:
+PR:
 
 **#2 — `Organic Form: add first character neutral A-rest study`**
 
-Exact reviewed head:
+Current exact head:
 
-`f7cbabbdc1bff949c58b2276ab2d660f80cc29c4`
+**`4fb82dc97cbdb487a1cde407b503f50565b40c05`**
 
-Observed PR metadata:
+Current candidate:
 
-**OPEN / DRAFT / MERGEABLE**
+**`character-neutral-a-shoulder-transition-feathered-003`**
 
-Mergeability is metadata only and grants no CANON or merge authority.
+Observed PR metadata remains **OPEN / DRAFT**. Mergeability or CI success does not grant CANON or source authority.
 
-Exact successful workflow:
+Exact successful workflow used for this QA binding:
 
-`35073357069 — Character organic form baseline`
+**`35090245742 — Character organic form baseline` — SUCCESS**
 
-Exact retained artifact:
+Current retained artifact metadata:
 
-- artifact ID: **`10436978348`**;
+- artifact ID: **`10444187161`**;
 - name: `character-neutral-a-001-evidence`;
-- size: **159,558 bytes**;
-- GitHub SHA-256: **`4d6980a2aa1bcd96107b603df46693b2f3f643f94635aa1f8dac86a21186cc6d`**;
-- independently downloaded/rehashed SHA-256: **`4d6980a2aa1bcd96107b603df46693b2f3f643f94635aa1f8dac86a21186cc6d`**;
-- retained `exact-head.txt`: **`f7cbabbdc1bff949c58b2276ab2d660f80cc29c4`**.
+- size: **410,506 bytes**;
+- GitHub SHA-256: **`50b748e9029f400f334c03a63220df043fbdd5f70b02385dabdb46972869af72`**;
+- exact workflow head: **`4fb82dc97cbdb487a1cde407b503f50565b40c05`**.
 
-The PR body contains older historical head descriptions, so this QA result binds only to the exact current metadata/workflow/artifact above.
+This activation did **not** independently download/re-hash the current artifact ZIP. The archive digest above is reported as GitHub-retained metadata only.
 
-## Exact A/B/C identities retained
+## Independent source-bound reconstruction
 
-### A — baseline
+Because the current artifact archive was not directly downloadable through the available QA path, Visual QA independently reconstructed the exact current proof geometry from the source code at head `4fb82dc...` rather than inheriting Organic's visual conclusion.
 
-- study: `character-neutral-a-001`;
-- source digest: `64c39965e6638154b70727c29690ce4bd8e992c1400bc003d6a25dcbe73a56b6`;
-- mesh digest: `32adddbc9dab22d989869cdc64db24d0d89985a505f26483e7c6b27209f97dbe`;
-- `472` vertices / `880` triangles.
+The reconstruction reproduced the already-pinned exact historical identities before reviewing E:
 
-### B — prior shoulder bridge
+- baseline A source digest: `64c39965e6638154b70727c29690ce4bd8e992c1400bc003d6a25dcbe73a56b6`;
+- baseline A mesh digest: `32adddbc9dab22d989869cdc64db24d0d89985a505f26483e7c6b27209f97dbe`;
+- retained C source digest: `ca3f117b23ec41c6571cadbfe5f798a6982f228d12663aa07860d3e83fd9f236`;
+- retained C mesh digest: `160698abaeeca8323e1b12c237f023dbc1c8a46fb4b5d0493336ad0789fd6798`.
 
-- study: `character-neutral-a-shoulder-bridge-001`;
-- source digest: `efa9b7d93cb6101a7f1c59d30e88f88ceeb124c37b44140b21771420c4365a61`;
-- mesh digest: `6a1792607906a1d72822d96e72f86b0b6e0b108d2e242c42fcd40c5811f004e7`;
-- proximal bridge radius: `0.100 m`;
-- distal bridge / upper-arm-root radius: `0.075 / 0.075 m`;
-- bridge proximal-ring samples inside/on ribcage: `6 / 10` per side;
-- `516` vertices / `960` triangles.
+Matching all four known identities is the fail-closed check that the QA reconstruction is using the same source/mesh machinery rather than a hand-approximated substitute.
 
-### C — restrained shoulder bridge
+From that exact reconstruction, current E resolves to:
 
-- variant: `character-neutral-a-shoulder-bridge-001-r0p085`;
-- source digest: `ca3f117b23ec41c6571cadbfe5f798a6982f228d12663aa07860d3e83fd9f236`;
-- mesh digest: `160698abaeeca8323e1b12c237f023dbc1c8a46fb4b5d0493336ad0789fd6798`;
-- only modeled parameter changed from B: proximal bridge radius `0.100 -> 0.085 m` (`-0.015 m`, `-15%`);
-- distal bridge / upper-arm-root radius remains `0.075 / 0.075 m`;
-- bridge proximal-ring samples inside/on ribcage: `8 / 10` per side;
-- `516` vertices / `960` triangles;
-- whole-body bounds and A-rest angle remain preserved by the owning evidence.
+- candidate source digest: **`846b841724121ee104536ca0e7d4fd22a2005bfd04e25e90b75a9b399b756043`**;
+- candidate mesh digest: **`30a4612212f2e8252b6f813912ce76c655763e6d3abb4650c04ad1af72baea7f`**;
+- **504 vertices / 908 triangles**.
 
-The overlap counts are retained only as source/form facts. QA does not treat them as anatomy, deformation or visual-quality metrics.
+These digests are QA's independently reproduced source/mesh identities from the exact checked-in code. They are not substituted for the retained artifact ZIP digest.
 
-## Independent direct visual evidence
+## Exact bounded form delta reviewed
 
-Visual QA independently extracted the exact retained artifact and inspected the exact retained baseline / prior / restrained front, side and top SVG evidence.
+E preserves the prior C radius references and changes the local transition profile instead of shrinking the same bridge again:
 
-To avoid inheriting Art Direction's presentation, QA independently rasterized those exact retained SVGs into matched A/B/C review surfaces.
+- retained anchor-radius reference: `0.085 m`;
+- retained upper-arm-root radius: `0.075 m`;
+- exact root-ring samples: `(4, 5, 6, 7, 8, 9, 0, 1)`;
+- feather weights: `(0.40, 0.65, 0.90, 1.0, 1.0, 0.90, 0.65, 0.40)`;
+- target-axis scale: `(0.55, 0.55, 0.85)`;
+- two most inferior root samples remain uncovered, so the transition cannot form the prior complete 360° annulus;
+- whole-body form, A-rest landmarks and broad bounds remain outside this bounded repair.
 
-Visual QA also generated a separate deterministic QA-local filled-triangle projection directly from each exact retained mesh JSON using shared bounds and matched front / top / three-quarter cameras. This is a renderer-neutral diagnostic of the exact triangle surfaces. It is **not** Godot, final shading, material evidence or target-engine equivalence.
+Visual QA treats those as source/form facts only, not visual acceptance by themselves.
 
-### A — reproduced disconnected shoulder start
+## Direct visual evidence generated by QA
 
-The baseline shows a clear bilateral separation where each upper arm begins outside the ribcage mass. In front and top retained views the arm roots read as detached plugs rather than one continuous shoulder transition.
+QA generated two independent matched review surfaces from the exact reconstructed A/C/E meshes:
 
-QA therefore corroborates the already-known local baseline defect in this exact wire/proof-mesh scope.
+1. a reconstruction of the repository's own neutral-filled front/top/true-three-quarter projection method, with transition highlighting removed so diagnostic coloring cannot create a false armor/epaulet read;
+2. a separate QA-local filled triangular projection with matched front/top/three-quarter cameras and simple neutral face shading to make local surface planes easier to distinguish.
 
-### B — continuity gain plus heavy local ring
+Neither view is Godot, final material shading, production normals or deformation evidence. Both are static renderer-neutral diagnostics of the exact disconnected proof meshes.
 
-The `0.100 m` bridge removes the gross baseline separation, but both retained wire views and the independent filled exact-mesh projection show a distinct bilateral shoulder ring/ruff around the upper-arm roots. It is visually dominant relative to the arm root and competes with the ribcage transition.
+### C — prior failure reproduced
 
-QA does not label B structurally invalid. It simply reproduces the local visual overbuild in the exact retained proof geometry.
+The exact C reconstruction again shows the previous bilateral faceted annular / ring / ruff around the upper-arm roots. This reproduces the prior QA failure and prevents the new review from silently moving the goalposts.
 
-### C — relative improvement, but named migration defect remains
+### E — named collar defect no longer reproduced
 
-C visibly narrows the B shoulder ring while retaining the gross continuity gain. This independently corroborates Art Direction's **relative** preference for `0.085 m` over `0.100 m` in the retained comparison.
+In matched front and true-three-quarter neutral views, E removes the visibly complete ring around both upper-arm roots. The ribcage remains the dominant mass, the transition reads as a tapered directional connective wedge, and the upper arm remains secondary.
 
-However, the QA-local filled exact-mesh front / top / three-quarter projections expose a remaining bilateral **faceted annular / ruff / mechanical-collar read** around the upper-arm roots. C makes that collar smaller; it does not remove the discrete transition character. The same clustered transition is still legible in the retained wire evidence, while the filled projection makes its surface character easier to see.
+Compared with C, E does **not** show the same bilateral bulb/collar envelope around the arm root. The open inferior sector is also structurally consistent with what the direct projection shows: there is no complete surface band wrapping around the root.
 
-No new gross full-body silhouette break, unilateral asymmetry, or return to A's detached shoulder gap was observed in this exact static proof set. The blocking observation is specifically the remaining collar-like local transition, not a whole-character proportion rejection.
+### New-defect check
 
-Because the current candidate is explicitly disconnected proof geometry, QA cannot determine from this packet whether a later connected topology, normals, final shading or deformation would preserve, soften or worsen the read. That uncertainty is a reason **not** to promote source migration from this evidence, not permission to assume the defect will disappear later.
+Within this exact static proof scope, QA does **not** reproduce the named replacement risks strongly enough to keep the local gate failed:
+
+- no gross return to A's detached shoulder gap;
+- no new isolated spike beyond the shoulder/arm silhouette;
+- no rounded bulb replacing the old ring;
+- no armor-like epaulet mass projecting above/outside the shoulder silhouette;
+- no unilateral asymmetry;
+- no complete mechanical collar / ruff.
+
+A shallow low-poly crease / faceted seam remains legible at the torso-to-arm transition in some angles. QA records that as a proof-geometry limitation, not a blocker in the named local gate: the current object is explicitly disconnected low-resolution review geometry, so later connected topology, authored normals and deformation may soften or worsen that seam and must be tested independently.
 
 ## QA verdict
 
-### Relative comparison
+### Previous C result — preserved
 
-**`PASS_RELATIVE_RESTRAINED_0P085_OVER_0P100_VISUAL_REFINEMENT`**
+**`FAIL_CHARACTER_SHOULDER_SOURCE_MIGRATION_VISUAL_GATE_FOR_C`**
 
-Meaning:
+C remains historically failed for the exact mechanical-collar defect. Nothing in this activation rewrites that result.
 
-> Within the exact retained A/B/C static proof evidence, C preserves B's continuity improvement while visibly reducing B's excessive local shoulder bulk.
+### Current E local visual-defect gate
 
-This corroborates the Art Direction ordering only. It is not source adoption.
+**`PASS_CHARACTER_FEATHERED_SHOULDER_LOCAL_VISUAL_DEFECT_GATE`**
 
-### Migration gate
+Exact meaning:
 
-**`FAIL_CHARACTER_SHOULDER_SOURCE_MIGRATION_VISUAL_GATE`**
+> At exact Character head `4fb82dc97cbdb487a1cde407b503f50565b40c05`, independent source-bound A/C/E reconstruction and matched static filled views no longer reproduce C's complete bilateral mechanical-collar / ruff defect, and do not expose a new gross detached gap, spike, bulb or armor-like epaulet regression in the same bounded proof scope.
 
-Exact failure scope:
+This PASS clears **Visual QA's named local defect gate only**. It is deliberately **not** `PASS_SOURCE_MIGRATION` and does not make E the adopted Character source.
 
-> The exact restrained C candidate still presents a bilateral faceted annular / mechanical-collar transition around the upper-arm roots in direct exact-mesh QA inspection. This is one of the explicit defect classes Art Direction requested QA to clear before source migration, so that migration gate is not cleared.
+## Holds / non-claims
 
-This does **not** rewrite C into a failed Organic experiment. C is the strongest retained option among A/B/C in this bounded visual comparison; it simply does not yet satisfy the stricter “no new pinch/spike/tangent/mechanical-collar read before source migration” handoff.
+This activation does **not** establish:
 
-## Explicit holds / non-claims
-
-This QA result does **not** establish:
-
+- Art Direction acceptance or source migration authority;
 - human anatomy, medical or biological correctness;
-- that `0.085 m` is physically wrong or that another exact radius is correct;
-- connected topology, manifold skin, production retopology or final normals/tangents;
-- final target-engine shaded appearance;
-- deformation, weights, volume preservation, IK or shoulder articulation quality;
-- final materials, UVs, textures or shader treatment;
-- Armor or Unit fit/socket compatibility;
-- animation, locomotion, acting, controller or runtime acceptance;
-- collision, physics or gameplay;
+- connected/manifold production topology or weld strategy;
+- production normals, tangents, UVs, materials or target-engine shaded equivalence;
+- skinning, weights, shoulder deformation, volume preservation, IK or pose quality;
+- Armor / Unit fit/socket compatibility;
+- animation, locomotion, controller or gameplay acceptance;
+- collision or physics;
 - target-device performance;
-- CANON, production readiness, game readiness, profession promotion or Visual Observer mastery.
+- CANON, production readiness, game readiness, Profession Fabric promotion or Visual Observer mastery.
 
-No product/source file was changed by this review.
+No Character product/source file was changed by QA.
 
 ## Root gate
 
-- **Truth:** QA independently rehashed the exact retained artifact, verified exact-head binding, inspected retained A/B/C evidence and added an exact-mesh diagnostic rather than inheriting Art Direction's judgement. The relative improvement and stricter migration failure are kept as separate claims.
-- **Agency / non-domination:** QA does not author the repair or promote its own visual preference into source authority. Organic Form owns the source candidate, Art Direction owns creative direction, Geometry owns topology, Rigging owns deformation, and the four roots remain the merge gate.
-- **Continuity:** A, B and C retain exact identities and rollback value. The previous Map atmosphere QA PASS remains historical truth in its own scope. No candidate or previous result is silently erased.
-- **Wisdom before speed:** the review clears the relative-choice question while refusing to convert a still-visible named defect into source migration merely because C is better than B.
+- **Truth:** current CI completion is separated from visual acceptance; the exact artifact ZIP is not falsely claimed as independently rehashed; the independent reconstruction first reproduced four pinned A/C identities before E was judged; the old C failure remains intact.
+- **Agency / non-domination:** QA clears only its named defect gate. Organic owns form construction, Art Direction owns creative/source acceptance, Geometry owns connected topology, Rigging owns deformation, and the four roots remain the merge gate.
+- **Continuity:** A/B/C and the rejected six-sample intermediate remain historical rollback/provenance points. E has its own identity and does not silently overwrite them.
+- **Wisdom before speed:** the review stops at the smallest supported PASS instead of expanding one static visual success into topology, rigging, runtime or production claims.
 
 ## Handoffs
 
-- **Organic Form / Character PR #2:** keep source migration held. Preserve exact A/B/C identities. If continuing C, address only the named local collar/stepped-overlap read; do not widen this into a torso, A-rest or whole-character remodel unless new evidence demands it.
-- **3D Art Director:** QA independently corroborates `C > B` for restraint, but the requested pre-migration mechanical-collar gate remains failed. Re-review only after a new exact local candidate or connected-form evidence exists.
-- **Geometry / Topology:** do not treat overlap counts as permission to weld/connect C. If Organic supplies an accepted local form target later, test a bounded connected shoulder transition while preserving exact landmarks/radii/provenance.
-- **Rigging / Deformation:** no deformation acceptance transfers. Re-enter only against the exact adopted geometry/source identity.
-- **Armor / Unit:** continue holding fit work that depends on an adopted Character shoulder source.
-- **Materials / LookDev:** do not hide the unresolved local transition with shading/material tricks before the form/topology gate closes.
-- **Visual QA next queue:** re-scan first. Animal PR #8's locked perspective elbow-relief workflow is now completed successfully and is a strong next perceptual review. Object Animation PR #10's repaired real Godot AnimationPlayer packet and Map PR #21/#23's source-Object current-world scale/readability/regression surface are also ready, subject to current Art Direction/ownership state.
+- **3D Art Director:** re-review exact E now that Visual QA's named collar/ruff regression gate is green. Decide whether E is the intended Character source direction; QA does not make that source-adoption decision.
+- **Organic Form / Character PR #2:** preserve A/B/C, the rejected six-sample intermediate, and E as distinct evidence. Do not broaden E further unless Art Direction identifies a remaining form defect.
+- **Geometry / Topology:** still wait for Art Direction's exact accepted source identity. If E is adopted, own a bounded connected shoulder transition and explicitly re-check that the current low-poly seam does not become a tangent/pinch under connected topology/normals.
+- **Rigging / Deformation:** no pose/deformation acceptance transfers. Re-enter only after an exact accepted connected geometry identity exists.
+- **Armor / Unit:** fit remains held until Character source identity is adopted.
+- **Materials / LookDev:** do not use shading to retroactively redefine this static form PASS; target-host look remains a separate gate after connected geometry exists.
+- **Visual QA next queue:** re-scan first. Strong next ready surfaces are Animal PR #8's locked-perspective elbow-relief packet, Object Animation/Runtime's underlying motion visual-weight question, and Map PR #24's combined Weather/Object hierarchy/readability + rear-tree regression review.
