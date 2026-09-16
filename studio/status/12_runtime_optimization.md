@@ -1,253 +1,196 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / FOURTEENTH BOUNDED RUNTIME PASS / PASS_WEATHER_SOURCE_WIDTH_FIXED_CAMERA_RUNTIME_BUDGET_CHARACTERIZED / EXACT WEATHER WIDTH PRESENTATION COST BOUND IN CURRENT SOURCE-CORRECT WORLD / TARGET-DEVICE + FRAME-TIME + ARBITRARY-CAMERA HELD**
+State: **ACTIVE / FIFTEENTH BOUNDED RUNTIME PASS / PASS_PREBUILT_MESH_SWAP_UPDATE_COST_REDUCTION__HOLD_CADENCE / EXACT NATIVE-TYPE CACHE A/B PROVEN / VFX ADOPTION + TARGET DEVICE HELD**
 
 ## Current bounded claim
 
-This activation selected the fresh Environment / VFX Runtime handoff rather than reopening the already-proven Object animation-key lane or duplicating the historical Building-material submission lane.
+This activation resumed the already-open Map Runtime PR #29 rather than opening a duplicate optimization lane. The active question was the explicit VFX handoff at exact parent head `bbc8721a8af60b11e660773786426965c421e4ff`: can the fixed 17-state source-width Weather + animated-sapling presentation reduce timed update work by prebuilding the exact finite mesh resources before the unchanged `31.25 ms / 32 Hz` playback clock, while preserving the exact visual result?
 
-Current Environment PR #24 now carries the exact source-authored Weather-width presentation through the source-correct Building / Nature / Object current world and had already retained real Godot 4.7.2 GL Compatibility control/candidate evidence. Its remaining Runtime question was explicit and bounded:
+Scoped result:
 
-> What exact proof-host submission/memory-counter cost does the camera-projected source-width ribbon representation add over the inherited thin-line control in the two proven fixed cameras, while preserving the exact producer evidence and changing no visual producer code?
+**`PASS_PREBUILT_MESH_SWAP_UPDATE_COST_REDUCTION__HOLD_CADENCE`**
 
-Result:
+Owning implementation repository: `mike-axiom-mir/axm-map-design`
 
-**`PASS_WEATHER_SOURCE_WIDTH_FIXED_CAMERA_RUNTIME_BUDGET_CHARACTERIZED`**
+Existing draft Runtime PR: **#29 — `Runtime: compare prebuilt Weather mesh swaps against 32 Hz rebuilds`**
 
-Bounded budget decision:
-
-**`PASS_BOUNDED_SOURCE_WIDTH_PRESENTATION_COST__PLUS_144_PRIMITIVES_PLUS_2304_BUFFER_BYTES_NO_DRAW_OBJECT_TEXTURE_DELTA`**
-
-Owning repository: `mike-axiom-mir/axm-map-design`
-
-New draft Runtime PR: **#28 — `Runtime: bind Weather source-width presentation to exact proof-host budget`**
-
-Branch: `studio/runtime-weather-width-budget-001`
+Branch: `studio/runtime-weather-cadence-cache-001`
 
 Exact final tested Runtime head:
 
-`1e9691056d91d20a72639214a13aa8c72970e03b`
+`d60e747a8aa74f0a6e16c4398829b07313a5c1a7`
 
-PR state after this activation: **OPEN / DRAFT / MERGEABLE**.
+PR state: **OPEN / DRAFT / MERGEABLE**.
 
-`axm-create-me` remains coordination-only. No Runtime implementation, renderer rule, VFX semantic or domain source knowledge was moved into this repository.
+`axm-create-me` remains coordination-only. No Weather generator, VFX semantic, Map implementation or optimizer code was moved here.
 
-## Constellation / duplication scan
+## Why this lane / duplication check
 
-The previous Object Runtime result remains valid historical evidence at exact Object head `945be84f10a9dfc7665d56398caafa68812dd117`: lossless constant-span AnimationPlayer compaction remains `303 → 108` keys (`64.3564356435644%` fewer keys) over current Animation source authority, with five retained dense/compact PNG pairs byte-identical. Runtime did not reopen that solved bounded question.
+Runtime did not reopen the already-proven Object AnimationPlayer key compaction, Building five-surface submission cost, or source-width primitive/buffer-budget pass. PR #29 was already the active successor lane created from VFX PR #25's real wall-clock cadence failure, so continuing it was the smallest non-duplicative path.
 
-The older Map Runtime PR #26 remains truthful for its exact historical Building-material receiver. Its `+12 draw / +12 objects / +0 primitives` result belongs to the earlier Environment chain and is not silently transferred to the current source-successor world.
+Current neighboring ownership remains unchanged:
 
-Current neighboring lanes:
-
-- **Environment PR #24** owns current-world receiving composition and exact target-host visual/runtime receipts. Runtime consumes its retained evidence without modifying producer state.
-- **VFX PR #25** owns source-authored Weather-width presentation. Runtime measures only the exact successful donor identity consumed by Environment, not newer VFX heads or arbitrary-camera behavior.
-- **Building Materials / Environment / Visual QA / Art Direction** continue to own Building material hierarchy and visual preference. Runtime does not trade material surfaces against Weather cost in one experiment.
-- **Technical Art Map PR #27** is now green in current repository state; the older Runtime-status note that it was still failing is superseded. Runtime did not create a second Building source-successor budget lane because the fresh Weather-width handoff was the cleaner unoccupied question.
-- **Nature / Object / Character / Animal** expose no stronger unowned current Runtime regression than the fresh Weather presentation cost.
-- **Universal Creation / Profession Fabric** remain unchanged. One Godot receiving representation is insufficient evidence for a universal optimizer or cross-domain cost law.
-
-## Exact producer / evidence chain
-
-Exact Environment parent head:
-
-`0d8b2279ecbba47b9696a951db9513883fbef6c5`
-
-Exact Environment composition digest:
-
-`132e877c8016d833f43d7a4cfe303ad2595913c757b85dd212192eafafed1973`
-
-Exact retained Environment parent artifact:
-
-- ID `10452505109`;
-- SHA-256 `4ffc52fc421d38a92829d3bf663ab5a48dfc144d16f31028f742ce19855512f4`;
-- exact target host: **Godot 4.7.2 GL Compatibility**;
-- exact retained schedule: **17 states × 2 cameras**;
-- Weather source widths: **36** exact source-owned streak widths;
-- retained projected-width observations: **1,224**;
-- maximum retained projected-width residual: `0.00974698571769128 px` against the existing `0.05 px` gate;
-- five explicit near-plane endpoint clips remain retained rather than hidden.
-
-The successful VFX source-width donor identity consumed by this Environment composition remains:
-
-`15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`
-
-Weather source semantics remain Weather-owned; Runtime does not duplicate the Weather generator or camera-projection implementation.
+- **VFX PR #25** owns Weather semantics and whether any receiving representation is acceptable;
+- **Environment / Map** owns the current-world receiver and cameras;
+- **Runtime PR #29** owns only the bounded rebuild-vs-prebuilt-resource timing/cost experiment;
+- **Art Director / Visual QA** own visual acceptance;
+- **UC / Profession Fabric** receive no extraction from one Map-specific proof.
 
 ## Measure-before / after
 
+The control rebuilds the exact camera-projected Weather `ImmediateMesh` and animated sapling `ArrayMesh` inside each scheduled state. The candidate builds the same 17 Weather `ImmediateMesh` resources and 17 sapling `ArrayMesh` resources with the exact inherited builders before timing begins, then swaps those resources during playback.
+
 ### `path_eye`
 
-Thin-line control:
+Rebuild control:
 
-- draw calls: `32`;
-- objects in frame: `32`;
-- RenderingServer primitives: `5,992`;
-- observed buffer memory: `6,580,320 B`;
-- observed texture memory: `12,875,715 B`.
+- mean timed update duration: **`1.5001176471 ms`**;
+- maximum timed update duration: **`1.579 ms`**;
+- submit deadline misses: **`11 / 17`**;
+- update-end deadline misses: **`11 / 17`**;
+- post-draw deadline misses: **`17 / 17`**.
 
-Source-width ribbon candidate:
+Prebuilt native-type swap:
 
-- draw calls: `32`;
-- objects in frame: `32`;
-- RenderingServer primitives: `6,136`;
-- observed buffer memory: `6,582,624 B`;
-- observed texture memory: `12,875,715 B`.
+- mean timed update duration: **`0.0403529412 ms`**;
+- maximum timed update duration: **`0.060 ms`**;
+- mean update reduction: **`1.4597647059 ms`**;
+- maximum update reduction: **`1.519 ms`**;
+- submit deadline misses: **`7 / 17`** — four fewer than control;
+- update-end deadline misses: **`7 / 17`**;
+- post-draw deadline misses: **`17 / 17`** — unchanged.
 
-Exact stable delta across all 17 states:
+Prebuild cost observed before playback:
 
-- draw calls `+0`;
-- objects `+0`;
-- primitives `+144`;
-- observed buffer `+2,304 B`;
-- observed texture `+0 B`.
-
-Primitive-counter increase relative to this exact control: approximately **`+2.4032%`**.
+- cache build duration: **`22.419 ms`**;
+- observed buffer delta: **`+640,712 B`**;
+- observed texture delta: **`+174,752 B`**.
 
 ### `elevated_oblique`
 
-Thin-line control:
+Rebuild control:
 
-- draw calls: `39`;
-- objects in frame: `39`;
-- RenderingServer primitives: `7,750`;
-- observed buffer memory: `6,580,320 B`;
-- observed texture memory: `12,875,715 B`.
+- mean timed update duration: **`1.4766470588 ms`**;
+- maximum timed update duration: **`1.585 ms`**;
+- submit deadline misses: **`13 / 17`**;
+- update-end deadline misses: **`13 / 17`**;
+- post-draw deadline misses: **`17 / 17`**.
 
-Source-width ribbon candidate:
+Prebuilt native-type swap:
 
-- draw calls: `39`;
-- objects in frame: `39`;
-- RenderingServer primitives: `7,894`;
-- observed buffer memory: `6,582,624 B`;
-- observed texture memory: `12,875,715 B`.
+- mean timed update duration: **`0.0435882353 ms`**;
+- maximum timed update duration: **`0.070 ms`**;
+- mean update reduction: **`1.4330588235 ms`**;
+- maximum update reduction: **`1.515 ms`**;
+- submit deadline misses: **`12 / 17`** — one fewer than control;
+- update-end deadline misses: **`12 / 17`**;
+- post-draw deadline misses: **`17 / 17`** — unchanged.
 
-Exact stable delta across all 17 states is again:
+Prebuild cost observed before playback:
 
-- draw calls `+0`;
-- objects `+0`;
-- primitives `+144`;
-- observed buffer `+2,304 B`;
-- observed texture `+0 B`.
+- cache build duration: **`22.804 ms`**;
+- observed buffer delta: **`+640,152 B`**;
+- observed texture delta: **`+0 B`**.
 
-Primitive-counter increase relative to this exact control: approximately **`+1.8581%`**.
+Therefore the candidate proves a large reduction in the measured per-state update work, but **does not clear the unchanged 32 Hz presentation cadence**. The dominant proof-host boundary remains post-draw presentation timing rather than mesh construction alone.
 
-The observed total buffer counter increases by approximately **`+0.0350%`** in this proof host.
+## Exact visual evidence / Art Director tradeoff
 
-## Exact verification / retained evidence
+The final candidate intentionally uses the exact native resource types and inherited builders:
 
-Dedicated final Runtime workflow:
+- Weather: `ImmediateMesh`;
+- sapling: `ArrayMesh`;
+- 17 exact resources of each type per fixed-camera context;
+- exact Weather field, width-profile and sapling source identities retained.
 
-**`35112422059 — Runtime Weather source-width budget evidence — SUCCESS`**
+All six retained matched review pairs — states `0 / 8 / 16` in both fixed `1100×720` cameras — are **byte-identical** between rebuild and cached modes. Runtime therefore observed **no visual tradeoff in those exact retained pairs**.
 
-The final exact head also passed the inherited:
-
-- **Environment composition baseline** workflow;
-- **Procedural environment variation** workflow.
-
-The Runtime verifier requires:
-
-- exact Environment head + composition digest;
-- exact retained parent artifact identity and archive hash;
-- exact 17-state schedule and 36-streak source-width profile;
-- exact current target-host PASS prerequisite;
-- all 1,224 projected-width measurements retained;
-- maximum width residual still inside the existing `0.05 px` gate;
-- all five near-plane clips remain explicit;
-- stable control/candidate RenderingServer counter sets in both cameras;
-- exact control, candidate and delta counter values;
-- all **34** retained control/candidate frame pairs present at exact `1100×720` dimensions and byte-distinct.
-
-Retained Runtime artifact:
-
-- ID: **`10453115994`**;
-- name: `runtime-weather-source-width-budget-001-1e9691056d91d20a72639214a13aa8c72970e03b`;
-- size: **`1,134,034 bytes`**;
-- GitHub archive SHA-256: **`df26a7bc356cb8c13f9a0258a16c3f9aea7fccc8e99c02b97e4865e1aec50bab`**;
-- independently downloaded/rehashed SHA-256: **`df26a7bc356cb8c13f9a0258a16c3f9aea7fccc8e99c02b97e4865e1aec50bab`**.
-
-The artifact retains the exact Runtime receipt plus exact Environment structural/runtime/target-host parent receipts. The 68 original producer frames remain in the separately retained Environment artifact rather than being duplicated into the Runtime archive.
+The actual tradeoff is resource/runtime structure: one mutable Weather mesh + one mutable sapling mesh are replaced during cached mode by a finite prebuilt resource set, with the measured prebuild time and memory-counter increases above. Art/VFX retain authority over whether that trade is acceptable.
 
 ## Failure / repair provenance
 
-A cross-workflow regression was caught during this activation and remains part of the evidence history.
+This pass retained and repaired three real defects rather than weakening the evidence gate.
 
-Initial Runtime head:
+1. The original cache used `ImmediateMesh.duplicate(true)`. Retained evidence showed every cached Weather duplicate had **zero surfaces**, so the apparent timing win was invalid and cached frames lacked Weather. That result was rejected.
+2. The first live-surface snapshot repair hit a Godot parser/type-inference failure, then a second repair exposed that `ImmediateMesh` does not provide the attempted `surface_get_primitive_type` call in this proof host. Both failed runs remain provenance.
+3. An `ArrayMesh` snapshot version finally carried the geometry, but three elevated-camera A/B pairs differed by only **2–3 pixels at one green-channel LSB each**. The byte-identical gate was not relaxed. Runtime instead rebuilt each cache entry with the exact inherited producer builder and exact native mesh resource type. That final representation produced six byte-identical A/B pairs.
 
-`fc532090a34b096b471ce005fe09b5b40ab97e80`
+No failed result was silently promoted into the final claim.
 
-The first verifier/tests imported Pillow to recompute pixel-level image deltas. The dedicated Runtime workflow could install that dependency, but unrelated inherited generic regression workflows did not. As a result:
+## Exact verification / retained evidence
 
-- Environment composition baseline run `35112044766` failed at its regression step;
-- Procedural environment variation run `35112045009` also failed.
+Dedicated final workflow:
 
-That was a Runtime-created integration dependency, so Runtime repaired its own lane instead of modifying unrelated producer workflows. The final verifier/tests are **stdlib-only** for frame integrity: exact PNG signature/IHDR dimensions, byte identity/hash checks, and the already-authoritative parent target-host visual gate are composed without a new package requirement.
+**`35124892824 — Runtime Weather width cadence cache evidence — SUCCESS`**
 
-At final head `1e969105...`, the dedicated Runtime workflow and both inherited workflows are green.
+The workflow passed:
 
-No failed run was relabelled as success or deleted from provenance.
+- exact PR-head and VFX-parent ancestry binding;
+- exact retained Weather-variant parent identity;
+- exact Weather variation checkout;
+- exact source-width payload rebuild;
+- pinned Godot **4.7.2 GL Compatibility** real-host observation;
+- rebuild-vs-prebuilt native-mesh comparison;
+- exact Runtime verifier;
+- all six byte-identical visual review pairs;
+- deliberate cached source-identity drift rejection.
 
-## Visual tradeoff / Art Director handoff
+Retained artifact:
 
-Runtime changes no visual producer state and makes no aesthetic preference claim.
+- ID: **`10459026579`**;
+- name: `runtime-weather-width-cadence-cache-001-d60e747a8aa74f0a6e16c4398829b07313a5c1a7`;
+- size: **`2,829,116 bytes`**;
+- GitHub archive SHA-256: **`d3965bc922d7d6705d9dcfd9bd8352234eef9788f65c0b6128cc0dd49b3b2279`**;
+- independently downloaded/rehashed SHA-256: **`d3965bc922d7d6705d9dcfd9bd8352234eef9788f65c0b6128cc0dd49b3b2279`**.
 
-The retained Environment parent already establishes a small localized visible difference between thin-line and source-width Weather while the broader Building / Nature / Object / path composition stays fixed. Direct review of the retained exact artifact during this activation reproduced the parent-level visual scale:
-
-- `path_eye`: `680..747` changed pixels per matched frame, mean approximately `717.5882` / `792,000` (`~0.0906%`);
-- `elevated_oblique`: `958..985`, mean approximately `970.7059` / `792,000` (`~0.1226%`).
-
-That visual delta belongs to Art Direction / Visual QA judgment. Runtime's scoped conclusion is only that the exact selected presentation does **not** add draw-call, object or observed texture-memory counters in this proof host, while it **does** add `144` observed primitives and `2,304 B` observed buffer memory.
-
-The five near-plane endpoint clips remain a visual/representation boundary and are not optimized away.
+The exact final head also triggered the inherited Map workflow set; no queued, in-progress or failed workflow remained when this status was written.
 
 ## Reusable learning
 
-This pass exposes an important Runtime measurement rule:
+The bounded learning is not “cache everything.” It is narrower:
 
-**Do not use draw-call counts alone as the acceptance proxy for a visually richer receiving representation.**
+**When a dynamic presentation has a small finite exact state family, separate source-state construction cost from presentation cadence before changing visual semantics.**
 
-In this exact case, draw/object counts are unchanged while primitive work and observed buffer memory increase. A reusable budget contract should therefore bind the full evidence tuple that the renderer actually exposes — at minimum draw calls, objects, primitives, observed buffer and observed texture counters — plus the exact representation/camera/runtime identity.
+Here, prebuilding exact native-type resources reduces measured update construction from about `1.48–1.50 ms` to about `0.04 ms`, yet post-draw still misses the `31.25 ms` cadence in every sample. That prevents Runtime from misdiagnosing a presentation/synchronization bottleneck as a mesh-builder bottleneck.
 
-The exact `+144 primitives / +2,304 B` values are **not** promoted into a generic per-streak formula. The renderer may account for primitive/pass/backend behavior in ways this one proof does not decompose.
+The resource-set strategy remains Map/VFX-local because arbitrary streams, cameras, resolutions and target devices are unproven.
 
 ## Handoffs
 
-- **Environment PR #24:** exact child Runtime cost is now characterized without changing its composition or visual evidence. Handoff comment recorded on PR #24.
-- **VFX PR #25:** exact successful source-width donor cost is characterized only through the pinned Environment composition. No transfer to newer VFX heads or arbitrary cameras. Handoff comment recorded on PR #25.
-- **3D Art Director / Visual QA:** retain ownership of whether the authored-width visual delta is desirable. Runtime reports cost, not preference.
-- **Future target-device Runtime work:** if this presentation approaches adoption, next evidence should measure real CPU/GPU frame time, overdraw, residency and device-class behavior rather than extrapolating from these proof-host counters.
-- **Capability Cartography / Technical Art:** keep this budget contract Map-local until another materially different receiving representation reproduces the same need strongly enough to justify extraction.
+- **VFX PR #25:** source semantics remain untouched. Candidate is available only as a bounded receiving representation; VFX must explicitly adopt/rebind it if desired.
+- **Environment / Map:** no world composition, lighting, camera or Weather source state was changed.
+- **Art Director / Visual QA:** six retained A/B pairs are byte-identical; review the resource/memory tradeoff rather than a visual delta.
+- **Future Runtime:** the next meaningful boundary is presentation/post-draw scheduling or a target-device timing study, not further mesh-construction micro-optimization.
+- **Capability Cartography / Technical Art:** do not extract this strategy to UC/PF until materially different domains reproduce the finite-state-cache need.
 
 ## Historical continuity
 
-Previous thirteenth Runtime pass remains valid:
+The fourteenth Runtime pass remains valid historical evidence:
 
-- Object Runtime PR #22;
-- exact head `945be84f10a9dfc7665d56398caafa68812dd117`;
-- `PASS_LOSSLESS_CONSTANT_SPAN_ANIMATION_KEY_COMPACTION_OVER_CURRENT_SOURCE_AUTHORITY`;
-- `303 → 108` keys;
-- five dense/compact PNG pairs byte-identical;
-- retained artifact `10449327899`.
+- Map Runtime PR #28;
+- exact head `1e9691056d91d20a72639214a13aa8c72970e03b`;
+- `PASS_WEATHER_SOURCE_WIDTH_FIXED_CAMERA_RUNTIME_BUDGET_CHARACTERIZED`;
+- exact source-width cost `+0 draw / +0 objects / +144 primitives / +2,304 B observed buffer / +0 texture` in both fixed cameras;
+- retained artifact `10453115994`.
 
-Previous Map Building material-submission budget evidence also remains valid only for its exact historical chain. This new Weather-width budget does not rewrite either earlier result.
+Earlier Object Runtime PR #22 remains valid at exact head `945be84f10a9dfc7665d56398caafa68812dd117` with `303 → 108` lossless AnimationPlayer keys and five byte-identical dense/compact frame pairs. Earlier Building-material submission evidence also remains valid only for its exact historical chain.
 
 ## Explicit non-claims
 
 This PASS does **not** prove:
 
-- CPU frame time;
-- GPU frame time;
+- that 32 Hz presentation cadence is met;
+- CPU or GPU frame time on a target device;
 - FPS;
 - overdraw;
-- VRAM;
-- heap / allocator residency;
-- battery or thermal behavior;
+- VRAM or heap residency;
 - browser/mobile/console/handheld budgets;
-- arbitrary-camera or arbitrary-resolution Weather-width cost;
-- renderer-independent primitive/pass decomposition;
-- a generic per-streak cost formula;
-- physical precipitation dimensions or simulation;
+- arbitrary-camera/resolution behavior;
+- arbitrary or unbounded Weather streams;
+- that the prebuilt-resource memory trade is desirable;
+- VFX adoption;
+- physical precipitation correctness;
 - gameplay visibility, collision, damage or controller acceptance;
 - final Art Direction / Visual QA acceptance;
 - CANON;
@@ -256,12 +199,12 @@ This PASS does **not** prove:
 
 ## Four-root check
 
-**Truth:** exact producer/runtime identities, before/after counters, failed dependency regression, final green workflows, artifact digest and non-claims are kept separate. No target-device or frame-time claim is inferred from proof-host counters.
+**Truth:** invalid zero-surface cache evidence, parser/API failures, tiny visual mismatch evidence, final exact metrics, retained artifact identity and the remaining cadence failure are all kept distinct.
 
-**Agency / non-domination:** Runtime records the cost without forcing the visual choice. Art/QA remain free to accept, reject or replace the Weather presentation.
+**Agency / non-domination:** Runtime exposes the measured option and cost; VFX, Art and Map owners keep adoption authority.
 
-**Continuity:** Environment/VFX/Weather retain their source and receiving ownership; old Runtime results remain historical truth; the failed dependency version remains provenance rather than being silently rewritten.
+**Continuity:** the active PR lane, exact VFX parent, source identities and older Runtime results are preserved rather than relabelled or rewritten.
 
-**Wisdom before speed:** the smallest unoccupied measurable cost boundary was characterized and a cross-workflow dependency regression was repaired before adding new optimization machinery or universal abstractions.
+**Wisdom before speed:** the byte-identical gate was repaired by restoring exact native producer resource types instead of loosening acceptance criteria, and the result stops at update-cost reduction rather than overclaiming a cadence fix.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
