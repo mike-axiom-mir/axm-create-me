@@ -1,188 +1,136 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_CURRENT_WORLD_BUILDING_SUCCESSOR_WEATHER_WIDTH_STRUCTURE + PASS_CURRENT_WORLD_BUILDING_SUCCESSOR_WEATHER_WIDTH_TARGET_HOST / ART+QA-PREFERRED WEATHER WIDTH NOW COMPOSED OVER SOURCE-CORRECT BUILDING + NATURE + OBJECT WORLD / KNOWN BUILDING INFILL HIERARCHY FAIL PRESERVED**
+State: **ACTIVE / PASS_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_STRUCTURE + PASS_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_TARGET_HOST / EXACT BUILDING INFILL SUCCESSOR NOW COMPOSED OVER SOURCE-CORRECT + PREFERRED WEATHER-WIDTH WORLD / COMBINED ART+QA ACCEPTANCE HELD**
 
-## Continuity
+## Continuity / authority
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives in the existing `mike-axiom-mir/axm-map-design` Environment PR #24 lane. Building, Nature, Object and Weather/VFX retain their own source/semantic authority. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives in the existing `mike-axiom-mir/axm-map-design` Environment PR #24 lane; no new parallel Environment PR was opened. Map owns receiving composition. Building Hard Surface owns Building source topology, Building Materials owns material values, Weather/VFX own Weather semantics/source-width presentation, Nature owns vegetation source/representation, Object owns the Object source, Runtime owns performance acceptance, and Visual QA + 3D Art Direction own perceptual acceptance.
 
-The immediately previous Environment source-successor result remains historical truth at exact Map head `43d89a7cac48e57ebede0db8fc9983e8144222a0`, workflow `35103743617`, artifact `10448628965`, composition digest `f1507e8969a0343bcabad3078136a29f99d670b9261750e001f0ed500b4c8f6d`. It proved the source-owned Building successor inside the current world while preserving the five current materials, Weather, Nature, Object, path, cameras and lighting. This activation does not relabel or overwrite that proof; it consumes it as an exact retained parent.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The independent **`FAIL_CURRENT_WORLD_BUILDING_MATERIAL_VISUAL_HIERARCHY_GATE` remains active**. A source-topology PASS and a Weather-width PASS do not repair the dark `infill_coating`/background hierarchy.
+The immediately previous Environment result remains historical truth at Map head `0d8b2279ecbba47b9696a951db9513883fbef6c5`, workflow `35110236415`, artifact `10452505109`, SHA-256 `4ffc52fc421d38a92829d3bf663ab5a48dfc144d16f31028f742ce19855512f4`, composition digest `132e877c8016d833f43d7a4cfe303ad2595913c757b85dd212192eafafed1973`. It proved the source-owned Building successor plus Art/QA-preferred Weather source-width presentation while retaining Nature, Object, path, cameras and lighting. This activation explicitly consumes that exact retained parent rather than relabelling it.
+
+The older `FAIL_CURRENT_WORLD_BUILDING_MATERIAL_VISUAL_HIERARCHY_GATE` also remains historical truth for the predecessor material profile `e8dd0c33...`; it is not erased. Building Materials subsequently produced the exact one-variable successor requested by QA/Art Direction, and donor-context Visual QA + Art Direction preferred it. This activation tests that successor in the newer exact Environment world; it does **not** automatically transfer donor-context perceptual acceptance.
 
 ## Fresh constellation / non-duplication scan
 
-The strongest new Environment-ready integration edge was VFX, not Materials:
+The highest-leverage ready Environment handoff was Building Materials:
 
-- **Map VFX PR #25** is now green at exact head `15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`. It proves exact source-authored Weather width presentation in Godot 4.7.2 across the same 17 retained states and two fixed cameras. Independent Visual QA passed its readability/artifact gate, and 3D Art Direction explicitly prefers the source-width presentation over the thin-line control in this exact context while holding density, opacity, color, length, world composition and lighting fixed.
-- **Building Materials PR #3** has meanwhile advanced an active `infill_coating`-only current-world experiment at head `225cf82a61ec1512553fda2785ca101a54a6bd30`. That remains Materials-owned and unresolved at the constellation level; Environment does not copy, retune, accept or bypass it.
-- **Building Hard Surface PR #2** remains source authority for the closed/outward pavilion at `57f66b1245812f0c3d402232a046b86c0b5c72d8`.
-- **Nature** remains source authority for the moving sapling and migrated rear source; the rear source stays `CULL_BACK` in this proof.
-- **Object** remains source authority for the exact west equipment-case source already integrated into PR #24.
-- **Runtime** retains performance authority. The proof-host counters below are diagnostics only and do not transfer target-device acceptance.
-- **Technical Art / Capability Cartography** remain separate. No UC or Profession Fabric extraction is justified by this one composition.
+- **Building Materials PR #3** exact head `225cf82a61ec1512553fda2785ca101a54a6bd30` now carries the held `infill_coating` successor profile `0c4834bf0fc9c0b7aa1a053f35f307b64596e13f305287ca3018b6182b2f6fe9`. Only `infill_coating.albedo` changes `#344047FF -> #59666DFF`; metallic `0.16`, roughness `0.68`, frame/roof/slab/service values and mappings remain unchanged. Visual QA and 3D Art Direction already cleared this exact donor-context candidate and explicitly requested Environment composition over the newer source-correct / preferred-Weather-width world.
+- **Map VFX PR #25** remains source-width presentation authority at `15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`. No Weather density, opacity, color, length, seed, layout or projection semantics were changed here.
+- **Building Hard Surface PR #2** remains source authority at `57f66b1245812f0c3d402232a046b86c0b5c72d8`.
+- **Nature** remains source authority for the current moving sapling and migrated rear source; the rear source remains `CULL_BACK` in this proof. Nature Materials' newer multi-source sidedness experiment remains separate and was not mixed into this one-variable Building integration.
+- **Object** remains source authority for the exact west equipment case already integrated into PR #24.
+- **Runtime** remains separate; proof-host counters below are diagnostics only.
 
 Selected bounded question:
 
-> Can the exact Art Direction / Visual QA preferred Weather source-width presentation from VFX PR #25 be composed over the exact Environment PR #24 source-successor current world while preserving Building source/material identity, Object, Nature, path, cameras, lighting and the retained 17-state Weather/sapling schedule?
+> Can exact Building Materials head `225cf82...` / profile `0c4834...` be composed over exact Environment head `0d8b227...` while preserving Building source identity, all non-infill Building surfaces, the preferred Weather source-width representation, Nature, Object, path, cameras, lighting and the retained 17-state schedule?
 
 ## Selected bounded improvement
 
-Extended the **existing** Map Environment PR #24 branch; no parallel Environment PR was opened.
-
-Repository / PR:
-
-`mike-axiom-mir/axm-map-design#24 — Environment: converge Weather variant with exact Object source`
-
-Branch:
-
-`studio/environment-weather-variant-object-convergence-001`
+Extended existing Map Environment PR #24 / branch `studio/environment-weather-variant-object-convergence-001`.
 
 Exact tested head:
 
-`0d8b2279ecbba47b9696a951db9513883fbef6c5`
+`5b9b55ec67e31655f51d1acc67284816067e5be6`
 
-Exact retained parents:
+New receiving components:
 
-- Environment source-successor parent: `43d89a7cac48e57ebede0db8fc9983e8144222a0`;
-- Environment parent composition digest: `f1507e8969a0343bcabad3078136a29f99d670b9261750e001f0ed500b4c8f6d`;
-- VFX source-width donor: `15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`;
-- Weather source: `05b26c4e82bbe0a4de0ee7bee34179efc58b9719`, seed `44021`;
-- Building source successor: `57f66b1245812f0c3d402232a046b86c0b5c72d8`;
-- unchanged Building material profile: `e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`.
+- `tools/environment_building_infill_weather_width_current_world.py`;
+- `environment-proof/atmosphere_current_world_building_infill_weather_width_observe.gd`;
+- `.github/workflows/environment-building-infill-weather-width-composition.yml`;
+- `docs/ENVIRONMENT_BUILDING_INFILL_WEATHER_SOURCE_WIDTH_COMPOSITION_001.md`.
 
-New bounded receiving files:
+Exact parents:
 
-- `tools/environment_building_successor_weather_width_current_world.py`;
-- `environment-proof/atmosphere_current_world_building_successor_weather_width_observe.gd`;
-- `.github/workflows/environment-building-successor-weather-width-composition.yml`;
-- `docs/ENVIRONMENT_BUILDING_SUCCESSOR_WEATHER_SOURCE_WIDTH_COMPOSITION_001.md`.
+- Environment parent head `0d8b2279ecbba47b9696a951db9513883fbef6c5` / composition digest `132e877c8016d833f43d7a4cfe303ad2595913c757b85dd212192eafafed1973`;
+- Building Materials head `225cf82a61ec1512553fda2785ca101a54a6bd30` / profile `0c4834bf0fc9c0b7aa1a053f35f307b64596e13f305287ca3018b6182b2f6fe9`;
+- Building source head `57f66b1245812f0c3d402232a046b86c0b5c72d8`;
+- VFX source-width observer donor `15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`.
 
-The workflow checks out the **exact VFX PR #25 head** and installs its exact Weather-width observer implementation into the receiving proof host. Environment does not copy or redefine Weather projection semantics. The Environment wrapper changes only static-source construction so the exact source-successor five-surface Building is present instead of the older VFX donor world's neutral Building path.
-
-## Exact receiving contract / fail-closed boundary
-
-The structural composition requires both retained parent artifacts to PASS at their exact heads. For all 17 states it then requires:
-
-- exact index/time/Weather-field/sapling schedule match between the Environment and VFX parents;
-- all 36 Weather streak IDs/order and every non-width Weather field to match exactly before `source_width_px` is carried over;
-- exact Building successor receiving policy and source head;
-- exact unchanged five-surface material profile;
-- exact west Object source identity;
-- exact migrated rear Nature source identity;
-- unchanged path and cameras;
-- no unrelated Environment scene-state drift.
-
-Negative controls deliberately reject Environment-head drift, VFX-head drift, non-width Weather drift and Building-source drift. No nearest match, source rewrite, hidden material retune, density change, opacity change, camera change, lighting change or fallback proxy is allowed.
+Only `infill_coating` render response changes. Building geometry/source topology, frame/roof/slab/service materials, all 36 Weather source-width fields and non-width Weather state, Nature sources/sapling animation schedule, Object source, path, cameras, lighting and unrelated scene state are held fixed.
 
 ## Exact-head evidence
 
 Dedicated workflow:
 
-**`35110236415 — Environment Building-successor Weather source-width composition evidence` — SUCCESS**
+**`35117140030 — Environment Building infill + Weather source-width composition evidence` — SUCCESS**
 
 Structural result:
 
-**`PASS_CURRENT_WORLD_BUILDING_SUCCESSOR_WEATHER_WIDTH_STRUCTURE`**
+**`PASS_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_STRUCTURE`**
 
 Target-host result:
 
-**`PASS_CURRENT_WORLD_BUILDING_SUCCESSOR_WEATHER_WIDTH_TARGET_HOST`**
+**`PASS_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_TARGET_HOST`**
 
-Exact combined composition digest:
+Exact composition digest:
 
-`132e877c8016d833f43d7a4cfe303ad2595913c757b85dd212192eafafed1973`
-
-Exact source-width profile in this retained source identity:
-
-- 36 source streaks;
-- minimum `1.0225963961165463 px`;
-- mean `1.7082344652456096 px`;
-- maximum `2.3484236692002374 px`.
-
-## Real Godot target-host result
+`e6cea4098c4946dcfa80573d3e30d6d07a1e7c7b4c037b5962eeb3105ac8dfe1`
 
 Pinned host: **Godot 4.7.2 GL Compatibility**.
 
-The exact combined scene retained `17 states × 2 cameras × control/candidate = 68` frames.
+The exact combined scene retains `17 states × 2 cameras × thin-line/source-width = 68` frames. All 17 live samples are retained. All `17 × 2 × 36 = 1,224` projected Weather-width observations remain inside the existing `0.05 px` tolerance; maximum residual remains `0.00974698571769128 px`. One stable Weather resource identity and one stable sapling resource identity are observed. The exact Building successor profile reaches the host at `152 vertices / 228 triangles / 5 surfaces`; exact Object identity remains present; the rear Nature source remains present with `CULL_BACK`.
 
-All target-host gates pass:
+Proof-host counters remain stable per fixed camera:
 
-- all 17 live samples retained;
-- all 68 control/candidate frames retained;
-- all 34 thin-line control frames are **byte-identical to the exact retained Environment source-successor parent frames**;
-- all 34 source-width candidate pairs differ from control;
-- all `17 × 2 × 36 = 1,224` projected-width measurements are within the existing VFX `0.05 px` bound;
-- maximum residual remains `0.00974698571769128 px`;
-- one stable Weather resource identity and one stable sapling resource identity are retained;
-- exact Building successor/five-surface identity reaches the host;
-- exact west Object source reaches the host;
-- migrated rear Nature source reaches the host with `CULL_BACK`;
-- the five previously known near-plane endpoint clips remain explicit: `wind-streak-001` = 2, `wind-streak-005` = 3.
+- thin-line `path_eye`: `32 draw / 32 objects / 5,992 primitives`;
+- source-width `path_eye`: `32 / 32 / 6,136`;
+- thin-line `elevated_oblique`: `39 / 39 / 7,750`;
+- source-width `elevated_oblique`: `39 / 39 / 7,894`.
 
-Proof-host counter diagnostics:
+These are renderer diagnostics in this proof host, not CPU/GPU/FPS/overdraw/VRAM or target-device acceptance.
 
-- `path_eye`: thin-line control `32 draw / 32 objects / 5,992 primitives`; source-width candidate `32 / 32 / 6,136`;
-- `elevated_oblique`: control `39 / 39 / 7,750`; candidate `39 / 39 / 7,894`.
+## Direct retained-image evidence
 
-The candidate therefore adds the expected ribbon triangles while preserving draw/object counts in this proof host. This is not CPU/GPU/FPS/overdraw/target-device acceptance.
+Against the exact previous Environment source-width candidate frames, only the Building material successor produces a stable localized delta through all 17 dynamic states:
 
-## Retained evidence / direct image observation
+- `path_eye`: exactly `29,492` changed pixels/frame, fixed bbox `(384,290)-(715,407)`;
+- `elevated_oblique`: exactly `11,289` changed pixels/frame, fixed bbox `(640,199)-(872,326)`.
 
-Artifact:
+Changed-pixel median luma is `21.8046 -> 39.8086` in both cameras. The below-luma-32 fraction moves `97.799403% -> 0%` in `path_eye` and `96.407226% -> 0%` in `elevated_oblique`.
 
-- ID `10452505109`;
-- name `environment-building-successor-weather-width-001-0d8b2279ecbba47b9696a951db9513883fbef6c5`;
-- size `39,102,824 bytes`;
-- GitHub SHA-256 `4ffc52fc421d38a92829d3bf663ab5a48dfc144d16f31028f742ce19855512f4`;
-- downloaded archive independently rehashed to the same SHA-256.
+Direct inspection of retained states `0 / 8 / 16` in both cameras shows the solid rear infill reads materially clearer while galvanized frame rhythm, ochre service accent, source-width Weather streaks, route/path, vegetation and Object composition remain stable. This is Environment evidence that the intended one-variable successor reached the exact newer world; final combined perceptual acceptance still belongs to Visual QA + 3D Art Direction.
 
-All 34 matched A/B pairs were measured after download:
+## Failure provenance / repair
 
-- `path_eye`: `680–747` changed pixels/frame, mean `717.5882 / 792,000 = 0.0906046%`; largest connected changed island `28–36 px`;
-- `elevated_oblique`: `958–985` changed pixels/frame, mean `970.7059 / 792,000 = 0.1225639%`; largest connected changed island `10–14 px`.
+Initial workflow run **`35116856555` failed** at the Weather-drift negative control after the structural composition itself had passed. The first negative test changed one Weather width while leaving that scene's stored digest stale, so it did not actually exercise the aggregate parent-identity guard as intended. The test was repaired to recompute the mutated scene digest first, making the mutation internally self-consistent; the aggregate exact-parent composition digest then rejects it fail-closed. The repaired full run `35117140030` passes that control and the real Godot host. The failed run remains Actions history and is not hidden.
 
-These exactly reproduce the independent VFX/QA sparse-width delta in the newer source-correct world. Direct inspection of states `0 / 8 / 16` in both cameras shows the pavilion, path, vegetation and Object hierarchy remain readable while the Weather streaks gain the already-preferred slightly stronger authored presence. The existing dark Building enclosure/infill issue remains visually separate and is not hidden by atmosphere.
+## Retained evidence
+
+Successful artifact:
+
+- ID `10454469590`;
+- name `environment-building-infill-weather-width-001-5b9b55ec67e31655f51d1acc67284816067e5be6`;
+- size `50,494,030 bytes`;
+- GitHub SHA-256 `12d1a61e54913a47ca4f40383deac83c3be48dcbf66da1ea96aa76e0f19ad7ae`;
+- independently downloaded/rehashed to the same SHA-256.
+
+The archive retains exact head, both exact parent archives, combined structural payload, Godot log/runtime receipt, target-host report and all 68 frames.
 
 ## Handoffs
 
-**Map PR #24 / Environment** — comment `5699412729`
+**Map PR #24 / Environment** — comment `5700308734`: exact integration result, failure provenance, target-host diagnostics and combined Art/QA gate recorded.
 
-Recorded the exact two-parent composition, full structural/target-host PASS, artifact/hash, image measurements, proof-host counters, near-plane clips and preserved Building visual-hierarchy FAIL.
+**Building Materials PR #3** — comment `5700312499`: exact `#59666DFF` candidate reached the newer source-width world without retuning. Materials should keep the candidate stable; no further scalar change requested by Environment.
 
-**Map PR #25 / VFX** — comment `5699417098`
+**Visual QA + 3D Art Direction:** review the exact combined successor frames. The older donor-context PASS is supporting evidence but does not transfer automatically to head `5b9b55ec...`.
 
-Returned proof that the exact source-width method reaches the newer source-correct Environment world without copying or changing VFX semantics. No arbitrary-camera or physical-weather generalization is inferred.
+**Runtime / Optimization:** no target-device performance conclusion follows. If this combined successor is carried forward, measure this exact representation rather than inheriting an older budget.
 
-**Building Materials PR #3** — comment `5699421109`
+**VFX / Weather:** source-width semantics and preference remain unchanged; this proof only establishes coexistence with the new Building material response.
 
-Recorded only the coordination edge: the active infill-only experiment remains Materials-owned against exact donor base `43d89a7...`; Environment's new Weather-width PASS does not promote any Materials result. If Materials plus Art/QA later clear the infill successor, Environment should compose it explicitly over this newer source-width world instead of silently transferring either PASS.
-
-**Visual QA + 3D Art Director**
-
-No new preference request is created. Their PR #25 readability PASS and source-width preference are preserved. Re-review is required only if Materials changes the Building look or if Weather camera/resolution/FOV/near-plane behavior changes materially.
-
-**Runtime / Technical Art / Capability Cartography**
-
-No target-device or shared-capability claim transfers. The source-width proof-host primitive increase remains a Runtime handoff, not an Environment acceptance. The VFX observer remains donor-owned rather than being centralized in UC.
+**Nature / Object:** source identities are preserved; no sidedness, topology, scale, material, motion or mechanics decision transfers.
 
 ## Explicit non-claims
 
-This activation does **not** establish:
+This activation does **not** establish final combined-world Visual QA or Art Direction acceptance; arbitrary camera/FOV/resolution/renderer equivalence; physical material or Weather correctness; final UV/texture/decal/weathering/lighting/grading quality; target-device FPS/CPU/GPU/overdraw/memory/VRAM/battery budgets; collision/navigation/traversal/gameplay; Nature sidedness adoption; Object scale/material/mechanics acceptance; UC extraction; Profession Fabric promotion; CANON; production/game readiness; or Environment / World Art mastery.
 
-- repair or acceptance of the current-world Building `infill_coating` visual hierarchy;
-- acceptance of the active Materials infill-only candidate;
-- arbitrary camera, FOV, near-plane or resolution Weather-width fidelity;
-- physical precipitation diameter, wind, force, collision or volumetrics;
-- final atmosphere grading, softness, density or cinematic quality;
-- target-device FPS, CPU/GPU time, overdraw, VRAM, battery, draw-call or streaming budget;
-- collision, physics, navigation, traversal or gameplay;
-- final normals/tangents/UVs/textures/decals/weathering;
-- UC extraction, Profession Fabric promotion, CANON, production readiness, game readiness or Environment / World Art mastery.
+## Four-root gate
 
-## Authority boundary
-
-Map owns receiving composition. Weather/VFX own Weather source semantics and source-width presentation. Building Hard Surface owns source topology. Building Materials owns scalar-PBR values. Nature owns vegetation source/topology/material representation. Object owns Object source/mechanics. Runtime owns performance acceptance. Visual QA and 3D Art Direction own perceptual acceptance.
-
-`axm-create-me` records coordination only. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+- **Truth:** exact retained parents, exact-head workflow, fail-closed controls, real Godot observation, retained frames and independent artifact rehash precede claims.
+- **Agency / non-domination:** Environment composes but does not seize Building, Materials, Weather/VFX, Nature, Object, Runtime, QA or Art Direction authority.
+- **Continuity:** predecessor failure, accepted donor candidate, previous Environment source-width state, failed negative-control run and successful combined successor remain distinct provenance points.
+- **Wisdom before speed:** one requested material variable was integrated over the already-proven world; no lighting, Weather, geometry or Nature changes were mixed in to make the result look better.
