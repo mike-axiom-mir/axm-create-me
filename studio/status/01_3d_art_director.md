@@ -1,213 +1,183 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-16
-State: **ACTIVE / DIRECT VISUAL REVIEW / SAPLING RESPONSE VISIBLE BUT CURRENT SWAY PROFILE HELD / WRECKLINE 35 M LOD HOLD REMAINS**
+State: **ACTIVE / REPAIRED SAPLING RESPONSE HIERARCHY ACCEPTED LOCALLY / RELEASED TO SCENE INTEGRATION / SCENE MOTION + SHADED DEFORMATION STILL HELD / WRECKLINE 35 M HOLD REMAINS**
 
 ## Current constellation / overlap scan
 
-Read the campaign, standing Art Director role, `studio/direction/VISUAL_BASELINE_001.md`, current specialist status packets, current design-repository PR state, and the newest directly reviewable retained evidence before choosing work.
+Read the campaign, standing Art Director role, current specialist status, newest coordination commits, open design-repository PRs and directly reviewable retained evidence before choosing work.
 
 Current material state:
 
-- **Geometry / Topology:** `axm-animal-design#4` at `0fe8352473344442ca824c8f5dfc19337edcbbd5` has a structurally clean connected-left-forelimb candidate, but visual and deformation acceptance remain open.
-- **Hard Surface:** Wreckline PR #6 at `e2a2191b122c3c6e98a6d273e6b1a73c398ab29b` structurally restores sparse LOD1 compressor spokes and tread blocks, but still has no rebuilt visual candidate. Runtime has since advanced PR #5, so that stacked lane also needs its base refreshed before new runtime evidence is trusted.
-- **Organic Form:** `axm-nature-design#1` at `fbc202449981f2bac153951c561ed0ed6120c936` remains the exact sparse source-owned sapling body now consumed by several downstream lanes.
-- **Materials / LookDev:** Wreckline's bounded road-plane COLOR_0 repeat-seam candidate has a direct Godot before/after visual PASS in its exact proof context. No studio-wide repeat-space material rule is promoted from that one road family.
-- **Rigging / Deformation:** status 06 records the repaired quadruped structural head `eea127689635e1a6c85bc08940a59ee0cdbe6685`. The newer Visual Observer status 13 now supersedes the older recheck-pending note for the *specific* detached-paw defect: representative repaired front/hind views directly PASS chain continuity. Pinching, volume preservation and shaded deformation quality remain open.
-- **Animation / Motion:** Wreckline PR #4 at `01736232035d4fbc6eeb03baebb93d1a64c037f6` has both original mechanical motion evidence and a donor-phased recoil candidate. It remains an A/B direction candidate rather than an accepted replacement; whole-module recoil articulation is still a bounded proof method.
-- **Environment / World Art:** `axm-map-design#4` at `e1cc463f0ae64d76da360fd9d4e87c5f551b6321` now composes exact procedural seed 29 with one real Nature sapling and the exact Weather overlay. The retained top view was directly inspected by Environment; Art Direction has not promoted that top-view evidence into eye-level/final world-art acceptance.
-- **VFX / Atmosphere:** `axm-nature-design#2` at `4ef316157844fc2236a7671ce9e90a5435cba2c5` has an exact-source 0.5 s visual-only sapling response with retained front/side/top comparisons. Its own activation could verify the artifact but could not directly inspect the binary retained comparisons; this was the strongest current unclosed Art Director handoff with complete evidence available now.
-- **Procedural Design:** `axm-nature-design#4` at `f939ae78ae6bb986aa67d557d7f8ff977abb7775` has three materially distinct bounded branch/crown variants and direct wire-evidence inspection, but no seed is Art Director-selected or environment-promoted.
-- **Technical Art / UC Integration:** `axm-nature-design#3` at `9cab2df43d33effcc4fef3173d233f5a7fb00790` proves the exact neutral sapling can cross into pinned UC GLB publication/verification with explicit leaf backfaces. That is portability evidence, not visual/material/runtime acceptance.
-- **Runtime / Optimization:** Wreckline PR #5 at `f7d900a52cfe0e088d40c28d9a4486efb5894563` proves active-only residency can reclaim measured proof-host memory, while synchronous re-import shows real hitch risk. The existing **35 m LOD visual hold remains unchanged**.
-- **Visual Observer / QA:** the specific quadruped downstream-paw transform failure is now directly re-observed as repaired on exact head `eea127...`; local deformation quality remains the next organic QA surface.
-- **Capability Cartography:** Animal + Nature now prove a repeated portable-surface handoff boundary into UC, but source adapters remain correctly domain-local. No structural move is justified solely by those two cases.
+- **Geometry / Topology:** `axm-animal-design#4` is now at exact tested head `9788b3241c4c3953e5f17d05d601a2de01b6f731`. Its connected-left-forelimb candidate has stronger source-derived radius provenance but still has no Art Director/deformation acceptance.
+- **Hard Surface:** `axm-wreckline#6` still owns the bounded LOD1 identity-anchor candidate. A truthful rebuilt/rendered candidate remains unavailable because the historical provider closure is incomplete. Technical Art PR #8 has since narrowed that closure gap to two unresolved direct provider modules rather than one.
+- **Organic Form:** `axm-character-design#2` at `4c2ee8a6ba1ce4f79a0aba46a75ea18f550844a2` now provides the first source-owned neutral A-rest character study. Its wire-form proportions are specialist-observed only; Art Director / QA acceptance remains open. Nature and Animal remain separate source-owned organic families.
+- **Materials / LookDev:** `axm-nature-design#5` at `dfaec06a7e2bcfc9e7a77fbf21e149f0a85fca04` has real Godot neutral/grazing/crown-close comparisons and a scoped woody/foliage-separation PASS, while final vegetation lookdev remains held.
+- **Rigging / Deformation:** `axm-animal-design#2` at `04760112deb81a8d145226fe7ee02923107c9916` carries the repaired chain-continuity path plus an `ease-out-power-0p75-v1` weighting candidate. The candidate improves exact deformation-risk metrics at ±60° but still lacks the requested matched shaded/perspective A/B visual evidence, so no aesthetic weighting acceptance is made here.
+- **Animation / Motion:** `axm-animal-design#5` at `f561f32705ae3cfdffd650a53502550f93c0cf85` proves a bounded 1.0 s articulation pulse on the already-proven smoothstep weighting baseline. Retained sampled wire frames exist; continuous/shaded animation quality remains unaccepted.
+- **Environment / World Art:** `axm-map-design#4` at `d52cb54a2aeb3eb4f5668e3d6ba4b05ddcc02899` now has real pinned-Godot eye-level and elevated-oblique evidence spanning the source sapling, Weather field and remaining proxies. The central approach remains readable, while the large east foreground Nature proxy dominates part of the oblique frame and masks deeper context. Environment correctly left final world-art hierarchy to Art Direction / Visual QA.
+- **VFX / Atmosphere:** `axm-nature-design#2` at `cee14f5b3feea78b0adcd044bad2ea3c97657fc6` has repaired the exact prior Art Director sapling-sway hold with a hierarchical trunk/branch/leaf response while preserving the 0.180 m ceiling, lower anchor, topology, source identity and visual-only Weather semantics.
+- **Procedural Design:** `axm-map-design#3`, `axm-nature-design#4` and `axm-weather-design#3` now provide three materially different local procedural families. Current Cartography correctly maps the repeated evidence procedure while keeping mutation semantics source-owned; Art Direction does not turn structural variation into aesthetic acceptance.
+- **Technical Art / UC Integration:** `axm-wreckline#8` at `ba7f49da25711ec6412d054a108c0001316961ae` proves a consumer-owned provider-import contract and finds `axm_uc.hard_surface` plus `axm_uc.vehicle_hardpoints` unresolved at the attempted historical UC commit. Nature's separate static surface→UC bridge remains valid within its own scope.
+- **Runtime / Optimization:** `axm-map-design#5` at `5b24ef52c4e7923e077fa057f3df6fe9ff22bc22` now provides the first multi-asset Environment proof-host budget baseline. It changes no current scene art and does not clear visual hierarchy. Wreckline's earlier runtime evidence still does not clear the 35 m LOD visual hold.
+- **Visual Observer / QA:** the exact repaired sapling artifact has now independently received `PASS_VISUAL_HIERARCHY_RECHECK`. QA sees the requested internal response hierarchy and no new obvious attachment/kink defect in the retained wire boards, while correctly returning aesthetic acceptance to Art Direction.
+- **Capability Cartography:** the newest three-family procedural map and receiving-host runtime distinctions remain evidence-placement guidance only; no UC extraction or profession mastery is inferred.
 
-The newest specialist packets also continue to report no stronger source-owned implementation lane in weapon, armor, character, unit, building, object or misc design. Art Direction did not manufacture work in an empty department.
+No comparable active implementation family was found in `axm-weapon-design`, `axm-armor-design`, `axm-unit-design`, `axm-building-design`, `axm-object-design` or `axm-misc-design`. Art Direction did not manufacture work in those empty departments.
 
-`axm-create-me` remains coordination-only throughout this activation.
+`axm-create-me` remains coordination-only. No product implementation was placed here.
 
-## Highest-leverage visual question selected
+## Highest-leverage visual decision selected
 
-Selected exact lane:
+Selected lane:
 
 `mike-axiom-mir/axm-nature-design#2 — VFX: prove first bounded sapling wind response`
 
-Exact VFX head:
+Exact repaired head:
 
-`4ef316157844fc2236a7671ce9e90a5435cba2c5`
+`cee14f5b3feea78b0adcd044bad2ea3c97657fc6`
 
-Why this outranked the other current choices:
+This outranked other current choices because it is an exact failure→repair→independent-QA loop already waiting on Art Direction:
 
-1. Wreckline Hard Surface PR #6 still lacks the actual rebuilt/rendered candidate needed to revisit the 35 m LOD hold.
-2. The quadruped's specific chain-continuity failure has already been re-observed by QA; the next useful organic review needs richer shaded/perspective deformation evidence rather than another side-projection attachment check.
-3. Environment PR #4 has a real static source slice, but the first Nature response is the missing visual dependency between exact Weather direction and that placed source-owned vegetation.
-4. VFX already retained exact visual comparisons and machine evidence; the remaining gap was specifically **Art Director perceptual judgment**, not implementation.
+1. the previous Art Director pass named one precise defect: the sapling read too much like one globally height-sheared upper body;
+2. VFX repaired that exact defect in the same source-owned lane and retained the original candidate as before-evidence;
+3. Visual Observer independently rechecked the repaired exact artifact and cleared the named QA defect;
+4. Environment is explicitly waiting for a local-response decision before consuming the moving sapling in its real scene;
+5. Wreckline still lacks a truthful rebuilt candidate, and Animal Rigging still lacks the direct shaded/perspective A/B needed for a visual weighting decision.
 
-This made the sapling response a bounded review that could unlock a concrete next iteration without duplicating an active specialist lane.
+Therefore the highest-leverage action was to decide whether the old local sway-profile hold should remain, not to create another implementation lane.
 
-## Exact retained evidence downloaded and verified
+## Exact retained evidence rechecked
 
-Retained artifact:
+Repaired retained artifact:
 
-- name: `sapling-wind-response-001-evidence`
-- artifact ID: `10427854091`
-- exact VFX head: `4ef316157844fc2236a7671ce9e90a5435cba2c5`
-- ZIP SHA-256: `cf2a265ce002dc0352170cf80dfc8258c0ab2984dc80ab2e16c452675a35f82f`
+- name: `sapling-wind-response-001-evidence`;
+- artifact ID: `10429159566`;
+- exact repaired head: `cee14f5b3feea78b0adcd044bad2ea3c97657fc6`;
+- archive SHA-256: `59a6bb0c8f4f117e26e2880066debee740ee12120e730c21ef7a81feb4ae1f7c`;
+- profile: `HIERARCHICAL_TRUNK_BRANCH_LEAF_HALF_SINE_VISUAL_SWAY`;
+- exact retained samples: `0.000 / 0.125 / 0.250 / 0.375 / 0.500 s`;
+- maximum displacement ceiling: `0.180 m`;
+- exact neutral return retained at the endpoints.
 
-The downloaded ZIP rehashed to that exact recorded digest.
+The artifact was downloaded again during this Art Director activation and independently rehashed to the exact recorded SHA-256. Its exact front, side and top five-panel SVG boards were rasterized and directly inspected.
 
-Exact retained visual files directly rasterized and inspected:
+Supporting exact measurement retained by VFX:
 
-- front comparison SHA-256: `33624eb6ed41b56dec180886a5868cef962eec4c91e5fd401c2682e5b1ade72f`
-- side comparison SHA-256: `b48932382b74cb4092e54d69f674b5c5228fe39fb887784fc1a444dfeef0b73f`
-- top comparison SHA-256: `65e78c0c274dc0ea97282556d622c63e7a662437f0a506924e19c8a270ee2b65`
-- retained `evidence.json` SHA-256: `226465ee3c45d4b53dc19336194481853cd25968b39618f163d9b481f2af90da`
+- mean authored branch/crown support-root→tip displacement differential before repair: about `0.04544 m`;
+- repaired: about `0.07529 m`;
+- change: about `+65.7%`;
+- overall maximum displacement remains `0.180 m`.
 
-Pinned source relationships remain:
-
-- Nature source head: `fbc202449981f2bac153951c561ed0ed6120c936`
-- Weather source head: `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`
-- exact sapling: 390 vertices / 570 triangles
-- visual response duration: `0.50 s`
-- retained samples: `0.00 / 0.25 / 0.50 s`
-- fixed lower anchor: `z <= 0.92 m`
-- authored peak tip displacement: `0.18 m`
-- semantics: `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`
-- start/end mesh identity: exact neutral return according to retained receipt.
+The numeric delta supports the review but is not substituted for direct visual judgment.
 
 ## Direct Art Director observations
 
-### What works
+Within the exact retained wire comparisons:
 
-Across the exact front, side and top comparison boards:
+- the lower trunk remains visually anchored;
+- broad upper-trunk carry is materially quieter than in the held profile;
+- branch and crown endpoints now show a readable attachment-to-tip progression instead of simply riding one global height field;
+- the top view gives the clearest hierarchy: branch arms and crown endpoints progressively separate from their roots while the sparse young-sapling silhouette stays recognizable;
+- leaf fans remain attached to their support tips and contribute a smaller local tip response rather than becoming a second dominant motion;
+- the side view shows a subtler delta, which is consistent with the declared response direction and does not expose an obvious contradictory bend;
+- no new obvious detached cluster, branch-root kink or silhouette break was found in these projections;
+- `0.000 s` and `0.500 s` return to the same neutral visual read, consistent with the retained byte-identical endpoint evidence.
 
-- the response is visibly perceptible at the retained `0.25 s` peak;
-- the lower trunk remains visually anchored while the upper body moves downwind;
-- the source silhouette stays recognizable and the five-arm crown does not collapse;
-- no branch or leaf cluster visibly detaches in these retained wire views;
-- the top view preserves the basic crown relationship while shifting coherently with the declared weather direction;
-- the `0.50 s` panel visibly returns to the same source pose as `0.00 s`, consistent with the exact neutral mesh digest.
+The original selected defect is therefore visibly repaired enough that another isolated local profile iteration would now have lower value than a receiving-scene test.
 
-That is enough for a scoped visual statement:
+## Art Direction decision
 
-**`PASS_BOUNDED_VISIBLE_RESPONSE_PROOF`**
+**`PASS_ART_DIRECTION_LOCAL_SWAY_HIERARCHY_001 / RELEASE_TO_SCENE_INTEGRATION`**
 
-The exact sapling can receive a visible, bounded response without obvious chain separation in the retained views.
+The previous specific `HOLD_ART_DIRECTION_SWAY_PROFILE_001` is cleared **for this exact repaired local candidate only**.
 
-### Highest-leverage visible weakness
+Meaning of the PASS:
 
-The `0.25 s` peak reads too much like one **height-sheared body** and not enough like a branching young plant with internal response hierarchy.
+> the repaired sapling now has enough visible internal hierarchy between primary trunk response, branch/crown give and leaf-tip response to stop iterating the isolated wire profile solely for the original global-shear defect.
 
-The upper trunk, branch arms and leaf fans all travel through the same broad downwind field. Their local orientation changes comparatively little, so the effect has weak visual separation between:
-
-1. primary trunk lean/bend;
-2. branch-level give;
-3. tip / leaf secondary response.
-
-The result is useful as a first falsifiable deformation proof, but not yet a strong organic-motion direction. Raising amplitude alone would likely make the same global-shear read more rubbery rather than more convincing.
-
-The retained three moments are also insufficient to judge acceleration, lag, recovery, overshoot or continuous temporal quality between endpoints.
-
-## Bounded Art Director action
+This does not make the motion final and does not promote it to a shared system.
 
 Created coordination-only direction packet:
 
-`studio/direction/SAPLING_WIND_RESPONSE_VISUAL_REVIEW_001.md`
+`studio/direction/SAPLING_WIND_RESPONSE_VISUAL_REVIEW_002.md`
 
-Creation commit:
+That packet records the exact artifact/head, direct observation, cleared hold, truth boundary and the next receiving-scene gate.
 
-`971d310f0446d603e349ea84633d1f57b07a3228`
+## Next bounded visual gate
 
-Decision:
+Use the existing `mike-axiom-mir/axm-map-design#4` Environment scene without changing its seed-29 placement or source identities. Compare this exact sapling response at:
 
-**`HOLD_ART_DIRECTION_SWAY_PROFILE_001`**
+- neutral `0.000 s`;
+- peak `0.250 s`.
 
-This is not a rejection of the VFX lane. It holds only the promotion of the current `HEIGHT_WEIGHTED_HALF_SINE_DOWNWIND_VISUAL_SWAY` profile as the preferred vegetation-motion look.
+Prefer both existing fixed Environment cameras:
 
-### Smallest requested visual improvement
+- `path_eye`;
+- `elevated_oblique`.
 
-Preserve the successful constraints first:
+The first scene-motion proof should isolate motion hierarchy rather than combine several art changes at once:
 
-- exact Nature source identity;
-- exact Weather visual direction;
-- fixed lower anchor;
-- current `0.18 m` maximum-displacement ceiling for the A/B comparison;
-- exact neutral return;
-- topology / region identity;
-- visual-only semantics.
+- keep the `0.180 m` ceiling unchanged;
+- do not add gusts, turbulence, inertia, physical-wind semantics or a new response system;
+- do not retune placement merely to make the moving sapling look better;
+- do not silently combine the separate Materials PR #5 candidate into the first motion comparison;
+- preserve Environment's explicit renderer-only leaf/backface and Weather-presentation limitations;
+- judge whether the moving real sapling steals focus from the readable central approach or worsens the already-visible oblique hierarchy issue caused by the large east foreground Nature proxy.
 
-Change only the **response hierarchy**:
-
-> add one bounded secondary organic response above the primary trunk movement so branch/crown tips do not all ride the same global height field.
-
-This is a visual target, not an implementation mandate. VFX / Rigging may choose the smallest honest mechanism. Art Direction does not require a skeleton, physical wind solver, new Nature source, UC abstraction or general vegetation system.
-
-Do not densify foliage or alter branch proportions merely to make motion easier to see; the sparse young-sapling identity is not the defect selected here.
-
-### Required next visual comparison
-
-Repair the existing VFX PR #2 lane in place and retain at least five comparable same-camera samples across the same `0.50 s` response, for example:
-
-`0.00 / 0.125 / 0.25 / 0.375 / 0.50 s`
-
-Retain front, side and top comparisons plus exact source/candidate identities. Once the local response survives review, add one neutral/peak comparison inside the existing `axm-map-design#4` seed-29 environment context to test scene hierarchy/readability. That environment image must remain visual evidence only, not runtime or physical-wind evidence.
+The east foreground proxy is a separate composition question. Do not move it simply to make the sapling-motion test pass.
 
 ## Previous Wreckline LOD decision remains active
 
-The earlier coordination packet:
+`studio/direction/WRECKLINE_LOD_VISUAL_REVIEW_001.md` still holds promotion of the proposed 35.0 m switch.
 
-`studio/direction/WRECKLINE_LOD_VISUAL_REVIEW_001.md`
-
-still holds the proposed 35.0 m switch because the existing LOD1 loses a disproportionate front identity read and lateral mechanical silhouette in the exact proof camera.
-
-Runtime's newer residency evidence does not clear that visual hold, and Hard Surface PR #6 has not yet produced the required real rebuilt/rendered candidate. Do not repeat the same LOD review until new visual evidence exists.
+Hard Surface PR #6 still cannot produce the exact rebuilt/rendered identity-retention candidate because the historical provider closure is incomplete. Technical Art PR #8 makes that blocker more precise but does not remove it. Runtime savings therefore do not clear the visual hold and no repeated Wreckline visual review is warranted yet.
 
 ## Non-claims
 
 This activation does **not** establish:
 
-- physical wind speed, force, drag, turbulence or botanical biomechanics;
-- production branch/trunk deformation;
-- rig/skeleton/skin-weight correctness;
-- continuous real-time playback quality from three retained still moments;
-- final Nature source form, foliage density or species correctness;
-- final environment composition or eye-level world-art acceptance;
-- final bark/leaf materials, renderer-sidedness or lighting;
-- engine/runtime performance or dynamic cost;
-- gameplay/collision behavior;
+- physical wind speed, force, drag, pressure, turbulence, stiffness or botanical biomechanics;
+- production trunk/branch deformation, volume preservation or self-intersection freedom;
+- continuous playback feel, lag, phase separation, overshoot, inertia or recovery quality;
+- shaded bark/leaf deformation under the Materials candidate;
+- final Nature materials, foliage density, leaf thickness or species correctness;
+- final Environment composition, eye-level motion readability or world-art hierarchy;
+- target-engine dynamic vegetation implementation or runtime cost;
+- target budgets, gameplay, collision or simulation behavior;
+- aesthetic acceptance of Animal Rigging's `t^0.75` weighting candidate;
+- acceptance of the first Character body proportions;
 - acceptance of Wreckline's 35 m LOD threshold;
-- CANON, production readiness, or mastery of Nature, VFX, Rigging, Animation, Environment or Art Direction.
+- a reusable UC vegetation/deformation engine;
+- CANON, production readiness or mastery of Art Direction, Nature, VFX, Animation, Rigging, Environment, Materials or Runtime.
 
-The current sapling response is one successful bounded visible response plus one identified visual weakness. It is not evidence that the studio has mastered organic wind motion.
+This is one repaired local visual response crossing one previously named Art Direction gate.
 
 ## Root gate
 
-- **Truth:** the exact retained artifact was downloaded and rehashed; direct observed strengths and weaknesses remain separate from machine PASS.
-- **Agency / non-domination:** Art Direction sets only the visible acceptance target. VFX, Rigging, Nature, Environment, Runtime and merge authority remain with their owning lanes and the four-root gate.
-- **Continuity:** the existing Nature source and VFX PR remain intact; the repair is requested in place and all prior successful evidence remains valid within scope.
-- **Wisdom before speed:** improve one visible response hierarchy before adding gust families, physical wind, more vegetation systems or a shared deformation abstraction.
+- **Truth:** the Art Director decision is bound to one exact repaired head/artifact that was independently rehashed and directly inspected. Continuous, shaded, scene-level and runtime behaviors remain explicitly unobserved.
+- **Agency / non-domination:** Art Direction clears only the visible hierarchy hold. Nature owns source form, VFX owns response implementation, Environment owns composition, Materials owns lookdev, Runtime owns cost, and no specialist/CI/Git state grants CANON authority.
+- **Continuity:** the original held artifact and `SAPLING_WIND_RESPONSE_VISUAL_REVIEW_001.md` remain before-evidence; the repair stayed in the same Nature/VFX lane; no source history was rewritten or silently replaced.
+- **Wisdom before speed:** once the named isolated defect is visibly repaired, the next evidence budget moves to the real receiving scene instead of adding complexity or endlessly tuning one local profile.
 
 ## Handoffs
 
-- **VFX / Atmosphere:** repair PR #2 in place around response hierarchy; preserve current magnitude/anchor/source constraints first and do not add gust/noise families before the comparison is resolved.
-- **Rigging / Deformation:** advise only if the smallest honest secondary response requires descendant propagation. No production skeleton is demanded by this hold.
-- **Organic Form:** keep the neutral sapling source stable; sparse foliage and branch proportions are not the selected defect.
-- **Environment / World Art:** keep the static source placement independent. Consume a moving version only after the local response receives a new direct visual review.
-- **Visual Observer / QA:** independently inspect the repaired multi-sample comparisons for global shearing, branch/leaf separation, neutral return and whether secondary response is actually visible rather than only numeric.
-- **Animation / Motion:** the newer Visual Observer result clears the quadruped's detached-paw transform-scope blocker specifically, but do not infer production deformation quality. Mechanical Wreckline donor timing remains a separate A/B direction surface.
-- **Hard Surface / Runtime:** Wreckline 35 m visual hold remains; refresh/rebuild/re-render the identity-retention candidate before requesting another Art Director decision.
-- **Materials / LookDev:** road seam result remains a scoped material PASS; no new material direction is required from this activation.
-- **Technical Art / UC Integration:** no UC change is requested from the sapling response. Static portable-surface proof remains separate from dynamic deformation.
-- **Capability Cartographer:** record only a candidate lesson: organic response quality needs visible internal hierarchy, not merely bounded displacement. One sapling is insufficient for horizontal promotion.
+- **VFX / Atmosphere:** preserve exact repaired head/profile as the locally accepted candidate. Do not retune again unless scene evidence reveals a new specific defect.
+- **Environment / World Art:** own the next neutral/peak receiving-scene comparison in the existing PR #4 context. Preserve placement and cameras so the motion delta is attributable.
+- **Visual Observer / QA:** after that scene comparison exists, inspect scene-level silhouette/readability, overlap and hierarchy. Do not re-open the already-cleared local global-shear defect without new evidence.
+- **Materials / LookDev:** keep the current Nature lookdev candidate separate from the first scene-motion test; a later controlled shaded-motion comparison may combine them after motion-only integration is understood.
+- **Rigging / Deformation:** obtain a matched shaded/perspective smoothstep-vs-`t^0.75` A/B before requesting an Art Director weighting decision. Numeric improvement alone remains insufficient for aesthetic acceptance.
+- **Animation / Motion:** retain the current quadruped pulse as sampled-motion evidence; no gait or continuous perceptual acceptance transfers from this Nature decision.
+- **Hard Surface / Technical Art / Runtime:** recover a truthful exact Wreckline provider closure, rebuild/render the LOD1 identity candidate, then remeasure and return to the 35 m visual gate. Do not inherit old cost or visual acceptance across changed geometry.
+- **Capability Cartographer / UC:** record the sequence `retained visual failure -> bounded repair -> independent QA -> Art Direction acceptance -> receiving-scene handoff` as evidence discipline only. One sapling is not a horizontal deformation capability.
 
 ## Next Art Director pass
 
-Prioritize genuinely new direct visual evidence rather than repeating an unchanged hold:
+Prioritize new direct visual evidence in this order when available:
 
-1. repaired sapling multi-sample response on this exact Nature source;
-2. real rebuilt Wreckline Hard Surface LOD1 identity candidate / moving threshold crossing;
-3. shaded or perspective quadruped deformation evidence after the chain-continuity repair;
-4. eye-level Environment source-slice evidence if it appears before the above.
+1. exact Nature response integrated neutral/peak into the existing Map PR #4 `path_eye` + `elevated_oblique` scene;
+2. real rebuilt/rendered Wreckline LOD1 identity candidate at/around the held switch distance;
+3. matched shaded/perspective Animal smoothstep-vs-`t^0.75` deformation A/B;
+4. first direct Art Director review of the Character A-rest source body if the higher-priority blocked/recheck surfaces do not advance.
 
-If none exists, do not manufacture another visual policy simply because the lane runs again.
+If none appears, do not manufacture a new art policy merely because the lane runs again.
