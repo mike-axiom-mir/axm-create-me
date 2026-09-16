@@ -1,161 +1,105 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_STRUCTURE + PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_TARGET_HOST / ART DIRECTION + VISUAL QA + RUNTIME ACCEPTANCE HELD**
+State: **ACTIVE / PASS_CURRENT_WORLD_OBJECT_FOOTPRINT_ON_PREFERRED_MATERIAL_REVIEW_READY / ART DIRECTION + VISUAL QA CUE PREFERENCE HELD**
 
-## Continuity / authority
+## Authority / continuity
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stays inside the existing `mike-axiom-mir/axm-map-design` Environment PR #24 lane; no parallel Environment PR was opened. Map owns receiving composition. Object owns Object source/material semantics. Building, Nature and Weather retain their own source authorities. Runtime owns performance acceptance. 3D Art Direction + Visual QA own perceptual adoption.
+`axm-create-me` remains **coordination only**. Implementation/evidence stays in existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment PR was opened. Map owns receiving composition and the reversible footprint cue. Object retains source geometry, scale, transform and material authority. Building, Nature and Weather retain source authority. Runtime owns target-device performance. Art Direction + Visual QA own perceptual adoption.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous Nature-material activation remains historical truth at coordination commit `1a841baf6f2f0ea02b889721431dc478af542b57`. Its exact Map head `72d4128b602e27c886a0731ddd670ec8c14aaa7e`, Nature-family target-host PASS, artifact `10463255035`, runtime cost and subsequent Art Direction preference are preserved. This activation stacks on that exact evidence and does not rewrite it.
+The prior preferred Object-material world remains historical truth at Map head `6575cc38db9f0f62b14a82b352d8582edf89856d`, composition digest `677dfe17afe49bf3f6edc28359c40a8add3dc357cb918529f0015a99f71baf70`, artifact `10466065113`, with `PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_STRUCTURE + PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_TARGET_HOST`. This activation reviews one Environment-owned cue on that exact parent; it does not rewrite Object authority.
 
-## Fresh constellation / non-duplication scan
+## Selected bounded gap
 
-After the three-source Nature woody/foliage family reached the current world, the highest-leverage ready Environment gap was the **exact west Object material family**:
+The west Object footprint cue had a real evidence mismatch: its historical A/B predates the now-preferred five-surface Object material family. Art Direction preferred that Object material result but did **not** independently accept the footprint cue. Object scale/readability therefore remained unresolved in the current visual context.
 
-- the current Map world already contains the exact static Object source at `468 vertices / 812 triangles`;
-- Object Materials PR #6 retains a stable base source-role scalar PBR family, while its newest inner-lid review is a separate bounded experiment and must not be silently promoted;
-- the current Environment receiver still rendered the exact west Object with a neutral/proof-like material response rather than that established source-role family;
-- Building, Nature, Object footprint dressing, Weather source-width, route, cameras and lighting could all remain fixed, making this a clean one-variable receiving proof;
-- no active Environment lane already owned that exact integration question;
-- no UC or Profession Fabric move is supported because this is source-specific receiving composition, not evidence for a universal capability extraction.
+Rather than duplicate active Building, Nature, Object-source, Materials, Weather, VFX or Runtime lanes, Environment isolated only cue visibility while holding the current world fixed.
 
-Selected bounded question:
+Question:
 
-> Can the exact base Object source-role scalar material family be received on the already-present static west Object inside the newest Building + Nature + Weather world, without changing Object geometry/transform/scale, adding the utility module, consuming the new inner-lid experiment, or drifting unrelated world state?
+> Does the existing Map-owned west Object footprint cue retain an attributable visual effect on the exact preferred five-surface Object world, without changing Object source/scale/materials or unrelated world assets?
 
-## Exact implementation / provenance
+## Exact review
 
-Existing Map PR #24 branch:
+Map PR #24 branch: `studio/environment-weather-variant-object-convergence-001`
 
-`studio/environment-weather-variant-object-convergence-001`
+Exact review head: `2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd`
 
-Exact tested head:
+Reviewed parent:
 
-`6575cc38db9f0f62b14a82b352d8582edf89856d`
+- world head `6575cc38db9f0f62b14a82b352d8582edf89856d`;
+- composition digest `677dfe17afe49bf3f6edc28359c40a8add3dc357cb918529f0015a99f71baf70`;
+- Object source head `d3fa10a270faae7925811f44f03381fe5c5d0215`, SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- Object Materials head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`, profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`;
+- cue id `environment:dressing:west-object-service-footprint-frame-001`.
 
-Exact parent:
+The proof creates the exact same cue mesh/resource in both modes and changes only visibility: `CONTROL_HIDDEN` versus `CANDIDATE_VISIBLE`. Object geometry/transform/scale/materials, Building, Nature, Weather, route, cameras and lighting remain fixed.
 
-- Environment head `72d4128b602e27c886a0731ddd670ec8c14aaa7e`;
-- state `PASS_CURRENT_WORLD_NATURE_MATERIAL_FAMILY_STRUCTURE + PASS_CURRENT_WORLD_NATURE_MATERIAL_FAMILY_TARGET_HOST`;
-- composition digest `5d050b2d628f73d7e1b738e900eaba22f56ac7bcdd5fc46a5bf781e1d9058866`;
-- artifact `10463255035`, SHA-256 `a4dbc0e2b8ef6f16bb846d0f639b7935b414ddfe4222463f397d11a16cfc0a45`.
+## Failed drafts preserved
 
-Exact Object authorities:
+Two proof failures remain explicit and were not used as acceptance evidence:
 
-- structural source head `d3fa10a270faae7925811f44f03381fe5c5d0215`;
-- source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- Object Materials PR #6 head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`;
-- material profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`.
+- run `35147985983` stopped before rendering because the generated proof directory was missing;
+- run `35148463598` stopped on a proof-only Godot child-name lookup assumption.
 
-Consumed static-host material family:
-
-- `shell_coating` — `#3F484EFF`, metallic `0.42`, roughness `0.54`;
-- `service_dark` — `#252B2FFF`, metallic `0.18`, roughness `0.66`;
-- `hardware_steel` — `#9AA3A8FF`, metallic `0.88`, roughness `0.32`;
-- `rubber_guard` — `#171A1CFF`, metallic `0.0`, roughness `0.86`;
-- `interface_orange` — `#A96532FF`, metallic `0.20`, roughness `0.48`.
-
-Environment rebuilds the exact Object source only to recover source-owned component/group triangle ranges, maps those roles through the exact Materials profile and binds the resulting surfaces to the already-present receiver. It requires the receiver to remain exactly `468v / 812t` with identical triangle ordering.
-
-Exact triangle coverage:
-
-- `shell_coating`: `24`;
-- `service_dark`: `12`;
-- `hardware_steel`: `656`;
-- `rubber_guard`: `96`;
-- `interface_orange`: `24`;
-- total: `812`, once and only once.
-
-`module_housing` is intentionally **not** consumed because the utility module is absent from the current world. The newer inner-lid review experiment is explicitly excluded and receives no downstream acceptance from this pass.
-
-Fail-closed controls prove rejection of parent-composition drift, Object triangle-ordering drift and utility-module scope widening.
+The repair binds the emitted child through the exact returned cue identity and child-count invariant instead of changing product/source data.
 
 ## Real-host result
 
-Dedicated workflow:
+Dedicated workflow **`35148577687 — Environment Object footprint on preferred material review` — SUCCESS** on pinned Godot 4.7.2 GL Compatibility.
 
-**`35141819693 — Environment current-world Object material-family evidence` — SUCCESS**
+Result: **`PASS_CURRENT_WORLD_OBJECT_FOOTPRINT_ON_PREFERRED_MATERIAL_REVIEW_READY`**.
 
-Scoped structural result:
+Evidence:
 
-**`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_STRUCTURE`**
+- `68 / 68` visible-cue frames exactly reproduce the retained preferred Object-material world;
+- `68 / 68` hidden-vs-visible deltas remain inside projected cue bounds;
+- `path_eye`: exactly `161` >1-LSB changed pixels, fixed bbox `x=286..377, y=447..457`;
+- `elevated_oblique`: exactly `106` changed pixels, fixed bbox `x=534..587, y=309..324`;
+- all `1,224` Weather source-width observations remain valid;
+- maximum Weather-width residual `0.00974698571769128 px`, within the inherited `0.05 px` gate.
 
-Scoped target-host result:
+The cue is now attribution-clean in the preferred material context. It remains visually tiny: a thin grounding/service-slot outline around the exact smaller west case. Environment therefore **holds adoption for Art Direction + Visual QA** rather than silently treating the cue as preferred.
 
-**`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_TARGET_HOST`**
+## Runtime boundary
 
-Exact composition digest:
+Visible versus same-resident hidden cue yields, in both cameras and Weather modes:
 
-`677dfe17afe49bf3f6edc28359c40a8add3dc357cb918529f0015a99f71baf70`
+- `+1` draw call;
+- `+1` object;
+- `+48` primitives;
+- `+0 B` observed buffer memory;
+- `+0 B` observed texture memory.
 
-Pinned host: **Godot 4.7.2 GL Compatibility**.
+This does not replace the historical no-cue → cue creation-cost evidence: `+1 draw / +1 object / +48 primitives / +2,304 B observed buffer`, texture unchanged. Target-device acceptance remains Runtime-owned.
 
-The proof retains `17 states × 2 cameras × 2 inherited Weather modes = 68` candidate frames and directly compares all 68 against the exact Nature-family parent. Every pair has a localized Object-only visual change while Building, Nature, route, footprint dressing, Weather sequence, cameras and lighting remain fixed.
+## Retained evidence / handoffs
 
-Direct >1-LSB RGB delta:
+Artifact `10467822460`, `11,159,487 bytes`, SHA-256 `6e8ea42e2095beac7fad3770192502bf5114ef87206ec57542b3ccddfe055040`; independently downloaded/rehashed to the same digest.
 
-- `path_eye`: exactly `1,850 / 792,000` pixels per pair = about **0.233586%**, fixed bbox `x=300..366, y=425..454`;
-- `elevated_oblique`: exactly `632 / 792,000` = about **0.079798%**, fixed bbox `x=543..578, y=295..319`;
-- maximum RGB-channel delta: `158`.
+Map PR #24 comment `5704299988` returns the exact current-context A/B, runtime boundary, failed-draft provenance and held visual decision to the active lane.
 
-Direct inspection shows the previously pale/proof-like west equipment case becoming a darker industrial material hierarchy while the rest of the current world remains visually stable. This is **receiving evidence, not final aesthetic preference**.
+Art Direction + Visual QA: decide keep/remove of the cue on the preferred Object material world. No preference is inherited from the older pre-material A/B.
 
-The inherited Weather source-width proof remains exact:
+Object: no source, scale, transform, material, articulation or utility semantics changed. Environment does not use this result to justify rescaling the Object.
 
-- all `1,224` projected-width observations pass;
-- maximum residual `0.00974698571769128 px`, within the existing `0.05 px` bound;
-- exact Weather and moving-sapling source sequences remain preserved.
+Runtime: keep creation cost and visibility-only cost distinct.
 
-## Runtime diagnostic handoff
+Building / Nature / Weather: unchanged.
 
-Relative to the exact Nature-family parent, the five-surface Object receiving representation produces the same diagnostic delta in every state and both Weather modes:
+UC / Profession Fabric / Capability Cartography: no extraction or move supported.
 
-- `path_eye`: `+8` draw calls / `+8` objects;
-- `elevated_oblique`: `+8 / +8`;
-- primitive counter delta: `0`;
-- observed buffer-memory delta: `0 B`;
-- observed texture-memory delta: `0 B`.
+A legacy Building-header strict-pixel workflow (`35148578116`) also re-ran on this PR head and failed its already-disproved `no RGB delta above one LSB` assertion. That historical strict assumption was already superseded by the retained bounded-continuity review; it is not evidence for this cue result and does not rewrite the earlier Building finding.
 
-These are proof-host diagnostics only. They do not establish target-device FPS, CPU/GPU cost, batching behavior, memory acceptance or preferred optimization strategy. Runtime / Optimization owns that decision.
+## Non-claims
 
-## Retained evidence
-
-Successful artifact:
-
-- ID `10466065113`;
-- name `environment-object-material-family-001-6575cc38db9f0f62b14a82b352d8582edf89856d`;
-- size `6,925,693 bytes`;
-- GitHub SHA-256 `87dd366302e94b5a6f8241e110e9629c2d81a0d7321197b14a52b860642fd519`;
-- independently downloaded and rehashed to the exact same SHA-256;
-- retained `exact-head.txt` = `6575cc38db9f0f62b14a82b352d8582edf89856d`;
-- retains exact canonical composition, Godot runtime receipt, direct target-host comparison report and all 68 candidate PNGs.
-
-## Handoffs
-
-**Map PR #24 / Environment** — comment `5703533390`: exact Object source/material identities, structure + real-host PASS, direct visual delta, Weather continuity, runtime diagnostic and explicit inner-lid/utility exclusions returned to the active receiving lane.
-
-**Object Materials PR #6** — comment `5703535497`: confirms the unchanged base static-host family reaches the real current world without moving source authority or accidentally promoting the utility module / inner-lid experiment.
-
-**3D Art Direction + Visual QA:** review the retained all-state comparison and decide whether the darker Object hierarchy should replace the pale/proof-like current receiver as the preferred current-world Object presentation. The pending footprint dressing cue remains a separate reversible decision and must not be silently coupled to this material choice.
-
-**Runtime / Optimization:** characterize the exact `+8 / +8` draw/object delta before target-device acceptance. Environment requests no material collapse or source rewrite merely to reduce this proof-host counter.
-
-**Object Hard Surface / Rigging / Animation:** no geometry, transform, scale, articulation, keeper motion or utility semantics changed.
-
-**Building / Nature / Weather:** no source semantics or authored behavior changed. The Nature woody/foliage family remains the exact parent and its Art Direction preference remains preserved.
-
-**UC / Profession Fabric / Capability Cartography:** no extraction or capability move is supported by this source-specific integration result.
-
-## Explicit non-claims
-
-This activation does **not** establish final Object/current-world material preference; final footprint-dressing preference; inner-lid material acceptance; utility-module adoption; articulation or keeper-motion adoption; UVs, textures, decals, wear, normals or measured coating correctness; arbitrary-camera/FOV/resolution/renderer equivalence; target-device FPS/CPU/GPU/VRAM/allocator/thermal/battery/batching acceptance; collision, navigation or gameplay; CANON; production/game readiness; or Environment / World Art mastery.
+No final cue preference; no Object rescale/source change; no physical service-pad semantics; no collision/navigation/gameplay; no arbitrary-camera equivalence; no target-device FPS/CPU/GPU/VRAM/batching acceptance; no newer inner-lid/utility-module adoption; no CANON or production readiness; no Environment mastery.
 
 ## Four-root gate
 
-- **Truth:** exact source/profile identities, all-state real-host visual change and the measured submission-counter increase remain visible together; no aesthetic or performance acceptance is inferred from a structural PASS.
-- **Agency / non-domination:** Object retains source/material authority, Map retains receiving ownership, Art/QA retain visual preference, and Runtime retains performance authority. The inner-lid and utility decisions are not taken by Environment.
-- **Continuity:** the exact Nature-family parent, exact Object donors, new receiving head, artifact, historical Nature decision and all held decisions remain independently identifiable and rollbackable.
-- **Wisdom before speed:** one ready material-receiving gap was isolated in the real multi-asset world while geometry, scale, lighting, Weather, utility content, articulation and unrelated art tuning were explicitly held fixed.
+- **Truth:** current parent, 68-pair visual evidence, Weather continuity, render cost, historical creation cost and failed proof attempts remain distinct.
+- **Agency / non-domination:** Map owns the cue; Object owns source/scale/materials; Art/QA own perceptual choice; Runtime owns performance choice.
+- **Continuity:** old cue proof, preferred Object parent, failed drafts, repaired review head and retained artifact remain independently identifiable and rollbackable.
+- **Wisdom before speed:** no new art semantics were invented merely to create another change; the unresolved current-context decision was isolated first.
