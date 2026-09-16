@@ -1,149 +1,155 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_CURRENT_WORLD_OBJECT_READABILITY_DRESSING_STRUCTURE + PASS_CURRENT_WORLD_OBJECT_READABILITY_DRESSING_TARGET_HOST / EXACT OBJECT SOURCE SCALE HELD / RECEIVER-FOOTPRINT WORLD CUE PROVED / ART DIRECTION + VISUAL QA + RUNTIME ACCEPTANCE HELD**
+State: **ACTIVE / PASS_CURRENT_WORLD_BUILDING_HEADER_SEGMENTATION_STRUCTURE + PASS_CURRENT_WORLD_BUILDING_HEADER_SEGMENTATION_BOUNDED_CONTINUITY / STRICT PIXEL-IDENTITY FAIL RETAINED / ART DIRECTION + VISUAL QA + RUNTIME ACCEPTANCE HELD**
 
 ## Continuity / authority
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives in the existing `mike-axiom-mir/axm-map-design` Environment PR #24 lane; no parallel Environment PR was opened. Map owns receiving composition and world dressing. Object retains source geometry, scale, materials and mechanical meaning. Weather/VFX retain Weather semantics, Nature retains vegetation source/representation, Building retains source/material authority, Runtime owns performance acceptance, and Visual QA + 3D Art Direction own perceptual acceptance.
+`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation stays in the existing `mike-axiom-mir/axm-map-design` Environment PR #24 lane; no parallel Environment PR was opened. Building Hard Surface retains segmentation/topology authority, Building Materials retains emitted-ID mapping and PBR/material authority, Map owns receiving composition, Object/Nature/Weather retain their source semantics, Runtime owns target-device performance acceptance, and 3D Art Direction + Visual QA own perceptual adoption.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous accepted Environment visual reference remains exact Map head `5b9b55ec67e31655f51d1acc67284816067e5be6`, workflow `35117140030`, artifact `10454469590`, SHA-256 `12d1a61e54913a47ca4f40383deac83c3be48dcbf66da1ea96aa76e0f19ad7ae`, composition digest `e6cea4098c4946dcfa80573d3e30d6d07a1e7c7b4c037b5962eeb3105ac8dfe1`. Visual QA and 3D Art Direction independently accepted that exact Building-infill + Weather-source-width combined world. This activation preserves it as the parent/control and does **not** silently relabel the new Object dressing candidate as visually adopted.
+The previously approved combined-world visual reference remains exact Map head `5b9b55ec67e31655f51d1acc67284816067e5be6`. The later Object receiver-footprint candidate at `a29aa1e3d2260e8eb5ab2ac78a95d35ce131214c` remains independently **held** for Art Direction / Visual QA; this activation does not silently adopt it merely because it is the exact structural parent used for the next receiving proof.
 
 ## Fresh constellation / non-duplication scan
 
-A fresh status/open-PR scan found the strongest remaining ready Environment gap to be **Object current-world scale/readability**:
+The highest-leverage ready Environment handoff was Building's newly source-owned interpenetration-free header segmentation rather than another Object/Weather/material tuning lane:
 
-- **3D Art Direction** explicitly records Object current-world scale/readability as unresolved and directs any follow-on to use an exact source/receiver comparison rather than arbitrary rescaling.
-- **Visual QA** has already closed the Building-infill + Weather-width combined integration gate on exact parent `5b9b55ec...`; reopening that work would duplicate a closed visual question.
-- **Object** remains heavily active in Hard Surface, Rigging, Animation, Technical Art and Runtime, but its exact equipment-case structural source remains unchanged at source head `d3fa10a270faae7925811f44f03381fe5c5d0215`. Environment therefore does not seize Object source-scale authority.
-- **Weather/VFX** source-width presentation remains accepted for fixed-state visual use while its separate wall-clock cadence/runtime work remains outside Environment.
-- **Building/Nature** have separate source/material/sidedness lanes; no ready receiving change outranked the explicit Object readability hold.
-- **UC / Profession Fabric** receive no extraction: one Map-world dressing treatment is not a generic placement or asset-generation law.
+- **Building Hard Surface PR #2**, exact authority `34124101e616c423c5a3ed5e122ddf09b98a1650`, now owns `service-pavilion-001/interpenetration-free-header-segmentation-003` under `axm.building-header-segmentation/v0.1`.
+- That source proof changes the emitted representation from the historical `19 boxes / 152 vertices / 228 triangles` to `23 boxes / 184 vertices / 276 triangles`, removing `4` positive-volume intersections and `0.02592 m³` of double-covered component volume while preserving exact occupied union, assembled bounds and receiver mounts.
+- **Building Materials PR #3**, exact authority `09a534d9d6d4cdaa1bab70cc2d01345b48d8fcc8`, already owns exact material continuity for the six emitted header segment IDs. All six bind explicitly to `frame_galvanized`; fallback/prefix inference is forbidden. Its donor-side visual continuity contract already defines `MAX_CONTINUITY_CHANGED_FRACTION := 0.01` for this exact segmentation family.
+- **Object** source and the pending Environment footprint cue are unchanged; Environment does not rescale, move or re-author the Object.
+- **Weather / VFX** source-width presentation and all `1,224` fixed-camera projected-width measurements remain independently owned.
+- **Nature** source and rear-tree `CULL_BACK` behavior remain unchanged.
+- **Runtime** has active budget lanes; Environment records only diagnostics and does not duplicate acceptance work.
+- **UC / Profession Fabric** receive no extraction: Building-specific source segmentation and material identity remain in their source repositories.
 
 Selected bounded question:
 
-> Can the exact smaller Object source read more intentionally placed in its already-accepted west service slot by exposing the historical receiver footprint as Environment-owned world dressing, without rescaling or moving the Object and without changing Building, Weather, Nature, path, cameras or lighting?
+> Can the exact source-owned interpenetration-free Building header segmentation and exact Materials-owned segment bindings replace only the Building receiving representation inside the newest multi-asset current world while Object, pending Object dressing, Weather, moving Nature, route, cameras, lighting, occupied union and Building material scalars remain fixed?
 
 ## Selected bounded improvement
 
 Extended existing Map PR #24 / branch `studio/environment-weather-variant-object-convergence-001`.
 
-Exact tested head:
+Current review head:
 
-`a29aa1e3d2260e8eb5ab2ac78a95d35ce131214c`
+`bd065c8ee23ddee922c4aa9b4aa6e3d9504ffb06`
 
-PR state observed after the evidence run: **OPEN / DRAFT / MERGEABLE**. Repository metadata is not CANON authority.
+Exact implementation under retained live-host review:
 
-Exact parent:
+`dfd4e1d662ab7d6d9f1a5c8dd35b571418154f6e`
 
-- Environment parent head `5b9b55ec67e31655f51d1acc67284816067e5be6`;
-- parent composition digest `e6cea4098c4946dcfa80573d3e30d6d07a1e7c7b4c037b5962eeb3105ac8dfe1`.
+Exact structural parent:
 
-Exact Object identity remains:
+- Environment head `a29aa1e3d2260e8eb5ab2ac78a95d35ce131214c`;
+- composition digest `8e22d33400effef66f5af79a19229cd5a4370d2a68563ecd1432f4ccb480b815`.
 
-- asset `source:object:modular-equipment-case-001`;
-- source head `d3fa10a270faae7925811f44f03381fe5c5d0215`;
-- source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- OBJ SHA-256 `3e01ef3bf4935eeaee7c56c03dc0b7f54c308e5ac2eb6a7583252a366901106`;
-- `468 vertices / 812 triangles`;
-- source world bounds `[-3.9146410266, 3.9842363289, 0.0] -> [-3.0015029734, 4.6225476711, 0.422] m`;
-- **no scale, position, rotation, geometry or material change**.
+Exact Building authorities:
 
-Environment adds one receiving cue only:
+- Hard Surface head `34124101e616c423c5a3ed5e122ddf09b98a1650`;
+- source revision `service-pavilion-001/closed-outward-box-shells-002`;
+- segmentation revision `service-pavilion-001/interpenetration-free-header-segmentation-003`;
+- Materials head `09a534d9d6d4cdaa1bab70cc2d01345b48d8fcc8`.
 
-`environment:dressing:west-object-service-footprint-frame-001`
+Environment changes only the emitted Building receiver representation. It preserves all five accepted material scalar families, including the accepted lighter `infill_coating`; consumes the exact six Materials-owned emitted header IDs; preserves source placement and world bounds; and leaves Object, Object footprint dressing, Weather, Nature, route, cameras and lighting unchanged.
 
-It is derived solely from the already-accepted historical receiver footprint `[-4.025387,-2.890757] × [3.736077,4.870707] m`: four low bars combined into one static mesh, one material surface, `48` triangles, `0.045 m` strip width, `0.02 m` height, rough dark-neutral material, no texture, no collision/navigation/gameplay authority. It is a world-dressing footprint cue, not an Object component or physical service-pad claim.
+Source facts preserved in the receiver:
 
-Structural clearance remains bounded:
+- historical positive-volume intersections: `4`;
+- historical double-covered component volume: `0.02592 m³`;
+- successor positive-volume intersections: `0`;
+- occupied-union residual: `0.0 m³`;
+- receiver-mount residual: `0.0 m`;
+- successor topology: `23 objects / 184 vertices / 276 triangles`, `0` boundary / non-manifold / orientation-conflict / degenerate defects, `276` outward and `0` inward triangles.
 
-- minimum exact Object-to-frame inner clearance: `0.0657459734 m`;
-- minimum readable-path separation: `1.390757 m`;
-- minimum Building-Y separation: `1.209293 m`.
+## First real-host hypothesis — failure retained
 
-## Exact-head evidence
+The first exact receiving workflow intentionally asked a stronger question than the donor contracts required: could the source-segmented Building be byte-near visually identical to the exact parent, with **no RGB channel delta greater than one 8-bit step** across all `17 states × 2 cameras × 2 Weather modes = 68` frame pairs?
 
-Dedicated workflow:
+Workflow `35129750104` disproved that hypothesis in real Godot 4.7.2. The live observer itself reached the inherited Weather-width PASS and retained all frames, but the strict image gate failed. That failure remains evidence:
 
-**`35123782228 — Environment current-world Object readability dressing evidence` — SUCCESS**
+- result: **`FAIL_STRICT_NO_RGB_DELTA_ABOVE_ONE_LSB`**;
+- artifact `10460871165`;
+- artifact SHA-256 `add8d72e9dee4398ef844892138308022261d2d5a4f22a652f4dda9dbdb26d70`.
 
-Scoped structural result:
+A later PR-head rerun (`35130502191`) repeats the same strict verifier failure. This is not hidden or rewritten. The strict pixel-identity hypothesis is false for this exact full-world five-surface receiver.
 
-**`PASS_CURRENT_WORLD_OBJECT_READABILITY_DRESSING_STRUCTURE`**
+## Bounded retained-frame continuity result
 
-Scoped target-host result:
+Rather than weakening the failed verifier after seeing the answer, a separate review consumed the immutable failed-run frames and the exact immutable parent frames, while binding the already-authored Building Materials continuity guard for this same 19-output -> 23-output segmentation.
 
-**`PASS_CURRENT_WORLD_OBJECT_READABILITY_DRESSING_TARGET_HOST`**
+Dedicated review workflow:
 
-Exact composition digest:
+**`35130502118 — Environment Building header segmentation bounded continuity review` — SUCCESS**
 
-`8e22d33400effef66f5af79a19229cd5a4370d2a68563ecd1432f4ccb480b815`
+Scoped result:
 
-Pinned target host: **Godot 4.7.2 GL Compatibility**.
+**`PASS_CURRENT_WORLD_BUILDING_HEADER_SEGMENTATION_BOUNDED_CONTINUITY`**
 
-The workflow binds the exact accepted parent artifact before building the successor, retains the exact Object source, and exercises fail-closed controls for parent-head drift, reserved-footprint drift, missing Object source and path-clearance intrusion.
+The PASS is narrower than strict pixel identity and does not override the failure above.
 
-Real-host evidence retains `17 states × 2 fixed cameras × 2 inherited Weather presentation modes = 68` exact parent/candidate frame pairs. All 68 pairs are visibly distinct and every changed pixel remains inside the projected dressing bounds plus the bounded antialias margin. Exact Object runtime identity remains present, Building remains `152v / 228t`, rear Nature remains `CULL_BACK`, and all `17 × 2 × 36 = 1,224` Weather source-width observations still pass with maximum residual `0.00974698571769128 px` inside the existing `0.05 px` gate.
+Across all 68 exact retained parent/successor pairs, counting pixels with any RGB channel delta greater than one LSB:
 
-## Direct retained-image evidence
+- `path_eye`: exactly `3,046` changed pixels per pair = **`0.3845959596%`** of `792,000`; fixed bbox `[359,271]-[741,417]`; maximum channel delta `169`;
+- `elevated_oblique`: `1,631–1,632` changed pixels = **`0.2059343434–0.2060606061%`**; fixed bbox `[603,193]-[843,247]`; maximum channel delta `152`.
 
-Direct inspection of exact state `8` plus all-frame measurements shows the intended change is narrow and stable:
+Both cameras remain comfortably inside the donor's existing `1%` continuity guard. The delta stays fixed to the Building region, remains state-stable to one pixel, and is identical between Weather control and source-width modes for each state. This supports attribution to the static segmented Building receiving representation rather than to the dynamic Weather/Nature sequence. It does **not** establish perceptual preference or explain the renderer-level cause of the highlight/shading delta.
 
-- `path_eye`: exactly `161` changed pixels per frame;
-- `elevated_oblique`: exactly `106` changed pixels per frame;
-- the changed footprint is the thin receiver frame around the equipment case and does not spread into the pavilion, route, vegetation or Weather field.
+The same retained live run preserves:
 
-In both retained cameras the source equipment case remains its exact original size, but the thin surrounding footprint makes the placement read more intentionally **seated / grounded in a defined service slot** rather than as a smaller source dropped into the footprint formerly occupied by the larger proxy. This is a useful Environment readability improvement candidate. It is **not** final Art Direction or independent Visual QA acceptance.
-
-The accepted parent `5b9b55ec...` therefore remains the current approved visual reference until those owners explicitly prefer or reject this successor.
+- exact segmented Building runtime identity `184v / 276t / 5 surfaces`;
+- exact Object source `468v / 812t`;
+- pending Object footprint dressing unchanged;
+- exact rear Nature source with `CULL_BACK`;
+- all `1,224` Weather projected-width measurements, maximum residual `0.00974698571769128 px` inside the existing `0.05 px` gate.
 
 ## Runtime diagnostic handoff
 
-The Environment proof records runtime counters only as diagnostics, not acceptance. Relative to the exact accepted parent representation, the dressing adds exactly one static submission:
+Relative to the exact `a29aa...` parent, the segmented receiver produces the same stable diagnostic delta in every camera and Weather mode:
 
-- `path_eye`: parent `32 draw / 32 objects` -> candidate `33 / 33`;
-- `elevated_oblique`: parent `39 / 39` -> candidate `40 / 40`;
-- primitives: `+48` in every fixed-camera/mode comparison;
-- observed buffer memory: `+2,304 B`;
-- observed texture memory: unchanged.
+- draw calls: `+0`;
+- objects in frame: `+0`;
+- RenderingServer primitive counter: `+144`;
+- observed buffer memory: `+2,880 B`;
+- observed texture memory: `+0`.
 
-Runtime / Optimization owns whether that cost is acceptable if the visual cue is preferred.
+This is characterization only. Runtime / Optimization owns target-device meaning and acceptance.
 
-## Retained evidence
+## Retained review evidence
 
-Successful artifact:
+Successful bounded-review artifact:
 
-- ID `10458660039`;
-- name `environment-object-readability-dressing-001-a29aa1e3d2260e8eb5ab2ac78a95d35ce131214c`;
-- size `6,716,255 bytes`;
-- GitHub SHA-256 `af49a1c6a3ce319826be5dc02c6b42d4c3b131a8a76f98c19a4939299e44372e`;
+- ID `10461700584`;
+- name `environment-building-header-segmentation-continuity-review-bd065c8ee23ddee922c4aa9b4aa6e3d9504ffb06`;
+- size `208,624 bytes`;
+- GitHub SHA-256 `5da06da23f17ed28af27352073296a10f25771b2c421913a005de9e0de7b8ac7`;
 - independently downloaded and rehashed to the exact same SHA-256;
-- retained exact head `a29aa1e3d2260e8eb5ab2ac78a95d35ce131214c`;
-- retains structural payload, Godot log/runtime receipt, target-host report and all 68 candidate frames.
+- retains the exact bounded-continuity report, review head and direct parent/successor/difference montage.
 
 ## Handoffs
 
-**Map PR #24 / Environment** — comment `5701198639`: exact scope, unchanged Object identity, successful workflow/artifact, direct visual finding and Runtime/Art/QA holds recorded.
+**Map PR #24 / Environment** — comment `5702022632`: exact source/material authorities, strict failure, bounded real-frame result, Weather/Object/Nature preservation, runtime diagnostic and all adoption holds recorded.
 
-**Object Hard Surface PR #14** — comment `5701200974`: explicit no-rescale / no-source-change handoff. Object should not change source scale because of this Environment result; the receiver cue can be removed or repaired independently if perceptually rejected.
+**Building Hard Surface PR #2** — comment `5702024174`: confirms exact source-owned segmentation reached the current world without requesting any Building source rewrite or ownership transfer.
 
-**3D Art Direction + Visual QA:** compare exact accepted parent `5b9b55ec...` against exact successor `a29aa1e3...`. Decide whether the receiver-footprint cue improves current-world Object scale/readability enough to carry forward. Do not inherit this Environment PASS as visual acceptance.
+**Building Materials PR #3** — comment `5702026307`: confirms all accepted PBR/scalar values and exact six emitted-ID bindings remain unchanged; the full-world delta fits the donor's existing `<=1%` continuity guard but inherits no perceptual acceptance.
 
-**Runtime / Optimization:** if the cue is visually preferred, measure this exact successor. The proof-host `+1` draw/object / `+48` primitive / `+2,304 B` buffer diagnostic is not target-device certification.
+**3D Art Direction + Visual QA:** inspect the retained full-world Building-region highlight/shading delta before adopting this segmented receiver as the next visual reference. The existing Object footprint cue remains a separate held decision.
 
-**Weather / VFX, Building, Nature:** no source semantics or accepted visual state changed; their exact parent identities are preserved.
+**Runtime / Optimization:** characterize the exact stable `+0 draw / +0 object / +144 primitive-counter / +2,880 B buffer / +0 texture` delta on appropriate target-device evidence before any performance acceptance.
 
-**UC / Profession Fabric / Capability Cartography:** no extraction or capability move is justified from this single receiving-scene candidate.
+**Weather / VFX, Nature, Object:** no source semantics or authored behavior changed; their exact receiving identities remain preserved.
+
+**UC / Profession Fabric / Capability Cartography:** no extraction or capability move is supported by this Building-specific integration result.
 
 ## Explicit non-claims
 
-This activation does **not** establish final Art Direction or Visual QA preference; Object source-scale or geometry change; Object final material/mechanical/articulation acceptance; a physical service pad/mount; collision, navigation, traversal or gameplay; arbitrary camera/FOV/resolution/renderer equivalence; target-device FPS/CPU/GPU/overdraw/memory/VRAM/battery/thermal budget; final world-detail density, lighting, palette or dressing quality; Weather wall-clock correctness; CANON; production/game readiness; or Environment / World Art mastery.
+This activation does **not** establish strict pixel identity with the historical receiver; final Art Direction or Visual QA preference; Object footprint-dressing adoption; a boolean-unioned or globally vertex-manifold pavilion; final normals/tangents/UVs/textures/decals/weathering; physical architectural correctness; arbitrary-camera/FOV/resolution/renderer equivalence; target-device FPS/CPU/GPU/VRAM/allocator/thermal/battery/batching acceptance; collision, navigation, traversal or gameplay; Weather wall-clock correctness; CANON; production/game readiness; or Environment / World Art mastery.
 
 ## Four-root gate
 
-- **Truth:** exact parent artifact, exact Object identity, exact head, fail-closed controls, real Godot observation, all-frame localization and independent archive rehash precede claims.
-- **Agency / non-domination:** Environment changes only world dressing and does not seize Object scale/source, Weather, Nature, Building, Runtime, QA or Art Direction authority.
-- **Continuity:** the accepted `5b9b55ec...` world stays the approved parent; the new `a29aa1e3...` dressing successor is a separate candidate with its own exact provenance and can be rejected without rewriting the parent.
-- **Wisdom before speed:** the explicit scale/readability problem is addressed with the smallest reversible receiver-side cue instead of enlarging the Object source or mixing in lighting/material/geometry changes.
+- **Truth:** the first strict visual hypothesis failed and remains explicitly retained; the narrower bounded PASS is linked to direct real-host frames and a pre-existing donor threshold rather than post-hoc aesthetic relabeling.
+- **Agency / non-domination:** Environment consumes exact Building and Materials contracts without seizing their source authority, and does not grant itself Art/QA/Runtime acceptance.
+- **Continuity:** exact parent `a29aa...`, exact implementation `dfd4e1d...`, exact review `bd065c8...`, exact donor heads, failed artifact and successful review artifact remain independently identifiable and reversible.
+- **Wisdom before speed:** the smallest ready source-owned representation was composed and measured across the actual multi-asset dynamic world; unrelated visual tuning, Object scaling, Weather changes and source rewrites were deliberately excluded.
