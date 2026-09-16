@@ -1,21 +1,21 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / SECOND BOUNDED RUNTIME PASS / ACTIVE-ONLY LOD RESIDENCY FEASIBILITY PROVEN / PRODUCTION STREAMING NOT ACCEPTED**
+State: **ACTIVE / THIRD BOUNDED RUNTIME PASS / FIRST MULTI-ASSET ENVIRONMENT RUNTIME BASELINE PROVEN / WEATHER ONE-SURFACE DRAW CONTRACT PROVEN / TARGET BUDGET STILL MISSING**
 
 ## Bounded claim
 
-This activation followed the strongest unresolved Runtime result from the previous Wreckline LOD pass instead of opening another optimization lane.
+This activation moved to the first real multi-asset Environment source slice instead of continuing to optimize Wreckline without a rebuildable changed LOD candidate.
 
-The first Runtime pass had already shown that selecting the existing Hero Vehicle LOD1 at the exact 35.046398 m proof camera reduced visible Godot 4.7.2 draw calls and primitives, but its measured texture/buffer counters did not fall because **LOD0 and LOD1 remained resident together**. That result explicitly made no memory-saving claim.
+`axm-map-design` Environment PR #4 now has exactly the condition the previous Runtime status was waiting for: a source-owned Nature sapling plus source-owned Weather field rendered in pinned **Godot 4.7.2 GL Compatibility** from two fixed cameras. Environment explicitly retained runtime/performance as an unproven handoff.
 
-The bounded follow-up therefore asked one narrower question on the same exact source assets and same Runtime PR:
+The bounded Runtime question was therefore:
 
-> If the inactive Hero Vehicle LOD is actually released instead of merely hidden, does observed proof-host residency fall while the alternate LOD stays active?
+> What does that exact current source slice cost relative to its exact seed-29 proxy composition in the same proof host, and does the existing 36-streak Weather representation remain one bounded draw surface rather than expanding into per-streak draws?
 
-Result: **yes, in this exact Godot proof host.** Releasing inactive LOD0 while LOD1 remained visible reclaimed measured RenderServer buffer and texture residency, and releasing LOD1 afterwards returned both counters exactly to the road-only baseline. The same evidence also exposes the cost of a naïve policy: synchronous import measured tens of milliseconds in CI, so this is **not** a production streaming/preload acceptance.
+Result: **`PASS_SCOPED_FIRST_ENVIRONMENT_RUNTIME_BASELINE`**.
 
-No geometry, materials, threshold, source art, animation, gameplay controller, Universal Creation code, or `axm-create-me` product implementation was changed.
+The exact source slice adds only **one draw call** over the proxy baseline in both fixed cameras. The exact Weather field itself is that one additional draw call. No Environment geometry, placement, material, camera, source identity, Weather semantics, gameplay code, Universal Creation code, or `axm-create-me` product implementation was changed.
 
 ## Coordination / constellation scan
 
@@ -23,220 +23,289 @@ Read before acting:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - standing role `studio/specialists/12_runtime_optimization.md`;
-- current Runtime status;
-- Art Director, Hard Surface, Environment, Rigging, Visual Observer and Technical Art status;
-- current Wreckline Runtime / Animation / Hard Surface PRs and exact runtime evidence.
+- previous Runtime status;
+- current Art Director, Hard Surface, Environment, VFX, Technical Art and Visual Observer status;
+- current open design-repository PR state and exact runtime-capable evidence.
 
-Relevant current neighboring state:
+Relevant current state:
 
-- **Art Director:** the original proposed 35 m Hero LOD switch remains on visual-direction HOLD because the existing LOD1 loses disproportionate object-relative mechanical identity. This activation does not clear or bypass that hold.
-- **Hard Surface:** Wreckline PR #6 remains the source-owned structural candidate that restores sparse compressor spokes and tread blocks. It has a structural PASS only; there is still no rebuilt candidate GLB/runtime measurement, so this activation does not inherit any of the old LOD1 cost numbers into that changed geometry.
-- **Animation:** Wreckline harpoon motion remains a separate mechanical-motion lane.
-- **Environment:** map PR #4 now has a real source-owned Nature + Weather slice but explicitly still lacks target-engine/runtime/performance evidence. It is a future Runtime consumer, not a stronger measured optimization target than the current Wreckline residency gap.
-- **Rigging / Visual Observer:** animal Rigging repaired the exact detached-paw subtree propagation structurally, while Visual Observer's older visual FAIL remains pending recheck. No target-runtime organic rig body exists yet, so Runtime did not enter that lane.
-- **Technical Art:** the animal -> UC bridge is static structural export evidence and explicitly leaves runtime cost/import proof separate.
+- **Wreckline Runtime PR #5** at `f7d900a52cfe0e088d40c28d9a4486efb5894563` still proves the earlier active-only LOD residency result. That evidence remains valid for the original Hero LODs.
+- **Wreckline Hard Surface PR #6** now has a structurally improved LOD1 candidate, but a truthful real rebuild is still held on the exact provider closure. Technical Art PR #8 is working that provider/import boundary. Old Wreckline Runtime numbers therefore still cannot be inherited by the changed Hard Surface candidate.
+- **Art Director** still holds the old Wreckline 35 m LOD threshold pending an actual rebuilt/rendered identity-retention candidate.
+- **Environment PR #4** exact tested head `d52cb54a2aeb3eb4f5668e3d6ba4b05ddcc02899` is the first current design scene with a real multi-asset Godot observation host: map/building/object/nature bodies, the exact Nature sapling, and the exact Weather field.
+- **VFX / Nature** has advanced the sapling response hierarchy separately. Runtime did not import that held/review-pending dynamic candidate into this static Environment budget lane.
+- **Nature Technical Art / UC** proves a separate static GLB portability path with explicit leaf backfaces. Environment still consumes the exact source-owned sapling directly; Runtime did not substitute the UC artifact merely because it exists.
+- **Animal Rigging / Animation** now have bounded deformation/motion evidence, but still no equivalent target-runtime body. Runtime did not manufacture an organic performance claim from sampled wire evidence.
 
-No competing active-only residency/streaming implementation lane was found. The existing Wreckline Runtime PR #5 was extended rather than creating another PR.
+No competing Environment runtime-budget lane existed. A new Runtime branch was stacked directly on Environment PR #4 rather than modifying Environment's authored composition or reusing Wreckline's unrelated runtime branch.
 
-## Existing measure-before baseline preserved
-
-Wreckline Runtime PR #5 already measured the exact original Hero Vehicle assets in Godot 4.7.2:
-
-- LOD0: **21,358 triangles / 47,870 vertices / 96 surfaces**;
-- LOD1: **10,354 triangles / 23,604 vertices / 79 surfaces**.
-
-At the existing exact far camera, the visibility-only LOD0 -> LOD1 switch previously measured:
-
-- visible draw calls: **102 -> 85**;
-- visible primitives: **22,496 -> 11,492**;
-- imported triangles: **21,358 -> 10,354**;
-- imported vertices: **47,870 -> 23,604**;
-- imported surfaces: **96 -> 79**.
-
-However, both LOD resources were resident. The prior proof therefore correctly recorded unchanged residency across the visibility switch and set memory optimization to `NOT_CLAIMED_BOTH_LODS_RESIDENT`.
-
-That non-improvement is the direct before-evidence for this activation.
+`axm-create-me` remains coordination-only.
 
 ## Bounded improvement
 
 Repository:
 
-`mike-axiom-mir/axm-wreckline`
+`mike-axiom-mir/axm-map-design`
 
-Existing draft PR:
+Draft PR:
 
-`#5 — Runtime: prove bounded hero LOD switch budget`
+**`#5 — Runtime: measure first environment source-slice budget`**
 
 Branch:
 
-`studio/runtime-optimization-lod-policy-001`
+`studio/runtime-environment-budget-001`
 
-Exact current Runtime head:
+Stacked base:
 
-`f7d900a52cfe0e088d40c28d9a4486efb5894563`
+`studio/environment-real-nature-weather-001`
 
-Added to the same lane:
+Exact base head:
 
-- `native/specialist-proof/runtime_lod_residency_observe.gd`;
-- `.github/workflows/hero-runtime-lod-residency-evidence.yml`.
+`d52cb54a2aeb3eb4f5668e3d6ba4b05ddcc02899`
 
-The new probe uses the exact checked-in source GLBs and verifies their manifest hashes before staging. It then measures a lifecycle rather than visibility alone:
+Exact final Runtime head:
 
-1. road-only baseline;
-2. load LOD0 only;
-3. load LOD1 while keeping LOD0 resident, with LOD1 visible;
-4. release inactive LOD0 while LOD1 remains visible;
-5. release LOD1 and require measured memory to return exactly to road-only baseline.
+`5b24ef52c4e7923e077fa057f3df6fe9ff22bc22`
 
-No asset bytes are rewritten by the probe.
+PR state at this status write: **DRAFT / OPEN / MERGEABLE**.
 
-## Exact active-only residency result
+Added only Runtime evidence/proof files inside the design repository:
+
+- `tools/environment_runtime_budget.py`;
+- `tests/test_environment_runtime_budget.py`;
+- `environment-proof/runtime_budget_observe.gd`;
+- `.github/workflows/environment-runtime-budget.yml`;
+- `docs/ENVIRONMENT_RUNTIME_BUDGET_001.md`.
+
+No product-scene semantics were changed.
+
+## Measure-before comparison
+
+Three states are reconstructed from the exact Environment source-integration receipt and measured in fresh Godot processes:
+
+1. **`proxy_baseline`** — exact seed-29 proxy composition before source replacement; no source sapling and no Weather overlay.
+2. **`source_sapling_only`** — measurement ablation only: exact source-owned sapling with Weather omitted.
+3. **`source_sapling_weather`** — exact current Environment source slice.
+
+The measurement ablation is explicitly **not a product candidate**. Removing Weather is not proposed as an optimization.
+
+All three preserve:
+
+- exact seed-29 composition identity;
+- map surface;
+- building proxy;
+- remaining Nature proxies;
+- object proxies;
+- proof path overlay;
+- lighting;
+- both existing fixed cameras;
+- renderer/runtime version;
+- exact Nature and Weather source identities.
+
+The two fixed contexts remain:
+
+- `path_eye`;
+- `elevated_oblique`.
+
+## Exact final runtime evidence
 
 Dedicated workflow:
 
-`Hero runtime LOD residency evidence`
+`Environment runtime budget evidence`
 
 Exact-head run:
 
-**35049487232 — SUCCESS**
+**35053830634 — SUCCESS**
 
-Retained artifact:
+All neighboring inherited workflows on the same exact head also completed successfully:
 
-- artifact ID: **10427474633**;
-- name: `wreckline-hero-runtime-lod-residency-f7d900a52cfe0e088d40c28d9a4486efb5894563`;
-- archive digest: `sha256:ca667745651e8f481b7c227f6c896fc4d7461dcad348132f4c2fccc42a665f48`;
-- exact-head binding: `f7d900a52cfe0e088d40c28d9a4486efb5894563`.
+- Environment composition baseline `35053830695` — SUCCESS;
+- Procedural environment variation `35053830646` — SUCCESS;
+- Environment eye-level observation evidence `35053830649` — SUCCESS.
 
-The retained receipt was downloaded and inspected directly.
+Final retained artifact:
 
-Exact measured lifecycle:
+- artifact ID: **10429986732**;
+- name: `environment-runtime-budget-001-5b24ef52c4e7923e077fa057f3df6fe9ff22bc22`;
+- archive digest: `sha256:7d16c162da367b76044b51809388ee4c53f55b3ed03a3a3b9edd70d4011cfc48`;
+- exact-head binding: `5b24ef52c4e7923e077fa057f3df6fe9ff22bc22`;
+- retained aggregate state: **`PASS_SCOPED_FIRST_ENVIRONMENT_RUNTIME_BASELINE`**.
 
-| state | buffer memory | texture memory | visible draw calls | visible primitives |
-|---|---:|---:|---:|---:|
-| road-only baseline | 6,472,644 B | 6,366,915 B | 6 | 1,138 |
-| LOD0 only | 7,071,504 B | 6,760,107 B | 102 | 22,496 |
-| both LODs resident, LOD1 visible | 7,400,828 B | 6,858,387 B | 85 | 11,492 |
-| LOD1 only after inactive LOD0 release | 6,801,968 B | 6,465,195 B | 85 | 11,492 |
-| after LOD1 release | 6,472,644 B | 6,366,915 B | 6 | 1,138 |
+The artifact was downloaded and independently rehashed; the local ZIP SHA-256 matched GitHub's retained artifact digest exactly.
 
-Releasing the inactive LOD0 while LOD1 remained visible reclaimed:
+### Exact counters
 
-- **598,860 bytes of RenderServer buffer memory**;
-- **393,192 bytes of observed texture memory**.
+The measurements were identical in delta form across both fixed cameras.
 
-The both-resident vehicle-specific buffer overhead above road-only was **928,184 bytes**. After dropping inactive LOD0, the remaining LOD1-only overhead was **329,324 bytes**. Therefore about **64.52% of the both-resident vehicle buffer overhead** was removed while preserving the visible LOD1 state.
+**Proxy baseline:**
 
-The both-resident observed texture overhead above road-only was **491,472 bytes**. The LOD1-only observed overhead was **98,280 bytes**, so the measured texture counter fell by about **80.00% of that incremental both-resident overhead** after releasing inactive LOD0. Texture interpretation remains explicitly observational because sharing/caching behavior is renderer-dependent.
+- elevated: 26 draw calls / 26 objects / 336 renderer primitives / 6,417,888 B buffer / 12,875,715 B texture;
+- path eye: 19 draw calls / 19 objects / 252 renderer primitives / 6,417,888 B buffer / 12,875,715 B texture.
 
-After LOD1 was released as well, both measured counters returned **exactly** to the road-only baseline.
+**Exact source sapling, Weather omitted:**
 
-Current residency gate:
+- elevated: 26 draw calls / 26 objects / 2,010 renderer primitives / 6,451,344 B buffer / 12,875,715 B texture;
+- path eye: 19 draw calls / 19 objects / 1,926 renderer primitives / 6,451,344 B buffer / 12,875,715 B texture.
 
-**`PASS_SCOPED_ACTIVE_ONLY_RECLAIM_OBSERVED`**
+Relative to its reserved Nature proxy, the exact source sapling therefore measures:
 
-This is stronger than the prior visibility-only result because the proof now distinguishes “not drawn” from “not resident.”
+- **+0 draw calls**;
+- **+0 visible objects**;
+- **+33,456 B buffer memory**;
+- **+1,674 RenderingServer-reported primitives**;
+- **+0 texture bytes**.
 
-## Import-latency / streaming risk
+This does **not** change the source truth that the sapling has **390 vertices / 570 authored triangles**. The renderer primitive counter is retained as a renderer observation, not substituted for source geometry identity.
 
-The same exact CI receipt measured synchronous GLB import time:
+**Exact full source slice with 36-streak Weather field:**
 
-- LOD0: **35,400 µs / 35.400 ms**;
-- LOD1: **11,276 µs / 11.276 ms**.
+- elevated: 27 draw calls / 27 objects / 2,154 renderer primitives / 6,452,208 B buffer / 12,875,715 B texture;
+- path eye: 20 draw calls / 20 objects / 2,070 renderer primitives / 6,452,208 B buffer / 12,875,715 B texture.
 
-These values are evidence from one GitHub runner and Godot 4.7.2 proof host. They are **not** a target-device latency budget or production frame-time measurement.
+Relative to the exact sapling-only ablation, Weather adds in both cameras:
 
-They do establish an important design constraint for the next Runtime step: a naïve “free inactive LOD now, synchronously import it again exactly when needed” policy may recover residency while creating a visible hitch or missing-asset interval.
+- **+1 draw call**;
+- **+1 visible object**;
+- **+864 B buffer memory**;
+- **+144 RenderingServer-reported primitives**;
+- **+0 texture bytes**.
 
-Therefore:
+Full source slice versus proxy baseline:
 
-- active-only residency feasibility: `PASS_SCOPED_ACTIVE_ONLY_RECLAIM_OBSERVED`;
-- synchronous import latency: `MEASURED_CI_PROOF_HOST_ONLY_NOT_TARGET_ACCEPTED`;
-- production streaming/preload policy: `NOT_TESTED`;
-- target memory budget: `BLOCKED_MISSING_TARGET_BUDGET`;
-- target performance/FPS: `BLOCKED_MISSING_TARGET_BUDGET`;
-- representative gameplay runtime: `NOT_TESTED`;
-- final/native Wreckline runtime: `NOT_TESTED`.
+- **+1 draw call**;
+- **+1 visible object**;
+- **+34,320 B buffer memory**;
+- **+1,818 RenderingServer-reported primitives**;
+- **+0 texture bytes**.
 
-## Visual tradeoff / Art Director boundary
+## Weather batching regression contract
 
-This residency probe changes **no geometry or material state**, so it does not create a new static art comparison.
+The Environment proof host already puts all **36 authored Weather streaks into one `ImmediateMesh` surface**. Runtime did not replace a good batching strategy merely to create activity.
 
-The visual risk is temporal/runtime rather than geometric:
+Instead, this pass turns that already-good representation into an executable receiving-host regression contract:
 
-- releasing an inactive LOD can reclaim memory;
-- synchronous re-import can create a hitch or a period where the desired asset is unavailable;
-- therefore a real production policy would need evidence for preload distance/window, asynchronous/background load behavior if available, transition timing, and representative moving-camera continuity.
+**`PASS_EXACT_ONE_DRAW_CALL_144_RENDERER_PRIMITIVES_FOR_36_LINES_BOTH_CAMERAS`**
 
-The Art Director's existing **35 m visual hold remains unchanged**. This memory result does not make the existing LOD1 more acceptable visually and does not authorize the 35 m threshold.
+That is the bounded performance improvement from this pass: future changes to this exact proof path can no longer silently turn the 36-streak field into 36 draw calls while still calling the scene “the same.”
 
-Likewise, Hard Surface PR #6 changes the LOD1 geometry. If that candidate receives a real rebuilt GLB, **all relevant Runtime measurements must be repeated on that exact candidate** rather than inheriting this original LOD1 receipt.
+### Truth repair: authored lines are not the renderer counter
 
-## Continuity note on stacked Hard Surface lane
+The first Runtime run, **35053642088**, intentionally remains historical evidence.
 
-Hard Surface PR #6 is stacked on the Runtime branch. After this activation advanced the Runtime base branch, GitHub's current PR metadata temporarily reports PR #6 as non-mergeable while its recorded base SHA still points at the earlier Runtime head. Runtime did not rewrite, merge, close, or supersede that Hard Surface lane.
+Its measurement step succeeded and produced the same real counters, but aggregation failed because this specialist initially assumed:
 
-Before Hard Surface resumes candidate GLB/runtime work, its branch relationship should be refreshed/rebased against the current Runtime head and its structural evidence rerun. No CANON/merge action is taken here because the four roots, not this specialist or Git permission, are the merge gate.
+`36 authored Weather lines -> +36 RenderingServer primitives`.
 
-## Reusable learning candidate
+That assumption was false in pinned Godot 4.7.2 GL Compatibility. The actual repeated measurement was:
 
-A bounded reusable Runtime lesson is now supported by this one real asset family:
+`36 authored Weather streaks -> +1 draw call / +144 RenderingServer-reported primitives`.
 
-> **LOD visibility reduction and LOD residency reduction are separate contracts.** A hidden lower-detail/higher-detail resource can reduce draw cost while still consuming memory; a memory claim needs explicit lifecycle evidence showing what is actually loaded and released.
+Initial retained artifact:
 
-A second candidate lesson is that active-only residency is not automatically “better”: it introduces load-latency risk. The useful optimization problem is therefore a three-way balance among visual acceptance, render cost, and residency/load timing rather than triangle count alone.
+- artifact ID: **10429751680**;
+- archive digest: `sha256:ef46daa5bc8576a3368031a234c921d9e6dd9dc51ac82f1d7ec9bcc7fd5cdfaf`;
+- exact old head: `5013785d76193ef8ed5b705223c09d3d167884a9`;
+- aggregate state: HOLD because the **assumption** was wrong, not because the one-surface batching failed.
 
-These remain **candidate learnings**, not a Universal Creation or studio-wide runtime policy. One vehicle and one proof host are insufficient for horizontal promotion.
+The contract was repaired around the observed backend counter rather than silently rewriting the source to “144 streaks.”
+
+This distinction matters for future Runtime work: source triangle/line counts, submitted renderer counters, and draw calls are different evidence domains and must not be conflated.
+
+## Direct visual tradeoff inspection
+
+The retained elevated proxy-baseline and full-source PNGs were directly inspected.
+
+Observed scoped difference:
+
+- the proxy baseline contains the expected large green reserved Nature block in the replacement slot;
+- the source slice replaces that block with the much thinner, branching sapling silhouette;
+- the full slice additionally shows the blue source-owned Weather streak field;
+- the large east foreground Nature proxy remains the same dominant oblique-view object already held by Environment for Art Director hierarchy review.
+
+This Runtime pass did **not** propose visually reverting the real sapling to its cheaper proxy and did **not** propose removing Weather to save one draw call.
+
+The final full-scene elevated PNG SHA-256 is:
+
+`fdc1d3630fbeae53eca3f9cd8dd740a52666a2dc7404bd5839a0cce1fa90c32d`
+
+That exact PNG hash is byte-identical between the initial failed-assumption run and the corrected final run. Therefore the correction changed evidence interpretation/validation only; it did not silently alter the rendered scene.
+
+Art Director acceptance of the current world hierarchy remains independent.
+
+## Previous Wreckline Runtime evidence retained
+
+The earlier Wreckline active-only residency result remains valid within its original exact-asset scope:
+
+- visibility reduction and residency reduction are separate contracts;
+- hiding an LOD can reduce draw cost without freeing memory;
+- explicit release reclaimed measured memory;
+- synchronous re-import exposed nonzero hitch risk;
+- the 35 m visual threshold remains held;
+- changed Hard Surface geometry must be remeasured from its own exact rebuilt asset.
+
+This Environment pass does not supersede Wreckline. It adds a second materially different receiving-host evidence family.
+
+## Reusable learning candidates
+
+Two bounded Runtime learnings now have stronger cross-repo support:
+
+1. **Source geometry counts, renderer primitive counters, draw calls, and residency are separate evidence contracts.** They may move differently and must be named exactly.
+2. **Replacing a proxy with real source art does not necessarily add draw calls.** In this exact scene the Nature replacement keeps one visible object / one draw slot while increasing buffer and renderer-primitive cost; the Weather overlay adds one additional draw slot because the entire field is already batched into one surface.
+
+The second point is useful for future source-replacement work: do not optimize solely by object count or triangle count. Measure the receiving host.
+
+These remain candidate learnings, not a studio-wide engine policy or Universal Creation abstraction. Two runtime families are enough to justify watching the pattern, not enough to claim a universal budget system.
 
 ## Truth boundary / non-claims
 
-This activation proves only that for the exact existing Wreckline Hero Vehicle LOD0/LOD1 assets in this exact Godot 4.7.2 CI proof host:
+This activation proves only that for the exact seed-29 Environment slice in pinned Godot 4.7.2 GL Compatibility:
 
-1. both-resident LOD memory is measurably higher than active-only LOD1 memory;
-2. releasing inactive LOD0 while LOD1 remains visible reclaims measured buffer and texture residency;
-3. releasing LOD1 afterwards returns both measured counters exactly to the road-only baseline;
-4. synchronous re-import has measurable nonzero latency in CI.
+1. the exact source sapling can replace its reserved proxy with no additional measured draw call in either fixed camera;
+2. that source replacement has a measurable buffer / renderer-counter cost;
+3. the exact 36-streak Weather field stays one additional draw call in both fixed cameras;
+4. the proof host repeatedly reports +144 RenderingServer primitives for that one-surface Weather field;
+5. the exact full slice now has a retained comparative runtime baseline.
 
 It does **not** establish:
 
-- target FPS or frame-time;
-- target hardware/device acceptance;
-- a target memory budget;
-- asynchronous/background streaming support or quality;
-- hitch-free transitions;
-- an optimal preload/unload distance or time window;
-- representative gameplay-camera acceptance;
-- visual acceptance of the 35 m threshold;
-- performance of Hard Surface PR #6's changed LOD1 geometry;
-- environment-slice runtime cost;
-- organic-rig runtime cost;
-- final/native Wreckline runtime acceptance;
-- a Universal Creation residency organ;
+- target-device FPS or frame-time;
+- a target memory/draw-call/primitive budget;
+- physical GPU cost from the RenderingServer counters alone;
+- generic Godot line-expansion semantics outside this pinned proof;
+- final Environment hierarchy or Art Director acceptance;
+- final building/object/nature source replacements;
+- dynamic sapling VFX runtime cost;
+- final materials, textures, transparency or overdraw cost;
+- target platform/mobile/browser behavior;
+- collision, traversal or gameplay cost;
+- production LOD, culling, instancing, streaming or batching policy;
+- performance of Wreckline Hard Surface PR #6's changed candidate;
+- a Universal Creation Runtime organ;
 - production readiness, CANON or Runtime / Optimization mastery.
 
 ## Root gate
 
-- **Truth:** the previous “memory unchanged because both LODs are resident” result remains visible; the new claim is tied to exact source identities and an actual release lifecycle. Import latency is reported rather than hidden behind the memory win.
-- **Agency / non-domination:** no art/source lane, threshold, gameplay runtime, or downstream Hard Surface decision is silently overridden by Runtime measurements.
-- **Continuity:** the existing Wreckline Runtime PR #5 was extended rather than replaced; prior receipts remain intact; exact asset identities and rollback remain available.
-- **Wisdom before speed:** the activation closes the specific memory ambiguity before proposing streaming architecture or a studio-wide budget, and refuses to trade a measured memory win for an unmeasured hitch claim.
+- **Truth:** the initial incorrect +36 primitive assumption is retained with its failed run/artifact. The corrected gate uses the repeated +144 renderer counter without rewriting the source's 36-streak identity.
+- **Agency / non-domination:** Runtime does not trade away the real sapling, Weather field, Environment composition, Art Director authority, or source-repository ownership for cheaper counters.
+- **Continuity:** Runtime PR #5 is stacked exactly on Environment PR #4; Environment remains unchanged; prior Wreckline Runtime evidence remains separate; all exact heads, runs, artifacts and visual hashes are retained.
+- **Wisdom before speed:** this pass measures the first real multi-asset scene and locks one actually demonstrated batching property instead of inventing target budgets, instancing proxies that are expected to disappear, or creating a universal optimization framework from too little evidence.
 
 ## Handoffs
 
-- **3D Art Director / Visual Observer:** the existing 35 m visual hold remains authoritative within its scope. No new aesthetic acceptance is implied by active-only residency.
-- **Hard Surface:** refresh PR #6 onto the current Runtime base before continuing. Once an exact identity-retention GLB exists, hand that exact candidate back to Runtime for draw/primitives/residency/import remeasurement; old numbers do not transfer.
-- **Environment / World Art:** the real Nature + Weather map slice now has a clear future Runtime handoff once a real engine/rendering path exists. Do not infer cost from OBJ/SVG evidence.
-- **Animation / Motion:** eventual streaming/preload timing must not interrupt active module/vehicle animation; this interaction is not tested here.
-- **Technical Art / UC Integration:** do not extract active-only residency into UC from this single vehicle. Watch for a second materially different receiving runtime first.
-- **Capability Cartographer:** track `visibility contract != residency contract` as a repeated-learning candidate. Horizontal placement should wait for another real asset/runtime family.
+- **3D Art Director / Visual Observer:** review any future optimization only against matched visual evidence. Current Runtime counters do not clear Environment's large-east-proxy hierarchy hold and do not authorize removing the sapling or Weather.
+- **Environment / World Art:** PR #5 now gives the exact current source slice a receiving-host baseline. When the next real building/object/nature source replacement lands, retain the same before/after cost shape so source integration does not become visually richer but operationally opaque.
+- **Weather / VFX:** the current 36-streak field is already a single draw surface in this proof host. Preserve that property unless a deliberate visual/runtime tradeoff provides stronger evidence; +144 is a renderer counter, not a rewrite of source streak count.
+- **Hard Surface / Wreckline:** once provider closure yields an exact rebuilt PR #6 candidate, remeasure that candidate. Do not inherit original-L0/L1 runtime numbers.
+- **Technical Art / UC:** if the Nature GLB becomes the actual receiving-runtime path, measure it separately, including the +50 explicit leaf-backface triangle strategy. Do not infer its cost from this direct-source proof host.
+- **Capability Cartographer:** track the evidence-domain distinction `source counts != renderer counters != draw calls != residency` and the repeated need for receiving-host proof. Do not centralize a runtime framework yet.
 
 ## Next Runtime / Optimization pass
 
-First read the newest Art Director / Hard Surface response and exact Wreckline branch state.
+Read the newest Hard Surface provider-closure result and Environment source-replacement state first.
 
 Highest-value next choices, evidence permitting:
 
-1. if Hard Surface PR #6 produces a real candidate GLB, remeasure that exact LOD1 for draw/primitives/residency/import cost and compare its identity tradeoff;
-2. otherwise, test the smallest safe preload/streaming feasibility that can reduce the synchronous-import hitch risk without inventing a target-device budget;
-3. if the Environment real slice reaches a target-engine renderer first, establish its first measured draw/memory baseline rather than continuing to optimize the same vehicle indefinitely.
-
-Do not promote a universal streaming/LOD framework until a second materially different real asset/runtime demonstrates the same need.
+1. if Wreckline Hard Surface produces a real rebuilt candidate, remeasure its exact LOD1 rather than continuing on stale original geometry;
+2. if Environment gains a second real building/object/nature replacement, extend this comparative receiving-host budget so proxy removal and real-art growth remain measured;
+3. if neither happens but a representative target device/runtime becomes defined, add frame-time/FPS and absolute budget evidence there rather than inventing thresholds in CI;
+4. do **not** optimize the remaining temporary Environment proxies simply because they are measurable—their final source bodies are still unknown.
