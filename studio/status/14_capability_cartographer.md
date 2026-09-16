@@ -1,234 +1,285 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-16
-State: **PASS_RIGID_FRAME_SHARED_HOME_MAP / BUILDING + OBJECT TWO-DOMAIN EXACT EQUIVALENCE COMPLETE / AXM-STICKER-FABRIC CONFIRMED AS SHARED REPOSITORY-LEVEL HOME FOR NEUTRAL PLACEMENT MATH / UC RETAINS AN INTENTIONAL COMPATIBLE STANDALONE COPY / EXPLICIT CONSUMER REBIND REQUIRED BEFORE MIGRATION / DOMAIN SEMANTICS STAY LOCAL / PROFESSION FABRIC NOT THE HOME / NO PRODUCT CODE MOVE**
+State: **PASS_SOURCE_SUCCESSOR_REBIND_DEPENDENCY_DAG_MAP / ANIMAL COMPLETES FOURTH MATERIAL DOMAIN / PROFESSION FABRIC ISSUE #38 REFINED / REBIND FOLLOWS CONSUMED IDENTITY EDGES NOT GLOBAL DOWNSTREAM INVALIDATION / PARTIAL MIGRATION STATES ARE VALID EVIDENCE / RIGHT-SIDE ACCEPTANCE HELD / NO PRODUCT OR PF IMPLEMENTATION MOVE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest specialist coordination state, current design PRs, relevant Universal Creation and Profession Fabric evidence, and the now-relevant standalone Sticker Fabric repository boundary.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest specialist status, current design PRs, current Universal Creation state, current Profession Fabric proposals and the previous Cartography findings before selecting work.
 
-`axm-create-me` remains **coordination only**. This activation changed only Cartography status and returned bounded coordination comments to the existing Building/Object receiving lanes and the existing Sticker Fabric lane. No design source, generator, rig, UC implementation, Sticker Fabric implementation, Profession Fabric body, product acceptance rule or CANON state was changed.
+`axm-create-me` remains **coordination only**. This activation changed only this Cartography status and returned one bounded proposal refinement to the existing Profession Fabric issue #38. No design source, geometry, rig, clip, Technical Art bridge, UC implementation, Profession Fabric implementation, Sticker Fabric implementation, product acceptance rule, merge state or CANON state was changed.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
+## Fresh constellation / duplication scan
+
+The scan found several active implementation lanes that Cartography should not duplicate:
+
+- **Character Geometry / Rigging:** Geometry PR #11 is at `b65d73e514c23670204915bde8ce935a3b417574` and reduces the dense shoulder self-intersection count `1320 -> 1020` across 162 tested poses while explicitly holding every pose nonzero. Rigging PR #12 is at `329c485f567faeeb79198c7b1ebc2974b3c3db60` and has explicitly rebound the unchanged rig/profile to that changed face membership. This is a live domain repair chain, not a Cartography implementation target.
+- **Map VFX / Runtime:** fresh Weather interpolation, capture-isolation, cache and temporal-exposure lanes are active. Their runtime/presentation tradeoffs remain Map/VFX/Runtime-owned.
+- **Object Hard Surface:** hinge axial-stop and bored-knuckle/facet-clearance work is active. Those are Object-manufacturing semantics and do not justify a shared hinge ontology.
+- **Building Procedural:** the previously mapped rigid-frame finding has progressed independently: Building PR #4 now explicitly rebinds its two orthogonal receiver outputs to the shared Sticker Fabric placement core with `0.0 m` residual. Object's equivalent Sticker Fabric migration is still held, so Cartography did not duplicate Procedural's next consumer-rebind lane.
+- **Universal Creation:** current main is `2595788885faca5fbe69e1497b55d535aff51259`; the newest merged work is unrelated physics/constraint preflight. Existing UC issue #162 still owns the separate bounded nonadjacent-triangle self-intersection extraction proposal. No duplicate UC issue was opened.
+- **Profession Fabric:** issue #38 already owns the experimental source-successor rebind-procedure proposal. No implementation PR currently supersedes that proposal, so the correct action was to refine the existing issue rather than create another procedure body.
+
+The strongest new Cartography signal was therefore not another code extraction. It was a **provenance/dependency rule becoming visible across a fourth materially different source-successor migration**.
+
 ## Selected material cross-repo learning
 
-The previous Cartography trigger is now satisfied: **Building and Object, two materially different receiving domains, both reproduce their existing rigid local→world placement outputs exactly through the same neutral `axm_stickers.placement` path.**
+### Source-successor migration is a typed dependency DAG, not a global downstream invalidation chain
 
-That closes the evidence question of whether the repeated math is genuinely reusable. A fresh repository-boundary check also resolves a more precise placement question that the previous map left open: the dedicated `mike-axiom-mir/axm-sticker-fabric` repository already exists, contains the same neutral placement core, and explicitly preserves UC independence.
+Nature, Building and Object already supplied three materially different completed migration patterns to Profession Fabric issue #38. Fresh Animal evidence now supplies a fourth completed LEFT-side case and, more importantly, exposes a branching condition the previous proposal did not yet state precisely enough.
 
-The correct placement is therefore not “move Building/Object math into UC.” It is:
+A source successor does **not** make every downstream artifact globally stale merely because it is downstream in the conceptual pipeline. Rebind obligation follows the **exact identity or contract each consumer actually consumes**.
 
-> **shared reusable rigid-frame placement capability → Sticker Fabric repository layer; UC → intentional compatible standalone copy; Building/Object → retain all domain semantics and explicitly rebind only if/when they choose the shared package as a dependency.**
+Conversely, equality, symmetry or preserved values do **not** authorize a consumer to inherit acceptance when the consumed producer identity changed or when the required successor identity does not yet exist.
 
-## Exact receiving-domain evidence
+The reusable rule is:
 
-### Building — first materially different domain
+> **Track migration as explicit producer→consumer identity edges. Rebind/rerun only edges whose consumed identity changed; preserve unaffected historical receipts exactly; hold edges whose required successor identity does not yet exist; never transfer sibling acceptance by symmetry or value equality.**
 
-Existing Building Procedural PR #4 remains open/draft/mergeable at exact head:
+This permits truthful partially migrated assets without forcing the entire asset to be labelled either globally current or globally stale.
 
-`440f196ff305ad21371712aad5a09b004769cedd`
+## Four-domain evidence map
 
-Its shared-path result is:
+### Nature — source generator migration → explicit downstream rebind
 
-`PASS_EXACT_SHARED_RIGID_FRAME_EQUIVALENCE_BUILDING_RECEIVERS`
+Existing Cartography evidence retained in Profession Fabric issue #38:
 
-Pinned neutral donor used by the proof:
+- Nature source/generator topology migration created a new exact producer identity;
+- downstream Procedural work explicitly rebound the changed source identity;
+- all nine derived source identities were preserved while all nine changed mesh identities advanced truthfully;
+- historical receipts remained exact for the old source chain.
 
-- repository: `mike-axiom-mir/axm-universal-creation`;
-- exact donor head: `bd51542bc68534a6e6f3a11d421dc70216b2abf9`;
-- module: `src/axm_stickers/placement.py`;
-- byte SHA-256: `1344884f14cbe2fa25617664521291b96c4bde067ba0cba31e043045ca3f1436`.
+Reusable evidence lesson: **changed producer identity requires explicit consumer adoption even when higher-level semantic output is intended to remain equivalent.**
 
-Both materially different Building receiver outputs are exact under identity source anchor, identity local offset and unit scale:
+### Building — source/builder successor → selective consumer migration
 
-- front receiver mesh digest `dcadb6a7e938557c866259ed4a3ca7febb32b593b68b22073adc2617d63ef5c0`;
-- east receiver mesh digest `95bbe7d3feebcaeebdaa285ea2f69ee24989d16f140ef59abf08f4725d77a904`;
-- maximum position residual: **`0.0 m`**.
+Building source-owned the corrected closed/outward topology and later the segmented-header successor while preserving historical producer receipts. Procedural explicitly rebound the source identity while retaining its row grammar because that grammar consumed component IDs/centers/sizes rather than triangle membership.
 
-Workflow `35129924514` succeeded; retained artifact `10460384634` independently rehashed to SHA-256 `40ab4842ead3b20f24d022012817d460d9b80006334abf2ef32ec1dd936b3b7e`.
+The same domain also proved a named producer-result contract so consumers no longer need to bind positional tuple arity. This remains Building-local producer-interface design, not a UC/PF data model.
 
-Building still owns receiver IDs/tags, footprint, mount pattern, clearances, source identities, generator semantics and acceptance.
+Reusable evidence lesson: **a producer can change one identity dimension without invalidating every consumer dimension; the consumer must declare what it actually consumes.**
 
-### Object — required second domain now exact PASS
+### Object — derived observation → source-owned interface → Rigging rebind
 
-Existing Object Procedural PR #11 advanced without opening a duplicate lane. Exact current head:
+Object converted a derived mechanical/latch observation into a source-owned interface and required Rigging to explicitly consume the new authority rather than continue treating the older plan as current authority. Historical evidence remained provenance rather than being rewritten.
 
-`d96c681f4dbd8450c00b3ffaa28a1a341f189001`
+Reusable evidence lesson: **authority transfer and consumer rebind are separate events; source ownership does not retroactively relabel old receiving evidence.**
 
-Scoped result:
+### Animal — completed LEFT successor plus intentionally partial RIGHT branch
 
-`PASS_EXACT_SHARED_RIGID_FRAME_EQUIVALENCE_OBJECT_CONFIGURATIONS`
+Animal now provides the strongest test of the procedure because it contains both a completed successor path and an intentionally incomplete sibling branch.
 
-The exact existing `empty / left-only / right-only / bilateral` family is rebuilt through the same pinned neutral UC donor file using identity source anchor, identity local offset and unit scale.
+#### LEFT source-successor chain — completed material case
 
-Retained result:
+Organic Form PR #8 source-owned selected-003 on the LEFT at historical adoption head:
 
-- `4/4` configuration meshes exact;
-- `3/3` non-empty configurations actually exercise the shared path;
-- `2` distinct mirrored source-owned target frames;
-- aggregate maximum position residual: **`0.0 m`**;
-- all four shared configuration mesh digests remain distinct.
+`7314a8971abb53f8ee6ef226c2496ab6d5da20d7`
 
-Exact retained mesh identities remain:
+Exact LEFT successor:
 
-- empty: `d485a11fd819e6f90c2d1842b0534178093270d8cc4de18744ebcd10bd377351`;
-- left-only: `7f2472dccd1947e907caf22f9cd749cf0e123a5d9f152b21687d3c4d16cd7628`;
-- right-only: `7d07222483966ebd4281881f7552f499b3e0342a7f245c593532a9ed63987940`;
-- bilateral: `23d985839dede2b51a588276e1431bb1f01ad36f87c81bfadfb6ba0946f890cc`.
+- ID: `front-left-connected-chain-elbow-source-successor-003`;
+- digest: `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`.
 
-Shared-path negative controls fail closed on reflected frame, socket-kind mismatch and leaving the exact unit-scale contract.
+Geometry PR #9 then explicitly rebound that exact source successor at:
 
-Exact-head workflow `35136391632` is SUCCESS on Python 3.11 and 3.13 with the shared-frame verifier, and the inherited Object registration, fit and hard-surface interface workflows are also green.
+`eb5ce99798b646b6ab9705c0c914b898173f7cc1`
 
-Retained artifact `10463960133`, `14,780 B`, GitHub SHA-256 `7772a9df87ce8ef42d3c5c93d044939eee35880c48ebda381e410abff1653ea1`; the downloaded archive was independently rehashed to the same digest.
+with scoped result:
 
-Object still owns socket allowlists, occupancy canonicalization, bilateral fit, asymmetric registration, source identity, failure policy and acceptance.
+`PASS_SOURCE_SUCCESSOR_EXACT_TOPOLOGY_REBIND`
 
-## Repository-home evidence
+It preserved the historical topology receipt rather than inheriting it by unchanged connectivity.
 
-### Universal Creation copy
+Rigging PR #10 then explicitly rebound the exact Geometry/source successor at:
 
-The tested UC module `src/axm_stickers/placement.py` is explicitly renderer-independent rigid attachment math. Its 3D contract computes:
+`b48bb957622ed5c82a24ca4fcb471f7ee9b5147a`
 
-`target_frame × local_offset_and_scale × inverse(source_anchor_frame)`
+with scoped result:
 
-It validates rigid proper frames, rejects reflections, checks socket/space compatibility and keeps scale as an explicit instance control.
+`PASS_SOURCE_SUCCESSOR_RIGGING_REBIND_DENSE_SWEEP`
 
-At the exact donor used by Building/Object, the Git blob is:
+The historical Rigging proof remains exact for its earlier producer identity.
 
-`27eb70ab48e46c72bd3596f38684abb7aa9e01b4`
+Animation PR #5 has subsequently preserved the unchanged clip through the successor lineage while keeping motion authorship separate from per-surface acceptance. Its current exact head is:
 
-and the retained byte SHA-256 is:
+`435a9f5ce725cf10e38a76c3fd9f643fe7fea8ed`
 
-`1344884f14cbe2fa25617664521291b96c4bde067ba0cba31e043045ca3f1436`.
+Technical Art PR #3 independently advanced the static surface transport edge to exact current head:
 
-### Dedicated Sticker Fabric already exists
+`2f06874e86752b52e59d707ac2743ea443812c27`
 
-Repository:
+It rebuilds the exact LEFT Geometry successor from the producer instead of copying geometry and proves:
 
-`mike-axiom-mir/axm-sticker-fabric`
+`PASS_SOURCE_SUCCESSOR_GEOMETRY_TO_CURRENT_UC_GLB`
 
-Current main head observed this activation:
+against current UC:
 
-`3aa93b0132eea9becefb20c716c6ec1a023ad28b`
+`2595788885faca5fbe69e1497b55d535aff51259`
 
-Its README explicitly defines the repository as reusable creative-part / portable-registry fabric, includes placement math, and states that **Universal Creation stays standalone** with its own compatible core.
+while explicitly holding skeleton/skin/weight/pose transport and GLB animation channels.
 
-Its current `src/axm_stickers/placement.py` has the exact same Git blob as the tested UC donor:
+This means the Animal LEFT successor is now a completed fourth materially different source-successor/rebind case for the Profession Fabric proposal, even though different downstream branches prove different scopes.
 
-`27eb70ab48e46c72bd3596f38684abb7aa9e01b4`
+#### RIGHT source-successor branch — intentionally partial and therefore highly informative
 
-`UPSTREAM.json` independently pins `src/axm_stickers/placement.py` byte SHA-256:
+Organic PR #8 current head:
 
-`1344884f14cbe2fa25617664521291b96c4bde067ba0cba31e043045ca3f1436`
+`4df3024b4c459675422565501a46f622acf229a9`
 
-and records the continuity policy:
+now owns a separate RIGHT successor:
 
-`Explicit reviewed adoption only. UC retains its own standalone implementation.`
+- ID: `front-right-connected-chain-elbow-source-successor-003`;
+- digest: `262f536e0e522fd3e102cb16464c3757985fbb1dfcb3001df3b1f27b623b0115`;
+- exact source-space mirror residual vs LEFT: `0.0 m` under the declared correspondence.
 
-The same placement blob is also unchanged on current open Sticker Fabric PR #4 head `55772eaca5fc037ad32d312097fe6ab62b617590`.
+That exact source symmetry does **not** create RIGHT Geometry, Rigging, Animation-surface or runtime acceptance.
 
-Therefore this is not merely “a UC helper that two domains happen to reuse.” There is already a dedicated shared repository whose declared scope includes exactly this neutral placement capability, while preserving UC's anti-dependency/standalone requirement.
+Current Animation evidence makes the distinction executable rather than rhetorical. It proves:
 
-## Capability-placement decision
+`PASS_BILATERAL_CLIP_TRACK_INTENT_PRESERVED__RIGHT_SURFACE_PLAYBACK_HELD`
 
-### Shared repository-level home: `axm-sticker-fabric`
+The unchanged clip already contains exactly matched bilateral authored tracks, but the Animation receipt explicitly records:
 
-Cartography now supports this placement decision because all required layers line up:
+- RIGHT Geometry successor consumed: `false`;
+- RIGHT Rigging successor consumed: `false`;
+- RIGHT deforming successor surface generated: `false`;
+- RIGHT target-host playback generated: `false`.
 
-1. two materially different design consumers reproduce exact outputs through the same neutral operation;
-2. the operation contains no Building/Object semantics;
-3. the dedicated Sticker Fabric repository already exists and explicitly owns reusable placement math;
-4. the Sticker Fabric file is byte-identical to the exact UC donor used by both proofs;
-5. Sticker Fabric provenance explicitly preserves UC as an independent compatible implementation rather than introducing a live dependency.
+Technical Art likewise advances only the LEFT static Geometry→UC GLB path and does not claim RIGHT transport or skeleton/skin/animation transport.
 
-This supports **shared ownership of the neutral capability**, not automatic dependency migration.
+This partial branch is the strongest evidence for the new Cartography rule:
 
-### Universal Creation boundary
+> **source symmetry is not acceptance symmetry, and a green sibling edge does not authorize another edge.**
 
-UC should **not** be turned into the shared product-domain owner and should **not** be made dependent on Sticker Fabric at runtime merely to remove duplication. Its compatible local copy is deliberate and supported by the existing Sticker Fabric continuity policy.
+## Dependency-DAG proposal
 
-If UC later adopts a changed Sticker Fabric placement implementation, that remains an explicit reviewed adoption with pinned provenance, not a floating import or silent update.
+Profession Fabric issue #38 remains the correct **experimental** candidate home because the repeated element is evidence/provenance discipline used by professional workflows, not neutral geometry/runtime machinery.
 
-### Design-consumer migration boundary
+If issue #38 advances to an implementation experiment, the smallest reusable record should describe consumed edges rather than a monolithic “asset version.” At minimum preserve:
 
-Building and Object currently prove exact behavior against the UC copy. Those receipts remain truthful for their exact donor identity.
+1. exact old producer identity;
+2. exact new producer identity;
+3. explicit authority-transfer event;
+4. declared invariant(s) that are intended to survive the migration;
+5. each consumer edge as `consumer -> exact producer identity / contract consumed`;
+6. whether that consumed identity changed;
+7. edge action: `PRESERVE_HISTORICAL`, `REBIND_RERUN`, or `HELD_NO_SUCCESSOR_IDENTITY`;
+8. exact successor evidence head/result when a rerun occurs;
+9. fail-closed donor/source drift controls;
+10. sibling non-transfer and explicit non-claims;
+11. partially migrated DAG state as a valid evidence state.
 
-If either consumer chooses to operationally consolidate onto Sticker Fabric later, its owning Procedural lane must:
+The procedure should **not** decide domain acceptance thresholds. Geometry, Rigging, Animation, Technical Art, Materials, Environment and Runtime retain their own semantics and acceptance rules.
 
-1. pin an exact Sticker Fabric repository head plus exact placement file identity;
-2. retain the previous UC-pinned receipt as historical evidence;
-3. rerun its exact receiving-domain equivalence gate;
-4. require unchanged receiver/configuration mesh digests and `0.0 m` residual;
-5. retain every domain-owned rule locally;
-6. fail closed rather than weaken axes, tolerances, scale or socket semantics to manufacture reuse.
+## Placement decision
 
-Only after that successor consumer proof passes should a local transform helper be removed.
+### Profession Fabric — correct experimental home for the procedure
 
-### Profession Fabric boundary
+The evidence now spans four materially different source-successor migrations and demonstrates a stable process-level concern:
 
-Profession Fabric remains the wrong home for deterministic rigid-frame math. Existing Profession Fabric issue #38 concerns the separate cross-domain **source-successor rebind evidence procedure** and remains an experimental profession-level proposal. It must not absorb placement math or domain socket/receiver semantics.
+- preserve exact historical identity;
+- name authority transfer explicitly;
+- identify the precise consumer dependency edge;
+- rerun only the changed receiving contract;
+- do not infer sibling or value-equivalent acceptance;
+- preserve partially migrated state truthfully.
 
-No new PF issue or UC issue was opened for this finding because the correct shared capability repository already exists.
+That is profession/workflow evidence discipline, so Profession Fabric issue #38 remains the correct candidate location.
 
-## Coordination handoffs
+This does **not** authorize profession promotion, canonical workflow status or automatic migration tooling.
 
-Returned the placement decision without changing product code:
+### Universal Creation — explicitly not the home
 
-- Object PR #11 comment `5702956539`;
-- Building PR #4 comment `5702958958`;
-- Sticker Fabric PR #4 comment `5702961189`.
+UC should not own this migration rule. UC owns neutral machine capabilities and exact executable contracts; it should not decide whether Animal Rigging, Building Procedural, Nature generators or Object mechanical evidence must be accepted after a domain authority change.
 
-The Sticker Fabric handoff explicitly requests no PR scope expansion; it records the two-domain evidence and the need to preserve exact placement-version provenance if the shared core changes later.
+Current UC main `2595788885faca5fbe69e1497b55d535aff51259` already supports the generic static GLB capability needed by the fresh Animal Technical Art proof without any Animal successor semantics being moved into UC.
+
+Existing UC issue #162 remains separate: it concerns neutral bounded triangle self-intersection observation and should not be conflated with provenance/rebind policy.
+
+### Product repositories — retain domain authority
+
+Nature, Building, Object and Animal keep all source semantics, topology meaning, rig meaning, animation meaning, material meaning and target-host acceptance locally. A PF procedure may describe the evidence handoff; it must not become the authority that approves a product successor.
+
+## Action taken this activation
+
+Updated the existing Profession Fabric issue #38 rather than opening another issue or implementation lane.
+
+New Cartography refinement comment:
+
+**`5703652015`**
+
+The comment records Animal as the fourth completed domain, the LEFT/RIGHT branch distinction, current exact heads, and the proposed consumed-identity-edge / partial-DAG rule.
+
+No Profession Fabric implementation was created. The proposal remains experimental and owner-reviewable.
 
 ## Prior Cartography findings retained
 
-- **Source-successor rebind discipline:** Profession Fabric issue #38 remains open as the separate experimental procedure proposal. Domain-specific invariants and source rules stay local.
-- **Nonadjacent triangle self-intersection:** UC issue #162 remains the separate candidate for neutral bounded mesh-diagnostic machinery; no duplicate issue is needed.
-- **Indexed vertex-fan connectivity:** second-domain unchanged reuse evidence remains the extraction gate; do not promote from one local implementation by analogy.
-- **Building named producer result:** validated Building-local placement; consumers should continue using the named result contract rather than positional tuple knowledge.
+### Neutral rigid-frame placement
+
+The prior placement decision remains valid:
+
+- shared repository-level home: `mike-axiom-mir/axm-sticker-fabric`;
+- UC retains an intentional compatible standalone copy;
+- Building and Object domain semantics stay local;
+- consumer migration requires explicit donor identity and rerun.
+
+Fresh progress: Building Procedural PR #4 has now completed its first explicit Sticker Fabric donor rebind at current head `e8c1e1de30ed61e1697415574d9ce9b366e9d929`, reproducing both orthogonal receiver meshes at `0.0 m` residual. Its historical UC-pinned receipt remains preserved. Object migration remains held, so Cartography did not duplicate that owner lane.
+
+### Nonadjacent triangle self-intersection
+
+UC issue #162 remains open as the bounded neutral diagnostic extraction proposal. Character and Animal domain acceptance semantics stay outside UC. No duplicate issue was opened.
+
+### Indexed vertex-fan connectivity
+
+Second-domain unchanged reuse evidence remains the extraction gate. Do not promote the Animal-local diagnostic by analogy alone.
+
+### Building named producer result
+
+The Building-local named result contract remains validated. Consumer declarations should continue to name fields they consume instead of binding tuple position/arity. This supports the dependency-DAG lesson but does not justify a universal producer-result schema.
 
 ## Current capability map
 
-| Capability / edge | Current evidence | Placement state |
+| Capability / dependency | Current evidence | Placement state |
 |---|---|---|
-| neutral rigid target-frame placement | Building exact PASS + Object exact PASS; same placement file/digest in UC and Sticker Fabric | **shared repository-level home = `axm-sticker-fabric`; UC keeps intentional compatible standalone copy; consumer migration requires explicit rebind/rerun** |
-| Building receiver semantics | Building source/Procedural evidence | **Building-owned** |
-| Object socket / occupancy / fit / registration semantics | Object source/Procedural evidence | **Object-owned** |
-| source-successor migration / downstream rebind evidence discipline | Nature + Building + Object cross-domain pattern; PF issue #38 | **Profession Fabric experimental procedure candidate; no promotion** |
-| nonadjacent triangle self-intersection observer | repeated domain use; UC issue #162 | **UC diagnostic candidate; implementation/adoption separate** |
-| indexed vertex-fan diagnostic | incomplete cross-domain reuse gate | **HOLD extraction** |
+| source-successor migration / receiving rebind discipline | Nature + Building + Object + completed Animal LEFT chain; Animal RIGHT partial branch proves sibling non-transfer | **Profession Fabric experimental procedure candidate; issue #38 refined with consumed-identity DAG rule; no implementation/promotion** |
+| neutral rigid target-frame placement | Building + Object exact equivalence; Building explicit Sticker Fabric rebind now green | **shared repository-level home = `axm-sticker-fabric`; UC keeps intentional compatible standalone copy; Object migration held** |
+| nonadjacent triangle self-intersection observer | repeated Animal + Character use; UC issue #162 | **UC diagnostic candidate; implementation/adoption separate** |
+| indexed vertex-fan diagnostic | Animal local implementation; second-domain unchanged reuse still incomplete | **HOLD extraction** |
+| Building producer-result compatibility | current Building consumers survive additive producer growth through named fields | **Building-owned interface contract; no cross-domain extraction yet** |
 
 ## Reusable learning
 
-> **Shared math and shared domain meaning are different things. Once two materially different consumers reproduce exact outputs through the same neutral operation, put the neutral capability at the existing shared fabric layer—but keep each product's fit, socket, receiver and acceptance semantics local. Preserve UC independence when that independence is an explicit architectural requirement, and require every consumer to rebind by exact identity rather than treating byte equality as automatic provenance transfer.**
+> **A successor does not invalidate “everything downstream”; it invalidates the exact receiving claims that consume the changed identity. Model the workflow as a dependency DAG, preserve every historical receipt, rerun changed edges explicitly, and allow partially migrated states to remain truthful. Equality, symmetry and unchanged values can justify a test hypothesis, never automatic provenance or acceptance transfer.**
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that Building or Object currently operationally depend on `axm-sticker-fabric`;
-- permission to delete their local transform helpers before a successor rebind proof;
-- permission to remove UC's compatible standalone copy;
-- a universal attachment/socket/receiver/occupancy schema;
-- runtime attach/detach, live swapping, physics constraints or collision truth;
-- engineering fit/load/retention or manufacturing validity;
-- visual quality or Art Direction acceptance;
-- Profession Fabric promotion or maturity;
-- closure of UC issue #162 or the indexed vertex-fan gap;
-- CANON, production readiness, game readiness or Cartography mastery.
+- automatic source-successor migration;
+- a generic dependency resolver or package manager;
+- automatic downstream invalidation or rerun scheduling;
+- that every repository must adopt a shared PF schema;
+- RIGHT Animal Geometry, Rigging, deforming-surface, Technical Art or runtime acceptance;
+- skeleton/skin/weight/pose transport or GLB animation-channel support from the fresh Animal static GLB proof;
+- Character self-intersection freedom — current Character Geometry remains explicitly nonzero;
+- closure or implementation of UC issue #162;
+- indexed vertex-fan extraction;
+- Object Sticker Fabric migration;
+- profession promotion, CANON, production readiness, game readiness or Cartography mastery.
 
 ## Next evidence triggers
 
-1. If Building or Object elects to consolidate, require an explicit Sticker Fabric donor rebind and exact receiving-domain rerun before any local helper deletion.
-2. If Sticker Fabric changes `placement.py`, require exact version/file provenance and do not transfer the current two-domain PASS to the new implementation by name alone.
-3. Keep UC standalone unless its own owner explicitly reviews/adopts a compatible successor; no floating runtime dependency.
-4. Keep Profession Fabric issue #38 separate from this low-level spatial capability.
+1. If Profession Fabric issue #38 receives an implementation lane, verify that its first experiment can encode the Animal LEFT completed branch and RIGHT partial branch without flattening them into one global asset state.
+2. If Object Procedural explicitly rebinds to Sticker Fabric, preserve the historical UC receipt and require exact configuration digests / `0.0 m` equivalence before local helper removal.
+3. If RIGHT Animal Geometry and Rigging successors arrive, verify each new edge independently; do not infer them from LEFT or from the `0.0 m` Organic mirror proof.
+4. Keep UC issue #162 and vertex-fan extraction separate from the profession-level provenance procedure.
+5. Continue scanning for a fifth materially different migration only if it changes the procedure; do not accumulate examples merely to increase a count.
 
 ## Roots check
 
-- **Truth:** both receiving domains have exact `0.0 m` equivalence evidence, and UC/Sticker Fabric file identity is explicit; byte equality is not misreported as automatic provenance equivalence.
-- **Agency / non-domination:** Building/Object keep domain authority; UC keeps its standalone architecture; no consumer is silently migrated.
-- **Continuity:** current UC-pinned receipts remain historical truth, Sticker Fabric provenance is preserved, and any future adoption requires explicit rebind/rerun rather than silent rewrite.
-- **Wisdom before speed:** the existing shared repository is used as the placement answer instead of creating another abstraction, issue or universal attachment system; implementation migration remains held behind owner-specific successor evidence.
+- **Truth:** Animal LEFT and RIGHT are represented as different dependency states even though the source forms are exact mirrors; no sibling acceptance is invented.
+- **Agency / non-domination:** each specialist/product repository retains authority over its own acceptance edge; Profession Fabric may describe evidence discipline but cannot approve a domain successor.
+- **Continuity:** historical receipts remain exact rollback points; new source/Geometry/Rigging/Animation/Technical Art identities are additive rather than silent rewrites.
+- **Wisdom before speed:** the existing PF issue was refined instead of creating another framework, and no implementation/promotion was started until the graph-selective rule is tested against the already-existing cross-domain evidence.
