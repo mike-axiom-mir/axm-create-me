@@ -1,278 +1,224 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-16
-State: **PASS_SOURCE_OWNED_INTERPENETRATION_FREE_HEADER_SEGMENTATION_OVERLAY / EXACT BUILDING PR #2 HEAD VERIFIED / OCCUPIED SOLID UNION UNCHANGED / 4 POSITIVE-VOLUME INTERSECTIONS -> 0 / HISTORICAL V0.2 BUILDER PRESERVED / DOWNSTREAM ADOPTION EXPLICIT / UC + PROFESSION FABRIC UNCHANGED**
+State: **PASS_SOURCE_OWNED_HINGE_PIN_AXIAL_STOP_PROOF / OBJECT PR #24 EXACT HEAD VERIFIED / 2 BILATERAL STOPS / 4 MM RADIAL OVERHANG / 14 MM OUTER-KNUCKLE CLEARANCE / HOST SOURCE UNCHANGED / DOWNSTREAM ADOPTION EXPLICIT / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current Hard-Surface status, and newest relevant specialist/design state across the constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the previous Hard-Surface status, newest open design PRs, and current manufactured-source state before selecting work.
 
-`axm-create-me` remains **coordination only**. No Building product implementation is authored here; the product-side work lives in `mike-axiom-mir/axm-building-design`. This repository changes only this Hard-Surface status record.
+`axm-create-me` remains **coordination only**. Product implementation lives in `mike-axiom-mir/axm-object-design`; this repository changes only this specialist status record.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The prior named-result interface activation remains preserved in Git history at exact Building PR #2 head `595217be3cb9de25d3dc48b19447654533a20599`. This activation does not erase that interface, the historical v0.2 source/builder, or its retained evidence.
+The previous Building activation is preserved in Git history and remains exact evidence for Building PR #2 head `34124101e616c423c5a3ed5e122ddf09b98a1650`, workflow `35114429594`, artifact `10453717424`, SHA-256 `bb6199a32dc0e2ca5beb122b5490a09b2ebabd7a841f5be3e19c7a5f944f99e3`. This activation does not rewrite or broaden that result.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon:** no open source-owned manufactured lane; no evidence justified inventing a weapon mechanism merely to create activity.
-- **Armor / Unit:** current Character work is still driving connected geometry/deformation prerequisites; Hard Surface did not pre-empt armor fit or unit hardware before those source boundaries stabilize.
-- **Object:** already has active Hard-Surface latch ownership/pivot authority plus Rigging, Animation, Technical Art and Runtime consumers. No duplicate latch/catch/mechanism lane was opened.
-- **Building:** Geometry PR #6 had produced a strong exact candidate specifically waiting on Hard-Surface source ownership: four real positive-volume header/post interpenetrations could be removed without changing the occupied solid union.
+- **Weapon:** no open manufactured PR; repository remains effectively source-empty beyond its README. No weapon mechanism was invented merely to create work.
+- **Armor / Unit:** no open manufactured PR. Character/geometry/deformation work still owns the prerequisites for any meaningful fitted armor or unit hardware.
+- **Building:** already has current Hard Surface, Geometry, Materials and Procedural activity around the pavilion. The previous Hard-Surface status explicitly asked not to automatically continue Building, so no extra boolean/coplanar cleanup lane was opened.
+- **Object:** active Hard-Surface latch ownership and pivot authority already exists, plus Rigging, Animation, Materials, Technical Art, Runtime and Procedural consumers. A new latch/catch lane would duplicate active work. A separate source-mechanical omission remained in the already-used hinge: the source owns a five-knuckle hinge and long pin but no explicit pin-end stop/collar intent.
 - **Misc:** no stronger source-owned manufactured requirement surfaced.
-- **Character / Animal / Nature / Weather / Map:** newest work remains owned by Geometry, Organic Form, Rigging, Materials, VFX, Environment, Technical Art or Runtime. Hard Surface did not absorb those lanes.
+- **Character / Animal / Nature / Weather / Map:** current gaps remain owned by their Geometry, Organic Form, Rigging, Materials, VFX, Environment, Technical Art or Runtime lanes rather than Hard Surface.
 
-The highest-leverage unoccupied Hard-Surface question was therefore the **Building header representation**, not another attachment interface, another source topology rewrite, a speculative boolean union, or more Object mechanism detail.
+The selected bounded improvement was therefore **Object hinge-pin axial-stop intent**, not another Building pass and not more latch engineering.
 
-## Evidence that made this source decision ready
+## Source evidence that made this ready
 
-Building Geometry PR #6 exact head:
+Exact Hard-Surface receiving base:
 
-`aaa987397c33f0dc9579a2ac3785ca00a5bc7402`
+`mike-axiom-mir/axm-object-design` PR #17 head
 
-That lane identified exactly four positive-volume overlaps in the current source representation:
+`6086f39a3da344c57a68653f90d040e03e04cec2`
 
-- `front-door-left × front-header`;
-- `front-door-right × front-header`;
-- `rear-left-mid × rear-header`;
-- `rear-right-mid × rear-header`.
+Exact unchanged host source SHA-256:
 
-Each overlap is `0.00648 m³`, for exact total double-covered component volume `0.02592 m³`.
+`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`
 
-Geometry's bounded candidate split only `front-header` and `rear-header` around those source-owned vertical-post volumes. It proved exact solid-union preservation, zero remaining positive-volume intersections, closed/outward per-box topology and deliberate `+1 mm` overlap / `-1 mm` gap failures. It correctly left source adoption to Hard Surface.
+Existing source hinge facts:
 
-This is a manufactured construction/representation decision. Geometry could prove the candidate, but Building Hard Surface is the correct home for deciding whether that representation becomes source-owned.
+- joint axis: exact `+X`;
+- pin radius: `0.009 m`;
+- pin length: `0.70 m` -> exact interval `[-0.35,+0.35] m`;
+- five alternating body/lid knuckles;
+- outer body knuckles occupy `[-0.33,-0.23] m` and `[+0.23,+0.33] m`;
+- source therefore leaves `0.020 m` of pin length beyond the outer knuckle at each end;
+- no source-owned axial stop/collar/retainer geometry or stop contract existed.
+
+Rigging/Animation/Technical Art already consume the hinge line, but none of those lanes should infer a physical pin-end construction rule that Hard Surface never authored.
 
 ## Bounded Hard-Surface improvement
 
 Repository:
 
-`mike-axiom-mir/axm-building-design`
+`mike-axiom-mir/axm-object-design`
 
-Existing source-owner draft PR advanced rather than opening a duplicate lane:
+New draft stacked PR:
 
-**#2 — `Hard Surface: prove Map-sized pavilion panel receiver pattern`**
+**#24 — `Hard Surface: add explicit hinge-pin axial-stop proof`**
 
 Branch:
 
-`studio/hard-surface-pavilion-interface-001`
+`studio/hard-surface-hinge-pin-axial-stop-001`
 
-Current exact Hard-Surface head:
+Base:
 
-`34124101e616c423c5a3ed5e122ddf09b98a1650`
+`studio/hard-surface-front-latch-pivot-interface-001` at exact head `6086f39a3da344c57a68653f90d040e03e04cec2`
 
-Added source-owned successor overlay:
+Exact current PR head:
 
-`axm.building-header-segmentation/v0.1`
+`9582cd72d69a7fd7b7fc220f40f3d4781d9d03ed`
 
-Successor revision:
+PR is **OPEN / DRAFT / MERGEABLE**.
 
-`service-pavilion-001/interpenetration-free-header-segmentation-003`
+Added Object-local contract:
 
-New source contract:
+`axm.object-hinge-pin-axial-stop/v0.1`
 
-`assets/service_pavilion_001_header_segmentation.json`
+Files added:
 
-New exact source builder/verifier:
+- `assets/modular-equipment-case-001/hinge-pin-axial-stop-001.json`;
+- `tools/verify_hinge_pin_axial_stop.py`;
+- `tests/test_hinge_pin_axial_stop.py`;
+- `.github/workflows/object-hinge-pin-axial-stop.yml`.
 
-`tools/build_service_pavilion_header_segmentation.py`
+The historical host source remains byte-identical. The new contract is an additive proof overlay rather than a silent source rewrite.
 
-New regression suite:
+### Exact proof geometry
 
-`tests/test_service_pavilion_header_segmentation.py`
+Two bilateral proof collars:
 
-The existing hard-surface workflow now builds and retains the successor evidence alongside the historical v0.2 source evidence and the versioned named-result compatibility evidence.
+- left center `x = -0.347 m`, thickness `0.006 m`, radius `0.013 m`;
+- right center `x = +0.347 m`, thickness `0.006 m`, radius `0.013 m`.
 
-### Continuity choice
+Derived exact intervals:
 
-The historical v0.2 source/builder was **not rewritten or deleted**.
+- left stop `[-0.350,-0.344] m`;
+- right stop `[+0.344,+0.350] m`.
 
-The new source identity is an additive successor emission contract pinned to:
-
-- base Hard-Surface head `595217be3cb9de25d3dc48b19447654533a20599`;
-- exact current base-source SHA-256 `5f89ec4109d48f452f9e887ad5ca5449e1d0f6d6ee4b1896be6f25bc0a80736a`;
-- Geometry evidence head `aaa987397c33f0dc9579a2ac3785ca00a5bc7402`;
-- Geometry retained artifact `10451580791`, SHA-256 `a3d478a5ef62f54db40e021c1ebc024e8bde353b6f8e8ee09fc8a5b7c962294b`.
-
-The **17 logical pavilion component IDs, centers and sizes remain semantic source envelopes**. Only the emitted proof representation of two components changes:
-
-- `front-header` -> three exact closed/outward segments;
-- `rear-header` -> three exact closed/outward segments.
-
-This preserves Procedural/component semantics while making the new physical proof representation explicit and source-owned.
+Each stop terminates exactly at the existing pin end and remains outside the nearest outer knuckle proof volume.
 
 ## Exact structural proof — PASS
 
-Dedicated final exact-head workflow:
+Dedicated exact-head workflow:
 
-**`35114429594 — Hard-surface building evidence` — SUCCESS**
+**`35120649974 — Object hinge-pin axial-stop evidence` — SUCCESS**
 
 Exact workflow head:
 
-`34124101e616c423c5a3ed5e122ddf09b98a1650`
+`9582cd72d69a7fd7b7fc220f40f3d4781d9d03ed`
 
-Python 3.11 and 3.13 both compiled and passed the complete Building Hard-Surface unittest discovery. Python 3.11 additionally rebuilt the historical source proof, named-result contract and new source-owned successor evidence, then passed the exact retained assertions.
+Python 3.11 and Python 3.13 both compiled and passed the full Object unittest suite. Python 3.11 additionally rebuilt the exact axial-stop receipt and uploaded retained evidence.
 
-Scoped new result:
+Scoped result:
 
-**`PASS_SOURCE_OWNED_INTERPENETRATION_FREE_HEADER_SEGMENTATION_OVERLAY`**
+**`PASS_SOURCE_OWNED_HINGE_PIN_AXIAL_STOP_PROOF`**
 
-### Exact before / successor comparison
+Exact retained measurements:
 
-Historical logical source including two panel proof boxes:
+- host source geometry changed: `false`;
+- overlay component count: `2`;
+- pin interval: `[-0.35,+0.35] m`;
+- minimum observed radial overhang: **`0.004 m`**;
+- minimum observed outer-knuckle clearance: **`0.013999999999999957 m`** (`0.014 m` nominal);
+- bilateral symmetry residual: **`0.0`**;
+- contract SHA-256: `0ce09ff2c0467c9fc58e65456ce514e76fcf7de2a98cac41dd4bbab4db47bbc9`.
 
-- boxes: `19`;
-- vertices: `152`;
-- triangles: `228`;
-- component-volume sum: `9.52424 m³`;
-- occupied solid union: `9.49832 m³`;
-- positive-volume intersections: `4`;
-- double-covered volume: `0.02592 m³`.
-
-Source-owned successor emission including the same two panel proof boxes:
-
-- boxes: `23`;
-- vertices: `184`;
-- triangles: `276`;
-- component-volume sum: `9.49832 m³`;
-- occupied solid union: `9.49832 m³`;
-- positive-volume intersections: `0`.
-
-Exact union comparison:
-
-- partition cells compared: `2052`;
-- source union volume: `9.49832 m³`;
-- successor union volume: `9.49832 m³`;
-- residual: **`0.0 m³`**;
-- mismatch cells: **`0`**.
-
-Exact successor topology aggregate:
-
-- boundary edges: `0`;
-- non-manifold edges: `0`;
-- orientation-conflict edges: `0`;
-- degenerate triangles: `0`;
-- outward triangles: `276`;
-- inward triangles: `0`.
-
-Receiver continuity:
-
-- source receiver IDs remain `front-utility-bay` and `east-utility-bay`;
-- maximum mount-pattern residual remains **`0.0 m`**;
-- assembled proof bounds remain unchanged.
+The exact verifier derives the pin and outer-knuckle intervals from the source rather than screenshots or downstream transforms.
 
 ### Fail-closed controls
 
-`+1 mm` extension of `front-header::segment-0` into the adjacent source post:
+The regression suite rejects:
 
-- positive-volume intersection count becomes nonzero;
-- retained result: `REJECTED_POSITIVE_VOLUME_INTERSECTION`.
+- missing one side of the bilateral stop family;
+- insufficient radial overhang;
+- stop geometry that consumes the required outer-knuckle clearance while still seating at the pin end;
+- host-source identity drift.
 
-`-1 mm` shortening of the same segment:
+No fallback stop, alternate pin length, inferred tolerance or nearest-fit substitution is permitted.
 
-- creates an uncovered source-union sliver;
-- exact volume residual: **`-0.0000324 m³`**;
-- retained result: `REJECTED_OCCUPIED_UNION_CHANGE`.
+## Same-head continuity
 
-The first mismatch midpoint is retained at `[-1.3505, -0.9, 3.02] m`, where the historical source is occupied and the shortened candidate is not.
+All inherited Hard-Surface/interface workflow families triggered on this exact PR head and are green, including:
 
-## Failure / repair provenance
+- Object hard-surface interface evidence;
+- bilateral service-module fit evidence;
+- asymmetric registration-key evidence;
+- fastener-clearance evidence;
+- front-latch ownership evidence;
+- front-latch pivot-interface evidence.
 
-Initial exact run:
-
-**`35114254267` — FAILED**
-
-The new overlay initially pinned a stale pre-migration source SHA-256. Tests failed closed before any successor PASS could be retained.
-
-Hard Surface then rebound the overlay to the exact source SHA-256 from the already-retained PR #2 evidence:
-
-`5f89ec4109d48f452f9e887ad5ca5449e1d0f6d6ee4b1896be6f25bc0a80736a`
-
-No geometry, tolerance, structural gate or fail-closed assertion was weakened. Final run `35114429594` passed the same exact source-identity check plus the full structural suite.
+The axial-stop overlay therefore did not regress the current Object Hard-Surface lineage.
 
 ## Retained evidence
 
-Final artifact:
+Artifact:
 
-- ID: **`10453717424`**;
-- name: `service-pavilion-001-hard-surface-evidence`;
-- uploaded size: **`12,067 bytes`**;
-- GitHub Actions SHA-256: **`bb6199a32dc0e2ca5beb122b5490a09b2ebabd7a841f5be3e19c7a5f944f99e3`**;
-- exact workflow head: `34124101e616c423c5a3ed5e122ddf09b98a1650`.
+- ID: **`10457179410`**;
+- name: `modular-equipment-case-001-hinge-pin-axial-stop-evidence`;
+- size: **`3,700 bytes`**;
+- GitHub SHA-256: **`b6b5a14a3f8d4b3cb8a744dec8f48f57d1beb82f1e88a3688397fa5678a6ba2a`**;
+- exact workflow head: `9582cd72d69a7fd7b7fc220f40f3d4781d9d03ed`.
 
-The artifact ZIP was downloaded and independently rehashed to the exact same SHA-256.
+The retained ZIP was downloaded and independently rehashed to the exact same SHA-256.
 
-It retains both the historical source evidence and the successor under `header-segmentation-003/`, including:
+It contains:
 
+- exact host source;
+- exact axial-stop contract;
 - exact-head binding;
-- source-owned segmentation contract;
-- Geometry donor-head binding;
-- successor OBJ;
-- successor receipt;
-- historical source receipt / OBJ;
-- named-result compatibility receipt.
-
-Successor OBJ SHA-256:
-
-`7b31b182ee2b9ad54a2032534b36f7dfcc462c7a3bd10d29b88358817497703e`
-
-Successor segmentation-contract SHA-256:
-
-`84075473c7320bde6d40d7c7aa6501f88b1e172d05dd5877ab4dc20e1b7a084f`
+- structural JSON receipt;
+- structural SVG proof.
 
 ## Provenance / handoffs
 
-Source-owner result returned to Building PR #2 as comment **`5699915268`**.
+Existing Rigging, Animation and Technical Art evidence remains truthful for the unchanged host source and hinge axis. Hard Surface does **not** silently relabel those historical receipts as axial-stop consumers.
 
-Geometry PR #6 received explicit source-ownership handoff as comment **`5699918187`**. Its candidate remains valid derived evidence/provenance; Hard Surface does not silently relabel the Geometry branch itself as source authority.
+If any downstream lane later chooses to instantiate or visually consume these stop collars, it must explicitly bind to PR #24 and rerun the boundary it owns:
 
-Procedural PR #4 received the semantic-continuity note as comment **`5699921036`**: the 17 logical component identities/centers/sizes remain unchanged, so its row grammar is not automatically invalidated. It should rebind only if/when it elects to consume the new successor source identity or emitted topology.
+- **Rigging:** full-component clearance only if the stop geometry enters its articulated proof;
+- **Materials / Art Direction / Visual QA:** appearance/readability only if the collars are rendered as part of the accepted asset representation;
+- **Technical Art / Runtime:** import/submission/performance only if these two added proof components are transported into the target representation.
 
-Other consumers are deliberately **not** rewritten by Hard Surface:
-
-- Materials must explicitly choose/rebind if it adopts the successor emitted surface partition;
-- Map / Technical Art current topology-rebind evidence remains truthful for its own exact older Building identity;
-- Environment and Runtime receipts remain historical exact evidence until their owner lanes explicitly consume the successor;
-- Hard-Surface PR #5 symmetry evidence remains its own exact historical source claim.
-
-The successor is therefore available without retroactively changing any consumer's provenance.
+No downstream migration is required merely because the source overlay exists.
 
 ## Placement / reusable learning
 
-Bounded reusable Hard-Surface lesson:
+Bounded Hard-Surface lesson:
 
-> **When a repeated manufactured member intersects source-owned supports only because of coarse proof decomposition, keep the semantic member identity stable and source-own an explicit segmented emission representation only after a derived geometry proof shows exact occupied-union preservation and fail-closed overlap/gap bounds.**
+> **When downstream systems repeatedly depend on a manufactured joint, do not let them infer missing physical end-stop intent from a long pin or a screenshot. Source-own the smallest explicit construction overlay, derive its seating and clearance from the existing source dimensions, and keep engineering retention claims held unless separately evidenced.**
 
-This is useful beyond this pavilion, but one Building family does not justify a universal auto-segmentation engine.
+This remains Object-local.
 
-**No Universal Creation extraction.** UC does not need to know what a pavilion header or post means.
+**No Universal Creation extraction.** UC does not need hinge-retainer semantics from one Object asset.
 
-**No Profession Fabric promotion.** This is one source-owned manufactured pattern, not one unchanged professional procedure proven across materially different source domains.
+**No Profession Fabric promotion.** One equipment-case proof is not a cross-domain professional procedure.
 
 ## Truth boundary / non-claims
 
-This PASS establishes only that Building Hard Surface now owns an opt-in exact segmented emission successor for the two pavilion headers, preserving the base logical component semantics, receiver fits, assembled bounds and exact occupied solid union while removing the four known positive-volume header/post interpenetrations.
+This PASS establishes only exact source-space bilateral stop placement, exact seating at the existing pin ends, positive declared radial overhang, positive clearance from the two outer knuckle proof volumes, and exact bilateral symmetry while the host source stays unchanged.
 
 It does **not** establish:
 
-- replacement, deletion or deprecation of the historical v0.2 source/builder;
-- automatic migration of Procedural, Materials, Map, Environment, Runtime or other consumers;
-- a boolean-unioned or globally vertex-manifold pavilion shell;
-- removal of coplanar/internal faces at face-contact seams;
-- self-intersection freedom beyond the bounded positive-volume AABB proof used here;
-- final normals, tangents, smoothing, UVs, textures or materials;
-- architectural, structural, code, weather-sealing or manufacturing validity;
-- runtime import, collision, navigation, gameplay or target-device performance;
-- final Art Direction / Visual QA acceptance;
+- a bored hinge-knuckle/pin interface;
+- press fit, snap fit, clip, thread, swage or other real retention mechanism;
+- retention force, pull-out force, loads, fatigue, impact resistance or vibration behavior;
+- tolerance stack, thermal expansion, wear, corrosion or serviceability;
+- manufacturability or assembly procedure;
+- full-component collision clearance under articulation;
+- runtime physics or constraints;
+- gameplay or controller behavior;
+- final materials, topology, normals, UVs, bevels or visual acceptance;
 - UC extraction, Profession Fabric promotion, CANON, merge authority, production readiness, game readiness or Hard-Surface mastery.
 
 ## Four-root gate
 
-- **Truth:** exact old/new identities, source bytes, Geometry donor, union volume, overlap count, topology budget, negative controls, failed first run and final PASS are retained separately.
-- **Agency / non-domination:** Hard Surface owns the source representation decision, while each downstream specialist chooses whether to adopt it and must rerun its own acceptance evidence.
-- **Continuity:** the historical source/builder and current consumer receipts remain reproducible; the successor is additive and explicitly versioned rather than silently rewriting them.
-- **Wisdom before speed:** one exact, already-proven manufactured defect was source-owned at its correct boundary instead of jumping to a full boolean union, generic UC abstraction or speculative new asset.
+- **Truth:** exact source identity, pin/knuckle intervals, new contract, negative controls, exact workflow head and retained artifact are explicit.
+- **Agency / non-domination:** downstream specialists retain authority over whether and how they consume the new stop overlay; no automatic migration occurred.
+- **Continuity:** the host source and all historical consumer evidence remain unchanged and reproducible; the stop contract is additive and versioned.
+- **Wisdom before speed:** this pass closed one concrete source-mechanical omission without escalating into a fabricated engineering latch/retainer system or generic UC abstraction.
 
 ## Next Hard-Surface pass
 
-Re-scan the full constellation first. Do not automatically continue Building. Prefer a fresh source-owned manufactured weakness across Weapon, Armor, Unit, Building, Object or Misc. Let Materials/Map/Runtime adopt this successor only through their own exact evidence if it materially improves their lane. Keep full pavilion boolean-union/coplanar-face cleanup held until a real receiving or visual/runtime problem demonstrates that it is necessary, and keep additional Object latch engineering held until source evidence requires it.
+Re-scan the full constellation first. Do not automatically continue Object or Building. Prefer the next evidence-backed manufactured weakness in Weapon, Armor, Unit, Building, Object or Misc only if a real source/consumer boundary makes it useful. Keep physical hinge retention engineering, additional latch construction and pavilion boolean/coplanar cleanup held until a concrete downstream requirement or defect justifies them.
