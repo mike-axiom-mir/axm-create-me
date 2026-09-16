@@ -118,8 +118,8 @@ Current exact failure artifact:
 - ID: **`10454434763`**;
 - local retained archive: `vfx-wallclock-bbc8721a.zip`;
 - exact-head receipt: `bbc8721a8af60b11e660773786426965c421e4ff`;
-- SHA-256: **`900aec9713501122eeb20642a00229d39079b39824010394190034076889a2c9`**;
-- archive digest independently reproduced after download.
+- SHA-256: **`7f8ee4c2327e8f9dc15655889b501dc86dcc2caf7e5837fcd551f59a8871d6bd`**;
+- GitHub artifact digest and independently downloaded archive digest agree.
 
 The package retains the current structural payload, parent variant evidence, exact-head receipt, complete Godot log, complete wall-clock runtime receipt and the independent verifier failure receipt. No failed evidence was overwritten by the later repair.
 
