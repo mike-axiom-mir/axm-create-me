@@ -1,171 +1,167 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-16
-State: **PASS_SOURCE_OWNED_LID_INNER_SURFACE_IDENTITY / OBJECT PR #26 EXACT HEAD VERIFIED / MATERIAL UNASSIGNED / HOST GEOMETRY UNCHANGED / MATERIALS REBIND AVAILABLE / UC + PROFESSION FABRIC UNCHANGED**
+State: **PASS_EXPLICIT_SOURCE_OWNED_BUILDING_EMISSION_VARIANT_SELECTION / BUILDING PR #2 ADVANCED / BASE 19-BOX DEFAULT UNCHANGED / HEADER-SEGMENTED 23-BOX OPT-IN / NO DOWNSTREAM AUTO-ADOPTION / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist status, newest design PRs/status, the Object source builder, Materials review evidence and current Art/QA boundaries before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current Hard-Surface status, newest specialist status, and open work across the full design constellation before changing product evidence.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation is in `mike-axiom-mir/axm-object-design`; this repository changes only this specialist status record.
+`axm-create-me` remains **coordination only**. Product/evidence implementation stayed in the owning Building repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
-
-The prior Object PR #25 annular-hinge PASS remains preserved in Git history. This activation did **not** source-adopt the bore candidate or continue hinge work automatically.
+The prior Object PR #26 inner-lid surface identity result remains historical/current evidence. Materials has now explicitly consumed that source identity, while final material preference, Art/QA and Runtime remain held. This activation therefore did **not** continue Object automatically.
 
 ## Fresh constellation / duplication scan
 
-Weapon and Armor currently have no open implementation lane exposing a stronger manufactured source requirement. Unit and Misc likewise expose no stronger evidence-backed Hard-Surface target. Character and Animal are dominated by active Organic / Geometry / Rigging successor work; Hard Surface would duplicate ownership there. Building already has source-owned topology, producer-interface and header-segmentation work with downstream consumers still rebinding. Map, Nature and Weather remain receiving/procedural/VFX/runtime-led.
+- Weapon and Armor have no open implementation lane exposing a stronger manufactured source requirement.
+- Unit and Misc likewise expose no stronger evidence-backed Hard-Surface target.
+- Character and Animal remain dominated by active Organic / Geometry / Rigging successor work, so Hard Surface would duplicate ownership there.
+- Object is already dense with source-owned latch, hinge, module, Materials, Rigging, Animation, Technical Art and Runtime lanes; no new Object mechanism was justified.
+- Nature and Weather remain Organic / Materials / Procedural / VFX led.
+- Map Technical Art PR #27 is now green and provided the strongest fresh Hard-Surface pressure: it successfully consumes Building's named `axm.building-build-result/v0.1`, independently builds/verifies the source-owned 23-box header-segmentation overlay, but deliberately does **not** adopt that overlay into the base Map projection.
 
-Object is busy, but Materials PR #6 exposed a new **source-ownership handoff** rather than another competing mechanism lane: its current real-Godot inner-lid review deliberately targets `lid_shell / source_local_min_z_face`, while explicitly stating that the review face split is not source-owned and that Hard Surface must author the production surface identity if the candidate ever advances.
-
-Art Direction and Visual QA have **not** approved the `service_dark` material choice. Therefore the correct Hard-Surface action was not material adoption. The bounded gap was the missing manufactured **surface semantic** itself.
+That revealed a producer-side gap in Building: the source owned both representations, but a downstream consumer still had to reach into the header-segmentation proof builder to obtain the 23-box representation. There was no stable source-owned variant-selection boundary.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-building-design`
 
-New draft PR: **#26 — `Hard Surface: source-own lid inner surface identity`**
+Existing draft PR: **#2 — `Hard Surface: prove Map-sized pavilion panel receiver pattern`**
 
-Branch: `studio/hard-surface-lid-inner-surface-identity-001`
+Branch: `studio/hard-surface-pavilion-interface-001`
 
-Exact base: Hard-Surface PR #17 head:
+Exact tested/current Hard-Surface head:
 
-`6086f39a3da344c57a68653f90d040e03e04cec2`
+**`547bd21073332c8f856f07017cf9d279aa157bfa`**
 
-Exact current PR #26 head:
+PR remains **OPEN / DRAFT / MERGEABLE**.
 
-**`e67353416209604aa50ad3ba57f71336f4384349`**
+No parallel Hard-Surface PR was opened.
 
-PR state after evidence completion: **OPEN / DRAFT / MERGEABLE**.
+## Source-owned emission selection added
 
-## Source-owned semantic added
+New Building-local contract:
 
-Object-local contract:
+**`axm.building-emission-variants/v0.1`**
 
-**`axm.object-hard-surface-surface-identity/v0.1`**
+Selection policy:
 
-Exact identity:
+**`EXPLICIT_VARIANT_ID_NO_FALLBACK`**
 
-- asset: `modular-equipment-case-001`;
-- unchanged host-source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- surface ID: `lid_inner_service_surface`;
-- owner component: `lid_shell`;
-- required role: `lid_shell`;
-- required kind: `box`;
-- exact selector: `source_local_min_z_face`;
-- semantic: `interior_service_surface`;
-- Hard-Surface material assignment: **UNASSIGNED**;
-- Materials review candidate adopted: **false**.
+Exactly two source-owned variant IDs are exposed:
 
-The contract pins the exact Materials review provenance instead of pretending Hard Surface discovered the need independently:
+1. **`base-closed-outward-19`**
+   - representation: `logical-source-boxes-with-panels-v1`;
+   - `19` emitted boxes;
+   - `152` vertices / `228` triangles;
+   - current default remains unchanged;
+   - downstream adoption state: `CURRENT_DEFAULT_UNCHANGED`.
 
-- Materials PR #6 head: `8e92324648d837a92b7c3e0b1107df1f58f9aa61`;
-- path: `lookdev/inner_lid_surface_review_001.json`;
-- Git blob: `cc90cd2c4c0f8eaf6b93d190436bc278c0fa1c83`;
-- review selector: `source_local_min_z_face`.
+2. **`header-segmented-23`**
+   - representation: `segmented-headers-around-source-post-volumes-v1`;
+   - `23` emitted boxes;
+   - `184` vertices / `276` triangles;
+   - source-owned front/rear headers each retain exact three-segment parent mapping;
+   - downstream adoption state: `OPT_IN_ONLY`.
 
-That donor supplies the repeated need only. No material preference, Art/QA acceptance or runtime claim is inherited.
+The historical tuple builder and existing **`axm.building-build-result/v0.1`** are untouched. The new selector exposes emitted boxes with stable `id`, `source_component_id`, role and exact vertices, so consumers can explicitly choose a representation without inferring it from tuple width, proof-script internals or current branch shape.
+
+Unknown variant IDs fail closed. There is no implicit "best", latest, nearest or fallback representation.
 
 ## Exact structural result — PASS
 
-Dedicated workflow:
+Existing dedicated workflow:
 
-**`35145723350 — Object lid inner-surface identity evidence` — COMPLETED / SUCCESS**
+**`35151627299 — Hard-surface building evidence` — COMPLETED / SUCCESS**
 
-Python 3.11 and 3.13 both passed compile and the complete Object unit-test suite. All inherited Hard-Surface/Object workflow families on the same exact head also completed SUCCESS:
-
-- Object hard-surface interface evidence;
-- Object service-module fit evidence;
-- Object service-module registration-key evidence;
-- Object service-module fastener-clearance evidence;
-- Object front-latch ownership evidence;
-- Object front-latch pivot-interface evidence.
+Python 3.11 and 3.13 both passed compile plus the complete Building test suite. The workflow also rebuilt the historical source evidence, named-result compatibility evidence, source-owned header segmentation and the new explicit emission-variant evidence on the same exact head.
 
 Scoped result:
 
-**`PASS_SOURCE_OWNED_LID_INNER_SURFACE_IDENTITY`**
+**`PASS_EXPLICIT_SOURCE_OWNED_BUILDING_EMISSION_VARIANT_SELECTION`**
 
-Exact retained observations from the unchanged host builder:
+Exact retained A/B facts:
 
-- host mesh: **468 vertices / 812 triangles**;
-- `lid_shell`: one **12-triangle** box group;
-- selected source-owned face offsets: **`[0, 1]`**;
-- selected global face indices: **`[12, 13]`**;
-- selected scope: **2 triangles / 4 unique vertices**;
-- selected vertex indices: **`[8, 9, 10, 11]`**;
-- selected plane: **`z = 0.312 m`**;
-- opposite lid plane: **`z = 0.422 m`**;
-- selected surface area: **`0.3744 m²`**;
-- exact body-to-lid inward-face gap: **`0.01200000000000001 m`** (authored `0.012 m` split gap);
-- Materials review selector matches: **true**;
-- host geometry changed: **false**;
-- final material assignment authored: **false**;
-- `service_dark` candidate adopted: **false**.
+- base positive-volume header/post intersections: **4**;
+- header-segmented positive-volume intersections: **0**;
+- occupied-union volume residual: **`0.0 m³`**;
+- assembled bounds: **identical**;
+- receiver IDs: **identical**;
+- receiver mount residual: **identical**;
+- emitted-box delta: **`+4`**;
+- vertex delta: **`+32`**;
+- triangle delta: **`+48`**;
+- positive-volume-intersection delta: **`-4`**.
 
-The face is not labelled “inner” by arbitrary convention alone: the verifier derives the lid/body bounds from the exact unchanged source and requires the selected local-min-Z plane to be the lid plane nearest the body across the authored positive split gap. It separately verifies the opposite local-max-Z face remains distinct.
+The existing source-owned segmentation proof remains separately intact: the 23-box representation removes the four known positive-volume header/post interpenetrations while preserving exact occupied union and source receiver relationships.
 
 ## Fail-closed controls
 
-The retained tests reject:
+The new selector rejects unsupported IDs rather than resolving them to the current default. The retained negative selection `silent-best-effort` returns an explicit rejection.
 
-- changing the source selector to `source_local_max_z_face`;
-- Materials-review selector drift;
-- Hard Surface assigning a final material;
-- prematurely marking the Materials review candidate adopted;
-- host-source identity drift;
-- component identity drift.
+Existing Hard-Surface negative controls also remain green/fail-closed for:
 
-This protects the distinction between **owning a stable manufactured surface identity** and **choosing its final material**.
+- malformed historical box topology;
+- a flipped triangle;
+- mount drift;
+- oversize receiver footprint;
+- insufficient standoff;
+- `+1 mm` header overlap reintroducing a positive-volume intersection;
+- `-1 mm` header shortening changing occupied union;
+- named-build-result schema/dependency drift.
+
+Downstream policy is explicit:
+
+**`NO_AUTOMATIC_ADOPTION__CONSUMER_MUST_EXPLICITLY_SELECT_AND_RETEST`**
 
 ## Retained evidence
 
 Artifact:
 
-- ID: **`10467695682`**;
-- name: `modular-equipment-case-001-lid-inner-surface-identity-evidence`;
-- size: **`5,054 bytes`**;
-- exact head: `e67353416209604aa50ad3ba57f71336f4384349`;
-- GitHub SHA-256: **`bdf9184668de15cf035edccb8168cee35233e11be52b442bc058bf7937a45002`**;
-- surface contract SHA-256: `6beebafd4b068e0d83a12243b43d50b374176685ea085a9220ee065e732d99ec`;
-- unchanged host mesh digest: `315e61fbbe88242bba9bb373f08790fc2f7da249c41989824225ab004908508f`.
+- ID: **`10469576211`**;
+- name: `service-pavilion-001-hard-surface-evidence`;
+- size: **`17,011 bytes`**;
+- exact head: `547bd21073332c8f856f07017cf9d279aa157bfa`;
+- GitHub SHA-256: **`59402ee591d6a08eb2be9297f1b13046d83c4460e342b3f44673d0d1b67bda1c`**;
+- base variant payload SHA-256: `a9ba377adaeddb4ac8f2c1a94c4e1fe1ae10e67bb2687f598936bb6036ec8bed`;
+- header-segmented variant payload SHA-256: `32579a83c09af8087517f4bb9f30c81b0d99b299b341e298164be4ed16b36d91`.
 
-The artifact ZIP was downloaded after CI and independently rehashed to the exact GitHub digest above. It retains the exact head, host source, source-owned surface contract, Materials review donor and machine-readable evidence receipt.
+The Actions ZIP was downloaded after CI and independently rehashed to the exact GitHub artifact digest above. It retains the old source/named-result/header-segmentation evidence plus the new emission-variant contract, exact-head file and machine-readable receipt.
 
 ## Propagation / handoff
 
-PR #26 received exact-result comment `5703940520`.
+Building PR #2 received exact-result comment **`5704666938`**.
 
-Materials PR #6 received handoff comment `5703941807`: Materials may explicitly rebind a future review/evidence pass to `lid_inner_service_surface` instead of rediscovering primitive topology. Hard Surface did **not** request adoption of `service_dark`; Art Direction and Visual QA still own perceptual preference, and Runtime / Technical Art still own target representation and cost.
+Map Technical Art PR #27 received handoff comment **`5704668862`**. That handoff does not alter Map code and does not request silent adoption. It only makes the source-owned selection boundary available if a Map owner later chooses to test `header-segmented-23` explicitly.
 
-No Rigging, Animation, Map or runtime claim was silently upgraded. No source geometry or mechanism changed.
+Procedural PR #4's existing header-segmentation evidence remains truthful against its exact donor and needs no automatic rewrite. Materials, Environment and Runtime retain their own exact identities and must explicitly rebind/retest if they consume the 23-box variant.
 
-No Universal Creation or Profession Fabric code was changed. One Object lid surface is insufficient evidence for a generic UC material-slot/surface-semantic schema. Broader extraction should wait for a second independent source/domain proving the same need.
+No Universal Creation or Profession Fabric code changed. This is Building-owned representation selection over one source asset, not evidence for a universal geometry-variant system or profession procedure.
 
 ## Truth boundary / non-claims
 
-This PASS proves only that one exact existing inward lid face now has a stable Object-owned source semantic and that the current Materials review targets that same exact face while the host mesh remains unchanged.
+This PASS proves only that Building now exposes its two already-source-owned proof-geometry representations through an explicit, fail-closed, stable selection contract while preserving the current default and exact source relationships.
 
 It does **not** establish:
 
-- adoption of `service_dark` or any other final material;
-- a final production material slot implementation in a target engine;
-- UVs, textures, decals, wear, baked detail, bevel or normal changes;
-- physical coating correctness;
-- target-engine material import or renderer equivalence;
-- draw-call, shader, memory or target-device runtime cost;
-- Art Director or independent Visual QA acceptance;
-- generic UC surface/material semantics;
-- Profession Fabric promotion;
-- CANON, merge authority, production readiness, game readiness or Hard-Surface mastery.
+- Map, Environment, Materials, Runtime or any other downstream adoption of `header-segmented-23`;
+- segmented material-role mapping or UV/texture/decal behavior;
+- target-host rendering or final visual preference for the segmented representation;
+- target-device draw-call, memory, CPU/GPU or FPS acceptance;
+- a boolean-unioned/global-manifold pavilion shell;
+- removal of coplanar internal faces at touching components;
+- architectural, structural, sealing or manufacturing validity;
+- collision, navigation or gameplay acceptance;
+- Universal Creation or Profession Fabric promotion;
+- CANON, merge authority, production/game readiness or Hard-Surface mastery.
 
 ## Four-root gate
 
-- **Truth:** the source-owned result stops at exact face identity; it does not convert a Materials review preference into source truth.
-- **Agency / non-domination:** material choice remains with its owning review lanes; no downstream consumer is forced to rebind or adopt the candidate.
-- **Continuity:** exact host source, Materials donor head/blob, selector and retained evidence are pinned; host geometry remains unchanged.
-- **Wisdom before speed:** a small missing source semantic was closed without reshaping the asset, duplicating Materials, or prematurely generalizing into UC.
+- **Truth:** both representations keep their own exact identities and measured tradeoffs; the 23-box successor is not relabelled as the default.
+- **Agency / non-domination:** downstream consumers must explicitly opt in; the producer never chooses a variant for them silently.
+- **Continuity:** the historical builder, named v0.1 result and prior evidence stay reproducible while the new source contract adds a stable selection boundary.
+- **Wisdom before speed:** the pass solves a real receiving-pressure problem without forcing Map adoption or prematurely extracting a universal abstraction.
 
 ## Next Hard-Surface pass
 
-Re-scan the whole constellation first. Do not automatically continue Object or source-adopt the inner-lid material candidate. Prefer the next concrete manufactured weakness exposed by current evidence; if Materials / Art / QA explicitly select an inner-lid material direction later, Hard Surface should only add further source structure if that decision actually requires it.
+Re-scan the whole constellation first. Do not automatically keep expanding Building. If a downstream owner explicitly selects `header-segmented-23`, Hard Surface should only answer source-structure questions that the receiving evidence actually exposes; Materials, Environment, Runtime and Visual QA retain their own acceptance boundaries.
