@@ -1,225 +1,195 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / EIGHTEENTH BOUNDED RUNTIME PASS / PASS_TWO_TAP_TEMPORAL_EXPOSURE_RUNTIME_COST_CHARACTERIZED / PERFORMANCE NEUTRALITY HELD / TARGET DEVICE + FINAL VISUAL ACCEPTANCE HELD**
+State: **ACTIVE / NINETEENTH BOUNDED RUNTIME PASS / PASS_OBJECT_MATERIAL_INDEXED_SURFACE_PAYLOAD_REDUCTION / EXACT VISUAL PARITY / TARGET DEVICE + PRODUCER ADOPTION HELD**
 
 ## Current bounded claim
 
-This activation followed the newest VFX-owned Weather presentation candidate instead of reopening the solved capture-perturbation, finite-state cache, latest-due, historical Building submission, Object key-compaction, or single-tap source-width budget lanes.
+This activation did not reopen the Weather cache, latest-due, capture-perturbation, temporal-exposure, historical Building submission, Object AnimationPlayer compaction, or footprint-visibility lanes.
 
-Current VFX source head:
+The newest Art-preferred current-world Object receiver at Environment head:
 
-`92cfe5d0dc7e254c1c3e19c5fc168298dea3493a`
+`6575cc38db9f0f62b14a82b352d8582edf89856d`
 
-Current optional VFX policy:
+already carries the exact five source-owned Object material roles while retaining the exact Object source geometry authority:
 
-`TWO_TAP_HALF_OPACITY_RECEIVING_ONLY_TEMPORAL_EXPOSURE`
+- Object source head `d3fa10a270faae7925811f44f03381fe5c5d0215`;
+- Object Materials head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`;
+- source geometry `468 vertices / 812 triangles`;
+- material roles `shell_coating`, `service_dark`, `hardware_steel`, `rubber_guard`, `interface_orange`.
 
-The VFX source still contains **36 Weather streaks**, but the receiving candidate renders **72 camera-projected ribbons**: one current continuous-phase tap plus one `15.625 ms` lagged tap, each at half of the interpolated source opacity. VFX had direct visual evidence but explicitly left Runtime cost unclaimed.
+Art Direction had already handed Runtime the material-family submission consequence (`+8` draw calls and `+8` objects in both fixed cameras) while explicitly warning against collapsing the five visual roles merely to reduce counters. Runtime inspection found a different, visually neutral boundary: the receiver builds every triangle corner as an unindexed vertex after generating normals, so the live five-surface proof mesh stores `2,436` vertices for the same `812` triangles even though the source owns only `468` vertices.
 
-Runtime selected the smallest missing reusable boundary:
+Runtime therefore selected the smallest bounded representation question:
 
-> **Measure the exact 36-ribbon control against the exact 72-ribbon two-tap receiving representation without image readback inside the measurement loop, bind the full renderer counter/timing tuple, and do not alter VFX semantics.**
+> **Can the already-validated five-surface Object receiver be indexed after normals are generated, preserving every material surface, triangle and retained pixel while reducing duplicated vertex/buffer payload?**
 
 Scoped result:
 
-**`PASS_TWO_TAP_TEMPORAL_EXPOSURE_RUNTIME_COST_CHARACTERIZED`**
+**`PASS_OBJECT_MATERIAL_INDEXED_SURFACE_PAYLOAD_REDUCTION`**
 
 Decision:
 
-**`HOLD_PERFORMANCE_NEUTRALITY__TWO_TAP_RECEIVING_COST_IS_NONZERO`**
+**`INDEXED_SURFACE_VERTEX_PAYLOAD_WIN__DRAW_OBJECT_PRIMITIVE_COUNTS_STABLE`**
 
-Owning implementation repository: `mike-axiom-mir/axm-map-design`
+Owning implementation repository: `mike-axiom-mir/axm-map-design`.
 
-Draft Runtime PR: **#32 — `Runtime: characterize two-tap Weather temporal-exposure cost`**
+Draft Runtime PR: **#33 — `Runtime: index preferred Object material surfaces without visual change`**.
 
-Branch: `studio/runtime-weather-temporal-exposure-budget-001`
+Branch: `studio/runtime-object-material-index-budget-001`.
 
-Exact Runtime head:
+Exact tested Runtime head:
 
-`befa10fb0c4085c7899f98dd751b3e9afd1159ba`
+`ddd9e8b783b213c6e44bf5eea482de1d41918766`
 
-Exact VFX parent:
-
-`92cfe5d0dc7e254c1c3e19c5fc168298dea3493a`
-
-PR state when this status was written: **OPEN / DRAFT / MERGEABLE**.
-
-`axm-create-me` remains coordination-only. No Weather/VFX/runtime product implementation, UC capability, or Profession Fabric procedure was moved here.
+The proof is stacked from exact Environment visual authority `6575cc38...`; the Environment branch has since advanced through review-only work. `axm-create-me` remains coordination/status only.
 
 ## Duplication / ownership check
 
-- **VFX PR #25** owns temporal-exposure semantics, source brackets, lag, opacity budget, source-width presentation and adoption.
-- **Runtime PR #32** owns only this bounded cost contract and proof-host measurement tooling.
-- **Weather** remains source authority.
-- **Visual QA / Art Direction** retain temporal/aesthetic acceptance; Runtime does not convert pixel metrics into preference.
-- **Environment / Map** retains world/camera composition.
-- **UC / Profession Fabric** receive no extraction from this one proof.
+- **Environment / Map + Object Materials** retain the current five-surface receiving/look authority and any producer adoption.
+- **Object source** retains geometry, scale, transform and mechanical identity.
+- **Runtime PR #33** owns only the indexed-representation experiment and proof-host budget evidence.
+- **Art Direction / Visual Observer QA** retain the underlying visual preference. Runtime treats any pixel drift as a failure rather than accepting an aesthetic trade.
+- **Environment footprint review** remains a separate visibility-review lane; this pass does not alter or decide the footprint cue.
+- **VFX / Weather** remain untouched.
+- **Universal Creation / Profession Fabric** receive no extraction from this one Object proof.
 
-The prior Runtime passes remain exact historical truth and are not relabelled.
+## Measure-before representation
 
-## Measure-before source evidence
+The exact accepted five-surface receiver uses `SurfaceTool` once per material surface, emits every triangle corner with `add_vertex`, calls `generate_normals()`, then commits the surface without indexing it.
 
-The exact retained VFX parent artifact from workflow `35141844166` was consumed by identity before Runtime measurement. It already proves the two-tap candidate structurally and visually at nine deterministic review phases in both fixed `1100×720` cameras.
+Measured control ArrayMesh:
 
-Parent visual metrics retained for Art / QA review:
+- surfaces: **5**;
+- primitives: **812 triangles**;
+- stored vertices: **2,436**;
+- stored indices: **0**.
 
-### `path_eye`
+Per-surface control counts were:
 
-- candidate/control changed-pixel mean: **`1,716 px`** / about **`0.2167%`** of frame;
-- control inter-frame mean-absolute-RGB median: **`0.1509981 LSB`**;
-- candidate median: **`0.1438967 LSB`**;
-- candidate/control ratio: **`0.9529701`** — about **4.7% lower**.
+- `shell_coating`: 72 vertices / 24 triangles;
+- `service_dark`: 36 / 12;
+- `hardware_steel`: 1,968 / 656;
+- `rubber_guard`: 288 / 96;
+- `interface_orange`: 72 / 24.
 
-### `elevated_oblique`
+## Bounded optimization
 
-- candidate/control changed-pixel mean: **`2,383.67 px`** / about **`0.3010%`** of frame;
-- control inter-frame mean-absolute-RGB median: **`0.1076147 LSB`**;
-- candidate median: **`0.1000488 LSB`**;
-- candidate/control ratio: **`0.9296948`** — about **7.0% lower**.
+The candidate starts from that already-validated live receiver. For each of the five surfaces it imports the generated surface into a fresh `SurfaceTool`, calls `SurfaceTool.index()` **after normals already exist**, commits the indexed surface into a new `ArrayMesh`, then restores the exact existing material resource.
 
-Those metrics describe pixel behavior only. The VFX owner explicitly retains possible short ghosting / broader atmospheric footprint as a visual tradeoff; Runtime makes no aesthetic acceptance claim.
+Indexing after normal generation matters: vertices that share position but have different generated normal attributes at hard edges are not silently welded.
 
-## Bounded measurement improvement
+Measured candidate ArrayMesh:
 
-Runtime added a fresh Godot 4.7.2 GL Compatibility A/B contract with **two separate processes**:
+- surfaces: **5**;
+- primitives: **812 triangles**;
+- stored vertices: **468**;
+- stored indices: **2,436**.
 
-Control:
+Per-surface candidate counts were:
 
-- exact current continuous-phase Weather sample;
-- 36 source-width ribbons;
-- one mutable Weather node / mesh / material;
-- single-phase sapling.
+- `shell_coating`: 16 vertices / 72 indices / 24 triangles;
+- `service_dark`: 8 / 36 / 12;
+- `hardware_steel`: 364 / 1,968 / 656;
+- `rubber_guard`: 64 / 288 / 96;
+- `interface_orange`: 16 / 72 / 24.
 
-Candidate:
+That removes **1,968 duplicated stored vertices**, a reduction of about **80.79%** in the receiver's stored vertex count, while restoring the total stored vertex count to the exact source count of `468`.
 
-- exact VFX current + lagged phase;
-- 72 source-width ribbons;
-- same one mutable Weather node / mesh / material;
-- same single-phase sapling.
+Under the verifier's explicitly declared logical payload model — position `Vector3` + normal `Vector3` per stored vertex plus 32-bit indices — the representation changes from:
 
-Both modes cover the same nine deterministic phases and the same two fixed cameras. Per Runtime PR #31's previous finding, **no `get_image()` or PNG encoding occurs inside the measurement loop**.
+**`58,464 B -> 20,976 B`**
 
-The receipt binds:
+for a modeled saving of:
 
-- exact VFX parent/head identity;
-- exact current/lagged source brackets and digests;
-- exact `36 -> 72` presentation count;
-- projected source-width residual gate;
-- stable Weather/sapling resource identities;
-- Weather prepare/build/fill microseconds;
-- post-draw wait observations;
-- RenderingServer draw/object/primitive/buffer/texture counters;
-- a deliberate presentation-count mutation that must fail closed.
+**`37,488 B / 64.12%`**.
+
+That modeled figure is not a VRAM, allocator or driver-packing claim.
 
 ## Exact same-run result
 
 Dedicated workflow:
 
-**`35143164807 — Runtime Weather temporal exposure budget evidence — SUCCESS`**
+**`35149235284 — Runtime Object material indexed-surface budget evidence — SUCCESS`**
 
-Stable renderer delta in **both** fixed cameras:
+Across all **68 corresponding runtime observations**:
 
-- draw calls: **`+0`**;
-- objects in frame: **`+0`**;
-- primitives in frame: **`+288`**;
-- observed buffer memory: **`+3,456 B`**;
-- observed texture memory: **`+0 B`**.
+- draw calls: exact **`+0`** delta;
+- objects in frame: exact **`+0`** delta;
+- primitives in frame: exact **`+0`** delta;
+- observed texture memory: exact **`+0 B`** delta;
+- observed RenderingServer buffer memory: stable **`-34,488 B`** delta.
 
-This matters because the representation remains batched into one mutable Weather mesh/surface: unchanged draw/object counts alone would have hidden real additional primitive and buffer cost.
+All **68 retained control/candidate PNG pairs are byte-identical**.
 
-### `path_eye` proof-host Weather preparation
+Visual tradeoff for Art / QA:
 
-Control 36-ribbon fill:
+**`NONE_OBSERVED_68_MATCHED_PNGS_BYTE_IDENTICAL`**.
 
-- median: **`239 us`**;
-- mean: **`297.33 us`**.
+This means no visual consequence was observed in the exact retained current-world views. It does not re-approve the underlying Object look or authorize producer adoption.
 
-Two-tap 72-ribbon candidate:
+A deliberate candidate mutation that erased the required vertex reduction failed closed as intended.
 
-- median total prepare: **`641 us`**;
-- mean: **`711.33 us`**;
-- candidate/control median ratio: **`2.682x`**;
-- median two-tap exposure-list build: **`206 us`**;
-- median ribbon fill: **`435 us`**.
+## Repair provenance
 
-### `elevated_oblique` proof-host Weather preparation
+The first workflow attempt remains retained as failed provenance:
 
-Control 36-ribbon fill:
+- run `35149153088`;
+- head `e1915afc95e3011a790edca574449a9e501704d5`;
+- failure occurred before candidate measurement because the observer assumed the emitted Object node could be rediscovered by source asset-id name.
 
-- median: **`254 us`**;
-- mean: **`257.33 us`**.
-
-Two-tap 72-ribbon candidate:
-
-- median total prepare: **`598 us`**;
-- mean: **`603.33 us`**;
-- candidate/control median ratio: **`2.354x`**;
-- median two-tap exposure-list build: **`197 us`**;
-- median ribbon fill: **`401 us`**.
-
-Post-draw waits remain host/scheduler-sensitive and are retained as observations only; they are **not** promoted into a cadence or product-runtime claim.
-
-## Reusable learning
-
-**Unchanged draw-call and object counters do not establish performance neutrality.**
-
-A batched presentation effect can keep one node / mesh / material submission while still adding:
-
-- primitive work;
-- buffer pressure;
-- CPU-side representation/materialization cost.
-
-Future Runtime acceptance for similar effects should bind the complete observed counter/timing tuple rather than optimizing or approving on one headline counter.
-
-This is a budget/measurement contract, not a request to collapse VFX taps. If VFX / Art later prefer the two-tap look, any lower-cost representation should be tested as a separate visual-equivalence experiment rather than silently changing VFX semantics.
+Godot did not preserve that scene-node lookup assumption. Runtime repaired the observer by binding to the exact single child emitted by the already-validated `add_static_source()` call and requiring the child-count delta to be exactly one. No visual or performance gate was weakened.
 
 ## Retained evidence
 
 Successful artifact:
 
-- workflow run: **`35143164807`**;
-- artifact ID: **`10465443461`**;
-- name: `runtime-weather-temporal-exposure-budget-001-befa10fb0c4085c7899f98dd751b3e9afd1159ba`;
-- size: **`897,264 B`**;
-- GitHub SHA-256: **`19fb22a6a9d6abc1e009c4d5fcc9922ab3862bc65f42d057fc90a8f994fe5e1a`**;
+- workflow run: **`35149235284`**;
+- artifact ID: **`10467763889`**;
+- name: `runtime-object-material-index-budget-001-ddd9e8b783b213c6e44bf5eea482de1d41918766`;
+- size: **`11,192,939 B`**;
+- GitHub SHA-256: **`3325d964ca6222a8b4fea8f8481bb8e60868979408929fb60ad2c4b8810650a4`**;
 - independently downloaded/rehashed SHA-256: **same value**.
 
-The retained package includes exact Runtime head, exact VFX source-width payload, VFX target-host visual report, both Godot logs, fresh control/candidate runtime receipts, and the Runtime budget report.
+## Reusable learning
+
+For generated hard-surface receivers that emit triangle corners through `SurfaceTool`, **post-normal indexing can be a meaningful storage/buffer optimization without collapsing material surfaces or hard edges**, but it must be proven from the actual emitted attribute arrays rather than inferred from source vertex counts.
+
+This one Object proof is not enough to promote an automatic indexing capability into Universal Creation or a profession-wide procedure. A second materially different source domain would be stronger evidence for extraction.
+
+Also, this pass deliberately does **not** solve the five-surface material submission overhead. The Art-preferred five material roles still cost their existing draw/object slots. Runtime found a separate payload win without trading those roles away.
 
 ## Handoffs
 
-- **Runtime PR #32:** exact result and evidence recorded in comment `5703634212`.
-- **VFX PR #25:** measured cost returned in comment `5703636015`; Runtime requests no adoption/rejection decision.
-- **Visual QA / Art Direction:** parent visual behavior remains available for review; Runtime adds only the exact cost side of the tradeoff.
-- **Future Runtime:** if the two-tap look survives Art/QA review, the measured ~`197–206 us` exposure-list construction is one bounded CPU-side candidate for a semantics-preserving representation optimization, but no such optimization is claimed here.
+- **Runtime PR #33:** exact indexed-representation experiment and retained proof are open as a draft; no automatic merge/adoption requested.
+- **Environment PR #24:** result returned in comment `5704375679`, including exact buffer/pixel evidence and the request that Environment / Art decide any producer rebind.
+- **Art Direction / Visual QA:** exact visual tradeoff is zero observed delta across the retained 68-frame A/B; final preference authority remains theirs.
 
 ## Historical continuity
 
-The detailed seventeenth Runtime status remains preserved at coordination commit:
+The detailed eighteenth Runtime status remains preserved at coordination commit:
 
-`1e50fb53593c9841661251608cef4d4aa878e2f0`
+`24353400566eb4c0c9ed4f37bd84de0243318f6a`
 
-That pass proved inline PNG readback was a material observer cost and separated visual capture from cadence measurement. This eighteenth pass reuses that rule rather than silently reintroducing capture into the timed loop.
+That pass characterized the nonzero cost of the two-tap Weather temporal-exposure representation. This nineteenth pass does not relabel or overwrite that source-scoped result.
 
-Earlier Runtime results remain source-scoped historical truth, including PRs #30, #29, #28, Object PR #22, and the historical Building-material budget lanes.
+Earlier Runtime passes likewise remain historical truth, including the Weather cadence/cache/capture lanes, Object AnimationPlayer compaction, Building material submission budget and previous environment budgets.
 
 ## Explicit non-claims
 
 This PASS does **not** prove:
 
-- authored `32 Hz` delivery;
-- target-device CPU or GPU frame time;
-- FPS;
-- overdraw;
-- VRAM or heap residency;
-- browser/mobile/console/handheld budgets;
-- arbitrary-camera or arbitrary-resolution behavior;
-- arbitrary/unbounded Weather streams;
-- final VFX / Art Direction / Visual QA preference;
-- VFX adoption;
-- physical precipitation correctness;
-- gameplay/collision/damage/controller acceptance;
+- draw-call reduction for the five Object materials;
+- CPU or GPU frame-time improvement;
+- FPS improvement;
+- target-device VRAM or heap reduction;
+- driver/backend packing equivalence;
+- arbitrary-asset or arbitrary-topology indexing safety;
+- import-time performance or a universal import budget;
+- footprint-cue adoption or rejection;
+- Object source geometry/scale/mechanical changes;
+- gameplay/collision/navigation acceptance;
+- final Art Direction / Visual QA preference;
 - UC extraction or Profession Fabric promotion;
 - CANON;
 - production/game readiness;
@@ -227,12 +197,12 @@ This PASS does **not** prove:
 
 ## Four-root check
 
-**Truth:** the two-tap representation's cost is now directly measured instead of inferred from unchanged draw calls. Timing is explicitly scoped to the proof host.
+**Truth:** the receiver's hidden duplicate vertex payload was measured directly from the emitted Godot mesh, and the buffer/pixel result was proven by a fresh control/candidate run rather than inferred from source counts.
 
-**Agency / non-domination:** Runtime changes no VFX semantics and does not decide whether the visual tradeoff is worth its cost. VFX, Art and QA retain their authority.
+**Agency / non-domination:** Runtime does not collapse Art-preferred material roles and does not decide producer adoption. Environment, Object, Art and QA retain their authorities.
 
-**Continuity:** PR #32 stacks exactly on VFX head `92cfe5d0...`, consumes retained parent evidence by identity, preserves previous Runtime results as historical truth, and leaves `axm-create-me` coordination-only.
+**Continuity:** the experiment is exact-parent-bound to `6575cc38...`, preserves source/material identities and five surface roles, records the failed setup attempt rather than hiding it, and leaves `axm-create-me` coordination-only.
 
-**Wisdom before speed:** the pass characterizes the complete cost tuple before attempting another optimization, preventing a premature change to a visually meaningful presentation effect.
+**Wisdom before speed:** the pass chooses an exact visually neutral payload reduction before attempting more invasive batching/material changes, and withholds universal extraction until independent repetition exists.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
