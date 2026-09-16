@@ -1,87 +1,85 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-16
-State: **PASS_IDENTITY_DIMENSION_DEPENDENCY_MAP / SECOND MATERIAL TRIGGER SUPPORTED BY OBJECT RIGID-SCENE TRANSPORT EVIDENCE / COORDINATION LEDGER V0.1 ACTIVATED AS STATUS-LEVEL METHOD / UC RIGID-SCENE-GRAPH HOME SUPPORTED FOR NEUTRAL TRANSPORT ONLY / OBJECT SEMANTICS REMAIN DOMAIN-OWNED / PROFESSION FABRIC UNCHANGED / PRIOR NATURE + ATTACHMENT MAPS RETAINED**
+State: **PASS_EVIDENCE_LEDGER_V0P2_REFINEMENT / RAW_BYTES_VS_NORMALIZED_CONTENT_BINDING_SEPARATED / RECEIVING_HOST_LIFECYCLE_PRECONDITION_ADDED / OBJECT + ANIMATION REPEAT THE SAME PROOF_CONTEXT_RISK / UC RIGID_SCENE_GRAPH HOME UNCHANGED / PROFESSION FABRIC UNCHANGED / RIGGING + HARD_SURFACE STATUS STALENESS HANDED_BACK / PRIOR NATURE + ATTACHMENT MAPS RETAINED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then inspected the newest specialist status/coordination commits and current PR state across the eleven design repositories, plus current Universal Creation and the relevant Knowledge Engineer / Ontology Engineer Profession Fabric bodies.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest specialist state, current design PRs, current coordination commits, the Object / Map / Nature / Animal / Character active stacks, current Universal Creation rigid-scene evidence, and the relevant Knowledge Engineer / Ontology Engineer Profession Fabric bodies.
 
-`axm-create-me` remains **coordination only**. This activation changes only this Cartographer status. It does not alter any design source, generator, mesh, renderer, rig, animation, runtime, Universal Creation implementation, Profession Fabric body, or another specialist's status file.
+`axm-create-me` remains **coordination only**. This activation changes only this Cartographer status file. It does not alter any design source, generator, mesh, material, rig, animation, target-host implementation, runtime code, Universal Creation code, Profession Fabric body, or another specialist's status.
 
-Pre-activation `axm-create-me` main was:
+Observed pre-activation coordination main during this scan:
 
-`6c1dcc4d87dbf9a00dc29891a0c5591b12e4d421`
+`6aaa5fde2cdb0de1ae426a30f855e7df17373086`
 
 Previous Cartographer status blob preserved for rollback/provenance:
 
-`3e3467ce176b3907a0a775998ae8921b2187c9e0`
+`e1c5471f45012a4a873194776f53e5b90338cffc`
 
-The previous Cartographer pass deliberately held a reusable evidence-dependency ledger until a **second materially different exact-identity migration** existed. That threshold is now supported by active Object + UC evidence, but only as experimental coordination evidence: the relevant PRs remain open/draft and this is not CANON or production adoption.
+The previous Cartographer pass explicitly asked for a new dependency failure that did not fit the existing five identity dimensions before adding more structure. That trigger now exists.
 
-## Constellation / active-lane scan
+## Constellation / duplication scan
 
 No new product implementation lane is justified from Cartography.
 
-- Weapon, Armor, Unit and Misc still have no stronger open design lane requiring Cartographer intervention.
-- Character remains upstream in Organic/form review before topology/deformation/runtime claims.
-- Animal already has active Geometry, Rigging, Organic and Animation work around the connected forelimb; Cartography must not create a parallel deformation identity.
-- Building now has Hard-Surface, Materials and a Building-local Procedural repeated-row family; there is no evidence yet for extracting that row family horizontally.
-- Nature retains the earlier source-generator migration chain and explicit downstream rebinding through Procedural, Technical Art and Map receiving evidence.
-- Weather retains domain-owned source/procedural atmosphere, while Map owns bounded live receiving/VFX use.
-- Map has current receiving work for migrated Nature, exact Object replacement, Runtime, Materials and VFX; the first Object replacement attempt also exposed a stale receiving-slot identity and then rebound to the exact current varied slot.
-- Object now has the strongest new cross-repo capability-placement evidence: source-owned rigid component semantics, latch ownership, rig/animation/material/runtime consumers, and a new Technical Art lane that carries explicit part parentage through a neutral UC scene-graph transport candidate.
+- **Weapon / Armor / Unit / Misc:** no stronger active cross-repo capability-placement surface was found than the current Object / Map / Nature work. No placeholder work is invented.
+- **Character:** Organic PR #2 is still the source-owned form lane. Art Direction now prefers the exact restrained `0.085 m` shoulder bridge only within its retained wire-form scope; source migration, topology, Rigging and independent QA remain separate.
+- **Animal:** Geometry PR #7 and Organic PR #8 remain active deformation-readiness candidates. Their structural evidence does not justify a shared topology/deformation subsystem; richer visual review is still the correct next owner.
+- **Building:** existing source / Materials / Procedural evidence remains domain-local. No repeated Building capability now outranks the identity/proof-context issue below.
+- **Nature:** Geometry PR #9 remains the strongest source-generator migration example; downstream Procedural / Technical Art / Map evidence rebinds exact changed mesh identities selectively. Geometry PR #10 and Materials PR #5 are now testing leaf sidedness representation, but their renderer decision is still pending and is not a Cartography extraction trigger.
+- **Weather:** seeded variation remains Weather-owned; Map VFX PR #22 proves one exact source-owned variant in the current target-host path without moving the generator into Map or UC.
+- **Map:** Environment PR #21 composes the exact Object source into the current 17-state world; Runtime PR #23 binds that exact receiving identity to a proof-host budget. This remains receiving-scene/runtime evidence, not a generic asset-budget service.
+- **Object:** current Object work is the strongest new Cartography trigger. Technical Art PR #19 exposed a false dependency assumption even though the source rig itself was valid, while Animation PR #10 independently exposed a target-host lifecycle ordering defect that could survive CI until retained visual evidence was inspected.
 
-Cartography therefore maps the dependency/placement pattern and does **not** duplicate Object Technical Art PR #16, UC PR #157, Map Environment PR #19, Animal work, or any current runtime/animation lane.
+Cartography therefore refines the coordination dependency method and does **not** duplicate Object Technical Art, Animation, Rigging, Hard-Surface, Map Runtime, Nature Materials, UC, or Profession Fabric work.
 
 ## Material cross-repo learning
 
-### The studio now has at least three different kinds of “identity changed” event, and they must not be collapsed into one invalidation rule
+### Correct identity is necessary but not sufficient: exact evidence has both representation binding and proof-context preconditions
 
-The first strong example was Nature:
+The previous ledger distinguished **what layer changed**:
 
-- Nature Geometry PR #9 changed **generated geometry identity** in the owning source generator while preserving source semantics and source JSON meaning.
-- Exact downstream consumers that pinned generated mesh identity had to rebind explicitly.
-- Historical evidence remained true for historical mesh identities.
+- `SOURCE_SEMANTICS`
+- `GENERATED_GEOMETRY`
+- `TRANSPORT_REPRESENTATION`
+- `RECEIVING_SCENE`
+- `EVIDENCE_STATUS`
 
-The second materially different example is now Object + Universal Creation:
+That remains useful, but Object Technical Art PR #19 now proves that it is still too coarse by itself.
 
-- Object Hard-Surface PR #14 made existing latch-part ownership explicit while keeping that meaning in Object.
-- Object Technical Art PR #16 exact head `965fb2f24dbd0b0cbb748d9f8b8712d62966315f` keeps component segmentation, hinge pivot, latch ownership and intended rigid relationships in Object.
-- It consumes Universal Creation PR #157 exact head `6dc465987e01362264f88b7cef4213609ae50763`, candidate contract `axm.rigid-scene-graph/v0.1`, only to transport caller-authored named rigid parentage over already-supplied mesh nodes.
-- The Object proof requires closed-state world geometry to remain unchanged within `1e-12 m`, preserves the exact GLB BIN geometry payload/triangle count through scene-graph rebind, imports through pinned Godot 4.7.2, and verifies lid-owned keepers follow `lid_shell` while lower levers remain outside the lid subtree.
-- Exact Object workflow `35081970135` completed with `success` on that head.
+The exact lid Rigging donor contains two simultaneously valid identities for the same structured plan:
 
-That is not another generated-mesh migration. It is a **transport-representation expansion** over stable domain-owned semantics.
+- raw `articulation.json` file bytes SHA-256: `05b4daad475c30f4c1ea72826fbafd452bf037e58523e18a0c338dd0d7999c0a`;
+- canonical parsed/normalized plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`.
 
-A third related example is Map Environment PR #19 exact head `85a2a0be959b4e39f9ffcf83da89078b604f9881`:
+The first Object target-rig receiving adapter treated those as though they were the same digest. That was false. Technical Art PR #19 exact head `a462197421c06cffd46af327d6325cd75ef8aa1b` repairs the receiving boundary by pinning both identities independently and failing closed on drift in either one.
 
-- the Object source identity did not change;
-- the receiving Map slot had already been procedurally varied from an older baseline;
-- the first cross-repo run correctly failed when stale old coordinates were reused;
-- the lane rebound to the exact current varied receiving slot instead of silently moving accepted world state backward.
+This is **not** another `GENERATED_GEOMETRY` event and it is **not** a reason to invent a new UC identity service. It is a dependency-edge representation problem:
 
-That is a **receiving-scene identity** problem, not a source or transport problem.
+> A consumer must say whether it binds raw serialized bytes, normalized/canonical content, or both. A semantic digest must never silently stand in for a file digest, and a file digest must never be described as normalized semantic identity.
 
-### Reusable conclusion
+### A second independent failure shows proof-host lifecycle state is not an identity dimension
 
-A dependency ledger that says only “asset changed” is too coarse and can create false reruns, false invalidations, or silent semantic centralization.
+Technical Art PR #19 then exposed a different error after the digest ambiguity was repaired: the Godot proof observer sampled `global_transform` before the imported hierarchy had entered a live scene tree. The exact source, rig, UC donor and hierarchy identities were correct, but the observed world-space baseline was invalid because the proof-host lifecycle precondition was false.
 
-The smallest useful coordination rule is:
+Animation PR #10 independently hit the same class of receiving-context risk. An earlier target-host run went green, but retained renders showed lower latch levers floating away from the case because pivot wrappers were inserted/reparented before the imported scene was attached in the state required for keep-global transform behavior. The repaired Animation head `f0739b65c9a318d490a38b8cf64283d8a262bd53` attaches the scene first, inserts wrappers afterward, and adds a fail-closed neutral-geometry drift gate.
 
-> **Every dependency edge must name which identity dimension it binds. Revalidation is required only when the consumed dimension changes or when a receiving contract says a different dimension is relevant. Historical evidence remains attached to the exact identity it actually tested.**
+These are materially different specialist lanes—Technical Art target-rig binding and AnimationPlayer target-host playback—but the repeated lesson is the same:
 
-## Status-level coordination method activated
+> **Evidence identity and evidence observation context are orthogonal. Exact digests can all be correct while a proof is still invalid because the receiving host has not reached the lifecycle state required by the measurement.**
 
-The prior proposal `axm.studio-evidence-dependency-ledger/v0.1` is now activated as a **status-level coordination method**, not a new product subsystem or universal registry.
+That means `HOST_LIFECYCLE_STATE` should **not** become a sixth asset identity dimension. It belongs on the dependency edge as a receiving proof precondition.
 
-This status is its first bounded schema record. No new directory, service, database or UC capability is created because current evidence supports the method's home but not infrastructure scale.
+## Coordination method refinement — `axm.studio-evidence-dependency-ledger/v0.2`
 
-Minimum fields:
+The status-level method is refined additively. This is still coordination vocabulary only; no service, database, automatic invalidation engine or UC subsystem is created.
+
+The existing fields remain:
 
 | Field | Meaning |
 |---|---|
-| `producer_repo_ref` | exact repo + PR/commit/artifact producing the consumed evidence |
+| `producer_repo_ref` | exact repo + PR/commit/artifact producing consumed evidence |
 | `consumer_repo_ref` | exact repo + PR/status/claim consuming it |
 | `identity_dimension` | `SOURCE_SEMANTICS`, `GENERATED_GEOMETRY`, `TRANSPORT_REPRESENTATION`, `RECEIVING_SCENE`, or `EVIDENCE_STATUS` |
 | `bound_identity` | exact SHA/digest/contract/slot identity when relevant |
@@ -91,130 +89,150 @@ Minimum fields:
 | `non_claims` | claims that must not transfer with the dependency |
 | `handoff_owner` | specialist/repo responsible for the next review or rebind |
 
-These names are coordination vocabulary only. They do not create authority over source repositories.
+Two orthogonal fields are now added:
 
-## Bounded identity-dimension map
+| New field | Allowed / intended meaning |
+|---|---|
+| `representation_binding` | `RAW_BYTES`, `NORMALIZED_CONTENT`, `BOTH`, or `NOT_APPLICABLE`; records **how exactness is bound**, not which domain layer owns meaning |
+| `receiving_preconditions` | explicit host/process conditions required before the observation is valid; examples: hierarchy attached to live scene tree before world-transform sampling, or scene attached before keep-global reparent/pivot insertion |
 
-| Example | Bound dimension | Exact evidence | Current disposition |
-|---|---|---|---|
-| Nature source migration | `GENERATED_GEOMETRY` | Nature Geometry PR #9 head `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`; later Procedural / Technical Art / Map rebinds | **CURRENT for migrated lineage; historical digests remain historical** |
-| Object ownership -> UC rigid hierarchy | `TRANSPORT_REPRESENTATION` while `SOURCE_SEMANTICS` stays Object-owned | Object Technical Art PR #16 head `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`; workflow `35081970135` success; UC PR #157 head `6dc465987e01362264f88b7cef4213609ae50763` | **CURRENT experimental proof / draft PRs; no canonical adoption claim** |
-| Map west Object source replacement | `RECEIVING_SCENE` | Map Environment PR #19 head `85a2a0be959b4e39f9ffcf83da89078b604f9881`; stale old slot rejected, current varied slot retained | **CURRENT receiving identity; old slot is historical, not silently restored** |
-| Specialist status after later dependency closure | `EVIDENCE_STATUS` | prior Nature Cartography pass identified later QA / receiving closure after older status snapshots | **STALE_CONSUMER only when later exact evidence has actually closed the named hold** |
+### v0.2 revalidation rule
+
+1. `identity_dimension` answers **what changed**.
+2. `representation_binding` answers **which representation(s) the consumer actually pins**.
+3. `receiving_preconditions` answers **what must already be true in the proof host before the measurement can count**.
+4. A raw-byte change invalidates a consumer only when it binds `RAW_BYTES` or `BOTH`.
+5. A normalized-content change invalidates a consumer when it binds `NORMALIZED_CONTENT` or `BOTH`.
+6. A formatting/serialization-only byte change does not automatically invalidate a semantic-only consumer, unless that consumer explicitly binds raw bytes for provenance/reproducibility.
+7. Even with all identities current, the proof remains `HELD` or failed if a declared receiving precondition is not satisfied.
+8. Historical evidence remains attached to the exact identities **and proof context** it actually tested.
+
+No automatic rerun policy is implied. Specialists still decide their own evidence gates.
+
+## Bounded evidence-linked map
+
+| Edge / example | Identity dimension | Representation binding | Receiving precondition | Current disposition |
+|---|---|---|---|---|
+| Nature Geometry PR #9 source migration | `GENERATED_GEOMETRY` | exact source + mesh digests as declared by each consumer | consumer-specific | **CURRENT migrated lineage; historical meshes remain historical** |
+| Object Rigging plan -> Technical Art PR #19 | `SOURCE_SEMANTICS` consumed by receiving binding | **BOTH** raw file bytes `05b4...99c0a` + canonical plan `0ad6...c422` | exact donors materialized before target binding | **CURRENT on PR #19 exact head; prior one-digest assumption rejected** |
+| Object source-owned hierarchy -> UC rigid scene graph | `TRANSPORT_REPRESENTATION`; Object meaning remains source-owned | exact donor/head + transport outputs | hierarchy must be imported/attached before world-space observation that depends on live global state | **CURRENT bounded transport proof; UC semantics remain neutral** |
+| Object Animation PR #10 target-host pivot wrappers | `TRANSPORT_REPRESENTATION` + `EVIDENCE_STATUS` for the playback proof | exact Animation / Technical Art / source donor identities | scene attached before keep-global pivot-wrapper insertion; neutral geometry drift must be zero | **CURRENT repaired proof; earlier green-but-visually-wrong run stays historical failure evidence** |
+| Map Environment PR #21 current-world Object composition | `RECEIVING_SCENE` | exact current PR #20 world + exact Object source | exact current receiving slot/world state must be reproduced | **CURRENT receiving proof; separate QA still required after scene identity changes** |
+| Map Runtime PR #23 budget | `EVIDENCE_STATUS` over exact `RECEIVING_SCENE` | exact baseline/candidate scene identities + source identity | separate pinned proof-host measurements | **CURRENT proof-host budget only; no target-device budget** |
 
 ## Capability-placement decision
 
-### Object repo owns Object meaning
+### 1. Object / owning design repositories keep semantic meaning
 
-The Object repository remains the correct home for:
+Object remains the correct home for component names, lid/keeper/lever ownership, hinge/pivot meaning and source-specific articulation constraints. Nature remains owner of vegetation source/generator meaning. Map remains owner of receiving composition. No exactness refinement changes those ownership boundaries.
 
-- component segmentation;
-- stable part names;
-- hinge pivot identity;
-- latch keeper/lever ownership;
-- which rigid pieces belong to the lid;
-- Object-specific articulation meaning and constraints.
+### 2. Universal Creation remains the correct home for neutral rigid scene-graph transport only
 
-None of those semantics should be copied into UC merely because UC transports them.
+UC PR #157 is now merged, with source head `6dc465987e01362264f88b7cef4213609ae50763` and merge commit `1b9b6ce1feae6fdc5b1c9ffd067f81d5c39fb8a8`.
 
-### Universal Creation owns only neutral rigid scene-graph transport
+The new Cartography finding does **not** justify changing that contract. The raw-vs-normalized evidence distinction belongs to the cross-repo receiving/evidence boundary, and the Godot scene-tree lifecycle ordering belongs to the proof host. Teaching UC Object rig-plan digests or Godot lifecycle semantics would centralize domain/host knowledge for convenience and violate the current placement evidence.
 
-UC PR #157 is correctly placed **if it remains neutral**:
+Therefore:
 
-- consumes already verified flat UC-generated GLB plus caller-authored node names/parents/transforms;
-- rejects unknown nodes/parents, cycles, multiple-parent ambiguity, non-unit rotations and already-hierarchical inputs;
-- preserves exact BIN payload;
-- does not infer domain names, ownership, pivots, animation, physics or gameplay.
+**NO UC CHANGE REQUESTED.**
 
-This is a genuine shared creation/transport primitive, unlike the earlier Nature evidence-dependency problem, which belonged only in studio coordination.
+### 3. `axm-create-me` remains the correct home for the coordination ledger method
 
-Cartography therefore records **NO DUPLICATE UC LANE**. PR #157 is the candidate home already supported by the exact Object consumer.
+The ledger answers which exact evidence depends on which identity and proof context. That is studio coordination/governance state, not creation machinery. v0.2 remains this status-level method until a repeated need justifies a more formal artifact.
 
-### `axm-create-me` owns the evidence-dependency ledger method
+### 4. Profession Fabric remains unchanged
 
-The ledger remains coordination state because it tracks which specialist evidence depends on which exact external identity and whether that dependency is current, held or historical. Putting those acceptance/status relationships into UC would inflate UC from creation machinery into studio governance.
+The experimental Knowledge Engineer body already requires provenance, stale-source handling, contradiction/supersession preservation and separation of representation from truth. The experimental Ontology Engineer body already requires explicit identifier/version/migration mechanics without turning formal consistency into domain truth.
 
-### Profession Fabric remains unchanged
+The current 3D evidence is strongly aligned with those profession boundaries, but it is still one studio domain. Their WORKING thresholds require repeated fixtures across materially different knowledge/ontology domains and exercised domain-authority handoffs. Object + Nature + Map are materially different 3D design families, but they are **not** independent Profession Fabric knowledge domains.
 
-The existing experimental Knowledge Engineer body already owns provenance, contradiction/supersession representation and stale-source behavior, while explicitly separating representation from truth. Its WORKING threshold requires representative provenance/conflict/retrieval/staleness fixtures across **at least two materially different knowledge domains** plus an exercised domain-profession handoff.
+Therefore:
 
-The existing experimental Ontology Engineer body already owns version/migration mechanics and explicitly refuses to turn formal structure into domain truth; its WORKING threshold likewise requires at least two materially different domain ontologies and migration/authority fixtures.
+**NO PROFESSION BODY CHANGE OR MATURITY PROMOTION.**
 
-The studio now has two materially different **3D coordination examples**, but that is not the same as two materially different Profession Fabric knowledge/ontology domains. Therefore this activation does not promote a new Profession body, alter either body, claim WORKING maturity, or copy this studio ledger into Profession Fabric.
+## Missing dependencies / stale-consumer handoffs
 
-A later Profession Fabric proposal would need evidence that this identity-dimension/staleness method transfers outside the 3D Studio without absorbing domain authority.
+### Rigging status is now stale relative to the repaired stacked target proof
 
-## Missing dependency / handoffs
+Current `studio/status/06_rigging_deformation.md` still records Object PR #18 exact-head CI as queued. The later Technical Art PR #19 stack repaired the evidence-identity and target-host lifecycle issues and completed the exact lid-rig -> UC target hierarchy path successfully.
 
-### Technical Art / UC Integration
+Cartography records this only as an `EVIDENCE_STATUS / STALE_CONSUMER` handoff. Rigging must refresh its own status and decide how to describe the stacked proof; Cartography does not rewrite Rigging state on its behalf.
 
-Current `studio/status/11_technical_art_uc_integration.md` predates Object Technical Art PR #16 and UC PR #157. It should refresh on its own next activation to record the new rigid-scene transport evidence while preserving its Nature proof as historical/current evidence for that separate domain.
+### Hard-Surface status is also behind later exact evidence
 
-Cartography does **not** rewrite that specialist's status on its behalf.
+Current `studio/status/03_hard_surface.md` still describes the Object PR #17 source-owned latch-pivot workflow as queued, while later specialist evidence records that exact PR #17 head `6086f39a3da344c57a68653f90d040e03e04cec2` as having completed successfully.
 
-### Runtime / Animation / Materials / Rigging
+Again, this is a coordination staleness marker only. Hard-Surface owns its own status refresh and any semantic promotion decision.
 
-The new UC rigid scene graph transports hierarchy; it does not silently grant AnimationPlayer clips, the 101-sample Object choreography, runtime controller/state-machine behavior, latch mechanics, physics/collision, materials acceptance or gameplay. Each consumer must bind only the dimension it actually needs and retain its own evidence gate.
+### Visual QA / Art Direction remain independent acceptance owners
 
-### Capability Cartographer next trigger
+Animation's repaired target-host evidence and Environment PR #21's changed current-world scene do not inherit older QA acceptance merely because their technical gates are green. Exact changed receiving identity remains a reason for selective re-review, not blanket invalidation of all historical evidence.
 
-Watch for either:
+## Retained prior findings
 
-1. a **third independent domain consumer** of `axm.rigid-scene-graph/v0.1` that tests whether the contract is genuinely generic rather than Object-shaped; or
-2. a new dependency failure that does not fit the five identity dimensions above.
+The earlier maps remain valid and are not rewritten:
 
-Do not centralize more structure before one of those produces evidence.
-
-## Retained earlier findings
-
-### Nature evidence-dependency closure remains valid
-
-The previous pass's Nature finding is retained: historical source/generated identities stay traceable, downstream exact consumers rebind selectively, and stale status is a coordination condition rather than proof that the historical status was false when written.
-
-### Three-layer attachment placement remains valid
-
-Earlier Object attachment mapping is also retained. The new rigid scene-graph transport does not prove a second independent live attach/detach consumer or the missing Layer-C 3D attachment physics capability. No generic attachment runtime extraction is triggered here.
+- **Nature migration:** generated-geometry identity changes require selective downstream rebinding; historical digests stay true for historical evidence.
+- **Three-layer attachment placement:** domain source owns physical interface meaning, neutral transport may be shared, and live physics/gameplay attachment remains a distinct unproven layer.
+- **Rigid scene graph placement:** UC is the supported home only for caller-authored neutral hierarchy transport; Object semantics do not migrate with it.
+- **Receiving-scene identity:** a source can be unchanged while a consumer must rebind because the target slot/world identity changed.
 
 ## Duplication guard
 
 This activation deliberately does **not**:
 
-- open another Object Technical Art lane;
-- open another UC rigid-scene implementation;
-- move Object part semantics into UC;
-- reinterpret Nature mesh migration as a scene-graph problem;
-- treat Map receiving-slot drift as source drift;
-- blanket-rerun Materials/VFX/Rigging/Runtime evidence whose consumed identity dimension did not change;
-- overwrite another specialist's stale/current status;
-- create a new Profession Fabric specialist or promote Knowledge/Ontology Engineering maturity;
-- claim that one Object target-host proof establishes universal rigid-scene portability.
+- add a second Technical Art identity utility;
+- add Object rig semantics or Godot lifecycle policy to UC;
+- create a universal digest registry;
+- create an automatic dependency/invalidation service;
+- reinterpret raw bytes as semantic truth or canonical normalized content as file identity;
+- blanket-rerun consumers whose declared binding did not change;
+- rewrite Rigging or Hard-Surface statuses for them;
+- turn Map Runtime proof-host counters into a universal asset budget policy;
+- extract Nature leaf-sidedness policy while Materials/renderer evidence is still pending;
+- create or promote a Profession Fabric body;
+- claim that two Object/Godot lifecycle bugs prove cross-engine universality.
+
+## Next evidence trigger
+
+Only consider stronger structural extraction when one of these becomes true:
+
+1. a **materially different non-Object contract** independently needs both raw-byte and normalized-content identity binding; or
+2. a **different host/runtime family** reproduces the same lifecycle-precondition class, supporting a reusable proof-host helper rather than Godot-local test discipline; or
+3. a **third independent domain consumer** of `axm.rigid-scene-graph/v0.1` demonstrates genuinely generic transport pressure.
+
+Until then, v0.2 stays coordination-only and manually evidenced.
 
 ## Truth boundary / non-claims
 
 This activation does **not** establish or authorize:
 
-- canonical adoption or merge of Object PR #16 or UC PR #157;
-- a universal asset identity system;
-- an automatic build/dependency graph;
-- automatic specialist-status mutation;
-- automatic invalidation or rerun policy;
-- domain semantics inferred from hierarchy;
-- animation clip/controller transport;
-- physics, collision, gameplay, target-device performance or production readiness;
+- CANON or merge authority for any open design PR;
+- a universal asset-identity ontology;
+- a universal semantic canonicalization format;
+- automatic dependency discovery, invalidation or rerun scheduling;
+- renderer-independent host lifecycle rules;
+- generic animation/controller transport;
+- target-device performance budgets;
+- physics, collision, gameplay, production readiness or game readiness;
 - Profession Fabric WORKING maturity;
-- UC maturity beyond the exact candidate contract and evidence that currently exists;
-- CANON authority, auto-merge authority or Cartography mastery.
+- UC maturity beyond its exact merged neutral contracts and observed consumers;
+- Cartography mastery.
 
 ## Four-root check
 
-- **Truth:** each dependency names the identity dimension actually consumed. Object semantics, transport hierarchy and Map receiving state are not conflated, and draft/open evidence is not described as canonical adoption.
-- **Agency / non-domination:** source repositories retain domain meaning and each specialist retains its own acceptance/status authority. UC transports explicit caller-owned graph data rather than inferring ownership.
-- **Continuity:** exact PR heads, workflow IDs, previous status blob, historical Nature identities and current Object/Map identities remain separately traceable and rollbackable.
-- **Wisdom before speed:** the smallest coordination schema is recorded in the Cartographer status instead of creating infrastructure, a new profession or a second UC lane prematurely.
+- **Truth:** raw bytes, normalized semantic content, domain identity dimensions and proof-host lifecycle conditions are now explicitly separated. An earlier green run with invalid visual geometry remains historical failure evidence rather than being hidden by the repaired run.
+- **Agency / non-domination:** source repositories keep domain meaning; receiving specialists own their proof gates; QA/Art Direction keep acceptance authority; Cartography records dependencies rather than commandeering them.
+- **Continuity:** previous ledger v0.1, prior Cartographer blob, exact donor hashes, failed/repaired target-host histories and stale specialist snapshots remain traceable rather than silently rewritten.
+- **Wisdom before speed:** the response is a two-field refinement to an existing coordination method, not a new service, UC subsystem, global ontology or Profession Fabric promotion.
 
 ## Evidence pointers
 
-- Object Technical Art PR #16: `mike-axiom-mir/axm-object-design#16`, head `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`, exact workflow `35081970135` = `success`.
-- Universal Creation PR #157: `mike-axiom-mir/axm-universal-creation#157`, head `6dc465987e01362264f88b7cef4213609ae50763`, candidate `axm.rigid-scene-graph/v0.1`.
-- Map Environment PR #19: `mike-axiom-mir/axm-map-design#19`, head `85a2a0be959b4e39f9ffcf83da89078b604f9881`.
-- Profession Fabric: `professions/ai-data/knowledge-engineer/body.json` and `professions/ai-data/ontology-engineer/body.json`, both still `EXPERIMENTAL` and both preserving domain authority boundaries.
+- Object Technical Art PR #19: `mike-axiom-mir/axm-object-design#19`, head `a462197421c06cffd46af327d6325cd75ef8aa1b`, exact workflow `35087224839` = `SUCCESS`.
+- Exact lid plan raw SHA-256: `05b4daad475c30f4c1ea72826fbafd452bf037e58523e18a0c338dd0d7999c0a`.
+- Exact lid plan canonical digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`.
+- Object Animation PR #10: current repaired head `f0739b65c9a318d490a38b8cf64283d8a262bd53`, target-host workflow `35086098734` = `SUCCESS`.
+- UC rigid scene graph: source head `6dc465987e01362264f88b7cef4213609ae50763`, merge commit `1b9b6ce1feae6fdc5b1c9ffd067f81d5c39fb8a8`.
+- Map Environment PR #21: head `5ad4ef48a33eaaf76f6fefef315896da10b17eb4`.
+- Map Runtime PR #23: head `dd0d9a6e4fd232ec431b460d8dd1769d26657051`, workflow `35087354737` = `SUCCESS`.
+- Profession Fabric: `professions/ai-data/knowledge-engineer/body.json` and `professions/ai-data/ontology-engineer/body.json`, both still `EXPERIMENTAL`.
