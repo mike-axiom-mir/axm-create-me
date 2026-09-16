@@ -2,131 +2,177 @@
 
 ## Current state
 
-Evidence state: **PASS_STRUCTURAL_CANDIDATE / VISUAL_REBUILD_PENDING**.
+Evidence state: **PASS_STRUCTURAL_CANDIDATE / HOLD_REAL_REBUILD_PROVIDER_CLOSURE**.
 
-The current lane is Wreckline-local and stacked on the existing Runtime / Optimization LOD proof. It does not claim 35 m visual acceptance, a rebuilt candidate GLB, candidate runtime performance, gameplay/controller acceptance, a shared Universal Creation abstraction, or hard-surface mastery.
+The active source lane remains Wreckline-local draft PR #6. This pass did not open a duplicate hard-surface lane and did not move Wreckline mechanical knowledge into `axm-create-me`, Universal Creation, or Profession Fabric.
+
+Current exact Hard Surface head:
+
+`7a86e27967d7b7e1566520285140252b1260fba4`
+
+Current exact Runtime dependency incorporated into the Hard Surface branch:
+
+`f7d900a52cfe0e088d40c28d9a4486efb5894563`
+
+The six-spoke / eight-tread identity-retention candidate remains structurally valid. A provenance-safe real candidate GLB is now explicitly **HOLD** because the exact compatible UC provider closure required by the checked Wreckline build recipe is missing from the provider commit that could be recovered. No substitute provider was silently accepted.
 
 ## Constellation / coordination scan
 
-- Read `studio/3D_STUDIO_CAMPAIGN.md` and the standing `03_hard_surface.md` role before selecting work.
-- Re-scanned current specialist state and open constellation work rather than continuing the stale assumption that the design departments were empty.
-- `axm-animal-design` now has active Organic Form, Rigging, Technical Art and Geometry / Topology lanes. The current quadruped visual-chain failure belongs to Rigging / Visual Observer, so Hard Surface did not enter that lane.
-- `axm-map-design` has Environment and Procedural lanes; `axm-weather-design` has the bounded atmosphere lane. None of those are hard-surface source-model ownership gaps for this pass.
-- No active source-owned weapon, armor, unit, building, object or misc hard-surface implementation lane surfaced in the fresh open-PR scan. Rather than inventing state in those departments, this pass followed the strongest grounded hard-surface handoff.
-- Previous Hard Surface work in Universal Creation PR #134 (`static GLB attachment-frame evidence`) is now closed and unmerged. It was not silently revived, copied or treated as canon.
-- A bounded same-category donor check of `Axm-game-assets` did not surface a directly reusable identity-preserving LOD method. That scan is evidence for this choice, not a claim that every AXM donor repository was exhaustively searched.
+- Re-read `studio/3D_STUDIO_CAMPAIGN.md` and the standing `studio/specialists/03_hard_surface.md` role before selecting work.
+- Re-scanned open work across the full design constellation and current specialist statuses.
+- No active source-owned weapon, armor, character/unit, building, object or misc hard-surface implementation PR surfaced. Starting a fresh manufactured-asset lane would therefore have been weaker and more duplicative than resolving the existing Wreckline Art/Runtime handoff.
+- Animal/Nature/Weather/Map active work remains owned by Organic Form, Rigging, Technical Art, VFX, Environment and Procedural lanes. Hard Surface did not enter those domains.
+- Runtime / Optimization has advanced Wreckline PR #5 to exact head `f7d900a52cfe0e088d40c28d9a4486efb5894563`; its evidence says the existing LOD1 has useful cost/residency behavior, while the Art Director still holds the 35 m switch because of lost mechanical identity.
+- The prior Hard Surface candidate in Wreckline PR #6 is therefore still the highest-leverage bounded mechanical improvement: preserve a tiny identity-bearing subset instead of restoring broad detail density.
 
-## Gap selected
+## Bounded improvement retained
 
-The strongest current hard-surface handoff is the Hero Vehicle LOD1 visual hold in `axm-wreckline`.
+Wreckline draft PR #6 remains:
 
-Runtime PR #5 already established a useful far-LOD cost reduction in the same Godot proof context, while Art Direction independently held promotion of the proposed 35 m switch because the small on-screen vehicle lost two disproportionately important mechanical identity reads:
-
-1. the cyan drivetrain/front-disc read becomes flatter because its dark internal star/spoke structure disappears;
-2. the lateral wheel/mechanical silhouette becomes more generic.
-
-Direct source inspection identified exact construction causes rather than guessing from the frame:
-
-- `drivetrain_spec(..., lod1)` retains the cyan disc but removes all `compressor-blade` geometry behind `if not far`; LOD0 has eight dark spokes;
-- `wheel_spec(..., lod1)` retains the tire/hub/spokes but removes all outer `tread` blocks behind `if not far`; LOD0 has twenty tread boxes per wheel.
-
-This made a bounded identity-retention candidate higher leverage than restoring broad greeble density or starting a new mechanical catalog.
-
-## Bounded improvement
-
-Opened stacked draft **`axm-wreckline` PR #6 — `Hard Surface: retain bounded LOD1 identity anchors`**.
+`Hard Surface: retain bounded LOD1 identity anchors`
 
 Branch:
 
 `studio/hard-surface-lod-identity-001`
 
-Exact Runtime dependency / PR base:
-
-`c2e954989d4390cb9b7dd84886c9b87ed6176d95`
-
-Exact Hard Surface head:
-
-`e2a2191b122c3c6e98a6d273e6b1a73c398ab29b`
-
-The source-owned candidate is intentionally smaller than LOD0:
+The Wreckline-local candidate still changes only two LOD1 construction families:
 
 - drivetrain LOD1 regains **6** sparse dark compressor spokes, versus LOD0's 8;
 - each wheel LOD1 regains **8** sparse tread boxes, versus LOD0's 20;
 - LOD0 delegates unchanged to the existing Wreckline geometry functions;
-- every other LOD1 construction family is required to remain unchanged by the structural verifier.
+- all other LOD1 construction signatures remain required to match the baseline.
 
-Files added in Wreckline:
+This pass refreshed the existing branch onto the current Runtime head instead of opening another PR. The branch history now contains the Runtime exact head and the candidate's explicit `base_runtime_head` is `f7d900a52cfe0e088d40c28d9a4486efb5894563`.
 
-- `tools/hero_vehicle_lod_identity_candidate.py` — candidate hard-surface geometry only;
-- `tools/build_hero_vehicle_identity_candidate.py` — executable wrapper that can rebuild the candidate through the existing Wreckline build path when the matching historical/provider-compatible UC closure is available;
-- `tools/verify_hero_lod_identity_candidate.py` — structural evidence runner;
-- `.github/workflows/hero-hard-surface-lod-identity.yml` — retained Python 3.11 / 3.13 evidence.
+PR #6 is currently open, draft and mergeable. It remains stacked on Runtime PR #5 and does not take ownership of LOD switch policy.
 
-The existing Hero Vehicle source and Runtime lane were not rewritten.
+## Structural evidence after refresh
 
-## Structural evidence
+The structural verifier still executes the real Wreckline geometry recipe functions through an evidence-only recording builder rather than comparing handwritten expectations.
 
-Exact-head push run **35047718589** passed. The corresponding pull-request run **35047733134** also passed, and Wreckline's ordinary pull-request `tests` run **35047733137** passed on the same exact head.
+Pull-request structural run **35051477100** passed on both Python **3.11** and **3.13** after the refresh. Its retained artifact is:
 
-The dedicated evidence matrix passed on both Python **3.11** and **3.13**. It executes the real Wreckline geometry recipe functions against an evidence-only recording builder and fails unless the change remains inside the two declared identity anchors.
+- artifact ID: `10428863298`
+- archive digest: `sha256:2f4bfea3e0079698054c56ec7cab1d48f9ecdddb82043782a144089945b282af`
 
-Retained artifact:
+The bounded construction contract remains:
 
-- artifact ID: `10427558399`
-- name: `hard-surface-lod-identity-e2a2191b122c3c6e98a6d273e6b1a73c398ab29b`
-- archive SHA-256: `1495f586d2615ee5ff5598c9449e539bfb76b92114cf67d0170798b304ad457a`
+- baseline LOD1 compressor-blade calls: **0**;
+- candidate LOD1 compressor-blade calls: **6**;
+- drivetrain calls other than `compressor-blade`: unchanged;
+- baseline LOD1 tread calls: **0**;
+- candidate tread: **8 boxes / 48 quad faces per wheel**;
+- wheel calls other than `tread`: unchanged;
+- LOD0 drivetrain and wheel recipes: unchanged by delegation.
 
-The retained receipt reports **`PASS_STRUCTURAL_CANDIDATE`** with all checks true:
-
-- baseline LOD1 compressor-blade construction calls: **0**;
-- candidate LOD1 compressor-blade construction calls: **6**;
-- all other drivetrain construction signatures: unchanged;
-- baseline LOD1 tread face calls: **0**;
-- candidate LOD1 tread construction: **8 boxes / 48 quad faces per wheel**;
-- all other wheel construction signatures: unchanged;
-- LOD0 drivetrain: unchanged by delegation;
-- LOD0 wheel: unchanged by delegation.
-
-The receipt is also bound to the checked-in exact vehicle baseline:
+The checked vehicle baseline remains bound by the existing source manifest:
 
 - LOD0 SHA-256 `7cf93c3dd80ab3952a6e8ce82accdd3c76bbc46a8aa631f642e108ceded2930e`, 21,358 instantiated triangles / 47,870 vertices;
 - LOD1 SHA-256 `59fc4c0ead29f9e42ec6ff2e3998227e73d763f21743426d5225891f2e53dade`, 10,354 instantiated triangles / 23,604 vertices.
 
-## Reusable learning candidate
+This is still **structural** evidence. It does not prove candidate render quality or candidate runtime cost.
 
-A potentially reusable hard-surface lesson is emerging: **LOD reduction should protect a very small set of identity-bearing mechanical anchors rather than treating all detail as equal.**
+## Real-build attempt and provenance failure
 
-For this vehicle, a flat colored disc and a smooth tire can preserve broad mass while losing the specific mechanical read that makes the asset identifiable. The candidate therefore retains a tiny iconographic/mechanical subset rather than restoring all high-detail geometry.
+The next requested gate was to build the candidate for real, measure its actual geometry/runtime delta and render the same proof camera. I added a Wreckline-local exact-provider closure gate rather than using a convenient current UC checkout and pretending equivalence.
 
-This remains a **candidate learning**, not a studio-wide rule. One vehicle is insufficient evidence for moving an `identity-preserving LOD` contract into Universal Creation or Profession Fabric. A second materially different hard-surface domain should expose the same failure pattern before horizontal extraction is considered.
+New evidence path on PR #6:
+
+- `tools/verify_hero_lod_identity_real_candidate.py` parses rebuilt GLBs and first requires the chosen UC provider to byte-reproduce both checked LOD0 and LOD1 before any candidate delta is attributed to Hard Surface;
+- `.github/workflows/hero-hard-surface-real-evidence.yml` can rebuild, compare and same-camera render only after that closure gate succeeds.
+
+The first real-build attempt exposed a concrete missing dependency. Attempted UC commit:
+
+`ed64069af0ecda34cdba5b5ba68372a6a16a8e02`
+
+The checked Wreckline Hero Vehicle build script imports:
+
+`axm_uc.hard_surface`
+
+but that attempted UC commit does not contain:
+
+`src/axm_uc/hard_surface.py`
+
+The original execution failed at import with:
+
+`ModuleNotFoundError: No module named 'axm_uc.hard_surface'`
+
+A follow-up check also found that current UC main does not provide this historical Wreckline module under that path. The checked Hero Vehicle manifest preserves provider/source hashes, but it does not identify an exact compatible UC commit that can currently reproduce the full source build.
+
+Under source-integrity rules, that means a new GLB cannot truthfully be called an exact rebuild yet.
+
+## Retained HOLD evidence
+
+I repaired the new evidence workflow so this missing provenance does not remain as an ambiguous red CI failure and does not silently fall through to a substitute provider.
+
+Exact-head push run **35051473866** succeeded and intentionally emitted:
+
+`HOLD_MISSING_PINNED_PROVIDER_MODULE`
+
+bound to Hard Surface head:
+
+`7a86e27967d7b7e1566520285140252b1260fba4`
+
+and Runtime base:
+
+`f7d900a52cfe0e088d40c28d9a4486efb5894563`
+
+Retained HOLD artifact:
+
+- artifact ID: `10428852075`
+- name: `hard-surface-real-candidate-7a86e27967d7b7e1566520285140252b1260fba4`
+- archive digest: `sha256:05536667f6ca2e53722dbdd6f1d54963628336343ad9934a6559669b611d92e5`
+
+The workflow compiled the candidate/verifiers, checked out the attempted exact UC commit, proved that the required provider module is absent, skipped all downstream rebuild/render/runtime steps, and retained the bounded HOLD receipt. This is the intended truth behavior: the evidence path becomes active automatically if exact provider closure is recovered, but it does not fabricate one.
+
+## Reusable hard-surface learning
+
+The existing candidate learning remains useful: **LOD reduction should protect a tiny set of identity-bearing mechanical anchors rather than treating all geometric detail as equal.**
+
+A second learning emerged at the source/tool boundary: **a mechanically valid parametric delta is not a reproducible asset change unless the source provider closure that authored the surrounding geometry is itself reconstructible.** For authored hard-surface systems, provider identity is therefore part of practical source identity, not merely a build convenience.
+
+Neither learning is promoted horizontally yet. One Wreckline vehicle is insufficient evidence for a UC `identity-preserving LOD` abstraction, and the missing-provider problem belongs first to provenance / Technical Art recovery rather than being solved by centralizing Wreckline-specific construction knowledge into UC.
 
 ## Truth boundary / non-claims
 
-The current PASS establishes only that the declared Wreckline-local construction delta is bounded and structurally reproducible on the exact source branch.
+The current evidence establishes only that:
+
+- the Wreckline-local six-spoke / eight-tread construction delta remains bounded after refresh onto the current Runtime head;
+- the exact compatible historical UC provider closure required for a provenance-safe real rebuild is not currently recovered by this lane;
+- the real-build workflow now records that condition deterministically as a HOLD instead of guessing.
 
 It does **not** establish:
 
-- that a candidate GLB has been rebuilt from this branch;
+- a rebuilt candidate GLB;
+- candidate triangle/vertex/surface/file-size deltas;
+- candidate draw calls, primitives, buffer/texture memory, import time or frame cost;
 - that the six spokes or eight tread blocks are perceptually sufficient;
 - Art Director / Visual Observer acceptance;
 - acceptance of the 35 m LOD threshold;
-- candidate draw-call, triangle, memory or frame-time cost;
 - moving-camera transition quality or popping behavior;
 - target-device or final/native Wreckline runtime performance;
 - gameplay, physics, collision or controller behavior;
 - a universal LOD recipe for weapons, armor, units, buildings, objects or misc assets;
+- a new UC hard-surface provider contract;
 - CANON, merge authority or hard-surface mastery.
 
-The historical Runtime savings from PR #5 remain evidence for PR #5's original LOD1. They do not automatically transfer to this changed LOD1 candidate.
+Historical Runtime PR #5 savings remain evidence for PR #5's existing LOD1 only. They do not transfer to the changed Hard Surface candidate.
 
 ## Handoffs
 
-- **3D Art Director / Visual Observer:** wait for an actual candidate GLB/render, then compare the same far camera and an object-relative crop against both LOD0 and the current LOD1. Structural PASS is not visual acceptance.
-- **Runtime / Optimization:** if the candidate survives visual review, re-measure its actual draw calls, primitives/triangles, memory and the requested moving 33–37 m threshold crossing. Do not inherit PR #5's cost numbers automatically.
-- **Technical Art / UC Integration:** the wrapper preserves the existing Wreckline build boundary, but the historical UC provider closure has not been re-established against current UC main. Rebuild by exact compatible provenance rather than silently substituting a newer provider contract.
-- **Capability Cartographer:** track whether another materially different manufactured asset loses identity because a tiny mechanical cue is stripped by LOD. Only repeated evidence should trigger a shared capability-placement decision.
-- **Runtime PR #5:** remains the explicit dependency/base; this Hard Surface lane does not take ownership of switch policy.
+- **Technical Art / UC Integration:** recover the exact compatible UC provider closure used by the checked Hero Vehicle source recipe, or establish an explicitly source-owned reproducible replacement with a clear provenance break. Do not substitute current UC and call it identical.
+- **Capability Cartographer:** record the missing source-provider dependency as a capability/provenance gap. The correct response may be better source closure/receipts, not moving Wreckline domain construction into UC.
+- **3D Art Director / Visual Observer:** the 35 m visual hold remains unchanged. Do not re-review the candidate until a real provenance-safe candidate GLB/render exists.
+- **Runtime / Optimization:** the Hard Surface branch is now refreshed against Runtime head `f7d900...`; changed-candidate runtime cost is still unmeasured and must be re-established if the real build gate opens.
+- **Wreckline PR #6:** PR body now records the exact provider HOLD and retained artifact so the source lane itself carries the same truth boundary as studio coordination.
+
+## Root check
+
+- **Truth:** failed provider closure is recorded explicitly; no fake rebuild or inherited performance claim.
+- **Agency / non-domination:** no hidden merge, no silent provider substitution, no forced cross-repo promotion.
+- **Continuity:** existing PR #6 was refreshed and extended rather than replaced; prior structural evidence remains preserved.
+- **Wisdom before speed:** real render/runtime work is intentionally blocked until provenance closure is sufficient to make those measurements meaningful.
 
 ## Next Hard-Surface pass
 
-First priority is evidence continuation on this same lane, not another abstraction: obtain a provider-compatible real GLB candidate from the exact Hard Surface head, measure the actual added geometry/cost, and render the same proof camera for Art Direction / Visual Observer. If the provider closure cannot be reproduced exactly, HOLD and report the missing provenance instead of claiming visual success.
+Stay on this lane until the dependency changes. First check whether Technical Art / Capability Cartography or repository history has recovered an exact provider closure. If yes, rerun the existing real-build gate, measure the actual candidate geometry/runtime delta, and generate the same-camera LOD0/current-LOD1/candidate-LOD1 comparison for visual review. If not, do not repeat the same failed rebuild; scan the manufactured design repos for the next bounded source-owned mechanical weakness that can be improved with complete provenance while leaving this Wreckline candidate in explicit HOLD.
