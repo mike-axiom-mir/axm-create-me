@@ -1,216 +1,164 @@
 # 09 — VFX / Atmosphere Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_STRUCTURE + PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_LIVE_TARGET_HOST / EXACT WEATHER WIDTH PRESENTATION PROVED IN TWO FIXED CAMERAS / FIVE NEAR-PLANE ENDPOINT CLIPS EXPLICIT / FINAL ART + ARBITRARY-CAMERA + PHYSICAL-WEATHER + GAMEPLAY + TARGET-DEVICE HELD**
+State: **ACTIVE / PASS_FIXED_STATE_SOURCE_WIDTH / FAIL_WALL_CLOCK_PRESENTATION_CADENCE__REAL_HOST_REACHED / PERFORMANCE + GAMEPLAY + PHYSICS + FINAL ART HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, current specialist status, open constellation work, current Map VFX work and Weather source evidence before selecting the next bounded VFX improvement.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, current specialist status, open constellation work, Map VFX PR #25, and its retained Weather evidence before selecting the next bounded VFX step.
 
-The highest-leverage non-duplicated lane was the already-open Map **PR #25 — `VFX: carry source-authored Weather width into current-world proof`**. Its structural source binding was already truthful, but the real Godot target-host proof was failing. Opening a new particle, impact, fog or reactive-effect lane would have left a known receiving gap unresolved and would have overlapped other specialists' current work.
+The highest-leverage non-duplicated gap remained the existing Map **PR #25 — `VFX: carry source-authored Weather width into current-world proof`**. The fixed-state source-width presentation was already proven in Godot, but its authored 32 Hz state sequence still lacked truthful wall-clock presentation evidence. This activation repaired that exact evidence lane rather than opening a new fog, impact, particle, reactive-effect or generic VFX branch.
 
-`axm-create-me` remains coordination-only. Product/evidence changes stay in `mike-axiom-mir/axm-map-design`; Weather semantic/source authority remains in `mike-axiom-mir/axm-weather-design`. No Universal Creation or Profession Fabric extraction was introduced.
+`axm-create-me` remains coordination-only. Product/evidence changes stay in `mike-axiom-mir/axm-map-design`; Weather source semantics remain in `mike-axiom-mir/axm-weather-design`. No UC or Profession Fabric extraction was introduced.
 
-## Constellation / duplication scan
+## Constellation / duplication boundary
 
-- **Map VFX PR #25** already owns source-authored Weather width receiving, so this activation repaired that exact lane rather than creating a parallel atmosphere branch.
-- **Map Environment / Materials / Runtime / Visual QA** currently own the Building five-surface world-integration hierarchy and submission-cost questions; VFX did not alter those surfaces, lighting decisions or performance policy.
-- **Weather PR #3** remains the source-local seeded visual-field/width authority. VFX consumes the exact retained source identity rather than copying generator semantics into Map.
-- **Nature** retains geometry/material/sidedness ownership; no new vegetation deformation rule was introduced.
-- **Object / Character / Animal / Building** did not expose a stronger grounded reactive-event surface that outweighed fixing the known real-host Weather failure.
-- No repeated cross-domain evidence currently justifies moving this camera-projection receiving method into UC or Profession Fabric.
+- **Map VFX PR #25** owns this Weather-width receiving/presentation question, so the work stayed there.
+- **Map Environment / Materials / Runtime / Visual QA** retain the Building integration, material hierarchy and performance-budget lanes; VFX did not alter those decisions.
+- **Weather** remains source/generator authority for the exact retained visual field, seed and width semantics.
+- **Nature** remains geometry/material/sidedness authority; the sapling is only replayed as the already-retained source state accompanying Weather.
+- **Runtime / Technical Art** are the correct homes for any later proof-host or target-device performance characterization. VFX did not widen timing limits to manufacture acceptance.
 
-## Bounded improvement selected
+## Preserved fixed-state result
 
-Owning repository: `mike-axiom-mir/axm-map-design`
-
-Existing draft PR: **#25 — `VFX: carry source-authored Weather width into current-world proof`**
-
-Branch: `studio/vfx-weather-source-width-current-world-001`
-
-Exact base / parent VFX head:
-
-`e482d003853e52fc835f1797ddfb6506a50083ef`
-
-Exact final tested head:
+The previous exact fixed-state result remains valid at receiving head:
 
 `15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`
 
-PR state after this activation: **OPEN / DRAFT / MERGEABLE**.
+Dedicated workflow `35104171193` succeeded in Godot 4.7.2 for:
 
-Exact Weather variation source identity remains:
+- 17 retained states;
+- 2 fixed `1100x720` cameras (`path_eye`, `elevated_oblique`);
+- 36 source streak widths per state/camera;
+- 1,224 live projected-width observations;
+- maximum projected-width residual `0.00974698571769128 px` against a `0.05 px` bound;
+- 68 retained control/candidate frames;
+- exact near-plane receiving behavior with 5 explicit endpoint clips in `path_eye` and no silent streak deletion.
 
-`05b26c4e82bbe0a4de0ee7bee34179efc58b9719`
+This remains **`PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_STRUCTURE` + `PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_LIVE_TARGET_HOST`** for fixed retained states only.
 
-Selected source-owned seed remains:
+## Correction to previous wall-clock note
 
-`44021`
+The previous status/report interpretation of workflow **`35110173295`** was too broad. That run did **not** reach the wall-clock timing verifier.
 
-Exact retained particle-layout digest remains:
+Retained logs show it stopped earlier at a GDScript parser error:
 
-`7ed55e93ea9445345016685320716006bc52960b33784cb620ca5670a74cc26f`
+`Parse Error: Function "get_tree()" not found in base self`
 
-All **36** source-authored streak widths remain source-owned and are bound by exact streak identity/order. Their authored range remains approximately **1.024–2.386 px** inside the source contract's `1.0..2.4 px` bound.
+The wall-clock observer extends `SceneTree`; its timer therefore needed to call `create_timer()` directly. That failed run remains historical provenance and is not timing evidence.
 
-## Failure diagnosis preserved
+Retained failure artifact:
 
-The previous target-host failure was not hidden or re-labelled as success.
+- artifact ID `10452440554`;
+- SHA-256 `4eaf3c96d51dd521790517580f34aed43f3af4c67170bf9337522e6bc30bcba0`.
 
-At earlier PR head `9cbdfdf8e0d96199c717a66355ea298216647ee5`, the structural binding passed but the Godot observer failed before a valid live receipt/frame set existed.
+## Smallest repair chain
 
-This activation first repaired evidence retention on head:
+Existing Map PR: **#25**
 
-`8fa3383d21ff76b714d5a026d2f29487873c444d`
+Branch: `studio/vfx-weather-source-width-current-world-001`
 
-The workflow now preserves Godot stdout/stderr and any partial runtime receipt even when the real-host stage fails. Exact retained diagnostics then exposed a parser failure in the projection observer rather than leaving the failure opaque.
+First repair head:
 
-After explicit projection-variable types repaired that parser issue at head:
+`ce313a0e6ec2611eb4a085ecb2f9ab05bd8fb033`
 
-`c01c9e35499b68d413c5a4cc048bc91332290be7`
+This replaced the invalid `get_tree().create_timer(...)` call with the correct SceneTree-local timer path. Real Godot then progressed beyond parsing and exposed a second receiving-proof defect: the newly parented `Camera3D` was queried before crossing a SceneTree process boundary, and the observer also incorrectly expected a string PASS state from the inherited sapling receipt even though that receipt exposes structural counts/digests instead.
 
-the real host progressed far enough to expose the actual geometry boundary:
+Current exact Map head:
 
-`wind-streak-001` crossed the fixed `path_eye` camera near plane in the first retained state. Godot correctly rejected the previous attempt to project the behind-near-plane endpoint.
+`bbc8721a8af60b11e660773786426965c421e4ff`
 
-The final receiving repair does **not** discard that source streak. A crossing endpoint is clipped to `camera.near + 0.001 m` before constructing the fixed-screen-width ribbon, and the clip is recorded in the runtime receipt. A streak fully behind the near plane still fails closed.
+The bounded second repair:
 
-## Structural proof
+- waits one settled process boundary after configuring the proof camera before projection/global-transform queries;
+- validates the inherited sapling receipt by non-zero surface/source vertex/source triangle evidence rather than inventing a state field;
+- preserves the exact 31.25 ms source interval;
+- preserves the `0.05 px` width residual limit;
+- preserves all 17 exact source evaluation states, source identities, Weather width semantics and existing near-plane receiving behavior.
 
-Scoped structural result:
+No timing gate was widened and no source state was dropped.
 
-**`PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_STRUCTURE`**
-
-The exact receiving path still proves:
-
-- exact parent VFX identity `e482d003...`;
-- exact Weather variation head, seed `44021` and retained layout digest;
-- all **17** inherited current-world states;
-- all **36** source streak identities at every state;
-- all non-width Weather line fields preserved;
-- the same Weather-field and sapling sequence identities;
-- source widths retained unchanged and materially non-uniform;
-- no Weather generator/source rewrite.
-
-## Real target-host proof
-
-Scoped target-host result:
-
-**`PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_LIVE_TARGET_HOST`**
+## Real wall-clock target-host result
 
 Dedicated exact-head workflow:
 
-**`35104171193 — VFX current-world Weather source-width target-host evidence: SUCCESS`**
+**`35117189740 — VFX Weather source-width wall-clock presentation evidence`**
 
-Target host:
+Current result:
 
-**Godot 4.7.2 GL Compatibility**
+**`FAIL_WALL_CLOCK_PRESENTATION_CADENCE__REAL_HOST_REACHED`**
 
-Measured exact scope:
+The real Godot 4.7.2 observer now completes its full two-camera / 17-state receipt. The independent verifier then fails the unchanged wall-clock submit-lateness gate at:
 
-- **17 states**;
-- **2 fixed 1100×720 cameras**: `path_eye` and `elevated_oblique`;
-- **36 source widths per state/camera**;
-- **1,224 live projected-width measurements**;
-- maximum projected-width residual: **`0.00974698571769128 px`**;
-- acceptance bound: **`0.05 px`**;
-- **68 retained A/B PNGs**: 34 inherited line-control frames + 34 source-width ribbon frames;
-- all control/candidate frame pairs differ by bytes;
-- Weather and sapling resource identities remain stable through the sequence;
-- inherited rear-tree `CULL_BACK` review state remains preserved.
+- context: `elevated_oblique`;
+- state index: `8`;
+- observed submit lateness: **`32.562 ms`**;
+- allowed lateness: **`31.25 ms`**.
 
-Observed renderer submission counters remain stable within each presentation mode/camera. The candidate adds triangle geometry for the screen-width ribbons, so primitive counts differ from the inherited line control; that observation is not a target-device performance verdict.
+That is a miss of **`1.312 ms`** beyond one authored source interval. It is therefore not acceptable to relabel this proof as a cadence PASS.
 
-### Explicit near-plane boundary
+The retained runtime receipt also provides useful diagnostics without changing the scoped verdict:
 
-The exact runtime receipt records **5 clipped endpoints**, all in the `path_eye` camera:
+- `path_eye` maximum submit lateness: approximately `20.664 ms`;
+- `path_eye` maximum post-draw lateness: approximately `38.552 ms`;
+- `elevated_oblique` maximum submit lateness: `32.562 ms`;
+- `elevated_oblique` maximum post-draw lateness: approximately `63.861 ms`;
+- only **1 / 34** submit samples exceeds `31.25 ms`;
+- **24 / 34** retained post-draw observations exceed `31.25 ms`;
+- maximum projected-width residual remains **`0.00974698571769128 px`**, with no width sample exceeding `0.05 px`.
 
-- `wind-streak-001`: **2** clipped endpoint occurrences;
-- `wind-streak-005`: **3** clipped endpoint occurrences.
+The verifier stops at the first submit-lateness failure, so the post-draw figures above are diagnostics from the retained real-host receipt, not a separately accepted/rejected performance budget.
 
-No source streak is silently dropped. The clipping is a receiving-camera boundary needed to represent the renderer-visible portion of a source line that crosses the camera near plane. This result must not be broadened to arbitrary camera positions or resolutions.
+The GitHub runner used Godot 4.7.2 GL Compatibility and fell back to Mesa llvmpipe software rendering because Vulkan was unavailable. This result therefore characterizes this exact proof-host/observer path only. It does **not** establish a product or target-device performance failure.
 
 ## Retained evidence / provenance
 
-Successful exact artifact:
+Current exact failure artifact:
 
-- ID: **`10449666486`**;
-- name: `environment-weather-source-width-current-world-001-15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`;
-- size: **7,745,715 bytes**;
-- GitHub archive SHA-256: **`c1143322dc974ad21cff4e3baa53697cc4a58fc42caf55627077703f131011b5`**;
-- independently downloaded/rehashed SHA-256: **`c1143322dc974ad21cff4e3baa53697cc4a58fc42caf55627077703f131011b5`**.
+- ID: **`10454434763`**;
+- local retained archive: `vfx-wallclock-bbc8721a.zip`;
+- exact-head receipt: `bbc8721a8af60b11e660773786426965c421e4ff`;
+- SHA-256: **`900aec9713501122eeb20642a00229d39079b39824010394190034076889a2c9`**;
+- archive digest independently reproduced after download.
 
-The retained package includes exact structural payload, exact-head receipt, Godot log, runtime receipt, target-host verification receipt and all 68 control/candidate frames.
+The package retains the current structural payload, parent variant evidence, exact-head receipt, complete Godot log, complete wall-clock runtime receipt and the independent verifier failure receipt. No failed evidence was overwritten by the later repair.
 
-The earlier failed exact-head artifacts remain historical evidence rather than being silently replaced. In particular, the retained `c01c9e...` artifact captured the exact near-plane failure and the partial control frame/runtime receipt that led to the bounded repair.
+## Handoff
 
-## Direct visual observation
+### Runtime / Optimization + Technical Art
 
-All **34 matched control/candidate camera-state pairs** were compared from the successful retained artifact.
+If this authored 32 Hz presentation cadence is important for adoption, characterize whether the single submit miss and broader post-draw lateness are proof-host/observer overhead, software-renderer behavior, or a reusable receiving-path cost. Preserve the exact 31.25 ms contract while diagnosing it; do not silently relax VFX timing evidence.
 
-The source-width change is visible but tightly localized in this proof world:
+### VFX / Atmosphere
 
-- mean changed-pixel coverage across all matched pairs: approximately **0.1066%** of the frame;
-- `path_eye`: approximately **0.0906%** mean changed-pixel coverage;
-- `elevated_oblique`: approximately **0.1226%** mean changed-pixel coverage.
+Keep the fixed-state width presentation PASS and the wall-clock cadence FAIL separate. Do not add a new Weather family or visual flourish until this timing boundary is either repaired with evidence or intentionally handed off as a Runtime/Technical Art constraint.
 
-Representative retained states show the candidate streaks reading as a subtly thicker/more explicit Weather field while the broad world composition remains unchanged. This is evidence that the width presentation creates a real visual delta; it is **not** evidence that the candidate is aesthetically better.
+### Art Direction / Visual QA
 
-## Handoffs
-
-### 3D Art Director + Visual Observer / QA
-
-Review the retained control/source-width A/B frames for final atmosphere hierarchy, especially whether the thicker source-authored streaks remain readable without becoming distracting against the pavilion/path/tree silhouettes. Treat the current result as a transport/presentation PASS only, not an aesthetic acceptance.
-
-### Runtime / Optimization
-
-If this representation is considered for adoption, profile the line-control versus ribbon candidate on an actual target class before assigning a performance budget. The current proof records stable submission counters but does not establish GPU/CPU cost, overdraw or target-device FPS.
-
-### Weather / Procedural Design
-
-No Weather generator semantics changed. The exact source width profile survives this one bounded current-world receiving context. Arbitrary seeds/cameras remain unproved.
-
-### Environment / World Art
-
-No world composition, Building material decision, source placement, lighting or simulation authority changed in this activation.
-
-### Capability Cartography / Technical Art / UC
-
-Keep the receiving method Map-local for now. One Weather source and two fixed cameras are insufficient evidence for a universal VFX transport abstraction.
-
-## Historical continuity
-
-The previous VFX status for Map PR #22 at exact head:
-
-`e482d003853e52fc835f1797ddfb6506a50083ef`
-
-remains valid historical evidence for:
-
-- `PASS_CURRENT_WORLD_WEATHER_VARIANT_REBIND_STRUCTURE`;
-- `PASS_CURRENT_WORLD_WEATHER_VARIANT_LIVE_TARGET_HOST`.
-
-PR #25 is a child/follow-on proving the previously held source `width_px` presentation boundary. It does not rewrite the PR #22 result or silently transfer new acceptance backward.
+The successful fixed-state A/B visual evidence remains available for aesthetic review. This activation changes proof timing/tooling only and creates no new visual-preference claim.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
+- exact authored 32 Hz wall-clock cadence in the current proof host;
+- interpolation quality between the 17 retained states;
+- target-device CPU/GPU/frame-time/FPS/VRAM/overdraw behavior;
 - arbitrary camera or resolution source-width fidelity;
 - renderer-independent line/ribbon equivalence;
-- physical precipitation diameter, wind, pressure, force, turbulence, collision or volumetric weather;
-- gameplay visibility, damage, hit logic or simulation authority;
-- wall-clock cadence or interpolation between retained states;
-- target-device FPS, GPU/CPU time, overdraw, memory, battery or production budgets;
-- final atmosphere quality, Art Direction acceptance or independent Visual QA acceptance;
-- UC extraction, Profession Fabric extraction, CANON, production readiness, shipped readiness or VFX / Atmosphere mastery.
+- physical wind, precipitation, force, turbulence, collision or volumetric weather;
+- gameplay visibility, damage, hit logic, input or runtime-controller authority;
+- final atmosphere quality or Art Direction / Visual QA acceptance;
+- UC extraction, Profession Fabric extraction, CANON, production readiness or VFX / Atmosphere mastery.
 
 ## Four-root check
 
-**Truth:** failure states were retained until the parser and near-plane causes were directly observed; exact heads, source identities, runtime measurements, clipping scope and artifact digest are separated from aesthetic/gameplay/physics claims.
+**Truth:** corrected the prior overstatement about run `35110173295`, retained both failed repair stages, and leaves the unchanged 31.25 ms gate red on the first measured miss rather than widening it.
 
-**Agency / non-domination:** source-width presentation remains replaceable and reviewable. No hidden gameplay authority, automatic promotion or forced visual preference was added.
+**Agency / non-domination:** no hidden source rewrite, automatic promotion, gameplay authority or forced aesthetic choice was introduced.
 
-**Continuity:** Weather keeps source/generator ownership; Map keeps receiving evidence; earlier failed runs and PR #22 remain intact as historical provenance; `axm-create-me` only records coordination/status.
+**Continuity:** Weather keeps source authority; Map keeps receiving evidence; fixed-state PASS and wall-clock FAIL remain distinct historical facts; `axm-create-me` only records coordination/status.
 
-**Wisdom before speed:** the known real-host failure was diagnosed and repaired through the smallest receiving boundary before adding new particle families, impacts, fog or generic VFX infrastructure.
+**Wisdom before speed:** repaired the smallest evidence-path defects until the real timing boundary became measurable, then stopped at the truthful boundary instead of adding more VFX surface area.
 
 The four AXM roots remain the merge gate.
