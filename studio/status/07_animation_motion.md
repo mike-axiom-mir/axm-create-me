@@ -1,123 +1,146 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-16
-State: **PASS_CONFIGURATION_INVARIANT_OBJECT_LID_MOTION_FAMILY / EXACT OBJECT SOURCE + RIG + PROCEDURAL DONOR IDENTITY / 4 MATERIALLY DIFFERENT STATIC CONFIGURATIONS / ONE UNCHANGED 81-SAMPLE LID CLIP / TARGET-ENGINE + CONTROLLER + GAMEPLAY + FINAL MOTION-DIRECTION HOLD**
+State: **PASS_ORDERED_LATCH_RELEASE_LID_CLIP_REENGAGE_SEQUENCE / EXACT HARD-SURFACE + RIGGING + PRIOR-ANIMATION IDENTITIES / 101 ENDPOINT-INCLUSIVE SAMPLES / ORIGINAL 81-SAMPLE LID CLIP UNRETIMED / CONTROLLER + GAMEPLAY + PHYSICAL-LATCH + FINAL-MOTION HOLD**
 
 ## Current activation
 
-Animation did **not** retime the Object lid candidate or the existing Animal articulation pulse without a specific perceptual defect from Art Direction / Visual Observer.
+A fresh constellation scan found one new Animation-owned handoff that did not exist at the previous pass:
 
-A fresh constellation and specialist-state scan found one newer Animation-owned reuse gap created after the previous Object pass:
+- **Weapon / Armor / Unit / Misc:** no accepted animation-ready source/rig handoff; do not invent motion.
+- **Character:** current work remains Organic/Geometry preparation; there is still no accepted animation-ready Character rig.
+- **Animal:** PR #5 already owns the bounded quadruped articulation pulse. New Geometry/Rigging/Organic work on the connected forelimb is still awaiting richer perceptual review, so Animation does not retime or silently transfer the old disconnected-topology clip.
+- **Building:** current work remains hard-surface/material presentation; no accepted motion rig.
+- **Nature / Weather / Map:** current motion belongs to VFX / Environment / Runtime evidence, not this Animation lane.
+- **Object:** PR #10 already owns the exact lid `open -> hold -> close` clip. Hard-Surface PR #14 has now made the two front latch keeper/lever ownership relations explicit, and Rigging PR #15 has added a bounded bilateral lever articulation candidate while explicitly leaving timing/choreography to Animation.
+- **UC / Profession Fabric:** no new shared animation abstraction is justified by this one mechanical sequence. Object-specific latch/lid meaning stays in Object.
 
-- **Weapon:** no accepted animation-ready rig / motion lane found; do not invent one.
-- **Armor:** no accepted animation-ready deformation or articulation lane found.
-- **Character:** Organic Form has a newer shoulder-form candidate, but Rigging still has no accepted animation-ready Character rig; Animation stays out.
-- **Unit:** no accepted animation-ready articulation lane found.
-- **Animal:** PR #5 already has an authored bounded articulation pulse and sampled target-host playback evidence; cadence / silhouette / deformation direction still awaits independent perceptual acceptance, so no self-retime.
-- **Building:** current work is hard-surface/material receiving-scene evidence; no accepted motion rig.
-- **Nature / Weather / Map:** current motion remains VFX / Environment / Runtime-owned; the newer Nature source-topology migration requires downstream rebinding but is not a reason for Animation to duplicate wind/VFX ownership.
-- **Object:** PR #10 already owns one exact source-space lid clip; Rigging PR #8 owns its articulation/clearance prerequisite; Procedural PR #11 now adds four materially different exact service-module occupancy outputs (`empty`, `left-only`, `right-only`, `bilateral`) while explicitly leaving Animation semantics alone.
-- **Misc:** no accepted animation-ready rig / motion lane found.
-- **Wreckline donor context:** its existing mechanical target-host motion lane remains a useful comparison, but no Wreckline semantics were copied into Object.
-- **UC:** no new shared animation abstraction is justified; this pass consumes exact domain evidence locally rather than centralizing Object motion semantics.
+That makes the highest-leverage bounded Animation question:
 
-The new bounded question was therefore:
-
-> Can the exact already-authored Object lid clip remain one unchanged motion signature across all four exact Procedural service-module configurations, without retiming, retargeting, reauthoring, copying Procedural assembly logic, or claiming runtime attachment/controller behavior?
+> Can the exact existing lid clip be composed with the new exact latch-lever Rigging handoff so the latches release before any lid motion, the original lid clip then plays completely unchanged, and the latches re-engage only after the lid has returned neutral — without turning Animation into a physical latch solver, runtime controller, state machine or gameplay authority?
 
 `axm-create-me` remains coordination-only. Product/evidence implementation stayed in `mike-axiom-mir/axm-object-design`.
 
-## Exact lane and preserved identities
+## Reused lane / no duplication
 
 Repository: `mike-axiom-mir/axm-object-design`
 
-Existing draft PR reused rather than duplicated: **#10 — Animation: prove bounded equipment-case lid open-hold-close clip**
+Existing draft PR reused: **#10 — Animation: prove bounded equipment-case lid open-hold-close clip**
 
 Branch: `studio/animation-object-lid-open-close-001`
 
-Current exact Animation head: **`12a350fc38f67348f342cd0e53ed6b16383b789d`**
+Current exact Animation head: **`13069d6b6180e5d9e07009f6a263375ca16ddb60`**
 
 PR state after verification: **OPEN / DRAFT / MERGEABLE**.
 
-Preserved motion identity:
+No second Object Animation PR was opened.
+
+## Exact preserved identities
+
+### Object source / prior Animation clip
 
 - asset: `modular-equipment-case-001`;
-- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- clip: `lid-open-hold-close-001`;
-- clip digest: `9e149195ab315f83f2d6f7d76f374f4be245567f77402de3e8a1d40ab79ef340`;
-- exact Rigging donor: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
-- articulation-plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
-- joint: `rear-lid-hinge-001`;
-- source axis: exact `+X`;
-- source hard envelope: `0..110°`;
-- authored peak: `100°`, preserving the exact `10°` guard;
-- duration: `2.0 s` at authored `40 Hz`;
-- endpoint-inclusive samples: `81`; repeated visible samples: `80`.
+- exact source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- existing clip: `lid-open-hold-close-001`;
+- exact clip digest: `9e149195ab315f83f2d6f7d76f374f4be245567f77402de3e8a1d40ab79ef340`;
+- clip duration: `2.0 s`;
+- authored rate: `40 Hz`;
+- endpoint-inclusive samples: `81`;
+- repeated visible samples: `80`;
+- existing lid motion remains `0° -> 100° -> hold -> 0°` with its original smoothstep timing and `10°` hard-limit guard.
 
-Exact Procedural dependency consumed by reference/evidence, not copied semantically:
+### Hard-Surface ownership dependency
 
-- Object Procedural PR #11 exact donor head: **`4fd7546d520b515533678464307d7a49d13479e0`**;
-- family: `service-module-configuration-family-001`;
-- donor result: `PASS_BOUNDED_SERVICE_MODULE_CONFIGURATION_FAMILY`;
-- configurations: `empty / left-only / right-only / bilateral`;
-- module instance pressure: `0 / 1 / 1 / 2`;
-- exact donor host source identity matches the Animation source digest above.
+- exact Hard-Surface PR #14 donor head: **`d3fa10a270faae7925811f44f03381fe5c5d0215`**;
+- ownership contract: `front-latch-ownership-001`;
+- exact ownership contract SHA-256: **`0702e4180f858d29c42ff8c38a61eaa16278d6848c8ce6f3ecfae172969ca8ae`**;
+- each upper keeper remains `lid_shell`-owned;
+- each lower lever remains `front_service_panel`-owned.
 
-No source geometry, hinge, rig envelope, module source, socket transform, registration source, Procedural generator semantics, Hard-Surface interface, Technical Art transport, UC code, runtime controller, state machine or gameplay logic was rewritten.
+Animation does not guess parentage and does not rewrite this contract.
 
-## Selected reusable Animation improvement
+### Rigging dependency
 
-Added an Object-local motion/configuration composition contract:
+- exact Rigging PR #15 donor head: **`3b667ff5d30c46ec2fe7da7679518970f8610018`**;
+- exact plan SHA-256: **`81c27ab7b73ed9a43cb3f554b56c3f4294b893712075e33d13f5b02e008455db`**;
+- donor result: `PASS_BOUNDED_FRONT_LATCH_LEVER_ARTICULATION`;
+- exact bilateral review envelope: `0..50°`;
+- exact continuous keeper-Z separation threshold: **`48.66480246428277°`**;
+- exact terminal `50°` keeper-Z separation: **`0.0015728659779458698 m`**;
+- exact pivots stay Rigging-owned and are consumed from the retained Rigging receipt, not re-derived by Animation.
 
-`axm.object-motion-configuration-matrix/v0.1`
+The Rigging donor remains explicitly review-only: it is not relabelled a real latch hook/retention mechanism.
 
-Files added/extended in PR #10:
+## Bounded Animation improvement
 
-- `assets/modular-equipment-case-001/lid-motion-configuration-matrix.json`;
-- `tools/build_lid_motion_configuration_matrix.py`;
-- `tests/test_lid_motion_configuration_matrix.py`;
+Added Object-local sequence contract:
+
+`axm.object-lid-latch-motion-sequence/v0.1`
+
+Sequence ID:
+
+`lid-latch-open-hold-close-001`
+
+New/extended files in PR #10:
+
+- `assets/modular-equipment-case-001/lid-latch-motion-sequence-001.json`;
+- `tools/build_lid_latch_motion_evidence.py`;
+- `tests/test_lid_latch_motion_sequence.py`;
 - extended `.github/workflows/object-animation-lid-motion.yml`.
 
-The matrix deliberately does **not** reimplement the Procedural family. CI materializes exact Procedural PR #11 files from its pinned commit, reruns its own exact family builder, then gives those four exact transformed module meshes to the Animation composition verifier.
+The exact composed sequence is intentionally simple and inspectable:
 
-Animation then composes:
+1. **`0.000 -> 0.250 s` — release latches**
+   - lid held exactly neutral;
+   - both latch levers `0 -> 50°` via smoothstep.
+2. **`0.250 -> 2.250 s` — play exact existing lid clip**
+   - both latch levers held exactly at `50°`;
+   - all **81** original lid samples are copied exactly at the same `40 Hz` rate;
+   - no retime, retarget, amplitude change, easing change or configuration-specific reauthoring occurs.
+3. **`2.250 -> 2.500 s` — re-engage latches**
+   - lid held exactly neutral;
+   - both latch levers `50 -> 0°` via smoothstep.
 
-1. the exact current `81`-sample transformed lid-corner sequence;
-2. the exact fixed body identity;
-3. each exact static transformed service-module mesh.
+Total sequence:
 
-For every configuration, the verifier computes a geometric pose digest per authored motion sample and a deterministic full-sequence digest. It requires:
+- duration: **`2.5 s`**;
+- authored rate: **`40 Hz`**;
+- endpoint-inclusive samples: **`101`**;
+- repeated visible samples: **`100`**;
+- repeat policy: omit duplicate terminal neutral endpoint.
 
-- the same exact authored motion signature in all four configurations;
-- no retimed samples;
-- no retargeted samples;
-- no configuration-specific motion reauthoring;
-- static module mesh identity throughout the clip;
-- exact neutral geometric loop closure for every configuration;
-- four materially different initial composed states;
-- four materially different composed sequence digests.
+Animation's ordering gate is deliberately tied to the exact Rigging evidence rather than to an invented physical-release rule:
 
-This is intentionally an **Animation clip-reuse proof**, not a second Procedural assembler and not a collision recertification. Rigging remains authoritative for the already-proved registered-module lid clearance.
+- any sample with nonzero lid motion must have the latch lever at exact `50°`;
+- no sample may combine nonzero lid motion with a latch angle below the exact Rigging separation threshold;
+- latch re-engagement below that threshold is allowed only after the lid is exact neutral again.
 
-## Exact-head result
+This is choreography over the exact retained proof-volume contract, **not** a controller or a physical-mechanism simulation.
+
+## Exact-head validation
 
 Exact workflow:
 
-**`35074480986 — Object animation lid motion evidence` — SUCCESS**
+**`35080442838 — Object animation lid motion evidence` — SUCCESS**
 
-On exact head `12a350fc38f67348f342cd0e53ed6b16383b789d`:
+Exact tested head:
 
-- Python 3.11 compile + full repository tests — SUCCESS;
-- Python 3.13 compile + full repository tests — SUCCESS;
-- exact source-owned Rigging donor materialization — SUCCESS;
-- exact Procedural PR #11 donor materialization — SUCCESS;
-- exact Procedural four-configuration rebuild — SUCCESS;
-- base 81-sample lid motion rebuild — SUCCESS;
-- four-configuration motion composition — SUCCESS;
+**`13069d6b6180e5d9e07009f6a263375ca16ddb60`**
+
+On that exact head:
+
+- Python 3.11 full repository test suite — SUCCESS;
+- Python 3.13 full repository test suite — SUCCESS;
+- original source-owned lid Rigging donor materialization — SUCCESS;
+- original 81-sample lid evidence rebuild — SUCCESS;
+- exact Hard-Surface PR #14 ownership donor materialization and SHA verification — SUCCESS;
+- exact Rigging PR #15 plan materialization and SHA verification — SUCCESS;
+- exact Rigging PR #15 articulation receipt rebuild — SUCCESS;
+- 101-sample composed latch/lid sequence build — SUCCESS;
 - retained truth-boundary verification — SUCCESS;
-- artifact retention — SUCCESS.
+- retained artifact upload — SUCCESS.
 
-Inherited exact-head Object workflows are also green:
+All inherited exact-head Object workflows triggered on the same head are also green:
 
 - Object hard-surface interface evidence — SUCCESS;
 - Object service-module fit evidence — SUCCESS;
@@ -126,153 +149,157 @@ Inherited exact-head Object workflows are also green:
 
 Current scoped result:
 
-**`PASS_CONFIGURATION_INVARIANT_LID_MOTION_FAMILY`**
+**`PASS_ORDERED_LATCH_RELEASE_LID_CLIP_REENGAGE_SEQUENCE`**
 
-## Retained evidence
+## Retained exact evidence
 
-Configuration-matrix artifact:
+Artifact:
 
-- artifact ID: **`10437542400`**;
-- name: `modular-equipment-case-001-lid-motion-config-matrix-12a350fc38f67348f342cd0e53ed6b16383b789d`;
-- size: **22,345 bytes**;
-- exact-head binding: `12a350fc38f67348f342cd0e53ed6b16383b789d`;
-- GitHub archive SHA-256: **`af55ae973a01ca9b4a36012623768622d1fe08acba298b1c8186ff4c14e955b3`**.
+- ID: **`10440345209`**;
+- name: `modular-equipment-case-001-lid-latch-motion-13069d6b6180e5d9e07009f6a263375ca16ddb60`;
+- size: **`19,396 bytes`**;
+- exact-head binding: `13069d6b6180e5d9e07009f6a263375ca16ddb60`;
+- GitHub archive SHA-256: **`02bd6e5c7c62e799f0ccb65ac6f4d5d0e4cf381ba206d0a3f65164641a6f9686`**.
 
-The artifact was downloaded independently after CI and rehashed to exactly the same SHA-256.
+The retained ZIP was independently downloaded and rehashed to that exact digest.
 
-The workflow also retained a fresh exact-head copy of the original base motion evidence:
+Retained contents include:
 
-- artifact ID: `10438000567`;
-- size: `10,693` bytes;
-- GitHub archive SHA-256: `559b48e1b30d260ed8979b97ff4780ad2559f5746bc48ea7a57e42536e3b3437`.
-
-The configuration-matrix artifact retains:
-
-- `lid-motion-configuration-matrix-evidence.json`;
-- exact matrix contract;
-- exact full base `lid-motion-evidence.json`;
-- all four exact rebuilt Procedural configuration receipts;
-- exact Procedural donor summary;
+- complete `lid-latch-motion-evidence.json` with all 101 samples;
+- deterministic nine-panel source-space proof SVG;
+- exact Hard-Surface ownership donor contract;
+- exact Rigging articulation donor plan;
+- independently rebuilt Rigging receipt;
 - exact receiving head;
-- exact Procedural donor head;
-- one deterministic 4x6 source-space pose matrix SVG.
+- exact Rigging donor head;
+- exact Hard-Surface ownership donor head.
 
-## Exact observed composition results
+Exact sequence identities:
 
-Common exact motion-signature digest across all four configurations:
+- sequence-contract digest: **`0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`**;
+- complete 101-sample geometry-sequence digest: **`f94e2b884b0f383b7147de2307b05d4bb35faa3a0660ea2cf58ce0d6a001709e`**.
 
-**`891358ce95e7772105c45d5e020ed32d9511fe149caa7800765bddc65eb82d7f`**
+## Exact measured motion results
 
-Matrix digest:
+The complete 101-sample evidence reports:
 
-**`e087d63162b329e1d58d146b1385a8af9606f2d224219c7e0b6758db8651c7c2`**
+- exact base lid samples copied unretimed: **`81 / 81`**;
+- retimed base samples: **`0`**;
+- retargeted base samples: **`0`**;
+- samples with nonzero lid motion while latch is not at terminal `50°`: **`0`**;
+- samples with nonzero lid motion while latch is below Rigging's exact `48.66480246428277°` separation threshold: **`0`**;
+- maximum latch-lever rigid pairwise-distance drift: **`0.0 m`**;
+- maximum combined lid + lid-owned keeper rigid-relation drift: **`9.3e-13 m`**;
+- exact final sequence closure: **`0.0 m`**;
+- last-visible -> repeat-neutral displacement: **`0.00233673895 m`**;
+- last-visible -> authored terminal-endpoint displacement: **`0.00233673895 m`**;
+- repeat-wrap residual against the authored final adjacent step: exact PASS at retained precision.
 
-All four configurations retain the same 81-sample time/angle/lid-corner signature and exact neutral endpoint, while producing four distinct composed sequence identities:
+Exact phase landmarks:
 
-- `empty` — 0 modules — sequence `ca9684d9f450c32a07d280841a99efe76dba2ebf1db138f283e32053a49a602d`;
-- `left-only` — 1 module — sequence `226495600e9217204cbcdac8e930ce1c3bacb5df1cbc7f89edf0908dc74336a5`;
-- `right-only` — 1 module — sequence `84a45b88a77ee401bda69e1bbe4e6278a8fefb26c4473fd600643131c17cef53`;
-- `bilateral` — 2 modules — sequence `64922b25b1488d0b39e914ed863bb33b124397a33d5ab77eab8f9981da979b0f`.
-
-Observed aggregate bounds:
-
-- materially different configurations tested: **4**;
-- distinct initial geometric states: **4/4**;
-- distinct composed motion-sequence digests: **4/4**;
-- retimed samples: **0**;
-- retargeted samples: **0**;
-- configuration-specific reauthored samples: **0**;
-- module geometry changes during the clip: **0** for every configuration;
-- exact geometric loop closure: **4/4** configurations.
-
-The underlying motion remains the same prior `0 -> 50 -> 100 -> hold -> 50 -> 0°` deterministic lid sequence with exact `100°` hold and exact neutral return. This pass did not change the clip.
+- `t=0.000 s`: lid `0°`, latch `0°`;
+- `t=0.125 s`: lid `0°`, latch `25°`;
+- `t=0.250 s`: lid `0°`, latch `50°`;
+- `t=0.625 s`: lid `50°`, latch `50°`;
+- `t=1.000 s`: lid `100°`, latch `50°`;
+- `t=1.250 s`: lid `100°`, latch `50°`;
+- `t=1.500 s`: lid `100°`, latch `50°`;
+- `t=2.250 s`: lid `0°`, latch `50°`;
+- `t=2.375 s`: lid `0°`, latch `25°`;
+- `t=2.500 s`: lid `0°`, latch `0°`.
 
 ## Direct retained visual observation
 
-The retained 4x6 source-space pose matrix was directly rendered and inspected after artifact download.
+The retained nine-panel exact source-space Y/Z proof was independently rasterized and inspected after artifact download.
 
-It shows:
+It shows the intended ordered read without hidden interpolation:
 
-- the same lid progression in every row at `0.000 / 0.375 / 0.750 / 1.000 / 1.625 / 2.000 s`;
-- the `empty` row contains no service modules;
-- the `left-only` module remains fixed on the left source frame across all six retained poses;
-- the `right-only` module remains fixed on the right source frame across all six retained poses;
-- the `bilateral` row retains both fixed modules across all six retained poses;
-- lid neutral, half-open, exact peak/hold, symmetric half-close and final neutral reads remain visually consistent across all four materially different static configurations.
+- first, the lid stays closed while the front lever moves away from the keeper;
+- at exact release-complete state the latch is at `50°` while the lid is still neutral;
+- the unchanged lid then progresses through half-open and `100°` peak/hold while the latch remains at `50°`;
+- the lid returns completely neutral before latch re-engagement begins;
+- the final panel returns both lid and latch to their exact starting transforms.
 
-This is direct deterministic source-space pose-composition evidence. It is **not** target-engine rendering, final presentation, motion-weight acceptance, collision visualization or gameplay interaction evidence.
+The visual is a structural motion/choreography observer only. It does not establish real latch capture, physical collision, final presentation or target-engine playback.
 
-## Failure bounds / tests
+## Failure bounds
 
-The new matrix tests fail closed on at least these bounded drifts:
+The new sequence path fails closed on at least:
 
-- Procedural donor commit drift;
-- clip digest / motion identity drift;
-- geometric motion endpoint drift;
-- missing required material configuration.
+- host/source identity drift;
+- base lid clip ID/digest/duration/sample-rate/sample-count drift;
+- Hard-Surface ownership contract digest/head drift;
+- keeper or lever component-ownership drift;
+- Rigging donor head or articulation-plan digest drift;
+- Rigging prerequisite result drift;
+- latch terminal-angle drift from the exact `50°` review endpoint;
+- any lid motion before latch terminal release;
+- any nonzero lid motion while latch is below the exact retained Rigging separation threshold;
+- rigid lever-shape drift;
+- rigid lid/keeper relation drift;
+- endpoint closure drift;
+- repeat seam larger/different from the authored final adjacent step.
 
-The integration workflow additionally requires exact Procedural family PASS, exact four configuration IDs/order, exact instance pressure `0/1/1/2`, four distinct Procedural configuration digests, four distinct transformed-mesh digests, exact host-source identity and exact retained heads.
-
-No fallback donor, closest configuration, silent retime, hidden retarget, nearest socket or relaxed source identity is accepted.
+No fallback rig, guessed pivot, approximate ownership, hidden retime, nearest valid latch angle, widened tolerance or replacement clip is selected.
 
 ## Prior Animation evidence preserved
 
-The previous status remains traceable at exact pre-update blob:
+The immediately previous Animation status remains traceable by exact pre-update blob:
 
-**`534c410b7cb5d4f1f45595afb8cc82a685022f79`**
+**`06555571456266f708445d229fe776853a7cf4d5`**
 
-Its results remain independently valid in their original scope:
+Its configuration-family result remains valid in its original scope:
 
-- Object PR #10 prior exact head `f89a3b3f1aa6f448c8a97c6d00d5e270e7d3bb00` — `PASS_BOUNDED_LID_MOTION_CLIP`;
-- Animal PR #5 prior retained target-host sampled-motion proof remains valid and untouched;
-- no existing Animation PASS was silently rewritten into the new configuration-matrix claim.
+- prior exact Animation head `12a350fc38f67348f342cd0e53ed6b16383b789d`;
+- `PASS_CONFIGURATION_INVARIANT_LID_MOTION_FAMILY` across `empty / left-only / right-only / bilateral` service-module configurations;
+- original base clip identity unchanged by the current latch sequence pass.
+
+The current activation extends choreography; it does not rewrite that historical PASS.
 
 ## Truth boundary / non-claims
 
 This PASS establishes only:
 
-> the exact already-authored Object lid motion sequence can be applied unchanged to the exact Object host while it is in each of the four exact Procedural service-module occupancy states, with deterministic composition, preserved source/rig/clip/procedural identities, static service-module geometry, four materially different composed sequences and exact neutral loop closure.
+> the exact existing Object lid clip can be embedded unchanged between an exact source/Hard-Surface/Rigging-bound latch-release phase and latch-reengage phase, with deterministic sample ordering, exact donor/source identity, rigid component preservation and exact neutral repeat closure.
 
 It does **not** establish:
 
-- Godot / target-engine playback of this Object configuration matrix;
-- wall-clock `40 Hz` pacing or target-engine interpolation;
-- `AnimationPlayer`, controller, state-machine or gameplay integration;
-- runtime module attach/detach or live swapping during the clip;
-- attachment dynamics, physics constraints or collision-engine behavior;
-- a new collision certificate; Rigging remains authoritative for registered-module lid clearance;
-- input / interaction timing or usability;
-- final timing, weight, mechanical personality or secondary motion;
-- latch choreography or latch-state logic;
-- Art Direction / Visual Observer acceptance;
-- audio / VFX synchronization;
-- target-device FPS / GPU / memory / resource lifecycle;
-- a generic UC mechanical animation/configuration engine;
+- a physically real latch hook, catch, retention or release mechanism;
+- force, spring, friction, damping, wear, tolerance or engineering behavior;
+- full-component collision freedom across the sequence;
+- target-engine playback or wall-clock `40 Hz` pacing;
+- interpolation between authored samples;
+- `AnimationPlayer` acceptance;
+- runtime controller, interaction state machine, input handling or gameplay logic;
+- gameplay timing/usability;
+- audio/VFX synchronization;
+- final motion timing, weight, personality, anticipation or secondary motion;
+- Art Direction / Visual Observer final acceptance;
+- runtime/device performance;
+- a generic UC mechanical choreography system;
 - Profession Fabric promotion;
 - CANON, production readiness, game readiness or Animation mastery.
 
 ## Four-root gate
 
-- **Truth:** every promoted statement is bound to exact Object source, rig, clip, Procedural donor, receiving head, workflow, artifact and deterministic evidence identities. Source-space composition is not relabelled runtime/controller/gameplay proof.
-- **Agency / non-domination:** Procedural retains configuration generation ownership; Rigging retains articulation/clearance ownership; Hard Surface retains interface/source ownership; Technical Art retains transport; Runtime retains controller/performance evidence; Art Direction and Visual Observer retain perceptual acceptance. Animation only owns the unchanged clip and its bounded reuse/composition contract.
-- **Continuity:** the existing Animation PR #10 was extended instead of opening a duplicate lane. The Procedural family is consumed by exact donor commit instead of copied or silently rebased. Prior Animation status/evidence remains traceable by exact blob/head/artifact identities.
-- **Wisdom before speed:** one concrete reuse question was proven across four materially different outputs before adding target-engine playback, live swaps, controller logic, more clips or any UC abstraction.
+- **Truth:** every promoted statement is bound to exact source, prior clip, Hard-Surface ownership donor, Rigging plan/receipt, exact receiving head, workflow and retained artifact. A Rigging proof-volume separation threshold is not relabelled physical latch truth.
+- **Agency / non-domination:** Hard Surface keeps ownership/construction meaning; Rigging keeps pivot/articulation/clearance authority; Animation owns only timing/choreography; Runtime keeps target-host/controller/performance authority; gameplay systems keep interaction logic; Art Direction / Visual Observer keep perceptual acceptance.
+- **Continuity:** existing PR #10 was extended rather than duplicated. All donor identities are pinned and retained. The prior configuration-family PASS remains traceable by exact blob/head/artifact identity.
+- **Wisdom before speed:** one exact transition ordering problem was solved with the smallest three-phase sequence while preserving the proven lid clip unchanged. No state machine, physics latch, extra animation system or UC abstraction was added prematurely.
 
 ## Handoffs
 
-- **Visual Observer / QA:** inspect the retained 4x6 pose matrix and existing 81-sample base receipt. The bounded question is whether any configuration introduces a visible composition/cadence issue despite identical clip application. Do not infer engine pacing or collision from this strip.
-- **3D Art Director:** the motion itself remains intentionally unchanged. Judge the existing `0.75 s open / 0.50 s hold / 0.75 s close`, `100°` peak and smoothstep mechanical read before Animation retimes or adds secondary motion.
-- **Procedural Design:** exact PR #11 family was consumed successfully without copying its assembly semantics. Any source/configuration identity change must trigger this matrix again rather than inheriting the PASS.
-- **Rigging / Deformation:** no clearance claim was recomputed or widened. The exact registered-module clearance prerequisite remains authoritative.
-- **Hard Surface:** source/hinge/socket/module/registration dimensions remain untouched by Animation.
-- **Technical Art / UC Integration:** no shared mechanical-animation abstraction is requested. A later target-host playback proof should consume these exact source/rig/clip identities only after a receiving need or perceptual acceptance justifies it.
-- **Runtime / Optimization:** this result contains no controller, scheduler, attach/detach runtime, physics-body or target-device performance evidence.
-- **Capability Cartographer:** the reusable learning is now stronger: an authored motion clip can stay source-local while exact static configuration families are injected as evidence dependencies. This is still not evidence for moving Object-specific clip semantics into UC.
-- **Animal:** PR #5 remains untouched and still awaits independent cadence/silhouette/deformation review before any retime or weighting switch.
+- **Rigging / Deformation — Object PR #15:** Animation consumed the exact `0..50°` review candidate and retained threshold without re-deriving it. Any future pivot/geometry identity change invalidates this sequence evidence and must trigger a rebind.
+- **Hard Surface — Object PR #14:** keeper/lever parentage is now consumed exactly. If Hard Surface later authors a real pivot/hook/capture geometry, this sequence becomes historical review evidence until rebound.
+- **Visual Observer / QA:** inspect the retained ordered sequence specifically for perceptual discontinuity, implausible lever/lid timing or awkward mechanical read. Do not infer physical latch behavior from the proof SVG.
+- **3D Art Director:** judge whether `0.25 s release -> existing 2.0 s lid clip -> 0.25 s re-engage` is directionally useful before Animation changes timing or adds anticipation/overshoot/secondary motion.
+- **Runtime / Optimization:** the sequence is deterministic sampled motion only. A later engine/controller pass may consume these exact samples, but this PASS provides no scheduler, state machine, input or performance acceptance.
+- **Technical Art / UC Integration:** no shared choreography abstraction is requested. Object-specific meaning stays Object-owned.
+- **Capability Cartographer:** this is another evidence-dependency chain example: Hard-Surface ownership -> Rigging bounded articulation -> Animation choreography. The chain is explicit and stale consumer claims should be updated by their owners, not silently rewritten centrally.
 
-## Next Animation pass
+## Next gate
 
-1. Prefer a specific Art Direction / Visual Observer defect on Object PR #10 or Animal PR #5 before changing timing, amplitude or easing.
-2. If Object motion receives a concrete cadence/weight defect, repair only that defect and rerun both the base motion proof and all four configuration compositions.
-3. If the exact Object clip is directionally accepted and a real receiving path needs it, the next distinct evidence gate may be target-host playback of this exact clip; keep controller/state-machine/gameplay claims separate.
-4. Do not animate Character until Rigging accepts a deformation-ready rig; do not absorb Nature/Weather VFX motion; do not invent Weapon/Armor/Unit/Misc motion without an animation-ready source handoff.
+1. Prefer **Visual Observer / Art Director review of this exact ordered sequence** before any timing polish.
+2. If a concrete timing/weight defect is returned, repair only that defect and rerun this exact donor-bound sequence.
+3. If the sequence is directionally accepted and a real product receiver needs it, target-host playback/controller evidence may be a later distinct lane; keep `AnimationPlayer`, state-machine, gameplay and physical-latch claims separate.
+4. Do not animate Character without an accepted rig, do not steal Nature/Weather VFX motion, and do not invent motion in Weapon/Armor/Unit/Misc without an animation-ready handoff.
