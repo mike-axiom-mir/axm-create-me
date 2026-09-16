@@ -1,29 +1,31 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / SIXTH BOUNDED RUNTIME PASS / MOVING SAPLING RESOURCE REUSE PROVEN ON EXACT SYNCHRONIZED ATMOSPHERE SEQUENCE / 441→1 RESOURCE CONSTRUCTIONS / VISUAL BYTES + DRAW COUNTERS PRESERVED / TARGET-DEVICE BUDGET STILL MISSING**
+State: **ACTIVE / SEVENTH BOUNDED RUNTIME PASS / THREE-SOURCE NATURE IMMUTABLE MATERIAL SHARING PROVEN / 6→1 MATERIAL CONSTRUCTIONS / EXACT PIXELS + SUBMISSION COUNTERS PRESERVED / TARGET-DEVICE BUDGET STILL MISSING**
 
 ## Current bounded claim
 
-This activation followed the previous Runtime handoff rather than duplicating existing lanes. VFX PR #12 introduced the first current receiving-host sequence that combines the already-measured Weather field with a genuinely moving, source-owned Nature sapling. Runtime therefore measured one new lifecycle question only:
+This activation followed the previous Runtime handoff rather than reopening Weather reuse, moving-sapling reuse, compact-tree replacement cost, Wreckline LOD, Materials, or VFX. Environment PR #15 created the first current Map receiving scene with **three simultaneous source-owned Nature bodies**: west sapling, compact east tree, and east-rear tree.
 
-> Can the exact moving sapling reuse one receiving `MeshInstance3D`, one `ArrayMesh`, and one material across the synchronized sequence instead of reconstructing those resources per state, while preserving the exact retained visual output and per-frame renderer counters?
+The existing Godot proof host creates a visually identical immutable Nature `StandardMaterial3D` separately for every Nature source mesh in every fixed-camera viewport. Runtime therefore asked one bounded multi-source scaling question:
+
+> Can the exact current three-source Nature receiving scene share one immutable proof-host Nature material resource across all three Nature meshes and both fixed observation contexts while preserving exact retained pixels and renderer submission counters?
 
 Result:
 
-**`PASS_REUSE_SINGLE_SAPLING_ARRAYMESH_RESOURCE_CHURN_CONTRACT`**
+**`PASS_SHARE_ONE_IMMUTABLE_NATURE_MATERIAL_RESOURCE`**
 
-For this exact pinned Godot 4.7.2 GL Compatibility proof host, one stable sapling resource set replaces 441 synthetic control constructions of each resource class across 9 retained updates plus 48×9 stress updates. That is a **99.773% construction reduction**. All 18 retained fixed-camera control/candidate PNG pairs are byte-identical, and draw-call / visible-object / primitive counters are identical sample-for-sample.
+The exact control creates **6** Nature materials across 3 Nature meshes × 2 contexts. The candidate creates **1**, an **83.33333333333333% construction reduction**. Both exact fixed-camera control/candidate image pairs are byte-identical, and draw-call / visible-object / primitive counters remain identical.
 
-`axm-create-me` remains coordination-only. Product/runtime proof code lives only in `axm-map-design`.
+`axm-create-me` remains coordination-only. All Runtime proof code and evidence live in `axm-map-design`.
 
 ## Continuity / previous status preservation
 
-The complete fifth Runtime pass remains preserved in repository history at exact blob:
+The complete sixth Runtime pass remains preserved at the prior coordination-file blob:
 
-`d15c982d243c9d1703b16e1e26f30f87e4b3a699`
+`adcb58baec980625750d78325d6fd8f5c31aaef8`
 
-That pass proved the static compact-east-tree source-replacement budget and the separation between visibility submission and resource residency. It is not overwritten as evidence; this file advances the current status pointer while retaining the exact historical blob for rollback/audit.
+That pass proved stable moving-sapling node / `ArrayMesh` / material reuse across 441 synchronized updates with a 99.773% construction reduction. It is not rewritten as new evidence here.
 
 ## Constellation / overlap scan
 
@@ -32,19 +34,21 @@ Read before acting:
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - `studio/specialists/12_runtime_optimization.md`;
 - previous Runtime status;
-- current VFX, Environment, Nature and neighboring specialist state;
-- current open design PRs and exact receiving heads.
+- newest Environment, VFX, Nature, Geometry, Materials, Object and Wreckline state;
+- current open constellation PRs.
 
 Relevant placement decisions:
 
-- **Map Runtime PR #8** already proves stable resource reuse for the dynamic 36-streak Weather `ImmediateMesh`; Weather lifecycle work was not repeated.
-- **Map Runtime PR #10** already measures the static compact-east-tree source replacement; static replacement cost was not repeated.
-- **Map VFX PR #12** at exact head `d476cf7c11de74c53397cb21e6f40f90a51c0356` supplies the newly available synchronized Weather + moving Nature sapling candidate. Runtime consumes that sequence unchanged.
-- **Nature** exact accepted response head is `cee14f5b3feea78b0adcd044bad2ea3c97657fc6`; Runtime does not alter source deformation semantics.
-- **Weather** exact source head is `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`; Runtime holds Weather resource reuse identical in both measurement modes.
-- **Wreckline LOD** remains blocked on truthful rebuilt-provider closure; historical LOD savings were not transferred.
-- **Object / articulation** still lacks a stronger live receiving-host runtime path than this Map/VFX candidate.
-- **Universal Creation / Profession Fabric** remain unchanged. This proof supports a receiving-host lifecycle pattern, not a generic promoted runtime organ.
+- **Map Runtime PR #8** already proves same-process Weather `ImmediateMesh` resource reuse; not repeated.
+- **Map Runtime PR #10** already measures the compact east-tree proxy-to-source budget; not repeated.
+- **Map Runtime PR #13** already proves moving-sapling resource reuse; not repeated.
+- **Map VFX PR #16** owns dense 17-state atmosphere sampling on top of Runtime PR #13; this Runtime pass does not retake VFX continuity/timing ownership.
+- **Map Environment PR #15**, exact head `03e956475158a59d70cca08b73be23c141e4cb1f`, now supplies three simultaneous source-owned Nature meshes and explicitly leaves Runtime cost unclaimed. This is the selected dependency.
+- **Map Materials PR #14** separately owns Building surface-family receiving A/B and is not consumed.
+- **Nature Geometry PR #7** changes winding indices only and explicitly claims no performance gain; it is not silently substituted into the current established Organic meshes.
+- **Object Animation PR #10** now has a bounded lid clip but still lacks receiving-engine runtime playback; it remains a future candidate rather than being duplicated here.
+- **Wreckline LOD** remains blocked on truthful provider closure; no historical LOD benefit is transferred.
+- **Universal Creation / Profession Fabric** remain unchanged. The proof-host material is not promoted as a generic runtime registry or final Nature material system.
 
 ## Runtime implementation lane
 
@@ -54,200 +58,242 @@ Repository:
 
 Draft PR:
 
-**`#13 — Runtime: reuse synchronized sapling mesh resources`**
+**`#17 — Runtime: share immutable Nature proof material across three sources`**
 
 Branch:
 
-`studio/runtime-synchronized-sapling-reuse-001`
+`studio/runtime-nature-material-sharing-001`
 
-Exact Runtime head:
+Exact tested Runtime head:
 
-`f0c72b9dd4688bdb01ac40aa33f469afffd7ec0a`
+`5ed84c3925fae19cd1582d5210bc59680b883120`
 
 Exact stacked prerequisite:
 
-`d476cf7c11de74c53397cb21e6f40f90a51c0356` — VFX PR #12 exact head.
+`03e956475158a59d70cca08b73be23c141e4cb1f` — Environment PR #15 exact head.
 
-Runtime adds only bounded proof/evidence machinery:
+Runtime adds bounded proof/evidence machinery only:
 
-- `environment-proof/atmosphere_dynamic_budget_observe.gd`;
-- `tools/environment_atmosphere_dynamic_runtime.py`;
-- `docs/ENVIRONMENT_ATMOSPHERE_DYNAMIC_RUNTIME_001.md`;
-- `.github/workflows/runtime-atmosphere-dynamic-sapling.yml`.
+- `environment-proof/nature_material_runtime_observe.gd`;
+- `tools/verify_environment_nature_material_runtime.py`;
+- `docs/ENVIRONMENT_NATURE_MATERIAL_RUNTIME_001.md`;
+- `.github/workflows/runtime-nature-material-sharing.yml`.
 
-No Map composition, Nature source body, Weather semantics, cameras, VFX timing, gameplay code, UC code, or Profession Fabric code changed.
+No Environment source placement, Nature source geometry, Building, Weather, Object proxies, path, cameras, lighting, final material semantics, VFX timing, gameplay, UC, or Profession Fabric code changed.
+
+## Exact source / receiving identities
+
+The workflow rebuilds the exact Environment PR #15 receiving candidate before Runtime observation:
+
+- west Nature source: `mike-axiom-mir/axm-nature-design@fbc202449981f2bac153951c561ed0ed6120c936`;
+- compact Nature source: `mike-axiom-mir/axm-nature-design@64116d63fc76daa1623b5fd5046a4e6074100bda`;
+- rear Nature source: `mike-axiom-mir/axm-nature-design@a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`;
+- Building source: `mike-axiom-mir/axm-building-design@4faa769b406bf3ad0ba9489a77141c27f122ce51`;
+- Weather source: `mike-axiom-mir/axm-weather-design@ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
+- renderer: pinned Godot 4.7.2 GL Compatibility;
+- exact rebuilt Runtime scene digest: `32b6d3e75a2ece750923f11e629baca7ea7e1b925481da42bf2bc132f2905e22`.
+
+The receiving structural prerequisite reruns and remains `PASS_REAR_RIGHT_NATURE_SOURCE_REPLACEMENT_STRUCTURE` before Runtime evidence is accepted.
 
 ## Measure-before / after design
 
-Both modes consume the exact nine VFX states at `0.0 / .0625 / .125 / .1875 / .25 / .3125 / .375 / .4375 / .5 s`, with:
+### Control
 
-- exact 390-vertex / 570-triangle Nature sapling;
-- exact 36-streak Weather field;
-- the same Map scene, lighting and two fixed cameras;
-- stable Weather node / `ImmediateMesh` / material reuse in both modes.
+`per_mesh_material_control` intentionally reproduces the existing proof-host Nature material lifecycle:
 
-### Synthetic control
+- exactly 3 source-owned Nature meshes in `path_eye`;
+- exactly 3 in `elevated_oblique`;
+- one visually identical immutable `StandardMaterial3D` construction per Nature mesh per viewport;
+- **6 Nature material constructions total**.
 
-`rebuild_sapling_control` intentionally reconstructs only the sapling `MeshInstance3D`, `ArrayMesh`, and material every update. This is a measurement control, **not** a claim that AXM currently ships or previously shipped such a path.
+This is a bounded measurement control, not a claim about a shipped AXM path.
 
 ### Candidate
 
-`reuse_sapling_mesh` creates one sapling node, one `ArrayMesh`, and one material, then clears/recommits only its single triangle surface for each exact authored deformation state.
+`shared_nature_material` creates the exact same proof material once, then reuses that immutable resource across:
 
-The retained evidence phase performs 9 updates. The stress phase performs 48 complete cycles × 9 states = 432 updates. Total per mode: **441 sapling updates**.
+- west sapling;
+- compact east tree;
+- rear/right tree;
+- both sequential fixed-camera viewport builds.
 
-## Exact evidence
+Candidate total:
+
+**1 Nature material construction**.
+
+Reduction:
+
+**83.33333333333333%**.
+
+The evidence verifier additionally requires the same one candidate material instance identity to survive both contexts, rather than merely constructing one per viewport.
+
+## Exact-head evidence
 
 Dedicated workflow:
 
-`Runtime synchronized sapling resource evidence`
+`Runtime multi-source Nature material sharing evidence`
 
-Exact-head push run:
+Exact-head run:
 
-**`35065899641 — SUCCESS`**
+**`35070610843 — SUCCESS`**
+
+Every workflow step passed, including:
+
+- exact Runtime-head binding;
+- exact dependency checkouts;
+- Environment PR #15 structural prerequisite test;
+- exact three-source receiving-scene rebuild;
+- pinned Godot download/hash verification;
+- control render;
+- shared-resource candidate render;
+- before/after verifier;
+- retained artifact upload.
 
 Retained artifact:
 
-- artifact ID: **`10434048700`**;
-- name: `environment-atmosphere-dynamic-runtime-001-f0c72b9dd4688bdb01ac40aa33f469afffd7ec0a`;
-- size: **1,737,125 B**;
-- Actions SHA-256: `22b4dcfc74b8e213e8695735ac91691c8345bcd6ccd13d7aca4ff293ac6c1e89`;
-- exact-head binding: `f0c72b9dd4688bdb01ac40aa33f469afffd7ec0a`.
+- artifact ID: **`10435883315`**;
+- name: `environment-nature-material-runtime-001-5ed84c3925fae19cd1582d5210bc59680b883120`;
+- size: **390,232 B**;
+- Actions SHA-256: `41cbe5733dc8c581b3984eb1c03dd3cdea96f35b128bf62064bac2ecb72437b6`;
+- exact-head binding: `5ed84c3925fae19cd1582d5210bc59680b883120`.
 
-The retained ZIP was downloaded and independently rehashed; the local SHA-256 reproduces the Actions digest exactly.
-
-Earlier workflow attempts failed an overly strict evidence-harness ancestry assertion. They were not adopted as proof. The final repair changed only ancestry verification; it did not change source motion, scene content, resource-reuse semantics, or acceptance thresholds.
+The retained ZIP was downloaded independently and rehashed locally. Local SHA-256 reproduces the Actions digest exactly. `runtime_evidence.json`, both runtime receipts, the exact scene payload, replacement prerequisite evidence and all four PNGs were inspected.
 
 ## Exact before / after measurements
 
-Resource constructions across 441 updates per mode:
+Material constructions:
 
-- synthetic control sapling nodes: **441**;
-- candidate sapling nodes: **1**;
-- synthetic control sapling meshes: **441**;
-- candidate sapling meshes: **1**;
-- synthetic control sapling materials: **441**;
-- candidate sapling materials: **1**.
+- control: **6**;
+- candidate: **1**;
+- reduction: **83.33333333333333%**.
 
-Reduction for each resource class:
+Per-context resource identity:
 
-**99.77324263038548%**.
+`path_eye`:
 
-Weather remains exactly one node / one mesh / one material in both modes.
+- Nature meshes: **3 → 3**;
+- unique Nature material identities: **3 → 1**.
 
-### Retained renderer counters
+`elevated_oblique`:
 
-For every one of the nine retained states:
+- Nature meshes: **3 → 3**;
+- unique Nature material identities: **3 → 1**.
+
+Candidate uses the **same one material identity across both contexts**.
+
+Exact source rows match between modes after removing only the deliberately changed receiving material instance ID.
+
+### Renderer submission counters
 
 `path_eye`:
 
 - draw calls: **20 → 20**;
 - visible objects: **20 → 20**;
-- primitives: **2,070 → 2,070**.
+- primitives: **4,392 → 4,392**.
 
 `elevated_oblique`:
 
 - draw calls: **27 → 27**;
 - visible objects: **27 → 27**;
-- primitives: **2,154 → 2,154**.
+- primitives: **6,150 → 6,150**.
 
-All **18 / 18 control-candidate PNG pairs are byte-identical**.
+The higher primitive counts compared with the previous moving-sapling Runtime pass are expected from the now-integrated Building and additional real Nature source bodies. This pass compares only exact control versus candidate on the same current receiving scene.
 
-### Proof-host CPU-side submission observations
+### Retained memory-counter observations
 
-These numbers are retained observations, not portable budgets:
+Both modes report identical current proof-host counters in both contexts:
 
-Retained nine-state phase:
+- buffer memory: **6,532,056 B → 6,532,056 B**;
+- texture memory: **12,875,715 B → 12,875,715 B**.
 
-- median: **3,484 → 1,003 µs** (**-71.21%**);
-- p95: **6,224 → 1,483 µs** (**-76.17%**);
-- total: **33,173 → 9,594 µs** (**-71.08%**).
-
-432-update stress phase:
-
-- median: **1,430 → 986 µs** (**-31.05%**);
-- p95: **3,516 → 1,078 µs** (**-69.34%**);
-- total: **735,658 → 431,545 µs** (**-41.34%**).
-
-### Proof-host memory observations
-
-Both modes report the same first and last retained stress-cycle counters:
-
-- buffer memory: **6,452,208 B → 6,452,208 B**;
-- texture memory: **12,875,715 B → 12,875,715 B**;
-- last-minus-first drift: **0 B** for both counters.
-
-This is only a bounded same-process observation. It does not prove production allocator behavior, peak transient memory, VRAM, or target-device residency.
+These are retained observations, **not** proof that material resource sharing consumes zero memory or that VRAM is unchanged. Godot's exposed buffer/texture counters are not a complete material-resource residency meter.
 
 ## Visual tradeoff for Art Direction
 
-Runtime changed resource lifecycle only; it did not change source deformation, Weather, cameras, scene composition, materials, timing, or authored geometry.
+Exact retained PNG relations:
 
-Exact retained Art Director handoff:
+`path_eye`:
+
+- control SHA-256: `e46e592b3e8d289b41a8fb9ba314688979d41a7ba3197068c94d87a4ef42cea3`;
+- candidate SHA-256: `e46e592b3e8d289b41a8fb9ba314688979d41a7ba3197068c94d87a4ef42cea3`;
+- relation: **BYTE_IDENTICAL**.
+
+`elevated_oblique`:
+
+- control SHA-256: `91dffc22df906177fdb4fdaac54a04ddceb945db97129bbb01e6624a1de6b1da`;
+- candidate SHA-256: `91dffc22df906177fdb4fdaac54a04ddceb945db97129bbb01e6624a1de6b1da`;
+- relation: **BYTE_IDENTICAL**.
+
+Art Director handoff:
 
 **`NONE_OBSERVED_IN_EXACT_RETAINED_PROOF_FRAMES`**
 
-All 18 fixed-camera control/candidate PNG pairs are byte-identical. Runtime therefore has no measured visual penalty to hand off for this lifecycle change. That is not an aesthetic approval of the sapling motion or atmosphere sequence; final motion, deformation and scene-quality ownership remains with Animation/VFX/Art Direction/Visual QA.
+That is only the tradeoff verdict for material-resource sharing. It does not approve the proof material, vegetation forms, lighting, Environment composition, rear-tree hierarchy, final Nature Materials, or any broader scene aesthetic.
 
 ## Reusable learning
 
-This is now a second materially different live-update case beside Weather:
+Runtime now has three materially different receiving-resource reuse cases:
 
-- Weather: stable receiving node + `ImmediateMesh` + material; update bounded line surface.
-- Nature sapling: stable receiving node + `ArrayMesh` + material; update bounded triangle surface while exact source deformation states change.
+1. **Weather dynamic line field:** keep one node / `ImmediateMesh` / material while bounded line geometry changes.
+2. **Moving Nature sapling:** keep one node / `ArrayMesh` / material while bounded triangle geometry changes.
+3. **Static multi-source Nature:** share one immutable material resource across multiple distinct source meshes and sequential receiving contexts.
 
-The reusable Runtime discipline is strengthened:
+The strengthened receiving-host discipline is:
 
-> **Keep immutable receiving resource identity stable when the bounded changing payload can be replaced in-place, and verify exact visual/counter equivalence before treating lower construction churn as a win.**
+> **Do not duplicate immutable renderer resources merely because source geometry identities are distinct. Share only the renderer resource whose semantics are truly identical, preserve source identities separately, and demand exact visual/counter evidence before calling the sharing a win.**
 
-This is evidence for a receiving-host pattern, not yet for one universal implementation. Weather and deforming Nature use different mesh/resource semantics, and no UC extraction is justified from these two proof-host cases alone.
+This does not yet justify one universal runtime implementation. Dynamic geometry reuse and immutable material sharing are different mechanisms. The exact Nature material here is a proof-host representation, and final source-owned lookdev may legitimately require multiple material resources later.
 
 ## Truth boundary / non-claims
 
-This activation proves only that, in the exact synchronized Map/VFX proof scene on pinned Godot 4.7.2 GL Compatibility:
+This activation proves only that, in the exact current three-source Nature Map receiving scene on pinned Godot 4.7.2 GL Compatibility:
 
-1. one stable sapling node / `ArrayMesh` / material can carry all 441 measured exact-state updates;
-2. the synthetic reconstruction control creates 441 of each resource class while the candidate creates one;
-3. all retained source/state identities remain exact;
-4. all 18 retained control/candidate PNG pairs are byte-identical;
-5. per-frame draw/object/primitive counters remain identical;
-6. proof-host CPU-side submission observations favor reuse;
-7. no last-minus-first drift appears in the retained buffer/texture counters.
+1. exactly three source-owned Nature meshes are present in both fixed contexts;
+2. the measurement control constructs six visually identical Nature materials across those contexts;
+3. one immutable candidate Nature material can be shared across all three meshes and both contexts;
+4. material construction count drops **6 → 1**;
+5. exact source rows remain unchanged except receiving material resource identity;
+6. draw-call / visible-object / primitive counters remain identical per context;
+7. both exact control/candidate PNG pairs are byte-identical;
+8. retained buffer/texture counters are equal as observations.
 
 It does **not** establish:
 
 - target-device FPS or frame-time budget;
-- GPU timing, VRAM ceiling, streaming or production allocator behavior;
+- GPU timing, VRAM or complete material residency savings;
 - browser/mobile/console performance;
-- physical wind coupling or physics;
+- shader/material batching behavior on other renderers;
+- production allocator behavior;
+- final Nature material count, textures, UVs or lookdev;
+- LOD, streaming, culling or instancing policy;
+- dynamic deformation cost for compact/rear trees;
 - collision, navigation or gameplay performance;
-- animation-controller semantics, interpolation or real-time pacing;
-- final deformation quality, timing, personality or Art Direction;
-- a generic UC Runtime / deformation / streaming organ;
+- final Environment / Art Direction / Visual QA acceptance;
+- a generic UC material cache or Runtime registry;
 - CANON, production readiness, or Runtime / Optimization mastery.
 
 ## Root gate
 
-- **Truth:** exact heads, workflow, artifact, source identities, counter domains and visual hashes are retained. Hosted CPU timing is labelled observational and the synthetic control is not misrepresented as product history.
-- **Agency / non-domination:** Runtime changes only its receiving proof path and does not overrule VFX timing, Nature source authority, Art Direction, gameplay or merge authority. The four roots remain the merge gate.
-- **Continuity:** PR #13 is stacked exactly on VFX PR #12; previous Runtime status remains addressable by exact blob SHA; failed evidence-harness attempts remain visible in Actions history rather than being erased.
-- **Wisdom before speed:** the existing accepted moving candidate was measured before inventing LOD, streaming, GPU deformation, or UC machinery. Broader extraction remains held until materially different consumers require it.
+- **Truth:** exact heads, scene digest, workflow, artifact, hashes, resource identities and renderer counters are retained. Buffer/texture counters are not relabelled as complete material-memory proof.
+- **Agency / non-domination:** Runtime changes only receiving proof-resource ownership. Nature geometry, Materials semantics, Environment composition, VFX, gameplay and merge authority remain with their owners; the four roots remain the merge gate.
+- **Continuity:** PR #17 stacks exactly on Environment PR #15. The previous Runtime status is retained by exact blob identity. Existing Runtime PRs remain untouched rather than being silently rewritten.
+- **Wisdom before speed:** the current repeated resource duplication was measured only after three real source-owned Nature bodies coexisted. No LOD system, material registry, UC organ or global cache was invented ahead of evidence.
 
 ## Handoffs
 
-- **VFX / Atmosphere:** the exact synchronized sequence can retain its current visual result while the sapling receiving resource stays stable. Runtime makes no atmosphere-quality or physical-wind claim.
-- **Nature / Organic / Rigging-Deformation:** source deformation semantics remain untouched. If topology, vertex count, surface layout or deformation method changes, this Runtime evidence must be remeasured rather than transferred.
-- **3D Art Director / Visual QA:** exact lifecycle before/after frames are byte-identical; there is no observed visual tradeoff from this Runtime change. This does not approve the underlying motion itself.
-- **Technical Art / Capability Cartographer:** record a repeated receiving-host lifecycle pattern across Weather and deforming Nature, but preserve domain-specific resource semantics and do not promote to UC from this evidence alone.
-- **Environment / World Art:** resource lifecycle can be stabilized without adding draw/object/primitive cost in the exact synchronized scene. This does not solve broader multi-tree residency, instancing or LOD scale.
+- **Environment / World Art:** exact PR #15 three-source composition survives the material-sharing candidate with byte-identical fixed-camera output and unchanged submission counters. Environment hierarchy remains its own acceptance gate.
+- **3D Art Director / Visual Observer:** no visible tradeoff exists in the retained Runtime A/B for this resource-sharing change. Do not treat that as approval of underlying vegetation/material quality.
+- **Materials / LookDev:** this proves sharing only for the current identical neutral proof material. If compact/rear/sapling sources receive materially different final surface families, this evidence must not force them into one material.
+- **Nature / Organic / Geometry / VFX:** source identities, geometry and deformation semantics remain untouched. A future source/topology/material migration requires a new Runtime measurement.
+- **Technical Art / Capability Cartographer:** record immutable receiving-resource sharing as a repeated Runtime lesson, but do not promote a global material registry from one proof-host material family.
 
 ## Next Runtime / Optimization pass
 
-Inspect newest constellation first. Prefer a genuinely new dependency rather than repeating this pattern. High-value next candidates are:
+Inspect newest constellation first. Prefer a genuinely new dependency. Strong next candidates are now:
 
-1. multi-source Nature scaling when enough source-owned bodies coexist to make instance-sharing / residency / LOD materially measurable;
-2. actual Object articulation in a receiving engine host, separating transform-only updates from geometry rebuilds;
-3. truthful rebuilt Wreckline LOD after provider closure, with visibility and residency measured separately;
+1. actual Object lid clip target-host playback cost once a receiving-engine Animation path exists;
+2. multi-source Nature mesh/LOD/residency scaling only when a source-owned LOD or instancing candidate exists, rather than inventing one from temporary proof geometry;
+3. truthful rebuilt Wreckline LOD after provider closure;
 4. target-device measurements only when a real supported target and budget exist.
 
 Do not infer mastery, target readiness, or a universal Runtime architecture from this PASS.
