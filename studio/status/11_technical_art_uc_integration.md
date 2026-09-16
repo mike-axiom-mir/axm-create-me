@@ -1,36 +1,40 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / THREE NATURE SOURCES -> CURRENT UC GLB PROVEN / REAR-TREE TARGET-HOST CULLING CONSEQUENCE PROVEN / UC CORE UNCHANGED / ORGANIC SOURCE MIGRATION HELD**
+State: **ACTIVE / SOURCE-GENERATED NATURE MIGRATION -> CURRENT UC -> GODOT CULLING REBOUND / UC CORE UNCHANGED / MAP ADOPTION HELD**
 
 ## Current bounded result
 
-This activation extended the existing Nature Technical Art lane rather than opening a duplicate PR.
+This activation reused the existing Nature Technical Art PR #3 and repaired one stale cross-repo dependency created by Geometry's newer source-lineage migration.
 
 Scoped results:
 
-- `PASS_EXACT_THREE_SOURCE_NATURE_TOPOLOGY_PREFLIGHT_THROUGH_CURRENT_UC_GLB`
-- `PASS_REAR_TREE_UC_GLB_TARGET_CULLING_OBSERVED`
+- `PASS_SOURCE_GENERATED_MIGRATED_NATURE_THROUGH_CURRENT_UC_GLB`
+- `PASS_SOURCE_GENERATED_MIGRATION_TARGET_CULLING_REPRODUCED`
 
-The exact newer `east-rear-tree-neutral-001` now crosses:
+The exact path now proven is:
 
-`exact Organic donor` -> `Geometry PR #7 reindex-only candidate` -> `generic UC seam-welded topology preflight` -> `Nature-owned coordinate/winding/flat-normal bridge` -> `generic UC topology preflight on emitted woody surface` -> `current UC deterministic GLB publish/verify` -> `exact GLB bytes` -> `Godot 4.7.2 GLTFDocument import` -> `neutral culling-disabled/backface-culling target observation`.
+`Nature source generator PR #9` -> `exact source-generated migrated mesh bytes` -> `generic current-UC seam-welded topology inspection` -> `existing Nature-owned UC surface bridge` -> `generic current-UC deterministic GLB publish/verify` -> `exact GLB bytes` -> `Godot 4.7.2 GLTFDocument import` -> `neutral culling-disabled/backface-culling observation`.
 
-Universal Creation was **not modified**. Nature source semantics, tapered-cap policy, form intent and migration authority remain outside UC. `axm-create-me` remains coordination-only.
+Technical Art no longer needs to apply or depend on a derived Geometry reindex step for this migrated lineage. The old derived-candidate evidence remains historical evidence for its exact inputs.
+
+Universal Creation was **not modified**. Nature owns the source generator and winding meaning; UC remains domain-neutral; `axm-create-me` remains coordination-only.
 
 ## Why this gap was selected
 
-The constellation had changed materially since the prior Technical Art activation:
+The live constellation changed after the previous Technical Art pass:
 
-- Geometry PR #7 now proves the same `260 -> 0` tapered-cap shared-edge orientation repair on three real Nature bodies, including the newer rear tree, at exact head `e2224d4bf88f7e68503072c884e5a726b8d0c53d`.
-- Organic PR #8 owns `east-rear-tree-neutral-001` at exact head `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12` and deliberately has not migrated the generator.
-- Map Environment PR #15 consumes the exact rear Organic baseline in a real Godot receiving scene, but intentionally renders Nature source meshes with culling disabled and explicitly holds topology/culling migration.
-- Existing Nature Technical Art PR #3 already owned the source -> UC bridge and two-source topology preflight.
-- Current Universal Creation main already has the required domain-neutral primitives; no new UC abstraction was missing.
+- Geometry PR #9 migrated the proven tapered-cap winding correction into the Nature source generator at exact head `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`.
+- That migration deliberately changed generated mesh identities while preserving the prior Geometry candidate geometry.
+- The existing Technical Art proof still consumed the older Organic baseline plus a derived Geometry repair, so its transport result could not silently transfer to the new source lineage.
+- Visual QA still blocks normal-culling Map adoption until the repaired source lineage is tested in the receiving scene.
+- Map Environment PR #15 still truthfully consumes the historical rear mesh with proof-host culling disabled.
+- Other live specialist lanes are already active on Object mechanics/materials/motion, Animal deformation/motion, Building receiving lookdev and Nature source geometry, so opening a parallel implementation lane there would duplicate ownership.
+- Current UC already contains the reusable domain-neutral topology and GLB machinery needed for this question.
 
-The highest-leverage unoccupied question was therefore not another renderer, another topology checker, or a Map composition lane. It was:
+The highest-leverage unoccupied Technical Art question was therefore:
 
-> Does the exact rear-tree Geometry candidate survive the existing Nature -> current UC path, and does its index-only repair produce a real isolated backface-culling consequence in a target host?
+> Can the exact **source-generated** Nature migration pass through current UC and reproduce the real target-host culling repair without Technical Art reapplying domain geometry logic or centralizing a Nature rule in UC?
 
 ## Exact lane and identities
 
@@ -44,197 +48,184 @@ Branch:
 
 Exact final Technical Art head:
 
-`5590bbe07cc92a6f60ea9b4722344220e2d04ae5`
+`0fa27e038469cbedbef972a282ddc90f57c90918`
 
 PR state after work: **OPEN / DRAFT / MERGEABLE**.
 
 Pinned donors:
 
-- Geometry PR #7: `e2224d4bf88f7e68503072c884e5a726b8d0c53d`
-- rear Organic PR #8: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`
-- current inspected Universal Creation main: `4ad22937779d569b0b5f96ff23f597af2727db19`
+- Nature source migration / Geometry PR #9: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`
+- historical rear Organic PR #8: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`
+- prior Geometry oracle PR #7: `e2224d4bf88f7e68503072c884e5a726b8d0c53d`
+- current inspected Universal Creation main: `21e206fad99d53f6f01a9d3093b49e590cff7032`
 
-Rear exact source identity:
+Exact source-generated migrated mesh identities consumed directly from PR #9:
 
-- source digest: `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`
-- established Organic baseline mesh: `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`
-- derived Geometry reindex-only candidate: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`
+- `sapling-neutral-001`: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`
+- `compact-east-tree-neutral-001`: `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`
+- `east-rear-tree-neutral-001`: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`
+
+Historical rear baseline remains separately identified as:
+
+`d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`
 
 ## UC state inspected
 
 Current UC main was inspected at exact commit:
 
-`4ad22937779d569b0b5f96ff23f597af2727db19`
+`21e206fad99d53f6f01a9d3093b49e590cff7032`
 
-The relevant generic capability remains `axm_uc.mesh_topology.inspect_mesh_topology()`. It seam-welds coincident positions for bounded edge-incidence evidence and explicitly separates its claim from self-intersection, vertex-manifoldness, deformation, collision and visual-quality claims.
+The relevant generic capability remains `axm_uc.mesh_topology.inspect_mesh_topology()`. It seam-welds coincident positions and reports bounded edge-incidence/orientation evidence while explicitly excluding self-intersection, vertex-manifoldness, deformation, collision and visual-quality claims.
 
-UC's existing `procedural_3d.publish_glb()` / `verify_glb()` separately owns deterministic surface -> GLB publication and bounded per-triangle geometry/normal verification.
+UC's existing deterministic surface / GLB publication and verification machinery remains sufficient for this integration. No Nature-specific cap, branch, trunk, species, source-migration or auto-repair rule belongs in UC from this evidence.
 
-This separation is still correct. The repair needed here was pipeline composition and target observation, not Nature-specific UC knowledge.
+Profession Fabric's `product-design/technical-artist` body is still `EXPERIMENTAL` and explicitly owns bounded art-to-engine pipeline contracts while forbidding technically valid import from becoming visual/gameplay acceptance. This activation follows that boundary; it does not promote the profession.
 
 ## Smallest reusable pipeline repair
 
-Nature Technical Art PR #3 was changed only enough to:
+Nature Technical Art PR #3 gained only a source-lineage rebind evidence path:
 
-1. repin the Geometry donor from the previous two-source head to exact three-source Geometry head `e2224d4b...`;
-2. consume the rear Organic source through a separately pinned exact donor checkout instead of copying it into the Technical Art branch;
-3. rerun the existing topology-preflight composition across all three real Nature bodies;
-4. repin the generic UC machinery to current inspected main `4ad22937...`;
-5. add a tiny Nature Technical Art target observer that imports the **exact UC-published GLB bytes** through Godot 4.7.2 `GLTFDocument`;
-6. override lookdev with one neutral unshaded material and compare `CULL_DISABLED` versus `CULL_BACK` from two fixed cameras.
+1. checkout exact Nature source-migration PR #9 and build the three source meshes directly from its generator;
+2. refuse source/head/digest drift before publication;
+3. inspect each migrated source mesh with current UC's generic topology inspector;
+4. pass each mesh through the existing Nature-local bridge without adding a new domain rule;
+5. inspect the emitted woody UC surface again with the same generic topology primitive;
+6. publish and verify exact GLBs with current UC;
+7. rebuild the historical rear baseline independently from PR #8 for an explicit lineage control;
+8. import the exact historical and source-migrated rear GLBs in pinned Godot 4.7.2 and compare culling-disabled versus backface-culling behavior from two retained cameras.
 
-The observer is deliberately source/pipeline evidence, not a new art system. It does not encode species, branch design, scene placement, materials, wind, gameplay or source-migration policy.
+No UC core file, Nature source migration, Geometry algorithm, Map scene, Materials lane, Runtime lane, or Profession Fabric body was modified.
 
-No Organic JSON/generator, Geometry repair algorithm, UC core file, Map composition, Materials, VFX, Runtime or Profession Fabric capability was modified.
+## Three-source source-lineage / UC result
 
-## Three-source structural/export result
+All three exact source-generated migrated Nature meshes match the prior Geometry oracle candidates and keep the repaired shared-edge relation through the Nature bridge and current UC:
 
-All three exact Nature bodies reproduce the same bounded relation through current UC:
-
-| study | baseline mesh | reindex candidate | source/shared-edge conflicts | UC emitted woody conflicts | UC GLB triangles |
+| study | historical mesh | source-generated migrated mesh | migrated source conflicts | emitted woody conflicts | UC GLB triangles |
 |---|---|---|---:|---:|---:|
-| `sapling-neutral-001` | `89b835bd...fa4c` | `47dd4d82...1b862` | `260 -> 0` | `260 -> 0` | 620 |
-| `compact-east-tree-neutral-001` | `c7367ed5...fa32f` | `420135f6...1c18` | `260 -> 0` | `260 -> 0` | 620 |
-| `east-rear-tree-neutral-001` | `d7fc5dea...133e48` | `aa9d450a...9b6a31` | `260 -> 0` | `260 -> 0` | 620 |
+| `sapling-neutral-001` | `89b835bd...fa4c` | `47dd4d82...1b862` | 0 | 0 | 620 |
+| `compact-east-tree-neutral-001` | `c7367ed5...fa32f` | `420135f6...1c18` | 0 | 0 | 620 |
+| `east-rear-tree-neutral-001` | `d7fc5dea...133e48` | `aa9d450a...9b6a31` | 0 | 0 | 620 |
 
-Both baseline and repaired exact GLBs still pass UC's separate per-triangle winding-vs-normal verifier. That remains an important truth distinction: `verify_glb()` does not become shared-edge topology evidence merely because both paths are green.
+The independently rebuilt historical rear baseline still reproduces **260** shared-edge orientation conflicts before the bridge. This preserves the failure lineage rather than erasing it.
 
-## Rear target-host culling proof
+Exact migrated current-UC GLB SHA-256 values:
 
-The exact rear baseline and candidate UC GLBs were imported at runtime by Godot **4.7.2-stable**, GL Compatibility, through `GLTFDocument`.
+- sapling: `0bdf1731348988decf9eefe930922b834175c4e84480e3cf84e1b70fffeb6e4d`
+- compact east tree: `507c1cd58b234ab70b203daa42a776aad00741f21601c4c5aae2a45fbb7dd17d`
+- east rear tree: `5c17b1bd220e4c2cdf40bad2bae50d209974e4faf2879c9076b4cdcf03ff7e8c`
+- historical rear control: `8666dc2959bfa701a81d64391f8e31390f27db9ca567e226fcc49a734d2d6a2a`
 
-Each imported as:
+The repaired rear GLB hash remains the same as the earlier derived-candidate Technical Art proof because the source generator now emits the exact prior oracle geometry. The important change is provenance: those bytes are now generated by the Nature source lineage rather than recreated by Technical Art through Geometry.
 
-- 2 mesh instances: `woody`, `foliage`;
-- 2 triangle surfaces;
-- exactly 620 triangles.
+## Rear target-host source-migration proof
 
-Exact UC GLB SHA-256 values:
+The exact historical and **source-generated migrated** rear UC GLBs were imported at runtime by Godot **4.7.2-stable**, GL Compatibility, through `GLTFDocument` with a neutral unshaded material override.
 
-- baseline: `8666dc2959bfa701a81d64391f8e31390f27db9ca567e226fcc49a734d2d6a2a`
-- candidate: `5c17b1bd220e4c2cdf40bad2bae50d209974e4faf2879c9076b4cdcf03ff7e8c`
+### `ground_oblique`
 
-### Fixed view: `ground_oblique`
+- culling-disabled historical vs source-migrated: **0 changed pixels**;
+- backface-culling historical vs source-migrated: **827 changed pixels**;
+- source-migrated `CULL_BACK` vs its own `CULL_DISABLED`: **0 changed pixels**;
+- historical `CULL_BACK` vs its own `CULL_DISABLED`: **827 changed pixels**.
 
-Culling disabled:
+### `high_oblique`
 
-- baseline capture SHA-256: `f78e53cdbe124d6afa55cc1717ec523679e6e2bb720b2305d695ddd824867e9e`
-- candidate capture SHA-256: `f78e53cdbe124d6afa55cc1717ec523679e6e2bb720b2305d695ddd824867e9e`
-- changed pixels: **0**
-
-Backface culling:
-
-- baseline capture SHA-256: `5614d5e93d94412d41e4650445f41f64e3a69d6e4a4b07ddfeb9ac63739908ce`
-- candidate capture SHA-256: `f78e53cdbe124d6afa55cc1717ec523679e6e2bb720b2305d695ddd824867e9e`
-- changed pixels: **827**
-- candidate visible proof pixels: 23,950 versus baseline 23,123.
-
-### Fixed view: `high_oblique`
-
-Culling disabled:
-
-- baseline capture SHA-256: `be5bde45038c526589a47ef7a15f0d9b25cb0a569c76dc7b8f9641281bfe46fc`
-- candidate capture SHA-256: `be5bde45038c526589a47ef7a15f0d9b25cb0a569c76dc7b8f9641281bfe46fc`
-- changed pixels: **0**
-
-Backface culling:
-
-- baseline capture SHA-256: `13ecd3b9ef3aa645235c4c9359a207fb070fc4613ded31a926c5f2e142bfff47`
-- candidate capture SHA-256: `be5bde45038c526589a47ef7a15f0d9b25cb0a569c76dc7b8f9641281bfe46fc`
-- changed pixels: **1,225**
-- candidate visible proof pixels: 22,096 versus baseline 20,871.
+- culling-disabled historical vs source-migrated: **0 changed pixels**;
+- backface-culling historical vs source-migrated: **1,225 changed pixels**;
+- source-migrated `CULL_BACK` vs its own `CULL_DISABLED`: **0 changed pixels**;
+- historical `CULL_BACK` vs its own `CULL_DISABLED`: **1,225 changed pixels**.
 
 ### Direct visual observation
 
-The retained neutral target frames were inspected directly.
+The retained eight target frames were inspected directly.
 
-With backface culling enabled, the baseline rear tree shows repeated narrow black slit/gap reads at tapered trunk/branch cap transitions. The candidate removes those observed slits in both retained views. In both cameras, the candidate `CULL_BACK` capture is byte-identical to its culling-disabled control, whereas the baseline is not.
+With culling disabled, the historical and source-migrated renders are visually/pixel identical in both retained views. With backface culling enabled, the historical mesh reproduces the narrow dark slit/gap losses along tapered trunk/branch cap transitions. The source-generated migrated mesh removes those observed losses in both retained views and matches its own culling-disabled control.
 
-This is materially stronger than a structural-only claim: the exact index repair has a real target-host rendering consequence and the observed defect is reproducible from two views.
-
-It is still **not** a global proof that every repaired cap normal is outward under every view or deformation state. It does not authorize source migration by itself.
+This is direct target-host evidence for this exact source migration. It is still **not** a global outward-normal proof across arbitrary views, deformations or future procedural variants.
 
 ## Exact-head CI and retained evidence
 
 Dedicated workflow:
 
-`35070435017 — UC nature topology + target culling evidence` — **SUCCESS**.
+`35075568832 — UC Nature source migration rebind evidence` — **SUCCESS**.
+
+Same-head inherited Technical Art/Nature workflows also remained green, including the previous topology/culling preflight, the existing UC surface bridge and Nature baseline tests.
 
 Retained artifact:
 
-- ID: **10436051226**
-- name: `nature-uc-topology-target-culling-5590bbe07cc92a6f60ea9b4722344220e2d04ae5`
-- size: **504,501 bytes**
-- GitHub artifact SHA-256: `a8d58d871389590cfcf710a0642c205935648846332a497c4ab58dc2c7d25e7d`
-- independently downloaded/rehashed SHA-256: `a8d58d871389590cfcf710a0642c205935648846332a497c4ab58dc2c7d25e7d`
-- retained exact Technical Art head: `5590bbe07cc92a6f60ea9b4722344220e2d04ae5`
-- retained Geometry head: `e2224d4bf88f7e68503072c884e5a726b8d0c53d`
-- retained rear Organic donor: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`
-- retained UC donor: `4ad22937779d569b0b5f96ff23f597af2727db19`
+- ID: **10437698655**
+- name: `nature-uc-source-migration-rebind-0fa27e038469cbedbef972a282ddc90f57c90918`
+- size: **254,331 bytes**
+- GitHub artifact SHA-256: `161caee9b55b85a68a06414707c638d4479b934dfddfeded64d609b612e89b67`
+- independently downloaded/rehashed SHA-256: `161caee9b55b85a68a06414707c638d4479b934dfddfeded64d609b612e89b67`
+- retained exact Technical Art head: `0fa27e038469cbedbef972a282ddc90f57c90918`
+- retained exact source-migration head: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`
+- retained exact historical rear head: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`
+- retained exact UC head: `21e206fad99d53f6f01a9d3093b49e590cff7032`
 
-The artifact was downloaded after CI, independently rehashed, parsed directly, and the retained target PNGs were visually inspected.
+The artifact was downloaded after CI, independently rehashed, parsed directly, and its target PNGs were visually inspected.
 
 ## Placement decision
 
 **No UC core change is justified.**
 
-The reusable separation is now clearer:
+The evidence supports this placement:
 
-- source/design repos own source geometry and domain meaning;
-- Geometry owns the explicit derived reindex-only candidate and structural repair evidence;
-- UC owns generic topology inspection plus deterministic surface/GLB machinery;
-- Technical Art owns cross-repo composition, exact donor binding and target-host import/culling evidence;
-- Environment / Art Direction / Visual QA own receiving-scene adoption and visual acceptance.
+- Nature owns source geometry, tapered-cap winding policy and the source migration;
+- Geometry owns the prior repair oracle and structural evidence that justified migration;
+- UC owns generic topology inspection and deterministic surface/GLB machinery;
+- Technical Art owns explicit cross-repo composition, exact donor/source identity binding and target-host import evidence;
+- Environment / Visual QA / Art Direction own receiving-scene adoption and visual acceptance;
+- Procedural Design owns regeneration/rebinding of its own Nature variants when it chooses to consume the new source lineage.
 
-Adding a Nature cap rule, source migration policy, or a second target-specific topology system to UC would centralize domain knowledge for convenience and would violate the observed evidence boundary.
+Moving a Nature-specific winding repair into UC would now be especially wrong: the correct source owner has already adopted the repair, and current UC transports the result without domain knowledge.
 
 ## Handoffs returned
 
-### Geometry PR #7
+### Nature source migration PR #9
 
-Returned exact downstream proof that candidate digest `aa9d450a...` survives current UC and has a real Godot culling consequence. This closes the previous Technical Art target-host observation hold for this exact rear candidate only.
-
-### Organic PR #8
-
-Returned that the derived candidate has stronger downstream evidence, while explicitly preserving Organic source authority. No generator rewrite or mesh-digest replacement was performed.
+Returned exact downstream proof that the source-generated digests survive current UC and reproduce the target-host culling repair. This is transport evidence, not merge authority or source acceptance.
 
 ### Map Environment PR #15
 
-Returned the exact culling evidence without modifying the Environment branch. Its existing baseline receiving-scene PASS remains valid. If Environment later tests migration, the correct next action is an isolated exact candidate receiving-scene A/B under normal culling, not a silent mesh swap.
+Returned that the Technical Art source-generated transport/culling gate is now clear. PR #15 remains truthful at its historical baseline/culling-disabled composition state. The next receiving test remains the isolated normal-culling A/B requested by Visual QA: preserve scene/camera/materials/placement and change only the rear mesh lineage to PR #9's exact source-generated mesh.
 
-## Relationship to previous Technical Art evidence
+### Procedural Design
 
-Previous Object result remains valid and separate:
+No procedural variant PASS transfers automatically. Existing Nature variants that change mesh identity under the migrated generator still require regeneration and exact evidence rebinding by their owning lane.
 
-`PASS_SOURCE_FRAME_BOUND_UC_GLB_GODOT_HANDOFF`
+## Relationship to previous evidence
 
-at Object head `d5cd67b34996ff95dd28495d26ccb8c4a60b7dfd`.
+The prior Nature Technical Art result at head `5590bbe07cc92a6f60ea9b4722344220e2d04ae5` remains valid historical evidence for the old baseline -> derived Geometry candidate path.
 
-The earlier two-source Nature structural result is also retained historically. This activation extends rather than silently rewrites it: the donor set is now three Nature sources, UC is repinned to current inspected main, and a real target-host culling observer closes the prior renderer hold for the rear candidate.
+This activation does **not** rewrite that provenance. It supersedes only the live Technical Art dependency for the migrated lineage: the source generator now emits the repaired mesh directly, so the production-shaped path no longer requires a derived Geometry repair step.
+
+Previous Object Technical Art evidence also remains separate and unchanged.
 
 ## Non-claims / remaining holds
 
 This activation does **not** prove or authorize:
 
-- Organic source-generator migration;
+- merge or CANON adoption of Nature PR #9;
+- Map receiving-scene normal-culling acceptance;
 - global outward-normal correctness for arbitrary views or all Nature variants;
-- migration of Procedural Design's generated variants;
+- automatic rebinding of Procedural Nature variants;
 - final normals/tangents/smoothing/UV policy;
 - final foliage/bark materials or lookdev;
 - wind/deformation/rigging/animation quality;
-- Map/Environment composition acceptance of the repaired candidate;
 - target-device FPS/GPU/VRAM/draw-call budgets;
 - collision/navigation/gameplay suitability;
 - generic arbitrary-mesh culling correctness;
-- CANON, production readiness or Technical Art / UC mastery.
+- profession promotion;
+- production readiness or Technical Art / UC mastery.
 
 ## Root gate
 
-- **Truth:** baseline, candidate, Organic donor, Geometry donor, UC donor and target images retain exact separate identities; structural, per-triangle, target-culling and visual claims are not collapsed into one another.
-- **Agency / non-domination:** no merge, Organic rewrite, receiving-scene swap or UC centralization was performed; source and receiving specialists retain their decisions.
-- **Continuity:** exact heads, digests, artifact, previous Object evidence and prior Nature evidence remain traceable; no silent lineage replacement.
-- **Wisdom before speed:** reused the existing Nature Technical Art lane and UC's already-correct generic primitives; added only the minimum target observer needed to answer the live evidence gap.
+- **Truth:** old baseline, old derived candidate, new source-generated migration, UC donor and target images retain exact separate identities; structural, export, culling and visual claims remain bounded.
+- **Agency / non-domination:** no merge, source rewrite, receiving-scene swap, profession promotion or UC authority inflation was performed.
+- **Continuity:** old Technical Art evidence remains historical; exact source/commit/artifact identities and rollback remain traceable; no silent lineage replacement.
+- **Wisdom before speed:** reused the existing Nature Technical Art lane and already-sufficient generic UC primitives; repaired only the stale source-lineage binding and target proof instead of adding another system.
 
 ## Current state
 
-`PASS_THREE_SOURCE_NATURE_TO_CURRENT_UC_GLB / PASS_REAR_TREE_TARGET_CULLING_OBSERVATION / HOLD_ORGANIC_SOURCE_MIGRATION / HOLD_RECEIVING_SCENE_MIGRATION / UC_CORE_UNCHANGED`
+`PASS_SOURCE_GENERATED_NATURE_MIGRATION_TO_CURRENT_UC / PASS_SOURCE_MIGRATION_TARGET_CULLING_REPRODUCTION / HOLD_MAP_RECEIVING_ADOPTION / HOLD_PROCEDURAL_REBIND / UC_CORE_UNCHANGED`
