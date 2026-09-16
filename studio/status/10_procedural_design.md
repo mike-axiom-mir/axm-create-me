@@ -1,193 +1,213 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-16
-State: **PASS_BRANCH_CROWN_MUTATOR_THREE_SOURCE_PROBE / 3 EXACT NATURE SOURCES / 9 DISTINCT RETAINED OUTPUTS / 3 BOUNDED HOLD CONTROLS / NATURE-LOCAL / UC + PROFESSION FABRIC UNCHANGED**
+State: **PASS_BOUNDED_OBJECT_SERVICE_MODULE_CONFIGURATION_FAMILY / 4 DISTINCT SOURCE-FRAME OUTPUTS / 3 FAIL-CLOSED CONTROLS / EXACT FIT + REGISTRATION PREREQUISITES RETAINED / OBJECT-LOCAL / NO UC OR PROFESSION-FABRIC EXTRACTION**
 
-## Current decision
+## Current activation
 
-The previous Procedural pass deliberately refused to create another family until a repeated authored task became real. That condition has now changed inside Nature.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, the prior Procedural status, current specialist status and the active design-repository constellation before choosing work.
 
-Nature no longer has only the first sapling. Organic Form has since retained two materially different source-owned tree bodies using the same source vocabulary and generator structure: the accepted compact east-foreground source and the new taller east-rear source. All three Nature bodies manually author the same narrow repeated structure — tapered trunk, branch chains and leaf clusters — while preserving different form intent and different receiving envelopes.
+`axm-create-me` remains coordination-only. Product/evidence implementation in this activation is confined to `mike-axiom-mir/axm-object-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The highest-leverage Procedural action was therefore **not** a fourth unrelated generator. It was to repair the existing Nature Procedural PR #4 so one bounded branch/crown mutator can be reused unchanged across all three exact source bodies without absorbing their source-specific semantics.
+The previous Nature result remains valid historical evidence and is not overwritten semantically: Nature PR #4 exact head `d535484d4c3623a32fc9f5dc44b0856619b9b1ec` still proves the same bounded branch/crown mutator across three exact source bodies with nine retained outputs and three impossible-envelope HOLD controls. This activation deliberately did not broaden that Nature mutator.
 
-Scoped result:
+## Constellation / duplication scan
 
-**`PASS_BRANCH_CROWN_MUTATOR_THREE_SOURCE_PROBE / KEEP_SOURCE PROFILES NATURE-OWNED / NO UC EXTRACTION / NO PROFESSION-FABRIC CHANGE`**
+All eleven design repositories and current specialist status were checked before opening a lane.
 
-`axm-create-me` remains coordination-only. All implementation/evidence changes are in the existing `axm-nature-design#4` lane.
+- **Weapon:** no active design PR; no real repeated asset-authoring task to proceduralize.
+- **Armor:** no active design PR.
+- **Character:** Organic PR #2 is still under direct visual/form/deformation gates. A character generator would outrun source acceptance.
+- **Unit:** no active design PR.
+- **Animal:** Organic, Geometry, Rigging, Technical Art and Animation lanes are already active; current gaps are visual/deformation/playback acceptance, not repeated family authoring.
+- **Building:** Hard-Surface PR #2 and Materials PR #3 provide one pavilion family with repeated receiver evidence, but Art Direction/Materials currently own exact Map lookdev and geometry should remain stable. Cartography also explicitly holds cross-domain interface extraction.
+- **Nature:** Procedural PR #4 already owns source-form branch/crown variation; Geometry PR #7 owns the separate three-source cap-winding candidate; Environment PR #15 now owns the rear/right source replacement. No duplicate Nature procedural lane was opened.
+- **Weather:** Procedural PR #3 already owns seeded Weather field-layout variation. No duplicate Weather family.
+- **Map:** Procedural PR #3 already owns bounded proxy placement. Current PRs #14/#15 are Materials and Environment receiving-scene work, while VFX/Runtime own dynamic update paths.
+- **Object:** Hard-Surface PR #5 already proves one exact `utility-module-001` on both bilateral service frames, Hard-Surface PR #9 adds an exact asymmetric registration datum without changing host/module source identity, Technical Art PR #7 separately instantiates a right-side module in a target host, Rigging PR #8 proves lid clearance with the registered attachments, and Animation PR #10 now owns lid timing. The repeated source-space placement operation is real, narrow and not yet owned by another Procedural lane.
+- **Misc:** no active design PR.
 
-## Constellation / overlap scan
-
-Current repository and specialist state was re-read before work.
-
-- `axm-weapon-design`: no open implementation lane; no repeated source task to proceduralize.
-- `axm-armor-design`: no open implementation lane.
-- `axm-character-design`: first source-owned neutral A-rest form remains upstream of visual/deformation acceptance; no character-family generation justified.
-- `axm-unit-design`: no open implementation lane.
-- `axm-animal-design`: Organic Form, Rigging, Geometry, Technical Art and Animation are active; current questions are topology/deformation/playback evidence, not repeated asset-family authoring.
-- `axm-building-design`: Hard-Surface and Materials now have a real pavilion, but there is still only one bounded building source family and active Environment integration. No building generator was opened.
-- `axm-nature-design`: existing Procedural PR #4 already owns branch/crown variation; Organic Form PR #6 adds `compact-east-tree-neutral-001`; Organic Form PR #8 adds `east-rear-tree-neutral-001`; Geometry PR #7 owns a separate derived cap-winding repair. This is the changed evidence that creates a real repeated Procedural need.
-- `axm-weather-design`: Procedural PR #3 already owns stochastic field-layout variation. No duplicate Weather lane.
-- `axm-map-design`: Procedural PR #3 already owns proxy-placement variation; Environment/VFX/Runtime lanes remain active. No duplicate Map generator.
-- `axm-object-design`: Hard-Surface, Materials, Rigging and Technical Art own the current equipment-case/module chain. Attachment semantics remain source-owned and the generic runtime attachment bridge is still missing; no Object configuration generator was invented.
-- `axm-misc-design`: no open implementation lane.
-
-Relevant current coordination state also confirms:
-- Art Direction has cleared the east-foreground hierarchy defect but still holds final world art and identifies the rear/right Nature mass as the next scene issue;
-- Organic Form has retained the distinct east-rear source but holds Environment A/B, deformation and topology migration;
-- Geometry's tapered-cap repair remains a derived candidate with source migration held;
-- Environment has separately integrated the exact Building pavilion and still holds Art Direction / Visual QA / runtime acceptance;
-- Capability Cartography still keeps source-owned 3D frame semantics separate from UC's current 2D physics mounts;
-- Technical Art has proven an Object source-frame -> UC GLB -> Godot handoff without moving Object construction semantics into UC.
-
-No active specialist lane was duplicated.
+The highest-leverage non-duplicative repeated task is therefore **Object-local service-module occupancy assembly**, not another vegetation/weather/map generator and not a cross-domain attachment abstraction.
 
 ## Repeated pattern selected
 
-Exact source studies:
+Exact existing source chain:
 
-1. `sapling-neutral-001`
-   - source origin: `fbc202449981f2bac153951c561ed0ed6120c936`
-   - source digest: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`
-   - receiving envelope: west-A `[2.2, 2.2, 5.2] m`.
+- host: `modular-equipment-case-001`;
+- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- module: `utility-module-001`;
+- module source SHA-256: `ffd7b42294d3af71e02aa172157beccefa08c6af2c1198f88836862d2a50fc2e`;
+- exact bilateral source sockets: `left_service` / `right_service`;
+- Hard-Surface fit prerequisite: PR #5 exact head `9a0524319cc3fe33bdbb2d76505b2c89a7a9f190`;
+- asymmetric registration source: `utility-module-registration-key-001`;
+- registration source SHA-256: `bb01fef7bfb22a0f9b290c376c1451a2524e068b618f684f605d746257a0e989`;
+- Procedural prerequisite/base: Hard-Surface PR #9 exact head `3f091bda68b33482bdefe1cf4adf97caf9c0c87e`.
 
-2. `compact-east-tree-neutral-001`
-   - exact source revision: `64116d63fc76daa1623b5fd5046a4e6074100bda`
-   - source digest: `9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`
-   - receiving envelope: east-B `[1.6, 1.6, 4.0] m`.
+The repeated operation is deliberately narrower than “attachment”: take the exact existing module proof body and place it through the exact already-authored Object source frame on zero, left, right or both bilateral sockets. Do not scale it, invent an extra rotation, choose a nearest socket, change mount tolerances or alter source construction semantics.
 
-3. `east-rear-tree-neutral-001`
-   - exact source revision: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`
-   - source digest: `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`
-   - retained seed-29 east-A envelope `[1.678837, 1.678837, 4.197092] m`.
+This is a genuine repeated creation operation because the same module already has to be resolved against two source-owned receiver frames, while Technical Art separately performs one right-side placement for its target-host handoff. Automating the source-space configuration step removes literal repeated placement work without taking over runtime or physics.
 
-The repeated operation is deliberately narrower than a vegetation generator: vary already-authored branch length/yaw plus leaf length/width/yaw/pitch, keep branch roots fixed, move branch-associated leaf-cluster centers with their branch tips, then rerun the exact Nature Organic Form checks and source-specific envelope.
+## Smallest reusable implementation
 
-## Smallest reusable repair
+New draft lane:
 
-Existing lane:
-
-`mike-axiom-mir/axm-nature-design#4 — Procedural: prove bounded branch-crown variation across Nature sources`
+**`mike-axiom-mir/axm-object-design#11 — Procedural: add bounded bilateral service-module configuration family`**
 
 Branch:
 
-`studio/procedural-sapling-family-001`
+`studio/procedural-service-module-configurations-001`
 
-Current exact head:
+Exact tested Procedural head:
 
-`d535484d4c3623a32fc9f5dc44b0856619b9b1ec`
+`4fd7546d520b515533678464307d7a49d13479e0`
 
-The historical sapling schema `axm.nature-sapling-variation-family/v0.1` remains supported for reproducibility. The repair adds generic profile schema:
+PR state after exact evidence:
 
-`axm.nature-branch-crown-variation-family/v0.2`
+**OPEN / DRAFT / MERGEABLE**
 
-Generic profiles must pin exact source repository, ref, path, study ID and digest. Compact and rear source JSON is **not copied** into the Procedural branch; CI checks out those exact revisions separately.
+New source-owned family contract:
 
-The earlier sapling-specific immutable-field check was also repaired. Instead of naming a small fixed list, the mutator now treats every top-level source field as immutable except the explicitly authorized procedural outputs:
+`axm.object-service-module-configuration-family/v0.1`
 
-- `study_id`;
-- `branches`;
-- `leaf_clusters`;
-- `procedural_provenance`;
-- appended `truth_boundary` text.
+Parameter:
 
-That preserves source-specific fields such as `form_intent`, as well as trunk, flex zones, design checks, donor provenance and Environment/Weather handoffs, without teaching the shared mutator those domain details.
+`occupied_socket_names`
 
-For the two external source revisions, CI also requires their `organic_form.py` evaluator bytes to equal the receiving evaluator before cross-source evidence can run. A drifting evaluator therefore fails closed rather than silently inheriting compatibility.
+Exact allowlist:
 
-## Exact multi-source evidence
+- `left_service`;
+- `right_service`.
+
+The Object-local assembler:
+
+1. checks exact host/module/registration source identity;
+2. reruns the existing bilateral fit verifier;
+3. reruns the exact asymmetric registration-key verifier;
+4. derives each socket's source frame from the existing source (`normal`, derived lateral, `up`);
+5. transforms the exact existing 8-vertex / 12-triangle module proof body through only those source frames;
+6. canonicalizes requested slot order so parameter order cannot manufacture duplicate family members;
+7. forbids receiving scale and extra rotation;
+8. rejects duplicate or unknown occupancy before generation;
+9. retains generated configuration JSON/OBJ as derived evidence, not replacement Object source assets.
+
+No Universal Creation code, Profession Fabric structure, Hard-Surface geometry, Rigging, Animation, Materials or target-host implementation was changed.
+
+## Exact multi-output evidence
 
 Exact-head workflow:
 
-- `35065474333 — Procedural sapling variation family`: **SUCCESS** on Python 3.11 / 3.13, including legacy evidence plus the new cross-source probe;
-- `35065474446 — Nature organic form baseline`: **SUCCESS**.
+`35070305663 — Object service-module configuration family evidence`: **SUCCESS**.
 
-Retained cross-source artifact:
+- Python 3.11: compile PASS, full repository test suite PASS, exact family evidence PASS, retained artifact upload PASS;
+- Python 3.13: compile PASS, full repository test suite PASS;
+- inherited service-module fit workflow `35070305514`: **SUCCESS**;
+- inherited asymmetric registration-key workflow `35070305618`: **SUCCESS**.
 
-- ID `10434505038`;
-- name `tree-branch-crown-cross-source-001-d535484d4c3623a32fc9f5dc44b0856619b9b1ec`;
-- exact head binding `d535484d4c3623a32fc9f5dc44b0856619b9b1ec`;
-- size `367,425` bytes;
-- SHA-256 `7098f308b63bd4b6d8e121255f67378979045d6849abd9c22370bd4d087b9102`.
+Retained artifact:
 
-The retained ZIP was downloaded and independently rehashed to that exact digest. Its `summary.json` reports:
+- ID `10435283623`;
+- name `utility-module-configuration-family-001-evidence`;
+- exact head `4fd7546d520b515533678464307d7a49d13479e0`;
+- size `11,660` bytes;
+- GitHub SHA-256 `3c392289903f0c0460491a83cc817965b6bf1f074d32557f247cb9705d9b368c`.
 
-`PASS_BRANCH_CROWN_MUTATOR_THREE_SOURCE_PROBE`
+The archive was downloaded and independently rehashed to the exact same SHA-256. Its retained `exact-head.txt` equals the real Procedural branch head.
 
-Exact retained output count: **9** — three seeds for each of three materially different exact source bodies. All **9/9 source digests are distinct** and all **9/9 mesh digests are distinct**.
+Scoped result:
 
-Per-source retained pressure:
+**`PASS_BOUNDED_SERVICE_MODULE_CONFIGURATION_FAMILY`**
 
-| source | seeds | moved branch tips | changed leaf blades | envelope |
-|---|---|---|---|---|
-| sapling west-A | `11 / 47 / 101` | `5 / 5 / 5` | `24 / 25 / 25` | PASS |
-| compact east-B | `17 / 59 / 131` | `5 / 5 / 4` | `24 / 23 / 25` | PASS |
-| east-rear A | `23 / 71 / 149` | `5 / 5 / 5` | `24 / 25 / 24` | PASS |
+Prerequisites reproduced inside the family evidence:
 
-All retained candidates also pass the existing Nature structural/design evaluator, preserve exact branch attachments and preserve every non-authorized source field.
+- `PASS_BILATERAL_SERVICE_MODULE_FIT_PROOF`;
+- `PASS_ASYMMETRIC_REGISTRATION_KEY_PROOF`.
 
-The retained archive contains front/side/top wire evidence for all nine outputs. Direct inspection of the nine front views shows that each source body keeps its recognizable source silhouette while seeds visibly alter branch direction/length and leaf-fan read. This is only a non-identity sanity observation; it is not Art Direction or Visual QA acceptance.
+Four materially different retained outputs are required and present:
 
-## Failure bounds retained for every source
+| configuration | occupied sockets | instances | vertices | triangles | configuration digest | transformed-mesh digest |
+|---|---|---:|---:|---:|---|---|
+| `empty` | none | 0 | 0 | 0 | `f040da866249c448d4474cecffe249ee01b9abc2d28eb95d2b94e47379afa9ca` | `d485a11fd819e6f90c2d1842b0534178093270d8cc4de18744ebcd10bd377351` |
+| `left-only` | `left_service` | 1 | 8 | 12 | `71ca438e151ff79f8df72f3627e7807fc3cdc89387960511e6bca739db1a4443` | `7f2472dccd1947e907caf22f9cd749cf0e123a5d9f152b21687d3c4d16cd7628` |
+| `right-only` | `right_service` | 1 | 8 | 12 | `b8d17e413656a223dbeef93f1ba3938da80f081d488ca9ef4b910d6c45d79773` | `7d07222483966ebd4281881f7552f499b3e0342a7f245c593532a9ed63987940` |
+| `bilateral` | left + right | 2 | 16 | 24 | `001f80eca12e8f77d0b6063af3735676fbff50b967c2ca14e7aa64349871fb39` | `23d985839dede2b51a588276e1431bb1f01ad36f87c81bfadfb6ba0946f890cc` |
 
-Each of the three source profiles receives its own synthetic impossible-envelope control:
+Result: **4/4 distinct configuration digests and 4/4 distinct transformed-mesh digests**.
 
-- attempt limit: exactly `3`;
-- envelope: exactly 50% of that source profile's allowed receiving envelope;
-- required outcome: `HOLD_NO_VALID_VARIANT`.
+The left/right outputs are not one lucky identical placement under different names. Their exact transformed body ranges are mirrored into materially different world-space locations:
 
-All three exhaust all three attempts and HOLD. No mutation range or acceptance threshold is widened and no least-bad candidate is promoted.
+- left X: `[-0.515, -0.42000000000000004] m`;
+- right X: `[+0.42000000000000004, +0.515] m`;
+- both retain Y `[-0.054,+0.054] m` and Z `[0.121,0.199] m` from the exact same module source.
 
-This matters because the reusable value is not only deterministic generation; it is deterministic refusal when source-owned bounds cannot be satisfied.
+Requesting bilateral occupancy in reversed parameter order (`right,left`) reproduces the same canonical bilateral configuration and mesh digests as (`left,right`).
+
+## Failure bounds retained
+
+The family is deterministic rather than search-based, so its failure bound is a strict parameter/source boundary rather than an attempt count.
+
+Three retained negative controls all fail closed:
+
+1. unknown `roof_service` -> `HOLD_INVALID_CONFIGURATION`;
+2. duplicate `left_service,left_service` -> `HOLD_INVALID_CONFIGURATION`;
+3. deliberate host-source digest drift -> `HOLD_INVALID_CONFIGURATION`.
+
+Exact retained failure policy:
+
+`FAIL_CLOSED_NO_FALLBACK_SOCKET_NO_BOUND_WIDENING`
+
+No nearest socket is substituted, no source ref is swapped, no receiving scale or extra rotation is introduced, and no fit/registration tolerance is widened to manufacture an output.
 
 ## Placement boundary
 
-The result supports one reusable **Nature-local branch/crown mutator**. It does not support a universal vegetation ontology or moving Nature semantics into UC.
+This result supports one reusable **Object-local source-space configuration assembler**.
 
-Ownership remains:
+It does **not** justify centralizing “attachment” into UC or Profession Fabric.
 
-- Nature source bodies own trunk/form intent/flex/design/handoff semantics;
-- Nature procedural profiles own source-specific variation ranges and envelopes;
-- the shared Nature mutator owns only the narrow branch/crown operation and bounded rejection loop;
-- Environment owns whether any candidate belongs in a scene;
-- Art Direction / Visual QA own perceptual acceptance;
-- Geometry owns any explicit cap-winding/source-migration decision;
-- VFX/Rigging own deformation/wind response;
+Current capability placement remains consistent with Capability Cartography:
+
+- Object Hard Surface owns host/module/interface/registration construction semantics;
+- Procedural Design owns only deterministic occupancy assembly over those exact authored interfaces;
+- Technical Art owns target-host transport/binding;
+- Rigging owns articulation/clearance interactions;
+- Animation owns the lid clip;
+- Runtime owns future live-update/performance evidence;
+- Cartography's Layer-A cross-domain manufactured-interface evidence proposal remains separate and unimplemented;
+- Wreckline's live target-host module swap remains separate Layer-B evidence;
+- physical 3D attachment constraints remain unproved Layer C;
 - Universal Creation remains unchanged;
-- Profession Fabric remains unchanged and EXPERIMENTAL;
+- Profession Fabric remains unchanged;
 - `axm-create-me` records coordination only.
 
-The previous Profession Fabric three-domain procedure proof remains valid historical evidence at exact head `ddb71acd9c7b463088d25385d528936a074cca3c`. It pins the older Nature Procedural head `f939ae78ae6bb986aa67d557d7f8ff977abb7775`; this activation does not silently rewrite that experiment.
+Building is not silently converted into the same family. Its pavilion panel receivers have different source semantics and are currently inside an active Materials/Map visual gate. The existence of another manufactured receiver pattern is evidence for Cartography, not authority for Procedural to clone Object's occupancy family into Building.
 
 ## Truth boundary / non-claims
 
 This PASS does **not** establish:
 
-- species generation or botanical/biological correctness;
-- a universal vegetation generator, Geometry Nodes language or cross-domain mutation engine;
-- better/final art direction;
-- Environment acceptance of any generated variant;
-- topology migration or Geometry PR #7 acceptance;
-- deformation, wind physics, rigging or animation quality;
-- materials/lookdev;
-- engine/runtime performance;
-- gameplay;
-- production readiness or CANON;
-- Procedural Design mastery;
-- a reason to alter Universal Creation or promote the experimental Profession Fabric procedure.
+- runtime attach/detach or live module swapping;
+- 3D physical attachment constraints;
+- full-mesh collision freedom;
+- fastener retention, load, tolerance, wear or manufacturing acceptance;
+- controller/state-machine behavior;
+- gameplay usefulness or balance;
+- target-host import/render equivalence for every generated configuration;
+- final Materials, Art Direction or Visual QA acceptance;
+- a universal attachment fitter or cross-domain module ontology;
+- UC extraction or Profession Fabric promotion;
+- CANON or production readiness;
+- Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** exact source revisions/digests, exact procedural head, nine distinct outputs and all three bounded HOLD paths are retained; visual inspection is labelled only as non-identity evidence.
-- **Agency / non-domination:** source-specific form intent, envelopes and downstream acceptance stay with their owning repos/specialists. The mutator cannot silently broaden authority.
-- **Continuity:** the existing Nature Procedural PR is extended in place; legacy v0.1 remains reproducible; previous Profession Fabric evidence stays pinned to its historical Nature head.
-- **Wisdom before speed:** one repeated operation is generalized only after three real source bodies expose it; UC and Profession Fabric are left unchanged rather than abstracted prematurely.
+- **Truth:** exact prerequisite head/source hashes, exact Procedural head, four retained configuration/mesh digests, three retained HOLD controls and independently rehashed evidence are recorded. Runtime/physics claims remain false.
+- **Agency / non-domination:** Hard Surface retains source/interface meaning; Technical Art, Rigging, Animation, Runtime and Cartography keep their own gates. Procedural cannot invent sockets, transforms or acceptance outside the exact Object allowlist.
+- **Continuity:** the lane stacks exactly on Hard-Surface PR #9 and leaves host/module/registration sources unchanged. The previous Nature procedural family remains valid and separately addressable.
+- **Wisdom before speed:** only a literal repeated bilateral placement task was automated. Cross-domain extraction, live runtime swapping and physics were deliberately not added from one Object family.
 
 ## Handoffs / next Procedural gate
 
-- **Capability Cartography:** three exact Nature source bodies now prove literal reuse of the same mutation implementation. Treat that as evidence for Nature-local placement; do not infer UC extraction merely because the operation repeats.
-- **Organic Form:** source identity is preserved. Future source bodies can opt into v0.2 only with explicit source profile/provenance; no source is automatically proceduralized.
-- **Environment / Art Direction / Visual QA:** the nine variants are evidence samples, not scene candidates by default. If one is considered for Map, compose it explicitly and rerun the receiving visual gate.
-- **Geometry:** the cross-source procedural probe intentionally does not consume the derived cap-winding repair. Source migration remains a separate explicit decision.
-- **Procedural Design next pass:** look for another literal repeated creation operation that now appears in multiple real source families. Do not broaden this Nature mutator into species generation, buildings, objects or cross-domain mutation without independent evidence.
+- **Hard Surface / Object:** no source rewrite requested. If socket/interface construction changes, this family must fail identity checks and be explicitly rebound rather than silently following drift.
+- **Technical Art:** PR #7 currently proves one exact right-side target-host handoff. If target-host configuration testing becomes useful, it can consume these exact derived occupancy receipts, but this Procedural PASS must not be relabeled as runtime attach/detach.
+- **Rigging / Animation:** bilateral occupancy generation does not inherit lid-clearance or motion acceptance beyond their separately pinned evidence. Recheck only if generated configuration state becomes an input to those lanes.
+- **Capability Cartography:** record this as Object-local configuration assembly over Layer-A source frames. It is not a second Layer-B live runtime consumer and not Layer-C physics evidence.
+- **Procedural Design next pass:** continue looking for literal repeated creation work that has emerged from real source families. Do not create generic attachment/configuration infrastructure merely because this Object family is green.
