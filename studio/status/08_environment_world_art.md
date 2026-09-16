@@ -1,181 +1,182 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_CURRENT_WORLD_INDEXED_OBJECT_WITH_FOOTPRINT_COMPOSITION / VISUAL-QA CUE ACCEPTANCE + TARGET-DEVICE PERF HELD**
+State: **ACTIVE / PASS_CURRENT_WORLD_NATURE_SOURCE_WINDING_MIGRATION_TARGET_HOST_REACHED / ART-DIRECTION + VISUAL-QA NATURE RECEIVER ACCEPTANCE + TARGET-DEVICE PERF HELD**
 
 ## Authority / continuity
 
 `axm-create-me` remains **coordination only**. Implementation and retained evidence stay in the existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment lane was opened.
 
-Map owns receiving composition and the reversible west Object footprint cue. Object retains source geometry, scale, transform and mechanical authority. Object Materials retains material-role/scalar authority. Building, Nature and Weather retain their source authority. Runtime owns target-device performance and optimization acceptance. Art Direction owns visual-direction preference; Visual Observer / QA retains independent defect/readability acceptance.
+Map owns receiving composition. Nature Geometry and Nature VFX retain source topology and deformation/visual-response authority. Building, Object, Object Materials and Weather/VFX retain their own source/material/presentation authority. Runtime owns target-device performance and optimization acceptance. Art Direction owns visual-direction preference; Visual Observer / QA retains independent visual acceptance.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Prior current-world decision preserved
+## Prior current-world base preserved
 
-The exact visible footprint cue review remains historical truth at Environment head `2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd`, artifact `10467822460`, SHA-256 `6e8ea42e2095beac7fad3770192502bf5114ef87206ec57542b3ccddfe055040`.
+The exact predecessor remains Environment head `b9d9ed28e9a826c4698014db5f91c59aba9dddfc`, workflow `35153287190`, artifact `10470116628`, SHA-256 `89e8accc714c8dc5900eaa835aeb3fd5b3b528dbd3f28e241c9c4b96832d714c`.
 
-Art Direction has since returned `PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_FOOTPRINT_CUE_PREFERENCE_012`: keep the exact existing Map cue visible, restrained, and separate from any Object rescale. Independent Visual QA of that cue and target-device performance remain separate held decisions.
+That state preserves:
 
-The underlying preferred five-surface Object-material world remains `6575cc38db9f0f62b14a82b352d8582edf89856d` with exact Object source `d3fa10a270faae7925811f44f03381fe5c5d0215`, Object Materials head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`, profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`, and cue id `environment:dressing:west-object-service-footprint-frame-001`.
+- source-owned segmented Building + accepted Building materials;
+- exact five-surface Object material family using Runtime PR #33's indexed representation;
+- the Art-Direction-preferred restrained visible west-Object footprint cue;
+- Nature woody/foliage material family;
+- source-width Weather presentation;
+- route, fixed cameras and lighting.
+
+Its 68 current-world frames remained byte-identical across the Object indexing adoption and reproduced the `-34,488 B` observed RenderingServer buffer reduction. Independent cue Visual QA and target-device performance remain separate.
+
+Runtime PR #34's later indexed footprint-cue candidate was inspected this activation but **not adopted**: it proves a small additional memory reduction with a retained one-pixel/one-LSB visual tradeoff, and Art Direction / Visual QA have not yet returned a preference for that tradeoff. Environment did not silently convert Runtime evidence into a visual decision.
 
 ## Selected bounded gap
 
-Runtime PR #33, exact head `ddd9e8b783b213c6e44bf5eea482de1d41918766`, proved a visually neutral post-normal `SurfaceTool.index()` optimization for the current five-surface Object receiver:
+Fresh constellation inspection found a stronger ready dependency than another Object/Building/Weather iteration:
 
-- before: `2,436` stored vertices, `0` indices, `812` triangles;
-- after: `468` stored vertices, `2,436` indices, `812` triangles;
-- same five Object material surfaces;
-- `68 / 68` Runtime control/candidate frames byte-identical in that PR's exact scope;
-- observed RenderingServer buffer delta `-34,488 B`, with no draw/object/primitive/texture-memory delta.
+- Nature Geometry PR #9 head `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d` source-owns the proven tapered-cap winding migration for three real Nature sources;
+- Nature VFX PR #11 head `0b9167ac6d7b6d94d9fef92720f8c60e3ef45700` rebinds the sapling visual-wind response to that migrated topology while preserving the response profile/vertex behavior;
+- both explicitly held current-world receiving acceptance for Environment / Art / QA.
 
-That Runtime proof predates the newer Art-Direction-preferred **visible footprint-cue** context. The missing Environment dependency was therefore producer adoption, not another optimization invention:
+The Environment question was therefore bounded to:
 
-> Can the exact Runtime PR #33 indexed Object representation be received inside the exact current visible-cue world without changing the preferred composition or weakening Building, Nature, Weather, route, camera, material or cue evidence?
+> Can the exact migrated Nature source lineage and rebound sapling response reach the newest real multi-asset current world without changing existing placements, material roles, Building, indexed Object + footprint cue, Weather, route, cameras or lighting?
 
-This outranked reopening Building, Nature, Object source, Object Materials, Weather/VFX or Runtime work because those lanes already own their respective active questions.
+## Material integration discovery: current world had mixed Nature lineage
+
+The first exact receiving attempt exposed two important continuity facts instead of being papered over.
+
+First, Map Nature receiver vertices are not stored at the Nature source-local origin. They are the exact generated/deformed Nature vertices plus an already-authored constant world-space translation. The first verifier incorrectly compared those receiver vertices directly to source-local vertices and failed with a `7.701644802490107 m` residual on the compact-east tree. That was a coordinate/placement-boundary mistake in the Environment verifier, not a source regression.
+
+The repaired receiver proves:
+
+`receiver_vertex = exact_current_source_or_deformed_vertex + existing_world_translation`
+
+with maximum residual **`8.881784197001252e-16 m`**. No Nature receiver vertex position or world placement is changed.
+
+Second, the parent world had **mixed winding lineage**:
+
+- `sapling-neutral-001`: historical winding; exactly **260** triangle windings replaced by the source-owned migration;
+- `compact-east-tree-neutral-001`: historical winding; exactly **260** triangle windings replaced;
+- `east-rear-tree-neutral-001`: already on the migrated lineage through the earlier rear-tree Environment lane; exactly **0** triangle changes and preserved as-is.
+
+All three keep exact triangle membership, `390 vertices / 570 triangles`, and the existing `520 woody / 50 foliage` material partition.
 
 ## Bounded Environment implementation
 
-Map PR #24 branch remains:
+Map PR #24 remains on branch:
 
 `studio/environment-weather-variant-object-convergence-001`
 
-Exact successful Environment head:
+Exact final tested Environment head:
 
-`b9d9ed28e9a826c4698014db5f91c59aba9dddfc`
+`dc9911714365393d3f33038ef8bfda9e057a37e5`
 
-Environment extends the exact visible-cue observer and changes only the already-emitted five-surface Object's internal ArrayMesh representation:
+Environment adds only a receiving/proof layer that:
 
-1. keep the existing five source-role surfaces and already-generated normals;
-2. import each exact surface into a fresh `SurfaceTool`;
-3. call `SurfaceTool.index()` after normals exist;
-4. commit the indexed surface;
-5. restore the exact existing material resource.
+1. checks out exact Nature VFX PR #11 and verifies Nature source migration PR #9 ancestry;
+2. regenerates the exact migrated Nature meshes from the source-owned generator;
+3. proves current Map placements are exact constant translations of those generated meshes;
+4. replaces only the missing sapling + compact-east triangle winding while recognizing the rear tree as already migrated;
+5. regenerates the exact migrated sapling response at all 17 current-world sample times and proves its receiver vertex sequence is unchanged up to the same existing world translation;
+6. preserves the current Nature woody/foliage materials, Building, indexed Object, visible Object footprint cue, Weather, route, cameras and lighting;
+7. runs the real Godot 4.7.2 GL Compatibility receiver and characterizes all retained image deltas rather than declaring them aesthetically neutral.
 
-No Object triangle membership, source scale/transform, material role/scalar, footprint geometry, Building, Nature, Weather, route, camera or lighting value is changed.
+Composition digest:
 
-## Failed verifier run preserved
+`50e3c3f10911514fe00a2431cc4c265e6539672d8e364063112f0b45660a9337`
 
-Dedicated run `35153033456` reached the intended Godot candidate and retained evidence but failed the verifier because the first verifier compared Godot `node_instance_id`, `mesh_instance_id` and `material_instance_id` numerically across two separate processes.
+## Failed drafts preserved
 
-Inspection showed those were the only Weather-observation differences. They are process-local resource IDs, not cross-process semantic identities. The repair therefore did **not** weaken Weather evidence: it compares all Weather semantics across processes while separately requiring one stable Weather node/mesh/material identity inside each receipt/process.
+Run `35158672534` failed in proof infrastructure because the GitHub runner did not yet have `pytest` installed. It is not acceptance evidence.
 
-The failed run remains historical provenance and is not acceptance evidence.
+Run `35158854956` then passed the exact Nature migration/VFX tests but failed the Environment structural build because the initial verifier treated Map's baked world translation as a source-geometry mutation. The repair changed the coordinate-boundary assumption only; no source identity, visual threshold or acceptance rule was weakened.
 
-## Real-host result
+The corrected placement-preserving implementation first passed end-to-end at head `ebd0b95ebca55b98203a24e6862a39f89660c7dd`, workflow `35159148525`. The documentation was then corrected to record the mixed-lineage/placement boundary explicitly, and the exact final head was rerun rather than inheriting the earlier PASS.
 
-Dedicated workflow **`35153287190 — Environment indexed Object with footprint current-world evidence` — SUCCESS** on pinned Godot 4.7.2 GL Compatibility.
+## Exact final real-host result
 
-Result:
+Dedicated workflow **`35159276610 — Environment Nature winding migration current-world evidence` — SUCCESS** on exact head `dc9911714365393d3f33038ef8bfda9e057a37e5`.
 
-**`PASS_CURRENT_WORLD_INDEXED_OBJECT_WITH_FOOTPRINT_COMPOSITION`**
+Structural result:
 
-Exact retained artifact:
+**`PASS_CURRENT_WORLD_NATURE_SOURCE_WINDING_MIGRATION_STRUCTURE`**
 
-- artifact ID `10470116628`;
-- size `5,593,347 B`;
-- SHA-256 `89e8accc714c8dc5900eaa835aeb3fd5b3b528dbd3f28e241c9c4b96832d714c`;
-- independently downloaded and rehashed to the same digest.
+Target-host result:
 
-### Object representation
+**`PASS_CURRENT_WORLD_NATURE_SOURCE_WINDING_MIGRATION_TARGET_HOST_REACHED`**
 
-Before Environment adoption:
+Retained artifact:
 
-- `5` surfaces;
-- `2,436` stored vertices;
-- `0` indices;
-- `812` triangles.
+- ID `10472785088`;
+- size `6,944,965 B`;
+- GitHub SHA-256 `6d54248209b7e5dbfc06b63bdf4867032984941cd2fcb3f63f3f0a16df7b8d4c`;
+- independently downloaded/rehashed to the same digest;
+- exact retained `environment_head` = `dc9911714365393d3f33038ef8bfda9e057a37e5`.
 
-After exact Runtime-donor indexing:
+## Real-scene evidence
 
-- `5` surfaces;
-- `468` stored vertices;
-- `2,436` indices;
-- `812` triangles.
+The receiver spans the actual current composition: Building + indexed five-surface Object + visible footprint cue + all three Nature receivers/material family + source-width Weather + route/cameras/lighting.
 
-Material surface order remains exact:
+Across `17 states × 2 cameras × 2 Weather modes = 68` exact predecessor/candidate frame pairs:
 
-1. `shell_coating`;
-2. `service_dark`;
-3. `hardware_steel`;
-4. `rubber_guard`;
-5. `interface_orange`.
+- `path_eye`: mean **611.4706 changed pixels / 0.0772059%**; min `520`, max `667`; maximum channel delta `137` LSB;
+- `elevated_oblique`: mean **5,943.4412 changed pixels / 0.7504345%**; min `5,914`, max `5,974`; maximum channel delta `126` LSB.
 
-### Visual / composition evidence
+The visual delta is real and follows the Nature receiver regions/corrected winding-generated normal/culling response. Environment does **not** convert those measured differences into an aesthetic PASS.
 
-Across the exact `17 states × 2 cameras × 2 Weather modes = 68` current-world frames:
+All `1,224` inherited Weather source-width observations remain valid; maximum projected-width residual remains **`0.00974698571769128 px`**, below the inherited `0.05 px` gate.
 
-- **68 / 68 candidate frames are byte-identical** to the exact visible-cue predecessor;
-- all `68 / 68` projected cue bounds are identical;
-- therefore no visual tradeoff is observed in the retained fixed-camera proof scope;
-- Building, Nature, Weather, route, cameras and lighting retain their exact receiving identities;
-- the existing visible footprint cue remains present and unchanged.
+Proof-host counter deltas relative to the exact indexed-Object current-world predecessor are **zero in both cameras** for:
 
-Visual tradeoff state:
+- draw calls;
+- objects;
+- primitives;
+- observed RenderingServer buffer memory;
+- observed texture memory.
 
-`NONE_OBSERVED__68_CURRENT_WORLD_FRAMES_BYTE_IDENTICAL_TO_EXACT_VISIBLE_CUE_REFERENCE`
-
-### Weather continuity
-
-- all `1,224` inherited Weather source-width observations remain valid;
-- maximum projected-width residual remains `0.00974698571769128 px`, below the inherited `0.05 px` gate;
-- one stable Weather node/mesh/material resource identity is required inside each Godot process while process-local numeric IDs are not falsely equated across independent processes.
-
-### Runtime characterization inside current Environment world
-
-In both retained cameras:
-
-- observed RenderingServer buffer memory: **`-34,488 B`**;
-- draw calls: `+0`;
-- objects: `+0`;
-- primitives: `+0`;
-- observed texture memory: `+0 B`.
-
-This reproduces the exact Runtime-donor observed buffer reduction inside the newer cue-visible composition. It is Environment producer-adoption evidence, **not** target-device performance acceptance.
+This is proof-host characterization only, not target-device performance acceptance.
 
 ## Decision / handoffs
 
 Decision:
 
-**`ADOPTION_READY_FOR_RECEIVER_REPRESENTATION__FOOTPRINT_VISUAL_QA_AND_TARGET_DEVICE_PERF_REMAIN_SEPARATE`**
+**`MIGRATED_NATURE_SOURCE_LINEAGE_REACHES_CURRENT_WORLD__FINAL_VISUAL_ACCEPTANCE_REQUIRES_ART_QA_REVIEW`**
 
-Map PR #24 comment `5704915750` returns the exact successful proof, retained failed-run provenance, visual neutrality, Weather continuity and Runtime boundary to the active Environment lane.
+Map PR #24 comment `5705646800` returns the exact receiver proof, mixed-lineage discovery, failed-draft provenance, Weather continuity, real image deltas and Runtime boundary to the active Environment lane.
 
-Runtime PR #33 comment `5704917754` confirms that its exact optimization has been received in the newer cue-visible current world and reproduces the exact `-34,488 B` observed buffer delta without visual or draw/object/primitive/texture drift. Runtime retains target-device performance authority.
+Nature Geometry PR #9 comment `5705648082` reports that the source-owned migration now reaches the multi-asset current world, including the explicit `260 / 260 / 0` mixed-lineage adoption and placement-preservation evidence. Nature remains source owner.
 
-Art Direction: its exact cue preference remains intact. This optimization neither strengthens nor weakens the cue aesthetically because the 68 retained frames are byte-identical.
+Nature VFX PR #11 comment `5705649233` reports that the exact migrated sapling response reaches all 17 current-world states without changing response profile or receiver vertex sequence beyond the existing Map translation. VFX remains response owner.
 
-Visual Observer / QA: independent cue acceptance remains open; this Environment PASS does not inherit or manufacture QA approval.
+Art Direction + Visual Observer / QA: review the retained current-world Nature delta before any visual-reference promotion. This Environment PASS intentionally does not manufacture visual preference.
 
-Object / Object Materials: no source, scale, transform, material role/scalar, articulation, utility-module or inner-lid authority changed.
+Runtime: proof-host counter shape is unchanged, but target-device CPU/GPU/FPS/VRAM/heap/thermal/battery acceptance remains held. Runtime PR #34's footprint-index candidate remains a separate visual-tradeoff decision and is not bundled into this Nature receiver.
 
-Building / Nature / Weather: unchanged.
+Building / Object / Object Materials / Weather: no authority or source value changed.
 
-UC / Profession Fabric / Capability Cartography: no generalized extraction or capability move is supported by this one exact producer-adoption proof.
+UC / Profession Fabric / Capability Cartography: no generalized extraction or capability move is supported by this one receiving proof.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- independent Visual-QA acceptance of the footprint cue;
+- final Art Direction or Visual-QA acceptance of the Nature receiver;
+- visual neutrality;
+- global outward-normal correctness beyond the pinned Nature migration evidence;
+- final normals, tangents, UVs, textures or sidedness policy;
+- physical wind or botanical/biomechanical correctness;
+- arbitrary-camera/FOV/resolution/renderer/display equivalence;
 - target-device FPS, CPU, GPU, VRAM, heap, thermal, battery or production performance;
-- draw-call reduction;
-- arbitrary-asset indexing safety or a universal mesh-indexing rule;
-- final Object source scale/prominence;
-- physical service-pad semantics;
 - collision, navigation, interaction or gameplay behavior;
-- arbitrary camera/FOV/resolution/renderer/display equivalence;
-- Object inner-lid or utility-module adoption;
+- Object footprint-index adoption from Runtime PR #34;
 - CANON;
 - production/game readiness;
 - Environment mastery.
 
 ## Four-root gate
 
-- **Truth:** the exact representation change, zero observed visual delta, inherited Weather evidence, observed buffer delta and failed verifier run remain distinct and inspectable.
-- **Agency / non-domination:** Environment only receives the exact optimization; Object, Materials, Art/QA and Runtime keep their own decision authority.
-- **Continuity:** the unindexed visible-cue predecessor, Runtime donor, failed verifier, repaired Environment head and retained successful artifact remain separately identifiable and rollbackable.
-- **Wisdom before speed:** reuse the already-proven exact optimization in the current world and verify it against the newest preferred composition instead of inventing another visual/system change.
+- **Truth:** mixed lineage, baked placement translation, two failed drafts, exact source/VFX heads, image deltas and zero proof-host counter deltas remain separately visible rather than being collapsed into a cleaner story.
+- **Agency / non-domination:** Environment receives only the supported source changes; Nature, VFX, Art/QA and Runtime retain their own decision authority.
+- **Continuity:** historical sapling/compact winding, already-migrated rear-tree lineage, prior current-world predecessor, failed verifier states, repaired implementation and exact final artifact all remain identifiable and rollbackable.
+- **Wisdom before speed:** close the exact missing Nature receiving dependency in the newest real scene rather than reopening source topology, inventing new art, or bundling the separate Runtime footprint-index tradeoff.
 
 The four AXM roots remain the merge gate.
