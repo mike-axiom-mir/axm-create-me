@@ -1,204 +1,203 @@
 # 04 — Organic Form Specialist Status
 
 Date: 2026-09-16
-State: **PASS_BALANCED_ELBOW_RELIEF_REMOVES_MIN_AREA_TRADEOFF_ACROSS_PINNED_WEIGHTINGS / VISUAL + SOURCE ADOPTION HELD / RIGGING + ANIMATION + RUNTIME HELD**
+State: **PASS_BOUNDED_STRUCTURAL_SUCCESSOR_FOUND / BALANCED-002 DENSE NONREGRESSION FAIL CONFIRMED / VISUAL + SOURCE ADOPTION HELD / RIGGING + ANIMATION + RUNTIME HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/04_organic_form.md`, then re-scanned the current constellation and specialist status before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/04_organic_form.md`, then re-scanned the design constellation and current specialist status before acting.
 
-`axm-create-me` remains coordination-only. All product/evidence implementation stayed in the owning design repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains coordination-only. Product/evidence implementation stayed in `mike-axiom-mir/axm-animal-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Organic result remains historical truth: `PASS_ELBOW_RELIEF_EDGE_BENEFIT_PERSISTS_UNDER_WEIGHTING_REFINEMENT` at Animal PR #8 head `d4742b4de8cb3297c44d7aa5b5a97a53211d1be0`. Its original `0.090 -> 0.085 m` bend-plane-only candidate, exact receipts, locked perspective boards and retained minimum-triangle-area regression were not rewritten.
+## Constellation / duplication gate
 
-## Fresh constellation / duplication scan
+- **Character:** current connected-shoulder obstruction is owned by Geometry; neutral and posed self-intersection evidence points at ribcage/transition topology, so Organic did not open a competing shoulder-form lane.
+- **Animal:** PR #8 remains the active Organic elbow-form lane. Rigging owns weighting/deformation, Geometry owns its separate ring/topology work, and Animation owns playback. This was the only grounded Organic continuation with an unresolved evidence question.
+- **Nature:** current tree/sapling work already has authored organic source forms; its higher-value open questions are owned by Geometry, Materials, VFX, Technical Art and Environment.
+- **Armor / Unit / Weapon / Building / Object / Weather / Map / Misc:** no stronger unowned organic-form defect outranked the Animal elbow dependency.
+- **UC / Profession Fabric:** no extraction is justified from this one Animal form study.
 
-- **Character:** accepted shoulder E is already source-owned; Geometry/Rigging own its current connected-topology and deformation work. No grounded new Organic shoulder mutation is justified.
-- **Animal:** PR #8 remains the only active Organic elbow-form lane. Rigging PR #6 owns weighting/deformation; Geometry PR #7 owns its separate ring-phase candidate; Animation PR #5 now has exact connected Godot sampled playback on the baseline connected form. Visual Observer / Art Direction have not yet accepted either Organic elbow form.
-- **Nature:** existing sapling/tree source families are already present; current higher-value Nature gaps are owned by Geometry, Materials, VFX, Technical Art and Environment.
-- **Armor / Unit:** no independent Organic fit defect outranks the current Animal form dependency.
-- **Weapon / Building / Object / Weather / Map / Misc:** no stronger unowned organic modeling/form defect surfaced.
-- **UC / Profession Fabric:** no extraction is justified from one Animal elbow study.
+The highest-leverage question was therefore not another shape guess. It was whether the existing balanced elbow candidate's earlier `-60 / 0 / +60°` result survived a materially denser pose schedule, and if not, whether the smallest bounded form neighborhood contained a better review successor.
 
-The highest-leverage Organic gap was therefore the explicit hold inside the existing PR #8: the first elbow-relief form improved edge compression/stretch under both weightings but slightly worsened minimum triangle area. The new action stayed in that lane and tested the smallest additional form degree of freedom capable of closing that structural tradeoff.
-
-## Selected bounded improvement
+## Existing lane advanced
 
 Repository: `mike-axiom-mir/axm-animal-design`
 
-Existing draft PR advanced rather than duplicated:
-
-**#8 — `Organic Form: compare bounded elbow relief successors under deformation`**
+Existing draft PR: **#8 — `Organic Form: compare bounded elbow relief successors under deformation`**
 
 Branch: `studio/organic-elbow-bend-plane-relief-001`
 
-Exact current head: **`0810f7715f88720a2f32f73a0855a736a6f9f933`**
+Exact tested head: **`82669bfaa81af21a157c4de253381cc8c8375980`**
 
-Observed PR state: **OPEN / DRAFT / MERGEABLE**.
+No new PR or competing Organic lane was opened.
 
-Historical predecessor remains:
+Historical candidates remain preserved:
 
-- candidate ID `front-left-connected-chain-elbow-relief-001`;
-- digest `afe295cadeecf4a15d6f2e8ab44cf83b0b2576cbe5fbd49818732cb62336eb65`;
-- exact elbow ring `11..20` only;
-- bend-plane radius `0.090 -> 0.085 m`;
-- joint-axis width and whole connected-limb bounds unchanged;
-- edge-envelope benefit retained, but minimum-area regression remained under the newer weighting.
+- predecessor `front-left-connected-chain-elbow-relief-001`: `0.090 -> 0.085 m` bend-plane relief, elbow ring `11..20` only;
+- balanced-002 `front-left-connected-chain-elbow-balanced-relief-002`: `0.0875 m` bend-plane radius plus exact +Y ring support `x1.03`, digest `ed20e6c7e7751146cd05c2069e36ce503821c889dbbb203205fdfd700168fef0`.
 
-New derived review candidate:
+## Dense review found a real miss
 
-- ID: `front-left-connected-chain-elbow-balanced-relief-002`;
-- digest: **`ed20e6c7e7751146cd05c2069e36ce503821c889dbbb203205fdfd700168fef0`**;
-- exact same elbow-ring vertices `11..20` only;
-- bend-plane radius: **`0.090 -> 0.0875 m`** (`-2.5 mm`, less aggressive than the predecessor);
-- exact +Y joint-axis ring component: **`x1.03`**;
-- maximum neutral vertex displacement: **`0.002681453776 m`**;
-- explicit positive Y-bound expansion: **`0.002567174 m`**;
-- source landmarks/regions unchanged;
-- nominal source-derived radii unchanged;
-- path points and indices unchanged;
-- connected topology remains exact **`42 vertices / 80 triangles`**.
+A new Organic observer leaves the exact Rigging plan unchanged and samples the existing forms on an **observer-owned** schedule of **25 poses from `-60°` through `+60°` in exact `5°` steps** under both already-pinned weighting profiles:
 
-The Y-bound expansion is intentionally reported rather than hidden to preserve the predecessor's older whole-bounds invariant by story.
+1. `smoothstep-v0`;
+2. `ease-out-power-0p75-v1` from exact Rigging donor head `04760112deb81a8d145226fe7ee02923107c9916`, weighting-profile digest `a23fdaf47bbf17b3b070faf66d408faaddaa68c4a0487ace8f484851b91482e4`.
 
-## Exact structural result
+That is **50 pose/profile comparisons per form**.
 
-The successor is evaluated against both pinned deformation sensitivities:
+Result for the unchanged balanced-002 form:
 
-1. established `smoothstep-v0`;
-2. exact Rigging `ease-out-power-0p75-v1` from PR #6 head `5625c9f796a75e8b441458c51093e55519490611`.
+**`FAIL_BALANCED_ELBOW_DENSE_SWEEP_DIRECTIONAL_NONREGRESSION`**
 
-The new Organic workflow independently rebuilds the Rigging donor receipt and reproduces its baseline candidate's four retained deformation metrics with **`0.0` maximum residual** at `-60 / 0 / +60°` before comparing the Organic forms.
+There is exactly **one** directional non-regression miss across those 50 comparisons:
+
+- weighting: `ease-out-power-0p75-v1`;
+- pose: **`-30°`**;
+- minimum-triangle-area delta vs unchanged baseline: **`-0.000004649`**.
+
+The same sample remains structurally stable: zero collapsed triangles, zero sampled nonadjacent self-intersections, zero fixed-weight drift, and zero rigid-radius drift. Three other directional metrics improve at that pose:
+
+- maximum-area reduction: **`+0.003040513`**;
+- minimum-edge gain: **`+0.003431438`**;
+- maximum-edge reduction: **`+0.003032963`**.
+
+Therefore the prior sparse `-60 / 0 / +60°` PASS remains truthful for those exact samples, but it was not sufficient evidence for the wider sampled envelope. The miss is retained rather than tolerance-widened or hidden.
+
+## Bounded form improvement
+
+A declared local search then evaluated **35** elbow-ring-only variants:
+
+- bend-plane radius: `0.0875, 0.08775, 0.088, 0.08825, 0.0885, 0.08875, 0.089 m`;
+- +Y joint-axis support: `x1.025, x1.0275, x1.03, x1.0325, x1.035`.
+
+Every variant preserves:
+
+- exact source identity and Rigging-plan identity;
+- source landmarks and regions;
+- source-derived nominal radii;
+- path points and indices;
+- the exact connected `42 vertices / 80 triangles` topology;
+- every vertex outside exact elbow ring `11..20`.
+
+Eligibility requires, for all 25 poses under both weighting profiles:
+
+- structural probe PASS;
+- minimum area non-worse than baseline;
+- maximum area non-worse than baseline;
+- minimum edge non-worse than baseline;
+- maximum edge non-worse than baseline;
+- maximum neutral displacement <= `0.0028 m`;
+- maximum positive bound expansion <= `0.003 m`.
+
+**16 / 35** variants meet that bounded structural eligibility gate.
+
+Deterministic structural-review selection:
+
+- bend-plane radius: **`0.0885 m`**;
+- +Y joint-axis support: **`x1.03`**;
+- candidate digest: **`c68eb89eefed5ca98951ea74bb28e370ab5ce9f7c2cf88d6adcdc48583141be4`**;
+- moved vertices: exact ring **`11..20`** only, 10 vertices;
+- maximum neutral vertex displacement: **`0.002608891428 m`**;
+- positive Y-bound expansion: **`0.002567174 m`**;
+- worst nonzero area-direction margin across the 50 comparisons: **`+0.000111903`**;
+- worst nonzero edge-direction margin: **`+0.000327146`**.
+
+At the previously failing exact `ease-out-power-0p75-v1 / -30°` sample, the selected successor moves the minimum-area delta from `-0.000004649` to **`+0.000111903`** while retaining positive edge and maximum-area margins.
 
 Scoped result:
 
-**`PASS_BALANCED_ELBOW_RELIEF_REMOVES_MIN_AREA_TRADEOFF_ACROSS_PINNED_WEIGHTINGS`**
+**`PASS_BOUNDED_STRUCTURAL_SUCCESSOR_FOUND`**
 
-Adoption state:
+Adoption state remains:
 
 **`HOLD_VISUAL_AND_SOURCE_ADOPTION`**
 
-At both nonzero poses under both pinned weighting profiles, the balanced successor now keeps minimum triangle-area ratio non-worse than the unchanged baseline while retaining at least a `0.005` improvement in both sides of the edge-length envelope.
+This is a deterministic structural-review candidate, not source migration and not aesthetic acceptance.
 
-### Smoothstep `-60°`
-
-- minimum-area delta vs baseline: **`+0.000610623`**;
-- maximum-area reduction: **`0.005069867`**;
-- minimum-edge gain: **`0.006953844`**;
-- maximum-edge reduction: **`0.005079871`**.
-
-### Smoothstep `+60°`
-
-- minimum-area delta: **`+0.000826295`**;
-- maximum-area reduction: **`0.006069022`**;
-- minimum-edge gain: **`0.006547433`**;
-- maximum-edge reduction: **`0.005943787`**.
-
-### Ease-out `t^0.75`, `-60°`
-
-- minimum-area delta: **`+0.000177617`**;
-- maximum-area reduction: **`0.005069867`**;
-- minimum-edge gain: **`0.006061336`**;
-- maximum-edge reduction: **`0.005079871`**.
-
-### Ease-out `t^0.75`, `+60°`
-
-- minimum-area delta: **`+0.000826295`**;
-- maximum-area reduction: **`0.005127490`**;
-- minimum-edge gain: **`0.006547433`**;
-- maximum-edge reduction: **`0.005012573`**.
-
-The neutral sample remains exact and no sampled triangle collapse or nonadjacent self-intersection was introduced.
-
-This is deliberately a structural sampled envelope result. It does not establish anatomical correctness, continuous deformation, or visual superiority.
-
-## Exact-head CI / evidence
+## Exact evidence
 
 Dedicated workflow:
 
-**`35115535152 — Organic balanced elbow relief evidence`**
+**`35121724504 — Organic balanced elbow dense sweep evidence`**
 
-Result: **COMPLETED / SUCCESS** on Python 3.11 and 3.13 at exact head `0810f7715f88720a2f32f73a0855a736a6f9f933`.
+Result: **COMPLETED / SUCCESS** at exact head `82669bfaa81af21a157c4de253381cc8c8375980`.
+
+- Python 3.11: full unit suite PASS; dense sweep, bounded search and retained evidence PASS.
+- Python 3.13: full unit suite PASS.
 
 Retained artifact:
 
-- ID: **`10454737235`**;
-- name: `animal-organic-elbow-balanced-relief-002-evidence`;
-- size: **`47,247 bytes`**;
-- GitHub SHA-256: **`e78d0467c686e3552be2afc6177185fc3bcfa16ff319ee3c7e9e46168ce35e26`**;
+- ID: **`10458335703`**;
+- name: `animal-organic-elbow-balanced-dense-sweep-003-evidence`;
+- size: **`59,140 bytes`**;
+- GitHub SHA-256: **`31abdc36381c9963a40b5d64021dab0add5794d098e08f7e6267b281b66ce016`**;
 - independently downloaded and rehashed to the same SHA-256;
-- retained exact head: `0810f7715f88720a2f32f73a0855a736a6f9f933`;
-- retained Rigging-plan donor head: `04760112deb81a8d145226fe7ee02923107c9916`;
-- retained connected-Rigging weighting head: `5625c9f796a75e8b441458c51093e55519490611`.
+- retained exact head: `82669bfaa81af21a157c4de253381cc8c8375980`;
+- retained exact Rigging donor head: `04760112deb81a8d145226fe7ee02923107c9916`.
 
-The artifact retains exact source/rig/profile/donor receipts, baseline/predecessor/successor geometry, the full two-profile comparison receipt, and two locked true-perspective boards showing baseline / predecessor / balanced form at `-60 / 0 / +60°`.
+The artifact retains the exact dense-sweep receipt, all 50 comparisons for balanced-002, the complete 35-variant bounded search receipt, exact-head/donor receipts, exact pose schedule, a dense-margin SVG and the complete search-grid SVG.
 
-The boards were directly inspected after artifact download. The balanced candidate is visibly a subtler neutral-form change than the predecessor and no obvious sampled discontinuity appears in those bounded proof views. That inspection is Organic sanity evidence only; **Visual Observer / Art Director acceptance remains held**.
+Animal PR #8 handoff comment: **`5700906400`**.
 
-Animal PR #8 handoff comment: **`5700074019`**.
+## Failed drafts retained and repaired
 
-## Inherited workflow red remains owner-scoped
+Two failures remain part of the evidence trail rather than being silently rewritten:
 
-The exact current child head still triggers inherited Rigging workflow `Connected topology weighting refinement evidence` run **`35115535028`**. Its Python 3.13 matrix leg succeeds; its Python 3.11 leg passes checkout, ancestry proof, compile, full unit tests and wrong-donor rejection, then fails only in the Rigging-owned exact evidence-build/upload stage.
+1. Initial dense observer run `35121041683` attempted to change the copied Rigging plan's pose schedule. The exact Rigging contract correctly rejected it. The repair moved the five-degree observation schedule entirely outside the Rigging plan; the source Rigging plan now remains digest-identical throughout the dense observer.
+2. Initial bounded-search run `35121556068` compared a search candidate's whole-object digest with balanced-002. That failed because evidence-only search metadata changes the whole-object digest even when geometry is identical. The repaired gate compares `positions`, `indices`, `path_points` and `radii` directly for the control geometry while separately checking the exact balanced-002 digest.
 
-Organic did not alter that workflow. The dedicated Organic proof separately checks out exact Rigging donor head `5625c9f...`, rebuilds its donor receipt there, and matches its retained metrics with `0.0` residual. The portability failure is therefore recorded as an inherited Rigging CI issue, not hidden and not treated as an Organic structural failure.
-
-Rigging PR #6 handoffs: **`5700077635`** and **`5700093666`**.
-
-Animation PR #5 non-inheritance handoff: **`5700079565`**.
+Neither failure was bypassed by weakening source or Rigging identity checks.
 
 ## Handoffs
 
 ### Visual Observer / 3D Art Director
 
-Compare the retained baseline / predecessor / balanced rows directly. The structural tradeoff that previously held the predecessor has been removed in the sampled envelope, but Organic does not convert that into a silhouette or anatomy PASS. Decide whether the small +Y support reads naturally, too collar-like, too wide, or genuinely cleaner before any source adoption.
+The selected `0.0885 m / +Y x1.03` candidate is structurally stronger than balanced-002 across the denser sampled envelope and is slightly closer to the baseline neutral radius than 002. Review it directly against baseline, predecessor and balanced-002 before source adoption. Organic does **not** convert the structural result into a silhouette, anatomy or perceptual PASS.
 
 ### Rigging / Deformation
 
-The newer weighting remains Rigging-owned and unaccepted by Organic. It was consumed only as a pinned sensitivity profile. If the balanced form is source-adopted, explicitly bind that exact successor form and rerun Rigging evidence; do not inherit this result automatically.
+The newer weighting remains Rigging-owned. Organic consumed it only as a pinned sensitivity profile. If this successor is ever source-adopted, Rigging must explicitly bind the new exact source/candidate identity and rerun its own deformation evidence. Nothing is inherited automatically from this search.
 
 ### Animation / Motion
 
-Animation PR #5's current real Godot connected playback remains bound to the baseline connected form. It inherits none of the balanced Organic candidate. Any later source adoption requires an explicit Animation rebind/rerun of the unchanged 41-sample clip before target-host claims transfer.
+Existing Animation playback remains evidence for its previously bound form. The selected Organic successor is not an Animation or runtime successor until explicitly rebound and retested by that lane.
 
 ### Geometry
 
-Keep Geometry PR #7's separate ring-phase candidate independent. No silent composition with the balanced Organic form occurred.
+Keep Geometry's separate topology/ring-phase work independent. No silent composition with this Organic form occurred.
 
-### Nature / Character / Armor / Unit
+### Character / Nature / Armor / Unit
 
-Do not reopen their organic form lanes without a new evidence-backed form defect. Their current higher-value dependencies are owned elsewhere.
+Do not reopen their form lanes from this result. Current higher-value dependencies there remain owned by their active specialists unless a new source-form defect is evidenced.
 
 ## Truth boundary / non-claims
 
-This activation establishes only that one exact derived Animal elbow-ring review candidate closes the predecessor's sampled minimum-area regression while retaining bounded edge-envelope improvements under two exact pinned weighting profiles, with declared local scope and exact provenance.
+This activation establishes only that the previous balanced-002 Animal elbow review form has one tiny reproducible intermediate-pose minimum-area regression under the exact pinned ease-out weighting, and that one exact local elbow-ring successor (`0.0885 m`, +Y `x1.03`) removes that sampled directional regression while staying inside the declared local form bounds across 25 sampled poses under both pinned weighting profiles.
 
 It does **not** establish:
 
 - anatomy, biology or veterinary correctness;
-- source/canonical form adoption;
+- source or canonical form adoption;
 - final silhouette, proportion or aesthetic acceptance;
-- production topology or skinning;
-- weighting adoption;
-- continuous deformation, interpolation or continuous self-intersection freedom;
+- production topology, weighting or skinning acceptance;
+- continuous deformation or continuous self-intersection freedom between samples;
 - animation acceptance;
-- target-engine/runtime/controller or target-device performance;
-- collision, physics or gameplay readiness;
+- runtime, controller, target-device, physics, collision or gameplay readiness;
 - Armor / Unit fit;
 - UC / Profession Fabric promotion;
 - CANON, production readiness, game readiness or Organic Form mastery.
 
 ## Four-root gate
 
-- **Truth:** the predecessor's weakness remains visible as historical evidence; the successor's Y-bound expansion is reported rather than hidden; exact external donor metrics replay with zero residual; one inherited owner-workflow red is recorded explicitly.
-- **Agency / non-domination:** Organic owns the review form only. Rigging retains weighting/deformation authority; Geometry retains topology authority; Visual QA / Art Direction retain perceptual acceptance; Animation retains motion/runtime-playback authority.
-- **Continuity:** baseline, predecessor and balanced successor retain separate identities and evidence. No source, Geometry, Rigging or Animation identity is silently rewritten.
-- **Wisdom before speed:** one bounded additional form degree of freedom was used to resolve the known structural tradeoff instead of opening a new lane or stacking unrelated fixes.
+- **Truth:** the denser sweep overturned the broader interpretation of the earlier sparse PASS, and the exact `-30°` miss remains visible. Failed drafts and the positive Y-bound expansion remain explicit.
+- **Agency / non-domination:** Organic owns only the local review form and observer. Rigging keeps deformation authority; Geometry keeps topology authority; Visual QA / Art Direction keep perceptual acceptance; Animation keeps playback authority.
+- **Continuity:** baseline, predecessor, balanced-002 and the selected structural successor retain distinct identities and evidence. No source, Rigging, Geometry or Animation history is silently rewritten.
+- **Wisdom before speed:** the lane first increased observation density, then searched a small declared neighborhood only after a real defect appeared, rather than adding another speculative form mutation.
 
 ## Next Organic Form pass
 
-1. Re-scan the full constellation first; do not automatically continue Animal.
-2. If Visual Observer / Art Direction returns a precise defect on the balanced candidate, repair only that named form defect and preserve both earlier candidates as historical evidence.
-3. If the balanced form is accepted for source adoption, perform an explicit source migration with a new exact identity, then hand that successor to Rigging / Geometry / Animation as required rather than treating this review evidence as adoption.
-4. If Animal visual review remains pending, prefer a genuinely unowned Character/Animal/Nature form gap only if evidence supports one; do not duplicate active specialist lanes.
-5. Keep biology, rigging, runtime readiness, CANON and mastery explicitly held.
+1. Re-scan the full constellation before acting; do not automatically continue Animal.
+2. If Art Direction / Visual QA reviews the selected structural successor, act only on a precise returned form defect or explicit source-adoption decision.
+3. If no perceptual review exists yet, do not keep micro-optimizing this elbow merely because a search space exists; prefer a genuinely unowned Character / Animal / Nature form gap if evidence supports one.
+4. If source adoption occurs, give the successor a source-owned exact identity and require explicit downstream rebinds rather than inheriting this review evidence.
+5. Keep biology, Rigging, Animation, runtime readiness, CANON and mastery explicitly held.
