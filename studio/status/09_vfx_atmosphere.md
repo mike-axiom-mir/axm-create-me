@@ -1,161 +1,192 @@
 # 09 — VFX / Atmosphere Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / PASS_MIGRATED_WOODY_WIND_RESPONSE_GODOT_CULLING_STABILITY / LEAF SIDEDNESS HELD TO GEOMETRY / CONTINUOUS PLAYBACK + SHADED LOOKDEV + MAP RECEIVING REVIEW HELD / PHYSICS + GAMEPLAY + TARGET_PERF + FINAL_ART HELD**
+State: **ACTIVE / PASS_MIGRATED_WOODY_WIND_RESPONSE_DENSE_PHASE_GODOT_RECEIVER / LEAF SIDEDNESS HELD TO GEOMETRY / WALL-CLOCK + PERCEPTUAL SMOOTHNESS + SHADED LOOKDEV + MAP RECEIVING HELD / PHYSICS + GAMEPLAY + TARGET_PERF + FINAL_ART HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/09_vfx_atmosphere.md`, then inspected newest specialist status and active work across the design constellation before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/09_vfx_atmosphere.md`, then inspected current specialist status and open work across the design constellation before choosing work.
 
-The highest-leverage non-duplicated gap remained in **Nature**, not Map Weather:
+The highest-leverage non-duplicated gap remained in **Nature PR #11**, not the already crowded Map Weather lane:
 
-- `axm-map-design` PR #25 plus Runtime follow-ups already occupy Weather receiving, cadence, caching and temporal-presentation work;
-- `axm-nature-design` PR #11 already owns the migrated sapling visual-wind rebind and had a green source-level deformation receipt, but explicitly did **not** establish Godot culling/shading/playback correctness under deformation;
-- Nature Geometry PR #10 separately owns explicit two-sided leaf-blade geometry, so this activation does not take leaf-sidedness;
-- an earlier Technical Art lane proved static migrated Nature reachability/culling, but not the five deformed migrated VFX samples.
+- Map PR #25 and Runtime follow-ups already own Weather receiving, cadence/cache and temporal-presentation work;
+- Nature Geometry PR #10 owns leaf-sidedness / two-sided leaf geometry and remains untouched here;
+- the previous VFX activation proved five migrated woody sapling deformation states reach real Godot with stable backface-culling behavior, but the dynamic receiving evidence was still sparse at only five source phases;
+- another isolated culling variant would duplicate already-green evidence, while denser direct source phases could test whether the established response remains structurally and visually reachable between the retained anchors without claiming interpolation or playback smoothness.
 
-This activation therefore extends the existing Nature VFX lane only with a bounded **real Godot target-host culling check for the migrated woody deformation**. `axm-create-me` remains coordination-only.
+This activation therefore stays inside existing Nature draft PR #11 and adds a bounded **dense direct-source phase receiver proof**. `axm-create-me` remains coordination-only.
 
-## Existing source-level boundary retained
+## Existing lineage retained
 
-Nature VFX draft PR #11 — `VFX: rebind sapling wind response to migrated Nature topology` — remains stacked exactly on source-topology migration PR #9.
+Nature PR #11 — `VFX: rebind sapling wind response to migrated Nature topology` — remains stacked on the migrated Nature topology branch.
 
-The established migrated-response contract is unchanged:
+The established contract remains unchanged:
 
 - source migration base: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
 - migrated neutral mesh digest: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`;
-- source JSON and hierarchical trunk / branch / leaf half-sine response remain unchanged;
+- source JSON and hierarchical trunk / branch / leaf half-sine response are not rewritten;
 - visual-only Weather direction remains `[1.0, 0.35]`;
-- retained deformation samples remain `0 / 0.125 / 0.25 / 0.375 / 0.50 s`;
+- response duration remains `0.50 s`;
 - lower anchor remains `z <= 0.92 m`;
-- peak displacement ceiling remains `0.18 m`.
+- peak displacement ceiling remains `0.18 m`;
+- the original retained samples remain `0 / 0.125 / 0.25 / 0.375 / 0.50 s` and remain authoritative anchors.
 
-Previous exact-head source-level workflow `35153768937` remains a valid historical PASS for `0b9167ac6d7b6d94d9fef92720f8c60e3ef45700`, with `PASS_MIGRATED_TOPOLOGY_VISUAL_WIND_RESPONSE_REBIND`, five retained samples, `0.18 m` peak displacement, `0.0 m` lower-anchor displacement and unchanged source/profile evidence.
+Historical source-level PASS `35153768937` and five-state Godot culling PASS `35159265484` remain valid evidence; this activation extends them rather than replacing them.
 
-## Bounded target-host implementation
+## Bounded dense-phase implementation
 
-Stayed inside existing Nature PR #11 on branch `studio/vfx-sapling-wind-response-migrated-001`.
+Exact Nature VFX branch:
 
-Current exact VFX head:
+`studio/vfx-sapling-wind-response-migrated-001`
 
-`99a0845d17aa709e1fe7dc5b2b85c7a6d841c24d`
+Current exact head:
 
-Added a dedicated Godot 4.7.2 GL Compatibility observer and workflow that:
+`e84ffc1231d3d3a0f65a8cb8a340f0f10e51a4f7`
 
-- regenerates the exact existing five migrated VFX mesh samples from PR #11;
-- binds the exact PR head and exact source-migration ancestry before rendering;
-- consumes the migrated sample mesh JSON directly;
-- converts Nature `+Z-up` coordinates to Godot `+Y-up` via `[x, y, z] -> [x, z, y]` and performs the matching single triangle-winding reversal required by that handedness change;
-- deliberately selects only trunk/branch **woody** regions and excludes all `leaf-blade` regions, preserving Geometry PR #10 ownership;
-- builds the dynamic samples with `SurfaceTool` in a neutral unshaded material so culling is isolated from lookdev;
-- renders five samples in two fixed isolated cameras at `720x720`, once with culling disabled and once with backface culling enabled;
-- requires pixel-identical culling-disabled vs cull-back images for every sample/camera pair;
-- requires exact visual neutral return between `0.0 s` and `0.5 s`;
-- requires the `0.25 s` peak sample to be visibly distinct from neutral in both cameras;
-- retains all PNGs, source evidence, exact head, Godot log and receipt.
+Added:
 
-No response profile, source semantics, camera acceptance standard, material look, physics model, gameplay rule or performance threshold was changed or introduced.
+- `tools/build_sapling_wind_response_dense_phase.py`;
+- `target-proof-vfx/observe_migrated_wind_dense_phase.gd`;
+- `.github/workflows/vfx-wind-response-dense-phase.yml`.
+
+The source builder evaluates the **existing response function directly** at 17 deterministic phases over the same 0.50 s response window. Phase spacing is `0.03125 s`; this is source-phase spacing only and is **not** a claim that the target can deliver a 32 Hz wall-clock cadence.
+
+The original five retained source samples are exact anchors at dense indices `[0, 4, 8, 12, 16]`. The proof requires their mesh digests to match the existing evidence exactly. It also requires:
+
+- identical topology throughout;
+- zero lower-anchor displacement within the existing bound;
+- exact neutral return at `0.50 s`;
+- monotonic rise to / fall from the existing half-sine peak;
+- mirrored half-sine source geometry within numerical tolerance;
+- every adjacent direct-source phase to be a non-zero geometry step.
+
+The Godot observer then feeds all 17 direct-source phase meshes through **one persistent `MeshInstance3D` per camera** in Godot 4.7.2 GL Compatibility. It deliberately tests only woody trunk/branch regions: `520` triangles are included and all `50` leaf triangles are excluded to preserve Geometry PR #10 ownership. The receiver uses a neutral unshaded material so this does not become a Materials/lookdev lane.
+
+Two fixed `720x720` cameras are retained: `ground_oblique` and `high_oblique`. The observer requires every adjacent phase to produce a real pixel delta, mirrored half-sine phases to return identical target-host pixels, exact neutral return, and a visibly distinct neutral-to-peak state.
 
 ## Retained failed provenance before PASS
 
-The first target-host attempt, workflow `35158873013`, failed before a valid Godot observation was produced. A diagnostics-only workflow change then retained the real host log.
+The first dense-phase exact-head attempt was workflow:
 
-Workflow `35159048512` exposed the bounded cause: a GDScript parser/type-inference failure in the observer (`path` could not be inferred from variant loop values). The repair at `99a0845d17aa709e1fe7dc5b2b85c7a6d841c24d` only makes sample/context/culling strings explicit. It does **not** alter source data, topology selection, cameras, culling modes, visual gates, response values or acceptance criteria.
+**`35163277751` @ `f78a2716a58bea22195988a0540538d96616604b` — FAIL before valid Godot observation.**
 
-Those failed attempts remain historical evidence rather than being silently rewritten as successful runs.
+The source evidence itself was not shown to have drifted. The observer rejected the parsed retained-anchor metadata because GDScript/JSON numeric-array equality did not preserve the expected typed comparison. The repair only normalized parsed anchor indices through explicit integer conversion and made affected GDScript numeric/index variables explicit.
 
-## Exact-head target-host evidence
+No source state, response semantics, phase count, phase spacing, cameras, woody/leaf partition, visual acceptance gate or truth boundary was loosened. The failed run remains historical evidence rather than being silently rewritten.
+
+## Exact-head PASS
 
 Dedicated workflow:
 
-**`35159265484 — Nature VFX migrated wind Godot culling evidence` — SUCCESS**
+**`35163387415 — Nature VFX migrated wind dense phase evidence` — SUCCESS**
 
 Exact tested head:
 
-`99a0845d17aa709e1fe7dc5b2b85c7a6d841c24d`
+`e84ffc1231d3d3a0f65a8cb8a340f0f10e51a4f7`
 
-Scoped result:
+Source result:
 
-**`PASS_MIGRATED_WOODY_WIND_RESPONSE_GODOT_CULLING_STABILITY`**
+**`PASS_MIGRATED_WOODY_WIND_RESPONSE_DENSE_SOURCE_PHASES`**
 
-Measured retained result:
+Target-host result:
 
-- Godot: `4.7.2-stable (official)`, GL Compatibility proof path;
-- samples: `5`;
-- fixed proof cameras: `2` (`ground_oblique`, `high_oblique`);
-- culling modes: `2` (`disabled`, `back`);
-- retained direct Godot PNGs: `20`;
-- source triangles per sample: `570`;
-- woody trunk/branch triangles tested: `520`;
-- leaf triangles intentionally excluded: `50`;
-- culling comparisons: `10 / 10` with exactly `0` changed pixels and `0.0` maximum channel delta;
+**`PASS_MIGRATED_WOODY_WIND_RESPONSE_DENSE_PHASE_GODOT_RECEIVER`**
+
+Measured source evidence:
+
+- direct source phases: `17`;
+- source intervals: `16`;
+- source-phase spacing: `0.03125 s`;
+- exact retained-anchor indices: `[0, 4, 8, 12, 16]`;
+- all five retained anchor mesh digests: exact match;
+- minimum adjacent maximum-vertex step: `0.00345864952741852 m`;
+- maximum adjacent maximum-vertex step: `0.03511625796290316 m`;
+- maximum mirrored half-sine geometry residual: `2.237726045655905e-16 m`;
+- exact neutral mesh digest at both `0.0 s` and `0.5 s`: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`.
+
+Measured real-Godot evidence:
+
+- Godot: `4.7.2-stable (official)`;
+- renderer path: GL Compatibility under Mesa llvmpipe on the CI proof host;
+- direct retained Godot PNGs: `34` (`17 phases x 2 cameras`);
+- one persistent receiver instance per camera across all 17 states;
+- woody triangles tested per phase: `520`;
+- leaf triangles intentionally excluded per phase: `50`;
+- every adjacent phase changed target-host pixels in both cameras;
+- `ground_oblique` adjacent deltas range from `220` to `2,275` changed pixels;
+- `high_oblique` adjacent deltas range from `278` to `2,793` changed pixels;
+- all mirrored half-sine phase-pairs: exactly `0` changed pixels in both cameras;
 - exact neutral return `0.0 s -> 0.5 s`: `0` changed pixels in both cameras;
-- neutral -> peak `0.25 s` direct visual delta: `11,184` changed pixels in `ground_oblique` and `13,459` in `high_oblique`;
-- maximum neutral -> peak channel delta: `0.749019619077444` in both cameras;
-- migrated neutral mesh digest remains `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`.
+- neutral -> peak direct delta: `11,184` changed pixels in `ground_oblique` and `13,459` in `high_oblique`;
+- neutral -> peak maximum channel delta: `0.749019619077444` in both cameras.
 
-This proves a narrow target-host fact: for the exact five migrated **woody** deformation samples and these two fixed cameras, enabling Godot backface culling produced no observed pixel loss relative to culling disabled, while the deformation remained visibly reachable and returned exactly to neutral.
+This proves a narrow dynamic-visual fact: the unchanged migrated woody response can be evaluated at 17 bounded direct source phases and those states can be consumed sequentially through a stable real-Godot receiving object in two fixed cameras without collapsing into duplicate frames or breaking its exact neutral/symmetry relationships.
 
-It does **not** prove anything about the excluded leaf blades.
+It does **not** prove continuous mathematical interpolation between those discrete states, wall-clock delivery at the `0.03125 s` source spacing, perceived smoothness, or target-device performance.
 
 ## Retained artifact
 
 Exact-head artifact:
 
-- artifact ID: `10472411259`;
-- name: `sapling-wind-response-migrated-godot-culling-99a0845d17aa709e1fe7dc5b2b85c7a6d841c24d`;
-- size: `303,876 B`;
-- GitHub SHA-256: `f6b5165e3b83c7a80a975227a539c4539be9b6462369ed1947ecdc17ba98e18b`;
+- artifact ID: `10473134604`;
+- name: `sapling-wind-response-dense-phase-e84ffc1231d3d3a0f65a8cb8a340f0f10e51a4f7`;
+- size: `387,984 B`;
+- GitHub SHA-256: `6d481a150dfd5916ef944e3d7c6e2ccf11f480cb2f18df63d63842c5cd8aa5fb`;
 - independently downloaded and re-hashed to the same SHA-256;
-- includes the exact-head source evidence, five OBJ + mesh-JSON samples, comparison SVGs, Godot target-host log, receipt and all 20 direct Godot PNGs.
+- contains `dense-summary.json`, exact-head binding, 17 source mesh JSONs, Godot target-host log, target-host receipt and all 34 direct Godot PNGs.
 
 ## Visual evidence / truth boundary
 
-This pass improves evidence quality rather than claiming a new artistic effect. The migrated sapling deformation was already source-level green; the new evidence proves the **woody dynamic shape survives the real Godot culling path in two bounded camera contexts**.
+The retained PNG sequence is valid evidence that the woody shape changes between every adjacent direct-source phase and returns with exact visual symmetry in the two bounded cameras. It is **not** a motion-perception study. Still images and discrete sequential application cannot establish that a person sees the deformation as smooth, natural or correctly timed.
 
-The proof intentionally uses a neutral unshaded material and five discrete samples. Therefore it does not establish:
+Still held:
 
-- leaf-blade sidedness or leaf acceptance — held to Geometry PR #10;
-- shaded material correctness, normals/tangents, translucency or final Nature lookdev;
-- continuous playback, interpolation, timing or perceived wind smoothness;
+- leaf-blade sidedness and leaf visual acceptance — Geometry PR #10;
+- shaded material correctness, normals/tangents, translucency and final Nature lookdev;
+- continuous interpolation / playback scheduling / wall-clock timing;
+- perceived motion smoothness or natural wind character;
 - Map/current-world receiving-scene equivalence;
-- physical wind, plant biomechanics, force/velocity correctness;
+- physical wind, plant biomechanics, force or velocity correctness;
 - gameplay, collision or damage behavior;
 - target-device CPU/GPU/FPS/VRAM performance;
-- arbitrary-camera or renderer equivalence;
+- arbitrary cameras/renderers;
 - Art Direction / Visual QA final acceptance;
 - CANON, production readiness or VFX mastery.
 
-## Previous Map Weather lane retained
+The CI host reports Mesa llvmpipe software rendering, so this run must not be used as target GPU/performance evidence.
 
-The prior opacity-normalized two-tap Weather candidate in Map PR #25 remains historical evidence at head `dd4a85223ba70f7086db2fdc292e4cb57ac38e47`:
+## Retained earlier evidence
 
-- real Godot 4.7.2 workflow `35147580525` succeeded;
-- zero-lag static-opacity confound was reduced to at most `1 LSB` channel difference;
-- clean transition-magnitude reduction was only about `0.028%` in `path_eye` and `0.380%` in `elevated_oblique`;
-- authored `32 Hz / 31.25 ms` delivery remains FAIL / unproven;
-- perceptual smoothness, final Art Direction and target performance remain held.
+### Five-state Godot culling pass
 
-This activation did not add another Map temporal variant because that would duplicate active receiving/runtime work for diminishing evidence value.
+Workflow `35159265484` at head `99a0845d17aa709e1fe7dc5b2b85c7a6d841c24d` remains `PASS_MIGRATED_WOODY_WIND_RESPONSE_GODOT_CULLING_STABILITY`: five migrated woody states x two cameras x culling-disabled/back-cull, `10 / 10` culling comparisons with `0` changed pixels, exact neutral return and visible neutral-to-peak deformation. Artifact `10472411259`, SHA-256 `f6b5165e3b83c7a80a975227a539c4539be9b6462369ed1947ecdc17ba98e18b`.
+
+### Source-level migrated rebind
+
+Workflow `35153768937` remains the historical source-level PASS for the migrated response rebind, preserving the existing response ceiling, anchor, source identity and five retained samples.
+
+### Map Weather temporal lane
+
+The opacity-normalized Weather candidate in Map PR #25 remains historical evidence at head `dd4a85223ba70f7086db2fdc292e4cb57ac38e47`. Its real-Godot proof succeeded, but authored 32 Hz / 31.25 ms delivery remains FAIL/unproven and the clean measured transition-magnitude reduction after opacity normalization was small. This activation deliberately did not add another Map temporal variant.
 
 ## Handoffs
 
-**Nature Geometry:** the 50 leaf triangles are explicitly excluded. Geometry PR #10 remains the correct owner for leaf-sidedness proof and any two-sided leaf geometry decision.
+**Nature Geometry:** the 50 leaf triangles remain explicitly excluded. Geometry PR #10 remains the owner for leaf-sidedness and two-sided leaf geometry decisions.
 
-**Visual Observer / QA + 3D Art Director:** if PR #11 is adopted, the next meaningful visual review is continuous/shaded receiving context, not another isolated culling duplicate. This PASS is not final visual acceptance.
+**Visual Observer / QA + 3D Art Director:** the next useful judgment is whether a real timed/shaded receiving sequence reads as natural and smooth. This dense discrete PASS is not perceptual or final visual acceptance.
 
-**Runtime / Optimization:** no performance claim is made. The proof host and direct renders are evidence of reachability/culling stability only.
+**Runtime / Optimization:** if this response is later scheduled continuously, timing/cost should be measured on a meaningful receiving path and target hardware. The `0.03125 s` spacing here is source sampling, not a performance claim.
 
-**Map / Environment:** no claim is made that current-world receiving scenes already consume this migrated dynamic mesh.
+**Map / Environment:** no claim is made that current-world receiving scenes consume this migrated dynamic mesh.
 
 ## Four-root check
 
-**Truth:** source-level deformation, target-host culling, leaf exclusion and all held claims remain separate. The failed parser runs are retained rather than erased, and the final exact-head PASS is separately identified.
+**Truth:** exact source phases, target-host reachability, source spacing, failed provenance, leaf exclusion and all held claims remain separated. No wall-clock or perceptual conclusion is inferred from discrete images.
 
-**Agency / non-domination:** Nature retains source ownership, Geometry retains leaf-sidedness, QA / Art retain visual acceptance, Runtime retains performance authority, and no merge/CANON authority is assumed.
+**Agency / non-domination:** Nature retains source ownership, Geometry retains leaf-sidedness, Materials/Art retain shaded look and acceptance, Runtime retains performance/timing authority, and no merge/CANON authority is assumed.
 
-**Continuity:** the existing PR #11 response and five-sample evidence are preserved; the target-host proof extends that lineage instead of replacing it or rebuilding from scratch.
+**Continuity:** the existing PR #11 response, original five source anchors and previous Godot culling evidence remain authoritative. The 17-state proof extends that lineage rather than silently replacing it.
 
-**Wisdom before speed:** one explicit engine-boundary gap was tested with real Godot evidence while avoiding the already crowded Map Weather lane and the active Geometry leaf lane.
+**Wisdom before speed:** one bounded evidence gap was closed with direct source evaluation and real target-host observation while avoiding duplicate Map Weather, Geometry leaf and Materials/lookdev lanes.
 
 The four AXM roots remain the merge gate.
