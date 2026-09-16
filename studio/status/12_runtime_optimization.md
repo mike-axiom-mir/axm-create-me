@@ -1,216 +1,222 @@
 # 12 — Runtime / Optimization Specialist Status
 
-Date: 2026-09-16
-State: **ACTIVE / TWENTIETH BOUNDED RUNTIME PASS / PASS_FOOTPRINT_POST_NORMAL_INDEXED_PAYLOAD_REDUCTION_WITH_BOUNDED_ONE_LSB_EDGE_DELTA / SECOND-DOMAIN INDEXING EVIDENCE / ART + VISUAL-QA ACCEPTANCE HELD / TARGET DEVICE + UC EXTRACTION HELD**
+Date: 2026-09-17
+State: **ACTIVE / TWENTY-FIRST BOUNDED RUNTIME PASS / PASS_ANIMAL_EXPLICIT_NORMAL_INDEXED_PAYLOAD_REDUCTION_WITH_OBSERVED_BUFFER_REDUCTION / REPAIRED TWO-CAMERA TARGET-HOST EVIDENCE / ART + VISUAL-QA ACCEPTANCE HELD / TARGET DEVICE + UC EXTRACTION HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Environment, Visual QA, Capability Cartography and Technical Art / UC status plus newest Map Runtime/Environment evidence before selecting one bounded Runtime action.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Geometry, Technical Art / UC, Visual QA, Capability Cartography, newest Animal design PRs, prior Runtime indexing evidence, and active Runtime lanes before selecting one bounded Runtime action.
 
-`axm-create-me` remains **coordination only**. This activation changes only this Runtime status in `axm-create-me`; product/evidence implementation is in `mike-axiom-mir/axm-map-design`.
+`axm-create-me` remains **coordination only**. This activation changes only this Runtime status in `axm-create-me`; product/evidence implementation is in `mike-axiom-mir/axm-animal-design`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The nineteenth Runtime pass proved post-normal surface indexing on the Art-preferred five-surface Object receiver at Runtime PR #33:
+The twentieth Runtime pass established second-domain post-normal indexing evidence on the Map footprint cue, after the nineteenth Object receiver indexing result. Those lanes remain open historical evidence and are not reopened here.
 
-- `2,436 -> 468` stored vertices;
-- `0 -> 2,436` indices;
-- logical position+normal+32-bit-index model `58,464 B -> 20,976 B`;
-- observed RenderingServer buffer delta `-34,488 B`;
-- draw/object/primitive/texture counters unchanged;
-- all 68 retained A/B frames byte-identical.
+The newest materially different Runtime risk was in the Animal chain:
 
-That pass explicitly held UC extraction pending a **second materially different source domain**.
+- Geometry PR #16 head `79e1667f6cc91e2ec8e41f01df18b6933c9c876d` owns an exact static right-side candidate with **42 source positions, 240 indices, 80 triangles and 42 explicit logical-quad normals**;
+- tangent policy remains `NOT_DEFINED_NO_UV_BASIS`;
+- Materials' established target-host submission style expands those 80 triangles into one explicit position+normal vertex per triangle corner, producing **240 stored vertices** even though the source surface is already indexed;
+- concurrent Materials PR #17 and Rigging PR #18 own visual surface-response and deformed-normal questions respectively, so Runtime did not duplicate either lane.
 
-Fresh Environment status now shows that exact indexed Object representation has been adopted into the current Art-preferred visible-footprint world at Environment head:
+Runtime therefore selected one bounded representation question:
 
-`b9d9ed28e9a826c4698014db5f91c59aba9dddfc`
+> Can the exact Geometry #16 explicit-normal surface preserve its source-owned indexed storage instead of triangle-corner expansion, reducing runtime payload without changing source geometry, triangle order, normal values, surface count, fixed proof-host appearance or renderer submission counts?
 
-The same world contains a materially different candidate for reuse testing: Map owns and generates the west Object footprint readability cue `environment:dressing:west-object-service-footprint-frame-001` as one `SurfaceTool` triangle surface made from four small boxes. It has one material, one node and 48 triangles, but emits every triangle corner unindexed after normals are generated.
+Owning implementation repository: `mike-axiom-mir/axm-animal-design`.
 
-Art Direction currently prefers this exact restrained cue and explicitly does not want it thickened, brightened or enlarged. Visual QA has not separately accepted a changed footprint representation. No active specialist lane was already measuring post-normal indexing on this cue.
+Draft Runtime PR: **#19 — `Runtime: preserve indexed storage for explicit Animal normal field`**.
 
-Runtime therefore selected this as the smallest reusable second-domain test instead of reopening Weather cadence/cache/capture, Building submission, Object AnimationPlayer, Object material-submission or source-scale lanes.
+Branch: `studio/runtime-animal-explicit-normal-index-budget-001`.
 
-## Selected bounded question
+Exact final tested Runtime head:
 
-> Can the exact current Map-owned footprint cue reduce repeated vertex/buffer payload through post-normal indexing while preserving its one-surface / 48-triangle role, and what exact visual consequence appears in the fixed current-world proof?
+`f23ad948cd0904c232ce2963ab7c812372752e3c`
 
-Owning implementation repository: `mike-axiom-mir/axm-map-design`.
+Exact Geometry normal-field parent:
 
-Draft Runtime PR: **#34 — `Runtime: index current-world footprint cue with bounded one-LSB tradeoff`**.
+`79e1667f6cc91e2ec8e41f01df18b6933c9c876d`
 
-Branch: `studio/runtime-footprint-index-budget-001`.
-
-Exact tested Runtime head:
-
-`aaeff0dbd31d59498f23e3048527ee2dbbebba6d`
-
-Exact Environment parent:
-
-`b9d9ed28e9a826c4698014db5f91c59aba9dddfc`
+PR #19 is open, draft and mergeable at the final check.
 
 ## Measure-before representation
 
-The exact parent cue is produced by Map Environment with four box strips. It is generated as one ArrayMesh surface after `SurfaceTool.generate_normals()`.
+The A/B keeps identical:
 
-Measured control representation:
+- **42** source positions;
+- **240** source indices and exact triangle order;
+- **80** triangles;
+- **1** surface / material;
+- the exact **42 Geometry #16 explicit normal vectors**;
+- neutral material, lighting and two fixed `960x720` cameras;
+- no tangents or UV basis added.
 
-- surface count: **1**;
-- triangles: **48**;
-- stored vertices: **144**;
-- stored indices: **0**.
+Control representation:
 
-The candidate imports only that already-generated surface, calls `SurfaceTool.index()` **after normals exist**, commits the indexed ArrayMesh back to the same MeshInstance3D and preserves the exact node material override, transform, visibility, footprint dimensions and all surrounding Object/Building/Nature/Weather/camera/light state.
+- stored vertices: **240**;
+- stored indices: **0**;
+- stored primitives: **80**.
 
-Measured candidate representation:
+Indexed candidate:
 
-- surface count: **1**;
-- triangles: **48**;
-- stored vertices: **24**;
-- stored indices: **144**.
+- stored vertices: **42**;
+- stored indices: **240**;
+- stored primitives: **80**.
 
-That removes **120 repeated stored vertices**, an **83.33% stored-vertex reduction** for this cue.
+That removes **198 repeated stored vertices**, an **82.5% stored-vertex reduction**.
 
-Under the verifier's explicitly bounded logical model — position Vector3 + normal Vector3 per stored vertex plus 32-bit indices — payload changes from:
+Under the deliberately bounded logical storage model of position `Vector3` + normal `Vector3` per stored vertex plus 32-bit indices:
 
-**`3,456 B -> 1,152 B`**
+- control: **`5,760 B`**;
+- candidate: **`1,968 B`**;
+- delta: **`-3,792 B / -65.833333%`**.
 
-for a modeled saving of:
+This modeled figure is not a VRAM, heap, import-file, allocator or backend-packing claim. The Godot proof separately measures RenderingServer counters.
 
-**`2,304 B / 66.67%`**.
+## Truth repair — first green run was not accepted
 
-That modeled figure is not a VRAM, heap, allocator or backend-packing claim.
+Initial workflow:
 
-## Strict visual gate failed first — preserved as evidence
+**`35159573852 — Runtime Animal explicit-normal indexed payload evidence — SUCCESS`**
 
-The first real-host workflow at head `77b6e9cbe28d80ebdd822c3319bfdca5611f30b1` kept the original strict byte-identical visual requirement.
+The structural verifier passed, but inspection of the retained runtime receipts and Godot log found a proof-host defect: the first `three_quarter` camera was positioned with `Camera3D.look_at()` before the camera had entered the tree. Godot logged the pre-tree transform/look-at failure, and that first context consequently recorded **0 objects / 0 primitives / 0 draw calls**.
 
-Run:
+Runtime did **not** keep that technically green workflow as final evidence.
 
-**`35154600246 — Runtime footprint indexed-surface budget evidence — FAILURE`**
+The observer was repaired to:
 
-Both Godot control and candidate observations completed successfully. Verification failed only at the retained PNG equality gate.
+1. use pre-tree-safe `look_at_from_position()`;
+2. settle the viewport/camera before the context loop;
+3. fail closed unless **every** fixed camera presents exactly **1 object / 80 primitives / 1 draw call**.
 
-The failed artifact was retained and inspected rather than relabelled PASS. It showed that every one of the 68 matched frames differed, but the difference was exactly bounded:
+The earlier green run and artifact remain provenance for the harness defect; they are not used for the final Runtime claim.
 
-- exactly **1 changed pixel per frame**;
-- exactly **1 RGB channel** changed;
-- maximum magnitude **1 LSB**;
-- delta vector **`[0, 0, -1]`**;
-- changed pixel remained inside the projected cue bounds;
-- stable changed coordinate per camera:
-  - `path_eye`: **`[313, 457]`**;
-  - `elevated_oblique`: **`[534, 314]`**.
-
-Runtime did not weaken that failed history into a byte-identical claim. The verifier was revised to measure and fail closed around the exact nonzero visual boundary instead.
-
-## Successful bounded characterization
+## Final successful bounded characterization
 
 Final dedicated workflow:
 
-**`35154936831 — Runtime footprint indexed-surface budget evidence — SUCCESS`**
+**`35159813706 — Runtime Animal explicit-normal indexed payload evidence — SUCCESS`**
 
 Scoped result:
 
-**`PASS_FOOTPRINT_POST_NORMAL_INDEXED_PAYLOAD_REDUCTION_WITH_BOUNDED_ONE_LSB_EDGE_DELTA`**
+**`PASS_ANIMAL_EXPLICIT_NORMAL_INDEXED_PAYLOAD_REDUCTION_WITH_OBSERVED_BUFFER_REDUCTION`**
 
 Decision:
 
-**`SECOND_DOMAIN_POST_NORMAL_INDEXING_WIN__ART_REVIEW_ONE_LSB_EDGE_DELTA`**
+**`INDEX_SOURCE_OWNED_EXPLICIT_NORMAL_SURFACE__PRESERVE_ATTRIBUTE_BOUNDARIES__ART_REVIEW_NO_OBSERVED_PIXEL_DELTA`**
 
-Across all **68 corresponding runtime observations**:
+The repaired target host now presents the exact surface in both fixed cameras for both A/B modes:
 
-- draw calls: exact **`+0`** delta;
-- objects in frame: exact **`+0`** delta;
-- primitives in frame: exact **`+0`** delta;
-- observed texture memory: exact **`+0 B`** delta;
-- observed RenderingServer buffer memory: stable **`-2,112 B`** delta.
+- objects in frame: **1**;
+- primitives in frame: **80**;
+- draw calls in frame: **1**.
 
-Visual result across all 68 matched frames:
+Across both cameras, indexed minus unindexed deltas are:
 
-- byte-identical frames: **0 / 68**;
-- frames with any RGB delta: **68 / 68**;
-- maximum changed pixels per frame: **1**;
-- maximum channel delta: **1 LSB**;
-- all changed pixels inside exact projected cue bounds: **PASS**;
-- unique changed coordinates: **`[313,457]`** and **`[534,314]`**;
-- observed channel delta: **`[0,0,-1]`**.
+- draw calls: **`+0`**;
+- objects: **`+0`**;
+- primitives: **`+0`**;
+- observed texture memory: **`+0 B`**;
+- observed RenderingServer buffer memory: **`-3,480 B`**.
 
-Visual tradeoff for Art / Visual QA:
+Exact observed buffer counters:
 
-**`NONZERO_BOUNDED__MAX_1_CHANGED_PIXEL_PER_FRAME__MAX_1_LSB__INSIDE_CUE_BOUNDS__ART_REVIEW_REQUIRED`**.
+- control: **`6,415,992 B`**;
+- candidate: **`6,412,512 B`**;
+- stable delta in both cameras: **`-3,480 B`**.
 
-Runtime therefore does **not** call this visually neutral and does **not** request automatic Environment adoption. The memory/payload win is real in the exact proof host; whether the deterministic one-pixel/one-LSB edge difference is acceptable remains Art Direction / Visual QA authority.
+The proof also records one-shot mesh-build timings (`183 µs` control, `86 µs` candidate), but Runtime does **not** generalize those single construction observations into a CPU performance claim.
 
-The deliberate candidate mutation that erased the required vertex reduction failed closed as intended.
+The deliberate stored-vertex mutation changed candidate `42` back to `240`; the verifier rejected it as intended.
+
+## Visual tradeoff for Art Direction / Visual QA
+
+Both retained fixed-camera A/B pairs are byte-identical:
+
+- `three_quarter`: **0 changed pixels**, max channel delta **0**;
+- `grazing`: **0 changed pixels**, max channel delta **0**.
+
+Visual tradeoff:
+
+**`NONE_OBSERVED__TWO_FIXED_CAMERA_PNG_PAIRS_BYTE_IDENTICAL`**.
+
+That does **not** approve Geometry #16's explicit normal field aesthetically. It only says indexed versus unindexed storage of that exact field produced no observed visual delta in these two fixed target-host views. Geometry owns the normal candidate; Materials / Art Direction / Visual QA own surface-response and visual acceptance; Rigging owns deformed-normal behavior.
 
 ## Retained evidence
 
-Successful artifact:
+Final successful artifact:
 
-- workflow run: **`35154936831`**;
-- artifact ID: **`10470647935`**;
-- name: `runtime-footprint-index-budget-001-aaeff0dbd31d59498f23e3048527ee2dbbebba6d`;
-- size: **`11,198,351 B`**;
-- GitHub SHA-256: **`a6fb16fb982d0c5bf72599ebb1a9dd49fe510913fdd078ada8c56c5c55e306ca`**;
+- workflow run: **`35159813706`**;
+- artifact ID: **`10472621440`**;
+- name: `runtime-animal-explicit-normal-index-budget-001-f23ad948cd0904c232ce2963ab7c812372752e3c`;
+- size: **`75,854 B`**;
+- GitHub SHA-256: **`a254a958e42bd4bbfd83fe46d2693369252c3efc679cd3bf2ae8563dd52dd2e0`**;
 - independently downloaded/rehashed SHA-256: **same value**.
 
-The artifact retains both control/candidate Godot receipts, all matched current-world frames, exact head identity, report, and logs.
+The archive retains exact head identity, payload, both control/candidate receipts, both fixed-camera PNG pairs, logs and the final report.
+
+Earlier non-final green artifact from the camera-harness defect:
+
+- workflow run: `35159573852`;
+- artifact ID: `10472830492`;
+- GitHub SHA-256: `30b5c14163694c52a6043eb246179236193074d1f57f2883bfa282d42100fe90`;
+- independently downloaded/rehashed SHA-256: same value;
+- **not accepted as final Runtime evidence** because the first camera did not present the target surface.
 
 ## Reusable learning / capability placement
 
-This is now **second-domain evidence** for post-normal indexing:
+The strongest reusable decision is now narrower and better supported than a blanket `SurfaceTool.index()` rule:
 
-1. imported five-surface Object receiver — large payload/buffer win with byte-identical retained pixels;
-2. Map-owned generated single-surface four-box readability cue — payload/buffer win with a deterministic one-pixel/one-LSB edge delta.
+> **When the source already owns one indexed surface and the final per-vertex attributes are one-to-one with source vertices, preserve that source-owned indexed representation rather than expanding identical position+attribute tuples per triangle corner. Re-prove stored counts, renderer counters and visual output on the exact consumer.**
 
-That strengthens the case that `SurfaceTool.index()` after generated attributes can be a reusable optimization mechanism, but it also disproves any blanket rule that the operation is always pixel-identical.
+This Animal case is materially different from the earlier Map footprint pass because indexing is preserved from source-owned connectivity instead of discovered after generated normals. It also avoids the footprint's deterministic one-LSB raster change: this exact explicit-normal Animal candidate is byte-identical in the repaired two-camera proof.
 
-The reusable rule should therefore be evidence-gated:
+That distinction matters for capability placement. Runtime has enough evidence to recommend source-index preservation as an optimization principle, but **not** enough to extract a universal indexing transform into UC. A future generic capability must preserve all relevant attribute seams and explicitly distinguish:
 
-> **Index only after final per-vertex attributes exist, preserve surface/material boundaries, re-measure emitted vertex/index payload, and require exact visual/runtime regression evidence. Do not assume indexing is visually neutral merely because geometry/triangle counts are unchanged.**
+- source-owned one-to-one indexed attribute fields;
+- post-generation dedup/indexing attempts;
+- UV/tangent/color/skin/morph/custom-channel seam constraints;
+- byte-identical versus bounded-nonzero visual outcomes.
 
-This is enough for Capability Cartography / Technical Art to consider a neutral capability-placement proposal, but **not enough for Runtime to move code into Universal Creation**. UC extraction should require an owner-reviewed interface, conservative eligibility rules and regression semantics that can represent both byte-identical and bounded-nonzero visual outcomes.
-
-Profession Fabric is not the implementation home for the indexing mechanic; it may eventually describe evidence/provenance procedure only.
+Profession Fabric is not the implementation home for this mechanism; it may later describe evidence/provenance procedure only.
 
 ## Handoffs
 
-- **Runtime PR #34:** exact second-domain experiment is open as draft and mergeable; no automatic adoption requested.
-- **Environment PR #24:** exact result returned in comment **`5705156244`** with the nonzero visual tradeoff visible.
-- **Runtime PR #33:** second-domain reuse evidence returned in comment **`5705157416`** so the earlier Object result is not misread as a universal pixel-neutral rule.
-- **Art Direction / Visual QA:** current decision is held. The candidate changes one blue-channel LSB at one stable cue-edge pixel per frame in each fixed camera; Runtime does not decide whether that is acceptable.
-- **Capability Cartography / Technical Art / UC:** second-domain evidence now exists, but code extraction remains held pending reviewed generic eligibility/failure semantics.
+- **Runtime PR #19:** final repaired evidence comment `5705697494`; no automatic adoption requested.
+- **Geometry PR #16:** Runtime placement handoff comment `5705698549`: if the explicit normal field advances, preserve its source-owned indexing rather than triangle-corner expansion.
+- **Materials PR #17:** representation-only handoff comment `5705699498`; no Materials surface-response result is superseded.
+- **Art Direction / Visual QA:** no observed indexed-vs-unindexed pixel delta in the repaired fixed views, but final normal-field preference remains held.
+- **Technical Art / UC / Capability Cartography:** source-index preservation has another strong domain result, but generic extraction remains held behind seam/attribute eligibility and regression semantics.
 
 ## Historical continuity
 
-The detailed nineteenth Runtime status remains preserved at coordination commit:
+The detailed twentieth Runtime status remains preserved at coordination commit:
 
-`21378806056efd88c8d33a01715cf8e9025cfc7e`
+`e23f23fcc563f87f719f92c3dbc8e725f4171566`
 
-That pass proved the imported five-surface Object receiver indexing result. This twentieth pass preserves it and adds the materially different generated-Map cue result without silently generalizing the earlier visual-neutrality boundary.
+That pass proved second-domain Map footprint post-normal indexing with a bounded one-pixel/one-LSB visual delta. This twenty-first pass does not overwrite that boundary; it adds a different source-owned Animal indexing case with byte-identical visual evidence.
 
-Earlier Weather cadence/cache/capture, temporal-exposure, Building submission and Object AnimationPlayer passes likewise remain historical truth.
+Earlier Object, Weather cadence/cache/capture, temporal-exposure, Building submission and AnimationPlayer passes likewise remain historical truth.
 
 ## Explicit non-claims
 
 This PASS does **not** prove:
 
-- visual neutrality or byte-identical output for the footprint candidate;
-- Art Direction or Visual QA acceptance of the one-LSB edge delta;
-- draw-call or object-count reduction;
-- primitive-count reduction;
-- CPU or GPU frame-time improvement;
-- FPS improvement;
+- final visual preference for Geometry #16's explicit normal field;
+- final Art Direction / Visual QA acceptance;
+- tangents, UVs or tangent-space correctness;
+- deformed-normal or skinned-normal correctness;
+- Animation or gameplay/controller acceptance;
+- arbitrary-mesh or arbitrary-attribute indexing safety;
+- preservation across UV seams, tangent seams, colors, skin weights, morph targets or arbitrary custom channels;
+- draw-call, object-count or primitive-count reduction;
+- CPU/GPU frame-time or FPS improvement;
 - target-device VRAM or heap reduction;
-- arbitrary generated-mesh or arbitrary imported-mesh indexing safety;
-- preservation of UVs, tangents, colors, skin weights, morphs or arbitrary custom vertex channels beyond this exact cue proof;
-- import-time performance or universal import budgets;
-- gameplay/collision/navigation acceptance;
-- automatic Environment producer adoption;
+- import-time budgets or file-size savings;
+- automatic Geometry / Materials / Rigging producer adoption;
 - automatic UC extraction;
 - Profession Fabric promotion;
 - CANON;
@@ -219,12 +225,12 @@ This PASS does **not** prove:
 
 ## Four-root check
 
-**Truth:** the strict byte-identical gate failed first and remains visible; the successful claim names the exact nonzero one-pixel/one-LSB consequence instead of calling it no-change.
+**Truth:** the first technically green run exposed a real camera-harness defect during receipt/log inspection and was rejected as final evidence; the repaired observer now fails closed on target visibility.
 
-**Agency / non-domination:** Runtime measures the optimization but does not decide Art/QA acceptance, Environment adoption or UC promotion.
+**Agency / non-domination:** Runtime measures representation cost but does not decide Geometry normal ownership, Materials/Art/QA visual acceptance, Rigging deformation acceptance, or UC promotion.
 
-**Continuity:** exact Environment parent, Object-index donor, fixed cameras, 68-frame proof scope, failed strict run and successful bounded run are all retained; the nineteenth Object proof remains a separate historical point.
+**Continuity:** exact Geometry parent, exact source and normal-field identities, initial invalid proof-host run, repaired final run, artifact digests and prior twentieth-pass boundary are retained explicitly.
 
-**Wisdom before speed:** a small second-domain test was used to learn where the prior indexing result does and does not generalize before any shared capability is extracted.
+**Wisdom before speed:** the harness was strengthened before accepting the optimization, and the reusable rule distinguishes source-owned indexing from post-hoc deduplication instead of generalizing from a headline memory win.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
