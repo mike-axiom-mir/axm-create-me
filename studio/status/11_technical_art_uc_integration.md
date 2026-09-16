@@ -1,190 +1,241 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / UC_RIGID_SCENE_GRAPH_MERGED / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / PASS_DUAL_EVIDENCE_IDENTITY_BOUNDARY / PASS_EXACT_LID_RIG_TO_UC_TARGET_ENVELOPE / PASS_CURRENT_ANIMATION_SOURCE_AUTHORITY_TO_UC_RUNTIME_CLOCK / PASS_UC_RUNTIME_CLOCK_TO_GODOT_TARGET_HANDOFF / HOLD_UC_ADAPTER_PROMOTION / HOLD_RUNTIME_SUCCESSOR_REBIND / HOLD_WALL_CLOCK / HOLD_RUNTIME_CONTROLLER_INPUT / HOLD_TARGET_HOST_CONTINUOUS_COLLISION / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_MOTION_VISUAL / OBJECT STACK DRAFT**
+State: **PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_STRUCTURE / PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_TARGET_HOST / PASS_STABLE_RECEIVING_PREFIX_EXTENSION_CONTRACT / ENVIRONMENT_SUCCESSOR_ADOPTED / HOLD_RUNTIME_SUCCESSOR_REMEASURE / HOLD_CURRENT_WORLD_VISUAL_HIERARCHY / HOLD_UC_PROMOTION / MAP STACK DRAFT**
 
-## Latest bounded result
+## Current activation
 
-This activation closed the provenance gap identified after the first Technical Art clock bridge: the existing Object/Godot UC-runtime proof was still truthful, but it was bound to Animation PR #10's older latch-provenance chain. Animation has since explicitly rebound the unchanged motion identity to the current source-owned Hard-Surface/Rigging authority.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, current design-repository work, the current Map receiving stack, and current `axm-universal-creation` state before acting.
 
-The smallest supported repair stayed in **Object receiving Technical Art**. `axm-universal-creation` remains unchanged.
+`axm-create-me` remains **coordination only**. Product/evidence implementation is confined to the existing Technical Art lane in `mike-axiom-mir/axm-map-design`; no product code is added here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Object draft PR **#21 — `Technical Art: bridge UC animation runtime clock into Godot target`** now has exact head:
+The immediately previous Object Technical Art result remains preserved by the prior status blob `07fdffe9e1dba3ed773bebad2dccc7671c924e83` and Object PR #21 head `8633fdcb367ae4d32146b5696142d0946716fe76`. Its UC runtime-clock / current Animation-authority / Godot target-host evidence is historical truth for that exact Object lineage and is not rewritten or demoted by this Map activation.
 
-`8633fdcb367ae4d32146b5696142d0946716fe76`
+## Fresh constellation / duplication scan
 
-PR state at review: **OPEN / DRAFT / MERGEABLE**.
+- **Building Hard Surface:** PR #2 has now source-owned the previously derived closed/outward box-shell repair at exact head `57f66b1245812f0c3d402232a046b86c0b5c72d8`, source revision `service-pavilion-001/closed-outward-box-shells-002`, topology contract `closed-outward-12-triangle-v1`, pavilion SHA-256 `5f89ec4109d48f452f9e887ad5ca5449e1d0f6d6ee4b1896be6f25bc0a80736a`.
+- **Building Materials:** PR #3 has explicitly rebound its unchanged five-surface family to that current source at exact head `ca92ef79d65a2ba287b7a76464bedceb6a31a1b6`; material-profile SHA-256 remains `e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`.
+- **Building Procedural:** its existing generator has already performed an exact source-successor provenance refresh; no generator duplication was needed.
+- **Map Environment:** PR #24 has now independently adopted the source-owned Building successor into the 17-state current world at exact head `43d89a7cac48e57ebede0db8fc9983e8144222a0`; its source-successor structural and target-host workflows are green. The known current-world infill visual-hierarchy FAIL remains intentionally unresolved by Technical Art.
+- **Map Runtime:** PR #26 remains a truthful historical five-surface submission-cost proof at head `f2f719b2084a2df9340857658efb13c369b968aa`, based on historical Environment head `48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`. It has not yet remeasured the current source-successor Environment identity.
+- **Map VFX:** PR #25 has repaired its live Weather-width target-host path; no VFX receiving work is duplicated here.
+- **Object:** Hard Surface / Rigging / Animation / Technical Art / Runtime lanes remain active and preserve the previous Technical Art result; no second Object bridge was opened.
+- **Animal:** the existing Technical Art PR #3 still proves one explicit source-frame/material conversion into UC GLB for the earlier form-study surface. Geometry/Rigging have since produced stronger connected-topology evidence. That is a plausible future Technical Art transport rebind, but it was not started in this activation because the Map source-successor lane had just reached a complete exact-head evidence gate and one bounded lane is preferred over parallel churn.
+- **UC:** current main is `8576e075bf92f2907b8e58b8445826fbcd713cf0`. Its existing bounded `axm.surface-3d/v0.1` / deterministic GLB machinery remains available; current unrelated UC PRs cover unwrap/bake, a game asset and physics growth. This Map migration exposes no missing generic UC mechanism.
 
-The branch preserves both histories rather than rewriting either:
+## Selected bounded integration gap
 
-- current Animation source-authority head `6c81740c7895c90d6bb3a617d74f0863c52053f6` is retained as an ancestor;
-- prior Technical Art UC-clock bridge head `c52aa38e9c11a7f02e47a5bb5ab772a1746ff412` is retained as an ancestor.
+Existing Map Materials PR #14 remained pinned to historical Building source:
 
-Current authority chain consumed:
+`4faa769b406bf3ad0ba9489a77141c27f122ce51`
 
-- Hard-Surface source interface head `6086f39a3da344c57a68653f90d040e03e04cec2`;
-- source-interface SHA-256 `bcbbe098371eb702bc9289a97370744093105925202eda6036bdced6e25e34d3`;
-- Rigging source binding head `a1acd2bcb2074f41e536562f2673508e2cb0a4d5`;
-- source-Rigging binding SHA-256 `615f8ff34cc0897fd399345301efce1ca9cb0aa58e86caca92b914049b89adce`;
-- Animation sequence ID `lid-latch-open-hold-close-001`;
-- exact sequence digest `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
-- UC animation-runtime commit `dde8d952161788f8bf21118f91edd3163e51277d`;
-- UC runtime module Git blob SHA `a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173`;
-- UC runtime module byte SHA-256 `c7b0b9ba420f592ed0320091d2689d47b9595d3a9f8d96f5231496f1019002c9`.
+while Building source authority and Building Materials had moved to the successor identities above.
 
-`axm-create-me` remains coordination-only.
+There was also a concrete producer/receiver contract break: the source-owned Building evaluator added one trailing topology-evidence return value after the **eight values** consumed by the established Map receiver. The producer's original eight fields remained compatible, but both receiving layers destructured exactly eight values and failed with:
 
-## Duplication and placement check
+`too many values to unpack (expected 8)`
 
-Existing lanes still own the neighboring concerns:
+The correct Technical Art repair was not to copy Building topology semantics into Map or UC. It was to make the receiving boundary explicitly tolerant of **additive trailing producer evidence** while keeping the stable eight-field receiving prefix exact.
 
-- **UC:** adapter-neutral clip clocks, states, events and root-motion policy;
-- **Hard-Surface / Rigging:** source-owned mechanical interface and articulation authority;
-- **Animation:** sequence semantics, timing, interpolation, 101 authored samples and source-authority rebind;
-- **Technical Art:** exact cross-repo evidence composition, receiving adapter and target-host handoff;
-- **Runtime:** resource/runtime optimization, wall-clock scheduling, controller/input, lifecycle and target-device performance;
-- **Art Direction / Visual QA:** final motion presentation.
+## Existing Technical Art lane advanced
 
-Therefore this activation did **not** create a second motion sequence, duplicate Rigging's target articulation lane, create a Runtime controller, add Object ontology to UC, or promote a generic Godot adapter into UC.
+Repository:
 
-A UC target-adapter abstraction remains **held** until materially different consumer/host evidence supports the same neutral shape.
+`mike-axiom-mir/axm-map-design`
 
-## Smallest reusable receiving repair
+Draft PR:
 
-PR #21 now adds one Object-local composition verifier and one retained workflow:
+**#27 — `Technical Art: rebind Map Building receiver to source-owned topology`**
 
-- `tools/verify_uc_runtime_animation_authority_bridge.py` composes the current Animation source-authority receipt with the existing UC runtime clock receipt and requires exact sequence/source/rig/runtime identity continuity;
-- `.github/workflows/object-technical-art-uc-animation-authority-bridge.yml` rebuilds the historical motion donor, current source-owned Rigging acceptance, current Animation authority rebind and exact UC runtime clock handoff on one receiving head;
-- deliberate sequence-digest drift and source-Rigging-head drift are rejected as negative controls.
+Branch:
 
-The existing real Godot observer remains a separate workflow and reruns on the same exact head. This keeps **provenance/structural equivalence** separate from **target-host observation**.
+`studio/technical-art-building-source-rebind-001`
 
-Adapter policy remains:
+Base / established receiving host:
 
-`SEEK_TARGET_ANIMATIONPLAYER_TO_UC_CLIP_TIME_NO_RETIME`
+`0e2d571af4fd5772e9d48da013dc245914654660`
 
-The exact motion remains `2.5 s`, `40 Hz`, with five retained UC checkpoints:
+Exact final tested Technical Art head:
 
-`0.1125 / 0.5125 / 1.2375 / 1.7625 / 2.3875 s`
+`8dea1a1d002a1842a5b2a118b2c11e10897cde33`
 
-## Provenance repair preserved
+Observed PR state:
 
-The first new authority-composition run **`35098107556`** failed before substantive evidence generation because the receiving checkout used GitHub Actions' default depth-1 history. `git merge-base --is-ancestor` therefore could not resolve the two pinned ancestor commits.
+**OPEN / DRAFT / MERGEABLE**.
 
-The assertion was not removed or weakened. The receiving checkout was repaired to `fetch-depth: 0`, preserving the exact ancestry check. The failed run remains historical evidence.
+No merge or CANON authority is inferred.
 
-This is separate from the earlier historical Technical Art identity repair where Git blob SHA-1 and byte SHA-256 were initially conflated; that earlier failure remains preserved in Git/status history as well.
+## Smallest reusable receiving contract
 
-## Exact successful authority-composition workflow
+PR #27 changes only the receiving/verification boundary needed for this migration:
 
-Dedicated workflow **`35098431958 — Object Technical Art UC Animation authority bridge evidence`** completed **SUCCESS** on exact head `8633fdcb367ae4d32146b5696142d0946716fe76`.
+- `tools/environment_building_source_replacement.py` and `tools/environment_building_material_receiving.py` require the established **eight-field producer prefix**;
+- additive trailing producer outputs are accepted and counted, rather than rejected by tuple destructuring;
+- the receiving layers do **not** inspect or reinterpret the successor's Building-owned `topology_summary`;
+- historical and successor source/material identities are pinned separately;
+- exact topology/surface partitions are compared so historical geometry cannot be silently relabelled as the successor merely because vertex positions and budgets match;
+- the existing PR #14 Godot observer/comparison host and material values remain unchanged.
 
-Scoped result:
+Observed producer-extension counts:
 
-`PASS_UC_RUNTIME_CLOCK_OVER_CURRENT_ANIMATION_SOURCE_AUTHORITY`
+- historical Building evaluator: `0` additive trailing outputs;
+- source-owned successor evaluator: `1` additive trailing output.
 
-The retained composite receipt proves:
+This is a narrow producer/receiver compatibility contract. It is **not** a new Building topology abstraction and is not promoted into UC from one receiving family.
 
-- current Animation authority head is in exact receiving ancestry;
-- prior Technical Art bridge head is in exact receiving ancestry;
-- sequence ID and digest are unchanged;
-- current Hard-Surface source-interface identity is unchanged;
-- current source-Rigging binding identity is unchanged;
-- exact UC runtime identity is unchanged;
-- duration remains `2.5 s`;
-- sample rate remains `40 Hz`;
-- `motion_change = false`;
-- `retimed = false`;
-- `retargeted = false`;
-- `key_count_changed = false`;
-- target adapter policy remains no-retime.
+## Exact structural evidence
 
-Retained authority artifact:
+Dedicated workflow:
 
-- ID: **`10447277200`**;
-- name: `object-technical-art-uc-animation-authority-bridge-8633fdcb367ae4d32146b5696142d0946716fe76`;
-- size: **6,711 bytes**;
-- GitHub SHA-256: `ad9f881c40ca1c5e2dc682b3323878b561f3181e82d18cf1d1d64ed369710adc`.
+**`35105775581 — Technical Art Building source rebind evidence` — SUCCESS**
 
-The exact artifact ZIP was downloaded and independently rehashed to the same SHA-256. It retains five files: authority contract, exact Animation source-authority receipt, exact UC runtime-clock receipt, composite Technical Art receipt and exact-head receipt.
+Exact head:
 
-## Same-head real target-host proof
+`8dea1a1d002a1842a5b2a118b2c11e10897cde33`
 
-Existing dedicated workflow **`35098431986 — Object Technical Art UC animation runtime bridge evidence`** also completed **SUCCESS** on the same exact Technical Art head `8633fdcb367ae4d32146b5696142d0946716fe76`.
+Scoped structural result:
 
-Godot target receipt state:
+`PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_STRUCTURE`
 
-`PASS_UC_RUNTIME_CLOCK_TO_GODOT_ANIMATIONPLAYER_CHECKPOINTS`
+The exact old→successor comparison preserves:
 
-Pinned target host:
+- `152` world vertices;
+- `228` triangles;
+- Building world placement translation;
+- all five material values and role order;
+- exact panel source identity;
+- unrelated seed-29 receiving state;
+- exact successor Hard-Surface identity;
+- exact successor-bound Materials identity.
 
-`Godot 4.7.2-stable (official), GL Compatibility`
+It also requires the geometry/surface-partition digests to **change**, preventing stale historical topology from being passed off as the new source.
 
-Measured exact target-host handoff:
+Four explicit controls fail closed:
 
-- maximum lid clock residual: `0.00000762939453125 deg`;
-- maximum latch clock residual: `0.000003814697265625 deg`;
-- proof-local neutral pivot-wrapper drift: `0.0 m`;
-- ordering violations: `0`;
-- neutral start lid/latches: exactly `0 deg`;
-- neutral end lid/latches: exactly `0 deg`;
-- rebound GLB SHA-256: `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`.
+1. successor source-head drift;
+2. material-profile drift;
+3. stale historical topology;
+4. unrelated receiving-scene drift.
 
-The target observer consumed the exact UC runtime clip times at all five retained checkpoints. Its sequence ID/digest are exactly the same sequence identity proven by the new authority-composition receipt.
+All GitHub workflows reported on the exact PR #27 head are green, including the inherited Environment composition, Procedural variation, Environment Building-source replacement and Materials receiving-scene workflows.
 
-Retained target-host artifact:
+## Real target-host evidence
 
-- ID: **`10447247270`**;
-- name: `object-technical-art-uc-animation-runtime-bridge-8633fdcb367ae4d32146b5696142d0946716fe76`;
-- size: **156,529 bytes**;
-- GitHub SHA-256: `888070cd19342e54fd96f5ab5f5afeb5d66393465b9dea2f95b8e0a11832e686`.
+Scoped target-host result:
 
-The exact artifact ZIP was downloaded and independently rehashed to the same SHA-256. It retains **14 files**, including the exact inputs, receipts, rebound GLB and five Godot captures.
+`PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_TARGET_HOST`
 
-All inherited Object workflows reported by GitHub on this exact head are green as well.
+Pinned host:
 
-## Truth boundary of the combined result
+**Godot 4.7.2-stable, GL Compatibility**
 
-The new composite verifier itself intentionally says `target_host_observed_by_this_composite_tool = false`.
+The exact successor neutral and five-surface receiving scenes reached the established fixed-camera target host while preserving the declared geometry/material budget.
 
-The correct bounded conclusion comes from two **same-head but separate evidence paths**:
+Observed material-only A/B delta on the successor host:
 
-1. the authority workflow proves that the UC runtime bridge's exact sequence identity is motion-equivalent to the current Hard-Surface/Rigging source-authority chain without retiming/retargeting/key mutation;
-2. the Godot workflow directly observes that same sequence identity at the five UC-provided clip times on the exact target `AnimationPlayer` representation.
+- `path_eye`: `66,002 / 792,000` pixels changed (`8.3336%`), bbox `(346,256)-(753,437)`;
+- `elevated_oblique`: `32,476 / 792,000` pixels changed (`4.1005%`), bbox `(594,171)-(888,345)`.
 
-The target-host workflow still materializes the historical sequence representation internally. The authority receipt makes that historical sequence's unchanged identity equivalent to the current source-authority lineage; it does **not** rewrite historical producer identity or pretend the Godot workflow rebuilt Rigging PR #20 directly.
+This proves delivery/receiving behavior in those fixed contexts. It is **not** final aesthetic acceptance.
 
-## Handoffs
+## Retained evidence and failure provenance
 
-- **Animation PR #10:** Technical Art now consumes its current source-authority head without changing timing, interpolation or motion ownership.
-- **Runtime PR #22:** its existing optimization proof remains truthful for its exact older Animation donor. If Runtime wants the successor source-authority lineage, it should explicitly adopt this current Technical Art/Animation chain and rerun its own resource-budget evidence rather than inherit this PASS by label.
-- **Hard-Surface / Rigging:** current source interface/binding identities are now explicitly carried into the Technical Art clock proof via Animation's verified no-motion-change rebind; Technical Art does not own their mechanical semantics.
-- **Universal Creation:** no code change required. Existing adapter-neutral runtime was sufficient; Object/Godot-specific receiving knowledge stays outside UC.
+Retained exact artifact:
+
+- ID: **`10450685089`**;
+- name: `technical-art-building-source-rebind-001-8dea1a1d002a1842a5b2a118b2c11e10897cde33`;
+- size: **386,659 bytes**;
+- GitHub SHA-256: `661dd064575dac775dfe418da84b0f57b8120a5cb838f855277949ce36c7ac62`;
+- exact-head receipt: `8dea1a1d002a1842a5b2a118b2c11e10897cde33`.
+
+The retained failure history is part of the evidence rather than being hidden:
+
+- run `35104851628` exposed the original `too many values to unpack (expected 8)` receiver failure;
+- later runs exposed an unchanged-file harness assumption and an over-broad unrelated-scene comparison;
+- those assertions were repaired rather than bypassed or weakened.
+
+## Downstream successor state
+
+After PR #27's receiving proof, Environment independently rebound the same source-owned Building successor into the full current world on PR #24.
+
+Current Environment head:
+
+`43d89a7cac48e57ebede0db8fc9983e8144222a0`
+
+Dedicated Environment workflow:
+
+**`35103743617 — Environment current-world Building source-successor evidence` — SUCCESS**
+
+Scoped results:
+
+- `PASS_CURRENT_WORLD_BUILDING_SOURCE_SUCCESSOR_STRUCTURE`;
+- `PASS_CURRENT_WORLD_BUILDING_SOURCE_SUCCESSOR_TARGET_HOST`.
+
+That Environment proof preserves the full Weather seed `44021` / 17-state sequence, Nature, exact west Object source, path, cameras, lighting and the unchanged five-surface material profile while importing the exact Building source builder rather than copying its face table.
+
+Retained Environment successor artifact:
+
+- ID: `10448628965`;
+- size: `20,193,645 bytes`;
+- SHA-256: `7d48e308e62eec1d0e9f0e072d05f3d45411810ce17a3141f0bc4a32b79cda33`.
+
+The known current-world infill hierarchy problem remains a separate Materials / Art Direction / Visual QA gate. Technical Art does not convert a transport/source-successor PASS into visual acceptance.
+
+## Runtime handoff now unblocked
+
+Map Runtime PR #26 remains exact historical evidence for Environment head:
+
+`48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`
+
+and Runtime head:
+
+`f2f719b2084a2df9340857658efb13c369b968aa`
+
+Its historical `+12 draw calls / +12 objects` characterization remains truthful for that exact historical five-surface receiving chain.
+
+The earlier Runtime hold that Technical Art PR #27 was failing is now stale: PR #27 is exact-head green and Environment has also adopted the successor. Runtime can therefore perform an explicit successor remeasure against Environment `43d89a7c...` (or a later explicitly identified successor), while preserving the historical PR #26 evidence rather than inheriting current acceptance by label.
+
+Technical Art does **not** own or pre-accept that Runtime result.
+
+## UC placement decision
+
+`axm-universal-creation` remains unchanged by this activation.
+
+The gap was a receiving-language compatibility problem between one evolving Building producer and established Map receivers. The generic lesson is useful — stable consumed prefixes plus explicitly bounded extension fields — but one Building→Map migration is not enough evidence to place a generic extension-envelope policy in UC.
+
+Building topology meaning remains Building-owned. Map owns receiving composition. Technical Art owns this explicit boundary and provenance handoff. UC does not receive `topology_summary`, Building face policy, Map scene policy or Godot-specific acceptance logic for convenience.
+
+A future UC abstraction remains held until materially different producers/receivers demonstrate the same contract shape and placement is justified by evidence.
 
 ## Non-claims / remaining holds
 
 This activation does **not** prove or authorize:
 
-- merging Object PR #21, Animation PR #10, Hard-Surface PR #17 or Rigging PR #20;
-- embedded UC/Python execution inside Godot;
-- real wall-clock playback or frame scheduling under load;
-- controller/input/state-machine acceptance;
-- automatic Runtime PR #22 successor adoption;
-- arbitrary skeletal animation, skinning, blend-shapes or generic clip transport through UC;
-- continuous target-host collision clearance;
-- physical latch/hinge engineering or manufacturing validity;
-- gameplay or interaction acceptance;
-- target-device FPS/GPU/VRAM/draw-call budgets;
-- final motion quality, Materials/LookDev, Art Direction or Visual QA acceptance;
-- CANON, production readiness, Profession Fabric promotion or Technical Art mastery.
+- merge/CANON of Map PR #27, Environment PR #24, Building Hard-Surface PR #2 or Building Materials PR #3;
+- Runtime PR #26 successor acceptance or any target-device performance budget;
+- final Building material preference or repair of the current-world infill visual hierarchy FAIL;
+- UV/texture/decal/weathering quality or final normals/tangents;
+- collision, navigation, gameplay or physics acceptance;
+- arbitrary producer-extension compatibility beyond this bounded eight-field-prefix receiving family;
+- promotion of the receiving-extension pattern into Universal Creation or Profession Fabric;
+- production readiness or Technical Art mastery.
+
+## Handoffs
+
+- **Runtime / Optimization:** PR #27 and Environment source-successor receiving are now green; explicitly remeasure the successor rather than relying on the historical PR #26 donor or inheriting this Technical Art PASS.
+- **Environment:** its current source-successor PASS remains the authoritative full-world receiving identity. No further topology migration is requested here.
+- **Materials / Art Direction / Visual QA:** the known `infill_coating` hierarchy FAIL remains independent of this transport PASS; preserve the source-successor identity when testing the requested infill-only visual repair.
+- **Building Hard Surface / Materials:** exact source and material identities are consumed without moving their semantics into Map or UC.
+- **Universal Creation:** no code change required or justified by this lane.
+- **Animal Technical Art:** connected-topology → UC transport is a plausible future bounded rebind because PR #3 predates the connected candidate, but it remains deferred to a separate activation rather than being mixed into this completed Map proof.
 
 ## Root gate
 
-- **Truth:** current source authority, historical producer identity, exact sequence identity, UC identity, failed shallow-history run and target-host evidence remain distinct and inspectable; no transitive claim is presented as direct observation.
-- **Agency / non-domination:** domain semantics remain source-owned; UC does not absorb Object/Godot knowledge for convenience; Technical Art does not claim Runtime, Animation, merge or CANON authority.
-- **Continuity:** the Technical Art branch preserves both current Animation authority and prior Technical Art proof ancestry; old evidence remains valid for its declared scope rather than being silently rewritten.
-- **Wisdom before speed:** the smallest receiving composition contract was added, and generic UC adapter promotion remains held after one Object/Godot family.
+- **Truth:** historical and successor Building identities, producer extension count, failed receiving runs, exact-head CI, target-host evidence and downstream Environment adoption remain separately named and inspectable.
+- **Agency / non-domination:** Building retains topology authority, Materials retains surface authority, Environment retains world composition, Runtime retains budget acceptance, and Technical Art does not use UC as a domain-policy sink.
+- **Continuity:** prior Object Technical Art evidence and historical Map/Runtime evidence remain valid for their declared identities; source-successor evidence is added rather than silently rewriting predecessors.
+- **Wisdom before speed:** the smallest receiver contract repaired the actual break; no generic UC promotion or second simultaneous Technical Art implementation was started without cross-domain evidence.
 
 ## Current state
 
-`PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / UC_RIGID_SCENE_GRAPH_MERGED / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / PASS_DUAL_EVIDENCE_IDENTITY_BOUNDARY / PASS_EXACT_LID_RIG_TO_UC_TARGET_ENVELOPE / PASS_CURRENT_ANIMATION_SOURCE_AUTHORITY_TO_UC_RUNTIME_CLOCK / PASS_UC_RUNTIME_CLOCK_TO_GODOT_TARGET_HANDOFF / HOLD_UC_ADAPTER_PROMOTION / HOLD_RUNTIME_SUCCESSOR_REBIND / HOLD_WALL_CLOCK / HOLD_RUNTIME_CONTROLLER_INPUT / HOLD_TARGET_HOST_CONTINUOUS_COLLISION / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_MOTION_VISUAL / OBJECT STACK DRAFT`
+`PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_STRUCTURE / PASS_MAP_BUILDING_SOURCE_OWNED_TOPOLOGY_REBIND_TARGET_HOST / PASS_STABLE_RECEIVING_PREFIX_EXTENSION_CONTRACT / ENVIRONMENT_SUCCESSOR_ADOPTED / HOLD_RUNTIME_SUCCESSOR_REMEASURE / HOLD_CURRENT_WORLD_VISUAL_HIERARCHY / HOLD_UC_PROMOTION / MAP STACK DRAFT`
