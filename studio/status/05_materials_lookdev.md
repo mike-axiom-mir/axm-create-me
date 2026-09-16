@@ -1,137 +1,185 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-16
-State: **PASS_MULTI_SOURCE_NATURE_LEAF_SIDEDNESS_MATERIAL_STRATEGY_EVIDENCE / THREE CURRENT SOURCES × THREE GODOT CONTEXTS / MATERIAL-TWO-SIDED VISUALLY NEAR-EQUIVALENT TO EXPLICIT BACKFACES / RUNTIME + ENVIRONMENT + ART DIRECTION HELD / BUILDING INFILL HELD STABLE PENDING ENVIRONMENT COMPOSITION**
+State: **PASS_BOUNDED_THREE_SOURCE_WOODY_FOLIAGE_FAMILY_CANDIDATE / THREE CURRENT NATURE SOURCES × THREE GODOT CONTEXTS / SOURCE OWNERSHIP WIDENED ONLY AFTER DIRECT EVIDENCE / ENVIRONMENT + ART DIRECTION + RUNTIME HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status, current open design PRs and cross-specialist handoffs before acting. `axm-create-me` remains coordination-only. Product/evidence work stayed in the existing Nature Materials PR #5. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest specialist status and current open design PRs before acting. `axm-create-me` remains coordination-only. Product/evidence work stayed in the existing `mike-axiom-mir/axm-nature-design` Materials PR #5; no parallel Materials lane was opened.
 
-The previously selected Building infill candidate at exact Building Materials head `225cf82a61ec1512553fda2785ca101a54a6bd30` was **not** retuned. Visual QA and 3D Art Direction have since accepted the exact donor-context `#59666DFF` infill repair and explicitly asked Materials to hold it stable until Environment composes it over the newer source-correct / preferred-Weather-width world. Current Map Environment PR #24 is still exact head `0d8b2279ecbba47b9696a951db9513883fbef6c5` and still carries the predecessor Building material profile, so changing Building again would duplicate or destroy that clean one-variable handoff.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The strongest unoccupied Materials question was therefore Nature leaf sidedness. Geometry PR #10 already proved an explicit opposite-wound backface candidate across three real Nature sources, but its own truth boundary correctly held whether duplicated geometry is preferable to a two-sided material/shader. The existing Nature Materials lane had only rendered that comparison on one sapling. This activation expands the renderer evidence to all three current source forms without migrating Geometry or widening material ownership.
+The prior Nature sidedness result remains historical truth at exact Materials head `72d432a7706ffb604bee2bdd24dcf765d47bbc32`: across three exact current Nature sources and three Godot contexts, foliage `CULL_DISABLED` on the single-sided source mesh was visually near-equivalent to Geometry PR #10's explicit opposite-wound leaf backfaces while avoiding the derived `+100 vertices / +50 triangles`. That pass deliberately reused sapling material values on the compact/rear forms as observation-only and explicitly did **not** widen material ownership.
+
+Building Materials was not reopened. Map Environment PR #24 has since composed the accepted Building `#59666DFF` infill over the source-correct / preferred-Weather-width world at exact head `5b9b55ec67e31655f51d1acc67284816067e5be6`; independent Visual QA and 3D Art Direction both PASS that exact combined fixed-camera surface. Art Direction explicitly requests no further Building material retune before a new defect is returned. Materials therefore leaves Building stable.
+
+The highest-leverage unoccupied Materials gap was the ownership boundary exposed by the previous Nature proof: the same sapling lookdev response had now been seen on all three current source forms, but only `sapling-neutral-001` was allowed to own it. This activation asks whether that response genuinely deserves a bounded three-source material-family contract, without inventing per-tree variation, changing geometry, or turning a Nature-specific look into UC policy.
 
 ## Bounded implementation
 
-Existing Nature Materials PR #5 / branch `studio/materials-sapling-lookdev-001` was advanced; no second Materials lane was opened.
+Existing Nature Materials PR #5 / branch `studio/materials-sapling-lookdev-001` was advanced.
 
 Exact current Materials head:
 
-`72d432a7706ffb604bee2bdd24dcf765d47bbc32`
+`09b163862a1fe1124ac239dfb1954083d508a08f`
 
-Exact Geometry donor:
+PR state observed after the change: **OPEN / DRAFT / MERGEABLE**. Repository metadata is not CANON authority.
+
+Exact Geometry donor remains:
 
 - Nature Geometry PR #10 head `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`;
-- candidate state `PASS_EXPLICIT_DISJOINT_LEAF_BACKFACE_CANDIDATE`.
+- three exact current source forms rebuilt from that pinned identity;
+- no Geometry adoption or source rewrite is performed by Materials.
 
-New evidence components:
+New components:
 
-- `tools/build_leaf_sidedness_material_multisource.py`;
-- `lookdev-leaf-sidedness-multisource-proof/observe.gd`;
-- dedicated pinned-Godot workflow `materials-leaf-sidedness-multisource.yml`.
+- `lookdev/nature_woody_foliage_family_001.json`;
+- `tools/build_material_family_multisource.py`;
+- `lookdev-material-family-multisource-proof/project.godot`;
+- `lookdev-material-family-multisource-proof/observe.gd`;
+- `.github/workflows/materials-multisource-family.yml`.
 
-The three exact current source studies are:
+New profile schema:
 
-- `sapling-neutral-001`;
-- `compact-east-tree-neutral-001`;
-- `east-rear-tree-neutral-001`.
+`axm.nature-woody-foliage-material-family/v0.1`
 
-For each exact source the A/B holds source form, scalar review material values, lighting and camera derivation fixed and compares only:
+Exact supported source scope is only:
 
-1. **material-two-sided strategy** — exact migrated single-sided source mesh, woody material `CULL_BACK`, foliage material `CULL_DISABLED`;
-2. **explicit-backface strategy** — exact Geometry PR #10 disjoint opposite-wound leaf backfaces, woody and foliage material `CULL_BACK`.
+1. `sapling-neutral-001`;
+2. `compact-east-tree-neutral-001`;
+3. `east-rear-tree-neutral-001`.
 
-Per source, material-two-sided remains `390 vertices / 570 triangles`; explicit backfaces are `490 / 620`, i.e. the Geometry candidate adds `100 vertices` and `50 triangles` (`+8.771929825%` triangles relative to the source mesh).
+No wildcard, nearest match, species inference, or universal vegetation fallback exists. An unlisted source remains unsupported.
 
-The existing `sapling_material_profile_001` values are reused unchanged only as a fixed renderer reference. Its `source_scope` remains **`sapling-neutral-001`**. Applying those scalar values to the compact/rear bodies inside this proof is observation-only and does **not** widen the profile's source ownership or claim cross-source material adoption.
+The family candidate carries the already-proven sapling lookdev scalars unchanged:
 
-## Exact target-host evidence
+- `woody`: `#5C3B27FF`, metallic `0.0`, roughness `0.84`;
+- `foliage`: `#5A823EFF`, metallic `0.0`, roughness `0.58`.
+
+The control remains the original proof-only pair used by the earlier Nature -> UC surface bridge:
+
+- `woody`: `#6B5138FF`, metallic `0.0`, roughness `0.92`;
+- `foliage`: `#4E7B45FF`, metallic `0.0`, roughness `0.88`.
+
+The candidate intentionally introduces **no per-source variation yet**. The exact policy is `NO_PER_SOURCE_VARIATION_YET__ESTABLISH_SHARED_FAMILY_BASELINE_FIRST`. This prevents the evidence pass from hiding arbitrary color noise inside a family-promotion decision.
+
+For all control/candidate renders:
+
+- exact source mesh is unchanged at `390 vertices / 570 triangles` per form;
+- lighting and camera derivation are fixed within each source/context;
+- woody uses `CULL_BACK`;
+- foliage uses `CULL_DISABLED` in **both** control and candidate so leaf-sidedness is not a comparison variable;
+- only bounded PBR color/roughness fields differ.
+
+## Exact structural and target-host evidence
 
 Dedicated workflow:
 
-- `35115107305 — Materials multi-source leaf sidedness evidence` — **SUCCESS** on exact head `72d432a7...`.
+**`35121860391 — Materials multi-source woody foliage family evidence` — SUCCESS**
 
-Same-head inherited workflows also remain green:
+Exact workflow head:
 
-- Nature organic form baseline `35115107290` — SUCCESS;
-- UC Nature surface bridge `35115107413` — SUCCESS;
-- original one-source Materials leaf-sidedness proof `35115107258` — SUCCESS;
-- Materials Environment-context evidence `35115107253` — SUCCESS;
-- Materials sapling lookdev evidence `35115107481` — SUCCESS.
+`09b163862a1fe1124ac239dfb1954083d508a08f`
 
 Structural result:
 
-**`PASS_EXACT_MULTI_SOURCE_LEAF_SIDEDNESS_MATERIAL_AB_PACKET`**
+**`PASS_EXACT_THREE_SOURCE_WOODY_FOLIAGE_FAMILY_PACKET`**
 
 Target-host result:
 
-**`PASS_TARGET_HOST_MULTI_SOURCE_LEAF_SIDEDNESS_AB_CAPTURED`**
+**`PASS_TARGET_HOST_THREE_SOURCE_MATERIAL_FAMILY_AB_CAPTURED`**
 
 Pinned host: **Godot 4.7.2 GL Compatibility**.
 
-Each source is rendered from three derived contexts:
+The proof renders all three exact current sources from three materially different derived contexts:
 
 - `whole_three_quarter`;
 - `crown_back`;
 - `crown_low_grazing`.
 
-This retains 18 PNGs total: `3 sources × 3 contexts × 2 strategies`.
+That retains **18 PNGs total**: `3 sources × 3 contexts × control/candidate`.
 
-Exact changed-pixel results (`403,200` pixels per frame):
+Analytic surface-family separation changes:
+
+- woody/foliage relative-luminance gap: `0.06919107366395635 -> 0.12936999436623578`;
+- woody/foliage roughness gap: `0.04 -> 0.26`;
+- metallic remains `0.0` for both families.
+
+Exact target-host material-delta footprint (`720 × 560 = 403,200` pixels per frame):
 
 | source | whole 3/4 | crown back | low grazing |
 |---|---:|---:|---:|
-| sapling | `30 / 0.007440%` | `40 / 0.009921%` | `264 / 0.065476%` |
-| compact east | `16 / 0.003968%` | `61 / 0.015129%` | `250 / 0.062004%` |
-| east rear | `18 / 0.004464%` | `64 / 0.015873%` | `89 / 0.022073%` |
+| sapling | `6,785 / 1.682788%` | `13,393 / 3.321677%` | `17,111 / 4.243800%` |
+| compact east | `7,612 / 1.887897%` | `14,841 / 3.680804%` | `19,886 / 4.932044%` |
+| east rear | `6,056 / 1.501984%` | `11,832 / 2.934524%` | `15,811 / 3.921379%` |
 
-Across all nine A/B contexts the changed-pixel range is therefore only `16..264` pixels, or `0.003968%..0.065476%` of the frame. The largest difference is the sapling low-grazing crown at `264` pixels.
+Across all nine matched contexts the changed-pixel share is `1.501984%..4.932044%` with mean `3.122988%` of the full frame. The changed bboxes remain localized to each rendered tree silhouette/crown area rather than indicating camera/background drift.
 
-Direct inspection of all retained images shows the two strategies are visually near-identical in these exact contexts. Small differences concentrate on thin leaf edges / grazing views; no whole-form hierarchy or foliage-presence difference is visible that would materially require duplicated leaf geometry in this proof host.
+Direct inspection of all nine control/candidate pairs shows the same bounded qualitative result on all three forms: the candidate woody response is warmer/darker, foliage separates more clearly from the wood, and no source suffers whole-form disappearance, crown inversion, or an obvious context-specific failure in these retained proof views. The improvement remains modest because the geometry is intentionally sparse and no UV/texture/subsurface detail is introduced.
 
-This supports a **Materials-side candidate preference**, not a final renderer/runtime decision: carry foliage-level two-sided material rendering forward first because it preserves the exact source mesh and avoids the explicit `+100 vertices / +50 triangles` derivation while producing near-identical retained images here.
+This is enough to support a **bounded Materials family candidate across these three exact current source IDs**, not enough to claim a universal Nature material system or final vegetation look.
 
 ## Retained evidence
 
 Artifact:
 
-- ID `10455440693`;
-- name `nature-leaf-sidedness-material-multisource-72d432a7706ffb604bee2bdd24dcf765d47bbc32`;
-- size `213,784 B`;
-- GitHub SHA-256 `ea0cf64bbc65032c81df22f68f85ce0201bfdd6f365625cce5dc987c48147456`;
-- independently downloaded/rehashed to the exact same digest.
+- ID `10458520597`;
+- name `nature-material-family-multisource-09b163862a1fe1124ac239dfb1954083d508a08f`;
+- size `166,643 B`;
+- GitHub SHA-256 `a0deb53ded3001b8cbb1e2f34a3cb55d25562cea7906d7a4084abe7aa9d46df2`;
+- independently downloaded/rehashed to the exact same SHA-256.
 
-The archive retains the exact comparison packet, exact-head binding, target-host runtime receipt and all 18 PNGs.
+The archive retains the exact structural packet, exact-head binding, Godot runtime receipt and all 18 control/candidate PNGs.
 
 ## Handoffs
 
-Nature Materials PR #5 comment `5700019170` records the exact three-source evidence and the bounded Materials-side candidate preference.
+Nature Materials PR #5 comment `5700913534` records the exact three-source family evidence and ownership boundary.
 
-Nature Geometry PR #10 comment `5700021489` returns the renderer evidence without invalidating the explicit-backface candidate. Geometry's candidate remains a truthful structural alternative and must not be deleted or source-adopted merely from this Materials result.
+### Environment / World Art
 
-Next gates:
+Do **not** silently adopt this family into Map. The next receiving-scene proof should treat the family as one bounded variable, preserve current source placements/lighting/weather and keep the prior Building/Weather combined visual reference intact unless an explicit new Environment composition is being reviewed.
 
-- **Runtime / Optimization:** compare actual target-device cost of foliage `CULL_DISABLED` against explicit opposite-wound geometry. Fewer source triangles does not automatically mean cheaper GPU/fragment cost.
-- **Environment / World Art:** only after the current Building one-variable composition gate is resolved, test the chosen Nature sidedness candidate in the real receiving scene without mixing unrelated lighting/material changes.
-- **3D Art Direction + Visual Observer / QA:** retain final visual preference and receiving-scene acceptance.
-- **VFX / Rigging / Animation:** wind/deformation shading on two-sided foliage remains unproven.
+### Runtime / Optimization
 
-No UC or Profession Fabric change is justified. The sidedness decision is Nature/renderer integration knowledge; UC already provides neutral mesh/surface transport and should not absorb Nature-specific leaf policy for convenience.
+This pass does not settle the separate leaf-sidedness runtime choice. `CULL_DISABLED` is fixed in both A/B variants here only to isolate material-family response. Target-device fragment/overdraw cost still belongs to Runtime.
 
-## Building continuity preserved
+### 3D Art Direction + Visual Observer / QA
 
-The previous Building Materials result remains current and must not be silently rewritten:
+The family is renderer-evidenced, not aesthetically final. Final preference and receiving-scene acceptance remain theirs. No per-tree variation should be added merely to create variety until a real composition demonstrates that the shared family baseline is too uniform.
 
-- exact Building Materials head `225cf82a61ec1512553fda2785ca101a54a6bd30`;
-- only `infill_coating.albedo` changed from `#344047FF` to `#59666DFF`;
-- first retained insufficient candidate `#46535AFF` remains provenance;
-- workflow `35108703130` SUCCESS;
-- artifact `10451955371`, SHA-256 `a45ca2e0359d8b06a4a70ca82616d88fa779fe7df7fe9a56d9ba24f2eb9adda1`;
-- direct donor-world Visual QA and Art Direction preference have cleared the material-side hierarchy hold;
-- Environment still owns exact adoption over its newer current-world identity.
+### Geometry / Organic Form / VFX
 
-Materials should **not** retune Building until Environment returns the combined successor, because doing so would erase the clean attribution already established.
+No geometry, normals, topology, deformation, wind or source-form authority transfers. Geometry PR #10 remains a truthful explicit-backface alternative; this activation neither deletes nor adopts it.
+
+### UC / Profession Fabric
+
+No change is justified. The reusable lesson is an evidence pattern—prove a profile on materially different exact source forms before widening ownership—not a Nature-specific scalar or shader policy to centralize in UC.
+
+## Continuity preserved
+
+- Prior sapling-only profile remains valid provenance and is not rewritten.
+- Prior multi-source sidedness proof at `72d432a7...` remains a separate representation experiment.
+- Building `#59666DFF` remains stable; exact combined Environment head `5b9b55ec...` now has independent QA + Art Direction PASS, so Materials does not retune it.
+- Current family promotion is explicit, bounded to three exact Nature source IDs, and evidence-backed rather than inferred from visual similarity.
 
 ## Non-claims
 
-No target-device CPU/GPU/VRAM/frame-time or fragment-cost acceptance is claimed. No final Nature shader, normals/tangents, alpha cutout, transmission, subsurface, UV/texture, botanical reflectance, wind/deformation response, Map integration, final Art Direction/Visual QA acceptance, CANON, production readiness, game readiness or Materials mastery is claimed.
+This activation does **not** establish:
+
+- final Nature material or vegetation style;
+- per-species or per-tree material variation;
+- UVs, textures, bark microdetail, leaf normal/tangent maps, alpha cutout, subsurface or transmission;
+- botanical or physically measured reflectance correctness;
+- final leaf-sidedness strategy;
+- wind/deformation shading acceptance;
+- Map / Environment adoption;
+- arbitrary renderer, camera, FOV, resolution, HDR/display or lighting-context equivalence;
+- target-device FPS, GPU/CPU time, overdraw, VRAM, battery or thermal budget;
+- CANON, production readiness, game readiness or Materials mastery.
+
+## Four-root gate
+
+- **Truth:** profile ownership was not widened until three exact sources had structural and real-render evidence; exact artifact was independently rehashed; the sidedness/runtime boundary remains explicit.
+- **Agency / non-domination:** Nature source, Geometry, Environment, Runtime, QA and Art Direction retain their own authorities; Materials changes only its material-family contract.
+- **Continuity:** sapling-only profile, multi-source sidedness evidence, Building material history and the new family candidate remain distinct provenance points.
+- **Wisdom before speed:** establish one shared proven family baseline before inventing per-source variation, textures, or shader complexity.
