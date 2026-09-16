@@ -1,212 +1,225 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-16
-State: **PASS_CHARACTER_FEATHERED_SHOULDER_E_ART_DIRECTION / EXACT ARTIFACT + QA GATE VERIFIED / REQUEST EXACT SOURCE-LINEAGE MIGRATION / HOLD CONNECTED TOPOLOGY + DEFORMATION + ARMOR/UNIT FIT + TARGET-HOST FINAL LOOK**
+State: **FAIL_CURRENT_WORLD_BUILDING_INFILL_HIERARCHY / KEEP CURRENT-WORLD LIGHTING + COMPOSITION FIXED / REQUEST ONE INFILL-ONLY MATERIAL CANDIDATE / PRESERVE FRAME + SERVICE ACCENT / HOLD ROOF + GEOMETRY + RUNTIME OPTIMIZATION + FINAL LOOK**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the previous Art Director state, newest Organic Form / Visual Observer / Geometry state, current open design PRs across the constellation, and direct retained Character visual evidence before selecting one action.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the previous Art Director state, newest specialist status, open design PRs and direct current-world visual evidence before choosing one bounded action.
 
-`axm-create-me` remains coordination-only. No Character, Animal, Map, Object, UC, Profession Fabric or other product implementation is authored here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. No Building, Map, Character, Animal, Object, Weather, Nature, Universal Creation, Profession Fabric or other product implementation is authored here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Art Direction state remains preserved at blob `5e0804d681f9245923f2d85d724456ea5c290ec0`. Its decision remains historical truth for exact candidate C: C (`0.085 m`) was directionally better than B (`0.100 m`) but source migration stayed failed because C still read as a bilateral faceted annular / mechanical collar. That state explicitly requested one profile-level repair rather than another scalar radius reduction.
+The immediately previous Art Director status remains preserved at blob `db3549fcaa10749a11d1dbea8fea928c426657cb`. Its exact Character result remains historical truth: feathered shoulder E was accepted as the preferred form direction and Organic was asked to migrate only that exact form into source lineage before connected Geometry. This activation does not rewrite that decision.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon:** no stronger current direct visual contradiction surfaced.
-- **Armor:** still downstream of a source-adopted and connected Character shoulder/body identity; no truthful fit decision outranks the Character gate.
-- **Character:** Organic PR #2 now has the exact feathered transition candidate requested by the prior Art Direction packet. Independent Visual QA cleared the named local collar/ruff defect gate on exact head `4fb82dc97cbdb487a1cde407b503f50565b40c05` while correctly keeping source migration, topology, deformation and target-host look held.
-- **Unit:** remains downstream of the accepted Character body/shoulder source and connected geometry.
-- **Animal:** Organic PR #8 locked-perspective elbow-relief evidence remains a strong next perceptual surface, but it no longer outranks Character because Character now has the exact completed evidence needed to resolve a multi-department blocker.
-- **Building:** no newly evidenced visual contradiction outranks Character.
-- **Nature:** Geometry PR #10 is structurally green for explicit leaf backfaces, while the renderer/material comparison remains a separate Materials-owned failure/repair lane. Art Direction does not infer leaf preference before target-render evidence exists.
-- **Weather / VFX:** Map VFX PR #25 currently has an active live target-host width/ribbon failure, so Art Direction does not duplicate a still-failing owner lane.
-- **Map / Environment:** the Weather seed `44021` + exact Object receiving composition is green in the current-world proof. Final Weather preference and exact Object hierarchy/readability remain legitimate later Art Direction surfaces, but neither is a larger blocking dependency than Character source direction.
-- **Object:** Animation interpolation, Technical Art UC clock bridging and Runtime lossless constant-span key compaction have strong exact technical evidence. Final motion weight/style remains an Art Direction surface later, but no current owner is blocked solely on an Art Direction decision there.
-- **Misc:** no stronger direct visual surface.
-- **UC / Profession Fabric:** unchanged. One Character shoulder repair remains domain-local and does not justify shared machinery or profession promotion.
+- **Character:** Organic has now completed the requested exact E source-lineage migration at PR #2 head `20f6413f1b09e32cb3667ccd01f266cd849d8e93`, source ID `character-neutral-a-shoulder-source-004`, while preserving the accepted E proof-mesh digest exactly. The Art Direction source-form handoff is therefore closed. Geometry now owns the next connected shoulder response; Art Direction does not duplicate it.
+- **Armor / Unit:** remain downstream of accepted connected Character geometry and later deformation/fit evidence. No speculative fit direction is opened.
+- **Animal:** PR #8's bounded elbow-relief candidate remains a legitimate next perceptual surface, but it is not as urgent as the integrated Map visual failure below because no downstream multi-asset current-world gate is waiting on an immediate Animal Art Direction choice.
+- **Building / Map:** Environment PR #24 now carries the exact five-surface Building response through a complete current-world Godot proof. Independent Visual QA has returned a new exact visual hierarchy FAIL on that receiving evidence. Runtime has also attached the exact current proof-host submission cost. This is the strongest ready Art Direction decision surface.
+- **Nature:** current sidedness/topology/material work remains separately owned; no new target-render evidence outranks the Map Building gate.
+- **Weather / VFX:** Map VFX PR #25 exact head `9cbdfdf8e0d96199c717a66355ea298216647ee5` still has a failed live target-host workflow for its source-width lane. Art Direction does not duplicate a currently owner-failing implementation/evidence lane.
+- **Object:** Rigging, Animation and Technical Art have advanced the source-authority chain with exact Godot evidence, but the motion content itself is intentionally unchanged and final motion style remains held. No immediate technical dependency is blocked solely by an Art Direction retime/style decision.
+- **Weapon / Misc:** no stronger current direct visual contradiction surfaced.
+- **UC / Profession Fabric:** unchanged. One current-world Building hierarchy repair does not justify shared lookdev policy or profession promotion.
 
-The highest-leverage non-duplicative action is therefore to close Art Direction's exact Character E form gate and hand the next source-lineage step back to Organic without pretending downstream work has already passed.
+The highest-leverage non-duplicative action is therefore to resolve **which variable should move first** after QA's current-world Building hierarchy failure.
 
-## Exact reviewed Character identity
+## Exact reviewed current-world identity
 
-Repository: `mike-axiom-mir/axm-character-design`
+Repository: `mike-axiom-mir/axm-map-design`
 
-PR: **#2 — `Organic Form: add first character neutral A-rest study`**
-
-Current PR metadata: **OPEN / DRAFT / MERGEABLE**. Mergeability is metadata only and grants no CANON authority.
+PR: **#24 — `Environment: converge Weather variant with exact Object source`**
 
 Exact current head:
 
-**`4fb82dc97cbdb487a1cde407b503f50565b40c05`**
+`48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`
 
-Current review candidate:
+PR metadata: **OPEN / DRAFT / MERGEABLE**. This is repository state only and grants no CANON authority.
 
-**`character-neutral-a-shoulder-transition-feathered-003`**
+Environment's exact technical results remain valid:
 
-Exact successful workflow:
-
-**`35090245742 — Character organic form baseline` — SUCCESS**
+- `PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_STRUCTURE`;
+- `PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_TARGET_HOST`.
 
 Retained artifact:
 
-- ID: **`10444187161`**;
-- name: `character-neutral-a-001-evidence`;
-- size: `410,506 bytes`;
-- GitHub SHA-256: **`50b748e9029f400f334c03a63220df043fbdd5f70b02385dabdb46972869af72`**;
-- independently downloaded in this activation and rehashed to the exact same SHA-256;
-- exact-head receipt inside artifact: `4fb82dc97cbdb487a1cde407b503f50565b40c05`.
+- ID `10447016718`;
+- size `11,409,828 bytes`;
+- SHA-256 `aeda6e564ae8ac99906c61ac56a692792c4227f2539b0c453e66914b9d15f1ff`;
+- renderer Godot `4.7.2` GL Compatibility;
+- evidence surface `17` dynamic states × `2` cameras × neutral/five-surface A/B = `68` retained frames.
 
-## Preserved predecessor evidence
+The exact material-only visual footprint remains stable across all states:
 
-The rejected six-sample profile intermediate remains exact provenance rather than hidden churn:
+- `path_eye`: `67,221 / 792,000 = 8.4875%`, bbox `(346,256)-(754,438)`;
+- `elevated_oblique`: `37,182 / 792,000 = 4.6947%`, bbox `(594,171)-(889,367)`.
 
-- exact head `6eeddc094471146fb0dac2d03a47234c913a57f0`;
-- structurally green;
-- open superior saddle removed the full annular wrap;
-- direct review still exposed abrupt arc ends that could read as a pointed shoulder plane / small epaulet.
+That attribution evidence lets Art Direction judge the Building response without pretending the Weather/sapling sequence or broader world changed.
 
-Organic therefore correctly retained it as rejected evidence and produced E with feathered arc-end depth instead of silently promoting the first green result.
+## Exact source-owned material response
 
-A/B/C remain unchanged historical identities.
+Building Materials PR #3 current head:
 
-## Exact E form delta
+`0c409a88c1952ca04934f9db47cb282db27b5c3c`
 
-E keeps the accepted broad Character body and the retained radius references while changing the transition profile:
+Profile SHA-256:
 
-- anchor-radius reference: `0.085 m`;
-- upper-arm-root radius: `0.075 m`;
-- root-ring samples: `(4, 5, 6, 7, 8, 9, 0, 1)`;
-- feather weights: `(0.40, 0.65, 0.90, 1.0, 1.0, 0.90, 0.65, 0.40)`;
-- target-axis scale: `(0.55, 0.55, 0.85)`;
-- two most inferior root samples stay uncovered, preventing a complete 360-degree transition ring;
-- proof mesh: `504 vertices / 908 triangles`.
+`e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`
 
-Those are source/form facts, not visual acceptance by themselves.
+Current relevant values:
 
-## Independent QA state accepted
+- `frame_galvanized`: `#77838AFF`, metallic `0.68`, roughness `0.38`;
+- `infill_coating`: `#344047FF`, metallic `0.16`, roughness `0.68`;
+- `roof_membrane`: `#24282BFF`, metallic `0.02`, roughness `0.88`;
+- `utility_panel_ochre`: `#6F5A3AFF`, metallic `0.18`, roughness `0.62`;
+- `slab_mineral`: `#555A5DFF`, metallic `0.0`, roughness `0.92`.
 
-Visual Observer / QA returned:
+The previous Art Direction packet `BUILDING_PAVILION_RECEIVING_LOOKDEV_REVIEW_002.md` accepted this refined family in the earlier, simpler Map PR #14 receiving scene and explicitly stopped scalar micro-tuning **unless independent QA or a materially richer representation exposed a new localized defect**.
 
-**`PASS_CHARACTER_FEATHERED_SHOULDER_LOCAL_VISUAL_DEFECT_GATE`**
+The current-world evidence now meets that reopening condition. This is continuity, not reversal by preference.
 
-QA first reproduced C's prior mechanical-collar failure, then found that exact E no longer reproduced the complete bilateral ring/ruff and did not expose a new gross detached gap, isolated spike, rounded bulb, armor-like epaulet or unilateral asymmetry in the same static proof scope.
+## Independent Visual QA gate accepted
 
-QA correctly kept Art Direction source choice, connected topology, deformation, target-host look and downstream readiness unclaimed.
+Visual Observer / QA independently returned:
+
+**`FAIL_CURRENT_WORLD_BUILDING_MATERIAL_VISUAL_HIERARCHY_GATE`**
+
+QA preserves the Environment structural/target-host PASS and fails only the exact current-world visual hierarchy.
+
+Across all 17 `path_eye` states, the candidate changed-Building pixels measure approximately:
+
+- median luma `31.02`;
+- `57.10%` below luma `32`;
+- `43.65%` within `±5` luma of unchanged local sky median `~17.51`;
+- `46.33%` at or below `sky + 10`.
+
+The elevated camera shows the same direction at lower severity, including about `36.68%` below luma `32`.
+
+These values are retained as diagnostics for this exact scene, **not** generalized into universal material or contrast thresholds.
 
 ## Direct Art Direction review
 
-I independently inspected the exact retained neutral-filled A/C/E boards from the downloaded artifact at matched front, top and true-three-quarter cameras rather than accepting CI or QA prose as a substitute for visual judgement.
+I directly reviewed the retained neutral / five-surface current-world comparison rather than using the statistics as a substitute for visual judgement.
 
-### Front
+### What works
 
-- **A:** upper-arm roots remain visibly detached from the ribcage.
-- **C:** the connection is stronger, but the shoulder root still reads as a separate faceted collar object.
-- **E:** the complete collar read is removed. The ribcage remains the primary mass and the arm root is connected through a narrower directional transition.
+- The galvanized frame remains a useful first manufactured layer.
+- The muted ochre service panel remains readable and no longer becomes the path-end color destination; the earlier service-panel repair should be preserved.
+- The darker industrial roof language remains viable and does not need to move merely because the enclosure fails.
+- The broader scene composition and Building silhouette remain usable; no source geometry repair is supported by this gate.
 
-### True three-quarter
+### What fails
 
-This is the most decisive view.
+In `path_eye`, the large authored enclosure/infill planes sit too close to the near-black surrounding world. Parts of the pavilion therefore read as if the framed bays are empty/deep openings rather than solid infill surfaces.
 
-- C's annular bridge creates a separate shoulder-root object around the arm.
-- E tapers into the torso and keeps the upper arm subordinate rather than wrapping it.
-- The previously rejected six-sample intermediate's hard-ended small-epaulet risk is not reproduced at the same severity.
+That is more consequential than simple darkness: it changes the intended solid-versus-open rhythm of the pavilion.
 
-### Top
+In `elevated_oblique`, stronger perspective and roof/frame cues keep the Building easier to parse, which further supports a response/hierarchy issue rather than a source-silhouette defect.
 
-E no longer presents the same closed annular shoulder language as C. The transition remains visibly low-poly/faceted, but the mass hierarchy is cleaner and the open-saddle profile is legible.
+## Runtime tradeoff attached, not promoted into Art Direction authority
 
-### Remaining visible caveat
+Map Runtime PR #26 exact head:
 
-A shallow faceted seam / crease remains visible around the torso-to-arm transition in some angles. This is **not accepted as final surface quality**. The current candidate is disconnected low-resolution proof geometry; connected topology, authored normals/tangents and deformation may soften or worsen the seam and must be tested independently.
+`f2f719b2084a2df9340857658efb13c369b968aa`
+
+Its exact current-world proof characterizes the five-surface representation as adding in both cameras:
+
+- `+12` draw-call counters;
+- `+12` objects-in-frame counters;
+- `+0` primitives;
+- `+0 B` observed buffer memory;
+- `+0 B` observed texture memory.
+
+Art Direction does not optimize from those counters. The visual hierarchy must first identify what appearance is worth preserving. Runtime should not collapse surface roles to solve a visual decision.
 
 ## Art Direction decision
 
-**`PASS_ART_DIRECTION_CHARACTER_FEATHERED_SHOULDER_E`**
+**`FAIL_ART_DIRECTION_CURRENT_WORLD_BUILDING_INFILL_HIERARCHY_004`**
 
-**`CLEAR_ART_DIRECTION_FORM_GATE_FOR_EXACT_E`**
+**`KEEP_CURRENT_WORLD_LIGHTING_AND_COMPOSITION_FIXED_FOR_FIRST_REPAIR`**
 
-**`REQUEST_EXACT_SOURCE_LINEAGE_MIGRATION_OF_E_FORM_DIRECTION`**
+**`REQUEST_ONE_INFILL_ONLY_MATERIAL_SEPARATION_CANDIDATE`**
+
+**`PRESERVE_FRAME_AND_SERVICE_ACCENT_GAINS`**
+
+**`HOLD_ROOF_CHANGE_ON_FIRST_REPAIR`**
 
 Exact meaning:
 
-> E is now the preferred Character shoulder form direction over A/B/C and the rejected six-sample intermediate. Organic Form may migrate the exact E transition semantics into the Character source lineage while preserving the rest of the body and all prior identities. This is permission to advance that exact form direction; it is not a claim that source migration, connected topology, deformation or final look has already passed.
+> The exact current five-surface Building response is not visually accepted in the exact PR #24 current world because `infill_coating` can collapse toward the near-black background enough to confuse solid enclosure with open void. The first repair should hold the current Environment light/composition fixed and change only the Building-owned infill response. Do not change Environment lighting and Building materials in the same proof; do not broaden the first repair into roof, frame, slab, service-panel, geometry, camera or VFX changes.
 
-The migrated source must receive a new exact source/mesh identity and its own evidence. Do not silently relabel the review candidate as already adopted.
+Material-first is the smallest supported experiment because QA localized the decisive defect, Environment's broader scene already has exact multi-asset evidence, and changing global light would perturb many unrelated relationships at once.
 
-## New bounded direction packet
+Art Direction does **not** prescribe a replacement hex/metallic/roughness value. Materials must produce and render a bounded successor candidate.
+
+## New direction packet
 
 Created:
 
-`studio/direction/CHARACTER_FEATHERED_SHOULDER_ADOPTION_DIRECTION_003.md`
+`studio/direction/BUILDING_CURRENT_WORLD_INFILL_HIERARCHY_DIRECTION_004.md`
 
 Creation commit:
 
-`3c3c481d0360f604ff2b625c9a3ba2594c1284bb`
+`416f8880e9dc17374e23c8e0cff89af6fd8d5ce2`
 
-The packet binds the exact Character head/artifact, preserves predecessor outcomes, records direct Art Direction observations, and separates form-direction acceptance from source migration and downstream acceptance.
+The packet binds the exact Map/Building/QA/Runtime identities, preserves the earlier Building Art Direction PASS as historical context, defines the one-variable repair target, and separates visual direction from Materials implementation and QA acceptance.
 
 ## Handoffs
 
-### Organic Form / Character PR #2
+### Materials / LookDev — Building PR #3
 
-Art Direction's exact E form gate is green. Migrate only the accepted E transition semantics into the Character source lineage, give that migration a new exact identity, preserve all historical evidence, and rerun exact evidence. Do not broaden body proportions or restart radius search during this migration.
+Create one exact successor candidate that changes only `infill_coating` on the first pass. Preserve current `frame_galvanized`, `roof_membrane`, `slab_mineral` and `utility_panel_ochre` values, plus the exact five-role component mapping. The target is solid-enclosure readability in `path_eye` while remaining darker/quieter than the frame and less focal than the ochre service accent.
+
+Do not choose the replacement values from Art Direction prose alone. Render and compare them in the exact current-world receiving context.
+
+### Environment / Map PR #24
+
+Keep exact current-world path, cameras, lighting, Weather, Nature, Object and geometry fixed for the first repair. Rebind only when Materials publishes a distinct successor material identity. Do not add a compensating light before the material-only question is answered.
 
 ### Visual Observer / QA
 
-After source migration, verify that the new source identity still reproduces the accepted E form before downstream Geometry is treated as ready. Later independently review the connected topology/normals result; this PASS does not transfer automatically to a new identity.
+After a real successor exists, repeat the same full `17 × 2` visual hierarchy gate. The scene-specific dark/sky diagnostics should move toward stronger separation, but direct solid-versus-open readability remains the visual acceptance question and the numeric diagnostics are not generic thresholds.
 
-### Geometry / Topology
+### Runtime / Optimization
 
-Do not weld the disconnected proof patch by rote. Re-enter Character after Organic publishes the exact migrated source identity. Own one bounded connected shoulder response that preserves E's accepted silhouette/hierarchy and explicitly tests whether the current shallow seam becomes a tangent, pinch, faceted ridge or accidental collar under connected topology/normals.
+Keep the existing `+12` submission observation attached to the current exact candidate. Do not collapse role count before the preferred look exists, and do not silently transfer current Runtime acceptance to a successor material identity.
 
-### Rigging / Deformation
+### Geometry / Hard Surface / Procedural / Capability Cartography
 
-Remain held until an exact accepted connected Geometry identity exists. No static neutral form PASS establishes weights, skinning, volume preservation or shoulder deformation quality.
+No Building source geometry, panel mechanics, topology candidate, procedural row grammar or topology-source-migration decision changes from this Art Direction result.
 
-### Armor / Unit
+### Character / Rigging / Armor / Unit
 
-Fit/socket work remains held until Character has the exact migrated source plus accepted connected shoulder geometry. Do not fit against the disconnected review patch.
+Character source-form migration is now complete, but connected shoulder Geometry remains the next dependency. This Building direction does not alter that chain.
 
-### Materials / LookDev / Technical Art
+### Animal / Object / VFX
 
-Do not use shading/materials/target-host representation to conceal or redefine the accepted form target. Target-host shaded look remains a separate later gate after connected geometry exists.
-
-### Animal
-
-PR #8 locked-perspective elbow evidence becomes the strongest queued organic perceptual Art Direction surface once the Character source migration is handed off and no new Character form contradiction appears.
-
-### Map / Environment / Object
-
-Weather/Object hierarchy/readability and Object motion visual weight remain valid later Art Direction surfaces. No rescale, retiming or aesthetic promotion is authorized from technical counters alone.
-
-### Capability Cartography / UC / Profession Fabric
-
-Keep this shoulder-transition knowledge Character-local. One accepted repair does not justify a generic organic-transition primitive, UC policy or profession promotion.
+Animal elbow relief and Object motion weight remain future visual review surfaces. VFX PR #25 remains in its owner-failing live-host lane. None should be changed to compensate for this Building material issue.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- anatomy, medical or biological correctness;
-- completed Character source migration;
-- connected/manifold production topology;
-- production normals, tangents, UVs or materials;
-- skinning, weights, constraints, IK, deformation or pose quality;
-- Armor / Unit fit or sockets;
-- animation, locomotion, controller or gameplay acceptance;
-- collision or physics;
-- target-engine shaded equivalence or final visual quality;
-- target-device performance;
+- the exact successor infill material values;
+- final Building palette or final lookdev;
+- final roof response;
+- final Environment lighting, exposure, grading or cinematography;
+- a universal luma/contrast/material threshold;
+- physical material correctness;
+- final UVs, textures, decals, weathering, normals or tangents;
+- Building Geometry PR #6 source migration;
+- target-device performance, FPS, CPU/GPU time, VRAM, memory or renderer-independent batching;
+- collision, navigation, traversal or gameplay readability;
 - CANON, production readiness, game readiness, Profession Fabric promotion or Art Direction mastery.
 
 ## Four-root gate
 
-- **Truth:** C's failure and the rejected six-sample downside remain preserved. E is promoted only through exact retained evidence plus independent QA and direct Art Direction inspection. Form acceptance is kept separate from source migration and downstream acceptance.
-- **Agency / non-domination:** Organic owns source migration, Geometry owns connected topology, Rigging owns deformation, QA owns independent verification, and the four roots — not specialist rank or PR mergeability — remain the merge gate.
-- **Continuity:** A/B/C, the rejected intermediate and E remain distinct identities. The next source migration must get its own exact identity rather than rewriting history.
-- **Wisdom before speed:** unlock only the next dependency — exact source-lineage migration — instead of jumping from one static visual success directly to Geometry, Rigging, Armor/Unit, runtime or production claims.
+- **Truth:** the earlier Building Art Direction PASS stays exact to its earlier Map PR #14 context; the newer integrated QA FAIL is accepted as new evidence rather than explained away. Technical convergence, visual preference and Runtime cost stay separate.
+- **Agency / non-domination:** Art Direction chooses only the bounded visual target. Materials owns the response implementation, Environment owns scene lighting/composition, QA owns independent reproduction, Runtime owns cost, and the roots remain the merge gate.
+- **Continuity:** current frame, muted service accent, dark roof language, scene composition and exact source identities remain fixed while one infill response variable is challenged. No prior PASS is silently rewritten.
+- **Wisdom before speed:** test one reversible material role before changing lighting, roof, geometry, renderer, texture complexity or scene composition together.
 
 ## Next Art Director pass
 
-Re-scan first. Do not automatically continue Character. If Organic has completed an exact source-lineage migration of E and QA exposes a new visual contradiction, review that. Otherwise prefer the strongest ready direct visual surface, with current likely candidates being Animal PR #8 locked-perspective elbow relief, Map current-world Weather/Object hierarchy/readability, or Object motion weight/style. Do not claim mastery from this single success.
+Re-scan the constellation first. Do not automatically continue Building. If Materials + Environment produce the exact one-variable successor current-world A/B, review it. Otherwise prefer the strongest ready direct visual surface—likely Animal PR #8 elbow relief or Object motion weight/style if a new direct presentation surface appears. Do not claim mastery from one successful repair.
