@@ -1,323 +1,196 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / THIRD MATERIAL PROCEDURAL FAMILY IMPLEMENTED / WEATHER-LOCAL SEEDED FIELD / MULTI-SEED EXACT-HEAD PASS / HORIZONTAL EXTRACTION NOT YET CLAIMED**
+State: **ACTIVE / CROSS-DOMAIN BOUNDED-VARIATION PROCEDURE PROBE PASS / PROFESSION EXPERIMENT ONLY / SOURCE MUTATORS STAY LOCAL / NO UC EXTRACTION**
 
-## Current state
+## Current decision
 
-Procedural Design now has **three materially different receiving-domain proofs** while keeping mutation semantics with their source owners:
+The studio now has three materially different source-owned procedural families:
 
-1. **Map-local placement variation** — `mike-axiom-mir/axm-map-design#3`, exact head `83eb65711bdbd621227d5967b7735f1719e9b2f4`; varies already-declared Nature/Object proxy transforms while preserving the Environment composition gate.
-2. **Nature-local source-form variation** — `mike-axiom-mir/axm-nature-design#4`, exact head `f939ae78ae6bb986aa67d557d7f8ff977abb7775`; varies authored branch/crown degrees of freedom around the exact source-owned sapling and re-runs the Organic Form gate for every candidate.
-3. **Weather-local stochastic field variation** — new draft `mike-axiom-mir/axm-weather-design#3`, exact head `05b26c4e82bbe0a4de0ee7bee34179efc58b9719`; varies only the deterministic streak-field seed around the exact Weather PR #2 source while preserving scene extent, visual wind direction/speed semantics, density, timing and no-wrap bounds.
+1. Map placement variation — `mike-axiom-mir/axm-map-design#3`, exact tested head `83eb65711bdbd621227d5967b7735f1719e9b2f4`;
+2. Nature branch/crown source-form variation — `mike-axiom-mir/axm-nature-design#4`, exact tested head `f939ae78ae6bb986aa67d557d7f8ff977abb7775`;
+3. Weather stochastic field variation — `mike-axiom-mir/axm-weather-design#3`, exact tested head `05b26c4e82bbe0a4de0ee7bee34179efc58b9719`.
 
-This activation adds the third proof. It does **not** merge the three contracts, move Weather semantics into Universal Creation, or claim that deterministic seeds alone constitute a universal procedural system.
+A fresh comparison of their actual implementations confirms the repeated capability is **not one mutation engine**. Map varies proxy transforms under composition rules; Nature varies authored branch/crown geometry under Organic Form/envelope rules and bounded rejection; Weather varies only stochastic field identity while preserving authored visual-motion semantics.
 
-`axm-create-me` remains coordination-only. Product/generator implementation lives only in the source-owning design repository. The prior detailed two-family status remains recoverable in Git history at blob `c622854199d59249b5f685c1dd45af083652e75b`; this status compresses that history into exact references rather than silently relabelling prior evidence.
+What genuinely repeats is an evidence procedure: exact source/family identity, explicit mutation authority, immutable fields, source-owned evaluator rerun, multiple materially different retained outputs, bounded HOLD/failure behavior, digests, truth boundary and downstream ownership.
 
-## Coordination / full constellation scan
+Capability Cartography had already mapped that repeated discipline as a Profession Fabric procedure candidate and explicitly requested a real cross-domain execution before structural promotion. This activation performs that proof. Universal Creation is unchanged.
 
-Read before acting:
+`axm-create-me` remains coordination-only.
 
-- `studio/3D_STUDIO_CAMPAIGN.md`;
-- standing role `studio/specialists/10_procedural_design.md`;
-- current specialist status across Art Direction, Geometry, Hard Surface, Organic Form, Materials, Rigging, Animation, Environment, VFX, Technical Art / UC Integration, Runtime, Visual Observer / QA and Capability Cartography;
-- newest open PR state across all eleven design repositories.
+## Full constellation / lane scan
 
-Current design-repository surface at lane selection:
+The active design surface was inspected before selecting the lane:
 
 - `axm-weapon-design`: no open implementation PR;
 - `axm-armor-design`: no open implementation PR;
-- `axm-character-design`: Organic Form PR #2 now supplies the first neutral A-rest body; no procedural character lane exists and its flex/deformation review is still pending;
+- `axm-character-design`: Organic Form PR #2 remains the first neutral A-rest body; its deformation/visual chain is still awaiting downstream acceptance, so Procedural did not invent character variation;
 - `axm-unit-design`: no open implementation PR;
-- `axm-animal-design`: Organic Form, Rigging, Technical Art, connected-topology Geometry and first bounded Animation lanes are active; this run did not enter their unresolved deformation/visual work;
+- `axm-animal-design`: Organic Form, Rigging, Technical Art, Geometry and Animation are active; Animation now has a denser sampled-loop continuity proof, so Procedural did not duplicate motion/deformation work;
 - `axm-building-design`: no open implementation PR;
-- `axm-nature-design`: active Organic Form, VFX response, Technical Art / UC bridge, Procedural branch/crown family and Materials / LookDev lanes;
-- `axm-weather-design`: PR #2 owns the exact deterministic visual-atmosphere source; no procedural Weather family existed before this activation;
-- `axm-map-design`: PR #2 owns Environment composition, PR #3 owns map-local seeded placement variation, and PR #4 now has source-owned Nature + Weather integration plus real Godot eye-level/oblique observation evidence;
-- `axm-object-design`: no open implementation PR;
+- `axm-nature-design`: Organic Form, VFX, Technical Art, Procedural and Materials lanes are active; the accepted local sway has moved toward scene integration;
+- `axm-weather-design`: VFX baseline plus the existing Procedural seeded-field family remain active;
+- `axm-map-design`: Environment composition/source integration, Procedural placement, Runtime measurement and a new VFX scene-motion lane are active;
+- `axm-object-design`: Hard-Surface equipment-case PR #2 and Rigging articulation PR #3 are active; no new object procedural family was opened because its first source body has not yet demonstrated repeated authored variation need;
 - `axm-misc-design`: no open implementation PR.
 
-Relevant specialist boundaries remained clear:
-
-- Art Direction currently holds the Nature sapling sway profile for better internal response hierarchy and separately keeps the Wreckline 35 m LOD visual hold. Procedural did not alter either lane.
-- Geometry / Rigging / Animation are occupied by the animal/character deformation chain; their current structural or motion PASS does not authorize procedural body mutation.
-- Materials has a bounded Nature bark/leaf lookdev candidate; procedural Weather does not vary materials.
-- Environment has already consumed the exact Weather PR #2 source in a real scene slice, creating a real downstream reason to generate alternate Weather layouts later, but Environment has **not** accepted any new Weather seed from this activation.
-- VFX / Weather retains authority over wind direction, visual speed, count/density, timing and semantics. Procedural receives only the already-existing stochastic seed degree of freedom.
-- Technical Art / Runtime have separate portability/performance boundaries; this family adds no engine-particle or runtime-cost claim.
-- Capability Cartography previously asked for a third materially different procedural family or real duplication pressure before revisiting horizontal placement. That third family now exists, so placement analysis can be reopened; extraction is still not automatic.
-
-Wreckline remains outside the design-repository procedural source lane selected here and was not duplicated.
-
-## Repeated pattern selected
-
-Weather PR #2 already contains one explicit procedural operation inside a real source-owned effect: it uses an integer seed to deterministically create 36 stochastic visual streaks, while all actual Weather semantics remain separately authored.
-
-That source is no longer isolated evidence. `axm-map-design#4` consumes the exact Weather field in a real Environment slice and has now rendered that mixed scene from eye-level and oblique Godot cameras. Alternate bounded layouts are therefore a plausible repeated source-authoring task, while changing wind direction, speed, density or physical meaning would still be VFX / Weather design work.
-
-The smallest pattern that genuinely deserved proceduralization was therefore:
-
-> **generate multiple deterministic stochastic layouts of the exact Weather visual field by changing only its seed, while preserving every authored motion/semantic field and refusing to call a repeated baseline layout a new variant.**
-
-This is materially different from the previous two Procedural families:
-
-- Map variation mutates **instance transforms/sizes inside a composition**;
-- Nature variation mutates **source-owned branch/crown geometry**;
-- Weather variation mutates **only stochastic field layout identity**, while motion direction/speed/count/timing remain immutable.
+This leaves the cross-domain evidence procedure as the highest-leverage repeated pattern without taking another specialist's active lane or manufacturing a fourth asset family solely to justify abstraction.
 
 ## Bounded improvement
 
-Opened draft PR:
+Opened stacked draft PR:
 
-`mike-axiom-mir/axm-weather-design#3 — Procedural: add bounded Weather seeded field family`
+`mike-axiom-mir/axm-profession-fabric#37 — Procedural: prove bounded variation evidence procedure across domains`
 
 Branch:
 
-`studio/procedural-weather-field-family-001`
+`studio/procedural-bounded-variation-procedure-001`
 
-Stacked prerequisite:
+Stacked exactly on EXPERIMENTAL 3D Game Asset Specialist PR #35 head:
 
-- Weather / VFX PR #2 branch `studio/wind-atmosphere-baseline-001`;
-- exact prerequisite head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
-- exact baseline source digest `b33feba47b0a0f9a99ec439e32a87ff6d4cb2dacffe33ba78f8b646c3a1be8d6`.
+`541785c9e90d825a3e9e2384abecf42bef15e0d0`
 
-Exact tested Procedural head:
+Final exact Procedural head:
 
-`05b26c4e82bbe0a4de0ee7bee34179efc58b9719`
+`90cfa44a155dc29835b00415642f18e9fa33ed24`
 
-Added only Weather-owned procedural/evidence files:
+The branch adds:
 
-- `tools/weather_variation_family.py`;
-- `examples/wind_atmosphere_variation_family_001.json`;
-- `tests/test_weather_variation_family.py`;
-- `docs/WEATHER_VARIATION_FAMILY_001.md`;
-- `.github/workflows/procedural-weather-field-family.yml`.
+- `professions/game-development/3d-game-asset-specialist/procedures/bounded-variation-evidence.json` — EXPERIMENTAL procedure only;
+- `experiments/live-jobs/bounded-variation-cross-domain-001/manifest.json` — exact source/head and evidence mapping;
+- `experiments/live-jobs/bounded-variation-cross-domain-001/verify.py` — domain-neutral evidence verifier;
+- `experiments/live-jobs/bounded-variation-cross-domain-001/README.md`;
+- `.github/workflows/bounded-variation-procedure-probe.yml`;
+- the profession package manifest now explicitly declares the new experimental procedure.
 
-No generator code was added to `axm-create-me`, Map Design, Nature Design, Universal Creation or Profession Fabric.
+No Map, Nature or Weather mutation implementation moved. No domain acceptance logic moved. No UC code changed.
 
-## Exact local contract
+## Exact cross-domain executions
 
-Family schema:
+### Nature case
 
-`axm.weather-atmosphere-variation-family/v0.1`
+Exact source-owned family:
 
-Family:
+`mike-axiom-mir/axm-nature-design@f939ae78ae6bb986aa67d557d7f8ff977abb7775`
 
-`wind-atmosphere-seeded-field-001`
+The Profession Fabric workflow freshly reruns the Nature repository compile/tests and exact multi-seed evidence builder. The retained procedure packet observes:
 
-Exact family digest:
+- exact head match: PASS;
+- base source digest: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
+- family digest: `fb6a6a578361af83bef660eb6e40aa532c9b6df7782c53f186f06c85c0305dac`;
+- source-owned state: `PASS_MULTI_SEED_BOUNDED_VARIATION`;
+- retained seeds: `11`, `47`, `101`;
+- candidate source digests: distinct 3/3;
+- candidate mesh digests: distinct 3/3;
+- source-owned negative control: `HOLD_NO_VALID_VARIANT`.
 
-`a5fc71bf01e72bde25f7d010dba49d7efaac867603c089e150e5c0764103dce1`
+Profession Fabric does not reproduce branch/leaf mutation or Organic Form acceptance; it only verifies the resulting retained evidence shell.
 
-Allowed mutation in v0.1:
+### Weather case
 
-- derived `study_id` for exact evidence identity;
-- integer `seed` in `[0, 2147483647]`.
+Exact source-owned family:
 
-The family preserves exactly:
+`mike-axiom-mir/axm-weather-design@05b26c4e82bbe0a4de0ee7bee34179efc58b9719`
 
-- baseline Weather schema;
-- source Map-context provenance;
-- scene extent `24 m × 18 m`;
-- `wind_xy = [1.0, 0.35]`;
-- `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED` semantics;
-- visual displacement speed `1.8 m/s`;
-- particle count `36`;
-- sample times `0.00 / 0.25 / 0.50 s`;
-- streak-length range `0.45–1.15 m`;
-- `2.0 m` safe margin / no-wrap proof window;
-- baseline truth boundary.
+The same workflow freshly reruns Weather compile/tests and the exact family evidence builder. The retained procedure packet observes:
 
-Changing direction, speed, count/density, timings, scene size or physical semantics is intentionally **not** a Procedural mutation axis here.
+- exact head match: PASS;
+- base source digest: `b33feba47b0a0f9a99ec439e32a87ff6d4cb2dacffe33ba78f8b646c3a1be8d6`;
+- family digest: `a5fc71bf01e72bde25f7d010dba49d7efaac867603c089e150e5c0764103dce1`;
+- source-owned state: `PASS`;
+- retained seeds: `1207`, `44021`, `83017`;
+- candidate source digests: distinct 3/3;
+- particle-layout digests: distinct 3/3;
+- source-owned negative control: `HOLD_VARIANT_GATE`.
 
-## Acceptance / failure bounds
+Weather direction, speed/count/timing semantics and spread/material-difference rules remain entirely Weather-owned.
 
-Every candidate re-runs the existing Weather `evaluate()` gate rather than inheriting the baseline PASS.
+## Why Map is deliberately not counted in the procedure PASS
 
-Additional family gates require:
+Map PR #3 remains a valid third materially different Procedural family. Its current tests exercise an impossible 2x-scale family that must exhaust and HOLD, but its retained `summary.json` does not currently include that negative control.
 
-- at least **30 of 36** indexed streak starting positions move at least **0.25 m** relative to the baseline field;
-- all **four XY quadrants** contain streak starts;
-- candidate start positions span at least **70%** of the available interior width;
-- candidate start positions span at least **70%** of the available interior height;
-- all declared immutable source fields remain exact.
+The new profession-level procedure treats **retained failure evidence** as part of the contract. It therefore records Map as an excluded observation rather than weakening the procedure merely to claim three domains. This is a useful discovered gap, not a Map failure or a request to rewrite Map immediately.
 
-A requested seed that fails these gates returns:
+## Exact-head CI and retained evidence
 
-`HOLD_VARIANT_GATE`
+Final head:
 
-The generator does **not** silently select another seed, widen the scene, alter density, change wind direction, weaken the gate, or reinterpret visual speed as physics.
+`90cfa44a155dc29835b00415642f18e9fa33ed24`
 
-Negative control:
+Both relevant workflows are green on that exact head:
 
-- baseline seed `9142` reproduces the original particle field;
-- moved start positions: **0 / 36**;
-- result: **`HOLD_VARIANT_GATE`** because an unchanged field is not relabelled as a procedural variation.
-
-This gives the family a real failure boundary rather than treating successful execution as evidence of useful variation.
-
-## Exact-head CI / retained evidence
-
-Exact head:
-
-`05b26c4e82bbe0a4de0ee7bee34179efc58b9719`
-
-Workflow:
-
-`Procedural weather field family`
-
-Pull-request run:
-
-**`35053126554 — SUCCESS`**
-
-- Python 3.11: compile PASS, full repository unittest discovery PASS, exact multi-seed evidence build PASS, artifact upload PASS;
-- Python 3.13: compile PASS, full repository unittest discovery PASS.
+- `35056781517 — Bounded variation procedure probe`: **SUCCESS**;
+- `35056781494 — Verify Profession Fabric foundation`: **SUCCESS**.
 
 Retained artifact:
 
-- artifact ID: **10429791519**;
-- name: `wind-atmosphere-variation-family-001-evidence`;
-- exact-head binding: `05b26c4e82bbe0a4de0ee7bee34179efc58b9719`;
-- archive SHA-256: `144ca5fe7875d957ce1ab98b9632c1f8973fe334038ce756f93eb59f8e69c48f`;
-- retained size: 25,759 bytes.
+- artifact ID: `10431215780`;
+- name: `bounded-variation-cross-domain-001-evidence`;
+- exact head binding: `90cfa44a155dc29835b00415642f18e9fa33ed24`;
+- archive SHA-256: `36925c79d1960c069378ad4bf4157e6842a99d8bbf2c42caaf01f43c37ff5a47`;
+- retained size: 4,521 bytes.
 
-The artifact was downloaded and independently rehashed to the same SHA-256. Its exact `summary.json` reports:
+The artifact was downloaded and independently rehashed to the same SHA-256.
 
-- state: **PASS**;
-- family digest: `a5fc71bf01e72bde25f7d010dba49d7efaac867603c089e150e5c0764103dce1`;
-- base source digest: `b33feba47b0a0f9a99ec439e32a87ff6d4cb2dacffe33ba78f8b646c3a1be8d6`;
-- base head: `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
-- exact receiving head: `05b26c4e82bbe0a4de0ee7bee34179efc58b9719`;
-- retained seed count: 3;
-- candidate source digests: distinct **3 / 3**;
-- particle-layout digests: distinct **3 / 3**;
-- baseline-seed negative control: HOLD as required.
+Its exact `summary.json` reports:
 
-## Multi-seed evidence
+`PASS_BOUNDED_VARIATION_PROCEDURE_PROBE`
 
-### Seed 1207
+All procedure checks are true:
 
-- status: **PASS**;
-- moved starts: **36 / 36**;
-- quadrants occupied: **4**;
-- interior X span: **98.70%** / `19.740144 m`;
-- interior Y span: **96.76%** / `13.546056 m`;
-- candidate source digest: `a79b42b4d2ca8be27429e40cae4e0aa4e1d4502d20e11d40d32cda69c4cf2edc`;
-- particle-layout digest: `77d048e869a5032d0db7ac714010737a7dd4879dd85e7d9a7e55e6dcb2c2826a`.
+- at least two materially different domains executed;
+- all source-owned family runs PASS;
+- all exact heads match;
+- both cases retain their source-owned negative HOLD;
+- a harness-level duplicate-output-identity negative control HOLDS as required.
 
-### Seed 44021
+The harness negative control deliberately copies variant 0's output digests into variant 1. The verifier rejects it with both `candidate_mesh_digest is not materially distinct` and `candidate_source_digest is not materially distinct`, proving the shared shell does not accept a multi-seed label when retained outputs collapse to one identity.
 
-- status: **PASS**;
-- moved starts: **36 / 36**;
-- quadrants occupied: **4**;
-- interior X span: **98.79%** / `19.757976 m`;
-- interior Y span: **97.60%** / `13.663618 m`;
-- candidate source digest: `bf3a5807e8e87c875f878685b3435cdb4e7428ad7e07eae43ea09d2c3d9ee3c2`;
-- particle-layout digest: `7ed55e93ea9445345016685320716006bc52960b33784cb620ca5670a74cc26f`.
+## Retained repair history
 
-### Seed 83017
+The first published procedure head caused Profession Fabric foundation workflow `35056711674` to fail because the new procedure file had not yet been declared in the profession package manifest. The validator correctly reported `3d-game-asset-specialist: package has undeclared or missing files`.
 
-- status: **PASS**;
-- moved starts: **36 / 36**;
-- quadrants occupied: **4**;
-- interior X span: **91.22%** / `18.243977 m`;
-- interior Y span: **93.92%** / `13.149335 m`;
-- candidate source digest: `9f8b03e153298284ae92d58aa5e1046ef29bbd6deffe1612e61137efa72fdd70`;
-- particle-layout digest: `1cd8e4f2e6676859ff9d987dc9bf83a417b6d94b158e164a5261a01b2c51cf5e`.
+The repair did not weaken the validator. The new procedure was explicitly added to the package exports/components, producing final head `90cfa44a155dc29835b00415642f18e9fa33ed24`; the foundation workflow then passed. The failed run remains historical evidence.
 
-All three candidates retain the existing Weather directional PASS and exact immutable fields.
+## Result / placement boundary
 
-## Direct retained-output observation
+Scoped result:
 
-The exact retained `seed_comparison_0500ms.svg` was downloaded from artifact `10429791519`, rasterized and inspected directly.
+**`PASS_BOUNDED_VARIATION_PROCEDURE_PROBE / KEEP_PROFESSION_EXPERIMENTAL / NO_UC_EXTRACTION`**
 
-Observed within this narrow proof-view scope:
+This is the first direct evidence that the proposed bounded-variation **professional procedure** can execute unchanged over two materially different domain families while leaving mutation and acceptance with their source owners.
 
-- all three fields visibly contain different stochastic streak placement patterns;
-- the same central proof corridor remains visible in each panel;
-- streaks keep the same source-owned orientation / visual downwind direction;
-- none of the retained seeds is an identical-looking copy of another at the `0.50 s` sample.
+That supports keeping the procedure as an EXPERIMENTAL Profession Fabric capability. It does **not** prove that Map/Nature/Weather need one shared generator or that UC should gain a procedural organ.
 
-That observation supports only the claim that the retained layouts are perceptually non-identical while the authored direction remains visually consistent. It does **not** establish that one seed looks better, improves world-art hierarchy, preserves readability from every camera, or deserves Environment / Art Director promotion.
-
-## Why this deserves proceduralization now
-
-The generator does not invent turbulence, precipitation, gusts, density rules or weather simulation. It formalizes one stochastic choice that was already embedded in a real source-owned Weather implementation **after** that source gained an actual downstream Environment consumer.
-
-The family therefore removes a repeated manual operation — choosing and proving alternate random layouts — without absorbing Weather semantics or pretending every random seed is useful.
-
-It also exercises a materially new procedural case: the geometry/motion recipe is unchanged and only stochastic realization changes. That distinguishes it from both Map placement mutation and Nature source-form mutation.
-
-## Horizontal learning after three real families
-
-Three domain-local families now reproduce a common **evidence discipline**:
-
-1. exact base/source identity;
-2. explicit mutation authority;
-3. deterministic seed identity where randomness exists;
-4. immutable-field checks;
-5. source-domain acceptance rerun;
-6. material-difference checks;
-7. explicit bounded HOLD rather than least-bad success;
-8. multiple retained outputs, not one lucky example;
-9. candidate/output digests and non-claims.
-
-That repetition is now strong enough for Capability Cartography to re-open the question of a tiny domain-neutral bounded-variation/evidence helper.
-
-It is **not yet enough to move code automatically**:
-
-- Map mutates placement/scale/rotation under path/spacing composition rules;
-- Nature mutates authored branch/crown source geometry under Organic Form/envelope rules and uses bounded rejection search;
-- Weather mutates only stochastic field seed under motion-semantics/spread rules and explicitly HOLDS an unchanged baseline seed.
-
-The repeated piece may be an evidence/provenance shell rather than a shared mutation engine. Cartography / Technical Art should compare actual implementations before extraction. Domain ranges, mutation meaning and acceptance semantics must remain source-owned.
-
-No Universal Creation or Profession Fabric change is made in this activation.
+A future UC extraction still requires a literal executable operation that multiple real consumers use unchanged and that does not absorb domain semantics. The current verifier is profession/evidence machinery, not creation machinery.
 
 ## Truth boundary / non-claims
 
-Current Weather procedural PASS establishes only that the exact PR #2 Weather source can deterministically produce multiple materially distinct stochastic visual-streak layouts by changing only its seed, while preserving its exact authored visual-motion contract and passing the declared local spread/material-difference gates.
+This PASS does **not** establish:
 
-It does **not** establish:
+- a universal procedural generator or mutation language;
+- shared domain ranges, RNG policy or rejection search;
+- Art Director acceptance of any retained variant;
+- environment acceptance of Nature/Weather variants;
+- biology, meteorology, physical simulation or gameplay value;
+- runtime/performance fitness;
+- production readiness or CANON;
+- Profession Fabric `3d-game-asset-specialist` promotion beyond EXPERIMENTAL;
+- Procedural Design mastery;
+- a need to alter Universal Creation.
 
-- physical wind, force, pressure or meteorology;
-- turbulence, gusts, precipitation, clouds or volumetrics;
-- that seed 1207, 44021 or 83017 is visually better than baseline seed 9142;
-- Environment acceptance of any new seed;
-- Art Director or Visual Observer acceptance;
-- Nature wind-response acceptance or interaction with the current sway-profile hold;
-- target-engine particle-system behavior;
-- runtime generation cost, draw calls, memory or target-device budget;
-- gameplay, collision or simulation authority;
-- a universal Weather generator;
-- a general procedural grammar;
-- Universal Creation placement of the common evidence mechanics;
-- CANON, merge authority, production readiness or Procedural Design mastery.
+## Four-root check
 
-PR #3 remains **DRAFT / OPEN / MERGEABLE**. Exact-head CI and retained evidence provide scoped evidence only; the four roots remain the merge gate.
+- **Truth:** actual source-owned builders are rerun at exact revisions; multiple outputs and negative controls are retained; the initial package-validation failure remains visible.
+- **Agency / non-domination:** Profession Fabric observes the method but does not take mutation or acceptance authority from Nature, Weather or Map.
+- **Continuity:** source repos, exact heads, source/family/output digests, failure states and stacked PR identity remain explicit and rollbackable.
+- **Wisdom before speed:** the studio proceduralizes only the repeated evidence discipline proven across domains, while refusing the more impressive but unsupported universal mutation engine.
 
-## Root gate
+## Handoffs / next procedural gate
 
-- **Truth:** exact prerequisite/source/family/head/artifact identities are retained; every seed re-runs Weather checks; baseline seed 9142 is explicitly rejected as a false variation instead of being counted as success.
-- **Agency / non-domination:** Weather/VFX retains direction, speed, count, timing and meaning; Environment and Art Direction retain receiving/aesthetic authority; Procedural owns only the declared seeded-layout operation.
-- **Continuity:** PR #3 is stacked directly on exact Weather PR #2 without modifying the baseline source lane; rollback is branch-local; previous Map/Nature procedural proofs remain separate and recoverable.
-- **Wisdom before speed:** one existing stochastic degree of freedom was bounded and tested across three exact outputs instead of adding gusts, precipitation, physical simulation or a universal procedural framework merely because a third family now exists.
-
-## Handoffs
-
-- **VFX / Atmosphere:** baseline Weather semantics remain yours. Do not infer gust/turbulence/density authority from the seed family. Nature's sway-profile Art Director hold remains separate.
-- **Environment / World Art:** do not inherit this PASS. If a Weather variant is useful, consume one exact retained seed in the existing `axm-map-design#4` scene and rerun the same eye-level/oblique readability evidence before any receiving claim.
-- **3D Art Director / Visual Observer:** the retained three-panel comparison proves visible non-identity only. Review baseline plus candidate seeds only if choosing a field becomes the next meaningful scene-level question; no aesthetic seed selection is requested merely because CI is green.
-- **Runtime / Optimization:** no engine particle or cost proof exists. Measure only after a real runtime path consumes one exact field.
-- **Technical Art / UC Integration:** no UC change requested. If a generic helper emerges, keep Weather semantics out of it and preserve exact source identities.
-- **Capability Cartographer:** the previous trigger for a third materially different procedural family has now fired. Compare Map, Nature and Weather implementations for the smallest genuinely repeated domain-neutral mechanism. A likely candidate is provenance/seed/HOLD/evidence plumbing, not domain mutation rules.
-- **Profession Fabric:** no promotion requested. Repeated procedural evidence may later strengthen a 3D technical-art/procedural profession body only after that body actually executes these cross-domain tasks.
-
-## Next Procedural Design pass
-
-1. Read Cartographer response to the now-three-family pattern before writing any shared utility.
-2. Read Environment / Art Director response if any exact Weather seed is actually composed into the real scene; repair this Weather family only if direct receiving evidence exposes a bounded procedural defect.
-3. Do not expand Weather into gusts/turbulence/precipitation unless VFX first authors those as real source-owned degrees of freedom.
-4. Prefer the next genuinely repeated source pattern in another department only after that source has real authored structure and downstream demand; do not fill empty departments to manufacture procedural coverage.
-5. Keep horizontal extraction evidence-driven: shared vocabulary is not shared implementation, and three successes are a trigger for comparison, not automatic centralization.
+- **Capability Cartography:** placement evidence is now stronger: the profession-procedure candidate has actually executed across two materially different domains. Reassess whether this remains EXPERIMENTAL procedure-only or needs another independent executor/domain before any wider promotion.
+- **Profession Fabric:** retain `bounded-variation-evidence` as EXPERIMENTAL; do not promote the 3D profession from this proof alone.
+- **Map Design:** no immediate rewrite requested. If its procedural lane is revisited for a substantive reason, retaining its already-tested impossible-family HOLD in the artifact would make it eligible as a third procedure case.
+- **Technical Art / UC:** no UC change requested. Only revisit extraction if repeated literal executable behavior appears beyond evidence orchestration.
+- **Procedural Design next pass:** prefer a genuinely new repeated authored task or an independent family that challenges this procedure. Do not manufacture a fourth generator merely to grow the count.
