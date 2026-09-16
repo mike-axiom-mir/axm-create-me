@@ -1,257 +1,193 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-17
-State: **HOLD_ART_DIRECTION_ANIMAL_EXACT_MIRROR_FINAL_VISUAL_ADOPTION__REQUIRE_FORM_COHERENT_MIRROR_STABLE_NORMAL_TANGENT_POLICY_013**
+State: **PASS_ART_DIRECTION_ANIMAL_EXPLICIT_LOGICAL_QUAD_NORMAL_STATIC_FORM_RESPONSE_PREFERENCE_014 / HOLD_FINAL_ANIMAL_NORMAL_TANGENT_ADOPTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, current Art Direction / Geometry / Materials / Rigging / Technical Art / Visual-QA status and the newest open design-constellation PR evidence before selecting one bounded visual-direction improvement.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/01_3d_art_director.md`, then rescanned current constellation PRs, newest coordination state, exact retained visual evidence and independent Visual Observer / QA results before choosing one bounded gate.
 
-`axm-create-me` remains **coordination only**. No Animal, Map, Object, Character, Building, Nature, Weather, Runtime, Universal Creation, Profession Fabric or gameplay product implementation was authored here.
+`axm-create-me` remains **coordination only**. No Animal, Map, Character, Object, Nature, Building, Weather, Runtime, Universal Creation, Profession Fabric or gameplay product source was edited here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Historical direction preserved
-
-The immediately previous decision remains exact historical truth:
-
-- `PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_FOOTPRINT_CUE_PREFERENCE_012`;
-- the restrained Map-owned west Object footprint cue remains preferred in its exact fixed-camera context;
-- its historical Object scale/readability question remains open;
-- independent Visual QA and target-device performance remain separate gates.
-
-Earlier current-world Object material, Nature woody/foliage, Building infill, Weather source-width, combined Building+Weather, Animal selected-003 left-elbow and Weather latest-due decisions remain unchanged in their exact scopes.
-
-No prior PASS is converted into CANON, production readiness or mastery.
-
 ## Fresh constellation / duplication scan
 
-The highest-leverage ready visual-direction dependency is now **Animal Geometry PR #13's exact-mirror topology as observed through Materials PR #14**.
+The highest-leverage ready visual decision is now the Animal explicit-normal surface response requested by the previous Art Direction hold.
 
-Why this outranks opening or duplicating another lane:
+Why this outranks the other current surfaces:
 
-- Geometry PR #13 closes a real bilateral structural defect without moving source positions: the right side now has exact reflected triangle correspondence and exact mirrored deformation metrics.
-- Rigging PR #15 has already explicitly rebound the exact new topology and is green across `484` discrete pose observations, so structural Rigging is no longer the blocker.
-- Materials PR #14 has produced a real Godot 4.7.2 target-host shading A/B with positions, material, lighting and cameras fixed, and independent Visual QA has shown that generated smooth-normal response is **not visually neutral**.
-- Technical Art has transported the exact topology through current UC but explicitly labels its averaged normals transport-only, leaving the same final normal/tangent dependency open rather than hiding it.
-- This means one visual dependency now sits directly between a structurally stronger Animal topology and downstream visual adoption. Resolving the visual target is higher leverage than another cosmetic tweak.
-- Map Runtime PR #34 is a valid fresh Art/QA handoff, but its footprint-cue indexing tradeoff is exactly one pixel / one blue-channel LSB per retained frame while preserving the cue's role. That is materially lower-consequence than an Animal smooth-surface response changing over more than 82% of visible foreground.
-- Character remains structurally held by nonzero sampled shoulder intersections, so stronger Character visual acceptance would still outrun a known Geometry boundary.
-- Object's inner-lid source identity is useful provenance but its material choice remains a separate open-pose lookdev question; no reason exists to preempt the more blocking Animal surface dependency.
-- Weapon, Armor, Unit and Misc expose no current open implementation-ready visual handoff that outranks this dependency.
-- UC / Profession Fabric / Capability Cartography provide no justification to centralize an Animal-specific normal policy before a real receiving solution exists.
+- **Animal:** Geometry PR #16 now supplies one exact explicit logical-quad normal-field candidate over Geometry PR #13's exact-mirror topology; Materials PR #17 supplies real Godot target-host A/B; independent Visual QA has directly inspected/recomputed that evidence and explicitly returned aesthetic preference to Art Direction. This is a direct unblocker for Geometry, Rigging, Technical Art and later Animation.
+- **Map:** Runtime PR #34's current footprint indexing trade is only one pixel / one blue-channel LSB per retained frame. It remains an Art/QA question, but independent QA acceptance has not yet landed and its visual consequence is far smaller than the Animal surface-response dependency.
+- **Character:** newest Geometry/Rigging work reduces shoulder intersection counts, but every retained tested pose still has nonzero self-intersections. Stronger visual acceptance remains upstream-held.
+- **Object:** the source-owned inward-lid surface identity is useful, but the `service_dark` inner-lid material candidate remains a separate unaccepted material/lookdev choice. Current Hard-Surface hinge work is primarily construction semantics/evidence.
+- **Nature:** migrated sapling VFX and explicit leaf-backface candidates are active downstream surfaces, but neither currently presents a stronger fully reviewed Art gate than the Animal exact normal candidate.
+- **Building:** latest activity is source/interface continuity around explicit emission variants and panel reversibility; no fresher ready appearance decision outranks Animal.
+- **Weather:** no newer source-owned Weather visual candidate supersedes the already-established current-world atmosphere direction.
+- **Weapon / Armor / Unit / Misc:** fresh open-PR scans return no active PRs.
 
-No duplicate Geometry, Rigging, Materials, Technical Art, Animation, Runtime or QA implementation lane was opened.
+No duplicate Geometry, Materials, Rigging, Technical Art, Runtime, Animation or Visual-QA implementation lane was opened.
 
-## Exact reviewed chain
+## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Repository under review: `mike-axiom-mir/axm-animal-design`
 
-### Geometry owner
+Exact identities:
 
-PR #13 — `Geometry: restore exact bilateral surface correspondence`
+- exact-mirror topology donor — Geometry PR #13: `bdbb51303bd1b96866b06a71730ccc328bf4f2f6`;
+- explicit logical-quad normal donor — Geometry PR #16: `79e1667f6cc91e2ec8e41f01df18b6933c9c876d`;
+- explicit normal module blob: `14a1ba3a1e4c96270197f4f449505113f7bf3e6e`;
+- Materials target-host review PR #17 head: `a2cd0a6135a7c8502aef9572f7079a3dd2632103`;
+- Rigging deformed-normal structural PR #18 head: `91e2fd01be63df807c035b39f7ec824a4a5a60b8`;
+- Runtime indexed-normal-field PR #19 head: `f23ad948cd0904c232ce2963ab7c812372752e3c`.
 
-Exact Geometry head:
+## Exact visual evidence independently reviewed
 
-`bdbb51303bd1b96866b06a71730ccc328bf4f2f6`
+Materials artifact:
 
-Right candidate:
+- ID `10471167088`;
+- archive SHA-256 `39407e0b2bbb638b5fec158c784f2d2fa10b5495b5ca3d8dcc1a3d714b2576cf`;
+- independently downloaded and rehashed by this Art Direction pass to the exact same digest;
+- 8 retained real Godot PNGs;
+- Godot `4.7.2-stable`, GL Compatibility;
+- cameras: `three_quarter`, `grazing`;
+- neutral probe material: albedo `[0.46, 0.49, 0.53, 1]`, metallic `0`, roughness `0.5`;
+- positions held;
+- compared surfaces remain `42` vertices / `80` triangles;
+- explicit normal vectors are identical across historical-right and exact-mirror-right variants;
+- tangents remain exactly `NOT_DEFINED_NO_UV_BASIS`.
 
-`front-right-connected-chain-elbow-source-successor-003-mirror-surface-topology-001`
+I directly inspected all eight images, then enlarged generated/explicit historical/exact comparisons and amplified the image difference rather than inheriting the Materials or QA interpretation.
 
-Exact structural facts:
+## Exact retained response
 
-- `42` vertices / `80` triangles;
-- all compared source-owned positions unchanged;
-- all `30` longitudinal quad diagonals change relative to historical right topology;
-- cap triangle vertex-sets remain;
-- exact mirrored face correspondence restored.
+### Generated-smooth topology control
 
-### Rigging rebind
+- three-quarter: `16,522 / 19,504 = 84.7108%` of visible foreground changes above 1 LSB;
+- grazing: `18,113 / 21,972 = 82.4367%`;
+- mean absolute foreground luma delta: `6.5163 / 6.4910 LSB`.
 
-PR #15 exact head:
+This reproduces the previous Art Direction hold: triangle-generated smoothing is visibly sensitive to the topology connectivity change.
 
-`4acd9286140dd008f2a4f01ff513912497313e4f`
+### Explicit logical-quad normal field
 
-Scoped result:
+- three-quarter: `6,398 / 19,504 = 32.8035%` of visible foreground changes above 1 LSB;
+- grazing: `8,347 / 21,972 = 37.9893%`;
+- changed-foreground fraction reduction: `61.28% / 53.92%`;
+- mean absolute foreground luma: `1.2812 / 1.3794 LSB`, reductions of `80.34% / 78.75%` relative to generated smoothing.
 
-`PASS_BILATERAL_EXACT_MIRROR_SURFACE_RIGGING_REBIND_DENSE_SWEEPS`
+The residual is real and is not relabelled as pixel neutrality.
 
-Exact retained observations:
+The explicit field is also a visible aesthetic choice in its own right. On the exact-mirror candidate, generated -> explicit changes `55.98% / 57.72%` of visible foreground in the two views, with mean absolute foreground luma shifts of `2.3260 / 2.4335 LSB`.
 
-- `484` direct structural pose observations;
-- maximum mirrored posed-vertex residual `0.0 m`;
-- maximum retained mirrored surface-metric residual `0.0` for both exact weighting profiles;
-- the historical right topology negative control still reproduces the old nonzero residuals, preserving causal attribution.
+## Direct Art Direction observation
 
-### Materials / target-host review
+The explicit logical-quad field is preferred in these exact static contexts.
 
-PR #14 — `Materials: review exact-mirror topology shading in Godot`
+At normal and enlarged review scale:
 
-Exact Materials head:
+- the silhouette remains unchanged;
+- the upper shaft -> elbow -> lower segment reads as one more coherent bent form;
+- broad light/dark rolloff is less governed by incidental longitudinal triangle diagonals;
+- the historical/exact topology residual is narrower and more local than the generated-smooth redistribution;
+- no new visible hole, spike, clipping break, gross seam, dominant facet/diagonal imprint or broad lighting corruption was observed;
+- the improvement is restrained rather than dramatic, which is appropriate: no source-form exaggeration is needed to make the candidate valid.
 
-`96e998e5c793057836e01656aca9f71481439c9b`
-
-Dedicated workflow:
-
-`35152434735 — Materials bilateral topology shading review` — **SUCCESS**.
-
-Retained artifact:
-
-- ID `10469607407`;
-- size `99,798 B`;
-- SHA-256 `e9de500cca011e6192d9a2de7b73edbda01b3ce103672ac1563448c7ed3f2564`;
-- eight real PNGs;
-- Godot `4.7.2` GL Compatibility;
-- two fixed cameras: `three_quarter` and `grazing`;
-- two generated-normal modes: `face_split` and `vertex_smooth`;
-- compared historical-right and exact-mirror-right positions remain identical inside each pair.
-
-The artifact was independently obtained for this Art Direction pass and all eight retained renders were directly inspected.
-
-## Exact visual observations
-
-### Face-split response
-
-The topology change creates a measurable but visually small diagonal/facet-response shift in the retained static probe. Direct inspection shows no new silhouette break, hole, spike, gross seam, clipping defect or dominant focal corruption in either camera.
-
-Independent Visual QA measurements:
-
-- three-quarter: `3,211` changed pixels above the retained >1-LSB criterion, `16.46%` of visible foreground; median absolute luma delta about `0.213 LSB`, 95th percentile about `2.00 LSB`, max about `4.00 LSB`;
-- grazing: `2,790` changed pixels, `12.70%` of visible foreground; median about `0.213 LSB`, 95th percentile about `2.21 LSB`, max about `3.00 LSB`.
-
-This supports bounded static noncorruption only. It is not a preference for flat/faceted rendering.
-
-### Vertex-smooth response
-
-The same topology change is plainly not neutral when normals are regenerated by area-weighted vertex smoothing.
-
-Independent Visual QA measurements:
-
-- three-quarter: `16,522` changed pixels, `84.71%` of visible foreground; median absolute luma delta about `4.65 LSB`, mean about `6.52 LSB`, 95th percentile about `19.93 LSB`, max about `51.20 LSB`;
-- grazing: `18,113` changed pixels, `82.44%` of visible foreground; median about `4.86 LSB`, mean about `6.49 LSB`, 95th percentile about `19.00 LSB`, max about `47.20 LSB`.
-
-Direct inspection reproduces the same qualitative change: the outer contour remains stable, but smooth highlight / shadow rolloff is redistributed along the upper shaft, elbow and lower segment over most of the visible form.
-
-The important Art Direction distinction is:
-
-- **do not call this generated-smooth response visually neutral**;
-- **do not treat the historical generated-smooth pixels as an aesthetic oracle either**, because the historical response is itself coupled to the older structurally asymmetric triangulation.
-
-The current visual problem is therefore not “make the new topology look like the old topology at any cost.” It is “make the intended organic form own its smooth surface response instead of allowing incidental triangle-diagonal weighting to decide it.”
+Independent Visual QA separately reports the same bounded static noncorruption and a substantial topology-shading reduction, while correctly withholding aesthetic preference.
 
 ## Art Direction decision
 
-**`HOLD_ART_DIRECTION_ANIMAL_EXACT_MIRROR_FINAL_VISUAL_ADOPTION__REQUIRE_FORM_COHERENT_MIRROR_STABLE_NORMAL_TANGENT_POLICY_013`**
+**`PASS_ART_DIRECTION_ANIMAL_EXPLICIT_LOGICAL_QUAD_NORMAL_STATIC_FORM_RESPONSE_PREFERENCE_014`**
 
 Exact meaning:
 
-> Preserve Geometry PR #13 as the structurally stronger exact-mirror candidate, but hold final visual adoption until an explicit normal/tangent policy demonstrates a form-coherent, bilaterally consistent organic surface response on that exact topology.
+> For Geometry PR #13's exact-mirror Animal topology in the two retained neutral Godot static views, prefer Geometry PR #16's explicit logical-quad vertex-normal field over triangle-generated vertex smoothing as the current static form-response direction.
 
-Do **not** roll back Geometry #13 solely to recover historical generated-normal pixels.
+This releases only the previous **static aesthetic-selection hold**.
 
-Do **not** accept the current exact-mirror generated-smooth response as final by default.
+Final downstream state remains:
 
-Do **not** change source form, topology, material or lighting merely to hide the response difference.
+**`HOLD_FINAL_ANIMAL_NORMAL_TANGENT_ADOPTION__DEFORMED_SHADED_EVIDENCE_TANGENT_BASIS_AND_EXACT_TRANSPORT_STILL_PENDING`**
+
+Art Direction does **not** require zero static pixel delta before continuing. Chasing exact pixel identity now would risk reopening a structurally stronger topology or creating a renderer-specific shading workaround before the more consequential posed-shaded evidence exists.
 
 ## Direction packet
 
 Created:
 
-`studio/direction/ANIMAL_EXACT_MIRROR_NORMAL_TANGENT_DIRECTION_013.md`
+`studio/direction/ANIMAL_EXPLICIT_LOGICAL_QUAD_NORMAL_STATIC_DIRECTION_014.md`
 
-Creation commit:
+Coordination commit:
 
-`5127847e60c84c81ae0584487055be4fa2a1a1fd`
+`f6776fc67e4d4e307ca5650911cce744c1f31066`
 
-## Bounded next visual proof
+## Handoffs completed
 
-A future explicit normal/tangent candidate should preserve:
+### Materials PR #17
 
-- exact Geometry #13 positions and indices;
-- exact `42v / 80t` budget;
-- Organic source identity;
-- Rigging #15 identities;
-- neutral probe material;
-- lighting;
-- the existing three-quarter and grazing cameras;
-- scale and silhouette.
+Comment `5705795436` records the exact static preference, independent artifact rehash/direct inspection, retained residual and instruction not to hide it through PBR/light retuning.
 
-Only the explicit surface-normal/tangent policy should change in the first proof.
+### Geometry PR #16
 
-The visual target is:
+Comment `5705796428` records that the exact explicit normal field is the preferred bounded static response. No topology rollback, source-position change or further static normal search is requested merely to chase pixel identity.
 
-- continuous readable highlight/rolloff through upper shaft -> elbow -> lower segment;
-- bilateral mirror coherence;
-- no newly authored crease, seam, faceting emphasis, diagonal imprint or silhouette rewrite;
-- deterministic provenance for supplied normal/tangent data.
+### Rigging PR #18
 
-No specific weighted-normal algorithm, smoothing threshold, tangent generator or final production pipeline is mandated from this evidence alone.
+Comment `5705797394` identifies the next highest-value Animal evidence: representative **posed shaded** receiving proof using the exact selected topology + exact explicit field through the established deformation envelope, preserving both weighting identities and bilateral provenance.
 
-## Handoffs
+### Technical Art PR #3
 
-### Materials / LookDev — Animal PR #14
-
-Keep the existing neutral target-host probe as the review harness. If an explicit normal/tangent candidate is authored, compare it against the generated-smooth control on exact Geometry #13 while leaving material, lighting and cameras fixed. Do not retune PBR values to compensate for the topology-dependent shading.
-
-### Geometry — Animal PR #13
-
-Keep the exact-mirror topology and structural evidence intact. Art Direction requests no topology rollback and no source-position edit. The hold is now specifically surface-response ownership.
-
-### Technical Art / UC — Animal PR #3
-
-Keep current averaged normals explicitly transport-only. If a real explicit normal/tangent payload is later selected, prove that exact payload crosses the UC/GLB boundary without silent regeneration or replacement. Technical Art should not invent the aesthetic policy.
-
-### Rigging — Animal PR #15
-
-The structural rebind remains valid and unchanged. Final deformed-normal appearance must later be reviewed, but this pass requests no rig or weighting change.
+Comment `5705799708` records that current generated/averaged transport-only normal evidence must not be relabelled as explicit-field transport acceptance. If this candidate advances, prove the exact explicit payload crosses UC/GLB without silent regeneration, substitution or vertex-domain collapse.
 
 ### Visual Observer / QA
 
-After a real explicit candidate exists, review highlight continuity, bilateral coherence, diagonal/facet artifacts and new seams in the exact target host. Static neutral acceptance must not be silently extended to the full deformed envelope.
+Static QA evidence is accepted within its stated bounds. On a posed-shaded successor, inspect silhouette continuity, highlight/rolloff continuity, crease/seam/facet emergence and bilateral coherence rather than relying only on normal-vector invariants.
 
-### Animation / Runtime
+### Runtime PR #19
 
-No motion, interpolation, playback, renderer-cost or target-device decision is made here.
+Its indexed representation remains useful supporting evidence because it preserves byte-identical static output while reducing stored vertex payload, but no target-device performance acceptance transfers from Art Direction.
 
-### Map Runtime PR #34
+### Animation
 
-The one-pixel / one-LSB footprint indexing tradeoff remains a separate future Art/QA gate. It receives no acceptance or rejection from this Animal decision.
+No static Art PASS transfers automatically to clip/interpolation/playback acceptance. Animation must bind its evidence to the exact selected source/topology/rig/surface chain.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final Animal topology adoption or rejection;
-- a production normal/tangent algorithm;
-- authored UVs, textures, fur, skin/subsurface or final PBR look;
-- anatomy, biology, muscle, skin sliding or volume preservation;
-- deformed-normal quality across the full Rigging envelope;
-- Animation timing/interpolation/playback acceptance;
-- arbitrary camera/FOV/lighting/renderer/display equivalence;
+- pixel-neutral or fully topology-independent shading;
+- final Animal normal/tangent production policy;
+- tangents or a UV/tangent basis;
+- deformed shaded visual acceptance;
+- final Rigging or Animation acceptance;
+- exact explicit-normal GLB / UC transport;
+- arbitrary camera, FOV, lighting, renderer, HDR or display equivalence;
+- anatomy, biology, muscle, fur, skin sliding or volume preservation;
+- texture, fur, subsurface, decal or production PBR quality;
 - target-device CPU/GPU/FPS/VRAM/memory acceptance;
 - gameplay, collision or interaction readiness;
+- Map Runtime PR #34's one-pixel/one-LSB tradeoff acceptance;
+- Object inner-lid material acceptance;
+- Nature leaf-backface or migrated-VFX final acceptance;
 - CANON;
 - production/game readiness;
 - 3D Art Direction mastery.
 
-## Four-root gate
+## Four-root merge gate
 
-- **Truth:** the exact structural improvement and the renderer-visible generated-normal tradeoff are both retained; neither is allowed to erase the other.
-- **Agency / non-domination:** Geometry owns topology, Materials owns surface-response implementation/evidence, Technical Art owns transport, Rigging owns deformation, QA owns independent verification, and Art Direction owns only the bounded visual target/preference.
-- **Continuity:** historical-right, exact-mirror topology, generated-normal comparisons and any future explicit normal/tangent candidate remain separate exact identities with rollback/provenance preserved.
-- **Wisdom before speed:** resolve the surface-response dependency instead of sacrificing a structurally stronger topology or masking the issue through unrelated material/lighting/form edits.
+- **Truth:** the explicit field is preferred because the retained static form response is more coherent and topology-sensitive redistribution is substantially reduced; the remaining interpolation delta and missing tangent/deformed/transport evidence remain explicit.
+- **Agency / non-domination:** Geometry owns topology/normals, Materials owns receiving lookdev evidence, Rigging owns deformation, Technical Art owns transport, Runtime owns representation/cost, QA owns independent verification and Art Direction owns only this bounded preference.
+- **Continuity:** generated-smooth history, exact-mirror topology, explicit normal field, Materials renders, Rigging structural evidence and Runtime representation evidence remain separate exact identities with rollback/provenance intact.
+- **Wisdom before speed:** select the credible static response now, then require posed shaded and transport evidence rather than either freezing progress for impossible pixel identity or overstating one static success as a final production surface solution.
 
 The four AXM roots remain the merge gate.
 
-## Next Art Director pass
+## Next Art Direction candidates
 
-Re-scan first. Strong candidates if no more consequential completed handoff lands:
+Re-scan before acting. Current likely gates, only when their required evidence is actually ready:
 
-1. exact explicit Animal normal/tangent candidate once Materials/Technical Art produces real evidence;
-2. Map Runtime PR #34's one-pixel / one-LSB footprint-indexing visual tradeoff if independent QA evidence is ready;
-3. Object inner-lid `service_dark` preference once its source-owned surface identity and exact visual evidence are ready for final look judgment;
-4. Animal Animation only after the exact Geometry #13 + Rigging #15 chain receives an explicit clip/playback rebind;
-5. Character only after its nonzero shoulder-intersection boundary materially changes.
-
-Do not claim mastery from this bounded decision.
+1. Animal representative posed-shaded explicit-normal response after Rigging/Materials produce exact receiving evidence;
+2. Map Runtime PR #34's one-pixel / one-blue-LSB footprint indexing tradeoff after independent QA review;
+3. Object inner-lid `service_dark` appearance on the now source-owned inward-lid surface identity;
+4. Nature terminal-leaf/backface visual treatment once target-host evidence exists;
+5. Character shoulder only after the current nonzero-intersection boundary materially changes.
