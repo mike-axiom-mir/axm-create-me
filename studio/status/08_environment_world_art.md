@@ -1,105 +1,181 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_CURRENT_WORLD_OBJECT_FOOTPRINT_ON_PREFERRED_MATERIAL_REVIEW_READY / ART DIRECTION + VISUAL QA CUE PREFERENCE HELD**
+State: **ACTIVE / PASS_CURRENT_WORLD_INDEXED_OBJECT_WITH_FOOTPRINT_COMPOSITION / VISUAL-QA CUE ACCEPTANCE + TARGET-DEVICE PERF HELD**
 
 ## Authority / continuity
 
-`axm-create-me` remains **coordination only**. Implementation/evidence stays in existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment PR was opened. Map owns receiving composition and the reversible footprint cue. Object retains source geometry, scale, transform and material authority. Building, Nature and Weather retain source authority. Runtime owns target-device performance. Art Direction + Visual QA own perceptual adoption.
+`axm-create-me` remains **coordination only**. Implementation and retained evidence stay in the existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment lane was opened.
+
+Map owns receiving composition and the reversible west Object footprint cue. Object retains source geometry, scale, transform and mechanical authority. Object Materials retains material-role/scalar authority. Building, Nature and Weather retain their source authority. Runtime owns target-device performance and optimization acceptance. Art Direction owns visual-direction preference; Visual Observer / QA retains independent defect/readability acceptance.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The prior preferred Object-material world remains historical truth at Map head `6575cc38db9f0f62b14a82b352d8582edf89856d`, composition digest `677dfe17afe49bf3f6edc28359c40a8add3dc357cb918529f0015a99f71baf70`, artifact `10466065113`, with `PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_STRUCTURE + PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_TARGET_HOST`. This activation reviews one Environment-owned cue on that exact parent; it does not rewrite Object authority.
+## Prior current-world decision preserved
+
+The exact visible footprint cue review remains historical truth at Environment head `2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd`, artifact `10467822460`, SHA-256 `6e8ea42e2095beac7fad3770192502bf5114ef87206ec57542b3ccddfe055040`.
+
+Art Direction has since returned `PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_FOOTPRINT_CUE_PREFERENCE_012`: keep the exact existing Map cue visible, restrained, and separate from any Object rescale. Independent Visual QA of that cue and target-device performance remain separate held decisions.
+
+The underlying preferred five-surface Object-material world remains `6575cc38db9f0f62b14a82b352d8582edf89856d` with exact Object source `d3fa10a270faae7925811f44f03381fe5c5d0215`, Object Materials head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`, profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`, and cue id `environment:dressing:west-object-service-footprint-frame-001`.
 
 ## Selected bounded gap
 
-The west Object footprint cue had a real evidence mismatch: its historical A/B predates the now-preferred five-surface Object material family. Art Direction preferred that Object material result but did **not** independently accept the footprint cue. Object scale/readability therefore remained unresolved in the current visual context.
+Runtime PR #33, exact head `ddd9e8b783b213c6e44bf5eea482de1d41918766`, proved a visually neutral post-normal `SurfaceTool.index()` optimization for the current five-surface Object receiver:
 
-Rather than duplicate active Building, Nature, Object-source, Materials, Weather, VFX or Runtime lanes, Environment isolated only cue visibility while holding the current world fixed.
+- before: `2,436` stored vertices, `0` indices, `812` triangles;
+- after: `468` stored vertices, `2,436` indices, `812` triangles;
+- same five Object material surfaces;
+- `68 / 68` Runtime control/candidate frames byte-identical in that PR's exact scope;
+- observed RenderingServer buffer delta `-34,488 B`, with no draw/object/primitive/texture-memory delta.
 
-Question:
+That Runtime proof predates the newer Art-Direction-preferred **visible footprint-cue** context. The missing Environment dependency was therefore producer adoption, not another optimization invention:
 
-> Does the existing Map-owned west Object footprint cue retain an attributable visual effect on the exact preferred five-surface Object world, without changing Object source/scale/materials or unrelated world assets?
+> Can the exact Runtime PR #33 indexed Object representation be received inside the exact current visible-cue world without changing the preferred composition or weakening Building, Nature, Weather, route, camera, material or cue evidence?
 
-## Exact review
+This outranked reopening Building, Nature, Object source, Object Materials, Weather/VFX or Runtime work because those lanes already own their respective active questions.
 
-Map PR #24 branch: `studio/environment-weather-variant-object-convergence-001`
+## Bounded Environment implementation
 
-Exact review head: `2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd`
+Map PR #24 branch remains:
 
-Reviewed parent:
+`studio/environment-weather-variant-object-convergence-001`
 
-- world head `6575cc38db9f0f62b14a82b352d8582edf89856d`;
-- composition digest `677dfe17afe49bf3f6edc28359c40a8add3dc357cb918529f0015a99f71baf70`;
-- Object source head `d3fa10a270faae7925811f44f03381fe5c5d0215`, SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- Object Materials head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`, profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`;
-- cue id `environment:dressing:west-object-service-footprint-frame-001`.
+Exact successful Environment head:
 
-The proof creates the exact same cue mesh/resource in both modes and changes only visibility: `CONTROL_HIDDEN` versus `CANDIDATE_VISIBLE`. Object geometry/transform/scale/materials, Building, Nature, Weather, route, cameras and lighting remain fixed.
+`b9d9ed28e9a826c4698014db5f91c59aba9dddfc`
 
-## Failed drafts preserved
+Environment extends the exact visible-cue observer and changes only the already-emitted five-surface Object's internal ArrayMesh representation:
 
-Two proof failures remain explicit and were not used as acceptance evidence:
+1. keep the existing five source-role surfaces and already-generated normals;
+2. import each exact surface into a fresh `SurfaceTool`;
+3. call `SurfaceTool.index()` after normals exist;
+4. commit the indexed surface;
+5. restore the exact existing material resource.
 
-- run `35147985983` stopped before rendering because the generated proof directory was missing;
-- run `35148463598` stopped on a proof-only Godot child-name lookup assumption.
+No Object triangle membership, source scale/transform, material role/scalar, footprint geometry, Building, Nature, Weather, route, camera or lighting value is changed.
 
-The repair binds the emitted child through the exact returned cue identity and child-count invariant instead of changing product/source data.
+## Failed verifier run preserved
+
+Dedicated run `35153033456` reached the intended Godot candidate and retained evidence but failed the verifier because the first verifier compared Godot `node_instance_id`, `mesh_instance_id` and `material_instance_id` numerically across two separate processes.
+
+Inspection showed those were the only Weather-observation differences. They are process-local resource IDs, not cross-process semantic identities. The repair therefore did **not** weaken Weather evidence: it compares all Weather semantics across processes while separately requiring one stable Weather node/mesh/material identity inside each receipt/process.
+
+The failed run remains historical provenance and is not acceptance evidence.
 
 ## Real-host result
 
-Dedicated workflow **`35148577687 — Environment Object footprint on preferred material review` — SUCCESS** on pinned Godot 4.7.2 GL Compatibility.
+Dedicated workflow **`35153287190 — Environment indexed Object with footprint current-world evidence` — SUCCESS** on pinned Godot 4.7.2 GL Compatibility.
 
-Result: **`PASS_CURRENT_WORLD_OBJECT_FOOTPRINT_ON_PREFERRED_MATERIAL_REVIEW_READY`**.
+Result:
 
-Evidence:
+**`PASS_CURRENT_WORLD_INDEXED_OBJECT_WITH_FOOTPRINT_COMPOSITION`**
 
-- `68 / 68` visible-cue frames exactly reproduce the retained preferred Object-material world;
-- `68 / 68` hidden-vs-visible deltas remain inside projected cue bounds;
-- `path_eye`: exactly `161` >1-LSB changed pixels, fixed bbox `x=286..377, y=447..457`;
-- `elevated_oblique`: exactly `106` changed pixels, fixed bbox `x=534..587, y=309..324`;
-- all `1,224` Weather source-width observations remain valid;
-- maximum Weather-width residual `0.00974698571769128 px`, within the inherited `0.05 px` gate.
+Exact retained artifact:
 
-The cue is now attribution-clean in the preferred material context. It remains visually tiny: a thin grounding/service-slot outline around the exact smaller west case. Environment therefore **holds adoption for Art Direction + Visual QA** rather than silently treating the cue as preferred.
+- artifact ID `10470116628`;
+- size `5,593,347 B`;
+- SHA-256 `89e8accc714c8dc5900eaa835aeb3fd5b3b528dbd3f28e241c9c4b96832d714c`;
+- independently downloaded and rehashed to the same digest.
 
-## Runtime boundary
+### Object representation
 
-Visible versus same-resident hidden cue yields, in both cameras and Weather modes:
+Before Environment adoption:
 
-- `+1` draw call;
-- `+1` object;
-- `+48` primitives;
-- `+0 B` observed buffer memory;
-- `+0 B` observed texture memory.
+- `5` surfaces;
+- `2,436` stored vertices;
+- `0` indices;
+- `812` triangles.
 
-This does not replace the historical no-cue → cue creation-cost evidence: `+1 draw / +1 object / +48 primitives / +2,304 B observed buffer`, texture unchanged. Target-device acceptance remains Runtime-owned.
+After exact Runtime-donor indexing:
 
-## Retained evidence / handoffs
+- `5` surfaces;
+- `468` stored vertices;
+- `2,436` indices;
+- `812` triangles.
 
-Artifact `10467822460`, `11,159,487 bytes`, SHA-256 `6e8ea42e2095beac7fad3770192502bf5114ef87206ec57542b3ccddfe055040`; independently downloaded/rehashed to the same digest.
+Material surface order remains exact:
 
-Map PR #24 comment `5704299988` returns the exact current-context A/B, runtime boundary, failed-draft provenance and held visual decision to the active lane.
+1. `shell_coating`;
+2. `service_dark`;
+3. `hardware_steel`;
+4. `rubber_guard`;
+5. `interface_orange`.
 
-Art Direction + Visual QA: decide keep/remove of the cue on the preferred Object material world. No preference is inherited from the older pre-material A/B.
+### Visual / composition evidence
 
-Object: no source, scale, transform, material, articulation or utility semantics changed. Environment does not use this result to justify rescaling the Object.
+Across the exact `17 states × 2 cameras × 2 Weather modes = 68` current-world frames:
 
-Runtime: keep creation cost and visibility-only cost distinct.
+- **68 / 68 candidate frames are byte-identical** to the exact visible-cue predecessor;
+- all `68 / 68` projected cue bounds are identical;
+- therefore no visual tradeoff is observed in the retained fixed-camera proof scope;
+- Building, Nature, Weather, route, cameras and lighting retain their exact receiving identities;
+- the existing visible footprint cue remains present and unchanged.
+
+Visual tradeoff state:
+
+`NONE_OBSERVED__68_CURRENT_WORLD_FRAMES_BYTE_IDENTICAL_TO_EXACT_VISIBLE_CUE_REFERENCE`
+
+### Weather continuity
+
+- all `1,224` inherited Weather source-width observations remain valid;
+- maximum projected-width residual remains `0.00974698571769128 px`, below the inherited `0.05 px` gate;
+- one stable Weather node/mesh/material resource identity is required inside each Godot process while process-local numeric IDs are not falsely equated across independent processes.
+
+### Runtime characterization inside current Environment world
+
+In both retained cameras:
+
+- observed RenderingServer buffer memory: **`-34,488 B`**;
+- draw calls: `+0`;
+- objects: `+0`;
+- primitives: `+0`;
+- observed texture memory: `+0 B`.
+
+This reproduces the exact Runtime-donor observed buffer reduction inside the newer cue-visible composition. It is Environment producer-adoption evidence, **not** target-device performance acceptance.
+
+## Decision / handoffs
+
+Decision:
+
+**`ADOPTION_READY_FOR_RECEIVER_REPRESENTATION__FOOTPRINT_VISUAL_QA_AND_TARGET_DEVICE_PERF_REMAIN_SEPARATE`**
+
+Map PR #24 comment `5704915750` returns the exact successful proof, retained failed-run provenance, visual neutrality, Weather continuity and Runtime boundary to the active Environment lane.
+
+Runtime PR #33 comment `5704917754` confirms that its exact optimization has been received in the newer cue-visible current world and reproduces the exact `-34,488 B` observed buffer delta without visual or draw/object/primitive/texture drift. Runtime retains target-device performance authority.
+
+Art Direction: its exact cue preference remains intact. This optimization neither strengthens nor weakens the cue aesthetically because the 68 retained frames are byte-identical.
+
+Visual Observer / QA: independent cue acceptance remains open; this Environment PASS does not inherit or manufacture QA approval.
+
+Object / Object Materials: no source, scale, transform, material role/scalar, articulation, utility-module or inner-lid authority changed.
 
 Building / Nature / Weather: unchanged.
 
-UC / Profession Fabric / Capability Cartography: no extraction or move supported.
+UC / Profession Fabric / Capability Cartography: no generalized extraction or capability move is supported by this one exact producer-adoption proof.
 
-A legacy Building-header strict-pixel workflow (`35148578116`) also re-ran on this PR head and failed its already-disproved `no RGB delta above one LSB` assertion. That historical strict assumption was already superseded by the retained bounded-continuity review; it is not evidence for this cue result and does not rewrite the earlier Building finding.
+## Explicit non-claims
 
-## Non-claims
+This activation does **not** establish:
 
-No final cue preference; no Object rescale/source change; no physical service-pad semantics; no collision/navigation/gameplay; no arbitrary-camera equivalence; no target-device FPS/CPU/GPU/VRAM/batching acceptance; no newer inner-lid/utility-module adoption; no CANON or production readiness; no Environment mastery.
+- independent Visual-QA acceptance of the footprint cue;
+- target-device FPS, CPU, GPU, VRAM, heap, thermal, battery or production performance;
+- draw-call reduction;
+- arbitrary-asset indexing safety or a universal mesh-indexing rule;
+- final Object source scale/prominence;
+- physical service-pad semantics;
+- collision, navigation, interaction or gameplay behavior;
+- arbitrary camera/FOV/resolution/renderer/display equivalence;
+- Object inner-lid or utility-module adoption;
+- CANON;
+- production/game readiness;
+- Environment mastery.
 
 ## Four-root gate
 
-- **Truth:** current parent, 68-pair visual evidence, Weather continuity, render cost, historical creation cost and failed proof attempts remain distinct.
-- **Agency / non-domination:** Map owns the cue; Object owns source/scale/materials; Art/QA own perceptual choice; Runtime owns performance choice.
-- **Continuity:** old cue proof, preferred Object parent, failed drafts, repaired review head and retained artifact remain independently identifiable and rollbackable.
-- **Wisdom before speed:** no new art semantics were invented merely to create another change; the unresolved current-context decision was isolated first.
+- **Truth:** the exact representation change, zero observed visual delta, inherited Weather evidence, observed buffer delta and failed verifier run remain distinct and inspectable.
+- **Agency / non-domination:** Environment only receives the exact optimization; Object, Materials, Art/QA and Runtime keep their own decision authority.
+- **Continuity:** the unindexed visible-cue predecessor, Runtime donor, failed verifier, repaired Environment head and retained successful artifact remain separately identifiable and rollbackable.
+- **Wisdom before speed:** reuse the already-proven exact optimization in the current world and verify it against the newest preferred composition instead of inventing another visual/system change.
+
+The four AXM roots remain the merge gate.
