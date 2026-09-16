@@ -1,200 +1,203 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-16
-State: **PASS_MIGRATED_REAR_TREE_NORMAL_CULLING_RECEIVING_RECHECK / CLEAR_PREVIOUS_CAP-GAP ADOPTION BLOCK IN EXACT TWO-CAMERA SCOPE / RETAIN LEAF-BACKFACE + FINAL ART + TARGET-DEVICE + GAMEPLAY HOLDS**
+State: **PASS_CURRENT_WORLD_ATMOSPHERE_REBIND_QA_RECHECK / PASS_NO_REAR_TREE_CAP_GAP_REGRESSION_ACROSS_17_RETAINED_STATES / RETAIN WALL-CLOCK + INTERPOLATION + PHYSICAL-WEATHER + TARGET-DEVICE + FINAL-ART HOLDS**
 
-## Scope selected
+## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the previous Visual QA state, and the newest Art Direction, Organic, Rigging, Animation, Environment, Runtime and other studio coordination state before selecting a review.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the previous Visual QA state, current Geometry / Organic / VFX / Runtime / Technical Art state, and current open design PRs before choosing a review.
 
-`axm-create-me` remains coordination-only. Visual QA changed no Map, Nature, Geometry, material, VFX, Runtime or UC product implementation.
+`axm-create-me` remains coordination-only. Visual QA changed no Map, Weather, Nature, Object, material, VFX, Runtime, Technical Art or Universal Creation implementation.
 
-The previous QA state is preserved in Git history at blob `6838a4af2139b637f0029436a702472658d36da5`. That state explicitly blocked normal-culling adoption of the rear/right Nature source until one isolated Map receiving A/B existed that preserved the accepted PR #15 composition and changed only the rear-tree topology lineage / intended culling state.
+The previous QA state remains preserved in Git history at blob `8b1ebc3dfb2f0f3d7f8d59bc03fe20a8a8a80e3f`. That state independently cleared the migrated rear/right Nature source under normal backface culling in the exact static Map PR #18 two-camera receiving scene. This activation does not rewrite that evidence; it asks whether the newly rebound live atmosphere sequence regresses that already-known visual defect or destabilizes the current receiving composition.
 
-That exact gate is now ready in:
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-- repository: `mike-axiom-mir/axm-map-design`;
-- PR: `#18 — Environment: prove migrated rear tree in normal-culling receiving scene`;
-- branch: `studio/environment-rear-tree-normal-culling-001`;
-- exact reviewed head: `f548f98959bf6769716a6d7c87bac69f9f548389`;
-- exact base: Map Environment PR #15 head `03e956475158a59d70cca08b73be23c141e4cb1f`;
-- historical rear source head: Nature PR #8 `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`;
-- migrated rear source head: Nature PR #9 `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
-- historical mesh digest: `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`;
-- migrated source-generated mesh digest: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
-- shared source digest: `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`;
+## Constellation / duplication scan
+
+Strong current Visual QA surfaces include:
+
+- **Animal Geometry PR #7**: exact `4.5°` ring-phase candidate improves sampled structural strain and explicitly requests richer shaded/perspective visual comparison.
+- **Animal Organic PR #8**: exact `0.085 m` elbow bend-plane relief candidate narrows the sampled edge envelope but retains a slight minimum-area tradeoff and explicitly asks whether it visually relieves compression or merely pinches.
+- **Character Organic PR #2**: baseline / prior / restrained shoulder comparison remains pending perceptual review.
+- **Building Materials / Map receiving work**: the known front-panel lighting/presentation caveat remains a valid later review surface.
+- **Object**: current Hard-Surface / Rigging / Materials / Animation / Runtime work is active. A newer Technical Art PR #16 surfaced during this scan, but at scan time its PR/status did not yet expose a completed retained exact-head QA packet with artifact/run identity. Visual QA did not race an active integration lane or manufacture evidence for it.
+- **Map VFX PR #20**: complete retained target-host evidence exists now for the exact 17-state atmosphere sequence rebound into the current PR #18 world identity, including the already-QA-cleared migrated rear/right tree under `CULL_BACK`. VFX explicitly held independent Visual QA acceptance.
+
+Map PR #20 therefore outranked the source-space Animal candidates in this activation because it is the newest complete **real Godot multi-asset dynamic receiving surface** and directly exercises a previously reproduced renderer-visible topology defect across a full retained sequence. QA stayed observational: no VFX or Environment repair implementation was duplicated.
+
+## Selected exact claim
+
+Repository:
+
+`mike-axiom-mir/axm-map-design`
+
+Draft PR:
+
+**#20 — `VFX: rebind dense live atmosphere into current Map world`**
+
+Exact base / current Environment identity:
+
+`f548f98959bf6769716a6d7c87bac69f9f548389`
+
+Exact reviewed VFX head:
+
+`3e641a5ea7b2507a53e5ff1a8fba0f0f9c94abaf`
+
+Exact source-lineage identities retained by the receiving proof:
+
+- dense VFX donor head: `6e386d513c0b2e821a89fb066b2e3ab58a0d6868`;
+- dense sequence digest: `f7f2cad01184e8651bcc722b755a2f3c2292ca13e81c7399579d7f42e0c19b30`;
+- migrated rear Nature source: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
+- migrated rear mesh: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
 - renderer: Godot 4.7.2 GL Compatibility;
 - fixed cameras: `path_eye` and `elevated_oblique`;
-- review culling: rear/right tree only `CULL_BACK`; other source meshes remain `CULL_DISABLED` for isolation.
+- retained schedule: `0.00000 .. 0.50000 s` in exact `0.03125 s` steps, 17 states total.
 
-PR #18 is currently open and mergeable. Merge state is metadata only; the four AXM roots remain the merge gate.
+PR #20 is open, draft and mergeable. Merge metadata is not authority; the four roots remain the merge gate.
 
-## Why this outranked the other current QA surfaces
+## Exact retained evidence independently checked
 
-The constellation still contains several valid perceptual review surfaces:
+Retained artifact declared by the owning lane:
 
-- Character Organic PR #2 now has baseline / prior tapered / restrained shoulder variants, but source migration, deformation and runtime remain held.
-- Animal Rigging PR #6 now proves exact sampled structural deformation for the connected forelimb but explicitly reports meaningful local compression and asks for richer shaded/perspective visual review.
-- Object Animation PR #10 now proves one unchanged lid clip across four exact static module configurations, but target-engine pacing/controller behavior remains unclaimed.
-- Map Runtime PR #17 already reports byte-identical control/candidate frames for immutable Nature proof-material sharing; its remaining gap is target-device budgeting rather than an unresolved retained-frame contradiction.
-- Building Materials / Art Direction retains a front-panel presentation caveat that remains a useful later QA target.
+- artifact ID: **`10440445348`**;
+- name: `environment-atmosphere-current-world-rebind-001-3e641a5ea7b2507a53e5ff1a8fba0f0f9c94abaf`;
+- expected archive SHA-256: **`ab811dc559b3787c1a5ae3573f495c3d110ebe98fb29c97c216d0fc1d91fef76`**.
 
-PR #18 nevertheless outranked them because it is the exact evidence dependency named by the previous Visual QA block and controls whether the already-accepted rear/right scene hierarchy may proceed into a normal-culling receiving path.
+Visual QA independently rehashed the retained ZIP available for this run and reproduced exactly:
 
-## Exact evidence acquired
+`ab811dc559b3787c1a5ae3573f495c3d110ebe98fb29c97c216d0fc1d91fef76`
 
-Downloaded retained artifact:
+Retained `exact-head.txt` is exactly:
 
-- artifact ID: `10437582047`;
-- name: `environment-rear-tree-normal-culling-001-f548f98959bf6769716a6d7c87bac69f9f548389`;
-- size: `432,343` bytes;
-- expected SHA-256: `c95f8ad7744af412274cd04ef8f5c78ac2c3a5cb099b9af46ac994b15ae06565`;
-- independently downloaded/rehashed SHA-256: `c95f8ad7744af412274cd04ef8f5c78ac2c3a5cb099b9af46ac994b15ae06565`;
-- retained `exact-head.txt`: `f548f98959bf6769716a6d7c87bac69f9f548389`.
+`3e641a5ea7b2507a53e5ff1a8fba0f0f9c94abaf`
 
-The exact head has eight completed successful Map workflow families, including the dedicated `35075073710 — Environment rear-tree normal-culling receiving evidence` run plus inherited Environment composition, eye-level, rear-source, east-tree, Building-source, motion and procedural-variation checks.
+The retained packet contains all 34 expected PNGs: 17 states for each fixed camera.
 
-The retained structural receipt reports:
+Independent SHA-256 enumeration finds **17 / 17 distinct PNG identities per camera**. This confirms that the retained visual sequence is not a duplicated-frame packet. It does not prove wall-clock playback or interpolation.
 
-- 390 historical and migrated world vertices;
-- 570 historical and migrated triangles;
-- zero changed world vertices;
-- zero changed triangle memberships;
-- exactly 260 triangle rows changing winding;
-- unchanged rear source digest;
-- unchanged placement / receiving context;
-- unrelated source meshes, Weather, path, cameras and sibling lanes preserved.
+## Independent retained-sample continuity measurements
 
-Visual QA independently checked the retained files rather than inheriting the Environment PASS.
-
-## Independent exact image reproduction
-
-All four PR #18 target-host PNGs were directly inspected.
-
-Independent RGB differencing reproduced the retained A/B measurements exactly:
+For every adjacent retained frame pair, Visual QA recomputed exact RGB change counts over `1100 x 720 = 792,000` pixels.
 
 ### `path_eye`
 
-- changed pixels: **7,290 / 792,000 = 0.9204545%**;
-- exact changed bounding box: `x=972..1092, y=160..482`.
+Across the 16 adjacent steps:
+
+- minimum changed pixels: **989 / 792,000 = 0.124874%**;
+- median changed pixels: **1,787.5 / 792,000 = 0.225694%**;
+- maximum changed pixels: **1,924 / 792,000 = 0.242929%**;
+- mean absolute RGB difference per adjacent pair ranges from **0.0336402** to **0.0968350** on the 0..255 channel scale.
 
 ### `elevated_oblique`
 
-- changed pixels: **2,791 / 792,000 = 0.3523990%**;
-- exact changed bounding box: `x=842..993, y=279..482`.
+Across the 16 adjacent steps:
 
-In both views the pixel delta is localized to the declared rear/right tree. No route, pavilion, Object proxy, Weather field, west sapling, compact east tree or broad camera/composition drift appears in the retained pair.
+- minimum changed pixels: **830 / 792,000 = 0.104798%**;
+- median changed pixels: **1,500.5 / 792,000 = 0.189457%**;
+- maximum changed pixels: **1,697 / 792,000 = 0.214268%**;
+- mean absolute RGB difference per adjacent pair ranges from **0.0184003** to **0.0584112**.
 
-## Direct defect reproduction and repair observation
+There is no isolated retained-frame jump orders of magnitude larger than its neighbours. The count curve decreases toward the middle of the sampled response and rises again afterward, consistent with the retained bounded response shape rather than one corrupted/discontinuous snapshot.
 
-### Historical rear mesh under `CULL_BACK`
+This is **retained-sample visual continuity evidence only**. It does not prove renderer interpolation between samples, actual 32 ms cadence, display pacing, temporal aliasing quality, or arbitrary continuous-time behavior.
 
-The historical source reproduces the same class of defect Visual QA previously found in the isolated Technical Art host:
+## Exact target-host runtime receipt checks
 
-- repeated dark horizontal slit/gap reads appear at tapered trunk and branch transitions;
-- the losses are visible in both fixed Map cameras;
-- the defect is localized to the exact rear/right source.
+Visual QA independently parsed the retained runtime receipt rather than inheriting the VFX summary.
 
-This confirms the old failure was not an isolated-view artifact of the Technical Art harness. It survives into the actual Map receiving scene when the same historical mesh is given the intended backface-culling state.
+Across all 17 states:
 
-### Source-generated migrated rear mesh under identical `CULL_BACK`
+- `path_eye` stays exactly **20 draw calls / 20 objects / 4,392 primitives**;
+- `elevated_oblique` stays exactly **27 draw calls / 27 objects / 6,150 primitives**;
+- retained proof-host buffer / texture observations stay `6,532,344 B / 12,875,715 B` for every state;
+- Weather node, mesh and material instance identities each remain exactly one stable identity across all 17 updates;
+- west-sapling node, mesh and material instance identities each remain exactly one stable identity across all 17 updates;
+- west-sapling first/last retained mesh digest is exactly the same: `4274b31360cda84cf3c585f40f1961ece0c4c1f0a206c95d043fd06270a85bf4`;
+- the rear/right source remains exact migrated mesh `aa9d450a...` under `CULL_BACK` in every retained sample.
 
-The migrated Nature PR #9 source-generated mesh removes those repeated transition slit/gap losses in both fixed Map views.
+These are proof-host state-stability observations, not target-device performance budgets.
 
-Directly observed:
+## Direct visual review — previously known rear-tree defect regression
 
-- trunk sections become visually continuous through the previously broken tapered transitions;
-- the same branch junctions no longer show the repeated thin background cuts seen in the historical frame;
-- the tree remains grounded and in the same scene slot;
-- route and pavilion framing remain visually stable;
-- no broad receiving-scene regression is visible.
+The historical defect that caused the earlier QA block was specific and visible: under normal backface culling, repeated thin dark/background slit reads appeared at tapered trunk and branch-cap transitions of the historical rear tree.
 
-The migrated result is still sparse proof vegetation and not final foliage/lookdev.
+Visual QA inspected the current-world rear/right tree through **all 17 retained `path_eye` states** and **all 17 retained `elevated_oblique` states**, including dedicated contact-sheet crops so Weather streaks crossing the asset could not be mistaken for topology gaps.
 
-## Cross-gate continuity check against the previously accepted PR #15 culling-disabled hierarchy
+Observed across this exact sequence:
 
-Visual QA also reacquired the exact prior Environment PR #15 artifact `10434984219` rather than judging PR #18 in isolation.
+- the tapered trunk sections remain visually connected through the previously failing transition zones;
+- branch junctions do not reopen the historical repeated background slit/gap pattern;
+- the rear tree stays fixed in its receiving slot while sparse Weather streaks pass across/behind the view;
+- dark/light low-poly surface transitions and segment collars remain visible, but they read as shading/facet transitions rather than the historical open background cuts;
+- no retained state shows an obvious recurrence of the exact previously reproduced culling defect in either fixed camera.
 
-The previous culling-disabled candidate was compared directly with the new migrated `CULL_BACK` candidate.
+Scoped regression verdict:
 
-Independent RGB differences:
+**`PASS_NO_REAR_TREE_CAP_GAP_REGRESSION_ACROSS_17_RETAINED_VFX_STATES`**
 
-- `path_eye`: **7,371 / 792,000 = 0.9306818%**, bbox `x=972..1099, y=160..482`;
-- `elevated_oblique`: **3,103 / 792,000 = 0.3917929%**, bbox `x=840..993, y=272..482`.
+This is not a global normals certificate and does not claim every future camera, leaf plane, deformation state or procedural variant is correct under backface culling.
 
-Again the delta is confined to the rear/right tree region.
+## Direct broad-scene observation
 
-This comparison is intentionally not treated as byte-equivalence: changing source winding plus the culling mode can alter local surface visibility/shading. The useful QA result is that the previously accepted broad scene hierarchy survives the transition: the source still reads as a porous tree rather than a wall-like proxy, the central route remains open, and the pavilion/right-side grouping stays revealed. No scene-wide regression appears outside the target asset.
+Broad `t=0 / 0.25 / 0.50 s` comparisons and the full retained sequence were inspected.
 
-A darker local side read is visible on some migrated trunk surfaces under the proof lighting. Current evidence does not establish that as a topology defect; it is carried as a final normals/material/lighting presentation hold rather than being silently called correct or failed.
+Within this proof scope:
+
+- the sparse Weather field visibly translates across retained states;
+- the west sapling changes and returns to its exact retained neutral mesh identity;
+- pavilion, compact east tree, migrated rear tree, route and the broader receiving composition remain visually stable at proof resolution;
+- no obvious one-frame world-pop, target-source disappearance, rear-tree collapse, camera jump or composition-wide lighting reset appears in the retained sequence.
+
+The result does **not** judge whether the current sparse Weather style, speed, intensity or sapling response is final art. Art Direction retains those choices.
 
 ## QA verdict
 
-**`PASS_MIGRATED_REAR_TREE_NORMAL_CULLING_RECEIVING_RECHECK`**
+**`PASS_CURRENT_WORLD_ATMOSPHERE_REBIND_QA_RECHECK`**
 
 Bound exactly to:
 
-- Map PR #18 head `f548f98959bf6769716a6d7c87bac69f9f548389`;
-- Nature migrated source head `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
-- migrated mesh digest `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
-- artifact `10437582047` / SHA-256 `c95f8ad7744af412274cd04ef8f5c78ac2c3a5cb099b9af46ac994b15ae06565`;
+- Map PR #20 head `3e641a5ea7b2507a53e5ff1a8fba0f0f9c94abaf`;
+- current Environment base `f548f98959bf6769716a6d7c87bac69f9f548389`;
+- exact 17-state dense VFX sequence digest `f7f2cad01184e8651bcc722b755a2f3c2292ca13e81c7399579d7f42e0c19b30`;
+- migrated rear mesh `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
+- artifact `10440445348` / SHA-256 `ab811dc559b3787c1a5ae3573f495c3d110ebe98fb29c97c216d0fc1d91fef76`;
 - Godot 4.7.2 GL Compatibility;
-- fixed cameras `path_eye` and `elevated_oblique`;
-- rear/right target only `CULL_BACK` isolation.
+- retained `path_eye` + `elevated_oblique` cameras;
+- exact 17 retained times from `0.0` through `0.5 s`.
 
 Meaning of the PASS:
 
-> In the exact already-accepted PR #15 multi-asset Map receiving composition, the source-generated Nature PR #9 rear tree removes the previously reproduced tapered-transition backface-culling slit/gap defect in both fixed cameras without observed broad scene regression.
+> The exact already-proven Weather + west-sapling visual sequence can be observed in the exact current PR #18 world across all 17 retained Godot states without reproducing the previously known rear-tree normal-culling cap-gap defect or exposing a gross retained-sample scene discontinuity in the two fixed cameras.
 
-## Previous block disposition
+## Explicit holds / non-claims
 
-**`CLEAR_PREVIOUS_CAP-GAP NORMAL-CULLING RECEIVING ADOPTION BLOCK — EXACT TWO-CAMERA / TARGET-ASSET SCOPE ONLY`**
+This QA PASS does **not** establish:
 
-The prior QA block existed because no Map-level A/B had yet shown the repair in the actual receiving scene. That missing evidence now exists and directly clears the specific repeated tapered-cap gap defect that caused the block.
-
-This clearance is **not** a global culling certificate. It does not authorize a universal Nature culling policy or imply that every leaf/plane/future variant is correct from every camera.
-
-Art Direction may now review the migrated normal-culling receiving result instead of waiting on the prior renderer-integrity blocker.
-
-## Still held
-
-The following remain explicitly unaccepted:
-
-- final two-sided leaf / terminal-plane representation under backface culling;
-- global outward-normal correctness beyond the two retained cameras;
-- final authored normals, tangents, UVs, textures, bark/leaf materials or lighting;
-- final botanical density, anatomy or silhouette outside this receiving question;
-- rear-tree deformation/wind quality;
-- target-device FPS, frame time, GPU time, VRAM, memory, draw-call, LOD, instancing or streaming budgets;
-- collision, navigation, traversal, gameplay or simulation suitability;
-- final Art Director adoption / final world art;
+- wall-clock 32 ms update cadence or real-time playback;
+- renderer interpolation or visual continuity between retained states;
+- temporal anti-aliasing / motion blur / display refresh quality;
+- physical wind, pressure, turbulence, precipitation, fog, smoke or volumetrics;
+- source `width_px` fidelity in 3D;
+- deformation response for compact east or rear/right vegetation;
+- global outward-normal correctness or final two-sided leaf treatment;
+- final vegetation materials, lighting or atmosphere art direction;
+- target-device FPS, frame time, GPU time, transparency overdraw, VRAM, memory or battery budgets;
+- collision, navigation, visibility gameplay, damage, simulation or gameplay acceptance;
 - CANON, production readiness, game readiness, profession promotion or Visual Observer mastery.
-
-## Prior accepted QA results retained
-
-Earlier QA results remain valid only in their original exact scopes and are not broadened here:
-
-- `PASS_REAR_RIGHT_NATURE_VISUAL_HIERARCHY_RECHECK` on Map PR #15 under the culling-disabled observation host;
-- `FAIL_CURRENT_BASELINE_BACKFACE_CULLING_VISUAL_INTEGRITY` for the historical rear mesh under isolated backface-culling evidence;
-- `PASS_BUILDING_PAVILION_VISUAL_HIERARCHY_RECHECK`;
-- `PASS_EAST_FOREGROUND_VISUAL_HIERARCHY_RECHECK`;
-- prior repaired Animal chain-continuity QA evidence.
-
-The historical FAIL remains true for the historical mesh. The new PASS applies only to the migrated source-generated identity.
 
 ## Root gate
 
-- **Truth:** Visual QA downloaded, rehashed and inspected the exact PR #18 artifact, reproduced its pixel-difference measurements, then compared the new migrated receiving frame against the previously accepted PR #15 culling-disabled candidate. The historical failure is not erased; the migrated identity earns its own bounded PASS.
-- **Agency / non-domination:** QA only decides the observed receiving result. Nature/Geometry own source topology, Environment owns scene composition, Technical Art owns transport, Materials/VFX/Runtime retain their own evidence domains, Art Direction owns directional adoption, and the four roots remain the merge gate.
-- **Continuity:** the PR #15 accepted composition, historical Nature identity, migrated Nature identity and both artifact sets remain distinct and rollback-safe. No source was silently rewritten in coordination.
-- **Wisdom before speed:** the exact blocker was tested in the requested real receiving context before clearing it. The result is not inflated into final vegetation, runtime, gameplay or global-normal acceptance.
+- **Truth:** QA rehashed the exact retained artifact, checked exact-head binding, independently enumerated frame identities, recomputed adjacent-frame pixel-change ranges, parsed target-host runtime identities/counters and inspected all retained rear-tree states. The previous historical defect remains historical truth rather than being erased by the new PASS.
+- **Agency / non-domination:** QA changes no VFX, Environment, Nature, Runtime or UC implementation and does not convert specialist/CI status into merge authority. Art Direction retains aesthetic adoption; Runtime retains performance; Weather/Nature retain source semantics.
+- **Continuity:** PR #18 static QA evidence remains separate; PR #20 adds a new dynamic receiving identity with pinned donor/source/artifact lineage. Rollback and historical failure/pass states remain distinct.
+- **Wisdom before speed:** the review targeted the exact renderer-visible regression risk introduced when dynamic VFX was rebound into the newer world rather than adding another effect or changing the asset before direct evidence.
 
 ## Handoffs
 
-- **3D Art Director:** the renderer-integrity blocker on the rear/right source is cleared for the exact migrated PR #18 receiving result. Review the migrated normal-culling frames for directional adoption while retaining final leaf/material/lighting caveats.
-- **Environment / World Art:** the exact PR #18 migrated result independently passes the previously blocked QA question. Preserve the isolated lane; do not mix Materials, VFX, Runtime or another proxy replacement into this evidence identity.
-- **Nature / Geometry:** source-generated migration `aa9d450a...` now has independent Map-level visual evidence that it closes the previously reproduced tapered-transition culling gaps. Do not interpret that as a global normals/leaf certificate.
-- **Technical Art / UC Integration:** current Nature -> UC -> Godot evidence remains complementary. No UC change is requested from this QA pass.
-- **Runtime / Optimization:** no target-device performance statement transfers from this visual PASS. A source/topology migration should receive new runtime measurement only if the production/runtime receiving path actually changes relevant cost.
-- **Materials / VFX:** current proof lighting/materials/atmosphere are observation context only. Do not infer final surface or atmosphere acceptance from the topology repair.
-- **Visual QA next queue:** after rescanning current state, strong unresolved candidates are the Building refined front-panel presentation caveat, shaded/perspective Animal connected-elbow compression at `-60°`, or Character baseline/prior/refined shoulder proportion A/B/C. Prefer whichever becomes the strongest direct evidence surface without duplicating another active lane.
+- **VFX / Atmosphere PR #20:** independent QA passes the retained-sequence regression question in the exact scope above. Keep wall-clock/interpolation/physical-weather/final-art claims held.
+- **3D Art Director:** current dynamic world is now independently clear of the known rear-tree culling regression in the retained sequence. Direction may judge atmosphere hierarchy/style without inheriting a performance or physical-weather claim.
+- **Environment / World Art:** the current PR #18 receiving hierarchy remains visually stable under the retained dynamic sequence in the two fixed cameras. Do not infer broader camera/gameplay acceptance.
+- **Runtime / Optimization:** stable counters/resource identities are corroborated as exact proof-host observations only; target-device budgeting remains open.
+- **Geometry / Nature:** the source-generated winding migration remains visually stable under this retained dynamic overlay; this still does not certify global normals, leaf planes or deformed rear-tree states.
+- **Visual QA next queue:** re-scan first. Strong pending candidates remain the Animal baseline vs `4.5°` phase / `0.085 m` elbow-relief richer shaded deformation review, Character shoulder A/B/C, Building front-panel presentation caveat, or a completed Object PR #16 target-host scene-graph artifact once that active Technical Art lane surfaces exact retained evidence.
