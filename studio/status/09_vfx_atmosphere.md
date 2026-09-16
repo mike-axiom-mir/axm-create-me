@@ -1,131 +1,221 @@
 # 09 — VFX / Atmosphere Specialist Status
 
-## Current state
-
-Evidence state: **IMPLEMENTED + TESTED + RETAINED DYNAMIC VISUAL EVIDENCE + DIRECTLY VISUALLY INSPECTED; NOT PHYSICAL WEATHER / NOT ENGINE PARTICLES / NOT PERFORMANCE OR ART-DIRECTION ACCEPTED.**
+Date: 2026-09-16
+State: **ACTIVE / FIRST REAL VEGETATION RESPONSE IMPLEMENTED + EXACT-HEAD CI PASS + RETAINED 3D/VISUAL EVIDENCE; NEW RESPONSE NOT YET PERCEPTUALLY ACCEPTED / NOT PHYSICAL WIND / NOT RUNTIME-CERTIFIED**
 
 ## Coordination / constellation scan
 
-- Read `studio/3D_STUDIO_CAMPAIGN.md` and standing role `studio/specialists/09_vfx_atmosphere.md`.
-- Read the current Art Director and Environment / World Art status packets before claiming work.
-- Art Direction requires actual comparable visual evidence rather than code-only visual claims.
-- Environment / World Art PR `mike-axiom-mir/axm-map-design#2` exact head `a233763af97fd0ac187013c97659af3496fbe177` created the first 24 m × 18 m environment composition and explicitly left weather as `CONTEXT_ONLY_NOT_SIMULATED` with `wind_xy: [1.0, 0.35]`; its handoff asked Weather/VFX to make particle/asset response observable without taking map authority.
-- Active neighboring lanes are distinct: UC #133 topology, UC #134 hard-surface attachment frames, UC #135 UV-density evidence, Wreckline #4 mechanical animation, animal-design organic/rigging work, and map-design #2 environment composition.
-- `axm-weather-design` main contained only its initial README and had no open PR at the final pre-publication overlap scan.
+- Read `studio/3D_STUDIO_CAMPAIGN.md` and standing role `studio/specialists/09_vfx_atmosphere.md` before selecting work.
+- Re-checked the design constellation for live overlap. Weapon, armor, character, unit, building, object and misc still expose no competing VFX implementation lane. Animal work is occupied by Organic / Rigging / Geometry / Technical Art and was not touched.
+- Existing VFX foundation remains `mike-axiom-mir/axm-weather-design#2`, exact head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`: a source-owned 36-streak, time-sampled **visual** atmosphere field using direction `[1.0, 0.35]`. Its retained comparison was directly inspected in the previous activation and remains explicitly non-physical.
+- Organic Form has now supplied a materially real consumer: `mike-axiom-mir/axm-nature-design#1`, exact head `fbc202449981f2bac153951c561ed0ed6120c936`, with a source-owned 390-vertex / 570-triangle sapling, exact source digest `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`, exact neutral mesh digest `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`, and six flex zones still labelled `DECLARED_NOT_DEFORMATION_TESTED`.
+- Environment / World Art has independently opened `mike-axiom-mir/axm-map-design#4`, stacked on the procedural scene, to replace one proxy with that exact sapling and overlay the exact Weather field. That lane owns scene composition only and explicitly does **not** deform vegetation. This prevented duplication: VFX selected the missing source-owned reactive response rather than another environment overlay.
+- Procedural map variation, quadruped rig repair, connected forelimb topology, Wreckline motion/LOD/material work and UC shared-tool lanes remain separate ownership surfaces.
 
-## Gap selected
+## Highest-leverage gap selected
 
-The environment had a weather direction but no source-owned weather/VFX body. The highest-leverage bounded move was therefore to turn the exact context-only wind handoff into **time-sampled visual atmosphere evidence** while refusing to reinterpret it as physical wind or gameplay simulation.
+The studio now had all three prerequisites for a grounded reactive VFX test:
+
+1. a real source-owned visual weather direction;
+2. a real source-owned vegetation mesh;
+3. a real environment lane that can later consume both without transferring ownership.
+
+The material missing claim was therefore no longer “can we draw wind streaks?” or “can we place a tree?” It was:
+
+> **Can the exact source-owned sapling receive one bounded, visible, directionally consistent response to the exact source-owned visual weather cue while preserving source identity and refusing to call the result physics, rigging or runtime acceptance?**
+
+That is narrow enough to falsify and reusable enough to teach the next cross-asset VFX step.
 
 ## Bounded improvement
 
-Opened `mike-axiom-mir/axm-weather-design` PR **#2 — Add first bounded wind atmosphere visual baseline**.
+Opened draft `mike-axiom-mir/axm-nature-design` PR **#2 — VFX: prove first bounded sapling wind response**.
 
-Branch: `studio/wind-atmosphere-baseline-001`
+Branch:
 
-Exact base: `8547e98c44c2ff9b68e8a1316ad0d9721f8895d8`
+`studio/vfx-sapling-wind-response-001`
 
-Exact tested head: `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`
+Stacked base:
 
-Added:
+`studio/organic-nature-sapling-001` at exact Nature source head `fbc202449981f2bac153951c561ed0ed6120c936`
 
-- `examples/wind_atmosphere_baseline_001.json`
-- `tools/wind_atmosphere.py`
-- `tests/test_wind_atmosphere.py`
-- `docs/WIND_ATMOSPHERE_BASELINE_001.md`
-- `.github/workflows/wind-atmosphere-baseline.yml`
+Exact tested VFX head:
 
-The source contract is `axm.weather-atmosphere-study/v0.1`.
+`4ef316157844fc2236a7671ce9e90a5435cba2c5`
 
-It consumes only the map handoff's scene extent and visual direction, retaining relationship `CONSUMES_CONTEXT_ONLY_WEATHER_HANDOFF` and semantic label `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
+Added only receiving-domain VFX evidence machinery:
 
-The candidate creates 36 deterministic streaks from exact seed `9142`, sampled at `0.00 s`, `0.25 s`, and `0.50 s`. Authored visual speed is `1.8 m/s` strictly as a visual displacement parameter. The bounded evidence window and 2 m source margin prevent wraparound, allowing direct direction/displacement measurement instead of hiding discontinuities behind periodic wrapping.
+- `src/axm_nature_design/wind_response.py`
+- `examples/sapling_wind_response_001.json`
+- `tests/test_wind_response.py`
+- `tools/build_sapling_wind_response.py`
+- `docs/SAPLING_WIND_RESPONSE_001.md`
+- `.github/workflows/vfx-wind-response.yml`
 
-Generated evidence:
+No file in `axm-create-me` became product/runtime implementation; this status packet is coordination-only.
 
-- `frame_0000ms.svg`
-- `frame_0250ms.svg`
-- `frame_0500ms.svg`
-- `comparison.svg` — three exact time samples side-by-side
-- `evidence.json`
+## Exact provenance / response contract
 
-## Exact GitHub evidence
+New receiving schema:
 
-GitHub Actions run **35045105859 — Wind atmosphere baseline: SUCCESS** on exact head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`.
+`axm.nature-visual-wind-response-study/v0.1`
 
-- Python 3.11: compile PASS; 7/7 regressions PASS; exact evidence build PASS; artifact upload PASS.
-- Python 3.13: compile PASS; 7/7 regressions PASS; evidence build/upload intentionally skipped.
+Pinned Nature identity:
 
-Remote retained evidence reports:
+- repo: `mike-axiom-mir/axm-nature-design`
+- PR: `#1`
+- head: `fbc202449981f2bac153951c561ed0ed6120c936`
+- source digest: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`
+- neutral mesh digest: `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`
 
-- particle count: **36**;
-- sample times: **0.00 / 0.25 / 0.50 s**;
-- normalized visual wind: `[0.9438583563660174, 0.33035042472810605]`;
-- mean projected displacement over 0.50 s: **0.8999999999999994 m**;
-- maximum crosswind drift: **2.220446049250313e-16 m** floating-point residual;
-- source digest: `b33feba47b0a0f9a99ec439e32a87ff6d4cb2dacffe33ba78f8b646c3a1be8d6`.
+Pinned Weather identity:
+
+- repo: `mike-axiom-mir/axm-weather-design`
+- PR: `#2`
+- head: `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`
+- input direction: `[1.0, 0.35]`
+- required semantics: `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`
+
+The receiver fails closed if those identities or the visual-only semantic label drift.
+
+## Effect behavior
+
+The exact sapling receives one deterministic, renderer-neutral response pulse:
+
+- duration: **0.50 s**;
+- retained samples: **0.00 / 0.25 / 0.50 s**;
+- response profile: `HEIGHT_WEIGHTED_HALF_SINE_DOWNWIND_VISUAL_SWAY`;
+- fixed lower anchor: every source vertex at or below **z = 0.92 m**;
+- authored peak tip offset: **0.18 m** at `t = 0.25 s`;
+- horizontal displacement direction: normalized exact Weather visual vector;
+- endpoint state: forced exactly to the unmodified source mesh at `t = 0.00 s` and `t = 0.50 s`.
+
+The response intentionally does **not** use a skeleton, skin weights, spring solver, force integration or fluid model. It is a bounded visual deformation field whose purpose is to make a real cross-asset reaction observable and falsifiable before choosing heavier machinery.
+
+## Structural/evidence gates
+
+The receiving evidence fails unless all retained samples satisfy the bounded contract:
+
+1. start and end mesh digests return exactly to the pinned neutral mesh digest;
+2. triangle indices and region identities remain unchanged;
+3. existing finite/index/non-degenerate structural checks still PASS on each deformed sample;
+4. every vertex at/below the lower anchor remains fixed within `1e-12 m`;
+5. peak displacement projects downwind rather than against the declared visual direction;
+6. peak crosswind residual remains within `1e-12 m`;
+7. maximum peak displacement matches the authored `0.18 m` bound within `1e-12 m`;
+8. the Organic source's six flex-zone claims remain unchanged as `DECLARED_NOT_DEFORMATION_TESTED`;
+9. any attempted semantic relabel to `PHYSICAL_WIND_SPEED` fails closed.
+
+The evidence builder retains:
+
+- `evidence.json`;
+- exact mesh JSON and OBJ at 0 / 250 / 500 ms;
+- front three-panel SVG comparison;
+- side three-panel SVG comparison;
+- top three-panel SVG comparison.
+
+## Exact-head GitHub evidence
+
+GitHub Actions run **35049027332 — Nature VFX wind response: SUCCESS** on exact head `4ef316157844fc2236a7671ce9e90a5435cba2c5`.
+
+Python 3.11:
+
+- compile: PASS;
+- all receiving-repo regressions: PASS;
+- exact VFX evidence build: PASS;
+- retained evidence upload: PASS.
+
+Python 3.13:
+
+- compile: PASS;
+- all receiving-repo regressions: PASS;
+- evidence build/upload: intentionally skipped because retention is 3.11-only.
 
 Retained Actions artifact:
 
-- name: `wind-atmosphere-baseline-001-evidence`
-- artifact ID: **10426254985**
-- archive digest: `sha256:f0c6ad6f676ebcbc6610428445834e95c7a1974949285c2ae26d0b0c932a3aea`
-- exact head binding: `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`
+- name: `sapling-wind-response-001-evidence`
+- artifact ID: **10427854091**
+- archive digest: `sha256:cf2a265ce002dc0352170cf80dfc8258c0ab2984dc80ab2e16c452675a35f82f`
+- size: **125573 bytes**
+- exact head binding: `4ef316157844fc2236a7671ce9e90a5435cba2c5`
 
-The downloaded artifact's four SVG files matched the locally generated exact-source SVG bytes SHA-for-SHA. The remote evidence JSON differed only in the last floating representation digits of the mean (`0.8999999999999994` remote vs `0.8999999999999999` local), while both remain inside the tested tolerance; this is preserved rather than hidden.
+The exact-head workflow therefore proves the receiving implementation and evidence generator satisfy their declared machine-checkable contract. It does not by itself prove that the sway looks good.
 
-## Direct visual observation
+## Visual evidence boundary
 
-The **retained remote `comparison.svg`** was converted to PNG and inspected in this activation.
+This activation generated and retained three real source-derived comparison SVGs and three real 3D sample bodies through CI. The current GitHub connector exposes the retained artifact identity/digest but cannot open the binary Actions ZIP contents directly in this run.
 
-Observed:
+Therefore the new sapling response has the following evidence state:
 
-- the same streak family is visibly displaced downwind from 0.00 → 0.25 → 0.50 s;
-- streak orientation is consistent with the declared vector;
-- the central corridor guide remains legible through the sparse streak field;
-- density is intentionally sparse and flat, so the proof reads as a directional atmosphere layer rather than volumetric weather.
+- exact source geometry exercised: **YES**;
+- time-sampled 3D deformation generated: **YES**;
+- exact retained visual comparisons generated: **YES**;
+- structural direction/anchor/neutral-return measurements: **TESTED**;
+- retained artifact identity and exact-head binding: **VERIFIED**;
+- new comparison frames directly perceptually inspected in this activation: **NO / BLOCKED BY ARTIFACT-BINARY ACCESS**;
+- Art Director acceptance: **NOT GRANTED**;
+- Visual Observer acceptance: **NOT GRANTED**.
 
-Not observed/proven:
+This limitation is preserved explicitly instead of treating generated SVG presence as visual review.
 
-- depth, occlusion or world-geometry interaction;
-- gusting/turbulence;
-- precipitation, fog, smoke or volumetric scattering;
-- vegetation, cloth, character or debris response;
-- final aesthetic quality or Art Director acceptance.
+## Prior retained VFX foundation still valid
 
-Therefore the visual claim is **VISUALLY_INSPECTED for this exact retained comparison only**, not a general VFX-quality claim.
+Weather PR #2 remains the first directly inspected atmosphere proof:
+
+- 36 deterministic streaks;
+- exact seed `9142`;
+- samples `0.00 / 0.25 / 0.50 s`;
+- authored visual displacement speed `1.8 m/s` (not physical speed);
+- retained artifact ID `10426254985`;
+- exact Weather head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`.
+
+That prior comparison was directly inspected and showed a sparse field translating consistently downwind while leaving the central corridor legible. The new Nature PR #2 does not overwrite or absorb that Weather source; it consumes only its explicitly visual direction by provenance.
 
 ## Truth boundary / non-claims
 
-PASS means only that this exact deterministic visual streak field moves in the declared 2D **visual** wind direction across this bounded scene/time window, while preserving exact context-only provenance.
+Current PASS means only:
 
-It does **not** prove physical wind speed or force, fluid/weather simulation, turbulence, precipitation, volumetrics, material or lighting response, collision, gameplay/damage, target-engine particles, runtime performance, target-device cost, final environment integration, Art Director acceptance, CANON, production readiness or VFX mastery.
+> On exact Nature source head `fbc202...`, exact VFX head `4ef316...` deterministically produces a bounded visual-only 0.5 s downwind response of the exact sapling geometry, with fixed lower anchor, preserved topology/regions, tested directionality, tested structural validity at the retained samples, and exact neutral return, while preserving the Weather input as a visual cue rather than a physical claim.
+
+It does **not** establish:
+
+- physical wind speed, force, pressure, drag or fluid simulation;
+- botanical or biomechanical correctness;
+- turbulence or gust realism;
+- production branch/trunk bending or self-intersection quality;
+- rig, skeleton or skin-weight correctness;
+- animation clip quality or runtime controller behavior;
+- final environment placement/readability;
+- engine shader, particle or vertex-deformation integration;
+- collision, gameplay, damage or simulation authority;
+- runtime cost, device budget, memory or draw-call acceptance;
+- Art Director acceptance;
+- Visual Observer PASS;
+- CANON, production readiness, or VFX / Nature / Weather mastery.
+
+One successful sapling response also does **not** justify promoting a generic deformation engine to Universal Creation or a mature VFX profession body by itself.
 
 ## Root gate
 
-- **Truth:** visual direction is explicitly separated from physical wind; retained remote frames were actually inspected; evidence/claims remain exact-head scoped.
-- **Agency / non-domination:** weather-design owns the visual candidate but does not seize map, gameplay, physics, environment or art-direction authority.
-- **Continuity:** the candidate pins the exact map PR/head that supplied context and gives Environment a provenance-preserving overlay path.
-- **Wisdom before speed:** one small directional atmosphere proof was built instead of jumping immediately to a full weather simulator, engine particle stack or volumetric renderer.
+- **Truth:** exact source/weather identities are pinned; visual-only semantics are machine-enforced; exact CI/artifact state is recorded; direct visual inspection is not fabricated where tool access did not permit it.
+- **Agency / non-domination:** Nature retains source-form ownership, Weather retains atmosphere-source ownership, Environment retains composition authority, Rigging/Animation retain their deformation/motion domains, Art Direction retains aesthetic acceptance, Runtime retains cost certification.
+- **Continuity:** the new PR is stacked on the exact Nature source rather than copying it; the previous Weather baseline remains its own repo and evidence chain; rollback is branch/PR-local.
+- **Wisdom before speed:** one small cross-asset response was tested before building a wind physics stack, procedural vegetation simulator, engine particle framework or UC-wide deformation abstraction.
 
 ## Handoffs
 
-- **Environment / World Art:** overlay this exact weather candidate into map-design PR #2 by provenance and replace the context arrow with real time-sampled atmosphere evidence; rerun readability/composition checks instead of inheriting this PASS.
-- **Nature Design:** once a real vegetation candidate exists, consume the same visual direction as a separate response input and prove visible bend/sway without calling it physics unless forces are actually modeled.
-- **Rigging / Animation:** cloth/character secondary response may later consume a weather cue, but this v0 streak field grants no deformation or animation acceptance.
-- **3D Art Director:** judge whether streak density/length/hierarchy supports the environment rather than obscuring it; this specialist does not grant aesthetic acceptance.
-- **Visual Observer / QA:** independently inspect the retained comparison and, after Environment overlays it, challenge whether motion remains legible against real assets.
-- **Runtime / Optimization:** no cost claim exists; measure only after a real renderer/engine consumes the effect.
-- **Technical Art / UC Integration:** do not put this weather-specific source logic into UC yet. Consider a shared time-sampled visual-field adapter only after at least one second domain/effect proves the interface generalizes.
-- **Capability Cartographer:** track whether context-only direction → source-owned visual response → environment overlay survives multiple weather/effect types before promoting a cross-repo weather/VFX contract.
-
-## Coordination hygiene note
-
-A connector-probing mistake created an empty branch `noop-test-should-not-create` in `axm-weather-design` pointing at the unchanged initial main commit. It contains **no delta and is not an active lane**. Current tooling exposed no branch-delete action; future cleanup may delete it without preserving any work.
+- **Visual Observer / QA:** obtain the exact retained `front_comparison.svg`, `side_comparison.svg`, and `top_comparison.svg` from artifact `10427854091` and inspect 0.00 → 0.25 → 0.50 s for visible continuity, unnatural shearing, leaf/branch separation, source-return consistency and whether the 0.18 m response is actually perceptible. Structural PASS must not substitute for that visual review.
+- **3D Art Director:** judge the amount/profile of sway only after the exact comparisons are visible. If the 0.18 m pulse looks weak, rubbery or too global, change this same candidate with before/after evidence rather than declaring a house rule.
+- **Environment / World Art:** after visual review, consume this exact response on the exact sapling already placed by `axm-map-design#4`; compare scene readability with the static source at the same composition. Do not inherit VFX PASS automatically.
+- **Organic Form:** source geometry is unchanged. If visual review exposes a true form/junction issue, repair in Nature source ownership; do not silently tune source anatomy inside this VFX lane.
+- **Rigging & Deformation / Animation:** this response is not a skeleton/weight solution. If repeated plant/cloth/character response later needs articulated propagation or authored clips, compare against this bounded visual-field baseline instead of inheriting it as rig acceptance.
+- **Runtime / Optimization:** no cost claim exists. Measure only after a real engine consumes the response; current Python/evidence generation timing is not gameplay runtime evidence.
+- **Technical Art / UC Integration:** do not promote `wind_response.py` to UC yet. A reusable time-sampled response adapter becomes a placement candidate only after a second materially different consumer proves the interface rather than merely sharing the word “wind.”
+- **Capability Cartographer:** track the now-observed chain `context weather direction -> source-owned Weather visual -> source-owned Nature response -> source-owned Environment composition`. Promotion should wait for repeated domain evidence and a stable wire contract.
 
 ## Next VFX / Atmosphere pass
 
-1. Read PR #2 exact-head state plus Environment / Visual Observer responses first.
-2. Prefer **integration of this exact retained streak candidate into the real environment baseline** over adding more abstract VFX machinery.
-3. If the overlay survives readability review, the next growth step should be one materially different dynamic cue — likely gust modulation or first real vegetation response — with before/after visual evidence.
-4. Do not escalate into physical weather, volumetrics or target-engine particles until a concrete consuming scene makes that machinery necessary.
+1. Read Visual Observer / Art Director response to `axm-nature-design#2` first.
+2. If the exact sway is visually rejected, repair this same bounded candidate and preserve before/after evidence.
+3. If accepted visually, prefer composing this exact moving sapling into `axm-map-design#4` before adding gusts, turbulence, precipitation or another effect family.
+4. Only after that scene-level proof should the VFX lane choose a materially different response primitive — e.g. impact flash/debris on a hard-surface asset or another weather-reactive material — to test whether any shared response grammar is actually reusable.
+5. Keep physical simulation, gameplay authority and runtime certification outside this lane unless direct evidence and the owning specialist explicitly make them the next dependency.
