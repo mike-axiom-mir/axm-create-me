@@ -1,217 +1,164 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **PASS_BUILDING_NAMED_RESULT_TO_MAP_RECEIVER_PROJECTION / CURRENT BUILDING PRODUCER HEAD PROVEN / HEADER OVERLAY EXPLICITLY OPT-IN / HOLD_ENVIRONMENT_CONSUMER_SWITCH / HOLD_HEADER_OVERLAY_ADOPTION / HOLD_UC_PROMOTION / MAP PR #27 DRAFT**
+State: **PASS_ANIMAL_SAMPLED_PLAYBACK_TO_CURRENT_UC_RUNTIME_CLOCK / EXACT ANIMATION + UC CLOCK BOUNDARY PROVEN / HOLD_POSE_SKELETON_SKIN_EXPORT / HOLD_WALL_CLOCK / HOLD_CONTROLLER / HOLD_VISUAL_ACCEPTANCE / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, the active design constellation, current Building / Map evidence, and current `axm-universal-creation` before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, newest specialist status, current design PRs and current `axm-universal-creation` before changing product/evidence code.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stays in the existing Technical Art lane in `mike-axiom-mir/axm-map-design`; this file is only the coordination/status update.
+`axm-create-me` remains **coordination only**. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The immediately previous Map Technical Art result remains historical truth under prior status blob `e2c2ea10a43a6d916711306c869e44fa9f6d40fb` and Map PR #27 exact head `04ba67ecd13f06fa2714be98ab47cd71cb58d3dd`: the Building named producer -> Map receiver projection passed while the newer header overlay stayed explicitly opt-in. That work is not rewritten by this activation.
 
-The immediately previous Animal Technical Art activation remains preserved by prior status blob `2adf25969d99121a462ae923a29a14278d10a95d` and Animal PR #3 exact head `ab227a89cf0d7da81e34f0a3af523724bda9fc60`. Its connected Geometry -> current UC static GLB transport result remains historical truth for that exact lineage and is not generalized or rewritten here.
+The earlier Animal Technical Art static connected-Geometry -> UC GLB result also remains historical truth at Animal PR #3 head `ab227a89cf0d7da81e34f0a3af523724bda9fc60`.
 
 ## Fresh constellation / duplication scan
 
-- **Building Hard Surface PR #2** now owns a versioned named producer interface, `axm.building-build-result/v0.1`, and has continued evolving beyond the earlier topology migration.
-- Exact current Building producer head inspected/proven here: `34124101e616c423c5a3ed5e122ddf09b98a1650`.
-- Building's named base build still emits the exact closed/outward source identity at `19 boxes / 152 vertices / 228 triangles`.
-- The same current Building head also contains the separate source-owned opt-in header-segmentation overlay `service-pavilion-001/interpenetration-free-header-segmentation-003`, which emits `23 boxes / 184 vertices / 276 triangles` and must not be inherited silently by downstream Map consumers.
-- **Procedural PR #4** has already migrated one Building consumer to the named result contract, so duplicating another producer contract or moving it into UC would be wrong.
-- **Map Technical Art PR #27** is the existing cross-repo Building receiver lane and therefore remains the correct home for the consumer-side projection proof.
-- **Map Environment PR #24** has independently advanced to exact head `5b9b55ec67e31655f51d1acc67284816067e5be6` with source-correct Building, preferred Weather-width presentation, and the accepted infill repair. It has **not** adopted the new header-segmentation overlay.
-- **Universal Creation** main inspected at `f5ccd414fc1824d0f810440caee38764c946a281`. No generic UC primitive is missing for this boundary; Building field semantics and Map receiving dependencies remain domain-owned handoff plumbing.
-- No Profession Fabric promotion is justified.
+- **Animal Technical Art PR #3** is the existing UC integration lane and therefore remains the correct home; no duplicate PR was opened.
+- **Animal Animation PR #5** has advanced to exact head `b10ec5aeeb02b5df8d42e13df2772f4dcaae9a3a`. Its exact current clip remains `quadruped-articulation-loop-001`, `1.0 s`, `40 Hz`, `41` endpoint-inclusive samples, `40` displayed frames, `smoothstep-v0`, with source digest `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`, rig-plan digest `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`, and clip digest `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`.
+- Animation has separately diagnosed C1 discontinuities at all authored boundaries while deliberately leaving the existing motion unchanged. Technical Art does not smooth, retime or reinterpret that motion.
+- Character Geometry/Rigging, Animal Rigging/Organic/Geometry, Map Runtime/VFX and visual-review lanes are active under their own ownership; none is duplicated here.
+- **Universal Creation** current main inspected and consumed at exact head `a05f5fb083ad1454a0d92d001e0d3994a779826f`.
+- Current UC already owns the generic `axm.game-animation-runtime/v0.1` clip-clock/state runtime. No new UC primitive or Profession Fabric promotion is justified.
 
 ## Selected bounded integration gap
 
-Map Technical Art had already repaired the immediate `8 -> 9` producer-output compatibility problem by accepting the established first eight tuple fields plus trailing evidence. That was truthful for the exact earlier Building source-rebind path, but the producer boundary was still described in terms of tuple arity/positions.
+Animal Technical Art already proved static connected geometry can cross into current UC GLB, but that lane explicitly stopped before animation transport. Animal Animation now has a strong exact sampled-playback contract, while the current organic clip had not been pressure-tested through UC's existing generic runtime clock.
 
-Building now provides the stronger source-owned interface:
+The bounded gap selected was therefore:
 
-`axm.building-build-result/v0.1`
-
-The highest-leverage bounded repair was therefore to add a **Map Technical Art named receiver projection** that declares the exact Building fields it consumes and pressure-test that contract against later producer evolution, without silently adopting the new header overlay and without moving Building knowledge into UC.
+> **exact Animal sampled-playback timing -> current UC adapter-neutral runtime clock**, without skeleton/skin/weights/poses, without retiming and without moving Animal motion semantics into UC.
 
 ## Existing Technical Art lane advanced
 
-Repository:
+Repository: `mike-axiom-mir/axm-animal-design`
 
-`mike-axiom-mir/axm-map-design`
+Existing draft PR: **#3 — `Technical Art: prove explicit Animal surfaces -> UC GLB bridge`**
 
-Existing draft PR:
-
-**#27 — `Technical Art: rebind Map Building receiver to source-owned topology`**
-
-Branch:
-
-`studio/technical-art-building-source-rebind-001`
+Branch: `studio/uc-surface-bridge-001`
 
 Exact final tested Technical Art head:
 
-**`04ba67ecd13f06fa2714be98ab47cd71cb58d3dd`**
+**`7b26143cd2dbf5da619fa7adb97476ba8088eb2a`**
 
-Observed PR state after the activation:
-
-**OPEN / DRAFT / MERGEABLE**.
-
-Mergeability is evidence metadata only, not merge/CANON authority.
+Observed PR state: **OPEN / DRAFT / MERGEABLE**. Mergeability is evidence metadata only, not merge/CANON authority.
 
 ## Smallest reusable repair
 
-Added:
+Added Animal-side Technical Art evidence adapter:
 
-`tools/technical_art_building_named_receiver.py`
+`tools/build_uc_animation_clock_bridge_evidence.py`
 
-The adapter binds the source-owned named result and declares these nine Map dependencies explicitly:
+Extended the existing retained Technical Art workflow:
 
-- `pavilion`
-- `panel`
-- `receiver_fits`
-- `obj_lines`
-- `bounds_min`
-- `bounds_max`
-- `readable_path_gap_m`
-- `negative_controls`
-- `topology_summary`
+`.github/workflows/uc-surface-bridge.yml`
 
-Building remains authority for the meaning and production of every field. Map Technical Art owns only the receiving projection and its fail-closed dependency contract.
+The adapter does not duplicate Animation source logic. It executes the exact pinned Animation producer's own `tools/build_animation_playback.py`, requires its existing `PASS_DISCRETE_SAMPLED_PLAYBACK_SEAM`, then maps only generic clip-clock facts into UC:
 
-The resulting Map projection is:
+- duration `1.0 s`;
+- looping `true`;
+- speed `1.0`;
+- root motion `[0,0,0]` with mode `ignore`;
+- no events or transitions;
+- no motion change;
+- no retime;
+- no pose-data transport.
 
-`axm.map-building-named-receiver-projection/v0.1`
-
-Exact projection SHA-256:
-
-`33c207c86e6f95277004be1481eb996cb9ab453e945e5b31b245229eab034911`
-
-Exact base source identities retained:
-
-- pavilion SHA-256 `5f89ec4109d48f452f9e887ad5ca5449e1d0f6d6ee4b1896be6f25bc0a80736a`;
-- panel SHA-256 `df59fa135abc89f8c85317db1d6b9ce3d03920efc91271de61bfb6289a24c253`;
-- base topology `19 objects / 152 vertices / 228 triangles`;
-- `0` boundary / non-manifold / orientation-conflict / degenerate edges/triangles;
-- `228` outward / `0` inward triangles;
-- two exact receivers.
-
-## Real additive-evolution pressure tests
-
-This was not tested only against one lucky producer shape.
-
-### Opaque legacy extension
-
-The proof appends a synthetic opaque tenth legacy producer output and passes it through Building's own `from_legacy_output()` adapter.
-
-Observed:
-
-- legacy output count: `10`;
-- opaque trailing extension count: `1`;
-- named Map projection digest remains **identical**.
-
-This proves the consumer-side named projection no longer needs to interpret later tuple arity.
-
-### Separate source-owned header overlay
-
-The same exact Building head also builds:
-
-`PASS_SOURCE_OWNED_INTERPENETRATION_FREE_HEADER_SEGMENTATION_OVERLAY`
-
-with:
-
-- successor revision `service-pavilion-001/interpenetration-free-header-segmentation-003`;
-- `23` emitted boxes;
-- `184` vertices;
-- `276` triangles.
-
-Technical Art deliberately does **not** feed that overlay into the Map base projection. The proof requires the base receiver to remain `19 / 152 / 228`, so existence of a newer source-owned successor cannot silently rewrite the receiving identity.
-
-## Fail-closed controls
-
-The retained proof rejects:
-
-1. build-result schema drift;
-2. a missing declared field (`topology_summary`);
-3. silent relabelling of the `23 / 184 / 276` header overlay as the `19 / 152 / 228` base receiver.
-
-All three are retained as explicit `REJECTED` outcomes.
+UC remains authority only for its generic runtime clock/state execution. Animal remains authority for clip, source, rig, timing and motion semantics.
 
 ## Exact result
 
 Scoped result:
 
-**`PASS_BUILDING_NAMED_RESULT_TO_MAP_RECEIVER_PROJECTION`**
+**`PASS_ANIMAL_SAMPLED_PLAYBACK_TO_CURRENT_UC_RUNTIME_CLOCK`**
 
-Dedicated workflow:
+Dedicated workflow family:
 
-**`35118173149 — Technical Art Building named receiver evidence`: SUCCESS**.
+**`35124835734 — UC surface bridge evidence`: SUCCESS**.
 
-The job passed exact-head checkout, exact Building and UC checkout identity, adapter compilation, named projection build, a second deterministic repeat, truth-boundary validation, and retained-artifact upload.
+All three jobs on exact Technical Art head passed:
+
+- historical exact Animal -> UC bridge;
+- connected-topology -> current UC GLB bridge;
+- new Animal Animation -> current UC runtime-clock bridge.
+
+Same-head inherited workflows also passed:
+
+- `35124836175 — Tests`: SUCCESS;
+- `35124835584 — Weighting refinement evidence`: SUCCESS.
+
+Exact clock findings:
+
+- all `40` authored `0.025 s` boundaries plus the first post-wrap boundary reproduced through current UC;
+- maximum clip-time residual: **`5.551115123125783e-16 s`**;
+- exactly one UC `LOOP` event at the exact one-second boundary, command index `39`, cycle `1`;
+- post-wrap clip time returns exactly to `0.0 s`, then `0.025 s` on the next authored interval;
+- bounded free-time probes `0.1125 / 0.5125 / 1.2375 / 2.0 s` reproduce the exact expected wrapped clip times and cycle counts with `0.0 s` residual;
+- UC compiled runtime source SHA-256: `6d33948c8d26c7a64a5c5d6d31d989ea508ac976c59ead663c5eee46a86d7f14`;
+- Technical Art receipt SHA-256: `8a0c2ca7a9f0b8661117d8e76c66990617a7cdc896ca0b479bb9ef884f16735d`.
+
+## Fail-closed controls
+
+The retained bridge rejects:
+
+1. exact Animal clip-identity drift;
+2. authored sample-rate drift from `40` to `41 Hz`.
+
+Both are retained as `PASS_REJECTED`; near timing/identity is not silently accepted.
 
 ## Retained evidence
 
 Artifact:
 
-- ID: **`10456465862`**;
-- name: `technical-art-building-named-receiver-04ba67ecd13f06fa2714be98ab47cd71cb58d3dd`;
-- size: **`7,714 B`**;
-- GitHub archive SHA-256: **`be52c5184df7aaf424125c7a1a0d0ca18d1c53fd5981a1b5403ce541efd9a4e2`**;
-- exact receiving head: `04ba67ecd13f06fa2714be98ab47cd71cb58d3dd`;
-- exact Building head: `34124101e616c423c5a3ed5e122ddf09b98a1650`;
-- inspected UC head: `f5ccd414fc1824d0f810440caee38764c946a281`.
+- ID: **`10458946478`**;
+- name: `quadruped-animation-current-uc-clock-bridge-evidence`;
+- size: **`4,563 B`**;
+- GitHub archive SHA-256: **`0fa87471e40995c75cc8539647330f53fd088d8d4cad16a63aff1961cef8f634`**;
+- exact Technical Art head: `7b26143cd2dbf5da619fa7adb97476ba8088eb2a`;
+- exact Animation producer: `b10ec5aeeb02b5df8d42e13df2772f4dcaae9a3a`;
+- exact UC producer: `a05f5fb083ad1454a0d92d001e0d3994a779826f`.
 
-The artifact was downloaded during this activation and independently rehashed to the same archive SHA-256. It contains the exact named Map projection, full Technical Art report, and exact head receipts.
+The artifact was downloaded during this activation and independently rehashed to the same archive digest. It retains the exact Animal sampled-playback source receipt, UC runtime source, bridge receipt and all three exact Git identities.
 
 ## Handoffs recorded
 
-### Map Technical Art PR #27
+- Animal Technical Art PR #3 evidence comment: **`5701284660`**.
+- Animal Animation PR #5 consumer handoff: **`5701286687`**.
 
-Evidence comment: **`5700428670`**.
-
-### Building Hard Surface PR #2
-
-Downstream contract comment: **`5700431384`**.
-
-That handoff records that the Building-owned named producer interface now survives a real Map consumer pressure test while the newer header overlay remains explicitly opt-in.
-
-### Environment / Materials / Runtime / Visual QA
-
-No downstream adoption was performed here.
-
-- Environment PR #24 remains authoritative for its exact current integrated world and must explicitly adopt/rebuild any future header-segmentation successor.
-- Building Materials must explicitly map any segmented-header successor before material equivalence can be claimed.
-- Runtime must remeasure any adopted new geometry emission.
-- Visual QA / Art Direction must inspect any integrated successor rather than inherit prior visual PASSes by similarity.
+Animation retains ownership of the current C1 diagnosis, timing/motion direction and any future interpolation candidate. Runtime/controller work remains separately held.
 
 ## UC placement decision
 
 `axm-universal-creation` remains unchanged.
 
-Current UC main `f5ccd414fc1824d0f810440caee38764c946a281` contains unrelated generic capability growth. This activation found no missing generic UC primitive: the problem is a versioned **Building producer -> Map receiver** dependency boundary. Centralizing Building field names, source topology policy, or header segmentation into UC would violate source ownership for convenience.
+Current UC already provides the reusable adapter-neutral clock/state machinery needed here. One Animal clip does not justify adding Animal source/rig/weighting/sampled-playback rules, derivative policy or organic motion semantics to UC. The successful receiving proof is evidence that the existing generic boundary is sufficient, not a reason to centralize domain knowledge.
+
+No Profession Fabric promotion is justified from this one receiving domain.
 
 ## Non-claims / remaining holds
 
 This activation does **not** establish or authorize:
 
-- a claim that Map Environment currently consumes the new named adapter;
-- Environment adoption of the `23 / 184 / 276` header-segmentation overlay;
-- target-host current-world rendering of that overlay;
-- material-role remapping for segmented headers;
-- Runtime / target-device budget acceptance for that overlay;
-- final visual hierarchy or Art Direction acceptance;
-- collision, navigation or gameplay behavior;
-- a generic cross-domain producer-result standard in UC;
+- skeleton, skin, weight, pose or deformation transport into UC;
+- GLB animation-channel export;
+- real wall-clock frame pacing;
+- Godot `AnimationPlayer` or another target-engine controller/state-machine integration;
+- continuous interpolation quality, C1 continuity or a smoothing/retime decision;
+- final visual/motion-quality or Art Direction acceptance;
+- gameplay, collision, physics or target-device performance;
+- adoption of Animal Rigging/Geometry/Organic successor candidates;
+- a universal organic-animation policy in UC;
 - Profession Fabric promotion;
 - merge/CANON, production readiness, game readiness or Technical Art mastery.
 
 ## Root gate
 
-- **Truth:** base named result and newer overlay remain separately identified; exact producer/receiver heads, projection digest, workflow, artifact digest and negative controls are retained.
-- **Agency / non-domination:** Building keeps producer/source authority; Map Technical Art declares only its dependencies; Environment, Materials, Runtime and Visual QA retain their own gates; UC is not used as a policy sink.
-- **Continuity:** existing Map PR #27 was advanced rather than replaced; prior Map and Animal Technical Art results remain historical truth; no old receipt was silently relabelled.
-- **Wisdom before speed:** this activation proves the named handoff boundary and deliberately stops before downstream overlay adoption, rendering, material remap or runtime acceptance.
+- **Truth:** exact Animation, Technical Art and UC revisions; exact timing residuals; negative controls; workflow and artifact digests are retained. Generic clock compatibility is not relabelled as animation export or target-engine playback.
+- **Agency / non-domination:** Animation keeps motion authority; UC keeps only generic runtime semantics; Technical Art does not force smoothing, retiming, controller policy or visual acceptance.
+- **Continuity:** existing Animal Technical Art PR #3 was advanced rather than replaced; its earlier static GLB evidence and the previous Map named-receiver result remain historical truth.
+- **Wisdom before speed:** the smallest missing handoff was proven first; skeleton/skin/pose export and real wall-clock/controller work remain separate future gates instead of being bundled into an impressive but ambiguous claim.
 
 ## Current state
 
-`PASS_BUILDING_NAMED_RESULT_TO_MAP_RECEIVER_PROJECTION / EXACT MAP + BUILDING + UC IDENTITIES RETAINED / HEADER OVERLAY EXPLICITLY OPT-IN / HOLD_ENVIRONMENT_CONSUMER_SWITCH / HOLD_HEADER_OVERLAY_ADOPTION / HOLD_TARGET-HOST-OVERLAY / HOLD_RUNTIME / HOLD_VISUAL_ACCEPTANCE / HOLD_UC_PROMOTION / MAP PR #27 DRAFT`
+`PASS_ANIMAL_SAMPLED_PLAYBACK_TO_CURRENT_UC_RUNTIME_CLOCK / EXACT 40 HZ BOUNDARIES + LOOP PROVEN / EXACT ANIMATION + UC + TECHNICAL ART IDENTITIES RETAINED / HOLD_SKELETON_SKIN_WEIGHT_POSE_EXPORT / HOLD_GLB_ANIMATION_CHANNELS / HOLD_WALL_CLOCK / HOLD_CONTROLLER_STATE_MACHINE / HOLD_C1_VISUAL_ACCEPTANCE / HOLD_RUNTIME_GAMEPLAY / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT`
