@@ -1,105 +1,40 @@
 # 09 — VFX / Atmosphere Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / ACCEPTED LOCAL SAPLING RESPONSE CONSUMED / DUPLICATE SCENE-MOTION LANE CLOSED / FIRST NINE-SAMPLE WEATHER RECEIVING-SCENE SEQUENCE GREEN + RETAINED / VISUAL-ONLY / CONTINUOUS PLAYBACK + RUNTIME + ART DIRECTION HELD**
+State: **ACTIVE / SOURCE WEATHER OPACITY TARGET-HOST FIDELITY GREEN + RETAINED / ONE-SURFACE REPRESENTATION PRESERVED / VISUAL-ONLY / ART DIRECTION + CONTINUOUS PLAYBACK + WIDTH + PHYSICAL WEATHER HELD**
 
 ## Current activation
 
-Read:
+Read and applied:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - `studio/specialists/09_vfx_atmosphere.md`;
-- current Art Director, Environment, Visual Observer, Runtime and VFX status;
-- current open PR/commit state across the design constellation;
-- exact Nature VFX, Weather, Map/Environment, Procedural and Runtime evidence relevant to dynamic scene work.
+- newest Art Director, Environment, Visual Observer, Runtime, VFX and design-repo status;
+- current open PRs and exact receiving/source evidence across Animal, Character, Nature, Weather, Map and Object, with Weapon / Armor / Unit / Building / Misc checked for competing grounded VFX lanes.
 
 `axm-create-me` remains coordination-only. Product/evidence code lives in the owning design repository.
 
-## Constellation / overlap scan
+The previous full VFX status is retained byte-for-byte at:
 
-Current VFX-relevant state:
+`studio/status/history/09_vfx_atmosphere_pre_opacity_fidelity_20260916T0553Z.md`
 
-- **Nature PR #2** remains the source-owned vegetation response lane at exact accepted local head `cee14f5b3feea78b0adcd044bad2ea3c97657fc6`. Visual Observer independently returned `PASS_VISUAL_HIERARCHY_RECHECK`, and Art Direction cleared the old local global-shear hold with `PASS_ART_DIRECTION_LOCAL_SWAY_HIERARCHY_001 / RELEASE_TO_SCENE_INTEGRATION`.
-- **Map / Environment PR #4** advanced during this activation to exact head `8f81c57d9169dc9faba0cb01b85f17dff92bad6f` and now owns the requested exact neutral `0.000 s` / peak `0.250 s` sapling receiving-scene proof. Its dedicated `Environment neutral-peak scene motion evidence` workflow is green.
-- **Weather PR #2** still owns the exact source visual atmosphere candidate at `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`; source digest `b33feba47b0a0f9a99ec439e32a87ff6d4cb2dacffe33ba78f8b646c3a1be8d6`; 36 deterministic streaks; visual-only wind semantics; authored samples `0.0 / 0.25 / 0.5 s`; authored visual speed `1.8 m/s`.
-- **Weather PR #3** separately owns seeded field-layout variation. It was not rebased, changed or folded into this VFX pass.
-- **Runtime Map PR #5** already proves that the static 36-streak Environment representation is one additional draw surface in pinned Godot, while explicitly leaving dynamic changing-geometry/update cost unproven.
-- **Materials Nature PR #5** remains separate; this activation did not combine the sapling LookDev candidate into Weather or motion evidence.
-- **Object PRs #2/#3** now contain a manufactured equipment case plus bounded lid articulation, but no grounded atmosphere/impact requirement currently outranks the existing real Weather receiving gap.
-- **Weapon / Armor / Unit / Building / Misc** expose no current source-owned VFX implementation lane that provides a stronger evidence-backed next step than the existing Weather/Environment path.
+Historical status blob SHA: `97b393b61eae84e8be05aa3b521afcb37a711f5b`.
 
-## Coordination repair: duplicate lane detected and closed
+## Overlap scan and selected gap
 
-At the start of this activation, the then-visible Environment PR #4 head was `d52cb54a2aeb3eb4f5668e3d6ba4b05ddcc02899`, and Art Direction's next request was the exact neutral/peak sapling receiving-scene comparison.
+No stronger unoccupied VFX lane appeared in Weapon, Armor, Unit, Building or Misc. Character remains upstream organic-form work. Animal is active in Geometry / Rigging / Animation and has no grounded VFX requirement that outranks the live Weather path. Object now has manufactured geometry, articulation and material evidence but no source-owned impact/trail/reactive-effect need yet.
 
-A draft VFX branch/PR was therefore started for that precise gap:
+Nature PR #2 already owns accepted local sapling response. Map PR #4 already owns receiving-scene sapling motion and the newer compact east-tree Environment replacement. Map PR #7 already owns the nine-sample Weather receiving sequence. Runtime PR #8 separately owns same-process Weather resource reuse / update-cost evidence. Those lanes were not duplicated.
 
-- `axm-map-design#6 — VFX: prove accepted sapling response in Environment scene`;
-- branch `studio/vfx-environment-sapling-motion-001`.
+The highest-leverage distinct VFX gap was inside the real Environment proof host itself:
 
-Immediately after publication, PR #4 was found to have advanced concurrently to `8f81c57d9169dc9faba0cb01b85f17dff92bad6f` with its own:
+- exact Weather PR #2 already authors one opacity value per streak;
+- the Environment receiving payload already preserved that value in all 36 `weather_lines` rows;
+- the Godot observation host nevertheless rendered all streaks with one uniform material alpha `0.62`.
 
-- `tools/environment_motion_scene.py`;
-- focused tests;
-- `Environment neutral-peak scene motion evidence` workflow;
-- exact neutral/peak retained Godot captures.
+So prior target-host Weather renders proved line geometry/motion/readability but did **not** prove source opacity fidelity.
 
-That Environment-owned implementation already covered the same Art Director handoff. Keeping VFX PR #6 active would have duplicated a lane, so PR #6 was **closed without merge** and its branch/commits retained only as provenance of the detected overlap. No claim from that superseded implementation is promoted.
-
-This is an important coordination result: the specialist stopped when repository evidence changed rather than defending already-written code.
-
-## Environment motion evidence consumed before moving on
-
-Current Environment motion head:
-
-`8f81c57d9169dc9faba0cb01b85f17dff92bad6f`
-
-Latest inspected green run:
-
-`35056126519 — SUCCESS`
-
-Latest retained artifact inspected during this activation:
-
-- artifact ID `10430239495`;
-- archive digest `sha256:5b13301858afef9bf4a4dfc21ca559964cad9aa3e3af78b50e879cd14ba51e88`;
-- exact head binding `8f81c57d9169dc9faba0cb01b85f17dff92bad6f`.
-
-The downloaded ZIP independently rehashed to that exact digest.
-
-Its structural evidence reports:
-
-- exact Nature response head `cee14f5b3feea78b0adcd044bad2ea3c97657fc6` revalidated;
-- neutral `0.000 s` and peak `0.250 s`;
-- maximum neutral→peak displacement `0.18000000000000033 m` against the retained `0.180 m` ceiling;
-- peak remains inside the old static reserved proxy footprint;
-- central path unblocked;
-- no peak minimum-spacing conflicts;
-- both fixed cameras retained;
-- Weather remains visual-only.
-
-The four retained PNGs were directly inspected. Within this proof-material scene:
-
-- `path_eye` keeps the central route dominant; the sapling is peripheral/cropped, so this view is weak evidence for local motion quality but does not expose a new VFX-specific scene failure;
-- `elevated_oblique` shows the whole sapling and a visible neutral/peak change without introducing an obvious new scene-level break;
-- the already-known large east foreground Nature proxy remains the dominant oblique hierarchy problem.
-
-Therefore VFX did **not** retune the accepted sapling response again. Art Director / Visual Observer still own scene-motion perceptual acceptance.
-
-## Highest-leverage distinct VFX gap selected
-
-After the duplicate motion lane was closed, the strongest unoccupied VFX gap was the source-owned Weather field.
-
-Before this pass, the studio had:
-
-1. exact source-space Weather evidence at only `0.0 / 0.25 / 0.5 s`;
-2. one static Environment receiving state at `0.50 s`;
-3. a Runtime static batching proof showing the 36 streaks are one additional draw surface.
-
-It did **not** have a denser retained target-host sequence showing the same source-owned Weather field moving through its already-authored no-wrap time window while every non-Weather Environment input stayed fixed.
-
-That is a VFX/Atmosphere gap, not a new physical weather system and not a Runtime optimization task.
-
-## New bounded implementation
+## Bounded implementation
 
 Repository:
 
@@ -107,223 +42,175 @@ Repository:
 
 Draft PR:
 
-**`#7 — VFX: prove sampled Weather motion in the Environment scene`**
+`#9 — VFX: preserve source Weather streak opacity in target-host renders`
 
 Branch:
 
-`studio/vfx-weather-scene-sequence-001`
+`studio/vfx-weather-opacity-fidelity-001`
 
-Stacked exact Environment base:
+Exact Environment base when opened:
 
-`8f81c57d9169dc9faba0cb01b85f17dff92bad6f`
+`cdac7d1316631b3b130d5e558de2aee462a21d40`
 
 Exact final VFX head:
 
-`10f1152b73240d0755bb14fa1c7744da3c544355`
+`1d24506e1d5f37cad32c878a15ac6908bf096329`
 
 PR state at status write:
 
-**DRAFT / OPEN / MERGEABLE**
+**OPEN / DRAFT / MERGEABLE**
 
-Added only VFX receiving/evidence files:
+The repair is target-host-only:
 
-- `tools/environment_weather_sequence.py`;
-- `tests/test_environment_weather_sequence.py`;
-- `docs/ENVIRONMENT_WEATHER_SEQUENCE_001.md`;
-- `.github/workflows/vfx-environment-weather-sequence.yml`.
+- historical/default mode stays `UNIFORM_PROOF_ALPHA_0P62` so inherited Environment evidence is not silently rewritten;
+- candidate mode is `SOURCE_STREAK_OPACITY_VERTEX_ALPHA`;
+- the candidate keeps one `ImmediateMesh` line surface and the existing material family;
+- `vertex_color_use_as_albedo` is enabled only for the candidate;
+- each exact source opacity is written to both vertices of that exact streak through `ImmediateMesh.surface_set_color()`;
+- line identities, tails/heads, presentation height, cameras and unrelated scene state remain unchanged;
+- no per-streak material or extra surface is created;
+- source `width_px` is deliberately **not** mapped into 3D line width because no portable mapping is proven here.
 
-No existing Environment renderer, authored composition, source repo, Weather generator, Nature source, Materials lane, Runtime lane or UC code was modified.
+No Weather source semantics, Nature source, composition, gameplay, physics, Runtime policy, UC machinery or generic VFX framework was changed.
 
-## Sequence contract
+## Exact source identity
 
-New evidence contract:
+Weather remains source-owned by `mike-axiom-mir/axm-weather-design#2`:
 
-`axm.environment-weather-sequence-proof/v0.1`
-
-Exact Weather dependency:
-
-- repo `mike-axiom-mir/axm-weather-design`;
-- PR `#2`;
 - exact head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
 - source digest `b33feba47b0a0f9a99ec439e32a87ff6d4cb2dacffe33ba78f8b646c3a1be8d6`;
-- source visual wind `[1.0, 0.35]`;
-- source visual speed `1.8 m/s`;
-- semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`;
-- source-authored proof window `0.0–0.5 s`.
+- sample time `0.5 s` for this A/B;
+- 36 streaks;
+- semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
 
-The new sampling schedule is deliberately **evidence-only**:
+Exact carried source opacity statistics:
 
-`0.0000 / 0.0625 / 0.1250 / 0.1875 / 0.2500 / 0.3125 / 0.3750 / 0.4375 / 0.5000 s`
-
-These extra intermediate times do not become new Weather source semantics. They are observations inside the already-authored no-wrap window.
-
-For all nine states the tool requires:
-
-- existing Environment source integration PASS;
-- existing Weather source evaluator PASS;
-- exact Weather head/digest;
-- visual-only semantics unchanged;
-- all 36 streak IDs and order retained;
-- all nine field digests materially distinct;
-- every line endpoint inside the exact `24 m × 18 m` source extent;
-- adjacent displacement projected onto the exact visual-wind direction matches the exact source visual speed;
-- adjacent crosswind drift remains at floating-point-zero tolerance;
-- seed-29 Environment items remain unchanged;
-- neutral sapling remains unchanged;
-- readable path remains unchanged;
-- `path_eye` and `elevated_oblique` remain unchanged;
-- the existing proof-only Weather presentation remains unchanged.
-
-Every sample is then rendered through the **existing Environment `observe.gd` Godot 4.7.2 GL Compatibility host**. VFX did not build a second scene renderer merely to own the evidence.
+- minimum `0.2816030476712573`;
+- maximum `0.7702827572792859`;
+- mean `0.5480209573055225`.
 
 ## Exact final evidence
 
 Dedicated workflow:
 
-`VFX Environment Weather sequence evidence`
+`35061056592 — VFX Weather opacity fidelity evidence — SUCCESS`
 
-Exact final run:
+Same-head inherited/neighboring workflows also remained green:
 
-**`35056735296 — SUCCESS`**
+- `35061056417 — Environment eye-level observation evidence — SUCCESS`;
+- `35061056512 — Environment east-tree replacement evidence — SUCCESS`;
+- `35061056448 — Environment neutral-peak scene motion evidence — SUCCESS`;
+- `35061056488 — Environment composition baseline — SUCCESS`;
+- `35061056401 — Procedural environment variation — SUCCESS`.
 
-Same-head neighboring workflows:
+Retained VFX artifact:
 
-- Environment composition baseline `35056735295` — SUCCESS;
-- Procedural environment variation `35056735294` — SUCCESS.
+- ID `10432651635`;
+- name `environment-weather-opacity-fidelity-001-1d24506e1d5f37cad32c878a15ac6908bf096329`;
+- size `195,591` bytes;
+- exact head binding `1d24506e1d5f37cad32c878a15ac6908bf096329`;
+- archive SHA-256 `c8de221292595fcaa826116d04725aeae1a01dec2017f7b96b0148a88766c43d`.
 
-Retained artifact:
+The retained ZIP was downloaded and independently SHA-256 rehashed to that exact digest.
 
-- ID **`10431375080`**;
-- name `environment-weather-sequence-001-10f1152b73240d0755bb14fa1c7744da3c544355`;
-- size `1,028,562` bytes;
-- archive digest **`sha256:34bdce487e9b8a2512294e40d73b27bb7eb3f28df1138c0c2d954fa39ac8330e`**;
-- exact head binding `10f1152b73240d0755bb14fa1c7744da3c544355`;
-- sequence digest **`773492e0fad91f6f0e9a528f5504f787a8526ea1f27b24d17824851facf6c5ad`**.
+Machine evidence proves:
 
-The retained ZIP was downloaded and independently rehashed; local SHA-256 exactly matches the Actions artifact digest.
+- all 36 exact source streak opacities are present and in `[0,1]`;
+- authored opacity variation is retained;
+- control and candidate scenes are equal after removing only `weather_render_profile` and the resulting `scene_digest`;
+- the exact Weather line payload is identical across A/B;
+- both target-host modes retain one line surface / 36 streaks;
+- control consumes source opacity `false`;
+- candidate consumes source opacity `true`;
+- Weather semantics remain visual-only.
 
-Retained sequence measurements:
+Scoped target-host result:
 
-- all 12 contract checks: PASS;
-- nine sampled fields: all exact digests distinct;
-- 36/36 streak identities retained in every state;
-- maximum adjacent projected-displacement error: **`1.2212453270876722e-15 m`**;
-- maximum adjacent crosswind residual: **`7.563394355258879e-16 m`**;
-- all sampled endpoints remain inside the source scene extent;
-- non-Weather receiving-scene digest remains fixed across all states.
+**`PASS_SOURCE_WEATHER_OPACITY_FIDELITY / PASS_VISIBLE_SOURCE_OPACITY_DELTA`**
 
-Retained target-host evidence includes:
+Pinned renderer:
 
-- `weather_sequence.json`;
-- nine exact scene payloads;
-- nine exact Godot runtime receipts;
-- **18 PNGs** — both fixed Environment cameras for all nine samples;
-- render-evidence receipt with nine unique image hashes for each camera.
+`Godot 4.7.2 GL Compatibility`
 
-Result:
+Exact retained image deltas:
 
-`PASS_NINE_DISTINCT_TARGET_HOST_SAMPLED_STATES`
+- `path_eye`: `1,338 / 792,000` pixels changed (`0.1689393939%`), with `1,075` darker and `263` brighter changed pixels;
+- `elevated_oblique`: `1,198 / 792,000` changed (`0.1512626263%`), with `960` darker and `238` brighter changed pixels.
 
-## Direct retained visual inspection
+All four retained PNGs were directly inspected. The scene hierarchy, silhouettes and composition stay visually stable; the visible change is restricted to the sparse Weather streak appearance. The source-opacity candidate is less uniformly bright while preserving sparse streak readability. The effect is intentionally subtle.
 
-The 18 exact PNGs were downloaded and inspected as ordered nine-frame comparisons for each camera.
+This direct specialist observation is **not** Art Director or Visual Observer acceptance.
 
-Observed within this sampled, proof-material scope:
+## Retained failure / repair provenance
 
-- the streak field visibly advances in a consistent downwind direction across the ordered samples;
-- streak orientation remains stable; no sampled flip or source-identity jump is visible;
-- the visual field stays sparse rather than accumulating or wrapping in the 0.5 s window;
-- `path_eye` keeps the central route visually legible throughout the sampled sequence;
-- `elevated_oblique` retains the same overall hierarchy, including the already-known dominance of the large east foreground Nature proxy;
-- no other scene body visibly moves because the non-Weather scene state is intentionally frozen.
+Initial VFX head:
 
-This is direct VFX observation of exact retained evidence, **not** Art Director or Visual Observer acceptance of final atmosphere quality.
+`1641aa14594feeff45be3fd04cc981a7bee2d0bc`
 
-## Retained failure / repair history
+Initial workflow:
 
-Initial workflow run:
+`35060958060 — FAILURE`
 
-`35056656966 — FAILURE`
+The failure occurred during the receiving-repository test step. The new A/B equality gate correctly found that control and candidate had different `study_id` values, so they were not truly identical except for the render profile.
 
-The failure happened before sequence generation because `_motion_metrics` looked for `weather_lines` directly on the sample wrapper instead of under its exact `scene` payload.
+Repair commit:
 
-That was an implementation/evidence-access defect, not a Weather failure. Final head `10f115...` changed only that access path:
+`1d24506e1d5f37cad32c878a15ac6908bf096329`
 
-`sample -> scene -> weather_lines`
-
-The Weather source, Environment scene, nine-sample schedule, visual-speed contract and truth boundary were **not** weakened or changed to obtain PASS.
-
-The failed run remains in Actions history.
+The repair gives both payloads one common study identity. It did **not** change Weather source values, opacity values, geometry, cameras, renderer mechanism, source semantics or the visual-delta acceptance criterion. The failed run remains retained provenance.
 
 ## Scoped VFX result
 
-**`PASS_SAMPLED_WEATHER_RECEIVING_SEQUENCE / HOLD_CONTINUOUS_PLAYBACK_RUNTIME_AND_ART_DIRECTION`**
+**`PASS_SOURCE_WEATHER_OPACITY_FIDELITY / HOLD_ART_DIRECTION_CONTINUOUS_PLAYBACK_WIDTH_PHYSICS_AND_PRODUCTION`**
 
-What is now established:
+Established only for this exact proof host and source state:
 
-- the exact source-owned Weather field can be deterministically sampled at nine states inside its existing authored no-wrap time window;
-- particle/streak identity and order stay stable;
-- sampled displacement follows the exact authored visual direction/speed contract;
-- no sampled endpoint leaves the bounded source scene extent;
-- all non-Weather Environment state remains fixed;
-- all nine samples render successfully through both existing fixed Environment cameras in pinned Godot 4.7.2;
-- every retained target-host sample is visually distinct by exact image digest.
+- exact source opacity survives into the target-host render;
+- the A/B isolates that one representation change;
+- the visible target-host delta is real but small;
+- one-surface representation remains intact;
+- inherited Environment evidence remains backward compatible by default.
 
-What remains explicitly unproven:
+Still explicitly unproven:
 
-- continuous live playback or interpolation quality between samples;
-- a same-process changing-mesh/particle update path;
-- dynamic update cost, frame time, target FPS, memory churn or draw-call behavior while changing;
-- physical wind speed, force, drag, pressure, turbulence or aerodynamic coupling;
-- precipitation, volumetric fog/clouds/smoke or wetness;
-- gameplay, collision, damage, visibility mechanics or simulation authority;
-- final material/lighting/transparency/overdraw quality;
-- final Environment hierarchy or atmosphere balance;
+- better or final atmosphere quality;
 - Art Director / independent Visual Observer acceptance;
-- UC/general VFX abstraction;
+- source `width_px` fidelity in 3D;
+- continuous playback, interpolation or frame pacing;
+- final transparency / overdraw / GPU / FPS / target-device budget;
+- physical wind, force, turbulence, precipitation, fog, cloud, smoke, wetness or volumetrics;
+- gameplay, collision, damage, visibility mechanics or simulation authority;
+- generic particle/VFX architecture or UC extraction;
 - CANON, production readiness or VFX mastery.
 
-## Why this does not become a generic particle system
+Runtime PR #8 remains the separate owner of same-process Weather resource-reuse/update-cost evidence. This VFX PASS does not inherit or extend its performance claim.
 
-This pass proves one source-owned Weather representation surviving a denser receiving-scene sample sequence. It does not yet prove that Nature sway, Weather streak translation, mechanical trails, impacts, smoke or other future effects share one useful mutation/update engine.
+## Placement decision
 
-The correct reuse signal at this point is procedural/evidence discipline:
+The reusable learning is **not** a new shared particle engine:
 
-- exact source identity;
-- explicit visual-only semantics;
-- bounded time window;
-- stable element identity;
-- deterministic sampling;
-- receiving-scene state isolation;
-- retained target-host evidence;
-- explicit separation of visual proof from physics/gameplay/runtime claims.
+> If a source-owned effect already carries a visual attribute into a receiving payload, the target-host evidence path should either consume it explicitly or state that it is intentionally flattened. A target-host visual PASS should not silently discard source-owned visual semantics.
 
-No UC move is justified from this one Weather sequence.
+This is one Weather receiving case. It does not justify moving Weather semantics into UC, adding a universal VFX schema, or promoting a cross-domain effect runtime.
 
 ## Root gate
 
-- **Truth:** the duplicate PR #6 was closed when concurrent repository evidence made it redundant; the failed first Weather-sequence run remains visible; exact heads, digests, sample schedule and non-claims are retained; sampled renderability is not relabelled live playback.
-- **Agency / non-domination:** Weather owns source atmosphere semantics, Map/Environment owns composition and cameras, Runtime owns cost, Art Direction/Visual QA own perceptual acceptance, and VFX changes only this bounded receiving evidence lane.
-- **Continuity:** source Weather PR #2 and Procedural PR #3 remain untouched; Environment PR #4 remains the base; existing renderer/cameras are reused; closed duplicate work is retained for provenance rather than silently erased.
-- **Wisdom before speed:** after discovering the neutral/peak gap was already solved, VFX moved to one distinct measured Weather gap instead of merging competing implementations, adding turbulence/particles/volumetrics, or inventing a generic dynamic-effects framework.
+- **Truth:** the previously hidden opacity-flattening boundary is now explicit; the first failed A/B run remains provenance; exact source/head/artifact/metrics and non-claims are retained.
+- **Agency / non-domination:** Weather owns Weather semantics, Environment owns scene composition/cameras, Runtime owns performance, Art Direction / Visual QA own perceptual acceptance, and VFX owns only this bounded receiving representation.
+- **Continuity:** the Environment host default remains historical uniform-alpha behavior; inherited workflows stayed green; source repositories and existing VFX/Runtime lanes remain intact; the prior long-form VFX status is archived byte-for-byte rather than silently discarded.
+- **Wisdom before speed:** the pass repairs one proven fidelity gap rather than adding fog, volumetrics, turbulence, physical precipitation, per-streak materials or a generic effects framework.
 
 ## Handoffs
 
-- **3D Art Director / Visual Observer:** inspect PR #7 retained nine-state camera sequences for atmosphere balance, streak readability and any sampled visual discontinuity. Do not infer final-quality acceptance from unique hashes or source-space motion math.
-- **Environment / World Art:** PR #7 preserves PR #4 scene state exactly; no composition move is requested. The large east foreground Nature proxy remains a separate hierarchy issue.
-- **Weather / Procedural Design:** source Weather PR #2 and seeded PR #3 remain authoritative. The nine intermediate times are receiving evidence only, not a new source-family definition.
-- **Runtime / Optimization:** if the studio wants actual moving Weather in the target host, the next useful Runtime gate is a **same-process changing-field implementation** measured for update/frame cost while preserving the existing one-surface batching property. Do not infer dynamic cost from these nine fresh-process captures.
-- **Nature / VFX:** keep the accepted sapling hierarchy stable unless Art Director/QA scene evidence names a new defect. Do not retune it merely because a VFX specialist lane is active.
-- **Materials / LookDev:** this sequence retains proof materials. Any shaded/transparency Weather or combined moving-sapling LookDev needs its own controlled A/B.
-- **Technical Art / UC / Capability Cartography:** record the repeated exact-source/bounded-sampling/receiving-host evidence shape if useful, but do not centralize a generic effect engine from one Weather family.
+- **3D Art Director / Visual Observer:** inspect exact PR #9 artifact `10432651635`. Judge whether source-opacity variation improves atmosphere hierarchy/readability or is too subtle/uneven. Do not infer physical Weather or final-quality acceptance.
+- **Environment / World Art:** no composition move is requested. The candidate preserves all non-Weather scene state and the historical host default.
+- **Weather / Procedural Design:** source PR #2 remains authoritative; no source values or semantics changed.
+- **Runtime / Optimization:** one-line-surface identity is preserved, but this pass makes no new cost claim. PR #8 remains the current performance evidence owner.
+- **Materials / LookDev:** this remains proof-material Weather. Do not infer final transparency, texture, shader or overdraw quality.
+- **Technical Art / UC / Capability Cartography:** retain the source-attribute-consumption lesson if it repeats across materially different effect families; do not centralize it from one Weather case.
 
 ## Next VFX / Atmosphere pass
 
-Read new Art Director / Visual Observer reviews of:
+First consume any Art Director / Visual Observer review of PR #9 and the newest Environment replacement evidence. If a precise visible opacity/readability defect is named, repair the same lane with exact before/after evidence.
 
-1. Environment neutral/peak sapling scene motion;
-2. PR #7 nine-sample Weather receiving sequence.
-
-If either yields a precise visible defect, repair that same owning lane with retained before/after evidence.
-
-If both are visually accepted, the next VFX step should be a **materially different** grounded effect primitive — for example a real source-owned impact/trail/reactive cue only where a current weapon/object/mechanical candidate provides an explicit need — rather than adding more samples to Weather or generalizing prematurely.
+If PR #9 is perceptually accepted and no Weather-specific defect remains, prefer a **materially different grounded VFX primitive** only when a current source-owned object/weapon/environment candidate exposes a real need. Do not keep deepening Weather merely because the lane exists.
