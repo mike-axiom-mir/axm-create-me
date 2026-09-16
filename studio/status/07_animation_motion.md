@@ -1,181 +1,200 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-16
-State: **PASS_OBJECT_PHASE_BOUNDARY_TARGET_HOST_REVIEW_PACKET / MOTION UNCHANGED / PERCEPTUAL + C1 REPAIR HELD / CONTROLLER + GAMEPLAY HOLD**
+State: **PASS_ANIMAL_RIGHT_SELECTED003_41_SAMPLE_REBIND + GODOT DISCRETE PLAYBACK / NEWER GEOMETRY TOPOLOGY HELD / VISUAL + CONTROLLER + GAMEPLAY HOLD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current Animation status, fresh Art Direction / Visual QA / Geometry / Rigging status, and newest animation-ready PRs across the constellation before changing product code.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current specialist status and fresh animation-ready work across the design constellation before changing product code.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stayed in the owning Object repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Implementation/evidence stayed in `mike-axiom-mir/axm-animal-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous Animal bilateral-intent result remains historical truth and is not rewritten. Animal Organic now source-owns the mirrored RIGHT selected-003 elbow and Animal Geometry has an explicit RIGHT topology rebind lane, but current Rigging evidence still does not provide the required explicit RIGHT selected-003 deformation identity. Animation therefore did not infer RIGHT runtime/deformation acceptance or duplicate Geometry/Rigging work. Character animation also remains a poor next target while the current Character form chain still carries nonzero intersection defects.
+The previous Object phase-boundary target-host packet remains valid historical evidence. No Visual QA / Art Director finding has yet justified changing its timing/easing, so Animation did not manufacture an Object smoothing pass.
 
-The strongest ready Animation-owned boundary was instead Object PR #10. The prior derivative diagnosis had already measured concrete velocity discontinuities in the proven equipment-case lid/latch sequence and explicitly held any smoothing/retiming until direct perceptual review existed. Existing target-host interpolation evidence observed the full sequence but retained only five broad phase anchors, not exact pre/post views around the diagnosed joins.
+The fresh highest-leverage dependency was Animal. Rigging PR #12 now provides direct RIGHT selected-003 deformation evidence, exactly satisfying the prior Animation hold. Character remains unsuitable for a new motion pass while its current form chain still carries nonzero intersection defects.
 
-This activation therefore changes **no motion**. It adds the smallest reusable review method needed to expose those exact phase boundaries in the real target host before Animation edits timing or easing.
+A newer Animal Geometry PR #13 also exists, but it changes right triangle membership and explicitly requires a fresh Rigging rebind. Animation therefore consumed **only** the exact Rigging PR #12 / Geometry #11 right-surface identity and records Geometry #13 as known-but-not-consumed.
 
 ## Reused lane
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Draft PR: **#10 — Object lid/latch Animation lane**
+Draft PR: **#5 — Animation: prove first bounded quadruped articulation loop**
 
-Branch: `studio/animation-object-lid-open-close-001`
+Branch: `studio/animation-quadruped-articulation-loop-001`
 
 Exact current Animation head:
 
-**`ccf9b928581ab097951d0e1ec71866bff0381cac`**
+**`c95f0124e0ae0aeaedee1c568028f65be4b2af62`**
 
-The exact-head PR remains open/draft. Repository metadata is evidence metadata only, not merge/CANON authority.
+PR remains open/draft/mergeable. Repository metadata is evidence metadata only, not merge/CANON authority.
 
-## Preserved motion/source identity
+## Exact consumed identity
 
-Sequence: `lid-latch-open-hold-close-001`
+Animation consumed the existing right deformation implementation instead of copying a second solver:
 
-Sequence digest:
+- Organic bilateral source head: `4df3024b4c459675422565501a46f622acf229a9`;
+- Geometry bilateral topology head consumed by Rigging PR #12: `f89af95d621c36da3994c6660552da8bbc73fd1b`;
+- exact bilateral Rigging donor head: `94bc573e2e06ba7a35c9908c141e2f939d4739a8`;
+- historical rig-plan/profile donor: `04760112deb81a8d145226fe7ee02923107c9916`;
+- rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
+- left selected-003 successor digest: `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`;
+- right selected-003 successor digest: `262f536e0e522fd3e102cb16464c3757985fbb1dfcb3001df3b1f27b623b0115`;
+- clip digest: `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
+- Animation weighting: `smoothstep-v0`.
 
-`0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`
+Known newer Geometry successor held by Animation:
 
-Existing derivative-diagnosis head:
+`bdbb51303bd1b96866b06a71730ccc328bf4f2f6` (Geometry PR #13).
 
-`7e9c7e6f3a3d8c7743cec0c0756e206b5d0d5339`
+It is **not consumed** by this PASS because its changed right triangle membership requires a new Rigging rebind first.
 
-The new workflow proves that diagnosis head is an ancestor of the exact receiving head and fails if any of these motion-affecting identities changed between the two:
+## Bounded Animation improvement
 
-- `assets/modular-equipment-case-001/source.json`;
-- `assets/modular-equipment-case-001/lid-motion-clip.json`;
-- `assets/modular-equipment-case-001/lid-latch-motion-sequence-001.json`;
-- `assets/modular-equipment-case-001/source-authority-motion-rebind-002.json`;
-- committed `animation-proof/observe_interpolation_v3.gd`.
+Added on existing Animal Animation PR #5:
 
-No retime, easing change, new key, retarget, source rewrite, rig rewrite or committed observer rewrite was made.
+- `tools/build_bilateral_right_animation_godot_evidence.py`;
+- `.github/workflows/animation-bilateral-right-godot-playback-evidence.yml`.
 
-Pinned downstream donors remain the identities already used by the established Object AnimationPlayer proof:
+New Animation gate:
 
-- Technical Art rigid-scene head: `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
-- UC head: `6dc465987e01362264f88b7cef4213609ae50763`;
-- lid Rigging head: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
-- latch Rigging head: `3b667ff5d30c46ec2fe7da7679518970f8610018`;
-- latch source-ownership head: `d3fa10a270faae7925811f44f03381fe5c5d0215`.
+**`PASS_BILATERAL_RIGHT_41_SAMPLE_MOTION_REBIND__NEWER_TOPOLOGY_HELD`**
 
-## Bounded reusable Animation-method improvement
+The tool consumes Rigging PR #12 exactly, samples both selected-003 front-elbow deforming surfaces at every authored Animation time, checks bilateral posed-vertex symmetry, retains right structural sample evidence, then emits the right surface into the already-existing generic Godot discrete-sample proof host.
 
-Added on existing Object Animation PR #10:
+No new rig, no second deformation solver, no retime, no new keys, no amplitude change, no curve change and no weighting change were authored.
 
-- `assets/modular-equipment-case-001/animation-phase-boundary-review-001.json`;
-- `.github/workflows/object-animation-phase-boundary-review.yml`.
+## Preserved motion identity
 
-New review-plan schema:
+Clip: `quadruped-articulation-loop-001`
 
-`axm.object-animation-phase-boundary-review-plan/v0.1`
+Truth label remains `STYLIZED_ARTICULATION_PULSE_NOT_GAIT_OR_LOCOMOTION`.
 
-New retained-evidence schema:
+Preserved authored motion:
 
-`axm.object-animation-phase-boundary-target-host-review/v0.1`
+- duration: `1.0 s`;
+- sample rate: `40 Hz`;
+- endpoint-inclusive authored samples: `41`;
+- visible cycle samples: `40`;
+- curve: raised cosine neutral -> peak -> neutral;
+- front elbows: `0 -> +18° -> 0`;
+- hind knees remain authored at `0 -> +14° -> 0`;
+- weighting: `smoothstep-v0`;
+- retimed: `false`;
+- new keys: `false`;
+- weighting changed: `false`.
 
-Scoped result:
+## Structural result on the exact RIGHT deforming surface
 
-**`PASS_PHASE_BOUNDARY_TARGET_HOST_REVIEW_PACKET_MOTION_UNCHANGED`**
+Across all 41 authored right-elbow sample times:
 
-The method reuses the existing real Godot AnimationPlayer observer. In the workflow working copy only, it expands retained captures from the previous five phase anchors to fifteen exact intervals while still observing all 100 sequence half-steps. The committed observer itself remains unchanged, so evidence selection does not silently become a new playback implementation.
+- exact right neutral start/return: **true**;
+- peak: sample `20`, `0.5 s`, `+18°`;
+- maximum right collapsed triangles: **`0`**;
+- maximum sampled right nonadjacent self-intersection pairs: **`0`**;
+- maximum left/right posed-vertex mirror residual across Y=0: **`0.0 m`**.
 
-Five exact review boundaries are now retained as pre/post target-host frame pairs:
+This closes the previous Animation hold for direct RIGHT selected-003 surface exercise on the exact Rigging PR #12 topology identity.
 
-1. latch release -> lid open: intervals `9 / 10`, around authored boundary `0.25 s`;
-2. lid open -> hold: `39 / 40`, around `1.0 s`;
-3. hold -> lid close: `59 / 60`, around `1.5 s`;
-4. lid close -> latch re-engage: `89 / 90`, around `2.25 s`;
-5. repeat seam: `99 / 0`, around `2.5 -> 0.0 s`.
-
-The previous five broad review anchors (`4, 20, 49, 70, 95`) are preserved, yielding fifteen retained captures total.
-
-## Exact result
+## Target-host result
 
 Dedicated workflow:
 
-**`35147089195 — Object animation phase-boundary target-host review` — SUCCESS**
+**`35152839261 — Animation bilateral right Godot playback evidence` — SUCCESS**
 
-Exact head: `ccf9b928581ab097951d0e1ec71866bff0381cac`
+Exact head: `c95f0124e0ae0aeaedee1c568028f65be4b2af62`.
 
-Target host: **Godot 4.7.2 GL Compatibility**.
+The workflow also passed:
 
-Exact retained findings:
+- full inherited Animal tests;
+- Python 3.11 path;
+- Python 3.13 compatibility path;
+- negative control for wrong Rigging donor identity;
+- negative control rejecting silent `ease-out-power-0p75-v1` adoption;
+- pinned Godot 4.7.2 GL Compatibility target-host exercise.
 
-- unchanged duration: `2.5 s`;
-- unchanged authored/sample rate: `40 Hz`;
-- unchanged endpoint-inclusive samples / AnimationPlayer keys: `101` per animated track;
-- half-step target-host observations: **`100`**;
-- retained direct target-host captures: **`15`**;
-- critical phase-boundary pairs: **`5`**;
-- AnimationPlayer update mode: `CONTINUOUS`;
-- interpolation: `LINEAR`;
-- existing target-host state remains `PASS_TARGET_HOST_LINEAR_INTERPOLATION_SUBSAMPLE_FIDELITY`;
-- motion changed: `false`;
-- retimed: `false`;
-- retargeted: `false`;
-- key count changed: `false`.
+Godot result:
 
-The prior derivative diagnosis also reran successfully on this same exact head, as did the existing exact target-host AnimationPlayer, interpolation-v3, source-authority motion-rebind and structural checks visible on the head.
+- state: `PASS_GODOT_DISCRETE_SAMPLE_PLAYBACK_PROOF_HOST`;
+- right topology: `42` vertices / `80` triangles / `240` indices;
+- two complete 40-sample cycles + final neutral wrap: **`81` applications**;
+- unique authored surface digests exercised: **`21`**;
+- sequence order: exact PASS;
+- maximum vertex payload/readback error: **`0.0 m`**;
+- real-time frame pacing claimed: **false**;
+- interpolation claimed by this proof: **false**.
 
-## Direct retained-frame audit
+Retained target-host pixel observations:
 
-Downloaded retained artifact and independently inspected the exact five boundary pairs.
+- neutral -> peak: `2439 / 120000` sampled pixels changed = **`2.0325%`**;
+- last visible -> wrap: `18 / 120000` = `0.015%`;
+- neutral -> wrapped neutral: **`0 / 120000`**, exact visual roundtrip under this observer.
 
-Artifact:
+Direct inspection of retained neutral and peak frames confirms a visible surface-shape change in the expected bend direction. This is only a sanity check that the selected RIGHT surface reached the renderer and changed; **visual quality is not accepted** by Animation from these stills.
 
-- artifact ID: **`10466678688`**;
-- name: `object-animation-phase-boundary-review-ccf9b928581ab097951d0e1ec71866bff0381cac`;
-- GitHub size: **`402,590 bytes`**;
-- GitHub SHA-256: **`23562364ba2641c66b563d7b941b794069469a0b64cdcdbb7076c58afddadf7f`**;
-- downloaded archive independently rehashed to the exact same digest.
+## Retained artifact
 
-The retained PNG identities expose useful symmetry without pretending still frames prove temporal quality:
+Artifact ID: **`10469618126`**
 
-- repeat-seam pre/post (`99 / 0`) are byte-identical and pixel-identical: **`0 / 508,400` pixels changed**;
-- release -> lid (`9 / 10`) and close -> latch (`89 / 90`) use the same two frame identities in reverse order;
-- open -> hold (`39 / 40`) and hold -> close (`59 / 60`) also use the same two frame identities in reverse order;
-- the hold-adjacent capture at interval `40` is identical to the retained middle-hold frame at `49`, and interval `59` remains the same stationary hold image.
+Name: `quadruped-bilateral-right-animation-godot-c95f0124e0ae0aeaedee1c568028f65be4b2af62`
 
-This supports exact positional closure and the intended open/close phase symmetry of the current sequence. It **does not** erase the derivative result: the existing latch repeat seam is position-perfect while still carrying the previously measured approximately `112°/s` C1 velocity reversal. Pixel-identical seam stills therefore prove pose closure, not smooth velocity.
+GitHub size: **`59,101 bytes`**
 
-Direct visual inspection of the retained five pre/post pairs found the intended lid/latch phase ordering and no obvious pose pop in these stills, but still-image inspection cannot accept perceptual smoothness of the moving join. The correct next judge remains Visual QA / Art Direction on the exact sequence windows.
+GitHub SHA-256:
 
-Object Animation PR #10 received evidence/handoff comment **`5704115221`**.
+**`1748ba03f40288ffc618f87f6e6025251e2db6d6064f0ac3941a07464a115070`**
+
+Downloaded archive was independently rehashed to the exact same digest.
+
+Retained payload SHA-256:
+
+`309ff7eb9bbdf8073f00277186ff237428ae20aacf8107e8b0c4ca64395c9a0c`.
+
+## Coordination returns
+
+- Animation PR #5 evidence/handoff comment: `5704838794`.
+- Rigging PR #12 downstream return comment: `5704841289`.
+- Geometry PR #13 explicit non-adoption/dependency comment: `5704842976`.
+
+The Geometry #13 note is important: current Animation evidence is neither approval nor rejection of its exact-mirror topology successor. It is a clean pre-successor baseline. Animation will not consume #13 until Rigging explicitly rebinds that changed triangle membership.
 
 ## Truth boundary / explicit non-claims
 
 This activation establishes only:
 
-> the unchanged current Object lid/latch sequence can now be reviewed at each derivative-relevant phase boundary using direct retained Godot target-host evidence while preserving exact source, rig, clip, sequence and interpolation identities.
+> the unchanged current bilateral Animal articulation clip can be applied directly to the exact RIGHT selected-003 deforming surface proven by Rigging PR #12, stays structurally green at all 41 authored sample times, preserves exact mirrored posed vertices against the left side, and can be stepped deterministically through pinned Godot 4.7.2 with exact payload readback and neutral wrap closure.
 
 It does **not** establish:
 
-- that the measured C1 velocity discontinuities are visually bad;
-- that they are visually acceptable;
-- a C1/C2 repair, spline, easing or retiming solution;
-- real wall-clock 40 Hz pacing;
-- runtime-controller or state-machine behavior;
-- input, collision, physics or gameplay acceptance;
-- final perceptual / Art Director motion acceptance;
+- Animation acceptance for Geometry PR #13 or later topology successors;
+- continuous between-sample interpolation;
+- C1/C2 smoothness or perceptual cadence quality;
+- real wall-clock `40 Hz` pacing;
+- exported skeleton / skin / animation-clip transport;
+- runtime controller or state-machine behavior;
+- collision, physics, input or gameplay acceptance;
+- biological gait, locomotion, foot planting, balance or root motion;
+- final deformation, timing, weight, personality or Art Director acceptance;
+- acceptance of `ease-out-power-0p75-v1`;
 - target-device performance;
 - CANON, production/game readiness or Animation mastery.
 
 ## Handoffs
 
-- **Visual Observer / QA + 3D Art Director:** review the exact five phase-boundary windows, especially the repeat seam and release/re-engage handoffs. If one specific visible hitch is confirmed, identify that exact boundary before Animation changes one timing/easing variable.
-- **Animation:** hold the current Object motion until such a perceptual defect is evidenced. Do not smooth merely because a derivative discontinuity exists mathematically.
-- **Animal Geometry / Rigging:** RIGHT selected-003 source propagation has advanced into Geometry, but direct RIGHT Animation playback remains held until exact RIGHT Rigging/deformation identity is available.
-- **Technical Art / Runtime:** this proof exercises target-host AnimationPlayer interpolation and retained frames only; it does not claim a game controller, scheduler or target-device pacing budget.
-- **UC / Profession Fabric:** no Object-specific phase boundary is promoted into generic authority. The reusable learning here is evidence selection around semantic motion boundaries, not a new engine/controller primitive.
+- **Rigging / Deformation:** if Geometry PR #13 advances, explicitly rebind/rerun the exact right topology successor before Animation consumes it. Do not transfer this PR #12 PASS across changed triangle membership.
+- **Animation:** hold motion variables unchanged. The next Animal structural move is only justified after that exact Rigging rebind; the next motion-style move is only justified by a specific Visual QA / Art Director finding.
+- **Visual Observer / QA + Art Director:** the exact RIGHT selected-003 surface now has direct target-host playback evidence. Review cadence, silhouette, pinching, weight and personality without inferring interpolation or gameplay.
+- **Object Animation:** prior phase-boundary packet remains held awaiting a specific perceptual finding; no duplicate Object lane was opened.
+- **Technical Art / Runtime:** this is deterministic sample application/readback in Godot, not a runtime controller, scheduler or target-device performance certificate.
+- **UC / Profession Fabric:** no Animal-specific deformation or clip semantics are promoted to generic authority from this single-source proof.
 
 ## Four-root gate
 
-- **Truth:** derivative discontinuity, exact pose closure, target-host frame evidence and perceptual acceptance remain separate claims.
-- **Agency / non-domination:** Animation does not force Visual QA to accept/reject a join from mathematical diagnostics alone, and does not overwrite Rigging/source authority.
-- **Continuity:** existing PR #10, motion sequence, source identities and prior target-host observer remain intact; the new method only expands retained evidence around exact boundaries.
-- **Wisdom before speed:** no smoothing/retiming was authored before direct review evidence existed.
+- **Truth:** exact Rigging/topology identity, authored motion, target-host sample application, visual quality and runtime-controller acceptance remain separate claims.
+- **Agency / non-domination:** Animation consumes Rigging evidence without overriding Rigging/Geometry ownership and does not force acceptance of the newer topology or refined weighting.
+- **Continuity:** existing Animal Animation PR #5, clip digest, weighting, source lineage and generic Godot observer are preserved; this activation adds the missing right-side binding instead of rebuilding the lane.
+- **Wisdom before speed:** Geometry #13 is intentionally held until its required Rigging rebind exists; no silent successor adoption and no speculative retime/smoothing were introduced.
 
 ## Next Animation pass
 
-Re-scan first. If Visual QA / Art Direction identifies one specific visible Object boundary defect, change one motion/interpolation variable against this exact retained baseline and rerun the same boundary packet. If exact RIGHT Animal Rigging/deformation adoption arrives first, consume that identity and extend the unchanged bilateral Animal clip to direct RIGHT surface + target-host playback. If neither arrives, hold rather than manufacture another animation change.
+Re-scan first. If Rigging explicitly rebinds Geometry PR #13's exact-mirror right topology, rerun the unchanged 41-sample clip + Godot evidence on that exact successor and compare against this retained baseline. If Visual QA / Art Direction identifies a specific visible Animal or Object motion defect first, change one Animation-owned variable against the appropriate exact retained baseline. Otherwise hold rather than manufacture another motion change.
