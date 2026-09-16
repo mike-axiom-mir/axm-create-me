@@ -1,26 +1,44 @@
 # 02 — Geometry & Topology Specialist Status
 
-Date: 2026-09-16
-State: **PASS_ANIMAL_BILATERAL_EXACT_MIRROR_SURFACE_TOPOLOGY_REPAIR / RIGGING REBIND + VISUAL SHADING + ANIMATION + RUNTIME HELD**
+Date: 2026-09-17
+State: **PASS_ANIMAL_BILATERAL_LOGICAL_QUAD_NORMAL_FIELD_CANDIDATE / DIAGONAL-INVARIANT + EXACT-MIRROR NORMALS PASS / TANGENTS + MATERIALS-VISUAL-QA + DEFORMED-NORMAL + ANIMATION + RUNTIME HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/02_geometry_topology.md`, then re-scanned the current design constellation and specialist status before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, current specialist status, the newest specialist evidence, and the active design constellation before changing product evidence.
 
-`axm-create-me` remains **coordination only**. All implementation/evidence changes live in the owning design repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation stays in `mike-axiom-mir/axm-animal-design`; this file records exact scope, evidence, limitations and handoffs only.
 
-The immediately previous Geometry status remains preserved at Git blob `90b4acd2d610e979c47a1d2b58385765ce7316d9`. Its bilateral source-successor topology rebind remains exact historical truth and is a prerequisite to this successor; this activation does not rewrite or silently strengthen that earlier PASS.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+
+The previous Geometry result remains exact historical truth: Animal Geometry PR #13 at `bdbb51303bd1b96866b06a71730ccc328bf4f2f6` restores exact bilateral triangle correspondence without moving source positions. This activation does not rewrite that topology PASS.
 
 ## Fresh constellation / duplication scan
 
-- **Animal:** the newest Rigging PR #12 at exact head `94bc573e2e06ba7a35c9908c141e2f939d4739a8` explicitly returned one Geometry-owned hold. Both current source-successor sides deform cleanly across the exact dense `-60..+60°` sampled envelope and corresponding posed vertices remain exact `Y=0` mirrors, yet triangulated deformation extrema do not mirror exactly: maximum structural-metric residual `0.03453888088415491` under `smoothstep-v0` and `0.05310184507035559` under `ease-out-power-0p75-v1`. Rigging explicitly held that mismatch for Geometry rather than hiding it.
-- **Character:** Geometry PR #11 remains an important `1320 -> 1020` sampled shoulder-intersection reduction and Rigging PR #12 has explicitly rebound that topology. Every tested Character shoulder pose still contains nonzero intersections, but no new downstream dependency or fresh diagnostic outranked the exact Animal surface-correspondence hold this activation.
-- **Building / Nature:** prior Geometry repairs have current source/downstream owners and no fresher unowned structural dependency outranked Animal.
-- **Object / Map / Weather:** current strongest changes are Hard Surface, Environment, VFX, Materials, Runtime and Visual-QA owned rather than an unclaimed Geometry source defect.
-- **Weapon / Armor / Unit / Misc:** no newer implementation-ready Geometry handoff outranked the exact Animal hold.
-- **Universal Creation / Profession Fabric:** no capability-placement move was justified. The pinned UC topology observer remains a generic donor only; Animal bilateral mapping and acceptance semantics stay Animal-local.
+The strongest fresh Geometry-owned dependency was the **Animal normal-field boundary created by the exact-mirror topology successor**, not another Character/Building/Nature topology pass.
 
-No duplicate Geometry, Rigging, Organic Form, Animation, Runtime or Visual-QA lane was opened.
+- **Animal Geometry PR #13** remains structurally green: 42 positions / 80 triangles, exact left/right reflected face correspondence, no local topology defect, and exact discrete Rigging surface-metric mirror closure under the reused measurement donor.
+- **Animal Rigging PR #15** has now explicitly rebound PR #13 and passes 484 direct structural pose observations with exact `0.0` bilateral posed-vertex and retained surface-metric residuals. That closes the previous Rigging hold; Geometry did not duplicate Rigging.
+- **Animal Materials PR #14** supplies the fresh blocker. In Godot 4.7.2 GL Compatibility it holds positions, budget, neutral material, lights and cameras fixed and shows that changing only the longitudinal triangle connectivity is not generated-smooth-normal visually neutral.
+- **Visual Observer / QA** independently reproduces that result: exact silhouette / face-split noncorruption passes, but area-weighted generated vertex-smooth shading changes over more than 82% of retained foreground in both cameras. Final visual adoption is explicitly blocked pending a deliberate normal/tangent policy and Art Direction. QA requests no rollback of Geometry #13.
+- **Technical Art PR #3** can transport Geometry #13 through current UC but explicitly labels its computed averaged normals transport-only and holds final normal/tangent visual acceptance.
+- **Capability Cartography** now records generated normals as a derived dependency of changed triangle connectivity and authored normals/tangents as `NOT_EVALUATED`; it explicitly requires fresh evidence before replacing the generated-normal HOLD.
+- **Character** remains structurally blocked by nonzero sampled shoulder intersections after the current topology-only reductions; no newer downstream Geometry request outranked the exact Animal normal dependency.
+- **Building / Nature / Object / Map / Weather** have active owner lanes with current geometry/source decisions already bounded; no fresher unowned Geometry defect outranked Animal.
+- **Weapon / Armor / Unit / Misc** expose no stronger implementation-ready Geometry dependency.
+
+No duplicate Materials, Visual-QA, Rigging, Animation, Runtime or Technical-Art lane was opened.
+
+## Donor / shared-capability check
+
+Current Universal Creation was inspected before implementation. UC already carries surface/mesh production machinery and consumes normals when they exist, but no exact generic capability was found that derives a topology-independent smooth normal field from this Animal ring/quad source contract. Current Cartography also explicitly holds shared normal/tangent promotion pending materially different repeated domains.
+
+Therefore:
+
+- no UC code changed;
+- no Profession Fabric implementation changed;
+- no Animal source semantics were promoted into a shared repository;
+- the candidate stays **Animal-local** until repeated cross-domain evidence justifies another placement decision.
 
 ## Selected bounded improvement
 
@@ -30,245 +48,257 @@ Repository:
 
 New stacked draft PR:
 
-**#13 — `Geometry: restore exact bilateral surface correspondence`**
+**#16 — `Geometry: add diagonal-invariant bilateral normal-field candidate`**
 
 Branch:
 
-`studio/geometry-bilateral-exact-mirror-surface-topology-001`
+`studio/geometry-bilateral-logical-quad-normals-001`
 
 Exact base:
 
-Rigging PR #12 head:
+Materials PR #14 head:
 
-`94bc573e2e06ba7a35c9908c141e2f939d4739a8`
+`96e998e5c793057836e01656aca9f71481439c9b`
 
-Exact current Geometry head:
+Exact topology donor:
 
-**`bdbb51303bd1b96866b06a71730ccc328bf4f2f6`**
-
-Observed PR state after evidence completion: **OPEN / DRAFT / MERGEABLE**. Repository state and green CI are evidence metadata only; they do not grant CANON or merge authority.
-
-## Diagnosis
-
-The preceding Geometry rebind correctly proved that left and right successors each preserve their own local connected topology. It also recorded the same connectivity signature on both sides. That was the right local receiving-domain gate, but it did not prove that the **right face membership is the exact geometric reflection of left face membership**.
-
-The Organic bilateral source contract mirrors ring vertices through:
-
-`[0, 9, 8, 7, 6, 5, 4, 3, 2, 1]`
-
-under plane `Y=0`.
-
-That ring-order reversal matters. Both side-local connected builders used the same local triangle index pattern. Exact mirrored vertex positions plus the same local index pattern therefore do **not** imply exact cross-side triangle correspondence after reflection.
-
-Rigging PR #12 exposed the consequence cleanly: corresponding posed vertices were exact mirrors with `0.0 m` residual, while triangle-derived area/edge extrema differed.
-
-The Geometry repair therefore targets face correspondence only. It does not reshape the source and does not change the rig.
-
-## Bounded topology successor
-
-New Animal-local contract:
-
-`axm.animal-bilateral-mirror-surface-topology/v0.1`
-
-Candidate:
-
-`front-right-connected-chain-elbow-source-successor-003-mirror-surface-topology-001`
-
-Derivation:
-
-1. consume the exact current left/right source successors from the previous Geometry rebind;
-2. preserve all right source-owned positions exactly;
-3. map every left triangle through the exact Organic left->right vertex correspondence;
-4. reverse each mapped triangle winding once because reflection across `Y=0` changes handedness;
-5. retain that result as a separate rollbackable **Geometry topology successor**, not an Organic source rewrite.
-
-Exact preserved properties:
-
-- right source-owned positions: **42 / 42 unchanged**;
-- path points: unchanged;
-- nominal radii: unchanged;
-- segments: unchanged at **10**;
-- vertex count: unchanged at **42**;
-- triangle count: unchanged at **80**;
-- Organic source identities: unchanged;
-- rig plan and weighting profiles: unchanged.
-
-Exact connectivity delta relative to the historical right source mesh:
-
-- longitudinal quads: **30**;
-- unchanged unoriented triangle vertex-sets: **20**;
-- replaced unoriented triangle vertex-sets: **60**;
-- practical interpretation: the diagonal changes on all **30 longitudinal quads** while the cap triangle vertex-sets remain.
-
-The candidate then has **80 / 80 exact orientation-correct mirrored triangle records** against the left surface.
-
-## Before / after evidence
-
-Scoped result:
-
-**`PASS_BILATERAL_EXACT_MIRROR_SURFACE_TOPOLOGY_REPAIR`**
-
-The exact Rigging PR #12 deformation probe was reused as a measurement donor; no second rig solver or new weighting rule was created.
-
-### `smoothstep-v0`
-
-Historical right topology:
-
-- maximum mirrored posed-vertex residual: **0.0 m**;
-- maximum structural-metric residual: **0.03453888088415491**;
-- combined exact mirror gate: `FAIL_DENSE_BILATERAL_MIRROR_DEFORMATION_EQUIVALENCE`.
-
-Geometry successor:
-
-- maximum mirrored posed-vertex residual: **0.0 m**;
-- maximum structural-metric residual: **0.0**;
-- combined exact mirror gate: **`PASS_DENSE_BILATERAL_MIRROR_DEFORMATION_EQUIVALENCE`**.
-
-### `ease-out-power-0p75-v1`
-
-Historical right topology:
-
-- maximum mirrored posed-vertex residual: **0.0 m**;
-- maximum structural-metric residual: **0.05310184507035559**;
-- combined exact mirror gate: `FAIL_DENSE_BILATERAL_MIRROR_DEFORMATION_EQUIVALENCE`.
-
-Geometry successor:
-
-- maximum mirrored posed-vertex residual: **0.0 m**;
-- maximum structural-metric residual: **0.0**;
-- combined exact mirror gate: **`PASS_DENSE_BILATERAL_MIRROR_DEFORMATION_EQUIVALENCE`**.
-
-This closes the exact Geometry hold returned by Rigging without changing source positions, rig parameters or weights.
-
-## Structural validation
-
-Animal-local diagnostics on the exact topology successor:
-
-- disconnected indexed vertex fans: **0**;
-- isolated indexed vertices: **0**;
-- static nonadjacent self-intersection pairs: **0**.
-
-Pinned generic UC topology observer:
-
-- repository: `mike-axiom-mir/axm-universal-creation`;
-- commit: `b434a349cf159b392148b4dc9d68146573531a60`;
-- status: **`CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE`**;
-- source vertices: **42**;
-- triangles: **80**;
-- triangle components: **1**;
-- boundary edges: **0**;
-- non-manifold edges: **0**;
-- orientation-conflict edges: **0**;
-- collapsed triangles: **0**.
-
-Fail-closed winding control:
-
-- deliberate first-triangle winding flip -> `INVALID_EDGE_TOPOLOGY`;
-- orientation-conflict edges detected: **3**.
-
-The UC observer remains a bounded edge-incidence/orientation diagnostic. It is not a visual, deformation, collision or production-readiness certification.
-
-## CI / retained evidence
-
-Final dedicated workflow:
-
-**`35151006425 — Geometry bilateral mirror-surface topology evidence` — COMPLETED / SUCCESS**
-
-Exact tested head:
+Geometry PR #13 head:
 
 `bdbb51303bd1b96866b06a71730ccc328bf4f2f6`
 
-- Python 3.11: exact head/ancestry checks, pinned UC checkout, exact Rigging plan donor checkout, compile, full inherited Animal test suite, exact evidence build and retained artifact upload all PASS.
-- Python 3.13: exact provenance/compile/full inherited Animal test path PASS.
-- same-head inherited `Tests`, bilateral source-successor topology rebind, bilateral Rigging rebind, Organic bilateral source successor, connected topology, connected self-intersection, connected deformation and Organic relief workflows also completed SUCCESS.
+Exact current Geometry head:
+
+**`79e1667f6cc91e2ec8e41f01df18b6933c9c876d`**
+
+Observed PR state after evidence completion: **OPEN / DRAFT / MERGEABLE**.
+
+Repository metadata and green CI are evidence metadata only; they do not grant merge/CANON authority.
+
+## Why this is Geometry-owned
+
+Geometry PR #13 changes the diagonal on all 30 longitudinal quads while preserving every source position. Materials / QA prove that area-weighted triangle-generated vertex normals consume that changed connectivity and therefore change the rendered surface response.
+
+Normals are inside the Geometry specialist's owned domain. The smallest truthful next move is therefore **not** another material scalar, a topology rollback, a new source-form edit or a weighting change. It is one explicit rollbackable normal-field candidate whose derivation does not depend on which diagonal triangulates a logical longitudinal quad.
+
+## Bounded normal-field candidate
+
+New Animal-local schema:
+
+`axm.animal-bilateral-logical-quad-normal-field/v0.1`
+
+Normal-field identity:
+
+`quadruped-front-elbow-bilateral-logical-quad-smooth-normal-field-001`
+
+Derivation:
+
+1. consume the exact current Animal ring/path source layout;
+2. preserve all source positions and triangle indices unchanged;
+3. reconstruct each intended longitudinal four-corner ring quad as `a -> b -> d -> c`;
+4. derive one area-carrying Newell polygon normal per logical quad rather than using either diagonal's triangles;
+5. orient each logical-quad normal from the source radial/outward field rather than inferred triangle winding;
+6. retain the existing endpoint cap wedges and accumulate their source-position normals;
+7. normalize one explicit normal per source vertex;
+8. independently require the exact right field to equal the `Y=0` reflection of the left field under the source-owned ring correspondence.
+
+The candidate changes **normal data only as a proposed derived field**. It does not alter the source mesh or attach itself silently to the accepted topology.
+
+## Tangent / UV boundary
+
+Tangents are deliberately **not invented**.
+
+Exact policy:
+
+**`NOT_DEFINED_NO_UV_BASIS`**
+
+The current candidate has no authored UV basis from which a truthful tangent frame can be derived. Geometry therefore does not produce arbitrary tangents just to make the Visual-QA blocker look closed.
+
+This means tangent-space normal mapping / final textured-material readiness remains held even if the explicit smooth-normal candidate later passes visual review.
+
+## Exact structural result
+
+Scoped result:
+
+**`PASS_BILATERAL_LOGICAL_QUAD_NORMAL_FIELD_CANDIDATE__TANGENTS_HELD`**
+
+Exact surface identities remain:
+
+- left selected-003 candidate digest: `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`;
+- historical-right selected-003 digest: `262f536e0e522fd3e102cb16464c3757985fbb1dfcb3001df3b1f27b623b0115`;
+- exact-mirror right topology digest: `086ffe6f48af0cc3506871a4754b7395ba4c1fa3155eb4f420854a37e92181db`.
+
+### Diagonal invariance
+
+Historical-right and exact-mirror-right keep the same positions but different longitudinal triangle diagonals.
+
+The new logical-quad normal field produces:
+
+**maximum normal-vector residual = `0.0`**
+
+between those two right-surface representations.
+
+This is the intended bounded property: the normal derivation consumes the source logical quad/position field, not the selected longitudinal diagonal.
+
+The two normal-field evidence objects keep distinct provenance/digests because their source-candidate identities differ even though their explicit normal vectors are equal.
+
+### Bilateral mirror property
+
+Under the exact Organic left->right ring correspondence and reflection plane `Y=0`:
+
+**left -> exact-right maximum mirrored normal residual = `0.0`**.
+
+The field therefore preserves the exact bilateral purpose of Geometry PR #13 rather than solving diagonal sensitivity by reintroducing an asymmetric right-only normal table.
+
+### Unit/outward checks
+
+Each side retains exactly **42 normals** for **42 source vertices**.
+
+Measured on left and exact-right:
+
+- maximum unit-length error: **`5.770939282001564e-13`**;
+- minimum ring normal dot source-radial vector: **`0.06997258238073627`**;
+- all retained ring normals therefore pass the bounded outward-orientation gate.
+
+### Existing generated-normal mismatch retained as control
+
+The existing Materials-style area-weighted **triangle-generated** smooth normal fields remain connectivity-sensitive.
+
+Historical-right vs exact-mirror-right maximum normal-vector residual:
+
+**`0.16763392084937276`**.
+
+That nonzero control is important: the new PASS does not weaken the old evidence or pretend the original generated fields were equivalent. It proves that a different explicit derivation can remove diagonal dependence structurally.
+
+### Position-dependency negative control
+
+A deliberate mutation moves exact-right vertex `11` by:
+
+**`x +0.001 m`**.
+
+The logical-quad field changes by maximum normal residual:
+
+**`0.003762831393814507`**.
+
+Negative-control state:
+
+**`PASS_POSITION_FIELD_DEPENDENCY_DETECTED`**.
+
+This prevents a false "invariant" result caused by a frozen/constant normal table. The field is invariant to the scoped diagonal choice, not invariant to source geometry.
+
+## CI / retained evidence
+
+Dedicated workflow:
+
+**`35156425800 — Geometry bilateral logical-quad normal evidence` — COMPLETED / SUCCESS**
+
+Exact tested head:
+
+`79e1667f6cc91e2ec8e41f01df18b6933c9c876d`
+
+- Python 3.11: exact parent/topology provenance checks, exact historical Rigging donor checkout for inherited tests, compile, full inherited Animal suite, normal-field evidence build, negative control and artifact upload all PASS.
+- Python 3.13: exact provenance, compile and full inherited Animal test path PASS.
+- exact full inherited suite on the 3.11 lane: **49 tests / 49 PASS**.
+- all observed same-head pull-request workflows are green, including generic Tests, Materials #14, mirror-surface Geometry, bilateral source-successor Geometry/Rigging, connected topology/self-intersection/deformation and Organic source/relief evidence.
 
 Retained artifact:
 
-- ID: **`10469505236`**;
-- name: `animal-geometry-bilateral-mirror-surface-topology-001-evidence`;
-- size: **12,373 B**;
-- GitHub SHA-256: **`ee81edc157b554223963eff8f8e56cd83611ba9a10446958670bdb0a86f7aeb6`**;
+- ID: **`10471096658`**;
+- name: `animal-geometry-bilateral-logical-quad-normal-79e1667f6cc91e2ec8e41f01df18b6933c9c876d`;
+- size: **13,082 B**;
+- retained files: **11**;
+- GitHub SHA-256: **`d4f2e6cc7ee352a9e69172fb8066a266db338f03b7e9f896b44992ebec4fd444`**;
 - downloaded and independently rehashed in this activation: **same SHA-256**.
 
-The artifact retains the exact Geometry head, exact Rigging donor head, pinned UC donor head, machine-readable before/after receipt, exact right candidate and left/right OBJ specimens.
-
-## Preserved failed first run
-
-Initial exact-head workflow:
-
-`35150829712` — **FAILURE**.
-
-This failure was not a geometry defect and is intentionally retained as provenance. The new unit test omitted the repository's established `src` import-path bootstrap and therefore failed to import `axm_animal_design`. The repair added the same explicit `ROOT / "src"` path setup used by the existing Animal tests. No candidate position, triangle mapping, source identity, rig parameter or acceptance gate changed in that repair.
-
-The final exact head above reran the full inherited suite and dedicated evidence successfully.
+The packet retains exact-head/parent/topology provenance, machine-readable evidence, left/historical-right/exact-right normal fields, and historical/exact-right OBJ specimens with explicit `vn` records.
 
 ## Handoffs recorded
 
+### Geometry PR #16
+
+Evidence comment **`5705319032`** records exact head, structural metrics, 49-test CI, artifact identity/digest, negative control and non-claims.
+
+### Materials PR #14
+
+Comment **`5705320025`** returns the explicit normal-field candidate for a fresh target-host receiving comparison. Materials/Visual QA are not asked to inherit acceptance. The generated-normal HOLD remains current until the explicit field is actually rendered and reviewed.
+
 ### Geometry PR #13
 
-Evidence comment **`5704585894`** records exact final head, before/after metrics, topology delta, UC result, negative control, workflow, retained artifact/digest, first-run failure provenance and non-claims.
+Continuity comment **`5705321366`** records that PR #16 changes no source/topology bytes. PR #13's structural topology PASS remains intact and separate.
 
-### Rigging PR #12
+### Rigging PR #15
 
-Comment **`5704587937`** closes only the specific Geometry surface-correspondence hold. PR #12 remains exact historical deformation evidence for the **previous topology identity**. If PR #13 advances, Rigging must explicitly rebind/rerun; its PASS does not silently transfer because the triangle membership changed.
+Comment **`5705322227`** explicitly prevents static normal evidence from becoming a deformed-normal PASS. If this field advances after visual review, Rigging must re-observe the exact field under deformation.
 
-### Organic Form PR #8
+### Technical Art PR #3
 
-Comment **`5704590046`** records that no source-owned position, path, radius, segment count or source mirror contract was changed. No Organic source edit/adoption request is made. The new candidate is a downstream Geometry topology successor only.
+Comment **`5705323482`** records that current UC GLB computed normals remain historical transport-only evidence. PR #3 must not silently consume the new field. If the field later advances, Technical Art needs an exact receiving/transport proof bound to this normal-field identity.
 
-### Visual Observer / Art Direction
+### Art Direction / Visual Observer QA
 
-All source positions and silhouette are unchanged, but changing 30 longitudinal quad diagonals can change generated flat/split normals, tangent-space shading and the visible triangulation response on non-planar quads. Direct shaded Visual-QA review remains required before this successor is treated as visually non-regressive or preferred.
+The new candidate is structurally ready for review but **not visually accepted**. The next useful visual comparison is the exact retained explicit normal field against the existing historical/generated controls under the already-established target-host contexts. Geometry does not decide aesthetic preference.
 
-### Animation
+### Animation / Runtime
 
-No current Animation evidence is rebound to this topology. Bilateral motion/playback acceptance remains separate.
+No Animation or Runtime evidence is rebound to the normal field. Static normal derivation does not imply clip/interpolation, engine/controller, target-device cost or gameplay acceptance.
 
-### Technical Art / Runtime
+## Universal Creation / Profession Fabric boundary
 
-No skeleton/skin export, GLB successor transport, runtime/controller behavior, collision/gameplay or target-device performance evidence is created here.
+No shared implementation move was made.
+
+- UC remains a downstream surface/transport/production capability owner where appropriate, but this one Animal logical-quad derivation is not yet justified as a generic normal generator.
+- Profession Fabric may eventually describe the changed-field -> derived-normal dependency as process evidence, but it is not the implementation home for mesh normals.
+- Capability Cartography's current rule remains respected: unchanged positions/counts do not imply unchanged derived shading, and authored/generated normal evidence must remain separate.
 
 ## Truth boundary / explicit non-claims
 
-This activation proves only that one exact rollbackable right topology successor can preserve the current Organic positions and exact rig/weight inputs while restoring exact bilateral triangle correspondence and eliminating the previously measured discrete dense-sweep structural-metric mirror residuals.
+This activation proves only that one Animal-local explicit smooth-normal candidate can be derived from the current source position/logical-quad field such that:
+
+- the normal vectors do not change when only the historical/exact-mirror longitudinal quad diagonal choice changes;
+- the exact-right field mirrors the left field exactly under the source correspondence;
+- the normals are unit/outward under the bounded structural checks;
+- source-position drift changes the field and therefore fails the invariance control.
 
 It does **not** establish:
 
-- direct Rigging acceptance for the new topology identity;
-- mathematical continuous real-valued deformation safety between sampled angles;
-- adjacent/topological-neighbour fold-over/contact freedom;
-- anatomy, biology, muscle, skin sliding or volume preservation;
-- final visual shading, seam, silhouette or deformation quality;
-- authored/final normals, tangents, smoothing, UVs or textures;
-- Animation acceptance or exported motion;
-- skeleton/skin transport, engine/controller support or target-device performance;
-- collision or gameplay suitability;
+- target-host visual neutrality or visual preference for this explicit normal field;
+- Art Direction or Visual-QA acceptance;
+- authored UVs or tangents;
+- tangent-space normal-map correctness;
+- deformed-normal quality under Rigging PR #15;
+- mathematical continuous deformation safety;
+- anatomy, biology, skin sliding, muscle or volume-preservation quality;
+- final material/PBR/fur/subsurface quality;
+- Animation clip/interpolation/playback acceptance;
+- UC/GLB transport of the exact explicit normal field;
+- engine import/controller/runtime/target-device performance;
+- collision, physics or gameplay suitability;
 - CANON or merge authority;
 - production readiness, game readiness or Geometry mastery.
 
 ## Four-root gate
 
-- **Truth:** Rigging's raw mirror-metric failure was reproduced before the topology change and is retained as before-evidence; the successor is only called PASS for the exact scoped repair it directly closes.
-- **Agency / non-domination:** Organic Form keeps source authority, Rigging keeps deformation/weighting authority, Visual QA / Art Direction keep perceptual authority, Animation keeps motion authority, and Technical Art / Runtime keep transport/performance authority.
-- **Continuity:** PR #11, Rigging PR #12 and new Geometry PR #13 are distinct exact rollback/evidence points. Historical PASS/FAIL evidence is not relabelled after the successor exists.
-- **Wisdom before speed:** the smallest face-correspondence repair was tested before adding support loops, changing source shape, inventing new weights, or centralizing Animal-specific mirror semantics into UC.
+- **Truth:** the renderer-visible generated-normal failure remains exact historical/current evidence; the new candidate is only called PASS for structural diagonal invariance and bilateral correspondence, not for appearance.
+- **Agency / non-domination:** Geometry owns the normal candidate; Materials / Visual QA / Art Direction keep shading and preference authority; Rigging keeps deformed-normal/deformation authority; Technical Art keeps transport; Runtime keeps performance.
+- **Continuity:** Geometry #13, Materials #14, Rigging #15 and Geometry #16 remain distinct exact rollback/evidence points. The previous generated-normal failure is not relabelled after a new field exists.
+- **Wisdom before speed:** one explicit position/logical-quad normal policy was tested before inventing tangents without UVs, changing topology again, reshaping the Organic source or centralizing an Animal-specific rule into UC.
 
 ## Previous Geometry lanes retained
 
-- **Animal PR #11:** `f89af95d621c36da3994c6660552da8bbc73fd1b`, exact bilateral source-successor neutral topology rebind remains the prerequisite historical/current local-topology truth. PR #13 does not invalidate it; it adds a distinct cross-side face-correspondence successor.
-- **Character PR #11:** `b65d73e514c23670204915bde8ce935a3b417574`, exact `1320 -> 1020` dense-sweep stitch-edge reduction remains current historical Character truth; Rigging PR #12 has rebound it, while all sampled poses remain nonzero on the Geometry intersection observer.
-- **Animal PR #9:** `eb5ce99798b646b6ab9705c0c914b898173f7cc1`, exact left source-successor topology rebind remains valid historical truth.
-- **Character PR #9:** `fa69eea233a56dc7e09b22c62a9e37bfa97bc994`, exact `58 -> 52` one-quad-diagonal result remains historical truth with nonzero-intersection hold.
-- **Character PR #7:** `8cc4a180cd1481d680841190b0038b4b330133ae`, exact `374 -> 58` topology-only opening repair remains historical truth.
-- **Character PR #5:** sampled self-intersection diagnosis remains the historical blocker that exposed the connected-shoulder defect.
-- **Building PR #6:** `aaa987397c33f0dc9579a2ac3785ca00a5bc7402`, header/post interpenetration-removal evidence remains valid historical truth under its exact source identity.
-- **Animal PR #7:** `95b53572037ca3de98811db52beb4262a34b7d42`, bounded 4.5° ring-phase experiment remains separate from the selected-003 source-successor lineage.
-- **Nature:** cap-winding/source and explicit two-sided leaf topology lanes remain separately evidenced and downstream-held.
+- **Animal PR #13:** `bdbb51303bd1b96866b06a71730ccc328bf4f2f6`, exact bilateral reflected surface topology repair remains current structural prerequisite truth.
+- **Animal PR #11:** `f89af95d621c36da3994c6660552da8bbc73fd1b`, exact bilateral source-successor local topology rebind remains historical prerequisite truth.
+- **Character PR #11:** `b65d73e514c23670204915bde8ce935a3b417574`, `1320 -> 1020` dense-sweep shoulder intersection reduction remains current Character truth; all tested poses remain nonzero.
+- **Character PR #9:** `fa69eea233a56dc7e09b22c62a9e37bfa97bc994`, bounded one-quad diagonal search result remains historical truth.
+- **Character PR #7:** `8cc4a180cd1481d680841190b0038b4b330133ae`, `374 -> 58` opening repair remains historical truth.
+- **Character PR #5:** sampled shoulder self-intersection diagnosis remains the original structural blocker.
+- **Building PR #6:** `aaa987397c33f0dc9579a2ac3785ca00a5bc7402`, header/post positive-volume interpenetration repair remains historical truth under its exact source identity.
+- **Animal PR #7:** `95b53572037ca3de98811db52beb4262a34b7d42`, bounded 4.5° ring-phase experiment remains separate from the selected-003 successor chain.
+- **Nature:** corrected cap winding/source migration and explicit leaf-sidedness topology remain separate current/historical Geometry evidence with downstream owners.
 
 ## Next Geometry / Topology pass
 
-1. Re-scan the full constellation first; do not automatically continue Animal because this scoped surface-correspondence repair is green.
-2. Preserve PR #13 as a separate derived topology identity until Rigging explicitly rebinds/reruns it and Visual QA inspects the diagonal/shading tradeoff.
-3. Do not rewrite Organic source geometry to make the derived topology canonical by implication.
-4. Keep Character's remaining nonzero shoulder intersections visible; if they become the strongest blocker again, diagnose the exact residual pair ownership before opening another topology family.
-5. Preserve repository identity, provenance, rollback, explicit non-claims and the four AXM roots.
+1. Re-scan the full constellation first; do not automatically keep expanding Animal.
+2. Preserve PR #16 as a **candidate normal identity**, not an adopted surface property, until Materials / Visual QA / Art Direction render and review it.
+3. If the explicit field is visually accepted, require Rigging to re-observe deformed normals and Technical Art to prove exact normal transport before any dynamic/GLB claim transfers.
+4. Do not author tangents until a real UV/tangent basis exists; keep `NOT_DEFINED_NO_UV_BASIS` truthful.
+5. If Character becomes the strongest structural blocker again, return to its nonzero shoulder intersections only after identifying a new bounded residual-pair family rather than repeating exhausted local diagonal searches.
+6. Preserve repo identity, provenance, rollback, explicit non-claims and the four AXM roots.
