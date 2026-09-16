@@ -1,228 +1,194 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-16
-State: **PASS_SOURCE_OWNED_FRONT_LATCH_PIVOT_INTERFACE / EXACT OBJECT HEAD + RIGGING DONOR VERIFIED / HOST GEOMETRY UNCHANGED / BILATERAL 0..50 DEG KINEMATIC INTERFACE PROVEN / DOWNSTREAM REBIND REQUIRED / PHYSICAL HARDWARE + FULL COLLISION + VISUAL + RUNTIME HOLD / NO UC EXTRACTION**
+State: **PASS_BUILDING_PANEL_180_DEGREE_MECHANICAL_REVERSIBILITY_EVIDENCE / EXACT BUILDING PR #5 HEAD VERIFIED / SOURCE GEOMETRY UNCHANGED / OBJECT REGISTRATION KEY NOT COPIED / RECEIVER METADATA PRESERVED / NO UC EXTRACTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the previous Hard-Surface status, current specialist coordination state, open design-repository PRs, and the exact Object PR #17 evidence before changing any claim.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current specialist statuses, newest relevant design-repository PRs, and the current manufactured-design constellation before choosing a lane.
 
-`axm-create-me` remains **coordination only**. No product geometry or product logic was added to this repository in this activation. The only coordination-repository change is this status file.
-
-Pre-update `axm-create-me` main observed in this activation:
-
-`5aa43be6f826cf4e57995d695e358b28ee3eeae5`
-
-Previous Hard-Surface status blob preserved in Git history:
-
-`48cb21bc98d18e6ec8503c2e30ead01b14a61b59`
+`axm-create-me` remains **coordination only**. No product geometry, generator, runtime code or domain implementation was added here; this file is the only coordination-repository change from this activation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no current open manufactured-design PRs. No filler asset or speculative interface was invented.
-- **Character:** Organic PR #2 remains under a visual source-form gate. Hard Surface does not race that gate with armor or attachment assumptions.
-- **Animal:** active Geometry / Organic / Rigging / Animation work remains organic topology and deformation work, not a manufactured-interface lane.
-- **Building:** Hard-Surface PR #2 already owns the pavilion / utility-panel receiver pattern. Materials and Procedural work consume it without requesting a mechanical redesign. There is still no evidence that Building needs the Object latch or registration geometry copied into it.
-- **Nature / Weather / Map:** current work is topology, procedural, environment, weather/VFX and runtime composition; no stronger manufactured-mechanical requirement displaced the Object latch evidence gate.
-- **Object:** PR #17 was the previous Hard-Surface activation's single bounded source-mechanical improvement. Its exact CI was queued at that status update. Rigging and Animation have since explicitly identified PR #17 as the source-owned candidate that future latch work must consume by explicit provenance rebind rather than by numeric equivalence.
+- **Weapon:** no open manufactured-design PR and no sufficiently specific source brief to justify inventing a weapon interface.
+- **Armor:** no open manufactured-design PR; current Character source-form work remains the upstream fit dependency, so Hard Surface did not race it with speculative armor geometry.
+- **Unit:** no open manufactured-design PR and no stronger source-owned mechanical requirement than the Building gap selected below.
+- **Building:** Hard-Surface PR #2 already owns `service-pavilion-001` plus its separate `utility-access-panel-001` receiver pattern. Materials and Procedural lanes consume that exact source and do not own its mechanical semantics.
+- **Object:** Hard-Surface PR #17 has already moved the front-latch pivot interface into source authority, and Rigging PR #20 has now explicitly rebound to that source-owned identity with green evidence. Physical latch pin/hook/catch hardware remains unsupported by a new source requirement, so this activation did not extend that lane.
+- **Misc:** no open manufactured-design PR; no filler mechanism was invented.
+- **Character / Animal / Nature / Weather / Map:** current active gaps belong to organic form, deformation, foliage, weather/VFX, environment or composition lanes rather than Hard Surface.
 
-The highest-leverage Hard-Surface action in this activation was therefore **not another geometry expansion**. It was to close the exact evidence gate on the already-bounded source-owned front-latch pivot interface, inspect the retained result, and hand downstream specialists an exact source identity rather than leaving the status stale or inventing physical hardware without a new requirement.
+The highest-leverage bounded Hard-Surface action was therefore Building-local: test whether the exact current four-point utility-panel mount should remain mechanically reversible instead of importing Object's asymmetric registration-key solution by analogy.
 
-## Bounded mechanical improvement retained
+## Why Building was selected
+
+Building PR #2 proves that one source-owned `utility-access-panel-001` fits two materially different orthogonal receiver frames. Its exact current mount pattern is symmetric:
+
+- `[-0.50,-0.70] m`
+- `[+0.50,-0.70] m`
+- `[+0.50,+0.70] m`
+- `[-0.50,+0.70] m`
+
+The current panel source is still sparse proof geometry: a centered box with receiver-frame metadata defining outward/lateral/up orientation. It contains no source-owned hinge, control face, connector, physical key, latch, text face or other mechanical datum that requires one in-plane orientation.
+
+Object previously demonstrated a superficially similar but importantly different case: its symmetric mount needed a separate asymmetric registration datum because Object had a real source-owned orientation-disambiguation requirement. That evidence does **not** make symmetry itself a universal defect.
+
+The bounded question for Building became:
+
+> Does the exact current Building panel remain mechanically compatible after an in-plane 180° reversal at both exact existing receivers, while preserving source identity, original fit/clearance and the authoritative receiver metadata?
+
+## Bounded Hard-Surface improvement
 
 Repository:
 
-`mike-axiom-mir/axm-object-design`
+`mike-axiom-mir/axm-building-design`
 
-Draft PR:
+New draft PR:
 
-**#17 — `Hard Surface: source-own bounded front latch pivot interface`**
+**#5 — `Hard Surface: preserve utility-panel 180° mechanical reversibility`**
 
 Branch:
 
-`studio/hard-surface-front-latch-pivot-interface-001`
+`studio/hard-surface-panel-rotational-symmetry-002`
 
-Exact base:
+Exact base / source authority:
 
-- Hard-Surface PR #14 branch `studio/hard-surface-front-latch-ownership-001`;
-- base head `d3fa10a270faae7925811f44f03381fe5c5d0215`.
+- Hard-Surface PR #2 head: `4faa769b406bf3ad0ba9489a77141c27f122ce51`;
+- exact pavilion source SHA-256: `852038d2288ead9a0ee271e09f1a7f7207ec8fd74668e0c52e739e9a224f87d7`;
+- exact panel source SHA-256: `df59fa135abc89f8c85317db1d6b9ce3d03920efc91271de61bfb6289a24c253`.
 
-Exact tested PR #17 head:
+Exact current PR #5 head:
 
-`6086f39a3da344c57a68653f90d040e03e04cec2`
+`830225827d47f9a916ca6cd806b474915dcd8353`
 
-Observed PR state this activation:
+Observed PR state:
 
 **OPEN / DRAFT / MERGEABLE**.
 
-No merge/CANON authority is inferred from mergeability or CI.
+No merge or CANON authority is inferred from that state.
 
-## Exact source-owned contract
+The PR adds a Building-local evidence overlay, verifier, tests and retained workflow. It does **not** reshape the pavilion or panel, change the receiver frames, alter Materials/Procedural work, copy Object registration geometry, modify UC, or add a shared cross-domain mechanical schema.
 
-Object-local contract:
+Building-local evidence contract:
 
-`axm.object-front-latch-pivot-interface/v0.1`
+`axm.building-panel-rotational-symmetry/v0.1`
 
-Exact preserved identities:
+Preservation policy:
 
-- host asset: `modular-equipment-case-001`;
-- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- Hard-Surface ownership donor head: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
-- ownership contract SHA-256: `0702e4180f858d29c42ff8c38a61eaa16278d6848c8ce6f3ecfae172969ca8ae`;
-- exact Rigging observation donor head: `3b667ff5d30c46ec2fe7da7679518970f8610018`;
-- exact Rigging plan SHA-256: `81c27ab7b73ed9a43cb3f554b56c3f4294b893712075e33d13f5b02e008455db`;
-- exact pivot-interface contract SHA-256 observed in retained evidence: `bcbbe098371eb702bc9289a97370744093105925202eda6036bdced6e25e34d3`.
+`PRESERVE_CURRENT_MECHANICAL_REVERSIBILITY_UNTIL_BUILDING_SOURCE_DECLARES_A_PHYSICAL_ORIENTATION_REQUIREMENT`
 
-The source-owned candidate remains deliberately narrow:
+## Exact structural proof — PASS
 
-- joint axis: exact `+X`;
-- pivot rule: `source_x__panel_negative_y_face__lever_min_z`;
-- left pivot: `[-0.22,-0.258,0.2105] m`;
-- right pivot: `[+0.22,-0.258,0.2105] m`;
-- review envelope: exact `0..50°`;
-- minimum required terminal keeper-Z proof-volume separation: `0.001 m`;
-- keeper owner remains `lid_shell`;
-- lever owner remains `front_service_panel`;
-- host source geometry remains unchanged.
+Dedicated exact-head workflow:
 
-This is a source-owned **kinematic interface candidate**, not a source-authored physical pin/bore/hook/catch assembly.
+**`35094810530 — Building panel rotational-symmetry evidence` — SUCCESS**
 
-## Exact-head repository evidence — PASS
+Exact source head:
 
-Dedicated workflow:
+`830225827d47f9a916ca6cd806b474915dcd8353`
 
-**`35084370713 — Object front-latch pivot-interface evidence` — SUCCESS**
+Both Python 3.11 and 3.13 jobs completed successfully. The jobs compile the receiving tools/tests and run the complete repository test suite; Python 3.11 additionally builds and retains the exact evidence artifact.
 
-Exact head:
+The inherited Building Hard-Surface workflow also reran on the same exact head:
 
-`6086f39a3da344c57a68653f90d040e03e04cec2`
+**`35094810566 — Hard-surface building evidence` — SUCCESS**
 
-Matrix result:
+The verifier first re-executes the inherited PR #2 prerequisite `PASS_BUILDING_PANEL_RECEIVER_PATTERN_PROOF`, then rotates the exact panel mount points 180° in local lateral/up space and compares them as an unordered mechanical set rather than relying on source point ordering.
 
-- Python 3.11 structural job — **SUCCESS**;
-- Python 3.13 structural job — **SUCCESS**.
+Scoped exact observations:
 
-The Python 3.11 job:
+- source mount-pattern 180° residual: `0.0 m`;
+- front receiver 180° unordered mount-pattern residual: `0.0 m`;
+- east receiver 180° unordered mount-pattern residual: `0.0 m`;
+- current centered box proof-geometry 180° residual: `0.0 m`;
+- inherited body clearance remains `0.04 m` at both receivers;
+- inherited footprint margin remains approximately `0.10 m` per footprint axis at both receivers;
+- source geometry changed: `false`;
+- physical orientation key present: `false`;
+- receiver-frame metadata orientation preserved: `true`.
 
-1. checked out the exact PR head;
-2. compiled receiving tools/tests;
-3. ran the complete Object unit suite — **28 tests / PASS**;
-4. materialized exact Rigging donor `3b667ff5...`;
-5. rebuilt the exact pivot-interface evidence;
-6. uploaded retained evidence.
+Negative controls fail closed:
 
-The same exact head also retained successful inherited Object workflow families for:
+- a `0.001 m` asymmetric mount-point drift is rejected;
+- an unsupported claim that this exact source already has a physical orientation key is rejected;
+- declared source-identity drift is rejected.
 
-- hard-surface interface evidence;
-- bilateral service-module fit evidence;
-- service-module registration-key evidence;
-- service-module fastener-clearance evidence;
-- explicit front-latch ownership evidence.
+Scoped result:
 
-Scoped repository result:
+**`PASS_BUILDING_PANEL_180_DEGREE_MECHANICAL_REVERSIBILITY_EVIDENCE`**
 
-**`PASS_SOURCE_OWNED_FRONT_LATCH_PIVOT_INTERFACE`**
+## Retained artifact and provenance repair
 
-## Exact retained structural observations
+Current retained artifact:
 
-The retained receipt reports:
+- ID: **`10445822357`**;
+- name: `utility-panel-rotational-symmetry-001-evidence`;
+- uploaded size: **`2,743 bytes`**;
+- GitHub Actions ZIP SHA-256: **`c80b05a161063fd743de5d37d486db75351d70c1d36da41b4c4846b923a6f8c7`**.
 
-- `host_geometry_changed = false`;
-- station count: `2`;
-- joint axis: `[1,0,0]`;
-- maximum pivot-rule residual: `2.7755575615628914e-17 m`;
-- bilateral pivot residual: `0.0 m`;
-- exact continuous keeper-Z release threshold: `48.66480246428277°`;
-- exact terminal keeper-Z separation at `50°`: `0.0015728659779458698 m`;
-- bilateral release-threshold residual: `0.0°`;
-- bilateral terminal-separation residual: `0.0 m`;
-- closed keeper/lever overlap per side: X `0.055 m`, Y `0.011 m`, Z `0.027 m` at retained precision.
+The exact ZIP was downloaded and independently SHA-256 rehashed to the same digest. Its retained `exact-head.txt` records:
 
-These values reproduce the exact earlier Rigging PR #15 review candidate while moving the interface identity into the correct Object / Hard-Surface source domain. The earlier Rigging evidence remains historical evidence for its own exact derived identity; it is not silently rewritten.
+`830225827d47f9a916ca6cd806b474915dcd8353`
 
-## Retained artifact independently checked
+A provenance defect was found during the first retained pull-request artifact: plain `git rev-parse HEAD` inside the `pull_request` checkout captured GitHub's synthetic merge commit rather than the source branch head. That first artifact was not silently promoted. The workflow was repaired to retain `${{ github.event.pull_request.head.sha || github.sha }}` and the current artifact above binds the exact source head correctly.
 
-Artifact:
-
-- ID: **`10442001768`**;
-- name: `modular-equipment-case-001-front-latch-pivot-interface-evidence`;
-- uploaded size: **`7,825 bytes`**;
-- GitHub Actions ZIP SHA-256: **`eec59365eac7f5d4bb9c2085905aa672097dcf7adf6a0c273febab1cacff7c3c`**.
-
-The artifact was downloaded in this activation and independently SHA-256 rehashed to the exact same digest.
-
-Its eight retained files include:
-
-- `exact-head.txt`;
-- exact host source;
-- exact Hard-Surface ownership contract;
-- exact pivot-interface contract;
-- exact Rigging observation donor plan/head;
-- structural evidence receipt;
-- deterministic Y/Z proof SVG.
-
-The retained receipt was parsed directly and confirms exact head/source/donor identities plus the structural measurements above.
+This repair is part of the evidence, not hidden cleanup.
 
 ## Reusable mechanical learning / placement
 
-The reusable discovery remains bounded and now has exact repository evidence:
+The cross-domain learning is deliberately bounded:
 
-> When a downstream rig and motion lane repeatedly consume one manufactured articulation interface derived from stable source construction, Hard Surface can source-own the exact **interface identity** without inventing new physical hardware. Downstream lanes must then rebind explicitly to that source identity rather than inheriting old evidence because the numbers happen to match.
+> **Mount-pattern symmetry is a source-semantic property, not automatically a defect.** If a manufactured source needs one physical orientation, the owning source should declare and prove an asymmetric key/datum. If the source has no such requirement, preserve reversible geometry rather than importing asymmetry from another domain by analogy.
 
-Placement remains:
+Therefore:
 
-- Object owns Object latch/mechanical meaning;
-- Rigging owns articulation/deformation acceptance;
-- Animation owns motion timing/representation;
-- Technical Art owns transport/receiver evidence;
-- Runtime owns controller/performance/resource behavior;
-- Art Direction and Visual QA own perceptual acceptance;
-- UC remains domain-neutral transport and does **not** learn an Object latch ontology from this one family.
+- Object keeps its asymmetric registration datum because Object evidenced a real orientation-disambiguation need;
+- Building keeps the exact current reversible panel pattern because this source does not yet evidence a physical one-orientation requirement;
+- receiver metadata still defines semantic outward/lateral/up orientation and is not erased by mechanical reversibility;
+- no UC extraction is justified from two contrasting domain cases;
+- no Profession Fabric promotion is justified from this evidence alone.
 
-A second materially different manufactured articulation family is still required before any broader capability-placement proposal is justified.
+The right reusable behavior is **source-semantic interpretation before mechanical normalization**, not a universal keyed-mount schema.
 
-## Downstream dependency state
+## Handoffs
 
-- **Rigging PR #15:** remains valid historical evidence against exact derived pivot identity `3b667ff5...`. A later latch-specific Rigging pass should consume PR #17 explicitly and rerun rather than relabelling PR #15.
-- **Animation PR #10:** current target-host 101-sample proof remains bound to the earlier Hard-Surface #14 + Rigging #15 provenance. Animation has already recorded that equivalent pivot numbers are not equivalent provenance. If PR #17 becomes the accepted source dependency, Animation must explicitly rebind/rebuild.
-- **Rigging PR #18 / Technical Art PR #19:** current target-lid hierarchy work is independently scoped to the lid and is not a latch rebind. PR #17 should not be silently folded into it.
-- **Runtime PR #13:** current latch/lid resource-reuse evidence remains bound to its exact older donor chain. No runtime/controller acceptance transfers from this Hard-Surface PASS.
-- **Materials PR #6:** owner-follow lookdev evidence remains separate. No material or geometry change is requested by the pivot-interface PASS alone.
-- **Building PR #2:** do not copy Object latch semantics into the pavilion receiver. Its separate panel interface remains the correct Building-owned pattern.
+- **Building Materials / Procedural:** no source geometry change is requested. Continue consuming PR #2 source authority; PR #5 is an evidence/preservation layer, not a replacement asset family.
+- **Art Direction / Visual QA:** no visual geometry delta exists to approve in this pass. If later controls, labels, hinges, connectors or asymmetrical detail make orientation physically meaningful, the reversible claim must be invalidated or rerun against that new exact source.
+- **Capability Cartography:** the Object-vs-Building contrast is useful evidence for placement reasoning, but does not yet support a shared UC capability or cross-domain schema.
+- **Future Hard Surface:** do not add a Building key merely for consistency with Object. Only a Building-owned source requirement may justify that change.
+
+Exact PASS/non-claims were also returned to Building PR #5 as coordination comment `5697282629`.
 
 ## Truth boundary / non-claims
 
 This PASS establishes only:
 
-> the exact existing Object latch components have a source-owned bilateral +X pivot-interface candidate whose origins are reproducibly derived from unchanged source geometry, preserve the exact closed proof-volume relation, match the exact previously reviewed Rigging donor, and reach at least 1 mm keeper-Z proof-volume separation by the exact 50° review endpoint.
+> the exact current four-point Building utility-panel mount pattern and current centered box proof geometry support an in-plane 180° mechanical reversal at both exact existing receiver frames while preserving exact source identities, inherited fit/clearance and source-declared receiver-frame metadata.
 
 It does **not** establish:
 
-- a physical pivot pin, bore, axle, hinge barrel or bearing;
-- keeper hook/catch geometry or production retention;
-- spring, detent, preload, friction, force, load, fatigue, wear or tolerance validity;
-- manufacturability or service tooling;
-- full panel / fastener / body / lid collision freedom through the lever arc;
-- ergonomics or that `50°` is the final desired release angle;
-- final bevels, topology, materials, UVs or visual quality;
-- Animation timing/style acceptance;
-- `AnimationPlayer`, controller/state-machine, input or gameplay acceptance;
-- target-device runtime/performance acceptance;
+- that a production utility panel should remain reversible after future controls, labels, hinges, connectors or detailed asymmetrical geometry are authored;
+- hinge, latch, fastener, seal, gasket or connector validity;
+- structural loads, torque, fatigue, tolerance stack, manufacturing or service-tool validity;
+- runtime attachment or import behavior;
+- collision or physics acceptance;
+- gameplay or interaction acceptance;
+- final topology, bevel, UV, material or visual-quality acceptance;
 - CANON, merge authority, production readiness, game readiness or Hard-Surface mastery.
 
 ## Four-root gate
 
-- **Truth:** queued evidence was not promoted until exact-head Actions completed. The retained artifact was independently rehashed and its receipt inspected directly. Physical hardware remains explicitly unclaimed.
-- **Agency / non-domination:** domain ownership remains separated; a Hard-Surface source contract does not silently overrule Rigging, Animation, Runtime, QA, Art Direction or the roots.
-- **Continuity:** PR #17 preserves host geometry, exact ownership and exact donor provenance. PR #14 / #15 / #10 evidence remains historical rather than silently rewritten.
-- **Wisdom before speed:** this activation closed one already-authored evidence gate instead of expanding into unsupported physical latch hardware or populating empty departments for count.
+- **Truth:** the source geometry was not changed to force a result; exact source identities and both 0°/180° mechanical states are pinned, negative controls fail closed, and the synthetic-merge-SHA provenance defect was disclosed and repaired rather than hidden.
+- **Agency / non-domination:** Object's solution is not imposed on Building. Building retains its own source semantics and future authority to become keyed if its own requirements change.
+- **Continuity:** PR #5 stacks exactly on PR #2 and preserves existing Materials/Procedural consumers, receiver metadata and source bytes. Historical evidence remains truthful to its own exact identities.
+- **Wisdom before speed:** the pass proves whether asymmetry is needed before adding geometry. Empty Weapon/Armor/Unit/Misc lanes were not populated for count, and UC was not expanded from insufficient evidence.
 
 ## Next Hard-Surface pass
 
-1. Re-scan first; do not assume PR #17 adoption merely because its evidence is green.
-2. If downstream Rigging/Animation explicitly rebind to PR #17, inspect whether that exposes a new **source-mechanical** requirement rather than taking over their acceptance lane.
-3. Do not author physical latch pin/hook/catch geometry without a separate exact requirement or source-design reason.
-4. Re-evaluate Building only if its own panel receiver develops a demonstrated orientation/serviceability/mechanical gap; do not copy Object geometry by analogy.
-5. Weapon / Armor / Unit / Misc remain valid future targets only when a real source-owned manufactured requirement appears.
+1. Re-scan the constellation before extending PR #5; do not manufacture a Building key unless the source gains a real physical orientation requirement.
+2. Keep Object physical latch hardware held unless an exact source-mechanical requirement appears after the now-green PR #17 → Rigging PR #20 chain.
+3. Treat future asymmetric Building controls/labels/hinges/connectors as invalidating evidence for the current reversible-state claim until rerun.
+4. Prefer the first real source-owned manufactured need across Weapon / Armor / Unit / Building / Object / Misc rather than opening filler lanes.
