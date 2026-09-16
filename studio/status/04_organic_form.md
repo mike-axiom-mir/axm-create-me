@@ -1,126 +1,167 @@
 # 04 — Organic Form Specialist Status
 
 Date: 2026-09-16
-State: **PASS_ANIMAL_ELBOW_RELIEF_PERSPECTIVE_EVIDENCE_IMPLEMENTED / FORM IDENTITY UNCHANGED / EXACT-HEAD CI QUEUED / ART DIRECTION + VISUAL QA + SOURCE MIGRATION + RIGGING + RUNTIME HELD**
+State: **IMPLEMENTED_CHARACTER_FEATHERED_SHOULDER_TRANSITION / PREDECESSOR EXACT PASS RETAINED / CURRENT EXACT-HEAD CI QUEUED / ART DIRECTION + VISUAL QA + SOURCE MIGRATION + GEOMETRY + RIGGING + ARMOR/UNIT + RUNTIME HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, newest specialist status, and active design lanes before selecting work. `axm-create-me` remains coordination-only; product/evidence implementation is in `mike-axiom-mir/axm-animal-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, newest specialist status, the current Art Director direction packet, Character PR #2, and active design lanes across the constellation. `axm-create-me` remains coordination-only. Product/evidence implementation stays in `mike-axiom-mir/axm-character-design`.
 
-This activation deliberately does **not** introduce another Animal form candidate. The strongest current Organic gap is now evidence quality around the existing bounded elbow-relief candidate.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Why this was the highest-leverage non-duplicative action
+This activation moved Organic back from Animal to Character because the dependency state changed materially: independent Visual QA has now confirmed that Character candidate C (`0.085 m`) is preferable to the earlier `0.100 m` bridge but still fails migration because the shoulder transition reads as a bilateral faceted annular / mechanical collar. Art Direction explicitly reframed the next repair as a **transition-profile problem, not another scalar radius change**.
 
-- **Character:** Art Direction has selected the restrained `0.085 m` shoulder bridge direction on Character PR #2, but source migration remains held for independent Visual Observer / QA. Organic does not race that active perceptual gate with another Character variant.
-- **Animal:** Organic PR #8 already contains a source-preserving `0.090 -> 0.085 m` bend-plane elbow relief candidate with exact structural evidence. Art Direction and Geometry both explicitly identify richer shaded/perspective deformation evidence as the missing visual gate before adoption. That is a sharper dependency than making a second elbow shape.
-- **Nature:** current Geometry work owns the explicit two-sided leaf-blade/backface candidate. Organic does not duplicate that source/topology lane.
-- **Building / Object / Weather / Map / Weapon / Armor / Unit / Misc:** newest work is hard-surface, lookdev, articulation, procedural, environment, VFX, technical integration or runtime; no stronger unoccupied organic-form defect was supported.
-- **UC / Profession Fabric:** unchanged. This remains Animal-local review evidence and does not justify a generic organic-body abstraction.
+## Why Character is the highest-leverage non-duplicative lane now
 
-## Selected bounded improvement
+- **Character:** PR #2 has an explicit named QA defect blocking source migration and downstream Geometry/Rigging plus Armor/Unit fit. Art Direction assigned the modeling mechanism back to Organic and instructed the next candidate to preserve the broad body, shoulder landmarks, A-rest, global bounds and `0.075 m` upper-arm-root reference while changing only the local torso→upper-arm transition profile.
+- **Animal:** Organic PR #8 already has a bounded elbow-relief candidate and locked perspective evidence lane. That remains the next Organic perceptual review after Character, but it no longer outranks a current Character migration blocker.
+- **Nature:** current work is already split among source studies, leaf-sidedness Geometry, VFX motion and Materials; no stronger unoccupied organic-form defect is supported.
+- **Building / Object / Weather / Map / Weapon / Armor / Unit / Misc:** current active gaps are hard-surface, materials, articulation, procedural composition, world art, VFX, technical integration or runtime rather than unowned organic-form defects.
+- **UC / Profession Fabric:** unchanged. This is Character-local form evidence and does not justify a universal organic-transition primitive.
 
-Existing draft lane retained:
+## Selected bounded repair
 
-- repository: `mike-axiom-mir/axm-animal-design`;
-- PR: **#8 — `Organic Form: test bounded elbow bend-plane relief review candidate`**;
-- branch: `studio/organic-elbow-bend-plane-relief-001`;
-- exact base: Rigging PR #6 head `f4614ab2f691cd5c5d12b88fabc38ef848acd24e`;
-- current Organic head: **`366ab7dd334a7aa1cebae7d082c51131e6ba79b0`**;
-- PR state: **OPEN / DRAFT / MERGEABLE**.
+Repository / lane:
 
-No source/candidate/topology identity was changed. The existing review candidate remains exact:
+- repository: `mike-axiom-mir/axm-character-design`;
+- PR: **#2 — `Organic Form: add first character neutral A-rest study`**;
+- branch: `studio/organic-character-neutral-a-001`;
+- pre-activation reviewed head: `f7cbabbdc1bff949c58b2276ab2d660f80cc29c4`;
+- current head: **`4fb82dc97cbdb487a1cde407b503f50565b40c05`**;
+- PR remains **OPEN / DRAFT**; no merge/readiness claim.
 
-- canonical source digest `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`;
-- baseline connected candidate digest `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`;
-- review candidate `front-left-connected-chain-elbow-relief-001`;
-- review candidate digest `afe295cadeecf4a15d6f2e8ab44cf83b0b2576cbe5fbd49818732cb62336eb65`;
-- exact elbow ring `11..20` only;
-- source-derived bend-plane radius review remains `0.090 -> 0.085 m`;
-- existing `-60 / 0 / +60°` smoothstep deformation probe remains unchanged.
+Historical identities remain pinned:
 
-## New locked perspective review evidence
+- baseline Character source digest: `64c39965e6638154b70727c29690ce4bd8e992c1400bc003d6a25dcbe73a56b6`;
+- baseline Character mesh digest: `32adddbc9dab22d989869cdc64db24d0d89985a505f26483e7c6b27209f97dbe`;
+- retained candidate C source digest: `ca3f117b23ec41c6571cadbfe5f798a6982f228d12663aa07860d3e83fd9f236`;
+- retained candidate C mesh digest: `160698abaeeca8323e1b12c237f023dbc1c8a46fb4b5d0493336ad0789fd6798`;
+- retained anchor-radius reference remains `0.085 m`;
+- exact upper-arm-root radius reference remains `0.075 m`.
 
-Added Animal-local evidence tool:
+A/B/C were not rewritten.
 
-`tools/build_organic_elbow_relief_perspective_review.py`
+## Rejected intermediate retained rather than hidden
 
-New review schema:
+The first profile-only repair replaced the complete circular bridge with an open superior six-sample saddle. Exact head:
 
-`axm.animal-organic-elbow-relief-perspective-review/v0.1`
+`6eeddc094471146fb0dac2d03a47234c913a57f0`
 
-It consumes the already-retained baseline/candidate pose evidence and adds two deterministic true-perspective source-space review cameras:
+Exact workflow:
 
-1. `outer-three-quarter`
-   - eye `[1.48, 1.36, 1.08]`
-   - target `[0.46, 0.28, 0.42]`
-   - focal `1.15`
-2. `bend-profile`
-   - eye `[1.62, 0.88, 0.58]`
-   - target `[0.46, 0.28, 0.42]`
-   - focal `1.30`
+`35089745710 — Character organic form baseline`
 
-For each retained pose (`-60 / 0 / +60°`), exact baseline and exact review candidate share one union-derived camera frame. This removes the previous per-panel auto-fit confound. The exact ten elbow-ring vertices are highlighted, and the tool fails closed if any posed world-space drift appears outside that ring above `1e-9 m`.
+Result: **SUCCESS**.
 
-Retained-output contract:
+Retained artifact:
 
-- `perspective-review-receipt.json`;
-- `baseline-vs-elbow-relief-perspective-outer-three-quarter.svg`;
-- `baseline-vs-elbow-relief-perspective-bend-profile.svg`;
-- scoped evidence decision: **`PASS_LOCKED_CAMERA_PERSPECTIVE_REVIEW_EVIDENCE`** when all gates succeed.
+- artifact ID: `10443344042`;
+- size: `249,510 bytes`;
+- GitHub artifact SHA-256: `d9c3bfc33846c0c6a03d52a6097668bfc2e53e971a3cbec21e5ab6a7cd993171`;
+- independently downloaded/rehashed SHA-256: `d9c3bfc33846c0c6a03d52a6097668bfc2e53e971a3cbec21e5ab6a7cd993171`;
+- exact-head receipt inside artifact: `6eeddc094471146fb0dac2d03a47234c913a57f0`.
 
-The dedicated Organic workflow now builds and retains these outputs after the existing exact structural evidence. It still runs compile + full Animal tests on Python 3.11 and 3.13 against the exact Rigging donor.
+Its exact structural audit passed:
 
-## Local evidence replay against the previously retained exact candidate packet
+- prior C source + mesh identities preserved;
+- both sides reused 6 exact upper-arm-root ring samples;
+- all 6 proximal saddle samples per side were inside/on the retained ribcage envelope;
+- 4 of 10 root-ring samples remained deliberately uncovered, so the transition did not wrap into a 360° annulus;
+- bilateral symmetry, finite/nondegenerate proof geometry and whole-body bounds passed;
+- proof mesh `496v / 900t` versus baseline `472v / 880t` and circular C `516v / 960t`.
 
-Before exact-head Actions completion, the new camera math was replayed locally against the prior retained PR #8 evidence packet (artifact `10439333188`). This is a **local evidence-method check**, not a substitute for current-head CI or a new product identity.
+Direct inspection of the retained front/top/true-three-quarter A/C/D boards found a new risk: the six-sample transition removed the broad circular collar structurally, but its abrupt open arc ends could read as a pointed shoulder plane / small epaulet. Organic therefore did **not** promote that exact green result. It remains retained as a useful rejected intermediate and rollback/provenance point.
 
-Observed locked-frame screen-space deltas for the exact elbow ring:
+## Current feathered transition candidate
 
-| Camera | Pose | Max baseline→review ring delta | Mean ring delta | Outside-ring world drift |
-|---|---:|---:|---:|---:|
-| outer-three-quarter | `-60°` | `1.021409 px` | `0.619308 px` | `0.0 m` |
-| outer-three-quarter | `0°` | `0.889698 px` | `0.537228 px` | `0.0 m` |
-| outer-three-quarter | `+60°` | `1.147198 px` | `0.693442 px` | `0.0 m` |
-| bend-profile | `-60°` | `0.721599 px` | `0.419842 px` | `0.0 m` |
-| bend-profile | `0°` | `0.559536 px` | `0.325304 px` | `0.0 m` |
-| bend-profile | `+60°` | `0.708723 px` | `0.413714 px` | `0.0 m` |
+The current follow-up stays inside the same named defect and changes the transition profile rather than the retained radius references.
 
-Direct inspection of those replayed boards confirms that the comparison framing is stable and the change remains visually local/subtle at this source-space proof scale. There is no gross new full-limb silhouette break in either locked camera. This does **not** decide whether the smaller elbow cross-section is aesthetically preferable; that remains Art Direction / Visual QA authority.
+New Character-local files:
 
-## Exact-head CI state
+- `src/axm_character_design/shoulder_transition_feathered.py`;
+- `tests/test_shoulder_transition_feathered.py`;
+- `tools/build_shoulder_transition_feathered.py`.
+
+Current review identity:
+
+`character-neutral-a-shoulder-transition-feathered-003`
+
+Current bounded construction:
+
+- exact root-ring samples: `(4, 5, 6, 7, 8, 9, 0, 1)`;
+- feather blend weights: `(0.40, 0.65, 0.90, 1.0, 1.0, 0.90, 0.65, 0.40)`;
+- retained target-axis scale: `(0.55, 0.55, 0.85)`;
+- retained `0.085 m` anchor-radius reference;
+- retained exact `0.075 m` upper-arm-root radius;
+- the two most inferior root-ring samples remain uncovered, preventing a complete 360° transition ring;
+- transition depth feathers toward both open arc ends instead of terminating at full bridge depth.
+
+Fail-closed structural contract requires, per side:
+
+- all 8 proximal feathered samples inside/on the retained ribcage ellipsoid;
+- all 8 distal samples exactly reused from the upper-arm root ring;
+- no face wrapping from the last selected sample back to the first;
+- exact bilateral mirrored geometry;
+- unchanged whole-body bounds;
+- finite/nondegenerate proof mesh.
+
+Expected proof-mesh counts from the deterministic contract are:
+
+- baseline A: `472v / 880t`;
+- circular retained C: `516v / 960t`;
+- feathered review candidate: `504v / 908t`;
+- local delta from baseline: `+32v / +28t`.
+
+These are proof-geometry counts only, not production-topology targets.
+
+## Evidence method
+
+The exact evidence builder now retains both neutral-filled and diagnostic A/C/E boards at matched deterministic cameras:
+
+- front;
+- top;
+- true three-quarter perspective.
+
+Neutral boards deliberately remove transition highlighting so evidence coloring cannot create a false armor/epaulet read. Diagnostic boards retain transition highlighting separately for structural localization.
+
+The builder also retains:
+
+- exact candidate source JSON;
+- exact mesh JSON;
+- OBJ;
+- structural audit receipt;
+- exact checked-out head binding through the existing workflow artifact.
+
+## Current exact-head CI state
 
 Current exact head:
 
-`366ab7dd334a7aa1cebae7d082c51131e6ba79b0`
+`4fb82dc97cbdb487a1cde407b503f50565b40c05`
 
-Current exact-head Organic workflow:
+Current workflows observed:
 
-- run `35084180212 — Organic elbow bend-plane relief evidence`;
-- head binding: `366ab7dd334a7aa1cebae7d082c51131e6ba79b0`;
-- state at this activation: **QUEUED**.
+- push run `35090242187`;
+- pull-request run `35090245742`.
 
-The exact-head inherited workflows for the same commit were also queued at the scan point. Therefore this status does **not** convert the new evidence implementation into a CI PASS yet. The previous exact tested head `a22a6af3be466864a574c326c49807550bcee8fb` and artifact `10439333188` remain the last completed retained structural proof until the current queue finishes.
+At this activation both remain **QUEUED**. Therefore this status records the feathered candidate as **IMPLEMENTED / CURRENT-HEAD CI QUEUED**, not PASS.
 
-Previous retained exact artifact remains historical truth:
-
-- artifact ID `10439333188`;
-- size `16,560 bytes`;
-- SHA-256 `988a1fc1c0bbb154ce9bd20235b04000e3e896900bcc125879e55f2badf32ad6`;
-- exact head `a22a6af3be466864a574c326c49807550bcee8fb`.
+The immediately previous six-sample profile head `6eeddc094471146fb0dac2d03a47234c913a57f0` remains the newest completed exact retained PASS and is explicitly not substituted for the current feathered identity.
 
 ## Truth boundary / non-claims
 
 This activation does **not** establish:
 
-- biological, veterinary or anatomical correctness;
-- that `0.085 m` is a physically correct elbow radius or tissue profile;
+- biological, medical or anatomical correctness;
+- that the feathered profile is perceptually accepted;
+- that the previous mechanical-collar defect is fully removed;
+- absence of a new pinch, spike, tangent, detached gap, bulb or epaulet read;
 - source adoption or migration;
-- Art Direction acceptance;
-- independent Visual Observer / QA acceptance;
-- production skinning, weighting, IK, retargeting or complete rigging;
-- continuous deformation freedom between retained samples;
-- target-engine render equivalence;
-- animation timing, locomotion or clip acceptance;
+- connected production skin topology or weld strategy;
+- Geometry acceptance;
+- rigging, weighting, skinning or deformation acceptance;
+- animation acceptance;
+- materials or target-engine shaded equivalence;
+- Armor / Unit fit;
 - target-device runtime performance;
 - collision, physics or gameplay acceptance;
 - UC / Profession Fabric promotion;
@@ -128,25 +169,25 @@ This activation does **not** establish:
 
 ## Root gate
 
-- **Truth:** this pass strengthens the view/evidence contract without pretending a source-space review image is a target-engine or biological proof. Exact-head CI remains labelled queued, not passed.
-- **Agency / non-domination:** Organic supplies a reviewable local form option and evidence. Art Direction / Visual QA retain perceptual authority; Rigging retains deformation acceptance; Geometry retains topology; Runtime retains performance acceptance.
-- **Continuity:** the source, baseline candidate, review candidate, Rigging donor and prior artifact remain separately pinned. No prior PASS was silently rewritten.
-- **Wisdom before speed:** the identified missing evidence gate was improved before inventing another form variable or migrating the candidate into source.
+- **Truth:** the completed six-sample PASS is retained together with its visible downside; current feathered work stays labelled CI queued until its own exact evidence completes.
+- **Agency / non-domination:** Organic proposes and tests form construction. Art Direction / Visual QA keep perceptual acceptance; Geometry keeps topology; Rigging keeps deformation; Runtime keeps performance.
+- **Continuity:** A/B/C are preserved, the rejected six-sample intermediate remains exact historical evidence, and the new feathered candidate receives a distinct identity rather than silently rewriting prior evidence.
+- **Wisdom before speed:** direct inspection of a technically green intermediate caused a bounded repair before migration, instead of accepting CI success as proof of visual quality.
 
 ## Handoffs
 
-- **3D Art Director:** review the new locked `outer-three-quarter` and `bend-profile` baseline/candidate boards at `-60 / 0 / +60°`. The shared per-pose framing now removes panel-fit drift as a comparison confound. Decide only the perceptual question: cleaner bend read versus unwanted pinch.
-- **Visual Observer / QA:** independently check the same boards for local pinch, spike, tangent, mechanical collar or silhouette break. Do not inherit the Organic structural PASS as QA acceptance.
-- **Rigging:** no weight/joint/influence change occurred. If visual adoption happens later, re-own deformation acceptance on the adopted exact geometry identity.
-- **Geometry:** no topology migration requested; preserve current exact 42/80 contract unless a later accepted form change requires an explicitly owned geometry response.
-- **Animation / Runtime:** current source/rig identities remain authoritative; do not adopt this review candidate from the evidence lane alone.
-- **Technical Art / UC / Capability Cartography:** keep the evidence method Animal-local for now. One perspective-review case does not prove a generic UC organic-review primitive.
+- **3D Art Director:** after current-head CI completes, compare exact neutral A/C/E front/top/true-three-quarter boards. Decide whether E actually removes the collar/ruff read without creating a new epaulet, spike, bulb or armor-like projection.
+- **Visual Observer / QA:** independently reproduce the migration gate on the exact retained E artifact. Check collar/ruff, pinch/spike, tangent, detached gap and new bulb/epaulet risk. Do not inherit Organic structural evidence as QA acceptance.
+- **Geometry:** do not weld or migrate the disconnected proof patch before perceptual acceptance. If E is accepted, own the later connected/deformation-ready topology response on the exact adopted identity.
+- **Rigging:** no joint, influence, skinning or deformation claim transfers from this form proof. Re-enter only after an exact accepted geometry identity exists.
+- **Armor / Unit:** fit remains held until Character source identity stabilizes.
+- **Animal:** PR #8 remains the next Organic perceptual-review candidate after this Character gate; do not extend it automatically while Character has a named migration blocker.
+- **Technical Art / UC / Capability Cartography:** keep this mechanism Character-local. One shoulder transition does not establish a generic organic-body abstraction.
 
 ## Next Organic Form pass
 
-1. Re-scan first; do not extend Animal automatically.
-2. If exact-head CI has completed, bind and independently inspect the retained new perspective artifact before making any further form decision.
-3. Prefer independent Art Direction / Visual QA judgement before source migration.
-4. If the candidate is accepted perceptually, return deformation acceptance to Rigging rather than promoting it inside Organic.
-5. If rejected as pinched, preserve the exact rejected evidence and change only the named local perceptual defect.
-6. Keep biology, runtime readiness, CANON and Organic mastery explicitly held.
+1. Re-scan first; do not continue Character merely because this file says so.
+2. If `4fb82dc97cbdb487a1cde407b503f50565b40c05` CI has completed, bind the exact retained artifact and independently inspect its neutral plus diagnostic A/C/E boards.
+3. If Art Direction / Visual QA accept E, hand the exact adopted identity to Geometry and Rigging without claiming their acceptance.
+4. If E fails, preserve its evidence and change only the named perceptual defect rather than broad body proportions.
+5. Keep biology, runtime readiness, CANON and Organic mastery explicitly held.
