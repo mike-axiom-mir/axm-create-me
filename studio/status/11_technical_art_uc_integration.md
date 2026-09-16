@@ -1,231 +1,269 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / SOURCE-GENERATED NATURE MIGRATION -> CURRENT UC -> GODOT CULLING REBOUND / UC CORE UNCHANGED / MAP ADOPTION HELD**
+State: **PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / UC + OBJECT DRAFT LANES RETAINED / ANIMATION-CLIP + CONTROLLER + PHYSICS + FINAL-VISUAL HOLD**
 
 ## Current bounded result
 
-This activation reused the existing Nature Technical Art PR #3 and repaired one stale cross-repo dependency created by Geometry's newer source-lineage migration.
+This activation selected one cross-repo gap exposed by the newest Object Hard-Surface, Materials, Animation and Runtime evidence:
 
-Scoped results:
+> the equipment case now has exact source-owned rigid component identities and ownership, but the proven UC GLB handoff still flattens every supplied surface group into scene roots, so downstream specialists have had to reconstruct a segmented lid representation outside the generic UC transport path.
 
-- `PASS_SOURCE_GENERATED_MIGRATED_NATURE_THROUGH_CURRENT_UC_GLB`
-- `PASS_SOURCE_GENERATED_MIGRATION_TARGET_CULLING_REPRODUCED`
+The smallest reusable repair was **not** an Object rule in UC. It was a domain-neutral explicit rigid scene-graph transport layer over an already verified UC GLB.
 
-The exact path now proven is:
+Two bounded results are now green:
 
-`Nature source generator PR #9` -> `exact source-generated migrated mesh bytes` -> `generic current-UC seam-welded topology inspection` -> `existing Nature-owned UC surface bridge` -> `generic current-UC deterministic GLB publish/verify` -> `exact GLB bytes` -> `Godot 4.7.2 GLTFDocument import` -> `neutral culling-disabled/backface-culling observation`.
+- `PASS_RIGID_SCENE_GRAPH_REBIND` in Universal Creation;
+- `PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_THROUGH_UC_SCENE_GRAPH` plus `PASS_UC_RIGID_SCENE_GODOT_IMPORT_AND_LID_CHILD_TRANSFORM` in the Object receiving proof.
 
-Technical Art no longer needs to apply or depend on a derived Geometry reindex step for this migrated lineage. The old derived-candidate evidence remains historical evidence for its exact inputs.
+Exact proven path:
 
-Universal Creation was **not modified**. Nature owns the source generator and winding meaning; UC remains domain-neutral; `axm-create-me` remains coordination-only.
+`Object exact deterministic source + Object-owned latch/hinge ownership` -> `existing stable source component groups` -> `unchanged UC axm.surface-3d/v0.1 geometry publication` -> `generic axm.rigid-scene-graph/v0.1 caller-authored parentage` -> `exact GLB BIN payload retained` -> `Godot 4.7.2 GLTFDocument import` -> `direct review-only lid transform with lid-owned keeper children following and lower levers remaining fixed`.
 
-## Why this gap was selected
+`axm-create-me` remains coordination-only. Product/tool implementation lives in `axm-universal-creation` and `axm-object-design`.
 
-The live constellation changed after the previous Technical Art pass:
+## Why this gap was selected / duplication check
 
-- Geometry PR #9 migrated the proven tapered-cap winding correction into the Nature source generator at exact head `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`.
-- That migration deliberately changed generated mesh identities while preserving the prior Geometry candidate geometry.
-- The existing Technical Art proof still consumed the older Organic baseline plus a derived Geometry repair, so its transport result could not silently transfer to the new source lineage.
-- Visual QA still blocks normal-culling Map adoption until the repaired source lineage is tested in the receiving scene.
-- Map Environment PR #15 still truthfully consumes the historical rear mesh with proof-host culling disabled.
-- Other live specialist lanes are already active on Object mechanics/materials/motion, Animal deformation/motion, Building receiving lookdev and Nature source geometry, so opening a parallel implementation lane there would duplicate ownership.
-- Current UC already contains the reusable domain-neutral topology and GLB machinery needed for this question.
+The prior Nature Technical Art result remains valid historical evidence, but later Procedural, Environment, Visual QA and Art Direction work has closed the old live `HOLD_PROCEDURAL_REBIND` and `HOLD_MAP_RECEIVING_ADOPTION` dependencies. They are not current blockers and are not silently rewritten out of history.
 
-The highest-leverage unoccupied Technical Art question was therefore:
+The Object constellation now has a stronger unresolved Technical Art dependency:
 
-> Can the exact **source-generated** Nature migration pass through current UC and reproduce the real target-host culling repair without Technical Art reapplying domain geometry logic or centralizing a Nature rule in UC?
+- Hard-Surface PR #14 explicitly owns upper `latch_*_keeper` -> `lid_shell` and lower `latch_*_lever` -> `front_service_panel` parentage.
+- Rigging PR #15 owns a bounded review-only latch-lever articulation candidate.
+- Materials PR #6 already reconstructs owner-bound articulated parts for lookdev evidence.
+- Animation PR #10 now owns the ordered latch-release -> unchanged lid clip -> latch-reengage sequence.
+- Runtime PR #13 explicitly records that its efficient segmented receiving proof is **not** the current UC-published static GLB.
+- Existing Technical Art Object PR #7 proves a different path: socket/package identity -> source-frame-bound service module -> UC GLB -> Godot import. It remains valid and was not replaced.
+- Current UC main `21bca4eb3efeeec5a86f9da689bcfe4933f376e9` already has a strong deterministic `axm.surface-3d/v0.1` GLB path, but `_encode_glb` publishes each surface primitive as a flat scene root. No current generic parent/child transform transport contract existed.
+- UC PR #151's animated boat lane is Blender/game-asset specific and does not supply a generic explicit scene-graph rebinder; duplicating that lane was avoided.
 
-## Exact lane and identities
+That made rigid scene-graph transport the highest-leverage unoccupied Technical Art/UC integration question.
 
-Existing draft extended:
+## Universal Creation reusable contract
 
-**`mike-axiom-mir/axm-nature-design#3 — Technical Art: prove Nature -> current UC -> target culling handoff`**
+Repository: `mike-axiom-mir/axm-universal-creation`
 
-Branch:
+Draft PR: **#157 — Technical Art: add neutral rigid scene-graph rebind contract**
 
-`studio/uc-nature-surface-bridge-001`
+Branch: `studio/rigid-scene-graph-001`
 
-Exact final Technical Art head:
+Exact candidate head: **`6dc465987e01362264f88b7cef4213609ae50763`**
 
-`0fa27e038469cbedbef972a282ddc90f57c90918`
+Base main inspected: `21bca4eb3efeeec5a86f9da689bcfe4933f376e9`
 
-PR state after work: **OPEN / DRAFT / MERGEABLE**.
+New generic contract:
 
-Pinned donors:
+`axm.rigid-scene-graph/v0.1`
 
-- Nature source migration / Geometry PR #9: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`
-- historical rear Organic PR #8: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`
-- prior Geometry oracle PR #7: `e2224d4bf88f7e68503072c884e5a726b8d0c53d`
-- current inspected Universal Creation main: `21e206fad99d53f6f01a9d3093b49e590cff7032`
+Added:
 
-Exact source-generated migrated mesh identities consumed directly from PR #9:
+- `src/axm_uc/rigid_scene_graph.py`;
+- `tests/test_rigid_scene_graph.py`;
+- `.github/workflows/rigid-scene-graph.yml`.
 
-- `sapling-neutral-001`: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`
-- `compact-east-tree-neutral-001`: `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`
-- `east-rear-tree-neutral-001`: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`
+The contract accepts an already verified **flat UC-generated GLB** plus caller-authored stable node names, parent relations and optional rigid translation/unit-quaternion transforms.
 
-Historical rear baseline remains separately identified as:
+It deliberately does not infer component meaning. It refuses:
 
-`d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`
+- unknown node or parent identities;
+- cycles;
+- duplicate/multiple-parent ambiguity;
+- non-unit quaternions;
+- already-hierarchical input in this bounded v0.1 path.
 
-## UC state inspected
+It preserves the exact GLB BIN chunk, rewrites only explicit scene-graph JSON state, retains the existing UC surface specification digest, reruns UC's existing `verify_glb()`, and adds exact scene-graph provenance/digest verification.
 
-Current UC main was inspected at exact commit:
+The contract does **not** contain the words/semantics needed to decide that a lid, latch, turret, socket, door, vehicle part, character part or any other domain component owns another. Source/receiving repos retain that authority.
 
-`21e206fad99d53f6f01a9d3093b49e590cff7032`
-
-The relevant generic capability remains `axm_uc.mesh_topology.inspect_mesh_topology()`. It seam-welds coincident positions and reports bounded edge-incidence/orientation evidence while explicitly excluding self-intersection, vertex-manifoldness, deformation, collision and visual-quality claims.
-
-UC's existing deterministic surface / GLB publication and verification machinery remains sufficient for this integration. No Nature-specific cap, branch, trunk, species, source-migration or auto-repair rule belongs in UC from this evidence.
-
-Profession Fabric's `product-design/technical-artist` body is still `EXPERIMENTAL` and explicitly owns bounded art-to-engine pipeline contracts while forbidding technically valid import from becoming visual/gameplay acceptance. This activation follows that boundary; it does not promote the profession.
-
-## Smallest reusable pipeline repair
-
-Nature Technical Art PR #3 gained only a source-lineage rebind evidence path:
-
-1. checkout exact Nature source-migration PR #9 and build the three source meshes directly from its generator;
-2. refuse source/head/digest drift before publication;
-3. inspect each migrated source mesh with current UC's generic topology inspector;
-4. pass each mesh through the existing Nature-local bridge without adding a new domain rule;
-5. inspect the emitted woody UC surface again with the same generic topology primitive;
-6. publish and verify exact GLBs with current UC;
-7. rebuild the historical rear baseline independently from PR #8 for an explicit lineage control;
-8. import the exact historical and source-migrated rear GLBs in pinned Godot 4.7.2 and compare culling-disabled versus backface-culling behavior from two retained cameras.
-
-No UC core file, Nature source migration, Geometry algorithm, Map scene, Materials lane, Runtime lane, or Profession Fabric body was modified.
-
-## Three-source source-lineage / UC result
-
-All three exact source-generated migrated Nature meshes match the prior Geometry oracle candidates and keep the repaired shared-edge relation through the Nature bridge and current UC:
-
-| study | historical mesh | source-generated migrated mesh | migrated source conflicts | emitted woody conflicts | UC GLB triangles |
-|---|---|---|---:|---:|---:|
-| `sapling-neutral-001` | `89b835bd...fa4c` | `47dd4d82...1b862` | 0 | 0 | 620 |
-| `compact-east-tree-neutral-001` | `c7367ed5...fa32f` | `420135f6...1c18` | 0 | 0 | 620 |
-| `east-rear-tree-neutral-001` | `d7fc5dea...133e48` | `aa9d450a...9b6a31` | 0 | 0 | 620 |
-
-The independently rebuilt historical rear baseline still reproduces **260** shared-edge orientation conflicts before the bridge. This preserves the failure lineage rather than erasing it.
-
-Exact migrated current-UC GLB SHA-256 values:
-
-- sapling: `0bdf1731348988decf9eefe930922b834175c4e84480e3cf84e1b70fffeb6e4d`
-- compact east tree: `507c1cd58b234ab70b203daa42a776aad00741f21601c4c5aae2a45fbb7dd17d`
-- east rear tree: `5c17b1bd220e4c2cdf40bad2bae50d209974e4faf2879c9076b4cdcf03ff7e8c`
-- historical rear control: `8666dc2959bfa701a81d64391f8e31390f27db9ca567e226fcc49a734d2d6a2a`
-
-The repaired rear GLB hash remains the same as the earlier derived-candidate Technical Art proof because the source generator now emits the exact prior oracle geometry. The important change is provenance: those bytes are now generated by the Nature source lineage rather than recreated by Technical Art through Geometry.
-
-## Rear target-host source-migration proof
-
-The exact historical and **source-generated migrated** rear UC GLBs were imported at runtime by Godot **4.7.2-stable**, GL Compatibility, through `GLTFDocument` with a neutral unshaded material override.
-
-### `ground_oblique`
-
-- culling-disabled historical vs source-migrated: **0 changed pixels**;
-- backface-culling historical vs source-migrated: **827 changed pixels**;
-- source-migrated `CULL_BACK` vs its own `CULL_DISABLED`: **0 changed pixels**;
-- historical `CULL_BACK` vs its own `CULL_DISABLED`: **827 changed pixels**.
-
-### `high_oblique`
-
-- culling-disabled historical vs source-migrated: **0 changed pixels**;
-- backface-culling historical vs source-migrated: **1,225 changed pixels**;
-- source-migrated `CULL_BACK` vs its own `CULL_DISABLED`: **0 changed pixels**;
-- historical `CULL_BACK` vs its own `CULL_DISABLED`: **1,225 changed pixels**.
-
-### Direct visual observation
-
-The retained eight target frames were inspected directly.
-
-With culling disabled, the historical and source-migrated renders are visually/pixel identical in both retained views. With backface culling enabled, the historical mesh reproduces the narrow dark slit/gap losses along tapered trunk/branch cap transitions. The source-generated migrated mesh removes those observed losses in both retained views and matches its own culling-disabled control.
-
-This is direct target-host evidence for this exact source migration. It is still **not** a global outward-normal proof across arbitrary views, deformations or future procedural variants.
-
-## Exact-head CI and retained evidence
+### UC CI
 
 Dedicated workflow:
 
-`35075568832 — UC Nature source migration rebind evidence` — **SUCCESS**.
+`35081692879 — Rigid scene graph contract` — **SUCCESS**.
 
-Same-head inherited Technical Art/Nature workflows also remained green, including the previous topology/culling preflight, the existing UC surface bridge and Nature baseline tests.
+- Python 3.11: success;
+- Python 3.13: success;
+- determinism, manifest-order invariance, exact binary-payload preservation and fail-closed cases are exercised.
+
+The full same-head UC `Tests` workflow `35081692670` also completed **SUCCESS**. Other same-head candidate/workspace/Godot/profession checks observed during this activation completed successfully or intentionally skipped where their path did not apply.
+
+No merge was performed. PR #157 remains draft/review evidence.
+
+## Object exact receiving proof
+
+Repository: `mike-axiom-mir/axm-object-design`
+
+Draft PR: **#16 — Technical Art: carry source-owned rigid parts through UC scene graph**
+
+Branch: `studio/technical-art-rigid-scene-handoff-001`
+
+Exact Object head: **`965fb2f24dbd0b0cbb748d9f8b8712d62966315f`**
+
+Exact stacked base / Hard-Surface ownership head: **`d3fa10a270faae7925811f44f03381fe5c5d0215`**
+
+Exact Object source SHA-256:
+
+`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`
+
+Exact ownership contract SHA-256:
+
+`0702e4180f858d29c42ff8c38a61eaa16278d6848c8ce6f3ecfae172969ca8ae`
+
+The receiving proof uses only existing Object identities:
+
+- `lid_shell`;
+- source-owned lid hinge groups `hinge_lid_l0`, `hinge_lid_l1`;
+- source-owned upper keeper groups `latch_0_keeper`, `latch_1_keeper`;
+- fixed lower lever groups `latch_0_lever`, `latch_1_lever`;
+- exact source hinge axis/pivot.
+
+Exact source hinge pivot:
+
+- Object source coordinates: `[0.0, 0.252, 0.306] m`;
+- UC/glTF Y-up coordinates: `[0.0, 0.306, 0.252] m`.
+
+Only the lid-owned rigid set is localized around that exact pivot before surface publication. Reconstructing the neutral closed pose after localization produced **0.0 m maximum position error**.
+
+## Exact UC transport evidence
+
+All existing Object source mesh groups are published through unchanged `axm.surface-3d/v0.1`, then the generic UC candidate binds only caller-supplied parentage.
+
+Exact manifest SHA-256:
+
+`e32a05fe8de68cdcba704b595bdd9df8965255e361c0ed61cb3aa88b7d50989a`
+
+Exact surface specification SHA-256:
+
+`f2a4afbbf43c6f32830cd5a3de058e67d281a9ef163948907f8111e12b3ad1c8`
+
+Flat GLB SHA-256:
+
+`ed15b5086123a64a020e5b027949a0862a1af3e02fd0e5e9897891600778948f`
+
+Rebound GLB SHA-256:
+
+`9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`
+
+Exact unchanged BIN payload SHA-256 before/after graph rebind:
+
+`46e0eb89e9b0bde5c6f99de1faeb540aebc5a0881bb406aea878679862913292`
+
+Both flat and rebound UC verification report:
+
+- **31 mesh nodes / primitives / materials**;
+- **812 triangles**;
+- finite positions/normals;
+- valid indices;
+- nondegenerate triangles;
+- winding matching supplied vertex normals.
+
+No triangle or binary geometry drift is introduced by the scene-graph layer.
+
+## Godot 4.7.2 target-host proof
+
+The exact rebound GLB was imported with `GLTFDocument` in pinned **Godot 4.7.2-stable**, GL Compatibility.
+
+Observed directly after import:
+
+- `latch_0_keeper` parent = `lid_shell`;
+- `latch_1_keeper` parent = `lid_shell`;
+- both lower levers remain outside the lid subtree;
+- a direct review-only **+50° X lid transform** moves each keeper mesh center by **0.815027356147766 m**;
+- both lower lever mesh-center drifts remain exactly **0.0 m**;
+- retained closed vs 50° target frames differ by **83,442 pixels**.
+
+The retained images were directly inspected. They show the expected neutral case and a clearly opened lid/keeper assembly while the lower front-body construction remains in place. The neutral grey proof presentation is structural transport evidence, not final Materials/LookDev or Art Direction acceptance.
+
+Target result:
+
+`PASS_UC_RIGID_SCENE_GODOT_IMPORT_AND_LID_CHILD_TRANSFORM`
+
+## Object exact-head CI / retained evidence
+
+Dedicated workflow:
+
+`35081970135 — Object UC rigid scene handoff evidence` — **SUCCESS**.
+
+- Python 3.13: complete Object test suite + cross-repo UC build/receipt verification success;
+- Python 3.11: same plus pinned Godot import, review transform, render capture and artifact retention success.
+
+All inherited same-head Object workflows observed for front-latch ownership, hard-surface interface, service-module fit, registration key and fastener clearance completed **SUCCESS**.
 
 Retained artifact:
 
-- ID: **10437698655**
-- name: `nature-uc-source-migration-rebind-0fa27e038469cbedbef972a282ddc90f57c90918`
-- size: **254,331 bytes**
-- GitHub artifact SHA-256: `161caee9b55b85a68a06414707c638d4479b934dfddfeded64d609b612e89b67`
-- independently downloaded/rehashed SHA-256: `161caee9b55b85a68a06414707c638d4479b934dfddfeded64d609b612e89b67`
-- retained exact Technical Art head: `0fa27e038469cbedbef972a282ddc90f57c90918`
-- retained exact source-migration head: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`
-- retained exact historical rear head: `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`
-- retained exact UC head: `21e206fad99d53f6f01a9d3093b49e590cff7032`
+- ID: **10440591535**;
+- name: `object-uc-rigid-scene-965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
+- size: **83,519 bytes**;
+- GitHub SHA-256: `24298ae6b7467e3a90282cb485722ffbd4c6e5f0c84925370a6a1bcbf0125eee`;
+- independently downloaded/rehashed SHA-256: `24298ae6b7467e3a90282cb485722ffbd4c6e5f0c84925370a6a1bcbf0125eee`.
 
-The artifact was downloaded after CI, independently rehashed, parsed directly, and its target PNGs were visually inspected.
+Retained target images:
+
+- closed SHA-256: `98e8c761c94dbca7a2c7763619c539522b66fe29d414e95264c8a6c5eb3522df`;
+- 50° review transform SHA-256: `009732146dccc5325ca52532d8395a8c6c751bddca122825ef2c0c37eb07f126`.
 
 ## Placement decision
 
-**No UC core change is justified.**
+This is one of the cases where a **small UC core extension is justified**, because the mechanism is generic and domain-neutral:
 
-The evidence supports this placement:
+- Object owns its source geometry, stable component names, hinge pivot, latch ownership and intended rigid relationships;
+- UC owns only deterministic transport/verification of an explicit caller-authored named rigid hierarchy over exact already-published mesh nodes;
+- Technical Art owns the cross-repo binding/evidence path;
+- Animation still owns clip/choreography timing;
+- Runtime still owns receiving resource lifecycle and target performance;
+- Rigging/Hard-Surface still own articulation/mechanical semantics;
+- Materials/Art Direction/Visual QA still own surface/presentation acceptance.
 
-- Nature owns source geometry, tapered-cap winding policy and the source migration;
-- Geometry owns the prior repair oracle and structural evidence that justified migration;
-- UC owns generic topology inspection and deterministic surface/GLB machinery;
-- Technical Art owns explicit cross-repo composition, exact donor/source identity binding and target-host import evidence;
-- Environment / Visual QA / Art Direction own receiving-scene adoption and visual acceptance;
-- Procedural Design owns regeneration/rebinding of its own Nature variants when it chooses to consume the new source lineage.
+No Object construction rule, latch policy, hinge policy, pivot inference, ownership inference or animation choreography was moved into UC.
 
-Moving a Nature-specific winding repair into UC would now be especially wrong: the correct source owner has already adopted the repair, and current UC transports the result without domain knowledge.
+## Handoffs
 
-## Handoffs returned
+### UC PR #157
 
-### Nature source migration PR #9
+The neutral contract is now proven not only by isolated UC tests but by a real independent receiving domain: exact Object source-owned rigid parts survive the generic scene graph into Godot without geometry payload drift. Keep the PR draft until normal UC review/merge authority acts.
 
-Returned exact downstream proof that the source-generated digests survive current UC and reproduce the target-host culling repair. This is transport evidence, not merge authority or source acceptance.
+### Object Hard-Surface PR #14
 
-### Map Environment PR #15
+The exact ownership declaration now survives Object -> UC -> Godot: upper keepers import as `lid_shell` children while lower levers remain outside the lid subtree. This is transport evidence only, not a physical latch/capture PASS.
 
-Returned that the Technical Art source-generated transport/culling gate is now clear. PR #15 remains truthful at its historical baseline/culling-disabled composition state. The next receiving test remains the isolated normal-culling A/B requested by Visual QA: preserve scene/camera/materials/placement and change only the rear mesh lineage to PR #9's exact source-generated mesh.
+### Object Animation PR #10
 
-### Procedural Design
+Technical Art now exposes exact target-host rigid nodes with the correct keeper parentage. The **101-sample latch/lid sequence has not been transported through UC and no `AnimationPlayer` was authored here**. Animation may now consume this exact node/pivot identity if it opens that next bounded lane.
 
-No procedural variant PASS transfers automatically. Existing Nature variants that change mesh identity under the migrated generator still require regeneration and exact evidence rebinding by their owning lane.
+### Object Runtime PR #13
 
-## Relationship to previous evidence
+The prior statement that the exact UC GLB is static/unsplit is now superseded for this new PR #16 identity: a real UC-transmitted segmented rigid hierarchy exists and a direct target-host lid transform is proven. Runtime's existing resource-reuse result remains separate; sampled target playback cost/controller behavior has not transferred automatically.
 
-The prior Nature Technical Art result at head `5590bbe07cc92a6f60ea9b4722344220e2d04ae5` remains valid historical evidence for the old baseline -> derived Geometry candidate path.
+## Relationship to previous Technical Art evidence
 
-This activation does **not** rewrite that provenance. It supersedes only the live Technical Art dependency for the migrated lineage: the source generator now emits the repaired mesh directly, so the production-shaped path no longer requires a derived Geometry repair step.
+The earlier Nature source-migration Technical Art proof remains valid for its exact lineage/artifacts. Later owning specialists have since closed its Procedural and Map receiving dependencies; this status therefore stops carrying those old holds as current state without rewriting the historical result.
 
-Previous Object Technical Art evidence also remains separate and unchanged.
+Object Technical Art PR #7 also remains valid and separate. It proves a static source-frame-bound service module/socket transport path; PR #16 proves generic named rigid hierarchy transport. Neither invalidates the other.
 
 ## Non-claims / remaining holds
 
 This activation does **not** prove or authorize:
 
-- merge or CANON adoption of Nature PR #9;
-- Map receiving-scene normal-culling acceptance;
-- global outward-normal correctness for arbitrary views or all Nature variants;
-- automatic rebinding of Procedural Nature variants;
-- final normals/tangents/smoothing/UV policy;
-- final foliage/bark materials or lookdev;
-- wind/deformation/rigging/animation quality;
+- merging UC PR #157 or Object PR #16;
+- generic arbitrary glTF hierarchy editing beyond the bounded flat UC-generated input contract;
+- arbitrary skinning, bones, blend shapes or deforming hierarchy transport;
+- `AnimationPlayer`, animation-channel export, or transport of Animation PR #10's exact 101-sample sequence;
+- runtime controller/state machine behavior or actual 40 Hz playback pacing;
+- latch hook/capture/retention mechanics or engineering validity;
+- continuous collision/physics clearance;
+- gameplay or interaction acceptance;
+- final material/lookdev, Art Direction or Visual QA acceptance;
 - target-device FPS/GPU/VRAM/draw-call budgets;
-- collision/navigation/gameplay suitability;
-- generic arbitrary-mesh culling correctness;
-- profession promotion;
-- production readiness or Technical Art / UC mastery.
+- CANON or production readiness;
+- profession promotion or Technical Art / UC mastery.
 
 ## Root gate
 
-- **Truth:** old baseline, old derived candidate, new source-generated migration, UC donor and target images retain exact separate identities; structural, export, culling and visual claims remain bounded.
-- **Agency / non-domination:** no merge, source rewrite, receiving-scene swap, profession promotion or UC authority inflation was performed.
-- **Continuity:** old Technical Art evidence remains historical; exact source/commit/artifact identities and rollback remain traceable; no silent lineage replacement.
-- **Wisdom before speed:** reused the existing Nature Technical Art lane and already-sufficient generic UC primitives; repaired only the stale source-lineage binding and target proof instead of adding another system.
+- **Truth:** exact source, ownership, UC base/candidate, Object receiving head, GLB digests, unchanged BIN payload, target import and renders remain separately bound; structural transport is not relabelled animation/gameplay/visual acceptance.
+- **Agency / non-domination:** UC receives only a caller-authored generic hierarchy contract; it does not infer domain ownership or silently rewrite source authority. No merge or CANON authority was exercised.
+- **Continuity:** prior Nature and Object PR #7 evidence remains historical/current for its exact scope; new PRs are additive, reversible and exact-head bound.
+- **Wisdom before speed:** the repair is one small reusable graph layer over existing UC surface/GLB machinery, with a real Object receiving proof, rather than a second exporter or an Object-specific subsystem inside UC.
 
 ## Current state
 
-`PASS_SOURCE_GENERATED_NATURE_MIGRATION_TO_CURRENT_UC / PASS_SOURCE_MIGRATION_TARGET_CULLING_REPRODUCTION / HOLD_MAP_RECEIVING_ADOPTION / HOLD_PROCEDURAL_REBIND / UC_CORE_UNCHANGED`
+`PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / HOLD_ANIMATION_CLIP_TRANSPORT / HOLD_RUNTIME_CONTROLLER / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_VISUAL / DRAFT_NO_MERGE`
