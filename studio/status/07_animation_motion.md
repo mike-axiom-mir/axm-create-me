@@ -1,243 +1,241 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-16
-State: **PASS_DISCRETE_SAMPLED_PLAYBACK_SEAM / EXACT 40-FRAME SEQUENCE RASTERIZED / INTERPOLATION + TARGET-ENGINE + AESTHETIC + RUNTIME-CONTROLLER + GAMEPLAY HOLD**
+State: **PASS_GODOT_DISCRETE_SAMPLE_PLAYBACK_PROOF_HOST / EXACT ANIMAL HEAD + SOURCE/RIG/CLIP IDENTITY RETAINED / TWO REAL GODOT SAMPLE CYCLES + WRAP / AESTHETIC + INTERPOLATION + REAL-TIME PACING + CONTROLLER + GAMEPLAY HOLD**
 
 ## Current activation
 
-Animation stayed inside the existing source-owned Animal PR #5 rather than opening a duplicate motion lane or retiming an unreviewed clip.
+Animation stayed inside the existing source-owned Animal PR #5 rather than opening a duplicate lane or retiming an unreviewed clip.
 
-The constellation scan still leaves two materially different existing Animation proofs:
+The current constellation still has two materially different Animation lanes:
 
-1. **Mechanical — Wreckline PR #4:** bounded harpoon aim/recoil/recover evidence in a Godot proof host remains the existing mechanical motion lane.
-2. **Organic — Animal PR #5:** the exact repaired quadruped rig carries the studio's first bounded non-locomotion articulation pulse and is explicitly named by current Art Direction / Visual Observer status as one of the strongest ready review surfaces.
+- **Mechanical — Wreckline PR #4:** a Godot proof host already exercises bounded harpoon aim / recoil / recover transforms over exact geometry. It supplied a useful donor pattern for pinned-engine observation, but no Wreckline motion semantics were copied into Animal.
+- **Organic — Animal PR #5:** the exact repaired quadruped rig carries the existing `quadruped-articulation-loop-001` pulse. Art Direction and Visual Observer still list this as a ready review surface but have not yet accepted its timing, weight or motion direction.
 
-Other current motion-adjacent work does not displace that lane:
+Other motion-adjacent work did not justify a new Animation lane:
 
-- **Object:** Rigging PR #3 now has a continuous body/lid shell-clearance certificate across the exact `0..110°` structural hinge range, but its own status still withholds Animation timing/style, runtime and visual acceptance. Hard-Surface receiving-module work is separate. Opening an Object clip before form/range usefulness is visually accepted would duplicate an unresolved downstream gate.
-- **Character:** the first body still has no accepted animation-ready rig; its flex zones remain upstream evidence only.
-- **Animal Geometry:** connected-topology PR #4 has stronger static structural evidence but remains visually/deformation unaccepted and receives no inherited Animation PASS.
-- **Nature / Map / Weather:** current motion belongs to VFX / Environment / Runtime receiving lanes rather than this specialist.
-- **Animal Rigging weighting:** `ease-out-power-0p75-v1` remains numerically promising but still lacks the requested direct shaded/perspective acceptance against `smoothstep-v0`.
+- **Object Rigging PR #3** proves structural hinge clearance, not clip timing/style or visual usefulness;
+- **Character** still has no accepted animation-ready rig;
+- **Animal Geometry PR #4** remains a separate connected-topology candidate with its own deformation/visual gates;
+- **Nature / Weather / Map** dynamic behavior is already owned by VFX / Environment / Runtime lanes;
+- **Rigging's `ease-out-power-0p75-v1`** remains visually unaccepted and was not silently adopted.
 
-Art Direction and Visual Observer still have not accepted the quadruped pulse's perceptual timing or motion direction. The correct bounded step was therefore to make the **existing exact samples honestly replayable as a repeatable evidence sequence**, not to change the clip while its visual gate is open.
+The highest-leverage unresolved Animation claim was therefore the previous explicit **target-engine playback HOLD**. The bounded improvement was to prove that the exact already-authored 40 visible samples can be applied and observed inside a pinned Godot host without changing the clip.
 
 `axm-create-me` remains coordination-only. Product/evidence implementation stayed in `mike-axiom-mir/axm-animal-design`.
 
-## Exact lane and identity preserved
+## Exact lane and preserved identity
 
-Repository:
-`mike-axiom-mir/axm-animal-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Existing draft PR:
-**#5 — Animation: prove first bounded quadruped articulation loop**
+Existing draft PR: **#5 — Animation: prove first bounded quadruped articulation loop**
 
-Branch:
-`studio/animation-quadruped-articulation-loop-001`
+Branch: `studio/animation-quadruped-articulation-loop-001`
 
-Stacked base:
-Rigging PR #2 exact head `04760112deb81a8d145226fe7ee02923107c9916`.
+Stacked base: Rigging PR #2 exact head `04760112deb81a8d145226fe7ee02923107c9916`.
 
-Current exact Animation head:
-`d7c2c8b7b296cdb6907886ddf9bb2e49b76416f7`
+Current exact Animation head: **`9928680758b0c44435dd83eb4a8e537aacd42c9c`**
 
 PR state at end of activation: **OPEN / DRAFT / MERGEABLE**.
 
-Exact preserved identities:
+Exact preserved source identities:
 
 - Organic source digest: `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`;
 - neutral surface digest: `1f8cb51e7047090c945e93e0a28520180725a2827882144a2c021fe55495734c`;
 - rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
 - clip digest: `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
-- weighting profile: `smoothstep-v0`.
+- weighting profile: `smoothstep-v0`;
+- motion truth label: `STYLIZED_ARTICULATION_PULSE_NOT_GAIT_OR_LOCOMOTION`.
 
 The authored clip remains unchanged:
 
-- truth label: `STYLIZED_ARTICULATION_PULSE_NOT_GAIT_OR_LOCOMOTION`;
-- duration: `1.0 s`;
-- authored sample rate: `40 Hz`;
-- source sample count: `41` including endpoints;
-- curve: raised cosine `neutral -> peak -> neutral`;
-- front elbows: `0 -> +18° -> 0`;
-- hind knees: `0 -> +14° -> 0`;
-- bilateral pairs remain matched.
+- duration `1.0 s`;
+- authored sample rate `40 Hz`;
+- `41` endpoint-inclusive source samples;
+- visible repeated cycle samples `0..39`;
+- raised-cosine `neutral -> peak -> neutral`;
+- front elbows `0 -> +18° -> 0`;
+- hind knees `0 -> +14° -> 0`;
+- bilateral pairs matched.
 
-The implementation still calls the exact existing Rigging deformation machinery for each sampled pose. No second rig/weight solver, timing retune, amplitude change, phase offset or new weighting profile was introduced.
+No second deformation solver, retime, phase offset, amplitude change, new weighting profile, source rewrite or connected-topology substitution was introduced.
 
-## Prior gate retained — all-sample temporal continuity
+## Prior Animation gates retained
 
-Previous exact head:
-`b5e6d3832459614044d6f8c0be316341b4366353`
+The existing source-local evidence remains unchanged and traceable:
 
-Prior scoped result:
-**`PASS_LOOP_TEMPORAL_CONTINUITY`**
+- **`PASS_LOOP_TEMPORAL_CONTINUITY`** — all 41 exact sampled surfaces, uniform `0.025 s` spacing, exact neutral closure and bounded adjacent steps;
+- **`PASS_DISCRETE_SAMPLED_PLAYBACK_SEAM`** — endpoint-inclusive source samples map to a 40-frame repeated display cycle by omitting the duplicate endpoint; exact wrap `0.975 -> 0.000 s` equals the authored final adjacent step `0.975 -> 1.000 s` with `0.0 m` residual against `1e-12 m` tolerance;
+- retained prior sampled-playback artifact `10431893686`, SHA-256 `290b0725f3fca44c68581ec58de0c4d9aef8850695d97fb6d03eb677934fdc68`.
 
-Retained prior artifact:
+Those gates did **not** previously prove target-engine geometry application or rendering.
 
-- `quadruped-articulation-loop-001-temporal-evidence`;
-- artifact ID `10430538721`;
-- archive SHA-256 `4a69709a7538b323efe18c1837bc81d782ffe96adc0fd88569fac988ec79bc76`.
+## Selected improvement — pinned Godot exact-sample playback proof
 
-That evidence remains valid history for the unchanged clip: all 41 exact samples have stable topology, uniform `0.025 s` spacing, exact neutral closure, mirrored rise/fall geometry and angles, monotonic driven tracks, nonzero adjacent motion and a bounded maximum adjacent step. Its nine-sample board was directly inspected previously.
+Added a bounded Animal-local target-host path rather than a generic animation engine:
 
-It did not establish repeat playback, interpolation or aesthetic quality.
+- `tools/build_animation_godot_playback.py` builds an exact payload from the existing source/rig/clip functions;
+- `tools/godot_animation_playback/project.godot` is a minimal proof-only host;
+- `tools/godot_animation_playback/observe.gd` applies the exact authored surfaces as real Godot `ArrayMesh` triangle geometry;
+- `.github/workflows/animation-godot-playback-evidence.yml` pins and verifies Godot `4.7.2` before exercising the proof.
 
-## Selected improvement — discrete sampled-playback seam contract
-
-Added Animal-local contract:
-
-`axm.animal-animation-sampled-playback/v0.1`
-
-Playback mode:
+The proof intentionally preserves the existing discrete mode:
 
 `DISCRETE_AUTHORED_SAMPLES_NO_INTERPOLATION`
 
-This contract does not author or interpolate motion. It consumes the exact existing temporal PASS and maps the endpoint-inclusive authored sample set into a repeatable display cycle.
+and names its runtime mode:
 
-For the current 1.0 s / 40 Hz clip:
+`DETERMINISTIC_AUTHORED_SAMPLE_STEPPING_NOT_REALTIME_PACING`.
 
-- source remains `41` endpoint-inclusive samples (`0.000 .. 1.000 s`);
-- visible cycle uses exact samples `0..39` (`0.000 .. 0.975 s`);
-- source endpoint sample `40` is deliberately not displayed as a second frame because it is the exact neutral duplicate of sample `0`;
-- exact cycle boundaries deterministically map to sample `0`;
-- the visible seam step `0.975 -> 0.000 s` must equal the authored final adjacent step `0.975 -> 1.000 s` within an explicit `1e-12 m` position tolerance;
-- explicit index probes cover start, last interval, just-before-wrap, exact wrap, one interval after wrap and the second exact wrap;
-- negative tests reject a non-endpoint-inclusive sample count, negative playback time and a clip whose final retained keyframe no longer closes at the exact clip endpoint.
+The Animal -> Godot proof presentation uses the already-established explicit axis bridge:
 
-The evidence builder also retains a self-contained animated side/front SVG. It switches only between the exact 40 authored visible samples at the exact 40 Hz cadence using discrete SMIL opacity changes. It generates no intermediate poses.
+`[-source_y, source_z, source_x]`
 
-The SVG is XML-parsed before upload, preserving the earlier lesson that a numerically green evidence path must not silently retain an invalid visual artifact.
+for the source convention `+X forward, +Y left, +Z up`. This is proof-host presentation only; source geometry is not rewritten.
+
+The target-host payload is bound to the exact receiving Git head so a pull-request synthetic merge ref cannot masquerade as source-head evidence.
 
 ## Exact final CI and retained evidence
 
-Exact-head workflow runs on `d7c2c8b7b296cdb6907886ddf9bb2e49b76416f7`:
+Exact head: **`9928680758b0c44435dd83eb4a8e537aacd42c9c`**
 
-- `Tests` run **35059866027** — **SUCCESS** on Python 3.11 and 3.13;
-- the Python 3.11 job built/uploaded the original evidence families plus the new sampled-playback evidence;
-- inherited `Weighting refinement evidence` run **35059866021** — **SUCCESS**.
+Exact-head workflows:
 
-Retained current artifact:
+- `Animal Godot discrete playback evidence` run **35064557194** — **SUCCESS**;
+- `Tests` run **35064557215** — **SUCCESS**;
+- inherited `Weighting refinement evidence` run **35064557201** — **SUCCESS**.
 
-- name: `quadruped-articulation-loop-001-playback-evidence`;
-- artifact ID: **10431893686**;
-- exact workflow-head binding: `d7c2c8b7b296cdb6907886ddf9bb2e49b76416f7`;
-- size: `732,635 bytes`;
-- archive SHA-256: **`290b0725f3fca44c68581ec58de0c4d9aef8850695d97fb6d03eb677934fdc68`**.
+Retained final artifact:
 
-The artifact was downloaded after CI and independently rehashed to the exact GitHub digest. Its retained JSON parses and its 5.4 MB animated SVG independently XML-parses.
+- name: `quadruped-articulation-loop-001-godot-playback-9928680758b0c44435dd83eb4a8e537aacd42c9c`;
+- artifact ID: **10433418841**;
+- exact workflow-head binding: `9928680758b0c44435dd83eb4a8e537aacd42c9c`;
+- size: **584,180 bytes**;
+- archive SHA-256: **`a615e1133dbc15047b5cbefac6f33613c2b43d334507b9857c556de554ca20af`**.
 
-Current scoped gate:
+The artifact was downloaded after CI and independently rehashed to that exact digest.
 
-**`PASS_DISCRETE_SAMPLED_PLAYBACK_SEAM`**
+The generated exact-sample payload itself has SHA-256:
 
-Exact metrics:
+**`559743b093ac94590078e021cd85d8d2b80de2d59edc3a44e90d2b7e5a4b43fd`**
 
-- source endpoint-inclusive sample count: `41`;
-- displayed frames per cycle: `40`;
-- display cadence: `40 Hz`;
-- display interval: `0.025 s`;
-- display cycle duration: `1.0 s`;
-- exact endpoint seam: `true`;
-- visible wrap step (`0.975 -> 0.000 s`): `0.000944288595739695 m`;
-- authored final adjacent step (`0.975 -> 1.000 s`): `0.000944288595739695 m`;
-- wrap-step residual: `0.0 m` against tolerance `1e-12 m`;
-- playback index probes: PASS;
-  - `0.000 -> 0`;
-  - `0.975 -> 39`;
-  - just-before-wrap -> `39`;
-  - exact `1.000 -> 0`;
-  - `1.025 -> 1`;
-  - exact `2.000 -> 0`.
+and records its receiving repository head as exactly `9928680758b0c44435dd83eb4a8e537aacd42c9c`.
 
-This closes one specific truth gap from the previous pass: repeating the exact discrete sequence no longer requires guessing how to treat the duplicate endpoint or seam.
+Current scoped result:
 
-## Direct motion sanity observation
+**`PASS_GODOT_DISCRETE_SAMPLE_PLAYBACK_PROOF_HOST`**
 
-The hosted environment blocked Chromium navigation to both local file URLs and localhost evidence URLs, so direct browser-runtime playback could not be honestly observed here. That limitation remains explicit; no browser, target-engine or frame-pacing PASS is claimed.
+## Exact target-host motion evidence
 
-A separate local validation path was therefore used only as a motion sanity check:
+The retained payload carries the exact 40 visible authored frames into Godot as:
 
-1. the exact retained SVG was parsed;
-2. all `40` exact frame groups were rasterized independently without interpolation;
-3. the resulting PNG sequence was encoded at exactly `40 fps` into a `1.000 s`, `40`-frame MP4;
-4. selected exact samples at `0.000 / 0.250 / 0.500 / 0.750 / 0.975 s` were directly inspected side/front.
+- `840` vertices per frame;
+- `4,800` indices / `1,600` triangles per frame;
+- `34` distinct authored surface digests across the symmetric raised-cosine cycle.
 
-Local proof-video SHA-256:
-`c73c88db1fad59b903bcd8fb0fc00e17aaea3517ce2cf9348f1845bd7d196c24`
+Pinned Godot `4.7.2` then exercised:
 
-Within those exact sampled images:
+- **2 complete cycles** of samples `0..39`;
+- one exact final wrap to sample `0`;
+- **81 total sample applications**;
+- exact sequence order: PASS;
+- exact final wrap sample: `0`;
+- all `34` distinct authored surface identities observed;
+- maximum Godot vertex readback error against payload: **`0.0 m`**;
+- `readback_matches_payload: true`.
 
-- the lower-limb/paw pulse advances visibly into the `0.500 s` midpoint;
-- the later samples return toward the neutral read by `0.975 s`;
-- front-view bilateral matching remains visible across the inspected samples;
-- the sampled sequence does not reintroduce the historical detached-paw visual defect.
+One real Godot process frame is yielded after each sample application so the engine actually consumes every pose. This proves **sample application/readback**, not wall-clock scheduling. No real-time `40 Hz` pacing claim is made.
 
-This is **local sampled-sequence sanity evidence**, not independent Art Direction / Visual Observer acceptance and not proof of interpolation between 25 ms samples.
+## Direct retained visual observation
 
-## Why no retime or Object clip was added
+The final artifact retains fixed 800x600 Godot renders for:
 
-Current coordination evidence still says:
+- neutral sample `0`;
+- peak sample `20`;
+- last-visible sample `39`;
+- wrapped neutral sample `0` after two complete cycles.
 
-- Art Direction lists Animal PR #5 as a strongest next ready visual surface and has not yet approved its direction/timing;
-- Visual Observer likewise identifies Animal PR #5 as a high-value next independent QA surface;
-- Rigging's `ease-out-power-0p75-v1` Animal candidate remains blocked on matched shaded/perspective visual review;
-- Object's `0..110°` hinge range now has stronger continuous structural clearance evidence, but Rigging explicitly withholds motion style, Animation and runtime acceptance;
-- Character lacks an accepted rig;
-- Nature/Weather dynamic work remains owned by their existing VFX/Environment/Runtime lanes.
+Machine-measured render deltas:
 
-Changing amplitude, timing or adding a second clip now would mix authored-motion change with an unresolved visual gate. Opening Object Animation now would similarly move ahead of its unresolved form/range/style decision.
+- neutral -> peak: **701 / 120,000 sampled pixels = 0.58417%**;
+- last-visible -> wrapped neutral: **4 / 120,000 = 0.00333%**;
+- initial neutral -> wrapped neutral: **0 / 120,000 = 0.0%**.
 
-## Evidence repair history remains visible
+I directly inspected the downloaded neutral, peak and wrapped-neutral renders. Within this proof presentation:
 
-The earlier temporal-evidence intermediate head `8cb3b23986b3a7525cd69132a107a7f1072551c0` had green numeric CI but retained malformed SVG XML because a literal `<` appeared in footer text. That artifact remains historical, not current evidence.
+- the lower-limb articulation is visibly different at the peak;
+- the broad body silhouette remains anchored while the driven limb shapes move;
+- the wrapped neutral returns to the same retained silhouette as the initial neutral.
 
-The existing temporal builder repair XML-parses its review board before retention. The new sampled-playback builder independently applies the same validity discipline to its animated SVG.
+That is direct target-host motion sanity evidence. It is **not** an Art Direction / Visual Observer judgement of timing, weight, personality, pinching or biological quality.
 
-No failed or superseded evidence has been silently relabelled current.
+## Evidence repair history
+
+The first otherwise-green Godot proof run on intermediate head `3735a04ac88d4c1891f6d356e514cf23816abba5` exposed a provenance weakness: on a `pull_request` event, default `actions/checkout` may build GitHub's synthetic merge ref even though the workflow run reports the PR head separately. Its artifact was therefore **not** adopted as final exact-head evidence.
+
+The repair changed only evidence binding:
+
+- checkout now explicitly targets `${{ github.event.pull_request.head.sha || github.sha }}`;
+- the workflow records `git rev-parse HEAD` as `EXACT_HEAD_SHA`;
+- the generated payload stores the exact receiving Git head;
+- CI requires the stored head to equal the exact checked-out head;
+- the retained artifact name is keyed by that exact head.
+
+The Animal source, rig, clip, weighting, sample surfaces, proof renderer behavior and acceptance thresholds were not changed to make the rerun pass.
+
+## Why no retime, weighting swap or new clip was added
+
+Current coordination evidence still leaves the perceptual direction unresolved:
+
+- Visual Observer explicitly lists Animal PR #5 as a high-value next QA surface for cadence, silhouette, paw/limb oddity and seam review;
+- Art Direction likewise has not approved the pulse's motion direction or timing;
+- Rigging's alternate `ease-out-power-0p75-v1` weighting remains visually unaccepted;
+- Object hinge motion still lacks visual/form usefulness acceptance;
+- Character lacks an accepted rig.
+
+Changing the pulse now would mix authored-motion change with an unresolved independent visual gate. The target-host proof instead closes a concrete technical HOLD while preserving the exact candidate reviewers still need to judge.
 
 ## Truth boundary / non-claims
 
-The current Animation PASS establishes only:
+This PASS establishes only:
 
-> for this exact Animal source, exact repaired rig, exact `smoothstep-v0` weighting and exact 1.0 s / 40 Hz authored pulse, the endpoint-inclusive source samples can be mapped into a deterministic 40-frame repeated **discrete** display cycle whose wrap step exactly matches the authored final adjacent step, without duplicating the neutral endpoint.
+> the exact existing Animal source + repaired rig + `smoothstep-v0` weighting + unchanged 1.0 s / 40 Hz authored pulse can be converted through the explicit proof-only axis bridge into real Godot triangle geometry, stepped through two complete **discrete authored-sample** cycles plus wrap, read back without vertex drift, and rendered with a visible peak plus exact visual neutral roundtrip in the pinned Godot 4.7.2 proof host.
 
 It does **not** establish:
 
-- interpolation quality between the authored 25 ms samples;
-- browser/engine frame pacing or continuous renderer playback;
-- biological anatomy, gait or locomotion;
-- foot planting, root motion, balance, contact or acting quality;
-- perceptual animation quality, weight, personality or final timing;
-- shaded/perspective deformation quality, volume preservation or dynamic self-intersection freedom;
-- acceptance of Rigging's `ease-out-power-0p75-v1` candidate;
-- production skinning or behavior on Animal Geometry PR #4;
-- exported animation/skeleton transport;
-- target-engine or target-device playback;
-- runtime-controller or state-machine integration;
-- collision, gameplay acceptance or input behavior;
-- target performance/resource acceptance;
-- a generic UC animation organ, Profession Fabric promotion, CANON, production readiness or Animation mastery.
+- continuous interpolation between authored samples;
+- real-time `40 Hz` engine frame pacing;
+- an `AnimationPlayer`, skeleton, skin or exported animation-clip transport contract;
+- runtime controller or state-machine integration;
+- input, collision or gameplay acceptance;
+- biological gait, locomotion, foot planting, root motion or balance;
+- final timing, weight, personality, acting or Art Director acceptance;
+- shaded production deformation quality, volume preservation or dynamic self-intersection freedom;
+- acceptance of `ease-out-power-0p75-v1`;
+- behavior on Animal connected-topology PR #4;
+- target-device FPS/GPU/memory/resource-lifecycle acceptance;
+- production runtime acceptance;
+- a generic UC animation engine, Profession Fabric promotion, CANON, production readiness or Animation mastery.
 
 ## Root gate
 
-- **Truth:** source/rig/clip/weighting identities remain exact; prior temporal evidence, current discrete-playback evidence, local raster/video sanity evidence and blocked browser-runtime observation are kept distinct.
-- **Agency / non-domination:** Animation owns clip timing/evidence only. Rigging owns deformation, Geometry owns topology, Art Direction owns visual direction, Visual Observer owns independent perceptual QA, Runtime owns performance, and gameplay/controller owners keep their own acceptance gates.
-- **Continuity:** work stayed in existing Animal PR #5, preserved the exact clip and previous evidence history, and did not overwrite the separate Wreckline mechanical lane or Object structural hinge lane.
-- **Wisdom before speed:** the seam/playback evidence gap was closed before changing an unreviewed motion, adding a second clip, adopting an unaccepted weighting profile, or building a generic animation system.
+- **Truth:** the final retained evidence is bound to one exact Animal Git head, exact source/rig/clip/weighting identities, exact payload digest, pinned Godot build and explicit no-interpolation/no-real-time-pacing boundary. The earlier merge-ref artifact remains superseded rather than relabelled exact-head evidence.
+- **Agency / non-domination:** Animation owns clip/sample evidence only. Rigging owns deformation, Geometry owns topology, Art Direction owns visual direction, Visual Observer owns independent perceptual QA, Runtime owns performance, and gameplay/controller owners keep their own gates.
+- **Continuity:** work stayed in existing Animal PR #5; prior temporal/seam evidence remains valid; no Wreckline, Object, Nature, Weather, Map, UC or coordination product code was rewritten.
+- **Wisdom before speed:** a named target-engine evidence gap was closed before retiming an unreviewed clip, adopting an unaccepted weighting profile, opening another motion lane or centralizing an organic animation abstraction into UC.
 
 ## Handoffs
 
-- **Visual Observer / QA:** inspect exact current artifact `10431893686`. It is a repeatable 40-frame sampled-playback evidence surface. Judge visible seam, cadence, pinching, paw oddities and sampled continuity; do not infer interpolation or target-engine timing.
-- **3D Art Director:** judge whether the unchanged 18°/14° raised-cosine pulse is directionally useful before Animation retimes, adds phase offsets or expands amplitude.
-- **Rigging / Deformation:** keep `smoothstep-v0` and `ease-out-power-0p75-v1` separate. If the latter receives visual acceptance, compare this **same exact clip** across profiles so only deformation changes.
-- **Geometry / Topology:** connected-topology PR #4 remains separate and receives no Animation PASS. If it clears visual review, it needs its own deformation/motion validation.
-- **Object / Hard Surface / Rigging:** preserve the new continuous shell-clearance result, but do not infer clip timing/style. Animation should enter only after Art Direction / QA retains the source/range or identifies a real articulation need.
-- **Technical Art / UC:** no organic playback abstraction is requested from one source. The endpoint/seam mapping is an evidence-method candidate, not a UC motion engine.
-- **Capability Cartographer:** possible reusable learning is `endpoint-inclusive authored samples -> omit duplicate endpoint in display cycle -> exact seam-step equivalence -> retained animated evidence -> independent perceptual review`. Do not centralize from one source.
+- **Visual Observer / QA:** review artifact `10433418841`, especially the retained Godot neutral / peak / last-visible / wrapped-neutral frames together with prior 40-frame sampled playback. Judge cadence, silhouette, pinching, paw/limb oddities and visible seam without inferring interpolation or real-time pacing.
+- **3D Art Director:** judge whether the unchanged `18° / 14°` raised-cosine articulation pulse is directionally useful before Animation changes amplitude, phase or timing.
+- **Rigging / Deformation:** keep `smoothstep-v0` and `ease-out-power-0p75-v1` separate. If the latter receives visual acceptance, compare this same clip across profiles so only deformation changes.
+- **Geometry / Topology:** connected-topology PR #4 receives no inherited Animation PASS and still needs its own deformation/motion observation if adopted.
+- **Technical Art / UC:** no shared organic animation engine is requested. The useful reusable lesson is proof-host evidence binding: exact source-head checkout -> exact authored payload -> pinned renderer -> readback -> retained fixed renders -> explicit non-claims.
+- **Capability Cartographer:** the Wreckline donor pattern now has a second materially different use of pinned Godot motion observation, but the motion semantics remain source-local. Any shared extraction should be limited to genuinely repeated evidence plumbing, not domain motion logic.
 
 ## Next Animation pass
 
-1. Consume Visual Observer / Art Director review of exact artifact `10431893686` before changing amplitude, phase or timing.
-2. If a specific visible seam/cadence/pose defect is identified, repair only that bounded issue on the same source/rig/clip lane and retain before/after evidence.
-3. If the current pulse is accepted directionally, choose the next evidence-directed step: compare the same clip on an independently accepted weighting candidate, or add a second bounded motion primitive only if the rig honestly supports it.
-4. Do not claim continuous interpolation, target-engine/controller behavior or gameplay acceptance until those paths are directly tested.
+1. Consume independent Visual Observer / Art Director review of this exact Animal motion before changing timing, phase or amplitude.
+2. If they identify a specific cadence, pose, paw, silhouette or seam defect, repair only that bounded issue and retain matched before/after target-host evidence.
+3. If this pulse is accepted directionally, the next motion change should be evidence-driven: either compare the same clip against an independently accepted weighting candidate or add a second bounded motion primitive supported by the exact rig.
+4. Do not claim interpolation, real-time engine pacing, controller/state-machine behavior or gameplay until those paths are directly exercised and independently gated.
