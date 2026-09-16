@@ -1,23 +1,23 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / EXACT OBJECT SOURCE-FRAME → UC GLB → GODOT IMPORT PROVEN / UC UNCHANGED / GENERIC SOCKET-EULER SEMANTICS STILL HELD**
+State: **ACTIVE / EXACT NATURE SHARED-EDGE TOPOLOGY PREFLIGHT → UC GLB PROVEN / UC CORE UNCHANGED / ORGANIC SOURCE MIGRATION + TARGET-ENGINE CULLING HELD**
 
 ## Current bounded claim
 
-This activation closed the highest-leverage Technical Art / UC gap exposed by the current Object constellation:
+This activation closed one cross-repo Technical Art ordering gap exposed by Nature Geometry PR #7:
 
-> The equipment-case socket package had already crossed UC validation → deterministic compile → descriptor materialization, and Hard Surface had since added a real source-owned receiving module, but no exact target host had yet consumed the compiled socket identity, the real receiving geometry and exact UC-published GLB bytes together.
+> A Nature mesh could pass the existing source-local surface bridge and UC `verify_glb()` while still carrying a repeated shared-edge orientation defect, because per-triangle winding/normal agreement is not the same claim as shared-edge topology consistency.
 
 The bounded result is:
 
-`PASS_SOURCE_FRAME_BOUND_UC_GLB_GODOT_HANDOFF`
+`PASS_EXACT_NATURE_TOPOLOGY_PREFLIGHT_THROUGH_UC_GLB`
 
-The exact Object host + exact `utility-module-001` now cross this path:
+For two real Nature bodies, the exact Geometry reindex-only candidate now crosses this evidence path:
 
-`source-owned physical frame + module fit` → `UC Asset Atom validate/compile` → `source-owned socket-frame binding` → `UC axm.surface-3d/v0.1 publish/verify` → `exact GLB bytes` → `Godot 4.7.2 GLTFDocument import/render`.
+`exact source mesh identity` → `generic UC seam-welded topology preflight` → `source-owned reindex-only candidate` → `Nature coordinate/winding/flat-normal bridge` → `generic UC topology preflight on emitted woody surface` → `exact UC axm.surface-3d/v0.1 publish/verify` → `retained GLB bytes`.
 
-No Universal Creation code was changed. No Object-specific physical semantics, attachment fitter or renderer interpretation was moved into UC. `axm-create-me` remains coordination-only.
+Universal Creation was **not** modified. No trunk, cap, branch, leaf, vegetation, Organic or Geometry policy was moved into UC. `axm-create-me` remains coordination-only.
 
 ## Coordination / constellation scan
 
@@ -25,310 +25,236 @@ Read/inspected before work:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - standing role `studio/specialists/11_technical_art_uc_integration.md`;
-- previous Technical Art status;
-- current Object Hard-Surface, Rigging and Materials lanes;
-- current Animal/Nature Technical Art bridges;
-- current Wreckline provider-provenance lane;
-- current Universal Creation main and the real Asset Atom + procedural-surface/GLB implementations;
-- current open PRs across the design constellation to avoid lane duplication.
+- prior Technical Art status and previous Object target-host evidence;
+- current open PRs across the design constellation;
+- Nature Organic, Geometry, Environment/VFX and existing Technical Art lanes;
+- Building source/interface + Materials activity and Map receiving-scene activity;
+- Object source-frame / module / rigging activity;
+- current Universal Creation main plus active UC precision-cutter / 2D physics work.
 
-Relevant live boundaries:
+The selected gap was not duplicated elsewhere. Geometry PR #7 explicitly handed Technical Art the unanswered question: does the downstream surface/GLB conversion already compensate for the tapered-cap winding defect, or does the exact repair need to survive the export boundary before any source migration is considered?
 
-- **Object Hard Surface PR #5** owns the exact `utility-module-001` receiving source and proves bilateral source-frame/mount-pattern fit. Exact prerequisite head: `9a0524319cc3fe33bdbb2d76505b2c89a7a9f190`.
-- **Object Technical Art PR #4** already proves the earlier descriptor-only path through UC validation → compile → materialize, but explicitly leaves target-engine import and 3D receiving-module instantiation unproven.
-- **Object Materials PR #6** uses Godot 4.7.2 for a controlled functional-material A/B, but explicitly uses a procedural proof reconstruction rather than byte-identical structural/import geometry. It therefore does not duplicate this exact import lane.
-- **Object Rigging PR #3** owns lid articulation. This activation does not inherit or alter its motion acceptance.
-- **Animal/Nature Technical Art PRs #3** own their source-local surface adapters into UC GLB. They remain separate organic-domain evidence.
-- **Wreckline Technical Art PR #8** remains a historical provider-closure case and is still held by missing authentic provider modules.
+Relevant exact Nature lanes:
 
-No competing lane was found that consumed the exact Object receiving module through UC and a real target-host import.
+- **Geometry PR #7** — `Geometry: repair tapered-segment cap winding without reshaping Nature` — exact head `deddc890a03684e20322c607741180b6de376ab4`, open/draft/mergeable. It proves a reindex-only `260 -> 0` shared-edge orientation-conflict repair on `sapling-neutral-001` and `compact-east-tree-neutral-001`, while deliberately holding Organic source migration.
+- **Technical Art PR #3** — existing Nature source -> UC GLB bridge. This activation extended this lane rather than opening a duplicate Technical Art PR.
+- **Organic PR #8** — `east-rear-tree-neutral-001` remains on the unchanged Organic generator and explicitly inherits the known baseline-generator limitation. This activation does **not** infer a topology PASS for that newer exact body because it was not present in the pinned Geometry donor commit.
+
+Other live lanes were left untouched. Building/Map composition, Object runtime attachment semantics, Animal animation playback, Materials/LookDev, VFX/wind and Runtime continue to own their separate gates.
 
 ## UC state inspected
 
-Current Universal Creation main inspected at exact commit:
+Current Universal Creation main was inspected at exact commit:
 
-`646c69df21eb3b1f85ab4b005368bda827b37a14`
+`37eabf250f54c2dccaf81bfa2002129e53c1eaff`
 
-The existing generic machinery already provides the needed neutral contracts:
+The key existing generic capability is:
 
-- `validate_asset_package()`;
-- `compile_asset_package()`;
-- `axm.surface-3d/v0.1`;
-- `publish_glb()`;
-- `verify_glb()`.
+`axm_uc.mesh_topology.inspect_mesh_topology()`
 
-The UC surface path verifies emitted GLB structure, finite geometry, index range, nondegenerate triangles and winding/normal agreement, while explicitly stating that rendered appearance and host compatibility are not proven by publication alone.
+It already performs domain-neutral seam-welded triangle-edge inspection and reports:
 
-That existing boundary was sufficient. No UC edit was justified.
+- collapsed triangles;
+- boundary edges;
+- non-manifold edges;
+- shared-edge orientation conflicts;
+- triangle component count;
+- an explicit truth boundary that does not claim vertex manifoldness, self-intersection, deformation, collision suitability or visual quality.
+
+UC's existing `procedural_3d.publish_glb()` / `verify_glb()` surface path separately verifies bounded GLB structure and per-triangle geometry/normal consistency.
+
+That separation is correct. The missing piece was **pipeline composition**, not missing UC domain knowledge.
 
 ## Gap selected
 
-The remaining Object pipeline gap was not “can UC hold the socket descriptor?”—PR #4 already answered that.
+Nature Technical Art PR #3 already performs a deliberate handedness-changing source-coordinate conversion and reverses front-face winding while deriving exact flat normals. Geometry PR #7 subsequently found that the source generator itself has 260 same-direction shared-edge cap/side traversals on each tested Nature body.
 
-The missing evidence was:
+The consequential question was therefore:
 
-1. can a **real source-owned receiving module** bind to a socket whose identity/position survived exact UC compilation;
-2. can the resulting exact assembly be projected into UC's generic surface contract without moving Object construction semantics into UC;
-3. can the exact UC-published GLB bytes be imported and rendered by a real target host;
-4. can that be done without pretending the UC socket's `rotation_euler` already has a generic renderer-space meaning.
-
-That last distinction is intentional. The Object source already owns an explicit physical `frame_basis` (`normal`, `up`) while the UC descriptor carries a portable Euler field whose target-renderer convention has not been established. The safe integration is therefore to consume UC's compiled socket **identity and position**, preserve its Euler unchanged, and use the source-owned frame for physical receiving-module orientation.
+1. does Nature's downstream coordinate/winding conversion erase or accidentally repair the source shared-edge defect;
+2. can UC's existing generic topology inspector independently reproduce Geometry's finding;
+3. does the Geometry repair survive Nature's surface flattening and exact UC GLB publication;
+4. does `verify_glb()` distinguish the bad shared-edge baseline from the repaired candidate, or must topology evidence remain an explicit separate preflight.
 
 ## Bounded improvement
 
-Opened stacked draft PR:
+Extended the existing draft:
 
-**`mike-axiom-mir/axm-object-design#7 — Technical Art: prove exact UC GLB target-host handoff`**
+**`mike-axiom-mir/axm-nature-design#3 — Technical Art: prove Nature surface -> UC GLB handoff`**
 
 Branch:
 
-`studio/technical-art-object-target-handoff-001`
-
-Stacked base:
-
-`studio/hard-surface-service-module-fit-001` / exact base head `9a0524319cc3fe33bdbb2d76505b2c89a7a9f190`.
+`studio/uc-nature-surface-bridge-001`
 
 Exact final Technical Art head:
 
-`d5cd67b34996ff95dd28495d26ccb8c4a60b7dfd`
+`c2148be843f8a4815f4705cc06a88834363b6b65`
 
-Final PR state inspected: **DRAFT / OPEN / MERGEABLE**.
+PR state inspected: **OPEN / DRAFT / MERGEABLE**.
 
-Added only consumer-side Technical Art proof tooling:
+Smallest changes only:
 
-- `tools/build_object_uc_target_handoff.py`;
-- `tests/test_uc_target_handoff.py`;
-- `target-proof/project.godot`;
-- `target-proof/observe.gd`;
-- `.github/workflows/object-uc-target-handoff.yml`.
+- extended `axm_nature_design.uc_surface_bridge` with `adapt_mesh_for_uc()` so an explicitly identified source-owned mesh candidate can cross the existing adapter without rewriting Organic source identity;
+- retained `adapt_source_for_uc()` as the exact baseline-generator path;
+- added focused exact-mesh identity/fail-closed tests;
+- added `tools/build_uc_topology_preflight_evidence.py`;
+- added `.github/workflows/uc-nature-topology-preflight.yml`.
 
-No source asset was rewritten and UC was not modified.
+No Organic source JSON, Organic generator, Geometry repair algorithm, UC code, Map composition, VFX, Materials or runtime code was changed.
 
-### Exact handoff mechanics
+### Exact donor bindings
 
-The builder:
+Geometry donor:
 
-1. reruns the existing equipment-case structural verifier;
-2. reruns the existing bilateral module-fit verifier;
-3. rebuilds the exact host OBJ and source-owned UC socket package;
-4. checks out/pins UC exact commit `646c69df...`;
-5. validates and compiles the package through real UC twice and requires identical results;
-6. requires validated socket atoms to survive UC compilation exactly;
-7. selects compiled `right_service` and consumes its exact name + position;
-8. verifies the source-owned socket basis is orthonormal and right-handed;
-9. derives local module axes as:
-   - local +X = source outward `normal`;
-   - local +Y = `cross(up, normal)`;
-   - local +Z = source `up`;
-10. retains UC `rotation_euler=[0,90,0]` as evidence but explicitly does **not** interpret it as renderer orientation semantics;
-11. places the exact receiving module through the source-owned frame and rechecks the existing body-clearance contract;
-12. converts Object Z-up coordinates `[x_right,y_forward,z_up]` to UC/glTF Y-up `[x_right,z_up,y_forward]` and explicitly reverses winding because that permutation changes handedness;
-13. emits two exact UC surface groups: host + right-service module;
-14. publishes through real UC `publish_glb()` and re-verifies the emitted GLB with `verify_glb()`;
-15. imports those exact GLB bytes with Godot 4.7.2 `GLTFDocument`;
-16. requires exact mesh-instance and triangle-count preservation and retains a target-host PNG + runtime receipt.
+`mike-axiom-mir/axm-nature-design@deddc890a03684e20322c607741180b6de376ab4`
 
-## Exact-head evidence
+Universal Creation donor:
 
-Exact final Object head:
+`mike-axiom-mir/axm-universal-creation@37eabf250f54c2dccaf81bfa2002129e53c1eaff`
 
-`d5cd67b34996ff95dd28495d26ccb8c4a60b7dfd`
+The workflow checks out both exact commits separately and records all three heads (Technical Art, Geometry, UC) in retained evidence.
 
-Pinned UC commit:
+## Exact result
 
-`646c69df21eb3b1f85ab4b005368bda827b37a14`
+### Sapling
 
-Exact-head workflow:
+`source digest`:
 
-- `35061115287 — Object UC target-host handoff evidence` — **SUCCESS**;
-  - Python 3.11: full Object tests, exact UC handoff build/validation, pinned Godot download, exact GLTFDocument import, retained runtime capture and artifact upload all PASS;
-  - Python 3.13: full Object tests and exact UC handoff build/validation PASS.
-- inherited `Object service-module fit evidence` run `35061115183` — **SUCCESS** on this final Technical Art head.
+`a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`
 
-Final retained artifact:
+`baseline mesh digest`:
 
-- ID: **10432029651**;
-- name: `object-uc-target-handoff-d5cd67b34996ff95dd28495d26ccb8c4a60b7dfd`;
-- reported size: **58,754 bytes**;
-- exact head binding: `d5cd67b34996ff95dd28495d26ccb8c4a60b7dfd`;
-- archive SHA-256: `971f32648029d90f324368c2807fda939f7e33440080fe13df8c4738b3b7a0b6`.
+`89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`
 
-The retained ZIP was downloaded after CI and independently SHA-256 rehashed. The local digest matched GitHub's retained artifact digest exactly.
+`reindex-only candidate digest`:
 
-The artifact records both exact heads:
+`47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`
 
-- Object: `d5cd67b34996ff95dd28495d26ccb8c4a60b7dfd`;
-- UC: `646c69df21eb3b1f85ab4b005368bda827b37a14`.
+Observed exact path:
 
-### Source / descriptor identity
+- Geometry indexed shared-edge conflicts: `260 -> 0`;
+- UC generic source-mesh orientation conflicts: `260 -> 0`;
+- UC generic emitted-`woody` surface orientation conflicts after Nature conversion/flat-normal expansion: `260 -> 0`;
+- baseline UC GLB: 620 triangles, SHA-256 `d926bb6ec0ff86c4f4f83d4431be7a6553b2bb1da4a5e691726a2867a7b5b05e`;
+- candidate UC GLB: 620 triangles, SHA-256 `0bdf1731348988decf9eefe930922b834175c4e84480e3cf84e1b70fffeb6e4d`;
+- both exact GLBs pass UC per-triangle winding-vs-normal verification.
 
-Retained exact identities:
+### Compact east tree
 
-- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- module source SHA-256: `ffd7b42294d3af71e02aa172157beccefa08c6af2c1198f88836862d2a50fc2e`;
-- rebuilt host OBJ SHA-256: `3e01ef3bf4935ee6aee7c56c03dc0b7f54c308e5ac2eb6a7583252a366901106`;
-- UC socket package SHA-256: `41f4a16fc45fce0628567f5125e4635ca8286c74ebe7ba066b9fc1113e68ffa5`;
-- UC package digest: `sha256:7246a64cdd202d1af9a02c8163aac9804d8e2479c4c74a41faf8e22e4228877d`;
-- UC deterministic instance digest: `sha256:20da57396ee2c6b94c0551f9dffa26a65280c1eaafc46534c07a8b8698541392`.
+`source digest`:
 
-Those package/instance identities match the earlier descriptor-only Technical Art PR #4 evidence, which is continuity evidence: the new target-host path did not silently change the package to make import work.
+`9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`
 
-### Exact right-service binding
+`baseline mesh digest`:
 
-Retained binding:
+`c7367ed5dcea6ebe39869c48fd653845b25c9a8725a2e637a1d6f2fbee1fa32f`
 
-- socket name: `right_service`;
-- compiled socket position: `[0.39, 0.0, 0.16]`;
-- source normal: `[1.0, 0.0, 0.0]`;
-- source lateral: `[0.0, 1.0, 0.0]`;
-- source up: `[0.0, 0.0, 1.0]`;
-- compiled Euler retained: `[0.0, 90.0, 0.0]`;
-- compiled Euler interpreted as generic renderer semantics: **false**;
-- measured body clearance after binding: `0.018000000000000026 m` — floating representation of the existing `0.018 m` structural contract.
+`reindex-only candidate digest`:
 
-The socket atom is retained exactly through UC compilation.
+`420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`
 
-### Exact UC GLB result
+Observed exact path:
 
-Assembly GLB SHA-256:
+- Geometry indexed shared-edge conflicts: `260 -> 0`;
+- UC generic source-mesh orientation conflicts: `260 -> 0`;
+- UC generic emitted-`woody` surface orientation conflicts after Nature conversion/flat-normal expansion: `260 -> 0`;
+- baseline UC GLB: 620 triangles, SHA-256 `e05eb11b1e390a558f8d48f6e44af9f3083d436aaebbe3f1097d6075cf08128e`;
+- candidate UC GLB: 620 triangles, SHA-256 `507c1cd58b234ab70b203daa42a776aad00741f21601c4c5aae2a45fbb7dd17d`;
+- both exact GLBs pass UC per-triangle winding-vs-normal verification.
 
-`c84a57cc4591bfda6a37d05fe64ba95f31ac7a0ae7bd3f918caf9a34b432e68d`
+## Consequential learning / repaired contract
 
-UC verification records:
+The exact evidence answers the Geometry handoff precisely:
 
-- glTF 2.0 GLB: PASS;
-- primitives: **2**;
-- nodes: **2**;
-- materials: **2**;
-- triangles: **824**;
-- finite positions/normals: PASS;
-- indices in range: PASS;
-- nondegenerate triangles: PASS;
-- winding matches normals: PASS;
-- exact UC surface specification digest: `190d61d7622f81aeef15fa1f0c100a0a8a6d5ab9e038a4043fa6f05ebaca3d8a`.
+> **Nature's coordinate/winding bridge does not compensate for the tapered-cap shared-edge defect. The `260 -> 0` repair remains visible through the bridge and through UC's generic seam-welded topology inspection. At the same time, UC `verify_glb()` passes both baseline and repaired variants because its bounded claim is per-triangle winding/normal consistency, not shared-edge orientation consistency.**
 
-### Exact Godot target-host result
+The smallest correct contract is therefore an ordering rule, not a new ontology:
 
-Retained runtime state:
+1. retain exact source mesh identity;
+2. run generic UC seam-welded topology preflight while source adjacency/provenance is explicit;
+3. if a source-owned repair candidate is selected, preserve its distinct exact digest;
+4. perform the source-repo coordinate/normal/material-group bridge;
+5. rerun generic UC topology inspection on topology-sensitive emitted geometry;
+6. publish and verify exact GLB bytes through UC;
+7. keep target-renderer culling/visual acceptance as a separate gate.
+
+This is reusable without centralizing Nature semantics. UC already owns the generic inspector in the correct home.
+
+## Exact-head CI and retained evidence
+
+All relevant workflows are green at exact TA head `c2148be843f8a4815f4705cc06a88834363b6b65`:
+
+- `35065394089 — UC nature topology preflight evidence` — **SUCCESS**;
+- `35065394020 — UC nature surface bridge evidence` — **SUCCESS**;
+- `35065393975 — Nature organic form baseline` — **SUCCESS**.
+
+Retained artifact:
+
+- ID: **10433019907**;
+- name: `nature-uc-topology-preflight-c2148be843f8a4815f4705cc06a88834363b6b65`;
+- reported size: **313,297 bytes**;
+- exact TA head: `c2148be843f8a4815f4705cc06a88834363b6b65`;
+- exact Geometry donor: `deddc890a03684e20322c607741180b6de376ab4`;
+- exact UC donor: `37eabf250f54c2dccaf81bfa2002129e53c1eaff`;
+- archive SHA-256: `2d756c918a05c8f7ecec4fcda4c7b32926cd792d43ff3ed60762535d5328067d`.
+
+The retained ZIP was downloaded after CI and independently SHA-256 rehashed. The digest matched GitHub's artifact digest exactly. Its overall JSON and both study receipts were parsed directly.
+
+## Handoffs
+
+### Geometry / Organic
+
+Geometry PR #7 now has downstream proof that its reindex-only candidate survives Nature -> UC translation and remains distinguishable by generic topology inspection.
+
+This **still does not authorize** rewriting the shared Organic generator. Existing source and mesh digests are already evidence dependencies. If Organic elects to migrate later, every digest-bound downstream consumer must be rebuilt/rebound deliberately; no silent lineage rewrite.
+
+### Organic east-rear tree PR #8
+
+The newer `east-rear-tree-neutral-001` was not in the pinned Geometry donor and therefore does **not** inherit this exact two-body PASS. It remains on the baseline generator and its topology/migration status is held.
+
+### Technical Art / renderer handoff
+
+The remaining exact question is target-engine culling/normal appearance for baseline versus candidate. This activation intentionally did not claim that from structural/GLB evidence. If a source migration is proposed, a fixed target-render comparison should precede it.
+
+### Capability placement
+
+No UC core change is justified. `inspect_mesh_topology()` is already a generic cross-domain capability in the correct repository. The reusable learning is how to compose it into Technical Art pipelines, not a reason to add Nature-specific policy or a second topology inspector.
+
+## Relationship to previous Object Technical Art evidence
+
+The previous Object result remains valid and is not superseded:
 
 `PASS_SOURCE_FRAME_BOUND_UC_GLB_GODOT_HANDOFF`
 
-Godot exact host:
+at Object head `d5cd67b34996ff95dd28495d26ccb8c4a60b7dfd`, pinned UC `646c69df21eb3b1f85ab4b005368bda827b37a14`, retained artifact `10432029651`.
 
-`4.7.2-stable (official)`, GL Compatibility.
-
-The runtime imported the exact GLB SHA-256 above and observed:
-
-- MeshInstance3D count: **2**;
-- mesh names: `equipment-case-host`, `utility-module-right-service`;
-- surfaces: **2**;
-- triangles: **824** exactly;
-- target capture: **820 × 620**;
-- retained PNG size: **19,103 bytes**;
-- non-background pixels: **92,985**;
-- changed/visible coverage: **18.2897%**;
-- visible bbox: `[180,187,622,475]`.
-
-The retained engine capture was directly inspected during this activation. The equipment case and a distinct receiving module are visibly present in the target host. That observation is evidence that actual imported geometry rendered; it is **not** final Materials or Art Direction acceptance.
-
-## Exact-head provenance repair retained
-
-The first workflow run, `35061022828`, was functionally green, but default `actions/checkout` behavior on a pull request checked out GitHub's synthetic merge ref. Its internal source receipt therefore recorded merge SHA `e9bd207a...`, not the candidate PR head.
-
-That artifact is **not** the final exact-head evidence.
-
-The workflow was repaired to explicitly checkout:
-
-`${{ github.event.pull_request.head.sha || github.sha }}`
-
-and was rerun at final head `d5cd67b...`.
-
-No host source, module source, socket placement, UC pin, GLB geometry, Godot proof logic or acceptance threshold was changed to obtain the final exact-head PASS. The repair strengthens provenance/binding only.
-
-## Reusable learning / placement decision
-
-The strongest cross-repo learning is now:
-
-> **A generic descriptor compiler does not need to own physical frame semantics to participate in a real target-host handoff. Preserve the compiled descriptor identity, bind physical orientation from the source-owned frame where that meaning is authoritative, publish through generic UC geometry machinery, and prove the exact target-host import separately.**
-
-Current home remains:
-
-- **Object Design:** source geometry, socket physical frame, attachment plate semantics, receiving-module geometry, fit policy and source→target assembly adapter;
-- **Universal Creation:** domain-neutral Asset Atom validation/compile and domain-neutral surface/GLB publication/verification;
-- **Technical Art:** explicit cross-repo contract, exact revision binding and target-host import evidence;
-- **Materials / Art Direction / Runtime / Physics:** their own later acceptance gates.
-
-No universal attachment fitter is justified from one manufactured family. No generic UC socket-Euler renderer convention is invented from this proof.
-
-## Relationship to prior Technical Art evidence
-
-### Object descriptor-only PR #4
-
-Still valid and now extended rather than replaced:
-
-- PR #4 head `fcd27a806e52779a195ac2ef84e56419faa36d49`;
-- artifact `10430594954`;
-- result `PASS_EXACT_UC_ASSET_INSTANCE_HANDOFF`.
-
-It proves validation → compile → descriptor materialization. PR #7 proves one real target-host continuation using the same package/instance digests plus a later source-owned receiving module.
-
-### Animal / Nature UC surface bridges
-
-Remain valid separate examples. They keep coordinate/material/sidedness conversion semantics in their source repos and use UC as generic output machinery. This Object pass reinforces that placement rather than merging adapters.
-
-### Wreckline provider provenance
-
-Remains unchanged:
-
-- PR #8 head `ba7f49da25711ec6412d054a108c0001316961ae`;
-- result `PASS_CONSUMER_OWNED_PROVIDER_IMPORT_CONTRACT / HOLD_HISTORICAL_PROVIDER_INCOMPLETE`;
-- historical UC provider gap still includes `axm_uc.hard_surface` and `axm_uc.vehicle_hardpoints`.
-
-No historical provider implementation was guessed from the new Object success.
+That pass established one exact source-frame -> UC -> Godot target-host handoff without inventing generic socket-Euler semantics. This activation extends the same placement principle into organic topology: source repos own domain meaning; UC owns generic machinery; Technical Art owns explicit composition and evidence boundaries.
 
 ## Truth boundary / non-claims
 
-This activation proves only that the exact Object host/module sources can cross the exact retained source-frame → UC compile → UC GLB → Godot import/render path described above.
+This activation proves only the exact structural/export claim described above.
 
 It does **not** prove:
 
-- a generic target-renderer interpretation for UC socket `rotation_euler`;
-- dynamic runtime attach/detach or socket discovery/controller behavior;
-- arbitrary module families or arbitrary socket bases;
-- full-mesh collision freedom;
-- physics, engineering load, fastener retention, fatigue or manufacturing tolerances;
-- lid articulation combined with the attached module;
-- Material PR #6 appearance on the exact imported GLB;
-- final lookdev, Visual Observer or Art Director acceptance;
-- runtime performance, residency, draw-call or device budgets;
-- gameplay/controller acceptance;
+- Organic source-generator migration acceptance;
+- topology correctness for `east-rear-tree-neutral-001`;
+- target-engine backface-culling appearance;
+- final normals, tangents, smoothing policy, UVs or materials;
+- production-connected vegetation topology or self-intersection freedom;
+- wind/deformation/rigging/animation quality;
+- Map/Environment visual acceptance;
+- runtime/device performance;
+- collision/gameplay suitability;
+- arbitrary Nature families or arbitrary meshes;
 - CANON, production readiness or Technical Art / UC mastery.
 
 ## Root gate
 
-- **Truth:** the pipeline names each boundary separately. UC compile, source-frame placement, UC GLB verification, Godot import and direct render observation are proven; Euler renderer semantics, physics, runtime controller and aesthetic acceptance remain explicit non-claims.
-- **Agency / non-domination:** Object retains authority over its physical frame meaning. UC is not widened to reinterpret domain semantics for convenience, and downstream specialists keep their own gates.
-- **Continuity:** PR #7 stacks on exact Hard-Surface PR #5, preserves the same host/module sources, reproduces the same package/instance identities from PR #4, pins exact UC, retains exact GLB/runtime evidence and keeps the first merge-ref artifact as provenance rather than silently rewriting history.
-- **Wisdom before speed:** the activation reused existing source and UC machinery, closed one real target-host gap, and refused to create a generic attachment abstraction before repeated independent evidence exists.
+- **Truth:** baseline and candidate identities remain separate; `verify_glb()` is not relabeled as topology evidence; untested renderer claims remain held.
+- **Agency / non-domination:** no merge/promotion/source rewrite was performed; source owners retain the migration decision.
+- **Continuity:** exact TA, Geometry and UC commits plus artifact digests are retained; previous Object evidence remains traceable rather than overwritten conceptually.
+- **Wisdom before speed:** reused UC's existing generic inspector and extended the existing Nature TA lane instead of adding another UC abstraction or duplicate specialist PR.
 
-## Handoffs
+## Current state
 
-- **Hard Surface / Object:** the exact PR #5 receiving module now survives one source-frame-bound Technical Art handoff into a real target host. This does not add engineering acceptance.
-- **Materials / LookDev:** PR #6 remains a separate procedural material A/B. If Materials later needs byte-identical import proof, use this exact GLB/import path rather than reconstructing geometry silently; do not inherit its aesthetic PASS here.
-- **Rigging / Object:** if the lid articulation is later combined with an attached module, test that combined moving assembly separately. This static right-service import does not prove articulation clearance with attachments.
-- **Visual Observer / Art Director:** artifact `10432029651` contains a real Godot render of exact imported GLB geometry and is now a truthful visual QA surface. The Technical Art observation is not aesthetic acceptance.
-- **Runtime / Optimization:** a real imported two-mesh target-host surface now exists, but no frame time, draw-call, residency or target-device performance gate was run. Runtime may use this exact path if a bounded performance question becomes highest-risk.
-- **Capability Cartographer:** the source-local / UC-generic boundary now has a stronger target-host continuation. Do not promote a universal socket-frame adapter until another independent domain reproduces the same executable need.
-- **Universal Creation:** no code change requested. Existing Asset Atom + surface/GLB machinery is sufficient for this bounded crossing. The missing semantics belong at the consumer/source boundary until repeated evidence says otherwise.
-
-## Next Technical Art / UC Integration pass
-
-Prefer one of these evidence-triggered gaps:
-
-1. a **second independent manufactured/source family** uses a UC socket/interface and independently needs the same source-frame → target-host attachment bridge; compare literal duplication before proposing shared tooling;
-2. an engine/runtime consumer needs **dynamic** socket discovery/attach-detach from UC instance descriptors, with renderer-space frame semantics made explicit rather than guessed;
-3. exact Object Materials need to cross this **same imported GLB** rather than a procedural proof reconstruction, creating a real material/import contract question;
-4. another design source exposes a materially different UC target contract that challenges the current source-local / UC-generic placement;
-5. authentic Wreckline historical provider sources are recovered and can be immutably bound/retested.
-
-If those triggers do not exist, do not manufacture a broader UC integration layer. Re-scan the constellation and keep proven domain knowledge where its evidence says it belongs.
+`PASS_EXACT_NATURE_TOPOLOGY_PREFLIGHT_THROUGH_UC_GLB / HOLD_ORGANIC_SOURCE_MIGRATION / HOLD_EAST_REAR_TREE_TOPOLOGY / HOLD_TARGET_ENGINE_CULLING_RENDER / UC_CORE_UNCHANGED`
