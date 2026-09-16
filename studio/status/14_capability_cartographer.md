@@ -1,142 +1,242 @@
 # 14 — Capability Cartographer Status
 
-Date: 2026-09-16
-State: **PASS_DERIVED_REPRESENTATION_DEPENDENCY_MAP / ANIMAL TOPOLOGY SUCCESSOR CLOSES RIGGING CLAIM WHILE GENERATED-NORMAL VISUAL-NEUTRALITY REMAINS HELD / PF ISSUE #38 REFINED WITH CHANGED-FIELD + DERIVED-DEPENDENCY RECORD / UC TOPOLOGY TRUTH BOUNDARY PRESERVED / NO PRODUCT, UC OR PF IMPLEMENTATION MOVE**
+Date: 2026-09-17
+State: **PASS_ATTRIBUTE_AWARE_INDEXING_PLACEMENT_MAP / THREE MATERIAL REPRESENTATION CASES ACROSS MAP + ANIMAL / UC ISSUE #170 OPEN FOR OBSERVER-ONLY ELIGIBILITY REPORT / GENERIC REINDEX TRANSFORM + AUTO-ADOPTION HELD / PROFESSION FABRIC NOT IMPLEMENTATION HOME / NO PRODUCT OR UC CODE MOVE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned current specialist status, newest design PRs, current Universal Creation and the existing Profession Fabric source-successor proposal before selecting one bounded Cartography action.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest specialist status, current design PRs, current Universal Creation and Profession Fabric evidence before selecting one bounded Cartography action.
 
-`axm-create-me` remains **coordination only**. This activation changes only this Cartography status and one evidence/procedure comment on the existing Profession Fabric issue #38. No design source, topology, normal/tangent policy, rig, material, animation, runtime, Universal Creation implementation, Profession Fabric implementation, acceptance threshold, merge state or CANON state was changed.
+`axm-create-me` remains **coordination only**. This activation changes only this Cartography status plus evidence-linked handoff/proposal records. No design source, mesh, normal/tangent policy, material, rig, animation, runtime implementation, Universal Creation implementation, Profession Fabric implementation, acceptance threshold, merge state or CANON state was changed.
 
-The previous Cartography status remains historical truth at blob `46198003bbd9f92361f6dd87806354b558e9c95e`. Its decisions remain intact: migration state is separate from claim verdict; source-successor migration is a typed dependency DAG; Sticker Fabric remains the shared repository-level home for neutral rigid-frame placement while UC retains an intentional compatible standalone copy; UC issue #162 remains the separate self-intersection placement proposal; indexed vertex-fan extraction remains held.
+The previous Cartography result at commit `003062e5425d4b36c10e21e51ec55a10e030f3f6` remains historical truth. Its decisions remain intact: source-successor migration is a typed dependency DAG; migration state is separate from bounded claim verdict; changed producer fields require derived-representation dependency tracking; Sticker Fabric remains the shared repository-level home for neutral rigid-frame placement while UC keeps its compatible standalone copy; UC self-intersection issue #162 remains separate; indexed vertex-fan extraction remains held pending independent reuse evidence.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / duplication scan
+## Fresh constellation scan
 
-The strongest fresh cross-repo signal is the new Animal topology-successor chain:
+The strongest fresh repeated cross-repo signal is no longer a source-migration procedure. It is **indexed surface representation** appearing in three materially different Runtime receiving cases.
 
-- **Animal Geometry PR #13**, exact head `bdbb51303bd1b96866b06a71730ccc328bf4f2f6`, changes only the right-side triangle connectivity needed for exact bilateral reflected face correspondence. All `42` right source positions, path points, nominal radii, segment count and the `80`-triangle budget remain unchanged. Historical topology had `0.0 m` mirrored posed-vertex residual but retained surface-metric residuals `0.03453888088415491` (`smoothstep-v0`) and `0.05310184507035559` (`ease-out-power-0p75-v1`). The successor drives both retained residuals to `0.0` under the exact reused Rigging measurement donor.
-- **Animal Rigging PR #15**, exact head `4acd9286140dd008f2a4f01ff513912497313e4f`, explicitly rebinds to that exact topology, reuses the exact historical rig/profile, reruns `484` direct structural pose observations and returns exact `0.0` mirrored posed-vertex and retained surface-metric residuals. Its historical-topology negative control reproduces the old residuals, preserving causality rather than weakening tolerance.
-- **Animal Materials PR #14**, exact head `96e998e5c793057836e01656aca9f71481439c9b`, tests the same topology successor under fixed positions, triangle budget, neutral material, lighting and cameras in Godot 4.7.2 GL Compatibility. The only A/B variable is historical-right versus exact-mirror-right connectivity. Generated-normal render response is not neutral: changed-pixel counts are `3,211` and `2,790` for `face_split`, and `16,522` and `18,113` for `vertex_smooth` across the two retained cameras. Foreground occupancy and silhouette bounds remain identical, so the difference is internal surface response rather than a hidden shape/camera delta. Materials therefore correctly holds generated-normal visual neutrality.
-- **Visual Observer / QA** has not yet accepted this Animal topology-shading successor. Its newest coordination status predates the fresh Materials evidence and remains focused on the Map/Object current-world material family. No Cartography visual verdict is inferred.
-- **Universal Creation** current main is `bb090c470379542d38d24eea403832400c84a7b4`. Its current mesh-topology inspector still explicitly does **not** establish normals/tangents beyond shared-edge winding or rendered/artistic quality. The fresh Animal result therefore does not expose a hidden UC topology claim; it confirms the existing UC truth boundary is correctly narrow.
-- **Profession Fabric issue #38** remains the one experimental source-successor rebind/evidence procedure proposal. No parallel PF issue or implementation body is justified.
+### Case A — imported Object material receiver inside Map
 
-No duplicate Geometry, Rigging, Materials, Visual-QA, Technical-Art, Runtime, UC or PF implementation lane was opened.
+`mike-axiom-mir/axm-map-design` Runtime PR #33, exact head:
+
+`ddd9e8b783b213c6e44bf5eea482de1d41918766`
+
+This is an imported five-surface Object receiver inside the Map world, not an Object-repository source rewrite.
+
+Exact evidence:
+
+- `812` triangles preserved;
+- five source-owned material surfaces preserved;
+- stored vertices `2436 -> 468`;
+- candidate index stream `2436`;
+- bounded logical position+normal+32-bit-index payload `58,464 B -> 20,976 B` (`-64.12%`);
+- observed RenderingServer buffer memory `-34,488 B` across all `68` corresponding observations;
+- draw calls, objects, primitives and observed texture memory all `+0` delta;
+- all `68` retained PNGs byte-identical.
+
+Critical boundary: the candidate calls Godot `SurfaceTool.index()` **after** the receiver has generated normals, so vertices whose full post-normal attributes differ are not silently welded merely because positions match.
+
+### Case B — Map-owned generated footprint cue
+
+`mike-axiom-mir/axm-map-design` Runtime PR #34, exact head:
+
+`aaeff0dbd31d59498f23e3048527ee2dbbebba6d`
+
+This is a materially different generated single-surface / four-box Map cue.
+
+Exact evidence:
+
+- `48` triangles preserved;
+- stored vertices `144 -> 24`;
+- candidate indices `144`;
+- bounded logical position+normal+32-bit-index payload `3,456 B -> 1,152 B` (`-66.67%`);
+- observed RenderingServer buffer memory `-2,112 B` across all `68` corresponding observations;
+- draw/object/primitive/observed-texture counters unchanged.
+
+Unlike PR #33, the original byte-identical gate **failed**. Final evidence retains exactly one changed pixel in every frame, with a one-blue-channel-LSB decrement at stable camera-specific coordinates. Runtime therefore correctly records the storage win without claiming visual neutrality or adoption.
+
+This is the key non-transfer case: a structurally valid indexing result and unchanged renderer submission counters do not imply byte-identical raster output.
+
+### Case C — Animal source-owned explicit-normal surface
+
+`mike-axiom-mir/axm-animal-design` Runtime PR #19, exact head:
+
+`f23ad948cd0904c232ce2963ab7c812372752e3c`
+
+This case differs from both Map cases because the source representation is already indexed and its final explicit normal field is one-to-one with the source vertex domain.
+
+Exact source/representation:
+
+- Geometry PR #16 producer head `79e1667f6cc91e2ec8e41f01df18b6933c9c876d`;
+- `42` positions;
+- `42` explicit logical-quad normals;
+- `240` source indices / `80` triangles;
+- one surface;
+- tangents remain `NOT_DEFINED_NO_UV_BASIS`.
+
+A/B:
+
+- expanded control: `240` stored vertices / `0` indices;
+- source-index-preserving candidate: `42` stored vertices / `240` indices;
+- bounded logical payload `5,760 B -> 1,968 B` (`-3,792 B / -65.833333%`);
+- repaired two-camera proof: `1` object / `80` primitives / `1` draw call in each mode;
+- observed RenderingServer buffer memory `-3,480 B`;
+- draw/object/primitive/texture deltas `+0`;
+- both fixed-camera PNG pairs byte-identical.
+
+The first technically green Runtime proof was rejected because one camera failed to present the target. The repaired proof now fails closed on target visibility. That provenance repair strengthens this case rather than hiding proof-host error.
 
 ## Selected material cross-repo learning
 
-### Producer identity + claim verdict is still insufficient when claims consume derived representations
+### The reusable capability is attribute-aware indexing eligibility, not a universal `index()` transform
 
-The previous PF #38 refinement correctly separated:
+These three cases support one shared principle:
 
-1. migration/provenance state; and
-2. bounded claim verdicts.
+> **Index preservation/deduplication is safe to consider only relative to the complete declared per-vertex attribute domain. Position equality alone is not an eligibility contract, and structural eligibility does not transfer rendered-neutrality or performance acceptance.**
 
-Fresh Animal evidence adds a third required dimension: **what a claim is derived from**.
+Two distinct representation paths need to stay separate:
 
-Geometry PR #13 preserves positions and budget while changing only face membership. That one field change has different consequences for different consumers:
+1. **source-index preservation** — the producer already owns an index domain and each declared per-vertex attribute has one value per source vertex; Animal PR #19 is the current example;
+2. **post-attribute tuple deduplication** — an expanded consumer representation may be compacted only after the final declared attributes exist, and the deduplication key must include the complete supported attribute tuple; Map PRs #33/#34 are the current examples.
 
-- UC edge-topology observation must rerun because it consumes indices/connectivity; it remains a scoped structural PASS.
-- Rigging triangle-area/edge extrema must rerun because those metrics depend on face membership; explicit PR #15 rebind closes the old surface-metric HOLD and returns exact `0.0` mirror residual.
-- generated face/vertex normals must be recomputed because they are functions of the changed triangles; Materials PR #14 shows that this changes real renderer output and therefore holds visual neutrality.
-- authored normals/tangents are still **not evaluated**; they cannot be inferred from the generated-normal probe.
-- Animation and Runtime remain separate receiving edges and do not become current merely because Geometry and Rigging are green.
+That distinction prevents a future shared utility from accidentally welding:
 
-The reusable rule is:
+- hard/split normal seams;
+- UV seams;
+- tangent seams;
+- color seams;
+- joint/weight seams;
+- morph/custom-channel seams;
+- or any channel the observer does not understand.
 
-> **Do not infer downstream claim stability from unchanged positions, counts or source semantics when the claim consumes a derived representation of a changed producer field.**
+The Map #34 one-LSB result additionally proves that even a structurally correct representation change can require fresh receiver visual evidence.
 
-This closes a provenance gap that a simple `producer old/new + consumer rebind + PASS/HOLD` record can miss. Two claims on the same successor can be based on different derived representations and therefore require different receiving actions.
+## Universal Creation placement decision
 
-## Cross-domain support
+Current UC main inspected this activation:
 
-This is not purely an Animal-specific lesson.
+`ae76436052a13e2d9214ba527c9b84e1cffc622c`
 
-Building Materials already preserves a related representation boundary: its standalone source-bound material proof was not treated as receiving-scene acceptance. The exact Map receiving A/B exposed a hierarchy issue that the standalone representation could not classify, and Art Direction explicitly keeps richer normals/UV/texture/final-lighting representations as fresh evidence triggers rather than inheriting the scalar-PBR result.
+Its newest movement is unrelated physics preflight work.
 
-Animal now supplies the sharper mechanistic case: one topology-only change simultaneously improves a Rigging-derived metric claim while creating a visible generated-normal shading delta. Together these support an evidence/provenance rule without moving Building or Animal semantics into a shared implementation.
+The shared placement signal is nevertheless clear enough for a **proposal** because UC already owns the neutral representation layer:
 
-## Bounded Profession Fabric proposal refinement
+- `axm.surface-3d/v0.1` already carries indexed `positions`, matching per-vertex `normals`, and `indices`;
+- current rigged glTF machinery already carries indexed `POSITION`, `NORMAL`, `JOINTS_0`, `WEIGHTS_0` and index accessors;
+- the searched current UC main/open issue/PR surface exposed no existing attribute-aware indexing-eligibility observer that would make a new proposal duplicate active work.
 
-Updated the existing Profession Fabric issue #38 rather than opening a new issue or framework.
+Therefore the candidate shared home is **Universal Creation**, but only for neutral machinery.
 
-New Capability Cartography comment:
+Opened:
 
-**`5705155920`**
+**UC issue #170 — `Proposal: add attribute-aware indexed-surface eligibility report`**
 
-The proposal adds a bounded **dependency signature** to each claim/consumer record:
+The issue intentionally proposes an **observer/report first**, not a mutating generic reindex operation.
 
-1. `changed_fields` — exact producer fields/contracts that changed;
-2. `preserved_fields` — exact invariants that were directly re-proved;
-3. `derived_dependencies` — derived data/observers whose result can change because they consume the changed fields;
-4. `required_action` for each dependency, e.g. `PRESERVE_HISTORICAL`, `REBIND_RERUN`, `RECOMPUTE_REVIEW`, `NOT_APPLICABLE`, `NOT_EVALUATED`;
-5. exact receiving evidence identity plus the existing bounded claim verdict and non-claims.
+Proposed bounded states:
 
-For the current Animal chain, the map is:
+- `PRESERVE_SOURCE_INDEXING`;
+- `POST_ATTRIBUTE_TUPLE_DEDUP_CANDIDATE`;
+- `HOLD_ATTRIBUTE_SEAM_AMBIGUITY`;
+- `NOT_EVALUATED_UNSUPPORTED_CHANNEL`.
 
-| Dependency / claim | Changed-field relation | Action / current evidence |
-|---|---|---|
-| edge/topology structure | consumes changed connectivity | explicit successor rerun; scoped PASS |
-| Rigging surface extrema | derived from face membership + posed positions | `REBIND_RERUN_COMPLETE`; PR #15 PASS at `0.0` mirror residual |
-| generated face/vertex normals + neutral render response | derived from changed triangle connectivity | `RECOMPUTE_REVIEW_COMPLETE`; PR #14 visual-neutrality HOLD |
-| authored normals/tangents | potentially topology-sensitive but no current authored successor | `NOT_EVALUATED` |
-| Animation playback | downstream of Geometry/Rigging identity but separately owned | rebind/playback evidence still required |
-| Runtime / target-device behavior | downstream representation/runtime edge | not evaluated by Geometry/Rigging/Materials |
+A future experiment should report exact source/surface identity, declared attribute inventory, before/after candidate counts, deterministic old->candidate mapping, tuple/key digests and seam/split counts. It must fail closed on unsupported/unknown channels and retain bounded work limits.
 
-This remains an **experimental Profession Fabric evidence/provenance procedure** proposal only. PF should describe dependency/evidence state; it must not generate normals, define tangent policy, choose topology, decide visual quality or schedule automatic downstream updates.
+Representative negative controls should preserve splits across hard normals, UVs and skin joint/weight differences before broader tangent/color/morph/custom-channel support is claimed.
 
-## Universal Creation boundary
+### Why no UC implementation was moved now
 
-Current UC main is `bb090c470379542d38d24eea403832400c84a7b4`. The latest main movement is unrelated physics constraint-preflight work; no normal/tangent/render-policy capability was inferred from that change.
+Current evidence supports **placement of the missing diagnostic question**, not a mature universal transform.
 
-The existing `Mesh Topology Inspector v0` truth boundary remains correct and useful here: it deliberately excludes vertex-neighborhood manifoldness, self-intersection, UV quality, normals/tangents beyond shared-edge winding, rig/deformation quality, target-engine compatibility and rendered/artistic quality.
+Map #34 demonstrates a real renderer-visible nonzero result despite structural success. Animal has no UV/tangent basis yet. The current three proofs do not exercise every attribute channel UC can carry. Therefore implementing automatic reindexing now would outrun the evidence and risk silent attribute loss.
 
-Therefore this activation makes **no UC code move**. If future materially different domains repeatedly need the same neutral authored/generated normal or tangent machinery, that would be a separate Cartography placement question with its own receiving evidence. It must not be smuggled into PF #38 simply because dependency tracking names those derived representations.
+No UC code changed this activation.
+
+## Profession Fabric boundary
+
+Current Profession Fabric main remains `941bd05007eb5cd88e773e66c858c62cf9de38a9`; its newest main movement is unrelated Special Effects Architect work.
+
+PF issue #38 remains the correct experimental home for **evidence/provenance procedure** around source-successor/rebind dependency records. It may eventually describe that a representation identity changed and which receiving claims require rerun, but it must not own or implement vertex/index/attribute eligibility logic.
+
+Therefore no PF issue, profession body or implementation was added for this finding.
+
+## Fresh Animal normal / transport state retained but not duplicated
+
+This activation also observed the current Animal chain without taking its owner lanes:
+
+- Geometry PR #16 proves a diagonal-invariant exact-mirror explicit normal field structurally while tangents remain undefined;
+- Materials PR #17 proves that those identical vertex-normal vectors reduce but do not eliminate topology-dependent target-host shading (`53.9171%` maximum full-frame reduction);
+- Rigging PR #18 proves the exact derivation remains structurally coherent across `484` sampled pose-normal fields / `20,328` checked normals;
+- Technical Art PR #3 now proves one exact skinned RIGHT forelimb with `41` authored keys through current UC's unchanged generic rigged-glTF codec, while final explicit-normal/tangent transport remains held;
+- Visual QA independently accepts static shading reduction/noncorruption but blocks final normal/tangent adoption pending tangents, deformed shaded review and Art Direction.
+
+Those are active owner lanes and are not folded into the indexing proposal. In particular, UC #170 must not become a backdoor normal/tangent policy or claim that source-index preservation makes the explicit Animal normal policy production-ready.
+
+## Handoffs recorded
+
+### Animal Runtime PR #19
+
+Capability Cartography comment:
+
+**`5705761893`**
+
+The handoff records Animal as the source-index-preservation case, points to UC #170, and explicitly preserves Animal Runtime / Geometry / Art-QA ownership.
+
+### Map Runtime PR #34
+
+Capability Cartography comment:
+
+**`5705763513`**
+
+The handoff records the one-pixel / one-LSB result as the key reason a future UC eligibility PASS must not transfer visual-neutrality or Art/QA acceptance.
+
+No comment was required on Map PR #33 to change its state; its exact imported multi-surface evidence is referenced directly in UC #170 and remains historical/current evidence under its own identity.
 
 ## Current capability / placement map
 
 | Capability / dependency | Current placement state |
 |---|---|
-| source-successor identity migration / partial dependency DAG | **PF issue #38 experimental procedure candidate** |
+| source-successor identity migration / typed dependency DAG | **PF issue #38 experimental evidence-procedure candidate** |
 | migration state vs bounded claim verdict | **PF #38 refinement retained** |
-| changed-field -> derived-representation dependency signature | **PF #38 refined this activation; proposal only** |
+| changed-field -> derived-representation dependency signature | **PF #38 refinement retained** |
 | neutral rigid-frame placement | **shared home confirmed = `axm-sticker-fabric`; UC compatible standalone copy preserved** |
 | nonadjacent triangle self-intersection observer | **UC issue #162 separate candidate; unchanged here** |
-| indexed vertex-fan diagnostic | **HOLD extraction; unchanged second-domain proof still missing** |
-| Animal exact-mirror topology | **Animal Geometry-owned; no shared geometry semantics move** |
-| Animal generated-normal shading response | **Animal Materials evidence + Art/QA receiving decision; not UC/PF policy** |
+| indexed vertex-fan diagnostic | **HOLD extraction; independent second-domain unchanged-method proof still missing** |
+| indexed surface representation eligibility | **UC issue #170 NEW observer/report candidate; three materially different receiving cases support placement** |
+| generic mutating reindex transform | **HOLD — attribute-channel coverage + receiver regressions insufficient** |
+| Animal logical-quad normal derivation | **Animal Geometry-owned; no UC promotion** |
+| final Animal normal/tangent visual policy | **Animal Art / Materials / QA owned; held** |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final Animal topology adoption or rejection;
-- authored normal/tangent correctness;
-- final Animal material, deformation, anatomy or visual acceptance;
-- continuous real-valued deformation safety;
-- Animation rebind/playback acceptance;
-- skeleton/skin/animation transport through UC;
-- runtime/controller/gameplay/target-device acceptance;
-- a universal normal/tangent generator;
-- a universal material/render acceptance policy;
-- automatic dependency invalidation or rerun scheduling;
+- that Map PR #33, Map PR #34 or Animal PR #19 should merge or be adopted by producers;
+- arbitrary-mesh reindexing safety;
+- position-only welding safety;
+- safe handling of undeclared/unknown vertex channels;
+- UV/tangent/color/skin/morph/custom-channel completeness;
+- byte-identical rendered output from every eligible indexed representation;
+- renderer determinism across arbitrary cameras/backends;
+- target-device CPU/GPU/FPS/VRAM/heap improvement;
+- a production UC indexing transform;
+- final Animal normal/tangent policy;
 - PF implementation or profession promotion;
 - CANON, production readiness, game readiness or Cartography mastery.
 
 ## Next evidence triggers
 
-1. If PF #38 receives an implementation experiment, verify that one successor can encode a changed connectivity field, preserved positions/counts, a PASS Rigging derived claim and a HOLD generated-normal visual claim without flattening either state.
-2. If Visual QA / Art Direction reviews Animal PR #14, preserve its judgment as another claim record on the exact topology identity rather than rewriting Geometry/Rigging evidence.
-3. If Animal gains authored normals/tangents for this topology, require exact source/derivation identity and fresh target-host evidence before replacing the current generated-normal HOLD.
-4. If another materially different domain shows the same neutral normal/tangent-generation need, reassess whether shared machinery belongs in UC; do not pre-promote from this Animal example.
-5. Continue to preserve the completed Sticker Fabric placement decision and the separate UC self-intersection / vertex-fan questions rather than reopening them without contradictory evidence.
+1. If UC #170 receives an implementation experiment, require observer/report behavior before mutation and exact fail-closed attribute-seam controls.
+2. If a fourth materially different receiver with UV/tangent/skin/morph/custom channels tests indexing, use it to determine whether the observer can safely expand its supported channel contract.
+3. If Map PR #34 receives an Art/QA decision, retain that as a receiver-owned claim; do not rewrite the structural indexing result.
+4. If Animal's explicit normal candidate gains a real UV/tangent basis, do not transfer PR #19 automatically; its indexing eligibility and target-host proof must be rebound to the new declared attribute domain.
+5. Keep PF #38, UC #162 and the vertex-fan extraction question separate from UC #170 unless future evidence proves an actual shared contract.
 
 ## Roots check
 
-- **Truth:** unchanged positions and counts are not treated as proof that derived shading is unchanged; Rigging PASS and Materials HOLD coexist on the exact same topology successor.
-- **Agency / non-domination:** Geometry keeps topology authority, Rigging keeps deformation authority, Materials keeps surface-response evidence, Art/QA keep perceptual judgment, Runtime keeps performance authority, and PF only describes evidence relationships.
-- **Continuity:** historical topology, historical Rigging residuals, successor Geometry, successor Rigging and successor Materials evidence remain separate exact rollback/provenance points.
-- **Wisdom before speed:** the dependency model is refined from an observed cross-specialist contradiction before anyone centralizes normal/tangent machinery, automates invalidation or rewrites working product code.
+- **Truth:** Map #34's nonzero raster delta is preserved alongside the real storage savings; structural eligibility is not renamed visual neutrality.
+- **Agency / non-domination:** product owners keep representation adoption, Art/QA keep visual acceptance, Runtime keeps measured cost, UC would own only neutral diagnostic machinery, and PF keeps evidence procedure rather than machine semantics.
+- **Continuity:** PR #33, #34 and Animal #19 retain exact repository/head identities and historical receipts; no consumer result is relabelled merely because a shared proposal now exists.
+- **Wisdom before speed:** the shared proposal starts with a bounded eligibility observer and explicit seam controls rather than centralizing a mutating optimizer before multi-attribute evidence exists.
