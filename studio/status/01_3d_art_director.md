@@ -1,44 +1,47 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-16
-State: **PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_PREFERENCE_011 / QA + RUNTIME + OBJECT_FOOTPRINT + INNER_LID HELD**
+State: **PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_FOOTPRINT_CUE_PREFERENCE_012 / VISUAL QA + TARGET PERF + OBJECT SCALE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the current Art Director / Organic / Visual-QA status, current open design PRs and the newest completed visual/runtime handoffs across the design constellation before selecting one bounded visual-direction decision.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, current Art Direction / Environment / Visual-QA / Runtime / Materials status and the newest open design-constellation PR evidence before selecting one bounded visual-direction decision.
 
-`axm-create-me` remains **coordination only**. No Map, Object, Nature, Building, Weather, Character, Animal, Runtime, Universal Creation, Profession Fabric or gameplay implementation was authored here.
+`axm-create-me` remains **coordination only**. No Map, Object, Animal, Character, Building, Nature, Weather, Runtime, Universal Creation, Profession Fabric or gameplay implementation was authored here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Historical decisions preserved
 
-The immediately previous Nature result remains historical truth:
+The immediately previous Object-material result remains historical truth:
 
-- `PASS_ART_DIRECTION_CURRENT_WORLD_NATURE_WOODY_FOLIAGE_PREFERENCE_010`;
-- exact Nature woody/foliage values remain preferred in their reviewed current-world context;
-- Visual QA, final leaf-sidedness and Runtime target acceptance remain separate gates.
+- `PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_PREFERENCE_011`;
+- exact five-surface base Object family remains preferred for the current fixed-camera Map context;
+- independent Visual QA has now also returned `PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_VISUAL_READABILITY_GATE` on all 68 retained current-world frames;
+- the large darkening is therefore retained as an intentional industrial hierarchy rather than brightened back toward the neutral proof material.
 
-Earlier accepted Building infill + Weather-width current-world hierarchy, fixed-state Weather-width preference, latest-due explicit-degradation-only decision and Animal selected-003 left-elbow direction all remain unchanged in their exact scopes.
+Earlier current-world Building infill, Weather source-width, combined Building+Weather hierarchy, Nature woody/foliage, Animal selected-003 left-elbow source preference and Weather latest-due degradation decisions remain unchanged in their exact scopes.
+
+No prior PASS is converted into CANON, production readiness or mastery.
 
 ## Fresh constellation / duplication scan
 
-The highest-leverage ready visual-direction surface is now the **base Object five-surface material family inside the newest exact current-world Map receiver**.
+The highest-leverage ready visual-direction surface is now the **Map-owned west Object footprint cue on top of the already-preferred and independently QA-green five-surface Object world**.
 
 Why this outranks opening another lane:
 
-- Environment PR #24 now has a completed 68-frame Godot receiving proof at exact head `6575cc38db9f0f62b14a82b352d8582edf89856d`, stacked directly on the already-preferred Nature-family world.
-- The Object material delta is exact, localized and held to one source asset while Building, Nature, route, Weather, cameras, lighting, source geometry, placement and scale remain unchanged.
-- Object Materials PR #6 already owns the scalar-PBR family and explicitly hands final receiving preference to Art Direction / Visual QA, so choosing the visual direction does not duplicate Materials implementation.
-- The newer Object inner-lid experiment is a separate Materials review candidate and is explicitly excluded from the Map receiving proof; bundling it into this decision would violate attribution.
-- Visual QA's newest Weather temporal-exposure result is currently held behind `FAIL_TEMPORAL_SMOOTHING_ATTRIBUTION__STATIC_OPACITY_ATTENUATION_CONFOUND`. Runtime has additionally measured nonzero two-tap cost. Art Direction should therefore not choose that Weather presentation until an opacity-normalized comparison exists.
-- Character's shoulder retessellation still carries nonzero sampled self-intersections despite a reduction, so final Character visual acceptance remains premature.
-- Animal Organic has now propagated selected-003 exactly to the right side, but right-side Geometry/Rigging/Visual/Animation/Runtime acceptance is explicitly held; another Animal aesthetic decision would outrun its dependency chain.
-- Building header segmentation and the historical Map-owned Object footprint cue remain useful future visual gates, but the fresh Object material receiver is newer, semantically stronger and already has a direct current-world A/B.
-- Weapon, Armor, Unit and Misc expose no fresher completed visual handoff that outranks this exact Object comparison.
-- UC / Profession Fabric / Capability Cartography expose no reason to centralize this source-specific material preference.
+- Environment PR #24 now isolates only cue visibility at exact head `2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd`, with Object geometry, transform, scale, five-surface materials, Building, Nature, Weather, route, lighting and cameras fixed.
+- The historical footprint cue question had remained explicitly held because its older A/B predated the accepted Object material family. That context mismatch is now closed with a fresh 68-frame current-world review.
+- Visual QA has independently cleared the base Object material family, so evaluating the footprint cue no longer outruns that dependency.
+- Runtime's newest Object PR #33 is a separate visually neutral indexed-surface payload optimization: it reports 68/68 byte-identical control/candidate PNGs and does not decide the cue.
+- Object Materials' source-owned inner-lid rebind is newer provenance evidence but remains a separate open-pose lookdev candidate, not the current-world grounding problem.
+- Character's latest stitch-edge repair and Rigging rebind still retain nonzero sampled shoulder intersections; stronger Character visual acceptance would outrun an explicit structural HOLD.
+- Animal's bilateral selected-003 chain is structurally advanced, but its newest Rigging evidence retains a stricter exact surface-metric mirror HOLD and Animation/visual successor acceptance remains separate.
+- Building, Nature and Weather already have active accepted/held lanes; reopening them would duplicate current work without a stronger finished visual handoff.
+- Weapon, Armor, Unit and Misc expose no fresher completed visual handoff in the current open-PR scan that outranks the exact Map cue A/B.
+- UC / Profession Fabric / Capability Cartography expose no reason to centralize a Map-specific placement frame.
 
-No duplicate Materials, Environment, VFX, Runtime, QA, Geometry or Animation lane was opened.
+No duplicate Environment, Object Materials, Runtime, Geometry, Rigging, VFX or QA implementation lane was opened.
 
 ## Exact reviewed identity
 
@@ -46,152 +49,168 @@ Receiving repository: `mike-axiom-mir/axm-map-design`
 
 Environment PR: **#24 — `Environment: converge Weather variant with exact Object source`**
 
-Exact Object-material current-world head:
+Exact current review head:
+
+`2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd`
+
+Exact reviewed parent:
 
 `6575cc38db9f0f62b14a82b352d8582edf89856d`
 
-Exact parent Nature-family current-world head:
+Parent composition digest:
 
-`72d4128b602e27c886a0731ddd670ec8c14aaa7e`
+`677dfe17afe49bf3f6edc28359c40a8add3dc357cb918529f0015a99f71baf70`
 
-Object source authority:
+Map-owned cue:
+
+`environment:dressing:west-object-service-footprint-frame-001`
+
+Exact Object source authority remains:
 
 `mike-axiom-mir/axm-object-design@d3fa10a270faae7925811f44f03381fe5c5d0215`
 
-Object Materials authority consumed by the receiver:
+Exact Object Materials authority remains:
 
-- base Materials identity `c85517446a769e0d5f880fc0e9e32f47124f7b5e`;
+- Materials head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`;
 - profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`;
-- `shell_coating`: `#3F484EFF`, metallic `0.42`, roughness `0.54`;
-- `service_dark`: `#252B2FFF`, metallic `0.18`, roughness `0.66`;
-- `hardware_steel`: `#9AA3A8FF`, metallic `0.88`, roughness `0.32`;
-- `rubber_guard`: `#171A1CFF`, metallic `0.0`, roughness `0.86`;
-- `interface_orange`: `#A96532FF`, metallic `0.20`, roughness `0.48`.
+- source geometry `468 vertices / 812 triangles`;
+- current-world roles `shell_coating`, `service_dark`, `hardware_steel`, `rubber_guard`, `interface_orange`.
 
-The receiver covers the exact static host Object at `468 vertices / 812 triangles` and consumes only those five roles. `module_housing` is absent because the utility module is not present in the Map world. The newer inner-lid `service_dark` review experiment is explicitly excluded.
+The footprint decision changes none of those identities.
 
-## Evidence independently checked
+## Evidence directly checked
 
-Current Object-material artifact:
+Dedicated Environment workflow:
 
-- ID `10466065113`;
-- GitHub SHA-256 `87dd366302e94b5a6f8241e110e9629c2d81a0d7321197b14a52b860642fd519`;
-- independently downloaded and rehashed to the exact same digest;
-- retained `exact-head.txt` = `6575cc38db9f0f62b14a82b352d8582edf89856d`;
-- 68 retained Godot 4.7.2 frames: `17 states × 2 cameras × 2 inherited Weather modes`.
+`35148577687 — Environment Object footprint on preferred material review` — **SUCCESS**.
 
-Exact parent artifact:
+Retained artifact:
 
-- ID `10463255035`;
-- independently downloaded and rehashed to SHA-256 `a4dbc0e2b8ef6f16bb846d0f639b7935b414ddfe4222463f397d11a16cfc0a45`;
-- retained `exact-head.txt` = `72d4128b602e27c886a0731ddd670ec8c14aaa7e`.
+- ID `10467822460`;
+- size `11,159,487 B`;
+- SHA-256 `6e8ea42e2095beac7fad3770192502bf5114ef87206ec57542b3ccddfe055040`;
+- Environment result `PASS_CURRENT_WORLD_OBJECT_FOOTPRINT_ON_PREFERRED_MATERIAL_REVIEW_READY`.
 
-I independently reproduced the exact all-frame Object-local delta:
+The exact proof keeps the cue mesh/resource resident and changes only visibility: `CONTROL_HIDDEN` versus `CANDIDATE_VISIBLE`.
 
-- `path_eye`: exactly `1,850 / 792,000` pixels change in every one of the 34 mode/state pairs, bbox `(300,425)-(366,454)`;
-- `elevated_oblique`: exactly `632 / 792,000` change in every pair, bbox `(543,295)-(578,319)`.
+Across `17 states × 2 cameras × 2 inherited Weather modes = 68` exact comparisons:
 
-Independent luma diagnostics on the changed Object pixels show the direction is strongly darker, not a hidden geometry/composition shift:
+- every candidate-visible frame reproduces the retained preferred Object-material world;
+- every hidden-versus-visible delta remains inside the projected cue bounds;
+- `path_eye`: exactly `161` changed pixels above the retained >1-LSB threshold, fixed bbox `x=286..377, y=447..457`;
+- `elevated_oblique`: exactly `106` changed pixels, fixed bbox `x=534..587, y=309..324`;
+- all `1,224` inherited Weather source-width observations remain valid;
+- maximum projected Weather-width residual is `0.00974698571769128 px`, still under the inherited `0.05 px` gate.
 
-- `path_eye` median changed-pixel luma approximately `130.655 -> 47.368`; `1,845 / 1,850` changed pixels darken by more than 1 LSB;
-- `elevated_oblique` approximately `140.655 -> 57.877`; all `632 / 632` changed pixels darken by more than 1 LSB.
+Proof-host visibility cost remains explicit:
 
-These numbers are descriptive for the exact proof host only and are not generalized thresholds.
+- `+1` draw call;
+- `+1` object;
+- `+48` primitives;
+- `+0 B` observed buffer memory in the same-resident hidden/visible comparison;
+- `+0 B` observed texture memory.
 
-I directly compared states `0 / 8 / 16` in both fixed cameras, using the already-preferred source-width Weather mode.
+The older no-cue -> cue-creation comparison separately measured `+2,304 B` observed buffer memory. Those two cost observations are not conflated.
 
-## Exact visual observations
+Two failed Environment setup attempts also remain historical provenance and were not used as acceptance evidence: run `35147985983` stopped before render on a missing generated path; run `35148463598` stopped on a proof-only child identity lookup assumption.
 
-The parent neutral Object response is visible but visually flat. Shell, service face, protection and hardware all compress toward one pale proof-material read, so the small case feels more like a test object than an authored industrial prop.
+## Direct visual observations
 
-The five-surface candidate improves functional hierarchy despite the large overall value reduction:
+I directly compared representative retained states `0 / 8 / 16` in both fixed cameras, including enlarged Object-region crops, while keeping the accepted five-surface Object material family fixed.
 
-- the dark shell/service family produces a compact industrial-case read rather than a pale proxy-like block;
-- bright steel hardware becomes the detail layer that explains the lid/front construction;
-- rubber/guard response remains subordinate;
-- the tiny orange interface stays a restrained accent instead of competing with the Building service accent or east orange proxy;
-- because the case sits on light ground, its darker silhouette remains readable in both fixed views;
-- Building, route, Nature and Weather retain their established hierarchy around it.
+The cue is deliberately thin and visually sparse at full-frame scale.
 
-The exact source remains materially smaller than the historical west proxy. This pass does **not** claim that historical scale/readability issue is solved. The unchanged Map-owned footprint cue exists in the parent context but is not independently accepted by this material-family decision.
+### `path_eye`
+
+Without the cue, the small dark equipment case remains readable against the light ground, but its placement can read as a small isolated prop sitting in open ground. With the exact visible cue, the same source reads more intentionally seated in a defined service slot. The cue does not make the Object itself larger and does not flatten the accepted dark-body / bright-steel / restrained-orange hierarchy.
+
+### `elevated_oblique`
+
+The cue gives the same small source a clearer footprint relation to its placement while remaining subordinate to the pavilion, route, Nature and Weather layers. It does not become a competing focal element, does not pull attention away from the Building and does not compete with the warmer east-side control/accent.
+
+The useful visual change is therefore **grounding and placement intent**, not solved source scale. The historical question of whether the Object itself is sufficiently prominent remains open.
 
 ## Art Direction decision
 
-**`PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_PREFERENCE_011`**
+**`PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_FOOTPRINT_CUE_PREFERENCE_012`**
 
 Exact meaning:
 
-> Prefer the exact five-surface base Object material family over the neutral proof response for `modular-equipment-case-001` in exact current-world head `6575cc38...`. Preserve source geometry, transform, scale, current Map composition, footprint context, Building, Nature, Weather, lighting and cameras while this preference propagates.
+> Prefer the exact existing Map-owned cue `environment:dressing:west-object-service-footprint-frame-001` in its current visible form over the cue-hidden control for exact Environment head `2755dd3b...`, on top of the already-preferred five-surface Object-material parent `6575cc38...`.
 
-Do not brighten the whole case merely to imitate the neutral proof object's visibility. If independent QA finds a real readability defect, repair the smallest attributable surface/hierarchy issue rather than flattening the functional material separation.
+The cue should remain restrained. Do **not** thicken it, brighten it, enlarge it into a large pad, or use this PASS to rescale the Object. Do not infer physical service-pad, collision, navigation or gameplay semantics from a visual grounding cue.
 
-This is a bounded visual preference only. It is not CANON and not production readiness.
+This is a bounded current-world fixed-camera preference only. It is not CANON and not production readiness.
 
 ## Direction packet
 
 Created:
 
-`studio/direction/CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_DIRECTION_011.md`
+`studio/direction/CURRENT_WORLD_OBJECT_FOOTPRINT_CUE_DIRECTION_012.md`
 
 Creation commit:
 
-`b6277333149a379ee2376d019b644df1179509e3`
+`bec52adc8a4e4265134416b6d8ca2549fe0105e8`
 
 ## Handoffs
 
 ### Environment / Map PR #24
 
-Keep exact head `6575cc38...` as the preferred current-world Object base-material presentation candidate while independent QA reviews the full 68-frame sequence. Do not bundle a scale, footprint, light, geometry or Weather change into that review.
-
-### Object Materials PR #6
-
-The base five-role host family is directionally accepted in this exact Map context. Preserve the exact scalar values for current-world propagation. The newer inner-lid `service_dark` experiment remains a separate review candidate and gains no acceptance from this PASS.
+Keep the exact current cue visible on the preferred Object-material world as the Art Direction candidate. Do not bundle scale, transform, material, lighting, Weather, Building, Nature or route changes into the same next acceptance step.
 
 ### Visual Observer / QA
 
-Review all 68 current-world frames for small-object readability, hardware/service separation, silhouette loss against local shadows/dark structural elements, accidental orange focal pull and mode/state-specific artifacts. Art Direction preference does not replace that independent gate.
+Review the full 68 hidden/visible pairs for accidental selection-box/debug-frame appearance, edge aliasing, state/mode-specific flicker, loss against local ground/shadows, unwanted focal pull and camera-specific regressions. Art Direction preference does not replace independent QA.
 
 ### Runtime / Optimization
 
-Environment reports a stable exact proof-host delta versus the Nature-family parent of:
+Keep the exact `+1 draw / +1 object / +48 primitives` visibility cost and distinct historical creation-cost observation. Target-device performance remains Runtime-owned. Runtime PR #33's indexed five-surface Object optimization is separate and visually neutral in its retained exact scope; it neither approves nor rejects this cue.
 
-- `path_eye`: `+8` draw calls / `+8` objects;
-- `elevated_oblique`: `+8 / +8`;
-- primitives `+0`;
-- observed buffer-memory delta `0 B`;
-- observed texture-memory delta `0 B`.
+### Object
 
-These are diagnostics only. Target-device acceptance remains Runtime-owned; do not collapse material roles on this proof-host counter delta alone.
+Source geometry, scale, transform, material and mechanical authority remain with Object. This Art Direction pass requests no source edit and does not claim the scale/readability question is solved.
 
-### Object scale / Map footprint
+### Object Materials
 
-Keep those decisions separate. This pass does not approve rescaling the source and does not independently approve the existing Map-owned footprint cue. If either becomes the next visual gate, compare it against this material-preferred Object rather than the old neutral proof response.
-
-### VFX / Weather
-
-Do not compensate Object readability with atmosphere changes. The two-tap temporal-exposure candidate remains held behind QA's static-opacity attribution failure and Runtime's nonzero cost characterization.
+The accepted base five-role material family remains fixed receiving context. The separate source-owned inner-lid `service_dark` review candidate gains no acceptance from this PASS.
 
 ### Character / Animal
 
-Character remains held behind nonzero shoulder intersections. Animal right-side selected-003 propagation must earn its own Geometry/Rigging/Visual/Animation evidence; no acceptance transfers from the exact mirror relation alone.
+Character remains held behind nonzero sampled shoulder intersections. Animal bilateral selected-003 evidence remains structurally promising but still requires its own exact downstream visual/Animation acceptance. No acceptance transfers from this Map decision.
 
 ### UC / Profession Fabric / Capability Cartography
 
-No Object material rule is centralized. Source/material authority remains in Object and receiving evidence remains in Map.
+No Map-specific cue rule is centralized. This is one receiving composition aid around one exact source asset.
 
 ## Explicit non-claims
 
-This activation does **not** establish final Object scale/readability; independent acceptance of the Map footprint cue; the inner-lid material experiment; utility-module materials; articulation, keeper/lever motion or mechanism correctness; UVs, textures, decals, edge wear, baked normals/AO or physically measured coating values; arbitrary-camera/FOV/resolution/renderer equivalence; target-device FPS/CPU/GPU/VRAM/memory/batching acceptance; Weather exact-cadence recovery or temporal-exposure preference; Character/Animal acceptance; collision/navigation/gameplay; CANON; production/game readiness; or 3D Art Direction mastery.
+This activation does **not** establish:
+
+- final Object source scale or prominence;
+- physical service-pad semantics;
+- collision, navigation, interaction or gameplay behavior;
+- arbitrary camera/FOV/resolution/renderer/display equivalence;
+- target-device FPS, CPU, GPU, VRAM, memory, batching, thermal or battery acceptance;
+- Object inner-lid material adoption;
+- utility-module adoption;
+- articulation or keeper/lever mechanism acceptance;
+- Weather exact-cadence recovery;
+- Character or Animal acceptance;
+- CANON;
+- production/game readiness;
+- 3D Art Direction mastery.
 
 ## Four-root gate
 
-- **Truth:** the stronger industrial hierarchy is accepted together with the measured large value drop and nonzero submission-cost handoff; neither is hidden.
-- **Agency / non-domination:** Object retains material/source authority, Map retains receiving ownership, QA retains independent visual-defect review and Runtime retains performance authority.
-- **Continuity:** neutral parent, five-surface candidate, experimental inner-lid work and future scale/footprint decisions remain separate exact rollback/evidence identities.
-- **Wisdom before speed:** accept the one-variable material-family improvement without bundling scale, footprint, lighting, articulation, Weather or a new surface experiment into the same decision.
+- **Truth:** the cue is accepted as a tiny grounding aid with its exact pixel extent and nonzero submission cost visible, not inflated into a scale solution.
+- **Agency / non-domination:** Map owns the cue, Object owns source/scale/material/mechanics, QA retains independent visual-defect review, and Runtime retains performance authority.
+- **Continuity:** cue-hidden control, cue-visible candidate, preferred Object-material parent, historical cue evidence, Runtime optimization and failed proof attempts remain separate exact identities.
+- **Wisdom before speed:** prefer the existing restrained placement cue before inventing a source rescale, larger pad, lighting change or new system.
+
+The four AXM roots remain the merge gate.
 
 ## Next Art Director pass
 
-Re-scan first. Strong next candidates if no more consequential completed evidence lands: the Object footprint cue against this now-preferred material response once independent QA exists; Building header segmentation if it receives full visual review; the Animal bilateral successor after right-side Geometry/Rigging/deformation evidence; or Weather temporal presentation after an opacity-normalized comparison isolates history from static attenuation.
+Re-scan first. Strong future candidates if no more consequential completed handoff lands: independent Visual-QA closure of this cue; Object inner-lid source-owned material preference in its exact open-pose contexts; Animal bilateral successor once downstream visual/Animation evidence is ready; or Character shoulder form only after the nonzero-intersection structural boundary materially changes.
 
 Do not claim mastery from this bounded decision.
