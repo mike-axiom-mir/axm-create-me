@@ -1,101 +1,103 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-16
-State: **OBJECT FUNCTIONAL SURFACE FAMILY TARGET-HOST A/B PASS / FINAL OBJECT LOOKDEV + UV/TEXTURE + ART-DIRECTION HOLD / NATURE STATIC CONTEXT PASS RETAINED**
+State: **BUILDING FUNCTIONAL SURFACE HIERARCHY TARGET-HOST A/B PASS / FINAL BUILDING LOOKDEV + UV/TEXTURE + ENVIRONMENT + ART-DIRECTION HOLD / PRIOR OBJECT + NATURE RESULTS RETAINED**
 
 ## Current bounded result
 
-This activation selected a materially different source-ready body instead of adding more complexity to the still-unaccepted Nature sapling profile.
+This activation selected the newly source-ready Building pavilion rather than duplicating the already-active Object or Nature Materials lanes.
 
-The selected result is:
+Scoped result:
 
-**`PASS_TARGET_HOST_FUNCTIONAL_SURFACE_AB_READY / HOLD_FINAL_OBJECT_LOOKDEV`**
+**`PASS_TARGET_HOST_BUILDING_SURFACE_AB_READY / HOLD_FINAL_BUILDING_LOOKDEV`**
 
-for the exact Object manufactured host + receiving module lane.
+for exact Building Hard-Surface PR #2 source identity plus a new stacked Materials PR #3.
 
-A small Object-local scalar PBR family now separates shell coating, service area, hardware, protection, attachment interface and receiving module on the same exact source-derived proof geometry across three fixed Godot views. No UVs, textures, decals, wear, coating engineering or renderer-generalization were added or claimed.
+A Building-local five-surface scalar PBR family now separates foundation, structural frame, rear enclosure, roof and utility-service panels on the same exact 19-box proof geometry across three fixed Godot 4.7.2 GL Compatibility views. The exact two source-owned orthogonal utility-panel receiver frames remain preserved.
 
-`axm-create-me` remains coordination-only. Product/evidence implementation is confined to `mike-axiom-mir/axm-object-design`.
+No UVs, textures, decals, weathering, architectural engineering semantics, runtime policy or shared material ontology were added.
+
+`axm-create-me` remains coordination-only. Product/evidence implementation is confined to `mike-axiom-mir/axm-building-design`.
 
 ## Constellation / overlap scan
 
-The campaign, standing Materials role, current specialist status, newest Art Director / Visual Observer state and active design PRs were checked before opening work.
+The campaign, Materials role, newest specialist status and current design PR constellation were rechecked before opening work.
 
-- **Nature:** the existing sapling Materials PR #5 already proves a subtle woody/foliage delta in isolated and static Environment contexts. Art Direction has not yet accepted that candidate, so a moving-shaded extension would have crossed its current gate rather than answered a new Materials question.
-- **Animal:** current value is still concentrated in connected topology, rig/deformation and sampled-motion review. Surfacing would hide upstream acceptance questions.
-- **Character:** current neutral-form work remains upstream of final topology/deformation acceptance.
-- **Map / Environment:** current lanes own receiving-scene hierarchy, VFX and runtime Weather evidence; no unoccupied material defect was stronger than Object's new manufactured assembly.
-- **Weather:** current evidence is dynamic visual-field/atmosphere/procedural work, not a stronger source-owned surface body.
-- **Object:** Hard-Surface PR #5 added a real source-owned `utility-module-001` receiver on top of the source-owned modular equipment case and explicitly retained Materials/LookDev as unproven. Rigging and Technical Art are separate stacked lanes, so material work can proceed without taking their ownership.
-- **Weapon / Armor / Unit / Building / Misc:** the current coordination/PR scan did not expose a stronger source-owned, material-ready implementation lane. No empty-domain material work was invented.
-- **Wreckline:** the historical repeat-seam material repair remains valid, while current Wreckline progress is constrained by separate source/provider/LOD truth issues. No duplicate lane was opened.
+- **Object:** Materials PR #6 is already an active bounded manufactured-surface lane and Technical Art PR #7 now proves the exact UC GLB -> Godot path. Opening another Object material lane would duplicate ownership.
+- **Nature:** Materials PR #5 already owns woody/foliage lookdev; Geometry PR #7 is a separate reindex-only cap-winding candidate awaiting downstream renderer/source-migration review. Materials must not absorb that topology decision.
+- **Animal:** current value remains in connected topology, rig/deformation and sampled-motion review; surfacing would hide unresolved upstream acceptance.
+- **Character:** neutral-form work remains upstream of topology/deformation acceptance.
+- **Map / Environment / Weather:** current work owns composition, real Nature replacement, Weather/VFX and Runtime evidence. Materials should not silently turn a receiving scene into a source-authoring lane.
+- **Weapon / Armor / Unit / Misc:** no stronger current source-owned material-ready implementation lane was found.
+- **Building:** Hard-Surface PR #2 has just added `service-pavilion-001` plus `utility-access-panel-001`, with two materially different source-owned receiver frames and an explicit truth boundary leaving materials/UVs unproven. No competing Building Materials lane existed.
 
-This makes Object the highest-leverage unoccupied Materials target for this activation.
+Building was therefore the strongest unoccupied material-ready target.
 
 ## Source lane
 
 Repository:
-- `mike-axiom-mir/axm-object-design`
+- `mike-axiom-mir/axm-building-design`
 
-New draft PR:
-- **#6 — `Materials: prove functional surface separation on case + module`**
-- branch `studio/materials-object-functional-surface-001`
-- base branch `studio/hard-surface-service-module-fit-001`
-- exact base / Hard-Surface PR #5 head `9a0524319cc3fe33bdbb2d76505b2c89a7a9f190`
-- exact final Materials head **`4776a00fc771801d0ad3b9cdde8a3dd5e5647407`**
-- PR state after evidence: **OPEN / DRAFT / MERGEABLE**
+Stacked draft PR:
+- **#3 — `Materials: prove pavilion functional surface hierarchy`**
+- branch `studio/materials-pavilion-surface-001`
+- base branch `studio/hard-surface-pavilion-interface-001`
+- exact base / Hard-Surface PR #2 head `4faa769b406bf3ad0ba9489a77141c27f122ce51`
+- exact Materials head **`484ced313ba0337ea27eebd01c5677e72e8456af`**
+- state after evidence: **OPEN / DRAFT / MERGEABLE**
 
-Exact source identity retained:
-- host asset `modular-equipment-case-001`
-- host source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`
-- module asset `utility-module-001`
-- module source SHA-256 `ffd7b42294d3af71e02aa172157beccefa08c6af2c1198f88836862d2a50fc2e`
-- Hard-Surface module-fit prerequisite remains `PASS_BILATERAL_SERVICE_MODULE_FIT_PROOF`
+Source-owned bodies retained:
+- pavilion asset `service-pavilion-001`
+- panel asset `utility-access-panel-001`
+- exact source component count: `17` pavilion boxes + `2` placed panel boxes = `19`
+- two receiver normals remain orthogonal
+- source fit remains zero mount-pattern residual on both receiver frames
+- source panel body clearance remains `0.04 m` beyond each plate
 
-No host geometry, socket frame, mount pattern, hinge semantics, Rigging articulation plan or UC integration contract was changed.
+Exact retained source SHA-256 values from the final evidence artifact:
+- pavilion `852038d2288ead9a0ee271e09f1a7f7207ec8fd74668e0c52e739e9a224f87d7`
+- panel `df59fa135abc89f8c85317db1d6b9ce3d03920efc91271de61bfb6289a24c253`
 
-## Bounded surface family
+No Building source geometry, Map slot, receiver frame, mount pattern or Hard-Surface fit rule was changed.
 
-Added Object-local profile:
-- schema `axm.object-material-profile/v0.1`
-- profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`
+## Bounded Building surface family
 
-Baseline proof material:
-- `neutral_proof`: `#767A7DFF`, metallic `0.08`, roughness `0.78`
+Profile:
+- schema `axm.building-material-profile/v0.1`
+- profile SHA-256 `85650897cde5bceaf1eb2d389c2a61d47c3d50a2000e429cac8a7846c8c153c4`
+
+Baseline:
+- `neutral_proof`: `#74797DFF`, metallic `0.05`, roughness `0.78`
 
 Candidate family:
-- `shell_coating`: `#3F484EFF`, metallic `0.42`, roughness `0.54`
-- `service_dark`: `#252B2FFF`, metallic `0.18`, roughness `0.66`
-- `hardware_steel`: `#9AA3A8FF`, metallic `0.88`, roughness `0.32`
-- `rubber_guard`: `#171A1CFF`, metallic `0.0`, roughness `0.86`
-- `interface_orange`: `#A96532FF`, metallic `0.20`, roughness `0.48`
-- `module_housing`: `#35596DFF`, metallic `0.34`, roughness `0.50`
+- `slab_mineral`: `#555A5DFF`, metallic `0.0`, roughness `0.92`
+- `frame_galvanized`: `#77838AFF`, metallic `0.68`, roughness `0.38`
+- `infill_coating`: `#344047FF`, metallic `0.16`, roughness `0.68`
+- `roof_membrane`: `#24282BFF`, metallic `0.02`, roughness `0.88`
+- `utility_panel_ochre`: `#9B7338FF`, metallic `0.28`, roughness `0.50`
 
-The profile maps the existing source component roles rather than inventing a second geometry taxonomy. Required role coverage is fail-closed; unknown material IDs and out-of-range scalar values are rejected.
+Every exact source component is mapped explicitly in the Building profile. Missing source coverage, unknown material IDs and metallic/roughness values outside `[0,1]` fail closed.
 
 Provenance:
-- all scalar PBR values are self-authored for this bounded comparison;
-- no external texture, image or material asset is introduced;
-- the controlled A/B evidence pattern follows the existing same-owner Nature Materials campaign method, but Object semantics remain Object-owned.
+- all scalar PBR values are AXM self-authored for this bounded comparison;
+- no external textures or material assets are introduced;
+- only the **same-geometry / multi-context A/B evidence discipline** is reused from Object Materials PR #6;
+- no Object semantic role or material vocabulary is copied into Building.
 
 ## Exact source-bound proof payload
 
-New evidence builder reruns the exact Object source builder and the existing bilateral module-fit verifier before generating any lookdev payload.
+The Building Materials evidence builder reruns the exact existing Hard-Surface source/build prerequisite before producing any lookdev payload.
 
-Exact structural payload result:
+Structural payload result:
 
-**`PASS_SOURCE_BOUND_FUNCTIONAL_SURFACE_PAYLOAD`**
+**`PASS_SOURCE_BOUND_BUILDING_SURFACE_PAYLOAD`**
 
-Recorded identity:
-- components: `32`
-- same baseline/candidate geometry-contract SHA-256: `bc1f724744fa4d4f5bcd6469c7cc886a46632f1f160e0042252e2c9cec87b678`
-- material-only role assignment is the permitted A/B delta
-- source module fit remains green before rendering
-
-Negative controls cover:
-- missing source role -> FAIL
-- unknown material ID -> FAIL
-- metallic/roughness outside `[0,1]` -> FAIL
+Exact retained evidence:
+- rendered components: `19`
+- shared baseline/candidate geometry-contract SHA-256 `48229920216a5e3aa65e9ddcfb60ea867d02e99157901da801fbec7b11950093`
+- material-only component assignment is the permitted A/B delta
+- source receiver-frame identity is retained
+- Hard-Surface prerequisite remains `PASS_BUILDING_PANEL_RECEIVER_PATTERN_PROOF`
 
 ## Target-host proof
 
@@ -106,200 +108,173 @@ Renderer:
 
 Fixed contexts:
 - `front_service`
+- `east_service`
 - `three_quarter`
-- `rear_hinge`
 
-The host renders the same 32-component source-derived proof representation twice per context: neutral baseline versus candidate material family.
+The host renders the exact same 19-component proof geometry for neutral baseline and candidate material family.
 
-Exact target-host state:
+Exact target-host result:
 
-**`PASS_TARGET_HOST_FUNCTIONAL_SURFACE_AB_READY`**
+**`PASS_TARGET_HOST_BUILDING_SURFACE_AB_READY`**
 
 Retained pixel differences:
 
 | Context | Changed pixels | Fraction | Changed bbox |
 |---|---:|---:|---|
-| `front_service` | `133,212 / 508,400` | `26.2022%` | `[133,200,686,456]` |
-| `three_quarter` | `93,407 / 508,400` | `18.3727%` | `[198,192,638,489]` |
-| `rear_hinge` | `87,241 / 508,400` | `17.1599%` | `[171,238,630,525]` |
+| `front_service` | `196,058 / 585,000` | `33.5142%` | `[94,172,805,481]` |
+| `east_service` | `78,238 / 585,000` | `13.3740%` | `[336,167,563,541]` |
+| `three_quarter` | `86,285 / 585,000` | `14.7496%` | `[286,192,680,515]` |
 
-All three contexts retain nonzero bounded material-only image deltas.
+All three contexts have a material-only visible delta above the exact retained gate.
 
 ## Direct visual inspection
 
-All six retained PNGs were downloaded and inspected directly.
+All six retained PNGs were downloaded and directly inspected.
 
 ### `front_service`
 
-The candidate replaces the neutral proof wash with a readable coated shell / darker service-area / brighter hardware relationship. The latches separate from the shell without turning into an oversized focal cue. The central service panel remains subordinate to the overall case silhouette.
+The candidate gives the pavilion a much clearer structural hierarchy than the neutral wash: the galvanized frame reads separately from the dark infill/roof, while the front utility panel becomes an obvious service element rather than disappearing into the surrounding construction.
+
+### `east_service`
+
+The same utility-panel family remains distinguishable on the orthogonal east receiver. It appears darker/browner than the front panel because the exact fixed lighting relation is different. That is useful renderer-aware evidence rather than a reason to retune the material just to equalize screenshots.
 
 ### `three_quarter`
 
-This is the strongest functional read. The dark protective corner treatment separates from the blue-grey coated shell; steel latch hardware remains readable; the orange attachment plate clearly marks the service interface; and the blue-grey receiving module is immediately distinguishable from both the plate and shell. The material assignment makes the already-proven modular relationship easier to read without changing the geometry.
-
-### `rear_hinge`
-
-The brighter steel hinge line becomes visibly distinct against the darker coated rear shell, while the protected corners stay visually heavy/dark. The receiving module/interface remains legible from the opposite viewing context.
+Both service orientations are visible together. The frame/enclosure split remains coherent, the roof stays visually subordinate/dark, and the front/east ochre panels retain common family identity without flattening their different lighting contexts.
 
 ### Scoped interpretation
 
-The candidate produces materially different and functionally more legible target-host renders across all three fixed contexts. That is sufficient for a Materials specialist A/B PASS.
+The candidate produces functionally clearer surface-family separation in all three exact proof contexts while preserving the source receiver-frame geometry. This is sufficient for a Materials specialist A/B PASS.
 
-It is **not** final Object aesthetic acceptance. The proof host also has bright top-face highlights under its fixed lighting; no attempt was made to retune lighting or PBR values merely to manufacture a more flattering board. Art Direction / Visual Observer own the next aesthetic decision.
+It is **not** final Building aesthetic acceptance. Art Direction / Visual Observer own whether the material balance fits the broader environment and whether the service-panel accent is too strong or too weak when the real pavilion is composed into Map.
 
 ## Renderer / representation boundary
 
-The proof host is intentionally bounded:
+The proof host is deliberately bounded:
+- exact Building component centers/dimensions are reconstructed from the source manifest;
+- exact panel centers and source receiver-frame basis are preserved;
+- baseline and candidate share one geometry contract;
+- the target host is real Godot 4.7.2 GL Compatibility.
 
-- component centers and dimensions come from the exact source-owned construction;
-- the right-service module envelope comes from the exact source socket + module dimensions;
-- baseline and candidate use the same proof geometry;
-- source geometry itself is unchanged.
+It is **not** Map integration and is not a byte-identical import of a future production mesh. The current Building source itself is sparse box-based proof geometry; no UVs, production normals/tangents, texture maps or final import path exist yet.
 
-However this is **not byte-identical structural OBJ import**. Current source hinge/bolt cylinders use source-specific segment counts; the proof host reconstructs them with Godot `CylinderMesh` at 16 radial segments for a stable material-comparison surface.
-
-Therefore this PASS establishes target-host surface separation on an exact-dimension procedural proof representation, not equivalence with every import path or renderer.
+Therefore this PASS establishes target-host material separation on the exact current Building proof representation only.
 
 ## Exact-head CI / retained evidence
 
-Final exact head:
+Exact Materials head:
 
-`4776a00fc771801d0ad3b9cdde8a3dd5e5647407`
+`484ced313ba0337ea27eebd01c5677e72e8456af`
 
 Exact-head workflows:
-- `35059518233 — Object material lookdev evidence` — **SUCCESS**
-  - Python 3.11: full repository tests PASS; source-bound payload PASS; Godot render PASS; target-host A/B validation PASS; artifact upload PASS
-  - Python 3.13: full repository tests PASS; source-bound payload PASS
-- `35059518251 — Object service-module fit evidence` — **SUCCESS**
-- `35059518226 — Object hard-surface interface evidence` — **SUCCESS**
+- `35063670498 — Building material lookdev evidence` — **SUCCESS**
+  - Python 3.11: full Building tests PASS; source-bound payload PASS; pinned Godot render PASS; A/B validation PASS; artifact upload PASS
+  - Python 3.13: full Building tests PASS; source-bound payload PASS
+- inherited `35063670309 — Hard-surface building evidence` — **SUCCESS**
 
 Retained artifact:
-- ID **`10432215538`**
-- name `object-material-lookdev-001-4776a00fc771801d0ad3b9cdde8a3dd5e5647407`
-- size `289,969` bytes
-- exact head binding `4776a00fc771801d0ad3b9cdde8a3dd5e5647407`
-- archive SHA-256 **`b419288f758be4296a6a82c2a270661fafbecfef4acf53c52af0e19c307d3ab9`**
+- ID **`10433426258`**
+- name `building-material-lookdev-001-484ced313ba0337ea27eebd01c5677e72e8456af`
+- size `347,365` bytes
+- exact head binding `484ced313ba0337ea27eebd01c5677e72e8456af`
+- archive SHA-256 **`0529d3982d883af4565c4ee65539c881b087b413760206abb647a2e613224d8c`**
 
 The retained ZIP was downloaded and independently rehashed to the same digest.
 
 ## Failure / repair provenance
 
-The first target-host run on intermediate head `757ca95197560af07f7fedd8df54801b267c4f3a` failed at Godot script parsing because a pixel-difference local inferred `Variant` while warnings are treated as errors.
+No target-host repair was needed in this Building activation: the first exact-head Building Materials workflow completed green on both Python versions and the Godot 4.7.2 render/A-B gate passed on the 3.11 job.
 
-Historical failed run:
-- workflow `35059323756` — FAILURE
-- failed retained artifact `10431372810`
-- archive SHA-256 `14f2901e87a78f12c613379ab08e5e7466a57e6575454e42e3fef5d89c4b0015`
+This does not erase previous Materials failure history. The detailed Object Godot parsing failure and its repair remain preserved in the prior status revision identified below and in Object PR #6 history.
 
-The structural Python payload and inherited Object tests were already green. The repair explicitly typed the pixel delta and used typed numeric helpers (`maxf` / `mini` / `maxi`). No host/module source, material value, camera, lighting context or acceptance threshold changed to obtain the final PASS.
+## Cross-domain propagation decision
 
-The failed artifact remains historical evidence and is **not** treated as render evidence because it contains no valid target-host PNG set.
+The same **evidence method** now has three materially different demonstrations:
 
-## Propagation decision
+1. **Nature:** bounded woody/foliage family with isolated and receiving-scene evidence.
+2. **Object:** manufactured shell/hardware/protection/interface/module family across fixed target-host views.
+3. **Building:** foundation/frame/enclosure/roof/service-panel family across two orthogonal service faces plus three-quarter context.
 
-A cross-domain evidence method now has two materially different demonstrations:
+The repeated discovery is:
 
-1. Nature: controlled material family challenged in isolated + receiving-scene contexts.
-2. Object: source-role material family challenged on the same manufactured proof geometry across three fixed target-host views.
+> **Bind source-owned semantic roles/components to the smallest bounded surface family, preserve exact geometry across baseline/candidate, and challenge the family across materially different target-host contexts before spending complexity on UVs or textures.**
 
-The reusable lesson is:
+This is strong evidence for a reusable **lookdev procedure**, not a shared material ontology.
 
-> **Map source-owned semantic roles into the smallest bounded surface family, preserve one exact geometry contract across baseline/candidate, and demand multi-context target-host A/B evidence before adding UV/texture complexity.**
-
-Do **not** centralize domain semantics because the evidence method repeats.
-
-Current homes remain:
+Correct homes remain:
 - Nature owns woody/foliage semantics;
 - Object owns shell/hardware/protection/interface/module semantics;
-- UC remains generic and unchanged;
+- Building owns foundation/frame/enclosure/roof/service semantics;
+- Universal Creation remains generic and unchanged;
+- Profession Fabric may observe the repeated procedure, but no promotion is requested by this pass;
 - Art Direction owns final aesthetic acceptance;
-- Runtime owns eventual shader/material performance.
+- Runtime owns shader/material performance when a real runtime adoption exists.
 
-No UC material ontology, automatic material classifier or Profession Fabric promotion is justified by this one new manufactured family.
+No UC material classifier, cross-domain material ID namespace, automatic role inference or central surface vocabulary is justified.
 
 ## Truth boundary / non-claims
 
 This activation establishes only:
-- exact source/profile identity;
-- complete role-to-material coverage for this Object proof;
-- same baseline/candidate proof geometry;
-- source fit prerequisite remains green;
+- exact Building source/profile identity;
+- complete component-to-material coverage on this proof;
+- same baseline/candidate geometry contract;
+- preserved source receiver frames and existing structural fit prerequisite;
 - Godot 4.7.2 GL Compatibility A/B rendering in three fixed contexts;
-- direct visual evidence that functional material separation is readable in those retained frames.
+- direct visual evidence that the bounded material hierarchy is readable in those retained frames.
 
 It does **not** establish:
 - UV unwrap quality or texel density;
-- texture maps, decals, edge wear, dirt, AO or baked normal maps;
-- physically measured paint, anodization, rubber or steel response;
-- coating durability, corrosion or manufacturing finish;
-- byte-identical structural OBJ material import;
-- shaded material response during Rigging PR #3's `0..110°` articulation;
-- Blender/Cycles, Godot Forward+, browser or native renderer equivalence;
-- runtime shader cost, material memory, batching or draw-call budgets;
-- gameplay, collision, physics or engineering acceptance;
+- texture maps, baked normals/AO, decals, edge wear, dirt or weathering;
+- physically measured concrete, galvanized steel, coating or membrane response;
+- architectural durability, corrosion/weather sealing or code compliance;
+- production topology/normals/tangents or byte-identical future mesh import;
+- Map / Environment replacement acceptance;
+- runtime shader cost, batching, draw-call or memory budgets;
+- gameplay, collision, navigation or engineering acceptance;
 - final Art Director / Visual Observer acceptance;
 - CANON, production readiness, game readiness or Materials mastery.
 
 ## Four-root check
 
-- **Truth:** the first Godot parse failure remains recorded; source identity, proof-representation limitation, exact final head, workflows, artifact and direct visual observations are explicit.
-- **Agency / non-domination:** no auto-merge, CANON action, Hard-Surface rewrite, Rigging rewrite, UC policy centralization or Art Director acceptance is inferred.
-- **Continuity:** PR #6 stacks exactly on Hard-Surface PR #5; host/module source digests are unchanged; prior Nature and Wreckline evidence remains retained rather than silently replaced.
-- **Wisdom before speed:** the lane proves a small scalar PBR family in real target-host views before spending work on UVs, textures, procedural wear or a shared material framework.
+- **Truth:** exact source/head/workflow/artifact identities, renderer limits and direct observations are recorded; no Map or final-art claim is smuggled through the isolated proof.
+- **Agency / non-domination:** no auto-merge, CANON action, Hard-Surface rewrite, Environment replacement, UC centralization or Art Director acceptance is inferred.
+- **Continuity:** PR #3 stacks exactly on Building PR #2; source geometry and receiver frames remain unchanged; prior Object/Nature/Wreckline Materials evidence remains in Git history and source PRs.
+- **Wisdom before speed:** the lane proves a tiny scalar family on real target-host renders before authoring UVs, textures, wear or shared material machinery.
 
 ## Handoffs
 
-- **3D Art Director / Visual Observer:** review artifact `10432215538` on exact head `4776a00fc771801d0ad3b9cdde8a3dd5e5647407`. The key question is whether the functional hierarchy—coated shell, dark service/protection, steel hardware, orange interface, blue-grey module—supports the intended manufactured read without becoming noisy.
-- **Hard Surface:** no source change is requested. PR #6 is a stacked material overlay and must not become implicit approval of topology, bevels or engineering finish.
-- **Rigging / Animation:** no material-under-articulation claim. If the static material family is accepted, a later neutral/open shaded comparison could test the exact existing lid articulation without inventing a new motion lane.
-- **Runtime / Optimization:** no cost claim. Measure only if this material family is adopted into a real runtime host.
-- **Technical Art / UC:** no UC change requested. Generic transport remains separate from Object surface semantics.
-- **Capability Cartographer:** record the repeated A/B evidence discipline as a cross-domain method signal, not as evidence for moving the material vocabulary into UC.
+- **3D Art Director / Visual Observer:** review retained Building artifact `10433426258` at exact head `484ced313ba0337ea27eebd01c5677e72e8456af`. Key question: does the foundation/frame/enclosure/roof/service hierarchy support the intended pavilion read, and does the ochre service accent remain appropriate from both orthogonal receiver views?
+- **Environment / World Art:** do not inherit this isolated PASS. If Building PR #2/3 is later selected as a real replacement for `proxy:building-pavilion`, integrate the exact source/material candidate into the fixed Map scene and rerun path/hierarchy evidence.
+- **Hard Surface:** no source change requested. Material PASS must not become implicit approval of architectural engineering, production topology or final trim/detail.
+- **Runtime / Optimization:** no shader/material cost claim. Measure only after a real runtime adoption path exists.
+- **Technical Art / UC:** no UC change requested. Generic transport stays separate from Building surface semantics.
+- **Capability Cartographer / Procedural systems:** record the now three-domain repeated A/B lookdev procedure as a placement signal only; material vocabularies remain domain-local.
 
-## Previous retained Materials result — Nature static Environment context
+## Retained prior Materials results
 
-The earlier Nature result remains valid historical/parallel evidence:
+Previous detailed Materials status is preserved in Git history at status blob:
+
+`2db8004b5a35d856e8108e399f7a0c0b9860f011`
+
+That revision contains the full Object/Nature/Wreckline evidence, including exact historical failures and repair provenance. This update does not invalidate those results.
+
+### Object retained result
+
+**`PASS_TARGET_HOST_FUNCTIONAL_SURFACE_AB_READY / HOLD_FINAL_OBJECT_LOOKDEV`**
+
+- Object PR #6 exact head `4776a00fc771801d0ad3b9cdde8a3dd5e5647407`
+- artifact `10432215538`
+- archive SHA-256 `b419288f758be4296a6a82c2a270661fafbecfef4acf53c52af0e19c307d3ab9`
+- final Art Director / Visual Observer acceptance, UVs/textures and runtime remain held.
+
+### Nature retained result
 
 **`PASS_STATIC_ENVIRONMENT_CONTEXT_SURFACE_FAMILY_DELTA / HOLD_FINAL_LOOKDEV`**
 
-Exact Nature head:
-- `f2c52468abd1f92e9e5914a531ec15b394d5778a`
+- Nature Materials PR #5 remains the source owner for woody/foliage semantics.
+- final vegetation material direction remains Art Director / QA held.
 
-Key retained evidence:
-- workflow `35055588709` — SUCCESS
-- artifact ID `10430182817`
-- archive SHA-256 `c8b7eb92427763a4d1ef1e43e7e7fe02e4b541f36b668fc7a639ba3ac18fd033`
-- Godot 4.7.2 GL Compatibility
-- static Environment A/B delta remains localized to the sapling
-- final vegetation material direction remains Art Director / QA held
+### Wreckline retained result
 
-The existing Nature profile remains unchanged:
-- woody `#5C3B27FF`, metallic `0.0`, roughness `0.84`
-- foliage `#5A823EFF`, metallic `0.0`, roughness `0.58`
-
-No moving-shaded material proof was added here because the static candidate has not yet received its own aesthetic acceptance.
-
-## Previous retained Materials result — Wreckline repeat seam
-
-Earlier scoped result also remains valid historical evidence:
-
-**`PASS_VISUALLY_INSPECTED_ROAD_PLANE_COLOR0_SEAM_REDUCTION`**
-
-Key evidence:
-- Wreckline head `058837ea805a734a056bec5a787efea307abac67`
-- workflow `35048418427` — SUCCESS
-- artifact ID `10428205343`
-- archive digest `sha256:95d9568425bacb45aaef28f379bd8a4e7b4bac9751d911299dd2309ef79ea442`
-- static repeat boundary at LOD0/LOD1 closes with `0.0` maximum sampled RGB vector distance
-- geometry/collision/material definitions unchanged; only continuous road-plane `COLOR_0` changed
-
-## Next Materials pass
-
-First inspect independent Art Director / Visual Observer response to **Object PR #6 exact retained renders** and any response to the Nature static A/B.
-
-Do not add UVs/textures/wear merely because the lane runs again.
-
-- If Object's functional hierarchy is accepted, the next bounded Object question can be exact material behavior across an already-proven closed/open articulation pair.
-- If a specific visual defect is named, repair that defect with before/after evidence.
-- If another materially different source-owned body becomes more urgent first, prefer it rather than deepening one family without acceptance.
-- Keep domain material vocabulary local unless repeated cross-domain evidence eventually proves a genuinely generic contract.
+The earlier scoped repeat-seam material result remains historical evidence; current vehicle progression remains constrained by separate provider/LOD truth issues and was not reopened here.
