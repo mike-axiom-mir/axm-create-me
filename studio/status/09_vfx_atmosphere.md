@@ -1,127 +1,146 @@
 # 09 — VFX / Atmosphere Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_FIXED_STATE_SOURCE_WIDTH / FAIL_EXACT_32HZ_CADENCE / PASS_OPTIONAL_LATEST_DUE_EXACT_STATE_PRESENTATION_FALLBACK / FINAL_ART + GAMEPLAY + PHYSICS + TARGET_PERF HELD**
+State: **ACTIVE / PASS_FIXED_STATE_SOURCE_WIDTH / FAIL_EXACT_32HZ_CADENCE / PASS_LATEST_DUE_TECHNICAL_FALLBACK_BUT_VISUAL_EQUIVALENCE_FAILED / PASS_CONTINUOUS_PHASE_INTERPOLATION_TECHNICAL_CANDIDATE / VISUAL_TEMPORAL_EQUIVALENCE + FINAL_ART + GAMEPLAY + PHYSICS + TARGET_PERF HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, newest specialist status, current design-constellation work, Map VFX PR #25, Weather source authority, and active Runtime PR #29 before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, newest specialist status, current design-constellation work, Map VFX PR #25, Weather source authority, Visual Observer / QA status and active Runtime PR #29 before selecting work.
 
-The highest-leverage non-duplicated VFX gap was no longer source-width fidelity: that fixed-state visual path is already proven. It was also not mesh caching or performance representation, which Runtime PR #29 already owns. The bounded VFX question became: **when the exact proof renderer cannot present all 17 authored 31.25 ms states on time, can the receiving layer remain visually fresh without inventing interpolation or rewriting Weather source semantics?**
+The highest-leverage non-duplicated VFX gap was the temporal visual defect exposed by the prior latest-due fallback. That fallback truthfully keeps the receiving layer fresh, but Visual QA found that dropping authored states can create visible temporal jumps. Runtime PR #29 already owns caching/performance and exact-cadence recovery, so this activation did **not** take that lane.
 
-Work remains in existing **Map PR #25**. `axm-create-me` remains coordination-only. Weather keeps semantic/source authority in `axm-weather-design`; Map owns the receiving/presentation proof.
+The bounded VFX question became: **can the receiver synthesize a continuous visual phase between adjacent exact authored Weather + sapling states, preserving exact source provenance and source-authored streak width, without rewriting Weather semantics or claiming authored 32 Hz delivery?**
 
-## Preserved facts — strict proof remains strict
+Work remains in existing **Map PR #25**. `axm-create-me` remains coordination-only. Weather keeps semantic/source authority in `axm-weather-design`; Map owns receiving/presentation evidence.
 
-The fixed-state result remains:
+## Preserved facts
 
-- 17 source states;
+The fixed-state source-width result remains valid:
+
+- 17 exact source states;
 - 2 fixed `1100x720` cameras (`path_eye`, `elevated_oblique`);
 - 36 source-authored Weather streak widths per state/camera;
 - **1,224** live projected-width observations;
 - maximum projected-width residual **`0.00974698571769128 px`** against `0.05 px`;
-- exact near-plane receiving boundary: **5** clipped endpoints in `path_eye`, **0** in `elevated_oblique`;
+- exact near-plane receiving boundary: 5 clipped endpoints in `path_eye`, 0 in `elevated_oblique`;
 - stable Weather and sapling resource identity.
 
 That remains **`PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_STRUCTURE` + `PASS_CURRENT_WORLD_WEATHER_SOURCE_WIDTH_LIVE_TARGET_HOST`** for exact fixed retained states.
 
-The corrected authored **32 Hz / 31.25 ms** wall-clock proof remains a separate FAIL at exact VFX head `0a6eb244de656c2ba3ff24147b9942f73808004c`: `path_eye` reached **83.939 ms** maximum post-geometry submission lateness with **11/17** submission misses and **118.929 ms** maximum post-draw lateness; `elevated_oblique` reached **165.350 ms**, **13/17** submission misses and **204.127 ms** post-draw lateness. No threshold was widened and this activation does not relabel that result.
+The corrected authored **32 Hz / 31.25 ms** wall-clock proof remains a separate FAIL. No threshold is widened or relabelled by this activation.
 
-## Bounded improvement — freshest exact source state due
+The previous optional `LATEST_DUE_EXACT_SOURCE_STATE_NO_INTERPOLATION` fallback also remains technically valid as an exact-state degradation mode, but it is **not** visually equivalent to the full authored temporal sequence: its retained proof presented 12/17 states in `path_eye` and 11/17 in `elevated_oblique`, explicitly dropping stale intermediate states. That technical PASS is therefore retained separately from the Visual QA temporal-equivalence failure.
+
+## Bounded improvement — receiving-only continuous visual phase
 
 Current exact Map VFX head:
 
-`e95910c8c5c45cd8d51be3b259825cf85064efc2`
+`03beb813a852d3c019cc10c41cabe161ac5f50b5`
 
-The existing PR #25 branch now contains a separate optional presentation policy:
+Map PR #25 remains the sole VFX receiving lane. The branch now contains a separate candidate policy:
 
-`LATEST_DUE_EXACT_SOURCE_STATE_NO_INTERPOLATION`
+`CONTINUOUS_PHASE_LINEAR_VISUAL_INTERPOLATION_PRESENTATION_ONLY`
 
-with selection semantics:
+with semantics:
 
-`SELECT_FRESHEST_DUE_SOURCE_STATE_WHEN_RENDERER_RETURNS_CONTROL`
+`INTERPOLATE_ONLY_RECEIVING_WEATHER_GEOMETRY_OPACITY_AND_SAPLING_VERTICES_BETWEEN_EXACT_AUTHORED_BRACKETS`
 
-The receiver:
+The receiving observer:
 
-- keeps the exact authored 31.25 ms source timeline;
-- never synthesizes/interpolates Weather or sapling states;
-- whenever the proof renderer returns control, chooses the freshest exact source state already due;
-- may skip stale intermediate visual states instead of replaying backlog;
-- preserves exact source Weather/sapling digests and the established projected-width path;
-- waits for Godot `RenderingServer.frame_post_draw` and retains the actually presented `1100x720` frame plus SHA for every selected state;
-- records skipped indices explicitly rather than hiding dropped visual samples.
+- keeps the exact 17 authored Weather + sapling source states as authority;
+- selects the wall-clock phase available when the renderer returns control;
+- binds every synthetic sample to adjacent exact lower/upper source rows and their exact Weather field, Weather width-profile and sapling-mesh digests;
+- linearly interpolates Weather streak tail/head XY, presentation height and opacity;
+- preserves source-authored `source_width_px` unchanged and fails if a bracket disagrees on width;
+- linearly interpolates sapling vertex positions while requiring identical triangle topology;
+- does not interpolate unrelated world geometry, Building, path, static Nature meshes, cameras or source semantics;
+- records selection, geometry-submit and post-draw timing separately;
+- keeps the established Godot source-width projection gate and stable Weather/sapling resource identity;
+- retains a direct `1100x720` PNG and SHA-256 for every presented sample;
+- includes a deliberate phase-drift negative control that must fail closed.
 
-This is an **optional VFX presentation fallback**, not a replacement for the failed exact-32-Hz proof.
-
-## Implementation defect retained and repaired
-
-The first real-host run of this new observer, workflow **`35129692044`**, failed at Godot parsing because timing/index expressions inferred Variant types and the parser could not infer `next_index`. The failure artifact **`10460229734`** retained the exact head, payload, parent evidence and Godot log; no runtime receipt or successful frames existed.
-
-The repair was deliberately mechanical: timing and state-index locals were made explicit `int`s. No Weather field, source state, camera, width rule, timing interval, interpolation policy or runtime threshold changed. The repaired exact head is `e95910c8c5c45cd8d51be3b259825cf85064efc2`.
+This is a **receiving-only VFX presentation candidate**, not a replacement for the exact source sequence and not a claim that authored 32 Hz delivery has been recovered.
 
 ## Real Godot 4.7.2 evidence
 
-Dedicated PR-head workflow **`35130300983 — VFX Weather latest-due presentation fallback evidence`** completed **SUCCESS** on Godot 4.7.2 GL Compatibility. The independent verifier returned:
+Dedicated exact-head workflow **`35136010401 — VFX Weather continuous-phase interpolation evidence`** completed **SUCCESS** on real Godot 4.7.2 GL Compatibility at exact head `03beb813a852d3c019cc10c41cabe161ac5f50b5`.
 
-**`PASS_LATEST_DUE_EXACT_SOURCE_STATE_PRESENTATION_FALLBACK`**
+The independent verifier returned:
 
-All scoped checks passed, including exact receiving/parent identity, exact source-row digests, freshest-due selection, monotonic selection→submit→draw order, source-width residual, stable Weather/sapling resource identity, direct retained frame evidence, rear-tree culling, and a deliberate stale-state-selection negative control.
+**`PASS_CONTINUOUS_PHASE_VISUAL_INTERPOLATION_PRESENTATION_CANDIDATE`**
 
-Across the actually presented frames the observer measured **828 projected streak widths** (`23 presented source states × 36 widths`) and retained the same maximum residual **`0.00974698571769128 px`**.
+All scoped checks passed:
+
+- exact receiving and historical parent identity;
+- source-width structure passed before interpolation;
+- both fixed cameras observed;
+- fractional live samples plus the final exact source state;
+- every synthetic sample bracketed by adjacent exact source rows and exact source digests;
+- continuous source phase tracks selection clock rather than quantizing to discrete source indices;
+- selection → submit → draw ordering;
+- source-authored streak widths remain within the existing `0.05 px` projection tolerance;
+- stable Weather and sapling resource identity;
+- direct distinct `1100x720` retained frame evidence;
+- rear-tree `CULL_BACK` state preserved;
+- deliberate phase-drift negative control fails closed.
+
+Across both cameras this run retained **14 presented frames** (7 per camera), of which **10 are fractional interpolated states** (5 per camera), and measured **504 projected streak widths** (`14 × 36`). The maximum width residual was **`0.0041346123656405 px`**, inside the existing `0.05 px` bound.
 
 ### `path_eye`
 
-- presented **12 / 17** exact source states;
-- presented indices: `0,1,3,4,6,7,9,10,12,13,15,16`;
-- explicitly skipped stale indices: **`2,5,8,11,14`**;
-- maximum source age at selection: **31.641 ms**;
-- maximum source age after exact geometry materialization / submit: **32.539 ms**;
-- maximum source age at post-draw: **52.770 ms**;
-- **12** retained `1100x720` frames, all with distinct hashes.
+- 7 presented frames;
+- 5 fractional interpolated states plus start/final boundary samples;
+- maximum selection-phase error: **0.0 ms** in the retained verifier;
+- maximum source-phase step error: **0.0 ms**;
+- maximum source age after interpolation/materialization at submit: **23.495 ms**;
+- maximum source age at post-draw: **59.797 ms**;
+- all 7 retained frame hashes distinct.
 
 ### `elevated_oblique`
 
-- presented **11 / 17** exact source states;
-- presented indices: `0,1,3,4,6,8,9,11,12,14,16`;
-- explicitly skipped stale indices: **`2,5,7,10,13,15`**;
-- maximum source age at selection: **31.241 ms**;
-- maximum source age after geometry materialization / submit: **32.162 ms**;
-- maximum source age at post-draw: **54.511 ms**;
-- **11** retained `1100x720` frames, all with distinct hashes.
+- 7 presented frames;
+- 5 fractional interpolated states plus start/final boundary samples;
+- maximum selection-phase error: **0.0 ms** in the retained verifier;
+- maximum source-phase step error: **0.0 ms**;
+- maximum source age after interpolation/materialization at submit: **78.175 ms**;
+- maximum source age at post-draw: **127.581 ms**;
+- all 7 retained frame hashes distinct.
 
-Direct frame inspection confirms a real current-world Weather presentation in both cameras: source-width streaks move between retained exact states while the established world, Building, Nature and sapling receiving context remains present. That is direct visual evidence only; it is not a gameplay, physics, simulation or final-aesthetic claim.
+Those submit/draw ages are diagnostics from this proof host. They do **not** establish target-device performance and they do not erase the strict authored-32-Hz failure.
+
+Direct inspection of retained early, fractional and final `path_eye` frames confirms that the real current-world composition remains present and Weather streak positions change through the receiving-only synthetic states. Static frame inspection does **not** prove temporal smoothness or aesthetic superiority; sequence-level Visual QA / Art Direction review remains held.
 
 ## Retained evidence
 
 Successful artifact:
 
-- workflow run: **`35130300983`**;
-- artifact ID: **`10461270622`**;
-- artifact name: `environment-weather-source-width-latest-due-001-e95910c8c5c45cd8d51be3b259825cf85064efc2`;
-- size: **3,775,692 bytes**;
-- SHA-256: **`a7862ff074f63edde800682e97079483ed3ecb307c9b5180c6640de4784e75b8`**;
-- GitHub artifact digest and independently downloaded archive digest agree.
+- workflow run: **`35136010401`**;
+- artifact ID: **`10462014278`**;
+- artifact name: `environment-weather-source-width-interpolated-001-03beb813a852d3c019cc10c41cabe161ac5f50b5`;
+- size: **2,992,224 bytes**;
+- SHA-256: **`ef1f422098bd58dc22ac715a09771833fe9a75cbeab9391a302e4f57415f9ae4`**;
+- exact-head identity, parent evidence, current source-width payload, Godot log, runtime receipt, independent verifier output and all 14 PNG frames retained.
 
-The package retains exact-head identity, parent Weather evidence, current width payload, Godot log, runtime receipt, independent verifier output, and the **23 actually presented PNG frames**.
+## Handoff / ownership boundary
 
-## Visual tradeoff / handoff
+**Visual Observer / QA + Art Director:** determine whether this interpolation actually repairs the previously observed temporal jump defect and whether the receiving-only interpolation is visually preferable. The technical PASS is not a visual-temporal-equivalence PASS.
 
-The bounded tradeoff is now explicit for Art Direction and Visual QA: **latest-due selection prevents stale visual backlog, but it drops intermediate authored source states when the proof renderer cannot keep up.** On this run the two cameras retained 12/17 and 11/17 states respectively. That can improve temporal freshness while reducing temporal smoothness or altering the apparent gust rhythm. VFX does not call that aesthetically superior without review.
+**Runtime PR #29:** retains ownership of caching, performance representation and recovery of the exact authored cadence. This VFX candidate neither absorbs nor supersedes Runtime work.
 
-Runtime PR #29 remains the owner of mesh/cache/performance representation. This VFX fallback does not absorb or supersede that work, and it does not convert the strict cadence FAIL into a performance PASS. If Runtime later proves exact 32 Hz on an appropriate host without unacceptable tradeoffs, this fallback can remain optional rather than normative.
+**Weather source:** remains authority. No synthetic receiving sample becomes a source row, no source digest is rewritten, and no automatic promotion occurs.
 
 ## Explicit non-claims
 
-This activation does **not** prove exact authored 32 Hz cadence, zero dropped visual states, interpolation quality, target-device CPU/GPU/FPS/VRAM behavior, arbitrary camera/resolution fidelity, renderer-independent line semantics, physical wind/precipitation/turbulence/collision/volumetrics, gameplay visibility/damage/input/controller authority, final atmosphere quality, Art Direction or Visual QA acceptance, CANON, production readiness, or VFX mastery.
+This activation does **not** prove exact authored 32 Hz cadence, zero dropped renderer frames, final temporal smoothness, interpolation aesthetics, target-device CPU/GPU/FPS/VRAM behavior, arbitrary camera/resolution fidelity, renderer-independent line semantics, physical wind/precipitation/turbulence/collision/volumetrics, gameplay visibility/damage/input/controller authority, final atmosphere quality, Art Direction or Visual QA acceptance, CANON, production readiness, or VFX mastery.
 
 ## Four-root check
 
-**Truth:** the strict 32 Hz failure remains red and separate; the new PASS says only that an exact-state latest-due fallback works in this bounded proof. The parser failure is retained rather than erased.
+**Truth:** the strict 32 Hz failure remains red and separate. The latest-due fallback's technical PASS remains separate from its temporal-equivalence visual failure. The new PASS says only that bounded receiving-only continuous-phase interpolation executes and verifies on the exact proof host.
 
-**Agency / non-domination:** the fallback is explicit and optional. It performs no hidden interpolation, source rewrite, automatic promotion, gameplay authority or forced aesthetic decision.
+**Agency / non-domination:** the candidate is explicit and optional. It performs no source rewrite, automatic promotion, gameplay authority or forced aesthetic decision.
 
-**Continuity:** existing Map PR #25, Weather source authority, the proven source-width path, both fixed cameras, prior failed cadence evidence and Runtime ownership remain intact. `axm-create-me` only records coordination/status.
+**Continuity:** existing Map PR #25, Weather source authority, the proven source-width path, both fixed cameras, prior failed cadence evidence, prior fallback evidence and Runtime ownership remain intact. `axm-create-me` only records coordination/status.
 
-**Wisdom before speed:** the lane avoided duplicating Runtime optimization and tested the smallest VFX-owned degradation policy that preserves source identity and visual freshness under a known missed-cadence condition.
+**Wisdom before speed:** the lane avoided duplicating Runtime optimization and tested the smallest VFX-owned visual repair suggested by the observed temporal-jump defect, while retaining direct evidence and an explicit review gate rather than declaring the problem solved from structure alone.
 
 The four AXM roots remain the merge gate.
