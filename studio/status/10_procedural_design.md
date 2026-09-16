@@ -1,178 +1,210 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-16
-State: **PASS_MAP_MULTI_SOURCE_SEEDED_RECEIVING_COMPATIBILITY / FOUR EXACT SOURCE SLOT GATES / 3 MATERIAL SEEDS PASS / SEED_7 REJECTS 11 ATTEMPTS BEFORE ALL_SOURCE_COMPATIBLE_OUTPUT / OBJECT_ROTATION_POLICY_EXPLICIT / FAILURE_CONTROL PASS / EXACT CI + RETAINED EVIDENCE / MAP_LOCAL / NO UC OR PROFESSION-FABRIC EXTRACTION**
+State: **PASS_BUILDING_FIVE_SOURCE_EXACT_SYMMETRIC_ROWS / HEADER PAIRS ADDED WITHOUT NEW GENERATOR / 15_OF_17 SOURCE COMPONENTS DERIVED / 5 DISTINCT ROW DIGESTS / 4 COMPONENT SIZES / 2_3_4 STATION COUNTS / HEADER DRIFT FAILS CLOSED / EXACT CI + INDEPENDENT ARTIFACT REHASH / BUILDING_LOCAL / NO SOURCE REWRITE / NO UC OR PROFESSION-FABRIC EXTRACTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, the previous Procedural status, newest specialist status and the active design-repository constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/10_procedural_design.md`, inspected the current specialist status and active design constellation, then selected one bounded repeated source pattern that could be improved without duplicating another specialist lane.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation in this activation is confined to the existing Map Procedural lane in `mike-axiom-mir/axm-map-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation in this activation is confined to the existing Building Procedural lane in `mike-axiom-mir/axm-building-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Procedural status remains recoverable as exact Git blob:
+The immediately previous Procedural status is preserved in Git history at exact blob:
 
-`6ea0fa9c004c7c730cd5bdc1dc651791954531e6`
+`12602951ab1a3407e5b372d43f2f02795446c644`
 
-Its prior single west-sapling source-aware PASS remains historical truth and is not rewritten by this activation.
+That previous Map result remains truthful for exact Map Procedural head `1ee14b799ba6918ef20b4052d34758e7cae1c29d`: four exact source receiving gates, seeds `7 / 29 / 83`, seed `7` accepting only after 11 deterministic rejected attempts, and no UC / Profession Fabric extraction. This Building activation does not replace or relabel it.
 
-## Constellation / duplication scan
+## Fresh constellation / duplication scan
 
-The whole design constellation was scanned before changing code. No grounded repeated production family justified inventing a new Weapon, Armor, Unit or Misc generator. Character and Animal are currently constrained by Organic / QA / Art Direction evidence. Building, Nature, Weather and Object already have active domain-local procedural or source-authoring lanes that should not be copied into Map. Object articulation/material/runtime work and Nature leaf-sidedness work are separately owned.
+- **Weapon:** no current open design lane supplied a repeated grounded production pattern. No generator was invented for coverage.
+- **Armor:** no current open design lane; Character geometry remains a more basic dependency than procedural Armor production.
+- **Character:** Organic has now migrated the Art-Direction-approved feathered shoulder E into source-owned `character-neutral-a-shoulder-source-004` at Character PR #2 head `20f6413f1b09e32cb3667ccd01f266cd849d8e93`. Geometry now owns the next connected shoulder response. One accepted local form is not enough evidence for a Procedural anatomy/form generator.
+- **Unit:** no grounded current design lane justified proceduralization.
+- **Animal:** active Geometry / Organic / Rigging / Animation work already owns ring-phase, deformation and motion questions. Procedural did not duplicate those sweeps as a second generator.
+- **Building:** one existing Procedural family already proved exact symmetric derivation for three source rows, but the unchanged source also contains **two exact symmetric header pairs** that were still left as manual repeated records. This is the selected gap.
+- **Nature:** the current Nature-local Procedural branch/crown family already exercises three source families across multiple seeds. Geometry's explicit leaf-backface candidate remains a separate unresolved topology/material/render decision and was not absorbed.
+- **Weather:** the existing Weather-local seeded atmosphere variation family already exercises three materially different seeds and has its own fail-closed baseline control. No duplicate field generator was opened.
+- **Map:** current Procedural PR #3 already owns the source-aware seeded placement family. Environment / VFX / Runtime own current-world source composition, Weather presentation and budgets respectively; this activation did not add a second Map lane.
+- **Object:** Procedural PR #11 already owns the bounded empty/left/right/bilateral service-module configuration family. Current Hard-Surface / Rigging / Animation / Technical Art / Runtime work is active and was not re-expressed procedurally.
+- **Misc:** no grounded repeated source family justified a catch-all generator.
 
-Map, however, now has one repeated receiving-side pattern that has materially matured since the previous Procedural pass: the same deterministic six-proxy placement family feeds multiple slots for which exact source-owned replacements have independently been proven in receiving evidence. The old source-aware generator checked only the west sapling. That meant a structurally valid seeded layout could still reserve too little space for another already-proven real source.
+The current Geometry status is especially relevant to the Building choice. Geometry PR #6 has separately proven a derived closed/outward face-connectivity candidate across 19 Building box outputs, while explicitly leaving source migration held. Geometry also states that the existing Procedural row facts remain truthful because component IDs, centers and sizes are unchanged. Procedural therefore extends only **source-record symmetry compression** and does not touch triangle topology, winding, normals, source migration or Geometry acceptance.
 
-This is a Map receiving-contract problem, not a reason to proceduralize Nature/Object source semantics or centralize them into UC.
+## Selected bounded improvement
 
-## Bounded repair selected
+Repository:
 
-Extended existing Map PR #3 rather than opening a duplicate lane.
+`mike-axiom-mir/axm-building-design`
 
-Exact current Map Procedural head:
+Existing draft Procedural PR:
 
-`1ee14b799ba6918ef20b4052d34758e7cae1c29d`
+**#4 — `Procedural: derive repeated pavilion box rows from exact source`**
 
-Existing family remains unchanged:
+Exact base / source owner:
 
-`axm.environment-variation-family/v0.1`
+- Hard-Surface PR #2 head `4faa769b406bf3ad0ba9489a77141c27f122ce51`;
+- exact Building source SHA-256 `852038d2288ead9a0ee271e09f1a7f7207ec8fd74668e0c52e739e9a224f87d7`.
 
-- same six declared Nature/Object proxy targets;
-- same authored XY jitter / uniform-scale / rotation ranges;
-- same deterministic `random.Random(seed)` sequence;
-- same maximum 32 attempts;
-- same Map composition evaluator;
-- same fail-closed philosophy.
+Exact current Procedural head:
 
-New smallest reusable receiving contract:
+`6fb07cfa5e68bcce1c8b46dc16dd0e3ab53aa6a5`
 
-`axm.environment-source-aware-variation-gate-set/v0.1`
+PR state at evidence time:
 
-It composes four exact receiving-envelope gates without importing source-domain generation logic:
+**OPEN / DRAFT / MERGEABLE**
 
-1. **west sapling / `proxy:nature-tree-west-a`**
-   - Nature source head `fbc202449981f2bac153951c561ed0ed6120c936`;
-   - source digest `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
-   - mesh digest `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`;
-   - required source envelope `2.1603629093570857 x 1.4132717100681425 x 4.8610059432109285 m`;
-   - retained Map receiving artifact `10428450742`.
+## Why this pattern deserved proceduralization
 
-2. **compact east tree / `proxy:nature-tree-east-b`**
-   - Nature source head `64116d63fc76daa1623b5fd5046a4e6074100bda`;
-   - source digest `9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`;
-   - mesh digest `c7367ed5dcea6ebe39869c48fd653845b25c9a8725a2e637a1d6f2fbee1fa32f`;
-   - Nature-authored declared fit envelope `1.6 x 1.6 x 4.0 m`;
-   - retained Map receiving artifact `10431229631`.
+The existing source contains five literal symmetric component patterns expressible by the already-proven Building-local contract:
 
-3. **rear/right tree / `proxy:nature-tree-east-a`**
-   - migrated Nature source head `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
-   - source digest `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`;
-   - migrated mesh digest `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
-   - required source envelope `1.4659581334685274 x 1.2481818925645483 x 4.090100386015876 m`;
-   - retained Map receiving artifact `10437582047`.
+1. front uprights — four X stations;
+2. rear uprights — four X stations;
+3. rear infill — three X stations including center;
+4. front/rear headers — two mirrored Y stations;
+5. west/east headers — two mirrored X stations.
 
-4. **west Object / `proxy:object-crate-west`**
-   - Object source head `d3fa10a270faae7925811f44f03381fe5c5d0215`;
-   - source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-   - generated OBJ SHA-256 `3e01ef3bf4935ee6aee7c56c03dc0b7f54c308e5ac2eb6a7583252a366901106`;
-   - deterministic local source envelope `0.87 x 0.57 x 0.422 m`;
-   - retained Map receiving artifact `10439842400`;
-   - explicit receiving rotation policy `FOLLOW_TARGET_Z_ROTATION` matching the already-proven Map Object replacement contract.
+The previous procedural pass covered only the first three patterns, deriving 11 of 17 source components. The four headers remained manual even though they already satisfy the same bounded source-row grammar. Adding another generator would have been unnecessary complexity; the smallest repair is to extend the existing profile with two source-exact rows and prove them against the unchanged source.
 
-Nature gates use `NO_EXTRA_SOURCE_ROTATION`. Rotation policy is data, not inferred from category names. Unsupported policy fails before generation.
+The family schema remains unchanged:
 
-## Acceptance / failure behavior
+`axm.building-symmetric-component-row-family/v0.1`
 
-For every deterministic attempt the existing Map candidate is generated first, unchanged. It is retained only when:
+It still allows only one declared axis, one fixed row center, positive symmetric offsets plus an optional center station, one exact box size and exact source component IDs in negative-to-positive order.
 
-- the original Map composition evaluator passes; and
-- **all four** declared source-envelope gates pass on that same candidate.
+## New exact rows
 
-Otherwise the candidate is retained as rejected evidence and the existing seed stream advances. The generator does not widen ranges, rescale source assets, drop a failed source dependency or choose a least-bad result.
+### Front / rear header pair
 
-The retained rejection record now captures per-source PASS/HOLD state, checks and remaining margins. A source dependency therefore becomes visible evidence instead of an implicit assumption.
+- row ID: `front-rear-header-pair`;
+- axis: `y`;
+- row center: `[0.0, 0.0, 3.02] m`;
+- stations: `-0.90 / +0.90 m`;
+- exact size: `[7.2, 0.18, 0.18] m`;
+- exact source IDs: `front-header`, `rear-header`;
+- row digest: `02373d7571a526b08da0a1ef05c7dc2581aad42b0b210f85b78f2e311ce7299c`.
 
-A synthetic negative control makes only `compact-east-source-envelope-001` impossible, caps attempts at three and proves that one impossible declared dependency HOLDS the entire candidate set for all three attempts. It is explicitly labelled synthetic and is not an asset candidate.
+### West / east header pair
 
-## Multiple-output evidence
+- row ID: `west-east-header-pair`;
+- axis: `x`;
+- row center: `[0.0, 0.0, 3.02] m`;
+- stations: `-3.70 / +3.70 m`;
+- exact size: `[0.18, 1.6, 0.18] m`;
+- exact source IDs: `west-header`, `east-header`;
+- row digest: `15b90d8ae9c552ab4fca340d8897fab2457f3670dd664345e9448d902fb34734`.
 
-The exact family still retains three materially different evidence seeds: `7`, `29`, `83`.
+The original three row digests remain unchanged:
 
-Scoped result:
+- front uprights: `af63a6d13fb8ad1b812780f6a381cd7c0c6d64179c343a0d40f31b6a6505e792`;
+- rear uprights: `00478d2147e7dabcd43a1a0df7581dab158cb579b50cd10638c883e3d276b9db`;
+- rear infill: `bfe8fe759c4ce7c64903817167cd72b836092248132894225442fb3d11b55a7a`.
 
-**`PASS_MAP_MULTI_SOURCE_SEEDED_RECEIVING_COMPATIBILITY`**
+Only `slab` and `roof` remain explicit source components outside this family.
 
-- seed `29`: PASS at attempt `0`; historical study digest remains exactly `6bb6a6436f2b13aff58a210b252bfcef310c8fd1cc76c2198d75cad819f0c499`;
-- seed `83`: PASS at attempt `0`; historical study digest remains exactly `fb06a593a65dc93ca619acf4288cea403aee3763573318d3be7c1e78cb8ecb7b`;
-- seed `7`: old single-west-source gate could accept attempt `3`; the four-source gate set correctly rejects **11** candidates and accepts attempt `11` instead.
+## Multiple-output pressure
 
-The seed-7 rejection trail proves the new contract is materially active rather than decorative: rejected candidates include west-sapling, compact-east and rear/right Nature source-envelope HOLDs plus ordinary Map composition failure. The west Object envelope is non-blocking for these retained samples, but remains validated and provenance-bound on every candidate.
+The exact retained result is still:
 
-Total rejected attempts across the three retained seeds: **11**.
+**`PASS_SOURCE_EXACT_SYMMETRIC_COMPONENT_ROW_GENERATOR`**
 
-The historical proxy-only generator remains regression-pinned; this repair changes its source-aware acceptance layer, not its random family.
+but the evidence surface is materially stronger:
+
+- row count: **5**;
+- generated source components: **15 / 17**;
+- distinct row digests: **5 / 5**;
+- distinct component sizes: **4**;
+- distinct station counts: **2, 3 and 4**;
+- generated subset digest: `659a5ecc192502b75e8c9f01fa1607b48b7ea8667b5447ee7da7cd5b76902b0e`;
+- exact source SHA-256 remains `852038d2288ead9a0ee271e09f1a7f7207ec8fd74668e0c52e739e9a224f87d7`;
+- profile SHA-256 is `c1c946dee01e2a13d488c93d2f3e3b04f733cdca6dc3bcf67dc9bef613c067a3`.
+
+This is not one lucky output: the family now spans orthogonal X/Y axes, 2/3/4-station rows, center/no-center cases and four distinct box dimensions while reproducing exact existing source records.
+
+## Failure bounds
+
+The generator continues to fail closed with no nearest-match behavior, source rewrite, pattern widening or fallback component.
+
+Five retained negative controls now HOLD:
+
+- unsupported axis;
+- duplicate generated component ID;
+- deliberate `1 mm` upright source-pattern drift;
+- deliberate `1 mm` **east-header** source-pattern drift;
+- source SHA identity drift.
+
+The new header-specific drift control matters because it directly proves the added rows are actually checked against source truth rather than inheriting confidence from the older upright control.
+
+Failure policy remains:
+
+`FAIL_CLOSED_NO_SOURCE_REWRITE_NO_PATTERN_WIDENING_NO_NEAREST_MATCH`
 
 ## Exact CI and retained evidence
 
-Exact workflow:
+Dedicated exact-head workflow:
 
-`35092338539 — Procedural environment variation` — **SUCCESS**
+**`35097591317 — Procedural building symmetric-row evidence` — SUCCESS**
 
-Both Python 3.11 and Python 3.13 compile/regression jobs pass. Python 3.11 also rebuilds and retains both proxy-only and four-source-aware multi-seed evidence.
+- Python 3.11: compile PASS; complete repository tests PASS; exact five-row evidence build PASS; summary truth gate PASS; artifact retention PASS.
+- Python 3.13: compile PASS; complete repository tests PASS.
 
-Inherited exact-head Map composition workflow:
+Inherited same-head workflow:
 
-`35092338553 — Environment composition baseline` — **SUCCESS**
+**`35097591170 — Hard-surface building evidence` — SUCCESS**
 
-Retained exact-head artifacts:
+The inherited receiver proof still reports:
 
-- `environment-variation-001-evidence`
-  - artifact ID `10444951162`;
-  - size `11,595` bytes;
-  - GitHub-retained SHA-256 `9be776f8ff0544054791a877b27c799d4efed43c4a1a281127a23bc5bc08fbc1`.
+- two utility receivers;
+- readable-path gap `0.5800000000000001 m`;
+- combined local bounds `[-3.8000000000000003, -1.12, 0.0] -> [3.92, 1.0, 3.4]`;
+- mount-drift, oversize and insufficient-standoff controls all rejected.
 
-- `environment-source-aware-variation-001-evidence`
-  - artifact ID `10444458826`;
-  - size `23,041` bytes;
-  - GitHub-retained SHA-256 `998dd92a3fb279b455fb8e03b5e43601e0ec785c192232d6e60aa8f4caa4bc05`.
+Retained artifact:
 
-These new archive digests are reported from GitHub Actions metadata. They were **not independently downloaded/re-hashed in this activation**. The exact study digests and attempt-history assertions above are separately regression-pinned and passed in CI.
+- ID `10446907451`;
+- name `service-pavilion-symmetric-rows-001-6fb07cfa5e68bcce1c8b46dc16dd0e3ab53aa6a5`;
+- size `3,371 bytes`;
+- GitHub SHA-256 `d9974d0d1e35798b6d001344e28f952430c171e2b7b06fa172b0e89b4aa8bb4f`;
+- independently downloaded and rehashed to the exact same SHA-256;
+- retained `exact-head.txt` equals `6fb07cfa5e68bcce1c8b46dc16dd0e3ab53aa6a5`.
 
-Map PR #3 is **OPEN / MERGEABLE** at the exact head above.
+The archive retains `summary.json`, exact-head binding and all five generated row outputs.
 
-## Placement decision / non-overlap
+## Placement / handoffs
 
-Correct home remains **Map** because this contract decides whether Map's authored seeded receiving envelopes can host exact external source bodies. Source-domain meaning stays where it already belongs:
+Correct home remains **Building**. The capability is literal compression of one Building source's already-authored symmetric component records. It does not justify a generic UC building grammar.
 
-- Nature owns Nature form/topology/material/deformation semantics;
-- Object owns Object geometry/interfaces/articulation/material semantics;
-- Environment owns world-art usefulness and composition adoption;
-- Runtime owns cost if a generated layout is actually adopted;
-- Art Direction / Visual QA own perceptual acceptance.
+No new Profession Fabric extraction is justified. The existing PF bounded-variation evidence work is a different cross-domain procedure; this row grammar is still a source-local construction shorthand.
 
-No UC change is justified. The four gates are receiving-scene constraints coupled to this Map family, not a neutral cross-domain creation primitive.
+Geometry PR #6 remains independent. If Hard Surface later migrates Geometry's corrected face table into a new source/builder identity, Procedural must explicitly rebind/rerun against that successor source rather than silently treating equal component centers/sizes as provenance continuity.
 
-No Profession Fabric change is justified. Its generic bounded-variation evidence procedure may rerun this repository's generator/evaluator, but Map rules and source gates remain in Map.
-
-No new generator was opened in Weapon, Armor, Unit or Misc to create artificial coverage. Character/Animal active evidence lanes were not duplicated. Nature leaf-sidedness, Object rigging/animation/Technical Art/Runtime, Weather/VFX and Building lanes remain independent.
-
-## Handoffs
-
-Environment / World Art may use the retained source-compatible variants as bounded candidates, but must still judge whether any is useful in the current world. Art Direction / Visual QA should not inherit aesthetic acceptance from envelope PASS. Nature/Object owners should update their own receiving gates only when exact source identity or required envelope materially changes. Runtime must remeasure any different seeded layout that becomes a receiving baseline rather than inheriting current-world budgets.
-
-Capability Cartography may record the repeated distinction between source-owned identity and receiving-envelope compatibility, but this activation does not support moving either domain knowledge or Map placement policy into a shared central system.
+Materials, Hard Surface, Map receiving, Runtime and Art Direction keep their own acceptance authority. No handoff asks them to accept this procedural derivation as topology, visual, runtime or production evidence.
 
 ## Explicit non-claims
 
-This activation does **not** prove:
+This activation does **not** establish:
 
-- visual attractiveness, final dressing or hierarchy;
-- arbitrary-seed safety outside the retained bounded family and attempt limit;
-- final adoption of any generated layout;
-- final Nature topology/material/deformation correctness;
-- final Object materials, articulation, attachment or physical behavior;
-- collision, navigation or gameplay quality;
-- target-device FPS, GPU, VRAM, memory, LOD or streaming budgets;
-- optimal randomness or general procedural world generation;
-- Art Director / Visual QA acceptance;
+- a new pavilion design;
+- architectural or structural engineering validity;
+- arbitrary procedural building generation;
+- optimal modularity;
+- adoption/source migration of Geometry PR #6;
+- closed/outward source topology, final normals, tangents, UVs or boolean union;
+- material/lookdev quality;
+- runtime performance, collision, navigation, physics or gameplay;
+- Map adoption or visual usefulness;
+- Art Direction / Visual QA acceptance;
+- a generic UC Building generator;
+- Profession Fabric promotion;
 - CANON, production readiness, game readiness or Procedural Design mastery.
 
-The scoped claim is only that the unchanged Map-local seeded placement family can now fail closed against **four exact already-proven source-receiving envelopes at once**, while preserving source authority, deterministic provenance, rollback and bounded failure behavior.
+## Four-root check
+
+- **Truth:** the two new rows reproduce existing source centers/sizes exactly; header drift is explicitly rejected; Geometry's separate topology defect is not hidden behind this PASS.
+- **Agency / non-domination:** Building source ownership stays with Hard Surface; Geometry, Materials, Runtime, Map and Art Direction retain their own acceptance domains.
+- **Continuity:** the prior Map status and earlier three-row Building evidence remain historical truth; this activation extends the existing Building family rather than replacing source or rewriting prior evidence.
+- **Wisdom before speed:** no second generator, UC abstraction or cross-domain promotion is created when the existing source-local grammar is sufficient.
+
+## Next Procedural pass
+
+Re-scan the whole constellation rather than automatically continuing Building. Prefer a new lane only when a repeated manual structure is visible in exact source/evidence and no active specialist already owns it. If Building source/builder identity changes through a future Geometry migration, rebind this exact row family explicitly rather than assuming unchanged numeric records imply unchanged provenance.
