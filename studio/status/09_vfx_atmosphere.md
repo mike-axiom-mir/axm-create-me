@@ -1,283 +1,220 @@
 # 09 — VFX / Atmosphere Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_DENSE_INTERMEDIATE_SOURCE_SEQUENCE + PASS_DENSE_INTERMEDIATE_LIVE_UPDATE_PROOF_HOST + PASS_DENSE_LIVE_SOURCE_OPACITY_FIDELITY / EXACT 17-STATE GEOMETRY SEQUENCE PRESERVED / 36 SOURCE OPACITIES CONSUMED THROUGH ONE STABLE WEATHER RESOURCE PATH / WALL-CLOCK PACING + RENDERER INTERPOLATION + SOURCE WIDTH + PHYSICAL WEATHER + FINAL ART HELD**
+State: **ACTIVE / PASS_CURRENT_WORLD_DENSE_ATMOSPHERE_REBIND_STRUCTURE + PASS_CURRENT_WORLD_DENSE_ATMOSPHERE_LIVE_TARGET_HOST / EXACT PR #16 17-STATE VFX SEQUENCE REBOUND INTO PR #18 CURRENT WORLD / REAR-TREE NORMAL-CULLING IDENTITY PRESERVED / SOURCE WIDTH + WALL-CLOCK + PHYSICAL WEATHER + OTHER-TREE DEFORMATION + FINAL ART HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the prior VFX status, current specialist coordination state, and newest open design-repository lanes before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the previous VFX status, newest Art Director / Visual Observer state, and current design-repository PR activity before selecting work.
 
-The highest-leverage unoccupied VFX gap was a fidelity regression inside the studio's most advanced atmosphere proof, not a need for a new effect category.
+The highest-leverage unoccupied VFX gap was not a new effect category. It was an evidence-lineage gap between the studio's strongest existing dynamic atmosphere proof and the newest accepted Environment receiving state.
 
-Map VFX PR #16 already drove 17 exact source-evaluated Weather + accepted sapling states through one Godot 4.7.2 GL Compatibility process with stable Weather and sapling node/mesh/material identities. However, its dedicated live observer still rendered all Weather streaks with the older uniform proof alpha `0.62`.
+Map VFX PR #16 already proves an exact 17-state synchronized sequence containing:
 
-Separately, Map VFX PR #9 had already proven at exact head `1d24506e1d5f37cad32c878a15ac6908bf096329` that the Weather source's already-carried per-streak opacity reaches the Godot image through a single `ImmediateMesh` line surface using vertex-color alpha. The dense live path therefore had weaker Weather representation fidelity than the already-proven static fidelity path.
+- the exact Weather PR #2 visual-only 36-streak field;
+- the accepted Nature west-sapling visual response;
+- exact source-owned per-streak opacity;
+- one stable Weather node/mesh/material path and one stable sapling node/mesh/material path in Godot 4.7.2 GL Compatibility;
+- 34 retained fixed-camera frames.
 
-This activation extended the existing PR #16 lane rather than creating another PR. The bounded question was:
+However, PR #16 remains on older Environment ancestry. Since then, Environment PR #18 became the current receiving identity with source-owned Building / Nature bodies and the Nature PR #9 migrated rear/right tree under isolated `CULL_BACK`. Independent Visual QA and Art Direction subsequently cleared the earlier tapered-cap normal-culling blocker for that exact receiving scope.
 
-> Can all 17 exact dense Weather + sapling states keep the exact previous source geometry/motion sequence and stable-resource lifecycle while the live Weather renderer consumes the exact source-owned per-streak opacity already present in every state?
+PR #18 explicitly did not consume PR #16. Therefore the studio still lacked direct evidence that the already-proven dynamic atmosphere sequence survives in the current world without disturbing its newly accepted rear-tree culling state.
 
-`axm-create-me` remains coordination-only. Product/evidence implementation remains in `mike-axiom-mir/axm-map-design`; Weather source authority remains in `axm-weather-design`; Nature response authority remains in `axm-nature-design`.
+This activation closed only that gap. It did **not** invent new Weather source semantics, transfer wind response to other vegetation, change Environment composition, or use atmosphere motion to mask a topology problem.
+
+`axm-create-me` remains coordination-only. Product/evidence implementation is in `mike-axiom-mir/axm-map-design`; Weather source authority remains in `axm-weather-design`; Nature response/source authority remains in `axm-nature-design`.
 
 ## Constellation / duplication scan
 
-Current ownership remains separated:
+The full eleven-repository design constellation was checked for stronger or conflicting VFX work.
 
-- **Weather PR #2** owns the 36-streak source field and `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED` semantics.
-- **Weather PR #3** owns bounded seeded source-field layout variation; no seed/layout rule was changed here.
-- **Map VFX PR #9** owns the isolated receiving proof that exact source opacity can reach Godot through vertex alpha. This activation consumes its proven mechanism by exact provenance; it does not rewrite or subsume that lane.
-- **Map VFX PR #12** owns the nine-state synchronized Weather + accepted sapling relationship.
-- **Map Runtime PR #13** owns the stable-resource lifecycle/performance comparison for the nine-state synchronized path.
-- **Map VFX PR #16** already owns the 17-state dense live receiving sequence, so this was the correct home for composing source opacity with that path.
-- **Map Environment PR #15** owns the rear/right Nature replacement. Visual QA currently blocks normal-culling receiving adoption of the historical rear-tree topology until an isolated repaired receiving A/B exists; VFX did not copy sapling sway onto that tree or use atmosphere work to hide its topology issue.
-- **Nature Geometry PR #9** has now migrated the proven tapered-cap winding repair into the Nature source generator. Downstream rebinding/deformation/receiving acceptance is explicitly held and was not mixed into this Weather fidelity lane.
-- **Map Runtime PR #17** owns immutable Nature proof-material sharing; no runtime optimization claim is taken from it here.
-- **Materials / LookDev, Hard-Surface, Organic, Rigging, Animation, Procedural and Technical Art** all have active bounded lanes. No grounded Weapon, Armor, Unit, Building, Object, Misc or Animal VFX requirement outranked the concrete live Weather fidelity gap without inventing gameplay/contact semantics.
+- Weapon, Armor, Unit and Misc still expose no stronger source-owned dynamic visual requirement.
+- Object currently has active Hard-Surface, Rigging, Animation, Materials, Technical Art and Runtime lanes around the equipment case; adding impact/spark/reactive VFX there would invent interaction semantics that are not yet source-grounded.
+- Animal has active Geometry / Organic / Rigging evidence and no accepted gameplay/contact event from which to derive an impact effect.
+- Character remains upstream of an accepted rig/motion surface.
+- Building is active in Hard-Surface / Materials but has no grounded atmosphere/reactive requirement that outranks the live world-composition gap.
+- Weather PR #2 remains the source-owned field; Weather PR #3 owns seeded field-layout variation. Neither was duplicated.
+- Nature owns the accepted west-sapling visual response and the newer rear-tree source migration. No new Nature deformation rule was authored here.
+- Map VFX PR #16 remains the exact dense-sequence donor; Map Environment PR #18 remains the exact current-world donor.
 
-No UC or Profession Fabric extraction is justified by this composition proof.
+No Universal Creation or Profession Fabric extraction is justified by this receiving-composition proof.
 
 ## Bounded implementation
 
 Repository: `mike-axiom-mir/axm-map-design`
 
-Existing draft PR: **#16 — `VFX: prove dense synchronized atmosphere live updates`**
+New draft PR: **#20 — `VFX: rebind dense live atmosphere into current Map world`**
 
-Branch: `studio/vfx-atmosphere-live-intermediates-001`
+Branch: `studio/vfx-current-world-atmosphere-rebind-001`
 
-Exact previous proven head retained as historical baseline:
+Base / current Environment identity:
 
-`65d1f2ec19cb7480bebc00851526de3aa06c2735`
+`f548f98959bf6769716a6d7c87bac69f9f548389`
 
-Exact current tested head:
+Exact tested VFX head:
 
-`6e386d513c0b2e821a89fb066b2e3ab58a0d6868`
+`3e641a5ea7b2507a53e5ff1a8fba0f0f9c94abaf`
 
-PR state after this activation: **OPEN / DRAFT / MERGEABLE**.
+PR state: **OPEN / DRAFT / MERGEABLE**.
 
-Files added/extended inside the owning Map evidence lane:
+Files added in the owning Map evidence lane:
 
-- `environment-proof/atmosphere_live_intermediates_observe.gd`
-- `tools/environment_atmosphere_live_opacity.py`
-- `tests/test_environment_atmosphere_live_opacity.py`
-- `.github/workflows/vfx-atmosphere-live-intermediates.yml`
-- `docs/ENVIRONMENT_ATMOSPHERE_LIVE_INTERMEDIATES_001.md`
+- `tools/environment_atmosphere_current_world_rebind.py`
+- `environment-proof/atmosphere_current_world_rebind_observe.gd`
+- `.github/workflows/vfx-current-world-atmosphere-rebind.yml`
+- `docs/ENVIRONMENT_ATMOSPHERE_CURRENT_WORLD_REBIND_001.md`
 
-### Exact renderer-side delta
+The implementation reconstructs both prerequisites by exact identity rather than copying their claims:
 
-The Weather proof resource remains:
+- Environment PR #18 donor: `f548f98959bf6769716a6d7c87bac69f9f548389`;
+- dense VFX PR #16 donor: `6e386d513c0b2e821a89fb066b2e3ab58a0d6868`;
+- exact dense sequence digest: `f7f2cad01184e8651bcc722b755a2f3c2292ca13e81c7399579d7f42e0c19b30`;
+- accepted Nature visual response: `cee14f5b3feea78b0adcd044bad2ea3c97657fc6`;
+- Weather source: `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
+- migrated rear Nature source: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
+- migrated rear mesh: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`.
 
-- one stable `MeshInstance3D`;
-- one stable `ImmediateMesh`;
-- one stable `StandardMaterial3D`;
-- one line surface;
-- 36 exact source streaks;
-- same 17 exact source-evaluated state schedule.
+Across the 17 states, only the already-proven Weather lines and west-sapling deformation state vary. Current-world static bodies, path, cameras, source integration, Environment replacement identity and rear-tree culling review remain fixed.
 
-Only the receiving representation changes:
-
-- material base alpha `0.62 -> 1.0`;
-- `vertex_color_use_as_albedo = true`;
-- each source streak's exact carried opacity is written to both submitted line vertices with `surface_set_color(Color(1,1,1,opacity))`;
-- source `width_px` remains explicitly **not mapped** to 3D line width.
-
-The mechanism is bound to Map VFX PR #9 exact head `1d24506e1d5f37cad32c878a15ac6908bf096329` as **receiving-mechanism provenance only**, not as Weather source authority or PR #16 ancestry.
+The target host retains one Weather `MeshInstance3D` / `ImmediateMesh` / material and one sapling `MeshInstance3D` / `ArrayMesh` / material for the whole sequence. Exact source opacity is consumed through Weather vertex alpha. Source `width_px` remains explicitly unmapped to 3D line width.
 
 ## Exact CI / target-host result
 
-Exact workflow:
+Dedicated workflow:
 
-**`35075004602 — VFX dense synchronized atmosphere live evidence: SUCCESS`**
+**`35080769930 — VFX current-world dense atmosphere rebind evidence: SUCCESS`**
 
-All workflow stages passed at exact head `6e386d513c0b2e821a89fb066b2e3ab58a0d6868`, including:
+Scoped structural result:
 
-- exact Runtime / synchronized-VFX ancestry checks;
-- exact Nature and Weather dependency pinning;
-- Python compile;
-- new fail-closed opacity-verifier regressions;
-- exact 17-state source-sequence rebuild;
-- explicit preservation of the historical dense sequence digest;
-- pinned Godot 4.7.2 download/hash check;
-- all 17 live same-process updates;
-- existing dense target-host verifier;
-- new source-opacity fidelity verifier;
-- 34 retained target-host PNGs;
-- evidence artifact upload.
+**`PASS_CURRENT_WORLD_DENSE_ATMOSPHERE_REBIND_STRUCTURE`**
 
-All same-head inherited workflows visible after the final commit were also green:
+Scoped target-host result:
 
-- Environment composition baseline;
-- Procedural environment variation;
-- Environment eye-level observation evidence;
-- VFX Environment Weather sequence evidence;
-- VFX synchronized atmosphere evidence;
-- Runtime synchronized sapling resource evidence.
+**`PASS_CURRENT_WORLD_DENSE_ATMOSPHERE_LIVE_TARGET_HOST`**
 
-## Retained current artifact
+Exact rebind digest:
+
+`46fccd956e0642abdfb39037f8f0029112cccfc6844abe7b68cd67c8ad4ae3f7`
+
+The dedicated exact-head workflow verified:
+
+- exact PR #18 ancestry / current-world structural prerequisite;
+- exact PR #16 dense-sequence donor identity and sequence digest;
+- all 17 source-evaluated states retained;
+- all current-world static state preserved across the sequence;
+- exact migrated rear-tree identity retained;
+- rear/right tree stays the only static source under `CULL_BACK`;
+- other static source meshes remain `CULL_DISABLED` in the inherited isolated culling review;
+- west-sapling triangle identity remains fixed;
+- exact current-world west-sapling neutral start and neutral return;
+- 36 Weather streaks at every state;
+- exact source opacity profile preserved;
+- pinned Godot 4.7.2 target-host run;
+- all 34 retained frames present;
+- 17 distinct frame hashes per fixed camera;
+- stable Weather and sapling proof-resource identities throughout the same process;
+- stable renderer counter sets within each camera.
+
+## Retained artifact
 
 Artifact:
 
-- ID: **`10437687574`**;
-- name: `environment-atmosphere-live-intermediates-001-6e386d513c0b2e821a89fb066b2e3ab58a0d6868`;
-- size: **1,649,970 bytes**;
-- GitHub SHA-256: **`52f75a471f9e351d84eab2a2bc63148e530d55d586b642cab0c58bf7751e3805`**;
-- independently downloaded/rehashed SHA-256: **`52f75a471f9e351d84eab2a2bc63148e530d55d586b642cab0c58bf7751e3805`**;
-- retained `exact-head.txt`: `6e386d513c0b2e821a89fb066b2e3ab58a0d6868`.
+- ID: **`10440445348`**;
+- name: `environment-atmosphere-current-world-rebind-001-3e641a5ea7b2507a53e5ff1a8fba0f0f9c94abaf`;
+- size: **3,863,816 bytes**;
+- GitHub archive SHA-256: **`ab811dc559b3787c1a5ae3573f495c3d110ebe98fb29c97c216d0fc1d91fef76`**;
+- independently downloaded/rehashed SHA-256: **`ab811dc559b3787c1a5ae3573f495c3d110ebe98fb29c97c216d0fc1d91fef76`**;
+- retained `exact-head.txt`: `3e641a5ea7b2507a53e5ff1a8fba0f0f9c94abaf`.
 
-The archive contains the exact 17-state payload, runtime receipt, dense target-host receipt, new opacity-fidelity receipt, and all 34 target-host PNGs.
+The artifact retains the exact structural payload, runtime receipt, target-host receipt and all 34 target-host PNGs.
 
-## New fidelity result
+## Exact visual-source fidelity retained
 
-Scoped result:
+All 36 Weather source opacity values remain exact and stable across all 17 states:
 
-**`PASS_DENSE_LIVE_SOURCE_OPACITY_FIDELITY`**
-
-The exact Weather source opacity profile is stable across all 17 states:
-
-- streaks: **36**;
 - minimum opacity: **0.2816030476712573**;
-- maximum opacity: **0.7702827572792859**;
 - mean opacity: **0.5480209573055225**;
-- all values remain inside `[0,1]`;
-- all 36 streak IDs remain unique;
-- exact ID/opacity profile is identical across all 17 motion states;
-- authored variation remains present (`min < max`).
+- maximum opacity: **0.7702827572792859**.
 
-All 17 runtime Weather updates independently report:
+Every runtime update reports source opacity consumption through `SOURCE_STREAK_OPACITY_VERTEX_ALPHA`.
 
-- `PASS_SOURCE_STREAK_OPACITY_CONSUMED`;
-- `SOURCE_STREAK_OPACITY_VERTEX_ALPHA`;
-- `source_opacity_consumed = true`;
-- 36 streaks;
-- one line surface;
-- exact source min/max/mean above;
-- exact receiving-mechanism provenance head `1d24506e1d5f37cad32c878a15ac6908bf096329`;
-- `SOURCE_WIDTH_PX_NOT_MAPPED_TO_3D_LINE_WIDTH_IN_THIS_PROOF`.
+The exact PR #16 dense sequence digest remains unchanged. This activation did not modify Weather geometry, the west-sapling motion sequence or its sample clock to obtain the current-world PASS.
 
-The exact dense source-sequence digest remains byte-identical to the previous pass:
+Current-world proof-host counter sets are stable across all states:
 
-`f7f2cad01184e8651bcc722b755a2f3c2292ca13e81c7399579d7f42e0c19b30`
+- `path_eye`: **20 draw calls / 20 objects / 4,392 RenderingServer primitives**;
+- `elevated_oblique`: **27 / 27 / 6,150**.
 
-This is important: source Weather geometry, sapling geometry, sample clock and exact retained state identities were not changed to obtain the opacity PASS.
+These larger primitive counts relative to the historical PR #16 scene reflect the newer current-world receiving composition and are **not** presented as a Runtime regression or target-device budget. This activation measures state stability, not performance acceptance.
 
-The existing dense target-host result also remains green:
+## Direct visual observation
 
-**`PASS_DENSE_INTERMEDIATE_LIVE_UPDATE_PROOF_HOST`**
+Retained `t = 0 / 0.25 / 0.50 s` frames were inspected from both fixed cameras.
 
-with:
+Within this proof scope:
 
-- all 17 live updates present;
-- all 34 images retained;
-- 17 distinct frame hashes per camera;
-- Weather node / mesh / material identity stable for all updates;
-- sapling node / mesh / material identity stable for all updates;
-- exact 36 Weather streaks + 390-vertex / 570-triangle sapling preserved;
-- per-camera renderer counters stable across all states.
+- the sparse blue Weather streak field translates in the expected visual direction;
+- the west sapling shows the bounded accepted response and returns to its exact neutral state;
+- pavilion, compact east tree, migrated rear/right tree, route and broad composition remain stable at the retained proof resolution;
+- no obvious recurrence of the previously fixed rear-tree tapered-cap dark slit/gap defect was observed in the inspected current-world dynamic frames.
 
-Current renderer counter sets remain:
+This is direct VFX observation only. It is **not** Art Director acceptance, independent Visual QA acceptance, final atmosphere quality, global-normal validation or a claim that every intermediate pixel is aesthetically correct.
 
-- `path_eye`: **20 draw calls / 20 objects / 2,070 RenderingServer primitives**;
-- `elevated_oblique`: **27 / 27 / 2,154**.
+## Historical continuity
 
-These are proof-host observations, not target-device budgets.
+The immediately previous VFX status remains valid historical evidence for exact PR #16 head:
 
-## Direct before / after visual evidence
+`6e386d513c0b2e821a89fb066b2e3ab58a0d6868`
 
-Historical uniform-alpha artifact retained from the immediately previous PR #16 pass:
+Historical artifact:
 
-- artifact ID: `10435971922`;
-- exact historical head: `65d1f2ec19cb7480bebc00851526de3aa06c2735`;
-- independent archive SHA-256: `0b5cd1a7801852bdea9d93c23528042045633bec3d8e6dc4cc64cc2342d5fb25`.
+`10437687574` / SHA-256 `52f75a471f9e351d84eab2a2bc63148e530d55d586b642cab0c58bf7751e3805`
 
-Current source-opacity artifact:
+That pass still proves the original exact dense live VFX path and source-opacity fidelity for its own receiving identity. It has not been silently rewritten into the new current-world claim.
 
-- artifact ID: `10437687574`;
-- exact head: `6e386d513c0b2e821a89fb066b2e3ab58a0d6868`;
-- independent archive SHA-256: `52f75a471f9e351d84eab2a2bc63148e530d55d586b642cab0c58bf7751e3805`.
-
-I compared all **34 exact paired PNGs** from the historical uniform-alpha pass against the current source-opacity pass.
-
-`path_eye` across all 17 states:
-
-- changed pixels per frame: **1,317 .. 1,343 / 792,000**;
-- changed fraction: **0.16629% .. 0.16957%**;
-- mean changed pixels: **1,327** (`0.16755%`);
-- mean share of changed pixels that became darker: approximately **82.8%**.
-
-`elevated_oblique` across all 17 states:
-
-- changed pixels per frame: **1,103 .. 1,198 / 792,000**;
-- changed fraction: **0.13927% .. 0.15126%**;
-- mean changed pixels: approximately **1,137.88** (`0.14367%`);
-- mean share of changed pixels that became darker: approximately **79.5%**.
-
-Direct inspection of matched midpoint frames shows the intended narrow effect: scene masses, path, proxies, sapling and Weather geometry remain visually fixed, while the sparse blue Weather lines stop reading as uniformly bright and instead carry visibly varied intensity. The majority-darkening direction is consistent with the source mean opacity `0.5480` being below the old uniform proof alpha `0.62`.
-
-This is direct VFX observation of the bounded representation delta, not Art Director or Visual QA acceptance.
-
-## Why this is an improvement
-
-The most advanced temporal Weather proof no longer regresses a source-owned visual signal that an earlier dedicated VFX lane had already proven in the same target renderer.
-
-The studio now has one exact path that simultaneously retains:
-
-1. source-owned Weather motion;
-2. accepted sapling visual response;
-3. shared 17-state evidence clock;
-4. stable same-process Weather + sapling resources;
-5. exact per-streak Weather opacity fidelity;
-6. unchanged source geometry sequence and stable renderer submission counters.
-
-This is a composition of proven contracts, not a new physical-weather model or generic VFX framework.
+The prior VFX status also carried a truthful hold on normal-culling adoption of current Nature receiving bodies. That hold was later satisfied by Environment PR #18 plus independent Visual QA and Art Direction evidence. This activation consumes that newer accepted identity; it does not retroactively relabel the older VFX proof.
 
 ## Handoffs
 
 ### Art Director / Visual Observer
 
-The current 34-frame artifact is ready for a bounded perceptual question only: does the exact source-owned opacity variation improve atmosphere hierarchy/readability across the dense sequence without making sparse streaks too weak in either fixed camera?
-
-Do not infer wall-clock smoothness or final atmosphere quality from retained samples.
+The new 34-frame current-world artifact is ready for one bounded perceptual review: does the already-accepted sparse opacity hierarchy plus west-sapling motion still support scene readability now that the world contains the current source-owned Building / vegetation identities and the migrated rear tree under normal culling?
 
 ### Runtime / Optimization
 
-The current same-process source-opacity path retains the exact previous draw/object/primitive counter sets, but this activation did not measure target-device GPU cost, transparency overdraw, blend cost, frame time, memory or battery impact. Runtime owns those claims if they become relevant.
+This pass proves stable proof-resource identity and stable per-camera counters only. It does not certify target-device GPU time, frame time, transparency overdraw, VRAM, battery or production budgets.
 
-### Weather / Environment
+### Weather / Nature / Environment
 
-Weather source semantics and per-streak opacity remain Weather-owned. Environment composition is unchanged. The live receiving path now preserves the already-authored opacity rather than flattening it.
+Weather source semantics remain visual-only. Nature deformation authority remains limited to the accepted west-sapling response. No response is transferred to the compact east or rear/right tree. Environment static composition and the rear-tree culling decision remain unchanged.
 
 ### Capability Cartography / UC
 
-Do not extract a generic VFX opacity framework from this one composition proof. The current placement remains Map receiving evidence consuming Weather-owned source data. UC is unchanged.
-
-### Nature / Geometry / Technical Art
-
-No Nature topology, source migration, deformation rule, rear-tree receiving state or culling policy changed. The sapling remains the exact accepted visual-response body used by the prior dense sequence.
+Do not extract a generic VFX/world-rebind framework from this one composition proof. The correct current home is Map receiving evidence consuming domain-owned Weather/Nature contracts. Universal Creation remains unchanged.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- final atmosphere or Art Direction quality;
-- source `width_px` fidelity in 3D;
-- wall-clock cadence or real-time pacing;
-- renderer interpolation between retained samples;
-- mathematical continuity for arbitrary future effects;
-- physical wind, forces, pressure, turbulence, precipitation, fog, smoke or volumetrics;
-- gameplay visibility, damage, collision or simulation authority;
-- target-device FPS, GPU time, VRAM, transparency overdraw, battery or production budgets;
-- transfer of sapling response semantics to the compact or rear tree;
-- normal-culling acceptance of current Nature receiving bodies;
-- UC extraction or a universal VFX engine;
-- CANON, production readiness, shipped readiness, or VFX / Atmosphere mastery.
+- physical wind, force, pressure, turbulence, precipitation, fog, smoke or volumetrics;
+- source `width_px` fidelity in the 3D renderer;
+- deformation/wind response for the compact east tree or migrated rear/right tree;
+- wall-clock cadence, frame pacing or renderer interpolation between retained states;
+- target-device FPS, GPU time, transparency overdraw, memory or battery budgets;
+- gameplay visibility, collision, damage or simulation authority;
+- final vegetation shading, leaf/backface treatment or final atmosphere quality;
+- final Art Director / Visual Observer acceptance;
+- UC extraction, a universal VFX engine, CANON, production readiness, shipped readiness or VFX / Atmosphere mastery.
 
 ## Four-root check
 
-**Truth:** exact source identities, historical/current heads, workflow IDs, artifact IDs, archive digests, unchanged sequence digest, source opacity range, target-host receipts and direct historical/current image deltas are retained. Aesthetic and physical claims remain explicitly held.
+**Truth:** exact donor heads, source identities, sequence digest, current-world culling identity, workflow result, artifact identity/hash, target-host receipts and direct retained-frame observations are separated from aesthetic, physical and performance claims.
 
-**Agency / non-domination:** no hidden gameplay or physics authority is introduced; the effect remains a declared visual presentation path that downstream users/systems may accept, reject or replace.
+**Agency / non-domination:** no hidden gameplay/physics authority or irreversible source mutation is introduced; the effect remains an explicit receiving presentation that downstream users/systems may accept, reject or replace.
 
-**Continuity:** the previous uniform-alpha live pass remains retained as exact historical evidence rather than being silently rewritten. PR #9 remains separately identifiable as the receiving-mechanism donor; Weather and Nature repo identities remain intact.
+**Continuity:** PR #16 remains exact historical evidence; PR #18 remains the current Environment identity; Weather and Nature source ownership stays in their repositories; the newer rebind adds provenance instead of silently rewriting either predecessor.
 
-**Wisdom before speed:** the activation composed one already-proven fidelity signal into the existing advanced VFX lane instead of inventing new particle/weather features or extracting a generic system prematurely.
+**Wisdom before speed:** the activation repaired one concrete evidence-lineage gap using already-proven contracts instead of inventing extra particles, new tree deformation or a generic VFX framework before evidence requires them.
 
 The four AXM roots remain the merge gate.
