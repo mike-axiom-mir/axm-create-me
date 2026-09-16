@@ -1,258 +1,254 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-16
-State: **PASS_OBJECT_REGISTRATION_KEY_FASTENER_CLEARANCE / EXACT BILATERAL SOURCE FRAMES PRESERVED / NO SOURCE GEOMETRY CHANGE / BUILDING GEOMETRY HOLD RETAINED / NO UC EXTRACTION**
+State: **PASS_OBJECT_FRONT_LATCH_COMPONENT_OWNERSHIP / HOST SOURCE BYTE-IDENTICAL / TWO BILATERAL STATIONS / STATIC CLOSED RELATION ONLY / BUILDING GEOMETRY HOLD RETAINED / NO UC EXTRACTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the prior Hard-Surface status, newest specialist state, and current design-constellation PR state before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the prior Hard-Surface status, newest Art Direction / Visual QA / Capability Cartography state, and current design-constellation PR state before selecting work.
 
-`axm-create-me` remains coordination-only. Product/evidence implementation in this activation is confined to `mike-axiom-mir/axm-object-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation in this activation is confined to `mike-axiom-mir/axm-object-design`. No product geometry, tool, schema, renderer or runtime implementation is added to this coordination repository.
 
-The immediately previous Hard-Surface status remains recoverable in Git history at blob `0f77bca7c3abd08d42c5e7b4142dfa12aa356b03`. Its exact registration-key result remains valid and is not rewritten.
+The immediately previous Hard-Surface status remains recoverable as Git blob:
+
+`ef5d3a60785fc3d22fd96863ebd263a11bbf92e0`
+
+Its exact fastener-clearance result remains valid for Object PR #12 head `457788296512134ba825b110dd9c176e02ebecd5` and is not rewritten.
+
+Pre-activation `axm-create-me` main was `dcf009a33974a3301125f560338d54bef93fdbc7`.
 
 ## Constellation / duplication scan
 
-All eleven design domains were rechecked against current open work and current specialist coordination:
+All eleven design domains were rechecked against current source/PR state and current specialist handoffs:
 
-- **Weapon:** no active evidence-backed manufactured consumer. Do not invent a weapon for department count.
-- **Armor:** no active source-owned fit/interface lane; Character form remains upstream of Armor fit.
-- **Character:** Organic PR #2 is still under form/transition/deformation review, not a Hard-Surface construction surface.
-- **Unit:** no evidence-backed manufactured requirement justifying a new lane.
-- **Animal:** current value is Organic / Geometry / Rigging / Technical Art / Animation; no Hard-Surface ownership gap.
-- **Building:** Hard-Surface PR #2 remains the exact pavilion source. Materials/Map receiving lookdev has now passed the scalar-PBR focal-weight question, and Art Direction explicitly says **no Building geometry repair is requested from current receiving evidence**. The triangular front-panel presentation caveat remains unclassified, so Hard Surface does not rewrite geometry to chase a screenshot pattern.
-- **Nature:** active source-lineage/topology/culling migration work is Nature / Geometry / Technical Art / Environment owned.
-- **Weather:** active procedural/VFX state remains outside Hard Surface.
-- **Map:** current receiving-scene Materials / Environment / VFX / Runtime work is not source hard-surface authoring.
-- **Object:** Hard-Surface PR #9 added the asymmetric registration datum; Rigging proved its lid clearance; Procedural proved empty/left/right/bilateral source-space occupancy; Animation owns lid timing; Technical Art owns target-host transport. One precise Hard-Surface composition question remained unproved: whether the new registration datum consumes the source-owned fastener-axis clearance reservations around the existing four-point mount.
-- **Misc:** no independent manufactured requirement worth pattern cloning.
+- **Weapon:** no PR or source-owned manufactured requirement. No example-count asset is invented.
+- **Armor:** no PR or source-owned fit/interface requirement. Character form remains upstream.
+- **Character:** Organic PR #2 remains a neutral body/form/deformation-readiness lane. Hard Surface has no justified manufactured consumer there yet.
+- **Unit:** no PR or evidence-backed manufactured requirement.
+- **Animal:** Geometry/Rigging/Animation remain active; Geometry PR #7 has now opened a connected-forelimb ring-phase screen. This is organic deformation/topology work, not a Hard-Surface lane.
+- **Building:** Hard-Surface PR #2 remains the source-owned pavilion/panel receiver proof. Building Materials + Map receiving evidence have advanced, and current Art Direction still requests **no Building geometry rewrite**; the triangular front-panel lighting/presentation caveat remains a review caveat rather than a geometry instruction.
+- **Nature:** active source migration / Geometry / Procedural / Technical Art work remains domain-owned and unrelated to Hard Surface.
+- **Weather:** current visual/procedural atmosphere work remains outside Hard Surface.
+- **Map:** Environment/VFX/Runtime receiving lanes are active; no Map-owned hard-surface source authoring gap supersedes Object.
+- **Object:** the source case now has exact module fit, registration, fastener-reservation, hinge/clearance, animation, procedural configuration, Technical Art and Runtime evidence. The newest motion/runtime evidence makes one mechanical ambiguity newly consequential: the existing front latch boxes are present in exact source geometry, but source semantics still do not say which latch component belongs to the moving lid versus the stationary front/service structure.
+- **Misc:** no PR or independent manufactured requirement.
 
-Current specialist state supports that selection:
+Current specialist state supports the selected Object lane:
 
-- Art Direction explicitly holds Building geometry stable and requests no Hard-Surface repair there.
-- Rigging proves the Object registration pin remains `0.012 m` outside the articulated lid's invariant X extent, but explicitly does not own fastener/serviceability geometry.
-- Procedural consumes the exact Object fit + registration identities but does not prove interface serviceability.
-- Capability Cartography still separates Layer-A source interfaces from live Layer-B runtime attachment and Layer-C physical constraints; this pass remains Layer A.
-- Visual QA has no Object runtime/visual acceptance to inherit and is currently occupied by the Nature culling defect.
+- Art Direction has not requested a Building source-form repair.
+- Visual QA has no Hard-Surface latch acceptance to inherit.
+- Object Rigging explicitly excludes latch mechanics/full-component articulation from its prior lid certificate.
+- Object Materials/Animation move the lid while keeping latch components fixed/unclaimed; downstream motion therefore must not guess ownership.
+- Object Runtime proves rigid lid resource reuse but does not establish full-component latch articulation.
+- Capability Cartography still treats Object attachment/mechanical evidence as domain-local Layer-A/source evidence unless independent repeated consumers justify extraction.
 
-The selected lane therefore does not duplicate an active specialist implementation.
+This activation therefore opens a **new but stacked** Hard-Surface lane instead of modifying another specialist's branch or broadening PR #12 beyond its fastener-clearance question.
 
 ## Selected bounded improvement
 
 Opened draft PR:
 
-**`mike-axiom-mir/axm-object-design#12 — Hard Surface: preserve fastener clearance around registration key`**
+**`mike-axiom-mir/axm-object-design#14 — Hard Surface: make front latch ownership explicit`**
 
 Branch:
 
-`studio/hard-surface-fastener-clearance-001`
+`studio/hard-surface-front-latch-ownership-001`
 
-Exact base / prerequisite:
+Exact stack:
 
-- Hard-Surface PR #9 head `3f091bda68b33482bdefe1cf4adf97caf9c0c87e`;
-- base branch `studio/hard-surface-service-module-registration-key-001`.
+- base branch: `studio/hard-surface-fastener-clearance-001`;
+- base/prerequisite Hard-Surface PR #12 head: `457788296512134ba825b110dd9c176e02ebecd5`;
+- exact tested PR #14 head: `d3fa10a270faae7925811f44f03381fe5c5d0215`.
 
-Exact tested candidate head:
+PR state after evidence: **OPEN / DRAFT / MERGEABLE**.
 
-`457788296512134ba825b110dd9c176e02ebecd5`
+The exact host source remains byte-identical:
 
-PR state after exact evidence:
+`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`
 
-**OPEN / DRAFT / MERGEABLE**.
-
-No host, module, socket, mount-pattern, registration-datum, hinge, material, rig, animation or target-host source was changed. This lane adds one Object-owned clearance contract and verifier over the exact existing sources.
+No existing host, module, registration, fastener reservation, hinge, materials, rig, animation, runtime or UC source is changed.
 
 ## Why this is a real Hard-Surface gap
 
-PR #9 proved that an asymmetric physical pin/recess removes the mount pattern's 180-degree orientation ambiguity. The exact module source already reserves:
+The exact Object builder already produces two front latch stations at source X positions:
 
-`bolt_axis_clearance_radius_m = 0.01 m`
+- `-0.22 m`;
+- `+0.22 m`.
 
-around each of the four mount axes.
+Each station contains:
 
-The prior registration proof checked orientation, pin/recess radial and axial fit, and footprint edge margins, but it did **not** ask whether the newly added registration feature intrudes into those existing reserved fastener-axis zones.
+- an upper `latch_*_keeper` box;
+- a lower `latch_*_lever` box.
 
-That distinction matters mechanically even before real bolts or tool geometry exist:
+Until this activation, source state declared only the two X positions. The geometry had mechanical-looking parts, but **ownership across the body/lid split was implicit**.
 
-> **Adding a registration datum to a proven interface should not silently consume the interface's already-reserved fastener-axis clearance.**
+That becomes unsafe once downstream specialists animate the lid: a Rigging or Animation lane should not have to infer from appearance whether a keeper follows the lid or remains with the body. The smallest Hard-Surface repair is therefore semantic/source-bound, not a geometry rewrite.
 
-This is a reusable Hard-Surface lesson, but current evidence supports only an Object-local executable contract. No shared schema is extracted from one family.
+Reusable lesson:
 
-## Exact source identities preserved
+> **Before articulated downstream work moves a manufactured assembly, source Hard Surface should explicitly own which existing components belong to which rigid parent instead of letting rigging/animation infer mechanical ownership from meshes or screenshots.**
 
-- host asset: `modular-equipment-case-001`;
-- host SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- module asset: `utility-module-001`;
-- module SHA-256: `ffd7b42294d3af71e02aa172157beccefa08c6af2c1198f88836862d2a50fc2e`;
-- registration asset: `utility-module-registration-key-001`;
-- registration SHA-256: `bb01fef7bfb22a0f9b290c376c1451a2524e068b618f684f605d746257a0e989`;
-- new clearance contract: `utility-module-fastener-clearance-001`;
-- clearance source SHA-256: `e243a334f3510704758cbe935bea9161dca79f9862afe0e0e9b0cca9ab34ae7f`;
-- source-owned bilateral frames: `left-service-socket` / `right-service-socket`.
-
-The existing four bolt offsets remain exactly:
-
-- `[-0.038,-0.025] m`;
-- `[-0.038,+0.025] m`;
-- `[+0.038,-0.025] m`;
-- `[+0.038,+0.025] m`.
-
-The registration datum remains exactly `[+0.027,+0.014] m` local lateral/up with host pin radius `0.0025 m` and module recess radius `0.0030 m`.
+The current evidence supports this as an Object-local contract only. It does not justify a universal latch schema.
 
 ## Smallest implementation
 
-Added only:
+PR #14 adds only:
 
-- `assets/modular-equipment-case-001/utility-module-fastener-clearance-001.json`;
-- `tools/verify_service_module_fastener_clearance.py`;
-- `tests/test_service_module_fastener_clearance.py`;
-- `.github/workflows/object-service-module-fastener-clearance.yml`.
+- `assets/modular-equipment-case-001/front-latch-ownership-001.json`;
+- `tools/verify_front_latch_ownership.py`;
+- `tests/test_front_latch_ownership.py`;
+- `.github/workflows/object-front-latch-ownership.yml`.
 
-The verifier:
+The new Object-owned overlay is pinned to the unchanged host source and declares for both exact stations:
 
-1. validates exact host/module/registration identities;
-2. reruns `PASS_ASYMMETRIC_REGISTRATION_KEY_PROOF` rather than assuming it;
-3. takes the exact module-owned `0.01 m` bolt-axis clearance radius as the only reserved radius;
-4. checks all four reserved circles remain strictly inside both host and module interface footprints;
-5. checks all four reserved circles remain mutually non-overlapping;
-6. checks the host pin remains outside every reserved circle;
-7. checks the larger module recess remains outside every reserved circle;
-8. transforms the same local key/bolt geometry through both exact bilateral socket frames and requires local/world distance preservation;
-9. fails closed rather than moving the key, bolts, footprints or socket frames to manufacture a pass.
+- `latch_*_keeper` -> `lid_shell` ownership;
+- `latch_*_lever` -> `front_service_panel` ownership;
+- the existing closed proof volumes retain their exact source relationship;
+- no pivot, hook, release path, force, timing or controller semantics are invented.
 
-A retained SVG visualizes the local structural reservation only. It is evidence aid, not Art Direction / Visual QA acceptance.
+The verifier rebuilds the exact existing Object source through its current builder and fails closed unless:
+
+1. host source digest remains exact;
+2. both station indices and `±0.22 m` X positions remain exact;
+3. named keeper/lever components and roles still exist;
+4. keeper ownership remains `lid_shell`;
+5. lever ownership remains `front_service_panel`;
+6. station X coordinates remain bilateral mirrors;
+7. each lever still has positive AABB overlap with the exact front service panel;
+8. each keeper still has positive X/Z mounting overlap with the lid and remains on its exact front face within the declared `1e-9 m` bound;
+9. each closed keeper/lever proof-volume pair still overlaps positively on all three axes.
+
+The retained SVG is a source-space evidence aid only. It is not a final latch design or visual acceptance surface.
 
 ## Exact structural result
 
 Scoped result:
 
-**`PASS_REGISTRATION_KEY_PRESERVES_FASTENER_AXIS_CLEARANCE`**
+**`PASS_EXPLICIT_FRONT_LATCH_COMPONENT_OWNERSHIP`**
 
-Exact retained measurements:
+Exact retained measurements from the CI artifact:
 
-- reserved fastener-axis radius: `0.010 m`;
-- minimum fastener-to-fastener reserved-surface clearance: **`0.030000000000000002 m`**;
-- minimum fastener reservation to host footprint edge: **`0.009999999999999997 m`**;
-- minimum fastener reservation to module footprint edge: **`0.003999999999999998 m`**;
-- minimum fastener reservation to registration **pin** surface: **`0.0030563491861040457 m`**;
-- minimum fastener reservation to registration **recess** surface: **`0.0025563491861040457 m`**;
-- left/right local-to-world key/bolt distance residual: **`1.3877787807814457e-17 m`** on each frame, numerical zero under the verifier's `1e-9 m` frame bound;
-- both exact sockets return `PASS_BILATERAL_SOURCE_FRAME_CLEARANCE`.
+- station count: `2`;
+- source station X positions: `[-0.22, +0.22] m`;
+- bilateral X residual: `0.0 m`;
+- minimum closed keeper/lever axis overlap: **`0.01100000000000001 m`**;
+- minimum lever/front-service-panel axis overlap: **`0.007000000000000006 m`**;
+- maximum keeper/lid front-face gap: **`0.0 m`**.
 
-The tightest relation is therefore the module recess versus the nearest `(+0.038,+0.025)` fastener-axis reservation: center distance `0.015556349186104046 m`, minus `0.010 m` reserved radius and `0.003 m` recess radius leaves **`0.0025563491861040457 m` positive source-space separation**.
+Per station, the existing exact proof volumes reproduce:
 
-No tolerance, driver size or fastener-head dimension was invented to produce this result.
+- keeper/lever overlap: `x = 0.055 m`, `y = 0.011 m`, `z = 0.027 m` within floating representation;
+- keeper/lid mounting overlap: `x = 0.080 m`, `z = 0.0215 m`, with exact tangential contact on the lid's negative-Y face;
+- lever/service-panel overlap: approximately `x = 0.0415 m`, `y = 0.007 m`, `z = 0.0235 m`.
+
+Those are **static source proof-volume relationships**, not a claim that box overlap is production latch retention geometry.
+
+New contract source SHA-256:
+
+`0702e4180f858d29c42ff8c38a61eaa16278d6848c8ce6f3ecfae172969ca8ae`
 
 ## Failure bounds
 
-Retained unit controls fail closed on:
+The retained unit suite fails closed on:
 
-- moving the registration datum into a reserved fastener-axis circle;
-- increasing the reserved axis radius until it breaks the module footprint;
-- wrong registration-source identity.
+- rewriting a keeper from lid ownership to body ownership;
+- drifting a declared latch station away from the exact source X coordinate;
+- host source identity drift;
+- weakening/removing the closed keeper/lever positive-overlap requirement.
 
-The inherited registration verifier simultaneously retains its own centered-key, edge-margin, radial-clearance and source-identity controls.
+The verifier also rejects missing component names/roles, broken bilateral station symmetry, keeper/lid mounting separation beyond the exact bound, and lever/service-panel or keeper/lever relationship loss.
 
-The policy is additive: this lane cannot relocate existing source features, weaken PR #9, or silently widen a footprint to obtain PASS.
+No source box is moved, resized or re-authored to obtain PASS.
 
 ## Exact-head CI and retained evidence
 
-Exact-head workflow:
+Exact PR #14 workflow:
 
-`35072829752 — Object service-module fastener-clearance evidence` — **SUCCESS**.
+`35078598357 — Object front-latch ownership evidence` — **SUCCESS**.
 
-- Python 3.11: compile PASS, full repository tests PASS, exact evidence build PASS, artifact upload PASS;
-- Python 3.13: compile PASS, full repository tests PASS.
+It runs full repository compile/tests on Python 3.11 and 3.13; the 3.11 path also rebuilds and retains the exact ownership evidence.
 
-Inherited exact-head workflows also succeeded on the same head:
+Inherited same-head workflows are also green:
 
-- `35072829613 — Object service-module registration-key evidence` — SUCCESS;
-- `35072829601 — Object service-module fit evidence` — SUCCESS;
-- `35072829510 — Object hard-surface interface evidence` — SUCCESS.
+- `35078597948 — Object service-module registration-key evidence` — SUCCESS;
+- `35078598150 — Object service-module fit evidence` — SUCCESS;
+- `35078597978 — Object service-module fastener-clearance evidence` — SUCCESS;
+- `35078598070 — Object hard-surface interface evidence` — SUCCESS.
 
 Retained artifact:
 
-- ID `10436564156`;
-- name `utility-module-001-fastener-clearance-evidence`;
-- size `6,392 bytes`;
-- exact head `457788296512134ba825b110dd9c176e02ebecd5`;
-- Actions SHA-256 `7773d74c9113055f36ded836e9dcb10fd71ed8e18709918f51ae65a084170c15`.
+- ID `10439357046`;
+- name `modular-equipment-case-001-front-latch-ownership-evidence`;
+- size `4,057 bytes`;
+- exact workflow head `d3fa10a270faae7925811f44f03381fe5c5d0215`;
+- GitHub SHA-256 `8ada29f01bfc793a7d84d78eea06ee5190cbcbbe1ab53fe3a6d21bc9df0b1fe5`.
 
-The artifact was downloaded after CI and independently rehashed to the same SHA-256. Its retained `exact-head.txt` reproduces the exact candidate head. The receipt reproduces all metrics above and includes exact copies of host/module/registration/clearance sources plus the structural proof SVG.
+The retained ZIP was downloaded independently and rehashed to the exact same SHA-256. `exact-head.txt` reproduces `d3fa10a270faae7925811f44f03381fe5c5d0215`, and the receipt reproduces all metrics above.
+
+The retained proof SVG was rasterized and directly inspected. It shows the two exact front latch stations, upper lid-owned keepers crossing the lid/body seam, lower service-panel-owned levers, and the unchanged equipment-case body/lid relationship. This visual check supports the structural interpretation only; it is not Art Direction approval.
 
 ## Cross-domain / reusable placement decision
 
 No Building, Weapon, Armor, Unit or Misc source is changed.
 
-Building remains deliberately untouched because:
+**Building remains deliberately untouched.** Its current panel receiver pattern is not a latch, and Art Direction has not requested mechanical ownership/articulation there. Copying Object latch semantics into Building would be speculative.
 
-- Art Direction now explicitly says current receiving evidence requests **no Building geometry repair**;
-- Building does not currently have an orientation-registration datum equivalent to Object PR #9;
-- its symmetric four-point panel pattern may intentionally remain orientation-agnostic;
-- copying this serviceability contract there without a concrete need would turn a useful Object lesson into speculative duplication.
+No UC extraction is justified. The current repeated lesson is a discipline, not a shared ontology:
 
-No UC extraction is justified. The generic lesson is currently conceptual:
+- source Hard Surface owns mechanical component parentage/attachment intent;
+- Rigging owns motion/deformation and articulated coexistence;
+- Animation owns clips/timing;
+- Technical Art owns target-host transport;
+- Runtime owns lifecycle/performance evidence;
+- QA/Art Direction own visual acceptance;
+- Cartography decides whether repeated independent domains justify a shared capability.
 
-> interface fit, orientation registration, fastener-axis reservation, articulation clearance, runtime binding and physical attachment constraints are separate evidence questions even when they refer to the same module.
-
-Current ownership remains:
-
-- Object Hard Surface: source interface / registration / reserved service geometry;
-- Rigging: articulated coexistence;
-- Procedural: deterministic source-space occupancy configurations;
-- Technical Art: target-host transport/binding evidence;
-- Runtime: future live behavior/performance;
-- Cartography: placement decision across repeated independent domains;
-- UC: generic machinery only when repeated evidence supports extraction.
-
-PR #12 is still one Object family, so it does not satisfy Cartography's missing second independent live Layer-B runtime attachment consumer and does not establish Layer-C attachment physics.
+One Object latch family does not establish a generic latch/joint system, live attachment runtime, physical constraints, or a Profession Fabric promotion.
 
 ## Truth boundary / non-claims
 
-This activation proves only that the exact PR #9 registration feature preserves the exact existing source-owned planar fastener-axis clearance reservations on both bilateral service frames.
+This activation proves only that the exact existing Object front latch proof components now have an explicit source-bound ownership contract and that their exact static closed proof-volume relationships survive the unchanged source build.
 
 It does **not** establish:
 
-- an actual bolt, screw, insert or fastener-head geometry;
-- driver/tool access envelope or human serviceability;
-- fabricated through-holes or blind-recess manufacturing feasibility;
-- thread engagement or retention;
-- pull-out/shear strength, load, fatigue, vibration, wear or sealing;
-- manufacturing tolerance stack;
-- full 3D mesh collision or interference;
-- runtime attach/detach/follow/swap behavior;
-- 3D physics constraints or break behavior;
-- gameplay acceptance;
-- final topology, bevel/detail, UVs, materials or visual quality;
-- Art Director / Visual Observer acceptance;
-- that Building or another domain needs this exact contract;
-- a universal attachment / fastener / serviceability schema;
+- a latch pivot axis or articulated lever joint;
+- keeper hook/capture geometry;
+- opening/release path or continuous collision clearance;
+- retention force, pull/shear loads, fatigue, vibration, wear or sealing;
+- manufacturing tolerances or fastener/tool access;
+- that the current keeper/lever box overlap is a production-ready latch mechanism;
+- rigging or animation acceptance;
+- target-engine controller/state-machine behavior;
+- collision/physics or gameplay;
+- final topology, bevel/detail, materials, UVs or visual quality;
+- that Building/Weapon/Armor/Unit/Misc need the same contract;
+- a universal mechanical ownership/latch schema;
 - UC extraction or Profession Fabric promotion;
 - CANON, production readiness, merge authority or Hard-Surface mastery.
 
 ## Root gate
 
-- **Truth:** the new registration feature is checked against the pre-existing reserved fastener geometry instead of assuming coexistence. Exact source hashes, measurements, workflows, artifact identity and independent archive rehash are retained. Tool/fastener/manufacturing claims remain false.
-- **Agency / non-domination:** Object retains source-interface meaning. Building is not forced to inherit the pattern. Rigging, Procedural, Technical Art, Runtime, QA and Art Direction keep their own gates. CI proves only the declared structural contract.
-- **Continuity:** PR #12 stacks exactly on PR #9 and leaves all accepted host/module/registration source bytes unchanged. Previous registration, fit, Rigging, Procedural and Technical Art evidence remains traceable rather than silently rebound.
-- **Wisdom before speed:** one newly introduced physical feature was checked against the closest existing source-owned mechanical reservation. No fabricated bolt system, full collision solver, Building rewrite or UC abstraction was invented without receiving evidence.
+- **Truth:** mechanical ownership is made explicit where downstream motion previously had to leave latches unclaimed. Existing geometry stays unchanged, exact hashes/measurements/workflows/artifact identity are retained, and motion/retention claims remain held.
+- **Agency / non-domination:** Object retains its own latch semantics. Rigging/Animation/Runtime/QA/Art Direction keep their own acceptance gates; no downstream lane is silently promoted by this PASS.
+- **Continuity:** PR #14 stacks on exact PR #12 head and preserves the host source digest byte-for-byte. Earlier interface/fit/registration/fastener evidence remains separately traceable and green on the same head.
+- **Wisdom before speed:** the smallest missing ownership contract is added instead of inventing full toggle-latch mechanics, changing geometry, populating empty departments, or extracting generic machinery into UC from one case.
 
 ## Handoffs
 
-- **Object Hard-Surface PR #9:** PR #12 closes one previously unproved coexistence question for the exact registration datum: it preserves the existing fastener-axis reservations. PR #9 source geometry remains unchanged.
-- **Object Rigging PR #8:** no rerun is required from this pass because pin/recess dimensions and source identity did not change. If a future Hard-Surface revision moves/enlarges the registration feature, rerun both this fastener-clearance proof and Rigging's lid-clearance certificate before inheriting either PASS.
-- **Object Procedural PR #11:** no source rebind is required. Its exact host/module/registration inputs are unchanged; this new PASS is not runtime attachment or procedural acceptance.
-- **Technical Art / Runtime:** no target-host fastener geometry or live attachment behavior is implied. Keep transport/live behavior separate.
-- **Building Hard Surface:** keep geometry stable under current Art Direction. Revisit this lesson only if an independent Building source introduces a real registration/serviceability conflict.
-- **Capability Cartographer:** record `fit -> orientation registration -> reserved fastener clearance` as three distinct Layer-A questions inside this one Object family; do not promote shared machinery until another independent source family reproduces the executable need.
+- **Object Rigging / Deformation:** future full-component lid/latch work may now consume exact Object PR #14 ownership: keepers are lid-owned; levers are front-service-panel-owned. This does **not** supply a pivot or collision PASS. Do not infer motion acceptance.
+- **Object Animation:** the existing lid clip can remain unchanged. If a later clip includes latch pieces, consume PR #14 instead of guessing component parentage; do not relabel this static PASS as a clip/controller PASS.
+- **Object Runtime:** current lid resource-reuse PASS remains valid for its segmented proof representation. PR #14 does not establish a live latch resource/controller path.
+- **Object Hard-Surface PR #12:** fastener-clearance evidence remains exact and unchanged; PR #14 is a clean stacked child with a different mechanical question.
+- **Building Hard Surface:** retain current geometry hold. Revisit only if an independent building mechanism introduces an actual moving/owned component ambiguity.
+- **Capability Cartographer:** this adds another distinct Object Layer-A question — mechanical component parentage — but still within one source family; no horizontal extraction trigger is claimed.
 - **Universal Creation:** no change requested.
-- **Visual Observer / Art Director:** no visual-quality claim is requested from an analytic reservation proof.
+- **Visual Observer / Art Director:** no aesthetic review is required to accept the source-ownership fact; any future articulated latch candidate still needs its own direct visual/runtime evidence.
 
 ## Next Hard-Surface pass
 
 1. Re-scan newest Art Director / Visual QA / specialist handoffs first.
-2. Do not deepen Object automatically; only reopen it if a new physical interface element changes exact occupied/reserved geometry.
-3. If real fastener or hole geometry is later authored, test that actual geometry rather than relabelling this planar reservation PASS as fabrication/tool acceptance.
-4. Keep Building frozen unless direct evidence requests a source-form repair.
-5. Do not populate Weapon / Armor / Unit / Misc for example count alone.
-6. Preserve domain-owned semantics and the no-automatic-UC-extraction boundary.
+2. Do not author a latch pivot or release geometry until Rigging/Animation or direct source-design evidence establishes a real articulation requirement.
+3. Keep Building frozen unless a source-mechanical defect is explicitly requested.
+4. Do not populate Weapon / Armor / Unit / Misc for department count alone.
+5. If a second independent domain develops the same parentage problem, compare contracts before proposing any shared UC or Profession Fabric capability.
+6. Preserve exact source provenance, stacked-lane boundaries and the four AXM roots as merge gate.
