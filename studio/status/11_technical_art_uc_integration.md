@@ -1,46 +1,47 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **PASS_BILATERAL_SOURCE_SUCCESSOR_GEOMETRY_TO_CURRENT_UC_GLB / CURRENT_UC_PROCEDURAL_BLOB_UNCHANGED / EXACT LEFT+RIGHT SOURCE-SUCCESSOR IDENTITIES RETAINED / PRIOR LEFT-ONLY STATIC PASS PRESERVED / HOLD_SKELETON_SKIN_WEIGHT_POSE_TRANSPORT / HOLD_GLB_ANIMATION_CHANNELS / HOLD_ENGINE_IMPORT / HOLD_VISUAL_GAMEPLAY / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT**
+State: **PASS_BILATERAL_EXACT_MIRROR_SURFACE_TO_CURRENT_UC_GLB / EXPLICIT_SOURCE-ID_TO_PORTABLE-UC-ID_PROJECTION / CURRENT_UC_PROCEDURAL_BLOB_UNCHANGED / HOLD_FINAL_NORMAL_TANGENT_VISUAL_ACCEPTANCE / HOLD_ANIMATION_REBIND_OWNER / HOLD_SKELETON_SKIN_WEIGHT_POSE_TRANSPORT / HOLD_ENGINE_IMPORT / HOLD_RUNTIME_GAMEPLAY / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, current Animal design lanes and current `axm-universal-creation` before changing implementation evidence.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current Technical Art status, newest Geometry / Rigging / Animation / Materials evidence and current `axm-universal-creation` before changing implementation evidence.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation remains in the owning design repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product code and retained evidence remain in the owning design repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous selected-003 LEFT static-surface -> UC proof remains historical truth. This activation closes the explicit RIGHT-side static-transport hold only after Geometry established an exact bilateral source-owned successor. It does not infer Rigging, Animation, visual or runtime acceptance from mirror symmetry.
+Prior Animal Technical Art evidence remains historical truth: disconnected-form transport, connected static transport, LEFT selected-003 transport, bilateral selected-003 transport, and sampled-motion/current-UC clock proofs are not rewritten or relabelled by this activation.
 
 ## Fresh constellation / duplication scan
 
-The highest-leverage unclosed Technical Art boundary was the asymmetric Animal selected-003 static UC transport:
+The highest-leverage unclosed Technical Art boundary was created by the newest Animal topology successor:
 
-- Technical Art PR #3 already proved the exact LEFT selected-003 source successor through current UC;
-- Geometry PR #11 exact head `f89af95d621c36da3994c6660552da8bbc73fd1b` now owns and proves both LEFT and RIGHT selected-003 topology successors with `PASS_BILATERAL_SOURCE_SUCCESSOR_EXACT_TOPOLOGY_REBIND`;
-- LEFT candidate digest: `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`;
-- RIGHT candidate digest: `262f536e0e522fd3e102cb16464c3757985fbb1dfcb3001df3b1f27b623b0115`;
-- both candidates are `42 vertices / 80 triangles`;
-- Geometry retains a bilateral mirror maximum position residual of `0.0 m`;
-- Rigging owns separate deformation evidence; Animation owns separate motion evidence; neither is inherited here;
-- no competing Technical Art lane was opened.
+- Geometry PR #13 exact head `bdbb51303bd1b96866b06a71730ccc328bf4f2f6` owns `PASS_BILATERAL_EXACT_MIRROR_SURFACE_TOPOLOGY_REPAIR`;
+- the established LEFT selected-003 candidate remains digest `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`;
+- the historical RIGHT selected-003 candidate remains digest `262f536e0e522fd3e102cb16464c3757985fbb1dfcb3001df3b1f27b623b0115`;
+- Geometry #13 keeps the same 42 source-owned RIGHT positions but replaces longitudinal triangle connectivity with exact mirror correspondence, producing RIGHT candidate digest `086ffe6f48af0cc3506871a4754b7395ba4c1fa3155eb4f420854a37e92181db`;
+- the successor remains `42 vertices / 80 triangles`, flips the diagonal on 30 longitudinal quads, replaces 60 unoriented triangle sets, leaves 20 cap triangle sets unchanged, and retains exact 80/80 mirrored triangle correspondence;
+- Rigging PR #15 separately owns deformation rebind evidence against Geometry #13;
+- Animation PR #5 remains a separate owner lane and must perform its own rebind rather than inheriting this static Technical Art PASS;
+- Materials PR #14 separately owns target-host shading review and has already shown that the 30 diagonal flips are **not generated-normal visually neutral**;
+- no duplicate Technical Art, Materials, Rigging or Animation lane was opened.
 
 The existing Animal Technical Art PR #3 remains the correct implementation home.
 
 ## Selected bounded gap
 
-Highest-leverage bounded question:
+Question:
 
-> Can Geometry PR #11's exact source-owned LEFT and RIGHT selected-003 static successors be regenerated through the owning Geometry producer and transported independently through the existing Animal -> UC surface boundary into current UC GLBs, without copying Animal topology/anatomy policy into Technical Art or UC?
+> Can Geometry PR #13's exact-mirror static successor cross the current UC portable-surface/GLB boundary while preserving the full Geometry-owned source identity, exact positions/indices and provenance — including when the source candidate name itself is too long for UC's portable receiver ID contract?
 
-This is narrower than bilateral rig/skin/deformation, animation-channel export or target-engine integration.
+This activation is static transport only. It does not own topology adoption, authored normals/tangents, Rigging, Animation, target-engine integration, runtime acceptance or visual judgment.
 
 ## Current UC inspected
 
 Current `axm-universal-creation` main at proof time:
 
-**`ecef151548736628cff62652a36be6eb1c7b1ad6`**
+**`bb090c470379542d38d24eea403832400c84a7b4`**
 
-The exact generic module consumed by this bridge remains:
+Consumed generic module:
 
 `src/axm_uc/procedural_3d.py`
 
@@ -48,7 +49,9 @@ Git blob:
 
 **`cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`**
 
-That is byte-identical to the previous proven surface pin `2595788885faca5fbe69e1497b55d535aff51259`. UC's existing `axm.surface-3d/v0.1`, `publish_glb()` and `verify_glb()` path was sufficient. **No UC product code changed and no Animal-specific policy was promoted.**
+That blob is byte-identical to previous proven surface UC `ecef151548736628cff62652a36be6eb1c7b1ad6`. UC's existing `axm.surface-3d/v0.1`, `publish_glb()` and `verify_glb()` machinery remains sufficient. **No UC product code changed and no Animal semantics were promoted into UC.**
+
+UC's generic surface receiver intentionally requires material-group IDs matching `^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$`.
 
 ## Existing Technical Art lane advanced
 
@@ -60,100 +63,137 @@ Branch: `studio/uc-surface-bridge-001`
 
 Exact tested Technical Art head:
 
-**`a659ae8473ea06d1e4107daa4d41847e591c3511`**
+**`ad77f25025c92c830ce13bd4df2a21e5d469bc20`**
 
-The PR remains the existing Technical Art lane; no duplicate PR was opened.
+PR remains open / draft / mergeable. No duplicate Technical Art PR was opened.
+
+## First exact run — retained failure
+
+The first exact-mirror workflow attempt:
+
+**`35154120971 — UC bilateral mirror-surface topology bridge evidence` — FAILURE**
+
+All exact producer regeneration steps passed, but current UC rejected the RIGHT transport surface with:
+
+`surface group IDs must be unique portable identifiers`
+
+The cause was not geometry corruption. Geometry #13's authoritative source candidate ID is:
+
+`front-right-connected-chain-elbow-source-successor-003-mirror-surface-topology-001`
+
+That domain-owned name exceeds UC's generic 80-character portable group-ID boundary.
+
+The failure remains historical evidence. Technical Art did **not** rename the Geometry source candidate, weaken its digest gate, enlarge UC for one Animal case, or centralize Animal naming policy into UC.
 
 ## Smallest reusable repair
 
-Technical Art added:
+Technical Art added a narrow receiver-boundary projection in Animal's integration layer:
 
-- `tools/build_uc_bilateral_source_successor_surface_bridge_evidence.py`;
-- `.github/workflows/uc-bilateral-source-successor-surface-bridge.yml`.
+- `src/axm_animal_design/uc_transport_identity.py`;
+- `tests/test_uc_transport_identity.py`;
+- `tools/run_uc_bilateral_mirror_surface_bridge_evidence.py`;
+- retained exact-mirror bridge builder and workflow remain in the existing PR #3 lane.
 
-The proof deliberately reuses owner-produced evidence rather than copying geometry logic:
+Contract:
 
-1. checkout exact Geometry PR #11 head `f89af95d621c36da3994c6660552da8bbc73fd1b`;
-2. execute Geometry's own bilateral source-successor evidence builder;
-3. require producer state `PASS_BILATERAL_SOURCE_SUCCESSOR_EXACT_TOPOLOGY_REBIND`;
-4. require the exact LEFT and RIGHT candidate digests above plus Geometry's retained `0.0 m` mirror residual;
-5. recover the unchanged neutral Animal material from the exact Animal source surface;
-6. add only transport-required averaged vertex normals through the existing Technical Art adapter;
-7. preserve the established coordinate map `[x_forward,y_left,z_up] -> [-y_left,z_up,x_forward]` and winding reversal;
-8. publish and re-verify LEFT and RIGHT as separate GLBs through current UC;
-9. require previous/current UC `procedural_3d.py` Git-blob identity;
-10. fail closed on a deliberate `+1 mm` RIGHT candidate-position mutation.
+1. verify the exact Geometry-owned candidate hash first;
+2. deep-copy the candidate only for transport;
+3. project only the receiver-local group ID to a valid UC portable identifier;
+4. keep source candidate ID, positions and indices unchanged and separately retained;
+5. record source ID -> portable receiver ID explicitly in evidence;
+6. fail closed on invalid portable IDs, source geometry drift, stale topology and UC module drift.
 
-Animal/Geometry keep topology and source meaning. Technical Art owns only transport plumbing. UC remains generic.
+Exact mappings used:
 
-## Exact result
+- LEFT source `front-left-connected-chain-elbow-source-successor-003` -> UC group `animal-selected003-left`;
+- RIGHT source `front-right-connected-chain-elbow-source-successor-003-mirror-surface-topology-001` -> UC group `animal-selected003-right-mirror`.
+
+The retained receipt states `source_identity_rewritten=false`, `geometry_rewritten=false`, and separately records `positions_preserved=true` / `indices_preserved=true` for both sides.
+
+This is Technical Art transport plumbing, not a source naming rewrite and not a UC product feature.
+
+## Exact successful result
 
 Scoped result:
 
-**`PASS_BILATERAL_SOURCE_SUCCESSOR_GEOMETRY_TO_CURRENT_UC_GLB`**
+**`PASS_BILATERAL_EXACT_MIRROR_SURFACE_TO_CURRENT_UC_GLB`**
 
-Exact workflow:
+Dedicated workflow:
 
-- `35148817782 — UC bilateral source-successor surface bridge evidence`: **SUCCESS** on Technical Art head `a659ae8473ea06d1e4107daa4d41847e591c3511`.
+**`35154464437 — UC bilateral mirror-surface topology bridge evidence` — SUCCESS**
 
-Every job step completed successfully, including exact checkouts, existing bridge unit tests, owner-side bilateral Geometry regeneration, both current-UC GLB publications/verifications, retained identity files and artifact upload.
+Same-head companion workflows also completed successfully:
+
+- `35154464412 — Tests`;
+- `35154464496 — UC bilateral source-successor surface bridge evidence`;
+- `35154464532 — UC surface bridge evidence`;
+- `35154464327 — Weighting refinement evidence`.
 
 Exact retained findings:
 
-- Geometry producer head: `f89af95d621c36da3994c6660552da8bbc73fd1b`;
-- producer state: `PASS_BILATERAL_SOURCE_SUCCESSOR_EXACT_TOPOLOGY_REBIND`;
-- LEFT candidate: `42 vertices / 80 triangles`, digest `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`;
-- RIGHT candidate: `42 vertices / 80 triangles`, digest `262f536e0e522fd3e102cb16464c3757985fbb1dfcb3001df3b1f27b623b0115`;
-- source-owned bilateral mirror maximum position residual: `0.0 m`;
-- neutral source material SHA-256 on both sides: `4721496cfd14e1054bc9ddb8993bd9213baee8d67f003a2318a43697abf48775`;
-- LEFT converted UC surface SHA-256: `168792eb58a7c7a36e6a5a20f70d0b10f37f0fe87a591cffc8663bf6327f4c72`;
-- RIGHT converted UC surface SHA-256: `174bd5115d77902a69b2950dc16249427c7b6fdef6ff63873476facc641fa28c`;
-- LEFT GLB SHA-256: `ba415e86152970aafd8412a62d2c409b9da0afe8ce8f21e791de2d34670c5c94`;
-- RIGHT GLB SHA-256: `cabf27e3f54a3131649701f606e2074d14999608c0b8c541c66c55d8ec47699e`;
-- current UC: `ecef151548736628cff62652a36be6eb1c7b1ad6`;
-- previous proven surface UC: `2595788885faca5fbe69e1497b55d535aff51259`;
-- previous/current `procedural_3d.py` Git blob: `cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36` in both revisions;
-- UC verification: `80` decoded triangles on LEFT and `80` on RIGHT, with finite positions/normals, in-range indices, nondegenerate triangles and winding matching vertex normals.
+- Technical Art head: `ad77f25025c92c830ce13bd4df2a21e5d469bc20`;
+- Geometry owner head: `bdbb51303bd1b96866b06a71730ccc328bf4f2f6`;
+- LEFT source digest: `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`;
+- historical RIGHT digest: `262f536e0e522fd3e102cb16464c3757985fbb1dfcb3001df3b1f27b623b0115`;
+- exact-mirror RIGHT digest: `086ffe6f48af0cc3506871a4754b7395ba4c1fa3155eb4f420854a37e92181db`;
+- exact-mirror RIGHT positions equal historical RIGHT positions: `true`;
+- exact-mirror RIGHT indices differ from historical RIGHT indices: `true`;
+- LEFT UC verification: `80` triangles;
+- RIGHT UC verification: `80` triangles;
+- LEFT GLB SHA-256: `6ad99c85dda51a00c28e200dde1cf1eb8129d8070cc9e7e5f652c7d051505845`;
+- RIGHT GLB SHA-256: `d06bf1ef37d5adecd78e74644294be17621f937bf9154c090337ae9a29fb5244`;
+- current UC: `bb090c470379542d38d24eea403832400c84a7b4`;
+- previous proven UC: `ecef151548736628cff62652a36be6eb1c7b1ad6`;
+- previous/current `procedural_3d.py` blob: `cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36` in both revisions;
+- UC product code changed by this lane: `false`.
 
-## Fail-closed controls
-
-- deliberate `+1 mm` RIGHT candidate-position drift was rejected: expected `262f536e...`, observed mutated digest `97793b84...`;
-- UC GLB-module drift is rejected by exact `procedural_3d.py` blob identity;
-- the bridge refuses transport unless Geometry's exact bilateral producer PASS and both exact source-successor identities are present.
-
-## Retained evidence
+## Retained artifact
 
 Artifact:
 
-- ID: **`10468465934`**;
-- name: `quadruped-bilateral-source-successor-current-uc-surface-bridge-evidence`;
-- size: **`20,729 B`**;
-- GitHub archive SHA-256: **`2340a99eae33e56db1ff926d6f20df923d0696e43cdeb995f6a2b1804c03ee9c`**.
+- ID: **`10470517543`**;
+- name: `quadruped-bilateral-mirror-surface-current-uc-bridge-evidence`;
+- size: **`33,385 B`**;
+- GitHub archive SHA-256: **`ccf0ba7eb907912d280558c8742c72b066d08e1d2bf0045d4db77f38437928b4`**.
 
-The archive was downloaded and independently rehashed during this activation to the same SHA-256. It retains exact Technical Art, Geometry, previous/current UC and UC-module identities, the Geometry-owned bilateral producer receipt/candidates, both converted UC surfaces, both GLBs and the Technical Art receipt.
+The archive was downloaded and independently rehashed to the same SHA-256. It retains exact Technical Art / Geometry / previous-current UC identities, both Geometry owner evidence sets, source candidates, explicit source-ID -> UC-ID projection, converted surfaces, both GLBs and fail-closed controls.
+
+## Visual tradeoff / non-overlap
+
+Technical Art does **not** claim the exact-mirror topology is visually neutral. Geometry #13 changes 30 longitudinal quad diagonals while positions remain fixed. Materials PR #14 has measured renderer-visible generated-normal differences, especially in vertex-smoothed shading, and holds generated-normal visual neutrality.
+
+The UC bridge therefore labels its computed averaged normals **transport-only**. Final authored normal/tangent policy and visual acceptance remain with Materials, Art Direction and Visual QA. Static UC GLB success does not override that evidence.
+
+Handoffs recorded:
+
+- Technical Art PR #3 comment `5705084007`;
+- Geometry PR #13 comment `5705086242`;
+- Materials PR #14 comment `5705087582`.
 
 ## Truth boundary / explicit non-claims
 
-This activation proves only that Geometry PR #11's exact source-owned **LEFT and RIGHT selected-003 static successors** can each be regenerated by the owning producer and transported with unchanged neutral material plus transport-only normals through the existing Animal -> UC coordinate boundary, emitted by current UC as separate GLBs and re-verified at the same triangle counts.
+This activation proves only that Geometry #13's exact source-owned LEFT selected-003 and RIGHT exact-mirror static candidates can be regenerated through the owning Geometry evidence paths, exact-hash gated, projected to receiver-local portable group IDs without rewriting source identity or geometry, converted through the established Animal -> UC coordinate/winding boundary, emitted by current UC as separate GLBs and re-verified at 80 triangles each.
 
 It does **not** prove:
 
+- topology adoption or rejection;
+- final authored normals, tangents, UVs, textures or material look;
 - skeleton, skin or weight transport;
-- bilateral pose/deformation transport;
-- GLB animation channels;
-- AnimationPlayer/controller/state-machine or target-engine import/playback;
-- final normals/tangents/UVs/material look or visual/anatomy acceptance;
+- pose/deformation transport;
+- GLB animation channels or Animation PR #5's pending owner-side rebind;
+- target-engine import/playback, controller or state-machine integration;
+- visual/anatomy acceptance;
 - gameplay, collision, physics or target-device performance;
 - UC promotion of Animal-specific semantics;
 - CANON, merge authority, production/game readiness or Technical Art mastery.
 
 ## Four-root gate
 
-- **Truth:** LEFT and RIGHT are separately regenerated, identity-gated, emitted and verified; the former LEFT-only proof is not silently relabelled bilateral.
-- **Agency / non-domination:** Geometry keeps Animal topology/source authority; Technical Art supplies transport only; UC supplies generic surface/GLB machinery only.
-- **Continuity:** prior disconnected, connected-baseline, LEFT successor and motion-clock proofs remain intact as distinct rollback/evidence points; this activation adds the missing bilateral static boundary.
-- **Wisdom before speed:** bilateral static transport is proven before attempting skeleton/skin/weight/pose/channel export or target-engine runtime integration.
+- **Truth:** the failed long-ID receiving run remains evidence; the source candidate is not silently renamed, and the transport alias is explicit and separately retained.
+- **Agency / non-domination:** Geometry keeps source/topology identity, Materials keeps shading evidence, Rigging keeps deformation, Animation keeps motion rebind, UC keeps its generic receiving contract, and Technical Art owns only the integration projection.
+- **Continuity:** all previous Animal -> UC proofs remain distinct rollback/evidence points; this activation adds the exact-mirror successor boundary without relabelling older receipts.
+- **Wisdom before speed:** a narrow adapter is used instead of widening UC or collapsing domain names, and visual neutrality stays held because target-host evidence says it should.
 
 ## Current state
 
-`PASS_BILATERAL_SOURCE_SUCCESSOR_GEOMETRY_TO_CURRENT_UC_GLB / CURRENT_UC_PROCEDURAL_BLOB_UNCHANGED / EXACT LEFT+RIGHT SOURCE-SUCCESSOR GEOMETRY + CURRENT UC IDENTITIES RETAINED / PRIOR LEFT-ONLY STATIC + SOURCE-SUCCESSOR MOTION-CLOCK PASSES PRESERVED / HOLD_SKELETON_SKIN_WEIGHT_POSE_TRANSPORT / HOLD_GLB_ANIMATION_CHANNELS / HOLD_ENGINE_IMPORT_PLAYBACK / HOLD_VISUAL_ACCEPTANCE / HOLD_RUNTIME_GAMEPLAY_PERFORMANCE / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT`
+`PASS_BILATERAL_EXACT_MIRROR_SURFACE_TO_CURRENT_UC_GLB / EXPLICIT_SOURCE-ID_TO_PORTABLE-UC-ID_PROJECTION / CURRENT_UC_PROCEDURAL_BLOB_UNCHANGED / GEOMETRY #13 SOURCE AUTHORITY RETAINED / MATERIALS #14 GENERATED-NORMAL VISUAL HOLD RETAINED / RIGGING #15 AUTHORITY RETAINED / HOLD_ANIMATION OWNER REBIND / HOLD_SKELETON_SKIN_WEIGHT_POSE_TRANSPORT / HOLD_GLB_ANIMATION_CHANNELS / HOLD_ENGINE_IMPORT_PLAYBACK / HOLD_FINAL_NORMAL_TANGENT_VISUAL_ACCEPTANCE / HOLD_RUNTIME_GAMEPLAY_PERFORMANCE / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT`
