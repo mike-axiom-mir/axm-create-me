@@ -1,200 +1,180 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / MECHANICAL MOTION EVIDENCE GREEN / ORGANIC MOTION HOLD**
+State: **ACTIVE / MECHANICAL MOTION EVIDENCE GREEN / FIRST ORGANIC LOOP STRUCTURALLY GREEN / AESTHETIC + RUNTIME HOLD**
 
 ## Current bounded claim
 
-Animation now has two retained mechanical-motion evidence layers on the same exact Wreckline harpoon candidate:
+Animation now has two materially different proven source lanes:
 
-1. the original hand-authored socket-local `aim -> fire/recoil -> recover -> neutral` proof; and
-2. a new **donor-backed recoil timing candidate** built with the existing Universal Creation `game_motion_timing` capability and then re-tested on the exact mounted harpoon in Godot 4.7.2.
+1. **Mechanical:** Wreckline PR #4 retains the earlier Godot-proven harpoon `aim -> recoil -> recover` work plus the donor-backed UC timing candidate.
+2. **Organic:** Animal Design PR #5 now proves the repaired quadruped rig can be continuously sampled through one exact bounded non-locomotion loop while preserving downstream paw propagation and exact neutral return.
 
-The new candidate is not promoted as "better". It proves that a real AXM donor timing system can cross into the receiving Wreckline lane without moving Wreckline semantics into UC, and that the resulting sampled recoil phases survive direct target-host transform/readback and rendered-state checks.
+The organic result is intentionally **not** called gait, locomotion, production animation, runtime playback or gameplay acceptance. It is the smallest honest bridge from discrete Rigging pose evidence into time-sampled motion.
 
-## Coordination / constellation scan
+## Constellation / readiness scan
 
 Read this activation:
-- `studio/3D_STUDIO_CAMPAIGN.md` including the donor discovery protocol;
+- `studio/3D_STUDIO_CAMPAIGN.md`;
 - `studio/specialists/07_animation_motion.md`;
-- current Rigging / Deformation, Hard-Surface, Visual Observer / QA and existing Animation status;
-- current open `axm-animal-design` lanes;
-- current Wreckline animation lane;
-- Universal Creation donor timing docs/implementation.
+- current Animation, Rigging / Deformation and Visual Observer / QA status;
+- current open PR state across the design constellation;
+- current `axm-animal-design` Rigging and Geometry lanes;
+- current Wreckline Animation lane.
 
-Relevant current state:
-- `axm-animal-design#2` remains structurally green but Visual Observer reproduced **FAIL_VISUAL_CHAIN_CONTINUITY** at ±60° because the lower limb moves while downstream paw/foot geometry stays in the neutral pose. Organic gait/locomotion remains **HOLD** until Rigging repairs the full articulated subtree and QA re-observes it.
-- `axm-animal-design#4` adds a connected left-forelimb topology candidate, but explicitly does not repair the rig transform-propagation failure and has not yet been accepted for deformation. Animation does not jump onto it early.
-- Wreckline PR #4 remains the only active specialist lane for this exact harpoon motion problem.
-- Wreckline Runtime/Hard-Surface work is currently focused on LOD identity, not module animation.
-- default-branch search across the eleven design repositories found no competing animation/clip/rig implementation to duplicate.
+Highest-leverage readiness decision:
+- `axm-animal-design#2` no longer has the old detached-paw blocker. Visual Observer has independently returned `PASS_VISUAL_CHAIN_CONTINUITY_RECHECK` on the repaired subtree propagation.
+- Rigging PR #2 has since advanced to exact head `04760112deb81a8d145226fe7ee02923107c9916` with a separate `ease-out-power-0p75-v1` weighting refinement candidate. That candidate is numerically improved but still lacks visual-direction acceptance.
+- Animation therefore pins the already-proven **`smoothstep-v0`** weighting baseline rather than silently consuming the newer unaccepted weighting candidate.
+- `axm-animal-design#4` remains a separate connected-forelimb topology candidate and is not accepted for animation/deformation yet.
+- `axm-character-design#2` is still a neutral form study without an animation-ready rig.
+- Nature’s current sapling motion is owned by VFX / Atmosphere and remains a different source problem; Animation did not duplicate that lane.
+- Wreckline PR #4 remains the current mechanical animation lane; no second mechanical timing system was opened.
+- No stronger animation-ready source was found in the other current design lanes.
 
-## Prior retained baseline — Wreckline PR #4
+## Continuity event during this activation
+
+Animation initially stacked on the previously repaired Rigging head `eea127689635e1a6c85bc08940a59ee0cdbe6685`. During the same activation, the Rigging lane had already advanced to `04760112deb81a8d145226fe7ee02923107c9916` with weighting-refinement evidence.
+
+The Animation branch was therefore deliberately reset and rebuilt on the **current exact Rigging head** before final evidence was accepted. The superseded early Animation run on head `b9f2e4c2f33e2ecb48dc728d4ea9391369b0fe18` failed and is **not** current evidence. No stale-stack result was promoted.
+
+## Bounded organic improvement implemented
 
 Repository:
-`mike-axiom-mir/axm-wreckline`
+`mike-axiom-mir/axm-animal-design`
 
 Draft PR:
-**#4 — `Animation: prove bounded harpoon aim-fire-recover motion`**
+**#5 — `Animation: prove first bounded quadruped articulation loop`**
 
 Branch:
-`studio/animation-harpoon-motion-001`
+`studio/animation-quadruped-articulation-loop-001`
 
-Original exact animation head:
-`f4e33fd5da61605bd956f6fdcb5a4781c0f5878d`
+Stacked base:
+Rigging PR #2 exact current head `04760112deb81a8d145226fe7ee02923107c9916`.
 
-Original motion proof:
-- 1.20 s piecewise-smoothstep action;
-- neutral start;
-- aim to 18° yaw / -7° pitch;
-- 0.16 m recoil;
-- recover;
-- exact neutral return;
-- 61 authored-time samples at 0.02 s intervals through real Godot `Node3D` transforms.
+Current exact Animation head:
+`f561f32705ae3cfdffd650a53502550f93c0cf85`
 
-Original exact evidence remains valid within scope:
-- state: `PASS_SOCKET_LOCAL_MOTION_PROOF_HOST`;
-- max requested-vs-Godot transform readback error: `7.69e-7`;
-- neutral-return error: `0.0`;
-- neutral -> aim visible delta: 1,028 / 135,000 sampled pixels;
-- aim -> recoil visible delta: 868 / 135,000;
-- neutral -> recovered delta: 0 / 135,000;
-- retained artifact ID: `10426557139`;
-- artifact digest: `sha256:29d37d05b6ed5ee2eca8141a37467717b71ed5456bfce5df27bc26ca8863184c`.
+The clip is deliberately labelled:
+`STYLIZED_ARTICULATION_PULSE_NOT_GAIT_OR_LOCOMOTION`.
 
-That proof still moves the generated module as a rigid block through proof-host pivots. It never claimed final turntable/launcher/recoil articulation.
+Exact authored motion:
+- duration: **1.0 s**;
+- sample rate: **40 Hz**;
+- samples: **41** including both endpoints;
+- timing curve: raised cosine `neutral -> peak -> neutral`;
+- front elbows: **0 -> +18° -> 0**;
+- hind knees: **0 -> +14° -> 0**;
+- bilateral left/right pairs remain numerically matched;
+- retained exact frames: **0.00 / 0.25 / 0.50 / 0.75 / 1.00 s**;
+- rig weighting is explicitly pinned to **`smoothstep-v0`**.
 
-## Donor discovery selected this activation
+Animation does not duplicate the Rigging deformation algorithm. Every sampled frame is composed through the exact existing Rigging joint definitions, influence radii, child weighting and declared rigid paw inheritance. The Animation layer owns only timing, track bounds, simultaneous non-overlapping track composition, exact frame identities and motion evidence.
 
-The campaign now explicitly instructs specialists to search AXM donor repos before rebuilding known machinery. A real donor already existed in Universal Creation:
-
-- repository: `mike-axiom-mir/axm-universal-creation`;
-- pinned receiving proof commit: `49ef11ca42b2079dffbd595daa8ea8626b99d2ab`;
-- module: `src/axm_uc/game_motion_timing.py`;
-- docs: `docs/GAME_MOTION_TIMING.md`;
-- donor profile used: `restrained-product`.
-
-The donor deterministically composes sampled local transform tracks with explicit phases:
-`rest -> anticipation -> impact -> recoil -> counter -> settle -> complete`.
-
-This is a better reuse candidate than inventing a second Wreckline-only timing framework. Wreckline still owns the harpoon, its recoil endpoint, receiving coordinate meaning, proof host and acceptance boundaries.
-
-## Bounded improvement implemented
-
-The existing PR #4 branch was extended rather than opening a duplicate animation lane.
-
-Current exact branch head:
-`01736232035d4fbc6eeb03baebb93d1a64c037f6`
-
-New files:
-- `tools/build_harpoon_recoil_timing_candidate.py`
-- `native/specialist-proof/module_recoil_timing_observe.gd`
-- `.github/workflows/hero-module-donor-timing-evidence.yml`
-
-The local builder asks the pinned UC donor for one non-looping **0.5 s / 60 fps recoil subclip** only:
-- target: `RecoilSlide`;
-- rest translation: `[0, 0, 0]`;
-- action translation: `[0, 0, -0.16]`;
-- profile: `restrained-product`;
-- no Wreckline geometry, socket, module naming policy, gameplay state or controller semantics are moved into UC.
-
-The receiving Godot proof then:
-- rebuilds the exact deterministic harpoon;
-- rebuilds the exact derived semantic-socket vehicle;
-- freezes the existing vehicle `AssemblyMotion` at the same known pose;
-- holds the harpoon at the already-proven 18° yaw / -7° pitch aim pose;
-- applies every donor recoil sample through the real `RecoilSlide` `Node3D`;
-- captures all seven donor phase states;
-- measures requested-vs-Godot transform readback;
-- checks the full recoil endpoint, bounded forward anticipation and exact neutral completion;
-- checks rendered impact visibility and exact rendered neutral roundtrip;
-- detaches the module after proof.
+Failure bounds include:
+- unknown or duplicate animation joint tracks;
+- animation angles outside the exact Rigging-probed envelope;
+- overlapping driven regions in the v0.1 simultaneous-composition method;
+- source or rig-plan identity drift;
+- retained frame times that do not land on real sampled frames;
+- silent relabelling of the weighting profile;
+- silent relabelling of the clip as gait/locomotion.
 
 ## Exact green evidence
 
-Current head `01736232035d4fbc6eeb03baebb93d1a64c037f6` passed all four workflows observed for the PR composition:
-- `tests` run **35048078775** — SUCCESS;
-- `Hero specialist runtime evidence` run **35048078795** — SUCCESS;
-- existing `Hero module motion evidence` run **35048078739** — SUCCESS;
-- new `Hero module donor timing evidence` run **35048078743** — SUCCESS.
+Exact current head `f561f32705ae3cfdffd650a53502550f93c0cf85`:
+- `Tests` run **35052545994** — SUCCESS on Python 3.11 and 3.13;
+- inherited `Weighting refinement evidence` run **35052546134** — SUCCESS, showing the stacked Animation lane does not regress current Rigging evidence.
 
-New receiving-runtime state:
-`PASS_DONOR_RECOIL_TIMING_PROOF_HOST`
+Retained Animation artifact:
+- name: `quadruped-articulation-loop-001-evidence`;
+- artifact ID: **10429313348**;
+- archive SHA-256: **`8bfa89e84a4245550b460036872ff6805a4d7c78be444048da2d847e1a26e66a`**;
+- GitHub workflow head binding: `f561f32705ae3cfdffd650a53502550f93c0cf85`.
 
-Retained artifact:
-- artifact ID: **10427911977**;
-- name: `wreckline-harpoon-donor-timing-c45e6e2ee9f287455cbaff282bececbd4389ff07`;
-- archive digest: `sha256:ae09e021804afef6ee3f12f4c3d4910d598713a4d40c4345ebd8ce7781d2ef4b`.
+The artifact was downloaded after CI and independently rehashed to the same SHA-256.
 
-Exact source identity in the receiving runtime receipt:
-- derived semantic-socket vehicle: `dbd5f71086849e1f941010cb3f61c360c560a840728d4f4cb8b7413c3e93b7fc`;
-- generated harpoon: `5163d76b4d2cf093e5efc1d7952fb88d1e55e0ca29d7d9966f8ad87ffa6e601a`;
-- donor-composed motion clip: `c4b8fa77cd0d185ef3588cf304eb6cd6d333ceb00bfc5941276c8636a0110f2c`.
+Exact identities:
+- Organic source digest: `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`;
+- neutral surface digest: `1f8cb51e7047090c945e93e0a28520180725a2827882144a2c021fe55495734c`;
+- rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
+- animation clip digest: `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
+- weighting profile: `smoothstep-v0`;
+- evidence gate: **PASS**.
 
-Measured receiving-host motion:
-- 31 sampled states at 60 fps across 0.5 s;
-- anticipation at 0.10 s: **+0.0128 m** forward preload;
-- impact at 0.25 s: **-0.16 m** full recoil endpoint;
-- recoil phase at 0.3167 s: **-0.1376 m**;
-- counter at 0.3667 s: **-0.0064 m**;
-- settle at 0.4333 s: **-0.0024 m**;
-- complete at 0.50 s: **0.0 m**;
-- maximum sampled step: **0.063170373 m**;
-- maximum requested-vs-Godot transform readback error: **0.0**.
+Measured across all 41 actual sampled poses:
+- exact neutral start: **PASS**;
+- exact neutral return to the same surface digest: **PASS**;
+- distinct posed surface digests: **34**;
+- maximum lower-limb -> paw chain-gap drift: **0.0 m** against a `1e-9 m` Rigging tolerance;
+- front wrist-marker roundtrip path: **0.216925533 m** per side;
+- hind ankle-marker roundtrip path: **0.161784253 m** per side;
+- worst minimum triangle-area ratio: **0.805454723**;
+- worst maximum edge-length ratio: **1.206695744**;
+- sampled collapsed child-region triangles: **0** through the inherited Rigging gate.
 
-Rendered evidence over 135,000 sampled pixels per comparison:
-- rest -> anticipation: **104 changed / 0.0770%**;
-- rest -> impact: **866 changed / 0.6415%**;
-- impact -> recoil: **155 changed / 0.1148%**;
-- rest -> complete: **0 changed / 0.0%**.
+These moderate clip angles are materially less stressful than the prior ±60° Rigging stress probe, but that does **not** convert the disconnected form-study topology into production skinning.
 
-The retained seven phase PNGs were downloaded and directly inspected in this activation. The phase sequence visibly shows a small forward preload, a much larger rearward impact displacement, staged recovery, and exact return to the starting pose in the fixed proof camera. This is **VISUALLY_INSPECTED_PHASE_STATE evidence**, not a claim that the 0.5 s timing has good weight, feel or final production polish.
+## Direct visual evidence
 
-## Why this is useful without overclaiming
+The exact retained 0.00 / 0.25 / 0.50 / 0.75 / 1.00 s front and side wire projections from artifact `10429313348` were directly inspected.
 
-The earlier Wreckline motion proved that one hand-authored curve can move the module. This activation proves something different and reusable: an already-existing AXM timing donor can generate explicit phase structure, preserve exact receiving-asset identity, and survive a real receiving runtime check without centralizing Wreckline domain knowledge into the donor.
+Within this narrow evidence:
+- the side view visibly changes from neutral through the 0.50 s peak and back;
+- lower-limb and paw assemblies visibly travel together rather than reproducing the old detached-paw defect;
+- the front peak retains obvious bilateral matching;
+- the 1.00 s retained frame returns to the exact neutral surface identity.
 
-It also creates a clean future comparison target: the Art Director / Visual Observer can compare the existing hand-authored recoil against this donor-phased candidate rather than judging one curve in isolation.
+This is **VISUALLY_INSPECTED_SAMPLED_FRAME** evidence. It is not continuous playback evidence, shaded/perspective deformation approval, aesthetic timing approval or gait quality.
 
-No replacement has been made yet because phase-state evidence alone does not prove the donor timing *looks* or *feels* better.
+## Prior mechanical lane retained
+
+Wreckline PR #4 remains valid within its earlier scope:
+- current recorded Animation head: `01736232035d4fbc6eeb03baebb93d1a64c037f6`;
+- original hand-authored 1.20 s aim/fire-recoil/recover proof remains green;
+- donor-backed UC `restrained-product` recoil candidate remains green in Godot 4.7.2;
+- donor-timing artifact ID: `10427911977`;
+- donor-timing archive digest: `sha256:ae09e021804afef6ee3f12f4c3d4910d598713a4d40c4345ebd8ce7781d2ef4b`;
+- receiving state: `PASS_DONOR_RECOIL_TIMING_PROOF_HOST`.
+
+That mechanical candidate still translates the whole current harpoon module for recoil and still awaits Art Director / Visual Observer preference before replacing the earlier hand-authored timing. Nothing in the new animal loop changes that.
 
 ## Truth boundary / non-claims
 
-This activation does **not** establish:
-- that `restrained-product` is the final Wreckline recoil style;
-- that the donor timing is perceptually superior to the original hand-authored curve;
-- continuous real-time playback quality from seven retained phase stills;
-- production articulation separating base, turntable, launcher and recoil-moving mass;
-- authored/exported GLB animation clips;
-- gameplay firing/hit behavior;
-- input/controller/state-machine integration;
-- final/native Wreckline runtime acceptance;
-- target-device performance or clean resource lifecycle;
-- animation mastery;
-- a new universal animation framework or Profession Fabric promotion.
+The organic PASS does **not** establish:
+- biological anatomy or gait;
+- locomotion, foot planting, balance or root motion;
+- perceptual animation quality or final motion style;
+- acceptance of Rigging's newer `ease-out-power-0p75-v1` weighting candidate;
+- self-intersection freedom or volume preservation;
+- production skinning or connected-topology deformation;
+- exported animation clips or skeleton transport;
+- target-engine or target-device playback;
+- runtime controller/state-machine integration;
+- gameplay acceptance, collision behavior or performance;
+- CANON, mastery or a universal animal-animation system.
 
-The proof still translates the **whole current generated harpoon module** for recoil. Hard-Surface / Rigging must eventually expose the actual recoil-moving mass if this direction is retained.
+The retained views are orthographic wire snapshots of actual sampled surfaces, not shaded or perspective final-quality observations.
 
 ## Root gate
 
-- **Truth:** donor source, exact commit, receiving source identities, sampled values, runtime readback, rendered deltas and non-claims are explicit.
-- **Agency / non-domination:** Animation did not absorb Rigging, Hard-Surface, Art Direction, gameplay or controller authority; donor reuse does not make UC the owner of Wreckline semantics.
-- **Continuity:** the existing PR #4 lane was extended in place; original evidence remains recorded rather than being silently replaced.
-- **Wisdom before speed:** reused a strong existing AXM donor and re-tested it in the receiving context instead of building another timing system or forcing organic animation through a known rig failure.
+- **Truth:** exact current base/head, source/rig/clip digests, weighting profile, sample values, metrics, CI runs, artifact identity, direct visual scope and non-claims are explicit. The stale first stack is recorded rather than silently rewritten away.
+- **Agency / non-domination:** Animation owns timing and sampled motion only. Rigging still owns joints/deformation, Geometry owns connected topology, Art Direction owns visual acceptance, Visual QA owns perceptual verification, Runtime owns runtime evidence, and gameplay/controller semantics remain outside this lane.
+- **Continuity:** the organic clip stacks on the current Rigging lane and reuses its exact machinery; the older Wreckline lane and the superseded early attempt remain traceable.
+- **Wisdom before speed:** Animation chose one modest 18°/14° pulse instead of jumping directly to gait, locomotion, controller logic, the unaccepted weighting candidate or a universal animation abstraction.
 
 ## Handoffs
 
-- **Visual Observer / QA:** compare the retained original recoil evidence against artifact `10427911977`; inspect whether anticipation/impact/recovery are perceptually distinguishable and coherent. Do not infer timing quality from pixel counts alone.
-- **3D Art Director:** decide whether the donor-phased recoil is a better direction than the original smoothstep proof. This is a candidate comparison, not an automatic replacement.
-- **Hard-Surface / Rigging:** if recoil direction survives review, expose a production recoil-moving mass rather than translating the entire module body.
-- **Technical Art / UC Integration:** this is real receiving-domain use of the existing UC timing donor. Do not add Wreckline-specific rules to UC; only track whether the existing generic contract needs repair after repeated receiving-domain evidence.
-- **Capability Cartographer:** donor reuse is now proven in one mechanical receiving context. It is evidence for a cross-repo timing capability, but not yet evidence that one profile/style should govern other domains.
-- **Rigging / Visual Observer:** quadruped animation remains HOLD until full downstream paw/foot transform continuity is repaired and re-observed.
+- **Visual Observer / QA:** review exact artifact `10429313348`, especially the 0.25 / 0.50 / 0.75 s side and front frames, for pinching, silhouette collapse, paw contact oddities and any perceptual continuity issue. Structural PASS is not aesthetic PASS.
+- **3D Art Director:** judge whether this first pulse is visually useful as a motion-direction probe. Do not treat the current amplitudes or raised-cosine timing as final animal style.
+- **Rigging / Deformation:** keep `smoothstep-v0` and `ease-out-power-0p75-v1` distinct. If the newer weighting candidate later receives visual acceptance, Animation can compare this **same exact clip** across the two weighting profiles rather than changing motion and weighting together.
+- **Geometry / Topology:** PR #4 connected topology remains a separate dependency; this Animation PASS does not transfer to it.
+- **Technical Art / UC Integration:** no organic motion contract was moved into UC. One mechanical UC timing reuse plus one source-local organic loop is not enough to infer a universal style/profile.
+- **Capability Cartographer:** the reusable evidence pattern is now clearer — exact source + exact rig identity + bounded clip + sample-level structural checks + retained frames + receiving visual review — but executable centralization is not yet justified.
 
 ## Next Animation pass
 
-1. Read Visual Observer / Art Director response to the original-vs-donor recoil comparison before changing timing again.
-2. If donor timing is rejected, preserve the exact failure/reason and keep the original proof; do not tune blindly.
-3. If donor timing survives review, the next strong mechanical step is **separated recoil articulation or an authored/exported clip**, not another timing abstraction.
-4. Keep organic motion blocked until the quadruped full-chain deformation receives visual continuity PASS.
-5. Once a second materially different domain uses the donor timing machinery, compare what truly transfers before proposing any profession/shared-canon promotion.
+1. Consume Visual Observer / Art Director review of artifact `10429313348` before increasing amplitude, adding phase offsets or calling anything a gait.
+2. If the sampled wire motion is visually rejected, preserve the exact reason and repair only the smallest timing/amplitude issue.
+3. If the loop survives visual review, choose the next dependency from evidence: either compare the accepted Rigging weighting candidate on the **same clip**, or add one second bounded organic motion primitive only if the current rig can honestly support it.
+4. Do not add runtime-controller/gameplay claims until a real target-host playback/controller path exists.
