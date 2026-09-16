@@ -1,240 +1,305 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-16
-State: **ACTIVE / SAPLING MATERIAL DELTA SURVIVES STATIC ENVIRONMENT CONTEXT / FINAL LOOKDEV HOLD**
+State: **OBJECT FUNCTIONAL SURFACE FAMILY TARGET-HOST A/B PASS / FINAL OBJECT LOOKDEV + UV/TEXTURE + ART-DIRECTION HOLD / NATURE STATIC CONTEXT PASS RETAINED**
 
 ## Current bounded result
 
-This activation did **not** add texture or shader complexity. The strongest unresolved Materials question was whether the already-proven Nature woody/foliage material candidate remained visible outside its isolated lookdev host.
+This activation selected a materially different source-ready body instead of adding more complexity to the still-unaccepted Nature sapling profile.
 
-The selected bounded result is:
+The selected result is:
 
-**`PASS_STATIC_ENVIRONMENT_CONTEXT_SURFACE_FAMILY_DELTA / HOLD_FINAL_LOOKDEV`**
+**`PASS_TARGET_HOST_FUNCTIONAL_SURFACE_AB_READY / HOLD_FINAL_OBJECT_LOOKDEV`**
 
-for the exact static seed-29 Environment receiving context. The existing material profile is unchanged. The new work adds a source-bound A/B proof using the exact Map placement, proxies, Weather field and fixed `path_eye` / `elevated_oblique` cameras while holding sapling motion at neutral.
+for the exact Object manufactured host + receiving module lane.
 
-This is a receiving-context LookDev proof, not final vegetation surfacing, not final Environment art, and not Art Director acceptance.
+A small Object-local scalar PBR family now separates shell coating, service area, hardware, protection, attachment interface and receiving module on the same exact source-derived proof geometry across three fixed Godot views. No UVs, textures, decals, wear, coating engineering or renderer-generalization were added or claimed.
+
+`axm-create-me` remains coordination-only. Product/evidence implementation is confined to `mike-axiom-mir/axm-object-design`.
 
 ## Constellation / overlap scan
 
-Before changing the Materials lane, the campaign, standing specialist role, current coordination status, active design PRs and current repository bodies were checked.
+The campaign, standing Materials role, current specialist status, newest Art Director / Visual Observer state and active design PRs were checked before opening work.
 
-- **Wreckline:** the earlier road-plane `COLOR_0` repeat-seam repair already has direct-render scoped PASS evidence. Current Wreckline work is dominated by Hard Surface / Technical Art / Runtime LOD identity and provider closure, so no duplicate material lane was opened.
-- **Character:** the first neutral A-rest form exists, but its proportion/topology/deformation acceptance is still upstream of surfacing.
-- **Animal:** Geometry, Rigging and Animation have active unresolved visual/deformation gates. Materials did not hide those structural questions with surfacing.
-- **Nature:** PR #5 already owns the bounded woody/foliage profile; VFX PR #2 owns motion; Technical Art PR #3 owns the portable surface bridge; Procedural PR #4 owns form variation.
-- **Map / Environment:** PR #4 provides the first real multi-asset receiving context with fixed Godot cameras. Environment owns placement and hierarchy; Materials consumes that exact context without editing it.
-- **Weather:** current work is visual-field / procedural / atmosphere evidence, not a stronger material-ready surface body.
-- **Weapon / Armor / Unit / Building / Object / Misc:** current repository scan still shows no source-owned body that justifies inventing a parallel Materials implementation.
+- **Nature:** the existing sapling Materials PR #5 already proves a subtle woody/foliage delta in isolated and static Environment contexts. Art Direction has not yet accepted that candidate, so a moving-shaded extension would have crossed its current gate rather than answered a new Materials question.
+- **Animal:** current value is still concentrated in connected topology, rig/deformation and sampled-motion review. Surfacing would hide upstream acceptance questions.
+- **Character:** current neutral-form work remains upstream of final topology/deformation acceptance.
+- **Map / Environment:** current lanes own receiving-scene hierarchy, VFX and runtime Weather evidence; no unoccupied material defect was stronger than Object's new manufactured assembly.
+- **Weather:** current evidence is dynamic visual-field/atmosphere/procedural work, not a stronger source-owned surface body.
+- **Object:** Hard-Surface PR #5 added a real source-owned `utility-module-001` receiver on top of the source-owned modular equipment case and explicitly retained Materials/LookDev as unproven. Rigging and Technical Art are separate stacked lanes, so material work can proceed without taking their ownership.
+- **Weapon / Armor / Unit / Building / Misc:** the current coordination/PR scan did not expose a stronger source-owned, material-ready implementation lane. No empty-domain material work was invented.
+- **Wreckline:** the historical repeat-seam material repair remains valid, while current Wreckline progress is constrained by separate source/provider/LOD truth issues. No duplicate lane was opened.
 
-The Art Director's current direction also explicitly keeps the Materials candidate separate from the first motion-only sapling scene proof. This activation obeys that boundary: **static neutral only, no VFX deformation imported**.
-
-`axm-create-me` remains coordination-only. Product/evidence implementation stays in the source-owning Nature lane.
+This makes Object the highest-leverage unoccupied Materials target for this activation.
 
 ## Source lane
 
 Repository:
-- `mike-axiom-mir/axm-nature-design`
+- `mike-axiom-mir/axm-object-design`
 
-Existing draft PR:
-- #5 — `Materials: add bounded sapling bark/leaf lookdev profile`
-- branch `studio/materials-sapling-lookdev-001`
-- base branch `studio/uc-nature-surface-bridge-001`
-- base bridge head `9cab2df43d33effcc4fef3173d233f5a7fb00790`
-- previous Materials head `dfaec06a7e2bcfc9e7a77fbf21e149f0a85fca04`
-- **current exact Materials head `f2c52468abd1f92e9e5914a531ec15b394d5778a`**
+New draft PR:
+- **#6 — `Materials: prove functional surface separation on case + module`**
+- branch `studio/materials-object-functional-surface-001`
+- base branch `studio/hard-surface-service-module-fit-001`
+- exact base / Hard-Surface PR #5 head `9a0524319cc3fe33bdbb2d76505b2c89a7a9f190`
+- exact final Materials head **`4776a00fc771801d0ad3b9cdde8a3dd5e5647407`**
+- PR state after evidence: **OPEN / DRAFT / MERGEABLE**
 
-The existing profile remains unchanged:
-- woody `#5C3B27FF`, metallic `0.0`, roughness `0.84`
-- foliage `#5A823EFF`, metallic `0.0`, roughness `0.58`
+Exact source identity retained:
+- host asset `modular-equipment-case-001`
+- host source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`
+- module asset `utility-module-001`
+- module source SHA-256 `ffd7b42294d3af71e02aa172157beccefa08c6af2c1198f88836862d2a50fc2e`
+- Hard-Surface module-fit prerequisite remains `PASS_BILATERAL_SERVICE_MODULE_FIT_PROOF`
 
-Upstream proof-only baseline remains:
-- woody `#6B5138FF`, metallic `0.0`, roughness `0.92`
-- foliage `#4E7B45FF`, metallic `0.0`, roughness `0.88`
+No host geometry, socket frame, mount pattern, hinge semantics, Rigging articulation plan or UC integration contract was changed.
 
-No source geometry, normals, indices, primitive IDs, leaf-sidedness policy, Environment placement, cameras, Weather source, VFX response or UC material policy changed.
+## Bounded surface family
 
-## New bounded Environment-context proof
+Added Object-local profile:
+- schema `axm.object-material-profile/v0.1`
+- profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`
 
-Added to the **same PR #5 lane**:
-- `tools/build_material_environment_context.py`
-- `tests/test_material_environment_context.py`
-- `lookdev-environment-proof/observe.gd`
-- `lookdev-environment-proof/project.godot`
-- `.github/workflows/materials-environment-context.yml`
-- `docs/MATERIALS_ENVIRONMENT_CONTEXT_001.md`
+Baseline proof material:
+- `neutral_proof`: `#767A7DFF`, metallic `0.08`, roughness `0.78`
 
-New contract:
-- `axm.nature-material-environment-context/v0.1`
+Candidate family:
+- `shell_coating`: `#3F484EFF`, metallic `0.42`, roughness `0.54`
+- `service_dark`: `#252B2FFF`, metallic `0.18`, roughness `0.66`
+- `hardware_steel`: `#9AA3A8FF`, metallic `0.88`, roughness `0.32`
+- `rubber_guard`: `#171A1CFF`, metallic `0.0`, roughness `0.86`
+- `interface_orange`: `#A96532FF`, metallic `0.20`, roughness `0.48`
+- `module_housing`: `#35596DFF`, metallic `0.34`, roughness `0.50`
 
-Pinned receiving context:
-- Map repository `mike-axiom-mir/axm-map-design`
-- exact head `d52cb54a2aeb3eb4f5668e3d6ba4b05ddcc02899`
-- exact Environment scene digest `f63ddbb0fcdacd5109b45df1d0338701fb138014d3b98dc697d6279fd370447d`
-- exact Nature source head used by Map `fbc202449981f2bac153951c561ed0ed6120c936`
-- exact Nature source digest `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`
-- exact Weather source head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`
-- fixed cameras: `path_eye` and `elevated_oblique`
-- Weather streaks: 36
-- movement: `NONE_STATIC_NEUTRAL_ONLY`
-- placement changes: none
-- camera changes: none
-- Weather changes: none
-- only permitted A/B difference: woody/foliage material fields.
+The profile maps the existing source component roles rather than inventing a second geometry taxonomy. Required role coverage is fail-closed; unknown material IDs and out-of-range scalar values are rejected.
 
-The evidence builder reruns the exact Map receiving-context machinery rather than copying a stale scene payload. It refuses the comparison if the pinned scene digest or Nature source identity drifts.
+Provenance:
+- all scalar PBR values are self-authored for this bounded comparison;
+- no external texture, image or material asset is introduced;
+- the controlled A/B evidence pattern follows the existing same-owner Nature Materials campaign method, but Object semantics remain Object-owned.
 
-### Portable-surface representation boundary
+## Exact source-bound proof payload
 
-Both baseline and candidate A/B renders use the existing proven Nature -> UC portable surface with **620 triangles** and explicit opposite-winding leaf backfaces.
+New evidence builder reruns the exact Object source builder and the existing bilateral module-fit verifier before generating any lookdev payload.
 
-This is intentionally not byte-identical to the Environment observation host's **570-triangle** source mesh representation, which disables culling only as an observation convenience. The A/B comparison remains internally exact because baseline and candidate use the same 620-triangle representation, while Map placement, cameras, proxies, path and Weather are preserved.
+Exact structural payload result:
 
-This distinction is retained explicitly rather than pretending one renderer-facing proof representation is the other.
+**`PASS_SOURCE_BOUND_FUNCTIONAL_SURFACE_PAYLOAD`**
+
+Recorded identity:
+- components: `32`
+- same baseline/candidate geometry-contract SHA-256: `bc1f724744fa4d4f5bcd6469c7cc886a46632f1f160e0042252e2c9cec87b678`
+- material-only role assignment is the permitted A/B delta
+- source module fit remains green before rendering
+
+Negative controls cover:
+- missing source role -> FAIL
+- unknown material ID -> FAIL
+- metallic/roughness outside `[0,1]` -> FAIL
+
+## Target-host proof
+
+Renderer:
+- Godot `4.7.2-stable (official)`
+- GL Compatibility
+- pinned binary archive SHA-256 `cadd3204e728a35d3f13adb7fd0d7902636b79f6b95c40c265eb73b6c35329e4`
+
+Fixed contexts:
+- `front_service`
+- `three_quarter`
+- `rear_hinge`
+
+The host renders the same 32-component source-derived proof representation twice per context: neutral baseline versus candidate material family.
+
+Exact target-host state:
+
+**`PASS_TARGET_HOST_FUNCTIONAL_SURFACE_AB_READY`**
+
+Retained pixel differences:
+
+| Context | Changed pixels | Fraction | Changed bbox |
+|---|---:|---:|---|
+| `front_service` | `133,212 / 508,400` | `26.2022%` | `[133,200,686,456]` |
+| `three_quarter` | `93,407 / 508,400` | `18.3727%` | `[198,192,638,489]` |
+| `rear_hinge` | `87,241 / 508,400` | `17.1599%` | `[171,238,630,525]` |
+
+All three contexts retain nonzero bounded material-only image deltas.
+
+## Direct visual inspection
+
+All six retained PNGs were downloaded and inspected directly.
+
+### `front_service`
+
+The candidate replaces the neutral proof wash with a readable coated shell / darker service-area / brighter hardware relationship. The latches separate from the shell without turning into an oversized focal cue. The central service panel remains subordinate to the overall case silhouette.
+
+### `three_quarter`
+
+This is the strongest functional read. The dark protective corner treatment separates from the blue-grey coated shell; steel latch hardware remains readable; the orange attachment plate clearly marks the service interface; and the blue-grey receiving module is immediately distinguishable from both the plate and shell. The material assignment makes the already-proven modular relationship easier to read without changing the geometry.
+
+### `rear_hinge`
+
+The brighter steel hinge line becomes visibly distinct against the darker coated rear shell, while the protected corners stay visually heavy/dark. The receiving module/interface remains legible from the opposite viewing context.
+
+### Scoped interpretation
+
+The candidate produces materially different and functionally more legible target-host renders across all three fixed contexts. That is sufficient for a Materials specialist A/B PASS.
+
+It is **not** final Object aesthetic acceptance. The proof host also has bright top-face highlights under its fixed lighting; no attempt was made to retune lighting or PBR values merely to manufacture a more flattering board. Art Direction / Visual Observer own the next aesthetic decision.
+
+## Renderer / representation boundary
+
+The proof host is intentionally bounded:
+
+- component centers and dimensions come from the exact source-owned construction;
+- the right-service module envelope comes from the exact source socket + module dimensions;
+- baseline and candidate use the same proof geometry;
+- source geometry itself is unchanged.
+
+However this is **not byte-identical structural OBJ import**. Current source hinge/bolt cylinders use source-specific segment counts; the proof host reconstructs them with Godot `CylinderMesh` at 16 radial segments for a stable material-comparison surface.
+
+Therefore this PASS establishes target-host surface separation on an exact-dimension procedural proof representation, not equivalence with every import path or renderer.
 
 ## Exact-head CI / retained evidence
 
-All relevant workflow families are green on exact head `f2c52468abd1f92e9e5914a531ec15b394d5778a`:
-- Materials environment-context evidence run **`35055588709` — SUCCESS**
-- Nature organic form baseline run **`35055588812` — SUCCESS**
-- Materials sapling lookdev evidence run **`35055588843` — SUCCESS**
-- UC nature surface bridge evidence run **`35055588826` — SUCCESS**
+Final exact head:
 
-Retained Environment-context artifact:
-- ID **`10430182817`**
-- name `sapling-material-environment-context-001-f2c52468abd1f92e9e5914a531ec15b394d5778a`
-- archive SHA-256 **`c8b7eb92427763a4d1ef1e43e7e7fe02e4b541f36b668fc7a639ba3ac18fd033`**
-- exact head binding `f2c52468abd1f92e9e5914a531ec15b394d5778a`
-- context digest **`f7bee6a3ac4fd5992518a919d733c97ca01133dfb921b27daae9c5fe39841309`**
-- runtime state `PASS_TARGET_HOST_STATIC_ENVIRONMENT_MATERIAL_AB_READY`
-- renderer: Godot `4.7.2-stable (official)` / GL Compatibility.
+`4776a00fc771801d0ad3b9cdde8a3dd5e5647407`
 
-The retained ZIP was downloaded and independently rehashed to the same archive digest.
+Exact-head workflows:
+- `35059518233 — Object material lookdev evidence` — **SUCCESS**
+  - Python 3.11: full repository tests PASS; source-bound payload PASS; Godot render PASS; target-host A/B validation PASS; artifact upload PASS
+  - Python 3.13: full repository tests PASS; source-bound payload PASS
+- `35059518251 — Object service-module fit evidence` — **SUCCESS**
+- `35059518226 — Object hard-surface interface evidence` — **SUCCESS**
 
-The exact-head isolated Materials workflow also reran successfully and retained artifact:
-- ID `10430651579`
-- archive SHA-256 `99986af688a34c56e90cc54a38b784fd1429b5af2071f08b4392a653080739dc`
+Retained artifact:
+- ID **`10432215538`**
+- name `object-material-lookdev-001-4776a00fc771801d0ad3b9cdde8a3dd5e5647407`
+- size `289,969` bytes
+- exact head binding `4776a00fc771801d0ad3b9cdde8a3dd5e5647407`
+- archive SHA-256 **`b419288f758be4296a6a82c2a270661fafbecfef4acf53c52af0e19c307d3ab9`**
 
-## Direct visual review of retained real renders
+The retained ZIP was downloaded and independently rehashed to the same digest.
 
-All four exact Environment-context PNGs were opened and inspected directly.
+## Failure / repair provenance
 
-### `path_eye`
+The first target-host run on intermediate head `757ca95197560af07f7fedd8df54801b267c4f3a` failed at Godot script parsing because a pixel-difference local inferred `Variant` while warnings are treated as errors.
 
-The sapling sits at the far left edge and is partially cropped by this existing Environment camera. The material-only candidate remains pixel-distinct from baseline, but it does **not** materially change the central approach read. This is a useful limitation, not a reason to make the tree artificially loud.
+Historical failed run:
+- workflow `35059323756` — FAILURE
+- failed retained artifact `10431372810`
+- archive SHA-256 `14f2901e87a78f12c613379ab08e5e7466a57e6575454e42e3fef5d89c4b0015`
 
-Independent comparison of the retained images:
-- changed pixels: `1,680 / 792,000` (`0.212%`)
-- changed-pixel bounding box: `x=0..81`, `y=132..487`
-- mean absolute RGB difference across changed pixels: about `9.20 / 255`
-- maximum channel difference: `33 / 255`.
+The structural Python payload and inherited Object tests were already green. The repair explicitly typed the pixel delta and used typed numeric helpers (`maxf` / `mini` / `maxi`). No host/module source, material value, camera, lighting context or acceptance threshold changed to obtain the final PASS.
 
-The difference region is confined to the visible sapling area; path, proxies, building and Weather remain unchanged in the A/B.
-
-### `elevated_oblique`
-
-The whole sapling is visible in this frame. The candidate preserves the same modest isolated-lookdev direction:
-- woody surfaces read slightly warmer / darker;
-- sparse foliage separates somewhat more clearly from the woody branches;
-- the delta is visible in direct A/B inspection but remains subordinate to silhouette, proxy scale and scene composition;
-- the large east foreground Nature proxy remains the stronger hierarchy issue and is not a Materials-owned problem.
-
-Independent comparison:
-- changed pixels: `1,905 / 792,000` (`0.241%`)
-- changed-pixel bounding box: `x=368..431`, `y=138..313`
-- mean absolute RGB difference across changed pixels: about `10.01 / 255`
-- maximum channel difference: `42 / 255`.
-
-Again the difference is localized to the sapling.
-
-### Scoped visual interpretation
-
-The existing material-family delta **survives a real receiving context** without leaking into unrelated scene state. It does not become a strong world-art cue at this distance, and this pass does not justify increasing saturation/contrast merely to make the numerical delta larger.
-
-That is why the correct result is:
-
-**`PASS_STATIC_ENVIRONMENT_CONTEXT_SURFACE_FAMILY_DELTA / HOLD_FINAL_LOOKDEV`**
-
-rather than a final material acceptance claim.
-
-## Provenance
-
-The new proof consumes exact source code from the pinned Map receiving lane (`tools/environment_eye_level.py` / `environment-proof/observe.gd`) and records the donor head and file paths.
-
-No explicit `LICENSE` file was present at the pinned Map head when this lane was created. The reuse is therefore recorded as **same-owner campaign reuse with exact provenance**, not silently described as a licensed external donor.
-
-No third-party texture/image/material asset was introduced.
-
-## Renderer / evidence limitations
-
-Established only:
-- one exact neutral Nature sapling source;
-- one exact source-preserving material profile;
-- one exact portable 620-triangle surface representation;
-- one pinned Godot 4.7.2 GL Compatibility host;
-- the three earlier isolated lookdev contexts;
-- two exact static Environment receiving cameras;
-- material-only A/B non-identity and direct visual review.
-
-Still not established:
-- UV quality or texel density;
-- texture maps, bark microdetail or leaf normal maps;
-- alpha cutout, translucency, transmission or subsurface scattering;
-- physically measured botanical/species reflectance;
-- wetness or weather-responsive materials;
-- moving-sapling shading under the accepted local VFX profile;
-- renderer equivalence with Blender/Cycles, other Godot renderers or browser/native renderers;
-- runtime/material memory cost or shader cost;
-- final Environment hierarchy;
-- Art Director / Visual Observer final material acceptance;
-- CANON, production readiness, game readiness or Materials mastery.
+The failed artifact remains historical evidence and is **not** treated as render evidence because it contains no valid target-host PNG set.
 
 ## Propagation decision
 
-**Do not move the sapling profile or Nature-specific material semantics into Universal Creation.**
+A cross-domain evidence method now has two materially different demonstrations:
 
-Current correct homes remain:
-- Nature Design owns woody/foliage surface direction;
-- Technical Art owns Nature -> portable surface transport;
-- Map / Environment owns placement and composition;
-- VFX owns wind response;
-- UC owns generic publication/verification only;
-- Art Direction owns final aesthetic acceptance.
+1. Nature: controlled material family challenged in isolated + receiving-scene contexts.
+2. Object: source-role material family challenged on the same manufactured proof geometry across three fixed target-host views.
 
-A reusable lesson is emerging: material candidates should be challenged both in controlled close/lighting views and in an exact receiving context before promotion. However this is still one Nature family plus one receiving scene, not enough evidence for a generic material-profile framework or UC organ.
+The reusable lesson is:
+
+> **Map source-owned semantic roles into the smallest bounded surface family, preserve one exact geometry contract across baseline/candidate, and demand multi-context target-host A/B evidence before adding UV/texture complexity.**
+
+Do **not** centralize domain semantics because the evidence method repeats.
+
+Current homes remain:
+- Nature owns woody/foliage semantics;
+- Object owns shell/hardware/protection/interface/module semantics;
+- UC remains generic and unchanged;
+- Art Direction owns final aesthetic acceptance;
+- Runtime owns eventual shader/material performance.
+
+No UC material ontology, automatic material classifier or Profession Fabric promotion is justified by this one new manufactured family.
+
+## Truth boundary / non-claims
+
+This activation establishes only:
+- exact source/profile identity;
+- complete role-to-material coverage for this Object proof;
+- same baseline/candidate proof geometry;
+- source fit prerequisite remains green;
+- Godot 4.7.2 GL Compatibility A/B rendering in three fixed contexts;
+- direct visual evidence that functional material separation is readable in those retained frames.
+
+It does **not** establish:
+- UV unwrap quality or texel density;
+- texture maps, decals, edge wear, dirt, AO or baked normal maps;
+- physically measured paint, anodization, rubber or steel response;
+- coating durability, corrosion or manufacturing finish;
+- byte-identical structural OBJ material import;
+- shaded material response during Rigging PR #3's `0..110°` articulation;
+- Blender/Cycles, Godot Forward+, browser or native renderer equivalence;
+- runtime shader cost, material memory, batching or draw-call budgets;
+- gameplay, collision, physics or engineering acceptance;
+- final Art Director / Visual Observer acceptance;
+- CANON, production readiness, game readiness or Materials mastery.
 
 ## Four-root check
 
-- **Truth:** exact heads, scene/source digests, renderer, representation difference, workflows, retained artifact and direct observations are recorded; a subtle scene delta is not inflated into finished vegetation.
-- **Agency / non-domination:** no auto-merge, CANON action, Map rewrite, VFX rewrite or UC policy centralization occurred.
-- **Continuity:** PR #5 was extended in place; the material profile stayed unchanged; previous isolated renders and Wreckline evidence remain historical before/parallel evidence.
-- **Wisdom before speed:** the lane tested the existing material in a real receiving context before adding UVs, textures, complex foliage shaders or stronger color exaggeration.
+- **Truth:** the first Godot parse failure remains recorded; source identity, proof-representation limitation, exact final head, workflows, artifact and direct visual observations are explicit.
+- **Agency / non-domination:** no auto-merge, CANON action, Hard-Surface rewrite, Rigging rewrite, UC policy centralization or Art Director acceptance is inferred.
+- **Continuity:** PR #6 stacks exactly on Hard-Surface PR #5; host/module source digests are unchanged; prior Nature and Wreckline evidence remains retained rather than silently replaced.
+- **Wisdom before speed:** the lane proves a small scalar PBR family in real target-host views before spending work on UVs, textures, procedural wear or a shared material framework.
 
 ## Handoffs
 
-- **3D Art Director / Visual Observer:** review the exact static Environment A/B if a final surface-direction decision is wanted. The scene proof now shows both where the material delta survives and where camera scale makes it irrelevant.
-- **Environment / World Art:** no change is requested to PR #4; placement/cameras remain Environment-owned. Do not silently adopt the candidate as final.
-- **VFX / Atmosphere:** keep the accepted local sway response separate. A later moving shaded comparison should happen only after the material direction is explicitly accepted.
-- **Runtime / Optimization:** no material-cost claim. Measure only if/when this candidate is actually adopted into a runtime lane.
-- **Technical Art / UC:** no new Nature-specific UC field is requested.
-- **Capability Cartographer:** record receiving-context A/B as evidence discipline only. One Nature family does not justify horizontal extraction.
+- **3D Art Director / Visual Observer:** review artifact `10432215538` on exact head `4776a00fc771801d0ad3b9cdde8a3dd5e5647407`. The key question is whether the functional hierarchy—coated shell, dark service/protection, steel hardware, orange interface, blue-grey module—supports the intended manufactured read without becoming noisy.
+- **Hard Surface:** no source change is requested. PR #6 is a stacked material overlay and must not become implicit approval of topology, bevels or engineering finish.
+- **Rigging / Animation:** no material-under-articulation claim. If the static material family is accepted, a later neutral/open shaded comparison could test the exact existing lid articulation without inventing a new motion lane.
+- **Runtime / Optimization:** no cost claim. Measure only if this material family is adopted into a real runtime host.
+- **Technical Art / UC:** no UC change requested. Generic transport remains separate from Object surface semantics.
+- **Capability Cartographer:** record the repeated A/B evidence discipline as a cross-domain method signal, not as evidence for moving the material vocabulary into UC.
+
+## Previous retained Materials result — Nature static Environment context
+
+The earlier Nature result remains valid historical/parallel evidence:
+
+**`PASS_STATIC_ENVIRONMENT_CONTEXT_SURFACE_FAMILY_DELTA / HOLD_FINAL_LOOKDEV`**
+
+Exact Nature head:
+- `f2c52468abd1f92e9e5914a531ec15b394d5778a`
+
+Key retained evidence:
+- workflow `35055588709` — SUCCESS
+- artifact ID `10430182817`
+- archive SHA-256 `c8b7eb92427763a4d1ef1e43e7e7fe02e4b541f36b668fc7a639ba3ac18fd033`
+- Godot 4.7.2 GL Compatibility
+- static Environment A/B delta remains localized to the sapling
+- final vegetation material direction remains Art Director / QA held
+
+The existing Nature profile remains unchanged:
+- woody `#5C3B27FF`, metallic `0.0`, roughness `0.84`
+- foliage `#5A823EFF`, metallic `0.0`, roughness `0.58`
+
+No moving-shaded material proof was added here because the static candidate has not yet received its own aesthetic acceptance.
 
 ## Previous retained Materials result — Wreckline repeat seam
 
-Earlier scoped result remains valid historical evidence:
+Earlier scoped result also remains valid historical evidence:
 
-**`PASS_VISUALLY_INSPECTED_ROAD_PLANE_COLOR0_SEAM_REDUCTION`** for exact Wreckline `open-straight-a -> open-straight-a` static repeat at LOD0 and LOD1 in Godot 4.7.2.
+**`PASS_VISUALLY_INSPECTED_ROAD_PLANE_COLOR0_SEAM_REDUCTION`**
 
 Key evidence:
 - Wreckline head `058837ea805a734a056bec5a787efea307abac67`
 - workflow `35048418427` — SUCCESS
 - artifact ID `10428205343`
 - archive digest `sha256:95d9568425bacb45aaef28f379bd8a4e7b4bac9751d911299dd2309ef79ea442`
-- 14 corresponding road-plane boundary samples at each LOD close at `0.0` maximum RGB vector distance
-- geometry/collision/material definitions unchanged; only continuous road-plane `COLOR_0` changed.
+- static repeat boundary at LOD0/LOD1 closes with `0.0` maximum sampled RGB vector distance
+- geometry/collision/material definitions unchanged; only continuous road-plane `COLOR_0` changed
 
 ## Next Materials pass
 
-First inspect any Art Director / independent QA response to this exact static Environment A/B. Do **not** add texture complexity merely because the lane runs again.
+First inspect independent Art Director / Visual Observer response to **Object PR #6 exact retained renders** and any response to the Nature static A/B.
 
-If the candidate is accepted, the next bounded question is whether the same profile remains coherent on the already-accepted sapling motion under a controlled shaded neutral/peak comparison. If it is not accepted, repair the specific named surface defect. If a materially different source-owned asset appears first with a stronger UV/material failure, prefer that instead.
+Do not add UVs/textures/wear merely because the lane runs again.
+
+- If Object's functional hierarchy is accepted, the next bounded Object question can be exact material behavior across an already-proven closed/open articulation pair.
+- If a specific visual defect is named, repair that defect with before/after evidence.
+- If another materially different source-owned body becomes more urgent first, prefer it rather than deepening one family without acceptance.
+- Keep domain material vocabulary local unless repeated cross-domain evidence eventually proves a genuinely generic contract.
