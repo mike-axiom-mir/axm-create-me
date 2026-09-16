@@ -1,228 +1,249 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_ART_DIRECTION_BUILDING_PAVILION_HIERARCHY_001 / BUILDING PROXY BLOCKOUT HOLD RELEASED / HOLD_FINAL_WORLD_ART / REQUIRE EXACT RECEIVING-SCENE BUILDING LOOKDEV A-B / REAR-RIGHT NATURE PROXY REMAINS STRONGEST WORLD BLOCKOUT**
+State: **ACTIVE / PASS_ART_DIRECTION_BUILDING_RECEIVING_SURFACE_HIERARCHY_002 / RELEASE_SCALAR_PBR_FOCAL-WEIGHT_HOLD / RETAIN_FRONT-PANEL_PRESENTATION_CAVEAT / REAR-TREE NORMAL-CULLING ADOPTION BLOCKED / HOLD_FINAL_BUILDING_LOOKDEV + FINAL_WORLD_ART**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, the standing 3D Art Director role, current specialist status and active design PRs before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the previous Art Director state, current specialist status, and current open design PRs before selecting work.
 
-`axm-create-me` remains coordination-only. No product geometry, scene, material, animation, renderer or runtime code is authored here. The four roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains coordination-only. No product geometry, material, animation, scene, renderer or runtime implementation is authored here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Full constellation scan
+The previous Art Director status is preserved in Git history at blob `79c0115dc5c1b5a56df8caa13a64b8ddbd4b6a48`. Its pavilion hierarchy PASS remains valid and is not reopened.
 
-Current active evidence was inspected across all eleven design repos plus the coordination state.
+## Current constellation scan
 
-- **Weapon:** no open design PR currently presents a stronger direct Art Direction surface.
-- **Armor:** no open design PR currently presents a stronger direct Art Direction surface.
-- **Character:** PR #2 remains the first neutral A-rest source body at exact head `92ff1594d20ac363ee28dcfc46deacf3143f4c10`. It still needs direct proportion/mass-hierarchy review before source reshaping or downstream fit claims.
-- **Unit:** no open design PR currently presents a stronger direct Art Direction surface.
-- **Animal:** Animation PR #5 is now a strong direct playback review candidate at exact head `9928680758b0c44435dd83eb4a8e537aacd42c9c`; Geometry and Rigging still carry separate connected-topology / weighting candidates that remain visually unaccepted. No Animal source retune is requested from this Building-focused activation.
-- **Building:** Hard-Surface PR #2 exact head `4faa769b406bf3ad0ba9489a77141c27f122ce51` supplies the real pavilion; Materials PR #3 exact head `484ced313ba0337ea27eebd01c5677e72e8456af` supplies a bounded five-surface candidate with target-host A/B but no Map-context acceptance yet.
-- **Nature:** the compact east-foreground source remains accepted for its exact Map hierarchy question. Organic PR #8 exact head `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12` now supplies a distinct east-rear source candidate, but only source/envelope evidence exists; there is still no exact receiving-scene A/B for that slot.
-- **Weather:** source and procedural Weather work remain visual-only and bounded; no stronger new Art Direction defect overrides the ready Building receiving gate.
-- **Map:** Environment PR #11 exact head `c72838eb4b40ee7903a3c3e326a1bf77fa08bee5` now composes the exact source-owned Building pavilion into the already accepted seed-29 Nature/Weather scene. Visual Observer independently returned `PASS_BUILDING_PAVILION_VISUAL_HIERARCHY_RECHECK`. VFX PR #12 and Runtime PR #13 remain separate dynamic-atmosphere/resource-lifecycle lanes and do not transfer aesthetic authority.
-- **Object:** Materials PR #6, Technical Art PR #7 and Rigging PR #8 remain strong bounded manufactured-asset surfaces, but the pavilion is a scene-level visual gate with an explicit QA handoff and therefore outranks another isolated Object review in this activation.
-- **Misc:** no open design PR currently presents a stronger direct Art Direction surface.
+All eleven design repositories and the current studio specialist states were inspected before selecting this review.
 
-The prior Art Director east-foreground Nature PASS remains valid and is not reopened.
+- **Weapon:** no open design PR. No evidence-backed visual surface worth inventing a lane for.
+- **Armor:** no open design PR. Character/Armor fit remains downstream of Character form acceptance.
+- **Character:** Organic PR #2 is open/draft/mergeable at current head `f55b56f3e6578af09e57c888337446ec3640c8e9`. Organic has produced a derived tapered shoulder-transition candidate while preserving the baseline source. Art Direction / Visual QA proportion and mass-hierarchy acceptance remain held.
+- **Unit:** no open design PR.
+- **Animal:** Animation PR #5 remains a strong direct motion review surface; current PR head is `9928680758b0c44435dd83eb4a8e537aacd42c9c`. Geometry PR #4, Rigging PR #2 and Technical Art PR #3 retain separate topology/deformation/transport questions. Animal motion direction remains visually unaccepted, so Animation correctly did not retime it again.
+- **Building:** Hard-Surface PR #2 remains the exact source pavilion at `4faa769b406bf3ad0ba9489a77141c27f122ce51`. Materials PR #3 has materially advanced to refined head `b08f683f1c3f75c474fb347e1d1990c1c4426a33` after the first receiving candidate made the service panel too strong.
+- **Nature:** Organic PR #8 supplies the rear tree at `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`. Geometry PR #7 proves a three-source reindex-only cap-winding repair at `e2224d4bf88f7e68503072c884e5a726b8d0c53d`. Technical Art PR #3 at `5590bbe07cc92a6f60ea9b4722344220e2d04ae5` proves the rear candidate changes real Godot backface-culling output without changing culling-disabled pixels. Source migration remains held.
+- **Weather:** source Weather and seeded procedural variation remain bounded visual-only work. No new atmosphere-style decision outranks the ready Building receiving gate.
+- **Map:** Materials PR #14 is now the exact receiving evidence requested by the previous Art Director pass, at head `0e2d571af4fd5772e9d48da013dc245914654660`. Environment PR #15 separately integrates the rear tree at `03e956475158a59d70cca08b73be23c141e4cb1f`; Visual QA passes its culling-disabled hierarchy but fails the current baseline under backface culling. VFX PR #16 and Runtime PR #17 remain separate temporal/resource lanes and transfer no aesthetic authority.
+- **Object:** Hard-Surface, Rigging, Animation, Materials, Technical Art and Procedural work are all active. Their evidence remains valuable, but none outranks an exact scene-level receiving lookdev gate already requested by Art Direction.
+- **Misc:** no open design PR.
+
+Specialist status is internally consistent with that priority: Materials has handed exact refined Building receiving evidence to Art Direction/QA; Environment has handed rear-tree hierarchy evidence but explicitly holds topology migration; Visual QA has a concrete normal-culling block on the rear tree; Cartography now recommends an explicit Nature source-lineage migration rather than a hidden downstream repair; Geometry/Technical Art retain the corresponding structural and target-host evidence; Rigging/Animation/Object and VFX/Runtime remain bounded to their own lanes.
 
 ## Highest-leverage visual decision selected
 
-Receiving lane:
+The immediately previous Art Director packet required one isolated receiving-scene Building lookdev A/B before any final material-direction decision.
 
-`mike-axiom-mir/axm-map-design#11 — Environment: replace Map pavilion proxy with exact Building source`
+That exact evidence now exists in:
 
-Exact reviewed head:
+**`mike-axiom-mir/axm-map-design#14 — Materials: transfer pavilion surface family into exact Map scene`**
+
+Exact reviewed Map head:
+
+`0e2d571af4fd5772e9d48da013dc245914654660`
+
+Exact receiving base:
 
 `c72838eb4b40ee7903a3c3e326a1bf77fa08bee5`
 
-Exact Building source dependency:
+Exact refined Building Materials dependency:
 
-`mike-axiom-mir/axm-building-design#2` head `4faa769b406bf3ad0ba9489a77141c27f122ce51`
+`mike-axiom-mir/axm-building-design#3` head `b08f683f1c3f75c474fb347e1d1990c1c4426a33`
 
-Current lane state at review:
+Material profile SHA-256:
 
-**OPEN / DRAFT / MERGEABLE**
+`e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`
 
-This was selected because it is the newest scene-level source replacement with:
+Both PRs are open/draft/mergeable at review.
 
-1. exact fixed-camera target-host A/B evidence;
-2. independent Visual Observer hierarchy PASS;
-3. a clearly identified remaining lookdev caveat;
-4. no need for Art Direction to invent source geometry, retune composition or duplicate an active implementation lane.
+This was selected ahead of the rear-tree lane because:
 
-## Exact retained evidence rechecked
+1. it exactly satisfies the previous Art Director's highest-priority requested evidence;
+2. it contains a real source-owned repair prompted by an actual receiving-scene visual defect;
+3. the rear-tree hierarchy is already independently judged but currently has a concrete normal-culling renderer-integrity blocker, so broad Art Direction adoption there would outrun the evidence;
+4. no product implementation or duplicate Materials lane is required to make the current Building directional decision.
 
-Environment artifact:
+## Exact evidence reviewed
 
-- ID: `10433692869`;
-- archive SHA-256: `013daf43979e01ed0987cc9f34ee2fe1ce11db0ac93aa006b91391ac76ad4eb9`;
-- exact Map head binding: `c72838eb4b40ee7903a3c3e326a1bf77fa08bee5`;
-- renderer: pinned Godot `4.7.2` GL Compatibility;
-- seed: `29`;
-- fixed cameras: `path_eye`, `elevated_oblique`;
-- source proof geometry: `152` vertices / `228` triangles;
-- Building Materials PR #3: intentionally excluded from this scene hierarchy A/B.
+Current receiving artifact:
 
-The artifact was downloaded in this activation and independently rehashed to the same exact archive digest.
+- artifact ID `10435926829`;
+- archive SHA-256 `065d542b2f33ac5d85031d407376580b93b10d3347ee1551b72400cbc12aae95`;
+- exact Map head binding `0e2d571af4fd5772e9d48da013dc245914654660`;
+- renderer Godot `4.7.2` GL Compatibility;
+- fixed cameras `path_eye` and `elevated_oblique`.
 
-Independent image localization reproduced:
+Current standalone refined Building artifact:
 
-- `path_eye`: `80,718 / 792,000 = 10.1917%` changed pixels, bbox `x=332..767`, `y=243..438`;
-- `elevated_oblique`: `39,273 / 792,000 = 4.9587%`, bbox `x=585..901`, `y=163..349`.
+- artifact ID `10435825830`;
+- archive SHA-256 `645acd5ef7311ca34f0b36fd3520dcf2b57dc6a7ac0530e400ea3e3525048c92`;
+- exact Building Materials head `b08f683f1c3f75c474fb347e1d1990c1c4426a33`.
 
-These metrics are attribution/localization evidence only; the visual judgment is based on direct inspection of all four PNGs.
+The receiving contract preserves geometry, transform, seed, path, cameras, lighting, Nature, Weather, Object proxies and unrelated scene state. Only Building material response changes.
 
-## Direct Art Director visual observations
+Current refined candidate versus neutral control:
+
+- `path_eye`: `65,965 / 792,000 = 8.3289%` changed pixels;
+- `elevated_oblique`: `32,304 / 792,000 = 4.0788%` changed pixels.
+
+The key source-repair comparison is the old bright receiving candidate versus the refined candidate:
+
+- `path_eye`: `4,162 / 792,000 = 0.5255%` changed pixels;
+- `elevated_oblique`: `1,371 / 792,000 = 0.1731%` changed pixels;
+- changed-pixel mean luma falls about `16.18%` / `15.66%`;
+- changed-pixel mean saturation falls about `31.38%` / `30.15%`.
+
+Those numbers are localization/magnitude evidence, not aesthetic authority. The retained old/refined receiving contact sheet and refined standalone Building contexts were directly inspected in this activation.
+
+## Direct Art Director observations
+
+### Why the first candidate needed refinement
+
+The original `utility_panel_ochre` surface used `#9B7338FF`, metallic `0.28`, roughness `0.50`.
+
+In the exact Map receiving scene it became the strongest saturated path-end color accent and amplified the already-known triangular light/dark presentation on the front service surface. That result was more visually assertive than the pavilion hierarchy required.
+
+Materials correctly repaired the **source-owned Building profile**, not Map, to:
+
+- albedo `#6F5A3AFF`;
+- metallic `0.18`;
+- roughness `0.62`.
+
+Every other material role, component mapping, geometry and receiver identity remains unchanged.
 
 ### `path_eye`
 
-The baseline Building proxy is one broad flat blue-grey rectangle at the end of the route. It reads as temporary blockout mass with almost no internal hierarchy.
+The refined panel remains immediately legible as a service surface but no longer functions as the scene's color destination.
 
-The exact source pavilion materially improves the endpoint:
+The useful order now reads:
 
-- outer frame establishes a clear manufactured silhouette;
-- open bays and visible depth replace the monolithic slab read;
-- the route remains visually open and still terminates cleanly at the Building slot;
-- the pavilion remains a useful landmark without becoming a wider wall;
-- nearby Nature, Weather and Object context stays stable outside the localized Building region.
+1. pavilion silhouette and open-bay structure;
+2. cool structural frame against the dark enclosure/roof;
+3. central approach and bay negative space;
+4. local service accent.
+
+The nearby orange Object proxies are now at least as assertive as the service panel. That is preferable in this proof scene because the Building reads through manufactured structure rather than one bright material patch.
+
+The triangular dark/light panel pattern is still clearly visible. The quieter surface reduces its attention weight but does **not** solve or classify it completely.
 
 ### `elevated_oblique`
 
-The proxy contributes another large proof box to the upper composition. The source pavilion instead introduces frame/bay rhythm, real negative space and depth. It reads more clearly as a manufactured category distinct from green Nature proxies and orange Object proxies.
+The refined pavilion stays visually distinct from the green Nature masses and orange Object proxies. Frame, enclosure/roof and service panel remain readable as separate functional layers.
 
-The replacement does not erase the previously accepted compact east-tree improvement and does not introduce a new dominant foreground obstruction.
+The east-facing panel stays naturally darker than the front panel under the same light. This is accepted; no per-view material/light equalization is requested.
 
-The separate rear/right green Nature proxy remains the strongest obvious world-art blockout in this fixed camera.
+Because PR #14 intentionally remains a sibling of rear-tree Environment PR #15, this view still contains the older rear/right Nature proxy. That is correct evidence isolation, not a regression in this Materials decision.
 
-## Localized presentation caveat retained
+### standalone source contexts
 
-The neutral Environment candidate shows a high-contrast triangular dark/light read across the front service-panel region.
-
-Visual Observer independently reproduced it and classified it as a receiving-light / proof-material caveat after comparing the standalone Building source evidence, where the panel remains a complete rectangle. Direct Art Director inspection agrees: there is not enough evidence to call this a source-geometry failure.
-
-Do **not** request a Building geometry rewrite from this proof appearance. Challenge the exact material family in this exact receiving lighting first.
+The refined standalone front/east/three-quarter renders confirm that reducing the service accent did not erase its source-level role. The cooler frame and dark enclosure remain legible, and both service-panel orientations remain identifiable under different light relations.
 
 ## Art Direction decision
 
-**`PASS_ART_DIRECTION_BUILDING_PAVILION_HIERARCHY_001 / RELEASE_BUILDING_PROXY_BLOCKOUT_HOLD / HOLD_FINAL_WORLD_ART`**
+**`PASS_ART_DIRECTION_BUILDING_RECEIVING_SURFACE_HIERARCHY_002 / RELEASE_SCALAR_PBR_FOCAL-WEIGHT_HOLD`**
 
 Bound exactly to:
 
-- Map PR #11 head `c72838eb4b40ee7903a3c3e326a1bf77fa08bee5`;
-- artifact `10433692869` / SHA-256 `013daf43979e01ed0987cc9f34ee2fe1ce11db0ac93aa006b91391ac76ad4eb9`;
-- seed `29`;
-- fixed `path_eye` / `elevated_oblique` cameras;
-- Building source head `4faa769b406bf3ad0ba9489a77141c27f122ce51`;
-- neutral Environment proof material.
+- Map Materials PR #14 head `0e2d571af4fd5772e9d48da013dc245914654660`;
+- Building Materials PR #3 head `b08f683f1c3f75c474fb347e1d1990c1c4426a33`;
+- material profile SHA-256 `e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`;
+- receiving artifact `10435926829` / SHA-256 `065d542b2f33ac5d85031d407376580b93b10d3347ee1551b72400cbc12aae95`;
+- standalone artifact `10435825830` / SHA-256 `645acd5ef7311ca34f0b36fd3520dcf2b57dc6a7ac0530e400ea3e3525048c92`;
+- pinned Godot `4.7.2` GL Compatibility;
+- fixed `path_eye` and `elevated_oblique` cameras.
 
 Meaning of the PASS:
 
-> The exact source-owned pavilion materially improves endpoint silhouette, depth, manufactured identity and category separation relative to the Building proxy while preserving route readability and the accepted surrounding scene hierarchy in the two retained proof cameras.
+> The refined source-owned scalar-PBR family preserves the pavilion's manufactured hierarchy in the exact receiving scene while reducing the service panel from a dominant path-end color accent to a subordinate functional accent, without a receiver-only material, camera or lighting cheat.
 
-The Building proxy blockout hold is released for this exact composition. No geometry/composition repair is requested before the next material-context gate.
+The previous directional hold on the Building service-panel **focal weight** is released for this exact proof representation.
 
-## Bounded direction packet created
+No further scalar-PBR micro-tuning is requested before independent Visual QA or a materially richer representation exposes a new concrete defect. More value-changing now would be churn rather than evidence-led iteration.
+
+## Caveat retained
+
+**`RETAIN_FRONT_PANEL_TRIANGULAR_PRESENTATION_CAVEAT`**
+
+The triangular front-panel light/dark read remains visible after the correct source-material refinement. Current evidence does not isolate final cause strongly enough to justify a source geometry rewrite.
+
+Direction:
+
+- do not reshape the pavilion merely to erase this proof screenshot pattern;
+- do not add a receiver-only material or per-camera lighting patch;
+- Visual QA should reproduce/classify it on the exact refined receiving head;
+- if the pattern persists under a richer normals/UV/texture/final-lighting representation, isolate that representation before changing source form.
+
+This caveat, plus absent UV/texture/final-lighting evidence, prevents `PASS_FINAL_BUILDING_LOOKDEV`.
+
+## New direction packet
 
 Created:
 
-`studio/direction/BUILDING_PAVILION_WORLD_HIERARCHY_REVIEW_001.md`
+`studio/direction/BUILDING_PAVILION_RECEIVING_LOOKDEV_REVIEW_002.md`
 
-The packet records the exact PASS above and makes the next visual gate explicit: **transfer the exact Building Materials PR #3 candidate into exact Map PR #11 without changing geometry, transform, seed, path, cameras, lighting, Nature, Weather or Object state.**
+Creation commit:
 
-Exact material candidate:
+`6f1a691331421242db8665b7e1397e6f5f289b54`
 
-- Building Materials PR #3 head `484ced313ba0337ea27eebd01c5677e72e8456af`;
-- profile digest `85650897cde5bceaf1eb2d389c2a61d47c3d50a2000e429cac8a7846c8c153c4`;
-- standalone artifact `10433426258`;
-- archive SHA-256 `0529d3982d883af4565c4ee65539c881b087b413760206abb647a2e613224d8c`.
+The packet records the exact decision, retained caveat, isolation rules and handoffs. No product repository was modified by the Art Director.
 
-That artifact was also downloaded/rehashed in this activation and all six standalone material A/B renders were directly inspected.
+## Rear-tree state deliberately not broadened
 
-Direct standalone lookdev observations:
+Map Environment PR #15 already has a useful hierarchy result: its culling-disabled A/B replaces the right-edge opaque green proxy with a porous source-owned tree while preserving route/pavilion composition.
 
-- the cool/light structural frame separates clearly from dark infill and roof;
-- the slab remains visually quieter;
-- ochre utility panels create a readable service accent;
-- the east-facing ochre panel becomes substantially darker under the fixed alternate light relation, proving context sensitivity rather than a reason to cheat lighting per view;
-- the front ochre panel is strong enough that, at the end of the Map path, it could become an unintended focal point if transferred without receiving-scene review.
+However, Visual QA independently reproduced a concrete renderer-visible defect in the exact current Organic baseline under backface culling:
 
-### Receiving-scene visual constraints
+- baseline shows repeated dark slit/gap losses at tapered trunk/branch cap transitions;
+- exact Geometry reindex candidate changes `827` pixels in `ground_oblique` and `1,225` in `high_oblique` under backface culling;
+- candidate culling-back output is byte-identical to its culling-disabled control in both retained views;
+- Map PR #15 still uses the established Organic baseline and culling-disabled proof host.
 
-The next Environment / Materials A/B should preserve all current scene state and change only Building surface response. Directional acceptance requires:
+Therefore Art Direction retains the culling-disabled hierarchy observation but does **not** release normal-culling receiving adoption. The next world-art review requires the isolated Map A/B requested by Visual QA, changing only the rear-tree index lineage / intended culling state while preserving the accepted scene.
 
-- structural frame remains the first readable manufactured layer without becoming a bright outline halo;
-- infill/roof stay subordinate without collapsing the pavilion back into one near-black mass;
-- slab stays quiet and does not compete with the path;
-- ochre panels remain legible service accents but do not become stronger than the pavilion silhouette or central approach;
-- front/east panel brightness may differ naturally under one shared scene light; no per-view material/light cheating;
-- the existing triangular service-panel presentation caveat must not become more distracting, broken-looking or falsely arrow-like after material transfer;
-- if the caveat worsens, isolate material/light response before any geometry request.
-
-No `PASS_FINAL_BUILDING_LOOKDEV` is inferred until that exact receiving-scene evidence exists.
-
-## Why rear/right Nature is held rather than acted on
-
-Nature PR #8 now supplies `east-rear-tree-neutral-001`, which answers the previous source dependency. However, its current PASS is source-form/envelope evidence only. There is no exact fixed-camera Map proxy/source A/B yet.
-
-Art Direction therefore records the rear/right Nature proxy as the strongest remaining world-art blockout but does not judge the new tree from source-wire evidence, does not retune the accepted scene, and does not duplicate Environment's future integration lane.
-
-## Prior accepted direction retained
-
-The following prior exact Art Direction results remain valid in their original scopes and are not broadened here:
-
-- `PASS_ART_DIRECTION_SCENE_MOTION_HIERARCHY_001 / RELEASE_MOTION_ONLY_SCENE_HOLD` for the exact neutral/peak sapling scene proof;
-- `PASS_ART_DIRECTION_EAST_FOREGROUND_HIERARCHY_001 / RELEASE_EAST_FOREGROUND_PROXY_BLOCKOUT_HOLD` for the exact compact east-tree replacement.
-
-The immediately previous Art Director status remains preserved in Git history at blob `d08bb40d1cf8d4c59f4f86c86c4019fe15445176`.
+Cartography's current recommendation is compatible with that: the repeated winding repair belongs as an explicit Nature source-lineage migration candidate, not a hidden UC or Map fix. Art Direction does not perform that migration.
 
 ## Non-claims
 
 This activation does **not** establish:
 
-- final Building material or lighting acceptance;
-- acceptance of Building Materials PR #3 in Map;
-- final UVs, textures, decals, wear or weathering;
-- architectural/structural engineering or code compliance;
+- independent Visual Observer acceptance of the refined Building lookdev;
+- elimination of the triangular front-panel pattern;
+- final Building UVs, textures, decals, wear, grime or weathering;
+- final scene lighting or cinematography;
+- physically measured material correctness;
+- renderer equivalence beyond the retained Godot proof path;
+- target-device FPS, GPU time, memory, draw-call, shader, LOD or streaming budgets;
+- architecture/engineering/weather sealing/manufacturing correctness;
 - collision, navigation, traversal or gameplay;
-- target-device FPS, GPU time, memory, draw-call, LOD or streaming budgets;
-- acceptance of Nature PR #8 in the Map scene;
-- final Weather/VFX direction;
-- final Object replacement/lookdev;
-- Animal timing/personality or alternate weighting acceptance;
-- Character proportion/mass acceptance;
-- Wreckline held LOD acceptance;
-- a reusable UC world-art/material ontology;
-- CANON, production readiness, game readiness or mastery of Art Direction, Building, Environment, Materials or any other domain.
+- Nature source migration or normal-culling Map adoption;
+- final Weather/VFX, Object, Animal or Character direction;
+- final world art;
+- CANON, production readiness, game readiness or mastery of Art Direction, Materials, Building, Environment or any other domain.
 
-## Root gate
+## Four-root gate
 
-- **Truth:** the decision is bound to exact heads, exact retained artifact digests and directly inspected renders. Structural, QA and Runtime results are not relabelled Art Direction evidence, and this Art Direction PASS is not relabelled Materials/Runtime/gameplay acceptance.
-- **Agency / non-domination:** Building owns source geometry, Environment owns composition, Materials owns surface implementation, Visual Observer owns independent QA, Runtime owns cost. Art Direction supplies bounded direction only; the four roots remain the merge gate.
-- **Continuity:** accepted seed-29 state, prior Nature decisions, source identities and fixed cameras are preserved. The next requested delta is surface-only and the previous status remains traceable in Git history.
-- **Wisdom before speed:** close the evidenced Building hierarchy gate, then test the already-existing real material candidate in context before adding texture complexity, changing lighting, altering geometry or creating another style system.
+- **Truth:** the original over-strong service accent remains before-evidence. The current PASS is bound to exact source/receiving heads, artifact digests and directly inspected rendered comparisons. The rear-tree hierarchy PASS and culling FAIL remain separate rather than being averaged into a convenient story.
+- **Agency / non-domination:** Building owns source form; Materials owns surface implementation; Environment owns scene composition; Visual QA owns independent reproduction; Geometry/Nature/Technical Art own the topology migration path; Runtime owns cost. Art Direction makes only the bounded visual decision. The four roots remain the merge gate.
+- **Continuity:** accepted pavilion geometry, source identities, scene/cameras and previous Art Direction packets remain traceable. The service-accent repair occurred at the correct source-owned material profile rather than silently in Map.
+- **Wisdom before speed:** stop micro-tuning the scalar material once the evidenced focal-weight defect is resolved. Carry the remaining presentation caveat forward and wait for the correct QA/representation evidence instead of bundling materials, topology, lighting and world-art changes.
 
 ## Handoffs
 
-- **Environment / World Art:** preserve exact Map PR #11 pavilion replacement. Build one isolated receiving-scene material A/B using exact Building Materials PR #3; do not combine the rear-tree replacement or unrelated composition changes into that comparison.
-- **Materials / LookDev:** transfer exact five-surface candidate into exact PR #11 scene under unchanged lighting/cameras. Apply the visual constraints above, especially service-panel focal weight and the triangular presentation caveat.
-- **Visual Observer / QA:** the Building proxy/source hierarchy question now has independent QA + Art Director PASS. Do not reopen without changed evidence. Next Building QA should inspect the integrated material/light response.
-- **Building / Hard Surface:** no geometry repair requested. Preserve source and receiver identities while the receiving lookdev gate is tested.
-- **Nature / Organic / Environment:** the rear/right source candidate exists, but Art Direction waits for an exact Map A/B before judging it.
-- **Animation / Motion / Rigging:** Animal sampled playback and weighting remain strong later review surfaces; no acceptance transfers from this static Building decision.
-- **Runtime / Optimization:** no performance acceptance transfers. Measure the exact adopted pavilion/material receiving state separately if/when the material candidate survives visual review.
-- **Technical Art / UC / Capability Cartographer:** keep source-domain semantics local. This scene success does not justify centralizing Building/Map visual policy into UC.
+- **Materials / LookDev:** keep Building PR #3 refined values stable for this proof representation. No further scalar retune is requested unless independent QA or a materially richer representation exposes a new localized defect.
+- **Map Materials PR #14:** preserve the exact isolated receiving A/B and exact current head. Do not combine rear-tree, VFX or Runtime changes into this Building lookdev evidence.
+- **Visual Observer / QA:** independently review exact refined Map PR #14. Focus on the retained triangular front-panel presentation caveat, frame/infill separation and service-accent subordination. Do not inherit this Art Direction PASS automatically.
+- **Building / Hard Surface:** no geometry repair requested from current receiving lookdev evidence.
+- **Environment / Technical Art / Geometry / Nature:** continue the rear-tree normal-culling isolated receiving gate separately. Art Direction will review the real Map output, not the isolated derived candidate by proxy.
+- **Animation / Rigging / Organic:** Animal sampled playback and Character shoulder form remain strong next direct-review surfaces if no higher-level Map culling evidence is ready.
+- **Runtime / Optimization:** no performance acceptance transfers. Current Runtime results remain bounded to their exact ancestries.
+- **Capability Cartography / UC / Profession Fabric:** no visual/material ontology is promoted. Keep source semantics local and generic tooling generic.
 
 ## Next Art Director pass
 
-Prefer the strongest newly ready direct evidence rather than reopening cleared hierarchy questions. Current priority order:
+Prefer the strongest newly ready direct visual evidence without reopening this cleared scalar-PBR focal-weight question:
 
-1. exact Building Materials PR #3 **in Map PR #11 receiving lighting**, if Environment/Materials produces the isolated A/B;
-2. exact rear/right Nature PR #8 **in a preserved Map receiving A/B**, if Environment produces it first;
-3. Animal PR #5 exact Godot sampled playback for cadence, motion weight, silhouette usefulness and paw/limb oddities;
-4. Character PR #2 exact front/side/top body for proportion/mass-hierarchy review;
-5. Object Materials PR #6 if no higher-level receiving evidence is ready;
-6. Wreckline only after truthful provider/LOD closure yields a changed rendered candidate.
+1. isolated rear/right Nature **normal-culling Map A/B** if Environment/Technical Art produces the Visual-QA-requested gate;
+2. Animal PR #5 exact sampled playback for cadence, motion weight, silhouette and paw/limb oddities;
+3. Character PR #2 exact baseline versus derived shoulder-transition A/B for proportion/mass hierarchy;
+4. Object Materials PR #6 or Object Animation PR #10 if no higher-level receiving evidence is ready.
 
-Do not claim mastery or final world-art direction from this single pavilion success.
+Do not claim final Building lookdev, final world art or Art Direction mastery from this bounded success.
