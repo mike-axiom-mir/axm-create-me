@@ -1,27 +1,17 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-16
-State: **PASS_CONNECTED_FORELIMB_C0_POSITIONAL_INTERPOLATION / EXACT ANIMAL CLIP + SMOOTHSTEP CONNECTED DONOR PRESERVED / REAL GODOT 4.7.2 ALL-INTERVAL BETWEEN-SAMPLE PROBES / ZERO JOIN + READBACK DRIFT / C1 + WALL-CLOCK + CONTROLLER + GAMEPLAY HOLD**
+State: **PASS_CONNECTED_C1_DISCONTINUITY_DIAGNOSIS / EXISTING C0 MOTION UNCHANGED / ALL 40 CYCLIC AUTHORED BOUNDARIES MEASURED / VISUAL ACCEPTANCE + C1 CANDIDATE + WALL-CLOCK + CONTROLLER + GAMEPLAY HOLD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, the immediately previous Animation status, current specialist status, current open PRs and newest animation-ready work across the design constellation before changing product code.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, the previous Animation status, newest Visual QA / Art Director status and fresh open work across the design constellation before changing product code.
 
 `axm-create-me` remains **coordination only**. Product/evidence implementation stayed in `mike-axiom-mir/axm-animal-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous exact Animation result remains historical truth at head `cf87383bde4d84ea535c4aed8b6193652e1d57bc`: the exact connected left-forelimb authored samples were applied through two discrete cycles in Godot 4.7.2 with zero vertex readback drift. That result explicitly held between-sample interpolation. This activation advances only that held boundary; it does not relabel the earlier discrete proof.
+The previous exact result at Animation head `35b66e9bd1596e5e593b8fc5893b189184e5f0e1` remains historical truth: the exact connected Animal forelimb has a zero-residual piecewise-linear **C0 positional** interpolation contract and pinned Godot 4.7.2 can apply exact between-sample probes. That pass explicitly held C1 / derivative continuity and requested perceptual review before changing motion.
 
-## Fresh constellation / duplication scan
-
-- **Object:** lid/latch Animation already has mature source-authority, interpolation, Technical Art and Runtime evidence. Another Object interpolation proof would duplicate an established lane.
-- **Character:** Rigging PR #4 now has a connected bilateral shoulder deformation structural PASS, but Character Geometry PR #5 has since opened the exact sampled self-intersection boundary and Visual/Animation acceptance remains held. Animation does not race that active prerequisite lane or author a shoulder clip on top of unresolved geometry evidence.
-- **Animal Rigging:** PR #6 has the separate `ease-out-power-0p75-v1` connected-weighting structural PASS, but it still lacks explicit visual/adoption approval. Animation remains pinned to the accepted `smoothstep-v0` baseline and does not silently consume the candidate.
-- **Animal Geometry / Organic:** PR #7 ring-phase and PR #8 elbow-relief remain derived review candidates with their own visual/adoption gates. Neither is consumed here.
-- **Animal Technical Art:** PR #3 now transports the exact connected static geometry candidate through current UC GLB, but explicitly transports no skeleton, skin, weights or Animation clip. That is a separate future transport boundary, not a substitute for motion interpolation evidence.
-- **Nature / Weather / Map / Building:** newest work is Materials / VFX / Environment / Runtime / geometry integration, not an unowned Animation lane.
-- **Weapon / Armor / Unit / Misc:** no newer accepted animation-ready handoff displaced the already-proven Animal connected clip.
-
-The strongest non-duplicated Animation-owned gap therefore remained the one explicitly held by the previous status: **between-sample interpolation for the exact connected Animal motion, isolated from wall-clock pacing, runtime controller logic and gameplay**.
+No newer Visual QA or Art Director acceptance of this connected motion had arrived. Character remains behind its shoulder self-intersection / visual gate; Object Animation is already mature; Animal Rigging PR #6's alternate `ease-out-power-0p75-v1` weighting, Animal Geometry and Organic review candidates remain separate/unadopted. Therefore the strongest non-duplicated Animation-owned action was the held **timing/spacing and derivative-discontinuity diagnosis** of the exact current connected clip, without smoothing or retiming it first.
 
 ## Reused lane
 
@@ -33,15 +23,14 @@ Branch: `studio/animation-quadruped-articulation-loop-001`
 
 Exact current Animation head:
 
-**`35b66e9bd1596e5e593b8fc5893b189184e5f0e1`**
+**`b10ec5aeeb02b5df8d42e13df2772f4dcaae9a3a`**
 
-Observed PR state: **OPEN / DRAFT / MERGEABLE**. Repository metadata is evidence metadata only, not merge/CANON authority.
+Observed PR state after the change: **OPEN / DRAFT / MERGEABLE**. Repository metadata is evidence metadata only, not merge/CANON authority.
 
 ## Exact identities preserved
 
-Clip: `quadruped-articulation-loop-001`
+The diagnostic remains pinned to the exact accepted baseline used by the previous Animation proofs:
 
-- source: `quadruped-neutral-001`;
 - source digest: `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`;
 - rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
 - clip digest: `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
@@ -51,168 +40,130 @@ Clip: `quadruped-articulation-loop-001`
 - authored sample rate: `40 Hz`;
 - endpoint-inclusive authored samples: `41`;
 - authored interval count: `40`;
-- front-left elbow authored track: `0 -> +18° -> 0`.
+- front-left elbow peak: `+18°`;
+- exact connected Rigging donor: `f4614ab2f691cd5c5d12b88fabc38ef848acd24e`;
+- connected candidate digest: `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`;
+- connected topology: `42 vertices / 80 triangles`.
 
-Exact connected Rigging donor remains the accepted predecessor rather than PR #6's newer unaccepted weighting candidate:
+No source, rig, clip, amplitude, phase, timing, weighting, connected geometry, C0 interpolation method or target-host behavior was changed in this activation.
 
-- donor head: `f4614ab2f691cd5c5d12b88fabc38ef848acd24e`;
-- candidate: `front-left-connected-chain-001`;
-- candidate digest: `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`;
-- topology: `42 vertices / 80 triangles`.
+## Bounded improvement
 
-No source, rig, clip, timing, amplitude, phase, weighting, topology or camera identity changed in this activation.
+Added to the existing Animal Animation PR #5 lane:
 
-## Bounded interpolation method
+- `tools/build_connected_animation_derivative_diagnosis.py`;
+- `.github/workflows/animation-connected-derivative-diagnosis.yml`.
 
-Added to the existing Animation PR #5 lane:
+The observer rebuilds the exact retained 41-sample connected-motion prerequisite from the pinned Rigging donor, then measures the one-sided per-vertex velocities implied by the **already-proven piecewise-linear C0 interpolation** at every cyclic authored boundary.
 
-- `tools/build_connected_animation_interpolation_godot.py`;
-- `tools/godot_animation_interpolation/project.godot`;
-- `tools/godot_animation_interpolation/observe.gd`;
-- `.github/workflows/animation-connected-interpolation-evidence.yml`.
+For each of the 40 boundaries, including the loop seam, it retains:
 
-The builder consumes the exact retained 41-sample connected Animation evidence and defines the smallest explicit interpolation method:
+- incoming and outgoing interval identity;
+- maximum, mean and RMS per-vertex velocity jump;
+- number of vertices with non-zero derivative jump;
+- maximum incident per-vertex speed;
+- incoming/outgoing elbow angular velocity and its discontinuity.
 
-**piecewise-linear per-vertex interpolation with `C0_POSITION_ONLY` continuity**.
+This is intentionally a **diagnostic observer**, not a smoothing implementation. It records `motion_changed: false` and `smoothing_candidate_authored: false` and fails closed if source, rig, clip, weighting, donor, candidate, timing, sample count, sample order or loop closure drift.
 
-For every authored 25 ms interval it retains between-sample probes at:
+Two synthetic observer controls are retained so the measurement cannot pass only by construction:
 
-- alpha `0.25`;
-- alpha `0.50`;
-- alpha `0.75`.
+- constant-velocity three-point motion -> exactly `0.0 m/s` derivative jump;
+- equal-step 90-degree direction change -> `1.4142135623730951 m/s` derivative jump and explicit detection.
 
-With exact authored boundaries included, the proof payload contains `161` endpoint-inclusive probe surfaces. A display cycle contains `160` probes because the final exact endpoint is the same loop-neutral identity as the first.
-
-This is intentionally not presented as `160 Hz` authored animation. The extra surfaces are interpolation probes, not new authored keyframes and not a frame-rate claim.
-
-## Structural interpolation result
-
-Scoped payload result:
-
-**`PASS_CONNECTED_PIECEWISE_LINEAR_C0_INTERPOLATION_PAYLOAD`**
-
-Exact retained metrics:
-
-- maximum authored-boundary residual: **`0.0 m`**;
-- maximum piecewise-linear join residual across all internal authored boundaries and loop closure: **`0.0 m`**;
-- interior interpolation probes collapsing onto either authored endpoint: **`0`**;
-- maximum authored adjacent vertex step: **`0.012526116201638557 m`**;
-- maximum quarter-probe adjacent vertex step: **`0.0031315290504096392 m`**;
-- maximum probe/authored step ratio: **`0.25`** exactly.
-
-The exact loop therefore has a proven **C0 positional** interpolation contract: every interval's linear endpoint is the exact next authored sample, each next interval starts from that same exact sample, and the final interval returns exactly to the original neutral surface.
-
-This does **not** establish C1 velocity or acceleration continuity. Derivatives may change at authored boundaries even when positions join exactly.
-
-## Real target-host result
+## Exact result
 
 Dedicated workflow:
 
-**`35115592228 — Animation connected interpolation evidence` — SUCCESS**
+**`35122375154 — Animation connected derivative diagnosis evidence` — SUCCESS**
 
-Target host:
+Scoped gate:
 
-**Godot 4.7.2 GL Compatibility** under Xvfb.
+**`PASS_CONNECTED_C1_DISCONTINUITY_DIAGNOSIS_C0_INTERPOLANT_UNCHANGED`**
 
-Scoped target-host result:
+Exact findings from the unchanged connected clip:
 
-**`PASS_GODOT_CONNECTED_C0_INTERPOLATION_PROBE_HOST`**
+- cyclic authored boundaries diagnosed: **`40 / 40`**;
+- boundaries with a non-zero per-vertex velocity jump: **`40 / 40`**;
+- zero-jump boundaries: `0`;
+- maximum incident vertex speed: **`0.5010446480655423 m/s`**;
+- maximum vertex velocity jump: **`0.07886810999215366 m/s`**;
+- all-vertex/all-boundary mean velocity jump: **`0.020917394768221388 m/s`**;
+- all-vertex/all-boundary RMS velocity jump: **`0.03257092854453774 m/s`**;
+- worst boundary: authored sample **`20` at `0.5 s`**, the existing motion peak;
+- peak-boundary maximum vertex velocity jump: **`0.07886810999215366 m/s`**;
+- peak elbow angular-velocity jump: **`8.864394771520097 deg/s`**;
+- loop-seam maximum vertex velocity jump: **`0.0788681099010482 m/s`**;
+- loop-seam elbow angular-velocity jump: **`8.864394771519999 deg/s`**.
 
-Godot exercised the exact retained interpolation payload rather than only the authored endpoints:
+The important interpretation is precise: the prior **C0 positional PASS remains valid**, while the current piecewise-linear interpolation is **not C1 across the authored boundaries**. This does not by itself make the motion visually bad and does not select a repair method.
 
-- display-cycle probe count: `160`;
-- exact cycles exercised: `2`;
-- final exact endpoint applied once after both cycles;
-- total probe applications: **`321`**;
-- authored-boundary steps per cycle: `40`;
-- between-sample interior probe steps per cycle: **`120`**;
-- exact sequence ordering: **PASS**;
-- maximum Godot vertex readback error: **`0.0 m`**;
-- payload readback match: **true**;
-- Godot applied between-sample positions: **true**;
-- one `process_frame` yield per probe application: **true**, used only to let the proof host consume the mesh;
-- real wall-clock pacing claimed: **false**;
-- AnimationPlayer / skeleton interpolation claimed: **false**;
-- runtime controller claimed: **false**.
+## Same-head regression state
 
-All exact-head inherited workflow families also remained green:
+All queried PR-triggered workflow families on exact head `b10ec5aeeb02b5df8d42e13df2772f4dcaae9a3a` completed SUCCESS:
 
-- `35115592235 — Tests`: SUCCESS;
-- `35115592201 — Animation connected forelimb motion evidence`: SUCCESS;
-- `35115592180 — Animation connected Godot playback evidence`: SUCCESS;
-- `35115592323 — Animal Godot discrete playback evidence`: SUCCESS;
-- `35115592183 — Weighting refinement evidence`: SUCCESS.
+- `35122380102 — Animation connected derivative diagnosis evidence`;
+- `35122380071 — Animation connected forelimb motion evidence`;
+- `35122380091 — Animation connected interpolation evidence`;
+- `35122380068 — Animation connected Godot playback evidence`;
+- `35122380168 — Animal Godot discrete playback evidence`;
+- `35122380149 — Weighting refinement evidence`;
+- `35122380066 — Tests`.
 
-## Retained visual probes
-
-The Godot proof retains exact captures for:
-
-- neutral;
-- authored sample `19`;
-- the exact alpha `0.5` interpolation probe between authored samples `19` and `20`;
-- authored peak sample `20`;
-- the final interior alpha `0.75` probe before loop-neutral;
-- final neutral.
-
-Direct inspection confirms the midpoint surface sits between the two adjacent authored shapes rather than collapsing onto either endpoint. The retained image diagnostics record `5 / 120,000` sampled pixels changing from authored `19 -> midpoint 19.5` and another `5 / 120,000` from midpoint `19.5 -> authored peak 20` under the fixed proof camera. These tiny image deltas are only evidence that the retained interior surface is visually distinct in this exact render; they are **not** a motion-quality threshold.
-
-Neutral -> final neutral after the full two-cycle exercise changes exactly **`0 / 120,000`** sampled pixels, with maximum RGB delta `0.0`.
-
-Visual quality acceptance remains **`NOT_CLAIMED`**.
+The dedicated push run also preserved the repository test suite: **35 tests passed** on Python 3.11 before the derivative evidence was generated.
 
 ## Retained evidence
 
-Dedicated artifact:
+Dedicated artifact from run `35122375154`:
 
-- ID: **`10454317480`**;
-- name: `quadruped-connected-forelimb-c0-interpolation-35b66e9bd1596e5e593b8fc5893b189184e5f0e1`;
-- size: **`127,950 bytes`**;
-- GitHub SHA-256: **`6b009ebae6e0398b16647aea597afaa3fd07229fc2b8f93e58268f78e3525c0f`**;
-- exact receiving head: `35b66e9bd1596e5e593b8fc5893b189184e5f0e1`;
-- exact connected Rigging donor: `f4614ab2f691cd5c5d12b88fabc38ef848acd24e`.
+- ID: **`10457277791`**;
+- name: `quadruped-connected-derivative-diagnosis-b10ec5aeeb02b5df8d42e13df2772f4dcaae9a3a`;
+- size: **`32,148 bytes`**;
+- artifact ZIP SHA-256: **`a714b2fc94793559abb0a9e296b53846a4870125ef05163ff190bda80813c461`**;
+- diagnostic payload SHA-256: **`5a3b46910818c85cc06cae869f5ad660aaf51115ef89148137b798c76baf23d3`**;
+- retention includes exact diagnosis JSON, compact summary, SVG derivative plot and the exact connected prerequisite receipt/41-frame payload.
 
-The retained ZIP was downloaded after CI and independently rehashed to exactly the same SHA-256. Its interpolation summary and Godot receipt were parsed directly, and the retained images were inspected.
-
-PR #5 received evidence/handoff comment **`5700084476`**. Rigging PR #6 received explicit non-adoption/rebind guidance in comment **`5700086533`**.
+PR #5 received evidence / handoff comment **`5700969466`**.
 
 ## Truth boundary / explicit non-claims
 
 This activation establishes only:
 
-> the exact existing `smoothstep-v0` connected left-forelimb authored surfaces define a zero-residual C0 piecewise-linear per-vertex interpolation function across all 40 authored intervals including loop closure, and pinned Godot 4.7.2 can apply exact alpha `0.25 / 0.5 / 0.75` between-sample probes for every interval in deterministic two-cycle order with zero vertex readback error.
+> the exact existing `smoothstep-v0` connected Animal clip has been measured for one-sided per-vertex velocity continuity at every authored boundary of its already-proven piecewise-linear C0 interpolation, including the loop seam; all 40 boundaries contain a measurable C1 velocity discontinuity under that interpolation, while source, geometry, weighting, authored motion and C0 positions remain unchanged.
 
 It does **not** establish:
 
-- C1 velocity continuity, acceleration continuity, ease quality or derivative smoothness at authored boundaries;
-- real wall-clock `40 Hz`, `160 Hz` or display-frame pacing;
+- that any measured derivative jump is perceptually objectionable;
+- that a Hermite, spline, ease, retime, extra-key or other C1 repair should be adopted;
+- acceleration continuity, jerk quality or final spacing/ease quality;
+- continuous self-intersection freedom, volume preservation, skin sliding or muscle behavior;
+- real wall-clock pacing;
 - Godot `AnimationPlayer`, skeleton, skin, weight or exported animation-clip interpolation;
-- runtime controller or state-machine integration;
+- runtime-controller or state-machine integration;
 - input, physics, collision or gameplay acceptance;
-- continuous self-intersection/collision freedom between all possible interpolation parameters;
-- volume preservation, skin sliding, muscle behavior or final deformation quality;
+- biological gait, locomotion, balance, foot planting or root motion;
 - adoption of Rigging PR #6's `ease-out-power-0p75-v1` weighting candidate;
-- adoption of Animal Geometry PR #7 or Organic PR #8 review candidates;
-- Character shoulder Animation acceptance while Character Geometry PR #5 remains active;
-- final timing, spacing, weight, personality, acting, gait or locomotion quality;
+- adoption of Animal Geometry / Organic review candidates;
+- final timing, acting, weight or motion quality;
 - independent Visual QA / Art Direction acceptance;
 - target-device performance;
 - CANON, production/game readiness or Animation mastery.
 
 ## Handoffs
 
-- **Visual Observer / QA + 3D Art Director:** the exact connected baseline now has both discrete authored-sample Godot evidence and bounded C0 between-sample Godot evidence. Review timing/spacing, silhouette, pinching and weight before Animation changes the authored clip or smooths derivative behavior.
-- **Rigging / Deformation:** Animation still uses `smoothstep-v0`. PR #6's `ease-out-power-0p75-v1` remains separate until visual/adoption approval. If approved, rerun the same exact clip/interpolation proof with weighting as the only changed deformation variable.
-- **Character Geometry / Rigging:** Character's connected shoulder work remains separate; Animation should wait for the active self-intersection and visual acceptance gates before authoring a shoulder motion lane.
-- **Technical Art / UC Integration:** Animal Technical Art PR #3 proves connected **static** geometry to current UC GLB only. Skeleton/skin/clip transport remains a separate exact future proof. No Animal timing or interpolation semantics are promoted into UC from this one source.
-- **Runtime / gameplay:** deterministic Godot probe application is not wall-clock, controller, state-machine, collision or gameplay acceptance.
+- **Visual Observer / QA + 3D Art Director:** review the current exact connected playback first. The new derivative map identifies where mathematical velocity changes occur but intentionally does not convert them into a visual-quality verdict. Peak (`0.5 s`) and loop seam are the strongest exact review points.
+- **Animation:** do not automatically smooth or retime the clip next. If visual review identifies a visible timing/spacing defect attributable to the derivative joins, author the smallest single-variable C1 candidate and compare it against this exact baseline while preserving source/rig/weighting identity.
+- **Rigging / Deformation:** `smoothstep-v0` remains the accepted Animation baseline. `ease-out-power-0p75-v1` remains a separate unadopted deformation candidate.
+- **Runtime / gameplay:** the earlier deterministic Godot sample/probe application evidence remains valid, but none of this derivative diagnosis proves wall-clock scheduling, controller/state-machine behavior, physics/collision or gameplay.
+- **Technical Art / UC:** no Animal-specific derivative or smoothing semantics are promoted into UC from this one source.
 
 ## Four-root gate
 
-- **Truth:** C0 position continuity is named precisely and kept separate from C1/velocity, real-time, skeleton and controller claims. Exact source/rig/clip/weighting/candidate identities are pinned and preserved.
-- **Agency / non-domination:** Animation owns only the interpolation/motion proof. Rigging retains weighting/deformation authority, Geometry/Organic retain topology/form authority, QA/Art Direction retain perceptual acceptance, and Runtime/gameplay retain their own gates.
-- **Continuity:** the same PR #5, exact clip and accepted connected donor were advanced rather than replaced. The prior discrete Godot PASS remains valid and green on the new exact head.
-- **Wisdom before speed:** the previously held interpolation boundary was closed with the smallest explicit C0 method and real target-host evidence before retiming, inventing a gait, adopting an unreviewed weighting, smoothing derivatives, or centralizing an Animal-specific motion rule into UC.
+- **Truth:** the mathematical C1 gap is measured directly rather than inferred from C0 continuity or hidden behind a smoothing rewrite; visual quality remains an independent held claim.
+- **Agency / non-domination:** Animation does not consume unapproved Rigging/Geometry/Organic candidates and does not pre-empt QA / Art Direction by silently selecting a smoothing style.
+- **Continuity:** the same PR #5, exact clip, accepted connected donor and existing C0 method were advanced. All prior exact-head Animation workflows remained green on the successor head.
+- **Wisdom before speed:** diagnosis came before repair. The lane now knows exactly where derivative discontinuities exist without changing a motion whose perceptual direction has not yet been accepted.
 
 ## Next Animation pass
 
-Re-scan first. Do **not** automatically retime or add derivative smoothing now that C0 interpolation is green. Prefer an exact Visual Observer / Art Director handoff on this connected playback surface. If no perceptual/adoption decision arrives and no stronger animation-ready handoff appears, the next Animation-owned question is a bounded **timing/spacing and derivative-discontinuity diagnosis** of this exact clip, without changing the clip first. If `ease-out-power-0p75-v1` receives explicit adoption approval, comparative rebind/playback becomes higher priority because it changes deformation while preserving motion timing.
+Re-scan first. Prefer a Visual Observer / Art Director decision on this exact connected motion before authoring a C1 alternative. If no perceptual decision arrives and no stronger accepted animation-ready handoff appears, do **not** manufacture repeated derivative evidence; hold this lane or choose another genuinely unowned motion boundary. If review confirms a visible join/ease problem, the next Animation-owned experiment should change exactly one interpolation/timing variable and retain this exact C0/C1 baseline as the control.
