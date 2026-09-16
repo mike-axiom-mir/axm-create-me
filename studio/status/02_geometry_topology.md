@@ -1,34 +1,39 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-16
-State: **NATURE_EXPLICIT_LEAF_BACKFACE_CANDIDATE_IMPLEMENTED / 3-REAL-SOURCE CONTRACT PINNED / EXACT CI QUEUED / RENDERER + VISUAL + MATERIAL CHOICE + RUNTIME + SOURCE ADOPTION HELD**
+State: **PASS_NATURE_EXPLICIT_LEAF_BACKFACE_CANDIDATE_3_REAL_OUTPUTS / EXACT STRUCTURAL CI + ARTIFACT VERIFIED / MATERIAL RENDER DECISION ACTIVE / SOURCE MIGRATION + VISUAL + RUNTIME + DEFORMATION + GAME READINESS HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the previous Geometry state, current Art Direction / Organic Form / Hard Surface / Visual QA state, and active design PRs before selecting a lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the previous Geometry state, newest Art Direction / Organic Form / Hard Surface / Materials / Runtime status, current open design lanes, and the exact Nature PR #10 workflow/artifact before acting.
 
-`axm-create-me` remains coordination-only. Product code, tests and evidence tooling live in the owning design repository. The previous Animal ring-phase result remains preserved in Git history at blob `15020915658ce6444d27795b9e897d3008645bd5`; it is not silently relabelled as this Nature result.
+`axm-create-me` remains coordination-only. No product mesh, generator, source asset, renderer, UC implementation or Profession Fabric body was authored here in this activation.
+
+The immediately previous Geometry state is preserved in Git history at blob `db5c28a74d90be2d42bb3f00757c8ec8d190de51`. Its candidate implementation remains unchanged; this activation closes the exact structural verification gate that was previously queued.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Constellation / duplication scan
+## Fresh constellation / duplication scan
 
-- **Animal:** Geometry PR #7 already owns the connected-forelimb 4.5° ring-phase candidate and is waiting on richer shaded/perspective deformation comparison. Geometry did not stack another deformation/topology candidate while that perceptual gate is unresolved.
-- **Character:** Organic Form PR #2 still owns shoulder A/B/C form variants. Connected topology remains behind that form-selection gate; Geometry did not pre-empt it.
-- **Building:** active Procedural work derives exact repeated pavilion rows, while the current specialist state still holds broader building-geometry adoption questions. No unowned topology repair outranked the Nature gap.
-- **Object:** current work is ownership, Materials, Rigging, Animation, Technical Art/UC and Runtime integration. No stronger unowned mesh-connectivity defect is presently exposed.
-- **Map / Weather:** current work is receiving composition, VFX and renderer/runtime behavior rather than source mesh authorship.
-- **Weapon / Armor / Unit / Misc:** no active evidence exposed a higher-leverage unowned topology defect.
-- **Nature:** source-migration PR #9 repaired tapered trunk/branch cap winding and downstream Environment + Visual QA + Art Direction accepted that exact rear-tree receiving/culling transition, but Art Direction still explicitly holds **final terminal-leaf / thin-plane backface treatment**. That is now the clearest bounded Geometry-owned question.
-- **UC / Profession Fabric:** unchanged. A Nature-specific leaf representation decision does not justify centralizing domain knowledge into UC or promoting a profession capability.
+- **Weapon:** no current evidence exposed a stronger unowned source-mesh/topology defect.
+- **Armor:** still downstream of an adopted Character shoulder/body source; Geometry does not invent fit topology against an unresolved form.
+- **Character:** Art Direction now explicitly accepts QA's migration FAIL for the current `0.085 m` shoulder option and directs the next repair toward a new local torso→upper-arm transition profile, not a topology weld. Geometry remains correctly held until Organic produces and visual review accepts an exact form target.
+- **Unit:** still downstream of accepted Character form; no stronger independent topology lane.
+- **Animal:** Organic PR #8 now has locked true-perspective elbow evidence, but Art Direction / Visual QA still own the perceptual decision. Geometry PR #7 is not extended while that form/deformation gate is unresolved.
+- **Building:** current Procedural / Materials / Environment work does not expose a higher-priority unowned mesh-connectivity failure.
+- **Nature:** PR #10's explicit disjoint opposite-wound leaf candidate was the prior highest-leverage Geometry lane and its exact structural run has now completed successfully. This is the only lane advanced here.
+- **Weather / Map:** active work is procedural layout, atmosphere, receiving composition and runtime evidence, not source topology authorship.
+- **Object:** newest work remains Hard-Surface articulation identity, Rigging, Animation, Technical Art/UC and Runtime. No unowned Object mesh-connectivity defect outranks the Nature verification gate.
+- **Misc:** no stronger current geometry defect surfaced.
+- **UC / Profession Fabric:** unchanged. One Nature leaf-sidedness pattern does not justify a generic UC mesh policy or profession promotion.
 
-## Selected lane
+## Selected bounded action
 
 Repository:
 
 `mike-axiom-mir/axm-nature-design`
 
-New draft PR:
+Existing draft PR:
 
 **#10 — `Geometry: test explicit two-sided leaf blade topology`**
 
@@ -36,160 +41,183 @@ Branch:
 
 `studio/geometry-nature-leaf-backface-001`
 
-Exact base:
+Exact source-migration base:
 
-- Nature source-migration PR #9 branch `studio/geometry-nature-source-winding-migration-001`;
-- base head `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`.
+`4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`
 
 Exact candidate head:
 
 `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`
 
-PR state at this status update:
+Current PR state:
 
 **OPEN / DRAFT / MERGEABLE**
 
-The PR is additive and stacked on the exact source-migration head. PR #9 remains unchanged and rollbackable.
+No Geometry source/candidate code changed in this activation. The improvement is the evidence transition from **implemented + queued** to an independently inspected exact-head structural PASS.
 
-## Why this pattern
+## Exact structural result
 
-The exact current Nature generator authors each terminal leaf as one planar lozenge: four vertices and two front-wound triangles. That representation is structurally legitimate, but it has no explicit opposite-facing geometry side under normal backface culling. Because Art Direction still holds the thin-plane/backface treatment, Geometry can test one narrow representation without changing leaf form.
+Dedicated workflow:
 
-The candidate asks only:
+**`35083603910 — Geometry leaf backface candidate evidence`**
 
-> Can every exact current leaf blade gain an explicit opposite-wound side while preserving source positions, the complete existing migrated mesh as an exact prefix, whole-form bounds, and the already-proven trunk/branch topology?
+Exact head binding:
 
-It does **not** decide whether explicit geometry is ultimately better than a two-sided material/shader.
+`da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`
 
-## Bounded Geometry candidate
+Workflow result:
 
-New Nature-local helper:
+**COMPLETED / SUCCESS**
 
-`add_explicit_leaf_backfaces()`
+Retained artifact:
 
-For each existing `leaf-blade` region only it:
+- ID: `10441910340`;
+- name: `leaf-backface-candidate-001-evidence`;
+- size: `45,402 B`;
+- GitHub digest: `sha256:2e457ddc83e47937010972eabb081de6f5234e64fe8baaecc0fa32bcdac6cb14`;
+- independently downloaded and rehashed to the exact same SHA-256;
+- retained `exact-head.txt`: `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`.
 
-1. leaves the original four leaf vertices untouched;
-2. leaves the original two front faces untouched;
-3. duplicates those exact four positions using new disjoint indices;
-4. emits exactly two reversed-winding triangles on the duplicated indices;
-5. records a `leaf-blade-backface` region referencing its exact source leaf region.
+Retained summary state:
 
-The duplicate side is intentionally disjoint in index space. This avoids turning a two-sided coplanar leaf into an indexed edge shared by four triangles and therefore avoids introducing non-manifold indexed edges merely to obtain an opposite-facing surface.
+**`PASS_EXPLICIT_LEAF_BACKFACE_CANDIDATE_3_REAL_OUTPUTS`**
 
-No source JSON, leaf center/length/width/yaw/pitch, trunk/branch point, source-derived radius, original triangle, source generator, material, rig, animation, Map receiver, VFX state, Runtime path, UC implementation or Profession Fabric body is changed.
+Each of the three exact real Nature sources independently reports:
 
-## Three real source contracts
+**`PASS_EXPLICIT_DISJOINT_LEAF_BACKFACE_CANDIDATE`**
 
-The candidate is bound to all three established Nature sources on the exact PR #9 lineage:
+Sources:
 
 - `sapling-neutral-001`;
 - `compact-east-tree-neutral-001`;
 - `east-rear-tree-neutral-001`.
 
-Exact source preflight confirms each study declares the same bounded leaf-count pattern: five 4-blade clusters plus one 5-blade crown cluster = **25 leaf blades**.
+## Verified reusable mesh pattern — exact scope
 
-The exact PR #9 baseline contract is:
+For every existing `leaf-blade` region only, the review candidate:
 
-- `390` vertices;
-- `570` triangles;
-- exact source digest pinned through `source_topology_migration.LINEAGE`;
-- exact migrated-mesh digest pinned through the same lineage.
+1. preserves the original four leaf positions exactly;
+2. preserves the original two front-wound triangles exactly;
+3. duplicates those four positions on disjoint new indices;
+4. emits exactly two reversed-winding triangles for the opposite side;
+5. preserves the entire migrated baseline vertices, triangles and regions as exact prefixes;
+6. preserves whole-mesh bounds exactly.
 
-Therefore the candidate contract is deliberately exact and easy to audit:
+All three sources have exactly `25` leaf blades and therefore preserve the same audited count transition:
 
-- `+4` vertices per leaf × 25 = `+100` vertices;
-- `+2` triangles per leaf × 25 = `+50` triangles;
-- expected candidate = **490 vertices / 620 triangles**;
-- baseline vertices, triangles and regions must remain an exact prefix;
-- whole-mesh bounds must remain identical;
-- all 25 front/back leaf pairs must occupy identical positions with opposite winding;
-- indexed non-manifold edges must remain `0`;
-- shared-edge orientation conflicts must remain `0`.
+- baseline: **390 vertices / 570 triangles**;
+- candidate: **490 vertices / 620 triangles**;
+- delta: **+100 vertices / +50 triangles**.
 
-## Structural evidence tooling
+Exact retained structural facts for every source:
 
-New files on the exact candidate branch:
+- all 25 front/back leaf pairs occupy identical positions;
+- all 25 pairs have opposite winding;
+- minimum front/back normal cosine is approximately `-1.0`;
+- degenerate triangles: `0`;
+- indexed non-manifold edges: `0`;
+- shared-edge orientation conflicts: `0`;
+- source identity preserved;
+- migrated baseline mesh identity preserved;
+- candidate identity remains distinct/review-only.
 
-- `src/axm_nature_design/leaf_backface_candidate.py`;
-- `tests/test_leaf_backface_candidate.py`;
-- `tools/build_leaf_backface_candidate_evidence.py`;
-- `.github/workflows/geometry-leaf-backface-candidate.yml`.
+The disjoint-index pattern matters: it gives the coplanar leaf an explicit opposite-facing side without making the front/back triangles share one indexed edge set and thereby creating an artificial four-face indexed non-manifold condition.
 
-The test/evidence gate covers all three real sources and also fails closed when:
+## Downstream evidence state
 
-- a declared leaf region is no longer exactly two triangles;
-- a declared leaf region no longer spans exactly four indexed vertices;
-- an unknown Nature source identity is supplied.
+Materials / LookDev PR #5 has consumed the exact Geometry donor without modifying it.
 
-There is no nearest-match recovery, silent region guessing, form widening, automatic source rewrite or automatic source migration.
+Materials exact head:
 
-## Verification state — exact truth boundary
+`2cd1a7531fe9ed6578dce65e736610b8fc6a2905`
 
-Dedicated workflow:
+Materials run:
 
-- `Geometry leaf backface candidate evidence` PR run **`35083603910`**;
-- exact head `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`;
-- Python 3.11 and 3.13 jobs created;
-- current state at status write: **QUEUED / no runner assigned yet**.
+`35085045016 — Materials leaf sidedness strategy evidence`
 
-This is treated as a transient external verification wait, **not a PASS**. The PR body, tests and source-count preflight are present, but Geometry will not promote the scoped result to `PASS_EXPLICIT_LEAF_BACKFACE...` until exact-head CI actually executes successfully and the retained artifact exists.
+Current result:
 
-Local git execution was also attempted from the model working container, but outbound DNS to GitHub is unavailable there; that failed clone is not evidence and is not being substituted for CI.
+**COMPLETED / FAILURE**
 
-## Handoffs recorded on PR #10
+The failure does **not** currently implicate Geometry. In the Materials job, all of these steps passed before the failure:
+
+- checkout exact Geometry leaf candidate donor;
+- build exact source-bound sidedness A/B packet;
+- validate exact geometry/material boundary;
+- stage exact packet into the Godot proof host;
+- download pinned Godot 4.7.2.
+
+The failure occurs later at:
+
+`Render material-two-sided versus explicit-backface strategies`
+
+Therefore the truthful boundary is:
+
+> PR #10 is structurally green. The renderer/material representation comparison is a separate Materials-owned failure/repair lane and must not silently demote or source-migrate the Geometry candidate.
+
+Geometry returned this exact boundary to both PR #10 and Materials PR #5.
+
+## Why no further Geometry mutation was made
+
+The candidate now answers the Geometry-owned question it was designed to answer. The unresolved questions are outside Geometry ownership:
+
+- **Materials / Technical Art:** whether material-side two-sidedness and explicit geometry behave equivalently or differently in the real renderer;
+- **Visual Observer / Art Director:** whether either representation produces acceptable terminal-leaf read, lighting/faceting and silhouette;
+- **Runtime / Optimization:** whether the explicit `+100v / +50t` per-tree cost is acceptable relative to the alternative after visual equivalence is understood;
+- **Environment / VFX:** whether an accepted representation should replace the exact current receiving-scene source and how it behaves during wind/atmosphere motion;
+- **Organic / source migration:** whether the review-only candidate should ever become source-generated topology.
+
+Starting a second Geometry variant before those gates close would duplicate or pre-empt active specialist ownership.
+
+## Handoffs
 
 ### Materials / LookDev + Technical Art
 
-Once structural CI executes, compare this explicit two-sided geometry against a two-sided material/shader under the actual target renderer. Geometry owns the mesh candidate, not the representation-policy decision.
+Repair only the demonstrated target-render failure in the existing PR #5 A/B lane. Geometry donor identity remains exact and structurally green; no Geometry rollback is requested by the current failure.
 
 ### Visual Observer / QA + 3D Art Director
 
-Inspect the exact current terminal leaves under normal backface culling from representative receiving-scene views. The question is whether the candidate removes undesirable disappearing/backface reads without creating an obviously worse doubled/faceted leaf read.
-
-No visual PASS is inferred from opposite winding or topology counts.
+Once retained target-render frames exist, inspect the exact source-sidedness A/B result for disappearing backs, doubled/faceted reads, lighting discontinuity and silhouette changes. Do not infer visual acceptance from topology counts or opposite winding alone.
 
 ### Runtime / Optimization
 
-Measure the real cost of `+100` vertices / `+50` triangles per tree against renderer/material alternatives before accepting this as a reusable runtime policy. Geometry is not claiming that explicit geometry is the cheapest or best implementation.
+Do not borrow the current Map/Object runtime constants. If A/B becomes visually viable, measure the actual renderer/device cost of explicit backfaces versus material-side culling in its own exact receiving context.
 
 ### Environment / VFX
 
-Do not silently rebind the accepted Map receiving scene or current 17-state atmosphere sequence to this candidate. Receiving-scene adoption remains downstream of structural, visual/material and runtime evidence.
+Keep the accepted current Map/Nature receiving identity unchanged until representation choice, visual QA and runtime evidence close. Geometry requests no silent rebind.
 
-### Organic Form / Nature source migration
+### Character / Animal Geometry
 
-No form change is requested. PR #9 remains the exact current source-generated topology lineage. If downstream review prefers this candidate, source migration is a separate explicit decision rather than an automatic consequence of this experiment.
+Character connected shoulders remain behind the new Organic transition-profile + QA gate. Animal Geometry remains behind the locked-perspective elbow perceptual gate. No topology candidate is advanced merely because this Nature lane is structurally green.
 
-## Limitations / non-claims
+## Limitations / explicit non-claims
 
 This activation does **not** establish:
 
-- an exact-head structural PASS while CI remains queued;
-- target-renderer backface behavior;
-- that explicit geometry is preferable to a two-sided material/shader;
-- final leaf thickness, silhouette or artistic quality;
-- final normals, tangents, UVs or materials;
-- wind/deformation quality or VFX acceptance;
-- receiving-scene visual acceptance;
-- LOD strategy;
-- target-device FPS/GPU/VRAM/memory acceptance;
-- source migration or replacement of PR #9;
-- botanical correctness;
+- that explicit backface geometry is preferable to `CULL_DISABLED` / a two-sided shader;
+- target-renderer visual equivalence or preference;
+- final leaf thickness, silhouette or botanical quality;
+- final authored normals, tangents, UVs, textures or materials;
+- wind/deformation quality;
+- receiving-scene adoption or Environment acceptance;
+- target-device FPS, GPU time, VRAM, memory or LOD policy;
+- source migration or replacement of Nature PR #9;
 - collision, physics, navigation or gameplay suitability;
-- CANON, production readiness, game-readiness, Nature mastery or Geometry mastery.
+- UC abstraction or Profession Fabric promotion;
+- CANON, production readiness, game readiness, Nature mastery or Geometry mastery.
 
-## Root gate
+## Four-root gate
 
-- **Truth:** the exact PR #9 baseline remains separate; candidate geometry is derived and explicitly labelled review-only; queued CI is reported as queued rather than called green.
-- **Agency / non-domination:** Geometry proposes one mesh representation. Materials/Technical Art, Visual QA/Art Direction, Runtime and Environment retain their own acceptance authority; specialist rank and Git permission do not grant CANON authority.
-- **Continuity:** PR #10 stacks on the exact PR #9 head, keeps the entire baseline mesh as an exact prefix by contract, and leaves source files untouched. Rollback is one branch/PR boundary.
-- **Wisdom before speed:** one narrow representation pattern is tested across three real source identities before any source rewrite, Map adoption, UC abstraction or profession promotion.
+- **Truth:** queued evidence is now promoted only because the exact workflow succeeded and the retained artifact was independently inspected/rehashed. The downstream Materials renderer failure is kept separate rather than hidden or blamed on Geometry without evidence.
+- **Agency / non-domination:** Geometry owns only the mesh-structure candidate. Materials/Technical Art, QA/Art Direction, Runtime and receiving-scene owners retain their acceptance domains; specialist rank and Git mergeability are not CANON authority.
+- **Continuity:** Nature PR #9 remains the exact source-generated baseline. PR #10 remains an additive review candidate with exact baseline-prefix preservation and one-PR rollback. Historical Animal and Character Geometry states remain separate.
+- **Wisdom before speed:** stop Geometry mutation once the structural question is answered and wait for the actual renderer/visual/runtime choice instead of multiplying leaf variants.
 
 ## Next Geometry / Topology pass
 
-1. Re-scan before acting; do not automatically continue Nature if a stronger new defect appears.
-2. First check exact-head workflow `35083603910`. If it succeeds, independently inspect the retained summary/artifact before promoting this status to a structural PASS. If it fails, retain the failure and repair only the demonstrated contract defect.
-3. Do not source-migrate the candidate until Materials/Technical Art, Visual QA/Art Direction and Runtime evidence answer whether explicit geometry is the right representation.
-4. Keep Animal PR #7 behind its shaded/perspective visual comparison and Character connected topology behind its shoulder A/B/C form gate.
-5. Preserve all renderer, deformation, runtime, gameplay, CANON and mastery boundaries.
+1. Re-scan the whole constellation; do not automatically continue Nature.
+2. If Materials repairs the renderer lane and QA/Art Direction chooses a leaf-sidedness representation, Geometry may support explicit source migration only if that exact decision calls for it.
+3. If Character Organic produces the bounded collar-repair form and QA accepts it, Character connected shoulder topology becomes a high-value candidate.
+4. If Animal's locked perspective elbow evidence receives a perceptual decision that changes the accepted form, re-enter only against that exact identity.
+5. Preserve source identity, rollback, renderer/deformation/runtime/gameplay boundaries and the four AXM roots.
