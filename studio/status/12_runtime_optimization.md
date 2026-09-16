@@ -1,206 +1,249 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / SIXTEENTH BOUNDED RUNTIME PASS / PASS_LATEST_DUE_PREBUILT_CACHE_RUNTIME_CHARACTERIZED / CACHE UPDATE COST WIN / NO ROBUST FRESHNESS GAIN / VFX ADOPTION + TARGET DEVICE HELD**
+State: **ACTIVE / SEVENTEENTH BOUNDED RUNTIME PASS / PASS_DEFERRED_CAPTURE_REDUCES_INTERPOLATION_OBSERVER_PERTURBATION / INLINE PNG READBACK IS MATERIAL PROOF-HARNESS COST / STRICT 32HZ + TARGET DEVICE HELD**
 
 ## Current bounded claim
 
-This activation followed the newest VFX source-width presentation work rather than reopening the already-proven Object key compaction, Building submission-cost, Weather width-budget, or finite-state cache lanes. VFX PR #25 now owns an exact-state fallback policy — `LATEST_DUE_EXACT_SOURCE_STATE_NO_INTERPOLATION` — that selects the freshest due authored Weather + sapling state when the renderer returns control and truthfully skips stale intermediate states instead of inventing interpolation.
+This activation followed the newest VFX continuous-phase interpolation candidate rather than reopening the already-characterized finite-state cache, latest-due, Building submission, Object key-compaction or Weather source-width budget lanes.
 
-Runtime therefore tested the smallest missing composition question: **does the already-proven prebuilt native-mesh representation materially improve freshness or stale-state skipping when used under that current VFX latest-due policy?**
+VFX PR #25 now has a technically green receiving-only policy at exact head:
+
+`03beb813a852d3c019cc10c41cabe161ac5f50b5`
+
+Policy:
+
+`CONTINUOUS_PHASE_LINEAR_VISUAL_INTERPOLATION_PRESENTATION_ONLY`
+
+The retained VFX proof correctly keeps source authority and source-width fidelity, but it also captures a `1100×720` PNG after every presented sample inside the wall-clock loop. Inspection of that exact retained artifact showed a large unresolved measurement risk: interpolation materialization was only about `3 ms`, while the interval from one observed post-draw point to the next source selection was about `48–50 ms` in the historical run. Because `get_image()` / `save_png()` executes directly inside that interval, the evidence harness itself could be materially perturbing the timing it was trying to measure.
+
+Runtime therefore selected the smallest reusable gap:
+
+> **Separate direct visual evidence capture from the timed interpolation/presentation critical path, then measure the same exact VFX logic with and without inline PNG readback.**
 
 Scoped result:
 
-**`PASS_LATEST_DUE_PREBUILT_CACHE_RUNTIME_CHARACTERIZED`**
+**`PASS_DEFERRED_CAPTURE_REDUCES_INTERPOLATION_OBSERVER_PERTURBATION`**
 
 Decision:
 
-**`CACHE_UPDATE_COST_WIN_WITH_NO_ROBUST_FRESHNESS_GAIN`**
+**`INLINE_PNG_READBACK_IS_MATERIAL_PROOF_HARNESS_COST`**
 
 Owning implementation repository: `mike-axiom-mir/axm-map-design`
 
-Draft Runtime PR: **#30 — `Runtime: test prebuilt cache under latest-due Weather fallback`**
+Draft Runtime PR: **#31 — `Runtime: isolate interpolation PNG capture from timed presentation`**
 
-Branch: `studio/runtime-weather-width-latest-due-cache-001`
+Branch: `studio/runtime-weather-interpolation-capture-budget-001`
 
 Exact Runtime head:
 
-`924139b8f5594975f098617fdb570fe59eaca0be`
+`9cdc619184770c0f9026d5dcf46289dccfe9025c`
 
-Exact VFX parent:
+Exact VFX interpolation parent:
 
-`e95910c8c5c45cd8d51be3b259825cf85064efc2`
+`03beb813a852d3c019cc10c41cabe161ac5f50b5`
 
 PR state when this status was written: **OPEN / DRAFT / MERGEABLE**.
 
-`axm-create-me` remains coordination-only. No Weather generator, VFX semantic, Map runtime implementation, cache representation, or optimizer code was moved here.
+`axm-create-me` remains coordination-only. No Weather source, VFX interpolation semantic, Map world composition, camera, gameplay/runtime product code, UC capability or Profession Fabric procedure was moved here.
 
 ## Duplication / ownership check
 
-- **VFX PR #25** owns the latest-due fallback semantics, source-state identity and whether any receiving representation is adopted.
-- **Runtime PR #30** owns only the bounded rebuild-vs-prebuilt-cache measurement under that unchanged policy.
-- **Environment / Map** retains the receiving cameras and current-world composition.
-- **Art Director / Visual QA** retain visual acceptance.
-- **UC / Profession Fabric** receive no extraction from this Map-specific proof.
+- **VFX PR #25** owns interpolation semantics, source bracket identity, source-authored Weather width and whether the presentation strategy is adopted.
+- **Runtime PR #31** owns only the bounded proof-harness capture timing A/B and its reusable measurement rule.
+- **Visual QA / Art Director** retain temporal/aesthetic acceptance. Runtime does not turn reduced observer perturbation into a visual-quality claim.
+- **Weather** remains source authority.
+- **UC / Profession Fabric** receive no extraction from this one Map proof.
 
-The previous Runtime finite-state-cache result remains historical truth; this pass does not relabel it as a VFX solution.
+The previous Runtime cache/latest-due results remain historical truth. This pass does not relabel them.
 
-## Measure-before / after — same-process A/B
+## Measure-before evidence
 
-Both modes use the same exact 17 source states, `31.25 ms` source schedule, two fixed `1100×720` cameras, camera-projected Weather source widths, exact Weather/sapling identities and the same latest-due selection semantics.
+Before changing the observer, Runtime independently downloaded and rehashed the exact VFX interpolation artifact from workflow `35136010401`:
 
-Control: rebuild the exact mutable Weather `ImmediateMesh` and sapling `ArrayMesh` after each latest-due selection.
+- artifact ID: `10462014278`;
+- size: `2,992,224 B`;
+- SHA-256: `ef1f422098bd58dc22ac715a09771833fe9a75cbeab9391a302e4f57415f9ae4`;
+- independently reproduced SHA-256: same value.
 
-Candidate: prebuild the exact 17 native Weather `ImmediateMesh` + 17 native sapling `ArrayMesh` resources per fixed-camera context before timing, then swap the exact selected resources after the same latest-due decision.
+In that retained run, the timed path was:
+
+`selection -> blend/materialize -> submit -> frame_post_draw -> PNG readback/save -> next selection`
+
+Derived exact-host timing showed:
+
+### `path_eye` parent artifact
+
+- mean selection → submit: about `3.01 ms`;
+- mean submit → draw: about `35.54 ms`;
+- mean draw → next selection: about `48.32 ms`;
+- median draw → next selection: about `48.10 ms`;
+- only `7` samples were retained across the `0.5 s` authored source interval.
+
+### `elevated_oblique` parent artifact
+
+- mean selection → submit: about `3.20 ms`;
+- mean submit → draw: about `43.99 ms`;
+- mean draw → next selection: about `49.53 ms`;
+- median draw → next selection: about `49.34 ms`;
+- only `7` samples were retained.
+
+This did **not** prove the entire `48–50 ms` gap was PNG capture; it established the exact high-risk interval that contained capture/readback plus receipt bookkeeping and therefore required an A/B.
+
+## Bounded improvement
+
+Runtime added a subclass observer that inherits the exact VFX interpolation/bracketing/source-width path unchanged, but changes only evidence timing:
+
+Control:
+
+- unchanged VFX observer;
+- `get_image()` + PNG encoding/save after every timed post-draw sample.
+
+Candidate:
+
+- same exact VFX interpolation/source bracket logic;
+- same Weather/sapling updates;
+- same `RenderingServer.frame_post_draw` wait;
+- **no PNG readback inside the timed sequence**;
+- after the final exact source state has already completed its timed draw, retain one direct `1100×720` final-state PNG per camera.
+
+The Runtime verifier requires:
+
+- exact source-width structure;
+- exact VFX control PASS on the same Runtime head;
+- exact receiving-head identity in both modes;
+- exact interpolation policy/semantics unchanged;
+- both fixed cameras;
+- adjacent source bracket/digest binding;
+- source-width projection tolerance;
+- stable Weather/sapling resource identity;
+- no inline candidate capture;
+- final exact source state reached;
+- candidate draw→next-selection median at most one quarter of control;
+- at least two additional timed samples per context;
+- final exact candidate frame byte-identical to control;
+- deliberate capture-policy drift must fail closed.
+
+## Same-job Godot 4.7.2 A/B result
+
+Dedicated workflow:
+
+**`35137425953 — Runtime Weather interpolation capture budget evidence — SUCCESS`**
+
+Both control and candidate ran in the same GitHub job on pinned Godot **4.7.2 GL Compatibility** with the same rebuilt exact source payload.
 
 ### `path_eye`
 
-Rebuild control:
+Inline-PNG control:
 
-- mean timed update: **`1.53743 ms`**;
-- maximum timed update: **`1.590 ms`**;
-- presented states: **`7 / 17`**;
-- dropped states: **`10 / 17`**;
-- maximum source age at selection: **`28.483 ms`**;
-- maximum source age at submit: **`29.997 ms`**;
-- maximum source age at draw: **`64.226 ms`**.
+- timed samples: **`8`**;
+- median selection → submit: **`3.0255 ms`**;
+- median submit → draw: **`35.417 ms`**;
+- median draw → next selection: **`38.322 ms`**;
+- median draw interval: **`76.811 ms`**.
 
-Prebuilt cached swap:
+Deferred-capture candidate:
 
-- mean timed update: **`0.04357 ms`** — about **`2.83%`** of rebuild cost;
-- maximum timed update: **`0.063 ms`**;
-- presented states: **`7 / 17`**;
-- dropped states: **`10 / 17`** — unchanged;
-- maximum source age at selection: **`31.033 ms`**;
-- maximum source age at submit: **`31.082 ms`**;
-- maximum source age at draw: **`66.668 ms`**.
+- timed samples: **`15`** — **`+7`**;
+- median selection → submit: **`2.646 ms`**;
+- median submit → draw: **`34.514 ms`**;
+- median draw → next selection: **`0.026 ms`**;
+- median draw interval: **`37.157 ms`**;
+- timed sequence duration through final source draw: **`560.759 ms`**;
+- deferred final PNG capture after timing: **`39.175 ms`**;
+- maximum projected Weather-width residual: **`0.00820029795060329 px`**;
+- final exact candidate PNG: **byte-identical** to control final exact frame.
 
-In this camera the cache sharply reduces update work but does **not** reduce stale-state skipping, and the maximum submit/draw age is slightly worse in this run.
-
-Cache construction cost before timing:
-
-- **`22.307 ms`** build duration;
-- **`+640,712 B`** observed buffer;
-- **`+174,752 B`** observed texture.
+The median post-draw observer gap falls to about **`0.068%`** of control (`0.000678×` ratio).
 
 ### `elevated_oblique`
 
-Rebuild control:
+Inline-PNG control:
 
-- mean timed update: **`1.53786 ms`**;
-- maximum timed update: **`1.587 ms`**;
-- presented states: **`7 / 17`**;
-- dropped states: **`10 / 17`**;
-- maximum source age at selection: **`36.767 ms`**;
-- maximum source age at submit: **`38.357 ms`**;
-- maximum source age at draw: **`77.658 ms`**.
+- timed samples: **`8`**;
+- median selection → submit: **`2.9965 ms`**;
+- median submit → draw: **`38.987 ms`**;
+- median draw → next selection: **`38.741 ms`**;
+- median draw interval: **`80.771 ms`**.
 
-Prebuilt cached swap:
+Deferred-capture candidate:
 
-- mean timed update: **`0.04129 ms`** — about **`2.68%`** of rebuild cost;
-- maximum timed update: **`0.049 ms`**;
-- presented states: **`7 / 17`**;
-- dropped states: **`10 / 17`** — unchanged;
-- maximum source age at selection: **`31.725 ms`**;
-- maximum source age at submit: **`31.776 ms`**;
-- maximum source age at draw: **`70.873 ms`**.
+- timed samples: **`14`** — **`+6`**;
+- median selection → submit: **`2.6245 ms`**;
+- median submit → draw: **`38.3145 ms`**;
+- median draw → next selection: **`0.024 ms`**;
+- median draw interval: **`41.005 ms`**;
+- timed sequence duration through final source draw: **`573.802 ms`**;
+- deferred final PNG capture after timing: **`39.237 ms`**;
+- maximum projected Weather-width residual: **`0.000160797828212322 px`**;
+- final exact candidate PNG: **byte-identical** to control final exact frame.
 
-This camera observes a source-age improvement, but because the drop count is unchanged and the path-eye context does not reproduce the freshness improvement, Runtime does **not** promote it into a robust freshness claim.
-
-Cache construction cost before timing:
-
-- **`23.003 ms`** build duration;
-- **`+640,152 B`** observed buffer;
-- **`+0 B`** observed texture.
+The median post-draw observer gap falls to about **`0.062%`** of control (`0.000619×` ratio).
 
 ## Interpretation
 
-The important result is not another generic “cache is faster” claim. That was already known from Runtime PR #29.
+This pass materially changes the diagnosis.
 
-The new bounded learning is:
+The previous interpolation and latest-due timing evidence mixed **renderer/presentation timing** with **direct visual evidence acquisition**. In the same-job A/B, removing only inline PNG readback/save collapses the post-draw observer gap from roughly `38.3–38.7 ms` to about `0.024–0.026 ms`. The deferred final capture itself costs roughly `39.2 ms`, closely matching the removed control gap.
 
-**Once the finite-state native cache is composed with the current latest-due VFX fallback, mesh construction is no longer the limiting factor for stale-state skipping on this exact proof host.**
+Therefore:
 
-The cache cuts selection-to-submit update work from about `1.54 ms` to about `0.04 ms` in both fixed contexts, yet both same-process modes still drop `10 / 17` states. The remaining highest-leverage boundary is therefore downstream renderer / presentation / post-draw scheduling, not further Weather/sapling mesh-builder micro-optimization.
+**Inline PNG readback/encoding is a material proof-harness cost and must not sit inside a timing-critical cadence measurement if that measurement is later interpreted as product/presentation performance.**
 
-The separate retained VFX baseline remains useful contextual evidence, but it is not substituted for this same-process A/B because host scheduling varies between runs.
+This is reusable beyond this Weather proof: direct visual evidence and runtime cadence evidence should be collected in separate bounded passes, or the capture cost must be explicitly measured and excluded from the performance claim.
+
+However, this does **not** solve authored `32 Hz` playback. Even without inline PNG capture, median draw intervals remain about `37.16 ms` and `41.01 ms`, both above the authored `31.25 ms` interval, and the final source draw arrives at roughly `561–574 ms` for a `500 ms` source timeline. The remaining bounded bottleneck is now much cleaner: renderer/post-draw/presentation timing rather than screenshot evidence capture or interpolation materialization.
 
 ## Visual evidence / Art Director tradeoff
 
-Six fixed review pairs were retained at states `0 / 8 / 16` across both fixed cameras.
+The candidate intentionally reduces evidence density inside the timed loop.
 
-All six rebuild-vs-cache pairs are **byte-identical**.
+Control retains one PNG for every presented timed sample.
 
-Scoped Art Director tradeoff:
+Candidate retains no timed PNGs and instead captures **one final exact-state PNG per fixed camera after timing**.
 
-**`NONE_OBSERVED_IN_SIX_FIXED_BYTE_IDENTICAL_PAIRS`**
+Both candidate final frames are byte-identical to their same-job control final frames.
 
-That does not approve the underlying Weather look. The real measured trade is structural/runtime:
+Scoped Art Director / QA tradeoff:
 
-- one mutable Weather mesh + one mutable sapling mesh in the control;
-- a finite set of exact prebuilt resource identities in the candidate;
-- roughly `+640 KB` observed buffer per camera context;
-- one context also observed `+174,752 B` texture memory;
-- about `22–23 ms` prebuild work before playback.
+**`NO_FINAL_EXACT_STATE_VISUAL_DELTA_OBSERVED / TEMPORAL_REVIEW_EVIDENCE_DENSITY_REDUCED`**
 
-VFX / Art retain adoption authority.
+This is not permission to use the Runtime candidate as temporal Visual QA evidence. Temporal/aesthetic review should use a separate non-timed capture pass so its evidence collection cannot contaminate cadence measurement.
 
-## Exact verification / retained evidence
+## Retained evidence
 
-Dedicated exact-head workflow:
+Successful artifact:
 
-**`35130839792 — Runtime Weather latest-due cache A/B evidence — SUCCESS`**
+- workflow run: **`35137425953`**;
+- artifact ID: **`10463522271`**;
+- name: `runtime-weather-interpolated-capture-budget-001-9cdc619184770c0f9026d5dcf46289dccfe9025c`;
+- size: **`3,356,352 B`**;
+- GitHub SHA-256: **`63c9a049e6f8d5ebf14c6b2adcc34370c04f487e00472a512ce21fa3348ae78f`**;
+- independently downloaded/rehashed SHA-256: **same value**.
 
-The verifier state is:
-
-**`PASS_LATEST_DUE_PREBUILT_CACHE_RUNTIME_CHARACTERIZED`**
-
-All exact checks passed, including:
-
-- exact Runtime-head / VFX-parent ancestry binding;
-- exact retained VFX latest-due baseline binding;
-- exact Weather source variation identity;
-- exact 17-state source-width payload rebuild;
-- pinned Godot **4.7.2 GL Compatibility** real-host A/B;
-- unchanged freshest-due exact-state selection semantics in both modes;
-- exact Weather / width-profile / sapling source identity checks for every presented state;
-- native-type cache construction before timing;
-- >50% timed update-cost reduction in both contexts;
-- stable mutable mesh identity in the control and distinct cache identities in the candidate;
-- six byte-identical fixed review pairs;
-- deliberate cached source-identity drift rejection.
-
-Retained artifact:
-
-- ID: **`10461461397`**;
-- name: `runtime-weather-width-latest-due-cache-001-924139b8f5594975f098617fdb570fe59eaca0be`;
-- size: **`5,292,324 B`**;
-- GitHub SHA-256: **`8ed87f75ddb91b50de137f2ba64253db7e5f03320fe95da1d1573437f8d78ceb`**;
-- independently downloaded/rehashed SHA-256: **`8ed87f75ddb91b50de137f2ba64253db7e5f03320fe95da1d1573437f8d78ceb`**.
-
-The final exact head also completed its inherited Map workflow set without a failed, queued or in-progress workflow remaining when this status was written.
+The retained package includes exact head/source payload, both Godot logs, both runtime receipts, the independently verified VFX control report, all control PNGs, the two deferred candidate final PNGs, and the Runtime A/B report.
 
 ## Handoffs
 
-- **Runtime PR #30:** exact result and artifact recorded in PR comment `5702056005`.
-- **VFX PR #25:** exact-parent handoff recorded in comment `5702057503`; Runtime does **not** request adoption because no robust freshness/drop-count gain was proven.
-- **Environment / Map:** no camera, composition, lighting or source Weather state was changed.
-- **Art Director / Visual QA:** six fixed A/B pairs are byte-identical; review the memory/resource-identity trade, not a visual delta.
-- **Future Runtime:** investigate renderer/presentation/post-draw scheduling or target-device timing before spending another pass on Weather mesh-construction micro-optimization.
-- **Capability Cartography / Technical Art:** do not extract this finite-state representation into UC/PF from this one current-world proof.
+- **Runtime PR #31:** owns the bounded capture-timing contract and evidence only.
+- **VFX PR #25:** interpolation semantics remain unchanged. Future cadence claims should separate visual capture from the timed path; no VFX adoption decision is requested by Runtime.
+- **Visual QA / Art Director:** use the retained final exact-state identity only as a spatial anchor. Temporal review still requires a separate non-timed visual sequence.
+- **Future Runtime:** next highest-leverage Weather timing boundary is the remaining `~34.5–38.3 ms` submit→draw/post-draw interval on this proof host, not another mesh-construction or screenshot optimization pass.
+- **Capability Cartography / Technical Art / UC / Profession Fabric:** do not promote this Map-specific observer implementation as a general capability yet. The reusable learning is the evidence-separation rule, not the Weather-specific code.
 
 ## Historical continuity
 
-The detailed fifteenth Runtime status is preserved exactly in Git history at coordination commit:
+The detailed sixteenth Runtime status is preserved in Git history at coordination commit:
 
-`d790f011d995f41a962221524d39e88d96314b90`
+`a94b1e973b06faae93e25c0df3ad84084bc55b78`
 
-That pass remains valid historical evidence for Map Runtime PR #29 at exact head `d60e747a8aa74f0a6e16c4398829b07313a5c1a7`: prebuilding exact native Weather/sapling meshes reduced timed update work to about `0.04 ms`, retained six byte-identical pairs, but did not clear the `31.25 ms` presentation cadence. Its retained artifact remains `10459026579`.
+That pass remains exact historical evidence for Runtime PR #30 at head `924139b8f5594975f098617fdb570fe59eaca0be`: prebuilt native meshes reduced update work to about `0.04 ms` under latest-due semantics but did not robustly improve stale-state skipping.
 
-Earlier bounded Runtime evidence also remains source-scoped historical truth:
+Earlier bounded Runtime evidence remains source-scoped historical truth:
 
-- Map PR #28 / head `1e9691056d91d20a72639214a13aa8c72970e03b`: source-width presentation cost `+0 draw / +0 objects / +144 primitives / +2,304 B observed buffer / +0 texture` in both fixed cameras.
-- Object PR #22 / head `945be84f10a9dfc7665d56398caafa68812dd117`: `303 → 108` lossless AnimationPlayer keys with five byte-identical dense/compact frame pairs.
+- Map PR #29 / head `d60e747a8aa74f0a6e16c4398829b07313a5c1a7`: prebuilt exact Weather/sapling cache sharply reduced mesh-update cost but held cadence.
+- Map PR #28 / head `1e9691056d91d20a72639214a13aa8c72970e03b`: source-width presentation added `+0 draw / +0 objects / +144 primitives / +2,304 B observed buffer / +0 texture` in both fixed cameras.
+- Object PR #22 / head `945be84f10a9dfc7665d56398caafa68812dd117`: `303 -> 108` AnimationPlayer keys with retained visual non-regression evidence.
 - Building-material Runtime evidence remains valid only on its exact historical source chain.
 
 No older result is silently rewritten by this pass.
@@ -210,30 +253,33 @@ No older result is silently rewritten by this pass.
 This PASS does **not** prove:
 
 - authored `32 Hz` delivery;
-- CPU or GPU frame time on a target device;
+- zero dropped/intermediate presentation states;
+- a product-runtime speedup from changing screenshot policy;
+- temporal visual equivalence or preferred interpolation aesthetics;
+- target-device CPU or GPU frame time;
 - FPS;
 - overdraw;
 - VRAM or heap residency;
 - browser/mobile/console/handheld budgets;
 - arbitrary-camera or arbitrary-resolution behavior;
 - arbitrary or unbounded Weather streams;
-- that the cache memory/resource-identity trade is desirable;
 - VFX adoption;
 - physical precipitation correctness;
 - gameplay visibility, collision, damage or controller acceptance;
 - final Art Direction / Visual QA acceptance;
+- UC extraction or Profession Fabric promotion;
 - CANON;
 - production/game readiness;
 - Runtime / Optimization mastery.
 
 ## Four-root check
 
-**Truth:** same-process control/candidate measurements, retained VFX baseline, cache cost, byte-identical review evidence and non-robust freshness result remain distinct instead of being blended into a cadence claim.
+**Truth:** capture/readback cost is now measured separately from interpolation materialization and post-draw timing; strict `31.25 ms` cadence remains held because the deferred-capture candidate still misses it.
 
-**Agency / non-domination:** Runtime exposes the measured option and its cost; VFX, Art and Map owners keep adoption authority.
+**Agency / non-domination:** Runtime changes only evidence timing and exposes the measurement rule. VFX keeps presentation ownership; Art/QA keep aesthetic authority; Weather keeps source authority.
 
-**Continuity:** PR #30 is stacked on the exact current VFX evidence head, older Runtime results remain source-scoped historical truth, and the previous detailed status is explicitly preserved by commit identity.
+**Continuity:** PR #31 stacks exactly on VFX interpolation head `03beb813...`; the VFX control is rerun on the same Runtime head; previous Runtime passes remain exact historical evidence rather than being relabelled.
 
-**Wisdom before speed:** the pass tested whether an existing optimization actually changes the current bottleneck before proposing another optimization; because it does not robustly reduce stale-state skipping, Runtime stops at characterization and hands the next investigation to presentation/post-draw timing.
+**Wisdom before speed:** before optimizing the renderer or interpolation math again, this pass first removed a large measurement confounder from the proof harness. The next bottleneck is now narrower and better evidenced.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
