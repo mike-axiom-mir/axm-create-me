@@ -1,258 +1,167 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_EAST_FOREGROUND_SOURCE_REPLACEMENT_STRUCTURE / EXACT SOURCE-OWNED COMPACT TREE COMPOSED IN SEED-29 RECEIVING SCENE / PINNED-GODOT A/B RETAINED / ENVIRONMENT OBSERVATION SUPPORTS HIERARCHY IMPROVEMENT / ART DIRECTOR + VISUAL QA ACCEPTANCE HELD**
+State: **ACTIVE / PASS_BUILDING_SOURCE_REPLACEMENT_STRUCTURE / EXACT BUILDING SOURCE COMPOSED AFTER ACCEPTED EAST-TREE STATE / PINNED-GODOT A/B RETAINED / ART DIRECTION + VISUAL QA + BUILDING LOOKDEV + RUNTIME ACCEPTANCE HELD**
 
 ## Current activation
 
 Re-read the campaign and Environment standing role, then inspected current Map, Building, Nature, Object, Weather and specialist coordination state before selecting work.
 
-The previous Environment motion-only question is no longer the leading world-art gap: Visual Observer independently returned `PASS_SCENE_MOTION_VISUAL_RECHECK`, and Art Direction returned `PASS_ART_DIRECTION_SCENE_MOTION_HIERARCHY_001 / RELEASE_MOTION_ONLY_SCENE_HOLD` for the exact seed-29 neutral/peak sapling comparison. Both retained the same next scene-level problem: the large east-foreground Nature proxy in `elevated_oblique` still dominates the lower-right composition and masks deeper context.
+The previous east-foreground Nature question is no longer the leading actionable Environment lane. Visual Observer and Art Direction independently accepted the exact compact-tree replacement for its bounded hierarchy question. They also identify a separate rear/right Nature proxy as the strongest remaining visible Map blockout mass, but no source-owned replacement currently exists for that slot. Reopening the accepted east-tree lane or inventing receiver-side Nature geometry would therefore duplicate or outrun source ownership.
 
-Organic Form then supplied the missing truthful source dependency in `mike-axiom-mir/axm-nature-design#6`: `compact-east-tree-neutral-001`, exact head `64116d63fc76daa1623b5fd5046a4e6074100bda`. That source is independently authored rather than receiver-scaled, is 390 vertices / 570 triangles, and proves a source-declared `1.6 x 1.6 x 4.0 m` fit envelope under `PRESERVE_TARGET_CENTER_XY__GROUND_SOURCE_MIN_Z__NO_FORM_SCALE__NO_EXTRA_ROTATION`.
+Building changed materially since the previous Environment activation. `mike-axiom-mir/axm-building-design#2` now supplies source-owned `service-pavilion-001` plus `utility-access-panel-001`, deliberately authored against the existing Map `proxy:building-pavilion` slot. Exact Building source head: `4faa769b406bf3ad0ba9489a77141c27f122ce51`.
 
-That handoff outranked Object replacement. Object now has strong source-owned manufactured candidates and Materials evidence, but Art Direction had explicitly identified the east Nature proxy as the strongest remaining scene-level hierarchy weakness and Organic had produced a source body for exactly that target. Mixing Object replacement into the same scene delta would weaken attribution. Building still has no open source-owned candidate; Weather remains the existing exact visual field and is not retuned here.
+This made the Building proxy the highest-leverage actionable cross-repo integration gap: use the new Building source in the already accepted seed-29 Environment scene while preserving the existing real Nature and Weather evidence.
 
-`axm-create-me` remains coordination-only. All scene/product/evidence implementation stays in the existing `mike-axiom-mir/axm-map-design#4` Environment receiving lane.
+`axm-create-me` remains coordination-only. Product/source/evidence implementation is confined to `mike-axiom-mir/axm-map-design` and the Building source remains owned by `mike-axiom-mir/axm-building-design`.
 
 ## Selected bounded improvement
 
-Extended existing draft PR:
+Opened draft PR:
 
-**`mike-axiom-mir/axm-map-design#4 — Environment: integrate first source-owned nature + weather slice`**
+**`mike-axiom-mir/axm-map-design#11 — Environment: replace Map pavilion proxy with exact Building source`**
 
 Branch:
 
-`studio/environment-real-nature-weather-001`
+`studio/environment-building-source-replacement-001`
 
-Exact tested Environment head:
+Base:
 
-`cdac7d1316631b3b130d5e558de2aee462a21d40`
+- repo lane: `studio/environment-real-nature-weather-001`;
+- exact base SHA: `cdac7d1316631b3b130d5e558de2aee462a21d40`.
 
-PR state after this activation:
+Exact tested head:
+
+`c72838eb4b40ee7903a3c3e326a1bf77fa08bee5`
+
+PR state after checks:
 
 **OPEN / DRAFT / MERGEABLE**
 
-Added one isolated east-tree replacement comparison:
+No merge/CANON authority is inferred.
 
-- `examples/environment_east_tree_replacement_001.json`;
-- `tools/environment_east_tree_replacement.py`;
-- `tests/test_environment_east_tree_replacement.py`;
-- `docs/ENVIRONMENT_EAST_TREE_REPLACEMENT_001.md`;
-- `.github/workflows/environment-east-tree-replacement.yml`;
-- a backward-compatible extension of the existing `environment-proof/observe.gd` host so it can render optional additional exact source meshes while retaining the existing west sapling, Weather, proxies, path, cameras, lighting and proof materials.
+## Exact source and preserved world context
 
-No source Nature geometry, Weather semantics, seed-29 placement, fixed camera, path definition, Object source, Building proxy, Materials candidate, VFX profile, runtime budget, UC code or Profession Fabric structure was changed.
+The receiving lane rebuilds the accepted east-tree Environment state first, then consumes Building PR #2 at exact head `4faa769b406bf3ad0ba9489a77141c27f122ce51`.
 
-## Exact receiving contract
+Pinned Building source identity:
 
-New Environment-local contract:
+- pavilion: `service-pavilion-001`;
+- panel: `utility-access-panel-001`;
+- pavilion source SHA-256: `852038d2288ead9a0ee271e09f1a7f7207ec8fd74668e0c52e739e9a224f87d7`;
+- panel source SHA-256: `df59fa135abc89f8c85317db1d6b9ce3d03920efc91271de61bfb6289a24c253`;
+- exact generated proof mesh: 152 vertices / 228 triangles;
+- two source-owned utility-panel receiver fits remain required;
+- Building's own negative controls must remain rejected.
 
-`axm.environment-east-tree-replacement-evidence/v0.1`
+The Environment candidate removes only `proxy:building-pavilion` and adds one exact `source:building:service-pavilion-001` mesh reconstructed by running the Building source evaluator itself. Environment does not copy Building's domain geometry rules.
 
-Exact source dependency:
+Placement policy is:
 
-- repository: `mike-axiom-mir/axm-nature-design`;
-- PR: `#6 — Organic Form: add compact east-foreground tree source study`;
-- exact head: `64116d63fc76daa1623b5fd5046a4e6074100bda`;
-- study: `compact-east-tree-neutral-001`;
-- source digest: `9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`;
-- mesh digest: `c7367ed5dcea6ebe39869c48fd653845b25c9a8725a2e637a1d6f2fbee1fa32f`;
-- source mesh: `390` vertices / `570` triangles;
-- source size: `1.4644696992904107 x 1.0788037401570527 x 3.6856826895144033 m`;
-- source-declared fit envelope: `1.6 x 1.6 x 4.0 m`;
-- target: `proxy:nature-tree-east-b`;
-- placement: preserve target center XY, ground source min-Z, no source scale, no extra rotation.
+`PRESERVE_TARGET_CENTER_XY__GROUND_SOURCE_MIN_Z__NO_SOURCE_SCALE__NO_EXTRA_ROTATION`
 
-Preserved receiving context:
+The receiving evaluator verifies the Building source still agrees with the exact Map reserved slot at position `[0.0, 7.2, 1.8]`, size `[8.0, 2.4, 3.6]`, remains inside that reserved footprint/height, stays grounded to the same slot floor and preserves the Map readable-path minimum gap.
 
-- exact retained procedural seed: `29`;
-- west source-owned sapling remains exact and unchanged;
-- Weather PR #2 exact visual field remains exact and unchanged;
-- Weather remains `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`;
-- `path_eye` and `elevated_oblique` camera definitions remain byte-semantically unchanged;
-- readable path remains unchanged;
-- every unrelated scene item remains unchanged;
-- proof-only leaf culling and Weather presentation boundaries remain unchanged.
+The following accepted context is preserved exactly:
 
-## Important truth repair: source envelope vs procedural receiving envelope
+- retained procedural seed 29;
+- west source-owned Nature sapling;
+- accepted compact east source-owned Nature tree;
+- exact source-owned Weather field and presentation semantics;
+- both object proxies;
+- remaining Nature proxies;
+- readable path;
+- `path_eye` and `elevated_oblique` fixed cameras;
+- unrelated scene items.
 
-The first attempt exposed a useful provenance mismatch instead of being forced green.
+The evaluator also checks minimum spacing against proxy items plus both real Nature bodies, rather than validating Building in isolation.
 
-Nature PR #6 declares a strict `1.6 x 1.6 x 4.0 m` source fit envelope. The actual seed-29 receiving proxy is generated by Map Procedural Design and is larger because its retained variation owns bounded transform/scale variation. The exact seed-29 target is:
+## Materials boundary
 
-- position: `[6.892738, -3.284444, 2.399043] m`;
-- size: `[1.919234, 1.919234, 4.798085] m`;
-- retained proxy rotation: `-3.215325°`;
-- footprint: `[5.933121, 7.852355] x [-4.244061, -2.324827] m`.
+Building Materials PR #3 is deliberately **not consumed** in this Environment pass.
 
-The failed first evidence run incorrectly required this procedural target size to equal Nature's stricter source-declared envelope. That assumption was repaired rather than changing either source or scene. The final gate now requires:
+The candidate uses the existing neutral Environment source material in the observation host. This isolates the world-composition question from Building LookDev. Materials PR #3 remains separate source-domain evidence and can be integrated only after the structural/compositional candidate is visually accepted.
 
-1. Nature's declared envelope to match Nature's exact source handoff;
-2. the actual seed-29 target envelope to be no smaller than that declared envelope;
-3. the exact source mesh itself to fit the actual seed-29 target under the no-scale/no-extra-rotation policy.
+This avoids silently turning a geometry-composition PASS into a material/art-direction PASS.
 
-The seed target has additional room over the stricter Nature declaration of:
+## Exact evidence result
 
-- `+0.319234 m` X;
-- `+0.319234 m` Y;
-- `+0.798085 m` Z.
+Scoped structural result:
 
-The source itself retains positive margin even inside Nature's stricter declaration:
+**`PASS_BUILDING_SOURCE_REPLACEMENT_STRUCTURE`**
 
-- `0.13553030070958938 m` X;
-- `0.5211962598429474 m` Y;
-- `0.31431731048559675 m` Z.
+Dedicated exact-head workflow:
 
-This repair preserves ownership: Procedural Map owns the retained seed transform/scale; Nature owns source form and its own conservative receiving declaration; Environment only composes the exact two by contract.
+- push run `35064585946` — **SUCCESS**;
+- pull-request run `35064612189` — **SUCCESS**.
 
-## Exact structural result
+Inherited exact-head checks also remained green:
 
-**`PASS_EAST_FOREGROUND_SOURCE_REPLACEMENT_STRUCTURE`**
+- `35064612083 — Environment composition baseline` — **SUCCESS**;
+- `35064612027 — Procedural environment variation` — **SUCCESS**.
 
-At exact Map head `cdac7d1316631b3b130d5e558de2aee462a21d40` the receiving evidence proves:
+The dedicated workflow reruns the exact Nature base, compact Nature, Weather and Building source dependencies, compiles/tests the receiving code, rebuilds the accepted baseline and Building candidate, validates all structural checks, then renders both scenes through pinned Godot 4.7.2 GL Compatibility.
 
-- existing west-sapling + Weather source integration still passes first;
-- existing fixed-camera Environment payload still passes first;
-- exact seed remains `29`;
-- `proxy:nature-tree-east-b` exists exactly once and remains `PROXY_ONLY` in the baseline;
-- compact Nature source is revalidated at exact identity;
-- exact source/mesh digests and `390 / 570` counts match;
-- exact Nature handoff target and predecessor Environment head match;
-- no hidden source scaling or extra source rotation is used;
-- source is grounded at scene Z=0;
-- source world footprint and height fit the actual retained seed-29 target envelope;
-- central readable path remains structurally unblocked;
-- minimum spacing remains valid against all remaining solids **and** the already-integrated west source sapling;
-- west sapling, Weather, cameras, readable path and every unrelated scene item are preserved exactly;
-- exactly one new source mesh replaces only the east Nature proxy;
-- candidate scene identity changes as expected while preserved context stays fixed.
+Both retained target-host contexts pass for baseline and candidate. The candidate receipt sees the accepted compact east tree plus the new Building source mesh. The workflow requires the Building mesh to remain exactly 152 vertices / 228 triangles in each fixed context.
 
-Exact compact-tree world bounds in the receiving scene:
+The retained render relation proves the Building replacement reaches the target-host image: `path_eye` is required to be byte-different between baseline and candidate, and at least one fixed context must differ. This is visibility/attribution evidence only; no aesthetic preference is inferred from hash difference.
 
-- min: `[6.160503150354794, -3.8238458700785265, 0.0] m`;
-- max: `[7.624972849645205, -2.745042129921474, 3.6856826895144033] m`;
-- size: `[1.4644696992904116, 1.0788037401570527, 3.6856826895144033] m`;
-- spacing conflicts: none.
+Retained exact-head artifact from the successful push run:
 
-## Exact target-host evidence
+- artifact ID: `10433692869`;
+- name: `environment-building-source-replacement-001-c72838eb4b40ee7903a3c3e326a1bf77fa08bee5`;
+- size: `302,507` bytes;
+- GitHub artifact digest: `sha256:013daf43979e01ed0987cc9f34ee2fe1ce11db0ac93aa006b91391ac76ad4eb9`;
+- exact head binding: `c72838eb4b40ee7903a3c3e326a1bf77fa08bee5`.
 
-Dedicated workflow:
+The artifact retains baseline/candidate scene payloads, structural evidence, runtime receipts, render-hash relation and four fixed-camera PNGs.
 
-**`Environment east-tree replacement evidence` run `35060514160` — SUCCESS**
+## Why this was the correct Environment move
 
-Exact workflow head:
+The scene now exercises real source-owned assets from multiple departments in one bounded receiving context: west Nature, east Nature, Weather and Building, while Map still owns placement/composition and Object remains represented by preserved proxies.
 
-`cdac7d1316631b3b130d5e558de2aee462a21d40`
+This is more useful than creating another isolated Building turntable because it tests whether a newly available domain source can enter the already-evidenced world without erasing accepted cross-department context.
 
-All inherited PR #4 workflows are also green on this exact head:
-
-- `Environment composition baseline` run `35060514177` — SUCCESS;
-- `Procedural environment variation` run `35060514153` — SUCCESS;
-- `Environment real source slice` run `35060514210` — SUCCESS;
-- `Environment eye-level observation evidence` run `35060514193` — SUCCESS;
-- `Environment neutral-peak scene motion evidence` run `35060514169` — SUCCESS.
-
-Retained east-tree artifact:
-
-- artifact ID: **`10431229631`**;
-- name: `environment-east-tree-replacement-001-cdac7d1316631b3b130d5e558de2aee462a21d40`;
-- size: `221,815` bytes;
-- archive SHA-256: `808bdc076c0a804022d67fc802621926574383a1978617fe292e3a66aa494ef3`;
-- exact head binding: `cdac7d1316631b3b130d5e558de2aee462a21d40`.
-
-The artifact was downloaded and independently rehashed to the same SHA-256.
-
-Both baseline and candidate render successfully through the same pinned Godot `4.7.2-stable (official)` GL Compatibility host. The candidate receipt reports the additional exact compact Nature source as `390` vertices / `570` triangles in both observation contexts.
-
-Fixed-camera render identity is informative rather than forced:
-
-- `path_eye`: baseline and candidate are byte-identical at SHA-256 `09bc4a49b2af3084cfc8cb3cf3402a6bad9f2ed05a14f8e1bb80a2c53588d1e8` — this target does not create a visible delta in the fixed eye-level approach view;
-- `elevated_oblique`: baseline SHA-256 `fdc1d3630fbeae53eca3f9cd8dd740a52666a2dc7404bd5839a0cce1fa90c32d` changes to candidate SHA-256 `7bff9346486b513422fa060efe091ae7fead7e7d69114dbdf3092ce00d5445b9`, confirming the intended target replacement is visible in the camera where the hierarchy defect was originally observed.
-
-The first A/B validation attempt incorrectly required both camera pairs to differ. The retained renders showed the fixed `path_eye` view is truly byte-identical while `elevated_oblique` changes. The final evidence gate therefore preserves that direct observation: path-eye equality is evidence of no visible route-view regression from this off-axis target; elevated-oblique inequality proves the actual visual comparison exists where relevant. No camera was moved to manufacture a delta.
-
-## Direct Environment observation
-
-The exact retained baseline/candidate PNGs were directly inspected.
-
-### `path_eye`
-
-- The baseline and candidate are visually and byte-identically unchanged.
-- The central approach, building mass, flanking object proxies, Weather field and remaining right-side Nature mass retain the same read.
-- This camera therefore provides a strong no-regression check for the route view, not a visual assessment of the new compact tree itself.
-
-### `elevated_oblique`
-
-- The former large lower-right rectangular Nature proxy is replaced by a visibly narrower, open source-owned tree body with a clear lower trunk and porous branching silhouette.
-- The replacement removes a large opaque foreground block from the lower-right part of the frame.
-- More of the ground plane and a previously partly masked orange object proxy become visible behind/around that foreground slot.
-- The central path remains readable and the west source-owned sapling remains visually unchanged.
-- A separate right/rear Nature proxy still remains and continues to contribute a sizeable block mass; this pass does not pretend the whole scene is now final.
-- The visual delta is localized to the intended lower-right/east target region. Pixel localization finds `105,518 / 792,000` changed pixels (`13.323%`) inside bbox approximately `x=659..1075`, `y=303..719`.
-
-Environment specialist observation therefore supports:
-
-**`PASS_ENVIRONMENT_FOREGROUND_BLOCKOUT_REDUCTION_OBSERVED / HOLD_ART_DIRECTION_AND_VISUAL_QA_ACCEPTANCE`**
-
-The evidence directly supports that the exact source replacement reduces the specific opaque foreground blockout that motivated the pass while keeping the fixed path view unchanged. It does **not** transfer aesthetic authority from Environment to Art Direction or QA.
-
-## Failure / repair provenance
-
-Two failed attempts remain useful evidence:
-
-1. Run `35060233369` failed during source/candidate rebuild because Environment initially conflated Nature's strict `1.6 x 1.6 x 4.0 m` declared source envelope with the larger retained seed-29 procedural proxy. The contract was corrected; the source and scene were not changed.
-2. Run `35060376517` reached green structural evidence and successfully rendered both baseline/candidate states, then failed only because the validation script assumed every fixed camera must show a pixel delta. Its retained artifact showed `path_eye` is byte-identical while `elevated_oblique` contains the intended replacement. The gate was corrected to preserve observed camera relevance rather than moving a camera or forcing a visible change.
-
-No Nature geometry, scene placement, camera, Weather state, lighting or proof material was changed to obtain the final green run.
-
-## Constellation / overlap state
-
-- **Map:** PR #2 still owns the base composition/replacement-by-contract rule; PR #3 owns procedural seed variation; PR #4 remains the Environment receiving lane and now contains the exact east-tree A/B; PR #5 owns static runtime baseline; PR #7 owns sampled Weather receiving sequence; PR #8 owns same-process Weather resource-reuse evidence. This activation does not alter Runtime/VFX ownership.
-- **Nature:** PR #6 owns the compact source body and only claims source-envelope fit. Environment consumes its exact source and does not move its source logic into Map. Existing west sapling, VFX response, procedural family and Materials work remain separate.
-- **Weather:** PR #2 exact visual field stays unchanged; PR #3 owns seeded field variation. No new Weather seed, physical semantics or atmosphere direction is introduced.
-- **Object:** PR #5 now proves a bilateral service module and PR #6 has a bounded material A/B. Those are credible future scene dependencies, but no Object change is mixed into this Nature hierarchy comparison.
-- **Building:** no open source-owned Building PR exists; the building remains an explicit proxy. Environment does not manufacture architecture in Map.
-- **Weapon / Armor / Unit / Misc:** no current source candidate supersedes this exact Art Director / Organic handoff for the selected scene-level defect.
-
-## Truth boundary / non-claims
-
-This activation does **not** establish:
-
-- final Art Director acceptance of the compact tree in the scene;
-- independent Visual Observer acceptance;
-- botanical species correctness, growth logic or biological realism;
-- connected production vegetation topology or self-intersection freedom;
-- deformation, branch mechanics, rigging or physical wind response for the compact tree;
-- Nature Materials / final LookDev, leaf thickness/translucency or final lighting;
-- target-device runtime cost, draw-call/memory/FPS budgets or LOD policy for the extra real source body;
-- collision, navigation, traversal or gameplay suitability;
-- final Building or Object source integration;
-- that every remaining Nature proxy should be replaced by this compact family;
-- a universal Environment scene format, UC vegetation abstraction or Profession Fabric promotion;
-- CANON, production readiness or Environment / World Art mastery.
-
-This is one exact proxy-to-source replacement in one retained seed scene, with one relevant oblique visual question and one unchanged eye-level route check.
-
-## Root gate
-
-- **Truth:** exact source/head/digests, actual procedural receiving dimensions, fixed camera behavior, failed assumptions, final workflow/artifact identity and direct visual observations are all retained. A stricter source envelope is not relabelled as the actual procedural proxy, and a byte-identical camera is not forced to differ.
-- **Agency / non-domination:** Nature owns source form; Procedural Map owns seed variation; Environment owns receiving composition; Weather owns atmosphere semantics; Materials owns lookdev; Runtime owns performance; Art Direction and Visual Observer own visual acceptance. No CI or specialist PASS becomes CANON authority.
-- **Continuity:** the existing PR #4 lane, seed 29, west sapling, Weather, path, cameras, proof host and earlier motion evidence remain intact. The new comparison is additive and rollback-local.
-- **Wisdom before speed:** the exact previously identified foreground defect was isolated and tested before mixing Object replacement, Materials, new Weather, Building invention or generic world-kit abstraction.
+It also avoids the currently blocked rear/right Nature improvement: that visual gap remains real, but Environment should not fabricate the missing Nature source merely to remove a proxy.
 
 ## Handoffs
 
-- **3D Art Director:** review the exact retained baseline/candidate `elevated_oblique` A/B. Environment observes materially reduced lower-right foreground blockout and newly exposed scene context, while `path_eye` is byte-identical. Decide whether the compact source preserves useful Nature hierarchy/silhouette strongly enough to release the replacement visually.
-- **Visual Observer / QA:** independently inspect the same exact artifact for silhouette, occlusion, ground contact, unintended overlap and hierarchy regression. Treat `path_eye` equality as a no-visible-delta check, not a missing render.
-- **Organic Form / Nature:** preserve exact `compact-east-tree-neutral-001` identity pending receiving-scene review. Do not reshape or proceduralize it merely because Environment structural/render gates are green.
-- **Runtime / Optimization:** this adds one real 390-vertex/570-triangle source mesh where a proxy box existed, but no runtime-budget claim is made. Measure this exact accepted receiving state only if visual acceptance makes the source replacement worth retaining.
-- **Materials / LookDev:** do not attach Nature Materials automatically. First settle source-form/composition acceptance; a later shaded A/B should remain a distinct gate.
-- **VFX / Rigging / Animation:** the compact tree's declared flex zones remain untested. Do not inherit the west sapling's accepted motion response onto this different body.
-- **Object / Hard Surface:** Object remains a credible later proxy replacement, but keep it separate from this Nature result so any scene change remains attributable.
-- **Building:** a source-owned architecture candidate remains an explicit missing dependency; keep the current building labelled proxy rather than solving architecture inside Map.
-- **Capability Cartographer / UC:** record the useful receiving pattern only as evidence discipline: exact source-owned body -> exact source-local validation -> unchanged receiving composition except target -> target-host A/B -> independent visual acceptance. One second tree is not enough reason to centralize Nature semantics or create a generic UC environment importer.
+**Art Director / Visual Observer**
 
-## Next Environment pass
+Inspect the exact PR #11 baseline/candidate fixed-camera A/B and decide whether the source pavilion improves or harms world hierarchy, silhouette, path framing and scene readability. The current PASS is structural/target-host only.
 
-First consume Art Director / Visual Observer review of exact artifact `10431229631`. If they accept the compact-tree replacement, preserve that exact state and let Runtime decide whether measuring the real second-source scene is worthwhile. If they find a precise visual defect, repair only that defect through the owning source/receiving lane. If the replacement is accepted with no Environment repair, the next Environment integration should be selected from the strongest newly grounded scene dependency — likely a separate exact Object proxy replacement or a future real Building source — without mixing unrelated visual variables.
+**Materials / LookDev**
+
+If the Building composition is accepted, evaluate whether Building PR #3 surface-family evidence should be carried into this exact receiving scene. Do not assume standalone Building lookdev transfers automatically under Environment lighting/context.
+
+**Runtime / Optimization**
+
+If this source replacement is visually accepted, measure its exact proof-host/runtime delta separately. This pass makes no draw-call, primitive, memory, FPS, LOD or streaming claim.
+
+**Building / Hard-Surface**
+
+Retain source ownership of pavilion geometry, panel receiver frames and fit rules. Environment consumes exact evidence; it does not centralize those semantics.
+
+**Nature**
+
+The rear/right proxy remains the strongest separately identified Nature blockout mass. A source-owned candidate for that exact slot would unlock the next direct Environment replacement lane.
+
+## Non-claims
+
+This activation does **not** establish:
+
+- final Art Direction or Visual Observer acceptance of the pavilion in the world;
+- Building Materials PR #3 integration or final surfaces;
+- architectural engineering, building-code compliance, structural loads or weather sealing;
+- collision, navigation, traversal or gameplay;
+- target-device FPS/GPU time, draw-call/memory budgets, LOD or streaming policy;
+- final Nature replacement for the rear/right proxy;
+- final lighting or atmosphere;
+- Universal Creation extraction;
+- CANON, production readiness, or Environment/World Art mastery.
+
+## Coordination boundary
+
+`axm-create-me` contains only this coordination/status update. The actual Environment integration stays in `axm-map-design#11`; Building source semantics stay in `axm-building-design#2`; Materials evidence stays in `axm-building-design#3`.
+
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
