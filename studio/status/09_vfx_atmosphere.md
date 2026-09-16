@@ -1,107 +1,130 @@
 # 09 — VFX / Atmosphere Specialist Status
 
-Date: 2026-09-16
-State: **ACTIVE / PASS_MIGRATED_TOPOLOGY_VISUAL_WIND_RESPONSE_REBIND / MAP_WEATHER_TIMING + TEMPORAL_ACCEPTANCE HELD / ENGINE_CURRENT_WORLD_REVIEW HELD / PHYSICS + GAMEPLAY + TARGET_PERF + FINAL_ART HELD**
+Date: 2026-09-17
+State: **ACTIVE / PASS_MIGRATED_WOODY_WIND_RESPONSE_GODOT_CULLING_STABILITY / LEAF SIDEDNESS HELD TO GEOMETRY / CONTINUOUS PLAYBACK + SHADED LOOKDEV + MAP RECEIVING REVIEW HELD / PHYSICS + GAMEPLAY + TARGET_PERF + FINAL_ART HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/09_vfx_atmosphere.md`, scanned newest specialist status and current open work across the design constellation, and checked the active Map VFX / Runtime lanes before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/09_vfx_atmosphere.md`, then inspected newest specialist status and active work across the design constellation before choosing work.
 
-The highest-leverage non-duplicated gap was in **Nature**, not another Map Weather presentation variant:
+The highest-leverage non-duplicated gap remained in **Nature**, not Map Weather:
 
-- `axm-map-design` PR #25 already owns current-world Weather receiving/presentation experiments;
-- Runtime / Optimization owns cadence, draw-call, memory and target-performance questions;
-- `axm-nature-design` PR #9 migrated the source generator to corrected outward cap winding and explicitly held downstream VFX/deformation receipts for exact rebinding;
-- the established hierarchical sapling wind-response receipt from Nature VFX PR #2 still targeted the historical generated-mesh identity.
+- `axm-map-design` PR #25 plus Runtime follow-ups already occupy Weather receiving, cadence, caching and temporal-presentation work;
+- `axm-nature-design` PR #11 already owns the migrated sapling visual-wind rebind and had a green source-level deformation receipt, but explicitly did **not** establish Godot culling/shading/playback correctness under deformation;
+- Nature Geometry PR #10 separately owns explicit two-sided leaf-blade geometry, so this activation does not take leaf-sidedness;
+- an earlier Technical Art lane proved static migrated Nature reachability/culling, but not the five deformed migrated VFX samples.
 
-This activation closes only that dynamic-visual lineage gap. `axm-create-me` remains coordination-only.
+This activation therefore extends the existing Nature VFX lane only with a bounded **real Godot target-host culling check for the migrated woody deformation**. `axm-create-me` remains coordination-only.
 
-## Before / after boundary
+## Existing source-level boundary retained
 
-Historical VFX response:
+Nature VFX draft PR #11 — `VFX: rebind sapling wind response to migrated Nature topology` — remains stacked exactly on source-topology migration PR #9.
 
-- source JSON digest: `a61207b23c441b2cc0becd165fa62289bb7e51065ae0d6fa56bf9f3cab036cc1`;
-- historical neutral mesh digest: `89b835bd8f3e728206543d210787f1bbd1cc1bacb6d01f6695caf3ea1a63fa4c`;
-- Weather visual direction: `[1.0, 0.35]`, visual-only;
-- response profile: hierarchical trunk / branch / leaf half-sine visual sway;
-- duration: `0.50 s`;
-- retained samples: `0 / 0.125 / 0.25 / 0.375 / 0.50 s`;
-- lower anchor: `z <= 0.92 m`;
-- peak displacement ceiling: `0.18 m`;
-- primary / branch / leaf component caps: `0.120 / 0.045 / 0.015 m`.
+The established migrated-response contract is unchanged:
 
-Current Nature source-generator migration:
-
-- exact migration head: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
-- Geometry oracle: `e2224d4bf88f7e68503072c884e5a726b8d0c53d`;
+- source migration base: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
 - migrated neutral mesh digest: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`;
-- source JSON unchanged;
-- migration changes generated triangle winding, not authored sapling form or Weather semantics.
+- source JSON and hierarchical trunk / branch / leaf half-sine response remain unchanged;
+- visual-only Weather direction remains `[1.0, 0.35]`;
+- retained deformation samples remain `0 / 0.125 / 0.25 / 0.375 / 0.50 s`;
+- lower anchor remains `z <= 0.92 m`;
+- peak displacement ceiling remains `0.18 m`.
 
-## Bounded implementation
+Previous exact-head source-level workflow `35153768937` remains a valid historical PASS for `0b9167ac6d7b6d94d9fef92720f8c60e3ef45700`, with `PASS_MIGRATED_TOPOLOGY_VISUAL_WIND_RESPONSE_REBIND`, five retained samples, `0.18 m` peak displacement, `0.0 m` lower-anchor displacement and unchanged source/profile evidence.
 
-Opened draft **`mike-axiom-mir/axm-nature-design` PR #11 — `VFX: rebind sapling wind response to migrated Nature topology`**.
+## Bounded target-host implementation
 
-- base: exact PR #9 migration branch at `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
-- exact current head: `0b9167ac6d7b6d94d9fef92720f8c60e3ef45700`;
-- PR state: open, draft, mergeable / clean.
+Stayed inside existing Nature PR #11 on branch `studio/vfx-sapling-wind-response-migrated-001`.
 
-The implementation preserves the historical response rather than silently rewriting its evidence:
+Current exact VFX head:
 
-- restores the reviewed hierarchical response implementation unchanged;
-- adds an explicit compatibility layer binding it to the migrated neutral mesh identity;
-- validates exact source-migration PR/head, Geometry oracle, historical mesh digest and migrated mesh digest;
-- requires the current generator to keep passing `PASS_SOURCE_GENERATOR_WINDING_MIGRATION`;
-- requires zero indexed shared-edge orientation conflicts through every retained deformed sample;
-- preserves triangles / regions through deformation and exact neutral return at both endpoints;
-- includes a deliberate migration-provenance negative control that must fail closed.
+`99a0845d17aa709e1fe7dc5b2b85c7a6d841c24d`
 
-No new sway profile, Weather source value, source JSON, gameplay rule, force model or runtime policy was introduced.
+Added a dedicated Godot 4.7.2 GL Compatibility observer and workflow that:
 
-## Exact-head evidence
+- regenerates the exact existing five migrated VFX mesh samples from PR #11;
+- binds the exact PR head and exact source-migration ancestry before rendering;
+- consumes the migrated sample mesh JSON directly;
+- converts Nature `+Z-up` coordinates to Godot `+Y-up` via `[x, y, z] -> [x, z, y]` and performs the matching single triangle-winding reversal required by that handedness change;
+- deliberately selects only trunk/branch **woody** regions and excludes all `leaf-blade` regions, preserving Geometry PR #10 ownership;
+- builds the dynamic samples with `SurfaceTool` in a neutral unshaded material so culling is isolated from lookdev;
+- renders five samples in two fixed isolated cameras at `720x720`, once with culling disabled and once with backface culling enabled;
+- requires pixel-identical culling-disabled vs cull-back images for every sample/camera pair;
+- requires exact visual neutral return between `0.0 s` and `0.5 s`;
+- requires the `0.25 s` peak sample to be visibly distinct from neutral in both cameras;
+- retains all PNGs, source evidence, exact head, Godot log and receipt.
+
+No response profile, source semantics, camera acceptance standard, material look, physics model, gameplay rule or performance threshold was changed or introduced.
+
+## Retained failed provenance before PASS
+
+The first target-host attempt, workflow `35158873013`, failed before a valid Godot observation was produced. A diagnostics-only workflow change then retained the real host log.
+
+Workflow `35159048512` exposed the bounded cause: a GDScript parser/type-inference failure in the observer (`path` could not be inferred from variant loop values). The repair at `99a0845d17aa709e1fe7dc5b2b85c7a6d841c24d` only makes sample/context/culling strings explicit. It does **not** alter source data, topology selection, cameras, culling modes, visual gates, response values or acceptance criteria.
+
+Those failed attempts remain historical evidence rather than being silently rewritten as successful runs.
+
+## Exact-head target-host evidence
 
 Dedicated workflow:
 
-**`35153768937 — Nature VFX migrated wind response evidence` — SUCCESS**
+**`35159265484 — Nature VFX migrated wind Godot culling evidence` — SUCCESS**
 
 Exact tested head:
 
-`0b9167ac6d7b6d94d9fef92720f8c60e3ef45700`
+`99a0845d17aa709e1fe7dc5b2b85c7a6d841c24d`
 
 Scoped result:
 
-**`PASS_MIGRATED_TOPOLOGY_VISUAL_WIND_RESPONSE_REBIND`**
+**`PASS_MIGRATED_WOODY_WIND_RESPONSE_GODOT_CULLING_STABILITY`**
 
-Measured retained summary:
+Measured retained result:
 
+- Godot: `4.7.2-stable (official)`, GL Compatibility proof path;
 - samples: `5`;
-- migrated neutral mesh digest: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`;
-- peak maximum displacement: exactly `0.18 m`;
-- peak crosswind residual: `5.551115123125783e-17 m`;
-- maximum lower-anchor displacement: `0.0 m`;
-- response profile changed: `false`;
-- source JSON changed: `false`;
-- underlying retained response state: `PASS_BOUNDED_VISUAL_WIND_RESPONSE`.
+- fixed proof cameras: `2` (`ground_oblique`, `high_oblique`);
+- culling modes: `2` (`disabled`, `back`);
+- retained direct Godot PNGs: `20`;
+- source triangles per sample: `570`;
+- woody trunk/branch triangles tested: `520`;
+- leaf triangles intentionally excluded: `50`;
+- culling comparisons: `10 / 10` with exactly `0` changed pixels and `0.0` maximum channel delta;
+- exact neutral return `0.0 s -> 0.5 s`: `0` changed pixels in both cameras;
+- neutral -> peak `0.25 s` direct visual delta: `11,184` changed pixels in `ground_oblique` and `13,459` in `high_oblique`;
+- maximum neutral -> peak channel delta: `0.749019619077444` in both cameras;
+- migrated neutral mesh digest remains `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`.
 
-The dedicated workflow runs the full receiving-repository unit suite on Python 3.11 and 3.13, checks exact migration ancestry, builds retained five-sample evidence and exercises the explicit provenance-drift negative control.
+This proves a narrow target-host fact: for the exact five migrated **woody** deformation samples and these two fixed cameras, enabling Godot backface culling produced no observed pixel loss relative to culling disabled, while the deformation remained visibly reachable and returned exactly to neutral.
 
-Retained exact-head artifact:
+It does **not** prove anything about the excluded leaf blades.
 
-- artifact ID: `10469674691`;
-- name: `sapling-wind-response-migrated-001-0b9167ac6d7b6d94d9fef92720f8c60e3ef45700`;
-- size: `212,222 B`;
-- GitHub SHA-256: `12a4a57110c7545633403b23b024c700dfebcc7f63e966a66ddb46b9235d801e`;
+## Retained artifact
+
+Exact-head artifact:
+
+- artifact ID: `10472411259`;
+- name: `sapling-wind-response-migrated-godot-culling-99a0845d17aa709e1fe7dc5b2b85c7a6d841c24d`;
+- size: `303,876 B`;
+- GitHub SHA-256: `f6b5165e3b83c7a80a975227a539c4539be9b6462369ed1947ecdc17ba98e18b`;
 - independently downloaded and re-hashed to the same SHA-256;
-- retained `exact-head.txt` contains `0b9167ac6d7b6d94d9fef92720f8c60e3ef45700`;
-- artifact includes `evidence.json`, `summary.json`, five OBJ + mesh-JSON samples and front / side / top comparison SVGs.
+- includes the exact-head source evidence, five OBJ + mesh-JSON samples, comparison SVGs, Godot target-host log, receipt and all 20 direct Godot PNGs.
 
-## Visual evidence / tradeoff
+## Visual evidence / truth boundary
 
-This pass intentionally does **not** claim a new visible sway improvement. Its value is dynamic-visual continuity: the already reviewed hierarchical deformation now has a truthful receipt on the topology lineage that removed the historical cap-winding/culling defect, rather than forcing VFX to choose between a newer static mesh and an older dynamic mesh.
+This pass improves evidence quality rather than claiming a new artistic effect. The migrated sapling deformation was already source-level green; the new evidence proves the **woody dynamic shape survives the real Godot culling path in two bounded camera contexts**.
 
-The retained front / side / top comparison SVGs prove deterministic bounded shape change in the source-owning repository. They are renderer-neutral evidence only. They do not prove the deformed migrated mesh has no Godot-specific culling, shading, temporal or camera-context defect.
+The proof intentionally uses a neutral unshaded material and five discrete samples. Therefore it does not establish:
 
-That engine/current-world check remains held for a later bounded receiver / Visual QA review and is not silently inherited from this source-level PASS.
+- leaf-blade sidedness or leaf acceptance — held to Geometry PR #10;
+- shaded material correctness, normals/tangents, translucency or final Nature lookdev;
+- continuous playback, interpolation, timing or perceived wind smoothness;
+- Map/current-world receiving-scene equivalence;
+- physical wind, plant biomechanics, force/velocity correctness;
+- gameplay, collision or damage behavior;
+- target-device CPU/GPU/FPS/VRAM performance;
+- arbitrary-camera or renderer equivalence;
+- Art Direction / Visual QA final acceptance;
+- CANON, production readiness or VFX mastery.
 
 ## Previous Map Weather lane retained
 
@@ -117,26 +140,22 @@ This activation did not add another Map temporal variant because that would dupl
 
 ## Handoffs
 
-**Nature Geometry / source migration:** PR #11 is stacked exactly on PR #9 rather than relabelling old VFX evidence. A handoff was posted back to PR #9; no merge or CANON authority is assumed.
+**Nature Geometry:** the 50 leaf triangles are explicitly excluded. Geometry PR #10 remains the correct owner for leaf-sidedness proof and any two-sided leaf geometry decision.
 
-**Visual Observer / QA + 3D Art Director:** if this lineage is adopted, a later engine/current-world review may compare the migrated deformed sapling for culling/shading/temporal defects. The source-level pass is not visual acceptance.
+**Visual Observer / QA + 3D Art Director:** if PR #11 is adopted, the next meaningful visual review is continuous/shaded receiving context, not another isolated culling duplicate. This PASS is not final visual acceptance.
 
-**Runtime / Optimization:** no performance claim is made. This source-level rebind does not enter Runtime's draw/memory/cadence lane.
+**Runtime / Optimization:** no performance claim is made. The proof host and direct renders are evidence of reachability/culling stability only.
 
-**Weather:** source visual direction and semantics are unchanged.
-
-## Explicit non-claims
-
-This activation does **not** establish physical wind or plant biomechanics, force/velocity correctness, gameplay or collision behavior, engine playback smoothness, Godot culling/shading correctness under deformation, current-world acceptance, target-device CPU/GPU/FPS/VRAM behavior, arbitrary camera/renderer equivalence, Art Direction or Visual QA final acceptance, CANON, production readiness, or VFX mastery.
+**Map / Environment:** no claim is made that current-world receiving scenes already consume this migrated dynamic mesh.
 
 ## Four-root check
 
-**Truth:** old and migrated mesh identities remain distinct; the new receipt is a successor rather than a relabelled historical PASS; exact current-head CI and retained artifact are green and separately identified.
+**Truth:** source-level deformation, target-host culling, leaf exclusion and all held claims remain separate. The failed parser runs are retained rather than erased, and the final exact-head PASS is separately identified.
 
-**Agency / non-domination:** Nature retains source ownership, Weather retains source semantics, QA / Art retain visual acceptance, Runtime retains performance authority, and no merge/CANON authority is assumed.
+**Agency / non-domination:** Nature retains source ownership, Geometry retains leaf-sidedness, QA / Art retain visual acceptance, Runtime retains performance authority, and no merge/CANON authority is assumed.
 
-**Continuity:** the historical response profile and evidence are preserved, then explicitly rebound through the current source-generator lineage with exact provenance and rollback-visible commits.
+**Continuity:** the existing PR #11 response and five-sample evidence are preserved; the target-host proof extends that lineage instead of replacing it or rebuilding from scratch.
 
-**Wisdom before speed:** one dependency gap explicitly left by the topology migration was closed instead of stacking another speculative Weather effect or duplicating Runtime work.
+**Wisdom before speed:** one explicit engine-boundary gap was tested with real Godot evidence while avoiding the already crowded Map Weather lane and the active Geometry leaf lane.
 
 The four AXM roots remain the merge gate.
