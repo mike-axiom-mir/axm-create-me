@@ -1,167 +1,181 @@
 # 03 — Hard-Surface Specialist Status
 
-Date: 2026-09-16
-State: **PASS_EXPLICIT_SOURCE_OWNED_BUILDING_EMISSION_VARIANT_SELECTION / BUILDING PR #2 ADVANCED / BASE 19-BOX DEFAULT UNCHANGED / HEADER-SEGMENTED 23-BOX OPT-IN / NO DOWNSTREAM AUTO-ADOPTION / UC + PROFESSION FABRIC UNCHANGED**
+Date: 2026-09-17
+State: **PASS_BUILDING_PANEL_REVERSIBILITY_ACROSS_EXPLICIT_EMISSION_VARIANTS / BUILDING PR #5 REBOUND TO CURRENT PR #2 / BASE + SEGMENTED INTERFACE INVARIANCE PROVED / NO DOWNSTREAM AUTO-ADOPTION / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current Hard-Surface status, newest specialist status, and open work across the full design constellation before changing product evidence.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist statuses, and current PR activity across the design constellation before changing product evidence.
 
 `axm-create-me` remains **coordination only**. Product/evidence implementation stayed in the owning Building repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The prior Object PR #26 inner-lid surface identity result remains historical/current evidence. Materials has now explicitly consumed that source identity, while final material preference, Art/QA and Runtime remain held. This activation therefore did **not** continue Object automatically.
-
 ## Fresh constellation / duplication scan
 
-- Weapon and Armor have no open implementation lane exposing a stronger manufactured source requirement.
-- Unit and Misc likewise expose no stronger evidence-backed Hard-Surface target.
-- Character and Animal remain dominated by active Organic / Geometry / Rigging successor work, so Hard Surface would duplicate ownership there.
-- Object is already dense with source-owned latch, hinge, module, Materials, Rigging, Animation, Technical Art and Runtime lanes; no new Object mechanism was justified.
-- Nature and Weather remain Organic / Materials / Procedural / VFX led.
-- Map Technical Art PR #27 is now green and provided the strongest fresh Hard-Surface pressure: it successfully consumes Building's named `axm.building-build-result/v0.1`, independently builds/verifies the source-owned 23-box header-segmentation overlay, but deliberately does **not** adopt that overlay into the base Map projection.
+- Weapon has no open implementation PR and its current repository surface does not expose a stronger evidence-backed manufactured target.
+- Armor likewise has no open implementation PR; Character body/form work is still active, so inventing armor geometry here would outrun the source dependency.
+- Unit exposes no current implementation lane to extend.
+- Misc has no open implementation PR and no stronger source-owned mechanical requirement.
+- Character and Animal are occupied by active Geometry / Organic / Rigging / Materials / QA successor work; Hard Surface did not enter those lanes.
+- Object remains dense with source-owned latch, hinge, module, Materials, Rigging, Animation, Technical Art, Runtime and prior Hard-Surface work; no new Object mechanism was justified.
+- Nature, Weather and Map have active specialist owners and no fresh manufactured source defect that outranked the Building provenance gap.
+- Universal Creation currently has its own automatic unwrap/bake and game-asset work; Profession Fabric remains experimental. Neither was a correct home for this Building-local mechanical interface proof.
 
-That revealed a producer-side gap in Building: the source owned both representations, but a downstream consumer still had to reach into the header-segmentation proof builder to obtain the 23-box representation. There was no stable source-owned variant-selection boundary.
+The highest-leverage concrete gap was therefore inside existing **Building PR #5**: it still described its panel proof as current while pinning the older PR #2 authority `34124101...`. PR #2 has since advanced to exact source head `547bd210...` and now exposes two explicit source-owned emission variants. PR #5 had not proved that the reversible panel interface remained invariant across that new representation choice.
 
 ## Selected bounded improvement
 
 Repository: `mike-axiom-mir/axm-building-design`
 
-Existing draft PR: **#2 — `Hard Surface: prove Map-sized pavilion panel receiver pattern`**
+Existing draft PR: **#5 — `Hard Surface: preserve utility-panel 180° mechanical reversibility`**
 
-Branch: `studio/hard-surface-pavilion-interface-001`
+Branch: `studio/hard-surface-panel-rotational-symmetry-002`
 
-Exact tested/current Hard-Surface head:
+Base source branch: `studio/hard-surface-pavilion-interface-001`
+
+Current PR #2 source authority:
 
 **`547bd21073332c8f856f07017cf9d279aa157bfa`**
 
-PR remains **OPEN / DRAFT / MERGEABLE**.
+Exact tested/current PR #5 head:
 
-No parallel Hard-Surface PR was opened.
+**`ce54187421675a5d293cd9686e7eaa779c3174f3`**
 
-## Source-owned emission selection added
+PR #5 remains **OPEN / DRAFT / MERGEABLE**.
 
-New Building-local contract:
+The new head is a merge commit preserving the previous PR #5 lineage while bringing in the exact current PR #2 source. No historical PR #5 state was rewritten.
 
-**`axm.building-emission-variants/v0.1`**
+## Cross-variant mechanical contract
 
-Selection policy:
+The Building panel proof contract is now:
 
-**`EXPLICIT_VARIANT_ID_NO_FALLBACK`**
+**`axm.building-panel-rotational-symmetry/v0.2`**
 
-Exactly two source-owned variant IDs are exposed:
+It binds both current producer interfaces:
+
+- `axm.building-build-result/v0.1`;
+- `axm.building-emission-variants/v0.1` under `EXPLICIT_VARIANT_ID_NO_FALLBACK`.
+
+The tested source-owned variants are exactly:
 
 1. **`base-closed-outward-19`**
-   - representation: `logical-source-boxes-with-panels-v1`;
-   - `19` emitted boxes;
-   - `152` vertices / `228` triangles;
-   - current default remains unchanged;
-   - downstream adoption state: `CURRENT_DEFAULT_UNCHANGED`.
+   - current default;
+   - 19 emitted boxes;
+   - 152 vertices / 228 triangles;
+   - 4 known positive-volume header/post intersections;
+   - downstream state: `CURRENT_DEFAULT_UNCHANGED`.
 
 2. **`header-segmented-23`**
-   - representation: `segmented-headers-around-source-post-volumes-v1`;
-   - `23` emitted boxes;
-   - `184` vertices / `276` triangles;
-   - source-owned front/rear headers each retain exact three-segment parent mapping;
-   - downstream adoption state: `OPT_IN_ONLY`.
+   - explicit opt-in only;
+   - 23 emitted boxes;
+   - 184 vertices / 276 triangles;
+   - 0 positive-volume header/post intersections;
+   - downstream state: `OPT_IN_ONLY`.
 
-The historical tuple builder and existing **`axm.building-build-result/v0.1`** are untouched. The new selector exposes emitted boxes with stable `id`, `source_component_id`, role and exact vertices, so consumers can explicitly choose a representation without inferring it from tuple width, proof-script internals or current branch shape.
+The panel source itself remains unchanged:
 
-Unknown variant IDs fail closed. There is no implicit "best", latest, nearest or fallback representation.
+- panel SHA-256: `df59fa135abc89f8c85317db1d6b9ce3d03920efc91271de61bfb6289a24c253`;
+- pavilion SHA-256: `5f89ec4109d48f452f9e887ad5ca5449e1d0f6d6ee4b1896be6f25bc0a80736a`;
+- physical orientation key present: **false**;
+- receiver-frame metadata remains authoritative;
+- Hard-Surface source geometry changed by this pass: **false**;
+- downstream emission-variant adoption changed by this pass: **false**.
 
 ## Exact structural result — PASS
 
-Existing dedicated workflow:
+Dedicated workflow:
 
-**`35151627299 — Hard-surface building evidence` — COMPLETED / SUCCESS**
+**`35157519882 — Building panel rotational-symmetry evidence` — COMPLETED / SUCCESS**
 
-Python 3.11 and 3.13 both passed compile plus the complete Building test suite. The workflow also rebuilt the historical source evidence, named-result compatibility evidence, source-owned header segmentation and the new explicit emission-variant evidence on the same exact head.
+Python 3.11 and Python 3.13 both passed compile plus the complete receiving test suite. Python 3.11 additionally rebuilt and retained the exact-head cross-variant evidence.
 
 Scoped result:
 
-**`PASS_EXPLICIT_SOURCE_OWNED_BUILDING_EMISSION_VARIANT_SELECTION`**
+**`PASS_BUILDING_PANEL_180_DEGREE_REVERSIBILITY_ACROSS_EXPLICIT_EMISSION_VARIANTS_CURRENT_SOURCE`**
 
-Exact retained A/B facts:
+For **both** source-owned emission variants:
 
-- base positive-volume header/post intersections: **4**;
-- header-segmented positive-volume intersections: **0**;
-- occupied-union volume residual: **`0.0 m³`**;
-- assembled bounds: **identical**;
-- receiver IDs: **identical**;
-- receiver mount residual: **identical**;
-- emitted-box delta: **`+4`**;
-- vertex delta: **`+32`**;
-- triangle delta: **`+48`**;
-- positive-volume-intersection delta: **`-4`**.
+- receiver IDs remain identical to the current named Building result;
+- maximum receiver-fit residual: **`0.0 m`**;
+- zero-degree mount-pattern residual at both receivers: **`0.0 m`**;
+- 180° unordered mount-pattern residual at both receivers: **`0.0 m`**;
+- current centered box proof geometry remains 180° reversible;
+- receiver metadata orientation remains preserved.
 
-The existing source-owned segmentation proof remains separately intact: the 23-box representation removes the four known positive-volume header/post interpenetrations while preserving exact occupied union and source receiver relationships.
+This closes the actual provenance/interface gap: the panel proof no longer assumes only the 19-box representation while claiming current source authority.
 
 ## Fail-closed controls
 
-The new selector rejects unsupported IDs rather than resolving them to the current default. The retained negative selection `silent-best-effort` returns an explicit rejection.
+The retained verifier rejects:
 
-Existing Hard-Surface negative controls also remain green/fail-closed for:
+- `+1 mm` asymmetric mount drift;
+- an unsupported source-owned physical-key claim;
+- panel source identity drift;
+- a missing named `receiver_fits` dependency;
+- emission-variant schema drift;
+- an undeclared emission variant.
 
-- malformed historical box topology;
-- a flipped triangle;
-- mount drift;
-- oversize receiver footprint;
-- insufficient standoff;
-- `+1 mm` header overlap reintroducing a positive-volume intersection;
-- `-1 mm` header shortening changing occupied union;
-- named-build-result schema/dependency drift.
-
-Downstream policy is explicit:
-
-**`NO_AUTOMATIC_ADOPTION__CONSUMER_MUST_EXPLICITLY_SELECT_AND_RETEST`**
+The Building producer continues to reject unknown emission variant IDs instead of silently falling back.
 
 ## Retained evidence
 
 Artifact:
 
-- ID: **`10469576211`**;
-- name: `service-pavilion-001-hard-surface-evidence`;
-- size: **`17,011 bytes`**;
-- exact head: `547bd21073332c8f856f07017cf9d279aa157bfa`;
-- GitHub SHA-256: **`59402ee591d6a08eb2be9297f1b13046d83c4460e342b3f44673d0d1b67bda1c`**;
-- base variant payload SHA-256: `a9ba377adaeddb4ac8f2c1a94c4e1fe1ae10e67bb2687f598936bb6036ec8bed`;
-- header-segmented variant payload SHA-256: `32579a83c09af8087517f4bb9f30c81b0d99b299b341e298164be4ed16b36d91`.
+- ID: **`10471792484`**;
+- name: `utility-panel-rotational-symmetry-003-evidence`;
+- exact head: `ce54187421675a5d293cd9686e7eaa779c3174f3`;
+- size: **`3,875 bytes`**;
+- GitHub artifact digest: **`sha256:e730448e1242cb7566953546001b20eea5e39bde27271c8da01128dc5ab3270f`**.
 
-The Actions ZIP was downloaded after CI and independently rehashed to the exact GitHub artifact digest above. It retains the old source/named-result/header-segmentation evidence plus the new emission-variant contract, exact-head file and machine-readable receipt.
+This activation verified the GitHub-retained digest and workflow metadata. It does not add an independent local ZIP rehash claim.
+
+## Reusable hard-surface learning
+
+**Manufactured interfaces need an explicit source-owned orientation policy; symmetry and asymmetry are both valid when evidence supports them.**
+
+Building currently has an intentionally reversible four-point panel mount. Object has separately required asymmetric registration where orientation disambiguation is source-owned. Hard Surface should therefore preserve the source meaning rather than applying a universal rule such as “all removable modules need keys” or “all mounts should be reversible.”
+
+The reusable method is narrower:
+
+- declare the orientation policy;
+- bind it to exact source identity;
+- test it against every explicitly supported source representation;
+- fail closed on undeclared variants or source drift;
+- do not let a representation test silently become downstream adoption.
+
+That pattern is supported here as a Hard-Surface working method, but it is **not** being promoted into Universal Creation or Profession Fabric from these domain-specific cases alone.
 
 ## Propagation / handoff
 
-Building PR #2 received exact-result comment **`5704666938`**.
+Building PR #5 received exact-result comment **`5705444596`**.
 
-Map Technical Art PR #27 received handoff comment **`5704668862`**. That handoff does not alter Map code and does not request silent adoption. It only makes the source-owned selection boundary available if a Map owner later chooses to test `header-segmented-23` explicitly.
+Building PR #2 received source-consumer handoff comment **`5705445340`**, recording that PR #5 now consumes both explicit Building variants while preserving the producer's `OPT_IN_ONLY` rule for `header-segmented-23`.
 
-Procedural PR #4's existing header-segmentation evidence remains truthful against its exact donor and needs no automatic rewrite. Materials, Environment and Runtime retain their own exact identities and must explicitly rebind/retest if they consume the 23-box variant.
-
-No Universal Creation or Profession Fabric code changed. This is Building-owned representation selection over one source asset, not evidence for a universal geometry-variant system or profession procedure.
+No Map, Environment, Materials, Runtime, Object, Universal Creation or Profession Fabric code was changed. No downstream owner was asked to inherit the segmented representation automatically.
 
 ## Truth boundary / non-claims
 
-This PASS proves only that Building now exposes its two already-source-owned proof-geometry representations through an explicit, fail-closed, stable selection contract while preserving the current default and exact source relationships.
+This PASS proves only that the exact current Building utility-panel mount remains 180° mechanically reversible at both existing receiver frames across the two explicit source-owned Building emission representations.
 
 It does **not** establish:
 
 - Map, Environment, Materials, Runtime or any other downstream adoption of `header-segmented-23`;
-- segmented material-role mapping or UV/texture/decal behavior;
-- target-host rendering or final visual preference for the segmented representation;
-- target-device draw-call, memory, CPU/GPU or FPS acceptance;
-- a boolean-unioned/global-manifold pavilion shell;
-- removal of coplanar internal faces at touching components;
-- architectural, structural, sealing or manufacturing validity;
-- collision, navigation or gameplay acceptance;
-- Universal Creation or Profession Fabric promotion;
+- a general rule that manufactured interfaces should be reversible;
+- a general rule that manufactured interfaces should be keyed;
+- future controls, labels, connectors, hinges or other panel additions remaining orientation-neutral;
+- physical fastener retention, sealing, load path, tolerance stack, fatigue or manufacturability;
+- collision, physics, gameplay or runtime attachment acceptance;
+- final materials, art direction or visual QA acceptance;
+- a universal UC mechanical-interface abstraction;
+- Profession Fabric promotion;
 - CANON, merge authority, production/game readiness or Hard-Surface mastery.
 
 ## Four-root gate
 
-- **Truth:** both representations keep their own exact identities and measured tradeoffs; the 23-box successor is not relabelled as the default.
-- **Agency / non-domination:** downstream consumers must explicitly opt in; the producer never chooses a variant for them silently.
-- **Continuity:** the historical builder, named v0.1 result and prior evidence stay reproducible while the new source contract adds a stable selection boundary.
-- **Wisdom before speed:** the pass solves a real receiving-pressure problem without forcing Map adoption or prematurely extracting a universal abstraction.
+- **Truth:** PR #5 no longer calls an older PR #2 source identity current; both tested representations retain explicit measured identities and policies.
+- **Agency / non-domination:** `header-segmented-23` remains opt-in; exercising it for interface evidence does not choose it for downstream consumers.
+- **Continuity:** the prior PR #5 lineage is preserved as ancestry, the previous v0.1 proof remains historical evidence, and the new v0.2 proof is additive.
+- **Wisdom before speed:** the pass repairs a concrete source/provenance dependency instead of inventing Weapon/Armor/Unit/Misc geometry without source pressure or extracting a universal abstraction too early.
 
 ## Next Hard-Surface pass
 
-Re-scan the whole constellation first. Do not automatically keep expanding Building. If a downstream owner explicitly selects `header-segmented-23`, Hard Surface should only answer source-structure questions that the receiving evidence actually exposes; Materials, Environment, Runtime and Visual QA retain their own acceptance boundaries.
+Re-scan the full constellation first. Do not automatically continue Building or Object. Prefer a fresh manufactured source need, a repeated mechanical pattern with genuinely cross-domain evidence, or a downstream failure that specifically requires Hard-Surface ownership.
