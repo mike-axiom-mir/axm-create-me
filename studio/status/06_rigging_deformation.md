@@ -1,254 +1,209 @@
 # 06 — Rigging & Deformation Specialist Status
 
 Date: 2026-09-16
-State: **PASS_SOURCE_OWNED_FRONT_LATCH_RIG_ON_UC_TARGET_HIERARCHY / EXACT PR20 + PR17 + TECH-ART + UC IDENTITIES PINNED / SOURCE 0-25-50 DEG -> TARGET 0--25--50 DEG HANDEDNESS EXPLICIT / GODOT 4.7.2 STATIC TARGET POSES PASS / ANIMATIONPLAYER + CONTROLLER + PHYSICS + FINAL-VISUAL HOLD**
+State: **PASS_CONNECTED_TOPOLOGY_WEIGHTING_REFINEMENT / EXACT ANIMAL PR6 + PR2 WEIGHTING DONOR IDENTITIES PINNED / -60-0-+60 DEG STRUCTURAL A-B GREEN / VISUAL ADOPTION + ANIMATION + RUNTIME HOLD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the previous Rigging status, newest specialist state, open PRs across the full design constellation, and the current Object / UC receiving evidence before changing product code.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the previous Rigging status and current specialist/design-repository state before changing product code.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation in this activation is confined to `mike-axiom-mir/axm-object-design`; this status file is the coordination update.
+`axm-create-me` remains **coordination only**. Product/evidence implementation in this activation is confined to `mike-axiom-mir/axm-animal-design`; this file is only the coordination/status update.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous source-space Rigging result remains preserved in Git history and as Object PR #20. This activation does not rewrite it; it consumes that exact identity as a donor.
+The previous Object result remains preserved in Git history and Object PR #23. It was not rewritten or generalized in this activation.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no stronger accepted source-owned articulation, weighting or socket handoff surfaced. No filler rig was invented.
-- **Character:** Organic has now completed the accepted feathered-shoulder E source migration at exact Character head `20f6413f1b09e32cb3667ccd01f266cd849d8e93`, source ID `character-neutral-a-shoulder-source-004`. That clears the form/source gate, but Rigging remains correctly held because Geometry has not yet produced the exact connected shoulder topology identity needed for weighting/deformation work.
-- **Animal:** existing Rigging PR #6 and active Geometry / Organic candidates already occupy the connected-forelimb bend/deformation lane. Their newer shape candidates still require their own adoption/perceptual decisions before another Rigging mutation is justified.
-- **Building:** current Hard-Surface / Geometry / Materials / Procedural work is structural; no articulated Building source requires a Rigging lane.
-- **Nature:** current leaf/topology/material/flex work remains in Organic / Geometry / VFX / Materials ownership; no new source-owned skeleton/constraint handoff displaced the Object gap.
-- **Weather / Map:** current dynamic work is VFX / Environment / Runtime / Procedural evidence, not a source-owned Rigging acceptance request.
-- **Object:** source-owned front-latch Rigging PR #20 is green, while Animation PR #10, Technical Art PR #21 and Runtime PR #22 intentionally remain bound to the older latch provenance chain. Capability Cartography and Animation both explicitly forbid silently treating numerically equal pivots as provenance-equivalent. The previous Rigging status named the exact next condition: if a target-host latch dependency appears, bind it explicitly. That dependency is now real and was the highest-leverage unoccupied Rigging gap.
-- **UC:** existing `axm.rigid-scene-graph/v0.1` remains a neutral transport donor. No Object-specific latch or Rigging semantics were moved into UC.
+- **Character:** Organic source migration is now real at exact Character head `20f6413f1b09e32cb3667ccd01f266cd849d8e93`, but the `studio/geometry-character-connected-shoulder-001` branch still points at that same source-migration commit. No distinct connected shoulder topology identity exists yet, so Rigging correctly remains held there rather than weighting the disconnected proof surface.
+- **Animal:** Rigging PR #6 is the existing connected-forelimb deformation lane. It was already green on the exact Geometry PR #4 connected candidate but explicitly held whether Rigging PR #2's `ease-out-power-0p75-v1` candidate remained beneficial on connected topology. Geometry PR #7 and Organic PR #8 are separate active shape/topology candidates and were not duplicated or consumed.
+- **Object:** previous lid, module-clearance, source-latch and target-latch Rigging lanes already occupy the obvious current mechanical articulation gaps. No second Object lane was opened.
+- **Weapon / Armor / Unit / Misc / Building / Nature / Weather / Map:** no stronger accepted source-owned weighting/constraint handoff displaced the Animal matrix gap. Existing work remains in its owning specialist lanes.
+- **UC / Profession Fabric:** no generic weighting rule is justified from one animal source. No animal rig semantics were moved into UC or Profession Fabric.
 
 ## Selected bounded improvement
 
 Repository:
 
-`mike-axiom-mir/axm-object-design`
+`mike-axiom-mir/axm-animal-design`
 
-New stacked draft PR:
+Existing draft PR advanced rather than duplicated:
 
-**#23 — `Rigging: bind source-owned front latches to UC target hierarchy`**
+**#6 — `Rigging: prove connected forelimb deformation and weighting refinement`**
 
 Branch:
 
-`studio/rigging-source-latch-target-bind-003`
+`studio/rigging-connected-forelimb-deformation-001`
 
-Exact base / source Rigging donor:
+Exact current head:
 
-- Object PR #20 head: **`a1acd2bcb2074f41e536562f2673508e2cb0a4d5`**.
+**`5625c9f796a75e8b441458c51093e55519490611`**
 
-Exact new Rigging head:
-
-- **`9556308c9986f71519bc488badc1b1a63e855e7e`**.
-
-Observed PR state after CI:
+Observed PR state:
 
 **OPEN / DRAFT / MERGEABLE**.
 
-Mergeability and green CI are repository metadata only; neither is merge/CANON authority.
+Green CI or mergeability is evidence metadata only, not merge/CANON authority.
 
-## Exact dependency identities
+## Exact identities preserved
 
-Host asset:
+Connected Geometry identity:
 
-- `modular-equipment-case-001`;
-- exact Object source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`.
+- source Geometry PR #4 head: `feb4b24cd36bcc879173138d240754f71db34834`;
+- connected candidate ID: `front-left-connected-chain-001`;
+- connected candidate digest: `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`;
+- previous connected Rigging evidence head retained in ancestry: `f4614ab2f691cd5c5d12b88fabc38ef848acd24e`.
 
 Exact source Rigging donor:
 
-- PR #20 head: `a1acd2bcb2074f41e536562f2673508e2cb0a4d5`;
-- source binding schema: `axm.object-front-latch-source-rig-binding/v0.1`;
-- scoped result rerun in the new workflow: `PASS_SOURCE_OWNED_FRONT_LATCH_RIG_REBIND`.
+- Rigging PR #2 donor head: `04760112deb81a8d145226fe7ee02923107c9916`;
+- rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
+- joint: `front-elbow-L`;
+- axis: `+Y`;
+- influence radius: `0.11 m`;
+- representative poses: `-60 / 0 / +60°`.
 
-Exact source-owned interface authority:
+Exact historical weighting profile reused, not reinvented:
 
-- Hard-Surface PR #17 head: `6086f39a3da344c57a68653f90d040e03e04cec2`;
-- interface schema: `axm.object-front-latch-pivot-interface/v0.1`;
-- interface SHA-256 retained by PR #20: `bcbbe098371eb702bc9289a97370744093105925202eda6036bdced6e25e34d3`;
-- left source pivot: `[-0.22,-0.258,0.2105] m`;
-- right source pivot: `[+0.22,-0.258,0.2105] m`;
-- source joint axis: `+X`;
-- representative source poses: `0 / +25 / +50°`;
-- source continuous release threshold remains `48.66480246428277°`;
-- source `50°` keeper-Z separation remains `0.0015728659779458698 m`.
+- profile: `quadruped-weighting-refinement-001`;
+- profile digest: `a23fdaf47bbf17b3b070faf66d408faaddaa68c4a0487ace8f484851b91482e4`;
+- baseline: `smoothstep-v0`;
+- candidate: `ease-out-power-0p75-v1`;
+- candidate exponent: `0.75`.
 
-Exact target receiving chain:
+The fixed/blended/rigid vertex partition stays exactly `16 / 5 / 21`. The new comparison changes only child-weight falloff.
 
-- Technical Art rigid-scene donor PR #16 head: `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
-- Technical Art result: `PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_THROUGH_UC_SCENE_GRAPH`;
-- UC rigid-scene donor: `6dc465987e01362264f88b7cef4213609ae50763`;
-- exact rebound GLB is rebuilt during CI from those pinned donors rather than inherited by name.
+## Representative-pose result
 
-Historical PR #15 remains provenance only. It is not silently restored as current latch authority.
+Scoped result:
 
-## New target Rigging binding
+**`PASS_CONNECTED_TOPOLOGY_WEIGHTING_REFINEMENT`**.
 
-PR #23 adds Object-local:
+At `-60°`:
 
-`axm.object-target-front-latch-rig-binding/v0.1`
+- minimum triangle-area ratio: `0.404056348 -> 0.470061418` (`+0.066005070`);
+- minimum edge-length ratio: `0.773457548 -> 0.791731010` (`+0.018273462`);
+- maximum triangle-area ratio: unchanged at `1.208077659`;
+- maximum edge-length ratio: unchanged at `1.210299453`;
+- sampled non-neighbour self-intersections: `0 -> 0`;
+- maximum baseline→candidate vertex delta: `0.008579573965 m`.
 
-The binding is generated only after exact donor checks succeed. It fails closed on:
+At `0°`:
 
-- source Rigging donor-head drift;
-- source-interface byte or authority drift;
-- re-promotion of the historical PR #15 observation;
-- Technical Art donor-head drift;
-- UC donor-head drift;
-- rebuilt GLB byte-identity drift;
-- target keeper/lever hierarchy drift;
-- source station/owner/pivot identity drift;
-- coordinate handedness or representative pose drift.
+- candidate and baseline are neutral-identical in the retained positions;
+- all retained area/edge ratios are `1.0`;
+- sampled non-neighbour self-intersections remain `0`;
+- maximum baseline→candidate vertex delta: `0.0 m`.
 
-A deliberate all-zero source-Rigging donor head is executed as a negative identity control and must fail. The exact successful workflow did reject it as intended.
+At `+60°`:
 
-No new UC contract was added. Object/Rigging keeps Object-specific pivot and articulation meaning; UC remains neutral scene transport.
+- maximum triangle-area ratio: `1.241793395 -> 1.220796683` (maximum reduced by `0.020996712`);
+- maximum edge-length ratio: `1.240197116 -> 1.219304492` (maximum reduced by `0.020892624`);
+- minimum triangle-area ratio: unchanged at `0.499954815`;
+- minimum edge-length ratio: unchanged at `0.778085958`;
+- sampled non-neighbour self-intersections: `0 -> 0`;
+- maximum baseline→candidate vertex delta: `0.008579574245 m`.
 
-## Explicit source -> target handedness
+The gate is deliberately conservative: every nonzero pose must be non-worse on all four retained area/edge extremes and strictly improve at least one, while the candidate itself must retain the existing structural PASS invariants. Both nonzero poses satisfy that gate.
 
-The established Object-to-UC coordinate map is:
+## Evidence / CI
 
-`[x,y,z] -> [x,z,y]`
+Exact-head workflow family:
 
-Its determinant is `-1`, so the exact source Rigging positive +X rotation maps to a **negative +X target rotation**. This is coordinate conversion, not retiming, animation authorship or aesthetic retargeting.
+- `35102159607 — Connected topology weighting refinement evidence`: **SUCCESS** on Python 3.11 and 3.13;
+- `35102159517 — Tests`: **SUCCESS**;
+- `35102159525 — Connected forelimb deformation evidence`: **SUCCESS**;
+- `35102159627 — Connected chain self-intersection evidence`: **SUCCESS**;
+- `35102159661 — Connected chain topology evidence`: **SUCCESS**.
 
-Representative mapping:
+Retained dedicated artifact:
 
-- source `0°` -> target `0°`;
-- source `+25°` -> target `-25°`;
-- source `+50°` -> target `-50°`.
+- ID: **`10448173105`**;
+- name: `front-left-connected-chain-001-weighting-refinement-5625c9f796a75e8b441458c51093e55519490611`;
+- size: **`9,446 bytes`**;
+- archive SHA-256: **`eaefef163cfe102917af81a96ccf0a9692541dca57fd3673f94d69cd93d1657c`**;
+- retained exact head: `5625c9f796a75e8b441458c51093e55519490611`.
 
-Exact source-owned pivots map to:
+The archive was downloaded during this activation and independently rehashed to the same SHA-256. Its receipt, exact head, source, donor rig plan, donor weighting profile and X/Z baseline-vs-candidate overlay were inspected directly.
 
-- left target pivot: `[-0.22,0.2105,-0.258] m`;
-- right target pivot: `[+0.22,0.2105,-0.258] m`.
+The overlay confirms the expected bounded shape difference at `-60 / 0 / +60°`, but it is a wire structural aid only. It is **not** perceptual deformation-quality acceptance.
 
-## Real target-host proof
+## Fail-closed repair history
 
-Pinned target host:
+Initial dedicated run `35102041446` failed. The implementation had correctly pinned the exact weighting profile to the digest of the full four-joint historical donor plan, but the new test fixture contained only the selected left-elbow joint and therefore produced a different plan/profile digest.
 
-**Godot 4.7.2, GL Compatibility, `GLTFDocument` import of the exact rebuilt UC GLB.**
+The repair **expanded the test fixture to the exact full donor plan**. It did not remove or weaken the identity check. The failed run remains Actions provenance.
 
-For both lower latch levers at every exact representative pose, the observer verifies:
+The retained negative control changes candidate exponent `0.75 -> 0.74`; the verifier returns:
 
-- the target transform equals the explicit rotation-about-source-owned-target-pivot transform;
-- each bound pivot remains fixed;
-- lever rigid AABB-corner pairwise signatures remain rigid;
-- nonzero source poses produce material target lever movement;
-- bilateral lever-center movement remains symmetric;
-- fixed `body_shell`, `lid_shell` and both keeper centers do not move;
-- both lever transforms return to the exact neutral target state.
+**`HOLD_WEIGHTING_PROFILE_IDENTITY_DRIFT`**.
 
-The successful target-host validation gate bounds all of the following at **`<= 1e-6`** in target units / transform components:
-
-- maximum expected-transform residual;
-- maximum pivot drift;
-- maximum rigid pairwise-signature drift;
-- maximum fixed-component center drift;
-- maximum bilateral center-movement residual;
-- maximum neutral-return transform drift.
-
-This is direct static target-host Rigging evidence. It is intentionally not an `AnimationPlayer` test.
-
-## Exact-head evidence — PASS
-
-Dedicated workflow:
-
-**`35096312523 — Object target front-latch rig evidence` — COMPLETED / SUCCESS**
-
-Exact tested head:
-
-**`9556308c9986f71519bc488badc1b1a63e855e7e`**.
-
-Matrix result:
-
-- Python 3.11 — **SUCCESS**: exact candidate checkout, complete Object suite, exact PR #20 source-rig rerun, exact Technical Art / UC target rebuild, binding identity gate, deliberate negative identity control, pinned Godot 4.7.2 target-host pose exercise, target receipt validation, retained artifact upload;
-- Python 3.13 — **SUCCESS**: exact candidate checkout, complete Object suite, exact PR #20 source-rig rerun, exact Technical Art / UC target rebuild, binding identity gate and negative control. Godot is intentionally exercised only in the 3.11 leg.
-
-Scoped target result:
-
-**`PASS_EXACT_SOURCE_OWNED_FRONT_LATCH_RIG_ON_UC_TARGET_HIERARCHY`**.
-
-Retained artifact:
-
-- ID: **`10446317053`**;
-- name: `object-target-front-latch-rig-9556308c9986f71519bc488badc1b1a63e855e7e`;
-- size: **`16,787 bytes`**;
-- GitHub archive SHA-256: **`9af0a996acf22b05173cafcd34cae16f629d3ecea0670123669996e12274a0d1`**;
-- exact artifact head: `9556308c9986f71519bc488badc1b1a63e855e7e`;
-- expiry reported by GitHub: 2026-10-16.
-
-The archive digest above is GitHub-retained metadata. This activation did **not** independently download and rehash the archive, so no independent-rehash claim is made.
-
-## Placement / reuse decision
-
-Correct ownership remains:
-
-- **Object / Hard Surface:** source component and manufactured interface meaning;
-- **Rigging:** articulation/deformation acceptance against exact source and target identities;
-- **Technical Art / UC:** neutral target hierarchy / transport;
-- **Animation:** choreography, clip timing, interpolation and `AnimationPlayer` acceptance;
-- **Runtime:** controller/state machine, wall-clock behavior, resource/performance and target-device acceptance;
-- **Visual Observer / Art Direction:** perceptual/final visual acceptance.
-
-This one Object target-rig bridge is not sufficient evidence for a generic UC joint abstraction or Profession Fabric promotion.
+No nearest profile, relaxed digest or fallback exponent is accepted.
 
 ## Handoffs
 
-### Animation PR #10
+### Visual Observer / 3D Art Director
 
-The previous explicit provenance hold is now materially narrower: Rigging has a green exact target-host successor for PR #17/#20. Animation may use PR #23 as the Rigging-side target dependency for an explicit successor rebind/rerun. Existing Animation evidence at `5cb073f9fcf825014556ed165ee081e1eca71cdc` remains truthful for its declared older Hard-Surface #14 / Rigging #15 chain until Animation itself chooses and proves the successor.
+Review the exact retained connected-topology A/B before treating `ease-out-power-0p75-v1` as visually better or adopted. Numeric strain/extreme improvement is not a substitute for shaded/perspective judgment of pinching, volume, silhouette or anatomical plausibility.
 
-### Technical Art
+### Animation PR #5
 
-No Technical Art source or UC capability changed. PR #23 consumes exact Technical Art PR #16 neutral target hierarchy and keeps Object-specific latch binding in Rigging. Technical Art PR #19's lid target-host result remains a separate lid path.
+Comment handoff: `5698294158`.
 
-### Runtime / Optimization
+Animation remains truthfully pinned to `smoothstep-v0`. It inherits none of this candidate automatically. If the candidate receives explicit visual/adoption approval, Animation should rebind and rerun its authored clip/playback evidence so only deformation changes.
 
-No controller, scheduler, state machine, wall-clock or device-performance acceptance transfers. Runtime should wait for an Animation successor if it intends to adopt the new source-owned latch provenance chain.
+### Geometry PR #7
 
-### Character / Geometry
+Comment handoff: `5698296660`.
 
-Organic source migration is now complete, but Rigging still waits for a new exact connected Character shoulder geometry identity. Do not weight or deform the disconnected E proof mesh.
+The PASS belongs to the exact Geometry PR #4 connected candidate. Geometry PR #7's ring-phase candidate inherits nothing by numerical similarity. If Geometry adopts an exact successor identity, Rigging should rerun the weighting comparison against that exact topology.
 
-### Animal
+### Organic PR #8
 
-Do not duplicate the current connected-forelimb / elbow relief lanes. Re-enter only after their source/form adoption gate identifies an exact Rigging-owned weighting or constraint need.
+Comment handoff: `5698298225`.
 
-## Truth boundary / explicit non-claims
+Organic elbow-relief geometry is a separate derived form and inherits none of this PASS. Do not silently combine the weighting and shape improvements; an adopted relief identity should return to Rigging for explicit deformation evidence.
+
+### Character
+
+Wait for a distinct connected shoulder topology identity. The Organic source migration alone is not enough to justify Character weighting.
+
+### Technical Art / UC / Runtime
+
+No transport, exported skeleton, runtime controller, engine playback or target-device acceptance transfers. No animal weighting ontology was promoted into UC.
+
+## Truth boundary / non-claims
 
 This activation establishes only:
 
-> the exact current source-owned Object front-latch Rigging identity can be mapped through the already-established Object->UC handedness conversion and exercised as bilateral rigid 0/25/50° representative poses on the exact rebuilt Godot target hierarchy with bounded pivot, rigidity, fixed-component, bilateral-symmetry and neutral-return residuals.
+> on the exact Geometry PR #4 connected left-forelimb candidate, the exact historical Rigging PR #2 `ease-out-power-0p75-v1` weight falloff is non-worse across the retained sampled area/edge extremes and strictly improves at least one structural extreme at each nonzero `-60/+60°` representative pose, while preserving neutral closure and zero sampled non-neighbour self-intersections.
 
 It does **not** establish or authorize:
 
-- `AnimationPlayer`, Animation timing, interpolation, style or clip acceptance;
-- continuous collision clearance between the three retained target poses;
-- runtime controller/state-machine behavior;
-- real-time or wall-clock playback;
-- input/gameplay interaction;
-- target-device CPU/GPU/FPS/memory performance;
-- physical latch retention, pin/bore/hook/catch mechanics, force, spring, friction, damping, loads, tolerances, wear or manufacturability;
-- final Materials, Art Direction or Visual QA acceptance;
+- continuous interpolation or continuous self-intersection freedom between samples;
+- volume preservation, skin sliding, muscle behaviour or anatomical correctness;
+- perceptual deformation quality, shaded/perspective acceptance or final Art Direction;
+- adoption of the candidate weighting into canonical/source Rigging;
+- adoption of Geometry PR #7 or Organic PR #8 candidates;
+- Animation timing, clips, interpolation or locomotion quality;
+- exported skeleton/weights/clips;
+- engine/runtime/controller or target-device playback;
+- gameplay/collision-system acceptance;
+- performance acceptance;
 - merge/CANON authority;
-- production readiness, game readiness or Rigging mastery.
+- production readiness or Rigging mastery.
 
 ## Four-root gate
 
-- **Truth:** target-host acceptance is bound to exact source Rigging, source-interface, Technical Art and UC identities; the negative donor-head control fails closed; Animation/runtime claims remain explicitly false.
-- **Agency / non-domination:** Rigging validates only articulation identity and static target poses. Hard Surface, Technical Art, Animation, Runtime, QA and Art Direction retain their own domains and acceptance gates.
-- **Continuity:** PR #23 stacks directly on PR #20; PR #20 and historical PR #15 remain traceable; no source geometry, old evidence or downstream Animation/Runtime identity is silently rewritten.
-- **Wisdom before speed:** Character weighting is still held for connected topology; Animal active lanes are not duplicated; no generic UC latch ontology or runtime system was invented from one bounded success.
+- **Truth:** exact Geometry, Rigging donor and weighting-profile identities are pinned; a near exponent fails closed; the first failed run is preserved; numeric structural evidence is not relabelled as visual quality.
+- **Agency / non-domination:** Rigging owns the deformation comparison only. Geometry, Organic, Animation, Technical Art, Runtime, Visual QA and Art Direction keep their own acceptance authority.
+- **Continuity:** PR #6 was advanced rather than duplicated; predecessor `f4614ab...` remains in ancestry; PR #2 donor identities remain exact; active Geometry/Organic successors were not silently absorbed.
+- **Wisdom before speed:** the smallest missing matrix cell was tested before inventing a new rig or broad UC abstraction; Character remains held for connected topology; candidate adoption remains separate from numeric success.
 
 ## Next Rigging & Deformation pass
 
-1. Re-scan the constellation first; do not automatically extend Object again.
-2. If Geometry publishes an exact connected Character shoulder identity, evaluate that before any broad skeleton/weighting work and keep the first deformation test local and bounded.
-3. If Animal form/topology adoption clears, re-enter only at the exact named weighting/constraint defect rather than replacing its existing rig wholesale.
-4. Let Animation own any PR #23 clip / `AnimationPlayer` successor rebind; let Runtime own controller/device evidence.
-5. Preserve physical engineering, gameplay, final visual acceptance, CANON and mastery as separate gates.
+1. Re-scan first; do not automatically extend Animal again.
+2. If Character Geometry produces a distinct accepted connected shoulder identity, prioritize one bounded shoulder weighting/deformation probe.
+3. If Geometry PR #7 or Organic PR #8 receives an explicit adoption identity, rerun the exact weighting comparison on that exact successor rather than assuming transfer.
+4. If Visual Observer / Art Direction rejects the current weight profile perceptually, preserve this numeric PASS as historical evidence and repair only the named deformation defect.
+5. Keep Animation, runtime/controller, gameplay, final visual acceptance, CANON and mastery as separate gates.
