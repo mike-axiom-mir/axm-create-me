@@ -1,38 +1,36 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-16
-State: **ACTIVE / PASS_WEATHER_VARIANT_OBJECT_SOURCE_COMPOSITION_STRUCTURE + PASS_WEATHER_VARIANT_OBJECT_SOURCE_COMPOSITION_TARGET_HOST / PR22 WEATHER VARIANT + PR19 OBJECT CONVERGED / 17-STATE GODOT PROOF GREEN / FINAL SCALE + WEATHER PREFERENCE + INDEPENDENT VISUAL ACCEPTANCE HELD**
+State: **ACTIVE / PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_STRUCTURE + PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_TARGET_HOST / EXACT PR24 WORLD + EXACT PR14 FIVE-SURFACE BUILDING RESPONSE CONVERGED / 17×2 GODOT A-B GREEN / FINAL BUILDING HIERARCHY + ART/QA ACCEPTANCE HELD**
 
-## Current activation
+## Continuity
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/08_environment_world_art.md`, then inspected the newest Map, Building, Nature, Object and Weather work plus current Art Direction, VFX, Runtime and Environment status.
+This file is a current coordination summary, not a product build. The previous detailed PR #24 Weather-variant + Object convergence status remains preserved in Git history at pre-update `axm-create-me` main `023f1b0aee2bb94bb974fc03c0ceae446459c832`, file blob `d27442e664b6dfd9a69b33c1093a27b59f1e1947`. Nothing in that earlier evidence is silently rewritten or invalidated.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives only in `mike-axiom-mir/axm-map-design`. Source authority remains in the domain design repositories. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives in `mike-axiom-mir/axm-map-design`; Building, Nature, Object and Weather source authority remains in their own design repositories. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous Environment result remains valid historical evidence: Map PR #21 at exact head `5ad4ef48a33eaaf76f6fefef315896da10b17eb4` proves the exact PR #19 west Object source replacement inside the baseline PR #20 live Weather sequence. This activation does not rewrite or relabel that evidence.
+## Constellation / non-duplication scan
 
-## Constellation / duplication scan
+The highest-leverage unoccupied Environment integration gap after PR #24 was no longer source geometry placement. PR #24 already had the exact source-owned Building pavilion, three source-owned Nature bodies, source-owned Weather seed `44021`, the exact west Object source, the readable path and two fixed cameras together across a 17-state Godot proof.
 
-The newest receiving state had split again after PR #21:
+The remaining visible mismatch was that the Building still used one neutral Environment proof material even though Map Materials PR #14 had already transferred the exact Building PR #3 five-surface family into an earlier receiving scene.
 
-- **Map PR #21 / Environment** contains the exact source-owned west Object replacement, but keeps PR #20's baseline Weather layout.
-- **Map PR #22 / VFX** contains the exact source-owned Weather seed `44021`, but is a sibling of PR #21 and therefore still contains the west Object proxy.
-- **Map PR #23 / Runtime** measures the exact source Object import budget on PR #21's baseline-Weather identity and explicitly does not consume PR #22.
-- **Building PR #3 / #4** own Building Materials and Procedural work; the current source pavilion remains exact and is not changed here.
-- **Nature PR #10** owns the explicit two-sided leaf-topology candidate. Its structural Geometry PASS does not yet justify Environment adoption before renderer/lookdev/runtime review.
-- **Object PRs #17–#20** own latch interface, Rigging and Technical Art provenance. Environment does not consume those mechanical semantics; it uses only the static Object structural source already proven by PR #19.
-- **Weather PR #3 / VFX PR #22** own Weather variation semantics and the selected seed evidence. Environment does not choose or claim a preferred seed.
-- **Art Direction / Visual QA** still own the known west Object scale/readability question and final combined-world acceptance.
+Active lanes intentionally not duplicated:
 
-That made the highest-leverage unoccupied Environment question:
+- **Map PR #25 / VFX** owns source-authored Weather width/ribbon fidelity; Environment does not modify Weather presentation semantics.
+- **Map PR #23 / Runtime** owns Object/current-world import-budget evidence; Environment does not turn this surface convergence into a performance claim.
+- **Map PR #3 / Procedural** owns source-compatible seeded receiving envelopes; no generator/placement family was changed.
+- **Nature Materials / Geometry** owns leaf-sidedness representation. The current Environment proof keeps its receiving Nature identities unchanged and does not silently adopt the newer explicit-backface candidate.
+- **Building Materials** owns surface semantics and scalar PBR values. Environment only consumes the already-proven receiving payload unchanged.
+- **Art Direction / Visual QA** retain final hierarchy/readability/look acceptance.
 
-> Can the exact PR #19 west Object source replacement coexist with the exact PR #22 source-owned Weather seed `44021` sequence, while all unrelated Building/Nature/path/camera state, sapling motion and rear-tree culling isolation remain exact?
+The selected Environment question was therefore:
 
-This is a real multi-asset receiving question spanning Map + Object + Weather/VFX + Nature + Building. No separate asset authoring lane was opened.
+> Can the exact already-proven Map PR #14 / Building PR #3 five-surface pavilion response replace the neutral Building proof response inside the exact PR #24 multi-asset current world, while all Building geometry, Weather, Nature, Object, path, cameras and lighting remain fixed?
 
 ## Selected bounded improvement
 
-Opened draft Map PR:
+Extended the existing Environment PR rather than opening another parallel Environment lane:
 
 **`mike-axiom-mir/axm-map-design#24 — Environment: converge Weather variant with exact Object source`**
 
@@ -40,239 +38,187 @@ Branch:
 
 `studio/environment-weather-variant-object-convergence-001`
 
-Exact base / Weather-variant donor:
+Current exact tested head:
 
-`e482d003853e52fc835f1797ddfb6506a50083ef` (Map PR #22)
+`48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`
 
-Exact Object Environment donor:
-
-`85a2a0be959b4e39f9ffcf83da89078b604f9881` (Map PR #19)
-
-Exact tested PR #24 head:
+Exact Environment parent retained as donor provenance:
 
 `94918f362226994e3ff5c2a1412a2bc2a8bce49b`
 
-PR state after evidence:
+Exact Map Materials receiving donor:
 
-**OPEN / DRAFT / MERGEABLE**
+`0e2d571af4fd5772e9d48da013dc245914654660` (Map PR #14)
 
-No merge, CANON or promotion authority is inferred from Git metadata.
+Exact Building source donor:
 
-## Exact identities
+`4faa769b406bf3ad0ba9489a77141c27f122ce51` (Building PR #2)
 
-Weather variant remains exact:
+Exact historical Building material head already proven by PR #14:
 
-- owner: `mike-axiom-mir/axm-weather-design`;
-- Weather variation-family head: `05b26c4e82bbe0a4de0ee7bee34179efc58b9719`;
-- selected seed: `44021`;
-- exact particle-layout digest: `7ed55e93ea9445345016685320716006bc52960b33784cb620ca5670a74cc26f`;
-- exact Map/VFX receiving donor: PR #22 head `e482d003853e52fc835f1797ddfb6506a50083ef`;
-- exact PR #22 variant rebind digest: `df9334f0ee7e3cad7c94c0cae0aa55bf631439175634c479bf03f239b44d8f93`.
+`b08f683f1c3f75c474fb347e1d1990c1c4426a33`
 
-Object source remains exact:
+Material profile SHA-256:
 
-- owner: `mike-axiom-mir/axm-object-design`;
-- source head: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
-- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- generated OBJ SHA-256: `3e01ef3bf4935ee6aee7c56c03dc0b7f54c308e5ac2eb6a7583252a366901106`;
-- `468` vertices / `812` triangles;
-- placement policy remains PR #19's exact current receiving placement with **no receiving scale**.
+`e8dd0c33b9b2aea108194af57a8fe8de39c7e67bb86109af6dbf3895f22c010b`
 
-The current migrated rear/right Nature source remains exact mesh `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31` under the existing isolated `CULL_BACK` review.
+No Environment-side material retune, source rescale, placement change, camera change or lighting cheat was introduced.
 
-## Smallest composition change
+## Smallest receiving change
 
-PR #24 adds only:
+Added only one bounded Environment convergence contract, one inherited target-host observer specialization, one exact-head workflow and one scope document on PR #24:
 
-- `tools/environment_weather_variant_object_current_world.py`;
-- `.github/workflows/environment-weather-variant-object-current-world.yml`;
-- `docs/ENVIRONMENT_WEATHER_VARIANT_OBJECT_CURRENT_WORLD_001.md`.
+- `tools/environment_building_material_current_world.py`;
+- `environment-proof/atmosphere_current_world_weather_variant_building_material_observe.gd`;
+- `.github/workflows/environment-current-world-building-material.yml`;
+- `docs/ENVIRONMENT_CURRENT_WORLD_BUILDING_MATERIAL_001.md`.
 
-The exact PR #22 Weather-variant donor is rebuilt from its pinned source repositories. The exact PR #19 Object replacement donor is independently rebuilt from its pinned Object source.
+For every exact PR #24 state the contract:
 
-For every one of the exact 17 PR #22 states, the Environment composer:
+1. locates the exact `source:building:service-pavilion-001` source row;
+2. requires the current-world `152` source vertices and `228` triangle memberships to match the exact PR #14 material receiving geometry;
+3. removes only the neutral Building render row;
+4. inserts the exact five already-proven surface groups and scalar PBR values:
+   `frame_galvanized`, `infill_coating`, `roof_membrane`, `slab_mineral`, `utility_panel_ochre`;
+5. preserves Weather-field and moving-sapling identities, exact Object source, other Nature sources, rear-tree culling target, readable path, two fixed cameras, placements and Environment lighting;
+6. renders the exact neutral PR #24 control and five-surface candidate through the same pinned Godot current-world observer family.
 
-1. preserves the exact Weather line state and Weather-field digest;
-2. preserves the exact west-sapling state and mesh digest;
-3. removes only `proxy:object-crate-west`;
-4. inserts exactly one `source:object:modular-equipment-case-001` from PR #19;
-5. preserves `proxy:object-crate-east` as the control;
-6. preserves the source-owned Building pavilion, Nature sources/proxies, path, cameras and Weather presentation;
-7. preserves the migrated rear/right tree as the isolated `CULL_BACK` source.
-
-The unchanged PR #22 Godot observer is reused through an explicitly labelled compatibility projection. Unlike the older convergence pattern, this activation does **not** relabel inherited PR #22 structural checks as acceptance of the changed static scene. Canonical acceptance is a new Environment schema plus a new Environment target verifier.
+Canonical acceptance uses the new Environment schema. The inherited Weather-variant observer receives only an explicitly labelled compatibility projection; inherited labels are not treated as acceptance of the changed Building surface response.
 
 ## Fail-closed controls
 
-Before target-host rendering, the exact workflow deliberately checks that the convergence rejects:
+The exact workflow deliberately rejects:
 
-- Weather seed drift (`44021 -> 44022`);
-- missing exact Object source;
-- stale west Object proxy composition.
+- missing current-world Building source;
+- Building material profile digest drift;
+- Building surface-partition drift.
 
-All three negative controls fail closed as intended. There is no alternate-seed selection, source rescaling, slot movement, nearest-match source substitution or proxy fallback.
+All three controls fail closed. There is no nearest material substitution, fallback neutral promotion, automatic rescale or hidden source rewrite.
 
 ## Exact-head evidence
 
 Dedicated workflow:
 
-**`35091112855 — Environment Weather-variant Object current-world evidence` — SUCCESS**
+**`35097442120 — Environment current-world Building material convergence evidence` — SUCCESS**
 
-Exact job head:
+Exact workflow head:
 
-`94918f362226994e3ff5c2a1412a2bc2a8bce49b`
+`48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`
 
 Structural result:
 
-**`PASS_WEATHER_VARIANT_OBJECT_SOURCE_COMPOSITION_STRUCTURE`**
+**`PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_STRUCTURE`**
 
 Target-host result:
 
-**`PASS_WEATHER_VARIANT_OBJECT_SOURCE_COMPOSITION_TARGET_HOST`**
+**`PASS_CURRENT_WORLD_BUILDING_MATERIAL_CONVERGENCE_TARGET_HOST`**
 
-Exact composition digest:
+Exact current-world composition digest:
 
-`b3dad9a2c85c388fd7660d0e4a8d218c43583750347599fb1939a1cc49dafab2`
+`fd99413c14481343ce9bb13dcdf9719936dd84ea6731f88956c5fe15b91e335e`
 
-All canonical structural gates are true:
+Structural gates prove only this bounded receiving identity:
 
-- exact PR #22 receiving identity preserved as donor provenance;
-- exact Weather seed/layout identity preserved;
-- exact PR #19/Object source identity preserved;
-- all 17 states composed;
-- west proxy removed in all 17 states;
-- east proxy retained in all 17 states;
-- Object source appears exactly once and remains static in all 17 states;
-- exact `468 / 812` source counts preserved;
-- exact Weather-variant sequence preserved;
-- exact west-sapling sequence preserved;
-- rear-tree culling target preserved;
-- neutral return preserves the same static Object identity.
+- exact PR #24 parent rebuilt and preserved as donor provenance;
+- exact PR #14 material receiving donor rebuilt through its own contract;
+- exact Building source head and source file digests agree between the current world and material donor;
+- exact Building world vertices are identical;
+- exact 228-triangle membership is identical despite five material surface groups using a different triangle ordering;
+- all 17 Weather times, Weather-field digests and sapling mesh digests are unchanged;
+- exact Weather seed `44021` and layout identity are unchanged;
+- exact west Object and migrated rear Nature sources remain present;
+- neutral Building source rendering is replaced only by the exact five-surface receiving response;
+- cameras and readable path remain unchanged.
 
-## Godot target-host result
+## Godot target-host evidence
 
 Pinned runtime:
 
 **Godot 4.7.2 GL Compatibility**
 
-All Environment target-host gates are true:
+The workflow rendered:
 
-- `17 / 17` runtime samples present;
-- `34 / 34` retained frames present;
-- all `17 / 17` frame hashes remain distinct in each fixed camera;
-- runtime receipt is bound to exact PR #24 head;
+- exact PR #24 neutral Building control: `17 states × 2 cameras = 34` frames;
+- exact five-surface Building candidate: `17 × 2 = 34` frames.
+
+All target-host gates are true:
+
+- all 17 candidate runtime samples retained;
+- exact five material IDs reach the target host;
+- logical Building source counts remain `152 vertices / 228 triangles` with five rendered surfaces;
+- exact material profile identity reaches every sample;
 - exact Weather seed/layout identity reaches the target host;
-- exact Weather-field and sapling digest sequences match the canonical Environment payload;
-- Weather node/mesh/material identity remains stable in-process;
-- sapling node/mesh/material identity remains stable in-process;
-- source Weather opacity remains consumed through vertex alpha;
-- exact Object source renders in all 17 states as `468 / 812 / CULL_DISABLED`;
-- migrated rear/right tree remains `CULL_BACK` in all 17 states;
-- renderer counter sets remain stable within each fixed camera.
+- candidate sequence retains 17 distinct frame hashes per camera;
+- every matched neutral/candidate frame is byte-different.
 
-Observed proof-host counter sets:
+Retained artifact:
 
-- `path_eye`: `20 draw calls / 20 objects / 5992 RenderingServer primitives`;
-- `elevated_oblique`: `27 / 27 / 7750`.
+- ID `10447016718`;
+- name `environment-current-world-building-material-001-48bc157ad9c3ecb7ef8e9fb08fb4721ac76013c5`;
+- size `11,409,828 bytes`;
+- GitHub SHA-256 `aeda6e564ae8ac99906c61ac56a692792c4227f2539b0c453e66914b9d15f1ff`;
+- downloaded archive independently rehashed to the same SHA-256.
 
-Those observations match the existing exact Object-source current-world proof-host submission shape. They are **not** target-device FPS/GPU/VRAM/memory acceptance and do not replace Runtime PR #23.
+## Direct retained-image observation
 
-## Retained evidence
+The retained 68 A/B frames were downloaded and directly inspected. Independent image comparison shows that the Building-only visual footprint is stable while the inherited Weather/sapling sequence changes:
 
-Artifact:
+- `path_eye`: exactly `67,221 / 792,000` changed pixels = `8.4875%` in every one of the 17 states; fixed bbox `(346,256)-(754,438)`;
+- `elevated_oblique`: exactly `37,182 / 792,000` = `4.6946969697%` in every state; fixed bbox `(594,171)-(889,367)`.
 
-- ID `10444247564`;
-- name `environment-weather-variant-object-current-world-001-94918f362226994e3ff5c2a1412a2bc2a8bce49b`;
-- size `5,070,939 bytes`;
-- GitHub SHA-256 `330dea17a7b6501a745252beae42cb6066ed95a75bd62db2f3854e0119c3db2d`;
-- independently downloaded/rehashed SHA-256 reproduced exactly;
-- retained `exact-head.txt` = `94918f362226994e3ff5c2a1412a2bc2a8bce49b`.
+That stability is useful attribution evidence: the dynamic Weather/sapling state continues while the isolated Building surface response stays localized to the same image region.
 
-The retained archive contains the rebuilt exact PR #22 donor, rebuilt exact PR #19 Object candidate/report, canonical combined payload, target-host runtime receipt, Environment target report and all 34 PNGs.
+Direct Environment observation, not aesthetic acceptance:
 
-For comparison, the exact parent PR #22 artifact was also independently rehashed before A/B review:
+- galvanized frame separation remains readable in both fixed cameras;
+- the ochre service panel becomes clearly legible as a service accent;
+- the roof/infill become materially darker than the neutral proof;
+- in `path_eye`, roof/infill trend toward a near-dark mass under the current shared Environment light.
 
-- PR #22 artifact ID `10442705476`;
-- exact SHA-256 `e7eab8f28d856b592ed3ebbe7ecd5a7905cf26b613507991decd27609e63e9cb`.
+That last point is intentionally **held for Materials + 3D Art Director + Visual QA review**. Environment does not retune Building-owned material values or lighting simply to make the candidate pass aesthetically.
 
-## Direct exact-artifact Environment observation
+## Handoffs
 
-A direct A/B was performed between the exact PR #22 seed-`44021` artifact and the exact PR #24 combined artifact. Because both sides retain the same Weather seed/state, this comparison isolates the west proxy -> exact Object source substitution inside the newer Weather identity.
+**Map PR #24 / Environment** — comment `5697641785`
 
-Across **all 17 matched states**, the pixel delta is static and localized:
+Recorded exact workflow/artifact identities, fixed A/B pixel footprint, current-world visual observations and non-claims on the owning Environment PR.
 
-- `path_eye`: `7,779 / 792,000` changed pixels = `0.9821969697%` in every state; bounding box `x=284..418, y=380..458`;
-- `elevated_oblique`: `3,205 / 792,000` = `0.4046717172%` in every state; bounding box `x=532..618, y=267..324`.
+**Map PR #14 / Materials** — comment `5697644877`
 
-Retained states `0 / 8 / 16` were directly inspected in both fixed cameras. Within that bounded review:
+Returned the receiving result without asking Materials to accept an Environment preference: exact profile survives the full current world, frame/panel roles remain legible, but roof/infill are substantially darker under current Environment lighting and need Materials / Art Direction / Visual QA judgment.
 
-- the exact gray equipment case is visible in the west pavilion/path slot;
-- the east orange Object proxy remains the intended control;
-- the central route remains visually open;
-- pavilion and vegetation placement remain broadly stable;
-- the source-owned Weather streak field and west sapling visibly evolve through the inherited sequence;
-- the endpoint retains the same broad static composition and exact Object identity.
+**3D Art Director / Visual Observer QA**
 
-The stable localized A/B delta supports attribution to the intended Object substitution. It does **not** resolve the known perceptual issue that the exact source case is materially smaller/less prominent than the old proxy. That remains an Art Direction / Visual QA decision rather than permission for Environment to rescale the source.
+Review the exact current-world candidate, especially:
 
-## Handoffs recorded
+- whether the darker roof/infill hierarchy remains appropriately subordinate or collapses too close to one near-black mass;
+- whether the ochre panel reads as a service accent rather than a new path-end focal point;
+- whether the material hierarchy helps the exact smaller west Object source read coherently in the same shot;
+- whether the result should stay a receiving candidate or become the preferred Building response for this Map world.
 
-**VFX / Atmosphere — Map PR #22**
+Do not inherit final acceptance from standalone Building Materials or earlier PR #14 evidence.
 
-Posted the exact child result: PR #24 consumes PR #22 head `e482d003...`, seed `44021`, layout digest `7ed55e93...26f`, all 17 Weather states and the sapling sequence unchanged. VFX authority and the no-aesthetic-preference boundary remain with PR #22.
+**Runtime / VFX / Procedural / Nature**
 
-**Environment baseline-Weather convergence — Map PR #21**
-
-Posted continuity evidence that the exact PR #19 Object source/slot result also survives in the newer PR #22 Weather identity. PR #21 remains the baseline-Weather convergence record rather than being rewritten.
-
-**Runtime / Optimization — Map PR #23**
-
-Posted the new exact PR #24 proof-host counters and explicitly held Runtime budget transfer. PR #23 remains bound to its exact baseline-Weather before/after identity; any future budget adoption of PR #24 must rebind explicitly.
-
-**Visual Observer / QA + 3D Art Director**
-
-Review exact PR #24 retained frames for:
-
-- whether seed `44021` is perceptually preferable or merely structurally valid;
-- whether the exact smaller west Object source has acceptable hierarchy/readability in the full current world;
-- path/pavilion framing with both changes combined;
-- any recurrence of the historical rear-tree culling defect after this static composition change.
-
-Do not inherit final visual acceptance from PR #21 or PR #22 separately.
-
-**Object / Hard Surface / Rigging / Technical Art**
-
-Only the static structural Object source is consumed. No latch/lid motion, service-module attachment, source-owned pivot interface, UC hierarchy or physical behavior is inferred in Map.
-
-**Nature / Geometry / Materials**
-
-PR #10's two-sided leaf candidate remains isolated. Environment does not consume that representation until its renderer/lookdev/runtime gates support receiving adoption.
-
-**Building / Materials / Procedural**
-
-The source pavilion remains exact. Building PR #3/#4 are not absorbed into this Environment lane.
+No result is transferred automatically. VFX width fidelity, runtime budget, procedural placement-family evidence and Nature sidedness remain owned by their current exact lanes.
 
 ## Non-claims
 
 This activation does **not** establish:
 
-- aesthetic preference for Weather seed `44021`;
-- arbitrary Weather seed visual safety;
-- physical wind, turbulence, precipitation or force semantics;
-- Object materials, lid/latch motion, service-module attachment or physical mechanism behavior in Map;
-- final west Object scale/readability or permission to rescale source geometry;
-- final Environment dressing, final lighting or final atmosphere;
-- Nature PR #10 leaf representation adoption;
-- wall-clock playback or renderer interpolation;
-- target-device FPS, GPU time, VRAM, memory, draw-call, LOD or streaming budgets;
+- final Art Direction or independent Visual QA acceptance;
+- final UVs, textures, decals, weathering or physically measured Building surfaces;
+- final Environment lighting;
+- arbitrary cameras or renderer equivalence;
+- target-device FPS, CPU/GPU time, VRAM, memory, draw-call, LOD or streaming budgets;
 - collision, physics, navigation, traversal or gameplay;
-- independent combined-world Visual QA or final Art Direction acceptance;
+- adoption of newer Building Geometry/Hard-Surface successors beyond the exact PR #14 source identity;
+- adoption of newer Nature leaf-sidedness representation;
+- Weather width/ribbon acceptance from VFX PR #25;
 - CANON, production readiness, game readiness, or Environment / World Art mastery.
 
-## Continuity / placement boundary
+## Authority boundary
 
-PR #21 remains valid exact baseline-Weather + Object convergence evidence. PR #22 remains valid exact Weather-variant receiving evidence. PR #24 is a new explicit convergence identity and does not silently rewrite either donor's history.
+Map owns receiving composition. Building owns Building source and material semantics. Nature owns vegetation source/topology/material representation. Object owns Object source/mechanics. Weather/VFX own atmosphere semantics. Runtime owns performance acceptance. Materials owns source surface response. Visual QA and 3D Art Direction own perceptual acceptance.
 
-`axm-create-me` contains only this coordination/status record. Map owns receiving composition; Object owns Object source/mechanics; Nature owns vegetation source/topology; Building owns Building source; Weather/VFX own atmosphere semantics; Runtime owns performance acceptance; Visual QA and Art Direction own perceptual acceptance.
-
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` records coordination only. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
