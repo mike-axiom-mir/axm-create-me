@@ -1,28 +1,21 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-16
-State: **PASS_TARGET_HOST_LINEAR_INTERPOLATION_SUBSAMPLE_FIDELITY / EXACT OBJECT + TECHNICAL-ART + UC + RIGGING IDENTITIES / 3 x 101-KEY CONTINUOUS LINEAR TRACKS / 100 MIDPOINT OBSERVATIONS / ORDERING + ENVELOPE + NEUTRAL RETURN PASS / CONTROLLER + WALL-CLOCK + GAMEPLAY + PHYSICS + FINAL-MOTION HOLD**
+State: **PASS_ANIMATION_SOURCE_AUTHORITY_REBIND_MOTION_EQUIVALENCE / PASS_TARGET_HOST_SOURCE_AUTHORITY_REBIND_LINEAR_INTERPOLATION / EXACT HARD-SURFACE PR17 + RIGGING PR20 AUTHORITY / NO RETIME + NO RETARGET + NO KEY CHANGE / HISTORICAL LABELS PRESERVED / CONTROLLER + GAMEPLAY HOLD**
 
 ## Current activation
 
-The previous Animation activation had already established `PASS_TARGET_HOST_DISCRETE_ANIMATIONPLAYER_SAMPLED_SEEK` for the Object equipment-case sequence in Godot 4.7.2. Its explicit highest-value hold was the space **between** authored keys: exact sample seeks were proven, but continuous interpolation was not.
+The highest-leverage unoccupied Animation gap was not a new clip. Capability Cartography had already identified that Object Animation PR #10 remained truthful for its old exact latch lineage but needed an explicit successor rebind before the newer source-owned Hard-Surface pivot authority and Rigging acceptance could be treated as its dependencies.
 
-The bounded question for this activation was therefore:
+The bounded question was:
 
-> Can the same exact 101-sample / 40 Hz authored sequence run through a real Godot `AnimationPlayer` with continuous linear interpolation, with every interval midpoint observed against both the adjacent authored keys and the underlying smoothstep timing contract, while preserving latch-before-lid / lid-before-reengage ordering and neutral target geometry?
+> Can the existing exact 101-sample equipment-case lid/latch choreography be rebound to the exact current source-owned latch interface and exact Rigging source-authority acceptance without changing timing, keys, target geometry, release threshold, retained lever motion, or historical evidence identity?
 
 `axm-create-me` remained coordination-only. Product/evidence implementation stayed in `mike-axiom-mir/axm-object-design`.
 
 ## Constellation scan / lane choice
 
-- **Character:** still has no accepted animation-ready rig; current direction is local shoulder transition repair before downstream rig/deformation migration.
-- **Animal:** existing sampled motion remains historical; current connected-forelimb form/rig evidence is still a perceptual QA surface, so no silent clip transfer was made.
-- **Nature / Weather / Map:** dynamic motion remains owned by VFX / Environment / Runtime lanes.
-- **Weapon / Armor / Unit / Building / Misc:** no stronger accepted animation-ready rig + target receiver was available.
-- **Object:** already had exact source motion, exact Rigging evidence, exact Technical Art / UC transport, and a green discrete Godot `AnimationPlayer`; continuous interpolation was therefore the smallest unoccupied Animation-owned gap.
-- **UC / Profession Fabric:** no generic animation abstraction or profession extraction was justified.
-
-No second Object Animation PR was opened.
+Character has a newly migrated shoulder-form source but still needs connected Geometry and Rigging before an Animation transfer is justified. Animal's prior sampled motion remains historical rather than a stronger accepted deformation-ready target. Nature, Weather and Map dynamics remain VFX/Environment/Runtime owned. Weapon, Armor, Unit, Building and Misc expose no stronger accepted animation-ready receiver. Object therefore remained the strongest exact motion target, and the existing PR #10 lane was extended rather than duplicated. No UC or Profession Fabric extraction was justified.
 
 ## Reused lane
 
@@ -32,209 +25,130 @@ Draft PR: **#10 — Animation: prove bounded equipment-case lid open-hold-close 
 
 Branch: `studio/animation-object-lid-open-close-001`
 
-Final exact Animation head for this activation:
+Exact Animation head for this activation:
 
-**`5cb073f9fcf825014556ed165ee081e1eca71cdc`**
+**`6c81740c7895c90d6bb3a617d74f0863c52053f6`**
 
-Observed PR state: **OPEN / DRAFT / MERGEABLE**.
+Observed PR state: **OPEN / DRAFT / MERGEABLE**. This metadata is not merge authority.
 
-## Preserved motion and dependency identity
+## Exact dependency rebind
 
-The interpolation proof reuses the existing authored choreography without retiming or retargeting it:
+Historical Animation donor preserved unchanged:
 
-- asset: `modular-equipment-case-001`;
-- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- sequence ID: `lid-latch-open-hold-close-001`;
+- prior Animation head: `5cb073f9fcf825014556ed165ee081e1eca71cdc`;
+- sequence: `lid-latch-open-hold-close-001`;
 - sequence digest: `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
-- duration: `2.5 s`;
-- authored sample rate: `40 Hz`;
-- endpoint-inclusive samples: `101`;
-- exact target tracks: `3`;
-- exact keys per track: `101 / 101 / 101`;
-- original lid clip preserved: no retime / no retarget.
+- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- duration/sample grid: `2.5 s`, `40 Hz`, `101` endpoint-inclusive samples;
+- historical latch Rigging head: `3b667ff5d30c46ec2fe7da7679518970f8610018`, retained as provenance only.
 
-Exact receiver/dependency identities remain:
+Current source/mechanical authority consumed exactly:
 
-- Technical Art Object head: `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
-- Technical Art result: `PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_THROUGH_UC_SCENE_GRAPH`;
-- UC rigid-scene donor: `6dc465987e01362264f88b7cef4213609ae50763`;
-- rebound GLB SHA-256: `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`;
-- Hard-Surface ownership donor retained by the existing sequence: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
-- Rigging latch donor retained by the existing sequence: `3b667ff5d30c46ec2fe7da7679518970f8610018`;
-- target host: Godot `4.7.2-stable`, GL Compatibility.
+- Hard-Surface source interface head: `6086f39a3da344c57a68653f90d040e03e04cec2`;
+- source interface SHA-256: `bcbbe098371eb702bc9289a97370744093105925202eda6036bdced6e25e34d3`;
+- Rigging source-rebind head: `a1acd2bcb2074f41e536562f2673508e2cb0a4d5`;
+- Rigging binding SHA-256: `615f8ff34cc0897fd399345301efce1ca9cb0aa58e86caca92b914049b89adce`;
+- Rigging result: `PASS_SOURCE_OWNED_FRONT_LATCH_RIG_REBIND`;
+- release threshold before/after: `48.66480246428277° / 48.66480246428277°`;
+- terminal keeper separation before/after: `0.0015728659779458698 m / 0.0015728659779458698 m`.
 
-Hard-Surface PR #17 has a newer green source-owned pivot-interface candidate at `6086f39a3da344c57a68653f90d040e03e04cec2`. It is **not silently substituted** into this evidence chain. If it becomes the accepted dependency, Animation must explicitly rebind and rerun.
+The source/Rigging authority uses station labels `left` / `right`, while the historical Animation sequence uses `front-latch-left` / `front-latch-right`. Animation does not rewrite either identity. It records an explicit mapping through the unchanged exact component pairs `latch_0_lever + latch_0_keeper` and `latch_1_lever + latch_1_keeper`. Station-label equality is explicitly **not** required; component identity continuity is.
 
 ## Bounded implementation
 
-The surviving final proof files in Object PR #10 are:
+Added on Object PR #10:
 
-- `animation-proof/observe_interpolation_v3.gd`;
-- `.github/workflows/object-animation-interpolation-v3.yml`.
+- `assets/modular-equipment-case-001/source-authority-motion-rebind-002.json`;
+- `tools/verify_animation_source_authority_rebind.py`;
+- `.github/workflows/object-animation-source-authority-rebind.yml`.
 
-Proof schema:
+The verifier rebuilds the old exact Animation choreography and new exact Rigging source-authority evidence, validates every pinned identity, then recomputes the source-owned latch-lever geometry using the current source pivots at all `101 × 2 = 202` retained samples. It fails closed on pivot, dependency-head, motion-sample, timing, retarget or key-count drift.
 
-`axm.object-animationplayer-interpolation-proof/v0.3`
-
-The workflow rebuilds the exact authored sequence and exact Technical Art / UC / Rigging donors before opening the target host. The proof-local Godot `AnimationPlayer` uses:
-
-- one lid rotation value track;
-- two bilateral latch-pivot rotation value tracks;
-- `Animation.UPDATE_CONTINUOUS`;
-- `Animation.INTERPOLATION_LINEAR`;
-- exactly 101 authored keys per track.
-
-It then seeks the midpoint of **every one of the 100 authored intervals** and checks:
-
-1. actual Godot target transform vs the exact linear midpoint of the two neighboring authored keys;
-2. actual target transform vs the analytic smoothstep timing reference that generated the authored samples;
-3. latch release remains complete while lid motion is allowed;
-4. lid remains closed before release and during latch re-engagement;
-5. no lid/latch angle overshoots the authored envelope;
-6. proof-local latch pivot insertion does not change neutral target geometry;
-7. exact neutral start/end state remains intact.
-
-Five target-host frames are retained at `0.1125 / 0.5125 / 1.2375 / 1.7625 / 2.3875 s` for direct inspection.
+The target-host proof reuses the exact Technical Art / UC rigid receiver and exact prior interpolation observer logic. A proof-local station-label adapter exists only so the historical observer can consume the newer Rigging receipt; it preserves current source labels separately and is explicitly not a source contract or Rigging rewrite.
 
 ## Evidence-driven repair history
 
-Two proof-harness failures were retained rather than hidden.
+Two failures were retained rather than hidden.
 
-### Attempt 1 — static proof-script failure
-
-Head `b860e1252cf4562c3f2bb5287022e329349a2356`, workflow `35090594454`.
-
-All exact source/donor/Python/Godot setup gates passed, but Godot rejected the observer at parse time because one value from a Variant-backed dictionary lacked an explicit float type. No motion result was promoted.
-
-### Attempt 2 — wrong target-space reference sign
-
-Head `80f9e9744e0cddd549060b8a95c926a5f18ecc08`, workflow `35090998818`.
-
-The repaired observer executed and retained five real target-host frames, but its analytic lid reference used the source-side sign after the `[x,y,z] -> [x,z,y]` handedness conversion. That produced a false analytic lid error and correctly failed closed. This was a **proof-reference defect**, not evidence that Godot interpolation itself failed.
-
-The final v3 proof makes target-space conventions explicit:
-
-- lid target rotation: **positive X**;
-- latch target rotation: **negative X**.
-
-The superseded v1/v2 observer/workflow files were removed from the final branch after v3 passed; their failed commits/runs remain in history as provenance.
+1. Run `35096668731` failed because the first verifier incorrectly assumed historical and current station labels were equal. This exposed `front-latch-left/right` versus `left/right`; no motion result was promoted.
+2. Run `35096992751` passed the repaired structural rebind and negative controls, then Godot failed because the inherited observer still joined its rig rows by the historical labels. The final repair added the explicit proof-local label adapter keyed by exact unchanged component pairs instead of silently renaming source evidence.
 
 ## Final exact-head validation
 
 Dedicated workflow:
 
-**`35091468151 — Object AnimationPlayer interpolation evidence v3` — SUCCESS**
+**`35097202979 — Object animation source-authority rebind evidence` — SUCCESS**
 
 Exact tested head:
 
-**`5cb073f9fcf825014556ed165ee081e1eca71cdc`**
+**`6c81740c7895c90d6bb3a617d74f0863c52053f6`**
 
-Successful gates include:
+Structural result:
 
-- exact Object structural suite — SUCCESS;
-- exact Technical Art / UC rigid-scene rebuild — SUCCESS;
-- exact Hard-Surface / Rigging donor reconstruction — SUCCESS;
-- exact 101-sample choreography rebuild — SUCCESS;
-- cross-repo identity gate — SUCCESS;
-- pinned Godot 4.7.2 import — SUCCESS;
-- all 100 authored half-step target observations — SUCCESS;
-- retained interpolation receipt validation — SUCCESS;
-- retained evidence upload — SUCCESS.
+**`PASS_ANIMATION_SOURCE_AUTHORITY_REBIND_MOTION_EQUIVALENCE`**
 
-Current scoped result:
+Measured structural evidence:
 
-**`PASS_TARGET_HOST_LINEAR_INTERPOLATION_SUBSAMPLE_FIDELITY`**
+- source-owned lever geometry comparisons: **202**;
+- geometry mismatches: **0**;
+- source-interface vs Rigging pivot residual: **0.0 m**;
+- release-threshold delta: **0.0°**;
+- terminal keeper-separation delta: **0.0 m**;
+- motion changed: **false**;
+- retimed: **false**;
+- retargeted: **false**;
+- key count changed: **false**;
+- all three deliberate negative controls rejected as expected.
+
+Real target-host result in Godot `4.7.2-stable`, GL Compatibility:
+
+**`PASS_TARGET_HOST_SOURCE_AUTHORITY_REBIND_LINEAR_INTERPOLATION`**
+
+Measured target-host evidence:
+
+- exact UC rebound GLB SHA-256: `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`;
+- `AnimationPlayer` tracks: **3**;
+- keys per track: **101 / 101 / 101**;
+- midpoint observations: **100 / 100 authored intervals**;
+- maximum lid adjacent-key linear residual: **`0.0000136198822247025°`**;
+- maximum latch adjacent-key linear residual: **`0.00000457763671590783°`**;
+- maximum lid analytic smoothstep error: **`0.0805640891746293°`** under `0.09°` bound;
+- maximum latch analytic smoothstep error: **`0.337504577636722°`** under `0.35°` bound;
+- neutral pivot-wrapper drift: **`0.0 m`**;
+- ordering violations: **0**;
+- authored-envelope overshoot violations: **0**;
+- exact neutral start/end lid and latch angles: **0°**.
+
+Five retained target-host frames remain at `0.1125 / 0.5125 / 1.2375 / 1.7625 / 2.3875 s`. The first and last midpoint images again share a digest because the authored sequence is symmetric at those equal release/re-engage positions; this is not a physics claim.
 
 ## Retained exact evidence
 
 Artifact:
 
-- ID: **`10444024232`**;
-- name: `object-animationplayer-interpolation-v3-5cb073f9fcf825014556ed165ee081e1eca71cdc`;
-- size: **`155,134 bytes`**;
-- GitHub archive SHA-256: **`ccfcd467ed0cd6eb2a8035e48ad9ae5f77a058f460faa8ac18757deb4d127f66`**;
-- exact-head binding: `5cb073f9fcf825014556ed165ee081e1eca71cdc`.
+- ID: **`10446966329`**;
+- name: `object-animation-source-authority-rebind-6c81740c7895c90d6bb3a617d74f0863c52053f6`;
+- size: **`167,390 bytes`**;
+- GitHub archive SHA-256: **`9614d65b63a6acf22bea645f62352ad3a9eb6af342ee74ed13010ca4d8bc6b94`**;
+- exact-head binding: `6c81740c7895c90d6bb3a617d74f0863c52053f6`.
 
-The retained ZIP was downloaded after CI and independently rehashed to the exact same archive digest.
-
-## Exact measured target-host observations
-
-- `AnimationPlayer` tracks: **3**;
-- keys per track: **`101 / 101 / 101`**;
-- continuous midpoint observations: **100 / 100 authored intervals**;
-- maximum lid deviation from exact adjacent-key linear interpolation: **`0.0000136198822247025°`**;
-- maximum latch deviation from exact adjacent-key linear interpolation: **`0.00000457763671590783°`**;
-- maximum lid linearized-vs-analytic smoothstep error: **`0.0805640891746293°`**;
-- maximum latch linearized-vs-analytic smoothstep error: **`0.337504577636722°`**;
-- bounded analytic limits: lid `0.09°`, latch `0.35°`;
-- neutral pivot-wrapper insertion drift: **`0.0 m`**;
-- ordering violations: **0**;
-- authored-envelope overshoot violations: **0**;
-- exact start lid/latches: **0° / 0° / 0°**;
-- exact end lid/latches: **0° / 0° / 0°**.
-
-The worst analytic lid midpoint is interval `39`; the worst analytic latch midpoint is interval `9`. These remain below the predeclared bounds and are expected linearization error between the retained 40 Hz authored samples, not target-host drift.
-
-## Direct retained visual observation
-
-The five retained midpoint frames were downloaded and directly inspected.
-
-Observed bounded sequence:
-
-- `0.1125 s`: lid remains closed while front latch levers are in release motion;
-- `0.5125 s`: latches remain released while the lid is visibly opening;
-- `1.2375 s`: lid is at the open hold while release remains held;
-- `1.7625 s`: lid is visibly closing while release remains held;
-- `2.3875 s`: lid is closed while latch re-engagement is underway.
-
-The first and last retained midpoint images have the same SHA-256 because both have a closed lid with symmetric latch angles at equal points in release/re-engage timing. This is consistent with the authored symmetric sequence; it is not used as a physics claim.
-
-No detached/floating latch geometry is visible in the inspected midpoint set.
-
-## Preserved earlier result
-
-The earlier exact discrete target-host proof remains valid historical evidence:
-
-**`PASS_TARGET_HOST_DISCRETE_ANIMATIONPLAYER_SAMPLED_SEEK`** at head `f0739b65c9a318d490a38b8cf64283d8a262bd53`.
-
-That proof established exact authored-key seeking and exact visual neutral return. The new result adds continuous in-between target-host evidence; it does not rewrite or invalidate the discrete result.
+The exact ZIP was downloaded after CI and independently rehashed to the same archive digest.
 
 ## Truth boundary / non-claims
 
-This PASS establishes only:
+This PASS establishes only that the existing exact Object choreography can explicitly consume the current source-owned Hard-Surface latch interface and current Rigging source-authority acceptance while preserving the historical motion sequence exactly, and that the same sequence still reproduces its bounded LINEAR interpolation behavior in the exact Godot target receiver.
 
-> the exact current Object choreography can be represented as three continuous LINEAR Godot `AnimationPlayer` tracks over the exact UC rigid-scene target, and every midpoint between its 101 authored 40 Hz keys remains within exact adjacent-key interpolation tolerance, bounded smoothstep linearization error, authored angle envelopes and the release -> lid -> re-engage ordering contract while preserving neutral target geometry.
-
-It does **not** establish:
-
-- real-time or wall-clock `40 Hz` playback pacing;
-- frame scheduler behavior under load;
-- a runtime controller, interaction graph or state machine;
-- input handling;
-- gameplay timing, usability or gameplay acceptance;
-- physical latch hook/catch/retention behavior;
-- collision-engine clearance across continuous time;
-- force, spring, friction, damping, wear, tolerances or engineering validity;
-- final timing, weight, personality, anticipation, overshoot or secondary motion;
-- final Art Direction / Visual Observer acceptance;
-- audio/VFX synchronization;
-- target-device FPS/GPU/VRAM/performance acceptance;
-- adoption of Hard-Surface PR #17 into this exact evidence chain;
-- a generic UC animation system;
-- Profession Fabric promotion;
-- CANON, production readiness, game readiness or Animation mastery.
+It does **not** establish physical latch hook/catch/retention, forces, collision acceptance, a runtime controller or state machine, input handling, real wall-clock `40 Hz` pacing, gameplay timing or gameplay acceptance, target-device performance, final motion weight/style, Art Direction or Visual QA acceptance, CANON, production/game readiness, or Animation mastery. Technical Art PR #21 and Runtime PR #22 remain truthful for their old exact Animation dependency and are **not silently rebound** by this result; any successor adoption must be explicit in those owning lanes.
 
 ## Four-root gate
 
-- **Truth:** two proof-harness defects were recorded rather than interpreted as target-motion evidence. The final claim is bound only to the exact successful v3 head/run/artifact and independently checked archive digest.
-- **Agency / non-domination:** Hard Surface retains source/mechanical meaning; Rigging retains articulation authority; Technical Art / UC retain transport identity; Animation owns timing/interpolation evidence only; Runtime/controller/gameplay and Art Direction/QA keep their own acceptance gates.
-- **Continuity:** existing Object Animation PR #10 was extended rather than duplicated. Prior discrete and source-space evidence remain traceable. Superseded proof files were removed only after the corrected evidence passed; failed commits/runs remain in history.
-- **Wisdom before speed:** no controller, gameplay timing, new retime, physics latch, generic UC animation abstraction or Profession extraction was added. The smallest explicit hold from the previous activation was tested directly.
+- **Truth:** both failed rebind attempts remain traceable; the station-label mismatch was represented explicitly rather than normalized away. Final claims bind only to exact successful head/run/artifact evidence.
+- **Agency / non-domination:** Hard Surface retains source/mechanical authority, Rigging retains articulation acceptance, Animation owns choreography/rebind motion evidence only, and Technical Art/Runtime/gameplay/Art Direction/QA retain their own gates.
+- **Continuity:** PR #10 was extended instead of duplicated; the old Animation head remains valid evidence for its historical dependency chain and was used as the exact motion donor rather than rewritten.
+- **Wisdom before speed:** no new choreography, retime, generic UC abstraction, controller, gameplay timing or Profession extraction was added when the narrower provenance rebind closed the real dependency gap.
 
 ## Handoffs / next gate
 
-- **Visual Observer / QA:** review the retained midpoint frames together with the earlier exact-key frame set. Current evidence says interpolation is structurally faithful; it does not say the motion has final visual weight/style.
-- **3D Art Director:** the existing timing contract is unchanged. Decide later whether the mechanical timing itself deserves aesthetic refinement.
-- **Runtime / Optimization:** continuous `AnimationPlayer` interpolation is now directly observed at deterministic seeks, but real-time scheduler/controller/device performance remains yours.
-- **Hard Surface / Rigging:** if Hard-Surface PR #17 becomes the accepted source pivot identity, request an explicit provenance rebind rather than numeric-equivalence substitution.
-- **Technical Art / UC:** exact rigid-scene receiver identity was reused unchanged; no new UC capability is requested from this result.
+- **Technical Art / UC Integration:** Animation now has an explicit successor source-authority head. Rebind your successor evidence only if adopting it; do not relabel PR #21's historical result.
+- **Runtime / Optimization:** the old compact-key result remains truthful for its exact old Animation donor. A successor runtime proof may explicitly consume this new head if needed.
+- **Hard Surface / Rigging:** exact current source authority was consumed without numeric-only substitution or source rewrite.
+- **Visual Observer / 3D Art Director:** motion content is intentionally unchanged. This activation proves provenance/receiver continuity, not improved aesthetic timing or final motion quality.
