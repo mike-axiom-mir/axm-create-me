@@ -1,198 +1,226 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-17
-State: **PASS_ATTRIBUTE_AWARE_INDEXING_PLACEMENT_MAP / THREE MATERIAL REPRESENTATION CASES ACROSS MAP + ANIMAL / UC ISSUE #170 OPEN FOR OBSERVER-ONLY ELIGIBILITY REPORT / GENERIC REINDEX TRANSFORM + AUTO-ADOPTION HELD / PROFESSION FABRIC NOT IMPLEMENTATION HOME / NO PRODUCT OR UC CODE MOVE**
+State: **PASS_SOURCE_TO_RENDER_VERTEX_DOMAIN_PLACEMENT_REFINEMENT / FOURTH UV+TANGENT CASE CLOSES PRIOR TRIGGER / UC #170 REFINED WITH RENDER_DOMAIN_SPLIT_REQUIRED / SOURCE INDEXING != RENDER ATTRIBUTE DOMAIN / GENERIC REINDEX + AUTO-COLLAPSE HELD / PROFESSION FABRIC NOT IMPLEMENTATION HOME / NO PRODUCT OR UC CODE MOVE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest specialist status, current design PRs, current Universal Creation and Profession Fabric evidence before selecting one bounded Cartography action.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest specialist status, newest coordination commits, active design PRs, current Universal Creation state and Profession Fabric evidence before selecting one bounded Cartography action.
 
-`axm-create-me` remains **coordination only**. This activation changes only this Cartography status plus evidence-linked handoff/proposal records. No design source, mesh, normal/tangent policy, material, rig, animation, runtime implementation, Universal Creation implementation, Profession Fabric implementation, acceptance threshold, merge state or CANON state was changed.
+`axm-create-me` remains **coordination only**. This activation changes only this Cartography status and one evidence-linked proposal refinement on an existing Universal Creation issue. No design source, source topology, render mesh, UV, tangent, normal, material, rig, animation, runtime implementation, Universal Creation implementation, Profession Fabric implementation, acceptance threshold, merge state or CANON state was changed.
 
-The previous Cartography result at commit `003062e5425d4b36c10e21e51ec55a10e030f3f6` remains historical truth. Its decisions remain intact: source-successor migration is a typed dependency DAG; migration state is separate from bounded claim verdict; changed producer fields require derived-representation dependency tracking; Sticker Fabric remains the shared repository-level home for neutral rigid-frame placement while UC keeps its compatible standalone copy; UC self-intersection issue #162 remains separate; indexed vertex-fan extraction remains held pending independent reuse evidence.
+The previous Cartography result at commit `b0cd5b383b8d4e3a800f62e867b2171382ab1e20` remains historical truth. Its central placement remains intact: attribute-aware indexed-surface eligibility belongs in Universal Creation as neutral representation machinery, beginning with an observer/report rather than an automatic mutating transform. The new evidence refines that contract rather than replacing it.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation scan
 
-The strongest fresh repeated cross-repo signal is no longer a source-migration procedure. It is **indexed surface representation** appearing in three materially different Runtime receiving cases.
+The strongest fresh cross-repo signal landed after the previous Cartography pass in the Animal surface pipeline.
 
-### Case A — imported Object material receiver inside Map
+### New Geometry evidence — source domain and render domain are now explicitly different
 
-`mike-axiom-mir/axm-map-design` Runtime PR #33, exact head:
+`mike-axiom-mir/axm-animal-design` Geometry PR #20:
 
-`ddd9e8b783b213c6e44bf5eea482de1d41918766`
+`Geometry: add mirror-stable UV and tangent-basis candidate`
 
-This is an imported five-surface Object receiver inside the Map world, not an Object-repository source rewrite.
+Exact head:
 
-Exact evidence:
+`ca4bb8a2f144231f8755eacc980785d1807b79db`
 
-- `812` triangles preserved;
-- five source-owned material surfaces preserved;
-- stored vertices `2436 -> 468`;
-- candidate index stream `2436`;
-- bounded logical position+normal+32-bit-index payload `58,464 B -> 20,976 B` (`-64.12%`);
-- observed RenderingServer buffer memory `-34,488 B` across all `68` corresponding observations;
-- draw calls, objects, primitives and observed texture memory all `+0` delta;
-- all `68` retained PNGs byte-identical.
+This candidate preserves the exact geometric source:
 
-Critical boundary: the candidate calls Godot `SurfaceTool.index()` **after** the receiver has generated normals, so vertices whose full post-normal attributes differ are not silently welded merely because positions match.
+- `42` source vertices;
+- `80` source triangles;
+- exact source positions unchanged;
+- exact source triangle records unchanged;
+- Geometry PR #13 exact-mirror topology unchanged;
+- Geometry PR #16 explicit logical-quad normal vectors unchanged.
 
-### Case B — Map-owned generated footprint cue
+But a truthful UV/tangent representation cannot keep one render vertex for every source vertex. The candidate therefore exposes a distinct render-attribute domain:
 
-`mike-axiom-mir/axm-map-design` Runtime PR #34, exact head:
+- `84` render vertices;
+- `80` triangles;
+- deterministic source-to-render mapping;
+- exact source triangle records and source positions reconstruct through that expanded domain.
 
-`aaeff0dbd31d59498f23e3048527ee2dbbebba6d`
+The `+42` render vertices are not accidental duplication. They are attributable to representation semantics:
 
-This is a materially different generated single-surface / four-box Map cue.
+1. cylindrical side-strip UV seam duplicates;
+2. cap-vs-side UV-island splits;
+3. per-wedge cap-pole splits because one polar UV centre has no single coherent tangent direction for the complete fan.
 
-Exact evidence:
+Retained structural observations include:
 
-- `48` triangles preserved;
-- stored vertices `144 -> 24`;
-- candidate indices `144`;
-- bounded logical position+normal+32-bit-index payload `3,456 B -> 1,152 B` (`-66.67%`);
-- observed RenderingServer buffer memory `-2,112 B` across all `68` corresponding observations;
-- draw/object/primitive/observed-texture counters unchanged.
+- minimum UV triangle area `0.0031533249771499954`;
+- naive unsplit cylindrical maximum U span `0.9`;
+- seam-aware maximum side-triangle U span `0.10000000000000009`;
+- maximum `|tangent dot normal|` residual `6.610857694600014e-13`;
+- maximum tangent unit-length error `5.055955654142963e-13`;
+- exact bilateral render-position / normal / UV / tangent correspondence at the retained precision;
+- tangent handedness mismatches `0 / 84`.
 
-Unlike PR #33, the original byte-identical gate **failed**. Final evidence retains exactly one changed pixel in every frame, with a one-blue-channel-LSB decrement at stable camera-specific coordinates. Runtime therefore correctly records the storage win without claiming visual neutrality or adoption.
+Dedicated workflow `35161496181` completed SUCCESS. Retained artifact `10472719015`, archive SHA-256 `7f5e63c0445abdfef08dc041bf53f41ebdf295527d897d2254d097b416042afe`.
 
-This is the key non-transfer case: a structurally valid indexing result and unchanged renderer submission counters do not imply byte-identical raster output.
+Geometry correctly keeps this candidate Animal-local. It does not claim a generic UV/tangent generator or production texture atlas.
 
-### Case C — Animal source-owned explicit-normal surface
+### New Rigging evidence — the expanded render identity survives deformation as an identity
 
-`mike-axiom-mir/axm-animal-design` Runtime PR #19, exact head:
+Animal Rigging PR #22:
+
+`Rigging: prove tangent frames across elbow deformation`
+
+Exact head:
+
+`63c65d57fda0595217f86d971ff8c67f256188be`
+
+It stacks exactly on Geometry PR #20 and preserves the exact `42 -> 84` source-to-render mapping and exact UV identity while re-deriving posed normals/tangents through the established rig envelope.
+
+Directly exercised:
+
+- 2 elbows;
+- 2 exact weighting profiles;
+- 121 integer-angle samples per side/profile from `-60..+60 deg`;
+- `484` posed tangent fields;
+- `84` render tangents per field;
+- `40,656` directly checked tangent vectors.
+
+Retained extrema:
+
+- maximum tangent unit-length error `3.3306690738754696e-16`;
+- maximum `|tangent dot normal|` `1.1934897514720433e-15`;
+- maximum UV drift `0.0`;
+- handedness drift count `0`;
+- neutral tangent reproduction residual `7.210895423038402e-13`;
+- bilateral reflected tangent-XYZ residual `7.633310189221143e-13`;
+- bilateral handedness mismatches `0`.
+
+Dedicated workflow `35162365467` completed SUCCESS. Retained artifact `10473895531`, SHA-256 `8ba40d9ea7017c01a059bf7c5eafc264dccaf4e35542d670277ee73518241a7e`.
+
+This remains structural finite-sampled evidence. It does not establish shaded tangent-space quality, animation, transport or runtime acceptance.
+
+### Existing Runtime evidence is now a historical identity, not a transferable optimization result
+
+Animal Runtime PR #19 remains truthful at exact head:
 
 `f23ad948cd0904c232ce2963ab7c812372752e3c`
 
-This case differs from both Map cases because the source representation is already indexed and its final explicit normal field is one-to-one with the source vertex domain.
+Its result applies to Geometry PR #16's **normal-only** attribute domain:
 
-Exact source/representation:
+- source/indexed candidate `42` stored vertices / `240` indices;
+- expanded control `240` stored vertices / `0` indices;
+- `80` triangles;
+- exact 42 explicit normals;
+- tangents and UVs explicitly `NOT_DEFINED_NO_UV_BASIS`;
+- observed RenderingServer buffer delta `-3,480 B`;
+- two repaired fixed-camera PNG pairs byte-identical.
 
-- Geometry PR #16 producer head `79e1667f6cc91e2ec8e41f01df18b6933c9c876d`;
-- `42` positions;
-- `42` explicit logical-quad normals;
-- `240` source indices / `80` triangles;
-- one surface;
-- tangents remain `NOT_DEFINED_NO_UV_BASIS`.
+That result cannot be relabelled onto Geometry PR #20. PR #20 intentionally changes the render attribute domain to `84` vertices because UV/tangent semantics require splits. Runtime must freshly measure that representation if it advances.
 
-A/B:
+### Materials evidence remains a different claim surface
 
-- expanded control: `240` stored vertices / `0` indices;
-- source-index-preserving candidate: `42` stored vertices / `240` indices;
-- bounded logical payload `5,760 B -> 1,968 B` (`-3,792 B / -65.833333%`);
-- repaired two-camera proof: `1` object / `80` primitives / `1` draw call in each mode;
-- observed RenderingServer buffer memory `-3,480 B`;
-- draw/object/primitive/texture deltas `+0`;
-- both fixed-camera PNG pairs byte-identical.
+Animal Materials PR #21, exact head `eb9b0d9c6b2d5058c44bb874c2ec264b48f6b6e2`, now proves representative deformed explicit-normal target-host evidence across 80 real Godot renders. The explicit field reduces historical-vs-exact topology shading delta in all `20 / 20` retained pose/camera pairs, with retained reduction range `45.5222% .. 67.2968%`, but nonzero residual remains.
 
-The first technically green Runtime proof was rejected because one camera failed to present the target. The repaired proof now fails closed on target visibility. That provenance repair strengthens this case rather than hiding proof-host error.
+That evidence does not yet consume the new tangent-space basis and therefore is not a tangent-space appearance PASS. Materials, Visual QA and Art Direction retain that authority.
 
 ## Selected material cross-repo learning
 
-### The reusable capability is attribute-aware indexing eligibility, not a universal `index()` transform
+### Source/topology vertex identity and render/attribute vertex identity are separate capability domains
 
-These three cases support one shared principle:
+The previous UC #170 proposal already distinguished:
 
-> **Index preservation/deduplication is safe to consider only relative to the complete declared per-vertex attribute domain. Position equality alone is not an eligibility contract, and structural eligibility does not transfer rendered-neutrality or performance acceptance.**
+- preserving a valid source-owned index domain; and
+- post-attribute tuple deduplication of an expanded representation.
 
-Two distinct representation paths need to stay separate:
+The new Animal UV/tangent case exposes a missing third state:
 
-1. **source-index preservation** — the producer already owns an index domain and each declared per-vertex attribute has one value per source vertex; Animal PR #19 is the current example;
-2. **post-attribute tuple deduplication** — an expanded consumer representation may be compacted only after the final declared attributes exist, and the deduplication key must include the complete supported attribute tuple; Map PRs #33/#34 are the current examples.
+> **A safe render representation may first require deterministic vertex expansion from the source/topology domain because one source vertex can legitimately need multiple render vertices carrying incompatible UV/tangent/island semantics.**
 
-That distinction prevents a future shared utility from accidentally welding:
+Therefore safe indexing cannot be modeled as "find the smallest vertex count" or as an invariant that candidate vertex count must be less than or equal to source count.
 
-- hard/split normal seams;
-- UV seams;
-- tangent seams;
-- color seams;
-- joint/weight seams;
-- morph/custom-channel seams;
-- or any channel the observer does not understand.
+The correct model is a lineage:
 
-The Map #34 one-LSB result additionally proves that even a structurally correct representation change can require fresh receiver visual evidence.
+`source/topology vertex domain -> render/attribute vertex domain -> optional eligible deduplication inside that render domain`
 
-## Universal Creation placement decision
+The first arrow may increase vertex count. That increase can be required for truth rather than evidence of inefficiency.
 
-Current UC main inspected this activation:
+### Why this changes the shared observer contract
 
-`ae76436052a13e2d9214ba527c9b84e1cffc622c`
+A neutral indexing observer must not collapse two render vertices merely because they share the same source position or source vertex ID if they intentionally differ because of:
 
-Its newest movement is unrelated physics preflight work.
+- UV seam identity;
+- surface/material island identity;
+- tangent-space singularity;
+- hard/split normals;
+- joint/weight data;
+- color, morph or other declared custom channels;
+- another protected representation split the observer understands.
 
-The shared placement signal is nevertheless clear enough for a **proposal** because UC already owns the neutral representation layer:
+In the current Animal case, collapsing the 84-vertex render domain back toward the 42-vertex source domain would erase valid UV/tangent distinctions even though source geometry would appear unchanged.
 
-- `axm.surface-3d/v0.1` already carries indexed `positions`, matching per-vertex `normals`, and `indices`;
-- current rigged glTF machinery already carries indexed `POSITION`, `NORMAL`, `JOINTS_0`, `WEIGHTS_0` and index accessors;
-- the searched current UC main/open issue/PR surface exposed no existing attribute-aware indexing-eligibility observer that would make a new proposal duplicate active work.
+This is the fourth materially different representation case requested by the previous Cartography trigger and is stronger than a simple "add UV/tangent to the tuple key" lesson because it proves **intentional expansion is itself part of safe representation**.
 
-Therefore the candidate shared home is **Universal Creation**, but only for neutral machinery.
+## Universal Creation placement refinement
 
-Opened:
+Current Universal Creation main inspected this activation:
 
-**UC issue #170 — `Proposal: add attribute-aware indexed-surface eligibility report`**
+`2a798836378d47a787221597aa8fece0fd637e6a`
 
-The issue intentionally proposes an **observer/report first**, not a mutating generic reindex operation.
+Its newest movement is unrelated physics orthogonal-projection preflight work. No active implementation or comment existed on indexing issue #170 before this Cartography refinement, so no active UC lane was duplicated.
 
-Proposed bounded states:
+Existing issue:
 
-- `PRESERVE_SOURCE_INDEXING`;
-- `POST_ATTRIBUTE_TUPLE_DEDUP_CANDIDATE`;
-- `HOLD_ATTRIBUTE_SEAM_AMBIGUITY`;
-- `NOT_EVALUATED_UNSUPPORTED_CHANNEL`.
+**UC #170 — `Proposal: add attribute-aware indexed-surface eligibility report`**
 
-A future experiment should report exact source/surface identity, declared attribute inventory, before/after candidate counts, deterministic old->candidate mapping, tuple/key digests and seam/split counts. It must fail closed on unsupported/unknown channels and retain bounded work limits.
+Capability Cartography added refinement comment:
 
-Representative negative controls should preserve splits across hard normals, UVs and skin joint/weight differences before broader tangent/color/morph/custom-channel support is claimed.
+**`5706284806`**
 
-### Why no UC implementation was moved now
+The proposal remains observer/report-first, but should now explicitly support a state such as:
 
-Current evidence supports **placement of the missing diagnostic question**, not a mature universal transform.
+`RENDER_DOMAIN_SPLIT_REQUIRED`
 
-Map #34 demonstrates a real renderer-visible nonzero result despite structural success. Animal has no UV/tangent basis yet. The current three proofs do not exercise every attribute channel UC can carry. Therefore implementing automatic reindexing now would outrun the evidence and risk silent attribute loss.
+(name provisional; implementation ownership may choose a better neutral name).
+
+Minimum report extension proposed:
+
+1. exact source/topology vertex-domain identity, count and index stream;
+2. exact render/attribute vertex-domain identity, count and index stream when distinct;
+3. deterministic source -> render mapping;
+4. protected split reasons per render instance, e.g. `UV_SEAM`, `SURFACE_ISLAND`, `TANGENT_SINGULARITY`, expressed generically rather than Animal-hardcoded;
+5. complete supported declared attribute tuple in the render domain;
+6. candidate recombination/dedup only inside the render domain where all supported attributes and protected split semantics allow it;
+7. fail-closed `NOT_EVALUATED_UNSUPPORTED_CHANNEL` behavior;
+8. no assumption that a valid candidate must reduce source vertex count.
+
+A required negative control should attempt to collapse a known UV seam / cap-island / polar tangent split and must HOLD rather than report an optimization win.
+
+### Why no UC implementation moved now
+
+The new evidence is sufficient to refine **what the neutral observer must know**, not to authorize a generic mutating transform.
+
+Still held:
+
+- automatic render-domain construction;
+- automatic generic reindexing;
+- automatic collapse of source-to-render splits;
+- arbitrary UV/tangent/color/skin/morph/custom-channel support;
+- importer regeneration/reorder safety;
+- target-host or target-device visual/performance equivalence;
+- producer adoption.
 
 No UC code changed this activation.
 
 ## Profession Fabric boundary
 
-Current Profession Fabric main remains `941bd05007eb5cd88e773e66c858c62cf9de38a9`; its newest main movement is unrelated Special Effects Architect work.
+Current Profession Fabric main remains:
 
-PF issue #38 remains the correct experimental home for **evidence/provenance procedure** around source-successor/rebind dependency records. It may eventually describe that a representation identity changed and which receiving claims require rerun, but it must not own or implement vertex/index/attribute eligibility logic.
+`941bd05007eb5cd88e773e66c858c62cf9de38a9`
 
-Therefore no PF issue, profession body or implementation was added for this finding.
+PF issue #38 remains the experimental home for **source-successor / rebind evidence and provenance procedure**. Its prior refinements already separate consumed dependency edges, migration state, bounded claim verdicts and changed-field/derived-representation dependencies.
 
-## Fresh Animal normal / transport state retained but not duplicated
+PF may truthfully record that a representation changed from a 42-vertex normal-only domain to an 84-vertex UV/tangent render domain and therefore Runtime/Technical-Art/Visual claims require fresh evidence. It should **not** decide whether a seam split is geometrically/attribute-wise required or perform index eligibility logic.
 
-This activation also observed the current Animal chain without taking its owner lanes:
-
-- Geometry PR #16 proves a diagonal-invariant exact-mirror explicit normal field structurally while tangents remain undefined;
-- Materials PR #17 proves that those identical vertex-normal vectors reduce but do not eliminate topology-dependent target-host shading (`53.9171%` maximum full-frame reduction);
-- Rigging PR #18 proves the exact derivation remains structurally coherent across `484` sampled pose-normal fields / `20,328` checked normals;
-- Technical Art PR #3 now proves one exact skinned RIGHT forelimb with `41` authored keys through current UC's unchanged generic rigged-glTF codec, while final explicit-normal/tangent transport remains held;
-- Visual QA independently accepts static shading reduction/noncorruption but blocks final normal/tangent adoption pending tangents, deformed shaded review and Art Direction.
-
-Those are active owner lanes and are not folded into the indexing proposal. In particular, UC #170 must not become a backdoor normal/tangent policy or claim that source-index preservation makes the explicit Animal normal policy production-ready.
-
-## Handoffs recorded
-
-### Animal Runtime PR #19
-
-Capability Cartography comment:
-
-**`5705761893`**
-
-The handoff records Animal as the source-index-preservation case, points to UC #170, and explicitly preserves Animal Runtime / Geometry / Art-QA ownership.
-
-### Map Runtime PR #34
-
-Capability Cartography comment:
-
-**`5705763513`**
-
-The handoff records the one-pixel / one-LSB result as the key reason a future UC eligibility PASS must not transfer visual-neutrality or Art/QA acceptance.
-
-No comment was required on Map PR #33 to change its state; its exact imported multi-surface evidence is referenced directly in UC #170 and remains historical/current evidence under its own identity.
+Therefore no PF implementation, new PF issue or profession promotion was opened for this finding.
 
 ## Current capability / placement map
 
@@ -203,40 +231,47 @@ No comment was required on Map PR #33 to change its state; its exact imported mu
 | changed-field -> derived-representation dependency signature | **PF #38 refinement retained** |
 | neutral rigid-frame placement | **shared home confirmed = `axm-sticker-fabric`; UC compatible standalone copy preserved** |
 | nonadjacent triangle self-intersection observer | **UC issue #162 separate candidate; unchanged here** |
-| indexed vertex-fan diagnostic | **HOLD extraction; independent second-domain unchanged-method proof still missing** |
-| indexed surface representation eligibility | **UC issue #170 NEW observer/report candidate; three materially different receiving cases support placement** |
-| generic mutating reindex transform | **HOLD — attribute-channel coverage + receiver regressions insufficient** |
-| Animal logical-quad normal derivation | **Animal Geometry-owned; no UC promotion** |
-| final Animal normal/tangent visual policy | **Animal Art / Materials / QA owned; held** |
+| indexed vertex-fan diagnostic | **HOLD extraction; independent unchanged-method second-domain proof still missing** |
+| indexed surface eligibility | **UC issue #170 observer/report candidate** |
+| source/topology -> render/attribute vertex-domain lineage | **NEW refinement to UC #170; explicit expansion must be representable** |
+| generic mutating reindex transform | **HOLD** |
+| automatic collapse of render seams/islands/singularities | **HOLD / fail-closed** |
+| Animal UV/tangent basis | **Animal Geometry-owned** |
+| Animal deformed tangent-frame observer | **Animal Rigging-owned** |
+| Animal normal/tangent visual adoption | **Materials / Visual QA / Art Direction-owned; held** |
+| exact UV+normal+tangent GLB transport | **Technical Art-owned; not yet proven for PR #20 identity** |
+| 84-vertex representation runtime cost | **Runtime-owned; fresh measurement required** |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that Map PR #33, Map PR #34 or Animal PR #19 should merge or be adopted by producers;
-- arbitrary-mesh reindexing safety;
-- position-only welding safety;
-- safe handling of undeclared/unknown vertex channels;
-- UV/tangent/color/skin/morph/custom-channel completeness;
-- byte-identical rendered output from every eligible indexed representation;
-- renderer determinism across arbitrary cameras/backends;
-- target-device CPU/GPU/FPS/VRAM/heap improvement;
-- a production UC indexing transform;
-- final Animal normal/tangent policy;
+- that Animal Geometry PR #20 or Rigging PR #22 should merge or become CANON;
+- final Animal UV layout, texture packing or texel density;
+- tangent-space normal-map visual correctness;
+- production tangent transport;
+- that `84` render vertices is globally minimal or optimal;
+- arbitrary-mesh source-to-render expansion safety;
+- automatic generic seam detection;
+- safe collapse of UV, tangent, normal, material, skin, morph or custom-channel splits;
+- exact GLB/import preservation of the 42->84 mapping;
+- target-device memory/FPS/GPU/VRAM improvement;
+- a production UC indexing/reindexing transform;
 - PF implementation or profession promotion;
 - CANON, production readiness, game readiness or Cartography mastery.
 
 ## Next evidence triggers
 
-1. If UC #170 receives an implementation experiment, require observer/report behavior before mutation and exact fail-closed attribute-seam controls.
-2. If a fourth materially different receiver with UV/tangent/skin/morph/custom channels tests indexing, use it to determine whether the observer can safely expand its supported channel contract.
-3. If Map PR #34 receives an Art/QA decision, retain that as a receiver-owned claim; do not rewrite the structural indexing result.
-4. If Animal's explicit normal candidate gains a real UV/tangent basis, do not transfer PR #19 automatically; its indexing eligibility and target-host proof must be rebound to the new declared attribute domain.
-5. Keep PF #38, UC #162 and the vertex-fan extraction question separate from UC #170 unless future evidence proves an actual shared contract.
+1. **Runtime:** if Geometry PR #20 advances, measure the exact 84-vertex UV/tangent representation independently. Do not compare it to PR #19 by story; keep exact representation identities separate.
+2. **Technical Art:** prove whether the exact source->render split, UVs, explicit normals and tangent handedness survive UC/GLB transport without regeneration, vertex collapse or reorder ambiguity.
+3. **Materials / Visual QA / Art Direction:** if a tangent-space diagnostic is rendered, treat it as a fresh visual claim; structural tangent coherence is not appearance acceptance.
+4. **UC #170:** if implementation begins, require source-domain/render-domain distinction and a fail-closed control that refuses to merge intentional UV/island/tangent singularity splits.
+5. **Cross-domain validation:** a second materially different asset with intentional UV/tangent/render-domain splits would test whether the proposed split-reason vocabulary is genuinely neutral rather than Animal-shaped.
+6. Keep PF #38, UC #162, vertex-fan extraction and UC #170 separate unless future evidence proves an actual common contract.
 
 ## Roots check
 
-- **Truth:** Map #34's nonzero raster delta is preserved alongside the real storage savings; structural eligibility is not renamed visual neutrality.
-- **Agency / non-domination:** product owners keep representation adoption, Art/QA keep visual acceptance, Runtime keeps measured cost, UC would own only neutral diagnostic machinery, and PF keeps evidence procedure rather than machine semantics.
-- **Continuity:** PR #33, #34 and Animal #19 retain exact repository/head identities and historical receipts; no consumer result is relabelled merely because a shared proposal now exists.
-- **Wisdom before speed:** the shared proposal starts with a bounded eligibility observer and explicit seam controls rather than centralizing a mutating optimizer before multi-attribute evidence exists.
+- **Truth:** the new 42->84 expansion is recorded as required representation evidence rather than mislabeled regression or hidden duplication; the old 42-vertex Runtime PASS remains truthful only for its normal-only identity.
+- **Agency / non-domination:** Animal Geometry owns UV/tangent structure, Rigging owns deformation evidence, Runtime owns cost, Technical Art owns transport, Materials/QA/Art own appearance, UC would own only neutral observer machinery, and PF remains evidence/provenance procedure.
+- **Continuity:** PR #19, PR #20 and PR #22 remain distinct exact rollback/evidence identities; no historical result is rewritten because a richer attribute domain now exists.
+- **Wisdom before speed:** refine the observer contract around a real seam/singularity case before centralizing a mutating optimizer or chasing smaller vertex counts at the cost of render truth.
