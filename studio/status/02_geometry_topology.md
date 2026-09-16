@@ -1,181 +1,134 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-16
-State: **FAIL_CHARACTER_CONNECTED_SHOULDER_SAMPLED_NONADJACENT_SELF_INTERSECTION_GATE / 61 NEUTRAL PAIRS PER SIDE / EXACT RIGGING SUCCESSOR + RETAINED EVIDENCE / REPAIR + VISUAL + GAME READINESS HELD**
+State: **PASS_CHARACTER_CONNECTED_SHOULDER_TOPOLOGY_ONLY_INTERSECTION_REDUCTION / 374 → 58 SAMPLED PAIRS / HOLD_NONZERO_INTERSECTIONS + RIGGING REBIND + VISUAL + GAME READINESS**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/02_geometry_topology.md`, then re-scanned the active design constellation, current Geometry/Hard-Surface/Rigging/Visual-QA status and the latest open PRs.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/02_geometry_topology.md`, then re-scanned the active design constellation and newest specialist/PR state before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence code is in the owning design repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product and evidence code stays in the owning design repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Building activation remains preserved exactly at coordination commit `ae667ba6db44531f5361ea1e1168f2b16038600f`; this status does not relabel or erase that work.
+The previous full Character self-intersection diagnosis remains preserved in Git history; its immediately previous status blob was `20a1942a526b8aff567e7af3611d56d9de690741`. This activation does not relabel that FAIL as false: it builds a new rollbackable successor from it.
 
 ## Fresh constellation / duplication scan
 
-- **Building:** Geometry PR #6 remains a green derived header-segmentation candidate, but Hard Surface has not adopted it. Current Hard-Surface status explicitly holds further pavilion boolean-union/internal-face cleanup without a returned source-owner or downstream need. Geometry therefore did not continue Building automatically.
-- **Animal:** Geometry PR #4 and PR #7 already own connected-forelimb topology, self-intersection and ring-phase/deformation screens. No duplicate Animal lane was opened.
-- **Nature:** current leaf/backface Geometry work remains downstream-held; no stronger returned Geometry defect displaced Character.
-- **Character:** Geometry PR #3 exact connected shoulders were already edge-closed/oriented/single-component, and fresh Rigging PR #4 is now structurally green at mirrored `-40 / 0 / +40°` samples while explicitly holding self-intersection freedom. Visual QA identifies this as a strong future review surface while keeping self-intersection and perceptual seam/pinch acceptance separate. This is the new highest-leverage Geometry-owned gap.
-- **Map / Object / Armor / Unit / Weapon / Misc / Weather:** active specialist lanes or downstream dependencies own their current gaps; none had a fresher unowned Geometry defect.
-- **UC / Profession Fabric:** no extraction was justified. The selected observer is re-tested Character-local; one Animal precedent plus one Character receiving use is not enough reason to centralize domain-facing policy into UC.
+- **Character:** Geometry PR #5 remains the exact diagnosis authority for the connected-shoulder self-intersection defect. New Rigging PR #6 is active on a separate angle-conditioned weighting lane and explicitly preserves Geometry PR #5's `374` sampled-pair FAIL. Geometry therefore did **not** duplicate Rigging.
+- **Building:** Geometry PR #6 remains a source-adoption/downstream-held pavilion candidate; no fresher returned Building Geometry defect outranked Character.
+- **Animal / Nature:** existing Geometry lanes remain structurally evidenced and downstream/visual-held; no duplicate lane was opened.
+- **Map / Object / Armor / Unit / Weapon / Misc / Weather:** current gaps are owned by active specialist/downstream lanes or are not stronger than the neutral Character intersection defect.
+- **UC / Profession Fabric:** no extraction is justified. This repair is Character-local topology tied to one exact source/producer identity, not a neutral cross-domain policy.
 
 ## Selected bounded action
 
-Repository:
-
-`mike-axiom-mir/axm-character-design`
+Repository: `mike-axiom-mir/axm-character-design`
 
 New draft successor PR:
 
-**#5 — `Geometry: gate connected shoulder sampled self-intersections`**
+**#7 — `Geometry: reduce diagnosed shoulder intersections with topology-only opening repair`**
 
-Branch:
-
-`studio/geometry-character-shoulder-self-intersection-001`
+Branch: `studio/geometry-character-shoulder-opening-repair-001`
 
 Exact lineage:
 
 - connected Geometry producer PR #3: `dcb2185a42072540ef2be37329735357561e01b5`;
-- exact Rigging PR #4 base: `b0a03cbcb61e0f8deec37172d22ff1a7fff306c9`;
-- current Geometry successor head: **`eae6d296867ecaa40e8f5c3f1fe37d8e3019541e`**.
+- Rigging pose donor PR #4: `b0a03cbcb61e0f8deec37172d22ff1a7fff306c9`;
+- Geometry diagnosis PR #5: `eae6d296867ecaa40e8f5c3f1fe37d8e3019541e`;
+- current topology-repair head: **`8cc4a180cd1481d680841190b0038b4b330133ae`**.
 
 Current PR state: **OPEN / DRAFT / MERGEABLE**.
 
-No Character source, connected shoulder topology, Rigging weight, joint, pose angle, Animation, Runtime or Visual-QA implementation was rewritten.
+## Repair contract
 
-## Reused method provenance
+The candidate changes **topology only** around the diagnosed ribcage opening / ribcage-to-seam stitch:
 
-The small geometric-intersection method was inspected from same-owner Animal Geometry PR #4 exact branch head:
+- preserves all **93 vertex positions per side exactly**;
+- preserves Character source, accepted-E seam samples, proximal/distal arm samples, Rigging weights, joints and retained pose positions;
+- removes exactly four additional triangles from the pinned 112-face retained ribcage group per side;
+- expands the local opening from **10 to 12 boundary vertices**;
+- restitches that 12-vertex opening to the exact existing 10-vertex seam;
+- selects only a same-position cyclic stitch phase over the retained `-40 / 0 / +40°` evidence envelope;
+- changes each side from **93v / 182t → 93v / 180t**;
+- retains Character-local **closed / oriented / single-component** preflight with zero boundary edges, non-manifold edges, orientation conflicts or collapsed triangles.
 
-`feb4b24cd36bcc879173138d240754f71db34834`
+The four removed-face indices are explicitly local to the exact retained ribcage group from producer `dcb2185a...`; they are not promoted as generic source IDs or UC policy.
 
-Path:
+## Exact sampled result
 
-`src/axm_animal_design/self_intersection.py`
+Scoped state:
 
-Animal Geometry PR #7 exact head `95b53572037ca3de98811db52beb4262a34b7d42` provides the sampled-deformed usage precedent.
+**`PASS_CHARACTER_CONNECTED_SHOULDER_TOPOLOGY_ONLY_INTERSECTION_REDUCTION__HOLD_NONZERO_INTERSECTIONS`**
 
-Character implements and re-tests the method locally. No Animal geometry, source semantics or PASS is inherited.
+| Side | Pose | diagnosed PR #5 | topology-only candidate |
+| --- | ---: | ---: | ---: |
+| L | `-40°` | 61 | **9** |
+| L | `0°` | 61 | **9** |
+| L | `+40°` | 65 | **11** |
+| R | `-40°` | 61 | **9** |
+| R | `0°` | 61 | **9** |
+| R | `+40°` | 65 | **11** |
 
-Observer scope:
+Aggregate: **374 → 58 detected nonadjacent triangle-pair intersections**, a reduction of **316 pairs (~84.49%)** across the same six retained pose-position specimens. Neutral drops **61 → 9 per side (~85.25%)**.
 
-- indexed triangle mesh only;
-- nonadjacent triangle pairs only — pairs sharing a source vertex index are deliberately excluded;
-- AABB broad phase;
-- segment/triangle intersection;
-- explicit coplanar triangle-overlap handling;
-- crossing and coplanar-overlap negative controls;
-- no continuous-deformation, visual, collision or gameplay claim.
-
-## Evidence-harness truth repair
-
-The first pull-request head `e9d64a66505dc7d24ce4a75e1df9ca791c22f62f` incorrectly wrote the new unit test as if the expected current result were already known to be zero intersections. Inherited Rigging workflow `35114064864` failed in the full Character unit suite.
-
-That was a verifier-design mistake: current-state discovery must be allowed to retain a scoped FAIL instead of making evidence generation disappear.
-
-The lane was repaired so tests now verify complete classification and negative-control behavior without pre-claiming PASS. The evidence builder always retains the scoped result; a real intersection becomes a receipt-level FAIL rather than a hidden CI disappearance.
-
-The failed first run remains historical Actions provenance.
-
-## Exact structural result
-
-Scoped result:
-
-**`FAIL_CHARACTER_CONNECTED_SHOULDER_SAMPLED_NONADJACENT_SELF_INTERSECTION_GATE`**
-
-Exact retained Rigging candidate observations:
-
-| Side | Pose | detected nonadjacent triangle-intersection pairs |
-| --- | ---: | ---: |
-| L | `-40°` | **61** |
-| L | `0°` | **61** |
-| L | `+40°` | **65** |
-| R | `-40°` | **61** |
-| R | `0°` | **61** |
-| R | `+40°` | **65** |
-
-Each exact specimen has 182 triangles, so the observer considers `16,471` unordered triangle pairs before indexed-neighbour exclusion. The exact geometry identities remain unchanged:
-
-- L digest: `0f36b0df287581bc94cc88a000c09bda6f126f44be6a088fbb853f52a31fc19f`;
-- R digest: `171a17bd20c0871736bc1ee229ce4c2f06d4e80405e996dcc2e184541996161d`.
-
-Exact Rigging plan digest remains:
-
-`e1011be035f122cdbe86a8c8cf8846499ec0148d7b4adf05605d86bfac3e1f99`.
-
-The key diagnosis is that **neutral already fails with 61 pairs per side**. Therefore the underlying defect predates the sampled Rigging deformation. `+40°` rises to 65 pairs, so deformation can add sampled contacts, but the base connected Geometry candidate is already nonadjacently self-intersecting.
-
-Retained examples repeatedly pair ribcage triangles with derived shoulder-transition / arm-strip triangles. Left neutral examples include triangle `39` against `113/114/115/117/135/136/154/155/156`; the right side mirrors the pattern. The next Geometry repair should therefore examine the ribcage-opening / transition construction rather than silently changing Rigging weights.
-
-## Negative controls
-
-Both deliberate controls pass:
-
-- crossing non-coplanar triangle pair -> exactly **1** detected intersection;
-- coplanar overlapping triangle pair -> exactly **1** detected intersection.
-
-This does not prove the observer catches every possible intersection class. It demonstrates the retained current FAIL is not produced by an observer with no working positive-control path.
+Every candidate sample still has nonzero intersections. This is therefore a **successful bounded reduction candidate, not an intersection-free PASS**.
 
 ## CI and retained evidence
 
-Dedicated workflow:
+Exact-head pull-request workflow:
 
-**`35114370268 — Geometry Character shoulder self-intersection evidence` — COMPLETED / SUCCESS**
+**`35121262457 — Geometry Character shoulder opening repair evidence` — COMPLETED / SUCCESS**
 
-The workflow success means the evidence harness, exact-lineage binding, Character unit suite and artifact retention completed. It does **not** convert the receipt-level Geometry FAIL into PASS.
+The workflow runs the full Character unit suite on Python 3.11 and 3.13, rebuilds exact evidence, binds the retained artifact to exact producer/diagnosis/Rigging identities, and preserves the nonzero-intersection HOLD inside the receipt.
 
-Retained exact artifact:
+Inherited workflows on the same exact head are also green:
 
-- ID: **`10453547894`**;
-- name: `character-connected-shoulder-self-intersection-001-eae6d296867ecaa40e8f5c3f1fe37d8e3019541e`;
-- size: **`12,105 B`**;
-- SHA-256: **`e1615c72eb6a0a0bdc3f834888ba8b8ac9b07efe614259b18a90339a4eae99a6`**;
-- exact current head: `eae6d296867ecaa40e8f5c3f1fe37d8e3019541e`;
-- exact Rigging head: `b0a03cbcb61e0f8deec37172d22ff1a7fff306c9`;
-- exact Geometry producer head: `dcb2185a42072540ef2be37329735357561e01b5`;
-- Animal method donor head: `feb4b24cd36bcc879173138d240754f71db34834`;
-- Animal sampled-deformation precedent: `95b53572037ca3de98811db52beb4262a34b7d42`.
+- `35121262454 — Geometry Character shoulder self-intersection evidence` — SUCCESS;
+- `35121262428 — Geometry connected shoulder topology evidence` — SUCCESS;
+- `35121262402 — Rigging connected shoulder deformation evidence` — SUCCESS;
+- `35121262424 — Character organic form baseline` — SUCCESS.
 
-The ZIP was downloaded and independently rehashed to the same SHA-256. It contains the exact audit, six retained posed OBJ specimens and exact lineage receipts.
+Retained exact artifact from the PR workflow:
+
+- ID: **`10457425919`**;
+- name: `character-connected-shoulder-opening-repair-001-8cc4a180cd1481d680841190b0038b4b330133ae`;
+- size: **14,872 B**;
+- SHA-256: **`7519f046d704eefdc9250c0c3c36e5ddefe599e2f74d79a1fcf8611eb1f7acbb`**;
+- exact head: `8cc4a180cd1481d680841190b0038b4b330133ae`.
+
+The artifact retains the audit, exact lineage receipts, candidate mesh JSON and six posed candidate OBJ specimens. Workflow/artifact success proves reproducible evidence delivery, not intersection freedom or visual acceptance.
 
 ## Handoffs
 
-### Geometry producer / Character PR #3
+### Geometry
 
-Do **not** source-adopt PR #3 as intersection-clean geometry. Its earlier edge-topology PASS and phase improvement remain truthful, but self-intersection was previously untested and now fails.
+Keep PR #7 as a rollbackable reduction baseline. The remaining 58 sampled pairs still require Geometry interpretation/repair before any intersection-free claim. Do not source-adopt merely because the reduction is large.
 
-The next Geometry candidate should explicitly repair the ribcage-opening / transition construction and be a new rollbackable identity. Possible variables to study include opening extent, seam path and proximal sampling; none is pre-approved merely because it could lower this count.
+### Rigging — PR #6
 
-### Rigging / Character PR #4
-
-Rigging's existing sampled distortion/fixed-socket/radius/neutral-return PASS remains truthful for the exact historical geometry it measured. Neutral self-intersection demonstrates the base defect is not evidence that the 10% proximal release created it.
-
-Any future Geometry successor must be explicitly rebound and rerun by Rigging; do not inherit PR #4's PASS by geometric similarity.
-
-### Visual Observer / Art Director
-
-Direct visual shoulder seam/pinch quality remains unaccepted. A structural self-intersection FAIL does not replace perceptual review, and a later structural repair must still be compared visually.
+PR #6 remains a separate valid Rigging experiment over the historical Geometry identity. Its deformation evidence must **not** be inherited by PR #7. If Geometry selects this or a later topology successor, Rigging must explicitly rebind and rerun against that exact topology identity.
 
 ### Organic Form
 
-Source shoulder landmarks/masses are not rewritten by this diagnosis. If a future repair requires changing source mass or transition intent rather than only derived topology, return that decision to Organic Form rather than silently moving source authority into Geometry.
+No source mass, landmark or accepted-E form intent changed. If the remaining intersections cannot be resolved without moving source-owned form, hand that decision back to Organic Form rather than silently taking source authority.
+
+### Visual Observer / Art Direction
+
+A lower structural intersection count is not visual quality. Any selected topology successor still needs direct seam/pinch/silhouette review; the changed triangulation may create perceptual tradeoffs even with identical vertices.
 
 ### UC / Capability Cartography
 
-Keep the Character receiving observer local for now. Reuse evidence exists in Animal and Character, but the current work still includes receiving-domain policy and one fresh failure case. Extract only if a neutral contract becomes stable across materially different domains.
+No UC or Profession Fabric move. The face-selection and opening policy are receiving-domain specific. Revisit extraction only if a neutral contract stabilizes across materially different domains.
 
 ## Limitations / explicit non-claims
 
 This activation does **not** establish:
 
-- a repaired intersection-free Character shoulder;
-- continuous self-intersection freedom between `-40 / 0 / +40°` samples;
-- adjacent-triangle fold-over/contact freedom, because indexed-neighbour pairs are excluded;
-- final vertex-manifoldness beyond prior declared gates;
-- anatomy or source-form correctness;
-- volume preservation;
-- final skin weighting or deformation quality;
+- an intersection-free Character shoulder;
+- continuous safety between `-40 / 0 / +40°` samples;
+- indexed-neighbour fold-over/contact freedom;
+- final vertex-manifoldness beyond the declared local edge gates;
+- anatomy, volume preservation or source-form correctness;
+- final Rigging/deformation acceptance for the new topology identity;
 - authored normals, tangents, smoothing or UV readiness;
 - direct visual seam/pinch quality;
 - Animation acceptance;
@@ -185,22 +138,23 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** the new observer was allowed to return a real FAIL; the initial pre-claiming test mistake remains recorded; workflow success is not mislabeled as Geometry success.
-- **Agency / non-domination:** Geometry diagnoses and proposes the next structural target without taking Rigging, Organic Form, Visual QA or source-adoption authority.
-- **Continuity:** PR #5 is stacked exactly on Rigging PR #4, preserves PR #3 historical identity, and keeps all prior Building/Animal/Nature results rollbackable rather than rewriting them.
-- **Wisdom before speed:** no automatic face deletion, seam movement, source rewrite or weight tweak was performed merely to chase a zero count; the defect is localized before a repair candidate is selected.
+- **Truth:** the repair keeps the remaining 58 intersections explicit and does not convert CI success into collision/topology success.
+- **Agency / non-domination:** Geometry changes only derived topology and leaves Organic Form, Rigging, Visual QA, Runtime and merge authority with their owners.
+- **Continuity:** PR #7 stacks exactly on diagnosis PR #5; PRs #3/#4/#5 and their evidence remain valid historical identities and rollback points.
+- **Wisdom before speed:** the smallest diagnosed opening/stitch region was retessellated while all vertex/source positions stayed fixed; no broad source reshape or weight-tuning shortcut was used.
 
 ## Previous Geometry lanes retained
 
-- **Building PR #6:** exact head `aaa987397c33f0dc9579a2ac3785ca00a5bc7402`, `PASS_EXACT_UNION_HEADER_SEGMENTATION_REMOVES_ALL_POSITIVE_VOLUME_INTERPENETRATIONS`; source adoption and face-contact union remain held.
-- **Character PR #3:** exact head `dcb2185a42072540ef2be37329735357561e01b5`, edge-closed/oriented/single-component and phase-repair result remains historically valid, but now has an explicit self-intersection successor FAIL.
-- **Animal PR #7:** exact head `95b53572037ca3de98811db52beb4262a34b7d42`, bounded `4.5°` ring-phase candidate remains visual/adoption-held.
+- **Character PR #5:** `eae6d296867ecaa40e8f5c3f1fe37d8e3019541e`, exact `374`-pair diagnosis remains the historical control.
+- **Character PR #3:** `dcb2185a42072540ef2be37329735357561e01b5`, edge-closed/oriented/single-component phase-repair result remains historically valid.
+- **Building PR #6:** `aaa987397c33f0dc9579a2ac3785ca00a5bc7402`, volumetric interpenetration-removal candidate remains source/downstream-held.
+- **Animal PR #7:** `95b53572037ca3de98811db52beb4262a34b7d42`, bounded ring-phase candidate remains visual/adoption-held.
 - **Nature PR #10:** explicit leaf-backface candidate remains structurally green and downstream-held.
 
 ## Next Geometry / Topology pass
 
-1. Re-scan the full constellation before acting; do not automatically continue Character if another fresher returned Geometry defect outranks it.
-2. If Character remains highest leverage, build one rollbackable successor that targets the ribcage-opening / transition intersection pattern while preserving exact source authority.
-3. Require neutral self-intersection reduction before asking Rigging to rebind; do not tune Rigging weights around a neutral Geometry defect.
-4. Preserve PR #3 and PR #4 as truthful historical producer/consumer identities.
-5. Keep repo ownership, provenance, rollback, limitations and the four AXM roots explicit.
+1. Re-scan the constellation before acting; do not automatically continue Character if a fresher returned Geometry defect outranks it.
+2. If Character remains highest leverage, classify the **remaining 58** pairs by topology region and choose one further bounded rollbackable repair rather than broad remeshing.
+3. Require a real reduction or exact zero before any stronger self-intersection claim; preserve failures as evidence.
+4. If a topology identity is selected for downstream use, request explicit Rigging rebind + Visual QA rather than inheriting historical PASSes.
+5. Preserve repo ownership, provenance, rollback, limitations and the four AXM roots.
