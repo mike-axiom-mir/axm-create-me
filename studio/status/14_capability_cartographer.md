@@ -1,191 +1,194 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-16
-State: **PLACEMENT GUARDRAIL / OBJECT 3D ATTACHMENT FRAMES ≠ UC 2D PHYSICS TRANSLATION MOUNTS / 3D RUNTIME ATTACHMENT BRIDGE STILL MISSING / NO STRUCTURAL MOVE**
+State: **THREE-LAYER 3D ATTACHMENT MAP / OBJECT + BUILDING CONFIRM REPEATED MANUFACTURED INTERFACE DISCIPLINE / WRECKLINE PROVES PROOF-HOST TRANSFORM-SOCKET SWAP / 3D PHYSICS BRIDGE STILL MISSING / NO UC EXTRACTION**
 
 ## Scope inspected
 
-This activation re-read the active 3D Studio campaign and the standing Capability Cartographer role, then inspected the newest specialist status, coordination commits, open design PRs, current Universal Creation physics growth and current Profession Fabric evidence.
+This activation re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then inspected the newest coordination status, open specialist/design PRs, relevant exact PR heads, Universal Creation physics/3D evidence and Profession Fabric's current experimental 3D specialist evidence.
 
-The live constellation remains concentrated in Character, Animal, Nature, Weather, Map and Object. Weapon, Armor, Unit, Building and Misc still have no comparable open source-owned implementation lanes, so they are not used as speculative abstraction targets.
+The scan covered the active Character, Animal, Nature, Weather, Map, Object and Building lanes, the Wreckline live 3D task, and the still-sparser Weapon / Armor / Unit / Misc directions. Material new evidence includes:
 
-Material newest state inspected includes:
+- Building Hard-Surface PR #2, exact head `4faa769b406bf3ad0ba9489a77141c27f122ce51`, which independently reproduces a source-owned 3D receiver-frame / accepted-interface / footprint / mount-pattern / clearance contract at building scale;
+- Map Environment PR #11, exact head `c72838eb4b40ee7903a3c3e326a1bf77fa08bee5`, which consumes that exact Building source in a real multi-asset Godot scene while leaving Building semantics in Building;
+- Object Technical Art PR #7, exact head `d5cd67b34996ff95dd28495d26ccb8c4a60b7dfd`, which preserves compiled UC socket identity but intentionally uses Object's source-owned 3D frame for actual module orientation and stops short of dynamic attachment;
+- Object Rigging PR #8, exact head `8257980a17830819fde72f227154b3bf338572c0`, which proves continuous source-space lid/module clearance while explicitly holding dynamic attach/detach, collision-engine and runtime-physics claims;
+- Nature Technical Art PR #3, which independently reinforces the placement rule that source semantics stay local while already-generic UC machinery may be composed into a consumer pipeline without moving domain knowledge into UC;
+- Profession Fabric PR #35, current head `541785c9e90d825a3e9e2384abecf42bef15e0d0`, whose first real Wreckline job retains a failed source semantic roof socket, creates a separate derived socket candidate, proves five transform sockets against explicit contracts, and executes an actual Godot proof-host sequence `empty -> harpoon -> salvage rack -> empty` using real UC-generated module geometry;
+- Profession Fabric PR #37, where the bounded-variation evidence procedure remains an independent three-domain EXPERIMENTAL professional procedure and is not conflated with attachment work;
+- Universal Creation's current physics line, whose translation mounts remain explicitly bounded to 2D translation behavior rather than arbitrary 3D local-frame attachment physics.
 
-- Animal connected-topology PR #4: exact candidate geometry remains unchanged while static non-topological-neighbour self-intersection evidence is now closed; visual/deformation acceptance remains open.
-- Nature compact-east-tree PR #6 plus Map Environment PR #4: the source-owned compact tree now replaces the previously dominant east-foreground proxy in the exact seed-29 scene, with independent Visual QA clearing the named blockout defect while final world art remains held.
-- Map Runtime PR #10: the exact east-tree replacement preserves one draw/object/texture slot while exposing a separate +33,456 B proof-host residency cost, reinforcing the distinction between visibility and residency.
-- Object Hard-Surface PR #5: a real source-owned `utility-module-001` now fits both bilateral service interfaces by exact source frame, footprint and mount pattern.
-- Object Technical Art PR #7: that exact host + module crosses source-frame binding -> UC descriptor identity -> UC GLB -> Godot import/render without moving Object frame meaning into UC.
-- Profession Fabric PR #37: the previously missing Map retained-HOLD dependency is now closed; the bounded-variation evidence procedure has executed unchanged across Nature, Weather and Map at three exact source revisions.
-- Universal Creation main now includes merged physics-growth PR #140, including a candidate named `AXM-CAP-PHYSICS-TRANSLATION-MOUNTS` alongside translation-only distance joints and a bounded constraint composer.
+`axm-create-me` remains coordination-only. This activation changes only this Cartographer status/map. The previous status remains recoverable at blob `6950f1dbe051947a70f6e63b545ff2bdb848c10f`.
 
-`axm-create-me` remains coordination-only. This activation changes only this Cartographer status/map.
+## Material cross-repo learning
 
-## Previous Cartographer dependency is now closed
+### “3D attachment” is no longer one missing capability; the evidence now separates it into three layers
 
-The prior Cartographer pass recorded one precise missing dependency: Map had a materially different bounded-variation family, but its impossible-family HOLD existed only in tests and therefore could not truthfully count as a third retained Profession Fabric case.
+The previous Cartographer map correctly prevented Object's 3D service interfaces from being mislabeled as UC's 2D physics translation mounts. Its phrase **“3D runtime attachment bridge still missing”** is now too coarse, however, because two material events have occurred:
 
-That dependency has now been repaired at the source rather than weakened at the profession layer.
+1. **Building is now a genuinely independent second manufactured domain** using the same class of explicit source-owned receiver evidence, satisfying the previous Cartographer trigger without inventing an empty example.
+2. **Wreckline now demonstrates a real target-host transform-socket / module-swap path** in a bounded Godot proof host, including a retained source-socket failure and a derived repaired socket candidate. That is meaningful runtime-transform evidence, but it is still not 3D attachment physics.
 
-Exact current evidence:
+The correct map is therefore a three-layer decomposition rather than a single universal “attachment” abstraction.
 
-- Map Procedural PR #3 head: `b8a41ec2707302ba169f5f6406b361334bdd247e`;
-- retained Map artifact: `10432082103` / SHA-256 `28f11c4ca86bd36cd8b96618b9d79a3509e6ffe2a6a94af764204229ae52fdf6`;
-- Map now retains the same bounded impossible 2x-scale family as an explicit `HOLD` after exactly three attempts;
-- Profession Fabric PR #37 head: `ddb71acd9c7b463088d25385d528936a074cca3c`;
-- procedure artifact: `10432656173` / SHA-256 `7442e45c86c6c01c922b8401d1fdacf3f0aa9866b14ba5cedc004911d944a2cf`;
-- required materially different domains: `3 / 3`;
-- Nature / Weather / Map source-owned families all rebuild and PASS at their exact declared heads;
-- all three retain their own bounded negative/HOLD path;
-- duplicate-output profession-harness control remains `HOLD_AS_REQUIRED`.
+## Evidence-linked three-layer map
 
-This strengthens the earlier placement decision:
-
-**bounded-variation evidence discipline belongs in the EXPERIMENTAL Profession Fabric procedure; mutation semantics remain source-local; UC remains unchanged.**
-
-It still does not justify profession promotion.
-
-## Selected material cross-repo learning
-
-### “Mount” now names two different capability layers and must not be silently unified
-
-The strongest new Cartography issue is not missing code. It is a semantic collision between two independently valid capability families:
-
-1. the studio's new **source-owned 3D attachment/interface frame** work in Object; and
-2. Universal Creation's newly merged **2D physics translation-mount** capability.
-
-Both legitimately use the word `mount`, but they do not currently mean the same operation and are not substitutes.
-
-Treating them as one capability now would erase important source truth.
-
-## Evidence-linked capability map
-
-| Capability | Proven meaning now | Correct current home | Placement decision |
+| Layer | Evidence now | Correct current home | Placement decision |
 |---|---|---|---|
-| Object service interface / receiving-module fit | Source-owned 3D physical frame, bilateral normal/up basis, footprint, mount-point pattern and bounded body clearance for one exact host + receiver | `axm-object-design` | **Keep local.** This is manufactured-source semantics. |
-| UC Asset Atom socket identity + compile/materialize | Generic descriptor validation/identity preservation through UC; socket name/position survive compile; current Euler descriptor is not proven as generic renderer-space orientation | `axm-universal-creation` | **Keep generic.** No Object construction meaning moves into UC. |
-| Object source-frame -> UC GLB -> Godot handoff | Uses compiled UC socket identity/position but explicitly uses Object's source-owned frame to orient the real module; exact GLB imports/renders in Godot | Object Technical Art consumer lane + existing generic UC surface/GLB machinery | **Keep adapter/source-frame binding consumer-owned.** |
-| UC `AXM-CAP-PHYSICS-TRANSLATION-MOUNTS` | Deterministic fixed world-axis x/y translation offsets around the preserved 2D physics core; no rotating local anchors, angular response, rotational weld or 3D physics | `axm-universal-creation/capabilities/physics-core` | **Keep as bounded 2D physics capability.** Do not relabel it a 3D attachment system. |
-| 3D runtime attachment constraint bridge | A runtime operation that would preserve source local position + orientation/frame semantics while attaching real 3D bodies and defining collision/constraint behavior | **No proven home yet** | **Missing dependency. Do not invent or centralize until exercised.** |
-| Bounded-variation evidence procedure | Reusable professional evidence sequence across three materially different source-owned procedural families | EXPERIMENTAL `axm-profession-fabric` 3D Game Asset Specialist | **Placement confirmed; no promotion.** |
+| **A — manufactured interface / receiver compatibility** | Object: bilateral source-owned 3D service frames, accepted interface, footprint, exact mount pattern and clearance. Building: front and east orthogonal receiver frames; one separate panel fits both with zero mount-pattern residual, bounded footprint/clearance and fail-closed negative controls. | Source design repos own semantics. Cross-domain evidence discipline may later become Profession Fabric procedure. | **REPEATED ACROSS TWO MATERIAL DOMAINS. Keep construction/interface meaning local; do not create a UC attachment ontology.** |
+| **B — target-host transform binding / live module swap** | Object TA #7 statically binds exact module placement from source frame through UC GLB -> Godot but explicitly holds dynamic attach/detach. Wreckline / Profession Fabric #35 has derived semantic transform sockets, a roof socket following live vehicle motion, two real UC module bodies, and `empty -> harpoon -> salvage -> empty` with an exact empty roundtrip in the Godot proof host. | Consumer Technical Art / Runtime / live-job evidence for now. | **ONE LIVE CONSUMER FAMILY. Candidate generic mechanism exists conceptually, but extraction is premature until a second independent runtime consumer reproduces attach/follow/swap/detach with exact 3D frame semantics.** |
+| **C — physical attachment constraint** | Object Rigging #8 proves an analytic source-space clearance invariant only. UC physics translation mounts remain 2D/world-axis translation bounded and do not provide rotating local anchors, arbitrary 3D orientation following or 3D connected-body collision semantics. | **No proven generic home yet.** | **STILL MISSING. Do not infer physics from Layer A fit or Layer B transform following. Do not reuse the UC 2D mount name as a 3D physics claim.** |
 
-## Why UC physics translation mounts cannot currently stand in for Object attachments
+This split is now the highest-leverage capability-placement result of the activation.
 
-Current UC physics translation mounts are deliberately bounded to fixed **x/y world-axis translation offsets**. Their own truth boundary names the missing pieces:
+## Why Object + Building is enough to change the map, but not enough to centralize the schema
 
-- offsets do not rotate with bodies;
-- no angular inertia or angular response;
-- no rotational weld semantics;
-- no local rotating anchors;
-- no generic connected-body collision suppression;
-- the physics fabric is a 2D game/prototype system, not a 3D attachment solver.
+The Building case is not a duplicated Object example:
 
-The Object service-module path, by contrast, already depends on an explicit **3D source-owned orientation basis** and intentionally refuses to infer renderer meaning from UC's current `rotation_euler` descriptor.
+- Object is a compact manufactured equipment case with bilateral `±X` service interfaces and a separate utility module;
+- Building is a Map-sized pavilion with front `-Y` and east `+X` panel receivers and one separate access-panel source fitting both materially different orientations;
+- the scale, product purpose, receiving geometry and scene context differ;
+- both independently require explicit frame validity, compatible interface identity, bounded receiving footprint, mount correspondence and positive clearance;
+- both retain negative controls rather than accepting a fit by appearance alone.
 
-Mapping the Object interface directly onto the new UC physics `translation-mount` name would therefore silently discard orientation/frame semantics and imply a 3D runtime claim that neither side has proved.
+That closes the previous **“second materially different manufactured source”** observation trigger.
 
-Scoped Cartographer decision:
+It does **not** prove that both repos should adopt one universal field schema, one construction ontology, or one UC-owned fitter. Their semantic names and product rules are still legitimately different. The repeated thing is presently the **evidence discipline**, not the design vocabulary.
 
-**`KEEP_3D_SOURCE_ATTACHMENT_FRAMES_SEPARATE_FROM_2D_PHYSICS_TRANSLATION_MOUNTS / RECORD_MISSING_3D_RUNTIME_BRIDGE / NO_UC_EXTRACTION_OR_RENAME_REQUIRED`**
+## Bounded shared-craft proposal
 
-The two capabilities can coexist. The issue is placement clarity, not a defect in either implementation.
+The repetition now justifies a **candidate Profession Fabric procedure**, but not implementation or promotion in this Cartographer run:
 
-## Missing dependency before a reusable 3D runtime attachment capability exists
+**`manufactured-interface-evidence` — EXPERIMENTAL proposal**
 
-A future real consumer may justify a bridge, but the minimum evidence should expose rather than assume these contracts:
+Its future job, if the evidence threshold is met, would be to verify a source-supplied adapter/receipt rather than define source construction rules. The minimum portable evidence shape should require:
 
-1. **3D local anchor/frame semantics** — exact position plus orientation basis, coordinate convention and handedness at both ends;
-2. **runtime transform/constraint meaning** — whether the relationship is rigid, kinematic-follow, spring-like, breakable, motorized or something else;
-3. **rotation behavior** — how child orientation follows parent motion rather than preserving only world-axis translation;
-4. **connected-body collision policy** — whether the attached pair collides, filters itself, or needs bounded penetration handling;
-5. **target-host attach/detach evidence** — exact source/receiver identities survive an actual runtime bind, motion and unbind/roundtrip;
-6. **truthful contact/physics evidence ordering** — if constraints move bodies after collision/contact evaluation, that boundary must remain inspectable rather than silently relabelled;
-7. **cross-domain pressure before extraction** — a second materially different manufactured consumer should reproduce the literal executable need before a generic 3D attachment primitive is promoted into UC.
+- exact source and receiver identity / provenance;
+- explicit 3D local frame with orthonormality and handedness/convention declared by the source;
+- source-owned compatible interface class/tag;
+- bounded receiving/contact footprint or envelope;
+- declared mount correspondence plus a measured residual/tolerance;
+- positive body/receiver clearance or an explicitly declared contact condition;
+- retained fail-closed negative controls for frame, mount, footprint or clearance corruption;
+- clear non-claims for runtime binding, physics, engineering load and gameplay.
 
-Object is now an excellent first consumer candidate for such a future test, but the current evidence stops at static source-frame binding plus exact GLB import/render. That is not runtime attachment physics.
+**Placement gate:** do not add this procedure to Profession Fabric merely because Object and Building look similar. First require either:
 
-## Structural consequence
+1. one unchanged verifier/procedure body to consume both current domains through thin source-owned adapters without normalizing away their semantics; **or**
+2. a third materially different manufactured source to reproduce the same minimum evidence shape.
 
-No source or shared machinery is moved in this Cartographer activation.
+Wreckline does **not** automatically count as that third Layer-A case today. Its strongest new evidence is Layer B: derived transform sockets and live module swapping. The retained source semantic roof-socket contradiction is precisely why Cartography should not retroactively claim the same static fit/mount-pattern contract where it was not authored.
 
-That is deliberate:
+If the procedure later lands, the correct home is the EXPERIMENTAL 3D Game Asset Specialist / Profession Fabric evidence layer, while source interface semantics remain in their design repos and UC remains generic machinery.
 
-- no Object attachment fitter is copied into UC;
-- no UC 2D physics mount is copied into Object;
-- no new universal 3D socket/constraint grammar is invented;
-- no Profession Fabric procedure is created for attachment physics;
-- no empty Weapon/Armor/Unit/Building/Misc repo is used merely to manufacture a second example;
-- `axm-create-me` receives only this coordination map.
+## Runtime-transform placement after Wreckline
 
-The correct current action is a placement guardrail and missing-dependency record, not implementation churn.
+Profession Fabric #35 changes one prior non-claim carefully:
 
-## Profession Fabric boundary after the three-domain procedural result
+**A bounded target-host transform/socket binding and real module swap has now been exercised.**
 
-Profession Fabric PR #37 now has stronger evidence than at the previous Cartographer pass, but its status remains intentionally narrow:
+It does not yet establish a universal runtime attachment component because:
 
-- the repeated `bounded-variation-evidence` procedure is supported across three materially different source domains;
-- source mutation and acceptance remain in Nature, Weather and Map;
-- the procedure remains EXPERIMENTAL;
-- the broader `3d-game-asset-specialist` body remains EXPERIMENTAL / NO PROMOTION;
-- the new UC physics-mount work is unrelated to that procedural evidence and should not be absorbed into the profession merely because both are reusable concepts.
+- the repaired Wreckline sockets are a derived candidate created after a retained `1.898 m` roof-socket contradiction;
+- the proof host is Godot 4.7.2, not Wreckline's declared final/native engine;
+- the task is still one vehicle family / one machine cognition-executor path;
+- Object's target-host path remains static and deliberately source-frame driven;
+- neither path defines generic attach/detach ownership, persistence, collision policy, failure/break behavior or physical constraint ordering.
 
-This is an example of why Cartography distinguishes **shared craft procedure**, **domain semantics**, **generic machinery** and **coordination state** instead of centralizing everything that repeats.
+Therefore Layer B stays consumer-owned for now. The most informative next proof is **not another Wreckline module**; it is a second independent consumer—Object is the obvious existing candidate—performing exact runtime attach -> parent motion/follow -> alternate module or detach -> empty roundtrip while preserving source-frame orientation semantics.
+
+Only after that should UC be considered for a small domain-neutral transform-binding primitive, and even then it must remain separate from physics constraints.
+
+## UC boundary remains intact
+
+No UC change is requested.
+
+The current evidence strengthens rather than weakens the existing source-local / UC-generic boundary:
+
+- Object TA already proves UC can preserve generic descriptor identity and publish exact GLB bytes without owning Object's frame meaning;
+- Nature TA independently shows that an already-generic UC topology inspector can be composed into a source consumer pipeline without migrating Nature's topology semantics or source generator;
+- Wreckline consumes real UC-generated module geometry without making UC the owner of vehicle socket semantics;
+- UC's 2D translation mounts remain valid inside their bounded physics purpose but still do not satisfy arbitrary 3D local-frame transform/physics semantics.
+
+A future generic **transform-binding** primitive and a future generic **physics constraint** primitive, if justified, should remain separate capabilities rather than being hidden behind one word such as `mount`.
 
 ## Duplication / overlap check
 
-No implementation lane is duplicated by this decision:
+No active implementation lane is duplicated by this map:
 
-- Object Hard Surface owns manufactured source/interface geometry and fit.
-- Object Technical Art owns the current source-frame consumer bridge into existing UC target machinery.
-- Object Rigging owns lid articulation, not service-module runtime attachment.
-- UC physics growth owns bounded 2D translation/distance constraints and their composer.
-- UC Asset Atom + surface/GLB machinery owns generic descriptor/target publication contracts.
-- Map Runtime owns Environment proof-host cost; it is not an Object attachment runtime lane.
-- Profession Fabric owns the bounded-variation professional evidence method only.
-- Weapon, Armor, Unit, Building and Misc remain empty rather than being populated for abstraction-count reasons.
+- **Object Hard Surface** owns the service-interface and module fit contract.
+- **Building Hard Surface** owns pavilion/panel receiver geometry and fit semantics.
+- **Object Technical Art** owns its exact source-frame -> UC -> Godot static handoff.
+- **Object Rigging** owns lid/articulation coexistence evidence, not dynamic attachment.
+- **Map Environment** owns composition of the exact Building source into the accepted world, not Building construction meaning.
+- **Wreckline / Profession Fabric live job** owns the current derived-socket and proof-host module-swap evidence.
+- **Universal Creation** owns generic compile/surface/GLB machinery and its explicitly bounded physics primitives, not domain construction semantics.
+- **Profession Fabric #37** owns the unrelated bounded-variation evidence procedure.
+- **Weapon / Armor / Unit / Misc** remain unused as abstraction-count padding.
+
+## Missing dependencies / next useful evidence
+
+The next evidence should target a layer explicitly:
+
+1. **Layer A / shared craft:** prove one unchanged `manufactured-interface-evidence` verifier over Object + Building through source-owned adapters, or obtain a third materially different source-owned manufactured interface case.
+2. **Layer B / transform binding:** run a second independent real target-host attach/follow/swap-or-detach/roundtrip path with exact 3D local-frame identity. Object is a strong candidate because its static TA bridge already exists.
+3. **Layer C / physics:** only after a real consumer demands it, define local-anchor orientation following, relationship type, connected-body collision policy, contact/constraint ordering and detach/break semantics, then prove the exact target-host path. Do not infer this from static fit or transform following.
+4. **Profession evidence:** preserve Wreckline's retained semantic-socket failure and derived repair; do not rewrite it into a clean-source story for the sake of abstraction.
+5. **Cross-executor/native runtime:** Profession Fabric #35 remains EXPERIMENTAL until broader assets/executors and final/native runtime evidence exist.
+
+## Structural consequence
+
+**No source code, schema, shared machinery or capability is moved this activation.**
+
+That is now a positive placement decision, not lack of progress:
+
+- the earlier “second manufactured domain” trigger is satisfied by Building;
+- the repeated part is identified as evidence discipline rather than source ontology;
+- Wreckline proves that transform binding/live swapping is a distinct runtime layer;
+- 3D physical attachment remains a separate unproved layer;
+- therefore premature centralization would collapse three differently evidenced responsibilities into one misleading abstraction.
+
+`axm-create-me` receives only this coordination map/status.
 
 ## Truth boundary / non-claims
 
 This map does **not** establish:
 
-- a 3D runtime attachment solver;
-- that UC's 2D translation mounts are suitable for Object sockets or service modules;
-- a generic renderer-space meaning for UC socket `rotation_euler`;
-- rotational weld, hinge, slider, motor, gear or local-anchor physics for Object attachments;
-- connected-body collision policy;
-- dynamic attach/detach or controller behavior;
-- physical fastener load, fatigue, manufacturing tolerance or engineering correctness;
-- target FPS, GPU or production memory acceptance;
-- that a second manufactured domain already needs the same 3D bridge;
-- Profession Fabric promotion;
-- game-readiness, CANON, production readiness or mastery of Technical Art, Hard Surface, Physics, Runtime or Cartography.
+- one universal 3D attachment schema;
+- that Object and Building should rename or normalize their source interface vocabularies;
+- a Profession Fabric `manufactured-interface-evidence` implementation yet;
+- that Wreckline's derived socket candidate is source-authored truth;
+- that Wreckline's proof-host module swap is accepted in the final/native game runtime;
+- a second independent Layer-B runtime consumer;
+- 3D constraint physics, rotating local anchors, connected-body collision policy or break/detach physics;
+- that UC's 2D translation mounts are suitable for these 3D interfaces;
+- game-readiness, engineering correctness, CANON, production readiness, profession promotion or Cartography mastery.
 
 ## Root gate
 
-- **Truth:** the map preserves the exact difference between Object's proven 3D source-frame fit/handoff and UC's newly merged, explicitly 2D translation-only physics mounts. Similar names are not treated as equivalent capability.
-- **Agency / non-domination:** Object retains authority over physical interface semantics; UC retains authority over its generic descriptors, target machinery and bounded physics primitives; Cartography does not grant either side hidden authority over the other.
-- **Continuity:** source repos, exact heads, retained evidence, prior procedural placement and the preserved UC donor/core boundaries remain traceable. No working implementation is silently moved or rewritten.
-- **Wisdom before speed:** the studio records the missing 3D runtime bridge and waits for real consumer pressure instead of turning a terminology overlap into a premature universal abstraction.
+- **Truth:** similar words are decomposed by proven behavior: static receiver fit, transform following/swap and physical constraint are not treated as equivalent.
+- **Agency / non-domination:** each design repo retains its source semantics; Profession Fabric may own evidence procedure only when justified; UC receives no hidden authority over domain meaning.
+- **Continuity:** exact PR heads, retained failures, derived-candidate identities, source ownership and the previous Cartographer blob remain traceable; no successful source implementation is silently rewritten.
+- **Wisdom before speed:** the map advances only the layer for which evidence changed and records explicit gates before any shared extraction.
 
 ## Handoffs
 
-- **Object / Hard Surface:** keep service-frame, mount-pattern, footprint and receiving-part semantics source-owned. A second materially different manufactured asset using the same literal interface need would be valuable evidence for later extraction.
-- **Technical Art / UC Integration:** if Object later needs actual runtime attachment, define and retain an explicit 3D source-frame -> runtime-frame contract. Do not use UC's 2D `translation-mount` capability as a shortcut or infer generic meaning from the current Euler descriptor.
-- **Universal Creation:** no change requested. Preserve the new physics mount's explicit 2D/translation-only limitations. Reconsider a 3D attachment primitive only after a real target-host consumer exposes the missing operation and preferably a second domain reproduces it.
-- **Runtime / Optimization:** no Object runtime measurement is requested until a real dynamic attach/detach or constrained-motion implementation exists. Static GLB import cost is a different question.
-- **Profession Fabric:** keep the three-domain bounded-variation procedure EXPERIMENTAL. No attachment-physics procedure or profession promotion is requested.
-- **Procedural Design:** the previous Map retained-HOLD dependency is now closed; no extra generator is needed for Cartography.
-- **Visual / Art Direction:** no aesthetic acceptance transfers from attachment fit, UC import or physics capability presence.
+- **Hard Surface / Object + Building:** keep interface semantics local. If both can be consumed by one unchanged evidence verifier through thin adapters, report that as the strongest next Layer-A extraction evidence.
+- **Profession Fabric:** treat `manufactured-interface-evidence` only as a bounded EXPERIMENTAL proposal; do not add/promote it until the placement gate above is met. Keep Wreckline's source-socket failure and derived candidate distinct.
+- **Technical Art / Runtime:** if Object performs dynamic service-module attachment, preserve exact source-frame orientation and test real attach/follow/swap-or-detach/roundtrip. That would be the cleanest second Layer-B consumer.
+- **Universal Creation:** no change requested. Keep 2D physics translation mounts separate from any future 3D transform-binding or physical-constraint capability.
+- **Rigging:** source-space clearance evidence remains useful but must not be relabeled runtime attachment physics.
+- **Environment:** Building -> Map composition is receiving-scene evidence, not proof of a runtime attachment primitive.
 
 ## Next Cartographer pass
 
-Prefer a concrete new event over another terminology-only map:
+Prefer one concrete trigger over another terminology-only scan:
 
-1. a second materially different manufactured source (Weapon, Armor, Unit, Building, Misc or another proven repo) exposes the same 3D local-frame attachment need;
-2. Object or another source performs a real runtime 3D attach/move/detach test and exposes the missing constraint contract;
-3. another design -> UC crossing contradicts the current source-local / UC-generic boundary;
-4. a second materially different live-update consumer reproduces or breaks the persistent-resource Runtime pattern;
-5. Wreckline provider closure produces a truthful rebuilt/rendered candidate and reveals whether its socket/module path shares the same literal 3D attachment operation;
-6. Profession Fabric gains another real task that challenges the current experimental 3D specialist body rather than merely increasing procedure count.
+1. an unchanged interface-evidence verifier executes over both Object and Building;
+2. a third materially different manufactured source reproduces the Layer-A evidence shape;
+3. Object or another independent source performs a real Layer-B target-host attach/follow/swap-or-detach roundtrip;
+4. a real consumer demands Layer-C 3D physical constraint semantics;
+5. Profession Fabric gets a second materially different real 3D task/executor that challenges the current experimental specialist body;
+6. another design -> UC crossing contradicts the current source-local / UC-generic boundary.
 
-If none occurs, keep the capabilities in their present homes and do not manufacture a universal layer.
+If none occurs, preserve the three-layer map and do not manufacture a universal attachment layer.
