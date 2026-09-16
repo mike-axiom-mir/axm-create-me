@@ -1,180 +1,180 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-16
-State: **PASS_ART_DIRECTION_WEATHER_LATEST_DUE_EXPLICIT_DEGRADATION_ONLY_009 / FAIL_AS_CADENCE_EQUIVALENT_OR_DEFAULT_PRESENTATION / FIXED-STATE WIDTH LOOK REMAINS PREFERRED TARGET**
+State: **PASS_ART_DIRECTION_CURRENT_WORLD_NATURE_WOODY_FOLIAGE_PREFERENCE_010 / QA + RUNTIME + FINAL SIDEDNESS HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, newest specialist status, open design PRs and the newest ready visual/runtime evidence across the design constellation before selecting one bounded decision.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, newest specialist status, current open design PRs and the newest ready visual/runtime handoffs across the constellation before selecting one bounded Art Direction decision.
 
-`axm-create-me` remains **coordination only**. No Map, Weather, Environment, Character, Animal, Building, Nature, Object, Runtime, UC, Profession Fabric or gameplay implementation was authored here.
+`axm-create-me` remains **coordination only**. No Map, Nature, Weather, Building, Object, Character, Animal, Runtime, Universal Creation, Profession Fabric or gameplay implementation was authored here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Art Direction result remains historical truth:
+## Historical decisions preserved
 
-`PASS_ART_DIRECTION_ANIMAL_ELBOW_SELECTED003_SOURCE_PREFERENCE_008`
+The immediately previous temporal decision remains historical truth:
 
-Animal Organic PR #8 has since source-owned that exact reviewed selected-003 shape as a new non-CANON successor at head `7314a8971abb53f8ee6ef226c2496ab6d5da20d7` with `0.0 m` source-vs-review residual. Downstream Geometry/Rigging/Animation/Technical Art rebinding remains owner work; this activation does not reopen the elbow preference.
+- `PASS_ART_DIRECTION_WEATHER_LATEST_DUE_EXPLICIT_DEGRADATION_ONLY_009`;
+- `FAIL_ART_DIRECTION_WEATHER_LATEST_DUE_AS_CADENCE_EQUIVALENT_OR_DEFAULT_PRESENTATION_009`;
+- authored `31.25 ms / 32 Hz` remains the preferred Weather presentation target.
 
-The earlier current-world fixed-state decision also remains historical truth:
+The earlier fixed-state Weather source-width preference and accepted Building infill/world hierarchy remain unchanged.
 
-`PASS_ART_DIRECTION_CURRENT_WORLD_BUILDING_INFILL_WEATHER_WIDTH_COMBINED_PREFERENCE_007`
-
-The preferred fixed-camera Weather width language is not retuned here.
+Animal selected-003 remains the preferred Organic elbow source direction and has since been source-owned/rebound through Geometry and Rigging successor evidence. This activation does not reopen it.
 
 ## Fresh constellation / duplication scan
 
-The newest high-consequence Art Direction handoff is the Map VFX **latest-due exact-state presentation fallback** because it changes which authored dynamic states the viewer receives over time and Visual QA has now produced a direct temporal-equivalence FAIL requiring an Art Direction role decision.
+The highest-leverage ready visual-direction surface is now the **current-world Nature woody/foliage material-family receiving result** in Map Environment PR #24.
 
-Current relevant constellation state:
+Why this outranks opening another lane:
 
-- **Map VFX PR #25** is OPEN / DRAFT / MERGEABLE at exact head `e95910c8c5c45cd8d51be3b259825cf85064efc2`. Its optional latest-due fallback preserves exact source states but skips stale intermediates when the proof renderer cannot maintain authored cadence.
-- **Visual QA** independently proves every one of the 23 actually presented latest-due frames is pixel-identical to the matching earlier fixed-state frame, while failing temporal-rhythm equivalence because near-uniform display intervals alternate one- and two-state source advances.
-- **Runtime PR #30** at head `924139b8f5594975f098617fdb570fe59eaca0be` reduces update work from about `1.54 ms` to about `0.04 ms` with a prebuilt cache but still drops `10/17` states in both same-process camera contexts; further mesh-builder tuning is therefore not the Art Direction decision.
-- **Map Environment PR #24** at review head `bd065c8ee23ddee922c4aa9b4aa6e3d9504ffb06` now has a separate Building header-segmentation receiver delta. It remains a valid next Art/QA surface, but its static delta is bounded to roughly `0.21–0.38%` of frame pixels and does not outrank a presentation policy that changes the temporal rhythm of the full dynamic sequence.
-- **Character** has advanced to Rigging PR #8 on top of Geometry's opening repair, but Geometry still retains nonzero sampled intersections. No final Character visual acceptance is supported yet.
-- **Animal** selected-003 is now source-owned; the current need is downstream rebind evidence, not another Art Direction search.
-- **Building** has current source/material segmentation evidence and Map integration pending perceptual review; no new material retune is requested here.
-- **Nature** has a bounded woody/foliage lookdev candidate but no fresher completed visual handoff than the VFX timing issue.
-- **Object** newest active procedural service-module work is configuration/provenance work rather than a fresher final visual gate.
-- **Weather** source variation PR #3 remains source-local and does not decide presentation cadence.
-- **Weapon, Armor, Unit and Misc** currently expose no open PR lane that outranks this ready current-world visual handoff.
-- **Capability Cartography / UC / Profession Fabric** expose no reason to centralize this presentation-style decision.
+- Environment has a completed exact Godot receiving proof for the Nature family across the current Building + Object + route + Weather + moving-Nature world.
+- The visual delta is materially larger and more semantically meaningful than the earlier small Building header-segmentation delta: about `1.220%` of `path_eye` pixels and `1.376%` of `elevated_oblique` pixels change across matched states.
+- The exact change isolates Nature material role while holding form, motion, placement, cameras, lighting, Building, Object and Weather fixed.
+- Materials PR #5 already owns the family values and explicitly holds final Environment / Art / QA / Runtime adoption, so Art Direction can act without duplicating Materials implementation.
+- Visual QA's newest dynamic Weather interpolation result remains a temporal-equivalence FAIL on the inline-capture proof. Runtime PR #31 then proved that inline PNG capture materially perturbs that timing path, so the correct next temporal step is a clean decoupled evidence pass, not an Art Director retime or another interpolation implementation.
+- Character still retains nonzero sampled shoulder self-intersections despite bounded Geometry reductions, so final Character visual acceptance remains premature.
+- Animal's source-successor Rigging rebind is structurally strong but still awaits a direct perceptual deformation review; opening a new Animal shape direction would duplicate active downstream work.
+- Weapon, Armor, Unit and Misc expose no fresher completed visual handoff that outranks the ready current-world Nature comparison.
+- UC / Profession Fabric / Capability Cartography expose no reason to centralize this source-specific material choice.
 
-No duplicate VFX, Runtime, interpolation or renderer-repair lane was opened.
+No duplicate Materials, Environment, Geometry, VFX, Runtime or QA lane was opened.
 
 ## Exact reviewed identity
 
-Repository: `mike-axiom-mir/axm-map-design`
+Receiving repository: `mike-axiom-mir/axm-map-design`
 
-PR: **#25 — `VFX: carry source-authored Weather width into current-world proof`**
+Environment PR: **#24 — `Environment: converge Weather variant with exact Object source`**
 
-Exact current head:
+Exact Nature-family receiving head:
 
-`e95910c8c5c45cd8d51be3b259825cf85064efc2`
+`72d4128b602e27c886a0731ddd670ec8c14aaa7e`
 
-Presentation policy:
+Exact parent receiving head:
 
-`LATEST_DUE_EXACT_SOURCE_STATE_NO_INTERPOLATION`
+`dfd4e1d662ab7d6d9f1a5c8dd35b571418154f6e`
 
-Selection semantics:
+Nature material authority:
 
-`SELECT_FRESHEST_DUE_SOURCE_STATE_WHEN_RENDERER_RETURNS_CONTROL`
+- repository: `mike-axiom-mir/axm-nature-design`;
+- Materials PR #5 head `8b2e0523d7a2b210c6404f15bafb08fbedcad4dd`;
+- family `nature-woody-foliage-family-001`;
+- woody `#5C3B27FF`, metallic `0.0`, roughness `0.84`;
+- foliage `#5A823EFF`, metallic `0.0`, roughness `0.58`.
 
-Earlier fixed-state source-width review head:
-
-`15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`
+No leaf-sidedness migration is included in this receiving decision. The moving sapling and compact east tree keep their current observation-host culling behavior; the already-migrated rear tree remains `CULL_BACK`.
 
 ## Evidence independently checked
 
-Latest-due artifact:
+Current Nature-family artifact:
 
-- ID `10461270622`;
-- independently downloaded/rehashed SHA-256 `a7862ff074f63edde800682e97079483ed3ecb307c9b5180c6640de4784e75b8`;
-- exact source interval `31.25 ms` / `32 Hz`;
-- `path_eye` presents `12/17` states: `0,1,3,4,6,7,9,10,12,13,15,16`;
-- `elevated_oblique` presents `11/17` states: `0,1,3,4,6,8,9,11,12,14,16`.
+- ID `10463255035`;
+- GitHub SHA-256 `a4dbc0e2b8ef6f16bb846d0f639b7935b414ddfe4222463f397d11a16cfc0a45`;
+- independently downloaded and rehashed to the exact same digest;
+- retained `exact-head.txt` = `72d4128b602e27c886a0731ddd670ec8c14aaa7e`;
+- 68 retained Godot 4.7.2 frames: `17 states × 2 cameras × 2 inherited Weather modes`.
 
-Earlier fixed-state artifact:
+Exact parent artifact:
 
-- ID `10449666486`;
-- independently downloaded/rehashed SHA-256 `c1143322dc974ad21cff4e3baa53697cc4a58fc42caf55627077703f131011b5`;
-- all 17 exact source-width candidate states retained in both fixed cameras.
+- ID `10460871165`;
+- GitHub SHA-256 `add8d72e9dee4398ef844892138308022261d2d5a4f22a652f4dda9dbdb26d70`;
+- independently downloaded and rehashed to the exact same digest;
+- retained `exact-head.txt` = `dfd4e1d662ab7d6d9f1a5c8dd35b571418154f6e`.
 
-I independently compared all 23 actually presented latest-due frames with their corresponding fixed-state frames: **23/23 are pixel-identical**.
+Owner-side matched-frame measurements remain:
 
-I independently reproduced the retained transition-magnitude diagnostics:
+- `path_eye`: `9,415–9,827` changed pixels; mean `9,662.06 / 792,000` = about `1.220%`;
+- `elevated_oblique`: `10,886–10,906` changed pixels; mean `10,897.76 / 792,000` = about `1.376%`;
+- maximum RGB-channel delta `117`.
 
-### `path_eye`
+I directly compared matched source-width frames at states `0 / 8 / 16` in both fixed cameras.
 
-- one-state transitions: median `1,778` pixels >1 RGB LSB, median whole-frame mean absolute RGB delta `0.092174...`;
-- two-state latest-due jumps: median `2,390` pixels, mean delta `0.140137...`;
-- approximate two-state multiplier: `1.34x` changed pixels / `1.52x` mean RGB delta.
+## Exact visual observations
 
-### `elevated_oblique`
+The parent proof-only Nature response renders trunks/branches and foliage in nearly the same bright green family. That collapses woody structure and foliage into one material read and makes the trees feel more like proof/debug objects than integrated world elements.
 
-- one-state transitions: median `1,399.5` changed pixels, mean delta `0.0601515...`;
-- two-state jumps: median `2,064.5` changed pixels, mean delta `0.107119...`;
-- approximate multiplier: `1.48x` changed pixels / `1.78x` mean RGB delta.
+The candidate produces a clear hierarchy improvement:
 
-These remain diagnostics, not universal perceptual thresholds.
+- trunks and branches read as a muted brown woody structural family;
+- foliage remains the greener accent layer;
+- the foreground and background Nature silhouettes preserve their positions and motion while material role becomes easier to parse;
+- the Nature layer sits more coherently beside the accepted dark Building shell, restrained ochre service accent, neutral route and sparse Weather ribbons;
+- no simultaneous lighting, placement, wind, form or Weather change is needed to obtain the improvement.
 
-## Direct Art Direction interpretation
-
-Spatially, the fallback preserves the approved Weather language. Sparse source-width ribbons remain subordinate to the pavilion, route and vegetation; the actually shown states contain no new giant ribbon, clipping flare, spatial corruption or world-layout jump.
-
-Temporally, it is a degraded rhythm. The viewer receives near-regular proof-host draw intervals while the authored source time advances by alternating one and two state steps. That makes some transitions materially larger than neighboring transitions and changes the authored gust/motion rhythm.
-
-Therefore latest-due must not silently replace the authored presentation target. However, the retained sequence remains recognizably the same atmosphere and is not visually corrupted at the per-state level. It may remain available as an **explicit degradation/fallback mode** whose state drops are truthfully surfaced.
-
-This activation does not choose between latest-due, interpolation, a different scheduler, a renderer change, a lower-cost scene, or another target device. Those alternatives lack equivalent visual evidence here.
+The candidate is **not** a claim that Nature is finished. Foliage remains sparse and stylized, per-species identity is weak, and richer bark/leaf response is still absent.
 
 ## Art Direction decision
 
-### PASS — explicit degradation role only
-
-**`PASS_ART_DIRECTION_WEATHER_LATEST_DUE_EXPLICIT_DEGRADATION_ONLY_009`**
+**`PASS_ART_DIRECTION_CURRENT_WORLD_NATURE_WOODY_FOLIAGE_PREFERENCE_010`**
 
 Exact meaning:
 
-> Keep the exact latest-due fallback available only as an explicit degraded presentation option. Every actually presented state preserves the accepted spatial Weather presentation, so the fallback does not need to be deleted; its dropped-state stepping is accepted only as known degradation behavior.
+> Prefer the exact `nature-woody-foliage-family-001` receiving result over the proof-only all-green Nature response as the next current-world Nature visual direction. Preserve current geometry, motion, placement, cameras, lighting, Weather, Building and Object presentation while this preference propagates.
 
-### FAIL — cadence-equivalent/default role
-
-**`FAIL_ART_DIRECTION_WEATHER_LATEST_DUE_AS_CADENCE_EQUIVALENT_OR_DEFAULT_PRESENTATION_009`**
-
-Exact meaning:
-
-> Do not call latest-due visually equivalent to authored 32 Hz playback and do not promote it to default presentation. The fixed proof cameras skip 5/17 and 6/17 source states and produce materially larger two-state transition deltas.
-
-The authored `31.25 ms` source sequence remains the preferred presentation target.
+This is a bounded visual preference only. It is not CANON and not production readiness.
 
 ## Direction packet
 
 Created:
 
-`studio/direction/CURRENT_WORLD_WEATHER_LATEST_DUE_DEGRADATION_DIRECTION_009.md`
+`studio/direction/CURRENT_WORLD_NATURE_WOODY_FOLIAGE_DIRECTION_010.md`
 
 Creation commit:
 
-`34735d4882bc8c58760996b47c19e5fbb38e4a7d`
+`6dacf93487b542f3ba102697f45a4d2630404da0`
 
 ## Handoffs
 
-### VFX / Map PR #25
+### Environment / Map PR #24
 
-Retain `LATEST_DUE_EXACT_SOURCE_STATE_NO_INTERPOLATION` only as explicit fallback/degradation. Preserve the strict 32 Hz failure, fallback semantic PASS and QA temporal-equivalence FAIL separately. No Weather width/color/opacity/density retune is requested.
+Keep the exact three-source woody/foliage family as the preferred Nature presentation candidate. Do not bundle a lighting, form, placement, wind or Weather retune into this propagation; keep attribution clean.
 
-### Runtime / Optimization
+### Nature Materials PR #5
 
-Continue on renderer/presentation/post-draw or target-host timing evidence rather than treating cache update cost as the visual solution. Do not infer that this Art Direction PASS approves the cache memory/resource trade.
+Treat the current exact family values as directionally accepted for this receiving context. Do not retune them merely to increase contrast. Final sidedness and richer material features remain separate decisions.
 
 ### Visual Observer / QA
 
-The temporal-equivalence FAIL is accepted. Re-open when a materially different presentation strategy exists or latest-due semantics change. Compare any future candidate against the same authored sequence.
+Review all 68 retained current-world frames for state/camera-specific regressions, especially whether darker woody branches disappear against the near-black sky or whether any thin foliage/branch read becomes materially worse. Art Direction preference does not replace that independent gate.
 
-### Environment / Map PR #24
+### Runtime / Optimization
 
-The source-owned Building header segmentation current-world delta at `bd065c8e...` remains a separate pending Art Direction / Visual QA surface. The separately held Object receiver-footprint cue is also not accepted by this Weather decision.
+Environment reports an exact proof-host submission increase for the two-surface Nature representation:
+
+- `path_eye`: `+6` draw calls / `+6` objects;
+- `elevated_oblique`: `+9` / `+9`;
+- primitive delta `0`;
+- observed buffer-memory delta `0 B`;
+- observed texture-memory delta `0 B`.
+
+These are diagnostics only. Target-device acceptance remains Runtime-owned.
+
+### VFX / Weather
+
+Do not compensate Nature with Weather changes. Fixed-state source-width Weather remains the approved spatial language. Continuous-phase interpolation remains a separate dynamic candidate whose clean temporal review should follow Runtime's proof-harness decoupling finding.
+
+### Character / Animal
+
+Character remains held behind nonzero sampled shoulder intersections. Animal source-successor Rigging/Animation work should receive its own direct deformation/motion visual review; this Nature decision grants no cross-domain acceptance.
 
 ### UC / Profession Fabric / Capability Cartography
 
-No timing/style rule is centralized. This is one bounded presentation decision, not reusable source machinery.
+No Nature color/material rule is centralized. Source ownership remains in Nature and receiving evidence remains in Map.
 
 ## Explicit non-claims
 
-This activation does **not** establish authored `32 Hz` delivery; zero dropped states; interpolation quality; a preferred timing repair algorithm; target-device FPS, CPU/GPU frame time, memory, battery or thermal behavior; arbitrary camera/FOV/resolution/renderer equivalence; physical Weather; gameplay visibility/collision/damage; Building header-segmentation acceptance; Object footprint-dressing acceptance; final world art; UC extraction; Profession Fabric promotion; CANON; production/game readiness; or 3D Art Direction mastery.
+This activation does **not** establish final leaf-sidedness strategy; per-species botanical identity; final hue/value/roughness tuning; UVs, textures, normals, subsurface, transmission or weathering; final foliage density/form quality; arbitrary-camera/FOV/resolution/renderer equivalence; target-device FPS/CPU/GPU/VRAM/thermal/battery/batching acceptance; Weather exact-cadence recovery; final Object footprint acceptance; Character or Animal acceptance; collision/navigation/gameplay; CANON; production/game readiness; or 3D Art Direction mastery.
 
 ## Four-root gate
 
-- **Truth:** exact per-state spatial identity remains PASS while temporal equivalence remains FAIL; the fallback is not sold as a cadence repair.
-- **Agency / non-domination:** VFX retains presentation-policy ownership, Runtime retains performance/timing authority, Weather retains source semantics, QA retains evidence authority, and Art Direction only defines the bounded visual role.
-- **Continuity:** approved fixed-state width language, strict cadence failure, latest-due semantic PASS, QA temporal FAIL and this explicit-degradation decision remain separate exact evidence points.
-- **Wisdom before speed:** keep a useful fallback without promoting its known defect into the default, and do not demand interpolation or another complex repair before equivalent evidence exists.
+- **Truth:** the clear material-role improvement and the measured submission-cost increase remain visible together; neither is hidden by the other.
+- **Agency / non-domination:** Nature retains material authority, Environment retains receiving ownership, QA retains independent visual-defect review and Runtime retains performance authority.
+- **Continuity:** exact parent, exact candidate, exact Materials donor, historical Weather decisions and current-world lineage remain independently identifiable and rollbackable.
+- **Wisdom before speed:** accept the strong one-variable visual improvement without bundling form, lighting, Weather, sidedness or runtime changes into the same decision.
 
 ## Next Art Director pass
 
-Re-scan first. Strong next ready surface if no higher-leverage defect appears: the exact Map Environment Building header-segmentation current-world delta at `bd065c8e...`, with independent QA evidence if available. Character should remain held until Geometry's sampled intersection blocker is materially cleaner.
+Re-scan first. Strong next candidates if no more consequential completed evidence lands: the Animal source-successor deformation A/B once direct retained visual poses exist, the Map Object receiver-footprint cue if QA evidence is complete, or the Weather continuous-phase candidate after timing evidence and visual sequence capture are cleanly decoupled.
 
 Do not claim mastery from this bounded decision.
