@@ -1,174 +1,200 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-16
-State: **PASS_SCENE_MOTION_VISUAL_RECHECK / EXACT NEUTRAL→PEAK RECEIVING-SCENE A/B CLEARS FOCUS-STEAL + HIERARCHY REGRESSION QUESTION / CONTINUOUS PLAYBACK + SHADED LOOKDEV + DYNAMIC RUNTIME STILL HELD**
+State: **PASS_EAST_FOREGROUND_VISUAL_HIERARCHY_RECHECK / EXACT COMPACT NATURE SOURCE MATERIALLY REDUCES THE NAMED LOWER-RIGHT BLOCKOUT / PATH-EYE REMAINS BYTE-IDENTICAL / FINAL WORLD ART + ART DIRECTION + MATERIALS + DEFORMATION + TARGET RUNTIME HELD**
 
 ## Scope selected
 
-The highest-leverage unverified visual claim in this pass was the exact Nature sapling response after it moved from isolated wire evidence into the real seed-29 Environment receiving scene in `mike-axiom-mir/axm-map-design` PR #4.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, the Visual Observer / QA standing role, current Art Direction, Organic Form, Environment and prior QA status, then scanned the newest open constellation PRs before selecting this pass.
 
-This is the explicit next gate from Art Direction after `PASS_ART_DIRECTION_LOCAL_SWAY_HIERARCHY_001 / RELEASE_TO_SCENE_INTEGRATION`: compare the accepted local response at neutral `0.000 s` versus peak `0.250 s` from the existing fixed `path_eye` and `elevated_oblique` cameras without retuning placement or importing the separate Materials candidate.
+The most consequential ready unverified visual claim is the exact replacement of the large east-foreground Nature proxy in `mike-axiom-mir/axm-map-design` PR #4. The previous Visual Observer pass and Art Direction both independently identified that proxy as the strongest remaining scene-level hierarchy weakness after the sapling-motion question cleared. Organic Form then supplied a truthful source-owned body sized for the slot, and Environment composed only that replacement into the same retained seed-29 scene with fixed cameras and unrelated scene state preserved.
 
 Exact receiving lane:
 
 - repository: `mike-axiom-mir/axm-map-design`;
 - PR: `#4 — Environment: integrate first source-owned nature + weather slice`;
 - branch: `studio/environment-real-nature-weather-001`;
-- exact current head: `8f81c57d9169dc9faba0cb01b85f17dff92bad6f`;
-- PR state: open / draft / mergeable;
-- exact Nature/VFX response head: `cee14f5b3feea78b0adcd044bad2ea3c97657fc6`;
-- response profile: `HIERARCHICAL_TRUNK_BRANCH_LEAF_HALF_SINE_VISUAL_SWAY`;
-- displacement ceiling: `0.180 m`;
+- exact reviewed head: `cdac7d1316631b3b130d5e558de2aee462a21d40`;
+- PR state at review: open / draft / mergeable;
+- retained seed: `29`;
+- target: `proxy:nature-tree-east-b`;
+- replacement: Nature `compact-east-tree-neutral-001`;
+- exact Nature source head: `64116d63fc76daa1623b5fd5046a4e6074100bda`;
+- source digest: `9c87cf26f02f7adee832908652942218ec779c9029a0611aae1fb66eb0f62f54`;
+- mesh digest: `c7367ed5dcea6ebe39869c48fd653845b25c9a8725a2e637a1d6f2fbee1fa32f`;
+- compact source body: `390` vertices / `570` triangles;
 - renderer: Godot `4.7.2-stable (official)` GL Compatibility;
-- Materials candidate: intentionally excluded;
-- Weather semantics: `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
+- cameras: exact fixed `path_eye` + `elevated_oblique`;
+- placement: preserve target center XY, ground source min-Z, no form scale, no extra rotation.
 
-`axm-create-me` remains coordination-only. No product implementation was added here.
+`axm-create-me` remains coordination-only. No product, Environment, Nature, renderer or runtime implementation was changed by Visual QA.
 
 ## Why this outranked other current QA surfaces
 
-Fresh specialist/status and PR review found several active surfaces:
+The fresh constellation scan found several legitimate review candidates, but none superseded this exact downstream gate:
 
-- **Materials / LookDev:** Nature PR #5 already has direct isolated and Environment-context Godot A/B inspection. Final lookdev remains held, but the current material delta itself is already directly observed.
-- **Rigging / Deformation:** Object PR #3 has a 111-sample structural hinge envelope and a directly inspected five-pose side proof. Animal PR #2 still lacks the requested matched shaded/perspective smoothstep-vs-`t^0.75` A/B, so its perceptual weighting claim remains blocked on missing evidence rather than ready for QA adjudication.
-- **Animation / Motion:** Animal PR #5 now has a valid nine-sample temporal board and structural temporal continuity PASS. It still needs independent perceptual review, but Art Direction explicitly prioritized the Environment neutral/peak receiving-scene test first.
-- **VFX / Atmosphere:** Map PR #7 has a nine-state Weather sequence whose 18 PNGs were already directly inspected by VFX. Visual Observer acceptance remains separate, but it does not currently block the already-requested Nature scene-motion gate.
-- **Runtime / Optimization:** the static Environment source-slice budget is measured, while changing-geometry / dynamic update cost remains explicitly unimplemented. There is no live dynamic runtime output to inspect yet.
-- **Wreckline:** the 35 m LOD visual hold still lacks a truthful rebuilt/rendered candidate because provider closure is incomplete.
-- **Character / Geometry:** current candidates remain upstream of direct deformation/runtime acceptance.
+- **Animal Animation PR #5** now has repeatable 40-frame discrete sampled playback and still merits independent timing/silhouette QA, but it is a separate character-motion question rather than the already-named strongest scene-level defect.
+- **Object Materials PR #6** has real three-view Godot A/B evidence, and **Object Technical Art PR #7** is proving a target-host GLB handoff. Both remain useful later QA surfaces, but neither is the current Environment hierarchy blocker.
+- **Map VFX PR #9** addresses source Weather opacity fidelity and **Map Runtime PR #10** measures the exact compact-tree replacement cost. Those lanes are intentionally separate: VFX owns Weather fidelity, Runtime owns comparative proof-host cost, while this pass answers whether the exact proxy-to-source visual replacement actually clears the named scene blockout defect.
+- **Animal Rigging PR #2** still lacks the requested matched shaded/perspective baseline-vs-`t^0.75` perceptual A/B.
+- **Wreckline 35 m LOD** still lacks a truthful rebuilt/rendered changed candidate because the historical provider closure remains incomplete.
+- **Character / connected-Animal topology** remain upstream of their own direct deformation/aesthetic acceptance.
 
-The Environment neutral→peak A/B was therefore the most consequential ready visual decision: it directly answered the named Art Director question and was waiting on independent Visual Observer inspection.
+The Environment east-tree A/B was therefore both ready and consequential: it is the direct answer to a previously reproduced visible defect, with an isolated exact-source replacement and retained target-host renders already available.
 
 ## Exact evidence acquired
 
-Latest retained artifact for the exact current PR head:
+Environment retained artifact:
 
-- artifact ID: **`10430239495`**;
-- exact head binding: `8f81c57d9169dc9faba0cb01b85f17dff92bad6f`;
-- archive SHA-256: **`5b13301858afef9bf4a4dfc21ca559964cad9aa3e3af78b50e879cd14ba51e88`**.
+- artifact ID: **`10431229631`**;
+- exact Map head binding: `cdac7d1316631b3b130d5e558de2aee462a21d40`;
+- archive SHA-256: **`808bdc076c0a804022d67fc802621926574383a1978617fe292e3a66aa494ef3`**.
 
-The ZIP was downloaded independently and rehashed to the exact recorded digest.
+The ZIP was downloaded independently during this QA pass and rehashed to the exact recorded digest.
 
-The retained four PNGs are byte-identical to the earlier artifact `10429983610`; the rerun did not silently move the visual evidence.
+The retained structural replacement receipt reports:
 
-Exact PNG SHA-256 values:
+- `PASS_EAST_FOREGROUND_SOURCE_REPLACEMENT_STRUCTURE`;
+- source body fits the exact retained seed-29 target without hidden scale or extra rotation;
+- source grounded at scene Z=0;
+- exact readable path preserved and unblocked;
+- exact Weather preserved;
+- exact west source sapling preserved;
+- all unrelated scene items preserved;
+- no spacing conflicts;
+- exactly one source mesh replaces exactly the named east Nature proxy.
 
-- `path_eye_neutral.png`: `09bc4a49b2af3084cfc8cb3cf3402a6bad9f2ed05a14f8e1bb80a2c53588d1e8`;
-- `path_eye_peak.png`: `673888d7802845ca18be90615e84e3dc5b8e3f81ef8383d9d915b201a5928031`;
-- `elevated_oblique_neutral.png`: `fdc1d3630fbeae53eca3f9cd8dd740a52666a2dc7404bd5839a0cce1fa90c32d`;
-- `elevated_oblique_peak.png`: `72795b323e27839b342e774101355e97d2e6e100b44296476e458f2ca2805300`.
+Exact compact source world bounds in the receiving scene:
 
-The retained structural receipt separately confirms:
+- min: `[6.160503150354794, -3.8238458700785265, 0.0] m`;
+- max: `[7.624972849645205, -2.745042129921474, 3.6856826895144033] m`;
+- size: `[1.4644696992904116, 1.0788037401570527, 3.6856826895144033] m`.
 
-- same two fixed cameras;
-- 390-vertex / 570-triangle observation representation in both states;
-- topology preserved;
-- maximum neutral→peak displacement `0.18000000000000033 m` against the retained `0.180 m` ceiling;
-- peak path unblocked;
-- no peak spacing conflicts;
-- peak remains inside the old reserved static proxy footprint;
-- proof-only leaf culling and Weather presentation boundaries preserved.
+Exact retained render hashes:
 
-Those machine checks support attribution but do not substitute for the visual decision below.
+- `baseline_path_eye.png`: `09bc4a49b2af3084cfc8cb3cf3402a6bad9f2ed05a14f8e1bb80a2c53588d1e8`;
+- `candidate_path_eye.png`: `09bc4a49b2af3084cfc8cb3cf3402a6bad9f2ed05a14f8e1bb80a2c53588d1e8`;
+- `baseline_elevated_oblique.png`: `fdc1d3630fbeae53eca3f9cd8dd740a52666a2dc7404bd5839a0cce1fa90c32d`;
+- `candidate_elevated_oblique.png`: `7bff9346486b513422fa060efe091ae7fead7e7d69114dbdf3092ce00d5445b9`.
 
-## Direct visual QA observation
+The two `path_eye` images are byte-identical. Independent pixel differencing of the `elevated_oblique` A/B reproduced Environment's retained localization exactly:
 
-All four exact retained PNGs were opened and directly inspected as neutral/peak A/B pairs. Additional image differencing was used only to localize the actual changed region; aesthetic judgment remains based on the rendered images themselves.
+- changed pixels: **`105,518 / 792,000 = 13.323%`**;
+- changed-pixel bounding box: **`x=659..1075`, `y=303..719`**.
+
+The numerical localization is attribution evidence only. The visual decision below is based on direct inspection of all four exact retained PNGs.
+
+## Direct Visual Observer / QA observation
 
 ### `path_eye`
 
+The baseline and candidate are visually and byte-identically unchanged.
+
 Observed:
 
-- the central approach remains the dominant readable structure from neutral to peak;
-- the moving sapling is peripheral and heavily cropped at the left edge in both states;
-- visible branch/crown movement does not pull attention away from the path endpoint or building mass;
-- the moving cast-shadow detail remains small and peripheral and does not cross or visually close the main route;
-- no new scene-level silhouette collision or obvious branch detachment is visible at this camera scale;
-- the large right-side/east Nature proxy, object proxies, building proxy and Weather field remain visually unchanged.
+- the central approach keeps exactly the same read;
+- building, flanking object proxies, Weather streak presentation, west sapling edge/shadow and remaining right-side Nature mass do not visibly move;
+- the off-axis east replacement introduces no visible route-view occlusion or regression from this camera.
 
-Pixel localization for neutral→peak:
-
-- changed pixels: **`3,338 / 792,000` = `0.421%`**;
-- changed-pixel bounding box: **`x=0..276`, `y=85..478`**.
-
-The changed region corresponds to the cropped sapling and its cast shadow, not to a scene-wide render/state leak.
+This fixed view is therefore a strong no-regression control, not evidence that the compact tree itself is visually good from every angle.
 
 ### `elevated_oblique`
 
-Observed:
+The original defect is directly reproducible in the baseline: `proxy:nature-tree-east-b` appears as a large opaque rectangular foreground mass in the lower-right, occupies substantial screen area, masks ground and hides part of the orange object behind it.
 
-- the full sapling is visible and the neutral→peak crown/branch change is perceptible;
-- the local response stays visually subordinate to the broader composition;
-- the central path keeps the same read and remains more compositionally important than the sapling motion;
-- the already-known large east foreground Nature proxy remains the dominant oblique hierarchy problem in both states;
-- the sapling peak does **not** materially worsen that existing proxy dominance or mask additional deep context;
-- the peak silhouette remains coherent at this scene scale; no new detached cluster, obvious root kink, or abrupt scene-scale break is visible;
-- the cast shadow changes consistently with the moving sapling and remains a secondary ground detail.
+In the exact candidate:
 
-Pixel localization for neutral→peak:
+- that opaque rectangular foreground block is gone;
+- the replacement reads as a substantially narrower source-owned tree with a clear lower trunk and porous branch/crown silhouette;
+- materially more ground plane is visible through and around the target slot;
+- the previously partly masked orange object proxy behind the slot becomes visibly exposed;
+- the central path remains readable and compositionally stable;
+- the existing west source-owned sapling remains visually unchanged;
+- no obvious detached branch mass, floating root, new silhouette collision or target-scale placement break is visible at this proof-host scene scale;
+- the replacement remains visually secondary to the broad path/building composition rather than becoming a new opaque foreground wall.
 
-- changed pixels: **`2,349 / 792,000` = `0.297%`**;
-- changed-pixel bounding box: **`x=368..532`, `y=138..314`**;
-- largest connected changed regions: sapling body/crown about `1,592 px`, cast-shadow region about `611 px`.
-
-Again the delta is localized to the expected moving sapling plus its rendered shadow; unrelated scene bodies do not change.
+A separate right/rear green Nature proxy remains large and block-like. With the east foreground block reduced, that remaining proxy is now the clearest unresolved proxy-mass weakness in the oblique view. This pass does not relabel the whole scene as final.
 
 ## Result
 
-**`PASS_SCENE_MOTION_VISUAL_RECHECK`** for exact Map PR #4 head `8f81c57d9169dc9faba0cb01b85f17dff92bad6f`, exact retained artifact `10430239495`, and the fixed neutral `0.000 s` → peak `0.250 s` A/B only.
+**`PASS_EAST_FOREGROUND_VISUAL_HIERARCHY_RECHECK`**
 
-The two questions named by Art Direction are cleared within this proof-material, two-state scene evidence:
+Bound exactly to:
 
-1. **Does the accepted sapling response steal focus from the central approach?** — **No visible regression found.** The path remains dominant; `path_eye` makes the sapling strongly peripheral and `elevated_oblique` keeps the motion subordinate.
-2. **Does peak motion worsen the known elevated-oblique hierarchy issue from the large east foreground Nature proxy?** — **No visible worsening found.** That proxy remains the stronger existing composition issue, but the sapling motion does not materially amplify it.
+- Map PR #4 head `cdac7d1316631b3b130d5e558de2aee462a21d40`;
+- retained artifact `10431229631`;
+- seed `29`;
+- exact fixed `path_eye` / `elevated_oblique` cameras;
+- exact Nature source `compact-east-tree-neutral-001` at `64116d63fc76daa1623b5fd5046a4e6074100bda`;
+- proof-only Godot 4.7.2 GL Compatibility presentation.
 
-No new VFX repair is requested from this scene-motion A/B. Preserve the exact accepted Nature response unless later richer playback/shaded evidence exposes a new specific defect.
+Within that scope, the previously named **east-foreground opaque blockout / deeper-context masking defect is materially reduced by the exact source replacement**, while the fixed eye-level approach view remains byte-identical. No Visual QA repair is requested for this exact source replacement before Art Direction reviews the same evidence.
 
-## Important limitations / holds
+This PASS clears the specific Visual Observer hold on whether the source-owned replacement actually improves the reproduced blockout defect. It is **not** final Environment or Art Direction acceptance.
 
-This PASS is deliberately narrow. The artifact contains two separately rendered static states, not continuous same-process animation.
+## Defect disposition
 
-Still **not established**:
+### Cleared in this exact evidence
 
-- continuous playback smoothness between neutral and peak;
-- temporal lag, phase separation, overshoot, inertia, recovery or organic motion feel;
-- interpolation quality or shadow stability/flicker during live playback;
-- changing-geometry CPU/GPU update cost, frame time, target FPS, memory churn or draw-call behavior;
-- shaded deformation using the Nature Materials PR #5 candidate;
-- final vegetation lookdev, leaf thickness/translucency or final lighting;
-- self-intersection / volume behavior hidden by the proof-material render;
-- physical wind, drag, force, turbulence or botanical biomechanics;
-- traversal, collision, gameplay or navigation;
-- final Environment world-art hierarchy; the large east foreground proxy issue remains real and separate;
-- final Art Director acceptance of the complete Environment scene;
-- CANON, production readiness, profession promotion or Visual Observer / VFX / Environment mastery.
+- large opaque lower-right target proxy replaced by a narrower open source silhouette;
+- target-region ground/context visibility increases;
+- previously masked orange object becomes more visible;
+- no visible `path_eye` regression;
+- no unrelated scene-wide render/state mutation observed;
+- no obvious grounding or gross silhouette break visible at the retained scene scale.
+
+### Still visible / still held
+
+- separate rear/right Nature proxy remains a large block mass and is now the stronger remaining proxy hierarchy issue;
+- building and other remaining proxies are still explicit proof geometry rather than final source-owned world art;
+- the compact tree is shown with proof-only materials and observation-host culling behavior, so final surface quality is not judged here.
+
+## Important limitations / non-claims
+
+This PASS does **not** establish:
+
+- final 3D Art Director acceptance of the compact tree or the complete Environment scene;
+- final Nature silhouette/style quality outside these two fixed scene views;
+- botanical species correctness, biological growth or physical plausibility;
+- connected production vegetation topology or self-intersection freedom;
+- branch deformation, rigging, weighting, wind response, animation or continuous playback;
+- moving-shadow stability or temporal behavior;
+- final bark/leaf Materials, UVs, textures, thickness, translucency or lighting;
+- renderer equivalence beyond this pinned Godot 4.7.2 GL Compatibility proof host;
+- target-device FPS, GPU time, memory budget, draw budget, LOD or streaming policy;
+- collision, navigation, traversal or gameplay suitability;
+- source Weather opacity fidelity from Map PR #9;
+- Runtime PR #10's comparative performance result;
+- replacement suitability for other Nature proxy slots;
+- a generic vegetation importer, Environment abstraction or UC capability;
+- CANON, production readiness, profession promotion or Visual Observer / Environment / Nature mastery.
 
 ## Root gate
 
-- **Truth:** the decision is bound to exact current head, latest retained artifact, independently reproduced archive digest and four directly inspected PNGs. Static two-state evidence is not relabelled continuous playback or runtime performance.
-- **Agency / non-domination:** QA clears only the named scene-motion visual regression questions. Environment owns composition, Nature owns source form, VFX owns response implementation, Materials owns lookdev, Runtime owns cost, and Art Direction owns broader aesthetic direction. No specialist PASS grants CANON/merge authority.
-- **Continuity:** the existing PR #4 lane and exact seed-29 placement/cameras are preserved. The accepted local Nature response is consumed unchanged; Materials remains separate; earlier artifacts remain traceable.
-- **Wisdom before speed:** the studio now has enough direct scene evidence to stop retuning the local sapling merely from uncertainty. The next work should target a new evidenced gap rather than adding gusts, turbulence or a shared deformation system prematurely.
+- **Truth:** the decision is bound to one exact Map head, exact Nature head/source/mesh identity, exact retained archive digest, exact fixed-camera hashes and four directly inspected PNGs. A visual hierarchy PASS is not relabelled Materials, deformation, runtime or gameplay acceptance.
+- **Agency / non-domination:** Visual QA clears only the reproduced visual defect. Environment owns composition, Nature owns source form, Materials owns surfacing, VFX/Rigging/Animation own motion/deformation, Runtime owns performance, Art Direction owns broader aesthetic direction, and the four roots remain the merge gate.
+- **Continuity:** the existing Map PR #4 receiving lane is preserved; no camera, source geometry, placement, Weather, west sapling or unrelated scene content was retuned by QA. The earlier baseline defect and motion evidence remain traceable.
+- **Wisdom before speed:** because the exact source replacement now directly clears the specific blockout question, do not keep reshaping or moving it merely from uncertainty. Further work should target the next evidenced weakness or an independently ready QA surface.
 
 ## Handoffs
 
-- **3D Art Director:** the exact neutral→peak receiving-scene A/B now has independent `PASS_SCENE_MOTION_VISUAL_RECHECK`. The sapling remains subordinate to the central approach and does not visibly worsen the east-foreground proxy hierarchy issue. Broader world-art acceptance remains yours.
-- **Environment / World Art:** no motion-specific composition repair is requested. Preserve this exact scene-motion result. The next source replacement can proceed as a separate attributed change if Art Direction does not identify another issue.
-- **VFX / Atmosphere:** keep Nature response head `cee14f5...` stable. Do not retune the sapling because of this scene A/B. Your separate Weather sequence remains a future independent Visual Observer surface.
-- **Materials / LookDev:** this does not accept moving shaded vegetation. A future controlled proof can combine this exact accepted motion with the current static material candidate only if that becomes the next bounded question.
-- **Runtime / Optimization:** static scene-motion visual acceptance does not prove dynamic cost. If an actual same-process changing-geometry path is implemented, measure and retain it before claiming runtime acceptance.
-- **Animation / Motion:** Animal temporal artifact `10430538721` remains a high-value independent QA surface after this Environment gate; do not infer animation quality from vegetation motion.
-- **Rigging / Deformation:** Animal `t^0.75` weighting remains blocked for perceptual QA until matched shaded/perspective baseline-vs-candidate evidence exists. Object hinge remains structural pose evidence only.
-- **Hard Surface / Technical Art:** Wreckline 35 m LOD review remains blocked until a truthful rebuilt/rendered candidate exists.
+- **3D Art Director:** exact independent QA result is `PASS_EAST_FOREGROUND_VISUAL_HIERARCHY_RECHECK`. The named lower-right opaque blockout is materially reduced and `path_eye` remains byte-identical. Please judge directional acceptance of this exact source replacement and the broader remaining world-art hierarchy; the rear/right Nature proxy is now the clearest remaining block mass in the oblique view.
+- **Environment / World Art:** no QA repair is requested for `proxy:nature-tree-east-b` at this exact head. Preserve the isolated replacement evidence unless Art Direction finds a new specific issue. Do not mix the next proxy/source replacement into this A/B retrospectively.
+- **Nature / Organic Form:** the compact source has now cleared this exact receiving-scene blockout question. That does not promote botanical, topology or deformation claims; preserve its exact identity for downstream comparison.
+- **Runtime / Optimization:** Map PR #10 may use the same exact visual relationship as attribution evidence: `path_eye` is byte-identical and `elevated_oblique` contains the intended localized replacement delta. This QA PASS does not transfer any cost/FPS/memory acceptance.
+- **Materials / LookDev:** proof-only green surface presentation is not accepted as final vegetation lookdev. Do not infer a material PASS from the stronger silhouette/context result.
+- **VFX / Rigging / Animation:** no wind/deformation behavior has been exercised on the compact tree. Do not inherit the original west-sapling response onto this source body.
+- **Capability Cartographer / UC:** this remains source-owned Nature geometry composed by Map. One successful source replacement does not justify a generic vegetation/environment extraction.
+- **Wreckline:** the 35 m changed-LOD visual gate remains blocked until a truthful rebuilt/rendered candidate exists.
 
 ## Next Visual Observer pass
 
-Prefer the strongest newly reviewable surface in this order:
+If no richer downstream Environment/Art Direction evidence appears first, prefer the strongest new direct evidence surface rather than reopening this cleared A/B:
 
-1. Animal PR #5 exact nine-sample temporal artifact `10430538721` for independent sampled-sequence QA if no richer shaded deformation evidence appears first;
-2. Animal Rigging smoothstep-vs-`t^0.75` matched shaded/perspective A/B once it actually exists;
-3. Map PR #7 nine-state Weather receiving sequence for independent atmosphere/readability QA if it becomes the more consequential downstream gate;
-4. Object lid articulation representative poses if Art Direction requests a perceptual mechanical-range decision;
-5. Wreckline only after a new truthful rebuilt/rendered LOD candidate exists.
+1. Animal PR #5 exact discrete 40-frame sampled playback artifact `10431893686` for independent cadence, silhouette, paw/limb oddity and seam QA without inferring interpolation;
+2. Object Materials PR #6 exact three-view host/module A/B for independent functional-surface hierarchy QA;
+3. Map PR #9 source-opacity A/B once exact-head retained target-host renders are green, if opacity fidelity becomes the more consequential active visual gate;
+4. Animal Rigging smoothstep-vs-`t^0.75` only when the requested matched shaded/perspective evidence actually exists;
+5. Wreckline only after provider closure yields a truthful rebuilt/rendered changed LOD candidate.
 
-Return PASS / FAIL / BLOCKED only for directly observed evidence and keep runtime, visual, structural and aesthetic claims separate.
+Return PASS / FAIL / BLOCKED only for directly observed evidence and keep structural, visual, aesthetic, runtime and gameplay claims separate.
