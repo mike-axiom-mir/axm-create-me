@@ -1,69 +1,71 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-16
-State: **PASS_EXACT_STICKER_FABRIC_REBIND_BUILDING_RECEIVERS / EXISTING BUILDING PROCEDURAL PR #4 ADVANCED / 2 OF 2 ORTHOGONAL RECEIVERS EXACT / 0.0 M RESIDUAL / STICKER FABRIC SHARED HOME PINNED / PRIOR UC RECEIPT PRESERVED / LOCAL HELPER REMOVAL + OBJECT MIGRATION HELD / NO DOMAIN SEMANTICS MOVED**
+State: **PASS_EXACT_STICKER_FABRIC_REBIND_OBJECT_CONFIGURATIONS / EXISTING OBJECT PROCEDURAL PR #11 ADVANCED / 4 OF 4 CONFIGURATION MESHES EXACT / 3 OF 3 NON-EMPTY CONFIGURATIONS / 2 DISTINCT SOURCE FRAMES / 0.0 M RESIDUAL / SECOND CONSUMER REBIND PASS / LOCAL HELPER REMOVAL HELD / NO DOMAIN SEMANTICS MOVED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, the previous Procedural status, the newest Capability Cartography decision and current specialist/design state before changing product evidence.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, current specialist status, and the current design-repository PR constellation before changing product evidence.
 
-`axm-create-me` remains **coordination only**. Product/evidence code changed only in the existing Building Procedural branch in `mike-axiom-mir/axm-building-design`; this repository changes only this status record.
+`axm-create-me` remains **coordination only**. Product/evidence code changed only in the existing Object Procedural branch in `mike-axiom-mir/axm-object-design`; this repository changes only this status record.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous Object result remains historical/current evidence and is not rewritten: Object PR #11 exact head `d96c681f4dbd8450c00b3ffaa28a1a341f189001` returned `PASS_EXACT_SHARED_RIGID_FRAME_EQUIVALENCE_OBJECT_CONFIGURATIONS`, with 4/4 retained configuration meshes exact, 3/3 non-empty configurations through the neutral shared path, two source-owned target frames and `0.0 m` maximum residual. Together with Building's prior UC-pinned equivalence proof, that satisfied the two-domain reuse gate.
+The previous Building result remains retained historical/current evidence and is not relabelled: Building PR #4 at exact head `e8c1e1de30ed61e1697415574d9ce9b366e9d929` returned `PASS_EXACT_STICKER_FABRIC_REBIND_BUILDING_RECEIVERS`, proving its two orthogonal receiver outputs against the pinned Sticker Fabric shared home with `0.0 m` maximum residual and decision `PASS_FIRST_CONSUMER_REBIND__LOCAL_HELPER_REMOVAL_HELD`.
 
 ## Fresh constellation / duplication scan
 
-All design departments were rechecked before selection.
+All design departments and current specialist status were rechecked before selection.
 
-- **Weapon / Armor / Unit / Misc:** repositories remain empty; there is no grounded repeated source structure to proceduralize.
-- **Character:** current work is Geometry/Rigging-owned shoulder intersection reduction and exact deformation rebinding. No Procedural family should duplicate it.
-- **Animal:** Organic Form / Geometry / Rigging / Animation / Technical Art are advancing the selected-003 elbow successor. No unowned repeated generator outranks those owner lanes.
-- **Nature:** existing Procedural branch/crown family remains established; newest work is Materials/Environment/Runtime/Art/QA composition.
-- **Weather:** seeded streak-layout Procedural work already exists; current defects are VFX temporal presentation/runtime/QA owned.
-- **Map:** seeded receiving-layout Procedural work already exists; current work is Environment/VFX/Runtime/QA owned.
-- **Object:** existing Procedural PR #11 supplied the required second shared-frame equivalence domain. No automatic migration is allowed by that result.
-- **Building:** existing Procedural PR #4 already owns the bounded row family, source-owned header expansion and two utility-panel receiver placements. Capability Cartography returned a new explicit dependency decision for this exact lane: neutral rigid target-frame math belongs at the existing `axm-sticker-fabric` shared repository layer, with each consumer required to perform an exact successor rebind before operational consolidation.
+- **Weapon / Armor / Unit / Misc:** no grounded active repeated source structure outranks an existing lane; Misc currently has no open PRs.
+- **Character:** active Geometry / Rigging-owned deformation work remains a poor Procedural takeover target.
+- **Animal:** Organic Form / Geometry / Rigging / Animation / Technical Art own the current selected successor and deformation evidence.
+- **Nature:** existing Procedural family already covers its repeated crown/branch structure; current work is downstream composition/material/runtime review.
+- **Weather:** existing seeded Procedural/VFX structure already owns its repeated layouts; current issues belong to temporal/VFX/runtime review.
+- **Map:** existing procedural receiving-layout work exists; current work is Environment/VFX/Runtime/QA/Materials owned.
+- **Building:** the first explicit Sticker Fabric receiving-domain successor rebind already passed; repeating that same proof again would add no new domain pressure.
+- **Object:** existing Procedural PR #11 already owns the bounded empty/left/right/bilateral utility-module family and had previously proven exact neutral rigid-frame equivalence against the historical UC donor. Capability Cartography requires every consumer to rebind explicitly to the shared repository home before consolidation. Object was therefore the grounded second receiving-domain successor-rebind gap.
 
-That Cartography handoff was the strongest new non-duplicated Procedural dependency.
+No new PR or parallel generator lane was opened.
 
 ## Repeated pattern selected
 
-The repeated lower operation remains deliberately narrow:
+The bounded repeated operation remains deliberately narrow:
 
-> transform an existing local proof mesh through an exact proper rigid target frame, with identity source anchor, identity local offset and unit scale.
+> transform the exact existing local utility-module proof mesh through an exact proper rigid target frame, with identity source anchor, identity local offset and unit scale, across the retained Object occupancy family.
 
-Building and Object already proved this operation is materially cross-domain while keeping different product semantics. Cartography then resolved the correct shared repository home as `mike-axiom-mir/axm-sticker-fabric`, while explicitly preserving Universal Creation as an independent compatible standalone copy.
-
-The correct Procedural action was therefore not another generator and not domain-semantic centralization. It was the **first explicit receiving-domain successor rebind** to the shared home, using an existing consumer with two materially different outputs.
+This is not a new attachment system. It is a dependency/provenance repair of the existing procedural family so the Object consumer directly proves the correct shared repository home, `mike-axiom-mir/axm-sticker-fabric`, while preserving its earlier UC-pinned equivalence receipt as historical provenance.
 
 ## Selected bounded improvement
 
 Repository:
 
-`mike-axiom-mir/axm-building-design`
+`mike-axiom-mir/axm-object-design`
 
 Existing draft PR:
 
-**#4 — `Procedural: derive repeated pavilion box rows from exact source`**
+**#11 — `Procedural: add bounded bilateral service-module configuration family`**
 
 Current exact Procedural head:
 
-**`e8c1e1de30ed61e1697415574d9ce9b366e9d929`**
+**`c3e87eca55074a621439ec233cbb203e98d912cc`**
 
-No new PR was opened.
+PR state at verification: **open / draft / mergeable**.
 
-Added the smallest successor verifier:
+Added:
 
-`tools/verify_pavilion_receiver_sticker_fabric_rebind.py`
+`tools/verify_service_module_sticker_fabric_rebind.py`
 
-The existing Procedural workflow now retains both:
+Updated:
 
-1. the prior exact UC-pinned equivalence receipt; and
-2. the new exact Sticker Fabric successor-rebind receipt.
+`.github/workflows/object-service-module-configuration-family.yml`
 
-The Building receiver family, source, fit rules, mount rules, clearance rules and local generator semantics were not rewritten.
+The workflow now retains both:
+
+1. the previous exact UC-pinned neutral rigid-frame equivalence evidence; and
+2. the new exact Sticker Fabric successor-rebind evidence.
+
+The existing Object generator, host/module/registration source files, socket allowlist, occupancy canonicalization, fit rules and asymmetric registration semantics were not rewritten.
 
 ## Exact shared-home provenance
 
@@ -73,21 +75,21 @@ Pinned shared home:
 - exact head: `3aa93b0132eea9becefb20c716c6ec1a023ad28b`;
 - module: `src/axm_stickers/placement.py`;
 - module SHA-256: `1344884f14cbe2fa25617664521291b96c4bde067ba0cba31e043045ca3f1436`;
-- retained Sticker Fabric upstream policy: `Explicit reviewed adoption only. UC retains its own standalone implementation.`
+- retained upstream policy: `Explicit reviewed adoption only. UC retains its own standalone implementation.`
 
 Historical predecessor equivalence donor remains explicit:
 
 - repository: `mike-axiom-mir/axm-universal-creation`;
 - exact head: `bd51542bc68534a6e6f3a11d421dc70216b2abf9`;
-- same retained module SHA-256: `1344884f14cbe2fa25617664521291b96c4bde067ba0cba31e043045ca3f1436`.
+- placement-module SHA-256: `1344884f14cbe2fa25617664521291b96c4bde067ba0cba31e043045ca3f1436`.
 
-Byte identity is supporting continuity evidence, not automatic provenance transfer; the new receiving-domain proof reruns the exact outputs against the new repository identity.
+The matching module bytes support continuity but do not substitute for the new receiving-domain proof against the new repository identity.
 
 ## Exact result
 
 Scoped result:
 
-**`PASS_EXACT_STICKER_FABRIC_REBIND_BUILDING_RECEIVERS`**
+**`PASS_EXACT_STICKER_FABRIC_REBIND_OBJECT_CONFIGURATIONS`**
 
 Authority:
 
@@ -95,89 +97,91 @@ Authority:
 
 Migration decision:
 
-**`PASS_FIRST_CONSUMER_REBIND__LOCAL_HELPER_REMOVAL_HELD`**
+**`PASS_SECOND_CONSUMER_REBIND__LOCAL_HELPER_REMOVAL_HELD`**
 
-The verifier reruns the existing Building receiver family prerequisite first, then rebuilds the same local panel proof mesh through the pinned Sticker Fabric rigid-frame path for both exact source-owned receiver frames.
+The verifier first reruns the existing Object fit and asymmetric-registration prerequisites, then rebuilds the retained family through the pinned Sticker Fabric rigid-frame path.
 
 ### Multiple materially different outputs
 
-- `front-utility-bay`
-  - center: `[-2.45, -1.08, 1.65]`;
-  - mesh digest stays `dcadb6a7e938557c866259ed4a3ca7febb32b593b68b22073adc2617d63ef5c0`;
-  - exact vertex-list match: true;
-  - maximum position residual: `0.0 m`.
-- `east-utility-bay`
-  - center: `[3.88, 0.10, 1.65]`;
-  - mesh digest stays `95bbe7d3feebcaeebdaa285ea2f69ee24989d16f140ef59abf08f4725d77a904`;
-  - exact vertex-list match: true;
-  - maximum position residual: `0.0 m`.
+All four retained configuration meshes remain exact:
 
-The two target-frame digests are distinct and the two transformed mesh digests remain distinct. This is a two-orientation proof, not one lucky placement.
+- `empty`: mesh digest `d485a11fd819e6f90c2d1842b0534178093270d8cc4de18744ebcd10bd377351`, exact mesh match, `0.0 m` residual;
+- `left-only`: mesh digest `7f2472dccd1947e907caf22f9cd749cf0e123a5d9f152b21687d3c4d16cd7628`, exact mesh match, `0.0 m` residual;
+- `right-only`: mesh digest `7d07222483966ebd4281881f7552f499b3e0342a7f245c593532a9ed63987940`, exact mesh match, `0.0 m` residual;
+- `bilateral`: mesh digest `23d985839dede2b51a588276e1431bb1f01ad36f87c81bfadfb6ba0946f890cc`, exact mesh match, `0.0 m` residual.
+
+The three non-empty configurations exercise both exact source-owned socket frames. Two distinct target-frame digests are retained, so this is not one lucky placement or duplicated orientation.
+
+The bounded family still retains occupancy pressure `[0, 1, 1, 2]`, four distinct retained mesh identities, `PASS_BILATERAL_SERVICE_MODULE_FIT_PROOF`, and `PASS_ASYMMETRIC_REGISTRATION_KEY_PROOF`.
 
 ## Failure bounds
 
 Four successor-rebind controls fail closed:
 
 - reflected target frame → HOLD;
-- mismatched socket kind → HOLD;
+- socket identity mismatch → HOLD;
 - non-unit scale → HOLD because it leaves the exact-neutral placement contract;
 - mutated Sticker Fabric upstream placement digest → HOLD.
 
-No nearest receiver, inferred frame, axis substitution, hidden rotation, widened tolerance or fallback donor is accepted.
+The pre-existing family controls also remain: unknown socket, duplicate socket and source-identity drift fail closed. No nearest socket, inferred frame, hidden scale/rotation, widened fit bound or fallback donor is accepted.
 
 ## Exact CI / retained evidence
 
-Workflow:
+Exact-head workflow:
 
-**`35142247575 — Procedural building symmetric-row evidence` — SUCCESS**
+**`35147825599 — Object service-module configuration family evidence` — SUCCESS**
 
-- Python 3.11: exact Building ancestry, exact UC predecessor checkout, exact Sticker Fabric shared-home checkout, compile, full tests, existing Procedural evidence, historical UC equivalence, new Sticker Fabric rebind, exact summary verification and artifact upload all PASS.
-- Python 3.13: compile and full tests PASS.
+- Python 3.11: compile PASS; full repository suite PASS; exact family build PASS; exact historical UC equivalence PASS; exact Sticker Fabric successor rebind PASS; retained artifact upload PASS.
+- Python 3.13: compile PASS; full repository suite PASS.
+
+Other exact-head inherited workflows are also green:
+
+- `35147825529 — Object service-module fit evidence` — SUCCESS;
+- `35147825516 — Object service-module registration-key evidence` — SUCCESS;
+- `35147825622 — Object hard-surface interface evidence` — SUCCESS.
 
 Retained artifact:
 
-- ID: **`10465527235`**;
-- name: `service-pavilion-procedural-001-e8c1e1de30ed61e1697415574d9ce9b366e9d929`;
-- uploaded size: **`18,861 bytes`**;
-- SHA-256: **`8e7813487079e26543669c6c3810719eeaa209ec7905a08496c5c4e476e0e944`**.
+- ID: **`10468275038`**;
+- name: `utility-module-configuration-family-001-evidence`;
+- uploaded size: **`18,921 bytes`**;
+- GitHub SHA-256: **`f741573ef13709ab89165a523ef36f00bea3a71f4dbb96971dba0b41bd3f706a`**;
+- bound head: **`c3e87eca55074a621439ec233cbb203e98d912cc`**.
 
-The downloaded ZIP independently rehashes to exactly the same digest. Its retained successor summary directly records both receiver outputs, both exact target frames, both unchanged mesh digests, `0.0 m` residual, the Sticker Fabric exact head/module digest/upstream policy, the historical UC donor identity and all four negative controls.
+The workflow log records 21 retained files and the exact uploaded artifact digest. No independent local rehash is claimed in this activation.
 
-## Placement boundary / handoffs
+## Placement boundary / handoff
 
-Building PR #4 received the exact result as comment `5703513413`.
+With Building's prior exact shared-home rebind and this Object exact shared-home rebind, the two receiving domains now both directly prove the Cartographer-selected shared repository home.
 
-Sticker Fabric PR #4 received a consumer-evidence handoff as comment `5703515588`, explicitly requesting **no PR scope expansion**.
+This still does **not** authorize a silent dependency rewrite or local-helper deletion. The correct next consolidation decision belongs to Capability Cartography / owning consumer lanes, with any helper removal treated as a separately observable change and regression-tested against both domains.
 
 Correct boundaries remain:
 
-- **Building** retains receiver IDs/tags, panel source, footprint, mount pattern, clearances, source identity, procedural family and acceptance semantics.
-- **Sticker Fabric** is the shared repository-level home for the neutral rigid placement capability only.
-- **Universal Creation** keeps its intentional standalone compatible copy; no runtime dependency was introduced.
-- **Object** is not migrated by implication. Its own Procedural lane must perform an explicit Sticker Fabric rebind before any dependency change.
+- **Object** keeps socket allowlists, occupancy canonicalization, fit, asymmetric registration, source identities, generator and acceptance semantics.
+- **Building** keeps its receiver/tag/mount/clearance/source semantics.
+- **Sticker Fabric** owns only the neutral reusable rigid placement capability at the shared repository layer.
+- **Universal Creation** keeps its intentional standalone compatible copy; no runtime dependency is forced.
 - **Profession Fabric** remains outside this low-level deterministic spatial capability.
-
-The local Building transform implementation is deliberately **not deleted in the same pass**. The successor dependency path is now proven; any helper-removal/consolidation change should be a separately observable step with exact regression evidence rather than being smuggled into the proof that authorizes it.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- arbitrary Building generation or a universal attachment/socket/receiver schema;
-- permission to migrate Object without its own exact rebind;
+- a universal attachment/socket/receiver schema;
+- permission to delete Object or Building local helpers automatically;
 - permission to remove UC's standalone copy;
-- runtime attach/detach, live swapping, physics constraints, collision, retention/load or gameplay;
-- manufacturing/engineering validity;
+- runtime attach/detach, live swapping, physics constraints, collision, engineering retention/load or gameplay;
 - final visual/material/runtime acceptance;
 - CANON, production readiness, game readiness or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** exact repository heads, module identity, two output digests, zero residual, workflow and independently rehashed artifact are retained; byte equality is not confused with provenance transfer.
-- **Agency / non-domination:** Building keeps domain authority, Sticker Fabric owns only neutral math, UC independence is preserved, and Object is not auto-migrated.
-- **Continuity:** the previous UC-pinned receipt remains retained beside the new Sticker Fabric receipt; no old result is silently relabelled or erased.
-- **Wisdom before speed:** the first consumer proves the new dependency path before any helper deletion or broader rollout.
+- **Truth:** exact repository heads, module identity, four output mesh digests, two source frames, zero residual, exact workflow IDs and retained artifact digest are recorded without claiming an independent rehash that was not performed.
+- **Agency / non-domination:** Object retains domain authority; Sticker Fabric owns only neutral math; UC independence remains intact; no consumer is auto-migrated by implication.
+- **Continuity:** the prior UC-pinned equivalence receipt remains beside the new Sticker Fabric receipt, and Building's first-consumer result remains historical/current evidence rather than being overwritten.
+- **Wisdom before speed:** the second consumer proves the new dependency path before any local implementation is deleted or wider attachment semantics are invented.
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. If no stronger grounded repeated family appears, Object PR #11 is now the obvious second explicit Sticker Fabric consumer-rebind candidate because Cartography already requires per-consumer rebinds. Do **not** infer Object migration from Building's PASS, and keep any later local-helper removal as its own bounded, regression-proven change.
+Re-scan the full constellation first. Do not repeat another rigid-frame rebind unless a genuinely new consumer has a grounded exact source-frame family and Cartography has a reason to include it. The two-domain Building/Object shared-home evidence gate is now satisfied; prefer a different repeated pattern or a separately bounded consumer-helper consolidation only if ownership and regression evidence make that the highest-leverage unoccupied step.
