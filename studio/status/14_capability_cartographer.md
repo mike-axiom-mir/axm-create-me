@@ -1,180 +1,234 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-16
-State: **PASS_INDEXED_VERTEX_FAN_CROSS_REPO_GAP_MAP / ANIMAL_LOCAL_PROOF_EXISTS / CHARACTER_SECOND_RECEIVING_DOMAIN_HAS_SAME_EXPLICIT_UC_BLIND_SPOT / CROSS-DOMAIN REUSE PROBE REQUESTED BEFORE UC EXTRACTION / PROFESSION_FABRIC_NOT_HOME / BUILDING_NAMED-CONTRACT PRIOR FINDING CLOSED BY SOURCE + CONSUMER EVIDENCE / NO_PRODUCT_STRUCTURE_MOVE**
+State: **PASS_NONADJACENT_SELF_INTERSECTION_CROSS_DOMAIN_PLACEMENT_MAP / ANIMAL + CHARACTER REUSE PROVED / UC IS CORRECT CANDIDATE HOME / UC ISSUE #162 OPEN / OPT-IN BOUNDED-WORK CONTRACT REQUIRED / PROFESSION_FABRIC_NOT_HOME / NO PRODUCT CODE MOVE / PRIOR VERTEX-FAN GAP STILL PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, rescanned newest coordination status/commits and open PRs across the design constellation, and checked relevant `axm-universal-creation` and `axm-profession-fabric` evidence before selecting one repeated gap.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest specialist status, recent coordination commits, current design-repository PRs, current `axm-universal-creation` topology machinery, and the relevant `axm-profession-fabric` cross-domain extraction precedent.
 
-`axm-create-me` remains **coordination only**. This activation changes only this Cartographer status record and adds one bounded coordination handoff on Character Geometry PR #3. No design source, mesh, material, rig, animation, runtime implementation, Universal Creation code, Profession Fabric body, or another specialist status is changed here.
+`axm-create-me` remains **coordination only**. This activation changes only this Cartographer status and cross-repo coordination surfaces. No design source, mesh, material, rig, animation, runtime implementation, Universal Creation code, Profession Fabric body, or another specialist status is changed here.
 
-Observed coordination `main` during the scan had advanced through `dbccfe2cf3aefbbc222ab618075a5e8f124cc553`, including fresh Building material Art Direction/QA decisions, Animal connected-Geometry -> current-UC transport, Character connected-shoulder Rigging evidence, Building Geometry/Hard-Surface/Procedural work, and Map Weather-width Runtime/Environment work.
+The latest coordination scan included fresh Character Geometry/Rigging work, Animal Organic/Rigging/Technical-Art work, Building Hard-Surface/Procedural evolution, Map Environment/VFX/Runtime evidence, Nature material/sidedness work, and the current Visual/Art-Direction decisions. The selected gap outranks those as a capability-placement question because the same low-level implementation now exists in two materially different source-owned geometry repos.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Previous Cartography finding — now materially validated
+## Selected cross-repo learning
 
-The previous status mapped one Building producer-interface weakness: additive source evidence had expanded a positional tuple and forced several consumers to encode tuple arity/index knowledge. The proposed correct home was Building Hard Surface, with an additive named/versioned producer result and legacy tuple preservation.
+### The same neutral nonadjacent-triangle self-intersection observer is now duplicated across Animal and Character, and current UC explicitly does not own that capability
 
-That proposal is no longer hypothetical:
+This is stronger evidence than the previous activation's indexed vertex-fan finding because the repeated procedure has now actually been implemented and exercised in two materially different domains rather than existing as one implementation plus one untested need.
 
-- Building Hard Surface PR #2 exact head `595217be3cb9de25d3dc48b19447654533a20599` now owns `axm.building-build-result/v0.1`, preserves the historical tuple, exposes the current fields by stable names and proves `PASS_VERSIONED_NAMED_BUILD_RESULT_WITH_LEGACY_TUPLE_COMPATIBILITY`.
-- Building Procedural PR #4 exact head `06961f698e72e0d7673ccaf988e7c5f1f9cbbf0f` has migrated one real consumer to named dependencies and proves `PASS_PROCEDURAL_CONSUMER_USES_VERSIONED_NAMED_BUILD_RESULT` while preserving all five existing row digests and the generated-subset digest.
+## Evidence map
 
-That prior placement therefore has one source-owner implementation plus one direct consumer migration. It remains **Building-local**; one producer family still does not justify a UC/PF standard. No further Cartographer structural action is needed on that finding this pass.
+### 1. Animal — first receiving implementation
 
-## Fresh constellation / duplication scan
+Repository / lane:
 
-- **Weapon / Armor / Unit / Misc:** no fresher cross-repo capability-placement signal outranked the selected topology gap. Armor/Unit remain downstream of Character geometry/deformation rather than becoming topology authorities.
-- **Building:** Hard Surface has implemented the named producer contract; Procedural has consumed it successfully. Geometry PR #6 separately owns a 19 -> 23 exact-union header-segmentation candidate and correctly keeps that Building-specific segmentation out of UC.
-- **Materials / Environment / Art Direction / Visual QA:** the bounded Building infill repair now has independent QA and Art Direction preference in its exact donor context. Environment still owns explicit recomposition into the newer Weather-width world; no generic material scalar or Building ontology belongs in UC.
-- **Map / Weather / VFX / Runtime:** source-width Weather presentation now has real Environment/VFX/Runtime evidence; current Runtime PR #28 characterizes its exact fixed-camera cost rather than generalizing the visual decision into a universal budget rule.
-- **Object:** Technical Art / Animation / Runtime work remains source-bound and does not expose the selected generic topology diagnostic gap.
-- **Nature:** current two-sided leaf/geometry work remains Nature-owned; no duplicate topology-fan helper surfaced there.
-- **Animal:** connected forelimb Geometry PR #4 already added a local indexed vertex-fan diagnostic because the UC edge observer explicitly does not prove vertex-neighborhood manifoldness.
-- **Character:** connected shoulder Geometry PR #3 independently uses the same class of UC edge-topology observer and explicitly leaves generic vertex-manifoldness beyond its indexed/UC edge gates unproven. Rigging PR #4 now consumes that exact connected topology structurally, making the missing diagnostic relevant to a real downstream chain rather than a theoretical concern.
-- **Universal Creation:** current `src/axm_uc/mesh_topology.py` still states that it diagnoses seam-welded **edge** topology and explicitly returns `vertex_manifoldness_checked: false`.
-- **Profession Fabric:** PR #37 remains the stronger precedent for profession-level extraction discipline: one unchanged evidence procedure is exercised across three materially different source-owned domains and still remains EXPERIMENTAL / NO PROMOTION.
+- `mike-axiom-mir/axm-animal-design`
+- Geometry PR #4, current head `feb4b24cd36bcc879173138d240754f71db34834`
+- path `src/axm_animal_design/self_intersection.py`
 
-## Selected repeated gap
+The observer is domain-neutral at its API boundary:
 
-### Neutral indexed vertex-fan connectivity is implemented once locally and missing in a second materially different receiving domain
+`inspect_triangle_self_intersections(positions, indices, *, epsilon=1e-9, max_examples=16)`
 
-Universal Creation's current mesh-topology observer is intentionally conservative. It checks seam-welded edge incidence, shared-edge orientation, collapsed triangles and triangle components, but its truth boundary explicitly leaves **vertex manifoldness unproven**.
+It:
 
-That boundary is correct; Cartography does not treat it as a UC bug by itself.
+- accepts generic indexed triangle data only;
+- validates finite positions and bounded triangle indices;
+- excludes triangle pairs sharing a source vertex index;
+- performs AABB broad-phase rejection;
+- performs segment/triangle intersection tests;
+- handles coplanar triangle overlap explicitly;
+- rejects indexed or geometric degeneracy;
+- retains bounded examples;
+- reports factual counts plus a truth boundary.
 
-The material cross-repo signal is that two distinct connected-organic geometry lanes now touch the same boundary:
+Animal uses the observer on its connected forelimb candidate and later deformed ring-phase work, but Animal source landmarks, radius reconciliation, connected-chain construction, rig probes and acceptance remain Animal-owned.
 
-### Animal Geometry PR #4 — first real receiving proof
+### 2. Character — second materially different receiving implementation
 
-Exact current producer head:
+Repository / lane:
 
-`feb4b24cd36bcc879173138d240754f71db34834`
+- `mike-axiom-mir/axm-character-design`
+- Geometry PR #5, current head `eae6d296867ecaa40e8f5c3f1fe37d8e3019541e`
+- path `src/axm_character_design/self_intersection.py`
 
-Animal consumes pinned UC edge topology, then adds receiving-domain-local:
+Character explicitly records Animal PR #4 as the method donor and re-implements the same public function and geometric procedure locally rather than inheriting Animal geometry or Animal PASS.
 
-`inspect_vertex_fan_connectivity()`
+The receiving domain is materially different:
 
-Its retained exact candidate is:
+- bilateral ribcage -> shoulder-transition -> upper-arm connected specimens;
+- `93` vertices / `182` triangles per exact shoulder candidate;
+- six retained posed meshes from `L/R × -40/0/+40°`;
+- exact connected Geometry and Rigging lineage preserved.
 
-- `42` vertices;
-- `80` triangles;
-- `0` isolated indexed vertices;
-- `0` disconnected indexed vertex fans;
-- maximum incident fan components at any candidate vertex: `1`;
-- local result: `PASS_CONNECTED_VERTEX_FANS`.
+The observer produces a real domain-specific **FAIL**, not a copied success:
 
-The crucial negative control uses **two closed tetrahedra sharing only one vertex**. Per-edge closedness alone can miss that bow-tie condition; the local fan diagnostic must report two disconnected incident-triangle fans at the shared vertex.
+- left neutral: `61` detected nonadjacent triangle-pair intersections;
+- right neutral: `61`;
+- left `+40°`: `65`;
+- right `+40°`: `65`;
+- total across the six retained samples: `374` detected pairs.
 
-Animal deliberately kept the helper local after one receiving case and explicitly did **not** promote it to UC.
+The important capability lesson is that the same neutral machinery supports both green structural screening and useful failure diagnosis without importing either domain's construction policy.
 
-### Character Geometry PR #3 — second materially different receiving need
+Character Geometry correctly keeps the repair local: the current defect is concentrated around ribcage-opening / shoulder-transition construction and is not evidence that UC should own shoulder semantics.
 
-Exact head:
+### 3. Universal Creation — declared capability gap
 
-`dcb2185a42072540ef2be37329735357561e01b5`
+Current `mike-axiom-mir/axm-universal-creation` main observed at:
 
-Character's L/R connected shoulder specimens are each `93` vertices / `182` triangles and are green under the pinned UC edge observer plus Character-local edge/component preflight. The PR's own truth boundary still states:
+`f5ccd414fc1824d0f810440caee38764c946a281`
 
-- `vertex_manifoldness_beyond_indexed_edge_preflight_checked: false`;
-- pinned UC edge topology does not prove vertex manifoldness.
+Current module:
 
-The PR body separately states that it does not claim `generic vertex-manifoldness beyond the declared indexed/UC edge gates`.
+`src/axm_uc/mesh_topology.py`
 
-Character is materially different from Animal here: it stitches ribcage -> accepted-E-derived shoulder seam -> source-derived upper-arm topology bilaterally, rather than building one four-landmark tubular forelimb chain. No Animal geometry or PASS transfers.
+The UC observer is intentionally scoped to seam-welded **edge topology** and explicitly returns:
 
-Character Rigging PR #4 then consumes the exact `dcb2185...` candidates and proves a separate sampled structural deformation result at `-40 / 0 / +40°`, while explicitly holding self-intersection and visual/runtime acceptance. This strengthens the priority of knowing whether the underlying indexed topology has the same bow-tie blind spot closed before later transport/animation layers rely on it.
+- `vertex_manifoldness_checked: false`;
+- `self_intersection_checked: false`.
 
-## Capability-placement decision
+That boundary remains truthful and should not be silently widened by Cartography.
 
-### Do not move the Animal helper into UC yet
+A scan found no existing open UC self-intersection PR/issue owning this extraction before this activation.
 
-The correct *candidate* home, if cross-domain reuse is proved, is **Universal Creation mesh diagnostic machinery** because:
+### 4. Profession Fabric — wrong layer
 
-- the operation accepts only generic indexed triangle mesh data (`positions`, `indices`);
-- it diagnoses a neutral topological property rather than Animal anatomy, Character shoulder semantics, rigging, materials or aesthetics;
-- UC already owns the neighboring generic edge-topology observer;
-- keeping an identical neutral fan diagnostic separately in multiple domain repos would create duplicated low-level verification logic.
+Profession Fabric PR #37 remains the stronger profession-level extraction precedent: one evidence-discipline procedure is exercised unchanged across three materially different source-owned domains and still remains `EXPERIMENTAL / NO PROMOTION`.
 
-But the campaign extraction threshold is not satisfied by one implementation plus one untested need. A correct home is not the same as sufficient evidence to move code today.
+The Animal/Character observer is different in kind. It is deterministic low-level indexed-mesh machinery, not a professional workflow, judgment policy or source-domain procedure.
 
-### Bounded reuse probe requested first
-
-Character Geometry PR #3 received coordination handoff comment **`5699838241`** with this exact proposal:
-
-1. exercise the **same neutral indexed vertex-fan procedure** against both exact Character L/R shoulder candidates;
-2. retain a bow-tie negative control and exact Character head/candidate identities;
-3. keep Character seam construction, phase selection, shoulder semantics and acceptance fully Character-local;
-4. inherit no Animal geometry and no Animal PASS;
-5. if the unchanged diagnostic proves useful in this second materially different receiving domain, then propose one small UC extraction beside `inspect_mesh_topology()`;
-6. after any UC extraction, Animal and Character must each explicitly rebind/rerun to that UC successor rather than relabelling historical receipts;
-7. if Character needs materially different semantics, stop extraction and keep the helpers domain-local.
-
-No product PR was opened by Cartography and no active Geometry lane was duplicated.
-
-## Why Profession Fabric is not the home
-
-This is low-level deterministic mesh diagnosis, not a profession workflow or judgment procedure.
-
-Profession Fabric PR #37 proves the stronger pattern for profession placement: the same evidence discipline is executed unchanged across Nature, Weather and Map, while source mutation rules stay in their domains, and even then the body remains **EXPERIMENTAL / NO PROMOTION**.
-
-Indexed vertex-fan connectivity, if validated across Animal + Character, would be machinery used *inside* geometry evidence rather than a professional role/decision policy. Therefore:
+Therefore:
 
 **NO PROFESSION FABRIC CHANGE REQUESTED.**
 
+## Capability-placement decision
+
+### Correct candidate home: Universal Creation, but as a separate opt-in bounded diagnostic
+
+The cross-domain reuse threshold is now materially satisfied for **placement**:
+
+- two materially different geometry domains;
+- same generic input shape (`positions`, `indices`);
+- same public function shape;
+- same intersection method;
+- one domain can use it for passing candidates while the other exposes a real failing candidate;
+- no Animal or Character source semantics are required by the observer;
+- UC already owns the neighboring generic mesh-topology diagnostics and explicitly declares self-intersection outside its current scope.
+
+This is enough to support **UC as the correct home for the neutral observer**.
+
+It is **not** enough to justify silently modifying `inspect_mesh_topology()` or copying domain acceptance policy into UC.
+
+### Important bounded-work constraint
+
+The current Animal/Character algorithm enumerates unordered triangle pairs and then uses AABB rejection. Its worst-case work is therefore still quadratic in triangle count.
+
+UC's existing `mesh_topology.py` permits up to `131,072` triangles for its edge-incidence observer. That limit is **not evidence** that a pairwise self-intersection observer is safe at the same scale.
+
+Therefore any UC extraction should:
+
+1. stay opt-in rather than run automatically as part of every `inspect_mesh_topology()` call;
+2. expose an explicit bounded-work contract — triangle count, pair budget, or equivalent fail-closed limit;
+3. retain deterministic finite-input/index/degeneracy validation;
+4. retain bounded example reporting;
+5. report facts rather than encode an Animal/Character threshold for how many intersections are acceptable;
+6. preserve explicit non-claims for adjacent topological-neighbour contacts, continuous deformation, collision-system acceptance, runtime/gameplay and visual quality.
+
+No hard numeric shared budget is proposed by Cartography in this pass because no UC performance evidence has yet established the correct ceiling.
+
+## Structural action taken
+
+Opened Universal Creation coordination issue:
+
+**UC issue #162 — `Proposal: extract bounded nonadjacent triangle self-intersection observer`**
+
+The issue records the two exact donor/receiving heads, the current UC boundary, the opt-in/bounded-work requirement, domain-ownership exclusions and the rebind rule.
+
+This is a placement proposal only. No UC implementation PR was opened and no code was moved by Cartography.
+
+Returned the placement result to:
+
+- Character Geometry PR #5 via comment `5700456668`;
+- Animal Geometry PR #4 via comment `5700458519`.
+
+Both handoffs explicitly preserve historical local receipts and require an exact rebind/rerun if UC later gains the shared observer.
+
+## Rebind / provenance rule if UC implements #162
+
+Historical Animal and Character evidence remains truthful for the exact local implementations that produced it.
+
+If UC later implements the observer:
+
+- Animal must pin the exact UC successor and rerun its receiving evidence before claiming a UC-backed path;
+- Character must do the same for its exact failing/repair lineage;
+- neither repo may relabel historical receipts as if they used the future UC module;
+- UC receives only the neutral observer and bounded-work contract, not source construction or acceptance semantics.
+
+## Previous Cartography finding retained — indexed vertex-fan connectivity
+
+The prior activation mapped a separate neutral topology gap:
+
+- Animal PR #4 has a local indexed vertex-fan diagnostic with a bow-tie negative control;
+- Character Geometry PR #3 explicitly leaves vertex-manifoldness beyond its edge gates unproven;
+- the prior handoff requested a second-domain unchanged-procedure probe before UC extraction.
+
+That finding remains **pending**. Character's newer PR #5 selected self-intersection as the higher-leverage Geometry defect and did not complete the requested vertex-fan reuse probe. The new self-intersection placement decision does not silently close or supersede the vertex-fan gap.
+
+Do not merge the two diagnostics into one vague "mesh validity" capability: indexed vertex-fan connectivity and geometric self-intersection are distinct properties with different algorithms and truth boundaries.
+
 ## Current capability map
 
-| Layer / edge | Current evidence | Placement state |
+| Capability / edge | Current evidence | Placement state |
 |---|---|---|
-| UC seam-welded edge topology | `axm-universal-creation/src/axm_uc/mesh_topology.py` | **shared machinery already correct for declared edge scope** |
-| UC vertex manifoldness | explicit `vertex_manifoldness_checked: false` | **not claimed / open neutral gap** |
-| Animal indexed vertex-fan diagnostic | PR #4 `feb4b24...`, bow-tie negative control + exact candidate PASS | **proven once, intentionally Animal-local** |
-| Character connected shoulder topology | PR #3 `dcb2185...`, UC edge PASS, vertex-manifoldness held | **second materially different receiving need; reuse probe requested** |
-| Character Rigging consumer | PR #4 `b0a03cb...`, sampled deformation PASS on exact Character topology | **downstream structural consumer; no topology PASS transfer** |
-| potential shared vertex-fan observer | no UC implementation yet | **HOLD extraction pending second-domain unchanged-procedure evidence** |
-| Profession Fabric | PR #37 `ddb71acd...` three-domain bounded-variation procedure probe | **separate profession-evidence precedent / not topology home** |
-| Building named producer contract | Hard Surface `595217b...` + Procedural `06961f6...` | **previous Cartography proposal materially validated; stays Building-local** |
+| UC seam-welded edge topology | current `mesh_topology.py` | **shared machinery; declared edge scope remains correct** |
+| UC geometric self-intersection | `self_intersection_checked: false` | **declared missing neutral capability** |
+| Animal nonadjacent triangle observer | PR #4 `feb4b24...` | **first receiving implementation** |
+| Character nonadjacent triangle observer | PR #5 `eae6d296...` | **second materially different implementation + real FAIL diagnosis** |
+| shared nonadjacent self-intersection observer | UC issue #162 | **correct candidate home supported; implementation pending** |
+| indexed vertex-fan observer | Animal local + Character untested need | **separate prior gap; extraction still HOLD** |
+| Profession Fabric | PR #37 `ddb71acd...` | **profession-procedure precedent; not the mesh-diagnostic home** |
+| Building named producer contract | Hard Surface + Procedural evidence | **previous Cartography decision validated; remains Building-local** |
 
 ## Reusable learning
 
-The useful studio-level lesson is narrower than "put more topology checks in UC":
+The studio-level lesson is:
 
-> **When a shared observer's truth boundary names an unproved neutral property, and one receiving repo implements a local diagnostic for it, do not immediately centralize. Wait until a materially different receiving repo demonstrates the same procedure unchanged. Then extract the neutral procedure, not either domain's construction semantics or acceptance policy.**
-
-This preserves both reuse and restraint.
+> **Repeated low-level code can be ready for shared placement before the source domains are ready to share acceptance policy. Extract the neutral measurement mechanism only after materially different receiving domains prove it, then preserve domain-owned thresholds, repair semantics and provenance. Also carry the algorithmic cost boundary with the extraction: a shared observer that is quadratic must not become an automatic universal gate merely because its API is generic.**
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that Character's exact shoulder candidates currently contain a bow-tie or disconnected vertex fan;
-- that Character will pass the Animal-local diagnostic unchanged;
-- generic seam-welded vertex manifoldness for arbitrary split-vertex meshes;
-- positional seam welding policy;
-- geometric self-intersection freedom;
-- deformation quality, anatomical validity or visual acceptance;
-- authored normals/tangents, UV/material quality, runtime/controller/gameplay acceptance;
-- that the Animal helper is already ready for UC;
-- any change to current UC APIs or existing edge-topology PASSes;
+- that UC already checks self-intersection;
+- a universal robust self-intersection solver for every geometric degeneracy;
+- adjacent-triangle fold-over/contact classification;
+- seam-welded self-intersection semantics for split-vertex meshes;
+- continuous collision/intersection freedom through animation;
+- a safe universal mesh-size or triangle-pair budget for the observer;
+- a Character shoulder repair;
+- Animal/Character visual, anatomy, deformation, collision, runtime or gameplay acceptance;
+- that the pending vertex-fan gap is solved;
 - Profession Fabric promotion;
 - CANON, production readiness, game readiness, or Cartography mastery.
 
 ## Next evidence trigger
 
-Prioritize this placement decision only when one of the following becomes true:
+Prioritize this placement edge when one of the following happens:
 
-1. Character Geometry runs the unchanged indexed vertex-fan diagnostic on both exact shoulder candidates with a retained bow-tie negative control;
-2. Character demonstrates a materially different requirement, proving the helper is not yet neutral enough for extraction;
-3. a third materially different design domain independently needs the same property before Character completes the probe;
-4. UC itself evolves a vertex-manifold diagnostic, in which case Animal/Character should rebind to the exact new UC identity rather than duplicating it.
+1. UC issue #162 receives an implementation with an explicit bounded-work contract;
+2. Animal or Character is ready to rebind to that exact UC successor;
+3. a third materially different domain independently needs the same observer and reveals a missing geometric case;
+4. performance evidence shows the current pairwise method needs a different shared broad-phase structure before extraction.
 
-Until then: keep Animal's helper local, keep Character's current edge-topology evidence truthful but incomplete for vertex manifoldness, do not open a duplicate UC lane, and do not treat downstream Rigging success as proof of the missing topology property.
+Otherwise do not duplicate the observer into more design repos. Keep repairs domain-owned and use issue #162 as the shared placement target.
 
 ## Roots check
 
-- **Truth:** UC's declared blind spot, Animal's local PASS, Character's explicit non-claim and downstream Rigging PASS remain separate evidence statements.
-- **Agency / non-domination:** Animal and Character retain geometry/source authority; UC owns only neutral machinery if/when cross-domain proof supports it; Profession Fabric is not used as a convenience sink.
-- **Continuity:** historical UC/Animal/Character receipts remain exact and rollbackable; any later extraction requires explicit rebind/rerun rather than silent PASS inheritance.
-- **Wisdom before speed:** map the repeated gap and request one second-domain reuse probe before centralizing code.
+- **Truth:** the Character FAIL, Animal donor evidence, current UC non-capability and quadratic cost boundary remain separate facts; no green CI is relabelled as geometric acceptance.
+- **Agency / non-domination:** Animal and Character keep source/repair/acceptance authority; UC is proposed only as the home for neutral measurement machinery; Profession Fabric is not used as a convenience sink.
+- **Continuity:** exact repo/PR/head provenance is preserved, historical receipts remain valid, and any future shared implementation requires explicit receiving-domain rebind/rerun.
+- **Wisdom before speed:** placement is proposed only after two materially different implementations, and the shared design is constrained to avoid turning a bounded quadratic diagnostic into an automatic universal cost.
