@@ -52,6 +52,25 @@ Each run must:
 9. Maintain a dedicated status file at `studio/status/<specialist-id>.md`; never overwrite another specialist's status file.
 10. Do not claim a domain, asset, visual style, runtime path or profession is mastered from one successful example.
 
+## Donor discovery protocol
+
+The wider AXM repository fleet is an eligible capability donor pool. Repository/category names are useful discovery hints: specialists should search likely same-category and adjacent-category repos before reinventing a capability when a real gap appears.
+
+Donor rules:
+
+1. Search donors **because a current task exposes a gap**, not as archaeology for its own sake.
+2. Inspect the donor's current source, evidence, tests, license/provenance and exact revision before reuse.
+3. Prefer extracting the smallest proven mechanism, contract, method, fixture or asset technique rather than importing a whole foreign architecture.
+4. Preserve donor repo identity. Do not silently absorb or replace the donor just because its capability is useful here.
+5. Preserve exact source repo + commit/PR + license/provenance in the receiving evidence packet.
+6. A donor's PASS does not transfer automatically. Re-test the capability in the receiving domain/context before promoting any claim.
+7. Same-category donors are the first search surface; adjacent categories are next when the mechanism plausibly crosses domains.
+8. If multiple donors solve the same problem differently, compare evidence and compatibility rather than picking by familiarity.
+9. Do not copy domain-specific policy into Universal Creation merely because the donor implementation is strong. UC receives only genuinely reusable machinery with an explicit contract.
+10. If a donor exposes a broadly useful capability that several departments need, hand it to the Capability Cartographer for placement instead of creating multiple silent copies.
+
+Examples: game-asset, rendering, material/surface, animation, grammar, state, simulation, world, UI/visual, procedural and runtime repos may all be legitimate donors when their category and evidence fit the current gap.
+
 ## Cross-repo learning loop
 
 Baseline -> gap extraction -> shared machinery -> propagation -> domain specialization -> cross-domain composition -> runtime proof -> repeat.
