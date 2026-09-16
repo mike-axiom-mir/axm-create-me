@@ -1,46 +1,61 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **PASS_CURRENT_UC_MAIN_RUNTIME_BLOB_REBIND + PASS_ANIMAL_SAMPLED_PLAYBACK_TO_CURRENT_UC_RUNTIME_CLOCK / EXACT UC REPO DRIFT DISTINGUISHED FROM CONSUMED-MODULE DRIFT / HOLD_NEW_ANIMAL_SOURCE_SUCCESSOR / HOLD_POSE_SKELETON_SKIN_EXPORT / HOLD_WALL_CLOCK / HOLD_CONTROLLER / HOLD_VISUAL_ACCEPTANCE / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT**
+State: **PASS_ANIMAL_SOURCE_SUCCESSOR_MOTION_TO_CURRENT_UC_RUNTIME_CLOCK / CURRENT_UC_RUNTIME_BLOB_UNCHANGED / HOLD_SKELETON_SKIN_WEIGHT_POSE_TRANSPORT / HOLD_GLB_ANIMATION_CHANNELS / HOLD_REALTIME_CONTROLLER / HOLD_VISUAL_GAMEPLAY / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, newest specialist status, current design PRs, `axm-universal-creation`, and relevant Profession Fabric state before changing evidence code.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, newest Technical Art status, current design PR/status evidence, and current `axm-universal-creation` before changing implementation evidence.
 
 `axm-create-me` remains **coordination only**. Product/evidence implementation remains in the owning design repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately previous Technical Art status is preserved by exact status blob `50a888f95cf684f1de17a326f0d1ba8c69dcfb44`. Its Animal PR #3 result at head `7b26143cd2dbf5da619fa7adb97476ba8088eb2a` remains historical truth for Animal Animation head `b10ec5aeeb02b5df8d42e13df2772f4dcaae9a3a` against then-current UC head `a05f5fb083ad1454a0d92d001e0d3994a779826f`.
+The previous Technical Art proof remains historical truth: Animal's earlier sampled-playback producer was already proven through UC's generic deterministic animation clock. This activation does not rewrite that evidence. It creates a new exact successor proof because the Animal source chain has now advanced.
 
 ## Fresh constellation / duplication scan
 
-- **Animal Technical Art PR #3** remains the existing UC integration lane and therefore the correct home; no duplicate PR was opened.
-- **Animal Animation** is still exact at producer head `b10ec5aeeb02b5df8d42e13df2772f4dcaae9a3a` for this historical form/rig chain. Its sampled-playback contract remains `1.0 s / 40 Hz / 41 endpoint-inclusive source samples / 40 displayed frames`, clip digest `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`.
-- **Animal Organic Form PR #8** now owns a newer selected-003 elbow source successor, but Animation status explicitly holds that successor until Geometry and Rigging rebind it. Technical Art therefore does **not** leapfrog those dependencies or relabel the older Animation proof as successor evidence.
-- **Character Rigging**, **Object Animation**, **Map Environment/VFX/Runtime**, Building and other design lanes remain active under their own ownership; none is duplicated here.
-- **Profession Fabric** already contains a Technical Artist profession body, but this activation is one exact dependency-rebind/provenance case, not evidence for profession promotion or a new profession-owned runtime policy.
+The former Technical Art hold on Animal's selected-003 source successor is no longer valid as a current-state hold:
 
-## Fresh UC change that created the gap
+- Organic Form has a source-owned selected-003 elbow successor;
+- Geometry has rebound that successor;
+- Rigging PR #10 has rebound the successor at exact head `b48bb957622ed5c82a24ca4fcb471f7ee9b5147a`;
+- Animation PR #5 has now rebound the unchanged articulation clip to that successor at exact head `badd8574b1acb5b4adf23544a9befc7cad86d1a1` with `PASS_SOURCE_SUCCESSOR_41_SAMPLE_MOTION_REBIND` and separate Godot discrete-playback evidence.
 
-`axm-universal-creation` main advanced after the previous Technical Art proof:
+The exact Animation successor identity consumed here is:
 
-- previous proven UC pin: `a05f5fb083ad1454a0d92d001e0d3994a779826f`;
-- current UC main consumed here: **`bd51542bc68534a6e6f3a11d421dc70216b2abf9`**.
+- source-successor candidate digest: `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`;
+- source-successor profile digest: `8dbab7764819ebcbf825f6d0650053b108b8773df3644934738e3ec9f4712e66`;
+- rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
+- weighting-profile digest: `a23fdaf47bbf17b3b070faf66d408faaddaa68c4a0487ace8f484851b91482e4`;
+- clip digest: `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
+- weighting: `smoothstep-v0`;
+- authored timing: `1.0 s / 40 Hz / 41 endpoint-inclusive samples`;
+- motion semantics: `STYLIZED_ARTICULATION_PULSE_NOT_GAIT_OR_LOCOMOTION`.
 
-Current UC changed for unrelated fixed-direction translation-limit work. A repo-level head change alone is therefore not sufficient evidence that the already-proven Animation-clock consumer either remains valid or has become invalid.
+Animal Technical Art PR #3 remains the existing cross-repo/UC integration lane and is therefore the correct home. No duplicate Technical Art PR was opened. Other design lanes remain under their own specialist ownership.
 
-Direct source inspection established the exact consumed module identity:
+## Selected bounded gap
+
+The highest-leverage open Technical Art gap was now:
+
+> Can the exact newly rebound Animal source-successor Animation producer cross the current UC generic runtime-clock boundary without copying Animal source, topology, rigging, weighting or clip semantics into UC?
+
+This is narrower and more truthful than jumping immediately to skeleton/skin/pose/channel export. It also directly closes the previous Technical Art dependency hold after Organic -> Geometry -> Rigging -> Animation had all advanced in order.
+
+## Current UC inspected
+
+Current `axm-universal-creation` main consumed in this activation:
+
+**`091c90047a38894ebdb88dba268f1212411a6cc4`**
+
+That UC head advanced for unrelated fixed-direction physics work. The exact generic module consumed by this bridge remains:
 
 `src/axm_uc/game_animation_runtime.py`
 
-has Git blob:
+with Git blob:
 
-**`a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173`**
+**`a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173`**.
 
-at **both** the previous proven UC pin and current UC main.
-
-The selected bounded question was therefore:
-
-> Can the existing exact Animal Animation -> UC runtime-clock proof be rebound to current UC main by proving the exact consumed runtime module is unchanged and re-exercising the full clock path, rather than silently treating repository-head drift as either automatic breakage or automatic equivalence?
+That blob is unchanged from the previous proven Technical Art runtime-clock boundary. UC already supplied the generic deterministic clip-clock/state primitive needed here, so **no UC product code was changed** and no Animal domain policy was promoted into UC.
 
 ## Existing Technical Art lane advanced
 
@@ -52,126 +67,129 @@ Branch: `studio/uc-surface-bridge-001`
 
 Exact tested Technical Art head:
 
-**`012e00fd74284d0214e01db3df524e0d8666e0ee`**
+**`a97231455e404beb7132e6b369b60b5a68a33550`**
 
-Observed PR state remains **OPEN / DRAFT / MERGEABLE**. Repository mergeability is evidence metadata only, not merge/CANON authority.
+Observed PR state: **OPEN / DRAFT / MERGEABLE**. Mergeability remains evidence metadata, not merge/CANON authority.
 
 ## Smallest reusable repair
 
-The existing Animal-side Technical Art clock evidence adapter and workflow were strengthened; UC itself was not changed.
+Technical Art added one Animal-side evidence adapter:
 
-Files advanced in the existing PR lane:
+`tools/build_uc_source_successor_animation_clock_bridge_evidence.py`
 
-- `tools/build_uc_animation_clock_bridge_evidence.py`;
-- `.github/workflows/uc-surface-bridge.yml`.
+and one additional job in the existing:
 
-The bridge now:
+`.github/workflows/uc-surface-bridge.yml`.
 
-1. checks out the **previous exact proven UC pin** and **current exact UC main** separately;
-2. verifies both checkout heads from Git rather than trusting environment labels;
-3. resolves `HEAD:src/axm_uc/game_animation_runtime.py` in both checkouts;
-4. requires the exact Git blob to remain `a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173` at both revisions;
-5. fails closed if that consumed runtime module changes;
-6. only after that provenance gate, rebuilds the exact Animal sampled-playback producer and reruns the full current-UC clock proof;
-7. retains both UC heads and both runtime-module blob identities in the evidence artifact.
+The adapter:
 
-A new negative control deliberately substitutes a fake UC runtime-module blob and must be rejected. This turns dependency staleness into an explicit consumed-module contract rather than a vague “latest repo still seems fine” assumption.
+1. checks out and verifies exact Animation head `badd8574b1acb5b4adf23544a9befc7cad86d1a1`;
+2. checks out exact successor Rigging donor `b48bb957622ed5c82a24ca4fcb471f7ee9b5147a` plus the exact historical rig/profile donor `04760112deb81a8d145226fe7ee02923107c9916`;
+3. executes Animation's own `build_source_successor_animation_rebind_evidence.py` rather than copying its Animal logic;
+4. requires the exact successor candidate/profile/rig/weighting/clip identities and all 41 source-owned structural samples;
+5. requires motion, retime, retarget and weighting-change flags to remain false;
+6. verifies current UC exact head plus exact `game_animation_runtime.py` Git blob;
+7. supplies only an adapter-neutral clip-clock source to UC's existing runtime;
+8. exercises all authored 0.025-second boundaries through the first post-wrap step plus independent free-time probes;
+9. fails closed on successor-identity drift, `40 -> 41 Hz` drift, and a fake UC runtime-module blob;
+10. explicitly records that skeleton/skin/weight/pose/channel transport and target-engine/controller playback are not proved.
 
-No Animal source, topology, rigging, weighting, motion, clip timing or domain semantics moved into UC.
+Animal domain meaning remains in Animal. UC remains generic.
+
+## Provenance defect caught and repaired
+
+The first exact-head attempt, workflow **`35136331462`**, retained a real tooling failure in the new successor job. Technical Art had passed donor checkout paths as relative environment values, then invoked the exact Animation producer from the Animation checkout as its working directory. Those paths therefore resolved relative to the wrong repository.
+
+The failure was not bypassed and no identity gate was weakened. The workflow now supplies exact donor checkouts through absolute `${{ github.workspace }}` paths. The failed run remains historical evidence of the harness defect.
 
 ## Exact result
 
-Scoped results:
+Scoped result:
 
-**`PASS_CURRENT_UC_MAIN_RUNTIME_BLOB_REBIND`**
+**`PASS_ANIMAL_SOURCE_SUCCESSOR_MOTION_TO_CURRENT_UC_RUNTIME_CLOCK`**
 
-and
+Final exact-head workflow:
 
-**`PASS_ANIMAL_SAMPLED_PLAYBACK_TO_CURRENT_UC_RUNTIME_CLOCK`**
+**`35136465202 — UC surface bridge evidence`: SUCCESS**.
 
-Exact-head workflow:
-
-**`35130334993 — UC surface bridge evidence`: SUCCESS**.
-
-All three jobs passed on head `012e00fd74284d0214e01db3df524e0d8666e0ee`, including the strengthened `animal-animation-current-uc-clock-bridge` job.
+All four jobs passed on exact Technical Art head `a97231455e404beb7132e6b369b60b5a68a33550`, including the new `animal-source-successor-current-uc-clock-bridge` job and the retained historical Technical Art bridge jobs.
 
 Same-head repository workflows also passed:
 
-- `35130335072 — Tests`: SUCCESS;
-- `35130335116 — Weighting refinement evidence`: SUCCESS.
+- `35136465188 — Tests`: SUCCESS;
+- `35136465212 — Weighting refinement evidence`: SUCCESS.
 
-Exact retained clock findings remain:
+Exact retained runtime-clock findings:
 
-- all `40` authored `0.025 s` boundaries plus the first post-wrap boundary reproduce through current UC;
-- maximum clip-time residual: **`5.551115123125783e-16 s`**;
-- one exact `LOOP` event lands on command index `39`, cycle `1`, at the authored one-second boundary;
-- first post-wrap time returns to `0.025 s`;
-- free-time probes `0.1125 / 0.5125 / 1.2375 / 2.0 s` retain `0.0 s` residual at retained precision;
-- compiled UC runtime source SHA-256 remains `6d33948c8d26c7a64a5c5d6d31d989ea508ac976c59ead663c5eee46a86d7f14`.
+- `41` authored-boundary commands exercised;
+- authored interval: `0.025 s`;
+- exact one-second `LOOP` event at command index `39`, cycle `1`;
+- first post-wrap clip time: `0.025 s`;
+- maximum boundary clip-time residual: **`5.551115123125783e-16 s`**;
+- free-time probes `0.1125 / 0.5125 / 1.2375 / 2.0 s`: **`0.0 s` residual** at retained precision;
+- compiled generic UC runtime source SHA-256: `e8d2163a1aae3f05992ba1e9aaa88d90fc0b8893a998406daa3bead7df9c3510`;
+- source-successor producer retained `PASS_SOURCE_SUCCESSOR_41_SAMPLE_MOTION_REBIND`, all 41 structural samples green, exact neutral return and `0.0 m` visible-wrap residual.
 
-Exact dependency findings:
+Exact retained identities:
 
-- previous UC head: `a05f5fb083ad1454a0d92d001e0d3994a779826f`;
-- current UC head: `bd51542bc68534a6e6f3a11d421dc70216b2abf9`;
-- previous runtime-module Git blob: `a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173`;
-- current runtime-module Git blob: `a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173`;
-- runtime-module continuity: **exactly unchanged**.
+- Technical Art: `a97231455e404beb7132e6b369b60b5a68a33550`;
+- Animation: `badd8574b1acb5b4adf23544a9befc7cad86d1a1`;
+- successor Rigging: `b48bb957622ed5c82a24ca4fcb471f7ee9b5147a`;
+- historical rig/profile donor: `04760112deb81a8d145226fe7ee02923107c9916`;
+- current UC: `091c90047a38894ebdb88dba268f1212411a6cc4`;
+- current UC runtime-module blob: `a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173`.
 
 Fail-closed controls reject:
 
-1. Animal clip-identity drift;
+1. selected-003 successor candidate identity drift;
 2. authored sample-rate drift `40 -> 41 Hz`;
-3. UC consumed runtime-module blob drift.
+3. UC runtime-module blob drift.
 
 ## Retained evidence
 
-Artifact:
+Final artifact:
 
-- ID: **`10460702058`**;
-- name: `quadruped-animation-current-uc-clock-bridge-evidence`;
-- size: **`5,393 B`**;
-- GitHub archive SHA-256: **`bc8ff8bb98027332aaeb7f3bcf5bfd9bcace107807b0dd19036e78ca7beb04cb`**;
-- bridge receipt SHA-256: **`6749eb876d80e42d6ec74e3eb036dde4bf09f8d69aa29104528814a1f13279e5`**.
+- ID: **`10463545521`**;
+- name: `quadruped-source-successor-current-uc-clock-bridge-evidence`;
+- size: **`36,328 B`**;
+- GitHub archive SHA-256: **`a582f0d24ffc479e8d28def01c8142c750da5d0a4f97c9bfc472ffee4444cc13`**;
+- bridge receipt SHA-256: **`55928f6bd0a9af0a6a65edd33bf8ef7d47f72e8bc0a525832bfd0055d60b4960`**.
 
-The retained archive was downloaded during this activation and independently rehashed to the exact same GitHub SHA-256. Its identity files contain:
+The archive was downloaded during this activation and independently rehashed to the exact same GitHub SHA-256. Its retained identity files independently contain the Technical Art, Animation, Rigging, historical donor, UC and UC runtime-module identities listed above.
 
-- Technical Art head `012e00fd74284d0214e01db3df524e0d8666e0ee`;
-- Animation head `b10ec5aeeb02b5df8d42e13df2772f4dcaae9a3a`;
-- previous UC head `a05f5fb083ad1454a0d92d001e0d3994a779826f`;
-- current UC head `bd51542bc68534a6e6f3a11d421dc70216b2abf9`;
-- matching previous/current runtime-module blobs `a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173`.
+## Handoffs recorded
 
-## Handoff recorded
+- Animal Technical Art PR #3 received exact evidence comment **`5702793857`**.
+- Animal Animation PR #5 received downstream return-handoff comment **`5702798481`**, explicitly preserving Animation ownership and noting that Technical Art changed no motion values.
 
-Animal Technical Art PR #3 received exact evidence comment **`5701987780`** with the rebind result, workflow IDs, artifact identity, independent archive hash, dependency boundary and explicit holds.
-
-No separate UC implementation lane was opened because current UC already contains the required generic runtime and its exact consumed module did not change. No Profession Fabric change was made because this single dependency-maintenance case does not justify a profession or platform policy extraction.
+No separate UC lane was opened because current UC already contains the necessary generic clock primitive. No profession/platform extraction was justified by this one domain-specific rebind.
 
 ## Truth boundary / explicit non-claims
 
-This activation proves only that the **same exact Animal sampled-playback producer** remains compatible with **current UC main** for the previously proven generic runtime-clock scope because the exact consumed UC runtime module is byte-identical by Git blob identity and the full clock evidence was rerun successfully.
+This activation proves only that the **exact source-successor Animal Animation producer** can be executed from its owning repository and its unchanged 1.0 s / 40 Hz timing can be represented and replayed through the **current generic UC deterministic animation clock** with exact dependency identities and retained evidence.
 
 It does **not** prove:
 
-- that arbitrary UC repository-level changes are irrelevant to arbitrary consumers;
-- adoption of Animal Organic selected-003 successor or its Geometry/Rigging/Animation rebind;
-- skeleton, skin, weights, pose or deformation transport into UC;
+- static selected-003 surface/GLB adoption in this activation;
+- skeleton transport;
+- skin or weight transport;
+- pose/deformation transport;
 - GLB animation channels;
-- real wall-clock pacing;
+- interpolation or C1 quality;
+- real wall-clock frame pacing;
 - Godot `AnimationPlayer`, controller or state-machine integration;
-- C1 continuity or perceptual smoothing quality;
-- visual/motion Art Direction acceptance;
+- final visual/motion Art Direction acceptance;
 - gameplay, collision, physics or target-device performance;
-- a generic profession-level dependency-rebind policy;
+- UC promotion of Animal-specific semantics;
 - CANON, merge authority, production/game readiness or Technical Art mastery.
 
 ## Four-root gate
 
-- **Truth:** repository-head drift and consumed-module drift are now different evidence states; exact old/new heads, exact Git blobs, full rerun, negative controls and archive digest are retained.
-- **Agency / non-domination:** Animal keeps motion/source/rig authority; UC keeps generic runtime authority; Technical Art does not bypass Geometry/Rigging dependencies or force promotion.
-- **Continuity:** the prior UC-clock proof remains historical truth at its old pin; this activation creates an explicit current-main successor proof rather than silently rewriting it.
-- **Wisdom before speed:** one small provenance contract closed the real dependency gap. No speculative skeleton export, UC centralization, profession promotion or new Animal-source adoption was bundled in.
+- **Truth:** old and successor Animation chains remain separate; exact producer, donor, UC, consumed-module and artifact identities are retained; the failed relative-path harness run is preserved rather than hidden.
+- **Agency / non-domination:** Animal keeps source/geometry/rigging/weighting/motion authority. UC supplies only a generic runtime clock. Technical Art does not force successor adoption or merge.
+- **Continuity:** the historical clock proof remains valid at its old source chain; this activation adds an explicit successor proof rather than relabelling old evidence.
+- **Wisdom before speed:** one bounded timing/integration contract closed the real dependency gap. Skeleton/skin/channel transport, visual judgment and runtime controller work remain separate gates.
 
 ## Current state
 
-`PASS_CURRENT_UC_MAIN_RUNTIME_BLOB_REBIND / PASS_ANIMAL_SAMPLED_PLAYBACK_TO_CURRENT_UC_RUNTIME_CLOCK / EXACT OLD+NEW UC HEADS + CONSUMED RUNTIME BLOB RETAINED / HOLD_NEW_ANIMAL_SOURCE_SUCCESSOR / HOLD_SKELETON_SKIN_WEIGHT_POSE_EXPORT / HOLD_GLB_ANIMATION_CHANNELS / HOLD_WALL_CLOCK / HOLD_CONTROLLER_STATE_MACHINE / HOLD_C1_VISUAL_ACCEPTANCE / HOLD_RUNTIME_GAMEPLAY / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT`
+`PASS_ANIMAL_SOURCE_SUCCESSOR_MOTION_TO_CURRENT_UC_RUNTIME_CLOCK / CURRENT_UC_RUNTIME_BLOB_UNCHANGED / EXACT SUCCESSOR ANIMATION + RIGGING + UC IDENTITIES RETAINED / HOLD_STATIC_SELECTED003_UC_SURFACE_ADOPTION / HOLD_SKELETON_SKIN_WEIGHT_POSE_TRANSPORT / HOLD_GLB_ANIMATION_CHANNELS / HOLD_INTERPOLATION_C1 / HOLD_WALL_CLOCK / HOLD_CONTROLLER_STATE_MACHINE / HOLD_VISUAL_ACCEPTANCE / HOLD_RUNTIME_GAMEPLAY / HOLD_UC_PROMOTION / ANIMAL PR #3 DRAFT`
