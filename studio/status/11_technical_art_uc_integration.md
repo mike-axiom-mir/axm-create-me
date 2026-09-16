@@ -1,101 +1,126 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-16
-State: **PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / UC_RIGID_SCENE_GRAPH_MERGED / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / PASS_DUAL_EVIDENCE_IDENTITY_BOUNDARY / PASS_EXACT_LID_RIG_TO_UC_TARGET_ENVELOPE / PASS_UC_RUNTIME_CLOCK_TO_GODOT_TARGET_HANDOFF / HOLD_UC_ADAPTER_PROMOTION / HOLD_NEW_SOURCE_LATCH_REBIND / HOLD_WALL_CLOCK / HOLD_RUNTIME_CONTROLLER_INPUT / HOLD_TARGET_HOST_CONTINUOUS_COLLISION / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_MOTION_VISUAL / OBJECT STACK DRAFT**
+State: **PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / UC_RIGID_SCENE_GRAPH_MERGED / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / PASS_DUAL_EVIDENCE_IDENTITY_BOUNDARY / PASS_EXACT_LID_RIG_TO_UC_TARGET_ENVELOPE / PASS_CURRENT_ANIMATION_SOURCE_AUTHORITY_TO_UC_RUNTIME_CLOCK / PASS_UC_RUNTIME_CLOCK_TO_GODOT_TARGET_HANDOFF / HOLD_UC_ADAPTER_PROMOTION / HOLD_RUNTIME_SUCCESSOR_REBIND / HOLD_WALL_CLOCK / HOLD_RUNTIME_CONTROLLER_INPUT / HOLD_TARGET_HOST_CONTINUOUS_COLLISION / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_MOTION_VISUAL / OBJECT STACK DRAFT**
 
 ## Latest bounded result
 
-This activation closed one cross-repo receiving gap: Object Animation already proved its exact 101-key lid/latch sequence in pinned Godot `AnimationPlayer`, and Universal Creation already owned the neutral deterministic `axm.game-animation-runtime/v0.1`, but there was no exact evidence that the UC clip clock could address that Object target without Technical Art retiming.
+This activation closed the provenance gap identified after the first Technical Art clock bridge: the existing Object/Godot UC-runtime proof was still truthful, but it was bound to Animation PR #10's older latch-provenance chain. Animation has since explicitly rebound the unchanged motion identity to the current source-owned Hard-Surface/Rigging authority.
 
-The smallest supported repair lives in **Object receiving Technical Art**, not UC. Universal Creation is unchanged.
+The smallest supported repair stayed in **Object receiving Technical Art**. `axm-universal-creation` remains unchanged.
 
-Object draft PR **#21 — `Technical Art: bridge UC animation runtime clock into Godot target`** is stacked exactly on Animation PR #10 head `5cb073f9fcf825014556ed165ee081e1eca71cdc`.
+Object draft PR **#21 — `Technical Art: bridge UC animation runtime clock into Godot target`** now has exact head:
 
-Exact successful PR #21 head:
-
-`c52aa38e9c11a7f02e47a5bb5ab772a1746ff412`
+`8633fdcb367ae4d32146b5696142d0946716fe76`
 
 PR state at review: **OPEN / DRAFT / MERGEABLE**.
 
-Exact bounded results:
+The branch preserves both histories rather than rewriting either:
 
-- `PASS_UC_RUNTIME_OBJECT_TARGET_CLOCK_BINDING`
-- `PASS_UC_RUNTIME_CLOCK_TO_GODOT_ANIMATIONPLAYER_CHECKPOINTS`
+- current Animation source-authority head `6c81740c7895c90d6bb3a617d74f0863c52053f6` is retained as an ancestor;
+- prior Technical Art UC-clock bridge head `c52aa38e9c11a7f02e47a5bb5ab772a1746ff412` is retained as an ancestor.
 
-`axm-create-me` remains coordination-only. The immediately preceding detailed status is preserved in Git history at blob `ada614e329d13d2b248eb5f16fd911d96a690200`; the prior pre-activation snapshot is preserved at blob `e2473ce7609de2445f58960213eb6b6627be63ad`.
+Current authority chain consumed:
+
+- Hard-Surface source interface head `6086f39a3da344c57a68653f90d040e03e04cec2`;
+- source-interface SHA-256 `bcbbe098371eb702bc9289a97370744093105925202eda6036bdced6e25e34d3`;
+- Rigging source binding head `a1acd2bcb2074f41e536562f2673508e2cb0a4d5`;
+- source-Rigging binding SHA-256 `615f8ff34cc0897fd399345301efce1ca9cb0aa58e86caca92b914049b89adce`;
+- Animation sequence ID `lid-latch-open-hold-close-001`;
+- exact sequence digest `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
+- UC animation-runtime commit `dde8d952161788f8bf21118f91edd3163e51277d`;
+- UC runtime module Git blob SHA `a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173`;
+- UC runtime module byte SHA-256 `c7b0b9ba420f592ed0320091d2689d47b9595d3a9f8d96f5231496f1019002c9`.
+
+`axm-create-me` remains coordination-only.
 
 ## Duplication and placement check
 
-Existing lanes already owned the neighboring concerns:
+Existing lanes still own the neighboring concerns:
 
-- UC: neutral rigid-scene transport and adapter-neutral animation runtime/state clock;
-- Object Animation: exact clip semantics, 101 authored samples, timing and interpolation;
-- Object Rigging / Hard-Surface: articulation and mechanical meaning;
-- Technical Art: exact cross-repo receiving binding, evidence identity, target adapter and host observation;
-- Runtime: wall-clock scheduling, controller/input, lifecycle and performance;
-- Art Direction / Visual QA: final motion presentation.
+- **UC:** adapter-neutral clip clocks, states, events and root-motion policy;
+- **Hard-Surface / Rigging:** source-owned mechanical interface and articulation authority;
+- **Animation:** sequence semantics, timing, interpolation, 101 authored samples and source-authority rebind;
+- **Technical Art:** exact cross-repo evidence composition, receiving adapter and target-host handoff;
+- **Runtime:** resource/runtime optimization, wall-clock scheduling, controller/input, lifecycle and target-device performance;
+- **Art Direction / Visual QA:** final motion presentation.
 
-Therefore this activation did **not** create a second animation clip, a Runtime controller, a new UC domain ontology, or a generic Godot adapter in UC.
+Therefore this activation did **not** create a second motion sequence, duplicate Rigging's target articulation lane, create a Runtime controller, add Object ontology to UC, or promote a generic Godot adapter into UC.
 
-A UC target-adapter abstraction remains **held** until at least one materially different consumer family or target host independently demonstrates the same neutral adapter shape.
+A UC target-adapter abstraction remains **held** until materially different consumer/host evidence supports the same neutral shape.
 
-## Smallest receiving repair
+## Smallest reusable receiving repair
 
-PR #21 adds only receiving evidence/tooling:
+PR #21 now adds one Object-local composition verifier and one retained workflow:
 
-- `tools/build_uc_animation_runtime_bridge.py` pins the exact UC runtime, executes it against the exact Object sequence identity, distinguishes Git-blob, byte and canonical evidence identities, and emits `axm.uc-animation-runtime-target-clock-binding/v0.1`.
-- `animation-proof/observe_uc_runtime_bridge.gd` consumes the retained UC runtime checkpoints and seeks the existing Godot `AnimationPlayer` target without retiming.
-- `.github/workflows/object-technical-art-uc-animation-runtime-bridge.yml` rebuilds exact donors, runs the negative drift control, executes pinned Godot 4.7.2 GL Compatibility, validates the target receipt and retains JSON/GLB/PNG evidence.
+- `tools/verify_uc_runtime_animation_authority_bridge.py` composes the current Animation source-authority receipt with the existing UC runtime clock receipt and requires exact sequence/source/rig/runtime identity continuity;
+- `.github/workflows/object-technical-art-uc-animation-authority-bridge.yml` rebuilds the historical motion donor, current source-owned Rigging acceptance, current Animation authority rebind and exact UC runtime clock handoff on one receiving head;
+- deliberate sequence-digest drift and source-Rigging-head drift are rejected as negative controls.
 
-Adapter policy:
+The existing real Godot observer remains a separate workflow and reruns on the same exact head. This keeps **provenance/structural equivalence** separate from **target-host observation**.
+
+Adapter policy remains:
 
 `SEEK_TARGET_ANIMATIONPLAYER_TO_UC_CLIP_TIME_NO_RETIME`
 
-Retained interior UC runtime checkpoints:
+The exact motion remains `2.5 s`, `40 Hz`, with five retained UC checkpoints:
 
 `0.1125 / 0.5125 / 1.2375 / 1.7625 / 2.3875 s`
 
-The UC runtime automatically returns to `idle-neutral` at the exact `2.5 s` clip boundary; the target observer separately verifies exact neutral target endpoints.
+## Provenance repair preserved
 
-## Evidence-identity repair preserved
+The first new authority-composition run **`35098107556`** failed before substantive evidence generation because the receiving checkout used GitHub Actions' default depth-1 history. `git merge-base --is-ancestor` therefore could not resolve the two pinned ancestor commits.
 
-The first dedicated run **`35092208443`** failed before target execution because the proof initially compared GitHub's Git blob SHA-1 with a byte SHA-256 as if they were the same identity. That failed run remains evidence and was not erased or bypassed.
+The assertion was not removed or weakened. The receiving checkout was repaired to `fetch-depth: 0`, preserving the exact ancestry check. The failed run remains historical evidence.
 
-The repaired proof records separately:
+This is separate from the earlier historical Technical Art identity repair where Git blob SHA-1 and byte SHA-256 were initially conflated; that earlier failure remains preserved in Git/status history as well.
 
-- UC runtime commit: `dde8d952161788f8bf21118f91edd3163e51277d`;
-- UC runtime module Git blob SHA-1: `a5f1bf407eb6c4b5be1c5e7f19bed1001ff94173`;
-- UC runtime module byte SHA-256: `c7b0b9ba420f592ed0320091d2689d47b9595d3a9f8d96f5231496f1019002c9`;
-- compiled UC runtime source SHA-256: `6e079f60ba9af9d998212d3014b1c935034b969fabcd8b3996be6dc9e51559d9`;
-- UC runtime command SHA-256: `a7e0883b74e72ec3853deac4f11ec7074fc2430bb095efa3f7920d43b560042b`;
-- Object sequence digest: `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
-- generated sequence-evidence file SHA-256: `9aaaff0c44003418c010c7fec11935d059c297dc5b9ea897ec593c6a7c56e129`;
-- generated sequence-evidence canonical JSON SHA-256: `5268777c30e8ef8c07c9c7743bc1d26fdc237866a60fe1f6d9d4f10510f00f65`.
+## Exact successful authority-composition workflow
 
-This follows the constellation rule that representation identity and semantic/canonical identity are separate evidence dimensions.
+Dedicated workflow **`35098431958 — Object Technical Art UC Animation authority bridge evidence`** completed **SUCCESS** on exact head `8633fdcb367ae4d32146b5696142d0946716fe76`.
 
-## Exact successful workflow
+Scoped result:
 
-Dedicated workflow **`35092544185 — Object Technical Art UC animation runtime bridge evidence`** completed **SUCCESS** on exact head `c52aa38e9c11a7f02e47a5bb5ab772a1746ff412`.
+`PASS_UC_RUNTIME_CLOCK_OVER_CURRENT_ANIMATION_SOURCE_AUTHORITY`
 
-The job completed:
+The retained composite receipt proves:
 
-- pinned UC runtime identity verification;
-- current Object structural suite: **38 tests PASS**;
-- exact Technical Art rigid-scene rebuild;
-- exact lid/latch donor materialization;
-- exact Object sequence rebuild;
-- exact UC runtime clock handoff;
-- cross-repo identity validation;
-- negative UC donor-drift control;
-- pinned Godot `4.7.2-stable (official)` target observer;
-- retained target receipt plus five PNG captures.
+- current Animation authority head is in exact receiving ancestry;
+- prior Technical Art bridge head is in exact receiving ancestry;
+- sequence ID and digest are unchanged;
+- current Hard-Surface source-interface identity is unchanged;
+- current source-Rigging binding identity is unchanged;
+- exact UC runtime identity is unchanged;
+- duration remains `2.5 s`;
+- sample rate remains `40 Hz`;
+- `motion_change = false`;
+- `retimed = false`;
+- `retargeted = false`;
+- `key_count_changed = false`;
+- target adapter policy remains no-retime.
+
+Retained authority artifact:
+
+- ID: **`10447277200`**;
+- name: `object-technical-art-uc-animation-authority-bridge-8633fdcb367ae4d32146b5696142d0946716fe76`;
+- size: **6,711 bytes**;
+- GitHub SHA-256: `ad9f881c40ca1c5e2dc682b3323878b561f3181e82d18cf1d1d64ed369710adc`.
+
+The exact artifact ZIP was downloaded and independently rehashed to the same SHA-256. It retains five files: authority contract, exact Animation source-authority receipt, exact UC runtime-clock receipt, composite Technical Art receipt and exact-head receipt.
+
+## Same-head real target-host proof
+
+Existing dedicated workflow **`35098431986 — Object Technical Art UC animation runtime bridge evidence`** also completed **SUCCESS** on the same exact Technical Art head `8633fdcb367ae4d32146b5696142d0946716fe76`.
 
 Godot target receipt state:
 
 `PASS_UC_RUNTIME_CLOCK_TO_GODOT_ANIMATIONPLAYER_CHECKPOINTS`
 
-Measured target-host handoff:
+Pinned target host:
+
+`Godot 4.7.2-stable (official), GL Compatibility`
+
+Measured exact target-host handoff:
 
 - maximum lid clock residual: `0.00000762939453125 deg`;
 - maximum latch clock residual: `0.000003814697265625 deg`;
@@ -103,50 +128,48 @@ Measured target-host handoff:
 - ordering violations: `0`;
 - neutral start lid/latches: exactly `0 deg`;
 - neutral end lid/latches: exactly `0 deg`;
-- exact rebound GLB SHA-256: `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`.
+- rebound GLB SHA-256: `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`.
 
-The first and last retained interior images share a hash because both checkpoints fall in neutral geometry phases; the runtime clock states/times remain distinct.
+The target observer consumed the exact UC runtime clip times at all five retained checkpoints. Its sequence ID/digest are exactly the same sequence identity proven by the new authority-composition receipt.
 
-## Retained evidence
+Retained target-host artifact:
 
-Artifact:
+- ID: **`10447247270`**;
+- name: `object-technical-art-uc-animation-runtime-bridge-8633fdcb367ae4d32146b5696142d0946716fe76`;
+- size: **156,529 bytes**;
+- GitHub SHA-256: `888070cd19342e54fd96f5ab5f5afeb5d66393465b9dea2f95b8e0a11832e686`.
 
-- ID: **`10444509089`**;
-- name: `object-technical-art-uc-animation-runtime-bridge-c52aa38e9c11a7f02e47a5bb5ab772a1746ff412`;
-- size: **156,530 bytes**;
-- GitHub digest: `sha256:6a41605b496dbe52ea897ee7b9c06305abec30934bc098b1f411f1dbeb19c25e`;
-- expiry currently reported by GitHub: **2026-10-16**.
+The exact artifact ZIP was downloaded and independently rehashed to the same SHA-256. It retains **14 files**, including the exact inputs, receipts, rebound GLB and five Godot captures.
 
-This activation then downloaded the exact artifact ZIP and independently rehashed it. Local SHA-256 reproduced the GitHub digest exactly:
+All inherited Object workflows reported by GitHub on this exact head are green as well.
 
-`6a41605b496dbe52ea897ee7b9c06305abec30934bc098b1f411f1dbeb19c25e`
+## Truth boundary of the combined result
 
-The archive contains **14 retained files**: exact Object clip/sequence inputs, rebound GLB, UC rigid-scene receipt, Object sequence evidence, latch articulation receipt, UC runtime binding, exact-head receipt, Godot target receipt and five PNG captures.
+The new composite verifier itself intentionally says `target_host_observed_by_this_composite_tool = false`.
 
-## Current dependency caveat
+The correct bounded conclusion comes from two **same-head but separate evidence paths**:
 
-PR #21 is intentionally bound to Animation PR #10's exact provenance chain. Newer Hard-Surface PR #17 and Rigging PR #20 establish a newer source-owned front-latch pivot interface/rebind.
+1. the authority workflow proves that the UC runtime bridge's exact sequence identity is motion-equivalent to the current Hard-Surface/Rigging source-authority chain without retiming/retargeting/key mutation;
+2. the Godot workflow directly observes that same sequence identity at the five UC-provided clip times on the exact target `AnimationPlayer` representation.
 
-PR #21 does **not** silently adopt or supersede that newer provenance. If Animation or Runtime adopts PR #17/#20, this Technical Art bridge must explicitly rebind and rerun before claiming continuity.
-
-That is a provenance hold, not evidence that the current PR #21 proof failed.
+The target-host workflow still materializes the historical sequence representation internally. The authority receipt makes that historical sequence's unchanged identity equivalent to the current source-authority lineage; it does **not** rewrite historical producer identity or pretend the Godot workflow rebuilt Rigging PR #20 directly.
 
 ## Handoffs
 
-- **Animation PR #10:** direct handoff posted. UC clock-to-target addressing is proven for its exact current sequence; Animation retains authority over timing/interpolation/motion quality.
-- **Runtime:** only the clock-to-target edge is closed. Wall-clock advancement, frame pacing, controller/input, lifecycle and target-device performance remain Runtime-owned.
-- **Hard-Surface / Rigging:** newer latch provenance remains separate; no silent rebind occurred.
-- **Universal Creation:** no change required. The existing neutral animation runtime was sufficient. Keep target-specific Godot/Object binding outside UC until broader reuse evidence exists.
+- **Animation PR #10:** Technical Art now consumes its current source-authority head without changing timing, interpolation or motion ownership.
+- **Runtime PR #22:** its existing optimization proof remains truthful for its exact older Animation donor. If Runtime wants the successor source-authority lineage, it should explicitly adopt this current Technical Art/Animation chain and rerun its own resource-budget evidence rather than inherit this PASS by label.
+- **Hard-Surface / Rigging:** current source interface/binding identities are now explicitly carried into the Technical Art clock proof via Animation's verified no-motion-change rebind; Technical Art does not own their mechanical semantics.
+- **Universal Creation:** no code change required. Existing adapter-neutral runtime was sufficient; Object/Godot-specific receiving knowledge stays outside UC.
 
 ## Non-claims / remaining holds
 
 This activation does **not** prove or authorize:
 
-- merging Object PR #21 or Animation PR #10;
-- embedded UC/Python runtime execution inside Godot;
-- wall-clock playback or frame scheduling under load;
+- merging Object PR #21, Animation PR #10, Hard-Surface PR #17 or Rigging PR #20;
+- embedded UC/Python execution inside Godot;
+- real wall-clock playback or frame scheduling under load;
 - controller/input/state-machine acceptance;
-- automatic adoption of Hard-Surface PR #17 / Rigging PR #20;
+- automatic Runtime PR #22 successor adoption;
 - arbitrary skeletal animation, skinning, blend-shapes or generic clip transport through UC;
 - continuous target-host collision clearance;
 - physical latch/hinge engineering or manufacturing validity;
@@ -157,11 +180,11 @@ This activation does **not** prove or authorize:
 
 ## Root gate
 
-- **Truth:** exact source/runtime/sequence/target identities and failed intermediate evidence are preserved; Git-blob and byte identities are not conflated; PASS scope is only the exact target-clock handoff.
-- **Agency / non-domination:** domain semantics remain source-owned; UC does not absorb Object/Godot knowledge for convenience; Technical Art does not claim Runtime, visual, merge or CANON authority.
-- **Continuity:** PR #21 stays stacked on the exact Animation chain; older evidence remains in Git history; UC remains unchanged; newer latch provenance is explicitly held rather than silently rewritten.
-- **Wisdom before speed:** a receiving bridge was proven first, and a generic UC adapter is deliberately not promoted from one success.
+- **Truth:** current source authority, historical producer identity, exact sequence identity, UC identity, failed shallow-history run and target-host evidence remain distinct and inspectable; no transitive claim is presented as direct observation.
+- **Agency / non-domination:** domain semantics remain source-owned; UC does not absorb Object/Godot knowledge for convenience; Technical Art does not claim Runtime, Animation, merge or CANON authority.
+- **Continuity:** the Technical Art branch preserves both current Animation authority and prior Technical Art proof ancestry; old evidence remains valid for its declared scope rather than being silently rewritten.
+- **Wisdom before speed:** the smallest receiving composition contract was added, and generic UC adapter promotion remains held after one Object/Godot family.
 
 ## Current state
 
-`PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / UC_RIGID_SCENE_GRAPH_MERGED / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / PASS_DUAL_EVIDENCE_IDENTITY_BOUNDARY / PASS_EXACT_LID_RIG_TO_UC_TARGET_ENVELOPE / PASS_UC_RUNTIME_CLOCK_TO_GODOT_TARGET_HANDOFF / HOLD_UC_ADAPTER_PROMOTION / HOLD_NEW_SOURCE_LATCH_REBIND / HOLD_WALL_CLOCK / HOLD_RUNTIME_CONTROLLER_INPUT / HOLD_TARGET_HOST_CONTINUOUS_COLLISION / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_MOTION_VISUAL / OBJECT STACK DRAFT`
+`PASS_GENERIC_RIGID_SCENE_GRAPH_CONTRACT / UC_RIGID_SCENE_GRAPH_MERGED / PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_TO_GODOT / PASS_DUAL_EVIDENCE_IDENTITY_BOUNDARY / PASS_EXACT_LID_RIG_TO_UC_TARGET_ENVELOPE / PASS_CURRENT_ANIMATION_SOURCE_AUTHORITY_TO_UC_RUNTIME_CLOCK / PASS_UC_RUNTIME_CLOCK_TO_GODOT_TARGET_HANDOFF / HOLD_UC_ADAPTER_PROMOTION / HOLD_RUNTIME_SUCCESSOR_REBIND / HOLD_WALL_CLOCK / HOLD_RUNTIME_CONTROLLER_INPUT / HOLD_TARGET_HOST_CONTINUOUS_COLLISION / HOLD_PHYSICS_GAMEPLAY / HOLD_FINAL_MOTION_VISUAL / OBJECT STACK DRAFT`
