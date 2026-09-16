@@ -1,207 +1,199 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-16
-State: **PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_VISUAL_READABILITY_GATE / OBJECT SCALE + FOOTPRINT CUE + NATURE QA + INNER LID + TARGET PERF HELD**
+State: **FAIL_ANIMAL_EXACT_MIRROR_GENERATED_SMOOTH_NORMAL_VISUAL_NEUTRALITY / PASS_STATIC_SILHOUETTE_AND_FACE_SPLIT_NONCORRUPTION / VISUAL ADOPTION BLOCKED PENDING NORMAL-TANGENT POLICY + ART DIRECTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the current Visual-QA status, newest Art Direction / Materials status, and current completed PR evidence across the design constellation before selecting one bounded gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current specialist status, newest Art Direction / Geometry / Materials / Rigging evidence and current open design-constellation PRs before selecting one bounded gate.
 
-`axm-create-me` remains **coordination only**. Visual QA changed no Map, Object, Nature, Building, Weather, Animal, Character, Runtime, Universal Creation, Profession Fabric or gameplay implementation.
+`axm-create-me` remains **coordination only**. Visual QA changed no Animal source, topology, rig, materials, Map, Object, Character, Runtime, Universal Creation, Profession Fabric or gameplay implementation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The most consequential completed unverified visual claim is the **current-world Object base five-surface material family** on Map Environment PR #24 exact head `6575cc38db9f0f62b14a82b352d8582edf89856d`.
+The most consequential completed unverified visual claim is Animal Geometry PR #13's exact bilateral mirror-surface topology successor as observed through Materials PR #14.
 
-Why this gate was selected:
+Why this outranks another lane in this activation:
 
-- Environment has a real Godot `17 states × 2 cameras × 2 Weather modes = 68` retained-frame receiving proof for the exact Object material family.
-- 3D Art Direction has already preferred this exact family under `PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_PREFERENCE_011`, but explicitly held independent Visual QA.
-- The material delta is larger and more consequential to Object readability than the newer `161 / 106` pixel Map footprint cue. The footprint cue is now attribution-clean at Environment head `2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd`, but remains a separate later visual decision rather than a reason to skip the base material gate.
-- Object Materials' newer inner-lid source-identity rebind is provenance-only in its retained contexts: its 12 renders are byte-identical to the previous review. That is useful but less consequential than the current-world base-material change.
-- Character shoulder work still retains nonzero sampled self-intersections after the latest stitch-edge repair/rebind, so stronger Character deformation acceptance remains premature.
-- Animal bilateral source/deformation evidence is structurally newer, but its right-side chain still has separate Geometry/Animation/visual dependencies; it does not outrank a ready current-world 68-frame visual handoff.
-- The previous Weather two-tap result remains truthfully held behind `FAIL_TEMPORAL_SMOOTHING_ATTRIBUTION__STATIC_OPACITY_ATTENUATION_CONFOUND`; no attribution-clean successor was silently inferred here.
+- Geometry #13 materially improves a structural invariant: the right surface changes 30 longitudinal quad diagonals while preserving all 42 positions / 80 triangles, restoring exact mirrored triangle correspondence and eliminating the previously measured bilateral structural-metric residual.
+- Rigging #15 has now explicitly rebound that exact topology and is green across 484 discrete structural pose observations, so the earlier Rigging structural hold is no longer the blocker.
+- Materials #14 supplied a real Godot 4.7.2 GL Compatibility A/B with positions, triangle/index budget, neutral material, lighting and camera fixed, but correctly held generated-normal visual neutrality for independent Art / QA review.
+- Technical Art has already transported the topology through current UC as static GLB and explicitly retained Materials / Art / QA normal-response authority instead of treating transport success as surface acceptance.
+- Map's Object footprint cue remains a valid independent QA handoff, but it is a tiny placement cue on an already-QA-green material parent and is lower-consequence than deciding whether a structural Animal topology successor silently changes most of the smooth-shaded visible surface.
+- Character remains structurally blocked by nonzero sampled shoulder intersections, so stronger Character visual acceptance is still premature.
 
-No duplicate Materials, Environment, Runtime, Art-Direction, Geometry, Rigging or VFX implementation lane was opened.
+No duplicate Geometry, Materials, Rigging, Technical Art, Art Direction or repair implementation lane was opened.
 
 ## Exact reviewed identity
 
-Repository: `mike-axiom-mir/axm-map-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-PR: **#24 — `Environment: converge Weather variant with exact Object source`**
+Geometry owner PR: **#13 — `Geometry: restore exact bilateral surface correspondence`**
 
-Exact Object-material current-world head:
+Exact Geometry donor head:
 
-`6575cc38db9f0f62b14a82b352d8582edf89856d`
+`bdbb51303bd1b96866b06a71730ccc328bf4f2f6`
 
-Exact fixed parent:
+Materials receiving/review PR: **#14 — `Materials: review exact-mirror topology shading in Godot`**
 
-`72d4128b602e27c886a0731ddd670ec8c14aaa7e`
+Exact reviewed Materials head:
 
-The parent already contains the current Building segmentation receiving state, Nature woody/foliage family and inherited Map Object footprint context. This review treats those as **fixed comparison context only**; it does not independently accept Nature materials or the footprint cue.
+`96e998e5c793057836e01656aca9f71481439c9b`
 
-Exact Object source authority:
+Exact Geometry module blob:
 
-`mike-axiom-mir/axm-object-design@d3fa10a270faae7925811f44f03381fe5c5d0215`
+`9a0ebcc6169445996756bb446a87e3baf8b9cc33`
 
-Exact Object material authority consumed by Environment:
+Compared variants:
 
-- Materials head `c85517446a769e0d5f880fc0e9e32f47124f7b5e`;
-- material profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`;
-- exact host geometry remains `468 vertices / 812 triangles`;
-- five current-world roles are `shell_coating`, `service_dark`, `hardware_steel`, `rubber_guard`, `interface_orange`;
-- utility-module `module_housing` and the newer inner-lid experiment are excluded.
+- historical right: `front-right-connected-chain-elbow-source-successor-003`;
+- exact-mirror right: `front-right-connected-chain-elbow-source-successor-003-mirror-surface-topology-001`.
+
+Both remain 42 vertices / 80 triangles with identical compared positions and identical observed silhouette/foreground occupancy inside each matched camera/normal-mode pair.
 
 ## Retained evidence independently obtained
 
-Candidate Environment artifact:
+Materials workflow:
 
-- ID `10466065113`;
-- size `6,925,693 B`;
-- GitHub SHA-256 `87dd366302e94b5a6f8241e110e9629c2d81a0d7321197b14a52b860642fd519`;
-- independently downloaded and rehashed to the exact same digest;
-- retained `exact-head.txt = 6575cc38db9f0f62b14a82b352d8582edf89856d`.
+`35152434735 — Materials bilateral topology shading review` — **SUCCESS**.
 
-Exact parent artifact:
+Retained artifact:
 
-- ID `10463255035`;
-- size `6,852,056 B`;
-- SHA-256 `a4dbc0e2b8ef6f16bb846d0f639b7935b414ddfe4222463f397d11a16cfc0a45`;
-- independently downloaded and rehashed identically;
-- retained `exact-head.txt = 72d4128b602e27c886a0731ddd670ec8c14aaa7e`.
+- ID `10469607407`;
+- size `99,798 B`;
+- GitHub SHA-256 `e9de500cca011e6192d9a2de7b73edbda01b3ce103672ac1563448c7ed3f2564`;
+- independently downloaded and rehashed by Visual QA to the exact same SHA-256;
+- contains 8 target-host PNGs, exact source-pinned payload, telemetry and Materials receipt.
 
-Visual QA independently compared **all 68 exact parent/candidate frame pairs**.
+Target host: Godot 4.7.2 GL Compatibility via Xvfb/X11.
 
-## Exact all-frame reproduction
+Visual QA directly inspected all 8 PNGs and independently recomputed matched-image deltas.
 
-The Object material change is static, localized and attribution-clean across the entire retained dynamic sequence.
+## Exact reproduction
 
-### `path_eye`
+### Face-split generated normals
 
-Across all `17 states × 2 Weather modes`:
+The topology change is measurable but visually small in the retained static probe.
 
-- exactly `1,850 / 792,000` pixels change by more than 1 LSB in every pair;
-- fixed bounding box `(300,425)-(366,454)`;
-- the binary >1-LSB delta mask is bit-identical across all 34 pairs;
-- changed-pixel median luma moves approximately `130.655 -> 47.368`;
-- `1,845 / 1,850` changed pixels darken by more than 1 LSB;
-- `738 / 1,850` changed pixels are below luma 32 in the candidate.
+Three-quarter:
 
-### `elevated_oblique`
+- 3,211 changed pixels >1 LSB;
+- 19,504 foreground pixels;
+- **16.46% of foreground** changed by the >1-LSB RGB criterion;
+- median absolute luma delta about **0.213 LSB**;
+- 95th percentile absolute luma delta about **2.00 LSB**;
+- max absolute luma delta about **4.00 LSB**.
 
-Across all `17 states × 2 Weather modes`:
+Grazing:
 
-- exactly `632 / 792,000` pixels change in every pair;
-- fixed bounding box `(543,295)-(578,319)`;
-- the binary >1-LSB delta mask is bit-identical across all 34 pairs;
-- changed-pixel median luma moves approximately `140.655 -> 57.877`;
-- all `632 / 632` changed pixels darken by more than 1 LSB;
-- `219 / 632` changed pixels are below luma 32 in the candidate.
+- 2,790 changed pixels >1 LSB;
+- 21,972 foreground pixels;
+- **12.70% of foreground** changed;
+- median absolute luma delta about **0.213 LSB**;
+- 95th percentile about **2.21 LSB**;
+- max about **3.00 LSB**.
 
-The substantial value reduction is therefore real and not hidden.
+Direct enlarged inspection reproduces diagonal/facet-response differences but no new silhouette break, hole, clipping artifact, spike, fold, gross seam or obvious focal corruption.
 
-## Readability / hierarchy check
+### Vertex-smooth generated normals
 
-The darker values do **not** reproduce the earlier Building-infill failure in this exact receiving context.
+The same connectivity change is **not visually neutral** under area-weighted generated vertex normals.
 
-The key difference is background relation: the west Object sits predominantly against the light receiving ground rather than the near-black world background. On the exact candidate:
+Three-quarter:
 
-- local 2–3 px comparison-ring median luma is about `181.47` around the `path_eye` changed footprint and `168.40` around `elevated_oblique`, versus changed-material medians `47.37` and `57.88`;
-- on the exact changed-material boundary, median minimum adjacent luma separation is about `113.23` in `path_eye` and `105.18` elevated;
-- only about `1.03%` of `path_eye` changed-boundary samples fall below 10 luma separation, none fall below 5; elevated has none below 10.
+- 16,522 changed pixels >1 LSB;
+- 19,504 foreground pixels;
+- **84.71% of foreground** changed;
+- median absolute luma delta about **4.65 LSB**;
+- mean absolute luma delta about **6.52 LSB**;
+- 95th percentile about **19.93 LSB**;
+- max about **51.20 LSB**.
 
-These are exact-scene diagnostics, not universal acceptance thresholds.
+Grazing:
 
-Direct enlarged inspection of states `0 / 8 / 16` in both cameras shows:
+- 18,113 changed pixels >1 LSB;
+- 21,972 foreground pixels;
+- **82.44% of foreground** changed;
+- median absolute luma delta about **4.86 LSB**;
+- mean absolute luma delta about **6.49 LSB**;
+- 95th percentile about **19.00 LSB**;
+- max about **47.20 LSB**.
 
-- the case silhouette remains clearly separated from the light ground;
-- the darker shell/service body reads as one compact industrial body rather than a pale proof proxy;
-- steel hardware remains visibly brighter than the body and still explains the lid/front construction;
-- the orange interface remains a small subordinate accent rather than becoming the scene focal point;
-- no new material-edge halo, culling hole, clipping artifact, shading discontinuity, frame-specific disappearance or mode-specific Object corruption is visible.
-
-Within a fixed Object inspection window, switching the inherited Weather thin-line/source-width presentation changes **0 Object-window pixels >1 LSB in every state and both cameras**. The material read is therefore not being rescued or hidden by the Weather-width presentation in this proof.
-
-The historical source-scale/readability question remains separate: this PASS does not claim the Object is large enough, only that the five-surface material family does not introduce a new readability defect at the exact retained scale/context.
+Direct inspection reproduces a visible redistribution of the smooth highlight / dark rolloff along the upper shaft, bend and lower-foot transition. The exact-mirror candidate preserves the outer silhouette but changes the internal surface read over most of the visible subject. This is a normal-response consequence of connectivity, not a camera or geometry-position change.
 
 ## QA verdict
 
-### Environment technical receiving PASS — preserved
+### PASS — bounded spatial / face-split noncorruption
 
-`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_STRUCTURE`
-
-`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_TARGET_HOST`
-
-Nothing in this review overturns Environment's source/receiving evidence.
-
-### Visual QA — PASS
-
-**`PASS_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_VISUAL_READABILITY_GATE`**
+**`PASS_ANIMAL_EXACT_MIRROR_STATIC_SILHOUETTE_AND_FACE_SPLIT_NONCORRUPTION`**
 
 Exact meaning:
 
-> In the exact retained current-world parent context and two fixed `1100×720` cameras, the Object five-surface material family produces a strong intentional darkening but preserves readable silhouette and material-role hierarchy across all 68 retained states/modes. Bright hardware remains differentiated, the orange interface remains subordinate, and no state- or Weather-mode-specific visual defect is reproduced.
+> In the two retained static cameras under the neutral probe, the exact-mirror topology introduces no observed silhouette corruption or gross face-split rendering defect. Face-split shading differences are measurable but small in absolute luma response.
 
-This is a visual defect/non-regression PASS for the exact material-family delta, not a general production-material approval.
+### FAIL — generated smooth-normal visual neutrality
+
+**`FAIL_ANIMAL_EXACT_MIRROR_GENERATED_SMOOTH_NORMAL_VISUAL_NEUTRALITY`**
+
+Exact meaning:
+
+> The exact-mirror topology cannot inherit a claim that its generated smooth-normal surface response is visually equivalent to the historical topology. More than 82% of the retained visible foreground changes by >1 LSB in both smooth-normal cameras, with clearly visible highlight/rolloff redistribution despite identical positions and silhouette.
+
+### BLOCKED — final visual adoption
+
+**`BLOCKED_ANIMAL_EXACT_MIRROR_FINAL_VISUAL_ADOPTION_PENDING_NORMAL_TANGENT_POLICY_AND_ART_DIRECTION`**
+
+This is **not a rejection of Geometry PR #13**. Geometry's structural repair remains valuable and Rigging's exact rebind remains independently green. The blocker is narrower: before this topology is called visually non-regressive/preferred, the owning path needs an explicit normal/tangent policy and then a bounded Art Direction / Visual-QA review of that actual surface response. A deliberate authored-normal/tangent solution may preserve the structurally stronger topology without inheriting this generated-normal tradeoff.
 
 ## Handoffs
 
-### Environment / Map PR #24
+### Materials PR #14
 
-This exact Object-material parent is now independently Visual-QA green in its fixed-camera scope.
+Keep the current neutral probe as exact evidence that connectivity alone changes generated shading. Do not retune it into a final Animal material and do not relabel the smooth-normal delta as visually neutral.
 
-The newer Environment head `2755dd3b275de9e62c933bd5d0653ddf9aa6fbcd` deliberately isolates the Map-owned west Object footprint cue on top of this preferred material context. That cue remains a **separate** Art Direction / Visual-QA decision and receives no automatic acceptance from this material PASS.
+### Geometry PR #13
 
-### 3D Art Direction
+Structural PASS remains intact. Visual QA requests no rollback to historical topology. Preserve the exact-mirror candidate as a separate identity while normal/tangent ownership is resolved.
 
-`PASS_ART_DIRECTION_CURRENT_WORLD_OBJECT_MATERIAL_FAMILY_PREFERENCE_011` is compatible with this QA result. No whole-case brightening or material flattening is requested from QA.
+### Art Direction
 
-### Object Materials
+Judge preference only after a deliberate normal/tangent receiving policy exists. The current QA result identifies a visible dependency; it does not decide whether the historical or exact-mirror smooth highlight is aesthetically better.
 
-The exact base five-role family gains fixed-camera current-world QA support. The newer source-owned inner-lid `service_dark` review remains separate and is not accepted by this result.
+### Rigging / Animation
 
-### Nature
+Rigging #15's discrete structural rebind remains valid. This static shading review does not establish deformed-normal quality, continuous deformation appearance, animation interpolation/playback quality or skin-volume acceptance.
 
-The woody/foliage parent remains fixed context only. This Object-material PASS does not close Nature's independent Visual-QA gate.
+### Technical Art / Runtime
 
-### Runtime / Optimization
+Static GLB transport success does not close surface response. No target-device FPS, GPU, VRAM, memory, import, draw-call or shader-cost acceptance is made here.
 
-Environment's exact proof-host material-family delta remains `+8 draw calls / +8 objects` in both fixed cameras, with no primitive, observed buffer-memory or texture-memory delta. This QA result makes no target-device performance decision and requests no material-role collapse on proof-host counters alone.
+### Map Object footprint cue
 
-## Continuity from previous QA result
-
-The prior Weather result remains historical truth:
-
-- `PASS_TWO_TAP_RETAINED_FRAME_SPATIAL_NONCORRUPTION`;
-- `FAIL_TEMPORAL_SMOOTHING_ATTRIBUTION__STATIC_OPACITY_ATTENUATION_CONFOUND`;
-- perceptual smoothness and authored 32 Hz remain held.
-
-This Object-material review does not rewrite or supersede that dynamic Weather boundary.
+The current-world west Object footprint cue remains a separate pending Visual-QA gate. It receives no acceptance or rejection from this Animal result.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final Object source scale or transform acceptance;
-- final Map Object footprint-cue preference;
-- independent Nature woody/foliage Visual-QA acceptance;
-- Object inner-lid material adoption;
-- utility-module material adoption;
-- articulation, keeper/lever mechanism or dynamic material behavior;
-- UVs, textures, decals, edge wear, baked normal/AO or physically measured coating correctness;
-- arbitrary camera/FOV/resolution/renderer/display equivalence;
-- target-device FPS/CPU/GPU/VRAM/memory/thermal/battery acceptance;
-- collision, navigation, gameplay or interaction readiness;
+- final Animal topology adoption or rejection;
+- authored normal/tangent correctness;
+- UV, texture, PBR, fur, subsurface or final material quality;
+- deformed-normal quality across the Rigging sweep;
+- continuous real-valued deformation safety between sampled poses;
+- anatomy, biology, muscle, skin sliding or volume preservation;
+- Animation clip/interpolation/playback acceptance;
+- arbitrary camera/FOV/lighting/renderer/display equivalence;
+- target-device performance or import-budget acceptance;
+- gameplay, collision or interaction readiness;
 - CANON, production/game readiness, or Visual Observer / QA mastery.
 
 ## Root gate
 
-- **Truth:** the strong material darkening is retained as measured evidence rather than softened into a story; the PASS is based on exact scene/background separation and all-frame review.
-- **Agency / non-domination:** Object retains source/material authority, Map retains receiving ownership, Art Direction retains preference ownership, Runtime retains cost authority, and QA changes no implementation.
-- **Continuity:** the Nature parent, Object material successor, newer footprint-cue successor, inner-lid experiment and prior Weather temporal result remain separate exact identities.
-- **Wisdom before speed:** close the larger base-material readability gate before judging the tiny footprint cue or adding another visual variable.
+- **Truth:** the structural improvement and the renderer-visible tradeoff are both retained; neither is used to erase the other.
+- **Agency / non-domination:** Geometry owns topology, Materials owns surface evidence, Art Direction owns preference, Rigging/Animation own deformation/motion, Technical Art/Runtime own transport/cost, and QA changes no implementation.
+- **Continuity:** historical-right, exact-mirror Geometry, Rigging rebind, Materials target-host review and Technical-Art transport remain distinct rollback/evidence identities.
+- **Wisdom before speed:** resolve the normal/tangent dependency before layering final materials, animation acceptance or production claims over a topology whose generated smooth shading is demonstrably different.
 
 The four AXM roots remain the merge gate.
