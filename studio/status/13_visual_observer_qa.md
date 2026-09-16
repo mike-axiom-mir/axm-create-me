@@ -1,38 +1,32 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-16
-State: **FAIL_CONTINUOUS_PHASE_INTERPOLATION_VISUAL_TEMPORAL_EQUIVALENCE_ON_EXACT_PROOF_HOST / PASS_CONTINUOUS_PHASE_PHASE_LINEARITY_AND_RETAINED_SPATIAL_NONREGRESSION / AUTHORED 32 HZ + FINAL ART + TARGET PERF HELD**
+State: **FAIL_TEMPORAL_SMOOTHING_ATTRIBUTION__STATIC_OPACITY_ATTENUATION_CONFOUND / PASS_TWO_TAP_RETAINED_FRAME_SPATIAL_NONCORRUPTION / PERCEPTUAL SMOOTHNESS + AUTHORED 32 HZ + FINAL ART + TARGET PERF HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the immediately previous QA result, newest specialist status and newest completed visual/runtime evidence across the constellation before selecting one new gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, newest specialist status and current completed visual/runtime evidence across the design constellation before selecting one bounded gate.
 
-`axm-create-me` remains **coordination only**. Visual QA changed no Map, Weather, Environment, Nature, Building, Object, Animal, Character, Runtime, Universal Creation, Profession Fabric or gameplay implementation. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Visual QA changed no Map, Weather, Environment, Nature, Building, Object, Animal, Character, Runtime, Universal Creation, Profession Fabric or gameplay implementation.
 
-The previous result remains historical truth:
-
-- `FAIL_CURRENT_WORLD_WEATHER_LATEST_DUE_TEMPORAL_RHYTHM_EQUIVALENCE` for exact VFX head `e95910c8c5c45cd8d51be3b259825cf85064efc2`;
-- `PASS_PRESENTED_EXACT_STATE_SPATIAL_NONREGRESSION` for the 23 exact states that fallback actually presented;
-- latest-due remains useful only as explicit degradation, not cadence-equivalent default presentation.
-
-This activation does not rewrite that result.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The most consequential completed unverified visual/runtime claim is now the **same Map VFX PR #25 continuous-phase interpolation candidate**, because it was created specifically to address the temporal-jump defect Visual QA previously reproduced.
+The most consequential completed unverified visual claim is the new **Map VFX PR #25 two-tap temporal-exposure Weather candidate**.
 
-Relevant current state:
+Why this outranks opening another QA lane:
 
-- **Map VFX PR #25** is OPEN / DRAFT / MERGEABLE at exact head `03beb813a852d3c019cc10c41cabe161ac5f50b5`.
-- VFX adds `CONTINUOUS_PHASE_LINEAR_VISUAL_INTERPOLATION_PRESENTATION_ONLY`, interpolating only receiving Weather geometry/opacity plus moving-sapling vertices between exact adjacent source brackets while preserving source-authored streak width and exact source digests.
-- VFX's technical workflow passes on real Godot 4.7.2 and explicitly holds temporal visual equivalence / final Art Direction for this lane.
-- **Runtime PR #30** already showed that cutting latest-due mesh update work from roughly `1.54 ms` to roughly `0.04 ms` did not robustly recover stale-state skipping, so QA does not duplicate another cache or mesh-builder lane.
-- **Environment PR #24** now has a newer Nature woody/foliage material-family receiver with a real ~`1.22–1.38%` full-frame delta and separate QA/Art/Runtime handoff. It remains a strong next static visual surface, but does not outrank a completed candidate intended to repair the immediately preceding dynamic QA FAIL.
-- Character still has a Geometry-owned shoulder blocker; Animal selected-003 has already passed its bounded QA source-space gate and been source-owned; no other completed constellation surface supersedes this temporal repair question.
+- Runtime PR #31 has now proved that inline PNG readback materially perturbed the earlier interpolation timing proof. That scopes the prior Visual-QA temporal-equivalence FAIL to its inline-capture proof configuration rather than making it a general rejection of continuous-phase interpolation.
+- VFX then added a distinct presentation candidate at exact head `92cfe5d0dc7e254c1c3e19c5fc168298dea3493a`, explicitly handing perceptual smoothness, ghosting and atmosphere prominence to Visual QA / Art Direction.
+- The candidate has direct retained A/B pixels: 9 deterministic phases × 2 cameras × control/candidate = 36 PNGs plus 36 raw RGBA8 frames.
+- Environment's Nature woody/foliage receiving result remains a strong separate QA surface and already has Art Direction preference, but the Weather candidate directly addresses the immediately preceding dynamic visual defect and carries an explicit smoothness/ghosting handoff.
+- Character shoulder work still retains nonzero sampled self-intersections; final shoulder acceptance remains premature.
+- Animal selected-003 left-side source successor already passed its earlier bounded Visual-QA source-space review; right-side bilateral propagation is structurally newer but still awaits downstream Geometry/Rigging before a stronger deformation-quality gate.
 
-No duplicate VFX, interpolation, Runtime or renderer-repair lane was opened. QA reviews the existing exact VFX evidence only.
+No duplicate VFX, Runtime, Weather, renderer, Materials, Geometry or Art-Direction implementation lane was opened.
 
-## Selected exact claim / gate
+## Exact reviewed identity
 
 Repository: `mike-axiom-mir/axm-map-design`
 
@@ -40,206 +34,209 @@ PR: **#25 — `VFX: carry source-authored Weather width into current-world proof
 
 Exact reviewed head:
 
-`03beb813a852d3c019cc10c41cabe161ac5f50b5`
+`92cfe5d0dc7e254c1c3e19c5fc168298dea3493a`
 
 Presentation policy:
 
-`CONTINUOUS_PHASE_LINEAR_VISUAL_INTERPOLATION_PRESENTATION_ONLY`
+`TWO_TAP_HALF_OPACITY_RECEIVING_ONLY_TEMPORAL_EXPOSURE`
 
-Interpolation semantics:
+Configured history lag:
 
-`INTERPOLATE_ONLY_RECEIVING_WEATHER_GEOMETRY_OPACITY_AND_SAPLING_VERTICES_BETWEEN_EXACT_AUTHORED_BRACKETS`
+`15.625 ms`
 
-Visual QA asks one bounded question:
+Deterministic review phases:
 
-> Does the new continuous-phase candidate actually repair the previously observed temporal stepping strongly enough that this exact retained Godot proof can be called visually equivalent to the authored 32 Hz sequence or a demonstrated smoothness repair?
+`0 / 62.5 / 125 / 187.5 / 250 / 312.5 / 375 / 437.5 / 500 ms`
 
-This is deliberately different from asking whether interpolation structure is correct. VFX owns that technical proof and already passes it.
+Both fixed cameras remain `1100×720`.
 
 ## Owner technical result preserved
 
-Dedicated exact-head workflow:
+Dedicated workflow:
 
-**`35136010401 — VFX Weather continuous-phase interpolation evidence` — SUCCESS**
+**`35141844166 — VFX Weather bounded temporal exposure evidence` — SUCCESS**
 
-Owner result:
+Owner state:
 
-**`PASS_CONTINUOUS_PHASE_VISUAL_INTERPOLATION_PRESENTATION_CANDIDATE`**
+**`PASS_BOUNDED_TEMPORAL_EXPOSURE_VISUAL_CANDIDATE`**
 
 Retained artifact:
 
-- ID `10462014278`;
-- exact head `03beb813a852d3c019cc10c41cabe161ac5f50b5`;
-- size `2,992,224 B`;
-- GitHub SHA-256 `ef1f422098bd58dc22ac715a09771833fe9a75cbeab9391a302e4f57415f9ae4`;
-- Visual QA independently downloaded the archive and reproduced the exact same SHA-256.
+- ID `10465239147`;
+- exact head `92cfe5d0dc7e254c1c3e19c5fc168298dea3493a`;
+- size `7,954,893 B`;
+- GitHub SHA-256 `22860dd2446dfedb4cf0b3f937d1539a49f897f34ab969837b6182a74026c89d`;
+- Visual QA independently downloaded and reproduced the exact same SHA-256.
 
-The retained verifier correctly proves, inside its stated scope:
+The owner proof remains valid inside its technical scope:
 
-- both fixed cameras are observed;
-- 14 direct `1100×720` frames are retained, 7 per camera;
-- 10/14 retained frames are fractional receiving-only interpolated samples;
-- every synthetic sample binds adjacent exact Weather + sapling source rows and exact source digests;
-- source phase follows selection time rather than quantizing to exact authored rows;
-- source-authored Weather width remains within the existing projection gate;
-- Weather and sapling resource identity remains stable;
-- a deliberate phase-drift negative control fails closed.
+- exact source/bracket identity is retained;
+- the current tap and lagged tap remain source-bound;
+- source-authored projected Weather width remains inside the existing tolerance;
+- sapling motion is not ghosted;
+- Weather/sapling resources remain stable;
+- the two declared opacity weights sum to `1.0`;
+- the theoretical combined alpha is bounded below the source alpha;
+- deliberate opacity-budget drift fails closed.
 
-Visual QA preserves all of those technical facts. None of the findings below relabel that PASS as false.
+Nothing below relabels those source/provenance checks as false.
 
-## Independent direct evidence
+## Direct retained-frame inspection
 
-Visual QA compared the new artifact against the previously retained exact fixed-state source-width proof at head `15a03b7c3ba3aaa7c0475ca1a3091c15581f559b` and against the immediately previous latest-due temporal QA metrics.
+Visual QA inspected all 36 retained PNGs and independently compared every control/candidate pair.
 
-All 14 new PNGs were inspected directly. The terminal frame in each camera is pixel-identical to authored state 16. The opening near-zero source-phase sample differs from authored state 0 by only 7 pixels in `path_eye` and 6 pixels in `elevated_oblique`, consistent with its tiny nonzero interpolation phase.
+No giant Weather ribbon, wedge, clipping flare, world-layout corruption, broad halo, hard double-image failure or obvious non-Weather scene regression is visible.
 
-No new giant Weather ribbon, wedge, clipping flare, world-layout corruption, broad halo or obvious interpolation-only spatial artifact is visible in the retained frames.
+The two-tap presentation does create a subtle trailing / lengthening of the Weather footprint. It remains sparse enough in the two fixed views that this does not by itself constitute a visual corruption failure.
 
-Independent bounded sub-result:
+Scoped spatial result:
 
-**`PASS_CONTINUOUS_PHASE_PHASE_LINEARITY_AND_RETAINED_SPATIAL_NONREGRESSION`**
+**`PASS_TWO_TAP_RETAINED_FRAME_SPATIAL_NONCORRUPTION`**
 
-That PASS means only that the interpolation math materially regularizes source phase at the retained presentation samples and does not introduce an obvious retained-frame spatial corruption.
+This PASS is only for the 18 retained candidate frames and the exact two fixed cameras.
 
-## Temporal result — `path_eye`
+## Reproduced defect — zero-lag opacity attenuation
 
-Retained source phases are approximately:
+The decisive attribution problem appears at the first review phase.
 
-`0.003, 87.939, 174.188, 261.538, 347.790, 434.355, 500.000 ms`
+At exact phase `0 ms`:
 
-Actual draw times are approximately:
+- `lag_us = 0`;
+- the current and lagged source brackets are identical;
+- therefore there is **no temporal separation** to smooth or expose.
 
-`38.258, 126.351, 213.183, 299.996, 385.816, 472.806, 559.797 ms`
+Yet the candidate already differs visibly from the single-tap control because each coincident tap uses `0.5 ×` source opacity.
 
-Therefore the proof presents only **7 frames** across the 0.5 s source interval. Non-terminal draw intervals are tightly clustered at roughly **`85.82–88.09 ms`**.
+The retained receipt reports:
 
-The important success is real: before the terminal 0.5 s clamp, source-time / draw-time ratios tighten to:
+- source opacity max `0.773409252626395`;
+- per-tap opacity max `0.386704626313198`;
+- theoretical two-tap combined alpha max `0.623868784614366`.
 
-**`0.9933x .. 1.0062x`**, stddev **`0.0052`**.
+So even with both taps on the exact same source position, the maximum theoretical composited alpha is about **19.3% lower** than the single-tap source maximum.
 
-The previous latest-due proof spanned `0.5887x .. 1.3190x`, stddev `0.3342`. So the continuous-phase candidate genuinely repairs the earlier alternating one-state/two-state **phase-speed modulation at selection time**.
+Direct rendered phase-0 evidence reproduces that static attenuation:
 
-However, its retained presentation cadence is much coarser. Direct frame-transition metrics are:
+### `path_eye`
 
-- candidate median >1-LSB changed pixels: **`2,901.5`**;
-- authored 32 Hz median: **`1,747`**;
-- prior latest-due median: **`1,829`**;
-- candidate vs authored multiplier: **`1.66x`**;
-- candidate vs latest-due multiplier: **`1.59x`**.
+- `1,645 / 792,000` pixels change by more than 1 LSB (`0.2077%`);
+- every changed pixel is darker by luma sign;
+- mean changed-pixel luma delta: **`-10.8744` LSB**.
 
-Whole-frame mean absolute RGB transition delta:
+### `elevated_oblique`
 
-- candidate median: **`0.18260`**;
-- authored 32 Hz median: **`0.08822`**;
-- prior latest-due median: **`0.09995`**;
-- candidate vs authored multiplier: **`2.07x`**;
-- candidate vs latest-due multiplier: **`1.83x`**.
+- `2,336 / 792,000` pixels change (`0.2949%`);
+- every changed pixel is darker by luma sign;
+- mean changed-pixel luma delta: **`-7.5349` LSB**.
 
-So this exact proof replaces uneven source-speed stepping with fewer, larger presentation steps.
+Because zero temporal lag already reduces streak contrast, a lower frame-to-frame RGB delta cannot be attributed cleanly to temporal history alone.
 
-## Temporal result — `elevated_oblique`
+## Inter-frame diagnostic recheck
 
-Retained source phases are approximately:
+The owner's reported median whole-frame RGB transition does move downward:
 
-`0.002, 91.773, 184.226, 276.102, 367.501, 464.038, 500.000 ms`
+- `path_eye`: candidate/control median mean-absolute-RGB ratio **`0.95297×`** — about `4.7%` lower;
+- `elevated_oblique`: ratio **`0.92969×`** — about `7.0%` lower.
 
-Draw times are approximately:
+But the number of pixels participating in each transition moves in the opposite direction:
 
-`42.693, 134.635, 227.356, 318.732, 412.738, 525.598, 627.581 ms`
+- `path_eye`: median changed pixels `2,536.5 -> 2,625.5`, ratio **`1.0351×`**;
+- `elevated_oblique`: `2,064.5 -> 2,206.5`, ratio **`1.0688×`**.
 
-Again, only **7 frames** are presented across the 0.5 s source interval. Non-terminal draw intervals range roughly **`91.38–112.86 ms`**.
+The retained evidence therefore supports a narrower description:
 
-Before the terminal clamp, source-time / draw-time ratios are:
+> the candidate produces a **lower-contrast, more spatially spread Weather transition**.
 
-**`0.8554x .. 1.0055x`**, stddev **`0.0563`**.
-
-That is materially more regular than the previous latest-due stddev `0.3070`, though less tightly locked than `path_eye` because the fifth interval visibly falls behind before the terminal clamp.
-
-Direct frame-transition metrics:
-
-- candidate median >1-LSB changed pixels: **`2,441.5`**;
-- authored 32 Hz median: **`1,400.5`**;
-- prior latest-due median: **`1,703`**;
-- candidate vs authored multiplier: **`1.74x`**;
-- candidate vs latest-due multiplier: **`1.43x`**.
-
-Whole-frame mean absolute RGB transition delta:
-
-- candidate median: **`0.13745`**;
-- authored 32 Hz median: **`0.06015`**;
-- prior latest-due median: **`0.08003`**;
-- candidate vs authored multiplier: **`2.29x`**;
-- candidate vs latest-due multiplier: **`1.72x`**.
-
-Again, phase progression is more linear but presentation density is lower and retained inter-frame visual jumps are larger.
+It does not yet isolate whether the `15.625 ms` history itself produces a perceptual smoothness gain, because static opacity attenuation is mixed into the same A/B.
 
 ## QA verdict
 
-### Technical interpolation candidate — owner PASS preserved
+### Owner technical/source-bound candidate — PASS preserved
 
-`PASS_CONTINUOUS_PHASE_VISUAL_INTERPOLATION_PRESENTATION_CANDIDATE`
+`PASS_BOUNDED_TEMPORAL_EXPOSURE_VISUAL_CANDIDATE`
 
-The exact receiving-only interpolation is structurally/source-correct in the owner proof.
+The exact two-tap receiving representation is technically/source-correct within the owner's declared contract.
 
-### Independent phase/spatial gate — PASS
+### Retained-frame spatial gate — PASS
 
-**`PASS_CONTINUOUS_PHASE_PHASE_LINEARITY_AND_RETAINED_SPATIAL_NONREGRESSION`**
+**`PASS_TWO_TAP_RETAINED_FRAME_SPATIAL_NONCORRUPTION`**
 
-The previous slow/fast source-time modulation is materially reduced at the retained samples and the 14 retained frames show no obvious new spatial corruption.
+No severe retained-frame spatial artifact was found in the two fixed views.
 
-### Independent visual temporal-equivalence gate — FAIL
+### Smoothness-attribution gate — FAIL
 
-**`FAIL_CONTINUOUS_PHASE_INTERPOLATION_VISUAL_TEMPORAL_EQUIVALENCE_ON_EXACT_PROOF_HOST`**
+**`FAIL_TEMPORAL_SMOOTHING_ATTRIBUTION__STATIC_OPACITY_ATTENUATION_CONFOUND`**
 
 Exact meaning:
 
-> On this exact Godot proof host, the continuous-phase candidate is not demonstrated visually equivalent to authored 32 Hz playback and cannot yet be called a demonstrated smoothness repair. Each camera retains only 7 presentation frames across the 0.5 s source interval, with roughly 86–113 ms presentation gaps, and median visible inter-frame deltas are materially larger than both authored 32 Hz and the earlier latest-due fallback. The candidate repairs source-phase modulation but, in this proof, replaces it with lower temporal sampling density.
+> The current A/B cannot support the claim that its lower inter-frame RGB magnitude is caused by temporal exposure alone. At zero lag, before any temporal separation exists, the candidate is already materially dimmer than the single-tap control because two half-opacity overlapping draws do not reproduce the original full-opacity draw. The same candidate also spreads motion across more changed pixels. The visual evidence therefore confounds temporal-history smoothing with a static contrast reduction.
 
-This is a **proof-host visual FAIL**, not a rejection of interpolation as a receiving policy. A future renderer/presentation path that executes the same source-correct interpolation at materially higher cadence may produce a different result and should be reviewed separately.
+This is **not** a rejection of the two-tap idea. It is a failure of the current attribution/evidence comparison.
+
+### Perceptual smoothness / final preference — HOLD
+
+**`HOLD_PERCEPTUAL_SMOOTHNESS_AND_FINAL_ART_PREFERENCE`**
+
+A clean next visual comparison should hold zero-lag apparent opacity/brightness equivalent to the single-tap control, or otherwise introduce an explicit opacity-matched control that isolates temporal history from static attenuation. QA does not prescribe the implementation and does not request a Weather source retune.
+
+## Runtime continuity correction
+
+Runtime PR #31 at exact head `9cdc619184770c0f9026d5dcf46289dccfe9025c` independently showed that inline PNG capture was a major proof-harness timing cost:
+
+- `path_eye` timed samples increased `8 -> 15` when capture was deferred;
+- `elevated_oblique` increased `8 -> 14`;
+- median draw→next-selection observer gap collapsed from about `38 ms` to about `0.024–0.026 ms`.
+
+Therefore the previous QA state:
+
+`FAIL_CONTINUOUS_PHASE_INTERPOLATION_VISUAL_TEMPORAL_EQUIVALENCE_ON_EXACT_PROOF_HOST`
+
+remains historical truth **for the exact inline-capture proof that was reviewed**, but must not be silently generalized to the cleaner deferred-capture path.
+
+Authored `31.25 ms / 32 Hz` delivery still remains unproven; Runtime's deferred-capture median draw intervals were still about `37.16 ms` and `41.01 ms`.
 
 ## Handoffs
 
 ### VFX / Map PR #25
 
-Returned exact QA result in PR comment **`5702951727`**.
+Returned this exact result as PR comment **`5703659944`**.
 
-Keep the technical interpolation PASS and this visual temporal FAIL separate. Do not promote the candidate as authored-cadence equivalent or visually smooth from the current retained proof. No Weather width/color/opacity/density retune is requested.
+Keep the technical two-tap PASS and the QA attribution FAIL separate. Do not promote the current `4.7% / 7.0%` lower inter-frame RGB metric as a clean temporal-smoothing result until the static-opacity confound is controlled.
 
 ### Runtime / Optimization
 
-The remaining visual boundary is presentation frequency / renderer scheduling, not interpolation bracket correctness. The previous cache result already showed mesh update micro-optimization alone does not solve stale-state presentation. If Runtime tests a materially higher-cadence presentation path, retain source-phase and direct-frame evidence so QA can compare the same authored sequence.
+No new Runtime implementation is requested. PR #31 already established the proof-harness capture boundary. Runtime retains cadence/scheduling and target-device performance ownership.
 
 ### 3D Art Director
 
-No final style preference is requested yet. This candidate has cleaner phase progression but a coarser retained presentation cadence. Art Direction should not be asked to choose interpolation aesthetics until the temporal evidence represents a sufficiently dense presentation surface or explicitly accepts the coarse cadence as degradation.
+The retained candidate is slightly dimmer and has a subtly broader/trailing Weather footprint. Final preference should wait for an attribution-clean comparison rather than choosing between a brightness change and a temporal-history change bundled together.
 
-### Environment / Map PR #24
+### Environment / Nature
 
-The newer Nature woody/foliage material-family receiver at head `72d4128b602e27c886a0731ddd670ec8c14aaa7e` remains a separate pending visual/Art/Runtime surface. This VFX result neither accepts nor rejects it.
+The current-world Nature woody/foliage family remains a separate pending Visual-QA surface. This Weather result neither accepts nor rejects it.
 
-## Holds / explicit non-claims
+## Explicit non-claims
 
 This activation does **not** establish:
 
+- perceptual smoothness improvement;
 - authored `32 Hz` delivery;
-- zero dropped or skipped renderer presentations;
-- smoothness between unsampled retained draws;
-- that receiving-only interpolation is generally worse than latest-due or should be removed;
-- that the retained proof cadence equals a target-device production cadence;
-- target-device CPU/GPU frame time, FPS, VRAM, allocator, battery or thermal behavior;
+- zero dropped/intermediate presentations;
+- final Weather opacity, density, length or atmosphere prominence;
 - arbitrary camera/FOV/resolution/renderer equivalence;
-- physical wind/precipitation/turbulence correctness;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery behavior;
+- physical precipitation/wind correctness;
 - gameplay visibility, collision, damage, physics or control readiness;
 - final Art Direction preference;
-- Environment Nature-family visual acceptance;
+- Environment Nature-family acceptance;
 - UC extraction or Profession Fabric promotion;
 - CANON, production/game readiness, or Visual Observer / QA / VFX mastery.
 
 ## Root gate
 
-- **Truth:** owner technical PASS, phase-linearity improvement, retained spatial cleanliness and temporal-equivalence FAIL remain separate claims. Exact owner artifact was independently rehashed and direct retained frames were measured rather than inferred from labels.
-- **Agency / non-domination:** VFX retains presentation-policy ownership, Runtime retains scheduling/performance authority, Art Direction retains aesthetic preference, and QA changes no source or runtime implementation.
-- **Continuity:** fixed-state visual PASS, exact-32-Hz cadence FAIL, latest-due degradation result, continuous-phase technical PASS and this new proof-host temporal FAIL remain independently identifiable and reversible.
-- **Wisdom before speed:** QA tested whether the new repair actually improves the visible consequence before requesting another implementation change; because it solves phase modulation but not presentation density on this host, the result stops at that bounded boundary.
+- **Truth:** owner source/provenance PASS, retained-frame spatial PASS, zero-lag opacity defect and smoothness-attribution FAIL remain separate claims.
+- **Agency / non-domination:** VFX retains presentation ownership, Runtime retains cadence/performance authority, Weather retains source authority, Art Direction retains aesthetic preference, and QA changes no implementation.
+- **Continuity:** the earlier interpolation QA result remains tied to its exact inline-capture evidence; Runtime's later capture diagnosis narrows its scope rather than silently rewriting history.
+- **Wisdom before speed:** before requesting more VFX complexity, QA checks whether the newest improvement metric measures the intended variable. It currently mixes temporal history with static attenuation, so the result stops at that boundary.
 
 The four AXM roots remain the merge gate.
