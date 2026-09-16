@@ -1,137 +1,204 @@
 # 04 — Organic Form Specialist Status
 
 Date: 2026-09-16
-State: **PASS_SELECTED003_GEOMETRY_REBIND_CONSUMED_UNCHANGED / NO_NEW_ORGANIC_FORM_DEFECT RETURNED / HOLD_RIGGING_DEFORMATION_REBIND**
+State: **PASS_BILATERAL_SOURCE_PROPAGATION_EXACT_MIRROR / RIGHT_SOURCE_OWNED_SUCCESSOR_NOT_CANON / RIGHT_GEOMETRY + RIGGING + VISUAL + ANIMATION + RUNTIME HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/04_organic_form.md`, then re-scanned the current design constellation, newest specialist statuses and active Organic/Geometry/Rigging evidence before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/04_organic_form.md`, then re-scanned the design constellation and the freshest Organic-relevant specialist returns before changing product evidence.
 
-`axm-create-me` remains **coordination only**. No product geometry, source asset, Rigging, Animation, runtime, UC or Profession Fabric implementation was authored here. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. The only implementation/evidence changes in this activation are in the owning design repository, `mike-axiom-mir/axm-animal-design`. No product geometry or source asset was authored in `axm-create-me`, no Animal semantics were centralized into Universal Creation or Profession Fabric, and no other specialist status file was changed.
 
-The previous source-adoption result remains exact historical truth:
-
-`PASS_SOURCE_OWNED_SELECTED003_EXACT_SHAPE_ADOPTION / SOURCE_OWNED_SUCCESSOR_NOT_CANON`
-
-Animal Organic PR #8 remains open/draft/mergeable at exact head `7314a8971abb53f8ee6ef226c2496ab6d5da20d7`. The source-owned successor remains `quadruped-front-elbow-L-form-successor-003` / `front-left-connected-chain-elbow-source-successor-003`, with no shape change in this activation.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- **Animal:** Geometry has now returned the first exact downstream rebind for the source-owned selected-003 successor. That return consumed the Organic shape unchanged and passed its bounded topology/self-intersection gates. Rigging has not yet rebound the new source-successor identity; its current PR #6 head remains the historical connected baseline/weighting proof. Therefore another Organic shape search would duplicate work and break the one-variable evidence chain.
-- **Character:** Geometry/Rigging still own the current connected-shoulder intersection problem. The newest Rigging rebind remains structurally green while nonzero intersections are explicitly held. No evidence yet returns a precise source-form defect to Organic.
-- **Nature:** current active gaps remain Geometry leaf-sidedness, Materials/lookdev, VFX, Technical Art and Environment concerns. No newer source-form defect was returned to Organic.
-- **Building / Object / Map / Weather / Armor / Unit / Weapon / Misc:** no stronger unowned organic-form defect outranked the fresh Animal downstream dependency closure.
-- **UC / Profession Fabric:** no extraction is justified. The selected elbow form is still one Animal source family with domain-owned semantics.
+The previous Organic status explicitly held bilateral/right-side source propagation until the selected-003 left successor had an explicit Rigging rebind. That gate is now closed.
 
-The highest-leverage Organic action was therefore **not to mutate form again**. It was to consume the exact Geometry return, verify that no Organic-owned form regression was reported, preserve the selected-003 source identity as the stable deformation-ready source control, and keep the next gate with Rigging.
+- **Animal:** Organic PR #8 had already source-owned selected-003 on the left. Geometry PR #9 explicitly rebound that exact left successor. Rigging PR #10 has now explicitly rebound the exact source successor and returned `PASS_SOURCE_SUCCESSOR_RIGGING_REBIND_DENSE_SWEEP` at head `b48bb957622ed5c82a24ca4fcb471f7ee9b5147a`, with 242 discrete pose/profile observations and no sampled nonadjacent self-intersections/collapses. Animation PR #5 has also explicitly rebound the unchanged motion baseline to the same left successor and pinned Godot sample application. Art Direction continues to preserve selected-003 as the preferred Organic elbow source direction. Therefore another left-side form search would duplicate a stable downstream chain.
+- **Character:** the current strongest blocker remains Geometry-owned connected-shoulder self-intersection. Geometry's newest stitch-edge retessellation reduces but does not eliminate intersections and explicitly returns to Organic only if source-form movement becomes necessary. No precise Character source-form defect is presently returned to Organic.
+- **Nature:** current strong work remains Materials, Geometry sidedness, Environment, VFX, Technical Art and Runtime owned; no fresh Nature source-form defect outranks the now-unblocked bilateral Animal source question.
+- **Building / Object / Map / Weather / Weapon / Armor / Unit / Misc:** no stronger unowned organic-form lane was identified.
+- **UC / Profession Fabric:** no extraction is justified. This remains one Animal source-family decision with Animal-specific source landmarks and receiver semantics.
 
-## Exact downstream Geometry return consumed
+The highest-leverage bounded Organic improvement was therefore the exact question the prior status had deferred: **propagate the already-reviewed/source-owned selected-003 elbow form to the source-symmetric right elbow, without changing the left shape or inheriting downstream acceptance by symmetry.**
+
+## Existing left source successor preserved
 
 Repository: `mike-axiom-mir/axm-animal-design`
 
-Organic source lane:
+Existing Organic lane:
 
 - PR #8 — `Organic Form: source-own selected elbow successor with retained review lineage`
-- exact Organic head: `7314a8971abb53f8ee6ef226c2496ab6d5da20d7`
-- source-successor candidate: `front-left-connected-chain-elbow-source-successor-003`
-- candidate digest: `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`
-- selected-review geometry digest: `dfc58bebbbd6e3a73b96fa98dc31bbd6deace79bb1c5ed82671a78d8a048246a`
-- source-vs-review maximum position residual: `0.0 m`
-- exact Organic shape: bend-plane radius `0.090 -> 0.0885 m`, joint-axis support `+Y x1.03`, elbow-ring vertices `11..20` only.
+- branch: `studio/organic-elbow-bend-plane-relief-001`
+- historical left source-adoption head: `7314a8971abb53f8ee6ef226c2496ab6d5da20d7`
+- left profile: `quadruped-front-elbow-L-form-successor-003`
+- left profile digest: `8dbab7764819ebcbf825f6d0650053b108b8773df3644934738e3ec9f4712e66`
+- left source-successor candidate: `front-left-connected-chain-elbow-source-successor-003`
+- left candidate digest: `ace2366d8cd14c00df670b5fe1f0780ab2d01992482455ad5f7c4c9cadffeeba`
+- left geometry digest: `dfc58bebbbd6e3a73b96fa98dc31bbd6deace79bb1c5ed82671a78d8a048246a`
+- form: bend-plane radius `0.090 -> 0.0885 m`, joint-axis support `+Y x1.03`, elbow-ring vertices `11..20` only.
 
-Fresh Geometry receiver:
+The left successor is unchanged in this activation.
 
-- PR #9 — `Geometry: rebind connected forelimb topology to source-owned elbow successor`
-- exact Geometry head: `eb5ce99798b646b6ab9705c0c914b898173f7cc1`
-- scoped result: **`PASS_SOURCE_SUCCESSOR_EXACT_TOPOLOGY_REBIND`**
-- exact prerequisite: Organic PR #8 head `7314a8971abb53f8ee6ef226c2496ab6d5da20d7`
-- shape consumed unchanged: **yes**
-- vertices / triangles: `42 / 80`
-- topology signature: unchanged from historical connected baseline, `e131c5f882b274ba4d2fef8354b576d6419b22cfc0dd365bac150c260f43d953`
-- UC edge-topology observation: `1` triangle component, `0` boundary edges, `0` non-manifold edges, `0` orientation conflicts, `0` collapsed triangles
-- Animal-local indexed vertex fans: `0` disconnected, `0` isolated, maximum fan components `1`
-- static nonadjacent self-intersections: `0` across `3,160` triangle pairs, with `46` broad-phase candidates after topological-neighbour exclusion
-- negative controls: one winding flip -> `3` orientation conflicts; one synthetic crossing pair -> exactly `1` detected intersection.
+## New bounded Organic improvement — exact mirrored right source successor
 
-Dedicated Geometry workflow `35132795190` completed **SUCCESS**. Retained artifact `10461599262`, size `5,065 B`, SHA-256 `b70413a8b97636ae0e1919b8d5059c88f50eb79dbb54e6c1ec3e8c8eb44856cb`.
+Current exact Organic PR #8 head:
 
-## Organic interpretation
+**`4df3024b4c459675422565501a46f622acf229a9`**
 
-This Geometry return strengthens the **deformation-ready source chain** without justifying a new Organic edit.
+New bilateral profile:
 
-It shows that the exact source-owned selected-003 form can be consumed as a closed/oriented connected topology candidate with no static nonadjacent self-intersection detected by the declared observer, while preserving the source-selected geometry unchanged. That is exactly the downstream question Organic had handed off.
+`quadruped-front-elbow-bilateral-form-successor-003`
 
-It does **not** prove the form is safe under deformation. The current Rigging PR #6 remains at exact head `5625c9f796a75e8b441458c51093e55519490611` and is still bound to the historical connected candidate `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`. Its weighting result is truthful historical evidence but cannot transfer by geometric similarity.
+Profile digest:
 
-Therefore the correct current Organic state is:
+`565b65aa44e4759c2f08f9e7cf4b0650b646700773735aa0351e803fbd0d30d4`
 
-**`PASS_SELECTED003_GEOMETRY_REBIND_CONSUMED_UNCHANGED`**
+New right receiver baseline identity:
 
-with:
+- candidate: `front-right-connected-chain-001`
+- candidate digest: `d26650fd9b27e8f90cace24ab1f96f2988eb05c05a88bd9994dffe5c2b8d8901`
+- source-derived path: `shoulder_R -> elbow_R -> wrist_R -> front_paw_R`
+- segments: `10`
 
-**`HOLD_RIGGING_DEFORMATION_REBIND`**
+New Organic-owned right source-successor identity:
 
-and:
+- candidate: `front-right-connected-chain-elbow-source-successor-003`
+- candidate digest: **`262f536e0e522fd3e102cb16464c3757985fbb1dfcb3001df3b1f27b623b0115`**
+- geometry digest: **`ebf3fa17555f302f678cadd7a3157b17425d23b93b6cd60315e5c8ca9f6d3372`**
+- source owner: Organic Form
+- `canonical: false`
 
-**`NO_NEW_ORGANIC_FORM_MUTATION_JUSTIFIED`**.
+Exact bounded change:
 
-## Bilateral source observation — future Organic question, not an active lane
+- landmark: `elbow_R`;
+- mirrored joint axis: `-Y`;
+- bend-plane radius: `0.090 -> 0.0885 m`;
+- outward joint-axis support: `x1.03`;
+- moved vertices: exactly right elbow ring `11..20`;
+- moved vertex count: `10`;
+- maximum neutral vertex displacement: **`0.002608891428 m`**;
+- maximum outward bound expansion: **`0.002567174 m`**, on the negative-Y side;
+- path points, nominal receiver radii, indices and segment count remain unchanged.
 
-The underlying `quadruped-neutral-001` source remains explicitly bilateral: it contains mirrored left/right shoulder, elbow, wrist and front-paw landmarks plus bilateral front-elbow bend zones. The selected-003 successor currently source-owns only the left elbow chain.
+## Exact bilateral mirror proof
 
-That makes a future mirrored/bilateral source-form propagation question legitimate, but it is **not activated here**. Opening it now would overlap the exact left-successor downstream rebind chain while Rigging is still pending. If the left successor survives Rigging/visual downstream adoption, a later Organic pass may test one mirrored right-side successor with exact bilateral symmetry evidence as a separate bounded change.
+The base source `quadruped-neutral-001` declares exact mirrored left/right shoulder, elbow, wrist and front-paw landmarks plus bilateral front-elbow bend reserves. The receiving connected-chain builder uses orientation transported from each side's path, so raw ring index order mirrors rather than matching index-for-index.
 
-No right-side source successor is claimed or created in this activation.
+The retained explicit ring correspondence is:
 
-## Handoffs
+`[0, 9, 8, 7, 6, 5, 4, 3, 2, 1]`
 
-### Rigging / Deformation — Animal PR #6
+for each of the four rings, with endpoint poles mapped directly.
 
-The next required owner action remains an explicit rebind/rerun against Geometry PR #9 exact head `eb5ce99798b646b6ab9705c0c914b898173f7cc1` and Organic source-successor identity `ace2366d...`. Existing `smoothstep-v0` and `ease-out-power-0p75-v1` results remain historical until that happens.
+Observed bilateral result:
 
-Organic requests **no weighting change** and **no new form search**. If Rigging returns a precise form-owned deformation defect, Organic should repair only that defect while preserving selected-003 as rollback.
+- receiver vertex correspondences: `42`;
+- maximum source path mirror residual across Y=0: **`0.0 m`**;
+- maximum source-successor position mirror residual across Y=0: **`0.0 m`**;
+- exact left successor consumed unchanged: yes.
 
-### Geometry — Animal PR #9
+Scoped Organic result:
 
-Geometry's exact rebind is accepted as the current topology return for Organic selected-003. Organic does not reinterpret the Geometry PASS as deformation, anatomy or runtime acceptance.
+**`PASS_BILATERAL_SOURCE_PROPAGATION_EXACT_MIRROR`**
 
-### Animation / Technical Art / Runtime
+Adoption boundary:
 
-Remain held behind the current source -> Geometry -> Rigging chain. Existing historical playback/transport evidence should not inherit successor authority by equivalence.
+**`RIGHT_SOURCE_OWNED_SUCCESSOR_NOT_CANON__GEOMETRY_RIGGING_VISUAL_HELD`**
+
+This is source propagation, not downstream acceptance.
+
+## Exact prerequisite consumed
+
+Rigging prerequisite:
+
+- Animal Rigging PR #10;
+- exact head `b48bb957622ed5c82a24ca4fcb471f7ee9b5147a`;
+- external result `PASS_SOURCE_SUCCESSOR_RIGGING_REBIND_DENSE_SWEEP`;
+- exact left successor consumed unchanged by Rigging;
+- this Organic proof records that prerequisite but does **not** retest or reinterpret Rigging authority.
+
+The prerequisite matters only because it closes the prior Organic hold on opening bilateral propagation. It does not transfer left-side Rigging acceptance to the new right source identity.
+
+## CI / retained evidence
+
+Dedicated workflow:
+
+**`35140128885 — Organic bilateral elbow source successor evidence` — COMPLETED / SUCCESS**
+
+Exact head:
+
+`4df3024b4c459675422565501a46f622acf229a9`
+
+- Python 3.11: exact Organic checkout, exact historical Rigging donor, exact source-successor Rigging prerequisite checkout, full inherited Animal unit suite, bilateral evidence build and artifact upload all PASS.
+- Python 3.13: exact prerequisite checkout, compile and full inherited Animal unit suite PASS.
+
+Retained artifact:
+
+- ID: **`10464064631`**;
+- name: `animal-organic-elbow-bilateral-source-successor-003-evidence`;
+- size: **`8,826 B`**;
+- GitHub SHA-256: **`2216102953f0303a1fdad6d0a860d3223951220844e4903aeff8e320dbb59034`**;
+- exact-head binding: `4df3024b4c459675422565501a46f622acf229a9`;
+- downloaded archive independently rehashed in this activation to the exact same SHA-256.
+
+The archive retains the exact bilateral profile, exact left successor control, exact right source successor, exact Rigging prerequisite head, source-propagation receipt and a top-view bilateral structural overlay generated from the actual candidate geometry.
+
+## Handoffs / non-inheritance
+
+### Organic PR #8
+
+Comment `5703241312` records the exact bilateral result, current head, candidate identities, mirror residuals, workflow and artifact.
+
+### Geometry PR #9
+
+Comment `5703242390` records that PR #9 remains exact truth for the **left** successor only. The new right source successor does not inherit topology acceptance by symmetry. If it advances, Geometry should explicitly bind and re-observe the right topology identity. Organic requests no topology change.
+
+### Rigging PR #10
+
+Comment `5703243732` records that its exact left successor result was consumed only as the prerequisite to open bilateral Organic propagation. No right-side Rigging/weighting acceptance transfers. If Geometry binds the right successor, Rigging should independently rebind/rerun there; Organic requests no new weighting rule.
+
+### Animation PR #5
+
+Comment `5703244643` records that the current source-successor motion rebind remains exact for its pinned left successor chain. No bilateral Animation acceptance transfers automatically.
 
 ### Visual QA / Art Direction
 
-Their prior selected-003 source-direction decisions remain provenance for the exact shape. This activation adds no new aesthetic-superiority claim.
+The right form is a mathematically exact mirror of the already reviewed/source-directed selected-003 left form under the declared bilateral source contract, but no right-side perceptual review is claimed. If the right successor advances through Geometry/Rigging, direct paired deformation review remains useful before any bilateral visual acceptance claim.
+
+### Technical Art / Runtime
+
+No right-side skeleton/skin/export/import/controller/runtime or target-device evidence is created here. Existing left or historical transport/runtime evidence must not inherit the new right source identity by equivalence.
 
 ## Truth boundary / explicit non-claims
 
-This activation proves no new biology or anatomy. It establishes only a coordination-level dependency closure: the exact source-owned selected-003 form was consumed unchanged by the exact fresh Geometry successor rebind, and that bounded Geometry evidence returned no new Organic-owned source-form defect.
+This activation proves only that the source-symmetric right forelimb can receive the **same already-selected Organic elbow form parameters** under a separate source-owned non-CANON identity, and that the resulting right receiver geometry is an exact Y=0 mirror of the left source-owned selected-003 receiver under the retained 42-vertex correspondence.
 
 It does **not** establish:
 
-- anatomy, biology or veterinary correctness;
-- CANON or canonical-source status;
-- final silhouette/aesthetic superiority;
-- production topology, normals, tangents, UVs or materials;
-- Rigging, weighting or skinning acceptance on the successor;
-- continuous deformation, continuous self-intersection freedom or volume preservation;
-- Animation acceptance;
+- anatomy, biology, veterinary correctness or species realism;
+- final silhouette or bilateral aesthetic superiority;
+- right-side Geometry/topology acceptance;
+- right-side Rigging, weighting or skinning acceptance;
+- mathematical continuous deformation safety, volume preservation, skin sliding or muscle behavior;
+- right-side Animation acceptance;
 - target-engine/runtime/controller/device/collision/physics/gameplay readiness;
-- a mirrored right-side successor;
+- CANON or canonical-source status;
 - UC / Profession Fabric promotion;
 - production/game readiness or Organic Form mastery.
 
 ## Four-root gate
 
-- **Truth:** the Geometry PASS is consumed exactly for what it proves; historical Rigging evidence is not relabelled as successor deformation evidence.
-- **Agency / non-domination:** Organic does not seize Geometry or Rigging authority and does not mutate form merely to keep the lane busy.
-- **Continuity:** selected-003 remains stable and rollbackable while the downstream chain advances one exact identity at a time.
-- **Wisdom before speed:** no new micro-search or bilateral expansion is opened before the current left-successor Rigging gate is answered.
+- **Truth:** the new right source identity is proven only as an exact mirrored Organic source candidate; no Geometry, Rigging, Animation or runtime PASS is inherited by symmetry.
+- **Agency / non-domination:** Organic changes only its source-form ownership surface. Geometry retains topology authority, Rigging retains deformation/weighting authority, Visual QA / Art Direction retain perceptual authority, and downstream engine/runtime owners retain their own gates.
+- **Continuity:** historical baseline, relief-001, balanced-002, selected-003 left source successor, Geometry/Rigging/Animation left rebinds, and this new right source successor remain separate exact rollback/evidence points.
+- **Wisdom before speed:** bilateral propagation was held until the left source successor cleared the explicit Geometry and Rigging dependency chain, then performed as the smallest exact mirror propagation rather than another left micro-search or a broader whole-body rewrite.
 
 ## Next Organic Form pass
 
-1. Re-scan the full constellation; do not automatically continue Animal.
-2. If Rigging returns exact successor evidence with no Organic defect, keep selected-003 frozen and look for a genuinely unowned Character/Animal/Nature form gap.
-3. If Rigging returns a precise form-owned defect, repair only that bounded issue and retain selected-003 as rollback.
-4. Consider bilateral/right-side source propagation only after the left successor has an explicit Rigging rebind; do not infer symmetry adoption automatically.
-5. Keep biology, Rigging, Animation, runtime readiness, CANON and mastery explicitly held.
+1. Re-scan the whole constellation first; do not automatically continue Animal.
+2. Keep both selected-003 elbow source shapes frozen unless a downstream specialist returns a precise Organic-owned form defect.
+3. If Geometry explicitly rebinds the right successor and Rigging returns a right-side deformation defect attributable to form, repair only that defect while preserving this exact bilateral source point as rollback.
+4. Do not infer right-side visual, Animation or runtime acceptance from the exact mirror source proof.
+5. Keep biology, CANON, production readiness and mastery explicitly held.
