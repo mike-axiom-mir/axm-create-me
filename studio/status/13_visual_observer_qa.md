@@ -130,7 +130,7 @@ Next decision belongs to Art Direction: determine whether non-observability at t
 
 ## Independent review return
 
-QA returned the exact result to Map VFX PR #50 as review **`5242224081`**, anchored to exact head `ce1b63f11467f497ca6077452338435b67b748d7`? **No** — exact reviewed head is **`ce1b63f11467f497ca6077452338ba9fa36422ca`**. The longer unrelated SHA is deliberately rejected here to avoid silent identity drift.
+QA returned the exact result to Map VFX PR #50 as review **`5242224081`**, anchored to exact head **`ce1b63f11467f497ca6077452338ba9fa36422ca`**.
 
 The review records the independent artifact rehash, all ten byte-identical A/B comparisons, the receiving PASS, existing-camera FAIL, presentation BLOCKED state, non-claims, and the nonfatal harness warning.
 
