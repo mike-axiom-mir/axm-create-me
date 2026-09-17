@@ -1,223 +1,231 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / THIRTY-THIRD BOUNDED RUNTIME PASS / PASS_OBJECT_SERVICE_DARK_ROUGHNESS_L8_EXACT_SELECTED_FIELD_IDENTITY_REBOUND__HOLD_ART_QA_TARGET_DEVICE_AND_ADOPTION / CURRENT MATERIALS-SELECTED FIELD EXACTLY MATCHES PRIOR MEASURED RUNTIME CONTROL + L8 CANDIDATE / NO NEW RENDERER MEASUREMENT / PRIOR 1,048,575 B / 75% TEXTURE WIN RETAINED / PRIOR FOUR RENDER PAIRS BYTE-IDENTICAL / NO AUTOMATIC ADOPTION**
+State: **ACTIVE / THIRTY-FOURTH BOUNDED RUNTIME PASS / PASS_CHARACTER_REVIEW006_POSED_NORMAL_STATIC_REGION_CACHE_BUDGET / 72.22% FEWER FACE-CROSS EVALUATIONS / 66.30% FEWER VERTEX NORMALIZATIONS / 62.23% PROOF-HOST PYTHON PREPARATION MEDIAN REDUCTION / EXACT NORMAL ARRAYS / HOLD_TARGET_ENGINE_TARGET_DEVICE_SHADED_MOTION_TECH_ART_ADOPTION_CANON_PRODUCTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Materials / LookDev, Technical Art / UC Integration, Visual Observer QA and Runtime state across the constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the prior Runtime status, and current Art Direction, Materials / LookDev, Animation, Rigging, Technical Art / UC Integration and Visual Observer QA state before selecting work.
 
-`axm-create-me` remains **coordination only**. The bounded Runtime evidence lives in `mike-axiom-mir/axm-object-design`; this file records coordination state only.
+`axm-create-me` remains **coordination only**. The implementation and retained evidence live in `mike-axiom-mir/axm-character-design`; this file records coordination state only.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Why this lane was selected
+## Fresh constellation / duplication scan
 
-Runtime pass 32 already measured the exact bounded storage candidate for the Object `service_dark` roughness field:
+- **Object:** Runtime PR #30 already owns the selected `service_dark` roughness L8 storage lane and exact selected-field provenance rebind. Reopening texture-width or atlas work would duplicate pass 32/33.
+- **Building / Map:** existing Runtime PRs already own compact-shell indexing, planar-role indexing and primitive-scaling evidence. No new Building topology/LOD rewrite was justified here.
+- **Animal:** existing Runtime PR #27 owns normalized-u16 weight width; its remaining boundary is Art/QA/producer adoption, not a fresh Runtime representation gap.
+- **Character Rigging:** current PR #17 head `fa16c44b1a488d43842470fc9f30c5fb5e98cab6` retains the exact finite positive structural bracket `+36.55°` clear / `+36.60°` first failing.
+- **Character Animation:** PR #19 opened the first current-head motion surface at exact head `9519be55581c009fd800d175677d9b50ee6926e6`: a 2.0 s, 40 Hz authored / 160 Hz diagnostic, 321-sample bilateral shoulder loop at `0 -> -30 -> 0 -> +30 -> 0°`, with all dense samples structurally green and a hidden between-key overshoot negative control.
+- **Character Materials:** PR #18 owns the exact `AREA_WEIGHTED_INDEXED_VERTEX_SMOOTH_NORMAL` review method and has already proved that recomputing posed normals matters visually relative to freezing neutral normals. That shaded proof is bound to an older Rigging head and is **not** silently transferred to current Animation.
+- **Technical Art:** the current coordination status still owns Object selected-roughness transport. During this Runtime CI a Character Technical-Art branch became visible, but no transport behavior or acceptance was borrowed; skeleton/skin/engine transport remains Technical Art-owned and separate.
+- **Visual QA / Art Direction:** current Character preference remains the bounded review-006 deformation direction; final shaded full-body motion and current-head direction-frame quality remain held.
 
-- control `RGBA8`;
-- candidate `L8`;
-- 512×512;
-- full mip chain;
-- exact generated scalar field preserved;
-- proof-host texture allocation saving **1,048,575 B / 75%**;
-- four retained render pairs byte-identical.
+The highest-leverage non-overlapping Runtime question was therefore:
 
-Opening another scalar-width optimizer would therefore duplicate the existing lane.
+> **Can the current dense Character motion preserve the Materials-required posed smooth-normal result while avoiding repeated work on geometry that provably never moves?**
 
-The meaningful new risk appeared upstream after that measurement: Materials PR #6 advanced and froze the Art-preferred roughness microvariation as an explicit **Materials-owned selected scalar identity** at exact head:
-
-`0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`
-
-Selected Materials identity:
-
-- semantic: `BASE_LEVEL_R8_SCALAR_VALUES_ROW_MAJOR`;
-- dimensions: **512×512**;
-- scalar SHA-256: `b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`;
-- historical Godot PNG SHA-256: `57cf746a9a7e0615884fe3c45c6c4df677c2bd0631def61b3ccb1684daa26949`;
-- observed R8 range: **153..183**;
-- unique R8 values: **31**;
-- Art Direction decision: `PASS_ART_DIRECTION_OBJECT_SERVICE_DARK_BOUNDED_ROUGHNESS_MICROVARIATION_PREFERENCE_024`.
-
-That created one highest-value bounded Runtime question:
-
-> **Does the already-measured L8 optimization apply to the exact newly-selected Materials field, or only to an earlier equivalent generator state?**
-
-The safe response was to strengthen the existing Runtime PR #30 rather than open a duplicate optimization lane or silently assume equivalence.
+This avoids the unsafe shortcut of freezing all neutral normals while also avoiding duplicate Object, Animal or Building optimization lanes.
 
 ## Owning Runtime lane
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-character-design`
 
-Existing draft Runtime PR: **#30 — `Runtime: store service-dark roughness as one-channel L8`**
+Draft Runtime PR: **#20 — `Runtime: cache static-region normal work across review006 motion`**
 
-Branch: `studio/runtime-object-service-dark-roughness-l8-budget-001`
+Branch: `studio/runtime-character-review006-normal-cache-budget-001`
 
-Current exact Runtime head:
+Exact tested Runtime head:
 
-`3070f931770d581d229b9345fd750c07706befbc`
+`283a6ec0c28aea2d98c95641544e83ccde30016a`
 
-New bounded files added to the same lane:
+Exact parent Animation head:
 
-- `runtime/service_dark_roughness_selected_field_rebind_001.json`;
-- `tools/verify_object_service_dark_runtime_selected_field_rebind.py`;
-- `.github/workflows/object-runtime-service-dark-roughness-selected-field-rebind.yml`.
+`9519be55581c009fd800d175677d9b50ee6926e6`
 
-Dedicated rebind workflow:
+PR #20 is **open, draft and mergeable**.
 
-`35207654995 — SUCCESS`
+Scoped result:
 
-Current scoped result:
+**`PASS_CHARACTER_REVIEW006_POSED_NORMAL_STATIC_REGION_CACHE_BUDGET`**
 
-**`PASS_OBJECT_SERVICE_DARK_ROUGHNESS_L8_EXACT_SELECTED_FIELD_IDENTITY_REBOUND__HOLD_ART_QA_TARGET_DEVICE_AND_ADOPTION`**
+## Bounded candidate
 
-PR #30 remains draft, open and mergeable. No automatic Materials, Technical Art, Art/QA or product adoption is requested.
+Candidate ID:
 
-## Measure-before / exact identity result
+`review006-dense-posed-normal-static-region-cache-001`
 
-The rebind does **not** invent a new texture candidate and does **not** reinterpret the previous Runtime measurement. It downloads and SHA-verifies the exact retained pass-32 Runtime artifact:
+The candidate changes no source positions, topology, Rigging, Animation, material semantics or normal method. It only precomputes work proven invariant for this exact bound motion:
 
-- artifact ID: `10488003795`;
-- archive SHA-256: `20ecffa5da693c8c091c5eac3eed3e1a6c2e2575efa0cbb43fd239a63808e6b4`;
-- exact measured Runtime head: `19e2b910556ac9aac5373755a8dc2384017cfae6`.
+1. a vertex is eligible for the static set only if its position is exactly unchanged across all 321 dense samples;
+2. a face cross product is cached only if all three of its vertices are in that proven-static set;
+3. a final output normal is cached only if every incident face is static;
+4. every dynamic output preserves the original face-contribution order;
+5. candidate output is compared component-for-component against the exact external Materials method, not against a Runtime rewrite accepted by assumption.
 
-It then binds that evidence against the exact current Materials selected-field contract blob:
+Exact Materials control identity:
 
-- Materials head: `0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`;
-- contract: `lookdev/service_dark_roughness_selected_field_001.json`;
-- exact Git blob: `16ab4ea07c41273e58b72f970d6bed383bbbfe33`.
+- Materials head: `e450684b398f8e5b0e23c4cbf717e3475dd4d5ee`;
+- file: `tools/build_character_review006_shaded_shoulder_evidence.py`;
+- Git blob: `843c0e1866172dd8b6c5ab0f23d69d1e469562f7`;
+- method: `AREA_WEIGHTED_INDEXED_VERTEX_SMOOTH_NORMAL`.
 
-The result is stronger than approximate equivalence:
+## Measure-before / before-after evidence
 
-1. **The retained Runtime RGBA8 control PNG is byte-identical to Materials' newly-selected historical Godot PNG.**
-   - Runtime control PNG SHA-256: `57cf746a9a7e0615884fe3c45c6c4df677c2bd0631def61b3ccb1684daa26949`;
-   - Materials selected PNG SHA-256: the exact same digest.
+Each exact shoulder receiver has **92 vertices / 180 triangles**.
 
-2. **The decoded retained Runtime RGBA8 control scalar is exactly the current Materials selected scalar.**
-   - SHA-256: `b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`.
+Across all 321 dense samples, independently on each side:
 
-3. **The decoded retained Runtime L8 candidate scalar is also exactly the current Materials selected scalar.**
-   - SHA-256: `b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`.
+- vertices proven static: **71 / 92**;
+- cached static faces: **130 / 180**;
+- dynamic faces remaining: **50 / 180**;
+- cached final output normals: **61 / 92**;
+- dynamic final output normals remaining: **31 / 92**.
 
-4. Both retained representations preserve the exact current selected-field dimensions and statistics:
-   - **512×512**;
-   - R8 min **153**;
-   - R8 max **183**;
-   - **31** unique R8 values.
+Across both shoulders and the complete dense clip (**642 pose-side evaluations**):
 
-This closes the important provenance gap: Runtime's measured optimization applies to the **exact current Materials-selected field**, not merely to something that looks or numerically behaves similarly.
+### Expensive operation count
 
-## Rebound performance evidence
+Face-cross evaluations:
 
-Because the selected field is byte/scalar-identical to the already-measured control/candidate field, pass 32's exact bounded budget remains the applicable measured Runtime evidence:
+- control: **115,560**;
+- candidate: **32,100**;
+- saved: **83,460**;
+- reduction: **72.2222222222%**.
 
-- RGBA8 full mip-chain storage: **1,398,100 B**;
-- L8 full mip-chain storage: **349,525 B**;
-- saving: **1,048,575 B / 75%**;
-- prior real Godot 4.7.2 proof-host observed texture allocation saving: **1,048,575 B**;
-- prior matched-pair texture/video-memory saving: **−1,048,575 B in every pair**;
-- buffer-memory delta: **0 B**;
-- draw calls, objects and primitives: unchanged in the retained paired proof.
+Vertex normalizations:
 
-This activation records those values as **rebound prior evidence**. It intentionally does not claim that a new renderer measurement occurred.
+- control: **59,064**;
+- candidate: **19,902**;
+- saved: **39,162**;
+- reduction: **66.3043478261%**.
 
-## Visual tradeoff for Art Direction / Visual Observer QA
+### Proof-host Python timing
 
-No new visual representation was authored in pass 33. The current Materials-selected field is exactly the field already present in pass 32's retained Runtime proof.
+Seven complete normal-preparation rounds, excluding pose generation, intersection checks, rendering and GPU work:
 
-The applicable retained visual result remains:
+- control median: **332,782,701 ns**;
+- candidate median: **125,689,018 ns**;
+- candidate/control ratio: **0.37769096056468393**;
+- median reduction: **207,093,683 ns / 62.2309039435%**.
 
-- four matched `820×620` frames;
-- changed pixels: **0 total**;
-- pixels over 1 LSB: **0**;
-- maximum RGB channel delta: **0**;
-- result: **`NONE_OBSERVED_FOUR_MATCHED_FRAMES_BYTE_IDENTICAL`**.
+This is a **Python proof-host preparation result only**. It is not target-engine or target-device CPU/GPU/FPS evidence.
 
-This is still not final Art Direction or independent Visual Observer QA acceptance. Runtime records the exact visual evidence and leaves visual authority where it belongs.
+## Exact semantic equivalence
 
-## Fail-closed evidence
+The verifier compares every output normal against the exact external Materials method for every bound dense pose:
 
-The new rebind verifier requires all of the following before emitting a PASS:
+- pose-side evaluations: **642**;
+- normal vectors compared: **59,064**;
+- mismatched normal vectors: **0**;
+- maximum component delta: **0.0**;
+- control normal-stream SHA-256: `bc7fbac4c89a2ec3017da2309c3918c5bf14352fce98389f8c204f3cf7508c11`;
+- candidate normal-stream SHA-256: exact same digest.
 
-- exact current Materials selected-field contract identity;
-- exact prior Runtime artifact archive identity;
-- exact prior Runtime head and comparison result;
-- exact measured memory values;
-- exact prior visual result;
-- Runtime control PNG byte identity with the Materials selected PNG identity;
-- Runtime control scalar identity with the Materials selected scalar;
-- Runtime L8 candidate scalar identity with the Materials selected scalar.
+So Runtime did **not** gain speed by substituting frozen neutral normals or changing the normal model. The exact current posed geometry receives the exact same normal arrays under the bound motion.
 
-The workflow deliberately mutates the Materials selected scalar digest and requires the verifier to fail closed. It does not weaken the earlier Runtime candidate-format or measured-memory negative controls.
+## Fail-closed control
 
-## Retained evidence
+The retained negative control deliberately moves a vertex classified static:
 
-New pass-33 rebind artifact:
+- side: L;
+- vertex: `0`;
+- mutation: `+1e-6 m` on X;
+- result: **rejected**.
 
-- ID: **`10490935783`**;
-- name: `object-runtime-service-dark-roughness-selected-field-rebind-3070f931770d581d229b9345fd750c07706befbc`;
-- size: **`8,861 B`**;
-- GitHub SHA-256: **`7e5d575d6dc4ea699a66808f09c063ef379f4323d0d20279ace050d711c203a3`**.
+The cache is therefore not allowed to silently survive motion outside its exact static-set prerequisite.
 
-The retained packet includes the exact rebind contract, exact current Materials selected-field contract, exact Runtime rebind head, exact selected Materials head/blob identity, prior Runtime artifact digest receipt, verifier and final rebind receipt. It intentionally references rather than republishes the 1.1 MB prior renderer artifact.
+## Visual tradeoff for Art Direction / Visual QA
 
-## Constellation handoffs
+Measured normal-input tradeoff:
 
-- **Runtime PR #30:** pass-33 result recorded in comment `5712425448`; same lane retained, no duplicate PR.
-- **Materials PR #6:** exact selected-field identity handoff recorded in comment `5712427559`; no automatic storage-policy adoption requested.
-- **Technical Art PR #28:** exact selected-field/L8 provenance handoff recorded in comment `5712428919`; Runtime does not tell Technical Art to change ORM/glTF packing and does not claim standalone L8 is already a production transport representation.
-- **Art Direction / Visual Observer QA:** the current selected field is exactly the prior zero-delta Runtime field; final visual acceptance remains theirs.
-- **UC:** unchanged. No Object-specific scalar-texture optimizer is promoted from this single case.
+**`NONE_OBSERVED_EXACT_ARRAY_IDENTITY_ALL_642_POSE_SIDE_EVALUATIONS`**
 
-Technical Art has independently begun transporting the exact selected roughness identity through the current UC path. That work remains separate from Runtime's storage decision and does not create an automatic adoption chain.
+Every candidate normal component equals the Materials reference for every bound pose. No visual representation was intentionally changed.
+
+However, this activation did **not** perform a new current-head renderer comparison. `rendered_frame_delta = NOT_REMEASURED` remains explicit. The older Materials shaded result is not transferred across Rigging/Animation heads by story. Final current-head shaded full-body motion, tangent/direction-frame behavior and target-engine receiving quality remain Art Direction / Visual QA / Technical Art boundaries.
+
+## Exact CI / retained evidence
+
+Dedicated workflow:
+
+**`35212635087 — Runtime Character review006 posed-normal cache budget — SUCCESS`**
+
+Validation:
+
+- exact Animation / Rigging / Geometry ancestry: PASS;
+- exact external Materials head/blob binding: PASS;
+- complete Character suite Python 3.11: **101 / 101 PASS**;
+- complete Character suite Python 3.13: PASS;
+- all 642 pose-side normal comparisons: exact;
+- deterministic operation-budget reductions: PASS;
+- proof-host median timing win: PASS;
+- static-vertex motion negative control: PASS_EXPECTED_REJECTION;
+- retained evidence upload: PASS.
+
+Artifact:
+
+- ID: **`10494315431`**;
+- name: `character-review006-runtime-normal-cache-283a6ec0c28aea2d98c95641544e83ccde30016a`;
+- uploaded size: **14,001 B**;
+- GitHub SHA-256: **`a91e9fa9a2a76cdc51bf03dc63b63e0889415ceaab1961d6c3a1d2c31a5b636c`**;
+- independently downloaded and rehashed SHA-256: **same**;
+- retained summary SHA-256: `9f94792f7da4c976fe3a089a03856cc9dee6ade4fc1c9d1f89c1ec2598f41a08`.
+
+## Handoffs
+
+- **Animation PR #19:** Runtime review comment `5234602442` records that the exact current clip was consumed unchanged. No retime, amplitude change, controller interpretation or target-playback claim is requested.
+- **Materials PR #18:** Runtime review comment `5234603786` records that its exact normal method was the external control. The older shaded-render acceptance is not promoted onto the newer Rigging/Animation head.
+- **Technical Art:** future Character transport may consume this result only after binding the exact current mesh/rig/clip and proving the target receiver. Runtime does not tell Technical Art how to encode skeleton/skin or direction frames.
+- **Art Direction / Visual QA:** exact normal-array equality means this Runtime cache introduces no measured normal-input difference, but final current-head rendered motion remains theirs to review.
+- **UC:** unchanged. One Character clip-bound cache is not promoted into a generic UC optimizer from this single case.
 
 ## Reusable learning / placement boundary
 
-Bounded reusable Runtime rule from this pass:
+Reusable bounded Runtime rule:
 
-> **When an upstream art/material owner later freezes an exact selected asset identity, do not silently carry an older optimization forward merely because the generator looks unchanged. Rebind the optimization to the selected bytes/digest, verify the retained before/after evidence against that exact identity, and preserve whether the result is a new measurement or a provenance-continuity proof.**
+> **When deformation is localized, do not freeze the whole normal field and do not recompute the whole mesh by habit. First prove which vertices remain exact across the bound motion, cache only face/output-normal work whose dependencies are entirely static, preserve contribution order for dynamic outputs, and require exact equality to the owning normal method before treating the operation reduction as valid.**
 
-This complements pass 32's scalar-storage rule. Together they say both **representation width** and **source identity** must be proven before a reusable memory result is treated as applicable to the selected asset.
+This pattern is potentially reusable, but this pass alone does not justify generic UC extraction. A broader implementation would need independent meshes, clips, target engines and cache-invalidation evidence.
 
 ## Historical continuity
 
-The thirty-second Object pass remains preserved in the preceding status version. It measured the exact 512×512 RGBA8 -> L8 roughness representation in Godot 4.7.2 and proved the 1,048,575 B / 75% texture-memory saving with four byte-identical rendered pairs.
+Pass 33 remains preserved in the previous status revision: Object selected roughness was rebound exactly to the retained L8 evidence without pretending a new renderer run occurred.
 
-The thirty-first Object pass remains preserved before that: it right-sized the service atlas height to 512×384 after padded occupancy was proven, saving 349,528 B / about 25% on the proof host while retaining a 33-pixel / max-1-LSB visual HOLD.
+Pass 32 remains the retained Object RGBA8 -> L8 measurement: **1,048,575 B / 75%** texture-memory saving with four byte-identical rendered pairs.
 
-The thirtieth Animal pass remains preserved before that: merged UC cleared the former normalized-u16 `WEIGHTS_0` receiver blocker while Art/QA and producer adoption stayed separate.
-
-The twenty-ninth Building pass remains preserved before that: a higher primitive count alone was not enough evidence of a proof-host slowdown, so Runtime retained the intended-hardware gate rather than inventing another topology rewrite.
-
-Earlier Building indexing, Animal indexing/joint-width, Weather, Object, footprint and animation Runtime passes remain historical truth and are not silently rewritten here.
+Earlier Object atlas-height, Animal weight-width, Building indexing/primitive-scaling, Weather and other Runtime passes remain historical truth and are not silently rewritten by this Character lane.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- a new renderer measurement beyond pass 32;
-- final Materials adoption of L8 roughness storage;
-- final Technical Art / glTF / ORM adoption of standalone L8 storage;
-- final Art Direction or Visual QA acceptance;
-- final production texture art;
-- compressed texture equivalence;
-- arbitrary scalar-map channel collapsing;
-- arbitrary L8 support across all target platforms;
-- target-device GPU/VRAM/FPS/thermal/battery improvement;
-- browser/mobile/console equivalence;
-- UC extraction or Profession Fabric promotion;
+- current-head target-engine playback;
+- exported skeleton/skin or direction-frame transport;
+- a real engine-side CPU timing improvement;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery improvement;
+- current-head rendered-frame identity;
+- full-body shaded-motion quality;
+- arbitrary Character animation safety;
+- cache validity outside this exact bound motion without reclassification;
+- a generic Runtime/UC normal-cache policy;
+- Runtime controller/state-machine behavior;
+- gameplay/collision acceptance;
+- final Art Direction or independent Visual QA acceptance;
+- automatic Animation, Materials or Technical Art adoption;
 - CANON;
 - production/game readiness;
 - Runtime / Optimization mastery.
 
 ## Four-root check
 
-**Truth:** the pass distinguishes a new identity/provenance proof from a new renderer measurement. The exact Materials selected PNG and scalar identities are recorded, as are the exact retained Runtime artifact and prior measurement boundaries.
+**Truth:** exact Animation, Rigging, Geometry and external Materials method identities are pinned. The operation counts, proof-host timing, exact normal-stream identity and negative control are retained separately from unmeasured renderer/device claims.
 
-**Agency / non-domination:** Runtime strengthens its own evidence only. Materials retains selected-field/storage policy, Art Direction and Visual QA retain visual authority, Technical Art retains import/transport representation, and UC remains unchanged.
+**Agency / non-domination:** Runtime changes only its own preparation strategy. Animation keeps motion authority; Rigging keeps deformation authority; Materials keeps normal/shading meaning; Technical Art keeps transport; Art/QA keep visual acceptance.
 
-**Continuity:** the selected Materials field is tied by exact commit/blob/digests to the exact retained Runtime control/candidate evidence. The older pass-32 measurement is preserved rather than silently rewritten as if it had been rerun after Materials selection.
+**Continuity:** the lane stacks directly on the exact current Animation head and uses the exact Materials implementation as external control. Older shaded evidence is preserved as historical truth rather than silently transferred to a newer chain.
 
-**Wisdom before speed:** the lane avoids duplicating PR #30 or inventing a new optimizer. It closes the smallest high-risk evidence gap with exact identity checks and a deliberate fail-closed mutation before allowing the previous memory result to follow the selected asset.
+**Wisdom before speed:** Runtime optimizes only the region proven invariant, keeps a fail-closed cache invalidation witness, and refuses to trade away posed normal correctness merely for speed.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
