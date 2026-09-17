@@ -1,198 +1,158 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-18  
-State: **PASS_ORIENTATION_SEMANTICS_GUARD / LEGACY GENERATED MESHES UNCHANGED / ALGEBRAIC SIGN ONLY / NO SOURCE-EXTERIOR OR RENDERER-FRONT-FACE TRANSFER / SIX FAIL-CLOSED CONTROLS / EXACT CI + ALL COMPANION WORKFLOWS GREEN / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
+State: **PASS_BOUNDED_HINGE_KNUCKLE_OWNER_PARTITION_FAMILY / THREE MATERIALLY DIFFERENT OUTPUTS / EXACT HARD-SURFACE OWNER + ANNULAR DONOR REUSED / SEVEN FAIL-CLOSED CONTROLS / EXACT CI + ALL COMPANION WORKFLOWS GREEN / NO SOURCE-RIG-DOWNSTREAM ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, this status lane, every current specialist status, and live PR/repository state across all eleven design repositories: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, this status lane, every current specialist status, and current repository / PR state across all eleven design repositories: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
-`axm-create-me` remains **coordination-only**. Product implementation, tests and retained evidence are in `mike-axiom-mir/axm-object-design`. No Universal Creation or Profession Fabric product code was added here.
+`axm-create-me` remains **coordination-only**. Product implementation, tests and retained evidence were added only to `mike-axiom-mir/axm-object-design`. No Universal Creation or Profession Fabric product code was added here.
 
-The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Full constellation / specialist scan
+## Full constellation scan
 
-No new repository lane was justified merely to satisfy cadence.
+No lane was opened merely to satisfy cadence.
 
-- **Weapon / Armor / Unit / Misc:** no fresh unowned repeated pattern stronger than the Object semantic repair.
-- **Character / Animal:** active Geometry, Rigging, Materials, Animation and Runtime lanes already own current repeated/deformation/representation questions.
-- **Building:** existing placement, seam-component and clearance-rebind Procedural families remain sufficient.
-- **Nature:** existing bounded owner-response parameterization remains sufficient; current questions remain VFX/Runtime/Materials/receiver-owned.
-- **Weather:** existing seeded atmosphere family remains sufficient.
-- **Map:** current-world receiving, playback, transport and runtime evidence remain Environment / Animation / Technical Art / Runtime-owned.
-- **Object:** selected for a repair inside existing Procedural PR #11, not a duplicate generator.
+- **Weapon / Armor:** no active specialist PR family requiring Procedural intervention; repositories remain effectively at their initial design baselines.
+- **Character:** current active work is already owned by Animation / Technical Art / Runtime around playback, accessor reuse and posed-normal caching; no stronger unowned procedural family surfaced.
+- **Unit / Misc:** no active design lane stronger than the selected Object repeat.
+- **Animal:** current repeated work is already owned by Rigging / Animation / Runtime; no proceduralization was taken from those owners.
+- **Building:** existing Procedural receiver / seam / clearance families remain sufficient; current successor chart and source-clearance work is Geometry / Hard-Surface owned.
+- **Nature:** existing Procedural response parameterization remains sufficient; current response/playback/receiver questions are VFX / Animation / Runtime owned.
+- **Weather:** existing bounded seeded field family already owns deterministic weather-layout variation.
+- **Map:** current articulated-Object service envelope, VFX receiving, playback and batching are Environment / VFX / Animation / Runtime / Technical-Art lanes.
+- **Object:** selected. A fresh Hard-Surface owner-stack contract plus an already-built derived annular hinge mesh and a separate Rigging consumer now repeat the same exact body-versus-lid knuckle partition manually.
 
-Specialist boundary that changed the interpretation:
+Current specialist status scan confirms the ownership boundary: Hard Surface owns exact knuckle source ownership and annular review geometry; Rigging owns parent binding and motion partition; Geometry owns structural shell representation; Technical Art owns transport / receiver adaptation; Animation owns time-domain playback; Runtime owns representation and device cost; Art Direction / Visual QA own perceptual acceptance. Procedural may automate the repeated **derived owner filtering** only, without inheriting any of those authorities.
 
-- **Geometry / Topology:** its closed-shell orientation machinery proves algebraic/coherent mesh orientation. It does not by itself establish semantic exterior intent or renderer-facing policy.
-- **Hard Surface:** Object PR #34 now owns exact source exterior intent for the host source and explicitly keeps stored triangle winding and renderer front-face non-authoritative.
-- **Technical Art / UC Integration:** owns transport/receiver representation, including renderer-facing/front-face/culling questions.
-- **Art Direction / Visual QA:** retain perceptual/backface acceptance.
-- **Runtime:** retains representation/performance decisions.
-- **Procedural:** may preserve deterministic generated-family orientation evidence, but must not silently promote its signed-volume sign into another specialist's semantics.
-
-This made the previous wording around a generated shell being "outward/positive-volume" too broad. The correct bounded fact is: **positive signed volume is an algebraic orientation diagnostic in the exact generated mesh coordinate frame only**.
-
-## Selected bounded repair
+## Selected repeated pattern
 
 Repository: `mike-axiom-mir/axm-object-design`  
 Existing Procedural PR: **#11 — `Procedural: bounded Object procedural and seeded variation families`**  
-Exact final head: **`a83254ebc05e93e46eb58fd068337e2557981603`**  
+Exact Procedural head: **`e08b5aacd97e16f3fe8feea4995db2d0885b68a2`**  
 PR state at verification: **OPEN / DRAFT / MERGEABLE**.
 
-Existing generated family remains:
+Fresh owner donor: Hard Surface PR #25 exact head:
 
-**`axm.object-service-module-oriented-configuration-family/v0.1`**
+**`172dd9ff5ed1fee3a21cd460c607f07ee0da7520`**
 
-Added only a semantic/provenance guard:
+The exact source-owned axial owner sequence is:
 
-**`axm.object-service-module-orientation-semantics-guard/v0.1`**
+**`body / lid / body / lid / body`** over knuckles **`b0 / l0 / b1 / l1 / b2`**.
 
-This is deliberately not another orientation solver, source rewrite, attachment system, or renderer policy. It verifies that the exact historical generated family remains unchanged while forbidding semantic authority inflation.
+The same owner split is already needed by Rigging PR #27, which treats `l0 / l1` as the moving lid set and `b0 / b1 / b2` as the fixed body set. The repeated creation operation therefore genuinely deserves a small deterministic family: derive exact review subsets from the existing Hard-Surface annular candidate by source owner, instead of manually filtering those groups again in each downstream review.
 
-## Exact historical continuity
+## Smallest reusable family
 
-Historical oriented-family head:
+Added:
 
-**`bdcc35bc663ec5166aaf7d6eeefd715707c33482`**
+**`axm.object-hinge-knuckle-owner-partition-family/v0.1`**
 
-The repair proves these historical implementation identities are unchanged at the new head:
+Files added to the existing Object Procedural branch:
 
-- generator: `tools/build_service_module_oriented_configuration_family.py`;
-- historical/current generator Git blob: **`027502fa8893bd71e442f710472d589996f69491`**;
-- family contract: `assets/modular-equipment-case-001/service-module-oriented-configuration-family-001.json`;
-- historical/current family-contract Git blob: **`f8760327968907788589885e272ad9d2c53ccca8`**;
-- historical family digest: **`3196e0d972d8bcaf9f43db35acf2cd2e9cc9cce7e1b3aabb3c6160ce4b3f99c7`**;
-- historical retained artifact ID: **`10521790461`**;
-- historical artifact SHA-256: **`380e4868ea2593b64ffeb2d7b2a3ca92119d27c247bc12e645fffccc926cadd2`**.
+- `assets/modular-equipment-case-001/hinge-knuckle-owner-partition-family-001.json`;
+- `tools/build_hinge_knuckle_owner_partition_family.py`;
+- `tests/test_hinge_knuckle_owner_partition_family.py`;
+- `.github/workflows/object-hinge-knuckle-owner-partition-family.yml`.
 
-The exact four historical candidate mesh identities also remain unchanged and materially distinct:
+The implementation deliberately **reuses**, rather than copies, the exact Hard-Surface owner verifier and exact annular-mesh builder from owner head `172dd9ff...`. It pins exact donor Git blobs for the host source, owner-stack contract, bore-clearance contract and annular-mesh contract before generation.
 
-| configuration | candidate mesh SHA-256 |
-|---|---|
-| `empty` | `d485a11fd819e6f90c2d1842b0534178093270d8cc4de18744ebcd10bd377351` |
-| `left-only` | `c2b3f91736e78bc723a21779511c2aa277577e92325050fff69b62e43af883fe` |
-| `right-only` | `81b5e1faad4ae5043598f37c4135cabe5ac373ac670f55301bd11d5a765a43eb` |
-| `bilateral` | `da9e68cba190691b06a9f30d829a76f2c53a8d23d4c9ad21ca48ad47ac472862` |
+The family parameter is only an owner subset over the exact allowlist **`body / lid`**. Requested owner order is canonicalized by the declared allowlist, so `body,lid` and `lid,body` produce the same full output. Unknown, duplicate or empty selectors fail closed. No arbitrary hinge count, size, segment count, owner label, source geometry or fallback partition is inferred.
 
-Variation pressure remains real: **4/4 distinct candidate mesh identities**, three non-empty configurations, four total generated module instances, and 48 historical face-winding flips across the retained family. The repair does not regenerate them under a new semantic story.
+## Three materially different outputs
 
-## Fresh owner boundary pinned
+The exact retained family contains three outputs:
 
-Hard Surface PR #34 exterior-intent evidence is consumed as a **boundary witness only**:
+| variant | exact knuckle IDs | knuckles | vertices | triangles |
+|---|---|---:|---:|---:|
+| `full` | `b0,l0,b1,l1,b2` | 5 | 240 | 480 |
+| `body-only` | `b0,b1,b2` | 3 | 144 | 288 |
+| `lid-only` | `l0,l1` | 2 | 96 | 192 |
 
-- exact owner head: **`77a4058b305fab7fd04dab94781b9460f089727e`**;
-- contract: `assets/modular-equipment-case-001/rigid-shell-exterior-intent-001.json`;
-- exact contract Git blob: **`a9f3c40868f7d77c524738155178af51c91b947e`**;
-- exact host component scope: **31** source shell components;
-- `stored_triangle_winding_authoritative = false`;
-- `renderer_front_face_authoritative = false`;
-- `automatic_source_winding_rewrite = false`;
-- Geometry compatibility authority remains **`evidence_only_no_source_adoption`**.
+All **3/3 generated mesh identities are distinct**. Reversing the requested owner order for the full variant reproduces the exact same canonical output.
 
-Scope marker:
+Canonical family digest:
 
-**`HOST_SOURCE_EXTERIOR_INTENT_AUTHORITY_BOUNDARY_ONLY__NOT_UTILITY_MODULE_PROOF_BODY_ADOPTION`**
+**`39973aae8bc433b92a4d84152e5e16f0bf916a8f6aef4d9db69050569b145522`**
 
-Procedural does not consume or transfer Hard Surface source-exterior authority into the utility-module proof body.
+This is not one lucky case: the full combined family, fixed-body subset and moving-lid subset have materially different membership, vertex counts, triangle counts and mesh identities while being derived from the same exact owner-backed annular candidate.
 
-## Smallest repair added
+## Provenance pins
 
-Only four bounded pieces were added to the existing Object branch:
+Exact Hard-Surface owner head:
 
-- `assets/modular-equipment-case-001/service-module-orientation-semantics-guard-001.json`;
-- `tools/verify_service_module_orientation_semantics.py`;
-- `tests/test_service_module_orientation_semantics.py`;
-- `.github/workflows/object-service-module-orientation-semantics-guard.yml`.
+**`172dd9ff5ed1fee3a21cd460c607f07ee0da7520`**
 
-The semantic contract fixes the interpretation to:
+Exact donor Git blobs:
 
-**`ALGEBRAIC_ORIENTATION_IN_THE_EXACT_GENERATED_MESH_COORDINATE_FRAME_ONLY`**
+- host source: **`018e36bb08539f212d2c65e6408566e3540fd983`**;
+- owner-stack contract: **`e4e7c95769c0827a6a019afd672ff4b20cd13541`**;
+- bore-clearance contract: **`e94fbc0d960d949f49fc3a05edba74b706f2a87e`**;
+- annular-mesh contract: **`39a52ad5ba8497a8a524d764bbf6744bb11cf54a`**.
 
-The following remain explicitly false:
-
-- source exterior intent claimed;
-- source exterior intent consumed;
-- Hard Surface authority transferred;
-- renderer front face selected;
-- receiver culling adopted;
-- automatic source or downstream adoption.
+Source host SHA-256 remains **`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`**. Procedural does not regenerate or replace that source.
 
 ## Failure bounds
 
-Six deliberate controls fail closed:
+Seven deliberate controls fail closed:
 
-1. promote algebraic sign to source exterior;
-2. promote algebraic sign to renderer front face;
-3. transfer Hard Surface authority;
-4. drift the historical oriented-family digest;
-5. drift one exact historical candidate mesh identity;
-6. inflate the Hard Surface boundary into renderer-front-face authority.
+1. Hard-Surface owner-head drift;
+2. owner-stack contract blob drift;
+3. annular-mesh contract blob drift;
+4. attempted `rig_parenting_authorized=true` authority expansion;
+5. attempted `automatic_downstream_adoption=true` authority expansion;
+6. duplicate owner selector;
+7. unknown owner selector.
 
-This means a future source owner, renderer policy, or generated family change cannot be silently reinterpreted as continuity.
+Failure policy:
+
+**`FAIL_CLOSED_NO_UNKNOWN_OWNER_NO_DUPLICATE_SELECTOR_NO_DONOR_DRIFT_NO_SOURCE_OR_RIG_ADOPTION`**
+
+There is no nearest-owner recovery, guessed owner identity, alternate mesh, widened family membership or automatic migration.
 
 ## Exact verification
 
-Dedicated workflow:
+Dedicated exact-head workflow:
 
-**`35283868680 — Object service-module orientation semantics guard`**
+**`35288245812 — Object hinge-knuckle owner partition family`**
 
 Result: **SUCCESS**.
 
-- Python 3.11: exact donor checkout PASS; compile PASS; full repository suite **88 tests run / 1 skipped**; all four historical configurations rebuilt; semantic guard generated; six negative controls retained; truth gate PASS; artifact upload PASS.
-- The one skipped full-suite test is an unrelated donor-dependent standoff-guard test whose exact donors are not present in that generic suite invocation; the workflow's own pinned Geometry / Hard Surface / Sticker-Fabric donors were present and its semantic evidence path passed.
-- Python 3.13: compile PASS; full repository suite PASS.
-- **All 15 pull-request-triggered workflows** associated with exact head `a83254ebc05e93e46eb58fd068337e2557981603` completed **SUCCESS**.
-
-Machine-readable result:
-
-**`PASS_SERVICE_MODULE_ORIENTATION_SEMANTICS_GUARD`**
-
-Decision:
-
-**`PASS_LEGACY_GENERATED_MESHES_UNCHANGED__ALGEBRAIC_SIGN_ONLY__NO_SOURCE_EXTERIOR_OR_RENDERER_FRONT_FACE_TRANSFER`**
-
-Guard digest:
-
-**`2c23b1aece312ea19b83f5f42f706381698957c234642c87ef3ed56b1a023608`**
+- Python **3.11**: exact Hard-Surface donor checkout PASS; compile PASS; complete Object suite **86 tests / OK** with two unrelated donor-dependent tests skipped; exact family generation PASS; seven negative controls PASS; truth gate PASS; retained artifact upload PASS.
+- Python **3.13**: exact donor checkout PASS; compile PASS; complete Object suite PASS.
+- Truth gate: **`PASS_OBJECT_HINGE_KNUCKLE_OWNER_PARTITION_FAMILY_TRUTH_GATE`**.
+- Machine result: **`PASS_BOUNDED_HINGE_KNUCKLE_OWNER_PARTITION_FAMILY`**.
+- Decision: **`PASS_DERIVED_OWNER_PARTITIONS_ONLY__NO_SOURCE_RIG_OR_DOWNSTREAM_ADOPTION`**.
 
 Retained exact-head artifact:
 
-- ID **`10523256855`**;
-- name `object-service-module-orientation-semantics-guard-001-evidence`;
-- size **14,005 B**;
-- GitHub SHA-256 **`6786764b3a960109c1c668cb57e08f7ad6863f9de9f36704947658fab5a5f930`**;
-- contains **15 files**;
-- exact-head marker: **`a83254ebc05e93e46eb58fd068337e2557981603`**;
-- independently downloaded and rehashed to the exact same SHA-256.
+- ID **`10525202240`**;
+- name `object-hinge-knuckle-owner-partition-family-001-evidence`;
+- size **10,321 B**;
+- GitHub SHA-256 **`2551157215663fc245d617ecfed0d6490d3aa3e2e2da2082c86b7ea936185e71`**;
+- exact head **`e08b5aacd97e16f3fe8feea4995db2d0885b68a2`**.
 
-## Coordination return
+All **16 pull-request-triggered workflows** associated with that exact Object Procedural head completed **SUCCESS**, including the new family and all inherited Procedural/Object evidence lanes.
 
-Procedural PR #11 activation comment: **`5722306652`**.  
-Hard Surface PR #34 boundary-consumer comment: **`5722307753`**.
-
-Neither comment transfers authority.
+No independent local archive rehash is claimed in this activation; the digest above is GitHub's retained artifact digest.
 
 ## Ownership / explicit non-claims
 
-- **Hard Surface:** retains source exterior intent and manufactured/source geometry semantics.
-- **Geometry / Topology:** retains reusable structural orientation machinery and source-review evidence.
-- **Procedural:** owns only deterministic generated-family continuity plus this semantic/provenance guard.
-- **Technical Art / Environment:** retain transport and receiving, including renderer-facing/front-face/culling policy.
-- **Runtime:** retains representation/performance decisions.
-- **Materials / Art Direction / Visual QA:** retain material, backface and perceptual acceptance.
-- **Rigging / Animation / VFX / gameplay / physics:** unchanged and not inferred.
+Hard Surface retains source owner identity, hinge dimensions, bore/clearance semantics and the annular review candidate. Rigging retains parent binding and moving/fixed motion authority. Geometry retains topology/orientation authority. Technical Art retains target-host transport and receiver adaptation. Animation retains timing/playback. Runtime retains performance and representation acceptance. Materials / Art Direction / Visual QA retain appearance decisions.
 
-This PASS does **not** rewrite source winding, adopt source exterior semantics into the generated utility module, select renderer front-face convention, select culling policy, authorize Technical-Art or Map receiving, prove runtime/device behavior, prove visual/backface acceptance, establish gameplay/physics/manufacturing validity, promote UC/Profession Fabric, establish CANON, claim production readiness, or claim Procedural mastery.
+Procedural owns only this exact deterministic **derived owner partition** over the already-owned annular review candidate.
+
+This PASS does **not** change or adopt host geometry, turn the annular candidate into source geometry, authorize Rigging parenting, prove physical hinge contact or retention, prove manufacturing fit/tolerance, prove collision/physics/gameplay, authorize Technical-Art or Map receiving, establish Runtime/device fitness, prove visual acceptance, promote UC/Profession Fabric, establish CANON, claim production readiness, or claim Procedural mastery.
 
 ## Four-root check
 
-- **Truth:** corrected an over-broad semantic interpretation rather than preserving a convenient story. Historical generated bytes and owner evidence are pinned separately.
-- **Agency / non-domination:** Procedural cannot convert Hard Surface, Geometry, Technical Art, Runtime or QA evidence into its own authority.
-- **Continuity:** the historical generator, family contract, four output mesh identities and retained artifact remain intact; the repair is additive and explicit.
-- **Wisdom before speed:** no second solver or duplicate lane was created. The smallest useful fix was a fail-closed semantic/provenance guard around the existing family.
+- **Truth:** exact source owner, source blobs and donor builder are pinned; generated subsets are described only as derived review partitions.
+- **Agency / non-domination:** Procedural does not convert Hard-Surface ownership into Rigging, Technical-Art, Runtime or visual adoption authority.
+- **Continuity:** the existing Hard-Surface annular builder and owner contract remain untouched; the family is additive and rollbackable on the existing Procedural lane.
+- **Wisdom before speed:** no second annular generator or generic hinge factory was created. The smallest useful abstraction is just the repeated exact owner partition.
 
 ## Next Procedural pass
 
-Re-scan the whole constellation first. Treat this semantic guard as closed at its present scope. Do not add another Object service-module layer unless a source owner or downstream receiver returns a genuinely new repeated creation problem.
+Re-scan the whole constellation first. Treat this owner-partition family as closed at its present scope. Do not add arbitrary owner classes, hinge dimensions, source adoption or rig behavior unless a source owner or downstream receiver supplies new evidence that creates a genuinely repeated creation problem.
