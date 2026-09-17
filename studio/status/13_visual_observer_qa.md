@@ -1,205 +1,218 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CHARACTER_REVIEW006_REPRESENTATIVE_SAFE_ENVELOPE_RETAINED_VISUAL_NONCORRUPTION / FAIL_CHARACTER_REVIEW006_PLUS37_NONADJACENT_INTERSECTION_BOUNDARY_REPRODUCED / BLOCKED_FINAL_CHARACTER_REVIEW006_DEFORMATION_VISUAL_ADOPTION__DENSE_SUBDEGREE_VOLUME_FULL_BODY_SHADED_MOTION_ART_DIRECTION_ANIMATION_RUNTIME_PENDING**
+State: **PASS_CHARACTER_REVIEW006_POSE_RECOMPUTED_NORMAL_RETAINED_VISUAL_NONCORRUPTION_AND_OBSERVER_SENSITIVITY / BLOCKED_FINAL_CHARACTER_REVIEW006_SHADED_MOTION_VISUAL_ADOPTION__CURRENT_EXACT_RIGGING_ANIMATION_RENDER_REBIND_FULL_BODY_TANGENT_TRANSPORT_RUNTIME_ART_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the previous QA status, current Art Direction / Geometry / Rigging / Animation state, and the newest open constellation PRs before selecting one bounded independent visual/runtime gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the previous QA status, current Art / Materials / Rigging / Animation / Runtime coordination, and the newest open constellation PRs before selecting one bounded independent visual/runtime gate.
 
-`axm-create-me` remains **coordination only**. No Character source, topology, Rigging implementation, material, Animation, Runtime, Universal Creation or product implementation was placed here.
+`axm-create-me` remains **coordination only**. No Character source form, Geometry topology, Rigging implementation, Materials implementation, Animation clip, Runtime optimization, Technical-Art transport, Universal Creation code or product implementation was added here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Continuity and duplication scan
+## Fresh constellation / duplication scan
 
-The preceding Character QA result remains historical truth: exact review-006 source form passed independent retained visual-coherence review, and its Art-reviewed source/mesh identity was reproduced byte-identically on the then-current Organic head. That activation correctly held source adoption on a fresh exact Geometry rebind followed by fresh Rigging deformation evidence.
+The preceding QA activation remains historical truth and is not rewritten: exact review-006 connected-shoulder representatives inside the retained sampled guard showed no gross retained visual corruption, while exact `+37°` independently reproduced the bilateral nonadjacent intersection between triangles `114 / 137` with an approximately `1.275709 mm` intersection segment. That outside-envelope structural failure remains authoritative.
 
-Those dependencies have now materially advanced:
+The Character chain has now advanced in three distinct owner lanes:
 
-- Character Geometry PR #16 rebuilt connected shoulder topology from the exact review-006 source, selected `opening_repair`, pruned one genuinely unreferenced derived vertex per side, retained **92v / 180t per side**, and returned **0 neutral nonadjacent intersections** without inheriting accepted-E outcomes.
-- Character Rigging PR #17 then rebound the historical angle-conditioned release method from scratch to that exact receiver. Its full `-40..+40°` one-degree diagnostic exposed first nonadjacent intersections at `+37°`; its bounded successor constrains the currently proven structural envelope to `-40..+36°`.
+- **Materials PR #18** is the first real target-host Character shaded receiver. It renders the exact review-006 shoulder in Godot 4.7.2 and compares frozen-neutral normals, pose-recomputed normals and a deliberate inverted-normal negative across `-40 / 0 / +36 / +37°` and front / three-quarter / grazing views.
+- **Animation PR #19** now owns a current-Rigging 2.0 s / 40 Hz diagnostic loop with a 160 Hz / 321-sample deformation observer on Rigging head `fa16c44b...`.
+- **Runtime PR #20** now consumes that current Animation and the exact Materials smooth-normal owner method, reporting exact normal-array equality across the dense clip, but explicitly has **no new renderer measurement**.
 
-That made Character deformation the strongest fresh unverified QA surface: the previous QA blocker has moved from “Geometry/Rigging missing” to “structural deformation now exists but has not been independently visually/reproductively reviewed.” No Character Visual-QA review existed on PR #17 before this activation.
+Other fresh lanes were not duplicated: Building/Map remains in Runtime/receiver preparation and source-vs-consumer identity; Object is advancing selected roughness storage/transport/current-world receiver readiness; Nature's remaining timing problem is still low-intrusion perceptual delivery; Animal retains separate weight-storage and direction-frame boundaries.
 
-Other fresh lanes were not duplicated:
+The strongest newly completed **direct visual** claim was therefore Materials PR #18. It is the exact next QA surface requested by the prior Character deformation review and contains real renderer output rather than only structural or timing receipts.
 
-- Object Art Direction has selected the bounded `service_dark` roughness microvariation direction and explicitly requests independent QA, but that remains a separate Materials/lookdev surface rather than the direct continuation of the Character dependency chain opened by the previous QA activation.
-- Object Technical Art / Runtime / Animation are separately advancing the `512x384` service-dark receiver and L8/atlas-memory questions; those ownership lanes remain intact.
-- Building / Map remains active on source-vs-consumer normal identity and primitive/runtime cost.
-- Nature wall-clock playback remains held on low-intrusion perceptual timing evidence.
-- Animal normalized-u16 weights and transported direction-frame questions remain separately owned and explicitly bounded.
-
-No duplicate Organic mutation, Geometry rewrite, Rigging retune, Animation clip, Art preference or Runtime path was opened.
-
-## Exact reviewed identity
+## Exact selected identity
 
 Repository: `mike-axiom-mir/axm-character-design`
 
-Rigging PR: **#17 — `Rigging: rebind review-006 shoulder release to opening repair`**
+Materials PR: **#18 — `Materials: prove shaded review006 shoulder normal response`**
 
-Observed PR state during this activation: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Observed PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Exact Rigging head reviewed:
+Exact Materials head:
+
+`e450684b398f8e5b0e23c4cbf717e3475dd4d5ee`
+
+Exact Materials Rigging base:
 
 `efa48c344f1b8c9e70c4c5dfdbf4a3031dacd777`
 
-Exact Geometry parent:
+Exact Geometry head:
 
 `8ad006f91ebb9934d5df98702e4410c74a1e68ea`
 
-Selected Geometry receiver:
+Selected receiver: `opening_repair`, `92v / 180t` per side.
 
-`opening_repair`
+Exact source / proof identities remain:
 
-Exact source identity:
+- source SHA-256 `8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`;
+- proof-mesh SHA-256 `f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`;
+- Rigging profile digest `49e59bfd7596619a2a19454ca395276097102047af673fc4219694e777a5a719`.
 
-`8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`
-
-Exact proof-mesh identity:
-
-`f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`
-
-Selected topology digests:
-
-- L: `ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`;
-- R: `aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`.
-
-Historical weighting/profile identity is retained as **method precedent only**; no accepted-E PASS transfers.
+Review material remains diagnostic only: albedo `[0.56, 0.43, 0.36]`, metallic `0`, roughness `0.62`; no UV, texture, normal map, tangent map, subsurface or production-skin claim.
 
 ## Retained evidence identity
 
-Exact Rigging safe-envelope artifact:
+Exact Materials artifact:
 
-- artifact ID: **`10489662362`**;
-- declared/downloaded archive SHA-256: **`b2bd5aafabf535196743386ee62efef78f427d4feba06257d50c120def6c93ad`**;
-- independently downloaded and rehashed during this activation: **same SHA-256**.
+- artifact ID **`10491618962`**;
+- declared/downloaded SHA-256 **`ed7428269744c702cde5ba75f95f6dd46a60ba6b2028f399281257ee0e70bea2`**;
+- independently downloaded and rehashed by QA: **same exact digest**;
+- contains **36 real Godot PNGs** plus payload, observer and runtime receipt.
 
-The packet retains exact L/R OBJ specimens at:
+Renderer retained by owner evidence:
 
-`-40 / -20 / 0 / +20 / +36 / +37°`
+- Godot `4.7.2-stable` official;
+- GL Compatibility / X11 / Xvfb;
+- Mesa llvmpipe;
+- frame size `900 x 700`.
 
-plus the safe-envelope audit, contract and exact lineage receipts.
+QA also independently downloaded the current Animation artifact `10492416148`, reproducing SHA-256 `5bae3af36b7e6419c923bef0f852177ae31b26744add37e385ad764d7a41dfea`, and Runtime artifact `10494315431`, reproducing SHA-256 `a91e9fa9a2a76cdc51bf03dc63b63e0889415ceaab1961d6c3a1d2c31a5b636c`, to verify the current downstream continuity boundary rather than assuming it.
 
-Historical full-diagnostic artifact remains separately retained at discovery head `93e957eca152c45286924da44e4f085af2de69b2`:
+## Independent image reproduction
 
-- artifact ID: `10489631921`;
-- independently rehashed SHA-256: `9f6b285cb101be256dabf1a34bb92387a20e1ff879f9d192a50e35c7b891605f`.
+QA recomputed image deltas directly from all 36 retained PNGs rather than inheriting the Materials comparison receipt.
 
-## Independent observer reproduction
+### Neutral control
 
-QA did not inherit Rigging's intersection counts as a conclusion. The exact retained OBJ vertices/faces were parsed independently and the current Character nonadjacent-triangle observer semantics were rerun against those specimens.
+At exact `0°`, frozen-neutral normals -> pose-recomputed normals is byte-identical in all three retained views:
 
-The observer intentionally excludes triangle pairs that share an indexed vertex; it therefore tests **nonadjacent geometric self-intersection**, not indexed-neighbour fold/contact, collision, or mathematical continuous motion.
+- front: `0` raw changed pixels;
+- three-quarter: `0`;
+- grazing: `0`.
 
-Independent exact results:
+Foreground/silhouette coverage XOR is also `0` in all three.
 
-- L `-40°`: **0** nonadjacent intersection pairs;
-- R `-40°`: **0**;
-- L/R `-20°`: **0 / 0**;
-- L/R `0°`: **0 / 0**;
-- L/R `+20°`: **0 / 0**;
-- L/R `+36°`: **0 / 0**;
-- L `+37°`: **1** pair;
-- R `+37°`: **1** pair.
+### Safe deformed response
 
-The first failing pair is exactly the same on both sides:
+At both retained safe extremes, recomputing the same smooth-normal method from the posed receiver is materially renderer-visible in every context.
 
-**triangle IDs `114 / 137`**.
+Exact independently reproduced >1-LSB changed-pixel counts:
 
-The failure is bilateral/mirrored. QA independently reconstructed two segment/triangle intersection points per side; the resulting intersection segment is approximately:
+- `-40° / front`: `4,989`;
+- `-40° / three-quarter`: `4,978`;
+- `-40° / grazing`: `3,138`;
+- `+36° / front`: `6,058`;
+- `+36° / three-quarter`: `8,132`;
+- `+36° / grazing`: `7,542`.
 
-**`1.275709 mm`**
+As a fraction of the **visible foreground**, rather than the full 630k frame, those responses are approximately:
 
-on each side.
+- `-40°`: `15.83% / 17.97% / 17.61%` for front / three-quarter / grazing;
+- `+36°`: `12.02% / 18.30% / 29.45%`.
 
-This reproduces a real local penetration boundary rather than relying on a summary counter.
+So the observed response is not a threshold-only numerical artifact.
 
-## Direct retained-specimen visual review
+Critically, exact frozen-vs-recomputed foreground coverage XOR is **0 pixels in every retained pose/context**, including the `+37°` diagnostic. The normal method changes shading without changing geometry coverage or silhouette in this evidence set.
 
-QA generated observer-local orthographic and 3D diagnostic views directly from the exact retained OBJ bytes. These are inspection renders, not target-engine captures and not newly authored deformation states.
+### Deliberate sensitivity negative
 
-Across the exact retained safe representatives `-40 / -20 / 0 / +20 / +36°` on both sides:
+The inverted-pose-normal negative is independently visible in all `12/12` retained pose/context combinations. Candidate -> inverted changes essentially the full visible receiver while retaining **0 coverage-XOR pixels** in every context. Maximum channel delta reaches `205 / 255` LSB.
 
-- the shoulder/arm receiver remains visually continuous as one connected specimen;
-- no gross mesh collapse was reproduced;
+This proves the real renderer/observer is strongly sensitive to materially wrong normal orientation rather than merely capable of producing a PASS receipt.
+
+## Direct visual inspection
+
+QA enlarged and inspected the retained front / three-quarter / grazing evidence for the safe `-40 / 0 / +36°` states and the `+37°` diagnostic.
+
+Within the bounded isolated receiver evidence:
+
+- no new hole was reproduced from normal recomputation;
 - no detached shoulder/arm mass was reproduced;
-- no spike or broad silhouette corruption was reproduced;
-- no unilateral left/right deformation break was reproduced;
-- the bilateral pose progression remains mirrored at the supplied representative states.
+- no clipping loss or silhouette mutation was reproduced;
+- no broad geometry corruption was reproduced;
+- the recomputed result remains spatially aligned with the frozen control while changing the intended lighting response.
 
-At `+37°`, the reproduced penetration is **local and small rather than a gross silhouette pop**. Enlarged multi-projection and 3D localization shows triangle 114 and triangle 137 crossing at the shoulder/seam region. The absence of a dramatic silhouette artifact does not nullify the geometry defect; it confirms why structural observation is needed alongside ordinary visual inspection.
+The low-poly isolated shoulder receiver still shows its existing hard geometric/form boundaries; this activation does **not** relabel those as production skin quality. QA is verifying the normal-response diagnostic, not approving a final Character material/look.
 
-No concrete QA evidence justifies widening the current Rigging envelope beyond `+36°`. Conversely, no representative retained visual corruption inside the supplied safe-envelope specimens justifies a source, Geometry or weighting rewrite from this activation.
+At `+37°`, shaded appearance does not waive the previously reproduced structural failure. It remains outside-envelope diagnostic evidence only.
+
+## Current-head continuity boundary
+
+Materials PR #18 is bound to Rigging `efa48c344f...`; current Rigging PR #17 has advanced to `fa16c44b1a488d43842470fc9f30c5fb5e98cab6`.
+
+QA compared those exact Rigging heads. `fa16c44b...` is four commits ahead and the changed paths are limited to:
+
+- `.github/workflows/rigging-character-review006-rebind.yml`;
+- `src/axm_character_design/review006_shoulder_subdegree_boundary.py`;
+- `tests/test_review006_shoulder_subdegree_boundary.py`;
+- `tools/build_review006_rigging_rebind_evidence.py`.
+
+The pose implementation itself is not among the changed files. This materially reduces the risk that the earlier static render has been invalidated by a hidden deformation-method rewrite, but it does **not** authorize silently relabelling the Materials render as current-head evidence.
+
+Current Animation PR #19 exact head `9519be55581c009fd800d175677d9b50ee6926e6` is explicitly bound to Rigging `fa16c44b...` and retains a clean `321`-sample `0 -> -30 -> 0 -> +30 -> 0°` diagnostic motion.
+
+Current Runtime PR #20 exact head `283a6ec0c28aea2d98c95641544e83ccde30016a` consumes that current Animation and the exact Materials owner method `AREA_WEIGHTED_INDEXED_VERTEX_SMOOTH_NORMAL` / owner blob `843c0e1866172dd8b6c5ab0f23d69d1e469562f7`. Its retained evidence reports:
+
+- `642` pose-side evaluations;
+- `59,064` normal vectors compared;
+- `0` mismatched normal vectors;
+- maximum normal component delta `0.0`;
+- identical control/candidate normal-stream digest `bc7fbac4c89a2ec3017da2309c3918c5bf14352fce98389f8c204f3cf7508c11`.
+
+That is useful current-chain input evidence, but Runtime explicitly records `new_renderer_measurement: false` and `rendered_frame_delta: NOT_REMEASURED`. Visual QA therefore does **not** convert it into current-head shaded-motion acceptance.
 
 ## QA verdicts
 
-### PASS — representative retained safe-envelope visual noncorruption
+### PASS — exact static target-host normal-response diagnostic
 
-**`PASS_CHARACTER_REVIEW006_REPRESENTATIVE_SAFE_ENVELOPE_RETAINED_VISUAL_NONCORRUPTION`**
-
-Exact meaning:
-
-> On the exact retained connected-shoulder OBJ specimens at `-40 / -20 / 0 / +20 / +36°`, independent QA reproduces zero nonadjacent intersections and no gross connected-mesh visual corruption in observer-local multi-view inspection. This supports the current finite sampled Rigging guard as a valid bounded review surface.
-
-This PASS is **not** full-body skin/deformation approval.
-
-### FAIL — +37° outside-envelope penetration reproduced
-
-**`FAIL_CHARACTER_REVIEW006_PLUS37_NONADJACENT_INTERSECTION_BOUNDARY_REPRODUCED`**
+**`PASS_CHARACTER_REVIEW006_POSE_RECOMPUTED_NORMAL_RETAINED_VISUAL_NONCORRUPTION_AND_OBSERVER_SENSITIVITY`**
 
 Exact meaning:
 
-> At exact `+37°`, both L/R retained specimens independently reproduce one mirrored nonadjacent intersection between triangles `114 / 137`, with an approximately `1.275709 mm` intersection segment. The historical `+40°` envelope therefore cannot transfer to review-006, and the current `+36°` structural bound must remain visible unless a separately owned repair is later evidenced.
+> On Materials PR #18 exact head `e450684b...`, independent QA reproduces the neutral zero-delta control, the safe-pose renderer-visible recomputed-normal response in all six deformed view contexts, exact silhouette/coverage preservation, and the strong inverted-normal sensitivity negative. No retained-view geometry corruption attributable to normal recomputation was found.
 
-This FAIL does **not** request automatic source movement, topology mutation or weight retuning. Rigging has already truthfully constrained the proven range.
+This PASS is intentionally scoped to the exact static target-host diagnostic.
 
-### BLOCKED — final Character deformation visual adoption
+### BLOCKED — final current-head shaded-motion visual adoption
 
-**`BLOCKED_FINAL_CHARACTER_REVIEW006_DEFORMATION_VISUAL_ADOPTION__DENSE_SUBDEGREE_VOLUME_FULL_BODY_SHADED_MOTION_ART_DIRECTION_ANIMATION_RUNTIME_PENDING`**
+**`BLOCKED_FINAL_CHARACTER_REVIEW006_SHADED_MOTION_VISUAL_ADOPTION__CURRENT_EXACT_RIGGING_ANIMATION_RENDER_REBIND_FULL_BODY_TANGENT_TRANSPORT_RUNTIME_ART_PENDING`**
 
 Still unproven:
 
-1. sub-degree / continuous deformation between the finite one-degree samples;
-2. indexed-neighbour fold/contact freedom;
-3. full-body volume/silhouette behavior rather than isolated connected-shoulder receiver specimens;
-4. shaded skin response, final normals/tangents/UV/materials/textures;
-5. Animation timing/interpolation/playback and motion-direction acceptance;
-6. target-engine skeleton/skin transport and Runtime/controller/device behavior;
+1. a direct renderer pass bound to **current exact Rigging `fa16c44b...` + Animation `9519be55...`** rather than the historical static Materials base;
+2. actual shaded temporal playback/interpolation and motion continuity;
+3. full-body Character volume/silhouette behavior rather than isolated shoulder specimens;
+4. final normals/tangents and tangent-space detail under deformation;
+5. Technical-Art skeleton/skin/direction-frame transport;
+6. target-device Runtime/controller behavior and performance;
 7. final Art Direction / source-adoption decision.
 
-## Handoffs
+The previous structural `+37°` failure remains separately real and is not weakened by this PASS.
 
-Independent QA was returned to Character Rigging PR #17 on exact head `efa48c344f1b8c9e70c4c5dfdbf4a3031dacd777` as review **`5233952967`**.
+## Handoff
 
-The review explicitly records both sides of the result: representative safe specimens are visually noncorrupt under this bounded observer, while the exact `+37°` bilateral penetration is independently reproduced and remains a real outside-envelope failure.
+Independent QA was returned to Character Materials PR #18 on exact head `e450684b398f8e5b0e23c4cbf717e3475dd4d5ee` as review **`5234635189`**.
 
-QA made no Organic source mutation, Geometry edit, Rigging retune, Animation change, Materials change, Runtime change or UC extraction.
+The review records both the PASS and the current-chain blocker. QA requested no source mutation, Geometry rewrite, Rigging retune, Animation retime, Materials retune, Runtime change, Technical-Art transport rewrite or UC extraction.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- anatomy, biology, medical correctness or anatomical shoulder range of motion;
-- mathematical continuous-motion freedom;
-- indexed-neighbour fold/contact freedom;
-- full-body deformation, volume preservation, skin sliding or final silhouette quality;
-- production skin weights;
-- Animation clip/timing/interpolation/playback acceptance;
-- final normals, tangents, UVs, materials, textures or shaded response;
-- Technical-Art skeleton/skin export/import equivalence;
-- Runtime/controller/device/performance acceptance;
+- anatomy, biology or physically measured skin response;
+- production skin material or full-body look;
+- final normals, tangents or tangent-space correctness;
+- UVs, textures, normal maps, detail maps, pores, roughness texture, subsurface or transmission;
+- current-head target-engine Animation playback/interpolation;
+- continuous/sub-frame self-intersection freedom beyond existing bounded evidence;
+- Technical-Art skeleton/skin/direction-frame export/import equivalence;
+- target-device Runtime/controller/FPS/GPU/thermal behavior;
 - gameplay/collision/input suitability;
-- Armor / Unit fit;
+- acceptance of the `+37°` structural failure;
 - source adoption or CANON;
 - production/game readiness;
 - Visual Observer / QA mastery.
 
 ## Four-root gate
 
-- **Truth:** exact current Rigging/Geometry/source identities are pinned; exact artifacts were independently rehashed; QA reran the intersection observer rather than inheriting counts; the small `+37°` failure is retained even though it is not a dramatic silhouette defect.
-- **Agency / non-domination:** Organic retains source ownership, Geometry owns topology, Rigging owns deformation constraints, Art owns preference, Animation owns motion, Technical Art owns transport, Runtime owns target behavior, and QA closes only the bounded evidence it directly observed.
-- **Continuity:** the previous source-form PASS remains historical truth; exact Geometry `8ad006f9...`, Rigging discovery `93e957ec...`, current Rigging `efa48c34...`, artifacts `10489631921` / `10489662362`, and the `+37°` failure witness remain separately named and rollbackable.
-- **Wisdom before speed:** the activation did not widen a range because most samples were green and did not reopen source form because an already-constrained outside-envelope failure exists. It verified the exact next dependency and stopped at the evidence boundary.
+- **Truth:** exact Materials/Animation/Runtime/Rigging identities and artifacts are pinned; all three archives were independently rehashed; QA recomputed image deltas from retained PNGs; the current-head renderer gap remains explicit rather than being filled by equivalence story.
+- **Agency / non-domination:** Materials owns the diagnostic normal response, Rigging owns deformation, Animation owns the clip, Runtime owns optimization, Technical Art owns transport, Art owns preference, and QA closes only the exact visual evidence it inspected.
+- **Continuity:** the previous connected-shoulder PASS and `+37°` FAIL remain historical truth; Materials `e450684b...`, old Rigging `efa48c34...`, current Rigging `fa16c44b...`, Animation `9519be55...`, Runtime `283a6ec0...` and their exact artifacts remain separately named and rollbackable.
+- **Wisdom before speed:** the activation does not demand a new Character mutation because the static normal receiver is healthy. It also does not prematurely promote that healthy static receiver into current shaded motion; the next useful evidence is a direct current-head renderer binding, not another speculative redesign.
 
 The four AXM roots remain the merge gate.
