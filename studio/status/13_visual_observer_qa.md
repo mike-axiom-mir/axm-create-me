@@ -1,39 +1,29 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-17
-State: **PASS_OBJECT_SERVICE_DARK_TWO_SURFACE_UV_DENSITY_DIAGNOSTIC_VISUAL_OBSERVABILITY / PASS_OBJECT_SERVICE_DARK_UV_BEARING_REPRESENTATION_RETAINED_VISUAL_NONCORRUPTION / BLOCKED_FINAL_OBJECT_SERVICE_DARK_TEXEL_DENSITY_ADOPTION__ART_DIRECTION_PRODUCTION_UV_TEXTURE_TRANSPORT_RUNTIME_PENDING**
+State: **PASS_OBJECT_SERVICE_DARK_500_PPM_PADDED_ATLAS_RETAINED_VISUAL_GATE / FAIL_OBJECT_SERVICE_DARK_NO_DILATION_FILTERING_EDGE_BLEED / BLOCKED_FINAL_OBJECT_SERVICE_DARK_ATLAS_PRODUCTION_ADOPTION__REAL_TEXTURE_TANGENT_TRANSPORT_RUNTIME_ART_DIRECTION_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the newest Art Direction, Materials, Environment and Runtime coordination state, and current open design-repository evidence before choosing one bounded independent QA gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current Art Direction / Materials state, and the newest relevant constellation PRs before selecting one bounded independent visual gate.
 
-`axm-create-me` remains **coordination only**. No Object, Map, Materials, Runtime, Technical Art, UC, renderer or product implementation was placed here.
+`axm-create-me` remains **coordination only**. No Object source, Materials implementation, texture, UV producer, renderer, Runtime, Technical Art, Universal Creation or product code was placed here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Continuity from the preceding QA gate
+## Continuity and duplication scan
 
-The exact indexed Building planar-role receiver remains historical QA truth at Environment head `038925282240441c475651bdc3737d1749c31d06`: retained current-world noncorruption passed, and post-normal indexing changed only `24..55` pixels/frame at no more than `1 LSB` in the retained views.
+The preceding QA gate remains historical truth: Object `service_dark` two-surface physical UV-density diagnostics were visually discriminating, and the UV-bearing review representation showed retained noncorruption. Art Direction subsequently preferred `0.05 m/UV` as the current bounded physical review scale while explicitly holding real pixels-per-meter, atlas packing/padding, production texture content, tangent/UV transport and Runtime cost.
 
-Fresh Runtime work did not justify duplicating that visual lane. Runtime PR #41's index-before-normal constructor produced a sparse `<=1 LSB` visual delta but was slower in every one of its 41 proof-host preparation pairs, so Runtime keeps the post-normal indexed control. Runtime PR #42 then added no new visual representation and found no robust proof-host penalty from primitive count alone. Those results remain Runtime-owned.
+The strongest fresh unverified visual claim is therefore the Object Materials continuation that instantiates that preferred review scale as a real filtered/mipped atlas receiving candidate. This closes a direct downstream gap rather than reopening the prior UV-scale lane.
 
-## Fresh constellation / duplication scan
+Other fresh lanes were not duplicated:
 
-The strongest newly completed unverified visual claim is now Object Materials PR #6's **two-surface `service_dark` physical UV-density family review** at exact head:
+- Animal Runtime PR #27 now has strong merged-UC, Rigging and Animation continuity for normalized-u16 `WEIGHTS_0`, but its remaining fixed-view visual trade is only `224` pixels total at max `1 LSB` and remains a separate Art/QA candidate.
+- Character remains structurally held by nonzero shoulder-intersection evidence rather than exposing a new visually adoptable surface.
+- Building and Nature retain their earlier bounded QA results; no fresher unowned visual mutation outranked this atlas receiving gate.
 
-`ad2378f18be55efa1f8e6dba9d8823c6b5d500e1`
-
-Why this lane:
-
-- the new Materials pass explicitly leaves final Visual-QA acceptance open;
-- it spans two independently source-owned functional surfaces rather than one isolated diagnostic;
-- exact target-host images exist for both the existing front-service reference and the new inner-lid family member;
-- a deliberate `3x` V-density defect exists, so QA can test whether the observer really distinguishes a density/anisotropy failure rather than merely proving that UV coordinates exist;
-- Building has no fresh Art-visible mutation requiring another pass; Nature timing remains capture-owned; Animal transported direction-frame equivalence remains held; Character remains upstream-held by shoulder intersections.
-
-No duplicate Object source, Materials or Art lane was opened.
-
-## Exact reviewed identity and evidence
+## Exact reviewed identity
 
 Repository: `mike-axiom-mir/axm-object-design`
 
@@ -41,160 +31,134 @@ PR: **#6 — Materials: prove functional surface separation on case + module**
 
 Exact reviewed head:
 
-`ad2378f18be55efa1f8e6dba9d8823c6b5d500e1`
+`4c12a0a57f6aa8778cff41efad321e13567c6c91`
 
-PR state at review: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Observed PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-New inner-lid family artifact:
+Retained Materials artifact:
 
-- ID `10483567286`;
-- independently downloaded/rehashed SHA-256 `c9d392babc20c10843b38f2f083b88a93174e519fff87057e74b20553c68ece5`.
+- ID `10485605500`;
+- independently downloaded and rehashed SHA-256 `c7344b42ca500eadbc068117844ac98336aa5f0710b8e25ccf3818e6fadfd90c`;
+- renderer boundary: Godot `4.7.2` GL Compatibility / X11 / Xvfb, Mesa llvmpipe software OpenGL.
 
-Same-head front-service reference artifact:
+## Reviewed receiving candidate
 
-- ID `10483517513`;
-- independently downloaded/rehashed SHA-256 `1c8684269d10684215ba7f8d9d3a21913c0f54daa0a382779bae58e48809ecdf`.
+Material family: `service_dark`.
 
-Renderer boundary remains Godot `4.7.2` GL Compatibility / X11 / Xvfb software OpenGL.
+Current bounded atlas candidate:
 
-## Exact physical family rule
+- `512 × 512 px` atlas;
+- `500 px/m` physical density = `0.002 m/px`;
+- prior `0.05 m` review unit therefore spans exactly `25 texels`;
+- `16 px` edge dilation / packing margin;
+- linear mipmap anisotropic filtering;
+- texture repeat disabled;
+- no external texture asset.
 
-Shared review material family:
+Exact source-owned receiving surfaces:
 
-`service_dark`
+- inner lid: `0.78 × 0.48 m -> 390 × 240 px`, source-local X→U / Y→V;
+- front service panel: `0.468 × 0.156 m -> 234 × 78 px`, source-local X→U / Z→V.
 
-Shared diagnostic density:
+The retained atlas content is self-generated diagnostic coating variation, not production texture art.
 
-`0.05 m / UV` on U and V.
+The deliberate negative removes dilation and fills outside-island texels with a high-contrast contaminant before mip generation / filtered sampling. It is intentionally a strong failure probe rather than a production texture candidate.
 
-The family uses a **source-local basis per face**, not one global UV orientation:
+## Independent raw-PNG reproduction
 
-- front service panel source-owned exterior face: source `X -> U`, source `Z -> V`;
-- lid source-owned inner face: source `X -> U`, source `Y -> V`.
+### UV-bearing uniform control
 
-Exact physical extents therefore produce:
+Raw decoded PNG comparison of `legacy_family` vs `atlas_uniform` gives, in each of all four retained contexts:
 
-- front service panel: `0.468 m × 0.156 m -> 9.36 × 3.12 UV`;
-- inner lid: `0.78 m × 0.48 m -> 15.6 × 9.6 UV`.
+- exactly **2 changed pixels**;
+- maximum exactly **1 LSB**;
+- **0 pixels exceed 1 LSB**.
 
-The deliberate defect leaves U at `0.05 m/UV` and raises V density exactly `3x`:
+Total across all four pairs:
 
-- front V span `3.12 -> 9.36`;
-- inner-lid V span `9.6 -> 28.8`.
+- **8 changed pixels >0 LSB**;
+- **0 changed pixels >1 LSB**.
 
-No external texture asset is involved; the checker is procedural diagnostic shading.
+Therefore QA accepts **retained visual noncorruption / >1-LSB neutrality**, not byte-identical neutrality. This sharpens the Materials receipt without contradicting its thresholded result.
 
-## Independent representation-neutrality reproduction
+### Padded diagnostic receiving path
 
-### Inner lid
+`atlas_uniform -> atlas_padded` produces a clearly visible diagnostic texture on the intended service surfaces in every retained pose/camera. Direct enlarged inspection reproduces no new retained silhouette break, hole, clipping loss, detached component, unrelated component mutation or broad scene corruption.
 
-Across all `4 / 4` retained pose/camera pairs (`50° / 100° × three-quarter / front-interior`):
+The diagnostic pattern itself is not evaluated as final texture art.
 
-- `legacy_review` and `uv_uniform` decode pixel-identically;
-- their PNG files are also byte-identical;
-- coverage XOR is `0`.
+### No-dilation filtering negative
 
-Adding the UV-bearing representation therefore does not alter the retained image before diagnostic shading is applied.
+Independent raw-PNG `atlas_padded -> atlas_unpadded_negative` deltas above `1 LSB`:
 
-### Front service panel
+- mid-open / three-quarter: **380 px**, max channel delta **53 LSB**;
+- mid-open / front-interior: **252 px**, max **41 LSB**;
+- peak-open / three-quarter: **433 px**, max **77 LSB**;
+- peak-open / front-interior: **369 px**, max **53 LSB**.
 
-The prior exact source-bound reference was independently rechecked across `front_service`, `three_quarter`, and `grazing_service`:
+Total independent >1-LSB changed pixels: **1,434**.
 
-- grazing legacy-uniform vs source-split-uniform is exact;
-- front-service and three-quarter each contain exactly **2 changed pixels**, maximum exactly **1 LSB**;
-- `0` pixels exceed `1 LSB`;
-- retained black-background coverage XOR is `0` in all three contexts.
+The owner's thresholding method reports a nearby `1,448` total; QA preserves its own raw-PNG method instead of silently equating the two counting procedures.
 
-QA therefore records **retained visual noncorruption**, not global byte-identical neutrality across the whole two-surface family.
+Direct enlarged inspection localizes the negative delta to **thin / broken fringes and corners along the mapped inner-lid and front-service-panel boundaries**. The strongest retained error reaches `77/255 ≈ 30.2%` of a full channel range. The effect does not present as broad interior rewriting or unrelated-scene mutation.
 
-## Independent diagnostic observability reproduction
-
-### Inner lid
-
-Uniform `service_dark` -> isotropic candidate changes:
-
-- `50° / three-quarter`: `33,720` pixels;
-- `50° / front-interior`: `46,678` pixels;
-- `100° / three-quarter`: `51,133` pixels;
-- `100° / front-interior`: `60,609` pixels.
-
-Isotropic candidate -> deliberate `3x` V-density defect changes:
-
-- `11,115`;
-- `15,463`;
-- `16,985`;
-- `20,028` pixels respectively.
-
-Coverage XOR remains `0` in all four comparisons.
-
-### Front service panel
-
-Source-split uniform -> isotropic candidate changes:
-
-- front-service: `30,366` pixels;
-- three-quarter: `9,617` pixels;
-- grazing-service: `4,887` pixels.
-
-Isotropic candidate -> deliberate `3x` V-density defect changes:
-
-- `9,502`;
-- `3,114`;
-- `1,595` pixels respectively.
-
-Coverage XOR remains `0` in all three comparisons.
-
-Direct inspection reproduces equal-scale checker cells for the candidate and an obvious compressed-V pattern for the deliberate defect in every retained context. The shading change remains confined to the intended source-owned service face; no new hole, silhouette break, clipping loss, unrelated component mutation or checker bleed outside the target face was reproduced.
+Connected-component inspection further supports an edge-fringe defect rather than a broad patch: the >1-LSB negative masks break into many small components, with largest components only tens of pixels in the retained frames.
 
 ## QA verdicts
 
-### PASS — two-surface UV-density diagnostic is visually discriminating
+### PASS — padded atlas retained visual gate
 
-**`PASS_OBJECT_SERVICE_DARK_TWO_SURFACE_UV_DENSITY_DIAGNOSTIC_VISUAL_OBSERVABILITY`**
-
-Exact meaning:
-
-> In the exact retained target-host evidence, the shared `0.05 m/UV` source-local family candidate is visibly distinct from the deliberate `3x` V-density defect on both source-owned `service_dark` surfaces in every retained context. The observer is therefore capable of exposing the intended density/anisotropy class of error instead of merely confirming that UV coordinates exist.
-
-### PASS — UV-bearing retained representation is noncorrupting
-
-**`PASS_OBJECT_SERVICE_DARK_UV_BEARING_REPRESENTATION_RETAINED_VISUAL_NONCORRUPTION`**
+**`PASS_OBJECT_SERVICE_DARK_500_PPM_PADDED_ATLAS_RETAINED_VISUAL_GATE`**
 
 Exact meaning:
 
-> Adding the review UV representation produces no retained geometry/silhouette coverage change. The inner-lid uniform controls are byte-identical in all four retained pairs; the front-service source-bound reference has at most two `1 LSB` pixels in two views and no >1-LSB or coverage change. No unrelated retained visual corruption was reproduced.
+> On exact Materials head `4c12a0a...`, the bounded `500 px/m`, `512²`, `16 px` padded atlas receiving representation is visually coherent in all retained target-host contexts. Carrying the atlas UV representation causes no >1-LSB control delta or coverage/silhouette corruption, and the padded diagnostic appears only on the intended source-owned service surfaces without reproduced broad visual corruption.
 
-### BLOCKED — final texel-density / production adoption
+### FAIL — no-dilation filtered receiving path
 
-**`BLOCKED_FINAL_OBJECT_SERVICE_DARK_TEXEL_DENSITY_ADOPTION__ART_DIRECTION_PRODUCTION_UV_TEXTURE_TRANSPORT_RUNTIME_PENDING`**
+**`FAIL_OBJECT_SERVICE_DARK_NO_DILATION_FILTERING_EDGE_BLEED`**
 
-The QA PASS is diagnostic and representation-bounded only. It does not choose `0.05 m/UV` as final artistic density or authorize production UVs.
+Exact meaning:
+
+> Under the exact retained mipmapped + linear-anisotropic receiving path, removing island dilation while exposing high-contrast outside-island texels creates reproducible localized surface-edge contamination in every retained context. Explicit padding/dilation therefore has real visual consequence for this bounded atlas case.
+
+This FAIL applies to the deliberate no-dilation negative. It does not claim every atlas universally needs exactly `16 px` padding.
+
+### BLOCKED — final production atlas adoption
+
+**`BLOCKED_FINAL_OBJECT_SERVICE_DARK_ATLAS_PRODUCTION_ADOPTION__REAL_TEXTURE_TANGENT_TRANSPORT_RUNTIME_ART_DIRECTION_PENDING`**
 
 Still open:
 
-1. Art Direction preference / final visual-density choice;
-2. production UV authoring, seams, atlas packing and arbitrary unwrap behavior;
-3. real texture/decal/wear/normal/AO content and tangent-space receiving quality;
-4. Technical Art import/export and tangent/UV transport equivalence;
-5. Runtime shader/draw/memory/target-device cost;
-6. arbitrary cameras/renderers and production asset integration.
+1. real production texture / decal / wear / normal / AO art and its appearance quality;
+2. tangent-space receiving correctness for normal-detail content;
+3. production UV seams, arbitrary unwrap and packing behavior beyond these two exact source faces;
+4. OBJ/GLB/import/export UV + tangent + texture transport equivalence;
+5. arbitrary cameras, renderers, resolutions, mip/LOD conditions and anisotropy settings;
+6. Runtime texture memory, shader, draw, upload, target-device FPS / thermal / battery cost;
+7. Art Direction final texture-density / packing / appearance preference;
+8. producer adoption / rollback decision.
+
+`500 px/m`, `512²`, and `16 px` are therefore evidence-backed **candidate values**, not universal or final production rules.
 
 ## Handoff
 
-Object Materials PR #6 received the independent QA verdict on exact head `ad2378f18be55efa1f8e6dba9d8823c6b5d500e1` as review **`5232251162`**.
+Independent Visual QA was returned to Object Materials PR #6 on exact head `4c12a0a57f6aa8778cff41efad321e13567c6c91` as review **`5232790656`**.
 
-No scalar-PBR retune, source geometry rewrite, UV promotion or texture authoring is requested from QA.
+No Materials scalar retune, UV generator rewrite, source geometry change, texture-authoring request or Runtime implementation change is made by QA.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final artistic texel density;
-- production UV adoption;
-- atlas packing, seam placement or general automatic unwrap quality;
-- texture, decal, wear, baked normal or AO quality;
-- tangent-space texture correctness;
-- OBJ/GLB/import transport equivalence;
-- target-device shader, draw, memory, FPS, thermal or battery acceptance;
+- byte-identical legacy/UV-bearing representation neutrality;
+- final pixels-per-meter;
+- final atlas size or universal `16 px` padding;
+- final texture, decal, wear, normal-map or AO quality;
+- tangent-space correctness;
+- arbitrary automatic unwrap / atlas packing quality;
+- transport/import equivalence;
+- target-device Runtime acceptance;
 - arbitrary camera/FOV/resolution/renderer equivalence;
 - final Art Direction approval;
 - CANON;
@@ -203,9 +167,9 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** the inner-lid controls are exactly neutral; the front reference retains two real one-LSB pixels in two views and is not relabeled byte-identical; the checker is a diagnostic, not a production texture.
-- **Agency / non-domination:** Hard Surface keeps source-surface identity; Materials keeps the bounded family candidate; Art Direction keeps final density preference; Technical Art keeps transport; Runtime keeps cost; QA closes only observability/noncorruption.
-- **Continuity:** the previous Building QA result remains historical truth, the historical front-service UV reference stays pinned, and the new inner-lid member extends rather than silently replaces that evidence.
-- **Wisdom before speed:** prove that the representation is neutral and the observer can reject a deliberately wrong density before allowing texture/production UV work to build on the family.
+- **Truth:** the raw controls retain eight real one-LSB pixels and are not renamed byte-identical; the no-dilation defect is measured and spatially localized; the diagnostic atlas is not renamed production art.
+- **Agency / non-domination:** Materials keeps the receiving candidate, Procedural/source owners keep UV/source authority, Technical Art keeps transport, Runtime keeps cost, Art Direction keeps preference, and QA closes only the retained evidence gate.
+- **Continuity:** the prior two-surface UV-scale QA and Art preference remain historical truth; this activation advances the next receiving step without overwriting them.
+- **Wisdom before speed:** establish that padded filtering behaves coherently and that missing dilation fails visibly before real texture art, transport or production adoption are allowed to inherit the path.
 
 The four AXM roots remain the merge gate.
