@@ -1,187 +1,170 @@
 # 06 — Rigging & Deformation Specialist Status
 
 Date: 2026-09-17
-State: **PASS_RUNTIME_U16_WEIGHT_CANDIDATE_RIGGING_DEFORMATION_REBIND_41_KEYS / CI_PASS / STATIC_DIRECTION_TRANSPORT_HOLD_PRESERVED / TECHNICAL-ART + ANIMATION + RUNTIME + SHADED VISUAL ACCEPTANCE HELD**
+State: **PASS_OBJECT_LID_OWNED_KEEPER_SOCKET_BINDING_111_POSES / CI_PASS / ANIMATION + RUNTIME + FULL_LATCH_MECHANISM ACCEPTANCE HELD**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the current specialist status set, and the active design-repository constellation before selecting work.
 
-`axm-create-me` remains **coordination only**. Product implementation and proof remain in `mike-axiom-mir/axm-animal-design`; this file records exact scope, evidence, holds and handoffs only.
+`axm-create-me` remains **coordination only**. Product implementation and proof are in `mike-axiom-mir/axm-object-design`; this file records exact scope, evidence, holds and handoffs only.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Constellation / duplication scan
 
-The highest-leverage fresh Rigging dependency was the already-open Animal transport lane, not a new weighting or articulation branch. Runtime PR #27 introduced an exact normalized-`UNSIGNED_SHORT` `WEIGHTS_0` candidate from the Technical Art producer. That changes stored weights while intentionally preserving the same decoded weighting semantics, so Rigging needed to bound the resulting deformation rather than inherit prior transport evidence by assumption.
+The full design constellation was re-scanned before opening work.
 
-- **Animal Rigging PR #25** remains the single receiving-boundary lane and was advanced rather than duplicated.
-- **Animal Geometry PR #20** remains the exact 42-source -> 84-render mapping owner at `ca4bb8a2f144231f8755eacc980785d1807b79db`.
-- **Animal Rigging PR #22** remains the exact deformed owner-frame authority at `63c65d57fda0595217f86d971ff8c67f256188be`.
-- **Animal Animation PR #5** remains independent for clip/timing/interpolation/playback acceptance.
-- Runtime owns the weight-storage candidate and runtime/performance decision; Technical Art owns producer adoption; Visual QA / Art Direction own the visible pixel tradeoff.
-- **Character** still retains its Geometry-owned shoulder self-intersection HOLD; **Object** already has mature articulation lanes; the other scanned design repos exposed no stronger unoccupied Rigging dependency.
+- **Weapon / Armor / Unit / Misc:** no open specialist PRs exposed a stronger current Rigging dependency.
+- **Character:** Geometry is still actively working the shoulder topology/intersection family; Rigging does not steal that unresolved Geometry lane.
+- **Animal:** the existing Rigging #25 transport lane is mature. Fresh Technical-Art work now proves the normalized-u16 receiver on merged UC main, but another immediate Animal rebind would repeat the same already-bounded deformation boundary without a stronger source/rig change.
+- **Building / Map:** newest work is hard-surface/render receiver and Runtime storage/cost work, not an unowned rig/deformation problem.
+- **Nature / Weather:** current motion work is explicitly VFX/procedural visual response, not a physical rig authority.
+- **Object:** Hard-Surface #14 now source-owns upper latch keepers as `lid_shell` children, Materials #6 visibly consumes that ownership, historical lid Rigging #3 predates it, and the existing latch Rigging lanes cover the lower lever / target hierarchy rather than the upper keeper socket through lid motion. This was the strongest unoccupied Rigging continuity gap.
+
+No existing Rigging lane was duplicated. The new work stacks on the current Object latch Rigging chain and keeps all prior authorities intact.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
-Existing draft PR: **#25 — `Rigging: audit transported tangent frames across authored skin keys`**
+Draft PR: **#27 — `Rigging: bind lid-owned latch keeper sockets through lid sweep`**
 
-Branch: `studio/rigging-transported-tangent-deformation-equivalence-001`
+Branch: `studio/rigging-lid-keeper-socket-bind-004`
 
-Exact current Rigging head: **`e4ce8c1f4c3deb55220cf962206d51013d0cfe73`**
+Exact current Rigging head: **`4a743a8c934b72178ef04ae3f55947bdc7f8def0`**
 
-PR state at this head: **open / draft / mergeable**.
+Base / previous Rigging target-binding head: **`9556308c9986f71519bc488badc1b1a63e855e7e`** (PR #23).
 
-New bounded observer/state:
+PR state at evidence completion: **open / draft / mergeable**.
 
-**`PASS_RUNTIME_U16_WEIGHT_CANDIDATE_RIGGING_DEFORMATION_REBIND_41_KEYS__STATIC_DIRECTION_FRAME_HOLD_PRESERVED`**
+Scoped result:
 
-This activation adds a weight-storage deformation rebind only. It does not invent a new rig, change the weighting rule, alter source geometry/topology, rewrite Animation, adopt a Technical Art producer policy, or claim Runtime acceptance.
+**`PASS_LID_OWNED_KEEPER_SOCKET_BINDING_111_POSES`**
 
-## Exact identities preserved
+This pass adds one Object-local socket/constraint proof only. It does not rewrite source geometry, invent a latch mechanism, change lid motion, retime Animation, adopt Runtime/controller behavior, or promote Object-specific latch semantics into Universal Creation.
 
-Runtime candidate authority:
+## Exact source / rig identity
 
-- Runtime head: `e7874c4a8dca1db48bc66f3546c2134f7d724456`;
-- retained Runtime artifact: `10477292250`;
-- independently checked archive SHA-256: `76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`;
-- FLOAT32 control GLB SHA-256: `8d9bfb80369bda09eaad786a35833cd5e04da5e608211f53648daaa1cde29566`;
-- normalized-u16 candidate GLB SHA-256: `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`.
+Preserved identities:
 
-Technical Art producer authority:
+- Object source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- Hard-Surface ownership donor: PR #14 head `d3fa10a270faae7925811f44f03381fe5c5d0215`;
+- ownership contract: `front-latch-ownership-001`;
+- upper keeper ownership: `latch_0_keeper / latch_1_keeper -> lid_shell`;
+- lower lever ownership: `latch_0_lever / latch_1_lever -> front_service_panel`;
+- historical lid Rigging donor: PR #3 head `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- lid articulation plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
+- joint: `rear-lid-hinge-001`;
+- exact source hinge origin: `[0.0, 0.252, 0.306] m`;
+- exact source hinge axis: `+X`;
+- retained open-angle envelope: `0..110°`;
+- step: `1°`;
+- previous target-binding Rigging head: `9556308c9986f71519bc488badc1b1a63e855e7e`.
 
-- Technical Art head: `54c9c11505e798a56619ebc14e9ab41f522eef70`;
-- retained producer artifact: `10477320699`;
-- independently checked archive SHA-256: `bc5fe4798ce0c43d04338114905ccf1ae8cd9a676800e824571b60aef9aff15b`.
+The ownership donor is an ancestor of the receiving Rigging branch. The historical lid plan is consumed by exact donor identity rather than silently copied/relabelled.
 
-Rig / source lineage remains exact:
+## 111-pose socket proof
 
-- source Rigging head: `4acd9286140dd008f2a4f01ff513912497313e4f`;
-- historical rig donor: `04760112deb81a8d145226fe7ee02923107c9916`;
-- rig-plan SHA-256: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
-- transported weighting ID: `smoothstep-v0`;
-- Geometry head: `ca4bb8a2f144231f8755eacc980785d1807b79db`;
-- exact transported Animation source head: `1a8c929ce4372c4b1b1f29e9ac4cadd0cc26ac48`;
-- retained authored key count: `41`.
+The observer rebuilds the unchanged deterministic Object source and evaluates both exact upper keepers under the historical lid transform at every integer degree from `0°` through `110°`.
 
-The candidate differs from the FLOAT control only in `WEIGHTS_0` representation: FLOAT32 -> normalized `UNSIGNED_SHORT`. POSITION, NORMAL, TANGENT, TEXCOORD_0, JOINTS_0, triangle indices, joint nodes/skin, animation times and animation rotations remain exact between the two decoded inputs.
+For each pose it checks:
 
-## Weight + deformation proof
+- recovered keeper center offset in the lid-local frame;
+- rigid keeper corner-pair distances;
+- fixed lower lever center under its service-panel owner;
+- bilateral keeper X symmetry;
+- exact source, ownership, lid-rig and previous-Rigging identities.
 
-The exact candidate's maximum decoded weight-slot error is:
+Direct retained totals:
 
-- **`6.656398159820068e-06`**, below the normalized-u16 single-slot bound `1/65535`.
+- **111 lid poses**;
+- **2 source-owned keeper sockets per pose**;
+- maximum lid-local keeper-center residual: **`1.734723475976807e-16 m`**;
+- maximum keeper corner-pair rigidity drift: **`1.8041124150158794e-16 m`**;
+- maximum lower service-panel lever center drift: **`0.0 m`**;
+- maximum bilateral keeper X residual: **`0.0 m`**.
 
-The existing rig was replayed over all **41 exact authored keys** and all **84 render vertices**:
+Representative retained motion boundary:
 
-- **3,444 posed vertex comparisons**;
-- maximum FLOAT-control vs normalized-u16 candidate skinned-POSITION delta: **`1.4897262690003554e-07 m`**;
-- retained Rigging deformation bound: **`2e-07 m`**;
-- maximum temporal mirror residual of the candidate/control position delta: **`0.0 m`**.
+**`0 / 30 / 50 / 60 / 90 / 100 / 110°`**.
 
-Representative motion boundary:
+The added `50° / 100°` representatives deliberately overlap Materials #6's owner-bound review poses. That overlap is for provenance continuity only; Materials' visual evidence is not reclassified as Rigging or Animation acceptance.
 
-- key 0 / `0.00 s` / `0°`: `1.1102230246251565e-16 m`;
-- key 10 / `0.25 s` / `~9.000000603°`: `7.471664821276449e-08 m`;
-- key 20 / `0.50 s` / `~17.999999202°`: **`1.4897262690003554e-07 m`**;
-- key 30 / `0.75 s` / `~9.000000603°`: `7.471664821276449e-08 m`;
-- key 40 / `1.00 s` / `0°`: `1.1102230246251565e-16 m`.
+### Fail-closed controls
 
-This is a finite authored-key proof, not mathematical continuous-motion proof between keys.
+- changing a keeper owner away from `lid_shell` fails;
+- changing the lid-articulation donor identity fails;
+- a deliberate **`+1 mm`** keeper local-socket offset mutation fails as `keeper local socket offset drift`.
 
-### Fail-closed negative control
+The retained negative-control record is:
 
-At the peak authored key, one blended child weight is deliberately shifted by **64 normalized-u16 steps**. The observer produces a **`2.704031056959096e-05 m`** position signal, above the retained `1e-05 m` detection floor, so the observer fails closed on materially larger weight drift.
-
-## Preserved direction-frame HOLD
-
-The earlier PR #25 direction-field boundary remains active and is **not reclassified**:
-
-**`HOLD_DEFORMED_STATIC_NORMAL_TANGENT_TRANSPORT_EQUIVALENCE`**
-
-Historical mismatch remains:
-
-- deformation-only NORMAL excess: **`7.541933278181338°`**;
-- corrected TANGENT excess: **`3.6840862372161047°`**.
-
-The separate Rigging measurement result `PASS_TRANSPORTED_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_41_KEYS` also remains separate. Technical Art has not silently adopted that reconstruction policy.
+**`PASS_FAILS_CLOSED_ON_1MM_KEEPER_SOCKET_OFFSET_DRIFT`**.
 
 ## CI / retained evidence
 
-New dedicated workflow:
+Dedicated workflow:
 
-- `.github/workflows/rigging-normalized-u16-weight-rebind.yml`;
-- exact workflow run: **`35178277752`**;
-- Python **3.11 success**: full Animal regression suite + exact normalized-u16 deformation observer + evidence build/upload;
-- Python **3.13 success**: full Animal regression suite;
-- exact-head evidence artifact: **`10478912800`**;
-- artifact size: **`1,953 B`**;
-- GitHub artifact SHA-256: **`99a48f48fe1a9c622f1f46a27370a7239df7e17a8dcf9d1c9eb0b32f6a57a088`**;
-- independently downloaded/rehashed artifact SHA-256: **`99a48f48fe1a9c622f1f46a27370a7239df7e17a8dcf9d1c9eb0b32f6a57a088`**.
+- `.github/workflows/object-lid-keeper-socket-binding.yml`;
+- exact run: **`35182107287`**;
+- Python **3.11: success** — full Object regression suite, exact donor checkout, 111-pose evidence build, +1 mm negative control, truth-boundary gate and artifact upload;
+- Python **3.13: success** — full Object regression suite and exact lineage checks;
+- exact retained artifact: **`10481155304`**;
+- artifact size: **`12,377 B`**;
+- GitHub artifact SHA-256: **`d0bb4ff6df6afe236a127f6afd1417af650577943a6f8187401e070feffd889b`**;
+- independently downloaded/rehashed SHA-256: **`d0bb4ff6df6afe236a127f6afd1417af650577943a6f8187401e070feffd889b`**.
 
-The artifact contains `exact-head.txt`, `receipt.json`, and `summary.txt`, all bound to `e4ce8c1f4c3deb55220cf962206d51013d0cfe73`.
-
-### Prior JOINT-index rebind CI closure
-
-The previous JOINTS_0 width rebind is no longer queued:
-
-- exact run `35174927877`: **completed / success** at `bbc61b0c920670e4cea4a85e43e2f6157a3987d0`;
-- exact retained artifact `10477999236`;
-- artifact SHA-256 `598f24c1bb90eacd78045c373537520f33de2cb03e31f1a6dccbeda16ff2ac0b`.
-
-Its earlier real malformed-workflow provenance remains preserved in Git history; no failed evidence was silently erased.
+The artifact retains the exact head, ownership head, historical lid-rig head, previous Rigging head, exact ownership contract, exact historical lid plan, full 111-pose receipt, summary and fail-closed record.
 
 ## Handoffs recorded
 
-- **Rigging PR #25:** comment `5708038314` — exact normalized-u16 deformation bound, 41-key metrics, fail-closed mutation, green workflow/artifact and preserved direction-frame HOLD.
-- **Technical Art PR #3:** comment `5708039193` — deformation evidence only; no producer adoption, no post-skin reconstruction adoption, no direction-frame HOLD clearance.
-- **Runtime PR #27:** comment `5708040164` — candidate stays inside the scoped Rigging position bound; importer/controller/device/performance/gameplay acceptance remains Runtime-owned.
-- **Animation PR #5:** comment `5708041143` — exact 41 keys reused solely as observation points; timing/interpolation/playback/acting acceptance remains Animation-owned.
-- **Visual QA / Art Direction:** the previously observed bounded pixel difference from the normalized-weight candidate remains their acceptance boundary; structural Rigging PASS does not decide visible-quality acceptance.
+- **Rigging PR #27:** comment `5708563613` — exact PASS metrics, CI, artifact identity, negative-control result and truth boundary.
+- **Hard-Surface PR #14:** comment `5708564492` — the exact source-owned keeper identity is consumed without changing Hard-Surface semantics.
+- **Materials PR #6:** comment `5708565550` — Rigging now supports the same owner-follow provenance at `50° / 100°`; visual/material acceptance remains Materials / Art / QA-owned.
+- **Animation PR #10:** comment `5708566469` — no Animation acceptance is inherited; Animation must explicitly rebind if it chooses to include keeper motion in its clip.
+- **Prior Rigging PR #23:** comment `5708567593` — #23 remains lower-lever / target-hierarchy authority; #27 adds upper keeper-to-lid socket continuity only.
 
-## Truth boundary / explicit non-claims
+Technical Art / Runtime have no automatic adoption from this source-side proof. If either transports or drives the keeper hierarchy, they must bind the exact successor explicitly.
 
-This PASS proves only that the exact Runtime normalized-u16 `WEIGHTS_0` candidate, decoded against the exact retained Technical Art producer and existing Rigging identity, keeps skinned POSITION within `2e-07 m` of the FLOAT control at the 41 authored keys.
+## Explicit HOLD / non-claims
 
-It does **not** establish:
+This PASS does **not** establish:
 
-- deformed NORMAL/TANGENT transport equivalence;
-- a new or better weighting profile;
-- continuous real-angle deformation proof;
-- anatomy, muscle/volume preservation, skin sliding, or final deformation quality;
-- Technical Art producer adoption;
-- Animation timing/interpolation/clip/playback/acting acceptance;
-- Runtime/importer/controller/device memory/FPS/performance/gameplay acceptance;
-- final shaded tangent-space/normal-map quality;
-- Art Direction / Visual-QA acceptance;
+- keeper/lever articulated collision clearance;
+- latch capture, release, hook geometry, retention or combined lever + lid mechanism behavior;
+- continuous collision freedom between the finite one-degree samples;
+- hinge/latch load, strength, wear, friction, spring/damping, manufacturing or tolerance validity;
+- Animation timing, interpolation, style, `AnimationPlayer`, playback or acting acceptance;
+- Runtime/controller/state-machine/input/device/performance/gameplay acceptance;
+- final visual/material acceptance;
 - CANON, production readiness, game readiness, or Rigging mastery.
 
 ## Four-root gate
 
-- **Truth:** exact source/artifact hashes, finite-key scope, quantization residual, negative control, previous JOINT-width CI closure, and the historical direction-frame HOLD remain explicit.
-- **Agency / non-domination:** Rigging does not install the candidate into Technical Art/Runtime, alter Animation, or seize visual-acceptance authority.
-- **Continuity:** Runtime candidate, Technical Art producer, Geometry owner, Rigging donor/plan, exact Animation source and prior PR #25 evidence remain linked and rollback-addressable.
-- **Wisdom before speed:** the storage optimization is measured through the existing deformation before adoption rather than treated as harmless because the decoded numbers look close.
+- **Truth:** exact source/ownership/rig identities, finite 111-pose scope, numerical residuals, artifact digest and negative controls are explicit; no full-latch or continuous-collision story is substituted for measured evidence.
+- **Agency / non-domination:** Rigging does not retime Animation, install Runtime/controller behavior, decide Materials/Art quality, or rewrite Hard-Surface ownership.
+- **Continuity:** PR #27 stacks exactly on PR #23 and pins PR #14 plus historical lid Rigging #3 so the source -> ownership -> rig -> evidence chain remains rollback-addressable.
+- **Wisdom before speed:** the newly explicit keeper ownership is tested through the real historical lid field before downstream transport/playback adoption rather than inferred from visual proximity.
 
 ## Continuity / rollback anchors
 
-Immediate prior Rigging head: **`bbc61b0c920670e4cea4a85e43e2f6157a3987d0`**.
+Immediate prior Rigging status state:
 
-Prior create-me status commit: **`18d397d7b8df6f018eff1d6703a62c60f6d7e0c4`** / prior status blob **`9874aa0b3105ececcb50ac82245cf08c67208c9d`**.
+`PASS_RUNTIME_U16_WEIGHT_CANDIDATE_RIGGING_DEFORMATION_REBIND_41_KEYS / CI_PASS / STATIC_DIRECTION_TRANSPORT_HOLD_PRESERVED` at Animal Rigging head `e4ce8c1f4c3deb55220cf962206d51013d0cfe73`.
 
-Key retained historical lanes:
+That Animal evidence remains valid against its exact identities and is not rewritten by this Object pass. Its deformed static NORMAL/TANGENT transport HOLD also remains historical truth.
 
-- Animal PR #22 `63c65d57fda0595217f86d971ff8c67f256188be` — exact deformed tangent owner PASS;
-- Animal PR #18 `91e2fd01be63df807c035b39f7ec824a4a5a60b8` — deformed logical-quad normal observer PASS;
-- Animal PR #15 `4acd9286140dd008f2a4f01ff513912497313e4f` — exact-mirror topology Rigging rebind PASS;
-- Animal PR #12 `94bc573e2e06ba7a35c9908c141e2f939d4739a8` — bilateral dense sweeps with historical surface-metric HOLD;
-- Character PR #12 `329c485f567faeeb79198c7b1ebc2974b3c3db60` — stitch-edge shoulder rebind with Geometry intersection HOLD retained.
+Key Object anchors retained separately:
+
+- PR #3 `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775` — historical rigid lid articulation + continuous body/lid-shell clearance certificate;
+- PR #20 `a1acd2bcb2074f41e536562f2673508e2cb0a4d5` — source-owned lower latch lever Rigging rebind;
+- PR #23 `9556308c9986f71519bc488badc1b1a63e855e7e` — lower lever target-hierarchy Rigging binding;
+- PR #27 `4a743a8c934b72178ef04ae3f55947bdc7f8def0` — upper keeper lid-socket continuity through the 111-pose lid field.
 
 ## Next Rigging & Deformation pass
 
-1. Re-scan the full design constellation; do not automatically continue Animal.
-2. If Runtime, Technical Art, source Geometry/Rigging/weights, or Animation identity changes, rebind the exact successor rather than transferring this PASS by equivalence.
-3. If Technical Art adopts a concrete post-skin owner-frame reconstruction, audit that exact implementation separately.
-4. Keep Runtime/controller/performance, Animation, shaded visual acceptance, CANON and mastery independent.
+1. Re-scan the full design constellation; do not automatically continue Object or Animal.
+2. If Animation explicitly adopts keeper motion, audit that exact clip/hierarchy handoff without taking Animation timing authority.
+3. If Technical Art / Runtime transport or drive the keeper hierarchy, rebind that exact implementation separately.
+4. Do not claim combined keeper/lever mechanism behavior until an exact collision/release/capture question is source-owned and bounded.
+5. Keep Animation, Runtime, final visual acceptance, CANON and mastery independent.
