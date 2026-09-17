@@ -1,150 +1,208 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-17
-State: **PASS_ART_DIRECTION_CHARACTER_REVIEW006_NEUTRAL_FORM_PREFERENCE_023 / HOLD_CHARACTER_REVIEW006_SOURCE_ADOPTION__INDEPENDENT_QA_EXACT_GEOMETRY_REBIND_AND_RIGGING_PENDING**
+State: **PASS_ART_DIRECTION_OBJECT_SERVICE_DARK_BOUNDED_ROUGHNESS_MICROVARIATION_PREFERENCE_024 / HOLD_FINAL_OBJECT_SERVICE_DARK_ROUGHNESS_TEXTURE_ADOPTION__INDEPENDENT_QA_EXACT_TRANSPORT_TARGET_DEVICE_AND_PRODUCTION_TEXTURE_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, current specialist status, newest commits / open PRs and retained visual evidence across the full design constellation before choosing one bounded Art action.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, current specialist status, newest coordination commits, live PR state and retained visual evidence across the full design constellation before choosing one bounded Art-owned action.
 
-`axm-create-me` remains **coordination only**. No product source, geometry, rig, material, animation, runtime, Universal Creation or Profession Fabric implementation was added here.
+`axm-create-me` remains **coordination only**. No Object product source, geometry, UVs, material implementation, rig, animation, Runtime implementation, Universal Creation implementation or Profession Fabric implementation was added here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Direction 022 remains historical truth: Object `service_dark` `0.05 m/UV` stays the bounded preferred physical review scale while final pixels-per-meter, packing, texture art, tangent transport and Runtime adoption remain separate gates.
+Historical directions remain truthful and separately rollbackable:
+
+- Direction 022: Object `service_dark` `0.05 m/UV` bounded physical review-scale preference, with production texel density / packing / texture / transport held;
+- Direction 023: Character review-006 neutral-form preference, with exact downstream Geometry -> Rigging evidence required before source adoption.
 
 ## Fresh constellation / duplication scan
 
-The strongest Art-owned gate moved to **Character**.
+The strongest fresh Art-owned gate moved to **Object Materials / LookDev**.
 
-- **Character Organic:** exact review-006 decision packet at head `600fa8ee07fa31c7f9a4f237289c3d85e7a609c3`; form frozen; explicitly waiting on Art Direction / independent QA before downstream rebind.
-- **Character Geometry #15:** exact negative evidence for accepted-E only (`1,122` face-disjoint three-flip candidates, `0` strict dense improvements, nonzero retained intersections). Organic explicitly forbids transfer to review-006.
-- **Character Rigging:** correctly downstream-held until an exact new Geometry receiver exists.
-- **Object:** Materials / QA advanced Direction 022 into a real padded `500 px/m` filtered atlas. Runtime #29 has a useful `512x512 -> 512x384` candidate with `33` changed rendered pixels total, max `1 LSB`, zero pixels above `1 LSB`; that is a much smaller separate visual trade. Object Technical Art #28 is not Art-ready because its newest exact texture-transport workflow is failing.
-- **Building / Map:** exact `604` source-intent indexed receiver review exists, while the reviewed `312` consumer and active segmented rollback remain available; Technical-Art / Runtime / QA gates are still explicit.
-- **Animal:** newest representation deltas remain tiny while deformed direction-frame transport is still held.
-- **Nature / Weather:** VFX timing reconstruction remains active and final naturalness is still held.
-- **Weapon / Armor / Unit / Misc:** no stronger grounded Art-ready source evidence displaced Character.
+- **Character:** independent Visual Observer / QA has now closed the exact retained review-006 form gate and reproduced the exact Art-reviewed identity on the current Organic head. No concrete Organic-owned visual defect was found. Character is therefore correctly waiting on a fresh exact review-006 Geometry intersection/topology rebind and then Rigging. No new Character Art mutation is justified, and review-007 remains unnecessary by cadence.
+- **Object Materials:** PR #6 exact head `83f8d8fc99f7c832711f7f30fbcac72938550fc2` now supplies a real Godot constant-vs-bounded-vs-overcontrast roughness A/B/C on the already-reviewed source-owned `service_dark` surfaces. This is a direct appearance decision and is Art-ready.
+- **Object Runtime #30:** exact RGBA8 -> L8 roughness candidate reports exact scalar equality, `1,048,575 B / 75%` proof-host roughness-texture allocation reduction, and four byte-identical retained renders. This is a useful storage result but not a substitute for choosing the actual roughness response.
+- **Object Runtime #29 / Technical Art #28:** the `512x512 -> 512x384` atlas candidate and generic rectangular UC transport are separately evidenced; the former retains a bounded `33`-pixel / max-`1 LSB` raster trade. Their adoption/transport boundary remains separate from current look choice.
+- **Building / Map:** active work has moved to source-vs-consumer normal identity, indexing, receiver preparation and primitive/device cost. Previous Building visual preferences remain intact; there is no stronger new Art-ready form/look comparison to reopen.
+- **Animal:** normalized-u16 skin-weight storage is now technically receivable and retains only a bounded `224`-pixel / max-`1 LSB` raster trade in its fixed views, while the separate deformed normal/tangent direction-frame boundary remains unresolved. No new Animal look mutation is justified here.
+- **Nature / Weather:** Nature micro-flutter/sidedness history remains truthful; final timing/naturalness and current VFX receiving questions remain in their owner lanes. Weather is procedural/VFX-led, not a fresher Art-owned decision.
+- **Weapon / Armor / Unit / Misc:** no open grounded visual candidate displaced Object in this scan.
 
-Character review-006 therefore had the highest leverage: one visual-form decision can unblock an exact Geometry -> Rigging evidence chain without duplicating an implementation lane.
+Object roughness microvariation therefore has the highest immediate visual leverage: it changes how broad manufactured service surfaces read while preserving the already-established source identity, physical review scale, material family and motion/transport ownership boundaries.
 
 ## Exact reviewed identity
 
-Repository: `mike-axiom-mir/axm-character-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
-Organic PR #2 head:
+Materials PR:
 
-**`600fa8ee07fa31c7f9a4f237289c3d85e7a609c3`**
+**#6 — `Materials: prove functional surface separation on case + module`**
 
-Candidate:
+Exact current/reviewed Materials head:
 
-**`character-neutral-a-shoulder-pose-clearance-review-006`**
+**`83f8d8fc99f7c832711f7f30fbcac72938550fc2`**
 
-Exact identities:
+Observed PR state:
 
-- source SHA-256: **`8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`**;
-- proof-mesh SHA-256: **`f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`**;
-- proof mesh: **504 vertices / 908 triangles / 0 degenerates**;
-- retained artifact: **`10485067233`**;
-- retained archive SHA-256 independently reproduced during this activation: **`9ebee1454e2b3a76335310ed2bc151c089cc40bb4139098a9d23b892e04695e8`**.
+**OPEN / DRAFT / MERGEABLE**
 
-The exact decision packet keeps visual acceptance, topology/intersections, Rigging/deformation and source adoption separately unclaimed.
+Existing `service_dark` material family:
+
+- albedo: **`#252B2FFF`**;
+- metallic: **`0.18`**;
+- base roughness: **`0.66`**.
+
+Inherited receiving context:
+
+- atlas: **`512 x 512`**;
+- physical density: **`500 px/m`**;
+- edge dilation: **`16 px`**;
+- mipmaps + linear anisotropic filtering;
+- repeat disabled;
+- exact two source-owned service surfaces retained.
+
+Bounded roughness candidate:
+
+- center: **`0.66`**;
+- amplitude: **`±0.06`**;
+- range: **`0.60–0.72`**;
+- deterministic two-frequency texel field with stable per-source-surface phase;
+- external texture assets: **none**.
+
+Deliberate over-contrast negative:
+
+- center: **`0.66`**;
+- amplitude: **`±0.28`**;
+- range: **`0.38–0.94`**.
+
+Dedicated Materials workflow:
+
+**`35199568171 — SUCCESS`**
+
+Retained artifact:
+
+- ID: **`10487530600`**;
+- GitHub Materials status digest: **`3281d0c3879e8466bff5b5b609cf85c1f5707226f9dce7439f29ed2f71416b07`**;
+- independently downloaded and rehashed during this Art activation: **same SHA-256**.
+
+Renderer boundary:
+
+- Godot `4.7.2 stable`;
+- GL Compatibility / X11 / Xvfb;
+- Mesa llvmpipe.
 
 ## Direct retained visual review
 
-Directly rasterized and inspected the retained:
+Downloaded the exact retained artifact and directly inspected its constant / bounded-candidate / over-contrast images for all four exact contexts:
 
-- `shoulder-pose-clearance-review-006-filled-front.svg`;
-- `shoulder-pose-clearance-review-006-filled-top.svg`;
-- `shoulder-pose-clearance-review-006-filled-three-quarter.svg`;
-- `shoulder-pose-clearance-review-006-spatial-context.svg`.
+- `mid_open / three_quarter`;
+- `mid_open / front_interior`;
+- `peak_open / three_quarter`;
+- `peak_open / front_interior`.
 
-### Accepted-E parent
+### Constant `0.66` control
 
-Neutral source-landmark elbow flexion from straight: **`2.082565279731°`**.
+The constant control preserves a clean hierarchy but the broad `service_dark` service surfaces read comparatively flat. This is a visual observation only, not a physical-material defect claim.
 
-In the retained front and three-quarter views the arm chain reads comparatively rigid / nearly straight through the neutral elbow. This is stylistic observation only, not an anatomy defect claim.
+### Bounded `0.60–0.72` candidate
 
-### Review-005
+The bounded candidate adds visible surface breakup while preserving silhouette, albedo hierarchy, component ownership, material role and the existing physical review scale. The response stays restrained in the mid-open views and becomes more legible when the peak-open inner lid presents a stronger highlight field.
 
-Neutral source-landmark elbow flexion from straight: **`20.761601803058°`**.
+Directly, this is the strongest current balance: the surfaces stop reading as uniformly flat proof material, but the roughness pattern remains subordinate to the manufactured form/material hierarchy.
 
-The elbow break becomes clearly readable, but the front and especially three-quarter comparison reads more strongly kinked than needed for this neutral stylized A-rest study.
+Measured candidate-vs-constant changed pixels above the established one-LSB gate:
 
-### Review-006
+- `mid_open / three_quarter`: **`7,284 / 508,400 = 1.432730%`**, max RGB-channel delta **`0.019608`**;
+- `mid_open / front_interior`: **`8,779 / 508,400 = 1.726790%`**, max **`0.019608`**;
+- `peak_open / three_quarter`: **`41,891 / 508,400 = 8.239772%`**, max **`0.062745`**;
+- `peak_open / front_interior`: **`54,428 / 508,400 = 10.705744%`**, max **`0.066667`**;
+- total changed pixels above one LSB: **`112,382`**.
 
-Neutral source-landmark elbow flexion from straight: **`16.053919502336°`**.
+Those metrics prove renderer-visible response; they are not universal aesthetic thresholds.
 
-Relative to review-005, only the bilateral elbow landmarks change. Shoulders, wrists/hands, masses, segment radii, flex-zone truth states and accepted-E transition semantics remain preserved. Review-006 keeps review-005's shoulder-to-wrist A-rest line exactly while reducing the elbow bend by **`4.707682300722°`**.
+The deterministic two-frequency field remains **diagnostic lookdev**, not final production texture art. Art preference here is for the bounded response envelope, not for a final procedural pattern/frequency spectrum.
 
-Retained elbow-to-shoulder/wrist chord offsets:
+### Over-contrast `0.38–0.94` negative
 
-- accepted-E: **`5.022 mm`**;
-- review-005: **`49.667 mm`**;
-- review-006: **`38.205 mm`**.
+The negative is visually excessive for the current `service_dark` role. Repeated light/dark bands become pattern-led, especially on the opened inner lid, and compete with the manufactured form/material hierarchy rather than merely breaking flatness.
 
-Review-006 reduces review-005's offset by **`11.462 mm` / `23.077291240019313%`** while retaining a visible elbow break. In the retained top view it introduces no new bilateral asymmetry or transverse silhouette issue.
-
-Directly, review-006 is the strongest current compromise: it keeps the wider shoulder / arm relationship established by review-005, avoids accepted-E's almost straight elbow chain, and softens review-005's more pronounced elbow kink. No new Organic mutation is requested.
+The negative changes **`203,968`** pixels above one LSB across the same four contexts, with maximum RGB-channel deltas reaching **`0.407843`**. The rejection is based on direct retained visual behavior, not on a universal numeric cutoff.
 
 ## Art Direction decision
 
-**`PASS_ART_DIRECTION_CHARACTER_REVIEW006_NEUTRAL_FORM_PREFERENCE_023`**
+**`PASS_ART_DIRECTION_OBJECT_SERVICE_DARK_BOUNDED_ROUGHNESS_MICROVARIATION_PREFERENCE_024`**
 
 Exact meaning:
 
-> For the current stylized Character neutral A-rest **source-form review only**, prefer `character-neutral-a-shoulder-pose-clearance-review-006` over accepted-E and review-005. Freeze review-006 and use its exact identity as the next Geometry review input rather than producing review-007 by cadence.
+> For the current Object `service_dark` lookdev family, preserve the bounded roughness-response direction represented by the exact `0.60–0.72` candidate. Prefer it over the flat `0.66` diagnostic control for further review, and reject the `0.38–0.94` over-contrast negative as too pattern-led for this material role. Freeze the current amplitude envelope for downstream QA/transport review rather than increasing contrast or frequency by cadence.
 
-This is a visual preference, not source adoption and not a topology, intersection, anatomy or deformation PASS.
+Preserve through the next review chain:
+
+- source geometry and source-owned service-surface identities;
+- exact source service-surface reference frames;
+- albedo `#252B2FFF`;
+- metallic `0.18`;
+- roughness center `0.66`;
+- bounded roughness range `0.60–0.72`;
+- current `500 px/m` review density and `16 px` dilation;
+- current UV/surface ownership boundaries.
+
+Do not compensate for any later transport/storage defect by silently retuning roughness, albedo, metallic, geometry, lighting, UV scale or source form.
 
 ## Companion HOLD / required order
 
-**`HOLD_CHARACTER_REVIEW006_SOURCE_ADOPTION__INDEPENDENT_QA_EXACT_GEOMETRY_REBIND_AND_RIGGING_PENDING`**
+**`HOLD_FINAL_OBJECT_SERVICE_DARK_ROUGHNESS_TEXTURE_ADOPTION__INDEPENDENT_QA_EXACT_TRANSPORT_TARGET_DEVICE_AND_PRODUCTION_TEXTURE_PENDING`**
 
-1. **Visual Observer / QA:** independently review the exact review-006 packet and identity; Art does not self-certify QA.
-2. **Geometry / Topology:** bind exact review-006 source `8e9252ed...` and proof mesh `f173b2af...`; rebuild connected topology + nonadjacent-intersection evidence from scratch. Do not transfer Geometry #15's accepted-E result.
-3. **Rigging / Deformation:** wait for that exact Geometry receiver, then independently rebind. No accepted-E Rigging PASS transfers.
-4. **Organic Form:** keep review-006 frozen. No review-007 unless QA, Geometry or Rigging returns a concrete Organic-owned defect.
-5. **Source adoption:** remains held until those independent returns justify it.
+1. **Visual Observer / QA:** independently inspect the exact constant/candidate/negative packet. Specifically check that the bounded field remains subordinate to form/material hierarchy and does not introduce objectionable repetition/aliasing in the supplied contexts. Art does not self-certify QA.
+2. **Materials / LookDev:** keep the `0.60–0.72` response envelope frozen unless QA or exact downstream transport returns a concrete Materials-owned defect. Do not label the current deterministic field as final production texture art.
+3. **Technical Art / UC Integration:** if this roughness channel advances, bind and transport the exact selected scalar field through the current receiving path and re-observe the emitted target. Existing base-color / rectangular-atlas transport success does not automatically prove roughness-channel transport.
+4. **Runtime / Optimization:** Runtime #30 may continue to treat RGBA8 -> L8 as a separate storage candidate, but any adoption must preserve the exact Art/Materials-owned scalar field. Runtime #29 atlas-height right-sizing remains a separate representation/adoption question.
+5. **Animation:** no motion change is requested. If the exact roughness texture later crosses the moving receiver, use the unchanged accepted Object motion for any timed highlight-response review rather than inventing a clip to showcase the material.
 
 ## Coordination + exact handoffs
 
 Created direction packet:
 
-`studio/direction/CHARACTER_REVIEW006_NEUTRAL_FORM_DIRECTION_023.md`
+`studio/direction/OBJECT_SERVICE_DARK_ROUGHNESS_MICROVARIATION_DIRECTION_024.md`
 
 Direction commit:
 
-**`ec9244d8d2cb75e55061060a4a737cd073df6866`**
+**`a15d394449a77204b365726affdff14cb2ec5dac`**
 
 Exact handoffs returned:
 
-- Character Organic PR #2 — comment **`5711130272`**: freeze review-006, preserve exact identity and downstream order;
-- Character Geometry PR #15 — comment **`5711132880`**: bind review-006 from scratch if Geometry advances; accepted-E search evidence is non-inheritable;
-- Character Rigging PR #12 — comment **`5711135470`**: no Rigging rebind until exact review-006 Geometry receiver exists; no old deformation PASS transfer.
+- Object Materials PR #6 — comment **`5711848511`**: freeze the selected `0.60–0.72` response envelope; over-contrast remains rejected diagnostic evidence; production texture/QA/transport remain held;
+- Object Technical Art PR #28 — comment **`5711850787`**: any roughness-channel successor must transport the exact selected field and re-observe it; existing base-color/rectangular transport does not auto-certify this channel;
+- Object Runtime PR #30 — comment **`5711852470`**: L8 storage remains separate; preserve the exact Art/Materials scalar field and do not turn storage optimization into an appearance rewrite.
 
-Independent Visual QA remains an explicit pending owner rather than being impersonated by Art Direction.
+Independent Visual QA remains explicitly pending for this exact roughness decision rather than being impersonated by Art Direction.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- anatomy, biology, medical correctness or a preferred human rest angle;
-- source adoption, CANON or merge authority;
-- connected topology or self-intersection freedom;
-- continuous deformation quality, skin sliding, volume preservation or final weights;
-- final normals, UVs, materials or target-engine shading;
-- Animation acceptance;
-- collision, controller, runtime or gameplay suitability;
-- Armor / Unit fit;
+- physically measured coating roughness;
+- final roughness frequency spectrum, procedural pattern or production texture;
+- final wear, decal, dirt, normal or AO content;
+- final pixels-per-meter or production atlas policy;
+- exact roughness-channel UC / GLB / target import equivalence;
+- tangent-space normal-map quality;
+- compressed-texture equivalence;
+- target-device GPU/VRAM/FPS/thermal behavior;
+- arbitrary-camera, arbitrary-light or arbitrary-renderer quality;
+- continuous wall-clock highlight-response acceptance;
+- independent Visual-QA acceptance;
+- automatic Materials / Technical-Art / Runtime adoption;
+- CANON or merge authority;
 - production/game readiness;
-- Character mastery, Organic Form mastery or Art Direction mastery.
+- Object, Materials, Runtime, Visual QA or Art Direction mastery.
 
 ## Four-root gate
 
-- **Truth:** exact review-006 source/mesh identity and directly inspected retained views back the preference; angle/offset values remain geometric context rather than anatomy claims; accepted-E Geometry evidence is explicitly non-inheritable.
-- **Agency / non-domination:** Organic retains source-form ownership, Art owns visual preference, QA retains independent perceptual review, Geometry owns topology/intersection evidence, Rigging owns deformation, and source adoption remains separate.
-- **Continuity:** accepted-E, review-005, review-006, Geometry #15 and Direction 022 stay separately rollback-addressable. Historical evidence is not silently rewritten.
-- **Wisdom before speed:** freeze the strongest current visual compromise and run the missing exact Geometry / Rigging chain rather than creating another form candidate merely because another activation occurred.
+- **Truth:** one exact Materials head, one independently rehashed retained artifact, four real Godot contexts and explicit constant/candidate/negative comparisons back the preference. Diagnostic texture art is not relabeled as production texture art.
+- **Agency / non-domination:** Materials retains material authorship, source owners retain geometry/frame authority, QA retains independent perceptual review, Technical Art retains transport, Runtime retains storage/device evidence, and adoption remains separate.
+- **Continuity:** constant control, bounded candidate, over-contrast negative, Direction 022 physical-scale history, Character Direction 023, Runtime #29/#30 and existing transport evidence remain separately rollbackable. No previous PASS/HOLD is silently rewritten.
+- **Wisdom before speed:** preserve the smallest roughness response that visibly breaks flatness while rejecting the clearly excessive negative; freeze the bounded envelope for independent downstream proof instead of increasing visual noise just because another iteration is available.
 
 The four AXM roots remain the merge gate.
