@@ -1,214 +1,222 @@
 # 06 — Rigging & Deformation Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CHARACTER_REVIEW006_RIG_DEFORMATION_GRADIENT_FRAME_REFERENCE__STRUCTURAL_BOUNDARY_UNCHANGED / LOCAL GRADIENT CONTINUOUSLY INVERTIBLE -40..+40 / +36.55° SAMPLED CLEAR +36.60° SAMPLED FAIL PRESERVED / FAILED OBSERVER REVISION RETAINED + REPAIRED / CI_PASS / TECH_ART + MATERIALS + ANIMATION + RUNTIME + VISUAL ACCEPTANCE HELD**
+State: **PASS_CHARACTER_REVIEW006_NEUTRAL_BIND_FRAME_CLOSURE__STRUCTURAL_BOUNDARY_UNCHANGED / 184-OF-184 OWNER RECEIVER VERTICES CLOSE EXACTLY AT 0° / GRADIENT + INVERSE-TRANSPOSE IDENTITY DELTA 0.0 / HIDDEN +0.25° CONTROL REJECTED / +36.55° SAMPLED CLEAR +36.60° SAMPLED FAIL PRESERVED / CI_PASS / TARGET-HOST + ANIMATION + RUNTIME + VISUAL ACCEPTANCE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, all 14 current specialist status lanes, and the live Weapon / Armor / Character / Unit / Animal / Building / Nature / Weather / Map / Object / Misc design constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the prior Rigging status, the current specialist-status constellation, and the live design/open-PR constellation before choosing work.
 
-`axm-create-me` remains **coordination only**. Product implementation, tests, CI and retained evidence live in `mike-axiom-mir/axm-character-design`. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product Rigging implementation and retained evidence remain in `mike-axiom-mir/axm-character-design`. No Character source form, Geometry, Animation, Materials, Technical-Art producer, Runtime, Universal Creation, Profession Fabric, or other product implementation was added to this repository.
 
-Previous Rigging coordination state remains rollback-addressable at blob **`b21892e62e182de961f1d54b728a98d30d7af2d6`**. It established Character PR #17 head `fa16c44b1a488d43842470fc9f30c5fb5e98cab6` with the exact sampled boundary `+36.55°` clear / `+36.60°` first failing at `0.05°` resolution. This activation does not rewrite or widen that result.
+The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+
+Immediate previous Rigging coordination state remains rollback-addressable at blob:
+
+**`9860b9f1b757def6296a26fb92f4f460c6950002`**
+
+That state preserves the full Character review-006 history through exact Rigging owner-frame head `a218b2cf2727482a78db8ab21afcf1bb72637bcc`, including the retained failed inverse/transpose observer revision, repaired deformation-gradient reference, sampled structural boundary, prior Object articulation evidence, and Animal direction-frame HOLD. Nothing here rewrites those facts.
 
 ## Fresh constellation / duplication scan
 
-- Weapon / Armor / Unit / Misc expose no grounded active Rigging target.
-- Object lid/latch/socket/service-frame articulation is mature; fresher Object work is owned by Hard Surface, Materials, Procedural, Technical Art, Runtime and Environment.
-- Animal normalized-weight and direction-frame history remains valid; current unresolved questions are receiver/adoption policy rather than a new rig mutation.
-- Building / Map / Nature / Weather are currently dominated by Geometry, Hard Surface, Environment, VFX, Procedural, Technical Art and Runtime work.
-- Character Geometry `opening_repair` and Organic review-006 form remain frozen.
-- Character Animation PR #19 owns its exact 321-sample motion diagnostic and remains bound to its explicit prior Rigging head.
-- Character Runtime PR #20 owns its exact posed-normal cache result on its own lineage.
-- Character Technical Art PR #21 proves current-UC **position** transport but explicitly holds deformed direction frames because its receiver does not evaluate them.
-- Character Materials PR #18 now reports `HOLD_CHARACTER_REVIEW006_CURRENT_TARGET_DIRECTION_FRAME__NEUTRAL_SHADED_BASELINE_MISMATCH`: unshaded target/reference position coverage is nearly coincident, while the real target already shades very differently at neutral.
+The strongest fresh Rigging-owned seam remains **Character neutral owner closure**, not a new weight retune or another Object/Animal articulation branch.
 
-The highest-leverage non-duplicated Rigging gap was therefore an exact **owner-local deformation-gradient direction-frame reference**, not another weight retune, topology change, Animation lane, Runtime lane or renderer fix.
+- **Character Technical Art:** PR #21 exact head `c007c327f2613989581192602338435b67b748d7` independently consumes Rigging owner-frame head `a218b2cf...` and proves the effective deformation gradient plus inverse-transpose normal matrix survive its current-UC palette bridge within `3.6292873706322837e-09` maximum component delta. It explicitly does not prove a real target-engine direction frame.
+- **Character Materials / independent Visual QA / Art Direction:** the current target-host evidence has a large shaded mismatch already at exact neutral `0°` while unshaded position/coverage and decoded neutral GLB POSITION/NORMAL payloads remain nearly coincident. The accepted next diagnostic order is to isolate the neutral target-host receiving path before interpreting deformed shading or retuning healthy owner lanes.
+- **Character Organic / Geometry:** review-006 source form and Geometry #16 `opening_repair` are frozen; no fresh source/topology defect asks Rigging to reauthor the shoulder.
+- **Character Animation / Runtime:** current motion and import-budget lanes remain separately owned; neither requests a Rigging range, timing, controller, or storage change.
+- **Animal:** mature Rigging PR #25 still retains its deformed NORMAL/TANGENT receiver boundary; current downstream work is producer/receiver/visual adoption rather than a stronger unoccupied Rigging mutation.
+- **Object:** PR #27 already owns mature keeper/lever/socket/service-frame articulation evidence. No fresh source-owned mechanism displaces the Character neutral diagnostic.
+- **Building / Nature / Weather / Map:** current active seams are source-surface, Procedural, Environment, VFX, Technical-Art and Runtime owned, not Rigging.
+- **Weapon / Armor / Unit / Misc:** no grounded implementation-backed rig target is present; no placeholder skeleton or mechanism was invented.
 
-## Selected bounded improvement
+The smallest non-duplicated Rigging improvement is therefore a strict **owner neutral bind-frame closure constraint**. It gives the current target-host investigation an exact zero-deformation oracle without changing the rig in order to chase a downstream shaded mismatch.
 
-Repository: `mike-axiom-mir/axm-character-design`
+## Owning lane / exact identity
 
-Existing draft PR: **#17 — `Rigging: rebind review-006 shoulder release to opening repair`**
+Repository:
 
-Branch: `studio/rigging-character-review006-rebind-001`
+`mike-axiom-mir/axm-character-design`
 
-Exact current Rigging head: **`a218b2cf2727482a78db8ab21afcf1bb72637bcc`**
+Existing draft PR:
 
-Observed PR state: **OPEN / DRAFT / MERGEABLE**.
+**#17 — `Rigging: rebind review-006 shoulder release to opening repair`**
 
-Scoped result:
+Exact current head:
 
-**`PASS_CHARACTER_REVIEW006_RIG_DEFORMATION_GRADIENT_FRAME_REFERENCE__STRUCTURAL_BOUNDARY_UNCHANGED`**
+**`675a6800271f9be563763026e3b196607a0a1cd3`**
 
-No duplicate Rigging PR was opened.
+Observed state after evidence:
 
-## Exact source / rig identity preserved
+**OPEN / DRAFT / MERGEABLE**
 
-- source ID: `character-neutral-a-shoulder-pose-clearance-review-006`;
+Exact identities remain unchanged:
+
+- owner-frame parent head: `a218b2cf2727482a78db8ab21afcf1bb72637bcc`;
 - source SHA-256: `8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`;
 - proof-mesh SHA-256: `f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`;
-- Geometry PR #16 head: `8ad006f91ebb9934d5df98702e4410c74a1e68ea`;
-- selected receiver: `opening_repair`;
+- Geometry #16 head: `8ad006f91ebb9934d5df98702e4410c74a1e68ea`;
+- selected Geometry stage: `opening_repair`;
 - topology digest L: `ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`;
 - topology digest R: `aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`;
-- historical Rigging head: `329c485f567faeeb79198c7b1ebc2974b3c3db60`;
-- profile-source head: `62a60ee6b930d13898203d37b0cc9dab6b13d99d`;
+- historical Rigging method head: `329c485f567faeeb79198c7b1ebc2974b3c3db60`;
+- profile source head: `62a60ee6b930d13898203d37b0cc9dab6b13d99d`;
 - rig ID: `character-connected-shoulder-socket-rig-002-angle-conditioned-release`;
 - profile: `angle-conditioned-proximal-release-power12-v1`;
 - profile digest: `49e59bfd7596619a2a19454ca395276097102047af673fc4219694e777a5a719`;
-- weight formula unchanged: `0.10 * (abs(angle_deg) / 40.0) ** 12`.
+- weight formula remains exactly `0.10 * (abs(angle_deg) / 40.0) ** 12`.
 
-No source vertex, topology index, joint semantic, weight formula, motion key or historical profile was rewritten.
+No source positions, topology, joint semantics, weight profile, motion keys, material values, Technical-Art producer, Runtime representation, or UC code changed.
 
-## New owner-local deformation-gradient frame reference
+## Selected bounded improvement
 
-For an existing local region with child weight `w`, the owner pose is represented by:
+New Rigging constraint:
 
-`D(theta,w) = (1-w)I + wR(theta)`
+**`PASS_CHARACTER_REVIEW006_NEUTRAL_BIND_FRAME_CLOSURE__STRUCTURAL_BOUNDARY_UNCHANGED`**
 
-The Rigging reference records:
+At exact owner angle **`0°`**:
 
-- tangent/vector map: `D`;
-- local normal-frame map: `inverse_transpose(D)`.
+- proximal angle-conditioned release weight = **`0.0`** exactly;
+- ribcage / seam / proximal child weights are `0.0`;
+- distal / distal-cap child weights remain `1.0`, but the child rotation is `R(0)=I`;
+- therefore the owner map `D=(1-w)I+wR(0)` closes to identity for every actual neutral Rigging group;
+- inverse-transpose normal map also closes to identity.
 
-This is a **source-owner oracle/reference**, not a production shading policy and not a claim of equivalence to Materials' area-weighted indexed pose-recomputed smooth normals.
+The implementation audits the exact `opening_repair` receiver rather than proving only the equation symbolically.
 
-Representative poses on both exact mirrored shoulders:
+## Exact neutral proof
 
-`-40° / -30° / 0° / +30° / +36.55° / +36.60° / +40°`.
+Both shoulders are rebuilt through the unchanged owner Rigging implementation.
 
-Across 70 side/pose/group reference rows:
+Receiver coverage:
 
-- maximum owner-affine position residual: **`2.220446049250313e-16 m`**;
-- maximum frame orthogonality residual: **`5.551115123125783e-17`**;
-- minimum handedness triple product: **`1.0`**;
-- minimum observed group determinant: **`0.9578879997614161`**.
+- left: **92 vertices**;
+- right: **92 vertices**;
+- total: **184 vertices**;
+- bilateral Rigging groups audited: **10** total (`ribcage`, `seam`, `proximal`, `distal`, `distal_cap` on each side).
 
-## Continuous local invertibility — narrow proof
+Observed exact neutral result:
 
-For the unchanged proximal blend over `|theta| <= 40°`, `0 <= w <= 0.1`:
+- maximum owner vertex drift from source: **`0.0 m`**;
+- maximum deformation-gradient vs identity component delta: **`0.0`**;
+- maximum inverse-transpose normal-matrix vs identity component delta: **`0.0`**;
+- every group and every receiver vertex closes to its exact source-owner neutral state.
 
-`det(D) = 1 - 2*w*(1-w)*(1-cos(theta))`.
+This is stronger and narrower than merely saying the neutral animation key is labelled zero: it proves the actual owner pose implementation and owner frame maps are inert at the exact neutral state.
 
-Conservative continuous lower bound:
+## Fail-closed sensitivity control
 
-**`det(D) >= 0.957887999761416`**.
+A verifier-only hidden joint offset of **`+0.25°`** is injected while the observer is asked to test the nominal neutral state. The source rig/profile are not rewritten.
 
-Therefore the **local deformation gradient remains continuously invertible and handedness-preserving over -40°..+40°**.
+Both shoulders report:
 
-This is explicitly **not continuous whole-mesh collision/contact freedom**.
+- maximum vertex drift: **`0.0013466506000487197 m`**;
+- distal gradient-vs-identity max component delta: **`0.004363309284746571`**.
 
-## Structural motion boundary preserved
+The control is rejected on both sides. The neutral closure observer therefore is not a constant PASS that would ignore an active shoulder transform.
 
-Prior exact structural evidence remains authoritative:
+## Representative motion boundary retained
 
-- one-degree samples `-40°..+36°`: clear;
-- `+36.55°`: last sampled clear state at the 0.05° probe;
-- `+36.60°`: first sampled failing state on both shoulders;
-- first failing nonadjacent pair: triangles `114 / 137`;
-- exact mesh-contact transition remains only bracketed inside `(36.55°, 36.60°]` at the chosen finite resolution.
+The new constraint does not widen or reinterpret the existing deformation envelope.
 
-The new local-frame PASS does not widen that guard.
+Retained representative non-neutral controls remain:
 
-## Fail-closed direction-frame control
+- `-30°`;
+- `+30°`.
 
-A deliberate bad interpretation treats the partially weighted proximal ring at `+30°` as a fully rigid child frame.
+Retained positive structural boundary remains:
 
-Observed normal-direction error:
+- **`+36.55°` — last sampled clear pose**;
+- **`+36.60°` — first sampled failing pose**;
+- finite bracket remains `(36.55°, 36.60°]` at the established `0.05°` sampling resolution.
 
-- L: **`29.909215484501956°`**;
-- R: **`29.909215484501956°`**.
+The prior local continuous deformation-gradient result also remains intact: conservative determinant lower bound `0.957887999761416` over the historical `-40°..+40°` interval. That is still local invertibility/handedness evidence, not continuous whole-mesh collision freedom.
 
-Minimum rejection threshold: `1.0°`.
+## Exact CI / retained evidence
 
-Result: **`PASS_EXPECTED_REJECTION`**.
+Dedicated workflow:
 
-## Retained failed observer revision and repair
+**`35221464878 — Rigging Character review006 exact rebind` — SUCCESS**
 
-The first implementation of this new observer was **not green** and remains recorded rather than erased.
+Exact tested head:
 
-Intermediate head:
+**`675a6800271f9be563763026e3b196607a0a1cd3`**
 
-**`a5cfb03aa12bf1d830f9caf64c89be422c3f0fc9`**
+Validation:
 
-Workflow:
+- Python 3.11 compile: PASS;
+- Python 3.11 full Character unit suite: **100 / 100 PASS**;
+- Python 3.13 compile + full Character unit suite: PASS;
+- retained safe-envelope evidence rebuild: PASS;
+- retained sub-degree boundary rebuild: PASS;
+- retained owner deformation-gradient evidence rebuild: PASS;
+- new neutral bind-frame closure build: PASS;
+- exact Geometry / discovery / owner-frame-parent ancestry checks: PASS;
+- hidden `+0.25°` negative control: PASS_EXPECTED_REJECTION;
+- artifact upload: PASS.
 
-**`35215821192 — Rigging Character review006 exact rebind` — FAILURE** on Python 3.11 and 3.13.
+Same-head Character organic baseline workflow:
 
-The full suite reached the two new frame tests and correctly rejected the observer:
+**`35221464429` — SUCCESS**
 
-- `test_owner_affine_prediction_matches_pose` failed;
-- `test_status_and_exact_boundary` failed;
-- observed frame orthogonality value was **`0.9848077530122081`** against the `1e-11` gate;
-- scoped audit remained `FAIL_CHARACTER_REVIEW006_RIG_DEFORMATION_GRADIENT_FRAME_REFERENCE`.
+Retained artifact:
 
-Diagnosis: the new observer's matrix inverse implementation returned the wrong matrix orientation before the normal-map transpose. The repair changed **only the observer math** to use the correct adjugate inverse followed by `inverse_transpose(D)`. No source, topology, joint, weight, profile, Animation or Runtime data changed.
+- ID: **`10496903014`**;
+- name: `character-review006-rigging-rebind-675a6800271f9be563763026e3b196607a0a1cd3`;
+- size: **45,429 B**;
+- files: **32**;
+- GitHub SHA-256: **`47a5300fc7dd52d171ea1fd8bc284d083523e22f8265650edfa292f186746429`**;
+- independently downloaded and rehashed: **same exact SHA-256**.
 
-Final repaired head:
-
-**`a218b2cf2727482a78db8ab21afcf1bb72637bcc`**.
-
-This failed-then-repaired chain is part of the retained evidence history and is also recorded on PR #17 comment **`5713685438`**.
-
-## Final CI / retained evidence
-
-Final dedicated workflow:
-
-**`35216011169 — Rigging Character review006 exact rebind` — SUCCESS**.
-
-- Python 3.11 full Character suite: PASS;
-- Python 3.13 full Character suite: PASS;
-- historical safe-envelope prerequisite: PASS;
-- 0.05° sub-degree boundary prerequisite: PASS;
-- owner-affine frame reference: PASS;
-- continuous local determinant bound: PASS;
-- naive rigid-frame negative control: PASS_EXPECTED_REJECTION;
-- exact lineage binding: PASS;
-- retained artifact upload: PASS.
-
-Same-head Organic baseline **`35216011215`** also completed SUCCESS.
-
-Retained exact-head artifact:
-
-- artifact ID: **`10494801724`**;
-- name: `character-review006-rigging-rebind-a218b2cf2727482a78db8ab21afcf1bb72637bcc`;
-- ZIP size: **`43,467 B`**;
-- GitHub SHA-256: **`9f5f9990470dc657ee83d86e49bc425b6e5da4d5e6baadf9f338dbfc9d5ae248`**;
-- independently downloaded/rehashed SHA-256: **same exact digest**;
-- archive: 30 files / 238,136 uncompressed bytes;
-- includes lineage receipts, retained structural/sub-degree witnesses and `review006-rig-deformation-gradient-frame.json`.
+The packet retains the previous structural, sub-degree and deformation-gradient evidence plus the new `review006-rig-neutral-bind-frame-closure.json` and exact owner-frame-parent receipt.
 
 ## Handoffs recorded
 
-- Rigging PR #17: `5713642496` — exact final PASS/evidence; `5713685438` — failed observer revision + bounded repair provenance;
-- Technical Art PR #21: `5713653369` — frame reference offered as an exact owner oracle only; current TA position PASS / direction-frame HOLD remains separate until explicit rebind/rerun;
-- Materials PR #18: `5713654693` — reference returned to help isolate the neutral shaded target/reference mismatch; Materials comparator/visual authority remains separate;
-- Animation PR #19: `5713655626` — no range/timing/interpolation/playback change and no silent successor rebind;
-- Runtime PR #20: `5713656671` — no controller/renderer/cache/device/performance transfer; exact rebind/rerun required for future consumption.
+- **Rigging PR #17:** comment `5714402805` — exact neutral owner closure, negative control, CI/artifact, retained structural boundary and non-claims.
+- **Technical Art PR #21:** comment `5714404868` — consume the new neutral owner oracle only as input to a real target-host neutral bind/direction-frame observer; no target-engine acceptance transfers.
+- **Materials PR #18:** comment `5714406626` — current historical target-host artifact is not silently rebound; the new result only says the current Rigging owner has no active neutral deformation/frame delta to retune away.
 
-No handoff grants adoption or merge authority.
+Animation and Runtime receive **no acceptance transfer** because no clip/timing/interpolation/controller/storage/device behavior changed. Geometry and Organic remain frozen because no source/topology defect was found.
 
-## Explicit HOLD / non-claims
+## Interpretation / current blocker
 
-This PASS does **not** establish continuous whole-mesh collision freedom; an exact analytic contact angle; adjacent-face fold/contact freedom; final per-vertex normal/tangent construction; equivalence to the Materials normal field; the root cause of the neutral shaded target mismatch; Technical-Art export/import/UC/target direction-frame acceptance; Animation timing/interpolation/playback or anatomical ROM; Runtime controller/renderer/device/performance acceptance; full-body shaded visual quality; final Art/QA acceptance; source adoption/CANON; production/game readiness; or Rigging mastery.
+The useful diagnostic conclusion is deliberately narrow:
 
-Correct scoped statement:
+> On the exact current Character owner rig, `0°` is a true bind-frame closure state across all 184 selected receiver vertices and every actual bilateral Rigging group. A large shaded mismatch that persists in a target host at that exact neutral state cannot be truthfully repaired by pretending the owner rig is already deforming there.
 
-> **For this exact review-006 source/topology/rig/profile, Rigging now has an exact local deformation-gradient frame reference that reproduces representative owner poses, stays locally invertible/right-handed throughout the historical -40°..+40° envelope, rejects a naive rigid-frame interpretation, and leaves the independently measured +36.55° clear / +36.60° failing structural boundary unchanged.**
+This does **not** identify what the target host is doing wrong. Target-engine bind/inverse-bind handling, coordinate adaptation, imported skin-normal behavior, renderer behavior, or another receiver detail remain Technical-Art / Materials / QA diagnostic territory until directly proven.
+
+## Truth boundary / explicit non-claims
+
+This activation does **not** establish:
+
+- the exact cause of the current Godot neutral shaded mismatch;
+- target-engine bind or inverse-bind correctness;
+- target-engine imported direction-frame correctness;
+- final vertex-normal or tangent policy;
+- tangent-space / normal-map correctness;
+- mathematical continuous whole-mesh collision freedom;
+- anatomy or human shoulder ROM;
+- Animation clip/timing/interpolation/playback acceptance;
+- Technical-Art target-host acceptance;
+- Runtime controller/device/performance acceptance;
+- final Materials / Art Direction / Visual QA acceptance;
+- source adoption;
+- CANON;
+- production/game readiness;
+- Rigging mastery.
 
 ## Four-root gate
 
-- **Truth:** the initial failed observer run is retained; the repair is isolated; local invertibility is not relabelled mesh safety; the `+36.60°` structural failure and Materials target mismatch remain visible.
-- **Agency / non-domination:** Rigging owns only its source-local deformation reference. Geometry retains topology; Organic source form; Animation motion; Technical Art transport; Materials shading comparison; Runtime execution/performance; Art/QA perceptual acceptance.
-- **Continuity:** previous status blob `b21892e6...`, Geometry `8ad006f9...`, discovery `93e957ec...`, integer guard `efa48c34...`, sub-degree head `fa16c44b...`, failed observer head `a5cfb03a...`, final repaired head `a218b2cf...`, workflows and artifact remain explicit rollback anchors.
-- **Wisdom before speed:** the healthy rig/profile was not retuned and the renderer mismatch was not guessed away; the smallest exact owner-frame reference was built and allowed to fail before its observer math was repaired.
+- **Truth:** the exact zero neutral owner result, nonzero hidden-angle rejection, current target-host shaded FAIL, current Technical-Art UC-palette PASS and retained structural contact boundary remain separate facts. No receiver cause is invented and no old artifact is silently rebound.
+- **Agency / non-domination:** Rigging owns only source-owner pose/frame closure. Technical Art owns transport/target binding, Materials owns shading evidence, Animation motion, Runtime controller/storage/performance, Art preference and QA independent acceptance remain with their owners.
+- **Continuity:** previous status blob `9860b9f...`, owner-frame parent `a218b2cf...`, historical structural/sub-degree evidence, failed/repaired frame observer history, Object articulation evidence and Animal HOLD remain rollback-addressable. The new head extends rather than rewrites that chain.
+- **Wisdom before speed:** Rigging did not retune weights, widen the envelope, reshape Geometry or invent a new skeleton to chase a receiver mismatch. It added the smallest exact owner-side invariant that helps the next diagnostic layer isolate the real fault.
 
-## Earlier independent Rigging anchors preserved
+The four AXM roots remain the merge gate.
 
-- Object PR #27 `29b3a4828b020fe608085df5eaaf9d33d5ea331f` — source-owned service-surface rig-frame binding after latch/socket continuity work;
-- Animal Rigging `e4ce8c1f4c3deb55220cf962206d51013d0cfe73` — normalized-u16 weight candidate deformation rebind; its transported direction-frame history remains separate.
+## Next Rigging trigger
 
-## Next Rigging & Deformation pass
+Re-scan the full constellation first.
 
-Re-scan the full constellation first. Prefer consuming downstream Technical Art / Materials return on whether this exact owner-frame reference localizes the neutral target mismatch before changing the rig again. If any receiver binds `a218b2cf...`, require exact source/topology/profile/head identity and receiver-local evidence before transport, shading, Animation or Runtime adoption. Do not widen the `+36.55°` sampled guard merely because the local gradient remains invertible past it.
+Prefer consuming the next exact **Technical-Art real target-host neutral observer** built against current owner/UC identities. If that receiver shows a concrete deviation that localizes back to bind matrices, joint semantics, owner weights or an attachment/constraint boundary, re-enter Rigging with that exact witness. Otherwise keep the Character rig frozen and move only if another design repository returns a materially stronger unowned Rigging defect.
