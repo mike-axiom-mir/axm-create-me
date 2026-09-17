@@ -1,284 +1,235 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **HOLD_BUILDING_COMPACT_V2_CURRENT_WORLD_RECEIVER__VISUAL_CONTINUITY_FAIL__ACTUAL_MAP_BASELINE_COST_INCREASE / NATURE_LEAF_FLUTTER_CURRENT_WORLD_PASS_PRESERVED / NO COMPACT_V2 ADOPTION**
+State: **PASS_BUILDING_PLANAR_ROLE_CURRENT_WORLD_REVIEW_READY / HOLD_DEFAULT_ADOPTION_PENDING_ART_QA_RUNTIME / COMPACT_V2_HOLD_PRESERVED / NATURE_OBJECT_WEATHER CONTINUITY PRESERVED**
 
 ## Authority / continuity
 
 `axm-create-me` remains **coordination only**. Product implementation and target-host evidence remain in the existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment lane was opened.
 
-Map / Environment owns receiving composition only. Building Geometry owns compact topology, Building Hard Surface owns receiving-representation availability, Building Materials owns the exact surface-family rebind, Runtime owns cost characterization, Art Direction owns visual preference, Visual Observer / QA owns independent perceptual verification, and Technical Art owns transport/import acceptance.
+Map / Environment owns receiving composition only. Building Hard Surface owns the render-representation identity/provenance contract, Building Materials owns the exact five-role partition and scalar values, Runtime owns performance/cost acceptance, Art Direction owns visual preference, Visual Observer / QA owns independent perceptual verification, and Technical Art owns transport/import acceptance.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The preceding Environment status remains recoverable in git at content blob `d5bda22a90f19153cef6a743a55cbb03edb6bdfd`. Its queued-state observation and the earlier accepted Nature leaf-flutter result remain historical truth; this update records what the exact Building gate actually did after completion.
-
-## Preserved accepted current-world parent
-
-The accepted Environment parent remains exact Map head:
-
-`7713cbe5863c3bc38dabb6236eb4b393401224b6`
-
-That world already contains the accepted multi-asset sequence with:
-
-- Building current-source provenance and five-surface receiver;
-- exact Nature material/winding/split-culling receiver;
-- sampled Nature leaf flutter;
-- indexed Object with five-surface material family;
-- visible west Object footprint cue;
-- source-width Weather presentation;
-- route, cameras and lighting.
-
-Its Nature leaf-flutter gate remains green and is not reopened by this Building result. Art Direction's sampled spatial-shape preference and Visual QA's earlier sampled integration PASS also remain separate valid evidence. Later wall-clock Nature timing work remains VFX / Art / QA owned and is not absorbed here.
+The preceding compact-v2 HOLD remains recoverable in git at content blob `fde442c8f61b4457265a9a9654069dc47bdbc9e3`. Nothing in this activation rewrites that result.
 
 ## Fresh constellation / duplication scan
 
-The current scan confirms that finishing the already-started Building compact-v2 receiving question remains the highest-leverage non-duplicate Environment action for this activation.
+The current accepted Environment parent remains Map head `7713cbe5863c3bc38dabb6236eb4b393401224b6`, containing the sampled Nature leaf-flutter receiver, indexed five-surface Object, visible footprint cue, source-width Weather sequence, Building five-surface receiver, route, cameras and lighting.
 
-- **Map:** PR #24 remains OPEN / DRAFT / MERGEABLE on branch `studio/environment-weather-variant-object-convergence-001`. Current exact head is `ef2cb9cc84edc10ab66c2230daca625623e0b00d`.
-- **Building Geometry:** PR #8 head `16253e7dd2f8cd590667f9631e4b50fdfcc7280d` owns compact-v2 `boundary-only-union-shell-conforming-compact-v2-001` at `1004v / 2052t`, derived from the `1420v / 2884t` boundary-shell reference while preserving the separate semantic source.
-- **Building Hard Surface:** PR #9 head `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e` correctly source-owns compact-v2 only as `SOURCE_OWNED_DERIVED_COMPACT_RECEIVING_OPTION_NOT_DEFAULT`; exact consumer rebind is required and historical PASS transfer is forbidden.
-- **Building Materials:** PR #3 head `4179aa1401f5a9114399e2f998c96809d4b8ed2e` binds the unchanged five-surface family and 19 source-component owners to compact-v2 under `EXPLICIT_PER_TRIANGLE_PLANE_NORMAL__NO_VERTEX_SMOOTHING__HARD_SURFACE_REVIEW`. Its isolated three-view Godot evidence was near-identical, but Environment adoption remained explicitly false.
-- **Building Runtime:** PR #10 proved compact-v2 cheaper than the large `1420v / 2884t` boundary-shell reference. That baseline is not Map's current receiver, so the result cannot be transferred automatically.
-- **Nature:** current Environment receiver is already accepted for sampled spatial flutter. Final literal wall-clock delivery/naturalness is active in VFX / Art / QA and is not an Environment geometry/composition mutation target.
-- **Object:** current indexed Object, five-surface material family and visible footprint cue remain fixed during this Building comparison. Object source/lookdev lanes remain separately owned.
-- **Weather:** source-width Weather stays fixed. Current timing/exposure/playback work remains VFX / QA owned.
-- **Art Direction / Visual QA:** neither has accepted Building compact-v2 in the current world. QA currently identifies Building compact-v2 as a separate future review candidate only if Environment first produces a viable receiving candidate.
-- **Technical Art:** no competing Building compact-v2 Map transport/adoption lane is active. Transport remains explicitly held.
+The important new source-owned option is Building Hard Surface PR #11 at exact head:
 
-No new Geometry, Hard-Surface, Materials, Runtime, VFX, Technical-Art or QA lane was opened.
+`93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`
+
+It exposes representation:
+
+`boundary-only-planar-role-rectangle-render-001`
+
+with:
+
+- `672 vertices`;
+- `336 triangles`;
+- `168 planar rectangles`;
+- `19 source-component owners`;
+- `5 material roles`;
+- complete atomic boundary coverage;
+- zero atomic overlap;
+- cardinal hard normals only.
+
+Its status is explicitly `SOURCE_OWNED_DERIVED_RENDER_RECEIVING_OPTION_NOT_DEFAULT`. Semantic source remains `header-segmented-23`, and its evidence-transfer rule requires exact downstream Environment / Runtime / Art / QA rebind rather than inheriting compact-v2 or segmented-receiver acceptance.
+
+Building Materials remains pinned at exact head `4179aa1401f5a9114399e2f998c96809d4b8ed2e`, profile blob `f7945f4c17b7720f176c1b0ac4e1baa298691b25`. No scalar value was copied into a new authority or retuned.
+
+Art Direction still prefers compact-v2's cleaner manufactured hard-surface/highlight language over the active segmented receiver, but exact compact-v2 adoption remains held by its actual-consumer cost and independent QA. Runtime separately recovered most compact-v2 buffer waste through post-normal indexing, but the indexed form still retains the full `+5,328` primitive burden and `+19,672 B` buffer residual versus the active segmented Map receiver. Those lanes were not duplicated.
+
+This made the source-owned planar-role representation the highest-leverage bounded Environment question: can it retain the intended planar manufactured receiving language in the real multi-asset world at a cost much closer to the actual Map baseline, without pretending that structural survival equals visual approval?
 
 ## Selected bounded Environment improvement
 
-The bounded improvement in this activation is a **fail-closed current-world receiver-selection decision**:
+Receive the exact Hard-Surface planar-role Building candidate into the exact accepted current world, preserve every unrelated asset/state, and compare it directly against **both**:
 
-> Test the exact source-owned compact-v2 Building option against the real current Map receiver and retain both visual and consumer-cost consequences. If it is worse for this consumer, preserve compact-v2 as an optional source-owned representation rather than importing the word “compact” as an adoption story.
+1. the actual active segmented `184v / 276t / 5-surface` Map receiver; and
+2. the held unindexed compact-v2 `1004v / 2052t / 5-surface` receiver.
 
-This is a composition/integration improvement because it prevents a structurally valid but locally inferior representation from silently replacing the current world receiver.
+No visual-continuity threshold was invented or relaxed. This lane produces exact review evidence; it does not auto-adopt a representation.
 
-## Exact receiver identities
+## Implementation / exact identity
 
 Repository: `mike-axiom-mir/axm-map-design`
 
 Existing Environment PR: **#24**
 
+Branch: `studio/environment-weather-variant-object-convergence-001`
+
 Exact final tested Environment head:
 
-`ef2cb9cc84edc10ab66c2230daca625623e0b00d`
+`b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`
 
-The only change from the first implementation head `538bc8f1536a2b980a52351eca25777305cd0f65` was a verifier-only repair for the demonstrated compact-v2 digest ownership path. Scene content, donor identities, thresholds, materials, cameras and current-world inputs were not changed.
+Added on the existing lane:
 
-Pinned donors:
+- `tools/environment_building_planar_role_current_world.py`;
+- `environment-proof/atmosphere_current_world_building_planar_role_observe.gd`;
+- `docs/ENVIRONMENT_BUILDING_PLANAR_ROLE_CURRENT_WORLD_001.md`;
+- `.github/workflows/environment-building-planar-role-current-world.yml`.
 
-- accepted current-world parent: `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
-- Building Geometry compact-v2: `16253e7dd2f8cd590667f9631e4b50fdfcc7280d`;
-- Building Hard-Surface owner: `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`;
-- Building Materials compact-v2 rebind: `4179aa1401f5a9114399e2f998c96809d4b8ed2e`.
+The Environment receiver applies only the already-authored Map placement translation, preserves exact assembled Building bounds, reuses the current five material scalars, and swaps only the Building render receiver across all 17 states. `environment_adoption=false` remains explicit.
 
-Semantic source remains:
+## Workflow history / failed drafts retained
 
-`header-segmented-23`
+Two setup failures remain in provenance instead of being erased.
 
-Current Map Building receiver:
+1. **`35182513462`** at head `98e72cbbbbda76541c7ddb828b499ddd211b8fbc` failed because the first workflow incorrectly expected the Building Materials profile file to physically exist inside the Hard-Surface checkout. The Hard-Surface policy actually pins that foreign Materials blob by identity. The repair validates the rebuilt policy instead of inventing a local copy.
+2. **`35182683838`** at head `6fc0241f31b4d172f74c1b9163688e81b52325d6` rebuilt the donor correctly but then expected `exact-head.txt` inside the retained compact-v2 failed artifact. That artifact had correctly stopped before copying the convenience file. The repair validates the retained compact-v2 `combined_current_world.json` exact head and structure result instead.
 
-`184 vertices / 276 triangles / 5 surfaces`
+Neither repair changes scene content, donor identities, material values, cameras, comparison sets, Runtime counters or acceptance boundaries.
 
-Compact-v2 review receiver:
+Final dedicated workflow:
 
-`1004 vertices / 2052 triangles / 5 surfaces`
+**`35182784756 — Environment Building planar-role current-world evidence` — SUCCESS**
 
-Exact compact-v2 material triangle partition remains:
+Scoped result:
 
-- `frame_galvanized`: `1164`;
-- `infill_coating`: `88`;
-- `roof_membrane`: `388`;
-- `slab_mineral`: `388`;
-- `utility_panel_ochre`: `24`.
-
-No material scalar, source-component material owner, Nature input, Object input, footprint cue, Weather input, route, camera or lighting input was retuned for the comparison.
-
-## Exact workflow history
-
-First dedicated run:
-
-`35179344886 — Environment Building compact-v2 current-world evidence`
-
-This run failed on a verifier/digest-path defect before the intended current-world decision could be trusted. The failure remains preserved.
-
-After repairing only that demonstrated verifier path, exact rerun:
-
-**`35179857530 — Environment Building compact-v2 current-world evidence` — FAILURE**
-
-This second failure is substantive, not infrastructure noise.
-
-The run successfully completed:
-
-- exact donor checkouts and identity gates;
-- exact Geometry compact-v2 rebuild;
-- exact Hard-Surface owner-policy rebuild;
-- exact Materials compact-v2 packet rebuild;
-- exact Environment composition construction;
-- real Godot 4.7.2 GL Compatibility rendering;
-- retained artifact upload.
-
-It failed only when the current-world verifier applied the already-declared visual-continuity guard.
-
-Structural receiving result before the visual gate:
-
-`PASS_CURRENT_WORLD_BUILDING_COMPACT_V2_STRUCTURE`
+**`PASS_CURRENT_WORLD_BUILDING_PLANAR_ROLE_RENDER_RECEIVER_REVIEW_READY`**
 
 Exact composition digest:
 
-`569c10d865ccd85161e68337c8a3705d792af64c120ca214fef411e62daabde0`
+`e1456d7cdb408e6de0346c4bbc214a5ea470297d588920bb0c0676ea385e0c7f`
 
-## Current-world visual result
+## Real current-world visual evidence
 
-The inherited guard was:
+All **68** planar-role frames were compared against the exact accepted active receiver, and all **68** were separately compared against the retained compact-v2 receiver.
 
-`maximum significant changed fraction (>1 LSB) <= 0.001`
+### Planar-role versus active segmented receiver
 
-which is `0.1%` of the full frame. Environment did not invent or relax this threshold after seeing the result.
+`path_eye`:
 
-Exact comparison against the accepted parent across all retained current-world states/modes:
+- changed pixels: exactly `25,951` per frame;
+- >1-LSB significant pixels: exactly `24,892`;
+- maximum >1-LSB fraction: **`3.142929292929293%`**;
+- fixed bbox: `[346,256,754,438]`;
+- maximum channel delta: `179 LSB`.
 
-### `path_eye`
+`elevated_oblique`:
 
-- significant changed pixels: exactly `25,376 / 792,000` in every tested state/mode;
-- significant changed fraction: **`0.03204040404040404` = `3.204040404%`**;
-- fixed Building-region bbox: `(346,256)-(753,437)`;
-- maximum RGB channel delta: **`198 LSB`**.
+- changed pixels: `14,585..14,587`, mean `14,586.0588235`;
+- >1-LSB significant pixels: `13,864..13,869`;
+- maximum >1-LSB fraction: **`1.7511363636363637%`**;
+- fixed bbox: `[594,183,886,366]`;
+- maximum channel delta: `166 LSB`.
 
-### `elevated_oblique`
+This is a real Building-local appearance change, not visual continuity with the active receiver.
 
-- significant changed pixels: `19,113..19,117 / 792,000`;
-- significant changed fraction: approximately **`2.4133..2.4138%`**;
-- fixed Building-region bbox: `(594,171)-(888,365)`;
-- maximum RGB channel delta: **`180 LSB`**.
+### Planar-role versus compact-v2
 
-The primary-camera result exceeds the existing `0.1%` guard by roughly **32×**. The delta remains spatially fixed to the Building region rather than following dynamic Nature/Weather state, which strengthens attribution to the receiving-representation change.
+`path_eye`:
 
-Environment therefore does **not** call compact-v2 visually continuous in the current world.
+- changed pixels: `18,717..18,718`, mean `18,717.1470588`;
+- >1-LSB significant pixels: `17,108..17,110`;
+- maximum >1-LSB fraction: **`2.1603535353535354%`**;
+- fixed bbox: `[346,256,754,438]`;
+- maximum channel delta: `175 LSB`.
 
-## Preserved Weather / multi-asset evidence
+`elevated_oblique`:
 
-The Building comparison did not break the inherited source-width Weather receiver:
+- changed pixels: `13,508..13,514`, mean `13,512.0588235`;
+- >1-LSB significant pixels: `12,597..12,600`;
+- maximum >1-LSB fraction: **`1.5909090909090906%`**;
+- fixed bbox: `[594,171,889,363]`;
+- maximum channel delta: `172 LSB`.
 
-- candidate-mode Weather projected-width measurements: **1,224**;
-- maximum projected-width residual: **`0.00974698571769128 px`**;
-- existing limit: `0.05 px`.
+The planar-role receiver is therefore not a pixel-equivalent proxy for compact-v2 either. Art Direction / independent Visual QA must inspect this exact candidate rather than inheriting compact-v2 preference.
 
-The exact same maximum residual is present in the accepted parent.
+## Multi-asset continuity / Weather evidence
 
-Nature flutter, static Nature, indexed Object, visible Object footprint cue and all other pinned receiving inputs remain fixed. The failed visual gate is therefore not evidence of Weather/Object/Nature drift.
+All **1,224** inherited Weather projected-width observations remain valid.
 
-## Actual Map consumer cost result
+Maximum projected-width residual:
 
-This is the second reason compact-v2 is held.
+`0.00974698571769128 px`
 
-Building Runtime PR #10 legitimately found compact-v2 cheaper than the large `1420v / 2884t` boundary-shell reference. Map, however, already uses a much smaller `184v / 276t` segmented receiver.
+under the existing `0.05 px` gate.
 
-Against that **actual current Map consumer baseline**, the compact-v2 candidate changes proof-host counters by exactly:
+Unrelated static-source runtime rows remain exact, the dynamic sapling runtime rows remain exact, and the exact Nature/Object/footprint/Weather/route/camera/light receiving state is preserved. The visual delta remains Building-local.
 
-- observed RenderingServer buffer memory: **`+106,560 B`**;
-- rendered primitives: **`+5,328`**;
-- draw calls: **`+0`**;
-- objects: **`+0`**;
-- observed texture memory: **`+0 B`**.
+## Actual current-world proof-host cost
 
-So compact-v2 is a real optimization relative to one Building reference representation but is **not an optimization for this current Map receiver**.
+Counter order below is:
 
-These proof-host counters remain characterization only, not target-device performance evidence.
+`draw calls / objects / primitives / observed buffer memory / observed texture memory`.
+
+Planar-role versus the **actual active segmented receiver**, identically in both fixed cameras and Weather presentation modes:
+
+`0 / 0 / +180 / +3,600 B / 0`
+
+Planar-role versus **unindexed compact-v2**:
+
+`0 / 0 / -5,148 / -102,960 B / 0`
+
+This is the key integration finding. Relative to the exact current Map receiver, the planar-role candidate is not free, but its proof-host residual is dramatically smaller than compact-v2's previously measured `+5,328 primitives / +106,560 B`. Relative to compact-v2 it removes nearly all of that extra current-world representation burden while retaining a source-owned planar hard-surface receiving strategy.
+
+These are proof-host characterizations, not target-device performance acceptance. Runtime retains final cost authority.
 
 ## Environment decision
 
-**`HOLD_CURRENT_WORLD_BUILDING_COMPACT_V2_RECEIVER__VISUAL_CONTINUITY_AND_ACTUAL_MAP_BASELINE_COST_FAIL`**
+**`PASS_CURRENT_WORLD_BUILDING_PLANAR_ROLE_RENDER_RECEIVER_REVIEW_READY`**
+
+with:
+
+**`HOLD_DEFAULT_ADOPTION_PENDING_ART_DIRECTION_VISUAL_QA_RUNTIME_AND_TECHNICAL_ART`**
 
 Exact meaning:
 
-> Preserve Building compact-v2 as a valid, source-owned explicit non-default derived receiving option, but do not adopt it into the current Environment world. In the real current Map composition it exceeds the existing visual-continuity guard by a large margin and costs more buffer memory / rendered primitives than the current `184v / 276t` Building receiver. The semantic source and current receiving reference remain unchanged.
+> The source-owned planar-role Building representation now survives the full sampled multi-asset current world with exact provenance/material ownership, preserved Nature/Object/Weather state and a much smaller actual-consumer proof-host cost delta than compact-v2. It is sufficiently grounded for Art Direction / independent Visual QA / Runtime review. It is not visually neutral to either comparator and is not silently promoted to the default receiver.
 
-No threshold is weakened to force a green result.
-
-No source rewrite, material retune, normal-policy rewrite or Geometry mutation is requested merely to rescue the candidate.
+The active segmented receiver remains the rollback baseline. Compact-v2 remains a truthful separate held candidate. Semantic source remains `header-segmented-23`.
 
 ## Retained evidence
 
-Failed-but-useful exact target-host artifact:
+Final artifact:
 
-- workflow: `35179857530`;
-- artifact ID: **`10480305129`**;
-- size: **`6,974,092 bytes`**;
-- archive SHA-256: **`2d1b747ae9eacf9ee0eb3754ba8fcd27f367e3edf77c3f6a66d700871ff83b94`**;
-- independently downloaded and rehashed during this activation: **same SHA-256**.
+- artifact ID: **`10481340680`**;
+- name: `environment-building-planar-role-current-world-001-b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`;
+- size: **`6,764,883 bytes`**;
+- GitHub artifact SHA-256: **`96d6bd6a0ed6e6edb0fc129484dd02769f7fd13952ad1a7eabeda8ffe681ee74`**;
+- retained files: 76.
 
-The artifact retains the exact compact-v2 owner/material packets, combined current-world payload, real Godot runtime receipt and rendered current-world evidence even though the final continuity verifier correctly exits nonzero.
+The archive retains the exact current-world payload, source-owned planar-role donor/policy/evidence, Godot runtime receipt/log, report and all 68 candidate frames. The exact active and compact comparator artifacts were consumed during verification but removed before upload to avoid duplicating their already-retained archives.
 
 ## Handoffs recorded
 
-### Map Environment PR #24
-
-Comment **`5708312027`** records the exact current-world failure, actual consumer cost and HOLD decision. No new Environment PR was opened.
-
-### Building Hard Surface PR #9
-
-Comment **`5708313153`** confirms that the owner policy is working as designed: source-owned availability does not imply consumer adoption. No source-owner repair is requested.
-
-### Building Materials PR #3
-
-Comment **`5708314402`** records that isolated three-view material continuity does not transfer automatically into this current-world receiver. No material scalar retune is requested from this result.
-
-### Building Runtime PR #10
-
-Comment **`5708315412`** records the actual Map consumer baseline result. Runtime's saving against the `1420v / 2884t` boundary reference remains valid, but it must not be transferred to Map's smaller `184v / 276t` receiver.
-
-### Building Geometry PR #8
-
-No topology mutation is requested. The compact-v2 structural evidence remains useful and unchanged; the current failure is a downstream receiving/adoption result, not a claim that Geometry's structural proof was false.
-
-### Art Direction / Visual QA
-
-No compact-v2 preference PASS is requested from a receiver that already fails Environment's predeclared continuity gate and costs more than the actual current Map representation. If a materially different future receiver/normal policy is proposed, Art/QA may review that exact new evidence independently.
-
-### Technical Art
-
-No GLB/import/export/transport acceptance is inferred. A held procedural current-world candidate is not promoted into a transport lane.
+- **Map Environment PR #24:** comment `5708703175` records exact result, visual deltas, proof-host cost and review/adoption boundary.
+- **Building Hard Surface PR #11:** comment `5708707339` confirms exact downstream structural survival and preserves source ownership/non-default status.
+- **Building Materials PR #3:** comment `5708709345` confirms the exact five-role/scalar family survived unchanged; no retune requested.
+- **Map Runtime PR #37:** comment `5708711716` supplies the exact actual-consumer planar-role cost beside Runtime's indexed compact-v2 result; no Runtime acceptance is claimed.
+- **Art Direction / Visual QA:** the exact 68-frame planar-role evidence is now ready for independent visual preference/perceptual review. No preference is inferred from pixel magnitude alone.
+- **Technical Art:** no transport/import equivalence is inferred from the procedural Godot receiver.
 
 ## Reusable composition learning
 
-This activation establishes a stronger Environment rule:
+This strengthens the previous actual-consumer rule:
 
-> **A derived representation must be measured against the actual receiving composition and actual current consumer baseline. “Smaller than the source owner's reference” does not mean “cheaper for this world,” and isolated material continuity does not automatically survive a different scene/receiver context. Preserve optional source-owned representations, but adopt only after exact current-world visual and consumer-cost evidence.**
+> **When Art wants a cleaner representation but the first preferred topology is too expensive, do not force adoption or retune unrelated materials. Let the source owner expose an explicit alternative representation, then bind it into the exact current world and compare visual response and real consumer cost against both the rollback baseline and the desired-look candidate. A cheaper downstream representation is only review-ready until Art, QA, Runtime and transport gates independently agree.**
 
-This is a reusable studio decision pattern, not yet a generic UC implementation. No Universal Creation or Profession Fabric extraction is justified by one Building receiver case.
+That pattern is reusable across manufactured environment assets. It is not yet evidence for automatic UC extraction or a universal representation optimizer.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- compact-v2 Environment adoption;
-- compact-v2 as semantic source or default receiver;
-- that compact-v2 is universally visually bad or universally slower;
-- generated/smoothed-normal, UV, texture, normal-map or decal equivalence;
-- arbitrary camera/FOV/lighting/renderer equivalence;
-- Technical-Art import/export/transport acceptance;
-- target-device FPS, CPU, GPU, VRAM, heap, thermal, battery or batching acceptance;
-- final Nature wall-clock flutter timing/naturalness;
-- collision, navigation, physics, interaction or gameplay;
-- CANON;
-- production/game readiness;
-- Environment mastery.
+- planar-role default or semantic-source adoption;
+- final Art Direction or independent Visual QA acceptance;
+- compact-v2 replacement or invalidation;
+- target-device CPU/GPU/FPS/VRAM/memory/batching acceptance;
+- Technical-Art transport/import equivalence;
+- UV, texture, tangent, normal-map or decal equivalence;
+- arbitrary-view or arbitrary-renderer equivalence;
+- Nature flutter final wall-clock timing/naturalness;
+- collision, navigation, physics, architecture/manufacturing or gameplay validity;
+- CANON, production readiness or Environment / World Art mastery.
 
-## Four-root gate
+## Four-root merge gate
 
-- **Truth:** the workflow is recorded as FAILURE because the exact current-world candidate violated the predeclared visual guard; the favorable Building Runtime reference-baseline result and unfavorable Map consumer-baseline result are both preserved.
-- **Agency / non-domination:** Geometry owns compact topology, Hard Surface owns representation availability, Materials owns material receiving, Runtime owns cost characterization, Environment owns current-world receiving selection, Art/QA own visual preference, and Technical Art owns transport.
-- **Continuity:** semantic source, boundary reference, compact-v2 option, accepted current-world parent, first failed verifier run, repaired exact rerun and retained artifact remain separately addressable exact identities.
-- **Wisdom before speed:** reject automatic adoption instead of weakening a gate or replacing a cheaper current receiver simply because a derived representation is named “compact.”
-
-The four AXM roots remain the merge gate.
-
-## Next Environment pass
-
-Re-scan the full constellation before acting. Do **not** repeat this exact compact-v2 receiver comparison and do not relax its visual guard. Reopen Building compact-v2 only if a source owner provides a materially different receiving representation / normal policy with new evidence that could change this consumer result.
-
-Otherwise choose the strongest fresh unowned Environment receiving gap while leaving active Nature timing, Weather timing, Object source/lookdev, Technical-Art transport, Runtime and Art/QA lanes with their current owners.
+- **Truth:** both the large visual delta and the much smaller real consumer cost are retained together; neither is rewritten into automatic acceptance.
+- **Agency / non-domination:** Hard Surface, Materials, Environment, Art, QA, Runtime and Technical Art retain separate authority.
+- **Continuity:** active segmented, compact-v2 and planar-role representations remain separately named and recoverable; no silent rewrite or automatic default occurs.
+- **Wisdom before speed:** the candidate advances to exact cross-owner review because it materially improves the trade space, not because one subsystem can force a merge.
