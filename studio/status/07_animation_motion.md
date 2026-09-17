@@ -1,187 +1,170 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CONTINUOUS_MOVING_LID_PHASE_GUARD / MOTION UNCHANGED / RELEASE_REENGAGEMENT + RUNTIME + GAMEPLAY HELD**
+State: **PASS_U16_WEIGHT_SUBFRAME_TRAJECTORY_WITHIN_RIGGING_BOUND / MOTION UNCHANGED / TARGET-ENGINE + DIRECTION-FRAME + PRODUCER + GAMEPLAY HELD**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current specialist state, and the newest animation-ready constellation work.
 
-`axm-create-me` remains **coordination only**. No product asset, rig, deformation solver, renderer, runtime controller or gameplay implementation was added here.
+`axm-create-me` remains **coordination only**. No product asset, source motion, rig, deformation solver, Runtime weight encoder, renderer, controller or gameplay implementation was added here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- **Animal:** authored-key, dense-subframe, shaded target-host and transport-readiness evidence already exist. Its meaningful next Animation step remains a corrected production direction-frame receiver or a named Art/QA timed defect; no new clip was invented.
-- **Character:** nonzero shoulder/intersection structure remains an upstream blocker rather than an Animation timing defect.
-- **Nature / Weather / Map:** current timed secondary-motion and delivery questions remain VFX / Runtime / Environment owned; Animation does not duplicate them.
-- **Object:** Rigging PR #27 delivered the strongest fresh Animation-ready handoff: exact head `44e0a56872a823cf768c749672116fd026b1ef5e`, result `PASS_CONTINUOUS_KEEPER_LEVER_CLEARANCE_DURING_LID_MOTION__ENGAGEMENT_OVERLAP_HELD`, proving a positive continuous keeper/lever separation certificate only while the lid moves through exact `0..100°` and the lower latch lever remains exact `50°`. Rigging deliberately leaves continuous latch release and re-engagement clearance unproved.
+- **Object:** Animation PR #10 already owns the current mechanical-motion lane and now has a continuous moving-lid phase guard. No duplicate Object motion lane was opened.
+- **Animal:** Runtime PR #27 and Rigging PR #25 produced the strongest fresh Animation-ready seam: the exact normalized-u16 `WEIGHTS_0` candidate is bounded against the FLOAT control at all 41 authored animation keys, but no Animation-owned witness covered representation error *between* those keys under the exact transported glTF interpolation.
+- **Technical Art / UC:** no production Animal direction-frame receiver or normalized-u16 producer adoption has been accepted. The deformed direction-frame hold remains separate.
+- **Visual QA / Art Direction:** producer/perceptual acceptance remains independent; no named temporal defect justified changing the Animal clip.
+- **Character / Nature / Weather / Map:** no fresher bounded Animation-owned seam displaced the exact Animal Runtime/Rigging handoff.
 
-The existing Object Animation PR #10 remained the single Animation lane. No new Animation PR was opened.
+The existing Animal Animation PR #5 remains the single Animal Animation lane. No new Animation PR was opened.
 
-## Highest-leverage bounded improvement — continuous mechanical phase guard
+## Highest-leverage bounded improvement — dense normalized-u16 weight subframe trajectory guard
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Existing draft PR: **#10 — Animation: prove bounded equipment-case lid open-hold-close clip**
+Existing draft PR: **#5 — Animation: prove first bounded quadruped articulation loop**
 
-Branch: `studio/animation-object-lid-open-close-001`
+Branch: `studio/animation-quadruped-articulation-loop-001`
 
-Exact Animation head: **`9725eb2ddde3b79c73bfdbbaef7c0e14da6af1a7`**.
+Exact Animation head: **`37f5a77d39d221be796ac3b0c3a179fd3c86a8c0`**.
 
-New reusable Object-local Animation contract:
+New reusable Animal-local Animation contract:
 
-`axm.object-animation-mechanical-phase-guard/v0.1`
+`axm.animal-animation-u16-weight-subframe-guard/v0.1`
 
-Contract ID:
-
-`lid-latch-continuous-moving-phase-guard-001`
-
-The improvement does **not** change motion authorship. It composes the unchanged Animation phase policy with the exact fresh Rigging continuous-clearance receipt and fails closed if either side drifts.
+This is a temporal evidence method only. It does not author or modify the motion, rig, skin weights, Runtime quantizer, glTF producer, controller or gameplay state.
 
 ### Preserved motion identity
 
-- sequence: `lid-latch-open-hold-close-001`;
-- sequence digest: `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
-- duration: `2.5 s`;
+- clip: `quadruped-articulation-loop-001`;
+- clip digest: `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
+- duration: `1.0 s`;
 - authored sample rate: `40 Hz`;
-- endpoint-inclusive samples: `101`;
-- base lid clip: unchanged exact `2.0 s` clip placed at `0.25 s`, no retime;
-- release: `0.00 -> 0.25 s`, lid neutral, latch `0 -> 50°`;
-- moving-lid phase: `0.25 -> 2.25 s`, exact unretimed lid clip, latch held at exact `50°`;
-- re-engagement: `2.25 -> 2.50 s`, lid neutral, latch `50 -> 0°`;
-- timing / keys / amplitudes / easing / phase ordering / interpolation policy / rig identity / source identity: **unchanged**.
+- endpoint-inclusive authored samples: `41`;
+- curve: raised cosine `neutral -> peak -> neutral`;
+- front elbows: `0 -> +18° -> 0`;
+- hind knees: `0 -> +14° -> 0`;
+- bilateral pairing: unchanged;
+- weighting identity: `smoothstep-v0`;
+- retime / new keys / amplitude / phase / easing / source / rig changes: **none**.
 
-## Fresh Rigging dependency composed, not copied
+## Exact Runtime + Rigging dependencies consumed, not copied
 
-Pinned Rigging successor:
+Pinned Runtime PR #27:
 
-- PR #27 exact head: `44e0a56872a823cf768c749672116fd026b1ef5e`;
-- workflow: `35189898107` — SUCCESS;
-- retained artifact: `10483747546`;
-- artifact SHA-256: `2785d67b29325a4041f5761033b56d07b93aa30ca9645db05434d432892b4a9e`;
-- exact Rigging result: `PASS_CONTINUOUS_KEEPER_LEVER_CLEARANCE_DURING_LID_MOTION__ENGAGEMENT_OVERLAP_HELD`;
-- exact moving-lid envelope: lid `0..100°`, latch exactly `50°`;
-- conservative continuous world-Z separation lower bound: `0.0015728659779459253 m`;
-- bilateral certificate residual: `0.0 m`.
+- exact head: `e7874c4a8dca1db48bc66f3546c2134f7d724456`;
+- retained artifact: `10477292250`;
+- artifact SHA-256: `76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`;
+- FLOAT-control GLB SHA-256: `8d9bfb80369bda09eaad786a35833cd5e04da5e608211f53648daaa1cde29566`;
+- normalized-u16 candidate GLB SHA-256: `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`.
 
-Animation does not copy Rigging's trigonometric clearance solver. It consumes the retained exact receipt as a pinned dependency and checks only whether the unchanged motion stays inside the domain that Rigging actually proved.
+Pinned Rigging PR #25:
 
-The composed meaning is deliberately narrow:
+- exact head: `e4ce8c1f4c3deb55220cf962206d51013d0cfe73`;
+- retained artifact: `10478912800`;
+- artifact SHA-256: `99a48f48fe1a9c622f1f46a27370a7239df7e17a8dcf9d1c9eb0b32f6a57a088`;
+- exact state: `PASS_RUNTIME_U16_WEIGHT_CANDIDATE_RIGGING_DEFORMATION_REBIND_41_KEYS__STATIC_DIRECTION_FRAME_HOLD_PRESERVED`;
+- existing positional representation-error bound: `2e-7 m`;
+- authored-key maximum control/candidate POSITION delta: `1.4897262690003554e-07 m`;
+- preserved direction-frame state: `HOLD_DEFORMED_STATIC_NORMAL_TANGENT_TRANSPORT_EQUIVALENCE`.
 
-1. latch release phase: lid remains neutral;
-2. moving-lid phase: latch remains exact `50°` for every non-neutral lid sample;
-3. latch re-engagement phase: lid remains neutral;
-4. only the middle moving-lid phase inherits Rigging's continuous keeper/lever clearance certificate.
+Animation does not copy Runtime's quantizer or Rigging's deformation/tangent solver. It consumes exact retained bytes/receipts and asks a distinct temporal question.
 
-No claim is transferred to the release or re-engagement transitions, where intentional neutral engagement overlap remains source truth.
+## Dense temporal method
 
-## New verifier / fail-closed method
+The guard reads the exact transported glTF `LINEAR` rotation channel and deterministically evaluates quaternion interpolation at **8 subframes per authored interval**, yielding:
 
-Added to Object Animation PR #10:
+- dense diagnostic rate: `320 Hz`;
+- dense sample count: `321`;
+- exact retained render vertices evaluated per dense sample: `84`;
+- FLOAT-control and normalized-u16 weight representations compared at each sample.
 
-- `assets/modular-equipment-case-001/animation-mechanical-phase-guard-001.json`;
-- `tools/verify_animation_mechanical_phase_guard.py`;
-- `tests/test_animation_mechanical_phase_guard.py`;
-- `.github/workflows/object-animation-mechanical-phase-guard.yml`.
+The gate requires the dense POSITION representation error to remain inside Rigging's unchanged `2e-7 m` bound, the recomputed authored-key maximum to reproduce Rigging's exact receipt, both representations to close the loop, and the error series to preserve time symmetry.
 
-The verifier pins the exact sequence digest and fresh Rigging head/artifact/result, preserves Rigging's non-claim flags, checks the exact phase policies, and checks all `101` rebuilt authored samples. Every non-neutral lid sample must retain latch angle exact `50°`; all latch transition samples must retain neutral lid.
-
-A verifier-only hidden mutation changes one non-neutral-lid sample from latch `50°` to `49.9°`. The new gate fails closed with the intended `MOVING_LID_NOT_FULLY_RELEASED` signature rather than widening a tolerance or silently inheriting the continuous Rigging claim.
+A verifier-only negative control moves `64` normalized-u16 weight steps from parent to child at exact render vertex `23`, at `0.3375 s` — strictly between authored keys 13 and 14. It is not a candidate asset and changes no retained source bytes. Its only purpose is to prove this dense observer can fail closed on a between-key representation defect.
 
 ## Exact-head CI / retained evidence
 
 Dedicated workflow:
 
-**`35190468225 — Object Animation continuous mechanical phase-guard evidence — SUCCESS`**
+**`35195167241 — Animation u16 weight subframe trajectory guard — SUCCESS`**
 
 Exact head:
 
-`9725eb2ddde3b79c73bfdbbaef7c0e14da6af1a7`
+`37f5a77d39d221be796ac3b0c3a179fd3c86a8c0`
 
-All three jobs completed successfully:
+Both matrix jobs completed successfully:
 
-- Python 3.11 full Object regression: **SUCCESS**;
-- Python 3.13 full Object regression: **SUCCESS**;
-- exact dependency rebuild + Rigging artifact rehash + phase composition + negative control + retained upload: **SUCCESS**.
+- Python 3.11 inherited Animal tests + exact dependency download/rehash + dense guard + artifact upload: **SUCCESS**;
+- Python 3.13 inherited Animal tests + exact dependency download/rehash + dense guard: **SUCCESS**.
 
 Scoped result:
 
-**`PASS_CONTINUOUS_MOVING_LID_PHASE_GUARD_OVER_RIGGING_CLEARANCE`**
+**`PASS_U16_WEIGHT_SUBFRAME_TRAJECTORY_WITHIN_RIGGING_BOUND`**
 
-Retained exact observations:
+Exact retained observations:
 
-- moving-lid non-neutral authored samples observed: `79`;
-- latch-transition authored samples observed: `20`;
-- maximum observed lid opening: `100°`;
-- minimum latch angle during every non-neutral lid sample: `50°`;
-- maximum latch angle during every non-neutral lid sample: `50°`;
-- inherited continuous Rigging lower bound: `0.0015728659779459253 m`;
-- release-phase lid-neutral check: PASS;
-- re-engagement-phase lid-neutral check: PASS;
-- motion authorship changed: `false`;
-- hidden `49.9°` nonreleased-moving-sample mutation: **rejected with expected signature**.
+- dense maximum FLOAT/u16 POSITION delta: **`1.4897262690003554e-07 m`**;
+- dense maximum sample: index `160`, exact time `0.5 s`, render vertex `23`;
+- unchanged Rigging bound: **`2e-7 m`**;
+- recomputed authored maximum: `1.4897262690003554e-07 m`;
+- authored recomputation vs exact Rigging receipt residual: **`0.0 m`**;
+- FLOAT-control loop POSITION residual: **`0.0 m`**;
+- normalized-u16 candidate loop POSITION residual: **`0.0 m`**;
+- maximum time-mirror error-series residual: **`1.3649825168975417e-14 m`**;
+- verifier-only negative-control signal: **`1.6762754286368178e-05 m`**;
+- negative control: **`PASS_FAILS_CLOSED_BETWEEN_AUTHORED_KEYS`**.
 
 Retained Animation artifact:
 
-- artifact ID: **`10483579183`**;
-- name: `object-animation-mechanical-phase-guard-9725eb2ddde3b79c73bfdbbaef7c0e14da6af1a7`;
-- size: **`18,743 B`**;
-- GitHub SHA-256: **`b208648d77d2e2f4951af512d64c71d847612b1e5941dcad68498af7a7b606d0`**;
-- independently downloaded/rehashed SHA-256: **`b208648d77d2e2f4951af512d64c71d847612b1e5941dcad68498af7a7b606d0`**.
+- artifact ID: **`10485697941`**;
+- name: `animal-animation-u16-weight-subframe-guard`;
+- size: **`6,815 B`**;
+- GitHub SHA-256: **`496e744f6bd3c8ad3b0648298cceecd7c7170a651f510674a92c957424a954e3`**;
+- independently downloaded/rehashed SHA-256: **`496e744f6bd3c8ad3b0648298cceecd7c7170a651f510674a92c957424a954e3`**.
 
-The retained archive includes the exact current motion evidence, exact fresh Rigging continuous-clearance receipt, pinned contract, exact heads/digests, composed receipt, summary, and expected-signature negative-control stderr.
-
-## Same-head actual-motion checks
-
-On the same exact Animation head `9725eb2...`, the inherited actual-motion workflow families also completed **SUCCESS**, including:
-
-- `Object AnimationPlayer target-host evidence`;
-- `Object AnimationPlayer wall-clock playback evidence`;
-- `Object AnimationPlayer interpolation evidence v3`;
-- `Object Animation keeper-socket motion rebind evidence`;
-- `Object animation phase-boundary target-host review`;
-- `Object animation lid motion evidence`;
-- `Object animation source-authority rebind evidence`;
-- `Object animation phase-derivative diagnosis`.
-
-Those same-head greens establish that the verifier-only phase-guard addition did not break the existing target-host motion proof paths. They do **not** convert those bounded proof paths into controller/gameplay acceptance or complete target-device scheduler certification.
+The retained archive contains `receipt.json`, `dense-samples.csv`, and `summary.txt` for the exact current Animation head.
 
 ## Decision
 
-**`PASS_CONTINUOUS_MOVING_LID_PHASE_GUARD__MOTION_UNCHANGED__RELEASE_REENGAGEMENT_RUNTIME_GAMEPLAY_HELD`**
+**`PASS_U16_WEIGHT_SUBFRAME_TRAJECTORY_WITHIN_RIGGING_BOUND__MOTION_UNCHANGED__TARGET_ENGINE_DIRECTION_FRAME_PRODUCER_GAMEPLAY_HELD`**
 
-No retime, easing change, key edit, amplitude change, phase edit, interpolation-policy change, source rewrite or rig rewrite is justified. The new information is a stronger composition boundary: the unchanged Animation sequence is now explicitly pinned to the exact mathematically continuous Rigging clearance domain for its moving-lid phase.
+The normalized-u16 candidate's POSITION representation error does not grow beyond Rigging's existing bound between the 41 authored keys under this deterministic evaluation of the exact transported glTF interpolation. That closes a real temporal evidence gap without changing the motion.
+
+It does **not** justify producer adoption or close the separate deformed direction-frame hold. No retime, easing change, key edit, amplitude change, phase edit, source rewrite or rig rewrite is warranted from this evidence.
 
 ## Handoffs
 
-- **Object Animation PR #10:** retain exact head `9725eb2...` as the current continuous-phase guard baseline. Do not alter timing/easing without a named Art/QA temporal defect or a changed exact mechanical/receiver dependency.
-- **Object Rigging PR #27:** Animation successfully consumed the exact continuous moving-lid clearance receipt by pinned identity only; Rigging remains owner of the clearance mathematics and mechanical source/rig facts.
-- **Visual QA / Art Direction:** no creative motion change was made. Timing, weight, acting/style and final perceptual acceptance remain independent.
-- **Runtime / Technical Art:** this gate is not a controller, state machine, physics implementation, scheduler certification or gameplay path. Any driven implementation must bind and prove its own exact receiver.
+- **Animal Animation PR #5:** evidence comment `5710801085`; retain exact head `37f5a77...` as the dense u16 temporal baseline unless a named temporal defect or changed exact dependency appears.
+- **Runtime PR #27:** downstream return `5710802489`; exact normalized-u16 artifact was consumed and remained inside the positional bound through dense temporal evaluation, but no production producer adoption is implied.
+- **Rigging PR #25:** downstream return `5710803989`; exact deformation receipt was reproduced at authored keys and extended with a distinct dense Animation witness; Rigging's direction-frame hold remains untouched.
+- **Technical Art / UC:** any production receiver or packed-weight producer must bind and prove its own exact implementation. This evidence is not a UC merge instruction.
+- **Visual QA / Art Direction:** no creative motion variable changed and no final perceptual acceptance is transferred.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- continuous collision freedom during latch release or re-engagement;
-- removal of intentional neutral-lid keeper/lever engagement overlap;
-- physical latch capture, retention, spring, force, wear or manufacturing behavior;
-- a new generic joint/mechanism ontology in UC;
-- complete 40 Hz scheduler/display delivery or target-device performance;
-- controller/state-machine behavior;
-- collision/physics-engine acceptance;
+- Godot or another target engine's interpolation implementation equivalence;
+- production normalized-u16 weight producer/adoption;
+- deformed NORMAL/TANGENT direction-frame correctness;
+- final shaded or temporal Art Direction / Visual QA acceptance;
+- complete wall-clock `40 Hz` frame delivery or target-device performance;
+- controller or state-machine behavior;
+- collision / physics-engine acceptance;
 - input or gameplay acceptance;
-- final timing/weight/style or Art Direction acceptance;
+- biological gait, locomotion, foot planting, balance or root motion;
 - CANON;
 - production readiness.
 
 ## Four-root gate
 
-- **Truth:** the fresh Rigging certificate is composed only over its proven exact `50°` moving-lid domain; release/re-engagement remain false, and the negative mutation proves the new verifier fails closed.
-- **Agency / non-domination:** Animation does not take Rigging's solver, Runtime/controller authority, physics authority or Art/QA acceptance.
-- **Continuity:** existing Object Animation PR #10, exact sequence digest, prior target-host baselines, fresh Rigging identity and rollback chain remain separately pinned; no motion identity was silently rewritten.
-- **Wisdom before speed:** a reusable evidence guard was added instead of retiming a clip that has no demonstrated motion defect, and no tolerance was widened to manufacture a PASS.
+- **Truth:** exact Runtime/Rigging artifacts are pinned by head and SHA-256; the dense maximum stays inside the unchanged bound; the between-key mutation fails closed; the separate direction-frame/producer/engine/gameplay holds remain explicit.
+- **Agency / non-domination:** Animation does not take ownership of Runtime encoding, Rigging deformation, Technical Art production adoption, Art/QA acceptance, controller logic or gameplay.
+- **Continuity:** the existing Animal PR, exact clip digest, source/rig identities, weighting identity, retained dependencies and rollback trail remain separately pinned; no motion identity was silently rewritten.
+- **Wisdom before speed:** a reusable temporal evidence guard was added instead of changing a clip with no demonstrated timing defect or widening a tolerance to manufacture a PASS.
 
 The four AXM roots remain the merge gate.
