@@ -2,7 +2,7 @@
 
 Date: 2026-09-17
 
-State: **PASS_ART_DIRECTION_ANIMAL_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_PREFERENCE_031 / FAIL_STATIC_TRANSPORTED_DIRECTION_FRAME_AS_DEFORMED_APPEARANCE_TARGET / HOLD_FINAL_ANIMAL_DIRECTION_FRAME_ADOPTION__TARGET_RUNTIME_BILATERAL_DENSE_PLAYBACK_DEVICE_PENDING / COORDINATION_ONLY**
+State: **PASS_ART_DIRECTION_COMPACT_EAST_CURRENT_WORLD_SAMPLED_SPATIAL_RESPONSE_DIRECTION_032 / FREEZE_SPATIAL_RESPONSE_FOR_PLAYBACK_REVIEW / HOLD_FINAL_COMPACT_EAST_MOTION_NATURALNESS_AND_ENVIRONMENT_ADOPTION__CURRENT_WORLD_PLAYBACK_PRODUCT_CAMERA_RUNTIME_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
@@ -10,12 +10,14 @@ Re-read:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - `studio/specialists/01_3d_art_director.md`;
-- prior Art Direction status / Direction 030;
-- fresh Materials, Rigging, Technical Art, Runtime and Visual Observer / QA status;
-- current open PR/evidence state across the full design constellation;
-- the exact Animal transported-frame lookdev artifact now waiting on final Art preference.
+- the prior Art Direction status / Direction 031;
+- fresh Materials, Animation, Environment, VFX / Atmosphere, Technical Art, Runtime and Visual Observer / QA status;
+- current open PR state across the full design constellation;
+- exact current-world compact-east readability evidence;
+- exact selected-roughness + compact-east combined Environment evidence;
+- the newest current-world Animation playback result.
 
-`axm-create-me` remains **coordination only**. No product source, mesh, topology, rig, weighting, animation, material implementation, Technical-Art implementation, Runtime implementation, Universal Creation product code or CANON state was changed here.
+`axm-create-me` remains **coordination only**. No product source, mesh, topology, VFX source, Weather source, Animation implementation, Runtime implementation, material implementation, camera, lighting, Universal Creation product code or CANON state was changed here.
 
 The four AXM roots remain the merge gate:
 
@@ -26,13 +28,13 @@ The four AXM roots remain the merge gate:
 
 The preceding Art state remains historical truth at blob:
 
-`388314b570e06b4b0eb753edf1914dceac497851`
+`ca455a31cf2ebe71fc6065ed44f0d2712c8161aa`
 
-That state established Direction 030: the exact Character review-006 imported target ordinary-shaded receiver is accepted as the bounded retained-key shoulder-chain baseline, while continuous playback, full body, tangent-space and target-device acceptance remain held.
+That state established Direction 031: for the exact Animal deformation receiver, owner-derived tangent-space appearance is preferred and Rigging's post-skin owner-frame reconstruction reproduces that look; raw static transported direction frames are not the preferred deformed appearance. Target-runtime, bilateral, dense/continuous playback and device gates remain held.
 
 ## Fresh constellation / duplication scan
 
-The full current design constellation was scanned before selecting work:
+The current design constellation was scanned before selecting work:
 
 - `axm-weapon-design`;
 - `axm-armor-design`;
@@ -45,253 +47,262 @@ The full current design constellation was scanned before selecting work:
 - `axm-map-design`;
 - `axm-object-design`;
 - `axm-misc-design`;
-- `axm-universal-creation` and `axm-profession-fabric` were treated only as shared/downstream context.
+- `axm-universal-creation` / `axm-profession-fabric` as shared/downstream context only.
 
 No product implementation lane was opened by Art Direction.
 
 Selection logic:
 
-- **Character:** Runtime has now supplied the exact frozen-baseline A/B that Direction 030 requested for the `44,032 B -> 40,064 B` shared-accessor GLB. Its `18` control/candidate images are byte-identical, so this is a low-risk visual-transfer question rather than the strongest unresolved visual direction. Continuous/full-body/tangent/device gates remain the larger Character work.
-- **Animal:** a stronger fresh Art-owned dependency is now complete. Materials PR #24 renders the measured deformed direction-frame problem in real Godot; Rigging owns an exact post-skin owner-frame reconstruction; Technical Art has adopted that reconstruction as a bounded receiver contract; independent QA has reproduced both the exact reconstruction recovery and the visible static-transport failure and explicitly leaves final Art preference open.
-- **Building:** current work remains predominantly Runtime/source/receiver measurement and does not expose a stronger completed Art-owned comparison than Animal.
-- **Nature / Map / Weather:** active VFX, timing, compact representation and current-world receiver work exists, but timing/receiver/Runtime ownership is still moving; Art does not duplicate those active lanes by cadence.
-- **Object:** current roughness/UV direction is already frozen from earlier Art passes; open Runtime storage/atlas trades remain smaller than the fresh Animal direction-frame gate.
-- **Weapon / Armor / Unit / Misc:** current scan exposed no stronger completed implementation-backed visual decision that justifies inventing a new lane.
+- **Weapon / Armor / Unit / Misc:** current open-PR scan returned no active PRs in those four design repositories. Art does not invent work where no grounded receiver/evidence lane exists.
+- **Character:** current Geometry, Rigging, Animation, Technical Art and Runtime work remains active. The newest bounded optimization path has retained exact visual identity under its frozen comparison, while continuous/full-body/tangent/device evidence remains the larger unresolved Character boundary. No new Art mutation is justified here.
+- **Animal:** Direction 031 already supplied the missing Art target. Technical Art has since advanced into real Godot receiving and Runtime is actively measuring an ArrayMesh reuse candidate. Returning immediately to Animal would duplicate active downstream lanes rather than add visual direction.
+- **Building:** Materials now has a real-Godot utility-panel physical-UV-density review, but the current Building Hard-Surface/Procedural chain is also advancing a corrected utility-panel source/receiver successor. Art does not silently transfer the predecessor Materials proof into a changing source identity.
+- **Object:** the selected roughness/UV visual direction is already frozen from earlier Art passes; current Object work is mostly exact transport/storage/runtime follow-through.
+- **Nature / Weather:** Nature owns the exact compact-east source response and Weather keeps `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED` semantics. Neither lane asked Art to rewrite source semantics.
+- **Map / Environment / VFX / Animation:** this is the strongest fresh Art-owned dependency. VFX supplied exact parent-isolated current-world readability, independent QA reproduced it, Environment has now completed a green exact stack of the already-selected Object roughness candidate plus compact-east response, while the first real current-world Animation playback attempt failed as infrastructure rather than changing the source. This creates a clean visual question: **is the sampled spatial response good enough to freeze while playback is repaired, or should source art be retuned first?**
 
-The selected action is therefore to choose the exact Animal deformation shading reference while refusing to prescribe Runtime implementation or claim final Animal readiness.
+The selected action is therefore to decide the sampled compact-east spatial response and explicitly separate that decision from delivered motion timing/naturalness.
 
 ## Selected bounded improvement
 
 New direction packet:
 
-`studio/direction/ANIMAL_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_DIRECTION_031.md`
+`studio/direction/COMPACT_EAST_CURRENT_WORLD_SAMPLED_SPATIAL_RESPONSE_DIRECTION_032.md`
 
 Direction packet creation commit:
 
-`c6115531be3075dbade291f007cb7b5072b408af`
+`d04130ce1e9cc07e687d26325d58f5663639478f`
 
 Primary decision:
 
-**`PASS_ART_DIRECTION_ANIMAL_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_PREFERENCE_031`**
+**`PASS_ART_DIRECTION_COMPACT_EAST_CURRENT_WORLD_SAMPLED_SPATIAL_RESPONSE_DIRECTION_032`**
 
-Companion visual rejection:
+Operational Art instruction:
 
-**`FAIL_STATIC_TRANSPORTED_DIRECTION_FRAME_AS_DEFORMED_APPEARANCE_TARGET`**
+**`FREEZE_COMPACT_EAST_SPATIAL_RESPONSE_FOR_PLAYBACK_REVIEW`**
 
 Final hold:
 
-**`HOLD_FINAL_ANIMAL_DIRECTION_FRAME_ADOPTION__TARGET_RUNTIME_BILATERAL_DENSE_PLAYBACK_DEVICE_PENDING`**
+**`HOLD_FINAL_COMPACT_EAST_MOTION_NATURALNESS_AND_ENVIRONMENT_ADOPTION__CURRENT_WORLD_PLAYBACK_PRODUCT_CAMERA_RUNTIME_PENDING`**
 
-## Exact evidence consumed
+## Exact VFX / QA evidence consumed
 
 Repository:
 
-`mike-axiom-mir/axm-animal-design`
+`mike-axiom-mir/axm-map-design`
 
-Materials PR:
+Map VFX PR:
 
-**#24 — `Materials: render deformed tangent-space diagnostic in Godot`**
+**#43 — `VFX: receive compact-east Nature response in current world`**
 
-Exact Materials head:
+Current review head:
 
-`35808c9a5a8906a478ee28e5b6a04e34113ac28c`
+`c7767c45cb24488f63de9a598f753d94b9141286`
 
-PR observed as open / draft / unmerged.
+Exact real-Godot receiving authority remains:
 
-Dedicated workflow:
+`29ef2d4cc4398b3f26290e4e1f1f10398ca9898c`
 
-`35240451689 — Materials Animal transported-frame lookdev` — **SUCCESS**.
+Nature VFX owner head:
 
-Retained artifact:
+`cef2ad78d8e36a55ada5dad07329f1a7125d48de`
 
-- ID `10505590767`;
-- size `811,668 B`;
-- `47` retained files;
-- owner/GitHub SHA-256 `1b16d0a47bf355de74bcbc3d6e58aa50b26caf1ea540a0b4cd9f47ee6ffab8a6`;
-- Art Direction independently downloaded the archive and rehashed it to the same exact digest.
+Exact sampled source response remains:
 
-Pinned owner identities inside the pack:
+- `17` endpoint-inclusive states;
+- `0.50 s` authored source window;
+- `31.25 ms` spacing across `16` intervals;
+- exact neutral endpoints at phases `00` and `16`;
+- source-local peak displacement ceiling `0.135 m`;
+- Weather semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
 
-- exact Rigging reconstruction head `81ab44eab2e13bed95187610a476be2b2c4667a7`;
-- exact Technical Art source head `4649d144841fbd1f3f43e9c7deb6f37b91fbd93d`;
-- exact transported GLB SHA-256 `ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`.
+VFX readability workflow:
 
-Renderer / retained review scope:
+`35248021257 — VFX compact-east current-world effect readability review` — **SUCCESS**.
 
-- Godot `4.7.2` / GL Compatibility / X11 / Mesa llvmpipe;
-- right side only;
-- authored samples `0 / 10 / 20 / 30 / 40`, approximately `0 / +9 / +18 / +9 / 0°`;
-- cameras `three_quarter` and `grazing`;
-- frame modes `owner_rederived`, `transported_static_skin`, `position_reconstructed`, `position_reconstructed_flipped_w_negative`;
-- neutral diagnostic material: albedo `[0.46, 0.49, 0.53]`, metallic `0.0`, roughness `0.5`;
-- periodic tangent-space field: U cycles `4`, V cycles `3`, tangent amplitude `0.28`, bitangent amplitude `0.20`.
+VFX readability artifact:
 
-The material/probe is retained as a diagnostic observer, not production Animal surfacing.
+- ID `10508665125`;
+- SHA-256 `7c2081aa5fd439c74fdea7ba0828ed62377f1877bf793898a01bbed1c671f3a5`.
 
-## Direct visual observation
+Independent QA retained a separate exact readability packet. Art Direction downloaded that exact archive:
 
-Art Direction directly inspected the exact retained target-host renders at native and enlarged scale.
+- artifact ID `10508244231`;
+- SHA-256 `229f1c9674c897c1107bbf11f6bd6116f1937e40c96e8aa19a13772e93c39d4a`;
+- independently rehashed by Art Direction to the same exact digest.
 
-### Owner frame versus post-skin reconstruction
+QA reproduces across the retained current-world frames:
 
-The owner-rederived frame and Rigging's post-skin position-derived reconstruction retain the **same appearance** in every retained sample/camera context.
+- `elevated_oblique` is fully observing for every interior phase in both Weather modes;
+- phases `00` and `16` remain exact neutral endpoints with `0` changed pixels;
+- phase `08` changes `7,440` pixels, with `7,240` above 1 LSB and maximum `191 LSB`;
+- maximum changed-frame fraction is approximately `0.939394%` of the `1100 x 720` frame;
+- the exact observed compact-east delta remains inside `x=594..939, y=287..671`;
+- `path_eye` remains a legitimate non-observing context with all `34 / 34` retained frames byte-identical to the exact parent.
 
-Exact evidence:
+## Direct Art observation
 
-- `10 / 10` owner-vs-reconstructed comparisons are byte-identical;
-- `0` raw changed pixels;
-- `0` pixels above 1 LSB;
-- `0` mean RGB delta;
-- foreground/silhouette coverage is unchanged.
+Art Direction directly inspected the exact QA current-world motion strips in both inherited Weather review modes and the exact full combined Environment frames.
 
-Direct visual inspection likewise shows the same moving highlight/shading field, silhouette and placement.
+Within the retained `elevated_oblique` observing view:
 
-### Static transported frame under deformation
+- the compact-east lower trunk/root read stays visually anchored;
+- upper trunk, branch and leaf groups progressively displace toward the middle sample and return;
+- the sampled branch hierarchy stays legible through peak response;
+- the effect is clearly readable across samples while remaining subordinate to the pavilion, route and Object composition;
+- the phase-08 sampled silhouette shows no gross detached branch mass, hole, broad collapse or camera-edge clipping;
+- the cast-shadow response changes coherently with the sampled tree state instead of appearing visibly frozen;
+- the exact neutral appearance returns at phase `16`;
+- the two inherited Weather review modes preserve essentially the same compact-east readability pattern.
 
-Neutral closure is exact at samples `0` and `40`, so the static frame is not generically broken.
+`path_eye` is truthfully non-observing for this exact effect. Art does **not** request source amplification or camera movement merely so every camera sees every effect. Future product cameras that are intended to communicate compact-east movement must separately prove observability.
 
-At the deformed samples `10 / 20 / 30`, however, the static transported direction frame visibly shifts the highlight/shading field around the shaft/elbow while geometry/silhouette remain fixed.
+## Fresh exact Environment coexistence result
 
-Independent QA reproduces the mismatch in all `6 / 6` deformed camera/sample comparisons:
+Map Environment PR:
 
-- pixels above 1 LSB: `6,653–12,289` per frame;
-- maximum RGB-channel delta: `36–47 LSB`;
-- >1-LSB mismatch relative to visible owner foreground: approximately `35.12%–59.04%`.
+**#24 — `Environment: converge Weather variant with exact Object source`**
 
-Peak sample `20` (~`+18°`) reaches:
+Current exact head:
 
-- three-quarter: `8,729 / 18,567` visible foreground pixels above 1 LSB;
-- grazing: `12,289 / 20,815`.
+`4bd7eaf6970716dde4159448c92556785f47e954`
 
-This is a shading/direction-frame change, not a geometry/silhouette movement.
+The Environment specialist status still recorded its new selected-roughness + compact-east workflow as queued. Art Direction checked the current runner state directly after that status was written:
 
-### Observer sensitivity
+- push run `35248195715` — **SUCCESS**;
+- PR run `35248202905` — **SUCCESS**.
 
-The deliberate reconstructed tangent-W negative remains strongly visible in every retained context:
+Retained combined artifact:
 
-- `17,906–21,132` pixels above 1 LSB;
-- maximum channel delta `95–99 LSB`.
+- ID `10509037278`;
+- size `7,184,621 B`;
+- SHA-256 `8f2f8aa4bb11e2f868a6ce36dd381933ba1ea6c59be7b82ed00d1dfe5402ee97`;
+- Art Direction independently downloaded and rehashed the archive to the same exact digest.
 
-The receiver therefore demonstrably sees direction-frame handedness and is not passing reconstruction because tangent-space shading is inactive.
+Scoped combined result:
+
+**`PASS_CURRENT_WORLD_SELECTED_ROUGHNESS_PLUS_COMPACT_EAST_COMPOSITION_REVIEW_READY__DUAL_ADOPTION_HELD`**
+
+The exact combined receiver proves:
+
+- `68` matched target-host frames across `17` states;
+- selected-roughness runtime observation remains exact in `17 / 17` states;
+- selected roughness PNG SHA-256 remains `57cf746a9a7e0615884fe3c45c6c4df677c2bd0631def61b3ccb1684daa26949`;
+- scalar R8 SHA-256 remains `b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`;
+- compact-east exact phase sequence `0..16` is preserved;
+- neutral compact-east endpoints remain exact;
+- draw calls, objects, primitives, proof-host buffer memory and proof-host texture memory each show `0` delta versus the exact selected-roughness parent;
+- both Environment adoption flags remain false.
+
+Art's interpretation is intentionally narrow: the exact already-Art-preferred Object roughness candidate can stay as the combined review parent while compact-east playback is proved. The distant world view is **not** used to re-judge roughness quality; the earlier close-range Object Art direction remains the appearance authority for that surface.
 
 ## Art Direction interpretation
 
-For this exact Animal receiver, the preferred deformed appearance is the **owner-derived tangent-space response**.
-
-Rigging's current post-skin position reconstruction is the Art-preferred retained route because it reproduces that response exactly in the bounded proof. The raw static transported NORMAL/TANGENT frame is **not** the preferred deformation appearance because its lighting/tangent-space response visibly drifts under deformation.
-
-This is an appearance decision, not an implementation prescription. Art does **not** claim that every engine or asset should reconstruct normals/tangents from post-skin positions, and Art does not seize Technical-Art/Runtime authority.
+The exact compact-east **sampled spatial shape/envelope is good enough to preserve** while timing/playback is proved.
 
 Freeze for the next receiver proof:
 
-- current Animal source/form identity;
-- current Geometry UV/tangent render-domain identity;
-- current Rigging owner reconstruction identity;
-- current authored motion identity;
-- current diagnostic material/lights/cameras when reproducing this exact A/B.
+- Nature VFX owner head `cef2ad78d8e36a55ada5dad07329f1a7125d48de`;
+- exact compact-east source identity and neutral migrated identity;
+- exact `0.135 m` peak source-local envelope;
+- exact 17-state sampled sequence and neutral endpoints;
+- current-world placement;
+- current observing-camera setup for comparison;
+- Weather semantics;
+- selected Object roughness identity on the combined Environment review branch.
 
-Do **not** compensate for static transport by retuning material, roughness, lighting, camera, source shape, topology, UVs, rig weights or animation. That would hide the transport/frame defect inside unrelated visual variables.
+Do **not** compensate for playback/observer failure by retuning VFX amplitude, branch hierarchy, source geometry, Weather direction, selected Object roughness, camera, lighting or composition.
 
-## Current owner / downstream state
+This is not final natural-motion acceptance. It is the smaller, defensible Art decision needed to stop source churn while the receiver is still being proved.
 
-### Rigging
+## Current Animation playback result — explicit blocker
 
-Rigging PR #25 owns the post-skin reconstruction semantics. Art requests no rig or weighting retune.
+Map Animation PR:
 
-### Technical Art
+**#44 — `Animation: prove compact-east current-world exact-state playback`**
 
-Technical Art PR #3 current coordination state is:
+Current head:
 
-`PASS_ANIMAL_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_CONTRACT_ADOPTED / HOLD_TARGET_RUNTIME_IMPLEMENTATION`
+`abad9beeb57dc99ba60aad60d3fb38046395972e`
 
-Its current exact head is `a3c062f1271e72598971446b37847598d2433d93`. Across all `41` authored keys its adopted contract reports maximum owner-position residual `3.712575483167813e-08 m`, maximum owner-normal angle `2.0081521282065968e-05°`, maximum owner-tangent angle `3.181419632879438e-05°`, maximum `|N·T|` `1.1657341758564144e-15`, and `0` handedness mismatches. UC remains unchanged and Animal-specific reconstruction policy remains outside UC.
+The Animation specialist status still recorded workflow `35248112953` as queued. Art Direction checked the finished current run directly:
 
-Direction 031 supplies the missing bounded Art appearance target for that contract; it does not turn contract adoption into target-runtime implementation.
+`35248112953 — Animation compact-east current-world playback evidence` — **FAILURE**.
 
-### Visual Observer / QA
+The failure occurs specifically at `Exercise exact current-world motion through AnimationPlayer`; prerequisite binding, exact VFX evidence verification, Godot setup and evidence upload all complete.
 
-Independent QA current result is:
+Retained failure artifact:
 
-- `PASS_ANIMAL_POST_SKIN_POSITION_RECONSTRUCTION_RETAINS_OWNER_TANGENT_SPACE_APPEARANCE__RIGHT_REPRESENTATIVE_KEYS`;
-- `FAIL_ANIMAL_STATIC_TRANSPORTED_DIRECTION_FRAME_VISUAL_EQUIVALENCE__RIGHT_DEFORMED_REPRESENTATIVE_KEYS`;
-- `BLOCKED_FINAL_ANIMAL_RECONSTRUCTED_DIRECTION_FRAME_ADOPTION__TARGET_RUNTIME_BILATERAL_DENSE_MOTION_ART_PENDING`.
+- ID `10508671132`;
+- SHA-256 `d244da08404fb1651fbf7208ec1a97f7ffa8bd4a9c6b3a1e012af5b9cfc1df55`;
+- exact head `abad9beeb57dc99ba60aad60d3fb38046395972e`;
+- state `FAIL_INFRASTRUCTURE`;
+- source-motion truth `DISCRETE_EXACT_VFX_STATES_NOT_SMOOTH_INTERPOLATION`;
+- `promotion_effect: NONE`.
 
-Direction 031 closes only the missing bounded **Art preference** part. The remaining target-runtime/bilateral/dense-motion/device boundaries stay open.
+Exact retained failure:
 
-### Runtime separation
+`compact-east Animation real playback missed exact states in cycle 0: [0, 2, 3, 5, 6, 7, 9, 10, 11, 12, 14, 15]`
 
-Animal Runtime PR #27's normalized-u16 weight compaction remains a separate candidate with a `224`-pixel total / maximum `1 LSB` fixed-view tradeoff and separate Art/QA/producer adoption hold. Direction 031 grants it no acceptance and does not bundle weight compression into the direction-frame receiver.
+This is **not** evidence that the accepted sampled spatial response should be changed. Animation retains playback ownership. Art asks for a repaired/characterized receiver on the frozen source and then a delivered-motion review surface sufficient to judge timing, rhythm and loop feel.
 
 ## Handoffs recorded
 
-### Animal Materials PR #24
+### Map VFX PR #43
 
-Art handoff comment: **`5717527769`**.
+Art handoff comment: **`5718365490`**.
 
-Keep the current tangent-space diagnostic frozen as the appearance comparator. Reconstruction is the preferred retained look; static transport stays as a deviation control. No surfacing compensation is requested.
+The sampled spatial response is accepted as the next visual baseline. No source retune requested. Preserve the exact response and non-observing-camera truth boundary.
 
-### Animal Technical Art PR #3
+### Map Environment PR #24
 
-Art handoff comment: **`5717529656`**.
+Art handoff comment: **`5718369304`**.
 
-Use the owner-derived appearance as the visual target for a future real target-runtime consumer of the adopted reconstruction contract. Preserve the historical static-frame HOLD and keep Animal-specific policy out of generic UC unless broader evidence later justifies it.
+The exact green combined selected-roughness + compact-east receiver may remain the comparison parent, but dual Environment adoption stays held. Do not silently convert coexistence into final visual acceptance.
 
-### Animal Rigging PR #25
+### Map Animation PR #44
 
-Art handoff comment: **`5717532094`**.
+Art handoff comment: **`5718373571`**.
 
-Preserve the current owner reconstruction; no rig/weight/source retune is requested from this Art decision.
-
-### Runtime / target implementation
-
-No unrelated Runtime PR was commandeered. The next legitimate Runtime/engine lane is a real consumer of Technical Art's adopted reconstruction contract, ideally with:
-
-1. bilateral receiving proof;
-2. all-key/dense or continuous shaded motion;
-3. exact A/B against the owner/reconstructed appearance baseline;
-4. separate device CPU/GPU/import-memory/FPS/VRAM evidence;
-5. independent QA.
-
-Do not mix that first receiver proof with unrelated weight/index/vertex compression changes.
+Repair/characterize real playback while keeping the accepted source response frozen. The next Art-relevant evidence is delivered current-world motion, not a new VFX response candidate.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- biological/anatomical correctness;
-- final Animal form;
-- final UV packing or texel density;
-- production normal-map quality;
-- a universal tangent/normal reconstruction algorithm;
-- bilateral/left-side target-host equivalence;
-- all-key or continuous/interpolated shaded-motion equivalence;
-- real target-runtime implementation of the reconstruction contract;
-- arbitrary camera/light/renderer equivalence;
-- Runtime CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- acceptance of Animal weight/joint/index/vertex compression candidates;
-- final Animation timing/acting quality;
-- source adoption;
+- physical wind speed, force, turbulence or biomechanics;
+- final motion timing, rhythm, naturalness or loop feel;
+- preference for smooth interpolation versus exact-state/discrete playback;
+- successful current-world `AnimationPlayer` playback;
+- product-camera coverage or a rule that every camera must observe this effect;
+- final leaf sidedness, leaf materials or production vegetation shading;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- final Environment adoption of compact-east response;
+- final Environment adoption of selected Object roughness;
+- acceptance of Building's changing utility-panel successor chain;
+- gameplay, collision, navigation or interaction behavior;
+- arbitrary vegetation-response transfer;
+- source adoption outside the exact reviewed receiver;
 - CANON;
 - production/game readiness;
-- Animal mastery;
-- Rigging mastery;
-- Materials mastery;
-- Technical Art mastery;
-- Runtime mastery;
+- Nature mastery;
+- VFX mastery;
+- Animation mastery;
+- Environment mastery;
 - Visual QA mastery;
 - 3D Art Direction mastery.
 
-One exact right-side receiver with representative keys is enough to choose a bounded visual direction. It is not enough to claim mastery or final production readiness.
+One exact sampled current-world response plus independent QA is enough to freeze a bounded spatial direction. It is not enough to claim final delivered motion or mastery.
 
 ## Four-root gate
 
-- **Truth:** exact head/artifact/GLB identities are retained; Art independently rehashed and directly inspected the evidence; owner/reconstruction identity and static-transport divergence remain separate claims; the diagnostic material is not mislabeled production surfacing.
-- **Agency / non-domination:** Art owns only appearance preference. Rigging retains reconstruction semantics, Technical Art transport contracts, Runtime implementation/device cost, Materials instrumentation, Animation motion, QA independent verification, and source/domain owners their assets.
-- **Continuity:** Direction 030 and earlier Character work remain historical truth. The Animal static-transport HOLD remains visible rather than being overwritten by the successful reconstruction successor path.
-- **Wisdom before speed:** choose the appearance target now, freeze unrelated variables, and require a real target-runtime bilateral/dense receiver before adoption instead of retuning source/materials or declaring a universal rule from one success.
+- **Truth:** sampled spatial appearance is separated from delivered playback; the completed Animation failure replaces the earlier queued description without hiding it; exact heads/artifacts are retained and independently rehashed; non-observing `path_eye` remains explicitly non-observing.
+- **Agency / non-domination:** Nature/VFX retain source-response authority, Animation owns playback, Environment owns composition/adoption, Runtime owns device cost, QA owns independent verification, and Art owns only visual preference.
+- **Continuity:** Direction 031 and prior Object roughness direction remain intact; the exact current-world parent, compact-east response, combined Environment receiver and failed Animation attempt remain recoverable rather than silently rewritten.
+- **Wisdom before speed:** freeze a visually adequate spatial response and repair the receiver before authoring another effect, retiming Nature, or tuning around an infrastructure/playback failure.
 
 The four AXM roots remain the merge gate.
 
 ## Current state
 
-`PASS_ART_DIRECTION_ANIMAL_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_PREFERENCE_031 / FAIL_STATIC_TRANSPORTED_DIRECTION_FRAME_AS_DEFORMED_APPEARANCE_TARGET / DIRECTION_COMMIT_C6115531 / MATERIALS_PR24_35808C9A / WORKFLOW_35240451689_SUCCESS / ARTIFACT_10505590767_SHA_1B16D0A4_811668B_47_FILES / RIGHT_SAMPLES_0_10_20_30_40_3Q_GRAZING / OWNER_EQ_RECONSTRUCTION_10_OF_10_PIXEL_IDENTITY / STATIC_TRANSPORT_DEFORMED_MISMATCH_6653_TO_12289PX_GT1LSB_MAX36_TO47LSB / NEGATIVE_W_FLIP_SENSITIVE_17906_TO21132PX_MAX95_TO99LSB / TA_CONTRACT_A3C062F1_ADOPTED_RUNTIME_HELD / QA_PASS_RECONSTRUCTION_FAIL_STATIC / HANDOFFS_MATERIALS_5717527769_TA_5717529656_RIGGING_5717532094 / HOLD_TARGET_RUNTIME_BILATERAL_DENSE_PLAYBACK_PRODUCTION_TANGENT_DEVICE / NO_CANON_NO_PRODUCTION_NO_MASTERY / COORDINATION_ONLY`
+`PASS_ART_DIRECTION_COMPACT_EAST_CURRENT_WORLD_SAMPLED_SPATIAL_RESPONSE_DIRECTION_032 / DIRECTION_COMMIT_D04130CE / VFX_PR43_REVIEW_C7767C45_RECEIVER_29EF2D4C / QA_ARTIFACT_10508244231_SHA_229F1C96 / ELEVATED_OBLIQUE_INTERIOR_15_OF_15_BOTH_WEATHER_MODES / PHASE08_7440_CHANGED_7240_GT1LSB_MAX191LSB / PATH_EYE_34_OF_34_NONOBSERVING_EXACT / ENV_PR24_4BD7EAF6_RUNS_35248195715_35248202905_SUCCESS / COMBINED_ARTIFACT_10509037278_SHA_8F2F8AA4 / SELECTED_ROUGHNESS_17_OF_17_EXACT / ANIMATION_PR44_ABAD9BEE_RUN_35248112953_FAIL_INFRASTRUCTURE_MISSED_0_2_3_5_6_7_9_10_11_12_14_15 / HANDOFFS_VFX_5718365490_ENV_5718369304_ANIM_5718373571 / HOLD_FINAL_TIMING_NATURALNESS_PRODUCT_CAMERA_RUNTIME_ENV_ADOPTION / NO_CANON_NO_PRODUCTION_NO_MASTERY / COORDINATION_ONLY`
