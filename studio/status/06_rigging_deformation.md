@@ -72,7 +72,7 @@ The candidate differs from the FLOAT control only in `WEIGHTS_0` representation:
 
 The exact candidate's maximum decoded weight-slot error is:
 
-- **`6.656398159820068e-06`**, below the exact normalized-u16 single-slot bound `1/65535 = 1.5259021896696422e-05`.
+- **`6.656398159820068e-06`**, below the normalized-u16 single-slot bound `1/65535`.
 
 The existing rig was replayed over all **41 exact authored keys** and all **84 render vertices**:
 
@@ -133,14 +133,12 @@ The previous JOINTS_0 width rebind is no longer queued:
 
 Its earlier real malformed-workflow provenance remains preserved in Git history; no failed evidence was silently erased.
 
-## Handoffs
+## Handoffs recorded
 
-Rigging result to hand off:
-
-- **Rigging PR #25:** normalized-u16 storage is now bounded against the exact existing deformation over all 41 authored keys; source/rig/weight identity is unchanged and the static direction-frame HOLD remains.
-- **Technical Art PR #3:** this is deformation evidence for the Runtime candidate only; it does not grant producer adoption or adopt the post-skin reconstruction policy.
-- **Runtime PR #27:** the candidate's weight quantization stays inside the scoped Rigging position bound; Runtime/importer/controller/performance acceptance remains Runtime-owned.
-- **Animation PR #5:** the exact 41 source keys are observation points only; no timing/interpolation/playback/acting acceptance transfers.
+- **Rigging PR #25:** comment `5708038314` — exact normalized-u16 deformation bound, 41-key metrics, fail-closed mutation, green workflow/artifact and preserved direction-frame HOLD.
+- **Technical Art PR #3:** comment `5708039193` — deformation evidence only; no producer adoption, no post-skin reconstruction adoption, no direction-frame HOLD clearance.
+- **Runtime PR #27:** comment `5708040164` — candidate stays inside the scoped Rigging position bound; importer/controller/device/performance/gameplay acceptance remains Runtime-owned.
+- **Animation PR #5:** comment `5708041143` — exact 41 keys reused solely as observation points; timing/interpolation/playback/acting acceptance remains Animation-owned.
 - **Visual QA / Art Direction:** the previously observed bounded pixel difference from the normalized-weight candidate remains their acceptance boundary; structural Rigging PASS does not decide visible-quality acceptance.
 
 ## Truth boundary / explicit non-claims
