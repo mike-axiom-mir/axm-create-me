@@ -1,162 +1,218 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-17
-State: **ANIMAL_UC_EXECUTABLE_RECEIVER_CLOSURE_CONTINUITY_PASS / TA_PR3_DRAFT_MERGEABLE / UC_UNCHANGED / COORDINATION_ONLY**
+State: **BUILDING_SOURCE_CONSUMER_NORMAL_AUTHORITY_PASS / MAP_TA_PR40_HEAD_53493EB6_DRAFT_MERGEABLE / HS14_7B86B1A9 + GEOM13_7DFB1153 / CURRENT_UC_68100DBD_OBSERVER_IDENTICAL / UC_UNCHANGED / HOLD_NORMAL_NUMERIC_RUNTIME_VISUAL_ADOPTION_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current design constellation/status files, live Animal Technical Art lane, and current `axm-universal-creation` before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, the live design constellation, open Technical Art lanes, fresh Building Hard Surface / Geometry work, and current `axm-universal-creation` before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence work stays in the existing Animal Technical Art PR #3. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence work stayed in the already-open Map Technical Art PR #40. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Previous queued continuity proof resolved
+## Highest-leverage gap selected
 
-The prior status reported workflow `35254841638 — UC direction-frame target-host adapter evidence` as queued on Technical Art head `54efaf9f2bb77d0ba577c8a11510a578504b70de`, rebinding the already-green real-Godot proof from UC `50e85c8f...` to UC `aa53ee8a...`.
+Building Hard Surface PR #14 now source-owns the semantic boundary between:
 
-That workflow subsequently completed **SUCCESS**. The previously proven 41-key right-side target-host direction-frame path therefore remains green on that newer UC pin without changing owner reconstruction semantics or acceptance thresholds.
+- `604` source-intent render equivalence classes, where `EXACT_CARDINAL_HARD_NORMAL` is authoritative; and
+- a `312` role/position quotient produced by dropping that exact hard-normal identity.
 
-## Highest-leverage gap selected this activation
+Hard Surface explicitly classifies the 312 quotient as:
 
-Current `axm-universal-creation` main advanced again to:
+`DERIVED_ATTRIBUTE_DROPPING_PARTITION_NOT_SOURCE_EQUIVALENT`
 
-**`452b179cccff8acdde8930f7bde8662e52f86949`**
+and requires any real 312 consumer to declare its own normal storage/generation identity, declare the dropped source attribute, and independently re-test transport/runtime/visual acceptance.
 
-The last exact tested receiver head is its ancestor:
+Existing Map Technical Art PR #40 already owns the exact real-Godot 1008 -> 312 post-normal indexing receiver evidence. Opening a new Building, Runtime, Environment or UC lane would therefore duplicate ownership. The smallest missing cross-repo contract was to bind that already-proven consumer to the fresh source-owner authority without relabelling 312 as source equivalence.
 
-**`aa53ee8aa803c19524b7edbef6250bf6ed9336c0`**
+## Exact owner inputs
 
-The existing Technical Art proof had been pinning the generic UC receiver wrapper:
+Building Hard Surface authority:
 
-`capabilities/platform-hands/shared/asset-hands/rigged-gltf-codec.js`
+- PR #14 exact head: **`7b86b1a9da1ef8dc670ca01cf4918728e68ece92`**
+- policy: `axm.building-planar-role-hard-normal-authority-policy/v0.1`
+- policy ID: `service-pavilion-planar-role-hard-normal-authority-001`
 
-by exact Git blob:
+Geometry quotient donor:
 
-`02b69b6c7368ba6e34f226ca545293d26d208922`
+- PR #13 exact head: **`7dfb1153dc5f80bcbf1b48803f044236d4ebb030`**
+- source render classes: `604`
+- role/position quotient groups: `312`
+- source identities removed: `292`
+- quotient groups crossing source hard-normal boundaries: `188`
+- dropped source attribute: `EXACT_CARDINAL_HARD_NORMAL`
 
-Fresh inspection exposed a provenance blind spot: that wrapper executes `require('./gltf-codec')`, so the actual receiver behavior also depends on:
-
-`capabilities/platform-hands/shared/asset-hands/gltf-codec.js`
-
-A wrapper-only identity pin could therefore miss a changed executable base dependency while still reporting the wrapper blob unchanged.
-
-This is a Technical Art integration/evidence gap, not an Animal-domain or UC-domain feature gap. Runtime owns optimization/device acceptance; Rigging/Geometry own deformation semantics; Materials/Art/QA own final appearance acceptance. No duplicate lane was opened.
+The Hard Surface donor is rebuilt in the Technical Art workflow rather than trusted from prose or count coincidence.
 
 ## Smallest reusable repair
 
-Existing Animal Technical Art PR: **#3 — `Technical Art: prove explicit Animal surfaces -> UC GLB bridge`**
+Existing Technical Art lane:
 
-Branch: `studio/uc-surface-bridge-001`
+- repository: `mike-axiom-mir/axm-map-design`
+- PR: **#40 — Technical Art: prove Building post-normal indexing against UC observer**
+- branch: `studio/technical-art-building-planar-role-uc-index-bridge-001`
+- exact tested head: **`53493eb60efec35b1756ea8ab0a7f0bee11e2003`**
+- PR remains **open, draft, mergeable**.
 
-Exact current Technical Art head:
+Added only a bounded Technical Art evidence adapter plus workflow wiring:
 
-**`1ca28d29c7e1aaa095c11aaa6085716669230cb3`**
+- `tools/technical_art_building_planar_role_source_consumer_normal_boundary.py`
+- `.github/workflows/technical-art-building-planar-role-uc-index-bridge.yml`
 
-PR remains **open, draft, mergeable**.
+No product mesh, source normal field, Environment adoption, Runtime implementation, or UC feature was added.
 
-Added a bounded Technical Art-side receiver dependency contract:
+## Exact consumer normal identity
 
-- `src/axm_animal_design/uc_receiver_dependency_continuity.py`
-- `tools/build_uc_receiver_dependency_continuity_evidence.py`
-- `tests/test_uc_receiver_dependency_continuity.py`
-- `.github/workflows/uc-receiver-dependency-continuity.yml`
+The real receiver's own normal representation is now explicitly bound by exact source identities and ordered operations:
 
-The helper starts from the exact generic UC receiver entry point, recursively discovers relative CommonJS `require()` source dependencies, prevents repository-root escape, computes each file's Git blob identity, and compares the complete executable source closure between the last tested UC receiver and current UC main.
+1. per material surface, triangle vertices are emitted;
+2. `SurfaceTool.generate_normals()` generates the consumer normal field;
+3. the surface is committed;
+4. the committed surface is reopened with `SurfaceTool.create_from(...)`;
+5. `SurfaceTool.index()` builds the receiver-local indexed representation;
+6. the indexed surface is committed.
 
-It then runs the **same exact retained Animal GLB** through both UC receivers and requires the full receiver inspection result to be byte-normalized JSON-equivalent.
+Exact Map receiver source blobs:
 
-No Animal topology, rigging, weighting, tangent, material, frame-reconstruction, Runtime or visual policy was moved into UC. **UC product code was not modified.**
+- normal-generation receiver source: `7dcc111bde180ef34ee9b9d3958796a6634994ee`
+- post-normal indexing source: `53e040e279f6acaaf4483546f5faf5206f5536ca`
 
-## Exact receiver dependency closure
+Declared consumer identity:
 
-At both tested UC `aa53ee8aa803c19524b7edbef6250bf6ed9336c0` and current UC `452b179cccff8acdde8930f7bde8662e52f86949`:
+`GODOT_4_7_2_SURFACETOOL_GENERATE_NORMALS_PER_MATERIAL_SURFACE__THEN_SURFACETOOL_INDEX`
 
-- `capabilities/platform-hands/shared/asset-hands/rigged-gltf-codec.js` → Git blob `02b69b6c7368ba6e34f226ca545293d26d208922`
-- `capabilities/platform-hands/shared/asset-hands/gltf-codec.js` → Git blob `31d3145bc337214fc77da0b8955acf91da3f2253`
+The consumer explicitly declares:
 
-The tested UC head is verified as an ancestor of current UC main.
+- stored vertices: `312`
+- indices: `1008`
+- triangles: `336`
+- material surfaces: `5`
+- dropped source attributes: `[EXACT_CARDINAL_HARD_NORMAL]`
+- source-equivalence claim: **false**
+- source-hard-normal-preservation claim: **false**
+- post-index normal numeric exactness claim: **false**
 
-Exact retained source transport:
+The existing measured normal repack remains observation only:
 
-- source GLB: `animal_selected003_right_mirror_rigged_uv_tangent_41key.glb`
-- SHA-256: `ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`
-- source artifact ID: `10474385703`
-- source artifact archive SHA-256: `7fc2a7f5d745da593e8762efa98e13661f84a057b1eb60921d576c366e71d7bb`
+- changed decoded corners: `120 / 1008`
+- maximum absolute component delta: `0.00011304020881702792`
+- maximum angular delta: `0.006869404718583788°`
+- acceptance tolerance inferred: **false**
 
-The exact-source UC inspection output is identical at both receiver heads.
+## Universal Creation boundary
+
+Current UC main inspected this activation:
+
+**`68100dbd20b0b4cf792d070a4341696085f3e6bc`**
+
+The generic indexed-surface observer:
+
+`src/axm_uc/indexed_surface_eligibility.py`
+
+has exact Git blob:
+
+**`cea48b2326813de6bd09430beafdac5315638657`**
+
+at both:
+
+- previously proven UC head `2295495cccf60c1fbd541b20215d17ac18e32821`; and
+- current UC main `68100dbd20b0b4cf792d070a4341696085f3e6bc`.
+
+The workflow requires byte-identical observer content and rejects deliberate current-observer drift. UC remains a generic structural observer only. **No Building source policy, hard-normal semantics, Godot receiver semantics, or product code was moved into UC.**
 
 ## Exact result
 
 Scoped result:
 
-**`PASS_CURRENT_UC_RIGGED_RECEIVER_DEPENDENCY_CLOSURE_IDENTICAL_TO_TESTED_RECEIVER`**
+**`PASS_BUILDING_312_GODOT_CONSUMER_NORMAL_IDENTITY_BOUND_TO_SOURCE_HARD_NORMAL_AUTHORITY__HOLD_NORMAL_NUMERIC_EXACTNESS_RUNTIME_VISUAL`**
 
-Exact dedicated workflow:
+Exact workflow:
 
-**`35261179289 — UC rigged receiver dependency continuity evidence`: SUCCESS**
+**`35267127221 — Technical Art Building planar-role UC index bridge evidence`: SUCCESS**
 
-Same-head repository regression:
+Every step completed successfully, including:
 
-**`35261179356 — Tests`: SUCCESS**
+- exact retained Runtime and Environment donor binding;
+- exact Godot 4.7.2 real receiver capture;
+- existing 1008 -> 312 UC/Godot corner-group proof;
+- deliberate corner-group mutation rejection;
+- exact Building Hard Surface authority rebuild;
+- current-UC observer continuity check;
+- source/consumer normal-boundary contract;
+- retained artifact upload.
 
-The same exact Technical Art head also kept the inherited target-host adapter, rigged animation/UV-tangent, direction-frame, bilateral topology/source-successor and indexed-surface evidence workflows green.
+## Fail-closed controls
 
-Fail-closed negative:
+All retained negatives report `PASS_REJECTED` for:
 
-- retain the rigged wrapper identity;
-- mutate only the `gltf-codec.js` dependency identity;
-- result: **`PASS_REJECTED`**;
-- reported changed dependency: `capabilities/platform-hands/shared/asset-hands/gltf-codec.js`.
+- promoting the 312 quotient to source equivalence;
+- claiming source hard-normal preservation in the consumer;
+- omitting `EXACT_CARDINAL_HARD_NORMAL` from the consumer's dropped-source declaration;
+- removing the consumer normal-generation identity;
+- centralizing Building policy into UC;
+- changing current UC observer bytes while retaining the proven observer identity.
 
-This directly proves the new contract detects the blind spot the old wrapper-only pin could miss.
+The earlier real-receiver corner-group mutation negative also remains green.
 
 ## Retained evidence
 
 Artifact:
 
-- ID: `10514528544`
-- name: `animal-uc-receiver-dependency-continuity-1ca28d29c7e1aaa095c11aaa6085716669230cb3`
-- size: `10,057 B`
-- archive SHA-256: `8b7d65539251f2ac3b8c35c125916438072383befeae0564565fdc1a3edf20f9`
-- independently downloaded and rehashed: exact match.
+- ID: **`10517535235`**
+- name: `technical-art-building-planar-role-uc-index-bridge-53493eb60efec35b1756ea8ab0a7f0bee11e2003`
+- size: **`84,661 B`**
+- GitHub artifact digest: **`sha256:b332d392e4f79d6c0fa76bf266028347f7d87d3c73479a1972310f30d6e05c55`**
+- independently downloaded size: `84,661 B`
+- independently downloaded SHA-256: **`b332d392e4f79d6c0fa76bf266028347f7d87d3c73479a1972310f30d6e05c55`** — exact match
+- retained ZIP file count: `39`
 
-The retained archive contains 7 files: exact source GLB, tested/current UC identities, Technical Art identity, source digest, README truth boundary and full receiver-continuity receipt.
+The retained packet includes the source-consumer boundary receipt, rebuilt Hard Surface authority evidence/policy, exact normal-generator and post-normal-indexer sources, proven/current UC observer sources, the pre-existing real-Godot receiver evidence, Runtime report, UC continuity evidence, and manifests.
 
-PR #3 handoff comment: `5719609523`.
+Handoffs:
 
-## Non-overlap / authority boundary
+- Map Technical Art PR #40 comment: `5720297337`
+- Building Hard Surface PR #14 comment: `5720299335`
 
-- **Technical Art PR #3:** owns this receiver dependency provenance/evidence contract only.
-- **Universal Creation:** remains generic and unchanged; this activation does not add Animal knowledge or a new UC feature.
-- **Rigging / Geometry:** retain post-skin reconstruction and source-shape semantics.
-- **Runtime PR #29:** retains resource lifecycle, timing, dynamic-buffer and target-device authority.
-- **Materials / Art Direction / Visual QA:** retain final shaded tangent-space and appearance acceptance.
+## Authority / non-overlap boundary
+
+- **Building Hard Surface PR #14:** owns source representation, exact cardinal hard-normal intent, and the 604-vs-312 semantic classification.
+- **Building Geometry PR #13:** owns the structural quotient diagnostic proving what is lost when the hard-normal attribute is removed.
+- **Map Technical Art PR #40:** owns the exact consumer normal-generation/repacking and cross-repo transport evidence contract.
+- **Environment:** keeps receiving identity, adoption and rollback authority.
+- **Runtime:** keeps target-device cost/performance acceptance.
+- **Art Direction / Visual QA:** keep appearance and visual-noncorruption acceptance.
+- **Universal Creation:** remains generic observer machinery; unchanged this activation.
 - **`axm-create-me`:** remains coordination-only.
 
-## Truth boundary / explicit HOLDs
+## Explicit HOLDs
 
-This PASS establishes that the executable local CommonJS source closure loaded by the UC rigged receiver is identical between the last tested UC head and current UC main, and that the exact retained Animal GLB receives an identical full UC inspection at both heads.
+This PASS does **not** establish:
 
-It does **not** by itself establish:
-
-- bilateral target-host direction-frame equivalence;
-- target Runtime/product implementation acceptance;
-- continuous/interpolated shaded playback acceptance;
-- target-device CPU/GPU/FPS/VRAM/thermal behavior;
-- final Materials / Art Direction / independent Visual QA acceptance;
+- byte/numeric exact preservation of generated normals after Godot indexing;
+- a generic normal tolerance;
+- Runtime/device CPU/GPU/FPS/VRAM/thermal acceptance;
+- Environment default adoption;
+- final Materials / Art Direction / independent Visual QA acceptance for this source/consumer identity;
+- arbitrary-mesh source equivalence or welding safety;
 - CANON, profession promotion, production readiness or game readiness.
-
-The raw static transported `NORMAL` / `TANGENT` skinning path remains HOLD under deformation. The owner-controlled post-skin frame reconstruction remains the proven reference path.
 
 ## Four-root check
 
-**Truth:** executable receiver identity now covers the wrapper and its discovered local source dependency rather than implying the wrapper blob alone represented the whole receiver. The exact source observation is compared at both heads and the base-only drift negative is retained.
+**Truth:** 604 source classes and the 312 consumer are now explicitly different representations. The exact dropped hard-normal attribute and observed 120-corner normal repack stay visible rather than being explained away by equal counts/partitions.
 
-**Agency / non-domination:** domain semantics remain with their owners; UC remains generic and unmodified; Runtime and visual acceptance are not silently promoted.
+**Agency / non-domination:** Hard Surface keeps source authority; Geometry keeps structural diagnosis; Technical Art declares only the consumer implementation it owns; Runtime and visual owners keep their acceptance gates; UC does not absorb Building policy.
 
-**Continuity:** the existing Animal Technical Art PR #3 was advanced in place. Previous real-Godot, source, owner and current-main evidence remains separately retained and rollbackable.
+**Continuity:** the existing Map Technical Art PR #40 was advanced in place. The old real-Godot 1008 -> 312 proof and previous UC merged-main evidence remain retained, while the fresh source-owner contract is layered on top with exact donor identities and rollbackable artifacts.
 
-**Wisdom before speed:** a small reusable provenance contract closes the actual blind spot instead of duplicating a lane, inventing another UC feature, or re-centralizing Animal knowledge.
+**Wisdom before speed:** one small evidence adapter closes the new cross-repo semantic gap instead of creating another mesh, another optimizer, a duplicate Runtime lane, or a new UC feature.
+
+## Previous retained activation
+
+The prior Animal Technical Art activation remains retained and green:
+
+`ANIMAL_UC_RECEIVER_EXECUTABLE_CLOSURE_PASS / TA_PR3_HEAD_1CA28D29 / TESTED_UC_AA53EE8A_ANCESTOR_UC_452B179C / RIGGED_CODEC_02B69B6C + BASE_CODEC_31D3145B_IDENTICAL / EXACT_SOURCE_ECB122E3_INSPECTION_IDENTICAL / RUN_35261179289_SUCCESS / TESTS_35261179356_SUCCESS / ARTIFACT_10514528544_SHA_8B7D6553`
+
+That earlier PASS remains separate from this Building source/consumer normal-authority proof; no Animal lane was reopened or rewritten.
 
 ## Current state
 
-`ANIMAL_UC_RECEIVER_EXECUTABLE_CLOSURE_PASS / TA_PR3_HEAD_1CA28D29_DRAFT_MERGEABLE / TESTED_UC_AA53EE8A_ANCESTOR_CURRENT_UC_452B179C / RIGGED_CODEC_02B69B6C + BASE_CODEC_31D3145B_IDENTICAL / EXACT_SOURCE_ECB122E3_INSPECTION_IDENTICAL / NEGATIVE_BASE_ONLY_DRIFT_PASS_REJECTED / RUN_35261179289_SUCCESS / TESTS_35261179356_SUCCESS / ARTIFACT_10514528544_SHA_8B7D6553 / UC_PRODUCT_UNCHANGED / HOLD_BILATERAL_RUNTIME_CONTINUOUS_DEVICE_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY`
+`BUILDING_SOURCE_CONSUMER_NORMAL_AUTHORITY_PASS / MAP_TA_PR40_HEAD_53493EB6_DRAFT_MERGEABLE / HS14_7B86B1A9_SOURCE_604_AUTHORIZED / GEOM13_7DFB1153_QUOTIENT_312_NOT_SOURCE_EQUIVALENT / DROPPED_EXACT_CARDINAL_HARD_NORMAL_DECLARED / GODOT_GENERATE_NORMALS_THEN_INDEX_IDENTITY_BOUND / NORMAL_REPACK_120_OF_1008_OBSERVED_NO_TOLERANCE / CURRENT_UC_68100DBD_OBSERVER_BLOB_CEA48B23_IDENTICAL_TO_PROVEN / RUN_35267127221_SUCCESS / ARTIFACT_10517535235_SHA_B332D392 / SIX_NEGATIVES_PASS_REJECTED / UC_PRODUCT_UNCHANGED / HOLD_NORMAL_NUMERIC_RUNTIME_VISUAL_ADOPTION_CANON_PRODUCTION / COORDINATION_ONLY`
