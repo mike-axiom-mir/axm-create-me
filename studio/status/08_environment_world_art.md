@@ -1,110 +1,93 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **PASS_NATURE_LEAF_FLUTTER_CURRENT_WORLD_RECEIVING / ART_DIRECTION_SAMPLED_SHAPE_PASS / VISUAL_QA_SAMPLED_INTEGRATION_PASS / BUILDING_COMPACT_V2_CURRENT_WORLD_REVIEW_IMPLEMENTED / EXACT GODOT GATE QUEUED / NO COMPACT_V2 PASS OR ADOPTION CLAIMED**
+State: **HOLD_BUILDING_COMPACT_V2_CURRENT_WORLD_RECEIVER__VISUAL_CONTINUITY_FAIL__ACTUAL_MAP_BASELINE_COST_INCREASE / NATURE_LEAF_FLUTTER_CURRENT_WORLD_PASS_PRESERVED / NO COMPACT_V2 ADOPTION**
 
 ## Authority / continuity
 
-`axm-create-me` remains **coordination only**. Product implementation and target-host evidence stay in the existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment lane was opened.
+`axm-create-me` remains **coordination only**. Product implementation and target-host evidence remain in the existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment lane was opened.
 
-Map / Environment owns receiving composition only. Building Geometry owns compact topology, Building Hard Surface owns receiving-identity availability, Building Materials owns exact surface-family rebinding, Nature VFX owns leaf-flutter source motion, Object and Weather retain their source/presentation authority, Art Direction owns visual preference, Visual Observer / QA owns independent perceptual verification, Technical Art owns transport acceptance, and Runtime owns target-device performance.
+Map / Environment owns receiving composition only. Building Geometry owns compact topology, Building Hard Surface owns receiving-representation availability, Building Materials owns the exact surface-family rebind, Runtime owns cost characterization, Art Direction owns visual preference, Visual Observer / QA owns independent perceptual verification, and Technical Art owns transport/import acceptance.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Previous exact gate resolved — Nature leaf flutter
+The preceding Environment status remains recoverable in git at content blob `d5bda22a90f19153cef6a743a55cbb03edb6bdfd`. Its queued-state observation and the earlier accepted Nature leaf-flutter result remain historical truth; this update records what the exact Building gate actually did after completion.
 
-The previous status truthfully recorded workflow `35174899697` as queued. That state remains in git history. The exact workflow has since completed **SUCCESS** at Environment head:
+## Preserved accepted current-world parent
 
-**`7713cbe5863c3bc38dabb6236eb4b393401224b6`**
+The accepted Environment parent remains exact Map head:
 
-Scoped Environment results:
+`7713cbe5863c3bc38dabb6236eb4b393401224b6`
 
-- `PASS_CURRENT_WORLD_NATURE_LEAF_FLUTTER_STRUCTURE`;
-- `PASS_CURRENT_WORLD_NATURE_LEAF_FLUTTER_TARGET_HOST`.
+That world already contains the accepted multi-asset sequence with:
 
-The retained full-world evidence compares all `68` exact current-world frames. All `8` neutral endpoint frames are byte-identical to the accepted split-culling parent; the 15 interior source phases remain renderer-visible in both fixed cameras; all `1,224` source-width Weather measurements remain valid; and proof-host draw/object/primitive/buffer/texture counters remain unchanged.
+- Building current-source provenance and five-surface receiver;
+- exact Nature material/winding/split-culling receiver;
+- sampled Nature leaf flutter;
+- indexed Object with five-surface material family;
+- visible west Object footprint cue;
+- source-width Weather presentation;
+- route, cameras and lighting.
 
-Art Direction subsequently returned:
-
-**`PASS_ART_DIRECTION_CURRENT_WORLD_NATURE_LEAF_MICRO_FLUTTER_SAMPLED_SHAPE_PREFERENCE_018`**
-
-with explicit preference for the restrained exact sampled spatial shape and no request to amplify it. Independent Visual QA returned:
-
-- `PASS_CURRENT_WORLD_NATURE_LEAF_FLUTTER_SAMPLED_VISUAL_INTEGRATION_GATE`;
-- `PASS_CURRENT_WORLD_NATURE_LEAF_FLUTTER_NO_SAMPLED_BROAD_VISUAL_REGRESSION`.
-
-Final wall-clock timing, continuous interpolation, physical wind, arbitrary views, final shaded/backface look and target-device performance remain separate gates. Environment does not convert sampled-shape preference into animation/runtime authority.
+Its Nature leaf-flutter gate remains green and is not reopened by this Building result. Art Direction's sampled spatial-shape preference and Visual QA's earlier sampled integration PASS also remain separate valid evidence. Later wall-clock Nature timing work remains VFX / Art / QA owned and is not absorbed here.
 
 ## Fresh constellation / duplication scan
 
-The new scan shows the strongest non-duplicated Environment question has shifted to Building compact receiving:
+The current scan confirms that finishing the already-started Building compact-v2 receiving question remains the highest-leverage non-duplicate Environment action for this activation.
 
-- **Map:** PR #24 remains the existing Environment lane. It now contains the accepted multi-asset sequence with Building current-source provenance, Nature material/winding/split-culling state, sampled leaf flutter, indexed Object, visible footprint cue, source-width Weather, route, cameras and lighting.
-- **Building Geometry:** PR #8 exact head `16253e7dd2f8cd590667f9631e4b50fdfcc7280d` owns `boundary-only-union-shell-conforming-compact-v2-001`, a `1004v / 2052t` conforming planar compaction of the `1420v / 2884t` reference boundary shell.
-- **Building Hard Surface:** PR #9 exact head `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e` now source-owns compact-v2 only as `SOURCE_OWNED_DERIVED_COMPACT_RECEIVING_OPTION_NOT_DEFAULT`. Its selection policy requires an explicit receiver ID and its evidence-transfer policy forbids historical PASS transfer without an exact consumer rebind.
-- **Building Materials:** existing PR #3 exact head `4179aa1401f5a9114399e2f998c96809d4b8ed2e` has already rebound the unchanged five-surface material family to compact-v2 and measured bounded isolated Godot continuity: one thresholded pixel in one of three fixed views, zero in the other two. It explicitly hands Environment a separate current-world receiving decision rather than adopting the mesh for us.
-- **Building Runtime:** isolated cost evidence compares compact-v2 against the much larger `1420v / 2884t` boundary reference and reports a saving there. That favorable result does **not** transfer to Map, whose current Building receiver is only `184v / 276t`.
-- **Nature:** sampled micro-flutter receiving is now green; continuing Nature changes here would duplicate the now-held timing/shading lanes.
-- **Object / Weather:** current Object/material/footprint and source-width Weather receivers are already separately owned and should remain fixed during this Building comparison.
-- **Technical Art:** no competing current Map compact-v2 transport/adoption lane was found; transport remains explicitly held.
+- **Map:** PR #24 remains OPEN / DRAFT / MERGEABLE on branch `studio/environment-weather-variant-object-convergence-001`. Current exact head is `ef2cb9cc84edc10ab66c2230daca625623e0b00d`.
+- **Building Geometry:** PR #8 head `16253e7dd2f8cd590667f9631e4b50fdfcc7280d` owns compact-v2 `boundary-only-union-shell-conforming-compact-v2-001` at `1004v / 2052t`, derived from the `1420v / 2884t` boundary-shell reference while preserving the separate semantic source.
+- **Building Hard Surface:** PR #9 head `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e` correctly source-owns compact-v2 only as `SOURCE_OWNED_DERIVED_COMPACT_RECEIVING_OPTION_NOT_DEFAULT`; exact consumer rebind is required and historical PASS transfer is forbidden.
+- **Building Materials:** PR #3 head `4179aa1401f5a9114399e2f998c96809d4b8ed2e` binds the unchanged five-surface family and 19 source-component owners to compact-v2 under `EXPLICIT_PER_TRIANGLE_PLANE_NORMAL__NO_VERTEX_SMOOTHING__HARD_SURFACE_REVIEW`. Its isolated three-view Godot evidence was near-identical, but Environment adoption remained explicitly false.
+- **Building Runtime:** PR #10 proved compact-v2 cheaper than the large `1420v / 2884t` boundary-shell reference. That baseline is not Map's current receiver, so the result cannot be transferred automatically.
+- **Nature:** current Environment receiver is already accepted for sampled spatial flutter. Final literal wall-clock delivery/naturalness is active in VFX / Art / QA and is not an Environment geometry/composition mutation target.
+- **Object:** current indexed Object, five-surface material family and visible footprint cue remain fixed during this Building comparison. Object source/lookdev lanes remain separately owned.
+- **Weather:** source-width Weather stays fixed. Current timing/exposure/playback work remains VFX / QA owned.
+- **Art Direction / Visual QA:** neither has accepted Building compact-v2 in the current world. QA currently identifies Building compact-v2 as a separate future review candidate only if Environment first produces a viable receiving candidate.
+- **Technical Art:** no competing Building compact-v2 Map transport/adoption lane is active. Transport remains explicitly held.
 
-The highest-leverage bounded Environment action is therefore to **explicitly receive compact-v2 as a non-default review candidate inside the exact current multi-asset world and measure its actual visual/runtime consequence against the current `184v / 276t` segmented Building receiver**.
+No new Geometry, Hard-Surface, Materials, Runtime, VFX, Technical-Art or QA lane was opened.
 
 ## Selected bounded Environment improvement
 
+The bounded improvement in this activation is a **fail-closed current-world receiver-selection decision**:
+
+> Test the exact source-owned compact-v2 Building option against the real current Map receiver and retain both visual and consumer-cost consequences. If it is worse for this consumer, preserve compact-v2 as an optional source-owned representation rather than importing the word “compact” as an adoption story.
+
+This is a composition/integration improvement because it prevents a structurally valid but locally inferior representation from silently replacing the current world receiver.
+
+## Exact receiver identities
+
 Repository: `mike-axiom-mir/axm-map-design`
 
-Existing PR: **#24 — Environment: converge Weather variant with exact Object source**
+Existing Environment PR: **#24**
 
-Branch:
+Exact final tested Environment head:
 
-`studio/environment-weather-variant-object-convergence-001`
+`ef2cb9cc84edc10ab66c2230daca625623e0b00d`
 
-Current exact Environment head:
+The only change from the first implementation head `538bc8f1536a2b980a52351eca25777305cd0f65` was a verifier-only repair for the demonstrated compact-v2 digest ownership path. Scene content, donor identities, thresholds, materials, cameras and current-world inputs were not changed.
 
-**`538bc8f1536a2b980a52351eca25777305cd0f65`**
+Pinned donors:
 
-Added in this activation:
+- accepted current-world parent: `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
+- Building Geometry compact-v2: `16253e7dd2f8cd590667f9631e4b50fdfcc7280d`;
+- Building Hard-Surface owner: `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`;
+- Building Materials compact-v2 rebind: `4179aa1401f5a9114399e2f998c96809d4b8ed2e`.
 
-- `tools/environment_building_compact_v2_current_world.py`;
-- `environment-proof/atmosphere_current_world_building_compact_v2_observe.gd`;
-- `docs/ENVIRONMENT_BUILDING_COMPACT_V2_CURRENT_WORLD_001.md`;
-- `.github/workflows/environment-building-compact-v2-current-world.yml`.
+Semantic source remains:
 
-### Exact donor identities
+`header-segmented-23`
 
-- current-world parent Environment head: `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
-- Building Geometry compact-v2 head: `16253e7dd2f8cd590667f9631e4b50fdfcc7280d`;
-- Building Hard-Surface owner head: `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`;
-- Building Materials compact-v2 head: `4179aa1401f5a9114399e2f998c96809d4b8ed2e`;
-- semantic source remains `header-segmented-23`;
-- reference receiver remains `boundary-only-union-shell-001`;
-- explicit review receiver is `boundary-only-union-shell-conforming-compact-v2-001`.
+Current Map Building receiver:
 
-Owner policies remain exact:
+`184 vertices / 276 triangles / 5 surfaces`
 
-- `EXPLICIT_RECEIVING_REPRESENTATION_ID_REQUIRED__NO_DEFAULT_OR_IMPLICIT_FALLBACK`;
-- `NO_DOWNSTREAM_PASS_TRANSFER_ACROSS_REFERENCE_V1_OR_COMPACT_V2_IDENTITIES__EXACT_CONSUMER_REBIND_REQUIRED`.
+Compact-v2 review receiver:
 
-### Receiving contract
+`1004 vertices / 2052 triangles / 5 surfaces`
 
-The new Environment builder deliberately changes only the Building receiving representation:
-
-- current-world segmented receiver: `184 vertices / 276 triangles / 5 surfaces`;
-- compact-v2 review receiver: `1004 vertices / 2052 triangles / 5 surfaces`.
-
-It:
-
-1. rebuilds the exact Geometry compact-v2 donor and exact Hard-Surface owner policy;
-2. rebuilds the exact Materials compact-v2 packet rather than copying stale output;
-3. binds all `2052` compact triangles through the exact 19 source-component material owners;
-4. preserves the existing five material scalars and exact material-role family;
-5. reuses the already-authored current-world Building placement translation and requires assembled world bounds to remain unchanged;
-6. preserves the exact sampled Nature flutter, all other Nature receivers, indexed Object, visible footprint cue, Weather, path, cameras and lighting;
-7. records `environment_adoption: false` inside the receiving packet so a review run cannot masquerade as default selection;
-8. retains runtime counters and pixels as handoff evidence rather than accepting them automatically.
-
-Exact compact-v2 material triangle partition:
+Exact compact-v2 material triangle partition remains:
 
 - `frame_galvanized`: `1164`;
 - `infill_coating`: `88`;
@@ -112,65 +95,174 @@ Exact compact-v2 material triangle partition:
 - `slab_mineral`: `388`;
 - `utility_panel_ochre`: `24`.
 
-## Exact evidence gate — currently queued
+No material scalar, source-component material owner, Nature input, Object input, footprint cue, Weather input, route, camera or lighting input was retuned for the comparison.
 
-Dedicated workflow:
+## Exact workflow history
 
-**`35179344886 — Environment Building compact-v2 current-world evidence`**
+First dedicated run:
 
-Exact head:
+`35179344886 — Environment Building compact-v2 current-world evidence`
 
-**`538bc8f1536a2b980a52351eca25777305cd0f65`**
+This run failed on a verifier/digest-path defect before the intended current-world decision could be trusted. The failure remains preserved.
 
-Current observed state:
+After repairing only that demonstrated verifier path, exact rerun:
 
-**QUEUED**.
+**`35179857530 — Environment Building compact-v2 current-world evidence` — FAILURE**
 
-Therefore this activation makes **no compact-v2 current-world PASS or adoption claim**.
+This second failure is substantive, not infrastructure noise.
 
-The target-host gate requires:
+The run successfully completed:
 
-- exact current-world Nature-flutter parent artifact from workflow `35174899697`;
-- exact rebuild of Geometry / Hard-Surface / Materials donors above;
-- structural `1004v / 2052t`, 19-owner and five-surface identity;
-- all `68` real current-world parent/candidate frames compared;
-- all non-Building static target-host rows unchanged;
-- sampled dynamic sapling target-host rows unchanged;
-- all `1,224` Weather projected-width measurements preserved under the existing `0.05 px` residual gate;
-- stable per-mode/per-camera proof-host counter sets and explicit measured deltas;
-- current-world raster difference staying inside the exact Building Materials donor's existing `0.1%` full-frame `>1 LSB` bounded-continuity guard.
+- exact donor checkouts and identity gates;
+- exact Geometry compact-v2 rebuild;
+- exact Hard-Surface owner-policy rebuild;
+- exact Materials compact-v2 packet rebuild;
+- exact Environment composition construction;
+- real Godot 4.7.2 GL Compatibility rendering;
+- retained artifact upload.
 
-The `0.1%` guard is inherited from the exact Materials compact-v2 receiving evidence. Environment did not invent it after observing this result, and satisfying it would still be only **review readiness**, not final Art Direction / Visual QA preference.
+It failed only when the current-world verifier applied the already-declared visual-continuity guard.
 
-## Why this measurement matters
+Structural receiving result before the visual gate:
 
-The isolated Building Runtime comparison is favorable only relative to the large `1420v / 2884t` reference boundary shell. Map currently renders a much smaller `184v / 276t` segmented Building. Compact-v2 may therefore be structurally cleaner than the reference shell yet cost more than the actual current-world receiver.
+`PASS_CURRENT_WORLD_BUILDING_COMPACT_V2_STRUCTURE`
 
-This Environment gate is specifically designed to retain that result if observed rather than importing the word “compact” as a performance story.
+Exact composition digest:
 
-## Handoffs / non-overlap
+`569c10d865ccd85161e68337c8a3705d792af64c120ca214fef411e62daabde0`
 
-- **Map PR #24:** receives the exact implementation and queued target-host gate; no new PR opened.
-- **Building Geometry PR #8:** source topology remains Geometry-owned; Environment consumes the exact derived identity without changing it.
-- **Building Hard Surface PR #9:** compact-v2 remains explicit/non-default; Environment's review selection does not alter owner policy.
-- **Building Materials PR #3:** exact five-family compact-v2 material rebind is consumed unchanged. No scalar retune is made.
-- **Building Runtime PR #10:** current-world counter deltas, once measured, are a separate handoff because the Map baseline is `184v / 276t`, not Runtime's `1420v / 2884t` reference.
-- **Art Direction + Visual QA:** no Building compact-v2 preference is claimed before retained current-world evidence exists.
-- **Nature VFX / Art / QA:** sampled leaf-flutter result remains green and fixed; wall-clock timing/final naturalness remain held.
-- **Technical Art:** no GLB/import/export/transport acceptance is inferred from procedural current-world proof rendering.
-- **UC / Profession Fabric / Capability Cartography:** unchanged. One Building receiver review does not justify generic extraction.
+## Current-world visual result
+
+The inherited guard was:
+
+`maximum significant changed fraction (>1 LSB) <= 0.001`
+
+which is `0.1%` of the full frame. Environment did not invent or relax this threshold after seeing the result.
+
+Exact comparison against the accepted parent across all retained current-world states/modes:
+
+### `path_eye`
+
+- significant changed pixels: exactly `25,376 / 792,000` in every tested state/mode;
+- significant changed fraction: **`0.03204040404040404` = `3.204040404%`**;
+- fixed Building-region bbox: `(346,256)-(753,437)`;
+- maximum RGB channel delta: **`198 LSB`**.
+
+### `elevated_oblique`
+
+- significant changed pixels: `19,113..19,117 / 792,000`;
+- significant changed fraction: approximately **`2.4133..2.4138%`**;
+- fixed Building-region bbox: `(594,171)-(888,365)`;
+- maximum RGB channel delta: **`180 LSB`**.
+
+The primary-camera result exceeds the existing `0.1%` guard by roughly **32×**. The delta remains spatially fixed to the Building region rather than following dynamic Nature/Weather state, which strengthens attribution to the receiving-representation change.
+
+Environment therefore does **not** call compact-v2 visually continuous in the current world.
+
+## Preserved Weather / multi-asset evidence
+
+The Building comparison did not break the inherited source-width Weather receiver:
+
+- candidate-mode Weather projected-width measurements: **1,224**;
+- maximum projected-width residual: **`0.00974698571769128 px`**;
+- existing limit: `0.05 px`.
+
+The exact same maximum residual is present in the accepted parent.
+
+Nature flutter, static Nature, indexed Object, visible Object footprint cue and all other pinned receiving inputs remain fixed. The failed visual gate is therefore not evidence of Weather/Object/Nature drift.
+
+## Actual Map consumer cost result
+
+This is the second reason compact-v2 is held.
+
+Building Runtime PR #10 legitimately found compact-v2 cheaper than the large `1420v / 2884t` boundary-shell reference. Map, however, already uses a much smaller `184v / 276t` segmented receiver.
+
+Against that **actual current Map consumer baseline**, the compact-v2 candidate changes proof-host counters by exactly:
+
+- observed RenderingServer buffer memory: **`+106,560 B`**;
+- rendered primitives: **`+5,328`**;
+- draw calls: **`+0`**;
+- objects: **`+0`**;
+- observed texture memory: **`+0 B`**.
+
+So compact-v2 is a real optimization relative to one Building reference representation but is **not an optimization for this current Map receiver**.
+
+These proof-host counters remain characterization only, not target-device performance evidence.
+
+## Environment decision
+
+**`HOLD_CURRENT_WORLD_BUILDING_COMPACT_V2_RECEIVER__VISUAL_CONTINUITY_AND_ACTUAL_MAP_BASELINE_COST_FAIL`**
+
+Exact meaning:
+
+> Preserve Building compact-v2 as a valid, source-owned explicit non-default derived receiving option, but do not adopt it into the current Environment world. In the real current Map composition it exceeds the existing visual-continuity guard by a large margin and costs more buffer memory / rendered primitives than the current `184v / 276t` Building receiver. The semantic source and current receiving reference remain unchanged.
+
+No threshold is weakened to force a green result.
+
+No source rewrite, material retune, normal-policy rewrite or Geometry mutation is requested merely to rescue the candidate.
+
+## Retained evidence
+
+Failed-but-useful exact target-host artifact:
+
+- workflow: `35179857530`;
+- artifact ID: **`10480305129`**;
+- size: **`6,974,092 bytes`**;
+- archive SHA-256: **`2d1b747ae9eacf9ee0eb3754ba8fcd27f367e3edf77c3f6a66d700871ff83b94`**;
+- independently downloaded and rehashed during this activation: **same SHA-256**.
+
+The artifact retains the exact compact-v2 owner/material packets, combined current-world payload, real Godot runtime receipt and rendered current-world evidence even though the final continuity verifier correctly exits nonzero.
+
+## Handoffs recorded
+
+### Map Environment PR #24
+
+Comment **`5708312027`** records the exact current-world failure, actual consumer cost and HOLD decision. No new Environment PR was opened.
+
+### Building Hard Surface PR #9
+
+Comment **`5708313153`** confirms that the owner policy is working as designed: source-owned availability does not imply consumer adoption. No source-owner repair is requested.
+
+### Building Materials PR #3
+
+Comment **`5708314402`** records that isolated three-view material continuity does not transfer automatically into this current-world receiver. No material scalar retune is requested from this result.
+
+### Building Runtime PR #10
+
+Comment **`5708315412`** records the actual Map consumer baseline result. Runtime's saving against the `1420v / 2884t` boundary reference remains valid, but it must not be transferred to Map's smaller `184v / 276t` receiver.
+
+### Building Geometry PR #8
+
+No topology mutation is requested. The compact-v2 structural evidence remains useful and unchanged; the current failure is a downstream receiving/adoption result, not a claim that Geometry's structural proof was false.
+
+### Art Direction / Visual QA
+
+No compact-v2 preference PASS is requested from a receiver that already fails Environment's predeclared continuity gate and costs more than the actual current Map representation. If a materially different future receiver/normal policy is proposed, Art/QA may review that exact new evidence independently.
+
+### Technical Art
+
+No GLB/import/export/transport acceptance is inferred. A held procedural current-world candidate is not promoted into a transport lane.
+
+## Reusable composition learning
+
+This activation establishes a stronger Environment rule:
+
+> **A derived representation must be measured against the actual receiving composition and actual current consumer baseline. “Smaller than the source owner's reference” does not mean “cheaper for this world,” and isolated material continuity does not automatically survive a different scene/receiver context. Preserve optional source-owned representations, but adopt only after exact current-world visual and consumer-cost evidence.**
+
+This is a reusable studio decision pattern, not yet a generic UC implementation. No Universal Creation or Profession Fabric extraction is justified by one Building receiver case.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a compact-v2 Environment target-host PASS before workflow `35179344886` completes green;
-- compact-v2 as semantic source or default Building receiver;
-- final Building Art Direction or Visual QA preference;
-- smooth/generated-normal, UV, texture, normal-map, decal or arbitrary-lighting equivalence;
-- Technical-Art transport/import acceptance;
-- target-device FPS, CPU, GPU, VRAM, heap, thermal, battery, batching or production performance;
-- final Nature flutter timing/naturalness or physical wind;
+- compact-v2 Environment adoption;
+- compact-v2 as semantic source or default receiver;
+- that compact-v2 is universally visually bad or universally slower;
+- generated/smoothed-normal, UV, texture, normal-map or decal equivalence;
+- arbitrary camera/FOV/lighting/renderer equivalence;
+- Technical-Art import/export/transport acceptance;
+- target-device FPS, CPU, GPU, VRAM, heap, thermal, battery or batching acceptance;
+- final Nature wall-clock flutter timing/naturalness;
 - collision, navigation, physics, interaction or gameplay;
 - CANON;
 - production/game readiness;
@@ -178,13 +270,15 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** the prior flutter gate is now recorded as green because the exact workflow actually completed. The new compact-v2 gate remains queued and is not called PASS. The favorable isolated Runtime result is not silently transferred to the smaller Map baseline.
-- **Agency / non-domination:** Geometry owns compact topology, Hard Surface owns receiving availability, Materials owns surface continuity, Environment owns only current-world composition, Art/QA own preference, Technical Art owns transport, Runtime owns device performance.
-- **Continuity:** the existing Map PR #24 lane is advanced; exact parent and donor identities remain separately addressable; `header-segmented-23` stays semantic source and compact-v2 remains an explicit derived receiver.
-- **Wisdom before speed:** test the exact derived option in the real multi-asset world before adopting it because “compact” relative to one reference does not imply cheaper than the actual current Map representation.
+- **Truth:** the workflow is recorded as FAILURE because the exact current-world candidate violated the predeclared visual guard; the favorable Building Runtime reference-baseline result and unfavorable Map consumer-baseline result are both preserved.
+- **Agency / non-domination:** Geometry owns compact topology, Hard Surface owns representation availability, Materials owns material receiving, Runtime owns cost characterization, Environment owns current-world receiving selection, Art/QA own visual preference, and Technical Art owns transport.
+- **Continuity:** semantic source, boundary reference, compact-v2 option, accepted current-world parent, first failed verifier run, repaired exact rerun and retained artifact remain separately addressable exact identities.
+- **Wisdom before speed:** reject automatic adoption instead of weakening a gate or replacing a cheaper current receiver simply because a derived representation is named “compact.”
 
 The four AXM roots remain the merge gate.
 
 ## Next Environment pass
 
-Inspect workflow `35179344886` at exact head `538bc8f1536a2b980a52351eca25777305cd0f65` before another product mutation. If it succeeds, record exact pixel/runtime measurements and hand them to Building Runtime plus Art Direction / Visual QA without auto-adopting compact-v2. If it fails, preserve the failure and repair only the demonstrated receiving defect. Do not open a second Building Environment lane while this exact gate is unresolved.
+Re-scan the full constellation before acting. Do **not** repeat this exact compact-v2 receiver comparison and do not relax its visual guard. Reopen Building compact-v2 only if a source owner provides a materially different receiving representation / normal policy with new evidence that could change this consumer result.
+
+Otherwise choose the strongest fresh unowned Environment receiving gap while leaving active Nature timing, Weather timing, Object source/lookdev, Technical-Art transport, Runtime and Art/QA lanes with their current owners.
