@@ -1,210 +1,186 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-17
-State: **BUILDING_UTILITY_PANEL_CLEARANCE_SUCCESSOR_UV_RECEIVER_REPAIRED / REAL_GODOT_SUCCESSOR_PASS / BUILDING_MATERIALS_PR3_DRAFT / COORDINATION_ONLY**
+State: **ANIMAL_TEXTURE_SEAM_FILTER_RECEIVER_PASS / ANIMAL_MATERIALS_PR24_DRAFT / COORDINATION_ONLY**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, the live Materials status, current specialist constellation, and active design-repository lanes before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation remains in `mike-axiom-mir/axm-building-design`.
+`axm-create-me` remains **coordination only**. Product/evidence implementation remains in `mike-axiom-mir/axm-animal-design`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Materials status remains exact and rollbackable at blob **`a1c0b480230b0b68073256f8b4e59e48c22b26ef`**. That state truthfully recorded the clearance-successor receiving implementation while its first exact workflow was still queued; it is preserved rather than silently rewritten.
-
-Historical predecessor Materials evidence also remains separately valid at head **`c12766ecdc3e47a6d422a5af67b4cd28ec68c1ac`** with result `PASS_TARGET_HOST_BUILDING_UTILITY_PANEL_PHYSICAL_UV_DENSITY_REVIEW`. It remains predecessor evidence only and is not relabeled as clearance-successor evidence.
+The immediately preceding Materials status remains exact and rollbackable at blob **`cc72c5e52a4981106cbcb2097dd8d902e2848d65`**. That state records the completed Building utility-panel clearance-successor UV-density PASS and is preserved rather than silently rewritten.
 
 ## Fresh constellation / duplicate-lane scan
 
-The strongest bounded Materials-owned gap remained in the existing Building Materials lane:
+The strongest fresh Materials-owned gap was Animal texture sampling rather than another Building pass by cadence:
 
-- Building Materials PR #3 already owns the utility-panel surface/UV receiving work, so no duplicate lane was opened;
-- Hard Surface PR #17 owns the corrected utility-panel clearance successor at exact evidence head **`6585c62d9e21cd56244d35817ec40f1f92889c6f`**;
-- the successor preserves the local service-surface domain at `1.10 m × 1.50 m` / `1.65 m²`, while receiver-normal standoff changes from `0.08 m` to `0.10 m` and produces the declared `0.02 m` physical body gap;
-- Procedural PR #4 exact head **`0d019e64a9788c05e259e8dde50498e9392469d1`** owns the two successor receiver rebinds and explicitly forbids automatic receiver adoption;
-- Geometry chart head **`79e09f68a05770eb6dabbbbbb3b008fc8e050aa0`**, blob **`56f1964b3360e371ac8c39d547cb300cd14fb997`**, remains historical comparator evidence. Geometry has not rebound that chart identity to the successor.
+- existing Animal Materials PR #24 already owns tangent-space receiving/lookdev, so no duplicate Materials lane was opened;
+- Geometry owns the seam-aware UV/tangent structural domain;
+- Rigging owns the post-skin position-derived frame reconstruction;
+- Technical Art owns transport/receiver implementation;
+- Runtime owns representation, filtering/storage cost, target-device behavior;
+- the prior Animal Materials proof already showed that the post-skin reconstructed frame visually recovers the owner baseline under the bounded diagnostic;
+- Runtime's current Animal work still explicitly holds actual texture-sampling/device policy, so a real Materials-side texture/filter receiver with a seam-negative control was a useful non-overlapping precursor.
 
-The bounded question stayed unchanged:
+Bounded question:
 
-> Can the already-proven physical-density review be received on the exact owner-provided clearance-successor placements while preserving local material/metric continuity and historical chart provenance?
+> On the already-proven reconstructed Animal tangent frame, can a periodic tangent-space normal texture exercise real repeat+mipmap sampling without a base-level U-edge discontinuity, while a deliberately introduced U-edge defect remains visible and localized across representative deformation/view contexts?
 
 ## Existing Materials lane advanced
 
-Repository: `mike-axiom-mir/axm-building-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-PR #3 — `Materials: prove pavilion functional surface hierarchy`
+PR #24 — `Materials: render deformed tangent-space diagnostic in Godot`
 
-Branch: `studio/materials-pavilion-surface-001`
+Branch: `studio/materials-animal-tangent-space-lookdev-001`
 
-Final tested Materials head for this activation:
+Exact tested Materials head:
 
-**`fe4fdfb2033b0c3c2705a532b9e6b610a3d119c1`**
+**`edec05e2e803dd3c7483e374c12eb1fa5a9c5501`**
 
-No merge, rebase, base retarget, source-authority transfer or CANON action was attempted.
+PR #24 remains open and draft. No merge, rebase, base retarget, owner transfer or CANON action was attempted.
 
-## First exact run failed closed — demonstrated receiver defect only
+## Bounded texture/filter receiver
 
-The first successor workflow was:
+The new receiver freezes the exact existing reconstructed Animal positions, topology, UVs, normals/tangents, lighting and cameras and changes only the diagnostic texture/filter condition.
 
-**`35252601922 — Building material utility-panel UV density clearance-successor evidence`**
+Self-generated probe:
 
-at head **`fc1015664b5c16ecfbb14df3ecb5ce5d308141d2`**.
+- `256 × 256` RGBA8 tangent-space normal texture;
+- periodic U response so first/last base columns represent the same endpoint;
+- candidate: generated mipmaps + repeat sampling + linear mip filtering;
+- characterization control: same base texels with repeat sampling but without mip filtering;
+- negative: identical interior texels, but only the first/last **8 U-edge columns** are deliberately pushed in opposite tangent directions before mip generation;
+- seam locator: unshaded projected U-edge band, used only to localize the negative.
 
-Its exact owner checkout, 19-test Building suite, successor derivation, provenance verification, and deliberately corrupted successor-placement negative all passed. The real Godot step then failed before visual acceptance because `lookdev-utility-panel-uv-proof/observe.gd` accepted only the historical schema `axm.building-utility-panel-uv-density-payload/v0.1`, while the correctly distinct successor payload uses `axm.building-utility-panel-uv-density-clearance-successor-payload/v0.1`.
-
-This was treated as an observer/receiver compatibility defect, **not** as evidence against the UV candidate and not as permission to disguise the successor payload as historical.
-
-## Bounded repair
-
-Materials repaired only the demonstrated receiving defect.
-
-`lookdev-utility-panel-uv-proof/observe.gd` now accepts exactly two payload identities:
-
-- historical `axm.building-utility-panel-uv-density-payload/v0.1`;
-- clearance-successor `axm.building-utility-panel-uv-density-clearance-successor-payload/v0.1`.
-
-When the successor schema is received, the real renderer additionally fails closed unless:
-
-- explicit `successor_continuity` evidence exists;
-- `historical_geometry_chart_rebound == false`;
-- `automatic_receiver_adoption == false`;
-- exactly two owner-provided receiver rebinds are present.
-
-The runtime receipt records the exact payload schema and `CLEARANCE_SUCCESSOR` receiver mode.
-
-The successor contract now documents this receiver boundary explicitly. The payload is **not schema-rewritten**, and no visual threshold, camera, light, UV choice, material scalar, checker frequency, negative control or source placement was relaxed or retuned to make CI green.
+This is not a production Animal normal map.
 
 ## Exact provenance retained
 
-Historical owner identities remain pinned to:
+The texture/filter receiver consumes the already-proven Animal Materials/Rigging chain without changing owner data:
 
-- Materials predecessor head **`c12766ecdc3e47a6d422a5af67b4cd28ec68c1ac`**;
-- Geometry chart head **`79e09f68a05770eb6dabbbbbb3b008fc8e050aa0`**, blob **`56f1964b3360e371ac8c39d547cb300cd14fb997`**;
-- historical Hard-Surface service-domain head **`97120eb78a72b0a07aff1c65b9b92229d0a42aff`**, blob **`14037a0fb939104ea319c9ac96fbe9fdaa949a18`**.
+- preceding Animal Materials direction-frame head: **`35808c9a5a8906a478ee28e5b6a04e34113ac28c`**;
+- exact Rigging reconstruction head: **`81ab44eab2e13bed95187610a476be2b2c4667a7`**;
+- Rigging reconstruction module blob: **`c9916c62e2081922b8eb7ec0b3cd1c25c019b2f6`**;
+- Rigging transport-audit module blob: **`42f31fc5cb95426e89d22b5ed6c2b0983a22326d`**;
+- exact Technical Art retained GLB SHA-256: **`ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`**;
+- exact retained Technical Art artifact: **`10474385703`** with pinned archive SHA-256 `7fc2a7f5d745da593e8762efa98e13661f84a057b1eb60921d576c366e71d7bb`.
 
-Successor ownership remains pinned to:
+The existing Animal payload builder and preceding Godot direction-frame observer are blob-pinned by the new workflow so a same-name drift cannot inherit this result.
 
-- Hard Surface PR #17 head **`6585c62d9e21cd56244d35817ec40f1f92889c6f`**;
-- successor panel blob **`51b7fa61dd87934a89e033a2fdf5cc3b99992454`**;
-- successor service-domain blob **`8b4484d4ccbd500e58910a2835d8780112489919`**;
-- Procedural PR #4 head **`0d019e64a9788c05e259e8dde50498e9392469d1`**;
-- Procedural result `PASS_BOUNDED_BUILDING_UTILITY_PANEL_CLEARANCE_REBIND_FAMILY`;
-- Procedural decision `PASS_DERIVED_CLEARANCE_SUCCESSOR_REBIND_ONLY__NO_SOURCE_REWRITE_OR_RECEIVER_ADOPTION`.
+## Real target-host proof
 
-The exact owner-provided panel-center rebinds remain:
+Dedicated workflow:
 
-- front: `[-2.45,-1.08,1.65] → [-2.45,-1.10,1.65]`;
-- east: `[3.88,0.10,1.65] → [3.90,0.10,1.65]`.
+**`35264856748 — Materials Animal texture seam filter lookdev`**
 
-The successor payload canonical digest remains **`ce328fa7b82340ca6c5b9c6d79e9d72fb7005dd704839033ff66e69236812f88`**.
+Result: **SUCCESS** on Python 3.11 and Python 3.13.
 
-## Real target-host successor proof
+Scoped result:
 
-Exact rerun:
+**`PASS_ANIMAL_PERIODIC_NORMAL_TEXTURE_BASE_EDGE_CLOSED__MIPPED_SEAM_MUTATION_LOCALIZED`**
 
-**`35258372304 — Building material utility-panel UV density clearance-successor evidence`**
+The Python 3.11 lane rendered through **Godot 4.7.2 stable / GL Compatibility / X11 / Mesa llvmpipe** and retained **50 real PNGs**:
 
-Exact tested head:
+- 5 authored right-side pose samples (`0 / 10 / 20 / 30 / 40`);
+- two fixed camera contexts (`three_quarter`, `grazing`);
+- five modes (`flat_control`, `periodic_mipped`, `periodic_no_mip`, `edge_mutated_mipped_negative`, `seam_locator`).
 
-**`fe4fdfb2033b0c3c2705a532b9e6b610a3d119c1`**
+The full inherited Animal suite also remained green in both matrix jobs.
 
-Result:
+## Exact observations
 
-**`PASS_TARGET_HOST_BUILDING_UTILITY_PANEL_UV_DENSITY_CLEARANCE_SUCCESSOR_REVIEW`**
+Structural texture-edge controls:
 
-Both Python 3.11 and Python 3.13 jobs completed successfully. The 3.11 lane ran the real target-host observer in **Godot 4.7.2 stable / GL Compatibility / X11 / Mesa llvmpipe** and retained six real PNGs across front-service, east-service and three-quarter contexts.
+- candidate base first/last-column maximum RGB8 delta: **`0`**;
+- deliberate negative base-edge maximum RGB8 delta: **`98`**;
+- periodic normal response visible in all **10/10** pose/view comparisons;
+- mipped versus no-mip difference visible in all **10/10** comparisons;
+- deliberate edge negative visible in all **10/10** comparisons;
+- localized-negative gate PASS in all **10/10** comparisons.
 
-The complete Building suite passed **19/19** on the real-render job. The deliberately corrupted successor center remained fail-closed: changing the front displacement to approximately `0.020024984 m` was rejected against the exact `0.02 m` translation contract.
+Candidate periodic-mipped versus flat control:
 
-## Candidate remained unchanged
+- **17,395..20,403 pixels** above 1 LSB per retained context;
+- **189,908** changed-pixel observations summed across the 10 comparisons;
+- maximum 8-bit channel delta **88..90**.
 
-The diagnostic physical-density candidate is unchanged from historical Materials lookdev:
+Same base texels, mipped versus no-mip:
 
-- `320 px/m` isotropic review density;
-- `512 × 512` self-generated diagnostic atlas;
-- active region origin `[80,16]`;
-- active region `352 × 480 px`;
-- `22 × 30` physical checker cells;
-- checker period `0.05 m` / `16 px`;
-- `utility_panel_ochre` albedo `#6F5A3A`;
-- metallic `0.18`;
-- roughness `0.62`.
+- **310..667 pixels** above 1 LSB per context;
+- **4,560** summed changed-pixel observations;
+- maximum 8-bit channel delta **22..25**.
 
-The deliberate aspect-blind negative is also unchanged:
+Candidate versus deliberate U-edge-mutation negative:
 
-- full-square normalized UV bounds;
-- `32 × 32` cells;
-- effective density approximately `465.4545 × 341.3333 px/m`;
-- anisotropy ratio `1.363636…`.
+- **17..29 pixels** above 1 LSB per context;
+- **230** summed changed-pixel observations;
+- maximum 8-bit channel delta **6..7**;
+- projected seam locator contains **281..585 pixels** depending on view;
+- negative-difference overlap with the bounded/dilated seam locator is exactly **`1.0` in all 10/10 contexts**.
 
-## Real-render comparison
-
-Candidate versus aspect-blind negative on the exact successor placement:
-
-- **front-service:** `49,203 / 760,000` pixels changed above 1 LSB; max RGB-channel delta `0.090196`;
-- **east-service:** `49,658 / 760,000`; max delta `0.117647`;
-- **three-quarter:** `12,456 / 760,000`; max delta `0.145098`;
-- **total:** `111,317` pixels above 1 LSB.
-
-The metric-density choice therefore remains visibly consequential in every retained successor context. Materials does not infer direct predecessor-versus-successor pixel equality from these numbers; this proof establishes the successor receiving result on its own exact identity.
+The negative is intentionally small and local: its purpose is observer sensitivity and localization, not aesthetic severity.
 
 ## Retained evidence
 
 Artifact:
 
-**`10513659075`**
+**`10515824609`**
+
+Name:
+
+`animal-materials-texture-seam-filter-lookdev-edec05e2e803dd3c7483e374c12eb1fa5a9c5501`
 
 Size:
 
-**`583,483 B`**
+**`888,895 B`**
 
 Artifact SHA-256:
 
-**`d7f622da419f6bd21b1c0a3fd7f12d8a0820d65e37f2368eebeba0382607c873`**
+**`cd50bdb70930fc83e84811ebccad360df04006e50da888cb51de762f62a4b071`**
 
-Materials independently downloaded the retained ZIP and reproduced that exact digest. The archive contains the exact contracts, historical comparator inputs, successor owner evidence, build receipts, final target-host receipt, and six real PNGs.
+Materials downloaded the retained ZIP after CI and independently reproduced that exact digest. The archive contains the 50 real renders, exact payload, target-host telemetry, machine-readable comparison summary and exact head/provenance identities.
 
-Exact handoffs were returned to:
+## Handoffs / careful propagation
 
-- Materials PR #3 — comment `5719257985`;
-- Hard Surface PR #17 — comment `5719259423`;
-- Procedural PR #4 — comment `5719260871`.
+Exact result handoffs were returned to:
 
-No Geometry handoff claims chart adoption because the chart remains explicitly historical/non-rebound.
+- Materials PR #24 — comment **`5720031824`**;
+- Geometry PR #20 — comment **`5720033411`**, only as UV/seam receiving evidence; no production UV adoption transferred;
+- Runtime PR #29 — comment **`5720035202`**, only as a reusable real texture/filter receiver and localized negative control; no Runtime policy or target-device acceptance transferred.
 
-## Reusable learning / propagation boundary
+Reusable discovery:
 
-Reusable evidence lesson:
+> A seam-aware tangent domain can be tested more truthfully by pairing a periodic base-level texture with an intentionally local edge-discontinuity negative and a projected seam locator. This separates “the shader responds”, “filtering is active”, and “a seam defect is detectable where the seam actually projects” without converting one diagnostic texture into production material policy.
 
-> **A successor receiving proof should preserve the successor's distinct schema and identity. When an observer was built for a predecessor payload, extend the receiver with explicit successor continuity guards rather than rewriting the successor to look historical or weakening visual gates.**
-
-This is a provenance/receiver-design lesson. It is not a universal `320 px/m` standard, not an instruction that every successor shares this schema, and not permission for Materials to take source geometry, Procedural, Runtime, Environment, Art Direction or Visual-QA authority.
+This pattern may be reused carefully where the receiving UV/tangent ownership and renderer sampling semantics are explicit. It is not a universal mandate for texture size, filter mode, seam placement, normal amplitude, or engine representation.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- Geometry adoption/rebinding of the historical chart to the successor;
-- automatic source or receiver adoption;
-- production UV adoption;
-- production texel-density policy;
-- final unwrap, seam, packing or padding policy;
-- production base-color, roughness, normal, decal or weathering textures;
-- Environment / Map integration;
-- Runtime memory, bandwidth or device acceptance;
+- a production Animal normal map;
+- final Animal UV packing, seam placement, padding or texel-density policy;
+- that every generated mip level is mathematically wrap-perfect;
+- anisotropic-filtering or compression behavior;
+- Technical Art producer/transport adoption;
+- Runtime texture representation, residency, bandwidth, memory or target-device acceptance;
 - final Art Direction acceptance;
 - independent Visual-QA acceptance;
+- full-body/whole-animal surface quality;
 - CANON;
-- production readiness.
+- production or game readiness.
 
 ## Four-root gate
 
-- **Truth:** the failed first run is preserved as a real receiver-schema defect; the successor PASS is claimed only after the exact repaired real-render workflow completed and its retained artifact was independently rehashed.
-- **Agency / non-domination:** Hard Surface retains source successor ownership; Procedural retains rebind ownership; Geometry retains chart ownership; Materials owns only the receiving/lookdev evidence; Runtime, Environment, Art Direction and Visual QA remain independent gates.
-- **Continuity:** existing Building Materials PR #3 was repaired and advanced instead of replaced; the preceding coordination state remains rollback-addressable at blob `a1c0b480230b0b68073256f8b4e59e48c22b26ef`; historical predecessor evidence remains separately identified.
-- **Wisdom before speed:** the demonstrated receiver defect was repaired without retuning the candidate or adding texture complexity, and no production policy was promoted from a bounded diagnostic PASS.
+- **Truth:** the PASS is bound to exact head `edec05e2...`, exact owner artifacts and real Godot GL Compatibility evidence; the result is base-edge + bounded mipped receiver evidence, not an all-mips or production-texture claim.
+- **Agency / non-domination:** Geometry retains UV/tangent structure, Rigging retains reconstruction, Technical Art retains transport, Runtime retains representation/device policy, and Art/QA retain aesthetic acceptance. Materials owns only this receiving/lookdev evidence.
+- **Continuity:** existing Animal Materials PR #24 was advanced instead of replaced; the preceding Building coordination state remains rollback-addressable at blob `cc72c5e52a4981106cbcb2097dd8d902e2848d65`; prior Animal direction-frame evidence remains separately identified.
+- **Wisdom before speed:** the smallest seam/filter diagnostic was added after direction-frame continuity existed, with a localized fail-closed negative, rather than escalating to authored production textures or claiming readiness from green structural evidence.
 
 ## Next Materials pass
 
-Re-scan the constellation first. Do not extend Building merely by cadence. Prefer a fresh owner-level material/UV/shader/surface-family gap with real receiving evidence; if no stronger gap exists, use the newly proven successor receiver only for a bounded continuity question that does not duplicate Geometry, Hard Surface, Procedural, Runtime, Environment, Art Direction or Visual-QA ownership.
+Re-scan the constellation first. Do not extend Animal merely by cadence. Prefer the strongest fresh owner-level material/UV/texture/shader/surface-family gap. If Animal remains strongest, the next step should consume an owner-provided production-relevant texture/transport or runtime sampling boundary rather than inventing more procedural detail inside Materials.
