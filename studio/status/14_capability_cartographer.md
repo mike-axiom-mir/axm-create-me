@@ -1,225 +1,234 @@
 # Capability Cartographer Status
 
-- Date: `2026-09-17`
+- Date: `2026-09-18`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_CLOSED_SHELL_ORIENTABILITY_SIGNED_ORIENTATION_PLACEMENT_MAP / BUILDING_OBJECT_REPEAT_THRESHOLD_MET / UC_199_PROPOSED_READ_ONLY_OBSERVER / EXISTING_TOPOLOGY_GAP_CONFIRMED / RENDERER_FRONT_FACE_POLICY_SEPARATED / NO_PRODUCT_OR_PF_IMPLEMENTATION / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_PAYLOAD_SEMANTIC_FRAME_TRANSFORM_IDENTITY_MAP / ANIMAL_MAP_OBJECT_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / ADAPTATION_STAGE_AND_ORIENTATION_EQUIVALENCE_SEPARATED / NO_NEW_UC_EXTRACTION / UC200_ACTIVE_NONOVERLAP / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the 3D Studio campaign and Capability Cartographer standing role, then rescanned specialist status, current product PRs, Universal Creation main/open lanes, Profession Fabric continuity and the shared-capability execution-claim registry before changing coordination state.
+Re-read the 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, current product PRs, Universal Creation main/open shared lanes, Profession Fabric continuity and the shared-capability execution-claim registry before changing coordination state.
 
-`axm-create-me` remains **coordination only**. No product geometry, winding, renderer policy, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, source adoption, CANON state, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product geometry, coordinate adapter, winding, receiver implementation, Animation source motion, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh overlap / placement scan
+## Fresh shared-work / overlap scan
 
-Shared-system continuity at this activation:
+Current shared-system continuity:
 
-- Universal Creation current main: `95b618f6e6028c2ac8c1a106cfa009a3c106f48c` (merged Physics PR #197);
-- active UC successor PR #198 is Physics at current reported head `933076a54d897702617d4ff8352b857185c0595a` and does not overlap mesh shell-orientation observation;
-- open UC PR #151 is the animated island-boat/material lane and PR #153 is bounded unwrap/bake work; neither owns this scope;
-- no open UC issue was found for closed-shell orientability / signed-orientation observation;
-- `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` contains no active claim for this scope;
-- Profession Fabric issue #38 remains the evidence/provenance procedure surface and PF PR #37 remains the separate bounded-variation experiment; neither should absorb indexed-mesh orientation algorithms.
+- Universal Creation current merged main observed in the fresh scan: `7be1a28c43a88c7e40f7d0c039aefd753d5e70d9` (merged Physics PR #198; unrelated to frame-semantics evidence).
+- UC issue #199 now has one active implementation lane, PR #200, exact head `51fa006cd3d08648a5965c09eaf55d2936b1ee2c`, open/draft/mergeable. Its dedicated workflow `35281398491` and inherited topology workflow `35281398747` are green. The coordination registry already marks that scope `IMPLEMENTING`.
+- PR #200 is the previous Cartography run's closed-shell orientability / signed-orientation observer scope. It does not own source-to-transport-to-host frame adapters or rotation representation semantics.
+- The shared-capability registry contains no active implementation claim for the frame-semantics scope selected here.
+- Profession Fabric PR #37 remains the separate experimental bounded-variation evidence procedure. It does not implement frame conversion.
+- Profession Fabric issue #38 already contains the experimental provenance/rebind vocabulary for coordinate frames and directional fields; therefore the correct action here is a bounded vocabulary refinement, not a second PF framework or implementation lane.
 
-No shared implementation lane was opened. This pass creates a bounded UC **proposal only**.
+No new UC issue, UC PR, PF PR or execution claim was opened.
 
 ## Selected material cross-repo learning
 
-The repeated structural question has now crossed the shared-machine proposal threshold:
+Fresh Animal + Object/Map evidence now crosses the repeat threshold for a narrower transform/provenance rule:
 
-**`EDGE_CLOSURE != ORIENTABILITY != GLOBAL_SIGNED_ORIENTATION != RECEIVER_FRONT_FACE_POLICY`**
+**`SAME_FRAME_TRANSFORM != SAME_TRANSFORM_LAW_FOR_EVERY_PAYLOAD_CLASS`**
 
-These are four distinct evidence layers:
+A coordinate conversion is not fully specified by saying which XYZ basis maps to which. Evidence must also preserve **what semantic quantity is being transformed**, **which rule is used for that quantity**, and **whether an earlier stage already applied a handedness/sign adaptation**.
 
-1. **edge closure / manifold-candidate structure** — are triangle edges bounded as expected;
-2. **orientability / local winding coherence** — can face parities be made mutually consistent across a connected closed component;
-3. **global signed orientation in a declared coordinate frame** — once coherent, what algebraic signed-volume orientation does that exact component have;
-4. **receiver front-face / culling interpretation** — how a target renderer interprets winding after transport.
+The practical failure mode is double or wrong adaptation: positions may look correct while face orientation or rotations are wrong because a downstream consumer reused the point/vector rule for an oriented or axial quantity.
 
-A PASS in one layer does not transfer to the next.
+## Evidence A — Animal static surface transport
 
-## Evidence A — Building supplies the first closed positive-volume product family
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Repository: `mike-axiom-mir/axm-building-design`
+Technical Art PR #3 current head:
 
-Geometry PR #6 exact current head:
+`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
 
-`b6d14d48c59859ae6ff2aaed7dea86b4e00a5402`
+The retained Animal bridge explicitly maps the Animal source convention:
 
-The Building lane derives a boundary-only reference shell from the current source-owned segmented pavilion representation while keeping the semantic 23-box source authoritative.
+`+X forward, +Y left, +Z up`
 
-Exact retained result:
+to UC's portable Y-up / +Z-forward surface convention.
 
-- derived shell: `1420 vertices / 2884 triangles`;
-- face-connected solid components: `4`;
-- boundary edges: `0`;
-- non-manifold edges: `0`;
-- orientation-conflict edges: `0`;
-- degenerate triangles: `0`;
-- disconnected indexed vertex fans: `0`;
-- occupied union volume: `9.49832 m^3`;
-- candidate signed volume: `9.49832 m^3`;
-- source adoption: not claimed.
+That conversion changes handedness. Technical Art therefore also reverses triangle winding while transporting the exact product surface. The important distinction is not merely that both operations happen in one adapter; it is that they are **different semantic consequences of the same declared frame map**:
 
-Building explicitly recorded that one source family was insufficient to promote its structural pattern into UC. That restraint is preserved.
+- source positions are coordinate values transformed into the target frame;
+- oriented triangle order carries orientation/chirality information and therefore cannot be treated as a position payload;
+- source/product topology authority does not move merely because a transport adapter reverses target-side winding.
 
-## Evidence B — Object supplies the independent second case and exposes the missing distinction
+The bridge preserves its own exact producer identities and does not convert this receiving operation into source adoption, visual acceptance or a generic UC policy.
 
-Repository: `mike-axiom-mir/axm-object-design`
+## Evidence B — Object owner motion into the current-world Godot receiver
 
-Geometry PR #33 exact current head:
+Repository: `mike-axiom-mir/axm-map-design`
 
-`606d8189a3bf4502141d8038f08d35d421829dde`
+Technical Art PR #45 current exact head:
 
-Source asset remains `468 vertices / 812 triangles / 31 rigid groups`.
+`e085437f6cc958bbf7c5c6464578923d542962b0`
 
-The decisive observations are:
+The fresh real-host failure exposed the dynamic version of the same semantic distinction.
 
-- all exact source groups are closed by edge incidence;
-- the 17 box groups are coherently negative-volume;
-- the 14 cylinder groups contain `304` same-direction shared-edge orientation conflicts;
-- signed volume is treated as decisive only after local orientation coherence is established;
-- derived candidate conflicts: `304 -> 0`;
-- candidate groups with positive signed volume: `31 / 31`;
-- face windings reversed: `508 / 812`;
-- source positions changed: false;
-- per-face vertex membership changed: false;
-- triangle order changed: false;
-- group partition changed: false;
-- source adopted: false.
+The owner/UC path uses:
 
-This proves why closure alone is insufficient in two different ways: a shell can be closed yet locally inconsistent, or closed and locally coherent yet globally signed in the opposite orientation.
+`source [x,y,z] -> UC/glTF [x,z,y]`
 
-## Reuse pressure — exact Geometry helper is already being consumed downstream
+which changes handedness. The existing owner motion plan already encodes the corresponding angle-sign consequence.
 
-Object Procedural PR #11 current head:
+The actual current-world Godot host uses:
 
-`bdcc35bc663ec5166aaf7d6eeefd715707c33482`
+`source [x,y,z] -> Godot [x,z,-y]`
 
-Its newest oriented service-module configuration successor consumes the **exact pinned Geometry #33 orientation helper** rather than copying the solver. Across four retained configuration outputs, generated module shells move from negative to positive signed volume with all 12 faces flipped per generated module instance, while historical outputs remain addressable and product/source authority does not transfer.
+which is a proper rotation.
 
-That reuse is still inside Object and is not counted as a third product. It does, however, demonstrate that the Geometry operation is already useful outside the exact source candidate that first exposed it.
+The old bridge silently treated these receiver frames as if the same scalar angle convention could simply pass through. Real Godot then failed the rigid-placement invariants even though the underlying owner motion was unchanged.
 
-## Existing UC gap confirmed
+The bounded Technical-Art repair remains product/receiver-owned:
 
-Current UC `src/axm_uc/mesh_topology.py` already provides strong neutral observation:
+`UC_GLTF_TO_GODOT_CURRENT_WORLD_REFLECTION_Z__NEGATE_OWNER_ROTATION_ANGLE_AFTER_WORLD_AXIS_PLACEMENT`
 
-- source vertex liveness;
-- source-index vertex-fan connectivity;
-- positional seam welding for structural observation;
-- collapsed triangle detection;
-- boundary and non-manifold edge counts;
-- `orientation_conflict_edge_count`;
-- connected triangle-component count;
-- `closed_by_edge_incidence`;
-- `orientation_consistent_by_shared_edge`.
+It:
 
-It intentionally performs no topology repair.
+1. keeps the owner and UC/glTF frame identity explicit;
+2. keeps the actual Godot host frame explicit;
+3. reflects receiver Z into the host convention;
+4. maps the already world-placed owner hinge axis into that host frame;
+5. negates the already-handedness-adjusted owner angle exactly once;
+6. leaves UC product code unchanged.
 
-The missing neutral observation is narrower:
+Final workflow `35279024982` succeeds. Retained receiver observations include quaternion errors `0.0`, neutral/endpoint closure with zero drift, owner latch `-50°` appearing as Godot-host `+50°`, and owner lid `+100°` appearing as Godot-host `-100°` at the retained samples.
 
-1. if input winding is inconsistent, UC does not currently say whether the closed component is **orientable** under a consistent face-parity assignment;
-2. if input winding is already coherent, UC does not report the component's **global signed orientation** in the declared input frame.
+This is direct evidence that **adaptation stage identity matters**: a sign change that is already present in an upstream owner/transport plan must not be applied a second time merely because another frame boundary also exists downstream.
 
-Therefore a coherently inward closed shell can satisfy the existing `CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE` status without the global sign being reported.
+## Evidence C — Animation independently selects the correct orientation comparison primitive
 
-UC already has internal signed-volume calculation inside fabrication/cutter machinery, but that is not exposed as a general read-only topology observation. The gap is therefore real without requiring product semantics to define it.
+Repository: `mike-axiom-mir/axm-map-design`
 
-## Receiver-policy separation — Object Materials prevents over-generalization
+Animation PR #48 exact current head:
 
-Object Materials PR #6 exact tested head:
+`343668b80acd52367e3427f3ef97d1662625c18f`
 
-`ad1353d11b5175e05661efa45a32b8e40ec8707c`
+Animation explicitly replays the frozen Object owner sequence on the exact `e085...` Technical-Art receiver instead of inheriting its older wall-clock PASS by ancestry.
 
-Its real Godot receiver shows why a shared source/topology observer must stop before renderer policy. With the same exact Geometry candidate and unchanged material values, the retained target host is strongly winding-sensitive under backface culling:
+The important Cartography evidence is its observer repair:
 
-- owner-order culled vs owner-order two-sided aggregate: `154,468 px > 1 LSB`;
-- host-reversed culled vs host-reversed two-sided aggregate: only `3 px > 1 LSB`;
-- unshaded cull-disabled owner-order vs reversed-order spatial controls remain `0` raw changed pixels in all three retained cameras.
+- scalar source/host Euler-X comparison was too weak for the adapted receiver;
+- Animation now compares the **actual pivot quaternions** with quaternions generated from Technical Art's already-adapted target plan about the exact host axis;
+- it does **not** apply another frame/sign conversion;
+- exact owner timing, keys, easing and amplitudes remain frozen.
 
-Materials therefore retains a target-host receiving preference without relabelling it as source truth. Technical Art still owns any production transport/index-order adapter.
+Workflow `35283767586` succeeds with maximum receiver-frame quaternion disagreement `0.0°`, correct phase order, peak traversal and endpoint closure. The same receipt explicitly keeps `74 / 101` observed source slots as incomplete display/source-slot coverage rather than relabelling it complete 40 Hz delivery.
 
-This gives the placement stop line:
+This independently demonstrates another part of the rule: **orientation equivalence has its own representation/observer identity**. Scalar Euler equality is not the general acceptance primitive for a receiver whose orientation has already been adapted into another frame.
 
-**UC may observe graph orientability and signed orientation; it must not choose target renderer front-face semantics.**
+## Cross-repo capability map
 
-## Placement action — Universal Creation proposal #199
+The reusable evidence chain is now:
 
-Opened:
+`source_frame_identity`
 
-`mike-axiom-mir/axm-universal-creation#199`
+→ `frame_transform_identity + parity/chirality`
 
-Title:
+→ `payload_semantic_class`
 
-`Proposal: expose closed-shell orientability and signed-orientation evidence`
+→ `payload_transform_rule_identity`
 
-The proposed scope is an **opt-in read-only extension** of the existing topology observer. A future implementation may report, per eligible connected component:
+→ `adaptation_stage_identity`
 
-- exact component identity/digest;
-- closure state;
-- current shared-edge orientation state;
-- `ORIENTABLE | NON_ORIENTABLE | NOT_EVALUATED`;
-- deterministic parity-solution identity/digest when orientable;
-- diagnostic face-flip count relative to exact input;
-- current signed volume only when exact input is already closed/coherent;
-- coherent-candidate signed volume only after a valid parity solution exists;
-- explicit coordinate-frame / handedness convention for the sign;
-- bounded failure states for open, non-manifold, disconnected/unsupported, near-zero algebraic volume or work-budget cases.
+→ `receiver_frame_application_identity`
 
-The proposal explicitly preserves existing topology status semantics and forbids automatic winding repair, source migration, renderer front-face conversion, normals/tangents rewriting, self-intersection repair, physical-volume certification, product adoption or CANON.
+→ `orientation/geometry observation-space identity`
 
-Important wording boundary:
+→ bounded claim verdict.
 
-A positive signed-volume candidate is **diagnostic**, not universally named `outward`. Signed-volume orientation depends on the declared frame/chirality and still does not prove self-intersection freedom or a renderer's front-face convention.
+The following distinctions must stay explicit:
 
-## Profession Fabric placement
+- `POINT_POSITION` / ordinary positional coordinate;
+- `POLAR_DIRECTION` where appropriate;
+- `NORMAL_COVECTOR` / normal-specific transform rule;
+- `TANGENT_PLUS_HANDEDNESS` where tangent sign semantics exist;
+- `ORIENTED_TRIANGLE_ORDER` / winding parity;
+- `ROTATION_ORIENTATION` / matrix, quaternion or axis-angle semantics.
 
-No new PF refinement was needed this pass.
+The transform matrix alone does not prove those semantic rules are interchangeable.
 
-PF issue #38 already owns provenance/rebind procedure and exact consumed-identity vocabulary. The new repeated operation is deterministic indexed-mesh graph/orientation mathematics, so the correct candidate home is UC rather than PF.
+## Profession Fabric placement action
 
-PF would only record a future consumer's old/new UC observer identity and required rerun; it should not implement the orientation solver or choose winding semantics.
+Refined existing Profession Fabric issue #38 with comment:
+
+`5722327764`
+
+The refinement extends the already-existing frame/directional evidence vocabulary with:
+
+- `frame_transform_identity`;
+- `frame_transform_parity` (`PROPER | IMPROPER | NOT_EVALUATED`, or exact determinant sign when applicable);
+- `payload_semantic_class`;
+- `payload_transform_rule_identity`;
+- `orientation_representation_identity`;
+- `adaptation_stage_identity`;
+- `orientation_equivalence_observer_identity`;
+- explicit separation from renderer front-face/culling policy.
+
+The bounded non-transfer rules are:
+
+1. position equivalence does not prove orientation equivalence;
+2. one frame map does not authorize one transform law for every payload class;
+3. improper frame conversion can affect oriented topology and rotation/axial semantics differently from points/directions;
+4. an adaptation already encoded upstream must not be applied again downstream;
+5. scalar Euler equality is not sufficient where the claim is full orientation equivalence;
+6. coordinate-frame parity still does not choose a renderer's front-face/culling policy.
+
+This is **evidence/provenance vocabulary only**. PF does not receive an executable frame adapter, target-host rule or product acceptance authority.
+
+## Why no new Universal Creation lane was opened
+
+The evidence is repeated, but the executable mechanisms are not yet one neutral implementation contract:
+
+- Animal's adapter is a product-source → portable-surface transport boundary and includes target-side winding treatment;
+- Map Technical Art's adapter is an owner/UC-glTF → Godot current-world receiving boundary with already-adapted rotation semantics;
+- Animation is an observer/replay consumer of that exact receiver, not a third frame-conversion implementation.
+
+UC should remain generic until multiple materially different receivers need the same neutral executable transform machinery. At this point the shared reusable result is the **semantic contract/evidence identity**, which belongs in PF #38.
+
+Current UC PR #200 remains active for the separate closed-shell orientation observer; no sibling implementation was opened or disturbed.
 
 ## Product returns
 
-Returned the shared-placement decision without modifying product code:
+Returned the map without changing product code:
 
-- Object Geometry PR #33 comment `5721855724`;
-- Building Geometry PR #6 comment `5721858733`.
+- Profession Fabric issue #38 comment `5722327764`;
+- Map Technical Art PR #45 comment `5722328940`;
+- Animal Technical Art PR #3 comment `5722329946`;
+- Map Animation PR #48 comment `5722331146`.
 
-Both comments preserve historical evidence and state that a future UC implementation would require explicit product rebind/rerun before shared-observer coverage could be claimed.
+No source, receiver, motion, frame adapter, renderer policy or acceptance threshold was changed by Cartography.
 
-No comment was added merely by cadence to Materials or Procedural; their current statuses already contain the relevant authority separation and exact helper-consumption evidence.
-
-## Bounded cross-repo map
+## Bounded placement table
 
 | Layer | Correct home | Current evidence | Explicitly not implied |
 |---|---|---|---|
-| edge closure / current orientation conflicts | UC neutral topology observer | existing `mesh_topology.py` | orientability repair or global sign |
-| parity orientability / signed-orientation observation | **UC proposal #199** | Building #6 + Object #33 | source repair/adoption |
-| product source winding decision | owning Building/Object source + Geometry/Hard Surface | product receipts | automatic UC adoption |
-| target-host front-face/culling rule | Materials / Technical Art receiver | Object Materials #6 | source truth |
-| provenance / rebind history | Profession Fabric #38 procedure vocabulary | existing PF proposal | mesh algorithms |
-| shared-work collision avoidance | `axm-create-me` execution-claim coordination | no active #199 implementation claim | ownership / merge priority |
+| product/source coordinate convention | owning product source / Technical Art boundary | Animal PR #3; Object owner data | global UC convention adoption |
+| exact product/receiver adapter | owning Technical Art lane | Animal #3; Map #45 | shared engine extraction |
+| receiver orientation comparison | owning Animation/QA evidence lane | Map Animation #48 | retime, controller or Art acceptance |
+| reusable semantic transform/provenance vocabulary | Profession Fabric #38 experimental procedure | current Cartography refinement | executable adapter or automatic conversion |
+| generic neutral executable transform machinery | Universal Creation only after stronger repeat evidence | **not opened this pass** | host-specific frame policy |
+| renderer front-face/culling policy | Materials / Technical Art receiver | prior Object receiving evidence | source/coordinate truth |
+| shared-work collision avoidance | `axm-create-me` coordination registry | UC #200 active only | ownership / merge priority |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a universal automatic winding repair;
-- source adoption of Object Geometry #33;
-- source adoption of Building's derived boundary shell;
-- that positive signed volume alone proves geometric outwardness for arbitrary/self-intersecting meshes;
-- renderer front-face correctness from source signed orientation;
-- target-host transport correctness;
-- normals/tangents/UV/material acceptance;
-- physical volume, collision, manufacturing or gameplay validity;
-- a UC implementation of proposal #199;
+- one universal source/host coordinate convention;
+- one universal automatic coordinate adapter;
+- a generic quaternion/Euler conversion policy;
+- automatic winding repair or source winding adoption;
+- normal/tangent production correctness merely from the new vocabulary;
+- target-renderer front-face/culling correctness;
+- Animation retiming or full 101-slot display delivery;
+- Runtime/controller/device acceptance;
+- Art Direction / independent Visual QA acceptance;
+- a UC implementation for frame conversion;
 - a PF implementation or profession promotion;
-- Art Direction / Visual QA acceptance;
 - CANON;
 - production/game readiness;
 - mastery;
@@ -229,13 +238,13 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-**Truth:** Building and Object are kept as separate exact product proofs, and the existing UC observer's real boundary is named precisely. Signed orientation is not inflated into renderer or physical truth.
+**Truth:** the real Map/TA failure is preserved; the distinction is based on exact receiver evidence, not inferred from green position transport. Animal's historical handedness/winding bridge remains its own product proof, and Animation's `74/101` wall-clock observation is not inflated into full cadence delivery.
 
-**Agency / non-domination:** source owners retain source winding/adoption authority; Geometry owns product structural candidates; Materials/Technical Art retain receiver conventions; UC is proposed only as a neutral observer; PF retains provenance procedure only.
+**Agency / non-domination:** Animal and Map Technical Art keep adapter ownership; Animation keeps playback/orientation observation; Runtime, Environment, Materials, Art and QA keep their existing authority. PF receives vocabulary only; UC is not expanded without stronger implementation evidence.
 
-**Continuity:** Building #6, Object #33, Object Procedural #11, Materials #6 and current UC main remain exact and rollback-addressable. Historical receipts are not retroactively upgraded by opening #199.
+**Continuity:** prior frame/directional PF vocabulary is extended rather than replaced. Existing Animal and Map histories, failed receivers, exact donor heads, UC #199/#200 execution claim, and all earlier Cartography maps remain addressable.
 
-**Wisdom before speed:** the second independent product case now justifies a proposal, but not an implementation or auto-repair system. The smallest observer boundary is proposed first.
+**Wisdom before speed:** the repeated semantic bug is captured at the smallest reusable layer first. No generic conversion engine is invented from two adapters with different receiving responsibilities.
 
 The four AXM roots remain the merge gate.
 
@@ -243,17 +252,21 @@ The four AXM roots remain the merge gate.
 
 Previous Cartography state:
 
-`PASS_REPRESENTATION_EQUIVALENCE_RELATION_IDENTITY_MAP`
+`PASS_CLOSED_SHELL_ORIENTABILITY_SIGNED_ORIENTATION_PLACEMENT_MAP`
 
 Previous status blob SHA:
 
-`bfd7524f9d65489604c3983124f95234bda48675`
+`7b61ba3a36f3851658e0d934febd3207b85d0dbe`
 
-New shared proposal:
+Previous shared proposal continuity:
 
-`mike-axiom-mir/axm-universal-creation#199`
+- UC issue #199 remains the proposal identity;
+- UC PR #200 is the single active implementation claim at head `51fa006cd3d08648a5965c09eaf55d2936b1ee2c`;
+- no product consumer inherits #200 until an exact merged UC identity exists and it explicitly rebinds/reruns.
 
-Product returns:
+Current Cartography returns:
 
-- `mike-axiom-mir/axm-object-design#33 comment 5721855724`;
-- `mike-axiom-mir/axm-building-design#6 comment 5721858733`.
+- PF #38 comment `5722327764`;
+- Map TA #45 comment `5722328940`;
+- Animal TA #3 comment `5722329946`;
+- Map Animation #48 comment `5722331146`.
