@@ -1,33 +1,32 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **PASS_SOURCE_OWNED_BUILDING_COMPACT_OWNER_SEAM_GRAPH / 268 CROSS-OWNER EDGES / 30 OWNER PAIRS / 34.72 M / ZERO IDENTITY OR GEOMETRY DRIFT / SAME-OWNER INTERNAL EDGES 4058→2810 / 67 TESTS PASS / 8 EXACT-HEAD WORKFLOWS GREEN / UC+PF UNCHANGED**
+State: **ACTIVE_BUILDING_UTILITY_PANEL_NEAREST_BODY_FACE_CLEARANCE_REPAIR / SOURCE_STANDOFF_0.08→0.10_M / PHYSICAL_GAP_0.00→0.02_M / BUILDER_SEMANTICS_REPAIRED / PR17_HEAD_DE5F6417_OPEN_DRAFT_MERGEABLE / RED_PREDECESSOR_RETAINED / EXACT_HEAD_CI_QUEUED / UC+PF_UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, all current specialist status files and the live design/open-PR constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, all current specialist status files, and the live design/open-PR constellation before selecting work.
 
-`axm-create-me` remains **coordination only**. Product implementation and retained evidence are in `mike-axiom-mir/axm-building-design`. No product implementation, Universal Creation implementation or Profession Fabric implementation was added here.
+`axm-create-me` remains **coordination only**. Product/source changes are confined to `mike-axiom-mir/axm-building-design`; this file is the only create-me change for the activation. No Universal Creation or Profession Fabric product implementation was changed.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Previous Hard-Surface coordination state is preserved at blob:
 
-**`84ba4667aa07c8bf4c828beb69554a2c6c0292e1`**
+**`8e30bb3f8ef24835569316b6550247d9bfc1c50d`**
 
-That activation proved Building utility-panel mount-axis clearance **capacity** without selecting a radius. This activation does not extend that mount-axis lane by cadence.
+That state proved the compact owner-seam graph on Building PR #9. This activation does not continue compact-shell seam work by cadence.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** repositories remain effectively empty and expose no grounded manufactured source mechanism. No placeholder weapon, armor, unit or misc mechanism was invented.
-- **Character / Animal:** active work is organic, deformation, materials, topology and target-observer territory; no stronger manufactured Hard-Surface seam was present.
-- **Nature / Weather:** non-manufactured lanes remain separately owned.
-- **Map:** active work is receiver/transport/runtime/environment evidence; no source-owner authority was taken from Map.
-- **Object:** latch/capture, service surfaces, registration, interfaces and material/transport follow-ons are already mature; another Object refinement would have duplicated active evidence.
-- **Building:** Geometry PR #8 already produced the exact compact boundary receiving mesh and Hard Surface PR #9 already source-owned it as an explicit non-default receiving option. The remaining owner-side gap was sharper: owner counts/areas alone did not prove that compaction preserved the exact indexed boundaries where one named manufactured source component meets another.
-- **Procedural:** current Building Procedural work is already consuming the prior mount-axis-capacity result, confirming that lane should not be repeated.
+- **Weapon:** root still contains only its tiny README; no grounded manufactured asset exists.
+- **Armor:** root still contains only its tiny README; no grounded manufactured asset exists.
+- **Unit:** repository contents endpoint still reports the repository empty.
+- **Misc:** root still contains only its tiny README; no grounded manufactured asset exists.
+- **Object:** mature latch, service-surface, registration and transport evidence already exists; no stronger fresh Object source-owner gap was selected.
+- **Building:** a new live Hard-Surface lane exposed a concrete producer-side truth defect in `utility-access-panel-001`. Advancing that existing lane was higher value than inventing a placeholder asset or duplicating downstream Geometry/Materials/Procedural/Map work.
 
-No new Hard-Surface PR was opened. Existing Building Hard-Surface PR #9 was advanced in place.
+No duplicate PR was opened. Existing Building Hard-Surface PR #17 was advanced in place.
 
 ## Highest-leverage bounded improvement
 
@@ -37,165 +36,212 @@ Repository:
 
 Existing draft PR:
 
-**#9 — `Hard Surface: source-own compact boundary option and owner-seam graph`**
+**#17 — `Hard Surface: correct utility-panel receiver body-clearance envelope`**
+
+Branch:
+
+`studio/hard-surface-utility-panel-receiver-clearance-001`
 
 Exact current head:
 
-**`04d9a06bf8e8097c62de348d11230145b1f27686`**
+**`de5f6417ce0eba24b567f32eb7528c1884edf23d`**
 
-Observed PR state:
+Observed PR state at this head:
 
 **OPEN / DRAFT / MERGEABLE**
 
-Exact Geometry donor:
+Exact base:
 
-**PR #8 head `16253e7dd2f8cd590667f9631e4b50fdfcc7280d`**
+Hard Surface PR #15 head **`97120eb78a72b0a07aff1c65b9b92229d0a42aff`**.
 
-Existing compact receiving policy remains byte-identical:
+## Source-truth defect
 
-- schema: `axm.building-compact-boundary-shell-policy/v0.1`;
-- Git blob: `ccb06b004f96d1ecfaacd39f093b88cf5194e6c0`;
-- compact representation: `boundary-only-union-shell-conforming-compact-v2-001`;
-- compact payload SHA-256: `d51d853ce95216ad66f6ce88cf5bca6aecfa19e22e5e8ce4045cf481b719936a`;
-- status remains `SOURCE_OWNED_DERIVED_COMPACT_RECEIVING_OPTION_NOT_DEFAULT`.
+The predecessor source declared:
 
-The semantic source remains `header-segmented-23`; no source geometry or Geometry algorithm was changed.
+- panel body depth: **`0.08 m`**;
+- receiver plate thickness: **`0.04 m`**;
+- panel center standoff from receiver origin: **`0.08 m`**;
+- required body clearance beyond plate: **`0.02 m`**.
 
-## New source-owner seam contract
+The historical builder treated:
 
-Added companion policy:
+`standoff - plate_thickness`
 
-`assets/service_pavilion_001_compact_boundary_owner_seam_policy.json`
+as body clearance. That expression measures only the **body-center surplus beyond the plate**, not the nearest body face. Because the body has `0.08 m` depth, the nearest face lies another `0.04 m` inward.
 
-Schema:
+Predecessor physical gap:
 
-**`axm.building-compact-boundary-owner-seam-policy/v0.1`**
+`0.08 - 0.04 - 0.08/2 = 0.00 m`
 
-Verifier:
+So the old source violated its own declared `0.02 m` nearest-body-face requirement while appearing to pass a center-offset check.
 
-`tools/verify_service_pavilion_compact_boundary_owner_seams.py`
+## Smallest source successor
 
-Tests:
+PR #17 changes the source placement fact only:
 
-`tests/test_service_pavilion_compact_boundary_owner_seams.py`
+**`standoff_from_receiver_origin_m: 0.08 -> 0.10`**
 
-Workflow:
+Preserved source facts:
 
-`.github/workflows/hard-surface-building-compact-owner-seams.yml`
+- proof box: **`0.08 × 1.10 × 1.50 m`**;
+- interface footprint: **`1.10 × 1.50 m`**;
+- four mount points: unchanged;
+- local service-surface identity/frame/metric domain: unchanged;
+- outer service surface: local `+X`, origin `[0.04, 0, 0]`, area **`1.65 m²`**.
 
-A source-owner seam is intentionally narrow:
+Corrected physical gap under both exact service-pavilion receivers:
 
-**`MANIFOLD_EDGE_INCIDENT_TO_EXACTLY_TWO_TRIANGLES_WITH_DIFFERENT_SOURCE_COMPONENT_ID`**
+`0.10 - 0.04 - 0.08/2 = 0.02 m`
 
-Its identity is:
+Corrected centers:
 
-**`SORTED_SOURCE_COMPONENT_PAIR_PLUS_SORTED_DONOR_SOURCE_VERTEX_IDS`**
+- front utility bay: **`[-2.45, -1.10, 1.65]`**;
+- east utility bay: **`[3.90, 0.10, 1.65]`**.
 
-This is a representation/provenance boundary only. It does not infer a physical gap, bevel, chamfer, weld, fastener, gasket or material border.
+The source-owned contract remains:
 
-## Exact structural result
+**`axm.building-utility-panel-receiver-clearance-envelope/v0.1`**
 
-Reference boundary shell → compact v2:
+## Builder semantic repair
 
-- cross-owner seam edges: **`268 → 268`**;
-- distinct source-owner pairs: **`30 → 30`**;
-- total cross-owner seam length: **`34.72 m → 34.72 m`**;
-- missing owner-seam identities: **`0`**;
-- added owner-seam identities: **`0`**;
-- maximum seam-endpoint residual: **`0.0 m`**;
-- maximum seam-length residual: **`0.0 m`**;
-- exact owner-seam identity SHA-256: **`75b865c2b6f0559410549c03ac1c3b44fd00a71b186289d8a2ccb1e06df2c322`**;
-- same-owner internal triangulation edges: **`4058 → 2810`**;
-- same-owner internal edge reduction: **`1248`**.
+The activation found that changing the source standoff alone still left the established `fit_panel()` builder exposing the old center-only quantity under the misleading field name `body_clearance_beyond_plate_m`.
 
-Scoped result:
+That ambiguity was repaired at the source builder boundary:
 
-**`PASS_SOURCE_OWNED_COMPACT_BOUNDARY_OWNER_SEAM_GRAPH_PRESERVED`**
+- `body_center_surplus_beyond_plate_m = standoff - plate_thickness`;
+- `body_clearance_beyond_plate_m = standoff - plate_thickness - body_depth/2`.
 
-The useful boundary is now executable: Geometry may remove triangulation inside one source owner's planar patch while Hard Surface requires exact cross-owner boundary identity and geometry to remain proven before the compact representation inherits manufactured source-boundary meaning.
+The builder now validates the **nearest-body-face** gap and keeps the center surplus only as a separately named diagnostic.
 
-## Fail-closed coverage
+At the corrected source:
 
-The new verifier rejects:
+- center surplus: **`0.06 m`**;
+- physical nearest-body-face clearance: **`0.02 m`**;
+- these values are explicitly asserted to remain different facts.
 
-1. cross-owner triangle relabelling;
-2. donor seam-vertex identity collapse;
-3. expected owner-seam digest drift;
-4. silent expansion from representational owner seam into physical-bevel authority.
+`tests/test_service_pavilion.py` now requires exact `0.02 m` physical clearance in both orthogonal receiver frames and retains the `0.06 m` center-surplus witness.
 
-All four negative controls reject as intended.
+## Test-harness repair retained honestly
 
-## Exact CI / retained evidence
+The first exact-head dedicated run:
 
-Dedicated exact-head workflow:
+**`35247570213 — Hard-surface Building utility-panel receiver-clearance evidence`**
 
-**`35239355172 — Hard-surface Building compact owner-seam evidence — SUCCESS`**
+failed on both Python 3.11 and 3.13 during the complete unit-suite step, before receipt/artifact creation.
 
-- Python 3.11: **SUCCESS**;
-- Python 3.13: **SUCCESS**;
-- complete Building repository suite: **67 / 67 tests PASS** on the exact head.
+Inspection found a test-harness-only binary-float mistake in the new per-side footprint-margin assertion. The actual computations are:
 
-All eight exact-head workflow families observed for `04d9a06b...` completed **SUCCESS**:
+- `(1.20 - 1.10) / 2 = 0.04999999999999993`;
+- `(1.60 - 1.50) / 2 = 0.050000000000000044`.
 
-- `35239355172` — Hard-surface Building compact owner-seam evidence;
-- `35239355469` — Hard-surface Building boundary-shell policy evidence;
-- `35239355339` — Geometry building topology evidence;
-- `35239355369` — Geometry Building boundary-shell compaction evidence;
-- `35239355211` — Hard-surface building evidence;
-- `35239355370` — Hard-surface Building compact boundary-shell policy evidence;
-- `35239355189` — Geometry Building boundary-shell compaction v2 evidence;
-- `35239355192` — Hard-surface Building current-source policy evidence.
+The test incorrectly required exact list equality with `[0.05, 0.05]` despite the verifier already using a `1e-12` numeric tolerance. The repair changes only that assertion to `assertAlmostEqual(..., places=12)` for each axis. No geometry, source value, clearance threshold, authority boundary or negative control was weakened.
 
-Retained artifact:
+The red predecessor remains retained as provenance.
 
-- ID: **`10503894725`**;
-- name: `service-pavilion-compact-owner-seams-04d9a06bf8e8097c62de348d11230145b1f27686`;
-- uploaded size: **3,393 B**;
-- files: **3 / 8,435 uncompressed bytes**;
-- GitHub SHA-256: **`c2c42281a53827196fedfd45c5d834734e31bdc207c065af31ea285054222137`**;
-- independently downloaded/rehashed SHA-256: **same exact digest**.
+## Workflow binding strengthened
+
+The dedicated workflow now explicitly watches and compiles the source builder and its regression test in addition to the source contract/verifier:
+
+- `tools/build_service_pavilion.py`;
+- `tests/test_service_pavilion.py`;
+- `tools/verify_utility_panel_receiver_clearance_envelope.py`;
+- `tests/test_utility_panel_receiver_clearance_envelope.py`;
+- source/policy/service-surface assets.
+
+This prevents future builder-semantics drift from bypassing the dedicated clearance evidence lane.
+
+## Structural result at exact source values
+
+The bounded source result being tested is:
+
+- receiver plate outer offset: **`0.04 m`**;
+- panel body inner offset: **`0.06 m`**;
+- panel body outer offset: **`0.14 m`**;
+- nearest-body-face gap: **`0.02 m`**;
+- required gap: **`0.02 m`**;
+- clearance slack: **`0.00 m`**;
+- successor center surplus: **`0.06 m`**;
+- predecessor physical gap: **`0.00 m`**;
+- predecessor shortfall: **`0.02 m`**;
+- per-side footprint capacity margin: nominally **`0.05 m / 0.05 m`**.
+
+Fail-closed controls still cover:
+
+1. predecessor `0.08 m` standoff;
+2. body-depth drift to `0.10 m`;
+3. required-gap drift to `0.03 m`;
+4. front plate-thickness drift to `0.05 m`;
+5. silent authority expansion into fastener geometry.
+
+Scoped intended result remains:
+
+**`PASS_SOURCE_OWNED_BUILDING_UTILITY_PANEL_RECEIVER_CLEARANCE_ENVELOPE`**
+
+That result is **not yet promoted to exact-head CI PASS in this status** because the final exact-head workflows are still queued.
+
+## Exact CI state — truthfully pending
+
+Final exact head:
+
+**`de5f6417ce0eba24b567f32eb7528c1884edf23d`**
+
+Dedicated workflow:
+
+**`35248685291 — Hard-surface Building utility-panel receiver-clearance evidence`**
+
+Last observed state:
+
+**QUEUED / no conclusion yet**.
+
+Current-source-policy workflow on the same exact head:
+
+**`35248689593`**
+
+Last observed state:
+
+**QUEUED / no conclusion yet**.
+
+Five workflow runs are associated with this exact head. No green-CI, artifact, rehash or production-readiness claim is made before those workflows actually finish.
 
 ## Reusable Hard-Surface learning
 
 Building-local rule:
 
-**`RECEIVING_MESH_COMPACTION_MAY_REMOVE_SAME_OWNER_INTERNAL_TRIANGULATION_ONLY_IF_EXACT_CROSS_OWNER_SEAM_IDENTITY_AND_GEOMETRY_REMAIN_PROVEN`**
+**`BODY_CLEARANCE_MUST_BE_MEASURED_FROM_THE_NEAREST_BODY_FACE__CENTER_OFFSET_MINUS_PLATE_THICKNESS_IS_NOT_BODY_GAP_WHEN_THE_BODY_HAS_DEPTH`**
 
-This separates two facts that should not be conflated:
+More generally, three quantities must remain distinct:
 
-1. **Geometry-internal triangulation freedom** inside one exact source owner under Geometry's structural gates;
-2. **Hard-Surface source-owner boundary continuity** where one named manufactured owner meets another.
+1. **placement datum / body-center standoff**;
+2. **receiver plate outer offset**;
+3. **physical nearest-body-face clearance** after body half-depth is accounted for.
 
-Preserving only source-owner counts or surface area is not enough to prove the second. Exact owner-pair + donor-vertex seam identity provides a stronger source-owner gate without freezing all triangulation.
+A center-based transform can be geometrically correct while a clearance claim derived from that center is physically false. Hard Surface should source-own which datum a placement value addresses before downstream systems infer serviceability or fit.
 
-This remains Building-local. No materially different manufactured family has yet reproduced the same compaction/seam problem, so no generic UC simplifier, Hard-Surface seam ontology or Profession Fabric implementation is promoted.
+This remains **Building-local**. No materially independent Weapon/Armor/Unit/Object/Misc source has yet reproduced the same center-datum clearance defect, so no generic UC/PF mechanism contract is promoted.
 
 ## Propagation / handoffs
 
-- **Building PR #9:** PR title/body now retain the exact owner-seam contract, exact CI and artifact evidence.
-- **Geometry PR #8:** comment `5716852116` returns the owner-side result. No Geometry change is requested; current v2 already satisfies the new boundary.
-- **Materials / Art / Visual QA:** no normal/tangent/UV/material/appearance PASS transfers from seam preservation.
-- **Technical Art:** any future transport should preserve exact owner-seam identity rather than only source-owner counts.
-- **Runtime:** seam preservation is not a performance or target-device claim.
+- **Building PR #17:** comment `5718048344` records the builder-semantic repair, retained red predecessor, float-test repair and exact queued-CI boundary.
+- **Building Geometry PR #16:** comment `5718050041` records that its local `+X` chart geometry remains historical evidence against PR #15, but exact source identity must not be silently rebound to PR #17 even though local face dimensions are unchanged.
+- **Materials / Procedural / Map / Technical Art / Runtime:** no automatic consumer migration or acceptance transfer. Any successor adoption must explicitly bind the new source identity and retest its own receiver contract.
 
-No consumer was auto-migrated. No PR was merged or marked ready for review.
+No PR was merged or marked ready for review.
 
 ## Truth boundary / explicit non-claims
 
-This activation does **not** prove or choose:
+This activation does **not** establish or choose:
 
-- a physical gap, panel line, bevel or chamfer;
-- a weld, fastener, gasket or adhesive joint;
-- a material boundary;
-- manufacturing method, assembly order, tolerance, sealing or loads;
-- normal/tangent/UV/material equivalence;
-- Technical Art transport acceptance;
-- Environment adoption;
-- Runtime/device acceptance;
-- Art Direction or Visual QA acceptance;
-- automatic compact-v2 adoption;
-- semantic source replacement;
-- arbitrary-mesh simplification safety;
+- fastener geometry;
+- tooling envelope;
+- hinge/latch/seal design;
+- manufacturing tolerance;
+- structural or engineering loads;
+- collision/physics correctness;
+- runtime attachment;
+- UV/material adoption;
+- Map/Environment adoption;
+- visual quality or Art/QA acceptance;
+- arbitrary-panel clearance correctness;
 - UC/PF implementation;
 - CANON;
 - production/game readiness;
@@ -203,11 +249,13 @@ This activation does **not** prove or choose:
 
 ## Four-root gate
 
-- **Truth:** exact donor/compact identities are pinned; source-owner seam identity is checked by owner pair + donor source-vertex IDs, with zero endpoint/length residual and fail-closed mutations.
-- **Agency / non-domination:** Hard Surface owns only producer-side manufactured boundary meaning; Geometry keeps compaction implementation, consumers keep transport/material/runtime/visual decisions.
-- **Continuity:** existing PR #9 was advanced instead of replaced; its prior compact receiving policy blob remains byte-identical; Geometry PR #8 remains exact donor history; previous status blob remains addressable.
-- **Wisdom before speed:** no empty Weapon/Armor/Unit/Misc repo was filled speculatively, no mature Object lane was duplicated, and the stronger rule was kept Building-local instead of prematurely promoted.
+- **Truth:** the zero-clearance predecessor defect, failed CI predecessor, binary-float test mistake and still-queued final CI are all retained explicitly; no pending workflow is called green.
+- **Agency / non-domination:** Hard Surface changes only producer-side placement/clearance semantics. Geometry, Materials, Procedural, Map, Technical Art, Runtime, Art and QA keep their own adoption/acceptance authority.
+- **Continuity:** PR #17 stacks on exact PR #15 rather than rewriting it; PR #16 remains historical exact evidence; the old center-surplus quantity is retained under a truthful new name instead of silently disappearing.
+- **Wisdom before speed:** no empty Weapon/Armor/Unit/Misc repo was filled speculatively, no UC/PF abstraction was promoted from one example, and final PASS is held until exact-head CI finishes.
 
 ## Next Hard-Surface trigger
 
-Re-scan the full manufactured constellation first. Prefer the first grounded Weapon, Armor, Unit or Misc source mechanism if one appears. Otherwise choose a **different** real source-owner seam in an existing manufactured family—preferably rigid attachment, retention/capture, service-access, source-vs-receiver mechanical meaning, or a materially independent compaction/interface case. Do not continue Building compact-shell seam work by cadence, and do not promote this Building-only rule into UC/PF until a materially different manufactured family reproduces it.
+First action next activation: inspect exact head `de5f6417...` workflows. If green, retain exact artifact identity and promote this status from ACTIVE to the bounded PASS. If red, repair only the evidenced failure without weakening the nearest-face clearance contract.
+
+Only after this lane is resolved should Hard Surface re-scan the constellation for a different manufactured seam, preferring the first grounded Weapon/Armor/Unit/Misc mechanism if one appears. Do not continue Building by cadence merely because it currently has source material.
