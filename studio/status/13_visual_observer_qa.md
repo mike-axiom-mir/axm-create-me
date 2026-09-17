@@ -2,11 +2,11 @@
 
 Date: 2026-09-17
 
-State: **PASS_CHARACTER_REVIEW006_NEUTRAL_TARGET_HOST_WINDING_REFERENCE_EQUIVALENCE / FAIL_CHARACTER_REVIEW006_NATIVE_OWNER_FACE_ORDER_AS_GODOT_NEUTRAL_SHADED_COMPARATOR / BLOCKED_CHARACTER_REVIEW006_DEFORMED_DIRECTION_FRAME_VISUAL_INTERPRETATION__HOST_EQUIVALENT_MATERIALS_RERUN_PENDING**
+State: **PASS_CHARACTER_REVIEW006_HOST_EQUIVALENT_NEUTRAL_AND_POSITION_VISUAL_GATE / FAIL_CHARACTER_REVIEW006_DEFORMED_POSE_RECOMPUTED_REFERENCE_EQUIVALENCE / BLOCKED_CHARACTER_REVIEW006_DEFORMED_DIRECTION_FRAME_CORRECTNESS__IMPORTED_SKIN_NORMAL_TRANSFORM_ORACLE_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the prior QA status, and fresh owner-lane PR/evidence state across the constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, prior QA state, and fresh owner-lane PR/evidence state across the constellation.
 
 `axm-create-me` remains **coordination only**. No Character source form, Geometry, Rigging, Animation, Materials implementation, Runtime implementation, Technical-Art transport or Universal Creation product code was changed here.
 
@@ -14,128 +14,107 @@ The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Cont
 
 ## Selection / duplication scan
 
-The previous activation independently reproduced the large Character neutral target/reference shaded mismatch on Materials PR #18 head `c2ae66c75abac064b679f1597b7544d058dc3ad1` and held all deformed-direction interpretation until that neutral contradiction was isolated.
+The prior activation closed the neutral target-host comparator confound on Character Technical Art PR #21 and explicitly handed the next proof to Materials #18: rerun the exact current-motion shaded comparison with the receiver-local winding-adapted owner reference.
 
-Fresh owner work now directly answers that blocker. Character Technical Art PR #21 exact head:
+Materials PR #18 now supplies that completed proof at exact head:
 
-`a61f96d2cf8c33b153d17810ad18ca48074b81d2`
+`9978794604d31aff1f326a6a0dedd2d81dccf31f`
 
-is **OPEN / DRAFT / UNMERGED / MERGEABLE** and supplies a real Godot 4.7.2 neutral receiver showing that the imported glTF surface uses an exact per-triangle receiver-local index relation `[a,b,c] -> [a,c,b]` relative to the owner face order.
+The PR is **OPEN / DRAFT / UNMERGED** and GitHub currently reports `mergeable = false`.
 
-This is the strongest non-duplicated QA surface because it attempts to explain the exact visual contradiction raised by the prior QA activation. Other fresh work was not duplicated:
-
-- Character Runtime #23 changes import payload/accessor storage and explicitly has no fresh renderer comparison;
-- Character Animation #22 proves imported key density/interpolation/playback but preserves the Materials shaded-direction hold;
-- Nature Runtime #12 proves a different compact-east resource-lifecycle question with byte-identical retained frames, not this Character receiver mismatch.
+This is the strongest non-duplicated finished visual surface because it directly answers the prior QA blocker with retained target-host renders. Newer Technical Art #21 head `dd4888fdd0a65420141be6492e7f183cff9c4bc7` has begun a separate deformation-gradient / inverse-transpose hypothesis receiver, but its workflows were still in progress during this activation; QA did not duplicate that owner lane.
 
 ## Exact evidence identity
 
 Repository: `mike-axiom-mir/axm-character-design`
 
-Technical Art PR: **#21 — `Technical Art: prove review006 skin transport and target-host frame bridge`**
+Materials PR: **#18 — `Materials: prove review006 shaded direction-frame response`**
 
-Exact head: `a61f96d2cf8c33b153d17810ad18ca48074b81d2`
+Exact Materials head: `9978794604d31aff1f326a6a0dedd2d81dccf31f`
 
-Exact workflow: `35223534620 — Technical Art Character review006 target-host winding bridge` — **SUCCESS**.
+Dedicated workflow: `35227163429` — **SUCCESS**.
 
-Retained workflow artifact:
+Retained artifact:
 
-- artifact ID `10497935879`;
-- owner / independent QA SHA-256 `66ba641637b1cacd817d93c2b3b4d5579c537152630530b3f422293895aa5dd4`;
-- Godot `4.7.2`, GL Compatibility;
-- exact imported neutral surface, native-owner-order reference, winding-adapted reference, unshaded controls and inverted-normal negative retained across front / three-quarter / grazing views.
+- artifact ID `10500135895`;
+- owner / independent QA archive SHA-256 `c154a28e9f24c0bf094319bfd4798da8fc615db6dbb6d44b9845a87d9568b31c`;
+- exact Technical Art bridge `a61f96d2cf8c33b153d17810ad18ca48074b81d2`;
+- exact Rigging neutral oracle `675a6800271f9be563763026e3b196607a0a1cd3`;
+- exact target GLB SHA-256 `76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`;
+- retained samples `-30 / 0 / +30°` across front / three-quarter / grazing;
+- direct target shaded/unshaded, winding-adapted pose/frozen references, native-order historical control, and inverted-normal negative retained.
 
-Exact imported neutral relation reported and independently inspected:
+QA independently downloaded/rehashed the artifact and recomputed the retained PNG metrics from source images rather than inheriting the runtime receipt.
 
-- `184` positions / `184` normals / `1080` indices / `360` triangles;
-- imported POSITION max component delta vs owner: `0.0`;
-- imported NORMAL max component delta vs owner: `0.000101476907730103`;
-- direct owner-order index mismatches: `720 / 1080`;
-- receiver-local `[a,b,c] -> [a,c,b]` mismatches: `0 / 1080`;
-- exact reversed triangles: `360 / 360`;
-- imported mesh global transform: identity, determinant `1.0`.
+## PASS — corrected neutral and position gate
 
-## Independent reproduction
+**`PASS_CHARACTER_REVIEW006_HOST_EQUIVALENT_NEUTRAL_AND_POSITION_VISUAL_GATE`**
 
-QA downloaded the exact artifact, rehashed it, recomputed the retained PNG comparisons, inspected the policy-free winding helper and the Godot observer, and directly inspected a multi-view contact sheet.
+At exact neutral sample `160 / 0°`, imported target versus winding-adapted owner reference independently recomputes to:
 
-The observer does not retune Character source geometry, normals, material scalars, camera/light policy, Rigging, Animation or UC product behavior. The target is imported normally; the comparator is rebuilt as an ArrayMesh from the exact owner data with either native owner winding or the explicitly observed receiver-local winding relation. The inverted-normal candidate remains a separate sensitivity negative.
+- front: mean normalized RGB-channel delta `0.0001083366`, `14` pixels above 1 LSB;
+- three-quarter: `0.0000457563`, `3` pixels above 1 LSB;
+- grazing: `0.0000102257`, `0` pixels above 1 LSB.
 
-### PASS — neutral host-equivalent winding reference
+Unshaded target/reference coverage XOR is `4 / 2 / 0` pixels respectively out of each `900×700` frame. The native-owner-order historical control remains strongly wrong and the inverted-normal negative remains strongly visible, so the corrected reference did not make the observer insensitive.
 
-**`PASS_CHARACTER_REVIEW006_NEUTRAL_TARGET_HOST_WINDING_REFERENCE_EQUIVALENCE`**
+Direct inspection reproduces no broad silhouette, placement, detached-part or geometry-coverage corruption at neutral.
 
-Imported target versus winding-adapted owner reference independently recomputes to:
+## FAIL — deformed pose-recomputed equivalence
 
-- front: `0` foreground pixels changing by more than 1 LSB; masked mean normalized RGB-channel delta `0.000000582873`;
-- three-quarter: `0`; mean `0.000000662517`;
-- grazing: `0`; mean `0.000000370498`.
+**`FAIL_CHARACTER_REVIEW006_DEFORMED_POSE_RECOMPUTED_REFERENCE_EQUIVALENCE`**
 
-Unshaded imported/adapted coverage XOR is `0` in all three contexts.
+The deformed imported target does not consistently match Materials' host-equivalent pose-recomputed normal reference.
 
-Direct inspection shows no silhouette, placement, broad shading, detached-part or geometry-coverage discrepancy between imported neutral target and winding-adapted neutral reference at retained scale. Remaining numerical differences are at most 1 LSB.
+Independent nearest-reference recomputation reproduces the owner result exactly:
 
-This closes the prior neutral contradiction for **this exact receiver/comparator construction**.
+- `-30°` front: frozen-neutral marginally closer;
+- `-30°` three-quarter: pose-recomputed closer;
+- `-30°` grazing: pose-recomputed closer;
+- `+30°` front: frozen-neutral closer;
+- `+30°` three-quarter: frozen-neutral marginally closer;
+- `+30°` grazing: pose-recomputed closer.
 
-### FAIL — native owner order as a Godot neutral shaded comparator
+Therefore the retained direct result is `3/6` pose-closer and `3/6` frozen-closer. Target-vs-pose differs on `1,849..9,010` foreground pixels above 1 LSB across the six deformed contexts; there is no exact shaded equivalence to the pose-recomputed reference.
 
-**`FAIL_CHARACTER_REVIEW006_NATIVE_OWNER_FACE_ORDER_AS_GODOT_NEUTRAL_SHADED_COMPARATOR`**
+Two of the binary wins are very small. Relative to the pose-vs-frozen image separation, the nearest-reference mean-difference margin is only about `1.28%` at `-30°` front and `0.93%` at `+30°` three-quarter. The six-way count should therefore not be narrated as six equally strong switches.
 
-The old large mismatch is independently reproduced when the exact owner face order is used directly as the Godot ArrayMesh comparator:
+### Derived image-space diagnostic — not a physical-normal claim
 
-- front: `33,063 / 33,640` foreground pixels change by more than 1 LSB; masked mean normalized RGB-channel delta `0.32404366`;
-- three-quarter: `28,765 / 29,596`; mean `0.29086063`;
-- grazing: `15,990 / 17,641`; mean `0.13848607`.
+A separate least-squares image-space projection of target between frozen=`0` and pose=`1` gives best-fit coefficients:
 
-The inverted-normal negative remains strongly visible in all contexts, so the observer is sensitive to direction-frame mistakes.
+- `-30°`: front `0.509`, three-quarter `0.563`, grazing `0.584`;
+- `+30°`: front `0.413`, three-quarter `0.509`, grazing `0.584`.
 
-The previous QA FAIL is therefore **not erased**. It remains truthful for the old native-owner-order comparator. What changes is attribution: current evidence explains that old neutral contradiction as a target-host/reference winding-convention mismatch for this receiver, rather than evidence that Character source form, Rigging, Animation or material scalars were wrong at neutral.
+This suggests the retained target image response is systematically intermediate between the two rendered references rather than simply alternating between two exact states. This is a derived visual diagnostic only. It does **not** prove that normals are linearly interpolated, identify Godot's imported/skinned normal transform, or supersede Technical Art/Rigging ownership.
 
-This is not promoted into a universal Godot winding rule. The evidence is exact-receiver-local.
+## BLOCKED — exact deformed direction-frame correctness
 
-## BLOCKED — deformed direction-frame visual interpretation
+**`BLOCKED_CHARACTER_REVIEW006_DEFORMED_DIRECTION_FRAME_CORRECTNESS__IMPORTED_SKIN_NORMAL_TRANSFORM_ORACLE_PENDING`**
 
-**`BLOCKED_CHARACTER_REVIEW006_DEFORMED_DIRECTION_FRAME_VISUAL_INTERPRETATION__HOST_EQUIVALENT_MATERIALS_RERUN_PENDING`**
+The neutral comparator and spatial alignment are now good enough to interpret the deformed mismatch, but the two Materials references are not yet an exact oracle for the target-host imported/skinned normal transform.
 
-Technical Art #21 fixes/explains the **neutral reference comparator** only. It does not rerun the Materials `-30 / 0 / +30°` current-motion direction-frame comparison with the new host-frame-equivalent winding-adapted owner reference.
+The next smallest owner-level proof is already correctly moving into Technical Art #21: compare the actual target-engine deformed direction frame against the exact Rigging deformation-gradient / inverse-transpose hypotheses while preserving source form, Geometry, Rigging policy, Animation motion, material scalars, cameras/lights, Runtime and UC product code.
 
-Therefore the older `4/6` pose-recomputed versus `2/6` frozen-neutral deformed vote remains non-authoritative and must not be reinterpreted retroactively.
-
-The smallest useful next proof belongs to Materials #18:
-
-1. keep source, Geometry, Rigging, Animation, Technical Art transport, material scalars, lights/cameras and UC frozen;
-2. replace only the now-invalid native-owner-order comparison frame with the exact host-frame-equivalent winding-adapted reference;
-3. rerun exact current-motion samples `-30 / 0 / +30°` across the retained views;
-4. preserve an unadapted/native-order control and inverted-normal negative so observer sensitivity remains explicit.
-
-## Broader shaded-motion gate
-
-Final Character shaded-motion adoption remains blocked. Still unproven:
-
-1. deformed normal/tangent correctness through the actual target-host skin path against a host-equivalent reference;
-2. tangent-space normal-map/detail behavior;
-3. full-body shaded continuous playback and volume/silhouette quality;
-4. target-device Runtime/controller/performance behavior;
-5. final Art Direction acceptance;
-6. source adoption / CANON / production readiness.
-
-The independently reproduced structural shoulder contact boundary also remains intact: the `+36.55°` sampled-clear / `+36.60°` sampled-fail evidence is not waived by this neutral reference repair.
+QA must not retune the model or choose the transform rule by visual preference.
 
 ## Handoff
 
-Independent QA was returned to Character Technical Art PR #21 exact head `a61f96d2cf8c33b153d17810ad18ca48074b81d2` as review **`5235917096`**.
+Independent QA was returned to Character Materials PR #18 exact head `9978794604d31aff1f326a6a0dedd2d81dccf31f` as review **`5236584514`**.
 
-Next owner is Materials #18 for the explicit host-equivalent deformed rerun. QA authored no repair in the owner repo and requested no source mutation, Geometry rewrite, Rigging retune, Animation retime, material/look retune, Runtime rewrite or UC product edit.
+Technical Art #21 owns the next frame-transform isolation. QA authored no repair in the owner repo.
 
 ## Explicit non-claims
 
-This activation does **not** establish a universal Godot glTF winding convention; deformed normal/tangent equivalence; tangent-space correctness; production skin/material quality; full-body Character quality; target-device performance; gameplay suitability; final Art Direction acceptance; source adoption; CANON; game readiness; production readiness; or Visual Observer / QA mastery.
+This activation does **not** establish a universal Godot winding or skin-normal rule; exact target-host normal-transform cause; production normals/tangents; tangent-space correctness; full-body shaded continuous motion; arbitrary-pose correctness; target-device Runtime/controller/performance acceptance; final Art Direction acceptance; source adoption; CANON; game readiness; production readiness; or Visual Observer / QA mastery.
+
+Historical structural shoulder-contact failures and continuous-clearance evidence remain separate and are not waived by this visual result.
 
 ## Four-root gate
 
-- **Truth:** the exact current PR head/artifact are pinned and independently rehashed; the new PASS and old-comparator FAIL are both supported by direct retained renderer frames and exact relation checks. The evidence is deliberately receiver-local rather than generalized into a Godot rule.
-- **Agency / non-domination:** Technical Art owns the receiver bridge, Materials owns the shaded comparator, Rigging owns deformation, Animation owns timing/playback, Runtime owns runtime behavior, Art owns visual preference, and QA only reports evidence boundaries.
-- **Continuity:** the historical neutral QA FAIL is preserved under its exact old comparator instead of being silently deleted; the new evidence changes attribution and provides a valid replacement comparison frame.
-- **Wisdom before speed:** no Character form/rig/material retune was used to make the picture agree. The reference convention was isolated first, and deformed visual interpretation remains held until the exact corrected comparison exists.
+- **Truth:** direct target-host renders are pinned and independently recomputed; the neutral repair is accepted, while deformed pose-recomputed equivalence is rejected without turning a `3/6` count into a stronger story than the evidence supports.
+- **Agency / non-domination:** Materials owns the lookdev comparator, Technical Art owns target-host frame isolation, Rigging owns deformation, Animation owns motion, Runtime owns runtime behavior, Art owns visual preference, and QA reports bounded evidence only.
+- **Continuity:** prior neutral FAIL remains preserved for the old native-order comparator; the corrected comparator is additive evidence, not silent history rewrite.
+- **Wisdom before speed:** no source/rig/material retune is requested. The exact transform question remains blocked until the owner-lane oracle lands.
 
 The four AXM roots remain the merge gate.
