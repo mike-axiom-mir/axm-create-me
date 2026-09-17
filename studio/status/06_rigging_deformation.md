@@ -2,190 +2,166 @@
 
 Date: 2026-09-18
 
-State: **PASS_ANIMAL_DENSE_U16_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_321_SUBFRAMES / ANIMAL_PR25_HEAD_D0C27DB3 / ANIMATION_DENSE_GUARD_37F5A77D_PINNED / RUNTIME_U16_CANDIDATE_E7874C4A_PINNED / STATIC_NORMAL_TANGENT_TRANSPORT_HOLD_PRESERVED / CI_35282562958_GREEN_311_313 / ARTIFACT_10524005062_SHA_34401136 / ANIMATION_TA_RUNTIME_ART_QA_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
+State: **PASS_OBJECT_SOURCE_OWNED_HINGE_KNUCKLE_PARENT_BINDING_CONTINUOUS_0_TO_110 / OBJECT_PR27_HEAD_16B32C5A / HARD_SURFACE_OWNER_STACK_172DD9FF_PINNED / HISTORICAL_LID_RIG_4B72C991_PINNED / CI_35286878183_GREEN_311_313 / ARTIFACT_10524432727_SHA_5B38047A / ANIMATION_TA_RUNTIME_PHYSICS_VISUAL_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the prior Rigging status, all current specialist status files, and the active design-repository / PR constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the prior Rigging status, every current specialist status file, and all eleven design repositories before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stayed in the existing `mike-axiom-mir/axm-animal-design` Rigging PR #25. No Universal Creation, Profession Fabric, Animation, Runtime, Technical-Art or `axm-create-me` product implementation changed.
+`axm-create-me` remains **coordination only**. Product/evidence implementation stayed inside the existing `mike-axiom-mir/axm-object-design` Rigging PR #27. No Universal Creation, Profession Fabric, Animation, Technical-Art, Runtime or `axm-create-me` product implementation changed.
 
 The four AXM roots remain the internal merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
-Immediate predecessor status blob: **`4a9a46f070815b655bebd247fe9746d9a00669ea`**. That status retains Object PR #27's source-owned keeper attachment-seat binding plus earlier Object and Character evidence. This activation does not rewrite those results.
+Immediate predecessor Rigging status blob: **`c4b967b2ce5b54a734d343f1c4c3d39e99e7dcb6`**. It records the exact prior Animal dense-u16 owner-frame result at `d0c27db357b015a1ff270de294e39c1a44e3931d`. That result and the earlier Object/Character evidence remain historical truth; this activation does not rewrite them.
 
 ## Fresh constellation / duplication scan
 
-All eleven design repositories and all current specialist status files were rescanned.
+All eleven design repositories and all current specialist status files were inspected.
 
-- **Object:** current high-leverage work is owned by Hard Surface / Geometry / Materials / Technical Art / Animation / Runtime / VFX / Environment / QA. The keeper-seat Rigging question from the prior activation is closed at its stated scope; extending it again would be cadence work.
-- **Character:** review-006 deformation/contact classes already have mature continuous structural evidence over their stated predicates; no fresh returned Rigging defect displaced the Animal seam.
-- **Animal:** Animation returned a materially new exact receiving fact: the unchanged normalized-u16 Runtime weight candidate remains inside Rigging's positional deformation bound at **321 deterministic samples / 320 Hz**, including between the 41 authored keys. Rigging had separately proved post-skin owner normal/tangent-frame reconstruction only at the 41 authored keys. The missing non-duplicated Rigging question was therefore whether the same reconstruction constraint survives the exact dense subframe field.
-- **Building / Nature / Weather / Map:** current blockers are source/geometry/material/receiving/runtime/environment/VFX questions rather than an unowned Rigging source defect.
-- **Weapon / Armor / Unit / Misc:** no implementation-backed articulated source justified inventing a rig or socket lane.
+- **Animal:** the prior dense 321-subframe Rigging reconstruction question is closed at its stated scope; its own status explicitly forbade extending it merely by cadence.
+- **Character:** review-006 already carries continuous evidence over its stated deformation/contact predicates; no fresh returned Character Rigging defect displaced the new source-owner handoff.
+- **Object:** Hard-Surface PR #25 returned a genuinely new source fact at exact head `172dd9ff5ed1fee3a21cd460c607f07ee0da7520`: the five coaxial hinge knuckles now have an exact source-owned axial owner stack `body / lid / body / lid / body`. The source contract deliberately keeps `rig_parenting_authorized=false`, while the historical lid rig independently names `l0/l1` as moving coaxial knuckles. That created a clean Rigging-owned continuity question: does the existing rig parent partition exactly match the newly source-owned owner stack, and does that partition preserve the axial interleave throughout the full lid articulation boundary?
+- **Building / Nature / Weather / Map:** current gaps remain primarily geometry/material/environment/VFX/receiving/runtime questions rather than a stronger unowned Rigging source seam.
+- **Weapon / Armor / Unit / Misc:** no grounded articulated source justified inventing a new rig/socket lane.
 
-No new PR was opened. Existing Animal Rigging PR #25 was advanced in place.
+No new PR was opened. Existing Object Rigging PR #27 was advanced in place.
 
 ## Owning lane and exact identities
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
-Existing draft PR: **#25 — `Rigging: audit transported tangent frames across authored skin keys`**
+Existing draft PR: **#27 — `Rigging: bind lid-owned latch keeper sockets through lid sweep`**
 
-Branch: `studio/rigging-transported-tangent-deformation-equivalence-001`
+Branch: `studio/rigging-lid-keeper-socket-bind-004`
 
-Exact current Rigging head: **`d0c27db357b015a1ff270de294e39c1a44e3931d`**.
+Exact current Rigging head: **`16b32c5ac6d52d768d64f0fac9fedfe4ee9f24fe`**.
 
 Observed PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
 Pinned identities:
 
-- predecessor Rigging head: `e4ce8c1f4c3deb55220cf962206d51013d0cfe73`;
-- authored-key owner-frame reconstruction predecessor: `81ab44eab2e13bed95187610a476be2b2c4667a7`;
-- historical rig-plan donor: `04760112deb81a8d145226fe7ee02923107c9916`;
-- rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
-- weighting profile digest: `a23fdaf47bbf17b3b070faf66d408faaddaa68c4a0487ace8f484851b91482e4`;
-- weighting remains `smoothstep-v0`;
-- Animation dense-guard head: `37f5a77d39d221be796ac3b0c3a179fd3c86a8c0`;
-- Animation artifact `10485697941`, archive SHA-256 `496e744f6bd3c8ad3b0648298cceecd7c7170a651f510674a92c957424a954e3`;
-- Runtime normalized-u16 owner head: `e7874c4a8dca1db48bc66f3546c2134f7d724456`;
-- Runtime artifact `10477292250`, archive SHA-256 `76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`;
-- FLOAT control GLB SHA-256 `8d9bfb80369bda09eaad786a35833cd5e04da5e608211f53648daaa1cde29566`;
-- normalized-u16 candidate GLB SHA-256 `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`.
+- exact Object source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- Hard-Surface owner-stack head: `172dd9ff5ed1fee3a21cd460c607f07ee0da7520`;
+- owner-stack Git blob: `e4e7c95769c0827a6a019afd672ff4b20cd13541`;
+- owner-stack file SHA-256: `1f750e8fc2679c1735e174c949776f2cec9cfb7f8178f0f1a23fedf2a16adcc6`;
+- source owner-stack contract: `axm.object-hinge-knuckle-owner-stack/v0.1` / `modular-equipment-case-001-hinge-knuckle-owner-stack-001`;
+- historical lid Rigging donor: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- lid rig-plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
+- exact joint: `rear-lid-hinge-001`;
+- exact source hinge axis: `+X`;
+- exact source rig range: `0..110°`;
+- exact moving coaxial knuckles already authored by the rig: `l0 / l1`;
+- exact predecessor Rigging head: `9d5fb18d8eb2222694e86025641256a30f57c485`.
 
-No source geometry, topology, rig hierarchy, joint, weight semantics, weighting profile, clip timing, Animation interpolation, GLB bytes, Technical-Art transport implementation, Runtime representation, material, camera or target host was changed.
+No source geometry, owner label, hinge axis/origin, rig joint, articulation sign/range, keeper seat, Animation clip, Technical-Art target hierarchy, Runtime representation, physics or visual asset was retuned.
 
 ## Bounded Rigging improvement
 
 Added Rigging observer:
 
-`axm.animal-rigging-dense-u16-owner-frame-reconstruction/v0.1`
+`axm.object-hinge-knuckle-rig-parent-binding/v0.1`
 
 Scoped result:
 
-**`PASS_DENSE_U16_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_321_SUBFRAMES__STATIC_DIRECTION_TRANSPORT_HOLD_PRESERVED`**
+**`PASS_SOURCE_OWNED_HINGE_KNUCKLE_PARENT_BINDING_CONTINUOUS_0_TO_110`**
 
-The observer consumes the exact Animation guard implementation rather than re-authoring its interpolation semantics. For every dense sample it:
+The observer first pins and re-verifies the exact Hard-Surface owner-stack donor, then independently binds that source ownership to the unchanged historical rig:
 
-1. evaluates the exact transported glTF `LINEAR` quaternion result;
-2. evaluates the unchanged source Rigging owner pose at that angle;
-3. skins the exact retained FLOAT control and normalized-u16 candidate POSITION fields;
-4. collapses the 84 UV-split render vertices through Geometry's fixed render-to-source map;
-5. re-derives the owner normal/tangent frame from each posed geometry result;
-6. compares FLOAT reconstruction to source-owner, normalized-u16 reconstruction to source-owner, and normalized-u16 reconstruction to FLOAT;
-7. retains representative samples at indices `0 / 80 / 160 / 240 / 320`.
+- lid-owned source knuckles `l0 / l1` must equal the exact rig moving-knuckle set and are treated as `lid_shell` children;
+- body-owned source knuckles `b0 / b1 / b2` remain fixed with `body_shell`;
+- the exact five-knuckle parent partition must cover the complete source owner stack with no overlap or omission;
+- source, source-owner, rig-plan and predecessor Rigging identities fail closed on drift.
 
-Motion field: **321 samples at 320 Hz across 0.0–1.0 s**. Representative owner angles are:
+Representative retained source poses are **`0 / 30 / 60 / 90 / 110°`**.
 
-- `0.000 s`: `0°`;
-- `0.250 s`: `9.000000603357135°`;
-- `0.500 s`: `17.999999201986377°`;
-- `0.750 s`: `9.000000603357135°`;
-- `1.000 s`: `0°`.
+At each representative pose, lid-owned knuckle witness points are rotated by the exact rig sign around the exact source +X hinge axis; body-owned witness points remain fixed. The observer checks exact axial centers/intervals, radial invariance for moving knuckles, inverse pose recovery and fixed-body drift.
 
-This is a dense structural deformation/reconstruction witness, not a new Animation clip or playback claim.
+## Continuous motion-boundary certificate
 
-## Exact measured maxima
+This result is continuous for its stated **axial owner-stack predicate**, not merely a five-pose sample claim.
 
-Across all 321 samples:
+The reason is exact and bounded: rotation around source **+X leaves X unchanged for every real angle**. Therefore, with lid-owned `l0/l1` rotating only about that exact axis and body-owned `b0/b1/b2` fixed, every source knuckle X center and X interval is invariant over the complete real domain **`[0°,110°]`**. The source owner order and every adjacent axial gap are consequently invariant over the same continuous domain.
 
-- normalized-u16 candidate → source-owner position residual: **`1.5796813028884773e-07 m`**;
-- candidate → owner normal residual: **`2.0651470426957462e-05°`**;
-- candidate → owner tangent residual: **`7.516320424995851e-05°`**;
-- candidate reconstructed max `|N·T|`: **`1.5543122344752192e-15`**;
-- candidate → owner handedness mismatches: **`0`**;
-- UV-split collapse disagreement: **`0.0 m`**;
-- candidate → FLOAT position delta: **`1.4897262690003554e-07 m`**;
-- candidate → FLOAT normal residual: **`5.929025517394986e-06°`**;
-- candidate → FLOAT tangent residual: **`9.160317359093749e-05°`**;
-- recomputed dense position delta versus Animation receipt residual: **`0.0 m`**.
+Exact retained structural facts:
 
-Evidence tolerances remain `1e-6 m` position, `0.001°` direction and `1e-9` orthogonality. No tolerance was relaxed to obtain the PASS.
+- owner sequence: **`body / lid / body / lid / body`**;
+- source centers: `-0.28 / -0.14 / 0 / +0.14 / +0.28 m`;
+- source intervals: `[-0.33,-0.23] / [-0.19,-0.09] / [-0.05,+0.05] / [+0.09,+0.19] / [+0.23,+0.33] m`;
+- minimum center pitch: **`0.14 m`**;
+- minimum invariant inter-knuckle gap: **`0.04000000000000001 m`**;
+- source minimum axial clearance: **`0.01 m`**;
+- minimum clearance surplus: **`0.030000000000000006 m`**;
+- maximum axial-center residual: **`0.0 m`**;
+- maximum axial-interval residual: **`0.0 m`**;
+- maximum fixed-body knuckle witness drift: **`0.0 m`**;
+- maximum moving radial residual: **`1.3877787807814457e-17 m`**;
+- maximum moving inverse-recovery residual: **`7.850462293418876e-17 m`**.
 
-## Fail-closed control
+Those nonzero values are floating-point residue inside the `1e-12` structural tolerance. No tolerance was weakened to obtain the PASS.
 
-At exact between-authored-key time `0.3375 s`, a verifier-only coherent **`+64` u16 child-weight-step** mutation with equal parent subtraction is applied to the source-consistent render representative.
+## Fail-closed evidence
 
-It produces:
+The exact pipeline rejects source/owner identity drift, source authority inflation, owner-label drift and a changed historical rig-plan identity. A workflow-level verifier-only mutation attempts to insert body-owned `b1` into the lid moving-knuckle set; the exact rig identity gate rejects the mutation rather than allowing a silently rewritten rig.
 
-- owner-position residual `1.677185207077418e-05 m`;
-- owner-normal residual `0.0005285530484140605°`;
-- owner-tangent residual `0.01074785722480503°`;
-- direction signal `0.01074785722480503°`;
-- result **`PASS_FAILS_CLOSED_ON_DENSE_WEIGHT_DRIFT`**.
-
-The mutation is evidence-only and is not written into the Runtime candidate.
-
-## Static direction-frame HOLD explicitly preserved
-
-Historical direct transport of static NORMAL/TANGENT data remains:
-
-**`HOLD_DEFORMED_STATIC_NORMAL_TANGENT_TRANSPORT_EQUIVALENCE`**
-
-Retained historical excess:
-
-- normal: **`7.541933278181338°`**;
-- corrected tangent: **`3.6840862372161047°`**.
-
-This activation does **not** reclassify that result. It proves only that Rigging's separate post-skin owner-frame reconstruction constraint survives the exact dense normalized-u16 positional field.
+The source Hard-Surface contract remains unchanged with `rig_parenting_authorized=false`. Rigging does not rewrite that field; it supplies its own independently verified parent-binding evidence at the consumer boundary.
 
 ## Exact-head CI / retained evidence
 
 Dedicated workflow:
 
-**`35282562958 — Rigging dense u16 owner-frame reconstruction evidence`**
+**`35286878183 — Object hinge knuckle rig parent binding`**
 
 Result: **SUCCESS**.
 
-- Python 3.13: exact lineage/donor/artifact gates PASS; compile PASS; complete inherited Animal suite PASS.
-- Python 3.11: same exact gates PASS; complete inherited Animal suite PASS; dense 321-sample evidence build PASS; truth-boundary assertions PASS; artifact upload PASS.
+- Python 3.13: exact receiving lineage, owner-stack donor/blob, historical lid-rig donor, source-owner receipt rebuild, compile and complete inherited Object regression suite PASS.
+- Python 3.11: same exact gates and complete suite PASS; Rigging evidence build PASS; fail-closed control PASS; truth-boundary assertions PASS; retained artifact upload PASS.
 
 Retained artifact:
 
-- ID: **`10524005062`**;
-- name: `animal-rigging-dense-u16-owner-frame-d0c27db357b015a1ff270de294e39c1a44e3931d`;
-- size: **`30,733 B`**;
-- GitHub SHA-256: **`34401136eb020856fa605684b23ef79f8392a248db5893d4bb7c0e8085cf479f`**;
+- ID: **`10524432727`**;
+- name: `object-hinge-knuckle-rig-parent-binding-16b32c5ac6d52d768d64f0fac9fedfe4ee9f24fe`;
+- size: **`5,943 B`**;
+- GitHub SHA-256: **`5b38047a079b3380c2631dbd20a956626f3e1d56b17ac65b7bc31687cc5ab26d`**;
 - exact archive downloaded and independently rehashed to the same digest;
-- packet contains `receipt.json`, all dense sample rows, exact Animation dense receipt, exact rig plan/profile and exact-head marker.
+- packet contains exact-head/donor markers, exact owner-stack contract and receipt, exact historical lid plan, Rigging receipt and fail-closed witness.
 
 ## Handoffs recorded
 
-- **Rigging PR #25:** comment `5722135868` — exact dense result, metrics, negative control, artifact and static direction HOLD.
-- **Animation PR #5:** comment `5722137312` — Rigging consumes exact dense interpolation evidence without taking Animation timing/interpolation/playback authority.
-- **Technical Art PR #3:** comment `5722138627` — reconstruction remains a Rigging structural witness; no producer/export/import adoption is implied.
-- **Runtime PR #27:** comment `5722140635` — exact candidate bytes remain unchanged; dense deformation continuity improves without granting producer adoption, device/performance or gameplay acceptance.
+- **Rigging PR #27:** comment `5722610113` — exact current result, continuous axial proof, metrics, CI/artifact and non-claims.
+- **Hard-Surface PR #25:** comment `5722611529` — exact source owner-stack consumed without expanding Hard-Surface authority or rewriting `rig_parenting_authorized=false`.
+- **Technical Art PR #16:** comment `5722612799` — source-rig parent partition is available, but the prior target hierarchy retains its own exact identity; explicit rebind/rerun is required before TA may call the newer parent identity current.
+- **Animation PR #10:** comment `5722614025` — structural parent/axis evidence only; no clip timing/easing/interpolation/playback/style authority transferred.
+- **Runtime PR #13:** comment `5722614871` — historical moving-resource proof remains truthful for its exact target representation; no automatic current-parent rebind or runtime/device acceptance.
 
 ## Historical continuity retained
 
-The preceding Object keeper-seat result remains exact in Git history at predecessor status blob `4a9a46f0...`, including Object Rigging PR #27 head `9d5fb18d...`, workflow `35277266066` and artifact `10521630508` / SHA-256 `9590b5a24b4211bf86c14aff1e311c38ebfc74d51574826849b5ac6b395d3948`.
+Immediate prior status blob `c4b967b2...` remains the complete prior Animal dense-u16 status, including Animal Rigging PR #25 head `d0c27db357b015a1ff270de294e39c1a44e3931d`, workflow `35282562958`, artifact `10524005062`, SHA-256 `34401136eb020856fa605684b23ef79f8392a248db5893d4bb7c0e8085cf479f`, and the preserved static NORMAL/TANGENT transport HOLD.
 
-Earlier Object source/target latch-envelope evidence and Character review-006 continuous deformation/contact evidence also remain separately addressable. Nothing in this Animal pass rewrites them.
+The preceding Object keeper-seat phase remains exact at Object Rigging head `9d5fb18d...`, workflow `35277266066`, artifact `10521630508`, SHA-256 `9590b5a24b4211bf86c14aff1e311c38ebfc74d51574826849b5ac6b395d3948`. Earlier Object latch/source-target and Character review-006 evidence also remain separately addressable in Git history. Nothing in this activation relabels those results.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- Animation timing, easing, interpolation quality, wall-clock playback, acting quality or Animation acceptance;
-- target-engine interpolation implementation equivalence;
-- Technical-Art adoption of post-skin reconstruction or a production exporter/importer rule;
+- radial pin/bore contact, bearing behavior, pin retention, hinge load transfer, friction, wear, strength or manufacturing fit;
+- full-component collision freedom or keeper/latch/service-module collision behavior;
+- Animation timing, easing, interpolation, wall-clock playback, style or Animation acceptance;
+- Technical-Art target-host hierarchy adoption or export/import acceptance for this newer source-rig identity;
 - Runtime/controller/state-machine/input/device/performance acceptance;
-- final deformed NORMAL/TANGENT transport correctness for the static transported attributes;
-- final Materials / normal-map / Art Direction / Visual QA acceptance;
-- biological gait, locomotion, balance, foot planting or anatomy;
-- arbitrary clips, arbitrary rigs, arbitrary weight encodings or arbitrary topology;
-- physics/collision/gameplay behavior;
+- physics/gameplay behavior;
+- final Materials / Art Direction / Visual QA acceptance;
+- arbitrary hinges, rigs or owner-stack patterns;
 - source adoption or CANON;
 - production/game readiness;
 - Rigging mastery.
 
 ## Four-root gate
 
-- **Truth:** the exact Animation and Runtime artifacts are pinned and rehashed; all 321 samples are measured; the static direction-frame HOLD is retained instead of being hidden behind the new reconstruction PASS; the negative control demonstrably fails closed.
-- **Agency / non-domination:** Animation keeps timing/interpolation/playback authority; Technical Art keeps transport implementation; Runtime keeps representation/controller/device authority; Materials/Art/QA keep visual acceptance. Rigging owns only the bounded deformation/reconstruction constraint.
-- **Continuity:** prior Rigging source/transport/reconstruction heads, the exact Runtime candidate, exact Animation dense guard, previous Object status and historical Character evidence all remain separately addressable; no donor identity is silently rewritten.
-- **Wisdom before speed:** the returned dense evidence was consumed in the existing Rigging lane instead of inventing another rig, changing weights or weakening thresholds. The stronger structural result stops at its actual authority boundary.
+- **Truth:** exact source, source-owner, rig and predecessor identities are pinned; the full `0..110°` claim is analytic only for axial +X invariance; radial/contact/load claims stay held; the retained archive was independently rehashed.
+- **Agency / non-domination:** Hard Surface keeps source owner-stack authority; Animation keeps timing/performance; Technical Art keeps target hierarchy/transport; Runtime keeps controller/device/performance; Art/QA keep perceptual acceptance. Rigging owns only the bounded parent/deformation constraint.
+- **Continuity:** the new result consumes the fresh source contract while retaining the historical lid rig and predecessor Rigging head exactly; prior Animal/Object/Character results remain separately addressable instead of being silently folded into a new story.
+- **Wisdom before speed:** the returned source-owner seam was closed in the existing Object Rigging lane rather than opening another PR, changing the hinge, inventing mechanism physics or broadening authority.
 
 ## Next trigger
 
-Do **not** extend Animal PR #25 merely by cadence. Re-scan current owners first. The next Rigging action should require a fresh returned rig/weight/constraint/socket/articulation defect or an explicit downstream request that cannot be answered by the exact evidence already retained here.
+Do **not** extend Object PR #27 again merely by cadence. Re-scan current owners first. The next Rigging action should require a fresh returned rig/weight/constraint/socket/articulation defect or an explicit downstream rebind request that cannot already be answered by the exact retained evidence.
