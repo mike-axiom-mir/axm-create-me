@@ -1,175 +1,200 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-17
-State: **PASS_OBJECT_SERVICE_DARK_500_PPM_PADDED_ATLAS_RETAINED_VISUAL_GATE / FAIL_OBJECT_SERVICE_DARK_NO_DILATION_FILTERING_EDGE_BLEED / BLOCKED_FINAL_OBJECT_SERVICE_DARK_ATLAS_PRODUCTION_ADOPTION__REAL_TEXTURE_TANGENT_TRANSPORT_RUNTIME_ART_DIRECTION_PENDING**
+State: **PASS_CHARACTER_REVIEW006_INDEPENDENT_RETAINED_VISUAL_COHERENCE_GATE / PASS_CHARACTER_REVIEW006_EXACT_ART_REVIEW_IDENTITY_REPRODUCED_ON_CURRENT_HEAD / BLOCKED_CHARACTER_REVIEW006_SOURCE_ADOPTION__EXACT_GEOMETRY_INTERSECTION_REBIND_AND_RIGGING_DEFORMATION_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current Art Direction / Materials state, and the newest relevant constellation PRs before selecting one bounded independent visual gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current Art Direction / Geometry / Runtime / Technical Art state, and the newest relevant constellation PRs before selecting one bounded independent visual gate.
 
-`axm-create-me` remains **coordination only**. No Object source, Materials implementation, texture, UV producer, renderer, Runtime, Technical Art, Universal Creation or product code was placed here.
+`axm-create-me` remains **coordination only**. No Character source, topology, rigging, Materials, Runtime, Universal Creation or product implementation was placed here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Continuity and duplication scan
 
-The preceding QA gate remains historical truth: Object `service_dark` two-surface physical UV-density diagnostics were visually discriminating, and the UV-bearing review representation showed retained noncorruption. Art Direction subsequently preferred `0.05 m/UV` as the current bounded physical review scale while explicitly holding real pixels-per-meter, atlas packing/padding, production texture content, tangent/UV transport and Runtime cost.
+The preceding QA gate remains historical truth: Object `service_dark` retained padded-atlas receiving passed on the exact review contexts, while the deliberate no-dilation negative reproduced filtering-edge bleed and production texture/tangent/transport/runtime adoption remained held.
 
-The strongest fresh unverified visual claim is therefore the Object Materials continuation that instantiates that preferred review scale as a real filtered/mipped atlas receiving candidate. This closes a direct downstream gap rather than reopening the prior UV-scale lane.
+The strongest fresh unverified visual claim moved to **Character review-006** because Art Direction explicitly selected it as the current neutral-form preference and independently held source adoption on Visual QA + exact Geometry rebind + Rigging. Geometry's current status likewise records `CHARACTER_REVIEW006_HELD` and forbids inheritance from its accepted-E-only intersection result.
 
 Other fresh lanes were not duplicated:
 
-- Animal Runtime PR #27 now has strong merged-UC, Rigging and Animation continuity for normalized-u16 `WEIGHTS_0`, but its remaining fixed-view visual trade is only `224` pixels total at max `1 LSB` and remains a separate Art/QA candidate.
-- Character remains structurally held by nonzero shoulder-intersection evidence rather than exposing a new visually adoptable surface.
-- Building and Nature retain their earlier bounded QA results; no fresher unowned visual mutation outranked this atlas receiving gate.
+- Object Technical Art PR #28 is actively advancing the atlas-through-UC/Godot transport lane and is separately owned; its branch was moving during this activation.
+- Object Runtime PR #30 reports a 75% proof-host roughness-texture memory reduction with four byte-identical retained frames, but that is a narrower representation-cost trade than the Character dependency currently blocking a new exact Geometry chain.
+- Building Geometry/Environment/Technical-Art remain on the separate 604 source-intent vs 312 consumer identity/normal boundary.
+- Nature wall-clock capture remains held on low-intrusion perceptual timing evidence.
+
+No duplicate Organic mutation, Geometry rewrite, Rigging lane or Art preference decision was opened.
 
 ## Exact reviewed identity
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-character-design`
 
-PR: **#6 — Materials: prove functional surface separation on case + module**
+Organic PR: **#2 — `Organic Form: add first character neutral A-rest study`**
 
-Exact reviewed head:
+Current PR head inspected:
 
-`4c12a0a57f6aa8778cff41efad321e13567c6c91`
+`e27067477922b13b14a2cfcc7f3659b97a10b8a7`
 
 Observed PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Retained Materials artifact:
+Art-reviewed Organic evidence head:
 
-- ID `10485605500`;
-- independently downloaded and rehashed SHA-256 `c7344b42ca500eadbc068117844ac98336aa5f0710b8e25ccf3818e6fadfd90c`;
-- renderer boundary: Godot `4.7.2` GL Compatibility / X11 / Xvfb, Mesa llvmpipe software OpenGL.
+`600fa8ee07fa31c7f9a4f237289c3d85e7a609c3`
 
-## Reviewed receiving candidate
+Candidate:
 
-Material family: `service_dark`.
+`character-neutral-a-shoulder-pose-clearance-review-006`
 
-Current bounded atlas candidate:
+Exact source identity:
 
-- `512 × 512 px` atlas;
-- `500 px/m` physical density = `0.002 m/px`;
-- prior `0.05 m` review unit therefore spans exactly `25 texels`;
-- `16 px` edge dilation / packing margin;
-- linear mipmap anisotropic filtering;
-- texture repeat disabled;
-- no external texture asset.
+`8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`
 
-Exact source-owned receiving surfaces:
+Exact proof-mesh identity:
 
-- inner lid: `0.78 × 0.48 m -> 390 × 240 px`, source-local X→U / Y→V;
-- front service panel: `0.468 × 0.156 m -> 234 × 78 px`, source-local X→U / Z→V.
+`f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`
 
-The retained atlas content is self-generated diagnostic coating variation, not production texture art.
+## Retained artifact identity
 
-The deliberate negative removes dilation and fills outside-island texels with a high-contrast contaminant before mip generation / filtered sampling. It is intentionally a strong failure probe rather than a production texture candidate.
+Art-reviewed artifact:
 
-## Independent raw-PNG reproduction
+- ID `10485067233`;
+- independently downloaded SHA-256 `9ebee1454e2b3a76335310ed2bc151c089cc40bb4139098a9d23b892e04695e8`.
 
-### UV-bearing uniform control
+Current exact-head artifact:
 
-Raw decoded PNG comparison of `legacy_family` vs `atlas_uniform` gives, in each of all four retained contexts:
+- ID `10486919346`;
+- workflow `35199202212 — Character organic form baseline — SUCCESS`;
+- independently downloaded SHA-256 `215c9f93498846765b8fe35b19089462644362e3aaaa479d18543829a1130807`.
 
-- exactly **2 changed pixels**;
-- maximum exactly **1 LSB**;
-- **0 pixels exceed 1 LSB**.
+The following review-006 files are byte-identical between the Art-reviewed artifact and the current PR-head artifact:
 
-Total across all four pairs:
+- `shoulder-pose-clearance-review-006.source.json`;
+- `shoulder-pose-clearance-review-006.mesh.json`;
+- `shoulder-pose-clearance-review-006-filled-front.svg`;
+- `shoulder-pose-clearance-review-006-filled-top.svg`;
+- `shoulder-pose-clearance-review-006-filled-three-quarter.svg`;
+- `shoulder-pose-clearance-review-006-spatial-context.svg`.
 
-- **8 changed pixels >0 LSB**;
-- **0 changed pixels >1 LSB**.
+The decision packet itself changed only to bind the exact Art Direction return and to record independent Visual QA as pending; the retained review-006 form identity did not change.
 
-Therefore QA accepts **retained visual noncorruption / >1-LSB neutrality**, not byte-identical neutrality. This sharpens the Materials receipt without contradicting its thresholded result.
+## Independent structural sanity reproduction
 
-### Padded diagnostic receiving path
+From the exact retained current-head review-006 mesh/source:
 
-`atlas_uniform -> atlas_padded` produces a clearly visible diagnostic texture on the intended service surfaces in every retained pose/camera. Direct enlarged inspection reproduces no new retained silhouette break, hole, clipping loss, detached component, unrelated component mutation or broad scene corruption.
+- vertices: **504**;
+- triangles: **908**;
+- degenerate triangles at area <= `1e-12`: **0**;
+- minimum reproduced triangle area: **0.0003576141177791814 m²**;
+- maximum bilateral landmark residual across every retained L/R pair: **exactly 0 m**.
 
-The diagnostic pattern itself is not evaluated as final texture art.
+These checks are only evidence integrity / obvious-corruption guards. They are not connected-topology, self-intersection or deformation acceptance.
 
-### No-dilation filtering negative
+## Direct retained visual review
 
-Independent raw-PNG `atlas_padded -> atlas_unpadded_negative` deltas above `1 LSB`:
+Directly rasterized and inspected the exact retained:
 
-- mid-open / three-quarter: **380 px**, max channel delta **53 LSB**;
-- mid-open / front-interior: **252 px**, max **41 LSB**;
-- peak-open / three-quarter: **433 px**, max **77 LSB**;
-- peak-open / front-interior: **369 px**, max **53 LSB**.
+- filled front comparison;
+- filled top comparison;
+- filled three-quarter comparison;
+- source-landmark spatial-context comparison;
+- elbow-chain context.
 
-Total independent >1-LSB changed pixels: **1,434**.
+### Accepted-E parent
 
-The owner's thresholding method reports a nearby `1,448` total; QA preserves its own raw-PNG method instead of silently equating the two counting procedures.
+Neutral elbow flexion from straight: **`2.082565279731°`**.
 
-Direct enlarged inspection localizes the negative delta to **thin / broken fringes and corners along the mapped inner-lid and front-service-panel boundaries**. The strongest retained error reaches `77/255 ≈ 30.2%` of a full channel range. The effect does not present as broad interior rewriting or unrelated-scene mutation.
+In front and three-quarter retained views the neutral elbow chain reads nearly straight / comparatively rigid. This is a visual-form observation only, not an anatomy defect claim.
 
-Connected-component inspection further supports an edge-fringe defect rather than a broad patch: the >1-LSB negative masks break into many small components, with largest components only tens of pixels in the retained frames.
+### Review-005
+
+Neutral elbow flexion from straight: **`20.761601803057744°`**.
+
+Elbow-to-shoulder/wrist chord offset: **`49.666988746850365 mm`**.
+
+This produces the strongest visible elbow break of the three retained forms.
+
+### Review-006
+
+Neutral elbow flexion from straight: **`16.053919502335532°`**.
+
+Elbow-to-chord offset: **`38.20519310359209 mm`**.
+
+Relative to review-005, review-006 reduces that offset by:
+
+- **`11.461795643258277 mm`**;
+- **`23.077291240019314%`**.
+
+The shoulder-to-wrist chord endpoints remain unchanged from review-005.
+
+Direct enlarged front + three-quarter inspection reproduces a clearly readable elbow break while reducing review-005's stronger kink. No new unilateral limb collapse, detached arm mass, obvious silhouette corruption, or upper-torso overbuild attributable to review-006 was reproduced.
+
+Top/source inspection reproduces no new bilateral asymmetry. The exact source is bilaterally symmetric at the retained landmark level.
+
+No concrete **Organic-owned visual defect** was found that would justify reopening review-007 by cadence.
 
 ## QA verdicts
 
-### PASS — padded atlas retained visual gate
+### PASS — independent retained source-form visual gate
 
-**`PASS_OBJECT_SERVICE_DARK_500_PPM_PADDED_ATLAS_RETAINED_VISUAL_GATE`**
-
-Exact meaning:
-
-> On exact Materials head `4c12a0a...`, the bounded `500 px/m`, `512²`, `16 px` padded atlas receiving representation is visually coherent in all retained target-host contexts. Carrying the atlas UV representation causes no >1-LSB control delta or coverage/silhouette corruption, and the padded diagnostic appears only on the intended source-owned service surfaces without reproduced broad visual corruption.
-
-### FAIL — no-dilation filtered receiving path
-
-**`FAIL_OBJECT_SERVICE_DARK_NO_DILATION_FILTERING_EDGE_BLEED`**
+**`PASS_CHARACTER_REVIEW006_INDEPENDENT_RETAINED_VISUAL_COHERENCE_GATE`**
 
 Exact meaning:
 
-> Under the exact retained mipmapped + linear-anisotropic receiving path, removing island dilation while exposing high-contrast outside-island texels creates reproducible localized surface-edge contamination in every retained context. Explicit padding/dilation therefore has real visual consequence for this bounded atlas case.
+> On the exact retained review-006 source-form evidence, the candidate is visually coherent across the supplied front, top and three-quarter contexts. It retains a readable neutral elbow break, avoids the stronger review-005 kink, preserves bilateral balance in the supplied evidence, and reproduces no concrete Organic-owned form corruption that requires another source-form mutation before Geometry review.
 
-This FAIL applies to the deliberate no-dilation negative. It does not claim every atlas universally needs exactly `16 px` padding.
+This PASS does **not** mean QA owns or replaces Art Direction's preference. Art Direction's review-006 preference remains its own decision.
 
-### BLOCKED — final production atlas adoption
+### PASS — Art-reviewed identity reproduced on current head
 
-**`BLOCKED_FINAL_OBJECT_SERVICE_DARK_ATLAS_PRODUCTION_ADOPTION__REAL_TEXTURE_TANGENT_TRANSPORT_RUNTIME_ART_DIRECTION_PENDING`**
+**`PASS_CHARACTER_REVIEW006_EXACT_ART_REVIEW_IDENTITY_REPRODUCED_ON_CURRENT_HEAD`**
 
-Still open:
+Exact meaning:
 
-1. real production texture / decal / wear / normal / AO art and its appearance quality;
-2. tangent-space receiving correctness for normal-detail content;
-3. production UV seams, arbitrary unwrap and packing behavior beyond these two exact source faces;
-4. OBJ/GLB/import/export UV + tangent + texture transport equivalence;
-5. arbitrary cameras, renderers, resolutions, mip/LOD conditions and anisotropy settings;
-6. Runtime texture memory, shader, draw, upload, target-device FPS / thermal / battery cost;
-7. Art Direction final texture-density / packing / appearance preference;
-8. producer adoption / rollback decision.
+> The exact review-006 source, mesh and retained visual surfaces reviewed by Art Direction at `600fa8ee...` are byte-identical in the current PR #2 artifact at `e2706747...`; current CI has not silently changed the form while binding the Art return and pending QA gate.
 
-`500 px/m`, `512²`, and `16 px` are therefore evidence-backed **candidate values**, not universal or final production rules.
+### BLOCKED — source adoption
 
-## Handoff
+**`BLOCKED_CHARACTER_REVIEW006_SOURCE_ADOPTION__EXACT_GEOMETRY_INTERSECTION_REBIND_AND_RIGGING_DEFORMATION_PENDING`**
 
-Independent Visual QA was returned to Object Materials PR #6 on exact head `4c12a0a57f6aa8778cff41efad321e13567c6c91` as review **`5232790656`**.
+Still required, in order:
 
-No Materials scalar retune, UV generator rewrite, source geometry change, texture-authoring request or Runtime implementation change is made by QA.
+1. Geometry binds the exact review-006 source/mesh identity and rebuilds connected topology + nonadjacent-intersection evidence from scratch;
+2. accepted-E Geometry PR #15 evidence is **not inherited**;
+3. Rigging / Deformation independently rebinds only after an exact Geometry receiver exists;
+4. source adoption remains a separate decision after those returns.
+
+## Handoffs
+
+Independent QA was returned to Character Organic PR #2 on exact current head `e27067477922b13b14a2cfcc7f3659b97a10b8a7` as review **`5233356669`**.
+
+Geometry PR #15 received the exact review-006 identity and non-inheritance handoff in comment **`5711719122`**.
+
+No Organic source mutation, topology repair, Rigging change, Art Direction rewrite, Runtime change or UC extraction was made by QA.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- byte-identical legacy/UV-bearing representation neutrality;
-- final pixels-per-meter;
-- final atlas size or universal `16 px` padding;
-- final texture, decal, wear, normal-map or AO quality;
-- tangent-space correctness;
-- arbitrary automatic unwrap / atlas packing quality;
-- transport/import equivalence;
-- target-device Runtime acceptance;
-- arbitrary camera/FOV/resolution/renderer equivalence;
-- final Art Direction approval;
+- anatomy, biology or medical correctness;
+- a preferred human skeletal rest angle or range of motion;
+- connected topology or self-intersection freedom;
+- skinning, weighting, continuous deformation, volume preservation or final Rigging quality;
+- Animation acceptance;
+- UV/material/shader/texture quality;
+- target-engine/runtime behavior;
+- gameplay, collision or controller suitability;
+- Armor / Unit fit;
+- source adoption;
 - CANON;
 - production/game readiness;
 - Visual Observer / QA mastery.
 
 ## Four-root gate
 
-- **Truth:** the raw controls retain eight real one-LSB pixels and are not renamed byte-identical; the no-dilation defect is measured and spatially localized; the diagnostic atlas is not renamed production art.
-- **Agency / non-domination:** Materials keeps the receiving candidate, Procedural/source owners keep UV/source authority, Technical Art keeps transport, Runtime keeps cost, Art Direction keeps preference, and QA closes only the retained evidence gate.
-- **Continuity:** the prior two-surface UV-scale QA and Art preference remain historical truth; this activation advances the next receiving step without overwriting them.
-- **Wisdom before speed:** establish that padded filtering behaves coherently and that missing dilation fails visibly before real texture art, transport or production adoption are allowed to inherit the path.
+- **Truth:** exact artifacts, exact retained-form hashes, exact source/mesh identities and independently reproduced geometry sanity checks back the PASS; Geometry/intersection and deformation remain explicitly unproven.
+- **Agency / non-domination:** Organic retains source-form ownership, Art Direction retains preference, QA closes only independent retained visual evidence, Geometry owns topology/intersections, Rigging owns deformation, and source adoption remains separate.
+- **Continuity:** Art-reviewed `600fa8ee...` evidence is proven byte-identical on current `e2706747...`; accepted-E and review-005 remain retained comparators; accepted-E Geometry negative evidence is not silently transferred.
+- **Wisdom before speed:** close the exact pending visual gate and hand the frozen form to Geometry rather than generating review-007 without a reproduced Organic defect.
 
 The four AXM roots remain the merge gate.
