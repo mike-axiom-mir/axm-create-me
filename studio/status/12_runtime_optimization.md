@@ -1,178 +1,189 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / THIRTY-SECOND BOUNDED RUNTIME PASS / PASS_OBJECT_SERVICE_DARK_ROUGHNESS_L8_REDUCES_PROOF_HOST_TEXTURE_MEMORY__HOLD_ART_QA_AND_TARGET_DEVICE / EXACT MATERIALS ROUGHNESS FIELD PRESERVED / RGBA8 -> L8 / FULL MIP STORAGE + OBSERVED TEXTURE MEMORY 1,398,100 B -> 349,525 B / 1,048,575 B SAVED / 75% / DRAW-OBJECT-PRIMITIVE-BUFFER COUNTS UNCHANGED / FOUR RENDER PAIRS BYTE-IDENTICAL / NO AUTOMATIC MATERIALS ADOPTION**
+State: **ACTIVE / THIRTY-THIRD BOUNDED RUNTIME PASS / PASS_OBJECT_SERVICE_DARK_ROUGHNESS_L8_EXACT_SELECTED_FIELD_IDENTITY_REBOUND__HOLD_ART_QA_TARGET_DEVICE_AND_ADOPTION / CURRENT MATERIALS-SELECTED FIELD EXACTLY MATCHES PRIOR MEASURED RUNTIME CONTROL + L8 CANDIDATE / NO NEW RENDERER MEASUREMENT / PRIOR 1,048,575 B / 75% TEXTURE WIN RETAINED / PRIOR FOUR RENDER PAIRS BYTE-IDENTICAL / NO AUTOMATIC ADOPTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Runtime, Art Direction, Materials / LookDev, Technical Art / UC Integration, Visual Observer QA and active product PRs across the constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Materials / LookDev, Technical Art / UC Integration, Visual Observer QA and Runtime state across the constellation.
 
-`axm-create-me` remains **coordination only**. The bounded implementation/evidence lives in `mike-axiom-mir/axm-object-design`; this file records coordination state only.
+`axm-create-me` remains **coordination only**. The bounded Runtime evidence lives in `mike-axiom-mir/axm-object-design`; this file records coordination state only.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Why this lane was selected
 
-The prior Object Runtime pass already proved a separate atlas-height right-size optimization, so reopening that exact 512×512 -> 512×384 question would duplicate settled Runtime work. The Animal weight-width lane remains narrowed to Art/QA plus producer adoption, and the Building primitive lane remains narrowed to representative target-hardware validation.
+Runtime pass 32 already measured the exact bounded storage candidate for the Object `service_dark` roughness field:
 
-A fresh reusable Runtime gap appeared in the newest Materials `service_dark` roughness microvariation work at exact Materials head:
+- control `RGBA8`;
+- candidate `L8`;
+- 512×512;
+- full mip chain;
+- exact generated scalar field preserved;
+- proof-host texture allocation saving **1,048,575 B / 75%**;
+- four retained render pairs byte-identical.
 
-`83f8d8fc99f7c832711f7f30fbcac72938550fc2`
+Opening another scalar-width optimizer would therefore duplicate the existing lane.
 
-Materials preserves the exact two-surface 512×512 atlas at 500 px/m with 16 px dilation, but its diagnostic roughness image is authored as `Image.FORMAT_RGBA8`, writes the same scalar roughness value into R/G/B with opaque alpha, and the shader consumes only `.r`.
+The meaningful new risk appeared upstream after that measurement: Materials PR #6 advanced and froze the Art-preferred roughness microvariation as an explicit **Materials-owned selected scalar identity** at exact head:
 
-The bounded question was therefore:
+`0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`
 
-> **Can Runtime preserve the exact scalar roughness field, atlas dimensions, UVs, density, padding, filtering, mipmaps and shader semantics while storing that one-channel field as L8 instead of redundant RGBA8, and can the real renderer prove the memory reduction without a visual regression in the retained views?**
+Selected Materials identity:
 
-This is intentionally distinct from the previous atlas-height lane: dimensions remain **512×512** here; only scalar storage width changes.
+- semantic: `BASE_LEVEL_R8_SCALAR_VALUES_ROW_MAJOR`;
+- dimensions: **512×512**;
+- scalar SHA-256: `b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`;
+- historical Godot PNG SHA-256: `57cf746a9a7e0615884fe3c45c6c4df677c2bd0631def61b3ccb1684daa26949`;
+- observed R8 range: **153..183**;
+- unique R8 values: **31**;
+- Art Direction decision: `PASS_ART_DIRECTION_OBJECT_SERVICE_DARK_BOUNDED_ROUGHNESS_MICROVARIATION_PREFERENCE_024`.
+
+That created one highest-value bounded Runtime question:
+
+> **Does the already-measured L8 optimization apply to the exact newly-selected Materials field, or only to an earlier equivalent generator state?**
+
+The safe response was to strengthen the existing Runtime PR #30 rather than open a duplicate optimization lane or silently assume equivalence.
 
 ## Owning Runtime lane
 
 Repository: `mike-axiom-mir/axm-object-design`
 
-Draft Runtime PR: **#30 — `Runtime: store service-dark roughness as one-channel L8`**
+Existing draft Runtime PR: **#30 — `Runtime: store service-dark roughness as one-channel L8`**
 
 Branch: `studio/runtime-object-service-dark-roughness-l8-budget-001`
 
-Exact Runtime head:
+Current exact Runtime head:
 
-`19e2b910556ac9aac5373755a8dc2384017cfae6`
+`3070f931770d581d229b9345fd750c07706befbc`
 
-Exact stacked Materials head:
+New bounded files added to the same lane:
 
-`83f8d8fc99f7c832711f7f30fbcac72938550fc2`
+- `runtime/service_dark_roughness_selected_field_rebind_001.json`;
+- `tools/verify_object_service_dark_runtime_selected_field_rebind.py`;
+- `.github/workflows/object-runtime-service-dark-roughness-selected-field-rebind.yml`.
 
-Dedicated workflow:
+Dedicated rebind workflow:
 
-`35201751010 — SUCCESS`
+`35207654995 — SUCCESS`
 
 Current scoped result:
 
-**`PASS_OBJECT_SERVICE_DARK_ROUGHNESS_L8_REDUCES_PROOF_HOST_TEXTURE_MEMORY__HOLD_ART_QA_AND_TARGET_DEVICE`**
+**`PASS_OBJECT_SERVICE_DARK_ROUGHNESS_L8_EXACT_SELECTED_FIELD_IDENTITY_REBOUND__HOLD_ART_QA_TARGET_DEVICE_AND_ADOPTION`**
 
-PR #30 remains draft, open and mergeable. No automatic adoption is requested.
+PR #30 remains draft, open and mergeable. No automatic Materials, Technical Art, Art/QA or product adoption is requested.
 
-## Measure-before / bounded candidate
+## Measure-before / exact identity result
 
-Control:
+The rebind does **not** invent a new texture candidate and does **not** reinterpret the previous Runtime measurement. It downloads and SHA-verifies the exact retained pass-32 Runtime artifact:
 
-- texture semantic: exact `service_dark` roughness scalar field;
-- dimensions: **512×512**;
-- format: **RGBA8**;
-- shader read: `.r`;
-- full mip-chain texels: **349,525**;
-- modeled mip-chain storage: **1,398,100 B**.
+- artifact ID: `10488003795`;
+- archive SHA-256: `20ecffa5da693c8c091c5eac3eed3e1a6c2e2575efa0cbb43fd239a63808e6b4`;
+- exact measured Runtime head: `19e2b910556ac9aac5373755a8dc2384017cfae6`.
 
-Runtime candidate:
+It then binds that evidence against the exact current Materials selected-field contract blob:
 
-- texture semantic: unchanged exact `service_dark` roughness scalar field;
-- dimensions: **512×512**;
-- format: **L8**;
-- shader read: `.r` unchanged;
-- full mip-chain texels: **349,525**;
-- modeled mip-chain storage: **349,525 B**;
-- modeled saving: **1,048,575 B / 75%**.
+- Materials head: `0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`;
+- contract: `lookdev/service_dark_roughness_selected_field_001.json`;
+- exact Git blob: `16ab4ea07c41273e58b72f970d6bed383bbbfe33`.
 
-Preserved exactly:
+The result is stronger than approximate equivalence:
 
-- 512×512 receiving extent;
-- 500 px/m;
-- 16 px dilation;
-- both source-owned service-surface rectangles and UVs;
-- base roughness `0.66`;
-- candidate amplitude `±0.06` and range `0.60–0.72`;
-- exact Materials roughness generator;
-- mipmap generation;
-- linear mipmap anisotropic filtering;
-- repeat disabled;
-- base-color atlas;
-- metallic/material scalars;
-- shader `.r` sampling semantics.
+1. **The retained Runtime RGBA8 control PNG is byte-identical to Materials' newly-selected historical Godot PNG.**
+   - Runtime control PNG SHA-256: `57cf746a9a7e0615884fe3c45c6c4df677c2bd0631def61b3ccb1684daa26949`;
+   - Materials selected PNG SHA-256: the exact same digest.
 
-Decoded retained source images prove **0 changed scalar pixels** between RGBA8 control and L8 candidate.
+2. **The decoded retained Runtime RGBA8 control scalar is exactly the current Materials selected scalar.**
+   - SHA-256: `b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`.
 
-## Real proof-host memory result
+3. **The decoded retained Runtime L8 candidate scalar is also exactly the current Materials selected scalar.**
+   - SHA-256: `b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`.
 
-The dedicated workflow runs control and candidate in separate pinned Godot 4.7.2 GL Compatibility / X11 / Mesa llvmpipe processes and measures RenderingServer before and after creating the exact roughness texture, then again across four matched Materials pose/context renders.
+4. Both retained representations preserve the exact current selected-field dimensions and statistics:
+   - **512×512**;
+   - R8 min **153**;
+   - R8 max **183**;
+   - **31** unique R8 values.
 
-Exact roughness texture allocation:
+This closes the important provenance gap: Runtime's measured optimization applies to the **exact current Materials-selected field**, not merely to something that looks or numerically behaves similarly.
 
-- RGBA8 control: **1,398,100 B**;
-- L8 candidate: **349,525 B**;
-- observed allocation saving: **1,048,575 B / 75%**.
+## Rebound performance evidence
 
-The observed allocation saving matches the modeled full-mip-chain saving **exactly** on this proof host.
+Because the selected field is byte/scalar-identical to the already-measured control/candidate field, pass 32's exact bounded budget remains the applicable measured Runtime evidence:
 
-Across all four matched rendered pairs:
+- RGBA8 full mip-chain storage: **1,398,100 B**;
+- L8 full mip-chain storage: **349,525 B**;
+- saving: **1,048,575 B / 75%**;
+- prior real Godot 4.7.2 proof-host observed texture allocation saving: **1,048,575 B**;
+- prior matched-pair texture/video-memory saving: **−1,048,575 B in every pair**;
+- buffer-memory delta: **0 B**;
+- draw calls, objects and primitives: unchanged in the retained paired proof.
 
-- control total texture memory: **12,107,115 B**;
-- candidate total texture memory: **11,058,540 B**;
-- texture-memory delta: **−1,048,575 B in every pair**;
-- control total video memory: **18,602,095 B**;
-- candidate total video memory: **17,553,520 B**;
-- video-memory delta: **−1,048,575 B in every pair**;
-- buffer-memory delta: **0 B in every pair**;
-- draw calls: **unchanged per matched pair**;
-- rendered objects: **unchanged per matched pair**;
-- rendered primitives: **unchanged per matched pair**.
-
-This is proof-host evidence only. It is not extrapolated to mobile, browser, console, compressed production textures or a representative discrete target GPU.
+This activation records those values as **rebound prior evidence**. It intentionally does not claim that a new renderer measurement occurred.
 
 ## Visual tradeoff for Art Direction / Visual Observer QA
 
-For the exact retained proof-host views, Runtime observed no raster tradeoff.
+No new visual representation was authored in pass 33. The current Materials-selected field is exactly the field already present in pass 32's retained Runtime proof.
 
-Across four matched `820×620` frames:
+The applicable retained visual result remains:
 
+- four matched `820×620` frames;
 - changed pixels: **0 total**;
-- pixels exceeding 1 LSB: **0**;
-- maximum RGB channel delta: **0**.
+- pixels over 1 LSB: **0**;
+- maximum RGB channel delta: **0**;
+- result: **`NONE_OBSERVED_FOUR_MATCHED_FRAMES_BYTE_IDENTICAL`**.
 
-Runtime therefore records:
-
-**`NONE_OBSERVED_FOUR_MATCHED_FRAMES_BYTE_IDENTICAL`**
-
-This does **not** convert Runtime evidence into final Art Direction or Visual QA acceptance, and it does not prove identical sampling on every target renderer / texture import path.
+This is still not final Art Direction or independent Visual Observer QA acceptance. Runtime records the exact visual evidence and leaves visual authority where it belongs.
 
 ## Fail-closed evidence
 
-The workflow deliberately mutates the candidate contract back to RGBA8 and requires the structural budget verifier to reject it rather than reporting a fake scalar-width optimization.
+The new rebind verifier requires all of the following before emitting a PASS:
 
-The workflow also mutates the measured candidate texture allocation into a non-win and requires the comparison gate to reject that result.
+- exact current Materials selected-field contract identity;
+- exact prior Runtime artifact archive identity;
+- exact prior Runtime head and comparison result;
+- exact measured memory values;
+- exact prior visual result;
+- Runtime control PNG byte identity with the Materials selected PNG identity;
+- Runtime control scalar identity with the Materials selected scalar;
+- Runtime L8 candidate scalar identity with the Materials selected scalar.
 
-The final comparison additionally requires exact decoded scalar equality between the retained RGBA8 and L8 source images before the Runtime PASS can be emitted.
+The workflow deliberately mutates the Materials selected scalar digest and requires the verifier to fail closed. It does not weaken the earlier Runtime candidate-format or measured-memory negative controls.
 
 ## Retained evidence
 
-Artifact:
+New pass-33 rebind artifact:
 
-- ID: **`10488003795`**;
-- name: `object-runtime-service-dark-roughness-l8-19e2b910556ac9aac5373755a8dc2384017cfae6`;
-- size: **`1,114,047 B`**;
-- GitHub SHA-256: **`20ecffa5da693c8c091c5eac3eed3e1a6c2e2575efa0cbb43fd239a63808e6b4`**.
+- ID: **`10490935783`**;
+- name: `object-runtime-service-dark-roughness-selected-field-rebind-3070f931770d581d229b9345fd750c07706befbc`;
+- size: **`8,861 B`**;
+- GitHub SHA-256: **`7e5d575d6dc4ea699a66808f09c063ef379f4323d0d20279ace050d711c203a3`**.
 
-The artifact retains the exact Runtime and Materials identities, bounded contract/build receipt, exact rebuilt Materials roughness payload, control/candidate Runtime receipts, source roughness PNGs, all four control and four candidate render captures, and the final comparison receipt.
+The retained packet includes the exact rebind contract, exact current Materials selected-field contract, exact Runtime rebind head, exact selected Materials head/blob identity, prior Runtime artifact digest receipt, verifier and final rebind receipt. It intentionally references rather than republishes the 1.1 MB prior renderer artifact.
+
+## Constellation handoffs
+
+- **Runtime PR #30:** pass-33 result recorded in comment `5712425448`; same lane retained, no duplicate PR.
+- **Materials PR #6:** exact selected-field identity handoff recorded in comment `5712427559`; no automatic storage-policy adoption requested.
+- **Technical Art PR #28:** exact selected-field/L8 provenance handoff recorded in comment `5712428919`; Runtime does not tell Technical Art to change ORM/glTF packing and does not claim standalone L8 is already a production transport representation.
+- **Art Direction / Visual Observer QA:** the current selected field is exactly the prior zero-delta Runtime field; final visual acceptance remains theirs.
+- **UC:** unchanged. No Object-specific scalar-texture optimizer is promoted from this single case.
+
+Technical Art has independently begun transporting the exact selected roughness identity through the current UC path. That work remains separate from Runtime's storage decision and does not create an automatic adoption chain.
 
 ## Reusable learning / placement boundary
 
-Bounded reusable Runtime rule:
+Bounded reusable Runtime rule from this pass:
 
-> **When a texture's semantics are genuinely scalar and the consumer reads one scalar channel, do not silently pay multi-channel storage merely because the authoring/proof representation used RGBA. First prove the scalar payload is unchanged, use the narrowest supported receiving representation, then measure the real renderer and re-run visual evidence.**
+> **When an upstream art/material owner later freezes an exact selected asset identity, do not silently carry an older optimization forward merely because the generator looks unchanged. Rebind the optimization to the selected bytes/digest, verify the retained before/after evidence against that exact identity, and preserve whether the result is a new measurement or a provenance-continuity proof.**
 
-This is useful beyond roughness in principle for scalar masks, but this pass proves only this exact `service_dark` L8 representation on the pinned Godot proof host. It does **not** justify a universal channel-collapse transform in UC, Technical Art, Profession Fabric or arbitrary import pipelines.
-
-## Handoffs
-
-- **Runtime PR #30:** final exact measured result, evidence identity, visual result and truth boundary are recorded in the PR body.
-- **Materials PR #6:** Runtime handoff recorded in comment `5711647973`, explicitly **not** requesting automatic adoption.
-- **Art Direction / Visual Observer QA:** handoff is `0 changed pixels / max 0 LSB` across the four exact retained views; final visual authority remains theirs.
-- **Technical Art:** eventual adopted texture transport/import support remains separate. This pass does not pre-approve GLB/import/compression behavior.
-- **UC:** unchanged; no optimizer extraction requested.
+This complements pass 32's scalar-storage rule. Together they say both **representation width** and **source identity** must be proven before a reusable memory result is treated as applicable to the selected asset.
 
 ## Historical continuity
 
-The thirty-first Object pass remains preserved in the preceding status version. It right-sized the exact 512×512 RGBA8 service atlas to 512×384 after padded occupancy was proven, saving 349,528 B / about 25% on the proof host while retaining a 33-pixel / max-1-LSB visual HOLD.
+The thirty-second Object pass remains preserved in the preceding status version. It measured the exact 512×512 RGBA8 -> L8 roughness representation in Godot 4.7.2 and proved the 1,048,575 B / 75% texture-memory saving with four byte-identical rendered pairs.
+
+The thirty-first Object pass remains preserved before that: it right-sized the service atlas height to 512×384 after padded occupancy was proven, saving 349,528 B / about 25% on the proof host while retaining a 33-pixel / max-1-LSB visual HOLD.
 
 The thirtieth Animal pass remains preserved before that: merged UC cleared the former normalized-u16 `WEIGHTS_0` receiver blocker while Art/QA and producer adoption stayed separate.
 
@@ -184,10 +195,11 @@ Earlier Building indexing, Animal indexing/joint-width, Weather, Object, footpri
 
 This activation does **not** prove:
 
+- a new renderer measurement beyond pass 32;
 - final Materials adoption of L8 roughness storage;
+- final Technical Art / glTF / ORM adoption of standalone L8 storage;
 - final Art Direction or Visual QA acceptance;
 - final production texture art;
-- target import / GLB / engine asset-pipeline transport;
 - compressed texture equivalence;
 - arbitrary scalar-map channel collapsing;
 - arbitrary L8 support across all target platforms;
@@ -200,12 +212,12 @@ This activation does **not** prove:
 
 ## Four-root check
 
-**Truth:** the exact modeled and observed 1,048,575 B / 75% texture-memory saving is recorded together with the exact proof-host boundary. Runtime records byte-identical retained views without turning that into a universal visual-equivalence claim.
+**Truth:** the pass distinguishes a new identity/provenance proof from a new renderer measurement. The exact Materials selected PNG and scalar identities are recorded, as are the exact retained Runtime artifact and prior measurement boundaries.
 
-**Agency / non-domination:** Runtime owns the representation-cost experiment only. Materials retains texture/roughness production policy, Art Direction and Visual QA retain visual acceptance, Technical Art retains import/transport, and UC remains unchanged.
+**Agency / non-domination:** Runtime strengthens its own evidence only. Materials retains selected-field/storage policy, Art Direction and Visual QA retain visual authority, Technical Art retains import/transport representation, and UC remains unchanged.
 
-**Continuity:** PR #30 is stacked exactly on current Materials head `83f8d8fc...`; source geometry, source surface identities, UV rectangles, density, dilation, generator values, material scalars and shader semantics remain explicit. The previous thirty-one Runtime passes remain preserved in history.
+**Continuity:** the selected Materials field is tied by exact commit/blob/digests to the exact retained Runtime control/candidate evidence. The older pass-32 measurement is preserved rather than silently rewritten as if it had been rerun after Materials selection.
 
-**Wisdom before speed:** the candidate changes one storage dimension only, proves scalar identity before claiming a win, measures the real renderer, includes deliberate fail-closed controls, and stops at Art/QA plus target-device/transport boundaries rather than promoting a global optimizer from one case.
+**Wisdom before speed:** the lane avoids duplicating PR #30 or inventing a new optimizer. It closes the smallest high-risk evidence gap with exact identity checks and a deliberate fail-closed mutation before allowing the previous memory result to follow the selected asset.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
