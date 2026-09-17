@@ -1,168 +1,134 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **HOLD_COMPACT_EAST_CURRENT_WORLD_LOW_INTRUSION_PRESENTATION_CREST_NOT_RETAINED_EVERY_LOOP / SOURCE MOTION FROZEN / ART_QA_NATURALNESS_HELD**
+State: **HOLD_OBJECT_LATCH_CAPTURE_TIMELINE_EXACT_HEAD_QUEUED / SOURCE MOTION FROZEN / TRUE_CAPTURE_SEMANTICS_REBOUND**
 
-> Continuity note: this status is intentionally compressed from the preceding detailed ledger. The prior exact heads, workflows, artifacts, failed harness attempts, and specialist boundaries remain preserved in Git history and owning PR evidence; nothing below promotes or rewrites those results.
+> Continuity note: this status is intentionally compressed from the preceding detailed ledger. Prior Map, Nature, Character, Object and Animal exact heads, workflows, artifacts, failed harness attempts and authority boundaries remain preserved in Git history and owning PR evidence. Nothing below silently promotes or rewrites those results.
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, the current Animation status, Art Direction, Runtime/Optimization and Visual Observer/QA status, and inspected open Animation work across the design constellation before choosing a lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, this status, current Art Direction, Rigging/Deformation, Technical Art, Runtime/Optimization and Visual Observer/QA status, and inspected active Animation PRs across the constellation.
 
-`axm-create-me` remains **coordination only**. Product motion and proof implementation remain in the owning repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product motion and verification changes live in the owning product repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ### Constellation choice
 
-Open Animation lanes remain Object PR #10, Animal PR #33, Character PR #22, Nature PR #13 and Map PR #44. Those first four already hold mature source-local or target-host motion evidence. The highest-leverage non-duplicated seam therefore remained **Map Animation PR #44**, where Art Direction / Visual QA had asked for a less-intrusive presentation path because the prior review packet performed viewport image readback during timed observation.
+The Map compact-east lane has reached its current truthful boundary: the lower-intrusion proof host still does not retain every `31.25 ms` source slot, and its own status says not to retime or repeat the lane absent a concrete Art/QA temporal defect, stronger target-device observation, or materially changed receiver. Character, Nature and Animal already retain mature motion evidence.
 
-No competing Animation lane was opened. No source clip, retime, amplitude, interpolation policy, geometry, receiver, camera or lighting change was made.
+A fresher non-duplicated Animation seam appeared in **Object**. Current Rigging PR #20 corrected the front-latch source-mechanical semantics without changing source geometry, pivots or motion envelope:
 
-## Current lane
+- true source-owned proof-volume contact/capture boundary: approximately **`9.264790333551197°`**;
+- historical approximately **`48.66480246428277°`** boundary: reclassified as **Z-AABB broad-phase axial separation only**, not a capture threshold;
+- exact Rigging head: `3a17a02528918ec63a46e954e883179f752c8151`;
+- exact Hard Surface/source capture authority: `56aaaecb45b520fdff9e08fe2d4ea42562f5690f`.
 
-Repository: `mike-axiom-mir/axm-map-design`
+Object Animation PR #10 already owns the unchanged `2.5 s / 40 Hz / 101 endpoint-inclusive sample` latch-release → exact lid clip → latch-reengagement sequence, but its historical source-authority bindings predated that correction. The highest-leverage bounded action was therefore to **rebind the existing timeline to the corrected source-owned contact semantics without retiming or rewriting the motion**.
 
-Draft PR: **#44 — `Animation: prove compact-east current-world exact-state playback`**
+## Current product lane
 
-Branch: `studio/animation-compact-east-current-world-playback-001`
+Repository: `mike-axiom-mir/axm-object-design`
+
+Draft PR: **#10 — `Animation: prove bounded equipment-case lid open-hold-close clip`**
+
+Branch: `studio/animation-object-lid-open-close-001`
 
 PR state: **open / draft / mergeable / unmerged**.
 
-Exact VFX/current-world parent: **`29ef2d4cc4398b3f26290e4e1f1f10398ca9898c`**
+Current Animation head: **`ba898fabc647a222ae39e8acf6ace9f731b79222`**.
 
-Exact Nature VFX source: **`cef2ad78d8e36a55ada5dad07329f1a7125d48de`**
+Current Rigging donor: **`3a17a02528918ec63a46e954e883179f752c8151`**.
 
-Previous retained review-packet head: **`84a186f087d8d7353cbfb98750f765d21bcc52be`**
-
-Current Animation head: **`7038d1e74f981cde4e8d94ac2741073e9045e0d1`**
+Current source capture authority: **`56aaaecb45b520fdff9e08fe2d4ea42562f5690f`**.
 
 ## Bounded reusable improvement
 
-New contract:
+New additive contract:
 
-`axm.animation-compact-east-current-world-presentation-observation/v0.1`
+`axm.object-animation-capture-timeline-rebind/v0.1`
 
-Purpose: determine whether the current proof host retains the compact-east motion crest when expensive viewport image readback and PNG/disk writes are removed from the **timed real-playback loop**, while preserving a reviewable exact-phase visual packet after playback.
+Added product-side files:
 
-Frozen source identity remains:
+- `assets/modular-equipment-case-001/latch-capture-timeline-rebind-003.json`;
+- `tools/verify_animation_capture_timeline_rebind.py`;
+- `tests/test_animation_capture_timeline_rebind.py`;
+- `.github/workflows/object-animation-capture-timeline-rebind.yml`.
 
-- duration `0.50 s`;
-- `16` intervals / `17` endpoint-inclusive source states;
-- exact source step `31.25 ms`;
-- loop phases `00..15`, phase `16` retained as the duplicate-neutral seam witness;
-- `NEAREST` interpolation;
-- `DISCRETE` update mode;
-- `LOOP_LINEAR` loop mode;
-- Weather and west-sapling frozen at phase `00`.
+The historical Animation contracts are retained rather than rewritten away.
 
-Method:
+### Motion preservation
 
-1. run one complete warmup loop;
-2. run three complete post-warmup loops through real Godot 4.7.2 `AnimationPlayer.play()`;
-3. during timed playback, observe only `frame_post_draw` metadata — timestamp, player position, exact active source-mesh phase, wrap/cycle and persistent receiver/player identity;
-4. perform **zero viewport image readbacks and zero disk writes** in the timed loop;
-5. stop playback, then reconstruct exact review rasters for phases `00..15` from the same frozen receiver/camera;
-6. use exact phase `08` only as a **scoped salience predicate for this discrete receiver**, because its exact review raster is the unique source crest between symmetric phases `07` and `09`; failure to observe it in every loop yields HOLD rather than permission to retime the source;
-7. retain a verifier-only crest-omission negative control that must fail the scoped salience predicate.
+The source sequence is frozen:
 
-The phase-08 predicate is **not** asserted as a universal implementation requirement. A different receiver or interpolation strategy may demonstrate perceptible crest continuity by different evidence.
+- sequence ID `lid-latch-open-hold-close-001`;
+- exact sequence digest `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
+- `40 Hz`;
+- `2.5 s`;
+- `101` endpoint-inclusive samples;
+- latch release `0.0 → 0.25 s` with unchanged smoothstep `0 → 50°`;
+- exact lid-motion phase `0.25 → 2.25 s` with latch held at exact `50°`;
+- latch reengagement `2.25 → 2.5 s` with unchanged smoothstep `50 → 0°`.
 
-## Exact current result
+No retime, key, easing, amplitude, source-geometry, pivot or rig-motion-envelope change is permitted by the new contract.
 
-Exact head: **`7038d1e74f981cde4e8d94ac2741073e9045e0d1`**
+### Corrected temporal interpretation
 
-Dedicated workflow: **`35265571988` — SUCCESS**
+The verifier binds the unchanged release/reengagement curve to the current source-owned proof-volume contact boundary and separately to the later Z-AABB broad-phase boundary. It checks the real 101-key sequence, exact donor heads and Git blob identities, rejects any false promotion of Z-AABB separation into a capture threshold, and fails closed on source-key drift or Runtime-authority inflation.
 
-Scoped verifier result:
+The derived crossings are timeline characterization only. They do **not** claim physical hook retention, force, collision-engine behavior or Runtime events.
 
-**`HOLD_COMPACT_EAST_CURRENT_WORLD_LOW_INTRUSION_PRESENTATION_CREST_NOT_RETAINED_EVERY_LOOP`**
+## Verification state
 
-Retained artifact:
+First exact-head workflow:
 
-- artifact ID `10517030752`;
-- artifact size `1,543,188 B`;
-- archive SHA-256 `507369aa6f775a7b96adebdf5719b1489edb4f751b6c6776db5efd9781540c15`;
-- independently downloaded and rehashed to the same digest;
-- `16` post-playback exact-phase PNGs at `1100 x 720`;
-- all `36` structural/verifier checks green.
+- head `9a480d6d81cff60fd8972f7f16c8a1b3fd371231`;
+- run `35271660392`;
+- result **FAIL**, preserved.
 
-Timed playback facts:
+That failure was verifier-test plumbing only: the fail-closed check correctly raised `historical Z-AABB threshold was relabelled as capture`, while the unit test expected the alternate spelling `relabeled`. The underlying negative control behaved correctly. I changed only that test-string expectation; no source motion, threshold, donor identity or acceptance condition changed.
 
-- timed-loop viewport image readbacks: `0`;
-- timed-loop disk writes: `0`;
-- three complete observed post-warmup loops;
-- cycle durations: `0.486231 / 0.532012 / 0.487049 s`;
-- proof-host `frame_post_draw` interval minimum / mean / maximum: `39.788 / 40.6835675675676 / 42.41 ms`;
-- phase-transition records: `38`;
-- total observed `frame_post_draw` samples: `50`.
+Current repaired exact head:
 
-Observed exact phases:
+- **`ba898fabc647a222ae39e8acf6ace9f731b79222`**;
+- dedicated workflow run **`35271829953`**;
+- current state: **QUEUED**.
 
-- cycle 1: `[0,1,3,4,5,7,8,9,10,12,13,14]`, missing `2,6,11,15`;
-- cycle 2: `[0,1,2,4,5,6,8,9,10,11,13,14,15]`, missing `3,7,12`;
-- cycle 3: `[1,2,3,5,6,7,9,10,11,12,14,15]`, missing `0,4,8,13`.
-
-Scoped crest phase `08` was therefore observed in cycles 1 and 2 but not cycle 3. The verifier correctly reports HOLD. It does not synthesize the absent phase, weaken the condition after seeing the result, or modify the source.
-
-Post-playback exact review rasters confirm:
-
-- phase `08` raster SHA-256 `8665e6dfc49525175b50a78058fd4ac5627bdd6e7cb01c4b13f56c0d92a1f86f`;
-- phase `07` and phase `09` share SHA-256 `df7b9f1193a76cf1c113f6a48f71082650a34777ca7af3eee60f6eac65da8394`;
-- phase `08` is therefore visually represented differently from the symmetric neighboring source states in this exact receiver;
-- verifier-only removal of the crest from one retained cycle is rejected as intended.
-
-## What changed relative to the prior review packet
-
-The prior instrumented wall-clock packet at head `84a186f087d8d7353cbfb98750f765d21bcc52be` measured retained-frame intervals of `42.121 / 46.7185 / 56.495 ms` min/mean/max while viewport image readback was part of the observation path.
-
-Removing image readback and all timed-loop disk writes lowered the current proof-host observation interval to `39.788 / 40.6835675675676 / 42.41 ms`.
-
-That is a real improvement in observer intrusion, but the mean observed interval remains slower than the frozen `31.25 ms` source step. The correct conclusion is therefore **not** to retime the source. The proof host still does not demonstrate complete source-slot presentation, and a target-device or otherwise stronger presentation path remains the proper downstream route for perceptual acceptance.
-
-PR #44 evidence handoff comment: `5720108671`.
+Therefore this activation remains **HOLD**, not PASS. The exact-head workflow is designed to rebuild the unchanged lid motion, historical latch articulation, current 101-key Animation sequence, current Hard Surface capture receipt and current Rigging receipt before deriving the corrected capture timeline, then exercise fail-closed negative controls and retain the exact evidence packet.
 
 ## Current truth boundary
 
-This activation proves that the exact frozen current-world receiver can run three complete real `AnimationPlayer` loops under a materially lower-intrusion observation method, with no viewport image readback or disk writes inside timed playback, while preserving exact post-playback visual review rasters.
+This activation has established the correct bounded Animation problem and implemented a fail-closed successor method that preserves source/rig identity. It has **not yet** earned exact-head PASS because the repaired workflow is still queued.
 
-It also truthfully shows that this proof host still misses source states at its observed `frame_post_draw` cadence, including the exact discrete crest in one of three loops.
+No claim is made for:
 
-It does **not** establish:
-
-- full presentation of every `31.25 ms` source slot;
-- uninstrumented display scanout;
-- target-device performance or delivery;
-- a universal requirement that phase `08` specifically must display;
-- physical wind correctness;
-- final timing, weight or motion naturalness;
+- physical latch retention or force;
+- collision-engine acceptance;
 - Runtime controller/state-machine behavior;
-- collision, input or gameplay acceptance;
-- Art Direction / Visual QA acceptance;
+- input or gameplay timing;
+- final motion weight/style or Art Direction acceptance;
+- target-device performance;
 - CANON or production readiness.
 
-Art Direction / Visual QA retains perceptual acceptance authority. Runtime retains controller/performance authority. Animation owns only this bounded motion/presentation-evidence method.
+The approximately `48.6648°` Z-AABB event is explicitly **not** treated as the true capture threshold. The exact `50°` latch pose remains a source review release endpoint, not a Runtime event.
 
 ## Preserved Animation continuity
 
-- Map PR #44 v0.2 exact-key + real-loop characterization: head `48dc93848aa336f9b6079ccfe738acbe539253ac`, workflow `35253584821`, result `PASS_COMPACT_EAST_CURRENT_WORLD_EXACT_KEY_BINDING_AND_REAL_LOOP_DELIVERY_CHARACTERIZED`.
-- Map PR #44 prior rendered-sequence packet: head `84a186f087d8d7353cbfb98750f765d21bcc52be`, workflow `35259707312`, artifact `10514216406`, SHA-256 `f8753f79aafffc1506fb1c8384a19e3b34b7bf07c3432d05b3fcd310999ad0ef`.
-- Nature PR #13 exact-state DISCRETE proof: head `c3157465856ee4e6c67159cfb5077c3e966f68ee`, workflow `35234185552`.
-- Nature PR #13 single-shape LINEAR characterization: head `507d325e21c2f9d5be5b5e07c121769ca7abde91`, workflow `35240864423`.
-- Character PR #22 repeated-loop proof: head `5513ab66372ee06ce53788f5097ede230ca2fc6b`, workflow `35227649172`.
-- Character PR #22 exact-density target-host playback: head `fb518d8320b74323767fdfb57e81291dbdb2a4d1`, workflow `35222873944`.
-- Character source Animation PR #19 remains `9519be55581c009fd800d175677d9b50ee6926e6`.
-- Object Animation PR #10 remains untouched; prior phase, wall-clock, target-host and textured-motion evidence is preserved.
-- Animal Animation PR #33 remains untouched; prior dense/subframe and normalized-u16 evidence is preserved.
+- Map PR #44 low-intrusion presentation: head `7038d1e74f981cde4e8d94ac2741073e9045e0d1`, workflow `35265571988`, scoped HOLD because crest phase `08` was not retained in every observed proof-host loop; source motion remains frozen.
+- Map PR #44 exact-key/real-loop characterization: head `48dc93848aa336f9b6079ccfe738acbe539253ac`, workflow `35253584821`, scoped PASS.
+- Nature PR #13 exact-state DISCRETE and single-shape LINEAR characterization remain preserved.
+- Character PR #22 exact-density target-host and repeated-loop evidence remain preserved.
+- Animal Animation PR #33 prior dense/subframe and normalized-u16 evidence remains preserved.
+- Object PR #10 prior lid-motion, target-host, wall-clock, phase and textured-motion evidence remains preserved; this activation adds corrected source-mechanical semantics rather than duplicating those playback lanes.
 - Wreckline mechanical-motion work remains a separate lane and was not duplicated.
 
 ## Four-root gate
 
-- **Truth:** SUCCESS workflow execution and scoped HOLD verdict are kept distinct. Missing phases, observer cadence and authority limits remain explicit.
-- **Agency / non-domination:** Animation does not take VFX source, Map/world, Runtime, Art or QA authority; no source retime is forced to satisfy the observer.
-- **Continuity:** exact source lineage, cadence, receiver identity and prior failed/successful packets are preserved; this status compression is explicitly declared rather than silently rewriting history.
-- **Wisdom before speed:** reducing observer intrusion was tested before changing proven source motion, and the remaining gap is handed to the correct downstream presentation/perceptual owners.
+- **Truth:** the corrected true-capture versus Z-AABB distinction is explicit; the first failed workflow is preserved; queued is not called PASS.
+- **Agency / non-domination:** Animation does not take Hard Surface, Rigging, Runtime, Physics, gameplay, Art or QA authority and does not force a retime to fit new semantics.
+- **Continuity:** historical contracts remain intact while an additive successor binds the unchanged motion to current source truth and exact donor identities.
+- **Wisdom before speed:** source-truth correction is propagated through a verifier before anyone tunes motion around an obsolete threshold.
 
 The four AXM roots remain the merge gate.
 
 ## Next Animation trigger
 
-Do **not** retime compact-east from this proof-host HOLD alone. Continue this lane only if Art Direction / Visual QA supplies a concrete temporal defect, a stronger uninstrumented/target-device presentation surface becomes available, or the receiver materially changes. Otherwise choose the next genuinely animation-ready domain gap rather than accumulating another near-duplicate compact-east proof.
+Resolve only the exact-head verification of this corrected Object capture-timeline rebind. If green, retain and report the actual derived crossing times and artifact without expanding authority. If it exposes a real motion defect, preserve the failure and hand the concrete defect to the owning source/Rigging lane rather than silently retiming the clip.
