@@ -1,265 +1,241 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-17
-State: **PASS_NORMALIZED_SKIN_WEIGHT_RECEIVER_CONTRACT_MAP / UC INTERNAL RECEIVER DRIFT CONFIRMED / ANIMAL RUNTIME #27 PROVIDES REAL RECEIVING-DOMAIN HOLD / UC #174 OPEN FOR BOUNDED RECEIVER PARITY / QUANTIZER + AUTO-ADOPTION + VISUAL ACCEPTANCE HELD / PROFESSION FABRIC NOT IMPLEMENTATION HOME / NO PRODUCT OR UC CODE MOVE**
+State: **PASS_PARALLEL_REPRESENTATION_SELECTION_MAP / BUILDING + NATURE + OBJECT PROVE DERIVED ALTERNATIVES ARE NOT ALWAYS SUCCESSORS / PF #38 REFINED WITH EXPLICIT REPRESENTATION-SET + CONSUMER-SELECTION SEMANTICS / UC #174 RECEIVER PLACEMENT NOW HAS DRAFT #176 + REAL ANIMAL REBIND PROOF / NO PRODUCT OR PF IMPLEMENTATION MOVE / NO AUTO-SELECTION OR PASS TRANSFER**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest coordination commits, specialist status, active design PRs, current Universal Creation and current Profession Fabric before selecting one bounded Cartography action.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest coordination commits, specialist status, open design PRs across the full design constellation, current `axm-universal-creation`, and current `axm-profession-fabric` evidence before selecting one bounded Cartography action.
 
-`axm-create-me` remains **coordination only**. This activation changes only this Cartography status plus evidence-linked issue/PR coordination. No Animal, Nature, Map, Building, Object, Character, Weather, Weapon, Armor, Unit or Misc product code was changed. No Universal Creation implementation, Profession Fabric implementation, acceptance threshold, merge state or CANON state was changed.
+`axm-create-me` remains **coordination only**. This activation changes only this Cartography status plus one evidence-linked refinement comment on existing Profession Fabric issue #38. No Animal, Building, Nature, Object, Map, Character, Weather, Weapon, Armor, Unit or Misc product code was changed. No Universal Creation implementation, Profession Fabric implementation, acceptance threshold, merge state, representation selection, CANON state or production state was changed by Cartography.
 
-The previous protected-render-partition Cartography result remains historical truth at coordination commit:
+The previous normalized-skin-weight receiver-contract map remains historical truth at coordination commit:
 
-`16eabb1538c13483c837e81c9645ae182e0a07bb`
+`9f40f19400d8a04de5f1554f6e828e0f13d66a91`
 
-That pass remains the active history for UC #170 and the Animal/Nature source-to-render indexing boundary. This activation does not rewrite or merge that result into the new glTF receiver question.
+That pass opened UC issue #174 and correctly kept quantizer ownership, Technical Art producer adoption, visual acceptance and deformed direction-frame repair outside the receiver-semantic proposal. This activation preserves that history rather than relabelling it.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation scan
 
-New movement after the prior Cartography pass includes:
+Material movement since the prior Cartography pass includes:
 
-- Animal Runtime PR #26 proving a bounded `JOINTS_0` component-width reduction and handing producer choice to Technical Art;
-- Animal Technical Art PR #3 adopting that exact joint-index width rule at the producer while reusing current UC unchanged;
-- Animal Runtime PR #27 opening a different storage experiment for `WEIGHTS_0` and discovering that the current UC shared JS rigged-glTF receiver blocks a representation that another current UC receiver already understands;
-- Animal Rigging PR #25 proving a bounded post-skin owner-frame reconstruction while preserving the older direct transported normal/tangent direction-frame HOLD;
-- Nature Procedural PR #4 applying the exact Geometry leaf-backface provider across nine existing procedural outputs without copying the provider;
-- Nature VFX PR #11 adding a bounded deterministic leaf-local flutter candidate with exact neutral endpoints and real Godot evidence.
+- **Universal Creation / Animal Technical Art:** UC issue #174 now has a real bounded implementation lane in draft UC PR #176, and the exact Animal Runtime #27 normalized-u16 candidate has successfully traversed that repaired receiver in Animal Technical Art PR #3. Producer adoption and visual acceptance remain held.
+- **Building:** Geometry PR #8 produced a materially smaller conforming boundary-shell representation; Hard-Surface PR #9 then deliberately source-owned it only as a non-default receiving option while preserving both semantic source and reference receiving representation; Runtime PR #10 has begun characterizing that exact option rather than inferring savings from topology counts.
+- **Nature / Map:** current-world Art Direction and Visual QA prefer the source-geometry-preserving split-cull receiver, while Nature Geometry PR #10's explicit duplicated-leaf representation remains a structurally valid alternative rather than being declared obsolete.
+- **Object:** current Hard-Surface lanes continue to distinguish unchanged host source from derived review geometry and source-owned semantic surfaces. In particular, PR #25 has a green faceting-aware annular-knuckle review mesh with source adoption explicitly false.
+- **Character:** Geometry PR #13 exhausts the current face-disjoint two-flip family without finding a strict successor; no new topology identity exists, so no downstream rebind is fabricated.
+- **Animal Rigging / Animation:** exact producer-width and reconstructed-direction evidence continue to show why dependency migration state, claim verdict and receiving-path adoption must stay separate.
+- **Nature VFX / Map Environment:** the bounded leaf-flutter source now has a retained review surface and a current-world receiver implementation, but exact current-head/current-world gates remain separate from aesthetic naturalness and target-device timing/performance.
 
-Those Rigging, Nature Procedural and Nature VFX lanes have clear owners and do not need Cartography-owned implementation. The fresh material cross-repo placement signal is the **UC receiver-contract mismatch** exposed by Animal Runtime #27.
+Weapon, Armor, Unit and Misc expose no newer open design PR that outranks the cross-repo representation-selection pattern above.
 
-## Receiving-domain evidence — Animal Runtime #27
+## Material cross-repo learning — derived identity does not imply successor identity
 
-Repository:
+The existing Profession Fabric #38 proposal models **source-successor migration** and typed consumed-identity edges. Fresh evidence shows a second graph shape that must not be forced into that same model:
 
-`mike-axiom-mir/axm-animal-design`
+> **A derived representation may coexist with the source/reference representation as a valid alternative. Creating, source-owning, or proving that alternative does not by itself make it the current representation, does not stale sibling representations, does not invalidate their historical receipts, and does not trigger a global downstream rebind.**
 
-Draft PR:
+The missing concept is therefore not another geometry/runtime capability. It is **explicit representation-set + per-consumer selection provenance**.
 
-**#27 — `Runtime: compact Animal skin weights to normalized u16`**
+## Evidence case 1 — Building has an explicit representation set
 
-Exact tested head:
+Building Hard-Surface PR #9:
 
-`e7874c4a8dca1db48bc66f3546c2134f7d724456`
+`mike-axiom-mir/axm-building-design#9`
 
-Pinned Technical Art parent / control:
+Exact current head:
 
-- Technical Art head: `54c9c11505e798a56619ebc14e9ab41f522eef70`;
-- control GLB SHA-256: `8d9bfb80369bda09eaad786a35833cd5e04da5e608211f53648daaa1cde29566`;
-- control GLB size: `10,948 B`;
-- `WEIGHTS_0`: FLOAT32 VEC4;
-- exact weight payload: `1,344 B`.
+`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`
 
-Runtime candidate:
+It preserves three distinct authority layers:
 
-- `WEIGHTS_0`: normalized `UNSIGNED_SHORT / 5123` VEC4;
-- exact weight payload: `672 B`;
-- payload reduction: **`672 B / 50%`**;
-- candidate GLB size: **`10,296 B`**;
-- candidate SHA-256: `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`;
-- maximum decoded scalar weight error: `6.656398159820068e-06`;
-- decoded candidate row-sum error: `0.0` after the deterministic integer allocation;
-- every non-`WEIGHTS_0` accessor payload hash remains unchanged.
+1. `header-segmented-23` — `SEMANTIC_SOURCE_OF_TRUTH`;
+2. `boundary-only-union-shell-001` — the separately source-owned **reference receiving representation**;
+3. `boundary-only-union-shell-conforming-compact-v2-001` — a Geometry-derived **`SOURCE_OWNED_DERIVED_COMPACT_RECEIVING_OPTION_NOT_DEFAULT`**.
 
-Exact workflow:
+Its explicit selection policy is:
 
-`35172575874 — Runtime Animal weight width budget evidence` — **SUCCESS**
+`EXPLICIT_RECEIVING_REPRESENTATION_ID_REQUIRED__NO_DEFAULT_OR_IMPLICIT_FALLBACK`
 
-Retained artifact:
+and its evidence-transfer policy is:
 
-- ID `10477292250`;
-- archive digest `sha256:76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`;
-- exact Runtime head `e7874c4a8dca1db48bc66f3546c2134f7d724456`.
+`NO_DOWNSTREAM_PASS_TRANSFER_ACROSS_REFERENCE_V1_OR_COMPACT_V2_IDENTITIES__EXACT_CONSUMER_REBIND_REQUIRED`.
 
-The workflow is green because the evidence pipeline correctly proves and retains the current HOLD; it is **not** a UC acceptance PASS.
+The compact-v2 option is therefore not a linear replacement merely because it is newer and smaller. The semantic source, reference shell and compact alternative can all remain simultaneously truthful identities. At the latest Hard-Surface status observation, the owner gate was still queued, so Cartography does not pre-promote that policy implementation to a new exact-head Hard-Surface PASS.
 
-Real Godot 4.7.2 GL Compatibility imports both control and candidate and keeps the bounded five-pose geometry observations inside the retained tolerance. Current UC's shared JS rigged-glTF receiver rejects the candidate with:
+This is stronger evidence than a generic "keep provenance" rule: it requires a consumer to say **which representation it selected** before its downstream evidence can be interpreted.
 
-`WEIGHTS_0 accessor invalid`
+## Evidence case 2 — Nature preserves two valid sidedness strategies
 
-so Runtime's correct current decision remains:
+Current Art Direction has selected the Map current-world receiver that keeps the exact Nature `390v / 570t` source geometry and uses:
 
-**`HOLD_TECHNICAL_ART_WEIGHT_STORAGE_ADOPTION__CURRENT_UC_RIGGED_CODEC_FLOAT_ONLY`**.
+- woody: `CULL_BACK`;
+- foliage: `CULL_DISABLED`.
 
-## Fresh UC cross-repo learning — internal receiver contract drift
+That current receiving preference explicitly does **not** invalidate Nature Geometry PR #10's `490v / 620t` explicit duplicated-leaf-backface representation. Geometry #10 remains a structurally valid alternative for a future renderer/transport requirement; if such a requirement appears, it must be compared directly against the current accepted receiver under exact receiving evidence.
 
-Current Universal Creation main inspected this activation:
+This is a materially different domain from Building compaction. The alternative is not primarily about triangle-budget reduction; it is an alternate renderer/topology strategy for thin-surface sidedness. Yet the same provenance rule holds: **preference is not supersession**.
 
-`e6826acbc7296ba77d25534c8d3d3770ff3fa747`
+## Evidence case 3 — Object review geometry is valid without source adoption
 
-Current shared JS receiver:
+Object Hard-Surface PR #25:
 
-`capabilities/platform-hands/shared/asset-hands/rigged-gltf-codec.js`
+`mike-axiom-mir/axm-object-design#25`
 
-Exact blob:
+Exact head:
 
-`b1f2e68bb6c6800af5496decc95a8044d141edc9`
+`584a6b0078c7e9c60f214dc87d5427d3126421e2`
 
-Its current validation requires `WEIGHTS_0` to be:
+It proves a faceting-aware annular-knuckle review mesh with:
 
-- `VEC4`;
-- component type `5126 / FLOAT`.
+- exact source pin/hinge identity preserved;
+- five annular shells / `240 vertices / 480 triangles`;
+- zero boundary, non-manifold, orientation-conflict and degenerate-triangle defects;
+- minimum pin-to-bore surface clearance approximately `0.001 m`;
+- **host source geometry changed: false**;
+- **source adoption: false**.
 
-Normalized integer weight accessors are rejected even when their semantic values are otherwise valid.
+The derived review mesh is therefore useful current evidence without being a source successor. Existing Rigging/Animation/Technical Art evidence remains truthful for the unchanged solid source; only a future actual bored-knuckle source adoption would create a successor/rebind event.
 
-On the **same UC main**, a different neutral receiver already has the broader bounded semantics:
+Together, Building + Nature + Object show that chronology alone cannot determine `SUCCESSOR` versus `ALTERNATIVE`.
 
-`src/axm_uc/game_pose_runtime.py`
-
-It accepts `WEIGHTS_0` component types:
-
-- `5126 / FLOAT`;
-- `5121 / UNSIGNED_BYTE`;
-- `5123 / UNSIGNED_SHORT`.
-
-For integer weights it requires `normalized: true`, decodes by the correct integer divisor, validates finite `0..1` values and row sums, and then uses semantic float weights for deformation.
-
-Its current test suite includes:
-
-`test_normalized_integer_weights_are_supported`
-
-which exercises normalized integer `WEIGHTS_0` rather than merely documenting it.
-
-This means the new Animal HOLD does **not** expose a missing Animal-specific trick. It exposes a current UC capability-placement inconsistency:
-
-> **two neutral UC rigged-glTF receiving paths disagree on the accepted representation of the same standard skin-weight semantic.**
-
-The correct reusable layer is therefore **UC receiver semantics / format contract parity**, not Runtime, Technical Art or Profession Fabric.
-
-## Why this is not yet a generic optimizer
-
-Runtime #27 has one bounded real asset and a deterministic quantization candidate, but that does not justify moving the quantizer or a "smallest weight width" policy into UC.
-
-The evidence currently supports only the smaller shared statement:
-
-1. normalized integer glTF skin weights are a valid neutral representation family;
-2. one current UC path already understands them;
-3. another current UC path rejects them;
-4. a real design-domain asset reaches Godot successfully with normalized-u16 weights;
-5. therefore receiver parity is the first shared dependency to repair before discussing producer automation.
-
-Automatic quantization would need materially broader source/skin/layout evidence, explicit error policy and its own ownership contract.
-
-## Visual truth remains separate
-
-Runtime #27's retained fixed-view comparison is **not pixel-neutral**.
-
-Coverage masks remain identical, but:
-
-- `view-00`: `21` changed pixels;
-- `view-01`: `203` changed pixels;
-- total: `224` changed pixels;
-- maximum channel delta: `1` LSB.
-
-That is small bounded evidence, not permission for Cartography or UC to call the candidate visually equivalent. Art Direction / Visual QA retain that decision. UC receiver support would establish only that the representation can be correctly decoded/validated inside its declared contract.
-
-The existing Animal deformed normal/tangent direction-frame HOLD also remains independent. Weight storage-width acceptance cannot be used to relabel or repair that surface.
-
-## Placement action — UC issue #174
-
-No existing active UC issue was found for normalized integer `WEIGHTS_0` receiver parity, and current UC main changes are unrelated physics/preflight work.
-
-Opened:
-
-**UC #174 — `Proposal: unify normalized skin-weight acceptance across UC rigged glTF receivers`**
-
-This is a bounded **receiver-first proposal**, not an implementation claim.
-
-Minimum proposed contract:
-
-1. preserve existing FLOAT `WEIGHTS_0` support;
-2. permit `UNSIGNED_BYTE / 5121` and `UNSIGNED_SHORT / 5123` only with `normalized: true`;
-3. reject normalized FLOAT and non-normalized integer weight accessors;
-4. decode integer weights to semantic float values before existing range/sum validation;
-5. add semantic cross-receiver fixtures for FLOAT, normalized-u8 and normalized-u16;
-6. compare the JS receiver with the already-supporting Python `game_pose_runtime` path instead of inventing a second new interpretation;
-7. preserve fail-closed unsupported sparse/interleaved/extension boundaries unless separately evidenced;
-8. if implemented, rerun the exact Animal Runtime #27 candidate against the exact new UC head.
-
-Explicitly outside #174:
-
-- a generic quantizer;
-- automatic smallest-width selection;
-- automatic Technical Art producer adoption;
-- visual acceptance;
-- arbitrary glTF import support;
-- direction-frame repair;
-- target-device performance;
-- CANON / production readiness.
-
-If receiver parity cannot be added without weakening unrelated fail-closed boundaries, the correct result is to keep the Runtime HOLD rather than force support.
-
-## Downstream handoff
-
-Returned this placement result to Animal Runtime PR #27 in comment:
-
-**`5707323954`**
-
-The handoff explicitly keeps Runtime's current HOLD truthful, forbids copying/bypassing the decoder in Animal, requires an exact-head rerun if UC #174 later changes receiver behavior, and preserves the `224`-pixel / `1`-LSB visual delta as Art/QA evidence rather than format acceptance.
-
-No Technical Art code or producer representation was changed.
-
-## Profession Fabric boundary
+## Profession Fabric refinement — issue #38
 
 Current Profession Fabric main remains:
 
 `941bd05007eb5cd88e773e66c858c62cf9de38a9`
 
-PF issue #38 remains the experimental home for **source-successor / dependency rebind evidence procedure**. It can describe which consumer must rerun when an identity or representation changes, but it is not the implementation home for glTF binary accessor component types, normalized decoding or receiver validation.
+Existing PF issue #38 already covers:
 
-No PF issue, implementation or profession promotion was added this activation.
+- typed consumed-identity dependency edges;
+- partial migration DAGs;
+- separation of migration/provenance state from claim verdict;
+- derived-field dependency reruns and representation-sensitive claims.
+
+This activation refined that existing proposal rather than opening another framework.
+
+Added comment:
+
+**`5707833429`**
+
+The refinement proposes a representation-set layer alongside source-successor edges. If PF #38 later becomes an implementation experiment, the smallest bounded evidence shell should preserve:
+
+- `semantic_source_identity`;
+- exact `representation_id` plus repo/head/contract/digest for each representation;
+- explicit `relation_to_source`, such as `REFERENCE`, `DERIVED_ALTERNATIVE`, or `SOURCE_SUCCESSOR` — never inferred from chronology;
+- per-consumer `selected_representation_id`, allowed to be explicitly `NONE/HELD`;
+- a bounded selection state such as `EXPLICIT_SELECTED`, `AVAILABLE_NOT_SELECTED`, or `HELD_PENDING_EVIDENCE`;
+- compatibility/rebind evidence only for the representation actually selected by that consumer;
+- no implicit default/fallback unless the owning domain explicitly declares one;
+- historical claims attached to the exact representation identity they covered;
+- no automatic `STALE` or `SUPERSEDED` label for an unused but still-valid sibling alternative;
+- a consumer selection change treated as a fresh dependency event, rerunning only claims that actually consume that representation.
+
+This extends PF #38's provenance model without turning Profession Fabric into a representation generator, optimizer, renderer or product-selection authority.
+
+No PF code, profession package or promotion was created.
+
+## Previous UC placement now has implementation evidence — but remains draft
+
+The prior Cartography placement decision for normalized integer `WEIGHTS_0` receiver semantics has now progressed materially and independently confirms that the earlier home selection was correct.
+
+Current UC main observed before that repair lane:
+
+`e768b4810bfa9da09c9b927bb719c363e0494612`
+
+UC issue #174 now points to draft PR #176:
+
+**`Align normalized skin-weight acceptance across rigged glTF receivers`**
+
+Exact draft head:
+
+`fbb75738210c676d4d76398bd3c3deb9a6dde920`
+
+Repaired shared-codec blob:
+
+`02b69b6c7368ba6e34f226ca545293d26d208922`
+
+Focused parity workflow:
+
+`35176055645` — **SUCCESS**
+
+The bounded repair preserves FLOAT weights, accepts normalized u8/u16, rejects normalized FLOAT and non-normalized integer weights, semantically decodes integer weights before validation, and does not widen unrelated sparse/interleaved/extension support.
+
+Animal Technical Art PR #3 then advanced to exact head:
+
+`0c31eb46cbec354c168e3c732bdb402e352d9e2b`
+
+with workflow:
+
+`35176109234 — UC normalized skin-weight receiver rebind` — **SUCCESS**.
+
+It consumes Runtime #27's exact retained normalized-u16 candidate (`10,296 B`, SHA-256 `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`), proves the historical UC receiver rejects it, and proves UC PR #176 accepts the same exact asset while retaining `84` vertices / `80` triangles / `2` joints / `1` animation channel / `41` keys / `1.0 s`.
+
+Retained Animal Technical Art rebind artifact:
+
+- ID `10478363684`;
+- archive SHA-256 `cd6094cf69a94b6b791bb114bd81b6ce0757402cd8e989b15250eb49183214e9`.
+
+This closes the **placement confidence** question, not the product-adoption question. UC PR #176 is still draft/unmerged, Technical Art producer normalized-weight adoption remains held, Runtime's `224` changed pixels / max `1 LSB` visual tradeoff remains Art/QA-owned, and the independent deformed normal/tangent direction-frame HOLD remains active.
 
 ## Current capability / placement map
 
 | Capability / dependency | Current placement state |
 |---|---|
-| normalized integer `WEIGHTS_0` receiver semantics | **NEW: UC #174 neutral receiver-parity proposal** |
-| Animal normalized-u16 weight compaction candidate | **Animal Runtime #27-owned; HOLD on current UC JS receiver + Art/QA visual decision** |
-| automatic skin-weight quantizer / smallest-width policy | **HOLD extraction; one bounded asset is insufficient** |
-| `JOINTS_0` producer width selection for exact Animal joint domain | **Animal Technical Art-owned adoption; current UC reused unchanged** |
+| coexisting product representation alternatives + explicit consumer selection provenance | **NEW: PF issue #38 experimental-procedure refinement; comment `5707833429`** |
 | source-successor identity migration / typed dependency DAG | **PF issue #38 experimental evidence-procedure candidate** |
+| migration state vs bounded claim verdict | **PF issue #38 refinement; keep independent** |
+| derived-field dependency reruns | **PF issue #38 refinement; representation-sensitive claims rerun only when consumed field changes** |
+| normalized integer `WEIGHTS_0` receiver semantics | **UC #174 -> draft PR #176; focused parity PASS + exact Animal receiving-domain rebind PASS; merge still held** |
+| Animal normalized-u16 weight quantizer / producer adoption | **Runtime #27 / Technical Art-owned; extraction/adoption held; Art/QA visual decision still pending** |
 | neutral rigid-frame placement | **shared home confirmed = `axm-sticker-fabric`; UC compatible standalone copy preserved** |
 | nonadjacent triangle self-intersection observer | **UC issue #162 separate candidate** |
-| indexed vertex-fan diagnostic | **HOLD extraction; unchanged-method second-domain proof still missing** |
-| indexed surface eligibility / source->render domains | **UC issue #170 observer/report candidate** |
-| attribute-semantic protected split identity | **UC #170 candidate; Animal evidence** |
-| index/topology-semantic protected partition identity | **UC #170 candidate; Nature evidence** |
+| indexed surface eligibility / source->render domains / protected partitions | **UC issue #170 observer/report candidate** |
 | generic mutating reindex / auto-weld | **HOLD** |
-| Animal post-skin owner-frame reconstruction | **Animal Rigging-owned; Technical Art adoption + shaded receiver still held** |
-| Nature leaf-backface family derivation | **Nature Geometry-owned operation, Procedural consumes exact donor** |
-| Nature bounded leaf flutter | **Nature VFX-owned visual candidate; final look/perf/physics held** |
+| Building compact boundary-shell generation | **Building Geometry-owned; Hard Surface controls whether exact candidate is an available receiving option** |
+| Nature split-cull vs explicit duplicated-leaf sidedness | **two separate domain-owned representations; current-world preference does not supersede Geometry alternative** |
+| Object annular bored-knuckle mesh | **Object Hard-Surface review alternative; source adoption false** |
+
+## Why this is not a Universal Creation selection system
+
+UC can own neutral machinery that creates, validates, transports or observes representations. The newly repeated gap is different: **which product/domain representation is selected for a particular consumer, and what evidence that selection authorizes**.
+
+That decision carries domain authority, provenance and acceptance ownership. A universal engine that automatically chooses "newest", "smallest", "greenest" or "most efficient" would erase the exact distinction demonstrated by Building, Nature and Object.
+
+Therefore no UC issue or implementation is added for automatic representation choice. If later evidence reveals a neutral low-level selection mechanism that can remain policy-free, that should be evaluated separately from PF's evidence/provenance procedure.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that UC #174 is implemented or should merge automatically;
-- that Animal Runtime PR #27 should merge or become CANON;
-- that normalized-u16 is the preferred production weight storage for Animal;
-- that the `224` changed pixels are visually acceptable or unacceptable;
-- pixel-neutral weight quantization;
-- automatic u8/u16 quantization or error-threshold policy;
-- arbitrary sparse/interleaved/multi-skin/multi-primitive glTF safety;
-- target-device CPU/GPU/FPS/VRAM/heap or import-speed improvement;
-- repair of Animal normal/tangent direction-frame transport;
-- any change to UC #170, UC #162 or PF #38;
-- PF implementation or profession promotion;
-- CANON, production readiness, game readiness or Cartography mastery.
+- PF #38 implementation, profession promotion or CANON;
+- that every asset should expose multiple representations;
+- that Building compact-v2 should become default, current-world, merged or production-ready;
+- that Nature duplicated backfaces are worse or better than split culling outside the retained current-world evidence;
+- that Object's annular-knuckle review mesh should be adopted into the source;
+- automatic representation ranking, defaulting, fallback, migration or stale marking;
+- automatic downstream rebinds;
+- UC PR #176 merge approval or production readiness;
+- normalized-u16 producer adoption or pixel-neutral visual equivalence;
+- repair of Animal deformed normal/tangent transport;
+- arbitrary glTF, mesh simplification, thin-surface, manufacturing or renderer generality;
+- target-device performance;
+- any merge/CANON authority or Cartography mastery.
 
 ## Next evidence triggers
 
-1. **UC #174 implementation, if it begins:** prove FLOAT + normalized-u8 + normalized-u16 semantic decoding parity without weakening fail-closed unsupported-format boundaries.
-2. **Animal Runtime #27 after UC change:** rerun the exact candidate against the exact new UC receiver; retain the historical current-UC HOLD rather than rewriting it.
-3. **Art Direction / Visual QA:** independently judge the retained 224-pixel / max-1-LSB visual difference if Technical Art ever considers adoption.
-4. **Technical Art:** producer adoption remains blocked until the consumer contract and visual ownership are resolved; no Cartography auto-promotion.
-5. **Generic quantization extraction:** require additional materially different real skins/layouts and explicit error policy before considering UC machinery beyond receiver parity.
-6. Keep UC #174, UC #170, UC #162 and PF #38 separate unless future evidence proves a real common contract.
+1. **PF #38 implementation, if it starts:** require at least one representation-set fixture where two alternatives remain simultaneously valid and different consumers may explicitly select different representations without global invalidation.
+2. **Building:** only after the exact Hard-Surface owner gate and receiving evidence exist should downstream Materials / Technical Art / Environment selection change; do not infer adoption from Geometry or Runtime savings alone.
+3. **Nature:** preserve Geometry #10 as a valid alternative while current-world split-cull remains preferred; only a concrete renderer/transport constraint should force representation reconsideration.
+4. **Object:** a future actual bored-knuckle source adoption would become a successor event; until then keep the annular mesh as review evidence rather than fake migration.
+5. **UC #176:** if merged, retain the pre-repair receiver failure and exact Animal rebind as historical evidence; producer quantization remains a separate decision.
+6. Keep PF representation-selection procedure, UC receiver semantics, UC indexing observer, self-intersection observer and product-domain geometry work separate unless future evidence proves a genuine common contract.
 
 ## Roots check
 
-- **Truth:** the workflow's green execution is recorded as a truthful HOLD, not mislabeled UC acceptance; current UC's two receiver behaviors are kept distinct; nonzero visual deltas remain visible.
-- **Agency / non-domination:** Runtime owns the optimization experiment, Technical Art owns producer choice, UC owns only neutral receiver semantics, Art/QA own visual acceptance, Rigging keeps deformation-frame truth, and PF keeps evidence-procedure scope.
-- **Continuity:** exact current UC head/blob, Animal parent/head, control/candidate hashes, workflow/artifact identities, prior Cartography commit and downstream comment are retained separately; no historical receipt is relabelled.
-- **Wisdom before speed:** repair the smaller internal receiver-contract gap before centralizing a quantizer or forcing a downstream asset through a decoder that currently rejects it.
+- **Truth:** newer derived identities are not called successors merely because they are newer; current preference, source adoption, receiver compatibility and visual acceptance remain separate exact claims.
+- **Agency / non-domination:** Building/Nature/Object owners decide representation availability and selection; consumers decide their receiving evidence; PF only describes provenance procedure; UC does not seize product-choice authority.
+- **Continuity:** semantic sources, reference representations, derived alternatives, actual successors and historical receipts remain separately addressable by exact repo/head/contract/digest; no sibling identity is silently rewritten or invalidated.
+- **Wisdom before speed:** preserve useful parallel representations until a real consumer need justifies selection/migration instead of forcing every successful experiment into one linear canonical chain.
