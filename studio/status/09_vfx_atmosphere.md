@@ -1,15 +1,15 @@
 # 09 — VFX / Atmosphere Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / PASS_EXTERNAL_PHASE-BOUND_VISUAL_IDENTITY / HOLD_EXTERNAL_CAPTURE_PERTURBS_CLEAN_REFERENCE / FINAL NATURALNESS + TARGET-DEVICE TIMING/PERF HELD**
+State: **ACTIVE / HOLD_VISIBLE_X11_DISPLAY_TELEMETRY_BASELINE_PERTURBS_CLEAN_REFERENCE / PASS_EXTERNAL_PHASE-BOUND_IDENTITY_RETAINED / FINAL NATURALNESS + TARGET-DEVICE TIMING/PERF HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/09_vfx_atmosphere.md`, then rescanned active design-repository and specialist status before choosing one bounded lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/09_vfx_atmosphere.md`, then rescanned the design constellation, current open PRs and the newest Art Direction / Visual QA / Runtime boundaries before choosing one bounded lane.
 
-The strongest non-duplicated VFX gap remained the one independently left by Art Direction and Visual Observer / QA: the accepted Nature leaf micro-flutter has a clean no-retime wall-clock reference, but synchronous viewport capture materially perturbs that stream. The smallest useful successor was therefore **external phase-bound visual capture with no in-process viewport readback**, not another source retune, Weather variant, particle system or interpolation layer.
+The highest-leverage non-duplicated VFX gap was the one explicitly left by the preceding external-capture result: determine whether the large timing slowdown comes from the visible X11/display-composition observation path itself or mainly from the external recorder.
 
-This activation stayed inside existing Map VFX PR #35 and added an X11/FFV1 external observation path carrying an explicit source-slot telemetry strip. It preserves the exact accepted Nature source, accepted current-world receiver, fixed Weather phase, direct-source scheduler and no-retime rule.
+This activation therefore **did not retune the accepted Nature leaf effect and did not add another recorder**. It stayed inside Map VFX PR #35 and added a visible X11 + telemetry baseline using the existing external observer with **no recorder/grabber/encoder process**. No viewport readback or timed PNG encoding is used.
 
 `axm-create-me` remains **coordination only**. Product implementation and proof-host evidence remain in `mike-axiom-mir/axm-map-design` / `mike-axiom-mir/axm-nature-design`.
 
@@ -17,19 +17,18 @@ The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Cont
 
 ## Fresh constellation / duplication scan
 
-- **Weapon:** no active VFX/effect lane requiring overlap.
-- **Armor:** no active VFX/effect lane requiring overlap.
-- **Character:** current active work remains structural shoulder/geometry/rigging evaluation; not entered.
-- **Unit:** no active VFX/effect lane requiring overlap.
-- **Animal:** current rigging/materials/animation/runtime work remains separate organic-motion and transport ownership.
-- **Building:** current compact-shell/hard-surface/runtime work remains separate; VFX did not compensate its look with atmosphere.
-- **Nature:** PR #11 remains source-effect owner for migrated sapling wind + bounded leaf-local flutter.
-- **Weather:** procedural seeded-field/source ownership remains separate; historical Weather temporal experiments were not reopened.
-- **Map:** Environment PR #24 remains composition owner; VFX PR #35 remains the timing/presentation evidence lane.
-- **Object:** current procedural/source work remains separate.
-- **Misc:** no active VFX overlap found.
+- **Weapon / Armor / Unit / Misc:** no current VFX/effect lane requiring overlap.
+- **Character:** active work remains shoulder Geometry/Rigging/intersection search; VFX did not enter it.
+- **Animal:** current active lanes remain UV/tangent, Rigging transport, Materials diagnostic and Runtime representation work; VFX did not duplicate them.
+- **Building:** current Art / Technical-Art / Runtime work is planar-role representation and cost, not VFX.
+- **Nature:** VFX PR #11 remains source-effect owner for migrated sapling wind + leaf-local flutter. No source retune was requested.
+- **Weather:** source/procedural Weather ownership remains separate; historical temporal experiments were not reopened.
+- **Map:** Environment PR #24 remains composition owner. VFX PR #35 remains the current timing/observation lane.
+- **Object:** source/material/procedural work remains separate.
+- **Art Direction / Visual QA:** both still hold final Nature timing/naturalness rather than requesting a spatial source change.
+- **Runtime / Optimization:** current lane is Building cost characterization; target-device timing/performance ownership remains Runtime-owned.
 
-The external-observation lane therefore remains higher leverage than inventing a new effect while the existing accepted effect still lacks a timing-faithful direct visual stream.
+The no-recorder visible-display isolation therefore remained the smallest useful successor to the previous X11+FFV1 HOLD.
 
 ## Exact source and receiver retained
 
@@ -39,294 +38,208 @@ Nature source effect remains unchanged:
 - VFX PR #11;
 - accepted source-effect head: `ecade64227ba1d3d1faf029ca7188ea63c2560ec`;
 - 25 leaf blades;
-- leaf-side-only local twist around base→tip axis;
-- deterministic per-leaf phase step `0.73 rad`;
-- maximum twist cap `5°`;
+- deterministic leaf-local twist, maximum `5°`;
+- maximum added leaf-side displacement `0.006920423273762265 m`;
+- added non-leaf displacement `0.0 m`;
 - 17 endpoint-inclusive source states;
 - repeating direct source phases `00..15`;
 - phase `16` exact neutral endpoint witness equal to phase `00`;
-- source spacing `31.25 ms`;
-- cycle duration `0.50 s`;
-- maximum added leaf-side displacement `0.006920423273762265 m`;
-- added non-leaf displacement `0.0 m`.
+- source spacing `31.25 ms`, cycle `0.50 s`.
 
 Accepted current-world receiver remains unchanged:
 
 - repository: `mike-axiom-mir/axm-map-design`;
-- Environment PR #24;
-- exact accepted receiver head: `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
-- exact source-front Nature representation `390v / 570t`;
-- `woody=CULL_BACK`;
-- `foliage=CULL_DISABLED`;
-- explicit duplicated leaf-backface geometry not adopted;
-- fixed review cameras: `path_eye`, `elevated_oblique`.
+- Environment PR #24 exact accepted receiver evidence head: `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
+- Weather fixed at exact source phase `00` for this timing lane;
+- cameras: `path_eye`, `elevated_oblique`;
+- exact source-front Nature representation retained;
+- no geometry/material/camera/world-composition retune in this activation.
 
-Map VFX PR #35 remains **OPEN / DRAFT / UNMERGED**. Current exact VFX head after the external-observation repair is:
+Map VFX PR #35 remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at exact head:
 
-`3b274fdd11c8b74798f8abb5a099641ecb520f39`
+`6dc67e5ec21f0766c6b44ef8f53963ff4bebdf99`
 
-## Reference evidence retained
+The Environment branch has continued to advance independently. This VFX proof deliberately keeps its already-accepted receiver evidence pinned rather than silently promoting later unrelated Environment state.
 
-### Clean no-capture wall-clock reference
+## Existing timing/capture evidence retained
 
-Exact head:
+### Clean no-capture reference
 
-`795d9e8862e895e506c756b9ea01cd6228fa7ab7`
-
-Workflow:
-
-`35179504496 — VFX Nature leaf flutter wall-clock current-world evidence` — **SUCCESS**
-
-Presentation contract:
-
-`PHASE_LOCKED_LATEST_DUE_DIRECT_SOURCE_STATE_NO_RETIME`
-
-Weather policy:
-
-`FIXED_AT_SOURCE_PHASE_00_SOURCE_WIDTH_PRESENTATION`
-
-Result:
-
-- scheduled direct-source slots: `96`;
+- exact head: `795d9e8862e895e506c756b9ea01cd6228fa7ab7`;
+- workflow: `35179504496` — **SUCCESS**;
+- presentation: `PHASE_LOCKED_LATEST_DUE_DIRECT_SOURCE_STATE_NO_RETIME`;
+- scheduled: `96`;
 - presented: `92`;
-- skipped: `4`;
-- coverage: `95.8333333333%`;
-- `path_eye`: `47/48`, mean post-draw interval `32.0634565 ms`;
-- `elevated_oblique`: `45/48`, mean post-draw interval `33.7925909 ms`;
-- no interpolation;
-- no retiming.
+- `path_eye`: `47/48`, mean post-draw `32.0634565 ms`;
+- `elevated_oblique`: `45/48`, mean post-draw `33.7925909 ms`.
 
-This remains the authoritative clean proof-host timing reference. It already proves that literal full 32 Hz delivery is false on that run; elapsed-time phase is preserved rather than silently slowing the animation.
+This remains the authoritative clean proof-host timing reference.
 
 ### Synchronous direct post-draw capture
 
-Exact head:
-
-`b56349f4e5a5335b73f39ec32af28dd81f0f6b24`
-
-Workflow:
-
-`35182919389 — VFX Nature leaf flutter direct timed capture current-world evidence` — **SUCCESS**
-
-Artifact:
-
-- ID `10481510245`;
-- `4,860,893 B`;
-- SHA-256 `31d84e4a3870d9afaf49bc12c5da8ced386e6db2dedb058ff15d159cc05bca96`.
-
-Result:
-
+- exact head: `b56349f4e5a5335b73f39ec32af28dd81f0f6b24`;
+- workflow: `35182919389` — **SUCCESS**;
+- artifact: `10481510245`;
 - presented/captured: `58/96`;
-- `path_eye`: `33/48`, mean post-draw `46.69475 ms`;
-- `elevated_oblique`: `25/48`, mean post-draw `61.6454167 ms`;
-- synchronous viewport readback averaged roughly `4.96 / 5.16 ms` but total stream disturbance was materially larger.
+- mean post-draw: `46.69475 / 61.6454167 ms`;
+- result: `PASS_DIRECT_POST_DRAW_TIMED_FRAME_IDENTITY` + `HOLD_SYNCHRONOUS_CAPTURE_PERTURBS_REFERENCE_DELIVERY`.
 
-Truth result:
+The retained PNGs are valid evidence of that instrumented stream, not a timing-faithful proxy for the clean stream.
 
-**`PASS_DIRECT_POST_DRAW_TIMED_FRAME_IDENTITY`** plus **`HOLD_SYNCHRONOUS_CAPTURE_PERTURBS_REFERENCE_DELIVERY`**.
+### External X11 + FFV1 phase-bound capture
 
-Those 60 retained PNGs remain valid evidence of the instrumented capture stream, not a timing-faithful proxy for the clean `92/96` reference.
+- exact head: `3b274fdd11c8b74798f8abb5a099641ecb520f39`;
+- workflow: `35186955392` — **SUCCESS**;
+- artifact: `10481983456`;
+- artifact SHA-256: `c613493837350fb71c1f18f56600b18f63463bc74b345bc527dd575599f37dbd`;
+- runtime-presented states: `39/96`;
+- external phase-bound identity: `39/39` runtime-presented context/slot states observed in the lossless video;
+- `path_eye`: `20/48`, mean `75.7328421052632 ms`;
+- `elevated_oblique`: `19/48`, mean `82.342 ms`.
 
-## New bounded improvement — external phase-bound X11 capture
+Retained result:
 
-The successor removes all in-process viewport readback and timed-window PNG encoding.
+**`PASS_EXTERNAL_PHASE-BOUND_VISUAL_IDENTITY`** + **`HOLD_EXTERNAL_X11_CAPTURE_PERTURBS_CLEAN_REFERENCE`**.
+
+This proves the telemetry mechanism can bind external imagery to exact presented source states, but that X11+FFV1 stream is not timing-faithful to the clean reference.
+
+## New bounded improvement — visible X11/display baseline with no recorder
 
 Added on Map PR #35:
 
-- `environment-proof/atmosphere_current_world_nature_leaf_flutter_wall_clock_external_observe.gd`;
-- `.github/workflows/vfx-nature-leaf-flutter-external-capture-current-world.yml`;
-- `docs/VFX_NATURE_LEAF_FLUTTER_EXTERNAL_CAPTURE_CURRENT_WORLD_001.md`.
+- `.github/workflows/vfx-nature-leaf-flutter-display-baseline-current-world.yml`;
+- `docs/VFX_NATURE_LEAF_FLUTTER_DISPLAY_BASELINE_CURRENT_WORLD_001.md`.
 
-Observation contract:
+The workflow reuses the exact existing visible X11/telemetry observer surface but deliberately starts **no `ffmpeg`, x11grab, video encoder or other recorder**. It also forbids in-process viewport readback and timed PNG encoding.
 
-`EXTERNAL_X11GRAB_FFV1_NO_IN_PROCESS_VIEWPORT_READBACK`
+Observation class:
 
-The existing `1100x720` current-world render is exposed to an X11 surface with a narrow telemetry strip outside the scene crop. The telemetry encodes a fixed sync pattern, validity, camera context and absolute source-slot identity. Marker and exact source state change in the same main-loop turn before one shared `RenderingServer.frame_post_draw`.
+`VISIBLE_X11_SURFACE_PLUS_TELEMETRY_NO_RECORDER`
 
-A separate `ffmpeg x11grab` process records lossless FFV1. The Godot timed observer itself performs no viewport image readback and no PNG encoding. External frames are accepted as phase-bound evidence only when their decoded context/slot pair exists in the runtime receipt; missing states are never reconstructed or relabelled as captured.
-
-Declared measurement-fidelity gate versus the clean reference:
+Declared comparability gate versus the clean reference:
 
 - at least `90/96` source slots presented;
-- mean post-draw cadence in each fixed camera no worse than `1.10x` the clean reference;
-- decoded external video states must be exact runtime-presented states;
-- at least `90%` of runtime-presented states must appear in the phase-bound external visual stream for the strongest visual-stream PASS.
+- mean post-draw cadence in each camera no worse than `1.10x` clean.
 
-A HOLD is explicitly valid evidence. No source retiming or visual rewrite is allowed to make the observation tool pass.
+A HOLD is explicitly valid evidence. No source retiming or visual rewrite is allowed to make the observer pass.
 
-## Failed draft retained before real run
-
-Initial external-workflow head:
-
-`7f6d5dd7e2e36689c1200829b734e73aa0f26958`
+## Exact real-Godot no-recorder result
 
 Workflow:
 
-`35186788987` — **FAIL** at `Bind exact source receiver and low-intrusion contract`.
-
-Cause: the contract guard correctly found the literal forbidden token `get_image(` inside a source comment describing what the observer did not call. The proof never reached runtime.
-
-Repair head:
-
-`3b274fdd11c8b74798f8abb5a099641ecb520f39`
-
-The repair changed only the guard-triggering comment wording and made receipt dictionary access explicitly typed. No source state, phase spacing, amplitude, scheduler, Weather policy, camera, geometry, material, fidelity threshold or acceptance boundary was weakened.
-
-The failed draft remains in Git history/workflow provenance rather than being rewritten away.
-
-## Exact real-Godot external-capture result
-
-Workflow:
-
-**`35186955392 — VFX Nature leaf flutter external capture current-world evidence` — SUCCESS**
+**`35190631453 — VFX Nature leaf flutter visible-display baseline current-world evidence` — SUCCESS**
 
 Exact tested head:
 
-`3b274fdd11c8b74798f8abb5a099641ecb520f39`
+`6dc67e5ec21f0766c6b44ef8f53963ff4bebdf99`
 
-Pinned runtime/evidence path:
+Workflow success means the exact contract, source/receiver bindings, runtime observation and fail-closed verifier all executed correctly. The measured scoped result is a HOLD:
 
-- Godot `4.7.2 stable`;
-- GL Compatibility;
-- X11/Xvfb proof host;
-- lossless external FFV1 screen capture;
-- exact accepted Nature source and receiver identities above;
-- Weather fixed at exact source phase `00`;
-- same two fixed cameras;
-- no interpolation;
-- no retiming;
-- no in-process viewport image readback;
-- no timed-window PNG encoding.
+**`HOLD_VISIBLE_X11_DISPLAY_TELEMETRY_BASELINE_PERTURBS_CLEAN_REFERENCE`**
 
 Retained artifact:
 
-- artifact ID: `10481983456`;
-- size: `64,145,677 B`;
-- GitHub SHA-256: `c613493837350fb71c1f18f56600b18f63463bc74b345bc527dd575599f37dbd`;
+- ID: `10483963329`;
+- size: `16,739 B`;
+- GitHub SHA-256: `b10f4f491a2921e84a9e2d269243fa80090e18c7f0ba4ab0c21df90cabb14a1f`;
 - independently downloaded/rehashed SHA-256: **same value**.
 
-The retained phase-bound full video SHA-256 is:
+Exact delivery:
 
-`dddb8f23d23edc57aed0daa4a3c31c25c4a98b27831dec87d321a61a3a4496aa`
-
-### Runtime delivery
-
-- scheduled slots: `96`;
-- presented: `39`;
-- skipped: `57`;
-- delta versus clean `92/96`: `-53` presented states.
+- scheduled: `96`;
+- presented: `57`;
+- skipped: `39`;
+- clean reference: `92/96`.
 
 `path_eye`:
 
-- presented `20/48`;
-- mean post-draw `75.7328421052632 ms`;
-- p50 `75.017 ms`;
-- max `82.922 ms`;
-- cadence ratio versus clean: `2.36196749733651x`;
-- mean sapling apply duration only `2.244 ms`.
+- presented `31/48`;
+- skipped `17`;
+- mean post-draw `49.5784333333333 ms`;
+- cadence ratio vs clean `1.5462597843539825x`;
+- mean sapling apply duration `1.87129032258065 ms`.
 
 `elevated_oblique`:
 
-- presented `19/48`;
-- mean post-draw `82.342 ms`;
-- p50 `82.573 ms`;
-- max `89.746 ms`;
-- cadence ratio versus clean: `2.43668797825147x`;
-- mean sapling apply duration `2.17405263157895 ms`.
+- presented `26/48`;
+- skipped `22`;
+- mean post-draw `59.92956 ms`;
+- cadence ratio vs clean `1.7734526534927513x`;
+- mean sapling apply duration `2.09288461538462 ms`.
 
-Both declared low-intrusion timing gates fail.
+Both declared comparability gates fail before any external recorder exists.
 
-### External visual identity
+## Key diagnosis
 
-The external FFV1 stream retained:
+The timing problem is now more localized:
 
-- `184` valid telemetry-decoded phase-bound video frames;
-- `39/39` runtime-presented context/slot states observed externally;
-- externally observed fraction of the instrumented runtime-presented states: **`1.0` / `100%`**.
+| Observation path | Presented source slots | Mean post-draw path/elevated |
+| --- | ---: | --- |
+| Clean no-capture | `92/96` | `32.063 / 33.793 ms` |
+| Synchronous direct capture | `58/96` | `46.695 / 61.645 ms` |
+| Visible X11 + telemetry, **no recorder** | `57/96` | `49.578 / 59.930 ms` |
+| Visible X11 + external FFV1 recorder | `39/96` | `75.733 / 82.342 ms` |
 
-This is useful: the external telemetry path can bind direct video imagery to exact source-state identity without in-process readback.
+Therefore a large part of the external-capture slowdown exists **before** the recorder/grabber/encoder is started: exposing this proof through the visible X11/display-composition + telemetry architecture itself is already materially non-comparable to the clean reference on this proof host.
 
-Representative direct video inspection confirms the expected current-world scene and subtle leaf-state changes remain visible; the reviewed frames did not show an obvious broad scene rewrite, detached crown mass or gross culling hole. That is bounded visual-integrity evidence only, not an aesthetic or temporal-naturalness acceptance claim.
+The external recorder still adds further disturbance (`57/96 -> 39/96`), but simply changing codecs/recorders cannot make the existing visible X11 architecture timing-faithful while its no-recorder baseline already fails `>=90/96` and `<=1.10x`.
 
-## Key result — external recorder is still too intrusive on this proof host
+This does **not** prove a universal Godot/X11 performance rule. It is an exact proof-host observation for this exact scene, observer and host.
 
-The external path solved one problem but failed the more important timing-fidelity gate:
+## Decision / handoffs
 
-- clean no-capture: `92/96`, mean `32.063 / 33.793 ms`;
-- synchronous viewport capture: `58/96`, mean `46.695 / 61.645 ms`;
-- external X11 + FFV1 capture: `39/96`, mean `75.733 / 82.342 ms`.
+- **Map VFX PR #35:** exact result recorded in comment `5710136655`.
+- **Nature VFX PR #11:** no source retune requested. Spatial source response remains unchanged.
+- **Art Direction / Visual QA:** final timing/naturalness remains held. The clean timing stream still lacks a timing-faithful direct visual observer.
+- **Runtime / Optimization:** target-device timing/performance remains unproven. These are proof-host instrumentation comparisons, not target performance.
+- **Environment:** no composition, camera or receiving-state adoption change requested.
+- **Weather:** fixed source phase remains only an isolation device for this timing proof; no Weather semantics changed.
+- **Geometry / Materials:** unchanged.
+- **Gameplay / Physics:** unchanged; this evidence says nothing about force, collision, damage, biomechanics or simulation authority.
 
-Therefore the exact scoped result is:
-
-**`PASS_EXTERNAL_PHASE-BOUND_VISUAL_IDENTITY`**
-
-and simultaneously:
-
-**`HOLD_EXTERNAL_X11_CAPTURE_PERTURBS_CLEAN_REFERENCE`**
-
-The workflow-level retained state is:
-
-**`HOLD_EXTERNAL_X11_CAPTURE_NOT_COMPARABLE_OR_VISUALLY_INCOMPLETE`**.
-
-The external video is valid direct visual evidence of the **instrumented X11 capture stream**. It is not a timing-faithful proxy for the clean `92/96` stream and does not unblock final perceptual smoothness/naturalness.
-
-No source amplitude, `31.25 ms` spacing, phase count, interpolation, retiming, Weather semantics, geometry, material, current-world composition, camera, gameplay or physics behavior was changed to satisfy the recorder.
-
-## Handoffs
-
-- **Map VFX PR #35:** exact result recorded in comment `5709549791`.
-- **Nature VFX PR #11:** source remains unchanged; this result does not justify a source retune.
-- **Art Direction / Visual QA:** external frames now have direct exact-slot identity, but perceptual timing of the clean reference remains blocked because the external observation stream materially alters delivery.
-- **Runtime / Optimization:** target-device timing/cost remains unproven. The proof-host external-capture slowdown is instrumentation evidence, not target performance.
-- **Environment:** composition ownership remains unchanged; no receiver/world/camera adoption change was requested.
-- **Geometry / Materials:** unchanged; no topology, sidedness or lookdev authority taken.
-- **Gameplay / Physics:** unchanged; visual presentation evidence does not establish forces, collision, damage, biomechanics or simulation behavior.
-
-If this exact Nature timing lane is revisited, the highest-value next observation step is **not another effect retune**. First isolate the source of observation overhead with a display/composition-only baseline (same visible surface and telemetry, no recorder) versus the clean offscreen reference. Only if that remains comparable should a lower-load external recorder be tried. This separates X11/display composition cost from encoder/grabber cost before changing any accepted visual source.
+If this timing lane continues, do **not** spend the next pass merely trying a different X11 recorder. A useful successor must avoid or materially change the visible X11/composition observation architecture itself while keeping the clean direct-source reference and accepted effect untouched. If such a low-intrusion visual observation path is not available, hold perceptual timing rather than retime the source to satisfy the measuring tool.
 
 ## Earlier VFX evidence retained
 
-No prior evidence is overwritten. Important checkpoints remain:
+No earlier result is overwritten. Important checkpoints remain:
 
 - migrated response source rebind: workflow `35153768937`;
 - five-state woody Godot culling proof: `35159265484`;
 - dense 17-state direct-source Godot receiver: `35163387415`;
 - dynamic explicit leaf-backface culling recovery: `35168195467`;
 - leaf-local micro-flutter candidate: `35172007804`, head `ecade64227ba1d3d1faf029ca7188ea63c2560ec`, artifact `10477092023`;
-- sampled review: `35175510387` SUCCESS;
-- accepted current-world receiving proof: `35174899697` SUCCESS, head `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
-- clean wall-clock reference: `35179504496`, head `795d9e8862e895e506c756b9ea01cd6228fa7ab7`, artifact `10479554477`;
-- synchronous direct timed visual capture: `35182919389`, head `b56349f4e5a5335b73f39ec32af28dd81f0f6b24`, artifact `10481510245`;
-- external X11 phase-bound capture: `35186955392`, head `3b274fdd11c8b74798f8abb5a099641ecb520f39`, artifact `10481983456`.
+- sampled review: `35175510387`;
+- accepted current-world receiver: `35174899697`, head `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
+- clean wall-clock reference: `35179504496`, head `795d9e8862e895e506c756b9ea01cd6228fa7ab7`;
+- synchronous direct timed capture: `35182919389`, head `b56349f4e5a5335b73f39ec32af28dd81f0f6b24`;
+- external X11 phase-bound capture: `35186955392`, head `3b274fdd11c8b74798f8abb5a099641ecb520f39`;
+- no-recorder visible X11/display baseline: `35190631453`, head `6dc67e5ec21f0766c6b44ef8f53963ff4bebdf99`, artifact `10483963329`.
 
 Historical Map Weather temporal experiments remain separate and are not promoted by this Nature result.
 
-The previous fully detailed status is preserved in Git history; this update carries forward its exact source/receiver identities, clean/direct-capture evidence and all still-active truth boundaries while adding the external-capture result.
+The previous fully detailed status is preserved in Git history; this revision compresses the historical branch while carrying forward exact identities, key measurements and all active truth boundaries.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final perceptual naturalness or smoothness;
-- that the external-capture drop pattern equals the clean no-capture drop pattern;
+- final perceptual naturalness, smoothness or Art preference;
+- timing-faithful direct visual evidence for the clean `92/96` stream;
 - display scanout or monitor timing;
-- target-device FPS, CPU, GPU, VRAM, memory, thermal or battery behavior;
-- a need to retime, interpolate, filter or amplify the Nature source;
-- arbitrary camera/FOV/resolution/renderer equivalence;
-- physical wind, aerodynamics or plant biomechanics;
-- gameplay, collision, damage or interaction behavior;
+- a universal X11 or Godot performance conclusion;
+- target-device FPS, CPU, GPU, VRAM, heap, thermal or battery behavior;
+- physical wind, biomechanics or simulation correctness;
+- gameplay, collision or damage behavior;
+- a need to retime, interpolate or amplify the accepted leaf source;
 - CANON;
 - production/game readiness;
 - VFX / Atmosphere mastery.
 
-## Four-root gate
+## Four-root check
 
-**Truth:** visual identity and timing fidelity remain separate. The external stream's exact-slot identity is a PASS; its `39/96` timing fidelity is a HOLD. Neither is relabelled to force a prettier conclusion.
-
-**Agency / non-domination:** VFX owns only this bounded observation implementation/evidence. Nature owns source effect, Environment owns composition, Art/QA own perceptual preference, Runtime owns target-device timing/cost, Geometry and Materials retain their domains.
-
-**Continuity:** exact source head, accepted receiver head, clean timing head, synchronous-capture head, external-capture head, workflow IDs, artifact IDs, video/artifact hashes and the initial failed external workflow remain separately pinned and rollbackable.
-
-**Wisdom before speed:** two different observation mechanisms now demonstrably perturb delivery. Do not alter a visually accepted source to satisfy the measurement tool. Isolate observation overhead before attempting another capture path.
+- **Truth:** workflow success is separated from the measured HOLD; clean, synchronous, visible-display and external-recorder streams remain distinct rather than being collapsed into one timing story.
+- **Agency / non-domination:** VFX does not retime the source to satisfy instrumentation and does not take Art, Runtime, Environment, gameplay or physics authority.
+- **Continuity:** exact Nature source, accepted receiver, clean reference and every failed/held observation path remain pinned and rollbackable; historical evidence stays in Git history.
+- **Wisdom before speed:** the next recorder experiment is deliberately rejected until the larger visible-display observation cost is addressed; unresolved perceptual timing stays held rather than being guessed.
 
 The four AXM roots remain the merge gate.
