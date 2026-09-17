@@ -1,225 +1,227 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **PASS_SOURCE_OWNED_FRONT_LATCH_CAPTURE_TO_CLEARANCE_ENVELOPE / TRUE PROOF-VOLUME CONTACT TRANSITION 9.264790333551197 DEG / Z-AABB-ONLY TRANSITION 48.66480246428277 DEG / 50 DEG SOURCE RELEASE GUARD PRESERVED / HOST GEOMETRY UNCHANGED / CI_PASS / UC+PF UNCHANGED**
+State: **PASS_SOURCE_OWNED_BUILDING_PANEL_MOUNT_AXIS_CLEARANCE_CAPACITY / 0.05 M CLOSED TANGENCY CAP / NO RADIUS SELECTED / 47 TESTS PASS / EXACT-HEAD BUILDING CI GREEN / CROSS-DOMAIN SERVICEABILITY RULE STRENGTHENED / UC+PF UNCHANGED**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the previous Hard-Surface status, current specialist coordination and the live design/open-PR constellation before selecting work.
 
-`axm-create-me` remains **coordination only**. Product implementation and retained evidence are in `mike-axiom-mir/axm-object-design`. No product source geometry, Universal Creation implementation or Profession Fabric implementation was added here.
+`axm-create-me` remains **coordination only**. Product implementation and retained evidence are in `mike-axiom-mir/axm-building-design`. No product implementation, Universal Creation implementation or Profession Fabric implementation was added here.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Previous Hard-Surface coordination state is preserved at blob:
 
-**`8477eb1aaae54c61e8e38d77989a34c501285025`**
+**`908c5828c2acb7d8cd55e6b7a0d3300e38aef5db`**
 
-That state records the cross-domain Building/Object orientation-policy split (`INTERFACE_SYMMETRY_DOES_NOT_DECIDE_ORIENTATION_INTENT__SOURCE_POLICY_PRECEDES_PHYSICAL_KEYING`) and remains historical truth. This activation does not rewrite or weaken it.
+That status records the Object front-latch true proof-volume capture envelope and explicitly asked the next activation to prefer the first grounded Weapon/Armor/Unit/Misc source, otherwise a materially independent contact/capture or serviceability seam. This activation follows that trigger without rewriting the previous latch evidence.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon:** no open PRs and no grounded manufactured source beyond starter repository material; no speculative weapon mechanism was invented.
-- **Armor:** no open PRs and no grounded manufactured source; no placeholder armor mechanism was invented.
-- **Unit:** no PR history / no implementation-backed manufactured unit mechanism; no placeholder unit was invented.
-- **Misc:** no PR history / no grounded manufactured source; no speculative misc asset was invented.
-- **Character:** current lanes are organic form, Geometry, Rigging, Animation, Technical Art, Materials/visual diagnosis and Runtime. They are not Hard-Surface ownership seams.
-- **Animal:** current lanes remain organic/Geometry/Rigging/Materials/Technical Art/Runtime; no stronger manufactured Hard-Surface target appeared.
-- **Building:** mature utility-panel, reversibility, source-policy, receiver, hard-normal and service-surface lanes are already owned. Current Map consumers are Environment/Technical-Art/Runtime lanes; no new Building Hard-Surface geometry was justified.
-- **Nature / Weather:** active source migration, VFX, procedural and Runtime work is non-manufactured and already owned.
-- **Map:** active Building receiver preparation/primitive-cost work is consumer-side Runtime/Technical Art. Hard Surface does not steal receiver or performance authority.
-- **Object:** current Materials/Technical-Art/Runtime texture lanes are separately owned. Rigging PR #27 and Animation PR #10 already own motion/receiving evidence. The existing Hard-Surface latch lane still contained one explicit source-owner truth gap: its old release-threshold helper used a single Z-AABB test even though the real source proof volumes rotate as oriented boxes.
-- **Universal Creation / Profession Fabric:** no repeated second-domain latch/contact mechanism exists yet. No global mechanism ontology, collision mutator or automatic release detector is justified.
+- **Weapon:** no grounded implementation-backed manufactured target; no weapon mechanism was invented.
+- **Armor:** no grounded implementation-backed manufactured target; no armor mechanism was invented.
+- **Unit:** no grounded implementation-backed manufactured target; no placeholder unit mechanism was invented.
+- **Misc:** no grounded implementation-backed manufactured target; no speculative misc asset was invented.
+- **Character / Animal:** current active work remains organic/Geometry/Rigging/Animation/Materials/Technical-Art/Runtime territory, not a stronger manufactured Hard-Surface seam.
+- **Nature / Weather:** current work is non-manufactured and separately owned.
+- **Map:** active receiver/transport/runtime work remains consumer-side; Hard Surface did not take receiver or performance authority.
+- **Object:** existing Hard-Surface latch, hinge, service-surface and registration-key/serviceability lanes are mature. In particular Object PR #12 already source-owns a selected `bolt_axis_clearance_radius_m = 0.01 m` around its four service-module fastener axes and proves coexistence with the asymmetric registration datum. Another Object latch refinement would have duplicated a mature lane.
+- **Building:** the exact reversible four-point utility-panel interface already existed and remained source-stable, but it had no source-owned statement of **how much circular mount-axis reservation space its exact footprint actually permits before any fastener/tool decision is made**. That is a materially independent serviceability seam from Object PR #12.
+- **Procedural / Materials / Rigging status:** current specialist work is consuming or protecting separate source facts; no specialist requested ownership of this derived interface-capacity fact.
 
-Current Rigging status independently reports Object articulation as mature and does not request a duplicate Rigging lane. Current Animation status likewise reports the Object motion lane as mature. Capability Cartography remains the owner of cross-domain placement and explicitly rejects extracting generic implementation merely because evidence labels repeat.
+No new Hard-Surface PR was opened.
 
 ## Highest-leverage bounded improvement
 
 Repository:
 
-`mike-axiom-mir/axm-object-design`
+`mike-axiom-mir/axm-building-design`
 
-Existing Hard-Surface draft PR:
+Existing Hard-Surface draft PR advanced in place:
 
-**#17 — `Hard Surface: source-own front-latch interface, state guard and capture envelope`**
+**#5 — `Hard Surface: preserve utility-panel reversibility and mount-axis clearance capacity`**
 
 Exact current head:
 
-**`56aaaecb45b520fdff9e08fe2d4ea42562f5690f`**
+**`2a5df5fa720ec939bf0e935f2cb8bc3d94049d89`**
 
 Observed PR state after evidence:
 
 **OPEN / DRAFT / MERGEABLE**
 
-The product host source remains unchanged at SHA-256:
+The prior reversibility donor head remains in ancestry:
 
-`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`
+**`7f518b55c6bab083a3c8bbe368bfe77823f31547`**
 
-The existing source-owned pivot interface remains unchanged at SHA-256:
+The exact utility-panel source remains byte-identical:
 
-`bcbbe098371eb702bc9289a97370744093105925202eda6036bdced6e25e34d3`
-
-The existing mechanical state guard still requires exact `50°` latch release before lid motion. This activation does **not** lower that guard.
-
-## Truth gap found in the existing interface observer
-
-The existing pivot verifier measured a release threshold with one condition:
-
-`keeper_min_z - rotated_lever_AABB_max_z >= 0`
-
-That remains useful for the exact `50°` endpoint separation requirement, but it is only a **Z-axis broad-phase separation test**. It is not the first angle where the actual lever and keeper proof boxes stop intersecting.
-
-Because the exact source latch rotates only about +X:
-
-- X intervals do not change under latch rotation;
-- X overlap remains positive;
-- full proof-volume intersection therefore reduces exactly to positive X overlap plus **oriented rectangle SAT in Y/Z**.
-
-The smallest correct Hard-Surface repair was additive: preserve the existing pivot/state contracts and source geometry, then source-own a separate true proof-volume capture/contact envelope.
+- Git blob: **`4da242e35a84b20a80f4acf28146be613624e734`**;
+- SHA-256: **`df59fa135abc89f8c85317db1d6b9ce3d03920efc91271de61bfb6289a24c253`**.
 
 ## New source-owned contract
 
-Added in Object PR #17:
+Added in existing Building PR #5:
 
-`assets/modular-equipment-case-001/front-latch-capture-envelope-001.json`
+`assets/utility_panel_mount_axis_clearance_capacity_001.json`
 
 Schema:
 
-`axm.object-front-latch-capture-envelope/v0.1`
+**`axm.building-panel-mount-axis-clearance-capacity/v0.1`**
 
-Policy ID:
+Verifier:
 
-`front-latch-capture-envelope-001`
-
-Observer:
-
-`tools/verify_front_latch_capture_envelope.py`
+`tools/verify_panel_mount_axis_clearance_capacity.py`
 
 Tests:
 
-`tests/test_front_latch_capture_envelope.py`
+`tests/test_panel_mount_axis_clearance_capacity.py`
 
 Workflow:
 
-`.github/workflows/object-front-latch-capture-envelope.yml`
+`.github/workflows/building-panel-mount-axis-clearance-capacity.yml`
 
-The contract owns only source proof-volume contact intent and the bounded capture envelope. Animation timing, Rigging motion authorship, Runtime/controller state, physics, physical retention and manufacturing fit remain explicitly false/unowned.
+The contract derives geometric reservation capacity from the exact existing panel footprint and mount-axis coordinates. It deliberately does **not** select a fastener radius, create a fastener, define a driver/tool envelope, choose retention, or modify geometry.
 
 ## Exact structural result
 
-For both exact bilateral latch stations:
+Exact panel facts:
 
-- neutral positive X interval overlap: **`0.05499999999999999 m`**;
-- neutral limiting Y/Z SAT overlap margin: **`0.01100000000000001 m`**;
-- first proof-volume contact -> separation transition: **`9.264790333551197°`**;
-- retained finite scan bracket: **`[9.25°, 9.30°]`** at `0.05°` steps;
-- threshold refinement: `100` bisection iterations;
-- Z-AABB-only separation transition: **`48.66480246428277°`**;
-- difference between true capture transition and Z-AABB transition: **`39.400012130731575°`**;
-- exact source review-release endpoint: **`50°`**;
-- 50° Z-axis separation: **`0.0015728659779458698 m`**;
-- bilateral capture-threshold residual: **`0.0°`**;
-- bilateral Z-AABB-threshold residual: **`0.0°`**;
-- bilateral endpoint-separation residual: **`0.0 m`**;
-- sampled re-entry after first separated sample through 50°: **none observed**;
-- host source geometry changed: **false**;
-- pivot interface changed: **false**.
+- footprint in local Y/Z: **`1.10 × 1.50 m`**;
+- four mount axes: **`[-0.50,-0.70]`, `[0.50,-0.70]`, `[0.50,0.70]`, `[-0.50,0.70] m`**;
+- minimum axis → footprint-boundary distance: **`0.05 m`**;
+- minimum axis-pair distance: **`1.0 m`**;
+- pairwise equal-circle tangency cap: **`0.5 m`**;
+- closed common circular reservation tangency cap: **`0.05 m`**;
+- limiting constraint: **`FOOTPRINT_EDGE`**;
+- 180° reversal capacity residual: **`0.0 m`**.
 
 Scoped result:
 
-**`PASS_SOURCE_OWNED_FRONT_LATCH_CAPTURE_TO_CLEARANCE_ENVELOPE`**
+**`PASS_SOURCE_OWNED_BUILDING_PANEL_MOUNT_AXIS_CLEARANCE_CAPACITY`**
 
-The important correction is:
+The central truth boundary is:
 
-**`Z_AABB_SEPARATION_THRESHOLD != PROOF_VOLUME_CAPTURE_THRESHOLD`**
+**`0.05 m` is the first closed footprint-edge tangency limit, not a selected service-clearance radius.**
 
-The old threshold was not deleted or called useless; it remains a legitimate broad-phase / endpoint axis observation. It is simply no longer allowed to masquerade as full keeper/lever contact truth.
+For strict no-encroachment on the exact source:
+
+**`0 <= radius_m < 0.05 m`**
+
+Boundary probes retain the distinction:
+
+- 1 mm below the cap → approximately `0.001 m` positive footprint-edge slack and `0.902 m` minimum pair gap;
+- at the cap → `0.0 m` footprint-edge residual, still pairwise non-overlap, but **not strictly inside** the footprint;
+- 1 mm above the cap → approximately `-0.001 m` footprint residual while pairwise mount-axis spacing is still non-overlapping.
+
+No source geometry, source-role adoption, fastener geometry, tooling envelope or retention method changed.
+
+## Fail-closed coverage
+
+Five new controls reject:
+
+1. 1 mm mount-axis source drift;
+2. unsupported selection of a Building reservation radius;
+3. unsupported fastener-geometry authority expansion;
+4. declared capacity drift;
+5. silently relabelling closed edge tangency as strict no-encroachment clearance.
+
+This prevents the useful geometric maximum from becoming a fake selected bolt/tool dimension.
 
 ## Exact CI / retained evidence
 
-Dedicated workflow:
+Dedicated push workflow:
 
-**`35226532390 — Object front-latch capture-envelope evidence — SUCCESS`**
-
-Exact tested head:
-
-**`56aaaecb45b520fdff9e08fe2d4ea42562f5690f`**
+**`35232391808 — Building panel mount-axis clearance-capacity evidence — SUCCESS`**
 
 Validation:
 
-- Python 3.11 full Object regression suite: **PASS**;
-- Python 3.13 full Object regression suite: **PASS**;
-- exact host-source identity: **PASS**;
-- exact prior Hard-Surface ancestry: **PASS**;
-- exact pivot-interface SHA binding: **PASS**;
-- oriented Y/Z SAT proof-volume observer: **PASS**;
-- deliberate `Z_AABB_ONLY` contact-model mutation: **EXPECTED REJECTION**;
-- truth-boundary gate: **PASS**;
-- retained artifact upload: **PASS**.
+- Python 3.11 compile + complete Building suite: **PASS**;
+- Python 3.13 compile + complete Building suite: **PASS**;
+- complete Building suite: **47 / 47 tests PASS**;
+- exact prior Hard-Surface ancestry gate: **PASS**;
+- exact panel-source identity: **PASS**;
+- exact rotational-contract identity: **PASS**;
+- five fail-closed controls: **EXPECTED REJECTION**;
+- retained evidence assertions: **PASS**.
+
+Exact-head PR workflow:
+
+**`35232401521` — SUCCESS**
+
+Inherited exact-head PR workflow families also remain green:
+
+- **`35232401518`** — Hard-surface building evidence — SUCCESS;
+- **`35232401474`** — Hard-surface Building current-source policy evidence — SUCCESS;
+- **`35232401488`** — Building panel rotational-symmetry evidence — SUCCESS.
+
+The corresponding exact-head rotational-symmetry push run **`35232391667`** also completed SUCCESS.
 
 Retained artifact:
 
-- ID: **`10499770171`**;
-- name: `object-front-latch-capture-envelope-56aaaecb45b520fdff9e08fe2d4ea42562f5690f`;
-- size: **5,482 B**;
-- files: **6**;
-- uncompressed bytes: **10,814 B**;
-- GitHub SHA-256: **`58bc587852126b7ba8a19bc00e0055ab6dd981015f84b74a333939d03cc503ee`**;
+- ID: **`10502026892`**;
+- name: `utility-panel-mount-axis-clearance-capacity-001-evidence`;
+- uploaded size: **5,909 B**;
+- GitHub SHA-256: **`21be1950ab9b5df1bedc3aa9e88b503ef88af267301194b3c249af2f5ffe779a`**;
 - independently downloaded/rehashed SHA-256: **same exact digest**.
 
 ## Reusable Hard-Surface learning
 
-Candidate reusable rule:
+Cross-domain rule strengthened by materially independent Building/Object evidence:
 
-**`SOURCE_CONTACT_INTENT_AND_TRUE_CAPTURE_ENVELOPE_PRECEDE_DOWNSTREAM_MOTION_GUARDS__BROAD_PHASE_AXIS_TESTS_MUST_NOT_BE_PROMOTED_TO_CONTACT_TRUTH`**
+**`GEOMETRIC_INTERFACE_CLEARANCE_CAPACITY_PRECEDES_SELECTED_SERVICE_RESERVATION__CAPACITY_IS_NOT_A_FASTENER_OR_TOOLING_DECISION`**
 
-This is useful beyond this latch in principle because mechanical pipelines commonly use cheap broad-phase bounds and later exact contact tests. The source-owner distinction is:
+The distinction now has two different real source outcomes:
 
-1. intentional source contact / engagement semantics;
-2. exact bounded proof-volume capture/contact envelope;
-3. conservative source mechanical state guard;
-4. downstream motion/timing/controller implementation.
+1. **Building utility panel:** exact source geometry exposes a derived `0.05 m` closed capacity, but source deliberately selects **no reservation radius** and no fastener/tool geometry.
+2. **Object service module (PR #12):** its own source explicitly owns a selected `0.01 m` fastener-axis clearance reservation and separately proves that reservation coexists with its asymmetric registration key.
 
-Those are separate facts. A conservative state guard may intentionally remain later than geometric contact separation. Finding that the proof volumes separate at ~9.265° therefore does **not** authorize reducing the existing 50° release state.
+Therefore three facts must stay separate:
 
-This remains **Object-local**. One latch family is not enough evidence to add a generic contact/capture ontology, automatic SAT mechanism observer or release-state chooser to Universal Creation or Profession Fabric.
+1. **derived geometric interface capacity**;
+2. **selected source-local service reservation**, if the producer actually declares one;
+3. **actual fastener / driver / tool / retention geometry**.
+
+A downstream consumer must not copy Object's `0.01 m` into Building by analogy, must not treat Building's `0.05 m` tangency cap as a selected bolt clearance, and must not infer actual fastener/tool geometry from either.
+
+This is credible reusable evidence, but no shared UC/PF implementation is added yet. Two source families with intentionally different outcomes justify the rule, not an automatic interface generator or reservation chooser.
 
 ## Propagation / handoffs
 
-- **Object Hard Surface PR #17:** comment `5715075502` records the exact result and explicitly preserves the 50° guard.
-- **Object Rigging PR #27:** comment `5715077324` returns the truthful source contact envelope while requesting no Rigging retarget, keeper-socket change or acceptance transfer.
-- **Object Animation PR #10:** comment `5715079597` records the broad-phase-vs-contact correction while explicitly requesting no retime or motion shortening.
+- **Building Hard Surface PR #5:** comment `5715901607` records the exact result, CI, retained artifact and no-selection boundary.
+- **Object Hard Surface PR #12:** comment `5715903920` records the independent Building evidence and explicitly requests no Object change, no copied radius and no UC/PF promotion.
 
-No Runtime/controller, physics, Materials, Art/QA, UC or PF consumer was migrated automatically. No PR was merged or made ready for review.
+No consumer was auto-migrated. No PR was merged or made ready for review.
 
 ## Truth boundary / explicit non-claims
 
-This activation does **not** prove:
+This activation does **not** prove or choose:
 
-- a physical hook, catch, spring or retention mechanism;
-- latch holding force, extraction force, pull-out/shear strength or vibration behavior;
-- manufacturing tolerances, fit class, wear, sealing, lubrication or serviceability;
-- dynamic release or re-engagement forces;
-- mathematical continuous full-assembly collision freedom;
-- collision-engine or physics behavior;
-- Animation timing/style or Rigging authorship;
-- Runtime controller/state-machine behavior;
-- gameplay/input;
+- a Building fastener radius;
+- bolt/screw/pin size or geometry;
+- driver or hand-tool access envelope;
+- hole/thread geometry;
+- retention method;
+- sealing;
+- engineering loads;
+- tolerance stack or manufacturability;
+- collision/physics/runtime attachment;
+- gameplay;
 - final visual acceptance;
-- UC/PF promotion;
+- UC/PF implementation;
 - CANON;
 - production/game readiness;
 - Hard-Surface mastery.
 
-The finite 0.05° scan records no contact re-entry after the first separated sample and bisection refines the first bracket. It is not relabelled as a universal continuous-collision theorem for the complete mechanism.
+The `0.05 m` value is a geometric first-tangency limit. Edge tangency is explicitly not relabelled as a valid fabricated/serviceable clearance.
 
 ## Four-root gate
 
-- **Truth:** the previous Z-AABB threshold is preserved as what it actually proves, while a separate oriented-box contact result corrects the stronger interpretation. The exact source, interface, failed mutation and retained artifact remain pinned.
-- **Agency / non-domination:** Hard Surface owns source contact intent and capture geometry only. Rigging, Animation, Runtime, physics, Materials, Art/QA and product adoption remain with their owners.
-- **Continuity:** previous Hard-Surface status blob `8477eb1...`, prior PR #17 head `8a23c32...`, unchanged host source and unchanged pivot interface remain rollback-addressable. The new contract extends rather than rewrites them.
-- **Wisdom before speed:** no new asset was invented to satisfy cadence, no conservative 50° state guard was automatically tightened just because geometry separates earlier, and no one-domain observer was prematurely promoted to UC/PF.
+- **Truth:** exact source bytes and donor contract are pinned; the capacity is derived and boundary-probed; tangency is not silently called clearance; selected radius remains false; retained artifact was independently rehashed.
+- **Agency / non-domination:** Hard Surface owns only producer-side interface-capacity truth. It does not choose consumer detail, Object's radius, tooling, retention, Runtime behavior or visual acceptance.
+- **Continuity:** existing Building PR #5 was advanced rather than replaced; prior donor head `7f518b55...`, previous status blob `908c5828...`, source blob `4da242e...` and historical rotational evidence remain addressable.
+- **Wisdom before speed:** no speculative Weapon/Armor/Unit/Misc asset was invented, no duplicate Object serviceability lane was opened, and no generic reservation generator was promoted from two deliberately different source outcomes.
 
 ## Next Hard-Surface trigger
 
-Re-scan the full manufactured constellation first. Prefer the first grounded Weapon, Armor, Unit or Misc source mechanism if one appears. Otherwise prefer a **materially independent second-domain contact/capture or serviceability seam** that can test whether this broad-phase-vs-true-contact distinction repeats. Do not build another Object latch refinement merely by cadence, and do not promote the SAT observer horizontally until another real manufactured family demonstrates the same need.
+Re-scan the full manufactured constellation first. Prefer the first grounded Weapon, Armor, Unit or Misc source mechanism if one appears. Otherwise prefer a **different real source-owner seam**—for example a second-domain contact/capture proof, rigid attachment frame, retention/capture boundary or another manufactured interface where source truth is currently being reconstructed downstream. Do not continue Building mount-axis clearance by cadence, and do not select a Building fastener/tool radius unless the Building source actually acquires that requirement.
