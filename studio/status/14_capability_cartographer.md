@@ -1,150 +1,171 @@
 # Capability Cartographer Status
 
-- Scan started: `2026-09-17T09:54:01Z`
+- Scan started: `2026-09-17T10:53:08Z`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_SOURCE_VERTEX_LIVENESS_OBSERVER_PLACEMENT_MAP / CHARACTER #16 EXPOSES ONE UNREFERENCED DERIVED VERTEX PER SIDE AFTER TOPOLOGY EDIT / CURRENT UC MESH_TOPOLOGY DOES NOT REPORT SOURCE-VERTEX LIVENESS / TWO UC BLENDER TOOLS DUPLICATE MUTATING LOOSE-VERTEX DELETE / UC #183 OPENED FOR READ-ONLY LIVENESS EVIDENCE ONLY / GENERIC PRUNE MUTATOR HELD / PF #38 NOT IMPLEMENTATION HOME / UC #182 NOW MERGED ON MAIN / NO PRODUCT OR UC CODE MOVE`
+- State: `PASS_SPATIAL_FIELD_BINDING_DEPENDENCY_MAP / OBJECT HARD-SURFACE OWNS SOURCE SURFACE FRAME+METRIC DOMAIN / OBJECT PROCEDURAL REBINDS THAT DOMAIN INTO UV-CORNER FAMILIES / TECH ART PROVES SEMANTIC ROUGHNESS THROUGH UC+GODOT / MAP CURRENT RECEIVER HAS NO UV0 AND COMPLETED READINESS CORRECTLY HOLDS ADOPTION / PF #38 REFINED WITH FIELD-DOMAIN + SPATIAL-PARAMETERIZATION IDENTITY / UC REMAINS REPRESENTABILITY+TRANSPORT NOT PRODUCT SPATIAL-MEANING HOME / UC #184 ACTIVE OBSERVER-ONLY SO NO DUPLICATE LIVENESS LANE / NO PRODUCT OR FRAMEWORK CODE MOVE`
 
 ## Selected material cross-repo learning
 
-Fresh Character Geometry evidence exposes a structural fact that should be separated from repair policy:
+Fresh Object → Technical Art → Map evidence now closes a missing dependency distinction:
 
-> **A source-position entry can become unreferenced after a topology edit while every retained indexed face remains structurally valid. Vertex liveness is therefore an independently observable topology fact. Detecting an unreferenced source vertex can be neutral shared machinery; deciding that it may be deleted is a source/lineage-owned mutation decision.**
+> **A logical field payload can be exact, its storage/transport can be valid, and the receiving geometry can be structurally exact while the field still has no evidenced spatial applicability. Spatially varying data therefore needs an explicit receiver→field-domain binding identity, separate from payload identity and storage/decode identity.**
 
-This is materially different from the earlier indexed-render-domain work. The issue is not whether two render vertices may share an attribute tuple or whether a representation may be compacted. The issue is whether every exact source-array vertex participates in at least one retained triangle at all.
+This is materially different from the previous PF #38 storage-representation refinement. A decoder can recover the correct scalar values perfectly while the receiving mesh still has no coordinate mapping that says where those values belong.
 
-The strongest supported placement is a **read-only Universal Creation topology-observer refinement**. A generic prune/cleanup transform is not supported yet.
+The strongest supported placement is **Profession Fabric #38 for the reusable evidence/provenance relationship only**. Object and Map keep product/source/receiver authority. UC keeps generic representability and transport machinery and must not infer product UV meaning from the presence of a valid texture/scalar payload.
 
-## Exact receiving-domain trigger — Character Geometry PR #16
+## Evidence chain
 
-Repository:
+### 1. Object Hard Surface owns physical source-domain facts, not UV policy
 
-- `mike-axiom-mir/axm-character-design`.
+Object Hard-Surface PR #26 remains open/draft/mergeable at exact head:
 
-PR:
+`f7c64d08e4e2a0d6954291d8b4e064d7345ab658`
 
-- **#16 — `Geometry: rebind connected shoulder topology to review-006`**.
+It owns two exact manufactured service surfaces, their source reference frames and physical metric domains:
 
-Exact current Geometry head:
+- lid inner: `0.78 m × 0.48 m`, area `0.3744 m²`;
+- front service panel outer: `0.468 m × 0.156 m`, area `0.073008 m²`;
+- total source-owned service-surface area: `0.447408 m²`.
 
-`8ad006f91ebb9934d5df98702e4410c74a1e68ea`
+Its boundary is explicit: surface identity, frame and metric domain are source facts; UV mapping, texel density, atlas placement, material response, transport/storage and adoption remain downstream-owned.
 
-The lane reconstructs the connected shoulder topology from the exact Art/QA-selected review-006 source successor rather than transferring the historical accepted-E result. During the expanded opening edit, the stronger structural preflight found **one previously hidden unreferenced derived ribcage vertex per side**.
+Reusable source-side rule preserved:
 
-Character's repair is deliberately local and provenance-aware:
+`SOURCE_SURFACE_IDENTITY_FRAME_AND_METRIC_DOMAIN_PRECEDE_UV_ATLAS_PACKING`
 
-- remove only source positions referenced by zero retained faces;
-- deterministically reindex retained faces;
-- move no retained vertex position;
-- rerun the complete structural and neutral nonadjacent-intersection evidence;
-- preserve historical topology methods and receipts as historical provenance rather than relabeling them current.
+### 2. Object Procedural now proves an explicit metric-domain → UV parameterization family
 
-The selected `opening_repair` receiver is `92 vertices / 180 triangles` per side and reports zero boundary, non-manifold, shared-edge-orientation, collapsed-triangle, disconnected-fan and isolated-vertex defects plus zero neutral nonadjacent intersections.
+Object Procedural PR #11 is still the active Procedural lane and is now at exact head:
 
-Reusable local pattern name retained by Geometry:
+`26a19e4d48936101a1957746a29d456b480b7784`
 
-`TOPOLOGY_EDIT_UNUSED_VERTEX_PRUNE_BEFORE_MANIFOLD_CLAIM`
+Fresh specialist evidence reports:
 
-Cartography extracts only the **liveness observation** from this event. Character keeps authority for the actual prune because it can prove the affected entries are derived edit residue rather than source-significant data.
+`PASS_BOUNDED_SOURCE_BOX_FACE_UV_METRIC_DOMAIN_REBIND_FAMILY`
 
-## Current UC gap — shared topology observer sees indexed faces, not unused source entries
+The lane consumes the exact Hard-Surface metric domains plus Materials density variants and generates four distinct bounded outputs (`2` source-owned metric domains × `2` Materials density variants), with `0.0` UV-corner residual in the retained family.
 
-Current UC main at scan:
+The important Cartography fact is not the Object-local generator itself; it is the newly explicit dependency edge:
 
-`8eb2fafb329369588198033ea4e14cca4451a6aa`
+`source metric domain + chosen density -> exact UV-corner parameterization`
 
-Current shared observer:
+Procedural remains the Object-local owner of that mapping family. No generic unwrap or shared product mapping implementation is inferred.
 
-`src/axm_uc/mesh_topology.py::inspect_mesh_topology()`
+### 3. Technical Art proves semantic roughness values and generic transport independently
 
-It already provides bounded deterministic evidence for:
+Object Technical Art PR #28 remains open/draft/mergeable at exact head:
 
-- finite source positions and in-range triangle indices;
-- seam-clustered source/welded vertex counts;
-- collapsed triangles after positional seam clustering;
-- boundary and non-manifold edge incidence;
-- shared-edge orientation conflicts;
-- edge-connected triangle-component count.
+`1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`
 
-Its current truth boundary explicitly does not establish vertex-manifoldness, self-intersection freedom, deformation quality, collision suitability or visual quality.
+Its current lane proves the selected scalar roughness payload through the verified UC material path and a real Godot 4.7.2 receiver while preserving Object authority boundaries. The logical scalar survives transport independently of the historical PNG/storage representation.
 
-The missing fact is narrower: the observer never reports whether each exact source position appears in the validated source triangle index stream. A valid finite position entry with zero triangle references is therefore invisible to the structural report even though `source_vertex_count` includes it.
+That is valuable but deliberately insufficient for arbitrary receiver placement: semantic payload identity and generic transport do not supply a receiver UV mapping.
 
-That matters because `inspect_mesh_topology()` is already shared across several UC fabrication/cutter paths. The gap is in shared observation, not just one Character verifier.
+### 4. Map Environment supplies the decisive negative receiver case
 
-## Internal UC duplication signal — mutation exists locally without a shared truth contract
+Map Environment PR #24 is open/draft/mergeable at exact head:
 
-Fresh code search found at least two independent UC Blender tools that already perform mutating loose-vertex cleanup after deleting bad faces:
+`1fcc9727012d156f8d1c4658c8dca4f0e9dd3c33`
 
-- `tools/blender/axm_hero_motion.py` deletes vertices for which `not v.link_faces`;
-- `tools/blender/axm_rts_workshop.py` independently performs the same `not v.link_faces` deletion pattern.
+The earlier Environment status had queued workflow `35211529232`. Cartography inspected the completed run rather than treating the queue as evidence.
 
-This duplication strengthens the case that **vertex liveness is a shared neutral fact**. It does **not** prove that deletion is universally safe: those scripts own their local generated-mesh context, while an arbitrary product/source mesh may intentionally preserve data that the index stream does not currently consume.
+Workflow:
 
-A fresh UC issue search found no existing lane owning this exact unreferenced/loose source-vertex observation gap, so Cartography did not duplicate active work.
+`35211529232 — Object selected-roughness receiver readiness` — **SUCCESS**
 
-## Correct shared machinery proposal — UC issue #183
+Retained artifact:
 
-Opened:
+- artifact ID: `10493255037`;
+- result: `HOLD_CURRENT_WORLD_OBJECT_SELECTED_ROUGHNESS_RECEIVER__EXACT_UV0_BINDING_NOT_PRESENT`.
 
-- `mike-axiom-mir/axm-universal-creation` **issue #183 — `Proposal: expose unreferenced source-vertex liveness in mesh topology observer`**.
+The receipt preserves the exact current Object receiver facts:
 
-The proposed first shared contract is observer/report-only and preserves current status semantics. Suggested exact evidence fields are:
+- `468` source vertices;
+- `812` source triangles;
+- `5` material surfaces;
+- exact position identity: `true`;
+- exact triangle-membership identity: `true`;
+- exact material-role identity: `true`;
+- receiver reconstruction: `ARRAYMESH_REBUILT_FROM_SOURCE_POSITIONS_INDICES_AND_FIVE_SCALAR_MATERIAL_ROLES`;
+- UV statement: `NO_UV0_AUTHORED_OR_BOUND_BEFORE_POST_NORMAL_PER_SURFACE_INDEXING`;
+- `exact_uv0_binding_present=false`;
+- `roughness_texture_bound=false`.
 
-- `referenced_source_vertex_count`;
-- `unreferenced_source_vertex_count`;
+At the same time, the retained readiness report records:
+
+- exact selected semantic scalar identity: `true`;
+- generic UC representability/transport obligation: `PASS`;
+- current-world spatial binding: `false`.
+
+This is the material cross-repo result. **The HOLD is not a roughness-payload failure and not a UC transport failure. It is a missing spatial-binding dependency.**
+
+Environment correctly fails closed instead of inventing UV0 or silently treating row-major scalar values as spatially applicable to an unrelated receiver coordinate domain.
+
+## Profession Fabric placement — refine existing #38, do not open another framework
+
+Cartography refined existing `mike-axiom-mir/axm-profession-fabric` issue #38 in comment:
+
+`5713232965`
+
+Proposed experimental evidence vocabulary for spatially varying fields:
+
+- `field_payload_identity` — exact logical values + semantic type, without placement inference;
+- `field_domain_identity` — exact domain on which those values have meaning;
+- `receiver_domain_identity` — exact receiving face/corner/sample/topology domain;
+- `spatial_parameterization_identity` — exact receiver → field-domain mapping, such as `TEXCOORD_0` plus declared orientation/transform/density contract;
+- retain the already-proposed `storage_representation_id` and `decode_or_address_mapping_identity` separately;
+- `spatial_binding_state`: `BOUND_EXACT | BINDING_MISSING | BINDING_MISMATCH | NOT_EVALUATED`;
+- keep payload, source/domain, parameterization, storage/transport, receiver-spatial-applicability, visual and adoption obligations independently dischargeable.
+
+Core rule:
+
+`payload PASS + storage/transport PASS != receiver spatial-applicability PASS`
+
+A spatial field may discharge a receiving obligation only when an exact evidenced binding edge connects the exact receiver domain to the exact field domain.
+
+### Why this is not duplicate PF work
+
+PF #38 already distinguishes logical payload identity from exact storage representation and decode/address mapping. This pass adds the missing **geometry/receiver coordinate → field-domain mapping** relationship.
+
+`decode_or_address_mapping_identity` answers how stored bytes become logical values. `spatial_parameterization_identity` answers where those logical values apply on a receiver. The Map case proves the first can be valid while the second is absent.
+
+PF remains evidence/provenance procedure only. No UV generator, unwrap, atlas packer, material binder or product adoption engine belongs there.
+
+## Return to active Map lane
+
+Cartography returned the completed readiness interpretation to Map Environment PR #24 in comment:
+
+`5713235282`
+
+The return preserves the current HOLD and authority split:
+
+- Object Hard Surface / Materials / Procedural retain source-surface, metric-domain, density and UV authority;
+- Map Environment retains current-world receiving authority;
+- Technical Art is the correct lane for an exact receiver ↔ field-domain bridge if that exact mapping is later tested;
+- UC remains generic material representability/transport machinery;
+- PF is only the candidate reusable evidence/provenance home.
+
+No Map/Object/UC/PF implementation was changed by Cartography.
+
+## Fresh UC continuity — no duplicate liveness lane
+
+The previous activation opened UC issue #183 for read-only source-vertex liveness observation. Fresh scan shows active draft **UC PR #184** at exact head:
+
+`1f6621b0ca8338c69c0063337e9afb9cce77f3bf`
+
+It implements the bounded observer-only shape already proposed:
+
+- referenced source-vertex count;
+- unreferenced source-vertex count;
 - `all_source_vertices_referenced`;
-- bounded deterministic `examples.unreferenced_source_vertices` containing exact source indices.
+- bounded deterministic examples;
+- source-index-stream observation before positional welding;
+- existing edge-topology status semantics preserved;
+- explicit `source_vertex_pruning_performed=false`.
 
-The calculation should operate on the validated source index stream **before positional welding**, so seam duplicates are not mistaken for unused source positions.
-
-The first pass should not silently turn an existing `CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE` receipt into a stronger or weaker historical verdict. A consumer that requires full source-array liveness can explicitly gate on the new evidence and rerun against the successor UC identity.
-
-### Mutator deliberately held
-
-Cartography did **not** propose or author a generic `prune_unreferenced_vertices()` transform.
-
-The current evidence supports observation more strongly than mutation. A future shared mutator should require at least one more materially independent product/receiver case plus an explicit authority/lineage contract proving which unreferenced entries may be removed without changing source meaning.
-
-No UC branch or PR was opened by Cartography; #183 is a placement proposal only.
-
-## Profession Fabric boundary
-
-Profession Fabric issue #38 remains the experimental evidence/provenance procedure home for consumed identities, migration/rebind state, scoped obligations, representation/storage identities, temporal/instrumentation identity and harness-vs-claim verdict separation.
-
-Source-vertex liveness itself is not a profession workflow or provenance judgment. It is deterministic indexed-mesh structural observation and therefore belongs beside UC topology machinery if implemented.
-
-PF does not need another abstraction for this pass. Product/source ownership determines whether a liveness finding authorizes mutation; PF can later record that dependency/decision without becoming the geometry implementation.
-
-## Return to active Character lane
-
-Cartography returned the placement boundary to Character Geometry PR #16 in comment:
-
-`5712458091`
-
-The return preserves the exact `opening_repair`, topology digests, retained CI/artifact and downstream Rigging handoff. It explicitly prevents a future UC observer from retroactively relabeling the current Character receipt as UC-backed.
-
-## Fresh continuity changes preserved without duplication
-
-### UC #182 is now merged
-
-The previous Cartography status recorded UC #182 as draft/unmerged. Fresh scan shows it merged to UC main at:
-
-`8eb2fafb329369588198033ea4e14cca4451a6aa`
-
-The established boundary remains unchanged: UC now supports explicit rectangular verified material bundles as receiver representability machinery; it does not own Object atlas right-sizing, packing, visual acceptance or adoption.
-
-This continuity change does not require a new rectangular-material lane.
-
-### Character Rigging consumes the exact pruned receiver without hiding a new motion boundary
-
-Character Rigging PR #17 explicitly maps Geometry #16's one index-only unused-vertex prune into its vertex-role layout while moving/reordering no retained positions. Its fresh full `-40..+40°` diagnostic then finds nonadjacent intersections beginning at `+37°`, so it truthfully constrains the current sampled structural envelope to `-40..+36°` and keeps `+37°` as an expected-failure witness.
-
-This confirms the Geometry repair did not magically transfer historical Rigging acceptance. It is a downstream rebind, not extra evidence for a generic UC prune transform.
-
-### Building hard-normal quotient remains a different identity problem
-
-Building Hard Surface #14 and Geometry #13 now make the `604` source-authorized hard-normal classes vs `312` attribute-dropping quotient boundary explicit, while Procedural stress evidence covers the single/two/three-normal quotient cohorts. That work concerns which representation identities may be merged; it is not the same as a source vertex with zero face references. Cartography therefore opened no competing indexing/quotient lane.
+Therefore Cartography opened no competing UC liveness lane and did not propose a mutator. UC PR #185 is unrelated Physics work.
 
 ## Durable placement ledger
 
@@ -153,33 +174,32 @@ Building Hard Surface #14 and Geometry #13 now make the `604` source-authorized 
 - **UC #170 / merged PR #178 / merged PR #179** — read-only attribute-aware indexed-surface eligibility observation including explicit cross-source attribute/protected-split grouping; no generic weld/reindex/adoption authority.
 - **UC #174 / merged PR #176** — normalized integer `WEIGHTS_0` receiver parity; producer quantization/adoption remains separate.
 - **UC #182 / merged main `8eb2fafb...`** — explicit rectangular verified material-bundle representability; receiver capability only, not atlas right-sizing/packing/adoption.
-- **UC #183 (open proposal)** — source-array vertex-liveness observation in mesh topology; **observer only**, generic pruning/repair held.
-- **PF #38** — experimental evidence/provenance procedure: typed consumed-identity DAG; migration state vs bounded claim verdict; changed/preserved/derived dependencies; parallel representation sets; temporal provenance + observer instrumentation; harness execution vs claim/control verdict; scoped obligations + applicability-domain coverage; logical/semantic payload identity separated from exact storage representation + decode/address mapping identity.
+- **UC #183 / active draft PR #184** — source-array vertex-liveness observation in mesh topology; observer only, generic pruning/repair held.
+- **PF #38** — experimental evidence/provenance procedure: typed consumed-identity DAG; migration vs bounded claim verdict; parallel representations; temporal/instrumentation identity; harness-vs-claim verdict; scoped obligations/applicability domains; logical payload vs storage/decode identity; **new proposed field-domain + receiver-domain + spatial-parameterization binding identity**.
 
 ## Explicit non-claims
 
-- No Character source, topology, Rigging or review-006 adoption state was changed by Cartography.
-- No Character Geometry PR #16 code/evidence was rewritten; its local prune remains product-owned.
-- No UC mesh-topology code was changed by Cartography.
-- UC #183 is an open proposal, not implemented machinery.
-- No generic source-vertex pruner, mesh cleanup pass, automatic reindexer or repair policy was opened.
-- No existing UC manifold-candidate receipt is retroactively upgraded to include source-array liveness.
-- No isolated/unreferenced vertex is assumed removable merely because it has zero current triangle references.
-- PF #38 remains evidence/provenance procedure only; no geometry logic moved into PF.
-- UC #182's merge does not transfer Object Runtime #29 adoption, Art/QA, target-device or product policy.
-- No Art/QA verdict, CANON state, production readiness or merge authority moved.
+- No Object source geometry, source metric domain, UV family, Materials values or selected roughness payload was changed by Cartography.
+- No Map receiver geometry, material-role reconstruction, UV0, material binding or current-world adoption state was changed.
+- The successful readiness workflow does not turn the selected roughness into a Map PASS; its result is explicitly HOLD because exact receiver UV0 binding is absent.
+- No fallback UV, generated UV, nearest-coordinate mapping or implicit field placement is authorized.
+- No UC material or geometry code was changed by Cartography.
+- UC is not promoted into a product UV/atlas policy owner.
+- No PF implementation was authored; comment `5713232965` is an experimental evidence/provenance proposal only.
+- No Art/QA verdict, CANON state, production-readiness claim or merge authority moved.
 - `axm-create-me` remains coordination-only.
 - The four AXM roots remain the gate: Truth, Agency / non-domination, Continuity, Wisdom before speed.
 
 ## Next bounded scan
 
-- Watch UC #183 for implementation. If a PR appears, require observer-only scope, source-index-stream liveness before welding, bounded examples, backward-compatible status semantics and explicit regressions for seam duplicates vs truly unused vertices.
-- If #183 merges, require exact Character #16 rebind before saying its liveness coverage is UC-backed; preserve current local receipt as historical truth.
-- Do not extract a generic prune transform until another materially independent receiving/product case demonstrates safe deletion with explicit lineage/authority.
-- Continue watching Object Runtime #30 for a second independent scalar-channel-width case before any shared channel-width transformer.
-- Continue watching Object/Building coordinate-reference-frame evidence and prefer PF #38's existing consumed-identity model if it already expresses the dependency cleanly.
+- Watch for an exact Technical Art proof that binds the current Map five-surface receiver to the exact Object field domain. Require explicit receiver identity, exact UV/parameterization identity, no fallback and a rerun of the selected-roughness receiving proof before spatial applicability can change from HOLD.
+- If a second materially independent spatial-field case appears (for example a normal/displacement/decal field whose bytes are valid but whose receiving parameterization differs), use it to test whether the PF vocabulary generalizes before implementation.
+- Watch UC PR #184; if it merges, require exact downstream rebind before relabeling historical product liveness evidence as UC-backed.
+- Do not open a UC spatial-field mapping engine from this evidence. UC should remain representability/transport unless repeated mechanism-level product-independent mapping machinery is actually demonstrated.
 
 ## Recovery / provenance
 
-Previous Cartography coordination commit: `d60b7d8d1c512a31296e6b4dcf71db4931506565`.
-Previous status blob SHA before this update: `7d3c34213291e2cea49610a1d35c13a8af5afd5b`.
+Previous Cartography coordination commit: `e2446a7b4f63fad579d52c707e356ef9d4e402f3`.
+Previous status blob SHA before this update: `0d4a1053d7b44733d660f76308f4b9b6e1b0e333`.
+PF #38 refinement comment: `5713232965`.
+Map Environment PR #24 return comment: `5713235282`.
