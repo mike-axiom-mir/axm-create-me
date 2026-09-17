@@ -1,145 +1,147 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-17
-State: **PASS_EXACT_RUNTIME_U16_WEIGHT_CANDIDATE_TO_BOUNDED_UC_RECEIVER / UC_PR_176_DRAFT / ANIMAL_TECH_ART_PR_3_DRAFT / PRODUCER_WEIGHT_WIDTH_ADOPTION_STILL_HELD / VISUAL_QA_HOLD_PRESERVED / DEFORMED_DIRECTION_FRAME_HOLD_PRESERVED**
+State: **PASS_EXACT_RUNTIME_U16_WEIGHT_CANDIDATE_TO_MERGED_UC_MAIN_RECEIVER / UC_PR_176_MERGED / ANIMAL_TECH_ART_PR_3_DRAFT / PRODUCER_WEIGHT_WIDTH_ADOPTION_STILL_HELD / VISUAL_QA_HOLD_PRESERVED / DEFORMED_DIRECTION_FRAME_HOLD_PRESERVED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, the live Animal design constellation, current `axm-universal-creation`, Runtime PR #27, Capability Cartographer's UC receiver finding, and the existing Animal Technical Art lane before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current Technical Art status, the newest Animal / Building / Nature / Map specialist state, current `axm-universal-creation`, and the existing Animal Technical Art lane before selecting work.
 
 `axm-create-me` remains **coordination only**. No product implementation or retained execution artifact was placed here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The previous Technical Art result remains true at Animal Technical Art head `54c9c11505e798a56619ebc14e9ab41f522eef70`: the real producer now emits `JOINTS_0` using the smallest legal glTF unsigned width for the exact joint domain, and the known deformed normal/tangent direction-frame HOLD remains active.
+The strongest new Technical-Art boundary was not a new domain exporter. Since the previous activation, UC PR #176 — the bounded normalized skin-weight receiver repair already proven against Animal Runtime #27 — was merged into UC main.
 
-The strongest new cross-repo gap came from two fresh, non-overlapping specialist findings:
+That creates a continuity obligation: the exact Animal regression proof was still pinned to the former draft PR head. A draft-head PASS must not be silently relabelled as merged-main evidence.
 
-- Runtime PR #27, exact head **`e7874c4a8dca1db48bc66f3546c2134f7d724456`**, measured a bounded normalized-u16 `WEIGHTS_0` candidate from the exact current Technical Art producer. It reduced the weight payload from `1,344 B` FLOAT32 to `672 B` normalized u16 and the GLB from `10,948 B` to `10,296 B`, while preserving every non-WEIGHTS accessor payload. Godot 4.7.2 imported both and retained zero pose-receipt delta, but two fixed views changed **224 pixels total / max 1 LSB**, so visual acceptance remains held.
-- Capability Cartographer opened UC issue #174 after finding that UC's Python `game_pose_runtime` already accepts normalized integer skin weights correctly, while the shared JavaScript `rigged-gltf-codec.js` still rejected the same legal representation with `WEIGHTS_0 accessor invalid`.
+Other fresh surfaces were inspected and deliberately not duplicated:
 
-No existing UC implementation PR owned that receiver mismatch. The gap was therefore generic UC receiver consistency, not Animal domain semantics and not a duplicate specialist lane.
+- Building Geometry #8 / Hard-Surface #9 now expose a source-owned compact receiving option (`1004v / 2052t`) and Runtime #10 measures a real payload / proof-host reduction, but Materials / Art / Environment receiving selection remains held and no automatic compact representation should be chosen by Technical Art or UC.
+- Nature / Map current-world leaf flutter has sampled visual-integration evidence, while real wall-clock timing, final shaded backface response and target-device evidence remain with VFX / Art / QA / Runtime rather than Technical Art.
+- Animal still retains the independent transported deformed normal/tangent direction-frame HOLD; the normalized-weight receiver repair does not change it.
+
+No duplicate Technical Art PR, UC implementation lane, Building transport lane, Runtime lane or Art/QA lane was opened.
 
 ## Selected bounded gap
 
 Question:
 
-> Can UC's two neutral rigged-glTF receivers share the same fail-closed normalized skin-weight contract, and can the exact Runtime #27 Animal candidate then traverse that repaired receiver without granting producer adoption or visual acceptance?
+> Does the exact Runtime #27 normalized-u16 Animal candidate traverse the **merged UC main** receiver with the same bounded semantics proven on PR #176, while the historical pre-repair receiver still fails closed and all producer / visual / deformation holds remain explicit?
 
-This is a reusable **receiver semantics** repair only. Runtime keeps the quantizer and measured storage tradeoff; Technical Art keeps producer adoption authority; Art Direction / Visual QA keep appearance acceptance; Rigging keeps deformation authority.
+This is a cross-repo **merge-continuity rebind**, not a new Animal format policy and not a new UC feature.
 
-## Universal Creation repair
+## Current Universal Creation identity
 
-Current UC main before repair:
+UC PR #176 is now **MERGED**.
 
-**`e768b4810bfa9da09c9b927bb719c363e0494612`**
+- source PR: **#176 — `Align normalized skin-weight acceptance across rigged glTF receivers`**;
+- exact source PR head: **`fbb75738210c676d4d76398bd3c3deb9a6dde920`**;
+- exact UC main merge commit: **`9332e3455092cf8b0011fd69607d99a1e82a2dc8`**;
+- merged shared codec blob: **`02b69b6c7368ba6e34f226ca545293d26d208922`**;
+- historical pre-repair UC: **`e768b4810bfa9da09c9b927bb719c363e0494612`**;
+- historical codec blob: **`b1f2e68bb6c6800af5496decc95a8044d141edc9`**.
 
-Historical shared JavaScript codec blob:
+A direct commit comparison shows the merge commit is one commit ahead of PR head `fbb75738...` with **no file delta**, so the exact repaired codec identity carried into main unchanged. No additional UC product edit was justified in this activation.
 
-**`b1f2e68bb6c6800af5496decc95a8044d141edc9`**
+## Smallest reusable Technical Art repair
 
-Existing Python `game_pose_runtime` already supported:
+The existing Animal Technical Art PR #3 was advanced rather than opening another lane.
 
-- FLOAT `WEIGHTS_0` when not normalized;
-- normalized `UNSIGNED_BYTE / 5121`;
-- normalized `UNSIGNED_SHORT / 5123`;
-- semantic integer normalization before weight validation;
-- rejection of normalized FLOAT and non-normalized integer weight encodings.
+Exact current Technical Art head:
 
-The JavaScript receiver was the inconsistent side. A new bounded UC lane was opened because no competing implementation lane existed:
+**`5739fc804ef3068be88ad5be0b9013e9c41eba78`**
 
-- UC draft PR: **#176 — `Align normalized skin-weight acceptance across rigged glTF receivers`**;
-- branch: `studio/uc-normalized-skin-weight-receiver-001`;
-- exact final head: **`fbb75738210c676d4d76398bd3c3deb9a6dde920`**;
-- exact repaired codec blob: **`02b69b6c7368ba6e34f226ca545293d26d208922`**;
-- PR state at final check: **OPEN / DRAFT / MERGEABLE**.
+Only the existing normalized-weight receiver evidence workflow was rebound:
 
-Smallest reusable repair:
+1. preserve the exact historical pre-repair receiver as the negative control;
+2. replace the draft-PR checkout with exact merged UC main `9332e345...`;
+3. pin the merged codec blob `02b69b6c...`;
+4. continue downloading Runtime #27's exact retained artifact / exact candidate by digest;
+5. require old FLOAT acceptance and old normalized-u16 rejection;
+6. require merged-main FLOAT acceptance and merged-main normalized-u16 acceptance;
+7. preserve exact geometry, skin, animation and CPU-deformation checks;
+8. retain Runtime ownership of quantization and keep producer / visual / deformed-frame holds explicit in the receipt.
 
-1. preserve FLOAT / `5126` weights when `normalized` is absent or false;
-2. accept `5121` and `5123` only when `normalized: true`;
-3. decode normalized u8/u16 into semantic float weights before existing range/sum/deformation checks;
-4. reject normalized FLOAT;
-5. reject integer weights with missing/false normalization;
-6. reject non-boolean `normalized` fields rather than treating JSON `null` as absence;
-7. retain existing bounded sparse/interleaved/extension behavior rather than widening unrelated glTF support.
+Receipt schema advances to:
 
-Focused UC workflow **`35176055645 — Normalized skin-weight receiver parity`** completed **SUCCESS** on exact head `fbb75738...`. Its fixture proves semantically identical one-hot FLOAT, normalized-u8 and normalized-u16 weights through the JavaScript receiver, cross-checks the already-supporting Python receiver, and exercises non-normalized u8/u16, `normalized: null`, and normalized FLOAT as fail-closed controls.
+`axm.animal-uc-normalized-weight-receiver-rebind/v0.2`
 
-Two earlier bootstrap workflow failures are retained as tooling provenance rather than hidden. They were YAML-definition failures caused by an over-embedded temporary patch script; no receiver test had executed. The bootstrap was reduced to a YAML-safe exact-source patch step, completed successfully, and removed itself from the final PR diff. Final UC PR #176 changes only three durable files: the shared codec, focused selftest, and focused workflow.
+Scoped result:
 
-## Exact Animal cross-repo rebind
+**`PASS_EXACT_RUNTIME_U16_WEIGHT_CANDIDATE_TO_MERGED_UC_MAIN_RECEIVER`**
 
-The existing Animal Technical Art PR #3 was advanced instead of opening a duplicate Technical Art lane.
+## Exact regression fixture
 
-Exact Technical Art head:
+Runtime remains the evidence owner for the quantized representation:
 
-**`0c31eb46cbec354c168e3c732bdb402e352d9e2b`**
-
-Dedicated workflow:
-
-**`35176109234 — UC normalized skin-weight receiver rebind` — SUCCESS**
-
-The workflow downloads Runtime PR #27's retained artifact by exact ID and archive digest, then verifies the exact candidate:
-
-- Runtime exact head: **`e7874c4a8dca1db48bc66f3546c2134f7d724456`**;
+- Runtime PR #27 head: **`e7874c4a8dca1db48bc66f3546c2134f7d724456`**;
 - Runtime artifact: **`10477292250`**;
 - Runtime archive SHA-256: **`76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`**;
 - normalized-u16 candidate: **10,296 B**;
 - candidate SHA-256: **`81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`**;
-- `WEIGHTS_0`: `VEC4 / UNSIGNED_SHORT / 5123 / normalized:true`.
+- `WEIGHTS_0`: `VEC4 / UNSIGNED_SHORT / 5123 / normalized:true`;
+- measured appearance tradeoff retained from Runtime: **224 changed pixels total / maximum 1 LSB**.
 
-Historical receiver check:
+The candidate itself is not regenerated or modified by Technical Art.
 
-- UC `e768b481...` / codec `b1f2e68b...` still accepts the exact FLOAT control;
-- the exact normalized-u16 candidate fails with `WEIGHTS_0 accessor invalid` and invalid raw integer weight sums.
+## Exact merged-main result
 
-Repaired receiver check:
+Dedicated workflow:
 
-- UC PR #176 head `fbb75738...` / codec `02b69b6c...` accepts the exact FLOAT control;
-- the same exact normalized-u16 candidate now passes;
-- candidate remains **84 vertices / 80 triangles / 2 skin joints / 1 animation channel / 41 keys / 1.0 s**;
-- weight sums and joint indices pass;
-- CPU deformation observation remains finite and changing.
+**`35179340286 — UC normalized skin-weight receiver rebind` — SUCCESS**
 
-Scoped result:
+Historical receiver:
 
-**`PASS_EXACT_RUNTIME_U16_WEIGHT_CANDIDATE_TO_BOUNDED_UC_RECEIVER`**
+- exact FLOAT control still passes;
+- exact normalized-u16 candidate still fails with first error `WEIGHTS_0 accessor invalid`.
 
-This is receiver compatibility only. It does **not** grant Technical Art producer adoption of normalized-u16 weights.
+Merged UC main receiver:
+
+- exact FLOAT control passes;
+- the same exact normalized-u16 candidate passes;
+- **84 vertices / 80 triangles** retained;
+- **2 skin joints** retained;
+- joint indices pass;
+- semantic weight sums pass after normalized integer decode;
+- **1 animation channel / 41 frames / 1.0 s** retained;
+- CPU deformation observation passes and remains changing.
+
+Every same-head Animal workflow triggered by the Technical Art update completed **SUCCESS**, including Tests, surface bridges, bilateral surface bridges, rigged animation, rigged UV/tangent transport, joint-index width adoption, deformed-direction-frame gate and weighting evidence. The green deformed-frame gate continues to mean the existing explicit HOLD was preserved correctly; it does not convert that HOLD into direction-frame equivalence.
 
 ## Retained evidence
 
-Technical Art rebind artifact:
+Merged-main rebind artifact:
 
-- ID: **`10478363684`**;
-- name: `animal-uc-normalized-weight-receiver-rebind-0c31eb46cbec354c168e3c732bdb402e352d9e2b`;
-- size: **8,961 B**;
-- GitHub archive SHA-256: **`cd6094cf69a94b6b791bb114bd81b6ce0757402cd8e989b15250eb49183214e9`**;
-- independently downloaded and rehashed SHA-256: **same value**;
-- retained candidate GLB size/SHA: **10,296 B / `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`**;
-- retained receipt schema: `axm.animal-uc-normalized-weight-receiver-rebind/v0.1`.
+- ID: **`10480135003`**;
+- name: `animal-uc-normalized-weight-merged-main-rebind-5739fc804ef3068be88ad5be0b9013e9c41eba78`;
+- uploaded size: **9,224 B**;
+- GitHub archive SHA-256: **`81fa06f0d9a907f554f2859deca82fe1f960899e8d650ed6ddec872707db8689`**;
+- independently downloaded / rehashed SHA-256: **same value**;
+- retained files: **9**;
+- retained candidate GLB size/SHA: **10,296 B / `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`**.
 
-The archive retains the exact Technical Art, Runtime and UC identities, old/new UC inspections, candidate GLB, and explicit HOLD statements.
+The archive retains the exact Technical Art head, Runtime owner head, source PR head, merged UC main head, merged codec blob, historical receiver inspection, merged-main receiver inspection, candidate GLB and v0.2 receipt.
 
 ## Authority / truth boundary
 
-- **Runtime** owns the normalized-u16 quantizer and measured storage/engine evidence.
-- **Technical Art** owns whether a representation is adopted by the producer and owns this cross-repo receiver proof.
-- **UC** owns the generic reusable receiver contract only; no Animal weight policy, anatomy, topology or motion semantics were centralized there.
-- **Rigging** retains the known deformed normal/tangent direction-frame HOLD.
-- **Art Direction / Visual QA** retain the 224-pixel / max-1-LSB appearance tradeoff decision.
-- **Animation** retains clip/key timing and motion authority.
+- **Runtime** still owns the normalized-u16 quantizer and measured storage / engine evidence.
+- **Technical Art** owns this cross-repo receiving proof and any future producer representation adoption decision.
+- **UC** owns only the now-merged generic receiver semantics; no Animal anatomy, topology, weighting policy or motion semantics were centralized there.
+- **Rigging** retains the transported deformed normal/tangent direction-frame HOLD.
+- **Art Direction / Visual QA** retain the 224-pixel / max-1-LSB appearance decision.
+- **Animation** retains clip / timing / motion authority.
+- **Building** compact-shell representation selection remains Building/consumer-owned; this activation creates no generic UC representation selector.
 
-The repaired UC receiver does not prove broad arbitrary glTF support, sparse/interleaved/multi-primitive/multi-skin safety, producer quantization quality, target-device performance improvement, final shaded equivalence, deformed tangent-frame correctness, engine/controller/gameplay readiness, CANON, Profession Fabric promotion or production readiness.
+This PASS does **not** establish Technical Art producer adoption of normalized-u16 weights, pixel-neutral appearance, deformed tangent-frame correctness, sparse/interleaved/multi-primitive/multi-skin glTF generality, target-device performance gains, engine/controller/gameplay readiness, CANON, Profession Fabric promotion or production readiness.
 
 ## Four-root gate
 
-- **Truth:** old rejection and new acceptance are proven against the same exact Runtime-owned candidate, and the visual/deformation holds remain explicit.
-- **Agency / non-domination:** Runtime owns quantization evidence, Technical Art owns producer adoption, UC owns only generic receiving semantics, and visual specialists retain appearance acceptance.
-- **Continuity:** existing Animal Technical Art PR #3 is advanced; Runtime artifact identity and the pre-repair UC receiver are retained instead of silently rewritten.
-- **Wisdom before speed:** the narrow receiver inconsistency is repaired first; storage adoption remains held until its separate visual tradeoff is accepted rather than being inferred from green compatibility CI.
+- **Truth:** draft-head evidence and merged-main evidence are kept distinct; old rejection and merged-main acceptance exercise the same exact candidate.
+- **Agency / non-domination:** Runtime owns quantization evidence, Technical Art owns producer adoption, UC owns generic receiver semantics, and visual/deformation owners retain their decisions.
+- **Continuity:** the existing Animal Technical Art lane and exact Runtime artifact are reused; PR #176's merge is explicitly rebound rather than silently assumed equivalent.
+- **Wisdom before speed:** close the small merge-continuity gap without using a green compatibility result to force producer quantization, visual acceptance, representation selection or broader UC abstraction.
 
 ## Current state
 
-`PASS_EXACT_RUNTIME_U16_WEIGHT_CANDIDATE_TO_BOUNDED_UC_RECEIVER / TECH_ART_HEAD_0C31EB46 / RUNTIME_HEAD_E7874C4A / RUNTIME_ARTIFACT_10477292250 / U16_CANDIDATE_10296_B_SHA_81C5422F / OLD_UC_E768B481_CODEC_B1F2E68B_REJECTS / UC_PR_176_HEAD_FBB75738_CODEC_02B69B6C_ACCEPTS / UC_PARITY_WORKFLOW_35176055645_SUCCESS / ANIMAL_REBIND_WORKFLOW_35176109234_SUCCESS / EVIDENCE_ARTIFACT_10478363684_SHA_CD6094CF / PRODUCER_WEIGHT_WIDTH_ADOPTION_HOLD / VISUAL_QA_224_PIXEL_MAX_1_LSB_HOLD / DEFORMED_DIRECTION_FRAME_HOLD / HOLD_CANON_PRODUCTION_READINESS`
+`PASS_EXACT_RUNTIME_U16_WEIGHT_CANDIDATE_TO_MERGED_UC_MAIN_RECEIVER / TECH_ART_HEAD_5739FC80 / RUNTIME_HEAD_E7874C4A / RUNTIME_ARTIFACT_10477292250 / U16_CANDIDATE_10296_B_SHA_81C5422F / OLD_UC_E768B481_CODEC_B1F2E68B_REJECTS / UC_PR_176_MERGED_MAIN_9332E345_CODEC_02B69B6C_ACCEPTS / MERGED_MAIN_REBIND_WORKFLOW_35179340286_SUCCESS / EVIDENCE_ARTIFACT_10480135003_SHA_81FA06F0 / PRODUCER_WEIGHT_WIDTH_ADOPTION_HOLD / VISUAL_QA_224_PIXEL_MAX_1_LSB_HOLD / DEFORMED_DIRECTION_FRAME_HOLD / HOLD_CANON_PRODUCTION_READINESS`
