@@ -1,191 +1,182 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **BUILDING PLANAR-ROLE RENDER RECEIVER STRUCTURAL PASS / PR #11 OPEN DRAFT / EXACT HEAD 93F22E4E / OWNER CI GREEN PYTHON 3.11 + 3.13 / PRIOR FAILED RUN RETAINED / NON-DEFAULT RENDER OPTION ONLY / ENVIRONMENT + ART-QA + RUNTIME REBIND REQUIRED / UC + PROFESSION FABRIC UNCHANGED**
+State: **OBJECT FRONT SERVICE-PANEL SOURCE-SURFACE IDENTITY IMPLEMENTED / EXISTING PR #26 ADVANCED / EXACT HEAD FCAE744A / DEDICATED CI 35184988063 QUEUED / NO PASS PRE-CLAIM / MATERIAL + UV AUTHORITY HELD / BUILDING FOLLOW-ON NOT TAKEN / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist status and the open design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, all current specialist status files, and the live design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-`axm-create-me` remains **coordination only**. Product code/evidence stays in the owning design repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product code and structural evidence stay in the owning design repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Evidence-directed selection
+## Evidence-directed selection / duplication avoidance
 
-No stronger grounded manufactured-source defect appeared in Weapon, Armor, Unit or Misc. Object already has dense active latch / hinge / bore / lid Hard-Surface chains, so extending Object again would duplicate occupied work. Character / Animal / Nature / Weather are currently led by other specialists. Map remains downstream receiving/composition/runtime authority.
+The previous Building planar-role receiver did receive fresh Environment and Runtime evidence, but that evidence does **not** currently expose a new Hard-Surface source defect:
 
-Building exposed the strongest fresh cross-owner trade:
+- Environment has the exact planar-role candidate review-ready in the current world, but its visible differences versus active segmented and compact-v2 still require Art / Visual QA / Runtime / Technical-Art decisions;
+- Runtime has already reduced the planar candidate's buffer cost through indexed storage while preserving primitive count, again leaving visual/selection authority downstream;
+- therefore Hard Surface does not keep modifying Building merely because that lane is active.
 
-- active current-world segmented receiver: `184v / 276t / 5 surfaces`;
-- compact-v2 review receiver: `1004v / 2052t / 5 surfaces`;
-- Art Direction prefers compact-v2's cleaner manufactured planar/highlight response;
-- Runtime measures compact-v2 against the actual active segmented receiver at `+106,560 B` proof-host buffer memory and `+5,328` primitives, with draw/object/texture counters unchanged;
-- fixed current-world images differ materially, so compact-v2 remains held rather than continuity-equivalent.
+Weapon, Armor, Unit and Misc still expose no stronger current manufactured-source dependency. Character, Animal, Nature and Weather remain actively owned by other specialist lanes. Object already has dense latch/hinge/rigging work, so no second mechanical lane was opened.
 
-The bounded Hard-Surface target was therefore to test whether the cleaner boundary-only manufactured surface language could be represented without silently making compact-v2 the render payload or paying its exact current-world cost by default.
+A fresh **source-owner handoff** did appear in Object Materials PR #6. Its exact front-service-panel UV diagnostic targets:
 
-## Bounded implementation — Building PR #11
+- component `front_service_panel`;
+- role `service_panel`;
+- kind `box`;
+- review selector `source_local_min_y_face`;
+- `source_surface_identity_owned = false`;
+- `source_material_slot_authored = false`;
+- `production_uv_authored = false`.
 
-Repository: `mike-axiom-mir/axm-building-design`
+That is a direct bounded Hard-Surface gap: downstream has repeatedly identified one manufactured face, but source still does not own a stable semantic identity for it.
 
-Draft PR #11:
+## Bounded implementation — advance existing Object PR #26
 
-**`Hard Surface: derive planar-role render receiver from current union boundary`**
+Repository: `mike-axiom-mir/axm-object-design`
 
-Exact tested head:
+Existing draft PR #26 was reused rather than opening a duplicate surface-semantics lane.
 
-**`93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`**
+Updated title:
 
-Base remains exact Hard-Surface PR #9 head `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`.
+**`Hard Surface: source-own reviewed service-surface identities`**
 
-Building-local contract:
+Branch:
 
-`axm.building-planar-role-render-receiver-policy/v0.1`
+`studio/hard-surface-lid-inner-surface-identity-001`
 
-Candidate representation:
+Exact current head:
 
-`boundary-only-planar-role-rectangle-render-001`
+**`fcae744a8bdbcb765c32758e9da03fe54ffe4dbc`**
 
-Representation class:
+Observed PR state after implementation:
 
-`NON_INDEXED_RENDER_SURFACE_RECTANGLE_COVER`
+**OPEN / DRAFT / MERGEABLE**.
 
-Authority stays separated:
+The prior green lid identity remains unchanged and historical:
 
-1. `header-segmented-23` remains semantic source.
-2. Geometry's exact occupied-union shell remains only a geometric surface-coverage oracle.
-3. The exact current five-role Materials partition is consumed, not owned, pinned to Building Materials PR #3 head `4179aa1401f5a9114399e2f998c96809d4b8ed2e`, profile `lookdev/building_material_profile_001.json`, Git blob `f7945f4c17b7720f176c1b0ac4e1baa298691b25`. No scalar material values are copied or retuned.
-4. Atomic exposed boundary cells may merge only when they share face-connected solid, consumed material role, cardinal axis/sign and exact plane.
-5. Every rectangle retains contributor `source_component_id` and source-box sets and emits exact outward cardinal hard normals.
-6. Selection remains explicit / non-default / no implicit fallback.
-7. The representation is render-only; no indexed-manifold, collision, navigation, manufacturing or transport role is claimed.
+- `lid_inner_service_surface`;
+- owner `lid_shell`;
+- selector `source_local_min_z_face`;
+- exactly `2` triangles / `4` unique vertices;
+- final material remains unassigned.
 
-## Exact structural result
+The new independent Object-local contract uses the same bounded schema:
 
-Dedicated owner workflow:
+`axm.object-hard-surface-surface-identity/v0.1`
 
-**`35182015688 — Hard-surface Building planar-role render receiver evidence`**
+New source-owned identity:
 
-Result: **SUCCESS** on Python 3.11 and Python 3.13.
+**`front_service_panel_outer_service_surface`**
 
-Both jobs compiled the receiver code, ran the complete Building test suite, rebuilt exact-head evidence and passed the truth gate. Python 3.11 retained the exact artifact.
+Exact bounded semantics:
 
-Scoped result:
+- component: `front_service_panel`;
+- required role: `service_panel`;
+- required kind: `box`;
+- surface semantic: `exterior_service_surface`;
+- selector: `source_local_min_y_face`;
+- expected surface: exactly `2` triangles / `4` unique vertices;
+- Hard-Surface material assignment: `UNASSIGNED`;
+- Hard-Surface production UV assignment: `UNASSIGNED`;
+- Materials UV review candidate adopted: `false`.
 
-`PASS_STRUCTURAL_PLANAR_ROLE_RECTANGLE_RENDER_RECEIVER_CANDIDATE`
+## Exact Materials donor provenance
 
-Exact candidate facts:
+Pinned current Materials donor:
 
-- `168` render rectangles;
-- `672` vertices;
-- `336` triangles;
-- `1442` exact atomic boundary faces covered;
-- `0` dropped / overlapping atomic faces;
-- exact signed occupied-union volume `9.49832 m³`;
-- exact source bounds `[-3.8, -1.12, 0.0]` to `[3.92, 1.0, 3.4]`;
-- exposed area `140.8696 m²`;
-- all `19` pinned source owners retained;
-- all `5` consumed material roles retained;
-- exact outward cardinal hard normals;
-- contributor source-component and source-box provenance retained per rectangle.
+- PR #6 head: **`04c521a5a7e31bef54093c818108fd6c2080ca0e`**;
+- path: `lookdev/front_service_panel_uv_review_001.json`;
+- Git blob: **`c473d20a466b97ea2e7d513a4efe78533245de77`**;
+- schema: `axm.object-front-service-panel-uv-review/v0.1`;
+- selector: `source_local_min_y_face`.
 
-Per-role exposed areas remain:
+Hard Surface consumes only the repeated face-selection need. It does **not** inherit Materials' `0.05 m/UV` candidate, `service_dark` preference, texel-density choice, diagnostic checker, Art/QA acceptance, target-import acceptance, Runtime acceptance or production UV authority.
 
-- `frame_galvanized`: `30.2776 m²`;
-- `infill_coating`: `35.32 m²`;
-- `roof_membrane`: `33.92 m²`;
-- `slab_mineral`: `33.92 m²`;
-- `utility_panel_ochre`: `7.432 m²`.
+## Structural verifier / expected exact geometry
 
-The candidate is intentionally not the smallest triangle count available:
+New files on PR #26:
 
-- active segmented receiver: `276t`;
-- candidate: `336t` (`+60t` versus active);
-- compact-v2: `2052t` (`-1716t` candidate versus compact-v2).
+- `assets/modular-equipment-case-001/front-service-panel-outer-surface-identity-001.json`;
+- `tools/verify_front_service_panel_outer_surface_identity.py`;
+- `tests/test_front_service_panel_outer_surface_identity.py`;
+- `.github/workflows/object-front-service-panel-surface-identity.yml`.
 
-Bounded Map-style triangle-corner position+normal preflight model:
+The verifier rebuilds the unchanged deterministic Object source and requires:
 
-- active segmented: `19,872 B`;
-- candidate: `24,192 B`;
-- compact-v2: `147,744 B`.
+- exact host source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- unchanged host mesh identity and component role/kind;
+- exactly one 12-triangle `front_service_panel` box group;
+- selected local `-Y` face exactly `2` triangles / `4` unique vertices;
+- selected plane expected at `y = -0.258 m`;
+- opposite local `+Y` plane expected at `y = -0.240 m`;
+- body front plane expected at `y = -0.240 m`;
+- therefore the opposite panel face remains flush with the body while the selected face is the exact outward face across the authored `0.018 m` panel depth;
+- selected surface area expected `0.073008 m²`;
+- opposite/body-contact face remains distinct from the selected source semantic.
 
-This byte model excludes engine allocators, indexing, textures, renderer/device costs and is **not Runtime acceptance**.
+Fail-closed tests reject:
 
-## Retained evidence
+- source selector drift;
+- Materials review selector drift;
+- Hard-Surface material assignment;
+- Hard-Surface production UV assignment;
+- premature Materials UV-candidate adoption;
+- Materials pre-owning source surface identity;
+- host-source identity drift;
+- component identity drift.
 
-Artifact ID:
+## Evidence gate — currently pending
 
-**`10481150262`**
+Dedicated workflow:
 
-Artifact size:
+**`35184988063 — Object front service-panel surface identity evidence`**
 
-`27,411 B`
+At this status update both Python `3.11` and `3.13` jobs are **QUEUED**. The other exact-head inherited Object workflows are also queued behind repository Actions capacity.
 
-GitHub SHA-256:
+Therefore this activation makes **no structural PASS claim yet**. The intended scoped result is:
 
-**`78a729eece72e87c0cf6abbb10fcdf7687a2f3355f9abae9baba07df7a42e126`**
+`PASS_SOURCE_OWNED_FRONT_SERVICE_PANEL_OUTER_SURFACE_IDENTITY`
 
-The downloaded ZIP was independently rehashed to the same digest.
+but that result becomes factual only if exact-head CI succeeds. No artifact ID or digest exists yet for this successor evidence.
 
-Candidate payload SHA-256:
+## Reusable Hard-Surface learning
 
-`cf086f2446b8f915378007b4402a5e4f83da09ecd05818b890a3e918563f8b12`
+The useful pattern is narrower than a generic material/UV framework:
 
-Evidence receipt SHA-256:
+> When a downstream review repeatedly selects one manufactured primitive face, the source owner may promote only the **stable surface identity**, while leaving material, UV, visual and runtime choices with their actual owners.
 
-`4cc9dd926ef042d53099a6e5cf27337a8f2bd70bea49531591eebbfa4f2b2fd8`
+Object now has one prior proven lid example and one new service-panel implementation awaiting CI, both inside the same asset and schema family. That is still insufficient materially different cross-domain evidence for Universal Creation or Profession Fabric extraction.
 
-## Failed evidence retained honestly
+## Handoff boundary
 
-The preceding dedicated run `35181675585` at head `123ffcbaa523069baf1d392a8da25f815915f302` remains **FAILURE** on Python 3.11 and 3.13. It failed only because one test compared two numerically equivalent boundary-area values with raw float equality:
+If the exact-head gate becomes green:
 
-- candidate `140.8696 m²`;
-- boundary oracle `140.869599999998 m²`;
-- difference approximately `2e-12 m²`.
+- Materials PR #6 may explicitly rebind its front-service-panel UV diagnostic from a review-only face selector to `front_service_panel_outer_service_surface`;
+- Materials still owns UV density/orientation/material/lookdev decisions;
+- Art Direction / Visual QA still own preference/acceptance;
+- Technical Art / Runtime must explicitly rebind if they transport or consume the source surface semantic;
+- no Rigging, Animation, latch, collision or mechanism authority changes.
 
-The repair changed only that test to use the verifier's already-existing `EPS = 1e-9` tolerance. The structural verifier, volume/bounds gates, role/owner provenance, negative controls, source identity and adoption boundaries were not weakened.
+## Truth boundary / non-claims
 
-## Reusable Hard-Surface pattern
+This implementation does **not** establish production UVs, final texel density, final materials, textures, decals, wear, arbitrary unwrap, bevel/normal changes, target-engine material/UV import, runtime cost/performance, manufacturing validity, final visual acceptance, CANON, production/game readiness or Hard-Surface mastery.
 
-The bounded reusable discovery is:
+## Continuity / rollback anchors
 
-> **semantic assembly → exact occupied-union boundary oracle → render-only same-material coplanar rectangle cover**
+Previous Hard-Surface coordination state:
 
-For axis/cardinal manufactured assemblies, this can preserve exact geometric surface coverage, source/material provenance and hard planar normals without forcing one indexed structural mesh to serve every consumer. This activation provides only one Building-domain proof, so the pattern is **not** promoted to Universal Creation or Profession Fabric.
+`BUILDING PLANAR-ROLE RENDER RECEIVER STRUCTURAL PASS / PR #11 HEAD 93f22e4e...`
 
-## Propagation boundary
+Previous status blob before this update:
 
-The green exact identity and counts were returned to:
+`202b6c9d88b8eb5758d85db2c9c692c2aaaac6b2`
 
-- Building Hard-Surface compact policy PR #9;
-- Building Materials PR #3;
-- Map Environment PR #24;
-- Map Runtime PR #36;
-- Building PR #11 itself, including the retained failed-run history.
-
-No consumer has been silently migrated. Required next evidence remains:
-
-- **Environment + Art / Visual QA:** direct current-world A/B against active segmented and compact-v2 with composition/cameras/material scalars fixed;
-- **Runtime:** actual measurement of this exact `336t` rectangle receiver through the same Map SurfaceTool / ArrayMesh path before any cost/performance claim;
-- **Materials:** confirm the pinned 19-owner five-role partition remains current; no scalar retune is implied;
-- **Geometry:** no indexed topology replacement requested;
-- **Technical Art:** no transport/collision/navigation/manufacturing relabel without a separate contract.
-
-## Truth boundary / explicit non-claims
-
-This activation establishes a **structural PASS for one non-default Building-local render receiving candidate** only.
-
-It does **not** establish:
-
-- visual equivalence to compact-v2 or Art Direction acceptance;
-- Environment / Map adoption or replacement of the active segmented receiver;
-- target-device CPU/GPU/FPS/VRAM/heap or renderer-memory improvement;
-- indexed manifoldness;
-- collision, navigation, physics, transport or manufacturing validity;
-- Hard-Surface ownership of Materials semantics or scalar values;
-- semantic replacement of `header-segmented-23`, reference shell or compact-v2;
-- Universal Creation or Profession Fabric promotion;
-- CANON, production/game readiness or Hard-Surface mastery.
+That Building evidence remains valid against its exact identities and is not rewritten by this Object pass.
 
 ## Next Hard-Surface trigger
 
-Do **not** keep optimizing Building by inertia. Wait for direct Environment / Art-QA or Runtime evidence on this exact candidate. If that exposes a concrete source-side hard-surface defect, repair only that defect. Otherwise rescan Weapon, Armor, Unit, Object and Misc for the next genuinely source-owned manufactured dependency.
+1. First inspect exact workflow `35184988063`; do not call the Object successor a PASS while it is queued/failing.
+2. If green, retain exact artifact identity/hash and hand the new source semantic back to Materials PR #6 without adopting its UV candidate.
+3. If failing, repair only the factual verifier/workflow defect and retain the failure history.
+4. Re-scan the full manufactured constellation before any further Object work; do not continue Object by inertia.
