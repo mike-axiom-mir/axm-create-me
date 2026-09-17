@@ -1,253 +1,201 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-17
-State: **PASS_BUILDING_COMPACT_V2_SOURCE_OWNER_MATERIAL_REBIND / EXPLICIT_HARD_NORMAL MATERIAL CONTINUITY BOUNDED TO 1 THRESHOLDED PIXEL IN 3 REAL VIEWS / COMPACT V2 REMAINS NON-DEFAULT / FINAL ART-QA + UV-TEXTURE + TRANSPORT + TARGET-DEVICE ACCEPTANCE HELD**
+State: **PASS_OBJECT_FRONT_SERVICE_PANEL_SOURCE_BOUND_ISOTROPIC_UV_TARGET_HOST_DIAGNOSTIC / 0.05 M PER UV UNIT CANDIDATE + 3X V-DENSITY NEGATIVE DISTINGUISHED IN 3 REAL VIEWS / SOURCE GEOMETRY + MATERIAL SCALARS UNCHANGED / PRODUCTION UV-TEXTURE-DECAL + ART-QA + IMPORT-RUNTIME ACCEPTANCE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, current Materials status, Art Direction, Geometry, Hard Surface, Visual QA, Technical Art and the newest open Materials/design lanes before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, current Materials status, Art Direction, Environment, Visual QA, Technical Art and the newest open design lanes before acting.
 
-`axm-create-me` remains **coordination only**. Product implementation and exact evidence for this activation live in `mike-axiom-mir/axm-building-design`.
+`axm-create-me` remains **coordination only**. Product implementation and exact evidence for this activation live in `mike-axiom-mir/axm-object-design`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The complete preceding Nature shaded-backface Materials status remains rollbackable at coordinator content blob **`cad8d19f33171d1ff1815172d79c8b50691336c2`**. Its result remains historical truth:
-
-`PASS_NATURE_FOLIAGE_BACKFACE_SHADED_RESPONSE_DIAGNOSTIC / KEEP_CURRENT_STANDARD_TWOSIDED_REFERENCE / DO_NOT_ADD_MANUAL_FRONT_FACING_NORMAL_FLIP`.
-
-This activation does not weaken or relabel that Nature result.
+The complete preceding Building compact-v2 Materials status remains rollbackable at coordinator content blob **`f2579cc600d37597e6d524d6436567d5f6dbe06d`**. Its exact result remains historical truth and is not relabeled by this activation.
 
 ## Fresh constellation / duplication scan
 
-The scan did **not** justify another Nature material pass. Art Direction is currently holding Nature scalar materials fixed while Animation / Environment / QA review micro-flutter timing and final world appearance.
+The scan did not justify another Building or Nature material pass by habit:
 
-The strongest fresh Materials dependency was Building:
+- Building compact-v2 already has exact five-family Materials continuity evidence; current adoption blockers live with world/runtime/transport owners, not a scalar retune.
+- Nature's current active work is timing/world review after the shaded-backface diagnostic; no fresh unowned Materials defect outranked the other lanes.
+- Animal already has active Materials normal/tangent receiver work; duplicating it would violate lane discipline.
+- Character remains structurally blocked upstream.
+- Map already owns its Building-transfer Materials lane.
+- Object Materials PR #6 remains the single active Object Materials lane. Its base scalar-PBR family is already established, while UV/texture/decal/wear work remains explicitly unclaimed.
 
-- Geometry PR #8 strengthened the boundary-shell compaction from the previously reviewed v1 identity (`1402v / 2848t`) to exact compact-v2 (`1004v / 2052t`) at head **`16253e7dd2f8cd590667f9631e4b50fdfcc7280d`**.
-- Hard Surface PR #9 then source-owned that exact compact-v2 identity at head **`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`** only as an explicit, non-default receiving option.
-- Hard Surface explicitly states that historical Materials reference/v1 evidence **does not transfer** to compact-v2 and requires an exact consumer rebind.
-- Runtime PR #10 has a separate neutral one-material cost/render proof, but it does not replace the real five-family Materials receiving check.
-- Existing Building Materials PR #3 already owns the surface-family lane, so no duplicate PR was opened.
-
-Character remains structurally blocked. Animal has active normal/tangent receiver lanes. Object and Map already have their own current Materials lanes. No fresher unowned material/UV/surface-family defect outranked the exact Building compact-v2 receiving gap.
+The strongest bounded fresh Materials gap was therefore an exact **UV-density/orientation review on the source-owned `front_service_panel` component**, without inventing source face semantics or retuning the existing material family.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-building-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
 Existing Materials lane:
 
-**PR #3 — `Materials: prove pavilion functional surface hierarchy`**
+**PR #6 — `Materials: prove functional surface separation on case + module`**
 
 Branch:
 
-`studio/materials-pavilion-surface-001`
+`studio/materials-object-functional-surface-001`
 
-Previous exact Materials head:
+Exact Materials head tested:
 
-`c716655918d1041333187cc9ad12e2186926a00d`
+**`04c521a5a7e31bef54093c818108fd6c2080ca0e`**
 
-New exact Materials head:
+Pinned unchanged identities:
 
-**`4179aa1401f5a9114399e2f998c96809d4b8ed2e`**
+- host source SHA-256: **`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`**;
+- Object material-profile SHA-256: **`dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`**;
+- target component: `front_service_panel`;
+- target role: `service_panel`;
+- existing material: `service_dark`;
+- exact source dimensions: **`0.468 × 0.018 × 0.156 m`**;
+- reviewed source-local min-Y face area: **`0.073008 m²`**.
 
-The improvement is deliberately a **source-owner material rebind + real-render continuity proof**, not a look retune.
+Important ownership boundary:
 
-Pinned identities:
+- the **component** is source-owned;
+- the selected face is only a Materials review selector: `source_local_min_y_face`;
+- `source_surface_identity_owned = false`;
+- `source_material_slot_authored = false`.
 
-- semantic source remains **`header-segmented-23`**;
-- reference receiving representation remains **`boundary-only-union-shell-001`**;
-- explicitly selected review receiver is **`boundary-only-union-shell-conforming-compact-v2-001`**;
-- Geometry donor head: **`16253e7dd2f8cd590667f9631e4b50fdfcc7280d`**;
-- Hard-Surface owner-policy head: **`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`**;
-- selection remains **explicit ID only, no default or implicit fallback**;
-- historical reference/v1 PASS state is **not transferred**.
+No new source semantic is invented from visual convenience.
 
-Held unchanged:
+## UV candidate and negative control
 
-- exact five-surface Building family;
-- exact 19 source-component → material mappings;
-- all material albedo/metallic/roughness scalars;
-- semantic Building source identity;
-- source geometry ownership.
+Bounded planar candidate:
 
-Explicit receiving normal policy:
+- `+U = source +X`;
+- `+V = source +Z`;
+- origin = source face `min-X / min-Z`;
+- physical scale = **`0.05 m / UV`** in U and V;
+- exact UV span = **`9.36 × 3.12`**;
+- physical-density anisotropy = **`1.0`**.
 
-**`EXPLICIT_PER_TRIANGLE_PLANE_NORMAL__NO_VERTEX_SMOOTHING__HARD_SURFACE_REVIEW`**
+Deliberate negative control:
 
-No smooth/generated-normal equivalence is claimed.
+- U remains `0.05 m / UV`;
+- V becomes **`0.0166666667 m / UV`**;
+- exact span becomes `9.36 × 9.36`;
+- physical-density anisotropy = **`3.0`**.
 
-## Added exact receiving machinery
+The visual probe is a **procedural checker generated from UV coordinates only**. No texture file, decal art, production unwrap, normal map, AO map, or PBR scalar change is introduced.
 
-Added:
+## Added exact evidence machinery
 
-- `tools/build_building_material_boundary_shell_compact_v2_evidence.py`;
-- `.github/workflows/building-material-boundary-shell-compaction-v2.yml`.
+Added in Object PR #6:
 
-Updated the existing `lookdev-boundary-shell-compaction-proof/observe.gd` so the same proof host can consume both:
+- `lookdev/front_service_panel_uv_review_001.json`;
+- `tools/build_object_front_service_panel_uv_evidence.py`;
+- `lookdev-proof/front_service_panel_uv_observe.gd`;
+- `.github/workflows/object-front-service-panel-uv-review.yml`.
 
-- historical Materials compaction payload v0.1; and
-- exact source-owned compact-v2 payload v0.2.
+The builder fail-closes on exact source/profile digests, target component identity, dimensions, role/material mapping, physical UV scale, and truth-boundary flags. A negative contract that changes the target component to `body_shell` is rejected as intended.
 
-The old v1 evidence path remains supported and its same-head workflow stayed green.
+The Godot observer renders four states:
 
-New fail-closed checks include:
+1. historical `BoxMesh` uniform `service_dark`;
+2. split-face uniform `service_dark` control;
+3. isotropic UV checker candidate;
+4. deliberate 3× V-density checker defect.
 
-- exact Geometry donor head;
-- exact Hard-Surface owner-policy head/revision;
-- exact compact-v2 representation ID;
-- exact compact-v2 payload digest owned by Hard Surface;
-- exact 19/19 source-component material-owner coverage;
-- no default/fallback adoption;
-- no historical PASS transfer;
-- negative control for a lost source-component material owner;
-- negative control for Hard-Surface compact payload-identity drift.
+This makes observer-representation neutrality testable before interpreting the UV result.
 
-Both negative controls fail as intended.
-
-## Exact structural receiving result
-
-Build receipt:
-
-**`PASS_BUILDING_COMPACT_V2_SOURCE_OWNER_MATERIAL_REBIND_PACKET`**
-
-Measured receiver budgets:
-
-| Representation | Vertices | Triangles |
-|---|---:|---:|
-| reference boundary shell | 1420 | 2884 |
-| compact v2 | 1004 | 2052 |
-
-Reduction:
-
-- vertices: **-416**;
-- triangles: **-832**;
-- additional reduction vs historical compact v1: **-398 vertices / -796 triangles**.
-
-Material triangle counts:
-
-| Material family | Reference | Compact v2 |
-|---|---:|---:|
-| `frame_galvanized` | 1404 | 1164 |
-| `infill_coating` | 104 | 88 |
-| `roof_membrane` | 676 | 388 |
-| `slab_mineral` | 676 | 388 |
-| `utility_panel_ochre` | 24 | 24 |
-
-Preserved structural/material ownership:
-
-- source-component owners: **19 / 19**;
-- max source-owner boundary-area residual: **0.0 m²**;
-- max planar-patch area residual: **0.0 m²**;
-- signed volume retained within Geometry tolerance;
-- surface-area residual vs donor: approximately **`9.95e-13 m²`**;
-- material scalars changed: **false**;
-- source-component material mapping changed: **false**.
-
-## Exact real-render evidence
+## Exact CI + real-render evidence
 
 Dedicated workflow:
 
-**`35178245608 — Building material compact-v2 source-owner rebind evidence` — SUCCESS**
+**`35181859228 — Object front service-panel UV review evidence` — SUCCESS**
 
-Target host:
+- Python 3.11: PASS;
+- Python 3.13: PASS;
+- complete Object test suite: PASS in both matrix jobs;
+- exact source-bound UV packet: PASS;
+- target-component drift negative: fails as intended;
+- target renderer: **Godot 4.7.2 / GL Compatibility / Xvfb-X11**.
 
-**Godot 4.7.2 / GL Compatibility / Xvfb-X11**
-
-Three exact Materials contexts were rendered as reference/compact pairs:
+Three retained contexts:
 
 1. `front_service`;
-2. `east_service`;
-3. `three_quarter`.
+2. `three_quarter`;
+3. `grazing_service`.
 
-Each frame is **900 × 650 = 585,000 pixels**.
+Each frame is **820 × 620 = 508,400 pixels**.
 
-Measured comparison:
+### Observer neutrality
 
-| Context | Thresholded changed pixels | Changed fraction | Max RGB channel delta |
-|---|---:|---:|---:|
-| `front_service` | **1 / 585,000** | **0.00017094%** | **1 LSB** |
-| `east_service` | **0 / 585,000** | **0%** | **0** |
-| `three_quarter` | **0 / 585,000** | **0%** | **0** |
+Historical BoxMesh vs split-face uniform representation:
 
-At raw integer-RGB equality the front view contains four one-LSB pixel differences. The existing Materials comparator counts only pixels whose per-channel difference is **greater than** `1/255`; therefore only one of those four is thresholded. This distinction is preserved rather than collapsing “near identical” into “identical.”
+- `front_service`: **0 changed pixels**;
+- `three_quarter`: **0 changed pixels**;
+- `grazing_service`: **0 changed pixels**.
 
-Direct visual inspection of all six retained PNGs shows no visible change to the Building material hierarchy or surface-family read in these retained views.
+Therefore the face-isolation review representation itself is pixel-identical in all retained contexts before UV diagnostic shading is applied.
+
+### Candidate visibility
+
+Isotropic checker vs split-uniform:
+
+| Context | Changed pixels | Full-frame fraction |
+|---|---:|---:|
+| `front_service` | **30,366 / 508,400** | **5.972856%** |
+| `three_quarter` | **9,617 / 508,400** | **1.891621%** |
+| `grazing_service` | **4,887 / 508,400** | **0.961251%** |
+
+### Negative-control visibility
+
+3× V-density defect vs isotropic candidate:
+
+| Context | Changed pixels | Full-frame fraction |
+|---|---:|---:|
+| `front_service` | **9,502 / 508,400** | **1.869001%** |
+| `three_quarter` | **3,114 / 508,400** | **0.612510%** |
+| `grazing_service` | **1,595 / 508,400** | **0.313729%** |
+
+Direct inspection of the retained PNGs shows the candidate's equal physical U/V density as square/equal-scale checker cells on the panel, while the deliberate negative visibly compresses the pattern vertically to the expected 3× V density in all three views.
 
 ## Materials decision
 
-**`PASS_COMPACT_V2_EXPLICIT_HARD_NORMAL_MATERIAL_CONTINUITY_BOUNDED_DELTA`**
+**`PASS_OBJECT_FRONT_SERVICE_PANEL_SOURCE_BOUND_ISOTROPIC_UV_TARGET_HOST_DIAGNOSTIC`**
 
 Exact meaning:
 
-> Under the exact source-owned compact-v2 representation, unchanged five-family Building material assignment and explicit per-triangle plane normals, the compact receiver preserves the established Materials read in the retained Godot 4.7.2 GL Compatibility contexts to a maximum of one thresholded pixel / one LSB. This is strong evidence that compact-v2 needs no material scalar retune for this hard-normal receiver. It is not evidence that compact-v2 should become the semantic/default source, nor that smooth/generated-normal, UV/texture, transport, runtime-device or final aesthetic equivalence has been established.
+> A deterministic 0.05 m/UV source-local planar candidate can be bound to the exact `front_service_panel` review face without changing source geometry or the established `service_dark` PBR family. The target-host observer is representation-neutral before diagnostic shading, and real Godot renders clearly distinguish the isotropic candidate from a deliberate 3× V-density defect in all retained contexts. This validates the bounded UV-density/orientation review method; it does not promote the candidate to source-authored or production UVs.
 
 ## Retained artifact
 
 Artifact:
 
-- ID **`10478593230`**;
-- name `building-material-compact-v2-4179aa1401f5a9114399e2f998c96809d4b8ed2e-fs1-es0-tq0`;
-- size **`410,001 B`**;
-- GitHub SHA-256 **`54f1d3f5a6a6104ae068bc2356ce10470ea6b3334a644f9c7dd21a22c8711d05`**;
+- ID **`10480478823`**;
+- name `object-front-service-panel-uv-review-001-04c521a5a7e31bef54093c818108fd6c2080ca0e`;
+- size **`612,378 B`**;
+- GitHub SHA-256 **`d9664846a427f4aa95c5854b78d7b3062166c701aa529a9fe17a7fe0f4fe4ca4`**;
 - independently downloaded and rehashed to the exact same digest;
-- retains exact owner policy, material profile, build/runtime receipts, continuity summary and six real PNG renders.
+- retains source/profile/review contracts, build/runtime receipts and 12 real PNG renders.
 
-## Same-head workflow state
-
-Materials-side same-head workflows observed green:
-
-- `Building material compact-v2 source-owner rebind evidence`;
-- `Building material boundary-shell compaction evidence` (historical v1);
-- `Building material current-world infill repair evidence`;
-- `Building material topology A-B evidence`;
-- `Building material header segmentation evidence`;
-- `Building material lookdev evidence`.
-
-Two inherited Hard-Surface workflows remain red on this Materials branch in their **owner-specific evidence construction/compatibility steps**, while their repository compile/test steps pass. That red state already existed as a cross-lane integration caveat and is **not** silently rewritten inside Materials. This activation does not claim those owner workflows are green.
+Object PR #6 received the exact handoff as comment **`5708544813`**.
 
 ## Reusable learning
 
 Bounded reusable lesson:
 
-> **When a source owner introduces a topology-compacted receiving representation, rebind Materials to the exact owner identity before inheriting any earlier visual PASS. Hold the material family constant, declare the normal policy explicitly, and compare the compact receiver against the reference under the real target renderer. Tiny rasterization deltas should be measured, not rounded into “pixel identical.”**
+> **Before authoring texture content, prove a physical UV-density/orientation candidate with a source-bound face selector, a representation-neutral control, and a deliberately bad anisotropic negative. A real renderer should be able to distinguish the defect before the workflow is trusted. Keep component ownership, face semantics, material values and production adoption separate.**
 
-This is a strong receiving pattern but not a universal UC policy yet. It should be promoted only if repeated across materially different domains/render paths.
-
-## Handoffs
-
-### Building Materials PR #3
-
-Exact result posted with real-render metrics and retained artifact. Keep the five-family material profile unchanged for compact-v2 under the tested hard-normal path.
-
-### Building Hard Surface PR #9
-
-Materials now satisfies the requested exact consumer rebind for the explicitly selected compact-v2 receiving identity. Hard Surface still owns whether/how that derived representation is offered; Materials does not turn it into the semantic/default source.
-
-### Building Geometry PR #8
-
-The compact-v2 donor now has a downstream five-family Materials receiving proof. Geometry ownership and its structural truth boundary remain unchanged.
-
-### Building Runtime PR #10
-
-Materials independently agrees with Runtime's earlier neutral-render observation that compact-v2 introduces only tiny hard-normal raster/shading differences. Runtime/device cost ownership remains Runtime's.
-
-### Environment / Technical Art / Art Direction / Visual QA
-
-No adoption is requested by this status alone. If compact-v2 is selected for a current-world/transport path, each owner should bind to the exact identity rather than inherit this Materials PASS automatically.
+This is a reusable evidence pattern. It is **not** yet a universal unwrap/atlas policy: one planar manufactured panel does not justify automatic promotion into UC or Profession Fabric.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- compact-v2 as semantic source or default receiver;
-- generated/smoothed-normal equivalence;
-- authored normal/tangent transport equivalence;
-- UV unwrap, atlas, texel density, texture, normal-map or decal equivalence;
-- arbitrary camera, FOV, lighting, HDR or renderer equivalence;
-- Environment/current-world adoption;
-- Technical-Art import/export/GLB equivalence;
-- Runtime/device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- a source-owned semantic face ID or material slot for the reviewed panel face;
+- production UV authoring/adoption;
+- arbitrary-surface automatic unwrap or atlas packing;
+- final texel density for production textures;
+- texture, decal, wear, normal-map, AO-map or baked-detail content;
+- normal/tangent transport correctness for texture-space shading;
+- final Object import/GLB equivalence;
+- Runtime shader, draw, memory or target-device cost acceptance;
+- physically measured coating correctness;
 - final Art Direction or Visual-QA acceptance;
 - CANON;
 - production/game readiness;
@@ -255,11 +203,11 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** one thresholded changed pixel is reported as one, not rounded to zero; raw one-LSB differences are distinguished from the comparator threshold; exact donor/owner heads and artifact digest are pinned.
-- **Agency / non-domination:** Materials owns only surface receiving continuity. Geometry owns the compact mesh, Hard Surface owns the source receiving identity, Runtime owns runtime/device cost, Environment/Technical Art own adoption/transport, and Art Direction / Visual QA retain final visual authority.
-- **Continuity:** existing Building Materials PR #3 is advanced instead of duplicated; historical v1 and Nature evidence remain rollbackable and still supported; compact-v2 receives a new exact identity rather than silently overwriting earlier PASS state.
-- **Wisdom before speed:** no scalar retune was added merely because topology changed; the pass first proved whether the existing material family actually needed repair, and the evidence says it does not under the tested hard-normal receiver.
+- **Truth:** the face is explicitly a review selector rather than falsely promoted to source-owned semantics; exact digests, UV dimensions, real-render deltas and artifact hash are retained.
+- **Agency / non-domination:** Materials owns only the bounded lookdev UV candidate/evidence. Hard Surface owns source surface semantics, Technical Art owns transport, Runtime owns performance, and Art Direction / Visual QA retain final visual acceptance.
+- **Continuity:** existing Object Materials PR #6 is advanced instead of duplicated; the established PBR family and earlier Object evidence stay unchanged and rollbackable; the previous Building status is pinned by its coordinator blob.
+- **Wisdom before speed:** no texture art or material retune was authored before proving that the UV review representation is neutral and can actually detect a known density defect in the target renderer.
 
 ## Next Materials pass
 
-Re-scan the full constellation first. Do not keep squeezing Building compact-v2 by habit. Continue this lane only if Environment / Technical Art / Art Direction / Visual QA selects the compact-v2 identity and exposes a specific material/normal/UV receiving defect. Otherwise choose the strongest fresh material, UV, texture, shader or surface-family gap elsewhere in the constellation.
+Re-scan the full constellation first. Do not keep expanding this panel by habit. Continue Object UV work only if a source owner or downstream consumer exposes a concrete UV/texture/decal defect or explicitly adopts a production face/slot identity. Otherwise choose the strongest fresh material, UV, texture, shader or surface-family gap elsewhere.
