@@ -1,269 +1,325 @@
 # 08 — Environment / World Art Specialist Status
 
-Date: 2026-09-17
+Date: 2026-09-18
 
-State: **HOLD_OBJECT_ARTICULATED_VFX_CURRENT_WORLD_CONVERGENCE__NEUTRAL_RIGID_RECEIVER_GREEN__MOTION_BRIDGE_RED__OWNER_VFX_ART_REPAIR_PENDING / PR24_REMAINS_ROLLBACK_DEFAULT / COORDINATION_ONLY**
+State: **PASS_OBJECT_ARTICULATED_SERVICE_CLEARANCE_SUCCESSOR_SPATIAL_PROOF / MAP_ENV_PR49_955DB478 / 101_OWNER_SAMPLES / HISTORICAL_60MM_CLEARANCE_REGRESSION_FOUND / +20MM_REAR_DRESSING_SUCCESSOR_RESTORES_60MM / REAL_MULTI_ASSET_GODOT_EVIDENCE_BOUND / SUCCESSOR_RENDER_ART_QA_RUNTIME_ADOPTION_HELD / PR24_ROLLBACK_DEFAULT / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the preceding Environment status, fresh specialist status, and current Map / Building / Nature / Object / Weather repository state.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the prior Environment status, fresh Art Direction, Animation, Technical Art, VFX and Visual Observer / QA status, and current Map / Building / Nature / Object / Weather lanes.
 
-`axm-create-me` remains **coordination only**. No product, renderer, asset, VFX, Animation, Rigging, Runtime or Universal Creation implementation was placed here.
+`axm-create-me` remains **coordination only**. The product/evidence implementation is in `mike-axiom-mir/axm-map-design`; this file is the only create-me change for the activation.
 
-The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Highest-leverage bounded Environment decision
+## Fresh constellation correction
 
-The prior Environment blocker was precise: the real Map Object receiver was static, so phase-bound lid-release VFX could not truthfully enter the current world until a source-owned articulated component boundary existed.
+The prior Environment status said the current-world Object motion bridge was red. That is no longer true.
 
-That blocker has now split into two independently owned successor gates:
+Map Technical Art PR #45 is now at exact head:
 
-1. **Neutral articulated receiver structure is now real and green.** Technical Art has exposed the Object's exact rigid component partition in the current world while preserving the retained world visually.
-2. **Delivered articulated motion is not green yet.** The Technical Art current-world motion bridge still fails during the real render step.
-3. **The currently proven owner VFX is no longer visually accepted as final.** Art Direction has reviewed its requested two-context wall-clock playback and returned one bounded VFX-owned irregularity repair because the active cue reads as a regular bead/trail chain.
+`e085437f6cc958bbf7c5c6464578923d542962b0`
 
-Environment therefore does **not** create a parallel motion adapter, does **not** freeze the held VFX into the world, and does **not** move Map PR #24 while its Technical Art child lane is actively proving the missing motion path.
+and its dedicated exact current-world motion workflow `35279024982` is **SUCCESS**.
 
-The selected reusable composition rule is:
+The green retained motion packet proves exact owner samples `0 / 10 / 50 / 100` on the current articulated Object receiver while keeping the inherited Building + Nature + Object + footprint + Weather world present:
 
-**`PHASE_BOUND_WORLD_EFFECT_CONVERGENCE_REQUIRES_BOTH_A_GREEN_ARTICULATED_CURRENT_WORLD_RECEIVER_AND_A_CURRENT_ACCEPTED_OWNER_EFFECT__NEITHER_INPUT_MAY_BE_REPLACED_BY_STALE_OR_ISOLATED_EVIDENCE`**
+- Technical Art artifact `10521663924`;
+- archive SHA-256 `2374d89abf5779b7470657082c3a43b974d6b16fcbaff4e82256753c97d6dc24`;
+- Object source `468 vertices / 812 triangles / 7 receiving surfaces`;
+- rigid ownership map `31` components;
+- current Building receiver `184 vertices / 276 triangles / 5 surfaces`;
+- compact-east Nature `390 / 570`;
+- east-rear Nature `390 / 570`;
+- current Environment service-footprint frame;
+- Weather source-width current-world presentation;
+- `17` world states / `68` real Godot frames per retained owner sample;
+- neutral vs retained parent: `0` changed pixels;
+- release sample: `5,644` changed pixels over all `68` frames;
+- peak sample: `102,748` changed pixels over all `68` frames;
+- endpoint vs neutral: `0` changed pixels.
 
-This is the bounded Environment improvement for this activation: the world-composition handoff is now fail-closed against two distinct false-positive paths — inferring motion from a neutral articulation PASS, or composing a technically green but currently Art-held effect.
+The old failure was an explicit owner UC/glTF `[x,z,y]` versus Map/Godot `[x,z,-y]` receiver-frame mismatch. Technical Art repaired only that receiving boundary through:
 
-## Map / Environment current world
+`UC_GLTF_TO_GODOT_CURRENT_WORLD_REFLECTION_Z__NEGATE_OWNER_ROTATION_ANGLE_AFTER_WORLD_AXIS_PLACEMENT`
 
-Environment PR:
+UC remains generic and unchanged. Environment does not reopen this solved transport lane.
+
+## Highest-leverage bounded Environment improvement
+
+The green articulated receiver exposed a new Environment-owned question that did not exist while the Object was static:
+
+**does the complete owner-authored lid/latch motion sweep still fit the Map-owned service zone that was designed and proven only for the neutral Object?**
+
+This is not Animation timing, Technical Art transport, Runtime batching, Object source geometry, VFX, or gameplay. It is world composition / spatial service-envelope ownership.
+
+Environment therefore opened one bounded child lane:
 
 - repository: `mike-axiom-mir/axm-map-design`;
-- PR #24 — `Environment: converge Weather variant with exact Object source`;
-- branch: `studio/environment-weather-variant-object-convergence-001`;
-- exact current Environment head remains `061dbf12604f8a4ee19a62a79f0d9d2f99503181`;
-- open / draft / unmerged / mergeable.
+- PR #49 — `Environment: fit Object articulation inside service-clearance dressing`;
+- branch: `studio/environment-object-articulated-service-clearance-001`;
+- base: Technical Art PR #45 exact head `e085437f6cc958bbf7c5c6464578923d542962b0`;
+- exact Environment head: `955db478f5642c8cd1ebc86a32fe2c67b1c2621f`;
+- open / draft / unmerged / mergeable;
+- four files only: Environment contract, verifier, documentation and dedicated workflow.
 
-The retained pre-articulation world remains the Environment rollback/default. It already carries the proven Building, migrated Nature, indexed Object, selected roughness, footprint cue, compact-east sampled response and source-authored Weather-width evidence accumulated by the Environment lane.
+Map PR #24 remains unchanged as the historical rollback/default world.
 
-Environment intentionally made **no new commit** on PR #24 during this activation because advancing its base while PR #45 is actively debugging an exact child motion receiver would create avoidable branch churn and ownership overlap.
+## Exact articulated service-zone finding
 
-Environment scope / convergence comment recorded on PR #24:
+The historical Environment dressing is:
 
-- `5721581317`.
+`environment:dressing:west-object-service-footprint-frame-001`
 
-## Fresh Technical Art result — old static-host blocker partially resolved
+Historical outer world footprint:
 
-Map Technical Art PR:
+`[-4.025387, -2.890757, 3.736077, 4.870707] m`
 
-- PR #45 — `Technical Art: expose Object rigid parts in current-world receiver`;
-- branch: `studio/technical-art-object-rigid-current-world-bridge-001`;
-- base: exact Environment PR #24 lineage;
-- current exact head: `87aae9f8a895873756afb70b3cecb2cde387effd`;
-- open / draft / unmerged / mergeable.
+Strip width:
 
-The retained neutral rigid-receiver proof remains strong:
+`0.045 m`
 
-- exact Object source: `468 vertices / 812 triangles`;
-- source-owned rigid component groups: `31`;
-- current-world receiver: `31 component nodes / 33 component-surface instances / 812 triangles`;
-- current Object material / generated-normal / selected-UV0 / selected-roughness identities preserved;
-- neutral current-world proof spans the inherited `17` states / `68` real Godot frames;
-- repaired direct-RGBA observer proves exact neutral raster equivalence rather than relying on Pillow alpha-sensitive `getbbox()` behavior;
-- retained neutral exact head: `8af1657f8261dd1de786fd3ab9cc56ef4b1bf257`;
-- retained workflow `35274567497`: **SUCCESS**;
-- retained artifact `10518844966`, SHA-256 `e5c4de2ed90e68878b2ede2ab00bb502fb2c219be4d8617821b7f73a7c169fc9`.
+Existing neutral Object-to-inner-frame minimum-clearance contract:
 
-On the current PR #45 head `87aae9f8...`, the dedicated **Technical Art Object rigid current-world final proof** run `35277361256` is also **SUCCESS**. So Environment no longer describes the Object as lacking any articulated component boundary at all.
+`0.060 m`
 
-This closes only the **neutral structural receiver** question. It does not prove current-world motion.
+The new verifier does **not** approximate the Object with a generic bounding box.
 
-## Fresh Technical Art motion boundary — genuine red gate retained
+It reconstructs the complete motion sweep from:
 
-The same exact PR #45 head has a separate dedicated motion workflow:
+- the exact `468` current-world Object vertices retained in the real Environment world;
+- the exact Technical Art rigid-component triangle ownership map;
+- exact moving groups: `lid_shell`, both lid-owned keepers, both lid-owned hinge knuckles, both lower latch levers;
+- exact current-world hinge/latch pivots and transformed world axis from the green Technical Art receiver;
+- exact Animation head `c688936a84f80f292e43587c9d3386bd717f8178`;
+- exact sequence digest `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
+- **all 101 owner samples** at the existing 40 Hz sequence sampling.
 
-- workflow `35277361273 — Technical Art Object motion current-world bridge`;
-- exact head `87aae9f8a895873756afb70b3cecb2cde387effd`;
-- result: **FAILURE**;
-- retained failed artifact `10521670547`;
-- artifact SHA-256 `58d36a33778f8dbf262d114185bd948dad0736ce39a919049e119b0b6e418082`.
+The exact sweep finds a real Environment regression:
 
-The failure is usefully localized. Before the render step, the workflow successfully:
+- historical minimum inner clearance falls to `0.04065895149632137 m`;
+- witness sample: owner sample `40` / `1.0 s`, on the opened-lid plateau;
+- this is about `19.341 mm` below the historical `60 mm` service-clearance contract.
 
-- checked out the exact Technical Art head;
-- downloaded the exact retained current-world, rigid-component and Animation evidence;
-- built the exact receiver-only motion plan;
-- rejected deliberate Animation identity drift;
-- checked current UC and proved its rigid-scene implementation remained generic;
-- downloaded the exact retained world payload / selected-roughness inputs;
-- composed the exact current-world observer dependencies;
-- downloaded pinned Godot `4.7.2`.
+So neutral-only world clearance does **not** automatically transfer to an articulated prop.
 
-It then failed at:
+## Bounded Map-owned successor
 
-**`Render exact owner samples 0 10 50 100 in current world`**.
+Environment changes only its own dressing candidate:
 
-The following verification step was correctly skipped. The failure artifact retains a green motion-plan receipt, not a green rendered-motion receipt.
+**rear outer service-frame edge += `0.020 m`**
 
-That receipt binds:
+No other frame edge moves.
 
-- current Object Animation head `c688936a84f80f292e43587c9d3386bd717f8178`;
-- sequence `lid-latch-open-hold-close-001`;
-- `101` samples at `40 Hz` over `2.5 s`;
-- exact source/target coordinate conversion;
-- exact Object source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- Technical Art Object donor `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
-- `environment_adoption=false`, `vfx_adoption=false`, `runtime_acceptance=false`, `art_qa_acceptance=false`, `canon=false`.
+No Object source, Object world placement, Animation, Technical Art receiver, Building, Nature, Weather, camera or light is changed.
 
-Environment therefore does not infer target-host motion from that structurally valid plan.
+Exact successor result:
 
-Environment handoff comment on PR #45:
+- candidate rear outer edge: `4.890707 m`;
+- complete 101-sample minimum inner clearance: `0.060658951496320945 m`;
+- minimum witness remains sample `40`, proving the candidate closes the actual worst case rather than hiding it;
+- readable-path separation remains `1.3907569999999998 m`;
+- current Building footprint separation remains `1.189293000000001 m`;
+- Object stays above the current-world ground through the full sweep.
 
-- `5721582755`.
+The Environment-owned reusable rule is now:
 
-## Object Animation / Rigging boundary
+**`DYNAMIC_WORLD_PROPS_REQUIRE_THEIR_FULL_OWNER_MOTION_SWEEP_TO_FIT_THE_ENVIRONMENT_SERVICE_ZONE__DRESSING_MAY_EXPAND_ONLY_WITH_EXPLICIT_PATH_BUILDING_AND_SOURCE_CONTINUITY_EVIDENCE`**
 
-Animation's current source capture remains green and deliberately unchanged:
+This is reusable beyond this equipment case: neutral placement clearance is insufficient evidence once a prop becomes articulated.
 
-- Object Animation PR #10 head `c688936a84f80f292e43587c9d3386bd717f8178`;
-- `2.5 s / 40 Hz / 101 samples`;
-- latch release `0.00–0.25 s`;
-- lid motion starts at `0.25 s` after latch release;
-- latch re-engagement occurs in the final `0.25 s`;
-- current capture workflow `35272031691`: **SUCCESS**;
-- artifact `10518902156`, SHA-256 `29b1045f91b697305441042eb3d434510d186807e35d85d349dd3cd41ed951da`.
+## Dedicated verification
 
-Rigging's target-host boundary also remains green:
+Workflow:
 
-- Object Rigging PR #23 head `e5d4102b0b675cc0dc74d65f7afce1bdbf448726`;
-- workflow `35271210675`: **SUCCESS**;
-- artifact `10518665592`, SHA-256 `4ac8f36591adf4be0bf7a3ffd2ac3914` is **not** recorded because that shortened value would be false; the authoritative retained Rigging artifact SHA from the specialist status remains `4ac8f36591adf4be0bf1770bee6d9d0e078846142c1b7df6ceee42ae69a30bc8`.
+`35283231109 — Environment Object articulated service clearance`
 
-Visual QA independently reproduces the transported latch boundary geometry and explicitly keeps final shaded wall-clock keeper/lid motion acceptance blocked. Environment does not reopen source contact, Rigging, or Animation timing.
+Result:
 
-## Object VFX — technically proven owner state is now an Art-held donor
+**SUCCESS**
 
-Object VFX PR:
+Exact head proven:
 
-- PR #31 — `VFX: bind lid-release motes to equipment-case opening phase`;
-- current exact presentation head `1fc2eb89b7869b81a97614a586e04375a7ad0547`;
-- owner effect `lid-open-release-motes-001`;
-- owner seed `41027`;
-- `18` deterministic analytic billboard motes;
-- exact trigger `play_exact_lid_clip` at `0.25 s`;
-- open / draft / unmerged / mergeable.
+`955db478f5642c8cd1ebc86a32fe2c67b1c2621f`
 
-The requested real wall-clock/two-context VFX presentation proof is real and green:
+Substantive gates all passed:
 
-- workflow `35272206644`: **SUCCESS**;
-- artifact `10519072445`;
-- archive SHA-256 `7afca1cba57a60ca77113663e51fa7c2392fc27cfe2770b9c4138af96e801ebe`;
-- continuity three-quarter: `23` retained frames / `14` active-effect frames;
-- left-oblique seam: `21` retained frames / `13` active-effect frames;
-- exact static closure at `0.20 s` and `0.80 s`;
-- active `0.40 s` effect visible in both contexts.
+- exact Technical Art artifact digest verified;
+- exact retained combined-world artifact digest verified;
+- exact rigid component map / motion plan identities verified;
+- current multi-asset runtime identities verified across retained real-scene samples;
+- all 101 owner samples evaluated;
+- predecessor 60 mm service-clearance regression reproduced;
+- exact +20 mm rear-only successor restores >=60 mm;
+- path separation preserved;
+- Building non-overlap preserved;
+- no ground penetration;
+- Environment adoption remains false.
 
-Fresh Art Direction 036 changes the downstream Environment truth boundary. The consecutive wall-clock packet exposes a long, countable, near-linear warm billboard chain through the strongest active interval, approximately `0.36–0.61 s`. Art therefore records:
+Fail-closed negative control:
 
-`HOLD_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_FINAL_PRESENTATION_036__TWO_CONTEXT_WALLCLOCK_EXPOSES_RIGID_BEAD_TRAIL`
+- Environment contract copied with only `+0.010 m` rear expansion;
+- verifier rejects it because it cannot restore the `0.060 m` articulated clearance;
+- workflow records `PASS_REJECTED_INSUFFICIENT_10MM_SERVICE_FRAME_EXPANSION`.
 
-and requests exactly one **VFX-owned temporal/spatial irregularity repair**, while retaining:
+Retained artifact:
 
-- owner seed `41027` by default;
-- exact trigger and Animation timing;
-- seam-local secondary hierarchy;
-- brief active-window character;
-- exact inactive closure.
+- ID `10523556615`;
+- size `16,580 B`;
+- GitHub digest `sha256:937e7382b59fef5360eb4fbe6409a2f887b67293c7333f2c1f0d6c3f30bdc930`;
+- independently downloaded archive reproduced SHA-256 `937e7382b59fef5360eb4fbe6409a2f887b67293c7333f2c1f0d6c3f30bdc930`.
 
-Environment will not seed-shop, retime Animation, move review cameras, brighten/enlarge/densify the effect, or author the VFX repair itself.
+The proof consumes retained real Godot multi-asset scene evidence, but the **successor frame itself is not yet rendered or aesthetically accepted**. That boundary remains explicit.
 
-The currently green Runtime MultiMesh result for the held effect remains useful exact-current-owner evidence, but Art has correctly withheld final visual transfer until VFX repairs the owner state and Runtime rebinds if necessary.
+## Scope / handoffs recorded
 
-Environment handoff comment on Object VFX PR #31:
+Technical Art PR #45:
 
-- `5721584119`.
+- comment `5722187498`;
+- Environment consumes the exact green pivots / axis / frame adapter unchanged;
+- no Technical Art repair is requested.
 
-## Building scan — no duplicate Environment lane
+Animation Map PR #46:
 
-Building remains active in its own source/geometry chain.
+- comment `5722188378`;
+- Environment consumes the exact frozen owner sequence unchanged;
+- no retime, easing, key or choreography change is requested.
 
-Freshest directly relevant open work includes:
+Historical Environment PR #24:
 
-- Hard Surface PR #17: corrected utility-panel nearest-body-face clearance by changing panel center standoff `0.08 -> 0.10 m`, yielding the intended exact `0.02 m` physical body gap;
-- Geometry PR #18: explicitly rebinds the unchanged utility-panel service-surface chart to that exact source successor without transferring historical donor identity;
-- separate planar-role / hard-normal / Runtime / Technical Art lanes remain open around the Building receiver identity and cost boundary.
+- comment `5722189093`;
+- PR #24 remains rollback/default;
+- new articulated service-envelope work lives downstream on PR #49;
+- Environment adoption remains false until rendered successor review.
 
-Environment already proved the corrected utility-panel current-world receive in the prior activation. The new Geometry chart rebind is not a reason to reopen Map placement, materials or Environment adoption this hour.
+Art Direction / independent Visual QA handoff:
 
-## Nature scan — current sampled receive remains separate
+- review the eventual **rendered +20 mm rear-edge service-frame successor**, not this spatial JSON result;
+- do not reinterpret the spatial PASS as appearance acceptance.
 
-Nature's compact-east response remains independently active:
+Runtime handoff:
 
-- VFX PR #11 owns the exact compact-east source response;
-- Animation PR #13 has a source-local exact-state playback/seam PASS;
-- Runtime PR #12 has a strong single-blend-shape CPU submission reduction with a measured buffer-memory and small normal-lit visual tradeoff;
-- Map Animation PR #44 separately owns current-world playback characterization;
-- Art Direction's compact-east crest-salience hold remains separate.
+- no new runtime representation is requested by the spatial proof;
+- retain Runtime/device authority if/when the successor dressing enters a target-device scene.
 
-Environment does not retime, amplify, optimize or re-author compact-east while those lanes are active. The already-retained sampled compact-east current-world contribution remains part of the Environment rollback evidence only.
+## Object / VFX scan — no duplicate lane
 
-## Weather scan — no new Environment mutation justified
+Object VFX PR #31 has advanced beyond the prior Art-held owner state:
 
-Weather source ownership remains stable:
+- current exact VFX repair-v2 head `bc114ee7ec876107892ccedeefc8e5020315488a`;
+- owner seed remains `41027`;
+- count remains `18`;
+- exact Animation trigger remains `0.25 s`;
+- VFX changed only subordinate temporal/spatial irregularity;
+- dedicated workflow `35278507621`: **SUCCESS**;
+- artifact `10521288521`;
+- archive SHA-256 `521575306651a0c3b41280315da4c75df6d55ae3a2ae0e6e8b40ba740bf81d17`.
 
-- Weather VFX PR #2 owns the visual-only deterministic streak field;
-- Weather Procedural PR #3 owns bounded seed-family variation;
-- Environment's current world continues to retain the already-proven source-authored width presentation and the full `1,224` fixed-camera projected-width observation set from the established current-world evidence chain.
+The repaired effect is technically green, but final Art Direction / independent Visual QA acceptance and Runtime rebind remain separate. Environment does **not** duplicate the VFX repair, seed-shop, retime the effect, or prematurely compose it into the world this activation.
 
-No fresh Weather owner result requires an Environment recomposition in this activation. Environment does not reinterpret visual wind as physical wind and does not open another Weather variant lane.
+The earlier full-world VFX convergence gate therefore narrows to downstream acceptance/rebind; it no longer blocks the independent Environment service-envelope proof completed here.
 
-## Fresh Object structural lane noted, not consumed
+## Animation scan — active lane remains separate
 
-Object Geometry PR #33 now has a derived outward rigid-shell orientation candidate over the same `31` rigid groups / `812` triangles. It reports source winding conflicts and a derived orientation-only repair while keeping `source_adopted=false`.
+Map Animation PR #46 has its own current-world real wall-clock proof:
 
-Environment does not silently replace the current proven Object geometry with that candidate. If Object/Technical Art later adopts a new exact source/transport identity, Map receiving evidence must rebind explicitly.
+- exact head `c2695f654f9dd44312ca5d205eceb27f7c2680ee`;
+- frozen Object Animation source head `c688936a84f80f292e43587c9d3386bd717f8178`;
+- sequence `2.5 s / 40 Hz / 101 samples`;
+- workflow `35277836297`: **SUCCESS**;
+- `68` distinct exact source sample indices observed during live playback;
+- `29` shaded current-world review frames retained.
 
-## Current Environment convergence contract
+Environment uses the owner sample contract only for spatial clearance and does not enter Animation's wall-clock, easing or perceptual motion lane.
 
-Environment will create the next full-world articulated Object + phase-bound VFX composition only after **both** of these are true on exact owners:
+## Object Geometry / Materials / culling scan — explicitly not consumed
 
-1. **Articulated current-world receiver gate** — a dedicated current-world target-host motion proof succeeds on the exact rigid receiver while preserving the already-proven neutral material / normal / UV0 / selected-roughness / world-placement identities and unrelated Building / Nature / Weather state.
-2. **Owner VFX presentation gate** — VFX returns the Art-requested owner repair and Art Direction + independent Visual QA accept that exact repaired presentation boundary for downstream world review.
+Fresh Art Direction and Visual QA remain focused on the separate Object winding/culling boundary.
 
-Then Environment owns one bounded composition step:
+Geometry PR #33's source-space outward-order candidate is not automatically production-safe in the current Materials receiver: direct owner order under backface culling loses manufactured shell faces, while a receiver-local reversed-order reference is visually close to the two-sided reference.
 
-- stack the exact accepted articulated Object receiver into the retained multi-asset world;
-- stack the exact accepted owner VFX onto its exact Animation phase;
-- preserve Building, Nature, Weather, selected roughness, footprint and camera/light identities unless an owner explicitly changes them;
-- prove pre-trigger / active / post-effect attribution in real world evidence;
-- preserve rollback to the current static Environment world;
-- leave Runtime/device acceptance and final Art/QA world appearance separate.
+Environment does not solve that by:
+- rewriting Object source winding;
+- globally reversing triangles;
+- disabling culling;
+- or changing its current proven Object receiver.
 
-Until then:
+That transport/culling convention remains Object Technical Art + Materials + Art/QA + Runtime work and is outside this service-clearance lane.
 
-**`environment_adoption=false`**.
+## Building scan — no duplicate lane
+
+Building's active current receiver remains:
+
+- `184 vertices / 276 triangles / 5 surfaces`;
+- exact corrected utility-panel clearance already received by Environment;
+- Building source / Geometry / Technical Art / Runtime planar-role and normal/culling work remain separately owned.
+
+The new +20 mm Object service-frame rear edge still remains about `1.189293 m` from the current Building footprint, so this Environment successor does not create a new Building placement or source-authoring requirement.
+
+## Nature scan — no duplicate lane
+
+Nature compact-east and rear-tree source identities remain present in the retained real-scene motion packet.
+
+Active Nature VFX / Animation / Runtime / Art lanes continue to own:
+- compact-east response;
+- current-world playback;
+- blend-shape/runtime optimization;
+- crest salience / appearance judgment.
+
+Environment makes no Nature amplitude, timing, geometry, material or culling change.
+
+## Weather scan — no duplicate lane
+
+The current-world motion packet preserves the established Weather source-width presentation identity while Object articulation changes only the Object receiver.
+
+Environment makes no Weather seed, source-width, presentation, physical-wind or simulation change.
+
+The established Environment Weather-width evidence chain remains the source for its full fixed-camera projection measurements; this service-clearance lane does not replace it.
+
+## Current Environment adoption boundary
+
+Spatial candidate state:
+
+**PASS**
+
+Environment production/adoption state:
+
+**HOLD**
+
+The next legitimate Environment-owned step, once it is worth spending another scene-render lane, is narrow:
+
+1. render the exact +20 mm rear-edge frame successor in the current articulated multi-asset world;
+2. retain the historical frame as A/B rollback;
+3. show at least neutral and opened-lid plateau contexts without moving cameras/lights or altering Object motion;
+4. hand appearance judgment to Art Direction + independent Visual QA;
+5. keep Runtime/device acceptance separate.
+
+Environment must not use this spatial PASS to auto-adopt the successor or to infer VFX, collision/navigation, gameplay, CANON or production readiness.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- current-world Object motion PASS;
-- final Object VFX presentation acceptance;
-- VFX repair implementation;
-- Object physics/collision/gameplay validity;
-- arbitrary-camera VFX robustness;
+- rendered visual acceptance of the +20 mm successor frame;
+- Environment adoption;
+- final VFX acceptance;
+- VFX + articulation full-world convergence;
+- Object winding/culling production adoption;
+- collision/navigation or gameplay clearance;
 - target-device performance;
-- Building/Nature/Weather automatic successor adoption;
-- source adoption of Object Geometry PR #33;
-- final environment polish;
+- Building/Nature/Weather successor adoption;
 - CANON;
 - production/game readiness;
 - Environment / World Art mastery.
 
 ## Four-root check
 
-**Truth:** the old static-host blocker is updated rather than repeated: neutral rigid receiving is now green, while current-world motion is genuinely red and the current owner VFX is genuinely Art-held. No isolated PASS is promoted into world convergence.
+**Truth:** the stale “motion bridge red” statement is corrected. The green articulated receiver is consumed exactly, and the new 40.659 mm dynamic-clearance regression is recorded rather than hidden behind the neutral 60 mm PASS.
 
-**Agency / non-domination:** Environment does not seize Technical Art motion implementation, Animation timing, Rigging mechanics, VFX repair, Runtime representation, Art preference, QA or source ownership.
+**Agency / non-domination:** Environment changes only its own service-frame candidate. Object source, Animation, Technical Art, VFX, Building, Nature, Weather, Runtime, Art and QA keep their authorities.
 
-**Continuity:** PR #24 remains the rollback/default; PR #45's neutral PASS, motion failure artifact and owner identities remain separately addressable; historical Environment evidence is not rewritten.
+**Continuity:** PR #24 remains rollback/default; PR #49 stacks on exact PR #45; both predecessor and successor clearances are retained; a deliberate insufficient +10 mm candidate is preserved as fail-closed evidence.
 
-**Wisdom before speed:** the studio waits for the two actual missing owner gates instead of forcing a flashy but false full-world animated VFX composition from stale or failing inputs.
+**Wisdom before speed:** the smallest 20 mm rear-only dressing successor is chosen because it restores the already-existing 60 mm contract while preserving path and Building separation, instead of moving the Object, retiming Animation, enlarging the whole service zone, or inventing a new gameplay rule.
 
 The four AXM roots remain the merge gate.
