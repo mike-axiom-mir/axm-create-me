@@ -1,190 +1,217 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **PASS_40_ANIMAL_GODOT_ARRAYMESH_RESOURCE_REUSE_41_TO_1 / PROOF_HOST_MEDIAN_MINUS15P94_P95_MINUS18P59 / EXACT_41KEY_RECEIVER_READBACK_MATCH / HOLD_DYNAMIC_REGION_SHADED_DEVICE_ART_QA_CANON_PRODUCTION**
+State: **PASS_41_ANIMAL_PERSISTENT_VERTEX_BUFFER / SURFACE_REBUILDS_41_TO_0 / PROOF_HOST_MEDIAN_MINUS93P90_P95_MINUS93P99 / 41_OF_41_RENDER_PAIRS_BYTE_IDENTICAL / HOLD_PRODUCTION_SHADED_DEVICE_ART_QA_CANON**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, prior Runtime status, and fresh Art Direction, Visual QA, Technical Art and open constellation work before changing any Runtime state.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, prior Runtime status, and current Art Direction / Visual QA / Technical Art status before changing Runtime state.
 
-`axm-create-me` remains **coordination only**. Runtime implementation/evidence remains in the owning design repository. Universal Creation product code was not changed by Runtime.
+`axm-create-me` remains **coordination only**. Runtime implementation and evidence stay in the owning design repository. Universal Creation product code was not modified.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Constellation scan / non-overlap
 
-Fresh coordination shows:
+Runtime continued the already-open Animal Runtime PR #29 rather than opening a duplicate optimizer.
 
-- Art Direction and Visual QA are currently concentrated on compact-east Map playback delivery. They accept exact-key continuity but still hold final continuous-motion appearance until reviewable wall-clock rendered playback exists. Runtime did not duplicate that Animation/QA lane.
-- Object VFX PR #31 has since reached a green target-host result for its bounded phase-bound motes. Runtime did not open a second VFX/performance lane there because no stronger measured Runtime budget question displaced the existing Animal evidence already awaiting completion.
-- Animal Technical Art PR #3 has advanced beyond the exact predecessor consumed by Runtime. Current Technical Art head `1ca28d29c7e1aaa095c11aaa6085716669230cb3` now has a fresh successful target-host adapter run `35261179299` and a successful UC rigged-receiver dependency-closure run `35261179289`.
-- Runtime therefore finished the already-open Animal lifecycle measurement rather than opening a duplicate optimizer or silently transferring evidence to a newer producer head.
+The fresh ownership picture remains compatible with that choice:
 
-## Selected bounded improvement — completed pass 40
+- Animal Technical Art owns the exact Godot target-host packet and current UC receiver-continuity evidence.
+- Rigging / Geometry own the deformation and direction-frame semantics.
+- Art Direction / Visual QA own final rendered appearance and acceptance.
+- Runtime owns lifecycle, submission cost, culling/memory tradeoffs and target-device follow-up.
+- `axm-create-me` owns only coordination/status.
+
+Current Technical Art receiver authority consumed by this pass:
+
+`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
+
+Current UC receiver dependency continuity was separately rebound to:
+
+`452b179cccff8acdde8930f7bde8662e52f86949`
+
+No UC product code was changed.
+
+## Selected bounded improvement — completed pass 41
 
 Repository: `mike-axiom-mir/axm-animal-design`
 
-Draft Runtime PR: **#29 — `Runtime: reuse Animal direction-frame ArrayMesh receiver`**
+Existing draft Runtime PR: **#29 — `Runtime: reuse Animal ArrayMesh and persistent vertex buffer`**
 
 Branch: `studio/runtime-animal-target-host-mesh-reuse-001`
 
 Exact measured Runtime head:
 
-`9db88b7629df025be1c157c19ca258e3ff0ce483`
+`57d6f10ab04694d4fea8ef0803ac32f8623b15e6`
 
 Scoped result:
 
-**`PASS_ANIMAL_GODOT_ARRAYMESH_RESOURCE_REUSE_41_TO_1__HOLD_DYNAMIC_REGION_SHADED_DEVICE`**
+**`PASS_ANIMAL_GODOT_PERSISTENT_VERTEX_BUFFER_UPDATE__41_TO_0_SURFACE_REBUILDS__41_RENDER_PAIRS_IDENTICAL__HOLD_DEVICE_ART`**
 
-The bounded question was whether one Godot `ArrayMesh` object could preserve identity across the exact 41-key right-side owner-reconstructed direction-frame sequence while keeping the same surface rebuild/readback path and all receiving tolerances unchanged.
+Pass 40 had already reduced `ArrayMesh.new()` resource construction from `41 -> 1`, but still performed `41` full surface rebuilds over the 41 authored keys. Pass 41 removes that remaining lifecycle churn without changing the Technical Art packet.
 
-## Before / after
+## Before / after representation
 
-Before:
+Pass-40 baseline:
 
-- `41` authored keys;
-- `41` fresh `ArrayMesh.new()` resource constructions;
-- `41` surface constructions.
+- one persistent `ArrayMesh`;
+- **41** complete surface rebuilds per 41-key playback;
+- **41** surface constructions;
+- no vertex-region updates.
 
-Candidate:
+Pass-41 candidate:
 
-- `1` `ArrayMesh.new()` construction;
-- one persistent `ArrayMesh` instance identity across all 41 keys;
-- `41` surface constructions remain intentionally unchanged through `clear_surfaces()` + the same `add_surface_from_arrays()` path.
+- one persistent `ArrayMesh`;
+- one persistent surface created once with `Mesh.ARRAY_FLAG_USE_DYNAMIC_UPDATE`;
+- **0** surface rebuilds during the 41-key playback;
+- **1** surface construction to establish the receiver;
+- **41** `surface_update_vertex_region()` calls, one per authored key;
+- UV and index buffers remain untouched.
 
-Exact direct construction reduction:
+Measured structural reduction:
 
-- **41 -> 1**;
-- **40 fewer resource objects**;
-- **97.5609756% fewer `ArrayMesh` constructions**.
+- surface rebuilds: **41 -> 0 = 100% fewer**;
+- surface constructions needed for the 41-key receiver: **41 -> 1 = 97.5609756% fewer**.
 
-This pass does **not** claim persistent surface-buffer reuse or dynamic vertex/attribute-region updates.
+The candidate uses Godot's own exact engine-packed `vertex_data` captured from the verified control surfaces instead of manually reproducing private vertex-buffer encoding.
+
+Prepared payload tradeoff:
+
+- **1,680 B per key**;
+- **68,880 B cached across all 41 keys**.
+
+That cache is an explicit memory-for-submission-time tradeoff and is excluded from the timed playback sweep preparation cost.
 
 ## Measured proof-host timing
 
-Pinned host: Godot `4.7.2-stable (official)` in the GitHub proof environment.
+Pinned target host:
 
-Measurement method:
+- Godot `4.7.2`;
+- GL Compatibility;
+- Mesa llvmpipe GitHub proof host.
 
-- five warmup rounds;
+Protocol:
+
+- five warmup sweeps;
 - 31 alternating baseline/candidate measured sweeps;
-- 41 keys per sweep;
-- `Time.get_ticks_usec` timing source.
+- 41 authored keys per sweep.
 
-Observed sweep timing:
+Observed submission timing:
 
-- baseline median: **138 us**;
-- candidate median: **116 us**;
-- median delta: **-15.9420289855%**;
-- baseline p95: **156 us**;
-- candidate p95: **127 us**;
-- p95 delta: **-18.5897435897%**.
+- baseline median: **164 us**;
+- candidate median: **10 us**;
+- median delta: **-93.9024390%**;
+- baseline p95: **183 us**;
+- candidate p95: **11 us**;
+- p95 delta: **-93.9890710%**.
 
-These are proof-host submission measurements only. They are not target-device FPS, total-frame CPU, GPU, VRAM, thermal or battery claims.
+These are proof-host submission measurements only. They do **not** establish target-device FPS, total-frame CPU, GPU, VRAM, thermal or battery performance.
 
-## Exact receiver equivalence
+## Renderer-visible correctness
 
-The workflow first re-proved the exact green Technical Art target-host baseline and then exercised the candidate through the same 41-key readback contract.
+The pass first re-proved the exact current Technical Art target-host packet in Godot 4.7.2.
 
-Baseline and candidate returned the same receiving metrics:
+Runtime then compared the pass-40 full-surface-rebuild control against the persistent-buffer candidate through a target-renderer debug observer that directly exercises:
 
-- frames: `41`;
-- maximum POSITION vector delta: `0.0`;
-- maximum NORMAL vector delta: `0.000119617572636344`;
-- maximum NORMAL angle: `0.00685342985639846°`;
-- maximum TANGENT xyz vector delta: `0.000170235201949254`;
-- maximum TANGENT angle: `0.00975335804322514°`;
-- maximum UV delta: `0.0`;
-- tangent-W mismatch count: `0`;
-- index mismatch count: `0`.
+- POSITION through rendered geometry/silhouette;
+- NORMAL through deterministic vertex-shader data;
+- TANGENT through deterministic vertex-shader data.
 
-The evidence metric remains the Technical Art stable near-parallel form:
+Across all exact 41 authored keys:
 
-`atan2(|a×b|/(|a||b|), (a·b)/(|a||b|))`
+- control/candidate render pairs: **41**;
+- byte-identical pairs: **41 / 41**;
+- changed pixels: **0**;
+- maximum channel delta: **0 LSB**.
 
-with the same `0.01°` self-check and unchanged position/vector/angular/UV/index acceptance gates.
+The observer is demonstrably live rather than blind:
 
-## Visual tradeoff for Art / QA
+- baseline key 0 versus baseline key 20 changes **7,811 pixels**;
+- maximum control delta: **214 LSB**.
 
-Recorded tradeoff:
+Fail-closed mutation: changing the retained equivalence result to only 40 identical pairs / one changed pixel is rejected by the verifier.
 
-**`NONE_OBSERVED_AT_RECEIVER_ARRAY_READBACK_ALL_41_KEYS__FRESH_SHADED_RENDER_NOT_RUN`**
+## Visual and culling tradeoff for Art / QA
 
-Runtime reauthored no position, normal, tangent, UV or index arrays. The candidate changes lifecycle only.
+Measured visual result:
 
-That supports a low-risk receiving statement, but it is **not** a shaded visual-equivalence claim. Fresh rendered A/B, bilateral receiving, dense/continuous motion and final appearance remain with Art Direction / Visual QA / Technical Art owners.
+**`NONE_OBSERVED_41_OF_41_POSITION_NORMAL_TANGENT_DEBUG_RENDER_PAIRS_BYTE_IDENTICAL`**
 
-## Exact verification and retained evidence
+This is strong target-renderer evidence for the bounded buffer-update representation, but it is **not** production-material shaded acceptance.
 
-Dedicated workflow:
+Persistent surfaces also need a stable culling bound because per-key surface reconstruction no longer refreshes the bound. Runtime therefore uses one custom AABB spanning all 41 authored keys.
 
-**`35255504869 — Runtime Animal direction-frame ArrayMesh reuse evidence` — SUCCESS**.
+Measured culling tradeoff:
 
-The successful job explicitly completed:
+- full-motion envelope volume: `0.0809175978957847`;
+- median per-key AABB volume: `0.0672689644958417`;
+- envelope / median ratio: **1.2028964397x**.
 
-- exact Runtime-head checkout;
-- exact green Technical Art target-host predecessor binding;
-- exact retained Technical Art artifact binding;
-- Rigging owner and source transport binding;
-- exact UC receiver binding;
-- unchanged Technical Art receiving-contract tests;
-- exact 41-key packet rebuild;
-- Godot 4.7.2 setup;
-- baseline re-proof;
-- candidate lifecycle measurement;
-- fail-closed negative control;
-- evidence retention/upload.
+The larger bound prevents stale-culling disappearance, but can reduce culling tightness. Art / Runtime should review this on the eventual target receiver rather than treating it as free.
 
-Retained Runtime artifact:
+## Preserved failures / no silent rewrite
 
-- ID `10513665515`;
-- size `260,863 B`;
-- SHA-256 `5809c5b0d58743fe908d163dd30657de6ed00ea711f1c718276269be9c08ddb1`;
+Pass 41 required three distinct corrections, and all failed evidence remains preserved.
+
+1. **Manual packing failed correctness** — Runtime head `fbc9c8a86daa299c6a3bf2b9aa421cf30b01df41`, workflow `35267861278`, artifact `10516719596`, SHA-256 `a00a9af5192bc7c923e1f4a1891faa7880a3c47eec263d82c1e04e664eaf7413`.
+2. **Engine-packed candidate + unsuitable CPU readback observer remained HOLD** — head `79c3fead177996e7b825885701c877c81a1f46c7`, workflow `35268361181`, artifact `10518260489`, SHA-256 `3c2c5ae33fc0706994aff24fbb491e54d175fe0826411fae6136dd8a8735a83c`.
+3. **First rendered observer failed in harness setup before measurement** — head `050a4675d550312c533cea5fa24e5897ca32e8e0`, artifact `10517816717`, SHA-256 `f4fccfa5e47787c27da4b2558e48aca98cb3734e0bc63bcdc5f2dbf976ac9eb4`. The repair changed only camera setup order; candidate and acceptance gates were not weakened.
+
+The superseded dynamic-region workflow was retired after the final render-backed workflow became green, avoiding two competing active acceptance workflows in the same lane.
+
+## Exact successful verification and retained evidence
+
+Dedicated successful workflow:
+
+**`35269033255 — Runtime Animal persistent dynamic-render repair evidence` — SUCCESS**.
+
+Retained artifact:
+
+- ID `10517956976`;
+- size **351,092 B**;
+- SHA-256 **`4e4062004015f4bf2f14c99b7179ee8b362063699a98c80dc383f4baf9740486`**;
 - independently downloaded and rehashed to the same digest.
 
-Fail-closed control: relabelling the candidate back to 41 resource constructions is rejected rather than allowing visual/readback identity alone to fake a Runtime optimization PASS.
+The workflow binds:
 
-## Technical Art lineage after measurement
+- pass-40 Runtime ancestry;
+- exact current Technical Art receiver head and retained target-host artifact;
+- current UC receiver dependency closure without modifying UC;
+- both failed dynamic-buffer predecessors;
+- the failed first render harness;
+- pinned Godot 4.7.2;
+- exact 41-key render comparison;
+- observer-sensitivity control;
+- fail-closed mutation;
+- retained images and metrics.
 
-Pass 40 remains bound to the exact measured Runtime head and the exact green Technical Art authority consumed by its workflow.
+## Current PR state
 
-After that measurement completed, Animal Technical Art advanced to current head:
+Animal Runtime PR #29 remains **open / draft / unmerged / mergeable** after the pass-41 documentation update.
 
-`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
-
-Fresh same-head Technical Art evidence includes:
-
-- `35261179299 — UC direction-frame target-host adapter evidence` — **SUCCESS**;
-- `35261179289 — UC rigged receiver dependency continuity evidence` — **SUCCESS**.
-
-Latest PR #29 metadata reports the draft **open / unmerged / mergeable**. Runtime does not treat mergeability or the newer Technical Art green state as automatic transfer of Runtime timing evidence. A later Runtime pass may explicitly rebind before attempting the next deeper optimization.
+Its title/body now describe both pass 40 and pass 41, and the PASS remains explicitly bound to exact measured Runtime head `57d6f10a...`; later documentation-only branch commits do not silently become new measurement heads.
 
 ## Highest-value next Runtime gap
 
-The dominant remaining cost in this exact candidate is now visible rather than guessed: **surface construction remains 41 -> 41**.
+The reusable lifecycle result is now much stronger: for this exact fixed-topology receiver, object churn and surface-rebuild churn can both be removed while renderer-visible POSITION/NORMAL/TANGENT output remains identical at all 41 authored keys.
 
-The next reusable Runtime question is therefore not another resource-object tweak. It is whether this fixed-topology receiver can safely update only changing vertex/direction attributes in persistent target-host buffers, with exact readback and visual evidence, instead of clearing/rebuilding the whole surface every key.
+The next bounded Runtime question should **not** re-open this same exact-key optimization. The remaining risk is representativeness:
 
-That successor is intentionally **not claimed or implemented in this pass**. It should first rebind to the latest proven Technical Art receiver lineage and remain separate from Art/QA, Rigging and UC ownership.
+- bilateral target-host receiving;
+- continuous/interpolated playback between authored keys;
+- target-device CPU/GPU/FPS/VRAM and culling behavior;
+- production-material shaded equivalence.
 
-## Handoff / authority boundary
-
-- **Technical Art:** owns the target-host packet/receiver contract and current UC dependency closure.
-- **Rigging / Geometry:** own post-skin owner-frame semantics and topology.
-- **Runtime:** owns only lifecycle/performance evidence and any later dynamic-buffer candidate.
-- **Art Direction / Visual QA:** own final rendered appearance and independent visual acceptance.
-- **Universal Creation:** remains generic; no Animal-specific Runtime policy was moved there.
-- **`axm-create-me`:** coordination-only.
+A later Runtime pass should choose only one of those once the owning Technical Art / Art / QA receiver is available, and should not duplicate their active lanes.
 
 ## Explicit non-claims
 
-Pass 40 does **not** establish:
+Pass 41 does **not** establish:
 
-- persistent surface-buffer reuse;
-- dynamic vertex/normal/tangent region updating;
 - bilateral Runtime receiving;
-- continuous/interpolated playback;
-- fresh shaded equivalence;
+- continuous/interpolated motion equivalence;
+- production-material shaded equivalence;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery improvement;
 - final Art Direction acceptance;
 - independent Visual QA acceptance;
@@ -196,12 +223,12 @@ Pass 40 does **not** establish:
 
 ## Four-root check
 
-**Truth:** queued CI is now reported as the success it actually became, with exact timing/readback/artifact evidence; proof-host timing is not inflated into target-device performance.
+**Truth:** the first two candidate proofs and the first render harness failure remain visible; the final PASS is based on the successful render-backed measurement, not rewritten predecessor evidence.
 
-**Agency / non-domination:** Runtime changes lifecycle only and leaves source semantics, Technical Art receiving, Rigging ownership and Art/QA approval with their owners.
+**Agency / non-domination:** Runtime changes lifecycle/buffer submission only. Technical Art, Rigging, Art Direction and Visual QA retain their own acceptance authority.
 
-**Continuity:** failed/stale predecessor history remains visible, pass 40 retains exact identities, and newer Technical Art work is acknowledged without silently rewriting the measured lineage.
+**Continuity:** pass 40 remains intact as the baseline; pass 41 extends it in the same PR and binds exact producer/UC continuity rather than silently replacing lineage.
 
-**Wisdom before speed:** the pass stops at the measured 41 -> 1 resource reuse win and names the remaining 41 -> 41 surface cost instead of jumping directly to an unproved dynamic-buffer claim.
+**Wisdom before speed:** the optimization records its 68,880 B payload cache and 1.20289644x culling-envelope tradeoff instead of presenting the 93.9% proof-host submission reduction as a free universal win.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
