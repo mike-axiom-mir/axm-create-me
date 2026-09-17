@@ -2,55 +2,56 @@
 
 Date: 2026-09-17
 
-State: **PASS_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_OWNER_SEED_41027_RETAINED_FRAME_BASELINE_035 / NO_REVIEW_SEED_REPLACEMENT_JUSTIFIED_ON_CURRENT_FIXED_SAMPLE_EVIDENCE / FREEZE_OWNER_SEED_AND_EFFECT_PARAMETERS_FOR_NEXT_PRESENTATION_PROOF / HOLD_FINAL_OBJECT_VFX_ACCEPTANCE__WALLCLOCK_SECOND_CONTEXT_PRODUCTION_RUNTIME_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
+State: **HOLD_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_FINAL_PRESENTATION_036__TWO_CONTEXT_WALLCLOCK_EXPOSES_RIGID_BEAD_TRAIL / RETAIN_OWNER_SEED_41027_AND_SEAM_LOCAL_SECONDARY_CUE / REQUEST_ONE_VFX_OWNED_TEMPORAL_SPATIAL_IRREGULARITY_REPAIR / HOLD_MULTIMESH_VISUAL_ADOPTION_UNTIL_REPAIRED_OWNER_REBIND / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art Direction state, fresh specialist statuses, current open PRs, commits/heads and visual evidence across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art Direction state, fresh specialist statuses, current open PRs/heads and newly retained visual evidence across the full Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc design constellation.
 
-`axm-create-me` remains **coordination only**. No product implementation was placed here. Product/evidence implementation remains in the owning design repositories.
+`axm-create-me` remains **coordination only**. No product implementation was placed here.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Constellation choice / non-overlap scan
 
-The highest-leverage newly ready Art-owned decision is now Object VFX PR #31.
+The highest-leverage newly completed Art-owned decision is the exact presentation proof requested by Direction 035 on Object VFX PR #31.
 
-Why it displaced another compact-east pass this activation:
+Why this displaced other work:
 
-- **Map / Nature:** Direction 034 already holds final compact-east motion acceptance on crest salience. There is no newer viewer-presentation packet beyond that exact HOLD, so another review would duplicate the same evidence.
-- **Object:** VFX PR #31 now has a green exact-head four-seed real-Godot comparison surface. Procedural has closed its seed-family CI and independent Visual QA has separately reproduced owner continuity, active-window localization and inactive closure. Both explicitly leave seed preference to Art.
-- **Character:** current review-006/transport optimization remains visually stable under its frozen retained-key baseline; no fresh stronger Art delta displaced Object VFX.
-- **Animal:** newest Runtime lifecycle work has no fresh shaded A/B and keeps Art/QA held.
-- **Building:** newest activity is dominated by source-truth repair, UV/chart successor rebinding, receiver/normal authority and pending downstream receiving. Predecessor appearance cannot silently transfer.
-- **Weather:** current seeded field / atmosphere lanes expose no stronger newly completed Art-owned preference gate.
-- **Weapon / Armor / Unit / Misc:** current open-PR scan exposes no stronger active visual receiver.
+- **Object VFX:** Direction 035 explicitly froze seed `41027` and asked for real wall-clock playback in the continuity camera plus one materially different seam-observing context. VFX has now returned exactly that evidence on a green exact head, so the pending Art question is directly answerable rather than speculative.
+- **Object Runtime:** PR #32 now has a real `18 -> 1` VFX draw-call batching result, but it is a representation lane and explicitly leaves Art/QA acceptance open. It should not displace review of the owner visual effect it optimizes.
+- **Object Rigging / Animation:** fresh source-capture and target-hierarchy work is structurally strong, but Visual QA already owns its static target review and final current shaded keeper/lid motion remains a separate pending surface. Art does not duplicate that lane here.
+- **Map / Nature:** compact-east Direction 034 remains a presentation HOLD on crest salience; no newer viewer-facing packet supersedes it in this activation.
+- **Animal:** the tangent-frame / Runtime chain remains downstream-owned; no fresh production-shaded Art packet displaces the explicit Object handoff.
+- **Building:** current work is dominated by source-truth, chart successor, source/consumer normal-authority and current-world receiver rebinding. Those exact successor chains remain Technical Art / Geometry / Environment owned until a new comparable visual surface is ready.
+- **Character:** current review-006 retained-key appearance remains frozen; newer transport/runtime work has no stronger new Art delta than the Object presentation proof.
+- **Weapon / Armor / Unit / Misc:** no stronger active reviewable visual lane surfaced. Weapon and Armor remain at initial-commit state in the fresh commit scan; Unit currently has no commit history; Misc remains at its initial commit.
 
-No active owner lane is duplicated. Art changes no VFX implementation, Procedural generator, Animation timing, Runtime representation, source geometry, material, camera or gameplay state.
+No active owner lane is duplicated. Art changes no VFX implementation, Runtime representation, Animation timing, Rigging, source geometry, Technical Art transport, gameplay or physics.
 
 ## Selected bounded visual-direction improvement
 
-New direction packet:
+New packet:
 
-`studio/direction/OBJECT_LID_RELEASE_MOTE_OWNER_BASELINE_DIRECTION_035.md`
+`studio/direction/OBJECT_LID_RELEASE_MOTE_WALLCLOCK_PRESENTATION_DIRECTION_036.md`
 
 Packet commit:
 
-`df27d74a5302d28fe6596635b379ba20a2f3df3d`
+`eeec03e349d50141e6b4d1f7c7b94f2ff714668f`
 
 Decision:
 
-**`PASS_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_OWNER_SEED_41027_RETAINED_FRAME_BASELINE_035`**
+**`HOLD_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_FINAL_PRESENTATION_036__TWO_CONTEXT_WALLCLOCK_EXPOSES_RIGID_BEAD_TRAIL`**
 
-Companion preservation rule:
+Preservation rule:
 
-**`NO_REVIEW_SEED_REPLACEMENT_JUSTIFIED_ON_CURRENT_FIXED_SAMPLE_EVIDENCE__FREEZE_OWNER_SEED_AND_EFFECT_PARAMETERS_FOR_NEXT_PRESENTATION_PROOF`**
+**`RETAIN_OWNER_SEED_41027_AND_SEAM_LOCAL_SECONDARY_CUE__REQUEST_ONE_VFX_OWNED_TEMPORAL_SPATIAL_IRREGULARITY_REPAIR`**
 
-Final hold:
+Runtime boundary:
 
-**`HOLD_FINAL_OBJECT_LID_RELEASE_MOTE_VISUAL_ACCEPTANCE__WALLCLOCK_SECOND_CONTEXT_PRODUCTION_RUNTIME_TARGET_DEVICE_PENDING`**
+**`HOLD_MULTIMESH_VISUAL_ADOPTION_UNTIL_REPAIRED_OWNER_REBIND`**
 
-The improvement is not a new effect or seed. It closes the visual-selection ambiguity: the current owner seed is good enough to remain the next-review baseline, and the three supplied review seeds do not show enough fixed-sample visual gain to justify replacing it.
+The improvement is a visual-direction correction, not a new effect implementation: the wall-clock packet now shows the exact delivered cue clearly enough to identify one bounded style defect and freeze everything else that already works.
 
 ## Exact Object VFX evidence inspected
 
@@ -58,165 +59,178 @@ Repository: `mike-axiom-mir/axm-object-design`
 
 PR: **#31 — `VFX: bind lid-release motes to equipment-case opening phase`**
 
-PR state at inspection: **open / draft / unmerged / mergeable**.
+PR state: **open / draft / unmerged / mergeable**.
 
-Exact current head:
+Exact current VFX presentation head:
 
-`5f8b7bef1a8a0d1babeba7945962c83cd938529b`
+`1fc2eb89b7869b81a97614a586e04375a7ad0547`
 
-Current seeded-family workflow:
+Owner identity retained:
 
-`35266335772 — Object VFX seeded mote family target review` — **SUCCESS**.
-
-Retained artifact:
-
-- ID `10516159313`;
-- size `967,335 B`;
-- SHA-256 `8b7bc88219e422abebc22bbb530e915c75517f2b217f67ff98e2f4c068f59d63`;
-- independently downloaded and rehashed by Art Direction to the same digest;
-- pinned target Godot `4.7.2-stable` / X11 / GL Compatibility / llvmpipe.
-
-Frozen owner identity:
-
-- owner VFX head `7994d6f28050053f07dd355d8c54a983b0e8268b`;
+- effect `lid-open-release-motes-001`;
 - owner effect blob `83c41db21e16847ac0a69215facd8697853eeb4f`;
 - owner seed `41027`;
 - `18` deterministic analytic billboard motes;
-- exact existing Animation trigger at `0.25 s`;
-- semantics remain stylized release cue only, not dust/fluid/pressure/airflow/physical release.
+- exact trigger `0.25 s` / `play_exact_lid_clip`;
+- visual-only semantics, not physical dust/fluid/pressure/airflow.
 
-Procedural donor:
+Wall-clock workflow:
 
-- PR #11 head `112dcf8fb900d74f68de997d4f3845ccddbb1955`;
-- review-only seeds `17489 / 57203 / 91811`;
-- generator/effect parameters remain unchanged;
-- no automatic VFX or Art adoption.
+`35272206644 — Object VFX owner-mote wall-clock presentation` — **SUCCESS**.
+
+Retained artifact:
+
+- ID `10519072445`;
+- size `1,706,060 B`;
+- archive SHA-256 `7afca1cba57a60ca77113663e51fa7c2392fc27cfe2770b9c4138af96e801ebe`;
+- exact Godot receiver `4.7.2-stable` / X11 / GL Compatibility / llvmpipe.
+
+Real-playback retained evidence:
+
+- continuity three-quarter: `23` frames, `14` active-effect frames, about `0.121–0.913 s`;
+- left-oblique seam: `21` frames, `13` active-effect frames, about `0.125–0.894 s`.
+
+Static closure / active checks:
+
+| context | 0.20 s | 0.40 s | 0.80 s |
+|---|---:|---:|---:|
+| continuity three-quarter | `0 active / 0 changed px` | `18 / 1,859 px` | `0 / 0` |
+| left-oblique seam | `0 / 0` | `18 / 1,992 px` | `0 / 0` |
+
+The VFX specialist also retained a capture-free timing trace with no viewport readbacks or disk writes inside the timed loop. Its proof-host elapsed time remains descriptive only and is not used here as performance authority.
 
 ## Direct Art observations
 
-Art directly inspected all four seeds at retained active samples `0.30 / 0.40 / 0.52 s` and checked inactive closure at `0.20 / 0.80 s`.
+Art directly inspected all `44` retained wall-clock frames from both cameras plus the exact static control/candidate frames.
 
-All four variants stay inside the same supplied-camera visual family: a small warm lid/seam-local trail that remains subordinate to the case/lid silhouette. No variant changes the basic hierarchy enough to warrant effect reauthoring.
+### Properties retained as good
 
-Exact active target-host evidence:
+- the cue remains clearly tied to the lid/body opening seam;
+- it stays secondary to the case/lid silhouette rather than dominating the scene;
+- it has clean pre-trigger and post-effect closure;
+- it remains warm and readable in both materially different valid contexts;
+- no gross teleport, scene-wide corruption or giant plume is visible in the retained packet.
 
-| seed | role | 0.30 s | 0.40 s | 0.52 s |
-|---:|---|---:|---:|---:|
-| `41027` | owner baseline | `1,142 px / 9 active` | `1,859 / 18` | `1,850 / 18` |
-| `17489` | review only | `1,299 / 10` | `1,807 / 18` | `1,764 / 18` |
-| `57203` | review only | `1,148 / 9` | `1,777 / 18` | `1,746 / 18` |
-| `91811` | review only | `1,186 / 10` | `1,708 / 18` | `1,728 / 18` |
+These are not to be discarded in repair.
 
-Direct visual comparison:
+### Newly exposed presentation defect
 
-- **41027:** clear seam-origin diagonal release trail, restrained enough to remain a secondary accent; no retained-frame defect asks for a seed change.
-- **17489:** first active sample spreads farther/higher and presents a more detached leading accent; this is materially different but not a hierarchy/readability improvement.
-- **57203:** closest visual alternative and slightly tighter later in the active window; no clear gain sufficient to justify replacing an exact historical owner baseline.
-- **91811:** redistributes the same support with a farther leading accent in later samples; again no clear improvement.
+Across the strongest active plateau, roughly `0.36–0.61 s`, both cameras repeatedly show many warm square billboards as a long countable near-linear chain. The combination of equal-ish square marks, repeated spacing and persistent alignment makes the effect read more like **rigid dotted beads / a segmented exhaust-like trail** than the intended brief irregular release accent.
 
-The owner seed also reproduces the previous green owner candidate/control rasters exactly, so retaining it preserves continuity rather than choosing novelty for its own sake.
+This was not safely decidable from Direction 035's isolated fixed samples; it becomes clear only in the requested consecutive playback evidence.
 
-Independent Visual QA has already reproduced:
+The same read appears from both review contexts, so Art does not treat it as a single-camera accident.
 
-- exact owner baseline byte continuity;
-- no pre-trigger/post-effect residue at `0.20 / 0.80 s`;
-- bounded active localization;
-- no gross case/lid silhouette break, detached case component, whole-frame shift or unrelated scene corruption.
+Supporting Art-side diagnostic on the exact `0.40 s` candidate-control delta masks, pixels above `1 LSB`, 8-connected components:
 
-QA correctly keeps final seed preference, wall-clock timing, broader cameras and target-device behavior out of its PASS. Direction 035 resolves only the seed-preference part for the next review baseline.
+- continuity: `16` visible effect components; component-centroid cloud is about `99.7420%` one-principal-axis variance;
+- left-oblique: `12` visible effect components; about `99.6156%` one-principal-axis variance.
 
-## Art decision boundary
+The component counts are below 18 because some mote raster regions overlap. This metric only supports the direct visual observation; it is not a universal VFX quality threshold.
 
-### Accepted for next review
+## Direction 036 visual contract
 
-Owner seed **`41027`** remains the Art review baseline.
+Keep owner seed `41027` as the provenance baseline by default. Do **not** reopen random seed shopping.
 
-### Frozen
+Keep:
 
-Until a real presentation defect is shown, keep unchanged:
+- warm seam-local secondary hierarchy;
+- current trigger and Animation timing authority;
+- brief active-window character;
+- exact inactive closure;
+- source case/lid identity and existing effect semantics.
 
-- owner seed `41027`;
-- particle count and owner parameter ranges;
-- color/size/lifetime/velocity ranges;
-- seam anchor and source geometry;
-- Animation trigger/timing/easing/order;
-- current case/lid material state;
-- current comparison camera/light for baseline continuity.
+Repair only the excessive temporal/spatial regularity so the active cue no longer presents a long countable bead chain.
 
-### Explicitly not requested
+The next version must not solve that by becoming brighter, larger, denser, longer-lived, wider, more scene-dominant, or by moving cameras / retiming Animation.
 
-Art does **not** request:
+Art does not prescribe the implementation knob. VFX retains authority over the smallest effect-owned repair.
 
-- more random seeds;
-- brighter/larger/denser motes;
-- wider spread;
-- VFX retiming;
-- camera changes to manufacture readability;
-- Procedural adoption of Art authority;
-- Runtime implementation changes before temporal presentation evidence.
+One candidate is enough.
+
+## Runtime PR #32 boundary
+
+Repository: `mike-axiom-mir/axm-object-design`
+
+PR: **#32 — `Runtime: batch lid-release motes with one MultiMesh`**
+
+Exact measured Runtime head:
+
+`b45dfee4c0a6ae92b8bc5056d4846331075fdadc`
+
+Current exact result remains useful:
+
+- isolated VFX draw calls `18 -> 1` at the retained all-active sample;
+- total frame draw calls `49 -> 32`;
+- primitives unchanged `848 -> 848`;
+- no measured proof-host buffer/video-memory win;
+- six legacy/batched visual pairs have `0` pixels above `1 LSB`, maximum RGB delta `1 LSB`, with `3/6` byte-identical.
+
+This is strong representation evidence for the **current exact owner effect**. It does not repair the bead-chain style issue.
+
+If VFX changes effect parameters or billboard presentation to satisfy Direction 036, Runtime must rebind its batching proof to that exact repaired owner state before final visual adoption transfers.
 
 ## Next evidence contract
 
-The next useful proof is presentation, not another seed search.
+VFX should return one repaired owner candidate through:
 
-Return:
+1. the same real wall-clock `AnimationPlayer.play()` path;
+2. the same continuity three-quarter camera;
+3. the same left-oblique seam camera;
+4. pre-trigger / active / post-effect closure;
+5. consecutive frames covering the current problem region, especially around `~0.40 / 0.50 / 0.57–0.60 s`;
+6. exact owner-vs-repair identity and A/B where practical;
+7. independent Visual QA after owner repair.
 
-1. real wall-clock playback of owner seed `41027` through the existing lid-opening Animation path;
-2. the current review camera for continuity;
-3. one materially different valid camera/context that still observes the opening seam;
-4. pre-trigger and post-effect closure;
-5. enough consecutive playback to judge whether the cue reads as a brief secondary release accent rather than dotted rigid beads, teleporting points, an exhaust plume or a scene-dominating trail.
-
-Keep capture instrumentation outside the timed path where practical and preserve exact source/effect/timing identities.
-
-If that presentation exposes a real problem, VFX can open one evidence-backed repair. Otherwise, the seed family stays closed.
+Acceptance target: preserve seam localization and subordination while removing the long regular bead-chain presentation in both retained contexts.
 
 ## Handoffs
 
 ### VFX / Object PR #31
 
-Freeze owner seed `41027` and current effect parameters. The review seeds have completed their purpose as comparison evidence. Next Art value is wall-clock owner playback plus one additional seam-observing context.
+Make one bounded owner-side irregularity repair. Keep seed `41027`, trigger and Animation timing stable by default. Do not reopen seed family search or enlarge/brighten the effect to force readability.
 
-### Procedural / Object PR #11
+### Runtime / Object PR #32
 
-No more seeded-family expansion requested. Re-open only if VFX semantics materially change or a real owner-side requirement creates a new bounded variation problem.
+Preserve the current `18 -> 1` result as exact-current-owner evidence. Do not treat it as final Art adoption while Direction 036 is open. Rebind only after the VFX owner has an accepted repaired exact state.
 
 ### Animation
 
-No timing/easing/order change requested. Preserve the exact trigger relationship while presentation is reviewed.
-
-### Runtime
-
-Production particle representation and target-device performance remain separate. Direction 035 cannot be used as device/runtime acceptance.
+No retiming/easing/order/phase change requested.
 
 ### Visual Observer / QA
 
-Re-review the next owner-seed presentation packet for temporal readability, seam localization, inactive closure, repeatability and the second context. Preserve current fixed-sample QA PASS as historical evidence.
+Review the repaired two-context wall-clock packet independently for bead-chain reduction, seam localization, subordinate hierarchy, active-window continuity and clean closure. Earlier fixed-sample QA remains historical evidence.
+
+### Procedural
+
+No additional seed generation requested.
 
 ### Map / Nature
 
-Direction 034 remains the current compact-east motion state: source response frozen, final motion acceptance held on crest salience until a cleaner viewer-facing packet exists. Object Direction 035 does not overwrite or transfer that decision.
+Direction 034 remains intact and separate. Object Direction 036 does not change compact-east source timing, crest-salience hold or Environment state.
 
 ## Prior Art Direction continuity retained
 
 - Direction 032: compact-east sampled spatial response PASS.
 - Direction 033: compact-east exact-key receiver continuity PASS.
-- Direction 034: final compact-east motion HOLD because one retained proof-host loop erased the authored crest.
-- Direction 035: Object owner seed `41027` retained as the fixed-sample VFX baseline; no alternate seed replacement justified yet.
+- Direction 034: final compact-east motion HOLD because a retained proof-host loop erased the authored crest.
+- Direction 035: Object seed `41027` retained as the fixed-sample review baseline; no alternate seed replacement justified.
+- Direction 036: exact requested wall-clock/two-context Object presentation exposes a rigid bead-trail read; final VFX presentation held pending one VFX-owned irregularity repair.
 
-These are separate evidence domains and do not inherit acceptance from one another.
+No acceptance transfers between these evidence domains by analogy.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- owner seed `41027` as universally optimal;
-- final wall-clock VFX motion quality;
-- arbitrary-camera robustness;
-- physical dust/pressure/airflow/fluid/release behavior;
-- gameplay/controller/collision/damage/interaction acceptance;
-- production particle implementation;
+- a universal VFX randomness or centroid-linearity threshold;
+- a required particle implementation/algorithm;
+- physical dust, pressure, airflow, fluid or mechanical-release behavior;
+- production particle-system suitability;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- arbitrary-camera robustness;
+- gameplay/controller/physics acceptance;
 - final Object VFX adoption;
 - final compact-east motion acceptance;
 - CANON;
@@ -226,12 +240,12 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-**Truth:** Art independently rehashed the exact current archive and directly inspected the retained family frames. The PASS is limited to selecting a fixed-sample review baseline; temporal and device questions remain explicit holds.
+**Truth:** Direction 036 is based on the exact new wall-clock evidence Direction 035 requested. Good properties and the newly visible defect are recorded separately; green CI and Runtime efficiency are not inflated into aesthetic acceptance.
 
-**Agency / non-domination:** Art chooses the visual review baseline but does not seize VFX implementation, Procedural generation, Animation timing, Runtime/device, QA, gameplay or physics authority.
+**Agency / non-domination:** Art defines the perceptual target but does not seize VFX implementation, Animation timing, Runtime representation, QA, gameplay or physics authority.
 
-**Continuity:** owner seed `41027` remains byte-stable against the historical green owner baseline; review seeds remain preserved as evidence rather than being silently adopted or erased. Direction 034 remains intact for compact-east.
+**Continuity:** owner seed `41027`, earlier fixed-sample evidence, failed predecessors and Runtime batching proof remain addressable. The next move is one bounded successor repair rather than a silent rewrite or seed reset.
 
-**Wisdom before speed:** the system does not change a stable owner seed merely because alternate random outputs exist. Effort moves to the unresolved wall-clock presentation question where new evidence can actually improve quality.
+**Wisdom before speed:** the studio does not promote/optimize a visually held effect merely because engineering evidence is green. Repair the owner cue first, then rebind downstream representation evidence.
 
 The four AXM roots remain the merge gate.
