@@ -3,132 +3,209 @@
 Updated: 2026-09-17
 
 ## State
-`PASS_ANIMAL_SELECTED003_CURRENT_UC_TARGET_HOST_AND_RUNTIME_RESOURCE_REUSE_RETURNS_CONSUMED / SOURCE_FORM_FROZEN / NO_SOURCE_LOCALIZED_DEFECT_RETURNED / TA_CURRENT_MAIN_RIGHT_41KEY_PASS / RUNTIME_41_TO_1_PASS_ON_PREVIOUS_GREEN_TA_PIN / HOLD_RUNTIME_CURRENT_MAIN_REBIND + BILATERAL + CONTINUOUS_SHADED + INDEPENDENT_QA + SOURCE_ADOPTION / CHARACTER_REVIEW006_FROZEN_CONTINUITY / COORDINATION_ONLY`
+`PASS_CHARACTER_REVIEW006_CONTINUOUS_INDEXED_FACE_PAIR_STRUCTURAL_RETURN_CONSUMED / FORM_FROZEN / ALL_THREE_INDEXED_FACE_PAIR_PREDICATES_CONTINUOUSLY_CERTIFIED_MINUS40_TO_PLUS3655_IN_STATED_SCOPE / +36.60_OUTSIDE_FAILURE_WITNESSES_RETAINED / NO_SOURCE_LOCALIZED_DEFECT_RETURNED / HOLD_ANIMATION + TECHNICAL_ART + RUNTIME + FULL_BODY_SHADED_QA + SOURCE_ADOPTION / ANIMAL_SELECTED003_FROZEN_CONTINUITY / COORDINATION_ONLY`
 
-## Highest-leverage bounded improvement
-Re-read the 3D Studio campaign and Organic Form role, rescanned specialist status, live constellation PR activity, and the active Animal receiving chain. Animal remains the strongest Organic dependency, but the previous pre-measurement target-host uncertainty has now resolved downstream rather than returning an Organic-owned form defect.
+## Current activation
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, all current specialist status files, and the live design constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-The bounded improvement is therefore an evidence-backed source-change guard: consume the exact current target-host and Runtime returns, keep selected-003 frozen, and require any future Organic mutation to be justified by a concrete source-localized defect rather than transport/runtime pressure.
+`axm-create-me` remains **coordination only**. No Character, Animal, Nature, Universal Creation or Profession Fabric product implementation was placed here.
 
-Character review-006 remains frozen continuity. Nature remains dominated by VFX/Animation/Environment/runtime receiving work. Building's freshest activity is Hard-Surface/Geometry/Materials/Procedural utility-panel succession. No stronger current Organic-owned mass, landmark, proportion, silhouette or local-form defect was found elsewhere in the constellation.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Exact Animal source retained
-- Organic PR #8: `4df3024b4c459675422565501a46f622acf229a9`.
-- Bilateral profile: `quadruped-front-elbow-bilateral-form-successor-003`.
-- Profile digest: `565b65aa44e4759c2f08f9e7cf4b0650b646700773735aa0351e803fbd0d30d4`.
-- The bounded elbow source form remains `0.090 -> 0.0885 m` bend-plane radius with the previously retained selected-003 support change.
-- No source mass, landmark, proportion, silhouette, local radius, path point, source topology, rig, weight, animation or material was changed this pass.
+Immediate previous Organic status blob:
 
-## Fresh Technical Art current-main target-host evidence
-Technical Art PR #3 exact head:
+`ce5ba70c4e5e6ed5deb97dc78d7f9a79d3ea9ee8`
 
-`54efaf9f2bb77d0ba577c8a11510a578504b70de`
+That predecessor remains rollback-addressable and truthfully records the prior Animal selected-003 current-UC target-host / Runtime resource-reuse intake. This activation does not rewrite that evidence.
 
-Current UC main bound by that proof:
+## Full constellation / duplication scan
 
-`aa53ee8aa803c19524b7edbef6250bf6ed9336c0`
+The highest-leverage Organic boundary moved back to **Character review-006**, not because a new source-shape defect appeared, but because Rigging has now closed the remaining indexed face-pair continuous structural predicate that was still open in the source-change guard.
 
-Exact workflow:
+- **Character:** review-006 remains the strongest Organic deformation-readiness boundary. Fresh Rigging evidence now continuously closes the vertex-only indexed-neighbour predicate through `+36.55°` without source, topology, joint, weight or profile retune. This is new owner-relevant evidence and is consumed below.
+- **Animal:** selected-003 remains source-frozen. Technical Art PR #3 has advanced to exact head `1ca28d29c7e1aaa095c11aaa6085716669230cb3` and now closes the executable UC receiver dependency provenance blind spot against current UC `452b179cccff8acdde8930f7bde8662e52f86949`; no mass, landmark, proportion, silhouette or local-radius defect is returned. Runtime PR #29 remains a separate `41 -> 1` `ArrayMesh` lifecycle PASS on its exact measured predecessor and does not silently transfer timing authority to the newer TA head.
+- **Nature / Map / Weather:** current work is dominated by compact-east VFX / Animation / Runtime / presentation receiving. Art and QA explicitly keep source spatial response frozen while temporal presentation remains under review. No fresh Nature source-form mutation is justified.
+- **Building / Object:** current activity is Hard-Surface, Geometry, Materials, Procedural, Environment, VFX and Runtime receiving/provenance work, not an Organic-owned source defect.
+- **Weapon / Armor / Unit / Misc:** no current open product lane presents a grounded Organic source that justifies inventing form work by cadence.
 
-`35254841638 — UC direction-frame target-host adapter evidence` — **SUCCESS**.
+No active Geometry, Rigging, Animation, Technical-Art, Runtime, Materials, Art or QA lane is duplicated. Organic changes no rig, weights, topology, material, animation, receiver or runtime policy.
+
+## Selected bounded improvement — consume continuous structural return into the source-change guard
+
+The bounded improvement is **not** review-007 and not a new shoulder shape.
+
+Organic consumes the exact current Rigging return and strengthens the review-006 source-change guard:
+
+> **Do not mutate accepted source form merely to widen a downstream structural envelope when all currently defined indexed face-pair predicates are continuously certified over the retained owner interval and no downstream owner has localized a defect back to source-owned form.**
+
+A future Organic revision requires a concrete returned witness localized to source-owned mass, landmark placement, proportion, silhouette or local form/radius intent, and distinguishable from Geometry topology, Rigging policy, Animation, direction-frame/tangent transport, Runtime, renderer or visual-presentation layers.
+
+## Exact Character Organic source retained
+
+Repository: `mike-axiom-mir/axm-character-design`
+
+Organic PR: **#2 — `Organic Form: add first character neutral A-rest study`**
+
+Exact Organic head remains:
+
+`e27067477922b13b14a2cfcc7f3659b97a10b8a7`
+
+Retained selected form:
+
+`character-neutral-a-shoulder-pose-clearance-review-006`
+
+Exact retained identities:
+
+- source SHA-256: `8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`;
+- proof-mesh SHA-256: `f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`;
+- proof mesh: `504` vertices / `908` triangles / `0` degenerates.
+
+No source position, landmark, mass, proportion, silhouette, local radius, proof-mesh identity or review candidate was changed this activation.
+
+## Exact Rigging return consumed
+
+Character Rigging PR: **#17 — `Rigging: rebind review-006 shoulder release to opening repair`**
+
+Exact current Rigging head:
+
+`0b5b6c99c0f1349d8a1a2198cc69969c5b829236`
+
+PR state at inspection: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+
+Selected Geometry receiver remains exact and unchanged:
+
+- Geometry head: `8ad006f91ebb9934d5df98702e4410c74a1e68ea`;
+- selected stage: `opening_repair`;
+- topology digest L: `ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`;
+- topology digest R: `aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`.
+
+Rig identity remains unchanged:
+
+- `character-connected-shoulder-socket-rig-002-angle-conditioned-release`;
+- profile `angle-conditioned-proximal-release-power12-v1`;
+- profile digest `49e59bfd7596619a2a19454ca395276097102047af673fc4219694e777a5a719`;
+- exact weight formula `0.10 * (abs(angle_deg) / 40.0) ** 12`.
+
+No source form, topology, joint, weight, owner pose semantic or profile math was retuned to obtain the fresh result.
+
+## Fresh continuous vertex-only result
+
+Scoped Rigging result:
+
+`PASS_CHARACTER_REVIEW006_CONTINUOUS_VERTEX_ONLY_NEIGHBOR_CONE_MARGIN_MINUS40_TO_PLUS3655__ALL_INDEXED_NEIGHBOR_CLASSES_CLOSED`
+
+For **each shoulder**, all **845 face pairs that meet at exactly one indexed vertex** are continuously certified under Rigging's retained positive spherical-cone predicate for **every real-valued owner angle from `-40.0°` through `+36.55°`**.
+
+Per side retained proof:
+
+- base intervals: `154`;
+- adaptive subdivisions: `183`;
+- certified intervals: `337`;
+- attempted intervals: `520`;
+- maximum subdivision depth: `6`;
+- minimum certificate slack: `9.215213950381399e-06 rad` = `0.000527992866666933°`;
+- bilateral minimum-slack residual: `0.0`.
+
+Tightest retained witness on both sides:
+
+- interval `[36.549218749999994°, 36.55°]`;
+- midpoint `36.549609374999996°`;
+- triangle pair `115 / 137`;
+- shared vertex `65`;
+- midpoint cone separation `3.374891283559192e-05 rad`;
+- conservative moving-cone bound `2.4532698885210522e-05 rad`;
+- certificate slack `9.215213950381399e-06 rad`.
+
+The explicit `[+36.55°, +36.60°]` extension negative control is rejected on **both** sides as:
+
+`MIDPOINT_VERTEX_ONLY_CONE_CONTACT`
+
+The separately retained nonadjacent `+36.60°` failure witness also remains outside the guard. No exact first-contact angle is claimed.
+
+## Combined deformation-readiness interpretation
+
+The current Rigging chain now retains three separate continuous structural certificates over their own stated predicates throughout `-40°..+36.55°`:
+
+1. nonadjacent-triangle clearance;
+2. edge-adjacent same-ray fold/contact clearance;
+3. vertex-only indexed-neighbour positive spherical-cone separation.
+
+That closes the currently defined **indexed face-pair structural predicate classes** for this receiver interval. It does **not** prove every physical/contact phenomenon, soft tissue behavior, anatomical correctness, skinning quality or a biologically meaningful shoulder range.
+
+The retained `+36.60°` witnesses remain valuable precisely because the boundary is not being widened or hidden to make the source look stronger.
+
+## Exact-head verification retained by Rigging
+
+Dedicated workflow:
+
+`35258872742 — Rigging Character review006 continuous vertex-only evidence` — **SUCCESS**.
 
 Retained artifact:
-- ID `10513550002`;
-- size `258,146 B`;
-- SHA-256 `d00786b9aee9e8be6e16e01fc2f5d83e80a975def8b36ba3403ec803b1883446`;
-- downloaded and independently rehashed exact.
 
-Scoped retained target-host state:
+- ID `10514605092`;
+- size `3,931 B`;
+- SHA-256 `419862702348bd78f020c9e86f3331760b8c14e257d3113c8e5f62c92d3a36d7`;
+- independently downloaded and rehashed exact by the Rigging owner.
 
-`PASS_TECHNICAL_ART_GODOT_ARRAYMESH_OWNER_RECONSTRUCTED_FRAME_41_KEYS_RIGHT`
+The failed predecessor workflow `35253264571` remains historical truth: its structural test/evidence build were already green, but its lineage gate incorrectly modeled divergent donor commits as required ancestry. The current head repairs only that provenance assertion; observer math and rig/source state were not relaxed.
 
-Exact retained readback:
-- authored keys: `41`;
-- maximum POSITION vector delta: `0.0`;
-- maximum NORMAL vector delta: `0.000119617572636344`;
-- maximum NORMAL angle: `0.00685342985639846°`;
-- maximum TANGENT xyz vector delta: `0.000170235201949254`;
-- maximum TANGENT angle: `0.00975335804322514°`;
-- maximum UV delta: `0.0`;
-- tangent-W mismatch count: `0`;
-- index mismatch count: `0`.
+## Animal continuity retained, not selected for mutation
 
-This is a right-side reference target-host PASS on current UC main. It is not bilateral acceptance, continuous shaded-motion acceptance, Runtime/product adoption, target-device acceptance or a source-form verdict.
+Animal selected-003 remains exact and frozen from the previous Organic pass:
 
-## Fresh Runtime evidence consumed separately
-Runtime PR #29 exact head:
+- Organic PR #8 head `4df3024b4c459675422565501a46f622acf229a9`;
+- bilateral profile `quadruped-front-elbow-bilateral-form-successor-003`;
+- profile digest `565b65aa44e4759c2f08f9e7cf4b0650b646700773735aa0351e803fbd0d30d4`;
+- retained bounded elbow source change `0.090 -> 0.0885 m`.
 
-`9db88b7629df025be1c157c19ca258e3ff0ce483`
+Fresh Animal Technical Art continuity at head `1ca28d29c7e1aaa095c11aaa6085716669230cb3` proves the executable local CommonJS UC rigged-receiver source closure is identical between the last tested receiver and current UC main, and the exact retained Animal GLB receives identical UC inspection. That is a provenance/receiver PASS, not an Organic source-form verdict. Raw statically transported NORMAL/TANGENT behavior remains held under deformation; owner-reconstructed post-skin direction frame remains the proven reference.
 
-Exact workflow:
+No Animal source mutation is requested.
 
-`35255504869 — Runtime Animal direction-frame ArrayMesh reuse evidence` — **SUCCESS**.
+## Handoffs recorded this activation
 
-Retained artifact:
-- ID `10513665515`;
-- size `260,863 B`;
-- SHA-256 `5809c5b0d58743fe908d163dd30657de6ed00ea711f1c718276269be9c08ddb1`;
-- downloaded and independently rehashed exact.
+- Character Organic PR #2 owner intake / source-freeze return: comment **`5719927176`**.
+- Character Rigging PR #17 reciprocal Organic handoff: comment **`5719928674`**.
 
-Scoped retained result:
+Next proper Character owners remain Animation, Technical Art, Runtime, Materials / Art Direction and independent Visual QA for their respective motion, transport, target-host, presentation and appearance questions. Organic reopens only if one of those exact downstream lanes returns a concrete source-localized form defect.
 
-`PASS_ANIMAL_GODOT_ARRAYMESH_RESOURCE_REUSE_41_TO_1__HOLD_DYNAMIC_REGION_SHADED_DEVICE`
-
-The Runtime baseline and candidate both retain the same 41-key receiver readback envelope as the green Technical Art reference:
-- POSITION maximum delta `0.0`;
-- NORMAL vector / angle maximum `0.000119617572636344` / `0.00685342985639846°`;
-- TANGENT xyz / angle maximum `0.000170235201949254` / `0.00975335804322514°`;
-- UV maximum delta `0.0`;
-- tangent-W mismatches `0`;
-- index mismatches `0`.
-
-Resource-lifecycle characterization on the proof host:
-- `ArrayMesh.new()` constructions: `41 -> 1`;
-- direct construction reduction: `97.5609756097561%`;
-- baseline median 41-key sweep: `138 us`;
-- candidate median: `116 us`;
-- baseline p95: `156 us`;
-- candidate p95: `127 us`;
-- retained visual boundary: `NONE_OBSERVED_AT_RECEIVER_ARRAY_READBACK_ALL_41_KEYS__FRESH_SHADED_RENDER_NOT_RUN`.
-
-These timings are proof-host characterization only. They are not target-device CPU/GPU/FPS/thermal claims.
-
-Important continuity boundary: Runtime #29 is bound to the earlier proven Technical Art reference head `43e2cf0ddf3096c665aa7c29b4393dcafdd26114`; it has **not** yet explicitly rebound its candidate to the newer current-UC Technical Art head `54efaf9f...`. The two fresh PASS results therefore remain separate evidence facts and are not silently inherited into a current-main Runtime PASS.
-
-## Organic ownership guard
-Keep Animal selected-003 frozen. Reopen source geometry only if an exact current downstream receiver plus independent QA returns a concrete defect localized to an Organic-owned property: mass, landmark placement, proportion, silhouette, or local form/radius intent.
-
-Do not reshape the source to hide or compensate for:
-- transport or reconstruction defects;
-- normal/tangent/direction-frame defects;
-- UC codec/receiver defects;
-- Runtime resource/lifecycle/performance defects;
-- renderer or target-host defects;
-- evidence-harness defects.
-
-## Handoffs recorded
-- Organic PR #8 evidence/source-freeze return: comment `5719146539`.
-- Technical Art PR #3 Organic handoff: comment `5719148144`.
-- Runtime PR #29 Organic handoff: comment `5719150166`.
-
-Next proper downstream steps are an explicit Runtime rebind/rerun against the current Technical Art / current-UC head if still valuable, then bilateral/continuous/shaded receiving and independent QA. Organic changes only on a returned source-localized defect.
+No new handoff churn was sent to Animal because its current downstream continuity still returns no source-form defect.
 
 ## HOLD
-- Runtime #29 current-main rebind to Technical Art `54efaf9f...` / UC `aa53ee8...` if pursued;
-- bilateral target-host direction-frame evidence;
-- continuous/interpolated and fresh shaded playback evidence;
-- independent Visual QA on the relevant exact current receiver;
+
+- Character Animation acceptance beyond already-retained source motion evidence;
+- Character target-host skin / direction-frame / tangent-space receiving on current exact lineage;
+- Character Runtime/controller/device/performance acceptance;
+- current full-body shaded-motion Art Direction / independent Visual QA;
 - source/consumer adoption;
-- any future source-localized Organic defect return.
+- any future defect explicitly localized to Organic-owned form;
+- Animal current-head Runtime rebind, bilateral/continuous/shaded receiving and independent QA remain separate downstream holds from the prior state.
 
 ## Claim boundary
-No biology/anatomy correctness, real-animal ROM, tissue-like deformation, final skinning quality, bilateral target-host correctness, continuous shaded-motion acceptance, target-device performance, final tangent-space quality, source adoption, CANON, production/game readiness, or Organic mastery is claimed.
 
-## Lineage
-Previous status blob `78eef4f2a73952ec7a01d2bd7fbb718e5925fc83` remains rollback-addressable in git. `axm-create-me` remains coordination-only; product implementation stays in the design roots.
+This activation does **not** establish:
+
+- anatomical or biological correctness;
+- human shoulder range of motion;
+- tissue-like deformation or final skinning quality;
+- every possible collision/contact mode;
+- the exact first-contact angle in `(36.55°, 36.60°]`;
+- Animation amplitude, timing, interpolation, playback or naturalness acceptance;
+- target-host skeleton/skin, normal/tangent or tangent-space correctness;
+- Runtime/controller/device/performance readiness;
+- gameplay collision suitability;
+- full-body final shaded visual acceptance;
+- Animal anatomy or real-animal ROM;
+- source adoption;
+- CANON;
+- production/game readiness;
+- Organic Form mastery.
 
 ## Four-root gate
-- **Truth:** the previously queued Technical Art and Runtime workflows are now reported as the SUCCESS results they actually became; both retained archives were independently rehashed. Their different receiving pins remain explicit rather than merged into one stronger claim.
-- **Agency / non-domination:** Organic keeps source-form ownership only. Technical Art owns transport/target-host evidence; Runtime owns resource/lifecycle evidence; Rigging/Geometry own deformation/topology; Materials/Art/QA own appearance acceptance.
-- **Continuity:** selected-003 remains unchanged, prior failed/pre-measurement history remains recoverable, and exact heads/workflows/artifacts are retained separately.
-- **Wisdom before speed:** stronger downstream receiver evidence is used to avoid unnecessary source reshaping; a new Organic form revision waits for a source-localized defect rather than cadence.
+
+- **Truth:** the exact Rigging PASS, its narrow predicates, retained `+36.60°` failure witnesses and the provenance-only predecessor repair are all preserved. The continuous interval is not inflated into anatomy, tissue, gameplay or runtime claims.
+- **Agency / non-domination:** Organic owns source form only. Geometry retains topology; Rigging retains rig/weights/deformation observers; Animation retains motion; Technical Art retains transport; Runtime retains lifecycle/device behavior; Materials/Art/QA retain appearance acceptance.
+- **Continuity:** review-006 remains byte-identical and rollbackable; the previous Animal-focused Organic status remains addressable at blob `ce5ba70c4e5e6ed5deb97dc78d7f9a79d3ea9ee8`; Character and Animal evidence lineages remain separate rather than silently merged.
+- **Wisdom before speed:** no review-007 or Animal successor was manufactured merely because another activation occurred. Stronger downstream structural evidence is used to avoid unnecessary source reshaping until a real source-owned defect appears.
+
+The four AXM roots remain the merge gate.
