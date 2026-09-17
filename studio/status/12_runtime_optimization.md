@@ -1,235 +1,187 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-18
-State: **PASS_45_ANIMAL_JOINT_INDEX_WIDTH_COMPACTION / 672B_TO_336B_JOINT_PAYLOAD / ORIGINAL_RUNTIME_GODOT_AB_PIXEL_IDENTICAL / CURRENT_TECHNICAL_ART_PRODUCER_ADOPTED / HOLD_TARGET_DEVICE_DEFORMED_FRAME_CANON**
+State: **PASS_46_ANIMAL_ANIMATION_KEY_IMPORT_BUDGET / 41_TO_19_KEYS / 820B_TO_380B_ANIMATION_PAYLOAD / 10296B_TO_9852B_GLB / MAX_Q_RESIDUAL_0.05472044_DEG / GODOT_VISUAL_TRADEOFF_RECORDED / HOLD_ART_QA_TARGET_DEVICE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, current Runtime status, and fresh Art Direction / Technical Art / VFX / Visual QA / receiving state before changing Runtime status.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, current Runtime status, and fresh Art Direction / Animation / Technical Art / Materials / VFX / Visual QA state before selecting work.
 
-`axm-create-me` remains **coordination only**. No Runtime product implementation was added here. Universal Creation product code was not modified.
+`axm-create-me` remains **coordination only**. Runtime implementation/evidence lives in `mike-axiom-mir/axm-animal-design`. Universal Creation product code was not modified.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Constellation scan / non-overlap
+## Fresh constellation / non-overlap scan
 
-Runtime did **not** reopen Object winding. Current Art Direction and QA explicitly hold optimization/adoption of that representation until Technical Art establishes the real transport winding convention.
+Runtime did **not** reopen Object VFX batching. Art Direction 038 now passes the repaired Object VFX irregularity-v2 close presentation at exact VFX head `bc114ee7ec876107892ccedeefc8e5020315488a`, but independent Visual QA of that exact repaired packet and Runtime rebind/equivalence remain explicit downstream gates. Existing Runtime PR #32 therefore remains bound to the older owner effect rather than being silently transferred.
 
-Runtime did **not** rebind pass-43 Object VFX batching to the repaired VFX-v2 packet yet. VFX explicitly retains Art / QA acceptance as the gate before Runtime transfers its old MultiMesh result to the repaired owner presentation.
+Runtime did **not** reopen Object winding. Technical Art has established the determinant-`-1` transport parity bridge and Materials has separately proven the corrected transport under the existing material family; final source adoption / Runtime target-device / Art/QA state remains separate. Pass 44 already answers the current known sequence-bound static-component batching question.
 
-Map Animation PR #48 is a fresh wall-clock Object receiver but its exact receiving workflow was not used as a new Runtime target during this activation; pass 44 already answers the sequence-bound static-component batching question for the preceding proven owner sequence.
+The fresh non-duplicated Runtime seam came from Animal Animation. Animation PR #5 exact head `eb21e0e0fd888bbb5fa41c73a6c0f1c731f662c2` now proves real Godot 4.7.2 `AnimationPlayer` `INTERPOLATION_LINEAR` agreement with the retained glTF `LINEAR` quaternion channel over 321 diagnostic samples. The exact retained Runtime normalized-u16 Animal GLB still serializes all 41 owner rotation keys, making redundant animation-key storage a ready bounded import-budget target.
 
-The materially changed ready lane is Animal import storage: existing Runtime PR #26 already measured `JOINTS_0` width compaction, and current Technical Art has now independently adopted that exact bounded representation rule in its producer. Runtime therefore advanced the existing lane instead of opening a duplicate optimizer.
-
-## Selected bounded improvement — pass 45
+## Selected bounded improvement — pass 46
 
 Repository: `mike-axiom-mir/axm-animal-design`
 
-Existing draft Runtime PR: **#26 — `Runtime: compact Animal glTF joint indices to byte width`**
+New draft Runtime PR: **#30 — `Runtime: reduce Animal animation key import budget`**
 
-Runtime exact measured head:
+Base: `studio/animation-quadruped-articulation-loop-001`
 
-`3b9bcbc6b038e0b6782987134b567350274aacfd`
+Exact measured Runtime head:
 
-Current Technical Art exact head:
+`13ba20d198d2b7c5e428167745d59927b3084004`
 
-`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
-
-PR #26 remains **open / draft / unmerged / mergeable**.
+PR #30 is **open / draft / unmerged / mergeable**.
 
 Scoped state:
 
-**`PASS_ANIMAL_GLB_JOINT_INDEX_WIDTH_COMPACTION__TECHNICAL_ART_PRODUCER_ADOPTED__HOLD_TARGET_DEVICE_DEFORMED_FRAME_CANON`**
+**`PASS_RUNTIME_ANIMAL_ANIMATION_KEY_BUDGET__VISUAL_TRADEOFF_RECORDED__HOLD_ART_QA_TARGET_DEVICE`**
 
-Runtime decision:
+This is representation-only. The source-authored clip remains 41 keys / 1.0 s / 40 Hz and is not retimed or rewritten. Runtime only tests whether fewer serialized glTF keys can reproduce the same owner curve within an explicit bound.
 
-**`KEEP_UNSIGNED_BYTE_FOR_EXACT_0_TO_1_JOINT_DOMAIN__NO_GENERIC_AUTO_ADOPTION_OUTSIDE_DECLARED_DOMAIN`**
+## Measure-before / after
 
-This activation does not rewrite the historical Runtime measurement. It closes the fresh producer-adoption continuity question using exact retained Runtime + Technical Art evidence.
+Exact retained control identity:
 
-## Measure-before / after — Runtime-owned representation evidence
+- source Runtime head `e7874c4a8dca1db48bc66f3546c2134f7d724456`;
+- control GLB SHA-256 `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`;
+- complete GLB **10,296 B**;
+- one glTF `LINEAR` quaternion channel;
+- **41** serialized time/quaternion keys;
+- animation accessor payload **820 B**.
 
-Exact retained control:
+Candidate method:
 
-- `84` render vertices;
-- `80` triangles;
-- `2` skin joints;
-- four joint slots per render vertex;
-- stored joint-index domain exactly `0..1`;
-- `JOINTS_0 = UNSIGNED_SHORT VEC4`;
-- JOINTS payload **672 B**;
-- complete GLB **11,148 B**;
-- GLB SHA-256 `ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`.
+- deterministic greedy interior-key removal;
+- compares the reduced curve to the exact 41-key control over **321 samples / 320 Hz diagnostic density**;
+- stable shortest-quaternion-chord angular error measurement;
+- explicit maximum curve residual **0.075°**;
+- endpoints retained;
+- peak key at `0.50 s` retained;
+- sparse/interleaved/non-FLOAT/unexpected animation layouts fail closed instead of being generalized silently.
 
-Exact Runtime candidate:
+Measured candidate:
 
-- `JOINTS_0 = UNSIGNED_BYTE VEC4`;
-- decoded joint rows unchanged;
-- every non-JOINTS accessor payload unchanged;
-- JOINTS payload **336 B**;
-- saving **336 B / 50%** at the accessor payload;
-- complete GLB **10,812 B**;
-- complete-file saving **336 B / 3.0139935%**;
-- candidate SHA-256 `36ae048f6a6d7db8ca3c4a6bcf4f87f3d79fc0d81e89dbe3b2a373782f4e1b6a`.
+- serialized keys **41 → 19**;
+- reduction **22 keys / 53.6585366%**;
+- animation accessor payload **820 B → 380 B**;
+- saving **440 B / 53.6585366%** in the bounded animation payload;
+- complete GLB **10,296 B → 9,852 B**;
+- complete-file saving **444 B / 4.3123543%**;
+- candidate SHA-256 `a8a32b58ad3bad44176a676b00f5cf1c20d1a2ec6da275b683d8f73a69088d6b`;
+- maximum dense quaternion residual **0.0547204398°**;
+- mean dense residual **0.0176527597°**;
+- worst diagnostic sample **152 / 321 = 0.475 s**.
 
-The Runtime compactor rejects unsupported/out-of-domain input rather than truncating it. Byte width is only allowed when every emitted joint index fits `0..255`.
+Retained authored indices in the serialized candidate:
 
-## Runtime real-engine receiver evidence
+`0, 2, 4, 6, 8, 12, 14, 16, 18, 20, 22, 24, 26, 28, 32, 34, 36, 38, 40`.
 
-Dedicated Runtime workflow:
+The 320 Hz schedule is evidence density only. It is not a retime, engine cadence request or new owner animation rate.
 
-**`35168507611 — Runtime Animal joint-index width budget evidence` — SUCCESS**.
+## Exact real-engine receiving evidence
 
-Pinned proof host:
+Dedicated workflow:
 
-- Godot `4.7.2-stable`;
-- X11;
-- GL Compatibility;
-- Mesa llvmpipe.
+**`35288829261 — Runtime Animal animation key budget evidence` — SUCCESS**.
 
-Measured control/candidate receiving equivalence:
+The workflow:
 
-- three retained pose observations per representation;
-- maximum pose-receipt delta **0.0**;
-- `80` triangles retained;
-- material bindings identical;
-- pinned UC generic rigged receiver accepts both representations with identical selected semantic inspection.
+- preserves the inherited Animal test suite;
+- re-downloads and SHA-verifies exact Runtime artifact `10477292250`;
+- reproduces the exact candidate bytes and expected SHA;
+- rejects a one-byte-corrupted control identity before candidate generation;
+- uses the exact historical Runtime Godot receiver from that retained artifact rather than inventing a new visual observer;
+- imports control and candidate separately through pinned Godot `4.7.2-stable` / X11 / GL Compatibility / Mesa llvmpipe;
+- retains worst-time and peak pose checks plus three shaded and three coverage A/B pairs.
 
-Art / QA tradeoff from the exact Runtime A/B:
+Receiver result:
 
-- fixed peak-pose render pairs: **2/2 byte-identical**;
-- coverage-mask pairs: **2/2 byte-identical**;
-- changed pixels: **0**;
-- maximum channel delta: **0 LSB**.
+- triangles remain **80 → 80**;
+- material bindings unchanged;
+- maximum retained pose-bounds delta **0.000406801700592041 m** (~**0.407 mm**).
 
-Runtime records:
+This is proof-host receiving evidence only, not target-device performance.
 
-**`NONE_OBSERVED__TWO_FIXED_VIEWS_AND_COVERAGE_IMAGES_BYTE_IDENTICAL`**.
+## Visual tradeoff for Art Direction / Visual QA
 
-This remains bounded retained-view evidence; it is not final tangent-space lookdev or arbitrary-camera acceptance.
+Runtime did **not** label the key reduction visually free.
 
-Runtime artifact:
+At exact peak pose `0.50 s`, the retained continuity shaded image and coverage mask are **byte-identical** between control and candidate.
 
-- ID **`10475517510`**;
-- size **142,842 B**;
-- SHA-256 **`2ce4925affb297644187fe14f26b0d189194125b813d07ded41de5bb37567947`**;
-- independently downloaded and rehashed to the same digest during pass 45.
+At the worst diagnostic time `0.475 s`, two fixed views show small but measurable deformation/silhouette differences:
 
-## Fresh Technical Art producer adoption
+- continuity shaded view: `9,850` raw changed pixels, but only **152 pixels >1 LSB** = **0.02199%** of the `960×720` frame;
+- continuity coverage mask: **59 changed pixels** = **0.00854%**;
+- alternate shaded view: `8,967` raw changed pixels, **564 pixels >1 LSB** = **0.08160%**;
+- alternate coverage mask: **81 changed pixels** = **0.01172%**;
+- maximum channel delta reaches `255` where tiny pose differences flip silhouette coverage between model and background; Runtime does not present that as a general interior shading delta.
 
-Current Technical Art same-head workflow:
+Direct fixed-view inspection shows no gross shape break, but this is still an explicit **Art/QA tradeoff** rather than automatic acceptance. Art Direction and independent Visual QA retain authority to decide whether the bounded key-storage win is perceptually acceptable.
 
-**`35261179354 — UC Technical Art joint-index width adoption evidence` — SUCCESS**.
+## Retained exact evidence
 
-Scoped Technical Art result:
+Artifact:
 
-**`PASS_TECHNICAL_ART_PRODUCER_ADOPTS_BOUNDED_JOINT_INDEX_WIDTH`**.
+- ID **`10525970648`**;
+- size **175,311 B**;
+- GitHub SHA-256 **`ad071f58796b606d707168af9619d988a497ba1a745dda8ac62b42e7f814b996`**;
+- independently downloaded and rehashed to the same digest after workflow completion.
 
-The Technical Art producer now chooses the smallest legal glTF unsigned component from its exact emitted joint-index domain instead of emitting 16-bit joint indices unconditionally.
+Artifact includes the exact control/candidate GLBs, build/final reports, exact historical Godot receiver, worker receipts, and all six retained A/B image pairs.
 
-Current producer result:
+## Authority / handoff
 
-- exact emitted joint domain `0..1`;
-- `JOINTS_0 = UNSIGNED_BYTE VEC4`;
-- JOINTS payload **336 B**;
-- producer GLB **10,948 B**;
-- producer GLB SHA-256 `8d9bfb80369bda09eaad786a35833cd5e04da5e608211f53648daaa1cde29566`;
-- complete-file reduction versus the retained 16-bit control: **200 B / 1.7940438%**.
+Runtime PR #30 records the complete measured tradeoff and requests **no automatic adoption**.
 
-The smaller total-file win than Runtime's post-build candidate is intentional and visible: Technical Art adds explicit provenance metadata describing the selected component type and width policy.
+- Animation retains source clip, timing and interpolation authority; the owner 41-key source remains unchanged.
+- Runtime owns this serialized key-budget candidate and proof-host receiving measurements.
+- Rigging / Technical Art retain deformation and producer/transport authority.
+- Art Direction / Visual QA own perceptual acceptance of the nonzero worst-time raster difference.
+- UC remains untouched and receives no Animal-specific key-reduction policy.
 
-Negative controls remain fail-closed:
+A producer-side or generic key-reduction rule should not be extracted from this single bounded clip without broader representation tests.
 
-- a joint index above byte range falls back to `UNSIGNED_SHORT`;
-- a joint index above the glTF unsigned-short range is rejected.
+## Continuity from pass 45 and earlier
 
-Technical Art adoption artifact:
+Pass 45 Animal `JOINTS_0` width compaction remains valid and separately scoped. Technical Art's bounded byte-width producer adoption is not rewritten by this animation-key pass.
 
-- ID **`10514193803`**;
-- size **49,341 B**;
-- SHA-256 **`df7874787c3cf91e5865a396299b1ca2db0b70a7000f9cc822cda743b6619139`**;
-- independently downloaded and rehashed to the same digest during pass 45.
-
-## Exact candidate → producer continuity observation
-
-Runtime independently compared the retained Runtime candidate GLB against the current Technical Art producer artifact.
-
-Their GLB binary chunks are **byte-identical at 7,140 B**. The current Technical Art producer differs from Runtime's candidate only by two explicit JSON provenance fields under `extras.axm`:
-
-- `joint_index_component_type = 5121`;
-- `joint_index_width_policy = "smallest legal glTF unsigned component from exact emitted JOINTS_0 domain"`.
-
-This is strong continuity evidence that Technical Art adopted the measured representation rather than silently regenerating a different binary payload.
-
-Runtime does **not** silently relabel the metadata-augmented current producer as a fresh rendered A/B. The real Godot visual A/B remains owned by the exact Runtime candidate above.
-
-## Current UC dependency continuity
-
-Technical Art same-head workflow:
-
-**`35261179289 — UC rigged receiver dependency continuity evidence` — SUCCESS**.
-
-Scoped state:
-
-**`PASS_CURRENT_UC_RIGGED_RECEIVER_DEPENDENCY_CLOSURE_IDENTICAL_TO_TESTED_RECEIVER`**.
-
-The declared generic rigged-receiver dependency closure is identical between the tested and current UC heads; a deliberate codec-blob mutation fails closed. This proves receiver-code continuity only. It does not establish a new target-device or current-producer rendered A/B.
-
-## Handoff / authority state
-
-Runtime PR #26 now records both the original measured Runtime A/B and the fresh Technical Art producer-adoption result.
-
-Authority remains separated:
-
-- Runtime owns storage-budget measurement and the exact Godot A/B;
-- Technical Art owns producer-side width selection and transport adoption;
-- Rigging owns the separate deformed normal/tangent direction-frame boundary;
-- Art Direction / Visual QA retain appearance authority outside the retained Runtime views;
-- UC remains generic and receives no Animal-specific Runtime policy.
-
-No automatic CANON or cross-asset adoption is requested.
-
-## Continuity from pass 44
-
-Pass 44 Object current-world static-component batching remains valid exact evidence and is not overwritten. Its sequence-bound `33 -> 14` rendered-surface result and `-38` draw-call current-world observations remain separate from this Animal import-budget pass.
-
-Pass 43 VFX, passes 40–42 Animal lifecycle/cache evidence, and earlier Runtime lanes remain recoverable and are not silently reinterpreted.
+Pass 44 Object static-component batching, pass 43 Object VFX batching, passes 40–42 Animal lifecycle/cache work, and earlier Runtime evidence remain intact and recoverable.
 
 ## Highest-value next Runtime gaps
 
-This exact Animal joint-index width question should not be reopened unless the skin joint domain or producer representation materially changes.
+Do not further squeeze this exact 19-key candidate before Art/QA review. Additional key removal would trade storage against more owner-curve deviation and would be speed-over-wisdom without a receiving need.
 
-The strongest remaining ready-or-near-ready gaps are:
+The strongest next Runtime triggers are:
 
-- target-device measurement for proven receiver candidates;
-- Animal bilateral / continuous receiver behavior where owner lanes explicitly hand it off;
-- a fresh Runtime rebind of Object VFX MultiMesh only after Art / QA accept the repaired VFX owner presentation;
-- Object winding only after Technical Art resolves the actual transport convention;
-- current-world articulated Object follow-on only when a materially new green owner sequence changes the pass-44 classification.
+- independent Art/QA response on this exact 19-key Animal candidate;
+- Object VFX MultiMesh rebind once independent QA accepts or rejects the exact repaired irregularity-v2 owner packet;
+- target-device measurement for already-proven receiver candidates when an actual target-device execution surface is available;
+- materially new articulated/current-world owner sequences that invalidate pass-44 static classifications.
 
 ## Explicit non-claims
 
-Pass 45 does **not** establish:
+Pass 46 does **not** establish:
 
-- target-device CPU/GPU/FPS/VRAM/heap/import-time gain;
-- generic sparse/interleaved/multi-primitive/multi-skin safety;
-- byte-width safety when any joint index exceeds `255`;
-- deformed normal/tangent direction-frame correctness;
-- whole-Animal gameplay/controller acceptance;
-- arbitrary asset adoption;
-- final Art Direction / independent Visual QA acceptance beyond the retained exact A/B;
+- target-device CPU/GPU/FPS/VRAM/heap/thermal improvement;
+- import-time improvement;
+- arbitrary animation/rig/key-reduction safety;
+- generic sparse/interleaved/multi-channel reduction support;
+- gameplay/controller acceptance;
+- final Art Direction / independent Visual QA acceptance;
+- producer or UC adoption;
 - CANON;
 - production/game readiness;
 - Runtime / Optimization mastery.
 
 ## Four-root check
 
-**Truth:** control, Runtime candidate, current Technical Art producer, artifact hashes, binary equivalence, and metadata overhead are recorded separately. No target-device claim is inferred from proof-host evidence.
+**Truth:** exact control identity, deterministic reduced bytes, dense angular residual, real Godot receiver delta and nonzero raster differences are all recorded. The 255-LSB silhouette flip is not hidden behind average-error language.
 
-**Agency / non-domination:** Runtime does not force Technical Art, Rigging, Art/QA, UC, or unrelated assets to adopt the representation. Technical Art independently owns its producer rule.
+**Agency / non-domination:** Runtime does not retime Animation, force Art/QA acceptance, seize Technical Art/Rigging ownership or push the rule into UC.
 
-**Continuity:** the original 16-bit control and exact Runtime A/B remain preserved; current producer adoption is linked back to the measured candidate without rewriting historical evidence.
+**Continuity:** the 41-key owner clip and earlier Runtime candidate remain exact retained controls; pass 46 is a separately addressable representation experiment on top of them.
 
-**Wisdom before speed:** even with exact payload savings, byte-identical retained renders, and producer adoption, target-device and deformed-frame boundaries remain held instead of being inferred.
+**Wisdom before speed:** the candidate stops at 19 serialized keys under the declared 0.075° bound and is held for Art/QA rather than chasing a smaller file after visible evidence becomes nonzero.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
