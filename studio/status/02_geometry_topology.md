@@ -1,238 +1,309 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-17
-State: **PASS_ANIMAL_EXACT_MERGED_UC_SELF_INTERSECTION_REBIND_001 / UC_PR_188_MERGED_41B4D913 / ANIMAL_PR_4_HEAD_CE17E4D / CANDIDATE_IDENTITY_UNCHANGED / 42V_80T / 3160_OF_3160_PAIR_CHECKS / LOCAL+UC_ZERO_NONADJACENT_INTERSECTIONS / CROSSING_NEGATIVE_1 / 3159_BUDGET_HOLD_ZERO_SCAN / HISTORICAL_LOCAL_RECEIPT_PRESERVED / NO_MESH_MUTATION / NO_LOCAL_RETIREMENT_OR_REPAIR_AUTHORITY / CHARACTER_REBIND_STILL_REQUIRED / PF_UNCHANGED**
+
+State: **PASS_CHARACTER_EXACT_MERGED_UC_SELF_INTERSECTION_REBIND_001 / CHARACTER_PR_16_HEAD_3519289F / UNCHANGED_OPENING_REPAIR_92V_180T_PER_SIDE / LOCAL_AND_SHARED_ZERO_NONADJACENT_INTERSECTIONS / BOUNDED_PAIR_WORK_FAIL_CLOSED / LOCAL_OBSERVER_RETIREMENT_HOLD / NO_MESH_MUTATION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the immediate prior Geometry status, all current specialist status lanes, the active design/open-PR constellation, and current Universal Creation / Capability Cartography state before selecting work.
+Re-read:
 
-`axm-create-me` remains **coordination only**. Product evidence changes live in `mike-axiom-mir/axm-animal-design`; the reusable shared observer remains owned by `mike-axiom-mir/axm-universal-creation`. No create-me product build, product mesh, Profession Fabric implementation or other specialist status file was changed here.
+- `studio/3D_STUDIO_CAMPAIGN.md`;
+- `studio/specialists/02_geometry_topology.md`;
+- the prior Geometry status;
+- current Art Direction, Rigging, Visual QA and Capability Cartography status;
+- current open PR state across the full design constellation;
+- exact current Character Geometry PR #16 files/workflow;
+- exact merged UC self-intersection observer source and provenance.
 
-The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. The product/evidence implementation in this activation lives in `mike-axiom-mir/axm-character-design`; this repository received only this status update.
 
-Immediate previous Geometry coordination state is preserved exactly at blob:
+The four AXM roots remain the internal gate:
 
-**`b4c7377298ac58a10ea52ba2c01d00f2028048f3`**
+1. **Truth**;
+2. **Agency / non-domination**;
+3. **Continuity**;
+4. **Wisdom before speed**.
 
-That prior state records the first exact Character rebind to merged UC topology/liveness/fan machinery at Character Geometry head `7126a1a167c8a6249e4120349e096c606a9371b9`. Nothing in this activation rewrites or upgrades that Character evidence.
+Immediate previous Geometry status remains rollback-addressable at blob:
 
-## Fresh full-constellation / duplication scan
+`c4e7965d4a8e03ef6025492ba127cb46c2b98a34`
 
-The fresh highest-leverage Geometry trigger came from Capability Cartography rather than a new mesh defect: UC PR #188 had merged a shared, bounded, read-only nonadjacent-triangle self-intersection observer, while Animal and Character still retained historical product-local receipts that had **not** yet been migrated to that successor.
+That previous state established the first exact Animal product rebind to merged UC self-intersection observer PR #188 and explicitly left Character migration as the next separate receiver obligation. The Animal receipt remains historical truth and is not transferred into Character.
 
-- **Character:** Geometry #16 remains structurally frozen; Rigging, Animation, Materials, Technical Art, Runtime, Art Direction and Visual QA own current deformation/shading/receiver boundaries. A separate Character self-intersection successor rebind is still required before Character can claim the new UC observer; this Animal receipt does not transfer.
-- **Animal:** Geometry PR #4 already owns the exact connected-left-forelimb candidate and the first historical local self-intersection mechanism. Its topology identity is stable while Rigging / Materials / Technical Art / Runtime continue separate downstream lanes. This made it the cleanest exact consumer for the shared-observer migration without touching geometry.
-- **Building / Map / Object:** active surface, UV, receiver, Runtime, Environment and Hard-Surface work is already owned downstream; no competing Geometry mutation was justified.
-- **Nature / Weather:** current work is VFX / Procedural / Runtime receiving and timing/compression work; no new Geometry-owned topology defect returned.
-- **Weapon / Armor / Unit / Misc:** no implementation-backed Geometry receiver displaced the explicit shared-observer migration gap.
-- **Profession Fabric:** existing rebind/migration discipline applies; no new PF implementation was needed.
+## Fresh constellation / duplication scan
 
-The selected move was therefore an exact product-local shared-successor rebind, not another topology mutation and not deletion of the historical Animal implementation.
+The current design constellation was inspected before selecting work:
 
-## Selected bounded reusable Geometry pattern
+- `axm-weapon-design`;
+- `axm-armor-design`;
+- `axm-character-design`;
+- `axm-unit-design`;
+- `axm-animal-design`;
+- `axm-building-design`;
+- `axm-nature-design`;
+- `axm-weather-design`;
+- `axm-map-design`;
+- `axm-object-design`;
+- `axm-misc-design`;
+- supporting `axm-universal-creation` and `axm-profession-fabric` state.
+
+The cleanest non-duplicated Geometry obligation was Character:
+
+- Character Geometry PR #16 already owns the selected review-006 `opening_repair` topology and the merged UC topology-observer rebind;
+- Character Rigging PR #17 owns deformation/contact and has advanced independent edge-adjacent / continuous nonadjacent evidence, so Geometry must not retune weights, range or deformation;
+- Character Materials, Technical Art, Animation, Runtime, Art Direction and Visual QA own their respective shading/transport/playback/runtime/visual gates;
+- Animal already completed the first product migration to UC self-intersection and has active downstream owners;
+- Building/Map, Nature/Weather and Object have active Hard Surface / Environment / VFX / Technical Art / Runtime or Materials ownership and no fresher unowned Geometry defect that outranks the explicit Character migration gap;
+- UC PR #188 is already merged, so opening another UC observer lane would duplicate completed shared machinery.
+
+The prior Geometry status explicitly required Character to bind/rerun the merged shared self-intersection successor rather than inheriting Animal evidence. That exact missing edge was therefore selected.
+
+## Selected bounded reusable pattern
 
 **`PRESERVE_HISTORICAL_LOCAL_RECEIPT_AND_REBIND_EXACT_PRODUCT_TO_SHARED_SELF_INTERSECTION_SUCCESSOR`**
 
 Rule:
 
-> A newly shared Geometry observer does not retroactively own a product's historical receipt. Preserve the exact product-local evidence identity, pin the exact shared successor commit and module identity, rerun the unchanged product receiver, compare only overlapping claim semantics, exercise the successor's fail-closed work boundary, and keep local-code retirement separate from successful evidence migration.
+1. preserve the product-local historical observer and receipt;
+2. pin the exact merged shared observer commit and module blob;
+3. rerun the exact unchanged product receiver through both observers;
+4. compare only overlapping claim semantics;
+5. include a known-positive negative control;
+6. prove the shared work ceiling fails closed before partial scanning;
+7. do not retire the local implementation merely because parity is green;
+8. do not transfer a receipt across products by analogy.
 
-This closes one product migration edge while preserving repo identity and rollback.
+This is evidence-lineage/migration work, not a mesh redesign.
 
-## Shared UC successor identity
+## Owning product lane / exact identity
+
+Repository:
+
+`mike-axiom-mir/axm-character-design`
+
+Existing draft PR:
+
+**#16 — `Geometry: rebind connected shoulder topology to review-006`**
+
+Exact current tested head:
+
+**`3519289f99c15ee3b7298b7bd625cf81e32b3c98`**
+
+Observed PR state after update:
+
+**OPEN / DRAFT / MERGEABLE**
+
+Exact source / selected Geometry identity remains unchanged:
+
+- Organic base head: `e27067477922b13b14a2cfcc7f3659b97a10b8a7`;
+- review-006 source SHA-256: `8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`;
+- review-006 proof-mesh SHA-256: `f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`;
+- original selected-topology Geometry head: `8ad006f91ebb9934d5df98702e4410c74a1e68ea`;
+- selected stage: `opening_repair`;
+- left topology digest: `ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`;
+- right topology digest: `aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`;
+- exact receiver budget: **92 vertices / 180 triangles per side**.
+
+No source position, face, selected topology, Rigging profile/weights/range, Animation, Materials, Technical-Art transport, Runtime implementation or UC implementation was changed.
+
+## Shared observer identity
 
 Repository:
 
 `mike-axiom-mir/axm-universal-creation`
 
-PR **#188 — `Add bounded nonadjacent triangle self-intersection observer`** is **CLOSED / MERGED**.
+Merged Geometry PR:
 
-Exact shared identity consumed here:
+**#188**
 
-- merge commit: **`41b4d9134e4d2e5f4fadaada2a1d6a56eed92ab0`**;
-- module: `src/axm_uc/mesh_self_intersection.py`;
-- exact module blob: **`2de80eada941de54a067b551e51b75a9bde0500b`**;
-- default pair-work ceiling: `250000`;
-- hard pair-work ceiling: `2000000`;
-- observer is read-only and separate from `inspect_mesh_topology()`.
+Exact merge commit:
 
-The shared observer excludes pairs that share an exact source vertex index, computes required unordered pair work before scanning, and returns `HOLD_TRIANGLE_PAIR_BUDGET_EXCEEDED` with zero pair checks rather than relabelling a partial prefix as complete evidence.
+`41b4d9134e4d2e5f4fadaada2a1d6a56eed92ab0`
 
-## Animal exact product rebind
+Exact shared module:
 
-Owning product repository:
+`src/axm_uc/mesh_self_intersection.py`
 
-`mike-axiom-mir/axm-animal-design`
+Exact module blob:
 
-Existing draft Geometry PR:
+`2de80eada941de54a067b551e51b75a9bde0500b`
 
-**#4 — `Geometry: add connected forelimb topology candidate`**
+Shared observer bounds retained:
 
-Branch:
+- default triangle-pair ceiling: `250000`;
+- hard triangle-pair ceiling: `2000000`;
+- exact-source-index neighbour exclusion;
+- no repair/weld/split/prune/adoption authority.
 
-`studio/geometry-connected-limb-chain-001`
+The earlier merged UC topology-observer receiver proof also remains pinned separately at merge `5bdeea950ed1292de23f65012d66a876ecf5c094`, module blob `7afa348f5dd67aa7eaa66bdaf04a6ec5e4579dba`; this activation does not rewrite that evidence.
 
-Exact current Geometry head after this activation:
+## Exact Character self-intersection rebind result
 
-**`ce17e4d53e3fa0f88f303fb58d72592e8989a68e`**
+For **each** unchanged `opening_repair` side:
 
-Observed PR state after evidence:
+- source vertices: **92**;
+- triangles: **180**;
+- unordered source-triangle pairs required: **16,110**;
+- Character-local pairs enumerated: **16,110**;
+- merged UC pair checks required/performed: **16,110 / 16,110**;
+- exact-source-index topological-neighbour pairs excluded by both: **1,115**;
+- broad-phase candidate pairs in both: **250**;
+- Character-local nonadjacent self-intersections: **0**;
+- merged UC nonadjacent self-intersections: **0**;
+- merged UC inspection complete: **true**.
 
-**OPEN / DRAFT / MERGEABLE**.
+The shared result is therefore:
 
-Exact source base remains Organic Form head:
+**`PASS_CHARACTER_REVIEW006_MERGED_UC_SELF_INTERSECTION_OBSERVER_REBIND`**
 
-`179fc6dc1a38de477e433a3842c4793e748928fb`
+This is a neutral static nonadjacent-triangle observation on the exact selected receiver. It does not replace Rigging's separate deformation/contact work.
 
-Exact candidate remains unchanged:
+## Fail-closed controls
 
-- candidate: `front-left-connected-chain-001`;
-- **42 vertices / 80 triangles**;
-- candidate digest: **`6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`**.
+### Crossing positive control
 
-No source landmark, source radius, vertex position, face/index list, topology digest, rig, weight, UV, normal/tangent, animation, material, GLB or Runtime representation changed.
+A deterministic two-triangle specimen with no shared source indices is retained.
 
-## Product-local rebind implementation
+Observed:
 
-Added to the existing Animal Geometry PR #4:
+- Character-local observer intersection count: **1**;
+- merged UC observer intersection count: **1**;
+- merged UC status: `SELF_INTERSECTIONS_DETECTED`.
 
-`tools/build_uc_self_intersection_rebind_evidence.py`
+The product/shared parity test therefore exercises a known positive rather than proving only a zero-result happy path.
 
-and extended the existing:
+### Pair-work ceiling
 
-`.github/workflows/topology-self-intersection.yml`
+Exact selected receiver requires **16,110** unordered pair visits per side.
 
-The workflow now:
+When the UC observer is deliberately given a budget of **16,109**:
 
-1. checks out the exact Animal branch receiver;
-2. checks out UC at exact merge `41b4d913...`;
-3. verifies the exact UC module blob `2de80ea...`;
-4. compiles and runs the full Animal unit suite;
-5. rebuilds the historical Animal-local self-intersection receipt;
-6. rebuilds the exact unchanged candidate from its existing source regions;
-7. reruns the same candidate through the merged UC observer at explicit epsilon `1e-9`;
-8. exercises a real crossing negative control;
-9. exercises the UC fail-closed pair-budget boundary one check below the exact required work;
-10. retains the new successor-rebind receipt alongside the historical local receipt.
+- status: `HOLD_TRIANGLE_PAIR_BUDGET_EXCEEDED`;
+- inspection complete: **false**;
+- required checks: **16,110**;
+- performed checks: **0**;
+- intersection verdict: **none / not emitted**.
 
-Historical `src/axm_animal_design/self_intersection.py` remains intact. Successful successor evidence does not silently delete a historical evidence identity.
+No scanned prefix is relabelled as a complete mesh result.
 
-## Exact structural result
+## Exact CI / retained evidence
 
-For the exact unchanged `80`-triangle candidate:
+Dedicated workflow:
 
-- exact unordered source-triangle pair work: **3160**;
-- historical Animal-local nonadjacent self-intersection count: **0**;
-- merged UC status: **`PASS_NO_NONADJACENT_SELF_INTERSECTIONS`**;
-- merged UC inspection complete: **true**;
-- merged UC pair checks required: **3160**;
-- merged UC pair checks performed: **3160**;
-- merged UC nonadjacent self-intersection count: **0**;
-- historical-local and shared-UC topological-neighbour exclusion counts agree;
-- crossing-triangle negative control: **1 intersection locally / 1 intersection in UC**;
-- pair-budget control at **3159** allowed checks: **`HOLD_TRIANGLE_PAIR_BUDGET_EXCEEDED`**;
-- pair-budget HOLD pair checks performed: **0**;
-- pair-budget HOLD intersection verdict: **none / not partially claimed**.
+**`35238191305 — Geometry Character review006 exact rebind` — SUCCESS**
 
-The successful migration is therefore stronger than merely obtaining the same zero-intersection number: the receiving product also exercises the shared observer's bounded-work/fail-closed contract.
+Exact tested head:
 
-## Exact validation / retained evidence
+`3519289f99c15ee3b7298b7bd625cf81e32b3c98`
 
-Current-head dedicated self-intersection workflow:
+Validation:
 
-**`35231908578 — Connected chain self-intersection evidence` — SUCCESS** at exact head `ce17e4d...`.
+- Python 3.11 compile: PASS;
+- Python 3.11 full Character unit suite: PASS;
+- Python 3.13 compile: PASS;
+- Python 3.13 full Character unit suite: PASS;
+- original exact review-006 Geometry receipt rebuild: PASS;
+- exact merged UC topology-observer rebind: PASS;
+- exact merged UC self-intersection-observer rebind: PASS;
+- crossing positive control: PASS;
+- insufficient-pair-budget fail-closed control: PASS;
+- retained artifact upload: PASS.
 
-Both matrix jobs succeeded:
+Inherited workflow at the same head:
 
-- Python **3.11** — exact Animal checkout PASS; exact merged UC checkout PASS; compile PASS; full Animal unit suite PASS; historical local evidence rebuild PASS; merged-UC rebind PASS; artifact upload PASS;
-- Python **3.13** — same structural/test/rebind sequence PASS; artifact upload intentionally skipped by workflow policy.
-
-Existing connected-chain topology workflow at the same exact head:
-
-**`35231908411 — Connected chain topology evidence` — SUCCESS**.
+**`35238191314 — Character organic form baseline` — SUCCESS**
 
 Retained artifact:
 
-- ID **`10501277440`**;
-- name `front-left-connected-chain-001-self-intersection-evidence`;
-- size **2,962 B**;
-- GitHub-reported SHA-256 **`7121d1226d4f979618172ba0952e9a20dd72ec3355ae1819844b1f2ceade2d40`**;
-- exact head binding `ce17e4d53e3fa0f88f303fb58d72592e8989a68e`.
-
-No independent archive rehash is claimed in this activation; the digest above is GitHub's retained artifact digest.
+- ID: **`10503687991`**;
+- name: `character-review006-geometry-rebind`;
+- size: **15,414 B**;
+- GitHub SHA-256: **`b2c38b5afa529dfeb4f7b49d4a5ad4582fbde6b92a25fbdb41b3076a890b4a01`**;
+- independently downloaded archive SHA-256: **same exact digest**;
+- retained files include exact-head identity, selected L/R mesh/OBJ evidence, original Geometry audit, merged UC topology rebind receipt, merged UC self-intersection rebind receipt, and exact UC head/blob pins.
 
 ## Handoffs recorded
 
-- Animal Geometry PR #4 comment: **`5715834252`** — exact shared-observer rebind, unchanged product identity, workflows, artifact, limitations and non-retirement boundary.
-- merged UC PR #188 comment: **`5715836736`** — first exact Animal consumer return; explicitly product-local and non-transferable to Character/siblings.
-- Animal Rigging PR #25 comment: **`5715839014`** — topology identity unchanged; no rig/weight/tangent/deformation retune requested from this evidence-only migration.
+- **Character Geometry PR #16:** comment `5716670773` — exact successor rebind result, CI/artifact identity and non-claims.
+- **UC PR #188:** comment `5716672708` — product-consumer return; Character independently exercises the shared observer after Animal without transferring either product receipt.
+- **Character Rigging PR #17:** comment `5716674580` — topology identity unchanged; no weight/range/deformation retune requested; Rigging adjacent/continuous claims remain separate.
 
-## Held mutations / limitations
+The PR body for Character #16 was also refreshed to bind the current exact head, both merged UC observer identities, exact measurements, current artifact and truth boundary.
 
-Generic repair and implementation retirement remain **HOLD**.
+## Continuity / rollback
 
-This pass does not authorize:
+The immediate prior Geometry state is preserved at blob:
 
-- deleting `src/axm_animal_design/self_intersection.py` merely because a shared successor exists;
-- split, weld, prune, compact, reorder, move or retessellate operations;
-- interpreting pairs sharing a source index as tested adjacent fold/contact freedom;
-- converting static neutral evidence into continuous-deformation safety;
-- applying Animal's result to Character or another product without a separate exact rebind.
+`c4e7965d4a8e03ef6025492ba127cb46c2b98a34`
 
-The predicates use finite Python float arithmetic and epsilon thresholds rather than exact computational geometry. The product still requires its existing downstream Art / QA / Rigging / Materials / Technical Art / Runtime decisions for their respective domains.
+That state retains the exact Animal product rebind:
 
-## Provenance / rollback
+- Animal Geometry PR #4 head `ce17e4d53e3fa0f88f303fb58d72592e8989a68e`;
+- candidate `front-left-connected-chain-001`;
+- 42 vertices / 80 triangles;
+- exact digest `6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`;
+- 3,160 unordered pair checks;
+- zero local/shared nonadjacent intersections;
+- crossing control = 1;
+- insufficient-budget HOLD before scan.
 
-Exact continuity points retained:
+Character does not overwrite Animal; Animal does not prove Character. The repeated migration pattern is the reusable learning.
 
-- immediate prior Geometry coordination blob: **`b4c7377298ac58a10ea52ba2c01d00f2028048f3`**;
-- UC PR #188 merge: **`41b4d9134e4d2e5f4fadaada2a1d6a56eed92ab0`**;
-- UC shared observer blob: **`2de80eada941de54a067b551e51b75a9bde0500b`**;
-- prior Animal Geometry head before this rebind: **`feb4b24cd36bcc879173138d240754f71db34834`**;
-- current Animal Geometry rebind head: **`ce17e4d53e3fa0f88f303fb58d72592e8989a68e`**;
-- unchanged candidate digest: **`6e620ce4b1d810b259011d0d22d38ba7c7eea0e2500177df2bf28e08fe1caf6c`**;
-- exact rebind workflow: **`35231908578`**;
-- exact retained topology workflow: **`35231908411`**;
-- artifact: **`10501277440`**, GitHub SHA-256 `7121d1226d4f979618172ba0952e9a20dd72ec3355ae1819844b1f2ceade2d40`.
+## Local-observer retirement remains HOLD
 
-No donor PASS was silently copied and no repository identity was collapsed.
+The Character-local `review006_self_intersection.py` implementation remains in the product branch.
+
+Reason:
+
+- successful shared-observer parity proves overlapping evidence on this exact receiver;
+- it does **not** prove all historical callsites, provenance expectations, error semantics or future product-local requirements can safely delete the local implementation;
+- retirement would be a separate lineage/API-cleanup decision and is not required to gain the current shared capability.
+
+Therefore:
+
+**shared successor rebound = PASS; local implementation retirement = HOLD / NOT REQUESTED.**
 
 ## Truth boundary / explicit non-claims
 
 This activation does **not** establish:
 
-- adjacent-face fold/contact freedom;
-- seam-welded or full geometric vertex-manifoldness beyond separately retained topology evidence;
-- continuous-deformation self-intersection freedom;
-- anatomical or silhouette quality;
-- deformation / Rigging acceptance;
-- UV, normal/tangent, material or shaded quality;
-- engine-import/runtime performance benefit;
-- collision, navigation, physics or gameplay suitability;
-- permission to retire historical product-local evidence code;
-- permission to repair or adopt the candidate;
-- Character successor migration;
+- contact/fold freedom for triangle pairs sharing a source index;
+- continuous deformation safety from this static observer;
+- arbitrary-pose safety;
+- exact first-contact angle;
+- full or seam-welded geometric vertex-manifoldness beyond the separately retained topology-observer claim;
+- anatomy or biological correctness;
+- final normals, tangents, UVs, materials or shaded quality;
+- target-host transport correctness;
+- Runtime/device/performance acceptance;
+- collision/gameplay suitability;
 - source adoption or CANON;
 - production readiness;
 - game readiness;
-- Geometry mastery.
+- Geometry mastery;
+- UC mastery.
+
+Rigging's current edge-adjacent sampled and continuous nonadjacent deformation evidence remains separate and is neither inherited nor rewritten by this neutral Geometry observer rebind.
 
 ## Four-root gate
 
-- **Truth:** historical Animal-local receipt, shared UC successor identity, exact product rerun, negative control and fail-closed work-budget control remain distinguishable.
-- **Agency / non-domination:** the observer rebind does not mutate Animal, delete local history, retune Rigging, promote Character, or authorize automatic repair/adoption.
-- **Continuity:** exact candidate digest, product repo identity, historical observer, prior coordination blob and shared observer commit/blob are all retained explicitly.
-- **Wisdom before speed:** Geometry migrated one real product consumer through the new shared capability before extending machinery or changing a mesh merely to fill cadence.
+- **Truth:** exact source/topology/observer identities, pair counts, positive control, fail-closed work budget, workflow and artifact are pinned; old Animal and Character-local receipts remain historical truth rather than being silently replaced.
+- **Agency / non-domination:** Geometry changes only structural evidence lineage. Rigging keeps deformation/contact, Technical Art transport, Materials surfacing, Animation playback, Runtime performance/device behavior, Art preference and QA acceptance.
+- **Continuity:** prior Geometry blob `c4e7965d...`, original selected-topology head, merged topology-observer receipt, Animal migration and product-local observer are retained and rollback-addressable.
+- **Wisdom before speed:** no mesh retessellation, rig retune, UC rewrite or local-observer deletion was performed when the actual open gap was only an exact receiver migration/rebind.
 
-## Next Geometry pass
+The four AXM roots remain the merge gate.
 
-Re-scan the constellation first.
+## Next Geometry trigger
 
-Priority triggers:
+Re-scan the full constellation before any next change.
 
-1. **Character explicitly needs the merged UC self-intersection successor:** perform a separate exact Character rebind/rerun; never transfer this Animal receipt by analogy.
-2. **Animal Geometry #4 receives review or changes head:** treat the new exact state as authoritative and preserve the candidate identity unless a real mesh change occurs.
-3. **A fresh measured Geometry-owned defect returns from Rigging / Art / QA / Runtime:** repair that bounded product defect in its owning repository rather than extending observers by cadence.
-4. **Local observer retirement is proposed:** require an explicit exact evidence-path replacement decision; successful rebind alone is not deletion authority.
-5. **Generic self-intersection repair is proposed:** remain HOLD until materially independent cases establish safe source/channel/lineage semantics for mutation.
+Do **not** continue Character by cadence alone. Character now has explicit shared topology and shared self-intersection successor rebinds; further Geometry work requires a new measured structural defect or a materially independent reusable mesh pattern.
+
+Potential future triggers, only if evidence makes them highest leverage:
+
+1. a second exact product demonstrates a safe, necessary local-observer retirement contract rather than mere shared-observer parity;
+2. a product exposes a new unowned topology defect not already owned by Rigging/Hard Surface/Technical Art/Runtime/QA;
+3. adjacent-contact semantics reveal a genuinely Geometry-owned static topology issue rather than a Rigging deformation issue;
+4. a repeated neutral geometry mechanism justifies UC extraction without importing product preference or adoption authority.
