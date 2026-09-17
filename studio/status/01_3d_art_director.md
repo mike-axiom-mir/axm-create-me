@@ -1,261 +1,167 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-17
-State: **PASS_ART_DIRECTION_CURRENT_WORLD_NATURE_LEAF_MICRO_FLUTTER_SAMPLED_SHAPE_PREFERENCE_018 / HOLD_FINAL_NATURE_FLUTTER_TIMING__WALL_CLOCK_PLAYBACK_SHADED_BACKFACE_AND_INDEPENDENT_QA_PENDING**
+State: **PASS_ART_DIRECTION_BUILDING_COMPACT_V2_HARD_SURFACE_LOOK_PREFERENCE_019 / HOLD_EXACT_COMPACT_V2_CURRENT_WORLD_ADOPTION__RUNTIME_REGRESSION_AND_INDEPENDENT_QA_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/01_3d_art_director.md`, then rescanned current open PRs, exact-head workflows, retained visual evidence and specialist status across the design constellation before selecting one bounded Art-facing gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/01_3d_art_director.md`, then rescanned the newest open PRs, exact heads, retained target-host evidence and specialist status across the design constellation.
 
-`axm-create-me` remains **coordination only**. No product implementation, source asset, VFX, renderer, Runtime, Universal Creation or Profession Fabric code was changed here.
+`axm-create-me` remains **coordination only**. No product implementation, source mesh, material, renderer, Runtime, Universal Creation or Profession Fabric code was changed here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The highest-leverage newly complete Art-facing surface is the **current-world Nature leaf micro-flutter receiver** on Map Environment PR #24.
+The strongest ready Art-facing surface is now the **Building compact-v2 current-world receiver**.
 
-Why this outranked other current surfaces:
+- **Nature timing:** Map VFX PR #35 / QA now truthfully records `92 / 96` direct-source wall-clock slots delivered on the proof host, with four skipped states. QA explicitly blocks final perceptual timing because the timed artifact has no direct timed PNG/video capture. Art does not retime from logs or derived replay.
+- **Building:** Environment PR #24 has exact current-world parent/compact-v2 Godot frames and Map Runtime PR #36 compares compact-v2 against the **actual** active `184v / 276t` receiver rather than the much larger boundary-shell reference.
+- **Animal:** final normal/tangent production adoption remains held on transported deformed direction-frame equivalence.
+- **Character:** nonzero sampled shoulder intersections remain upstream of appearance promotion.
+- **Map Runtime #34:** footprint indexing remains only a one-pixel / one-LSB class visual trade.
+- **Object:** inner-lid source semantics have advanced, but final material preference remains a separate lane.
 
-- **Nature / Map Environment #24:** exact head `7713cbe5863c3bc38dabb6236eb4b393401224b6` now has green real-Godot current-world evidence for the exact VFX flutter bound on top of Direction 017's accepted split-culling parent.
-- **Nature VFX #11:** current PR head `9d446359defe1e663d4d9cc683ca0b9cac6bf6c0`; exact effect head bound by Map remains `ecade64227ba1d3d1faf029ca7188ea63c2560ec`. Its source / Godot / temporal review workflows are green, while its own truth boundary explicitly leaves naturalness/final Art to Art Direction and QA.
-- **Nature Procedural #4:** current head `cb19c9ee832cd6731f42c40067aab3a4656875a6` already exercises the VFX effect across nine generated outputs but correctly labels that as compatibility-only / no adoption. Art Direction does not duplicate or auto-promote that family.
-- **Visual Observer / QA:** latest status still covers Direction 017's static split-culling successor; it has **not** independently accepted the new flutter current-world successor.
-- **Animal:** Direction 016's owner-frame tangent-space appearance remains valid, but final production adoption is still held on transported deformed direction-frame equivalence. Normalized-weight Runtime changes are downstream and visually much smaller.
-- **Character:** shoulder structure still carries nonzero sampled self-intersections; appearance promotion remains structurally premature.
-- **Map Runtime #34:** footprint indexing remains a one-pixel / one-blue-channel-LSB class trade, lower leverage than a first current-world secondary-motion decision.
-- **Building:** compact boundary-shell work is structurally/runtime-interesting but remains a separate current-world visual receiver gate.
-- **Object:** inner-lid source/material lookdev remains separate and unaccepted.
-- **Weather:** no reopen of the existing timing/exposure lane; this Nature pass holds Weather state fixed.
+No duplicate Geometry, Materials, Environment, Runtime, VFX or QA implementation lane was opened.
 
-No duplicate Geometry, Materials, VFX, Environment, Runtime, Procedural or QA implementation lane was opened.
+## Selected bounded visual-direction improvement
 
-## Selected bounded improvement
+Separate **visual preference** from **receiver adoption** for compact-v2.
 
-Choose the exact current Nature leaf-local response as the preferred **sampled spatial micro-motion shape** in the current world, while explicitly refusing to convert sampled-state success into a final timing/naturalness claim.
+Direct review shows compact-v2 is not continuity-neutral, but its hard-surface response is visually preferable in the exact fixed current-world views. At the same time, Runtime proves that this exact representation costs more than the active Map receiver. Art therefore selects the look target without overruling the implementation/runtime boundary.
 
-This directly closes one hold left by Direction 017 without bundling timing, materials, geometry, performance or procedural-family adoption.
+## Exact identities
 
-## Exact current-world identities
+Current-world Environment:
 
-Repository under current-world visual review:
+- repository: `mike-axiom-mir/axm-map-design`;
+- PR #24 exact head: `ef2cb9cc84edc10ab66c2230daca625623e0b00d`;
+- semantic Building source: `header-segmented-23`;
+- active receiver: `184v / 276t / 5 surfaces`;
+- compact-v2 review receiver: `1004v / 2052t / 5 surfaces`;
+- compact-v2 representation ID: `boundary-only-union-shell-conforming-compact-v2-001`.
 
-`mike-axiom-mir/axm-map-design`
+Pinned donors:
 
-Environment PR #24 exact head:
+- Building Geometry #8: `16253e7dd2f8cd590667f9631e4b50fdfcc7280d`;
+- Building Hard Surface #9: `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`;
+- Building Materials #3: `4179aa1401f5a9114399e2f998c96809d4b8ed2e`.
 
-`7713cbe5863c3bc38dabb6236eb4b393401224b6`
+Runtime active-consumer gate:
 
-Exact parent / Direction-017 split-culling world:
+- Map Runtime PR #36 exact head: `99ec4d0caac25cf52e9b20089ecc4cf8ef8dee5a`;
+- exact current-world parent: run `35179857526`, artifact `10478624997`;
+- exact compact-v2 Environment review: run `35179857530`, artifact `10480305129`.
 
-`10c6e29790b0b53b20abd603738cb54671af013c`
+Independently downloaded ZIP hashes used in this Art review:
 
-Dedicated workflow:
+- parent: `064388110840c8034fe359bd47db1ceacfb3ed9ade3e56bb03e3210b49de761f`;
+- compact-v2: `2d1b747ae9eacf9ee0eb3754ba8fcd27f367e3edf77c3f6a66d700871ff83b94`.
 
-`35174899697 — Environment Nature leaf flutter current-world evidence — COMPLETED / SUCCESS`
+These are exact downloaded archive-byte hashes, not claimed as separately published GitHub digest fields.
 
-Candidate artifact:
+## Independent pixel reproduction
 
-- ID `10478103666`;
-- independently downloaded archive SHA-256 `0f7343c5e9c172b5816709cb7121aa44a91838962b51cbf0fa46b1c43565ddea`;
-- exact report state `PASS_CURRENT_WORLD_NATURE_LEAF_FLUTTER_TARGET_HOST`;
-- target host Godot `4.7.2`, GL Compatibility.
+For the matched source-width current-world frames:
 
-Exact parent artifact:
+- `path_eye`: exactly `25,376 / 792,000 = 3.204040404%` pixels differ by more than 1 LSB in every checked state, fixed bbox `x=346..753, y=256..437`, max channel delta `198` LSB;
+- `elevated_oblique`: about `19,113..19,117 / 792,000 = ~2.413%` differ by more than 1 LSB, fixed bbox `x=594..888, y=171..365`, max channel delta `180` LSB.
 
-- ID `10477476774`;
-- independently downloaded archive SHA-256 `db67e657dcecb044e7e46b1aeedadc71fcb907c9c3720045f20a753de885f689`.
+The same Building-local delta persists under the Weather control presentation. This is a real receiver/shading change, not Weather-width attribution or pixel noise.
 
-## Exact VFX source facts
+Runtime PR #36 measures the compact-v2 candidate against the active Map receiver across all 68 matched observations:
 
-Map binds exact Nature VFX effect head:
+- `+106,560 B` proof-host buffer memory;
+- `+5,328` RenderingServer primitives;
+- `+0` draw calls;
+- `+0` objects;
+- `+0 B` observed texture memory.
 
-`ecade64227ba1d3d1faf029ca7188ea63c2560ec`
-
-Current Nature VFX PR #11 head:
-
-`9d446359defe1e663d4d9cc683ca0b9cac6bf6c0`
-
-The current-world artifact bundles the exact source-effect summary:
-
-- 25 leaf blades;
-- leaf-side vertices only;
-- local twist around each leaf base→tip axis;
-- deterministic per-leaf phase step `0.73 rad`;
-- maximum authored twist `5°`;
-- three authored flutter cycles in the inherited `0.50 s` response envelope;
-- 17 sampled source phases at nominal `0.03125 s` spacing;
-- exact zero envelope at states `0` and `16`;
-- maximum observed added leaf displacement `0.006920423273762265 m`;
-- maximum permitted added displacement `0.0085 m`;
-- maximum observed non-leaf added displacement `0.0 m`.
-
-Map receives the front-surface positions into the exact current `390v / 570t` Nature geometry with Direction 017's policy retained:
-
-- woody `CULL_BACK`;
-- foliage `CULL_DISABLED`;
-- explicit duplicated leaf-backface geometry adopted: `false`.
-
-## Exact current-world retained evidence
-
-The report compares all `68 / 68` matched real-scene frames across two Weather-width modes × two cameras × 17 source states.
-
-Exact observations:
-
-- neutral endpoints: `8 / 8` matched frames byte-identical;
-- interior flutter: `60 / 60` matched frames renderer-visible;
-- `path_eye`: `118–242` changed pixels per interior frame;
-- `elevated_oblique`: `123–197` changed pixels per interior frame;
-- maximum channel delta: `206` LSB in both cameras;
-- change masks remain localized to the Nature receiver region;
-- all `1,224` inherited Weather projected-width measurements remain valid;
-- maximum inherited Weather-width residual stays `0.00974698571769128 px`;
-- proof-host delta vs exact parent: `0` draw calls, `0` objects, `0` primitives, `0 B` observed buffer memory, `0 B` observed texture memory.
-
-Proof-host counters are characterization only, not target-device performance evidence.
-
-The source table also protects against a hidden synchronized crown turn: through every non-neutral sampled phase, positive and negative twist counts remain approximately balanced (`12/13` or `13/12`; phase 8 has `12/12` plus one zero), while maximum absolute whole-crown mean leaf twist is only `0.1563132021218969°`.
+Proof-host counters remain characterization only, not target-device certification.
 
 ## Direct Art Direction observation
 
-I directly inspected enlarged exact parent/candidate/difference frames across neutral and representative interior states in both fixed cameras.
+Representative enlarged views from both fixed cameras were inspected directly.
 
-Observed visual read:
+Observed preference:
 
-- movement stays a **secondary micro-motion layer** rather than a crown-scale deformation;
-- individual terminal planes subtly change orientation while trunks, branches and the broad silhouette stay stable;
-- per-leaf phase offsets avoid an obvious synchronized card-flip read in the sampled sequence;
-- the effect is clearer in `elevated_oblique` but remains subordinate in `path_eye`;
-- no amplitude, leaf scale, brightness, material-family, crown-mass or trunk-motion increase is needed for legibility;
-- sampled review does not show a new gross hole, spike, detached mass, broad scene shift or dominant whole-crown beat;
-- exact neutral start and return are visually and byte-wise preserved.
+- compact-v2 gives the galvanized front posts and upper header a more coherent manufactured hard-surface read;
+- highlight flow is less dominated by locally broken / bulged bright bands at segmented box boundaries;
+- vertical structural rhythm reads straighter and more even;
+- the accepted hierarchy remains intact: galvanized frame first, solid infill readable but subordinate, darker roof, ochre service panel as warm accent;
+- broader pavilion silhouette, opening layout and world hierarchy remain recognizably stable;
+- no material, lighting, Weather, Nature, Object, camera or path retune is needed for that cleaner read.
 
-The visual preference is therefore for the existing restrained spatial amplitude, not for making flutter bigger merely because it is subtle.
+This is a fixed-view visual preference, **not** a production-representation verdict.
 
-## Art Direction decision
+## Decision
 
-**`PASS_ART_DIRECTION_CURRENT_WORLD_NATURE_LEAF_MICRO_FLUTTER_SAMPLED_SHAPE_PREFERENCE_018`**
+**`PASS_ART_DIRECTION_BUILDING_COMPACT_V2_HARD_SURFACE_LOOK_PREFERENCE_019`**
 
-Exact meaning:
+> Prefer compact-v2's cleaner planar / structural highlight language over the active segmented receiver in the exact retained `path_eye` and `elevated_oblique` current-world views. Keep the existing five-family material hierarchy fixed; do not hide receiver differences through material, lighting or atmosphere compensation.
 
-> Preserve the exact leaf-local spatial response bound by Map Environment PR #24 — `5°` cap, per-leaf phase offsets, leaf-side-only scope, zero non-leaf added displacement and exact neutral endpoints — as the preferred sampled spatial micro-motion shape for the current-world Nature receiver. Do not increase amplitude, add trunk/branch motion, enlarge leaves/crown, retune the scalar material family or synchronize the crown merely to make the response more visible.
+## Adoption hold
 
-This does **not** accept the authored temporal cadence as final.
+**`HOLD_EXACT_COMPACT_V2_CURRENT_WORLD_ADOPTION__RUNTIME_REGRESSION_AND_INDEPENDENT_QA_PENDING`**
 
-## Timing / naturalness hold
+Art preference does not authorize the exact `1004v / 2052t` receiver as the new Map baseline. Against the actual active `184v / 276t` receiver it is a real proof-host cost increase, and independent Visual QA has not yet reviewed this exact 68-frame Building A/B.
 
-**`HOLD_FINAL_NATURE_FLUTTER_TIMING__WALL_CLOCK_PLAYBACK_SHADED_BACKFACE_AND_INDEPENDENT_QA_PENDING`**
-
-The retained evidence proves deterministic sampled source states and renderer visibility. It does not prove real delivered wall-clock cadence, interpolation, frame pacing or perceptual naturalness.
-
-Three cycles inside a `0.50 s` source response window may or may not read too busy when delivered literally. Art Direction therefore does not call that timing natural/final and also does not pre-emptively retime it without playback evidence.
-
-Next timing proof should:
-
-- play this exact accepted spatial response in real wall-clock conditions;
-- preserve an exact no-retime reference;
-- hold geometry, Materials, Environment, cameras and Weather fixed;
-- if literal playback reads busy/shimmery, change cadence only in the VFX owner lane for clean attribution.
-
-## Independent QA boundary
-
-Visual Observer / QA has **not yet independently accepted Direction 018**.
-
-Direction 017's static sidedness PASS must not silently transfer to motion.
-
-Requested independent review surface:
-
-- all exact current-world parent/flutter frame pairs;
-- sampled temporal sequence / review surface;
-- leaf popping or apparent detachment;
-- card-flip / synchronized-crown beats;
-- temporal shimmer/aliasing;
-- backface disappearance or lighting discontinuity during twist;
-- local focal pull in `path_eye`;
-- exact neutral return;
-- any Weather-dependent change-mask drift.
+The next bounded cross-owner target is to preserve the preferred cleaner hard-surface read **without silently paying this exact current-world representation cost**, or to present an explicit trade if no cheaper equivalent exists. Art Direction does not prescribe topology or runtime implementation.
 
 ## Direction packet
 
 Created:
 
-`studio/direction/CURRENT_WORLD_NATURE_LEAF_MICRO_FLUTTER_DIRECTION_018.md`
+`studio/direction/BUILDING_COMPACT_V2_CURRENT_WORLD_DIRECTION_019.md`
 
 Coordination commit:
 
-`b23a6b596a327ceb3e08c8756299824ff36f7810`
+`f7bb13409ee4c75b8192e4dfe5e2763e452f67a2`
 
-## Exact handoffs issued
+## Handoffs
 
-### Map Environment PR #24
+### Map Environment #24
 
-Comment `5707877124`.
+Keep the failed compact-v2 continuity evidence and active segmented receiver rollback. The `0.1%` guard failure proves non-neutrality; it does **not** by itself prove aesthetic inferiority. Do not auto-adopt compact-v2.
 
-Keep exact head `7713cbe5863c3bc38dabb6236eb4b393401224b6` as the current-world comparison witness. No extra Environment dressing, Weather, scale, camera, geometry, lighting or amplitude change is requested for this gate.
+### Map Runtime #36
 
-### Nature VFX PR #11
+Keep the actual-consumer budget comparison authoritative. Art does not ask Runtime to weaken the `+106,560 B / +5,328 primitive` result to accommodate the visual preference.
 
-Comment `5707878292`.
+### Building Geometry #8 / Hard Surface #9
 
-Preserve effect head `ecade64227ba1d3d1faf029ca7188ea63c2560ec` as the spatial Art reference. Do not amplify. Next Art-facing question is real wall-clock cadence/interpolation of the same spatial response, with no-retime reference preserved.
+No rollback of compact-v2. Preserve it as a truthful explicit non-default derived receiver. Any lower-cost receiver that targets the preferred planar/highlight response must be a new exact candidate, not a silent rewrite.
+
+### Building Materials #3
+
+Keep the five-family material profile fixed. Its isolated reference-shell vs compact-v2 proof already shows no scalar retune is required under the explicit hard-normal path.
 
 ### Visual Observer / QA
 
-Fresh independent motion review is required. No inherited QA PASS is claimed.
+Independently inspect the exact 68 parent/compact current-world pairs for hard-edge artifacts, highlight popping, holes, silhouette drift, material-role loss and camera-specific regressions. Do not reduce the review to the inherited numeric continuity guard.
 
-### Nature Materials / Geometry
+## Continuing holds / non-claims
 
-Stay fixed for timing review. Do not solve timing through material retuning, leaf duplication or source-form changes.
+No claim is made for compact-v2 semantic/default adoption, independent QA acceptance, arbitrary views/renderers, smooth/generated-normal equivalence, tangent/UV/texture/normal-map equivalence, Technical-Art transport, target-device performance, architecture/manufacturing validity, collision/navigation/gameplay, final Nature flutter timing, Animal transport resolution, Character shoulder-intersection freedom, CANON, production readiness, Building mastery or 3D Art Direction mastery.
 
-### Nature Procedural #4
-
-Current compatibility evidence at head `cb19c9ee832cd6731f42c40067aab3a4656875a6` remains exactly that: compatibility. Direction 018 does not auto-accept flutter appearance across nine materially different procedural outputs.
-
-### Runtime / Technical Art
-
-No target-device/performance/transport verdict is made. Proof-host zero counter delta is not target-device certification.
-
-## Remaining Nature / constellation holds
-
-This activation does **not** establish:
-
-- final wall-clock flutter cadence or interpolation;
-- continuous-playback perceptual naturalness;
-- final back-facing shaded-normal response;
-- final normals, tangents, UVs, texture packing or texel density;
-- final bark/leaf textures, translucency, transmission, subsurface response, alpha cutout or weathering;
-- physical wind, biomechanics or botanical correctness;
-- arbitrary camera/FOV/resolution/renderer/display equivalence;
-- target-device CPU/GPU/FPS/VRAM/heap/thermal/battery acceptance;
-- collision, navigation, interaction or gameplay behavior;
-- automatic appearance acceptance for procedural Nature variants;
-- resolution of Animal's transported direction-frame HOLD;
-- Character shoulder self-intersection freedom;
-- Map Runtime #34's one-pixel footprint-index tradeoff acceptance;
-- Building compaction acceptance;
-- Object inner-lid material adoption;
-- CANON;
-- production/game readiness;
-- Nature mastery;
-- VFX mastery;
-- 3D Art Direction mastery.
+Nature Direction 018's sampled spatial preference remains valid. Its final timing remains blocked until direct timed visual capture exists; the new QA wall-clock accounting is evidence, not perceptual acceptance.
 
 ## Four-root merge gate
 
-- **Truth:** current-world sampled spatial preference, unproven wall-clock timing, missing independent QA and final shaded/performance holds remain separate facts.
-- **Agency / non-domination:** Art Direction selects only the visual target. VFX owns timing implementation, Environment owns receiving composition, QA owns independent observation, and Runtime / Technical Art retain their own boundaries.
-- **Continuity:** exact Direction-017 parent, exact Environment successor, exact VFX effect head, procedural compatibility family and rollback identities remain separately pinned.
-- **Wisdom before speed:** keep the smallest restrained motion already supported by evidence; do not amplify or bundle unrelated lookdev before timing and QA evidence justify it.
+- **Truth:** the 2.4–3.2% raster change and the proof-host runtime regression remain visible together; neither is rewritten to fit a story.
+- **Agency / non-domination:** Art selects the visual target only; Environment, Geometry/Hard Surface, Materials, QA, Runtime and Technical Art retain their respective authority.
+- **Continuity:** the active `184v / 276t` receiver remains the rollback baseline and compact-v2 remains separately addressable/non-default.
+- **Wisdom before speed:** keep the cleaner look as a target without automatically spending a substantially larger current-world representation budget merely because the candidate is named `compact`.
 
 The four AXM roots remain the merge gate.
 
 ## Next Art Direction candidates
 
-Re-scan before acting. Current likely gates only when exact evidence is ready:
+Re-scan before acting. Current likely gates when exact evidence is ready:
 
-1. Nature Direction-018 real wall-clock playback A/B plus independent QA;
-2. corrected transported Animal direction-frame target-host shaded A/B against Direction 016's owner-frame reference;
-3. Building compact-boundary-shell current-world visual receiver if its exact material/Environment A/B lands;
-4. Object source-owned inner-lid `service_dark` after exact source rebind + independent visual evidence;
-5. Map Runtime #34 one-pixel / one-LSB footprint-index trade after independent QA if still unresolved;
-6. Character shoulder only after the nonzero-intersection boundary materially changes.
+1. independent Visual QA on Building Direction 019 and/or a lower-cost exact receiver reproducing the preferred hard-surface read;
+2. Nature Direction 018 direct timed visual capture;
+3. corrected transported Animal direction-frame target-host shaded A/B;
+4. Object source-owned inner-lid material review after exact rebind + independent visual evidence;
+5. Map Runtime #34 one-pixel footprint trade if QA makes it decision-ready;
+6. Character shoulder only after the nonzero-intersection boundary changes.
