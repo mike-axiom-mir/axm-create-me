@@ -1,122 +1,88 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-17
-State: **BUILDING UTILITY-PANEL CLEARANCE SUCCESSOR REBIND IMPLEMENTED / EXISTING BUILDING PR #4 ADVANCED / TWO ORTHOGONAL RECEIVER OUTPUTS / 7 FAIL-CLOSED CONTROLS / EXACT CI QUEUED / NO SOURCE REWRITE OR AUTO-ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
+State: **BUILDING CLEARANCE FAMILY PROVENANCE REBOUND / EXISTING PR #4 ADVANCED IN PLACE / SOURCE BLOBS BYTE-IDENTICAL / PRIOR CI NOW GREEN / CURRENT EXACT-HEAD CI QUEUED / NO NEW FAMILY OR RECEIVER ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, all current specialist statuses, and the full design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-`axm-create-me` remains **coordination only**. Product implementation, tests and workflow evidence live in the existing `mike-axiom-mir/axm-building-design` Procedural PR #4. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
-
-The immediately preceding Procedural status is preserved in Git history. That activation established the bounded Building owner-seam component family. This activation did not continue that family by cadence.
+`axm-create-me` remains **coordination only**. Product implementation, tests and workflow evidence remain in the existing `mike-axiom-mir/axm-building-design` Procedural PR #4. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
 - **Weapon / Armor / Unit / Misc:** no implementation-backed repeated pattern justified inventing a generator.
-- **Character / Animal:** active Geometry / Rigging / Materials / Animation / Technical-Art / Runtime work already owns the current representation and deformation questions.
-- **Nature:** mature bounded Procedural response/variation families already exist; no new generic vegetation primitive was justified.
-- **Weather:** its bounded seeded field family already exists; no fresh owner-backed repeat justified widening it.
-- **Map:** Environment / VFX / Technical-Art / Runtime receiver work remains active, so Procedural did not enter current-world adoption.
+- **Character / Animal:** active Geometry / Rigging / Materials / Animation / Technical-Art / Runtime work owns the current representation and deformation questions.
+- **Nature:** bounded Procedural variation/response families already exist; no fresh owner-backed repeat justified widening them.
+- **Weather:** its bounded seeded field family already exists; no wider field primitive is justified by current evidence.
+- **Map:** Environment / VFX / Technical-Art / Runtime receiver work remains active; Procedural did not enter current-world adoption.
 - **Object:** the source-face / UV / atlas / indexed-binding chain is mature and downstream authority remains elsewhere.
-- **Building:** Hard Surface PR #17 introduced a fresh exact source successor: utility-panel receiver standoff changed from **0.08 m to 0.10 m** after proving that the predecessor interpretation produced **0.00 m physical body gap** rather than the required **0.02 m**. The same corrected source must be explicitly rebound into two already-owned, materially different receiver frames. That repeated successor handoff is narrow, deterministic, provenance-rich and explicitly not an automatic migration.
+- **Building:** the existing clearance-successor rebind family is still the correct bounded lane, but Hard Surface PR #17 advanced its exact source-authority head to repair provenance metadata. The three source artifacts consumed by Procedural are byte-identical to the previous pin. A new generator would therefore duplicate work and fabricate semantic novelty; the smallest correct action is an exact provenance rebind plus re-verification of the already-tested two-output family.
 
-No new Procedural PR was opened.
+No new Procedural PR or family was opened.
 
-## Selected bounded improvement
+## Selected bounded repair
 
 Repository: `mike-axiom-mir/axm-building-design`
 
-Existing draft PR: **#4 — `Procedural: bounded Building variation and owner-successor families`**
+Existing draft PR: **#4 — Procedural bounded Building variation and owner-successor families**
 
-Exact implementation head at status update:
+Exact implementation head after this activation:
 
-**`0d019e64a9788c05e259e8dde50498e9392469d1`**
+**`0c458e19cda73e26e90531d24fe7697b5a8d14fc`**
 
-Observed PR state: **OPEN / DRAFT / MERGEABLE**.
+Current source authority: Building Hard Surface PR #17 exact head:
 
-Source authority: Building Hard Surface PR #17 exact head:
+**`32bbdd54f00aaac87ba8139bf932d8aff6109a66`**
 
-**`6585c62d9e21cd56244d35817ec40f1f92889c6f`**
-
-Pinned exact owner blobs:
+Current exact owner blobs:
 
 - corrected panel: `51b7fa61dd87934a89e033a2fdf5cc3b99992454`;
 - receiver-clearance policy: `99af5195d9f05658668be829d18873b142ab209d`;
 - service-surface domain: `8b4484d4ccbd500e58910a2835d8780112489919`.
 
-Pinned predecessor evidence:
+These three blob identities are unchanged from the previous Procedural pin. Therefore the owner payload consumed by the generator is byte-identical; this activation changes provenance identity, not source semantics or expected generated geometry/review output.
 
-- 0.08 m panel blob: `4da242e35a84b20a80f4acf28146be613624e734`;
-- predecessor service-surface-domain blob: `14037a0fb939104ea319c9ac96fbe9fdaa949a18`.
-
-New bounded family:
+Existing bounded family retained:
 
 **`axm.building-utility-panel-clearance-rebind-family/v0.1`**
 
-Result contract:
+Current activation decision:
 
-**`PASS_BOUNDED_BUILDING_UTILITY_PANEL_CLEARANCE_REBIND_FAMILY`**
+**`IMPLEMENTED_PROVENANCE_REBIND__SOURCE_BLOBS_UNCHANGED__EXACT_CI_PENDING`**
 
-Decision contract:
+## Smallest reusable repair
 
-**`PASS_DERIVED_CLEARANCE_SUCCESSOR_REBIND_ONLY__NO_SOURCE_REWRITE_OR_RECEIVER_ADOPTION`**
+Only the existing family contract and its exact-donor workflow were changed:
 
-## Why this deserves proceduralization
+- `procedural/service_pavilion_utility_panel_clearance_rebind_family_001.json` now pins Hard Surface head `32bbdd54f00aaac87ba8139bf932d8aff6109a66` while retaining the same three exact source blob SHAs;
+- `.github/workflows/procedural-building-utility-panel-clearance-rebind.yml` now checks out that exact current Hard Surface head before running the existing owner verifier, generator and tests.
 
-Hard Surface already owns the correction and proves its physical meaning. Procedural does not rediscover that fact. The repeat is the downstream transformation from one exact source successor into two distinct receiver frames while preserving the source service-surface local frame and metric domain.
+The generator algorithm, receiver set, predecessor witness, output contract and failure bounds were deliberately not rewritten because the consumed source bytes did not change.
 
-The existing receivers are materially different:
+## Multiple materially different outputs retained
 
-- `front-utility-bay` has outward normal `[0,-1,0]`;
-- `east-utility-bay` has outward normal `[1,0,0]`.
-
-The family therefore has to preserve owner truth while mapping the same +0.02 m standoff correction through two orthogonal frames. This is exactly the kind of bounded repeated handoff Procedural should own.
-
-## Smallest reusable implementation
-
-Added in the existing Building Procedural branch:
-
-- `procedural/service_pavilion_utility_panel_clearance_rebind_family_001.json`;
-- `tools/build_pavilion_utility_panel_clearance_rebind_family.py`;
-- `tests/test_pavilion_utility_panel_clearance_rebind_family.py`;
-- `.github/workflows/procedural-building-utility-panel-clearance-rebind.yml`.
-
-The generator:
-
-1. pins the exact Hard Surface head and exact owner blobs;
-2. re-executes the exact Hard Surface clearance verifier from its donor checkout;
-3. pins the historical 0.08 m predecessor rather than silently rewriting it;
-4. verifies the source service-surface identity, local frame and metric domain stayed unchanged;
-5. derives only the exact receiver-normal successor translation;
-6. verifies source-owned body-gap truth;
-7. emits review/evidence JSON only, with automatic receiver adoption disabled.
-
-## Multiple materially different outputs
-
-Independent arithmetic cross-check and the authored test contract both cover two distinct receiver outputs:
+The family continues to test both already-owned orthogonal receiver frames rather than one lucky case:
 
 ### Front receiver
 
 - predecessor panel center: `[-2.45,-1.08,1.65]`;
 - successor panel center: `[-2.45,-1.10,1.65]`;
-- displacement: `[0,-0.02,0]` within floating tolerance;
-- predecessor service-surface origin: `[-2.45,-1.12,1.65]`;
-- successor service-surface origin: `[-2.45,-1.14,1.65]` within floating tolerance.
+- displacement: approximately `[0,-0.02,0]`;
+- successor service-surface origin: approximately `[-2.45,-1.14,1.65]`.
 
 ### East receiver
 
 - predecessor panel center: `[3.88,0.10,1.65]`;
 - successor panel center: `[3.90,0.10,1.65]`;
-- displacement: `[+0.02,0,0]` within floating tolerance;
-- predecessor service-surface origin: `[3.92,0.10,1.65]`;
-- successor service-surface origin: `[3.94,0.10,1.65]` within floating tolerance.
+- displacement: approximately `[+0.02,0,0]`;
+- successor service-surface origin: approximately `[3.94,0.10,1.65]`.
 
-The receiver normals are orthogonal. The source service-surface remains `utility_panel_outer_service_surface`, local +X origin offset **0.04 m**, metric size **1.10 × 1.50 m**, area **1.65 m²**. Both successor receivers preserve the owner-owned **0.02 m required body gap / 0.02 m actual body gap / 0.00 m slack**.
+The receiver normals remain orthogonal. The source service surface remains `utility_panel_outer_service_surface`, local +X origin offset **0.04 m**, metric size **1.10 × 1.50 m**, area **1.65 m²**. Both successor receivers preserve the owner-owned **0.02 m required body gap / 0.02 m actual body gap / 0.00 m slack**.
 
-## Failure bounds
+## Failure bounds retained
 
-Seven controls are retained in the family and test harness:
+The same seven controls remain fail-closed:
 
 1. exact Hard Surface donor-head drift;
 2. corrected panel-blob drift;
@@ -126,43 +92,45 @@ Seven controls are retained in the family and test harness:
 6. successor panel center not equal to the exact receiver-normal translation;
 7. physical body-gap regression.
 
-Failure policy:
+Failure policy remains:
 
 **`FAIL_CLOSED_NO_SOURCE_REWRITE_NO_FRAME_INFERENCE_NO_DELTA_GUESSING_NO_AUTO_RECEIVER_ADOPTION`**
 
-No fallback, receiver guessing or silent predecessor replacement is permitted.
-
 ## Verification state
 
-Exact-head workflow authored:
+The previously queued exact-head run for the preceding implementation head has now completed:
 
-**`Procedural Building utility-panel clearance rebind family evidence`**
+- workflow run **`35248406114`**;
+- exact Procedural head **`0d019e64a9788c05e259e8dde50498e9392469d1`**;
+- Python **3.11: SUCCESS**;
+- Python **3.13: SUCCESS**;
+- retained artifact **`10509017721`**;
+- artifact size **7,082 bytes**;
+- artifact SHA-256 **`019553c6dbb7b191567daaa5b4c826f9f0da188c8722063548d2db72450ce885`**.
 
-Run observed for exact head `0d019e64a9788c05e259e8dde50498e9392469d1`:
+That closes the previous status's queued-CI truth boundary and verifies the two-output family against the prior exact Hard Surface authority pin.
 
-**`35248406114`**
+For the **current** exact Procedural head `0c458e19cda73e26e90531d24fe7697b5a8d14fc`, GitHub has accepted workflow run **`35254724338`** for `Procedural Building utility-panel clearance rebind family evidence`, but it is currently **QUEUED**. The wider exact-head workflow set is also queued. Therefore this status deliberately does **not** claim that the provenance-rebound head is CI-green yet and does not claim a current-head retained artifact.
 
-At this status update GitHub reports the run **QUEUED** and both Python 3.11 / 3.13 jobs **QUEUED**. The workflow is designed to compile the generator/tests, execute the exact donor verifier and bounded family on both Python versions, and retain the exact heads/contracts/profile/summary on Python 3.11.
-
-Because the runner has not executed yet, this status deliberately does **not** claim CI PASS or a retained artifact. The two receiver transformations were independently arithmetic-cross-checked, but exact repository CI remains pending.
+Because the three pinned source blobs are byte-identical to the already-green predecessor pin, the expected semantic outputs are unchanged; this is continuity evidence, not a substitute for exact-head CI.
 
 ## Ownership / non-overlap
 
-Hard Surface keeps source panel, receiver-clearance and service-surface authority. Geometry keeps topology. Materials keeps UV/material acceptance. Technical Art keeps transport/representation integration. Environment keeps world/receiver adoption. Runtime keeps performance/device acceptance. Art Direction and Visual QA keep final appearance/readability acceptance. Procedural owns only the bounded deterministic successor rebind.
+Hard Surface keeps source panel, receiver-clearance and service-surface authority. Geometry keeps topology. Materials keeps UV/material acceptance. Technical Art keeps transport/representation integration. Environment keeps world/receiver adoption. Runtime keeps performance/device acceptance. Art Direction and Visual QA keep final appearance/readability acceptance. Procedural owns only the bounded deterministic successor rebind and its provenance/test contract.
 
-The historical 0.08 m source evidence remains provenance for the predecessor failure witness. This family does not silently rewrite prior evidence or auto-migrate receivers.
+The historical 0.08 m source evidence remains provenance for the predecessor failure witness. No prior evidence was silently rewritten and no receiver is automatically migrated.
 
 ## Explicit non-claims
 
-This implementation does **not** establish fasteners, tooling, hinges, latches, seals, engineering loads, manufacturing tolerance, collision/physics, UV/material state, Map/Environment adoption, Runtime/device acceptance, Art/Visual-QA acceptance, UC/Profession Fabric promotion, CANON, production/game readiness, or Procedural Design mastery.
+This activation does **not** establish new source semantics, a new procedural family, fasteners, tooling, hinges, latches, seals, engineering loads, manufacturing tolerance, collision/physics, UV/material state, Map/Environment adoption, Runtime/device acceptance, Art/Visual-QA acceptance, UC/Profession Fabric promotion, CANON, production/game readiness, or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** exact owner head/blobs and exact owner verifier are pinned; the predecessor failure remains visible; CI is reported as queued rather than falsely green.
-- **Agency / non-domination:** Procedural does not seize Hard Surface source semantics or downstream Geometry/Materials/TA/Environment/Runtime/Art/QA authority; automatic receiver adoption is explicitly false.
-- **Continuity:** existing Building Procedural PR #4 is advanced in place; prior evidence remains intact; the new family is a successor rebind rather than a silent rewrite of the 0.08 m history.
-- **Wisdom before speed:** only the two already-owned receiver frames are parameterized. No generic mounting/clearance primitive is promoted until another materially different domain proves that wider need.
+- **Truth:** the current exact owner head is pinned while the unchanged blob identities are stated explicitly; the previously queued CI result is now recorded as green, while current exact-head CI is still reported queued.
+- **Agency / non-domination:** Procedural does not seize Hard Surface source semantics or downstream Geometry/Materials/TA/Environment/Runtime/Art/QA authority; automatic receiver adoption remains false.
+- **Continuity:** existing Building Procedural PR #4 and family v0.1 were repaired in place. Because owner payload bytes did not change, no fake new family or semantic rewrite was created.
+- **Wisdom before speed:** provenance drift was repaired first. Wider proceduralization remains blocked until another materially different owner-backed domain proves the need.
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. If this exact CI run finishes, record its real result and artifact evidence before making any stronger claim. Do not universalize the clearance rebind by cadence; prefer a fresh owner-backed repeat or an explicit downstream consumer need.
+Re-scan the full constellation first. If exact-head run `35254724338` finishes, record its real result and retained artifact before strengthening the decision to PASS. Do not universalize the clearance rebind by cadence; prefer a fresh owner-backed repeat or a concrete downstream consumer need.
