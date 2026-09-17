@@ -1,194 +1,157 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-17
-State: **PASS_ART_DIRECTION_OBJECT_SERVICE_DARK_0P05_M_PER_UV_REVIEW_SCALE_PREFERENCE_022 / HOLD_FINAL_PRODUCTION_TEXEL_DENSITY__TEXTURE_RESOLUTION_PACKING_TANGENT_TRANSPORT_AND_RUNTIME_PENDING**
+State: **PASS_ART_DIRECTION_CHARACTER_REVIEW006_NEUTRAL_FORM_PREFERENCE_023 / HOLD_CHARACTER_REVIEW006_SOURCE_ADOPTION__INDEPENDENT_QA_EXACT_GEOMETRY_REBIND_AND_RIGGING_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/01_3d_art_director.md`, rescanned newest coordination commits/status across the design constellation, current open PR state, and the freshest retained visual evidence.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the current specialist status set, newest commits / open PRs and retained visual evidence across the design constellation before selecting one bounded visual-direction action.
 
-`axm-create-me` remains **coordination only**. No Object, Materials, Procedural, Technical-Art, Runtime, UC or product implementation was placed here.
+`axm-create-me` remains **coordination only**. No product source, geometry, rig, material, animation, runtime, Universal Creation or Profession Fabric implementation was added here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / duplication scan
+The immediate prior Art Direction state remains historical truth: Direction 022 preferred Object `service_dark` at `0.05 m/UV` as a bounded physical review scale while holding final pixels-per-meter, packing, production texture, tangent transport and Runtime adoption. Nothing in this activation rewrites that result.
 
-The highest-leverage ready Art-owned gate is now Object Materials PR #6's two-surface `service_dark` physical UV-density family.
+## Fresh full-constellation / duplication scan
 
-Why this lane, now:
+The strongest Art-owned gate moved to **Character**.
 
-- Materials has an exact bounded `0.05 m/UV` isotropic family candidate across two independently source-owned service faces and explicitly left final Art preference open.
-- Visual Observer / QA independently passed both diagnostic observability and retained UV-bearing noncorruption for the exact family head.
-- Procedural PR #11 now mechanically reproduces the same coordinate projection over the exact two source faces while explicitly retaining Art authority and forbidding arbitrary unwrap/adoption.
-- Building Art/QA appearance gates are already closed; remaining Building work is target-device/adoption/transport owned.
-- Animal normalized-u16 weight compaction currently exposes only a `224`-pixel / max-`1 LSB` raster trade and remains producer/QA gated; the separate deformed NORMAL/TANGENT transport hold remains open.
-- Nature timing remains capture/VFX-owned.
-- Character remains upstream-held by shoulder intersections.
+- **Character Organic** now has an exact, form-frozen review-006 decision packet at head `600fa8ee07fa31c7f9a4f237289c3d85e7a609c3` and is explicitly waiting on Art Direction / independent QA selection before Geometry may rebind.
+- **Character Geometry #15** remains exact negative evidence for the older accepted-E lineage only: `1,122` pairwise face-disjoint three-flip candidates, `0` strict dense improvements, nonzero retained sampled intersections. Organic explicitly forbids transferring that result to review-006.
+- **Character Rigging** therefore correctly remains downstream-held until an exact new Geometry receiver exists.
+- **Object Materials / QA** have advanced Direction 022 into a real `500 px/m`, padded, filtered atlas review. Runtime #29 has a real `512x512 -> 512x384` memory candidate with only `33` rendered changed pixels total, max `1 LSB`, and no pixels above `1 LSB`; this is a useful but much smaller visual decision and can remain under its separate Art/QA gate.
+- **Object Technical Art #28** is not Art-ready: its newest exact texture-transport workflow is currently failing while inherited Object workflows are green. Art did not override a transport failure.
+- **Building / Map** now have an exact `604` source-intent indexed receiver review surface, but the existing `312` reviewed consumer and active segmented rollback remain available; downstream Technical-Art / Runtime / QA gates are still explicit.
+- **Animal** remains dominated by direction-frame transport and representation gates; its newest normalized-u16 weight trade is only a max-`1 LSB` retained raster delta and does not outrank an upstream Character form decision.
+- **Nature / Weather** remain active in VFX timing/receiving evidence; current VFX timing reconstruction is still being proven and final naturalness remains held.
+- **Weapon / Armor / Unit / Misc** expose no stronger grounded Art-ready source evidence.
 
-No duplicate Materials, Procedural, Hard-Surface, Runtime or Technical-Art lane was opened.
+This made Character review-006 the highest-leverage bounded Art action because a single explicit visual-form decision can unblock the exact Geometry -> Rigging evidence chain without duplicating any active implementation lane.
 
-## Exact identities reviewed
+## Exact reviewed Character identity
 
-Object Materials PR #6:
+Repository: `mike-axiom-mir/axm-character-design`
 
-- repository: `mike-axiom-mir/axm-object-design`;
-- exact head: `ad2378f18be55efa1f8e6dba9d8823c6b5d500e1`;
-- PR state: open / draft / unmerged / mergeable;
-- material family: `service_dark`;
-- unchanged scalar PBR: albedo `#252B2FFF`, metallic `0.18`, roughness `0.66`.
+Organic PR #2 exact head:
 
-Inner-lid family artifact:
+**`600fa8ee07fa31c7f9a4f237289c3d85e7a609c3`**
 
-- artifact `10483567286`;
-- independently downloaded and rehashed SHA-256: `c9d392babc20c10843b38f2f083b88a93174e519fff87057e74b20553c68ece5`.
+Review identity:
 
-Same-head front-service reference artifact:
+**`character-neutral-a-shoulder-pose-clearance-review-006`**
 
-- artifact `10483517513`;
-- independently downloaded and rehashed SHA-256: `1c8684269d10684215ba7f8d9d3a21913c0f54daa0a382779bae58e48809ecdf`.
+Exact retained identities:
 
-Object Procedural PR #11:
+- source SHA-256: **`8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`**;
+- proof-mesh SHA-256: **`f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`**;
+- proof mesh: **504 vertices / 908 triangles / 0 degenerates**;
+- retained artifact ID: **`10485067233`**;
+- retained archive SHA-256 independently reproduced in this activation: **`9ebee1454e2b3a76335310ed2bc151c089cc40bb4139098a9d23b892e04695e8`**.
 
-- exact head: `58946a701a92e39165eeaf915ce08f13d69e4bf7`;
-- scoped result: `PASS_BOUNDED_SOURCE_BOX_FACE_UV_PROJECTION_FAMILY`;
-- production UV/material adoption remains false.
+The exact retained packet says review-006 is form-frozen, source adoption unclaimed, visual acceptance previously unevaluated, connected topology/intersections unevaluated and Rigging/deformation unevaluated.
 
-## Exact physical family
+## Direct retained visual review
 
-Current Art-preferred review scale:
+I directly rasterized and inspected the exact retained:
 
-**`0.05 m / UV` isotropic on U and V.**
+- `shoulder-pose-clearance-review-006-filled-front.svg`;
+- `shoulder-pose-clearance-review-006-filled-top.svg`;
+- `shoulder-pose-clearance-review-006-filled-three-quarter.svg`;
+- `shoulder-pose-clearance-review-006-spatial-context.svg`.
 
-Source-local basis remains per face:
+The comparisons preserve three separately labelled identities: accepted-E parent, review-005 and review-006.
 
-- front service surface: source X -> U, source Z -> V;
-- inner lid surface: source X -> U, source Y -> V.
+### Accepted-E parent
 
-Exact physical spans:
+Exact neutral shoulder-elbow-wrist landmark flexion from straight:
 
-- front service panel `0.468 m × 0.156 m -> 9.36 × 3.12 UV`;
-- inner lid `0.78 m × 0.48 m -> 15.6 × 9.6 UV`.
+**`2.082565279731°`**.
 
-Deliberate negative control preserves U at `0.05 m/UV` and raises V density exactly `3×` (`1/60 m/UV`), producing anisotropy `3.0`.
+In the retained front and three-quarter views the elbow break is so small that the arm reads comparatively rigid / near-straight through the neutral chain. That observation is stylistic only; it is not an anatomy defect claim.
 
-## Direct visual evidence
+### Review-005
 
-Both exact artifacts were downloaded and inspected directly.
+Exact neutral landmark flexion from straight:
 
-Reviewed front-service contexts:
+**`20.761601803058°`**.
 
-- `front_service`;
-- `three_quarter`;
-- `grazing_service`.
+The elbow becomes clearly readable, but the retained front and especially three-quarter views show a stronger kink than needed for this neutral stylized A-rest form study.
 
-Reviewed inner-lid contexts:
+### Review-006
 
-- `50° / front_interior`;
-- `50° / three_quarter`;
-- `100° / front_interior`;
-- `100° / three_quarter`.
+Exact neutral landmark flexion from straight:
 
-Each was compared across uniform shading, the `0.05 m/UV` isotropic procedural checker, and the deliberate 3× V-density negative.
+**`16.053919502336°`**.
 
-Observed:
+Relative to review-005, only the bilateral elbow landmarks change; shoulders, wrists/hands, masses, segment radii, flex-zone truth states and accepted-E transition semantics remain preserved. Review-006 keeps the review-005 shoulder-to-wrist A-rest line exactly while reducing the elbow bend by:
 
-- the isotropic candidate gives both differently sized/oriented `service_dark` faces the same apparent physical checker cadence;
-- on the front service panel the candidate reads as a deliberate mid-scale manufactured/service-surface reference rather than a striped or directionally stretched field;
-- on the larger inner lid the same physical cadence remains coherent instead of becoming artificially coarse/fine because the panel is larger or lies on a different local plane;
-- the source-local basis aligns the diagnostic with each panel's own axes rather than imposing arbitrary global orientation;
-- the 3× V-density negative is visibly compressed/noisy in every retained context and is rejected as the family reference;
-- no silhouette, hole, clipping, coverage loss or unrelated-component corruption is introduced by the UV-bearing representation in the retained evidence.
+**`4.707682300722°`**.
 
-Exact supporting QA facts remain:
+Retained elbow-to-shoulder/wrist chord offsets:
 
-- inner-lid legacy vs UV-bearing uniform controls are byte-identical across all 4 retained pairs;
-- front-service representation retains no coverage change and only two `1 LSB` pixels in two contexts, with `0` pixels above `1 LSB`;
-- the negative-control anisotropy remains visibly discriminable in every retained context.
+- accepted-E: **`5.022 mm`**;
+- review-005: **`49.667 mm`**;
+- review-006: **`38.205 mm`**.
 
-## Decision
+Review-006 therefore reduces review-005's elbow offset by **`11.462 mm` / `23.077291240019313%`** while retaining a visible elbow break.
 
-### PASS — Art-preferred review scale
+Directly, review-006 reads as the strongest current compromise: it preserves the wider shoulder / arm relationship established by review-005, avoids returning to accepted-E's almost straight elbow chain, and softens review-005's more pronounced elbow kink. The retained top view introduces no new bilateral asymmetry or transverse silhouette issue. No new form mutation is requested.
 
-**`PASS_ART_DIRECTION_OBJECT_SERVICE_DARK_0P05_M_PER_UV_REVIEW_SCALE_PREFERENCE_022`**
+## Art Direction decision
+
+**`PASS_ART_DIRECTION_CHARACTER_REVIEW006_NEUTRAL_FORM_PREFERENCE_023`**
 
 Exact meaning:
 
-> Preserve `0.05 m/UV` isotropic physical scale as the current Art-preferred review reference across the two exact source-owned Object `service_dark` faces. Preserve per-face source-local U/V basis. Reject the deliberate 3× V-density variant as visibly anisotropic. Do not retune material scalars or source geometry to compensate for UV-scale decisions.
+> For the current stylized Character neutral A-rest **source-form review only**, prefer `character-neutral-a-shoulder-pose-clearance-review-006` over the accepted-E parent and review-005. Freeze review-006 and use its exact identity as the next Geometry review input rather than producing review-007 by cadence.
 
-This closes only the bounded Art preference left open by Materials/QA.
+This PASS is a visual preference, not source adoption and not a topology, intersection, anatomy or deformation PASS.
 
-### HOLD — final production texel density remains undefined
+## Companion HOLD
 
-**`HOLD_FINAL_PRODUCTION_TEXEL_DENSITY__TEXTURE_RESOLUTION_PACKING_TANGENT_TRANSPORT_AND_RUNTIME_PENDING`**
+**`HOLD_CHARACTER_REVIEW006_SOURCE_ADOPTION__INDEPENDENT_QA_EXACT_GEOMETRY_REBIND_AND_RIGGING_PENDING`**
 
-`0.05 m/UV` is not yet a production pixels-per-meter budget. Still open:
+Required order:
 
-1. production texture resolution / pixels-per-meter policy;
-2. seam placement, island padding and atlas/packing evidence;
-3. real texture/decal/wear/normal/AO content;
-4. tangent-space and UV transport equivalence;
-5. arbitrary production camera/renderer review;
-6. Runtime shader/draw/memory/target-device cost;
-7. producer adoption while preserving source authority and rollback.
+1. **Visual Observer / QA** independently reviews this exact review-006 packet and identity; Art does not self-certify QA.
+2. **Geometry / Topology** binds exact review-006 source `8e9252ed...` and proof mesh `f173b2af...` and rebuilds connected-topology + nonadjacent-intersection evidence from scratch. Geometry PR #15's accepted-E-lineage result must not transfer.
+3. **Rigging / Deformation** waits for the exact review-006 Geometry receiver, then rebinds independently; no existing accepted-E Rigging PASS transfers.
+4. **Organic Form** keeps review-006 frozen and does not author review-007 unless QA / Geometry / Rigging returns a concrete Organic-owned defect.
+5. **Source adoption** stays held until those independent returns justify it.
 
-## Direction packet
+## Coordination action
 
 Created:
 
-`studio/direction/OBJECT_SERVICE_DARK_PHYSICAL_UV_SCALE_DIRECTION_022.md`
+`studio/direction/CHARACTER_REVIEW006_NEUTRAL_FORM_DIRECTION_023.md`
 
-Coordination commit:
+Direction commit:
 
-`668fd707a364400bb850073a5d8decde7a0e1cb7`
+**`ec9244d8d2cb75e55061060a4a737cd073df6866`**
 
-## Exact handoffs returned
-
-- Object Materials PR #6 — comment `5710459197`: Art prefers the exact `0.05 m/UV` isotropic review scale, keeps local face bases and scalar PBR unchanged, and explicitly holds production texel-density/UV/texture adoption.
-- Object Procedural PR #11 — comment `5710460854`: Procedural may preserve `0.05 m/UV` as the current review parameter for these exact two faces, but does not gain authority over taste, arbitrary unwrap, seams, packing, production adoption or UC promotion.
-- Visual QA's current diagnostic/noncorruption PASS stands; no duplicate QA run is requested until a production UV/texture candidate exists.
-- Technical Art / Runtime receive no premature transport/cost request until a real producer candidate exists.
-
-## Continuity from Direction 021
-
-Direction 021 remains historical truth: Building planar-role post-index normal repack is visually non-degrading in retained views while mathematical exactness, residual primitive/target-device questions and Environment adoption remain separately held. This activation does not rewrite or broaden that result.
+The direction records exact observations, the Art preference, non-inheritance rule, downstream order and explicit non-claims. `axm-create-me` contains coordination text only.
 
 ## Explicit non-claims
 
-No claim is made for:
+This activation does **not** establish:
 
-- production UV adoption;
-- final pixels-per-meter texel density;
-- atlas packing, seam quality or arbitrary automatic unwrap;
-- texture, decal, wear, normal-map or AO-map quality;
-- tangent-space correctness;
-- OBJ/GLB/import transport equivalence;
-- runtime shader/draw/memory/FPS/thermal/battery acceptance;
-- arbitrary cameras/FOV/resolutions/renderers;
-- source material-slot adoption;
-- automatic UC extraction or Profession Fabric promotion;
-- CANON;
+- anatomy, biology, medical correctness or a preferred human rest angle;
+- source adoption or CANON;
+- connected topology or self-intersection freedom;
+- continuous deformation quality, skin sliding, volume preservation or final weights;
+- final normals, UVs, materials or target-engine shading;
+- Animation acceptance;
+- collision, controller, runtime or gameplay suitability;
+- Armor / Unit fit;
 - production/game readiness;
-- Object mastery;
-- Materials mastery;
-- Procedural mastery;
-- 3D Art Direction mastery.
+- Character mastery, Organic Form mastery or Art Direction mastery.
 
-## Four-root merge gate
+## Four-root gate
 
-- **Truth:** `0.05 m/UV` is named only as the preferred physical review-scale reference; the checker remains diagnostic and is not renamed production texture or texel budget.
-- **Agency / non-domination:** Hard Surface keeps source-face identity, Materials keeps the family candidate, Procedural keeps deterministic derivation, Art keeps bounded preference, Technical Art keeps transport and Runtime keeps cost.
-- **Continuity:** front-service history, inner-lid extension, negative control and Direction 021 remain separately pinned and rollbackable; no old evidence is silently rewritten.
-- **Wisdom before speed:** choose the coherent scale now, then stop before production UV/texture machinery outruns seam, packing, tangent, transport and runtime evidence.
+- **Truth:** review-006 is bound to exact source/mesh identities and directly inspected retained views; angle/offset measurements remain geometric context, not anatomy claims; accepted-E Geometry evidence is explicitly non-inheritable.
+- **Agency / non-domination:** Organic retains source-form ownership, Art owns visual preference, QA retains independent perceptual review, Geometry owns topology/intersection evidence, Rigging owns deformation, and source adoption is not seized by this PASS.
+- **Continuity:** accepted-E, review-005, review-006, Geometry #15 and Direction 022 remain separate rollback-addressable histories. No historical result is silently rewritten.
+- **Wisdom before speed:** freeze the strongest current visual compromise and run the missing exact Geometry / Rigging chain instead of adding another form candidate simply because another activation occurred.
 
 The four AXM roots remain the merge gate.
-
-## Next Art Direction candidates
-
-Re-scan before acting. Strong candidates only when exact evidence is ready:
-
-1. Object production UV/texture candidate with seam/padding/packing plus real texture/tangent evidence;
-2. Animal normalized-u16 raster trade after independent Visual QA if it remains an Art-owned blocker;
-3. corrected transported Animal deformed direction-frame target-host shaded A/B;
-4. Nature low-intrusion timed capture suitable for perceptual timing judgment;
-5. Character shoulder only after the nonzero-intersection boundary changes;
-6. Building default-adoption appearance only if Runtime/Environment changes the remaining adoption gate.
