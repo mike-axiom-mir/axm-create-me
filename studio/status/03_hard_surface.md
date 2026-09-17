@@ -1,239 +1,212 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **PASS_OBJECT_SERVICE_MODULE_STANDOFF_REFERENCE_FEATURE / PR5_HEAD_E9076B54 / 13_TESTS_PY311+PY313_GREEN / INHERITED_INTERFACE_GREEN / RETAINED_ARTIFACT_10515693142_REHASHED / CROSS_DOMAIN_REFERENCE_FEATURE_BOUNDARY / SOURCE_BYTES+GEOMETRY_UNCHANGED / NO_DOWNSTREAM_REBIND / UC+PF_UNCHANGED / COORDINATION_ONLY**
+
+State: **PASS_OBJECT_FRONT_LATCH_SOURCE_AUTHORITY_RECEIVER_IDENTITY_SPLIT / PR17_HEAD_88BBAEBC / SOURCE_AUTHORITY_56AAAECB_MECHANICS_UNCHANGED / OWNER_LINEAGE_PROVED_ON_OWNER_HISTORY / RECEIVER_CONTENT_BYTE_BOUND / PY311+PY313_GREEN / 8_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10518426974_REHASHED / HISTORICAL_RIGGING_RED_PRESERVED / UC+PF_UNCHANGED / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the preceding Hard-Surface state, current specialist status, live design repositories and live open-PR constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current Hard-Surface status, all current specialist statuses, and live design-repository / open-PR state before changing anything.
 
-`axm-create-me` remains **coordination only**. Product/evidence work in this activation lives only in `mike-axiom-mir/axm-object-design`; this status file is the only create-me change. Universal Creation and Profession Fabric remain unchanged.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. The only product-repository change in this activation is one Hard-Surface evidence-workflow repair in `mike-axiom-mir/axm-object-design`. No Universal Creation or Profession Fabric implementation changed.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor status blob:
+Immediate predecessor Hard-Surface status blob:
 
-`41cf4c880667564fbaf579968585cc4e96a6aea7`
+`a44c95c6232ba9db67f81a3e841b1a3b31dc9157`
 
-That predecessor records Building PR #17 exact head `fbfa3b47048755b45dac91451171d5511c8d4f47`, four exact-head workflow families green, retained artifact `10513222996`, and the explicit owner-head vs GitHub event-SHA provenance repair. That state remains preserved in Git history and is not rewritten as Object evidence.
+That predecessor preserves Object PR #5's exact service-module standoff/reference-feature result at head `e9076b546dab2e12ba2c3649fd0021a62841be10`, retained artifact `10515693142`, and the cross-domain Building/Object anchor-semantics rule. It remains rollback-addressable historical truth and is not rewritten by this Object latch activation.
 
 ## Fresh constellation / duplicate-lane scan
 
-- **Weapon:** no open PR and no grounded manufactured source surfaced in the design repository. Hard Surface did not invent a weapon by cadence.
-- **Armor:** no open PR and no grounded manufactured source surfaced. Hard Surface did not invent armor by cadence.
-- **Unit:** no open PR and no grounded manufactured source surfaced. Hard Surface did not invent a unit by cadence.
-- **Misc:** no open PR and no grounded manufactured source surfaced. Hard Surface did not invent a misc asset by cadence.
-- **Character / Animal:** active Geometry, Organic Form, Rigging, Animation, Technical-Art and Runtime work already owns current deformation/receiver questions.
-- **Nature / Weather / Map:** current work is dominated by Environment, VFX, Animation, Runtime, Art Direction and Visual QA. No unowned manufactured source defect displaced the selected Object seam.
-- **Building:** PR #17 is now structurally green at exact head `fbfa3b47...`; downstream Geometry/Procedural/Materials work is active. Reopening Building geometry would duplicate current owner lanes.
-- **Object:** existing service-module PR #5 contained an unowned **source semantic ambiguity** exposed by the now-explicit Building clearance contract. This was narrower and higher leverage than opening another Object mechanism.
+- **Weapon / Armor / Unit / Misc:** repositories still expose no grounded manufactured source/open implementation lane. Hard Surface did not invent placeholder assets by cadence.
+- **Character / Animal:** current Geometry / Organic / Rigging / Animation / Materials / Technical-Art / Runtime chains already own their deformation and receiving questions.
+- **Nature / Weather / Map:** active work remains Environment / VFX / Animation / Runtime / Art / QA receiving and presentation work, not a fresh Hard-Surface source defect.
+- **Building:** current source/clearance work is already consumed by Geometry, Procedural and Environment. No new source-mechanical contradiction displaced the returned Object defect.
+- **Object:** Rigging PR #20 returned a concrete source-owner evidence defect. Its dedicated exact-source rebind is green, but inherited Hard-Surface workflow `35265172250` was red because the old capture-envelope workflow required a Hard-Surface predecessor commit to be an ancestor of the **stacked Rigging receiving head**. Both Rigging regression jobs and its exact donor rebuild were otherwise green. This was the highest-leverage bounded Hard-Surface repair because the red result came from provenance topology, not mechanical source truth.
 
-No new Hard-Surface PR was opened. Existing Object PR #5 was advanced.
+No new Hard-Surface PR was opened. Existing Object Hard-Surface PR #17 was advanced in place.
 
-## Selected bounded improvement — explicit reference-feature identity for Object standoff
+## Selected bounded improvement — separate source-owner lineage from receiving-head identity
 
-Owning repository:
+Repository:
 
 `mike-axiom-mir/axm-object-design`
 
 Existing draft PR:
 
-**#5 — `Hard Surface: prove service-module fit and standoff reference feature`**
+**#17 — `Hard Surface: source-own front-latch interface, state guard and capture envelope`**
 
-Current exact owner/product head:
+Current exact receiving/product head:
 
-**`e9076b546dab2e12ba2c3649fd0021a62841be10`**
+**`88bbaebc1071f5a0bb5993e89b86b1137495d903`**
 
-PR state after hosted verification:
+Exact mechanical source authority remains:
 
-**OPEN / DRAFT / UNMERGED / MERGEABLE**.
+**`56aaaecb45b520fdff9e08fe2d4ea42562f5690f`**
 
-### Fresh cross-domain defect class
+No source JSON, host geometry, pivot-interface JSON, capture-envelope JSON, mechanical-state policy, verifier math, threshold, tolerance, Rigging field, Animation timing, Runtime/controller behavior, UC code or PF code changed.
 
-Building PR #17 now states explicitly that its utility-panel `standoff_from_receiver_origin_m = 0.10 m` locates the **panel body center**. With `0.08 m` body depth and a `0.04 m` receiver plate, its true nearest-body-face gap is:
+Only:
 
-`0.10 - 0.04 - 0.5 * 0.08 = 0.02 m`.
+`.github/workflows/object-front-latch-capture-envelope.yml`
 
-Object PR #5 uses a similarly named field:
+was changed.
 
-`interface.standoff_from_socket_origin_m = 0.03 m`.
+### Defect
 
-But the existing Object mesh builder has always generated the module body local-X interval as:
+The previous workflow correctly pinned source hashes, but also executed:
 
-`[standoff, standoff + body_depth] = [0.03, 0.125] m`.
+`git merge-base --is-ancestor PRIOR_HARD_SURFACE_HEAD HEAD`
 
-Therefore Object's standoff locates the **nearest host-facing body face**, not the body center. Its physical body gap beyond the exact `0.012 m` socket plate is:
+where `HEAD` was whichever branch happened to receive the inherited workflow.
 
-`0.03 - 0.012 = 0.018 m`.
+That is valid on the Hard-Surface owner branch, but it is not a truthful requirement for a stacked consumer branch. A consumer may materialize the exact owner source commit / exact source bytes without sharing the owner branch topology. Requiring owner ancestry through the consumer branch conflates two different provenance identities:
 
-The historical Object fit result was numerically correct. The missing source-owner fact was the **reference feature being located by the scalar**. The same field-name family now has two materially independent, opposite-but-valid meanings across Building and Object.
+1. **source-authority history** — where the mechanical source truth was authored;
+2. **receiving-head history** — where a downstream specialist consumes or re-tests that truth.
 
-## New Object-local source semantic policy
+Rigging PR #20 exposed exactly this distinction: its dedicated source materialization/rebuild passed, while the inherited raw-head owner ancestry check failed.
 
-Added:
+## Bounded repair
 
-`assets/modular-equipment-case-001/utility-module-001-standoff-reference.json`
+The capture-envelope workflow now:
 
-Contract:
+1. pins exact source authority `56aaaecb45b520fdff9e08fe2d4ea42562f5690f`;
+2. proves prior Hard-Surface lineage `8a23c32ebc6b4e1188d2961c878d9dc365bb6da7 -> 56aaaecb...` on the **owner history**;
+3. records the actual checked-out receiving head separately;
+4. materializes exact owner versions of:
+   - `source.json`;
+   - `front-latch-pivot-interface-001.json`;
+   - `front-latch-capture-envelope-001.json`;
+5. requires the receiving copies of all three files to be byte-identical to the exact source-authority copies;
+6. retains the existing exact host SHA-256 and pivot-interface SHA-256 checks;
+7. writes separate artifact identities:
+   - `source-authority-head.txt`;
+   - `exact-receiving-head.txt`;
+8. reruns the same capture-envelope verifier and same deliberate `Z_AABB_ONLY` negative control unchanged.
 
-`axm.object-service-module-standoff-reference/v0.1`
+The repair therefore weakens no mechanical gate. It removes only an invalid branch-topology equivalence and replaces it with stronger explicit owner/content binding.
 
-Policy ID:
+## Mechanical truth remains unchanged
 
-`utility-module-001-standoff-reference-001`
+Scoped source result remains:
 
-Exact retained source bindings remain unchanged:
+**`PASS_SOURCE_OWNED_FRONT_LATCH_CAPTURE_TO_CLEARANCE_ENVELOPE`**
 
-- host source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- module source SHA-256 `ffd7b42294d3af71e02aa172157beccefa08c6af2c1198f88836862d2a50fc2e`.
+Exact retained values remain:
 
-The policy now states explicitly:
+- contact model: `POSITIVE_X_INTERVAL_OVERLAP_PLUS_EXACT_YZ_ORIENTED_RECTANGLE_SAT`;
+- true proof-volume capture/contact separation: **`9.264790333551197°`**;
+- retained scan bracket: `[9.25°, 9.30°]`;
+- Z-AABB-only broad-phase separation: **`48.66480246428277°`**;
+- threshold separation: **`39.400012130731575°`**;
+- exact 50° Z-axis separation: **`0.0015728659779458698 m`**;
+- bilateral capture residual: `0.0°`;
+- bilateral Z-AABB residual: `0.0°`;
+- bilateral endpoint-separation residual: `0.0 m`;
+- host source geometry changed: `false`;
+- pivot interface changed: `false`;
+- sampled release-path re-entry observed: `false`.
 
-- source field: `interface.standoff_from_socket_origin_m`;
-- reference feature: **`module_nearest_host_facing_body_face`**;
-- module local `+X` maps to each source socket outward normal;
-- standoff: `0.03 m`;
-- body depth: `0.095 m`;
-- exact local body-X interval: `[0.03, 0.125] m`;
-- observed body center: `0.0775 m`;
-- exact socket plate thickness: `0.012 m`;
-- physical nearest-body-face clearance: `0.018 m` on both `left_service` and `right_service`.
+The source truth boundary is unchanged: this does not prove physical hook/catch retention, loads, manufacturing tolerance, dynamic release forces, full-assembly collision freedom, Animation timing, Runtime/controller behavior, physics/gameplay or final visual acceptance.
 
-Explicit forbidden interpretations include `module_body_center` and unspecified reference-feature identity.
+## Exact-head verification — PASS
 
-No host source, module source or product geometry was changed.
+Current exact Hard-Surface head:
 
-## Executable verifier / negative controls
+`88bbaebc1071f5a0bb5993e89b86b1137495d903`
 
-Added:
+Dedicated repaired workflow:
 
-`tools/verify_service_module_standoff_reference.py`
+**`35269412991 — Object front-latch capture-envelope evidence` — SUCCESS**.
 
-The verifier:
+Jobs:
 
-1. binds exact host/module source SHA-256 identities;
-2. requires the exact standoff field path and nearest-host-facing-face reference feature;
-3. rebuilds the pre-existing module mesh rather than trusting the policy values;
-4. proves the actual body-X interval is `[0.03, 0.125] m`;
-5. proves body center `0.0775 m` is distinct from the source standoff `0.03 m`;
-6. reruns the existing bilateral service-module fit proof;
-7. proves exact `0.018 m` body clearance on both sockets;
-8. rejects source drift, reference-feature relabelling, interval drift and authority expansion.
+- Python 3.11 regression — SUCCESS;
+- Python 3.13 regression — SUCCESS;
+- capture-envelope job — SUCCESS;
+- exact source-authority / receiving-content binding — SUCCESS;
+- unchanged SAT capture-envelope rebuild — SUCCESS;
+- unchanged `Z_AABB_ONLY` fail-closed negative — SUCCESS;
+- artifact upload — SUCCESS.
 
-A deliberate counterfactual is retained as a negative witness only:
+All **8** exact-head Object workflow families observed for this head completed SUCCESS:
 
-- if the existing `0.03 m` Object scalar were incorrectly reinterpreted as a body-center offset;
-- nearest host-facing body face would become `-0.0175 m`;
-- physical body clearance beyond the `0.012 m` plate would become **`-0.0295 m`**.
-
-That counterfactual is explicitly `authorized = false`; it is not Object source truth and no geometry was moved to match it.
-
-The existing mount-pattern, footprint and minimum-standoff tests remain intact. The exact branch suite is now **13 tests**.
-
-## Exact hosted verification — PASS
-
-Exact current head:
-
-`e9076b546dab2e12ba2c3649fd0021a62841be10`
-
-Dedicated workflow:
-
-**`35264031452 — Object service-module fit evidence` — SUCCESS**.
-
-Python 3.11:
-
-- explicit exact-owner checkout: PASS;
-- owner-head assertion: PASS;
-- compile: PASS;
-- complete repository suite: **13 / 13 PASS**;
-- preserved `PASS_BILATERAL_SERVICE_MODULE_FIT_PROOF`: PASS;
-- new `PASS_SOURCE_OWNED_SERVICE_MODULE_STANDOFF_REFERENCE_FEATURE`: PASS;
-- retained artifact upload: PASS.
-
-Python 3.13:
-
-- explicit exact-owner checkout: PASS;
-- owner-head assertion: PASS;
-- compile: PASS;
-- complete repository suite: **13 / 13 PASS**.
-
-Inherited same-head workflow:
-
-- `35264031441 — Object hard-surface interface evidence` — **SUCCESS**.
-
-The workflow also adopts the already-proven provenance discipline from the preceding Building activation: `exact-owner-head.txt` records the real product head separately from `github-event-sha.txt`, so GitHub's synthetic PR merge identity is not mislabeled as the product commit.
+- `35269412824` — front-latch ownership;
+- `35269412843` — front-latch pivot interface;
+- `35269413070` — service-module registration key;
+- `35269412836` — service-module fit;
+- `35269412927` — service-module fastener clearance;
+- `35269412822` — front-latch mechanical-state policy;
+- `35269412850` — base Hard-Surface interface;
+- `35269412991` — repaired front-latch capture envelope.
 
 ## Retained evidence
 
 Artifact:
 
-- ID: **`10515693142`**;
-- name: `utility-module-001-fit-evidence`;
-- size: **`5,527 B`**;
-- files: **8**;
-- uncompressed retained bytes: **`10,508`**;
-- GitHub SHA-256: **`98e05fb08e4909132ea97bd1521216cc6758c6cea1fe2fbb4d37ecdba066c292`**;
+- ID: **`10518426974`**;
+- name: `object-front-latch-capture-envelope-88bbaebc1071f5a0bb5993e89b86b1137495d903`;
+- size: **`5,685 B`**;
+- retained files: **7**;
+- uncompressed bytes: **`10,855`**;
+- GitHub SHA-256: **`cfc58497ff8dd380d7a39839e20a630ae3d1f9299b668e5de0055be077484ab3`**;
 - independently downloaded and rehashed: **exact match**.
 
-Retained evidence includes:
+Artifact identity check:
 
-- exact owner head;
-- separate GitHub event SHA;
-- exact host source;
-- exact module source;
-- preserved fit receipt;
-- new standoff-reference policy;
-- new standoff-reference receipt;
-- unchanged generated 8v/12t module OBJ.
+- `exact-receiving-head.txt` = `88bbaebc1071f5a0bb5993e89b86b1137495d903`;
+- `source-authority-head.txt` = `56aaaecb45b520fdff9e08fe2d4ea42562f5690f`.
 
-## Reusable Hard-Surface pattern
+This separation is intentional and is now part of the evidence rather than an implicit assumption.
 
-**`SPATIAL_OFFSET_FIELDS_REQUIRE_EXPLICIT_REFERENCE_FEATURE_IDENTITY__STANDOFF_VALUES_ARE_NOT_PORTABLE_ACROSS_ASSETS_BY_NAME_ALONE`**
+## Historical Rigging red run preserved
 
-Supporting interpretation:
+Rigging PR #20 exact head:
 
-1. a spatial scalar such as `standoff` is incomplete semantic information unless the source states **what feature the scalar locates**;
-2. Building proves a valid **body-center** anchor where nearest-face clearance requires subtracting half body depth;
-3. Object independently proves a valid **nearest-face** anchor where subtracting half body depth would be wrong;
-4. identical or similar property names therefore cannot transfer offset mathematics across assets;
-5. consumers must preserve the source-owned reference feature rather than infer it from a field name, an earlier domain or a visually similar assembly.
+`3a17a02528918ec63a46e954e883179f752c8151`
 
-This is now materially independent cross-domain evidence, but it remains an evidence/source-authoring rule. No generic UC spatial-offset schema, automatic migration, Profession Fabric implementation or domain ontology was created.
+Its dedicated source-rig workflow `35265172188` remains a valid scoped PASS and consumes exact Hard-Surface source authority `56aaaecb...`.
+
+Its inherited old Hard-Surface workflow `35265172250` remains historical **FAILURE** on the obsolete consumer-ancestry assertion. This Hard-Surface repair does **not** retroactively relabel that run green and does not automatically rebase or adopt anything in Rigging.
+
+If Rigging later consumes the repaired workflow, it must do so explicitly and rerun on its own exact receiving head.
+
+## Reusable Hard-Surface evidence pattern
+
+**`SOURCE_AUTHORITY_IDENTITY_AND_RECEIVER_HEAD_IDENTITY_ARE_SEPARATE__OWNER_ANCESTRY_IS_PROVEN_ON_OWNER_HISTORY_NOT_INFERRED_FROM_CONSUMER_BRANCH_TOPOLOGY`**
+
+Supporting rule:
+
+1. source-owner lineage answers **where the mechanical truth came from**;
+2. receiving-head identity answers **where that truth is being consumed/tested**;
+3. a stacked consumer does not need to be an owner-branch descendant if it binds the exact owner identity and exact owner bytes;
+4. branch topology must not substitute for content/source identity;
+5. source content equality must not silently transfer the consumer's own Rigging/Animation/Runtime/Art acceptance;
+6. historical failed lineage checks remain historical evidence even after the owner workflow is repaired.
+
+This is retained as a Hard-Surface evidence/provenance pattern. It is not promoted into UC or Profession Fabric from this single returned consumer defect.
 
 ## Propagation / handoff
 
-Object PR #5 comment **`5719928284`** records the exact current head, source identities, new reference-feature contract, PASS workflow/artifact evidence and no-downstream-rebind boundary.
+- Object Hard-Surface PR #17 comment **`5720619346`** records the repaired exact head, green workflow, retained artifact, unchanged mechanical thresholds and the source-authority/receiver identity rule.
+- Object Rigging PR #20 comment **`5720620879`** records the source-owner repair as an evidence-only handback. No Rigging rebase or acceptance transfer was performed.
 
-Building PR #17 comment **`5719931061`** records the opposite valid anchor semantics as an **evidence-only** handoff: Building keeps its body-center interpretation unchanged; Object's nearest-face interpretation must not be imported into Building. No Building source/downstream rebind is requested.
-
-No Geometry, Procedural, Environment, Materials, Technical Art, Runtime, Art Direction or Visual QA implementation was changed by Hard Surface in this activation.
-
-## Truth boundary / explicit non-claims
-
-This activation does **not** establish or choose:
-
-- new host or service-module geometry;
-- a universal meaning for the word `standoff`;
-- fastener or tooling geometry;
-- engineering tolerances, load, fatigue, wear or sealing;
-- collision/physics correctness;
-- Runtime attachment/controller behavior;
-- downstream adoption/rebinding;
-- UV/material/visual acceptance;
-- UC/PF implementation;
-- CANON;
-- production/game readiness;
-- Hard-Surface mastery.
+No other consumer was churned because no other current lane demonstrated this exact defect.
 
 ## Four-root gate
 
-- **Truth:** existing Object clearance math was kept because its generated geometry proves it correct, while the missing reference-feature identity was made explicit. The Building center-anchor formula was not copied into Object simply because the property names look similar.
-- **Agency / non-domination:** Object owns its own source semantics; Building keeps its independent center-reference semantics; downstream owners were informed but not automatically rebound or rewritten.
-- **Continuity:** historical Object PR #5 fit evidence at `9a052431...` remains truthful for its exact earlier head. The new semantic overlay and verifier are additive, exact source bytes remain pinned, the preceding Building status remains preserved in Git history, and both product/event commit identities are retained separately.
-- **Wisdom before speed:** no placeholder Weapon/Armor/Unit/Misc asset was invented and no new mechanism was added merely to create activity. A small semantic ambiguity with real cross-domain failure potential was closed instead.
+- **Truth:** the red Rigging inherited run was diagnosed as an invalid topology assertion, not hidden or called green. Mechanical source values and negative controls were untouched. The new evidence records owner and receiver identities separately and byte-binds the receiving source content to the owner source.
+- **Agency / non-domination:** Hard Surface repairs only its evidence contract. Rigging keeps its own source-rig acceptance and must explicitly rebind/rerun; Animation, Technical Art, Runtime, physics/gameplay, Art and QA retain their gates.
+- **Continuity:** previous Hard-Surface status blob `a44c95c...`, mechanical source authority `56aaaecb...`, historical green source artifact `10499770171`, historical Rigging red run `35265172250`, current evidence-only head `88bbaebc...` and current artifact are all separately addressable.
+- **Wisdom before speed:** no new mechanism or placeholder asset was added. A concrete downstream contradiction was repaired at the smallest provenance boundary before creating more geometry.
 
 The four AXM roots remain the merge gate.
 
-## Next Hard-Surface trigger
+## Explicit non-claims / next trigger
 
-Re-scan the full constellation first. Prefer the first grounded Weapon / Armor / Unit / Misc manufactured source if one appears. Otherwise select a materially different manufactured seam with source evidence and avoid reopening Object/Building offset semantics unless a real new consumer or contradictory source fact appears. Keep reference-feature identity explicit anywhere future clearance or placement math depends on a scalar offset.
+This activation does **not** establish physical latch retention, engineering fit, force, wear, manufacturability, full collision freedom, Animation timing, target-host Rigging acceptance on the new evidence-only head, Runtime/controller/device behavior, physics/gameplay, final Materials/Art/QA acceptance, CANON, production/game readiness or Hard-Surface mastery.
+
+Next activation should re-scan the constellation first. Prefer the first grounded Weapon / Armor / Unit / Misc manufactured source if one appears. Do not continue this provenance lane by cadence. Reopen it only if an explicit downstream consumer adopts the repaired workflow and returns a real content/authority mismatch; otherwise select a materially different source-mechanical seam.
