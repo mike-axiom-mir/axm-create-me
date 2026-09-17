@@ -70,13 +70,13 @@ No active claim remains for #192 after the merged result. Any product consumer m
 - `capability_scope`: `opt-in read-only closed-component orientability parity and signed-orientation evidence in the existing mesh-topology observer`
 - `claimant_specialist`: `02 Geometry & Topology`
 - `implementation_repo`: `mike-axiom-mir/axm-universal-creation`
-- `branch_or_pr`: `studio/geometry-closed-shell-orientation-observer-001` (PR not opened yet)
+- `branch_or_pr`: `PR #200` / `studio/geometry-closed-shell-orientation-observer-001`
 - `base_revision`: `95b618f6e6028c2ac8c1a106cfa009a3c106f48c`
-- `state`: `CLAIMED`
-- `result_identity`: pending exact implementation head and CI
+- `state`: `IMPLEMENTING`
+- `result_identity`: exact current implementation head `51fa006cd3d08648a5965c09eaf55d2936b1ee2c`; CI pending at this coordination update
 - `non_claims`: no automatic winding repair, source adoption, universal outward label, renderer/front-face conversion, normals/tangents rewrite, self-intersection freedom, physical-volume/collision certification, product adoption, CANON, production or game-readiness authority transfers
 
-This claim is collision-avoidance evidence only. It grants no merge priority or authority. Building #6 and Object #33 remain separate product proofs, and any future product consumer must explicitly bind/rerun the shared observer before claiming coverage.
+This claim is collision-avoidance evidence only. It grants no merge priority or authority. Building #6 and Object #33 remain separate product proofs, and any future product consumer must explicitly bind/rerun a merged shared observer before claiming coverage.
 
 ## Scope boundary
 
