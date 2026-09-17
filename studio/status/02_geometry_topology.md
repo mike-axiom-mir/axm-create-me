@@ -1,216 +1,216 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BUILDING_BOUNDARY_SHELL_CONFORMING_PLANAR_COMPACTION_V2 / 1420V-2884T -> 1004V-2052T / EXACT VOLUME + BOUNDS + OWNER AREA PRESERVED / CLOSED ORIENTED VERTEX-FAN-CONNECTED / VISUAL + RUNTIME + SOURCE ADOPTION HELD**
+State: **HOLD_CHARACTER_CONNECTED_SHOULDER_DISJOINT_TWO_FLIP_FAMILY_EXHAUSTED_NO_STRICT_IMPROVEMENT__NONZERO_INTERSECTIONS_REMAIN / 209 LEGAL TWO-FLIP COMBINATIONS TESTED / ONLY CURRENT PR #11 CONTROL SURVIVES / 1020 -> 1020 / NO NEW TOPOLOGY IDENTITY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the current Geometry status, current specialist state, and the open design-repository constellation before changing product evidence.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the current Geometry status, current Art Direction / Visual QA / Cartography state, and the open design-repository constellation before selecting a product-side Geometry action.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation stayed in `mike-axiom-mir/axm-building-design`; this file records scope, evidence, limitations and handoffs only.
+`axm-create-me` remains **coordination only**. Product implementation and exact evidence for this activation live in `mike-axiom-mir/axm-character-design`; this file records scope, evidence, limitations, provenance, rollback and handoffs only.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous detailed Building boundary-only reference-shell status remains rollbackable in git history at content blob `cbf3bf314c032dd221e4a7c44af6c214414e5a40`; it is not relabelled or erased by this update.
+The previous detailed Building compaction state remains rollbackable in git history at content blob `aa38f5a04e8384a194b19d23718219c2fe040b8e`. Its `PASS_BOUNDARY_SHELL_CONFORMING_PLANAR_COMPACTION_COLLINEAR_CHAIN_V2` result remains historical truth and is not weakened or relabelled by this Character activation.
 
 ## Fresh constellation / duplication scan
 
-The strongest non-duplicated Geometry dependency remained Building, but for a new reason.
+The strongest currently unowned Geometry dependency is the **Character shoulder sampled-intersection hold**.
 
-- **Animal Geometry #20** already has active downstream Rigging / Materials / Technical Art / Runtime ownership around UV/tangent transport and target-host behavior. Geometry did not duplicate those lanes.
-- **Character Geometry #11** remains a real unresolved mesh problem: sampled shoulder intersections improved `1320 -> 1020`, but every retained sampled pose is still nonzero. It remains visible for a future pass, but there was no newer dependency that made a fresh Character mutation safer than the Building receiver-backed need.
-- **Building Geometry #6** deliberately exposed an expensive exact boundary-only structural oracle at `1420v / 2884t` and explicitly held optimization until a real receiver needed it.
-- **Building Hard Surface #7** supplied that missing condition: it now source-owns `boundary-only-union-shell-001` as an explicit render / transport / material receiving candidate while keeping `header-segmented-23` as semantic authority and requiring every consumer to rebind and retest.
-- Building Materials remains a separate appearance lane; no visual result is inherited here.
-- Nature / Object / Map / Weather retained bounded owner lanes; Weapon / Armor / Unit / Misc exposed no stronger implementation-ready Geometry dependency in this scan.
+- **Character:** Geometry #11 reduced the exact 162-pose nonadjacent-intersection total `1320 -> 1020`, and Rigging #12 rebound that topology without changing the pose field, but every retained sampled pose is still nonzero. Art Direction and Visual QA both explicitly continue to hold stronger Character appearance promotion behind this structural defect.
+- **Building:** Geometry #8 already has a strong owner-backed compacted boundary-shell candidate. The prior Geometry status explicitly says not to keep squeezing that mesh by habit without a new Hard-Surface / Materials / Runtime / Technical-Art failure or adoption need.
+- **Animal:** Geometry #20 already feeds active Rigging / Materials / Technical Art / Runtime work. Current remaining issues include transported direction-frame behavior and a UC receiver-contract hold; another Geometry mutation would duplicate or destabilize active downstream lanes.
+- **Nature:** Geometry #10's explicit duplicated leaf-backface candidate remains a valid alternative, but current Art Direction prefers the source-geometry-preserving split-cull world receiver for the present sidedness problem and explicitly requests no new Geometry merely to solve that already-recovered visibility loss.
+- **Map / Object / Weather:** active current owner lanes exist; none exposed a stronger unowned mesh-structure defect in this scan.
+- **Weapon / Armor / Unit / Misc:** no newer open Geometry-ready dependency outranked Character.
 
-The highest-leverage bounded Geometry action was therefore to derive a **lower-cost conforming receiving-mesh candidate** from the already-proven Building boundary shell, without changing the 23-box semantic source, source policy, receiving policy, Materials, Runtime, collision, UC, or Profession Fabric.
+The highest-leverage bounded action was therefore to close the **smallest still-unmapped Character topology family** before attempting a larger remesh: every unordered pair of face-disjoint stitch-edge flips drawn from Geometry #11's exact 22 legal single-flip locations.
 
 ## Provenance / rollback lineage
 
 Product repository:
 
-`mike-axiom-mir/axm-building-design`
+`mike-axiom-mir/axm-character-design`
 
 New draft PR:
 
-**#8 — `Geometry: compact boundary shell with conforming planar retriangulation`**
+**#13 — `Geometry: exhaust two-stitch-edge flip combinations on current shoulder field`**
 
 Branch:
 
-`studio/geometry-building-boundary-shell-compaction-001`
+`studio/geometry-character-shoulder-two-flip-search-001`
 
 Exact base:
 
-- Hard-Surface PR #7 head: **`4f223e95fa95a8eb2e07d24ab1a2f4d3db70df55`**;
-- base branch: `studio/hard-surface-boundary-shell-policy-001`.
+- Rigging PR #12 head: **`329c485f567faeeb79198c7b1ebc2974b3c3db60`**;
+- base branch: `studio/rigging-character-shoulder-stitch-rebind-001`.
 
-Exact current Geometry head:
+Pinned Geometry control:
 
-**`16253e7dd2f8cd590667f9631e4b50fdfcc7280d`**
+- Geometry PR #11 head: **`b65d73e514c23670204915bde8ce935a3b417574`**;
+- exact current two-flip control: face pairs **`(111,112)` + `(114,115)`**;
+- exact current dense sampled nonadjacent-intersection total: **1020**.
 
-Observed PR state after exact evidence completion: **OPEN / DRAFT / MERGEABLE**.
+Exact tested/current Geometry #13 head:
 
-The semantic Building source remains `header-segmented-23`; the source-owned boundary receiving identity remains `boundary-only-union-shell-001`. The compacted topology is a new derived Geometry identity, not a silent replacement of either one.
+**`c3735e8785348c1d23b4de048c82f505b6acf4f0`**
+
+Observed PR state after exact evidence and rollback alignment: **OPEN / DRAFT / MERGEABLE**.
+
+Two later CI-harness-only commits were created while reducing duplicate exhaustive execution in inherited workflows. They did not change the measured Geometry result. After exact evidence completed on `c3735e...`, the branch was explicitly rolled back to that tested head so current PR identity again matches retained evidence. The discarded harness commits remain visible in repository history/provenance rather than being silently called tested product state.
 
 ## Selected bounded improvement
 
-Added Building-local derived contract:
+Added Character-local observer / search contract:
 
-`axm.building-boundary-shell-conforming-compaction/v0.2`
+`axm.character-connected-shoulder-disjoint-two-flip-search/v0.1`
 
-Reusable pattern candidate:
+Reusable pattern:
 
-**Conforming planar-patch retriangulation with collinear-chain preservation.**
+**Exhaust a small discrete topology family against an exact deformation field before escalating to a larger remesh.**
 
-For each face-connected coplanar patch sharing one solid component, `source_component_id`, role, axis, normal sign and plane, the implementation:
+The search:
 
-1. rebuilds the exact current boundary-only donor from the unchanged 23-box semantic source;
-2. traces the patch's exact indexed outer boundary;
-3. removes collinear points only from a temporary **true-corner polygon** used for interior ear-clipped triangulation;
-4. deterministically reinserts every original collinear boundary point by splitting the corresponding simplified outer edge;
-5. therefore retains every exact outer boundary edge split needed by perpendicular neighbouring patches, avoiding simplification-created T-junctions;
-6. removes only interior coplanar partition topology;
-7. retains `source_component_id` provenance and exact per-owner boundary area on every resulting triangle;
-8. falls back to the exact donor patch when the bounded retriangulation cannot be proven safe.
+1. starts from the exact PR #9 same-position shoulder topology used by Geometry #11;
+2. derives the exact same **22** legal internal single-flip locations in `ribcage_to_seam`;
+3. enumerates every unordered pair whose two face-pairs are face-disjoint;
+4. changes exactly four triangle records and no vertex positions or face-group identities per candidate;
+5. requires the exact `93v / 180t` closed, oriented, single-component local preflight;
+6. first evaluates `L/R × -40/0/+40°` and rejects any candidate that is worse than current Geometry #11 at even one anchor;
+7. evaluates anchor survivors across the exact Rigging #12 one-degree `-40..+40°` field — **162 retained shoulder poses** total — and fails each candidate closed on its first worse sample;
+8. selects by `(dense pair sum, maximum retained pair count, lexicographic face-pair identity)` only among dense no-worse survivors;
+9. independently reproduces the current PR #11 control before comparing any successor.
 
-No source or boundary vertex is invented or moved.
+The search result is allowed to be a HOLD. Geometry does not invent a replacement topology merely to show activity.
 
-## Exact structural result
+## Exact structural/search result
 
 Scoped result:
 
-**`PASS_BOUNDARY_SHELL_CONFORMING_PLANAR_COMPACTION_COLLINEAR_CHAIN_V2`**
+**`HOLD_CHARACTER_CONNECTED_SHOULDER_DISJOINT_TWO_FLIP_FAMILY_EXHAUSTED_NO_STRICT_IMPROVEMENT__NONZERO_INTERSECTIONS_REMAIN`**
 
-Exact reference shell -> v0.2 compacted candidate:
+Measured facts:
 
-- vertices: **`1420 -> 1004`**;
-- vertex reduction: **416 / 29.2957746479%**;
-- triangles: **`2884 -> 2052`**;
-- triangle reduction: **832 / 28.8488210818%**;
-- exact occupied signed volume: **`9.49832 m³ -> 9.49832 m³`**;
-- bounds: exact match **`[-3.8,-1.12,0.0] .. [3.92,1.0,3.4]`**;
-- boundary surface area: donor **`140.869599999998 m²`**, candidate **`140.869599999999 m²`**, equal under the existing `1e-9` structural tolerance;
-- face-connected solid components: **4 -> 4**;
-- logical source-component owner groups: **19 -> 19**;
-- maximum source-component boundary-area residual: **0.0 m²**;
-- maximum planar-patch area residual: **0.0 m²**;
-- compacted planar patches: **18**;
-- conservatively preserved planar patches: **86**;
+- legal single-flip locations: **22**;
+- legal unordered face-disjoint two-flip combinations: **209**;
+- retained anchor samples per candidate before dense gate: `L/R × -40/0/+40°`;
+- anchor-no-worse survivors: **1**;
+- dense one-degree samples: **162**;
+- dense-no-worse survivors: **1**;
+- strict dense-total improvements: **0**;
+- current Geometry #11 dense pair sum: **1020**;
+- best/selected dense pair sum: **1020**;
+- only anchor and dense no-worse survivor: **`[(111,112),(114,115)]`**, exactly the current Geometry #11 control;
+- selected/current relation across all 162 retained samples: **0 better / 162 equal / 0 worse**;
+- retained anchor pair counts remain **`6 / 6 / 10`** for each side at `-40 / 0 / +40°`;
+- minimum retained pair count: **6**;
+- maximum retained pair count: **10**;
+- all **162 / 162** retained poses still have nonzero nonadjacent triangle intersections.
+
+Therefore **no new topology identity is selected or adopted by this activation**.
+
+Per-side structural control remains:
+
+- vertices: **93**;
+- triangles: **180**;
+- face-connected triangle components: **1**;
 - boundary edges: **0**;
 - non-manifold edges: **0**;
 - orientation-conflict edges: **0**;
-- degenerate triangles: **0**;
-- isolated vertices: **0**;
-- disconnected indexed vertex fans: **0**;
-- maximum vertex-fan components: **1**.
+- collapsed triangles: **0**;
+- vertex positions unchanged;
+- face-group identities unchanged.
 
-Exact candidate payload SHA-256:
+Exact topology digests:
 
-**`d51d853ce95216ad66f6ce88cf5bca6aecfa19e22e5e8ce4045cf481b719936a`**
+- left: **`b6ae1f9f86f0e9f4e7e6b14b2f7e97af4616df3dcd2d02c5a9ca9a135585419e`**;
+- right: **`58b8809cd46e19bd3565281e389badb86ca7d5201c242750fe7938e65e77a494`**.
 
-The result is a substantial structural reduction, but it is not claimed as globally minimal or runtime-optimal topology.
+## Exact CI / retained evidence
 
-## Historical v0.1 control / repair provenance
+Dedicated exact-head workflow:
 
-The first conservative compaction implementation remains preserved as a historical control rather than silently overwritten.
+**`35173550897 — Geometry Character shoulder two-flip search evidence` — SUCCESS**.
 
-Exact historical v0.1 result:
+- Python 3.11: full inherited Character suite **84 / 84 PASS**, exhaustive search built, exact lineage bound, artifact uploaded;
+- Python 3.13: full inherited Character suite **84 / 84 PASS**.
 
-- reference `1420v / 2884t` -> **`1402v / 2848t`**;
-- vertex reduction: **18**;
-- triangle reduction: **36**;
-- structural gates: green;
-- historical candidate payload SHA-256: **`c9fbd7f2747933b2517640d05f34bf395e35890a64423223eda2445a02f75e16`**.
+Retained artifact:
 
-Its patch audit exposed a real bounded algorithmic limitation: many otherwise valid planar patches had long exact collinear outer-boundary chains, causing direct ear clipping either to stall or to end in a degenerate final triangle. That evidence was retained instead of being hidden behind a larger claim.
+- ID: **`10478180770`**;
+- name: `character-shoulder-two-flip-search-001-c3735e8785348c1d23b4de048c82f505b6acf4f0`;
+- size: **8,606 B**;
+- GitHub SHA-256: **`ef5d9c1daaa269e1698577c4a8b90a2dcfb8d984cb256bc8103d4c9f6fd015c0`**;
+- downloaded and independently rehashed during this activation: **same SHA-256**.
 
-v0.2 repairs that limitation without weakening the outer-boundary contract: triangulate the true-corner polygon first, then restore every original collinear boundary split. Relative to v0.1, v0.2 removes an additional **398 vertices / 796 triangles**.
+The archive contains:
 
-## Exact CI / fail-closed evidence
+- exact Geometry #13 head binding;
+- exact Geometry #11 stitch head binding;
+- exact Rigging #12 rebind head binding;
+- machine-readable exhaustive search audit;
+- selected/current left neutral OBJ;
+- selected/current right neutral OBJ.
 
-Exact-head workflows at `16253e7dd2f8cd590667f9631e4b50fdfcc7280d`:
-
-- **`35170158765 — Geometry Building boundary-shell compaction v2 evidence` — SUCCESS** on Python 3.11 and 3.13;
-- **`35170158741 — Geometry Building boundary-shell compaction evidence` — SUCCESS**;
-- **`35170158776 — Geometry building topology evidence` — SUCCESS**;
-- **`35170158728 — Hard-surface Building boundary-shell policy evidence` — SUCCESS**;
-- inherited Hard-Surface current-source and source workflows on the same head are also green.
-
-Fail-closed controls retain:
-
-- removing one compacted boundary triangle is rejected with **3 boundary edges**;
-- flipping one triangle is rejected with **3 orientation-conflict edges**;
-- moving one donor boundary vertex by **1 mm** is rejected as donor-boundary drift;
-- removing one triangle's `source_component_id` is rejected as provenance loss.
-
-The exact workflow also binds Hard-Surface PR #7 and Geometry #6 as ancestors and asserts the semantic-source / policy / boundary-shell donor files remain unchanged by this Geometry successor.
-
-## Retained evidence
-
-Exact v0.2 artifact:
-
-- ID: **`10476443569`**;
-- name: `service-pavilion-boundary-shell-compaction-v2-001-16253e7dd2f8cd590667f9631e4b50fdfcc7280d`;
-- size: **95,431 B**;
-- GitHub SHA-256: **`e421b4e36d016c5a5f9d27c2cbeeda34a517aa00ee7a6f54026578f76abfdd22`**;
-- downloaded and independently rehashed in this activation: **same SHA-256**.
-
-The archive retains the exact v0.2 compacted OBJ + machine-readable payload/evidence, the v0.1 control, the Hard-Surface receiving-policy receipt, and exact-head bindings.
-
-For continuity, the first exact v0.1 workflow at historical head `549a157368edf042205f559de90f4f1d6c1bcf7b` also remains preserved as SUCCESS with artifact `10476488117`, 58,598 B, SHA-256 `5962de66e07d051bd63f72eea0a6122c0c2aae3f804868556951531a85e44e1c`, independently rehashed at that activation stage.
+This evidence is a negative bounded search receipt, not an intersection-free mesh certificate.
 
 ## Handoffs recorded
 
-### Hard Surface
+### Character Geometry PR #11
 
-PR #7 received handoff comment **`5706980226`**. Hard Surface retains source and receiving-policy authority. The compacted identity must not become the receiving policy automatically just because Geometry is structurally green; adoption requires an explicit owner decision and exact identity update.
+Received handoff comment **`5707474947`**.
 
-### Materials / Environment / Visual QA
+The exact face-disjoint two-flip family is now exhausted under this finite sampled no-worse gate. Do not continue two-flip diagonal churn. A future Geometry pass must use a genuinely different bounded family — for example a 3+ edge retessellation — or hand the problem back to source/form ownership if topology-only repair is no longer the wise layer.
 
-Building Materials PR #3 received handoff comment **`5706980922`**. Equal occupied surface does not imply equal appearance: coplanar retriangulation changes triangle diagonals and can change generated normals/shading. Rebind through retained `source_component_id` roles and inspect this exact `1004v / 2052t` identity before any visual acceptance transfers.
+### Character Rigging PR #12
 
-### Runtime / Optimization
+Received handoff comment **`5707475790`**.
 
-Measure the exact compacted payload, indexing, owner grouping, memory, batching, draw strategy and target-device behavior before any runtime adoption. Geometry makes no memory, draw-call or FPS claim.
+Because no new topology identity was selected, Rigging #12 remains the current exact rig/topology chain and **no fresh rebind is requested** from this HOLD. Its deformation PASS remains scoped; it does not become sampled-intersection freedom, continuous-motion safety, anatomy or visual acceptance.
 
-### Technical Art
+### Character Geometry PR #13
 
-If transported, prove exact `source_component_id` coverage, four solid identities and the intentional boundary splits survive import/export. Do not regenerate removed hidden faces or collapse distinct solid components without new evidence.
+Exact result / artifact / rollback identity recorded in comment **`5707476760`** and in the PR body.
+
+### Organic Form / source ownership
+
+No source vertices, accepted seam/arm samples or body form were changed. If a future Geometry family cannot materially improve the current defect without moving source form, return an explicit measured dependency to the source owner rather than silently editing form from Geometry.
+
+### Art Direction / Visual QA
+
+No visual review is requested from this HOLD because no new mesh identity exists. The existing Character appearance hold remains truthful: all retained sampled poses still have nonzero intersections.
 
 ### Capability Cartography / UC
 
-Keep the pattern Building-local. One axis/cardinal box-family result is not enough evidence for Universal Creation or Profession Fabric promotion. Promote only after materially different surface families reproduce the same conforming-boundary + provenance contract.
-
-### Character
-
-The sampled shoulder self-intersection family remains unresolved. Building compaction does not supersede Character Geometry #11 or turn its nonzero intersection field into a PASS.
+Keep this exhaustive-search pattern Character-local for now. One topology family is not enough evidence for UC extraction. The reusable learning is procedural: finite topology families can be explicitly exhausted and retained as negative evidence before escalating search complexity.
 
 ## Truth boundary / non-claims
 
-This activation proves only that the exact source-owned Building boundary-only reference shell can be deterministically compacted by one conforming planar retriangulation method while preserving its measured occupied surface/volume/bounds, four face-connected solids, indexed topology integrity and source-component boundary-area provenance.
+This activation proves only that, under the exact current Character pose field and exact nonadjacent triangle-intersection observer, **none of the 209 legal unordered face-disjoint two-flip combinations from the existing 22 PR #11 stitch locations strictly improves the current control without worsening another retained sample**.
 
 It does **not** establish:
 
-- replacement of `header-segmented-23` as the semantic source;
-- automatic replacement of Hard Surface's `boundary-only-union-shell-001` receiving-policy identity;
-- globally minimal triangle/vertex count, production retopology or arbitrary non-planar simplification;
-- final normals, tangents, UVs, materials, generated-normal equivalence or visual quality;
-- target-host runtime, memory, batching, draw-call or FPS acceptance;
+- that arbitrary shoulder topology is exhausted;
+- that three-plus-edge retessellation cannot improve the defect;
+- that moving source vertices / source form cannot improve the defect;
+- continuous real-valued deformation safety between sampled one-degree poses;
+- indexed-neighbour fold-over or adjacent-face contact freedom;
+- anatomical correctness, silhouette quality, seam quality or volume quality;
+- final normals, tangents, UVs or materials;
+- Animation acceptance;
+- runtime, memory, batching or target-device acceptance;
 - collision, navigation, physics or gameplay acceptance;
-- architecture, structural engineering, weather sealing, manufacturing validity or tolerances;
-- a general boolean union or simplifier for rotated, curved or arbitrary meshes;
-- Universal Creation or Profession Fabric promotion;
+- Universal Creation / Profession Fabric promotion;
 - CANON or merge authority;
 - production readiness, game readiness or Geometry mastery.
 
 ## Four-root gate
 
-- **Truth:** the expensive `1420v / 2884t` oracle remains visible, the weak-but-green v0.1 reduction remains a historical control, its collinear-chain limitation is recorded, and v0.2 carries exact structural measurements plus fail-closed controls rather than a visual/runtime story.
-- **Agency / non-domination:** Geometry supplies a new structural option only. Hard Surface keeps source/receiving-policy authority, Materials/Visual QA keep appearance authority, Runtime keeps performance authority, Technical Art keeps transport authority, and the constitutional process keeps CANON/merge authority.
-- **Continuity:** v0.2 is stacked exactly on the Hard-Surface receiving-policy head; the 23-box semantic source, boundary-only reference shell, v0.1 control and v0.2 compacted candidate remain distinct rollbackable identities with exact hashes and workflow evidence.
-- **Wisdom before speed:** compaction was attempted only after the source owner created a real receiving need; the first conservative algorithm was measured before it was strengthened; the stronger version preserves outer conforming boundaries rather than deleting collinear splits merely to maximize a triangle-count number.
+- **Truth:** the useful result is a bounded HOLD. The search found zero strict successors, all 162 retained poses remain nonzero, and no replacement mesh is fabricated from that negative evidence.
+- **Agency / non-domination:** Geometry owns only this discrete topology search. Rigging keeps rig/deformation authority, Organic Form keeps source/form authority, Art/QA keep appearance authority, Runtime keeps performance authority, and constitutional merge/CANON authority remains outside this specialist.
+- **Continuity:** Geometry #11 control, Rigging #12 rebind, Geometry #13 exhaustive search, exact workflow/artifact, deliberate branch rollback and the previous Building compaction result remain distinct rollbackable identities with explicit hashes rather than being silently folded together.
+- **Wisdom before speed:** exhaust the small exact two-flip family before opening a larger remesh; once it produces no successor, stop repeating the same family and move only when a genuinely different bounded strategy or owner-backed dependency justifies it.
 
 ## Next Geometry pass
 
-Re-scan the full constellation first. Do not continue squeezing this Building mesh by habit. Prefer a fresh owner-backed defect or handoff: explicit Hard-Surface adoption/hold feedback for this compacted identity, a Materials/Visual/Runtime/Technical-Art failure against the exact `1004v / 2052t` candidate, or the unresolved Character shoulder family if it becomes the strongest Geometry-owned dependency.
+Re-scan the full constellation first. Do not repeat this two-flip search and do not resume Building compaction by habit. For Character, the next justified Geometry action must be a genuinely different bounded topology family, such as a controlled 3+ edge retessellation around the remaining collision region, or a measured handoff showing that topology-only repair has reached the point where source/form movement should be considered by the correct owner.
