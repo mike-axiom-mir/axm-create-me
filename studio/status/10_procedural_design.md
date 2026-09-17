@@ -141,7 +141,7 @@ Retained push-run artifact:
 - independently downloaded and rehashed to the exact same SHA-256;
 - archive contains **36 files**: exact-head / donor-lineage markers, exact Hard Surface policy and receipt, family summary, and 30 pair outputs.
 
-The current exact-head inherited Procedural symmetric-row, hard-normal-stress, utility-panel mount-axis and utility-panel service-surface workflows have also completed successfully. Broader Building PR checks were still draining at status-write time; no claim is made that every triggered workflow had completed at that instant.
+All **18 pull-request-triggered workflows** associated with exact head `99b9a3ed827049b5bfaa41d49b4946cf7daf3bb1` completed **SUCCESS**, including the inherited Procedural symmetric-row, hard-normal-stress, utility-panel mount-axis and utility-panel service-surface families plus the relevant Geometry and Hard Surface evidence lanes. The new family therefore did not regress the currently triggered Building PR evidence set.
 
 ## Ownership / non-overlap
 
