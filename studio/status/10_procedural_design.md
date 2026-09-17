@@ -1,7 +1,7 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BUILDING_PROCEDURAL_HEADER_FAMILY_CURRENT_SOURCE_POLICY_REBIND / EXISTING BUILDING PR #4 ADVANCED / CURRENT SEGMENTED-23 + LEGACY 19-BOX COMPATIBILITY EXACT / NO SILENT CONSUMER MIGRATION / UC + PF UNCHANGED**
+State: **PASS_BUILDING_DIRECT_STICKER_FABRIC_CONSUMER_HELPER_CONSOLIDATION / EXISTING BUILDING PR #4 ADVANCED / TWO ORTHOGONAL RECEIVERS EXACT / LOCAL RIGID TRANSFORM REMOVED / BUILDING SEMANTICS RETAINED / UC + PF UNCHANGED**
 
 ## Current activation
 
@@ -14,38 +14,22 @@ The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Cont
 ## Fresh constellation / duplication scan
 
 - **Weapon / Armor / Unit / Misc:** no grounded repeated source pattern justified opening a Procedural lane.
-- **Character:** current shoulder work remains Geometry / Rigging / Organic owned and still carries a structural intersection hold. Procedural did not interfere.
-- **Animal:** Geometry, Materials, Rigging, Animation, Technical Art, Runtime and Visual QA are actively resolving the exact-mirror normal / UV / tangent / deformation chain. Proceduralizing any of that now would duplicate active ownership.
-- **Building:** Hard Surface supplied the decisive fresh handoff. PR #2 promoted the already-proven `header-segmented-23` representation to the **current source policy for new Building source claims**, while explicitly preserving `base-closed-outward-19` and historical `axm.building-build-result/v0.1` compatibility. Existing Procedural PR #4 already owns the repeated front/rear header family, so that exact lane required a source-policy rebind.
-- **Nature:** a mature bounded Procedural branch/crown family already exists; newest pressure is source-topology, leaf-sidedness and VFX receiving evidence.
-- **Weather:** its existing three-seed bounded family already exists; current gaps are VFX / receiving / Runtime owned.
-- **Map:** newest work is Environment / Runtime representation and acceptance tradeoffs, not a missing generator.
-- **Object:** the existing configuration family and Sticker-Fabric rigid-frame consolidation already cover its active repeated placement need; current articulation/Runtime work is separately owned.
-- **Universal Creation / Profession Fabric:** no Building-specific source-policy semantics belong in either from this one source family. No extraction or promotion was made.
+- **Character:** current shoulder work remains Geometry / Rigging / Organic owned and still carries structural-intersection pressure. Procedural did not interfere.
+- **Animal:** Geometry, Materials, Rigging, Animation, Technical Art, Runtime and Visual QA remain actively occupied by the exact-mirror normal / UV / tangent / deformation chain. Proceduralizing that work now would duplicate active ownership.
+- **Building:** Hard Surface and Geometry now also have a boundary-only union-shell receiving representation, but it remains an explicit opt-in downstream rebind rather than a new repeated generator pattern. The existing utility-panel receiver family, however, still carried duplicate local rigid-frame transform math after exact Sticker Fabric equivalence had already been proven.
+- **Nature:** mature bounded Procedural branch/crown generation already exists; current pressure is Geometry / VFX receiving evidence.
+- **Weather:** the existing bounded three-seed Procedural family already exists; current work is VFX / receiving / Runtime owned.
+- **Map:** current work is Environment / Runtime representation and acceptance tradeoffs, not a missing generator.
+- **Object:** its existing Procedural configuration family has already completed the direct Sticker Fabric consumer-helper consolidation. That makes the matching held Building cleanup an earned consolidation target rather than a speculative new abstraction.
+- **Universal Creation / Profession Fabric:** no Building receiver, tag, fit, mount, clearance or acceptance semantics were moved into either. UC's standalone compatible placement implementation remains intentionally untouched.
 
 No new Procedural PR or duplicate generator was opened.
 
-## Why Building is legitimate again
+## Why this Building repair is justified
 
-The previous Procedural pass explicitly said not to continue Building by habit, except when a source/downstream owner created a real new binding requirement.
+The prior Building rebind proved that Sticker Fabric reproduces both source-owned utility-panel receiver placements exactly, but deliberately left local helper removal held. Object later completed the same direct-consumer consolidation independently. At that point Building still performed the repeated neutral rigid-frame operation locally even though the shared home had already been selected and exact equivalence had already been demonstrated across two receiving domains.
 
-That requirement now exists. Hard Surface PR #2 exact head:
-
-**`a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`**
-
-added source-owned policy:
-
-**`axm.building-current-emission-policy/v0.1`**
-
-with:
-
-- current source: `header-segmented-23`;
-- legacy compatibility: `base-closed-outward-19`;
-- selection policy: `CURRENT_SOURCE_IS_NAMED__CONSUMER_REBIND_REQUIRED__NO_SILENT_DEFAULT_REWRITE`;
-- historical build-result policy: `KEEP_AXM_BUILDING_BUILD_RESULT_V0_1_AT_19_BOXES_FOR_COMPATIBILITY`;
-- policy file SHA-256: `c26f25c789404919bdb8e40f35d517c444e35f0a7aaf9358ad399296a7afe47a`.
-
-Hard Surface explicitly handed Procedural PR #4 the requirement to rebind before making a current-source claim. That is a source-authority change, not narrative drift.
+That is now a real duplication boundary: keep Building's domain semantics local, but stop maintaining a second implementation of the neutral rigid transform inside its Procedural family.
 
 ## Selected bounded improvement
 
@@ -55,148 +39,148 @@ Existing draft PR: **#4 — `Procedural: derive repeated pavilion box rows from 
 
 Exact current Procedural head:
 
-**`72b789843df40c420a6a72017bfb59cbde904545`**
+**`cdf93ea6ad2757e14e5febc96d579d94f64a4d24`**
 
 Observed PR state after completion: **OPEN / DRAFT / MERGEABLE**.
 
-A real two-parent merge commit:
+The bounded family remains:
 
-**`4c9184e90ff16829c686c8b7c7e3fdc7eba31894`**
+**`axm.building-utility-panel-receiver-placement-family/v0.1`**
 
-preserves both:
-
-- previous Procedural head `98f4ae5a87d06805fb6ece3675be4c6d359728e0`;
-- current Hard-Surface source-policy head `a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`.
-
-No source-policy file was copied without ancestry.
+No new family or attachment schema was created.
 
 ## Smallest repair
 
-The repeated geometry remains the same already-justified front/rear header family; no second segmentation generator was created.
+`tools/build_pavilion_utility_panel_receivers.py` now directly consumes the pinned shared neutral rigid-frame implementation from:
 
-`procedural/service_pavilion_header_segment_expansion_001.json` advanced to:
+- repository: `mike-axiom-mir/axm-sticker-fabric`;
+- exact head: **`3aa93b0132eea9becefb20c716c6ec1a023ad28b`**;
+- module: `src/axm_stickers/placement.py`;
+- exact module SHA-256: **`1344884f14cbe2fa25617664521291b96c4bde067ba0cba31e043045ca3f1436`**.
 
-**`axm.building-header-segment-expansion-family/v0.3`**
+The Building generator still owns and executes:
 
-It now explicitly separates three identities that previously risked being conflated:
+- exact source receiver IDs and ordering;
+- accepted tags;
+- right-handed orthonormal receiver-frame validation;
+- panel footprint and mount-pattern fit;
+- body-clearance checks;
+- panel proof shape and vertex ordering;
+- Building-specific source and acceptance semantics.
 
-1. the exact source-owned segmentation contract (`axm.building-header-segmentation/v0.1`);
-2. the historical emission-variant contract (`axm.building-emission-variants/v0.1`), whose old default metadata remains historical truth;
-3. the new current-source policy (`axm.building-current-emission-policy/v0.1`), which names `header-segmented-23` current for new source claims while retaining the 19-box compatibility interface.
+Only the already-proven neutral local-to-world rigid-frame matrix operation moved to the shared implementation. The evidence now records:
 
-The verifier `tools/verify_pavilion_header_emission_variant_rebind.py` now consumes both the historical emission contract and the new source policy. The existing row generator and exact segment-expansion algorithm remain unchanged.
+**`local_rigid_frame_transform_implementation: false`**
 
-## Exact multi-output result
+and:
 
-Scoped result:
+**`placement_capability: mike-axiom-mir/axm-sticker-fabric:src/axm_stickers/placement.py`**.
 
-**`PASS_PROCEDURAL_HEADER_FAMILY_REBOUND_TO_CURRENT_SOURCE_POLICY`**
+The historical UC donor remains provenance only; UC was not rewritten or removed.
 
-Decision:
+## Multiple materially different exact outputs
 
-**`PASS_EXPLICIT_CURRENT_SOURCE_REBIND__SEGMENTED_23_CURRENT__LEGACY_19_COMPATIBILITY_HELD`**
+The same source-owned panel is still tested through two orthogonal receiver frames, so the proof is not one lucky transform:
 
-The same Procedural family proves two materially different exact source representations rather than one lucky output:
+1. `front-utility-bay`
+   - center `[-2.45, -1.08, 1.65]`;
+   - outward normal `[0.0, -1.0, 0.0]`;
+   - exact mesh digest **`dcadb6a7e938557c866259ed4a3ca7febb32b593b68b22073adc2617d63ef5c0`**.
+2. `east-utility-bay`
+   - center `[3.88, 0.1, 1.65]`;
+   - outward normal `[1.0, 0.0, 0.0]`;
+   - exact mesh digest **`95bbe7d3feebcaeebdaa285ea2f69ee24989d16f140ef59abf08f4725d77a904`**.
 
-| Measure | current source `header-segmented-23` | legacy compatibility `base-closed-outward-19` |
-|---|---:|---:|
-| pavilion boxes | 23 | 19 |
-| header outputs | 6 | 2 |
-| header form | 3 segments per front/rear header | 1 logical box per front/rear header |
-| positive-volume intersections | 0 | 4 |
+Preserved exactness:
 
-Preserved invariants:
+- receiver-normal dot product: **`0.0`**;
+- distinct receiver frames: **2/2**;
+- distinct transformed mesh digests: **2/2**;
+- exact retained vertex-list matches through Sticker Fabric: **2/2**;
+- maximum position residual: **`0.0 m`**;
+- mount-pattern residual remains **`0.0 m`** for both outputs;
+- previous mesh digests are byte-semantically unchanged;
+- procedural coverage remains `17/19` for the base builder and `21/23` for the retained successor composition; `slab` and `roof` remain deliberately outside the repeated families.
 
-- occupied-union residual: **`0.0 m³`**;
-- assembled bounds: **equal**;
-- receiver IDs: **equal**;
-- current and legacy header-output digests: **distinct**;
-- front and rear segmented outputs: **independently distinct**;
-- existing five-row family and exact segmentation contract remain unchanged;
-- historical 19-box build-result compatibility remains explicit rather than silently rewritten.
+Scoped consolidation decision:
 
-This is a procedural **source-policy rebind**, not a new geometry invention.
+**`PASS_BUILDING_DIRECT_STICKER_FABRIC_CONSUMER_HELPER_CONSOLIDATION`**
+
+The older receipt field `PASS_FIRST_CONSUMER_REBIND__LOCAL_HELPER_REMOVAL_HELD` remains present only as explicit historical compatibility and is marked as superseded by the current decision.
 
 ## Failure bounds
 
-Nine current-policy / contract controls fail closed:
+The Building family retains its seven domain failure controls:
 
-- emission-contract identity drift;
-- historical emission-selection-policy drift;
-- historical default identity drift;
-- current-policy identity drift;
-- current-source regression back to the legacy 19-box representation;
-- current-source selection-policy drift;
-- current/legacy identity collapse;
-- historical build-result policy rewrite;
-- unknown-variant fallback.
+- duplicate receiver ID;
+- unknown receiver ID / order drift;
+- pavilion source identity drift;
+- panel source identity drift;
+- orientation-contract drift;
+- non-orthogonal receiver frame;
+- panel / receiver tag mismatch.
 
-The existing seven segment-expansion controls also remain intact: unsupported axis, duplicate suffix, segment-count mismatch, segmentation schema/revision drift, deliberate `1 mm` source-segment drift and exact source-contract identity drift.
+The direct shared-placement proof also retains four shared-capability controls:
 
-## Regression found and repaired
+- reflected target frames reject;
+- socket identity mismatch rejects;
+- non-unit scale leaves the exact-neutral contract;
+- upstream Sticker Fabric placement-digest drift rejects.
 
-The first integrated head after the policy rebind, `540dab23a6828b3c6ddc38e64346c203c25143be`, failed the repository-wide workflows because an inherited expansion test still expected the previous source-policy head `547bd210...`.
-
-That failure is retained as real provenance. The test was repaired to distinguish the unchanged segmentation contract identity from the newly promoted current-source policy head; generated geometry, source segmentation and compatibility semantics were not changed to make CI pass.
-
-Final exact head:
-
-**`72b789843df40c420a6a72017bfb59cbde904545`**
+There is still no nearest-receiver fallback, frame inference, hidden scale, hidden extra rotation or silent source rewrite.
 
 ## Exact CI / retained evidence
 
-All final exact-head workflows succeeded:
+All exact-head workflows on `cdf93ea6ad2757e14e5febc96d579d94f64a4d24` completed successfully:
 
-- **`35163697108 — Procedural building symmetric-row evidence` — SUCCESS**;
-- **`35163697104 — Hard-surface Building current-source policy evidence` — SUCCESS**;
-- **`35163697263 — Hard-surface building evidence` — SUCCESS**.
+- **`35168217905 — Procedural building symmetric-row evidence` — SUCCESS**;
+- **`35168216867 — Procedural building symmetric-row evidence` (push) — SUCCESS**;
+- **`35168218000 — Hard-surface building evidence` — SUCCESS**;
+- **`35168218050 — Hard-surface Building current-source policy evidence` — SUCCESS**.
 
 Retained Procedural artifact:
 
-- ID: **`10473399399`**;
-- name: `service-pavilion-procedural-001-72b789843df40c420a6a72017bfb59cbde904545`;
-- uploaded size: **`26,100 B`**;
-- GitHub SHA-256: **`896ed774ef44093850154a5b3cdaf8dd7abe1cb126722f64684681e5e13d2bb4`**;
-- artifact head binding: `72b789843df40c420a6a72017bfb59cbde904545`.
+- ID: **`10475701586`**;
+- name: `service-pavilion-procedural-001-cdf93ea6ad2757e14e5febc96d579d94f64a4d24`;
+- uploaded size: **`26,567 B`**;
+- GitHub SHA-256: **`68b91e0135cc8de20b46e76063fdf1a097ce9510506038972e353953fadcce6e`**;
+- independently downloaded and rehashed in this activation to the same SHA-256;
+- exact-head binding: `cdf93ea6ad2757e14e5febc96d579d94f64a4d24`.
 
-No independent local rehash is claimed in this activation; the digest above is GitHub's retained artifact digest.
-
-PR #4 exact result comment: **`5706225582`**.
-
-Hard-Surface source-owner PR #2 downstream return: **`5706226871`**.
+Artifact inspection confirms the direct-consumer receipt reports `local_rigid_frame_transform_implementation: false`, current migration decision `PASS_BUILDING_DIRECT_STICKER_FABRIC_CONSUMER_HELPER_CONSOLIDATION`, two exact receiver matches and `0.0 m` maximum residual.
 
 ## Placement / authority boundary
 
-Correct placement remains **Building-local Procedural evidence consuming Building Hard-Surface authority**.
+Correct placement remains **Building-local Procedural evidence consuming one neutral shared Sticker Fabric capability**.
 
-- Hard Surface owns the source-policy decision, source variant identities and compatibility boundary.
-- Procedural owns only repeated exact emission of the already-authorized header pattern plus bounded regression evidence.
-- The historical emission contract's old `base-closed-outward-19` default metadata remains preserved as history; it is not misrepresented as the current source policy.
-- Map / Environment / Materials / Runtime and every other downstream owner still require their own explicit rebind/retest before claiming the current source policy.
-- UC receives no Building selector, segmentation contract or source-policy semantics.
+- Building retains all receiver, fit, mount, clearance, shape, source and acceptance semantics.
+- Sticker Fabric supplies only renderer-independent neutral rigid 3D placement math.
+- Object's prior consolidation is independent evidence, not authority over Building.
+- The newer Building boundary-only union shell remains a separate explicit opt-in receiving representation and was not silently adopted into this family.
+- UC retains its standalone compatible copy; no forced dependency was introduced into UC.
 - Profession Fabric receives no new procedure from this pass.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- silent rewrite of `axm.building-build-result/v0.1` or the historical 19-box tuple;
-- automatic migration of Map, Environment, Materials, Runtime or any other consumer;
-- arbitrary building-member segmentation or arbitrary building generation;
-- boolean-unioned/global-manifold pavilion topology;
+- a universal attachment schema or universal receiver semantics;
+- deletion or migration of any other consumer's local code;
+- automatic adoption of the Building boundary-only union-shell representation;
+- arbitrary building generation or arbitrary panel placement;
+- runtime attachment, physics, collision, navigation or gameplay acceptance;
 - architectural, structural-engineering or manufacturing validity;
 - final material / visual / Art-Direction acceptance;
-- target-device runtime, collision, navigation, physics or gameplay acceptance;
 - UC extraction or Profession Fabric promotion;
 - CANON, production/game readiness or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** the source-policy change, historical compatibility interface and intermediate stale-test failure are all retained distinctly instead of collapsing them into one story.
-- **Agency / non-domination:** Hard Surface keeps source authority and no downstream consumer is auto-migrated by Procedural.
-- **Continuity:** the real two-parent merge preserves both source and Procedural history; the 19-box compatibility API remains intact while new source claims bind the 23-box policy explicitly.
-- **Wisdom before speed:** the existing family was repaired at the exact authority boundary instead of opening a duplicate generator, rewriting compatibility, or promoting a Building-specific policy into UC/PF.
+- **Truth:** exact dependency identity, unchanged output digests, historical receipt semantics and the absence of a local rigid-transform implementation are stated separately and testably.
+- **Agency / non-domination:** Building keeps its domain authority; neither Sticker Fabric nor Procedural rewrites source semantics or silently migrates other consumers.
+- **Continuity:** the existing PR and family were repaired in place, previous exact outputs remain unchanged, historical UC provenance remains explicit, and unrelated workflows can run without vendoring the shared dependency.
+- **Wisdom before speed:** consolidation happened only after cross-domain equivalence and a second direct consumer existed; no larger attachment framework or premature UC/PF promotion was invented.
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. Do not continue Building merely because this branch is active. A future Building change is justified only by another real source/consumer contract change that invalidates or requires rebinding this evidence. Otherwise prefer a different repeated pattern with clear ownership and at least two materially different outputs.
+Re-scan the full constellation first. Do not continue Building merely because PR #4 is active. A future Building change is justified only by another real source/consumer contract change or a newly evidenced repeated pattern. Otherwise prefer a different bounded pattern with clear ownership and at least two materially different outputs.
