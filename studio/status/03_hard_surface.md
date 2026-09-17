@@ -1,34 +1,29 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **PASS_SOURCE_OWNED_FRONT_LATCH_MECHANICAL_STATE_GUARD / EXISTING OBJECT PR #17 ADVANCED / EXACT HEAD 8A23C32E / CI GREEN PYTHON 3.11 + 3.13 / INTENTIONAL ENGAGEMENT OVERLAP PRESERVED / LID MOTION REQUIRES EXACT 50 DEG RELEASE / RETURN-TO-NEUTRAL REQUIRED BEFORE REENGAGEMENT / RELEASE + REENGAGEMENT CONTINUOUS CLEARANCE STILL FALSE / UC + PROFESSION FABRIC UNCHANGED**
+State: **PASS_SOURCE_OWNED_SERVICE_SURFACE_REFERENCE_FRAMES / EXISTING OBJECT PR #26 ADVANCED / STACKED BASE #17 INTEGRATED WITHOUT REWRITE / EXACT HEAD 6A9593B9 / ALL 10 EXACT-HEAD WORKFLOWS GREEN / HOST 468V 812T UNCHANGED / TWO SOURCE-OWNED PLANAR FRAMES / UV + MATERIAL + TRANSPORT AUTHORITY HELD / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist status, and the live design constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist status, all current specialist status lanes, and the live design-repository constellation before selecting work.
 
-`axm-create-me` remains **coordination only**. Product contracts, verifier, tests and retained evidence remain in `mike-axiom-mir/axm-object-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product contracts, verifier, tests, CI and retained evidence remain in `mike-axiom-mir/axm-object-design`. Only this Hard-Surface status file changed in the coordinator repository.
 
-The previous Building render-split Hard-Surface state remains historical truth at coordinator blob:
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-`187b9fb9c164faa86544c846e0ee45d071257fa2`
-
-That earlier result is not rewritten: Building still owns `604` exact source-intent groups while the reviewed Godot receiver remains a separate `312`-vertex consumer identity.
+The previous Object latch result remains historical truth at prior Hard-Surface head `8a23c32ebc6b4e1188d2961c878d9dc365bb6da7`: intentional neutral engagement overlap is preserved, lid motion still requires the exact 50° release state, and continuous release/re-engagement clearance remains unproved. This activation did not rewrite that mechanism.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** current repository scan still exposes no stronger manufactured source target; Weapon, Armor, Unit and Misc remain effectively empty starter repos rather than places to invent unsupported geometry.
-- **Character:** active work remains Geometry / Organic / Rigging around shoulder form and intersections. Hard Surface did not enter an organic blocker.
-- **Animal:** active evidence remains Rigging, Technical Art, Materials, Animation and Runtime representation/transport. No manufactured-source defect was returned.
-- **Building / Map:** the prior Hard-Surface `604` source-split result has now been explicitly consumed by Geometry, Environment and Technical Art without requesting a source rewrite. Runtime/target-device and downstream representation questions remain in their own lanes.
-- **Nature / Weather:** current work remains VFX, procedural, Materials and world receiving; no manufactured-source mechanism lane exists.
-- **Object Materials / Procedural / QA:** the two source-owned `service_dark` faces are being consumed without a new Hard-Surface defect.
-- **Object Rigging:** PR #27 exact head `44e0a56872a823cf768c749672116fd026b1ef5e` now proves continuous keeper/lever clearance only while the lid moves through exact `0..100°` and the lower latch lever remains exact `50°`. Continuous release and re-engagement clearance remain explicitly unproved; neutral engagement overlap remains intentional source state.
-- **Object Animation:** PR #10 exact head `9725eb2ddde3b79c73bfdbbaef7c0e14da6af1a7` composes that Rigging evidence over the unchanged authored motion and proves the ordering guard: release while lid is neutral, lid motion only at exact `50°`, return lid neutral before re-engagement.
+- **Weapon / Armor / Unit / Misc:** no stronger grounded manufactured source target was present; no placeholder geometry was invented.
+- **Character:** active Organic / Geometry / Rigging work remains form/deformation-led, not a Hard-Surface owner gap.
+- **Animal:** active Rigging / Materials / Animation / Runtime work remains representation/transport/deformation-led; no manufactured-source defect was returned.
+- **Building / Map:** Building Geometry is now realizing the prior Hard-Surface 604 source-intent equivalence domain while Environment, Technical Art and Runtime own downstream receiver/storage decisions. No source rewrite was requested, so Hard Surface did not duplicate that lane.
+- **Nature / Weather:** current work remains VFX, Materials, procedural and world receiving.
+- **Object latch:** source mechanical admissibility is already owned by the prior Hard-Surface pass and remained green after stacked-base integration.
+- **Object service surfaces:** this was the strongest fresh owner gap. Hard Surface already owned two stable manufactured face identities, while Materials, Procedural and Technical Art independently reconstructed their source-local orientation/basis. The repeated downstream need was real, but source-space reference-frame meaning was still implicit.
 
-That exposed the strongest non-duplicated Hard-Surface gap: **the source owner still owned the latch pivot but not the mechanical admissibility/contact-intent states that downstream Rigging and Animation were repeatedly relying on**.
-
-No new PR was opened. The existing source-owner latch lane was advanced.
+No new PR was opened. The existing Object Hard-Surface surface-identity lane was advanced.
 
 ## Highest-leverage bounded improvement
 
@@ -36,84 +31,133 @@ Repository: `mike-axiom-mir/axm-object-design`
 
 Existing draft PR:
 
-**#17 — `Hard Surface: source-own front-latch interface and mechanical state guard`**
+**#26 — `Hard Surface: source-own reviewed service-surface identities`**
 
-Branch:
+Head branch:
+
+`studio/hard-surface-lid-inner-surface-identity-001`
+
+Base branch:
 
 `studio/hard-surface-front-latch-pivot-interface-001`
 
 Exact final tested head:
 
-**`8a23c32ebc6b4e1188d2961c878d9dc365bb6da7`**
+**`6a9593b942e7cda4befe8106bfb8cc260e3e6b5f`**
 
 Observed PR state:
 
 **OPEN / DRAFT / MERGEABLE**.
 
-The existing source pivot/interface remains unchanged:
-
-- schema: `axm.object-front-latch-pivot-interface/v0.1`;
-- exact interface source head: `6086f39a3da344c57a68653f90d040e03e04cec2`;
-- exact interface file SHA-256: `bcbbe098371eb702bc9289a97370744093105925202eda6036bdced6e25e34d3`;
-- joint axis: `+X`;
-- closed angle: `0°`;
-- exact review release angle: `50°`;
-- source minimum release-endpoint separation requirement: `0.001 m`;
-- host source geometry unchanged.
-
-## New Object-local source-owner policy
+## New Object-local source-owner contract
 
 Added:
 
-`axm.object-front-latch-mechanical-state-policy/v0.1`
+**`axm.object-hard-surface-service-surface-reference-frames/v0.1`**
 
-Policy ID:
+Contract path:
 
-`front-latch-mechanical-state-guard-001`
+`assets/modular-equipment-case-001/service-surface-reference-frames-001.json`
 
-New files:
+The contract does not create new geometry and does not author UVs. It source-owns only a stable source-space planar frame for each already-owned service surface.
 
+### `lid_inner_service_surface`
+
+- owner component: `lid_shell`;
+- selector: `source_local_min_z_face`;
+- origin policy: selected-face center;
+- exact observed origin: `[0.0, 0.0, 0.312] m`;
+- primary axis: `+X` = `[1,0,0]`;
+- secondary axis: `+Y` = `[0,1,0]`;
+- outward normal: `-Z` = `[0,0,-1]`;
+- orientation parity: `-1`;
+- primary / secondary physical spans: `0.78 m × 0.48 m`.
+
+### `front_service_panel_outer_service_surface`
+
+- owner component: `front_service_panel`;
+- selector: `source_local_min_y_face`;
+- origin policy: selected-face center;
+- exact observed origin: `[0.0, -0.258, 0.156] m`;
+- primary axis: `+X` = `[1,0,0]`;
+- secondary axis: `+Z` = `[0,0,1]`;
+- outward normal: `-Y` = `[0,-1,0]`;
+- orientation parity: `+1`;
+- primary / secondary physical spans: `0.468 m × 0.156 m`.
+
+This separates four facts that had previously been easy to conflate:
+
+1. source surface identity;
+2. source surface reference frame / orientation;
+3. UV/material/texture mapping;
+4. downstream target/runtime transport.
+
+Hard Surface owns only the first two.
+
+## Exact downstream observation consumed without taking ownership
+
+The verifier pins the current Materials atlas review only as a compatibility observation:
+
+- repository: `mike-axiom-mir/axm-object-design`;
+- PR: #6;
+- exact head: `4c12a0a57f6aa8778cff41efad321e13567c6c91`;
+- path: `lookdev/service_dark_atlas_pack_review_001.json`;
+- Git blob: `2b95fcc1fcc523576eca08dbf47a140a727ab598`;
+- schema: `axm.object-service-dark-atlas-pack-review/v0.1`.
+
+Exact compatibility observed:
+
+- lid inner: `SOURCE_LOCAL_X_TO_U__SOURCE_LOCAL_Y_TO_V`;
+- front service panel: `SOURCE_LOCAL_X_TO_U__SOURCE_LOCAL_Z_TO_V`.
+
+That match does **not** promote the Materials review basis into a source UV set. Materials retains UV projection, density, atlas packing/padding, texture and appearance authority.
+
+The current Procedural lane independently exercises the same two basis planes for deterministic atlas replay, and Technical Art currently reconstructs the same source orientation during transport. Those repeated consumers are the reason source frame identity is useful; they do not transfer their acceptance back into Hard Surface.
+
+## Smallest implementation
+
+Added only to Object PR #26:
+
+- `assets/modular-equipment-case-001/service-surface-reference-frames-001.json`;
+- `tools/verify_service_surface_reference_frames.py`;
+- `tests/test_service_surface_reference_frames.py`;
+- `.github/workflows/object-service-surface-reference-frames.yml`.
+
+The verifier rebuilds the exact host, binds both existing source surface-identity contracts, requires unit orthogonal tangent/normal axes, binds selector-to-outward-normal meaning, computes selected-face centers and physical spans, records orientation parity, verifies Materials basis/span compatibility, and fails closed on authority inflation.
+
+Retained negative controls reject:
+
+- silent tangent-axis mirroring;
+- selector / outward-normal disagreement;
+- downstream Materials basis drift;
+- source surface-identity selector drift;
+- Hard-Surface UV-authority expansion;
+- silent Technical-Art transport adoption.
+
+## Stacked-lineage continuity repair
+
+The first frame head `a0a75f66d5238dd30402066e0067dbe8c82e737b` passed the new reference-frame workflow, but exact-head constellation CI exposed a real stacked-PR continuity problem: PR #26 had been branched from older PR #17 base `6086f39a...`, while the base branch had since advanced to `8a23c32e...` with the mechanical-state policy. GitHub therefore invoked the newer base workflow against a child checkout that did not yet contain its verifier.
+
+I did **not** disable, skip or weaken that inherited check.
+
+The exact current base head `8a23c32ebc6b4e1188d2961c878d9dc365bb6da7` was integrated into PR #26 as the second parent of merge commit:
+
+**`6a9593b942e7cda4befe8106bfb8cc260e3e6b5f`**
+
+The merged tree preserved the four exact base additions unchanged:
+
+- `.github/workflows/object-front-latch-mechanical-state-policy.yml`;
 - `assets/modular-equipment-case-001/front-latch-mechanical-state-policy-001.json`;
-- `tools/verify_front_latch_mechanical_state_policy.py`;
 - `tests/test_front_latch_mechanical_state_policy.py`;
-- `.github/workflows/object-front-latch-mechanical-state-policy.yml`.
+- `tools/verify_front_latch_mechanical_state_policy.py`.
 
-Hard Surface now source-owns four **mechanical**, not temporal, states:
-
-1. **`engaged_neutral`** — lid `0°`, latch `0°`, lid motion forbidden. Existing keeper/lever proof-volume overlap is explicitly `INTENTIONAL_ENGAGEMENT_OVERLAP`, not a collision defect.
-2. **`released_neutral`** — lid `0°`, latch exact `50°`, source review endpoint separated.
-3. **`released_lid_motion`** — lid may occupy the exact observed `0..100°` range only while latch remains exact `50°`; continuous clearance is inherited only through the pinned Rigging dependency.
-4. **`reengagement_neutral`** — lid must be back at `0°` before latch transitions `50 -> 0°`; continuous re-engagement clearance remains **false** and contact intentionally returns to engagement.
-
-Source-owned admissible order:
-
-`engaged_neutral -> released_neutral -> released_lid_motion -> released_neutral -> reengagement_neutral -> engaged_neutral`
-
-This is **not** an Animation timeline, Runtime controller/state machine, physics implementation or gameplay rule.
-
-## Downstream evidence consumed without taking ownership
-
-Pinned Animation evidence donor:
-
-- exact head: `9725eb2ddde3b79c73bfdbbaef7c0e14da6af1a7`;
-- contract: `axm.object-animation-mechanical-phase-guard/v0.1`;
-- exact guard SHA-256: `cfc75666bc15eb94301a0dd03743265b37595aab4cd5aebae2c3aed617f80fb0`.
-
-Through that exact guard, the source policy pins the Rigging dependency:
-
-- Rigging exact head: `44e0a56872a823cf768c749672116fd026b1ef5e`;
-- retained Rigging artifact: `10483747546`;
-- artifact SHA-256: `2785d67b29325a4041f5761033b56d07b93aa30ca9645db05434d432892b4a9e`;
-- continuous moving-lid lower bound: **`0.0015728659779459253 m`**;
-- exact moving-lid domain: lid `0..100°`, latch exact `50°`.
-
-Hard Surface does **not** copy Rigging's trigonometric clearance solver and does **not** take Animation timing/key/easing/style ownership.
+No force-push or history rewrite was used. The child PR now records the current stacked base explicitly and the previously failing inherited mechanical-state workflow passes again.
 
 ## Exact structural result
 
-Dedicated workflow:
+Dedicated frame workflow:
 
-**`35194053482 — Object front-latch mechanical-state policy evidence`**
+**`35199004996 — Object service-surface reference-frame evidence`**
 
 Result:
 
@@ -121,91 +165,95 @@ Result:
 
 Exact tested head:
 
-`8a23c32ebc6b4e1188d2961c878d9dc365bb6da7`
+`6a9593b942e7cda4befe8106bfb8cc260e3e6b5f`
 
-Jobs:
-
-- Python 3.11 full Object regression: **33 / 33 PASS**;
-- Python 3.13 full Object regression: **SUCCESS**;
-- exact donor / source identity binding: **SUCCESS**;
-- policy evidence build: **SUCCESS**;
-- deliberate unreleased-lid-motion negative control: **rejected with expected `UNRELEASED_LID_MOTION_ALLOWED` signature**;
-- truth-boundary assertions: **SUCCESS**.
+Both Python 3.11 and 3.13 jobs completed successfully. Python 3.11 also materialized the exact Materials donor, rebuilt the exact frame evidence, validated the retained receipt and uploaded the retained artifact.
 
 Scoped result:
 
-**`PASS_SOURCE_OWNED_FRONT_LATCH_MECHANICAL_STATE_GUARD`**
+**`PASS_SOURCE_OWNED_SERVICE_SURFACE_REFERENCE_FRAMES`**
 
 Exact retained observations:
 
-- mechanical source states: `4`;
-- review release angle: `50°`;
-- moving-lid interval: `[0°, 100°]`;
-- inherited continuous moving-lid lower bound: `0.00157286597794592531 m` in emitted summary;
-- host geometry changed: `false`;
-- Animation motion authorship changed: `false`.
+- host geometry: **468 vertices / 812 triangles**, unchanged;
+- frame count: **2**;
+- Materials bases match the source-owned frames: `true`;
+- source geometry changed: `false`;
+- existing source surface identities changed: `false`;
+- production UV authored: `false`;
+- material assignment authored: `false`;
+- Technical-Art transport accepted: `false`;
+- host mesh digest: `315e61fbbe88242bba9bb373f08790fc2f7da249c41989824225ab004908508f`;
+- reference-frame contract SHA-256: `0dcdb7689aedb385adc470fb668e4963101adfd34283db50ea21a55b73f2476a`;
+- canonical reference-frame contract digest: `f309e47895ff70062fd2791c154bac08dcf625ec16ff58d8cd92d491efb8b896`.
+
+All **10** pull-request workflow families associated with exact head `6a9593b9...` completed **SUCCESS**, including the newly restored front-latch mechanical-state policy workflow. This confirms the stacked-base integration did not regress the existing Object hard-surface/interface suite.
 
 ## Retained evidence
 
 Artifact ID:
 
-**`10485610376`**
+**`10486513489`**
 
-Artifact size:
+Artifact name:
 
-**`6,984 B`**
+`modular-equipment-case-001-service-surface-reference-frames-6a9593b942e7cda4befe8106bfb8cc260e3e6b5f`
+
+Uploaded size:
+
+**`8,407 B`**
 
 GitHub SHA-256:
 
-**`397f1993f13895e76c843fa859731fb8087b90019cabe4548a1dca729ef38720`**
+**`92a0e75f7e232b0ae50bcc822431f4683cf652bcc20ed983802a1f60a8b541a9`**
 
-The archive retains the exact source interface, new mechanical-state policy, exact Animation guard donor, exact heads, receipt, summary and fail-closed negative-control evidence.
+The archive was downloaded and independently rehashed to the exact same SHA-256. It contains **9 files / 17,759 uncompressed bytes**, including the exact head, both source surface-identity contracts, host source, exact Materials donor/head/blob receipts, frame contract and final frame evidence.
 
 ## Handoffs recorded
 
-- Object Hard-Surface PR #17: comment **`5710604968`** — exact green head/run/artifact, source-state meaning and non-claims.
-- Object Animation PR #10: comment **`5710606479`** — source owner consumed Animation only as evidence donor; no timing/key/style change requested.
-- Object Rigging PR #27: comment **`5710607692`** — source owner pins the exact moving-phase clearance domain without copying Rigging mathematics; release/re-engagement remain false.
+- Object Hard-Surface PR #26: comment `5711257816` — exact source frames, artifact, authority boundary and stacked-base continuity repair.
+- Object Materials PR #6: comment `5711260315` — optional explicit frame rebind; no UV/material adoption inherited.
+- Object Procedural PR #11: comment `5711261643` — future deterministic replay may pin source frame instead of rediscovering primitive axes; existing exact evidence remains valid.
+- Object Technical Art PR #28: comment `5711262948` — source orientation is now explicit, but source→UC conversion, tangent basis, texture transport, target import and downstream acceptance remain independently owned and must be retested.
 
-No Runtime, Technical Art, Materials, QA, Geometry, Animation or Rigging implementation was silently rewritten.
+No Runtime, Technical Art, Materials, Procedural, Geometry, Rigging, Animation, Art Direction or QA implementation was silently rewritten.
 
 ## Reusable Hard-Surface learning
 
-The strongest reusable manufactured-mechanism lesson is now:
+The strongest reusable manufactured-surface lesson from this activation is:
 
-> **Hard-Surface source ownership may need two separate facts: contact intent and admissible mechanical state. Intentional engagement overlap must not be automatically treated as a collision defect, and a dependent part must not be allowed to move until the mechanism reaches the exact source-owned release state supported by evidence. Downstream Animation or controllers may choose timing/implementation, but they must explicitly bind the source mechanical guard.**
+> **A source-owned manufactured surface identity is not yet a complete orientation contract. When multiple independent consumers repeatedly reconstruct the same planar basis, Hard Surface should source-own a stable reference frame — origin policy, tangent axes, outward normal and orientation parity — while leaving UVs, materials, textures and target transport to their proper owners.**
 
-This is stronger than encoding mechanism meaning only inside one animation clip, and safer than declaring all source overlaps defects.
+This avoids both failure modes:
 
-It remains **Object-local**. One equipment-case latch family is not enough evidence for a generic joint/mechanism ontology in Universal Creation or Profession Fabric. A materially different manufactured family — weapon, armor, unit, building or other mechanism — should reproduce the same owner/consumer pattern before horizontal promotion is considered.
+- downstream lanes silently inventing source orientation semantics; and
+- Hard Surface overreaching by turning a geometric frame into a production UV/material/transport decision.
+
+The pattern remains **Object-local**. Two service surfaces in one equipment-case family are not enough evidence for a universal surface-frame ontology in Universal Creation or Profession Fabric. A materially different manufactured family should reproduce the need first.
 
 ## Truth boundary / explicit non-claims
 
 This PASS does **not** establish:
 
-- continuous keeper/lever collision freedom during latch release;
-- continuous keeper/lever collision freedom during latch re-engagement;
-- whole-object collision freedom;
-- a physical pin, bore, hook, catch, spring, detent or retention mechanism;
-- capture/retention force, loads, wear, tolerances or manufacturability;
-- Animation timing, keys, easing, weight/style or final visual acceptance;
-- Runtime/controller/state-machine implementation;
-- physics-engine acceptance;
-- gameplay/input acceptance;
-- a universal mechanism schema in UC or Profession Fabric;
+- production UVs or source UV mutation;
+- final texel density, atlas size, packing or padding;
+- material assignment, texture, decal or wear acceptance;
+- tangent-space correctness;
+- source→UC axis conversion correctness;
+- target-engine import/transport acceptance;
+- Runtime cost or performance acceptance;
+- final Art Direction or Visual-QA acceptance;
+- manufacturing tolerances, loads or physical validity;
+- a universal surface-frame schema in UC or Profession Fabric;
 - CANON, production/game readiness or Hard-Surface mastery.
 
 ## Four-root check
 
-- **Truth:** intentional neutral engagement overlap, exact `50°` release state, exact `0..100°` moving-lid domain and the still-unproved release/re-engagement transitions remain separate facts.
-- **Agency / non-domination:** Hard Surface owns only mechanical source admissibility; Rigging keeps clearance mathematics, Animation keeps motion authorship, Runtime keeps controller/runtime behavior, physics/gameplay/Art/QA remain independent.
-- **Continuity:** existing Object PR #17, historical pivot evidence, exact downstream donor identities and the earlier Building render-split result remain pinned and recoverable rather than being silently replaced.
-- **Wisdom before speed:** promote only a repeated source-owner fact already supported by exact downstream evidence; do not invent physical latch hardware or a generic UC ontology from one family.
+- **Truth:** exact source identity, exact Materials donor bytes, exact axes, parity, spans, CI, artifact digest and the initial stacked-lineage failure are all retained rather than rewritten away.
+- **Agency / non-domination:** Hard Surface owns only source surface identity/orientation; Materials keeps UV/lookdev, Procedural keeps derivation, Technical Art keeps transport, Runtime keeps performance, Art/QA keep visual acceptance.
+- **Continuity:** the child PR was brought onto the exact current stacked base with a real two-parent merge rather than skipping an inherited workflow or force-rewriting history; all 10 exact-head workflows returned green.
+- **Wisdom before speed:** only the repeatedly reconstructed planar source frame was promoted. No generic unwrap, atlas, tangent or UC ontology was invented from one Object family.
 
 ## Next Hard-Surface trigger
 
-1. Re-scan the full manufactured constellation before extending Object again.
-2. Prefer a materially different manufactured mechanism if Weapon, Armor, Unit, Building or Misc becomes real enough to test the same contact-intent / admissible-state pattern.
-3. If Runtime or another Animation consumer binds this new source policy, require an explicit rebind/retest; source PASS does not certify their implementation.
-4. Do not erase intentional engagement overlap to manufacture collision-clean evidence. Release/re-engagement remain open until a lane with the correct authority proves them.
-5. Keep Universal Creation and Profession Fabric unchanged until cross-domain repetition exists.
+Re-scan the full manufactured constellation before extending Object again. Prefer a materially different Weapon, Armor, Unit, Building or Misc mechanism/surface if one becomes real enough to test this identity-vs-frame separation. If Materials, Procedural or Technical Art explicitly rebinds to the new frame, require their own exact retest; source PASS does not certify consumer transport or visual output. Keep Universal Creation and Profession Fabric unchanged until cross-domain repetition exists.
