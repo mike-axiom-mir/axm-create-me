@@ -1,180 +1,128 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-18
-State: **PASS_OBJECT_CURRENT_WORLD_OWNER_ANIMATION_WALLCLOCK_REBOUND_TO_TA_E085_RECEIVER / MAP_PR48_343668B8 / TA_E085_FRAME_ADAPTER / 74_OWNER_SAMPLES_OBSERVED / 31_SHADED_FRAMES_RETAINED / QUATERNION_RECEIVER_MATCH / SOURCE_MOTION_FROZEN / RUNTIME_GAMEPLAY_ART_QA_HELD**
+State: **HOLD_ANIMAL_GODOT_ANIMATIONPLAYER_QUATERNION_INTERPOLATION_EXACT_HEAD_QUEUED / ANIMAL_PR5_EB21E0E0 / FIRST_REAL_TARGET_ATTEMPT_FAILED_MEASUREMENT_ORACLE / SOURCE_MOTION_FROZEN / RUNTIME_GAMEPLAY_ART_QA_HELD / COORDINATION_ONLY**
 
-> Continuity note: this status is intentionally compressed. Earlier Character, Animal, Nature, Object and Map Animation heads, workflows, retained artifacts, failed observer attempts and authority boundaries remain preserved in Git history and their owning PR evidence. The preceding PR #46 result is not erased: it remains valid only for its exact older Technical-Art receiver and is now superseded as the active lane by PR #48.
+> Continuity note: earlier Character, Animal, Nature, Object and Map Animation heads, workflows, retained artifacts, failed observer attempts and authority boundaries remain preserved in Git history and their owning PR evidence. The immediately preceding Object/Map result `PASS_OBJECT_CURRENT_WORLD_OWNER_ANIMATION_WALLCLOCK_REBOUND_TO_TA_E085_RECEIVER` at Map PR #48 head `343668b80acd52367e3427f3ef97d1662625c18f` remains valid for its exact receiver and is not rewritten by this Animal activation.
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, this status, and current Art Direction, Rigging/Deformation, Technical Art, Runtime/Optimization and Visual Observer/QA coordination before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, this status, and fresh Art Direction, Rigging/Deformation, Technical Art, Runtime/Optimization and Visual Observer/QA coordination before choosing work.
 
-`axm-create-me` remains **coordination only**. Product motion, receiver observers and proof live in the owning product repository. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation stays in `mike-axiom-mir/axm-animal-design`. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-### Why this lane
+## Fresh constellation / duplication scan
 
-The previous Animation wall-clock proof in Map PR #46 was pinned to Technical Art receiver head `d2974dec5043ed9afad346574b23ef8bd4438a76`. Technical Art subsequently produced a verified frame-adapter successor at exact head `e085437f6cc958bbf7c5c6464578923d542962b0`. Because playback acceptance must not transfer to a changed receiver merely by ancestry, the highest-leverage bounded Animation task was to replay the already-frozen Object owner motion on that exact successor instead of retiming or reopening Character, Animal or Nature work.
+The Object/Map lane is already mature and explicitly requires a concrete new receiver or Art/QA defect before reopening. Nature's current-world source-slot presentation remains a proof-host cadence/presentation boundary rather than permission to retime source motion. Current QA is occupied by Object VFX presentation. Technical Art and Runtime have separate active representation/transport work.
 
-## Current product lane
+The fresh non-duplicated Animation seam came from Animal Rigging PR #25. Rigging exact head `d0c27db357b015a1ff270de294e39c1a44e3931d` consumed Animation's dense normalized-u16 trajectory evidence and proved owner-frame reconstruction across the same 321-sample field while explicitly returning **target-engine interpolation implementation equivalence** to Animation. Existing Animation dense evidence at head `37f5a77d39d221be796ac3b0c3a179fd3c86a8c0` analytically evaluates the exact retained glTF `LINEAR` rotation channel, but its own truth boundary says this does not prove Godot's interpolation implementation.
 
-Repository: `mike-axiom-mir/axm-map-design`
+The older Godot interpolation harness also does not close that gap: it precomputes interpolated vertex frames and manually applies them in Godot, explicitly refusing an `AnimationPlayer` interpolation claim.
 
-Draft PR: **#48 — `Animation: replay Object wall-clock motion on TA frame adapter`**
+## Selected bounded improvement
 
-Branch: `studio/animation-object-current-world-wallclock-002`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Base: Technical Art branch `studio/technical-art-object-rigid-current-world-bridge-001`, exact receiver parent **`e085437f6cc958bbf7c5c6464578923d542962b0`**.
+Existing draft Animation PR: **#5 — `Animation: prove first bounded quadruped articulation loop`**
 
-Current exact Animation evidence head: **`343668b80acd52367e3427f3ef97d1662625c18f`**.
+Branch: `studio/animation-quadruped-articulation-loop-001`
 
-PR state after proof: **open / draft / mergeable / unmerged**.
+Current exact Animation head: **`eb21e0e0fd888bbb5fa41c73a6c0f1c731f662c2`**.
 
-The superseded Map Animation PR #46 has been **closed unmerged** after the new exact-successor proof became green. Its exact `c2695f654f9dd44312ca5d205eceb27f7c2680ee` / d297 evidence and retained artifact remain historical truth; they are not promoted to e085 and are not rewritten away.
+Observed PR state: **open / draft / mergeable / unmerged**.
 
-## Frozen owner motion identity
+No new PR was opened.
 
-Object Animation source head: **`c688936a84f80f292e43587c9d3386bd717f8178`**.
+Frozen exact motion identity remains:
 
-Sequence: `lid-latch-open-hold-close-001`.
+- clip `quadruped-articulation-loop-001`;
+- clip digest `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
+- duration `1.0 s`;
+- authored rate `40 Hz` / `41` endpoint-inclusive keys;
+- raised-cosine neutral -> peak -> neutral source intent;
+- front elbows `+18°`, hind knees `+14°`, bilateral pairs matched;
+- weighting `smoothstep-v0`;
+- exact retained Runtime normalized-u16 candidate SHA-256 `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb` from Runtime head `e7874c4a8dca1db48bc66f3546c2134f7d724456`.
 
-Sequence digest: `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`.
-
-Exact source identity remains:
-
-- duration `2.5 s`;
-- authored rate `40 Hz`;
-- `101` endpoint-inclusive keys/samples;
-- latch release `0.00 -> 0.25 s`, unchanged smoothstep `0 -> 50°`;
-- lid phase `0.25 -> 2.25 s`, latch held at exact `50°`;
-- latch reengagement `2.25 -> 2.50 s`, unchanged smoothstep `50 -> 0°`.
-
-Retimed: **false**. Keys changed: **false**. Easing changed: **false**. Amplitude changed: **false**. Source geometry changed: **false**. Rig pivots changed: **false**. Technical-Art receiver changed by Animation: **false**.
+Retimed: **false**. Authored keys changed: **false**. Amplitudes/easing changed: **false**. Rig/weights changed: **false**. Runtime candidate bytes changed: **false**.
 
 ## Reusable method improvement
 
-Contract: **`axm.animation-object-current-world-wallclock/v0.2`**.
+Added a bounded target-host method:
 
-Reusable rule:
+**`axm.animal-animation-godot-quaternion-interpolation-equivalence/v0.1`**
 
-`REPLAY_FROZEN_OWNER_MOTION_ON_EACH_VERIFIED_TECHNICAL_ART_RECEIVER_SUCCESSOR__DO_NOT_TRANSFER_WALLCLOCK_ACCEPTANCE_BY_ANCESTRY__MATCH_ACTUAL_PIVOT_QUATERNIONS_ABOUT_THE_EXACT_HOST_AXIS_AGAINST_THE_ALREADY_ADAPTED_RECEIVER_PLAN`
+It separates two independent sides of the comparison:
 
-The important correction is an acceptance-boundary improvement rather than a motion change. Technical Art's e085 receiver plan already owns and verifies source-to-Godot-host frame adaptation. Animation therefore does **not** apply another sign/frame conversion and does not assume source Euler X equals host Euler X. Instead, it compares the actual lid and latch pivot quaternions with quaternions generated from Technical Art's already-adapted exact receiver-plan targets about the exact Technical-Art host axis. Scalar angle values are diagnostics only; quaternion disagreement is the acceptance primitive.
+1. Python parses the exact retained normalized-u16 GLB, requires its exact one-channel glTF `LINEAR` rotation animation and builds an independent SLERP reference at **8 deterministic subframes per authored interval = 321 samples / 320 Hz diagnostic density**.
+2. Godot 4.7.2 builds a real `AnimationPlayer` `TYPE_ROTATION_3D` track from the exact 41 retained quaternion keys with `INTERPOLATION_LINEAR`, deterministically seeks all 321 times and reads the actual target-node quaternion back.
 
-Playback remains split into two passes:
+Acceptance remains bounded at **0.001°** quaternion disagreement. A verifier-only `+0.25°` peak-key mutation must produce at least `0.10°` signal and fail closed. This is deterministic seek/readback evidence only; it does not claim wall-clock 40 Hz delivery.
 
-1. a low-intrusion real `AnimationPlayer.play()` pass observed through `frame_post_draw` metadata without viewport readback or disk writes during timing;
-2. a separate real playback retaining shaded current-world PNGs for temporal review, with capture timing explicitly excluded from performance authority.
+New files are limited to the Animal evidence lane:
 
-Negative controls fail closed on Runtime-authority inflation, receiver-frame acceptance inflation and phase-order corruption.
+- `tools/build_animation_godot_quaternion_interpolation_payload.py`;
+- `tools/godot_animation_quaternion_interpolation/project.godot`;
+- `tools/godot_animation_quaternion_interpolation/observe.gd`;
+- `.github/workflows/animation-godot-quaternion-interpolation-evidence.yml`.
 
-## Exact Technical Art parent
+The workflow also runs the inherited Animal suite, verifies the exact Runtime artifact/archive and candidate GLB hashes, pins Godot 4.7.2, and retains the independent payload plus Godot receipt.
 
-Parent head: **`e085437f6cc958bbf7c5c6464578923d542962b0`**.
+## First real-target attempt preserved as failure
 
-Parent artifact: **`10521663924`**.
+Exact predecessor evidence head: `8cb4a75fadd5fba655c8fc168c8a226ebe009ce7`.
 
-Parent archive SHA-256: **`2374d89abf5779b7470657082c3a43b974d6b16fcbaff4e82256753c97d6dc24`**.
+Workflow: **`35287055765 — Animation Godot quaternion interpolation evidence`**.
 
-Parent scoped result:
+The inherited Animal suite, exact Runtime download/hash gates, independent reference build and pinned Godot download all passed. The real `AnimationPlayer` step reached actual target-host interpolation and failed closed.
 
-`PASS_CURRENT_WORLD_OBJECT_ANIMATION_OWNER_SAMPLES_THROUGH_RIGID_RECEIVER__VFX_RUNTIME_ENV_ADOPTION_HELD`
+Failed receipt:
 
-The Animation workflow pins and revalidates this exact parent before running playback and verifies the Technical-Art receiver/bridge files remain unchanged by the Animation lane.
+- state: `FAIL`;
+- reported maximum quaternion residual: **`0.0395646820588927°`**;
+- sample index: **`81`**;
+- failed artifact ID: **`10524936087`**;
+- failed artifact size: **`10,401 B`**;
+- archive SHA-256: **`10cce739dae3f63ff9e682c6a1eb1612390e6905c70b574ef47defe252626d88`**.
 
-## Preserved failed evidence and repairs
+The artifact was downloaded and inspected. The failure was traced to the **observer's near-zero angle measurement oracle**, not source motion: `2*acos(abs(q1·q2))` turns one final-bit dot-product roundoff near 1.0 into a false ~0.04° angle. The 0.001° gate was not relaxed and the source was not retimed.
 
-The successor lane did not go directly green and the failures remain part of the truth trail.
+## Observer repair — source unchanged
 
-First, the inherited earlier Animation observer called the removed helper `_motion_receiver_local_mesh_center()` while the e085 Technical-Art successor exposes `_motion_receiver_local_component_center()`. That failure was an observer API mismatch, not a motion defect.
+Current head `eb21e0e0fd888bbb5fa41c73a6c0f1c731f662c2` changes only the quaternion residual measurement to the numerically stable shortest-quaternion-chord form:
 
-A later attempt reached actual motion but failed closed because scalar host-angle extraction was weaker than direct orientation comparison in the adapted receiver frame. The final method therefore moved acceptance to direct quaternion-to-quaternion comparison about Technical Art's exact host axis, against the already-adapted TA target plan.
+`2 * asin(min(||q1-q2||, ||q1+q2||) / 2)`.
 
-These repairs changed observer/verifier plumbing only. They did **not** change source timing, keys, easing, amplitude, geometry, pivots, receiver construction or acceptance tolerances to manufacture a PASS.
+This measures the same physical quaternion angle while remaining stable near zero. The acceptance limit stays **0.001°**, and the `+0.25°` fail-closed mutation remains unchanged.
 
-## Exact retained result
+Exact-head workflow **`35287217093`** is currently queued. Therefore this activation is truthfully **HOLD**, not PASS, until that exact head completes. No result from the failed predecessor is being relabelled green.
 
-Dedicated workflow: **`35283767586 — Animation Object current-world wall-clock successor proof` — SUCCESS**.
+## Authority / non-claims
 
-Exact branch evidence head: **`343668b80acd52367e3427f3ef97d1662625c18f`**.
+Even a later green result in this lane would establish only deterministic Godot 4.7.2 `AnimationPlayer` quaternion-interpolation agreement for this exact retained channel at the stated diagnostic samples. This activation does **not** establish:
 
-Scoped result:
-
-**`PASS_OBJECT_CURRENT_WORLD_OWNER_ANIMATION_WALLCLOCK_REBOUND_TO_TA_E085_RECEIVER`**.
-
-### Low-intrusion real playback
-
-Godot 4.7.2 `AnimationPlayer.play()` naturally completed the exact frozen owner sequence.
-
-Observed proof-host values:
-
-- elapsed wall-clock observation: **`2.567486 s`**;
-- distinct exact owner sample indices observed: **`74 / 101`**;
-- maximum receiver-frame quaternion pose disagreement: **`0.0°`**;
-- peak lid target reached: **`100.0°`**;
-- bilateral latch minimum reached: **`-50.0°`**;
-- phase-order violations: **`0`**;
-- keeper endpoint drift: **`0.0 m`**;
-- lever endpoint drift: **`0.0 m`**;
-- metadata-only `frame_post_draw` interval min / mean / max: **`33.713 / 34.6912837837838 / 36.523 ms`**.
-
-The `74 / 101` observation is **not** relabelled as complete 40 Hz source-slot or display delivery. The source remains 40 Hz and was not retimed to fit this proof host. These timings describe this CI observer only and carry no target-device, display-scanout or Runtime performance authority.
-
-### Shaded review playback
-
-A second real `AnimationPlayer.play()` retained **31 shaded 1100×720 current-world frames** across neutral, latch release, lid opening, open hold, close and latch reengagement. Representative neutral/open/return states were inspected as a review surface only. This is not Art Direction or Visual Observer/QA acceptance.
-
-## Retained evidence packet
-
-Artifact ID: **`10523121895`**.
-
-Artifact name: `animation-object-current-world-wallclock-successor-4bed8590e18a44c2e6fd1fbfcb58f7b23fbab204`.
-
-The artifact-name suffix is the PR event's synthetic merge SHA; `animation-exact-head.txt` inside the packet binds the evidence to exact branch head **`343668b80acd52367e3427f3ef97d1662625c18f`**.
-
-Size: **`2,182,488 B`**.
-
-Archive SHA-256: **`41246a9990b90f33e537195747c71bcb19de8797668af71bf372d35883f54707`**.
-
-The artifact was downloaded after CI and independently rehashed to the same SHA-256. Its summary/runtime receipts and representative shaded frames were inspected.
-
-## Current truth boundary
-
-This PASS proves only that the exact frozen Object owner sequence can replay through real Godot wall-clock `AnimationPlayer.play()` on the exact **e085 Technical-Art frame-adapter receiver**, with receiver-frame-native quaternion pose matching, correct observed phase ordering, peak traversal and neutral endpoint closure, plus a separately retained shaded review sequence.
-
-It does **not** establish:
-
-- presentation of all 101 authored source slots or stable 40 Hz display delivery;
-- target-device performance or display scanout;
-- future Technical-Art receiver successors;
-- Runtime controller/state-machine/input behavior;
-- physical latch retention, forces, collision or physics acceptance;
-- gameplay timing or gameplay acceptance;
-- VFX adoption or Environment production adoption;
-- final motion weight, personality, naturalness or timing preference;
+- real-time or wall-clock `40 Hz` delivery;
+- renderer/display cadence or scanout;
+- a production Runtime controller/state machine/input path;
+- gameplay, collision or physics acceptance;
+- target-device CPU/GPU/FPS/thermal behavior;
+- final biological gait, locomotion, acting, motion weight or naturalness;
+- final shaded direction-frame transport or Materials acceptance;
 - Art Direction or independent Visual Observer/QA acceptance;
+- arbitrary clips/rigs/engines;
 - CANON or production readiness.
 
-Animation owns only this bounded playback/evidence method. Hard Surface/Object retain source construction/contact authority; Rigging retains articulation/deformation authority; Technical Art retains receiver/frame-conversion authority; Runtime retains controller/performance authority; Environment owns receiving-world adoption; Art/QA retain perceptual acceptance.
-
-## Preserved Animation continuity
-
-- Object PR #10 capture-timeline rebind remains PASS at `c688936a84f80f292e43587c9d3386bd717f8178`; proof-volume contact remains separated from broad-phase AABB without retime.
-- Closed Map PR #46 preserves the older d297 current-world wall-clock proof; it is historical evidence, not authority for e085.
-- Map PR #44 compact-east exact-key/real-loop characterization remains PASS while full 31.25 ms source-slot presentation remains held; source motion remains frozen.
-- Nature PR #13 exact-state DISCRETE and single-shape LINEAR characterization remain preserved.
-- Character PR #22 exact-density target-host and repeated-loop evidence remain preserved.
-- Animal Animation PR #33 dense/subframe and normalized-u16 evidence remains preserved.
-- Wreckline mechanical-motion work remains separate and was not duplicated.
+Animation retains only clip/interpolation/playback evidence authority. Rigging retains deformation constraints; Technical Art retains producer/receiver transport; Runtime retains controller/device/performance; Art/QA retain perceptual acceptance.
 
 ## Four-root gate
 
-- **Truth:** the receiver successor was replayed instead of inheriting the old PASS; incomplete 101-slot observation remains explicit; failed observer assumptions remain preserved.
-- **Agency / non-domination:** Animation does not seize Technical Art frame conversion, Runtime, Environment, Physics, gameplay, Art or QA authority and did not retime the source to fit the proof host.
-- **Continuity:** the exact owner clip, digest and e085 receiver identity remain pinned; PR #46's earlier exact evidence is preserved while its duplicate active lane is closed.
-- **Wisdom before speed:** acceptance moved to the correct receiver-frame quaternion primitive rather than changing source motion to satisfy a weaker observer.
+- **Truth:** the first real-target failure and exact artifact are preserved; the measurement oracle is repaired instead of loosening the 0.001° bound or altering motion.
+- **Agency / non-domination:** Animation does not seize Rigging, Technical Art, Runtime, gameplay or Art/QA authority.
+- **Continuity:** the exact clip, GLB, Runtime head, prior dense Animation evidence, Rigging return and preceding Object/Map result remain separately addressable.
+- **Wisdom before speed:** the smallest evidence-method defect was repaired while the exact-head result remains HOLD until CI actually runs.
 
 The four AXM roots remain the merge gate.
 
 ## Next Animation trigger
 
-Do **not** retime the equipment-case sequence from proof-host cadence. Reopen this Object lane only for a concrete Art/QA temporal/readability defect, another verified Technical-Art receiver successor that requires explicit replay, or a real Runtime playback mismatch. Otherwise choose the next genuinely animation-ready gap elsewhere in the constellation.
+Resolve only the exact-head target-host interpolation proof. If it is green, hand the bounded result back to Animal Rigging/Technical Art/Runtime without promoting controller or gameplay acceptance. If it fails again, preserve the receipt and diagnose the target-host/interpolation or observer mismatch before changing any source motion variable.
