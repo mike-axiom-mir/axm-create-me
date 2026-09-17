@@ -1,116 +1,159 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / BUILDING UTILITY-PANEL CLEARANCE RECEIVER GREEN ON ACTUAL CURRENT WORLD / ENVIRONMENT ADOPTION HELD**
+State: **ACTIVE / OBJECT PHASE-BOUND VFX RECEIVER READINESS GREEN / CURRENT-WORLD STATIC-HOST HOLD / ENVIRONMENT ADOPTION HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, prior Environment status, and fresh Map, Building, Nature, Object, Weather plus Art Direction / QA / Animation / VFX / Runtime state across the constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, prior Environment status, and fresh Map, Building, Nature, Object, Weather plus Art Direction / Animation / VFX state across the constellation.
 
-`axm-create-me` remains **coordination only**. Implementation/evidence remain in the owning Map repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Implementation and executable evidence remain in the owning Map repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Bounded highest-leverage improvement
 
-Environment stayed on existing Map PR #24 rather than opening a duplicate lane. The task was to receive Building Hard Surface's exact utility-panel clearance correction through Building Procedural's exact `+0.02 m` receiver-normal successor into the real retained multi-asset world.
+Environment stayed on existing Map PR #24 and did not duplicate active Animation, VFX, Nature, Building, Object Materials/Technical-Art, Weather or Runtime lanes.
 
-The activation found and repaired a real receiving-path defect: the first candidate targeted a historical `152 vertices / 228 triangles` compatibility path, while the active current-world Building is the source-policy-selected `header-segmented-23` receiver at **184 vertices / 276 triangles / 5 material surfaces**.
+A fresh Object VFX lane is now green at `mike-axiom-mir/axm-object-design@5f8b7bef1a8a0d1babeba7945962c83cd938529b`: `lid-open-release-motes-001`, owner seed `41027`, phase-bound to the exact Animation sequence `lid-latch-open-hold-close-001` at phase `play_exact_lid_clip`, `0.25 s`.
+
+The highest-leverage Environment question was therefore not “can the effect be drawn?” but “can the real current-world Object receiver honestly represent the source-owned motion to which that effect is bound?”
+
+The answer is currently **no**, and the bounded improvement is an executable fail-closed receiver-readiness gate that records that boundary instead of rendering a plausible-but-false VFX presentation.
 
 Current Map PR #24 exact head:
 
-`d0461a787525d19004d83334c282adacaa06afed`
+`061dbf12604f8a4ee19a62a79f0d9d2f99503181`
 
-PR #24 remains open, draft, unmerged and mergeable.
+## Exact retained real-world parent
 
-## Preserved failure trail
+No scene content was changed in this activation. Environment reuses the already-green exact multi-asset parent:
 
-The failure history remains explicit rather than being silently rewritten:
+- Environment head: `d0461a787525d19004d83334c282adacaa06afed`;
+- retained artifact: `10516853353`;
+- archive SHA-256: `f879277d1e4b3c37b9a7fc491d992e520345a8642f56d0ae17abfcd9957444c0`;
+- state: `PASS_CURRENT_WORLD_BUILDING_UTILITY_PANEL_CLEARANCE_REBIND_RECEIVER__VISUAL_OBSERVABILITY_CHARACTERIZED__ADOPTION_HELD`;
+- **17 states / 68 real Godot 4.7.2 frames**;
+- Building + Nature + indexed Object + visible footprint + Weather;
+- Object selected roughness exact in all 17 states;
+- compact-east phases `0..16` exact;
+- all **1,224 Weather projected-width observations** preserved.
 
-- `35260357907` at `ce40c64...`: failed because the candidate mutated the old 152-vertex compatibility path. Its 68 rendered frames were byte-for-byte visually unchanged from the retained parent: **0 changed pixels**. Retained artifact `10514557596`, SHA-256 `756719002b6658690b7e68713921a92687a3fd902e640455194e179d440352ce`.
-- `35265981206` at `7c2d236c...`: exposed sub-micrometre Godot `Vector3` float32 reconstruction against an unnecessarily strict `1e-7 m` comparison.
-- `35266196821` at `2195d127...`: rendered all 68 frames but exposed the same numeric-only boundary in the Python verifier.
-- `35266631028` at `fd34b015...`: substantive current-world verification passed and the 10 mm negative control was correctly rejected, but the outer workflow failed because its `grep` expected the obsolete receipt string without `_CURRENT_`.
+That parent remains the active visual rollback/default. The new evidence is the cross-repository receiver-readiness relation, not a new scene mutation.
 
-The numeric comparison epsilon is now **`1e-6 m` only for float32/decimal comparison**. The authored successor remains exactly **20 mm**, the explicit fail-closed regression remains **10 mm**, the Weather gate remains `0.05 px`, and no source, topology, material, aesthetic or adoption rule was weakened.
+## Exact Object source / VFX / Animation binding
 
-## Exact active receiver repair
+Object source authority remains `mike-axiom-mir/axm-object-design`:
 
-Pinned current Building receiver identity:
+- source head: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
+- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- source path: `assets/modular-equipment-case-001/source.json`;
+- source blob: `018e36bb08539f212d2c65e6408566e3540fd983`;
+- deterministic builder blob: `55c03ceb38e337b2bdc31bb66795d25f5bfbac10`;
+- deterministic source cardinality: **468 vertices / 812 triangles**.
 
-- source-policy head `a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`;
-- source variant `header-segmented-23`;
-- segmentation source head `34124101e616c423c5a3ed5e122ddf09b98a1650`;
-- segmentation revision `service-pavilion-001/interpenetration-free-header-segmentation-003`;
-- placement translation `[0, 7.2, 0] m`;
-- representation **184 vertices / 276 triangles / 5 surfaces**.
+Exact phase-bound donor:
 
-Only the two existing eight-vertex panel groups move:
+- VFX head: `5f8b7bef1a8a0d1babeba7945962c83cd938529b`;
+- effect: `lid-open-release-motes-001`;
+- effect blob: `83c41db21e16847ac0a69215facd8697853eeb4f`;
+- owner seed: `41027`;
+- Animation base head: `07130d3481d69b5a4d8a399e86bd207d623dc87c`;
+- sequence: `lid-latch-open-hold-close-001`;
+- sequence blob: `d79a4063944b98d66d3667220b58d60d99e489a1`;
+- trigger phase: `play_exact_lid_clip`;
+- trigger time: **0.25 s**.
 
-- front vertices `168..175`: receiver center `[-2.45,6.12,1.65] -> [-2.45,6.10,1.65]`, source-local `[-2.45,-1.08,1.65] -> [-2.45,-1.10,1.65]`;
-- east vertices `176..183`: receiver center `[3.88,7.30,1.65] -> [3.90,7.30,1.65]`, source-local `[3.88,0.10,1.65] -> [3.90,0.10,1.65]`.
+Source, VFX and Animation all bind the same exact Object source SHA-256.
 
-Building Hard Surface retains source authority (`fbfa3b47048755b45dac91451171d5511c8d4f47`; source content `32bbdd54f00aaac87ba8139bf932d8aff6109a66`). Building Procedural retains derivation authority (`0c458e19cda73e26e90531d24fe7697b5a8d14fc`). Topology, surface partition and material values remain unchanged.
+## Current-world receiver boundary
+
+The real Environment Object receiver remains explicitly:
+
+`EXACT_STATIC_HOST_ONLY__NO_UTILITY_MODULE__NO_INNER_LID_REVIEW_SLOT`
+
+Across all 17 retained states it remains exactly:
+
+- **468 vertices / 812 triangles / 7 surfaces**;
+- exact Object source identity;
+- selected-source-face segmentation green;
+- exact selected-face UV0 green;
+- selected roughness candidate green;
+- Environment adoption false.
+
+But it exposes **no Animation-owned component transform boundary**. Re-executing the exact pinned deterministic Object builder proves at least these source groups are implicated by the authoritative sequence:
+
+- `lid_shell`: source faces `12..23`;
+- `latch_0_lever`: source faces `48..59`;
+- `latch_1_lever`: source faces `72..83`.
+
+These are the minimum undeniable moving boundaries, not a claim to own or redefine the full production rig. Rigging / Technical Art retain pivot, hierarchy and transport authority.
+
+Rendering the lid-release motes into the current static host would therefore show the phase-bound effect without the source-owned lid/latch motion that gives the phase meaning. Environment refuses that false proof.
+
+## Reusable rule and scoped state
 
 Reusable rule:
 
-`SOURCE_OWNED_RECEIVER_PLACEMENT_SUCCESSOR_MUST_BE_REBOUND_EXPLICITLY_IN_THE_REAL_WORLD_WHILE_UNRELATED_ASSET_CANDIDATES_REMAIN_EXACT_AND_ADOPTION_STAYS_HELD`
+`PHASE_BOUND_OBJECT_VFX_MUST_NOT_ENTER_WORLD_COMPOSITION_UNTIL_THE_WORLD_RECEIVER_PRESERVES_THE_ANIMATION_OWNED_MOVING_COMPONENT_BOUNDARIES`
 
-## Exact green evidence
+Scoped state:
+
+`HOLD_CURRENT_WORLD_OBJECT_PHASE_BOUND_VFX_RECEIVER__STATIC_HOST_LACKS_ANIMATION_OWNED_COMPONENT_BOUNDARY`
+
+`environment_adoption=false`, `vfx_adoption=false`, `animation_adoption=false`.
+
+A HOLD here is the intended truthful output of the integration gate, not a source-VFX failure.
+
+## Exact hosted evidence
 
 Dedicated exact-head workflow:
 
-`35266989489 — Environment Building utility-panel clearance current-world evidence` — **SUCCESS**
+`35271898307 — Environment Object phase-bound VFX receiver readiness` — **SUCCESS**
 
-Exact Map head:
+All substantive steps completed successfully, including:
 
-`d0461a787525d19004d83334c282adacaa06afed`
+- exact Environment lineage binding;
+- exact retained multi-asset parent archive digest check;
+- exact Object source / builder / VFX / Animation git-blob checks;
+- exact 17-state current-world receiver-readiness verification;
+- deliberate negative control mutating the VFX source identity, rejected fail-closed;
+- bounded evidence retention and upload.
 
-Scoped result:
+Retained evidence artifact:
 
-`PASS_CURRENT_WORLD_BUILDING_UTILITY_PANEL_CLEARANCE_REBIND_RECEIVER__VISUAL_OBSERVABILITY_CHARACTERIZED__ADOPTION_HELD`
+- ID `10519391880`;
+- size `15,893 bytes`;
+- GitHub artifact digest `sha256:5e04d63d3504493c3cbe429e7653ba1b4585026e81093be05e46d8685ccbde53`;
+- artifact name `environment-object-phase-bound-vfx-receiver-readiness-001-061dbf12604f8a4ee19a62a79f0d9d2f99503181`.
 
-The gate proves across **17 states / 68 Godot 4.7.2 frames** in the retained Building + Nature + Object + Map + Weather world:
-
-- Building current receiver rebound present in all 17 states at exact `184 / 276 / 5` identity;
-- Object selected-roughness receiver exact in all 17 states;
-- compact-east exact in all 17 states with phases `0..16`;
-- all **1,224 Weather projected-width observations** pass, maximum residual `0.00974698571769128 px` under the existing `0.05 px` gate;
-- draw-call, object and primitive deltas are all exactly zero versus the retained parent;
-- all 68 matched frames show the actual 20 mm Building placement effect: **141,925 changed pixels total**, maximum **2,517** in one frame, global changed-pixel box `x=388..880, y=222..419`;
-- visual delta is characterized only; no minimum-pixel aesthetic threshold is invented;
-- the deliberate 10 mm front-panel regression is rejected fail-closed as `PASS_REJECTED_MUTATED_BUILDING_CLEARANCE_CURRENT_RECEIVER`.
-
-Environment adoption remains **false**.
-
-Retained exact evidence artifact:
-
-- ID `10516853353`;
-- size `5,782,750 bytes`;
-- SHA-256 `f879277d1e4b3c37b9a7fc491d992e520345a8642f56d0ae17abfcd9957444c0`;
-- independently downloaded and rehashed to the same digest.
-
-The exact retained parent/rollback remains Environment head `4bd7eaf6970716dde4159448c92556785f47e954`, artifact `10509037278`, SHA-256 `8f2f8aa4bb11e2f868a6ce36dd381933ba1ea6c59be7b82ed00d1dfe5402ee97`.
+No new raster was fabricated because the scene itself is unchanged; the existing 68-frame real-world parent remains the scene evidence.
 
 ## Scope / handoffs
 
-Recorded handoffs preserve sibling ownership:
+Recorded handoffs:
 
-- Map PR #24 comments `5720184800` and `5720231930`: wrong historical receiver diagnosis, active segmented receiver repair, numeric-only precision boundary and exact workflow lineage;
-- Building Hard Surface PR #17 comment `5720186491`: source authority preserved;
-- Building Procedural PR #4 comment `5720187973`: exact derivation authority preserved and automatic adoption still false.
+- Map PR #24 comment `5720938258`: exact parent, exact donor identities, static-host blocker, green hosted gate, reusable rule and next receiving routes;
+- Object VFX PR #31 comment `5720939864`: Environment consumed the source-owned effect unchanged and handed the articulation requirement back to Animation / Rigging / Technical Art rather than reauthoring it.
 
-Final Map follow-up records the successful exact-head evidence and that the last workflow-only repair changed only the stale negative-control receipt grep.
+## Next legitimate Environment receive
+
+Two routes are acceptable, both requiring fresh proof:
+
+1. expose the exact Animation/Rigging-owned moving Object components as transformable current-world receiver nodes while preserving the current Map material / UV0 / selected-roughness identity, then prove the neutral 68-frame world remains equivalent before motion is applied; or
+2. receive the exact Technical-Art / Animation rigid scene, but only after proving exact geometry, material, selected-roughness and world-transform equivalence to the current Map receiver.
+
+Only after one route is green should Environment render the exact owner-seed lid-release motes in the full multi-asset world.
 
 ## Explicit non-claims
 
-This PASS does **not** mean final Building appearance acceptance, architectural/manufacturing validity, target-device performance, collision/gameplay, UV/material production readiness, Object roughness adoption, compact-east adoption, Building clearance adoption, CANON, production/game readiness or Environment / World Art mastery.
+This green receiver-readiness workflow does **not** mean the Object VFX is adopted into Environment, the animation is production-ready, the rig is accepted, the roughness candidate is adopted, Building clearance is adopted, target-device performance is accepted, final appearance is accepted, CANON is changed, or the game/world is production-ready.
 
-Art Direction and independent Visual QA retain appearance acceptance. Runtime retains representation/device acceptance. Object, Nature/VFX, Animation, Weather, Hard Surface and Procedural retain their source/behavior authorities.
+Art Direction and independent Visual QA retain perceptual acceptance. Animation retains timing/easing. Rigging retains articulation. Technical Art retains transport. Runtime retains representation/device acceptance. Object VFX retains effect-source authority. Environment owns only the world-receiving relation and composition proof.
 
 ## Four-root gate
 
-- **Truth:** all failed attempts and their causes remain recorded; only the exact final-head hosted run is called green.
-- **Agency / non-domination:** no sibling authority is absorbed and Environment does not self-adopt the candidate.
-- **Continuity:** the prior exact multi-asset parent remains rollback/default and failed evidence is preserved.
-- **Wisdom before speed:** receiver-path, machine-precision and workflow-receipt defects were repaired without weakening substantive gates.
+- **Truth:** exact source identities, real retained parent evidence and a successful fail-closed HOLD are recorded; no static-host VFX screenshot is presented as motion proof.
+- **Agency / non-domination:** Environment does not absorb Animation, Rigging, Technical Art, VFX, Runtime or Art/QA authority.
+- **Continuity:** the exact prior 68-frame multi-asset parent remains rollback/default; no source values were silently rewritten.
+- **Wisdom before speed:** Environment blocks a visually tempting integration until the receiver can represent the behavior the effect is actually bound to.
 
 The four AXM roots remain the merge gate.
