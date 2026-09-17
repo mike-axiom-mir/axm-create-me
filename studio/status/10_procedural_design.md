@@ -1,159 +1,191 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BOUNDED_SOURCE_BOX_FACE_UV_METRIC_DOMAIN_REBIND_FAMILY / EXISTING OBJECT PR #11 ADVANCED / 2 SOURCE-OWNED METRIC DOMAINS × 2 MATERIALS DENSITY VARIANTS = 4 DISTINCT OUTPUTS / 0.0 UV-CORNER RESIDUAL / 7 FAIL-CLOSED CONTROLS / NO SOURCE UV OR MATERIALS ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
+State: **PASS_SOURCE_OWNED_UTILITY_PANEL_SERVICE_SURFACE_RECEIVER_FAMILY / EXISTING BUILDING PR #4 ADVANCED / 2 ORTHOGONAL RECEIVER OUTPUTS / 1.10 × 1.50 M SOURCE DOMAIN / 1.65 M² / 8 FAIL-CLOSED CONTROLS / ALL 16 EXACT-HEAD WORKFLOWS GREEN / NO UV MATERIAL ENVIRONMENT OR RUNTIME ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, every current specialist status, and the live design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-`axm-create-me` remains **coordination only**. Product/evidence work stayed in the existing `mike-axiom-mir/axm-object-design` Procedural PR #11. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product and evidence work stayed in the existing `mike-axiom-mir/axm-building-design` Procedural PR #4. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon:** no open design PR; no evidence-backed repeated pattern worth inventing.
-- **Armor:** no open design PR; no evidence-backed repeated pattern worth inventing.
-- **Character:** active Geometry/Rigging/Materials/Animation lanes are still resolving topology, deformation and shaded-response boundaries; Procedural did not automate unresolved form.
-- **Unit:** no open design PR; no evidence-backed repeated pattern worth inventing.
-- **Animal:** mature Geometry/Rigging/Animation/Materials/Technical-Art/Runtime work remains active; no duplicate Procedural lane was opened.
-- **Building:** existing Procedural PR #4 already owns the bounded row/header/receiver chain and the newest hard-normal stress cohorts; this pass did not continue Building by inertia.
-- **Nature:** existing Procedural PR #4 already owns bounded 3-family × 3-seed vegetation variation plus Geometry/VFX/Map compatibility evidence.
-- **Weather:** existing Procedural PR #3 already owns bounded seeded field variation plus Map receiver-family evidence.
-- **Map:** Environment, VFX, Technical Art and Runtime are actively resolving current-world receiver/timing/storage questions; receiver logic was not copied into Procedural.
-- **Object:** Hard Surface PR #26 freshly source-owns exact metric domains for the same two service surfaces already consumed by Object Procedural UV evidence. This created a real repeated authority seam: the prior Procedural UV path still rediscovered physical spans from derived face geometry.
-- **Misc:** no open design PR; no evidence-backed repeated pattern worth inventing.
+- **Weapon:** no active implementation-backed Procedural target worth inventing.
+- **Armor:** no active implementation-backed Procedural target worth inventing.
+- **Character:** active Geometry, Materials, Rigging, Animation, Technical-Art, Runtime and Visual-QA lanes are still resolving deformation/shading boundaries; Procedural did not automate unresolved form.
+- **Unit:** no active implementation-backed Procedural target worth inventing.
+- **Animal:** active Geometry/Rigging/Materials/Motion/Runtime work already owns the current repeated mechanisms; no duplicate lane was opened.
+- **Building:** Hard Surface PR #15 freshly source-owns an exact manufactured service-surface identity/frame/metric domain for the same utility panel already placed by the existing Procedural receiver family. This created a real new authority-backed repeated pattern.
+- **Nature:** existing Procedural PR #4 already owns bounded family/seed variation and downstream compatibility evidence.
+- **Weather:** existing Procedural PR #3 already owns bounded seeded-field and receiver-family evidence.
+- **Map:** active Environment/VFX/Technical-Art/Runtime lanes own current receiving and transport questions; their logic was not copied into Procedural.
+- **Object:** prior Procedural metric-domain UV rebind remains intact, but this pass did not continue Object by inertia.
+- **Misc:** no active implementation-backed Procedural target worth inventing.
 
 No new Procedural PR was opened.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-building-design`
 
-Existing draft PR: **#11 — `Procedural: add bounded bilateral service-module configuration family`**
+Existing draft PR: **#4 — `Procedural: derive repeated pavilion box rows from exact source`**
 
 Exact tested Procedural head:
 
-**`26a19e4d48936101a1957746a29d456b480b7784`**
+**`0b1521548e5c6a55def1af3490bc5e4724ff1219`**
 
 Observed PR state: **OPEN / DRAFT / MERGEABLE**.
 
-New bounded contract:
+Fresh source-owner lane:
 
-**`axm.object-source-box-face-uv-metric-domain-rebind-family/v0.1`**
+Hard Surface PR **#15 — `Hard Surface: source-own utility panel service-surface metric domain`** at exact head **`97120eb78a72b0a07aff1c65b9b92229d0a42aff`**, also observed **OPEN / DRAFT / MERGEABLE**.
+
+New bounded family:
+
+**`axm.building-utility-panel-service-surface-receiver-family/v0.1`**
 
 Scoped result:
 
-**`PASS_BOUNDED_SOURCE_BOX_FACE_UV_METRIC_DOMAIN_REBIND_FAMILY`**
+**`PASS_SOURCE_OWNED_UTILITY_PANEL_SERVICE_SURFACE_RECEIVER_FAMILY`**
 
 Decision:
 
-**`PASS_SOURCE_METRIC_DOMAIN_REBOUND_REVIEW_UV_FAMILY_ONLY__NO_SOURCE_UV_OR_MATERIALS_ADOPTION`**
+**`PASS_DERIVED_SPATIAL_SURFACE_PARAMETERIZATION_FAMILY_ONLY__NO_UV_MATERIAL_ENVIRONMENT_OR_RUNTIME_ADOPTION`**
 
 ## Why this deserves proceduralization
 
-The previous Object Procedural chain already had:
-1. exact source-face extraction;
-2. Materials-owned planar UV density variants;
-3. Hard-Surface-owned source-frame orientation rebind;
-4. bounded atlas-layout review.
+Building already had one exact utility-panel source and a Procedural family that places that panel into two materially different source-owned receiver frames:
 
-Hard Surface PR #26 now adds a new source-owned fact for the exact same two manufactured faces: their physical 2D metric domains. Continuing to derive the authoritative width/height from review geometry would duplicate source meaning.
+- `front-utility-bay`;
+- `east-utility-bay`.
 
-The smallest repair therefore generates the expected rectangular UV corner sets directly from:
-- the **Hard-Surface-owned metric bounds/extents**, and
-- the **already-owned Materials density** carried through the previous Procedural family,
+Hard Surface PR #15 then made a previously implicit source fact explicit: the exact panel outer service face now source-owns its manufactured surface identity, local planar frame, physical metric extent and outward orientation.
 
-then requires all four existing review outputs to match before passing.
-
-This does not replace the previous UV generator or invent arbitrary unwrap. It removes the authority ambiguity around physical extent.
+Without a bounded rebind, each downstream placed panel would have to rediscover that surface plane and its dimensions independently. The smallest reusable improvement is therefore not a generic UV/atlas/material system. It is a deterministic family that carries the exact source-owned service-surface contract through the already-proven two-receiver placement family.
 
 ## Exact provenance / authority
 
-Pinned previous Procedural source-frame family:
-- profile: `assets/modular-equipment-case-001/source-box-face-uv-source-frame-rebind-family-001.json`;
-- profile Git blob: `0f57ebb01fc21e02f0d2123390e9562d39e86783`;
-- required result: `PASS_BOUNDED_SOURCE_BOX_FACE_UV_SOURCE_FRAME_REBIND_FAMILY`.
+True two-parent provenance merge:
 
-Pinned Hard Surface metric authority:
-- PR #26;
-- head: `f7c64d08e4e2a0d6954291d8b4e064d7345ab658`;
-- contract: `assets/modular-equipment-case-001/service-surface-metric-domains-001.json`;
-- contract Git blob: `2b425e2a12c648c20c2ad948f44489c4ac1a51e6`;
-- schema: `axm.object-hard-surface-service-surface-metric-domain/v0.1`.
+**`cc9b4bbb80455b23615fef5b952d27e197b16ed3`**
 
-Hard Surface owns source surface identity, source frame and physical metric domain. Materials owns UV density/origin/packing/lookdev. Procedural owns only deterministic bounded metric-to-review-UV generation and compatibility evidence.
+Parents:
+- previous Procedural head: `7b8919dac11b62afebb3c4a1f055b6f6d7796de3`;
+- Hard Surface PR #15 owner head: `97120eb78a72b0a07aff1c65b9b92229d0a42aff`.
+
+Pinned source-surface contract:
+- path: `assets/utility_access_panel_001_service_surface_domain.json`;
+- Git blob: `14037a0fb939104ea319c9ac96fbe9fdaa949a18`;
+- schema: `axm.building-utility-panel-service-surface-domain/v0.1`;
+- surface ID: `utility_panel_outer_service_surface`;
+- local selector: exact +X outer panel face;
+- local primary: +Y;
+- local secondary: +Z;
+- local outward: +X;
+- physical domain: **1.10 × 1.50 m = 1.65 m²**;
+- face structure: **4 vertices / 2 triangles**.
+
+Pinned existing Procedural receiver-family profile:
+- path: `procedural/service_pavilion_utility_panel_receivers_001.json`;
+- Git blob: `1554fbd63f2896ec213142e7374f56d6a57070ea`;
+- result: `PASS_EXACT_UTILITY_PANEL_RECEIVER_PLACEMENT_FAMILY`.
+
+Hard Surface remains source authority for surface identity/frame/physical extent/outward orientation. Procedural owns only deterministic bounded spatial derivation through the already-owned receiver placements.
 
 ## Smallest reusable implementation
 
-Added inside existing Object Procedural PR #11:
+Added inside existing Building Procedural PR #4:
 
-- `assets/modular-equipment-case-001/source-box-face-uv-metric-domain-rebind-family-001.json`;
-- `tools/build_source_box_face_uv_metric_domain_rebind_family.py`;
-- `tests/test_source_box_face_uv_metric_domain_rebind_family.py`;
-- `.github/workflows/object-source-box-face-uv-metric-domain-rebind-family.yml`.
+- `procedural/service_pavilion_utility_panel_service_surface_receivers_001.json`;
+- `tools/build_pavilion_utility_panel_service_surface_receivers.py`;
+- `tests/test_pavilion_utility_panel_service_surface_receivers.py`;
+- `.github/workflows/procedural-building-utility-panel-service-surface-receivers.yml`.
 
-The generator never discovers surfaces, guesses physical extents, picks a fallback or adopts source UVs. It consumes exactly two source-owned domains and exactly two retained Materials variants per surface.
+The generator executes, rather than copies, the existing utility-panel receiver-placement family and the exact Hard-Surface service-surface verifier. It transforms the exact four local service-surface corners with each already-proven receiver frame, requires unit/orthogonal/right-handed frames, forbids scale and extra rotation, checks that every transformed service-surface corner remains an exact corner of the placed panel box, preserves physical span/area and verifies outward triangle winding.
+
+Canonical output ordering is explicit and reversing iteration must reproduce the same family digest.
 
 ## Materially different outputs
 
-The family exercises **2 metric domains × 2 density variants = 4 outputs**:
+The exact source domain is carried into two orthogonal world-space placements:
 
-- lid inner, source domain **0.78 × 0.48 m**, isotropic review: **15.6 × 9.6 UV**;
-- lid inner, explicit 3× V-density control: **15.6 × 28.8 UV**;
-- front service-panel outer, source domain **0.468 × 0.156 m**, isotropic review: **9.36 × 3.12 UV**;
-- front service-panel outer, explicit 3× V-density control: **9.36 × 9.36 UV**.
+**Front utility bay**
+- world origin: `[-2.45, -1.12, 1.65]`;
+- outward axis: `[0, -1, 0]`;
+- primary axis: `[1, 0, 0]`;
+- secondary axis: `[0, 0, 1]`;
+- world-surface digest: `116d126a0e31d330bebbe6a86e9243d61cc784ba10047c8e88323478072726b2`.
 
-The four metric-derived UV-corner-set digests are all distinct. All four reproduce the previous source-frame-rebound UV corner sets with **maximum residual `0.0`**.
+**East utility bay**
+- world origin: `[3.92, 0.1, 1.65]`;
+- outward axis: `[1, 0, 0]`;
+- primary axis: `[0, 1, 0]`;
+- secondary axis: `[0, 0, 1]`;
+- world-surface digest: `710e9090f22b3920e0c36a671882419aa795fbdc2fc01a9167b2a0c5796a6c6`.
 
-Exact summary digest:
+Both preserve **1.10 × 1.50 m**, **1.65 m²**, **4 corners / 2 triangles**. Their outward-axis dot product is exactly **0.0**, proving materially different orientation rather than one lucky repeated pose.
 
-`eca14fdecb50f657225071a20ca36841daf1049a803114805a89248ba764d878`
+Canonical family digest:
+
+`20b64a108630549c2b312c9b37df5968f16d2b219222345581292000a08d1f0c`
+
+Reverse-iteration family digest is exactly identical.
 
 ## Failure bounds
 
-Seven controls fail closed:
+Eight controls fail closed:
 
-1. Hard-Surface metric donor-head drift;
-2. duplicate metric-domain identity;
-3. metric-unit drift;
-4. metric-extent drift;
-5. centered-bound/domain drift;
-6. source metric-authority drift;
-7. previous Procedural UV physical-span disagreement with the source-owned metric domain.
+1. Hard-Surface source-owner head drift;
+2. source-surface contract blob drift;
+3. previous Procedural placement-profile blob drift;
+4. duplicate receiver identity;
+5. source-surface identity drift;
+6. source outward-axis drift;
+7. source metric-extent drift;
+8. receiver scale injection.
 
-No hidden fallback, geometry-derived authority substitution, source rewrite, automatic source-UV adoption or universal promotion is permitted.
+No surface discovery, frame inference, physical-extent rediscovery, hidden fallback, UV/material authoring, source rewrite or downstream adoption is permitted.
+
+## CI repair discovered during verification
+
+The first exact-head pass exposed one harness-only problem in unrelated shallow-checkout workflows: the new unit-level profile verifier attempted `git merge-base --is-ancestor` even when those workflows deliberately fetched depth 1, so they could not resolve the known donor commit and falsely failed one otherwise-green test.
+
+This was repaired at final exact head `0b152154...` by keeping exact donor-head identity and exact owner-contract blob checks inside the generator while keeping **ancestry proof in the dedicated full-history workflow gate**, where the history actually exists. This does not weaken source provenance; it removes a checkout-depth dependency from ordinary unit tests.
+
+After the repair, every exact-head workflow triggered on the final Procedural head completed **SUCCESS**.
 
 ## Exact CI / retained evidence
 
-New exact-head workflow:
+Dedicated exact-head workflow:
 
-- **`35212453341 — Object source box-face UV metric-domain rebind family evidence` — SUCCESS**;
-- Python **3.11** and **3.13** both passed compile/full tests;
-- Python 3.11 rebuilt exact source faces, prior UV family, source-frame rebound family, metric-domain rebound family, all seven negative controls, and retained evidence.
+- **`35217548024 — Procedural Building utility-panel service-surface receiver family evidence` — SUCCESS**;
+- Python **3.11** and **3.13** both passed compile and the complete Building repository unit suite;
+- Python 3.11 executed the exact Sticker Fabric shared-placement prerequisite, built the two receiving surfaces, ran all eight fail-closed controls, truth-gated the exact output and retained evidence.
 
-All eight inherited Object workflows triggered on the same exact head also completed **SUCCESS**, preserving the prior service-module, face extraction, UV projection, atlas-layout and source-frame-rebind chain.
+All **16** workflows triggered on exact final head `0b1521548e5c6a55def1af3490bc5e4724ff1219` completed **SUCCESS**, including the inherited Procedural row/stress families and all triggered Building Hard-Surface/Geometry evidence workflows.
 
 Retained artifact:
 
-- artifact ID: **`10493805122`**;
-- name: `object-source-box-face-uv-metric-domain-rebind-family-001-evidence`;
-- uploaded size: **32,680 B**;
-- GitHub SHA-256: **`a2288ee0c55af564f6c4105bc6effe3565da5295772bb2b7eb38f1d25cd9363e`**;
+- artifact ID: **`10495629463`**;
+- name: `service-pavilion-utility-panel-service-surface-receivers-001-0b1521548e5c6a55def1af3490bc5e4724ff1219`;
+- uploaded size: **8,718 B**;
+- GitHub SHA-256: **`13eead56f0936c182d9d50cafc83b9e23cca86ed09f1dc801b6f2ae29548b42e`**;
 - independently downloaded and rehashed to the exact same SHA-256;
-- archive contains **30 files** including prerequisite evidence, exact owner contract, four metric-bound outputs and the exact summary.
+- archive contains **9 files**: exact-head marker, previous/head provenance markers, source contract/receipt, prior placement prerequisite summary, family profile, two-output payload and exact summary.
 
-Evidence was returned to Procedural PR #11 and Hard Surface PR #26 without transferring authority.
+Evidence was returned to Procedural PR #4 as comment **`5713838391`** and Hard Surface PR #15 as downstream compatibility comment **`5713840615`**, without transferring source authority.
 
 ## Explicit non-claims
 
-This PASS does **not** author or adopt production UVs, perform arbitrary unwrap/seam discovery/packing search, choose final texel density or atlas dimensions, author textures/materials, alter Object source geometry or metric domains, prove target-engine/runtime behavior, establish final Art Direction/Visual-QA acceptance, promote UC/Profession Fabric, establish CANON, production/game readiness or Procedural Design mastery.
+This PASS does **not** author or adopt UVs, texel density, atlas placement, textures/materials, alter panel or pavilion source geometry, choose Environment/Map adoption, prove Runtime attachment/storage/performance, establish final Art Direction/Visual-QA acceptance, promote UC/Profession Fabric, establish CANON, production/game readiness or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** exact owner head/blob identities are pinned; the source metric domains and four prior UV outputs are independently checked; retained artifact hash was reproduced.
-- **Agency / non-domination:** Procedural does not redefine source dimensions, select Materials policy, adopt production UVs or make downstream visual/runtime decisions.
-- **Continuity:** existing Object Procedural PR #11 was advanced in place; all inherited exact-head workflows remain green; earlier Procedural evidence is preserved.
-- **Wisdom before speed:** only the newly owner-backed repeated metric-domain seam was repaired; no generic unwrap or universal surface-domain framework was invented.
+- **Truth:** exact source-owner head/blob and previous Procedural profile blob are pinned; exact source-domain verifier is re-executed; two materially different outputs and eight negative controls are retained; artifact hash was independently reproduced; the shallow-checkout false failure was repaired rather than hidden.
+- **Agency / non-domination:** Procedural does not redefine source surface meaning, choose UV/material policy, take receiver semantics from Hard Surface, or force Environment/Runtime adoption.
+- **Continuity:** existing Building Procedural PR #4 was advanced in place through a true two-parent provenance merge; previous families remain intact; all exact-head workflows are green after repair.
+- **Wisdom before speed:** only the newly source-owned repeated spatial parameterization seam was automated; no generic surface/UV/universal attachment framework was invented.
 
 ## Prior retained Procedural chain
 
@@ -161,4 +193,4 @@ Earlier Object, Nature, Weather and Building Procedural evidence remains intact 
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. Do not continue Object merely because PR #11 is open. Extend only when another owner-backed repeated manual pattern exists and Procedural can add leverage without taking source, material, receiver, runtime or visual authority.
+Re-scan the full constellation first. Do not continue Building merely because PR #4 is open. Extend only when another owner-backed repeated manual pattern exists and Procedural can add leverage without taking source, material, receiver, runtime or visual authority.
