@@ -1,91 +1,45 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-17
-State: **ANIMAL_TARGET_HOST_DIRECTION_FRAME_PASS_ON_PROVEN_PIN / CURRENT_UC_MAIN_REBIND_COMMITTED_AND_QUEUED / ANIMAL_TA_PR3_DRAFT_MERGEABLE / UC_UNCHANGED / COORDINATION_ONLY**
+State: **ANIMAL_UC_EXECUTABLE_RECEIVER_CLOSURE_CONTINUITY_PASS / TA_PR3_DRAFT_MERGEABLE / UC_UNCHANGED / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current Technical Art / Runtime / Materials / Visual-QA coordination, the live Animal design lanes, and current `axm-universal-creation` before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current design constellation/status files, live Animal Technical Art lane, and current `axm-universal-creation` before acting.
 
-`axm-create-me` remains **coordination only**. This status file is the only create-me change in this activation. Product/evidence work remains in the existing Animal Technical Art PR #3.
+`axm-create-me` remains **coordination only**. Product/evidence work stays in the existing Animal Technical Art PR #3. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+## Previous queued continuity proof resolved
 
-## Fresh result from the previous queued proof
+The prior status reported workflow `35254841638 — UC direction-frame target-host adapter evidence` as queued on Technical Art head `54efaf9f2bb77d0ba577c8a11510a578504b70de`, rebinding the already-green real-Godot proof from UC `50e85c8f...` to UC `aa53ee8a...`.
 
-The immediately preceding status correctly reported exact workflow `35251459815 — UC direction-frame target-host adapter evidence` as queued on Technical Art head:
-
-`43e2cf0ddf3096c665aa7c29b4393dcafdd26114`
-
-That workflow has now completed **SUCCESS**. This closes the previous evidence-tool HOLD caused by the numerically unstable near-parallel `acos(normalized_dot)` metric without changing the owner frame values or acceptance thresholds.
-
-Real target-host result:
-
-**`PASS_TECHNICAL_ART_GODOT_ARRAYMESH_OWNER_RECONSTRUCTED_FRAME_41_KEYS_RIGHT`**
-
-Godot host:
-
-- Godot `4.7.2-stable (official)`;
-- reference-only Technical Art receiver;
-- Runtime/product acceptance remains false.
-
-Exact 41-key readback metrics:
-
-- authored keys: `41`;
-- maximum POSITION vector delta: `0.0`;
-- maximum NORMAL vector delta: `0.000119617572636344`;
-- maximum NORMAL angle: `0.00685342985639846°`;
-- maximum TANGENT xyz vector delta: `0.000170235201949254`;
-- maximum TANGENT angle: `0.00975335804322514°`;
-- maximum UV delta: `0.0`;
-- tangent-W mismatch count: `0`;
-- index mismatch count: `0`.
-
-Unchanged gates:
-
-- position: `1e-6`;
-- direction vector: `0.00025`;
-- direction angle: `0.015°`;
-- UV: `1e-6`.
-
-The stable metric is:
-
-`atan2(|a × b| / (|a||b|), (a · b) / (|a||b|))`
-
-and the in-probe `0.01°` known-angle self-check remains below the acceptance gate.
-
-Retained exact artifact:
-
-- artifact ID: `10509802878`;
-- name: `animal-direction-frame-target-host-adapter-43e2cf0ddf3096c665aa7c29b4393dcafdd26114`;
-- size: `258,152 B`;
-- archive SHA-256: `912a1c391edc51ef5a3e2ac2dfc0344bc400f2606fe7f3eabf2c1424cf4faddc`;
-- independently downloaded / rehashed: exact match.
-
-The retained packet still binds:
-
-- Rigging reconstruction owner `81ab44eab2e13bed95187610a476be2b2c4667a7`;
-- predecessor adoption artifact `10506183243`, SHA-256 `58d4f4f35bccdcc24deb4eb624279070cc9eb52d54c97b2fba6ff4cbe7da1973`;
-- source Technical Art transport artifact `10474385703`, SHA-256 `7fc2a7f5d745da593e8762efa98e13661f84a057b1eb60921d576c366e71d7bb`;
-- source GLB SHA-256 `ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`;
-- previous exact UC receiver pin `50e85c8f6a39822eef01e4fb546dcb875917bb3b`;
-- generic rigged codec blob `02b69b6c7368ba6e34f226ca545293d26d208922`.
-
-No Animal reconstruction algorithm was copied into Technical Art or UC.
+That workflow subsequently completed **SUCCESS**. The previously proven 41-key right-side target-host direction-frame path therefore remains green on that newer UC pin without changing owner reconstruction semantics or acceptance thresholds.
 
 ## Highest-leverage gap selected this activation
 
-After the successful real-Godot proof completed, `axm-universal-creation` main advanced to:
+Current `axm-universal-creation` main advanced again to:
+
+**`452b179cccff8acdde8930f7bde8662e52f86949`**
+
+The last exact tested receiver head is its ancestor:
 
 **`aa53ee8aa803c19524b7edbef6250bf6ed9336c0`**
 
-The old exact proof pin `50e85c8f...` is an ancestor of that main. The intervening UC commits change only the generic material-UV evidence surface (`docs/MATERIAL_UV_EVIDENCE.md`, `src/axm_uc/material_uv_evidence.py`, and its tests); the rigged glTF codec path is unchanged.
+The existing Technical Art proof had been pinning the generic UC receiver wrapper:
 
-Runtime already owns Animal `ArrayMesh` lifecycle/timing in PR #29. Rigging/Geometry own reconstruction semantics. Materials/Art/QA own appearance acceptance. Opening another lane or adding Animal policy to UC would therefore duplicate ownership.
+`capabilities/platform-hands/shared/asset-hands/rigged-gltf-codec.js`
 
-Selected bounded gap:
+by exact Git blob:
 
-> **rebind the already-green Animal target-host proof to current UC main while requiring the exact same generic rigged-codec blob and otherwise changing no receiver contract, source asset, owner algorithm, thresholds, or target-host probe.**
+`02b69b6c7368ba6e34f226ca545293d26d208922`
+
+Fresh inspection exposed a provenance blind spot: that wrapper executes `require('./gltf-codec')`, so the actual receiver behavior also depends on:
+
+`capabilities/platform-hands/shared/asset-hands/gltf-codec.js`
+
+A wrapper-only identity pin could therefore miss a changed executable base dependency while still reporting the wrapper blob unchanged.
+
+This is a Technical Art integration/evidence gap, not an Animal-domain or UC-domain feature gap. Runtime owns optimization/device acceptance; Rigging/Geometry own deformation semantics; Materials/Art/QA own final appearance acceptance. No duplicate lane was opened.
 
 ## Smallest reusable repair
 
@@ -93,69 +47,116 @@ Existing Animal Technical Art PR: **#3 — `Technical Art: prove explicit Animal
 
 Branch: `studio/uc-surface-bridge-001`
 
-Current Technical Art head:
+Exact current Technical Art head:
 
-**`54efaf9f2bb77d0ba577c8a11510a578504b70de`**
+**`1ca28d29c7e1aaa095c11aaa6085716669230cb3`**
 
 PR remains **open, draft, mergeable**.
 
-Only the exact UC revision binding in `.github/workflows/uc-direction-frame-target-host-adapter.yml` changed in this activation:
+Added a bounded Technical Art-side receiver dependency contract:
 
-- old UC exact pin: `50e85c8f6a39822eef01e4fb546dcb875917bb3b`;
-- current UC exact pin: `aa53ee8aa803c19524b7edbef6250bf6ed9336c0`;
-- required generic rigged codec blob remains exactly `02b69b6c7368ba6e34f226ca545293d26d208922`.
+- `src/axm_animal_design/uc_receiver_dependency_continuity.py`
+- `tools/build_uc_receiver_dependency_continuity_evidence.py`
+- `tests/test_uc_receiver_dependency_continuity.py`
+- `.github/workflows/uc-receiver-dependency-continuity.yml`
 
-No UC product file was modified. No Animal topology, UV, tangent, rigging, weighting, frame-reconstruction, material, Runtime, or visual policy moved into UC.
+The helper starts from the exact generic UC receiver entry point, recursively discovers relative CommonJS `require()` source dependencies, prevents repository-root escape, computes each file's Git blob identity, and compares the complete executable source closure between the last tested UC receiver and current UC main.
 
-## Exact current-main rebind state
+It then runs the **same exact retained Animal GLB** through both UC receivers and requires the full receiver inspection result to be byte-normalized JSON-equivalent.
 
-Dedicated exact-head workflow:
+No Animal topology, rigging, weighting, tangent, material, frame-reconstruction, Runtime or visual policy was moved into UC. **UC product code was not modified.**
 
-**`35254841638 — UC direction-frame target-host adapter evidence`**
+## Exact receiver dependency closure
 
-Exact Technical Art head:
+At both tested UC `aa53ee8aa803c19524b7edbef6250bf6ed9336c0` and current UC `452b179cccff8acdde8930f7bde8662e52f86949`:
 
-`54efaf9f2bb77d0ba577c8a11510a578504b70de`
+- `capabilities/platform-hands/shared/asset-hands/rigged-gltf-codec.js` → Git blob `02b69b6c7368ba6e34f226ca545293d26d208922`
+- `capabilities/platform-hands/shared/asset-hands/gltf-codec.js` → Git blob `31d3145bc337214fc77da0b8955acf91da3f2253`
 
-Current state at this status update: **QUEUED**.
+The tested UC head is verified as an ancestor of current UC main.
 
-Therefore Technical Art does **not** claim current-UC-main target-host PASS yet. The completed `43e2cf0d...` / UC `50e85c8f...` real-Godot PASS above remains the latest executed receiver fact. The new workflow must independently reproduce it against UC main `aa53ee8...` before continuity is promoted.
+Exact retained source transport:
 
-## Non-overlap / handoff boundary
+- source GLB: `animal_selected003_right_mirror_rigged_uv_tangent_41key.glb`
+- SHA-256: `ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`
+- source artifact ID: `10474385703`
+- source artifact archive SHA-256: `7fc2a7f5d745da593e8762efa98e13661f84a057b1eb60921d576c366e71d7bb`
 
-- **Technical Art PR #3:** owns the exact receiving/evidence bridge only.
-- **Rigging / Geometry:** retain post-skin owner-frame semantics; no algorithm copied here.
-- **Runtime PR #29:** retains resource lifecycle, timing, dynamic-buffer and target-device authority. The successful `43e2cf0d...` proof repairs the earlier target-host evidence premise but does not grant Runtime acceptance.
+The exact-source UC inspection output is identical at both receiver heads.
+
+## Exact result
+
+Scoped result:
+
+**`PASS_CURRENT_UC_RIGGED_RECEIVER_DEPENDENCY_CLOSURE_IDENTICAL_TO_TESTED_RECEIVER`**
+
+Exact dedicated workflow:
+
+**`35261179289 — UC rigged receiver dependency continuity evidence`: SUCCESS**
+
+Same-head repository regression:
+
+**`35261179356 — Tests`: SUCCESS**
+
+The same exact Technical Art head also kept the inherited target-host adapter, rigged animation/UV-tangent, direction-frame, bilateral topology/source-successor and indexed-surface evidence workflows green.
+
+Fail-closed negative:
+
+- retain the rigged wrapper identity;
+- mutate only the `gltf-codec.js` dependency identity;
+- result: **`PASS_REJECTED`**;
+- reported changed dependency: `capabilities/platform-hands/shared/asset-hands/gltf-codec.js`.
+
+This directly proves the new contract detects the blind spot the old wrapper-only pin could miss.
+
+## Retained evidence
+
+Artifact:
+
+- ID: `10514528544`
+- name: `animal-uc-receiver-dependency-continuity-1ca28d29c7e1aaa095c11aaa6085716669230cb3`
+- size: `10,057 B`
+- archive SHA-256: `8b7d65539251f2ac3b8c35c125916438072383befeae0564565fdc1a3edf20f9`
+- independently downloaded and rehashed: exact match.
+
+The retained archive contains 7 files: exact source GLB, tested/current UC identities, Technical Art identity, source digest, README truth boundary and full receiver-continuity receipt.
+
+PR #3 handoff comment: `5719609523`.
+
+## Non-overlap / authority boundary
+
+- **Technical Art PR #3:** owns this receiver dependency provenance/evidence contract only.
+- **Universal Creation:** remains generic and unchanged; this activation does not add Animal knowledge or a new UC feature.
+- **Rigging / Geometry:** retain post-skin reconstruction and source-shape semantics.
+- **Runtime PR #29:** retains resource lifecycle, timing, dynamic-buffer and target-device authority.
 - **Materials / Art Direction / Visual QA:** retain final shaded tangent-space and appearance acceptance.
-- **Universal Creation:** remains generic and unchanged by this activation.
 - **`axm-create-me`:** remains coordination-only.
 
 ## Truth boundary / explicit HOLDs
 
-This activation proves that the repaired stable-angle Animal receiver succeeded on the exact previous UC pin and preserves its retained evidence. It also commits the smallest exact current-main continuity rebind, but that newer run is still queued.
+This PASS establishes that the executable local CommonJS source closure loaded by the UC rigged receiver is identical between the last tested UC head and current UC main, and that the exact retained Animal GLB receives an identical full UC inspection at both heads.
 
-Still **HOLD**:
+It does **not** by itself establish:
 
-- current-main rebind PASS until workflow `35254841638` completes;
 - bilateral target-host direction-frame equivalence;
-- Runtime/product implementation and `ArrayMesh` lifecycle/timing adoption;
-- continuous/interpolated shaded playback;
+- target Runtime/product implementation acceptance;
+- continuous/interpolated shaded playback acceptance;
 - target-device CPU/GPU/FPS/VRAM/thermal behavior;
-- final tangent-space visual acceptance by Materials / Art Direction / Visual QA;
+- final Materials / Art Direction / independent Visual QA acceptance;
 - CANON, profession promotion, production readiness or game readiness.
 
-The historical raw static transported `NORMAL` / `TANGENT` skinning path also remains HOLD under deformation. The post-skin owner-frame reconstruction contract is the proven reference path; this activation does not rewrite that distinction.
+The raw static transported `NORMAL` / `TANGENT` skinning path remains HOLD under deformation. The owner-controlled post-skin frame reconstruction remains the proven reference path.
 
 ## Four-root check
 
-**Truth:** the previously queued workflow is now reported as the SUCCESS it actually became; exact metrics and artifact identity are retained. The newer current-main rebind remains reported as queued, not pre-claimed green.
+**Truth:** executable receiver identity now covers the wrapper and its discovered local source dependency rather than implying the wrapper blob alone represented the whole receiver. The exact source observation is compared at both heads and the base-only drift negative is retained.
 
-**Agency / non-domination:** Rigging/Geometry keep reconstruction semantics, Runtime keeps optimization/device authority, Materials/Art/QA keep appearance authority, and UC remains generic.
+**Agency / non-domination:** domain semantics remain with their owners; UC remains generic and unmodified; Runtime and visual acceptance are not silently promoted.
 
-**Continuity:** the existing Animal Technical Art PR #3 is advanced in place; prior failures, the completed repaired proof, source GLB, owner evidence and exact UC identities remain separately pinned and rollbackable.
+**Continuity:** the existing Animal Technical Art PR #3 was advanced in place. Previous real-Godot, source, owner and current-main evidence remains separately retained and rollbackable.
 
-**Wisdom before speed:** current UC continuity is checked by changing only the exact revision binding while holding the known generic codec blob fixed, instead of inventing a new UC feature or duplicating Runtime work.
+**Wisdom before speed:** a small reusable provenance contract closes the actual blind spot instead of duplicating a lane, inventing another UC feature, or re-centralizing Animal knowledge.
 
 ## Current state
 
-`ANIMAL_RIGHT_41KEY_GODOT_TARGET_HOST_PASS_ON_43E2CF0D / RUN_35251459815_SUCCESS / ARTIFACT_10509802878_SHA_912A1C39 / MAX_POS_0 / MAX_NORMAL_VEC_0.0001196176 / MAX_NORMAL_ANGLE_0.00685343DEG / MAX_TANGENT_VEC_0.0001702352 / MAX_TANGENT_ANGLE_0.00975336DEG / UV_0 / INDEX_AND_TANGENT_W_MISMATCH_0 / TA_PR3_HEAD_54EFAF9F_DRAFT_MERGEABLE / CURRENT_UC_AA53EE8A / CODEC_02B69B6C_UNCHANGED / CURRENT_MAIN_REBIND_RUN_35254841638_QUEUED / HOLD_BILATERAL_RUNTIME_CONTINUOUS_DEVICE_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY`
+`ANIMAL_UC_RECEIVER_EXECUTABLE_CLOSURE_PASS / TA_PR3_HEAD_1CA28D29_DRAFT_MERGEABLE / TESTED_UC_AA53EE8A_ANCESTOR_CURRENT_UC_452B179C / RIGGED_CODEC_02B69B6C + BASE_CODEC_31D3145B_IDENTICAL / EXACT_SOURCE_ECB122E3_INSPECTION_IDENTICAL / NEGATIVE_BASE_ONLY_DRIFT_PASS_REJECTED / RUN_35261179289_SUCCESS / TESTS_35261179356_SUCCESS / ARTIFACT_10514528544_SHA_8B7D6553 / UC_PRODUCT_UNCHANGED / HOLD_BILATERAL_RUNTIME_CONTINUOUS_DEVICE_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY`
