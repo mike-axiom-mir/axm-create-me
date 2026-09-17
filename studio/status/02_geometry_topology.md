@@ -1,202 +1,216 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BUILDING_CURRENT_SOURCE_BOUNDARY_ONLY_REFERENCE_SHELL / EXACT UNION + BOUNDS PRESERVED / 3.3168 M2 DOUBLE-SIDED HIDDEN FACE AREA REMOVED / CLOSED ORIENTED VERTEX-FAN-CONNECTED / REPRESENTATION COST + VISUAL + RUNTIME + SOURCE ADOPTION HELD**
+State: **PASS_BUILDING_BOUNDARY_SHELL_CONFORMING_PLANAR_COMPACTION_V2 / 1420V-2884T -> 1004V-2052T / EXACT VOLUME + BOUNDS + OWNER AREA PRESERVED / CLOSED ORIENTED VERTEX-FAN-CONNECTED / VISUAL + RUNTIME + SOURCE ADOPTION HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the current Geometry status, Art Direction / specialist state, and the active design constellation before changing product evidence.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the current Geometry status, current specialist state, and the open design-repository constellation before changing product evidence.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation stayed in `mike-axiom-mir/axm-building-design`; this file records the exact scope, evidence, limitations and handoffs only.
+`axm-create-me` remains **coordination only**. Product/evidence implementation for this activation stayed in `mike-axiom-mir/axm-building-design`; this file records scope, evidence, limitations and handoffs only.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The previous detailed Animal UV/tangent status remains rollbackable in git history at content blob `f50b8be5e0f0c09527c8991784edd42f683034cf`; it is not relabelled or erased by this update.
+The previous detailed Building boundary-only reference-shell status remains rollbackable in git history at content blob `cbf3bf314c032dd221e4a7c44af6c214414e5a40`; it is not relabelled or erased by this update.
 
 ## Fresh constellation / duplication scan
 
-The strongest fresh Geometry-owned dependency moved from Animal to Building.
+The strongest non-duplicated Geometry dependency remained Building, but for a new reason.
 
-- **Animal Geometry #20** already has active downstream ownership: Rigging is observing tangent frames through deformation, Runtime is measuring the 84-render-vertex domain, and Materials owns shaded receiving evidence. Geometry did not duplicate those lanes.
-- **Character Geometry #11** remains unresolved: dense shoulder intersections improved `1320 -> 1020`, but every retained sampled pose is still nonzero. That remains a real future Geometry problem, but no fresh downstream source transition made it more urgent in this scan.
-- **Building Hard Surface #2** newly promoted the already-proven `header-segmented-23` representation to the explicit current source policy while preserving the historical 19-box build result for compatibility. This changed the Geometry dependency materially: the segmented form is no longer merely a Geometry-derived candidate.
-- Hard Surface still explicitly held boolean/global-shell cleanup and coplanar internal-face removal. The preceding Building Geometry evidence measured `1.6584 m²` of single-sided contact area in the segmented representation.
-- Nature / Object / Map / Weather retained bounded active owner lanes; Weapon / Armor / Unit / Misc exposed no stronger implementation-ready Geometry dependency.
+- **Animal Geometry #20** already has active downstream Rigging / Materials / Technical Art / Runtime ownership around UV/tangent transport and target-host behavior. Geometry did not duplicate those lanes.
+- **Character Geometry #11** remains a real unresolved mesh problem: sampled shoulder intersections improved `1320 -> 1020`, but every retained sampled pose is still nonzero. It remains visible for a future pass, but there was no newer dependency that made a fresh Character mutation safer than the Building receiver-backed need.
+- **Building Geometry #6** deliberately exposed an expensive exact boundary-only structural oracle at `1420v / 2884t` and explicitly held optimization until a real receiver needed it.
+- **Building Hard Surface #7** supplied that missing condition: it now source-owns `boundary-only-union-shell-001` as an explicit render / transport / material receiving candidate while keeping `header-segmented-23` as semantic authority and requiring every consumer to rebind and retest.
+- Building Materials remains a separate appearance lane; no visual result is inherited here.
+- Nature / Object / Map / Weather retained bounded owner lanes; Weapon / Armor / Unit / Misc exposed no stronger implementation-ready Geometry dependency in this scan.
 
-The highest-leverage non-duplicated Geometry action was therefore to continue the **existing Building Geometry PR #6** and derive one exact boundary-only reference shell from the now-current segmented source, without changing the 23-box semantic source.
+The highest-leverage bounded Geometry action was therefore to derive a **lower-cost conforming receiving-mesh candidate** from the already-proven Building boundary shell, without changing the 23-box semantic source, source policy, receiving policy, Materials, Runtime, collision, UC, or Profession Fabric.
 
 ## Provenance / rollback lineage
 
-Repository:
+Product repository:
 
 `mike-axiom-mir/axm-building-design`
 
-Existing PR advanced:
+New draft PR:
 
-**#6 — `Geometry: derive boundary-only shell from current segmented pavilion source`**
+**#8 — `Geometry: compact boundary shell with conforming planar retriangulation`**
 
 Branch:
 
-`studio/geometry-building-box-topology-001`
+`studio/geometry-building-boundary-shell-compaction-001`
 
-A real two-parent merge preserves both current source-owner history and prior Geometry history:
+Exact base:
 
-- current Hard-Surface policy head: `a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`;
-- prior Geometry head: `aaa987397c33f0dc9579a2ac3785ca00a5bc7402`;
-- merge commit: `c39443fc8d4d38a9d272ebac10e0d286c860b4b1`.
+- Hard-Surface PR #7 head: **`4f223e95fa95a8eb2e07d24ab1a2f4d3db70df55`**;
+- base branch: `studio/hard-surface-boundary-shell-policy-001`.
 
 Exact current Geometry head:
 
-**`b6d14d48c59859ae6ff2aaed7dea86b4e00a5402`**
+**`16253e7dd2f8cd590667f9631e4b50fdfcc7280d`**
 
-Observed PR state after evidence completion: **OPEN / DRAFT / MERGEABLE**.
+Observed PR state after exact evidence completion: **OPEN / DRAFT / MERGEABLE**.
 
-No source file in `axm-create-me` was used as a product implementation path. No Building source identity was silently replaced.
+The semantic Building source remains `header-segmented-23`; the source-owned boundary receiving identity remains `boundary-only-union-shell-001`. The compacted topology is a new derived Geometry identity, not a silent replacement of either one.
 
 ## Selected bounded improvement
 
 Added Building-local derived contract:
 
-`axm.building-current-source-boundary-shell/v0.1`
+`axm.building-boundary-shell-conforming-compaction/v0.2`
 
-The candidate binds the exact current source policy and `header-segmented-23`, then:
+Reusable pattern candidate:
 
-1. verifies all 23 emitted boxes remain exact axis/cardinal geometry and volume-intersection-free;
-2. partitions space only at exact source coordinates;
-3. marks occupied cells and face-connected solid components;
-4. emits only occupied-to-empty faces;
-5. suppresses every occupied-to-occupied face;
-6. shares vertex identity only inside one face-connected solid component, so unrelated edge/corner contacts cannot be silently welded;
-7. retains `source_component_id` ownership on every emitted boundary triangle.
+**Conforming planar-patch retriangulation with collinear-chain preservation.**
 
-This is deliberately a **derived structural/reference mesh**. The source-authoritative representation remains the 23 named boxes.
+For each face-connected coplanar patch sharing one solid component, `source_component_id`, role, axis, normal sign and plane, the implementation:
+
+1. rebuilds the exact current boundary-only donor from the unchanged 23-box semantic source;
+2. traces the patch's exact indexed outer boundary;
+3. removes collinear points only from a temporary **true-corner polygon** used for interior ear-clipped triangulation;
+4. deterministically reinserts every original collinear boundary point by splitting the corresponding simplified outer edge;
+5. therefore retains every exact outer boundary edge split needed by perpendicular neighbouring patches, avoiding simplification-created T-junctions;
+6. removes only interior coplanar partition topology;
+7. retains `source_component_id` provenance and exact per-owner boundary area on every resulting triangle;
+8. falls back to the exact donor patch when the bounded retriangulation cannot be proven safe.
+
+No source or boundary vertex is invented or moved.
 
 ## Exact structural result
 
 Scoped result:
 
-**`PASS_CURRENT_SOURCE_BOUNDARY_ONLY_UNION_SHELL_CANDIDATE`**
+**`PASS_BOUNDARY_SHELL_CONFORMING_PLANAR_COMPACTION_COLLINEAR_CHAIN_V2`**
 
-Current source facts:
+Exact reference shell -> v0.2 compacted candidate:
 
-- semantic emitted boxes: **23**;
-- separate-box storage geometry: **184 vertices / 276 triangles**;
-- positive-volume intersections: **0**;
-- exact occupied union: **9.49832 m³**;
-- bounds: **`[-3.8,-1.12,0.0] .. [3.92,1.0,3.4]`**;
-- summed separate-box surface area: **144.1864 m²**.
-
-Boundary-shell facts:
-
-- candidate signed volume: **9.49832 m³**;
-- candidate bounds: exact source match;
-- exact single-sided internal contact area: **1.6584 m²**;
-- partition contact patches: **140**;
-- double-sided hidden area removed: **3.3168 m²**;
-- exact resulting boundary area: **140.8696 m²**;
-- candidate geometry: **1420 vertices / 2884 triangles**;
-- face-connected solid components: **4**;
+- vertices: **`1420 -> 1004`**;
+- vertex reduction: **416 / 29.2957746479%**;
+- triangles: **`2884 -> 2052`**;
+- triangle reduction: **832 / 28.8488210818%**;
+- exact occupied signed volume: **`9.49832 m³ -> 9.49832 m³`**;
+- bounds: exact match **`[-3.8,-1.12,0.0] .. [3.92,1.0,3.4]`**;
+- boundary surface area: donor **`140.869599999998 m²`**, candidate **`140.869599999999 m²`**, equal under the existing `1e-9` structural tolerance;
+- face-connected solid components: **4 -> 4**;
+- logical source-component owner groups: **19 -> 19**;
+- maximum source-component boundary-area residual: **0.0 m²**;
+- maximum planar-patch area residual: **0.0 m²**;
+- compacted planar patches: **18**;
+- conservatively preserved planar patches: **86**;
 - boundary edges: **0**;
 - non-manifold edges: **0**;
 - orientation-conflict edges: **0**;
 - degenerate triangles: **0**;
 - isolated vertices: **0**;
 - disconnected indexed vertex fans: **0**;
-- maximum vertex-fan components: **1**;
-- logical source-component owners retained on boundary triangles: **19**.
+- maximum vertex-fan components: **1**.
 
-The representation-cost increase is intentionally visible: **184v / 276t -> 1420v / 2884t**. The exact global coordinate partition is useful as a structural oracle/reference shell, but it is not claimed as an efficient runtime mesh. Coplanar merging / constrained simplification remains a separate possible Geometry optimization if a real receiver needs this representation.
+Exact candidate payload SHA-256:
 
-## Failure provenance and CI
+**`d51d853ce95216ad66f6ce88cf5bca6aecfa19e22e5e8ce4045cf481b719936a`**
 
-The first workflow at head `ef079b56835b4c8929dcc1488acdcb98b8f13a4d` built the candidate successfully and passed the full repository tests, but final workflow `35165620009` failed its truth-gate because the gate used strict serialized floating-point equality for boundary area (`140.869599999998` vs rounded exact evidence `140.8696`). That failed run remains preserved.
+The result is a substantial structural reduction, but it is not claimed as globally minimal or runtime-optimal topology.
 
-The truth-gate was repaired to the same `1e-9` tolerance used by the geometry verifier. No mesh, source, provenance or structural acceptance gate was weakened.
+## Historical v0.1 control / repair provenance
 
-Exact-head workflows at `b6d14d48c59859ae6ff2aaed7dea86b4e00a5402`:
+The first conservative compaction implementation remains preserved as a historical control rather than silently overwritten.
 
-- **`35165684360 — Geometry building topology evidence` — SUCCESS** on Python 3.11 and 3.13;
-- **`35165684340 — Hard-surface building evidence` — SUCCESS**;
-- **`35165684296 — Hard-surface Building current-source policy evidence` — SUCCESS**.
+Exact historical v0.1 result:
 
-Fail-closed structural controls retain:
+- reference `1420v / 2884t` -> **`1402v / 2848t`**;
+- vertex reduction: **18**;
+- triangle reduction: **36**;
+- structural gates: green;
+- historical candidate payload SHA-256: **`c9fbd7f2747933b2517640d05f34bf395e35890a64423223eda2445a02f75e16`**.
 
-- removing one boundary triangle produces **3 boundary edges**;
-- flipping one triangle produces **3 orientation-conflict edges**;
-- occupied-to-occupied faces remain outside the allowed union-boundary contract.
+Its patch audit exposed a real bounded algorithmic limitation: many otherwise valid planar patches had long exact collinear outer-boundary chains, causing direct ear clipping either to stall or to end in a degenerate final triangle. That evidence was retained instead of being hidden behind a larger claim.
+
+v0.2 repairs that limitation without weakening the outer-boundary contract: triangulate the true-corner polygon first, then restore every original collinear boundary split. Relative to v0.1, v0.2 removes an additional **398 vertices / 796 triangles**.
+
+## Exact CI / fail-closed evidence
+
+Exact-head workflows at `16253e7dd2f8cd590667f9631e4b50fdfcc7280d`:
+
+- **`35170158765 — Geometry Building boundary-shell compaction v2 evidence` — SUCCESS** on Python 3.11 and 3.13;
+- **`35170158741 — Geometry Building boundary-shell compaction evidence` — SUCCESS**;
+- **`35170158776 — Geometry building topology evidence` — SUCCESS**;
+- **`35170158728 — Hard-surface Building boundary-shell policy evidence` — SUCCESS**;
+- inherited Hard-Surface current-source and source workflows on the same head are also green.
+
+Fail-closed controls retain:
+
+- removing one compacted boundary triangle is rejected with **3 boundary edges**;
+- flipping one triangle is rejected with **3 orientation-conflict edges**;
+- moving one donor boundary vertex by **1 mm** is rejected as donor-boundary drift;
+- removing one triangle's `source_component_id` is rejected as provenance loss.
+
+The exact workflow also binds Hard-Surface PR #7 and Geometry #6 as ancestors and asserts the semantic-source / policy / boundary-shell donor files remain unchanged by this Geometry successor.
 
 ## Retained evidence
 
-Artifact:
+Exact v0.2 artifact:
 
-- ID: **`10475121158`**;
-- name: `service-pavilion-boundary-shell-001-b6d14d48c59859ae6ff2aaed7dea86b4e00a5402`;
-- size: **57,424 B**;
-- GitHub SHA-256: **`87ed1c108447496d1bd391303af83a77e504220104b6cb136c4e182223c0bd06`**;
+- ID: **`10476443569`**;
+- name: `service-pavilion-boundary-shell-compaction-v2-001-16253e7dd2f8cd590667f9631e4b50fdfcc7280d`;
+- size: **95,431 B**;
+- GitHub SHA-256: **`e421b4e36d016c5a5f9d27c2cbeeda34a517aa00ee7a6f54026578f76abfdd22`**;
 - downloaded and independently rehashed in this activation: **same SHA-256**.
 
-The retained archive includes the boundary-shell OBJ, machine-readable shell/evidence, exact-head binding, the predecessor interpenetration evidence, and the current-source policy receipt.
+The archive retains the exact v0.2 compacted OBJ + machine-readable payload/evidence, the v0.1 control, the Hard-Surface receiving-policy receipt, and exact-head bindings.
 
-## Reusable mesh pattern retained
+For continuity, the first exact v0.1 workflow at historical head `549a157368edf042205f559de90f4f1d6c1bcf7b` also remains preserved as SUCCESS with artifact `10476488117`, 58,598 B, SHA-256 `5962de66e07d051bd63f72eea0a6122c0c2aae3f804868556951531a85e44e1c`, independently rehashed at that activation stage.
 
-One useful Geometry pattern is now explicit but remains **Building-local**:
-
-> For exact face-contacting axis/cardinal box assemblies, preserve source boxes as semantic authority while deriving a separate boundary-only mesh from the exact occupied solid union; suppress occupied-to-occupied faces, weld only inside face-connected solids, and carry source-component ownership onto every boundary surface.
-
-The current implementation prioritizes exact structural truth over geometry economy. A single Building family is not enough evidence for Universal Creation or Profession Fabric promotion.
-
-## Handoffs
+## Handoffs recorded
 
 ### Hard Surface
 
-Keep the 23-box current-source policy authoritative. Any adoption of the boundary-only derived mesh as a source or compatibility representation is a separate Hard-Surface decision and requires a new exact identity.
+PR #7 received handoff comment **`5706980226`**. Hard Surface retains source and receiving-policy authority. The compacted identity must not become the receiving policy automatically just because Geometry is structurally green; adoption requires an explicit owner decision and exact identity update.
 
 ### Materials / Environment / Visual QA
 
-Equal occupied union does not imply equal shading. If this candidate is rendered, rebind material roles through retained `source_component_id` ownership and inspect the exact target-host result before any visual acceptance transfers.
+Building Materials PR #3 received handoff comment **`5706980922`**. Equal occupied surface does not imply equal appearance: coplanar retriangulation changes triangle diagonals and can change generated normals/shading. Rebind through retained `source_component_id` roles and inspect this exact `1004v / 2052t` identity before any visual acceptance transfers.
 
 ### Runtime / Optimization
 
-Measure the actual **1420v / 2884t** payload, indexing, surface grouping, memory and draw strategy before runtime use. Geometry makes no FPS, memory, batching or draw-call claim.
+Measure the exact compacted payload, indexing, owner grouping, memory, batching, draw strategy and target-device behavior before any runtime adoption. Geometry makes no memory, draw-call or FPS claim.
 
 ### Technical Art
 
-If transported, prove that exact source-component/material ownership survives and that import/export does not regenerate the removed hidden faces or collapse distinct solid-component identities.
+If transported, prove exact `source_component_id` coverage, four solid identities and the intentional boundary splits survive import/export. Do not regenerate removed hidden faces or collapse distinct solid components without new evidence.
 
 ### Capability Cartography / UC
 
-Do not promote this one Building-specific axis/cardinal union-shell mechanism yet. Look for materially different domains that demonstrate the same source/derived-boundary contract before shared extraction.
+Keep the pattern Building-local. One axis/cardinal box-family result is not enough evidence for Universal Creation or Profession Fabric promotion. Promote only after materially different surface families reproduce the same conforming-boundary + provenance contract.
 
 ### Character
 
-The nonzero sampled shoulder-intersection family remains unresolved and should stay visible as a future Geometry lane; this Building result does not supersede it.
+The sampled shoulder self-intersection family remains unresolved. Building compaction does not supersede Character Geometry #11 or turn its nonzero intersection field into a PASS.
 
 ## Truth boundary / non-claims
 
-This activation proves only that the exact current segmented Building source can produce one closed, consistently oriented, indexed-vertex-fan-connected **derived boundary-only reference mesh** that preserves exact occupied volume and bounds, carries source-component provenance, and removes every occupied-to-occupied partition face.
+This activation proves only that the exact source-owned Building boundary-only reference shell can be deterministically compacted by one conforming planar retriangulation method while preserving its measured occupied surface/volume/bounds, four face-connected solids, indexed topology integrity and source-component boundary-area provenance.
 
 It does **not** establish:
 
-- replacement of the source-owned 23-box semantic representation;
-- replacement of the historical 19-box compatibility API;
-- minimum triangle count or optimal vertex indexing;
-- coplanar face merging, LOD quality or production retopology;
-- final normals, tangents, UVs, materials or visual quality;
-- architecture, structural engineering, weather sealing, manufacturing validity or tolerances;
-- target-device runtime, memory, batching or draw-call acceptance;
+- replacement of `header-segmented-23` as the semantic source;
+- automatic replacement of Hard Surface's `boundary-only-union-shell-001` receiving-policy identity;
+- globally minimal triangle/vertex count, production retopology or arbitrary non-planar simplification;
+- final normals, tangents, UVs, materials, generated-normal equivalence or visual quality;
+- target-host runtime, memory, batching, draw-call or FPS acceptance;
 - collision, navigation, physics or gameplay acceptance;
-- a general boolean union for rotated, curved, overlapping or arbitrary meshes;
+- architecture, structural engineering, weather sealing, manufacturing validity or tolerances;
+- a general boolean union or simplifier for rotated, curved or arbitrary meshes;
 - Universal Creation or Profession Fabric promotion;
 - CANON or merge authority;
 - production readiness, game readiness or Geometry mastery.
 
 ## Four-root gate
 
-- **Truth:** the remaining internal-face problem was measured against the newly current source, and the large reference-shell geometry cost plus the first failed truth-gate run are both retained instead of hidden.
-- **Agency / non-domination:** Geometry supplies a derived structural option; Hard Surface keeps source authority, Materials/Visual QA keep appearance authority, Runtime keeps performance authority, Technical Art keeps transport authority, and the constitutional process keeps CANON/merge authority.
-- **Continuity:** current Hard-Surface policy history and prior Geometry history are joined through an explicit two-parent merge; the 19-box compatibility API, 23-box source policy, earlier segmentation proof and new boundary shell remain distinct rollback/evidence identities.
-- **Wisdom before speed:** the exact structural oracle was proven first and its `1420v / 2884t` cost exposed before attempting optimization, source migration or a premature generic UC boolean/union abstraction.
+- **Truth:** the expensive `1420v / 2884t` oracle remains visible, the weak-but-green v0.1 reduction remains a historical control, its collinear-chain limitation is recorded, and v0.2 carries exact structural measurements plus fail-closed controls rather than a visual/runtime story.
+- **Agency / non-domination:** Geometry supplies a new structural option only. Hard Surface keeps source/receiving-policy authority, Materials/Visual QA keep appearance authority, Runtime keeps performance authority, Technical Art keeps transport authority, and the constitutional process keeps CANON/merge authority.
+- **Continuity:** v0.2 is stacked exactly on the Hard-Surface receiving-policy head; the 23-box semantic source, boundary-only reference shell, v0.1 control and v0.2 compacted candidate remain distinct rollbackable identities with exact hashes and workflow evidence.
+- **Wisdom before speed:** compaction was attempted only after the source owner created a real receiving need; the first conservative algorithm was measured before it was strengthened; the stronger version preserves outer conforming boundaries rather than deleting collinear splits merely to maximize a triangle-count number.
 
 ## Next Geometry pass
 
-Re-scan the full constellation first. Do not automatically optimize this Building shell. Prefer either a receiver-backed need for a lower-cost conforming boundary mesh, a fresh Geometry-owned failure in another domain, or the unresolved Character shoulder family if downstream evidence makes it the strongest dependency.
+Re-scan the full constellation first. Do not continue squeezing this Building mesh by habit. Prefer a fresh owner-backed defect or handoff: explicit Hard-Surface adoption/hold feedback for this compacted identity, a Materials/Visual/Runtime/Technical-Art failure against the exact `1004v / 2052t` candidate, or the unresolved Character shoulder family if it becomes the strongest Geometry-owned dependency.
