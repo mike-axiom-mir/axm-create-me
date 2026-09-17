@@ -1,118 +1,108 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / TWENTY-FIRST BOUNDED RUNTIME PASS / PASS_ANIMAL_EXPLICIT_NORMAL_INDEXED_PAYLOAD_REDUCTION_WITH_OBSERVED_BUFFER_REDUCTION / REPAIRED TWO-CAMERA TARGET-HOST EVIDENCE / ART + VISUAL-QA ACCEPTANCE HELD / TARGET DEVICE + UC EXTRACTION HELD**
+State: **ACTIVE / TWENTY-SECOND BOUNDED RUNTIME PASS / PASS_ANIMAL_TANGENT_READY_INDEXED_PAYLOAD_REDUCTION / SEAM-AWARE RENDER DOMAIN PRESERVED / ART + VISUAL-QA ACCEPTANCE HELD / TARGET DEVICE + UC EXTRACTION HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Geometry, Technical Art / UC, Visual QA, Capability Cartography, newest Animal design PRs, prior Runtime indexing evidence, and active Runtime lanes before selecting one bounded Runtime action.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Geometry, Rigging, Materials, Technical Art / UC, Visual QA, prior Runtime evidence and open Animal PRs before choosing one bounded Runtime action.
 
-`axm-create-me` remains **coordination only**. This activation changes only this Runtime status in `axm-create-me`; product/evidence implementation is in `mike-axiom-mir/axm-animal-design`.
+`axm-create-me` remains **coordination only**. Product/evidence implementation is in `mike-axiom-mir/axm-animal-design`; this repository changes only this Runtime status.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The twentieth Runtime pass established second-domain post-normal indexing evidence on the Map footprint cue, after the nineteenth Object receiver indexing result. Those lanes remain open historical evidence and are not reopened here.
+The twenty-first Runtime pass proved source-index preservation for an Animal surface whose explicit normal field remained one-to-one with the original **42 source vertices**. That result deliberately held UV/tangent seams outside its boundary.
 
-The newest materially different Runtime risk was in the Animal chain:
+The newest materially different risk is now explicit in the live Animal chain:
 
-- Geometry PR #16 head `79e1667f6cc91e2ec8e41f01df18b6933c9c876d` owns an exact static right-side candidate with **42 source positions, 240 indices, 80 triangles and 42 explicit logical-quad normals**;
-- tangent policy remains `NOT_DEFINED_NO_UV_BASIS`;
-- Materials' established target-host submission style expands those 80 triangles into one explicit position+normal vertex per triangle corner, producing **240 stored vertices** even though the source surface is already indexed;
-- concurrent Materials PR #17 and Rigging PR #18 own visual surface-response and deformed-normal questions respectively, so Runtime did not duplicate either lane.
+- Geometry PR #20 exact head `ca4bb8a2f144231f8755eacc980785d1807b79db` owns a tangent-ready render domain with **42 source vertices -> 84 seam-aware render vertices**, **240 render indices** and **80 triangles**;
+- the extra render vertices are structural, preserving UV cylinder seams, cap/side island boundaries and tangent singularity splits;
+- Rigging PR #22 exact head `63c65d57fda0595217f86d971ff8c67f256188be` consumes that exact Geometry representation and proves tangent identity through its current deformation envelope;
+- Rigging explicitly leaves fresh Runtime measurement of the seam-expanded representation open;
+- no concurrent Runtime lane was found measuring indexed storage of this tangent-ready **84-vertex final render domain**.
 
 Runtime therefore selected one bounded representation question:
 
-> Can the exact Geometry #16 explicit-normal surface preserve its source-owned indexed storage instead of triangle-corner expansion, reducing runtime payload without changing source geometry, triangle order, normal values, surface count, fixed proof-host appearance or renderer submission counts?
+> Can the exact seam-aware 84-vertex tangent-ready render domain stay indexed instead of expanding all 80 triangles into 240 stored triangle-corner vertices, while preserving every final render-domain position, normal, UV, tangent, triangle corner, fixed proof-host renderer count and fixed-camera image?
+
+Crucially, this lane does **not** collapse 84 render vertices back to the 42 source vertices.
 
 Owning implementation repository: `mike-axiom-mir/axm-animal-design`.
 
-Draft Runtime PR: **#19 — `Runtime: preserve indexed storage for explicit Animal normal field`**.
+Draft Runtime PR: **#23 — `Runtime: index tangent-ready Animal render domain without seam collapse`**.
 
-Branch: `studio/runtime-animal-explicit-normal-index-budget-001`.
+Branch: `studio/runtime-animal-tangent-index-budget-001`.
 
 Exact final tested Runtime head:
 
-`f23ad948cd0904c232ce2963ab7c812372752e3c`
+`f4b5b637dc0cabb51bcf9f14a44d53f397f300fa`
 
-Exact Geometry normal-field parent:
+Exact Rigging parent:
 
-`79e1667f6cc91e2ec8e41f01df18b6933c9c876d`
+`63c65d57fda0595217f86d971ff8c67f256188be`
 
-PR #19 is open, draft and mergeable at the final check.
+Exact Geometry UV/tangent basis:
+
+`ca4bb8a2f144231f8755eacc980785d1807b79db`
+
+PR #23 is open, draft and mergeable at final check.
 
 ## Measure-before representation
 
 The A/B keeps identical:
 
-- **42** source positions;
-- **240** source indices and exact triangle order;
+- **42** source geometric vertices;
+- **84** final seam-aware tangent-ready render vertices;
+- **240** exact render indices / exact triangle order;
 - **80** triangles;
 - **1** surface / material;
-- the exact **42 Geometry #16 explicit normal vectors**;
-- neutral material, lighting and two fixed `960x720` cameras;
-- no tangents or UV basis added.
+- every final render-domain position, explicit normal, UV and tangent;
+- fixed neutral material, lights and two `960x720` cameras.
 
 Control representation:
 
-- stored vertices: **240**;
+- stored vertices: **240** triangle-corner vertices;
 - stored indices: **0**;
 - stored primitives: **80**.
 
 Indexed candidate:
 
-- stored vertices: **42**;
+- stored vertices: **84** seam-aware render vertices;
 - stored indices: **240**;
 - stored primitives: **80**.
 
-That removes **198 repeated stored vertices**, an **82.5% stored-vertex reduction**.
+That removes **156 repeated stored vertices**, a **65% stored-vertex reduction**, without merging any UV/tangent seam vertex.
 
-Under the deliberately bounded logical storage model of position `Vector3` + normal `Vector3` per stored vertex plus 32-bit indices:
+Under the deliberately bounded logical float32 model of position3 + normal3 + UV2 + tangent4 per stored vertex plus 32-bit indices:
 
-- control: **`5,760 B`**;
-- candidate: **`1,968 B`**;
-- delta: **`-3,792 B / -65.833333%`**.
+- control: **`11,520 B`**;
+- candidate: **`4,992 B`**;
+- delta: **`-6,528 B / -56.666667%`**.
 
-This modeled figure is not a VRAM, heap, import-file, allocator or backend-packing claim. The Godot proof separately measures RenderingServer counters.
-
-## Truth repair — first green run was not accepted
-
-Initial workflow:
-
-**`35159573852 — Runtime Animal explicit-normal indexed payload evidence — SUCCESS`**
-
-The structural verifier passed, but inspection of the retained runtime receipts and Godot log found a proof-host defect: the first `three_quarter` camera was positioned with `Camera3D.look_at()` before the camera had entered the tree. Godot logged the pre-tree transform/look-at failure, and that first context consequently recorded **0 objects / 0 primitives / 0 draw calls**.
-
-Runtime did **not** keep that technically green workflow as final evidence.
-
-The observer was repaired to:
-
-1. use pre-tree-safe `look_at_from_position()`;
-2. settle the viewport/camera before the context loop;
-3. fail closed unless **every** fixed camera presents exactly **1 object / 80 primitives / 1 draw call**.
-
-The earlier green run and artifact remain provenance for the harness defect; they are not used for the final Runtime claim.
+This modeled figure is not a VRAM, heap, import-file, allocator or backend-packing claim. RenderingServer counters are measured separately.
 
 ## Final successful bounded characterization
 
-Final dedicated workflow:
+Dedicated workflow:
 
-**`35159813706 — Runtime Animal explicit-normal indexed payload evidence — SUCCESS`**
+**`35164275696 — Runtime Animal tangent-ready indexed payload evidence — SUCCESS`**
 
 Scoped result:
 
-**`PASS_ANIMAL_EXPLICIT_NORMAL_INDEXED_PAYLOAD_REDUCTION_WITH_OBSERVED_BUFFER_REDUCTION`**
+**`PASS_ANIMAL_TANGENT_READY_INDEXED_PAYLOAD_REDUCTION`**
 
 Decision:
 
-**`INDEX_SOURCE_OWNED_EXPLICIT_NORMAL_SURFACE__PRESERVE_ATTRIBUTE_BOUNDARIES__ART_REVIEW_NO_OBSERVED_PIXEL_DELTA`**
+**`PRESERVE_GEOMETRY_RENDER_DOMAIN_SEAMS__INDEX_84_TANGENT_READY_VERTICES__DO_NOT_COLLAPSE_TO_42_SOURCE_VERTICES`**
 
-The repaired target host now presents the exact surface in both fixed cameras for both A/B modes:
+Real Godot `4.7.2-stable` GL Compatibility A/B processes presented the exact surface in both fixed cameras. For control and candidate alike:
 
 - objects in frame: **1**;
 - primitives in frame: **80**;
-- draw calls in frame: **1**.
+- draw calls in frame: **1**;
+- observed texture memory: **11,262,915 B**.
 
 Across both cameras, indexed minus unindexed deltas are:
 
@@ -120,103 +110,87 @@ Across both cameras, indexed minus unindexed deltas are:
 - objects: **`+0`**;
 - primitives: **`+0`**;
 - observed texture memory: **`+0 B`**;
-- observed RenderingServer buffer memory: **`-3,480 B`**.
+- observed RenderingServer buffer memory: **`-3,888 B`**.
 
 Exact observed buffer counters:
 
-- control: **`6,415,992 B`**;
-- candidate: **`6,412,512 B`**;
-- stable delta in both cameras: **`-3,480 B`**.
+- control: **`6,417,912 B`**;
+- candidate: **`6,414,024 B`**;
+- stable delta in both cameras: **`-3,888 B`**.
 
-The proof also records one-shot mesh-build timings (`183 µs` control, `86 µs` candidate), but Runtime does **not** generalize those single construction observations into a CPU performance claim.
+The proof records one-shot mesh-build observations (`589 µs` control, `293 µs` candidate), but Runtime does **not** generalize those single construction observations into a CPU performance claim.
 
-The deliberate stored-vertex mutation changed candidate `42` back to `240`; the verifier rejected it as intended.
+The deliberate negative control mutated candidate stored-vertex identity from **84 -> 42**. The verifier rejected it as intended, proving the acceptance gate does not silently turn this optimization into a seam-collapse optimization.
 
 ## Visual tradeoff for Art Direction / Visual QA
 
 Both retained fixed-camera A/B pairs are byte-identical:
 
-- `three_quarter`: **0 changed pixels**, max channel delta **0**;
-- `grazing`: **0 changed pixels**, max channel delta **0**.
+- `three_quarter`: control/candidate PNG SHA-256 `29e99f0cff66470bbc22f8a2273cdcf814dc54fe3763af002f5e4556c527b768`;
+- `grazing`: control/candidate PNG SHA-256 `893c0b70b097ff445ff3f430c2572cbea80108c1c7988a810d4dc1bb3009308a`.
 
 Visual tradeoff:
 
 **`NONE_OBSERVED__TWO_FIXED_CAMERA_PNG_PAIRS_BYTE_IDENTICAL`**.
 
-That does **not** approve Geometry #16's explicit normal field aesthetically. It only says indexed versus unindexed storage of that exact field produced no observed visual delta in these two fixed target-host views. Geometry owns the normal candidate; Materials / Art Direction / Visual QA own surface-response and visual acceptance; Rigging owns deformed-normal behavior.
+That is a storage A/B statement only. It does **not** approve Geometry #20's UV layout or tangent basis aesthetically, prove tangent-space normal-map appearance, or prove deformed shaded quality. Geometry retains UV/tangent structure; Rigging retains deformed tangent-frame authority; Materials / Art Direction / Visual QA retain appearance; Technical Art retains transport/import authority.
 
 ## Retained evidence
 
-Final successful artifact:
+Successful retained artifact:
 
-- workflow run: **`35159813706`**;
-- artifact ID: **`10472621440`**;
-- name: `runtime-animal-explicit-normal-index-budget-001-f23ad948cd0904c232ce2963ab7c812372752e3c`;
-- size: **`75,854 B`**;
-- GitHub SHA-256: **`a254a958e42bd4bbfd83fe46d2693369252c3efc679cd3bf2ae8563dd52dd2e0`**;
+- workflow run: **`35164275696`**;
+- artifact ID: **`10474505654`**;
+- name: `runtime-animal-tangent-index-budget-001-f4b5b637dc0cabb51bcf9f14a44d53f397f300fa`;
+- size: **`78,756 B`**;
+- GitHub SHA-256: **`70fcaf6911fd2f0d9d762ec7a3ba5cc77f69972457400ae71a0f3ea773722724`**;
 - independently downloaded/rehashed SHA-256: **same value**.
 
-The archive retains exact head identity, payload, both control/candidate receipts, both fixed-camera PNG pairs, logs and the final report.
-
-Earlier non-final green artifact from the camera-harness defect:
-
-- workflow run: `35159573852`;
-- artifact ID: `10472830492`;
-- GitHub SHA-256: `30b5c14163694c52a6043eb246179236193074d1f57f2883bfa282d42100fe90`;
-- independently downloaded/rehashed SHA-256: same value;
-- **not accepted as final Runtime evidence** because the first camera did not present the target surface.
+The archive retains exact head identity, tangent-ready payload, both control/candidate Godot receipts, both fixed-camera A/B pairs, logs, the negative-control receipt and final report.
 
 ## Reusable learning / capability placement
 
-The strongest reusable decision is now narrower and better supported than a blanket `SurfaceTool.index()` rule:
+The reusable indexing rule can now cover a missing seam class without turning into a dangerous deduplication rule:
 
-> **When the source already owns one indexed surface and the final per-vertex attributes are one-to-one with source vertices, preserve that source-owned indexed representation rather than expanding identical position+attribute tuples per triangle corner. Re-prove stored counts, renderer counters and visual output on the exact consumer.**
+> **When UV/tangent seams force a seam-expanded final render domain, preserve indexing inside that final render domain. Do not collapse the render domain back to source vertices, and do not expand to per-triangle-corner storage unless final attributes actually require unique corner values. Re-prove stored counts, renderer counters and visual output on the exact consumer.**
 
-This Animal case is materially different from the earlier Map footprint pass because indexing is preserved from source-owned connectivity instead of discovered after generated normals. It also avoids the footprint's deterministic one-LSB raster change: this exact explicit-normal Animal candidate is byte-identical in the repaired two-camera proof.
+This pass extends the earlier 42-vertex normal-only result to a materially different **84-vertex seam-aware final render domain**. It therefore strengthens source/final-domain indexing evidence while preserving the distinction that matters: final attribute seams decide vertex identity.
 
-That distinction matters for capability placement. Runtime has enough evidence to recommend source-index preservation as an optimization principle, but **not** enough to extract a universal indexing transform into UC. A future generic capability must preserve all relevant attribute seams and explicitly distinguish:
-
-- source-owned one-to-one indexed attribute fields;
-- post-generation dedup/indexing attempts;
-- UV/tangent/color/skin/morph/custom-channel seam constraints;
-- byte-identical versus bounded-nonzero visual outcomes.
-
-Profession Fabric is not the implementation home for this mechanism; it may later describe evidence/provenance procedure only.
+That still does **not** authorize a generic UC transform. Skin weights, morph targets, vertex colors, arbitrary custom channels, tangent-space normal maps, import/export transport and target-device behavior remain separate eligibility classes requiring their own evidence.
 
 ## Handoffs
 
-- **Runtime PR #19:** final repaired evidence comment `5705697494`; no automatic adoption requested.
-- **Geometry PR #16:** Runtime placement handoff comment `5705698549`: if the explicit normal field advances, preserve its source-owned indexing rather than triangle-corner expansion.
-- **Materials PR #17:** representation-only handoff comment `5705699498`; no Materials surface-response result is superseded.
-- **Art Direction / Visual QA:** no observed indexed-vs-unindexed pixel delta in the repaired fixed views, but final normal-field preference remains held.
-- **Technical Art / UC / Capability Cartography:** source-index preservation has another strong domain result, but generic extraction remains held behind seam/attribute eligibility and regression semantics.
+- **Runtime PR #23:** exact final result comment `5706330625`; no automatic adoption requested.
+- **Geometry PR #20:** handoff comment `5706331334`; preserve indexing inside the 84-vertex seam-aware final domain, not the 42-vertex source domain.
+- **Rigging PR #22:** handoff comment `5706332156`; storage result does not supersede deformation/tangent-frame authority.
+- **Materials / Art Direction / Visual QA:** no observed indexed-vs-unindexed visual delta in the two fixed views; final tangent/normal-map appearance remains held.
+- **Technical Art / UC:** transport and generic extraction remain held.
 
 ## Historical continuity
 
-The detailed twentieth Runtime status remains preserved at coordination commit:
+The detailed twenty-first Runtime status remains preserved at coordination commit:
 
-`e23f23fcc563f87f719f92c3dbc8e725f4171566`
+`344abbeb07861cfc338992e15f9d541c8252dd62`
 
-That pass proved second-domain Map footprint post-normal indexing with a bounded one-pixel/one-LSB visual delta. This twenty-first pass does not overwrite that boundary; it adds a different source-owned Animal indexing case with byte-identical visual evidence.
+That pass established the 42-source-vertex explicit-normal indexing result and explicitly held UV/tangent seams open. This twenty-second pass closes that specific static tangent-ready storage gap without rewriting the earlier boundary.
 
-Earlier Object, Weather cadence/cache/capture, temporal-exposure, Building submission and AnimationPlayer passes likewise remain historical truth.
+The twentieth Map-footprint pass remains preserved at `e23f23fcc563f87f719f92c3dbc8e725f4171566`. Earlier Object, Weather cadence/cache/capture, temporal-exposure, Building submission and AnimationPlayer passes likewise remain historical truth.
 
 ## Explicit non-claims
 
 This PASS does **not** prove:
 
-- final visual preference for Geometry #16's explicit normal field;
-- final Art Direction / Visual QA acceptance;
-- tangents, UVs or tangent-space correctness;
-- deformed-normal or skinned-normal correctness;
-- Animation or gameplay/controller acceptance;
+- final UV or tangent visual preference;
+- tangent-space normal-map visual correctness;
+- deformed shaded or skinned tangent-space correctness;
+- exact import/export transport preservation;
 - arbitrary-mesh or arbitrary-attribute indexing safety;
-- preservation across UV seams, tangent seams, colors, skin weights, morph targets or arbitrary custom channels;
+- preservation across skin weights, morph targets, colors or arbitrary custom channels;
 - draw-call, object-count or primitive-count reduction;
 - CPU/GPU frame-time or FPS improvement;
 - target-device VRAM or heap reduction;
-- import-time budgets or file-size savings;
-- automatic Geometry / Materials / Rigging producer adoption;
+- import-time budget or file-size savings;
+- automatic Geometry / Rigging / Materials producer adoption;
 - automatic UC extraction;
 - Profession Fabric promotion;
 - CANON;
@@ -225,12 +199,12 @@ This PASS does **not** prove:
 
 ## Four-root check
 
-**Truth:** the first technically green run exposed a real camera-harness defect during receipt/log inspection and was rejected as final evidence; the repaired observer now fails closed on target visibility.
+**Truth:** the result binds the exact Geometry and Rigging identities, separates modeled payload from observed renderer memory, retains exact Godot counters and rejects a deliberate 84 -> 42 seam-collapse mutation.
 
-**Agency / non-domination:** Runtime measures representation cost but does not decide Geometry normal ownership, Materials/Art/QA visual acceptance, Rigging deformation acceptance, or UC promotion.
+**Agency / non-domination:** Runtime chooses a storage representation candidate but does not decide Geometry UV/tangent structure, Rigging deformation, Materials/Art/QA appearance, Technical Art transport or UC promotion.
 
-**Continuity:** exact Geometry parent, exact source and normal-field identities, initial invalid proof-host run, repaired final run, artifact digests and prior twentieth-pass boundary are retained explicitly.
+**Continuity:** exact parent heads, source/render vertex identities, workflow run, artifact digest, two fixed-camera A/B pairs, handoffs and the prior twenty-first-pass boundary remain explicit.
 
-**Wisdom before speed:** the harness was strengthened before accepting the optimization, and the reusable rule distinguishes source-owned indexing from post-hoc deduplication instead of generalizing from a headline memory win.
+**Wisdom before speed:** the optimization preserves the larger 84-vertex seam-aware render domain instead of chasing the smaller 42-vertex number and accidentally erasing final attribute seams.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
