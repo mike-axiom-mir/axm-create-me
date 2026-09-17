@@ -1,268 +1,308 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-17
-State: **PASS_SOURCE_RENDER_RECEIVER_MESH_IDENTITY_SPLIT_RETAINED / CHARACTER_REVIEW006_UPSTREAM_SELECTION_STILL_HELD / BUILDING_NORMAL_REPACK_CLASSIFIED_AS_RECEIVER_TRANSPORT_HOLD / NO_PRODUCT_MESH_MUTATION_JUSTIFIED**
+State: **PASS_BUILDING_SOURCE_INTENT_INDEXED_RENDER_DOMAIN_EXACT_RECONSTRUCTION / BUILDING_PR_12_OPEN_DRAFT_MERGEABLE / 1008_CORNERS_TO_604_RENDER_VERTICES_1008_INDICES_336_TRIANGLES_5_ROLES / EXISTING_312_CONSUMER_IDENTITY_REMAINS_SEPARATE / CHARACTER_REVIEW006_SELECTION_STILL_HELD / UC_PF_UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the current Geometry status, the current specialist constellation and the live design-repository PR state before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the current Geometry status, current specialist constellation and live design-repository PR state before choosing work.
 
-`axm-create-me` remains **coordination only**. No product source, product mesh, topology, material, rig, animation, renderer, Runtime implementation, Universal Creation implementation or Profession Fabric implementation was changed here.
+`axm-create-me` remains **coordination only**. Product geometry, tests, workflow and retained evidence for this activation live in `mike-axiom-mir/axm-building-design`. No Building product code was placed in `axm-create-me`, and Universal Creation / Profession Fabric were not changed.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate previous Geometry coordination state remains rollbackable at exact status blob:
 
-**`3248328d5fecc6feaa4926febaf6a4a570dd0fc5`**
+**`3a66ba97dd5ef0f3b4d4a51d7f7f7d57cb61e323`**
 
-That previous state established `EXACT_SOURCE_SUCCESSOR_TOPOLOGY_QUARANTINE_AND_REBIND_GATE` around Character Organic review-006. Nothing in this activation rewrites that gate or Geometry #15's historical/current exact-lineage HOLD.
+That previous state established `SOURCE_RENDER_RECEIVER_MESH_IDENTITY_SPLIT` and kept Character review-006 quarantined until upstream Art/QA selection. Nothing in this activation rewrites those facts.
 
 ## Fresh full-constellation / duplication scan
 
-The scan found no justified product-side Geometry mutation, but it exposed a stronger reusable mesh-identity distinction that now has independent evidence in Character, Animal and Building.
+The strongest new Geometry-owned trigger came from **Building**, not Character or Animal.
 
-### Character — source identity is still upstream-held
+### Character — still upstream-held
 
-Organic review-only candidate remains:
+Organic review-006 remains source/form review evidence only. Current Organic status still requires Art Direction / Visual QA selection before Geometry may bind review-006. Geometry PR #15 remains exact negative evidence for the older retained source lineage only: its 1,122 face-disjoint three-flip candidates produced no strict successor and all retained sampled poses remain nonzero.
 
-`character-neutral-a-shoulder-pose-clearance-review-006`
+Therefore this activation did **not** remesh Character, bind review-006 early, or transfer old topology evidence to the new source identity.
 
-Exact Organic head:
+### Animal — downstream lanes already own the current questions
 
-**`77b51656cafe6e0f817a98b2787462a0c80f09e4`**
+Animal already has active Rigging, Materials, Technical-Art, Animation and Runtime work around the exact Geometry render-domain identities. No fresh Geometry-owned structural defect displaced the Building trigger. The prior source/render/receiver identity split remains applicable and unchanged.
 
-Exact retained review-006 identities remain:
+### Building / Map — fresh exact Geometry gap
 
-- source digest: **`8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`**;
-- proof-mesh digest: **`f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`**;
-- proof mesh: **504 vertices / 908 triangles / 0 degenerates**;
-- workflow `35181503912`: SUCCESS;
-- retained artifact `10480358592`, archive SHA-256 `a3e4cef31021763ab94a087d8164eef4af94e7ece37609fe0018fdad96c7aa99`.
+Building Hard-Surface PR #11 advanced to exact head:
 
-Current Organic / coordinator state still records connected topology, intersection rebind, Rigging/deformation and source adoption as unevaluated / unclaimed, with Art Direction / Visual QA selection required before Geometry may bind the new source identity.
+**`0caa9ac9644f027350935240476bd0bf3bb66e18`**
 
-No current Art Direction or Visual QA state selects review-006. Therefore Geometry does **not** remesh the old source and does **not** bind review-006 early.
+Hard Surface added source-owned policy:
 
-Current retained Character Geometry lineage remains PR #15 exact head:
+**`axm.building-planar-role-render-split-policy/v0.1`**
 
-**`31675939985aee37eaba7beea58c9443eb85b9ac`**
-
-with exact scoped result:
-
-**`HOLD_CHARACTER_CONNECTED_SHOULDER_DISJOINT_THREE_FLIP_FAMILY_EXHAUSTED_NO_STRICT_IMPROVEMENT__NONZERO_INTERSECTIONS_REMAIN`**
-
-Retained facts remain unchanged:
-
-- `1122` legal unordered pairwise face-disjoint three-flip combinations exhausted;
-- `1106` genuinely new triples reject at the retained anchor gate;
-- only the previously known `16` current-pair-plus-third candidates remain no-worse;
-- every surviving dense result remains `1020`;
-- every survivor remains `0 better / 162 equal / 0 worse`;
-- all `162 / 162` retained poses remain nonzero;
-- no new Character topology identity exists;
-- Rigging #12 remains the exact rig receiver for that exact retained mesh lineage only.
-
-### Animal — render-domain identity is demonstrably not source-vertex identity
-
-Current Animal Geometry PR #20 remains exact head:
-
-**`ca4bb8a2f144231f8755eacc980785d1807b79db`**
-
-Its structural UV/tangent basis deliberately preserves the **42-source-vertex / 80-triangle** geometric source while expanding to an explicit **84-render-vertex / 80-triangle** domain to preserve UV seams, cap/side islands and polar tangent singularities.
-
-This is direct evidence that a truthful Geometry/render identity can require more vertex identities than the source geometry while preserving the same geometric surface. Collapsing `84 -> 42` merely because source positions coincide would destroy intentional render-domain seams and therefore is not a safe topology/storage equivalence.
-
-Animal already has active Rigging, Materials, Technical-Art and Runtime consumers for this exact identity. No new Animal Geometry mutation is justified.
-
-### Building — receiver-storage identity can preserve grouping while still perturbing attributes
-
-Building Hard-Surface PR #11 remains the source owner for render-only representation:
+for representation:
 
 **`boundary-only-planar-role-rectangle-render-001`**
 
-Exact Hard-Surface head:
+The source owner now proves and explicitly owns this render-corner equivalence relation:
 
-**`93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`**
-
-The representation remains **336 triangles / 5 material surfaces** with exact cardinal hard-normal intent and retained contributor provenance. Hard Surface explicitly owns this render representation and requests no indexed Geometry replacement.
-
-Map Runtime PR #39 already proved a post-normal per-surface storage rewrite from **1008 unindexed triangle-corner vertices -> 312 stored indexed vertices / 1008 indices**, preserving 336 triangles and five material surfaces while reducing proof-host buffer memory. Runtime also preserved the real `+180` primitive residual versus the active segmented receiver and handed visual acceptance to Art / QA.
-
-Fresh Technical Art PR #40 exact head:
-
-**`e4105697802fad082b31da21a22a8dd1a944dedd`**
-
-now gives the exact structural split needed for Geometry classification:
-
-- `1008` input triangle corners;
-- `312` UC cross-source candidate groups;
-- `312` real Godot indexed vertices;
-- `1008` indices;
+- `168` planar rectangles;
 - `336` triangles;
-- `5` material surfaces;
-- UC and Godot form the exact same corner-grouping partition under bijective relabeling;
-- decoded POSITION corner streams remain exact;
-- pre-index NORMAL corner streams used for grouping remain exact in UC;
-- after the Godot `create_from -> index -> commit` path, **120 / 1008** decoded corner normals change;
-- all changed corners are `frame_galvanized`;
-- max component residual: **`0.00011304020881702792`**;
-- max angular residual: **`0.006869404718583788°`**.
+- `5` material roles;
+- `1,008` triangle corners;
+- **`604` exact source-intent equivalence groups**;
+- equivalence key: consumed material role + exact position + exact cardinal hard normal + explicit protected-split ID;
+- all current protected-split IDs explicitly `null`;
+- `404` source corners may share storage under that exact owner contract;
+- Hard Surface explicitly does **not** own indexing implementation, Runtime adoption, transport acceptance or visual acceptance.
 
-Technical Art correctly retains this as **normal-transport exactness HOLD**, not as a topology failure and not as visual rejection.
+Its retained failed predecessor is important: an initial assumption that source intent should reproduce the existing downstream `312`-vertex Godot consumer failed. The exact source result is `604`, while `312` remains a different consumer-generated normal/index identity.
 
-Map Runtime PR #41 is already active on the exact narrower receiver problem:
+Map Environment already names the reviewed `312`-vertex post-normal Godot representation as a separate consumer identity and explicitly refuses to claim it equals the `604` source-equivalence domain. Map Technical Art separately retains exact `312` grouping/position transport plus a real `120 / 1008` post-index normal-repack HOLD. Runtime owns receiver/device cost and has no request for a speculative Geometry rewrite.
 
-**`Runtime: direct-index planar-role Building receiver preparation`**
+That created one narrow Geometry-owned Layer-B gap:
 
-Current exact Runtime head observed this activation:
+> Realize the exact 604-class source-owner equivalence relation as an indexed Geometry render domain, preserving every source-owned split/normal/material boundary, without replacing source semantics or the existing 312-vertex consumer.
 
-**`ebee358d6883a2562be737ae10dd30354fe71748`**
+### Nature / Object / Weather / Map / Weapon / Armor / Unit / Misc
 
-Its dedicated workflow `35188582999` was still in progress at observation time. Runtime is testing direct final position + cardinal-normal + index arrays for the same five material surfaces and 336 triangles. Geometry therefore does not open a competing receiver repair lane.
+- Nature's current topology/sidedness questions remain downstream-held; no fresher Geometry defect was returned.
+- Object's freshest work is source-surface / UV-density / Materials / Procedural / motion owned; no Geometry repair was requested.
+- Weather remains VFX / Environment / timing dominated.
+- Map's Building receiver questions are Environment / Technical Art / Runtime owned except for the new upstream 604-class Geometry realization closed here.
+- Weapon / Armor / Unit / Misc exposed no stronger implementation-ready Geometry dependency during this scan.
 
-### Nature / Object / Map / Weather / Weapon / Armor / Unit / Misc
-
-- Nature Geometry's explicit-backface structural alternative remains downstream-held; current Art/Materials direction continues to preserve the lighter source-front geometry and split sidedness.
-- Object's newest exact work is source-surface identity, Materials rebind and Procedural face extraction. Those are source semantics / derivation / lookdev questions, not a returned Geometry defect.
-- Map current Building review is Environment / Runtime / Technical-Art / QA owned.
-- Weather current questions are VFX / Environment / timing rather than mesh topology.
-- Weapon / Armor / Unit / Misc expose no fresher implementation-ready Geometry dependency than the identity problem above.
+No duplicate Hard-Surface, Environment, Technical-Art, Runtime, Art, QA, Materials, Rigging or UC lane was opened.
 
 ## Selected bounded improvement / reusable mesh pattern
 
 Pattern:
 
-**`SOURCE_RENDER_RECEIVER_MESH_IDENTITY_SPLIT`**
+**`SOURCE_OWNER_EQUIVALENCE_TO_INDEXED_RENDER_DOMAIN`**
 
 Purpose:
 
-> Treat source-form identity, Geometry/render-domain identity and receiver-storage identity as three separately evidenced mesh identities. Never transfer a topology or attribute claim across those boundaries merely because positions, triangle count or visible shape appear equivalent.
+> When a source owner has already declared the exact render-corner equivalence boundary, Geometry may realize that equivalence relation as a deterministic indexed render domain: one render vertex per exact owner equivalence class, while preserving all protected attribute/split boundaries and keeping downstream receiver storage as a separately evidenced identity.
 
-This strengthens the previous source-successor quarantine gate without replacing it.
+This is a concrete implementation of the prior `SOURCE_RENDER_RECEIVER_MESH_IDENTITY_SPLIT`, not a replacement for it.
 
-### Layer A — source-form identity
+Key rule:
 
-Owned by the source/form specialist.
+**Coincident geometric positions are not sufficient reason to weld render vertices.** Material, exact normal and explicit protected-split identity remain part of Geometry render identity when the source owner says they are.
 
-Contains the source-owned shape/landmark/semantic geometry that Geometry is allowed to receive. A review candidate is **not** a Geometry successor until the source owner and required review order select it.
+## Building Geometry PR #12
 
-Character review-006 is the current direct example: exact source/proof identities exist, but Geometry topology remains unevaluated.
+Repository:
 
-### Layer B — Geometry/render-domain identity
+`mike-axiom-mir/axm-building-design`
 
-Owned by Geometry / source representation owners as applicable.
+New draft PR:
 
-Contains the exact surface topology plus any structural render-domain splits and Geometry-owned normal/UV/tangent identity needed to represent that surface truthfully.
+**#12 — `Geometry: realize source-intent planar-role indexed render domain`**
 
-Animal PR #20 is the current direct example: 42 source vertices remain the geometric source, but 84 render vertices are intentionally required by UV seams, island boundaries and tangent singularities. Source-vertex equality is therefore not render-vertex equivalence.
+Branch:
 
-### Layer C — receiver-storage identity
+`studio/geometry-planar-role-source-intent-indexed-domain-001`
 
-Owned by Technical Art / Runtime / importer/receiver lanes.
+Base:
 
-Contains the actual stored/indexed/packed/imported representation used by a target receiver. It may deduplicate, relabel or pack Layer-B data while preserving the same logical grouping; it may also expose numeric transport drift even when topology grouping is structurally equivalent.
+- branch `studio/hard-surface-planar-role-render-receiver-001`;
+- exact base/head from Hard Surface #11: `0caa9ac9644f027350935240476bd0bf3bb66e18`.
 
-Building PR #40 is the current direct example: 1008 corners and 312 indexed groups are structurally equivalent at the grouping level, while the receiver still repacks 120 decoded corner normals. That is a Layer-C exactness issue until evidence maps it back to a specific Layer-B geometry defect.
+Exact final tested Geometry head:
 
-## Fail-closed rules
+**`b9b4ab63e23b9756ab79597e86ecc41ea75ea8b7`**
 
-1. **A source successor never inherits topology evidence automatically.** Layer A change requires an explicit Layer-B Geometry rebind.
-2. **A render-domain split is not redundant because positions coincide.** Protected UV/tangent/normal/material boundaries remain part of Layer-B identity.
-3. **Storage/index equivalence is not topology equivalence.** Layer C may reduce stored vertices or relabel index IDs without changing Layer-B topology.
-4. **Grouping equivalence is not attribute exactness.** Building's exact 312-group match does not erase its 120-normal receiver drift.
-5. **Receiver numeric drift does not authorize source/topology mutation by itself.** Technical Art / Runtime must first map a returned defect to Geometry ownership.
-6. **No Geometry repair may hide downstream evidence by changing the source merely to fit an importer.** Repair the narrowest correct owner boundary.
-7. **Rollback identities remain explicit at every layer.** A PASS/HOLD is always bound to source head/digest, Geometry/render head/digest and receiver head/artifact where applicable.
+Observed PR state after CI:
 
-## Why this is the highest-leverage Geometry action now
+**OPEN / DRAFT / MERGEABLE**.
 
-A fresh product mesh edit would currently duplicate or violate an owner boundary:
+New Building-local files:
 
-- Character cannot advance until review-006 is actually selected or rejected;
-- Animal already has an exact Geometry render domain and active downstream consumers;
-- Building's fresh defect is receiver-side normal repacking with Runtime PR #41 already owning the direct preparation experiment;
-- Nature has an explicit no-further-Geometry direction for the current sidedness question;
-- Object has not returned a Geometry-owned structural defect.
+- `assets/service_pavilion_001_planar_role_indexed_geometry_policy.json`;
+- `tools/build_service_pavilion_planar_role_indexed_geometry.py`;
+- `tests/test_service_pavilion_planar_role_indexed_geometry.py`;
+- `.github/workflows/geometry-building-planar-role-indexed-domain.yml`.
 
-The reusable identity split prevents three expensive failure modes at once:
+No semantic Building box, planar rectangle, triangle membership, material scalar, Environment scene, Runtime implementation, Technical-Art bridge, UC module or Profession Fabric body was changed.
 
-- remeshing a source candidate before selection;
-- collapsing necessary render-domain seam vertices because source positions coincide;
-- rewriting product geometry to compensate for receiver storage/import drift.
+## Exact candidate identity
 
-That is materially higher leverage than creating another speculative mesh candidate this activation.
+Candidate:
+
+**`boundary-only-planar-role-source-intent-indexed-001`**
+
+Policy:
+
+**`axm.building-planar-role-indexed-geometry-policy/v0.1`**
+
+Construction:
+
+1. rebuild the exact Hard-Surface planar-role corner domain and equivalence groups from the exact receiving repository state;
+2. bind exact parent split-policy Git blob `5f2130d6286e2ee1b67395b1a753fbfc3eac22ea`;
+3. create exactly one render vertex per source-owner equivalence group;
+4. preserve the parent triangle-corner order as the index stream;
+5. preserve exact material role, position, cardinal hard normal and protected-split identity on each render vertex;
+6. retain source-component and rectangle provenance on the render vertices;
+7. reconstruct the complete parent triangle-corner stream from indexed vertices and require exact equality before PASS.
+
+No generated-normal rewrite is used to force the source identity toward the existing 312-vertex consumer.
+
+## Exact structural result
+
+Scoped result:
+
+**`PASS_SOURCE_INTENT_INDEXED_RENDER_DOMAIN_EXACT_CORNER_RECONSTRUCTION`**
+
+Exact metrics:
+
+- source triangle corners: **`1,008`**;
+- indexed render vertices: **`604`**;
+- indices: **`1,008`**;
+- triangles: **`336`**;
+- material roles: **`5`**;
+- render-vertex reduction versus raw unindexed corner storage: **`404` / `40.07936507936508%`**;
+- unique geometric positions: **`240`**;
+- unique position+normal pairs: **`588`**;
+- render vertices sharing a geometric position with another render vertex: **`364`**;
+- render vertices spanning more than one parent rectangle: **`68`**;
+- maximum source-corner membership in one render vertex: **`3`**;
+- reconstructed position mismatches: **`0`**;
+- reconstructed normal mismatches: **`0`**;
+- reconstructed material-role mismatches: **`0`**;
+- reconstructed protected-split mismatches: **`0`**;
+- exact corner-stream reconstruction: **PASS**.
+
+Candidate canonical SHA-256:
+
+**`f6a831058de66901fd42704b1d8c1cf187b13a0919ae3719c03c4369f107e6c0`**
+
+Exact parent identities retained by the evidence:
+
+- source corner-domain SHA-256: `188576152f0083fc572e4fa50801166520e82e46f4ac7c568ed038133fb6d4d7`;
+- source equivalence-grouping SHA-256: `0e86fba3db0e6e7fe8c54aac9499704c277dbfa10de59b4ee42a3c7487286b88`;
+- source split-policy Git blob SHA-1: `5f2130d6286e2ee1b67395b1a753fbfc3eac22ea`.
+
+## Structural negative controls
+
+The exact evidence fails closed for:
+
+- deleting one source-corner index;
+- mutating an exact source normal;
+- mutating a material role;
+- mutating a protected-split ID;
+- collapsing by geometric position alone.
+
+The last control is materially useful: **180 geometric positions** carry more than one exact source hard normal, so a position-only weld would cross real source-owned hard-edge boundaries.
+
+This directly proves why `240` unique positions do not imply a safe `240`-vertex render mesh and why `312` downstream consumer vertices cannot be relabelled as the exact source-owner domain merely because they are smaller.
+
+## Exact CI / retained evidence
+
+Dedicated workflow:
+
+**`35193077659 — Geometry Building planar-role source-intent indexed-domain evidence`**
+
+Result:
+
+**SUCCESS** on Python **3.11 and 3.13**.
+
+Both jobs:
+
+- checked out exact PR head `b9b4ab63e23b9756ab79597e86ecc41ea75ea8b7`;
+- compiled the new Geometry builder;
+- passed the complete inherited Building test suite;
+- rebuilt the exact 604-vertex candidate;
+- passed the exact reconstruction truth gate.
+
+Python 3.11 retained the evidence artifact.
+
+Retained artifact:
+
+- ID: **`10484607890`**;
+- name: `service-pavilion-planar-role-indexed-geometry-b9b4ab63e23b9756ab79597e86ecc41ea75ea8b7`;
+- size: **`26,469 B`**;
+- GitHub SHA-256: **`0838c0f1d3e64e984934ecec07a9980c9d1c8fdb20c126330d81187a8d1e9855`**;
+- independently downloaded and rehashed during this activation: **same SHA-256**.
+
+The archive retains exact-head identity, policy, indexed candidate JSON, OBJ, machine-readable evidence and the Python 3.11 workflow output.
+
+## Relationship to the existing 312-vertex consumer
+
+This PASS does **not** say `604` is universally better than `312`, and it does not reject the existing Godot consumer.
+
+The identities remain deliberately separate:
+
+1. **Hard-Surface source intent:** `1008` corners -> `604` equivalence groups under exact cardinal hard normals/material/protected splits.
+2. **Geometry Layer-B candidate:** exact indexed realization of those `604` source classes.
+3. **Environment / Technical-Art Layer-C consumer:** `312` stored Godot vertices / `1008` indices, produced under a consumer-generated normal/index domain and already independently reviewed for retained appearance.
+
+Technical Art still owns the current receiver's measured `120 / 1008` normal repack. Environment still owns adoption / rollback. Runtime still owns target-host/device cost. Art / QA still own appearance. Geometry does not collapse these boundaries.
 
 ## Handoffs recorded
 
+### Building Geometry PR #12
+
+Comment **`5710480580`** records exact head, CI, retained metrics, artifact identity, fail-closed controls, authority boundary and explicit non-claims.
+
+### Building Hard Surface PR #11
+
+Comment **`5710481723`** returns the exact realization of Hard Surface's `1008 -> 604` source intent without requesting any source-policy rewrite.
+
 ### Map Technical Art PR #40
 
-Geometry comment **`5709785437`** records:
+Comment **`5710482962`** records the new 604-vertex exact Geometry identity while preserving Technical Art's existing 312-group consumer proof and `120 / 1008` normal-repack HOLD. Any transport of the 604 identity requires a fresh exact rebind.
 
-- the exact 1008 -> 312 grouping equivalence;
-- the exact 120/1008 normal-repack HOLD;
-- classification as receiver/storage transport evidence rather than a source/topology rewrite trigger;
-- explicit ownership split between Building Hard Surface, Technical Art, Runtime and Geometry;
-- no request for a competing Geometry receiver implementation.
+### Map Environment PR #24
 
-### Character Geometry PR #15
+Comment **`5710484478`** records that the reviewed 312-vertex Environment consumer and rollback/adoption policy remain unchanged. The new 604 candidate is not a default-adoption request; a future Environment review must bind the exact candidate and rerun its own current-world gates.
 
-Geometry continuity comment **`5709787012`** records:
+### Runtime / Art / QA
 
-- review-006 still lacks Art/QA selection;
-- Geometry #15 remains frozen to its exact old lineage;
-- the 1122-candidate / 1020 / 162-nonzero result does not transfer to review-006;
-- the new three-layer identity split reinforces the existing source-successor quarantine;
-- next Character action remains selected-review rebind or, after rejection, a materially different bounded local remesh.
+No implementation or acceptance was inserted into these lanes. Runtime should measure this exact identity only if it becomes a real receiver candidate. Art / QA should compare it only after a target host renders this exact identity. No visual or performance PASS is inferred from structural exactness.
 
-### Animal Geometry PR #20
+## Reusable Geometry learning
 
-No new comment was required. Its existing exact contract already states the source 42-vertex geometry and 84-vertex render domain separately and explicitly hands transport/cost to Technical Art / Runtime.
+The bounded reusable lesson is:
 
-### Runtime PR #41
+> **Source-owner render equivalence can be made executable without turning it into downstream adoption. Geometry should realize the exact declared equivalence classes, preserve deliberate duplicate positions at hard/material/split boundaries, and let receiver/storage identities remain separately evidenced.**
 
-No Geometry implementation or acceptance was inserted while its dedicated receiver-preparation workflow remained in progress. Runtime owns the measurement and exact candidate result.
+This is now directly evidenced in Building and conceptually consistent with Animal's deliberate source-to-render vertex expansion, but the implementation remains Building-local. It is not promoted automatically to Universal Creation or Profession Fabric.
 
-## Structural validation used for this pattern
-
-This activation does not claim a new product PASS from reused evidence. It validates the identity pattern against three materially different exact situations:
-
-1. **Character source successor boundary:** changed source identity, topology not yet evaluated.
-2. **Animal render-domain boundary:** unchanged geometric surface / triangle count with intentional source-to-render vertex expansion.
-3. **Building receiver boundary:** unchanged logical receiver grouping/positions with a real post-index normal-transport delta.
-
-These cases are different enough to justify the Geometry coordination pattern, but not enough to authorize a new automatic UC mutator or Profession Fabric promotion. Capability Cartography already has active UC #179 / evidence-placement work around indexed-surface observation, so Geometry deliberately does not duplicate it.
+A future neutral extraction would need materially different domains and explicit contracts for additional channels such as UVs, tangents, skin/morph/custom attributes before any generic indexed-mesh machinery is justified.
 
 ## Truth boundary / explicit non-claims
 
-This activation establishes only a **Geometry evidence/identity separation pattern** and updated handoffs.
+This activation establishes only one exact Building Geometry render-domain realization and its evidence contract.
 
 It does **not** establish:
 
-- Character review-006 visual selection or source adoption;
-- connected topology or intersection freedom for review-006;
-- a new Character mesh identity;
-- transfer of Geometry #15 evidence to review-006;
-- Animal final texture UVs, tangent-space appearance or transport acceptance;
-- Building exact post-index normal transport;
-- Building independent Visual-QA acceptance;
-- Building Environment default adoption;
-- acceptability of the Building `+180` primitive residual on target hardware;
-- success or failure of Runtime PR #41 while its workflow remains in progress;
-- arbitrary mesh indexing / welding / deduplication safety;
+- semantic Building source replacement;
+- that `604` vertices is globally minimal or optimal;
+- equality, superiority or replacement of the existing `312`-vertex consumer;
+- byte-exact Godot/import/export transport;
+- a generic normal tolerance;
+- final UVs, tangents, textures, normal maps, decals or arbitrary custom-channel safety;
+- final Materials or Art Direction preference;
+- Visual Observer acceptance of this exact 604 identity;
+- Environment default adoption;
+- Runtime CPU/GPU/FPS/VRAM/heap/batching/device acceptance;
+- collision, navigation, physics, architecture/manufacturing or gameplay suitability;
+- arbitrary-mesh indexing / welding safety;
 - automatic seam inference;
-- arbitrary UV/tangent/custom-channel/deformation safety;
-- runtime performance certification;
-- collision, navigation, physics or gameplay suitability;
+- Character review-006 selection or topology/intersection freedom;
+- Animal final tangent-space / deformed direction-frame resolution;
 - UC / Profession Fabric promotion;
 - CANON or merge authority;
 - production readiness, game readiness or Geometry mastery.
 
 ## Four-root gate
 
-- **Truth:** source, render-domain and receiver-storage facts remain separately named. Exact grouping equivalence is not relabelled as normal exactness, and receiver normal drift is not relabelled as a topology failure.
-- **Agency / non-domination:** Organic/Form owns source candidates; Geometry owns topology/render-domain structure; Hard Surface retains Building representation semantics; Technical Art owns transport observation; Runtime owns storage/performance; Art/QA own appearance; no lane silently absorbs another.
-- **Continuity:** previous Geometry status blob `3248328d...`, Character #15, Character review-006, Animal #20, Building #11, Map #40 and Runtime #41 remain separately rollbackable exact identities.
-- **Wisdom before speed:** do not create a new mesh merely because a downstream receiver reports numeric drift; first identify which mesh layer actually owns the defect and let the active owner finish its bounded evidence.
+- **Truth:** the exact source-owner `604` domain, exact Geometry `604` realization and existing consumer `312` identity remain separately named. Zero reconstruction mismatches are not relabelled as target-host/visual/runtime acceptance.
+- **Agency / non-domination:** Hard Surface keeps source semantics and equivalence; Geometry owns only the indexed Layer-B realization; Environment owns receiving/adoption; Technical Art owns transport exactness; Runtime owns cost; Art/QA own appearance.
+- **Continuity:** previous Geometry status blob `3a66ba97...`, Hard Surface head `0caa9ac9...`, Geometry PR #12 head `b9b4ab63...`, artifact `10484607890`, current 312 consumer and Character/Animal histories remain separate rollbackable identities.
+- **Wisdom before speed:** implement the exact missing owner boundary instead of forcing source normals to match a smaller consumer or opening a speculative optimizer. Preserve the smaller 312 consumer as valid downstream evidence until an explicit comparison is justified.
 
 ## Next Geometry pass
 
@@ -270,8 +310,9 @@ Re-scan the full constellation first.
 
 Priority triggers:
 
-1. **Character review-006 selected by Art/QA:** bind exact source digest `8e9252ed...` + proof-mesh digest `f173b2af...`, build a new exact Geometry receiver and rerun connected topology/intersection evidence from scratch. No old Geometry result transfers.
-2. **Character review-006 rejected:** resume on the retained current source with the materially different bounded local-remesh/new-edge-loop family; do not repeat 2-flip / fixed-third / exhaustive-three-flip searches.
-3. **Building Runtime / Technical Art returns a specific Geometry-owned defect:** act only on the exact Layer-B render identity that caused it. Do not rewrite Building merely for a receiver-storage artifact.
-4. **Animal downstream returns a UV/tangent/render-domain structural defect:** repair the exact 84-vertex render identity without collapsing protected seams or silently changing source form.
-5. Otherwise choose a different domain only when it returns a real Geometry-owned structural dependency; do not mutate meshes to fill a run.
+1. **Technical Art / Environment selects the new 604 candidate for transport/review:** bind exact candidate SHA `f6a83105...` and test only returned Geometry-owned defects; do not claim receiver success from this structural PASS.
+2. **Hard Surface changes source equivalence:** rebind from the exact new source-owner relation rather than carrying `604` forward by assumption.
+3. **Character review-006 selected by Art/QA:** bind its exact source/proof identities and rebuild connected topology/intersection evidence from scratch; old Geometry results do not transfer.
+4. **Character review-006 rejected:** resume only with a materially different local-remesh/new-edge-loop family on the retained source; do not repeat exhausted flip searches.
+5. **Animal downstream returns a structural render-domain defect:** repair the exact Geometry identity without collapsing intentional seams or changing source form.
+6. Otherwise choose another domain only when it exposes a real Geometry-owned dependency; do not mutate meshes merely to fill a run.
