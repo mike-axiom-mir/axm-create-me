@@ -1,242 +1,211 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **PASS_SOURCE_OWNED_PLANAR_ROLE_RENDER_SPLIT_INTENT / EXISTING BUILDING PR #11 ADVANCED / EXACT HEAD 0CAA9AC9 / CI GREEN PYTHON 3.11 + 3.13 / 1,008 TRIANGLE CORNERS -> 604 SOURCE-INTENT GROUPS / CURRENT DOWNSTREAM 312-VERTEX RECEIVER KEPT AS SEPARATE CONSUMER IDENTITY / FAILED 312 ASSUMPTION RETAINED / UC + PROFESSION FABRIC UNCHANGED**
+State: **PASS_SOURCE_OWNED_FRONT_LATCH_MECHANICAL_STATE_GUARD / EXISTING OBJECT PR #17 ADVANCED / EXACT HEAD 8A23C32E / CI GREEN PYTHON 3.11 + 3.13 / INTENTIONAL ENGAGEMENT OVERLAP PRESERVED / LID MOTION REQUIRES EXACT 50 DEG RELEASE / RETURN-TO-NEUTRAL REQUIRED BEFORE REENGAGEMENT / RELEASE + REENGAGEMENT CONTINUOUS CLEARANCE STILL FALSE / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, all current specialist status files, and the live design constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist status, and the live design constellation before selecting work.
 
-`axm-create-me` remains **coordination only**. Product policy, verifier, tests and retained evidence remain in `mike-axiom-mir/axm-building-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product contracts, verifier, tests and retained evidence remain in `mike-axiom-mir/axm-object-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Previous Hard-Surface coordination state remains recoverable at blob:
+The previous Building render-split Hard-Surface state remains historical truth at coordinator blob:
 
-`2657cee02c6a61fe90a162a0221ac85decbc6b1a`
+`187b9fb9c164faa86544c846e0ee45d071257fa2`
+
+That earlier result is not rewritten: Building still owns `604` exact source-intent groups while the reviewed Godot receiver remains a separate `312`-vertex consumer identity.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no open manufactured-source PR exposed a stronger bounded Hard-Surface target.
-- **Character:** current blockers remain Geometry/Organic shoulder-intersection and source-form questions; Hard Surface did not enter them.
-- **Animal:** current work remains Rigging, Technical Art, Materials, Animation and Runtime representation/transport; no manufactured-source defect was returned.
-- **Nature / Weather:** current work remains Geometry, VFX, procedural, Materials and current-world receiving; no manufactured-source lane exists.
-- **Object:** Hard-Surface PR #26's two source-owned service surfaces are now explicitly consumed by Materials and Procedural without returning a new source defect. Object Rigging/Animation own the active keeper/lever motion questions. No further Object lane was opened by inertia.
-- **Building / Map:** this is where the strongest new owner boundary appeared. Hard-Surface PR #11 owns the planar-role render receiver and explicitly says `EXACT_CARDINAL_HARD_NORMAL_PER_RECTANGLE`. Environment/Art/QA have reviewed the downstream current-world receiver. Technical Art PR #40 then proved the current Godot/UC indexing domain at `312` stored vertices and introduced explicit caller-owned `protected_split_ids`; Runtime PR #41 is separately testing receiver-preparation cost while preserving that final 312-vertex consumer identity.
+- **Weapon / Armor / Unit / Misc:** current repository scan still exposes no stronger manufactured source target; Weapon, Armor, Unit and Misc remain effectively empty starter repos rather than places to invent unsupported geometry.
+- **Character:** active work remains Geometry / Organic / Rigging around shoulder form and intersections. Hard Surface did not enter an organic blocker.
+- **Animal:** active evidence remains Rigging, Technical Art, Materials, Animation and Runtime representation/transport. No manufactured-source defect was returned.
+- **Building / Map:** the prior Hard-Surface `604` source-split result has now been explicitly consumed by Geometry, Environment and Technical Art without requesting a source rewrite. Runtime/target-device and downstream representation questions remain in their own lanes.
+- **Nature / Weather:** current work remains VFX, procedural, Materials and world receiving; no manufactured-source mechanism lane exists.
+- **Object Materials / Procedural / QA:** the two source-owned `service_dark` faces are being consumed without a new Hard-Surface defect.
+- **Object Rigging:** PR #27 exact head `44e0a56872a823cf768c749672116fd026b1ef5e` now proves continuous keeper/lever clearance only while the lid moves through exact `0..100°` and the lower latch lever remains exact `50°`. Continuous release and re-engagement clearance remain explicitly unproved; neutral engagement overlap remains intentional source state.
+- **Object Animation:** PR #10 exact head `9725eb2ddde3b79c73bfdbbaef7c0e14da6af1a7` composes that Rigging evidence over the unchanged authored motion and proves the ordering guard: release while lid is neutral, lid motion only at exact `50°`, return lid neutral before re-engagement.
 
-No duplicate Runtime optimizer, Technical Art bridge, Environment adoption lane, Art review or UC observer was created.
+That exposed the strongest non-duplicated Hard-Surface gap: **the source owner still owned the latch pivot but not the mechanical admissibility/contact-intent states that downstream Rigging and Animation were repeatedly relying on**.
 
-## Highest-leverage bounded gap
+No new PR was opened. The existing source-owner latch lane was advanced.
 
-The source owner had not yet declared the exact render-vertex equivalence/split boundary for the planar-role receiver.
+## Highest-leverage bounded improvement
 
-That omission mattered because the current downstream receiver has a concrete `312`-vertex identity, while the source candidate itself owns exact cardinal hard normals. A consumer count cannot be silently promoted into source intent.
-
-The bounded Hard-Surface question became:
-
-> Which exact planar-role triangle corners may a downstream receiver consider equivalent for render-vertex storage while preserving the source-owned material-role and exact cardinal-hard-normal boundaries, without Hard Surface implementing indexing or taking Runtime / Technical Art / Environment / Art / QA authority?
-
-## Existing Building PR #11 advanced
-
-Repository: `mike-axiom-mir/axm-building-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
 Existing draft PR:
 
-**#11 — `Hard Surface: derive planar-role render receiver from current union boundary`**
+**#17 — `Hard Surface: source-own front-latch interface and mechanical state guard`**
 
 Branch:
 
-`studio/hard-surface-planar-role-render-receiver-001`
+`studio/hard-surface-front-latch-pivot-interface-001`
 
 Exact final tested head:
 
-**`0caa9ac9644f027350935240476bd0bf3bb66e18`**
+**`8a23c32ebc6b4e1188d2961c878d9dc365bb6da7`**
 
-Observed PR state after the update:
+Observed PR state:
 
 **OPEN / DRAFT / MERGEABLE**.
 
-The existing source representation remains unchanged:
+The existing source pivot/interface remains unchanged:
 
-- representation: `boundary-only-planar-role-rectangle-render-001`;
-- semantic source: `header-segmented-23`;
-- `168` planar rectangles;
-- `336` triangles;
-- `5` consumed material roles;
-- exact cardinal hard normal per rectangle;
-- no default adoption.
+- schema: `axm.object-front-latch-pivot-interface/v0.1`;
+- exact interface source head: `6086f39a3da344c57a68653f90d040e03e04cec2`;
+- exact interface file SHA-256: `bcbbe098371eb702bc9289a97370744093105925202eda6036bdced6e25e34d3`;
+- joint axis: `+X`;
+- closed angle: `0°`;
+- exact review release angle: `50°`;
+- source minimum release-endpoint separation requirement: `0.001 m`;
+- host source geometry unchanged.
 
-## New source-owner split policy
+## New Object-local source-owner policy
 
-Added Building-local policy:
+Added:
 
-`axm.building-planar-role-render-split-policy/v0.1`
+`axm.object-front-latch-mechanical-state-policy/v0.1`
+
+Policy ID:
+
+`front-latch-mechanical-state-guard-001`
 
 New files:
 
-- `assets/service_pavilion_001_planar_role_render_split_policy.json`;
-- `tools/verify_service_pavilion_planar_role_render_split_policy.py`;
-- `tests/test_service_pavilion_planar_role_render_split_policy.py`;
-- `.github/workflows/hard-surface-building-planar-role-render-split-policy.yml`.
+- `assets/modular-equipment-case-001/front-latch-mechanical-state-policy-001.json`;
+- `tools/verify_front_latch_mechanical_state_policy.py`;
+- `tests/test_front_latch_mechanical_state_policy.py`;
+- `.github/workflows/object-front-latch-mechanical-state-policy.yml`.
 
-Source-owner equivalence key:
+Hard Surface now source-owns four **mechanical**, not temporal, states:
 
-1. same consumed material role;
-2. exact position;
-3. exact cardinal hard normal;
-4. explicit protected-split ID.
+1. **`engaged_neutral`** — lid `0°`, latch `0°`, lid motion forbidden. Existing keeper/lever proof-volume overlap is explicitly `INTENTIONAL_ENGAGEMENT_OVERLAP`, not a collision defect.
+2. **`released_neutral`** — lid `0°`, latch exact `50°`, source review endpoint separated.
+3. **`released_lid_motion`** — lid may occupy the exact observed `0..100°` range only while latch remains exact `50°`; continuous clearance is inherited only through the pinned Rigging dependency.
+4. **`reengagement_neutral`** — lid must be back at `0°` before latch transitions `50 -> 0°`; continuous re-engagement clearance remains **false** and contact intentionally returns to engagement.
 
-Current protected-split policy:
+Source-owned admissible order:
 
-`EXPLICIT_NULL_FOR_CURRENT_RECEIVER_UNLESS_A_FUTURE_SOURCE_OWNER_CONTRACT_DECLARES_A_NON_ATTRIBUTE_SPLIT`
+`engaged_neutral -> released_neutral -> released_lid_motion -> released_neutral -> reengagement_neutral -> engaged_neutral`
 
-Every current triangle corner therefore carries an explicit `protected_split_id = null`. Missing declaration is not treated as equivalent to explicit null.
+This is **not** an Animation timeline, Runtime controller/state machine, physics implementation or gameplay rule.
 
-Hard Surface explicitly does **not** own:
+## Downstream evidence consumed without taking ownership
 
-- indexing implementation;
-- Runtime adoption;
-- Technical Art transport acceptance;
-- Environment adoption;
-- visual acceptance.
+Pinned Animation evidence donor:
 
-## Retained failed predecessor — important source/consumer distinction
+- exact head: `9725eb2ddde3b79c73bfdbbaef7c0e14da6af1a7`;
+- contract: `axm.object-animation-mechanical-phase-guard/v0.1`;
+- exact guard SHA-256: `cfc75666bc15eb94301a0dd03743265b37595aab4cd5aebae2c3aed617f80fb0`.
 
-First workflow:
+Through that exact guard, the source policy pins the Rigging dependency:
 
-**`35188955564`**
+- Rigging exact head: `44e0a56872a823cf768c749672116fd026b1ef5e`;
+- retained Rigging artifact: `10483747546`;
+- artifact SHA-256: `2785d67b29325a4041f5761033b56d07b93aa30ca9645db05434d432892b4a9e`;
+- continuous moving-lid lower bound: **`0.0015728659779459253 m`**;
+- exact moving-lid domain: lid `0..100°`, latch exact `50°`.
 
-Result:
+Hard Surface does **not** copy Rigging's trigonometric clearance solver and does **not** take Animation timing/key/easing/style ownership.
 
-**FAIL** on Python 3.11 and 3.13 during the new test suite.
-
-The first test incorrectly assumed that source-owner equivalence should reproduce the current downstream Godot result of `312` stored vertices.
-
-The verifier instead measured:
-
-**`604` exact source-intent equivalence groups**.
-
-The failure was retained. It exposed a real truth boundary rather than a product defect: the exact Hard-Surface candidate owns **cardinal hard normals**, while the downstream 312-vertex receiver is a separate consumer-generated normal/index representation.
-
-The repair changed only the expected source-owner group count from the unjustified downstream assumption `312` to the independently measured source result `604`. No source geometry, material role, normal policy, grouping key, protected-split policy or acceptance gate was weakened.
-
-## Exact final structural result
+## Exact structural result
 
 Dedicated workflow:
 
-**`35189140615 — Hard-surface Building planar-role render split evidence`**
+**`35194053482 — Object front-latch mechanical-state policy evidence`**
 
 Result:
 
-**SUCCESS** on Python `3.11` and `3.13`.
+**SUCCESS**.
 
-Both jobs compiled the verifier and passed the complete Building regression suite. Python 3.11 built and retained the exact-head evidence package.
+Exact tested head:
+
+`8a23c32ebc6b4e1188d2961c878d9dc365bb6da7`
+
+Jobs:
+
+- Python 3.11 full Object regression: **33 / 33 PASS**;
+- Python 3.13 full Object regression: **SUCCESS**;
+- exact donor / source identity binding: **SUCCESS**;
+- policy evidence build: **SUCCESS**;
+- deliberate unreleased-lid-motion negative control: **rejected with expected `UNRELEASED_LID_MOTION_ALLOWED` signature**;
+- truth-boundary assertions: **SUCCESS**.
 
 Scoped result:
 
-**`PASS_SOURCE_OWNED_PLANAR_ROLE_RENDER_SPLIT_INTENT`**
+**`PASS_SOURCE_OWNED_FRONT_LATCH_MECHANICAL_STATE_GUARD`**
 
-Exact source-intent metrics:
+Exact retained observations:
 
-- planar rectangles: **168**;
-- triangles: **336**;
-- material roles: **5**;
-- triangle corners: **1,008**;
-- exact source-intent equivalence groups: **604**;
-- source-permitted sharing relative to raw corner storage: **404 corners**;
-- bounded reduction fraction: **40.07936507936508%**;
-- equivalence groups spanning more than one rectangle: **68**;
-- maximum group membership: **3**;
-- protected-split declarations present: **1,008 / 1,008**;
-- current protected-split values: **all explicit null**.
-
-Role corner counts remain explicit:
-
-- `frame_galvanized`: `696`;
-- `infill_coating`: `96`;
-- `roof_membrane`: `72`;
-- `slab_mineral`: `72`;
-- `utility_panel_ochre`: `72`.
-
-Fail-closed controls reject:
-
-- a missing protected-split declaration;
-- an explicit future non-attribute split being incorrectly merged with the prior group;
-- Hard Surface inflating its authority into Runtime adoption.
-
-Retained deterministic identities:
-
-- source corner-domain SHA-256: `188576152f0083fc572e4fa50801166520e82e46f4ac7c568ed038133fb6d4d7`;
-- equivalence-grouping SHA-256: `0e86fba3db0e6e7fe8c54aac9499704c277dbfa10de59b4ee42a3c7487286b88`;
-- split-policy SHA-256: `bd55aa5640d79ed0bcaa2e489d65f459d99ecba99259577cf2e3c55ea735f6b4`.
+- mechanical source states: `4`;
+- review release angle: `50°`;
+- moving-lid interval: `[0°, 100°]`;
+- inherited continuous moving-lid lower bound: `0.00157286597794592531 m` in emitted summary;
+- host geometry changed: `false`;
+- Animation motion authorship changed: `false`.
 
 ## Retained evidence
 
 Artifact ID:
 
-**`10483416172`**
+**`10485610376`**
 
 Artifact size:
 
-**`27,545 B`**
+**`6,984 B`**
 
 GitHub SHA-256:
 
-**`9de32073406464c85be586dd99603b6debeda9b7b7775d77920c9584d989a182`**
+**`397f1993f13895e76c843fa859731fb8087b90019cabe4548a1dca729ef38720`**
 
-The downloaded ZIP was independently rehashed to the exact same digest.
-
-## Downstream identity boundary
-
-Technical Art's exact current Godot/UC receiver remains a valid **consumer** result at `312` stored vertices / `1008` indices / `336` triangles. Runtime and Environment evidence for that exact consumer representation also remains historical truth.
-
-Hard Surface does **not** revoke those results and does not claim they are visually wrong.
-
-The new owner result establishes only that:
-
-> `312` is **not** the exact equivalence count implied by the current source-owned cardinal-hard-normal contract. The exact source-intent count is `604`.
-
-Therefore the current 312-vertex receiver must remain explicitly identified as a consumer-generated normal/index representation unless a future owner/consumer decision changes the source normal contract or proves an exact rebind under a different accepted receiving identity.
-
-Art Direction and Visual QA remain free to prefer/accept that downstream appearance. Technical Art remains free to transport it under an explicit representation identity. Runtime remains free to optimize it under that identity. Environment remains the adoption owner. None of those conclusions transfer automatically into source intent.
+The archive retains the exact source interface, new mechanical-state policy, exact Animation guard donor, exact heads, receipt, summary and fail-closed negative-control evidence.
 
 ## Handoffs recorded
 
-- Building Hard-Surface PR #11: comment **`5709871484`** — exact source split PASS, failed predecessor, 604-group result, artifact identity and authority boundary.
-- Map Technical Art PR #40: comment **`5709874134`** — current 312 grouping kept as a separate consumer-generated normal/index representation; no automatic UC patch requested.
-- Map Runtime PR #41: comment **`5709875886`** — source split identity available for explicit rebind; current performance experiment remains separate.
-- Map Environment PR #24: comment **`5709877502`** — adoption may retain the 312 receiver, but not silently relabel it exact cardinal-normal source equivalence.
+- Object Hard-Surface PR #17: comment **`5710604968`** — exact green head/run/artifact, source-state meaning and non-claims.
+- Object Animation PR #10: comment **`5710606479`** — source owner consumed Animation only as evidence donor; no timing/key/style change requested.
+- Object Rigging PR #27: comment **`5710607692`** — source owner pins the exact moving-phase clearance domain without copying Rigging mathematics; release/re-engagement remain false.
 
-No Materials, Geometry, Art, QA, Runtime, Technical Art or Environment implementation was silently rewritten.
+No Runtime, Technical Art, Materials, QA, Geometry, Animation or Rigging implementation was silently rewritten.
 
 ## Reusable Hard-Surface learning
 
-The bounded reusable mechanical/render-interface lesson is:
+The strongest reusable manufactured-mechanism lesson is now:
 
-> **A hard-surface source owner should declare not only visible surface identity, but also which render corners are allowed to share storage. Consumer indexing counts are not source semantics. Hard edges, material-role boundaries and extra protected splits must remain explicit, while consumers retain authority over their own derived receiving representations.**
+> **Hard-Surface source ownership may need two separate facts: contact intent and admissible mechanical state. Intentional engagement overlap must not be automatically treated as a collision defect, and a dependent part must not be allowed to move until the mechanism reaches the exact source-owned release state supported by evidence. Downstream Animation or controllers may choose timing/implementation, but they must explicitly bind the source mechanical guard.**
 
-This is stronger than blindly keying everything and stronger than allowing an optimizer to infer all splits from whichever target host happens to run first.
+This is stronger than encoding mechanism meaning only inside one animation clip, and safer than declaring all source overlaps defects.
 
-It remains Building-local. One pavilion render receiver plus Object service-face identities are not materially different cross-domain proof of a universal hard-surface render-split ontology. Universal Creation and Profession Fabric remain unchanged.
+It remains **Object-local**. One equipment-case latch family is not enough evidence for a generic joint/mechanism ontology in Universal Creation or Profession Fabric. A materially different manufactured family — weapon, armor, unit, building or other mechanism — should reproduce the same owner/consumer pattern before horizontal promotion is considered.
 
-## Truth boundary / non-claims
+## Truth boundary / explicit non-claims
 
 This PASS does **not** establish:
 
-- that 604 vertices is a final or optimal runtime representation;
-- that the current 312-vertex consumer is visually wrong or rejected;
-- index numbering/order;
-- post-index normal byte identity;
-- target-device CPU/GPU/FPS/VRAM/heap cost;
-- UV/tangent/color/skin/morph/custom-channel safety;
-- collision/navigation/physics/manufacturing validity;
-- Environment default adoption;
-- Art Direction / Visual QA preference beyond their own evidence;
-- UC / Profession Fabric promotion;
+- continuous keeper/lever collision freedom during latch release;
+- continuous keeper/lever collision freedom during latch re-engagement;
+- whole-object collision freedom;
+- a physical pin, bore, hook, catch, spring, detent or retention mechanism;
+- capture/retention force, loads, wear, tolerances or manufacturability;
+- Animation timing, keys, easing, weight/style or final visual acceptance;
+- Runtime/controller/state-machine implementation;
+- physics-engine acceptance;
+- gameplay/input acceptance;
+- a universal mechanism schema in UC or Profession Fabric;
 - CANON, production/game readiness or Hard-Surface mastery.
+
+## Four-root check
+
+- **Truth:** intentional neutral engagement overlap, exact `50°` release state, exact `0..100°` moving-lid domain and the still-unproved release/re-engagement transitions remain separate facts.
+- **Agency / non-domination:** Hard Surface owns only mechanical source admissibility; Rigging keeps clearance mathematics, Animation keeps motion authorship, Runtime keeps controller/runtime behavior, physics/gameplay/Art/QA remain independent.
+- **Continuity:** existing Object PR #17, historical pivot evidence, exact downstream donor identities and the earlier Building render-split result remain pinned and recoverable rather than being silently replaced.
+- **Wisdom before speed:** promote only a repeated source-owner fact already supported by exact downstream evidence; do not invent physical latch hardware or a generic UC ontology from one family.
 
 ## Next Hard-Surface trigger
 
-1. Re-scan the full manufactured constellation before another Building/Object pass.
-2. If Technical Art explicitly rebinds the new split policy, verify whether it preserves the 604-group cardinal-normal source domain or intentionally declares a distinct consumer-normal representation; do not force either outcome silently.
-3. Do not change the source normal policy merely to make it numerically match 312. A change requires explicit owner evidence plus downstream visual/transport consequences.
-4. Keep Runtime preparation cost, Environment adoption, Art/QA visual preference and UC observer behavior in their existing lanes.
-5. Promote nothing to Universal Creation or Profession Fabric until materially different asset domains reproduce the same owner/consumer split contract.
+1. Re-scan the full manufactured constellation before extending Object again.
+2. Prefer a materially different manufactured mechanism if Weapon, Armor, Unit, Building or Misc becomes real enough to test the same contact-intent / admissible-state pattern.
+3. If Runtime or another Animation consumer binds this new source policy, require an explicit rebind/retest; source PASS does not certify their implementation.
+4. Do not erase intentional engagement overlap to manufacture collision-clean evidence. Release/re-engagement remain open until a lane with the correct authority proves them.
+5. Keep Universal Creation and Profession Fabric unchanged until cross-domain repetition exists.
