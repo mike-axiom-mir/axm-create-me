@@ -3,206 +3,269 @@
 - Date: `2026-09-17`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_INTERFACE_ORIENTATION_POLICY_ENFORCEMENT_SEPARATION_MAP / BUILDING INTENTIONALLY REVERSIBLE / OBJECT INTENTIONALLY KEYED / PF #38 REFINED EVIDENCE-ONLY / NO UNIVERSAL KEYED-INTERFACE OR UC AUTO-ORIENTATION MUTATOR / CREATE-ME COORDINATION-ONLY`
+- State: `PASS_SHARED_SELF_INTERSECTION_OBSERVER_PLACEMENT_AND_REBIND_MAP / UC_PR_188_MERGED_41B4D913 / ANIMAL+CHARACTER_LOCAL_RECEIPTS_PRESERVED / PRODUCT_REBINDS_REQUIRED_BEFORE_SUCCESSOR_CLAIMS_OR_LOCAL_RETIREMENT / PF_38_EXISTING_REBIND_PROCEDURE_APPLIES / NO_MUTATOR_OR_PASS_TRANSFER / CREATE-ME_COORDINATION_ONLY`
 
 ## Selected material cross-repo learning
 
-Fresh Hard-Surface evidence from two independent manufactured products now supports one strong reusable rule:
+Fresh Geometry evidence has crossed the threshold from repeated product-local method to a correctly placed shared machine capability:
 
-> **Geometric fit, source-owned orientation policy, and physical orientation enforcement are three separate capabilities/evidence identities.**
+> **Shared observer extraction and product evidence migration are two separate events.**
 
-A symmetric interface can intentionally allow more than one physical orientation, or it can intentionally require one orientation and therefore need a separate asymmetric registration mechanism. Similar geometry does not choose the product policy.
+Animal and Character independently needed the same bounded nonadjacent indexed-triangle self-intersection question. Universal Creation has now merged a neutral, read-only successor observer for that repeated mechanism. That merge does **not** make either product's historical local receipt current under UC, and it does not authorize deleting either local implementation before an exact product-local rebind/rerun proves the successor on that receiving path.
 
-The cross-domain rule is therefore **not** “symmetric mounts need keys” and **not** “symmetric mounts should stay reversible.” It is:
+The reusable distinction is:
 
-`observed alternate fit != source-valid orientation != physical enforcement`
+`repeated product-local mechanism -> shared UC observer placement != product receipt migration != local implementation retirement`
 
-This is currently an evidence/provenance placement decision, not a shared product-implementation extraction.
+This is both a duplication decision and a dependency-placement decision.
 
-## Evidence A — Building intentionally preserves reversibility
+## Evidence A — Animal is the first local mechanism precedent
 
-Repository: `mike-axiom-mir/axm-building-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Hard-Surface PR #5: `Hard Surface: preserve utility-panel 180° mechanical reversibility`
+Geometry PR #4 current head:
 
-Current exact head:
+`feb4b24cd36bcc879173138d240754f71db34834`
 
-`7f518b55c6bab083a3c8bbe368bfe77823f31547`
+Historical/local module:
 
-Relevant source-owned facts:
+`src/axm_animal_design/self_intersection.py`
 
-- exact 0° and unordered 180° mount-pattern residuals remain `0.0 m`;
-- current and legacy source roles preserve the same tested reversibility;
-- `physical_orientation_key_present = false`;
-- receiver-frame metadata remains authoritative;
-- the source policy explicitly preserves mechanical reversibility until Building declares a physical orientation requirement;
-- geometry and source-role adoption are unchanged by this evidence lane.
+The Animal helper:
 
-Scoped Building result remains:
+- checks indexed triangle pairs that do not share a source vertex index;
+- uses AABB rejection plus finite-float triangle intersection predicates, including coplanar handling;
+- reports bounded examples and exact pair counts;
+- explicitly excludes topological-neighbour contact, continuous deformation, visual quality, collision suitability and Runtime behaviour;
+- remains product-local evidence for the exact Animal receiving geometry.
 
-`PASS_BUILDING_PANEL_180_DEGREE_REVERSIBILITY_ACROSS_CURRENT_AND_LEGACY_SOURCE_ROLES`
+Animal PR #4 is still OPEN / DRAFT / MERGEABLE and retains its exact product-local evidence. The local receipt is not invalidated by a later UC extraction.
 
-Building therefore proves that multiple exact fits can be an **intentional valid product state**. Cartography must not reinterpret that symmetry as a missing key.
+## Evidence B — Character independently repeated the same neutral mechanism
 
-## Evidence B — Object intentionally requires unique orientation
+Repository: `mike-axiom-mir/axm-character-design`
 
-Repository: `mike-axiom-mir/axm-object-design`
+Historical Character self-intersection implementation identity:
 
-Hard-Surface PR #9: `Hard Surface: add asymmetric service-module registration key`
+`eae6d296867ecaa40e8f5c3f1fe37d8e3019541e`
 
-Current exact head:
+Module:
 
-`3f091bda68b33482bdefe1cf4adf97caf9c0c87e`
+`src/axm_character_design/self_intersection.py`
 
-Relevant source-owned facts:
+Character explicitly records Animal as a bounded geometric-method precedent only, then re-tests locally rather than inheriting Animal's result. The Character helper preserves the same essential neutral question and the same exclusion of source-index neighbours.
 
-- the existing four-point service-module mount is physically 180° symmetric;
-- source intent requires one unique seated orientation;
-- a separate Object-owned registration overlay adds an asymmetric host pin / module recess datum at local lateral/up `[0.027, 0.014] m`;
-- the existing host/module source geometry remains unchanged by the overlay;
-- the proof requires 0° registration alignment and requires the 180° orientation to fall outside the declared capture tolerance;
-- centered-datum, edge-margin, clearance and source-identity negative controls fail closed.
+Current Character Geometry PR #16 is OPEN / DRAFT / MERGEABLE at:
 
-Object therefore proves that the same broad geometric ambiguity can instead be an **intentional invalid product state** and that physical enforcement is a separate product-owned mechanism.
+`7126a1a167c8a6249e4120349e096c606a9371b9`
 
-## Bounded cross-repo capability map
+Its selected `opening_repair` receiver remains `92v / 180t` per side with the historical Character-local neutral nonadjacent-intersection result retained separately. PR #16 already demonstrates the correct migration discipline for the earlier merged UC topology observer: exact shared machinery is pinned and rerun in the receiving product before any shared-observer claim transfers.
 
-The smallest reusable evidence model supported by both domains is:
+## Evidence C — Universal Creation now owns the repeated neutral observer
 
-1. `interface_geometry_identity` — exact source/interface geometry identity;
-2. `observed_fit_relation` — which explicitly tested transforms physically fit/aligned, without inferring validity;
-3. `declared_orientation_policy_identity` — source-owned statement of which orientations are valid or invalid;
-4. `physical_registration_or_enforcement_identity` — optional exact mechanism that enforces the policy, including explicit `NONE`;
-5. independent bounded claim verdicts for **fit**, **policy satisfaction**, and **physical enforcement**.
+Repository: `mike-axiom-mir/axm-universal-creation`
 
-Non-transfer rules:
+PR #188 — `Add bounded nonadjacent triangle self-intersection observer`
 
-- `geometric fit PASS != orientation-policy satisfaction`;
-- `multiple physical fits != multiple source-valid orientations`;
-- `one declared source-valid orientation != proof that physical enforcement exists`;
-- an intentionally reversible interface must not be treated as defective because multiple fits exist;
-- an asymmetric enforcement mechanism must not be copied into another product merely because the other product has geometric symmetry.
+State:
 
-A downstream claim such as `orientation physically enforced` therefore needs both a bound source policy and an evidenced enforcement/registration mechanism for the tested state.
+**CLOSED / MERGED**
 
-## Placement decision — Profession Fabric evidence vocabulary, not shared product geometry
+Merge commit:
 
-The correct current home for the reusable relation is the existing experimental Profession Fabric issue:
+`41b4d9134e4d2e5f4fadaada2a1d6a56eed92ab0`
 
-`mike-axiom-mir/axm-profession-fabric#38`
+Shared module:
 
-Cartography added refinement comment:
+`src/axm_uc/mesh_self_intersection.py`
 
-`5714830824`
+This is the correct shared machinery home because UC now independently implements the same neutral observer class while preserving stronger general work bounds:
 
-That comment accepts the Building/Object contrast as **evidence/provenance vocabulary only**.
+- separate opt-in observer; existing `inspect_mesh_topology()` stays unchanged;
+- exact source-index neighbour exclusion remains explicit;
+- AABB rejection precedes finite-float overlap predicates;
+- exact unordered pair count is computed before the quadratic scan;
+- default pair-work ceiling: `250,000`;
+- hard pair-work ceiling: `2,000,000`;
+- over-budget input returns `HOLD_TRIANGLE_PAIR_BUDGET_EXCEEDED` with **zero** pair checks and no partial-prefix PASS/FAIL claim;
+- examples are bounded independently from total intersection count;
+- Animal and Character are recorded as requirement / geometric-method precedents, but their code and PASS/FAIL results are not inherited.
 
-Profession Fabric does not receive a keyed-interface product implementation, geometry constructor, tolerance policy, fastener rule or automatic orientation selector from this pass.
+UC's own documentation states the migration rule explicitly: a receiving lane that wants to claim the shared successor must pin the UC commit it consumes and rerun its own domain evidence.
 
-Product authority remains:
+## Bounded capability map
 
-- Building owns whether its panel remains intentionally reversible and whether it ever gains a physical orientation requirement;
-- Object owns its unique-orientation policy and registration-key candidate;
-- each product owns exact tolerances, geometry, materials/rigging/runtime consequences and adoption.
+The supported map is now:
 
-## Why no Universal Creation orientation lane was opened
+1. **Product-local historical observer identity**
+   - exact repository / head / module;
+   - exact product receipt remains truthful for that implementation.
+2. **Shared neutral observer identity**
+   - UC `41b4d913...` owns only the read-only bounded machine capability;
+   - no Animal/Character semantics or acceptance policy move into UC.
+3. **Product consumer rebind identity**
+   - each receiving product pins the exact UC successor;
+   - reruns the exact geometry it wants to claim;
+   - retains predecessor result and successor result separately.
+4. **Claim-level comparison**
+   - compare only the overlapping bounded claim: nonadjacent indexed-triangle self-intersection observation under the exact epsilon/work contract;
+   - do not transfer adjacent-contact, continuous-motion, visual, collision or product-adoption claims.
+5. **Optional implementation retirement**
+   - only after that product's exact rebind shows the shared observer supplies the needed semantics and evidence path;
+   - retirement is not implied merely because UC now has a successor.
 
-The two products prove a reusable **distinction**, not one reusable construction algorithm.
+Current migration states:
 
-Universal Creation may later be a correct home for a read-only neutral observer if multiple domains converge on the same bounded mechanism—for example, an exact transform-fit enumerator that reports observations without deciding validity. Current evidence does **not** justify:
+- UC shared observer placement: **PASS / MERGED**;
+- Animal product receipt: **PRESERVE_HISTORICAL + REBIND_REQUIRED before shared-successor claim**;
+- Character product receipt: **PRESERVE_HISTORICAL + REBIND_REQUIRED before shared-successor claim**;
+- local observer deletion: **HOLD**;
+- generic repair/mutation capability: **HOLD / NOT SUPPORTED**.
 
-- `auto_flip_to_valid_orientation()`;
-- automatic key generation;
-- automatic orientation-policy inference from symmetry;
-- copying Object registration geometry into Building;
-- treating multiple fits as an error;
-- treating a declared policy as proof of mechanical enforcement.
+## Placement decision — UC machinery plus PF migration procedure, not one combined system
 
-No UC orientation issue or PR was opened.
+Two existing homes are both correct and must remain separate:
 
-## Returns to active product lanes
+### Universal Creation
 
-Cartography returned the placement boundary to Building PR #5 in comment:
+Owns the neutral executable observer:
 
-`5714832742`
+`inspect_triangle_self_intersections()`
 
-The return explicitly preserves Building's intentional reversibility and requests no key, geometry rewrite, orientation narrowing or UC auto-selection.
+UC does **not** own:
 
-Cartography returned the placement boundary to Object PR #9 in comment:
+- Animal or Character acceptance thresholds;
+- mesh repair policy;
+- deformation range;
+- adjacent-fold semantics;
+- collision/gameplay policy;
+- visual acceptance;
+- automatic consumer migration.
 
-`5714834187`
+### Profession Fabric #38
 
-The return explicitly preserves Object's unique-orientation policy and its product-owned registration-key evidence while rejecting a generic keyed-interface abstraction or cross-product transfer by analogy.
+The existing experimental source-successor rebind procedure already owns the evidence/provenance discipline needed for this transition:
 
-No product code was changed by Cartography.
+- exact predecessor and successor identities;
+- preserved historical receipts;
+- typed consumer edges;
+- explicit `REBIND_RERUN` instead of blanket downstream promotion;
+- separate migration state from claim verdict;
+- sibling non-transfer and explicit non-claims.
 
-## Fresh constellation / continuity scan
+No new PF issue, implementation or vocabulary was needed this pass. The fresh UC extraction is a concrete machine-capability instance to which the already-recorded PF rebind discipline applies.
 
-The newest coordination state was scanned before placement. One important correction to the previous Cartography report is preserved rather than silently rewritten:
+## Why Cartography did not delete duplicate product code
 
-- previous Cartography state `PASS_DIRECTION_FRAME_CHAIN_IDENTITY_MAP` remains historical evidence;
-- fresh Character Technical Art / Visual QA / Art Direction work has since established a target-host winding-adapted neutral reference bridge;
-- Art Direction now records `PASS_ART_DIRECTION_CHARACTER_REVIEW006_NEUTRAL_HOST_EQUIVALENT_REFERENCE_028` while the **deformed direction-frame visual preference remains held pending the corrected Materials rerun and independent QA**;
-- therefore the previous neutral shaded mismatch must not continue to be described as an unexplained target-host direction-frame failure.
+The local Animal and Character modules are genuine historical evidence identities, not disposable copies.
 
-This correction does not weaken the prior general PF direction-chain distinction; it only updates the exact Character edge that newer evidence has closed.
+The UC successor also adds a materially stronger bounded-work contract that the historical local implementations did not expose: explicit pre-scan pair budgeting and fail-closed `HOLD_TRIANGLE_PAIR_BUDGET_EXCEEDED`. Therefore source similarity or overlapping outputs are not enough to call the implementations interchangeable without a receiver-local rebind.
 
-UC continuity was also rechecked:
+Deleting local code now would collapse three facts into one story:
 
-- PR #187 has now merged into main at `5bdeea950ed1292de23f65012d66a876ecf5c094`; the previous status saying it was active is historical only;
-- current open UC PR #185 (`Physics hourly growth lane XVIII`) is unrelated bounded Physics work and does not overlap this orientation-policy finding;
-- no competing UC topology, orientation or mechanical-interface lane was opened.
+- what the product actually proved historically;
+- what UC now implements generically;
+- what the product has actually rerun against the shared successor.
 
-The newest Object UV/material, Nature VFX/runtime, Character receiver and other specialist activity remains in its owning lanes; none justifies stealing source orientation authority or duplicating active product work in Cartography.
+Cartography preserves all three.
+
+## Returns to active lanes
+
+Post-merge placement was returned to UC PR #188 in comment:
+
+`5715651369`
+
+That return records UC as the correct neutral home, preserves Animal/Character receipts, and rejects automatic local deletion or PASS transfer.
+
+Character Geometry PR #16 received rebind guidance in comment:
+
+`5715653454`
+
+It requests only a future exact evidence-only bind/rerun if the lane advances; no topology change, prune, Rigging retune or acceptance transfer is requested.
+
+Animal Geometry PR #4 received the corresponding return in comment:
+
+`5715656114`
+
+It preserves the `42v / 80t` candidate and local receipt, and explicitly keeps UC pair-budget HOLD visible rather than silently falling back to an unbounded scan to preserve a PASS.
+
+No product code changed in this Cartography activation.
+
+## Fresh constellation / duplication scan
+
+The wider scan supports this narrow placement and rejects several tempting over-generalizations:
+
+- **Character Rigging:** current PR #17 now continuously certifies nonadjacent-triangle clearance only over the exact owner interval `[-40°, +36.55°]`, while retaining contact at `+36.60°`. That is a deformation-time certificate built on product-owned motion and speed bounds; it is **not** replaced by UC's static mesh observer and should not be centralized by analogy.
+- **Object Hard Surface:** current latch evidence separates true oriented proof-volume contact transition (`9.264790333551197°`), a Z-AABB broad-phase transition (`48.66480246428277°`) and the preserved conservative `50°` source release guard. That is a different manufactured contact mechanism; it does not justify broadening UC #188 into a general contact/release solver.
+- **Object Procedural:** current source-index -> declared-atlas UV composition is a separate source/material parameterization handoff and does not overlap this geometry observer.
+- **Character Animation / Materials / QA / Technical Art:** current loop, host-reference and direction-frame work remains in its owning lanes; none is evidence for expanding UC self-intersection semantics.
+- **UC open work:** current open PR #185 remains bounded Physics work. No competing open UC self-intersection lane exists after #188 merged.
+
+The correct action was therefore coordination and rebind mapping, not another implementation extraction.
 
 ## Durable placement ledger addition
 
-- **PF #38 — interface orientation evidence split:** `interface geometry / observed fit / source orientation policy / physical registration-enforcement` are separate identities and claim obligations. Building and Object prove opposite legitimate policies. Evidence vocabulary only; no universal product implementation.
+- **UC #188 — bounded nonadjacent triangle self-intersection observer:** correct shared executable home after independent Animal + Character repetition. Read-only and opt-in; bounded pair-work HOLD; no repair/adoption semantics.
+- **PF #38 — shared-observer consumer migration discipline:** historical product receipts remain exact; each product must pin/rerun the shared successor before claiming migration; migration state and claim verdict remain separate.
+- **Animal + Character — product authority:** local historical results remain owned by their repositories until exact successor rebinds exist. No local observer retirement by analogy.
 
 Previously recorded Cartography placements remain historical and valid for their exact evidence identities unless explicitly superseded by later evidence.
 
 ## Explicit non-claims
 
-- No Building or Object source geometry, orientation policy, registration datum, receiver, runtime state or adoption state was changed by Cartography.
-- No PF implementation or profession promotion was authored; comment `5714830824` is an experimental evidence/provenance refinement only.
-- No Universal Creation orientation observer, auto-key, auto-flip, mutator or correction was added.
-- Building's reversibility is not a recommendation for Object.
-- Object's registration key is not a recommendation for Building.
-- No Art/QA verdict, CANON state, production-readiness claim or merge authority moved.
-- `axm-create-me` remains coordination-only.
-- The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+This activation does **not** establish:
+
+- that Animal or Character has already rerun against UC #188;
+- byte-for-byte or result-for-result equivalence between either local observer and UC #188 on all inputs;
+- permission to delete either product-local observer;
+- adjacent-face fold/contact freedom;
+- seam-welded geometric manifoldness;
+- continuous deformation self-intersection freedom;
+- collision-system correctness;
+- visual quality or Art/QA acceptance;
+- an automatic mesh repair, split, weld, prune, move or retessellation capability;
+- product adoption, CANON, production readiness or mastery;
+- PF implementation or profession promotion;
+- merge authority transfer.
+
+`axm-create-me` remains coordination-only.
+
+The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Next bounded scan
 
-- Watch for a third independent manufactured interface that exposes symmetry/fit versus source orientation policy; only then reconsider whether a neutral UC read-only fit/orientation observer has a mechanism-level repeat rather than only a shared evidence vocabulary.
-- Watch Building/Object downstream consumers for any place that incorrectly promotes `fit PASS` into `orientation enforced PASS`; require exact policy + mechanism evidence instead.
-- Preserve the fresh Character winding-reference closure and do not carry the older unexplained-neutral-mismatch description forward into future direction-frame reports.
-- Continue to avoid moving product semantics into PF or UC merely because evidence labels repeat.
+- Watch Animal Geometry #4 and Character Geometry #16 for an exact shared-observer rebind. Treat each as a separate receiving-domain migration; never transfer one product's result to the other.
+- If both exact rebinds prove the UC successor supplies the needed local claim without losing product-specific negative controls or provenance, then consider a separate bounded proposal for retiring duplicated local implementation while retaining historical receipts.
+- Preserve UC's pair-budget HOLD semantics. Do not introduce an unbounded fallback path merely to preserve earlier product behavior.
+- Keep Character continuous deformation certificates and Object mechanical capture/release evidence separate from the static UC observer unless a genuinely repeated neutral mechanism appears.
+- Continue scanning the full constellation before adding another shared capability merely because one label or geometric predicate repeats.
 
 ## Recovery / provenance
 
-Previous Cartography state: `PASS_DIRECTION_FRAME_CHAIN_IDENTITY_MAP`.
+Previous Cartography state:
+
+`PASS_INTERFACE_ORIENTATION_POLICY_ENFORCEMENT_SEPARATION_MAP`
 
 Previous status blob SHA before this update:
 
-`e9f3c3daf799c76a54f81ade1a1d8ed6009efeb5`
+`b863b48416740bb059a9a69f5520a07cafd55089`
 
-Hard-Surface coordination commit that submitted the cross-domain evidence:
+Previous Cartography commit:
 
-`17c82b5df25f9a3649454d364a33537f22204594`
+`8d53f9aef5779e850ea36504d2a6ce79bccb36c7`
 
-Hard-Surface PF evidence-only handoff comment:
+Fresh UC shared observer merge:
 
-`5714192502`
+`41b4d9134e4d2e5f4fadaada2a1d6a56eed92ab0`
 
-Cartography PF #38 placement refinement:
+UC Cartography return:
 
-`5714830824`
+`5715651369`
 
-Building PR #5 return:
+Character Geometry return:
 
-`5714832742`
+`5715653454`
 
-Object PR #9 return:
+Animal Geometry return:
 
-`5714834187`
+`5715656114`
