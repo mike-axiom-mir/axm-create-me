@@ -1,179 +1,167 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-17
-State: **PASS_PROCEDURAL_WEATHER_VARIANTS_CURRENT_WORLD_SOURCE_WIDTH_RECEIVER_COMPATIBILITY / EXISTING WEATHER PR #3 ADVANCED / 3 RETAINED SEEDS × 17 SOURCE STATES × 2 EXACT CAMERAS × 36 STREAKS = 3,672 PROJECTED-WIDTH MEASUREMENTS / EXACT MAP RECEIVER REUSED / THREE MATERIAL LAYOUTS + THREE FAIL-CLOSED CONTROLS / NO MAP ADOPTION / UC + PF UNCHANGED**
+State: **PASS_BOUNDED_SOURCE_BOX_FACE_EXTRACTION_FAMILY / EXISTING OBJECT PR #11 ADVANCED / 2 SOURCE-OWNED BOX FACES × 2 MATERIAL AXES / EXACT HARD-SURFACE AUTHORITY RE-EXECUTED / 4 FAIL-CLOSED CONTROLS / NO HARD-SURFACE MIGRATION / UC + PF UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, all current specialist status files, and the live design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, every current specialist status file, and the live design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-`axm-create-me` remains **coordination only**. Product/evidence changes stayed in the existing `mike-axiom-mir/axm-weather-design` Procedural PR #3. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence changes stayed in the existing `mike-axiom-mir/axm-object-design` Procedural PR #11. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
 - **Weapon / Armor / Unit / Misc:** no open grounded repeated source pattern justified a new Procedural lane.
-- **Character:** active Geometry / Organic / Rigging work still owns unsettled topology, shoulder-form and deformation questions; Procedural did not freeze those choices into a generator.
-- **Animal:** active Geometry, Rigging, Animation, Materials, Technical Art and Runtime work already owns current representation/deformation pressure.
-- **Building:** existing Procedural PR #4 already owns its bounded header and receiver families; several previous activations have already advanced it, so no new Building lane was opened by habit.
-- **Nature:** existing Procedural PR #4 already owns nine bounded generated tree outputs and now has Geometry, VFX and Map-receiver compatibility evidence; its previous status explicitly requires a genuinely new source/consumer contract before further Nature work.
-- **Object:** existing Procedural PR #11 already owns service-module configurations/shared placement. Current hinge/lid/mechanical work has active source owners, including a Hard-Surface procedural loop, so Procedural did not duplicate it.
-- **Map:** active Environment/VFX/Runtime/Technical-Art lanes own current-world receiving and target-host behavior. Map PR #25 now provides an exact fixed-camera source-width receiver contract that is reusable as a verifier without transferring Map authority.
-- **Weather:** existing Procedural PR #3 already owns a bounded seeded 36-streak family with three retained materially different seeds (`1207`, `44021`, `83017`). The exact Map source-width current-world receiver had only been demonstrated on one selected seed. Different stochastic layouts can exercise camera projection and near-plane clipping differently, so repeating the exact receiver proof across the already-retained family is a genuine bounded procedural verification task.
+- **Character:** active Geometry/Rigging still owns the connected-shoulder intersection/remesh question; the latest exhaustive three-flip family found no strict successor. Procedural did not freeze a held topology into a generator.
+- **Animal:** Geometry, Rigging, Materials, Technical Art and Runtime are simultaneously active on UV/tangent, transport and representation questions. Procedural did not duplicate those lanes.
+- **Building:** existing Procedural PR #4 already owns bounded header/receiver families and shared-placement consolidation; no fresh non-overlapping repeated operation warranted another Building pass.
+- **Nature:** existing Procedural PR #4 already owns nine generated branch/crown variants plus Geometry/VFX/Map compatibility. No new source/consumer contract appeared since the previous Nature pass.
+- **Weather:** existing Procedural PR #3 received the previous family-wide Map source-width proof; its own status explicitly required a new trigger before more Weather work, so it was left alone.
+- **Map:** current Environment/VFX/Runtime/Technical-Art lanes own current-world receiving and target-host behavior; no Procedural receiver was copied or replaced.
+- **Object:** existing Procedural PR #11 is the correct lane. Hard-Surface PR #26 now source-owns **two** reviewed manufactured box-face identities using the same bounded extraction operation on materially different owner components and axes. That repeated operation was the strongest fresh proceduralization candidate.
 
-No new PR, second Weather generator, second Map receiver or generic weather framework was opened.
+No new PR, universal face system, UC surface ontology, second Hard-Surface lane or automatic surface-discovery framework was opened.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-weather-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
-Existing draft PR: **#3 — `Procedural: add bounded Weather seeded field family`**
+Existing draft PR: **#11 — `Procedural: add bounded bilateral service-module configuration family`**
 
 Exact Procedural head:
 
-**`5d5dea20d392734c68673a9c37723d48581b1dd8`**
+**`1fcb1934397b3b95a9ef22d55b87853400d4d088`**
 
-Observed PR state: **OPEN / DRAFT / MERGEABLE**.
+Observed PR state after evidence: **OPEN / DRAFT / MERGEABLE**.
 
 New bounded contract:
 
-**`axm.weather-procedural-map-width-receiver-family/v0.1`**
+**`axm.object-source-box-face-extraction-family/v0.1`**
 
 Scoped result:
 
-**`PASS_PROCEDURAL_WEATHER_VARIANTS_CURRENT_WORLD_SOURCE_WIDTH_RECEIVER_COMPATIBILITY`**
+**`PASS_BOUNDED_SOURCE_BOX_FACE_EXTRACTION_FAMILY`**
 
 Decision:
 
-**`PASS_RECEIVER_COMPATIBILITY_FAMILY_ONLY__NO_MAP_SOURCE_OR_ART_ADOPTION`**
+**`PASS_DERIVED_FACE_EXTRACTION_FAMILY_ONLY__NO_HARD_SURFACE_MIGRATION_OR_SOURCE_ADOPTION`**
 
 ## Why this deserves proceduralization
 
-The Weather family already retains three exact stochastic layouts. A downstream Map receiver now measures source-authored streak widths after camera projection in a real current-world proof, including near-plane clipping. A single seed passing that receiver is not sufficient evidence for the family because layout changes alter which streaks approach the camera/near plane and where projected ribbons land.
+Hard-Surface PR #26 contains two independent source-owned surface contracts whose verifiers repeat the same mechanical operation: rebuild the exact source, resolve one exact box component/group, select one source-local min-axis face, retain exactly two triangles/four vertices, preserve the opposite face as distinct, and bind the result back to exact source/review provenance.
 
-The smallest justified automation is therefore to rebuild each **already-retained** Weather seed and run the **unchanged exact Map receiver** over the same 17 source states and two exact cameras. Procedural does not invent a new effect, width policy, camera policy or preferred seed.
+The two cases are not cosmetic duplicates:
+
+- `lid_inner_service_surface` → owner `lid_shell`, selector `source_local_min_z_face`;
+- `front_service_panel_outer_service_surface` → owner `front_service_panel`, selector `source_local_min_y_face`.
+
+Procedural therefore automated only the repeated **derived face-mesh extraction after Hard-Surface authority passes**. It did not invent surface meaning and did not rewrite either Hard-Surface verifier.
 
 ## Exact provenance / no copied authority
 
-Existing Weather family remains unchanged and retains only:
+Hard-Surface donor remains exact:
 
-- seed `1207`;
-- seed `44021`;
-- seed `83017`.
+- repository: `mike-axiom-mir/axm-object-design`;
+- PR: **#26**;
+- head: **`fcae744a8bdbcb765c32758e9da03fe54ffe4dbc`**;
+- host source SHA-256: **`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`**.
 
-Excluded baseline seed `9142` remains outside the retained family and is used as a fail-closed no-fallback control.
+Pinned source-authority members:
 
-Exact current-world parent evidence:
+1. lid inner service face
+   - contract Git blob: `873c03a73042213255c65df63cdff49edcf10a6c`;
+   - verifier Git blob: `bc3c5fa79617c4fbf50d4eebcbcd9a63ddded8a5`;
+   - exact Hard-Surface result: `PASS_SOURCE_OWNED_LID_INNER_SURFACE_IDENTITY`.
+2. front service-panel outward face
+   - contract Git blob: `503b0179f20351a66668cbad3122e5dea26957b9`;
+   - verifier Git blob: `8305374c008b3e25a61a6e6ddc76ff09bd4a817c`;
+   - exact Hard-Surface result: `PASS_SOURCE_OWNED_FRONT_SERVICE_PANEL_OUTER_SURFACE_IDENTITY`.
 
-- repository: `mike-axiom-mir/axm-map-design`;
-- exact parent Weather-variant head: **`e482d003853e52fc835f1797ddfb6506a50083ef`**;
-- retained parent workflow run: **`35086299949`**;
-- exact parent structure and live-host prerequisite are checked before derived evidence is built.
-
-Exact source-width receiver donor:
-
-- repository: `mike-axiom-mir/axm-map-design`;
-- exact receiver head: **`dd4a85223ba70f7086db2fdc292e4cb57ac38e47`**;
-- observer path: `environment-proof/atmosphere_current_world_weather_width_observe.gd`;
-- exact Git blob: **`a3d1eaa02a164db1006c0cddd3ce3108c23a63ae`**;
-- runtime: pinned **Godot 4.7.2 GL Compatibility**.
-
-The Map observer executes unchanged. No Map receiver implementation is copied into Weather, and no Map composition/acceptance authority transfers to Procedural.
+The Procedural generator dynamically executes those exact authority verifiers from the pinned donor checkout and derives compact meshes only from the authority-selected global face/vertex indices. Hard-Surface semantics remain upstream authority rather than being copied into Procedural.
 
 ## Smallest reusable implementation
 
-Added to the existing Weather Procedural lane only:
+Added to the existing Object Procedural branch only:
 
-- `tools/weather_variation_map_width_receiver.py` — builds exact retained-seed current-world payloads, verifies the exact Map runtime result, summarizes cross-seed evidence and contains bounded negative controls;
-- `.github/workflows/procedural-weather-source-width-receiver.yml` — reconstructs the existing family, verifies exact parent/donor identities, executes the unchanged Map GDScript observer under pinned Godot for each retained seed, retains selected frames and emits one family summary.
+- `assets/modular-equipment-case-001/source-box-face-extraction-family-001.json` — two-member bounded family, exact donor/blob pins, no discovery/fallback;
+- `tools/build_source_box_face_extraction_family.py` — generic compact mesh extraction from exact authority receipts;
+- `tests/test_source_box_face_extraction_family.py` — selector/bound/provenance/fail-closed tests;
+- `.github/workflows/object-source-box-face-extraction-family.yml` — exact donor checkout, full Object regression suite, both exact Hard-Surface verifiers, two derived outputs, retained artifact.
 
-No existing family definition, Weather source semantics, streak count, motion contract, source-authored width/opacity policy or Map receiver code was rewritten.
+No Object source geometry, Hard-Surface contract, material/UV assignment, UC code or Profession Fabric code was changed.
 
-## Materially different evidence pressure
+## Materially different output pressure
 
-For each of the three retained seeds:
+The family retains two exact generated face meshes:
 
-- exact source states: **17**;
-- exact cameras: **2** (`path_eye`, `elevated_oblique`);
-- exact streaks per state: **36**;
-- projected-width measurements: **1,224 per seed**.
+- **lid inner service surface**
+  - component: `lid_shell`;
+  - selector: Z-min;
+  - plane: `0.312 m`;
+  - area: `0.3744 m²`;
+  - `4` vertices / `2` triangles;
+  - mesh digest: **`bb58b4b8b78d006fbd04d0fa0ebec6a85e471880bc3d551c5b753a9bc1b51e9f`**.
+- **front service-panel outer surface**
+  - component: `front_service_panel`;
+  - selector: Y-min;
+  - plane: `-0.258 m`;
+  - area: `0.07300799999999998 m²`;
+  - `4` vertices / `2` triangles;
+  - mesh digest: **`51e3288f7434d228292e3341f5bbb8d93fc628bfcc504761961502f4d1d909b6`**.
 
-Across the family:
-
-- tested source states: **51**;
-- camera-state pairs: **102**;
-- projected-width measurements: **3,672**;
-- candidate source digests: **3/3 distinct**;
-- particle-layout digests: **3/3 distinct**;
-- receiving payload digests: **3/3 distinct**;
-- retained visual slots: **6 per seed** (`00`, `08`, `16` × two cameras);
-- every matching retained frame slot has a **different image hash across all three seeds**;
-- maximum projected-width residual: **`0.0005707890294679447 px`**, inside the exact Map tolerance;
-- near-clipped endpoint counts materially differ by seed: **1207 → 10, 44021 → 8, 83017 → 8**.
-
-Those different near-clip counts are useful pressure: the family is not merely replaying one camera/layout case three times.
-
-The receiver additionally preserves exact Weather streak identity/order, source-authored widths and opacity bounds, all non-weather current-world fields, the sapling state sequence, stable Weather/sapling resource identities and east-rear `CULL_BACK` behavior.
+Resulting family pressure is **2/2 distinct components, 2 materially different selector axes and 2/2 distinct mesh identities**. This is not one lucky face replayed twice.
 
 ## Failure bounds
 
-Three family-level controls fail closed:
+Four retained controls fail closed:
 
-1. **unretained seed fallback:** baseline seed `9142` is rejected rather than silently promoted;
-2. **parent provenance drift:** changing the exact current-world parent head is rejected;
-3. **runtime identity drift:** changing the runtime Weather seed identity relative to its payload is rejected.
+1. exact Hard-Surface donor-head drift;
+2. duplicate retained surface identity;
+3. unsupported/non-allowlisted selector;
+4. exact Hard-Surface verifier-blob drift.
 
-The existing Weather family gates and baseline tests remain active; no failure bound was widened to obtain this PASS.
+The family policy remains `FAIL_CLOSED_EXACT_SOURCE_OWNED_FACE_ONLY_NO_DISCOVERY_NO_FALLBACK`. It does not scan for “similar” faces, infer semantics, choose nearest planes or widen beyond the two exact source-owned members.
 
 ## Exact CI / retained evidence
 
-All workflows associated with exact Weather head `5d5dea20d392734c68673a9c37723d48581b1dd8` are green:
+All workflows associated with exact Object head `1fcb1934397b3b95a9ef22d55b87853400d4d088` are green:
 
-- **`35183062819 — Wind atmosphere baseline` — SUCCESS**;
-- **`35183062828 — Procedural weather field family` — SUCCESS**;
-- **`35183062821 — Procedural Weather variants Map source-width receiver evidence` — SUCCESS**.
+- **`35187274840 — Object source box-face extraction family evidence` — SUCCESS**;
+- **`35187274836 — Object service-module configuration family evidence` — SUCCESS**;
+- **`35187274773 — Object service-module fit evidence` — SUCCESS**;
+- **`35187274784 — Object service-module registration-key evidence` — SUCCESS**;
+- **`35187274788 — Object hard-surface interface evidence` — SUCCESS**.
 
-Retained new receiver-family artifact:
+Retained new artifact:
 
-- artifact ID: **`10481430739`**;
-- name: `weather-procedural-map-width-receiver-001-5d5dea20d392734c68673a9c37723d48581b1dd8`;
-- uploaded size: **`5,135,680 B`**;
-- GitHub SHA-256: **`ec5782f8259a795e80d8fb814aca2e0dbc665f4a918c10f2d4d7ef685d66ce9b`**;
+- artifact ID: **`10482408939`**;
+- name: `object-source-box-face-extraction-family-001-evidence`;
+- uploaded size: **`16,601 B`**;
+- GitHub SHA-256: **`9bf0c816edbd45c1f0ff83c64a32ee29668667bc0d73fc4202bc209958cd9c52`**;
 - independently downloaded and rehashed to the exact same SHA-256;
-- archive contains **36 files**, including the family summary, exact parent/donor receipts, all three payload/runtime/receiver receipts, Godot logs and 18 retained selected target-host frames.
+- archive contains **17 files**, including both generated JSON/OBJ surface specimens, exact family profile, source contracts, exact authority verifiers, provenance heads/blobs and family summary.
 
-Result returned to Weather Procedural PR #3 as comment **`5708759826`** and to Map PR #25 as downstream compatibility evidence comment **`5708766012`**, without asking Map to adopt a seed or expand its authority.
+Result returned to Object Procedural PR #11 as comment **`5709573322`** and to source-owner Hard-Surface PR #26 as downstream evidence comment **`5709575453`**, explicitly without requesting helper migration or authority transfer.
 
 ## Placement / authority boundary
 
-- **Procedural:** owns repeated exact compatibility proof across the existing bounded seeded family.
-- **Weather / VFX source lane:** retains streak-generation semantics, direction/motion semantics, source-authored width/opacity and family eligibility.
-- **Map / Environment / VFX receiving lane:** retains camera projection, current-world composition, receiver behavior and any source adoption.
-- **Runtime:** retains target-device cost/performance acceptance.
-- **Art Direction / Visual QA:** retain preferred-layout and final visual acceptance.
-- **UC / Profession Fabric:** unchanged; no Weather or Map receiver semantics promoted.
+- **Hard Surface:** remains source owner for surface IDs, component semantics and exact selector meaning.
+- **Procedural:** owns only repeated deterministic derivation of compact evidence meshes after exact source authority passes.
+- **Materials / Technical Art / Runtime:** retain their own UV/material/transport/performance decisions and must bind explicitly if they consume these identities.
+- **Art Direction / Visual QA:** retain visual preference/acceptance.
+- **UC / Profession Fabric:** unchanged; two Object box faces are not evidence for a universal surface ontology.
 
 ## Explicit non-claims
 
-This PASS does **not** establish:
-
-- Map adoption or preference for any of the three Weather seeds;
-- arbitrary camera or arbitrary resolution behavior beyond the exact two retained 1100×720 proof cameras;
-- physical wind, precipitation or atmospheric simulation;
-- wall-clock playback cadence or naturalness;
-- target-device performance;
-- gameplay visibility/acceptance;
-- final Art Direction / Visual QA acceptance;
-- a universal weather generator or universal receiver;
-- UC extraction / Profession Fabric promotion;
-- CANON, production/game readiness or Procedural Design mastery.
+This PASS does **not** establish arbitrary mesh-face extraction, arbitrary component support, automatic face discovery, production UVs/materials, source adoption, Hard-Surface helper replacement, target-engine/runtime behavior, physics/gameplay, Art Direction/Visual-QA acceptance, UC/PF promotion, CANON, production/game readiness or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** one-seed receiver success was not narrated into family compatibility; all three exact retained layouts were executed through the unchanged exact Map receiver and retained as evidence.
-- **Agency / non-domination:** Procedural does not choose the preferred Weather seed, change Map composition or take VFX/Environment/Runtime/Art authority.
-- **Continuity:** the existing family and prior evidence remain intact; exact parent head, receiver head/blob and artifact digest are pinned, and the baseline excluded seed remains excluded.
-- **Wisdom before speed:** the pass automates one repeated receiver-sensitive proof and stops before generic weather/current-world abstraction or horizontal promotion.
+- **Truth:** the family re-executes both exact source-authority verifiers and records exact donor/blob identities before generating anything.
+- **Agency / non-domination:** Procedural does not choose surface semantics, materials, UVs or downstream adoption and does not rewrite Hard Surface.
+- **Continuity:** existing Object Procedural configuration/shared-placement work remains intact and all same-head inherited workflows stay green.
+- **Wisdom before speed:** only the proven two-member repeated operation was automated; no generic face-discovery framework or horizontal UC promotion was attempted.
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. Do not continue Weather merely because PR #3 remains open. Another Weather change requires a genuinely new source/consumer contract change or repeated manual operation with clear ownership and bounded evidence; otherwise move to another design repository.
+Re-scan the full constellation first. Do not continue Object merely because PR #11 remains open. A later consolidation of Hard-Surface helpers requires explicit source-owner demand plus exact regression evidence; otherwise choose a different repository with a fresher repeated manual pattern.
