@@ -1,235 +1,276 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CURRENT_WORLD_BUILDING_CONSUMER_IDENTITY_REBOUND_TO_SOURCE_SPLIT_POLICY / 604_SOURCE_INTENT_GROUPS_SEPARATED_FROM_312_CONSUMER_VERTICES / ART_QA_RETAINED_APPEARANCE_CLOSED / HOLD_DEFAULT_ADOPTION_PENDING_RUNTIME_TARGET_DEVICE_RESIDUAL_PRIMITIVE_AND_TECHNICAL_ART_BOUNDARIES / ACTIVE_SEGMENTED_ROLLBACK_PRESERVED**
+State: **PASS_CURRENT_WORLD_SOURCE_INTENT_INDEXED_BUILDING_RECEIVER_REVIEW_READY / EXACT_604_SOURCE_INTENT_IDENTITY_RENDERED_AT_RETAINED_MAP_PLACEMENT / DIRECT_604_VS_312_VS_ACTIVE_MULTI_ASSET_EVIDENCE / HOLD_DEFAULT_ADOPTION_PENDING_ART_QA_TECHNICAL_ART_AND_TARGET_DEVICE_RUNTIME / ACTIVE_SEGMENTED_ROLLBACK_PRESERVED**
 
 ## Authority / continuity
 
 `axm-create-me` remains **coordination only**. Product implementation and target-host evidence stay in the existing `mike-axiom-mir/axm-map-design` Environment PR #24. No duplicate Environment PR or replacement repo was opened.
 
-Map / Environment owns receiving composition, explicit consumer-representation identity, review-target selection and rollback only. Building Hard Surface owns source representation and exact source render-split intent. Building Materials owns the five-role material profile. Runtime owns storage / primitive / target-device cost. Technical Art owns receiver/transport exactness. Art Direction owns visual preference. Visual Observer / QA owns independent perceptual acceptance.
+Map / Environment owns receiving composition, explicit receiver identity, review-target comparison and rollback only. Building Hard Surface owns semantic/source representation and source render-split intent. Building Geometry / Topology owns the exact indexed realization of that source intent. Building Materials owns the five-role material profile. Runtime owns proof-host/device cost and adoption. Technical Art owns transport/import exactness. Art Direction owns visual preference. Visual Observer / QA owns independent perceptual acceptance.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The preceding indexed planar-role Environment state remains historical truth at coordinator blob `e2ef56dc56c68ac36ab4e49b7b1bab545f78339c`. This activation does not rewrite the compact-v2 HOLD, unindexed planar-role evidence, indexed receiver evidence, Nature/Object/Weather history or active segmented rollback.
+The preceding Environment state at exact Map head `55e10a4fa700fb81020a95bd5143deca6a09f208` remains historical truth: the existing reviewed Godot consumer is `312 vertices / 1008 indices / 336 triangles / 5 surfaces`, explicitly named as a consumer-generated post-normal indexed representation rather than as the Hard-Surface source-equivalence identity. This activation does not rewrite that result, the compact-v2 HOLD, Nature/Object/Weather history, Technical-Art normal boundary, Runtime evidence or the active segmented rollback.
 
 ## Fresh constellation / duplication scan
 
-The existing Environment lane remains Map PR **#24**, branch `studio/environment-weather-variant-object-convergence-001`.
+The existing Environment lane remains Map PR **#24**, branch `studio/environment-weather-variant-object-convergence-001`, now **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Fresh specialist returns materially changed the next Environment question:
+Fresh specialist state exposed one new bounded Environment question:
 
-- **Visual Observer / QA** independently passed retained current-world noncorruption for the exact indexed planar-role receiver and reproduced the sparse indexing delta at only `24..55` changed pixels/frame, `0` pixels above `1 LSB`, max `1 LSB`.
-- **3D Art Direction** separately passed retained appearance despite the measured Godot normal repack and kept the planar manufactured read preferred in the retained views.
-- **Technical Art PR #40** proved exact corner-grouping identity for the existing 312-vertex Godot receiver but retained a real receiver-side normal exactness boundary: `120 / 1008` decoded corner normals repack, all on `frame_galvanized`, max component delta `0.00011304020881702792`, max angular delta `0.006869404718583788°`.
-- **Runtime PR #41 / pass 28** tested an earlier index-before-normal construction path and found it slower: median `832 us` control versus `981 us` candidate, `+149 us` / `+17.908654%`, `0 / 41` pairs faster. Runtime therefore keeps the proven post-normal indexed receiver as control.
-- **Building Hard Surface PR #11** added the missing source-owner render split contract at exact head `0caa9ac9644f027350935240476bd0bf3bb66e18`. Its exact source intent is **1,008 triangle corners -> 604 equivalence groups**, keyed by consumed material role + exact position + exact cardinal hard normal + explicit protected split ID. The source owner explicitly states that consumers must rebind/retest and must not infer source intent from a downstream storage count.
-- **Nature / Weather / Object** remain in their own active VFX, source, materials, rigging, animation and runtime lanes. No returned Environment-owned defect justified reopening their source work.
+- **Building Hard Surface PR #11** remains source-owner authority for the planar-role render split: `1008` triangle corners -> `604` exact source-equivalence groups keyed by material role + exact position + exact cardinal hard normal + protected split.
+- **Building Geometry / Topology PR #12** has now realized that exact source-owner relation as a deterministic indexed candidate at exact head `b9b4ab63e23b9756ab79597e86ecc41ea75ea8b7`.
+- Geometry result: `PASS_SOURCE_INTENT_INDEXED_RENDER_DOMAIN_EXACT_CORNER_RECONSTRUCTION`.
+- Geometry candidate ID: `boundary-only-planar-role-source-intent-indexed-001`.
+- Geometry canonical candidate SHA-256: `f6a831058de66901fd42704b1d8c1cf187b13a0919ae3719c03c4369f107e6c0`.
+- Exact candidate identity: **604 vertices / 1008 indices / 336 triangles / 5 material roles**, with zero source-corner mismatches for position, cardinal normal, material role or protected split.
+- **Materials** still owns the same five-role material family; this activation does not reauthor its values.
+- **Nature / VFX / Weather / Object** remain in their own source, materials, VFX, rigging, animation and Runtime lanes; no returned Environment-owned defect justified reopening them.
+- **Technical Art** still owns transport/import exactness and the previously measured nonzero normal-repack boundary of the separate 312 consumer.
+- **Runtime** still owns representative target-device cost; proof-host counters cannot silently become device acceptance.
+- **Art Direction / Visual QA** have not yet accepted the exact 604 receiver appearance; earlier acceptance of the 312 consumer does not transfer.
 
-That exposed the highest-leverage bounded Environment gap: our already-reviewed **312-vertex** Godot Building receiver was a valid consumer result, but it needed an explicit receiving identity so it could not be silently relabeled as Hard Surface's new **604-group** source-equivalence domain.
+That made the highest-leverage Environment gap precise: **the exact source-intent 604 indexed identity now exists upstream, but it had no real current-world receiving proof against both the reviewed 312 consumer and the active segmented rollback.**
 
 ## Selected bounded improvement
 
-Keep the exact reviewed 312-vertex post-normal indexed Building in the current-world review path, but name it explicitly as a **consumer-generated normal/index representation** and bind it to the new Hard-Surface source split policy without pretending the two storage/equivalence domains are identical.
+Render the exact Geometry-owned 604 source-intent indexed Building in the existing retained multi-asset Map world, at the exact current Map placement, while keeping:
 
-New Environment consumer identity:
+- the same five Building material roles/scalars;
+- Nature and its current receiving state;
+- the indexed Object;
+- the visible footprint cue;
+- Weather and its exact projected-width contract;
+- route, cameras and lighting;
+- the active segmented rollback;
+- the reviewed 312 consumer as a separate comparison identity.
 
-`map-consumer:service-pavilion-001:planar-role-post-normal-indexed-001`
+The Environment question is receiving/comparison only. It does not change Building source geometry, source normals, Geometry's candidate, material values, Nature, Object, Weather or source ownership.
 
-Source representation remains:
-
-`boundary-only-planar-role-rectangle-render-001`
-
-Semantic Building source remains:
-
-`header-segmented-23`
-
-No Building source geometry, triangle membership, source normal policy, material values, placement, Nature, indexed Object, visible footprint cue, Weather, route, cameras or lighting were reauthored.
-
-## Exact Environment implementation identity
+## Exact implementation identity
 
 Repository: `mike-axiom-mir/axm-map-design`
 
 Existing Environment PR: **#24**
 
-PR state after final run: **OPEN / DRAFT / UNMERGED / MERGEABLE**
-
 Branch: `studio/environment-weather-variant-object-convergence-001`
 
 Exact final tested Environment head:
 
-**`55e10a4fa700fb81020a95bd5143deca6a09f208`**
+**`5e001929a4eb230218405bc0d37ea327492555f7`**
 
-The prior indexed Environment head `038925282240441c475651bdc3737d1749c31d06` is an ancestor. This activation adds only four Environment receiving/evidence files; no scene asset or renderer observer was rewritten:
+New Environment proof path on that lane:
 
-- `contracts/environment_building_planar_role_consumer_identity.json`;
-- `tools/environment_building_planar_role_consumer_identity_rebind.py`;
-- `docs/ENVIRONMENT_BUILDING_PLANAR_ROLE_CONSUMER_IDENTITY_REBIND_001.md`;
-- `.github/workflows/environment-building-planar-role-consumer-identity-rebind.yml`.
+- `tools/environment_building_source_intent_indexed_current_world.py`;
+- `environment-proof/atmosphere_current_world_building_source_intent_indexed_observe.gd`;
+- `docs/ENVIRONMENT_BUILDING_SOURCE_INTENT_INDEXED_CURRENT_WORLD_001.md`;
+- `.github/workflows/environment-building-source-intent-indexed-current-world.yml`.
 
-## Source intent versus consumer identity
+The proof rebuilds the exact Geometry donor, reproduces its canonical digest, loads the retained current-world payload, renders the exact 604 identity in Godot 4.7.2 GL Compatibility, compares it with both pinned Environment baselines, rechecks all inherited Weather-width observations and includes a deliberate fail-closed Geometry identity mutation.
 
-### Hard-Surface source-owner intent
+## Preserved truth repair: a mechanically green run was not accepted
 
-Exact owner head:
+The first setup run for this new receiver, workflow run **`35195504846`**, completed mechanically green but was **not accepted as Environment evidence**. Direct frame inspection exposed a real receiving defect: the 604 Geometry vertices were still in Building source-local coordinates, so the pavilion rendered incorrectly near the camera rather than at the retained Map placement.
 
-`0caa9ac9644f027350935240476bd0bf3bb66e18`
+That green result was therefore treated as invalid receiving evidence, not retroactively narrated as success.
 
-Exact source split result:
+A follow-up exact-head repair at `10eaf3f71d83987f2ed1cded8030dd659ea13a5f` added placement/bounds checks but initially compared the source translation in the wrong coordinate frame. Workflow **`35195930018`** failed correctly in Godot with:
 
-- triangle corners: **1,008**;
-- source-intent equivalence groups: **604**;
-- planar rectangles: `168`;
-- triangles: `336`;
-- consumed material roles: `5`;
-- equivalence key includes exact cardinal hard normal;
-- every protected split declaration is explicit; current values are all `null`.
+`planar-role current-world placement translation drift: (0.0, 0.0, -7.2)`
 
-### Environment consumer receiver
+That failure exposed the exact existing Map transform rather than being weakened away:
 
-Exact reviewed Godot consumer remains:
+- retained source translation: **`[0.0, 7.2, 0.0]`**;
+- existing `gvec()`-mapped Godot translation: **approximately `(0.0, 0.0, -7.2)`**.
 
-- stored vertices: **312**;
-- indices: **1,008**;
-- triangles: **336**;
-- material surfaces: **5**;
-- derivation: `GODOT_POST_NORMAL_PER_MATERIAL_SURFACE_INDEX`;
-- `consumer_generated_normal_index_domain = true`;
-- `source_owner_equivalence_identity_claimed = false`;
-- `post_index_normal_byte_identity_claimed = false`.
+The final observer now fails closed on both the exact placement and current-world Building envelope before rendering.
 
-The numerical identity difference is explicit:
+Final Godot-space envelope reproduced:
 
-**`604 source-intent groups - 312 consumer vertices = 292`**.
+- min approximately **`(-3.8, 0.0, -8.2)`**;
+- max approximately **`(3.92, 3.4, -6.08)`**.
 
-This is not treated as a defect by itself. It proves the two numbers describe different owned representations. Hard Surface keeps exact cardinal-normal source intent; Environment keeps the currently reviewed receiving identity.
+This matches the retained planar-role parent receiver rather than silently shifting the asset.
 
-## Exact target-host reproof
+## Final exact target-host result
 
 Dedicated workflow:
 
-**`35190228022 — Environment Building planar-role consumer identity rebind evidence` — SUCCESS**
+**`35196199533 — Environment Building source-intent indexed current-world evidence` — SUCCESS**
 
-Scoped result:
+Exact final Map head:
 
-**`PASS_CURRENT_WORLD_BUILDING_CONSUMER_IDENTITY_REBOUND_TO_SOURCE_SPLIT_POLICY`**
+**`5e001929a4eb230218405bc0d37ea327492555f7`**
 
-Workflow-specific hold:
+Scoped Environment state:
 
-**`HOLD_DEFAULT_ADOPTION_PENDING_TARGET_DEVICE_RESIDUAL_PRIMITIVE_ACCEPTANCE`**
+**`PASS_CURRENT_WORLD_SOURCE_INTENT_INDEXED_BUILDING_RECEIVER_REVIEW_READY`**
 
-The workflow rebuilt the exact Hard-Surface source split evidence, downloaded the exact active segmented and unindexed Environment evidence, reran Godot `4.7.2` / GL Compatibility on the same 312-vertex consumer, reproved Runtime trade-space/raster bounds, and then applied the new Environment identity gate.
+Explicit hold:
 
-A deliberate negative control changed the receiving contract to claim that source cardinal-hard-normal equivalence *was* the 312 consumer identity. The gate rejected that mutation fail-closed.
+**`HOLD_DEFAULT_ADOPTION_PENDING_ART_QA_TECHNICAL_ART_AND_TARGET_DEVICE_RUNTIME_REVIEW`**
 
-## Real multi-asset current-world result
+`environment_adoption = false`.
 
-Across the exact **17 states / 68 state-camera-presentation observations**, the receiving world remains stable with Building, Nature, indexed Object, visible footprint cue, Weather, route, cameras and lighting intact.
+The deliberate Geometry-identity mutation was rejected fail-closed in the final workflow.
 
-Current reviewed consumer versus active segmented rollback/default:
+## Exact 604 receiving identity
 
-- draw calls: `+0`;
-- objects: `+0`;
-- primitives: **`+180`**;
-- observed RenderingServer buffer memory: **`-8,304 B`**;
-- observed texture memory: `+0`.
+Pinned Geometry donor:
 
-Indexed storage-path retained raster boundary remains:
+- exact head: `b9b4ab63e23b9756ab79597e86ecc41ea75ea8b7`;
+- candidate ID: `boundary-only-planar-role-source-intent-indexed-001`;
+- canonical SHA-256: `f6a831058de66901fd42704b1d8c1cf187b13a0919ae3719c03c4369f107e6c0`;
+- render vertices: **604**;
+- indices: **1008**;
+- triangles: **336**;
+- material roles: **5**.
 
-- maximum changed pixels in a frame: **`55`**;
-- maximum channel delta: **`1 LSB`**;
-- pixels exceeding `1 LSB`: **`0`**.
+Godot receiving storage reproduced across all states:
 
-Independent Art Direction and Visual QA have already accepted the retained appearance of this exact 312-vertex consumer identity in the retained views. This activation does not manufacture a second visual acceptance claim.
+- `frame_galvanized`: `396v / 696i / 232 primitives`;
+- `infill_coating`: `64v / 96i / 32`;
+- `roof_membrane`: `48v / 72i / 24`;
+- `slab_mineral`: `48v / 72i / 24`;
+- `utility_panel_ochre`: `48v / 72i / 24`;
+- total: **`604v / 1008i / 336 primitives / 5 surfaces`**.
 
-## Weather / Nature / Object continuity retained
+This exact 604 source-intent identity remains separate from the already-reviewed Map consumer identity at **312 stored vertices**. The two are now directly rendered in the same world rather than flattened into one count.
 
-The exact inherited Weather source-width contract was rechecked rather than assumed:
+## Real multi-asset current-world evidence
+
+The final proof covers exact **17 states / 68 state-camera-presentation observations** with Building, Nature, indexed Object, visible footprint cue and Weather all present.
+
+Inherited Weather source-width contract was remeasured rather than assumed:
 
 - projected-width observations: **1,224**;
 - maximum residual: **`0.00974698571769128 px`**;
 - acceptance bound: `0.05 px`;
-- width-profile digest remains `8d61b2dc11f2508d186a1e469185badda7217803f7c4634fb2d951d8579c0dd5`.
+- width-profile digest: `8d61b2dc11f2508d186a1e469185badda7217803f7c4634fb2d951d8579c0dd5`.
 
-No Nature source/topology/material/VFX change, Object source/material/rigging change, footprint change or Weather source/timing change was introduced. This is receiving identity/provenance evidence spanning the existing multi-asset scene.
+No Nature source/topology/material/VFX change, Object source/material/rigging change, footprint change, Weather source/timing change, route change, camera change or lighting change was authored by this activation.
 
-## Technical-Art boundary remains truthful
+## Direct 604 vs reviewed-312 trade space
 
-The new consumer identity **does not** erase Technical Art's measured post-index normal repack:
+Against the exact previously reviewed 312-vertex consumer at Environment head `55e10a4fa700fb81020a95bd5143deca6a09f208`:
 
-- changed decoded corner normals: `120 / 1008`;
-- affected surface: `frame_galvanized`;
-- max component delta: `0.00011304020881702792`;
-- max angular delta: `0.006869404718583788°`.
+Proof-host deltas:
 
-Art Direction has found that retained appearance non-degrading, and Visual QA has independently passed retained visual noncorruption, but mathematical/transport exactness remains Technical-Art-owned. No generic normal tolerance was created.
+- draw calls: `+0`;
+- objects: `+0`;
+- primitives: `+0`;
+- observed buffer memory: **`+5,840 B`**;
+- observed texture memory: `+0`.
 
-If this representation leaves the current procedural Godot path, Technical Art still owns transport/import equivalence.
+Visual comparison:
 
-## Runtime boundary remains truthful
+- changed frames: **68 / 68**;
+- byte-identical frames: `0 / 68`;
+- maximum changed pixels: **`28,177 / 792,000 = 3.5577%`**;
+- maximum pixels above `1 LSB`: **28,154**;
+- maximum channel delta: **230 LSB**.
 
-Runtime pass 28 independently showed that pre-deduplicating before normal generation is slower on the proof host even though it ends at the same final storage identity. Environment therefore does not replace the current post-normal indexed receiver with that candidate.
+Therefore the 604 source-intent normal/split identity is **not** visually interchangeable with the 312 consumer-generated normal/index identity in the retained views. That difference is evidence for Art/QA, not an Environment preference decision.
 
-The **`+180` primitive** residual versus active segmented remains real. Target-device CPU/GPU/FPS/VRAM/heap/batching behavior remains unmeasured. Environment does not convert the `-8,304 B` proof-host buffer win into device acceptance.
+## Direct 604 vs active segmented rollback/default
 
-## Current Environment decision
-
-**`PASS_CURRENT_WORLD_BUILDING_CONSUMER_IDENTITY_REBOUND_TO_SOURCE_SPLIT_POLICY`**
-
-Exact meaning:
-
-> The exact Art/QA-reviewed 312-vertex post-normal indexed Building can remain Environment's current review target as a separately named consumer-generated representation while Hard Surface's newly explicit 604-group cardinal-normal source split contract remains intact and authoritative upstream. The full Building + Nature + Object + Weather receiving scene reproduces with the prior Runtime and Weather boundaries unchanged. No source normal policy is altered merely to make counts match.
-
-Default adoption remains **false**. The active segmented receiver at:
+Active segmented rollback/default remains exact head:
 
 `7713cbe5863c3bc38dabb6236eb4b393401224b6`
 
-remains rollback/default.
+Proof-host deltas for the 604 receiver versus active:
 
-The workflow-specific adoption blocker is Runtime/target-device acceptance of the real `+180` primitive residual. Studio-wide, Technical Art's non-exact normal/transport boundary also remains explicit and is not silently closed by Environment.
+- draw calls: `+0`;
+- objects: `+0`;
+- primitives: **`+180`**;
+- observed buffer memory: **`-2,464 B`**;
+- observed texture memory: `+0`.
+
+Visual comparison:
+
+- changed frames: **68 / 68**;
+- maximum changed pixels: **`26,448 / 792,000 = 3.3394%`**;
+- maximum pixels above `1 LSB`: **26,408**;
+- maximum channel delta: **230 LSB**.
+
+The 604 representation is therefore neither a zero-cost nor a visually neutral drop-in replacement for active segmented. The active segmented receiver remains the rollback/default.
+
+## Environment decision
+
+**`PASS_CURRENT_WORLD_SOURCE_INTENT_INDEXED_BUILDING_RECEIVER_REVIEW_READY`**
+
+Exact meaning:
+
+> The exact Geometry-owned 604-vertex realization of Building Hard Surface's source render-split intent can be reconstructed at the exact retained Map placement and rendered inside the current Building + Nature + Object + Weather composition while the declared non-Building world and Weather-width contract remain stable. It is now directly comparable with the reviewed 312 consumer and active segmented rollback. The observed visual and proof-host differences remain explicit and are not converted into automatic preference or adoption.
+
+Default adoption remains **false**.
+
+The exact retained choice remains:
+
+`7713cbe5863c3bc38dabb6236eb4b393401224b6`
+
+until the remaining independent gates return.
+
+## Remaining handoffs / ownership
+
+- **Art Direction:** compare retained exact 604 vs reviewed 312 vs active segmented views and decide visual preference only.
+- **Visual Observer / QA:** independently inspect the exact 604 receiver; earlier 312 acceptance does not transfer.
+- **Technical Art:** if the 604 identity is transported beyond this procedural Godot proof, bind the exact Geometry digest and prove attribute/index transport independently.
+- **Runtime:** compare representative target-device CPU/GPU/FPS/VRAM/heap/batching cost and decide whether the real `+180` primitive residual is acceptable. Proof-host `-2,464 B` versus active is not device acceptance.
+- **Hard Surface:** retains source render-equivalence authority; no source normal/split rewrite requested.
+- **Geometry / Topology:** retains exact 604 indexed realization authority; no downstream storage count is fed back as a source rewrite.
 
 ## Retained evidence
 
-Final artifact:
+Final valid artifact:
 
-- artifact ID: **`10484130372`**;
-- name: `environment-building-planar-role-consumer-identity-rebind-001-55e10a4fa700fb81020a95bd5143deca6a09f208`;
-- size: **`5,300,641 B`**;
-- GitHub SHA-256: **`0bdc67f4618d260e8724ce009d35a0fc3b748cd3317b25e333a0b36f8244253d`**;
+- artifact ID: **`10486305129`**;
+- name: `environment-building-source-intent-indexed-current-world-001-5e001929a4eb230218405bc0d37ea327492555f7`;
+- size: **`4,417,605 B`**;
+- GitHub SHA-256: **`f6607c330ddeb628079126757e38c6fe50d0773952b862af8135003b78ee15a0`**;
 - independently downloaded/rehashed SHA-256: **same value**;
-- retained rendered current-world PNGs: `68`.
+- retained candidate render set: `68` PNGs.
 
-The artifact retains exact Environment head identity, exact rebuilt Hard-Surface split policy/evidence, Runtime comparison report, Environment identity-rebind report, indexed Godot runtime receipt/log and the full retained render set.
+The artifact retains exact Environment head identity, exact rebuilt Geometry donor/evidence, final current-world Godot runtime receipt/log, Environment comparison report and rendered current-world frames.
+
+The earlier mechanically-green misplaced run is retained only as failed receiving history and is **not** cited as acceptance evidence. The coordinate-frame failure is likewise retained as a useful fail-closed diagnosis.
 
 ## Handoffs recorded
 
-- **Map Environment PR #24:** comment `5710080185` — exact final head/run, 604-vs-312 identity separation, real world proof, adoption hold and rollback.
-- **Building Hard Surface PR #11:** comment `5710087567` — downstream receiver consumes the new source split intent without changing source normal/split policy or pretending 312 is source equivalence.
-- **Map Technical Art PR #40:** comment `5710090074` — provenance ambiguity closed while the measured 120/1008 normal repack remains a real exactness HOLD; no UC policy change requested.
-- **Map Runtime PR #41:** comment `5710091892` — keep the post-normal indexed control; early-index preparation remains slower; target-device / residual primitive acceptance remains Runtime-owned.
+- **Map Environment PR #24:** comment **`5710903225`** — exact final head/run/artifact, invalid-green truth repair, coordinate-frame repair, 604-vs-312-vs-active evidence, default hold and owner handoffs.
+- **Building Geometry PR #12:** comment **`5710905490`** — exact donor digest reproduced downstream; 604 source-intent identity successfully rendered at exact Map placement; Geometry structural PASS not promoted into visual/default adoption.
+
+No new source lane or duplicate Environment lane was opened.
 
 ## Reusable composition learning
 
-The reusable Environment rule is now sharper:
+The Environment rule now becomes stricter:
 
-> **Source-owner render equivalence and consumer receiver storage are different identities unless explicitly proven otherwise. When a source owner later declares a stricter split/normal contract, do not rewrite the consumer or force counts to match. Name the consumer representation, bind exact provenance, rerun the real multi-asset world, retain rollback, and keep visual, transport and runtime acceptance as separate gates.**
+> **A structurally exact source-owned representation is not downstream scene evidence until its consumer transform, placement and real composition are proven. A mechanically green render can still be wrong if the receiving coordinate frame is wrong. Bind exact source identity, bind exact consumer placement, fail closed on the world-space envelope, compare against real rollback and sibling receiver identities, and keep visual/transport/runtime authority separate.**
 
-This is a receiving-composition discipline. It is not a universal indexing policy and is not promoted automatically into Universal Creation or Profession Fabric.
+A second reusable rule remains in force:
+
+> **Source-owner render equivalence and consumer storage are separate identities unless explicitly proven otherwise. `604` source-intent vertices and `312` consumer-generated vertices are both truthful within their scopes; neither may silently overwrite the other.**
+
+These are receiving-composition disciplines, not universal indexing rules and not automatic Universal Creation / Profession Fabric policy.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- default planar-role adoption;
-- replacement of the Hard-Surface semantic/source representation;
-- exact equality between 604 source groups and 312 consumer vertices;
-- byte-exact post-index normal transport;
-- a generic acceptable normal tolerance;
-- arbitrary import/export or Technical-Art transport equivalence;
+- default adoption of the 604 source-intent receiver;
+- default adoption of the 312 consumer receiver;
+- replacement of `header-segmented-23` as semantic/source Building identity;
+- visual equivalence between 604, 312 and active segmented;
+- Art Direction preference for the 604 identity;
+- independent Visual QA acceptance of the 604 identity;
+- byte-exact transport/import identity;
+- a generic normal tolerance;
 - target-device CPU/GPU/FPS/VRAM/heap/batching acceptance;
 - acceptability of the residual `+180` primitives on target hardware;
 - arbitrary camera/FOV/resolution/renderer equivalence;
-- UV/tangent/texture/normal-map/decal equivalence;
+- UV/tangent/texture/normal-map/decal/custom-channel equivalence;
 - final Nature flutter timing/naturalness;
 - Weather aesthetic preference or physical wind;
 - Object/Building collision, navigation, physics, architecture/manufacturing or gameplay validity;
@@ -239,7 +280,7 @@ This activation does **not** establish:
 
 ## Four-root merge gate
 
-- **Truth:** `604` source groups, `312` consumer vertices, nonzero normal repack, `-8,304 B` buffer delta and `+180` primitive residual remain separately named facts rather than being flattened into one optimistic identity.
-- **Agency / non-domination:** Hard Surface keeps source intent; Environment names only its receiver; Runtime keeps cost; Technical Art keeps exactness/transport; Art and QA keep visual authority.
-- **Continuity:** active segmented, unindexed planar-role, prior indexed planar-role and the newly explicit consumer identity remain pinned and rollbackable; no source policy was silently changed to preserve downstream convenience.
-- **Wisdom before speed:** close provenance ambiguity and reprove the real world before any adoption decision; keep the faster proven post-normal receiver and refuse an attractive but measured-slower preparation rewrite.
+- **Truth:** the invalid mechanically-green placement run is explicitly rejected as evidence; the coordinate-frame failure is preserved; `604`, `312`, visual deltas, `+5,840 B` vs 312, `-2,464 B` vs active and `+180` primitives remain separately named facts.
+- **Agency / non-domination:** Hard Surface keeps source intent; Geometry keeps indexed realization; Environment owns only receiving comparison; Materials keeps look profile; Art/QA keep visual authority; Technical Art keeps transport; Runtime keeps device adoption.
+- **Continuity:** active segmented rollback, reviewed 312 consumer, exact 604 source-intent candidate and all prior Environment evidence remain pinned and distinguishable; no source or consumer history was silently rewritten.
+- **Wisdom before speed:** a green workflow was inspected rather than trusted blindly, the coordinate-frame defect was diagnosed and repaired, and exact real-world evidence now precedes any adoption decision.
