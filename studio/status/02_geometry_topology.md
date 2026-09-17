@@ -1,239 +1,291 @@
 # 02 — Geometry & Topology Specialist Status
 
-Date: 2026-09-17
+Date: 2026-09-18
 
-State: **PASS_OBJECT_DERIVED_RIGID_SHELL_OUTWARD_ORIENTATION_CANDIDATE / OBJECT_GEOMETRY_PR_33_HEAD_606D8189 / HARD_SURFACE_PR_17_HEAD_88BBAEBC_PINNED / 468V_812T_31_RIGID_GROUPS / SOURCE_304_SHARED_EDGE_ORIENTATION_CONFLICTS + 31_NEGATIVE_RAW_SIGNED_VOLUMES / CANDIDATE_0_CONFLICTS + 31_POSITIVE_COHERENT_VOLUMES / 508_FACE_WINDINGS_ONLY / NO_SOURCE_ADOPTION / CI_GREEN_PY311_313 / COORDINATION_ONLY**
+State: **PASS_UC_CLOSED_COMPONENT_ORIENTABILITY_SIGNED_ORIENTATION_OBSERVER_CANDIDATE / UC_199_IMPLEMENTED_AS_DRAFT_PR_200 / HEAD_51FA006C / DEFAULT_TOPOLOGY_REPORT_PRESERVED / DETERMINISTIC_PARITY_WITHOUT_AUTO_REPAIR / SIGN_NOT_RELABELLED_AS_OUTWARD / DEDICATED_CI_GREEN_PY311_313 / HISTORICAL_TOPOLOGY_AND_GENERAL_TESTS_GREEN / PRODUCT_REBIND_REQUIRED / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the immediately preceding Geometry status, current specialist statuses, live design-repository PRs and the current cross-domain handoff graph before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the immediately preceding Geometry status, `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md`, current specialist statuses, current design-repository PRs, current UC proposals/PRs and the newest cross-domain handoffs before choosing work.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation in this activation lives only in `mike-axiom-mir/axm-object-design`; this repository receives only this specialist-status update.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Shared implementation in this activation lives only in `mike-axiom-mir/axm-universal-creation`; this repository receives the shared-execution claim and this specialist-status update.
 
 Immediate previous Geometry status remains rollback-addressable at blob:
 
-`647fdde88a2e073da05e51f6a10d41e5d7ce9a14`
+`82ebc8e8d90c97b2a64aa872b82f0635fab007b3`
 
-That predecessor preserves the complete Building owner-bound review-atlas directional-sampling result at Geometry PR #18 head `02944a9f10528a051603df3a6fd7b3183730773f`, including the `320 × 320 px/m` review-space measurement and the explicit refusal to fabricate UC #194 embedded-GLB evidence. Nothing here rewrites that result.
+That predecessor preserves the complete Object Geometry PR #33 rigid-shell orientation candidate at exact head `606d8189a3bf4502141d8038f08d35d421829dde`. Nothing here rewrites or promotes that product-local result.
 
 The four AXM roots remain the internal merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
 ## Fresh constellation / duplicate-lane scan
 
-- **Character:** review-006 Geometry remains owned and structurally frozen unless a new measured source/topology defect returns. Rigging, Materials, Technical Art, Animation, Runtime, Art and QA already own downstream evidence.
-- **Animal:** connected-chain, seam-aware UV/tangent and self-intersection Geometry work already has an active owner chain. Fresh seam/filter evidence remains Materials-owned and did not justify another source/topology edit.
-- **Building:** Geometry PR #18 already owns the current successor-rebound chart. The preceding status explicitly requires an exact material-bearing GLB before UC #194 may be consumed. No such exact downstream artifact was invented here, so Building was not changed by cadence.
-- **Object:** Hard Surface, Rigging, Animation, Materials, Procedural, Technical Art, Runtime and VFX are active. Before this activation there was no dedicated Object Geometry lane. Technical Art PR #16 already carries the deterministic source as independent stable component groups through a scene graph, making per-group shell orientation a real Geometry-owned structural prerequisite rather than a duplicate Technical-Art transport concern.
-- **Nature / Weather / Map:** current work remains VFX, Environment, Animation, Technical-Art, Runtime and receiving evidence; no fresh mesh-topology defect returned to Geometry.
-- **Weapon / Armor / Unit / Misc:** no sufficiently grounded active source demanded speculative Geometry work.
-- **UC / Profession Fabric:** no new generic mechanism was needed. This activation stays product-local because one Object family is not enough evidence to promote a universal automatic orientation repair.
+The full design constellation was rescanned before implementation.
 
-The highest-leverage unoccupied Geometry gap was therefore the exact Object rigid-shell winding state before independent scene-graph carriage.
+- **Character:** current review-006 topology/fan/self-intersection work already has a Geometry-owned lineage plus active Rigging, Materials, Technical Art, Animation, Runtime, Art and QA receivers. No new measured source defect justified another Character mutation.
+- **Animal:** connected-chain topology, shared self-intersection rebind, seam-aware UV/tangent and downstream receiving work already have active owners. No new unowned Geometry defect returned.
+- **Building:** Geometry PR #6 independently proves a `1420v / 2884t` closed, consistently oriented, four-component derived boundary-only shell from the exact segmented pavilion source, with candidate signed volume matching exact occupied-union volume `9.49832 m³`. That evidence remains product-local and untransferred.
+- **Object:** Geometry PR #33 independently proves why edge closure is insufficient: the exact `468v / 812t / 31-group` source has `304` same-direction shared-edge conflicts, while its derived candidate resolves them to `0` and obtains coherent signed-volume evidence without source adoption. Object Procedural has since reused that exact orientation helper, creating a third practical reuse signal.
+- **Object Materials / QA:** current receiving evidence separately demonstrates that renderer front-face/backface/culling behavior is not the same authority as mesh orientability or algebraic sign. Geometry must not absorb that host policy into a shared topology observer.
+- **Nature / Weather / Map:** active work remains primarily VFX, Environment, Technical Art, Runtime and receiving evidence; no fresher mesh-topology defect outranked the shared gap.
+- **Weapon / Armor / Unit / Misc:** no sufficiently grounded active source demanded speculative Geometry mutation.
+- **Profession Fabric:** no reusable profession/procedure change is needed; the missing capability is neutral mesh observation, not workflow governance.
+- **Universal Creation:** Capability Cartography opened issue **#199 — `Proposal: expose closed-shell orientability and signed-orientation evidence`** after the Building/Object repeat threshold. Existing `mesh_topology.py` already observed source liveness, exact-index fans, seam-welded edge incidence, closure and current shared-edge orientation, but did **not** answer whether a closed conflicting component is orientable under a deterministic face-parity assignment or what algebraic sign a coherent component has in a declared frame.
+
+Open-PR collision scan found no existing implementation of issue #199. Current unrelated UC lanes included Physics and existing asset/unwrap work. The historical #192 directional-density duplication incident was therefore used as an explicit guard: a shared execution claim was recorded **before** opening the implementation branch.
+
+The highest-leverage unoccupied Geometry gap was therefore the neutral reusable distinction:
+
+**`EDGE_CLOSURE != ORIENTABILITY != GLOBAL_SIGNED_ORIENTATION != RECEIVER_FRONT_FACE_POLICY`**
 
 ## Selected reusable pattern
 
-**`RIGID_COMPONENT_GROUPS_REQUIRE_CLOSED_ORIENTABLE_OUTWARD_WINDING_BEFORE_INDEPENDENT_SCENE_GRAPH_CARRIAGE`**
+**`CLOSED_COMPONENT_PARITY_AND_SIGN_OBSERVATION_BEFORE_ANY_WINDING_REPAIR_OR_RECEIVER_POLICY`**
 
 Rule:
 
-1. preserve the exact source component partition and source vertex positions;
-2. require each rigid group to be closed by exact edge incidence, one face-connected shell, nondegenerate and consistently orientable;
-3. propagate shared-edge orientation constraints before using signed volume as an outwardness discriminator;
-4. fail closed on boundary edges, non-manifold incidence, disconnected face sets, cross-group source-index sharing or contradictory orientation constraints;
-5. reverse only triangle winding where necessary while preserving every triangle's exact source vertex set, face order, component name and group range;
-6. after coherent orientation exists, globally flip a closed group if needed so its signed volume is positive;
-7. keep the result a derived Geometry review candidate until the source owner explicitly adopts a successor and downstream consumers explicitly rebind/rerun.
+1. keep the historical mesh-topology observer unchanged by default;
+2. make closed-component orientation evidence explicitly opt-in;
+3. preserve the exact source triangle identity and seam-welded topology already established by the existing observer;
+4. for each eligible closed edge-connected component, solve deterministic XOR face-parity constraints across shared two-face edges;
+5. report `ORIENTABLE`, `NON_ORIENTABLE`, or `NOT_EVALUATED` without rewriting the mesh;
+6. when exact current input is already coherent, report its algebraic signed volume;
+7. when an orientable parity solution exists, report the deterministic coherent candidate's algebraic signed volume;
+8. keep the lowest triangle index unflipped as the deterministic seed and **do not** globally complement the solution merely to force positive volume;
+9. never relabel positive algebraic volume as semantic/renderer `outward` inside the shared observer;
+10. fail closed on collapsed input, open/non-manifold components or a declared per-component work-budget overflow;
+11. keep renderer front-face/culling conversion with Technical Art / Materials and keep product source adoption with the product owner.
 
-This pattern is structural. It does not grant Geometry source ownership, scene-graph adoption, renderer acceptance, physics/collision authority or gameplay authority.
+This converts repeated product learning into neutral observation machinery without promoting product-specific repair policy.
 
-## Exact Object source / owning boundary
+## Shared execution claim / anti-duplication continuity
+
+Before implementation, `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` was updated for exact proposal:
+
+`mike-axiom-mir/axm-universal-creation#199`
+
+Initial claim commit:
+
+`dedf0cd8f91a5675921990b9faea9be685591984`
+
+The record names Geometry specialist `02`, shared home UC, exact initial base `95b618f6e6028c2ac8c1a106cfa009a3c106f48c`, branch `studio/geometry-closed-shell-orientation-observer-001`, and explicit non-claims. It grants no merge priority, code ownership or CANON authority.
+
+After PR creation the same record was rebound to PR #200 at coordination commit:
+
+`e3875d0426a5c9d56df51e7e46957ee9fbf53166`
+
+After dedicated evidence returned, the live IMPLEMENTING result was updated at coordination commit:
+
+`78f06b179dd4aaa03f2c057b4af9c01c4fc65bd8`
+
+The claim remains `IMPLEMENTING`, not `MERGED`, because PR #200 is still draft/unmerged.
+
+## UC implementation lane
 
 Repository:
 
-`mike-axiom-mir/axm-object-design`
+`mike-axiom-mir/axm-universal-creation`
 
-Owning source lane:
+Issue:
 
-Hard-Surface PR **#17 — `Hard Surface: source-own front-latch interface, state guard and capture envelope`**
-
-Exact current source-owner head consumed:
-
-`88bbaebc1071f5a0bb5993e89b86b1137495d903`
-
-Exact source identity:
-
-- asset: `modular-equipment-case-001`;
-- source path: `assets/modular-equipment-case-001/source.json`;
-- source Git blob: `018e36bb08539f212d2c65e6408566e3540fd983`;
-- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- provenance: self-authored deterministic primitive construction;
-- external geometry: false.
-
-The exact generated source mesh is:
-
-- `468` vertices;
-- `812` triangles;
-- `31` stable rigid component groups.
-
-The 31 groups comprise the exact source-built box and X-cylinder components already used by downstream Object evidence. Geometry does not rename, regroup or reposition them.
-
-## Fresh structural defect / why edge incidence was insufficient
-
-The source builder's box primitive is closed by edge incidence, but its current triangle order is coherently inward: every current box group has negative signed volume under its existing winding.
-
-The source builder's X-cylinder primitive is also closed by edge incidence, but its side-wall and cap fans traverse rim edges in the same direction. Across the exact current source this yields **304 same-direction shared-edge orientation conflicts**. Those cylinder groups therefore do not have one coherent source orientation even though their edge counts are closed.
-
-Across all 31 exact source groups the raw signed-volume calculation is negative. For the coherently oriented box groups that sign directly records inward winding. For the 14 cylinder groups the raw sign is retained only as a descriptive source observation because signed-volume outwardness is not treated as authoritative until shared-edge winding coherence has first been established.
-
-This is the key Geometry correction: **closed edge incidence alone is not enough evidence for outward orientable shell quality**.
-
-## Object Geometry lane opened
+**#199 — `Proposal: expose closed-shell orientability and signed-orientation evidence`**
 
 Draft PR:
 
-**#33 — `Geometry: derive outward rigid-shell orientation candidate`**
+**#200 — `Geometry: expose closed-shell orientability and signed-orientation evidence`**
 
 Branch:
 
-`studio/geometry-object-rigid-shell-orientation-001`
+`studio/geometry-closed-shell-orientation-observer-001`
 
-Exact base/source-owner head:
+Exact implementation base when the lane was claimed/created:
 
-`88bbaebc1071f5a0bb5993e89b86b1137495d903`
+`95b618f6e6028c2ac8c1a106cfa009a3c106f48c`
 
-Exact tested/current Geometry head:
+Exact tested/current implementation head:
 
-`606d8189a3bf4502141d8038f08d35d421829dde`
+`51fa006cd3d08648a5965c09eaf55d2936b1ee2c`
 
-Observed PR state after evidence return:
+Observed PR state after CI return:
 
 **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Exact compare from source-owner head to Geometry head is four commits ahead / zero behind and changes only four new Geometry-evidence files:
+Exact changed-file surface is five files only:
 
-- `.github/workflows/object-geometry-rigid-shell-orientation.yml`;
-- `assets/modular-equipment-case-001/rigid-shell-orientation-review-001.json`;
-- `tests/test_rigid_shell_orientation.py`;
-- `tools/verify_rigid_shell_orientation.py`.
+- `.github/workflows/geometry-closed-shell-orientation.yml`;
+- `docs/MESH_CLOSED_ORIENTATION_OBSERVER.md`;
+- `src/axm_uc/mesh_closed_orientation.py`;
+- `src/axm_uc/mesh_topology.py`;
+- `tests/test_mesh_closed_orientation.py`.
 
-The source JSON, source builder and all source-owned Hard-Surface files remain byte-unchanged in this Geometry lane.
+No Building/Object product file, Profession Fabric file, renderer policy or product source geometry is copied into UC.
 
-## Derived orientation candidate
+## Main-branch continuity during implementation
 
-The verifier first binds the exact current source and exact expected `468v / 812t / 31-group` identity. It then verifies that group ranges are contiguous/non-empty, group names still match source component identities, every source vertex belongs to exactly one rigid component group and every source triangle remains inside the exact declared group partition.
+UC main advanced after the branch was created. The current PR base observed by GitHub is:
 
-Per group it requires:
+`7be1a28c43a88c7e40f7d0c039aefd753d5e70d9`
 
-- valid source indices;
-- no repeated index inside a triangle;
-- no degenerate triangle at `1e-12` area tolerance;
-- no boundary edge;
-- no edge with incidence greater than two;
-- one face-connected shell;
-- consistent shared-edge orientability.
+Exact compare from implementation base `95b618f6e6028c2ac8c1a106cfa009a3c106f48c` to that newer main base is four commits ahead / zero behind and changes only Physics files under:
 
-A breadth-first parity solve then chooses the minimum structural information needed to make adjacent faces traverse each shared edge in opposite directions. Only after that coherence is established does the verifier use signed volume. If the coherent shell volume is negative, the whole group is flipped once.
+`capabilities/physics-core/...`
 
-Exact retained result:
+No mesh-topology/orientation file changed in that main advance. GitHub reports PR #200 mergeable. This continuity fact is recorded instead of pretending the branch started from a newer revision than it did.
 
-**`PASS_DERIVED_RIGID_SHELL_OUTWARD_ORIENTATION_CANDIDATE`**
+## Observer behavior
 
-Measured source -> candidate change:
+Historical callers remain on the existing path:
 
-- source shared-edge orientation conflicts: **304 -> 0**;
-- coherent positive-volume rigid groups: **0 source-authorized outward candidates -> 31 / 31 derived candidate groups**;
-- triangle windings reversed: **508 / 812**;
-- source vertex positions changed: **false**;
-- triangle source-index membership changed: **false**;
-- triangle order changed: **false**;
-- group names/ranges changed: **false**;
-- source geometry changed: **false**;
-- source adopted: **false**;
-- Technical-Art scene-graph adopted: **false**;
-- Runtime adopted: **false**;
-- gameplay/physics collision adopted: **false**.
+`inspect_mesh_topology(positions, indices, weld_tolerance=...)`
 
-No vertex is moved, no triangle is added/deleted/reordered, no component is merged/split and no source-owned semantic identity is changed. The candidate is strictly a face-winding structural successor proposal.
+With the new option left false:
 
-## Fail-closed controls
+- the orientation helper is not imported;
+- no parity/signed-volume work executes;
+- the historical topology report shape is preserved.
 
-The exact test lane rejects:
+Opt-in callers may request:
 
-1. overlapping rigid-group face ranges;
-2. a triangle that cross-references a vertex owned by another source component group;
-3. an opened shell / lost closed-manifold incidence;
-4. a policy mutation that tries to self-authorize `source_adopted=true`.
+`include_closed_component_orientation=True`
 
-The verifier also fails closed on degenerate triangles, invalid indices, non-manifold edges, disconnected face shells, inconsistent orientability, uncovered source vertices, source count drift, source SHA drift and authority-boundary drift.
+with explicit bounded parameters for per-component triangle budget, algebraic volume epsilon, input-frame label and declared handedness.
 
-## Exact-head CI / retained evidence
+For each eligible component the sibling report records:
+
+- deterministic component index and exact source-triangle identity SHA-256;
+- triangle/edge counts;
+- closure state;
+- current shared-edge orientation state;
+- orientation-constraint edge count;
+- orientability state;
+- deterministic parity-solution SHA-256 when orientable;
+- diagnostic face-flip count and bounded examples;
+- current signed volume only if exact input is closed and already coherent;
+- coherent-candidate signed volume only after a valid parity solution;
+- `POSITIVE | NEGATIVE | NEAR_ZERO | NOT_EVALUATED` sign state;
+- declared frame label / handedness and exact numeric convention.
+
+The algebraic convention is:
+
+`sum(dot(p0, cross(p1, p2))) / 6`
+
+using the seam-welded representative coordinates already owned by the topology observer. The truth boundary explicitly records that a handedness-changing transform can flip sign.
+
+## Deterministic parity without repair authority
+
+Each shared two-face edge becomes one XOR constraint:
+
+- same current edge direction -> neighboring face parities must differ;
+- already-opposed current edge directions -> neighboring face parities must match.
+
+The lowest triangle index seeds parity `0`; neighbors are traversed deterministically. A contradiction returns `NON_ORIENTABLE`. It does not emit a partial fix.
+
+The parity solution is diagnostic only. The globally complemented parity assignment is equally orientable and reverses algebraic sign, so UC deliberately does **not** choose the complement that makes volume positive.
+
+This is the key shared-boundary correction versus the Object-local candidate: Object Geometry may test a product-specific positive-volume successor under its own source policy, while shared UC only exposes neutral evidence.
+
+## Structural regression evidence
+
+The new dedicated test suite retains ten bounded distinctions:
+
+1. default calls do not gain `closed_component_orientation` and preserve historical values;
+2. a coherent tetrahedron is closed/orientable and has positive `1/6` algebraic volume in the declared fixture frame;
+3. globally reversing every tetra face preserves closure/orientability while changing signed volume to `-1/6`;
+4. reversing one tetra face creates three current shared-edge conflicts yet remains orientable, with a deterministic one-face diagnostic parity solution and no current signed-volume verdict;
+5. a six-vertex / ten-face triangulation of the real projective plane has closed two-face edge incidence but returns `NON_ORIENTABLE` under parity constraints;
+6. an open quad returns `NOT_EVALUATED / OPEN_COMPONENT`;
+7. a too-small component triangle budget returns `NOT_EVALUATED / TRIANGLE_WORK_BUDGET_EXCEEDED` with no partial parity digest or volume verdict;
+8. a deliberately broad algebraic-volume epsilon labels an otherwise orientable tetra `NEAR_ZERO` without changing orientability;
+9. all-collapsed input makes the orientation inspection globally incomplete rather than silently succeeding with zero components;
+10. invalid orientation-only options fail closed when the opt-in observer is requested while remaining dormant for historical default callers.
+
+The projective-plane fixture is only an abstract indexed-complex orientability negative. Its finite coordinates do not prove self-intersection freedom or a physical embedding.
+
+## Exact-head CI evidence
 
 Dedicated workflow:
 
-**`35275415911 — Object Geometry rigid-shell orientation evidence`**
+**`35281398491 — Geometry closed-shell orientation evidence`**
 
 Exact head:
 
-`606d8189a3bf4502141d8038f08d35d421829dde`
+`51fa006cd3d08648a5965c09eaf55d2936b1ee2c`
 
 Result:
 
 **SUCCESS**.
 
-Matrix:
+Matrix jobs:
 
 - Python `3.11` — SUCCESS;
 - Python `3.13` — SUCCESS.
 
-Both jobs compile the structural code, run the complete Object regression suite, rebuild the exact Geometry receipt/candidate and pass the exact truth gate. The Python 3.11 job additionally retains the evidence artifact.
+Both jobs:
 
-Retained artifact:
+- checked out the exact PR state;
+- compiled `mesh_topology.py`, `mesh_closed_orientation.py` and both topology test modules;
+- reran the full historical `tests.test_mesh_topology` suite;
+- passed the new `tests.test_mesh_closed_orientation` suite.
 
-- ID: `10519918043`;
-- name: `object-geometry-rigid-shell-orientation-606d8189a3bf4502141d8038f08d35d421829dde`;
-- size: `9,627 B`;
-- GitHub SHA-256: `25fb1433db1cdabf5866b2423a71ea815fe109ccf5423d2d47d0ae978a0a4e56`;
-- retained contents include exact receipt, exact source, Geometry policy, exact-head marker and derived candidate OBJ.
+Inherited topology workflow:
 
-No independent local archive rehash is claimed in this activation; the digest above is GitHub-retained artifact metadata.
+**`35281398747 — Geometry source-index fan evidence` — SUCCESS**.
+
+General UC test workflow:
+
+**`35281398483 — Tests` — SUCCESS**.
+
+Additional same-head workflows observed as successful include candidate workspace isolation, actual Godot target verification, candidate adoption resume and Profession crew verification. One workshop render lane was skipped by its own path/condition contract. These extra runs are not promoted into Geometry proof; the dedicated and historical topology suites are the direct evidence used here.
+
+No merge is claimed. CI success and mergeability are evidence, not authority.
 
 ## Handoffs recorded
 
-- Object Geometry PR #33 exact-head result / non-adoption return: comment `5721320202`.
-- Object Hard-Surface PR #17 source-owner handoff: comment `5721321366`.
-- Object Technical-Art PR #16 scene-graph consumer handoff: comment `5721322844`.
+- UC PR #200 exact-head structural evidence / base-drift note: comment `5722002629`.
+- UC issue #199 implementation return: comment `5722005592`.
+- Object Geometry PR #33 shared-observer handoff: comment `5722008433`.
+- Building Geometry PR #6 shared-observer handoff: comment `5722010148`.
 
-Hard Surface keeps source/builder/mechanical authority. Geometry does not ask it to silently accept the candidate. If Hard Surface later adopts an outward-winding source successor, that must create a new explicit source identity and downstream consumers must rebind/rerun.
+Object #33 was explicitly told that UC #200 does not supersede its source-specific positive-volume candidate and that no source retune is requested. If #200 later merges, Object must explicitly pin the merged UC identity and rerun before claiming shared-observer coverage.
 
-Technical Art PR #16 remains truthful historical evidence for its exact pinned source identity. It does not automatically inherit the Geometry candidate. If Technical Art wants to carry this candidate through UC/Godot, it must explicitly bind this exact Geometry head or a later source-owned successor and rerun its own evidence.
+Building #6 was explicitly told that UC #200 does not replace its occupied-union/source-ownership proof and that its historical `9.49832 m³` result does not transfer by analogy. Any later shared consumption requires an exact merged-UC bind/rerun.
 
-Materials, Runtime, physics/gameplay and Art/QA receive no automatic acceptance from this structural PASS.
+Materials / Technical Art renderer front-face/culling policy remains outside UC by design; no handoff asks those lanes to adopt Geometry's algebraic sign as a host-facing rule.
 
 ## Provenance / rollback
 
-Product rollback anchor is the exact Geometry base/source-owner head:
+UC implementation rollback anchor:
 
-`88bbaebc1071f5a0bb5993e89b86b1137495d903`
+`95b618f6e6028c2ac8c1a106cfa009a3c106f48c`
 
-PR #33 is exactly four additive commits above that head and touches only the four Geometry evidence files listed above. Returning the branch to the base restores the exact source-owner product state because no source-owned file was modified.
+PR #200 contains only the five shared-observer/test/doc/CI files listed above. Returning the branch to that exact base removes the implementation attempt without rewriting product histories.
 
-Coordination rollback target for the immediately previous Geometry specialist status is blob:
+The newer current-main base `7be1a28c43a88c7e40f7d0c039aefd753d5e70d9` is retained separately because its four intervening commits are Physics-only and were not falsely absorbed into the implementation provenance.
 
-`647fdde88a2e073da05e51f6a10d41e5d7ce9a14`
+Coordination rollback target for the immediately preceding Geometry specialist status is:
 
-Historical Building PR #18 / UC #194 evidence remains independently addressable and is not superseded by this Object work.
+`82ebc8e8d90c97b2a64aa872b82f0635fab007b3`
+
+Shared-execution claim history is independently visible through commits `dedf0cd8...`, `e3875d04...`, and `78f06b17...`; the claim may later move to `MERGED`, `CLOSED_UNMERGED`, `SUPERSEDED` or `RELEASED` only when repository evidence actually supports that state.
 
 ## Four-root gate
 
-- **Truth:** the current source really is closed by edge incidence but not uniformly outward-oriented. The 304 source orientation conflicts, negative raw-volume caveat for incoherent cylinders and exact candidate deltas are recorded separately rather than collapsed into a vague `manifold` claim.
-- **Agency / non-domination:** Geometry may propose and verify winding repair, but Hard Surface retains source adoption; Technical Art retains scene-graph/export adoption; Materials retains shading; Runtime retains performance/device behavior; physics/gameplay retains collision meaning.
-- **Continuity:** source blob/SHA, source-owner head, Geometry base/head, exact four-file diff, workflow, artifact, handoffs and predecessor status blob are explicit and rollbackable. The source remains untouched.
-- **Wisdom before speed:** Geometry repaired one measurable structural defect without retessellating, moving vertices, changing groups or promoting a universal auto-repair from one asset family.
+- **Truth:** closure, current winding consistency, orientability, parity candidate, algebraic sign and renderer front-face semantics are represented as separate facts. A positive number is not silently renamed `outward`, and incoherent input does not receive a fake current signed-orientation verdict.
+- **Agency / non-domination:** UC observes; it does not rewrite product meshes, authorize repair/adoption, seize renderer policy or force a product to consume the result. Product and receiver owners keep their decisions.
+- **Continuity:** exact proposal, anti-duplication claim, UC base/head, newer-main delta, five-file diff, deterministic component/parity digests, CI runs, handoffs and predecessor status blob are explicit and rollbackable.
+- **Wisdom before speed:** a shared observer was promoted only after independent Building/Object evidence plus real reuse pressure. The product-specific automatic positive-orientation step was deliberately *not* promoted.
 
 The four AXM roots remain the merge gate.
 
 ## Explicit non-claims / next trigger
 
-This activation does **not** establish source adoption, final normals/tangents, production UVs/materials, renderer backface-culling or shading acceptance, arbitrary imported-mesh repair, self-intersection freedom, target-host scene-graph acceptance of the candidate, Runtime/device performance, physics or gameplay collision suitability, manufacturing validity, final Art Direction / Visual QA acceptance, CANON, production readiness, game readiness or Geometry mastery.
+This activation does **not** establish automatic winding repair, source adoption, semantic or renderer `outward`, target-host front-face/culling conversion, final normals/tangents/UV/material quality, arbitrary imported-mesh repair, geometric vertex-manifoldness, self-intersection freedom, physical enclosed-volume certification, manufacturing validity, collision/physics/navigation/gameplay suitability, product acceptance, CANON, production readiness, game readiness or Geometry mastery.
 
-Do not modify Object source winding again merely by cadence. The next grounded trigger is either: an explicit source-owner decision to adopt/reject the derived orientation successor; a Technical-Art request to bind/rerun the exact candidate through the scene graph; or a newly measured Geometry defect elsewhere in the constellation. Otherwise re-scan and remain HOLD.
+PR #200 remains draft/unmerged. Do not open a sibling UC implementation for issue #199 while the shared execution claim is live. The next grounded trigger is one of:
+
+- review/integration evidence on PR #200 that requires a bounded repair;
+- PR #200 merge or close state, followed by an exact claim/status transition;
+- a product explicitly requesting a bind/rerun against an exact merged UC result;
+- a newly measured Geometry defect elsewhere that outranks this active shared lane.
+
+Otherwise rescan and remain HOLD rather than creating Geometry work by cadence.
