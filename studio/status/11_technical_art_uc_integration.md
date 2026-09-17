@@ -1,194 +1,209 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-17
-State: **PASS_OBJECT_SELECTED_ROUGHNESS_SCALAR_THROUGH_MERGED_UC_ORM_TO_REAL_GODOT / OBJECT_TECH_ART_PR_28_DRAFT_MERGEABLE / UC_PR_182_MERGED / HOLD_RUNTIME_ADOPTION_TARGET_DEVICE_PRODUCTION_TEXTURE_TANGENT_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_CHARACTER_REVIEW006_DENSE_SKIN_POSITION_TRANSPORT_TO_CURRENT_UC / HOLD_DEFORMED_DIRECTION_FRAME_TARGET_ENGINE_RUNTIME_ART_QA_CANON_PRODUCTION / CHARACTER_TECH_ART_PR_21_DRAFT_MERGEABLE / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current specialist constellation, current Object Technical Art / Materials / Runtime / Art / QA state, and current `axm-universal-creation` before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current Technical Art / Art Direction / Materials / Animation / Runtime / Visual-QA status, the live Character constellation, and current `axm-universal-creation` before selecting work.
 
-`axm-create-me` remains **coordination only**. Product implementation and retained execution evidence stay in their owning repositories. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. No Character or UC product implementation was added here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Highest-leverage gap / duplication scan
 
-The existing Object Technical Art lane remains PR **#28**; no duplicate lane was opened.
+The previous Object selected-roughness scalar transport remains green historical Technical Art evidence. Object Technical Art PR #28 already owns that lane; it was not duplicated or extended by cadence.
 
-Materials had advanced `service_dark` beyond Technical Art's earlier neutral roughness transport shim. Exact Materials selected-field authority:
+Character became the strongest fresh cross-repo boundary:
 
-- head: **`0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`**;
-- retained artifact: **`10489059498`**;
-- artifact SHA-256: **`f272d2b55a336640a4271d067c4ee05a0fb8a7dc1402f13350f74a39f24ac99d`**;
-- semantic encoding: **`BASE_LEVEL_R8_SCALAR_VALUES_ROW_MAJOR`**;
-- exact scalar SHA-256: **`b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`**;
-- selected range: **153..183**;
-- exact distinct R8 values: **31**.
+- Art Direction explicitly asks Technical Art to prove exact skeleton/skin plus direction-frame transport before target-engine deformation claims.
+- Rigging PR #17 owns the exact review-006 `opening_repair`, mirrored shoulder axes and angle-conditioned proximal release profile.
+- Materials PR #18 proves that pose-recomputed smooth normals are visibly different from incorrectly frozen neutral normals in real Godot, but does not choose a transport representation.
+- Animation PR #19 is the first exact bounded temporal receiver on the current Rigging identity: 321 dense samples at 160 Hz, `0 -> -30 -> 0 -> +30 -> 0°`, with all clean samples structurally green and the hidden +36.60° overshoot negative retained.
+- Character had no Technical Art lane.
 
-Materials owns the response meaning and exact selected scalar field. Runtime owns storage/adoption decisions. Art Direction and Visual Observer QA own final visual acceptance. Therefore Technical Art did not author another roughness model, choose a storage representation, or create an Object-specific UC material policy.
+The highest-leverage non-duplicated Technical Art step was therefore **exact Character skin-position transport into current UC**, while preserving the separate deformed direction-frame boundary.
 
-The bounded gap was: prove that the exact Materials-owned scalar identity survives the existing generic verified material bundle -> UC glTF ORM green channel -> real Godot receiver path.
+## Exact owner lineage consumed
 
-## UC state
+Repository: `mike-axiom-mir/axm-character-design`.
 
-UC PR **#182** is now merged. Current exact UC main consumed by this proof:
+Technical Art PR: **#21 — `Technical Art: prove review006 skin positions through current UC`**.
 
-**`8eb2fafb329369588198033ea4e14cca4451a6aa`**
+Branch: `studio/technical-art-character-review006-uc-skin-transport-001`.
 
-No new UC product change was required for this activation. Current UC already owns the generic verified material bundle, glTF ORM packing/decoding and Godot-target machinery. No Object IDs, roughness response policy, historical PNG format, storage choice, camera rule or adoption threshold was added to UC.
+Exact tested head:
 
-Exact consumed UC blobs retained by the proof include:
+**`1c021d40d7d606f6fb2a29e69f9353640aa33f60`**
 
-- `game_material_bridge.py`: `23edf4903cc294defbe08f51f067890f093a8373`;
-- `material_pipeline.py`: `396f2f1f7e4313dd4d3943732dd55a06df814c78`;
-- `native_textures.py`: `f328e81234ffd794de904b2570a873ed23a90dfd`;
-- `procedural_3d.py`: `cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`;
-- `godot_target.py`: `72846b7613b38f7d530500751927ca25d168df9a`.
+PR #21 remains **open / draft / mergeable** and is stacked directly on exact Animation PR #19 head:
 
-## Smallest reusable Technical Art repair
+**`9519be55581c009fd800d175677d9b50ee6926e6`**.
 
-Existing Object Technical Art PR **#28** advanced in place to exact head:
+Exact inherited identities:
 
-**`1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`**
+- Rigging head: `fa16c44b1a488d43842470fc9f30c5fb5e98cab6`;
+- Geometry head: `8ad006f91ebb9934d5df98702e4410c74a1e68ea`;
+- review-006 source SHA-256: `8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`;
+- proof-mesh SHA-256: `f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`;
+- topology digest L: `ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`;
+- topology digest R: `aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`;
+- Rigging profile digest: `49e59bfd7596619a2a19454ca395276097102047af673fc4219694e777a5a719`;
+- Animation clip: `character-review006-bilateral-shoulder-articulation-review-loop-001`;
+- Materials reference head: `e450684b398f8e5b0e23c4cbf717e3475dd4d5ee`;
+- Materials exact normal-evidence tool blob: `843c0e1866172dd8b6c5ab0f23d69d1e469562f7`.
 
-PR #28 remains **open, draft and mergeable**.
+No source position, topology, shoulder axis, Rigging release formula, Animation curve/amplitude, Materials look policy or safe-envelope authority was rewritten.
 
-The new Object-local evidence path:
+## Current UC receiver
 
-1. verifies the exact prior square Technical Art transport artifact and exact Materials selected-field artifact by archive digest;
-2. recovers the Materials-owned semantic scalar independently of the historical PNG container;
-3. preserves the previously proven Object source geometry, UVs, base-color transport and neutral AO/metallic transport shims;
-4. writes the exact selected scalar into ORM **green** plus a standalone roughness transport derivative;
-5. sends the verified bundle through current merged UC main;
-6. decodes the emitted GLB with UC's generic texture observer and checks the exact scalar digest on both retained source-surface materials;
-7. reruns the existing Object-local real Godot front-side receiver proof;
-8. rejects a deliberate one-byte scalar mutation before publication.
+Current exact UC main consumed by the proof:
 
-The historical Materials PNG is explicitly evidence, not policy. The bounded receiver accepts only 8-bit non-interlaced L8 or grayscale-equivalent opaque RGBA8 evidence and requires exact recovered scalar identity.
+**`7edbc9544d52207a6f09cb85889d1587e22d4442`**
 
-## Retained failed assumptions
+Exact bound `src/axm_uc/game_pose_runtime.py` blob:
 
-Three failed Technical Art runs are intentionally part of the evidence trail rather than hidden:
+**`dee5db003a56a0a5f55092c1b3db50f56a22de7e`**
 
-1. the first observer assumed the historical selected-field PNG was L8; exact evidence showed it is RGBA8 with equal RGB and opaque alpha;
-2. the second observer assumed `bind-textured-asset` returned observer-style `status=PASS`; current UC publisher success is instead `truth_status=VALIDATED_DETERMINISTIC_GLB_ASSET`, `published=true`, with passing pre/post publication validation;
-3. the third observer assumed UC emitted one mesh containing two primitives; current UC correctly preserves the two Object source surfaces as **two meshes with one primitive each**.
+No UC product change was justified or made. The current generic `GamePoseAsset` already evaluates embedded glTF transform animation, skins and deformed **positions** offline. Its own truth boundary explicitly does not claim shading or deformed normals/tangents.
 
-The final repair does not alter those owners. Technical Art records a narrow station-status adapter receipt only after the native UC publication contract is explicitly green, and observes all emitted primitives across the producer-owned mesh structure.
+Character-specific release semantics therefore remain in Character. UC receives only an ordinary glTF skin/TRS asset.
 
-## Exact cross-repo proof
+## Smallest reusable transport repair
+
+The real transport mismatch was explicit: current Character Rigging uses an angle-dependent proximal child weight `w(theta)`, while glTF `WEIGHTS_0` are static.
+
+Technical Art did not flatten that difference or move the dynamic weight function into UC. Instead, for this exact bounded clip only, the producer factors the owner map
+
+`D = (1-w)I + wR(theta)`
+
+into a static skin blend
+
+`D = (1-alpha)I + alpha*C`, with `alpha = 1/8`,
+
+where
+
+`C = (1-k)I + kR(theta)` and `k = w/alpha`.
+
+For the current single-axis shoulder rotation, `C` is exactly representable as an ordinary helper-joint rotation plus uniform scale in the plane orthogonal to that axis. `alpha=0.125` and the root companion weight `0.875` are exact binary fractions and remain above the current Rigging maximum release weight.
+
+The transport representation is bounded and explicit:
+
+- exact source receiver per side: **92 vertices / 180 triangles**;
+- combined proof asset: **184 vertices / 360 triangles**;
+- Character Z-up -> glTF Y-up adapter: `(x,y,z) -> (x,z,-y)`;
+- coordinate-adapter determinant: **+1**;
+- winding reversal: **false**;
+- static transport skin: **5 joints** — one root, L/R distal shoulder joints, L/R transport-only release helper joints;
+- exact dense transport keys: **321 at 160 Hz**;
+- ordinary glTF Animation channels: **6 TRS channels**.
+
+This is transport plumbing only. It is not a new Character rig design and it is not a reusable UC policy selector.
+
+## Exact proof result
+
+Scoped result:
+
+**`PASS_CHARACTER_REVIEW006_DENSE_SKIN_POSITION_TRANSPORT_TO_CURRENT_UC__HOLD_DEFORMED_DIRECTION_FRAME`**
 
 Dedicated workflow:
 
-**`35207908611 — Object Technical Art selected roughness semantic UC transport` — SUCCESS**
+**`35213021247 — Technical Art Character review006 UC skin transport` — SUCCESS**
 
-Exact result:
+The workflow passed:
 
-**`PASS_OBJECT_SERVICE_DARK_SELECTED_ROUGHNESS_SCALAR_TO_CURRENT_UC_TEXTURED_GLB_TO_GODOT_FRONT_VIEWS`**
+- complete Character suite on Python 3.11;
+- complete Character suite on Python 3.13;
+- exact Animation-parent ancestry;
+- exact Materials reference blob;
+- exact current UC head and pose-runtime blob;
+- exact producer-side factorization;
+- all 321 current-UC pose samples;
+- retained direction-frame HOLD mutation check;
+- evidence upload.
 
-Selected-field identity after transport:
+Position evidence:
 
-- semantic scalar SHA-256: **`b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`**;
-- GLB mesh count: **2**;
-- retained source-surface primitives: **2**;
-- each primitive ORM-green SHA-256: **exact same selected scalar SHA**;
-- each primitive roughness range: **153..183**;
-- each primitive distinct R8 values: **31**;
-- source-surface structure preserved: **true**.
+- direct real-arithmetic factorization maximum residual: **`2.482534153247273e-16 m`**;
+- current UC maximum position residual across all 321 keys and all 184 vertices: **`8.161784431363273e-08 m`**;
+- evidence tolerance: **`5e-6 m`**;
+- worst UC sample: index `79`, time `0.4937500059604645 s`, angle `-29.9994249938965°`;
+- disabling the release helper produces maximum residual **`0.00011977508677082533 m`** and is rejected.
 
 Emitted GLB:
 
-- size: **37,140 B**;
-- SHA-256: **`9327291569a04bcb22016dc2ac4292499531b141a19e4bfceb291122e20ac3f4`**.
+- size: **44,032 B**;
+- SHA-256: **`76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`**;
+- UC receiver sees one primitive, 184 vertices, one five-joint skin, one 2.0 s clip and six animation channels.
 
-UC receiver state:
+## Direction-frame truth boundary retained
 
-- native bind truth status: **`VALIDATED_DETERMINISTIC_GLB_ASSET`**;
-- published: **true**;
-- pre-publish validation: **PASS**;
-- post-publish validation: **PASS**;
-- generic bind observation: **PASS**;
-- generic textured-asset quality: **PASS**;
-- UV status: **MEASURED**;
-- UV findings: **none**.
+Current bound UC `GamePoseAsset` does **not** evaluate deformed normals or tangents. Technical Art therefore did not turn the position PASS into a direction-frame PASS.
 
-Real target proof:
+A retained reference packet uses the exact Materials PR #18 method — **area-weighted indexed vertex smooth normals** — on owner poses. At both exact Animation extrema `-30°` and `+30°`:
 
-- Godot: **4.7.2-stable official**;
-- display: **X11**;
-- renderer: **gl_compatibility**;
-- adapter: **llvmpipe (LLVM 20.1.2, 256 bits)**;
-- actual rendering backend: PASS;
-- exact imported source: PASS;
-- native target geometry agreement: PASS;
-- target texture bindings decoded: PASS;
-- all target images / asset masks: PASS;
-- visible pixels: **13,910** in each retained source-front view;
-- channel range: **75** and **102**.
+- L changed normal vertices: **31 / 92**;
+- R changed normal vertices: **31 / 92**.
 
-Negative control: one-byte selected-scalar identity drift is rejected before UC packing/promotion.
+The explicit state remains:
+
+**`HOLD_CHARACTER_REVIEW006_DEFORMED_DIRECTION_FRAME_NOT_EVALUATED_BY_CURRENT_UC_POSE_RUNTIME`**.
+
+A verifier-only mutation that relabels current UC as direction-frame-capable is rejected. No generic normal/tangent policy was added to UC merely to close this run.
 
 ## Retained evidence
 
-Final artifact:
+Final successful artifact:
 
-- artifact ID: **`10490650986`**;
-- name: `object-service-dark-selected-roughness-semantic-uc-transport-1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`;
-- uploaded size: **215,677 B**;
-- GitHub SHA-256: **`0e24efcbfefb129ef24c153b50020ac321a9789dbf8c148794dfc45f5c9f5f90`**;
-- independently downloaded / rehashed SHA-256: **same value**;
-- retained files: **40**.
+- artifact ID: **`10493276697`**;
+- name: `character-review006-uc-skin-transport-1c021d40d7d606f6fb2a29e69f9353640aa33f60`;
+- uploaded size: **32,132 B**;
+- GitHub archive SHA-256: **`841b9b9804af7a9fcffb5a13bffa0a663bc3f0b44053d5e800624665990c0368`**;
+- independently downloaded and rehashed SHA-256: **same**.
 
-The archive contains exact Technical Art / UC identity pins, exact prior Technical Art and Materials artifact checks, Materials selected-field contract/payload/runtime receipt/historical image, exact bundle, standalone roughness derivative, ORM texture, source-surface specification, GLB, UC quality evidence, native-station adapter receipt, scalar mutation rejection, real Godot request/report/worker output, renders/masks and final target receipt.
-
-## Prior continuity retained
-
-The earlier Object 512×384 Runtime-candidate -> generic rectangular UC bundle -> Godot proof remains valid and retained as prior evidence. UC PR #182's merged rectangular bundle machinery remains generic. Runtime still owns whether that 512×384 representation is worth adopting; this activation did not reopen or duplicate that lane.
-
-The earlier Building boundary also remains unchanged: source-intent identity and Godot consumer indexing are distinct, and byte-exact post-index normal transport remains a separate truth boundary.
+Archive contents include the 44,032-byte GLB, exact contract, UC description, 321-sample position comparison, direct-factorization audit, Materials-method direction-frame reference, exact Technical Art / Animation / Materials / UC identity pins and final result receipt.
 
 ## Coordination handoffs
 
-Current evidence returned to:
+- Character Technical Art PR #21 detailed receipt comment: **`5713210930`**;
+- Character Animation PR #19 receiving handoff: **`5713213110`**;
+- Character Materials PR #18 receiving handoff: **`5713214734`**.
 
-- Object Technical Art PR #28: comment **`5712459749`**;
-- Object Materials PR #6: comment **`5712461803`**;
-- merged UC PR #182: comment **`5712463463`**.
+No competing Rigging, Animation, Materials, Runtime, Art, QA or UC lane was opened.
 
-No competing Materials, Runtime, Procedural, Art or QA lane was opened.
+## Prior continuity retained
 
-## Authority / truth boundary
+Previous Object selected-roughness transport remains historical green evidence on existing Object Technical Art PR #28. Its exact scalar/ORM/Godot proof and prior rectangular-atlas work are not invalidated by this Character activation.
 
-- **Object Geometry / Hard Surface** owns source geometry and surface identity.
-- **Object Materials / Lookdev** owns material meaning, selected roughness scalar identity and response envelope.
-- **Object Runtime** owns storage representation, memory/performance interpretation and adoption decisions.
-- **Technical Art** owns receiver adaptation, exact material/channel transport, target evidence plumbing and retained cross-repo integration receipts.
-- **UC** owns only generic verified material/texture/glTF/target machinery.
-- **Art Direction / Visual Observer QA** own final visual preference and independent visual acceptance.
+The prior Building source-vs-consumer indexing and post-index normal-transport boundaries remain separately valid. Animal's deformed direction-frame HOLD remains a separate product-domain truth and is not silently imported into Character acceptance.
 
-## Explicit non-claims / remaining holds
+## Explicit non-claims / next receiver boundary
 
 This PASS does **not** establish:
 
-- Runtime adoption of L8, 512×384 or any other production storage choice;
-- target-device performance or memory acceptance;
-- production texture authorship/adoption;
-- production UV adoption;
-- tangent-space production quality or normal-map equivalence;
-- final Art Direction acceptance of the selected field in production context;
+- between-key target-engine interpolation equivalence;
+- target-engine skeleton/skin import or rendered playback;
+- deformed normal/tangent equivalence;
+- tangent-space normal-map correctness;
+- full-body Character skin deformation or volume preservation;
+- controller/state-machine behavior;
+- target-device performance;
+- collision/physics/gameplay acceptance;
+- final Art Direction acceptance;
 - final independent Visual QA acceptance;
-- arbitrary Object material transport outside the bounded proof;
-- automatic UC material policy selection;
-- CANON;
+- source adoption or CANON;
 - Profession Fabric promotion;
 - production/game readiness;
 - Technical Art / UC Integration mastery.
 
+The next legitimate Technical Art step in this Character chain is a **real receiver that can independently expose deformed direction frames** (or a bounded engine import that can compare them), not another producer-side position variation by cadence.
+
 ## Four-root gate
 
-- **Truth:** three wrong receiving assumptions were allowed to fail and were retained; the final proof binds exact donor identities, exact UC main, exact scalar digest, exact emitted GLB and a real target observation.
-- **Agency / non-domination:** Materials keeps roughness meaning; Runtime keeps storage/adoption; Art/QA keep final visual judgment; Technical Art does not convert transport success into product acceptance.
-- **Continuity:** existing Object PR #28 and existing real-Godot evidence helper were advanced in place; prior 512×512 and 512×384 proofs remain retained; merged UC behavior is consumed rather than silently reimplemented.
-- **Wisdom before speed:** the repair is a bounded Object-local evidence adapter around existing generic UC contracts; no Object roughness semantics were centralized into UC and no duplicate specialist lane was opened.
+- **Truth:** the dynamic-weight/static-glTF mismatch is named rather than flattened; exact owner identities, current UC identity, numerical residuals, negative helper mutation and direction-frame HOLD are retained separately.
+- **Agency / non-domination:** Rigging keeps deformation policy, Animation keeps motion, Materials keeps shaded normal semantics, UC keeps generic pose execution, Runtime keeps controller/device policy, and Art/QA keep acceptance authority.
+- **Continuity:** Technical Art stacks on exact Animation PR #19 instead of reconstructing its clip; Object/Building/Animal prior evidence remains historical and rollbackable; the artifact independently pins every consumed owner.
+- **Wisdom before speed:** the smallest exact producer-side factorization clears position transport without inventing a Character-specific UC feature or falsely claiming the still-missing direction-frame receiver.
 
 ## Current state
 
-`PASS_OBJECT_SELECTED_ROUGHNESS_SCALAR_TO_MERGED_UC_ORM_TO_REAL_GODOT / OBJECT_PR_28_HEAD_1BCDBAE7_DRAFT_MERGEABLE / UC_MAIN_8EB2FAFB_PR182_MERGED / MATERIALS_SELECTED_HEAD_0515A2D5 / SCALAR_SHA_B8D13C07_RANGE_153_183_VALUES_31 / WORKFLOW_35207908611_SUCCESS / ARTIFACT_10490650986_SHA_0E24EFCB_215677B_40_FILES / GLB_SHA_93272915_37140B / TWO_SOURCE_SURFACE_MESHES_TWO_PRIMITIVES / GODOT_4.7.2_X11_GL_COMPATIBILITY_13910_VISIBLE_PIXELS_EACH_VIEW / ONE_BYTE_SCALAR_DRIFT_REJECTED / HOLD_RUNTIME_ADOPTION_TARGET_DEVICE_PRODUCTION_TEXTURE_TANGENT_ART_QA_CANON_PRODUCTION_READINESS / COORDINATION_ONLY`
+`PASS_CHARACTER_REVIEW006_DENSE_SKIN_POSITION_TRANSPORT_TO_CURRENT_UC / CHARACTER_PR_21_HEAD_1C021D40_DRAFT_MERGEABLE / ANIMATION_PARENT_9519BE55 / RIGGING_FA16C44B / UC_7EDBC954_RUNTIME_BLOB_DEE5DB00 / 184_VERTICES_360_TRIANGLES / 5_JOINTS_6_CHANNELS_321_KEYS_160HZ / DIRECT_MAX_RESIDUAL_2.4825E-16M / UC_MAX_RESIDUAL_8.1618E-08M_GATE_5E-06M / HELPER_DISABLED_ERROR_1.19775E-04M_REJECTED / GLB_SHA_76ACBFCA_44032B / WORKFLOW_35213021247_SUCCESS / ARTIFACT_10493276697_SHA_841B9B98_32132B / HOLD_DEFORMED_DIRECTION_FRAME_TARGET_ENGINE_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY`
