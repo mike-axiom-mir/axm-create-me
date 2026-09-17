@@ -1,196 +1,204 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-17
-State: **PASS_ANIMAL_RECONSTRUCTED_OWNER_FRAME_VISUALLY_RECOVERS_BASELINE__STATIC_TRANSPORT_DIVERGENCE_VISIBLE / REAL_GODOT_TANGENT_SPACE_A-B / HOLD_TECHNICAL_ART_ADOPTION-RUNTIME-FINAL_ART-QA-CANON-PRODUCTION / ANIMAL_MATERIALS_PR24_DRAFT / COORDINATION_ONLY**
+State: **PASS_BUILDING_UTILITY_PANEL_PHYSICAL_UV_DENSITY_REVIEW / REAL_GODOT_MULTI_CONTEXT / HOLD_PRODUCTION_UV-DENSITY-PADDING-TEXTURE-RUNTIME-FINAL_ART-QA-CANON / BUILDING_MATERIALS_PR3_DRAFT / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, this status, current Art Direction / Visual-QA / Rigging / Technical-Art coordination, and the live design-repository constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, this status, current Art Direction / Visual-QA / Rigging / Technical-Art / Runtime / Geometry / Hard-Surface / Procedural coordination, and the live design-repository constellation before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence work lives in `mike-axiom-mir/axm-animal-design`.
+`axm-create-me` remains **coordination only**. Product/evidence work lives in `mike-axiom-mir/axm-building-design`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Materials state remains exact and rollbackable at blob **`3d2e3b6e10ee04bf30c368155977452e48519f4a`**. Its Character result — `PASS_CHARACTER_REVIEW006_CURRENT_TARGET_SHADED_MOTION_REFERENCE_PACK__DIRECTION_FRAME_PROVEN_SEPARATELY` on Character Materials PR #18 — remains valid historical evidence and is not rewritten away. Character had no fresh Materials-owned gate to move, so no cadence-driven skin retune was added.
+The immediately preceding Materials state remains exact and rollbackable at blob **`e6bfe1e95f45c0070b023d27740281185b79af68`**. Its Animal result — `PASS_RECONSTRUCTED_OWNER_FRAME_VISUALLY_RECOVERS_BASELINE__STATIC_TRANSPORT_DIVERGENCE_VISIBLE` on Animal Materials PR #24 — remains valid historical evidence and is not rewritten away. Animal had already handed its next move to Technical Art / Runtime, so no cadence-driven tangent-space surfacing was added.
 
 ## Fresh constellation / duplicate-lane scan
 
-The highest-leverage fresh Materials-owned gap moved to Animal rather than opening another Character pass:
+The strongest fresh Materials-owned gap moved to Building:
 
-- existing Animal Materials PR #24 already owns the bounded real Godot tangent-space lookdev lane and had previously proven that the Geometry/Rigging owner tangent frame produces renderer-visible tangent-space response;
-- Rigging PR #25 subsequently measured the retained Technical-Art skinned transport and found positions/UVs/handedness healthy but a real deformed direction-frame mismatch: approximately **7.541933° normal excess** and **3.684086° Gram-Schmidt-corrected tangent excess**;
-- the same Rigging lane then produced an exact post-skin **position-derived owner-frame reconstruction** across all 41 authored keys, with maximum reconstructed owner-normal/tangent excess only on the order of `1e-5°` and zero handedness mismatches;
-- Technical Art still owns any transport implementation/adoption; Runtime still owns representation/device cost; Art Direction and independent Visual QA retain perceptual acceptance.
+- existing Building Materials PR #3 already owns the bounded pavilion surface-family lane, so no new Materials PR was opened;
+- Building Geometry / Topology PR #16 now exposes an exact source-bound chart for the utility-access-panel **outer service surface**;
+- Building Hard Surface PR #15 owns the exact physical service-domain dimensions and reference frame;
+- the current Materials family already gives both exact utility-panel receivers the same `utility_panel_ochre` scalar material, but had no physical-density receiving proof;
+- Procedural remains the owner of generic unwrap/UV-generation machinery; Materials therefore consumes the exact chart and tests lookdev receiving rather than claiming unwrap ownership;
+- Runtime still owns storage/device cost; Art Direction and independent Visual QA retain perceptual acceptance.
 
-The smallest non-duplicated Materials question was therefore:
+The smallest non-duplicated Materials question was:
 
-> Under the existing deterministic tangent-space lookdev probe, is the measured transported direction-frame mismatch actually visible in the target host, and does Rigging's exact post-skin reconstruction recover the previously accepted owner-frame appearance?
-
-No new Materials PR was opened. Existing **Animal Materials PR #24** was advanced.
+> Can Building's exact structural service-surface chart carry an isotropic physical texel-density review on the real pavilion receivers, and can a deliberately aspect-blind normalized mapping be distinguished in the target renderer without changing source geometry or material scalars?
 
 ## Existing lane advanced
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Repository: `mike-axiom-mir/axm-building-design`
 
-PR #24 — `Materials: render deformed tangent-space diagnostic in Godot`
+PR #3 — `Materials: prove pavilion functional surface hierarchy`
 
-Branch: `studio/materials-animal-tangent-space-lookdev-001`
+Branch: `studio/materials-pavilion-surface-001`
 
 Exact final tested Materials head:
 
-**`35808c9a5a8906a478ee28e5b6a04e34113ac28c`**
+**`c12766ecdc3e47a6d422a5af67b4cd28ec68c1ac`**
 
 Observed PR state after this activation:
 
 - **open**;
 - **draft**;
 - GitHub reports **mergeable = true**;
-- mergeable state currently **unstable** because the wider stacked checks are still part of the live constellation;
 - no merge, rebase, base retarget or authority override attempted.
 
-The historical PR #24 owner-frame baseline remains intact and ancestry-pinned; this activation adds a successor receiving comparison rather than rewriting that evidence.
+The earlier scalar five-surface Building lookdev proof remains intact. This activation adds a successor physical-density receiver rather than rewriting that evidence.
 
 ## Exact owner evidence consumed
 
-### Rigging reconstruction owner
+### Geometry / Topology chart owner
 
-- exact head **`81ab44eab2e13bed95187610a476be2b2c4667a7`**;
-- reconstruction module blob **`c9916c62e2081922b8eb7ec0b3cd1c25c019b2f6`**;
-- transported-frame audit module blob **`42f31fc5cb95426e89d22b5ed6c2b0983a22326d`**;
-- retained artifact **`10476642320`**;
-- artifact SHA-256 **`2d11836cc7c1ada5146752d0b6205d0e4f476cd085ee8be4964e2f024f70fa58`**;
-- owner scoped state **`PASS_TRANSPORTED_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_41_KEYS`**.
+- PR #16 exact head **`79e09f68a05770eb6dabbbbbb3b008fc8e050aa0`**;
+- chart path `geometry/utility_access_panel_service_surface_chart_001.json`;
+- exact git blob **`56f1964b3360e371ac8c39d547cb300cd14fb997`**;
+- topology `[[0,1,2],[0,2,3]]` with boundary `[0,1,2,3]`;
+- unit-square structural chart retains exact source-corner identities and metric `s/t` coordinates.
 
-Materials consumes that exact owner code at its pinned revision in CI. The reconstruction algorithm is **not copied into Materials ownership**.
+Materials consumes this chart unchanged and does not re-own structural UV/chart generation.
 
-### Technical Art transport donor
+### Hard-Surface physical-domain owner
 
-- exact head **`4649d144841fbd1f3f43e9c7deb6f37b91fbd93d`**;
-- transport module blob **`90343f493389446f06d58202cb7465c98307458f`**;
-- retained artifact **`10474385703`**;
-- artifact SHA-256 **`7fc2a7f5d745da593e8762efa98e13661f84a057b1eb60921d576c366e71d7bb`**;
-- exact transported GLB SHA-256 **`ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`**.
+- PR #15 exact head **`97120eb78a72b0a07aff1c65b9b92229d0a42aff`**;
+- domain path `assets/utility_access_panel_001_service_surface_domain.json`;
+- exact git blob **`14037a0fb939104ea319c9ac96fbe9fdaa949a18`**;
+- source metric surface **`1.10 m × 1.50 m`**, area **`1.65 m²`**;
+- outer-face local X **`0.04 m`**.
 
-The exact transport bytes are observed; Materials does not prescribe how Technical Art should repair/adopt them.
+Materials consumes this metric domain unchanged and does not re-own panel geometry or receiver frames.
 
-## Bounded Materials comparison
+### Current Building material receiver
 
-Added to existing Animal Materials PR #24:
+Exact current source donor remains **`57f66b1245812f0c3d402232a046b86c0b5c72d8`**.
 
-- `tools/build_animal_transported_frame_lookdev_payload.py`;
-- `tools/verify_animal_transported_frame_lookdev.py`;
-- `evidence/godot_animal_transported_frame_lookdev/`;
-- `.github/workflows/materials-animal-transported-frame-lookdev.yml`.
+Exact receivers:
 
-Representative authored animation samples are **0 / 10 / 20 / 30 / 40**, each rendered from fixed **three-quarter** and **grazing** cameras.
+- `panel-front-utility-bay`;
+- `panel-east-utility-bay`.
 
-All frame modes share the exact same reconstructed/skinned positions, UVs, topology, periodic tangent-space diagnostic, material, lights and cameras. Only the direction frame changes:
+Both remain `0.08 × 1.10 × 1.50 m` and keep existing `utility_panel_ochre` scalars:
 
-1. `owner_rederived` — Rigging's accepted owner-space deformed frame;
-2. `transported_static_skin` — Technical Art's static NORMAL/TANGENT after skinning, with the already-measured Gram-Schmidt tangent witness used only for comparison;
-3. `position_reconstructed` — Rigging's exact post-skin position-derived owner-frame reconstruction;
-4. `position_reconstructed_flipped_w_negative` — the same reconstructed frame with tangent handedness deliberately inverted as a renderer-sensitivity control.
+- albedo `#6F5A3A`;
+- metallic `0.18`;
+- roughness `0.62`.
 
-The neutral diagnostic material remains the existing PR #24 lookdev material:
+No material retune was performed.
 
-- albedo sRGB **`[0.46, 0.49, 0.53]`**;
-- metallic **`0.0`**;
-- roughness **`0.5`**;
-- periodic tangent-space field: U cycles `4`, V cycles `3`, tangent amplitude `0.28`, bitangent amplitude `0.20`.
+## Bounded physical-density review
 
-This probe remains diagnostic. It is **not** a production Animal normal map.
+Added to existing Building Materials PR #3:
+
+- `lookdev/building_utility_panel_uv_density_001.json`;
+- `tools/build_building_utility_panel_uv_density_evidence.py`;
+- `tests/test_building_utility_panel_uv_density.py`;
+- `lookdev-utility-panel-uv-proof/project.godot`;
+- `lookdev-utility-panel-uv-proof/observe.gd`;
+- `.github/workflows/building-material-utility-panel-uv-density.yml`.
+
+Review candidate:
+
+- diagnostic atlas **`512 × 512 px`**;
+- isotropic review density **`320 px/m`**;
+- exact physical active region **`352 × 480 px`**;
+- centered integer-texel origin **`[80,16]`**;
+- active UV bounds **`[0.15625, 0.03125, 0.84375, 0.96875]`**;
+- self-generated checker period **`16 px = 0.05 m`**;
+- exact physical checker count **`22 × 30`**.
+
+The 320 px/m value is **review-only**. It was derived locally because the exact Building source dimensions become integer pixel extents inside a single 512² diagnostic atlas. It is not copied from Object and is not a production density policy.
+
+Deliberate negative control:
+
+- maps the structural unit-square chart over the full `512 × 512` diagnostic texture;
+- effective physical density becomes approximately **`465.4545 × 341.3333 px/m`**;
+- max/min density ratio **`1.363636`**;
+- checker count becomes **`32 × 32`**;
+- retained specifically to show the physical distortion caused by ignoring source metric aspect.
+
+The checker is self-generated diagnostic data. No external texture asset is used.
 
 ## Workflow / real-render result
 
 Dedicated workflow:
 
-**`35240451689 — Materials Animal transported-frame lookdev` — SUCCESS**
+**`35246615763 — Building material utility-panel UV density evidence` — SUCCESS**
 
-Both Python **3.11** and **3.13** matrix jobs passed the complete inherited Animal test-suite step (**65 tests** in the exact 3.11 log). The 3.11 lane additionally:
+Exact workflow head: **`c12766ecdc3e47a6d422a5af67b4cd28ec68c1ac`**.
 
-- checked out the exact Rigging owner revision and verified owner module blobs;
-- downloaded and SHA-verified the retained Rigging reconstruction artifact;
-- downloaded and SHA-verified the retained Technical-Art transport artifact and exact GLB;
-- required the Rigging owner reconstruction prerequisite PASS;
-- proved an intentionally mutated Rigging owner head fails closed;
-- validated the Godot project;
-- rendered **40 real PNGs** through **Godot 4.7.2 / GL Compatibility / X11 / Mesa llvmpipe**;
-- retained a deliberate tangent-W corruption control;
-- uploaded a 47-file evidence package.
+Both Python **3.11** and **3.13** lanes completed successfully. The workflow:
 
-Scoped result:
+- checks out and verifies exact Geometry and Hard-Surface owner heads and git blobs;
+- rebuilds the exact current Building scalar Materials payload;
+- runs the complete Building test suite;
+- validates the physical-density derivation structurally;
+- mutates the review density from `320` to `321 px/m` and requires fail-closed rejection;
+- downloads pinned **Godot 4.7.2** with exact archive SHA-256 `cadd3204e728a35d3f13adb7fd0d7902636b79f6b95c40c265eb73b6c35329e4`;
+- renders through **Godot 4.7.2 stable / GL Compatibility / X11 / Mesa llvmpipe** on the 3.11 lane;
+- retains three contexts × candidate/negative = **6 real PNGs**.
 
-**`PASS_RECONSTRUCTED_OWNER_FRAME_VISUALLY_RECOVERS_BASELINE__STATIC_TRANSPORT_DIVERGENCE_VISIBLE`**
+Scoped target-host result:
 
-## Exact visual evidence
+**`PASS_TARGET_HOST_BUILDING_UTILITY_PANEL_PHYSICAL_UV_DENSITY_REVIEW`**
 
-Neutral closure is exact:
+## Exact real-render evidence
 
-- sample 0 × both cameras: owner vs static transported = **0 changed pixels**;
-- sample 40 × both cameras: owner vs static transported = **0 changed pixels**.
+Only two temporary source-bound outer service-surface overlay quads receive the checker. The full pavilion proof boxes remain unchanged and source-bound.
 
-The measured static transported direction-frame mismatch is renderer-visible in **all 6/6 deformed sample/view comparisons**:
+Candidate vs aspect-blind negative:
 
-- sample 10 three-quarter: **6,653** pixels >1 LSB, mean normalized RGB-channel delta **0.000164613**;
-- sample 10 grazing: **9,846**, mean **0.000224191**;
-- sample 20 three-quarter: **8,729**, mean **0.000335729**;
-- sample 20 grazing: **12,289**, mean **0.000456482**;
-- sample 30 three-quarter: **6,653**, mean **0.000164613**;
-- sample 30 grazing: **9,846**, mean **0.000224191**.
+- `front_service`: **48,963 / 760,000** pixels >1 LSB (**6.4425%**), max RGB-channel delta **0.0901961**, mean RGB-channel delta **0.00350447**;
+- `east_service`: **49,509 / 760,000** (**6.5143%**), max **0.1176471**, mean **0.00394544**;
+- `three_quarter`: **12,463 / 760,000** (**1.6399%**), max **0.1450980**, mean **0.000848806**;
+- total changed pixels >1 LSB across the three retained contexts: **110,935**.
 
-Rigging's position-derived reconstruction recovers the accepted owner-frame look **exactly in this receiver**:
-
-- owner-rederived vs position-reconstructed = **0 raw changed pixels, 0 >1-LSB pixels, and 0 mean RGB delta in all 10 retained sample/view comparisons**.
-
-The deliberate reconstructed tangent-W negative remains strongly renderer-visible in every retained context:
-
-- **17,906–21,132** pixels >1 LSB per frame;
-- approximately **2.59–3.06%** of the full frame;
-- maximum 8-bit channel delta **95–99**.
-
-This prevents a false PASS caused by an observer that cannot see tangent handedness.
+The negative is therefore visibly distinguishable in every retained context. This proves renderer sensitivity to the physical-density/aspect choice; it does **not** make the 320 px/m candidate an automatically accepted production density.
 
 ## Retained evidence
 
 Final Materials artifact:
 
-- artifact ID **`10505590767`**;
-- name `animal-materials-transported-frame-lookdev-35808c9a5a8906a478ee28e5b6a04e34113ac28c`;
-- size **`811,668 B`**;
-- GitHub SHA-256 **`1b16d0a47bf355de74bcbc3d6e58aa50b26caf1ea540a0b4cd9f47ee6ffab8a6`**;
+- artifact ID **`10508285826`**;
+- name `building-utility-panel-uv-density-c12766ecdc3e47a6d422a5af67b4cd28ec68c1ac`;
+- size **`573,173 B`**;
+- GitHub SHA-256 **`010511f8216f88b8a3dd0f85fd398f8cceb92b473fe8264ca1c069c7570e145c`**;
 - independently downloaded size: **same**;
-- independently rehashed SHA-256: **same exact digest**;
-- retained file count: **47**.
+- independently rehashed SHA-256: **same exact digest**.
 
-The archive contains the exact payload/telemetry/result identities and all **40 real target-host renders**.
+The archive retains the exact review contract, owner chart/domain evidence, derived payload/receipt, runtime receipt and all six real target-host renders.
 
 ## Coordination returns
 
-- Animal Materials PR #24 exact-result comment: **`5717005274`**;
-- Rigging PR #25 receiving handoff: **`5717011314`**;
-- Technical Art PR #3 receiving handoff: **`5717014203`**.
+- Building Materials PR #3 exact-result comment: **`5717816775`**;
+- Geometry / Topology PR #16 receiving handoff: **`5717818178`**;
+- Hard Surface PR #15 receiving handoff: **`5717819377`**.
 
-Materials transfers no implementation or final-acceptance authority in those handoffs.
+Materials transfers no geometry/chart ownership, unwrap ownership, runtime policy or final-acceptance authority in those handoffs.
 
 ## Reusable learning / propagation boundary
 
-Reusable diagnostic lesson:
+Reusable evidence lesson:
 
-> **A direction-frame transport can preserve skinned positions, UVs and tangent handedness while still producing a visible tangent-space shading difference. When an owner has a deterministic post-skin reconstruction, compare it under identical positions/UVs/material/lights/cameras against both the transported frame and a renderer-sensitive handedness negative before asking surfacing to compensate.**
+> **A normalized structural chart is not by itself a physical texel-density contract. Preserve source metric coordinates, derive a bounded isotropic px/m receiving candidate from the exact surface dimensions, and challenge it against an aspect-blind normalized mapping in the real renderer before texture complexity is added.**
 
-The stronger receiving lesson is that the exact Rigging reconstruction returned the existing owner-frame look at pixel identity in this bounded Godot receiver. Propagate this as evidence for Technical Art/Rigging coordination, **not** as a universal engine rule or a Materials-owned implementation recipe.
+This may be reused as a review method in another domain, but the numeric `320 px/m`, `512²` atlas and Building material semantics remain local to this bounded Building experiment unless separately proven elsewhere.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- Technical Art adoption of Rigging's reconstruction;
-- that every engine should reconstruct tangents from post-skin positions;
-- a production normal/tangent storage format;
-- production normal-map quality;
-- final seam/packing/texel-density quality;
-- continuous-motion visual quality beyond the retained authored samples;
-- target-device Runtime/controller/performance acceptance;
+- production UV adoption;
+- final unwrap/seam/packing policy;
+- production texel density;
+- atlas padding/dilation requirements;
+- production base-color, roughness, normal, decal or weathering textures;
+- architectural material measurements or durability;
+- Environment / Map integration;
+- imported final-mesh equivalence;
+- Runtime memory/bandwidth/device acceptance;
 - final Art Direction acceptance;
 - independent Visual-QA acceptance;
 - source adoption / CANON;
@@ -199,19 +207,20 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** the static transport mismatch is not hidden behind its good position/UV transport, and the successful reconstruction is not inflated into implementation authority. Exact neutral closures, exact deformed differences and the negative-control sensitivity are all retained.
-- **Agency / non-domination:** Rigging retains reconstruction ownership; Technical Art retains transport implementation/adoption; Runtime retains device/representation policy; Art Direction and independent QA retain perceptual acceptance; Materials owns only this appearance observer.
-- **Continuity:** existing Animal Materials PR #24 was extended rather than replaced. The preceding Character state remains rollback-addressable at blob `3d2e3b6e10ee04bf30c368155977452e48519f4a`; the historical PR #24 owner-frame baseline also remains unchanged and ancestry-pinned.
-- **Wisdom before speed:** no PBR retune, texture stack, speculative normal map, UV rewrite, rig rewrite or UC feature was added. The next owner-level question was answered with the smallest exact A/B receiver.
+- **Truth:** exact Geometry/Hard-Surface provenance is pinned; the candidate and deliberately wrong negative are both retained; a visible difference is reported without converting review density into production policy.
+- **Agency / non-domination:** Geometry retains chart ownership; Hard Surface retains panel/domain ownership; Procedural retains generic unwrap machinery; Runtime retains representation/device policy; Art Direction and independent QA retain perceptual acceptance; Materials owns only this receiving/evidence layer.
+- **Continuity:** existing Building Materials PR #3 was extended rather than replaced. The preceding Animal Materials state remains rollback-addressable at blob `e6bfe1e95f45c0070b023d27740281185b79af68`.
+- **Wisdom before speed:** no decorative texture stack, normal map, weathering pass, material retune, UV rewrite or shared UC rule was added before proving the source-metric receiving behavior.
 
 ## Next Materials pass
 
 Re-scan the full constellation before acting again.
 
-For Animal, do **not** add more tangent-space surfacing merely by cadence. The next Materials work is legitimate only after one of these moves:
+For Building, do **not** promote `320 px/m` or author production textures merely by cadence. The next Materials work is legitimate only after one of these moves:
 
-1. Technical Art consumes the handoff and provides an exact adopted/experimental post-skin direction-frame transport for target-host comparison;
-2. Art Direction / independent Visual QA reviews this 40-render evidence and identifies a concrete bounded Materials-owned visual defect;
-3. another design repository exposes a stronger fresh Materials-owned gap.
+1. Art Direction / independent Visual QA reviews this multi-context physical-density proof and identifies a concrete bounded surface-quality need;
+2. Geometry / Procedural / Technical Art exposes a production-candidate unwrap/atlas/padding or imported-mesh transport receiver that Materials can test without taking ownership;
+3. Runtime requests a bounded density/storage tradeoff comparison;
+4. another design repository exposes a stronger fresh Materials-owned gap.
 
-Until then, keep the reconstruction result as receiving evidence rather than silently turning it into production policy.
+Until then, keep the result as a source-metric receiving proof rather than silently turning it into production UV policy.
