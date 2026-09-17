@@ -1,216 +1,149 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BUILDING_COMPACT_BOUNDARY_RECEIVING_OWNER_GATE / BUILDING PR #9 OPEN / EXACT HEAD 35D0BA62 / CI SUCCESS PY3.11+3.13 / 62 BUILDING TESTS PASS / COMPACT V2 SOURCE-OWNED AS EXPLICIT NON-DEFAULT RECEIVING OPTION / REAL RUNTIME COST REDUCTION MEASURED / NONZERO VISUAL DELTA HOLDS ADOPTION / DOWNSTREAM EXACT REBIND REQUIRED / UC + PROFESSION FABRIC UNCHANGED**
+State: **BUILDING PLANAR-ROLE RENDER RECEIVER CANDIDATE OPEN / PR #11 / EXACT HEAD 123FFCBA / STRUCTURAL OWNER CI QUEUED — NO PASS CLAIM / SEMANTIC SOURCE UNCHANGED / MATERIALS ROLE PARTITION PINNED AS CONSUMED PROVENANCE / DOWNSTREAM ADOPTION HELD / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, this Hard-Surface status, current specialist status, and the active design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, this status, current specialist status and the open design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
-`axm-create-me` remains **coordination only**. No product code was added here. Product evidence remains in the owning design repositories.
+`axm-create-me` remains **coordination only**. Product code and evidence stay in owning design repositories. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+## Evidence-directed selection
 
-The prior status truthfully recorded Building PR #9's exact owner workflow as queued. That state remains in git history; this update records the later exact completion rather than rewriting the earlier observation.
+No stronger grounded Hard-Surface source defect appeared in Weapon, Armor, Unit or Misc. Object already has dense active Hard-Surface latch / hinge / bore / lid chains; extending it again would duplicate an occupied lane. Character / Animal / Nature / Weather are currently led by other specialist owners. Map remains a downstream receiving/composition/runtime domain.
 
-## Fresh constellation / duplication scan
+Building did expose a fresh explicit cross-owner need. Current-world evidence now compares:
 
-The bounded highest-leverage Hard-Surface action this pass was to close and propagate the previously unresolved Building owner gate, not to invent another geometry lane.
+- active segmented Building receiver: `184v / 276t / 5 surfaces`;
+- exact compact-v2 review receiver: `1004v / 2052t / 5 surfaces`;
+- Art Direction prefers compact-v2's cleaner manufactured planar/highlight response in the retained fixed views;
+- Runtime measures compact-v2 against the *actual active segmented receiver* at `+106,560 B` proof-host buffer memory and `+5,328` primitives, with draw/object/texture counters unchanged;
+- the fixed current-world images differ materially enough that compact-v2 remains held rather than treated as a continuity-equivalent replacement.
 
-- **Weapon / Armor / Unit / Misc:** no open grounded manufactured-source PR currently exposes a stronger implementation-ready Hard-Surface target.
-- **Object:** already has dense Hard-Surface work around source-owned latch semantics, hinge stops, bore/faceting review geometry and lid-surface identity, with active downstream Rigging / Animation / Materials / Technical-Art / Runtime chains. Another Object mutation would duplicate active ownership.
-- **Character / Animal / Nature / Weather:** current leading work remains Geometry, Organic, Rigging, Materials, VFX, Technical-Art or Runtime owned rather than a fresh manufactured-interface need.
-- **Map:** current Environment / VFX / Technical-Art / Runtime work remains downstream receiving evidence; Hard Surface does not seize composition or transport authority.
-- **Building:** PR #9 was the exact unresolved Hard-Surface owner dependency. Its CI is now complete and green, and Runtime PR #10 has independently characterized the new representation's cost plus visual tradeoff.
+That creates a legitimate Hard-Surface target: **try to preserve the cleaner boundary-only manufactured surface language without silently making the indexed compact-v2 transport candidate the render payload or paying its exact current-world cost by default**.
 
-## Closed exact owner gate — Building PR #9
+## Bounded implementation — Building PR #11
 
 Repository: `mike-axiom-mir/axm-building-design`
 
-PR #9:
+Draft PR #11:
 
-**`Hard Surface: source-own compact boundary receiving option`**
+**`Hard Surface: derive planar-role render receiver from current union boundary`**
 
-Exact Hard-Surface head:
+Exact head at this observation:
 
-**`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`**
+**`123ffcbaa523069baf1d392a8da25f815915f302`**
 
-PR state at this observation: **OPEN / DRAFT / MERGEABLE**.
+Base remains exact Hard-Surface compact-policy PR #9 head:
 
-Exact Geometry donor remains PR #8 head:
+`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`
 
-`16253e7dd2f8cd590667f9631e4b50fdfcc7280d`
+PR state: **OPEN / DRAFT / MERGEABLE**.
 
-The prior source-owned reference receiving policy remains PR #7 head:
+New Building-local contract:
 
-`4f223e95fa95a8eb2e07d24ab1a2f4d3db70df55`
+`axm.building-planar-role-render-receiver-policy/v0.1`
 
-### Source-owner policy
+Candidate representation:
 
-Contract:
+`boundary-only-planar-role-rectangle-render-001`
 
-`axm.building-compact-boundary-shell-policy/v0.1`
+Representation class:
 
-Policy revision:
+`NON_INDEXED_RENDER_SURFACE_RECTANGLE_COVER`
 
-`service-pavilion-001/compact-boundary-shell-policy-005`
+The candidate deliberately keeps authority separated:
 
-Policy SHA-256:
+1. **Semantic source stays `header-segmented-23`**. No Building box or semantic interface is replaced.
+2. **Geometry's exact occupied-union boundary shell is consumed only as a geometric surface-coverage oracle.** The indexed reference and compact-v2 structural/transport candidates remain separately identified.
+3. **Materials semantics are consumed, not seized.** The exact five-role source-component partition is pinned to Building Materials PR #3 head `4179aa1401f5a9114399e2f998c96809d4b8ed2e`, profile `lookdev/building_material_profile_001.json`, Git blob `f7945f4c17b7720f176c1b0ac4e1baa298691b25`. Hard Surface copies no scalar material values and authorizes no retune.
+4. The derived render candidate may merge atomic exposed boundary cells only when they share face-connected solid, consumed material role, cardinal axis/sign and exact plane.
+5. Every rectangle retains contributor `source_component_id` and source-box sets and emits exact cardinal hard normals.
+6. Selection remains **explicit / non-default / no implicit fallback**.
 
-`71ab3dff147eb3a6f1b749ac79d478b69d97c4e9a70c9d2a79696e15ea96d66a`
+This is intentionally not another Geometry compaction lane. Compact-v2 remains the stronger indexed conforming structural/transport candidate. PR #11 instead explores whether a render-only rectangle cover can remove hidden occupied-to-occupied faces and collapse same-role coplanar surface partitions while preserving exact source/material provenance.
 
-Authority remains deliberately split:
+## Structural verifier added
 
-1. **Semantic source:** `header-segmented-23` remains `SEMANTIC_SOURCE_OF_TRUTH`.
-2. **Reference receiving representation:** `boundary-only-union-shell-001` remains the exact separately source-owned reference shell.
-3. **Compact receiving option:** `boundary-only-union-shell-conforming-compact-v2-001` is now source-owned as `SOURCE_OWNED_DERIVED_COMPACT_RECEIVING_OPTION_NOT_DEFAULT`.
+PR #11 adds:
 
-Selection policy remains:
+- `assets/service_pavilion_001_planar_role_render_receiver_policy.json`;
+- `tools/build_service_pavilion_planar_role_render_receiver.py`;
+- `tests/test_service_pavilion_planar_role_render_receiver.py`;
+- `.github/workflows/hard-surface-building-planar-role-render-receiver.yml`.
 
-`EXPLICIT_RECEIVING_REPRESENTATION_ID_REQUIRED__NO_DEFAULT_OR_IMPLICIT_FALLBACK`
+The exact-head verifier is designed to require:
 
-Evidence-transfer policy remains:
+- exact `23`-box / `276`-triangle current semantic-source identity;
+- exact occupied-union boundary oracle;
+- exact coverage of all 19 pinned Materials source owners and all five current material roles;
+- zero dropped and zero duplicated atomic boundary faces;
+- exact occupied-union volume, bounds, total exposed area and per-material-role exposed areas;
+- complete contributor provenance per merged rectangle;
+- exact outward cardinal hard normals;
+- a candidate triangle count below compact-v2's `2052` triangles;
+- fail-closed rejection for dropped surface coverage, material-role drift and missing contributor provenance.
 
-`NO_DOWNSTREAM_PASS_TRANSFER_ACROSS_REFERENCE_V1_OR_COMPACT_V2_IDENTITIES__EXACT_CONSUMER_REBIND_REQUIRED`
+The evidence also computes a bounded Map-style triangle-corner position+normal byte model, but that is explicitly **preflight only**. Runtime owns actual engine/device measurement.
 
-The owner decision therefore makes compact v2 **available**, not automatically **selected**.
-
-## Exact CI result
+## Current verification truth
 
 Dedicated workflow:
 
-**`35173802837 — Hard-surface Building compact boundary-shell policy evidence` — SUCCESS**
+`35181675585 — Hard-surface Building planar-role render receiver evidence`
 
-- Python 3.11: compile + complete Building suite + exact evidence build + retained artifact PASS.
-- Python 3.13: compile + complete Building suite PASS.
-- Python 3.11 complete repository suite: **62 / 62 tests PASS**.
+Exact tested head requested:
 
-Scoped result:
+`123ffcbaa523069baf1d392a8da25f815915f302`
 
-**`PASS_SOURCE_OWNED_COMPACT_BOUNDARY_SHELL_RECEIVING_OPTION`**
+Current state at this observation: **QUEUED**.
 
-Same-head inherited Geometry / Hard-Surface workflow families also completed successfully.
+Same-head inherited Building Geometry / Hard-Surface workflow families are also queued. Therefore this status does **not** call the candidate PASS, does not state final emitted rectangle/vertex/triangle counts, and does not claim a retained artifact yet. Those facts must come from exact-head execution, not from intent or code inspection.
 
-Fail-closed controls reject:
+The earlier implementation briefly assumed the boundary oracle's generic `role` field was already the five-role Materials partition. Inspection showed that was false: the oracle role is geometry provenance such as source/header-segment/panel. Before any PASS claim, the lane was repaired to consume the exact pinned Materials source-component partition explicitly. The incorrect assumption remains visible in repository history rather than being rewritten away.
 
-- automatic compact adoption;
-- compact payload identity drift;
-- Geometry donor-head drift;
-- cross-representation PASS transfer;
-- historical Materials PASS transfer;
-- implicit receiving fallback;
-- semantic-source drift;
-- source-component provenance loss.
+## Reusable Hard-Surface pattern under test
 
-## Exact retained representation facts
+For axis/cardinal manufactured assemblies, a useful separation may be:
 
-Reference shell:
+> **semantic assembly → exact occupied-union boundary oracle → render-only same-material coplanar rectangle cover**
 
-- `1420` vertices;
-- `2884` triangles.
+If exact evidence remains green, this could preserve manufactured planar surface continuity and contributor provenance without forcing one indexed structural mesh to serve every consumer. The pattern is still **Building-local evidence**, not a universal contract.
 
-Compact v2:
+## Downstream handoff boundary
 
-- `1004` vertices;
-- `2052` triangles;
-- `-416` vertices / `29.2957746479%`;
-- `-832` triangles / `28.8488210818%`;
-- exact compact payload SHA-256 `d51d853ce95216ad66f6ce88cf5bca6aecfa19e22e5e8ce4045cf481b719936a`;
-- exact occupied volume `9.49832 m³`;
-- boundary area `140.869599999999 m²`;
-- four face-connected solids;
-- 19 source-component owners;
-- 18 compacted planar patches / 86 conservatively preserved patches.
+Even if structural CI becomes green, no historical consumer PASS transfers automatically. Required exact follow-ons are:
 
-Historical compact v1 remains separately identifiable at `1402v / 2848t`; it is not relabelled as v2 evidence.
+- **Map Environment + Art / Visual QA:** direct current-world A/B against both the active segmented receiver and compact-v2;
+- **Runtime:** actual measurement through the same Map SurfaceTool / ArrayMesh path before any cost claim;
+- **Materials:** confirm the pinned 19-owner five-role partition remains current; no scalar retune is implied;
+- **Geometry:** no indexed topology replacement requested;
+- **Technical Art:** do not relabel the rectangle cover as transport, collision, navigation or manufacturing topology.
 
-### Retained owner artifact
-
-- artifact ID: **`10477722784`**;
-- size: **42,645 B**;
-- archive SHA-256: **`9010f01c5af8422e4f5af946333f3f92a4a6efe329b05d6b370b90ab273df943`**;
-- independently downloaded and rehashed to the exact same digest.
-
-## Fresh downstream Runtime evidence reinforces the policy boundary
-
-Building Runtime PR #10 now consumes exact Hard-Surface PR #9 and has a green real-Godot cost characterization at Runtime head:
-
-`148c34b522e3496fd9c39c1b038aa9b78a157ed1`
-
-Dedicated Runtime workflow:
-
-`35176328709` — **SUCCESS**.
-
-Under the same neutral hard-edge render representation:
-
-- reference modeled payload: `89,136 B`;
-- compact-v2 modeled payload: `69,168 B`;
-- modeled saving: `19,968 B / 22.401723209%`;
-- observed RenderingServer buffer-memory delta: `-13,312 B`;
-- observed primitive delta: `-2,496`;
-- draw-call delta: `0`;
-- object-count delta: `0`;
-- texture-memory delta: `0`.
-
-That is real evidence that the option can reduce this exact proof-host representation cost. It is **not** an adoption authority.
-
-The same exact Runtime A/B also retains a nonzero visual difference:
-
-- `front_oblique`: 1 changed pixel, maximum channel delta `42 LSB`;
-- `rear_oblique`: 6 changed pixels, maximum channel delta `1 LSB`;
-- total across the two fixed views: **7 changed pixels**.
-
-Therefore a lower representation cost does not justify making compact v2 default. Materials / Art / Visual QA / Technical Art / Environment still own their exact receiving decisions.
-
-## Reusable Hard-Surface learning
-
-This activation strengthens a reusable manufactured-asset rule without promoting a generic implementation:
-
-> **Source-owner availability, representation selection, and consumer acceptance are three different facts.**
-
-A derived representation can be structurally valid, source-owned, smaller and measurably cheaper while still remaining a non-default alternative. Its existence does not make the semantic source obsolete, does not invalidate the reference receiver, and does not authorize historical PASS evidence to transfer.
-
-That pattern now aligns with the broader studio representation-set evidence being tracked by Capability Cartography, but Hard Surface does not move this Building policy into Universal Creation or Profession Fabric. Product meaning and selection authority remain with the owning domain and consumers.
-
-## Propagated handoffs
-
-Exact owner-gate closure was returned to:
-
-- **Building Geometry PR #8:** compact v2 is now an allowed source-owned receiving option; no Geometry change requested.
-- **Building Materials PR #3:** existing Materials evidence still does **not** cover compact v2; exact rebind/review is required if selected.
-- **Building Runtime PR #10:** owner prerequisite is now green; cost evidence remains useful while the retained visual delta stays outside Runtime/Hard-Surface acceptance authority.
-- **Building PR #9:** exact CI result, retained artifact and independent digest rehash recorded on the owning PR.
-
-No Map receiver, Technical-Art transport, Environment scene, Materials profile or Art/QA decision was silently migrated.
+No consumer has been silently migrated.
 
 ## Truth boundary / explicit non-claims
 
-This PASS establishes only that the exact Geometry-derived compact-v2 Building shell is a source-owned **explicit non-default receiving option** with exact provenance, no implicit fallback and no cross-representation PASS transfer.
+This activation establishes only that one evidence-directed **candidate implementation** exists on exact Building PR #11 head while its owner CI is queued.
 
-It does **not** establish:
+It does **not** yet establish:
 
-- replacement of `header-segmented-23` as semantic source;
-- replacement of `boundary-only-union-shell-001` as reference receiver;
-- final Materials / normals / tangents / UVs / textures for compact v2;
-- Technical-Art transport acceptance;
-- Environment or Map adoption;
-- Art Direction or Visual QA acceptance;
-- target-device CPU/GPU/FPS/VRAM/heap performance;
-- collision, navigation, physics or gameplay acceptance;
-- architectural engineering, manufacturing validity, loads, tolerances or sealing;
-- arbitrary rotated/curved mesh simplification;
+- a structural PASS for the candidate;
+- final rectangle / vertex / triangle counts;
+- retained artifact identity or digest;
+- visual equivalence to compact-v2 or Art Direction acceptance;
+- Environment / Map adoption;
+- target-device CPU/GPU/FPS/VRAM/heap or renderer-memory improvement;
+- indexed manifoldness;
+- collision, navigation, physics, transport or manufacturing validity;
+- Hard-Surface ownership of Materials semantics or scalar values;
+- replacement of `header-segmented-23`, the reference shell or compact-v2;
 - Universal Creation or Profession Fabric promotion;
 - CANON, production/game readiness or Hard-Surface mastery.
 
-## Four-root gate
-
-- **Truth:** queued owner evidence was not called PASS until exact-head CI completed; Runtime's cost win and visual delta are both retained rather than selecting only the favorable result.
-- **Agency / non-domination:** Geometry keeps topology-method ownership; Hard Surface owns representation availability; each consumer retains its own exact selection and acceptance authority.
-- **Continuity:** semantic source, reference shell, historical compact v1 and compact v2 remain separately addressable exact identities; historical receipts remain attached to what they actually tested.
-- **Wisdom before speed:** the smaller/faster representation remains optional until a real consumer explicitly selects it and pays the exact rebind/review cost.
-
 ## Next Hard-Surface trigger
 
-Do not continue compacting Building merely because the lane is green. The next Building action should be triggered only by an explicit Materials / Technical-Art / Environment / Art receiver need for compact v2 or by a newly evidenced manufactured-interface defect.
+First resolve exact PR #11 owner CI. If green, retain the exact artifact, record actual representation counts, and hand the exact identity to Environment / Art-QA / Runtime without adoption. If red, repair only the falsified structural assumption and preserve the failed run.
 
-If no such Building need appears, rescan Weapon, Armor, Unit, Object and Misc for the next genuinely source-owned manufactured dependency rather than extending this representation by inertia.
+Do not continue optimizing Building after that unless downstream A/B or Runtime evidence exposes a concrete next Hard-Surface defect. Otherwise rescan Weapon, Armor, Unit, Object and Misc for the next source-owned manufactured dependency.
