@@ -2,7 +2,7 @@
 
 Date: 2026-09-17
 
-State: **PASS_ART_DIRECTION_COMPACT_EAST_CURRENT_WORLD_SAMPLED_SPATIAL_RESPONSE_DIRECTION_032 / FREEZE_SPATIAL_RESPONSE_FOR_PLAYBACK_REVIEW / HOLD_FINAL_COMPACT_EAST_MOTION_NATURALNESS_AND_ENVIRONMENT_ADOPTION__CURRENT_WORLD_PLAYBACK_PRODUCT_CAMERA_RUNTIME_PENDING / COORDINATION_ONLY**
+State: **PASS_ART_DIRECTION_COMPACT_EAST_EXACT_KEY_RECEIVER_CONTINUITY_033 / FREEZE_SOURCE_AND_RECEIVER_FOR_WALL_CLOCK_VISUAL_REVIEW / HOLD_FINAL_COMPACT_EAST_MOTION_NATURALNESS__REVIEWABLE_DELIVERED_SEQUENCE_DISPLAY_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
@@ -10,14 +10,13 @@ Re-read:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - `studio/specialists/01_3d_art_director.md`;
-- the prior Art Direction status / Direction 031;
-- fresh Materials, Animation, Environment, VFX / Atmosphere, Technical Art, Runtime and Visual Observer / QA status;
+- prior Art Direction status / Direction 032;
+- fresh Animation and Visual Observer / QA specialist status;
 - current open PR state across the full design constellation;
-- exact current-world compact-east readability evidence;
-- exact selected-roughness + compact-east combined Environment evidence;
-- the newest current-world Animation playback result.
+- exact Map Animation PR #44 v0.2 workflow, retained artifact, report/runtime receipts and exact-seek renders;
+- fresh Object VFX PR #31 execution state.
 
-`axm-create-me` remains **coordination only**. No product source, mesh, topology, VFX source, Weather source, Animation implementation, Runtime implementation, material implementation, camera, lighting, Universal Creation product code or CANON state was changed here.
+`axm-create-me` remains **coordination only**. No product source, mesh, VFX source, Weather source, Animation implementation, Runtime implementation, material implementation, camera, lighting, Universal Creation product code or CANON state was changed here.
 
 The four AXM roots remain the merge gate:
 
@@ -26,15 +25,11 @@ The four AXM roots remain the merge gate:
 3. **Continuity**;
 4. **Wisdom before speed**.
 
-The preceding Art state remains historical truth at blob:
-
-`ca455a31cf2ebe71fc6065ed44f0d2712c8161aa`
-
-That state established Direction 031: for the exact Animal deformation receiver, owner-derived tangent-space appearance is preferred and Rigging's post-skin owner-frame reconstruction reproduces that look; raw static transported direction frames are not the preferred deformed appearance. Target-runtime, bilateral, dense/continuous playback and device gates remain held.
+The immediately preceding Art state established Direction 032: the exact compact-east **sampled spatial response** was accepted as good enough to freeze while real current-world playback was proved. Final motion timing/naturalness and Environment adoption remained held.
 
 ## Fresh constellation / duplication scan
 
-The current design constellation was scanned before selecting work:
+The current design constellation was rescanned before selecting work:
 
 - `axm-weapon-design`;
 - `axm-armor-design`;
@@ -53,236 +48,201 @@ No product implementation lane was opened by Art Direction.
 
 Selection logic:
 
-- **Weapon / Armor / Unit / Misc:** current open-PR scan returned no active PRs in those four design repositories. Art does not invent work where no grounded receiver/evidence lane exists.
-- **Character:** current Geometry, Rigging, Animation, Technical Art and Runtime work remains active. The newest bounded optimization path has retained exact visual identity under its frozen comparison, while continuous/full-body/tangent/device evidence remains the larger unresolved Character boundary. No new Art mutation is justified here.
-- **Animal:** Direction 031 already supplied the missing Art target. Technical Art has since advanced into real Godot receiving and Runtime is actively measuring an ArrayMesh reuse candidate. Returning immediately to Animal would duplicate active downstream lanes rather than add visual direction.
-- **Building:** Materials now has a real-Godot utility-panel physical-UV-density review, but the current Building Hard-Surface/Procedural chain is also advancing a corrected utility-panel source/receiver successor. Art does not silently transfer the predecessor Materials proof into a changing source identity.
-- **Object:** the selected roughness/UV visual direction is already frozen from earlier Art passes; current Object work is mostly exact transport/storage/runtime follow-through.
-- **Nature / Weather:** Nature owns the exact compact-east source response and Weather keeps `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED` semantics. Neither lane asked Art to rewrite source semantics.
-- **Map / Environment / VFX / Animation:** this is the strongest fresh Art-owned dependency. VFX supplied exact parent-isolated current-world readability, independent QA reproduced it, Environment has now completed a green exact stack of the already-selected Object roughness candidate plus compact-east response, while the first real current-world Animation playback attempt failed as infrastructure rather than changing the source. This creates a clean visual question: **is the sampled spatial response good enough to freeze while playback is repaired, or should source art be retuned first?**
+- **Weapon / Armor / Unit / Misc:** no stronger current visual receiver displaced the active grounded lanes.
+- **Character:** current Geometry/Rigging/Animation/Technical-Art/Runtime work remains bounded by the existing review-006 Art chain. Current optimization/transport evidence preserves the frozen visual baseline; continuous/full-body/tangent/device boundaries remain separate. No source or look retune is justified.
+- **Animal:** Direction 031 already supplied the missing appearance target. Technical Art and Runtime are actively proving the receiver/lifecycle path; returning to Animal now would duplicate downstream work.
+- **Building:** Hard Surface PR #17 corrects the utility-panel body-clearance source truth and Procedural PR #4 is rebinding receiver placements. Art does not silently transfer predecessor material/visual evidence into a changing exact source identity.
+- **Object:** new VFX PR #31 is visually interesting but **not review-ready**. Exact workflow `35254653189` failed specifically at `Exercise phase-bound VFX in exact Godot object receiver`; retained evidence was uploaded, but the target-host candidate has no green receiver authority yet. Art does not tune or prefer a red candidate.
+- **Nature / Weather / VFX:** the compact-east source response remains frozen by Direction 032. No owner lane requests a source-shape rewrite.
+- **Map / Animation / QA:** this is the strongest newly completed Art-owned dependency. Animation PR #44 v0.2 is now green, all exact keys bind, real loops progress, and independent QA confirms representative exact-key visual continuity while explicitly blocking final continuous-motion appearance because no reviewable wall-clock rendered sequence exists.
 
-The selected action is therefore to decide the sampled compact-east spatial response and explicitly separate that decision from delivered motion timing/naturalness.
+The selected action is therefore to preserve the source and receiver, accept exact-key visual continuity, and define the smallest evidence surface needed to judge what the viewer is actually shown over time.
 
 ## Selected bounded improvement
 
 New direction packet:
 
-`studio/direction/COMPACT_EAST_CURRENT_WORLD_SAMPLED_SPATIAL_RESPONSE_DIRECTION_032.md`
+`studio/direction/COMPACT_EAST_DELIVERED_PLAYBACK_REVIEW_DIRECTION_033.md`
 
 Direction packet creation commit:
 
-`d04130ce1e9cc07e687d26325d58f5663639478f`
+`df90ff4246702fa5e9b233eb9c0e6d270b89d640`
 
 Primary decision:
 
-**`PASS_ART_DIRECTION_COMPACT_EAST_CURRENT_WORLD_SAMPLED_SPATIAL_RESPONSE_DIRECTION_032`**
+**`PASS_ART_DIRECTION_COMPACT_EAST_EXACT_KEY_RECEIVER_CONTINUITY_033`**
 
 Operational Art instruction:
 
-**`FREEZE_COMPACT_EAST_SPATIAL_RESPONSE_FOR_PLAYBACK_REVIEW`**
+**`FREEZE_SOURCE_AND_RECEIVER_FOR_WALL_CLOCK_VISUAL_REVIEW`**
 
 Final hold:
 
-**`HOLD_FINAL_COMPACT_EAST_MOTION_NATURALNESS_AND_ENVIRONMENT_ADOPTION__CURRENT_WORLD_PLAYBACK_PRODUCT_CAMERA_RUNTIME_PENDING`**
+**`HOLD_FINAL_COMPACT_EAST_MOTION_NATURALNESS__REVIEWABLE_DELIVERED_SEQUENCE_DISPLAY_TARGET_DEVICE_PENDING`**
 
-## Exact VFX / QA evidence consumed
+## Exact Map Animation evidence consumed
 
 Repository:
 
 `mike-axiom-mir/axm-map-design`
 
-Map VFX PR:
-
-**#43 — `VFX: receive compact-east Nature response in current world`**
-
-Current review head:
-
-`c7767c45cb24488f63de9a598f753d94b9141286`
-
-Exact real-Godot receiving authority remains:
-
-`29ef2d4cc4398b3f26290e4e1f1f10398ca9898c`
-
-Nature VFX owner head:
-
-`cef2ad78d8e36a55ada5dad07329f1a7125d48de`
-
-Exact sampled source response remains:
-
-- `17` endpoint-inclusive states;
-- `0.50 s` authored source window;
-- `31.25 ms` spacing across `16` intervals;
-- exact neutral endpoints at phases `00` and `16`;
-- source-local peak displacement ceiling `0.135 m`;
-- Weather semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
-
-VFX readability workflow:
-
-`35248021257 — VFX compact-east current-world effect readability review` — **SUCCESS**.
-
-VFX readability artifact:
-
-- ID `10508665125`;
-- SHA-256 `7c2081aa5fd439c74fdea7ba0828ed62377f1877bf793898a01bbed1c671f3a5`.
-
-Independent QA retained a separate exact readability packet. Art Direction downloaded that exact archive:
-
-- artifact ID `10508244231`;
-- SHA-256 `229f1c9674c897c1107bbf11f6bd6116f1937e40c96e8aa19a13772e93c39d4a`;
-- independently rehashed by Art Direction to the same exact digest.
-
-QA reproduces across the retained current-world frames:
-
-- `elevated_oblique` is fully observing for every interior phase in both Weather modes;
-- phases `00` and `16` remain exact neutral endpoints with `0` changed pixels;
-- phase `08` changes `7,440` pixels, with `7,240` above 1 LSB and maximum `191 LSB`;
-- maximum changed-frame fraction is approximately `0.939394%` of the `1100 x 720` frame;
-- the exact observed compact-east delta remains inside `x=594..939, y=287..671`;
-- `path_eye` remains a legitimate non-observing context with all `34 / 34` retained frames byte-identical to the exact parent.
-
-## Direct Art observation
-
-Art Direction directly inspected the exact QA current-world motion strips in both inherited Weather review modes and the exact full combined Environment frames.
-
-Within the retained `elevated_oblique` observing view:
-
-- the compact-east lower trunk/root read stays visually anchored;
-- upper trunk, branch and leaf groups progressively displace toward the middle sample and return;
-- the sampled branch hierarchy stays legible through peak response;
-- the effect is clearly readable across samples while remaining subordinate to the pavilion, route and Object composition;
-- the phase-08 sampled silhouette shows no gross detached branch mass, hole, broad collapse or camera-edge clipping;
-- the cast-shadow response changes coherently with the sampled tree state instead of appearing visibly frozen;
-- the exact neutral appearance returns at phase `16`;
-- the two inherited Weather review modes preserve essentially the same compact-east readability pattern.
-
-`path_eye` is truthfully non-observing for this exact effect. Art does **not** request source amplification or camera movement merely so every camera sees every effect. Future product cameras that are intended to communicate compact-east movement must separately prove observability.
-
-## Fresh exact Environment coexistence result
-
-Map Environment PR:
-
-**#24 — `Environment: converge Weather variant with exact Object source`**
-
-Current exact head:
-
-`4bd7eaf6970716dde4159448c92556785f47e954`
-
-The Environment specialist status still recorded its new selected-roughness + compact-east workflow as queued. Art Direction checked the current runner state directly after that status was written:
-
-- push run `35248195715` — **SUCCESS**;
-- PR run `35248202905` — **SUCCESS**.
-
-Retained combined artifact:
-
-- ID `10509037278`;
-- size `7,184,621 B`;
-- SHA-256 `8f2f8aa4bb11e2f868a6ce36dd381933ba1ea6c59be7b82ed00d1dfe5402ee97`;
-- Art Direction independently downloaded and rehashed the archive to the same exact digest.
-
-Scoped combined result:
-
-**`PASS_CURRENT_WORLD_SELECTED_ROUGHNESS_PLUS_COMPACT_EAST_COMPOSITION_REVIEW_READY__DUAL_ADOPTION_HELD`**
-
-The exact combined receiver proves:
-
-- `68` matched target-host frames across `17` states;
-- selected-roughness runtime observation remains exact in `17 / 17` states;
-- selected roughness PNG SHA-256 remains `57cf746a9a7e0615884fe3c45c6c4df677c2bd0631def61b3ccb1684daa26949`;
-- scalar R8 SHA-256 remains `b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`;
-- compact-east exact phase sequence `0..16` is preserved;
-- neutral compact-east endpoints remain exact;
-- draw calls, objects, primitives, proof-host buffer memory and proof-host texture memory each show `0` delta versus the exact selected-roughness parent;
-- both Environment adoption flags remain false.
-
-Art's interpretation is intentionally narrow: the exact already-Art-preferred Object roughness candidate can stay as the combined review parent while compact-east playback is proved. The distant world view is **not** used to re-judge roughness quality; the earlier close-range Object Art direction remains the appearance authority for that surface.
-
-## Art Direction interpretation
-
-The exact compact-east **sampled spatial shape/envelope is good enough to preserve** while timing/playback is proved.
-
-Freeze for the next receiver proof:
-
-- Nature VFX owner head `cef2ad78d8e36a55ada5dad07329f1a7125d48de`;
-- exact compact-east source identity and neutral migrated identity;
-- exact `0.135 m` peak source-local envelope;
-- exact 17-state sampled sequence and neutral endpoints;
-- current-world placement;
-- current observing-camera setup for comparison;
-- Weather semantics;
-- selected Object roughness identity on the combined Environment review branch.
-
-Do **not** compensate for playback/observer failure by retuning VFX amplitude, branch hierarchy, source geometry, Weather direction, selected Object roughness, camera, lighting or composition.
-
-This is not final natural-motion acceptance. It is the smaller, defensible Art decision needed to stop source churn while the receiver is still being proved.
-
-## Current Animation playback result — explicit blocker
-
-Map Animation PR:
+PR:
 
 **#44 — `Animation: prove compact-east current-world exact-state playback`**
 
-Current head:
+Exact current head:
 
-`abad9beeb57dc99ba60aad60d3fb38046395972e`
+`48dc93848aa336f9b6079ccfe738acbe539253ac`
 
-The Animation specialist status still recorded workflow `35248112953` as queued. Art Direction checked the finished current run directly:
+Exact parent current-world VFX receiver:
 
-`35248112953 — Animation compact-east current-world playback evidence` — **FAILURE**.
+`29ef2d4cc4398b3f26290e4e1f1f10398ca9898c`
 
-The failure occurs specifically at `Exercise exact current-world motion through AnimationPlayer`; prerequisite binding, exact VFX evidence verification, Godot setup and evidence upload all complete.
+Exact Nature VFX owner:
 
-Retained failure artifact:
+`cef2ad78d8e36a55ada5dad07329f1a7125d48de`
 
-- ID `10508671132`;
-- SHA-256 `d244da08404fb1651fbf7208ec1a97f7ffa8bd4a9c6b3a1e012af5b9cfc1df55`;
-- exact head `abad9beeb57dc99ba60aad60d3fb38046395972e`;
-- state `FAIL_INFRASTRUCTURE`;
-- source-motion truth `DISCRETE_EXACT_VFX_STATES_NOT_SMOOTH_INTERPOLATION`;
-- `promotion_effect: NONE`.
+Exact-head workflow:
 
-Exact retained failure:
+`35253584821 — Animation compact-east current-world playback evidence` — **SUCCESS**.
 
-`compact-east Animation real playback missed exact states in cycle 0: [0, 2, 3, 5, 6, 7, 9, 10, 11, 12, 14, 15]`
+Retained artifact:
 
-This is **not** evidence that the accepted sampled spatial response should be changed. Animation retains playback ownership. Art asks for a repaired/characterized receiver on the frozen source and then a delivered-motion review surface sufficient to judge timing, rhythm and loop feel.
+- ID `10511028441`;
+- size `292,766 B`;
+- SHA-256 `b65f1ddee546a59b716dc1de8f72995ceeff3c7cad49d6a518d90e135c7477a1`.
 
-## Handoffs recorded
+Scoped Animation result:
 
-### Map VFX PR #43
+`PASS_COMPACT_EAST_CURRENT_WORLD_EXACT_KEY_BINDING_AND_REAL_LOOP_DELIVERY_CHARACTERIZED`.
 
-Art handoff comment: **`5718365490`**.
+Exact retained source/receiver facts:
 
-The sampled spatial response is accepted as the next visual baseline. No source retune requested. Preserve the exact response and non-observing-camera truth boundary.
+- duration `0.50 s`;
+- 16 unique loop states from 17 endpoint-inclusive source states;
+- exact source slot `31.25 ms`;
+- `NEAREST` interpolation;
+- `DISCRETE` update;
+- `LOOP_LINEAR` loop mode;
+- all `16 / 16` exact keys deterministically seekable;
+- phase `16` vs phase `00` geometry delta `0.0 m`;
+- authored `15 -> 16` step and loop `15 -> 00` step both `0.0263375788927078 m`, residual `0.0`;
+- deliberate endpoint mutation about `+1 mm` rejected;
+- persistent receiver and AnimationPlayer identity retained through three real loops.
 
-### Map Environment PR #24
+Real playback observations:
 
-Art handoff comment: **`5718369304`**.
+- loop durations `0.500174 / 0.504166 / 0.508115 s`;
+- process-frame interval min / mean / max `40.917 / 42.0126388888889 / 43.481 ms`;
+- loop 1 observed phases `[0,2,3,5,6,7,9,10,11,13,14]`, missing `[1,4,8,12,15]`;
+- loop 2 observed phases `[0,1,2,4,5,6,8,9,10,12,13,14]`, missing `[3,7,11,15]`;
+- loop 3 observed phases `[0,1,2,4,5,6,8,9,10,12,13,14]`, missing `[3,7,11,15]`;
+- `full_source_state_delivery_observed = false`;
+- `full_source_state_delivery_accepted = false`.
 
-The exact green combined selected-roughness + compact-east receiver may remain the comparison parent, but dual Environment adoption stays held. Do not silently convert coexistence into final visual acceptance.
+This is a truthful receiving PASS plus delivery characterization. It is not a smooth-presentation PASS.
+
+## Direct Art observation
+
+Art Direction downloaded the exact retained artifact and directly inspected the real-Godot exact-seek frames at phases `00`, `08` and `15` in the frozen `elevated_oblique` context.
+
+At those supplied exact keys:
+
+- the compact-east tree remains spatially coherent with Direction 032;
+- the rooted/lower-trunk read remains anchored;
+- upper-trunk / branch / leaf response stays readable and subordinate to the larger pavilion / route / Object composition;
+- phase `08` remains a clear bounded response rather than a broad silhouette collapse;
+- phase `15` remains a coherent return-side state without gross detachment, hole or camera-edge corruption;
+- Weather and west-sapling motion are frozen in this exact receiver, preserving attribution.
+
+Independent Visual QA on the same exact head returns:
+
+**`PASS_COMPACT_EAST_ANIMATIONPLAYER_EXACT_KEY_BINDING_AND_REPRESENTATIVE_VISUAL_RESPONSE`**
+
+and separately:
+
+**`FAIL_COMPACT_EAST_PROOF_HOST_PROCESS_FRAME_OBSERVATION_OF_FULL_31_25MS_SOURCE_SLOT_CADENCE`**
+
+with final visual state:
+
+**`BLOCKED_FINAL_COMPACT_EAST_CONTINUOUS_MOTION_VISUAL_ACCEPTANCE__REVIEWABLE_WALL_CLOCK_SEQUENCE_DISPLAY_RUNTIME_ART_PENDING`**.
+
+QA also reports close retained effect-field continuity against the previously accepted sampled current-world response at phases `08` and `15`, while explicitly not calling the rasters byte-identical.
+
+## Art interpretation
+
+The new green v0.2 receiver closes the **exact-key visual continuity** question. It does not close the **delivered temporal feel** question.
+
+A 31.25 ms authored source slot and an approximately 42 ms proof-host process-frame observation cadence are different facts. Missing source phases at observer callbacks are important evidence, but they are not themselves proof of visible stutter, display-scanout loss or a source-motion defect.
+
+Therefore:
+
+- do **not** retime, amplify, smooth, reshape or relight the accepted compact-east source to make the observer report every source key;
+- do **not** call the motion natural/smooth merely because all 16 keys are valid;
+- keep Direction 032's spatial response frozen;
+- review the actual delivered wall-clock render sequence before any timing/rhythm/loop naturalness preference.
+
+## Required next Art-review evidence
+
+The next Art-relevant artifact should come from the exact frozen PR #44 `AnimationPlayer.play()` receiver and should preserve:
+
+- source geometry and exact phase resources;
+- `0.50 s` timing and `31.25 ms` source slot;
+- `NEAREST` / `DISCRETE` playback semantics;
+- existing observing camera and lighting;
+- Weather and west-sapling frozen state;
+- current-world composition.
+
+Retain the **actual delivered rendered frames**, not deterministic-seek substitutes, with monotonic timestamp and observed/applied phase identity where truthfully available. Retain at least two consecutive steady loops plus the loop seam after setup/warmup. Preserve dropped/unobserved source slots as evidence. Return that sequence to Visual QA and Art Direction before claiming final motion naturalness or Environment adoption.
+
+A timestamped frame packet, ordered strip or video is acceptable if it preserves exact evidence identity. Art specifies the review surface, not a production capture format.
+
+## Fresh non-selected Object VFX evidence
+
+Object VFX PR #31:
+
+`VFX: bind lid-release motes to equipment-case opening phase`
+
+Exact head inspected:
+
+`158152d19b8357d3ece4e7c2e7f1f8df9a55dc8f`
+
+Exact workflow:
+
+`35254653189 — Object VFX phase-bound lid-release motes` — **FAILURE**.
+
+All source/Animation/Technical-Art/UC preparation steps completed, but the job failed at the real Godot VFX exercise. Therefore Art makes **no** visual preference, timing, density or styling intervention on this candidate. VFX owns repair/characterization first; the red evidence remains useful lineage and is not erased.
+
+## Handoffs
 
 ### Map Animation PR #44
 
-Art handoff comment: **`5718373571`**.
+Art handoff: accept exact-key visual continuity; keep the source/receiver frozen; next Art evidence is the timestamped wall-clock rendered playback sequence. No retime requested.
 
-Repair/characterize real playback while keeping the accepted source response frozen. The next Art-relevant evidence is delivered current-world motion, not a new VFX response candidate.
+### Visual Observer / QA
+
+The current independent boundary is accepted and preserved: exact-key continuity passes; final continuous-motion appearance remains blocked until reviewable delivered frames exist.
+
+### Environment / VFX / Nature
+
+No source or composition retune requested. Direction 032 remains the rollbackable spatial baseline while presentation is reviewed.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- physical wind speed, force, turbulence or biomechanics;
-- final motion timing, rhythm, naturalness or loop feel;
-- preference for smooth interpolation versus exact-state/discrete playback;
-- successful current-world `AnimationPlayer` playback;
-- product-camera coverage or a rule that every camera must observe this effect;
-- final leaf sidedness, leaf materials or production vegetation shading;
+- smooth interpolation;
+- full 31.25 ms source-slot presentation delivery;
+- display scanout behavior;
+- final timing, rhythm, weight or loop naturalness;
+- physical wind, force, turbulence or biomechanics;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- final Environment adoption of compact-east response;
-- final Environment adoption of selected Object roughness;
-- acceptance of Building's changing utility-panel successor chain;
-- gameplay, collision, navigation or interaction behavior;
-- arbitrary vegetation-response transfer;
-- source adoption outside the exact reviewed receiver;
+- production Runtime/controller/state-machine behavior;
+- product-camera coverage outside the current observing context;
+- final Environment adoption;
+- final leaf material/sidedness quality;
+- Object release-mote visual acceptance;
+- gameplay, collision or navigation behavior;
 - CANON;
 - production/game readiness;
 - Nature mastery;
@@ -292,17 +252,11 @@ This activation does **not** establish:
 - Visual QA mastery;
 - 3D Art Direction mastery.
 
-One exact sampled current-world response plus independent QA is enough to freeze a bounded spatial direction. It is not enough to claim final delivered motion or mastery.
-
 ## Four-root gate
 
-- **Truth:** sampled spatial appearance is separated from delivered playback; the completed Animation failure replaces the earlier queued description without hiding it; exact heads/artifacts are retained and independently rehashed; non-observing `path_eye` remains explicitly non-observing.
-- **Agency / non-domination:** Nature/VFX retain source-response authority, Animation owns playback, Environment owns composition/adoption, Runtime owns device cost, QA owns independent verification, and Art owns only visual preference.
-- **Continuity:** Direction 031 and prior Object roughness direction remain intact; the exact current-world parent, compact-east response, combined Environment receiver and failed Animation attempt remain recoverable rather than silently rewritten.
-- **Wisdom before speed:** freeze a visually adequate spatial response and repair the receiver before authoring another effect, retiming Nature, or tuning around an infrastructure/playback failure.
+- **Truth:** exact-key validity, real-loop delivery observation, missing process-frame slots, the red Object VFX run and the missing wall-clock rendered sequence are kept visible instead of compressed into a success story.
+- **Agency / non-domination:** Nature/VFX retain source authority; Animation owns playback; Environment owns composition; Runtime owns device/performance; QA owns independent verification; Art owns only visual preference and the requested review surface.
+- **Continuity:** Direction 032 stays intact; the accepted source, green receiver, failed predecessor, current v0.2 artifact and QA findings remain separately identified and rollbackable.
+- **Wisdom before speed:** obtain direct delivered-motion visual evidence before retiming, reauthoring or promoting proof-host instrumentation into final motion quality.
 
 The four AXM roots remain the merge gate.
-
-## Current state
-
-`PASS_ART_DIRECTION_COMPACT_EAST_CURRENT_WORLD_SAMPLED_SPATIAL_RESPONSE_DIRECTION_032 / DIRECTION_COMMIT_D04130CE / VFX_PR43_REVIEW_C7767C45_RECEIVER_29EF2D4C / QA_ARTIFACT_10508244231_SHA_229F1C96 / ELEVATED_OBLIQUE_INTERIOR_15_OF_15_BOTH_WEATHER_MODES / PHASE08_7440_CHANGED_7240_GT1LSB_MAX191LSB / PATH_EYE_34_OF_34_NONOBSERVING_EXACT / ENV_PR24_4BD7EAF6_RUNS_35248195715_35248202905_SUCCESS / COMBINED_ARTIFACT_10509037278_SHA_8F2F8AA4 / SELECTED_ROUGHNESS_17_OF_17_EXACT / ANIMATION_PR44_ABAD9BEE_RUN_35248112953_FAIL_INFRASTRUCTURE_MISSED_0_2_3_5_6_7_9_10_11_12_14_15 / HANDOFFS_VFX_5718365490_ENV_5718369304_ANIM_5718373571 / HOLD_FINAL_TIMING_NATURALNESS_PRODUCT_CAMERA_RUNTIME_ENV_ADOPTION / NO_CANON_NO_PRODUCTION_NO_MASTERY / COORDINATION_ONLY`
