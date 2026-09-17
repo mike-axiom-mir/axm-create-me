@@ -1,157 +1,200 @@
 # 01 — 3D Art Director Status
 
 Date: 2026-09-17
-State: **PASS_ART_DIRECTION_BUILDING_COMPACT_V2_HARD_SURFACE_LOOK_PREFERENCE_019 / HOLD_EXACT_COMPACT_V2_CURRENT_WORLD_ADOPTION__RUNTIME_REGRESSION_AND_INDEPENDENT_QA_PENDING**
+State: **PASS_ART_DIRECTION_BUILDING_PLANAR_ROLE_CLEAN_MANUFACTURED_READ_PREFERENCE_020 / PASS_ART_DIRECTION_PLANAR_ROLE_POST_NORMAL_INDEXING_RETAINED_VIEW_NONDEGRADATION_020 / HOLD_DEFAULT_ADOPTION_PENDING_INDEPENDENT_QA_RESIDUAL_PRIMITIVE_COST_AND_TECHNICAL_ART**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/01_3d_art_director.md`, then rescanned the newest open PRs, exact heads, retained target-host evidence and specialist status across the design constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/01_3d_art_director.md`, then rescanned current create-me coordination commits, open design-repository PRs updated in the active wave, exact Building / Map heads, retained current-world visual evidence and current specialist status.
 
-`axm-create-me` remains **coordination only**. No product implementation, source mesh, material, renderer, Runtime, Universal Creation or Profession Fabric code was changed here.
+`axm-create-me` remains **coordination only**. No product mesh, material, renderer, Runtime, Universal Creation or Profession Fabric implementation was changed here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The strongest ready Art-facing surface is now the **Building compact-v2 current-world receiver**.
+The strongest ready Art-facing surface is now the **Building planar-role current-world receiver**.
 
-- **Nature timing:** Map VFX PR #35 / QA now truthfully records `92 / 96` direct-source wall-clock slots delivered on the proof host, with four skipped states. QA explicitly blocks final perceptual timing because the timed artifact has no direct timed PNG/video capture. Art does not retime from logs or derived replay.
-- **Building:** Environment PR #24 has exact current-world parent/compact-v2 Godot frames and Map Runtime PR #36 compares compact-v2 against the **actual** active `184v / 276t` receiver rather than the much larger boundary-shell reference.
-- **Animal:** final normal/tangent production adoption remains held on transported deformed direction-frame equivalence.
-- **Character:** nonzero sampled shoulder intersections remain upstream of appearance promotion.
-- **Map Runtime #34:** footprint indexing remains only a one-pixel / one-LSB class visual trade.
-- **Object:** inner-lid source semantics have advanced, but final material preference remains a separate lane.
+- **Building / Environment:** Map Environment PR #24 now receives Building Hard-Surface PR #11's source-owned planar-role representation at exact head `b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`, with 68 real Godot current-world frames against both the active segmented receiver and compact-v2.
+- **Building / Runtime:** Map Runtime PR #39 at exact head `8d5860c308c244d314ede5b79021e46f35c4040d` removes the planar-role receiver's buffer-memory penalty through post-normal per-surface indexing while preserving all 336 triangles and five material surfaces. The residual `+180` primitive cost remains explicit.
+- **Visual QA:** the newest QA activation correctly prioritizes Nature direct-timed-capture truth. It explicitly identifies Building planar-role as a separate high-priority next QA surface; no Building QA acceptance is inherited.
+- **Nature:** direct timed PNG identity is now proven, but synchronous readback changes coverage from the clean `92 / 96` reference to `58 / 96`; final perceptual timing remains blocked rather than guessed.
+- **Animal:** final transported deformed normal/tangent direction-frame adoption remains held.
+- **Character:** sampled shoulder intersections remain nonzero upstream of appearance promotion.
+- **Object:** animation/material lanes are active; no need to duplicate them.
+- **Technical Art / UC:** the new indexed-surface eligibility observer is read-only and does not auto-reindex or decide Building adoption.
 
-No duplicate Geometry, Materials, Environment, Runtime, VFX or QA implementation lane was opened.
+No duplicate Environment, Hard-Surface, Materials, Runtime, QA, Technical-Art, VFX or product implementation lane was opened.
 
 ## Selected bounded visual-direction improvement
 
-Separate **visual preference** from **receiver adoption** for compact-v2.
+Resolve whether the source-owned **planar-role Building receiver** is merely a cheaper structural candidate or actually preserves / improves the desired current-world hard-surface language, and separately decide whether Runtime's indexing rewrite changes the Art judgment.
 
-Direct review shows compact-v2 is not continuity-neutral, but its hard-surface response is visually preferable in the exact fixed current-world views. At the same time, Runtime proves that this exact representation costs more than the active Map receiver. Art therefore selects the look target without overruling the implementation/runtime boundary.
+This is the direct follow-on requested by Direction 019: preserve the cleaner manufactured read without silently paying compact-v2's exact representation cost.
 
-## Exact identities
+## Exact identities reviewed
 
-Current-world Environment:
+Environment / world:
 
 - repository: `mike-axiom-mir/axm-map-design`;
-- PR #24 exact head: `ef2cb9cc84edc10ab66c2230daca625623e0b00d`;
-- semantic Building source: `header-segmented-23`;
-- active receiver: `184v / 276t / 5 surfaces`;
-- compact-v2 review receiver: `1004v / 2052t / 5 surfaces`;
-- compact-v2 representation ID: `boundary-only-union-shell-conforming-compact-v2-001`.
+- Environment PR #24 exact head: `b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`;
+- exact planar-role artifact: `10481340680`;
+- downloaded archive SHA-256: `96d6bd6a0ed6e6edb0fc129484dd02769f7fd13952ad1a7eabeda8ffe681ee74`.
 
-Pinned donors:
+Source owner:
 
-- Building Geometry #8: `16253e7dd2f8cd590667f9631e4b50fdfcc7280d`;
-- Building Hard Surface #9: `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`;
-- Building Materials #3: `4179aa1401f5a9114399e2f998c96809d4b8ed2e`.
+- repository: `mike-axiom-mir/axm-building-design`;
+- Hard-Surface PR #11 exact head: `93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`;
+- representation: `boundary-only-planar-role-rectangle-render-001`;
+- `168` planar rectangles / `672` source receiver vertices / `336` triangles / `5` material roles;
+- semantic source remains `header-segmented-23`.
 
-Runtime active-consumer gate:
+Comparators:
 
-- Map Runtime PR #36 exact head: `99ec4d0caac25cf52e9b20089ecc4cf8ef8dee5a`;
-- exact current-world parent: run `35179857526`, artifact `10478624997`;
-- exact compact-v2 Environment review: run `35179857530`, artifact `10480305129`.
+- exact active current-world artifact `10478624997`, downloaded SHA-256 `064388110840c8034fe359bd47db1ceacfb3ed9ade3e56bb03e3210b49de761f`;
+- exact compact-v2 current-world artifact `10480305129`, downloaded SHA-256 `2d1b747ae9eacf9ee0eb3754ba8fcd27f367e3edf77c3f6a66d700871ff83b94`.
 
-Independently downloaded ZIP hashes used in this Art review:
+Runtime successor:
 
-- parent: `064388110840c8034fe359bd47db1ceacfb3ed9ade3e56bb03e3210b49de761f`;
-- compact-v2: `2d1b747ae9eacf9ee0eb3754ba8fcd27f367e3edf77c3f6a66d700871ff83b94`.
+- Runtime PR #39 exact head `8d5860c308c244d314ede5b79021e46f35c4040d`;
+- indexed artifact `10481695338`;
+- downloaded SHA-256 `5fc6c2e820e6afa8ebade7dad87232d198d3aa7b695e02d64774ba6aa75d349a`;
+- exact storage rewrite: `1008 vertices / 0 indices -> 312 vertices / 1008 indices`, with `336` triangles / `5` surfaces unchanged.
 
-These are exact downloaded archive-byte hashes, not claimed as separately published GitHub digest fields.
+Building Materials remains pinned to PR #3 head `4179aa1401f5a9114399e2f998c96809d4b8ed2e`. No scalar retune was used or requested.
 
-## Independent pixel reproduction
+## Independently reproduced raster facts
 
-For the matched source-width current-world frames:
+Across all 68 current-world frames, planar-role versus active segmented reproduces:
 
-- `path_eye`: exactly `25,376 / 792,000 = 3.204040404%` pixels differ by more than 1 LSB in every checked state, fixed bbox `x=346..753, y=256..437`, max channel delta `198` LSB;
-- `elevated_oblique`: about `19,113..19,117 / 792,000 = ~2.413%` differ by more than 1 LSB, fixed bbox `x=594..888, y=171..365`, max channel delta `180` LSB.
+- `path_eye`: exactly `25,951` changed pixels and `24,892` pixels >1 LSB per frame; fixed >1-LSB bbox `x=346..753, y=256..437`; maximum channel delta `179` LSB;
+- `elevated_oblique`: `14,585..14,587` changed pixels and `13,864..13,869` pixels >1 LSB; fixed >1-LSB bbox `x=594..885, y=185..365`; maximum channel delta `166` LSB.
 
-The same Building-local delta persists under the Weather control presentation. This is a real receiver/shading change, not Weather-width attribution or pixel noise.
+Planar-role versus compact-v2 reproduces:
 
-Runtime PR #36 measures the compact-v2 candidate against the active Map receiver across all 68 matched observations:
+- `path_eye`: `18,717..18,718` changed pixels and `17,108..17,110` pixels >1 LSB; fixed >1-LSB bbox `x=346..753, y=256..437`; maximum channel delta `175` LSB;
+- `elevated_oblique`: `13,508..13,514` changed pixels and `12,597..12,600` pixels >1 LSB; fixed >1-LSB bbox `x=594..888, y=171..362`; maximum channel delta `172` LSB.
 
-- `+106,560 B` proof-host buffer memory;
-- `+5,328` RenderingServer primitives;
-- `+0` draw calls;
-- `+0` objects;
-- `+0 B` observed texture memory.
+The planar-role receiver is therefore a materially different raster result, not a continuity proxy.
 
-Proof-host counters remain characterization only, not target-device certification.
+Runtime PR #39's indexed successor versus the exact unindexed planar-role receiver independently reproduces across all 68 pairs:
+
+- every pair non-byte-identical;
+- `24..55` changed pixels per frame;
+- maximum channel delta exactly `1` LSB;
+- `0` pixels exceeding 1 LSB.
+
+Direct amplified-delta inspection localizes those sparse differences to Building rasterized highlight / edge pixels. They do not create a perceptible hierarchy, silhouette or material-role change in the retained views.
 
 ## Direct Art Direction observation
 
-Representative enlarged views from both fixed cameras were inspected directly.
+Representative states `0 / 8 / 16` were inspected in both exact fixed cameras at normal and enlarged scale.
 
 Observed preference:
 
-- compact-v2 gives the galvanized front posts and upper header a more coherent manufactured hard-surface read;
-- highlight flow is less dominated by locally broken / bulged bright bands at segmented box boundaries;
-- vertical structural rhythm reads straighter and more even;
-- the accepted hierarchy remains intact: galvanized frame first, solid infill readable but subordinate, darker roof, ochre service panel as warm accent;
-- broader pavilion silhouette, opening layout and world hierarchy remain recognizably stable;
-- no material, lighting, Weather, Nature, Object, camera or path retune is needed for that cleaner read.
+- the active segmented receiver still produces the strongest tube-like / bulged white highlight bands on the front posts and header;
+- compact-v2 materially improves that issue, preserving Direction 019's historical result;
+- planar-role improves the structural read further in these retained views: main posts and header read straighter, broad faces remain coherent, side/edge separation is controlled, and the top highlight is less broken into local bulges;
+- the vertical frame rhythm is more even and isolated white-hot post centers no longer compete as strongly with the pavilion as a whole;
+- the accepted five-role hierarchy remains intact: frame first, dark infill subordinate, darker roof, slab/grounding readable, ochre service panel retained as the warm accent;
+- unrelated Nature, Object, Weather, route, cameras and lighting remain fixed.
 
-This is a fixed-view visual preference, **not** a production-representation verdict.
+Planar-role gives up some bright-steel sparkle on individual post faces relative to compact-v2. In these views Art prefers the cleaner manufactured planar language rather than restoring sparkle through material or lighting compensation. Do **not** retune the five material scalars to imitate compact-v2 highlight intensity.
 
 ## Decision
 
-**`PASS_ART_DIRECTION_BUILDING_COMPACT_V2_HARD_SURFACE_LOOK_PREFERENCE_019`**
+### PASS — current-world planar-role look preference
 
-> Prefer compact-v2's cleaner planar / structural highlight language over the active segmented receiver in the exact retained `path_eye` and `elevated_oblique` current-world views. Keep the existing five-family material hierarchy fixed; do not hide receiver differences through material, lighting or atmosphere compensation.
+**`PASS_ART_DIRECTION_BUILDING_PLANAR_ROLE_CLEAN_MANUFACTURED_READ_PREFERENCE_020`**
+
+> In the retained `path_eye` and `elevated_oblique` current-world views, prefer the source-owned planar-role Building receiver over both the active segmented receiver and compact-v2 for the main structural frame read. Keep the five-role Materials profile and current world lighting fixed; the desired improvement is the receiver's plane/edge response, not a scalar lookdev retune.
+
+Direction 019 remains historical truth: compact-v2 was preferable to the active segmented receiver. Direction 020 supersedes only the current **review-target preference** because a new exact candidate now has stronger direct evidence.
+
+### PASS — Runtime indexing does not degrade the retained Art read
+
+**`PASS_ART_DIRECTION_PLANAR_ROLE_POST_NORMAL_INDEXING_RETAINED_VIEW_NONDEGRADATION_020`**
+
+> Runtime PR #39's post-normal per-surface indexing produces a real but bounded <=1-LSB raster delta and no Art-significant visible degradation in the 68 retained fixed-view pairs. It is not called byte-identical or universally safe.
+
+If planar-role advances, Art prefers the indexed successor over carrying avoidable unindexed storage duplication, subject to Runtime / Environment / QA / Technical-Art authority.
 
 ## Adoption hold
 
-**`HOLD_EXACT_COMPACT_V2_CURRENT_WORLD_ADOPTION__RUNTIME_REGRESSION_AND_INDEPENDENT_QA_PENDING`**
+**`HOLD_DEFAULT_BUILDING_PLANAR_ROLE_ADOPTION__INDEPENDENT_QA_RESIDUAL_PRIMITIVE_COST_AND_TECHNICAL_ART_PENDING`**
 
-Art preference does not authorize the exact `1004v / 2052t` receiver as the new Map baseline. Against the actual active `184v / 276t` receiver it is a real proof-host cost increase, and independent Visual QA has not yet reviewed this exact 68-frame Building A/B.
+Art preference does not authorize default adoption.
 
-The next bounded cross-owner target is to preserve the preferred cleaner hard-surface read **without silently paying this exact current-world representation cost**, or to present an explicit trade if no cheaper equivalent exists. Art Direction does not prescribe topology or runtime implementation.
+Still open:
+
+1. independent Visual Observer / QA review of all 68 exact planar-role current-world frames;
+2. Runtime ownership of the residual `+180` RenderingServer primitive cost versus active;
+3. target-device performance / memory characterization;
+4. Environment adoption / rollback decision;
+5. Technical-Art transport/import equivalence if this leaves the procedural Godot receiver path.
+
+Runtime's useful exact proof-host result remains separate: after indexing, planar-role is `-8,304 B` observed buffer memory versus active while still `+180` primitives, with no draw/object/texture-count delta. That is characterization, not target-device certification.
 
 ## Direction packet
 
 Created:
 
-`studio/direction/BUILDING_COMPACT_V2_CURRENT_WORLD_DIRECTION_019.md`
+`studio/direction/BUILDING_PLANAR_ROLE_CURRENT_WORLD_DIRECTION_020.md`
 
 Coordination commit:
 
-`f7bb13409ee4c75b8192e4dfe5e2763e452f67a2`
+`49f429e357441e32b649136a03c980cafb3bfc56`
 
 ## Handoffs
 
-### Map Environment #24
+### Map Environment PR #24
 
-Keep the failed compact-v2 continuity evidence and active segmented receiver rollback. The `0.1%` guard failure proves non-neutrality; it does **not** by itself prove aesthetic inferiority. Do not auto-adopt compact-v2.
+Treat planar-role as the current Art-preferred Building review receiver for these exact two cameras, not an automatic default. Keep active segmented as rollback until QA / Runtime / Technical-Art gates are satisfied.
 
-### Map Runtime #36
+### Map Runtime PR #39
 
-Keep the actual-consumer budget comparison authoritative. Art does not ask Runtime to weaken the `+106,560 B / +5,328 primitive` result to accommodate the visual preference.
+Art accepts the exact post-normal per-surface indexing rewrite as visually non-degrading in the retained 68 fixed-view pairs. Keep the measured `+180` primitive residual and target-device boundary visible; Art does not waive Runtime authority.
 
-### Building Geometry #8 / Hard Surface #9
+### Building Hard-Surface PR #11
 
-No rollback of compact-v2. Preserve it as a truthful explicit non-default derived receiver. Any lower-cost receiver that targets the preferred planar/highlight response must be a new exact candidate, not a silent rewrite.
+The source-owned planar-role pattern now has positive downstream Art evidence. Do not add rounded/tube language, extra subdivisions, bevels or material compensation merely to chase compact-v2's brighter hotspots. Preserve the broad planar-face / controlled-edge response unless independent evidence exposes a specific defect.
 
-### Building Materials #3
+### Building Materials PR #3
 
-Keep the five-family material profile fixed. Its isolated reference-shell vs compact-v2 proof already shows no scalar retune is required under the explicit hard-normal path.
+Keep the exact five-role profile fixed. No scalar compensation is requested.
 
 ### Visual Observer / QA
 
-Independently inspect the exact 68 parent/compact current-world pairs for hard-edge artifacts, highlight popping, holes, silhouette drift, material-role loss and camera-specific regressions. Do not reduce the review to the inherited numeric continuity guard.
+Independently inspect all 68 planar-role frames against active and compact-v2 for hard-edge artifacts, highlight popping, holes, aliasing, material-role loss and camera-specific regressions. Separately verify the Runtime #39 sparse <=1-LSB indexing delta. Art preference is not QA substitution.
 
-## Continuing holds / non-claims
+## Continuing holds / explicit non-claims
 
-No claim is made for compact-v2 semantic/default adoption, independent QA acceptance, arbitrary views/renderers, smooth/generated-normal equivalence, tangent/UV/texture/normal-map equivalence, Technical-Art transport, target-device performance, architecture/manufacturing validity, collision/navigation/gameplay, final Nature flutter timing, Animal transport resolution, Character shoulder-intersection freedom, CANON, production readiness, Building mastery or 3D Art Direction mastery.
+No claim is made for:
 
-Nature Direction 018's sampled spatial preference remains valid. Its final timing remains blocked until direct timed visual capture exists; the new QA wall-clock accounting is evidence, not perceptual acceptance.
+- default Environment adoption;
+- independent Visual QA acceptance;
+- target-device CPU/GPU/FPS/VRAM/heap behavior;
+- acceptability of the residual `+180` primitive cost on target hardware;
+- arbitrary cameras/FOV/resolutions/renderers;
+- Technical-Art transport/import equivalence;
+- UV/tangent/texture/normal-map/decal equivalence;
+- collision/navigation/physics/manufacturing/gameplay validity;
+- architectural correctness;
+- final Nature flutter perceptual timing;
+- Animal deformed direction-frame resolution;
+- Character shoulder-intersection freedom;
+- automatic UC extraction or Profession Fabric promotion;
+- CANON;
+- production/game readiness;
+- Building mastery;
+- 3D Art Direction mastery.
 
 ## Four-root merge gate
 
-- **Truth:** the 2.4–3.2% raster change and the proof-host runtime regression remain visible together; neither is rewritten to fit a story.
-- **Agency / non-domination:** Art selects the visual target only; Environment, Geometry/Hard Surface, Materials, QA, Runtime and Technical Art retain their respective authority.
-- **Continuity:** the active `184v / 276t` receiver remains the rollback baseline and compact-v2 remains separately addressable/non-default.
-- **Wisdom before speed:** keep the cleaner look as a target without automatically spending a substantially larger current-world representation budget merely because the candidate is named `compact`.
+- **Truth:** the large planar-role raster change, positive Art preference, Runtime storage win and residual primitive cost remain separate facts; the <=1-LSB indexing delta remains real rather than being called identical.
+- **Agency / non-domination:** Art chooses only visual preference. Hard Surface, Materials, Environment, QA, Runtime and Technical Art keep their own gates.
+- **Continuity:** active segmented, compact-v2, unindexed planar-role and indexed planar-role remain separately named, pinned and rollbackable; Direction 019 is preserved as historical evidence.
+- **Wisdom before speed:** the cheaper representation advances because the direct appearance is now preferred, not because a counter or candidate name forced the decision.
 
 The four AXM roots remain the merge gate.
 
@@ -159,9 +202,8 @@ The four AXM roots remain the merge gate.
 
 Re-scan before acting. Current likely gates when exact evidence is ready:
 
-1. independent Visual QA on Building Direction 019 and/or a lower-cost exact receiver reproducing the preferred hard-surface read;
-2. Nature Direction 018 direct timed visual capture;
+1. independent Visual QA on Building Direction 020 and/or target-host transport of the exact indexed planar-role receiver;
+2. Nature low-intrusion/external direct timed capture that behaves close enough to the clean `92 / 96` reference for perceptual review;
 3. corrected transported Animal direction-frame target-host shaded A/B;
 4. Object source-owned inner-lid material review after exact rebind + independent visual evidence;
-5. Map Runtime #34 one-pixel footprint trade if QA makes it decision-ready;
-6. Character shoulder only after the nonzero-intersection boundary changes.
+5. Character shoulder only after the nonzero-intersection boundary changes.
