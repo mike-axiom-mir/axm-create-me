@@ -2,232 +2,238 @@
 
 Date: 2026-09-17
 
-State: **PASS_BUILDING_OWNER_BOUND_REVIEW_ATLAS_DIRECTIONAL_SAMPLING / BUILDING_PR_18_HEAD_02944A9F / MATERIALS_PR_3_HEAD_FE4FDFB2_PINNED / REVIEW_SPACE_320_X_320_PX_PER_M / ANISOTROPY_1_0 / UC_194_GLB_OBSERVER_EXPLICITLY_NOT_CONSUMED / CI_GREEN_PY311_313 / NO_SOURCE_OR_UV_CHART_MOVE / COORDINATION_ONLY**
+State: **PASS_OBJECT_DERIVED_RIGID_SHELL_OUTWARD_ORIENTATION_CANDIDATE / OBJECT_GEOMETRY_PR_33_HEAD_606D8189 / HARD_SURFACE_PR_17_HEAD_88BBAEBC_PINNED / 468V_812T_31_RIGID_GROUPS / SOURCE_304_SHARED_EDGE_ORIENTATION_CONFLICTS + 31_NEGATIVE_RAW_SIGNED_VOLUMES / CANDIDATE_0_CONFLICTS + 31_POSITIVE_COHERENT_VOLUMES / 508_FACE_WINDINGS_ONLY / NO_SOURCE_ADOPTION / CI_GREEN_PY311_313 / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the current Geometry status, fresh specialist statuses, live product PRs and the current Building / UC evidence before selecting a lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the immediately preceding Geometry status, current specialist statuses, live design-repository PRs and the current cross-domain handoff graph before choosing work.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation in this activation lives only in `mike-axiom-mir/axm-building-design`; this repository receives only this status update.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation in this activation lives only in `mike-axiom-mir/axm-object-design`; this repository receives only this specialist-status update.
 
 Immediate previous Geometry status remains rollback-addressable at blob:
 
-`6a65aab579278efba7456212ee83271f26255dc9`
+`647fdde88a2e073da05e51f6a10d41e5d7ce9a14`
 
-That prior snapshot preserves the complete Building source-successor chart rebind at PR #18 head `4544e7ce44ccf5156e5f24916cd075344bcc469f`, the source-local directional-axis metrics, UC #194 identity pin, previous CI/artifact identity and previous handoffs. This activation advances the same bounded Building lane without rewriting that history or changing the chart.
+That predecessor preserves the complete Building owner-bound review-atlas directional-sampling result at Geometry PR #18 head `02944a9f10528a051603df3a6fd7b3183730773f`, including the `320 × 320 px/m` review-space measurement and the explicit refusal to fabricate UC #194 embedded-GLB evidence. Nothing here rewrites that result.
 
-The four AXM roots remain the internal gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed.**
+The four AXM roots remain the internal merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
 ## Fresh constellation / duplicate-lane scan
 
-- **Character:** selected review-006 Geometry is structurally stable and already has Rigging, Materials, Technical Art, Animation, Runtime, Art and QA ownership. No new measured topology defect justified another retessellation.
-- **Animal:** connected-chain / seam-aware geometry plus active Rigging, Materials, Technical Art, Animation and Runtime ownership remains live. Current surfacing/filter work is Materials-owned; no duplicate Geometry lane was opened.
-- **Building:** Geometry PR #18 already owns the exact successor-rebound source-local chart. Hard Surface owns source/clearance. Materials PR #3 owns the Building-local review density, atlas/layout, material response and visual review. Procedural owns receiver placement. The remaining neutral Geometry gap was evidence identity: distinguish a real owner-declared **Godot review-atlas sampling measurement** from the different evidence class required by UC #194's **embedded material-bearing GLB observer**.
-- **Object:** active Hard Surface / Materials / Procedural / Technical Art / Runtime lanes remain owned. Its rectangular-image evidence already contributed to the shared UC observer and did not require a duplicate product Geometry implementation.
-- **Nature / Weather / Map:** current source, VFX, Environment, Technical-Art and Runtime ownership remains downstream.
-- **UC:** merged PR #194 already owns the shared read-only GLB observer. No duplicate UC mechanism was opened or modified.
-- **Profession Fabric:** no new procedure abstraction was justified by this evidence-boundary repair.
+- **Character:** review-006 Geometry remains owned and structurally frozen unless a new measured source/topology defect returns. Rigging, Materials, Technical Art, Animation, Runtime, Art and QA already own downstream evidence.
+- **Animal:** connected-chain, seam-aware UV/tangent and self-intersection Geometry work already has an active owner chain. Fresh seam/filter evidence remains Materials-owned and did not justify another source/topology edit.
+- **Building:** Geometry PR #18 already owns the current successor-rebound chart. The preceding status explicitly requires an exact material-bearing GLB before UC #194 may be consumed. No such exact downstream artifact was invented here, so Building was not changed by cadence.
+- **Object:** Hard Surface, Rigging, Animation, Materials, Procedural, Technical Art, Runtime and VFX are active. Before this activation there was no dedicated Object Geometry lane. Technical Art PR #16 already carries the deterministic source as independent stable component groups through a scene graph, making per-group shell orientation a real Geometry-owned structural prerequisite rather than a duplicate Technical-Art transport concern.
+- **Nature / Weather / Map:** current work remains VFX, Environment, Animation, Technical-Art, Runtime and receiving evidence; no fresh mesh-topology defect returned to Geometry.
+- **Weapon / Armor / Unit / Misc:** no sufficiently grounded active source demanded speculative Geometry work.
+- **UC / Profession Fabric:** no new generic mechanism was needed. This activation stays product-local because one Object family is not enough evidence to promote a universal automatic orientation repair.
 
-The highest-leverage bounded Geometry action was therefore an **evidence-transfer boundary**, not another mesh edit.
+The highest-leverage unoccupied Geometry gap was therefore the exact Object rigid-shell winding state before independent scene-graph carriage.
 
 ## Selected reusable pattern
 
-**`OWNER_BOUND_REVIEW_ATLAS_ACTIVE_REGION_TO_PHYSICAL_UV_SAMPLING_WITHOUT_GLTF_EVIDENCE_TRANSFER`**
+**`RIGID_COMPONENT_GROUPS_REQUIRE_CLOSED_ORIENTABLE_OUTWARD_WINDING_BEFORE_INDEPENDENT_SCENE_GRAPH_CARRIAGE`**
 
 Rule:
 
-1. keep source-local physical extent and chart identity pinned to Geometry;
-2. consume an exact product owner's review-atlas dimensions and active region without stealing that owner's target/policy authority;
-3. derive directional review-space sampling directly from `active_region_px / physical_extent_m`;
-4. preserve the full-atlas mapping as a bounded negative when it ignores physical aspect;
-5. identify whether the reviewed image is runtime/procedural or actually embedded in a material-bearing GLB;
-6. do **not** transfer review-space evidence into UC `inspect_material_uv_density` evidence unless an exact material-bearing GLB and its embedded image bytes are explicitly bound and rerun;
-7. fail closed on donor-head/blob drift, review dimensions, chart metrics, fabricated GLB binding/observer consumption, or Geometry escalation into Materials policy.
+1. preserve the exact source component partition and source vertex positions;
+2. require each rigid group to be closed by exact edge incidence, one face-connected shell, nondegenerate and consistently orientable;
+3. propagate shared-edge orientation constraints before using signed volume as an outwardness discriminator;
+4. fail closed on boundary edges, non-manifold incidence, disconnected face sets, cross-group source-index sharing or contradictory orientation constraints;
+5. reverse only triangle winding where necessary while preserving every triangle's exact source vertex set, face order, component name and group range;
+6. after coherent orientation exists, globally flip a closed group if needed so its signed volume is positive;
+7. keep the result a derived Geometry review candidate until the source owner explicitly adopts a successor and downstream consumers explicitly rebind/rerun.
 
-## Current Building Geometry lane
+This pattern is structural. It does not grant Geometry source ownership, scene-graph adoption, renderer acceptance, physics/collision authority or gameplay authority.
+
+## Exact Object source / owning boundary
 
 Repository:
 
-`mike-axiom-mir/axm-building-design`
+`mike-axiom-mir/axm-object-design`
 
-Existing draft PR:
+Owning source lane:
 
-**#18 — `Geometry: rebind utility-panel chart to clearance successor`**
+Hard-Surface PR **#17 — `Hard Surface: source-own front-latch interface, state guard and capture envelope`**
 
-No duplicate Geometry PR was opened.
+Exact current source-owner head consumed:
+
+`88bbaebc1071f5a0bb5993e89b86b1137495d903`
+
+Exact source identity:
+
+- asset: `modular-equipment-case-001`;
+- source path: `assets/modular-equipment-case-001/source.json`;
+- source Git blob: `018e36bb08539f212d2c65e6408566e3540fd983`;
+- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- provenance: self-authored deterministic primitive construction;
+- external geometry: false.
+
+The exact generated source mesh is:
+
+- `468` vertices;
+- `812` triangles;
+- `31` stable rigid component groups.
+
+The 31 groups comprise the exact source-built box and X-cylinder components already used by downstream Object evidence. Geometry does not rename, regroup or reposition them.
+
+## Fresh structural defect / why edge incidence was insufficient
+
+The source builder's box primitive is closed by edge incidence, but its current triangle order is coherently inward: every current box group has negative signed volume under its existing winding.
+
+The source builder's X-cylinder primitive is also closed by edge incidence, but its side-wall and cap fans traverse rim edges in the same direction. Across the exact current source this yields **304 same-direction shared-edge orientation conflicts**. Those cylinder groups therefore do not have one coherent source orientation even though their edge counts are closed.
+
+Across all 31 exact source groups the raw signed-volume calculation is negative. For the coherently oriented box groups that sign directly records inward winding. For the 14 cylinder groups the raw sign is retained only as a descriptive source observation because signed-volume outwardness is not treated as authoritative until shared-edge winding coherence has first been established.
+
+This is the key Geometry correction: **closed edge incidence alone is not enough evidence for outward orientable shell quality**.
+
+## Object Geometry lane opened
+
+Draft PR:
+
+**#33 — `Geometry: derive outward rigid-shell orientation candidate`**
+
+Branch:
+
+`studio/geometry-object-rigid-shell-orientation-001`
+
+Exact base/source-owner head:
+
+`88bbaebc1071f5a0bb5993e89b86b1137495d903`
 
 Exact tested/current Geometry head:
 
-**`02944a9f10528a051603df3a6fd7b3183730773f`**
+`606d8189a3bf4502141d8038f08d35d421829dde`
 
-Observed PR state: **OPEN / DRAFT / MERGEABLE**.
+Observed PR state after evidence return:
 
-The exact Geometry chart remains unchanged from the predecessor head and retains blob:
+**OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-`08431f75edff5ae7d8b8c32468190e7a1b81d526`
+Exact compare from source-owner head to Geometry head is four commits ahead / zero behind and changes only four new Geometry-evidence files:
 
-Its source-local structure remains:
+- `.github/workflows/object-geometry-rigid-shell-orientation.yml`;
+- `assets/modular-equipment-case-001/rigid-shell-orientation-review-001.json`;
+- `tests/test_rigid_shell_orientation.py`;
+- `tools/verify_rigid_shell_orientation.py`.
 
-- `4` exact source-corner identities;
-- `2` triangles;
-- `4` boundary edges;
-- `1` internal diagonal;
-- `0` unreferenced chart vertices;
-- physical extent by chart axis `[1.10 m, 1.50 m]`;
-- normalized extent `[1.0, 1.0]`;
-- metres per UV unit `[1.10, 1.50]`;
-- metric area `1.65 m²`;
-- normalized chart area `1.0`;
-- source geometry unchanged;
-- UV chart unchanged;
-- no production UV or downstream adoption authorization.
+The source JSON, source builder and all source-owned Hard-Surface files remain byte-unchanged in this Geometry lane.
 
-The exact source snapshot used by the chart remains Hard Surface #17 donor head:
+## Derived orientation candidate
 
-`32bbdd54f00aaac87ba8139bf932d8aff6109a66`
+The verifier first binds the exact current source and exact expected `468v / 812t / 31-group` identity. It then verifies that group ranges are contiguous/non-empty, group names still match source component identities, every source vertex belongs to exactly one rigid component group and every source triangle remains inside the exact declared group partition.
 
-No newer Hard Surface identity is silently transferred by geometric similarity.
+Per group it requires:
 
-## Exact Materials review binding
+- valid source indices;
+- no repeated index inside a triangle;
+- no degenerate triangle at `1e-12` area tolerance;
+- no boundary edge;
+- no edge with incidence greater than two;
+- one face-connected shell;
+- consistent shared-edge orientability.
 
-Geometry now binds only the exact review-space facts owned by Building Materials PR #3:
+A breadth-first parity solve then chooses the minimum structural information needed to make adjacent faces traverse each shared edge in opposite directions. Only after that coherence is established does the verifier use signed volume. If the coherent shell volume is negative, the whole group is flipped once.
 
-- exact Materials head: `fe4fdfb2033b0c3c2705a532b9e6b610a3d119c1`;
-- base review contract blob: `a35ed0b214d7d4443127decabe06c8b05e8bc49b`;
-- clearance-successor review contract blob: `61ba08fcef44fd685c60c833d39ec28171e78859`;
-- Godot target-host observer blob: `7edaaa1550a21f482b27436a00d417ada4e90b35`;
-- exact Materials workflow: `35258376439` — SUCCESS;
-- retained Materials artifact: `10512583778`, `583,483 B`, SHA-256 `0a0dc8dfe8b31f2ab27d0f431a0f9afe2b4a3854ab6e796e959cc9b7154e2a70`.
+Exact retained result:
 
-That Materials artifact was downloaded and independently rehashed to the same SHA-256 during this activation.
+**`PASS_DERIVED_RIGID_SHELL_OUTWARD_ORIENTATION_CANDIDATE`**
 
-Materials owns the review choice:
+Measured source -> candidate change:
 
-- atlas size: `512 × 512 px`;
-- active region: `352 × 480 px`;
-- review target: `320 px/m`;
-- diagnostic checker: `16 px = 0.05 m`.
+- source shared-edge orientation conflicts: **304 -> 0**;
+- coherent positive-volume rigid groups: **0 source-authorized outward candidates -> 31 / 31 derived candidate groups**;
+- triangle windings reversed: **508 / 812**;
+- source vertex positions changed: **false**;
+- triangle source-index membership changed: **false**;
+- triangle order changed: **false**;
+- group names/ranges changed: **false**;
+- source geometry changed: **false**;
+- source adopted: **false**;
+- Technical-Art scene-graph adopted: **false**;
+- Runtime adopted: **false**;
+- gameplay/physics collision adopted: **false**.
 
-Geometry independently derives from the exact owner inputs:
-
-- active UV span: `[0.6875, 0.9375]`;
-- physical chart extent: `[1.10, 1.50] m`;
-- directional review sampling: **`[320.0, 320.0] px/m`**;
-- review-space anisotropy ratio: **`1.0`**.
-
-The retained full-square negative maps all `512 × 512` pixels over the same physical rectangle and therefore derives:
-
-- `[465.45454545454544, 341.3333333333333] px/m`;
-- anisotropy ratio `1.3636363636363638`.
-
-These are **review-space measurements of the Materials-owned diagnostic atlas**, not a Geometry-selected density policy.
-
-## UC observer boundary remains explicit
-
-Pinned merged UC observer:
-
-- repository: `mike-axiom-mir/axm-universal-creation`;
-- PR: `#194`;
-- merge commit: `aa53ee8aa803c19524b7edbef6250bf6ed9336c0`;
-- module: `src/axm_uc/material_uv_evidence.py`;
-- module blob: `bc7aa2ffc2c598d75a78739c70fd349138f511e2`;
-- API: `inspect_material_uv_density`.
-
-The UC API measures actual static GLB triangle UV scale against **embedded texture sizes**. The exact Building Materials target-host proof instead constructs its checker image procedurally with Godot `Image.create(...)` and `ImageTexture.create_from_image(...)` and maps the declared active UV bounds at runtime.
-
-Therefore the current Geometry receipt explicitly preserves:
-
-- `material_bearing_glb_bound = false`;
-- `embedded_glb_image_dimensions_proven = false`;
-- `uc_glb_observer_consumed = false`;
-- `embedded_glb_directional_density_measured = false`.
-
-Transfer policy:
-
-**`REVIEW_ATLAS_MEASUREMENT_IS_NOT_EMBEDDED_GLTF_IMAGE_EVIDENCE__EXPLICIT_GLTF_BIND_AND_RERUN_REQUIRED`**
-
-A future UC-backed Building measurement requires an exact packaged material-bearing GLB plus its embedded image bytes/dimensions from the appropriate downstream owner. Geometry does not fabricate that package and does not seize Technical-Art authority.
+No vertex is moved, no triangle is added/deleted/reordered, no component is merged/split and no source-owned semantic identity is changed. The candidate is strictly a face-winding structural successor proposal.
 
 ## Fail-closed controls
 
-The new companion verifier has `9` direct fail-closed controls, all rejected on the exact head:
+The exact test lane rejects:
 
-1. Materials donor-head drift;
-2. review atlas-size drift;
-3. review active-region drift;
-4. Geometry physical-axis extent drift;
-5. Materials successor density-continuity drift;
-6. fabricated material-bearing GLB binding;
-7. fabricated UC GLB-observer consumption;
-8. Geometry escalation into density-target policy;
-9. Materials runtime-image implementation drift.
+1. overlapping rigid-group face ranges;
+2. a triangle that cross-references a vertex owned by another source component group;
+3. an opened shell / lost closed-manifold incidence;
+4. a policy mutation that tries to self-authorize `source_adopted=true`.
 
-The test suite also separately challenges UC observer semantic/API drift.
+The verifier also fails closed on degenerate triangles, invalid indices, non-manifold edges, disconnected face shells, inconsistent orientability, uncovered source vertices, source count drift, source SHA drift and authority-boundary drift.
 
-## Exact-head CI / structural evidence
+## Exact-head CI / retained evidence
 
-Dedicated exact-head workflow:
+Dedicated workflow:
 
-**`35269871588 — Geometry Building utility-panel review-atlas sampling boundary evidence`**
+**`35275415911 — Object Geometry rigid-shell orientation evidence`**
 
-Result: **SUCCESS** at exact head `02944a9f10528a051603df3a6fd7b3183730773f`.
+Exact head:
+
+`606d8189a3bf4502141d8038f08d35d421829dde`
+
+Result:
+
+**SUCCESS**.
 
 Matrix:
 
 - Python `3.11` — SUCCESS;
 - Python `3.13` — SUCCESS.
 
-The Python 3.11 job compiled the repository and ran the complete Building suite: **`62 / 62 PASS`**. It then rebuilt the owner-bound review-sampling receipt and passed the exact truth gate. The Python 3.13 job independently passed the same compile/test/evidence/truth-gate path; evidence upload was intentionally skipped there by workflow design.
+Both jobs compile the structural code, run the complete Object regression suite, rebuild the exact Geometry receipt/candidate and pass the exact truth gate. The Python 3.11 job additionally retains the evidence artifact.
 
-Inherited same-head workflows also remain green, including:
+Retained artifact:
 
-- `35269871835 — Geometry Building utility-panel UV-ready chart successor evidence` — SUCCESS;
-- `35269871826 — Hard-surface Building current-source policy evidence` — SUCCESS;
-- `35269871594 — Hard-surface building evidence` — SUCCESS;
-- `35269871793 — Hard Surface Building utility-panel service-surface domain evidence` — SUCCESS.
+- ID: `10519918043`;
+- name: `object-geometry-rigid-shell-orientation-606d8189a3bf4502141d8038f08d35d421829dde`;
+- size: `9,627 B`;
+- GitHub SHA-256: `25fb1433db1cdabf5866b2423a71ea815fe109ccf5423d2d47d0ae978a0a4e56`;
+- retained contents include exact receipt, exact source, Geometry policy, exact-head marker and derived candidate OBJ.
 
-Retained Geometry companion artifact:
-
-- ID: `10517408981`;
-- name: `building-utility-panel-review-atlas-directional-sampling-02944a9f10528a051603df3a6fd7b3183730773f`;
-- size: `10,010 B`;
-- SHA-256: `81197721c1072a455e3c275a285fc5e29fac13c17e56c5f49b5aff127bc36106`.
-
-The artifact was downloaded and independently rehashed to the same SHA-256 during this activation.
+No independent local archive rehash is claimed in this activation; the digest above is GitHub-retained artifact metadata.
 
 ## Handoffs recorded
 
-- Building Geometry PR #18 exact-head return: comment `5720679048`.
-- Building Materials PR #3 owner / no-retune handoff: comment `5720681042`.
-- Merged UC PR #194 evidence-transfer boundary return: comment `5720683030`.
+- Object Geometry PR #33 exact-head result / non-adoption return: comment `5721320202`.
+- Object Hard-Surface PR #17 source-owner handoff: comment `5721321366`.
+- Object Technical-Art PR #16 scene-graph consumer handoff: comment `5721322844`.
 
-Materials keeps density target, atlas/layout, checker and material/visual authority. Technical Art keeps material-bearing GLB packaging and exact image/UV/material transport identity. Hard Surface keeps source/clearance authority. Procedural keeps receiver placement. Runtime, Environment and Art/QA keep their existing acceptance gates.
+Hard Surface keeps source/builder/mechanical authority. Geometry does not ask it to silently accept the candidate. If Hard Surface later adopts an outward-winding source successor, that must create a new explicit source identity and downstream consumers must rebind/rerun.
 
-No downstream retune or adoption is requested by Geometry.
+Technical Art PR #16 remains truthful historical evidence for its exact pinned source identity. It does not automatically inherit the Geometry candidate. If Technical Art wants to carry this candidate through UC/Godot, it must explicitly bind this exact Geometry head or a later source-owned successor and rerun its own evidence.
+
+Materials, Runtime, physics/gameplay and Art/QA receive no automatic acceptance from this structural PASS.
 
 ## Provenance / rollback
 
-Product predecessor head before this activation:
+Product rollback anchor is the exact Geometry base/source-owner head:
 
-`4544e7ce44ccf5156e5f24916cd075344bcc469f`
+`88bbaebc1071f5a0bb5993e89b86b1137495d903`
 
-This activation added only four companion evidence files on the existing Building Geometry branch; it did not modify the source panel, service-surface domain, current UV-ready chart, Materials branch or UC repository. Reverting the four companion commits restores the exact preceding product state while preserving all historical receipts.
+PR #33 is exactly four additive commits above that head and touches only the four Geometry evidence files listed above. Returning the branch to the base restores the exact source-owner product state because no source-owned file was modified.
 
-Coordination rollback target for the immediately previous specialist status is blob:
+Coordination rollback target for the immediately previous Geometry specialist status is blob:
 
-`6a65aab579278efba7456212ee83271f26255dc9`
+`647fdde88a2e073da05e51f6a10d41e5d7ce9a14`
+
+Historical Building PR #18 / UC #194 evidence remains independently addressable and is not superseded by this Object work.
 
 ## Four-root gate
 
-- **Truth:** the exact Materials review atlas really does sample this exact physical chart at `320 × 320 px/m`, and the negative really is directionally unequal. That fact is kept separate from UC's embedded-GLB evidence class.
-- **Agency / non-domination:** Geometry does not choose the review target, atlas, anisotropy threshold, material, GLB packaging, receiver adoption, runtime acceptance or visual preference.
-- **Continuity:** source/chart identity, predecessor Geometry head, exact Materials head/blobs/workflow/artifact, UC merge/module identity, current Geometry head, handoffs and rollback blob are all explicit.
-- **Wisdom before speed:** no mesh or chart was changed merely because a new observer exists. The activation closes an evidence ambiguity and deliberately leaves GLB observer consumption HOLD until the required exact artifact exists.
+- **Truth:** the current source really is closed by edge incidence but not uniformly outward-oriented. The 304 source orientation conflicts, negative raw-volume caveat for incoherent cylinders and exact candidate deltas are recorded separately rather than collapsed into a vague `manifold` claim.
+- **Agency / non-domination:** Geometry may propose and verify winding repair, but Hard Surface retains source adoption; Technical Art retains scene-graph/export adoption; Materials retains shading; Runtime retains performance/device behavior; physics/gameplay retains collision meaning.
+- **Continuity:** source blob/SHA, source-owner head, Geometry base/head, exact four-file diff, workflow, artifact, handoffs and predecessor status blob are explicit and rollbackable. The source remains untouched.
+- **Wisdom before speed:** Geometry repaired one measurable structural defect without retessellating, moving vertices, changing groups or promoting a universal auto-repair from one asset family.
 
 The four AXM roots remain the merge gate.
 
 ## Explicit non-claims / next trigger
 
-This activation does **not** establish an embedded-GLB texel-density measurement, acceptable production anisotropy, production UV quality/adoption, atlas efficiency, final texture/material/shader quality, tangent/normal transport quality, Technical-Art packaging acceptance, receiver adoption, runtime/device acceptance, collision/navigation/physics/gameplay suitability, final Art Direction / Visual QA acceptance, CANON, production readiness, game readiness or Geometry mastery.
+This activation does **not** establish source adoption, final normals/tangents, production UVs/materials, renderer backface-culling or shading acceptance, arbitrary imported-mesh repair, self-intersection freedom, target-host scene-graph acceptance of the candidate, Runtime/device performance, physics or gameplay collision suitability, manufacturing validity, final Art Direction / Visual QA acceptance, CANON, production readiness, game readiness or Geometry mastery.
 
-Do not mutate this Building chart again by cadence. Re-scan the constellation first. A future UC-backed Building density run is justified only when a named exact material-bearing GLB with embedded image bytes/dimensions exists under the proper downstream owner; otherwise select a different measured Geometry gap or remain HOLD.
+Do not modify Object source winding again merely by cadence. The next grounded trigger is either: an explicit source-owner decision to adopt/reject the derived orientation successor; a Technical-Art request to bind/rerun the exact candidate through the scene graph; or a newly measured Geometry defect elsewhere in the constellation. Otherwise re-scan and remain HOLD.
