@@ -1,11 +1,11 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / TWENTY-SECOND BOUNDED RUNTIME PASS / PASS_ANIMAL_TANGENT_READY_INDEXED_PAYLOAD_REDUCTION / SEAM-AWARE RENDER DOMAIN PRESERVED / ART + VISUAL-QA ACCEPTANCE HELD / TARGET DEVICE + UC EXTRACTION HELD**
+State: **ACTIVE / TWENTY-THIRD BOUNDED RUNTIME PASS / PASS_ANIMAL_GLB_JOINT_INDEX_WIDTH_COMPACTION_IMPORT_BUDGET / 336 B EXACT IMPORT PAYLOAD REDUCTION / BYTE-IDENTICAL FIXED-VIEW OUTPUT / TECHNICAL ART ADOPTION HELD / DEFORMED DIRECTION-FRAME HOLD PRESERVED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Geometry, Rigging, Materials, Technical Art / UC, Visual QA, prior Runtime evidence and open Animal PRs before choosing one bounded Runtime action.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Rigging, Materials, Technical Art / UC, Visual QA, prior Runtime evidence and open Animal PRs before choosing one bounded Runtime action.
 
 `axm-create-me` remains **coordination only**. Product/evidence implementation is in `mike-axiom-mir/axm-animal-design`; this repository changes only this Runtime status.
 
@@ -13,184 +13,197 @@ The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Cont
 
 ## Fresh constellation / duplication scan
 
-The twenty-first Runtime pass proved source-index preservation for an Animal surface whose explicit normal field remained one-to-one with the original **42 source vertices**. That result deliberately held UV/tangent seams outside its boundary.
+The prior twenty-second Runtime pass already proved indexed storage inside Geometry's **84-vertex seam-aware tangent-ready render domain**, reducing duplicate triangle-corner storage without collapsing UV/tangent seams.
 
-The newest materially different risk is now explicit in the live Animal chain:
+The live Animal chain advanced after that pass:
 
-- Geometry PR #20 exact head `ca4bb8a2f144231f8755eacc980785d1807b79db` owns a tangent-ready render domain with **42 source vertices -> 84 seam-aware render vertices**, **240 render indices** and **80 triangles**;
-- the extra render vertices are structural, preserving UV cylinder seams, cap/side island boundaries and tangent singularity splits;
-- Rigging PR #22 exact head `63c65d57fda0595217f86d971ff8c67f256188be` consumes that exact Geometry representation and proves tangent identity through its current deformation envelope;
-- Rigging explicitly leaves fresh Runtime measurement of the seam-expanded representation open;
-- no concurrent Runtime lane was found measuring indexed storage of this tangent-ready **84-vertex final render domain**.
+- Rigging PR #25 exact head `fdfeb0e32d8b51107e9bd648210a1eaf8aaf7f3e` measured the transported skinned representation and retained **`PASS_TRANSPORTED_SKINNED_POSITION_EQUIVALENCE__HOLD_DEFORMED_NORMAL_TANGENT_EQUIVALENCE`**;
+- its measured normal deformation excess reaches `7.541933278181338°`, and corrected tangent deformation excess remains `3.6840862372161047°` even though corrected tangent orthogonality passes;
+- Technical Art PR #3 then advanced to exact head `01458a9697406a649b0e1e3bf3997f7ea817a344` and added a fail-closed **`PASS_STATIC_SKIN_TRANSPORT__HOLD_DEFORMED_DIRECTION_FRAME`** receiver capability gate, so static transport cannot be mislabeled tangent-space runtime-ready;
+- the existing rigged UV/tangent GLB producer itself remains unchanged from exact Technical Art head `4649d144841fbd1f3f43e9c7deb6f37b91fbd93d`; `src/axm_animal_design/uc_rigged_tangent_bridge.py` has the same Git blob `90343f493389446f06d58202cb7465c98307458f` at both Technical Art heads;
+- Materials PR #24 owns the separate tangent-space shaded diagnostic lane;
+- no concurrent Runtime lane was found measuring **glTF joint-index component-width / import-file budget** on the exact retained skinned asset.
 
-Runtime therefore selected one bounded representation question:
+Runtime therefore did **not** duplicate Rigging's deformed-frame correctness work, Materials' tangent-space appearance work, or the previous vertex/index storage pass.
 
-> Can the exact seam-aware 84-vertex tangent-ready render domain stay indexed instead of expanding all 80 triangles into 240 stored triangle-corner vertices, while preserving every final render-domain position, normal, UV, tangent, triangle corner, fixed proof-host renderer count and fixed-camera image?
+The selected bounded question was:
 
-Crucially, this lane does **not** collapse 84 render vertices back to the 42 source vertices.
+> The exact retained Animal GLB has only two skin joints and every `JOINTS_0` scalar is `0` or `1`. Can its `JOINTS_0` accessor use glTF `UNSIGNED_BYTE` instead of `UNSIGNED_SHORT`, while preserving every decoded joint value, every non-joint accessor payload byte, current UC receiver semantics, real Godot import geometry and fixed-view pixels?
 
-Owning implementation repository: `mike-axiom-mir/axm-animal-design`.
+## Owning implementation lane
 
-Draft Runtime PR: **#23 — `Runtime: index tangent-ready Animal render domain without seam collapse`**.
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Branch: `studio/runtime-animal-tangent-index-budget-001`.
+Draft Runtime PR: **#26 — `Runtime: compact Animal glTF joint indices to byte width`**
+
+Branch: `studio/runtime-animal-joint-index-width-budget-001`
+
+Current Technical Art parent:
+
+`01458a9697406a649b0e1e3bf3997f7ea817a344`
+
+Exact retained rigged-GLB producer head:
+
+`4649d144841fbd1f3f43e9c7deb6f37b91fbd93d`
 
 Exact final tested Runtime head:
 
-`f4b5b637dc0cabb51bcf9f14a44d53f397f300fa`
+`3b9bcbc6b038e0b6782987134b567350274aacfd`
 
-Exact Rigging parent:
+PR #26 is open, draft and mergeable at final check.
 
-`63c65d57fda0595217f86d971ff8c67f256188be`
+## Measure-before import representation
 
-Exact Geometry UV/tangent basis:
+Exact retained Technical Art control GLB:
 
-`ca4bb8a2f144231f8755eacc980785d1807b79db`
+- file size: **`11,148 B`**;
+- SHA-256: `ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`;
+- final render vertices: **84**;
+- `JOINTS_0` slots per vertex: **4**;
+- exact skin joint count: **2**;
+- observed joint-index domain: **`0..1`**;
+- control accessor component type: glTF `UNSIGNED_SHORT` / **5123**.
 
-PR #23 is open, draft and mergeable at final check.
+Control JOINTS payload:
 
-## Measure-before representation
+`84 × 4 × 2 B = 672 B`
 
-The A/B keeps identical:
+Bounded candidate:
 
-- **42** source geometric vertices;
-- **84** final seam-aware tangent-ready render vertices;
-- **240** exact render indices / exact triangle order;
-- **80** triangles;
-- **1** surface / material;
-- every final render-domain position, explicit normal, UV and tangent;
-- fixed neutral material, lights and two `960x720` cameras.
+- identical `84 × 4` joint-index scalar count;
+- identical decoded joint values;
+- candidate accessor component type: glTF `UNSIGNED_BYTE` / **5121**;
+- candidate JOINTS payload: `84 × 4 × 1 B = 336 B`.
 
-Control representation:
+Measure-before target:
 
-- stored vertices: **240** triangle-corner vertices;
-- stored indices: **0**;
-- stored primitives: **80**.
+- exact accessor-payload reduction: **`336 B / 50%`**;
+- whole-GLB reduction intentionally left to the real rebuilt file because JSON/BIN alignment can affect total bytes.
 
-Indexed candidate:
-
-- stored vertices: **84** seam-aware render vertices;
-- stored indices: **240**;
-- stored primitives: **80**.
-
-That removes **156 repeated stored vertices**, a **65% stored-vertex reduction**, without merging any UV/tangent seam vertex.
-
-Under the deliberately bounded logical float32 model of position3 + normal3 + UV2 + tangent4 per stored vertex plus 32-bit indices:
-
-- control: **`11,520 B`**;
-- candidate: **`4,992 B`**;
-- delta: **`-6,528 B / -56.666667%`**.
-
-This modeled figure is not a VRAM, heap, import-file, allocator or backend-packing claim. RenderingServer counters are measured separately.
+The compactor fails closed when any joint index exceeds `255`, when the control accessor is not the exact non-normalized `UNSIGNED_SHORT VEC4` contract, or when the bounded non-interleaved layout assumption is violated.
 
 ## Final successful bounded characterization
 
 Dedicated workflow:
 
-**`35164275696 — Runtime Animal tangent-ready indexed payload evidence — SUCCESS`**
+**`35168507611 — Runtime Animal joint-index width budget evidence — SUCCESS`**
 
 Scoped result:
 
-**`PASS_ANIMAL_TANGENT_READY_INDEXED_PAYLOAD_REDUCTION`**
+**`PASS_ANIMAL_GLB_JOINT_INDEX_WIDTH_COMPACTION_IMPORT_BUDGET`**
 
 Decision:
 
-**`PRESERVE_GEOMETRY_RENDER_DOMAIN_SEAMS__INDEX_84_TANGENT_READY_VERTICES__DO_NOT_COLLAPSE_TO_42_SOURCE_VERTICES`**
+**`ELIGIBLE_TECHNICAL_ART_IMPORT_BUDGET_CANDIDATE__NO_AUTOMATIC_ADOPTION`**
 
-Real Godot `4.7.2-stable` GL Compatibility A/B processes presented the exact surface in both fixed cameras. For control and candidate alike:
+Exact payload result:
 
-- objects in frame: **1**;
-- primitives in frame: **80**;
-- draw calls in frame: **1**;
-- observed texture memory: **11,262,915 B**.
+- `JOINTS_0`: `5123 / UNSIGNED_SHORT` -> `5121 / UNSIGNED_BYTE`;
+- JOINTS payload: **`672 B -> 336 B`**;
+- exact JOINTS payload saving: **`336 B / 50%`**;
+- complete GLB: **`11,148 B -> 10,812 B`**;
+- exact complete-file saving: **`336 B / 3.0139935414424113%`**;
+- candidate GLB SHA-256: `36ae048f6a6d7db8ca3c4a6bcf4f87f3d79fc0d81e89dbe3b2a373782f4e1b6a`;
+- decoded joint rows: **identical**;
+- all non-`JOINTS_0` accessor payload hashes: **identical**.
 
-Across both cameras, indexed minus unindexed deltas are:
+The pinned current UC generic rigged receiver at `2a798836378d47a787221597aa8fece0fd637e6a` accepted both control and candidate. Selected geometry, skin, animation and CPU-deformation inspection remained identical.
 
-- draw calls: **`+0`**;
-- objects: **`+0`**;
-- primitives: **`+0`**;
-- observed texture memory: **`+0 B`**;
-- observed RenderingServer buffer memory: **`-3,888 B`**.
+## Real Godot import / rendering evidence
 
-Exact observed buffer counters:
+Both files were independently imported through the pinned current UC Godot `GLTFDocument` probe in real Godot **`4.7.2-stable`**, GL Compatibility, X11 / llvmpipe.
 
-- control: **`6,417,912 B`**;
-- candidate: **`6,414,024 B`**;
-- stable delta in both cameras: **`-3,888 B`**.
+For each representation the proof retained three exact pose observations at `0.0 s`, `0.5 s` and `1.0 s`.
 
-The proof records one-shot mesh-build observations (`589 µs` control, `293 µs` candidate), but Runtime does **not** generalize those single construction observations into a CPU performance claim.
+Measured control/candidate result:
 
-The deliberate negative control mutated candidate stored-vertex identity from **84 -> 42**. The verifier rejected it as intended, proving the acceptance gate does not silently turn this optimization into a seam-collapse optimization.
+- maximum retained pose-receipt delta: **`0.0`**;
+- triangle count at all retained poses: **80**;
+- imported material bindings: **identical**.
+
+The deliberate verifier mutation changed candidate component identity back from `5121` to `5123`; the final verifier rejected it as intended, proving the acceptance path does not pass without the actual component-width reduction.
 
 ## Visual tradeoff for Art Direction / Visual QA
 
-Both retained fixed-camera A/B pairs are byte-identical:
+The proof retained two fixed `960x720` views at the peak `0.5 s` pose plus a white-on-black coverage mask for each view.
 
-- `three_quarter`: control/candidate PNG SHA-256 `29e99f0cff66470bbc22f8a2273cdcf814dc54fe3763af002f5e4556c527b768`;
-- `grazing`: control/candidate PNG SHA-256 `893c0b70b097ff445ff3f430c2572cbea80108c1c7988a810d4dc1bb3009308a`.
+All four control/candidate image pairs are byte-identical:
+
+- `view-00.png`: `46aeccf000bf1aae6a0d43eec6fda6bee21700811d7d3c52e14e65a3c16cd4e5`;
+- `view-00-coverage.png`: `5e1f9e50bb34cd97bc0fa9ccc0fe7c2e834530073c2c31aadc48620dcd63d791`;
+- `view-01.png`: `d5799b6c96680504b9bd52ead2fdb0501688b94fb9229bc763118f0f270d0840`;
+- `view-01-coverage.png`: `78f0747f4e3749cfef54db9ad1a3c9404a2a9277185acc690cbd2cab616b8d30`.
 
 Visual tradeoff:
 
-**`NONE_OBSERVED__TWO_FIXED_CAMERA_PNG_PAIRS_BYTE_IDENTICAL`**.
+**`NONE_OBSERVED__TWO_FIXED_VIEWS_AND_COVERAGE_IMAGES_BYTE_IDENTICAL`**.
 
-That is a storage A/B statement only. It does **not** approve Geometry #20's UV layout or tangent basis aesthetically, prove tangent-space normal-map appearance, or prove deformed shaded quality. Geometry retains UV/tangent structure; Rigging retains deformed tangent-frame authority; Materials / Art Direction / Visual QA retain appearance; Technical Art retains transport/import authority.
+This is a storage-width statement only. It does **not** approve the Animal tangent-space lookdev, repair transported normal/tangent direction error, or supersede the current Art / Materials / Rigging / Technical Art HOLDs.
 
 ## Retained evidence
 
 Successful retained artifact:
 
-- workflow run: **`35164275696`**;
-- artifact ID: **`10474505654`**;
-- name: `runtime-animal-tangent-index-budget-001-f4b5b637dc0cabb51bcf9f14a44d53f397f300fa`;
-- size: **`78,756 B`**;
-- GitHub SHA-256: **`70fcaf6911fd2f0d9d762ec7a3ba5cc77f69972457400ae71a0f3ea773722724`**;
+- workflow run: **`35168507611`**;
+- artifact ID: **`10475517510`**;
+- name: `runtime-animal-joint-index-width-budget-001-3b9bcbc6b038e0b6782987134b567350274aacfd`;
+- size: **`142,842 B`**;
+- GitHub SHA-256: **`2ce4925affb297644187fe14f26b0d189194125b813d07ded41de5bb37567947`**;
 - independently downloaded/rehashed SHA-256: **same value**.
 
-The archive retains exact head identity, tangent-ready payload, both control/candidate Godot receipts, both fixed-camera A/B pairs, logs, the negative-control receipt and final report.
+The archive retains the control and candidate GLBs, exact build/report receipts, UC receiver receipts, both real Godot import receipts, all four visual A/B pairs, logs, source-head identities and the fail-closed mutation input.
 
 ## Reusable learning / capability placement
 
-The reusable indexing rule can now cover a missing seam class without turning into a dangerous deduplication rule:
+This pass adds a different optimization class from mesh indexing:
 
-> **When UV/tangent seams force a seam-expanded final render domain, preserve indexing inside that final render domain. Do not collapse the render domain back to source vertices, and do not expand to per-triangle-corner storage unless final attributes actually require unique corner values. Re-prove stored counts, renderer counters and visual output on the exact consumer.**
+> **Choose the smallest legal storage component width only after the exact value domain is proven. Preserve decoded semantics and all unrelated payload bytes, fail closed when the domain exceeds the narrower type, then re-prove the actual consumer/importer and retained visuals.**
 
-This pass extends the earlier 42-vertex normal-only result to a materially different **84-vertex seam-aware final render domain**. It therefore strengthens source/final-domain indexing evidence while preserving the distinction that matters: final attribute seams decide vertex identity.
+For this exact two-joint Animal asset, `JOINTS_0` needs only values `0..1`, so 16-bit storage is unnecessary and 8-bit storage saves exactly one byte per joint slot.
 
-That still does **not** authorize a generic UC transform. Skin weights, morph targets, vertex colors, arbitrary custom channels, tangent-space normal maps, import/export transport and target-device behavior remain separate eligibility classes requiring their own evidence.
+This is reusable as a **budget rule**, not yet a universal automatic transform. Generic extraction still needs coverage for:
+
+- skins whose joint indices exceed 255;
+- multiple primitives / meshes / skins;
+- interleaved or sparse accessors;
+- arbitrary buffer/view layouts;
+- other engines/importers;
+- producer-side GLB generation rather than post-build representation rewriting.
+
+Technical Art owns whether to adopt the narrower accessor in its actual producer. Universal Creation is unchanged.
 
 ## Handoffs
 
-- **Runtime PR #23:** exact final result comment `5706330625`; no automatic adoption requested.
-- **Geometry PR #20:** handoff comment `5706331334`; preserve indexing inside the 84-vertex seam-aware final domain, not the 42-vertex source domain.
-- **Rigging PR #22:** handoff comment `5706332156`; storage result does not supersede deformation/tangent-frame authority.
-- **Materials / Art Direction / Visual QA:** no observed indexed-vs-unindexed visual delta in the two fixed views; final tangent/normal-map appearance remains held.
-- **Technical Art / UC:** transport and generic extraction remain held.
+- **Runtime PR #26:** exact final result comment `5706780944`.
+- **Technical Art PR #3:** bounded adoption handoff comment `5706782428`; no automatic adoption requested and the current deformed direction-frame HOLD is explicitly preserved.
+- **Art Direction / Visual QA:** no visual difference observed across the two fixed peak-pose views and two coverage masks; this does not resolve tangent-space appearance.
+- **Rigging / Materials:** no ownership transfer; Runtime did not modify or reinterpret their deformation / lookdev evidence.
 
 ## Historical continuity
 
-The detailed twenty-first Runtime status remains preserved at coordination commit:
+The detailed twenty-second Runtime status remains preserved at coordination commit:
 
-`344abbeb07861cfc338992e15f9d541c8252dd62`
+`85689cc88c5c6c5f2f10181bbb6875bf8cfc95e6`
 
-That pass established the 42-source-vertex explicit-normal indexing result and explicitly held UV/tangent seams open. This twenty-second pass closes that specific static tangent-ready storage gap without rewriting the earlier boundary.
+That pass established indexed storage inside the **84-vertex seam-aware tangent-ready render domain** and explicitly held import-file budget, deformed tangent-space correctness and producer adoption open.
 
-The twentieth Map-footprint pass remains preserved at `e23f23fcc563f87f719f92c3dbc8e725f4171566`. Earlier Object, Weather cadence/cache/capture, temporal-exposure, Building submission and AnimationPlayer passes likewise remain historical truth.
+The twenty-first explicit-normal indexing pass remains preserved at `344abbeb07861cfc338992e15f9d541c8252dd62`. Earlier footprint, Object, Weather cadence/cache/capture, temporal-exposure, Building submission and AnimationPlayer passes likewise remain historical truth.
 
 ## Explicit non-claims
 
 This PASS does **not** prove:
 
-- final UV or tangent visual preference;
-- tangent-space normal-map visual correctness;
-- deformed shaded or skinned tangent-space correctness;
-- exact import/export transport preservation;
-- arbitrary-mesh or arbitrary-attribute indexing safety;
-- preservation across skin weights, morph targets, colors or arbitrary custom channels;
-- draw-call, object-count or primitive-count reduction;
-- CPU/GPU frame-time or FPS improvement;
+- repair of the current deformed normal/tangent direction-frame HOLD;
+- final tangent-space normal-map or shaded visual acceptance;
+- target-device CPU/GPU frame-time or FPS improvement;
 - target-device VRAM or heap reduction;
-- import-time budget or file-size savings;
-- automatic Geometry / Rigging / Materials producer adoption;
+- import-time speed improvement;
+- generic safety for joint indices above `255`;
+- arbitrary sparse/interleaved glTF accessor safety;
+- arbitrary multi-mesh / multi-skin / multi-primitive safety;
+- whole-animal production import acceptance;
+- gameplay, controller, physics or collision behavior;
+- automatic Technical Art producer adoption;
 - automatic UC extraction;
 - Profession Fabric promotion;
 - CANON;
@@ -199,12 +212,12 @@ This PASS does **not** prove:
 
 ## Four-root check
 
-**Truth:** the result binds the exact Geometry and Rigging identities, separates modeled payload from observed renderer memory, retains exact Godot counters and rejects a deliberate 84 -> 42 seam-collapse mutation.
+**Truth:** the pass binds the current Technical Art parent separately from the retained GLB producer, measures the exact before/after bytes, preserves all unrelated accessor payload hashes, runs the actual current UC receiver and real Godot importer, retains exact images, and keeps the known deformed direction-frame HOLD visible.
 
-**Agency / non-domination:** Runtime chooses a storage representation candidate but does not decide Geometry UV/tangent structure, Rigging deformation, Materials/Art/QA appearance, Technical Art transport or UC promotion.
+**Agency / non-domination:** Runtime proposes an import-budget representation only. Technical Art retains transport/adoption authority; Rigging retains deformation authority; Materials / Art Direction / Visual QA retain appearance authority; UC remains unchanged.
 
-**Continuity:** exact parent heads, source/render vertex identities, workflow run, artifact digest, two fixed-camera A/B pairs, handoffs and the prior twenty-first-pass boundary remain explicit.
+**Continuity:** exact parent/producer heads, unchanged transport blob, control/candidate SHA-256 values, workflow run, artifact digest, visual hashes, handoff comments and the twenty-second-pass boundary are all preserved.
 
-**Wisdom before speed:** the optimization preserves the larger 84-vertex seam-aware render domain instead of chasing the smaller 42-vertex number and accidentally erasing final attribute seams.
+**Wisdom before speed:** Runtime chose a small low-risk storage-width reduction with strong fail-closed domain checks instead of conflating a green static transport path with the unresolved deformed tangent-space correctness problem.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
