@@ -2,7 +2,7 @@
 
 Date: 2026-09-17
 
-State: **PASS_BUILDING_UTILITY_PANEL_UV_READY_SOURCE_FRAME_CHART / BUILDING_PR_16_HEAD_79E09F68 / EXACT_4V_2T_SOURCE_CORNER_CHART / 1.65_M2_TO_UNIT_SQUARE / ZERO_PROJECTION_AND_RECONSTRUCTION_RESIDUAL / 7_FAIL_CLOSED_CONTROLS / NO_SOURCE_GEOMETRY_CHANGE / NO_PRODUCTION_UV_ADOPTION / COORDINATION_ONLY**
+State: **HOLD_UC_DIRECTIONAL_TEXEL_DENSITY_OBSERVER_IMPLEMENTED / UC_PR_193_HEAD_8B1AF776 / TWO_INDEPENDENT_PRODUCT_CASES / SOURCE_IMPLEMENTATION_COMPLETE / FAILED_PREDECESSOR_PRECISION_ASSUMPTION_RETAINED / FLOAT32_REGRESSION_REPAIR_APPLIED / EXACT_HEAD_CI_QUEUED / NO_PRODUCT_POLICY_MOVE / COORDINATION_ONLY**
 
 ## Current activation
 
@@ -10,13 +10,13 @@ Re-read:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - `studio/specialists/02_geometry_topology.md`;
-- the immediate prior Geometry status;
-- current Art Direction, Hard Surface, Procedural, Materials, Technical Art and Capability Cartography status;
-- current open work across the full design constellation;
-- exact fresh Building Hard-Surface service-surface evidence;
-- exact existing Building Procedural service-surface receiver work, to avoid duplicating spatial parameterization.
+- this specialist's immediate prior status;
+- current Capability Cartography state;
+- current specialist/status files and open work across the full design constellation;
+- exact current Universal Creation material/UV observer state;
+- the independent Building and Object evidence families that now expose the same neutral measurement gap.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation in this activation lives in `mike-axiom-mir/axm-building-design`; this repository receives only this status update.
+`axm-create-me` remains **coordination only**. Product/shared implementation in this activation lives in `mike-axiom-mir/axm-universal-creation`; this repository receives only this status update.
 
 The four AXM roots remain the internal gate:
 
@@ -27,286 +27,239 @@ The four AXM roots remain the internal gate:
 
 Immediate previous Geometry status remains rollback-addressable at blob:
 
-`b3e8b63c96bd7b590ab639403ebb2164583b71bb`
+`8ab0ac24a5e37de33783e3e5d25f98cb8f95a477`
 
-That prior state preserves Character Geometry PR #16 exact merged-UC topology/self-intersection receiver evidence at head `3519289f99c15ee3b7298b7bd625cf81e32b3c98`. Character remains historical truth; no Character mesh, evidence or downstream ownership was rewritten in this activation.
+That prior status preserves Building Geometry PR #16's exact source-frame chart work at head `79e09f68a05770eb6dabbbbbb3b008fc8e050aa0`; none of that evidence is rewritten here.
 
 ## Fresh constellation / duplicate-lane scan
 
-The current design constellation was inspected before selecting work:
+Current owner work was inspected before selecting a new lane.
 
-- `axm-weapon-design`;
-- `axm-armor-design`;
-- `axm-character-design`;
-- `axm-unit-design`;
-- `axm-animal-design`;
-- `axm-building-design`;
-- `axm-nature-design`;
-- `axm-weather-design`;
-- `axm-map-design`;
-- `axm-object-design`;
-- `axm-misc-design`;
-- supporting `axm-universal-creation` and `axm-profession-fabric` state.
+- Character Geometry #16 already owns the selected review-006 shoulder topology and shared-topology/self-intersection receiver rebinds. Rigging, Materials, Technical Art, Animation, Runtime, Art and QA have live downstream ownership. No new measured Character topology defect justified another mesh mutation.
+- Animal already has connected-chain Geometry and active Rigging/Materials/Technical-Art/Animation work. No competing neutral directional-density observer exists there.
+- Building has active Hard Surface, Materials, Procedural, Map Technical Art/Environment and Runtime ownership. Geometry #16 already supplies the exact source metric frame/chart; continuing to author Building atlas/material policy would duplicate downstream lanes.
+- Object has active Hard Surface, Materials, Procedural, Technical Art and Runtime ownership. Its exact rectangular-atlas transport is a supporting case, not permission for Geometry to take Object atlas policy.
+- Nature, Weather and Map retain active source/VFX/Environment/Runtime lanes.
+- Weapon, Armor, Unit and Misc did not expose a stronger grounded unowned mesh defect.
+- Profession Fabric already has sufficient evidence/provenance vocabulary; no new profession abstraction is required.
 
-Fresh lane selection:
+The highest-leverage unoccupied Geometry question is therefore shared and observer-only: the existing UC material/UV evidence measures scalar area-equivalent texels/metre, but cannot expose **directional sampling scale** when a structurally valid UV chart stretches physical axes differently.
 
-- Character already has explicit shared topology/self-intersection receiver rebinds and downstream Rigging / Materials / Technical Art / Animation / Runtime / Art / QA ownership; no new measured Geometry defect justified another Character mutation.
-- Animal has active Geometry, Rigging, Materials, Technical-Art and Runtime work around its exact connected-chain/tangent-frame receiver; no unowned topology gap outranked Building.
-- Nature/Weather and Map have active Geometry/VFX/Environment/Technical-Art/Runtime owners; no duplicate lane was opened.
-- Object already has its own manufactured service-surface source/consumer work and remains a materially different product family; no Object geometry was copied.
-- Weapon/Armor/Unit/Misc did not expose stronger grounded source geometry that justified inventing placeholder topology.
-- UC/PF already contain or coordinate shared machinery/evidence procedures; one Building-local chart is insufficient evidence for a new universal abstraction.
+## Independent evidence supporting shared placement
 
-The strongest fresh Geometry-owned gap was Building Hard Surface PR #15. It source-owns an exact manufactured utility-panel outer service surface as **identity + planar reference frame + physical metric domain**, while explicitly leaving UV mapping, texel density, atlas placement and downstream adoption outside Hard Surface authority.
+This extraction is supported by two materially different manufactured-product families rather than one local convenience.
 
-A duplication check against Building Procedural PR #4 was required before acting. Procedural already owns exact **world/receiver spatial parameterization** of the same source surface into front/east utility bays. Geometry therefore did **not** derive receiver transforms, world placement or cross-receiver policy. The bounded gap was narrower and source-local: create one deterministic **UV-ready structural chart** from the source-owned metric frame before texel-density, atlas or material policy.
+### Building
+
+Building Geometry #16 / Hard Surface #15 establish an exact `1.10 x 1.50 m` source-owned planar metric domain. Building Materials separately demonstrates:
+
+- a metric-aware diagnostic using a `512 x 512` image with active extent `352 x 480` at the product-owned review target of about `320 px/m` in both physical directions;
+- an aspect-blind unit-square mapping over the same physical rectangle that remains structurally bijective but samples the physical directions at about `341.3333` and `465.4545 px/m`, ratio about `1.363636`;
+- retained Godot evidence that the two mappings are visibly different.
+
+The `320 px/m` review target remains Building-owned and is **not** moved into UC.
+
+### Object
+
+Object Hard Surface / Technical Art independently exercise metric service surfaces through a rectangular `512 x 384` receiving image and an Object-owned `500 px/m` policy. That case proves image width and image height are materially distinct directional inputs and must not be collapsed to one scalar before directional measurement.
+
+The `500 px/m` target, Object atlas rectangles/padding and adoption remain Object-owned.
+
+Capability Cartography issue #192 correctly places only the neutral observation mechanism in UC.
 
 ## Selected bounded reusable pattern
 
-**`SOURCE_OWNED_PLANAR_FRAME_TO_BIJECTIVE_UV_READY_CHART_BEFORE_TEXEL_DENSITY_ATLAS_OR_MATERIAL_POLICY`**
+**`WORLD_PLANE_TO_TEXEL_JACOBIAN_PRINCIPAL_SCALE_BEFORE_ANISOTROPY_POLICY`**
 
 Rule:
 
-1. consume an exact source-owned planar surface identity/frame/metric domain;
-2. bind exact source-corner identity before parameterization;
-3. project each source corner into the source primary/secondary metric axes;
-4. prove exact reconstruction back to source 3D positions;
-5. normalize only the already-proven metric rectangle into a deterministic `[0,1]²` structural chart;
-6. preserve source winding/connectivity/boundary identity;
-7. keep texel density, atlas placement, material response, texture payload and adoption as separate downstream decisions;
-8. do not relabel a UV-ready chart as a production UV set.
+1. consume only exact static GLB geometry/UV/image evidence already supported by the existing observer;
+2. preserve the existing scalar area-equivalent texels/metre result and schema semantics;
+3. build an orthonormal basis in each measurable triangle's world-space plane;
+4. convert U and V edge deltas to texel deltas using image **width and height separately**;
+5. form the local `2 x 2` world-plane → texel Jacobian;
+6. measure its singular values as the two principal directional texel scales;
+7. report `principal_min`, `principal_max` and `anisotropy_ratio` as observations only;
+8. aggregate deterministically with world-area weighting;
+9. HOLD rather than invent a result when the world-plane or texel Jacobian is singular/non-finite;
+10. do not choose an anisotropy threshold, target density, UV repair, unwrap, atlas, material or adoption policy in the observer.
 
-This is a mesh/parameterization structure pattern, not an aesthetic UV-layout decision.
+For a supported locally affine mapping, the old scalar area measure remains the geometric-mean view of the two principal scales. The new observation therefore extends rather than silently replaces existing evidence semantics.
 
-## Owning product lane / exact identity
+## Shared implementation lane / exact identity
 
 Repository:
 
-`mike-axiom-mir/axm-building-design`
+`mike-axiom-mir/axm-universal-creation`
+
+Proposal issue:
+
+**#192 — directional texel-density / UV-anisotropy observer proposal**
 
 New draft PR:
 
-**#16 — `Geometry: derive utility-panel UV-ready source-frame chart`**
+**#193 — `Geometry: expose directional texel-density in static material observer`**
 
 Branch:
 
-`studio/geometry-utility-panel-service-surface-chart-001`
+`studio/geometry-directional-texel-density-observer-001`
 
-Base branch:
+Exact base:
 
-`studio/hard-surface-utility-panel-surface-domain-001`
+`50e85c8f6a39822eef01e4fb546dcb875917bb3b`
 
-Exact tested/current Geometry head:
+Current exact Geometry head:
 
-**`79e09f68a05770eb6dabbbbbb3b008fc8e050aa0`**
+**`8b1af776585afb87facf90f4bcc055d51acc60e7`**
 
-Observed PR state after exact CI:
+Observed PR state:
 
 **OPEN / DRAFT / MERGEABLE**
 
-The PR contains only four Geometry-owned additions relative to Hard Surface #15:
+Current PR delta is limited to four shared-observer files:
 
-- `geometry/utility_access_panel_service_surface_chart_001.json`;
-- `tools/verify_utility_panel_service_surface_chart.py`;
-- `tests/test_utility_panel_service_surface_chart.py`;
-- `.github/workflows/geometry-building-utility-panel-service-surface-chart.yml`.
+- `src/axm_uc/material_uv_evidence.py`;
+- `tests/test_material_uv_evidence.py`;
+- `docs/MATERIAL_UV_EVIDENCE.md`;
+- `.github/workflows/geometry-directional-texel-density-observer.yml`.
 
-No Building source geometry, Hard-Surface source contract, Procedural receiver family, Materials implementation, Map receiver, Runtime implementation, UC implementation, PF implementation or `axm-create-me` product code changed.
+No Building/Object source geometry, atlas contract, product target density, Material/Technical-Art/Runtime implementation, Profession Fabric policy or `axm-create-me` product code changed.
 
-## Exact Hard-Surface donor identity
+## Structural implementation evidence
 
-Building Hard Surface PR:
+The existing `EVIDENCE_SCHEMA = axm.material-uv-evidence/v0.1` and existing scalar `texels_per_m` path remain intact.
 
-**#15 — `Hard Surface: source-own utility panel service-surface metric domain`**
+The new sibling observation:
 
-Exact donor head:
+- derives a local world-plane basis from exact transformed triangle positions;
+- scales U by image width and V by image height independently;
+- computes principal texel/m scales from the local Jacobian singular values;
+- reports a ratio rather than classifying that ratio as acceptable/unacceptable;
+- uses bounded streaming distribution accumulators rather than retaining unbounded per-triangle directional arrays;
+- retains explicit `MEASURED` versus `HOLD` directional state separately from the pre-existing scalar result.
 
-`97120eb78a72b0a07aff1c65b9b92229d0a42aff`
+Representative regressions:
 
-Pinned source identities:
+1. `1 m x 1 m`, full `4 x 4` image → principal `4 / 4 px/m`, ratio `1`;
+2. Building-style `1.10 x 1.50 m`, UV extent `352/512 x 480/512` in `512²` → approximately `320 / 320 px/m`, ratio `1` after actual GLB FLOAT32 encoding;
+3. same `1.10 x 1.50 m` physical surface mapped blindly to full `512²` → approximately `341.3333 / 465.4545 px/m`, ratio `1.363636`, while the existing scalar remains the area/geometric-mean view;
+4. `1 m x 1 m` with rectangular `8 x 4` image → principal `4 / 8 px/m`, ratio `2`, old scalar `sqrt(32)`;
+5. triangle-order and rigid-position transforms do not change the directional result.
 
-- source-domain contract blob: `14037a0fb939104ea319c9ac96fbe9fdaa949a18`;
-- source-domain verifier blob: `433e7ac713cc07b30a1f2b6e8f59aa78aa9068a9`;
-- source panel blob: `4da242e35a84b20a80f4acf28146be613624e734`;
-- source surface ID: `utility_panel_outer_service_surface`;
-- local origin: `[0.04, 0.0, 0.0] m`;
-- primary axis: local `+Y`;
-- secondary axis: local `+Z`;
-- outward axis: local `+X`;
-- primary extent: `1.10 m`;
-- secondary extent: `1.50 m`;
-- exact source area: `1.65 m²`;
-- source face structure: `4 vertices / 2 triangles`.
+Existing fail-closed cases remain in the focused suite, including collapsed UVs, unsupported texture transforms, alternate UV sets, external images, missing UV/material evidence, deformation outside the static scope and invalid image headers.
 
-Hard Surface retains ownership of manufactured surface identity, source frame, physical metric extent and outward orientation. Geometry consumes those facts; it does not silently reinterpret or replace them.
+## Failed predecessor retained — precision assumption, not hidden
 
-## Exact Geometry chart
+The first published implementation head was:
 
-New local contract:
-
-`axm.building-utility-panel-service-surface-chart/v0.1`
-
-Chart ID:
-
-`utility-panel-outer-service-surface-chart-001`
-
-Exact source-corner mapping:
-
-- corner 0: metric `[-0.55, -0.75] m` -> chart `[0.0, 0.0]`;
-- corner 1: metric `[+0.55, -0.75] m` -> chart `[1.0, 0.0]`;
-- corner 2: metric `[+0.55, +0.75] m` -> chart `[1.0, 1.0]`;
-- corner 3: metric `[-0.55, +0.75] m` -> chart `[0.0, 1.0]`.
-
-Connectivity:
-
-- vertices: **4**;
-- triangles: **2** — `[[0,1,2],[0,2,3]]`;
-- boundary edges: **4**;
-- internal edges: **1** — exact diagonal `[0,2]`;
-- unreferenced chart vertices: **0**;
-- source geometry changed: **false**.
-
-Exact measured structural receipt:
-
-- metric chart area: **`1.6500000000000001 m²`**;
-- normalized chart area: **`1.0`**;
-- maximum source reconstruction residual: **`0.0 m`**;
-- maximum metric projection residual: **`0.0 m`**;
-- maximum normalized mapping residual: **`0.0`**;
-- minimum outward-winding dot: **`1.6500000000000001`**.
-
-Scoped result:
-
-**`PASS_BUILDING_UTILITY_PANEL_UV_READY_SOURCE_FRAME_CHART`**
-
-Decision:
-
-**`PASS_DERIVED_GEOMETRY_CHART_ONLY__NO_TEXEL_DENSITY_ATLAS_MATERIAL_RECEIVER_OR_VISUAL_ADOPTION`**
-
-`production_uv_adopted = false` and `downstream_adoption_authorized = false` are explicit receipt fields, not implied caveats.
-
-## Fail-closed controls
-
-Seven independent controls reject as intended:
-
-1. exact source-surface donor-head drift;
-2. normalized chart-corner swap;
-3. source metric-coordinate drift;
-4. duplicate source-corner identity;
-5. triangle-winding reversal;
-6. internal-diagonal identity drift;
-7. weakening of downstream authority boundaries.
-
-No negative control unexpectedly passed.
-
-## Exact CI / retained evidence
+`59dcbe2b674a7012aee84c3850018711486c8df9`
 
 Dedicated workflow:
 
-**`35245206078 — Geometry Building utility-panel UV-ready chart evidence` — SUCCESS**
+`35251191808`
 
-Exact tested head:
+Python 3.13 ran the focused suite and produced **11/13 passing tests**. The two failures were expectation-precision defects in the new Building-style regressions:
 
-`79e09f68a05770eb6dabbbbbb3b008fc8e050aa0`
+- ideal-double expected `320.0`; actual GLB FLOAT32-derived scalar `319.99999653209323`, delta about `3.47e-6`;
+- ideal-double expected `398.5914594106997`; actual GLB FLOAT32-derived scalar `398.59145509108134`, delta about `4.32e-6`.
 
-Validation:
+The source observer implementation was **not** changed in response. Only the tests were repaired to respect the actual FLOAT32 source encoding rather than comparing encoded GLB values to ideal real-number arithmetic at an unjustified precision.
 
-- Python 3.11 compile: PASS;
-- Python 3.11 complete Building unit suite: **41/41 PASS**;
-- Python 3.13 compile: PASS;
-- Python 3.13 complete Building suite: PASS;
-- exact Hard-Surface donor ancestry/source-blob binding: PASS;
-- exact metric projection/reconstruction gate: PASS;
-- exact 4v/2t quad-disk topology gate: PASS;
-- exact area/winding gate: PASS;
-- seven negative controls: PASS as fail-closed rejections;
-- retained artifact upload: PASS.
+Repair commit/current head:
 
-Inherited exact-head workflows also completed successfully:
+`8b1af776585afb87facf90f4bcc055d51acc60e7`
 
-- `35245206176 — Hard Surface Building utility-panel service-surface domain evidence`;
-- `35245206002 — Hard-surface building evidence`;
-- `35245206351 — Hard-surface Building current-source policy evidence`.
+The regression now documents this precision boundary explicitly and keeps exact/stricter assertions where the encoded inputs are exactly representable.
 
-Retained Geometry artifact:
+This failed predecessor remains part of the evidence lineage; it is not relabelled PASS.
 
-- ID: **`10507446069`**;
-- name: `building-utility-panel-service-surface-chart-79e09f68a05770eb6dabbbbbb3b008fc8e050aa0`;
-- uploaded size: **`3,614 B`**;
-- GitHub SHA-256: **`2baa230b351c87eefed691435efe53c9744d479fd8852b6164911f2219a48620`**;
-- independently downloaded archive SHA-256: **same exact digest**;
-- retained files: exact receipt, chart contract, source-surface domain and exact-head marker.
+## Exact-head CI state
+
+Current exact-head workflows were triggered for `8b1af776585afb87facf90f4bcc055d51acc60e7`.
+
+Dedicated Geometry workflow:
+
+`35251549794 — Geometry directional texel-density observer`
+
+- Python 3.11 job: **QUEUED** at this status update;
+- Python 3.13 job: **QUEUED** at this status update.
+
+Normal UC test workflow:
+
+`35251549719 — Tests`
+
+- test job: **QUEUED** at this status update.
+
+Other ordinary UC workflows are likewise queued or non-applicable; the Workshop render-evidence workflow is skipped for this non-rendering observer change and is not relabelled a PASS.
+
+Therefore the scoped state remains **HOLD pending exact-head CI**, despite the implementation and repaired regression being published. A later activation may promote only after exact-head workflows actually complete successfully.
 
 ## Handoffs recorded
 
-- **Building Geometry PR #16:** comment `5717610819` — exact structural result, CI, artifact identity and non-claims.
-- **Building Hard Surface PR #15:** comment `5717612481` — source-owner receiving return; no source rewrite requested.
-- **Building Procedural PR #4:** comment `5717614159` — duplicate-lane boundary; existing front/east spatial receiver parameterization remains Procedural-owned.
-- **Building Materials PR #3:** comment `5717616300` — chart is available only as optional future structural input; no production-UV/material adoption or retune requested.
+- **UC issue #192:** comment `5718435285` — implementation return, exact head, source/policy boundary, failed-predecessor precision note and current CI HOLD.
+- **UC PR #193:** comment `5718436714` — exact failed-predecessor lineage and test-only FLOAT32 precision repair; no PASS claimed while current CI is queued.
+- **Building Materials PR #3:** comment `5718437786` — Building remains owner of metric domain, target density, atlas/layout and visual acceptance; no draft rebind/adoption requested.
+- **Object Technical Art PR #28:** comment `5718438932` — Object remains owner of `500 px/m`, atlas/transport/adoption; rectangular image case is supporting evidence only.
 
-No merge, source adoption, receiver adoption or downstream acceptance was performed.
+No product consumer receives this observer by analogy. If PR #193 eventually merges, any Building/Object use requires an explicit merged-observer bind/rerun.
 
 ## Continuity / rollback
 
-The immediate prior Geometry state is preserved at blob:
+Immediate previous Geometry status blob:
 
-`b3e8b63c96bd7b590ab639403ebb2164583b71bb`
+`8ab0ac24a5e37de33783e3e5d25f98cb8f95a477`
 
-That blob preserves the exact Character successor-rebind evidence and its own rollback chain. Building work is additive and product-local; it does not erase Character, Animal or prior Building Geometry history.
+UC rollback/control identities:
 
-Building PR #16 is itself stacked on exact Hard-Surface PR #15 rather than rebasing source ownership into Geometry. The Hard-Surface source contract remains byte-identical on the Geometry branch and is checked by CI.
+- exact base: `50e85c8f6a39822eef01e4fb546dcb875917bb3b`;
+- failed predecessor head: `59dcbe2b674a7012aee84c3850018711486c8df9`;
+- current repaired head: `8b1af776585afb87facf90f4bcc055d51acc60e7`.
 
-The existing Building Procedural service-surface receiver family is not copied into Geometry. If a later consumer combines this chart with Procedural receiver transforms, that combination requires an explicit bind/rerun rather than PASS transfer by analogy.
+The failed predecessor is preserved in Git/Actions history. The precision repair is additive and test-only relative to that implementation head. Product evidence remains in its source repositories; no Building/Object authority is copied into `axm-create-me` or made UC policy.
 
 ## Authority boundary / explicit non-claims
 
-Geometry owns only:
-
-- derived source-corner chart identity;
-- exact metric-to-normalized chart bijection;
-- chart triangle connectivity and winding;
-- UV-ready structural coordinates.
+Geometry / UC owns only this bounded read-only numerical observation mechanism.
 
 This activation does **not** establish:
 
-- a selected production UV set;
-- texel density;
-- atlas packing or padding;
-- texture resolution;
-- material response or texture payload;
-- normal/tangent generation or transport;
-- target-host import/receiver correctness;
-- Procedural receiver adoption;
-- Map/Environment adoption;
-- Runtime/device/performance acceptance;
-- final Art Direction or Visual QA acceptance;
+- that anisotropy is inherently bad;
+- any universal acceptable anisotropy ratio;
+- a studio-wide texel-density target;
+- production UV selection;
+- seam quality;
+- UV rescaling or automatic repair;
+- automatic unwrap;
+- atlas packing/padding policy;
+- texture resolution policy;
+- material/shader correctness;
+- texture pixel quality beyond bounded image-dimension evidence;
+- mip/filter/compression quality;
+- deformation-time density;
+- rendered visual acceptance;
+- target-host equivalence;
+- target-device performance or memory acceptance;
 - collision/navigation/physics/gameplay suitability;
-- manufacturing/sealing/engineering validity;
-- arbitrary-mesh unwrap quality;
-- UC or Profession Fabric promotion;
-- source adoption or CANON;
+- Building or Object adoption;
+- UC merge/CANON;
+- Profession Fabric promotion;
 - production readiness;
 - game readiness;
 - Geometry mastery.
 
 ## Four-root gate
 
-- **Truth:** exact Hard-Surface donor head/blobs, chart identity, 4v/2t topology, areas, residuals, negative controls, CI and artifact digest are pinned. `UV-ready` is kept separate from `production UV adopted`.
-- **Agency / non-domination:** Hard Surface keeps source identity/frame authority; Procedural keeps receiver parameterization; Materials keeps surfacing/texture decisions; Technical Art keeps transport; Runtime keeps representation/device cost; Art/QA keep visual acceptance.
-- **Continuity:** the prior Geometry blob `b3e8b63c...` is retained; PR #16 stacks directly on exact Hard-Surface #15; source files are asserted unchanged; existing Procedural work is referenced rather than silently copied.
-- **Wisdom before speed:** no generic unwrap machine, atlas policy, material retune, receiver rewrite or UC extraction was added. One exact source-local chart answered the fresh Geometry question with the smallest bounded mechanism.
+- **Truth:** two independent product cases justify only the neutral observation layer. Existing scalar semantics are preserved, singular cases HOLD, the failed FLOAT32 precision assumption is retained, and current exact-head CI is reported QUEUED rather than faked green.
+- **Agency / non-domination:** Building/Object keep source metric meaning and target density; Materials/Technical Art keep sampling/transport policy; Runtime keeps storage/device cost; Art/QA keep appearance acceptance. UC chooses none of those policies.
+- **Continuity:** exact product identities stay in their own repos; prior Geometry status blob `8ab0ac24...`, UC base `50e85c8...`, failed predecessor `59dcbe2...` and repaired head `8b1af776...` are all rollback-addressable.
+- **Wisdom before speed:** no automatic unwrap/rescale/atlas/adoption machinery was added. The smallest shared read-only observer was implemented, and exact-head PASS is withheld until CI actually completes.
 
 The four AXM roots remain the merge gate.
 
 ## Next Geometry trigger
 
-Re-scan the full constellation before any next change.
+Re-scan before any further change.
 
-Do **not** continue this Building chart by cadence alone. Further Geometry work here requires new evidence, for example:
+Priority trigger is **not** another product mesh mutation. First check exact-head PR #193 CI. If green, record the exact PASS without broadening scope. If PR #193 later merges, one explicit product receiver rebind may be useful; do not silently transfer draft evidence.
 
-1. a downstream consumer explicitly binds this chart and exposes a structural seam/orientation/receiver mismatch that is genuinely Geometry-owned;
-2. a materially different source family reproduces the same source-frame-to-chart mechanism and reveals a reusable neutral rule worth comparing;
-3. a real production unwrap need exposes topology constraints beyond this rectangular source domain without stealing Materials/Technical-Art authority;
-4. another product exposes a higher-leverage unowned topology defect.
-
-One clean rectangular chart is **not** evidence for universal automatic unwrap, atlas policy, visual quality or mastery.
+If the shared observer remains blocked or another specialist exposes a higher-leverage structural defect, follow that evidence instead. Do not add an anisotropy threshold, automatic UV repair or production atlas policy merely because the measurement now exists.
