@@ -1,235 +1,232 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BUILDING_PLANAR_ROLE_CURRENT_WORLD_REVIEW_READY / HOLD_DEFAULT_ADOPTION_PENDING_ART_QA_RUNTIME / COMPACT_V2_HOLD_PRESERVED / NATURE_OBJECT_WEATHER CONTINUITY PRESERVED**
+State: **PASS_CURRENT_WORLD_INDEXED_PLANAR_ROLE_RECEIVER_REVIEW_READY / HOLD_DEFAULT_ADOPTION_PENDING_INDEPENDENT_QA_TECHNICAL_ART_AND_RESIDUAL_PRIMITIVE_ACCEPTANCE / ACTIVE_SEGMENTED_ROLLBACK_PRESERVED / NATURE_OBJECT_WEATHER_CONTINUITY_RE-GATED**
 
 ## Authority / continuity
 
 `axm-create-me` remains **coordination only**. Product implementation and target-host evidence remain in the existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment lane was opened.
 
-Map / Environment owns receiving composition only. Building Hard Surface owns the render-representation identity/provenance contract, Building Materials owns the exact five-role partition and scalar values, Runtime owns performance/cost acceptance, Art Direction owns visual preference, Visual Observer / QA owns independent perceptual verification, and Technical Art owns transport/import acceptance.
+Map / Environment owns receiving composition, review-target selection and rollback only. Building Hard Surface owns the representation identity and manufactured-surface intent. Building Materials owns the five-role material profile. Runtime owns storage / primitive / target-device cost acceptance. Art Direction owns visual preference. Visual Observer / QA owns independent perceptual acceptance. Technical Art owns transport/import equivalence.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The preceding compact-v2 HOLD remains recoverable in git at content blob `fde442c8f61b4457265a9a9654069dc47bdbc9e3`. Nothing in this activation rewrites that result.
+The preceding unindexed planar-role Environment status remains historical truth in git at status blob `22db2366a9dc6512ef80c1068d9073f7b00cf68c`. This activation advances only the current review target; it does not rewrite the compact-v2 HOLD, unindexed planar-role evidence or active segmented rollback baseline.
 
 ## Fresh constellation / duplication scan
 
-The current accepted Environment parent remains Map head `7713cbe5863c3bc38dabb6236eb4b393401224b6`, containing the sampled Nature leaf-flutter receiver, indexed five-surface Object, visible footprint cue, source-width Weather sequence, Building five-surface receiver, route, cameras and lighting.
+The current Environment lane is still Map PR **#24**, branch `studio/environment-weather-variant-object-convergence-001`.
 
-The important new source-owned option is Building Hard Surface PR #11 at exact head:
+Relevant exact owners / states inspected:
 
-`93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`
+- active segmented current-world rollback/default evidence head: `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
+- unindexed planar-role Environment parent: `b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`;
+- Runtime planar-role post-normal indexing PR #39 donor: `8d5860c308c244d314ede5b79021e46f35c4040d`;
+- Building Hard-Surface PR #11 planar-role owner: `93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`;
+- Building Materials PR #3 owner: `4179aa1401f5a9114399e2f998c96809d4b8ed2e`;
+- representation ID: `boundary-only-planar-role-rectangle-render-001`;
+- semantic Building source remains `header-segmented-23`.
 
-It exposes representation:
+Art Direction has independently preferred the planar-role manufactured read over both active segmented and compact-v2 in the retained fixed views, and separately found Runtime's sparse post-normal indexing raster delta non-degrading for Art. That preference does **not** substitute for independent Visual QA. The current Visual QA status explicitly names Building planar-role as a high-priority next QA surface and has not accepted it yet.
 
-`boundary-only-planar-role-rectangle-render-001`
+Technical Art has separately established only a neutral read-only indexed-surface eligibility observer in UC. It does not auto-reindex this Building, does not authorize Environment adoption, and does not prove transport/import equivalence for this receiver.
 
-with:
+This made the bounded highest-leverage Environment move clear: bind Runtime PR #39's exact indexed successor into the already-reviewed planar-role current world, re-render the real multi-asset scene, explicitly preserve the residual primitive cost and Weather-width contract, and keep the active segmented receiver as rollback/default.
 
-- `672 vertices`;
-- `336 triangles`;
-- `168 planar rectangles`;
-- `19 source-component owners`;
-- `5 material roles`;
-- complete atomic boundary coverage;
-- zero atomic overlap;
-- cardinal hard normals only.
+## Selected bounded improvement
 
-Its status is explicitly `SOURCE_OWNED_DERIVED_RENDER_RECEIVING_OPTION_NOT_DEFAULT`. Semantic source remains `header-segmented-23`, and its evidence-transfer rule requires exact downstream Environment / Runtime / Art / QA rebind rather than inheriting compact-v2 or segmented-receiver acceptance.
+Use the exact Runtime-proven **post-normal per-surface indexed** form of the already-reviewed planar-role Building receiver as the current Environment **review target only**.
 
-Building Materials remains pinned at exact head `4179aa1401f5a9114399e2f998c96809d4b8ed2e`, profile blob `f7945f4c17b7720f176c1b0ac4e1baa298691b25`. No scalar value was copied into a new authority or retuned.
+No source geometry, triangle membership, generated normals, material roles/scalars, Building placement, Nature, indexed Object, visible footprint cue, Weather, route, cameras or lighting are reauthored by Environment.
 
-Art Direction still prefers compact-v2's cleaner manufactured hard-surface/highlight language over the active segmented receiver, but exact compact-v2 adoption remains held by its actual-consumer cost and independent QA. Runtime separately recovered most compact-v2 buffer waste through post-normal indexing, but the indexed form still retains the full `+5,328` primitive burden and `+19,672 B` buffer residual versus the active segmented Map receiver. Those lanes were not duplicated.
+The Runtime donor was merged into PR #24 as real git ancestry rather than copied into a parallel lane. This preserves provenance and repo identity.
 
-This made the source-owned planar-role representation the highest-leverage bounded Environment question: can it retain the intended planar manufactured receiving language in the real multi-asset world at a cost much closer to the actual Map baseline, without pretending that structural survival equals visual approval?
-
-## Selected bounded Environment improvement
-
-Receive the exact Hard-Surface planar-role Building candidate into the exact accepted current world, preserve every unrelated asset/state, and compare it directly against **both**:
-
-1. the actual active segmented `184v / 276t / 5-surface` Map receiver; and
-2. the held unindexed compact-v2 `1004v / 2052t / 5-surface` receiver.
-
-No visual-continuity threshold was invented or relaxed. This lane produces exact review evidence; it does not auto-adopt a representation.
-
-## Implementation / exact identity
+## Exact Environment implementation identity
 
 Repository: `mike-axiom-mir/axm-map-design`
 
 Existing Environment PR: **#24**
 
+PR state after final run: **OPEN / DRAFT / UNMERGED / MERGEABLE**
+
 Branch: `studio/environment-weather-variant-object-convergence-001`
 
 Exact final tested Environment head:
 
-`b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`
+`038925282240441c475651bdc3737d1749c31d06`
 
-Added on the existing lane:
+Real ancestry merge introducing the exact Runtime donor:
 
-- `tools/environment_building_planar_role_current_world.py`;
-- `environment-proof/atmosphere_current_world_building_planar_role_observe.gd`;
-- `docs/ENVIRONMENT_BUILDING_PLANAR_ROLE_CURRENT_WORLD_001.md`;
-- `.github/workflows/environment-building-planar-role-current-world.yml`.
+`cabb87e4153345169eba7ae4a5773e750cabb865`
 
-The Environment receiver applies only the already-authored Map placement translation, preserves exact assembled Building bounds, reuses the current five material scalars, and swaps only the Building render receiver across all 17 states. `environment_adoption=false` remains explicit.
+with parents:
 
-## Workflow history / failed drafts retained
+- prior Environment head `b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`;
+- Runtime donor head `8d5860c308c244d314ede5b79021e46f35c4040d`.
 
-Two setup failures remain in provenance instead of being erased.
+Added / maintained in Map only:
 
-1. **`35182513462`** at head `98e72cbbbbda76541c7ddb828b499ddd211b8fbc` failed because the first workflow incorrectly expected the Building Materials profile file to physically exist inside the Hard-Surface checkout. The Hard-Surface policy actually pins that foreign Materials blob by identity. The repair validates the rebuilt policy instead of inventing a local copy.
-2. **`35182683838`** at head `6fc0241f31b4d172f74c1b9163688e81b52325d6` rebuilt the donor correctly but then expected `exact-head.txt` inside the retained compact-v2 failed artifact. That artifact had correctly stopped before copying the convenience file. The repair validates the retained compact-v2 `combined_current_world.json` exact head and structure result instead.
+- `tools/environment_building_planar_role_indexed_current_world.py`;
+- `docs/ENVIRONMENT_BUILDING_PLANAR_ROLE_INDEXED_CURRENT_WORLD_001.md`;
+- `.github/workflows/environment-building-planar-role-indexed-current-world.yml`;
+- inherited Runtime observer `environment-proof/atmosphere_current_world_building_planar_role_surface_index_observe.gd` through donor ancestry.
 
-Neither repair changes scene content, donor identities, material values, cameras, comparison sets, Runtime counters or acceptance boundaries.
+`environment_adoption=false` remains explicit.
+
+## Target-host workflow history
+
+The first exact indexed Environment run at head `67f3e19ef7098bb19b46d16cc714f3542dffefa6` succeeded as workflow `35186357582`. Its Environment gate correctly preserved the Runtime storage/raster facts and fail-closed primitive residual.
+
+After inspecting the retained target-host runtime receipt, Environment strengthened the receiving gate rather than merely reporting the inherited Weather continuity: the final gate now explicitly counts and bounds every projected-width measurement in the indexed receiver and pins the Weather width-profile digest.
 
 Final dedicated workflow:
 
-**`35182784756 — Environment Building planar-role current-world evidence` — SUCCESS**
+**`35186852896 — Environment indexed planar-role Building current-world evidence` — SUCCESS**
 
 Scoped result:
 
-**`PASS_CURRENT_WORLD_BUILDING_PLANAR_ROLE_RENDER_RECEIVER_REVIEW_READY`**
+**`PASS_CURRENT_WORLD_INDEXED_PLANAR_ROLE_RECEIVER_REVIEW_READY`**
 
-Exact composition digest:
+Adoption state:
 
-`e1456d7cdb408e6de0346c4bbc214a5ea470297d588920bb0c0676ea385e0c7f`
+**`environment_adoption = false`**
 
-## Real current-world visual evidence
+Hold:
 
-All **68** planar-role frames were compared against the exact accepted active receiver, and all **68** were separately compared against the retained compact-v2 receiver.
+**`HOLD_DEFAULT_ADOPTION_PENDING_INDEPENDENT_QA_TECHNICAL_ART_AND_RESIDUAL_PRIMITIVE_ACCEPTANCE`**
 
-### Planar-role versus active segmented receiver
+A deliberate negative control rewrote the measured active-relative primitive residual from `+180` to `0`. The Environment gate rejected that mutation fail-closed. The buffer win therefore cannot silently erase the remaining primitive cost.
 
-`path_eye`:
+## Exact Building representation result
 
-- changed pixels: exactly `25,951` per frame;
-- >1-LSB significant pixels: exactly `24,892`;
-- maximum >1-LSB fraction: **`3.142929292929293%`**;
-- fixed bbox: `[346,256,754,438]`;
-- maximum channel delta: `179 LSB`.
+Unindexed planar-role receiver:
 
-`elevated_oblique`:
+- `1008` stored vertices;
+- `0` indices;
+- `336` triangles;
+- `5` material surfaces.
 
-- changed pixels: `14,585..14,587`, mean `14,586.0588235`;
-- >1-LSB significant pixels: `13,864..13,869`;
-- maximum >1-LSB fraction: **`1.7511363636363637%`**;
-- fixed bbox: `[594,183,886,366]`;
-- maximum channel delta: `166 LSB`.
+Indexed post-normal successor:
 
-This is a real Building-local appearance change, not visual continuity with the active receiver.
+- `312` stored vertices;
+- `1008` indices;
+- `336` triangles;
+- `5` material surfaces.
 
-### Planar-role versus compact-v2
+Modeled payload reduction remains Runtime's exact donor result:
 
-`path_eye`:
+- `24,192 B -> 11,520 B`;
+- `12,672 B` modeled saving;
+- triangle count and five-role surface partition unchanged.
 
-- changed pixels: `18,717..18,718`, mean `18,717.1470588`;
-- >1-LSB significant pixels: `17,108..17,110`;
-- maximum >1-LSB fraction: **`2.1603535353535354%`**;
-- fixed bbox: `[346,256,754,438]`;
-- maximum channel delta: `175 LSB`.
+## Real current-world proof-host cost
 
-`elevated_oblique`:
+Across all **68** exact current-world state/camera/presentation observations:
 
-- changed pixels: `13,508..13,514`, mean `13,512.0588235`;
-- >1-LSB significant pixels: `12,597..12,600`;
-- maximum >1-LSB fraction: **`1.5909090909090906%`**;
-- fixed bbox: `[594,171,889,363]`;
-- maximum channel delta: `172 LSB`.
+### Indexed versus unindexed planar-role
 
-The planar-role receiver is therefore not a pixel-equivalent proxy for compact-v2 either. Art Direction / independent Visual QA must inspect this exact candidate rather than inheriting compact-v2 preference.
+- draw calls: `+0`;
+- objects: `+0`;
+- primitives: `+0`;
+- observed buffer memory: **`-11,904 B`**;
+- observed texture memory: `+0`.
 
-## Multi-asset continuity / Weather evidence
+### Indexed planar-role versus active segmented rollback/default
 
-All **1,224** inherited Weather projected-width observations remain valid.
+- draw calls: `+0`;
+- objects: `+0`;
+- primitives: **`+180`**;
+- observed buffer memory: **`-8,304 B`**;
+- observed texture memory: `+0`.
 
-Maximum projected-width residual:
+This is the strongest current Environment trade space: the indexed planar-role receiver removes the previous unindexed buffer penalty and is now lower in observed proof-host buffer memory than the active segmented receiver, but it still carries a real `+180` primitive residual. Runtime retains acceptance authority for that residual and for target-device behavior.
 
-`0.00974698571769128 px`
+## Indexed/unindexed raster boundary
 
-under the existing `0.05 px` gate.
+All **68 / 68** indexed-vs-unindexed planar-role frames are non-byte-identical, but the measured storage rewrite remains inside the exact bounded Runtime raster envelope:
 
-Unrelated static-source runtime rows remain exact, the dynamic sapling runtime rows remain exact, and the exact Nature/Object/footprint/Weather/route/camera/light receiving state is preserved. The visual delta remains Building-local.
+- maximum changed pixels in any frame: **`55`**;
+- maximum channel delta: **`1 LSB`**;
+- pixels exceeding `1 LSB`: **`0`**.
 
-## Actual current-world proof-host cost
+Environment does not call this byte-identical or universally invisible. Art Direction has found it non-degrading in the retained views; independent Visual QA still owns the separate perceptual gate.
 
-Counter order below is:
+## Multi-asset Weather continuity — now explicit in the final gate
 
-`draw calls / objects / primitives / observed buffer memory / observed texture memory`.
+The indexed receiver re-ran the exact current world with Building, Nature, indexed Object, visible footprint cue, source-width Weather, route, cameras and lighting retained.
 
-Planar-role versus the **actual active segmented receiver**, identically in both fixed cameras and Weather presentation modes:
+The final Environment gate explicitly verifies all **1,224** inherited Weather projected-width observations:
 
-`0 / 0 / +180 / +3,600 B / 0`
+- exact width-profile digest: `8d61b2dc11f2508d186a1e469185badda7217803f7c4634fb2d951d8579c0dd5`;
+- maximum projected-width residual: **`0.00974698571769128 px`**;
+- acceptance bound: **`0.05 px`**.
 
-Planar-role versus **unindexed compact-v2**:
+This is receiving-continuity evidence only. It is not a new Weather aesthetic, timing, physical-wind or target-device claim.
 
-`0 / 0 / -5,148 / -102,960 B / 0`
+## Current Environment decision
 
-This is the key integration finding. Relative to the exact current Map receiver, the planar-role candidate is not free, but its proof-host residual is dramatically smaller than compact-v2's previously measured `+5,328 primitives / +106,560 B`. Relative to compact-v2 it removes nearly all of that extra current-world representation burden while retaining a source-owned planar hard-surface receiving strategy.
-
-These are proof-host characterizations, not target-device performance acceptance. Runtime retains final cost authority.
-
-## Environment decision
-
-**`PASS_CURRENT_WORLD_BUILDING_PLANAR_ROLE_RENDER_RECEIVER_REVIEW_READY`**
+**`PASS_CURRENT_WORLD_INDEXED_PLANAR_ROLE_RECEIVER_REVIEW_READY`**
 
 with:
 
-**`HOLD_DEFAULT_ADOPTION_PENDING_ART_DIRECTION_VISUAL_QA_RUNTIME_AND_TECHNICAL_ART`**
+**`HOLD_DEFAULT_ADOPTION_PENDING_INDEPENDENT_QA_TECHNICAL_ART_AND_RESIDUAL_PRIMITIVE_ACCEPTANCE`**
 
 Exact meaning:
 
-> The source-owned planar-role Building representation now survives the full sampled multi-asset current world with exact provenance/material ownership, preserved Nature/Object/Weather state and a much smaller actual-consumer proof-host cost delta than compact-v2. It is sufficiently grounded for Art Direction / independent Visual QA / Runtime review. It is not visually neutral to either comparator and is not silently promoted to the default receiver.
+> Runtime's exact post-normal indexed form of the Art-preferred, source-owned planar-role Building now survives the real sampled current world as an Environment review target with the five material roles and 336 triangles intact, a lower observed buffer footprint than both its unindexed parent and the active segmented receiver, bounded <=1-LSB indexing raster differences, and the inherited Weather width contract explicitly re-gated. Environment does not silently promote it to default because independent Visual QA, Technical-Art transport/import and the residual +180 primitive / target-device Runtime gate remain open.
 
-The active segmented receiver remains the rollback baseline. Compact-v2 remains a truthful separate held candidate. Semantic source remains `header-segmented-23`.
+The active segmented receiver at `7713cbe5863c3bc38dabb6236eb4b393401224b6` remains the rollback/default baseline.
 
 ## Retained evidence
 
 Final artifact:
 
-- artifact ID: **`10481340680`**;
-- name: `environment-building-planar-role-current-world-001-b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`;
-- size: **`6,764,883 bytes`**;
-- GitHub artifact SHA-256: **`96d6bd6a0ed6e6edb0fc129484dd02769f7fd13952ad1a7eabeda8ffe681ee74`**;
-- retained files: 76.
+- artifact ID: **`10482542600`**;
+- name: `environment-building-planar-role-indexed-current-world-001-038925282240441c475651bdc3737d1749c31d06`;
+- size: **`5,297,749 bytes`**;
+- GitHub artifact SHA-256: **`6661e96c1c766ed799ad80b177a4faaeb57c0fefd8e892ac7cdc03beb731c0bb`**;
+- independently downloaded / rehashed SHA-256: **same value**;
+- retained current-world PNGs: `68`.
 
-The archive retains the exact current-world payload, source-owned planar-role donor/policy/evidence, Godot runtime receipt/log, report and all 68 candidate frames. The exact active and compact comparator artifacts were consumed during verification but removed before upload to avoid duplicating their already-retained archives.
+The artifact retains exact head identity, Runtime comparison report, Environment gate report, indexed Godot runtime receipt/log and the 68 rendered frames.
 
 ## Handoffs recorded
 
-- **Map Environment PR #24:** comment `5708703175` records exact result, visual deltas, proof-host cost and review/adoption boundary.
-- **Building Hard Surface PR #11:** comment `5708707339` confirms exact downstream structural survival and preserves source ownership/non-default status.
-- **Building Materials PR #3:** comment `5708709345` confirms the exact five-role/scalar family survived unchanged; no retune requested.
-- **Map Runtime PR #37:** comment `5708711716` supplies the exact actual-consumer planar-role cost beside Runtime's indexed compact-v2 result; no Runtime acceptance is claimed.
-- **Art Direction / Visual QA:** the exact 68-frame planar-role evidence is now ready for independent visual preference/perceptual review. No preference is inferred from pixel magnitude alone.
-- **Technical Art:** no transport/import equivalence is inferred from the procedural Godot receiver.
+- **Map Environment PR #24:** comment `5709488964` records exact final head/run, indexed representation metrics, Weather re-gate, adoption hold and rollback baseline.
+- **Map Runtime PR #39:** comment `5709491065` returns the exact downstream current-world reproduction while preserving Runtime's `+180` primitive and target-device authority.
+- **Building Hard Surface PR #11:** comment `5709493796` records exact downstream source-owned representation survival without changing its non-default/source-authority boundary.
+- **Visual Observer / QA:** independently inspect the exact indexed planar-role current-world frames against active / unindexed evidence for hard-edge, highlight, aliasing, holes or camera-specific regressions. Art preference is not QA substitution.
+- **Technical Art:** prove exact transport/import identity if this representation leaves the procedural Godot receiving path. The neutral UC eligibility observer is not that proof.
 
 ## Reusable composition learning
 
-This strengthens the previous actual-consumer rule:
+The reusable Environment pattern is now stronger:
 
-> **When Art wants a cleaner representation but the first preferred topology is too expensive, do not force adoption or retune unrelated materials. Let the source owner expose an explicit alternative representation, then bind it into the exact current world and compare visual response and real consumer cost against both the rollback baseline and the desired-look candidate. A cheaper downstream representation is only review-ready until Art, QA, Runtime and transport gates independently agree.**
+> **A representation optimization should not be accepted merely because its source owner, Runtime lane or Art lane likes one aspect of it. Bind the exact optimized representation into the actual multi-asset consumer world, keep the real rollback baseline, re-run unrelated dynamic contracts such as Weather, preserve any residual cost as a fail-closed gate, and advance only to the next missing authority.**
 
-That pattern is reusable across manufactured environment assets. It is not yet evidence for automatic UC extraction or a universal representation optimizer.
+This is a composition/integration discipline, not automatic UC extraction or a universal optimizer policy.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- planar-role default or semantic-source adoption;
-- final Art Direction or independent Visual QA acceptance;
-- compact-v2 replacement or invalidation;
-- target-device CPU/GPU/FPS/VRAM/memory/batching acceptance;
+- default planar-role adoption or semantic-source replacement;
+- independent Visual QA acceptance;
 - Technical-Art transport/import equivalence;
-- UV, texture, tangent, normal-map or decal equivalence;
-- arbitrary-view or arbitrary-renderer equivalence;
+- target-device CPU/GPU/FPS/VRAM/heap/batching acceptance;
+- acceptability of the residual `+180` primitive cost on target hardware;
+- arbitrary camera/FOV/resolution/renderer equivalence;
+- UV/tangent/texture/normal-map/decal equivalence;
 - Nature flutter final wall-clock timing/naturalness;
-- collision, navigation, physics, architecture/manufacturing or gameplay validity;
-- CANON, production readiness or Environment / World Art mastery.
+- Weather aesthetic preference or physical wind;
+- Object/Building collision, navigation, physics, architecture/manufacturing or gameplay validity;
+- CANON;
+- production/game readiness;
+- Environment / World Art mastery.
 
 ## Four-root merge gate
 
-- **Truth:** both the large visual delta and the much smaller real consumer cost are retained together; neither is rewritten into automatic acceptance.
-- **Agency / non-domination:** Hard Surface, Materials, Environment, Art, QA, Runtime and Technical Art retain separate authority.
-- **Continuity:** active segmented, compact-v2 and planar-role representations remain separately named and recoverable; no silent rewrite or automatic default occurs.
-- **Wisdom before speed:** the candidate advances to exact cross-owner review because it materially improves the trade space, not because one subsystem can force a merge.
+- **Truth:** the `-8,304 B` active-relative buffer win, real `+180` primitive residual and nonzero <=1-LSB raster differences remain visible together; Weather continuity is explicitly measured rather than assumed.
+- **Agency / non-domination:** Environment selects only the current review target. Hard Surface, Materials, Art, QA, Runtime and Technical Art retain their own gates.
+- **Continuity:** active segmented, unindexed planar-role and indexed planar-role states remain separately named, pinned and rollbackable; the Runtime donor is real ancestry rather than a silent copy.
+- **Wisdom before speed:** the cheaper indexed form advances because it improves the actual consumer trade space and survives the real world, but default adoption stays held until the remaining independent evidence exists.
