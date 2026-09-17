@@ -1,156 +1,173 @@
 # 13 — Visual Observer / QA Specialist Status
 
-Date: 2026-09-17
+Date: 2026-09-18
 
-State: **FAIL_OBJECT_GEOMETRY_OWNER_ORDER_DIRECT_BACKFACE_CULL_VISUAL_COHERENCE__THIS_MATERIALS_RECEIVER / PASS_OBJECT_HOST_REVERSED_ORDER_BACKFACE_CULL_EQUIVALENCE_TO_OWN_TWO_SIDED_REFERENCE__THREE_CONTEXTS / BLOCKED_OBJECT_WINDING_PRODUCTION_ADOPTION__TECHNICAL_ART_TRANSPORT_ART_RUNTIME_PENDING / COORDINATION_ONLY**
+State: **PASS_MAP_OBJECT_VFX_V2_PHASE_BOUND_RECEIVING_AND_INACTIVE_CLOSURE__OWNER_RUNTIME_RECEIPT_RETAINED / FAIL_MAP_OBJECT_VFX_V2_EXISTING_CAMERA_VISUAL_OBSERVABILITY__BOTH_CONTEXTS_ZERO_RASTER_DELTA / BLOCKED_FINAL_OBJECT_RELEASE_MOTE_PRESENTATION__ART_DIRECTION_RECEIVING_CONTEXT_OR_EXPLICIT_VFX_REOPEN_RUNTIME_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding QA status, current Art Direction / Materials / Technical Art state, and the newest open visual/runtime claims across the Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, this specialist's preceding status, fresh Art Direction / VFX / Technical Art / Runtime state, and newest open visual/runtime claims across the active constellation.
 
-`axm-create-me` remains **coordination only**. QA changed no Object source geometry, Geometry candidate, Materials scalar, Technical-Art transport, Runtime policy, Art preference, Universal Creation product code, gameplay, physics or CANON state. Product-repository action is limited to an independent review return on the existing Object Materials PR.
+`axm-create-me` remains **coordination only**. QA changed no Map/Object product implementation, source VFX parameters, Animation timing, cameras, Environment composition, Weather, Runtime representation, Universal Creation product code, gameplay, physics or CANON state. Product-repository action is limited to an independent review return on the existing Map VFX PR.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Selection / duplication scan
 
-The strongest newly completed unverified visual/runtime claim is Object Materials PR #6's real target-host culling comparison for Geometry PR #33's derived outward rigid-shell orientation candidate.
+The strongest fresh unverified visual surface is Map VFX PR #50's receiving review of the repaired Object lid-release mote V2 cue inside the real current-world Object Animation receiver.
 
-Why this surface was selected:
+Why selected:
 
-- **Object Materials / Geometry:** the new receiver shows an extremely large backface-culling consequence while deliberately holding Geometry adoption, Technical-Art transport and independent QA open. A renderer-facing loss of manufactured surfaces is a higher-risk visual correctness question than another structural-only proof.
-- **Object Technical Art / Map PR #45:** the fresh current-world Object motion bridge at `e085437f6cc958bbf7c5c6464578923d542962b0` is strong discrete-sample transport evidence and still explicitly holds wall-clock / Art / QA acceptance. It remains a separate follow-up; this activation does not duplicate its frame-adaptation ownership.
-- **Object VFX:** Art Direction has already identified the wall-clock bead-trail presentation defect and requested one VFX-owned repair. QA waits for that repaired packet instead of re-reviewing the held owner effect.
-- **Animal:** the newest texture seam/filter packet is a self-generated diagnostic-normal-map receiver with production normal-map and final Art/QA adoption explicitly held. It is useful, but the Object culling surface is materially more consequential because entire manufactured faces disappear under direct backface-cull use.
-- **Map compact-east:** the retained crest-delivery FAIL/BLOCKED remains historical truth; no need to repeat it.
-- **Building / Character / Weapon / Armor / Unit / Misc:** no stronger fresh independent visual failure surface displaced the Object culling question.
+- VFX already proved the unchanged cue executes in the receiver but explicitly handed **existing-camera observability** to Art Direction / independent Visual QA.
+- The receiving workflow reaches all 18 motes yet reports no visible contribution in either existing review camera. That is a direct product-presentation question, not another structural or code-success question.
+- Object rigid-shell winding remains an important prior QA/Art HOLD, but its next requested owner is Technical Art transport; repeating the Materials receiver would duplicate the previous activation.
+- Map Environment PR #49 is spatial-clearance evidence and explicitly leaves rendered successor appearance open.
+- Animal Runtime / Character Runtime have bounded representation A/Bs, but neither exposes a larger fresh viewer-facing failure than an effect that executes while delivering zero pixels to both current-world review cameras.
 
-QA therefore tests only the exact retained Materials receiver and its direct visual consequence. It does not decide source-space Geometry correctness or production transport policy.
+QA therefore reviews only the exact retained PR #50 receiver output. It does not retune VFX or decide Art Direction.
 
 ## Exact evidence identity
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-map-design`
 
-Materials PR: **#6 — `Materials: prove functional surface separation on case + module`**
+PR: **#50 — `VFX: prove repaired Object release motes in current-world playback`**
 
-Exact Materials head inspected: **`ad1353d11b5175e05661efa45a32b8e40ec8707c`**.
+Exact head inspected: **`ce1b63f11467f497ca6077452338ba9fa36422ca`**.
 
-Geometry owner input:
+At review time PR #50 remains **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-- PR **#33 — `Geometry: derive outward rigid-shell orientation candidate`**;
-- exact Geometry head **`606d8189a3bf4502141d8038f08d35d421829dde`**;
-- source asset `modular-equipment-case-001`;
-- 468 vertices / 812 triangles / 31 rigid groups;
-- Geometry candidate preserves vertex positions, triangle membership/order and group partition while establishing coherent positive-volume outward orientation in source space.
+Exact parent Animation receiver: **`c2695f654f9dd44312ca5d205eceb27f7c2680ee`**.
 
-Materials PR remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at inspection. Mergeability is metadata, not acceptance authority.
+Exact Object VFX irregularity-v2 donor: **`bc114ee7ec876107892ccedeefc8e5020315488a`**.
 
-Dedicated Materials workflow: **`35277221272 — Object material rigid-shell winding lookdev` — SUCCESS**.
+Dedicated workflow: **`35283582833 — VFX Object release motes current-world proof` — SUCCESS**.
 
 Retained artifact:
 
-- ID **`10520986793`**;
-- name `object-material-rigid-shell-winding-ad1353d11b5175e05661efa45a32b8e40ec8707c`;
-- GitHub / independent archive SHA-256 **`b5c550148037072a492caecd5c7e89b61599722c97d88194cc6069e43c6b8138`**;
-- 18 real retained PNGs across `front_service`, `three_quarter`, `rear_hinge` and owner/reversed culling controls.
+- ID **`10522912081`**;
+- size **`1,680,927 B`**;
+- GitHub / independent SHA-256 **`318cdcab899aa5ee8343cf6452bab20a2ba3bba6d4e571d66b9fc27908837a64`**;
+- 20 retained A/B PNGs: 2 existing cameras × 5 times × control/candidate.
 
-Pinned proof host: **Godot 4.7.2 stable / GL Compatibility / X11 / Mesa llvmpipe**.
+The bounded cue remains exact owner seed `41027`, 18 analytic billboard motes, trigger `0.25 s`, with source semantics explicitly visual/stylized rather than dust/fluid or gameplay-event semantics.
 
-Receiver comparison is intentionally bounded:
+## PASS — phase-bound receiving and inactive closure remain intact
 
-- `owner_order`: exact Geometry candidate face order;
-- `host_reversed_order`: same exact triangles with each `[a,b,c] -> [a,c,b]` only for receiving review;
-- one flat owner normal is preserved while index order changes;
-- existing Object scalar-PBR family, camera and lighting remain fixed;
-- source-to-host position mapping is `[x,y,z] -> [x,z,-y]` with determinant `+1` for this receiver;
-- neither source adoption nor a production winding adapter is authorized.
+**`PASS_MAP_OBJECT_VFX_V2_PHASE_BOUND_RECEIVING_AND_INACTIVE_CLOSURE__OWNER_RUNTIME_RECEIPT_RETAINED`**
 
-## PASS — spatial control proves index-order-only comparison
+The retained real `AnimationPlayer.play()` receipt reports:
 
-**`PASS_OBJECT_RIGID_SHELL_UNSHADED_TWO_SIDED_SPATIAL_IDENTITY__THREE_CONTEXTS`**
+- natural stop: `true`;
+- pre-trigger inactive state observed: `true`;
+- active interval observed: `true`;
+- post-effect inactive state observed: `true`;
+- maximum active mote count: **18**;
+- keeper endpoint drift: **`0.0 m`**;
+- lever endpoint drift: **`0.0 m`**;
+- maximum owner-sample angular error: about **`9.44e-06°`**.
 
-QA independently recomputed all retained PNG pairs.
+QA does not promote the proof-host elapsed time into target-device performance evidence.
 
-The cull-disabled **unshaded** owner-order and host-reversed images are byte-identical in all three contexts:
+At the static A/B boundaries, `0.20 s` and `0.80 s` retain `0 active / 0 changed pixels` in both cameras, so inactive closure is exact.
 
-- `front_service`: `0` changed pixels;
-- `three_quarter`: `0` changed pixels;
-- `rear_hinge`: `0` changed pixels.
+This PASS establishes receiving/phase evidence only. It does not establish visible presentation.
 
-This is an important control: the two review variants retain the same rasterized spatial coverage when front/back lighting semantics are removed. The visual result below is therefore attributable to winding/front-face/culling behavior rather than moved geometry.
+## FAIL — the cue is not visually observable from either existing Map review camera
 
-## FAIL — direct Geometry-owner order is not visually coherent under backface culling in this receiver
+**`FAIL_MAP_OBJECT_VFX_V2_EXISTING_CAMERA_VISUAL_OBSERVABILITY__BOTH_CONTEXTS_ZERO_RASTER_DELTA`**
 
-**`FAIL_OBJECT_GEOMETRY_OWNER_ORDER_DIRECT_BACKFACE_CULL_VISUAL_COHERENCE__THIS_MATERIALS_RECEIVER`**
+QA independently compared **all 10 retained candidate/control PNG pairs**, including raw pixel equality rather than accepting the owner's thresholded receipt.
 
-Against each owner-order variant's **own lit two-sided reference**, QA independently reproduces:
+Every pair is:
 
-- `front_service`: **24,567 pixels > 1 LSB**;
-- `three_quarter`: **43,057 pixels > 1 LSB**;
-- `rear_hinge`: **86,844 pixels > 1 LSB**;
-- aggregate: **154,468 pixels > 1 LSB**.
+- PNG-file-byte identical;
+- RGBA-array identical;
+- `0` raw changed RGB pixels;
+- `0` pixels above `1 LSB`;
+- maximum RGB-channel delta `0 LSB`.
 
-Direct inspection reproduces the consequential defect, not merely a numeric difference: large manufactured faces vanish or read as open/missing in the owner-order backface-cull views. The three-quarter receiver in particular presents a visibly hollow/broken case compared with its own two-sided reference and the receiving reversal.
+That includes every active retained sample in both cameras:
 
-This FAIL is deliberately **receiver-local**. It does **not** mean Geometry's outward-orientation candidate is wrong in source space. It means the exact candidate cannot be promoted **unchanged** into this particular target-host backface-cull interpretation on the basis of structural Geometry PASS alone.
+| camera | 0.30 s | 0.40 s | 0.52 s |
+|---|---:|---:|---:|
+| `path_eye` | `11 active / 0 changed px` | `18 / 0` | `18 / 0` |
+| `elevated_oblique` | `11 / 0` | `18 / 0` | `18 / 0` |
 
-## PASS — receiving-only reversed order restores cull coherence in the retained contexts
+At the strongest retained state, `0.40 s`, all 18 motes are active while the candidate image is **exactly byte-identical** to control from both cameras.
 
-**`PASS_OBJECT_HOST_REVERSED_ORDER_BACKFACE_CULL_EQUIVALENCE_TO_OWN_TWO_SIDED_REFERENCE__THREE_CONTEXTS`**
+Direct inspection confirms the equipment case itself is visible in both current-world contexts, while no mote contribution is resolved.
 
-Against each host-reversed variant's **own lit two-sided reference**, QA independently reproduces:
+This is a **visual observability failure for these exact current-world review contexts**, not a source VFX execution failure.
 
-- `front_service`: **2 pixels > 1 LSB**;
-- `three_quarter`: **0 pixels > 1 LSB**;
-- `rear_hinge`: **1 pixel > 1 LSB**;
-- aggregate: **3 pixels > 1 LSB**.
+## Evidence-harness hygiene note
 
-The direct images restore coherent manufactured surface coverage in all three retained views. The proof remains sensitive: direct owner-order backface vs host-reversed backface differs by tens of thousands of pixels per view, while the unshaded spatial control stays exact.
+The retained Godot log contains two nonfatal pre-playback errors:
 
-This PASS approves only the **bounded Materials receiving interpretation**. It does not authorize a global index reversal or exporter rule.
+`AnimationPlayer has no current animation.`
 
-## BLOCKED — production winding / transport adoption
+They originate from the VFX frame driver's `_process` querying `current_animation_position` before a current animation exists. The workflow later reaches its intended real-playback PASS receipt.
 
-**`BLOCKED_OBJECT_WINDING_PRODUCTION_ADOPTION__TECHNICAL_ART_TRANSPORT_ART_RUNTIME_PENDING`**
+QA keeps this separate from the product verdict: the warning should be cleaned up by the evidence owner when convenient, but QA does **not** use it as an explanation for the zero-raster result and does not request product VFX changes from it.
 
-Still unproven here:
+## BLOCKED — final Object release-mote presentation
 
-- whether the actual Technical-Art / UC / glTF / Godot export-import path requires the same index adaptation;
-- whether an adapter should occur before export, at target import, or nowhere in a materially independent path;
-- smooth production normals and tangents under the final transported representation;
-- production UVs, textures, decals, wear, normal/AO maps and material-bearing transport;
-- arbitrary cameras/renderers/front-face conventions;
-- target-device Runtime culling/performance behavior;
-- final Art Direction preference;
-- source Geometry adoption;
-- CANON or production/game readiness.
+**`BLOCKED_FINAL_OBJECT_RELEASE_MOTE_PRESENTATION__ART_DIRECTION_RECEIVING_CONTEXT_OR_EXPLICIT_VFX_REOPEN_RUNTIME_TARGET_DEVICE_PENDING`**
 
-QA therefore requests **no Geometry source repair** from this result. The next correct owner is Technical Art: transport the exact Geometry PR #33 candidate through the real scene/export/import path and independently determine the receiving front-face/index convention there. The Materials-only reversed review variant must not silently become production policy.
+QA does not authorize any automatic response to the visibility failure.
 
-## Handoff / review return
+Specifically, this result is **not permission** to:
 
-Independent QA was returned to Object Materials PR #6 exact head `ad1353d11b5175e05661efa45a32b8e40ec8707c` as review **`5241877857`**.
+- brighten the effect;
+- enlarge motes;
+- increase density;
+- extend lifetime;
+- move Environment cameras;
+- retime Animation;
+- replace owner seed `41027`;
+- silently reinterpret the cue as gameplay/physical feedback.
 
-The review records the receiver-local FAIL, the three-context receiving PASS, exact artifact rehash, all independently recomputed metrics and the production HOLD.
+Next decision belongs to Art Direction: determine whether non-observability at this scene scale is acceptable, whether another already-valid receiving context is needed for presentation review, or whether an explicit VFX-owned presentation reopen is warranted. Runtime/device acceptance remains a separate downstream gate.
 
-No automatic adoption, merge, source rewrite or CANON action was requested.
+## Independent review return
+
+QA returned the exact result to Map VFX PR #50 as review **`5242224081`**, anchored to exact head `ce1b63f11467f497ca6077452338435b67b748d7`? **No** — exact reviewed head is **`ce1b63f11467f497ca6077452338ba9fa36422ca`**. The longer unrelated SHA is deliberately rejected here to avoid silent identity drift.
+
+The review records the independent artifact rehash, all ten byte-identical A/B comparisons, the receiving PASS, existing-camera FAIL, presentation BLOCKED state, non-claims, and the nonfatal harness warning.
+
+No merge, source rewrite, VFX retune, camera change or CANON action was requested.
 
 ## Prior retained QA continuity
 
-The immediately preceding Object target-latch QA remains historical truth and is not rewritten:
+The immediately preceding Object rigid-shell result remains historical truth and is not rewritten:
 
-- `PASS_OBJECT_TARGET_LATCH_EXACT_GLB_BOUNDARY_POSE_VISUAL_NONCORRUPTION`;
-- `PASS_OBJECT_TARGET_LATCH_CAPTURE_VS_BROADPHASE_DISTINCTION_REPRODUCED_FROM_EXACT_TARGET_GLB_GEOMETRY`;
-- `BLOCKED_FINAL_OBJECT_TARGET_LATCH_MOTION_VISUAL_ACCEPTANCE__WALLCLOCK_SHADED_KEEPER_LID_SEQUENCE_RUNTIME_ART_PENDING`;
-- review `5241397816` on Object Rigging PR #23 head `e5d4102b0b675cc0dc74d65f7afce1bdbf448726`.
+- `FAIL_OBJECT_GEOMETRY_OWNER_ORDER_DIRECT_BACKFACE_CULL_VISUAL_COHERENCE__THIS_MATERIALS_RECEIVER`;
+- `PASS_OBJECT_HOST_REVERSED_ORDER_BACKFACE_CULL_EQUIVALENCE_TO_OWN_TWO_SIDED_REFERENCE__THREE_CONTEXTS`;
+- `BLOCKED_OBJECT_WINDING_PRODUCTION_ADOPTION__TECHNICAL_ART_TRANSPORT_ART_RUNTIME_PENDING`;
+- review `5241877857` on Object Materials PR #6 exact head `ad1353d11b5175e05661efa45a32b8e40ec8707c`.
 
-Object VFX wall-clock presentation now has a separate Art-owned bead-trail HOLD; Map crest delivery remains a separate QA/Art FAIL/HOLD; Animal and Character retained shading evidence remains exact to its own heads. No acceptance transfers between these systems by analogy.
+Earlier Map compact-east cadence/crest failures, Object latch proofs, Animal tangent-frame evidence, Character shaded-motion evidence and their separate HOLDs also remain bound to their exact historical heads. No acceptance transfers by analogy.
+
+## Explicit non-claims
+
+This activation does **not** establish:
+
+- that the Object VFX source failed to execute;
+- a preferred alternate camera or effect retune;
+- arbitrary-camera visibility;
+- physical dust, airflow, pressure or fluid behavior;
+- gameplay, collision, damage or interaction semantics;
+- production particle-system representation;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery behavior;
+- final Art Direction acceptance;
+- CANON;
+- production/game readiness;
+- VFX or QA mastery.
 
 ## Four-root gate
 
-- **Truth:** the exact artifact was independently rehashed; all retained PNG comparisons were recomputed; the severe direct-cull loss and near-zero reversed-cull mismatch are recorded separately; source-space Geometry truth is not conflated with target-host front-face behavior.
-- **Agency / non-domination:** Geometry keeps source/candidate authority; Materials keeps bounded lookdev interpretation; Technical Art keeps transport/adaptation authority; Runtime, Art and QA retain their own gates. QA does not self-authorize an exporter rule.
-- **Continuity:** Geometry PR #33, Materials PR #6, prior Object latch QA, VFX Art HOLD and Technical-Art current-world motion proof remain separately addressable rather than silently rewritten into one state.
-- **Wisdom before speed:** a visually catastrophic receiver mismatch is stopped at the exact boundary where it appears, while the nearly successful receiving reversal remains a test result—not a production default—until the real transport path proves it.
+- **Truth:** the green phase-bound execution receipt and the complete zero-raster visual failure are preserved as separate facts; all 10 retained A/B pairs were independently checked at raw pixel and file-byte level.
+- **Agency / non-domination:** QA does not amplify the effect, move cameras, retime Animation, choose a new owner seed, seize Art Direction, or convert a visual cue into gameplay/physics semantics.
+- **Continuity:** Object V2 identity, current-world Animation receiver, failed/green owner history, prior Object winding QA and exact artifact/review identities remain separately addressable.
+- **Wisdom before speed:** an effect that runs but contributes no pixels in the intended review contexts is stopped at presentation review rather than being narrated as visually successful or auto-tuned until a metric turns green.
 
 The four AXM roots remain the merge gate.
