@@ -1,231 +1,250 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / THIRTY-FOURTH BOUNDED RUNTIME PASS / PASS_CHARACTER_REVIEW006_POSED_NORMAL_STATIC_REGION_CACHE_BUDGET / 72.22% FEWER FACE-CROSS EVALUATIONS / 66.30% FEWER VERTEX NORMALIZATIONS / 62.23% PROOF-HOST PYTHON PREPARATION MEDIAN REDUCTION / EXACT NORMAL ARRAYS / HOLD_TARGET_ENGINE_TARGET_DEVICE_SHADED_MOTION_TECH_ART_ADOPTION_CANON_PRODUCTION**
+State: **ACTIVE / THIRTY-FIFTH BOUNDED RUNTIME PASS / PASS_CHARACTER_REVIEW006_BILATERAL_RELEASE_SCALE_ACCESSOR_DEDUP_IMPORT_BUDGET / GLB 44,032 B -> 40,064 B (-9.0116%) / BINARY 40,108 B -> 36,256 B (-9.6041%) / EXACT CURRENT-UC POSITION + SKIN-PALETTE IDENTITY ALL 321 KEYS / HOLD_TARGET_ENGINE_MEMORY_RENDERED_FRAMES_ART_QA_TECH_ART_ADOPTION_CANON_PRODUCTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the prior Runtime status, and current Art Direction, Materials / LookDev, Animation, Rigging, Technical Art / UC Integration and Visual Observer QA state before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the prior Runtime status, and fresh Art Direction, Animation, Technical Art / UC, Materials/target-host and independent Visual Observer QA state before selecting work.
 
-`axm-create-me` remains **coordination only**. The implementation and retained evidence live in `mike-axiom-mir/axm-character-design`; this file records coordination state only.
+`axm-create-me` remains **coordination only**. Runtime implementation/proof code and retained evidence live in `mike-axiom-mir/axm-character-design`; this file is the only `axm-create-me` change for this activation.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- **Object:** Runtime PR #30 already owns the selected `service_dark` roughness L8 storage lane and exact selected-field provenance rebind. Reopening texture-width or atlas work would duplicate pass 32/33.
-- **Building / Map:** existing Runtime PRs already own compact-shell indexing, planar-role indexing and primitive-scaling evidence. No new Building topology/LOD rewrite was justified here.
-- **Animal:** existing Runtime PR #27 owns normalized-u16 weight width; its remaining boundary is Art/QA/producer adoption, not a fresh Runtime representation gap.
-- **Character Rigging:** current PR #17 head `fa16c44b1a488d43842470fc9f30c5fb5e98cab6` retains the exact finite positive structural bracket `+36.55°` clear / `+36.60°` first failing.
-- **Character Animation:** PR #19 opened the first current-head motion surface at exact head `9519be55581c009fd800d175677d9b50ee6926e6`: a 2.0 s, 40 Hz authored / 160 Hz diagnostic, 321-sample bilateral shoulder loop at `0 -> -30 -> 0 -> +30 -> 0°`, with all dense samples structurally green and a hidden between-key overshoot negative control.
-- **Character Materials:** PR #18 owns the exact `AREA_WEIGHTED_INDEXED_VERTEX_SMOOTH_NORMAL` review method and has already proved that recomputing posed normals matters visually relative to freezing neutral normals. That shaded proof is bound to an older Rigging head and is **not** silently transferred to current Animation.
-- **Technical Art:** the current coordination status still owns Object selected-roughness transport. During this Runtime CI a Character Technical-Art branch became visible, but no transport behavior or acceptance was borrowed; skeleton/skin/engine transport remains Technical Art-owned and separate.
-- **Visual QA / Art Direction:** current Character preference remains the bounded review-006 deformation direction; final shaded full-body motion and current-head direction-frame quality remain held.
+Existing Runtime lanes remain owned and were not reopened:
 
-The highest-leverage non-overlapping Runtime question was therefore:
+- Object Runtime PR #30 already owns scalar roughness L8 storage / selected-field provenance.
+- Building / Map Runtime lanes already own compact/planar indexing and residual primitive-scaling evidence.
+- Animal Runtime PR #27 already owns normalized-u16 skin-weight width; remaining work is visual/producer adoption.
+- Character Runtime PR #20 already owns localized posed-normal caching; reopening normal preparation would duplicate pass 34.
 
-> **Can the current dense Character motion preserve the Materials-required posed smooth-normal result while avoiding repeated work on geometry that provably never moves?**
+Fresh Character state made a different import-budget gap available:
 
-This avoids the unsafe shortcut of freezing all neutral normals while also avoiding duplicate Object, Animal or Building optimization lanes.
+- Technical Art PR #21 has an exact dense current-UC transport GLB at head `c007c327f2613989581192602338435b67b748d7` with **184 vertices, one primitive, one five-joint skin, six TRS animation channels and 321 dense keys**.
+- Its exact control GLB is **44,032 B**, SHA-256 `76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`.
+- The bilateral release-helper SCALE channels are generated from the same `correction_transform(angle)` values but occupy two separate FLOAT VEC3 output accessors.
+- Current Art Direction still requires pose-following deformed direction response rather than frozen-neutral normals.
+- Independent Visual QA currently reports a separate **neutral shaded target-host direction-frame baseline mismatch** on the current Character receiver. Runtime does not reinterpret or repair that visual blocker in this import-budget lane.
+
+The bounded Runtime question was therefore:
+
+> **Can two byte-identical bilateral dense animation outputs share one glTF accessor, reducing transport/import bytes without changing any current UC position or skin-palette result?**
+
+This is lower-risk than key decimation, quantization, retiming or another visual representation change and does not duplicate another specialist lane.
 
 ## Owning Runtime lane
 
 Repository: `mike-axiom-mir/axm-character-design`
 
-Draft Runtime PR: **#20 — `Runtime: cache static-region normal work across review006 motion`**
+Draft Runtime PR: **#23 — `Runtime: deduplicate review006 bilateral release-scale accessor`**
 
-Branch: `studio/runtime-character-review006-normal-cache-budget-001`
+Branch: `studio/runtime-character-review006-scale-accessor-dedup-001`
 
 Exact tested Runtime head:
 
-`283a6ec0c28aea2d98c95641544e83ccde30016a`
+`d95caae1df766b2e08bca50241d732ecb2208aee`
 
-Exact parent Animation head:
+Exact parent Technical Art head:
 
-`9519be55581c009fd800d175677d9b50ee6926e6`
+`c007c327f2613989581192602338435b67b748d7`
 
-PR #20 is **open, draft and mergeable**.
+Exact Technical Art producer blob:
+
+`831fd7522ec2a8783862da653d6f12465252a3b2`
+
+Exact current UC head / receiver blob:
+
+- UC head: `fed35116c1aabe54789f1197b7b2423b3b516169`;
+- `game_pose_runtime.py`: `dee5db003a56a0a5f55092c1b3db50f56a22de7e`.
+
+PR #23 is **open, draft and mergeable**.
 
 Scoped result:
 
-**`PASS_CHARACTER_REVIEW006_POSED_NORMAL_STATIC_REGION_CACHE_BUDGET`**
+**`PASS_CHARACTER_REVIEW006_BILATERAL_RELEASE_SCALE_ACCESSOR_DEDUP_IMPORT_BUDGET__HOLD_TARGET_ENGINE_ART_QA_ADOPTION`**
 
 ## Bounded candidate
 
-Candidate ID:
+The Runtime candidate is evidence-side only. It does **not** edit the Technical Art production generator.
 
-`review006-dense-posed-normal-static-region-cache-001`
+It:
 
-The candidate changes no source positions, topology, Rigging, Animation, material semantics or normal method. It only precomputes work proven invariant for this exact bound motion:
+1. regenerates the exact pinned Technical Art GLB and verifies its known 44,032 B / SHA-256 identity;
+2. locates only the left/right release-helper `scale` animation samplers;
+3. requires both output accessors to remain FLOAT VEC3 with all 321 keys;
+4. requires their complete binary payloads to be **byte-identical** before any deduplication is permitted;
+5. rebinds the right sampler to the already-existing left output accessor;
+6. removes only the now-unused final duplicate accessor, bufferView and binary payload;
+7. sends control and candidate through the exact current UC receiver and compares every dense sample.
 
-1. a vertex is eligible for the static set only if its position is exactly unchanged across all 321 dense samples;
-2. a face cross product is cached only if all three of its vertices are in that proven-static set;
-3. a final output normal is cached only if every incident face is static;
-4. every dynamic output preserves the original face-contribution order;
-5. candidate output is compared component-for-component against the exact external Materials method, not against a Runtime rewrite accepted by assumption.
-
-Exact Materials control identity:
-
-- Materials head: `e450684b398f8e5b0e23c4cbf717e3475dd4d5ee`;
-- file: `tools/build_character_review006_shaded_shoulder_evidence.py`;
-- Git blob: `843c0e1866172dd8b6c5ab0f23d69d1e469562f7`;
-- method: `AREA_WEIGHTED_INDEXED_VERTEX_SMOOTH_NORMAL`.
+No source form, Geometry, Rigging, Animation curve/key/timing, material semantics, UC product code, controller or gameplay behavior is changed.
 
 ## Measure-before / before-after evidence
 
-Each exact shoulder receiver has **92 vertices / 180 triangles**.
+### Complete GLB
 
-Across all 321 dense samples, independently on each side:
+- control: **44,032 B**;
+- candidate: **40,064 B**;
+- saved: **3,968 B**;
+- reduction: **9.01162790698%**.
 
-- vertices proven static: **71 / 92**;
-- cached static faces: **130 / 180**;
-- dynamic faces remaining: **50 / 180**;
-- cached final output normals: **61 / 92**;
-- dynamic final output normals remaining: **31 / 92**.
+### Binary payload
 
-Across both shoulders and the complete dense clip (**642 pose-side evaluations**):
+- control: **40,108 B**;
+- candidate: **36,256 B**;
+- saved: **3,852 B**;
+- reduction: **9.60406901366%**.
 
-### Expensive operation count
+The 3,852 B binary saving is exactly one redundant dense FLOAT VEC3 stream:
 
-Face-cross evaluations:
+`321 keys × 3 components × 4 B = 3,852 B`.
 
-- control: **115,560**;
-- candidate: **32,100**;
-- saved: **83,460**;
-- reduction: **72.2222222222%**.
+Structural metadata also shrinks:
 
-Vertex normalizations:
+- accessors: **13 -> 12**;
+- bufferViews: **13 -> 12**;
+- left/right release scale samplers share accessor `11` after deduplication.
 
-- control: **59,064**;
-- candidate: **19,902**;
-- saved: **39,162**;
-- reduction: **66.3043478261%**.
+Retained shared payload SHA-256:
 
-### Proof-host Python timing
+`1b931c3dff15b68bae2f53f9a7a5cc59d0eddf76e84e804ca58719fd13cf8272`
 
-Seven complete normal-preparation rounds, excluding pose generation, intersection checks, rendering and GPU work:
+Candidate GLB SHA-256:
 
-- control median: **332,782,701 ns**;
-- candidate median: **125,689,018 ns**;
-- candidate/control ratio: **0.37769096056468393**;
-- median reduction: **207,093,683 ns / 62.2309039435%**.
+`2786a05578adbd1bacccd2c47305000bf7ead81a65580da896d46d9dd0666bcc`
 
-This is a **Python proof-host preparation result only**. It is not target-engine or target-device CPU/GPU/FPS evidence.
+## Exact current-UC equivalence
 
-## Exact semantic equivalence
+Current UC reports the same bounded semantic receiver shape for control and candidate:
 
-The verifier compares every output normal against the exact external Materials method for every bound dense pose:
+- vertices: **184**;
+- primitives: **1**;
+- clips: **1**, same six-channel clip identity;
+- skins: **1**;
+- joints: **5**.
 
-- pose-side evaluations: **642**;
-- normal vectors compared: **59,064**;
-- mismatched normal vectors: **0**;
-- maximum component delta: **0.0**;
-- control normal-stream SHA-256: `bc7fbac4c89a2ec3017da2309c3918c5bf14352fce98389f8c204f3cf7508c11`;
-- candidate normal-stream SHA-256: exact same digest.
+Across **all 321 dense animation keys**:
 
-So Runtime did **not** gain speed by substituting frozen neutral normals or changing the normal model. The exact current posed geometry receives the exact same normal arrays under the bound motion.
+- maximum candidate-vs-control position delta: **0.0 m**;
+- changed position samples: **0 / 321**;
+- maximum candidate-vs-control skin-palette component delta: **0.0**;
+- changed skin-palette samples: **0 / 321**.
+
+The import-size win therefore does not come from resampling, interpolation changes, key removal, quantization or altered skin transforms.
 
 ## Fail-closed control
 
-The retained negative control deliberately moves a vertex classified static:
+The retained negative control flips one byte only in the right release-scale payload before deduplication.
 
-- side: L;
-- vertex: `0`;
-- mutation: `+1e-6 m` on X;
-- result: **rejected**.
+Result: **rejected** because the bilateral streams are no longer byte-identical.
 
-The cache is therefore not allowed to silently survive motion outside its exact static-set prerequisite.
+Runtime therefore does not generalize “left/right look equivalent” into permission to share storage. Exact payload identity is the prerequisite.
+
+## Preserved failed predecessor / verifier repair
+
+The first retained workflow attempt failed before semantic comparison because Runtime required the **entire UC `describe()` dictionary** to be equal after accessor sharing.
+
+That was too strict for this representation-only change: source-description metadata legitimately reflects the lower accessor/bufferView count. The failed attempt remains provenance rather than being hidden.
+
+The repaired verifier narrows only that harness assumption:
+
+1. require the same semantic receiver shape;
+2. then compare all 321 current-UC position samples exactly;
+3. compare all 321 current-UC skin palettes exactly;
+4. retain the non-identical-payload negative control.
+
+The candidate or semantic acceptance gates were **not** weakened.
 
 ## Visual tradeoff for Art Direction / Visual QA
 
-Measured normal-input tradeoff:
+Measured receiver-input tradeoff:
 
-**`NONE_OBSERVED_EXACT_ARRAY_IDENTITY_ALL_642_POSE_SIDE_EVALUATIONS`**
+**`NONE_OBSERVED_EXACT_UC_POSITION_AND_SKIN_PALETTE_IDENTITY_ALL_321_KEYS`**
 
-Every candidate normal component equals the Materials reference for every bound pose. No visual representation was intentionally changed.
+A fresh rendered-frame comparison was **not** performed, so:
 
-However, this activation did **not** perform a new current-head renderer comparison. `rendered_frame_delta = NOT_REMEASURED` remains explicit. The older Materials shaded result is not transferred across Rigging/Animation heads by story. Final current-head shaded full-body motion, tangent/direction-frame behavior and target-engine receiving quality remain Art Direction / Visual QA / Technical Art boundaries.
+`rendered_frame_delta = NOT_REMEASURED`.
+
+Art Direction / Visual QA acceptance remains HOLD. In particular, this pass does **not** repair, explain or waive QA's current `FAIL_CHARACTER_REVIEW006_TARGET_HOST_NEUTRAL_SHADED_DIRECTION_FRAME_BASELINE_EQUIVALENCE`. Storage deduplication and target-host shaded direction-frame correctness remain separate truths.
 
 ## Exact CI / retained evidence
 
 Dedicated workflow:
 
-**`35212635087 — Runtime Character review006 posed-normal cache budget — SUCCESS`**
+**`35218524054 — Runtime Character review006 scale accessor dedup budget — SUCCESS`**
 
 Validation:
 
-- exact Animation / Rigging / Geometry ancestry: PASS;
-- exact external Materials head/blob binding: PASS;
-- complete Character suite Python 3.11: **101 / 101 PASS**;
+- exact Technical Art parent / producer blob: PASS;
+- exact current UC head / pose receiver blob: PASS;
+- exact control GLB identity: PASS;
+- complete Character suite Python 3.11: **105 / 105 PASS**;
 - complete Character suite Python 3.13: PASS;
-- all 642 pose-side normal comparisons: exact;
-- deterministic operation-budget reductions: PASS;
-- proof-host median timing win: PASS;
-- static-vertex motion negative control: PASS_EXPECTED_REJECTION;
+- bilateral byte-identity prerequisite: PASS;
+- exact binary/file budget reduction: PASS;
+- all 321 current-UC position comparisons: exact;
+- all 321 current-UC skin-palette comparisons: exact;
+- one-byte right-stream divergence negative control: PASS_EXPECTED_REJECTION;
 - retained evidence upload: PASS.
 
 Artifact:
 
-- ID: **`10494315431`**;
-- name: `character-review006-runtime-normal-cache-283a6ec0c28aea2d98c95641544e83ccde30016a`;
-- uploaded size: **14,001 B**;
-- GitHub SHA-256: **`a91e9fa9a2a76cdc51bf03dc63b63e0889415ceaab1961d6c3a1d2c31a5b636c`**;
-- independently downloaded and rehashed SHA-256: **same**;
-- retained summary SHA-256: `9f94792f7da4c976fe3a089a03856cc9dee6ade4fc1c9d1f89c1ec2598f41a08`.
+- ID: **`10496046375`**;
+- name: `character-review006-runtime-scale-accessor-dedup-d95caae1df766b2e08bca50241d732ecb2208aee`;
+- uploaded size: **26,517 B**;
+- GitHub SHA-256: `8877e803f74d14819a958ee78656c4852acc2cc4e3e8d9a2129d5698eadc52cb`;
+- independently downloaded and rehashed SHA-256: **same**.
 
 ## Handoffs
 
-- **Animation PR #19:** Runtime review comment `5234602442` records that the exact current clip was consumed unchanged. No retime, amplitude change, controller interpretation or target-playback claim is requested.
-- **Materials PR #18:** Runtime review comment `5234603786` records that its exact normal method was the external control. The older shaded-render acceptance is not promoted onto the newer Rigging/Animation head.
-- **Technical Art:** future Character transport may consume this result only after binding the exact current mesh/rig/clip and proving the target receiver. Runtime does not tell Technical Art how to encode skeleton/skin or direction frames.
-- **Art Direction / Visual QA:** exact normal-array equality means this Runtime cache introduces no measured normal-input difference, but final current-head rendered motion remains theirs to review.
-- **UC:** unchanged. One Character clip-bound cache is not promoted into a generic UC optimizer from this single case.
+- **Technical Art PR #21:** Runtime comment `5713988990` records the exact result and explicitly makes **no automatic producer-adoption request**.
+- **Art Direction / Visual QA:** no visual acceptance is borrowed from exact position/palette equality. The current neutral target-host shaded mismatch remains independently blocking.
+- **Animation / Rigging:** keys, timing, curves, deformation ownership and safe-envelope decisions are untouched.
+- **UC:** unchanged. Runtime consumed current UC as a receiver only.
 
 ## Reusable learning / placement boundary
 
 Reusable bounded Runtime rule:
 
-> **When deformation is localized, do not freeze the whole normal field and do not recompute the whole mesh by habit. First prove which vertices remain exact across the bound motion, cache only face/output-normal work whose dependencies are entirely static, preserve contribution order for dynamic outputs, and require exact equality to the owning normal method before treating the operation reduction as valid.**
+> **Before quantizing or deleting animation keys, first look for output accessors that are already byte-identical. Share storage only after exact payload identity is proven, then re-run the real receiving path across the full bound sample set. Representation metadata may legitimately change; semantic receiver shape and outputs must not.**
 
-This pattern is potentially reusable, but this pass alone does not justify generic UC extraction. A broader implementation would need independent meshes, clips, target engines and cache-invalidation evidence.
+This is a strong import-budget pattern, but one Character bilateral scale case does not justify a generic UC optimizer yet. Broader extraction would need independent assets, animations, exporters/importers and target-engine memory evidence.
 
 ## Historical continuity
 
-Pass 33 remains preserved in the previous status revision: Object selected roughness was rebound exactly to the retained L8 evidence without pretending a new renderer run occurred.
+Pass 34 remains preserved in history: localized posed-normal caching reduced proof-host normal-preparation work while producing exact Materials-reference normal arrays.
 
-Pass 32 remains the retained Object RGBA8 -> L8 measurement: **1,048,575 B / 75%** texture-memory saving with four byte-identical rendered pairs.
-
-Earlier Object atlas-height, Animal weight-width, Building indexing/primitive-scaling, Weather and other Runtime passes remain historical truth and are not silently rewritten by this Character lane.
+Passes 32/33 remain the Object roughness L8 measurement and selected-field identity rebind. Earlier Animal, Building, Weather and other Runtime passes remain separate historical truth.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- current-head target-engine playback;
-- exported skeleton/skin or direction-frame transport;
-- a real engine-side CPU timing improvement;
+- target-engine import-memory savings;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery improvement;
-- current-head rendered-frame identity;
+- current target-host shaded equivalence;
+- a repair of the current neutral shaded direction-frame mismatch;
+- final Character normals/tangents or tangent-space correctness;
 - full-body shaded-motion quality;
-- arbitrary Character animation safety;
-- cache validity outside this exact bound motion without reclassification;
-- a generic Runtime/UC normal-cache policy;
-- Runtime controller/state-machine behavior;
-- gameplay/collision acceptance;
-- final Art Direction or independent Visual QA acceptance;
-- automatic Animation, Materials or Technical Art adoption;
+- arbitrary animation-channel deduplication safety without exact identity proof;
+- key reduction, quantization or retiming safety;
+- automatic Technical Art producer adoption;
+- a generic UC optimization policy;
+- Art Direction or independent Visual QA acceptance;
 - CANON;
 - production/game readiness;
 - Runtime / Optimization mastery.
 
 ## Four-root check
 
-**Truth:** exact Animation, Rigging, Geometry and external Materials method identities are pinned. The operation counts, proof-host timing, exact normal-stream identity and negative control are retained separately from unmeasured renderer/device claims.
+**Truth:** exact producer, control GLB, current UC receiver, before/after bytes, all 321 receiver samples, the initial verifier failure and the negative control are retained separately from unmeasured renderer/device claims.
 
-**Agency / non-domination:** Runtime changes only its own preparation strategy. Animation keeps motion authority; Rigging keeps deformation authority; Materials keeps normal/shading meaning; Technical Art keeps transport; Art/QA keep visual acceptance.
+**Agency / non-domination:** Runtime owns only the evidence-side representation optimization. Technical Art keeps producer/transport authority; Animation keeps motion; Rigging keeps deformation; Materials/Art/QA keep shaded direction-frame meaning and acceptance.
 
-**Continuity:** the lane stacks directly on the exact current Animation head and uses the exact Materials implementation as external control. Older shaded evidence is preserved as historical truth rather than silently transferred to a newer chain.
+**Continuity:** the candidate stacks directly on the exact current Technical Art head and keeps all six dense channels / 321 keys. The separate current target-host visual failure remains named rather than being silently overwritten by an import-budget PASS.
 
-**Wisdom before speed:** Runtime optimizes only the region proven invariant, keeps a fail-closed cache invalidation witness, and refuses to trade away posed normal correctness merely for speed.
+**Wisdom before speed:** Runtime removed only bytes proved redundant instead of reaching first for lossy key reduction, quantization, visual simplification or speculative target-host repair.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
