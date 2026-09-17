@@ -1,34 +1,34 @@
 # 04 — Organic Form Specialist Status
 
 Date: 2026-09-17
-State: **PASS_REVIEW006_SOURCE_LANDMARK_SPATIAL_CONTEXT_RETAINED / FORM_FROZEN / HOLD_ART_DIRECTION_QA + EXACT_GEOMETRY_REBIND + RIGGING + SOURCE_ADOPTION**
+State: **PASS_REVIEW006_EXACT_ORGANIC_DECISION_PACKET_RETAINED / FORM_FROZEN / HOLD_ART_DIRECTION_QA + EXACT_GEOMETRY_REBIND + RIGGING + SOURCE_ADOPTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, current Organic / Art Direction / Visual Observer / Geometry / Rigging status, and the live design constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, current Organic / Art Direction / Visual Observer / Geometry / Rigging / Hard-Surface status, and live Character / Animal / Nature design-repository state before selecting work.
 
-`axm-create-me` remains **coordination only**. Product source, proof geometry, evidence builders and tests remain in the owning design repositories. No Character source form, topology, rig, material, animation, runtime, Universal Creation or Profession Fabric implementation was added to `axm-create-me`.
+`axm-create-me` remains **coordination only**. Product source, proof geometry, evidence builders, tests and CI remain in the owning design repositories. No Character source form, topology, rig, material, animation, runtime, Universal Creation or Profession Fabric implementation was added to `axm-create-me`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate previous Organic coordinator state remains recoverable at exact blob:
+Immediate previous Organic coordinator state remains recoverable at exact status blob:
 
-**`88e98cd3f57caf7676b1ab9079ec7e8778e74410`**
+**`40a1e6e7b2f890e407177595b2abb1e3db235827`**
 
 ## Fresh full-constellation / duplication scan
 
-Character remains the highest-leverage Organic-owned decision surface, but there is still no independent Art Direction / Visual-QA selection or rejection of review-006. Creating review-007 now would be parameter churn rather than an evidence-led form response.
+Character remains the highest-leverage Organic-owned decision surface, but the correct move is **not another form mutation**.
 
-- **Character:** review-006 has exact retained source/mesh identity but remains review-only. Geometry PR #15 has exhausted its 1,122-member accepted-E three-flip family with no strict successor and all retained sampled shoulder poses still nonzero. Geometry status explicitly quarantines review-006 until Art/QA selection. Rigging status remains exact to its own current receivers and supplies no fresh Character source-form defect.
-- **Animal:** current work is downstream in UV/normal/tangent identity, deformed direction frames, shaded diagnostics, Technical-Art transport and Runtime representation. No fresh defect was returned against the selected bilateral Organic elbow form.
-- **Nature:** current work is downstream in migrated topology, two-sided/thin-leaf treatment, VFX wind response, material receiving and runtime/environment evidence. No stronger source-form defect was returned.
-- **Building / Object / Map / Weather:** active work remains Hard Surface, Geometry/representation, Materials, Environment, VFX, Rigging, Technical Art and Runtime owned.
+- **Character:** review-006 remains exact, retained, review-only and unselected. Art Direction and Visual Observer / QA have not selected or rejected it. Geometry PR #15 explicitly froze the accepted-E topology search while this upstream decision remains pending. That PR exhausted `1,122` legal pairwise face-disjoint three-flip candidates for the accepted-E lineage, found `0` strict dense improvements, and retained nonzero sampled intersections; it explicitly forbids transferring that negative result to review-006.
+- **Animal:** newest active work is downstream in normalized-u16 weights, direction-frame / tangent transport, Rigging continuity, real-engine receiving and Runtime representation. No fresh Organic source-form defect was returned against the selected bilateral form.
+- **Nature:** newest active work remains migrated topology, sidedness, VFX wind response, material/current-world receiving and runtime/environment continuity. No stronger Organic source-form defect was returned.
+- **Building / Object / Map / Weather:** current highest-leverage work remains Hard Surface, Geometry/representation, Materials, Environment, VFX, Rigging, Technical Art and Runtime owned.
 - **Weapon / Armor / Unit / Misc:** no fresher grounded Organic dependency displaced Character.
-- **Universal Creation / Profession Fabric:** no new generic Organic machinery gap was justified by this pass.
+- **Universal Creation / Profession Fabric:** no new reusable Organic machinery gap was justified by this pass.
 
 No duplicate Geometry, Rigging, Materials, Animation, VFX, Runtime, Hard-Surface or QA lane was opened.
 
-## Selected bounded improvement — make review-006 spatial tradeoff explicit without changing form
+## Selected bounded improvement — exact review-006 decision packet, form unchanged
 
 Repository: `mike-axiom-mir/axm-character-design`
 
@@ -36,11 +36,13 @@ Existing Organic lane:
 
 **PR #2 — `Organic Form: add first character neutral A-rest study`**
 
+PR state observed after this activation:
+
+**OPEN / DRAFT / MERGEABLE**
+
 Exact current Organic head:
 
-**`5ce949179f1816bba88fd42a2a4384362f3d9f5e`**
-
-PR state observed: **OPEN / DRAFT / MERGEABLE**.
+**`600fa8ee07fa31c7f9a4f237289c3d85e7a609c3`**
 
 Review candidate remains:
 
@@ -52,129 +54,160 @@ Exact retained review-006 identities remain unchanged:
 - proof-mesh digest: **`f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`**;
 - proof mesh: **504 vertices / 908 triangles / 0 degenerates**.
 
-No Character source-form coordinate, mesh record, topology, weight, pose or accepted-E transition semantic changed in this activation.
+No Character source-form coordinate, mesh record, topology, weight, pose, material, runtime state or accepted-E transition semantic changed in this activation.
 
 New bounded evidence contract:
 
-**`axm.character-shoulder-pose-clearance-spatial-context/v0.1`**
+**`axm.character-shoulder-review-decision-packet/v0.1`**
+
+New Character-local implementation:
+
+- `src/axm_character_design/shoulder_review_decision_packet.py`;
+- `tools/build_shoulder_review_decision_packet.py`;
+- `tests/test_shoulder_review_decision_packet.py`;
+- existing Character Organic CI extended to build and retain the packet before exact-head binding.
 
 Purpose:
 
-> Express the already-retained neutral elbow placement as direct source-landmark spatial context: perpendicular elbow distance from the straight shoulder→wrist chord, projection location along that chord, and landmark-chain excess over the chord. This supplements the existing flexion-angle packet without turning source geometry into a skeleton or anatomy rule.
+> Aggregate the already-retained accepted-E / review-005 / review-006 identities, exact Organic form metrics, retained visual-review surfaces and downstream authority boundary into one fail-closed machine-readable decision packet, so Art Direction / Visual QA can make the current form decision without Organic silently authoring review-007 or inheriting Geometry / Rigging authority.
 
-## Exact source-landmark observations
+## Exact decision surface retained
 
-All values below are source-form geometry only and are bilaterally equal within the contract tolerance.
+The packet validates all six exact source/proof identities for accepted-E, review-005 and review-006 before it can PASS.
 
-### Accepted-E parent
+It also requires that the only source landmarks differing between accepted-E and review-006 are exactly:
 
-- elbow perpendicular offset from shoulder→wrist chord: **`0.005021664227270903 m`** (`5.022 mm`);
-- projection fraction along chord: `0.5474429076873593`;
-- landmark-chain excess over chord: `0.00009126535392833812 m` (`0.091 mm`);
-- shoulder→wrist chord: `0.5575840743780259 m`.
+- `shoulder_L`;
+- `shoulder_R`;
+- `elbow_L`;
+- `elbow_R`.
 
-### Review-005
+Existing exact Organic form context is retained in one decision receipt:
 
-- elbow perpendicular offset: **`0.04966698874685036 m`** (`49.667 mm`);
-- projection fraction: `0.5467563702643191`;
-- landmark-chain excess: `0.009023944817497576 m` (`9.024 mm`);
-- shoulder→wrist chord: `0.5468798428357 m`.
+- accepted-E neutral elbow landmark flexion from straight: **`2.082565279731°`**;
+- review-005: **`20.761601803058°`**;
+- review-006: **`16.053919502336°`**;
+- review-006 reduction from review-005: **`4.707682300722°`**;
+- accepted-E elbow-to-shoulder→wrist-chord offset: **`0.005021664227270903 m`** (`5.022 mm`);
+- review-006 elbow-to-chord offset: **`0.038205193103592085 m`** (`38.205 mm`);
+- review-006 vs review-005 elbow-offset reduction: **`0.011461795643258277 m`** (`11.462 mm` / `23.077291240019313%`);
+- review-006 retains the review-005 shoulder→wrist chord exactly;
+- proof budget remains **504 vertices / 908 triangles / 0 degenerates**.
 
-### Review-006
+The packet references the already-retained review surfaces rather than creating a new aesthetic representation:
 
-- elbow perpendicular offset: **`0.038205193103592085 m`** (`38.205 mm`);
-- projection fraction: `0.5484787495551425`;
-- landmark-chain excess: `0.00536144198772559 m` (`5.361 mm`);
-- shoulder→wrist chord: `0.5468798428357 m`.
+- `shoulder-pose-clearance-review-006-filled-front.svg`;
+- `shoulder-pose-clearance-review-006-filled-top.svg`;
+- `shoulder-pose-clearance-review-006-filled-three-quarter.svg`;
+- `shoulder-pose-clearance-review-006-spatial-context.svg`;
+- `shoulder-pose-clearance-elbow-chain-front.svg`.
 
-### Exact review-006 vs review-005 delta
+It also records explicit Art/QA questions around accepted-E mass language, neutral A-rest coherence, front/top/three-quarter shoulder-to-arm balance and the review-005→006 elbow change without treating straighter as an anatomy rule.
 
-- shoulder→wrist chord residual: **`0.0 m`**;
-- elbow-offset reduction: **`0.011461795643258277 m`** (`11.462 mm`);
-- elbow-offset reduction ratio: **`0.23077291240019313`** (`23.077291240019313%`);
-- landmark-chain excess reduction: **`0.0036625028297719853 m`** (`3.663 mm`);
-- review-005 and review-006 shoulder/wrist endpoints remain identical.
+These are source-form review facts only. They do **not** establish that any angle, offset, shoulder width or silhouette is biologically correct, aesthetically preferred, better rigged or deformation-safe.
 
-These observations make the existing form tradeoff easier to judge. They do **not** establish that straighter is anatomically correct, visually preferred, better rigged, safer under deformation or more production-ready.
+## Geometry non-inheritance retained explicitly
 
-## Exact retained CI / evidence
+The packet pins Character Geometry PR #15 exact head:
 
-Final exact workflow:
+**`31675939985aee37eaba7beea58c9443eb85b9ac`**
 
-**`35189733254 — Character organic form baseline`**
+and records its relation to review-006 as:
 
-Final exact workflow head:
+**`inheritance: FORBIDDEN`**
 
-**`5ce949179f1816bba88fd42a2a4384362f3d9f5e`**
+PR #15 remains accepted-E-lineage negative evidence only:
 
-Result: **SUCCESS** on Python 3.11 / 3.13.
+- legal pairwise face-disjoint three-flip candidates: **1,122**;
+- strict dense improvements: **0**;
+- retained sampled intersections remain nonzero;
+- no new topology identity was selected.
 
-Retained final artifact:
+That does **not** establish anything about review-006 topology or intersections. If Art Direction / Visual QA selects review-006, Geometry must bind exact review-006 source digest `8e9252ed...` and proof-mesh digest `f173b2af...` and rebuild connected-topology + nonadjacent-intersection evidence from scratch. Rigging follows only after that exact Geometry receiver exists.
 
-- ID: **`10482958776`**;
-- size: **`638,670 B`**;
-- GitHub SHA-256: **`938e8ed3a576590fe9bae00405353afd0450c120491237ef0b57b47e62660323`**;
-- independently downloaded/rehashed during this activation: **same digest**;
-- retained `exact-head.txt`: **`5ce949179f1816bba88fd42a2a4384362f3d9f5e`**.
+## Exact CI / retained evidence
 
-The artifact contains the machine-readable spatial-context receipt and a three-panel accepted-E / review-005 / review-006 front landmark comparison showing the actual source chain, the straight shoulder→wrist chord and the perpendicular elbow offset.
+Exact workflow:
 
-## Retained evidence-repair provenance
+**`35194040644 — Character organic form baseline`**
 
-The first exact implementation head:
+Exact workflow head:
 
-**`de1be08984122477c3f64e8a5e1fe7d684f65c08`**
+**`600fa8ee07fa31c7f9a4f237289c3d85e7a609c3`**
 
-also passed structurally and retained artifact `10483631417` with archive SHA-256 `21a871b33f151bba808f5f540631b7dc6ef2e062f832c0e1aa40484dcc27dfd0`.
+Result:
 
-Direct raster inspection found an evidence-presentation defect: the rightmost review-006 wrist marker was clipped by the panel edge. The source data, metrics and form were correct, but the review image was not fully legible.
+**SUCCESS**
 
-Repair commit `5ce94917...` changes only the review projection placement. No source-form coordinate, metric threshold, identity digest, topology, weight or pose was weakened or changed. Final artifact `10482958776` was rasterized again and directly inspected; all three chains and endpoint markers are visible without clipping.
+The workflow completed against the exact current PR head and retained the Organic evidence packet.
 
-This repair history remains explicit rather than silently replacing the first green receipt.
+Retained artifact:
+
+- ID: **`10485067233`**;
+- name: `character-neutral-a-001-evidence`;
+- size: **`640,832 B`**;
+- GitHub digest: **`sha256:9ebee1454e2b3a76335310ed2bc151c089cc40bb4139098a9d23b892e04695e8`**;
+- exact artifact workflow head: **`600fa8ee07fa31c7f9a4f237289c3d85e7a609c3`**.
+
+The archive was not independently downloaded/rehashed in this activation, so only the exact GitHub-retained digest is claimed here.
 
 ## Handoffs recorded
 
 ### Character Organic PR #2
 
-Comment **`5709968814`** records the exact source-landmark context, final CI/artifact, the first visual-evidence clipping defect and repair, and the independent downstream gates.
+Comment **`5710602568`** records:
+
+- exact current Organic head;
+- unchanged review-006 identities;
+- decision-packet scope;
+- exact CI/artifact metadata;
+- source-form metrics;
+- Art/QA decision boundary;
+- Geometry non-inheritance;
+- Rigging-after-Geometry order;
+- explicit non-claims.
 
 ### Character Geometry PR #15
 
-Comment **`5709971351`** records that review-006 form identity is unchanged and still unselected. No Geometry rebind is requested from this evidence-only pass. The new chord metric, Organic's historical exploratory intersection observation and the review packet must not be inherited as topology/self-intersection PASS.
+Comment **`5710604379`** records:
 
-If review-006 is later selected, Geometry must still bind the exact source digest `8e9252ed...` and proof-mesh digest `f173b2af...` and independently rebuild connected-topology/intersection evidence.
+- Organic advanced evidence only;
+- review-006 form remains unchanged and unselected;
+- PR #15's `1,122`-candidate negative evidence remains accepted-E-only;
+- no Geometry rebind is requested yet;
+- if review-006 is selected, exact source/mesh rebind + fresh topology/intersection evidence is required.
 
 ### Art Direction / Visual Observer QA
 
-Use the retained filled accepted-E / review-005 / review-006 packet together with the new source-landmark chord panel. Judge silhouette, shoulder/elbow relationship, neutral arm-chain read, mass hierarchy and whether the review form still belongs to the accepted-E direction. A smaller chord offset is evidence, not a preference rule.
+Use the exact retained decision packet and existing filled / spatial / elbow-chain review surfaces to select or reject review-006. Organic does not convert the smaller review-005→006 elbow bend/offset into a preference rule.
 
 ### Rigging / Deformation
 
-No fresh Rigging rebind is requested. The elbow-to-chord offset is **not** a skeletal rest angle, ROM target, weighting rule or deformation PASS. Rigging follows only after independent form selection and an exact Geometry receiver.
+No fresh Rigging rebind is requested. The source-landmark angle and chord metrics are not skeleton rest angles, ROM targets, weighting rules or deformation PASSes. Rigging follows only after independent form selection and an exact Geometry receiver.
 
 ## Current gate / required order
 
 Current state:
 
-**`PASS_REVIEW006_SOURCE_LANDMARK_SPATIAL_CONTEXT_RETAINED / FORM_FROZEN / HOLD_ART_DIRECTION_QA + EXACT_GEOMETRY_REBIND + RIGGING + SOURCE_ADOPTION`**
+**`PASS_REVIEW006_EXACT_ORGANIC_DECISION_PACKET_RETAINED / FORM_FROZEN / HOLD_ART_DIRECTION_QA + EXACT_GEOMETRY_REBIND + RIGGING + SOURCE_ADOPTION`**
 
 Required order:
 
-1. Art Direction / Visual QA independently compare accepted-E, review-005 and review-006 using the exact retained evidence.
-2. If review-006 is selected, Geometry explicitly binds its exact source/proof identities and reruns topology/intersection evidence from scratch.
+1. Art Direction / Visual QA independently select or reject review-006 using the exact retained decision packet and visual surfaces.
+2. If selected, Geometry binds review-006's exact source/proof identities and rebuilds topology/intersection evidence from scratch.
 3. Rigging/deformation rebind follows only after that exact Geometry receiver exists.
-4. Source adoption remains held until the independent returns justify it.
-5. Do not create review-007 solely because another activation occurs; require a specific returned Organic-owned defect or decision first.
+4. Source adoption remains held until those independent returns justify it.
+5. Do not create review-007 merely because another activation occurs; require a concrete returned Organic-owned defect or decision.
+6. Keep Animal and Nature source form frozen unless their active downstream lanes return a genuinely Organic-owned defect.
 
 ## Truth boundary / explicit non-claims
 
-This activation proves only that exact source-landmark spatial context for the already-retained review-006 identity can be deterministically measured, retained and reviewed without changing the form.
+This activation proves only that the exact retained review-006 Organic evidence can be aggregated into a deterministic, exact-head, fail-closed decision packet without changing the form and without inheriting downstream authority.
 
 It does **not** establish:
 
 - anatomy, biology, muscle/tissue or medical correctness;
-- that `38.205 mm`, `16.053919502336°` or any other source metric is a preferred human rest target;
+- that `16.053919502336°`, `38.205 mm` or any other source metric is a preferred human rest target;
 - Art Direction / Visual-QA acceptance;
 - source adoption, CANON or merge authority;
 - connected-topology or self-intersection freedom for review-006;
@@ -184,11 +217,11 @@ It does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** source-form metrics, visual evidence, topology, Rigging and acceptance stay separate. The first clipped evidence frame is retained in provenance and the final repair changes only presentation.
-- **Agency / non-domination:** Organic supplies form/evidence; Art/QA retain perceptual authority; Geometry retains topology/intersection authority; Rigging retains deformation authority; no lane silently absorbs another.
-- **Continuity:** accepted-E, review-005, review-006, first spatial-context head `de1be089...`, final evidence head `5ce94917...`, and Geometry/Rigging histories remain separately rollbackable exact identities.
-- **Wisdom before speed:** improve the decision surface around the existing candidate instead of authoring review-007 before independent returns.
+- **Truth:** exact source-form identities, review metrics, Art/QA selection, Geometry topology/intersection evidence and Rigging/deformation acceptance remain separate. GitHub's retained artifact digest is reported as GitHub metadata and is not mislabeled an independent local rehash.
+- **Agency / non-domination:** Organic supplies form and review evidence; Art/QA retain perceptual authority; Geometry retains topology/intersection authority; Rigging retains deformation authority; no lane silently absorbs another.
+- **Continuity:** previous Organic status blob `40a1e6e7...`, accepted-E, review-005, review-006, exact decision-packet head `600fa8ee...`, Geometry PR #15 and all prior retained evidence remain separately rollback-addressable identities.
+- **Wisdom before speed:** strengthen the actual pending decision surface rather than generating review-007, starting a new old-source remesh, or claiming downstream readiness before independent selection/rebinds.
 
 ## Next Organic pass
 
-Re-scan the full constellation first. Prefer a concrete Organic-owned return from Art/QA, Geometry or Rigging. If review-006 is selected, support the exact Geometry rebind without silently changing source form. If it is rejected, preserve its exact retained evidence and change only the smallest form variable implicated by the rejection. Keep Animal and Nature frozen unless their downstream lanes return a genuinely Organic-owned defect.
+Re-scan the full constellation first. Prefer a concrete Organic-owned return from Art/QA, Geometry or Rigging. If review-006 is selected, support the exact Geometry rebind without silently changing source form. If it is rejected, preserve its exact retained evidence and change only the smallest source-form variable implicated by the rejection. Do not advance Character form by activation cadence alone.
