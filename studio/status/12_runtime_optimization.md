@@ -1,200 +1,201 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / TWENTY-FOURTH BOUNDED RUNTIME PASS / HOLD_ANIMAL_GLB_WEIGHT_WIDTH_COMPACTION__CURRENT_UC_RIGGED_CODEC_FLOAT_ONLY / 672 B WEIGHTS PAYLOAD REDUCTION PROVED / REAL GODOT IMPORT PROVED / 224 ONE-LSB FIXED-VIEW PIXELS RECORDED / ART REVIEW REQUIRED / NO AUTOMATIC ADOPTION / DEFORMED DIRECTION-FRAME HOLD PRESERVED**
+State: **ACTIVE / TWENTY-FIFTH BOUNDED RUNTIME PASS / PASS_BUILDING_COMPACT_SHELL_RUNTIME_REPRESENTATION_COST_CHARACTERIZED__HOLD_VISUAL_AND_RECEIVER_ADOPTION / 19,968 B MODELED HARD-EDGE RENDER-PAYLOAD SAVING / -13,312 B OBSERVED PROOF-HOST BUFFER MEMORY / -2,496 RENDERED PRIMITIVES / 7 FIXED-VIEW PIXELS CHANGED / ART REVIEW REQUIRED / NO AUTOMATIC ADOPTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Technical Art / UC, prior Runtime evidence, the active Animal product branch and retained runtime/import evidence before selecting one bounded optimization question.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned active Runtime, Art Direction, Technical Art / UC and the fresh Building Geometry / Hard-Surface chain before selecting one bounded optimization question.
 
-`axm-create-me` remains **coordination only**. Product code and evidence live in `mike-axiom-mir/axm-animal-design`; this repository changes only this status record.
+`axm-create-me` remains **coordination only**. Product code and Runtime evidence live in `mike-axiom-mir/axm-building-design`; this repository changes only this status record.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The previous Runtime pass measured `JOINTS_0` component-width waste. Since that pass, Technical Art PR #3 advanced from historical head `01458a9697406a649b0e1e3bf3997f7ea817a344` to exact current head:
+The prior Runtime passes already cover Weather cadence/cache/proof-harness cost, Object and footprint indexing, Animal indexed render domains, glTF joint-width compaction and the held normalized-weight experiment. Those lanes were not reopened.
 
-`54c9c11505e798a56619ebc14e9ab41f522eef70`
+The fresh non-duplicated Runtime handoff is Building Geometry PR #8 plus Hard-Surface PR #9. Hard Surface now source-owns two explicit receiving identities while retaining the 23-box semantic source separately:
 
-Technical Art has now adopted Runtime's prior joint-width finding in the actual producer: the current retained Animal GLB uses `UNSIGNED_BYTE / 5121` for exact joint domain `0..1` and is `10,948 B`.
+- reference boundary shell: **`1420v / 2884t`**;
+- compact-v2 receiving option: **`1004v / 2052t`**;
+- exact Hard-Surface parent head: **`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`**.
 
-Art Direction still holds final Animal normal/tangent production adoption until deformed transported direction-frame equivalence is repaired. Runtime did not duplicate that Rigging / Materials / Art work.
-
-The distinct remaining import-budget gap in the current exact producer is `WEIGHTS_0`: 84 render vertices × 4 slots are still stored as FLOAT32 VEC4, or **1,344 B**.
+Geometry and Hard Surface explicitly leave exact runtime payload/device cost to Runtime instead of inferring it from source triangle counts. Materials / Art / Environment acceptance does not transfer automatically between those identities.
 
 Selected bounded question:
 
-> Can the current exact Animal skin weights be stored as normalized glTF `UNSIGNED_SHORT VEC4`, with deterministic exact integer row sums, bounded decoded error, unchanged unrelated accessor payloads, real Godot import/deformation evidence, retained visual tradeoff evidence, and no silent bypass of the current UC receiver contract?
+> What does the exact `1420v / 2884t -> 1004v / 2052t` compact-v2 change buy after conversion to the same explicit hard-edge render domain, and what visual delta does that retriangulation actually produce in pinned Godot evidence?
 
 ## Owning implementation lane
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Repository: `mike-axiom-mir/axm-building-design`
 
-Draft Runtime PR: **#27 — `Runtime: compact Animal skin weights to normalized u16`**
+Draft Runtime PR: **#10 — `Runtime: characterize compact Building shell representation cost`**
 
-Branch: `studio/runtime-animal-weight-width-budget-001`
+Branch: `studio/runtime-building-compact-shell-budget-001`
 
-Current Technical Art base head:
+Exact Hard-Surface base head:
 
-`54c9c11505e798a56619ebc14e9ab41f522eef70`
+`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`
 
 Exact final tested Runtime head:
 
-`e7874c4a8dca1db48bc66f3546c2134f7d724456`
+`148c34b522e3496fd9c39c1b038aa9b78a157ed1`
 
-PR #27 is **OPEN / DRAFT / MERGEABLE** at final check.
+PR #10 is **OPEN / DRAFT / MERGEABLE** at final check.
 
-The lane was initially created against the previous Technical Art head before any final evidence was claimed. During the same activation, the live base was found to have advanced because Technical Art adopted the prior JOINTS optimization. Runtime therefore rebuilt/rebound the lane to exact current head `54c9c115...` before accepting evidence. The superseded pre-evidence base is documented in PR #27 rather than silently treated as current.
+## Measure-before representation contract
 
-## Exact measure-before control
+Runtime does not reuse the logical Geometry counts as a fake GPU-memory claim. Both exact meshes are converted to the same bounded render representation:
 
-Current Technical Art producer artifact:
+- one surface;
+- FLOAT32 position;
+- explicit per-face normal;
+- UINT32 indices;
+- one neutral material;
+- deduplication only for identical final `(position, face normal)` tuples.
 
-- artifact ID: **`10477320699`**;
-- producer GLB SHA-256: **`8d9bfb80369bda09eaad786a35833cd5e04da5e608211f53648daaa1cde29566`**;
-- complete GLB size: **`10,948 B`**;
-- render vertices: **84**;
-- weight slots per vertex: **4**;
-- control `WEIGHTS_0`: FLOAT / component type **5126**;
-- exact control WEIGHTS payload: **`1,344 B`**.
+That preserves hard-edge normal splits. It does not infer UV, tangent, material-role, skin, morph, custom-channel, collision or Environment equivalence.
 
-Bounded candidate:
+Exact control render domain:
 
-- `WEIGHTS_0`: normalized `UNSIGNED_SHORT / 5123`;
-- exact candidate WEIGHTS payload: **`672 B`**;
-- deterministic largest-remainder quantization makes every four-slot integer row sum exactly to `65535` after source-row normalization;
-- malformed/out-of-range/non-unit rows and unsupported interleaved layouts fail closed.
+- stored hard-edge vertices: **2,272**;
+- indices: **8,652**;
+- triangles: **2,884**;
+- modeled position+normal+u32-index payload: **89,136 B**.
 
-## Exact measured representation result
+Exact compact-v2 render domain:
 
-The representation reduction itself is real and retained:
+- stored hard-edge vertices: **1,856**;
+- indices: **6,156**;
+- triangles: **2,052**;
+- modeled payload: **69,168 B**.
 
-- WEIGHTS payload: **`1,344 B -> 672 B`**;
-- exact accessor saving: **`672 B / 50%`**;
-- complete GLB: **`10,948 B -> 10,296 B`**;
-- exact complete-file saving: **`652 B / 5.9554256485202774%`**;
-- candidate GLB SHA-256: **`81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`**;
-- maximum decoded scalar weight error: **`6.656398159820068e-06`**;
-- maximum candidate row-sum error: **`0.0`**;
-- all non-`WEIGHTS_0` accessor payload hashes: **identical**.
+Measured modeled saving:
 
-This is not promoted to producer adoption because the current generic UC receiver exposes a stronger compatibility boundary.
+- **19,968 B**;
+- **22.401723209%**.
 
-## Current UC receiver boundary — explicit HOLD
+This is a bounded payload model, not a target-device VRAM claim.
 
-Pinned current Universal Creation head:
+## Failed predecessor retained and repaired
 
-`e6826acbc7296ba77d25534c8d3d3770ff3fa747`
+Workflow **`35176198408`** failed before any valid render A/B because the Godot proof observer inferred `radius` through generic `max()` and Godot treated the resulting Variant-inference warning as a parse error.
 
-Pinned generic codec blob:
+The failed artifact is retained. It already proved the measure-before representation numbers above, but it did **not** establish runtime counters or visual equivalence.
 
-`b1f2e68bb6c6800af5496decc95a8044d141edc9`
+Runtime repaired only the observer typing by using explicit float / `maxf`. No geometry, material, camera, threshold, source identity or adoption boundary was weakened.
 
-The current `rigged-gltf-codec.js` requires `WEIGHTS_0` to be VEC4 with FLOAT component type `5126`. It accepts the FLOAT control but rejects the normalized-u16 candidate with the exact primary error:
-
-**`WEIGHTS_0 accessor invalid`**
-
-The first current-head Runtime workflow `35172433018` failed at that receiver boundary. Runtime retained the failure as provenance, inspected the exact receiver condition, and converted the lane into an explicit compatibility HOLD rather than weakening or bypassing UC.
-
-Current scoped result:
-
-**`HOLD_ANIMAL_GLB_WEIGHT_WIDTH_COMPACTION__CURRENT_UC_RIGGED_CODEC_FLOAT_ONLY`**
-
-Decision:
-
-**`HOLD_TECHNICAL_ART_WEIGHT_STORAGE_ADOPTION__CURRENT_UC_RIGGED_CODEC_FLOAT_ONLY`**
-
-Universal Creation is unchanged. Runtime requests no automatic UC widening and no producer adoption.
-
-## Real Godot downstream evidence
+## Real Godot proof-host result
 
 Final dedicated exact-head workflow:
 
-**`35172575874 — Runtime Animal weight width budget evidence — SUCCESS`**
+**`35176328709 — Runtime Building compact-shell budget evidence — SUCCESS`**
 
-A green workflow here means the HOLD and downstream evidence were proved, not that the candidate is approved for adoption.
+Pinned host:
 
-Real Godot **4.7.2 stable**, GL Compatibility, X11 / llvmpipe imported both exact representations in separate processes.
+- Godot **4.7.2 stable**;
+- GL Compatibility;
+- X11 / llvmpipe;
+- separate control and candidate processes;
+- two fixed `960x720` cameras.
 
-Across five retained pose observations per representation:
+Across both fixed cameras, exact proof-host deltas are:
 
-- maximum control/candidate pose-receipt delta: **`0.0`**;
-- triangle count: **80** at every retained pose;
-- material bindings: **identical**;
-- both coverage masks: **byte-identical**.
+- draw calls: **0**;
+- objects: **0**;
+- primitives: **-2,496**;
+- observed RenderingServer buffer memory: **-13,312 B**;
+- observed texture memory: **0 B**.
 
-The final workflow also mutates the claimed candidate component identity back to FLOAT and verifies the receipt fails closed.
+The `-2,496` primitive delta is larger than the logical `-832` triangle count because the proof host renders the mesh through multiple passes. Runtime records the measured counter rather than relabelling it as source triangles.
+
+Scoped state:
+
+**`PASS_BUILDING_COMPACT_SHELL_RUNTIME_REPRESENTATION_COST_CHARACTERIZED__HOLD_VISUAL_AND_RECEIVER_ADOPTION`**
+
+Decision:
+
+**`COMPACT_V2_HAS_REAL_RENDER_DOMAIN_AND_PRIMITIVE_COST_REDUCTION__ADOPTION_REMAINS_WITH_MATERIALS_ART_ENVIRONMENT_AND_TECHNICAL_ART`**
+
+The workflow also mutates the candidate primitive receipt to remove the measured reduction and verifies the report fails closed.
 
 ## Visual tradeoff for Art Direction / Visual QA
 
-The candidate is **not pixel-identical** to the FLOAT control.
+The compact retriangulation is **not byte-identical** to the reference in the fixed proof views.
 
-Two fixed `960x720` peak-pose views were retained:
+`front_oblique`:
 
-- view 00: **21 changed pixels**, maximum channel delta **1 LSB**;
-- view 01: **203 changed pixels**, maximum channel delta **1 LSB**;
-- combined visible delta: **224 changed pixels**;
-- both corresponding coverage masks: **byte-identical**.
+- changed pixels: **1**;
+- coordinate: **`(565, 477)`**;
+- control RGB: **`(72, 86, 103)`**;
+- candidate RGB: **`(106, 125, 145)`**;
+- maximum channel delta: **42 LSB**.
+
+`rear_oblique`:
+
+- changed pixels: **6**;
+- maximum channel delta: **1 LSB**.
+
+Total changed fixed-view pixels: **7**.
 
 Visual tradeoff state:
 
-**`NONZERO_FIXED_VIEW_PIXEL_DELTA__ART_DIRECTOR_REVIEW_REQUIRED`**
+**`MEASURED_RETRIANGULATION_RENDER_DELTA__ART_REVIEW_REQUIRED`**
 
-Runtime does not reinterpret this as aesthetic acceptance. If Technical Art / UC Integration ever widens the generic receiver, Art Direction / Visual QA must retain authority over whether the one-LSB shading difference is acceptable.
+The front-view one-pixel difference is materially larger in channel magnitude than the six rear-view one-LSB differences, so Runtime does not call this visually neutral even though spatial extent is tiny. Materials / Art / Visual QA retain acceptance authority.
 
 ## Retained evidence
 
-Final artifact:
+Final retained artifact:
 
-- workflow: **`35172575874`**;
-- artifact ID: **`10477292250`**;
-- size: **`143,833 B`**;
-- archive SHA-256: **`76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`**;
+- workflow: **`35176328709`**;
+- artifact ID: **`10478309311`**;
+- size: **`99,749 B`**;
+- archive SHA-256: **`1e3008d884180f9804ed122b5277a78632ecfad029368eee76bfe45da60b5e65`**;
 - independently downloaded/rehashed SHA-256: **same value**.
 
-The archive retains both GLBs, exact build/final reports, current UC control/candidate receipts, real Godot receipts/logs, five pose observations per representation, both visual A/B pairs and coverage masks, exact-head identity, and fail-closed mutation evidence.
+The archive retains the exact payload, control/candidate Godot logs and receipts, both A/B view pairs, final report, exact-head identity and the deliberate fail-closed mutation receipt.
 
 ## Reusable learning / capability placement
 
-This pass strengthens the import-budget rule from the prior JOINTS work:
+This pass adds a stronger Runtime rule for geometry compaction:
 
-> **A legal narrower glTF representation is not automatically a usable constellation representation. Measure payload reduction first, then prove every live receiver. If a generic receiver has a narrower contract, preserve that incompatibility as an explicit HOLD rather than patching around it. Quantized attributes also require visual evidence even when pose/geometry receipts remain identical.**
+> **Do not infer runtime savings from logical topology counts. Convert both representations through the same final-attribute render-domain rule, then measure the real consumer. Planar retriangulation can preserve geometric boundary/volume invariants while still changing a few rasterized pixels, so performance evidence and visual acceptance remain separate gates.**
 
-The normalized-u16 WEIGHTS representation is demonstrably compact and Godot-usable for this exact asset, but current UC compatibility is part of the product contract. Therefore this remains an evidence donor, not a universal transform or UC extraction candidate.
+The exact compact-v2 receiver now has a real bounded cost advantage, but this single Building case does not justify a generic UC simplifier. A reusable transform would still need broader domains plus UV/tangent/material/seam/deformation/import evidence.
 
 ## Handoffs
 
-- **Runtime PR #27:** final exact result comment `5707292415`.
-- **Technical Art PR #3:** compatibility/adoption handoff comment `5707293785`; no automatic UC or producer change requested.
-- **Art Direction / Visual QA:** 224 one-LSB fixed-view pixels are retained for review only if the UC receiver boundary is later changed.
-- **Rigging / Materials:** no authority transfer; the existing deformed normal/tangent direction-frame HOLD remains intact.
+- **Runtime PR #10:** exact measured result and visual tradeoff retained in the PR body.
+- **Hard-Surface PR #9:** receives the exact Runtime cost characterization for optional receiving-representation decisions; no automatic default/adoption requested.
+- **Geometry PR #8:** receives proof that its logical reduction survives a hard-edge render-domain conversion and real Godot primitive/buffer counters.
+- **Art Direction / Visual QA:** receives the one 42-LSB pixel plus six one-LSB pixels for review; Runtime does not approve appearance.
+- **Materials / Environment / Technical Art:** prior evidence does not transfer across receiving identities; exact rebind remains required.
 
 ## Historical continuity
 
-The detailed twenty-third Runtime pass remains preserved at coordination commit:
+The complete twenty-fourth Runtime pass remains preserved at coordination commit:
 
-`f7a546c9c8a1cd7d07fb8a6e5638ecaa7c5e2001`
+`523889f3c327659ef9866649a26fe4f2f6ddd086`
 
-That pass proved the narrower `JOINTS_0` storage candidate; Technical Art subsequently adopted its core storage-width rule in the producer at `54c9c115...`.
+That pass measured normalized-u16 Animal weights and preserved the current UC FLOAT-only receiver HOLD.
 
-The twenty-second tangent-ready indexing pass remains preserved at `85689cc88c5c6c5f2f10181bbb6875bf8cfc95e6`; the twenty-first explicit-normal indexing pass remains preserved at `344abbeb07861cfc338992e15f9d541c8252dd62`. Earlier Object, footprint, Weather, Building and Animation runtime passes remain historical truth.
+The twenty-third pass remains preserved at `f7a546c9c8a1cd7d07fb8a6e5638ecaa7c5e2001`; earlier indexing, Weather, Object, footprint, Building material-submission and animation passes remain historical truth.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- that current UC should accept normalized integer skin weights;
-- automatic Technical Art producer adoption;
-- final Art Direction acceptance of the one-LSB render difference;
-- repair of the deformed normal/tangent direction-frame HOLD;
-- deformed tangent-space correctness;
+- automatic Hard-Surface compact-v2 default/adoption;
+- Materials, Art Direction, Visual QA, Environment or Technical Art acceptance of compact v2;
+- UV/tangent/material-role equivalence;
 - target-device CPU/GPU frame time or FPS improvement;
 - target-device VRAM or heap reduction;
-- import-time speed improvement;
-- generic sparse/interleaved/multi-primitive/multi-mesh/multi-skin safety;
-- arbitrary engine/importer equivalence;
-- gameplay, controller, physics or collision behavior;
+- arbitrary-view visual equivalence;
+- arbitrary-mesh planar simplification safety;
+- collision/navigation/physics/gameplay equivalence;
 - UC extraction or Profession Fabric promotion;
 - CANON;
 - production/game readiness;
@@ -202,12 +203,12 @@ This activation does **not** prove:
 
 ## Four-root check
 
-**Truth:** the payload saving, quantization error, current UC rejection, successful Godot import and nonzero visual delta remain separate measured facts. The failed receiver run is retained rather than rewritten away.
+**Truth:** logical topology reduction, render-domain payload reduction, real proof-host counters and nonzero pixel differences remain separately recorded. The first failed workflow is retained rather than rewritten away.
 
-**Agency / non-domination:** Runtime owns the bounded measurement only. Technical Art / UC Integration retains receiver and producer-adoption authority; Art Direction / Visual QA retains appearance authority; Rigging and Materials retain deformation/lookdev authority.
+**Agency / non-domination:** Runtime owns measurement only. Hard Surface owns receiving-representation policy; Materials / Art / Visual QA own look acceptance; Environment owns world adoption; Technical Art owns transport; Geometry owns the compaction algorithm.
 
-**Continuity:** current Technical Art head, producer artifact, UC head/blob, failed and successful workflow identities, control/candidate hashes, artifact digest, handoff comments and prior Runtime coordination commits are all preserved.
+**Continuity:** exact parent/head identities, failed and successful workflow IDs, retained artifact digest, measured render-domain contract, visual coordinates/deltas and prior Runtime coordination commit are preserved.
 
-**Wisdom before speed:** a 652-byte whole-file reduction is not worth silently weakening a live compatibility boundary. The compact representation is kept as evidence until receiver ownership and visual tradeoff are deliberately reviewed.
+**Wisdom before speed:** the compact receiver has a real measured cost win, but seven changed pixels—including one 42-LSB coverage/shading pixel—are enough to keep visual and receiver adoption explicit instead of silently calling the representation equivalent.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
