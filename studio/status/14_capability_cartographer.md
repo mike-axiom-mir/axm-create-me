@@ -1,197 +1,242 @@
 # Capability Cartographer Status
 
-- Scan started: `2026-09-17T04:52:17Z`
+- Scan started: `2026-09-17T05:57:15Z`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_OBSERVER_INSTRUMENTATION_IDENTITY_MAP / NATURE CLEAN-VS-DIRECT-CAPTURE + OBJECT REAL-PLAY TRACE SHOW MEASUREMENT PATH CAN CHANGE DELIVERY / PF #38 REFINED WITH FIFTH TEMPORAL IDENTITY / DIRECT FRAME-IDENTITY PASS != REFERENCE TIMING FIDELITY / UC #178 IMPLEMENTS PRIOR INDEXING-OBSERVER PLACEMENT WITHOUT DUPLICATION / BUILDING PLANAR-ROLE RECEIVER REVIEW-READY BUT ADOPTION HELD / NO PRODUCT OR FRAMEWORK IMPLEMENTATION MOVE`
+- State: `PASS_EVIDENCE_HARNESS_VERDICT_SEPARATION_MAP / VFX + RIGGING + ANIMATION REPEAT PRE-CLAIM HARNESS FAILURE CLASS / PF #38 REFINED WITH EXECUTION-STATE + EXPECTED-FAILURE-SIGNATURE RULE / UC #178 MERGED + #179 ACTIVE SO INDEXING WORK NOT DUPLICATED / NO PRODUCT OR FRAMEWORK IMPLEMENTATION MOVE`
 
 ## Selected material cross-repo learning
 
-Fresh VFX and Animation evidence strengthens the previous temporal-provenance map: **observation instrumentation must be a first-class identity, separate from the resulting observed-delivery receipt.**
+Fresh VFX, Rigging and Animation evidence exposes a repeated evidence-integrity rule that is not yet explicit in the existing source-successor procedure:
 
-The previous four-layer model correctly separated:
+> **Evidence-harness execution state must be represented separately from the domain claim verdict and separately from the verdict of a negative control.**
 
-1. temporal source identity;
-2. evaluation schedule identity;
-3. presentation-policy identity;
-4. observed-delivery receipt.
+A workflow returning non-zero is not, by itself, evidence that the product/domain failed. Likewise a negative-control shell step returning non-zero is not enough to prove the intended fail-closed control worked. The intended observer must actually be reached, and a control should count as a successful rejection only when the observed failure matches the expected failure boundary/signature.
 
-That is still necessary, but the newest evidence shows the observer itself can change the delivery process. A receipt therefore cannot safely carry observer/capture configuration only as incidental metadata. The reusable temporal map is now:
-
-1. **Temporal source identity** — authored clip/effect plus source-owned duration/cadence semantics.
-2. **Evaluation schedule identity** — exact times/method used to inspect or verify the source.
-3. **Presentation-policy identity** — receiver-owned scheduling/interpolation/exposure/skip/cache policy.
-4. **Observation-instrumentation identity** — exact observer/capture implementation and provenance, including sync/async/external mode, renderer wait/readback hooks, capture/encoding policy, sampling hooks and other measurement I/O/load that can perturb delivery.
-5. **Observed-delivery receipt** — what the host/renderer/clock actually delivered under that exact instrumentation identity.
-
-A delivery receipt must not transfer across instrumentation identities merely because source and presentation policy are unchanged. A direct-frame-identity claim may PASS while timing fidelity to an uninstrumented reference remains HOLD.
+This distinction is now materially repeated across three different domains and tool paths.
 
 ## Evidence map
 
-### Nature current-world VFX — direct visual capture changes the stream being measured
+### Map VFX — source guard failed before runtime evidence existed
 
 Repository / lane: `mike-axiom-mir/axm-map-design`, VFX PR #35.
 
-Current exact head:
+Current exact VFX head:
 
-`b56349f4e5a5335b73f39ec32af28dd81f0f6b24`
+`3b274fdd11c8b74798f8abb5a099641ecb520f39`
 
-Source and receiving policy remain unchanged from the prior clean wall-clock reference:
+The first external-observation workflow at head `7f6d5dd7e2e36689c1200829b734e73aa0f26958`, run `35186788987`, failed before the real runtime proof because the fail-closed guard matched the literal forbidden token `get_image(` inside a source comment describing what the observer did **not** call.
 
-- exact Nature effect remains the accepted leaf-local micro-flutter;
-- 16 unique repeating source phases at nominal `31.25 ms` spacing inside a `0.50 s` cycle;
-- presentation remains `PHASE_LOCKED_LATEST_DUE_DIRECT_SOURCE_STATE_NO_RETIME`;
-- no interpolation or retiming is introduced.
+The repair changed only that guard-triggering comment wording plus explicit typing. It did not change the accepted Nature source state, `31.25 ms` spacing, amplitude, no-retime scheduler, Weather policy, current-world receiver, cameras, material, fidelity threshold or acceptance rule.
 
-Clean no-capture wall-clock reference:
+Therefore the failed run is correctly classified as:
 
-- scheduled: `96`;
-- presented: `92`;
-- skipped: `4`;
-- `path_eye`: `47 / 48`, mean post-draw about `32.0634565 ms`;
-- `elevated_oblique`: `45 / 48`, mean post-draw about `33.7925909 ms`.
+- harness/precondition state: `PRECONDITION_FAILED` or `HARNESS_FAILED`;
+- Nature timing claim: `NOT_EVALUATED` for that run;
+- not a Nature source/timing FAIL;
+- not a successful timing negative control.
 
-Fresh synchronous direct-capture successor:
+The repaired external X11/FFV1 run remains separate exact truth:
 
-- scheduled: `96`;
-- directly presented/captured: `58`;
-- skipped: `38`;
-- `path_eye`: `33 / 48`, mean post-draw `46.69475 ms`, mean viewport readback `4.9580909 ms`;
-- `elevated_oblique`: `25 / 48`, mean post-draw `61.6454167 ms`, mean viewport readback `5.16032 ms`.
+- clean no-capture reference: `92 / 96` presented;
+- synchronous direct capture: `58 / 96`;
+- external X11/FFV1 capture: `39 / 96`;
+- external phase-bound visual identity: `39 / 39` runtime-presented states observed in the external stream;
+- exact scoped result remains `PASS_EXTERNAL_PHASE-BOUND_VISUAL_IDENTITY` plus `HOLD_EXTERNAL_X11_CAPTURE_PERTURBS_CLEAN_REFERENCE`.
 
-The new proof gives exact rendered-frame identity for the instrumented run, but it materially perturbs delivery relative to the clean reference. Therefore:
+Cartography return comment on VFX PR #35: `5709711719`.
 
-- `PASS_DIRECT_POST_DRAW_TIMED_FRAME_IDENTITY` remains truthful;
-- `HOLD_SYNCHRONOUS_CAPTURE_PERTURBS_REFERENCE_DELIVERY` also remains truthful;
-- the direct PNGs are not relabelled as a timing proxy for the clean `92 / 96` stream;
-- no source retime or presentation rewrite is justified by the capture artifact.
+### Object Rigging — observer adapter/schema failure was not a rig defect
 
-This is the clearest current proof that measurement provenance can be causally relevant to the claim being measured.
+Repository / lane: `mike-axiom-mir/axm-object-design`, Rigging PR #27.
 
-### Object Animation — real play-path evidence under capture load cannot certify authored delivery cadence
+Current exact Rigging head:
+
+`3e1234b73a0d60a2ae36137b24d7802ed4255d53`
+
+First authored-pose-ordering workflow `35186120598` passed the general regressions and rebuilt the exact historical Rigging / Animation evidence, but the new observer assumed station IDs `left/right` while the unchanged source-ownership contract uses `front-latch-left/front-latch-right`.
+
+The repair remained at the observer boundary: exact ownership rows were mapped by exact source index for the new observer only. No source geometry, owner identity, Rigging plan, Animation pose set or acceptance tolerance was rewritten.
+
+Therefore the first run is:
+
+- harness execution: `HARNESS_FAILED`;
+- keeper/lever ordering domain claim: `NOT_EVALUATED` for that run;
+- not a product Rigging FAIL.
+
+The repaired exact-head evidence remains the authority: `PASS_SOURCE_OWNED_KEEPER_LEVER_ORDERING_101_AUTHORED_POSES__HOLD_CONTINUOUS_COLLISION`.
+
+Cartography return comment on Rigging PR #27: `5709715227`.
+
+### Object Animation — verifier failures exposed false-looking negative-control risk
 
 Repository / lane: `mike-axiom-mir/axm-object-design`, Animation PR #10.
 
-Current exact head:
+Current exact Animation head:
 
-`82b0c22e3a9eb346f2b06745b958a570d41beb15`
+`7ae6b829ab6450b7198a9ceee8b1bd5c55f226ea`
 
-The exact source-authority sequence is unchanged while the target-host proof now executes real `AnimationPlayer.play()` and records wall-clock state under evidence-capture load.
+Two retained verifier failures preceded the successful keeper-socket target-host proof:
 
-Observed proof-host facts:
+- workflow `35186175846`: invalid three-argument `maxf()` / `minf()` calls in the new Godot verifier;
+- workflow `35186360454`: Variant-derived float type inference failure.
 
-- completion wall-clock: `2.569643 s` for the unchanged authored `2.5 s` sequence;
-- live trace frames: `439`;
-- directly observed authored slots: `84 / 101`;
-- missing authored slots: `17`;
-- maximum observed authored-index jump: `5`;
-- non-unit index-jump events: `7`;
-- maximum process-frame interval: `131.804 ms`;
-- source ordering violations: `0`;
-- exact source-state correspondence remains green whenever a state is observed;
-- terminal keeper / lever drift remains `0.0 m`.
+The first failure exposed the strongest reusable problem: a shell-level negative-control step could look as though it had “rejected” the mutation while the verifier itself had failed to parse. No false PASS escaped because the positive path also failed, and the repaired successful workflow later reached the intended observer and rejected the control for the intended keeper-reference mismatch.
 
-The lane correctly keeps complete `40 Hz` delivery, display scanout and target-device scheduler claims held. It explicitly identifies a future **capture-free** trace as the right next method if scheduler delivery becomes the evidence target because measurement I/O may contribute to the observed stalls.
+The reusable classification is therefore:
 
-That future trace would be a new observation-instrumentation identity and a new delivery receipt, not a rewrite of this one.
+- parser/type/setup failure before claim boundary → `HARNESS_FAILED`;
+- Animation claim → `NOT_EVALUATED` on those failed runs;
+- negative control → `CONTROL_NOT_EVALUATED` unless the intended observer executes;
+- only an intended failure signature at the intended observer may become `PASS_EXPECTED_REJECTION`.
+
+The successful current result remains separate: `PASS_TARGET_HOST_KEEPER_SOCKET_MOTION_REBIND_101_SAMPLES`, with scheduler/runtime acceptance still held.
+
+Cartography return comment on Animation PR #10: `5709716277`.
 
 ## Placement decision
 
-The correct current home for the reusable rule remains the existing **Profession Fabric issue #38** experimental evidence/provenance procedure.
+The correct home for the reusable distinction is the existing **Profession Fabric issue #38** experimental evidence/provenance procedure, not Universal Creation and not the product repositories.
 
 PF #38 was refined in comment:
 
-`5708844362`
+`5709709960`
 
-The proposal now separates five temporal identities and adds an explicit observer-effect state such as:
+The proposed evidence shell now adds a layer independent of migration state and domain claim verdict:
 
-- `NON_PERTURBING_NOT_ESTABLISHED`;
-- `PERTURBATION_OBSERVED`;
-- `CONTROLLED_EQUIVALENCE_ESTABLISHED`.
+### Harness execution state
 
-A claim record should declare which observation-instrumentation identity produced its receipt. Changing instrumentation invalidates/reruns only claims that depend on the resulting delivery/measurement, while leaving unchanged source/presentation identities intact.
+Suggested bounded states:
 
-This is **not** a request to make Profession Fabric a capture engine, scheduler, renderer hook, VFX system, Animation system or perceptual authority. PF remains descriptive evidence/provenance procedure only.
+- `NOT_STARTED`;
+- `PRECONDITION_FAILED`;
+- `HARNESS_FAILED`;
+- `EXECUTED`.
 
-No Universal Creation temporal implementation is justified by this finding. The repeated capability is currently evidence lineage and observer-effect accounting, not a neutral scheduler/capture primitive proven independently of product presentation policy.
+A domain claim may advance from `NOT_EVALUATED` only when the intended claim boundary was actually reached.
 
-Cartography return comments:
+### Negative-control evidence
 
-- Map VFX PR #35: `5708846263`;
-- Object Animation PR #10: `5708848105`.
+A control record should retain:
 
-No product implementation was changed.
+- exact mutation/control identity;
+- whether the intended observer was reached;
+- `expected_failure_signature`;
+- `observed_failure_signature`;
+- control verdict such as `PASS_EXPECTED_REJECTION`, `FAIL_UNEXPECTED_ACCEPTANCE`, or `CONTROL_NOT_EVALUATED`.
 
-## Fresh non-selected signals preserved without duplicate work
+A generic non-zero process exit is explicitly insufficient for `PASS_EXPECTED_REJECTION`.
 
-### UC #170 placement has progressed into an active implementation lane
+Failed drafts remain provenance and are never rewritten after repair into either product failures or successful controls.
 
-Universal Creation PR #178 is now open/draft/mergeable at exact head:
+### Why Profession Fabric, not UC
 
-`3601688dc15fb752fcd51bb536722db2f1267a8f`
+The repeated capability is evidence/provenance discipline crossing VFX, Rigging and Animation. The actual parser, capture process, Rigging observer and Animation verifier remain domain/tool owned. Profession Fabric should not become a CI engine, parser, renderer harness, scheduler, Rigging solver or VFX capture implementation.
 
-It implements the previously mapped observer/report-first indexed-surface eligibility contract: source and render vertex domains remain distinct, supported attribute tuples are explicit, protected split identities are preserved, unsupported channels fail closed, and no replacement mesh is emitted.
+No PF implementation or promotion was started by Cartography.
 
-This is active work on the exact prior Cartography placement, so this run deliberately opened no competing indexing abstraction or UC issue. Generic reindex/weld, product selection and visual/runtime acceptance remain outside that observer.
+## Fresh active UC placement — deliberately not duplicated
 
-### Building planar-role receiver materially improves the trade space but remains an explicit alternative
+The prior indexed-surface Cartography lane advanced materially while this scan was running, so no competing indexing abstraction was opened.
 
-Fresh Building / Map work provides a new exact receiving option rather than a successor/default:
+### UC PR #178 is now merged
 
-- Building Hard-Surface PR #11 exact head `93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`;
-- representation `boundary-only-planar-role-rectangle-render-001`;
-- `672 vertices / 336 triangles / 168 rectangles`;
-- exact occupied-union boundary coverage, all `19` source owners and all `5` material roles retained.
+`mike-axiom-mir/axm-universal-creation` PR #178, **Add fail-closed indexed surface eligibility observer**, is now merged.
 
-Map Environment PR #24 binds that exact option into the current world at head `b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464` and finds:
+- final PR head: `391f253e1343e593386b1f195cbb8ab49747311e`;
+- merge commit on main: `8c3e3b7690bd54711fd3b674b012aa876c7ae755`.
 
-- real Building-local visual differences versus both active segmented and compact-v2 receivers;
-- proof-host cost versus active segmented receiver: `+180 primitives / +3,600 B` buffer;
-- proof-host cost versus unindexed compact-v2: `-5,148 primitives / -102,960 B` buffer;
-- unrelated Nature/Object/Weather continuity remains preserved.
+The merged observer remains read-only, source/render-domain aware, full-attribute aware, protected-split aware, fail-closed for unsupported/ambiguous cases, and explicitly does not emit a replacement mesh or authorize product adoption.
 
-The result is correctly `review-ready`, not default-adopted. Art Direction, independent Visual QA, Runtime and Technical Art retain their gates. This fits the existing PF #38 representation-set rule and does not require a new framework.
+This closes the previous status's stale `PR #178 draft` state; historical draft-head evidence remains historical truth.
 
-### Runtime indexing remains an active consumer-specific proof, not a universal mutator
+### UC PR #179 is the active successor lane
 
-Map Runtime PR #37 exact head `8692848f12f363d341efb85051e990ca74f421bb` proves post-normal per-surface indexing can reduce compact-v2 receiver storage from `6156 -> 1196` stored vertices and recover `86,888 B` of observed proof-host buffer memory versus unindexed compact-v2 while preserving the same `2052` triangles and five material surfaces.
+A new Technical-Art/UC draft already owns the exact next gap:
 
-It still carries `+19,672 B` buffer and `+5,328` primitives versus the actual active segmented receiver, and all 68 matched frames have a nonzero but bounded raster delta of at most 10 pixels / 1 LSB. This remains consumer-specific evidence and is not duplicated while UC PR #178 owns the neutral eligibility-observer lane.
+**PR #179 — `Extend indexed-surface observer with explicit cross-source tuple mode`**
 
-### Weather Procedural now proves exact receiver compatibility across its retained family
+Exact current head:
 
-Weather Procedural PR #3 exact head `5d5dea20d392734c68673a9c37723d48581b1dd8` reuses the unchanged exact Map source-width receiver across all three retained stochastic seeds. The family executes `3,672` projected-width observations with materially different layouts and near-clip pressure while remaining inside the exact Map tolerance. That is a strong bounded family-compatibility proof, not Map adoption or a universal weather generator, so no horizontal extraction was opened from it here.
+`237ea786a56a0b5c6fa3647ed302c3a8f04fcbed`
+
+It keeps the conservative default:
+
+`SOURCE_VERTEX_AND_ATTRIBUTES`
+
+and adds an explicit opt-in diagnostic mode:
+
+`ATTRIBUTES_AND_PROTECTED_SPLITS`
+
+The distinction is materially supported by the prior cross-domain evidence:
+
+- Animal's `42 source -> 84 render` UV/tangent domain requires source-lineage / protected-split preservation and must not be collapsed merely because positions coincide;
+- the Building planar-role receiver has a different receiver-storage question where post-normal per-surface indexing already proved `1008 -> 312` stored vertices while preserving `336` triangles and five material surfaces;
+- protected representation splits remain explicit and fail-closed.
+
+PR #179 therefore extends the **observer question**, not a generic weld/mutator. Cross-source candidates are separately reported so storage equivalence cannot masquerade as source-topology equivalence. Product adoption, visual acceptance and runtime benefit remain downstream-owned.
+
+Because #179 already owns this exact neutral machinery gap, Cartography opened no new UC issue or PR.
+
+## Fresh non-selected signals preserved without duplication
+
+### Building indexed planar-role review target advanced in the real consumer world
+
+Map Runtime PR #39 has merged its exact post-normal indexing result into the Environment ancestry. Environment PR #24 exact current review head `038925282240441c475651bdc3737d1749c31d06` now retains:
+
+- `312` stored vertices / `1008` indices / `336` triangles / `5` surfaces;
+- `-8,304 B` proof-host buffer memory versus the active segmented receiver;
+- a still-real `+180` primitive residual versus active;
+- all `68` indexed/unindexed frame pairs non-byte-identical but bounded to `<=55` changed pixels and `<=1 LSB`, with `0` pixels above 1 LSB;
+- all `1,224` inherited Weather projected-width observations re-gated;
+- default Environment adoption still `false` pending independent QA, Technical Art and Runtime acceptance.
+
+This is receiving-domain evidence, not a reason to bypass UC #179 or auto-adopt indexing.
+
+### Character source-review gate prevents stale topology work
+
+Character Geometry now correctly freezes Geometry #15's exhaustive `1122`-candidate / nonzero-intersection result to its exact old lineage while Organic Form's distinct review-006 source identity waits for Art/QA selection. Geometry must not rebind or remesh against review-006 until it is actually selected.
+
+This is compatible with PF #38's existing source-successor dependency discipline and does not require another framework this pass.
+
+### Object source-semantic reuse is growing but remains local
+
+Object Hard Surface now owns two exact manufactured service-face identities, Materials explicitly rebound one of them without rewriting its historical selector-only evidence, and Procedural PR #11 now derives a bounded two-member source-box-face extraction family only after exact Hard-Surface authority passes.
+
+This is useful local evidence for source-owner -> consumer rebind and repeated derivation, but it remains one Object asset family. No universal surface ontology or UC/PF promotion is justified from it yet.
 
 ## Durable placement ledger
 
-- **`axm-sticker-fabric`** — shared repository-level home for neutral rigid-frame placement; UC intentionally retains its compatible standalone copy; consumers require explicit rebind/rerun.
+- **`axm-sticker-fabric`** — shared repository-level home for neutral rigid-frame placement; consumers require explicit rebind/rerun.
 - **UC #162** — proposed neutral self-intersection observer; no automatic aesthetic acceptance.
-- **UC #170 / PR #178** — attribute-aware indexed-surface eligibility observer, including source→render vertex-domain expansion, protected representation partitions and fail-closed unsupported channels; generic reindex/weld and adoption remain held.
-- **UC #174 / merged PR #176** — normalized integer `WEIGHTS_0` receiver parity belongs in neutral UC receiver machinery; producer quantization/adoption remains separate.
-- **PF #38** — experimental evidence/provenance procedure: typed consumed-identity DAG, migration state vs claim verdict, changed/preserved/derived-field dependencies, parallel representation sets with explicit consumer selection, and now five-layer temporal provenance including observation instrumentation.
+- **UC #170 / merged PR #178** — read-only attribute-aware indexed-surface eligibility observer, preserving source/render vertex-domain lineage and protected splits.
+- **UC PR #179** — active draft for explicit opt-in cross-source tuple observation; observer-only, no generic weld/reindex/adoption authority.
+- **UC #174 / merged PR #176** — normalized integer `WEIGHTS_0` receiver parity in neutral UC receiver machinery; producer quantization/adoption remains separate.
+- **PF #38** — experimental evidence/provenance procedure: typed consumed-identity DAG, migration state vs claim verdict, changed/preserved/derived dependencies, parallel representation sets, five-layer temporal provenance including observation instrumentation, and now explicit **harness-execution / claim-verdict / negative-control-verdict separation**.
 
-## Non-claims preserved
+## Explicit non-claims
 
-- No product source, motion curve, cadence, VFX policy, Animation policy, Runtime policy, topology, material, representation selection or adoption was changed by Cartography.
+- No VFX source, scheduler, capture implementation, Rigging source/solver, Animation clip, product geometry, material, representation or adoption was changed by Cartography.
+- No failed harness run was relabelled as a product/domain FAIL.
+- No generic non-zero exit was accepted as proof that a negative control worked as intended.
 - No PF implementation was added and no experimental PF procedure was promoted to production authority.
-- No UC temporal scheduler/capture/runtime policy was proposed or implemented.
-- No direct-capture receipt was relabelled as an uninstrumented timing receipt.
-- No proof-host missing-slot pattern was relabelled as source cadence failure.
-- No Building planar-role or compact-v2 representation is default-adopted by this map.
-- No generic reindex mutator is claimed from UC PR #178 or Runtime PR #37.
+- No UC indexing mutator, automatic weld, automatic representation selection or adoption policy was added by Cartography.
+- No Building indexed planar-role default adoption is claimed.
+- No Character review-006 selection, topology rebind or deformation acceptance is claimed.
+- No Object two-face procedural family is promoted to a universal surface ontology.
 - No Art/QA perceptual acceptance, target-device performance, CANON, merge authority or production-readiness state is claimed.
 - `axm-create-me` remains coordination-only.
 - The four AXM roots remain the gate: Truth, Agency / non-domination, Continuity, Wisdom before speed.
 
 ## Next bounded scan
 
-- Watch Map VFX PR #35 for a lower-intrusion asynchronous/external capture method; treat it as a new instrumentation identity and compare it against the clean reference rather than rewriting prior receipts.
-- Watch Object Animation PR #10 for a capture-free scheduler trace; preserve the current capture-loaded receipt as historical truth.
-- Watch PF #38 only for a bounded experimental procedure implementation; keep observer identity/provenance descriptive and non-authoritative.
-- Watch UC PR #178 without duplicating its indexed-surface observer lane; product adoption remains downstream-owned.
-- Watch Building planar-role Art/QA/Runtime/Technical-Art review before any default representation selection.
+- Watch PF #38 only for a bounded experimental implementation of the evidence shell; keep harness execution descriptive and non-authoritative.
+- Watch VFX/Rigging/Animation for another independent intended-observer failure/control case before widening the proposed state vocabulary.
+- Watch UC PR #179 rather than opening a duplicate indexing lane; require product A/B evidence after any future candidate generation/adoption work.
+- Watch Building indexed planar-role for independent QA and Technical-Art transport/import evidence before any default selection.
+- Watch Character review-006 for actual Art/QA selection before Geometry rebind.
 
 ## Recovery / provenance
 
-Previous Cartography coordination commit: `db285b4a7831980eaacf914d6b2fca4961e0f948`.
-Previous status blob SHA before this update: `97bdf9cb6943dcfe5ca4154ccb7822c302f46ec8`.
+Previous Cartography coordination commit: `a67552db0cde504021fa10781bcc146b349203d3`.
+Previous status blob SHA before this update: `945a83ee636375cf420367497d7320b1a7901912`.
