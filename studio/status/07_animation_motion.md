@@ -1,170 +1,191 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **PASS_U16_WEIGHT_SUBFRAME_TRAJECTORY_WITHIN_RIGGING_BOUND / MOTION UNCHANGED / TARGET-ENGINE + DIRECTION-FRAME + PRODUCER + GAMEPLAY HELD**
+State: **PASS_TARGET_HOST_SERVICE_DARK_TEXTURE_SURFACE_MOTION_REBIND_101_SAMPLES / MOTION UNCHANGED / PRODUCTION UV-TEXTURE + CONTINUOUS PLAYBACK + GAMEPLAY HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current specialist state, and the newest animation-ready constellation work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current Animation status, and current Rigging / Technical Art / Visual QA / Runtime / Art Direction state across the active 3D constellation.
 
-`axm-create-me` remains **coordination only**. No product asset, source motion, rig, deformation solver, Runtime weight encoder, renderer, controller or gameplay implementation was added here.
+`axm-create-me` remains **coordination only**. No product asset, source motion, rig, material, UV implementation, renderer, runtime controller or gameplay implementation was added here.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- **Object:** Animation PR #10 already owns the current mechanical-motion lane and now has a continuous moving-lid phase guard. No duplicate Object motion lane was opened.
-- **Animal:** Runtime PR #27 and Rigging PR #25 produced the strongest fresh Animation-ready seam: the exact normalized-u16 `WEIGHTS_0` candidate is bounded against the FLOAT control at all 41 authored animation keys, but no Animation-owned witness covered representation error *between* those keys under the exact transported glTF interpolation.
-- **Technical Art / UC:** no production Animal direction-frame receiver or normalized-u16 producer adoption has been accepted. The deformed direction-frame hold remains separate.
-- **Visual QA / Art Direction:** producer/perceptual acceptance remains independent; no named temporal defect justified changing the Animal clip.
-- **Character / Nature / Weather / Map:** no fresher bounded Animation-owned seam displaced the exact Animal Runtime/Rigging handoff.
+- **Object:** existing Animation PR #10 remains the single active Object motion lane. It already carries bounded source motion, phase, keeper/socket, target-host, wall-clock-characterization and mechanical-phase evidence. Technical Art PR #28 supplied the strongest fresh downstream-ready seam: a real two-surface `service_dark` textured GLB had crossed the current UC path into Godot, but Animation had not yet proven that the moving lid-owned textured receiver preserves identity through the exact existing motion while the front-panel-owned receiver remains static.
+- **Animal:** the previous dense normalized-u16 weight subframe guard remains preserved and green as the current Animal temporal baseline. No changed Runtime/Rigging dependency or named motion defect justified another Animal change in this activation.
+- **Character:** remains structurally constrained by its own rig/deformation acceptance state; no motion rewrite was used to hide a non-Animation hold.
+- **Nature / Map / Environment:** no fresher bounded Animation-owned seam displaced the Object Technical Art handoff, and no duplicate motion lane was opened.
+- **Visual QA / Art Direction:** no named timed motion defect required retiming/easing/key changes; perceptual acceptance remains separate.
 
-The existing Animal Animation PR #5 remains the single Animal Animation lane. No new Animation PR was opened.
+## Highest-leverage bounded improvement — exact textured receiving surfaces through unchanged Object motion
 
-## Highest-leverage bounded improvement — dense normalized-u16 weight subframe trajectory guard
+Repository: `mike-axiom-mir/axm-object-design`
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Existing draft PR: **#10 — Animation: prove bounded equipment-case lid open-hold-close clip**
 
-Existing draft PR: **#5 — Animation: prove first bounded quadruped articulation loop**
+Branch: `studio/animation-object-lid-open-close-001`
 
-Branch: `studio/animation-quadruped-articulation-loop-001`
+Exact Animation head: **`954c747c5e5565077abc20cb09458e2e414b9382`**.
 
-Exact Animation head: **`37f5a77d39d221be796ac3b0c3a179fd3c86a8c0`**.
+PR state at inspection: **open / draft / mergeable**.
 
-New reusable Animal-local Animation contract:
+New reusable Animation-local contract:
 
-`axm.animal-animation-u16-weight-subframe-guard/v0.1`
+`axm.object-animation-service-dark-texture-motion-rebind/v0.1`
 
-This is a temporal evidence method only. It does not author or modify the motion, rig, skin weights, Runtime quantizer, glTF producer, controller or gameplay state.
+This is a receiver/motion evidence method. It does not author or modify source geometry, source UVs, Materials policy, Technical Art transport, the rig, motion timing, Runtime behavior or gameplay.
 
 ### Preserved motion identity
 
-- clip: `quadruped-articulation-loop-001`;
-- clip digest: `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
-- duration: `1.0 s`;
+Exact existing sequence:
+
+- sequence: `lid-latch-open-hold-close-001`;
+- duration: `2.5 s`;
 - authored sample rate: `40 Hz`;
-- endpoint-inclusive authored samples: `41`;
-- curve: raised cosine `neutral -> peak -> neutral`;
-- front elbows: `0 -> +18° -> 0`;
-- hind knees: `0 -> +14° -> 0`;
-- bilateral pairing: unchanged;
-- weighting identity: `smoothstep-v0`;
-- retime / new keys / amplitude / phase / easing / source / rig changes: **none**.
+- endpoint-inclusive samples: `101`;
+- base lid clip: `lid-open-hold-close-001`;
+- base lid clip digest: `9e149195ab315f83f2d6f7d76f374f4be245567f77402de3e8a1d40ab79ef340`;
+- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- source lid hinge: `[0.0, 0.252, 0.306]`, +X;
+- source -> UC coordinate map: `[x,y,z] -> [x,z,y]`;
+- target hinge: `[0.0, 0.306, 0.252]`, +X;
+- source-positive lid angle maps to target sign `-1`;
+- retime / easing / key / amplitude / phase / rig / source changes: **none**.
 
-## Exact Runtime + Rigging dependencies consumed, not copied
+## Exact Technical Art dependency consumed, not copied
 
-Pinned Runtime PR #27:
+Pinned Technical Art PR #28:
 
-- exact head: `e7874c4a8dca1db48bc66f3546c2134f7d724456`;
-- retained artifact: `10477292250`;
-- artifact SHA-256: `76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`;
-- FLOAT-control GLB SHA-256: `8d9bfb80369bda09eaad786a35833cd5e04da5e608211f53648daaa1cde29566`;
-- normalized-u16 candidate GLB SHA-256: `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`.
+- exact head: `cddf0a2f3ba89572e794579db1fcec2f0deecaf6`;
+- retained artifact ID: `10486764098`;
+- retained artifact SHA-256: `244a0bc3d0a9e6eeb66978d3fe4e96fde5f2fcb41d429dcb27ab217c482c1cb8`;
+- exact textured GLB SHA-256: `1de850a64c709554f3f7e376724b5f1627d35f2c2565bf35758ac02f57026da4`;
+- required TA result: `PASS_OBJECT_SERVICE_DARK_EXACT_ATLAS_RGB_TO_CURRENT_UC_TEXTURED_GLB`;
+- Materials authority head: `4c12a0a57f6aa8778cff41efad321e13567c6c91`;
+- UC head: `6ad6ad51e6f40a3dc1d0cccd3af7f7c7ab28fb33`.
 
-Pinned Rigging PR #25:
+Exact receiving surfaces:
 
-- exact head: `e4ce8c1f4c3deb55220cf962206d51013d0cfe73`;
-- retained artifact: `10478912800`;
-- artifact SHA-256: `99a48f48fe1a9c622f1f46a27370a7239df7e17a8dcf9d1c9eb0b32f6a57a088`;
-- exact state: `PASS_RUNTIME_U16_WEIGHT_CANDIDATE_RIGGING_DEFORMATION_REBIND_41_KEYS__STATIC_DIRECTION_FRAME_HOLD_PRESERVED`;
-- existing positional representation-error bound: `2e-7 m`;
-- authored-key maximum control/candidate POSITION delta: `1.4897262690003554e-07 m`;
-- preserved direction-frame state: `HOLD_DEFORMED_STATIC_NORMAL_TANGENT_TRANSPORT_EQUIVALENCE`.
+- `lid_inner_service_surface`: 4 vertices / 6 indices / 4 UVs; owned by the moving lid in this proof;
+- `front_service_panel_outer_service_surface`: 4 vertices / 6 indices / 4 UVs; static in this clip;
+- both retain the embedded `512 x 512` service-dark texture.
 
-Animation does not copy Runtime's quantizer or Rigging's deformation/tangent solver. It consumes exact retained bytes/receipts and asks a distinct temporal question.
+Animation consumes those exact retained bytes and receipts. It does not copy Technical Art's transport adapter, Materials' atlas policy or UC's generic texture machinery.
 
-## Dense temporal method
+## Actual motion / target-host method
 
-The guard reads the exact transported glTF `LINEAR` rotation channel and deterministically evaluates quaternion interpolation at **8 subframes per authored interval**, yielding:
+A Godot 4.7.2 proof host imports the **exact retained Technical Art GLB**, binds a proof-local pivot at the exact source->UC mapped hinge, creates a real `AnimationPlayer`, and seeks all 101 unchanged authored lid poses. The lid-inner service surface follows the lid; the front-panel service surface remains static.
 
-- dense diagnostic rate: `320 Hz`;
-- dense sample count: `321`;
-- exact retained render vertices evaluated per dense sample: `84`;
-- FLOAT-control and normalized-u16 weight representations compared at each sample.
+At every authored sample the verifier checks:
 
-The gate requires the dense POSITION representation error to remain inside Rigging's unchanged `2e-7 m` bound, the recomputed authored-key maximum to reproduce Rigging's exact receipt, both representations to close the loop, and the error series to preserve time symmetry.
+- moving lid service-surface world positions against the exact hinge transform;
+- static front service-surface world-position stability;
+- lid/front UV stability;
+- material resource identity;
+- embedded texture resource identity;
+- neutral endpoint closure;
+- material movement sufficient to prove the moving surface was actually exercised.
 
-A verifier-only negative control moves `64` normalized-u16 weight steps from parent to child at exact render vertex `23`, at `0.3375 s` — strictly between authored keys 13 and 14. It is not a candidate asset and changes no retained source bytes. Its only purpose is to prove this dense observer can fail closed on a between-key representation defect.
+The negative control changes only the verifier-side target hinge by **+1 mm** and must fail closed as `FAIL_TARGET_HINGE_IDENTITY_DRIFT`.
 
 ## Exact-head CI / retained evidence
 
-Dedicated workflow:
+Final dedicated workflow:
 
-**`35195167241 — Animation u16 weight subframe trajectory guard — SUCCESS`**
+**`35201212848 — Object Animation service-dark texture motion rebind — SUCCESS`**
 
 Exact head:
 
-`37f5a77d39d221be796ac3b0c3a179fd3c86a8c0`
+`954c747c5e5565077abc20cb09458e2e414b9382`
 
-Both matrix jobs completed successfully:
+The workflow completed:
 
-- Python 3.11 inherited Animal tests + exact dependency download/rehash + dense guard + artifact upload: **SUCCESS**;
-- Python 3.13 inherited Animal tests + exact dependency download/rehash + dense guard: **SUCCESS**.
+- full Object test suite on Python 3.11: **46 tests PASS**;
+- full Object test suite on Python 3.13: **46 tests PASS**;
+- exact motion-sequence rebuild and identity checks: **PASS**;
+- exact Technical Art artifact download + independent workflow-side rehash: **PASS**;
+- pinned Godot 4.7.2 target-host import: **PASS**;
+- +1 mm target-hinge negative control: **PASS_FAILS_CLOSED**;
+- all 101 authored target-host poses: **PASS**;
+- retained evidence upload: **PASS**.
 
 Scoped result:
 
-**`PASS_U16_WEIGHT_SUBFRAME_TRAJECTORY_WITHIN_RIGGING_BOUND`**
+**`PASS_TARGET_HOST_SERVICE_DARK_TEXTURE_SURFACE_MOTION_REBIND_101_SAMPLES`**
 
-Exact retained observations:
+Exact observed metrics:
 
-- dense maximum FLOAT/u16 POSITION delta: **`1.4897262690003554e-07 m`**;
-- dense maximum sample: index `160`, exact time `0.5 s`, render vertex `23`;
-- unchanged Rigging bound: **`2e-7 m`**;
-- recomputed authored maximum: `1.4897262690003554e-07 m`;
-- authored recomputation vs exact Rigging receipt residual: **`0.0 m`**;
-- FLOAT-control loop POSITION residual: **`0.0 m`**;
-- normalized-u16 candidate loop POSITION residual: **`0.0 m`**;
-- maximum time-mirror error-series residual: **`1.3649825168975417e-14 m`**;
-- verifier-only negative-control signal: **`1.6762754286368178e-05 m`**;
-- negative control: **`PASS_FAILS_CLOSED_BETWEEN_AUTHORED_KEYS`**.
+- maximum moving lid world-vertex error: **`8.42936955791629e-08 m`**;
+- maximum front-panel service-surface static drift: **`0.0 m`**;
+- maximum lid UV drift: **`0.0`**;
+- maximum front UV drift: **`0.0`**;
+- maximum lid service-surface displacement from neutral: **`0.753843784332275 m`**;
+- proof-wrapper neutral drift: **`0.0 m`**;
+- final lid neutral drift: **`0.0 m`**;
+- final front neutral drift: **`0.0 m`**;
+- lid embedded texture: **`512 x 512`**;
+- front embedded texture: **`512 x 512`**;
+- material resource identity stable: **true**;
+- texture resource identity stable: **true**.
+
+The final retained CSV contains the header plus **101 numeric sample rows** and was directly inspected after download.
 
 Retained Animation artifact:
 
-- artifact ID: **`10485697941`**;
-- name: `animal-animation-u16-weight-subframe-guard`;
-- size: **`6,815 B`**;
-- GitHub SHA-256: **`496e744f6bd3c8ad3b0648298cceecd7c7170a651f510674a92c957424a954e3`**;
-- independently downloaded/rehashed SHA-256: **`496e744f6bd3c8ad3b0648298cceecd7c7170a651f510674a92c957424a954e3`**.
+- artifact ID: **`10487309567`**;
+- name: `object-animation-service-dark-texture-motion-rebind-954c747c5e5565077abc20cb09458e2e414b9382`;
+- size: **`38,695 B`**;
+- GitHub archive SHA-256: **`3ba6a5bbe25d74a31e42e50ede397fc64ba48cb080b4aff8f72125d048c12f70`**;
+- independently downloaded/rehashed SHA-256: **`3ba6a5bbe25d74a31e42e50ede397fc64ba48cb080b4aff8f72125d048c12f70`**.
 
-The retained archive contains `receipt.json`, `dense-samples.csv`, and `summary.txt` for the exact current Animation head.
+## Preserved failed drafts / verifier repair trail
+
+Truth-before-story is preserved:
+
+1. An earlier target-host attempt failed because the newly generated imported scene was sampled before it had entered the SceneTree. That was a **verifier tree-readiness defect**, not a motion failure. The repair added target-host readiness only; motion, source, rig, dependency bytes and tolerances were unchanged.
+2. A later green target-host attempt revealed that Godot does not support the verifier's `%g` sample-CSV format specifier. The receipt metrics were valid, but the retained CSV rows were malformed. That green archive is **not** used as the final evidence packet.
+3. The verifier-only serialization was repaired from `%g` to supported fixed-point formatting, again with no motion/tolerance/source/rig/dependency change. Final workflow `35201212848` then passed with a clean numeric 101-row CSV and the same measured motion result.
+
+No tolerance was widened to manufacture a PASS.
 
 ## Decision
 
-**`PASS_U16_WEIGHT_SUBFRAME_TRAJECTORY_WITHIN_RIGGING_BOUND__MOTION_UNCHANGED__TARGET_ENGINE_DIRECTION_FRAME_PRODUCER_GAMEPLAY_HELD`**
+**`PASS_TARGET_HOST_SERVICE_DARK_TEXTURE_SURFACE_MOTION_REBIND_101_SAMPLES__MOTION_UNCHANGED__PRODUCTION_UV_TEXTURE_CONTINUOUS_PLAYBACK_GAMEPLAY_HELD`**
 
-The normalized-u16 candidate's POSITION representation error does not grow beyond Rigging's existing bound between the 41 authored keys under this deterministic evaluation of the exact transported glTF interpolation. That closes a real temporal evidence gap without changing the motion.
+The exact Technical Art service-dark receiving surfaces can be exercised through the unchanged Object lid sequence in Godot while preserving moving/static ownership, UVs, material/texture resource identity and neutral closure. This closes a real cross-lane Animation evidence gap without retiming or rewriting the clip.
 
-It does **not** justify producer adoption or close the separate deformed direction-frame hold. No retime, easing change, key edit, amplitude change, phase edit, source rewrite or rig rewrite is warranted from this evidence.
+It does **not** justify changing the motion, adopting production UVs/textures, or promoting target-host proof into runtime/gameplay acceptance.
 
 ## Handoffs
 
-- **Animal Animation PR #5:** evidence comment `5710801085`; retain exact head `37f5a77...` as the dense u16 temporal baseline unless a named temporal defect or changed exact dependency appears.
-- **Runtime PR #27:** downstream return `5710802489`; exact normalized-u16 artifact was consumed and remained inside the positional bound through dense temporal evaluation, but no production producer adoption is implied.
-- **Rigging PR #25:** downstream return `5710803989`; exact deformation receipt was reproduced at authored keys and extended with a distinct dense Animation witness; Rigging's direction-frame hold remains untouched.
-- **Technical Art / UC:** any production receiver or packed-weight producer must bind and prove its own exact implementation. This evidence is not a UC merge instruction.
-- **Visual QA / Art Direction:** no creative motion variable changed and no final perceptual acceptance is transferred.
+- **Object Animation PR #10:** final evidence comment `5711560820`; exact head `954c747c...` is the current textured-receiver Animation baseline.
+- **Technical Art PR #28:** downstream return `5711563605`; exact TA receiver was consumed unchanged through the existing Animation lane and remained identity-stable under all authored poses.
+- **Materials / UC:** no source UV, atlas policy, material semantics or generic UC implementation was rewritten or promoted by Animation.
+- **Visual QA / Art Direction:** final temporal/look acceptance remains independent; no motion variable was changed in the absence of a named defect.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- Godot or another target engine's interpolation implementation equivalence;
-- production normalized-u16 weight producer/adoption;
-- deformed NORMAL/TANGENT direction-frame correctness;
-- final shaded or temporal Art Direction / Visual QA acceptance;
+- production UV adoption;
+- production texture authorship or adoption;
+- final tangent-space or shaded appearance quality;
+- continuous target-engine interpolation equivalence;
 - complete wall-clock `40 Hz` frame delivery or target-device performance;
 - controller or state-machine behavior;
 - collision / physics-engine acceptance;
 - input or gameplay acceptance;
-- biological gait, locomotion, foot planting, balance or root motion;
+- final Art Direction / Visual QA acceptance;
 - CANON;
 - production readiness.
 
 ## Four-root gate
 
-- **Truth:** exact Runtime/Rigging artifacts are pinned by head and SHA-256; the dense maximum stays inside the unchanged bound; the between-key mutation fails closed; the separate direction-frame/producer/engine/gameplay holds remain explicit.
-- **Agency / non-domination:** Animation does not take ownership of Runtime encoding, Rigging deformation, Technical Art production adoption, Art/QA acceptance, controller logic or gameplay.
-- **Continuity:** the existing Animal PR, exact clip digest, source/rig identities, weighting identity, retained dependencies and rollback trail remain separately pinned; no motion identity was silently rewritten.
-- **Wisdom before speed:** a reusable temporal evidence guard was added instead of changing a clip with no demonstrated timing defect or widening a tolerance to manufacture a PASS.
+- **Truth:** exact source/motion/TA/Materials/UC identities are pinned; actual Godot motion was exercised; failed verifier drafts are preserved in the status trail; final artifact was independently rehashed and its 101 numeric rows inspected; non-claims remain explicit.
+- **Agency / non-domination:** Animation does not take ownership of Rigging, Technical Art, Materials, UC, Runtime, Art/QA, controller logic or gameplay.
+- **Continuity:** the existing Object PR, exact motion digest, source hinge, receiving GLB and dependency receipts remain separately identifiable; no source or motion identity was silently rewritten.
+- **Wisdom before speed:** the fresh cross-lane receiver gap was tested directly instead of opening a duplicate lane, inventing a new clip, widening tolerances or pretending a target-host proof is production/gameplay acceptance.
 
 The four AXM roots remain the merge gate.
