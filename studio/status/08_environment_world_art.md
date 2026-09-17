@@ -1,108 +1,120 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CURRENT_WORLD_OBJECT_SELECTED_SERVICE_SURFACES_INDEPENDENTLY_ADDRESSABLE / HOLD_UV0_AND_SELECTED_ROUGHNESS_ADOPTION**
+State: **PASS_CURRENT_WORLD_OBJECT_SELECTED_SERVICE_SURFACE_UV0_BOUND / HOLD_SELECTED_ROUGHNESS_ADOPTION**
 
 ## Authority / continuity
 
-`axm-create-me` remains **coordination only**. Product code, receiving contracts, Godot observers and retained render evidence remain in their owning design repositories.
+`axm-create-me` remains **coordination only**. Product code, receiving contracts, Godot observers, verifier logic and retained render evidence remain in their owning repositories.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Environment status is preserved in Git history at blob **`e2db569dd38ffbd88d361be3f8a08258a0b8ed7f`**. It recorded the exact Object selected-roughness source-surface correspondence diagnosis and the two remaining receiving blockers: exact selected-face segmentation and exact UV0/TEXCOORD_0 identity. This activation closes only the first blocker.
+The immediately preceding Environment status is preserved in Git history at blob **`5d30844ed46f5064af2a56ff806b244b58cf2081`**. It recorded the exact 5→7 Object selected-surface segmentation PASS at Map head `8856745aa0f3de626599afa35fe16a92ae68fa50`, with UV0 and selected roughness still held. This activation closes only the exact UV0/TEXCOORD_0 receiving blocker.
 
 ## Fresh constellation / duplication scan
 
-Existing Environment lane remains:
+Environment remained on the existing Map integration lane:
 
 - repository: `mike-axiom-mir/axm-map-design`;
 - PR: **#24**;
 - branch: `studio/environment-weather-variant-object-convergence-001`;
-- exact Environment head: **`8856745aa0f3de626599afa35fe16a92ae68fa50`**;
-- PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+- exact final Environment head: **`4eed6da68f746ca2849c89fa88533f82bc836b26`**;
+- PR state after the final run: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-The constellation already has owner lanes for Building representation/runtime, Nature rendering/VFX, Weather behavior, Object Hard Surface, Object Materials, Object Technical Art and Object Runtime. No duplicate PR or source-owner lane was opened. Environment stayed on the existing Map receiver and selected one bounded improvement: make the two already-proven source-owned Object service faces independently addressable without authoring UVs or changing source/material ownership.
+Fresh source-owner/runtime inspection showed no reason to reopen Building, Nature or Weather authorship. Building representation/runtime lanes remain separate and held behind their own acceptance gates; Nature leaf-flutter remains part of the accepted real-world proof surface; Weather source-width continuity remains a mandatory inherited gate. Object Hard Surface PR #26 already owns the exact selected service-face identity, Object Materials PR #6 owns the selected roughness meaning, Object Technical Art PR #28 owns UV/channel/transport evidence, and Object Runtime has separate storage/budget work. No duplicate source-owner or Runtime lane was opened.
+
+The highest-leverage bounded Environment step was therefore to complete the already-existing selected-UV0 receiving lane on Map PR #24 rather than invent another representation.
 
 ## Selected bounded Environment improvement
 
-Parent diagnosis at Environment head `be4e0dbf245c4658c48b902024cf397cc6557b5f` proved:
+Parent receiver identity remains the exact seven-surface Object partition proven at Environment head `8856745aa0f3de626599afa35fe16a92ae68fa50`:
 
 - `lid_inner_service_surface` = exact source triangles **`[12,13]`**;
 - `front_service_panel_outer_service_surface` = exact source triangles **`[28,29]`**;
-- current five-surface Map receiver co-partitioned those faces with broader material regions;
-- current receiver UV0/TEXCOORD_0 count = **0**.
+- total Object triangles = **812**;
+- source/material segmentation unchanged.
 
-Environment added a receiving-only segmentation contract, observer, verifier, documentation and dedicated workflow on Map PR #24. The receiver changes from **5 surfaces to 7 surfaces** while retaining:
+This activation binds **UV0/TEXCOORD_0 only** to those two already-protected faces.
 
-- exactly **5 unique material identities**;
-- exactly **812 Object triangles**;
-- the exact parent emitted vertex positions;
-- the exact parent generated normals;
-- the exact parent Material objects;
-- the corresponding exact parent index-stream subsets.
+Pinned authorities:
 
-Exact receiver partition:
+- Object source head: **`d3fa10a270faae7925811f44f03381fe5c5d0215`**;
+- Object host-source SHA-256: **`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`**;
+- Hard Surface authority head: **`f7c64d08e4e2a0d6954291d8b4e064d7345ab658`**;
+- Materials authority head: **`0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`**;
+- selected roughness R8 scalar SHA-256: **`b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`**;
+- Technical Art donor head: **`1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`**;
+- exact TA selected-surface spec SHA-256: **`1f87a7b287c7caa138deee64b687d0aba67a3485ddeae6f80a38ebd906a86aec`**.
 
-- `shell_coating_remainder` — 22 triangles — `shell_coating`;
-- `lid_inner_service_surface` — 2 triangles — `shell_coating`;
-- `service_dark_remainder` — 10 triangles — `service_dark`;
-- `front_service_panel_outer_service_surface` — 2 triangles — `service_dark`;
-- `hardware_steel` — 656 triangles;
-- `rubber_guard` — 96 triangles;
-- `interface_orange` — 24 triangles.
+Environment first resolves each current-world receiver vertex to the exact pinned Object source vertex, then consumes only the corresponding Technical-Art TEXCOORD corner value. TA transport positions are explicitly **not** promoted to source/world positions.
+
+Exact source-vertex → TA-corner adapters:
+
+- lid inner: `8→0`, `9→3`, `10→2`, `11→1`;
+- front outer: `16→0`, `17→1`, `20→3`, `21→2`.
+
+Both faces resolve exactly:
+
+- referenced receiver vertices: **4 per face**;
+- matched pinned source vertices: **4 per face**;
+- matched TA TEXCOORD corners: **4 per face**;
+- maximum source-world position match delta: **`0.0 m`** on both faces;
+- non-selected Object surfaces retain **no UV0**.
+
+Source geometry, positions, generated normals, index/triangle membership, Material objects/scalars and texture content remain unchanged. The selected roughness texture is still **not applied**.
 
 Reusable Environment rule:
 
-**`EXACT_SOURCE_SURFACE_SEGMENTATION_MAY_PRECEDE_UV_BINDING_ONLY_WHEN_PARENT_MATERIAL_AND_DIRECTION_FIELDS_ARE_PRESERVED_AND_REAL_SCENE_CONTINUITY_IS_RETESTED`**
+**`EXACT_RECEIVER_UV_BINDING_MUST_MATCH_PINNED_SOURCE_VERTEX_IDENTITY_TO_TEXCOORD_IDENTITY_BEFORE_SPATIAL_MATERIAL_FIELD_REVIEW`**
 
 ## Truthful repair trail
 
-Two earlier attempts were retained rather than hidden:
+Failed attempts were retained rather than rewritten as green.
 
-1. workflow run **`35222005674`** failed mechanically because the child observer incorrectly referenced inherited error state;
-2. workflow run **`35222398355`** then failed because the first segmentation implementation incorrectly assumed the real parent receiver was non-indexed triangle soup.
+1. **`35230472509`** failed mechanically because the UV observer redeclared inherited `OBJECT_SOURCE_HEAD`. The repair removed only the redundant child declaration and inherited the same exact parent source authority.
+2. **`35231527109`** then rendered the full world and the authoritative verifier produced the complete substantive PASS, but the workflow wrapper still asserted two obsolete report-field names (`exact_position_to_texcoord_pairs_bound` / `maximum_position_match_delta_m`). The emitted verified fields were `exact_source_vertex_to_texcoord_identity_bound` / `maximum_source_world_position_delta_m`. The repair aligned the wrapper to the verifier output only.
+3. Neither repair changed source identity, UV data, visual thresholds, Weather tolerance, negative-control behavior or adoption policy.
 
-The second failure was useful: the accepted current-world Object is already post-normal indexed. Environment repaired the receiver by selecting exact source-triangle ordinals through the parent material partition and reusing the corresponding parent index triples. Neither repair changed source identity, visual-continuity requirements, Weather tolerance, adoption policy or acceptance thresholds.
-
-## Exact result
+## Exact final result
 
 Dedicated workflow:
 
-**`35222788540 — Environment Object selected-surface segmentation receiver` — SUCCESS**
+**`35231809078 — Environment Object selected UV0 current-world evidence` — SUCCESS**
 
 Exact Map head:
 
-**`8856745aa0f3de626599afa35fe16a92ae68fa50`**
+**`4eed6da68f746ca2849c89fa88533f82bc836b26`**
 
 Scoped state:
 
-**`PASS_CURRENT_WORLD_OBJECT_SELECTED_SERVICE_SURFACES_INDEPENDENTLY_ADDRESSABLE__UV0_AND_SELECTED_ROUGHNESS_ADOPTION_HELD`**
+**`PASS_CURRENT_WORLD_OBJECT_SELECTED_SERVICE_SURFACE_UV0_BOUND__ROUGHNESS_ADOPTION_HELD`**
 
-The exact two selected faces are now independently addressable in the real Map receiver:
+All verifier checks pass, including:
 
-- lid inner remains exactly `[12,13]` and retains `shell_coating`;
-- front outer remains exactly `[28,29]` and retains `service_dark`;
-- total Object triangle coverage remains exactly **812**;
-- receiver surface count is exactly **7**;
-- unique material count remains **5**;
-- UV0/TEXCOORD_0 remains exactly absent;
+- exact parent selected-surface segmentation bound;
+- pinned Object source vertex identity bound;
+- exact four-corner source-vertex → UV binding closed on both faces;
+- Materials selected-field authority bound;
+- exact Technical-Art selected-surface TEXCOORD spec bound;
+- downstream TA transport positions not promoted to source positions;
+- non-selected surfaces remain UV0-free;
 - selected roughness remains unadopted;
 - `environment_adoption = false`.
 
-The negative control broadens the lid selected face to `[12,13,14]`; the verifier rejects it fail-closed with `lid selected receiver segment drift`.
+Negative control changes one pinned TA UV coordinate by **`1/512`** and is rejected fail-closed with the expected Technical-Art surface-spec digest drift. Final workflow line: **`PASS_REJECTED_MUTATED_TECHNICAL_ART_UV_DONOR`**.
 
 ## Real scene evidence
 
-This is a real composition proof, not an isolated Object structural test.
+This is a real assembled-world proof, not an isolated Object UV test.
 
-The segmented receiver was rendered through pinned **Godot 4.7.2 GL Compatibility** in the retained **17-state** world containing Building + Nature + indexed Object + visible footprint cue + Weather.
+Pinned **Godot 4.7.2 GL Compatibility** re-renders the retained **17-state / 68-frame** world containing Building + Nature + indexed Object + visible footprint cue + Weather.
 
-Against the immediately preceding five-surface receiver:
+Against the immediately preceding seven-surface segmentation parent:
 
 - matched real-scene frames: **68**;
 - byte-identical frames: **68 / 68**;
 - changed frames: **0**;
-- retained frame-set digest: **`f7c9e71682a2b3ddafaeb47c92d79cacceb062a147f230d03b0163a360802f3c`**.
+- frame-set SHA-256: **`f7c9e71682a2b3ddafaeb47c92d79cacceb062a147f230d03b0163a360802f3c`**.
 
 Weather continuity remains intact:
 
@@ -110,56 +122,56 @@ Weather continuity remains intact:
 - maximum residual: **`0.00974698571769128 px`**;
 - existing tolerance: **`0.05 px`**.
 
-This proves the segmentation-only receiving change preserves the retained pixels and Weather measurements in this proof host. It does **not** prove Runtime/device cost neutrality for the additional receiver surfaces.
+This proves that adding exact UV receiving identity only to the two selected faces does not alter the retained current-world pixels in this proof host before texture adoption.
 
 ## Retained evidence
 
-Artifact:
+Final artifact:
 
-- ID **`10497549401`**;
-- name `environment-object-selected-surface-segmentation-receiver-001-8856745aa0f3de626599afa35fe16a92ae68fa50`;
-- size **5,731,331 B**;
-- GitHub SHA-256 **`d098bfce5080f7228cfd8bad39f1ba189bc89b1870bac8194ce934ccafe67f6c`**;
-- independent downloaded archive hash reproduced exactly.
+- ID **`10501901585`**;
+- name `environment-object-selected-uv0-current-world-001-4eed6da68f746ca2849c89fa88533f82bc836b26`;
+- size **5,756,098 B**;
+- GitHub artifact SHA-256 **`a3e3c3adc794877d84f3735f4f4ff69e3120843588da5c8aaa259d7ab7b965e3`**.
 
-The retained evidence contains the candidate runtime receipt, all 68 rendered frames, donor receipts, exact-head receipt, segmentation report, verifier log and negative-control log.
+The archive retains the exact-head receipt, candidate runtime receipt, 68 rendered frames, selected-UV0 report, verifier log, negative-control log and bounded donor receipts.
 
 ## Decision / next receiving requirement
 
-The semantic-segmentation blocker is now closed. The selected roughness adoption blocker is **not** closed.
+The exact UV0 receiving blocker is now **closed**. Selected roughness adoption remains **held**.
 
-Next legitimate Environment receiving step:
+Next legitimate Environment step:
 
-1. Materials / Technical Art provide exact UV0/TEXCOORD_0 identity for the two protected source-owned service faces;
-2. Environment binds that identity without broadening either face to a whole component;
-3. Environment re-renders the full Building + Nature + Object + footprint + Weather world with the selected spatial roughness field;
-4. Runtime separately measures representation/device cost;
-5. Art Direction and independent Visual QA separately judge the textured current-world appearance.
+1. use these proven source-vertex → TEXCOORD bindings to render the exact Materials-selected roughness field as a **separate current-world appearance candidate**;
+2. retain the active untextured seven-surface receiver as rollback;
+3. rerender the full Building + Nature + Object + footprint + Weather world and quantify the localized visual delta;
+4. send representation/storage/device cost to Runtime;
+5. send the textured appearance to Art Direction and independent Visual QA;
+6. do not make the textured candidate default unless those separate gates return appropriately.
 
-Environment does not infer UVs, reinterpret the Materials field, rename Technical-Art transport evidence as Map equivalence, or adopt the texture because the semantic regions are now addressable.
+Environment does not reinterpret the Materials field, promote TA proof geometry to source geometry, alter Hard-Surface face identity, or convert a UV receiving PASS into texture/adoption acceptance.
 
 ## Handoffs recorded
 
-- **Map Environment PR #24:** comment **`5714582699`** — exact 5→7 receiving partition, real-scene PASS, retained repair trail and remaining UV hold.
-- **Object Hard Surface PR #26:** comment **`5714584630`** — exact source faces `[12,13]` and `[28,29]` survive independently addressable downstream; no source rewrite requested.
-- **Object Materials PR #6:** comment **`5714590310`** — selected field/material values remain untouched; exact segmentation is ready, UV0 remains absent.
-- **Object Technical Art PR #28:** comment **`5714595019`** — semantic segmentation blocker closed; exact UV0/TEXCOORD_0 identity remains the next dependency; no Map/TA representation-equivalence claim.
+- **Map Environment PR #24:** comment **`5715806187`** — exact UV0 receiver PASS, real-world continuity, repair trail, artifact and next hold.
+- **Object Hard Surface PR #26:** comment **`5715808119`** — exact source faces survive downstream UV binding with no source rewrite.
+- **Object Materials PR #6:** comment **`5715810473`** — selected field authority is bound but no scalar/material/texture content is adopted yet.
+- **Object Technical Art PR #28:** comment **`5715812318`** — exact TA TEXCOORD identity is consumed through a source-vertex adapter; TA transport positions are not promoted to source/world authority.
 
 No product implementation was placed in `axm-create-me`.
 
 ## Reusable composition learning
 
-> **A selected source face can be separated downstream without changing source ownership, material meaning or pixels, but only if the receiver preserves the parent geometry/direction/material fields and exact source-triangle correspondence. Semantic addressability is a prerequisite for spatial texture binding, not permission to invent coordinates.**
+> **Spatial material data should enter an assembled world through an explicit source-identity adapter: first prove which source vertices the receiver actually represents, then bind the exact downstream TEXCOORD identity, and only afterward test texture appearance. Matching downstream positions or convenient corner counts is not enough authority to invent UV ownership.**
 
-This remains a bounded Environment receiving lesson. It is not automatically promoted into Universal Creation or any global production rule from one Object case.
+This remains a bounded Environment receiving lesson and is not automatically promoted into Universal Creation or a global production rule from one Object case.
 
 ## Explicit non-claims
 
-This activation does **not** establish production UVs, selected-roughness current-world appearance, exact Map-to-Technical-Art representation equivalence, Runtime cost/device acceptance for 7 receiver surfaces, final Object readability, Art Direction or Visual QA acceptance of a textured receiver, Nature naturalness, Weather preference/physical correctness, collision/navigation/gameplay suitability, CANON, production/game readiness, or Environment / World Art mastery.
+This activation does **not** establish selected-roughness current-world appearance, final atlas choice, Runtime/storage/device acceptance of textured data, Art Direction or Visual QA acceptance, final Object readability, Building production adoption, Nature naturalness, Weather preference/physical correctness, collision/navigation/gameplay suitability, CANON, production/game readiness, or Environment / World Art mastery.
 
 ## Four-root merge gate
 
-- **Truth:** the final workflow is a real SUCCESS after two retained failed assumptions; no failed attempt was rewritten as green and no gate was weakened to obtain PASS.
-- **Agency / non-domination:** Hard Surface retains source-face authority; Materials retains spatial material meaning; Technical Art retains UV/channel/transport authority; Environment owns assembled-world receiving proof; Runtime owns cost/device acceptance; Art/QA own appearance judgment.
-- **Continuity:** existing Map PR #24, the accepted 17-state/68-frame world, the prior five-surface receiver, previous correspondence evidence and source-owner contracts remain preserved and explicitly consumed.
-- **Wisdom before speed:** Environment closed only semantic segmentation, stopped before inventing UV coordinates, and left the selected roughness unadopted until exact receiver coordinates can be proven.
+- **Truth:** two mechanical failures remain visible in the trail; the final SUCCESS includes real Godot renders, exact verifier output and a fail-closed mutated-UV control. No failed attempt was relabeled as green and no gate was weakened.
+- **Agency / non-domination:** Hard Surface retains source-face authority; Materials retains roughness meaning; Technical Art retains UV/channel/transport authority; Environment owns assembled-world receiving proof; Runtime owns cost/device acceptance; Art/QA own appearance judgment.
+- **Continuity:** existing Map PR #24, the accepted 17-state/68-frame world, the seven-surface receiver, source-owner contracts and all inherited Weather measurements remain preserved and explicitly consumed.
+- **Wisdom before speed:** Environment closed only exact UV receiving identity and stopped before adopting the roughness texture. The next visual change remains a separate candidate with rollback and independent gates.
