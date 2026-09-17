@@ -1,171 +1,191 @@
 # Capability Cartographer Status
 
-- Scan started: `2026-09-17T10:53:08Z`
+- Scan started: `2026-09-17T11:57:33Z`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_SPATIAL_FIELD_BINDING_DEPENDENCY_MAP / OBJECT HARD-SURFACE OWNS SOURCE SURFACE FRAME+METRIC DOMAIN / OBJECT PROCEDURAL REBINDS THAT DOMAIN INTO UV-CORNER FAMILIES / TECH ART PROVES SEMANTIC ROUGHNESS THROUGH UC+GODOT / MAP CURRENT RECEIVER HAS NO UV0 AND COMPLETED READINESS CORRECTLY HOLDS ADOPTION / PF #38 REFINED WITH FIELD-DOMAIN + SPATIAL-PARAMETERIZATION IDENTITY / UC REMAINS REPRESENTABILITY+TRANSPORT NOT PRODUCT SPATIAL-MEANING HOME / UC #184 ACTIVE OBSERVER-ONLY SO NO DUPLICATE LIVENESS LANE / NO PRODUCT OR FRAMEWORK CODE MOVE`
+- State: `PASS_DIRECTION_FRAME_CHAIN_IDENTITY_MAP / CHARACTER RIGGING->TECH_ART->UC PALETTE FRAME BRIDGE PASSES BUT TARGET-HOST NEUTRAL SHADED FRAME REMAINS HOLD / ANIMAL STATIC POSITION+UV+HANDEDNESS AND ORTHOGONALITY PASS BUT DEFORMED NORMAL+TANGENT DIRECTION EQUIVALENCE REMAINS HOLD / PF #38 REFINED WITH EXPLICIT DIRECTIONAL FRAME-CHAIN IDENTITIES / NO GENERIC UC DEFORMED-NORMAL-TANGENT API OR CORRECTION YET / UC #184 MERGED AND #187 ACTIVE BOUNDED OBSERVER SO NO DUPLICATE TOPOLOGY LANE / NO PRODUCT OR FRAMEWORK CODE MOVE`
 
 ## Selected material cross-repo learning
 
-Fresh Object → Technical Art → Map evidence now closes a missing dependency distinction:
+Fresh Character and Animal evidence now supports a stronger reusable provenance rule:
 
-> **A logical field payload can be exact, its storage/transport can be valid, and the receiving geometry can be structurally exact while the field still has no evidenced spatial applicability. Spatially varying data therefore needs an explicit receiver→field-domain binding identity, separate from payload identity and storage/decode identity.**
+> **Directional evidence is a chain, not one `direction-frame PASS`. Exact positions, exact or near-exact NORMAL/TANGENT payloads, a mathematically correct upstream deformation operator, or restored orthogonality can each pass independently while downstream direction identity or target-host shaded interpretation still fails.**
 
-This is materially different from the previous PF #38 storage-representation refinement. A decoder can recover the correct scalar values perfectly while the receiving mesh still has no coordinate mapping that says where those values belong.
+The reusable capability is therefore an **evidence/provenance relationship between directional payload, coordinate frame, deformation operator, direction-transform convention, transport basis, receiver application and observation space**. The actual deformation/shading algorithms remain domain- and receiver-owned.
 
-The strongest supported placement is **Profession Fabric #38 for the reusable evidence/provenance relationship only**. Object and Map keep product/source/receiver authority. UC keeps generic representability and transport machinery and must not infer product UV meaning from the presence of a valid texture/scalar payload.
+The strongest supported placement is **Profession Fabric #38 for the experimental evidence vocabulary only**. This scan does **not** support a generic UC deformed-normal/tangent API, one canonical tangent correction, or automatic receiver repair: Character and Animal currently expose different unresolved parts of the frame chain.
 
 ## Evidence chain
 
-### 1. Object Hard Surface owns physical source-domain facts, not UV policy
+### 1. Character proves the owner deformation frame reaches the current UC palette
 
-Object Hard-Surface PR #26 remains open/draft/mergeable at exact head:
+Character Technical Art PR #21 remains open/draft/mergeable at exact current head:
 
-`f7c64d08e4e2a0d6954291d8b4e064d7345ab658`
+`c007c327f2613989581192602338435b67b748d7`
 
-It owns two exact manufactured service surfaces, their source reference frames and physical metric domains:
+It consumes Rigging PR #17 exact owner-frame head:
 
-- lid inner: `0.78 m × 0.48 m`, area `0.3744 m²`;
-- front service panel outer: `0.468 m × 0.156 m`, area `0.073008 m²`;
-- total source-owned service-surface area: `0.447408 m²`.
+`a218b2cf2727482a78db8ab21afcf1bb72637bcc`
 
-Its boundary is explicit: surface identity, frame and metric domain are source facts; UV mapping, texel density, atlas placement, material response, transport/storage and adoption remain downstream-owned.
+with exact local affine reference:
 
-Reusable source-side rule preserved:
+- deformation gradient: `D=(1-w)I+wR(theta)`;
+- normal reference: `inverse_transpose(D)`.
 
-`SOURCE_SURFACE_IDENTITY_FRAME_AND_METRIC_DOMAIN_PRECEDE_UV_ATLAS_PACKING`
+Technical Art reconstructs the effective 3×3 map from the actual current UC skin palette plus the existing Character JOINTS/WEIGHTS and compares both the deformation gradient and inverse-transpose normal matrix after the explicit Character Z-up → glTF Y-up basis conversion.
 
-### 2. Object Procedural now proves an explicit metric-domain → UV parameterization family
+Across 30 bounded side/pose/group comparisons:
 
-Object Procedural PR #11 is still the active Procedural lane and is now at exact head:
+- maximum effective-gradient component delta: `3.6292873706322837e-09`;
+- maximum inverse-transpose normal-matrix component delta: `3.6292873706322837e-09`;
+- gate: `5e-6`;
+- helper-disabled negative: `0.0015838176012039184`, rejected;
+- prior 321-key current-UC position proof reproduces at `8.161784431363273e-08 m` maximum residual.
 
-`26a19e4d48936101a1957746a29d456b480b7784`
+Scoped result remains:
 
-Fresh specialist evidence reports:
+`PASS_CHARACTER_REVIEW006_DENSE_SKIN_POSITION_AND_RIG_GRADIENT_PALETTE_TRANSPORT_TO_CURRENT_UC__HOLD_TARGET_ENGINE_DIRECTION_FRAME`
 
-`PASS_BOUNDED_SOURCE_BOX_FACE_UV_METRIC_DOMAIN_REBIND_FAMILY`
+This is a real internal frame-transport PASS. It is not target-engine direction-frame or shaded equivalence.
 
-The lane consumes the exact Hard-Surface metric domains plus Materials density variants and generates four distinct bounded outputs (`2` source-owned metric domains × `2` Materials density variants), with `0.0` UV-corner residual in the retained family.
+### 2. Character target-host evidence proves the next frame edge is still unresolved
 
-The important Cartography fact is not the Object-local generator itself; it is the newly explicit dependency edge:
+Materials PR #18 consumes the exact current transport GLB in real Godot 4.7.2 GL Compatibility.
 
-`source metric domain + chosen density -> exact UV-corner parameterization`
+Unshaded target/reference position coverage is nearly exact: only `0–4` XOR pixels per `630k` frame. Yet at exact neutral sample `160 / 0°`, where the accepted pose-recomputed and frozen-neutral reference normals coincide, the target already has a large shaded mismatch:
 
-Procedural remains the Object-local owner of that mapping family. No generic unwrap or shared product mapping implementation is inferred.
+- front: `33,065 / 33,640` foreground pixels changed;
+- three-quarter: `28,767 / 29,597`;
+- grazing: `15,990 / 17,641`.
 
-### 3. Technical Art proves semantic roughness values and generic transport independently
+Materials therefore holds:
 
-Object Technical Art PR #28 remains open/draft/mergeable at exact head:
+`HOLD_CHARACTER_REVIEW006_CURRENT_TARGET_DIRECTION_FRAME__NEUTRAL_SHADED_BASELINE_MISMATCH`
 
-`1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`
+Visual QA independently keeps the neutral target-host direction-frame baseline failed/blocked. This means later ±30° shaded differences cannot yet be attributed specifically to deformation.
 
-Its current lane proves the selected scalar roughness payload through the verified UC material path and a real Godot 4.7.2 receiver while preserving Object authority boundaries. The logical scalar survives transport independently of the historical PNG/storage representation.
+The important Cartography distinction is that **the Character owner-frame → UC-palette edge is green while the real receiver frame-application/shaded edge is not**.
 
-That is valuable but deliberately insufficient for arbitrary receiver placement: semantic payload identity and generic transport do not supply a receiver UV mapping.
+### 3. Animal independently proves static transport and orthogonality are not deformed direction identity
 
-### 4. Map Environment supplies the decisive negative receiver case
+Animal Rigging PR #25 remains open/draft/mergeable at exact current head:
 
-Map Environment PR #24 is open/draft/mergeable at exact head:
+`e4ce8c1f4c3deb55220cf962206d51013d0cfe73`
 
-`1fcc9727012d156f8d1c4658c8dca4f0e9dd3c33`
+Across its exact retained 41-key transported GLB:
 
-The earlier Environment status had queued workflow `35211529232`. Cartography inspected the completed run rather than treating the queue as evidence.
+- position max residual: `3.712575483167813e-08 m` — PASS;
+- UV max residual: `2.6656007523325565e-08` — PASS;
+- tangent-W mismatches: `0` — PASS;
+- NORMAL deformation excess versus geometry-rederived owner frame: `7.541933278181338°` — HOLD;
+- corrected TANGENT deformation excess: `3.6840862372161047°` — HOLD.
 
-Workflow:
+A post-skin Gram–Schmidt witness restores tangent⊥normal to:
 
-`35211529232 — Object selected-roughness receiver readiness` — **SUCCESS**
+`|n·t| <= 1.6653345369377348e-16`
 
-Retained artifact:
+but still does not restore owner-frame direction equivalence.
 
-- artifact ID: `10493255037`;
-- result: `HOLD_CURRENT_WORLD_OBJECT_SELECTED_ROUGHNESS_RECEIVER__EXACT_UV0_BINDING_NOT_PRESENT`.
+So Animal demonstrates another independent non-transfer rule: **frame-constraint correctness can PASS while directional identity remains HOLD**.
 
-The receipt preserves the exact current Object receiver facts:
+Its later normalized-u16 weight rebind keeps the same historical direction-frame HOLD intact while position differences stay bounded, further proving the storage/weight representation question and the direction-frame question are separate obligations.
 
-- `468` source vertices;
-- `812` source triangles;
-- `5` material surfaces;
-- exact position identity: `true`;
-- exact triangle-membership identity: `true`;
-- exact material-role identity: `true`;
-- receiver reconstruction: `ARRAYMESH_REBUILT_FROM_SOURCE_POSITIONS_INDICES_AND_FIVE_SCALAR_MATERIAL_ROLES`;
-- UV statement: `NO_UV0_AUTHORED_OR_BOUND_BEFORE_POST_NORMAL_PER_SURFACE_INDEXING`;
-- `exact_uv0_binding_present=false`;
-- `roughness_texture_bound=false`.
+## Cross-domain map
 
-At the same time, the retained readiness report records:
+The two domains expose different edges of one reusable evidence graph:
 
-- exact selected semantic scalar identity: `true`;
-- generic UC representability/transport obligation: `PASS`;
-- current-world spatial binding: `false`.
+`direction payload identity`
+→ `source coordinate-frame identity`
+→ `deformation-operator identity`
+→ `direction-transform convention`
+→ `transport coordinate transform`
+→ `receiver frame-application identity`
+→ `observation-space / shaded-response claim`
 
-This is the material cross-repo result. **The HOLD is not a roughness-payload failure and not a UC transport failure. It is a missing spatial-binding dependency.**
+Character is currently green through the UC-palette deformation-map edge but held at the real target receiver/shaded edge.
 
-Environment correctly fails closed instead of inventing UV0 or silently treating row-major scalar values as spatially applicable to an unrelated receiver coordinate domain.
+Animal is green for static payload/position/UV/handedness and orthogonality, but held because its transported static directional fields do not reproduce the geometry-rederived owner directions under deformation.
 
-## Profession Fabric placement — refine existing #38, do not open another framework
+A single `direction_frame_pass=true/false` record would collapse materially different evidence and could silently transfer a PASS across an unproven edge.
+
+## Profession Fabric placement — refine existing #38, no new framework
 
 Cartography refined existing `mike-axiom-mir/axm-profession-fabric` issue #38 in comment:
 
-`5713232965`
+`5714023815`
 
-Proposed experimental evidence vocabulary for spatially varying fields:
+Proposed experimental evidence identities:
 
-- `field_payload_identity` — exact logical values + semantic type, without placement inference;
-- `field_domain_identity` — exact domain on which those values have meaning;
-- `receiver_domain_identity` — exact receiving face/corner/sample/topology domain;
-- `spatial_parameterization_identity` — exact receiver → field-domain mapping, such as `TEXCOORD_0` plus declared orientation/transform/density contract;
-- retain the already-proposed `storage_representation_id` and `decode_or_address_mapping_identity` separately;
-- `spatial_binding_state`: `BOUND_EXACT | BINDING_MISSING | BINDING_MISMATCH | NOT_EVALUATED`;
-- keep payload, source/domain, parameterization, storage/transport, receiver-spatial-applicability, visual and adoption obligations independently dischargeable.
+- `direction_payload_identity` — exact directional payload plus handedness/sign semantics;
+- `source_coordinate_frame_identity` — exact source basis/handedness/units;
+- `deformation_operator_identity` — exact owner deformation map or skin-palette identity;
+- `direction_transform_identity` — exact semantic transform for the directional quantity, including normalization/orthogonalization convention;
+- `transport_coordinate_transform_identity` — explicit source→transport basis conversion;
+- `receiver_frame_application_identity` — exact importer/engine evaluation path;
+- `observation_space_identity` — exact space in which equivalence is asserted;
+- independent obligation verdicts for static payload transport, deformation-map equivalence, direction-frame constraints, receiver application and shaded/visual response.
 
-Core rule:
+Suggested evidence-only binding state:
 
-`payload PASS + storage/transport PASS != receiver spatial-applicability PASS`
+`BOUND_EXACT | BOUND_DIVERGENT | BINDING_MISSING | NOT_EVALUATED`
 
-A spatial field may discharge a receiving obligation only when an exact evidenced binding edge connects the exact receiver domain to the exact field domain.
+Core non-transfer rules:
 
-### Why this is not duplicate PF work
+- POSITION PASS does not imply NORMAL/TANGENT PASS;
+- exact/near-exact neutral direction payload does not imply deformed direction equivalence;
+- orthogonality/normalization PASS does not imply owner-direction equivalence;
+- deformation-matrix/palette PASS does not imply target-engine frame application or shaded equivalence;
+- a neutral receiver baseline mismatch blocks attributing later shaded differences specifically to deformation.
 
-PF #38 already distinguishes logical payload identity from exact storage representation and decode/address mapping. This pass adds the missing **geometry/receiver coordinate → field-domain mapping** relationship.
+PF remains evidence/provenance procedure only. It does not own normal generation, tangent reconstruction, skinning, importer behavior, shaders, target-host correction or visual acceptance.
 
-`decode_or_address_mapping_identity` answers how stored bytes become logical values. `spatial_parameterization_identity` answers where those logical values apply on a receiver. The Map case proves the first can be valid while the second is absent.
+## Returns to active product lanes
 
-PF remains evidence/provenance procedure only. No UV generator, unwrap, atlas packer, material binder or product adoption engine belongs there.
+Cartography returned the placement boundary to Character Technical Art PR #21 in comment:
 
-## Return to active Map lane
+`5714026806`
 
-Cartography returned the completed readiness interpretation to Map Environment PR #24 in comment:
+The return preserves the exact current palette-frame PASS and target-engine HOLD. It explicitly requests no Character-specific direction policy in UC and no Materials/lighting/Rigging/Animation retune to force agreement.
 
-`5713235282`
+Cartography returned the second-domain interpretation to Animal Rigging PR #25 in comment:
 
-The return preserves the current HOLD and authority split:
+`5714029091`
 
-- Object Hard Surface / Materials / Procedural retain source-surface, metric-domain, density and UV authority;
-- Map Environment retains current-world receiving authority;
-- Technical Art is the correct lane for an exact receiver ↔ field-domain bridge if that exact mapping is later tested;
-- UC remains generic material representability/transport machinery;
-- PF is only the candidate reusable evidence/provenance home.
+The return preserves the measured NORMAL/TANGENT direction HOLD and explicitly does not promote the Gram–Schmidt constraint witness into an adopted correction.
 
-No Map/Object/UC/PF implementation was changed by Cartography.
+No product code was changed by Cartography.
 
-## Fresh UC continuity — no duplicate liveness lane
+## Why no new UC direction-frame lane was opened
 
-The previous activation opened UC issue #183 for read-only source-vertex liveness observation. Fresh scan shows active draft **UC PR #184** at exact head:
+There is now enough evidence for a **shared provenance distinction**, but not yet enough for one neutral mechanism-level correction/API:
 
-`1f6621b0ca8338c69c0063337e9afb9cce77f3bf`
+- Character can reconstruct the exact owner affine frame through the current UC palette, but the real receiver already disagrees at neutral shaded baseline; exact cause remains unresolved.
+- Animal's static transported directional attributes diverge from its geometry-rederived owner frame under deformation; orthogonalization fixes a constraint but not the intended direction.
 
-It implements the bounded observer-only shape already proposed:
+Those are not yet one proven reusable receiver algorithm. Opening a UC `deform_normals_and_tangents()` or automatic tangent correction now would choose semantics before the evidence supports them.
 
-- referenced source-vertex count;
-- unreferenced source-vertex count;
-- `all_source_vertices_referenced`;
-- bounded deterministic examples;
-- source-index-stream observation before positional welding;
-- existing edge-topology status semantics preserved;
-- explicit `source_vertex_pruning_performed=false`.
+UC may become the correct home later for a **read-only neutral observer** or exact glTF/skin directional contract if multiple domains converge on the same mechanism and truth boundary. This activation holds that extraction.
 
-Therefore Cartography opened no competing UC liveness lane and did not propose a mutator. UC PR #185 is unrelated Physics work.
+## Fresh UC continuity — prior liveness placement merged, fan observer is already active
+
+The previous Cartography placement for source-vertex liveness has progressed:
+
+- UC PR #184 is **merged** at merge commit `fed35116c1aabe54789f1197b7b2423b3b516169`;
+- it remains liveness-only and performs no pruning/repair.
+
+A separate successor, UC PR #187, is already open/draft/mergeable at exact head:
+
+`f47fa61d55220051619ab4414932d76a94a449d2`
+
+It addresses exact-source vertex-fan connectivity after the earlier expansion was correctly rejected for potentially quadratic high-incidence behavior. The replacement builds bounded incidence and tests a `1,024`-triangle shared-edge case while keeping old edge-topology statuses unchanged. It remains observer-only and adds no prune/split/weld/repair operation.
+
+This is correctly separated active UC work, so Cartography opened no duplicate topology issue or PR.
+
+## Other fresh scan pressure intentionally not centralized
+
+Building Hard Surface PR #15 now supplies a second manufactured service-surface identity/frame/metric-domain family after Object, but its own boundary correctly says downstream UV/material mechanism evidence is still needed before centralizing a source-surface abstraction. The previous spatial-field PF vocabulary already records the evidence relationship, so no competing UC/PF implementation was opened from Building alone.
+
+Character Runtime PR #23 is testing one exact byte-identical bilateral scale-accessor deduplication. The existing PF logical-payload/storage-representation distinction already covers its evidence shape; one glTF accessor-alias mechanism is not enough reason to open a generic compactor lane.
 
 ## Durable placement ledger
 
@@ -174,32 +194,35 @@ Therefore Cartography opened no competing UC liveness lane and did not propose a
 - **UC #170 / merged PR #178 / merged PR #179** — read-only attribute-aware indexed-surface eligibility observation including explicit cross-source attribute/protected-split grouping; no generic weld/reindex/adoption authority.
 - **UC #174 / merged PR #176** — normalized integer `WEIGHTS_0` receiver parity; producer quantization/adoption remains separate.
 - **UC #182 / merged main `8eb2fafb...`** — explicit rectangular verified material-bundle representability; receiver capability only, not atlas right-sizing/packing/adoption.
-- **UC #183 / active draft PR #184** — source-array vertex-liveness observation in mesh topology; observer only, generic pruning/repair held.
-- **PF #38** — experimental evidence/provenance procedure: typed consumed-identity DAG; migration vs bounded claim verdict; parallel representations; temporal/instrumentation identity; harness-vs-claim verdict; scoped obligations/applicability domains; logical payload vs storage/decode identity; **new proposed field-domain + receiver-domain + spatial-parameterization binding identity**.
+- **UC #183 / merged PR #184** — source-array vertex-liveness observation; observer only, generic pruning/repair held.
+- **UC #186 / active draft PR #187** — bounded exact-source vertex-fan observation; separate from edge status and liveness, no mutation authority.
+- **PF #38** — experimental evidence/provenance procedure: typed consumed-identity DAG; migration vs bounded claim verdict; parallel representations; temporal/instrumentation identity; harness-vs-claim verdict; scoped obligations/applicability domains; logical payload vs storage/decode identity; field-domain + spatial-parameterization binding; **new proposed directional frame-chain identity and independent receiver/shaded obligations**.
 
 ## Explicit non-claims
 
-- No Object source geometry, source metric domain, UV family, Materials values or selected roughness payload was changed by Cartography.
-- No Map receiver geometry, material-role reconstruction, UV0, material binding or current-world adoption state was changed.
-- The successful readiness workflow does not turn the selected roughness into a Map PASS; its result is explicitly HOLD because exact receiver UV0 binding is absent.
-- No fallback UV, generated UV, nearest-coordinate mapping or implicit field placement is authorized.
-- No UC material or geometry code was changed by Cartography.
-- UC is not promoted into a product UV/atlas policy owner.
-- No PF implementation was authored; comment `5713232965` is an experimental evidence/provenance proposal only.
+- No Character source, topology, Rigging profile, Animation, material, transport GLB, UC skin-palette code or target-engine behavior was changed by Cartography.
+- Character Technical Art's internal affine-frame/palette PASS is not target-engine direction-frame or shaded equivalence.
+- No Animal source, rig, weights, UVs, static NORMAL/TANGENT payload, clip or transport GLB was changed.
+- Animal Gram–Schmidt orthogonality evidence is not an adopted tangent reconstruction or owner-direction PASS.
+- No generic UC deformed-normal/tangent API, correction, renderer rule or target-engine workaround was opened.
+- No PF implementation was authored; comment `5714023815` is an experimental evidence/provenance refinement only.
+- UC #184 merge and #187 active work do not authorize topology cleanup or product source changes.
 - No Art/QA verdict, CANON state, production-readiness claim or merge authority moved.
 - `axm-create-me` remains coordination-only.
 - The four AXM roots remain the gate: Truth, Agency / non-domination, Continuity, Wisdom before speed.
 
 ## Next bounded scan
 
-- Watch for an exact Technical Art proof that binds the current Map five-surface receiver to the exact Object field domain. Require explicit receiver identity, exact UV/parameterization identity, no fallback and a rerun of the selected-roughness receiving proof before spatial applicability can change from HOLD.
-- If a second materially independent spatial-field case appears (for example a normal/displacement/decal field whose bytes are valid but whose receiving parameterization differs), use it to test whether the PF vocabulary generalizes before implementation.
-- Watch UC PR #184; if it merges, require exact downstream rebind before relabeling historical product liveness evidence as UC-backed.
-- Do not open a UC spatial-field mapping engine from this evidence. UC should remain representability/transport unless repeated mechanism-level product-independent mapping machinery is actually demonstrated.
+- Watch Character Technical Art / Materials for a neutral target-host frame-application explanation or exact receiver-side directional observer; require the neutral baseline to close before attributing deformed shaded behavior.
+- Watch Animal Rigging / Technical Art / Materials for an explicit direction reconstruction candidate; preserve owner-frame equivalence separately from orthogonality and shaded preference.
+- If Character and Animal converge on the same product-independent glTF/skin directional observation contract, reassess a read-only UC observer before any mutator/correction.
+- Watch UC PR #187 for merge and require downstream consumers to explicitly rebind before claiming UC-backed source-index fan evidence.
+- Do not centralize Building service-surface parameterization or Character GLB accessor deduplication until a second mechanism-level case supports a reusable implementation rather than only a shared provenance rule.
 
 ## Recovery / provenance
 
-Previous Cartography coordination commit: `e2446a7b4f63fad579d52c707e356ef9d4e402f3`.
-Previous status blob SHA before this update: `0d4a1053d7b44733d660f76308f4b9b6e1b0e333`.
-PF #38 refinement comment: `5713232965`.
-Map Environment PR #24 return comment: `5713235282`.
+Previous Cartography coordination commit: `ef337c079de0a087ac26e4e735d7f88d3257773b`.
+Previous status blob SHA before this update: `d97a588f357c9ffae82c054d5bb69b46eefeaa3c`.
+PF #38 direction-frame refinement comment: `5714023815`.
+Character Technical Art PR #21 return comment: `5714026806`.
+Animal Rigging PR #25 return comment: `5714029091`.
