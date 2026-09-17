@@ -1,28 +1,26 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BOUNDED_SOURCE_BOX_FACE_ATLAS_LAYOUT_FAMILY / EXISTING OBJECT PR #11 ADVANCED / 2 EXACT SOURCE FACES / 2 DISTINCT BASIS PLANES + PIXEL EXTENTS + PADDED TILE EXTENTS / 6 FAIL-CLOSED CONTROLS / EXACT MATERIALS DECLARED RECTS ONLY / NO AUTO PACK OR SOURCE UV ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
+State: **PASS_BOUNDED_SOURCE_BOX_FACE_UV_SOURCE_FRAME_REBIND_FAMILY / EXISTING OBJECT PR #11 ADVANCED / 2 EXACT HARD-SURFACE SOURCE FRAMES / 4 UV OUTPUTS EXACTLY PRESERVED / 2 DISTINCT BASIS PLANES / 6 FAIL-CLOSED CONTROLS / NO AXIS GUESSING OR SOURCE-UV ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, the complete current specialist status set, and the live design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, the current specialist status set, and the live design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-`axm-create-me` remains **coordination only**. Product/evidence changes stayed in the existing `mike-axiom-mir/axm-object-design` Procedural PR #11. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence work stayed in the existing `mike-axiom-mir/axm-object-design` Procedural PR #11. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no open repeated source operation justified creating a Procedural lane.
-- **Character:** current Geometry/Organic/Rigging work remains centered on unresolved shoulder/topology/deformation decisions. Procedural did not freeze a held form or topology search into a generator.
-- **Animal:** Runtime/Rigging/Materials/Geometry remain active on indexed weights, tangent-space transport and deformation evidence. No duplicate lane was opened.
-- **Building:** Geometry status is actively proving the 604 source-intent indexed render domain while Environment/Runtime/Technical Art still own downstream consumer and budget boundaries. Existing Building Procedural PR #4 already owns its bounded families; no new Building generator was justified.
-- **Nature:** existing Procedural PR #4 already covers the nine retained branch/crown variants and downstream Geometry/VFX/Map compatibility families. No fresh source contract required another pass.
-- **Weather:** existing Procedural PR #3 already owns its retained seed family and family-wide Map source-width receiver evidence. No new trigger justified extending it.
-- **Map:** Environment, VFX, Runtime and Technical Art remain active on current-world receiving, timing and indexed-domain questions. Procedural did not copy receiver/runtime logic.
-- **Object:** the previous Procedural pass intentionally held packing/atlasing until an owner-backed contract existed. Materials PR #6 now supplies exactly that missing bounded input: one explicit 512×512, 500 px/m, 16 px padded two-surface atlas candidate for the same two source-owned faces already covered by Procedural review UVs. This is a fresh repeated mechanical conversion problem, so existing Object PR #11 is the correct non-duplicating lane.
+- **Weapon / Armor / Unit / Misc:** no stronger unoccupied repeated pattern justified opening a Procedural lane.
+- **Character:** current Geometry / Organic / Rigging work remains centered on held shoulder/topology/deformation choices; Procedural did not turn an unresolved form into a generator.
+- **Animal:** Runtime / Rigging / Animation / Materials still own indexed-weight, tangent and deformation evidence. No duplicate lane was opened.
+- **Building:** Geometry / Hard Surface / Environment continue source-domain and receiver work; existing Building Procedural families already cover bounded repeated generation.
+- **Nature:** existing Procedural PR #4 already owns the nine retained branch/crown variants and bounded Geometry/VFX/Map compatibility passes.
+- **Weather:** existing Procedural PR #3 already owns retained seed variation and family-wide Map receiver evidence.
+- **Map:** Environment / VFX / Runtime / Technical Art remain active on world receiving and indexed-domain questions; Procedural did not copy receiver logic.
+- **Object:** Hard Surface PR #26 now owns exact source-space service-surface reference frames for the same two source faces already consumed by the existing Procedural UV family. The previous Procedural UV path still repeated equivalent per-surface basis declarations locally. That duplicated source-orientation authority was the strongest fresh bounded repair.
 
-Specialist-state check also preserved the current ownership boundaries: Art Direction prefers the 0.05 m/UV review scale but still holds final PPM/packing/transport; Geometry and Hard Surface remain on source/topology/mechanical contracts; Organic remains form-frozen pending downstream decisions; Materials owns the exact atlas candidate; Rigging/Animation own motion/deformation; Environment/VFX own world receiving/effects; Technical Art owns transport/integration; Runtime owns budgets; Visual QA owns final visual evidence.
-
-No new PR, generic unwrap system, automatic bin packer, texture generator, UC ontology or replacement Materials/Hard-Surface lane was opened.
+No new PR, automatic unwrap system, generic surface discovery, atlas repacker, texture generator, UC ontology or replacement Hard-Surface/Materials lane was opened.
 
 ## Selected bounded improvement
 
@@ -30,160 +28,144 @@ Repository: `mike-axiom-mir/axm-object-design`
 
 Existing draft PR: **#11 — `Procedural: add bounded bilateral service-module configuration family`**
 
-Exact Procedural head:
+Exact tested Procedural head:
 
-**`fbc406064cc4d3adb13bac7bd1d7696b910d6d71`**
+**`c9f5eeb74a7cd5aceba4ad41b4b3e34fb0b040e1`**
 
 Observed PR state: **OPEN / DRAFT / MERGEABLE**.
 
 New bounded contract:
 
-**`axm.object-source-box-face-atlas-layout-family/v0.1`**
+**`axm.object-source-box-face-uv-source-frame-rebind-family/v0.1`**
 
 Scoped result:
 
-**`PASS_BOUNDED_SOURCE_BOX_FACE_ATLAS_LAYOUT_FAMILY`**
+**`PASS_BOUNDED_SOURCE_BOX_FACE_UV_SOURCE_FRAME_REBIND_FAMILY`**
 
 Decision:
 
-**`PASS_DERIVED_DECLARED_ATLAS_LAYOUT_FAMILY_ONLY__NO_AUTO_PACK_OR_SOURCE_UV_ADOPTION`**
+**`PASS_SOURCE_FRAME_REBOUND_REVIEW_UV_FAMILY_ONLY__NO_SOURCE_UV_OR_MATERIALS_ADOPTION`**
 
 ## Why this deserves proceduralization
 
-The prior Procedural pass already established two exact isotropic review-UV candidates on materially different source-local planes:
+The existing planar-UV family already proves four materially different review outputs over two exact source faces, but its source-space U/V orientation is expressed again inside Materials/Procedural review configuration. Hard Surface PR #26 now owns the exact source reference frames for those same surfaces:
 
-1. `lid_inner_service_surface` — X→U / Y→V, physical span 0.78 × 0.48 m;
-2. `front_service_panel_outer_service_surface` — X→U / Z→V, physical span 0.468 × 0.156 m.
+1. `lid_inner_service_surface` — primary X, secondary Y, outward -Z, orientation parity -1;
+2. `front_service_panel_outer_service_surface` — primary X, secondary Z, outward -Y, orientation parity +1.
 
-Materials PR #6 at exact head `4c12a0a57f6aa8778cff41efad321e13567c6c91` now owns an explicit two-surface atlas review contract with:
-
-- canvas: **512 × 512 px**;
-- review density: **500 px/m** = **0.002 m/px**;
-- retained 0.05 m review UV unit: **25 texels**;
-- edge dilation / margin: **16 px**;
-- filtering: `LINEAR_MIPMAP_ANISOTROPIC`;
-- repeat: false;
-- exact declared rectangles for both source surfaces.
-
-The repeated operation is therefore bounded and mechanical: convert each exact existing review-UV output into integer local texel coordinates, the exact Materials-declared atlas rectangle, normalized atlas UVs and its padded tile envelope. Procedural does **not** search for a better packing, choose PPM, choose padding, discover surfaces or author production UVs.
+The repeated repair is therefore narrow: derive the Procedural review basis from those exact Hard-Surface-owned frames, keep Materials density/origin/appearance authority unchanged, then require exact byte-stable logical UV output continuity across both surfaces and both retained density variants. Procedural must fail closed if either authority disagrees rather than silently choosing one.
 
 ## Exact provenance / authority boundaries
 
-Previous Procedural UV family is pinned unchanged:
+Previous Procedural UV family remains pinned unchanged:
 
-- profile blob: **`193ab5340953601d6d88f38b3fa480221821c93b`**;
-- builder blob: **`126c593c2aafcff3ba895ca264d11a01c4c5fdd9`**;
+- profile: `assets/modular-equipment-case-001/source-box-face-uv-projection-family-001.json`;
+- profile Git blob: **`193ab5340953601d6d88f38b3fa480221821c93b`**;
 - required result: `PASS_BOUNDED_SOURCE_BOX_FACE_UV_PROJECTION_FAMILY`.
 
-Current Materials atlas donor is pinned exactly:
+Hard-Surface frame donor is pinned exactly:
 
 - repository: `mike-axiom-mir/axm-object-design`;
-- PR: #6;
-- head: **`4c12a0a57f6aa8778cff41efad321e13567c6c91`**;
-- atlas contract: `lookdev/service_dark_atlas_pack_review_001.json`;
-- contract Git blob: **`2b95fcc1fcc523576eca08dbf47a140a727ab598`**.
+- PR: #26;
+- head: **`6a9593b942e7cda4befe8106bfb8cc260e3e6b5f`**;
+- contract: `assets/modular-equipment-case-001/service-surface-reference-frames-001.json`;
+- contract Git blob: **`ffb0671eac025f0d39eeb412b58e0ae017e21d99`**;
+- schema: `axm.object-hard-surface-service-surface-reference-frames/v0.1`.
 
-The generator validates the exact donor head/blob before deriving evidence. Materials remains authoritative for the candidate canvas, PPM, padding, sampling and rectangles. Hard Surface remains authoritative for source surfaces. Procedural owns only deterministic replay/coordinate derivation.
+Materials UV review donor remains pinned at exact head **`ad2378f18be55efa1f8e6dba9d8823c6b5d500e1`**. Materials retains UV density, origin and review-appearance authority. Hard Surface retains source geometry, surface semantics and source-space frame authority. Procedural owns only deterministic bounded derivation/replay evidence.
 
 ## Smallest reusable implementation
 
-Added only to existing Object Procedural PR #11:
+Added only inside existing Object Procedural PR #11:
 
-- `assets/modular-equipment-case-001/source-box-face-atlas-layout-family-001.json` — exact two-surface family, packing search/discovery/fallback forbidden;
-- `tools/build_source_box_face_atlas_layout_family.py` — validates exact Materials donor identity, consumes the exact prior Procedural isotropic UV outputs, derives integer texel/normalized-atlas coordinates and padded envelopes, canonicalizes surface order and retains failure bounds;
-- `tests/test_source_box_face_atlas_layout_family.py` — materially different output, order replay and fail-closed unit coverage;
-- `.github/workflows/object-source-box-face-atlas-layout-family.yml` — reconstructs the exact source-face + UV prerequisites, checks full Object tests on Python 3.11/3.13, builds the new family and retains evidence.
+- `assets/modular-equipment-case-001/source-box-face-uv-source-frame-rebind-family-001.json` — exact two-surface / two-variant contract with discovery, fallback, axis guessing and automatic source-UV adoption forbidden;
+- `tools/build_source_box_face_uv_source_frame_rebind_family.py` — validates exact donor identities, validates cardinal/orthogonal frame structure and selector/outward/parity relations, derives U/V basis from the source frame, preserves Materials density/origin values, and demands exact continuity with the prior Procedural UV outputs;
+- `tests/test_source_box_face_uv_source_frame_rebind_family.py` — two-plane derivation plus fail-closed authority tests;
+- `.github/workflows/object-source-box-face-uv-source-frame-rebind-family.yml` — reconstructs exact source-face + prior-UV prerequisites and tests the family on Python 3.11 and 3.13.
 
-No Object source geometry, Hard-Surface contract, Materials contract, source UV set, texture asset, UC code or Profession Fabric code was changed.
+No source geometry, Hard-Surface contract, Materials contract, source UV asset, texture asset, UC code or Profession Fabric code was changed.
 
 ## Materially different output pressure
 
-The family retains two exact atlas-layout outputs, not one lucky case.
+The family replays **2 exact source surfaces × 2 exact review density variants = 4 outputs** and requires all four new outputs to match their previous Procedural outputs exactly.
 
 ### Lid inner service surface
 
-- basis: `SOURCE_LOCAL_X_TO_U__SOURCE_LOCAL_Y_TO_V`;
-- physical size: **0.78 × 0.48 m**;
-- pixel size at exact Materials review density: **390 × 240 px**;
-- exact Materials rect: **[16, 16, 390, 240]**;
-- derived padded rect: **[0, 0, 422, 272]**;
-- padded tile size: **422 × 272 px**;
-- source review-UV payload digest: `3181b2e682733d1e3b9757007851612523f9eb45c08cef32796344641915c213`;
-- atlas-UV payload digest: **`e17fe89fe55f5ae8ddfe17bdae205dc26d47cfd88fa9bfa7a74104280592dd14`**;
-- output digest: **`133e6fd5da6d5c9d4064bade7fe75a107fb754fc85adb8eb103456a4d65a0585`**.
+Source-owned basis: **X→U / Y→V**, normal axis Z.
+
+- candidate physical span: **0.78 × 0.48 m**;
+- candidate UV span: **15.6 × 9.6**;
+- candidate anisotropy: **1.0**;
+- 3×-V control UV span: **15.6 × 28.8**;
+- control anisotropy: **3.0**.
 
 ### Front service-panel outer surface
 
-- basis: `SOURCE_LOCAL_X_TO_U__SOURCE_LOCAL_Z_TO_V`;
-- physical size: **0.468 × 0.156 m**;
-- pixel size: **234 × 78 px**;
-- exact Materials rect: **[16, 288, 234, 78]**;
-- derived padded rect: **[0, 272, 266, 110]**;
-- padded tile size: **266 × 110 px**;
-- source review-UV payload digest: `736fdc1aacdc49e868fec49e15db26256e403610c0af7ffe2d9fc1d3a1c4c02f`;
-- atlas-UV payload digest: **`f45e2604d3a030773db058f0628e3f0d1cc9f738374433efaf94590b1a16ae88`**;
-- output digest: **`68f1010b6b6d09dfccbce2996e88d79d55c36d81776afc5cb773bd4305df8d90`**.
+Source-owned basis: **X→U / Z→V**, normal axis Y.
 
-Evidence confirms **2 distinct basis planes, 2 distinct pixel extents, 2 distinct padded tile extents, 2 distinct atlas-UV payloads and 2 distinct output digests**. Reversing the Materials surface declaration order reproduces the exact same canonical output ordering/digests.
+- candidate physical span: **0.468 × 0.156 m**;
+- candidate UV span: **9.36 × 3.12**;
+- candidate anisotropy: **1.0**;
+- 3×-V control UV span: **9.36 × 9.36**;
+- control anisotropy: **3.0**.
 
-The exact two source rectangles contain **111,852 visible surface texels**, or **42.66815185546875%** of the 512² canvas before padding. Their two derived padded envelopes total **144,044 texels** and meet exactly at the Y=272 boundary without positive-area overlap.
+Evidence reports **2 distinct source frames, 2 distinct basis planes, 4 distinct UV outputs and 4/4 exact previous-output matches**. This is a continuity repair, not a new aesthetic or production-UV choice.
 
 ## Failure bounds
 
 Six retained controls fail closed:
 
-1. exact Materials donor-head drift;
-2. duplicate atlas surface identity;
-3. declared pixel-extent drift;
-4. padded-island overlap;
-5. source review-UV scale drift;
-6. non-integral / source physical-span drift.
+1. exact Hard-Surface frame donor-head drift;
+2. duplicate source-frame identity;
+3. non-cardinal primary axis;
+4. orientation-parity / outward-normal relation drift;
+5. selector / outward-normal relation drift;
+6. Materials review basis conflicting with the source-owned Hard-Surface frame.
 
-The family also forbids automatic surface discovery, arbitrary packing search and fallback. It does not find seams, rotate islands, repack rectangles, substitute density/padding or infer similar surfaces.
+The family also forbids surface discovery, axis guessing from geometry, fallback, automatic production-UV adoption and source-authority rewrite.
 
 ## Exact CI / retained evidence
 
-All **7** workflows associated with exact Object head `fbc406064cc4d3adb13bac7bd1d7696b910d6d71` completed **SUCCESS**, including:
+Exact-head workflow **`35201381690 — Object source box-face UV source-frame rebind family evidence`** completed **SUCCESS** at `c9f5eeb74a7cd5aceba4ad41b4b3e34fb0b040e1`.
 
-- **`35196241913 — Object source box-face atlas layout family evidence` — SUCCESS** on Python 3.11 and 3.13;
-- `35196241708` source box-face UV projection family — SUCCESS;
-- `35196241710` source box-face extraction family — SUCCESS;
-- `35196241706` service-module configuration family — SUCCESS;
-- `35196241751` registration-key evidence — SUCCESS;
-- `35196241695` service-module fit evidence — SUCCESS;
-- `35196241723` Hard-Surface interface evidence — SUCCESS.
+All inherited workflows returned for the same exact head are also green, including Hard-Surface interface, service-module fit and registration-key, service-module configuration family, source-face extraction, source-face UV projection and source-face atlas-layout evidence.
 
 Retained new artifact:
 
-- artifact ID: **`10485199992`**;
-- name: `object-source-box-face-atlas-layout-family-001-evidence`;
-- uploaded size: **21,528 B**;
-- GitHub SHA-256: **`b0d098ae53197b683d2f1752ccb8c2e18915570b9e1c5632d04cecf31c5d236d`**;
-- independently downloaded and rehashed locally to the exact same SHA-256;
-- archive contains **22 files**, including both source-face outputs, all four prior UV-family specimens, two new atlas-layout outputs, exact family profiles, Materials atlas contract, donor/head receipts and the final summary;
-- final summary digest: **`769f42d1b3e1f360f39e6f889b727db22f7aafda4ac8bd94a0b715daedec4664`**.
+- artifact ID: **`10487449185`**;
+- name: `object-source-box-face-uv-source-frame-rebind-family-001-evidence`;
+- uploaded size: **26,119 B**;
+- GitHub SHA-256: **`8fdd3acbe3500c7a59a41cba965e5e11cffea0498c565bd69c6319428986da0d`**;
+- independently downloaded and rehashed to the exact same SHA-256;
+- archive contains **25 files**, including exact source-face prerequisites, all four prior UV specimens, four rebound specimens, exact Hard-Surface frame contract/provenance and summary;
+- rebound summary digest: **`246395c4251d9ad0b0a6bd72946b41f1223ead12ae2cd9bfda0796185dfda5d3`**.
 
 ## Placement / authority boundary
 
-- **Hard Surface:** source geometry, surface IDs and source semantic meaning.
-- **Materials:** review material, 512² canvas, 500 px/m, 16 px padding, sampling and the exact declared rectangles.
-- **Procedural:** deterministic exact conversion from already-reviewed planar UVs into the declared atlas coordinate space plus bounded padded-envelope evidence.
-- **Technical Art:** target import/UV/tangent/texture transport remains held.
-- **Runtime:** memory/draw/shader/performance acceptance remains held.
-- **Art Direction / Visual QA:** final PPM, packing preference and rendered acceptance remain held.
-- **UC / Profession Fabric:** unchanged; two explicit Object rectangles do not justify a universal atlas packer.
+- **Hard Surface:** source geometry, source surface IDs/semantics and source-space reference frames.
+- **Materials:** UV density/origin, material/lookdev choices, atlas/padding/sampling choices.
+- **Procedural:** deterministic exact frame-to-review-basis derivation plus bounded continuity/failure evidence.
+- **Rigging / Animation:** motion/deformation authority unchanged.
+- **Technical Art:** production import/UV/tangent/texture transport remains separate.
+- **Runtime:** target-device memory/draw/shader/performance acceptance remains separate.
+- **Art Direction / Visual QA:** final rendered preference/acceptance remains separate.
+- **UC / Profession Fabric:** unchanged; two exact cardinal source frames do not justify a generic UV-frame ontology.
 
 ## Explicit non-claims
 
-This PASS does **not** establish arbitrary mesh unwrapping, seam discovery, automatic island rotation or packing, optimal atlas utilization, production PPM/resolution/padding, production UV adoption, source UV mutation, material assignment, production texture creation, target-engine texture/tangent transport, runtime cost, physics/gameplay, Art Direction/Visual-QA final acceptance, UC/PF promotion, CANON, production/game readiness or Procedural Design mastery.
+This PASS does **not** establish arbitrary mesh unwrapping, automatic seam discovery, arbitrary source-frame inference, production UV adoption, source UV mutation, material assignment, texture creation, atlas adoption, target-engine transport, runtime/gameplay/physics acceptance, Art Direction/Visual-QA final acceptance, UC/PF promotion, CANON, production/game readiness or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** exact prior Procedural blobs and exact current Materials head/contract blob are checked before derivation; exact-head CI is fully green; downloaded artifact hash matches GitHub.
-- **Agency / non-domination:** Procedural does not choose source semantics, density, padding, packing, adoption or downstream acceptance.
-- **Continuity:** prior Object Procedural families are rebuilt unchanged and all seven exact-head workflows remain green.
-- **Wisdom before speed:** only the newly owner-backed two-surface declared-atlas conversion was automated; no generic unwrap/packing framework was invented.
+- **Truth:** exact donor head/blob identities are checked; the source-owned frames and Materials review basis must agree; 4/4 previous UV outputs are reproduced exactly; exact-head CI is green and the downloaded artifact hash matches GitHub.
+- **Agency / non-domination:** Procedural does not choose or silently rewrite source frames, UV density/origin, material appearance, production adoption or downstream acceptance.
+- **Continuity:** the prior source-face and UV families are rebuilt unchanged; all four existing UV outputs survive the authority rebind exactly; inherited exact-head workflows remain green.
+- **Wisdom before speed:** one duplicated orientation responsibility was removed only after its source owner supplied an exact bounded contract; no generic unwrap/frame-discovery framework was invented.
+
+## Prior retained Procedural chain
+
+Earlier Object Procedural evidence remains intact in PR #11: bounded service-module configurations, direct source-frame receiver placement, exact source-box face extraction, two-surface planar review UV projection and the owner-declared two-surface atlas-layout family. Nature, Weather and Building bounded families remain in their existing Procedural PRs. This status compresses prior branches; it does not replace their retained evidence or roots.
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. Do not continue Object merely because PR #11 is open. A further texture step needs fresh owner-backed repeated need — for example an exact Technical-Art transport/tangent/bake contract across multiple surfaces — before Procedural should extend this family. Otherwise select another repository with a stronger new repeated manual pattern.
+Re-scan the full constellation first. Do not continue Object merely because PR #11 is open. Extend this chain only when a fresh owner-backed repeated need exists and its authority boundary is clearer than the current alternatives; otherwise choose another repository with a stronger unoccupied repeated manual pattern.
