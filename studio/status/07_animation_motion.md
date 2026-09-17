@@ -1,160 +1,152 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **PASS_ANIMAL_RECONSTRUCTION_TEMPORAL_WITNESS_LOCAL / CI_PENDING / MOTION_UNCHANGED / HOLD_TECHNICAL_ART_RECEIVER + TARGET_HOST_TRANSPORT + PERCEPTUAL_TEMPORAL_ACCEPTANCE**
+State: **PASS_DENSE_SUBFRAME_SOURCE_CURVE_CONTINUITY / MOTION_UNCHANGED / HOLD_TECHNICAL_ART_RECEIVER + TARGET_ENGINE_INTERPOLATION + PERCEPTUAL_TEMPORAL_ACCEPTANCE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current Animation/Rigging/Technical Art/Visual QA/Art Direction/VFX status, and current animation-ready work across the active constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current Animation/Rigging/Technical Art/Visual QA/Art Direction/VFX/Geometry status, and current animation-ready work across the active constellation.
 
-`axm-create-me` remains **coordination only**. No product, rig, shader, receiver, runtime-controller or gameplay implementation was added here.
+`axm-create-me` remains **coordination only**. No product, rig, deformation solver, shader, receiver, controller or gameplay implementation was added here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The highest-leverage dependency changed materially without creating a reason to retime the clip:
+- The previous Animal Animation reconstruction-temporal audit at exact head `4209f617f37069ad040fee3ccc7cd1b15a60749d` has now completed successfully in GitHub Actions: run `35174733022`, Python 3.11 + 3.13, retained artifact `10477728949`.
+- Rigging has a green measurement-only post-skin owner-frame reconstruction witness, but Technical Art still has not adopted/proved a production direction-frame receiver.
+- Visual QA / Art Direction have not returned a new named temporal defect against the exact Animal loop. The accepted owner-frame shaded baseline remains a comparison surface, not timing/acting acceptance.
+- Nature VFX owns micro-flutter/dynamic secondary-motion experiments; Animation does not duplicate that lane.
+- Object Animation remains at its phase-boundary baseline with no new perceptual finding justifying a retime/easing change.
+- Character remains structurally held by intersection/form issues rather than promoted into an Animation problem.
 
-- **Animal Rigging PR #25** now has a green measurement-only post-skin owner-frame reconstruction witness at exact head `81ab44eab2e13bed95187610a476be2b2c4667a7`.
-- Exact retained Rigging artifact `10476642320`, SHA-256 `2d11836cc7c1ada5146752d0b6205d0e4f476cd085ee8be4964e2f024f70fa58`, contains all 41 authored-key measurements.
-- Rigging's reconstruction gate is `PASS_TRANSPORTED_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_41_KEYS`; all-key maxima are approximately `3.712575483167813e-08 m` owner-position residual, `2.0081521282065968e-05°` owner-normal residual, `3.181419632879438e-05°` owner-tangent residual, `1.1657341758564144e-15` reconstructed `|N·T|`, zero UV-split position disagreement and zero tangent-handedness mismatch.
-- This does **not** mean Technical Art has adopted a production receiver. Technical Art PR #3 still preserves the deformed direction-frame transport hold.
-- **Visual QA / Art Direction** have not returned a new named temporal defect against the exact Animal loop. The accepted owner-frame shaded baseline remains a comparison surface, not animation timing acceptance.
-- **Nature VFX PR #11** owns the micro-flutter lane; Animation does not duplicate that dynamic motion work.
-- **Object Animation PR #10** remains a mature phase-boundary baseline with no new perceptual defect justifying a retime/easing change.
-- **Character** remains structurally held by nonzero shoulder/self-intersection defects and is not promoted into a motion problem.
+The remaining Animation-owned gap was therefore **between-authored-key source-curve continuity**. Existing evidence was strong at the 41 authored keys, but did not independently show that a hidden discontinuity between two retained keys would be detected.
 
-No duplicate Rigging, Technical Art, VFX, Runtime, controller, gameplay, Materials or Art/QA lane was opened.
-
-## Highest-leverage bounded improvement — reconstructed-frame temporal stability witness
+## Highest-leverage bounded improvement — dense subframe continuity witness
 
 This activation changes **no motion variable**.
 
-Animation PR #5 is advanced on its existing branch to exact head:
+Existing Animal Animation PR #5 advanced on its existing branch to exact head:
 
-`4209f617f37069ad040fee3ccc7cd1b15a60749d`
+`f5a4036be74737e8e427753ce40e2148963b47e4`
 
-New reusable Animation contract:
+New reusable contract:
 
-`axm.animal-animation-transport-reconstruction-temporal-stability/v0.1`
+`axm.animal-animation-subframe-continuity/v0.1`
 
-Purpose: consume the **exact retained Rigging reconstruction evidence** and ask an Animation-owned temporal question that Rigging's per-key spatial gate does not answer:
-
-> Across the unchanged 41 authored samples, do the reconstruction-error measurements stay temporally symmetric, locally stable and loop-closed, or can an isolated/asymmetric temporal error spike hide while every individual key still satisfies Rigging's spatial tolerance?
-
-Ownership remains explicit:
-
-- **Rigging** owns the per-key reconstruction method and spatial correctness claim.
-- **Animation** owns comparison of those retained measurements across authored time/sample order.
-- **Technical Art** owns adoption/proof of a concrete production receiver.
-- **Visual QA / Art Direction** own perceptual acceptance of the resulting moving shaded receiver.
-
-Animation does not reimplement Rigging's reconstruction solver and does not adopt a Technical Art receiver.
-
-### Preserved motion identity
-
-The source clip remains exactly:
+Preserved motion identity:
 
 - `quadruped-articulation-loop-001`;
 - `1.0 s`;
-- `40 Hz`;
-- `41` endpoint-inclusive authored samples;
+- authored `40 Hz` / `41` endpoint-inclusive samples;
 - raised-cosine neutral -> peak -> neutral;
 - front elbows `0 -> +18° -> 0`;
 - hind knees `0 -> +14° -> 0`;
 - bilateral pairs matched;
 - `smoothstep-v0` weighting;
-- canonical clip digest `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`.
+- source digest `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`;
+- neutral surface digest `1f8cb51e7047090c945e93e0a28520180725a2827882144a2c021fe55495734c`;
+- rig-plan digest `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
+- clip digest `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`.
 
-No retime, easing change, new key, amplitude change, phase change, interpolation change, deformation change, weighting change, normal/tangent change or material change was introduced.
+No retime, easing change, new key, amplitude change, phase change, weighting change, deformation change, source rewrite, rig rewrite or material change was introduced.
 
-## New temporal witness
+### Method
 
-Added to existing Animal Animation PR #5:
+The audit evaluates the exact existing analytic Animation curve through the existing Rigging deformation implementation at **8 deterministic subframes per authored interval**: diagnostic `320 Hz`, `321` samples total. This is diagnostic sampling only, not a request to ship/render at 320 Hz.
 
-- `src/axm_animal_design/animation_reconstruction_temporal_audit.py`;
-- `tests/test_animation_reconstruction_temporal_audit.py`;
-- `tools/build_animation_reconstruction_temporal_audit.py`;
-- `docs/animation_reconstruction_temporal_audit.md`;
-- `.github/workflows/animation-reconstruction-temporal-audit.yml`.
+It checks:
 
-Local exact-artifact audit result:
+- stable surface topology;
+- exact rebind to every one of the 41 authored samples;
+- neutral loop closure;
+- time-reversal symmetry of the current raised-cosine pulse;
+- bilateral angle symmetry;
+- monotonic rise/fall;
+- bounded nonzero dense geometric steps;
+- analytic source velocity at loop start, midpoint and end;
+- analytic source acceleration equality across the repeat seam.
 
-`PASS_RECONSTRUCTION_TEMPORAL_ERROR_SYMMETRY_AND_LOOP_CLOSURE`
+Scoped CI result:
 
-Observed from exact Rigging artifact `10476642320`:
+`PASS_DENSE_SUBFRAME_SOURCE_CURVE_CONTINUITY_WITNESS`
 
-- all 41 sample indices remain ordered;
-- maximum authored timestamp interval residual around `0.025 s`: `3.5762786863846596e-08 s`;
-- maximum `t[i] + t[40-i]` mirror residual around `1.0 s`: `2.9802322387695312e-08 s`;
-- maximum transported motion-angle mirror residual: `0.0°`;
-- midpoint remains sample `20`, approximately `17.999999201986377°`;
-- maximum mirror residual for every retained reconstruction-error scalar series: `0.0`;
-- maximum adjacent position-error delta: `3.617388995888959e-13 m`;
-- maximum adjacent normal-error delta: `5.251105638910767e-11°`;
-- maximum adjacent tangent-error delta: `6.164760297025767e-11°`;
-- maximum adjacent reconstructed `|N·T|` error delta: `7.216449660063518e-16`;
-- UV-split position residual remains `0.0 m` across the series;
-- tangent-handedness mismatch remains `0` across all 41 samples;
-- sample `0` and sample `40` reconstruction-error state closes exactly.
+Exact retained metrics:
 
-These numbers establish a **sampled temporal measurement witness**, not a production rendering or receiver result.
+- dense sample rate/count: `320 Hz / 321`;
+- maximum authored-sample position rebind residual: `0.0 m`;
+- maximum authored-sample angle rebind residual: `3.7536995733944423e-10°`;
+- loop position residual: `0.0 m`;
+- loop angle residual: `0.0°`;
+- maximum time-mirror position residual: `1.5700924586837752e-16 m`;
+- maximum time-mirror angle residual: `8.881784197001252e-15°`;
+- maximum dense bilateral angle residual: `0.0°`;
+- maximum dense adjacent vertex step: `0.0015058788433633535 m`;
+- maximum authored adjacent vertex step: `0.011998024233626689 m`;
+- dense/authored maximum-step ratio: `0.12551056857702025`;
+- start source velocity: `0.0°/s`;
+- midpoint source velocity magnitude: `6.925214497398443e-15°/s`;
+- end source velocity magnitude: `1.3850428994796886e-14°/s`;
+- loop source-acceleration residual: `0.0°/s²`;
+- monotonic rise: `true`;
+- monotonic fall: `true`;
+- topology stable: `true`.
 
-### Independent negative control
+### Independent hidden-between-key negative control
 
-The Animation audit injects only a `+0.0001°` normal-error spike at sample `13`.
+A verifier-only mutation adds a `+0.05° sin²` bump to `front-elbow-L` strictly inside authored interval `13 -> 14`. It is exactly zero at both authored boundaries and therefore preserves all 41 retained authored keys.
 
-That mutation is intentionally **below Rigging's `0.001°` per-key direction tolerance**, so a test that merely duplicated Rigging's spatial gate would still accept the mutated key. The Animation temporal audit instead returns:
+The dense witness correctly returns:
 
-`HOLD_RECONSTRUCTION_TEMPORAL_ERROR_STABILITY`
+`HOLD_DENSE_SUBFRAME_SOURCE_CURVE_CONTINUITY`
 
-because the otherwise symmetric temporal error series now contains an asymmetric/local discontinuity.
+while the authored-sample position residual remains `0.0 m` and authored-angle rebind residual remains `3.7536995733944423e-10°`. The hidden mutation produces `0.05000000000000071°` maximum dense bilateral residual, `0.04999999999999716°` maximum time-mirror angle residual and `0.0004261040882179301 m` maximum time-mirror position residual.
 
-This demonstrates that the new method contributes a distinct Animation-owned temporal check rather than claiming ownership of Rigging's reconstruction math.
+This demonstrates that the new method contributes information beyond the 41 authored-key checks rather than restating them.
 
-## CI state
+## CI / retained evidence
 
-GitHub workflow:
+Workflow: `Animation dense subframe continuity`
 
-`Animation reconstruction temporal audit`
+Run `35178563187` completed **SUCCESS** at exact head `f5a4036be74737e8e427753ce40e2148963b47e4`:
 
-Run:
+- Python 3.13 audit/tests: SUCCESS;
+- Python 3.11 audit/tests + evidence build/upload: SUCCESS.
 
-`35174733022`
+Retained artifact:
 
-Exact head:
+- ID: `10479254408`;
+- name: `animal-animation-subframe-continuity`;
+- size: `29,694 bytes`;
+- archive SHA-256: `314fd0afeb91ecfb4dc415f9a3c256418c9225a503e6564018e6a995a95933f5`.
 
-`4209f617f37069ad040fee3ccc7cd1b15a60749d`
-
-The run is currently **QUEUED** for Python 3.11 and 3.13 runners. Therefore this status does **not** yet promote the new witness to a CI-backed PASS or claim a retained Animation artifact. The exact-artifact local audit and unit tests are green; CI evidence remains pending until GitHub executes the queued jobs.
+The downloaded archive was independently rehashed to the same SHA-256 and its `summary.json` was inspected.
 
 ## Decision
 
-**`MOTION_UNCHANGED__HOLD_TECHNICAL_ART_RECEIVER + TARGET_HOST_TRANSPORT + PERCEPTUAL_TEMPORAL_ACCEPTANCE`**
+**`MOTION_UNCHANGED__PASS_SOURCE_CURVE_SUBFRAME_WITNESS__HOLD_TECHNICAL_ART_RECEIVER + TARGET_ENGINE_INTERPOLATION + PERCEPTUAL_TEMPORAL_ACCEPTANCE`**
 
-The reconstructed direction-frame measurements are now spatially green at Rigging and temporally stable across the exact authored sample sequence, but the production integration boundary remains unchanged: there is still no adopted Technical Art receiver exercising those reconstructed frames through the actual receiving/export/import/render path.
-
-Changing motion timing/easing/keys now would add an unrelated variable while the correct next experiment is already defined.
+The source curve now has a bounded between-key continuity witness. The next high-value Animation experiment is still downstream: once Technical Art adopts one explicit reconstructed direction-frame receiver, drive this exact unchanged clip through that receiver before changing any timing/easing/key/amplitude variable. A target engine's interpolation must also be tested directly before claiming engine-level subframe behavior.
 
 ## Handoffs
 
-- **Technical Art:** adopt or implement one explicit reconstructed direction-frame receiver and prove its identity. Do not infer adoption from Rigging's measurement-only reconstruction PASS.
-- **Animation PR #5:** once that receiver exists, exercise this **same unchanged clip first** through it. Preserve the exact clip digest so any difference is attributable to transport, not animation edits.
-- **Visual QA / Art Direction:** inspect the exact shaded moving receiver after that handoff and return a named phase/sample/context defect before Animation changes timing, amplitude, keys, easing or weighting.
-- **Rigging PR #25:** its spatial reconstruction evidence remains source authority; Animation consumes the retained receipt as a temporal witness and does not fork/rewrite the solver.
-- **Object PR #10:** preserve its phase-boundary baseline pending a specific motion-quality finding.
+- **Technical Art:** adopt/prove one explicit reconstructed direction-frame production receiver. This source-curve PASS does not imply receiver adoption.
+- **Animation PR #5:** preserve the exact clip/source/rig identities; use the unchanged clip first when a production receiver is available.
+- **Visual QA / Art Direction:** return a named timed defect on the actual receiving/render path before Animation changes timing, amplitude, keys, easing or weighting.
+- **Rigging:** the dense Animation witness calls the existing deformation implementation; it does not fork or replace Rigging ownership.
+- **Nature VFX:** micro-flutter remains its lane and is not absorbed into the base Animation pulse.
 - **Runtime:** no controller, state-machine, scheduling, input, collision, physics or gameplay acceptance transfers from this evidence.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a Technical Art production reconstruction receiver;
-- production/export/import normal/tangent transport equivalence;
-- continuous interpolation or C1/C2 smoothness;
-- wall-clock `40 Hz` pacing;
-- final shaded moving appearance;
-- animation timing/personality/acting acceptance;
+- target-engine interpolation behavior;
+- production skeleton/skin or direction-frame transport;
+- Technical Art receiver adoption;
+- wall-clock `40 Hz` or `320 Hz` pacing;
+- renderer sampling or final shaded moving appearance;
+- perceptual smoothness, timing/personality/acting acceptance;
 - runtime-controller/state-machine behaviour;
 - collision/physics/input/gameplay acceptance;
 - target-device performance;
@@ -165,9 +157,9 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** per-key Rigging reconstruction, Animation temporal stability, Technical Art receiver adoption and perceptual acceptance stay separate claims.
-- **Agency / non-domination:** Animation consumes Rigging evidence without rewriting Rigging, Technical Art, Art/QA, Runtime or VFX ownership.
-- **Continuity:** exact Animation head, unchanged clip digest, exact Rigging head, retained Rigging artifact/hash and CI run are preserved as independent rollback/provenance points.
-- **Wisdom before speed:** verify the corrected frame evidence across time before changing a known-good motion baseline, and wait for the actual receiving path before claiming production motion quality.
+- **Truth:** authored-key evidence, dense source-curve continuity, target-engine interpolation, production transport and perceptual acceptance remain separate claims.
+- **Agency / non-domination:** Animation uses existing Rigging deformation and does not rewrite Rigging, Technical Art, Art/QA, VFX or Runtime ownership.
+- **Continuity:** exact Animation head, source/rig/clip digests, workflow run, retained artifact/hash and negative control are preserved as rollback/provenance points.
+- **Wisdom before speed:** close the real between-key evidence gap without changing a known-good motion baseline, then wait for the actual receiver/interpolation path before claiming production motion quality.
 
 The four AXM roots remain the merge gate.
