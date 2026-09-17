@@ -1,131 +1,141 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **OBJECT_KEEPER_SOCKET_MOTION_REBIND / EXACT MOTION UNCHANGED / TARGET-HOST PASS**
+State: **OBJECT_CONTINUOUS_MECHANICAL_PHASE_GUARD / MOTION UNCHANGED / SCOPED CI EVIDENCE PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, the current specialist status files, and current animation-ready work across the active constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current specialist state, and the newest animation-ready constellation work.
 
-`axm-create-me` remains **coordination only**. No product asset, rig, deformation solver, material, renderer, runtime controller or gameplay implementation was added here.
+`axm-create-me` remains **coordination only**. No product asset, rig, deformation solver, renderer, runtime controller or gameplay implementation was added here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- **Animal:** authored-key, dense-subframe, target-host tangent-space and transport-readiness evidence already exist. Its next meaningful Animation step still depends on a production direction-frame receiver or a named Art/QA timed defect. Another invented clip change would duplicate or blur existing evidence.
-- **Character:** current blockers remain upstream structural/intersection issues rather than an Animation timing defect.
-- **Nature / Weather / Map:** secondary-motion wall-clock timing remains VFX/Runtime-owned; Animation does not duplicate it.
-- **Object:** Rigging PR #27 delivered the strongest fresh Animation-ready handoff: exact upper-keeper socket evidence at `4a743a8c934b72178ef04ae3f55947bdc7f8def0`, result `PASS_LID_OWNED_KEEPER_SOCKET_BINDING_111_POSES`, while explicitly leaving Animation/runtime acceptance false.
+- **Animal:** authored-key, dense-subframe, shaded target-host and transport-readiness evidence already exist. Its meaningful next Animation step remains a corrected production direction-frame receiver or a named Art/QA timed defect; no new clip was invented.
+- **Character:** nonzero shoulder/intersection structure remains an upstream blocker rather than an Animation timing defect.
+- **Nature / Weather / Map:** current timed secondary-motion and delivery questions remain VFX / Runtime / Environment owned; Animation does not duplicate them.
+- **Object:** Rigging PR #27 delivered the strongest fresh Animation-ready handoff: exact head `44e0a56872a823cf768c749672116fd026b1ef5e`, result `PASS_CONTINUOUS_KEEPER_LEVER_CLEARANCE_DURING_LID_MOTION__ENGAGEMENT_OVERLAP_HELD`, proving a positive continuous keeper/lever separation certificate only while the lid moves through the exact `0..100°` interval and the lower latch lever remains at exact `50°`. Rigging deliberately leaves continuous latch release and re-engagement clearance unproved.
 
-## Highest-leverage bounded improvement — exact keeper-socket motion rebind
+The existing Object Animation PR #10 therefore remained the single Animation lane. No new Animation PR was opened.
 
-Existing Object Animation PR #10 was advanced on its existing branch. Exact Animation head:
+## Highest-leverage bounded improvement — continuous mechanical phase guard
 
-`7ae6b829ab6450b7198a9ceee8b1bd5c55f226ea`
+Repository: `mike-axiom-mir/axm-object-design`
 
-No motion variable changed.
+Existing draft PR: **#10 — Animation: prove bounded equipment-case lid open-hold-close clip**
 
-Preserved sequence identity:
+Branch: `studio/animation-object-lid-open-close-001`
+
+Exact current Animation head: **`9725eb2ddde3b79c73bfdbbaef7c0e14da6af1a7`**.
+
+New reusable Object-local Animation contract:
+
+`axm.object-animation-mechanical-phase-guard/v0.1`
+
+Contract ID:
+
+`lid-latch-continuous-moving-phase-guard-001`
+
+The improvement does **not** change motion authorship. It composes the unchanged Animation phase policy with the exact fresh Rigging continuous-clearance receipt and fails closed if either side drifts.
+
+### Preserved motion identity
 
 - sequence: `lid-latch-open-hold-close-001`;
-- exact host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- sequence digest: `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
 - duration: `2.5 s`;
 - authored sample rate: `40 Hz`;
-- endpoint-inclusive authored samples: `101`;
-- base lid clip digest: `9e149195ab315f83f2d6f7d76f374f4be245567f77402de3e8a1d40ab79ef340`;
-- keeper Rigging head: `4a743a8c934b72178ef04ae3f55947bdc7f8def0`;
-- ownership head: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
-- lid Rigging head: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
-- prior target Rigging head: `9556308c9986f71519bc488badc1b1a63e855e7e`;
-- historical lower-lever Rigging head: `3b667ff5d30c46ec2fe7da7679518970f8610018`;
-- exact Technical Art rigid-scene donor: `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
-- exact UC donor: `6dc465987e01362264f88b7cef4213609ae50763`.
+- endpoint-inclusive samples: `101`;
+- base lid clip: unchanged exact `2.0 s` clip placed at `0.25 s`, no retime;
+- release: `0.00 -> 0.25 s`, lid neutral, latch `0 -> 50°`;
+- moving-lid phase: `0.25 -> 2.25 s`, exact unretimed lid clip, latch held at exactly `50°`;
+- re-engagement: `2.25 -> 2.50 s`, lid neutral, latch `50 -> 0°`;
+- timing / keys / amplitudes / easing / phase ordering / interpolation policy / rig identity / source identity: **unchanged**.
 
-New reusable contract:
+## Fresh Rigging dependency composed, not copied
 
-`axm.object-animation-keeper-socket-motion-rebind/v0.1`
+Pinned Rigging successor:
 
-The contract is rebind-only: **no keeper animation tracks or keeper keys are authored**. The upper keepers move only because their source-owned nodes remain direct children/sockets of `lid_shell`. Existing lower latch levers retain their independent historical Rigging-bound tracks.
+- PR #27 exact head: `44e0a56872a823cf768c749672116fd026b1ef5e`;
+- workflow: `35189898107` — SUCCESS;
+- retained artifact: `10483747546`;
+- artifact SHA-256: `2785d67b29325a4041f5761033b56d07b93aa30ca9645db05434d432892b4a9e`;
+- exact Rigging result: `PASS_CONTINUOUS_KEEPER_LEVER_CLEARANCE_DURING_LID_MOTION__ENGAGEMENT_OVERLAP_HELD`;
+- exact moving-lid envelope: lid `0..100°`, latch exactly `50°`;
+- conservative continuous world-Z separation lower bound: `0.0015728659779459253 m`;
+- bilateral certificate residual: `0.0 m`.
 
-## Actual-motion / target-host evidence
+Animation does not copy Rigging's trigonometric clearance solver. It consumes the retained exact receipt as a pinned dependency and checks only whether the unchanged motion stays inside the domain that Rigging actually proved.
+
+The composed meaning is deliberately narrow:
+
+1. latch release phase: lid must remain neutral;
+2. moving-lid phase: latch must remain exactly `50°` for every non-neutral lid sample;
+3. latch re-engagement phase: lid must remain neutral;
+4. only the middle moving-lid phase inherits Rigging's continuous keeper/lever clearance certificate.
+
+No claim is transferred to the release or re-engagement transitions, where intentional neutral engagement overlap remains source truth.
+
+## New verifier / fail-closed method
+
+Added to Object Animation PR #10:
+
+- `assets/modular-equipment-case-001/animation-mechanical-phase-guard-001.json`;
+- `tools/verify_animation_mechanical_phase_guard.py`;
+- `tests/test_animation_mechanical_phase_guard.py`;
+- `.github/workflows/object-animation-mechanical-phase-guard.yml`.
+
+The verifier pins the exact sequence digest and fresh Rigging head/artifact/result, preserves Rigging's non-claim flags, checks the exact phase policies, and checks all `101` rebuilt authored samples. Every non-neutral lid sample must retain latch angle exactly `50°`; all latch transition samples must retain neutral lid.
+
+A verifier-only hidden mutation changes one non-neutral-lid sample from latch `50°` to `49.9°`. The new gate is required to fail with `MOVING_LID_NOT_FULLY_RELEASED` rather than widening a tolerance or silently inheriting the continuous Rigging claim.
+
+## Current evidence state
 
 Dedicated workflow:
 
-`35186646198 — Object Animation keeper-socket motion rebind evidence` — **SUCCESS** at exact head `7ae6b829ab6450b7198a9ceee8b1bd5c55f226ea`.
+`35190468225 — Object Animation continuous mechanical phase-guard evidence`
 
-The workflow ran the full Object test suite under Python 3.11 and 3.13 (**42/42 tests green in each lane**), rebuilt and pinned the exact Technical Art / UC receiver, unchanged lid/latch motion, historical lower-lever Rigging evidence and fresh keeper Rigging #27 evidence, then used pinned Godot 4.7.2 GL Compatibility for direct target-host observation.
+Exact head:
 
-Scoped result:
+`9725eb2ddde3b79c73bfdbbaef7c0e14da6af1a7`
 
-`PASS_TARGET_HOST_KEEPER_SOCKET_MOTION_REBIND_101_SAMPLES`
+Observed so far:
 
-Observed facts:
+- Python 3.11 full Object regression job: **SUCCESS**;
+- Python 3.13 full Object regression job: **SUCCESS**;
+- dedicated `phase-guard` evidence job: **QUEUED / NOT YET EXECUTED** at this status update.
 
-- `3` AnimationPlayer tracks total: lid + two lower levers;
-- key counts remain exactly `[101, 101, 101]`;
-- all `101` authored samples were sought on the target host;
-- maximum lid sample-seek error: `9.94646950402966e-06°`;
-- maximum lower-latch sample-seek error: `4.57763671590783e-06°`;
-- maximum keeper lid-local socket drift across authored samples: `8.42936955791629e-08 m`;
-- maximum keeper center error versus exact Rigging #27 0°/50°/100° reference poses: `5.96046447753906e-08 m`;
-- exact Rigging reference hits: `0° = 22`, `50° = 2`, `100° = 21`;
-- minimum keeper world displacement at the 100° lid pose: `0.770640730857849 m`, with **no keeper-authored track**;
-- capture-free `AnimationPlayer.play()` exercised `363` process frames and reached `99.9999923706055°` lid rotation;
-- maximum keeper lid-local socket drift during that capture-free play path: `8.42936955791629e-08 m`;
-- endpoint keeper world drift: `0.0 m`;
-- endpoint lower-lever world drift: `0.0 m`;
-- motion mutation: `NONE`.
+Therefore the scoped composition result is **not yet promoted to CI PASS**. No retained Animation artifact ID or digest is claimed yet.
 
-A verifier-only `+1 mm` keeper-reference mutation at the exact 50° Rigging reference was directly rejected by Godot for the intended reason: `target-host keeper center diverged from Rigging reference`.
-
-Retained artifact:
-
-- artifact ID: `10481963076`;
-- name: `object-animation-keeper-socket-rebind-7ae6b829ab6450b7198a9ceee8b1bd5c55f226ea`;
-- size: `39,473 bytes`;
-- archive SHA-256: `cdf897469313ae245d9fb15799068e10e381caf13c9492b5979b202221b36b4a`.
-
-## Preserved failed drafts / verifier repair trail
-
-Two earlier dedicated runs are intentionally not erased:
-
-- `35186175846` — FAIL: new GDScript verifier used invalid three-argument `maxf()` / `minf()` calls.
-- `35186360454` — FAIL: after that repair, Godot caught Variant-derived float type inference on `move0` / `move1`.
-
-Those failures were verifier implementation defects, not motion acceptance evidence. The observer was then made type-explicit without widening tolerances or changing source, rig, sequence, keys, timing, amplitude or phase. Only the third exact-head run above is promoted as the current keeper-socket Animation evidence.
-
-The first failure also exposed that a shell-level negative-control step could appear to reject while the verifier itself failed to parse. No false PASS escaped because the positive step still failed. In the successful run, the negative control was inspected and rejected for the intended keeper-reference mismatch before the positive PASS.
-
-## Previous Object timing baseline remains separate
-
-The prior wall-clock proof-host result at `82b0c22e3a9eb346f2b06745b958a570d41beb15` remains historical timing evidence: actual `AnimationPlayer.play()` was observed, but screenshot-loaded proof-host delivery covered only 84/101 authored slots and therefore did **not** certify complete 40 Hz scheduler delivery.
-
-This activation's capture-free play path is used only to prove keeper hierarchy/socket continuity under actual playback. It does not convert that prior timing hold into a scheduler or display certification.
+The same-head inherited Godot Animation workflows were also queued at the time of this status update, so this activation does not claim a fresh same-head target-host playback observation. Historical Godot target-host, keeper/socket and wall-clock evidence remains valid only for its exact prior heads and unchanged sequence identity; it is not silently relabelled as new-head runtime evidence.
 
 ## Decision
 
-**`PASS_KEEPER_SOCKET_MOTION_REBIND__MOTION_UNCHANGED__SCHEDULER_AND_RUNTIME_ACCEPTANCE_HELD`**
+**`HOLD_CI_FOR_CONTINUOUS_MOVING_LID_PHASE_GUARD__MOTION_UNCHANGED`**
 
-No retime, easing change, key edit, amplitude change, phase change, interpolation-policy change, source rewrite, rig rewrite, material change, controller/state-machine logic or gameplay logic is justified by the current evidence.
+The code/contract lane is bounded and the full Python regression matrix is green, but the dedicated receipt/negative-control/artifact job has not run yet. No timing, easing, key, amplitude or phase edit is justified while the new evidence gate is pending.
 
 ## Handoffs
 
-- **Object Animation PR #10:** retain this exact keeper-socket target-host evidence and keep the sequence frozen until a named temporal/perceptual defect or a new exact production receiver requires another bounded Animation pass.
-- **Object Rigging PR #27:** Animation consumed the exact keeper socket witness successfully; Rigging remains source of keeper/socket geometry and sweep identity.
-- **Visual QA / Art Direction:** no motion authorship change is implied by this structural PASS; final timing, weight and visual-motion acceptance remain theirs.
-- **Runtime / Technical Art:** capture-free playback here proves hierarchy/socket continuity only. Scheduler delivery, controller behavior, target-device performance and gameplay integration remain outside Animation authority.
-- **Animal:** production direction-frame receiver hold remains independent and unchanged.
+- **Object Animation PR #10:** retain exact head `9725eb2...` and do not promote the new continuous-phase composition until workflow `35190468225` finishes the `phase-guard` job successfully.
+- **Object Rigging PR #27:** Animation consumes the exact continuous moving-lid clearance receipt by pinned identity only; Rigging remains owner of the clearance mathematics and mechanical source/rig facts.
+- **Visual QA / Art Direction:** no creative motion change was made. Timing, weight, acting/style and final perceptual acceptance remain independent.
+- **Runtime / Technical Art:** this gate is not a controller, state machine, physics implementation, scheduler certification or gameplay path. Any driven implementation must bind and prove its own exact receiver.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- complete 40 Hz scheduler delivery or display scanout;
+- continuous collision freedom during latch release or re-engagement;
+- removal of intentional neutral-lid keeper/lever engagement overlap;
+- physical latch capture, retention, spring, force, wear or manufacturing behavior;
+- target-engine interpolation from this new gate;
+- fresh same-head Godot playback acceptance while those workflows remain queued;
+- complete 40 Hz scheduler/display delivery;
 - controller/state-machine behavior;
-- input/interaction;
-- collision, physics, latch capture/retention or mechanism correctness;
-- gameplay acceptance;
+- collision/physics-engine acceptance;
+- input or gameplay acceptance;
 - final timing/weight/style or Art Direction acceptance;
 - target-device performance;
 - CANON;
@@ -133,9 +143,9 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** both verifier failures remain recorded; only the repaired exact-head Godot run is promoted, with bounded numeric receipts and explicit non-claims.
-- **Agency / non-domination:** Animation consumes exact Rigging/Technical Art/UC identities without taking ownership of their solvers, Runtime scheduling, gameplay or Art/QA acceptance.
-- **Continuity:** the existing Object Animation PR #10, unchanged sequence digest, exact source/rig donor heads, prior wall-clock baseline, failed drafts and rollback path are preserved.
-- **Wisdom before speed:** the fresh Rigging dependency was rebound before any creative motion rewrite; tolerances were not widened to force a PASS, and no motion change was invented without a demonstrated defect.
+- **Truth:** the new gate is held at CI-pending rather than promoted early; the fresh Rigging certificate is composed only over its proven `50°` moving-lid domain and release/re-engagement remain false.
+- **Agency / non-domination:** Animation does not take Rigging's solver, Runtime/controller authority, physics authority or Art/QA acceptance.
+- **Continuity:** existing Object Animation PR #10, exact sequence digest, old target-host baselines, fresh Rigging identity and rollback chain remain separately pinned.
+- **Wisdom before speed:** a reusable evidence guard was added instead of retiming a clip that has no demonstrated motion defect, and no tolerance was widened to manufacture a PASS.
 
 The four AXM roots remain the merge gate.
