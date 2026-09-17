@@ -1,7 +1,7 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CHARACTER_REVIEW006_TARGET_HOST_ANIMATIONPLAYER_INTERPOLATION_AND_PLAYBACK_TRACE / SOURCE MOTION FROZEN / RUNTIME-CONTROLLER + GAMEPLAY HELD**
+State: **PASS_CHARACTER_REVIEW006_TARGET_HOST_REPEATED_LOOP_SEAM_TRANSITION / SOURCE MOTION FROZEN / RUNTIME-CONTROLLER + GAMEPLAY HELD**
 
 ## Current activation
 
@@ -13,13 +13,15 @@ The four AXM roots remain the internal merge gate: **Truth, Agency / non-dominat
 
 ## Fresh constellation / duplication scan
 
-- **Object:** Animation PR #10 remains a mature motion lane with prior target-host, wall-clock, keeper/socket, phase and textured-receiver evidence. No fresh Object defect justified retiming or duplicate proof work.
-- **Animal:** Animation PR #5 already owns dense/subframe motion and normalized-u16 subframe evidence. Its remaining holds are primarily receiver/adoption boundaries rather than a fresh Animation-owned clip defect.
+- **Object:** Animation PR #10 remains mature with target-host, wall-clock, keeper/socket, phase and textured-receiver evidence. No new timed defect justified touching that clip.
+- **Animal:** Animation PR #5 already owns dense/subframe motion and normalized-u16 subframe evidence. Its remaining holds are receiver/adoption boundaries, not a fresh Animation-authored motion defect.
 - **Character source motion:** Animation PR #19 remains the exact `2.0 s / 40 Hz` shoulder diagnostic source, densely checked at `160 Hz / 321 samples` through current Rigging. No source-motion defect justified changing timing, keys, easing or amplitude.
-- **Character Technical Art / Materials:** the exact transport already carries six glTF LINEAR TRS channels at `160 Hz / 321 keys`, while Materials keeps `INCONCLUSIVE_CHARACTER_REVIEW006_TARGET_DIRECTION_FRAME_MIXED_RESPONSE`. Animation must not repair or relabel that shading/direction-frame result.
-- The highest-leverage non-overlapping Animation gap was therefore **target-host preservation and playback of the exact 160 Hz transported Character motion**, not another clip.
+- **Character Technical Art / Materials:** the exact transport carries six glTF LINEAR TRS channels at `160 Hz / 321 keys`. Materials remains `INCONCLUSIVE_CHARACTER_REVIEW006_TARGET_DIRECTION_FRAME_MIXED_RESPONSE`; Animation must not repair or relabel that result.
+- **Character target-host playback:** PR #22 already proved exact-density import, between-key interpolation and one capture-free `AnimationPlayer.play()` pass. The fresh bounded gap was the **loop transition itself**: repeated end→start wraps had not been exercised through a real `AnimationPlayer` run.
 
-## Bounded improvement — exact-density target-host playback witness
+The highest-leverage non-overlapping Animation improvement was therefore a reusable repeated-loop seam witness, not another clip or retime.
+
+## Bounded improvement — repeated target-host loop seam witness
 
 Repository: `mike-axiom-mir/axm-character-design`
 
@@ -27,19 +29,19 @@ Draft PR: **#22 — Animation: prove review006 target-host playback continuity**
 
 Branch: `studio/animation-character-review006-target-host-playback-002`
 
-Exact Animation head: **`fb518d8320b74323767fdfb57e81291dbdb2a4d1`**
+Exact Animation head: **`5513ab66372ee06ce53788f5097ede230ca2fc6b`**
 
 PR state: **open / draft / mergeable**.
 
-Reusable contract remains:
+New reusable contract:
 
-`axm.character-review006-target-host-playback/v0.1`
+`axm.character-review006-target-host-loop-transition/v0.1`
 
 Source clip remains:
 
 `character-review006-bilateral-shoulder-articulation-review-loop-001`
 
-No source motion, Rigging, skin factorization, keys, timing, easing, amplitude or tolerance was changed to obtain the result.
+No source motion, Rigging, skin factorization, keys, timing, easing, amplitude, Materials state or target GLB bytes were changed to obtain this result.
 
 ### Exact lineage preserved
 
@@ -51,94 +53,95 @@ No source motion, Rigging, skin factorization, keys, timing, easing, amplitude o
 - source diagnostic: `2.0 s / 40 Hz / 81 authored keys`
 - exact Technical Art transport density: `160 Hz / 321 endpoint-inclusive keys`
 
-## Repair trail preserved — the first target-host failure was an import-density witness defect
+## Actual repeated-loop motion test
 
-The prior target-host observer exposed an important evidence problem instead of a Character motion defect.
+Dedicated workflow:
 
-At run `35222358659`, the hardened fail-fast observer showed Godot had imported all six expected LINEAR tracks with correct `0.0 .. 2.0 s` duration, but only **61 keys per track**, not the exact transported 321. `61 = 2.0 s * 30 Hz + endpoint` matched the target host's default scene-generation bake density. The old observer had then indexed beyond that imported grid, which explains the earlier invalid/default observations such as `time_s = -1.0` and identity/zero fallback values.
-
-That failure remains retained as evidence; it was not relabelled as a motion failure or hidden by loosening tolerances.
-
-Animation repaired the receiving method only:
-
-- base observer now fails closed on track-grid drift and no longer permits a later receipt to overwrite an earlier failure;
-- exact imported track path/type/interpolation/key count/first/last time are retained;
-- midpoint interpolation is checked in **actual `AnimationPlayer`-applied `Skeleton3D` pose space**;
-- a small inherited receiver calls `GLTFDocument.generate_scene(..., 160.0, ...)`, explicitly preserving the exact Technical Art transport density rather than accepting the host default;
-- source clip, rig, transport bytes and thresholds remain unchanged.
-
-## Actual target-host motion test
-
-Dedicated exact-density workflow:
-
-**`35222873944 — Animation Character review006 target-host 160Hz witness — SUCCESS`**
+**`35227649172 — Animation Character review006 target-host loop seam witness — SUCCESS`**
 
 Exact head:
 
-`fb518d8320b74323767fdfb57e81291dbdb2a4d1`
+`5513ab66372ee06ce53788f5097ede230ca2fc6b`
 
 Godot receiver:
 
 - Godot `4.7.2-stable (official)`;
 - `gl_compatibility`;
-- proof host adapter: `llvmpipe (LLVM 20.1.2, 256 bits)`.
+- exact `GLTFDocument.generate_scene(..., 160.0, ...)` receiver;
+- six imported LINEAR tracks;
+- **321 keys per track**;
+- first/final key times: **0.0 / 2.0 s**.
 
-Imported animation evidence:
+Before running a repeated loop, the witness compares the exact imported end pose against the exact imported start pose across both distal shoulder rotations and both release-helper rotation/scale states.
 
-- six exact tracks: **PASS**;
-- all six interpolation modes: **LINEAR**;
-- all six key counts: **321**;
-- first key: **0.0 s**;
-- final key: **2.0 s**.
+Exact seam closure:
 
-Pose-space midpoint evidence:
-
-- intervals checked: **320**;
-- rotation tracks checked: **4**;
-- scale tracks checked: **2**;
-- diagnostic midpoint density: **320 Hz**;
-- maximum rotation disagreement: **0.0°**;
-- maximum scale-component disagreement: **0.0**.
+- maximum rotation error: **0.0°**;
+- maximum scale-component error: **0.0**.
 
 Verifier-only negative control:
 
-- expected rotation offset: `+0.25°`;
-- clean midpoint error: **0.0°**;
-- mutated expected error: **0.237388267204391°**;
-- expected rejection: **true**.
+- neutral left-shoulder mutation: **+0.25°**;
+- observed mutated seam error: **0.250229209607°**;
+- expected fail-closed rejection: **true**.
 
-Capture-free real `AnimationPlayer.play()` trace:
+The proof then changes only the **in-memory imported Animation resource** to `LOOP_LINEAR` for observation. This is an observer-only proof setting; it does not alter the source GLB, source clip, Runtime controller or production loop policy.
 
-- wall elapsed: **1.984233 s**;
-- process frames observed: **1429**;
-- highest animation position: **2.0 s**;
-- animation-position reversals: **0**;
-- left/right distal max excursion: **29.9999530235019° / 29.9999530235019°**;
-- maximum bilateral excursion delta: **0.0°**;
-- left/right endpoint residual: **0.0° / 0.0°**;
-- observed process interval min / mean / max: **1.158 / 1.38078291316527 / 4.475 ms**.
+Real repeated `AnimationPlayer.play()` trace:
+
+- observed wraps: **3**;
+- wall elapsed: **5.970733 s**;
+- process frames: **4618**;
+- first wrap: `1.999726 s → 0.00105399999999722 s`;
+- second wrap: `1.999685 s → 0.000899999999995682 s`;
+- third wrap: `1.99901699999999 s → 0.000219999999992559 s`;
+- maximum pre-wrap endpoint rotation error: **0.0°**;
+- maximum post-wrap endpoint rotation error: **0.0°**;
+- maximum pre/post scale error: **0.0**;
+- maximum observed cross-seam rotation jump: **0.0°**;
+- maximum observed cross-seam scale jump: **0.0**;
+- process-frame interval min / mean / max: **0.045 / 1.29291446513642 / 12.355 ms**.
 
 Scoped result:
 
-**`PASS_CHARACTER_REVIEW006_TARGET_HOST_ANIMATIONPLAYER_INTERPOLATION_AND_PLAYBACK_TRACE`**
+**`PASS_CHARACTER_REVIEW006_TARGET_HOST_REPEATED_LOOP_SEAM_TRANSITION`**
 
-This proves the exact unchanged Character transport can be received at its exact 160 Hz key density, interpolated through the tested target-host pose path, and played capture-free to loop closure on the proof host.
+This proves the exact unchanged Character transport closes at the imported seam and can traverse three repeated `AnimationPlayer` wraps on the proof host without an observed shoulder/helper pose discontinuity.
+
+It does **not** prove a Runtime-owned loop controller/state machine, complete 160 Hz presentation delivery, target-device scheduling or gameplay behavior.
 
 ## Retained evidence
 
 Artifact:
 
-- ID: **`10498075104`**
-- name: `character-review006-target-host-160hz-fb518d8320b74323767fdfb57e81291dbdb2a4d1`
-- size: **46,888 B**
-- GitHub archive SHA-256: **`9ca6bc3b9683ba57c07950aeb8617c50eed7f5cec8cf70144586088be44df303`**
+- workflow run: **`35227649172`**
+- ID: **`10500081521`**
+- name: `character-review006-target-host-loop-transition-5513ab66372ee06ce53788f5097ede230ca2fc6b`
+- size: **43,986 B**
+- GitHub archive SHA-256: **`abc8732a73874a9bbccaa5081c0f4f5737a707446a92bccd33a7896513e5f39c`**
 - independently downloaded/rehashed SHA-256: **same**.
 
-The retained receipt, exact GLB, payload, observer scripts and head identity were opened directly. The receipt records the metrics above and preserves the Materials result as `INCONCLUSIVE_CHARACTER_REVIEW006_TARGET_DIRECTION_FRAME_MIXED_RESPONSE`.
+The retained ZIP was opened directly. It contains the exact contract, observer, current-motion payload, exact 44,032-byte target GLB, exact-head receipt and runtime receipt. The runtime receipt records the three wraps and preserves Materials as `INCONCLUSIVE_CHARACTER_REVIEW006_TARGET_DIRECTION_FRAME_MIXED_RESPONSE`.
+
+## Existing exact-density playback evidence remains preserved
+
+The immediately preceding PR #22 proof remains historical truth:
+
+- exact head: `fb518d8320b74323767fdfb57e81291dbdb2a4d1`;
+- dedicated exact-density workflow: `35222873944` — SUCCESS;
+- scoped result: `PASS_CHARACTER_REVIEW006_TARGET_HOST_ANIMATIONPLAYER_INTERPOLATION_AND_PLAYBACK_TRACE`;
+- six LINEAR tracks × 321 keys;
+- all 320 between-key intervals checked;
+- max rotation disagreement `0.0°`;
+- max scale-component disagreement `0.0`;
+- capture-free one-pass playback to `2.0 s` with zero animation-position reversals;
+- retained artifact `10498075104`, 46,888 B, SHA-256 `9ca6bc3b9683ba57c07950aeb8617c50eed7f5cec8cf70144586088be44df303`.
+
+The current PR head also re-ran the repository Character suites successfully on Python 3.11 and 3.13. The older base target-host witness still fails closed in its Python-3.11 receiver because that observer intentionally exposes Godot's default **30 Hz / 61-key** import-density mismatch. That known failure is part of the repair trail and is not relabelled as a source-motion regression; the exact-density receiver and the new repeated-loop receiver both explicitly bind `160.0` Hz.
 
 ## Preserved historical Animation continuity
 
-- Character source Animation PR #19 remains the earlier dense deformation/source-motion proof at head `9519be55581c009fd800d175677d9b50ee6926e6`, workflow `35211301756`, artifact `10492416148`.
+- Character source Animation PR #19 remains the dense deformation/source-motion proof at head `9519be55581c009fd800d175677d9b50ee6926e6`, workflow `35211301756`, artifact `10492416148`.
 - Object Animation PR #10 prior exact receiver evidence remains historical truth and was not rewritten.
 - Animal Animation PR #5 prior dense/subframe evidence remains historical truth and was not rewritten.
 - The failed/default-density Character target-host attempts remain part of the repair trail rather than being silently erased.
@@ -148,11 +151,11 @@ The retained receipt, exact GLB, payload, observer scripts and head identity wer
 This activation does **not** establish:
 
 - anatomy or biological range of motion;
-- mathematical continuous-motion proof beyond the tested target-host interpolation path;
+- mathematical continuous-motion proof beyond the tested target-host paths;
+- a production Runtime loop controller or state machine;
 - complete 160 Hz display/presentation delivery or target-device scheduling/performance;
 - deformed normal/tangent correctness or final shaded-motion quality;
 - repair or acceptance of the Materials mixed direction-frame result;
-- Runtime controller or state-machine behavior;
 - physics, collision, input or gameplay acceptance;
 - final Art Direction / Visual QA acceptance;
 - source adoption or CANON;
@@ -160,9 +163,9 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** the failed 30 Hz-default import witness and the repaired exact-160 Hz witness are both preserved. A verifier/import-density defect is not called a Character motion defect, and a proof-host PASS is not called target-device or gameplay acceptance.
-- **Agency / non-domination:** Animation owns the motion receiver/playback witness only. Rigging owns deformation semantics, Technical Art owns transport, Materials owns shading/direction-frame evidence, Runtime owns controller/state-machine behavior, and Art/QA own visual acceptance.
-- **Continuity:** exact source/Rigging/Technical-Art/Materials identities and prior Object/Animal/Character evidence remain pinned and rollbackable; no silent equivalence was used.
-- **Wisdom before speed:** the source motion stayed frozen while the evidence receiver was repaired at the representation boundary that actually failed. No arbitrary retime, wider range or controller/gameplay claim was introduced.
+- **Truth:** exact-density PASS, repeated-wrap PASS and the retained default-30-Hz failure are all kept distinct. An observer-only `LOOP_LINEAR` setting is not called a Runtime controller or production policy.
+- **Agency / non-domination:** Animation owns only the motion/transition witness. Rigging owns deformation semantics, Technical Art owns transport, Materials owns shading/direction-frame evidence, Runtime owns controller/state-machine behavior, and Art/QA own visual acceptance.
+- **Continuity:** exact source/Rigging/Technical-Art/Materials identities, target GLB identity and earlier Object/Animal/Character evidence remain pinned and rollbackable; no silent equivalence or source rewrite was used.
+- **Wisdom before speed:** the source motion stayed frozen. The smallest missing receiving question—the loop seam—was tested directly before any new clip, retime, wider range or gameplay integration claim.
 
 The four AXM roots remain the merge gate.
