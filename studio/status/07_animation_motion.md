@@ -1,7 +1,7 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **HOLD_OBJECT_LATCH_CAPTURE_TIMELINE_EXACT_HEAD_QUEUED / SOURCE MOTION FROZEN / TRUE_CAPTURE_SEMANTICS_REBOUND**
+State: **PASS_OBJECT_LATCH_PROOF_VOLUME_CAPTURE_TIMELINE_REBIND__NO_RETIME / TRUE_CAPTURE_9P26479_DEG / Z_AABB_48P6648_DEG_RECLASSIFIED / SOURCE_MOTION_FROZEN / RUNTIME_GAMEPLAY_HELD**
 
 > Continuity note: this status is intentionally compressed from the preceding detailed ledger. Prior Map, Nature, Character, Object and Animal exact heads, workflows, artifacts, failed harness attempts and authority boundaries remain preserved in Git history and owning PR evidence. Nothing below silently promotes or rewrites those results.
 
@@ -17,8 +17,8 @@ The Map compact-east lane has reached its current truthful boundary: the lower-i
 
 A fresher non-duplicated Animation seam appeared in **Object**. Current Rigging PR #20 corrected the front-latch source-mechanical semantics without changing source geometry, pivots or motion envelope:
 
-- true source-owned proof-volume contact/capture boundary: approximately **`9.264790333551197°`**;
-- historical approximately **`48.66480246428277°`** boundary: reclassified as **Z-AABB broad-phase axial separation only**, not a capture threshold;
+- true source-owned proof-volume contact/capture boundary: **`9.264790333551197°`**;
+- historical **`48.66480246428277°`** boundary: reclassified as **Z-AABB broad-phase axial separation only**, not a capture threshold;
 - exact Rigging head: `3a17a02528918ec63a46e954e883179f752c8151`;
 - exact Hard Surface/source capture authority: `56aaaecb45b520fdff9e08fe2d4ea42562f5690f`.
 
@@ -32,9 +32,9 @@ Draft PR: **#10 — `Animation: prove bounded equipment-case lid open-hold-close
 
 Branch: `studio/animation-object-lid-open-close-001`
 
-PR state: **open / draft / mergeable / unmerged**.
+PR state at activation: **open / draft / mergeable / unmerged**.
 
-Current Animation head: **`ba898fabc647a222ae39e8acf6ace9f731b79222`**.
+Current exact Animation head: **`c688936a84f80f292e43587c9d3386bd717f8178`**.
 
 Current Rigging donor: **`3a17a02528918ec63a46e954e883179f752c8151`**.
 
@@ -68,47 +68,126 @@ The source sequence is frozen:
 - exact lid-motion phase `0.25 → 2.25 s` with latch held at exact `50°`;
 - latch reengagement `2.25 → 2.5 s` with unchanged smoothstep `50 → 0°`.
 
-No retime, key, easing, amplitude, source-geometry, pivot or rig-motion-envelope change is permitted by the new contract.
+Retimed: **false**. Keys changed: **false**. Easing changed: **false**. Amplitude changed: **false**. Source geometry changed: **false**. Rig pivots changed: **false**. Rig motion envelope changed: **false**.
 
-### Corrected temporal interpretation
+## Exact retained result
 
-The verifier binds the unchanged release/reengagement curve to the current source-owned proof-volume contact boundary and separately to the later Z-AABB broad-phase boundary. It checks the real 101-key sequence, exact donor heads and Git blob identities, rejects any false promotion of Z-AABB separation into a capture threshold, and fails closed on source-key drift or Runtime-authority inflation.
+Dedicated workflow:
 
-The derived crossings are timeline characterization only. They do **not** claim physical hook retention, force, collision-engine behavior or Runtime events.
+**`35272031691 — Object animation capture-timeline rebind evidence` — SUCCESS**
 
-## Verification state
+Exact head:
 
-First exact-head workflow:
+**`c688936a84f80f292e43587c9d3386bd717f8178`**
 
-- head `9a480d6d81cff60fd8972f7f16c8a1b3fd371231`;
-- run `35271660392`;
-- result **FAIL**, preserved.
+Scoped result:
 
-That failure was verifier-test plumbing only: the fail-closed check correctly raised `historical Z-AABB threshold was relabelled as capture`, while the unit test expected the alternate spelling `relabeled`. The underlying negative control behaved correctly. I changed only that test-string expectation; no source motion, threshold, donor identity or acceptance condition changed.
+**`PASS_OBJECT_LATCH_PROOF_VOLUME_CAPTURE_TIMELINE_REBIND__NO_RETIME`**
 
-Current repaired exact head:
+The workflow rebuilt and verified:
 
-- **`ba898fabc647a222ae39e8acf6ace9f731b79222`**;
-- dedicated workflow run **`35271829953`**;
-- current state: **QUEUED**.
+- the exact source-owned lid clip: `PASS_BOUNDED_LID_MOTION_CLIP`;
+- the historical bounded latch articulation needed to reproduce the unchanged 101-key sequence: `PASS_BOUNDED_FRONT_LATCH_LEVER_ARTICULATION`;
+- the unchanged exact 101-key Animation sequence: `PASS_ORDERED_LATCH_RELEASE_LID_CLIP_REENGAGE_SEQUENCE`;
+- current Hard Surface source capture: `PASS_SOURCE_OWNED_FRONT_LATCH_CAPTURE_TO_CLEARANCE_ENVELOPE`;
+- current Rigging successor binding: `PASS_SOURCE_OWNED_FRONT_LATCH_RIG_CAPTURE_ENVELOPE_REBIND`;
+- the new corrected Animation timeline interpretation.
 
-Therefore this activation remains **HOLD**, not PASS. The exact-head workflow is designed to rebuild the unchanged lid motion, historical latch articulation, current 101-key Animation sequence, current Hard Surface capture receipt and current Rigging receipt before deriving the corrected capture timeline, then exercise fail-closed negative controls and retain the exact evidence packet.
+Repository structural suite on the exact head: **50 tests PASS**.
+
+### Corrected release timeline
+
+The unchanged release curve crosses the true source-owned proof-volume contact boundary at:
+
+**`0.06875304210472988 s`**
+
+Authored-key bracket:
+
+- index `2`: `0.050 s / 5.2°`;
+- index `3`: `0.075 s / 10.8°`.
+
+The later Z-AABB-only broad-phase separation occurs at:
+
+**`0.22560657712402032 s`**
+
+Authored-key bracket:
+
+- index `9`: `0.225 s / 48.6°`;
+- index `10`: `0.250 s / 50.0°`.
+
+The lid motion begins at exact `0.250 s`, therefore:
+
+- true proof-volume crossing → lid-motion margin: **`0.18124695789527012 s`**;
+- Z-AABB broad-phase crossing → lid-motion margin: **`0.024393422875979676 s`**.
+
+### Corrected reengagement timeline
+
+The lid is neutral before latch reengagement begins at exact `2.250 s`.
+
+Z-AABB broad-phase reentry occurs at:
+
+**`2.27439342287598 s`**
+
+True proof-volume contact reentry occurs later at:
+
+**`2.43124695789527 s`**
+
+Authored-key bracket for true contact reentry:
+
+- index `97`: `2.425 s / 10.8°`;
+- index `98`: `2.450 s / 5.2°`.
+
+Closed endpoint remains exact `2.500 s`.
+
+### Preservation observations
+
+- maximum latch-curve formula residual: `7.105427357601002e-15°`;
+- maximum lid angle during release phase: `0.0°`;
+- maximum lid angle during reengagement phase: `0.0°`;
+- moving-lid samples without exact `50°` latch: `0`.
+
+The true capture angle and the Z-AABB broad-phase angle remain separated by **`39.400012130731575°`**. The exact `50°` source review release pose remains neither of those thresholds and is not a Runtime event.
+
+## Preserved failed evidence
+
+The first new exact-head run, `35271660392` at head `9a480d6d81cff60fd8972f7f16c8a1b3fd371231`, failed because a fail-closed unit test expected the spelling `relabeled` while the verifier emitted `relabelled`. The underlying negative control itself correctly rejected the false Z-AABB capture relabel.
+
+The repair changed only observer/test wording. The workflow-side negative-control observer was then aligned before the final green run. No source motion, threshold, donor identity, tolerance or acceptance boundary was altered to manufacture PASS.
+
+## Retained artifact
+
+- artifact ID: **`10518902156`**;
+- name: `modular-equipment-case-001-animation-capture-timeline-c688936a84f80f292e43587c9d3386bd717f8178`;
+- size: **`25,727 B`**;
+- archive SHA-256: **`29b1045f91b697305441042eb3d434510d186807e35d85d349dd3cd41ed951da`**;
+- `12` retained files;
+- downloaded after CI and independently rehashed to the same SHA-256;
+- retained `SUMMARY.json` and full evidence receipt independently inspected.
+
+Negative controls retained in the packet:
+
+- false Z-AABB → capture relabel fails closed;
+- authored latch-key drift fails closed;
+- Runtime-authority inflation fails closed.
 
 ## Current truth boundary
 
-This activation has established the correct bounded Animation problem and implemented a fail-closed successor method that preserves source/rig identity. It has **not yet** earned exact-head PASS because the repaired workflow is still queued.
+This PASS proves only that the unchanged Object Animation timeline can be rebound to the current source-owned proof-volume contact semantics and that its existing curve crosses the true proof-volume boundary well before the later Z-AABB broad-phase separation, while keeping source motion, rig identity and phase ordering unchanged.
 
-No claim is made for:
+It does **not** establish:
 
-- physical latch retention or force;
-- collision-engine acceptance;
+- physical latch hook/catch retention;
+- dynamic release or reengagement force;
+- continuous full-assembly collision freedom;
+- collision-engine or physics acceptance;
 - Runtime controller/state-machine behavior;
-- input or gameplay timing;
-- final motion weight/style or Art Direction acceptance;
+- input or gameplay timing/acceptance;
 - target-device performance;
+- final timing, weight, personality or motion naturalness;
+- Art Direction / Visual QA acceptance;
 - CANON or production readiness.
 
-The approximately `48.6648°` Z-AABB event is explicitly **not** treated as the true capture threshold. The exact `50°` latch pose remains a source review release endpoint, not a Runtime event.
+Animation owns only this bounded timeline characterization. Hard Surface retains source-contact authority; Rigging retains articulation/deformation authority; Runtime retains controller/performance authority; Art/QA retain perceptual acceptance.
 
 ## Preserved Animation continuity
 
@@ -122,13 +201,13 @@ The approximately `48.6648°` Z-AABB event is explicitly **not** treated as the 
 
 ## Four-root gate
 
-- **Truth:** the corrected true-capture versus Z-AABB distinction is explicit; the first failed workflow is preserved; queued is not called PASS.
-- **Agency / non-domination:** Animation does not take Hard Surface, Rigging, Runtime, Physics, gameplay, Art or QA authority and does not force a retime to fit new semantics.
-- **Continuity:** historical contracts remain intact while an additive successor binds the unchanged motion to current source truth and exact donor identities.
-- **Wisdom before speed:** source-truth correction is propagated through a verifier before anyone tunes motion around an obsolete threshold.
+- **Truth:** true proof-volume capture and Z-AABB broad-phase are explicitly separated; failed evidence is preserved; exact-head PASS is backed by retained CI evidence.
+- **Agency / non-domination:** Animation does not take Hard Surface, Rigging, Runtime, Physics, gameplay, Art or QA authority and did not retime the motion to fit a new interpretation.
+- **Continuity:** historical contracts remain intact while an additive successor binds unchanged motion to current source truth and exact donor identities.
+- **Wisdom before speed:** source-truth correction was propagated and fail-closed tested before anyone tuned motion around an obsolete threshold.
 
 The four AXM roots remain the merge gate.
 
 ## Next Animation trigger
 
-Resolve only the exact-head verification of this corrected Object capture-timeline rebind. If green, retain and report the actual derived crossing times and artifact without expanding authority. If it exposes a real motion defect, preserve the failure and hand the concrete defect to the owning source/Rigging lane rather than silently retiming the clip.
+Do not retime this latch sequence from the semantic correction alone. Continue Object only if Art/QA reports a concrete motion-quality defect, Runtime exposes a real controller/playback mismatch, or the source/Rigging receiver materially changes. Otherwise choose the next genuinely animation-ready gap in the constellation.
