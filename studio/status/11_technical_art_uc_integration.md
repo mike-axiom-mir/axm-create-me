@@ -1,177 +1,213 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BUILDING_EXACT_GODOT_INDEX_GROUPING_MATCHES_UC_CROSS_SOURCE_TUPLE_CANDIDATE / HOLD_GODOT_NORMAL_REPACK_EXACTNESS_AND_INDEPENDENT_VISUAL_REVIEW / UC_PR_179_DRAFT / MAP_TECH_ART_PR_40_DRAFT / COORDINATION_ONLY**
+State: **PASS_BUILDING_GODOT_INDEX_GROUPING_REBOUND_TO_MERGED_UC_MAIN / ART_QA_RETAINED_APPEARANCE_CLOSED / HOLD_POST_INDEX_NORMAL_BYTE_EXACTNESS_AND_ARBITRARY_TRANSPORT / MAP_TECH_ART_PR_40_DRAFT / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current Technical Art / Runtime / Art Direction / Visual QA status, the design constellation, and current `axm-universal-creation` before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current Technical Art, Environment, Runtime, Art Direction and Visual Observer / QA status, the active design constellation, and current `axm-universal-creation` before selecting work.
 
-`axm-create-me` remains **coordination only**. No product implementation or retained execution artifact was placed here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product implementation and retained execution evidence stay in their owning repositories. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The previous UC indexed-surface observer is now merged on UC main at exact commit **`8c3e3b7690bd54711fd3b674b012aa876c7ae755`**. Its conservative source-lineage behavior is correct for Animal-style source→render expansion, but it cannot observe a different real receiving pattern already proven by Runtime: an unindexed triangle-corner domain whose exact post-normal render tuples are indexed locally by the target receiver.
+The prior Technical Art cross-repo proof was exact but no longer current enough for continuity: it had proven the real Building -> Godot -> UC path against UC draft head `237ea786a56a0b5c6fa3647ed302c3a8f04fcbed`.
 
-The highest-leverage live case is Building Runtime PR #39. Runtime already owns the real Godot storage/performance evidence and has merged the bounded receiver path, so Technical Art did **not** open another optimizer lane. Building Hard Surface and Materials remain the semantic owners; Art Direction / Visual QA retain appearance acceptance; Environment retains adoption.
+UC PR **#179 — `Extend indexed-surface observer with explicit cross-source tuple mode`** has since merged. Current UC main is exact merge commit:
+
+**`2295495cccf60c1fbd541b20215d17ac18e32821`**
+
+The merged main is four commits ahead of the previous proven head and the generic observer itself changed. Exact changed paths across that continuity interval are:
+
+- `.github/workflows/indexed-surface-eligibility.yml`;
+- `src/axm_uc/indexed_surface_eligibility.py`;
+- `tests/test_indexed_surface_cross_source_metrics.py`.
+
+The observer change includes corrected cross-source participation metrics, so Technical Art did **not** silently treat the draft-head receiver proof as merged-main evidence.
+
+Other live lanes were scanned and not duplicated:
+
+- Environment now explicitly separates Hard-Surface source intent (**604 source-intent groups**) from the reviewed Godot consumer storage identity (**312 vertices**) and retains active segmented rollback;
+- Runtime has measured the residual primitive counter on the proof host and found no robust performance penalty that justifies inventing another topology/LOD rewrite; target-device evidence remains the Runtime gate;
+- Art Direction and independent Visual Observer / QA have now passed retained appearance / noncorruption for the indexed planar-role Building, including the measured Godot normal repack;
+- Building Hard Surface / Materials retain source representation and material authority.
+
+The highest-leverage Technical Art gap was therefore **merge continuity**, not a new optimizer, new visual candidate, new Building source representation, or another UC abstraction.
 
 ## Selected bounded gap
 
 Question:
 
-> Can UC truthfully observe receiver-local indexing across distinct source/corner identities when exact declared render attributes and caller-owned split identity permit it, while keeping the conservative source-lineage policy as default and without teaching UC Building-specific semantics?
+> Does the exact real Building / Godot receiver still satisfy the UC cross-source structural observer after PR #179 is merged to main and the observer code has changed, without assuming semantic equivalence from the older draft proof?
 
-This required one small generic observer extension plus one exact cross-repo Technical Art proof.
+This is a continuity/provenance problem. It does not require more domain knowledge in UC.
 
-## Smallest reusable UC repair
+## Smallest reusable repair
 
-UC draft PR **#179 — `Extend indexed-surface observer with explicit cross-source tuple mode`** remains open and draft.
+The existing Map Technical Art PR **#40 — `Technical Art: prove Building post-normal indexing against UC observer`** was advanced in place. No duplicate Technical Art lane was opened.
 
-Exact UC head:
+Exact Technical Art head:
 
-**`237ea786a56a0b5c6fa3647ed302c3a8f04fcbed`**
+**`939bc0c7824b16c11565f32cf1d70bc2b0c7f681`**
 
-Exact observer file SHA-256 from retained proof:
+Only the existing evidence workflow was strengthened. It now:
 
-**`8bb619ffdd7ab04b17f15fc0f63db263e142ff7236186de689578f90dcafbe20`**
+1. pins the previous proven UC head and merged UC main separately;
+2. requires the previous proven head to be an ancestor of merged main;
+3. requires the exact four-commit continuity distance and exact intervening changed-path set;
+4. records merged observer SHA-256 and explicitly states that automatic semantic equivalence is **not** claimed;
+5. reruns the same real Godot `4.7.2` pre-index / post-index capture against merged UC main;
+6. reruns the existing exact grouping verifier and fail-closed corner-group mutation;
+7. retains a dedicated `axm.technical-art-uc-merge-continuity/v0.1` receipt.
 
-The existing default policy remains:
+No UC source file was changed by this activation. No Building topology, material, normal tolerance, Environment receiver, Runtime optimizer, Art treatment or QA threshold was changed.
 
-- `SOURCE_VERTEX_AND_ATTRIBUTES` — source vertex identity participates in every candidate key.
+## Exact merged-main reproof
 
-The new explicit diagnostic policy is:
+Dedicated workflow:
 
-- `ATTRIBUTES_AND_PROTECTED_SPLITS` — distinct source/corner identities may share a structural candidate only when every supported declared render attribute and caller-owned protected split identity are exactly equal.
+**`35191301494 — Technical Art Building planar-role UC index bridge evidence` — SUCCESS**
 
-Cross-source mode requires an explicit `protected_split_ids` declaration for every render vertex, including explicit `null` where the caller declares no additional non-attribute split identity. Missing declaration returns **`HOLD_CROSS_SOURCE_SPLIT_DECLARATION_REQUIRED`** with no candidate. Cross-source candidate groups are reported separately so storage eligibility cannot masquerade as source-topology equivalence.
+Exact UC main consumed:
 
-UC still emits no replacement mesh, performs no automatic weld, decides no product adoption, and contains no Building material/topology policy.
+**`2295495cccf60c1fbd541b20215d17ac18e32821`**
 
-### UC self-proof
+Merged observer SHA-256 retained by the proof:
 
-Exact-head workflows are green, including:
+**`3fa26824dfb77bc47c77f674fec3bd7a35fff53f11120ee4bcb2475446f6d472`**
 
-- **`35187135798 — Indexed surface eligibility evidence` — SUCCESS**;
-- full UC **Tests — SUCCESS**;
-- Actual Godot target verification and triggered generic candidate/profession workflows — SUCCESS.
+The real receiver result remains structurally unchanged:
 
-Retained neutral evidence artifact:
+- material surfaces: **5**;
+- logical triangles: **336**;
+- unindexed triangle corners: **1,008**;
+- Godot indexed vertices: **312**;
+- Godot indices: **1,008**;
+- UC cross-source candidates: **312**;
+- exact corner-grouping isomorphism under bijective relabeling: **PASS on every surface**;
+- exact decoded POSITION corner stream: **PASS on every surface**;
+- raw stored vertex order / raw numeric index labels: **not claimed equivalent**;
+- conservative source-lineage mode still preserves all 1,008 input corner identities;
+- deliberate real corner-group mutation: **rejected fail-closed**.
 
-- ID: **`10482801951`**;
-- size: **18,120 B**;
-- GitHub SHA-256: **`f82390e346a6dfa87270f00a9d43dcdb0fd82d7a66a32fa11a9758455d6fbae6`**;
-- independently downloaded / rehashed SHA-256: **same value**.
-
-The neutral evidence proves backward-compatible source-lineage behavior, explicit cross-source tuple candidacy, protected-split preservation, missing-split HOLD, unsupported-channel fail-closed behavior, and deterministic receipts.
-
-## Exact Building → Godot → UC cross-repo proof
-
-A bounded Technical Art branch was opened in `axm-map-design`, stacked on the current Environment branch and reusing the exact merged Runtime receiver rather than duplicating it.
-
-Draft PR:
-
-**Map PR #40 — `Technical Art: prove Building post-normal indexing against UC observer`**
-
-Exact final Technical Art head:
-
-**`e4105697802fad082b31da21a22a8dd1a944dedd`**
-
-Exact owners consumed:
-
-- Runtime index receiver: **`8d5860c308c244d314ede5b79021e46f35c4040d`**;
-- Building Hard Surface: **`93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`**;
-- Building Materials: **`4179aa1401f5a9114399e2f998c96809d4b8ed2e`**;
-- representation: `boundary-only-planar-role-rectangle-render-001`;
-- UC observer head: **`237ea786a56a0b5c6fa3647ed302c3a8f04fcbed`**.
-
-Technical Art captures the real Godot arrays immediately before and after the existing `SurfaceTool.index()` path. Each of the five final material partitions is evaluated separately so UC cannot cross Building material roles.
-
-Scoped result:
+The retained bridge receipt still carries the historical scoped result string:
 
 **`PASS_BUILDING_EXACT_GODOT_INDEX_GROUPING_MATCHES_UC_CROSS_SOURCE_TUPLE_CANDIDATE__HOLD_GODOT_NORMAL_REPACK_EXACTNESS_AND_VISUAL_REVIEW`**
 
-Exact structural identity:
+The structural PASS and normal-exactness HOLD remain valid. The `VISUAL_REVIEW` suffix is historical to that verifier schema; the newer constellation has now independently closed retained visual review through Art Direction and Visual Observer / QA. Technical Art does not silently rename the retained receipt.
 
-- **5** material surfaces;
-- **336** triangles;
-- **1,008** unindexed triangle corners;
-- **312** real Godot indexed vertices;
-- **1,008** real Godot indices;
-- **312** UC cross-source candidates;
-- UC and Godot form the **same partition of triangle corners into indexed vertex groups under bijective relabeling** on every surface;
-- decoded **POSITION** corner streams remain exact on every surface;
-- UC exactly retains the pre-index **NORMAL** corner stream used for its grouping decision;
-- conservative UC source-lineage mode preserves all **1,008** source/corner identities;
-- cross-source mode without explicit split declarations fails closed.
+## Receiver-side normal exactness remains a real HOLD
 
-Raw index IDs and stored vertex order are explicitly **not** claimed equal: independent indexers may label the same grouping differently.
-
-### Receiver-side normal transport HOLD
-
-The proof surfaced a real target-receiver detail rather than hiding it. The pinned Godot `create_from -> index -> commit` path repacks some normals after the grouping decision:
+The pinned Godot receiver still repacks a bounded set of decoded normals after indexing:
 
 - changed decoded corner normals: **120 / 1,008**;
-- all changed corners: **`frame_galvanized`**;
+- affected surface: **`frame_galvanized`** only;
 - max absolute component delta: **`0.00011304020881702792`**;
-- max angular delta: **`0.006869404718583788°`**;
-- the other four material surfaces retain exact normal rows.
+- max angular delta: **`0.006869404718583788°`**.
 
-This is a **Technical Art transport-exactness HOLD**, not a visual failure and not visual acceptance. Art Direction / Visual QA own that decision. No Building-specific tolerance was added to UC.
+Art Direction and Visual QA have independently found the retained appearance non-degrading / non-corrupting, including only `24..55` changed pixels per retained frame, no pixels above `1 LSB`, and maximum channel delta exactly `1 LSB` versus the unindexed planar-role receiver.
 
-## Failed proofs retained rather than erased
+That visual acceptance does **not** convert the numerical normal drift into byte-exact transport. Technical Art therefore keeps mathematical exactness and arbitrary import/export transport separate from the closed retained-view visual gate. No generic acceptable-normal tolerance is created.
 
-Two failed exact runs materially improved the contract:
+## Current source intent versus consumer storage boundary
 
-1. **`35187426451`** required raw index numbering / stored vertex order to match exactly between independent indexers. That was over-constrained; index IDs are local labels, so the contract was repaired to compare exact grouping identity.
-2. **`35187694131`** then required exact decoded POSITION+NORMAL equality after Godot indexing. That correctly exposed the receiver-side normal repack above. Its retained failure artifact is **`10483070009`**, 16,425 B, SHA-256 **`165759bd78008a512b418b93c6513cd48e739597629acb56b8ddebb17b5a6d9e`**, independently rehashed.
+Environment has since rebound the exact reviewed receiver to the newer Building Hard-Surface split contract:
 
-The final proof separates the exact structural grouping PASS from the normal-transport HOLD instead of weakening either boundary.
+- Hard-Surface source intent: **1,008 corners -> 604 source-intent equivalence groups**;
+- current Godot consumer representation: **312 stored vertices / 1,008 indices**;
+- exact difference: **292 groups/vertices**, representing different owned domains rather than an automatic defect.
 
-## Final retained evidence
+Technical Art does **not** relabel the 312 UC/Godot storage groups as the 604 Hard-Surface source-equivalence domain. Environment's current contract explicitly keeps `source_owner_equivalence_identity_claimed = false`, and that separation remains authoritative.
 
-Final dedicated workflow:
+This activation rebinds the already-proven 312-consumer path to merged UC main only. It does not duplicate Environment's source-intent rebind.
 
-**`35188074026 — Technical Art Building planar-role UC index bridge evidence` — SUCCESS**
+## Runtime boundary
 
-Its fail-closed mutation swaps two real Godot corner indices and is correctly rejected.
+Runtime's newest bounded proof keeps the residual primitive fact truthful without treating it as a demonstrated slowdown:
 
-Retained final artifact:
+- indexed planar receiver remains +60 logical triangles per isolated Building stress instance versus active segmented;
+- at 64x stress the indexed candidate was faster in **35 / 41** paired samples;
+- at 256x stress it was faster in **38 / 41** paired samples;
+- 256x paired median delta: **-1.853333 ms** in candidate-minus-control direction;
+- target-device performance remains unmeasured.
 
-- ID: **`10483020277`**;
-- name: `technical-art-building-planar-role-uc-index-bridge-e4105697802fad082b31da21a22a8dd1a944dedd`;
-- size: **57,918 B**;
-- GitHub archive SHA-256: **`34ce988749547430caf86b36bbba53a1711a9ec4a484005027214c41cea79e55`**;
+Technical Art therefore opens no speculative topology/LOD rewrite and makes no target-device or performance claim from the UC observer result.
+
+## Retained evidence
+
+Merged-main rebind artifact:
+
+- artifact ID: **`10484058866`**;
+- name: `technical-art-building-planar-role-uc-index-bridge-939bc0c7824b16c11565f32cf1d70bc2b0c7f681`;
+- size: **59,381 B**;
+- GitHub SHA-256: **`528af31d86b62bf09e4794f1f98cd2f495c459e96854ea7c8d324fc2fd82d07c`**;
 - independently downloaded / rehashed SHA-256: **same value**.
 
-The archive retains the exact Godot before/after surface bundle, retained Runtime report, per-surface UC input/report pairs, Technical Art/UC identity pins, receipt, manifests, and Godot log.
+The archive retains:
+
+- exact Technical Art head identity;
+- previous proven UC head and merged-main UC head;
+- exact changed-path continuity receipt;
+- merged observer digest;
+- real Godot before/after surface bundle;
+- retained Runtime report;
+- per-surface UC inputs/reports;
+- exact structural receipt and manifests;
+- Godot log.
+
+Historical retained evidence remains valid for its exact earlier state:
+
+- UC neutral cross-source observer artifact `10482801951`, SHA-256 `f82390e346a6dfa87270f00a9d43dcdb0fd82d7a66a32fa11a9758455d6fbae6`;
+- previous Building/Godot/UC artifact `10483020277`, SHA-256 `34ce988749547430caf86b36bbba53a1711a9ec4a484005027214c41cea79e55`;
+- failed exact-normal proof artifact `10483070009`, SHA-256 `165759bd78008a512b418b93c6513cd48e739597629acb56b8ddebb17b5a6d9e`.
+
+The failed raw-index-order and exact-normal assumptions remain preserved in history; they are not erased by this continuity PASS.
 
 ## Coordination handoffs
 
-Evidence was returned to:
+Current merge-continuity evidence was returned to:
 
-- Map Technical Art PR #40: comment **`5709719769`**;
-- UC PR #179: comment **`5709721329`**;
-- Runtime PR #39: comment **`5709722610`**;
-- Building Hard Surface PR #11: comment **`5709724061`**.
+- Map Technical Art PR #40: comment **`5710254007`**;
+- merged UC PR #179: comment **`5710256844`**;
+- Map Environment PR #24: comment **`5710258899`**.
+
+No Runtime, Hard-Surface, Materials, Art or QA implementation change is requested from this result.
 
 ## Authority / truth boundary
 
-- **Building Hard Surface / Materials** own representation semantics and material partition identity.
-- **Runtime** owns measured storage/performance evidence and runtime representation tradeoffs.
-- **Technical Art** owns the exact cross-repo grouping/transport proof and receiver observations.
-- **UC** owns only neutral observer machinery; no Building, Map, Animal or other product semantics are centralized there.
-- **Art Direction / Visual QA** own whether the measured normal/raster deltas are visually acceptable.
-- **Environment** owns whether the indexed Building representation is adopted in its current-world product path.
+- **Building Hard Surface** owns source representation and source split / normal intent.
+- **Building Materials** owns material partition and surface values.
+- **Environment** owns the current-world receiving representation, its explicit 604-vs-312 identity separation, adoption and rollback.
+- **Runtime** owns storage/performance/target-device evidence.
+- **Technical Art** owns receiver/import/transport exactness and cross-repo continuity proof.
+- **UC** owns only neutral observer machinery; no Building-specific semantics are centralized there.
+- **Art Direction / Visual Observer QA** own visual preference and independent retained appearance acceptance.
 
-This result does **not** establish automatic reindexing, exact post-index NORMAL transport, independent visual acceptance, target-device CPU/GPU/FPS/VRAM behavior, residual primitive acceptance, arbitrary UV/tangent/custom/deformation safety, Environment adoption, CANON, Profession Fabric promotion or production readiness.
+## Explicit non-claims / remaining holds
+
+This activation does **not** establish:
+
+- byte-exact post-index NORMAL transport;
+- a generic normal-tolerance policy;
+- equality between 604 source-intent groups and 312 consumer vertices;
+- arbitrary file-format / engine import-export equivalence if this representation leaves the current procedural Godot path;
+- UV/tangent/texture/normal-map/decal equivalence beyond the exact channels proven here;
+- target-device CPU/GPU/FPS/VRAM/heap/thermal acceptance;
+- automatic Environment adoption;
+- automatic UC reindexing or mesh mutation;
+- arbitrary-mesh safety;
+- CANON;
+- Profession Fabric promotion;
+- production/game readiness;
+- Technical Art / UC Integration mastery.
 
 ## Four-root gate
 
-- **Truth:** both failed proofs are retained; exact structural grouping is separated from measured NORMAL drift instead of being flattened into one optimistic PASS.
-- **Agency / non-domination:** product owners keep representation, performance, visual and adoption decisions; UC observes only the bounded generic structure requested by callers.
-- **Continuity:** merged Runtime #39 and Building owner evidence are consumed directly; no duplicate optimizer or Building semantic copy was created.
-- **Wisdom before speed:** the smallest observer extension is proven against the real receiver before any generic mutating reindexer or automatic adoption is considered.
+- **Truth:** the merged UC observer changed after the prior proof, so the exact real receiver was rerun instead of inheriting draft-head evidence. The 120/1,008 normal drift and 604-vs-312 domain difference remain explicit facts.
+- **Agency / non-domination:** Hard Surface, Materials, Environment, Runtime, Technical Art, UC, Art and QA retain their separate decision authority; no owner is overridden for convenience.
+- **Continuity:** previous exact evidence, failed proofs, rollback identities and UC draft provenance remain retained. The new continuity receipt binds old proven UC identity to merged main rather than silently rewriting history.
+- **Wisdom before speed:** one evidence workflow was strengthened and the real target path rerun; no new optimizer, topology rewrite, normal tolerance or product-wide abstraction was invented without need.
 
 ## Current state
 
-`PASS_BUILDING_EXACT_GODOT_INDEX_GROUPING_MATCHES_UC_CROSS_SOURCE_TUPLE_CANDIDATE / UC_PR_179_HEAD_237EA786_DRAFT / UC_WORKFLOW_35187135798_SUCCESS / UC_ARTIFACT_10482801951_SHA_F82390E3 / MAP_PR_40_HEAD_E4105697_DRAFT_MERGEABLE / MAP_WORKFLOW_35188074026_SUCCESS / MAP_ARTIFACT_10483020277_SHA_34CE9887 / 1008_CORNERS_TO_312_GROUPS_1008_INDICES_336_TRIANGLES_5_SURFACES / EXACT_POSITION_AND_GROUPING / GODOT_NORMAL_REPACK_120_OF_1008_MAX_COMPONENT_0.0001130402_MAX_ANGLE_0.0068694_DEG / HOLD_NORMAL_EXACTNESS_VISUAL_REVIEW_ENVIRONMENT_ADOPTION_TARGET_DEVICE_ARBITRARY_MESH_CANON_PRODUCTION_READINESS`
+`PASS_BUILDING_GODOT_INDEX_GROUPING_REBOUND_TO_MERGED_UC_MAIN_2295495C / MAP_PR_40_HEAD_939BC0C7_DRAFT / WORKFLOW_35191301494_SUCCESS / ARTIFACT_10484058866_SHA_528AF31D / UC_PREVIOUS_PROVEN_237EA786_ANCESTOR_DISTANCE_4 / MERGED_OBSERVER_SHA_3FA26824 / 1008_CORNERS_TO_312_GROUPS_1008_INDICES_336_TRIANGLES_5_SURFACES / EXACT_POSITION_AND_GROUPING / ART_QA_RETAINED_APPEARANCE_CLOSED / GODOT_NORMAL_REPACK_120_OF_1008_MAX_COMPONENT_0.0001130402_MAX_ANGLE_0.0068694_DEG / ENVIRONMENT_604_SOURCE_INTENT_GROUPS_DISTINCT_FROM_312_CONSUMER_VERTICES / HOLD_NORMAL_BYTE_EXACTNESS_ARBITRARY_TRANSPORT_TARGET_DEVICE_DEFAULT_ADOPTION_CANON_PRODUCTION_READINESS / COORDINATION_ONLY`
