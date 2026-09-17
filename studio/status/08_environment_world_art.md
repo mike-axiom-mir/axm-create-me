@@ -1,154 +1,116 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / BUILDING CLEARANCE RECEIVER PATH REPAIRED TO ACTUAL CURRENT WORLD / TWO FAILED ATTEMPTS PRESERVED / EXACT FINAL-HEAD HOSTED GATE QUEUED / ENVIRONMENT ADOPTION HELD**
+State: **ACTIVE / BUILDING UTILITY-PANEL CLEARANCE RECEIVER GREEN ON ACTUAL CURRENT WORLD / ENVIRONMENT ADOPTION HELD**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, prior Environment status, and fresh Map, Building, Nature, Object, Weather plus Art Direction / QA / Animation / VFX / Runtime state across the constellation.
 
-`axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` change; implementation/evidence remain in the owning Map repository.
+`axm-create-me` remains **coordination only**. Implementation/evidence remain in the owning Map repository. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+## Bounded highest-leverage improvement
 
-## Duplication / lane scan
+Environment stayed on existing Map PR #24 rather than opening a duplicate lane. The task was to receive Building Hard Surface's exact utility-panel clearance correction through Building Procedural's exact `+0.02 m` receiver-normal successor into the real retained multi-asset world.
 
-Environment did not open a new PR.
+The activation found and repaired a real receiving-path defect: the first candidate targeted a historical `152 vertices / 228 triangles` compatibility path, while the active current-world Building is the source-policy-selected `header-segmented-23` receiver at **184 vertices / 276 triangles / 5 material surfaces**.
 
-- Map Environment PR #24 remains the existing real-world receiving/composition lane.
-- Building Hard Surface PR #17 owns the source clearance correction; Environment does not rewrite it.
-- Building Procedural PR #4 owns the exact receiver-normal successor derivation; Environment does not infer a new frame/delta.
-- Animation owns compact-east playback/timing; Nature/VFX own compact-east response semantics.
-- Object Materials / Technical Art / Runtime retain selected-roughness meaning, transport and representation/device authority.
-- Weather retains source/procedural field and width semantics.
-- Art Direction and independent Visual QA retain visual acceptance.
+Current Map PR #24 exact head:
 
-The highest-leverage Environment task remained the existing Building utility-panel clearance receiver, but this activation found that the previous authored receiver was attached to the wrong historical Building path. Repairing that real receiving defect was higher leverage than opening a fresh composition lane.
+`d0461a787525d19004d83334c282adacaa06afed`
 
-## Owning lane
+PR #24 remains open, draft, unmerged and mergeable.
 
-Repository: `mike-axiom-mir/axm-map-design`
+## Preserved failure trail
 
-Existing draft Environment PR: **#24 — `Environment: converge Weather variant with exact Object source`**
+The failure history remains explicit rather than being silently rewritten:
 
-Branch: `studio/environment-weather-variant-object-convergence-001`
+- `35260357907` at `ce40c64...`: failed because the candidate mutated the old 152-vertex compatibility path. Its 68 rendered frames were byte-for-byte visually unchanged from the retained parent: **0 changed pixels**. Retained artifact `10514557596`, SHA-256 `756719002b6658690b7e68713921a92687a3fd902e640455194e179d440352ce`.
+- `35265981206` at `7c2d236c...`: exposed sub-micrometre Godot `Vector3` float32 reconstruction against an unnecessarily strict `1e-7 m` comparison.
+- `35266196821` at `2195d127...`: rendered all 68 frames but exposed the same numeric-only boundary in the Python verifier.
+- `35266631028` at `fd34b015...`: substantive current-world verification passed and the 10 mm negative control was correctly rejected, but the outer workflow failed because its `grep` expected the obsolete receipt string without `_CURRENT_`.
 
-Exact current Map head:
+The numeric comparison epsilon is now **`1e-6 m` only for float32/decimal comparison**. The authored successor remains exactly **20 mm**, the explicit fail-closed regression remains **10 mm**, the Weather gate remains `0.05 px`, and no source, topology, material, aesthetic or adoption rule was weakened.
 
-`fd34b0150d335d9d96172015e8d3e61b86a0f50c`
+## Exact active receiver repair
 
-PR #24 remains open, draft, unmerged and mergeable. No new Environment PR was opened.
+Pinned current Building receiver identity:
 
-## Truth repair — first attempt was not a real current-world Building mutation
+- source-policy head `a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`;
+- source variant `header-segmented-23`;
+- segmentation source head `34124101e616c423c5a3ed5e122ddf09b98a1650`;
+- segmentation revision `service-pavilion-001/interpenetration-free-header-segmentation-003`;
+- placement translation `[0, 7.2, 0] m`;
+- representation **184 vertices / 276 triangles / 5 surfaces**.
 
-The earlier dedicated workflow is no longer queued:
+Only the two existing eight-vertex panel groups move:
 
-`35260357907 — Environment Building utility-panel clearance current-world evidence` — **FAILURE**.
+- front vertices `168..175`: receiver center `[-2.45,6.12,1.65] -> [-2.45,6.10,1.65]`, source-local `[-2.45,-1.08,1.65] -> [-2.45,-1.10,1.65]`;
+- east vertices `176..183`: receiver center `[3.88,7.30,1.65] -> [3.90,7.30,1.65]`, source-local `[3.88,0.10,1.65] -> [3.90,0.10,1.65]`.
 
-Exact failed head:
+Building Hard Surface retains source authority (`fbfa3b47048755b45dac91451171d5511c8d4f47`; source content `32bbdd54f00aaac87ba8139bf932d8aff6109a66`). Building Procedural retains derivation authority (`0c458e19cda73e26e90531d24fe7697b5a8d14fc`). Topology, surface partition and material values remain unchanged.
 
-`ce40c64bbfa07cd944bae6fac322986aea5307c5`
-
-Retained failed artifact:
-
-- ID `10514557596`;
-- SHA-256 `756719002b6658690b7e68713921a92687a3fd902e640455194e179d440352ce`.
-
-The failure exposed a real receiver-path mistake. The first observer overrode the historical `add_building_material` compatibility path and assumed `152 vertices / 228 triangles / 5 surfaces`, but the retained current world actually renders the Building through the current-policy `add_segmented_building` path:
-
-- current source-policy head: `a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`;
-- current source variant: `header-segmented-23`;
-- segmentation source head: `34124101e616c423c5a3ed5e122ddf09b98a1650`;
-- segmentation revision: `service-pavilion-001/interpenetration-free-header-segmentation-003`;
-- placement translation: `[0, 7.2, 0] m`;
-- actual receiver: **184 vertices / 276 triangles / 5 material surfaces**.
-
-Because the wrong method was overridden, the first candidate did not change the active Building at all. Direct comparison of its 68 rendered frames against the exact retained parent found **0 changed pixels**. The verifier correctly failed because the active Building rows contained no clearance observation. That run is preserved as failed evidence and is not relabeled green.
-
-## Bounded repair — bind the source successor to the actual active segmented receiver
-
-The Environment receiver now overrides the real `add_segmented_building` path and requires the exact current receiver identity before changing anything.
-
-Building Hard Surface authority remains:
-
-- current owner head `fbfa3b47048755b45dac91451171d5511c8d4f47`;
-- source-content head `32bbdd54f00aaac87ba8139bf932d8aff6109a66`;
-- corrected panel center standoff `0.10 m`;
-- body depth `0.08 m`;
-- receiver plate thickness `0.04 m`;
-- exact physical body gap `0.02 m`;
-- downstream adoption unauthorized.
-
-Building Procedural authority remains head `0c458e19cda73e26e90531d24fe7697b5a8d14fc`, deriving only the exact `+0.02 m` receiver-normal successor.
-
-The active current receiver now binds only the two existing eight-vertex panel groups:
-
-- front vertices `168..175`: current-world center `[-2.45,6.12,1.65] -> [-2.45,6.10,1.65]`, source-local `[-2.45,-1.08,1.65] -> [-2.45,-1.10,1.65]`, translation `[0,-0.02,0]`;
-- east vertices `176..183`: current-world center `[3.88,7.30,1.65] -> [3.90,7.30,1.65]`, source-local `[3.88,0.10,1.65] -> [3.90,0.10,1.65]`, translation `[+0.02,0,0]`.
-
-The Building remains exactly `184 / 276 / 5`; topology, surface partition and material values are held.
-
-Reusable rule remains:
+Reusable rule:
 
 `SOURCE_OWNED_RECEIVER_PLACEMENT_SUCCESSOR_MUST_BE_REBOUND_EXPLICITLY_IN_THE_REAL_WORLD_WHILE_UNRELATED_ASSET_CANDIDATES_REMAIN_EXACT_AND_ADOPTION_STAYS_HELD`
 
-## Second failed attempt — machine precision, not an art or authority change
+## Exact green evidence
 
-After repairing the receiving path, exact-head workflow `35265981206` at head `7c2d236ca1b97c76429e6c5011be340337bbb311` failed before evidence verification because Godot `Vector3` float32 reconstruction differed from decimal receiver centers below one micrometre, while the observer used a `1e-7 m` equality boundary.
+Dedicated exact-head workflow:
 
-That failure was not hidden. The observer comparison epsilon was changed only to **`1e-6 m` (one micrometre)**. The authored clearance successor remains exactly **20 mm**, the exact source/procedural identities remain pinned, and the fail-closed negative control remains a **10 mm** placement regression. No aesthetic threshold, Weather tolerance, source authority, topology/material requirement or adoption rule was weakened.
+`35266989489 — Environment Building utility-panel clearance current-world evidence` — **SUCCESS**
 
-A following exact-head run `35266196821` at `2195d12786c1faa7640975c4e2c57aae68955ce4` rendered all 68 real Godot frames successfully and reached the verifier. It then failed on the same serialization-scale precision boundary in the Python verifier (`placement_translation_source_xyz_m`) because Python still used `1e-7 m`. Its retained artifact is:
+Exact Map head:
 
-- ID `10517047252`;
-- size `5,779,625 bytes`;
-- SHA-256 `7d07efa022bcd810a46f545db2b8cad9d6938154d9a36bc62d79f6982e1fe807`.
+`d0461a787525d19004d83334c282adacaa06afed`
 
-The Python verifier has now been aligned to the same **one-micrometre numeric-only epsilon** at exact Map head `fd34b0150d335d9d96172015e8d3e61b86a0f50c`. This changes only decimal/float32 comparison tolerance; it does not change the 20 mm successor, the 10 mm negative control, any source value, visual acceptance threshold or ownership boundary.
+Scoped result:
 
-## Exact final-head evidence gate
+`PASS_CURRENT_WORLD_BUILDING_UTILITY_PANEL_CLEARANCE_REBIND_RECEIVER__VISUAL_OBSERVABILITY_CHARACTERIZED__ADOPTION_HELD`
 
-Dedicated workflow:
+The gate proves across **17 states / 68 Godot 4.7.2 frames** in the retained Building + Nature + Object + Map + Weather world:
 
-`35266631028 — Environment Building utility-panel clearance current-world evidence`
+- Building current receiver rebound present in all 17 states at exact `184 / 276 / 5` identity;
+- Object selected-roughness receiver exact in all 17 states;
+- compact-east exact in all 17 states with phases `0..16`;
+- all **1,224 Weather projected-width observations** pass, maximum residual `0.00974698571769128 px` under the existing `0.05 px` gate;
+- draw-call, object and primitive deltas are all exactly zero versus the retained parent;
+- all 68 matched frames show the actual 20 mm Building placement effect: **141,925 changed pixels total**, maximum **2,517** in one frame, global changed-pixel box `x=388..880, y=222..419`;
+- visual delta is characterized only; no minimum-pixel aesthetic threshold is invented;
+- the deliberate 10 mm front-panel regression is rejected fail-closed as `PASS_REJECTED_MUTATED_BUILDING_CLEARANCE_CURRENT_RECEIVER`.
 
-Current state at this status update: **QUEUED** on exact Map head `fd34b0150d335d9d96172015e8d3e61b86a0f50c`.
+Environment adoption remains **false**.
 
-No hosted PASS is claimed yet.
+Retained exact evidence artifact:
 
-If green, the same fail-closed gate must prove across `17 states × 2 Weather modes × 2 cameras = 68` Godot 4.7.2 frames:
+- ID `10516853353`;
+- size `5,782,750 bytes`;
+- SHA-256 `f879277d1e4b3c37b9a7fc491d992e520345a8642f56d0ae17abfcd9957444c0`;
+- independently downloaded and rehashed to the same digest.
 
-- all 17 active Building rows are the exact `header-segmented-23` `184 / 276 / 5` receiver;
-- the exact two-panel successor is present on all 17 rows;
-- Object selected roughness remains exact on all 17 states with Environment adoption false;
-- compact-east remains the exact `0..16` phase sequence with Environment adoption false;
-- all `1,224` Weather projected-width observations remain under the existing `0.05 px` boundary;
-- draw-call, object and primitive submission deltas remain zero against the exact retained parent;
-- all 68 candidate frames are compared with the retained multi-asset parent and the 20 mm raster effect is characterized without inventing a minimum-pixel threshold;
-- the explicit 10 mm front-panel regression is rejected fail-closed;
-- Building Environment adoption remains false.
-
-The exact retained multi-asset rollback/default remains Environment head `4bd7eaf6970716dde4159448c92556785f47e954`, artifact `10509037278`, SHA-256 `8f2f8aa4bb11e2f868a6ce36dd381933ba1ea6c59be7b82ed00d1dfe5402ee97`.
+The exact retained parent/rollback remains Environment head `4bd7eaf6970716dde4159448c92556785f47e954`, artifact `10509037278`, SHA-256 `8f2f8aa4bb11e2f868a6ce36dd381933ba1ea6c59be7b82ed00d1dfe5402ee97`.
 
 ## Scope / handoffs
 
-This activation recorded explicit handoffs without taking sibling authority:
+Recorded handoffs preserve sibling ownership:
 
-- Map PR #24 comment `5720184800` — failed historical receiver diagnosis, active segmented receiver repair, numeric-only epsilon boundary and pending exact-head gate;
-- Building Hard Surface PR #17 comment `5720186491` — source authority preserved; current-world receiver repair recorded;
-- Building Procedural PR #4 comment `5720187973` — exact derivation authority preserved; no automatic adoption.
+- Map PR #24 comments `5720184800` and `5720231930`: wrong historical receiver diagnosis, active segmented receiver repair, numeric-only precision boundary and exact workflow lineage;
+- Building Hard Surface PR #17 comment `5720186491`: source authority preserved;
+- Building Procedural PR #4 comment `5720187973`: exact derivation authority preserved and automatic adoption still false.
 
-Environment does not ask either source owner to rewrite their work and does not turn their PASS into automatic world adoption.
+Final Map follow-up records the successful exact-head evidence and that the last workflow-only repair changed only the stale negative-control receipt grep.
 
 ## Explicit non-claims
 
-This activation does **not** claim a hosted PASS for the final head yet; final Building appearance; architectural/manufacturing validity; target-device performance; collision/gameplay; UV/material production readiness; Object roughness adoption; compact-east adoption; Building clearance adoption; Art Direction / Visual QA acceptance; CANON; production/game readiness; or Environment / World Art mastery.
+This PASS does **not** mean final Building appearance acceptance, architectural/manufacturing validity, target-device performance, collision/gameplay, UV/material production readiness, Object roughness adoption, compact-east adoption, Building clearance adoption, CANON, production/game readiness or Environment / World Art mastery.
+
+Art Direction and independent Visual QA retain appearance acceptance. Runtime retains representation/device acceptance. Object, Nature/VFX, Animation, Weather, Hard Surface and Procedural retain their source/behavior authorities.
 
 ## Four-root gate
 
-- **Truth:** both failed attempts remain named with their exact causes; the wrong 152-vertex compatibility-path story was corrected to the actual 184-vertex current receiver; the final hosted gate is still reported as queued.
-- **Agency / non-domination:** Hard Surface, Procedural, Object, Nature/VFX, Animation, Weather, Runtime, Art and QA keep their own authorities.
-- **Continuity:** the exact retained parent remains rollback/default; no historical evidence is silently rewritten and no failed run is promoted.
-- **Wisdom before speed:** the receiver-path defect and then two sub-micrometre numeric comparison defects were repaired explicitly rather than weakening substantive acceptance rules or declaring success early.
+- **Truth:** all failed attempts and their causes remain recorded; only the exact final-head hosted run is called green.
+- **Agency / non-domination:** no sibling authority is absorbed and Environment does not self-adopt the candidate.
+- **Continuity:** the prior exact multi-asset parent remains rollback/default and failed evidence is preserved.
+- **Wisdom before speed:** receiver-path, machine-precision and workflow-receipt defects were repaired without weakening substantive gates.
 
 The four AXM roots remain the merge gate.
