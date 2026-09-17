@@ -1,148 +1,167 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / TWENTY-SEVENTH BOUNDED RUNTIME PASS / PASS_BUILDING_PLANAR_ROLE_POST_NORMAL_INDEX_REMOVES_BUFFER_PENALTY__HOLD_PRIMITIVE_AND_VISUAL_REVIEW / 1,008 -> 312 STORED VERTICES / -12,672 B MODELED RECEIVER PAYLOAD / -11,904 B OBSERVED BUFFER VS UNINDEXED PLANAR-ROLE / -8,304 B BUFFER BUT +180 PRIMITIVES VS ACTIVE SEGMENTED RECEIVER / <=55 PIXELS PER FRAME AT <=1 LSB / ART-QA REVIEW REQUIRED / NO AUTOMATIC ADOPTION**
+State: **ACTIVE / TWENTY-EIGHTH BOUNDED RUNTIME PASS / HOLD_BUILDING_INDEX_BEFORE_NORMAL_RECEIVER_PREPARATION_WIN_NOT_REPRODUCED / KEEP POST-NORMAL INDEX CONTROL / EXACT FINAL 5 SURFACES + 312 STORED VERTICES + 1,008 INDICES + 336 TRIANGLES / REPEATED PROOF-HOST MEDIAN 832 us CONTROL VS 981 us CANDIDATE / CANDIDATE +149 us (+17.908654%) / 0 OF 41 PAIRS FASTER / ZERO RENDERER-COUNTER DELTA / <=55 PIXELS PER FRAME AT <=1 LSB / ART-QA REVIEW REMAINS / NO AUTOMATIC ADOPTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Visual Observer QA, Environment, Building Hard Surface and the active Runtime lanes before selecting one bounded non-duplicated optimization question.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Visual Observer QA, Technical Art / UC integration, Environment and active Runtime lanes before choosing one bounded non-duplicated optimization question.
 
-`axm-create-me` remains **coordination only**. Product implementation and exact Runtime evidence live in `mike-axiom-mir/axm-map-design`; this repository changes only this specialist status record.
+`axm-create-me` remains **coordination only**. Product implementation, the benchmark, observer scripts and exact Runtime evidence live in `mike-axiom-mir/axm-map-design`; this repository changes only this specialist status record.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / duplicate-lane repair
+## Why this lane was selected
 
-Building Hard-Surface PR #11 introduced exact render-only candidate `boundary-only-planar-role-rectangle-render-001` at head:
+Runtime pass 27 already proved that post-normal per-material-surface indexing is a real memory/storage win for the Environment-reviewed planar-role Building receiver:
 
-`93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`
+- `1,008` stored vertices / `0` indices -> `312` stored vertices / `1,008` indices;
+- same `5` surfaces / `336` triangles;
+- `-11,904 B` observed RenderingServer buffer memory versus the unindexed planar-role receiver;
+- `-8,304 B` buffer memory versus the actual active segmented receiver, while its representation-level `+180` primitive burden remains;
+- visual storage-path boundary `<=55 changed pixels/frame`, `<=1 LSB`, zero pixels above 1 LSB.
 
-It keeps the `header-segmented-23` semantic source, exact five material roles/areas, occupied-union boundary, cardinal hard normals and contributor provenance while reducing the compact-v2 representation from `2052` triangles to `336`.
+That storage result remains valid and is **not reopened or weakened** here.
 
-Runtime initially opened Map PR #38 to measure that exact unindexed candidate in the current world. Before duplicating the work, the constellation scan caught that Environment PR #24 had already advanced to exact head:
+The next reusable risk was receiver/import-preparation cost. The existing post-normal path first builds `1,008` unindexed triangle-corner vertices, generates normals, then performs `SurfaceTool.create_from()` + `SurfaceTool.index()` to reach the proven `312`-vertex final domain. A superficially attractive optimization is to deduplicate the per-material position domain first, add the same indices, and then generate normals.
 
-`b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`
+Selected bounded question:
 
-and completed the same unindexed current-world measurement in workflow `35182784756` / artifact `10481340680`.
+> Does moving the already-proven deduplication **before normal generation** reduce CPU-side proof-host Building receiver construction cost while preserving the exact final representation and keeping renderer/visual gates separate?
 
-Runtime therefore **closed PR #38 as duplicate** instead of rerunning the same lane.
-
-Environment's retained measure-before result is authoritative for this pass:
-
-- representation: `336 triangles / 5 surfaces`;
-- proof-host buffer memory versus actual active segmented receiver: **+3,600 B**;
-- RenderingServer primitives versus active: **+180**;
-- draw calls: **0 delta**;
-- objects: **0 delta**;
-- observed texture memory: **0 B delta**.
-
-Selected non-overlapping Runtime question:
-
-> Can the exact Environment-reviewed planar-role Building receiver be indexed independently per material surface **after final normal generation** to remove its remaining buffer-memory penalty without changing the 336-triangle representation, five material roles or generated-normal result; and what visual trade remains?
+This is intentionally different from pass 27's final-storage/memory question.
 
 ## Owning implementation lane
 
 Repository: `mike-axiom-mir/axm-map-design`
 
-Draft Runtime PR: **#39 — `Runtime: index planar-role Building surfaces after final normals`**
+Draft Runtime PR: **#41 — `Runtime: direct-index planar-role Building receiver preparation`**
 
-Branch: `studio/runtime-building-planar-role-surface-index-budget-001`
+Branch: `studio/runtime-building-planar-role-direct-indexed-import-budget-001`
 
 Exact Environment parent head:
 
-`b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`
+`038925282240441c475651bdc3737d1749c31d06`
 
 Exact final tested Runtime head:
 
-`8d5860c308c244d314ede5b79021e46f35c4040d`
+`e55a5031e2d87f4fcfa406635a36f21aaca79e21`
 
-Runtime changes receiver storage only:
+Exact successful workflow:
 
-1. build the exact Environment-reviewed five-surface planar-role receiver;
-2. preserve all `336` triangles and material-surface boundaries;
-3. preserve the already-generated final normals;
-4. apply `SurfaceTool.index()` independently inside each final material surface;
-5. compare directly to the retained unindexed Environment evidence and separately to the actual active segmented receiver.
-
-No source Building semantics, triangle membership, material role/scalar, transform, Nature, Object, footprint cue, Weather, route, camera or lighting input is rewritten.
-
-## Measure-before / after storage
-
-Exact unindexed planar-role receiver:
-
-- surfaces: **5**;
-- triangles: **336**;
-- stored vertices: **1,008**;
-- indices: **0**.
-
-Exact indexed candidate:
-
-- surfaces: **5**;
-- triangles: **336**;
-- stored vertices: **312**;
-- indices: **1,008**.
-
-Stored-vertex reduction:
-
-- **696 vertices removed**;
-- **69.047619048%** fewer stored vertices.
-
-Under the bounded position-FLOAT32x3 + normal-FLOAT32x3 + UINT32-index model:
-
-- unindexed payload: **24,192 B**;
-- indexed payload: **11,520 B**;
-- saving: **12,672 B**;
-- reduction: **52.380952381%**.
-
-This is a logical receiver-payload model, not a target-device VRAM claim.
-
-## Real Godot proof-host result
-
-Dedicated exact-head workflow:
-
-**`35183939323 — Runtime Building planar-role surface-index budget evidence — SUCCESS`**
+`35188727341`
 
 Pinned proof host:
 
-- Godot **4.7.2 stable**;
+- Godot `4.7.2.stable.official.ed1daf0bf`;
 - GL Compatibility;
-- X11 / llvmpipe;
-- exact retained current-world payload;
-- all **68** matched state/camera/Weather-mode observations.
+- X11 / Mesa llvmpipe;
+- exact retained 17-state planar-role current-world payload.
 
-Indexed candidate versus exact unindexed planar-role receiver:
+## Control and candidate
 
-- observed RenderingServer buffer memory: **-11,904 B**, stable across all observations;
-- draw calls: **0 delta**;
-- objects: **0 delta**;
-- primitives: **0 delta**;
-- observed texture memory: **0 B delta**.
+Control path — retain pass 27's measured receiver behavior:
 
-Indexed candidate versus actual active segmented receiver:
+1. build `1,008` unindexed triangle-corner vertices across the exact five material surfaces;
+2. run the current Godot normal-generation step;
+3. `create_from()` each completed surface;
+4. run `SurfaceTool.index()` independently inside the final material/normal domain;
+5. commit the final `312` stored vertices / `1,008` indices / `336` triangles.
 
-- observed RenderingServer buffer memory: **-8,304 B**;
-- RenderingServer primitives: **+180**;
-- draw calls: **0 delta**;
-- objects: **0 delta**;
-- observed texture memory: **0 B delta**.
+Candidate path:
 
-The previous unindexed `+3,600 B` buffer penalty is therefore fully removed and becomes an `-8,304 B` buffer advantage on this proof host. The `+180` primitive burden remains because indexing changes storage, not triangle count.
+1. consume the exact same source triangle membership and five material surfaces;
+2. deduplicate only the exact per-material position domain first;
+3. build `312` position vertices plus the same `1,008` indices;
+4. run the same pinned Godot normal-generation step;
+5. commit the same final storage identity.
+
+No Building source semantics, material role/scalar, triangle membership, world composition, transform, Nature, Object, footprint, Weather, route, camera or lighting input is intentionally changed.
+
+## Truth-boundary repairs preserved
+
+This lane produced three useful proof repairs instead of silently converting failed setups into success.
+
+### 1. Canonical payload donor repair
+
+Initial workflow `35187695558` assumed the latest indexed Environment artifact retained the canonical `combined_current_world.json`. It intentionally did not. The lane was repaired to bind the last exact canonical Environment payload donor instead:
+
+- Environment head `b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`;
+- workflow `35182784756`;
+- donor artifact `10481340680`;
+- donor SHA-256 `96d6bd6a0ed6e6edb0fc129484dd02769f7fd13952ad1a7eabeda8ffe681ee74`.
+
+### 2. Direct hand-derived normal-array candidate rejected
+
+The first candidate tried direct final position + hand-derived cardinal-normal + index arrays. Workflow `35187830604` failed the exact final-storage identity gate: that normal domain was not equivalent to the current Godot-generated domain.
+
+Runtime did **not** weaken the gate or declare those normals equivalent. The failed experiment remains provenance. The repaired candidate deduplicates positions only and still uses the same Godot `generate_normals()` step.
+
+### 3. Seventeen copied receipts were not treated as seventeen timings
+
+The current-world scene constructs the static Building once and copies that static-source receipt into all 17 state rows. Treating those duplicated values as 17 independent timing samples would have been false precision.
+
+The verifier therefore records the scene timing as **one control and one candidate construction observation only** and adds a separate repeated benchmark: five alternating warmup pairs followed by **41 independently timed alternating control/candidate pairs**.
+
+The first benchmark setup (`35188519374`) also failed because `RenderingServer.sync()` was not a valid call in this pinned proof script. It was removed from the timing path without relaxing any final-storage identity gate.
+
+## Repeated proof-host preparation result
+
+Final exact-head repeated benchmark from workflow `35188727341`:
+
+- control median: **832 us**;
+- control p90: **859 us**;
+- index-before-normal candidate median: **981 us**;
+- candidate p90: **999 us**;
+- median candidate-minus-control: **+149 us**;
+- median percentage change: **+17.908654%** candidate slowdown;
+- paired-delta median: **+148 us**;
+- candidate faster pairs: **0 / 41**;
+- candidate slower-or-equal pairs: **41 / 41**.
+
+The separately retained single scene-build observation points in the same direction but is not used as repeated evidence:
+
+- control: **1,216 us**;
+- candidate: **1,405 us**;
+- delta: **+189 us**.
 
 Scoped result:
 
-**`PASS_BUILDING_PLANAR_ROLE_POST_NORMAL_INDEX_REMOVES_BUFFER_PENALTY__HOLD_PRIMITIVE_AND_VISUAL_REVIEW`**
+**`HOLD_BUILDING_INDEX_BEFORE_NORMAL_RECEIVER_PREPARATION_WIN_NOT_REPRODUCED`**
 
 Decision:
 
-**`POST_NORMAL_PER_SURFACE_INDEXING_IS_A_REAL_PLANAR_ROLE_STORAGE_WIN__PRIMITIVE_COST_AND_VISUAL_PREFERENCE_REMAIN_SEPARATE_GATES`**
+**`KEEP_POST_NORMAL_INDEX_CONTROL__INDEX_BEFORE_NORMAL_DID_NOT_SHOW_A_ROBUST_PREPARATION_WIN`**
 
-The verifier deliberately mutates one indexed observation to remove the required buffer reduction; the verifier fails closed as required.
+The candidate does end at the same smaller final storage, but in this exact GDScript receiver it costs more CPU-side preparation work than letting the engine perform the proven post-normal indexing path.
+
+## Final representation and real renderer result
+
+Both control and candidate finish at exactly:
+
+- surfaces: **5**;
+- stored vertices: **312**;
+- indices: **1,008**;
+- triangles / rendered primitives for the Building representation: **336**;
+- source payload positions: **672**.
+
+Across all **68** exact current-world renderer observations, candidate minus control is exactly:
+
+- draw calls: **0**;
+- objects: **0**;
+- primitives: **0**;
+- observed RenderingServer buffer memory: **0 B**;
+- observed texture memory: **0 B**.
+
+That distinction matters: the final renderer/storage representation is equivalent at the measured counter level, yet one construction path is measurably slower. Runtime therefore keeps construction cost and final memory footprint as separate gates.
+
+The deliberate final-storage mutation (`312 -> 311`) is rejected fail-closed by the verifier.
 
 ## Visual tradeoff for Art Direction / Visual Observer QA
 
-The storage rewrite is not byte-identical.
+The control/candidate receiver-construction paths are not byte-identical in the retained frames even though the final counter identity is the same.
 
-Across all **68 / 68** exact unindexed/indexed frame pairs:
+Across all **68 / 68** exact A/B frame pairs:
 
 - every frame contains a nonzero raster difference;
 - maximum changed pixels in any frame: **55**;
@@ -151,60 +170,63 @@ Across all **68 / 68** exact unindexed/indexed frame pairs:
 
 Visual tradeoff state:
 
-**`MEASURED_INDEXING_RENDER_DELTA__CHANGED_FRAMES_68__MAX_PIXELS_55__MAX_OVER_1_LSB_0__MAX_LSB_1__ART_QA_REVIEW_REQUIRED`**
+**`MEASURED_INDEX_BEFORE_NORMAL_RENDER_DELTA__CHANGED_FRAMES_68__MAX_PIXELS_55__MAX_OVER_1_LSB_0__MAX_LSB_1__ART_QA_REVIEW_REQUIRED`**
 
-Runtime does not convert a small numeric delta into appearance approval. Art Direction / Visual Observer QA retain the decision on whether that deterministic one-LSB edge/shading difference is acceptable. Environment retains world-adoption authority.
+Runtime does not convert the small numeric delta into Art acceptance. Art Direction / Visual Observer QA retain appearance authority; Environment retains receiver/world-adoption authority.
 
-## Retained evidence
+## Retained final evidence
 
-Final Runtime artifact:
+Final exact Runtime artifact:
 
-- artifact ID: **`10481695338`**;
-- size: **`5,295,784 B`**;
-- GitHub artifact SHA-256: **`5fc6c2e820e6afa8ebade7dad87232d198d3aa7b695e02d64774ba6aa75d349a`**;
+- artifact ID: **`10483265841`**;
+- size: **`10,592,619 B`**;
+- GitHub artifact SHA-256: **`2d20b7ec217b8a2b2fd6b41485c929b22fe789269ab9ced3651c35c68cbe6373`**;
 - independently downloaded/rehashed SHA-256: **same value**.
 
-The archive retains the exact-head identity, report, indexed Godot runtime receipt/log and all 68 indexed current-world frames.
+The archive retains:
+
+- exact Runtime head identity;
+- the independent 41-pair preparation benchmark receipt/log;
+- control and candidate current-world runtime receipts/logs;
+- all 68 retained control frames and all 68 candidate frames;
+- final verifier report.
 
 ## Handoffs
 
-- **Runtime PR #39:** exact successful result, residual primitive cost and visual boundary are recorded in comment `5708928089`.
-- **Environment PR #24:** receives the indexed result in comment `5708930320`; no automatic adoption requested.
-- **Building Hard-Surface PR #11:** receives the exact consumer result in comment `5708932170`; representation ownership remains with Hard Surface.
-- **Art Direction / Visual Observer QA:** the `<=55 pixels/frame / <=1 LSB` storage-only delta is explicitly reserved for their review.
+- **Runtime PR #41:** final exact-head HOLD, repeated benchmark, renderer identity, visual boundary and preserved failures recorded in comment `5709802439`.
+- **Environment PR #24:** receives the exact HOLD and recommendation to keep the existing post-normal indexed receiver in comment `5709803675`; no automatic adoption requested.
+- **Art Direction / Visual Observer QA:** retain review authority over the nonzero `<=55 pixels/frame / <=1 LSB` boundary.
+- **Technical Art / UC:** no extraction or receiver-policy rewrite is requested from this pass.
 
 ## Reusable Runtime learning
 
-This pass strengthens the prior indexing rule:
+This is a useful **negative optimization result**:
 
-> **Index only inside the final attribute/material domain, after final normals or other seam-defining attributes exist, and re-prove the real consumer. A topology-preserving storage rewrite can erase a memory regression while leaving primitive cost unchanged and still move a small number of rasterized pixels. Keep storage, primitive count and visual acceptance as separate gates.**
+> **Do not assume that performing deduplication earlier is cheaper just because it avoids a temporary expanded mesh. In this exact receiver, Godot's post-normal `SurfaceTool.index()` path is measurably faster than a script-level pre-deduplication path even though both end at the same 312-vertex / 1,008-index representation and identical renderer counters. Measure construction/import cost separately from final memory footprint.**
 
-The planar-role Building is now particularly useful because it separates three facts that would otherwise be easy to blur together: the representation's 336-triangle primitive cost, avoidable triangle-corner storage waste, and Art-facing appearance.
+Pass 27's rule also remains intact:
 
-This still does not justify automatic Universal Creation extraction; broader UV/tangent/custom-channel/import/deformation domains and ownership/adoption policy remain unproved.
+> **Index only inside the final attribute/material domain, after seam-defining attributes exist, unless an earlier-domain rewrite is independently proven. Preserve storage, primitive count, construction cost and visual acceptance as separate gates.**
 
 ## Historical continuity
 
-The complete twenty-sixth Runtime pass remains preserved at coordination commit:
+The complete twenty-seventh Runtime pass remains preserved in repository history before this status replacement; it proved the planar-role Building post-normal indexing memory win (`1,008 -> 312` stored vertices, `-11,904 B` observed buffer versus unindexed, residual `+180` primitives versus active) and handed that result to Art/QA/Environment without automatic adoption.
 
-`4e7c0cc4ecad3d56b3468040f1f3006fe66a4fed`
-
-That pass indexed the Art-preferred compact-v2 Building receiver, recovering `86,888 B` of its buffer regression but leaving `+19,672 B` buffer memory and `+5,328` primitives versus active.
-
-The twenty-fifth pass remains preserved at `b41c130c0d0a5273be6e73906fdf5757620a9f28`; earlier Weather, Object, footprint, Animal, Building submission/import and animation passes remain historical truth.
+The complete twenty-sixth pass remains preserved at coordination commit `4e7c0cc4ecad3d56b3468040f1f3006fe66a4fed`; the twenty-fifth remains at `b41c130c0d0a5273be6e73906fdf5757620a9f28`. Earlier Weather, Object, footprint, Animal, Building submission/import and animation passes remain historical truth.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- automatic Environment adoption of the indexed planar-role receiver;
-- Art Direction or Visual QA acceptance of the one-LSB indexing delta;
-- elimination of the representation's residual `+180` primitive cost;
-- target-device CPU/GPU frame-time or FPS improvement;
+- automatic Environment adoption of either planar-role receiver path;
+- Art Direction or Visual QA acceptance of the one-LSB visual boundary;
+- target-device CPU or GPU frame-time improvement;
+- FPS improvement;
 - target-device VRAM or heap reduction;
+- import/export transport equivalence;
 - arbitrary-view / arbitrary-renderer visual equivalence;
-- arbitrary-mesh indexing safety;
-- UV/tangent/texture/normal-map/custom-channel equivalence beyond this exact receiver;
+- arbitrary-mesh early-deduplication safety;
+- UV/tangent/texture/normal-map/color/skin/morph/custom-channel equivalence outside this exact receiver;
 - collision/navigation/physics/gameplay equivalence;
 - UC extraction or Profession Fabric promotion;
 - CANON;
@@ -213,12 +235,12 @@ This activation does **not** prove:
 
 ## Four-root check
 
-**Truth:** the closed duplicate lane, exact before-measure, real buffer win, unchanged primitive burden and nonzero one-LSB visual delta are retained separately.
+**Truth:** the apparently attractive earlier-dedup idea is recorded as slower, the duplicated 17-row timing illusion is repaired, failed candidates/setups remain provenance, and construction cost is not blurred with final memory/storage cost.
 
-**Agency / non-domination:** Runtime owns measurement only. Art / Visual QA own appearance; Environment owns world adoption; Building Hard Surface owns representation intent.
+**Agency / non-domination:** Runtime owns measurement only. Art / Visual QA own appearance, Environment owns receiver/world adoption, Hard Surface / Materials own their representation/look intent, and Technical Art owns broader transport/integration policy.
 
-**Continuity:** exact parent/head identities, active/unindexed artifacts, workflow, final artifact digest, handoff comments and prior coordination commit remain explicit.
+**Continuity:** the measured-faster post-normal indexed receiver remains the rollback/control; exact parent/head identities, donor, failed workflows, successful workflow, artifact digest and handoff comments remain explicit.
 
-**Wisdom before speed:** duplicate work was stopped, the cheap storage waste was removed and proven, but the remaining primitive cost and visual review were not waived.
+**Wisdom before speed:** the lane rejected an optimization that sounded cheaper but repeatedly measured worse, preserving the already-proven storage win rather than rewriting it on intuition.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
