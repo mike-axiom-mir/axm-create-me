@@ -1,207 +1,200 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-17
-State: **PASS_ANIMAL_DEFORMED_TANGENT_SPACE_TARGET_HOST_DIAGNOSTIC / EXACT PROBE + HANDEDNESS MUTATION RENDERER-VISIBLE IN 40/40 RETAINED CONTEXTS / FINAL SEAM + TEXTURE + TRANSPORT + ART-QA ACCEPTANCE HELD**
+State: **PASS_BUILDING_BOUNDARY_SHELL_COMPACTION_EXPLICIT_HARD_NORMAL_MATERIAL_CONTINUITY / 0 PIXEL DELTA IN 3 RETAINED GODOT CONTEXTS / SMOOTH-NORMAL + UV-TEXTURE + ENV-RUNTIME + ART-QA ACCEPTANCE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, newest Art Direction, Geometry, Rigging, Technical Art, Visual QA and Materials state, plus current Animal PR ownership before acting. `axm-create-me` remains coordination-only. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, current Materials status, Art Direction, Visual QA, Technical Art, Runtime and the newest design-repository PR state before acting. `axm-create-me` remains coordination-only. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The prior Materials pass proved Geometry's explicit logical-quad normal field remains a useful partial shading repair across representative elbow deformation, but explicitly held final normal+tangent adoption. Since then the missing dependencies became stable and separately owned:
+The full constellation scan did not justify continuing the previous Animal tangent-space lane by inertia. The owner-frame diagnostic is now real-rendered and accepted as a useful reference, while Technical Art / Rigging still hold deformed receiving direction-frame equivalence. Materials therefore did not compensate that transport problem with PBR retuning. Nature already has the bounded three-source woody/foliage + sidedness evidence, Object already has the source-owned inner-lid `service_dark` review candidate, and Character remains upstream of stable surfacing acceptance.
 
-- Geometry PR #20, exact head `ca4bb8a2f144231f8755eacc980785d1807b79db`, owns the seam-aware structural UV / explicit normal / tangent render domain (`42 source -> 84 render vertices / 80 triangles`).
-- Rigging PR #22, exact head `63c65d57fda0595217f86d971ff8c67f256188be`, owns dense deformed tangent-frame observation across the established elbow envelope.
-- Technical Art owns exact transport and still holds deformed tangent equivalence / receiving-engine acceptance.
-- Runtime owns representation and target-device cost.
-- Art Direction and independent Visual QA explicitly identified the same next Materials-owned gate: a **real tangent-space shaded diagnostic on the exact current UV/normal/tangent chain**, without compensating PBR retuning.
-
-No existing Materials PR owned that exact receiving question. Building, Nature and Object retain their earlier bounded lanes; no fresher material-ready defect elsewhere outranked this explicit cross-specialist dependency.
+The freshest explicit Materials dependency is in Building: Geometry PR #8 now provides a source-preserving compact receiving shell and directly asks Materials / Environment / Visual QA to rebind and inspect shading because coplanar retriangulation can change generated normals. Hard Surface PR #7 already established that the semantic `header-segmented-23` source remains authority while the boundary shell is only a derived receiving representation. Existing Building Materials PR #3 is the correct lane, so no duplicate Materials PR was opened.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Repository: `mike-axiom-mir/axm-building-design`
 
-New stacked draft PR:
+Existing Materials lane:
 
-**#24 — `Materials: render deformed tangent-space diagnostic in Godot`**
+**PR #3 — `Materials: prove pavilion functional surface hierarchy`**
 
 Branch:
 
-`studio/materials-animal-tangent-space-lookdev-001`
+`studio/materials-pavilion-surface-001`
 
-Base:
+Exact current Materials head used by the successful dedicated proof:
 
-Rigging PR #22 branch / exact head:
+**`c716655918d1041333187cc9ad12e2186926a00d`**
 
-`63c65d57fda0595217f86d971ff8c67f256188be`
+Exact Geometry donor:
 
-Exact current Materials head:
+**PR #8 head `43ace6fc44e6f6c0f637cd3436a94099c97c2d48`**
 
-**`e9d5c451b16bd05d2419248f58bef911f83dc1e8`**
+The new Materials receiving proof consumes both exact Geometry representations:
 
-Observed PR state after evidence completion: **OPEN / DRAFT / MERGEABLE**.
+- reference boundary shell: `1420 vertices / 2884 triangles`;
+- conforming compact shell: `1402 vertices / 2848 triangles`;
+- reduction: **18 vertices / 36 triangles**;
+- source-component owners: **19 -> 19**;
+- signed occupied volume remains `9.49832 m³`;
+- measured boundary area differs from the donor only by serialization-scale `~9.95e-13 m²` and remains inside the Geometry lane's existing `1e-9` invariant tolerance;
+- maximum per-source-component boundary-area residual remains `0`.
 
-Pinned provenance:
+Materials changes **no** Building PBR scalar and **no** source-component material mapping. The existing five-surface family remains:
 
-- Rigging deformed tangent-frame head `63c65d57fda0595217f86d971ff8c67f256188be`;
-- Rigging tangent module blob `fbade964b3305d70775d196232ad2cd4671d0eac`;
-- Geometry UV/tangent head `ca4bb8a2f144231f8755eacc980785d1807b79db`;
-- Geometry UV/tangent module blob `ba0b4e620f132413606177358e47bd32ae4d4965`;
-- exact rig / weighting donor `04760112deb81a8d145226fe7ee02923107c9916`.
+- `slab_mineral`;
+- `frame_galvanized`;
+- `infill_coating`;
+- `roof_membrane`;
+- `utility_panel_ochre`.
 
-## Evidence design
+Every exact `source_component_id` must bind explicitly through the existing 19-owner map. Unknown/lost owner identity fails closed.
 
-Materials does not author a new production Animal surface. It consumes the exact Geometry / Rigging render attributes and adds a deterministic receiving shader diagnostic only.
+## Surface / normal policy under test
 
-The payload covers:
+The bounded improvement is not a new material color. It is an explicit receiving-side hard-surface normal contract for this boundary-shell representation:
 
-- left + right sides;
-- `smoothstep-v0` + `ease-out-power-0p75-v1`;
-- `-60°, -30°, 0°, +30°, +60°`;
-- fixed `three_quarter` + `grazing` camera contexts.
+**`EXPLICIT_PER_TRIANGLE_PLANE_NORMAL__NO_VERTEX_SMOOTHING__HARD_SURFACE_REVIEW`**
 
-Each retained pose/context renders three modes:
+For each source triangle, the Godot proof derives the exact planar face normal, preserves the existing Building scalar-PBR family and keeps camera / lighting fixed between reference and compact meshes.
 
-1. `flat_tangent_control` — neutral tangent-space normal;
-2. `periodic_tangent_probe` — deterministic procedural tangent-space perturbation;
-3. `flipped_handedness_mutation` — the same probe with tangent W deliberately inverted, used only as a negative control proving the renderer/harness is sensitive to handedness corruption.
-
-Total retained target-host capture: **120 real PNG renders**.
-
-The probe is U-periodic, so the diagnostic itself does not introduce an authored texture discontinuity at the cylindrical wrap seam. It is not a production normal map.
-
-Held controls:
-
-- exact side-local 84-vertex render domains and 80-triangle topology;
-- exact UVs, explicit normals and tangent XYZ/W from Geometry / Rigging except the deliberate W-flip negative control;
-- source form, rig and weighting data;
-- neutral base surface values: albedo `[0.46, 0.49, 0.53, 1]`, metallic `0`, roughness `0.5`;
-- lights and cameras within each comparison.
+This is deliberately narrower than claiming arbitrary generated-normal equivalence. The Geometry handoff is correct that retriangulation *can* change generated smooth normals. This Materials pass instead asks the practical manufactured-surface question first: if the receiving representation uses explicit hard planar normals, does the compact topology preserve the established surface response?
 
 ## Retained failed evidence and repair
 
-First exact workflow run:
+First dedicated run:
 
-**`35166360878` — FAILED CLOSED at payload construction**.
+**`35170437142` — FAILED CLOSED during Materials packet construction.**
 
-All inherited Animal tests were green. The Materials observer incorrectly required the left and right render-index arrays to be byte-identical. Geometry PR #20 intentionally preserves **side-local** render indexing and proves bilateral correspondence through semantic render-vertex keys, UV identity, mirrored positions/normals/tangent XYZ and reflection-correct tangent handedness. Cross-side raw index-array equality was therefore an invalid Materials assumption, not a source defect.
+The source, Geometry rebuild and complete Building tests were already green. The first Materials packet then compared donor/candidate measured `surface_area_m2` using strict serialized float equality:
 
-The failure remains retained. The repair removes only that false cross-side equality assertion. It continues to require exact donor heads/blobs, exact side-local indices, exact 84-vertex domains, fixed UV identity and semantic-key identity for every representative frame. No renderer threshold or source gate was weakened.
+- donor: `140.869599999998`;
+- compact candidate: `140.869599999999`.
 
-Final evidence head:
+That is a difference of approximately `9.95e-13 m²`, far below the exact Geometry verifier's existing `1e-9` measurement tolerance. The failure was therefore a Materials truth-gate representation mistake, not a Geometry or surface defect.
 
-`e9d5c451b16bd05d2419248f58bef911f83dc1e8`.
+The failed run is preserved. The repair changes **only** measured float equality to the same `1e-9` tolerance already used by the Geometry evidence. Exact donor head, mesh budgets, material coverage, source-owner identity, topology reduction, per-owner area gate and render comparison were not weakened.
 
 ## Exact target-host evidence
 
-Dedicated workflow:
+Final dedicated workflow:
 
-**`35166492817 — Materials Animal tangent-space lookdev` — SUCCESS**.
+**`35170518060 — Building material boundary-shell compaction evidence` — SUCCESS**.
 
-- Python 3.11 and 3.13 inherited Animal suites pass;
-- 65 inherited tests pass in the target-host 3.11 lane;
-- Godot project validation passes;
-- renderer: **Godot 4.7.2 GL Compatibility**, Xvfb/X11 in CI;
-- target-host state: **`PASS_TARGET_HOST_TANGENT_SPACE_DIAGNOSTIC_CAPTURED`**;
-- **120 real renders** retained.
+The workflow:
 
-Across all **40 pose/camera comparisons**:
+- checks out Materials exact head `c716655918d1041333187cc9ad12e2186926a00d`;
+- checks out Geometry exact head `43ace6fc44e6f6c0f637cd3436a94099c97c2d48`;
+- runs the complete receiving Building test suite;
+- rebuilds the exact reference boundary shell and exact compaction from source;
+- builds the Materials packet and rejects a negative control with lost `source_component_id` material ownership;
+- renders both representations in **Godot 4.7.2 GL Compatibility** under Xvfb/X11;
+- compares fixed `front_service`, `east_service` and `three_quarter` contexts.
 
-- exact periodic tangent-space probe versus flat control is renderer-visible in **40 / 40**;
-- full-frame changed-pixel fraction: min **2.388166%**, median **2.864439%**, max **3.113715%**;
-- deliberate flipped-handedness mutation versus the exact periodic probe is independently renderer-visible in **40 / 40**;
-- flipped-W changed-pixel fraction: min **2.398438%**, median **2.925203%**, max **3.216869%**.
+Target-host state:
 
-All **12 neutral `0°` cross-weighting controls** are byte-identical across side / camera / shader-mode combinations, preserving the neutral weighting continuity check.
+**`PASS_TARGET_HOST_BUILDING_BOUNDARY_SHELL_COMPACTION_MATERIAL_CONTINUITY_CAPTURED`**
 
-Direct inspection of the retained comparisons shows the tangent-space probe changing the internal surface response rather than deleting the object or producing a whole-form culling failure. The flipped-W negative control produces a visibly distinct shading field, so the target-host evidence path is demonstrably sensitive to tangent handedness rather than silently ignoring it.
+Continuity decision:
 
-This is intentionally a **capture PASS**, not an automated seam-free or aesthetic PASS. The verifier explicitly does not claim that the absence of seam artifacts has been algorithmically proven.
+**`PASS_BOUNDED_EXPLICIT_HARD_NORMAL_MATERIAL_CONTINUITY`**
+
+Exact A/B pixel result in every retained context:
+
+- `front_service`: **0 / 585,000 changed pixels**;
+- `east_service`: **0 / 585,000 changed pixels**;
+- `three_quarter`: **0 / 585,000 changed pixels**;
+- maximum RGB-channel delta: `0` in every context;
+- mean absolute RGB-channel delta: `0` in every context.
+
+The compact representation removes coplanar interior partition triangles from the rendered material groups while retaining the exact visible response under the explicit hard-normal policy:
+
+- frame triangles: `1404 -> 1376`;
+- infill triangles: `104 -> 96`;
+- roof: `676 -> 676`;
+- slab: `676 -> 676`;
+- utility panels: `24 -> 24`.
+
+Direct inspection of the retained renders confirms the same manufactured-surface hierarchy in all three contexts; there is no visible new seam, culling hole, shading wedge or material-family reassignment in the compact version under this policy.
 
 ## Retained artifact
 
 Artifact:
 
-- ID `10475157597`;
-- name `animal-materials-tangent-space-lookdev-e9d5c451b16bd05d2419248f58bef911f83dc1e8`;
-- size `2,521,229 B`;
-- GitHub SHA-256 `00c01a3728002140b85327f826423eead61e3557d66c79299d1e4fcf00c5ba1b`;
+- ID **`10475838560`**;
+- name `building-material-boundary-shell-compaction-c716655918d1041333187cc9ad12e2186926a00d`;
+- size **`415,104 B`**;
+- GitHub SHA-256 **`3206ccd6c873e85837a1a38860e33c10c59e4fafd7078ff49bbda837445633d7`**;
 - independently downloaded and rehashed to the exact same digest;
-- retained payload, target-host telemetry, verifier receipt, provenance notes and 120 PNG renders.
+- retains the unchanged material profile, exact source-pinned payload, build receipt, target-host runtime receipt and six PNG renders.
 
-## Material / shading learning
+## Material / lookdev learning
 
-A new receiving-side distinction is now evidenced in the Animal domain:
+The bounded Building result supports one useful domain-local principle:
 
-> **A structurally valid tangent frame is not yet a visual tangent-space proof; a useful receiving diagnostic must also prove that the target renderer responds to the exact tangent basis and can detect handedness corruption.**
+> **Topology compaction does not need a material retune when the receiving contract keeps source-owner material identity and an explicit hard planar normal policy; under that contract, this exact coplanar retriangulation is visually invariant in the tested target host and contexts.**
 
-Geometry #20 and Rigging #22 already proved the vectors and reflection rules structurally. Materials now proves those exact attributes reach a real tangent-space shader across representative deformation and that deliberately corrupting W produces a measurable and visible change in every retained context.
+This is stronger than assuming equal solid geometry implies equal shading, but narrower than saying all normal generation is safe. Vertex-smooth generated normals were intentionally **not** tested or accepted here. UVs and textures are also absent, so no tangent-space or texel continuity claim transfers from this pass.
 
-That closes a genuine observer gap without changing the source basis. It does **not** imply that this procedural field is a production texture, that seams are final, or that transport through GLB / engine skinning reproduces the same tangent space.
-
-No UC / Profession Fabric extraction is justified yet. The reusable procedure — flat control + periodic diagnostic + deliberate handedness mutation on exact source-pinned render attributes — is promising, but it should be reproduced in materially different domains before becoming generic capability fabric.
+Do not promote this Building-specific normal rule into Universal Creation or Profession Fabric yet. The reusable procedure — source-owner material rebind + representation A/B + explicit normal-policy declaration + real multi-context target-host comparison — is already repeated evidence discipline, but the actual hard-normal policy remains manufactured-surface/domain-specific until materially different assets justify broader abstraction.
 
 ## Scoped Materials result
 
-**`PASS_ANIMAL_DEFORMED_TANGENT_SPACE_TARGET_HOST_DIAGNOSTIC_CAPTURED`**
-
-with decision:
-
-**`HOLD_FINAL_ANIMAL_SEAM_HANDEDNESS_TEXTURE_TRANSPORT_ART_QA_ACCEPTANCE`**
+**`PASS_BUILDING_BOUNDARY_SHELL_COMPACTION_EXPLICIT_HARD_NORMAL_MATERIAL_CONTINUITY`**
 
 Exact meaning:
 
-> The current Geometry #20 / Rigging #22 tangent chain is now proven to produce a real, deformation-aware tangent-space shading response in Godot 4.7.2 GL Compatibility, and the evidence harness detects deliberate tangent-handedness corruption. Do not yet call the Animal surface seam-free, texture-ready, transport-equivalent or aesthetically accepted.
+> The existing Building five-surface family binds fail-closed to all 19 source owners on both the exact Geometry reference and compact boundary-shell representations, and the compact representation is pixel-identical to the reference across three fixed Godot 4.7.2 GL Compatibility contexts when both use explicit per-triangle planar hard normals. No material retune is justified by this compaction under that receiving policy.
 
 ## Handoffs completed
 
-### Materials PR #24
+### Building Materials PR #3
 
-Comment `5706554782` records exact workflow, 120-render evidence set, 40/40 exact-probe signal, 40/40 handedness-mutation signal, 12 neutral byte-identical controls, artifact digest and the retained first-run observer repair.
+Comment `5707016244` records the exact donor, successful workflow, 0-pixel three-context result, retained first-run float-gate failure/repair, artifact digest and held boundaries.
 
-### Geometry PR #20
+### Building Geometry PR #8
 
-Comment `5706555876` returns the target-host receiving result without taking UV/tangent ownership or promoting structural UVs to final texture UVs.
+Comment `5707018538` returns the target-host receiving result without taking topology ownership or requesting adoption. Geometry's structural compaction remains Geometry-owned.
 
-### Rigging PR #22
+### Hard Surface
 
-Comment `5706557015` returns the shaded receiving result without converting structural deformation evidence into production skin-tangent transport or continuous-motion visual acceptance.
+Hard Surface PR #7 remains source / receiving-policy authority. Materials evidence does not silently replace `header-segmented-23` with the compact shell and does not convert a receiving candidate into semantic source authority.
 
-### Art Direction / Visual QA
+### Environment / Visual QA / Art Direction
 
-Their requested tangent-space receiving dependency is now available as exact retained evidence. Final seam, handedness appearance and aesthetic acceptance remain theirs; Materials does not self-approve them.
+The exact compact-shell material continuity evidence is now available, but current-world adoption and final scene-level appearance remain separate owner decisions.
 
-### Technical Art / Runtime
+### Runtime / Technical Art
 
-No production GLB tangent transport, deformed importer equivalence, engine skinning equivalence, target-device frame time, GPU cost, memory or shader acceptance transfers from this pass.
+The Materials result does not certify real payload, draw-call, memory, GPU or target-device savings. Technical Art still must prove any transported mesh preserves source-owner/material and normal semantics. Runtime separately owns whether the small `18v / 36t` reduction is operationally worthwhile.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a final Animal normal map or production material;
-- final UV island layout, packing or texel density;
-- automated proof that every UV seam is visually invisible;
-- final tangent-handedness aesthetic acceptance;
-- production skin-normal/tangent transport;
-- Technical-Art GLB / target-engine import equivalence;
-- continuous-motion appearance between retained poses;
+- vertex-smooth generated-normal neutrality;
+- final imported normals/tangents;
+- UV unwrap, atlas, texel density or texture continuity;
+- normal maps, decals, weathering or measured coating response;
+- Environment / Map adoption of the compact shell;
+- Technical-Art transport equivalence;
+- Runtime CPU/GPU/FPS/VRAM/draw-call acceptance;
+- arbitrary renderer, HDR, camera or lighting equivalence;
 - final Art Direction / Visual-QA acceptance;
-- fur, skin, subsurface, decal, wear or production PBR quality;
-- arbitrary renderer, camera, lighting, HDR or display equivalence;
-- target-device CPU/GPU/FPS/VRAM/memory acceptance;
-- Animation clip / playback acceptance;
+- source replacement or Hard-Surface adoption;
+- globally minimal topology;
 - CANON;
 - production/game readiness;
 - Materials mastery.
 
 ## Four-root gate
 
-- **Truth:** the exact tangent-space response and handedness sensitivity are measured in every retained context, while seam-free/final appearance remains explicitly unclaimed; the failed first run is retained with its precise observer mistake.
-- **Agency / non-domination:** Geometry owns UV/tangent structure, Rigging owns deformation, Materials owns receiving lookdev evidence, Technical Art owns transport, Runtime owns cost, and Art Direction / Visual QA retain final visual authority.
-- **Continuity:** exact donor heads/blobs, side-local semantic identity, failed evidence, repaired evidence and previous normal-only Materials results remain separately traceable and rollback-safe.
-- **Wisdom before speed:** close the missing real-render receiving gate with a diagnostic surface and deliberate negative control rather than inventing production textures or retuning PBR values before the chain is transport- and visually accepted.
+- **Truth:** exact donor head, source-owner coverage, topology counts, retained failed gate and real target-host pixel comparisons are recorded; smooth-normal / UV / runtime / final-art claims remain explicitly held.
+- **Agency / non-domination:** Geometry owns topology, Hard Surface owns source/receiving policy, Materials owns surface/normal receiving evidence, Environment owns scene adoption, Technical Art owns transport, Runtime owns cost, and Art Direction / Visual QA retain final visual authority.
+- **Continuity:** the existing Building Materials PR is advanced rather than duplicated; the prior 19-box / 23-box / topology evidence remains historically traceable, and no source representation is silently relabelled.
+- **Wisdom before speed:** a real receiving/shading dependency is closed before adding textures or retuning materials, and the first false strict-float failure is repaired narrowly instead of weakening the evidence gate.
 
 ## Next Materials pass
 
-Re-scan the full constellation first. Do not keep escalating this Animal diagnostic unless Visual QA / Art Direction identifies a specific seam, handedness or tangent-space defect from the retained renders, or Technical Art lands an exact receiving-engine transport that needs A/B visual verification. Otherwise choose a fresh bounded material / UV / texture / shader / surface-family gap elsewhere rather than extending this lane by inertia.
+Re-scan the full constellation first. Do not keep extending Building compaction by inertia. Continue only if Environment / Visual QA / Art Direction requests a specific compact-shell appearance check, Technical Art lands a transported receiving representation needing visual verification, or a real UV/texture dependency becomes source-ready. Otherwise select the strongest fresh material / UV / texture / shader / surface-family gap elsewhere.
