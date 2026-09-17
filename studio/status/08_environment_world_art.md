@@ -1,50 +1,86 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / PASS_CURRENT_WORLD_BUILDING_CURRENT_SOURCE_POLICY_REBIND_TARGET_HOST_REACHED / NO RENDERED WORLD CHANGE / NATURE ART-QA + FOOTPRINT INDEX + BOUNDARY-SHELL ADOPTION + TARGET-DEVICE PERF HELD**
+State: **ACTIVE / CURRENT_WORLD_NATURE_LEAF_FLUTTER_RECEIVER_IMPLEMENTED / EXACT GODOT GATE QUEUED / NO NEW PASS CLAIMED / ART-QA NATURALNESS + CONTINUOUS TIMING + TARGET-DEVICE PERF HELD**
 
 ## Authority / continuity
 
-`axm-create-me` remains **coordination only**. Implementation and retained evidence stay in the existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment lane was opened.
+`axm-create-me` remains **coordination only**. Product implementation and target-host evidence stay in the existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment lane was opened.
 
-Map owns receiving composition. Building Hard Surface retains source/current-policy authority. Nature Geometry/VFX, Object, Object Materials and Weather/VFX retain their own source/material/presentation authority. Technical Art owns the separate Building receiving/transport lane in Map PR #27. Runtime owns optimization and target-device acceptance. Art Direction owns visual-direction preference; Visual Observer / QA retains independent visual acceptance.
+Map / Environment owns receiving composition only. Nature VFX owns the bounded flutter source. Nature Geometry retains topology authority. Nature Materials owns material/shaded-response evidence. Building, Object and Weather retain their own source/presentation authority. Art Direction owns visual preference; Visual Observer / QA owns independent perceptual verification; Runtime owns timing/cost and target-device acceptance.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation scan / lane choice
 
-The current full-studio scan did not justify a new Environment art lane:
+The current scan materially changed the best Environment target from the previous Building continuity work to Nature current-world motion receiving:
 
-- **Map:** existing Environment PR #24 remains OPEN / DRAFT / MERGEABLE and already contains the newest integrated Building + Nature + Object + Weather world.
-- **Building:** Hard Surface PR #2 now explicitly names `header-segmented-23` as current source while retaining `base-closed-outward-19` as historical compatibility. A newer Hard Surface PR #7 separately exposes a `boundary-only-union-shell-001` receiving candidate; its consumer migration is explicitly opt-in.
-- **Technical Art:** Map PR #27 already owns the Building receiving/transport interface side. Environment therefore did not open a competing boundary-shell migration.
-- **Nature / VFX:** the previous Environment pass already brought the migrated Nature winding lineage and rebound sapling response into the current world. Current VFX work is extending Nature direct-source wind phases and explicitly holds Map receiving/perceptual acceptance.
-- **Objects:** the indexed five-surface west Object plus the preferred visible footprint cue remain in the current world. Runtime PR #34's tiny footprint-index representation tradeoff remains visually held rather than silently adopted.
-- **Weather:** current source-width Weather and its 17-state sequence remain established; no new Weather-authoring gap outranked the unfinished Building policy handoff.
-- **Materials / Art / QA / Runtime:** current leading work is primarily Animal-side. Building/Nature/Object visual decisions remain held to their existing owners rather than being pulled into Environment.
+- **Map:** Environment PR #24 remains **OPEN / DRAFT / MERGEABLE**. Its latest accepted receiving baseline before this activation is exact head `10c6e29790b0b53b20abd603738cb54671af013c`, containing Building current-source policy, indexed five-surface west Object, visible footprint cue, current Nature material family/winding, source-width Weather, route/cameras/lighting and the split Nature culling receiver.
+- **Art Direction:** current direction explicitly prefers the source-geometry-preserving receiver `woody=CULL_BACK / foliage=CULL_DISABLED` at `10c6e297...` and lists current-world Nature flutter as a next gate once exact evidence exists. It does not request duplicated leaf geometry, brightness or scalar-material retuning merely for sidedness.
+- **Visual QA:** independently passed the exact split-culling current-world integration over all 68 retained parent/candidate frames and handed motion/final-look preference forward rather than silently accepting flutter.
+- **Nature VFX:** existing PR #11 exact head `ecade64227ba1d3d1faf029ca7188ea63c2560ec` now owns a source-ready bounded deterministic leaf-local flutter candidate with 17 source phases, exact neutral start/return, max observed added leaf displacement `0.006920423273762265 m` under the `0.0085 m` cap, zero non-leaf delta, and isolated real-Godot visibility. That VFX status explicitly holds Map/current-world receiving equivalence.
+- **Nature Materials:** current head `0b947868228dde70666a12f2e8f57037cbf7b26f` independently found no evidence-based reason to add a manual `FRONT_FACING` normal-negation shader; the preferred current StandardMaterial-style two-sided foliage receiver remains the stronger bounded shaded reference. Environment therefore does not add shader/material compensation while receiving flutter.
+- **Building:** Geometry/Hard-Surface now have a newer compact boundary-shell v2 path, but Hard Surface has correctly placed it behind an exact owner gate and explicitly says Environment must not adopt it until downstream receiving/transport evidence is stable. That lane is therefore not duplicated here.
+- **Object / Weather / Runtime:** existing indexed Object + footprint cue and source-width Weather remain fixed. Runtime's current leading work is Animal-side; no target-device Nature timing/performance acceptance exists to inherit.
 
-The highest-leverage bounded action was therefore to **finish the already-open Building current-source policy rebind on PR #24**, because the first exact implementation existed but had never reached valid target-host evidence. Starting the new Building boundary-shell candidate in parallel would have duplicated Technical Art ownership and skipped an unfinished continuity gate.
+The highest-leverage non-duplicated Environment action is therefore to **receive the exact bounded Nature VFX flutter source into the current Art/QA-preferred multi-asset world**, proving or disproving downstream composition without taking VFX, Geometry, Materials, Art, QA or Runtime authority.
 
 ## Preserved current-world parent
 
-Exact current-world parent remains the previous Nature-migrated Environment head:
+Exact parent Environment head:
 
-`dc9911714365393d3f33038ef8bfda9e057a37e5`
+**`10c6e29790b0b53b20abd603738cb54671af013c`**
 
-Parent composition digest:
+Parent dedicated workflow:
 
-`50e3c3f10911514fe00a2431cc4c265e6539672d8e364063112f0b45660a9337`
+`35172522809 — Environment Nature split surface-culling current-world evidence` — SUCCESS.
 
-That parent already contains:
+Parent artifact:
 
-- source-owned segmented Building geometry and accepted five-surface Building materials;
-- indexed five-surface west Object plus visible footprint cue;
-- three current Nature receivers with woody/foliage material family and migrated winding lineage;
-- rebound 17-state sapling response;
-- source-width Weather sequence;
-- route, cameras and lighting.
+- ID `10477476774`;
+- SHA-256 `db67e657dcecb044e7e46b1aeedadc71fcb907c9c3720045f20a753de885f689`;
+- 68 retained current-world Godot frames.
 
-The previous Nature migration remains historical truth: sapling + compact-east required `260 / 260` winding replacements, east-rear already carried migrated lineage and required `0`, all three remained `390 vertices / 570 triangles`, and receiver placement residual was bounded to `8.881784197001252e-16 m`. Art Direction / Visual QA acceptance of the real Nature shading/culling delta remains held.
+The parent preserves exact current `390v / 570t` Nature source geometry and uses:
+
+- woody: `CULL_BACK`;
+- foliage: `CULL_DISABLED`;
+- explicit duplicated leaf-backface geometry adopted: `false`.
+
+Art Direction result on this receiver is `PASS_ART_DIRECTION_CURRENT_WORLD_NATURE_SPLIT_SURFACE_CULLING_PREFERENCE_017`; Visual QA independently returned `PASS_CURRENT_WORLD_NATURE_SPLIT_SURFACE_CULLING_VISUAL_INTEGRATION_GATE` and `PASS_CURRENT_WORLD_NATURE_FOLIAGE_BACKFACE_RECOVERY_NO_SAMPLED_VISUAL_REGRESSION`.
+
+## Exact incoming VFX source
+
+Repository: `mike-axiom-mir/axm-nature-design`
+
+Existing draft PR #11:
+
+`VFX: rebind sapling wind response to migrated Nature topology`
+
+Exact VFX head:
+
+**`ecade64227ba1d3d1faf029ca7188ea63c2560ec`**
+
+Scoped source result:
+
+**`PASS_BOUNDED_DETERMINISTIC_LEAF_FLUTTER_SOURCE_CANDIDATE`**
+
+Scoped isolated Godot result:
+
+**`PASS_BOUNDED_DETERMINISTIC_LEAF_FLUTTER_GODOT_VISUAL_CANDIDATE`**
+
+Relevant source facts retained by the Environment consumer:
+
+- 17 exact source phases over the inherited `0.50 s` visual-response window;
+- 25 authored leaf blades;
+- exact neutral identity at source phases `0` and `16`;
+- every interior source phase distinct from no-flutter baseline;
+- max observed local twist `4.994808359469084°` under `5.0°`;
+- max observed added leaf-side displacement `0.006920423273762265 m` under `0.0085 m`;
+- max non-leaf added displacement `0.0 m`;
+- no claim of physical wind, naturalness, continuous playback timing, current-world acceptance or target-device performance.
+
+The VFX candidate uses Geometry PR #10 head `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f` as an explicit-backface review context. Those payloads are `490v / 620t`, but their exact current source-front domain is still the first `390v / 570t` geometry. Environment uses only that source-front domain and does **not** adopt the derived explicit-backface representation.
 
 ## Selected bounded Environment improvement
 
@@ -56,161 +92,101 @@ Branch:
 
 `studio/environment-weather-variant-object-convergence-001`
 
-Exact successful Environment head:
+Exact implementation head:
 
-**`b0fa28733d77cad79d78f29e7ef76ccb9ab0b399`**
+**`7713cbe5863c3bc38dabb6236eb4b393401224b6`**
 
-Bound Building source-policy owner:
+Added:
 
-**`a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`**
+- `tools/environment_nature_leaf_flutter_current_world.py`;
+- `environment-proof/atmosphere_current_world_nature_leaf_flutter_observe.gd`;
+- `docs/ENVIRONMENT_NATURE_LEAF_FLUTTER_CURRENT_WORLD_001.md`;
+- `.github/workflows/environment-nature-leaf-flutter-current-world.yml`.
 
-Policy schema:
+### Receiving contract
 
-`axm.building-current-emission-policy/v0.1`
+For each of the exact 17 current-world states, the Environment builder:
 
-Current source:
+1. rebuilds the exact VFX flutter donor and binds exact VFX/Geometry context heads;
+2. strips donor review payloads back to the first `390` source vertices / `570` source triangles;
+3. verifies the current-world sapling equals the exact no-flutter VFX front mesh plus its already-authored stable Map world translation, residual gate `<= 1e-12 m`;
+4. derives the existing foliage vertex domain from the already-received woody/foliage material partition;
+5. requires every flutter-changed source-front vertex to remain inside that foliage domain;
+6. requires source phases `0` and `16` to remain exact no-flutter identity and every one of the 15 interior source phases to remain nonzero;
+7. preserves exact `woody=CULL_BACK / foliage=CULL_DISABLED` receiving policy and does not adopt explicit duplicated leaf geometry;
+8. keeps Building, indexed Object, visible Object footprint cue, static Nature, Weather, route, cameras and lighting fixed;
+9. preserves the donor's `0.0085 m` maximum added vertex displacement cap rather than inventing a new amplitude threshold.
 
-`header-segmented-23`
+The Godot receiver subclasses the already-proven split-culling current-world observer. It therefore changes only the dynamic sapling source-front vertices while retaining the accepted material/culling composition.
 
-Legacy compatibility:
-
-`base-closed-outward-19`
-
-Selection policy remains explicit: consumer rebind is required and no silent default rewrite is allowed.
-
-Environment changes only the current-world receiving/provenance contract. It does **not** change Building geometry, material values, Nature, Object, footprint cue, Weather, route, cameras or lighting.
-
-## Retained first failure — verifier schema assumption
-
-The first exact policy-rebind implementation head was:
-
-`98a790b0081db38a11c7b1925dae384ca337da57`
-
-Dedicated workflow:
-
-**`35163208073 — Environment Building current-source policy rebind evidence` — FAILURE**
-
-The Building policy donor itself rebuilt and passed, including:
-
-- current `23 boxes / 184 vertices / 276 triangles / 0 positive-volume intersections`;
-- legacy `19 boxes / 152 vertices / 228 triangles / 4 positive-volume intersections`;
-- equal occupied union `9.49832 m³`;
-- unchanged bounds and receiver IDs;
-- receiver mount residual `0.0 m`.
-
-The failure was in Environment's new validator. It incorrectly expected a top-level `environment_building_material_receiving.triangles` array. The established segmented Map receiver correctly stores the exact 276 triangles **inside its five material-surface partitions**.
-
-This is retained as a real verifier/schema-assumption failure, not rewritten as a source regression and not used as acceptance evidence.
-
-## Minimal repair
-
-Exact repair commit/head:
-
-**`b0fa28733d77cad79d78f29e7ef76ccb9ab0b399`**
-
-Commit:
-
-`Environment: validate segmented Building receiver by surface partitions`
-
-The repair changes only receiver validation. It now requires:
-
-- exact 184 receiver vertices;
-- exact surface order: `frame_galvanized`, `infill_coating`, `roof_membrane`, `slab_mineral`, `utility_panel_ochre`;
-- exactly 276 triangles after flattening those five surface partitions;
-- every triangle to contain three valid integer indices in the 184-vertex domain;
-- exact `building_header_segmentation_revision` provenance;
-- exact nested source rebind topology summary `23 objects / 184 vertices / 276 triangles`.
-
-No source geometry, material scalar, placement, scene state, visual threshold or authority boundary was changed to obtain the PASS.
-
-## Exact target-host PASS
+## Exact evidence gate — currently queued
 
 Dedicated workflow:
 
-**`35167196419 — Environment Building current-source policy rebind evidence` — SUCCESS**
+**`35174899697 — Environment Nature leaf flutter current-world evidence`**
 
-Scoped structural result:
+Exact head:
 
-**`PASS_CURRENT_WORLD_BUILDING_CURRENT_SOURCE_POLICY_REBIND_STRUCTURE`**
+**`7713cbe5863c3bc38dabb6236eb4b393401224b6`**
 
-Scoped target-host result:
+Current observed state:
 
-**`PASS_CURRENT_WORLD_BUILDING_CURRENT_SOURCE_POLICY_REBIND_TARGET_HOST_REACHED`**
+**QUEUED**.
 
-Composition digest:
+Therefore this activation makes **no new PASS claim** yet.
 
-**`6a7c4fa18d24d739b879d0fa8ecf76eb9ec8103ada0e771b65d401afe375adfb`**
+The exact gate is designed to require:
 
-Decision:
+- the exact parent split-culling current-world artifact from workflow `35172522809`;
+- exact rebuild of VFX PR #11 source flutter and Geometry PR #10 context;
+- structural source-front-only receiving checks above;
+- real Godot `4.7.2` GL Compatibility rendering;
+- all `68` matched current-world frames compared (`17 states × 2 cameras × thin-line/source-width Weather`);
+- all `8` rendered neutral-endpoint frames (`state 0` + `state 16`, both cameras and both Weather presentations) byte-identical to the accepted parent;
+- renderer-visible interior flutter in both fixed current-world cameras;
+- all `1,224` inherited Weather projected-width observations preserved under the existing `0.05 px` residual gate;
+- zero proof-host draw/object/primitive/buffer/texture counter delta.
 
-**`ADOPT_EXPLICIT_BUILDING_CURRENT_SOURCE_POLICY_BINDING__NO_RENDERED_WORLD_CHANGE`**
-
-Godot target host remains **Godot 4.7.2 GL Compatibility**.
-
-The exact multi-asset receiving proof establishes:
-
-- `68 / 68` matched real-scene frames are **byte-identical** to the exact Nature-migrated parent;
-- all `1,224` inherited Weather projected-width measurements remain valid;
-- maximum Weather-width residual remains **`0.00974698571769128 px`** against the inherited `0.05 px` gate;
-- proof-host deltas are exactly `0 draw calls / 0 objects / 0 primitives / 0 B observed buffer / 0 B observed texture`;
-- current Building policy head, current variant and legacy compatibility identity are explicitly present in the retained report;
-- historical Building producer provenance is preserved rather than silently relabelled.
-
-This is a source-integrity / receiving-policy improvement with intentionally **no visible world change**.
-
-## Retained evidence
-
-Artifact:
-
-- ID: **`10474474259`**;
-- name: `environment-building-current-source-policy-rebind-001-b0fa28733d77cad79d78f29e7ef76ccb9ab0b399`;
-- final size: **`6,957,510 B`**;
-- GitHub archive SHA-256: **`08347ca601af63cdbfd6d421ac86ffbaad110ef1e556c4e961de1b96d7772bf3`**;
-- independently downloaded and rehashed to the exact same SHA-256;
-- retained exact head: `b0fa28733d77cad79d78f29e7ef76ccb9ab0b399`.
-
-The archive retains the exact rebuilt Building policy receipt, combined current-world payload, Godot runtime receipt, all 68 candidate frames and the final Environment report.
-
-## Historical inherited workflow failure remains separate
-
-At the same new PR #24 head, old workflow `35167196275 — Environment current-world Building header segmentation evidence` still fails its already-disproved strict gate `no_rgb_delta_above_one_lsb_in_any_pair`.
-
-Its structural Building checks pass and it still reaches Godot; the failure is the historical strict pixel-neutrality assumption for the segmentation change. The later bounded-continuity review remains the correct evidence surface for that earlier migration. This inherited failure is not caused by the new policy rebind and is not reclassified as a new regression.
+If the exact workflow fails, the failure must remain visible and only the evidenced cause may be repaired. The VFX donor's isolated PASS does not transfer automatically.
 
 ## Handoffs / non-overlap
 
-- **Map PR #24:** comment `5706633530` records exact successful policy rebind, retained first failure, artifact, zero visual/runtime delta and held boundaries.
-- **Building Hard Surface PR #2:** comment `5706634931` returns downstream proof that its explicit current-source policy reaches the newest current world while source authority remains in Building.
-- **Map Technical Art PR #27:** comment `5706636352` records the non-overlap boundary: Environment has **not** adopted the newer `boundary-only-union-shell-001`; PR #27 remains the correct receiving/transport owner for that candidate.
-- **Art Direction + Visual QA:** Nature receiver visual preference and Runtime PR #34's one-pixel/one-LSB footprint-index tradeoff remain held.
-- **Runtime:** zero proof-host counter/memory delta is characterization only; target-device CPU/GPU/FPS/VRAM/heap/thermal/battery acceptance remains held.
-- **UC / Profession Fabric / Capability Cartography:** unchanged. One Building-specific receiving-policy proof does not justify generalized extraction.
+- **Map PR #24:** comment `5707607432` records exact implementation head, bounded receiving contract, queued workflow identity and explicit no-PASS boundary.
+- **Nature VFX PR #11:** comment `5707608578` records the downstream receiving implementation while preserving VFX source ownership and holding naturalness/final-look/timing/performance.
+- **Art Direction + Visual QA:** no flutter preference is claimed. If exact current-world rendering succeeds, the retained changed pixels become their next review surface on top of Direction 017.
+- **Nature Materials:** keep current scalar family and StandardMaterial-style two-sided foliage reference fixed. The latest shaded diagnostic specifically rejects adding a manual front-facing normal flip by default, so Environment adds none.
+- **Nature Geometry:** explicit `490v / 620t` duplicated-backface geometry remains a separate transport/reference option and is not adopted here.
+- **Building / Technical Art:** compact boundary-shell v2 remains outside this Environment pass; no receiving migration is started while that owner chain is unsettled.
+- **Runtime:** phase spacing is source evaluation only. Continuous wall-clock timing, interpolation and target-device CPU/GPU/FPS/VRAM/thermal/battery behavior remain unmeasured here.
+- **UC / Profession Fabric / Capability Cartography:** unchanged. One Nature-specific receiving composition does not justify extraction or profession promotion.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final Building, Nature, Object or Weather visual acceptance;
-- adoption of Building PR #7's boundary-only derived shell;
-- adoption of Runtime PR #34's indexed footprint cue;
-- final Nature leaf sidedness, normals, tangents, UVs, textures or botanical correctness;
-- arbitrary-camera/FOV/resolution/renderer/display equivalence;
+- a new Environment target-host PASS before workflow `35174899697` completes green;
+- natural or aesthetically preferable flutter;
+- final Nature shaded look, translucency, transmission, textures, normals, tangents, UVs or botanical correctness;
+- adoption of Geometry PR #10 explicit duplicated leaf-backface geometry;
+- physical wind or plant biomechanics;
+- continuous interpolation or wall-clock playback timing;
+- arbitrary camera/FOV/resolution/renderer/display equivalence;
 - target-device FPS, CPU, GPU, VRAM, heap, thermal, battery or production performance;
-- collision, navigation, physics, interaction or gameplay behavior;
-- architectural, structural, sealing or manufacturing validity;
+- collision, navigation, interaction or gameplay behavior;
+- adoption of Building compact boundary shell v2;
 - CANON;
 - production/game readiness;
 - Environment mastery.
 
 ## Four-root gate
 
-- **Truth:** the first verifier failure, actual receiver schema, exact repaired head, byte-identical frame result, inherited historical strict-pixel failure and downstream holds remain separately visible.
-- **Agency / non-domination:** Environment binds a source-owner policy but does not take Building source authority, Technical Art representation authority, Runtime acceptance or Art/QA preference.
-- **Continuity:** current 23-box semantic source, legacy 19-box compatibility, previous Nature-migrated world, failed policy-rebind head, repaired successful head and retained artifact remain distinct rollback/provenance points.
-- **Wisdom before speed:** Environment completed an unfinished exact continuity gate instead of starting a duplicate boundary-shell lane or bundling unrelated visual/runtime decisions.
+- **Truth:** the parent Art/QA PASS, isolated VFX PASS, new Environment implementation and still-queued exact current-world gate remain four separate facts. No queued workflow is reported as green.
+- **Agency / non-domination:** Environment owns only downstream scene receiving. VFX retains motion-source authority; Geometry retains topology; Materials retains shaded-response evidence; Art/QA retain preference; Runtime retains timing/performance.
+- **Continuity:** exact parent head/artifact, exact VFX donor head, Geometry context identity and new Environment implementation head remain separate rollback/provenance points. The existing PR #24 lane is advanced rather than replaced.
+- **Wisdom before speed:** receive the smallest already-proven leaf-local source delta into the accepted world without bundling explicit backface geometry, shader retuning, Building compaction or runtime timing assumptions.
 
 The four AXM roots remain the merge gate.
 
 ## Next Environment pass
 
-Re-scan the full constellation first. Do not automatically continue Building. Prefer the next exact downstream handoff that is both source-ready and not already owned by Technical Art / Runtime / Art Direction / Visual QA. In particular, the Building boundary-only shell must not enter Environment until its separate receiving/transport owner returns a stable exact candidate requiring real-world composition evidence.
+First inspect workflow `35174899697` at exact head `7713cbe5863c3bc38dabb6236eb4b393401224b6` before any new product mutation. If it succeeds, record exact report/artifact measurements and hand the current-world A/B to Art Direction / Visual QA without auto-accepting motion quality. If it fails, preserve the failure and repair only the demonstrated receiving defect. Do not open another Nature or Building Environment lane while this exact gate is unresolved.
