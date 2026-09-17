@@ -1,7 +1,7 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **BUILDING PLANAR-ROLE RENDER RECEIVER CANDIDATE / PR #11 OPEN / EXACT HEAD 93F22E4E / FIRST EXACT OWNER RUN FAILED ON FLOAT-EQUALITY TEST ONLY / TEST REPAIRED TO EXISTING VERIFIER EPS / REPLACEMENT RUN 35182015688 QUEUED — NO PASS CLAIM / DOWNSTREAM ADOPTION HELD / UC + PROFESSION FABRIC UNCHANGED**
+State: **BUILDING PLANAR-ROLE RENDER RECEIVER STRUCTURAL PASS / PR #11 OPEN DRAFT / EXACT HEAD 93F22E4E / OWNER CI GREEN PYTHON 3.11 + 3.13 / PRIOR FAILED RUN RETAINED / NON-DEFAULT RENDER OPTION ONLY / ENVIRONMENT + ART-QA + RUNTIME REBIND REQUIRED / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
@@ -11,9 +11,9 @@ Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`,
 
 ## Evidence-directed selection
 
-No stronger grounded manufactured-source defect appeared in Weapon, Armor, Unit or Misc. Object already has dense active latch / hinge / bore / lid Hard-Surface chains, so extending Object again would duplicate occupied work. Character / Animal / Nature / Weather are currently led by other specialists. Map is downstream receiving/composition/runtime authority.
+No stronger grounded manufactured-source defect appeared in Weapon, Armor, Unit or Misc. Object already has dense active latch / hinge / bore / lid Hard-Surface chains, so extending Object again would duplicate occupied work. Character / Animal / Nature / Weather are currently led by other specialists. Map remains downstream receiving/composition/runtime authority.
 
-Building exposes the strongest fresh cross-owner gap:
+Building exposed the strongest fresh cross-owner trade:
 
 - active current-world segmented receiver: `184v / 276t / 5 surfaces`;
 - compact-v2 review receiver: `1004v / 2052t / 5 surfaces`;
@@ -21,7 +21,7 @@ Building exposes the strongest fresh cross-owner gap:
 - Runtime measures compact-v2 against the actual active segmented receiver at `+106,560 B` proof-host buffer memory and `+5,328` primitives, with draw/object/texture counters unchanged;
 - fixed current-world images differ materially, so compact-v2 remains held rather than continuity-equivalent.
 
-The bounded Hard-Surface target is therefore to test whether the cleaner boundary-only manufactured surface language can be represented without silently making compact-v2 the render payload or paying its exact current-world cost by default.
+The bounded Hard-Surface target was therefore to test whether the cleaner boundary-only manufactured surface language could be represented without silently making compact-v2 the render payload or paying its exact current-world cost by default.
 
 ## Bounded implementation — Building PR #11
 
@@ -31,7 +31,7 @@ Draft PR #11:
 
 **`Hard Surface: derive planar-role render receiver from current union boundary`**
 
-Current exact head:
+Exact tested head:
 
 **`93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`**
 
@@ -52,71 +52,140 @@ Representation class:
 Authority stays separated:
 
 1. `header-segmented-23` remains semantic source.
-2. Geometry's exact occupied-union shell is consumed only as a geometric surface-coverage oracle.
+2. Geometry's exact occupied-union shell remains only a geometric surface-coverage oracle.
 3. The exact current five-role Materials partition is consumed, not owned, pinned to Building Materials PR #3 head `4179aa1401f5a9114399e2f998c96809d4b8ed2e`, profile `lookdev/building_material_profile_001.json`, Git blob `f7945f4c17b7720f176c1b0ac4e1baa298691b25`. No scalar material values are copied or retuned.
 4. Atomic exposed boundary cells may merge only when they share face-connected solid, consumed material role, cardinal axis/sign and exact plane.
 5. Every rectangle retains contributor `source_component_id` and source-box sets and emits exact outward cardinal hard normals.
-6. Selection is explicit / non-default / no implicit fallback.
+6. Selection remains explicit / non-default / no implicit fallback.
 7. The representation is render-only; no indexed-manifold, collision, navigation, manufacturing or transport role is claimed.
 
-## Structural verifier
+## Exact structural result
 
-The exact-head verifier requires the exact `23`-box / `276`-triangle semantic source, exact occupied-union boundary, all 19 pinned Materials source owners and five material roles, zero dropped/duplicated atomic faces, exact occupied-union volume/bounds, preserved total/per-role exposed area, contributor provenance, cardinal outward normals, and candidate triangle count below compact-v2's `2052` triangles. Negative controls reject dropped coverage, role drift and contributor-provenance loss.
+Dedicated owner workflow:
 
-The reported Map-style triangle-corner position+normal byte model is preflight only; Runtime owns actual engine/device measurement.
+**`35182015688 — Hard-surface Building planar-role render receiver evidence`**
 
-## Exact failed run retained
+Result: **SUCCESS** on Python 3.11 and Python 3.13.
 
-Dedicated owner run:
+Both jobs compiled the receiver code, ran the complete Building test suite, rebuilt exact-head evidence and passed the truth gate. Python 3.11 retained the exact artifact.
 
-**`35181675585`**
+Scoped result:
 
-Exact head:
+`PASS_STRUCTURAL_PLANAR_ROLE_RECTANGLE_RENDER_RECEIVER_CANDIDATE`
 
-`123ffcbaa523069baf1d392a8da25f815915f302`
+Exact candidate facts:
 
-Result: **FAILURE** on both Python 3.11 and 3.13.
+- `168` render rectangles;
+- `672` vertices;
+- `336` triangles;
+- `1442` exact atomic boundary faces covered;
+- `0` dropped / overlapping atomic faces;
+- exact signed occupied-union volume `9.49832 m³`;
+- exact source bounds `[-3.8, -1.12, 0.0]` to `[3.92, 1.0, 3.4]`;
+- exposed area `140.8696 m²`;
+- all `19` pinned source owners retained;
+- all `5` consumed material roles retained;
+- exact outward cardinal hard normals;
+- contributor source-component and source-box provenance retained per rectangle.
 
-The code compiled. Existing Building tests passed. The new candidate's structural-result, compact-v2-size, provenance, negative-control and non-default/render-only tests passed. One new test failed because it used raw float equality for two numerically equivalent surface-area values:
+Per-role exposed areas remain:
 
-- candidate: `140.8696 m²`;
-- boundary oracle: `140.869599999998 m²`;
-- difference: approximately `2e-12 m²`.
+- `frame_galvanized`: `30.2776 m²`;
+- `infill_coating`: `35.32 m²`;
+- `roof_membrane`: `33.92 m²`;
+- `slab_mineral`: `33.92 m²`;
+- `utility_panel_ochre`: `7.432 m²`.
 
-Because the full suite failed, the exact evidence build, truth gate and artifact retention correctly did not run. No PASS was claimed.
+The candidate is intentionally not the smallest triangle count available:
 
-## Bounded repair
+- active segmented receiver: `276t`;
+- candidate: `336t` (`+60t` versus active);
+- compact-v2: `2052t` (`-1716t` candidate versus compact-v2).
 
-Current head `93f22e4eeb9bb32516d4b11f8d8bcf47d9792910` changes only that test expectation from raw float equality to `assertAlmostEqual(..., delta=EPS)`, using the verifier's existing `EPS = 1e-9` tolerance.
+Bounded Map-style triangle-corner position+normal preflight model:
 
-The structural verifier itself was **not** weakened. Volume/bounds checks, per-role coverage, provenance gates, negative controls, semantic-source identity and adoption boundaries remain unchanged.
+- active segmented: `19,872 B`;
+- candidate: `24,192 B`;
+- compact-v2: `147,744 B`.
 
-Replacement dedicated run:
+This byte model excludes engine allocators, indexing, textures, renderer/device costs and is **not Runtime acceptance**.
 
-**`35182015688`**
+## Retained evidence
 
-Current state at this observation: **QUEUED**.
+Artifact ID:
 
-Therefore there is still **no final structural PASS, final rectangle/vertex/triangle count, retained artifact or digest claim** for PR #11 yet.
+**`10481150262`**
 
-## Reusable pattern under test
+Artifact size:
 
-For axis/cardinal manufactured assemblies, the bounded pattern is:
+`27,411 B`
+
+GitHub SHA-256:
+
+**`78a729eece72e87c0cf6abbb10fcdf7687a2f3355f9abae9baba07df7a42e126`**
+
+The downloaded ZIP was independently rehashed to the same digest.
+
+Candidate payload SHA-256:
+
+`cf086f2446b8f915378007b4402a5e4f83da09ecd05818b890a3e918563f8b12`
+
+Evidence receipt SHA-256:
+
+`4cc9dd926ef042d53099a6e5cf27337a8f2bd70bea49531591eebbfa4f2b2fd8`
+
+## Failed evidence retained honestly
+
+The preceding dedicated run `35181675585` at head `123ffcbaa523069baf1d392a8da25f815915f302` remains **FAILURE** on Python 3.11 and 3.13. It failed only because one test compared two numerically equivalent boundary-area values with raw float equality:
+
+- candidate `140.8696 m²`;
+- boundary oracle `140.869599999998 m²`;
+- difference approximately `2e-12 m²`.
+
+The repair changed only that test to use the verifier's already-existing `EPS = 1e-9` tolerance. The structural verifier, volume/bounds gates, role/owner provenance, negative controls, source identity and adoption boundaries were not weakened.
+
+## Reusable Hard-Surface pattern
+
+The bounded reusable discovery is:
 
 > **semantic assembly → exact occupied-union boundary oracle → render-only same-material coplanar rectangle cover**
 
-If exact evidence becomes green, this may preserve clean manufactured planar surfaces and full contributor provenance without forcing one indexed structural mesh to serve every consumer. It remains Building-local evidence, not a Universal Creation or Profession Fabric contract.
+For axis/cardinal manufactured assemblies, this can preserve exact geometric surface coverage, source/material provenance and hard planar normals without forcing one indexed structural mesh to serve every consumer. This activation provides only one Building-domain proof, so the pattern is **not** promoted to Universal Creation or Profession Fabric.
 
 ## Propagation boundary
 
-The pending identity was returned to Building PR #9, Building Materials PR #3 and Map Environment PR #24 with **no PASS transfer and no adoption request**. Materials retains semantic/scalar authority. Geometry retains indexed topology authority. Environment / Art / Visual QA retain visual/current-world acceptance. Runtime retains actual cost authority. Technical Art retains transport/import authority.
+The green exact identity and counts were returned to:
 
-No consumer has been silently migrated.
+- Building Hard-Surface compact policy PR #9;
+- Building Materials PR #3;
+- Map Environment PR #24;
+- Map Runtime PR #36;
+- Building PR #11 itself, including the retained failed-run history.
+
+No consumer has been silently migrated. Required next evidence remains:
+
+- **Environment + Art / Visual QA:** direct current-world A/B against active segmented and compact-v2 with composition/cameras/material scalars fixed;
+- **Runtime:** actual measurement of this exact `336t` rectangle receiver through the same Map SurfaceTool / ArrayMesh path before any cost/performance claim;
+- **Materials:** confirm the pinned 19-owner five-role partition remains current; no scalar retune is implied;
+- **Geometry:** no indexed topology replacement requested;
+- **Technical Art:** no transport/collision/navigation/manufacturing relabel without a separate contract.
 
 ## Truth boundary / explicit non-claims
 
-This activation establishes a bounded implementation plus one exact failed test run and one repaired exact head awaiting execution. It does **not** establish structural PASS, visual equivalence to compact-v2, Environment adoption, Runtime savings, target-device performance, transport/collision/navigation/manufacturing validity, Materials ownership transfer, UC/PF promotion, CANON, production readiness or Hard-Surface mastery.
+This activation establishes a **structural PASS for one non-default Building-local render receiving candidate** only.
+
+It does **not** establish:
+
+- visual equivalence to compact-v2 or Art Direction acceptance;
+- Environment / Map adoption or replacement of the active segmented receiver;
+- target-device CPU/GPU/FPS/VRAM/heap or renderer-memory improvement;
+- indexed manifoldness;
+- collision, navigation, physics, transport or manufacturing validity;
+- Hard-Surface ownership of Materials semantics or scalar values;
+- semantic replacement of `header-segmented-23`, reference shell or compact-v2;
+- Universal Creation or Profession Fabric promotion;
+- CANON, production/game readiness or Hard-Surface mastery.
 
 ## Next Hard-Surface trigger
 
-Resolve exact PR #11 owner CI first. If green, record exact representation counts/artifact identity and hand the exact receiver to Environment / Art-QA / Runtime for explicit rebind. If red, repair only the falsified assumption and retain the failed evidence. Do not continue Building optimization by inertia after that; rescan Weapon, Armor, Unit, Object and Misc for the next genuinely source-owned manufactured dependency.
+Do **not** keep optimizing Building by inertia. Wait for direct Environment / Art-QA or Runtime evidence on this exact candidate. If that exposes a concrete source-side hard-surface defect, repair only that defect. Otherwise rescan Weapon, Armor, Unit, Object and Misc for the next genuinely source-owned manufactured dependency.
