@@ -2,154 +2,155 @@
 
 Date: 2026-09-17
 
-State: **PASS_OBJECT_TARGET_LATCH_EXACT_GLB_BOUNDARY_POSE_VISUAL_NONCORRUPTION / PASS_OBJECT_TARGET_LATCH_CAPTURE_VS_BROADPHASE_DISTINCTION_REPRODUCED_FROM_EXACT_TARGET_GLB_GEOMETRY / BLOCKED_FINAL_OBJECT_TARGET_LATCH_MOTION_VISUAL_ACCEPTANCE__WALLCLOCK_SHADED_KEEPER_LID_SEQUENCE_RUNTIME_ART_PENDING**
+State: **FAIL_OBJECT_GEOMETRY_OWNER_ORDER_DIRECT_BACKFACE_CULL_VISUAL_COHERENCE__THIS_MATERIALS_RECEIVER / PASS_OBJECT_HOST_REVERSED_ORDER_BACKFACE_CULL_EQUIVALENCE_TO_OWN_TWO_SIDED_REFERENCE__THREE_CONTEXTS / BLOCKED_OBJECT_WINDING_PRODUCTION_ADOPTION__TECHNICAL_ART_TRANSPORT_ART_RUNTIME_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding QA status, current Art Direction / Rigging / Animation state, and the newest open visual/runtime claims across the design constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding QA status, current Art Direction / Materials / Technical Art state, and the newest open visual/runtime claims across the Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc constellation.
 
-`axm-create-me` remains **coordination only**. QA changed no Object source geometry, Hard-Surface semantics, Rigging implementation, Animation timing, Technical-Art transport, Runtime/controller policy, Materials, Universal Creation product code, gameplay, physics or CANON state. The only product-repository action was an independent review return on the existing Object Rigging PR.
+`axm-create-me` remains **coordination only**. QA changed no Object source geometry, Geometry candidate, Materials scalar, Technical-Art transport, Runtime policy, Art preference, Universal Creation product code, gameplay, physics or CANON state. Product-repository action is limited to an independent review return on the existing Object Materials PR.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Selection / duplication scan
 
-The strongest newly completed unverified visual/runtime surface is the current target-host Object front-latch Rigging receiver on `mike-axiom-mir/axm-object-design` PR #23.
+The strongest newly completed unverified visual/runtime claim is Object Materials PR #6's real target-host culling comparison for Geometry PR #33's derived outward rigid-shell orientation candidate.
 
-Why this displaced the preceding Object VFX lane:
+Why this surface was selected:
 
-- Object VFX PR #31 already has independent QA fixed-sample acceptance and Art Direction has now frozen owner seed `41027` for the next presentation proof; another fixed-frame seed review would duplicate a closed comparison surface.
-- Map compact-east playback already has independent QA/Art crest-salience evidence and no newer viewer-presentation packet supersedes that result.
-- Object Rigging PR #23 is fresh downstream evidence: it consumes the corrected source-owned proof-volume capture boundary, maps seven boundary-adjacent poses into the actual UC/Godot hierarchy, and explicitly leaves final Visual QA acceptance open.
-- Animal Runtime's newer lifecycle/cache work explicitly keeps fresh production-shaded A/B held; Building's newest work is primarily source/geometry/authority rebinding rather than a stronger fresh visual receiver.
+- **Object Materials / Geometry:** the new receiver shows an extremely large backface-culling consequence while deliberately holding Geometry adoption, Technical-Art transport and independent QA open. A renderer-facing loss of manufactured surfaces is a higher-risk visual correctness question than another structural-only proof.
+- **Object Technical Art / Map PR #45:** the fresh current-world Object motion bridge at `e085437f6cc958bbf7c5c6464578923d542962b0` is strong discrete-sample transport evidence and still explicitly holds wall-clock / Art / QA acceptance. It remains a separate follow-up; this activation does not duplicate its frame-adaptation ownership.
+- **Object VFX:** Art Direction has already identified the wall-clock bead-trail presentation defect and requested one VFX-owned repair. QA waits for that repaired packet instead of re-reviewing the held owner effect.
+- **Animal:** the newest texture seam/filter packet is a self-generated diagnostic-normal-map receiver with production normal-map and final Art/QA adoption explicitly held. It is useful, but the Object culling surface is materially more consequential because entire manufactured faces disappear under direct backface-cull use.
+- **Map compact-east:** the retained crest-delivery FAIL/BLOCKED remains historical truth; no need to repeat it.
+- **Building / Character / Weapon / Armor / Unit / Misc:** no stronger fresh independent visual failure surface displaced the Object culling question.
 
-QA therefore reviews the exact transported target latch geometry and its visible/static boundary behavior only. It does not duplicate Hard Surface contact authority, Rigging authorship, Animation timing, Runtime controller/device ownership or Art preference.
+QA therefore tests only the exact retained Materials receiver and its direct visual consequence. It does not decide source-space Geometry correctness or production transport policy.
 
 ## Exact evidence identity
 
 Repository: `mike-axiom-mir/axm-object-design`
 
-PR: **#23 — `Rigging: bind source-owned front latches to UC target hierarchy`**
+Materials PR: **#6 — `Materials: prove functional surface separation on case + module`**
 
-Exact head inspected: `e5d4102b0b675cc0dc74d65f7afce1bdbf448726`.
+Exact Materials head inspected: **`ad1353d11b5175e05661efa45a32b8e40ec8707c`**.
 
-PR state at inspection: **OPEN / DRAFT / UNMERGED / MERGEABLE**. Mergeability is metadata, not acceptance authority.
+Geometry owner input:
 
-Dedicated workflow: `35271210675 — Object target front-latch rig evidence` — **SUCCESS**.
+- PR **#33 — `Geometry: derive outward rigid-shell orientation candidate`**;
+- exact Geometry head **`606d8189a3bf4502141d8038f08d35d421829dde`**;
+- source asset `modular-equipment-case-001`;
+- 468 vertices / 812 triangles / 31 rigid groups;
+- Geometry candidate preserves vertex positions, triangle membership/order and group partition while establishing coherent positive-volume outward orientation in source space.
+
+Materials PR remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at inspection. Mergeability is metadata, not acceptance authority.
+
+Dedicated Materials workflow: **`35277221272 — Object material rigid-shell winding lookdev` — SUCCESS**.
 
 Retained artifact:
 
-- ID `10518665592`;
-- size `22,222 B`;
-- GitHub SHA-256 `4ac8f36591adf4be0bf1770bee6d9d0e078846142c1b7df6ceee42ae69a30bc8`;
-- independently downloaded/rehashed by QA to the exact same SHA-256.
+- ID **`10520986793`**;
+- name `object-material-rigid-shell-winding-ad1353d11b5175e05661efa45a32b8e40ec8707c`;
+- GitHub / independent archive SHA-256 **`b5c550148037072a492caecd5c7e89b61599722c97d88194cc6069e43c6b8138`**;
+- 18 real retained PNGs across `front_service`, `three_quarter`, `rear_hinge` and owner/reversed culling controls.
 
-Exact retained target GLB:
+Pinned proof host: **Godot 4.7.2 stable / GL Compatibility / X11 / Mesa llvmpipe**.
 
-- SHA-256 `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`;
-- independently rehashed by QA to the exact same digest.
+Receiver comparison is intentionally bounded:
 
-Current source semantics retained:
+- `owner_order`: exact Geometry candidate face order;
+- `host_reversed_order`: same exact triangles with each `[a,b,c] -> [a,c,b]` only for receiving review;
+- one flat owner normal is preserved while index order changes;
+- existing Object scalar-PBR family, camera and lighting remain fixed;
+- source-to-host position mapping is `[x,y,z] -> [x,z,-y]` with determinant `+1` for this receiver;
+- neither source adoption nor a production winding adapter is authorized.
 
-- source Rigging donor `3a17a02528918ec63a46e954e883179f752c8151`;
-- Hard-Surface capture authority `56aaaecb45b520fdff9e08fe2d4ea42562f5690f`;
-- source proof-volume contact/separation transition `9.264790333551197°`;
-- source Z-AABB broad-phase-only transition `48.66480246428277°`;
-- target schedule maps source `0 / +9.25 / +9.30 / +25 / +48.65 / +48.70 / +50°` to target X rotations `0 / -9.25 / -9.30 / -25 / -48.65 / -48.70 / -50°`.
+## PASS — spatial control proves index-order-only comparison
 
-## PASS — exact target GLB boundary-pose visual noncorruption
+**`PASS_OBJECT_RIGID_SHELL_UNSHADED_TWO_SIDED_SPATIAL_IDENTITY__THREE_CONTEXTS`**
 
-**`PASS_OBJECT_TARGET_LATCH_EXACT_GLB_BOUNDARY_POSE_VISUAL_NONCORRUPTION`**
+QA independently recomputed all retained PNG pairs.
 
-QA reconstructed the seven declared target poses directly from the retained target GLB bytes using the exact target pivots rather than inheriting the owner receipt's transform verdict.
+The cull-disabled **unshaded** owner-order and host-reversed images are byte-identical in all three contexts:
 
-The generated geometry diagnostics reproduce:
+- `front_service`: `0` changed pixels;
+- `three_quarter`: `0` changed pixels;
+- `rear_hinge`: `0` changed pixels.
 
-- stable fixed case geometry across all seven poses;
-- bilateral latch-lever motion about the declared target pivots;
-- no detached latch mass;
-- no pivot jump;
-- no bilateral movement mismatch;
-- no gross target-hierarchy geometry corruption;
-- neutral geometry preserved at the zero pose.
+This is an important control: the two review variants retain the same rasterized spatial coverage when front/back lighting semantics are removed. The visual result below is therefore attributable to winding/front-face/culling behavior rather than moved geometry.
 
-This is direct geometric review evidence from the exact target GLB, not a shaded production render and not final motion-style acceptance.
+## FAIL — direct Geometry-owner order is not visually coherent under backface culling in this receiver
 
-## PASS — target geometry independently preserves capture vs broad-phase distinction
+**`FAIL_OBJECT_GEOMETRY_OWNER_ORDER_DIRECT_BACKFACE_CULL_VISUAL_COHERENCE__THIS_MATERIALS_RECEIVER`**
 
-**`PASS_OBJECT_TARGET_LATCH_CAPTURE_VS_BROADPHASE_DISTINCTION_REPRODUCED_FROM_EXACT_TARGET_GLB_GEOMETRY`**
+Against each owner-order variant's **own lit two-sided reference**, QA independently reproduces:
 
-The owner Godot receipt intentionally carried source capture/Z-AABB labels as pinned semantics and explicitly did **not** independently re-prove those contact classifications in the target host. QA therefore tested the exact retained target proof boxes directly.
+- `front_service`: **24,567 pixels > 1 LSB**;
+- `three_quarter`: **43,057 pixels > 1 LSB**;
+- `rear_hinge`: **86,844 pixels > 1 LSB**;
+- aggregate: **154,468 pixels > 1 LSB**.
 
-Because the latch/keeper X intervals continue to overlap through this bounded rotation, the exact box contact question reduces to the target Y/Z oriented-rectangle SAT while the source Z-AABB broad-phase test maps to target-Y AABB overlap.
+Direct inspection reproduces the consequential defect, not merely a numeric difference: large manufactured faces vanish or read as open/missing in the owner-order backface-cull views. The three-quarter receiver in particular presents a visibly hollow/broken case compared with its own two-sided reference and the receiving reversal.
 
-Independent exact-GLB result, bilaterally identical:
+This FAIL is deliberately **receiver-local**. It does **not** mean Geometry's outward-orientation candidate is wrong in source space. It means the exact candidate cannot be promoted **unchanged** into this particular target-host backface-cull interpretation on the basis of structural Geometry PASS alone.
 
-- target proof-volume OBB contact → separation transition: **`9.264800006258°`**;
-- source-owned proof-volume transition: `9.264790333551°`;
-- absolute difference: about **`9.67e-06°`**;
-- target-Y AABB overlap → separation transition: **`48.664811045033°`**;
-- source-owned Z-AABB transition: `48.664802464283°`;
-- absolute difference: about **`8.58e-06°`**;
-- target boundary separation between those two events: about **`39.400011°`**.
+## PASS — receiving-only reversed order restores cull coherence in the retained contexts
 
-The retained boundary poses independently reproduce the intended semantic distinction:
+**`PASS_OBJECT_HOST_REVERSED_ORDER_BACKFACE_CULL_EQUIVALENCE_TO_OWN_TWO_SIDED_REFERENCE__THREE_CONTEXTS`**
 
-- at `9.25°`, proof volumes still intersect with minimum SAT overlap about `+0.000017502 m`;
-- at `9.30°`, proof volumes are already separated with minimum SAT margin about `-0.000041626 m`, while target-Y AABB overlap is still about `+0.026882522 m`;
-- at `48.65°`, proof volumes remain separated while target-Y AABB overlap is still slightly positive (`~+0.000017242 m`);
-- at `48.70°`, proof volumes remain separated and target-Y AABB overlap has turned negative (`~-0.000040983 m`).
+Against each host-reversed variant's **own lit two-sided reference**, QA independently reproduces:
 
-This closes a narrower downstream truth gap: the exact transported GLB geometry itself preserves the source distinction between true proof-volume release and much later broad-phase axial separation. The tiny transition deltas remain within the expected float/GLB representation scale and do not justify source retuning.
+- `front_service`: **2 pixels > 1 LSB**;
+- `three_quarter`: **0 pixels > 1 LSB**;
+- `rear_hinge`: **1 pixel > 1 LSB**;
+- aggregate: **3 pixels > 1 LSB**.
 
-No new scoped visual FAIL is assigned on this static target geometry surface.
+The direct images restore coherent manufactured surface coverage in all three retained views. The proof remains sensitive: direct owner-order backface vs host-reversed backface differs by tens of thousands of pixels per view, while the unshaded spatial control stays exact.
 
-## BLOCKED — final motion / shaded acceptance
+This PASS approves only the **bounded Materials receiving interpretation**. It does not authorize a global index reversal or exporter rule.
 
-**`BLOCKED_FINAL_OBJECT_TARGET_LATCH_MOTION_VISUAL_ACCEPTANCE__WALLCLOCK_SHADED_KEEPER_LID_SEQUENCE_RUNTIME_ART_PENDING`**
+## BLOCKED — production winding / transport adoption
 
-The new PASS must not be inflated beyond the exact proof geometry.
+**`BLOCKED_OBJECT_WINDING_PRODUCTION_ADOPTION__TECHNICAL_ART_TRANSPORT_ART_RUNTIME_PENDING`**
 
 Still unproven here:
 
-- Godot collision-engine contact/separation behavior;
-- continuous full-assembly collision freedom between retained poses;
-- physical latch hook/catch retention, forces, fit, tolerance, wear or manufacturing validity;
-- wall-clock `AnimationPlayer` presentation of the current keeper + lever + lid sequence;
-- shaded/material coherence through that full current sequence;
-- final timing, weight, personality or motion naturalness;
-- Runtime controller/state-machine/input behavior;
-- target-device CPU/GPU/FPS/VRAM/thermal behavior;
-- gameplay/physics acceptance;
-- final Art Direction / Materials acceptance;
+- whether the actual Technical-Art / UC / glTF / Godot export-import path requires the same index adaptation;
+- whether an adapter should occur before export, at target import, or nowhere in a materially independent path;
+- smooth production normals and tangents under the final transported representation;
+- production UVs, textures, decals, wear, normal/AO maps and material-bearing transport;
+- arbitrary cameras/renderers/front-face conventions;
+- target-device Runtime culling/performance behavior;
+- final Art Direction preference;
+- source Geometry adoption;
 - CANON or production/game readiness.
 
-The SAT/AABB result is an **offline QA geometric reproduction from the exact retained target GLB**. It is not relabelled as a Godot physics/collision-engine result.
+QA therefore requests **no Geometry source repair** from this result. The next correct owner is Technical Art: transport the exact Geometry PR #33 candidate through the real scene/export/import path and independently determine the receiving front-face/index convention there. The Materials-only reversed review variant must not silently become production policy.
 
 ## Handoff / review return
 
-Independent QA was returned to Object Rigging PR #23 exact head `e5d4102b0b675cc0dc74d65f7afce1bdbf448726` as review **`5241397816`**.
+Independent QA was returned to Object Materials PR #6 exact head `ad1353d11b5175e05661efa45a32b8e40ec8707c` as review **`5241877857`**.
 
-No Rigging or source repair is requested from this result. The next useful perceptual proof is not another static boundary pose search; it is a current-source shaded/wall-clock presentation that keeps keeper ownership, latch release, lid motion and reengagement coherent without changing the now-correct capture semantics. Runtime/device and physical-contact proof remain separate owner lanes.
+The review records the receiver-local FAIL, the three-context receiving PASS, exact artifact rehash, all independently recomputed metrics and the production HOLD.
 
-## Prior retained QA state
+No automatic adoption, merge, source rewrite or CANON action was requested.
 
-The immediately preceding Object VFX result remains historical truth and is not rewritten:
+## Prior retained QA continuity
 
-- `PASS_OBJECT_LID_RELEASE_MOTE_OWNER_BASELINE_EXACT_VISUAL_CONTINUITY`;
-- `PASS_OBJECT_LID_RELEASE_MOTE_SEEDED_FAMILY_RETAINED_FRAME_ACTIVATION_LOCALIZATION_AND_INACTIVE_CLOSURE`;
-- `BLOCKED_FINAL_OBJECT_LID_RELEASE_MOTE_VISUAL_ACCEPTANCE__PREFERRED_SEED_WALLCLOCK_PLAYBACK_ARBITRARY_CAMERA_TARGET_DEVICE_ART_PENDING`;
-- review `5240797008` on Object VFX PR #31 exact head `5f8b7bef1a8a0d1babeba7945962c83cd938529b`.
+The immediately preceding Object target-latch QA remains historical truth and is not rewritten:
 
-Art Direction subsequently retained owner seed `41027` as the next-review baseline and froze further seed search pending presentation proof. This Rigging activation does not overwrite or transfer that VFX decision.
+- `PASS_OBJECT_TARGET_LATCH_EXACT_GLB_BOUNDARY_POSE_VISUAL_NONCORRUPTION`;
+- `PASS_OBJECT_TARGET_LATCH_CAPTURE_VS_BROADPHASE_DISTINCTION_REPRODUCED_FROM_EXACT_TARGET_GLB_GEOMETRY`;
+- `BLOCKED_FINAL_OBJECT_TARGET_LATCH_MOTION_VISUAL_ACCEPTANCE__WALLCLOCK_SHADED_KEEPER_LID_SEQUENCE_RUNTIME_ART_PENDING`;
+- review `5241397816` on Object Rigging PR #23 head `e5d4102b0b675cc0dc74d65f7afce1bdbf448726`.
 
-The earlier Map playback crest-delivery FAIL/BLOCKED, Animal tangent-frame QA, Character direction-frame QA and other retained QA states remain historical evidence in Git history. No acceptance transfers between systems by analogy.
+Object VFX wall-clock presentation now has a separate Art-owned bead-trail HOLD; Map crest delivery remains a separate QA/Art FAIL/HOLD; Animal and Character retained shading evidence remains exact to its own heads. No acceptance transfers between these systems by analogy.
 
 ## Four-root gate
 
-- **Truth:** the owner archive and exact target GLB were independently rehashed; the seven target poses were reconstructed from exact GLB geometry; the two target-side boundary transitions were independently solved rather than inherited from source labels; physics/runtime claims remain explicitly withheld.
-- **Agency / non-domination:** QA does not rewrite Hard-Surface contact semantics, Rigging, Animation timing, Runtime/controller policy, physics, Materials or Art preference and requests no automatic adoption/CANON promotion.
-- **Continuity:** the current source capture correction, target Rigging receiver, prior Object VFX QA, Map crest FAIL and earlier evidence remain separately addressable rather than silently merged into one story.
-- **Wisdom before speed:** the target geometry PASS closes the exact missing downstream semantic question, while shaded motion, wall-clock delivery, physics and device acceptance remain separate instead of being inferred from static proof boxes.
+- **Truth:** the exact artifact was independently rehashed; all retained PNG comparisons were recomputed; the severe direct-cull loss and near-zero reversed-cull mismatch are recorded separately; source-space Geometry truth is not conflated with target-host front-face behavior.
+- **Agency / non-domination:** Geometry keeps source/candidate authority; Materials keeps bounded lookdev interpretation; Technical Art keeps transport/adaptation authority; Runtime, Art and QA retain their own gates. QA does not self-authorize an exporter rule.
+- **Continuity:** Geometry PR #33, Materials PR #6, prior Object latch QA, VFX Art HOLD and Technical-Art current-world motion proof remain separately addressable rather than silently rewritten into one state.
+- **Wisdom before speed:** a visually catastrophic receiver mismatch is stopped at the exact boundary where it appears, while the nearly successful receiving reversal remains a test result—not a production default—until the real transport path proves it.
 
 The four AXM roots remain the merge gate.
