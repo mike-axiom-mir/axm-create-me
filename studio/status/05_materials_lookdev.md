@@ -1,36 +1,37 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-17
-State: **PASS_CHARACTER_REVIEW006_POSE_RECOMPUTED_SMOOTH_NORMAL_TARGET_HOST_DIAGNOSTIC / FIRST CHARACTER MATERIALS LANE / NEUTRAL 0° CONTROL PIXEL-IDENTICAL IN 3/3 REAL GODOT CONTEXTS / SAFE -40° AND +36° POSE-RECOMPUTED NORMAL RESPONSE RENDERER-VISIBLE IN 6/6 CONTEXTS / +37° STRUCTURAL FAILURE RETAINED DIAGNOSTIC-ONLY / PRODUCTION SKIN-NORMAL-TANGENT-TA-RUNTIME-ART-QA ACCEPTANCE HELD**
+State: **HOLD_CHARACTER_REVIEW006_CURRENT_TARGET_DIRECTION_FRAME__NEUTRAL_SHADED_BASELINE_MISMATCH / CURRENT POSITION COVERAGE CLEAN / DEFORMED CLOSENESS MIXED 4_POSE_RECOMPUTED_TO_2_FROZEN / HISTORICAL STATIC POSE_RECOMPUTED_NORMAL_REFERENCE REMAINS PASS / PRODUCTION SKIN-NORMAL-TANGENT-RUNTIME-ART-QA-CANON HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, current Materials status, newest Art Direction / Technical Art / Runtime / Visual-QA coordination, and the live design-repository constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, current Materials status, newest Art Direction / Technical Art / Visual-QA coordination, and the live design-repository constellation before acting.
 
 `axm-create-me` remains **coordination only**. Product implementation and exact renderer evidence for this activation live in `mike-axiom-mir/axm-character-design`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding coordinator state remains rollbackable at blob **`4563562585a230a5b9412a02aabfc3e28a3bc525`**. Its Object result, `PASS_OBJECT_SERVICE_DARK_SELECTED_ROUGHNESS_FIELD_SERIALIZATION_CONTINUITY`, remains historical truth and was not silently rewritten.
+The immediately preceding Materials status remains historical truth at blob **`fd348ec453a4c66c491519a094a3ff5de4d82f90`**. Its exact static Character result on Materials head `e450684b398f8e5b0e23c4cbf717e3475dd4d5ee` is preserved: neutral `0°` frozen-vs-pose-recomputed normals are pixel-identical in 3/3 real Godot contexts, pose-recomputed normal response is renderer-visible at retained safe `-40°` / `+36°`, the inverted-normal observer negative remains sensitive, and `+37°` remains structural-failure diagnostic only.
 
 ## Fresh constellation / duplication scan
 
-The strongest fresh Materials-owned gap was no longer another Object UV, atlas, roughness-amplitude, or serialization variation:
+The strongest fresh Materials-owned blocker is now the **current exact Character direction-frame receiver**, not another static normal variation and not another Object/Building/Nature pass by cadence.
 
-- Object's selected `service_dark` roughness field already has exact Materials scalar identity, lossless serialize/reload continuity, Technical Art transport evidence, and separate Runtime storage evidence. Extending it again by cadence would duplicate mature evidence rather than clear a fresh blocker.
-- Art Direction and independent Visual QA currently converge on the Character review-006 `opening_repair` + angle-conditioned Rigging chain as the strongest active visual boundary. Its sampled structural safe range is `-40..+36°`; `+37°` is the first retained nonadjacent-intersection failure witness.
-- Character had **no Materials / LookDev PR**. Art/QA explicitly still held shaded response and direction-frame correctness, so this was a real Materials-owned receiving gap rather than overlap with Organic Form, Geometry, Rigging, Animation, Technical Art, Runtime, or final Art Direction.
-- Animal, Building, Nature and other earlier Materials lanes remain valid historical work but exposed no fresher Material-owned defect stronger than the Character shading boundary.
+- Art Direction Direction 026 explicitly prefers the **pose-following normal-response principle** established by the historical static Materials receiver and holds final shaded-motion adoption until a current target receiver actually exposes deformed direction frames.
+- Independent Visual QA reproduces the historical static Materials result but also blocks final current-head shaded motion until current exact Rigging + Animation + transport are rendered directly.
+- Technical Art PR #21 exact head `1c021d40d7d606f6fb2a29e69f9353640aa33f60` now transports the exact current dense Character positions through current UC with very small position residual while explicitly holding deformed normals/tangents because current UC `GamePoseAsset` does not evaluate them.
+- Current Animation head is `9519be55581c009fd800d175677d9b50ee6926e6`; current Rigging head is `fa16c44b1a488d43842470fc9f30c5fb5e98cab6`.
+- Object's UV/atlas/roughness path is already mature Materials/Technical-Art/Runtime evidence; Building is primarily source/receiver/runtime follow-through; Nature's stronger open issue is timing/VFX delivery; Animal retains a separate direction-frame boundary but Character now has the exact current transport and accepted visual comparator needed for a direct receiver test.
 
-The highest-leverage bounded improvement was therefore to open the first Character Materials lane and test one exact receiving question: **when the already-approved-for-review shoulder receiver deforms inside its retained safe range, does recomputing the same smooth-normal method from the exact posed vertices produce a real target-host shading response relative to incorrectly freezing the neutral normals?**
+No new Character Materials PR was opened. The existing Character Materials lane **PR #18** was advanced and retargeted onto Technical Art PR #21 so the owner chain remains explicit rather than duplicated.
 
 ## Selected bounded improvement
 
 Repository: `mike-axiom-mir/axm-character-design`
 
-New first Character Materials lane:
+Existing Materials lane:
 
-**PR #18 — `Materials: prove shaded review006 shoulder normal response`**
+**PR #18 — `Materials: prove review006 shaded direction-frame response`**
 
 Branch:
 
@@ -38,193 +39,187 @@ Branch:
 
 Exact final tested Materials head:
 
-**`e450684b398f8e5b0e23c4cbf717e3475dd4d5ee`**
+**`c2ae66c75abac064b679f1597b7544d058dc3ad1`**
 
-Exact parent / owner lane:
+PR integration state after the final workflow:
 
-- Rigging PR #17 head: **`efa48c344f1b8c9e70c4c5dfdbf4a3031dacd777`**;
-- PR #18 is stacked directly on that exact Rigging head;
-- PR #18 is currently **open and draft**;
-- GitHub currently reports the PR **not mergeable**; no merge or authority override was attempted in this Materials pass.
+- **open**;
+- **draft**;
+- base: `studio/technical-art-character-review006-uc-skin-transport-001` exact SHA **`1c021d40d7d606f6fb2a29e69f9353640aa33f60`**;
+- GitHub currently reports **mergeable = true**;
+- no merge or acceptance override was attempted.
 
-Added only to the Character Materials branch:
+To preserve both historical Materials evidence and the exact current transport chain, the branch contains a two-parent continuity join rather than a silent reconstruction. The historical Materials reference remains exact and the current Technical-Art lineage remains exact.
 
-- `lookdev/character_review006_shaded_shoulder_review_001.json`;
-- `tools/build_character_review006_shaded_shoulder_evidence.py`;
-- `lookdev-proof/project.godot`;
-- `lookdev-proof/character_review006_shaded_shoulder_observe.gd`;
-- `.github/workflows/materials-character-review006-shaded-shoulder.yml`.
+## Exact current lineage consumed
 
-No source positions/faces, Organic form, Geometry selection, Rigging joints/weights/profile, safe-envelope ownership, Animation, UC/Technical-Art transport, Runtime code, or `axm-create-me` product code was rewritten.
+- Technical Art head: **`1c021d40d7d606f6fb2a29e69f9353640aa33f60`**;
+- Technical Art transport module blob: **`831fd7522ec2a8783862da653d6f12465252a3b2`**;
+- Animation head: **`9519be55581c009fd800d175677d9b50ee6926e6`**;
+- Rigging head: **`fa16c44b1a488d43842470fc9f30c5fb5e98cab6`**;
+- historical static Materials visual-reference head: **`e450684b398f8e5b0e23c4cbf717e3475dd4d5ee`**;
+- exact Materials area-weighted indexed smooth-normal builder blob: **`843c0e1866172dd8b6c5ab0f23d69d1e469562f7`**.
 
-## Exact inherited lineage
+No source geometry, Organic form, Rigging profile/weights, Animation timing/amplitude, Technical-Art factorization, UC code, material scalar, Runtime policy, or `axm-create-me` product code was rewritten.
 
-The Materials receiver pins the already-owned Character chain instead of relabelling it:
+## Bounded current-motion receiver
 
-- review source SHA-256: **`8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`**;
-- review proof-mesh SHA-256: **`f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`**;
-- Geometry head: **`8ad006f91ebb9934d5df98702e4410c74a1e68ea`**;
-- selected topology digest L: **`ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`**;
-- selected topology digest R: **`aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`**;
-- exact Rigging profile digest: **`49e59bfd7596619a2a19454ca395276097102047af673fc4219694e777a5a719`**;
-- selected receiver remains the exact `opening_repair`, **92 vertices / 180 triangles per side**;
-- retained safe-review poses: **`-40°`, `0°`, `+36°`**;
-- retained outside-envelope failure witness: **`+37°`**, diagnostic only.
+Added only to the existing Character Materials branch:
 
-## Bounded Materials receiver
+- `lookdev/character_review006_current_motion_direction_frame_review_001.json`;
+- `tools/build_character_review006_current_motion_direction_frame_evidence.py`;
+- `lookdev-proof/character_review006_current_motion_direction_frame_observe.gd`;
+- `.github/workflows/materials-character-review006-current-motion-direction-frame.yml`.
 
-The material is intentionally neutral and review-only:
+The existing neutral review material is held exactly:
 
-- semantic: `neutral_skin_response_review_only`;
-- albedo sRGB: **`[0.56, 0.43, 0.36]`**;
-- metallic: **`0.0`**;
-- roughness: **`0.62`**;
-- no UV, texture, normal map, tangent map, subsurface/transmission, measured skin, or production material was introduced.
+- albedo sRGB **`[0.56, 0.43, 0.36]`**;
+- metallic **`0.0`**;
+- roughness **`0.62`**.
 
-The exact same indexed, area-weighted smooth-normal method is compared in three modes:
+The exact current Technical-Art transport GLB is regenerated from its owner producer. Three exact dense Animation keys are inspected:
 
-1. `frozen_neutral_control` — compute smooth normals from the exact neutral receiver once, then incorrectly reuse them on the posed vertex positions;
-2. `pose_recomputed_candidate` — recompute that same normal method from each exact posed receiver;
-3. `inverted_pose_negative` — multiply the recomputed normals by `-1` solely as an observer-sensitivity negative control.
+- sample **80**: about **0.5 s / -30°**;
+- sample **160**: about **1.0 s / 0°**;
+- sample **240**: about **1.5 s / +30°**.
 
-This isolates normal receiving behavior without changing source geometry, pose positions, material scalar policy, or Rigging ownership.
+Each key is rendered in **front / three-quarter / grazing** contexts using five receiving variants:
 
-## Geometry-space normal audit
+1. actual imported current skinned GLB, shaded;
+2. exact owner positions with the accepted pose-recomputed Materials normal reference, shaded;
+3. exact owner positions with neutral `0°` normals frozen after deformation, shaded;
+4. imported target unshaded;
+5. exact owner-position reference unshaded.
 
-Exact payload result:
+The unshaded pair exists specifically so spatial/raster mismatch cannot be mistaken for direction-frame behavior.
 
-**`PASS_CHARACTER_REVIEW006_POSE_RECOMPUTED_SMOOTH_NORMAL_REVIEW_PAYLOAD`**
+## Exact workflow / renderer evidence
 
-Payload SHA-256:
+Dedicated workflow:
 
-**`eda37db9571072fc9b8e13e8565be884da7a639d5564dcafa49e915d64df8dd6`**
+**`35215357988 — Materials Character review006 current motion direction-frame evidence` — SUCCESS**
 
-Left and right sides produce the same bounded normal audit:
+Both Python matrix jobs completed successfully. The Python 3.11 path additionally:
 
-- `0°`: **0 / 92** vertices change any normal component above `1e-12`; maximum component delta is exactly **0.0**;
-- `-40°`: **31 / 92** vertices change; maximum angular normal delta **43.368023°**, mean **6.077454°**, maximum component delta **0.716689**;
-- `+36°`: **31 / 92** vertices change; maximum angular normal delta **39.030468°**, mean **5.512572°**, maximum component delta **0.542578**;
-- `+37°`: **31 / 92** vertices also change, but this pose retains the donor's nonadjacent-intersection failure and is not promoted.
-
-## Exact CI + real renderer evidence
-
-Final dedicated workflow:
-
-**`35210377976 — Materials Character review006 shaded shoulder evidence` — SUCCESS**
-
-Exact workflow head:
-
-**`e450684b398f8e5b0e23c4cbf717e3475dd4d5ee`**
-
-The workflow:
-
-- ran the complete Character suite on Python **3.11 and 3.13**;
-- passed **84 / 84 tests** in both matrix jobs;
-- rebuilt the exact posed receiver from current Rigging code;
-- rejected a deliberate review-material roughness drift fail-closed;
+- rebuilt the exact current transport GLB;
+- rejected a deliberate Materials roughness drift fail-closed;
 - downloaded and SHA-verified pinned Godot **4.7.2**;
-- rendered all retained poses across **front / three-quarter / grazing** contexts;
-- retained `+37°` only as an outside-envelope shaded witness;
-- uploaded the full renderer receipt and all comparison PNGs.
+- rendered through **Godot 4.7.2 GL Compatibility / X11 / Mesa llvmpipe**;
+- retained **45 real PNGs** across the exact sample/context/variant matrix;
+- wrote the bounded target-host comparison receipt.
 
-Renderer:
+Retained artifact:
 
-- **Godot 4.7.2 stable official**;
-- **GL Compatibility / X11 / Xvfb**;
-- adapter: **Mesa llvmpipe (LLVM 20.1.2, 256 bits)**;
-- render frame size: **900 × 700 = 630,000 pixels**.
+- artifact ID **`10495430458`**;
+- name `character-review006-current-motion-direction-frame-c2ae66c75abac064b679f1597b7544d058dc3ad1`;
+- GitHub-reported size **`761,766 B`**;
+- GitHub Actions SHA-256 **`e2a2781710fa41794ad0272e32838339eb850764c36ed9ed5b5d527969d7058e`**;
+- independently downloaded archive size **`761,766 B`**;
+- independently rehashed SHA-256 **same exact digest**.
 
-Runtime receipt result:
+## Position-control result
 
-**`PASS_CHARACTER_REVIEW006_POSE_RECOMPUTED_SMOOTH_NORMAL_TARGET_HOST_DIAGNOSTIC`**
+The target reaches the real renderer spatially with an extremely small retained raster mismatch.
 
-## Real-render comparison result
+Across all 9 exact sample/context pairs, imported-target unshaded versus owner-reference unshaded coverage XOR is only **0–4 pixels out of 630,000 pixels per frame**.
 
-Neutral `0°`, frozen-neutral normals → pose-recomputed normals:
+Examples:
 
-- `front`: **0 raw changed pixels**, max RGB-channel delta `0.0`;
-- `three_quarter`: **0 raw changed pixels**, max RGB-channel delta `0.0`;
-- `grazing`: **0 raw changed pixels**, max RGB-channel delta `0.0`.
+- neutral sample 160 / front: **4 XOR pixels**, frame fraction `6.3492e-06`;
+- neutral / three-quarter: **2**, `3.1746e-06`;
+- neutral / grazing: **0**;
+- deformed ±30° views: **0–2** except one grazing pair with **1**.
 
-So the observer is exactly neutral when positions/normals are actually the same.
+This supports the narrow statement that the current imported target position/raster receiver is aligned closely enough for a direction-frame diagnostic. It does not by itself establish normal correctness.
 
-At the retained safe deformation extremes, recomputing the normals is renderer-visible in **6 / 6** contexts:
+## Critical neutral shaded-baseline result
 
-| safe pose / context | >1-LSB changed pixels | frame fraction | max RGB-channel delta |
-|---|---:|---:|---:|
-| `-40 / front` | `4,989` | `0.7919%` | `0.678431` |
-| `-40 / three_quarter` | `4,978` | `0.7902%` | `0.654902` |
-| `-40 / grazing` | `3,138` | `0.4981%` | `0.596078` |
-| `+36 / front` | `6,058` | `0.9616%` | `0.654902` |
-| `+36 / three_quarter` | `8,132` | `1.2908%` | `0.588235` |
-| `+36 / grazing` | `7,542` | `1.1971%` | `0.498039` |
+The decisive finding is **not** the later 4-vs-2 deformed vote. The target already disagrees strongly with the exact reference at neutral `0°`, where pose-recomputed and frozen-neutral reference normals are identical by construction.
 
-The deliberate inverted-normal negative is independently visible in every retained pose/context. Across the retained set it changes **17,644–51,376 pixels above 1 LSB** per frame, with maximum RGB-channel delta up to **0.803922**, proving the observer is sensitive to materially wrong normal orientation.
+Exact neutral target-shaded -> reference-shaded measurements over the foreground mask:
 
-The `+37°` diagnostic also shows a recomputed-normal shading difference, but its pre-existing structural failure remains authoritative. It is **not** a Materials excuse to expand the safe envelope.
+| context | >1-LSB changed pixels | masked foreground pixels | mean abs RGB-channel delta | max RGB-channel delta |
+|---|---:|---:|---:|---:|
+| `front` | `33,065` | `33,640` | `0.324140` | `0.945098` |
+| `three_quarter` | `28,767` | `29,597` | `0.290890` | `0.901961` |
+| `grazing` | `15,990` | `17,641` | `0.138483` | `0.803922` |
 
-## Retained failures / repair history
+That means the target shaded receiver differs across approximately **98.3% / 97.2% / 90.6%** of the masked foreground in the three neutral contexts even though target/reference unshaded coverage differs by only 4 / 2 / 0 pixels.
 
-Two failed runs are preserved as useful provenance rather than hidden:
+Direct inspection agrees with the numbers: the imported target is substantially brighter and differently lit than the exact neutral owner-reference receiver while the silhouettes remain almost coincident.
 
-1. Initial workflow `35210083347` falsely rejected the exact neutral receiver because equality was inferred from `acos(dot(n,n))`; floating-point dot/acos numerics yielded about `1.48e-6°` despite **exactly identical normal components**. The repair changed the neutral identity check to direct component equality/tolerance. It did not loosen geometry, material, or render acceptance.
-2. Workflow `35210244550` passed Python but the real Godot observer failed because `Camera3D.look_at()` was called before the camera entered the tree. Godot explicitly required `look_at_from_position()`. The repair was camera/observer infrastructure only; no candidate normal, pose, material scalar, structural witness, or visual threshold was changed.
+This is a **neutral target-host direction-frame/material-response baseline mismatch**. Its exact cause is not guessed here. It may live in imported normal-frame interpretation, skin normal handling, or another target-host direction-frame detail; Materials does not rewrite Technical Art or renderer semantics to make the result green.
 
-The final success is the later exact head/run above.
+## Deformed comparison remains diagnostic-only
 
-## Retained artifact
+At the two current Animation extrema, the accepted pose-recomputed reference versus frozen-neutral control produces a real but much smaller shaded signal:
 
-Final successful artifact:
+- sample 80 / `-30°`: pose-recomputed -> frozen mean absolute RGB-channel deltas are about **0.00845–0.01249** across retained contexts;
+- sample 240 / `+30°`: about **0.00871–0.01873**.
 
-- ID **`10491618962`**;
-- name `character-review006-shaded-shoulder-e450684b398f8e5b0e23c4cbf717e3475dd4d5ee`;
-- size **`938,706 B`**;
-- GitHub Actions SHA-256 **`ed7428269744c702cde5ba75f95f6dd46a60ba6b2028f399281257ee0e70bea2`**;
-- independently downloaded and rehashed to the **same exact digest**;
-- contains the review contract, exact payload, renderer receipt, exact-head pins, observer, and **36 real render PNGs**.
+By contrast, target -> pose-recomputed mean deltas remain approximately **0.101–0.329** in those same deformed contexts. The neutral target/reference discrepancy therefore already dominates the deformation-specific normal signal.
 
-Coordination returns:
+The raw receiver classifier records:
 
-- Character Materials PR #18 comment **`5712849737`**;
-- Rigging PR #17 receiving handoff comment **`5712851248`**.
+**`INCONCLUSIVE_CHARACTER_REVIEW006_TARGET_DIRECTION_FRAME_MIXED_RESPONSE`**
+
+with:
+
+- **4 / 6** deformed contexts numerically closer to pose-recomputed normals;
+- **2 / 6** closer to frozen-neutral normals.
+
+Materials does **not** promote the 4/6 split. Because the target fails to reproduce the neutral shaded baseline first, the deformed closeness vote is not a clean test of deformation-specific direction-frame correctness.
+
+Scoped Materials state is therefore:
+
+**`HOLD_CHARACTER_REVIEW006_CURRENT_TARGET_DIRECTION_FRAME__NEUTRAL_SHADED_BASELINE_MISMATCH`**
+
+## Coordination returns
+
+- Character Materials PR #18 exact-result comment: **`5713583139`**;
+- Character Technical Art PR #21 receiving handoff: **`5713589324`**.
+
+Technical Art's existing dense-position PASS is **not invalidated**. The new Materials evidence says only that the real shaded target receiver has an unresolved direction-frame/material-response disagreement already at neutral.
 
 ## Reusable learning / propagation boundary
 
 Bounded reusable lesson:
 
-> **For a deforming receiver, test normal transport independently from material art: hold geometry, pose and scalar material fixed; compare frozen-neutral normals against the same normal algorithm recomputed on the posed receiver; require the neutral pose to be exactly visually identical; and include an intentionally wrong orientation control so renderer sensitivity is proven rather than assumed.**
+> **Before comparing deformed target normals against a pose-following reference, require a neutral shaded baseline on the same real target receiver. A clean position/silhouette match is not enough: if the target already shades differently at the pose where the reference normal fields are identical, deformation-specific “closer to A or B” votes are contaminated and must remain diagnostic-only.**
 
-This is a Character Materials discovery. It is not silently promoted into Animal, Unit, UC, Profession Fabric, another renderer, or CANON. Technical Art may consume the exact identity later, but Materials does not pre-choose a transport representation or tangent policy for it.
+This is carefully propagated as a receiving-method lesson, not as a universal numeric threshold, not as a Character-specific UC policy, and not as evidence that another renderer will behave the same way.
+
+Godot's documented 3D convention is right-handed and Y-up, with `-Z` as camera-forward and the usual glTF oriented-asset `+Z` model-front convention. That general convention is useful context, but this activation does **not** infer the exact cause of the neutral mismatch from documentation alone; the retained renderer evidence is authoritative for this bounded receiver.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
+- the exact root cause of the neutral direction-frame mismatch;
+- final production normal transform or skin-normal algorithm;
 - production skin material;
 - anatomical or physically measured skin response;
 - production normals or tangents;
-- tangent-space correctness;
+- tangent-space correctness or normal-map correctness;
 - UVs or production textures;
-- normal maps, detail maps, pores, roughness texture, subsurface or transmission;
+- subsurface/transmission;
 - full-body shaded correctness;
-- arbitrary-pose correctness beyond the exact retained review set;
-- acceptance of `+37°` or expansion of the Rigging safe envelope;
-- Animation acceptance;
-- Technical Art / UC transport equivalence;
-- Runtime/device behavior or performance;
+- arbitrary-pose correctness;
+- invalidation of Technical Art's position transport PASS;
+- target-device Runtime/controller/performance acceptance;
 - final Visual-QA acceptance;
 - final Art Direction acceptance;
-- CANON;
+- source adoption or CANON;
 - production/game readiness;
 - Materials mastery.
 
 ## Four-root gate
 
-- **Truth:** exact source/proof/topology/profile identities, exact receiver algorithm, numerical normal deltas, real Godot renderer, neutral zero-delta controls, safe-pose visible deltas, the +37 structural failure, both failed CI runs, final artifact digest and current PR integration state are recorded without promotion.
-- **Agency / non-domination:** Materials owns only this shaded receiving diagnostic. Organic Form retains source form, Geometry retains receiver topology, Rigging retains joints/weights/profile/safe envelope, Animation retains motion, Technical Art retains transport, Runtime retains device/performance policy, Art Direction retains visual authority, and Visual QA retains independent final acceptance.
-- **Continuity:** the exact current review-006 chain was consumed instead of reconstructed or silently replaced; the previous Object Materials state remains rollbackable by exact blob; failed evidence remains part of the record.
-- **Wisdom before speed:** one narrow shading-frame question was isolated and verified in three real renderer contexts before attempting skin textures, tangent-space detail, full-body lookdev, transport, or broader propagation.
+- **Truth:** the exact current owner lineage, real renderer, clean position-control evidence, large neutral shaded mismatch, mixed deformed vote, artifact digest, and current PR state are all retained separately. A 4/6 deformed preference is not turned into a success story while the neutral baseline is broken.
+- **Agency / non-domination:** Materials owns the receiving comparison only. Technical Art keeps transport, Rigging keeps deformation, Animation keeps motion, Organic/Geometry keep form/topology, Runtime keeps device policy, Art Direction keeps visual preference, and Visual QA keeps independent acceptance.
+- **Continuity:** historical static Materials evidence at `e450684b...` remains exact and rollbackable; current Technical Art/Animation/Rigging heads are consumed rather than reconstructed; the existing PR #18 is reused instead of opening a competing lane.
+- **Wisdom before speed:** stop at the first stronger contradiction. Resolve or explain the neutral target/reference direction-frame baseline before adding skin textures, tangent-space detail, more poses, full-body polish, or broader transport claims.
 
 ## Next Materials pass
 
-Re-scan the full constellation first. Do not continue Character by inertia. Continue this Character family only if Art Direction, Visual QA, Technical Art, Rigging, Animation or Runtime exposes a concrete next Materials-owned defect such as tangent/normal transport, seam behavior, skin-response hierarchy, or texture-frequency failure. Otherwise select the strongest fresh Materials-owned gap elsewhere.
+Re-scan the full constellation first. Continue this Character family only if the owner lanes expose a concrete repair or explanation for the neutral target-host normal/material-frame mismatch. The next legitimate Character receiving proof is to isolate that neutral frame discrepancy directly—preferably with a direction-frame/normal visualization independent of artistic lighting—then repeat the deformed comparison only after the neutral baseline is coherent. Otherwise select the strongest fresh Materials-owned gap elsewhere.
