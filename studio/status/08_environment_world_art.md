@@ -1,210 +1,197 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CURRENT_WORLD_BUILDING_312_CONSUMER_REBOUND_TO_SOURCE_HARD_NORMAL_AUTHORITY / DROPPED_EXACT_CARDINAL_HARD_NORMAL_EXPLICIT / HOLD_DEFAULT_ADOPTION / ACTIVE_SEGMENTED_ROLLBACK_PRESERVED**
+State: **IMPLEMENTED_OBJECT_SELECTED_ROUGHNESS_RECEIVER_READINESS_GATE / CURRENT_MAP_RECEIVER_HAS_NO_AUTHORED_UV0_PATH / TARGET_WORKFLOW_QUEUED / HOLD_SELECTED_ROUGHNESS_CURRENT_WORLD_ADOPTION**
 
 ## Authority / continuity
 
-`axm-create-me` remains **coordination only**. Product implementation and executable evidence remain on the existing `mike-axiom-mir/axm-map-design` Environment PR #24; no duplicate Environment PR, replacement repository or source-asset lane was opened.
+`axm-create-me` remains **coordination only**. Product implementation and executable evidence remain in the owning design repositories. No duplicate Environment PR, Object Materials lane, Technical Art lane, Runtime optimizer or source-asset repository was opened.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Ownership remains explicit:
-
-- **Building Hard Surface** owns source representation and exact source hard-normal/render-split authority.
-- **Geometry / Topology** owns the 604-class source-intent realization and the 312-group hard-normal-dropping structural quotient diagnostic.
-- **Environment / Map** owns receiving composition, consumer identity, retained world evidence, adoption/rollback and handoffs only.
-- **Technical Art** owns normal/index/attribute transport and mathematical/import exactness.
-- **Runtime** owns representation cost and representative target-device acceptance.
-- **Art Direction / Visual Observer QA** retain independent appearance authority.
-- Nature, Object, Weather and their specialists retain their own source/effect/material semantics.
-
-The preceding Environment state remains recoverable at status blob **`2f6439d89b5281696f981cb70d2bf1b367803d81`**. That version retains the exact `604 -> 312` quotient/current-world position-partition proof, the earlier source-intent receiver comparisons, placement repair, Nature/Object/Weather continuity and all older holds. This status advances that chain without silently rewriting it.
+The immediately preceding Environment status remains preserved at blob **`cb4370f6436500579b2148b1962530ffd8f9efea`**. It records the successful Building 312-consumer hard-normal-authority rebind, exact retained 68-frame / 1,224-Weather-width evidence, active segmented rollback and all Building adoption holds. This activation does not rewrite that result.
 
 ## Fresh constellation / duplication scan
 
-The existing Environment lane remains:
+Existing Environment lane remains:
 
 - repository: `mike-axiom-mir/axm-map-design`;
 - PR: **#24**;
 - branch: `studio/environment-weather-variant-object-convergence-001`;
-- final exact Environment head this activation: **`a543fdd30b0b846a56f09f17c3b5680a9fa73997`**.
+- current implementation head: **`1fcc9727012d156f8d1c4658c8dca4f0e9dd3c33`**;
+- PR state before this change: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Fresh highest-leverage upstream return was Building Hard Surface PR **#14**, not another mesh or visual candidate:
+The strongest fresh Environment-owned gap moved from Building representation policy to **Object spatial-material receiving identity**:
 
-- PR state observed: **OPEN / DRAFT / UNMERGED / MERGEABLE**;
-- exact Hard-Surface head: **`7b86b1a9da1ef8dc670ca01cf4918728e68ece92`**;
-- source-owner result: `PASS_SOURCE_OWNED_PLANAR_ROLE_HARD_NORMAL_AUTHORITY_BOUNDARY`;
-- source-authorized render classes: **604**;
-- derived role+position quotient groups: **312**;
-- source render-vertex identities removed by the quotient: **292**;
-- quotient groups crossing source hard-normal boundaries: **188**;
-- exact dropped source attribute: **`EXACT_CARDINAL_HARD_NORMAL`**;
-- source partition classification: `SOURCE_AUTHORIZED_RENDER_EQUIVALENCE`;
-- derived quotient classification: `DERIVED_ATTRIBUTE_DROPPING_PARTITION_NOT_SOURCE_EQUIVALENT`.
+- **Object Materials PR #6** has frozen the Art-preferred `service_dark` roughness microvariation as an exact selected scalar at head `0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`.
+- **Technical Art PR #28** has transported that exact semantic scalar through merged UC ORM green into an exact textured GLB and real Godot at head `1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`.
+- **Runtime PR #30** has independently rebound its prior L8 memory result to the exact selected scalar identity, while keeping adoption and target-device acceptance separate.
+- **Art Direction** already owns the bounded roughness preference; independent Visual QA remains a separate visual gate.
+- **Nature VFX / Map VFX** are actively working leaf-flutter temporal evidence. Environment did not retime or reopen that work.
+- **Weather** already has source-width/interpolation/latest-due/temporal-exposure owner lanes. Environment did not duplicate them.
+- **Building** retains the preceding Environment/Hard-Surface/Technical-Art/Runtime handoff chain; no new Building mutation displaced this Object receiving gap.
 
-Hard Surface now explicitly requires any 312 consumer to declare its own replacement normal/storage identity, declare the dropped source attribute and independently re-prove transport, Runtime and visual acceptance. Equal count or exact role+position equality is not source-normal equivalence.
-
-Other active lanes were not duplicated:
-
-- Nature VFX PR #11 remains the source-effect owner for migrated sapling response; no new Environment source return displaced the Building authority gap.
-- Weather PR #3 remains procedural/VFX-owned; its newer source-width receiver evidence does not transfer a new art-semantic Environment decision.
-- Object Materials PR #6 is advancing selected roughness-field evidence, with QA/transport/adoption still in owner lanes; Environment did not pull that work into the map.
-- Map Technical Art PR #40 continues to own the post-index normal/transport exactness boundary.
-- Map Runtime PR #42 continues to own the residual Building primitive-cost/device question.
-- Art Direction and independent Visual QA have no newer Building mutation that authorizes Environment adoption.
+The exact current Map Object receiver, however, is still the earlier scalar-only five-surface receiver. Its implementation rebuilds the Object with `SurfaceTool`, emits vertices, generates normals and then post-normal indexes the five surfaces. It does **not** author or bind a TEXCOORD_0 stream before indexing. That means an exact roughness scalar digest proves the selected values exist upstream, but does not prove where those values land on the current Map receiver.
 
 ## Selected bounded Environment improvement
 
-Rebind the already-reviewed current-world consumer
+Add one fail-closed **selected-roughness receiver-readiness gate** on existing Map PR #24 instead of assigning the texture by material name or inventing Environment-owned UVs.
 
-`map-consumer:service-pavilion-001:planar-role-post-normal-indexed-001`
+New exact Map files:
 
-to Hard Surface PR #14's exact source-owner hard-normal authority policy **without** changing source geometry, receiver geometry, generated normals, materials, Nature, Object, footprint dressing, Weather, route, cameras, lighting or the default Building receiver.
+- `contracts/environment_object_selected_roughness_receiver_readiness.json`;
+- `environment-proof/atmosphere_current_world_object_selected_roughness_readiness_observe.gd`;
+- `tools/environment_object_selected_roughness_receiver_readiness.py`;
+- `docs/ENVIRONMENT_OBJECT_SELECTED_ROUGHNESS_RECEIVER_READINESS_001.md`;
+- `.github/workflows/environment-object-selected-roughness-receiver-readiness.yml`.
 
-This closes an authority/provenance gap only. The previous Environment pass had already proven the 312 consumer occupies exactly the Geometry-owned material-role + transformed-position quotient while not preserving source hard-normal identity. Hard Surface has now source-owned what that missing attribute means. Environment therefore binds the new policy to the real receiver rather than inventing another representation.
+Exact current implementation head:
 
-## Exact implementation identity
+**`1fcc9727012d156f8d1c4658c8dca4f0e9dd3c33`**
 
-Repository: `mike-axiom-mir/axm-map-design`
+The new Environment rule is:
 
-Existing Environment PR: **#24**
+**`SPATIAL_MATERIAL_FIELD_REQUIRES_EXACT_RECEIVER_UV_IDENTITY_BEFORE_CURRENT_WORLD_ADOPTION`**
 
-Exact final tested head:
+## Exact upstream identities pinned
 
-**`a543fdd30b0b846a56f09f17c3b5680a9fa73997`**
+### Materials-selected roughness
 
-Added on the existing lane:
+Repository: `mike-axiom-mir/axm-object-design`
 
-- `contracts/environment_building_planar_role_hard_normal_authority_rebind.json`;
-- `tools/environment_building_planar_role_hard_normal_authority_rebind.py`;
-- `docs/ENVIRONMENT_BUILDING_PLANAR_ROLE_HARD_NORMAL_AUTHORITY_REBIND_001.md`;
-- `.github/workflows/environment-building-planar-role-hard-normal-authority-rebind.yml`.
+Materials PR: **#6**
 
-Hard-Surface source-owner policy pinned exactly:
+Exact Materials head:
 
-- repository: `mike-axiom-mir/axm-building-design`;
-- PR: **#14**;
-- head: **`7b86b1a9da1ef8dc670ca01cf4918728e68ece92`**;
-- policy path: `assets/service_pavilion_001_planar_role_hard_normal_authority_policy.json`;
-- policy Git blob: **`826cc61a2e9fc172db5025f5b3ace6f566d5125a`**;
-- canonical policy SHA-256: **`607cd4a26d4a53da41d350bce056b2d6cb57fd5f05b750c200ade45cd4a9a9c9`**.
+**`0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`**
 
-## Exact target-host/evidence result
+Selected-field contract:
 
-Dedicated workflow:
+- path: `lookdev/service_dark_roughness_selected_field_001.json`;
+- Git blob: `16ab4ea07c41273e58b72f970d6bed383bbbfe33`;
+- material: `service_dark`;
+- semantic: `BASE_LEVEL_R8_SCALAR_VALUES_ROW_MAJOR`;
+- dimensions: **512x512**;
+- scalar SHA-256: **`b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`**;
+- observed R8 range: **153..183**;
+- distinct R8 values: **31**;
+- Art Direction reference: `PASS_ART_DIRECTION_OBJECT_SERVICE_DARK_BOUNDED_ROUGHNESS_MICROVARIATION_PREFERENCE_024`.
 
-**`35205949611 — Environment Building planar-role hard-normal authority rebind evidence` — SUCCESS**
+Environment does not change any of those values.
 
-Scoped Environment state:
+### Technical Art transport
 
-**`PASS_CURRENT_WORLD_BUILDING_312_CONSUMER_REBOUND_TO_SOURCE_HARD_NORMAL_AUTHORITY`**
+Technical Art PR: **#28**
 
-Explicit hold:
+Exact Technical Art head:
 
-**`HOLD_DEFAULT_ADOPTION__TECHNICAL_ART_TRANSPORT_RUNTIME_TARGET_DEVICE_AND_INDEPENDENT_VISUAL_GATES_REMAIN_SEPARATE`**
+**`1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`**
 
-`environment_adoption = false`.
+Accepted authority path is specifically the repaired:
 
-The current consumer remains:
+**`Object Technical Art selected roughness semantic UC transport`**
 
-- derivation: **`GODOT_POST_NORMAL_PER_MATERIAL_SURFACE_INDEX`**;
-- stored vertices: **312**;
-- indices: **1008**;
-- triangles/primitives: **336**;
-- material surfaces: **5**;
-- generated normal/index domain: **consumer-owned**;
-- source hard-normal identity preserved: **false**;
-- consumer-generated normals are source normals: **false**;
-- source-owner equivalence claimed: **false**;
-- source collapse authorized: **false**.
+Exact upstream result:
 
-A deliberate mutation that removed the dropped-source-attribute declaration while falsely asserting source hard-normal preservation was rejected fail-closed.
+`PASS_OBJECT_SERVICE_DARK_SELECTED_ROUGHNESS_SCALAR_TO_CURRENT_UC_TEXTURED_GLB_TO_GODOT_FRONT_VIEWS`
 
-## Real multi-asset receiving evidence
+Exact emitted GLB SHA-256:
 
-Because Hard Surface PR #14 changes source authority/provenance rather than scene art, Environment did **not** manufacture a new visual delta. The new gate downloads, verifies and rehashes the exact prior current-world evidence at Environment head `9c1fb7b1a53f06a6a8c3c72ce3d1c3e5e1354d3f` and binds it to the new source-owner policy.
+**`9327291569a04bcb22016dc2ac4292499531b141a19e4bfceb291122e20ac3f4`**
 
-Retained real-Godot scene evidence remains:
+That proof retains two source-surface meshes / two primitives, exact selected scalar identity in ORM green, `UC UV status = MEASURED`, and a real Godot target PASS. The separate older selected-roughness workflow on the same Technical Art head is currently failing and is **not** treated as authority; Environment pins only the repaired semantic-transport evidence path.
 
-- dynamic states: **17**;
-- real current-world frames: **68**;
-- frame-set SHA-256: **`9cef7fc28fa02fd04d0ac1aede367a433d97dbf64b0aebfaebd6430c5fa77238`**;
-- composition spans Building + Nature + indexed Object + visible footprint cue + Weather;
-- Weather projected-width observations: **1,224**;
-- maximum Weather width residual: **`0.00974698571769128 px`** under the existing `0.05 px` gate;
-- Building role vertex counts: `200 / 24 / 36 / 36 / 16`;
-- Nature/Object/Weather receiving state reauthored by this pass: **false**.
+## Current Map receiver boundary
 
-This is real multi-asset receiving evidence, but the visual pixels are retained evidence from the immediately preceding exact consumer proof because this activation changes authority binding only.
+Current Environment Object receiving identity remains:
 
-## Retained Runtime / Technical-Art boundaries
+- Object asset: `source:object:modular-equipment-case-001`;
+- source head: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
+- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- current Environment Materials head: `c85517446a769e0d5f880fc0e9e32f47124f7b5e`;
+- current material-profile SHA-256: `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`;
+- exact five surfaces: `shell_coating`, `service_dark`, `hardware_steel`, `rubber_guard`, `interface_orange`;
+- current proof path: scalar StandardMaterial values, generated normals, post-normal indexing;
+- exact spatial roughness field adopted: **false**.
 
-Relative to the active segmented rollback, the 312 indexed consumer still measures on the retained proof host:
+The source implementation currently emits no Environment-owned UV0 mapping. This is enough to justify a receiving **HOLD**, but this activation does not convert source inspection into a target-host PASS. The new Godot observer is responsible for reproducing the exact post-index receiver UV state in the real scene.
 
-- observed buffer memory: **`-8,304 B`**;
-- primitives: **`+180`**;
-- maximum indexing changed pixels/frame: **55**;
-- maximum channel delta: **1 LSB**;
-- pixels above `1 LSB`: **0**.
+## Real-scene evidence surface selected
 
-These values are intentionally unchanged by the authority rebind. Runtime PR #42 retains representative cost/device ownership.
-
-Technical Art PR #40's separate exactness boundary also remains visible: Environment does not convert a consumer-owned generated-normal domain into byte-exact source-normal transport and does not create a generic normal tolerance.
-
-## Rollback / adoption decision
-
-Default adoption remains **false**.
-
-Active segmented rollback/default remains:
+The new gate deliberately reuses the exact accepted Environment world at:
 
 **`7713cbe5863c3bc38dabb6236eb4b393401224b6`**
 
-The 312 consumer is now better specified, not more authoritative. The new pass says exactly which source attribute it discards and which downstream identity replaces it; it does not promote the consumer over the active rollback.
+Pinned retained run:
+
+**`35174899697 — Environment Nature leaf flutter current-world evidence` — SUCCESS**
+
+That world already provides:
+
+- 17 dynamic states;
+- 68 real Godot frames;
+- Building + Nature + indexed Object + visible Environment footprint cue + Weather together;
+- 1,224 Weather projected-width observations;
+- exact current Object post-normal indexed receiving path.
+
+The new readiness observer extends that accepted target observer without changing scene art. It inspects `Mesh.ARRAY_TEX_UV` on every exact Object material surface, then rerenders the same world. The verifier requires all 68 new frames to remain byte-identical to the retained parent and all 1,224 Weather width measurements to remain inside the existing `0.05 px` gate.
+
+If any UV0 stream appears, the observer fails rather than preserving the HOLD automatically. If any code claims `selected_roughness_adopted=true` while UV0 remains absent, an explicit negative control must reject the result.
+
+## Current execution state — no fake green claim
+
+Dedicated workflow:
+
+**`35211529232 — Environment Object selected roughness receiver readiness`**
+
+Current state at this activation:
+
+**QUEUED**
+
+Therefore this status does **not** claim a new real-Godot receiver-readiness PASS yet.
+
+Expected bounded result if the target observer reproduces the current receiver:
+
+**`HOLD_CURRENT_WORLD_OBJECT_SELECTED_ROUGHNESS_RECEIVER__EXACT_UV0_BINDING_NOT_PRESENT`**
+
+with:
+
+`environment_adoption = false`.
+
+The HOLD means the selected roughness field is upstream-valid but not yet spatially bound to the current Map receiver. It is not a rejection of the Materials field and not a failure of Technical Art transport.
+
+## Smallest next receiving handoff
+
+Before Environment can run a truthful full-world selected-roughness A/B, one of two owner-safe paths must be proven:
+
+1. **Exact UV rebind to the current five-surface receiver** — Technical Art supplies source-triangle/UV correspondence that Environment can consume without changing Object source/material authority; or
+2. **Validated transport receiver adoption test** — Environment proves exact geometry, placement/transform and material-role correspondence for consuming the Technical Art representation instead of the current Map reconstruction.
+
+Only after one of those bindings exists should Environment render the spatial roughness field in the full Building + Nature + Object + Weather composition. Runtime L8/atlas/target-device decisions remain downstream and separate.
 
 ## Handoffs recorded
 
-- **Map Environment PR #24:** comment **`5712234134`** — exact source-authority rebind result, retained 68-frame/1,224-width evidence, Runtime trade and default hold.
-- **Building Hard Surface PR #14:** comment **`5712235596`** — downstream return proving the policy is consumed unchanged while source 604-class authority remains intact.
-- **Map Technical Art PR #40:** comment **`5712237018`** — 312 remains a consumer-owned normal/index domain; no source-normal equivalence or generic tolerance is transferred.
-- **Map Runtime PR #42:** comment **`5712238220`** — authority-only rebind leaves `-8,304 B / +180 primitives` unchanged; representative target-device/performance gate remains Runtime-owned.
+- **Map Environment PR #24:** comment **`5712982767`** — new readiness scope, exact selected/Technical-Art identities, real-scene gate and queued truth state.
+- **Object Materials PR #6:** comment **`5712984230`** — downstream return; selected field remains authoritative but is not silently adopted without a receiver UV identity.
+- **Object Technical Art PR #28:** comment **`5712986694`** — exact semantic transport consumed as authority; requested exact UV/triangle or validated receiver-equivalence handoff if the target HOLD reproduces.
 
-Nature, Object and Weather received no implementation rewrite because no ownership-safe handoff required one in this pass.
-
-## Retained evidence
-
-Final valid artifact:
-
-- artifact ID: **`10490410749`**;
-- name: `environment-building-planar-role-hard-normal-authority-rebind-001-a543fdd30b0b846a56f09f17c3b5680a9fa73997`;
-- size: **`5,459,648 B`**;
-- GitHub SHA-256: **`e69960121f730a9ae24b10ec9989c9c0a032b5ac651e03b8a293fc1a454c36fa`**;
-- independently downloaded/rehashed SHA-256: **same value**;
-- retained prior current-world render set: **68 PNGs**.
-
-The archive retains the exact Environment head, receiving contract, exact Hard-Surface authority policy, final Environment report, prior current-world Environment report, Runtime report/runtime receipt and the 68 retained real-Godot world frames.
+No Object source/material/Technical-Art implementation was placed in `axm-create-me`.
 
 ## Reusable composition learning
 
-New Environment receiving rule:
+> **A scalar texture identity proves the values, not their placement on a different receiver. Spatial material adoption requires the receiver coordinate identity to be exact and owned.**
 
-> **SOURCE_ATTRIBUTE_QUOTIENT_REQUIRES_EXPLICIT_DROPPED_ATTRIBUTE_DECLARATION_AND_CONSUMER_OWNED_REPLACEMENT_IDENTITY**
+For Environment work, that means source/material/transport success does not automatically transfer into the assembled world. The receiving mesh must prove the spatial channel that gives the field meaning before a visual adoption claim is allowed.
 
-Practical meaning:
-
-> When a receiving representation becomes smaller by dropping a source-owned render attribute from the equivalence key, the receiver must name the discarded source attribute and name its own replacement storage/generation identity. Equal counts or exact role+position partitions do not silently transfer source authority.
-
-Existing rules remain in force: source-owner render equivalence and consumer storage are separate identities; exact source structure is not scene evidence until transform/placement/composition are proven; position-partition equivalence is not normal equivalence.
-
-This remains an Environment/Building receiving discipline. It is **not** automatically promoted into Universal Creation or Profession Fabric from one asset family.
+This rule remains a bounded Environment receiving discipline. It is not automatically promoted into Universal Creation or Profession Fabric from one Object case.
 
 ## Explicit non-claims
 
-This activation does **not** establish source-hard-normal preservation in the 312 consumer; equivalence of generated consumer normals to source normals; permission to collapse the 604 source representation; default adoption; byte-exact Technical-Art transport/import identity; a generic normal tolerance; target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance; acceptability of the residual `+180` primitives; arbitrary camera/renderer/material-channel equivalence; final Nature timing/naturalness; Weather aesthetic preference or physical wind; Object/Building gameplay/collision/navigation validity; CANON; production/game readiness; or Environment / World Art mastery.
+This activation does **not** establish a new target-host UV observation yet; current-world selected roughness appearance; exact Map-to-Technical-Art UV equivalence; production UV adoption; Runtime L8 or 512x384 adoption; target-device performance; final Object readability under the spatial field; final Art Direction or Visual QA acceptance; Nature timing/naturalness; Weather preference or physical correctness; gameplay/collision/navigation suitability; CANON; production/game readiness; or Environment / World Art mastery.
 
 ## Four-root merge gate
 
-- **Truth:** 604 source-authorized classes, the 312 attribute-dropping quotient, the 312 current-world consumer, 292 removed source identities, 188 hard-normal-crossing groups and the exact dropped `EXACT_CARDINAL_HARD_NORMAL` attribute remain separately named and executable.
-- **Agency / non-domination:** Hard Surface retains source hard-normal authority; Environment owns receiving/rollback only; Technical Art, Runtime and Art/QA retain independent gates; Nature/Object/Weather ownership is untouched.
-- **Continuity:** exact prior 68-frame evidence, the active segmented rollback, prior status blob, source-owner policy and downstream handoffs remain pinned and rollbackable; no source or scene asset is silently rewritten.
-- **Wisdom before speed:** the existing consumer was rebound to the new source-owner authority before proposing another mesh, smoothing rewrite or adoption; default remains held until the remaining independent gates are genuinely satisfied.
+- **Truth:** exact selected scalar, exact Technical Art transport and exact current Map receiver are named separately. The target workflow is recorded as queued rather than promoted to a PASS. The legacy failing TA workflow is not conflated with the repaired semantic authority path.
+- **Agency / non-domination:** Materials retains roughness meaning; Technical Art retains UV/channel/import identity; Environment owns current-world receiving/rollback only; Runtime retains storage/device authority; Art/QA retain visual judgment.
+- **Continuity:** prior Building status, active segmented rollback and exact 68-frame Environment parent remain preserved; the new Object gate advances the existing PR #24 rather than replacing it.
+- **Wisdom before speed:** Environment blocks a visually tempting texture adoption at the smallest missing identity — UV placement — instead of inventing coordinates, opening another asset variant or treating upstream transport success as automatic world acceptance.
