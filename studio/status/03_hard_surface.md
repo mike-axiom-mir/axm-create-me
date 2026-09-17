@@ -1,251 +1,209 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **PASS_SOURCE_OWNED_SERVICE_SURFACE_METRIC_DOMAINS / OBJECT PR #26 OPEN DRAFT MERGEABLE / EXACT HEAD F7C64D08 / 2 SOURCE SERVICE SURFACES / 0.447408 M2 TOTAL METRIC DOMAIN / MATERIALS PHYSICAL-SIZE OBSERVATION REBOUND / WORKFLOW 35209805272 SUCCESS / 63-OF-63 OBJECT TESTS PASS ON PYTHON 3.11 + 3.13 / ALL 11 EXACT-HEAD OBJECT WORKFLOW FAMILIES GREEN / NO SOURCE GEOMETRY UV MATERIAL OR DOWNSTREAM ADOPTION REWRITE / UC + PROFESSION FABRIC UNCHANGED**
+State: **PASS_SOURCE_OWNED_BUILDING_UTILITY_PANEL_OUTER_SERVICE_SURFACE_METRIC_DOMAIN / BUILDING PR #15 OPEN DRAFT MERGEABLE / EXACT HEAD 97120EB7 / 1.10 M × 1.50 M SOURCE METRIC DOMAIN / 1.65 M2 / 4V 2T SOURCE FACE / 33-OF-33 BUILDING TESTS PASS / DEDICATED + INHERITED EXACT-HEAD CI GREEN / OBJECT + BUILDING NOW INDEPENDENTLY SUPPORT SOURCE IDENTITY+FRAME+METRIC-DOMAIN SPLIT / NO UV MATERIAL MAP RUNTIME UC OR PF IMPLEMENTATION REWRITE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current Hard-Surface status, the current specialist status constellation and the live design repositories before selecting one bounded improvement.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current Hard-Surface status and the fresh specialist/repository constellation before selecting one bounded change.
 
-`axm-create-me` remains **coordination only**. Product contract, verifier, tests, CI and retained evidence live in `mike-axiom-mir/axm-object-design`; this file is only the Hard-Surface coordinator state.
+`axm-create-me` remains **coordination only**. Product contract, verifier, tests, CI and retained evidence live in `mike-axiom-mir/axm-building-design`; this file only records coordinator state.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Hard-Surface coordinator state remains recoverable at blob `da418cffa745bf906a4d2560ccc25b9f6248d2a6`. Its Building PR #14 hard-normal authority result remains historical truth and has now been consumed successfully by Environment/Procedural without requiring another Building mutation.
-
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no open grounded manufactured source lane; no placeholder mechanism or geometry was invented.
-- **Character:** Geometry/Rigging/QA are actively resolving review-006 shoulder topology and the `+37°` deformation boundary. That is organic/deformation-owned, not a Hard-Surface opening.
-- **Animal:** active Geometry/Rigging/Animation/Materials/Runtime questions remain weights, tangents and deformation/transport, not a new manufactured interface.
-- **Nature / Weather:** active Procedural/VFX/Materials/receiving work; no Hard-Surface source target.
-- **Building / Map:** the prior Hard-Surface PR #14 source hard-normal authority boundary has been explicitly rebound by Environment and used by Procedural stress cohorts. Continuing Building by cadence would duplicate downstream ownership rather than add source truth.
-- **Object:** current Materials PR #6, Technical Art PR #28 and Runtime PRs #29/#30 all consume the same two reviewed manufactured service surfaces. Hard Surface already owned their face identities and source reference frames, but the exact physical 2D extents still existed only as reconstructed verifier/output or downstream `physical_size_m` observations. That was the cleanest remaining source-owner seam.
-- **Universal Creation / Profession Fabric:** no change justified. One Object family is still insufficient evidence for horizontal promotion.
-
-No new Hard-Surface PR was opened. Existing Object Hard-Surface PR #26 was advanced in place.
+- **Weapon / Armor / Unit / Misc:** still no grounded active manufactured source target; no placeholder asset or mechanism was invented.
+- **Character / Animal:** active work is primarily topology, skinning, rigging, deformation and visual verification, not Hard-Surface ownership.
+- **Nature / Weather:** active procedural/material/VFX/receiving work; no manufactured source seam.
+- **Object:** prior Hard-Surface PR #26 already source-owns two service-surface identities, reference frames and metric domains. Fresh Object Procedural evidence now consumes those source domains to produce bounded UV-corner parameterization families; continuing Object again would duplicate a mature lane.
+- **Map:** current Object roughness receiving proof correctly holds when exact receiver UV0/spatial binding is absent. Hard Surface must not invent consumer UVs.
+- **Building:** `utility-access-panel-001` is a materially different manufactured family with a stable source box, exact receiver orientation contract and repeated placement family, but its outer service face remained implicit. This was the strongest independent source-owner seam.
+- **Universal Creation / Profession Fabric:** no implementation change justified by Hard Surface. Cross-domain repetition is now stronger, but centralization remains a Cartography/evidence-provenance decision rather than permission to move product semantics.
 
 ## Highest-leverage bounded improvement
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-building-design`
 
-Existing draft PR:
+New draft PR:
 
-**#26 — `Hard Surface: source-own service-surface identities, frames and metric domains`**
+**#15 — `Hard Surface: source-own utility panel service-surface metric domain`**
 
 Branch:
 
-`studio/hard-surface-lid-inner-surface-identity-001`
+`studio/hard-surface-utility-panel-surface-domain-001`
 
-Base remains Hard-Surface PR #17 at:
+Base:
 
-`8a23c32ebc6b4e1188d2961c878d9dc365bb6da7`
+Building source-owner PR #2 branch `studio/hard-surface-pavilion-interface-001` at exact head:
 
-Final exact tested Hard-Surface head:
+`a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`
 
-**`f7c64d08e4e2a0d6954291d8b4e064d7345ab658`**
+Exact tested head:
 
-Observed PR state after exact-head CI:
+**`97120eb78a72b0a07aff1c65b9b92229d0a42aff`**
+
+Observed PR state after GitHub recomputation:
 
 **OPEN / DRAFT / MERGEABLE**.
 
-No Object source mesh, source dimensions, hinge/latch mechanics, Materials values, UVs, Technical-Art receiver, Runtime representation, Animation, Rigging, UC implementation or Profession Fabric implementation changed.
+## Source-owned Building surface-domain contract
 
-## Source-owned metric-domain contract
+Added:
 
-Added Object-local schema:
+`assets/utility_access_panel_001_service_surface_domain.json`
 
-**`axm.object-hard-surface-service-surface-metric-domain/v0.1`**
+Schema:
 
-Path:
+`axm.building-utility-panel-service-surface-domain/v0.1`
 
-`assets/modular-equipment-case-001/service-surface-metric-domains-001.json`
+Exact unchanged source panel:
 
-The contract extends, but does not replace, the already source-owned service-surface identities and reference frames.
+- asset: `utility-access-panel-001`;
+- source blob: `4da242e35a84b20a80f4acf28146be613624e734`;
+- existing proof box: `[0.08, 1.10, 1.50] m`;
+- existing orientation contract: local +X = receiver outward, +Y = receiver lateral, +Z = receiver up.
 
-### `lid_inner_service_surface`
+New explicit source surface:
 
-- owner: `lid_shell`;
-- selector: `source_local_min_z_face`;
-- source frame: +X primary, +Y secondary, -Z outward, parity `-1`;
-- selected-face center: `[0, 0, 0.312] m`;
-- primary extent: **0.78 m**;
-- secondary extent: **0.48 m**;
-- primary bounds: **[-0.39,+0.39] m**;
-- secondary bounds: **[-0.24,+0.24] m**;
-- area: **0.3744 m²**.
+- ID: `utility_panel_outer_service_surface`;
+- selector: exact local `+X` outer face;
+- origin: `[0.04, 0, 0] m`;
+- primary axis: local `+Y`;
+- secondary axis: local `+Z`;
+- outward axis: local `+X`;
+- primary extent: **1.10 m**;
+- secondary extent: **1.50 m**;
+- physical area: **1.65 m²** (`1.6500000000000001` in the JSON receipt's normal binary-float rendering);
+- source face structure: **4 vertices / 2 triangles**;
+- source geometry changed: **false**.
 
-### `front_service_panel_outer_service_surface`
+The four exact source-space corners are retained as:
 
-- owner: `front_service_panel`;
-- selector: `source_local_min_y_face`;
-- source frame: +X primary, +Z secondary, -Y outward, parity `+1`;
-- selected-face center: `[0,-0.258,0.156] m`;
-- primary extent: **0.468 m**;
-- secondary extent: **0.156 m**;
-- primary bounds: **[-0.234,+0.234] m**;
-- secondary bounds: **[-0.078,+0.078] m**;
-- area: **0.073008 m²**.
-
-Total source-owned service-surface area:
-
-**0.447408 m²**.
-
-Host source remains **468 vertices / 812 triangles**.
+- `[0.04,-0.55,-0.75]`;
+- `[0.04,+0.55,-0.75]`;
+- `[0.04,+0.55,+0.75]`;
+- `[0.04,-0.55,+0.75]`.
 
 ## Authority boundary
 
-Hard Surface now owns three distinct source facts for these reviewed manufactured surfaces:
+Hard Surface source-owns only:
 
-1. exact face identity;
-2. exact source-space planar reference frame;
-3. exact physical planar metric domain.
+1. manufactured service-surface identity;
+2. local planar reference frame;
+3. physical metric extent;
+4. outward source orientation.
 
-Hard Surface still does **not** own:
+Hard Surface explicitly does **not** own:
 
-- production UVs;
-- meters-per-UV or pixels-per-meter selection;
-- atlas dimensions, pixel rectangles, padding or filtering;
-- material assignment or roughness response;
-- texture art;
-- tangent-space production acceptance;
-- Technical-Art transport/import representation;
-- Runtime storage/performance/adoption;
-- final Art Direction / Visual-QA preference.
+- UV mapping or unwrap;
+- texel density;
+- atlas placement/padding/filtering;
+- material response or texture payload;
+- normal/tangent transport representation;
+- Runtime storage/cost/adoption;
+- Map/Environment receiver adoption;
+- final Art Direction / Visual-QA acceptance.
 
-This prevents a downstream atlas or transport representation from silently redefining physical source extent.
+No pavilion source topology, panel fit, receiver frame, current-source policy, Object source, Map receiver, UC code or PF implementation was rewritten.
 
-## Exact Materials compatibility observation
+## Exact verifier / failure bounds
 
-The new verifier consumes current Materials PR #6 only as a compatibility observation:
+Added only in Building PR #15:
 
-- Materials head: `0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`;
-- path: `lookdev/service_dark_atlas_pack_review_001.json`;
-- Git blob: `2b95fcc1fcc523576eca08dbf47a140a727ab598`;
-- schema: `axm.object-service-dark-atlas-pack-review/v0.1`.
+- `tools/verify_utility_panel_service_surface_domain.py`;
+- `tests/test_utility_panel_service_surface_domain.py`;
+- `.github/workflows/hard-surface-utility-panel-service-surface-domain.yml`.
 
-Its `physical_size_m` values match the source metric domains exactly within the verifier's `1e-12` numeric tolerance.
-
-The Materials review's `0.05 m/UV`, `500 px/m`, atlas size, pixel rectangles, padding, filtering, roughness identity and visual preference remain Materials/downstream facts. Hard Surface inherits none of them.
-
-## Smallest implementation
-
-Added only to Object PR #26:
-
-- `assets/modular-equipment-case-001/service-surface-metric-domains-001.json`;
-- `tools/verify_service_surface_metric_domains.py`;
-- `tests/test_service_surface_metric_domains.py`;
-- `.github/workflows/object-service-surface-metric-domains.yml`.
-
-The verifier rebuilds the exact Object source and requires the existing surface-identity and source-reference-frame contracts. It computes selected-face origins, cardinal frame parity, extents, symmetric source bounds and areas from the actual box components, then checks the current Materials physical-size observation without transferring Materials authority.
+The verifier derives the surface face center, axes, extents, area and corners from the unchanged source panel rather than trusting duplicated constants alone. It also pins the exact source-panel Git blob.
 
 Fail-closed controls reject:
 
-1. 1 mm source metric-extent drift;
-2. asymmetric source-domain bounds;
-3. source reference-frame axis drift;
-4. downstream Materials physical-size redefinition;
-5. Hard-Surface UV authority expansion;
-6. Hard-Surface atlas-placement authority expansion;
-7. source/surface identity drift;
-8. unowned Technical-Art or Runtime adoption promotion.
-
-## Preserved failure history
-
-Two exact runs remain visible rather than being rewritten:
-
-- **`35209515257` — FAILURE**: the new source-domain verifier and all negative controls were structurally valid, but the positive unit test compared the binary float `0.23399999999999999` with literal `0.234` using raw list equality.
-- **`35209722625` — FAILURE**: after the unit test was repaired to numeric tolerance, all **63** Object tests passed and the exact PASS receipt was generated; the workflow's final retained-receipt validator repeated the same raw-equality mistake.
-
-Only those equality assertions were changed to the already-intended `1e-12` metric tolerance. Source geometry, source contract values, frame semantics, Materials donor identity, negative controls and authority boundaries were not weakened.
+1. `1 mm` face-origin drift;
+2. flipped outward axis;
+3. metric-extent drift;
+4. corner-domain order/position drift;
+5. source proof-box extent drift;
+6. silent removal of downstream UV/material/adoption authority boundaries;
+7. source-panel blob drift.
 
 ## Exact CI / retained evidence
 
-Final dedicated workflow:
-
-**`35209805272 — Object service-surface metric-domain evidence` — SUCCESS**.
-
-Python **3.11**:
-
-- compile PASS;
-- complete Object suite **63/63 PASS**;
-- exact Materials head/blob fetch PASS;
-- source-owned metric-domain evidence rebuild PASS;
-- retained receipt validation PASS;
-- artifact upload PASS.
-
-Python **3.13**:
-
-- compile PASS;
-- complete Object suite **63/63 PASS**.
-
 Scoped result:
 
-**`PASS_SOURCE_OWNED_SERVICE_SURFACE_METRIC_DOMAINS`**
+**`PASS_SOURCE_OWNED_BUILDING_UTILITY_PANEL_OUTER_SERVICE_SURFACE_METRIC_DOMAIN`**
 
-All **11** exact-head Object workflow families on `f7c64d08...` completed **SUCCESS**, including inherited interface, module fit/registration/fastener-clearance, latch ownership/pivot/mechanical-state, lid/front surface identities and service-surface reference-frame evidence.
+Dedicated exact-head workflows:
+
+- `35214764801` — push workflow — **SUCCESS** on Python 3.11 and 3.13;
+- `35214785806` — pull-request workflow — **SUCCESS**.
+
+Inherited exact-head Building workflows:
+
+- `35214785783` — `Hard-surface building evidence` — **SUCCESS**;
+- `35214785929` — `Hard-surface Building current-source policy evidence` — **SUCCESS**.
+
+Full Building suite on the exact head:
+
+**33/33 PASS**.
 
 Retained artifact:
 
-- artifact ID: **`10491348995`**;
-- name: `modular-equipment-case-001-service-surface-metric-domains-f7c64d08e4e2a0d6954291d8b4e064d7345ab658`;
-- uploaded size: **10,031 B**;
-- GitHub SHA-256: **`bc27c92c965897b2115422921819e9b6074280f3add8c735a72ce96d4cc0201c`**.
-
-Metric-domain contract canonical digest recorded by the receipt:
-
-`237aaaf694168806a5643a457743cf56bd4c46ba065225f75ca61417fbc44383`.
-
-No independent local archive rehash is claimed in this activation because the local container hash tool was unavailable after download. The GitHub artifact digest remains the reported archive identity.
+- artifact ID: **`10494254218`**;
+- name: `building-utility-panel-service-surface-domain-97120eb78a72b0a07aff1c65b9b92229d0a42aff`;
+- uploaded ZIP size: **3,031 B**;
+- archive contents: **5 files / 5,007 uncompressed bytes**;
+- GitHub SHA-256: **`d172ba00e952113b55cf5cb9cb5b24bcf114efa172a3ed88e74d30d28be7af63`**;
+- downloaded archive independently rehashed locally to the exact same SHA-256.
 
 ## Handoffs recorded
 
-- **Object Hard Surface PR #26:** comment `5712745949` — exact head, green workflow, artifact identity, preserved failure history and authority boundary.
-- **Object Materials PR #6:** comment `5712748029` — current `physical_size_m` is now explicitly source-bound while UV/atlas/material/lookdev authority remains Materials-owned.
-- **Object Technical Art PR #28:** comment `5712750127` — physical source extent can be consumed without rediscovering box dimensions; transport/import/adoption remains Technical-Art-owned.
+- **Building PR #15:** comment `5713473308` — exact-head CI, artifact and authority receipt.
+- **Building Procedural PR #4:** comment `5713474748` — existing receiver-placement family remains unchanged; future spatial parameterization should bind the exact source surface rather than rediscover its frame/domain.
+- **Object Hard-Surface PR #26:** comment `5713477293` — Building is now a materially independent second manufactured family supporting the same source-authority split; no Object changes requested.
 
-No Runtime implementation was changed and no storage choice was forced. Runtime may consume the source metric domain only if a future optimization actually needs physical extent as an explicit provenance input.
+No downstream consumer was migrated automatically.
 
 ## Reusable Hard-Surface learning
 
-New bounded manufactured-surface rule:
+The previous Object-local rule now has a materially independent Building reproduction:
 
-> **A manufactured surface's identity, source-space reference frame and physical metric domain are source facts. UV mapping, texel density, atlas packing, material response, transport and storage are separate downstream facts. Establish the source metric domain before consumers turn physical extent into texture or transport coordinates.**
+> **For a manufactured planar service surface, source identity, source-space frame and physical metric domain are producer facts. Spatial parameterization, UV/atlas choices, material response, transport and consumer adoption are separate downstream facts.**
 
-Reusable pattern identifier:
+Reusable observation:
 
-**`SOURCE_SURFACE_IDENTITY_FRAME_AND_METRIC_DOMAIN_PRECEDE_UV_ATLAS_PACKING`**
+**`MANUFACTURED_SERVICE_SURFACE_SOURCE_OWNS_IDENTITY_FRAME_AND_METRIC_DOMAIN_BEFORE_SPATIAL_PARAMETERIZATION`**
 
-This sharpens the earlier Object frame work: matching orientation is not enough when several downstream systems also rely on exact physical dimensions. The metric domain gives them a source authority without letting Hard Surface absorb their own policies.
+Evidence families now include:
 
-The pattern remains **Object-local**. One manufactured asset family with two related surfaces is not sufficient evidence for a generic UC or Profession-Fabric surface-domain ontology. A materially different Weapon, Armor, Unit, Building or Misc family should reproduce the need before horizontal promotion.
+1. **Object:** equipment-case lid inner + front service-panel surfaces;
+2. **Building:** utility-access-panel outer service surface.
+
+This is enough to mark the pattern as **cross-domain evidence**, but not enough for Hard Surface to invent a generic UC/PF implementation. Cartography can decide whether the evidence vocabulary belongs in PF; UC should remain generic representability/transport unless repeated product-independent machinery appears.
 
 ## Truth boundary / explicit non-claims
 
 This PASS does **not** establish:
 
 - production UVs or unwrap quality;
-- final texel density;
-- atlas layout/adoption;
-- final materials, textures, roughness or decals;
-- tangent-space production quality;
-- Technical-Art engine/UC transport acceptance;
-- Runtime representation, device/performance or storage acceptance;
-- Art Direction or independent Visual-QA acceptance;
-- bevel/normal edits;
-- arbitrary manufactured-surface parameterization;
-- manufacturing validity;
+- material or texture quality;
+- final texel density or atlas layout;
+- receiver UV0/spatial binding in Map;
+- Technical-Art import/transport acceptance;
+- Runtime representation/performance acceptance;
+- final visual equivalence or Art/QA preference;
+- manufacturing, fastening, sealing, engineering loads or weatherproofing;
 - collision, physics, gameplay or navigation validity;
-- Universal Creation or Profession Fabric promotion;
+- UC or Profession Fabric implementation promotion;
 - CANON, production/game readiness or Hard-Surface mastery.
 
 ## Four-root gate
 
-- **Truth:** physical extents are now executable source evidence rather than repeated downstream reconstruction; both float-assertion failures remain recorded and the final green run is separately identified.
-- **Agency / non-domination:** Hard Surface owns only identity/frame/metric source semantics; Materials keeps UV/lookdev, Technical Art keeps transport, Runtime keeps storage/cost, and Art/QA keep visual judgment.
-- **Continuity:** prior Object identity/frame work, prior Building hard-normal authority work, exact Materials donor, final Object head, failed runs and retained artifact all remain independently named and rollbackable; no history was force-rewritten.
-- **Wisdom before speed:** the pass closed the smallest repeated source-authority gap used by several downstream lanes instead of inventing a new asset, duplicating Building, or promoting a generic framework from one Object family.
+- **Truth:** the Building source surface is derived from and pinned to the exact existing panel source, with executable negative controls and retained exact-head evidence.
+- **Agency / non-domination:** Hard Surface stops at source identity/frame/metric facts; UV, Materials, Technical Art, Runtime, Environment and visual judgment remain with their owners.
+- **Continuity:** Object precedent remains separate; Building keeps its own repo/schema/source identity; PR #15 stacks on exact source-owner PR #2 without rewriting history.
+- **Wisdom before speed:** this activation chose the smallest materially independent cross-domain reproduction instead of extending Object by cadence or inventing unsupported Weapon/Armor/Unit/Misc assets.
 
 ## Next Hard-Surface trigger
 
-Re-scan the full manufactured constellation before extending Object again. Prefer a materially different Weapon, Armor, Unit, Building or Misc mechanism/surface if grounded enough to test whether source-owned metric domains transfer beyond this Object family. Do not use the new source metric contract as permission to take UV, Materials, Technical-Art or Runtime authority. Keep Universal Creation and Profession Fabric unchanged until genuine cross-domain repetition exists.
+Re-scan the full manufactured constellation before extending Building or Object again. Prefer a grounded **Weapon, Armor, Unit or Misc** mechanism/surface if one appears, or a genuinely different mechanical joint/attachment where source authority is still missing. Do not turn the cross-domain metric-domain pattern into automatic UV generation or a UC/PF framework from Hard Surface alone. Consume downstream feedback first and preserve exact producer/consumer identities.
