@@ -1,252 +1,241 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / TWENTY-NINTH BOUNDED RUNTIME PASS / PASS_BUILDING_PLANAR_ROLE_RESIDUAL_PRIMITIVE_COST_BELOW_PROOF_HOST_STRESS_DETECTION__HOLD_TARGET_DEVICE / EXACT ACTIVE 276t VS INDEXED PLANAR 336t / +60 RENDERINGSERVER PRIMITIVES PER STRESS INSTANCE / IDENTICAL DRAW-CALL SHAPE / 64x CANDIDATE FASTER 35 OF 41 PAIRS / 256x CANDIDATE FASTER 38 OF 41 PAIRS / 256x PAIRED MEDIAN -1.853333 ms / DO NOT INVENT TOPOLOGY OR LOD REWRITE FROM PRIMITIVE COUNT ALONE / NO NEW VISUAL MUTATION / NO AUTOMATIC ADOPTION**
+State: **ACTIVE / THIRTIETH BOUNDED RUNTIME PASS / PASS_ANIMAL_GLB_WEIGHT_WIDTH_COMPACTION_RECEIVER_BLOCKER_CLEARED__HOLD_ART_QA_AND_PRODUCER_ADOPTION / EXACT RETAINED RUNTIME CANDIDATE REUSED / WEIGHTS_0 1,344 B -> 672 B / COMPLETE GLB 10,948 B -> 10,296 B / MERGED UC MAIN NOW ACCEPTS / 3,444 RIGGING POSED COMPARISONS WITH MAX 1.489726269e-07 m POSITION DELTA / GODOT POSE RECEIPT DELTA 0.0 / VISUAL DELTA 224 PIXELS TOTAL MAX 1 LSB / NO AUTOMATIC PRODUCER ADOPTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned the newest Art Direction, Visual Observer QA, Environment and Runtime evidence before choosing one bounded non-duplicated Runtime question.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Runtime, Technical Art / UC Integration, Rigging, Environment, Art Direction and Visual Observer evidence across the active constellation.
 
-`axm-create-me` remains **coordination only**. The benchmark, verifier, workflow and retained Runtime evidence live in `mike-axiom-mir/axm-map-design`; this repository changes only this specialist status record.
+`axm-create-me` remains **coordination only**. No product implementation was added here. The measured candidate remains in `mike-axiom-mir/axm-animal-design` Runtime PR #27; the downstream receiver and deformation proofs remain in their owning Technical Art and Rigging lanes.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Why this lane was selected
 
-The current indexed planar-role Building receiver has already crossed two distinct Runtime gates:
+The newest Building Runtime work is already correctly narrowed to a target-device question: pass 29 showed that the indexed planar-role Building's higher primitive count does not, by itself, demonstrate a proof-host performance regression. Without representative target hardware, inventing another Building topology/LOD rewrite would duplicate or outrun the evidence.
 
-1. pass 27 proved a real final-storage / buffer-memory win from post-normal per-surface indexing;
-2. pass 28 tested an earlier index-before-normal preparation rewrite and **held it** because the supposedly cheaper construction path was measurably slower.
+A fresher cross-constellation change created a better bounded Runtime opportunity. Animal Runtime PR #27 had already measured a real `WEIGHTS_0` import-budget reduction, but correctly stopped at a HOLD because the then-current generic UC rigged glTF receiver rejected normalized integer weights. Since that pass:
 
-Art Direction and independent Visual Observer QA now treat the indexed planar-role receiver as visually acceptable in the retained evidence, while keeping Runtime's remaining `+180` current-world RenderingServer primitive residual and target-device performance as separate adoption gates.
+- UC repaired that neutral receiver mismatch and merged it;
+- Technical Art replayed Runtime's **exact retained candidate** against merged UC main;
+- Rigging replayed the same candidate over all authored keys and bounded the deformation error;
+- the original real-Godot Runtime A/B remains available for engine and raster comparison.
 
-The highest-value unanswered Runtime question was therefore not another indexing rewrite and not another visual pass:
+The highest-leverage non-duplicated Runtime question therefore became:
 
-> Does the residual triangle / RenderingServer primitive count itself produce a measurable steady render-delivery penalty, or would using that counter alone to justify a new topology/LOD rewrite be premature?
+> **Is the old receiver incompatibility still a valid blocker for the exact normalized-u16 weight candidate, or can Runtime now narrow the HOLD to the remaining visual and producer-adoption decisions without changing the candidate?**
 
-This directly avoids duplicating pass 28's construction/import lane.
+This pass answers that question from exact retained evidence. It does not create a second quantizer, a second Runtime PR, or a new UC change.
 
-## Owning implementation lane
+## Owning Runtime lane
 
-Repository: `mike-axiom-mir/axm-map-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Draft Runtime PR: **#42 — `Runtime: characterize residual Building primitive scaling cost`**
+Existing draft Runtime PR: **#27 — `Runtime: compact Animal skin weights to normalized u16`**
 
-Branch: `studio/runtime-building-planar-role-primitive-scaling-budget-001`
+Branch: `studio/runtime-animal-weight-width-budget-001`
 
-Exact Environment indexed-planar parent head:
+Exact Runtime head that produced the measured candidate:
 
-`038925282240441c475651bdc3737d1749c31d06`
+`e7874c4a8dca1db48bc66f3546c2134f7d724456`
 
-Exact final tested Runtime head:
+Original dedicated Runtime workflow:
 
-`50ce97fd4d1759c667422f21b677aef280535852`
+`35172575874 — SUCCESS`
 
-Exact successful workflow:
+Current Runtime scoped result after continuity rebind:
 
-`35189813957`
+**`PASS_ANIMAL_GLB_WEIGHT_WIDTH_COMPACTION_RECEIVER_BLOCKER_CLEARED__HOLD_ART_QA_AND_PRODUCER_ADOPTION`**
 
-Pinned proof host:
+The Runtime branch bytes are unchanged in this pass. The improvement is a **truthful gate reduction after downstream evidence changed**, not a silent rewrite of the historical result.
 
-- Godot `4.7.2`;
-- GL Compatibility / X11;
-- same-process alternating benchmark;
-- VSync disabled;
-- no viewport image readback or PNG encoding in the timed window.
+## Measure-before / candidate representation
 
-## Exact control and candidate identities
+Exact Technical Art FLOAT control used by Runtime:
 
-The stress benchmark reconstructs the same two Building receivers whose world-level evidence is already retained.
+- Technical Art producer head: `54c9c11505e798a56619ebc14e9ab41f522eef70`;
+- render domain: **84 vertices / 80 triangles**;
+- `WEIGHTS_0`: FLOAT32 VEC4;
+- exact `WEIGHTS_0` payload: **1,344 B**;
+- complete GLB: **10,948 B**.
 
-### Active segmented rollback/control
+Exact Runtime normalized-u16 candidate:
 
-- exact Environment identity: `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
-- surfaces: **5**;
-- stored vertices after current post-normal triangle-corner construction: **828**;
-- indices: **0**;
-- logical triangles: **276**.
+- `WEIGHTS_0`: normalized UNSIGNED_SHORT VEC4;
+- exact `WEIGHTS_0` payload: **672 B**;
+- accessor saving: **672 B / 50%**;
+- complete GLB: **10,296 B**;
+- complete-file saving: **652 B / 5.9554%**;
+- candidate SHA-256: `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`;
+- maximum decoded scalar weight error: **`6.656398159820068e-06`**;
+- decoded normalized row-sum error: **`0.0`**;
+- every non-`WEIGHTS_0` accessor payload hash: unchanged.
 
-### Indexed planar-role review receiver/candidate
+The Runtime quantizer normalizes each source row and uses deterministic largest-remainder allocation so each four-slot integer row sums exactly to `65535`. Malformed, out-of-range, non-unit and unsupported interleaved cases fail closed. This pass does not broaden that policy.
 
-- exact indexed Environment review identity: `038925282240441c475651bdc3737d1749c31d06`;
-- surfaces: **5**;
-- stored vertices: **312**;
-- indices: **1,008**;
-- logical triangles: **336**.
+## Historical receiver HOLD remains provenance
 
-The candidate therefore owns exactly **+60 logical triangles per Building** while storing **516 fewer final vertices** than the active control.
+At the original Runtime pass, UC head:
 
-No source semantics, material role/scalar, Environment composition, camera, Weather, Nature, Object, footprint, gameplay or physics representation is reauthored by this pass.
+`e6826acbc7296ba77d25534c8d3d3770ff3fa747`
 
-## Measurement design
+with generic codec blob:
 
-Both exact meshes are resident in one Godot process as separate `MultiMesh` receivers. Only one representation is visible for each timed sample, and both use identical transforms. This deliberately amplifies the exact representation difference without multiplying draw submission shape.
+`b1f2e68bb6c6800af5496decc95a8044d141edc9`
 
-Stress schedule:
+accepted the FLOAT control but rejected the exact normalized-u16 candidate with:
 
-- visible instances: **1 / 16 / 64 / 256**;
-- warmup: **5 alternating control/candidate pairs** per level;
-- measured samples: **41 alternating pairs** per level;
-- each timing sample: mean of **3 consecutive `RenderingServer.frame_post_draw` intervals**;
-- renderer counters sampled after each representation is presented.
+`WEIGHTS_0 accessor invalid`
 
-The verifier requires exact mesh identity, identical draw-call/object/texture-memory deltas, a positive primitive residual that scales cleanly with instance count, and a deliberate negative mutation that removes the primitive residual must fail closed.
+Runtime correctly refused to patch or bypass UC from the Animal lane. The earlier result therefore remained:
 
-## Exact proof-host result
+`HOLD_ANIMAL_GLB_WEIGHT_WIDTH_COMPACTION__CURRENT_UC_RIGGED_CODEC_FLOAT_ONLY`
 
-Scoped state:
+That result is **not deleted or relabelled**. It is historical truth about that exact receiver revision.
 
-**`PASS_BUILDING_PLANAR_ROLE_RESIDUAL_PRIMITIVE_COST_BELOW_PROOF_HOST_STRESS_DETECTION__HOLD_TARGET_DEVICE`**
+## Current merged-UC receiver evidence
 
-Decision:
+Technical Art subsequently consumed Runtime's exact retained artifact rather than regenerating an equivalent-looking candidate.
 
-**`NO_ROBUST_256X_STRESS_COST_DETECTED_ON_PROOF_HOST__DO_NOT_INVENT_A_TOPOLOGY_REWRITE__KEEP_TARGET_DEVICE_GATE`**
+Exact merged-main continuity proof:
 
-### 1x stress
+- Technical Art head: `5739fc804ef3068be88ad5be0b9013e9c41eba78`;
+- merged UC main: `9332e3455092cf8b0011fd69607d99a1e82a2dc8`;
+- repaired generic codec blob: `02b69b6c7368ba6e34f226ca545293d26d208922`;
+- workflow: `35179340286 — SUCCESS`;
+- retained Technical Art artifact: `10480135003`;
+- archive SHA-256: `81fa06f0d9a907f554f2859deca82fe1f960899e8d650ed6ddec872707db8689`.
 
-- active median: **3.488667 ms**;
-- indexed-planar median: **3.479667 ms**;
-- median-of-medians delta: **-0.009000 ms**;
-- paired delta median: **+0.012333 ms**;
-- candidate faster: **20 / 41**;
-- candidate slower: **21 / 41**;
-- RenderingServer primitive delta: **+60**.
+Merged UC accepts the **same Runtime candidate SHA-256** while retaining:
 
-This is mixed / near-noise evidence, not a positive Runtime regression.
+- **84 vertices**;
+- **80 triangles**;
+- **2 skin joints**;
+- **41 animation frames / 1.0 s**;
+- valid normalized weight sums;
+- valid joint indices;
+- finite changing CPU deformation.
 
-### 16x stress
+This is the key current-state change: **the generic receiver incompatibility is no longer the active blocker.**
 
-- active median: **5.463333 ms**;
-- indexed-planar median: **5.705667 ms**;
-- median-of-medians delta: **+0.242333 ms**;
-- paired delta median: **+0.025000 ms**;
-- candidate faster: **18 / 41**;
-- candidate slower: **23 / 41**;
-- RenderingServer primitive delta: **+960**.
+## Rigging deformation continuity
 
-Again, the paired signal is small and does not meet the declared robust-cost gate.
+Rigging independently tested the same candidate against the exact FLOAT control over the complete retained authored-key field.
 
-### 64x stress
+Exact Rigging evidence:
 
-- active median: **13.038667 ms**;
-- indexed-planar median: **12.517000 ms**;
-- median-of-medians delta: **-0.521667 ms**;
-- paired delta median: **-0.550667 ms**;
-- candidate faster: **35 / 41**;
-- candidate slower: **6 / 41**;
-- RenderingServer primitive delta: **+3,840**.
+- Rigging head: `e4ce8c1f4c3deb55220cf962206d51013d0cfe73`;
+- workflow: `35178277752 — SUCCESS`;
+- comparison field: **41 keys × 84 render vertices = 3,444 posed comparisons**;
+- max decoded weight-slot error: **`6.656398159820068e-06`**;
+- max FLOAT-control vs normalized-u16 skinned-position delta: **`1.4897262690003554e-07 m`**;
+- scoped Rigging acceptance bound: **`2e-07 m`**;
+- deliberate `+64` u16-step mutation signal at peak: **`2.704031056959096e-05 m`**, rejected fail-closed;
+- retained artifact: `10478912800`;
+- archive SHA-256: `99a48f48fe1a9c622f1f46a27370a7239df7e17a8dcf9d1c9eb0b32f6a57a088`.
 
-### 256x stress
+This is strong continuity evidence for the bounded weight representation. It does **not** repair or clear the separate transported deformed NORMAL/TANGENT direction-frame HOLD.
 
-- active median: **32.298667 ms**;
-- indexed-planar median: **30.499000 ms**;
-- median-of-medians delta: **-1.799667 ms**;
-- paired delta median: **-1.853333 ms**;
-- candidate faster: **38 / 41**;
-- candidate slower: **3 / 41**;
-- RenderingServer primitive delta: **+15,360**.
+## Real Godot comparison remains authoritative for Runtime
 
-The candidate is therefore robustly **faster** at the two highest amplification levels on this proof host even while RenderingServer reports more primitives.
+The original Runtime proof remains the owning engine A/B for this representation change. Godot 4.7.2 GL Compatibility imported FLOAT control and normalized-u16 candidate in separate real X11 processes.
 
-## Renderer-counter interpretation
+Across five retained pose observations per representation:
 
-In this isolated MultiMesh benchmark, the observed RenderingServer primitive residual is exactly **+60 per visible Building instance**. This differs from the previously retained full-current-world `+180` primitive delta because the full world and isolated stress are different measurement contexts. Runtime keeps both facts rather than silently treating the counters as interchangeable.
+- maximum control/candidate pose-receipt delta: **`0.0`**;
+- triangle count: unchanged at **80**;
+- material bindings: unchanged;
+- both coverage masks: **byte-identical**.
 
-At every stress level candidate-minus-control is exactly:
-
-- draw calls: **0**;
-- objects: **0**;
-- texture memory: **0 B**;
-- primitive count: **+60 × visible instance count**.
-
-Buffer memory is also `0 B` delta in this visibility-toggle benchmark because **both meshes are allocated in the same process at the same time**. This pass therefore makes **no memory-neutrality claim** from that counter; pass 27's dedicated current-world memory evidence remains the owning proof for storage/buffer cost.
-
-## Runtime conclusion
-
-This pass materially changes how the remaining primitive HOLD should be interpreted:
-
-> **A higher primitive counter is a truthful representation-cost fact, but it is not by itself evidence that the indexed planar-role receiver is slower. In the exact isolated proof-host stress, the candidate's smaller indexed vertex domain outweighs the extra triangles strongly enough that the candidate is faster at 64x and 256x stress.**
-
-Therefore Runtime should **not** start a speculative topology simplification or distance-LOD rewrite solely to remove the current-world `+180` primitive residual. Doing so could trade away an already-reviewed visual representation without a demonstrated performance problem.
-
-The correct remaining gate is now narrower:
-
-- keep the exact current-world/target-device timing question open;
-- measure on intended hardware / real scene density when available;
-- only open a topology/LOD source rewrite if that evidence demonstrates a real bottleneck.
-
-This is a reusable optimization rule beyond this Building: **measure actual delivery cost before converting one renderer counter into a rewrite requirement.**
+This pass does not pretend the downstream UC/Rigging evidence replaces that engine observation; it composes the separate evidence boundaries instead.
 
 ## Visual tradeoff for Art Direction / Visual Observer QA
 
-Visual tradeoff state:
+The real Runtime renders are not byte-identical.
 
-**`NO_NEW_VISUAL_MUTATION__BENCHMARK_REUSES_EXACT_ACTIVE_SEGMENTED_AND_ALREADY_ART_REVIEWED_INDEXED_PLANAR_ROLE_RECEIVERS`**
+Across the two fixed `960×720` peak-pose views:
 
-This pass does not author a new mesh, LOD, material, camera or visual treatment and retains no new PNG review set. It therefore creates **no new visual acceptance request**.
+- total changed pixels: **224**;
+- view 00: **21** changed pixels;
+- view 01: **203** changed pixels;
+- maximum channel delta: **1 LSB**;
+- coverage masks: **byte-identical**.
 
-The existing Art / Visual-QA judgment of the indexed planar-role receiver remains untouched. If Runtime later proposes a real topology or distance-LOD change, that candidate must return through a fresh independent Art / QA review instead of inheriting acceptance from this benchmark.
+Runtime records this as:
 
-## Retained evidence
+**`BOUNDED_NONZERO_WEIGHT_QUANTIZATION_RASTER_DELTA__ART_DIRECTION_AND_VISUAL_QA_DECISION_REQUIRED`**
 
-Final exact Runtime artifact:
+No Art or QA acceptance is inferred from the small magnitude. The fact that the generic receiver is now compatible does not collapse visual authority into Runtime or Technical Art.
 
-- artifact ID: **`10483017418`**;
-- size: **`6,916 B`**;
-- GitHub artifact SHA-256: **`42856c164d9a257af7c0a3341b656cbb4ca1663a95a93130ae5c2b345df6ea5c`**;
-- independently downloaded/rehashed SHA-256: **same value**.
+## Runtime conclusion
 
-The retained packet includes:
+The old receiver HOLD can now be narrowed truthfully:
 
-- exact Runtime head identity;
-- raw 1x / 16x / 64x / 256x timing and renderer-counter samples;
-- final verified Runtime budget report;
-- Godot proof log.
+> **Normalized-u16 `WEIGHTS_0` remains a real 50% accessor / 5.9554% complete-file import-budget win for this exact Animal asset. Merged UC now accepts the exact retained candidate, real Godot imports it with zero pose-receipt delta, and Rigging bounds all-key skinned-position drift below its scoped threshold. The remaining blockers are no longer format compatibility; they are the explicit nonzero raster tradeoff and Technical Art's producer-adoption decision.**
 
-The deliberate mutation that removed the expected primitive residual was rejected fail-closed.
+Therefore Runtime marks the candidate **technically eligible for producer consideration**, but requests **no automatic adoption**.
+
+This is a reusable workflow lesson: when an optimization was previously held by an external receiver contract, preserve the original HOLD, re-run the exact retained candidate when that receiver changes, and narrow only the blocker that new evidence actually closes.
+
+## Retained Runtime evidence
+
+Original Runtime artifact remains authoritative:
+
+- artifact ID: **`10477292250`**;
+- size: **`143,833 B`**;
+- archive SHA-256: **`76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`**;
+- independently downloaded/rehashed SHA-256: same value.
+
+No new Runtime artifact was manufactured merely to restate downstream evidence; the candidate bytes are intentionally unchanged.
 
 ## Handoffs
 
-- **Runtime PR #42:** exact proof-host result, stress timings, renderer-counter boundary, visual non-mutation and non-claims recorded in comment `5709996693`.
-- **Environment PR #24:** receives the narrower interpretation in comment `5709998435`: keep the full-world `+180` primitive fact, but do not treat it alone as proof of a performance regression; no automatic adoption requested.
-- **Art Direction / Visual Observer QA:** no new visual representation to approve in this pass; existing indexed-planar review remains authoritative.
-- **Technical Art / UC:** no extraction, import-policy change or generic LOD machinery requested from this bounded proof.
+- **Runtime PR #27:** PR body advanced from stale current-receiver HOLD to the current merged-receiver state while preserving the old incompatibility as history; current decision recorded in comment `5710311405`.
+- **Technical Art PR #3:** receives the narrowed Runtime state in comment `5710312952`; this is explicitly **not** a producer-adoption request.
+- **Art Direction / Visual Observer QA:** current handoff remains the exact 224-pixel / max-1-LSB real-Godot tradeoff. No visual decision is assumed.
+- **UC:** no new product change requested; merged receiver compatibility is consumed as evidence only.
+- **Rigging:** its all-key deformation proof is consumed without transferring Rigging authority into Runtime.
 
 ## Historical continuity
 
-The complete twenty-eighth pass remains preserved in repository history at the preceding status version. It proved that moving deduplication before normal generation was slower on the proof host: `832 us` control median versus `981 us` candidate median, `+149 us / +17.908654%`, with **0 / 41** candidate-faster pairs. Runtime therefore retained the existing post-normal indexing path.
+The complete twenty-ninth Building pass remains preserved in the preceding status version. It showed that the indexed planar-role Building's residual primitive count is not, by itself, evidence of a proof-host slowdown: at 64× and 256× stress the indexed candidate was faster in 35/41 and 38/41 pairs respectively, with 256× paired median `-1.853333 ms`. Runtime therefore kept the target-device gate instead of inventing a topology/LOD rewrite.
 
-The twenty-seventh pass remains preserved before that and proved the post-normal planar-role memory win (`1,008 -> 312` stored vertices, `-11,904 B` observed buffer versus unindexed and `-8,304 B` versus the active receiver) while keeping the full-world `+180` primitive residual explicit.
+The twenty-eighth and twenty-seventh Building passes remain preserved before that: index-before-normal preparation was slower (`832 us -> 981 us`, candidate faster `0/41`), while post-normal indexing retained the substantial storage/buffer win.
 
-Earlier Weather, Object, footprint, Animal, Building submission/import and animation Runtime passes remain historical truth.
+The original Animal weight-width HOLD remains preserved in repository and PR history rather than silently rewritten; this pass changes only the **current blocker interpretation** after exact downstream evidence changed.
+
+Earlier Weather, Object, footprint, Animal indexing/joint-width, Building and animation Runtime passes remain historical truth.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- automatic Environment adoption of the indexed planar-role receiver;
-- target-device CPU or GPU frame-time;
-- exact full-current-world FPS improvement;
-- mobile or desktop target-device acceptance;
-- target-device VRAM, heap, thermal or battery behavior;
-- that every higher-primitive indexed mesh will be faster;
-- a causal per-triangle GPU timing slope from the 256x stress result;
-- arbitrary density or arbitrary camera performance;
-- Art Direction or Visual QA acceptance of any future LOD/topology rewrite;
-- collision/navigation/physics/gameplay equivalence for a future rewrite;
-- UC extraction or generic Profession Fabric promotion;
+- automatic Technical Art producer adoption of normalized-u16 weights;
+- Art Direction or Visual QA acceptance of the 224-pixel / 1-LSB delta;
+- target-device CPU/GPU/FPS improvement;
+- target-device VRAM or heap reduction;
+- import-speed improvement;
+- browser/mobile/console behavior;
+- arbitrary sparse/interleaved glTF safety;
+- arbitrary multi-primitive or multi-skin safety;
+- arbitrary joint/weight layouts;
+- whole-animal readiness;
+- deformed NORMAL/TANGENT direction-frame correctness;
+- collision/physics/gameplay equivalence;
+- UC quantizer extraction or Profession Fabric promotion;
 - CANON;
 - production/game readiness;
 - Runtime / Optimization mastery.
 
 ## Four-root check
 
-**Truth:** the full-world `+180` primitive residual remains recorded, but the isolated proof shows primitive count alone does not predict the measured frame-delivery direction. Different measurement contexts are not silently collapsed, and memory is not inferred from a same-process visibility toggle where both meshes are resident.
+**Truth:** the old UC rejection remains explicit historical evidence, while merged UC acceptance is recorded as a later exact fact. Runtime does not call the candidate visually neutral because 224 pixels still change, and it does not claim device performance from storage reduction alone.
 
-**Agency / non-domination:** Runtime owns cost characterization only. Art / Visual QA retain visual authority, Environment retains receiver/world adoption, Hard Surface / Materials retain representation intent, and Technical Art retains broader transport/integration policy.
+**Agency / non-domination:** Runtime owns quantizer and budget evidence only. Technical Art retains producer policy, Art Direction / Visual QA retain visual acceptance, Rigging retains deformation authority, and UC retains neutral receiver semantics.
 
-**Continuity:** the active segmented rollback and indexed planar-role review receiver remain separately named, exact heads and donor identities remain explicit, pass 27/28 results remain preserved, and no visual/source representation is silently replaced.
+**Continuity:** the exact Runtime candidate SHA, original artifact, old receiver failure, merged receiver proof and Rigging proof remain separately named. No candidate is regenerated and substituted silently; no previous HOLD is erased.
 
-**Wisdom before speed:** a new topology/LOD rewrite is deliberately **not** started just because one counter is higher. The measured proof-host behavior says to keep the target-device gate and gather the evidence that can actually justify a visual-cost tradeoff.
+**Wisdom before speed:** the lane advances only because the exact external blocker changed and was re-proven. Runtime does not turn compatibility into automatic adoption, and it does not reopen unrelated Building or tangent-frame lanes merely to create churn.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
