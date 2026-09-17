@@ -1,15 +1,15 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **IMPLEMENTED_OBJECT_SELECTED_ROUGHNESS_RECEIVER_READINESS_GATE / CURRENT_MAP_RECEIVER_HAS_NO_AUTHORED_UV0_PATH / TARGET_WORKFLOW_QUEUED / HOLD_SELECTED_ROUGHNESS_CURRENT_WORLD_ADOPTION**
+State: **PASS_SOURCE_SURFACE_CORRESPONDENCE_DIAGNOSIS / HOLD_SELECTED_ROUGHNESS_CURRENT_WORLD_ADOPTION / EXACT_SURFACE_SEGMENTATION_AND_UV0_MISSING**
 
 ## Authority / continuity
 
-`axm-create-me` remains **coordination only**. Product implementation and executable evidence remain in the owning design repositories. No duplicate Environment PR, Object Materials lane, Technical Art lane, Runtime optimizer or source-asset repository was opened.
+`axm-create-me` remains **coordination only**. Product code, rendering evidence and receiving contracts remain in their owning design repositories. No duplicate Environment PR, Object source lane, Materials lane, Technical Art lane or Runtime lane was opened.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Environment status remains preserved at blob **`cb4370f6436500579b2148b1962530ffd8f9efea`**. It records the successful Building 312-consumer hard-normal-authority rebind, exact retained 68-frame / 1,224-Weather-width evidence, active segmented rollback and all Building adoption holds. This activation does not rewrite that result.
+The immediately preceding status remains preserved at blob **`00a7b6125b20d962e9743b42a3930d594144b09b`**. It records the selected-roughness receiver-readiness implementation while its target workflow was still queued. That workflow has now completed successfully and its result is consumed below rather than silently rewritten.
 
 ## Fresh constellation / duplication scan
 
@@ -18,180 +18,174 @@ Existing Environment lane remains:
 - repository: `mike-axiom-mir/axm-map-design`;
 - PR: **#24**;
 - branch: `studio/environment-weather-variant-object-convergence-001`;
-- current implementation head: **`1fcc9727012d156f8d1c4658c8dca4f0e9dd3c33`**;
-- PR state before this change: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+- exact Environment head: **`be4e0dbf245c4658c48b902024cf397cc6557b5f`**;
+- PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-The strongest fresh Environment-owned gap moved from Building representation policy to **Object spatial-material receiving identity**:
+The current constellation already has active owner lanes for Building representation/runtime, Nature leaf timing/VFX, Weather temporal/source-width behavior, Object Materials, Object Technical Art and Object Runtime. Environment did not duplicate those. The highest-leverage receiving gap is still the selected Object `service_dark` roughness field, but the previous UV-only diagnosis was not yet specific enough.
 
-- **Object Materials PR #6** has frozen the Art-preferred `service_dark` roughness microvariation as an exact selected scalar at head `0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`.
-- **Technical Art PR #28** has transported that exact semantic scalar through merged UC ORM green into an exact textured GLB and real Godot at head `1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`.
-- **Runtime PR #30** has independently rebound its prior L8 memory result to the exact selected scalar identity, while keeping adoption and target-device acceptance separate.
-- **Art Direction** already owns the bounded roughness preference; independent Visual QA remains a separate visual gate.
-- **Nature VFX / Map VFX** are actively working leaf-flutter temporal evidence. Environment did not retime or reopen that work.
-- **Weather** already has source-width/interpolation/latest-due/temporal-exposure owner lanes. Environment did not duplicate them.
-- **Building** retains the preceding Environment/Hard-Surface/Technical-Art/Runtime handoff chain; no new Building mutation displaced this Object receiving gap.
-
-The exact current Map Object receiver, however, is still the earlier scalar-only five-surface receiver. Its implementation rebuilds the Object with `SurfaceTool`, emits vertices, generates normals and then post-normal indexes the five surfaces. It does **not** author or bind a TEXCOORD_0 stream before indexing. That means an exact roughness scalar digest proves the selected values exist upstream, but does not prove where those values land on the current Map receiver.
-
-## Selected bounded Environment improvement
-
-Add one fail-closed **selected-roughness receiver-readiness gate** on existing Map PR #24 instead of assigning the texture by material name or inventing Environment-owned UVs.
-
-New exact Map files:
-
-- `contracts/environment_object_selected_roughness_receiver_readiness.json`;
-- `environment-proof/atmosphere_current_world_object_selected_roughness_readiness_observe.gd`;
-- `tools/environment_object_selected_roughness_receiver_readiness.py`;
-- `docs/ENVIRONMENT_OBJECT_SELECTED_ROUGHNESS_RECEIVER_READINESS_001.md`;
-- `.github/workflows/environment-object-selected-roughness-receiver-readiness.yml`.
-
-Exact current implementation head:
-
-**`1fcc9727012d156f8d1c4658c8dca4f0e9dd3c33`**
-
-The new Environment rule is:
-
-**`SPATIAL_MATERIAL_FIELD_REQUIRES_EXACT_RECEIVER_UV_IDENTITY_BEFORE_CURRENT_WORLD_ADOPTION`**
-
-## Exact upstream identities pinned
-
-### Materials-selected roughness
-
-Repository: `mike-axiom-mir/axm-object-design`
-
-Materials PR: **#6**
-
-Exact Materials head:
-
-**`0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`**
-
-Selected-field contract:
-
-- path: `lookdev/service_dark_roughness_selected_field_001.json`;
-- Git blob: `16ab4ea07c41273e58b72f970d6bed383bbbfe33`;
-- material: `service_dark`;
-- semantic: `BASE_LEVEL_R8_SCALAR_VALUES_ROW_MAJOR`;
-- dimensions: **512x512**;
-- scalar SHA-256: **`b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`**;
-- observed R8 range: **153..183**;
-- distinct R8 values: **31**;
-- Art Direction reference: `PASS_ART_DIRECTION_OBJECT_SERVICE_DARK_BOUNDED_ROUGHNESS_MICROVARIATION_PREFERENCE_024`.
-
-Environment does not change any of those values.
-
-### Technical Art transport
-
-Technical Art PR: **#28**
-
-Exact Technical Art head:
-
-**`1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`**
-
-Accepted authority path is specifically the repaired:
-
-**`Object Technical Art selected roughness semantic UC transport`**
-
-Exact upstream result:
-
-`PASS_OBJECT_SERVICE_DARK_SELECTED_ROUGHNESS_SCALAR_TO_CURRENT_UC_TEXTURED_GLB_TO_GODOT_FRONT_VIEWS`
-
-Exact emitted GLB SHA-256:
-
-**`9327291569a04bcb22016dc2ac4292499531b141a19e4bfceb291122e20ac3f4`**
-
-That proof retains two source-surface meshes / two primitives, exact selected scalar identity in ORM green, `UC UV status = MEASURED`, and a real Godot target PASS. The separate older selected-roughness workflow on the same Technical Art head is currently failing and is **not** treated as authority; Environment pins only the repaired semantic-transport evidence path.
-
-## Current Map receiver boundary
-
-Current Environment Object receiving identity remains:
-
-- Object asset: `source:object:modular-equipment-case-001`;
-- source head: `d3fa10a270faae7925811f44f03381fe5c5d0215`;
-- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- current Environment Materials head: `c85517446a769e0d5f880fc0e9e32f47124f7b5e`;
-- current material-profile SHA-256: `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`;
-- exact five surfaces: `shell_coating`, `service_dark`, `hardware_steel`, `rubber_guard`, `interface_orange`;
-- current proof path: scalar StandardMaterial values, generated normals, post-normal indexing;
-- exact spatial roughness field adopted: **false**.
-
-The source implementation currently emits no Environment-owned UV0 mapping. This is enough to justify a receiving **HOLD**, but this activation does not convert source inspection into a target-host PASS. The new Godot observer is responsible for reproducing the exact post-index receiver UV state in the real scene.
-
-## Real-scene evidence surface selected
-
-The new gate deliberately reuses the exact accepted Environment world at:
-
-**`7713cbe5863c3bc38dabb6236eb4b393401224b6`**
-
-Pinned retained run:
-
-**`35174899697 — Environment Nature leaf flutter current-world evidence` — SUCCESS**
-
-That world already provides:
-
-- 17 dynamic states;
-- 68 real Godot frames;
-- Building + Nature + indexed Object + visible Environment footprint cue + Weather together;
-- 1,224 Weather projected-width observations;
-- exact current Object post-normal indexed receiving path.
-
-The new readiness observer extends that accepted target observer without changing scene art. It inspects `Mesh.ARRAY_TEX_UV` on every exact Object material surface, then rerenders the same world. The verifier requires all 68 new frames to remain byte-identical to the retained parent and all 1,224 Weather width measurements to remain inside the existing `0.05 px` gate.
-
-If any UV0 stream appears, the observer fails rather than preserving the HOLD automatically. If any code claims `selected_roughness_adopted=true` while UV0 remains absent, an explicit negative control must reject the result.
-
-## Current execution state — no fake green claim
+## Previous receiver-readiness gate now proven
 
 Dedicated workflow:
 
-**`35211529232 — Environment Object selected roughness receiver readiness`**
+**`35211529232 — Environment Object selected roughness receiver readiness` — SUCCESS**
 
-Current state at this activation:
+Exact Map head:
 
-**QUEUED**
+**`1fcc9727012d156f8d1c4658c8dca4f0e9dd3c33`**
 
-Therefore this status does **not** claim a new real-Godot receiver-readiness PASS yet.
-
-Expected bounded result if the target observer reproduces the current receiver:
+Scoped result:
 
 **`HOLD_CURRENT_WORLD_OBJECT_SELECTED_ROUGHNESS_RECEIVER__EXACT_UV0_BINDING_NOT_PRESENT`**
 
-with:
+The real current-world receiver proves:
+
+- exact five Object material surfaces remain present;
+- **UV0/TEXCOORD_0 count = 0 on every Object surface**;
+- all **68** retained real Godot frames are byte-identical to the accepted parent;
+- all **1,224** Weather projected-width observations remain valid;
+- maximum Weather-width residual = **`0.00974698571769128 px`** under the existing `0.05 px` gate;
+- selected roughness remains **not adopted**.
+
+Retained artifact:
+
+- ID **`10493255037`**;
+- size **5,625,752 B**;
+- SHA-256 **`72183856af6ba752c1ab94cfcc9621f6771a93b3d64605393f58110f18e82cb0`**.
+
+This confirms the previous HOLD without changing scene art.
+
+## Fresh source-owner evidence that changes the receiving diagnosis
+
+Object Hard Surface PR **#26** now owns exact manufactured service-surface semantics at head:
+
+**`f7c64d08e4e2a0d6954291d8b4e064d7345ab658`**
+
+Exact source remains **468 vertices / 812 triangles** with source SHA-256:
+
+**`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`**
+
+Hard Surface owns two separate source surfaces:
+
+- `lid_inner_service_surface` — component `lid_shell`, selector `source_local_min_z_face`, exactly 2 triangles / 4 vertices;
+- `front_service_panel_outer_service_surface` — component `front_service_panel`, selector `source_local_min_y_face`, exactly 2 triangles / 4 vertices.
+
+It also source-owns their planar reference frames and metric domains while explicitly leaving UV, texel density, atlas placement, material response and transport to downstream owners.
+
+Object Materials PR **#6** at exact head `0515a2d5ad2c7a1eb545f2b7b327b7367530dfca` targets **exactly those two source surfaces** in `service_dark_atlas_pack_review_001.json`, with the same source-space bases and physical dimensions. The selected roughness scalar remains:
+
+**`b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`**
+
+Technical Art PR **#28** remains authoritative for its exact two-surface transport; Environment does not reinterpret that proof as current-Map adoption.
+
+## Selected bounded Environment improvement
+
+Add one exact **source-service-surface correspondence gate** on the existing Map PR #24 rather than inventing UVs or prematurely applying the selected texture.
+
+New Map files:
+
+- `contracts/environment_object_selected_roughness_surface_correspondence.json`;
+- `tools/environment_object_selected_roughness_surface_correspondence.py`;
+- `docs/ENVIRONMENT_OBJECT_SELECTED_ROUGHNESS_SURFACE_CORRESPONDENCE_001.md`;
+- `.github/workflows/environment-object-selected-roughness-surface-correspondence.yml`.
+
+The verifier imports the exact Object-owner deterministic generator instead of reimplementing source construction. It derives the exact source triangles from the owner selectors, binds the owner frames/metric domains and Materials two-surface atlas contract, then compares those source identities against the exact Object material partition retained in the accepted 17-state world.
+
+Reusable Environment rule:
+
+**`SPATIAL_MATERIAL_FIELD_REQUIRES_EXACT_SOURCE_SURFACE_SEGMENTATION_BEFORE_UV_BINDING_OR_TEXTURE_ADOPTION`**
+
+## Exact result
+
+Dedicated workflow:
+
+**`35216808559 — Environment Object selected roughness surface correspondence` — SUCCESS**
+
+Exact Map head:
+
+**`be4e0dbf245c4658c48b902024cf397cc6557b5f`**
+
+Scoped state:
+
+**`HOLD_CURRENT_WORLD_OBJECT_SELECTED_ROUGHNESS_RECEIVER__SOURCE_SERVICE_SURFACE_SEGMENTATION_AND_UV0_BINDING_NOT_PRESENT`**
+
+Exact derived source targets:
+
+- `lid_inner_service_surface` = source triangles **`[12, 13]`**;
+- `front_service_panel_outer_service_surface` = source triangles **`[28, 29]`**.
+
+All **17** accepted current-world states preserve the exact Object topology/order and exact five-role material partition.
+
+The real receiving mismatch is now explicit:
+
+- lid-inner triangles `[12,13]` are currently inside **`shell_coating`**, not `service_dark`;
+- front target triangles `[28,29]` are inside `service_dark`, but the current `service_dark` receiver is the **whole 12-triangle front-service-panel component**;
+- therefore only **2/12** current `service_dark` triangles are the exact source-owned front target and **10** non-selected panel triangles remain co-partitioned;
+- current receiver UV0 remains **0**.
+
+So the spatial roughness field is blocked by **two independent receiving gaps**:
+
+1. exact source-surface segmentation is absent;
+2. exact UV0/TEXCOORD_0 identity is absent.
+
+This is a receiver diagnosis, not a Materials failure, Hard-Surface failure or Technical-Art failure.
+
+## Real-scene evidence preserved
+
+No new scene render was fabricated for a provenance-only diagnostic pass. Instead the workflow binds the exact previously proven real-scene evidence:
+
+- accepted multi-asset world head `7713cbe5863c3bc38dabb6236eb4b393401224b6`;
+- Building + Nature + indexed Object + visible footprint cue + Weather together;
+- **68** real Godot frames;
+- **1,224** Weather-width measurements;
+- maximum Weather-width residual **`0.00974698571769128 px`**;
+- current receiver UV0 count **0**.
+
+A negative control mutates the current Object material partition and is rejected fail-closed.
+
+Retained correspondence artifact:
+
+- ID **`10495361901`**;
+- size **15,507 B**;
+- SHA-256 **`d7c1d65d6689d8fda54580676be98887e381d6528df25cfaf8de844f1e66bd6d`**;
+- exact head `be4e0dbf245c4658c48b902024cf397cc6557b5f`.
+
+## Decision / next receiving requirement
 
 `environment_adoption = false`.
 
-The HOLD means the selected roughness field is upstream-valid but not yet spatially bound to the current Map receiver. It is not a rejection of the Materials field and not a failure of Technical Art transport.
+Before any selected-roughness current-world render/adoption claim, the receiving representation must:
 
-## Smallest next receiving handoff
+1. make the exact two source-owned service surfaces independently addressable **without broadening them to whole source components**;
+2. bind exact UV0/TEXCOORD_0 identity under Materials / Technical-Art authority;
+3. re-test the full Building + Nature + Object + footprint + Weather world;
+4. leave Runtime cost/device acceptance and Art/QA visual judgment as separate gates.
 
-Before Environment can run a truthful full-world selected-roughness A/B, one of two owner-safe paths must be proven:
-
-1. **Exact UV rebind to the current five-surface receiver** — Technical Art supplies source-triangle/UV correspondence that Environment can consume without changing Object source/material authority; or
-2. **Validated transport receiver adoption test** — Environment proves exact geometry, placement/transform and material-role correspondence for consuming the Technical Art representation instead of the current Map reconstruction.
-
-Only after one of those bindings exists should Environment render the spatial roughness field in the full Building + Nature + Object + Weather composition. Runtime L8/atlas/target-device decisions remain downstream and separate.
+Environment does **not** automatically split production geometry, author UVs, assign the selected texture, adopt a Technical-Art transport representation, change source materials, or make a Runtime budget decision.
 
 ## Handoffs recorded
 
-- **Map Environment PR #24:** comment **`5712982767`** — new readiness scope, exact selected/Technical-Art identities, real-scene gate and queued truth state.
-- **Object Materials PR #6:** comment **`5712984230`** — downstream return; selected field remains authoritative but is not silently adopted without a receiver UV identity.
-- **Object Technical Art PR #28:** comment **`5712986694`** — exact semantic transport consumed as authority; requested exact UV/triangle or validated receiver-equivalence handoff if the target HOLD reproduces.
+- **Map Environment PR #24:** comment **`5713741760`** — exact correspondence result and refined two-part receiving HOLD.
+- **Object Hard Surface PR #26:** comment **`5713743128`** — downstream proof that source-owned face semantics survive and expose the consumer partition mismatch; no source rewrite requested.
+- **Object Materials PR #6:** comment **`5713744493`** — selected two-surface field remains authoritative; current Map component partition + missing UV0 block adoption.
+- **Object Technical Art PR #28:** comment **`5713745857`** — exact two-surface transport remains valid but does not automatically transfer to the current Map receiver.
 
-No Object source/material/Technical-Art implementation was placed in `axm-create-me`.
+No product implementation was placed in `axm-create-me`.
 
 ## Reusable composition learning
 
-> **A scalar texture identity proves the values, not their placement on a different receiver. Spatial material adoption requires the receiver coordinate identity to be exact and owned.**
+> **A spatial material field needs both exact semantic region identity and exact receiver coordinates. A component-wide material label is not a substitute for a source-owned selected face.**
 
-For Environment work, that means source/material/transport success does not automatically transfer into the assembled world. The receiving mesh must prove the spatial channel that gives the field meaning before a visual adoption claim is allowed.
+This strengthens the prior rule. Texture values can be exact, transport can be exact, and a receiver can still be semantically too coarse for truthful adoption. Environment must prove the intended source region survives the assembled-world representation before binding coordinates or judging appearance.
 
-This rule remains a bounded Environment receiving discipline. It is not automatically promoted into Universal Creation or Profession Fabric from one Object case.
+This remains a bounded Environment receiving discipline; it is not automatically promoted into Universal Creation or Profession Fabric from one Object case.
 
 ## Explicit non-claims
 
-This activation does **not** establish a new target-host UV observation yet; current-world selected roughness appearance; exact Map-to-Technical-Art UV equivalence; production UV adoption; Runtime L8 or 512x384 adoption; target-device performance; final Object readability under the spatial field; final Art Direction or Visual QA acceptance; Nature timing/naturalness; Weather preference or physical correctness; gameplay/collision/navigation suitability; CANON; production/game readiness; or Environment / World Art mastery.
+This activation does **not** establish production selected-face segmentation, production UVs, selected roughness current-world appearance, exact Map-to-Technical-Art representation equivalence, Runtime L8/atlas adoption, target-device performance, final Object readability, final Art Direction or Visual QA acceptance, Nature timing/naturalness, Weather preference or physical correctness, gameplay/collision/navigation suitability, CANON, production/game readiness, or Environment / World Art mastery.
 
 ## Four-root merge gate
 
-- **Truth:** exact selected scalar, exact Technical Art transport and exact current Map receiver are named separately. The target workflow is recorded as queued rather than promoted to a PASS. The legacy failing TA workflow is not conflated with the repaired semantic authority path.
-- **Agency / non-domination:** Materials retains roughness meaning; Technical Art retains UV/channel/import identity; Environment owns current-world receiving/rollback only; Runtime retains storage/device authority; Art/QA retain visual judgment.
-- **Continuity:** prior Building status, active segmented rollback and exact 68-frame Environment parent remain preserved; the new Object gate advances the existing PR #24 rather than replacing it.
-- **Wisdom before speed:** Environment blocks a visually tempting texture adoption at the smallest missing identity — UV placement — instead of inventing coordinates, opening another asset variant or treating upstream transport success as automatic world acceptance.
+- **Truth:** the previous queued readiness gate is now recorded as a real SUCCESS; the new correspondence workflow is separately green; the final decision remains a HOLD because the exact receiver still lacks both source-face segmentation and UV0.
+- **Agency / non-domination:** Hard Surface owns source surface identity/frame/domain; Materials owns spatial material meaning; Technical Art owns transport/channel identity; Environment owns assembled-world receiving evidence; Runtime owns cost/device acceptance; Art/QA own visual judgment.
+- **Continuity:** existing Map PR #24, accepted 17-state/68-frame world, prior Building rollback state and previous Object readiness evidence remain preserved and consumed rather than replaced.
+- **Wisdom before speed:** Environment diagnosed the smaller missing identity before rendering or adopting a visually tempting texture, avoiding silent broadening from two selected source faces to whole components.
