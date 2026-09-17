@@ -3,184 +3,227 @@
 - Date: `2026-09-17`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_SPATIAL_SCALAR_REFERENCE_FEATURE_IDENTITY_MAP / BUILDING_17_CENTER_ANCHOR_AND_OBJECT_5_NEAREST_FACE_ANCHOR_SEPARATED / PF_38_REFINED_EVIDENCE_PROVENANCE_ONLY / NO_UC_OFFSET_CONVERSION_EXTRACTION / NO_PRODUCT_REBIND_OR_AUTHORITY_MOVE / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_REPRESENTATION_EQUIVALENCE_RELATION_IDENTITY_MAP / BUILDING_SOURCE_604_VS_RECEIVER_312_SEPARATED / ANIMAL_SOURCE_42_RENDER_84_INDEX_240_TO_84_PRESERVED / UC_179_NEUTRAL_OBSERVER_SUFFICIENT / PF_38_REFINED_EVIDENCE_PROVENANCE_ONLY / NO_NEW_UC_OR_PRODUCT_IMPLEMENTATION / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the 3D Studio campaign and Capability Cartographer standing role, then inspected the newest specialist status and live repository / PR evidence across the active design constellation plus current Universal Creation and Profession Fabric state before altering coordination knowledge.
+Re-read the 3D Studio campaign and Capability Cartographer standing role, then inspected current coordination state, specialist status, current product PRs, Universal Creation continuity and Profession Fabric evidence before altering coordination knowledge.
 
-`axm-create-me` remains **coordination only**. No product implementation, source geometry, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, adoption decision, CANON state, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product mesh, render domain, receiver implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, adoption decision, CANON state, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh continuity / overlap scan
 
-The preceding Cartography pass separated receiver-container reuse, surface/payload lifecycle, mutation granularity and product adoption. That map remains valid and was not widened by cadence.
+The previous Cartography pass separated scalar field/frame/reference-feature semantics. That map remains valid and was not widened by cadence.
 
-Fresh shared-system continuity:
+Fresh shared-system state:
 
-- Universal Creation main has advanced through merged Physics PR #195 to `68100dbd20b0b4cf792d070a4341696085f3e6bc`;
-- current UC PR #196 is the single active successor Physics lane at head `65b3fc09e462a029a34f8b59c5507f56b7a83bd4` and is unrelated to the spatial-scalar semantic question selected here;
-- merged UC #194 remains the read-only directional texel-density observer; no new product semantic policy has moved into UC;
-- Profession Fabric PR #37 already owns the separate experimental bounded-variation evidence procedure across Nature, Weather and Map, so no duplicate procedural-family abstraction was opened;
-- Profession Fabric issue #38 remains the established experimental evidence/provenance proposal surface. Its existing spatial-field binding vocabulary answers where a field payload applies; it did not yet name the distinct question of which geometric feature a scalar coordinate locates.
+- Universal Creation PR #196 has merged to current main `e9eed3d9eb66392992cc18c8884bfade0d3b8efd`;
+- active UC PR #197 is the single successor Physics lane at `2f1521e06120bb46eb9b98ac460508fe5d40ba89` and does not overlap the representation-equivalence question selected here;
+- merged UC PR #179 already provides the neutral indexed-surface observer distinction needed here: `SOURCE_VERTEX_AND_ATTRIBUTES` versus opt-in `ATTRIBUTES_AND_PROTECTED_SPLITS`;
+- the current merged UC `src/axm_uc/indexed_surface_eligibility.py` still states that cross-source candidates are diagnostic only and do not authorize semantic welding or product adoption;
+- Profession Fabric issue #38 remains the established experimental evidence/provenance proposal surface;
+- the coordination-only shared-capability execution-claim registry contains no active claim covering a new representation-equivalence implementation, so no shared implementation lane was opened.
 
-Fresh specialist and product evidence remains active without overlap: Character Runtime is working on accessor deduplication, Animal Runtime on `ArrayMesh` lifecycle reuse, Nature/Map on compact-east playback, Building on source/geometry/normal authority, Object on VFX/Procedural review surfaces, and Visual QA on the Object seeded-mote family. Weapon, Armor, Unit and Misc still expose no stronger live product lane requiring invented work.
+Fresh specialist/product state used in the scan:
 
-## Selected material cross-repo learning — a spatial scalar is incomplete without its reference feature
+- Geometry status is currently advancing Building review-atlas evidence without consuming UC GLB density evidence by analogy;
+- Technical Art status has made the Building 604-source-class versus 312-consumer boundary executable on existing Map PR #40;
+- Runtime status has independently completed Object VFX MultiMesh batching and retains Animal representation work as separate history;
+- Map PR #45 is a new Object rigid-part receiving bridge and already owns that articulation/hierarchy problem;
+- Object PR #32 owns the fresh VFX batching representation result;
+- these active lanes were not duplicated.
 
-The strongest new reusable learning comes from two independent Hard-Surface source contracts that use similarly named `standoff` values with **opposite but valid anchor semantics**.
+## Selected material cross-repo learning — grouping counts do not define semantic equivalence
+
+The strongest reusable learning is now supported by two materially different products with opposite representation shapes:
+
+**A representation can be safely compacted only relative to an explicit equivalence relation in an explicit domain.** The same numeric act of “merging vertices/groups” may be valid inside one receiver/render domain and invalid against source semantics.
 
 Core rule:
 
-`FIELD_NAME + VALUE + UNITS + FRAME != COMPLETE_SPATIAL_SEMANTICS_WITHOUT_REFERENCE_FEATURE_IDENTITY`
+`GROUP_COUNT_OR_POSITION_EQUALITY != EQUIVALENCE_RELATION_IDENTITY`
 
-A scalar offset can be numerically valid and expressed in the correct frame while still being unsafe to transfer if the consumer does not know which geometric feature the value locates.
+The exact equality key, protected splits, dropped authoritative attributes and domain of the relation must remain explicit.
 
-### Evidence A — Building Hard Surface #17: body-center anchor
+## Evidence A — Building / Map: valid receiver quotient, explicitly not source equivalence
 
-Repository / PR:
+### Building source authority
 
-`mike-axiom-mir/axm-building-design#17`
+Building Hard Surface PR #14 exact head:
 
-Exact current head:
+`7b86b1a9da1ef8dc670ca01cf4918728e68ece92`
 
-`fbfa3b47048755b45dac91451171d5511c8d4f47`
+Its source-owned planar-role policy keeps **604 source-authorized render equivalence classes** under a hard-normal-sensitive identity. Building Geometry PR #13 exact head:
 
-Current PR state observed: **OPEN / DRAFT / MERGEABLE**.
+`7dfb1153dc5f80bcbf1b48803f044236d4ebb030`
 
-The Building utility-panel source owns:
+also exposes a smaller **312 role+position quotient**, but classifies that quotient as:
 
-- `standoff_from_receiver_origin_m = 0.10 m`;
-- reference meaning: **panel body center** along the receiver outward normal;
-- body depth: `0.08 m`;
-- receiver plate thickness: `0.04 m`;
-- required physical nearest-body-face gap: `0.02 m`.
+`DERIVED_ATTRIBUTE_DROPPING_PARTITION_NOT_SOURCE_EQUIVALENT`
 
-Therefore the physical gap is:
+Exact loss evidence:
 
-`0.10 - 0.04 - 0.5 * 0.08 = 0.02 m`
+- source-authorized classes: `604`;
+- derived quotient groups: `312`;
+- source identities removed: `292`;
+- quotient groups crossing source hard-normal boundaries: `188`;
+- dropped source-authoritative attribute: `EXACT_CARDINAL_HARD_NORMAL`.
 
-The retained predecessor exposes why the anchor matters. With the older `0.08 m` body-center standoff, the true nearest-face gap was:
+So `312` is not a cheaper spelling of the same source equivalence relation.
 
-`0.08 - 0.04 - 0.5 * 0.08 = 0.00 m`
+### Real receiving representation
 
-The old `standoff - plate_thickness` check had measured a center-offset surplus, not the declared body-face clearance.
+Map Technical Art PR #40 current exact head:
 
-Building Hard Surface owns this source interpretation and the corrected geometric relation. No generic system may silently reinterpret the field as a face anchor.
+`53493eb60efec35b1756ea8ab0a7f0bee11e2003`
 
-### Evidence B — Object Hard Surface #5: nearest-face anchor
+Exact workflow `35267127221` completed SUCCESS with:
 
-Repository / PR:
+`PASS_BUILDING_312_GODOT_CONSUMER_NORMAL_IDENTITY_BOUND_TO_SOURCE_HARD_NORMAL_AUTHORITY__HOLD_NORMAL_NUMERIC_EXACTNESS_RUNTIME_VISUAL`
 
-`mike-axiom-mir/axm-object-design#5`
+The real Godot receiver truthfully uses the 312-group representation only as its **own consumer domain**. It explicitly declares:
 
-Exact current head:
+- `EXACT_CARDINAL_HARD_NORMAL` is dropped from the source relation;
+- consumer normal identity is per-material `SurfaceTool.generate_normals()` followed by `SurfaceTool.index()`;
+- stored vertices `312`;
+- indices `1008`;
+- triangles `336`;
+- material surfaces `5`;
+- source-equivalence claim `false`;
+- source-hard-normal-preservation claim `false`.
 
-`e9076b546dab2e12ba2c3649fd0021a62841be10`
+The measured post-index normal repack remains separately non-byte-exact at `120 / 1008` corners, maximum component delta `0.00011304020881702792`, maximum angular delta `0.006869404718583788°`, with no generic tolerance inferred.
 
-Current PR state observed: **OPEN / DRAFT / MERGEABLE**.
+This is a legitimate receiver-local quotient precisely because its semantic scope is named rather than smuggled back into source authority.
 
-The Object utility-module source independently owns:
+## Evidence B — Animal: render-domain expansion must survive later indexing
 
-- `interface.standoff_from_socket_origin_m = 0.03 m`;
-- reference feature: **module nearest host-facing body face**;
-- body local-X interval: `[0.03, 0.125] m`;
-- body depth: `0.095 m`;
-- socket plate thickness: `0.012 m`.
+Animal supplies the complementary shape.
 
-Therefore its physical nearest-face clearance is simply:
+Geometry PR #20 exact render identity:
 
-`0.03 - 0.012 = 0.018 m`
+`ca4bb8a2f144231f8755eacc980785d1807b79db`
 
-The Object verifier retains the decisive counterfactual: if the same `0.03 m` scalar were incorrectly interpreted as a body-center offset, the nearest face would be `-0.0175 m` and the derived clearance would become `-0.0295 m`. That interpretation is explicitly unauthorized.
+The geometric source remains:
 
-Object's numeric result was already correct; the missing source truth was explicit **reference-feature identity**.
+- `42` source vertices;
+- `80` triangles.
 
-## Bounded reusable map
+The UV/tangent-ready representation necessarily expands to **84 render vertices** because side UV seam, cap/side islands, polar tangent singularities and tangent handedness require explicit render-domain splits.
 
-The cross-repo evidence supports a small identity chain rather than a universal offset schema:
+Animal Runtime PR #23 exact tested head:
 
-| Identity / state | Question |
+`f4b5b637dc0cabb51bcf9f14a44d53f397f300fa`
+
+Scoped result:
+
+`PASS_ANIMAL_TANGENT_READY_INDEXED_PAYLOAD_REDUCTION`
+
+Its real Godot A/B safely changes:
+
+- control: `240` stored triangle-corner vertices, no indices;
+- candidate: exact `84` seam-aware render vertices + `240` indices;
+- triangles/surface remain `80 / 1`;
+- modeled payload `11,520 -> 4,992 B` (`-6,528 B / -56.6667%`);
+- RenderingServer buffer `6,417,912 -> 6,414,024 B` (`-3,888 B`);
+- draw/object/primitive/texture deltas `0 / 0 / 0 / 0`;
+- both retained `960x720` A/B PNG pairs byte-identical.
+
+The decisive negative is explicit: a fake **`84 -> 42`** stored-vertex collapse fails closed. Source vertex identity is therefore too coarse for the final UV/tangent render domain.
+
+Animal proves the inverse-looking rule to Building:
+
+- first **split** source identities when render semantics require a finer relation;
+- then deduplicate only inside the final attribute-complete render relation;
+- never use the numerically smaller source domain as permission to erase required render splits.
+
+## Cross-repo map
+
+The two cases support a bounded relation model:
+
+| Identity / state | Meaning |
 |---|---|
-| `source_scalar_field_identity` | Which exact source field/path, value and units are being consumed? |
-| `source_reference_frame_identity` | Which origin and axis convention express the scalar? |
-| `reference_feature_identity` | Which exact geometric feature does the scalar locate — body center, nearest face, another source-owned feature, or unspecified? |
-| `extent_identity_along_axis` | Does a derived relation require a source-owned extent such as body depth? |
-| `derived_measurement_identity` | Which relation is claimed, and what exact formula / consumed identities produced it? |
-| `reference_feature_binding_state` | `BOUND_EXACT | REFERENCE_FEATURE_MISSING | REFERENCE_FEATURE_MISMATCH | NOT_EVALUATED` |
+| `representation_domain_identity` | Exact source, render or receiver domain being grouped |
+| `equivalence_relation_identity` | Stable identity for the grouping relation itself |
+| `equivalence_key_fields` | Exact attributes/contracts participating in equality |
+| `protected_split_identity` | Caller/domain-owned split identity equality must not cross |
+| `dropped_authoritative_fields` | Source-owned fields intentionally omitted by a derived quotient |
+| `relation_kind` | Evidence label such as `SOURCE_PRESERVING`, `RENDER_DOMAIN_EXPANSION`, `WITHIN_DOMAIN_DEDUP`, `ATTRIBUTE_DROPPING_QUOTIENT` |
+| `mapping_cardinality` | Exact source/render/receiver cardinalities and mapping shape |
+| `information_loss_state` | Whether the relation drops source-authoritative meaning and whether reversal is established |
+| `semantic_equivalence_scope` | `SOURCE_EQUIVALENT | RECEIVER_LOCAL_EQUIVALENT | NOT_SOURCE_EQUIVALENT | NOT_EVALUATED` |
 
 Non-transfer rules:
 
-- matching field names do not prove matching reference features;
-- matching units and frame directions do not prove matching anchor semantics;
-- matching numeric values do not authorize a shared formula;
-- a body-center anchor may require half-extent conversion while a nearest-face anchor must not receive that conversion;
-- derived clearance evidence does not transfer engineering tolerance, collision, physics, retention, gameplay or visual authority.
+1. same count does not prove the same equivalence relation;
+2. same positions do not prove the same equivalence relation;
+3. a valid receiver-local quotient does not become source-authoritative equivalence;
+4. source-vertex identity does not authorize collapsing render-domain seams/splits;
+5. successful indexing/dedup proves only the exact relation and downstream evidence actually tested;
+6. changing equality key, protected splits or dropped authoritative fields creates a new consumed identity for affected claims.
 
-## Correct placement — Profession Fabric evidence/provenance vocabulary only
+## Universal Creation placement — existing neutral observer is sufficient
 
-The repeated capability is currently an **evidence semantics / provenance relationship**, not a reusable product or machine implementation.
+No new UC feature was opened.
 
-Profession Fabric issue #38 was therefore refined in place rather than creating another framework:
+Merged UC PR #179 already provides the right machine boundary. Current merged main `e9eed3d9eb66392992cc18c8884bfade0d3b8efd` still exposes:
 
-`mike-axiom-mir/axm-profession-fabric#38 comment 5720503843`
+- default `SOURCE_VERTEX_AND_ATTRIBUTES` — source-lineage-preserving grouping;
+- opt-in `ATTRIBUTES_AND_PROTECTED_SPLITS` — render/receiver tuple grouping only with explicit caller-declared protected split identity;
+- explicit non-claim that cross-source candidates authorize semantic welding or product adoption.
 
-The refinement proposes only the bounded identity/state vocabulary above and explicitly keeps source-owned reference-feature semantics and formulas in Building/Object.
+This is enough neutral machinery to **observe** candidate grouping. It intentionally does not own Building hard-normal semantics, Animal UV/tangent split semantics, product adoption or source equivalence policy.
 
-This is distinct from the existing PF spatial-field binding record:
+Opening another UC equivalence/dedup lane would duplicate existing machinery and risk centralizing product meaning.
 
-- spatial-field binding asks **where a field payload applies on a receiving domain**;
-- reference-feature identity asks **which geometric feature a scalar coordinate locates inside its declared frame**.
+## Profession Fabric placement — evidence/provenance vocabulary only
+
+Profession Fabric issue #38 was refined in place:
+
+`mike-axiom-mir/axm-profession-fabric#38 comment 5721190963`
+
+The refinement adds only the explicit representation-equivalence relation identity vocabulary above beneath the existing representation/storage/dependency model.
+
+PF must not choose weld keys, define seams, generate normals, mutate topology, select product representations or authorize adoption. It records which relation a claim actually consumed.
 
 No PF implementation or profession promotion is requested by this Cartography pass.
 
-## Why Universal Creation is not the correct home
-
-No UC `standoff`, offset-conversion, clearance, geometry-mutation or automatic-reference-feature lane was opened.
-
-The two products demonstrate exactly why premature centralization would be unsafe: a generic operation cannot know whether to subtract half a body depth, no extent at all, or some other product-owned relation until the source explicitly declares its reference feature.
-
-There is therefore no neutral executable capability to extract from these two cases without first choosing product semantics. If a future reusable observer is proposed, it must accept explicit source-owned reference-feature/frame inputs and remain unable to infer them from names or values.
-
-Current UC work remains bounded Physics growth in PR #196 and does not overlap this map.
-
 ## Product returns
 
-Cartography returned the placement boundary without altering either product lane:
+The cross-repo boundary was returned without modifying either product lane:
 
-- Building Hard Surface #17 comment `5720505286`;
-- Object Hard Surface #5 comment `5720507350`.
+- Animal Runtime #23 comment `5721193053`;
+- Map Technical Art #40 comment `5721197259`.
 
-Building retains the center-anchor contract and formula. Object retains the nearest-face anchor contract and formula. Neither comment authorizes downstream rebind, source mutation, consumer adoption, UC extraction or CANON.
+Animal keeps its 84-vertex render-domain identity and exact Runtime PASS. Building/Map keep the 604-source / 312-consumer separation and current normal-exactness/runtime/visual HOLDs.
 
-## Fresh constellation snapshot
+## Fresh constellation snapshot / avoided duplication
 
-The live scan was used to avoid mistaking cadence for a missing capability:
-
-- **Character:** Runtime PR #23 remains a bounded bilateral animation-accessor dedup/import-budget lane; no spatial-offset semantic work overlaps this map.
-- **Animal:** Runtime PR #29 remains the current `ArrayMesh` lifecycle lane; Materials/Technical Art continue their tangent/filter/receiver evidence independently.
-- **Building:** Hard Surface #17 owns the selected body-center standoff truth; Geometry #18 exposes UV-axis metrics; Hard Surface #14 / Geometry #13 / Map Technical Art #40 separately own source-normal / quotient / consumer-normal evidence.
-- **Nature:** Animation #13 remains exact-state compact-east playback evidence; no source-coordinate anchor rule is being generalized there.
-- **Weather:** Procedural #3 remains a Weather-local seeded field family and is already represented by PF PR #37's bounded-variation experiment.
-- **Map:** Animation #44 and VFX #43 remain current-world playback/receiving lanes; Runtime and Technical Art have separate owned work.
-- **Object:** Hard Surface #5 owns the selected nearest-face anchor truth; Procedural #11 / VFX #31 / QA own the independent seeded-mote review chain.
-- **Universal Creation:** main `68100dbd...`; active PR #196 is Physics and non-overlapping.
-- **Profession Fabric:** PR #37 remains the bounded-variation procedure experiment; issue #38 remains the evidence/provenance proposal surface and now carries this reference-feature refinement.
-- **Weapon / Armor / Unit / Misc:** no active product PR was found that justified inventing an offset/reference-feature implementation.
+- **Building:** Hard Surface #14 and Geometry #13 already own the source hard-normal equivalence and attribute-dropping quotient; Geometry #18 now works on review-atlas sampling, a different evidence class.
+- **Map:** Technical Art #40 already owns the exact Godot/UC receiver grouping and normal-generation bridge; no sibling Technical Art lane was opened. Animation #44, VFX #43 and new Object rigid-part bridge #45 are different scopes.
+- **Animal:** Geometry #20 owns the 42->84 seam-aware render split; Runtime #23 owns 240->84 indexing and the fake 84->42 negative. Current Runtime #29 and Materials #24 are different lifecycle/tangent-space lanes.
+- **Object:** Runtime #32 has independently completed one-MultiMesh VFX batching; that is a representation/performance result, not an equivalence-policy implementation and was not folded into this map.
+- **Nature / Weather / Character / Weapon / Armor / Unit / Misc:** no fresher lane justified replacing the selected evidence or inventing an equivalence implementation.
+- **Universal Creation:** current main `e9eed3d9...`; active PR #197 is Physics and non-overlapping.
+- **Profession Fabric:** PR #37 remains the distinct bounded-variation evidence experiment; issue #38 remains the correct proposal surface for this evidence vocabulary.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a universal meaning for `standoff`, `offset`, `clearance` or similar field names;
-- automatic inference of a reference feature from a property name, value, unit or frame;
-- automatic conversion between center-, face-, edge-, pivot- or other anchors;
-- engineering tolerance, interference, retention, sealing, load, collision or physics validity;
-- product rebind or adoption;
-- a UC geometry/offset implementation;
+- one universal vertex equivalence relation;
+- automatic inference of weld/dedup keys;
+- automatic collapse from render/receiver identity to source identity;
+- automatic render-domain expansion from source semantics;
+- arbitrary-mesh welding/indexing safety;
+- byte-exact normal preservation in the Building consumer;
+- final Animal UV/tangent visual acceptance;
+- a new UC implementation;
 - a PF implementation or profession promotion;
-- Art Direction or Visual QA acceptance;
+- product adoption;
+- Art Direction / Visual QA acceptance;
 - CANON;
 - production/game readiness;
 - mastery;
@@ -192,26 +235,26 @@ The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity
 
 ## Next bounded scan
 
-- If a third materially independent product exposes a scalar whose meaning depends on center/face/pivot/edge/reference-datum identity, compare whether the same evidence vocabulary remains sufficient without hardcoding domain semantics.
-- If downstream consumers begin reading these offsets, require explicit binding to the exact source reference-feature identity before accepting a derived measurement.
-- Do not open a UC converter unless repeated evidence identifies one caller-neutral operation whose inputs include the explicit source-owned anchor/frame identities and whose failure boundary is demonstrably neutral.
-- Continue checking PF #38 and shared-capability execution claims before opening any new cross-repo implementation.
+- If a third independent product presents a different grouping relation, check whether the relation vocabulary survives without product-specific fields.
+- If a consumer changes equality key, protected split declaration or dropped authoritative field, require exact claim rebind/rerun rather than count-based inheritance.
+- Do not open a UC mutator/welder merely because the observer can compute a candidate; mutation authority requires materially independent safety evidence beyond diagnostic grouping.
+- Continue checking `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` before any shared implementation work.
 
 ## Recovery / provenance
 
 Previous Cartography state:
 
-`PASS_RECEIVER_LIFECYCLE_MUTATION_GRANULARITY_MAP`
+`PASS_SPATIAL_SCALAR_REFERENCE_FEATURE_IDENTITY_MAP`
 
 Previous status blob SHA:
 
-`a2ad329a2c4a151baffbab4ea6e7fa6cbcff0046`
+`ac36809ebb2b5f9a78c3339c494b5b656281dd44`
 
 Current PF refinement:
 
-`mike-axiom-mir/axm-profession-fabric#38 comment 5720503843`
+`mike-axiom-mir/axm-profession-fabric#38 comment 5721190963`
 
 Current product returns:
 
-- `mike-axiom-mir/axm-building-design#17 comment 5720505286`;
-- `mike-axiom-mir/axm-object-design#5 comment 5720507350`.
+- `mike-axiom-mir/axm-animal-design#23 comment 5721193053`;
+- `mike-axiom-mir/axm-map-design#40 comment 5721197259`.
