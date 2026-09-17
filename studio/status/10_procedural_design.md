@@ -1,166 +1,159 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-17
-State: **PASS_BOUNDED_PLANAR_ROLE_HARD_NORMAL_STRESS_FAMILY / EXISTING BUILDING PR #4 ADVANCED / 3 DISTINCT DIAGNOSTIC COHORTS / 312 QUOTIENT GROUPS + 604 SOURCE IDENTITIES EXACTLY COVERED / 6 FAIL-CLOSED CONTROLS / NO SOURCE OR RECEIVER ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
+State: **PASS_BOUNDED_SOURCE_BOX_FACE_UV_METRIC_DOMAIN_REBIND_FAMILY / EXISTING OBJECT PR #11 ADVANCED / 2 SOURCE-OWNED METRIC DOMAINS × 2 MATERIALS DENSITY VARIANTS = 4 DISTINCT OUTPUTS / 0.0 UV-CORNER RESIDUAL / 7 FAIL-CLOSED CONTROLS / NO SOURCE UV OR MATERIALS ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, current specialist status, and the live design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, every current specialist status, and the live design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-`axm-create-me` remains **coordination only**. Product/evidence work stayed in the existing `mike-axiom-mir/axm-building-design` Procedural PR #4. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence work stayed in the existing `mike-axiom-mir/axm-object-design` Procedural PR #11. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no active stronger unoccupied Procedural need.
-- **Character:** active Geometry and Rigging work is still resolving topology/deformation-owned questions; no unresolved form was turned into a generator.
-- **Animal:** Runtime/Rigging/Animation/Materials/Geometry remain active on indexed weights, tangents, deformation and receiving semantics; no duplicate Procedural lane.
-- **Nature:** existing Procedural PR #4 already owns the bounded 3-family × 3-seed vegetation family plus Geometry/VFX/Map compatibility evidence.
-- **Weather:** existing Procedural PR #3 already owns retained seeded weather variation and family-wide Map receiver checks.
-- **Map:** Environment/VFX/Runtime/Technical Art remain active on current-world receiving and indexed-domain work; no receiver logic was copied.
-- **Object:** the prior source-frame UV rebind remains valid, but no fresh owner-backed need justified continuing Object by inertia.
-- **Building:** Hard Surface PR #14 now source-owns a sharp boundary between the exact 604-class render equivalence and the Geometry PR #13 312-group quotient produced by dropping only exact hard-normal identity. Geometry already measured three repeated group cardinalities: 124 one-normal groups, 84 two-normal groups and 104 three-normal groups. That exact repeated diagnostic structure was the strongest fresh bounded Procedural target.
+- **Weapon:** no open design PR; no evidence-backed repeated pattern worth inventing.
+- **Armor:** no open design PR; no evidence-backed repeated pattern worth inventing.
+- **Character:** active Geometry/Rigging/Materials/Animation lanes are still resolving topology, deformation and shaded-response boundaries; Procedural did not automate unresolved form.
+- **Unit:** no open design PR; no evidence-backed repeated pattern worth inventing.
+- **Animal:** mature Geometry/Rigging/Animation/Materials/Technical-Art/Runtime work remains active; no duplicate Procedural lane was opened.
+- **Building:** existing Procedural PR #4 already owns the bounded row/header/receiver chain and the newest hard-normal stress cohorts; this pass did not continue Building by inertia.
+- **Nature:** existing Procedural PR #4 already owns bounded 3-family × 3-seed vegetation variation plus Geometry/VFX/Map compatibility evidence.
+- **Weather:** existing Procedural PR #3 already owns bounded seeded field variation plus Map receiver-family evidence.
+- **Map:** Environment, VFX, Technical Art and Runtime are actively resolving current-world receiver/timing/storage questions; receiver logic was not copied into Procedural.
+- **Object:** Hard Surface PR #26 freshly source-owns exact metric domains for the same two service surfaces already consumed by Object Procedural UV evidence. This created a real repeated authority seam: the prior Procedural UV path still rediscovered physical spans from derived face geometry.
+- **Misc:** no open design PR; no evidence-backed repeated pattern worth inventing.
 
 No new Procedural PR was opened.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-building-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
-Existing draft PR: **#4 — `Procedural: derive repeated pavilion box rows from exact source`**
+Existing draft PR: **#11 — `Procedural: add bounded bilateral service-module configuration family`**
 
 Exact tested Procedural head:
 
-**`7b8919dac11b62afebb3c4a1f055b6f6d7796de3`**
+**`26a19e4d48936101a1957746a29d456b480b7784`**
 
 Observed PR state: **OPEN / DRAFT / MERGEABLE**.
 
 New bounded contract:
 
-**`axm.building-planar-role-hard-normal-stress-family/v0.1`**
+**`axm.object-source-box-face-uv-metric-domain-rebind-family/v0.1`**
 
 Scoped result:
 
-**`PASS_BOUNDED_PLANAR_ROLE_HARD_NORMAL_STRESS_FAMILY`**
+**`PASS_BOUNDED_SOURCE_BOX_FACE_UV_METRIC_DOMAIN_REBIND_FAMILY`**
 
 Decision:
 
-**`PASS_DIAGNOSTIC_STRESS_COHORT_FAMILY_ONLY__NO_RECEIVER_OR_SOURCE_ADOPTION`**
+**`PASS_SOURCE_METRIC_DOMAIN_REBOUND_REVIEW_UV_FAMILY_ONLY__NO_SOURCE_UV_OR_MATERIALS_ADOPTION`**
 
 ## Why this deserves proceduralization
 
-Hard Surface owns the exact source render-equivalence rule. Geometry owns the exact diagnostic quotient that removes only hard-normal identity. Downstream review/testing would otherwise repeatedly hand-pick “easy” versus “boundary” groups from that quotient.
+The previous Object Procedural chain already had:
+1. exact source-face extraction;
+2. Materials-owned planar UV density variants;
+3. Hard-Surface-owned source-frame orientation rebind;
+4. bounded atlas-layout review.
 
-Procedural now generates three deterministic stress cohorts from the exact Geometry-owned quotient:
+Hard Surface PR #26 now adds a new source-owned fact for the exact same two manufactured faces: their physical 2D metric domains. Continuing to derive the authoritative width/height from review geometry would duplicate source meaning.
 
-1. `single-normal-control` — **124 quotient groups / 124 source render identities**;
-2. `two-normal-boundary` — **84 quotient groups / 168 source render identities**;
-3. `three-normal-boundary` — **104 quotient groups / 312 source render identities**.
+The smallest repair therefore generates the expected rectangular UV corner sets directly from:
+- the **Hard-Surface-owned metric bounds/extents**, and
+- the **already-owned Materials density** carried through the previous Procedural family,
 
-The three outputs are materially different by cardinality, source-identity pressure and digest. Their union covers all **312 quotient groups** and all **604 source render identities exactly once**. Reversing donor group iteration order reproduces the exact same three cohort digests, so output identity is canonical rather than order-lucky.
+then requires all four existing review outputs to match before passing.
+
+This does not replace the previous UV generator or invent arbitrary unwrap. It removes the authority ambiguity around physical extent.
 
 ## Exact provenance / authority
 
-A real two-parent merge preserves both histories:
+Pinned previous Procedural source-frame family:
+- profile: `assets/modular-equipment-case-001/source-box-face-uv-source-frame-rebind-family-001.json`;
+- profile Git blob: `0f57ebb01fc21e02f0d2123390e9562d39e86783`;
+- required result: `PASS_BOUNDED_SOURCE_BOX_FACE_UV_SOURCE_FRAME_REBIND_FAMILY`.
 
-- previous Procedural head: `cdf93ea6ad2757e14e5febc96d579d94f64a4d24`;
-- Hard Surface authority head: `7b86b1a9da1ef8dc670ca01cf4918728e68ece92`;
-- resulting Procedural head: `7b8919dac11b62afebb3c4a1f055b6f6d7796de3`.
+Pinned Hard Surface metric authority:
+- PR #26;
+- head: `f7c64d08e4e2a0d6954291d8b4e064d7345ab658`;
+- contract: `assets/modular-equipment-case-001/service-surface-metric-domains-001.json`;
+- contract Git blob: `2b425e2a12c648c20c2ad948f44489c4ac1a51e6`;
+- schema: `axm.object-hard-surface-service-surface-metric-domain/v0.1`.
 
-Pinned Hard Surface authority:
-
-- PR #14;
-- policy: `assets/service_pavilion_001_planar_role_hard_normal_authority_policy.json`;
-- policy Git blob: `826cc61a2e9fc172db5025f5b3ace6f566d5125a`;
-- required result: `PASS_SOURCE_OWNED_PLANAR_ROLE_HARD_NORMAL_AUTHORITY_BOUNDARY`.
-
-Pinned Geometry diagnostic:
-
-- PR #13;
-- head: `7dfb1153dc5f80bcbf1b48803f044236d4ebb030`;
-- policy Git blob: `82253e1491f1e21de4be733919762924fa6610f1`;
-- tool Git blob: `922d3baf55de2fb55b224d3bddbb18272bf4e174`;
-- quotient SHA-256: `7d9e0babf605e31ecb3e4edc92d06bd5460cf52a27f02ccbf32bbae44464688f`;
-- required result: `PASS_HARD_NORMAL_IDENTITY_REMOVAL_YIELDS_EXACT_312_GROUP_STRUCTURAL_QUOTIENT`.
-
-Hard Surface remains source authority. Geometry remains quotient/structural-diagnostic authority. Procedural owns only deterministic cohort derivation and its bounded failure evidence.
+Hard Surface owns source surface identity, source frame and physical metric domain. Materials owns UV density/origin/packing/lookdev. Procedural owns only deterministic bounded metric-to-review-UV generation and compatibility evidence.
 
 ## Smallest reusable implementation
 
-Added inside existing Building Procedural PR #4:
+Added inside existing Object Procedural PR #11:
 
-- `procedural/service_pavilion_planar_role_hard_normal_stress_family_001.json`;
-- `tools/build_pavilion_planar_role_hard_normal_stress_family.py`;
-- `tests/test_pavilion_planar_role_hard_normal_stress_family.py`;
-- `.github/workflows/procedural-building-planar-role-hard-normal-stress.yml`.
+- `assets/modular-equipment-case-001/source-box-face-uv-metric-domain-rebind-family-001.json`;
+- `tools/build_source_box_face_uv_metric_domain_rebind_family.py`;
+- `tests/test_source_box_face_uv_metric_domain_rebind_family.py`;
+- `.github/workflows/object-source-box-face-uv-metric-domain-rebind-family.yml`.
 
-The generator executes the exact Hard Surface and Geometry evidence paths, then partitions only on the already-proven `distinct_source_normal_count`. It emits JSON review cohorts, not a replacement mesh or normal field.
+The generator never discovers surfaces, guesses physical extents, picks a fallback or adopts source UVs. It consumes exactly two source-owned domains and exactly two retained Materials variants per surface.
 
 ## Materially different outputs
 
-Exact retained cohort digests:
+The family exercises **2 metric domains × 2 density variants = 4 outputs**:
 
-- `single-normal-control`: `0681cfb4c3f9de7df4756236f8b8c946fb30b9f38f13a7db1f3ef8e6427ea1db`;
-- `two-normal-boundary`: `9b7cc87c6e584e537b37228a7fec0118cfb8cc30b6f7c718b0f4f10ee4b9dd02`;
-- `three-normal-boundary`: `2e2324ded75d47e2190897335200f29cffc56eb5bdb4e930536196ec0d4b40f6`.
+- lid inner, source domain **0.78 × 0.48 m**, isotropic review: **15.6 × 9.6 UV**;
+- lid inner, explicit 3× V-density control: **15.6 × 28.8 UV**;
+- front service-panel outer, source domain **0.468 × 0.156 m**, isotropic review: **9.36 × 3.12 UV**;
+- front service-panel outer, explicit 3× V-density control: **9.36 × 9.36 UV**.
 
-Family policy SHA-256:
+The four metric-derived UV-corner-set digests are all distinct. All four reproduce the previous source-frame-rebound UV corner sets with **maximum residual `0.0`**.
 
-`0a6da5f3a9bfddacce2758405d36b02a2864a13060ad323a10d1e1b45acc56d5`
+Exact summary digest:
+
+`eca14fdecb50f657225071a20ca36841daf1049a803114805a89248ba764d878`
 
 ## Failure bounds
 
-Six controls fail closed:
+Seven controls fail closed:
 
-1. unsupported four-normal cohort;
-2. duplicate quotient group across cohorts;
-3. omitted three-normal quotient group;
-4. source-render identity drift;
-5. Hard Surface authority-head drift;
-6. automatic receiver adoption.
+1. Hard-Surface metric donor-head drift;
+2. duplicate metric-domain identity;
+3. metric-unit drift;
+4. metric-extent drift;
+5. centered-bound/domain drift;
+6. source metric-authority drift;
+7. previous Procedural UV physical-span disagreement with the source-owned metric domain.
 
-The family also forbids inferred normal classes, missing/duplicate groups, source rewrite, normal generation/repacking, implicit fallback and universal promotion.
+No hidden fallback, geometry-derived authority substitution, source rewrite, automatic source-UV adoption or universal promotion is permitted.
 
 ## Exact CI / retained evidence
 
 New exact-head workflow:
 
-- **`35207260965 — Procedural building planar-role hard-normal stress family` — SUCCESS**;
-- Python **3.11** and **3.13** both passed compile/tests;
-- the 3.11 job rebuilt, verified and uploaded the exact-head retained evidence.
+- **`35212453341 — Object source box-face UV metric-domain rebind family evidence` — SUCCESS**;
+- Python **3.11** and **3.13** both passed compile/full tests;
+- Python 3.11 rebuilt exact source faces, prior UV family, source-frame rebound family, metric-domain rebound family, all seven negative controls, and retained evidence.
 
-Inherited Procedural workflow on the same head:
+All eight inherited Object workflows triggered on the same exact head also completed **SUCCESS**, preserving the prior service-module, face extraction, UV projection, atlas-layout and source-frame-rebind chain.
 
-- **`35207260949 — Procedural building symmetric-row evidence` — SUCCESS**;
-- Python 3.11 and 3.13 both passed the full inherited test suite;
-- existing row/header/receiver evidence remained green.
+Retained artifact:
 
-Retained new artifact:
-
-- artifact ID: **`10490680510`**;
-- name: `service-pavilion-planar-role-hard-normal-stress-family-001-7b8919dac11b62afebb3c4a1f055b6f6d7796de3`;
-- uploaded size: **13,089 B**;
-- GitHub SHA-256: **`961a1bd075f24eac18e45f55db314a44fccf670a785536c5a327636be9f5c73a`**;
+- artifact ID: **`10493805122`**;
+- name: `object-source-box-face-uv-metric-domain-rebind-family-001-evidence`;
+- uploaded size: **32,680 B**;
+- GitHub SHA-256: **`a2288ee0c55af564f6c4105bc6effe3565da5295772bb2b7eb38f1d25cd9363e`**;
 - independently downloaded and rehashed to the exact same SHA-256;
-- archive contains the exact head marker, family policy, pinned Hard Surface/Geometry policies, summary and all three cohort outputs.
+- archive contains **30 files** including prerequisite evidence, exact owner contract, four metric-bound outputs and the exact summary.
 
-## Placement / authority boundary
-
-- **Hard Surface:** exact 604-class source render equivalence and hard-normal source intent.
-- **Geometry / Topology:** exact 312-group attribute-dropping quotient and structural diagnostic.
-- **Procedural:** deterministic bounded stress-cohort generation only.
-- **Technical Art / Runtime / Environment / Materials / Art / QA:** receiving representation, normal storage/generation, transport, runtime cost, visual/material acceptance remain separate.
-- **UC / Profession Fabric:** unchanged; one Building diagnostic family is not enough for universal promotion.
+Evidence was returned to Procedural PR #11 and Hard Surface PR #26 without transferring authority.
 
 ## Explicit non-claims
 
-This PASS does **not** authorize collapsing 604 source classes to 312, emit a product mesh, generate/smooth/repack normals, select a receiver representation, establish UV/tangent/custom-channel safety, prove transport/runtime/performance or visual acceptance, promote UC/Profession Fabric, establish CANON, production/game readiness or Procedural Design mastery.
+This PASS does **not** author or adopt production UVs, perform arbitrary unwrap/seam discovery/packing search, choose final texel density or atlas dimensions, author textures/materials, alter Object source geometry or metric domains, prove target-engine/runtime behavior, establish final Art Direction/Visual-QA acceptance, promote UC/Profession Fabric, establish CANON, production/game readiness or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** exact owner heads/blob identities and exact quotient digest are pinned; all 312 groups and 604 source identities are accounted for once; artifact hash was independently reproduced.
-- **Agency / non-domination:** Procedural does not choose source equivalence, receiver adoption, normal generation or downstream acceptance.
-- **Continuity:** a two-parent merge preserves the previous Procedural lane and current Hard Surface authority history; the inherited full Procedural workflow is still green.
-- **Wisdom before speed:** only the already-observed 1/2/3-normal repeated diagnostic pattern was proceduralized; no generic attribute-collapse framework was invented.
+- **Truth:** exact owner head/blob identities are pinned; the source metric domains and four prior UV outputs are independently checked; retained artifact hash was reproduced.
+- **Agency / non-domination:** Procedural does not redefine source dimensions, select Materials policy, adopt production UVs or make downstream visual/runtime decisions.
+- **Continuity:** existing Object Procedural PR #11 was advanced in place; all inherited exact-head workflows remain green; earlier Procedural evidence is preserved.
+- **Wisdom before speed:** only the newly owner-backed repeated metric-domain seam was repaired; no generic unwrap or universal surface-domain framework was invented.
 
 ## Prior retained Procedural chain
 
@@ -168,4 +161,4 @@ Earlier Object, Nature, Weather and Building Procedural evidence remains intact 
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. Do not continue Building merely because PR #4 is open. Extend this chain only when another owner-backed repeated manual pattern exists and Procedural can add leverage without taking source, receiver, runtime or visual authority.
+Re-scan the full constellation first. Do not continue Object merely because PR #11 is open. Extend only when another owner-backed repeated manual pattern exists and Procedural can add leverage without taking source, material, receiver, runtime or visual authority.
