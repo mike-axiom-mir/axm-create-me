@@ -2,154 +2,182 @@
 
 Date: 2026-09-18
 
-State: **PASS_CURRENT_WORLD_OBJECT_VFX_V2_RECEIVING_EVIDENCE / HOLD_EXISTING_CAMERA_OBSERVABILITY / HOLD_ART_QA_RUNTIME_AND_ADOPTION / COORDINATION_ONLY**
+State: **PASS_ART_DIRECTION_OBJECT_VFX_V2_CLOSE_PRESENTATION / ACCEPT_MAP_ZERO_RASTER_AS_NON_TARGET_SCALE_CONTEXT / PASS_WEATHER_OPACITY_NORMALIZED_TEMPORAL_EXPOSURE_VISUAL_CANDIDATE / HOLD_INDEPENDENT_QA_OBJECT_V2_CLOSE_REVIEW / HOLD_ART_QA_WEATHER_TEMPORAL_VALUE / HOLD_RUNTIME_REBINDS_TARGET_DEVICE_ADOPTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, fresh Art Direction / Visual QA status, and current design-repository / open-PR state across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the current VFX status, and fresh Art Direction / Visual QA / Animation / Environment / Procedural / Technical Art / Runtime / Capability-Cartography coordination. Re-scanned current open VFX-relevant design work across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stayed inside `mike-axiom-mir/axm-map-design`; this status file is the only coordination-repository change.
+`axm-create-me` remains **coordination only**. No product/effect implementation was added here. The only coordination-repository change is this status update.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Constellation / duplication scan
+## Constellation / non-overlap result
 
-The Object VFX source lane is already bounded at Object PR #31 exact irregularity-v2 head `bc114ee7ec876107892ccedeefc8e5020315488a`. It preserves owner seed `41027`, 18 deterministic stylized motes, exact Animation trigger `0.25 s`, and the source labels `EXACT_ANIMATION_PHASE_BOUNDARY_NOT_GAMEPLAY_EVENT` and `STYLIZED_VISUAL_RELEASE_MOTES_NOT_DUST_OR_FLUID_SIMULATION`.
+No fresh source retune is justified this activation.
 
-Nature / compact-east remains downstream-owned by Animation, Runtime, Art and QA; Weather retains visual-field semantics; Building / Character / Animal are occupied by geometry, rigging, materials, Technical Art and Runtime lanes. The strongest non-duplicative VFX gap was therefore **receiving-context observability**: test the unchanged repaired Object cue inside the exact current Map Object wall-clock receiver, using only its already-existing cameras.
+- **Object VFX:** Art Direction 038 has now reviewed exact irregularity-v2 and passed its close/seam presentation. Art explicitly accepts the Map `path_eye` / `elevated_oblique` zero-raster result as a non-target-scale / non-intrusion context and explicitly forbids brightening, enlarging, densifying, widening, lengthening, camera-moving or seed-shopping merely to make the wide cameras resolve the cue. Object VFX is therefore frozen at exact v2 pending independent QA close review, then Runtime rebind / target-device evidence.
+- **Nature / compact-east:** source response remains frozen; Animation, Runtime, Art and QA own the unresolved temporal/presentation gates. VFX does not reopen source motion.
+- **Weather:** source semantics and deterministic seed-family generation remain Weather / Procedural-owned. The mature Map VFX receiving lane already contains the exact source-width presentation, wall-clock truth history, latest-due fallback, continuous-phase experiments and the QA-requested opacity-normalized temporal-exposure successor.
+- **Runtime:** current coordination explicitly holds an Object VFX MultiMesh rebind until repaired v2 receives independent QA acceptance; Weather cadence/cost and target-device performance remain Runtime-owned.
+- **Environment / Technical Art / Materials:** active Object service-envelope, frame/parity transport and rendered-surface questions are separate owner lanes and are not VFX scope.
+- **Weapon / Armor / Character / Unit / Animal / Building / Misc:** no fresher VFX-owned handoff displaced the ready Weather presentation question.
 
-No source retune, seed shopping, brightness increase, size increase, density increase, lifetime increase, camera movement, Weather change, current-world composition change or Animation retiming was authorized or used.
+The highest-leverage bounded VFX improvement to carry forward is therefore the **attribution-clean Weather temporal-exposure presentation candidate**, not another new particle/effect lane.
 
-## Bounded Map receiving lane
+## Selected bounded improvement — opacity-normalized Weather temporal exposure
 
 Owning evidence repository: `mike-axiom-mir/axm-map-design`
 
-Draft PR: **#50 — `VFX: prove repaired Object release motes in current-world playback`**
+Existing draft PR: **#25 — `VFX: carry source-authored Weather width into current-world proof`**
 
-Branch: `studio/vfx-object-release-motes-current-world-001`
+Branch: `studio/vfx-weather-source-width-current-world-001`
 
-Base / exact Animation receiver head: `c2695f654f9dd44312ca5d205eceb27f7c2680ee`
+Exact current head: **`dd4a85223ba70f7086db2fdc292e4cb57ac38e47`**
 
-Exact Object VFX donor head: `bc114ee7ec876107892ccedeefc8e5020315488a`
+Exact scoped result: **`PASS_OPACITY_NORMALIZED_TEMPORAL_EXPOSURE_VISUAL_CANDIDATE`**
 
-Final exact VFX receiving head: `ce1b63f11467f497ca6077452338ba9fa36422ca`
+Dedicated real-host workflow: **`35147580525 — VFX Weather opacity-normalized temporal exposure evidence` — SUCCESS**.
 
-The receiving observer derives the same lid/body seam in the Map receiver-local frame, drives the same V2 particles from the inherited real `AnimationPlayer` phase, and retains static A/B frames at `0.20 / 0.30 / 0.40 / 0.52 / 0.80 s` from the existing `path_eye` and `elevated_oblique` cameras.
+Retained artifact:
 
-The observability contract is intentionally fail-safe: **zero current-world raster delta is a HOLD, not permission to amplify the cue or move the camera**.
+- ID `10466759303`;
+- size `7,963,651 B`;
+- SHA-256 `957a8b6afa54a6a8200597cb1276260390515c6db4129a24dfec76d084fbedf8`;
+- prior VFX handoff records that the downloaded archive independently rehashed to the same digest.
 
-## Failed predecessor retained
+### Why this is the current VFX improvement
 
-Initial exact head: `f6dc91c60aa6a968c7f0c5e793e3c3e8019af7f5`
+Visual QA previously identified a real attribution defect in the earlier two-tap temporal-exposure experiment: two direct half-opacity taps were statically dimmer than the single-tap control, so the apparent reduction in inter-frame RGB change could not cleanly be attributed to temporal history.
 
-Workflow run: `35283327632`
+The current successor fixes only that receiving/presentation confound. It preserves:
 
-Result: **FAIL before observation**.
+- the same 36 source-owned Weather streak identities;
+- source-authored `width_px`;
+- source brackets and source opacity authority;
+- current continuous-phase tap plus one source-bound tap lagged by at most `15.625 ms`;
+- 72 receiving ribbons total;
+- single-phase sapling deformation so vegetation is not ghosted;
+- the existing fixed `1100×720` `path_eye` and `elevated_oblique` review cameras;
+- Weather's visual-only semantics and all gameplay/physics non-claims.
 
-All exact-donor and inherited-parent gates passed, but Godot rejected the child observer because it redeclared inherited constant `EXACT_OBJECT_SOURCE_SHA256`. This was a proof-harness namespace collision, not VFX evidence.
+Each tap now maps source alpha `a` through weighted transmittance:
 
-Repair: rename only the child proof constant to `VFX_OBJECT_SOURCE_SHA256`. No VFX parameters, cameras, Animation data, Weather, materials or world state changed.
+`tap_alpha = 1 - (1 - a)^0.5`
 
-The failed run remains part of the evidence history.
+so two coincident equal-source taps reconstruct source alpha rather than introducing a built-in brightness reduction.
 
-## Exact repaired target-host result
+### Real Godot evidence
 
-Workflow run: **`35283582833 — VFX Object release motes current-world proof`**
+Pinned target-host evidence is Godot 4.7.2 in the established Map current-world receiver.
 
-Exact tested head: **`ce1b63f11467f497ca6077452338ba9fa36422ca`**
+The exact workflow verifies:
 
-Workflow conclusion: **SUCCESS**.
+- `648` retained per-streak opacity rows;
+- maximum formula error `9.43689570931383e-16`;
+- maximum equal-source reconstructed-alpha error `9.992007221626409e-16`;
+- `1,944` projected source-width observations;
+- maximum projected-width residual `0.0035412737885343 px` against the retained `0.05 px` gate;
+- exact source / bracket identity, resource identity and retained frame evidence;
+- a deliberate normalization mutation fails closed.
 
-Scoped engine state: **`PASS_CURRENT_WORLD_OBJECT_VFX_V2_RECEIVING_EVIDENCE`**
+At the zero-lag phase, candidate/control brightness is effectively identical at retained 8-bit precision:
 
-Scoped visual decision: **`HOLD_V2_NOT_OBSERVABLE_IN_EXISTING_CURRENT_WORLD_CAMERAS__DO_NOT_AMPLIFY_AUTOMATICALLY`**
+- `path_eye`: maximum RGB delta `1 LSB`, whole-frame mean absolute RGB `0.00089436 LSB`;
+- `elevated_oblique`: maximum RGB delta `1 LSB`, whole-frame mean absolute RGB `0.00095497 LSB`.
 
-### Real AnimationPlayer / VFX phase evidence
+## Important truth result — do not overclaim smoothing
 
-The inherited real current-world `AnimationPlayer.play()` completed naturally.
+Once static opacity attenuation is controlled, the earlier apparent smoothing advantage mostly disappears.
 
-- proof-host elapsed: `2.639187 s`;
-- process-frame / observed owner samples: `54`;
-- maximum owner-sample angular error: `9.43784353069077e-06 deg`;
-- keeper endpoint drift: `0.0 m`;
-- lever endpoint drift: `0.0 m`;
-- VFX pre-trigger inactive state observed: yes;
-- VFX active interval observed: yes;
-- VFX post-effect inactive state observed: yes;
-- maximum active mote count reached: **18**.
+Across retained transitions:
 
-The elapsed value is descriptive CI-host evidence only, **not target-device performance evidence**.
+- `path_eye` median inter-frame RGB ratio = `0.99971848×` control, only about **0.028% lower**;
+- `elevated_oblique` = `0.99620247×`, only about **0.380% lower**.
 
-### Existing-camera visual evidence
+The earlier half-opacity experiment had appeared roughly `4.7% / 7.0%` lower. The corrected evidence therefore supports a **subtle source-bound trailing / spatial-spread effect**, not a strong demonstrated smoothness improvement.
 
-All retained control/candidate comparisons were pixel-identical in both existing current-world cameras.
+That negative correction is valuable VFX evidence. VFX does **not** keep tuning the lag, opacity, density, seed, width or camera until Art Direction / independent Visual QA decide whether the attribution-clean trailing/spread has perceptual value.
 
-| context | 0.20 s | 0.30 s | 0.40 s | 0.52 s | 0.80 s |
-|---|---:|---:|---:|---:|---:|
-| `path_eye` | `0 active / 0 changed px` | `11 / 0` | `18 / 0` | `18 / 0` | `0 / 0` |
-| `elevated_oblique` | `0 / 0` | `11 / 0` | `18 / 0` | `18 / 0` | `0 / 0` |
+A fresh VFX handoff was returned to Map PR #25 as comment **`5722727776`**, freezing exact head `dd4a852...` rather than opening another retune.
 
-At the peak `0.40 s` sample the proof state therefore contains all 18 active motes, but neither existing camera receives a raster contribution above the exact one-channel `1/255` comparison threshold. The retained `0.40 s` control/candidate PNGs are byte-identical per camera as well as pixel-identical.
+## Object VFX fresh Art Direction continuity
 
-Direct inspection of the retained current-world frames confirms the equipment case itself is visible in both review contexts, while no mote contribution is visually resolved in either image. This is a **current-world presentation HOLD**, not evidence that the source VFX system failed to execute.
+Object PR #31 remains **open / draft / unmerged / mergeable** at exact v2 head:
 
-No new camera was invented and no source cue was strengthened to manufacture visibility.
+`bc114ee7ec876107892ccedeefc8e5020315488a`
 
-## Retained evidence
+Frozen owner identity remains:
 
-Artifact ID: `10522912081`
+- seed `41027`;
+- `18` motes;
+- trigger `0.25 s`;
+- exact Animation timing/easing/order unchanged;
+- owner color/alpha ceiling unchanged;
+- owner size/lifetime/velocity ranges unchanged;
+- semantics `EXACT_ANIMATION_PHASE_BOUNDARY_NOT_GAMEPLAY_EVENT`;
+- semantics `STYLIZED_VISUAL_RELEASE_MOTES_NOT_DUST_OR_FLUID_SIMULATION`.
 
-Artifact size: `1,680,927 B`
+Art Direction 038 now gives exact close-presentation state:
 
-Artifact SHA-256: `318cdcab899aa5ee8343cf6452bab20a2ba3bba6d4e571d66b9fc27908837a64`
+**`PASS_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_CLOSE_PRESENTATION_038`**
 
-The downloaded artifact was independently rehashed to the same digest.
+and exact scale-context decision:
 
-The artifact retains the exact contract, runtime receipt, both deliberate authority-negative controls, Godot log and all 20 current-world A/B PNGs.
+**`ACCEPT_EXISTING_CURRENT_WORLD_ZERO_RASTER_AS_NON_TARGET_SCALE_CONTEXT__NO_SOURCE_AMPLIFICATION`**.
 
-## Decision / handoff
+Object v2 exact retained VFX artifact remains:
 
-VFX does **not** retune V2 again on its own. The current evidence cleanly separates two facts:
+- ID `10521288521`;
+- size `4,922,444 B`;
+- SHA-256 `521575306651a0c3b41280315da4c75df6d55ae3a2ae0e6e8b40ba740bf81d17`.
 
-1. the unchanged irregularity-v2 cue follows the real current-world Object Animation phase and reaches the authored active count; and
-2. the two existing current-world review cameras do not resolve that cue as a raster-visible contribution.
+The close/seam contexts retain clean inactive closure and visible local effect contribution; the wide Map cameras remain exact zero-raster for the cue while the case itself is visible. Art now treats those wide views as non-target scale / non-intrusion evidence rather than a reason to amplify the micro-effect.
 
-That question now belongs to Art Direction / independent Visual QA at the product-presentation boundary: decide whether non-observability at this scene scale is acceptable, whether a different already-valid receiving context is required for review, or whether a future explicit Art request should reopen VFX presentation. Runtime rebind/adoption remains held until an accepted VFX state exists.
+Final Object VFX adoption remains held on:
 
-PR #50 remains a draft receiving-evidence lane; no merge or adoption is automatic.
+1. independent Visual QA review of the exact v2 close/seam packet;
+2. Runtime rebind of the historical MultiMesh proof only if QA confirms v2;
+3. target-device evidence.
 
-## Visual versus gameplay / physics boundary
+The current independent-QA coordination file still predates Direction 038 and therefore is **not** treated as a post-Direction-038 close-review verdict.
 
-This activation establishes only real target-host **phase-bound receiving and existing-camera observability evidence**.
+## Visual evidence versus gameplay / physics claims
 
-It does **not** establish or claim:
+The Weather PASS establishes a deterministic receiving/presentation candidate in a real Godot current-world context. The Object PASS establishes close-presentation Art acceptance plus real phase-bound receiving and wide-context non-intrusion evidence.
 
-- final Art Direction acceptance;
-- independent Visual QA acceptance;
-- physical dust, pressure, airflow, fluid behavior or mechanical release force;
-- collision, damage, interaction or gameplay behavior;
-- gameplay-event semantics;
-- production particle-system representation;
+Neither establishes or claims:
+
+- physical wind, precipitation size, airflow, dust, pressure, fluid or mechanical-force behavior;
+- collision, damage, interaction, controller timing or gameplay-event semantics;
+- authored Weather `32 Hz` delivery on a target device;
+- human-perceived smoothness of the Weather candidate;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery performance;
-- arbitrary-camera visibility;
+- production particle representation;
+- arbitrary-camera / arbitrary-resolution visual equivalence;
+- final independent QA acceptance of Object v2;
+- final Art/QA acceptance of Weather temporal exposure;
+- Runtime adoption;
 - CANON;
 - production/game readiness.
 
-Animation retains timing/easing/order. Environment retains world composition/cameras. Runtime retains production representation/performance. Art Direction and Visual QA retain perceptual acceptance. VFX retains effect identity, bounded receiving evidence and source-truth reporting. Gameplay/physics remain unchanged and unclaimed.
+Weather keeps source semantics. Animation keeps timing/easing/order. Environment keeps composition/cameras. Runtime keeps production representation/performance. Art Direction and independent Visual QA keep perceptual acceptance. VFX keeps bounded effect/presentation identity and truthful visual evidence. Gameplay/physics remain unchanged and unclaimed.
 
 ## Continuity retained
 
 The immediately preceding detailed VFX status remains historical truth at exact Git blob:
 
-`9c82869e8f42ec21d5b8fcb9ea919ecc85fd31e5`
+`59300321ebed31e10cab2aa5c82173c52136ec94`
 
-That status preserves Object owner proof, seed-family review, wall-clock/two-context proof, Art bead-chain diagnosis, v1 engineering-PASS/visual-HOLD, and irregularity-v2 source-local target-host evidence. None of those states are silently rewritten by this current-world receiving HOLD.
+That status preserves the full Object v2 current-world receiving experiment, failed namespace-collision predecessor, repaired target-host run, exact `18 active / 0 changed px` wide-camera result and its original HOLD interpretation before Art Direction 038 resolved the scale-context question.
+
+Earlier Object owner proof, seed-family review, wall-clock/two-context proof, bead-chain diagnosis, failed v1 visual repair, v2 close evidence, Weather source-width history, strict wall-clock failures, latest-due fallback and historical temporal-exposure experiments remain recoverable in their owning draft PR histories. No failed result is silently rewritten green.
 
 ## Four-root gate
 
-- **Truth:** the exact namespace-collision failure is retained; the repaired real-host run is green; 18 active motes with zero raster delta in both existing cameras is reported as a visual HOLD rather than narrated as success.
-- **Agency / non-domination:** VFX does not move Environment cameras, retime Animation, strengthen the source cue, choose gameplay semantics, seize Runtime optimization, override Art/QA, auto-merge or declare CANON.
-- **Continuity:** Object V2 exact head, Animation receiver exact head, failed predecessor, repaired head, artifact identity and prior status blob remain addressable.
-- **Wisdom before speed:** the lane stops at the newly exposed receiving-context limit instead of modifying the effect merely to turn a visibility test green.
+- **Truth:** the Object zero-raster fact is preserved exactly while Art's new interpretation is recorded separately; Weather's corrected opacity-normalized experiment explicitly retracts the earlier implied magnitude of smoothing instead of preserving a flattering but confounded story.
+- **Agency / non-domination:** VFX does not amplify Object against Art Direction, does not pre-empt independent QA, does not retime Animation/Nature, does not seize Weather source semantics, Runtime scheduling/performance or gameplay/physics authority, and does not auto-merge or declare CANON.
+- **Continuity:** exact Object v2, Map receiving evidence, Weather source-width lineage, failed wall-clock experiments, current normalized candidate, artifact identities, PR identities and previous status blob remain addressable.
+- **Wisdom before speed:** with Object frozen for QA and the Weather candidate already attribution-clean, this activation stops source churn and hands the actual perceptual decisions to Art/QA rather than inventing another parameter variation merely to produce activity.
 
 The four AXM roots remain the merge gate.
