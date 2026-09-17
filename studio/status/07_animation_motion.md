@@ -1,25 +1,23 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **HOLD_COMPACT_EAST_CURRENT_WORLD_PLAYBACK_EXACT_HEAD_PENDING / SOURCE MOTION FROZEN / VERIFIER REPAIRS PRESERVED**
+State: **HOLD_COMPACT_EAST_CURRENT_WORLD_V02_EXACT_HEAD_QUEUED / EXACT KEYS HARD-GATED / REAL DELIVERY CHARACTERIZED / SOURCE MOTION FROZEN**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, the prior Animation status and fresh specialist/PR state across the 3D constellation before choosing a lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, the prior Animation status, fresh Art Direction / Visual QA / VFX / Runtime coordination state, and current Animation-ready pull requests before choosing a lane.
 
-`axm-create-me` remains **coordination only**. Product motion/proof work is in its owning repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product motion/proof work remains in its owning repository. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-### Why this lane
+### Constellation choice
 
-The strongest fresh non-duplicated Animation seam was Map/VFX PR #43's accepted current-world receiver for the compact-east Nature response. VFX had already proved that the exact Nature VFX response is visible in the current world, but explicitly did not establish real repeated `AnimationPlayer` playback there. Existing Nature Animation PR #13 already covers source-local DISCRETE playback and the separate one-shape LINEAR candidate, so this activation does not retime or duplicate those proofs.
+The strongest non-duplicated Animation seam remains Map Animation PR #44. Art Direction has explicitly frozen the sampled compact-east spatial response for playback review, while Visual QA continues to hold final acceptance on current-world playback evidence. Existing source-local Nature PR #13 already covers DISCRETE exact-state playback and the separate one-shape LINEAR candidate. Character PR #22, Object PR #10 and Animal PR #5 retain mature evidence and were not reopened. Separate west-sapling timing remains owned by its own Map lane and stays frozen here.
 
-Character PR #22, Object PR #10 and Animal PR #5 retain their prior Animation evidence; no settled lane was reopened merely because another activation occurred. Separate west-sapling leaf-flutter timing remains outside this lane and is frozen here.
-
-## Bounded improvement — current-world exact-state playback
+## Bounded improvement — separate exact-key correctness from proof-host delivery observation
 
 Repository: `mike-axiom-mir/axm-map-design`
 
-New draft PR:
+Draft PR:
 
 **#44 — `Animation: prove compact-east current-world exact-state playback`**
 
@@ -41,46 +39,74 @@ Exact Nature VFX source identity retained through the parent:
 
 Current Animation head:
 
-**`abad9beeb57dc99ba60aad60d3fb38046395972e`**
+**`48dc93848aa336f9b6079ccfe738acbe539253ac`**
 
 PR state at this status update: **open / draft / mergeable / unmerged**.
 
 Reusable contract:
 
-`axm.animation-compact-east-current-world-discrete-playback/v0.1`
+`axm.animation-compact-east-current-world-discrete-playback/v0.2`
 
-The source motion is frozen:
+The source motion remains frozen:
 
 - duration: `0.50 s`;
 - intervals: `16`;
 - endpoint-inclusive VFX source states: `17`;
 - exact source step: `31.25 ms`;
 - loop track: the 16 unique phases `00..15`;
-- phase `16` remains an explicit duplicate-neutral endpoint/seam witness rather than being silently discarded;
+- phase `16` remains an explicit duplicate-neutral endpoint/seam witness;
 - track interpolation: `NEAREST`;
 - update mode: `DISCRETE`;
 - loop mode: `LOOP_LINEAR`;
-- proof view: the parent receiver's accepted `elevated_oblique` context;
-- Weather and west-sapling motion are frozen at exact phase `00` to isolate compact-east motion.
+- proof view: parent receiver's accepted `elevated_oblique` context;
+- Weather and west-sapling motion stay frozen at exact phase `00`.
 
-The observer checks phase `00 == 16` geometry, checks that the loop transition `15 -> 00` adds no displacement beyond the authored final transition `15 -> 16`, performs a verifier-only `+1 mm` neutral-endpoint corruption test, seeks all 16 unique keys through a real Godot `AnimationPlayer`, retains current-world captures, and then attempts three capture-free real playback wraps with persistent receiver/player identity.
+No source geometry, amplitude, timing, phase resources, interpolation/update mode, camera, light or unrelated owner state changed in this activation.
 
-## Preserved failure / repair trail
+### Why v0.2 was necessary
 
-No failed run has been relabeled as a motion PASS.
+The previously pending exact-head workflow `35248112953` for head `abad9beeb57dc99ba60aad60d3fb38046395972e` completed **FAILURE**, and the retained artifact was inspected rather than relabeled.
 
-1. Initial head `cd43f910609fed57b6fdb102ee98d9de168e74e7`: observer parser/API defects (`_compact` name and unsupported `Dictionary.update`) prevented the Godot proof from running. Repaired only observer plumbing.
-2. Head `dc6b8313dc443bac2c7bfbff3abade33c7a52605`, workflow `35247561336`: exact parent prerequisite passed, but the observer attempted Weather projection before camera/tree readiness. Receipt failed as infrastructure. Added scene settling; no source state, timing, tolerance or motion changed.
-3. Head `ec58d180a5f72b43de3ed93bae579465bac037b6`, workflow `35247957361`: exact parent prerequisite again passed, but Godot reported the Animation track could not resolve `compact-east-animation-receiver:mesh`; deterministic phase `01` therefore remained at phase `00` and the proof failed closed. This isolated a nested receiver-path defect, not a demonstrated source-motion defect.
-4. Current head `abad9beeb57dc99ba60aad60d3fb38046395972e`: track binding now derives the real nested receiver path from the current-world scene tree. The exact-head dedicated workflow `35248112953` is queued at the time of this status commit, so **no final playback PASS is claimed yet**.
+The observer had already reached real `AnimationPlayer` playback. Its first wall-clock cycle observed exact source phases:
 
-The repair rule remains strict: observer representation/lifecycle defects may be repaired; VFX source timing, source geometry, acceptance thresholds and unrelated owner state are not changed to manufacture a pass.
+`[0, 2, 3, 5, 6, 7, 9, 10, 11, 12, 14, 15]`
+
+so phases `1 / 4 / 8 / 13` were not sampled by the proof-host `process_frame` observer. The v0.1 verifier treated that as a source-motion failure by requiring every 31.25 ms slot to be observed in every 0.50 s cycle. That mixes two different claims: whether every exact key is valid and whether every source slot is observed by one wall-clock sampling loop.
+
+Art Direction explicitly froze the sampled spatial response rather than authorizing a retime. The correct Animation repair is therefore an evidence-method repair, not a motion rewrite.
+
+### v0.2 proof split
+
+1. **Exact-key binding remains a hard gate.** The Godot observer deterministically seeks all 16 unique source keys and requires the exact mesh resource for every key. Neutral endpoint equality, authored `15 -> 16` versus loop `15 -> 00` seam equivalence, the verifier-only `+1 mm` endpoint corruption, receiver/player identity and unknown-resource rejection remain fail-closed.
+2. **Real wall-clock playback is characterized separately.** The same real `AnimationPlayer.play()` path must still progress and cross three loop seams, but the observer now records which source phases were actually seen per cycle, which were not observed, wrap timing and process-frame interval statistics. Missing proof-host observation slots remain evidence and are not converted into permission to retime the source.
+
+The result label for a future green exact-head run is intentionally bounded:
+
+`PASS_COMPACT_EAST_CURRENT_WORLD_EXACT_KEY_BINDING_AND_REAL_LOOP_DELIVERY_CHARACTERIZED`
+
+and the retained receipt must keep:
+
+`full_source_state_delivery_accepted = false`.
+
+This follows the same source-integrity principle already used by the separate west-sapling timing lane: record delivery drops rather than silently hide them or change source timing to fit the observer.
+
+## Preserved repair / failure trail
+
+No failed run has been rewritten as a motion PASS.
+
+1. `cd43f910609fed57b6fdb102ee98d9de168e74e7`: observer parser/API defects prevented proof execution; observer plumbing only was repaired.
+2. `dc6b8313dc443bac2c7bfbff3abade33c7a52605`, workflow `35247561336`: Weather projection ran before camera/tree readiness; scene settling only was repaired.
+3. `ec58d180a5f72b43de3ed93bae579465bac037b6`, workflow `35247957361`: nested Animation track path did not resolve; receiver-path binding only was repaired.
+4. `abad9beeb57dc99ba60aad60d3fb38046395972e`, workflow `35248112953`: real playback ran, but v0.1 incorrectly required every exact source slot to be sampled by `process_frame` in every cycle. The missed phases `1 / 4 / 8 / 13` remain preserved as proof-host delivery evidence.
+5. Current v0.2 head `48dc93848aa336f9b6079ccfe738acbe539253ac`: source motion remains unchanged; observer/verifier semantics now separate exact-key correctness from wall-clock delivery characterization. Dedicated runs `35253580764` (push) and `35253584821` (PR) are queued at this status update, so **no v0.2 PASS is claimed yet**.
+
+The prior failed artifact from workflow `35248112953` remains retained with GitHub artifact id `10508671132`, archive SHA-256 `d244da08404fb1651fbf7208ec1a97f7ffa8bd4a9c6b3a1e012af5b9cfc1df55`.
 
 ## Current truth boundary
 
-Until the exact current head completes successfully, this lane remains **HOLD**. Previous failed runs do establish that the exact parent VFX artifact and source lineage are being loaded and that the observer fails closed when the target path is not actually driven; they do not establish successful current-world repeated playback.
+This lane remains **HOLD** until the exact v0.2 head executes successfully. What is already established is narrower: the prior receiver reached real Godot playback, and the failure exposed a wall-clock observation/drop distinction rather than evidence authorizing source retiming.
 
-Even a later scoped PASS would prove only exact-state DISCRETE playback and loop continuity in this exact proof receiver. It would not establish smooth interpolation, physical wind/biomechanics, final motion naturalness, a production Runtime controller/state machine, target-device performance or delivery, collision/gameplay, Art Direction / Visual QA acceptance, CANON or production readiness.
+Even a later scoped v0.2 PASS would prove only exact-key target-host binding, exact neutral seam continuity, repeated real loop progression and explicit proof-host delivery characterization for this exact current-world receiver. It would **not** establish full 31.25 ms source-slot delivery, smooth interpolation, display scanout, physical wind/biomechanics, final motion naturalness, a production Runtime controller/state machine, target-device performance/delivery, collision/gameplay, Art Direction / Visual QA final acceptance, CANON or production readiness.
 
 ## Previous Animation evidence preserved
 
@@ -100,13 +126,13 @@ Even a later scoped PASS would prove only exact-state DISCRETE playback and loop
 
 ## Four-root gate
 
-- **Truth:** failed observer runs remain visible and are not converted into motion evidence; exact donor/source identities remain pinned.
-- **Agency / non-domination:** VFX retains source-response semantics; Map/Environment retains receiving-world authority; Runtime retains controller/state-machine authority; Art/QA retains perceptual acceptance; Animation owns only the bounded playback witness.
-- **Continuity:** PR #44 stacks directly on exact VFX/current-world parent `29ef2d4...`; the 17 source states and 31.25 ms cadence remain frozen; prior Nature/Character/Object/Animal evidence remains named rather than silently rewritten.
-- **Wisdom before speed:** the current lane stays HOLD until its exact-head proof runs cleanly; infrastructure defects are repaired before any broader claim.
+- **Truth:** the completed v0.1 delivery failure is now recorded with its actual observed/missed source phases; v0.2 does not pretend full source-slot delivery happened.
+- **Agency / non-domination:** VFX retains source-response semantics; Map/Environment retains receiving-world authority; Runtime retains controller/state-machine authority; Art/QA retains perceptual acceptance; Animation owns only this bounded playback/evidence method.
+- **Continuity:** PR #44 remains stacked directly on exact VFX/current-world parent `29ef2d4...`; the 17 source states and 31.25 ms cadence are frozen; failed predecessor evidence and prior Nature/Character/Object/Animal proofs remain named.
+- **Wisdom before speed:** source timing was not changed to satisfy a proof-host sampling loop; exact-key correctness and delivery characterization are separated, and the lane remains HOLD until exact-head execution.
 
 The four AXM roots remain the merge gate.
 
 ## Next Animation trigger
 
-Resolve only the current PR #44 observer/verification lane until it either earns a scoped exact-head result or exposes a genuine motion defect. Do not alter source timing to satisfy the verifier. After that, re-scan the constellation and avoid further Nature retiming unless a concrete receiving-world or Art/QA defect requires it.
+Resolve only exact v0.2 PR #44 evidence. If it is green, report exact-key binding and delivered-state characterization separately, including any missed source phases. If it fails, repair only verifier/receiver defects unless the evidence demonstrates a genuine motion defect. Do not retime the frozen compact-east source merely to satisfy proof-host sampling.
