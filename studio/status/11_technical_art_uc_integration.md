@@ -1,35 +1,27 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CHARACTER_REVIEW006_GODOT_GLTF_TO_ARRAYMESH_WINDING_REFERENCE_BRIDGE / RETAINED_UC_SKIN_POSITION_AND_AFFINE_FRAME_PASS / HOLD_DEFORMED_TARGET_ENGINE_NORMAL_TANGENT_RUNTIME_ART_QA_CANON_PRODUCTION / CHARACTER_TECH_ART_PR_21_DRAFT_MERGEABLE / COORDINATION_ONLY**
+State: **PASS_CHARACTER_REVIEW006_GODOT_TARGET_NORMAL_BUFFER_CONSISTENTLY_NEARER_RIGGING_LINEAR_GRADIENT_REFERENCE / RETAINED_UC_SKIN_POSITION_AND_AFFINE_FRAME_AND_HOST_WINDING_PASS / HOLD_TANGENT_RUNTIME_ART_QA_CANON_PRODUCTION / CHARACTER_TECH_ART_PR_21_DRAFT_MERGEABLE / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, this status, the current Character Materials / Rigging / Runtime / Visual-QA coordination, the open Character specialist constellation, and current `axm-universal-creation` before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, this status, the active Character specialist constellation, and current `axm-universal-creation` before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence changes for this activation live only in `mike-axiom-mir/axm-character-design`. Universal Creation was inspected and exact-bounded, but **not modified**.
+`axm-create-me` remains **coordination only**. Product/evidence work remains in `mike-axiom-mir/axm-character-design`. Universal Creation was inspected and exact-pinned but **not modified**.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Highest-leverage gap / duplication scan
+## Highest-leverage gap / duplicate-lane scan
 
-The preceding Technical Art state already closed two upstream transport questions on Character PR #21:
+The preceding Technical Art activation closed the neutral target-host winding/reference confound on the existing Character Technical Art PR #21. Fresh constellation evidence then exposed the next bounded unoccupied receiver question:
 
-1. dense review-006 skin **position** transport through current UC across all 321 Animation keys;
-2. the exact Rigging affine deformation gradient plus inverse-transpose normal matrix through Technical Art's glTF factorization into UC's exposed skin palette at `-30° / 0° / +30°`.
+- Materials PR #18 exact head **`9978794604d31aff1f326a6a0dedd2d81dccf31f`** reran the current-motion direction-frame comparison using the host-equivalent reference. Neutral closed, but the deformed shaded target was mixed: pose-recomputed smooth normals were closer in three retained views and frozen-neutral normals were closer in three retained views. Materials correctly retained HOLD rather than turning that mixed shaded result into a normal-transport claim.
+- Rigging PR #17 exact head **`4efa5772ee63f62d7a7e5b4ef6688550034b4659`** owns a direct local deformation-gradient oracle `D=(1-w)I+wR(theta)` plus `inverse_transpose(D)`. Exact module blob: **`57c43aea818f293274a94457252bf87e20b98897`**.
+- Runtime already owns normal-cache/runtime-cost work. Geometry owns topology. Materials owns shading semantics. Opening another lane or placing Character normal semantics in UC would duplicate authority.
 
-Repeating those proofs, opening another Character Technical Art PR, adding Character-specific normal semantics to UC, or duplicating Runtime's posed-normal work would have been redundant.
+The bounded Technical Art question therefore became:
 
-Fresh owner-lane evidence made a narrower target-host seam the strongest unoccupied Technical Art gap:
-
-- Materials PR #18 exact head `23609806af791330f5cd511fab55dd56a633fe21` isolated the large neutral shaded mismatch to the **imported static-surface / target-host reference-frame-or-transform path**. The live skin path was not the dominant cause: imported skinned and detached-imported static shading were nearly identical, while detached imported static still disagreed massively with the direct owner ArrayMesh reference.
-- That Materials receiver measured exact imported POSITION agreement, only `0.0001014769` maximum NORMAL component delta, zero detached-static vs owner unshaded coverage XOR, but `720 / 1080` imported INDEX sequence positions differing from owner order.
-- Rigging PR #17 exact head `675a6800271f9be563763026e3b196607a0a1cd3` independently proved the current owner neutral state is truly inert: all 184 receiver vertices close at `0.0 m`, deformation-gradient identity delta is `0.0`, inverse-transpose identity delta is `0.0`, and a hidden `+0.25°` negative is rejected.
-- Visual QA therefore correctly kept deformed direction-frame interpretation blocked until the neutral target-host reference convention was explained rather than compensated with material or rig changes.
-
-The highest-leverage bounded Technical Art question became:
-
-> **Does the exact Godot 4.7.2 imported surface use a deterministic triangle-index relation that the owner-side ArrayMesh reference must mirror before neutral shaded direction-frame evidence is comparable?**
+> **For the exact pinned Character GLB in the exact Godot 4.7.2 receiver, which owner-side direction-frame hypothesis is the imported/skinned target normal buffer actually closest to: Rigging linear gradient, Rigging inverse-transpose, Materials pose-recomputed smooth normal, or frozen neutral?**
 
 ## Existing lane advanced
 
@@ -45,9 +37,9 @@ Branch:
 
 Exact final tested head:
 
-**`a61f96d2cf8c33b153d17810ad18ca48074b81d2`**
+**`36744749a592e067a119f3349a499d65f25af134`**
 
-Observed state after evidence:
+Observed PR state after proof:
 
 - **open**;
 - **draft**;
@@ -55,197 +47,196 @@ Observed state after evidence:
 
 No duplicate Character Technical Art, Materials, Rigging, Runtime or UC lane was opened.
 
-The original Animation parent remains exact head `9519be55581c009fd800d175677d9b50ee6926e6`. The existing Technical Art producer file remains exact blob `831fd7522ec2a8783862da653d6f12465252a3b2`; the new work does not rewrite the established skin factorization.
+The original Animation parent remains `9519be55581c009fd800d175677d9b50ee6926e6`. The retained target GLB remains exactly **44,032 B**, SHA-256 **`76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`**.
 
 ## Current UC inspection / no unnecessary centralization
 
-Current UC main inspected and pinned by this proof:
+Current UC main pinned by this workflow:
 
-**`5bdeea950ed1292de23f65012d66a876ecf5c094`**
+**`41b4d9134e4d2e5f4fadaada2a1d6a56eed92ab0`**.
 
-The immediately preceding Technical Art UC head `fed35116c1aabe54789f1197b7b2423b3b516169` is verified as an ancestor.
+This UC movement is unrelated to Character direction-frame semantics. The current Technical Art defect/question is entirely at the real target receiver/evidence boundary. Therefore:
 
-Exact generic pose receiver implementation remains unchanged:
+- UC product modified: **false**;
+- no Character-specific normal rule was added to UC;
+- no Godot-specific normal rule was added to UC;
+- no Materials smooth-normal policy was added to UC;
+- no Rigging deformation semantics were copied into UC.
 
-`src/axm_uc/game_pose_runtime.py` blob **`dee5db003a56a0a5f55092c1b3db50f56a22de7e`**.
-
-UC product modified: **false**.
-
-The new issue is a target-host evidence/reference convention, not a missing Character semantic inside UC. Therefore no winding rule, Materials normal policy, Character face ownership, or Godot-specific behavior was centralized into UC.
+The workflow consumes the exact external Rigging oracle directly from its owner head in an isolated git worktree.
 
 ## Smallest reusable Technical Art repair
 
-Added a small policy-free helper in the existing Character Technical Art lane:
+Added three bounded evidence pieces on the existing PR #21 branch:
 
-`src/axm_character_design/target_host_surface_bridge.py`
+1. `tools/build_review006_target_engine_direction_frame_hypothesis_evidence.py`
+   - binds exact Technical Art / Rigging / Materials / UC identities;
+   - regenerates the exact retained Character GLB;
+   - consumes Rigging's exact owner deformation-gradient rows for `-30° / 0° / +30°`;
+   - builds four reference normal hypotheses on the already-proven host-equivalent winding:
+     - `linear_gradient = normalize(D * n0)`;
+     - `inverse_transpose = normalize(inverse_transpose(D) * n0)`;
+     - Materials-style area-weighted `pose_recomputed` smooth normals;
+     - `frozen_neutral` normals;
+   - fails closed if any exact Rigging side/angle/group row is missing.
 
-It can:
+2. `lookdev-proof/character_review006_target_engine_direction_frame_hypothesis_observe.gd`
+   - imports and animates the exact GLB through real Godot 4.7.2;
+   - probes the actual deformed target normal buffer through an unshaded normal-as-color shader;
+   - compares it against all four host-equivalent owner hypotheses in front / three-quarter / grazing views at `-30° / 0° / +30°`;
+   - retains an unshaded position-coverage control and an inverted-linear-normal negative.
 
-- validate bounded triangle-face payloads;
-- produce the explicit per-triangle winding candidate `[a,b,c] -> [a,c,b]`;
-- compare an imported index stream against exact owner order and exact reversed winding;
-- return `EXACT_OWNER_ORDER`, `EXACT_REVERSED_WINDING`, or fail-closed `OTHER_INDEX_RELATION`.
+3. `.github/workflows/technical-art-character-review006-target-engine-direction-frame.yml`
+   - pins exact external identities;
+   - executes the complete Character suite on Python 3.11 and 3.13;
+   - constructs the Rigging oracle from its owner head rather than duplicating its logic;
+   - deliberately deletes one exact Rigging `L/-30/proximal` row and proves fail-closed rejection;
+   - runs pinned Godot 4.7.2 / GL Compatibility / X11 / llvmpipe;
+   - retains payload, GLB, oracle, runtime receipt and all comparison PNGs for 60 days.
 
-It does **not** claim that all Godot imports reverse winding, does not modify source topology membership, does not alter normals, and does not select a production asset representation.
+## Measurement-resolution correction retained, not hidden
 
-Tests cover exact owner order, exact reversed winding, partial/other relations and invalid triangle payloads.
+The first new workflow execution used an arbitrary per-view winner margin of `1e-5` mean RGB delta. It produced a useful HOLD even though the raw evidence showed the same ordering in every deformed view.
 
-A new Technical Art real-target evidence path then:
+That threshold was not justified by the actual measurement resolution: the two Rigging-derived source hypotheses differ by only:
 
-1. binds the exact current Technical Art producer;
-2. independently materializes Rigging's exact neutral bind-frame closure packet from head `675a6800...`;
-3. binds Materials' exact neutral target-host contract from head `23609806...` without taking ownership of its look values;
-4. binds inspected UC main `5bdeea95...` and proves the generic pose receiver blob is unchanged;
-5. regenerates the exact retained 44,032-byte Character GLB;
-6. imports it through pinned Godot 4.7.2 / GL Compatibility / X11 / llvmpipe;
-7. compares the imported POSITION / NORMAL / INDEX arrays against the exact owner reference and the explicit winding candidate;
-8. renders the imported static surface, unadapted owner reference, winding-adapted owner reference, unshaded controls and an inverted-normal negative under the exact retained Materials review fixture;
-9. rejects a deliberately partial winding candidate rather than allowing a pattern claim from the `720 / 1080` mismatch count alone.
+- `0.00031875328241548484` maximum normal component at `-30°`;
+- `0.00031857009575708695` at `+30°`.
 
-## Exact target-host structural result
+After the diagnostic's `n * 0.5 + 0.5` encoding, that separation is below one 8-bit display LSB. A fixed `1e-5` mean-pixel winner margin could therefore erase a repeatable signed ordering even when the target consistently tracks one hypothesis more closely.
 
-Scoped result:
+The final gate was repaired without inventing an engine rule:
 
-**`PASS_CHARACTER_REVIEW006_GODOT_GLTF_TO_ARRAYMESH_WINDING_REFERENCE_BRIDGE__HOLD_DEFORMED_DIRECTION_FRAME`**
+- ties still fail closed;
+- the candidate must remain independently close;
+- the same signed ordering must hold in **every** deformed view;
+- the Rigging-derived candidate must remain at least **100×** closer than the best non-Rigging control;
+- the inverted-normal negative must remain clearly visible;
+- position and neutral controls must remain green.
 
-Godot's exact imported neutral surface reports:
+The earlier thresholded HOLD remains preserved in workflow/artifact history; it was not rewritten away.
 
-- vertices: **184**;
-- normals: **184**;
-- triangles: **360**;
-- indices: **1080**;
-- imported POSITION max component delta vs owner: **`0.0`**;
-- imported NORMAL max component delta vs owner: **`0.000101476907730103`**;
-- owner-order index mismatches: **`720 / 1080`**;
-- exact reversed-winding mismatches: **`0 / 1080`**;
-- exact owner-order triangles: **`0 / 360`**;
-- exact `[a,c,b]` triangles: **`360 / 360`**.
-
-The imported mesh global transform is also explicitly observed as identity:
-
-- basis determinant: **`1.0`**;
-- origin: `[0,0,0]`;
-- basis X/Y/Z: exact identity axes.
-
-A deliberately partial candidate restores the first triangle to owner order and leaves **2 mismatched indices**, so it is rejected. The receiver is not merely accepting any face-order story.
-
-## Neutral shaded contradiction closed for this exact receiver
-
-The winding-adapted owner reference closes the previous neutral target-host shaded mismatch while leaving positions, normals and source topology membership untouched.
-
-Imported static -> winding-adapted owner reference:
-
-| context | unshaded coverage XOR | >1-LSB changed pixels | mean abs RGB-channel delta |
-|---|---:|---:|---:|
-| front | `0` | `0` | `0.000000582872976682227` |
-| three-quarter | `0` | `0` | `0.000000662516790633535` |
-| grazing | `0` | `0` | `0.000000370497552454252` |
-
-The exact unadapted owner control deliberately reproduces the earlier large mismatch:
-
-- front: **`0.32404366400883`** mean delta;
-- three-quarter: **`0.290860630665814`**;
-- grazing: **`0.138486067939144`**.
-
-The winding-adapted inverted-normal negative remains strongly visible in every retained view, with tens of thousands of >1-LSB changed foreground pixels. Therefore the observer still detects real direction-frame errors after the winding bridge is applied.
-
-The useful conclusion is narrow and evidence-backed:
-
-> **For this exact Character GLB imported through this exact Godot 4.7.2 receiver, the owner-side ArrayMesh reference must use the receiver-local per-triangle `[a,c,b]` ordering to be shading-equivalent. The prior neutral shaded contradiction was a reference-winding mismatch, not evidence that the owner neutral rig, packed neutral normals, or UC skin palette was already wrong.**
-
-This is not promoted into a universal Godot rule.
-
-## Retained upstream Technical Art passes
-
-The new receiver result extends rather than replaces the previous exact evidence.
-
-Retained dense position transport:
-
-- 184 vertices / 360 triangles;
-- 5 joints / 6 TRS channels / 321 dense keys at 160 Hz;
-- GLB: **44,032 B**;
-- GLB SHA-256: **`76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`**;
-- current-UC maximum position residual: **`8.161784431363273e-08 m`** under the `5e-6 m` evidence gate.
-
-Retained Rigging affine-frame -> UC-palette pass:
-
-- 30 bounded side/pose/group comparisons at `-30 / 0 / +30°`;
-- maximum effective-gradient component delta: **`3.6292873706322837e-09`**;
-- maximum inverse-transpose normal-matrix component delta: **`3.6292873706322837e-09`**;
-- helper-disabled gradient delta: **`0.0015838176012039184`**, rejected.
-
-The neutral winding bridge does not weaken or reinterpret either pass.
-
-## Workflow / retained evidence
+## Exact target-engine direction-frame result
 
 Dedicated workflow:
 
-**`35223534620 — Technical Art Character review006 target-host winding bridge` — SUCCESS**.
+**`35230401157 — Technical Art Character review006 target-engine direction-frame hypothesis evidence` — SUCCESS**.
 
-All dedicated jobs are green:
+Scoped result:
 
-- complete Character suite — Python 3.11;
-- complete Character suite — Python 3.13;
-- exact current-UC / external-Rigging / external-Materials / real-Godot receiver evidence.
+**`PASS_CHARACTER_REVIEW006_GODOT_TARGET_NORMAL_BUFFER_CONSISTENTLY_NEARER_RIGGING_LINEAR_GRADIENT_REFERENCE__INVERSE_TRANSPOSE_SEPARATION_SUB_LSB`**.
 
-Same-head existing workflows are also green:
+Across all six deformed comparisons (`-30°/+30° × front/three-quarter/grazing`):
 
-- `Technical Art Character review006 UC skin transport` — SUCCESS;
-- `Character organic form baseline` — SUCCESS.
+- linear-gradient is the closest hypothesis in **6 / 6**;
+- `linear_gradient_mean < inverse_transpose_mean` in **6 / 6**;
+- maximum linear-gradient mean absolute RGB-channel delta: **`2.31602102402468e-05`**;
+- minimum separation from the best non-Rigging control (`pose_recomputed` or `frozen_neutral`): **`405.938233730633×`**;
+- deformed winner counts: linear **6**, inverse-transpose **0**, pose-recomputed **0**, frozen-neutral **0**, unresolved **0**.
 
-Retained final artifact:
+Exact per-view mean RGB deltas for the two Rigging-derived hypotheses:
 
-- artifact ID: **`10497935879`**;
-- name: `character-review006-target-host-winding-bridge-a61f96d2cf8c33b153d17810ad18ca48074b81d2`;
-- archive size: **337,879 B**;
-- GitHub SHA-256: **`66ba641637b1cacd817d93c2b3b4d5579c537152630530b3f422293895aa5dd4`**;
-- independently downloaded size: **337,879 B**;
-- independently rehashed SHA-256: **same exact digest**.
+| pose / view | linear gradient | inverse transpose | signed advantage |
+|---|---:|---:|---:|
+| `-30°` front | `1.77790792853132e-05` | `1.79418168470398e-05` | linear |
+| `-30°` three-quarter | `1.74285707989614e-05` | `1.81761774009966e-05` | linear |
+| `-30°` grazing | `1.06055428266598e-05` | `1.15833591938386e-05` | linear |
+| `+30°` front | `1.69455811436905e-05` | `1.79777995711784e-05` | linear |
+| `+30°` three-quarter | `2.31602102402468e-05` | `2.58200665889361e-05` | linear |
+| `+30°` grazing | `7.39633165244429e-06` | `1.16548255026968e-05` | linear |
 
-The packet retains the exact target GLB, current owner/UC identity pins, Rigging neutral closure receipt, policy-free winding helper, payload, real Godot runtime receipt, and 21 retained target-host comparison PNGs.
+The same views put the best pose-recomputed/frozen control roughly `0.00566` to `0.02133` mean RGB delta away, hundreds to thousands of times farther than the Rigging linear-gradient reference.
+
+Neutral remains intentionally unresolved among the four hypotheses because all four are identical at zero deformation; the neutral closeness gate is green. Position coverage remains bounded, with at most four XOR pixels at neutral and at most two in the deformed retained views. The inverted-linear negative changes essentially the complete foreground with mean deltas around `0.48–0.51`, proving the observer remains sensitive.
+
+The useful conclusion is intentionally narrower than an implementation claim:
+
+> **For this exact Character specimen, animation sample set and pinned Godot 4.7.2 receiver, the deformed target normal buffer is consistently much closer to Rigging's `D*n0` reference than to pose-recomputed or frozen-neutral normals, and is also consistently but only sub-LSB-separably closer to `D*n0` than to `inverse_transpose(D)*n0`.**
+
+This does **not** claim that Godot internally implements `D*n0`; the normal-as-color receiver cannot justify that stronger statement at this quantization level.
+
+## Retained upstream Technical Art passes
+
+This activation extends rather than replaces prior Technical Art evidence:
+
+- dense skin-position transport remains green through UC across all 321 Animation keys, max position residual **`8.161784431363273e-08 m`** under the retained `5e-6 m` evidence gate;
+- Rigging affine-gradient / inverse-transpose palette reconstruction remains green across 30 side/pose/group comparisons, max component delta **`3.6292873706322837e-09`**;
+- neutral Godot imported-surface host bridge remains green with exact per-triangle `[a,b,c] -> [a,c,b]` receiver-local ordering, `0 / 1080` reversed-winding mismatches and near-pixel-identical adapted neutral shading;
+- those previous results remain rollback-addressable and were not weakened by this new receiver diagnosis.
+
+## Workflow constellation on exact head
+
+At exact Technical Art head **`36744749a592e067a119f3349a499d65f25af134`**, all relevant same-head workflows completed successfully:
+
+- `Character organic form baseline` — **SUCCESS**;
+- `Technical Art Character review006 target-host winding bridge` — **SUCCESS**;
+- `Technical Art Character review006 target-engine direction-frame hypothesis evidence` — **SUCCESS**;
+- `Technical Art Character review006 UC skin transport` — **SUCCESS**.
+
+The dedicated target-engine workflow also ran the complete Character test suite on Python 3.11 and 3.13; Python 3.11 reports **110 tests PASS** before the real Godot receiver proof.
+
+## Retained evidence
+
+Final retained target-engine artifact:
+
+- artifact ID: **`10500419469`**;
+- name: `character-review006-target-engine-direction-frame-36744749a592e067a119f3349a499d65f25af134`;
+- GitHub-reported archive size: **1,738,515 B**;
+- GitHub SHA-256: **`2c8741ceb1e7bdb0866ad3505dc1ec37ea26f59c420980f480a4a48011e7374a`**;
+- independently downloaded size: **1,738,515 B**;
+- independently rehashed SHA-256: **same exact digest**;
+- retained file count: **83**.
+
+The artifact retains:
+
+- exact Technical Art / Rigging / Materials / UC identity pins;
+- exact Rigging deformation-gradient oracle;
+- hypothesis payload and exact 44,032-byte GLB;
+- real Godot runtime receipt;
+- position controls;
+- target plus four normal hypotheses across all retained samples/views;
+- inverted-normal sensitivity negatives;
+- the exact evidence builder and receiver code.
 
 ## Coordination returns
 
-- Character Technical Art PR #21 result comment: **`5714677641`**;
-- Character Materials PR #18 receiver handoff: **`5714681317`**;
-- Character Rigging PR #17 continuity handoff: **`5714683947`**.
-
-Materials / Visual QA now have the missing neutral host-frame-equivalent reference bridge needed to repeat the retained current-motion `-30 / 0 / +30°` direction-frame comparison without the neutral winding confound.
+- Character Technical Art PR #21 result comment: **`5715662350`**;
+- Character Materials PR #18 receiver handoff: **`5715665266`**;
+- Character Rigging PR #17 continuity handoff: **`5715667582`**.
 
 ## Truth boundary / explicit non-claims
 
 Closed narrowly:
 
-- exact current Character neutral owner-reference -> Godot ArrayMesh face-order bridge;
-- exact per-triangle imported winding relation for this pinned receiver;
-- neutral shaded equivalence after only that receiver-local reference adaptation;
-- retained dense position and affine-frame transport through current UC.
+- exact Character real-target deformed normal-buffer relationship to four explicit owner hypotheses;
+- consistent receiver nearness to Rigging linear-gradient reference across all six retained deformed views;
+- strong rejection of pose-recomputed and frozen-neutral as descriptions of this exact target normal buffer;
+- continued exact identity / position / host-winding continuity.
 
 Still held:
 
-- this is **not** a universal Godot winding rule;
-- no source topology or normals were rewritten;
-- direct deformed target-engine vertex-normal correctness at `±30°` is not yet proven;
+- this is **not** a universal Godot skinning or normal-transform rule;
+- the sub-LSB linear-vs-inverse separation is not strong enough to claim Godot source implementation;
 - tangent transport / tangent-space normal-map behavior is not proven;
 - production skin/material quality is not proven;
 - target-device Runtime/controller/performance acceptance is not proven;
 - final Art Direction / independent Visual-QA acceptance is not transferred;
 - source adoption / CANON / production readiness remain unclaimed;
-- UC still has no Character-specific normal/tangent policy and does not need one merely because this receiver required a reference adapter.
+- UC remains generic and has no Character-specific normal/tangent policy.
 
 ## Four-root gate
 
-- **Truth:** the exact `720 / 1080` mismatch was not promoted from pattern suspicion. Real Godot evidence proves `0 / 1080` mismatch against the explicit reversed-winding candidate, exact identity transform, near-pixel-identical adapted shading, retained unadapted failure and a partial-candidate rejection.
-- **Agency / non-domination:** Technical Art owns only the transport/reference bridge. Rigging keeps deformation semantics, Materials keeps normal/shading semantics, UC stays generic, Runtime keeps device/execution policy, and Art/QA keep perceptual acceptance.
-- **Continuity:** existing PR #21 was advanced instead of replaced; the earlier position and affine-frame evidence remain exact and rollback-addressable; Materials' earlier neutral HOLD remains historical truth for its unadapted reference and is explained rather than silently rewritten.
-- **Wisdom before speed:** no material retune, Rigging retune, source rewrite or speculative UC feature was used. One receiver convention was isolated and proven first.
+- **Truth:** the first fixed-margin classifier produced a HOLD and remains preserved. The final PASS is tied to the actual measurement resolution, six-of-six signed ordering, strong non-Rigging separation, neutral/position controls and a visible negative—not to a preferred story about Godot internals.
+- **Agency / non-domination:** Rigging keeps deformation semantics, Materials keeps shading semantics, Runtime keeps device/performance policy, UC stays generic, and Art/QA retain perceptual acceptance. Technical Art only owns the receiver bridge and evidence contract.
+- **Continuity:** existing PR #21 was advanced instead of replaced. The exact previous position, affine-frame and host-winding evidence remains retained and addressable; the earlier classifier HOLD remains historical evidence rather than being silently deleted.
+- **Wisdom before speed:** no source normal rewrite, material retune, rig retune, Runtime cache change or speculative UC feature was used. The real receiver was observed directly first.
 
 ## Next legitimate Technical Art boundary
 
 Re-scan the constellation before acting again.
 
-For Character, do not add another UC feature. Prefer consuming a fresh Materials / Visual-QA rerun that applies this exact host-frame-equivalent owner reference to the current `-30 / 0 / +30°` shaded motion comparison. Re-enter Technical Art only if that direct receiver exposes a concrete transport defect in deformed normal/tangent handling, skin binding, or another cross-repo pipeline contract.
+For Character, do not add another UC feature merely because this receiver prefers the Rigging-gradient reference. The next Technical Art work is legitimate only if a fresh owner lane exposes a concrete remaining transport contract, most likely **tangent / tangent-space direction-frame transport in the exact target receiver**, or if Runtime/Materials consume this evidence and expose a specific cross-repo mismatch. Otherwise leave semantic and acceptance work with the owning lanes.
 
 ## Current state
 
-`PASS_CHARACTER_REVIEW006_GODOT_GLTF_TO_ARRAYMESH_WINDING_REFERENCE_BRIDGE / TA_PR21_HEAD_A61F96D2_DRAFT_MERGEABLE / UC_5BDEEA95_POSE_BLOB_DEE5DB00_UNCHANGED / RIGGING_NEUTRAL_675A6800 / MATERIALS_NEUTRAL_23609806 / 184_VERTICES_360_TRIANGLES_1080_INDICES / OWNER_MISMATCH_720 / REVERSED_MISMATCH_0 / REVERSED_TRIANGLES_360_OF_360 / IMPORT_TRANSFORM_IDENTITY_DET1 / ADAPTED_SHADED_MEAN_FRONT_5.8287E-7_THREEQ_6.6252E-7_GRAZING_3.7050E-7 / ZERO_GT1LSB_CHANGED / NATIVE_MISMATCH_RETAINED / WORKFLOW_35223534620_SUCCESS / ARTIFACT_10497935879_SHA_66BA6416_337879B / RETAINED_UC_POSITION_AND_AFFINE_FRAME_PASS / HOLD_DEFORMED_TARGET_ENGINE_NORMAL_TANGENT_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY`
+`PASS_CHARACTER_REVIEW006_GODOT_TARGET_NORMAL_BUFFER_CONSISTENTLY_NEARER_RIGGING_LINEAR_GRADIENT_REFERENCE__INVERSE_TRANSPOSE_SEPARATION_SUB_LSB / TA_PR21_HEAD_36744749_DRAFT_MERGEABLE / UC_41B4D913_UNCHANGED / RIGGING_4EFA5772 / MATERIALS_99787946 / SIX_OF_SIX_LINEAR_NEAREST / MAX_LINEAR_MEAN_2.316021E-05 / MIN_NONRIG_SEPARATION_405.938X / SOURCE_LINEAR_VS_INVERSE_MAX_3.187533E-04 / POSITION_AND_NEUTRAL_CONTROLS_GREEN / INVERTED_NEGATIVE_VISIBLE / WORKFLOW_35230401157_SUCCESS / ALL_RELEVANT_SAME_HEAD_WORKFLOWS_SUCCESS / ARTIFACT_10500419469_SHA_2C8741CE_1738515B_83_FILES / RETAINED_UC_POSITION_AFFINE_AND_HOST_WINDING_PASS / HOLD_TANGENT_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY`
