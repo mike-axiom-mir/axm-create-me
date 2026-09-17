@@ -1,13 +1,13 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / THIRTY-FIFTH BOUNDED RUNTIME PASS / PASS_CHARACTER_REVIEW006_BILATERAL_RELEASE_SCALE_ACCESSOR_DEDUP_IMPORT_BUDGET / GLB 44,032 B -> 40,064 B (-9.0116%) / BINARY 40,108 B -> 36,256 B (-9.6041%) / EXACT CURRENT-UC POSITION + SKIN-PALETTE IDENTITY ALL 321 KEYS / HOLD_TARGET_ENGINE_MEMORY_RENDERED_FRAMES_ART_QA_TECH_ART_ADOPTION_CANON_PRODUCTION**
+State: **ACTIVE / THIRTY-SIXTH BOUNDED RUNTIME PASS / PASS_COMPACT_EAST_ARRAYMESH_RESOURCE_REUSE / 425 -> 1 NODE+ARRAYMESH+MATERIAL CONSTRUCTIONS (-99.7647%) / PROOF-HOST STRESS MEDIAN 1533 -> 1102 US (-28.11%) / 34/34 MATCHED FRAMES BYTE-IDENTICAL / HOLD_CURRENT_WORLD_CONTINUOUS_PLAYBACK_TARGET_DEVICE_ART_QA_ADOPTION_CANON_PRODUCTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the prior Runtime status, and fresh Art Direction, Animation, Technical Art / UC, Materials/target-host and independent Visual Observer QA state before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the prior Runtime status, and fresh Art Direction, Visual Observer / QA, Technical Art / UC, VFX / Atmosphere and open constellation PR state before selecting work.
 
-`axm-create-me` remains **coordination only**. Runtime implementation/proof code and retained evidence live in `mike-axiom-mir/axm-character-design`; this file is the only `axm-create-me` change for this activation.
+`axm-create-me` remains **coordination only**. Runtime implementation/proof code and retained evidence live in `mike-axiom-mir/axm-nature-design`; this status file is the only `axm-create-me` product-tree change for this activation.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
@@ -15,236 +15,209 @@ The four AXM roots remain the internal merge gate: **Truth, Agency / non-dominat
 
 Existing Runtime lanes remain owned and were not reopened:
 
-- Object Runtime PR #30 already owns scalar roughness L8 storage / selected-field provenance.
-- Building / Map Runtime lanes already own compact/planar indexing and residual primitive-scaling evidence.
-- Animal Runtime PR #27 already owns normalized-u16 skin-weight width; remaining work is visual/producer adoption.
-- Character Runtime PR #20 already owns localized posed-normal caching; reopening normal preparation would duplicate pass 34.
+- Character Runtime PR #23 already owns exact bilateral dense release-scale accessor deduplication; current Character shaded direction-frame failure remains an Art / QA / target-host issue, not a reason to reopen import storage.
+- Character Runtime PR #20 already owns localized posed-normal caching.
+- Object Runtime PR #30 already owns scalar roughness L8 storage and selected-field provenance; Object PR #29 already owns atlas-height right-sizing.
+- Animal Runtime PR #27 already owns normalized-u16 skin-weight width; remaining work is visual / producer adoption.
+- Building / Map Runtime lanes already own post-normal indexing and residual primitive-scaling evidence.
+- Map Runtime PR #13 already proves stable `MeshInstance3D` / `ArrayMesh` / material reuse for the synchronized west sapling in a current-world proof.
 
-Fresh Character state made a different import-budget gap available:
+Fresh VFX state created a materially different receiver rather than another copy of the same west-sapling lane:
 
-- Technical Art PR #21 has an exact dense current-UC transport GLB at head `c007c327f2613989581192602338435b67b748d7` with **184 vertices, one primitive, one five-joint skin, six TRS animation channels and 321 dense keys**.
-- Its exact control GLB is **44,032 B**, SHA-256 `76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`.
-- The bilateral release-helper SCALE channels are generated from the same `correction_transform(angle)` values but occupy two separate FLOAT VEC3 output accessors.
-- Current Art Direction still requires pose-following deformed direction response rather than frozen-neutral normals.
-- Independent Visual QA currently reports a separate **neutral shaded target-host direction-frame baseline mismatch** on the current Character receiver. Runtime does not reinterpret or repair that visual blocker in this import-budget lane.
+- Nature VFX PR #11 exact head `cef2ad78d8e36a55ada5dad07329f1a7125d48de` now contains a source-local compact-east responsive tree candidate.
+- It preserves exact migrated neutral mesh digest `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`.
+- It contains **17 exact response phases**, each `390 vertices / 570 triangles`, under the already-bounded visual-only Weather direction semantics.
+- Its source-local Godot observer proves visible response and exact neutral return, but VFX explicitly leaves Runtime target-device timing/performance authority held.
 
 The bounded Runtime question was therefore:
 
-> **Can two byte-identical bilateral dense animation outputs share one glTF accessor, reducing transport/import bytes without changing any current UC position or skin-palette result?**
+> **Does the stable dynamic-mesh resource lifecycle rule already measured on the west sapling transfer to this second, materially different migrated Nature body without changing its exact VFX phase images or renderer submission shape?**
 
-This is lower-risk than key decimation, quantization, retiming or another visual representation change and does not duplicate another specialist lane.
+This is intentionally a transfer/reuse proof rather than a duplicate rewrite of Map Runtime PR #13.
 
 ## Owning Runtime lane
 
-Repository: `mike-axiom-mir/axm-character-design`
+Repository: `mike-axiom-mir/axm-nature-design`
 
-Draft Runtime PR: **#23 — `Runtime: deduplicate review006 bilateral release-scale accessor`**
+Draft Runtime PR: **#12 — `Runtime: reuse compact-east response mesh resources`**
 
-Branch: `studio/runtime-character-review006-scale-accessor-dedup-001`
+Branch: `studio/runtime-compact-east-resource-reuse-001`
 
 Exact tested Runtime head:
 
-`d95caae1df766b2e08bca50241d732ecb2208aee`
+`341b8c66a865138f6ed4b0b573b6a5dfd8fb64ae`
 
-Exact parent Technical Art head:
+Exact parent VFX head:
 
-`c007c327f2613989581192602338435b67b748d7`
+`cef2ad78d8e36a55ada5dad07329f1a7125d48de`
 
-Exact Technical Art producer blob:
-
-`831fd7522ec2a8783862da653d6f12465252a3b2`
-
-Exact current UC head / receiver blob:
-
-- UC head: `fed35116c1aabe54789f1197b7b2423b3b516169`;
-- `game_pose_runtime.py`: `dee5db003a56a0a5f55092c1b3db50f56a22de7e`.
-
-PR #23 is **open, draft and mergeable**.
+PR #12 is **open, draft, unmerged and mergeable**.
 
 Scoped result:
 
-**`PASS_CHARACTER_REVIEW006_BILATERAL_RELEASE_SCALE_ACCESSOR_DEDUP_IMPORT_BUDGET__HOLD_TARGET_ENGINE_ART_QA_ADOPTION`**
+**`PASS_COMPACT_EAST_ARRAYMESH_RESOURCE_REUSE__425_TO_1_RESOURCE_CONSTRUCTIONS__34_FRAME_BYTE_IDENTITY`**
 
-## Bounded candidate
+## Measure-before / bounded candidate
 
-The Runtime candidate is evidence-side only. It does **not** edit the Technical Art production generator.
+Both modes consume the exact same 17 VFX phase meshes, the same source-to-Godot transform, same neutral unshaded proof material, same culling-disabled response-isolation boundary, the same two VFX cameras and pinned Godot `4.7.2` GL Compatibility.
 
-It:
+The only bounded variable is dynamic presentation-resource lifecycle:
 
-1. regenerates the exact pinned Technical Art GLB and verifies its known 44,032 B / SHA-256 identity;
-2. locates only the left/right release-helper `scale` animation samplers;
-3. requires both output accessors to remain FLOAT VEC3 with all 321 keys;
-4. requires their complete binary payloads to be **byte-identical** before any deduplication is permitted;
-5. rebinds the right sampler to the already-existing left output accessor;
-6. removes only the now-unused final duplicate accessor, bufferView and binary payload;
-7. sends control and candidate through the exact current UC receiver and compares every dense sample.
+- `rebuild_resources_control`: synthetic control creates a new `MeshInstance3D`, `ArrayMesh` and material on every measured phase submission;
+- `reuse_arraymesh_candidate`: creates one `MeshInstance3D`, one `ArrayMesh` and one material, then clears/recommits only the changing triangle surface for every exact phase.
 
-No source form, Geometry, Rigging, Animation curve/key/timing, material semantics, UC product code, controller or gameplay behavior is changed.
+Per mode:
 
-## Measure-before / before-after evidence
+- retained updates: **17**;
+- stress updates: **24 × 17 = 408**;
+- total measured updates: **425**.
 
-### Complete GLB
+No Nature source JSON, migrated topology, response phase, amplitude, Weather semantic, camera, material scalar or triangle count is changed.
 
-- control: **44,032 B**;
-- candidate: **40,064 B**;
-- saved: **3,968 B**;
-- reduction: **9.01162790698%**.
+## Before / after evidence
 
-### Binary payload
+### Resource constructions
 
-- control: **40,108 B**;
-- candidate: **36,256 B**;
-- saved: **3,852 B**;
-- reduction: **9.60406901366%**.
+Control:
 
-The 3,852 B binary saving is exactly one redundant dense FLOAT VEC3 stream:
+- `MeshInstance3D`: **425**;
+- `ArrayMesh`: **425**;
+- material: **425**.
 
-`321 keys × 3 components × 4 B = 3,852 B`.
+Candidate:
 
-Structural metadata also shrinks:
+- `MeshInstance3D`: **1**;
+- `ArrayMesh`: **1**;
+- material: **1**.
 
-- accessors: **13 -> 12**;
-- bufferViews: **13 -> 12**;
-- left/right release scale samplers share accessor `11` after deduplication.
+Construction reduction:
 
-Retained shared payload SHA-256:
+**99.76470588235294%**.
 
-`1b931c3dff15b68bae2f53f9a7a5cc59d0eddf76e84e804ca58719fd13cf8272`
+The candidate's node, mesh and material instance IDs remain stable across all 17 retained phases.
 
-Candidate GLB SHA-256:
+### Proof-host CPU-side submission observations
 
-`2786a05578adbd1bacccd2c47305000bf7ead81a65580da896d46d9dd0666bcc`
+Retained 17-phase sequence:
 
-## Exact current-UC equivalence
+- median: **2550 -> 1203 µs (-52.82%)**;
+- total: **44,520 -> 21,243 µs (-52.28%)**.
 
-Current UC reports the same bounded semantic receiver shape for control and candidate:
+408-update stress sequence:
 
-- vertices: **184**;
-- primitives: **1**;
-- clips: **1**, same six-channel clip identity;
-- skins: **1**;
-- joints: **5**.
+- median: **1533 -> 1102 µs (-28.11%)**;
+- p95: **2094 -> 1166 µs (-44.32%)**;
+- total: **645,571 -> 458,224 µs (-29.02%)**.
 
-Across **all 321 dense animation keys**:
+These are pinned proof-host CPU-side submission observations. They are **not** target-device FPS, GPU-frame-time or portable latency budgets.
 
-- maximum candidate-vs-control position delta: **0.0 m**;
-- changed position samples: **0 / 321**;
-- maximum candidate-vs-control skin-palette component delta: **0.0**;
-- changed skin-palette samples: **0 / 321**.
+### Renderer / memory shape
 
-The import-size win therefore does not come from resampling, interpolation changes, key removal, quantization or altered skin transforms.
+Across all **34 matched retained frames**:
 
-## Fail-closed control
+- draw calls: exact control / candidate match;
+- objects in frame: exact match;
+- RenderingServer primitives: exact match.
 
-The retained negative control flips one byte only in the right release-scale payload before deduplication.
+Pre-to-post stress observations:
 
-Result: **rejected** because the bilateral streams are no longer byte-identical.
+- control buffer-memory drift: **0 B**;
+- candidate buffer-memory drift: **0 B**;
+- control texture-memory drift: **0 B**;
+- candidate texture-memory drift: **0 B**.
 
-Runtime therefore does not generalize “left/right look equivalent” into permission to share storage. Exact payload identity is the prerequisite.
-
-## Preserved failed predecessor / verifier repair
-
-The first retained workflow attempt failed before semantic comparison because Runtime required the **entire UC `describe()` dictionary** to be equal after accessor sharing.
-
-That was too strict for this representation-only change: source-description metadata legitimately reflects the lower accessor/bufferView count. The failed attempt remains provenance rather than being hidden.
-
-The repaired verifier narrows only that harness assumption:
-
-1. require the same semantic receiver shape;
-2. then compare all 321 current-UC position samples exactly;
-3. compare all 321 current-UC skin palettes exactly;
-4. retain the non-identical-payload negative control.
-
-The candidate or semantic acceptance gates were **not** weakened.
+This is useful leak/churn evidence inside the bounded proof, not a complete allocator, VRAM or resident-memory claim.
 
 ## Visual tradeoff for Art Direction / Visual QA
 
-Measured receiver-input tradeoff:
+All **34 fixed-camera control/candidate PNG pairs are byte-identical**.
 
-**`NONE_OBSERVED_EXACT_UC_POSITION_AND_SKIN_PALETTE_IDENTITY_ALL_321_KEYS`**
+Recorded tradeoff:
 
-A fresh rendered-frame comparison was **not** performed, so:
+**`NONE_OBSERVED_34_MATCHED_FRAMES_BYTE_IDENTICAL`**
 
-`rendered_frame_delta = NOT_REMEASURED`.
+Runtime therefore observed no raster difference caused by stable resource reuse in this exact neutral proof presentation. Final motion naturalness, culling/leaf-sidedness, shaded materials, current-world composition and Art Direction / Visual QA acceptance remain separate.
 
-Art Direction / Visual QA acceptance remains HOLD. In particular, this pass does **not** repair, explain or waive QA's current `FAIL_CHARACTER_REVIEW006_TARGET_HOST_NEUTRAL_SHADED_DIRECTION_FRAME_BASELINE_EQUIVALENCE`. Storage deduplication and target-host shaded direction-frame correctness remain separate truths.
+## Fail-closed control
+
+The comparison verifier deliberately replaces the candidate's one-resource construction counts with the control counts.
+
+Result: **rejected** because the candidate no longer demonstrates `candidate_reuses_one_resource_set`.
+
+Image identity alone therefore cannot satisfy the Runtime optimization gate.
 
 ## Exact CI / retained evidence
 
 Dedicated workflow:
 
-**`35218524054 — Runtime Character review006 scale accessor dedup budget — SUCCESS`**
+**`35223655530 — Runtime compact-east resource reuse evidence — SUCCESS`**
 
-Validation:
+The exact Runtime head also ran the complete inherited Nature Python 3.11 suite inside this workflow:
 
-- exact Technical Art parent / producer blob: PASS;
-- exact current UC head / pose receiver blob: PASS;
-- exact control GLB identity: PASS;
-- complete Character suite Python 3.11: **105 / 105 PASS**;
-- complete Character suite Python 3.13: PASS;
-- bilateral byte-identity prerequisite: PASS;
-- exact binary/file budget reduction: PASS;
-- all 321 current-UC position comparisons: exact;
-- all 321 current-UC skin-palette comparisons: exact;
-- one-byte right-stream divergence negative control: PASS_EXPECTED_REJECTION;
-- retained evidence upload: PASS.
+**33 / 33 tests PASS**.
+
+The same exact head's inherited Nature source/topology workflows were green as well.
 
 Artifact:
 
-- ID: **`10496046375`**;
-- name: `character-review006-runtime-scale-accessor-dedup-d95caae1df766b2e08bca50241d732ecb2208aee`;
-- uploaded size: **26,517 B**;
-- GitHub SHA-256: `8877e803f74d14819a958ee78656c4852acc2cc4e3e8d9a2129d5698eadc52cb`;
+- ID: **`10498250877`**;
+- name: `compact-east-runtime-resource-reuse-341b8c66a865138f6ed4b0b573b6a5dfd8fb64ae`;
+- uploaded size: **772,079 B**;
+- GitHub SHA-256: `b19ea6512785e6b4a19f6cb98448affcdc19ca7700fe863a3a8062ab71b01c6a`;
 - independently downloaded and rehashed SHA-256: **same**.
 
 ## Handoffs
 
-- **Technical Art PR #21:** Runtime comment `5713988990` records the exact result and explicitly makes **no automatic producer-adoption request**.
-- **Art Direction / Visual QA:** no visual acceptance is borrowed from exact position/palette equality. The current neutral target-host shaded mismatch remains independently blocking.
-- **Animation / Rigging:** keys, timing, curves, deformation ownership and safe-envelope decisions are untouched.
-- **UC:** unchanged. Runtime consumed current UC as a receiver only.
+- **Nature VFX PR #11:** Runtime comment `5714698634` returns exact pass evidence and makes **no automatic implementation/adoption request**.
+- **Map Runtime PR #13:** continuity comment `5714700932` records that the earlier west-sapling lifecycle rule has now reproduced on a second materially different deforming Nature body without rewriting that older lane.
+- **Art Direction / Visual QA:** 34/34 byte-identical proof frames are reported only as the lifecycle-change visual tradeoff. They do not grant final Nature appearance or motion approval.
+- **Environment / Map:** no current-world composition was edited.
+- **Weather:** visual-direction semantics are consumed unchanged; no physical-wind claim is introduced.
+- **UC:** unchanged; this proof did not require a Universal Creation product change.
 
 ## Reusable learning / placement boundary
 
-Reusable bounded Runtime rule:
+A stronger cross-source Runtime rule is now supported by two independent deforming Nature bodies:
 
-> **Before quantizing or deleting animation keys, first look for output accessors that are already byte-identical. Share storage only after exact payload identity is proven, then re-run the real receiving path across the full bound sample set. Representation metadata may legitimately change; semantic receiver shape and outputs must not.**
+> **When deformation changes geometry content but topology and presentation identity remain stable, keep the receiving node, mesh resource and material stable; update the changing surface instead of reconstructing presentation resources every state. Re-prove exact frames and renderer submission shape rather than assuming resource reuse is visually inert.**
 
-This is a strong import-budget pattern, but one Character bilateral scale case does not justify a generic UC optimizer yet. Broader extraction would need independent assets, animations, exporters/importers and target-engine memory evidence.
+The west sapling and compact-east tree both support this bounded rule, but two examples still do not justify claiming a universal vegetation runtime system or UC extraction. A broader abstraction should wait for another receiving pattern or a real shared product path where extraction removes duplicated implementation rather than merely creating framework code.
 
 ## Historical continuity
 
-Pass 34 remains preserved in history: localized posed-normal caching reduced proof-host normal-preparation work while producing exact Materials-reference normal arrays.
+Pass 35 remains preserved in repository history: exact Character bilateral release-scale accessor deduplication reduced complete GLB size `44,032 -> 40,064 B` while current UC positions and skin palettes remained exact across all 321 keys.
 
-Passes 32/33 remain the Object roughness L8 measurement and selected-field identity rebind. Earlier Animal, Building, Weather and other Runtime passes remain separate historical truth.
+Pass 34 remains preserved: localized Character posed-normal caching reduced proof-host normal-preparation work while producing exact Materials-reference normal arrays.
+
+Passes 32/33 remain the Object roughness L8 measurement and exact selected-field identity rebind. Earlier Animal, Building, Weather, Nature and other Runtime passes remain separate historical truth.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- target-engine import-memory savings;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery improvement;
-- current target-host shaded equivalence;
-- a repair of the current neutral shaded direction-frame mismatch;
-- final Character normals/tangents or tangent-space correctness;
-- full-body shaded-motion quality;
-- arbitrary animation-channel deduplication safety without exact identity proof;
-- key reduction, quantization or retiming safety;
-- automatic Technical Art producer adoption;
-- a generic UC optimization policy;
-- Art Direction or independent Visual QA acceptance;
+- portable timing budgets from GitHub's llvmpipe proof host;
+- continuous wall-clock response playback quality;
+- in-place vertex-buffer streaming or a more advanced dynamic-mesh API;
+- current-world / Map receiving integration;
+- final culling / leaf-sidedness or shaded material behavior;
+- physical wind, biomechanics, gameplay, collision or navigation behavior;
+- a universal vegetation optimizer;
+- automatic VFX / Environment / producer adoption;
+- Art Direction or independent Visual QA final acceptance;
+- UC extraction;
 - CANON;
 - production/game readiness;
 - Runtime / Optimization mastery.
 
 ## Four-root check
 
-**Truth:** exact producer, control GLB, current UC receiver, before/after bytes, all 321 receiver samples, the initial verifier failure and the negative control are retained separately from unmeasured renderer/device claims.
+**Truth:** exact VFX ancestry, migrated mesh identity, all 17 source phases, before/after construction counts, proof-host timings, all 34 retained frame pairs, renderer counters, memory-drift observations, negative control, workflow and artifact hash are recorded separately from target-device or final-art claims.
 
-**Agency / non-domination:** Runtime owns only the evidence-side representation optimization. Technical Art keeps producer/transport authority; Animation keeps motion; Rigging keeps deformation; Materials/Art/QA keep shaded direction-frame meaning and acceptance.
+**Agency / non-domination:** Runtime changes only the evidence-side resource lifecycle. VFX keeps response ownership, Nature keeps source geometry, Weather keeps semantics, Environment keeps composition, and Art / QA keep appearance acceptance.
 
-**Continuity:** the candidate stacks directly on the exact current Technical Art head and keeps all six dense channels / 321 keys. The separate current target-host visual failure remains named rather than being silently overwritten by an import-budget PASS.
+**Continuity:** this pass extends rather than overwrites the earlier west-sapling reuse result, preserves the fresh compact-east VFX lineage exactly, and leaves Character/Object/Animal/Building Runtime lanes untouched.
 
-**Wisdom before speed:** Runtime removed only bytes proved redundant instead of reaching first for lossy key reduction, quantization, visual simplification or speculative target-host repair.
+**Wisdom before speed:** Runtime tested one reusable lifecycle rule against the second real deforming Nature body before inventing a generic vegetation framework, in-place streaming system, LOD rewrite or speculative target-device claim.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
