@@ -1,200 +1,246 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / TWENTY-FIFTH BOUNDED RUNTIME PASS / PASS_BUILDING_COMPACT_SHELL_RUNTIME_REPRESENTATION_COST_CHARACTERIZED__HOLD_VISUAL_AND_RECEIVER_ADOPTION / 19,968 B MODELED HARD-EDGE RENDER-PAYLOAD SAVING / -13,312 B OBSERVED PROOF-HOST BUFFER MEMORY / -2,496 RENDERED PRIMITIVES / 7 FIXED-VIEW PIXELS CHANGED / ART REVIEW REQUIRED / NO AUTOMATIC ADOPTION**
+State: **ACTIVE / TWENTY-SIXTH BOUNDED RUNTIME PASS / PASS_BUILDING_COMPACT_V2_POST_NORMAL_INDEX_REDUCES_BUFFER__HOLD_VISUAL_REVIEW / 6,156 -> 1,196 STORED VERTICES / -94,416 B MODELED RECEIVER PAYLOAD / -86,888 B OBSERVED BUFFER VS UNINDEXED COMPACT-V2 / +19,672 B BUFFER AND +5,328 PRIMITIVES VS ACTIVE SEGMENTED RECEIVER / <=10 PIXELS PER FRAME AT <=1 LSB / ART-QA REVIEW REQUIRED / NO AUTOMATIC ADOPTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned active Runtime, Art Direction, Technical Art / UC and the fresh Building Geometry / Hard-Surface chain before selecting one bounded optimization question.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Art Direction, Runtime, Environment, Technical Art / UC and the active Building chain before selecting one bounded non-duplicated optimization question.
 
-`axm-create-me` remains **coordination only**. Product code and Runtime evidence live in `mike-axiom-mir/axm-building-design`; this repository changes only this status record.
+`axm-create-me` remains **coordination only**. Product implementation and exact Runtime evidence live in `mike-axiom-mir/axm-map-design`; this repository changes only this specialist status record.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The prior Runtime passes already cover Weather cadence/cache/proof-harness cost, Object and footprint indexing, Animal indexed render domains, glTF joint-width compaction and the held normalized-weight experiment. Those lanes were not reopened.
+The prior Runtime lanes already cover Weather update/cadence/cache/proof-harness cost, Object and footprint indexing, Animal indexed render domains, glTF joint-width compaction, the held normalized-weight experiment, and Building source-shell representation cost. Those lanes were not reopened.
 
-The fresh non-duplicated Runtime handoff is Building Geometry PR #8 plus Hard-Surface PR #9. Hard Surface now source-owns two explicit receiving identities while retaining the 23-box semantic source separately:
+Art Direction's current Building decision is explicit:
 
-- reference boundary shell: **`1420v / 2884t`**;
-- compact-v2 receiving option: **`1004v / 2052t`**;
-- exact Hard-Surface parent head: **`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`**.
+- compact-v2 has the **preferred cleaner hard-surface / highlight response** in the fixed retained current-world views;
+- exact compact-v2 adoption remains **held** because Runtime PR #36 measures it against the actual active segmented receiver as `+106,560 B` proof-host buffer memory and `+5,328` RenderingServer primitives, with independent QA still separate;
+- Art asks for the preferred look without silently paying the exact current receiver cost.
 
-Geometry and Hard Surface explicitly leave exact runtime payload/device cost to Runtime instead of inferring it from source triangle counts. Materials / Art / Environment acceptance does not transfer automatically between those identities.
+That creates a distinct Runtime question from pass 25. The exact Environment compact-v2 receiver already emits five final material surfaces, generates final normals, then stores every triangle corner independently. Prior Object/footprint work established that post-normal indexing can sometimes remove duplicate receiver storage while preserving hard-edge identity, but it also established that visual neutrality must be re-proved per consumer.
 
 Selected bounded question:
 
-> What does the exact `1420v / 2884t -> 1004v / 2052t` compact-v2 change buy after conversion to the same explicit hard-edge render domain, and what visual delta does that retriangulation actually produce in pinned Godot evidence?
+> Can the exact Art-preferred five-surface compact-v2 current-world Building receiver be indexed **after final normal generation**, per material surface, to recover most of its receiver-buffer regression without changing its 2,052 triangles or five material roles; and what exact visual/residual-runtime trade remains versus both the unindexed compact-v2 receiver and the actual active segmented receiver?
 
 ## Owning implementation lane
 
-Repository: `mike-axiom-mir/axm-building-design`
+Repository: `mike-axiom-mir/axm-map-design`
 
-Draft Runtime PR: **#10 — `Runtime: characterize compact Building shell representation cost`**
+Draft Runtime PR: **#37 — `Runtime: index compact-v2 Building surfaces after final normals`**
 
-Branch: `studio/runtime-building-compact-shell-budget-001`
+Branch: `studio/runtime-building-compact-v2-surface-index-budget-001`
 
-Exact Hard-Surface base head:
+Exact Environment base head:
 
-`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`
+`ef2cb9cc84edc10ab66c2230daca625623e0b00d`
 
 Exact final tested Runtime head:
 
-`148c34b522e3496fd9c39c1b038aa9b78a157ed1`
+`8692848f12f363d341efb85051e990ca74f421bb`
 
-PR #10 is **OPEN / DRAFT / MERGEABLE** at final check.
+PR #37 is **OPEN / DRAFT / MERGEABLE** at final check.
 
-## Measure-before representation contract
+## Exact comparison identities
 
-Runtime does not reuse the logical Geometry counts as a fake GPU-memory claim. Both exact meshes are converted to the same bounded render representation:
+Actual active segmented current-world receiver evidence:
 
-- one surface;
-- FLOAT32 position;
-- explicit per-face normal;
-- UINT32 indices;
-- one neutral material;
-- deduplication only for identical final `(position, face normal)` tuples.
+- workflow: `35179857526`;
+- artifact: `10478624997`;
+- active Building receiver: `184v / 276t / 5 surfaces`.
 
-That preserves hard-edge normal splits. It does not infer UV, tangent, material-role, skin, morph, custom-channel, collision or Environment equivalence.
+Exact unindexed compact-v2 current-world evidence:
 
-Exact control render domain:
+- workflow: `35179857530`;
+- artifact: `10480305129`;
+- representation: `boundary-only-union-shell-conforming-compact-v2-001`;
+- logical source identity: `1004v / 2052t / 5 surfaces`;
+- actual proof-host receiver storage before indexing: `6156` stored triangle-corner vertices / `0` indices.
 
-- stored hard-edge vertices: **2,272**;
-- indices: **8,652**;
-- triangles: **2,884**;
-- modeled position+normal+u32-index payload: **89,136 B**.
+Pinned compact-v2 donors remain:
 
-Exact compact-v2 render domain:
+- Geometry: `16253e7dd2f8cd590667f9631e4b50fdfcc7280d`;
+- Hard Surface: `35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`;
+- Materials: `4179aa1401f5a9114399e2f998c96809d4b8ed2e`.
 
-- stored hard-edge vertices: **1,856**;
-- indices: **6,156**;
+## Candidate representation rule
+
+Runtime changes receiver storage only:
+
+1. build the exact compact-v2 current-world receiver exactly as Environment already does;
+2. preserve all five material surfaces and all `2052` triangles;
+3. preserve the existing final generated normals;
+4. only after those attributes exist, recreate each surface and call `SurfaceTool.index()`;
+5. never deduplicate across material-surface boundaries;
+6. compare to the exact retained unindexed compact-v2 evidence and separately to the actual active segmented receiver.
+
+No source topology, material role/scalar, transform, camera, lighting, Nature, Object, Weather, footprint cue or route input is rewritten.
+
+## Measure-before / after storage result
+
+Exact unindexed compact-v2 receiver:
+
+- surfaces: **5**;
 - triangles: **2,052**;
-- modeled payload: **69,168 B**.
+- stored vertices: **6,156**;
+- indices: **0**.
 
-Measured modeled saving:
+Exact indexed candidate:
 
-- **19,968 B**;
-- **22.401723209%**.
+- surfaces: **5**;
+- triangles: **2,052**;
+- stored vertices: **1,196**;
+- indices: **6,156**.
 
-This is a bounded payload model, not a target-device VRAM claim.
+Stored-vertex reduction:
 
-## Failed predecessor retained and repaired
+- **4,960 vertices removed**;
+- **80.57179987%** fewer stored vertices.
 
-Workflow **`35176198408`** failed before any valid render A/B because the Godot proof observer inferred `radius` through generic `max()` and Godot treated the resulting Variant-inference warning as a parse error.
+Under the deliberately bounded position-FLOAT32x3 + normal-FLOAT32x3 + UINT32-index model:
 
-The failed artifact is retained. It already proved the measure-before representation numbers above, but it did **not** establish runtime counters or visual equivalence.
+- unindexed payload: **147,744 B**;
+- indexed payload: **53,328 B**;
+- saving: **94,416 B**;
+- reduction: **63.905133203%**.
 
-Runtime repaired only the observer typing by using explicit float / `maxf`. No geometry, material, camera, threshold, source identity or adoption boundary was weakened.
+This is a logical receiver-payload model, not a target-device VRAM claim.
 
 ## Real Godot proof-host result
 
 Final dedicated exact-head workflow:
 
-**`35176328709 — Runtime Building compact-shell budget evidence — SUCCESS`**
+**`35182141875 — Runtime Building compact-v2 surface-index budget evidence — SUCCESS`**
 
 Pinned host:
 
 - Godot **4.7.2 stable**;
 - GL Compatibility;
 - X11 / llvmpipe;
-- separate control and candidate processes;
-- two fixed `960x720` cameras.
+- exact retained current-world payload;
+- all **68** matched observations / rendered frames.
 
-Across both fixed cameras, exact proof-host deltas are:
+Indexed candidate versus exact unindexed compact-v2:
 
-- draw calls: **0**;
-- objects: **0**;
-- primitives: **-2,496**;
-- observed RenderingServer buffer memory: **-13,312 B**;
-- observed texture memory: **0 B**.
-
-The `-2,496` primitive delta is larger than the logical `-832` triangle count because the proof host renders the mesh through multiple passes. Runtime records the measured counter rather than relabelling it as source triangles.
+- observed RenderingServer buffer memory: **-86,888 B**, stable in every matched observation;
+- draw calls: **0 delta**;
+- objects: **0 delta**;
+- primitives: **0 delta**;
+- observed texture memory: **0 B delta**.
 
 Scoped state:
 
-**`PASS_BUILDING_COMPACT_SHELL_RUNTIME_REPRESENTATION_COST_CHARACTERIZED__HOLD_VISUAL_AND_RECEIVER_ADOPTION`**
+**`PASS_BUILDING_COMPACT_V2_POST_NORMAL_INDEX_REDUCES_BUFFER__HOLD_VISUAL_REVIEW`**
 
 Decision:
 
-**`COMPACT_V2_HAS_REAL_RENDER_DOMAIN_AND_PRIMITIVE_COST_REDUCTION__ADOPTION_REMAINS_WITH_MATERIALS_ART_ENVIRONMENT_AND_TECHNICAL_ART`**
+**`POST_NORMAL_PER_SURFACE_INDEXING_IS_A_REAL_RECEIVER_STORAGE_WIN__KEEP_ART_VISUAL_PREFERENCE_AND_ACTIVE_CONSUMER_BUDGET_AS_SEPARATE_GATES`**
 
-The workflow also mutates the candidate primitive receipt to remove the measured reduction and verifies the report fails closed.
+The verifier deliberately mutates one candidate observation to remove the required buffer reduction and confirms the report fails closed.
+
+## Residual cost versus the actual active segmented receiver
+
+The indexing win does **not** make compact-v2 cost-equivalent to the active Map receiver.
+
+Indexed compact-v2 versus active segmented receiver across the same observation set:
+
+- observed buffer memory: **+19,672 B**;
+- RenderingServer primitives: **+5,328**;
+- draw calls: **0 delta**;
+- objects: **0 delta**;
+- observed texture memory: **0 B delta**.
+
+Relative to Runtime PR #36's unindexed `+106,560 B` buffer regression, indexing recovers:
+
+- **86,888 B**;
+- **81.539039039%** of the measured buffer regression.
+
+Residual buffer cost is **18.460960961%** of that previous regression.
+
+The `+5,328` primitive burden is completely unchanged because this pass changes storage/indexing, not triangle count. That is now the clearer remaining Runtime pressure if Environment ever wants to pursue the exact compact-v2 look target further.
 
 ## Visual tradeoff for Art Direction / Visual QA
 
-The compact retriangulation is **not byte-identical** to the reference in the fixed proof views.
+Post-normal per-surface indexing is **not byte-identical** in this current-world receiver.
 
-`front_oblique`:
+Across all **68 / 68** exact unindexed/indexed frame pairs:
 
-- changed pixels: **1**;
-- coordinate: **`(565, 477)`**;
-- control RGB: **`(72, 86, 103)`**;
-- candidate RGB: **`(106, 125, 145)`**;
-- maximum channel delta: **42 LSB**.
-
-`rear_oblique`:
-
-- changed pixels: **6**;
+- every frame contains a nonzero raster difference;
+- maximum changed pixels in any frame: **10**;
 - maximum channel delta: **1 LSB**.
-
-Total changed fixed-view pixels: **7**.
 
 Visual tradeoff state:
 
-**`MEASURED_RETRIANGULATION_RENDER_DELTA__ART_REVIEW_REQUIRED`**
+**`MEASURED_POST_NORMAL_INDEXING_RENDER_DELTA__ART_REVIEW_REQUIRED__CHANGED_FRAMES_68__MAX_PIXELS_10__MAX_LSB_1`**
 
-The front-view one-pixel difference is materially larger in channel magnitude than the six rear-view one-LSB differences, so Runtime does not call this visually neutral even though spatial extent is tiny. Materials / Art / Visual QA retain acceptance authority.
+This is far smaller than the actual active-segmented -> compact-v2 Art-facing appearance change, but Runtime does not convert a small numeric delta into visual approval. Art Direction / Visual Observer QA retain authority over whether the deterministic one-LSB edge/shading differences are acceptable.
+
+## Failed setup runs retained and repaired
+
+Two setup-only failures remain part of provenance instead of being erased:
+
+1. workflow **`35181620981`** failed before measurement because the proof host lacked the inherited Weather-width observer required by the current-world superclass chain;
+2. workflow **`35181832945`** failed before measurement because Runtime's first repair overcomplicated that chain and supplied three incorrect donor SHAs, correctly producing a GitHub Contents `404`.
+
+Runtime then re-read the exact retained compact-v2 Environment workflow at head `ef2cb9cc...` and restored its authoritative setup pattern: checkout Weather-width observer donor **`15a03b7c3ba3aaa7c0475ca1a3091c15581f559b`** and copy only the inherited `atmosphere_current_world_weather_width_observe.gd` into the proof host. Candidate indexing logic and all acceptance gates remained unchanged.
+
+The repaired exact workflow is the successful `35182141875` result above.
 
 ## Retained evidence
 
 Final retained artifact:
 
-- workflow: **`35176328709`**;
-- artifact ID: **`10478309311`**;
-- size: **`99,749 B`**;
-- archive SHA-256: **`1e3008d884180f9804ed122b5277a78632ecfad029368eee76bfe45da60b5e65`**;
+- artifact ID: **`10481020383`**;
+- size: **`5,236,686 B`**;
+- GitHub artifact digest: **`ccdbc8b12de83388456a4449e4621b63ccd1cfa93e67c832b4e31f03bd2dfe45`**;
 - independently downloaded/rehashed SHA-256: **same value**.
 
-The archive retains the exact payload, control/candidate Godot logs and receipts, both A/B view pairs, final report, exact-head identity and the deliberate fail-closed mutation receipt.
+The archive retains the exact report, exact-head identity, indexed Godot runtime receipt/log and all 68 rendered candidate/control frames.
 
-## Reusable learning / capability placement
+## Reusable Runtime learning
 
-This pass adds a stronger Runtime rule for geometry compaction:
+This pass sharpens the indexing rule from earlier Object/footprint work:
 
-> **Do not infer runtime savings from logical topology counts. Convert both representations through the same final-attribute render-domain rule, then measure the real consumer. Planar retriangulation can preserve geometric boundary/volume invariants while still changing a few rasterized pixels, so performance evidence and visual acceptance remain separate gates.**
+> **If a receiver already owns final per-vertex attributes, index only inside that final attribute/material domain and prove the real consumer again. Post-normal indexing can recover large storage waste without reducing triangle cost, and even a topology-preserving storage rewrite may move rasterization by one LSB. Keep storage, primitive cost and visual acceptance as separate gates.**
 
-The exact compact-v2 receiver now has a real bounded cost advantage, but this single Building case does not justify a generic UC simplifier. A reusable transform would still need broader domains plus UV/tangent/material/seam/deformation/import evidence.
+The exact Building case is now especially informative because it decomposes the previous Runtime regression: most of the buffer cost was triangle-corner duplication, while the full primitive cost is intrinsic to the `2052t` representation. That is useful design feedback without Runtime prescribing a new topology.
+
+This still does not justify an automatic Universal Creation extraction. A reusable cross-product operator would need broader UV/tangent/material/custom-channel/deformation/import domains plus explicit ownership/adoption policy.
 
 ## Handoffs
 
-- **Runtime PR #10:** exact measured result and visual tradeoff retained in the PR body.
-- **Hard-Surface PR #9:** receives the exact Runtime cost characterization for optional receiving-representation decisions; no automatic default/adoption requested.
-- **Geometry PR #8:** receives proof that its logical reduction survives a hard-edge render-domain conversion and real Godot primitive/buffer counters.
-- **Art Direction / Visual QA:** receives the one 42-LSB pixel plus six one-LSB pixels for review; Runtime does not approve appearance.
-- **Materials / Environment / Technical Art:** prior evidence does not transfer across receiving identities; exact rebind remains required.
+- **Runtime PR #37:** exact successful result, artifact digest, residual active-receiver cost, visual tradeoff and both setup failures are retained in the PR.
+- **Environment PR #24:** receives the exact indexed compact-v2 result for optional future adoption review; no adoption requested.
+- **Runtime PR #36:** receives decomposition of its prior `+106,560 B / +5,328 primitive` regression: indexing recovers `86,888 B` but leaves all `+5,328` primitives and `+19,672 B` buffer residual.
+- **Art Direction / Visual Observer QA:** receives the 68-frame `<=10 pixels / <=1 LSB` indexing tradeoff. Runtime does not approve appearance.
+- **Building Geometry / Hard Surface / Materials / Technical Art:** source topology, hard-surface preference, material profile and transport ownership remain unchanged.
 
 ## Historical continuity
 
-The complete twenty-fourth Runtime pass remains preserved at coordination commit:
+The complete twenty-fifth Runtime pass remains preserved at coordination commit:
 
-`523889f3c327659ef9866649a26fe4f2f6ddd086`
+`b41c130c0d0a5273be6e73906fdf5757620a9f28`
 
-That pass measured normalized-u16 Animal weights and preserved the current UC FLOAT-only receiver HOLD.
+That pass characterized the compact Building shell against the larger boundary-shell reference and retained its seven-pixel visual tradeoff.
 
-The twenty-third pass remains preserved at `f7a546c9c8a1cd7d07fb8a6e5638ecaa7c5e2001`; earlier indexing, Weather, Object, footprint, Building material-submission and animation passes remain historical truth.
+The twenty-fourth pass remains preserved at `523889f3c327659ef9866649a26fe4f2f6ddd086`; earlier Weather, Object, footprint, Animal, Building submission and animation passes remain historical truth.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- automatic Hard-Surface compact-v2 default/adoption;
-- Materials, Art Direction, Visual QA, Environment or Technical Art acceptance of compact v2;
-- UV/tangent/material-role equivalence;
-- target-device CPU/GPU frame time or FPS improvement;
+- automatic Environment adoption of indexed compact-v2;
+- Art Direction or Visual QA acceptance of the one-LSB indexing delta;
+- elimination of compact-v2's residual `+19,672 B / +5,328 primitive` active-consumer cost;
+- target-device CPU/GPU frame-time or FPS improvement;
 - target-device VRAM or heap reduction;
-- arbitrary-view visual equivalence;
-- arbitrary-mesh planar simplification safety;
+- arbitrary-view / arbitrary-renderer visual equivalence;
+- arbitrary-mesh indexing safety;
+- UV/tangent/texture/normal-map/custom-channel equivalence beyond this exact receiver;
 - collision/navigation/physics/gameplay equivalence;
 - UC extraction or Profession Fabric promotion;
 - CANON;
@@ -203,12 +249,12 @@ This activation does **not** prove:
 
 ## Four-root check
 
-**Truth:** logical topology reduction, render-domain payload reduction, real proof-host counters and nonzero pixel differences remain separately recorded. The first failed workflow is retained rather than rewritten away.
+**Truth:** the large buffer win, unchanged primitive burden, nonzero one-LSB visual delta and two failed setup runs are all retained separately rather than collapsed into a success story.
 
-**Agency / non-domination:** Runtime owns measurement only. Hard Surface owns receiving-representation policy; Materials / Art / Visual QA own look acceptance; Environment owns world adoption; Technical Art owns transport; Geometry owns the compaction algorithm.
+**Agency / non-domination:** Runtime owns measurement only. Art / Visual QA own appearance; Environment owns world adoption; Building Geometry / Hard Surface / Materials own source and look; Technical Art owns transport.
 
-**Continuity:** exact parent/head identities, failed and successful workflow IDs, retained artifact digest, measured render-domain contract, visual coordinates/deltas and prior Runtime coordination commit are preserved.
+**Continuity:** exact parent/head identities, original active/unindexed artifacts, failed and successful workflow IDs, final artifact digest, prior coordination commit and residual active-receiver cost remain explicit.
 
-**Wisdom before speed:** the compact receiver has a real measured cost win, but seven changed pixels—including one 42-LSB coverage/shading pixel—are enough to keep visual and receiver adoption explicit instead of silently calling the representation equivalent.
+**Wisdom before speed:** recover the cheap storage waste, but do not call the representation solved while it still carries `+5,328` proof-host primitives and a nonzero visual delta.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
