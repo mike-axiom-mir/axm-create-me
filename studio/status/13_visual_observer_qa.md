@@ -2,118 +2,115 @@
 
 Date: 2026-09-17
 
-State: **PASS_CHARACTER_REVIEW006_CURRENT_TARGET_ORDINARY_SHADED_RETAINED_VISUAL_NONCORRUPTION / PASS_CHARACTER_REVIEW006_CURRENT_TARGET_DEFORMED_MOTION_VISIBILITY_AT_RETAINED_KEYS / BLOCKED_FINAL_CHARACTER_REVIEW006_SHADED_MOTION_VISUAL_ACCEPTANCE__CONTINUOUS_PLAYBACK_FULL_BODY_TANGENT_SPACE_TARGET_DEVICE_ART_PENDING**
+State: **PASS_ANIMAL_POST_SKIN_POSITION_RECONSTRUCTION_RETAINS_OWNER_TANGENT_SPACE_APPEARANCE__RIGHT_REPRESENTATIVE_KEYS / FAIL_ANIMAL_STATIC_TRANSPORTED_DIRECTION_FRAME_VISUAL_EQUIVALENCE__RIGHT_DEFORMED_REPRESENTATIVE_KEYS / BLOCKED_FINAL_ANIMAL_RECONSTRUCTED_DIRECTION_FRAME_ADOPTION__TARGET_RUNTIME_BILATERAL_DENSE_MOTION_ART_PENDING**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, prior QA state, and fresh owner-lane PR/evidence state across the constellation.
 
-`axm-create-me` remains **coordination only**. No Character source form, Geometry, Rigging, Animation, Materials implementation, Technical-Art transport, Runtime implementation or Universal Creation product code was changed here.
+`axm-create-me` remains **coordination only**. QA changed no Animal source form, Geometry, Rigging, Animation, Materials implementation, Technical-Art implementation, Runtime implementation, Universal Creation product code, or Profession Fabric product code.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Selection / duplication scan
 
-The previous activation left exact deformed direction-frame correctness blocked because the retained pose-recomputed/frozen owner references were not an exact oracle for the imported/skinned target host.
+The strongest completed unverified visual claim is the fresh successor on Animal Materials PR #24. Earlier QA already reviewed the owner-frame periodic tangent-space diagnostic at head `e9d5c451b16bd05d2419248f58bef911f83dc1e8`; repeating that lane would add no value.
 
-That blocker has now advanced in the owner lanes:
+Current Materials head `35808c9a5a8906a478ee28e5b6a04e34113ac28c` instead asks a new receiving question: with positions, UVs, topology, tangent-space probe, material, lights and cameras held fixed, does Rigging's post-skin position-derived direction-frame reconstruction recover the owner-frame appearance, and is the older static transported NORMAL/TANGENT frame visibly different under deformation?
 
-- Technical Art PR #21 exact evidence head `36744749a592e067a119f3349a499d65f25af134` directly observes the imported target normal buffer and reports the target nearer Rigging's linear-gradient diagnostic in all six retained deformed contexts while preserving the linear-vs-inverse-transpose separation as sub-LSB diagnostic evidence rather than a universal implementation claim;
-- Materials PR #18 exact head `57da8ac7456c4b90bd79efa9292c969a4ecb01ac` consumes that evidence and renders the actual imported target under the unchanged ordinary review material at `-30 / 0 / +30°` in front / three-quarter / grazing.
-
-This Materials surface is the strongest completed non-duplicated visual claim because it is the first current ordinary-shaded retained target pack after the target-host direction-frame isolation. Animation PR #22 separately owns target-host between-key/playback continuity, so QA does not duplicate that lane or convert exact-key renders into playback evidence.
+A fresh Technical Art handoff after the Materials result now adopts the Rigging reconstruction as a bounded receiving contract at exact Technical Art head `a3c062f1271e72598971446b37847598d2433d93`, while explicitly holding target-runtime implementation. QA therefore does not duplicate the Technical Art implementation lane.
 
 ## Exact evidence identity
 
-Repository: `mike-axiom-mir/axm-character-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Materials PR: **#18 — `Materials: prove review006 shaded direction-frame response`**
+Materials PR: **#24 — `Materials: render deformed tangent-space diagnostic in Godot`**
 
-Exact Materials head: `57da8ac7456c4b90bd79efa9292c969a4ecb01ac`
+Exact Materials head: `35808c9a5a8906a478ee28e5b6a04e34113ac28c`
 
-PR state at inspection: **OPEN / DRAFT / UNMERGED**, with GitHub reporting `mergeable = false`.
+PR state at inspection: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Dedicated Materials workflow: `35233264441` — **SUCCESS**.
+Dedicated workflow: `35240451689 — Materials Animal transported-frame lookdev` — **SUCCESS** on Python 3.11 + 3.13; real-render job uses Godot 4.7.2 / GL Compatibility / X11 / Mesa llvmpipe.
 
 Retained Materials artifact:
 
-- artifact ID `10501109872`;
-- independent QA archive SHA-256 `4b00ca11620bbef02a147fbd7c5e2b17bf6cae010f0dc2c1634cb6ff9b5f27ac` — exact match to owner claim;
-- exact Technical Art evidence head `36744749a592e067a119f3349a499d65f25af134`;
-- exact Technical Art artifact SHA-256 `2c8741ceb1e7bdb0866ad3505dc1ec37ea26f59c420980f480a4a48011e7374a`;
-- exact target GLB SHA-256 `76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`;
-- 18 ordinary target images: shaded + unshaded at `-30 / 0 / +30°` across front / three-quarter / grazing;
-- retained Technical-Art target-normal diagnostic pack.
+- artifact ID `10505590767`;
+- owner archive SHA-256 `1b16d0a47bf355de74bcbc3d6e58aa50b26caf1ea540a0b4cd9f47ee6ffab8a6`;
+- independent QA download/re-hash: exact match;
+- exact Rigging reconstruction head `81ab44eab2e13bed95187610a476be2b2c4667a7`;
+- exact Technical Art source head `4649d144841fbd1f3f43e9c7deb6f37b91fbd93d`;
+- exact transported GLB SHA-256 `ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`;
+- retained scope: right side only, authored samples `0 / 10 / 20 / 30 / 40`, approximately `0 / +9 / +18 / +9 / 0°`, two cameras (`three_quarter`, `grazing`), four frame modes (`owner_rederived`, `transported_static_skin`, `position_reconstructed`, `position_reconstructed_flipped_w_negative`).
 
-QA independently downloaded/rehashed the artifact, inspected the retained frames directly, and recomputed motion and direction-frame comparisons from the PNGs rather than inheriting the receipt.
+QA independently parsed the retained payload/evidence and recomputed all ten image comparisons from the exact PNGs.
 
-## PASS — current target ordinary-shaded retained visual noncorruption
+## PASS — reconstruction retains owner-frame tangent-space appearance in retained scope
 
-**`PASS_CHARACTER_REVIEW006_CURRENT_TARGET_ORDINARY_SHADED_RETAINED_VISUAL_NONCORRUPTION`**
+**`PASS_ANIMAL_POST_SKIN_POSITION_RECONSTRUCTION_RETAINS_OWNER_TANGENT_SPACE_APPEARANCE__RIGHT_REPRESENTATIVE_KEYS`**
 
-Direct inspection of all nine actual imported target shaded frames reproduces no new gross hole, detached shoulder/arm mass, broad silhouette loss, clipping loss, camera-specific disappearance, or whole-surface shading-frame flip at the retained keys.
+Owner-rederived versus position-derived reconstruction is **byte-identical in all 10/10 retained sample/camera comparisons**: zero changed pixels, zero mean RGB delta.
 
-The unshaded controls preserve the expected bounded shoulder-chain receiver silhouette. Ordinary shading remains spatially attached to the same receiver rather than exposing a new geometry/placement corruption.
+Foreground/silhouette coverage is also exact: coverage XOR is `0` pixels in all four frame modes and all ten retained contexts.
 
-This PASS is visual/noncorruption evidence for the exact retained target keys only. The low-detail bounded receiver is not being promoted as final Character surface quality.
+Direct enlarged inspection therefore reproduces the owner claim at bounded visual scope: the position-derived reconstruction restores the exact retained owner-frame tangent-space shading result without introducing a new silhouette break, culling hole, placement shift, or broad render corruption.
 
-## PASS — deformed motion is visibly present at the retained keys
+## FAIL — static transported direction frame is not visually equivalent under deformation
 
-**`PASS_CHARACTER_REVIEW006_CURRENT_TARGET_DEFORMED_MOTION_VISIBILITY_AT_RETAINED_KEYS`**
+**`FAIL_ANIMAL_STATIC_TRANSPORTED_DIRECTION_FRAME_VISUAL_EQUIVALENCE__RIGHT_DEFORMED_REPRESENTATIVE_KEYS`**
 
-Independent shaded target-vs-neutral recomputation across the six deformed retained views gives:
+Neutral closure remains clean: owner versus static transported frame is byte-identical in all `4/4` neutral comparisons at samples `0` and `40` across both cameras.
 
-- `-30°` front: `19,353 / 37,892` masked pixels above 1 LSB, mean normalized RGB delta `0.15866015`;
-- `-30°` three-quarter: `17,735 / 33,567`, mean `0.15775453`;
-- `-30°` grazing: `8,927 / 19,614`, mean `0.12965509`;
-- `+30°` front: `43,320 / 47,398`, mean `0.20649759`;
-- `+30°` three-quarter: `37,810 / 41,918`, mean `0.19682374`;
-- `+30°` grazing: `22,075 / 23,650`, mean `0.17063074`.
+The deformed states do not retain that equivalence. Independent QA measurement reproduces a visible mismatch in **all 6/6 deformed comparisons**:
 
-The motion signal is therefore directly visible in every retained deformed view and is not being inferred from metadata alone.
+- pixels above 1 LSB: **6,653–12,289** per frame;
+- maximum RGB-channel delta: **36–47 LSB**;
+- relative to exact owner foreground, >1-LSB mismatch coverage: **35.12%–59.04%**.
 
-## Direction-frame continuity — accepted only at diagnostic scope
+At peak sample `20` (~`+18°`), the mismatch reaches `8,729 / 18,567` visible foreground pixels in three-quarter and `12,289 / 20,815` in grazing. Enlarged inspection localizes the change to the deformed highlight/shading field around the shaft/elbow rather than geometry or silhouette movement.
 
-The embedded Technical-Art normal-buffer evidence was independently recomputed against Rigging's linear-gradient and inverse-transpose diagnostics.
+This FAIL is specifically a failure of **visual equivalence for the static transported direction frame under these deformed retained keys**. It is not a failure of the source mesh, skin POSITION transport, Rigging reconstruction, or the Materials observer.
 
-At all six deformed contexts, the linear-gradient reference has the smaller mean RGB-channel delta to the target normal buffer. Representative independent means include:
+## Observer sensitivity remains intact
 
-- `-30°` front: linear `1.77791e-05`, inverse `1.79418e-05`;
-- `-30°` grazing: linear `1.06055e-05`, inverse `1.15834e-05`;
-- `+30°` front: linear `1.69456e-05`, inverse `1.79778e-05`;
-- `+30°` grazing: linear `7.39633e-06`, inverse `1.16548e-05`.
+The deliberate reconstructed tangent-W flip is visible in every retained context. QA independently measures `17,906–21,132` pixels above 1 LSB, approximately `96.44%–97.41%` of visible foreground, with maximum channel deltas `95–99` LSB. The receiver is therefore demonstrably sensitive to direction-frame handedness rather than passing because the shader ignores it.
 
-The winner is consistent, but the linear-vs-inverse separation itself remains tiny. QA therefore preserves Technical Art's truth boundary: this is useful exact-receiver diagnostic evidence, **not** a universal Godot/UC skin-normal implementation rule.
+## Fresh downstream state
 
-The old `3/6` pose-recomputed versus `3/6` frozen-neutral comparison remains valid historical diagnostic evidence for its old heuristic references. It is not silently rewritten; the current visual reference has changed because the owner lane now directly observes the imported target frame.
+Technical Art has now adopted the Rigging-owned post-skin owner-frame reconstruction as a bounded receiving contract at exact head `a3c062f1271e72598971446b37847598d2433d93` with state `PASS_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_CONTRACT_ADOPTED__HOLD_TARGET_RUNTIME_IMPLEMENTATION`.
 
-## BLOCKED — final shaded-motion visual acceptance
+That handoff does not transfer the current Materials visual PASS into a real target-runtime implementation. The earlier raw static NORMAL/TANGENT skinning divergence remains historical HOLD evidence rather than being erased.
 
-**`BLOCKED_FINAL_CHARACTER_REVIEW006_SHADED_MOTION_VISUAL_ACCEPTANCE__CONTINUOUS_PLAYBACK_FULL_BODY_TANGENT_SPACE_TARGET_DEVICE_ART_PENDING`**
+## BLOCKED — final reconstructed direction-frame adoption
 
-The current pack is a bounded shoulder-chain receiver sampled at three exact keys. It does not provide a fresh direct shaded continuous-playback capture, a full-body receiver, or tangent/tangent-space production evidence.
+**`BLOCKED_FINAL_ANIMAL_RECONSTRUCTED_DIRECTION_FRAME_ADOPTION__TARGET_RUNTIME_BILATERAL_DENSE_MOTION_ART_PENDING`**
 
-Animation PR #22 owns between-key target-host playback continuity and must remain separate. Technical Art retains tangent/tangent-space ownership. Runtime retains target-device/controller/performance acceptance. Art Direction retains final visual preference/source adoption.
+Current direct visual proof is only the right-side receiver at five representative authored keys and two fixed cameras. It does not directly prove:
 
-QA requests no source-form, Geometry, Rigging, Animation, Materials, lighting/camera, Runtime or UC retune from this result.
+- left-side/bilateral reconstruction equivalence;
+- all 41 authored keys or continuous/interpolated shaded playback;
+- a real Technical-Art target implementation consuming the new contract;
+- production normal-map/tangent-space quality;
+- arbitrary cameras, lights or renderers;
+- Runtime cost/performance or target-device behavior;
+- final Art Direction preference/adoption.
+
+QA requests no source-form, Geometry, Rigging, Animation, Materials, lighting/camera, Runtime, UC or Profession Fabric retune from this result.
 
 ## Handoff
 
-Independent QA was returned to Character Materials PR #18 exact head `57da8ac7456c4b90bd79efa9292c969a4ecb01ac` as review **`5237502222`**.
+Independent QA was returned to Animal Materials PR #24 exact head `35808c9a5a8906a478ee28e5b6a04e34113ac28c` as review **`5238331977`**.
 
 QA authored no repair in the owner repository.
 
 ## Explicit non-claims
 
-This activation does **not** establish a universal Godot skin-normal rule; production normals/tangents; tangent-space normal-map correctness; continuous between-key shaded playback; full-body Character quality; arbitrary-pose or arbitrary-camera correctness; production materials/UV/textures; target-device Runtime/controller/performance acceptance; final Art Direction acceptance; source adoption; CANON; game readiness; production readiness; or Visual Observer / QA mastery.
-
-Historical structural shoulder-contact/intersection failures remain separate and are not waived by this retained ordinary-shaded PASS.
+This activation does **not** establish biological/anatomical correctness; final Animal form; production UV packing/texel density; authored production normal-map quality; bilateral or all-key reconstruction equivalence; continuous target-host playback; target-runtime implementation; Runtime/device acceptance; arbitrary renderer equivalence; final Art Direction acceptance; source adoption; CANON; game readiness; production readiness; or Visual Observer / QA mastery.
 
 ## Four-root gate
 
-- **Truth:** the exact current Materials artifact is rehashed and the retained PNGs are independently measured; the visual PASS stays bounded to what the retained images actually show.
-- **Agency / non-domination:** Materials owns lookdev, Technical Art owns direction/tangent transport, Animation owns playback, Runtime owns runtime/device behavior, Art owns preference/adoption, and QA does not repair or retune their systems.
-- **Continuity:** the old heuristic `3/6` result remains historical evidence; the new target-normal observer changes the current reference without silently rewriting prior results.
-- **Wisdom before speed:** no exact-key visual pack is promoted into full-body/playback/tangent/production readiness. The missing gates remain explicit.
+- **Truth:** exact artifact identity was independently rehashed; the PASS and FAIL are separated and tied to direct retained PNG measurements.
+- **Agency / non-domination:** Rigging owns the reconstruction, Technical Art owns transport adoption, Materials owns lookdev, Runtime owns runtime/device behavior, Art owns preference/adoption, and QA does not retune their systems.
+- **Continuity:** the old static-transport direction-frame HOLD and the earlier owner-frame Materials baseline remain historical evidence; reconstruction evidence adds a successor path without silently rewriting them.
+- **Wisdom before speed:** exact pixel recovery at ten retained views is not promoted into bilateral, dense-motion, runtime or production acceptance.
 
 The four AXM roots remain the merge gate.
