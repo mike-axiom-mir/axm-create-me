@@ -1,19 +1,21 @@
 # Capability Cartographer Status
 
-- Scan started: `2026-09-17T07:55:41Z`
+- Scan started: `2026-09-17T08:57:03Z`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_STORAGE_REPRESENTATION_IDENTITY_MAP / OBJECT RUNTIME #29 ADDS TEXTURE-ENVELOPE COMPACTION CASE / BUILDING INDEX STORAGE + ANIMAL WEIGHT WIDTH REPEAT SEMANTIC-VS-STORAGE SEPARATION / PF #38 REFINED WITH LOGICAL PAYLOAD + STORAGE IDENTITY + DECODE-ADDRESS MAPPING / GENERIC UC COMPACTOR HELD / OBJECT #29 REMAINS PRODUCT RUNTIME LANE / NO PRODUCT OR FRAMEWORK IMPLEMENTATION MOVE`
+- State: `PASS_RECEIVER_REPRESENTABILITY_PLACEMENT_MAP / OBJECT RUNTIME #29 PRODUCT-SPECIFIC 512x384 STORAGE CANDIDATE EXPOSES VERIFIED-BUNDLE GAP / OBJECT TECHNICAL ART #28 PROVES EXACT CROSS-REPO RECEIVING FAILURE+REPAIR / UC #182 IS CORRECT NEUTRAL HOME FOR EXPLICIT RECTANGULAR MATERIAL-BUNDLE REPRESENTABILITY / GENERIC COMPACTOR + PACKER + AUTO-ADOPTION HELD / PF #38 REMAINS EVIDENCE-PROVENANCE HOME ONLY / NO DUPLICATE UC OR PRODUCT LANE OPENED`
 
 ## Selected material cross-repo learning
 
-Fresh Object Runtime evidence closes a third materially different storage-compaction class and exposes a reusable representation rule:
+Fresh Object -> Technical Art -> Universal Creation evidence closes the placement question that the preceding Cartography pass intentionally left open:
 
-> **A logical / semantic payload identity and its exact storage representation identity are separate evidence identities. A compact storage realization can preserve producer-owned meaning/layout while still requiring its own decode/address mapping, runtime observation, visual obligation, transport obligation and adoption decision. Memory reduction does not imply visual neutrality or product adoption.**
+> **A product optimizer and a shared receiver capability are different capabilities. A product lane may decide that a different storage representation is worth testing; Universal Creation may need neutral machinery merely to represent and verify that explicitly-declared storage form. UC support for a representation must not become an instruction to generate, prefer, compact into or adopt that representation.**
 
-This is now repeated across texture allocation, indexed mesh storage and numeric accessor width. The shared capability is therefore **identity/provenance discipline**, not one generic compaction algorithm.
+The exact current example is rectangular verified material bundles. Object Runtime owns the `512x512 -> 512x384` right-sizing candidate and its cost/visual trade; Object Technical Art owns the cross-repo transport proof; UC draft PR #182 owns only the generic ability to validate and consume caller-declared rectangular bundle dimensions. Profession Fabric remains evidence/provenance procedure, not texture machinery.
 
-## Fresh Object case — exact texture payload, smaller storage envelope
+This is materially stronger than the previous storage-identity map because there is now a **real receiving-domain failure before the shared repair and a real cross-repo success after it**, while the optimizer itself remains unchanged and product-owned.
+
+## Exact product-side trigger — Object Runtime #29 remains the optimizer owner
 
 Repository / lane:
 
@@ -23,180 +25,182 @@ Exact Runtime head:
 
 `ce23d5edeb0766201cfbaff646dda31544cd8f9c`
 
-Exact upstream Materials head:
+Exact Materials authority:
 
 `4c12a0a57f6aa8778cff41efad321e13567c6c91`
 
-The candidate preserves the exact Materials-owned surface content/layout contract:
+Runtime proved one bounded product choice:
 
-- `500 px/m` / `0.002 m/px`;
-- `16 px` dilation;
-- lid-inner rect `[16,16,390,240]`;
-- front-service rect `[16,288,234,78]`;
-- exact surface pixel extents;
-- diagnostic texels inside those rectangles;
-- material scalars;
-- source geometry and source surface identities.
-
-Only the receiving texture envelope changes:
-
-- control: `512 x 512`;
+- control: `512 x 512` RGBA8 atlas;
 - candidate: `512 x 384`;
-- maximum required padded extent: `422 x 382`;
-- candidate spare extent: `90 x 2`.
+- exact required padded extent: `422 x 382`;
+- exact surface rectangles, source identities, `500 px/m`, `16 px` dilation and retained source texels preserved;
+- proof-host texture/video-memory saving: `349,528 B` in each matched observation;
+- draw/object/primitive/buffer counters unchanged;
+- retained raster difference: `33` changed pixels total across four matched views, maximum `1 LSB`, zero pixels above `1 LSB`.
 
-Exact-head dedicated workflow:
+Runtime therefore owns whether this product storage representation is a useful candidate. Art/QA, target-device cost, Materials adoption and production texture policy remain separate gates.
 
-`35197016046 — SUCCESS`
+Cartography does **not** move the right-sizing rule, packing rule, padded-extent policy or adoption decision into UC.
 
-Retained artifact:
-
-- artifact ID: `10486920335`;
-- size: `1,056,605 B`;
-- SHA-256: `793b9c65caae936af85bb1a2c95f7d1187e6ae44b6c386aa0ea663e47d451def`.
-
-Retained comparison result:
-
-`PASS_OBJECT_SERVICE_DARK_ATLAS_HEIGHT_RIGHTSIZE_REDUCES_PROOF_HOST_TEXTURE_MEMORY__HOLD_ART_QA_AND_TARGET_DEVICE`
-
-Observed / modeled bounded facts:
-
-- RGBA8 mip-chain: `1,398,100 B -> 1,048,572 B`;
-- saved: `349,528 B` / approximately `25%`;
-- real Godot 4.7.2 texture-memory delta: `-349,528 B` in each of four matched observations;
-- real video-memory delta: `-349,528 B` in each matched observation;
-- buffer-memory delta: `0`;
-- draw calls: unchanged per matched pair;
-- rendered objects: unchanged per matched pair;
-- rendered primitives: unchanged per matched pair;
-- four retained image pairs: `33` changed pixels total;
-- pixels above `1 LSB`: `0`;
-- maximum channel delta: `1 LSB`.
-
-The important Cartography fact is not the 25% saving by itself. The intended surface texel payload remains pinned, yet texture dimensions and normalized receiving address space change. That is a new exact storage representation, not merely incidental metadata on an otherwise identical representation.
-
-Art/QA, Technical-Art transport, target-device cost, final atlas policy and adoption remain independent obligations.
-
-## Building / Map repeat — indexed consumer storage is not source intent
+## Exact cross-repo receiving gap — Object Technical Art #28
 
 Repository / lane:
 
-- `mike-axiom-mir/axm-map-design` Technical Art PR #40.
+- `mike-axiom-mir/axm-object-design` Technical Art PR #28 — `Technical Art: bridge service-dark atlas through current UC to Godot`.
 
-Merged UC observer lineage remains valid through merged indexing PR #179, while current UC main has since advanced through unrelated Physics work.
+Current exact Technical Art head:
 
-The real Godot Building receiver proves a storage realization of:
+`a88ae0baaf75d24ed70ffea7265558056e0a41f7`
 
-- `1,008` input triangle corners;
-- `312` stored/index groups;
-- `1,008` indices;
-- `336` logical triangles;
-- five material surfaces;
-- exact decoded POSITION corner stream;
-- exact grouping isomorphism under bijective relabeling.
+The exact Runtime `512x384` candidate exposed a **generic receiver representability mismatch** rather than a product optimization defect:
 
-But Building Hard Surface independently owns a distinct `604`-group source-intent equivalence domain. The `312` consumer storage groups therefore cannot silently become source equivalence.
+- UC's lower native RGB texture path already supported rectangular PNG dimensions;
+- the verified `axm.game-material/v0.1` bundle path still required one square scalar `size`;
+- therefore the exact Runtime candidate could not reach GLB binding through the verified bundle path even though the underlying neutral texture representation was already possible.
 
-The receiver also retains a real storage/transport difference:
+Technical Art did not bypass that verified boundary or copy a private rectangular path into Object. It consumed the shared UC repair and reran the exact product candidate.
 
-- decoded NORMAL differs at `120 / 1,008` corners;
-- maximum component delta `0.00011304020881702792`;
-- maximum angular delta `0.006869404718583788°`.
+Current exact proof through UC #182:
 
-Thus storage grouping/POSITION success does not automatically discharge NORMAL byte-exactness, arbitrary transport or source-intent obligations.
+- UC head: `c8f38b4c3dd0d6183d035147e4816cff6fa6ef82`;
+- Object workflow: `35202327368 — SUCCESS`;
+- exact retained top-row RGB delta: `0`;
+- emitted GLB: `12,016 B`, SHA-256 `f3fdfea4653919ece79c60e5b6806f6fae2a0436e792281c2d662bfd540e88bf`;
+- measured lid density: `498.31715339156955 px/m`;
+- measured front density: `495.72194925534416 px/m`;
+- real Godot `4.7.2 / X11 / gl_compatibility`: PASS;
+- visible pixels: `13,910` in each retained front-side view;
+- retained artifact: `10488393791`, SHA-256 `57e81887de193462c0641226b299711da121fc341b1857333d5b898ddbd90b14`.
 
-## Animal repeat — numeric encoding is another storage identity axis
+The same lane records that pre-repair UC `7f62cda0...` rejects the exact rectangular bundle, while the repaired head accepts it. An ambiguous manifest containing both `size` and `dimensions` fails closed.
 
-Repository / lane:
+This is the receiving-domain evidence that supports shared placement without transferring Runtime's product decision.
 
-- `mike-axiom-mir/axm-animal-design` Runtime PR #27.
+## Correct shared machinery home — UC draft PR #182
 
-The exact retained normalized-u16 candidate preserves mesh/animation/joint structure and every non-`WEIGHTS_0` accessor payload hash while changing only the weight storage encoding:
+Repository:
 
-- FLOAT32 VEC4 `WEIGHTS_0`: `1,344 B`;
-- normalized-u16 VEC4 `WEIGHTS_0`: `672 B`;
-- accessor saving: `672 B / 50%`;
-- complete GLB: `10,948 B -> 10,296 B` (`-652 B / -5.9554%`).
+- `mike-axiom-mir/axm-universal-creation`.
 
-Merged UC now accepts the exact retained candidate, Rigging bounds all-key skinned POSITION drift to `1.4897262690003554e-07 m`, and Animation has extended that bounded comparison between authored keys without changing the source motion.
+PR:
 
-Yet the real Godot Runtime comparison still retains `224` changed pixels at maximum `1 LSB`, producer adoption remains separate, and the deformed NORMAL/TANGENT direction-frame HOLD is untouched.
+- **#182 — `Technical Art: accept explicit rectangular material bundles`**.
 
-Again, storage encoding eligibility closes only the obligations actually re-proved.
+Current state at scan:
 
-## Placement decision
+- OPEN;
+- DRAFT;
+- UNMERGED;
+- MERGEABLE;
+- base main: `7f62cda0dd65139366c26bb4e643ed99481f7181`;
+- exact PR head: `c8f38b4c3dd0d6183d035147e4816cff6fa6ef82`;
+- changed files are bounded to `src/axm_uc/game_material_bridge.py`, `src/axm_uc/material_pipeline.py`, and `tests/test_game_material_bridge.py`.
 
-The correct reusable home for this learning is the existing **Profession Fabric issue #38 experimental evidence/provenance procedure**, not a new product implementation and not a generic UC compactor.
+The actual patch supports the claimed placement boundary:
 
-PF #38 refinement added this pass:
+1. legacy square `size` remains supported unchanged;
+2. callers may instead declare `dimensions: [width, height]`;
+3. exactly one declaration form is required — UC does not guess precedence;
+4. width and height retain the existing bounded `16..512` per-axis limits;
+5. every PNG header and complete bounded scanline payload is validated against the declared width/height;
+6. verified dimensions are exposed to Blender realization and material-quality measurement;
+7. generated square recipes remain square;
+8. no Object surface ID, atlas rectangle, padding rule, texel-density target, camera rule, memory threshold, visual threshold or adoption rule is present in this shared repair.
 
-`5711025880`
+Current UC `main` is still exact `7f62cda0dd65139366c26bb4e643ed99481f7181`, merged from unrelated Physics PR #180. UC #181 is the separate active Physics successor lane. Cartography therefore opens no competing UC branch or issue.
 
-The proposal keeps the existing typed dependency DAG, representation-set and scoped-obligation model, and adds a distinct storage identity axis.
+### Placement rule established
 
-Suggested evidence-only concepts:
+**UC owns neutral representability / validation of an explicit shared storage form.**
+
+UC does **not** own:
+
+- deciding that a product should crop or right-size an atlas;
+- finding padded extents;
+- atlas packing/search;
+- choosing rectangular over square;
+- deciding a memory saving is worth a raster trade;
+- target-device acceptance;
+- Art / Visual QA acceptance;
+- product adoption.
+
+That separation is the material Cartography result for this pass.
+
+## Profession Fabric boundary — existing storage identity vocabulary is sufficient
+
+Profession Fabric issue #38 already carries the experimental evidence/provenance distinction introduced by the preceding pass:
 
 - `logical_payload_identity` / `semantic_representation_id`;
 - `storage_representation_id`;
-- domain-owned `storage_fields_changed` and `storage_fields_preserved`;
+- `storage_fields_changed` / `storage_fields_preserved`;
 - `decode_or_address_mapping_identity`;
 - exact `storage_delta` where measurable;
-- producer-owned `semantic_invariants`;
-- obligation-specific transport/decode, runtime-cost, visual/behavioral and adoption evidence.
+- producer-owned semantic invariants;
+- obligation-specific transport/decode/runtime/visual/adoption evidence.
 
-Required behavior:
+The new UC #182 event does not justify texture machinery in PF and does not require another PF abstraction this pass. It is naturally expressible as one consumer capability/rebind obligation on a specific storage representation.
 
-1. matching semantic/source intent does not automatically transfer storage-specific claims;
-2. smaller storage does not imply visual neutrality, arbitrary transport equivalence, target-device benefit or adoption;
-3. historical storage identities and receipts remain truthful for their exact revisions;
-4. changed decode/address mapping is part of the consumed identity and must be rebound where relevant;
-5. PF describes evidence only and does not choose component widths, crop textures, weld vertices, reindex meshes, pack atlases or optimize products.
+No open Profession Fabric PR was found in the fresh scan. PF #38 remains an experimental proposal/evidence home, not implementation or product authority.
 
-## Why no UC structure move was justified
+## Return to active lanes
 
-Current UC main at scan time:
+Cartography added only bounded placement returns; no product or UC code was authored by this lane.
 
-`6ad6ad51e6f40a3dc1d0cccd3af7f7c7ab28fb33`
+### UC #182
 
-That main directly descends from merged indexing main `2295495cccf60c1fbd541b20215d17ac18e32821` through unrelated Physics PR #177. The current open UC PR #180 is the successor Physics growth lane, also unrelated to texture or representation compaction.
+Comment:
 
-A targeted UC search found no existing AXM texture-envelope right-sizing / storage-envelope observer. The generic `KTX2Loader` contains ordinary texture-format memory tradeoff logic, but that is not an AXM storage-rightsizing contract and does not justify extracting Object policy into UC.
+`5711747916`
 
-Most importantly, the three repeated product mechanisms are materially heterogeneous:
+The return records that the correct shared home is **receiver representability**, not compaction policy, and explicitly holds generic compaction, automatic packing/adoption, target-device benefit, CANON and production-readiness claims.
 
-- Object: shrink a texture allocation envelope while remapping normalized addressing;
-- Building/Map: index consumer vertex storage under protected attribute grouping;
-- Animal: narrow numeric accessor component width with semantic decode.
+### Object Technical Art #28
 
-That repetition supports a shared **representation identity/evidence rule**, but not one generic mutation API. No UC issue/PR was opened.
+Comment:
 
-The next UC trigger should be mechanism-level repetition with a precise neutral contract, not merely the fact that multiple products can save memory.
+`5711750237`
 
-## Return to active product lane
+The return records that the exact downstream proof supports UC #182's generic receiving capability while preserving Runtime, Materials, Art/QA and product adoption boundaries.
 
-Object Runtime PR #29 received Cartography return comment:
+### Object Runtime #29
 
-`5711028336`
+Comment:
 
-The return keeps the exact implementation local, records the storage-identity learning, and preserves the current HOLDs. No automatic Materials adoption, Art/QA upgrade, target-device claim or UC extraction was requested.
+`5711753141`
+
+The return records that the former transport-representability blocker now has a supported shared receiver repair, while the actual `512x384` storage choice and its measured visual/cost trade remain Runtime/product owned.
 
 ## Fresh non-selected signals preserved without duplication
 
-### Environment receiving transform truth repair
+### Object Runtime #30 — scalar texture channel-width reduction
 
-Map Environment PR #24 now proves the exact Building `604` source-intent indexed receiver in the retained current world. Its first mechanically green run was rejected because source-local vertices were rendered in the wrong receiving placement. The final proof binds the exact source-to-Godot placement and world-space envelope before accepting the scene evidence.
+Fresh Runtime status now proves a second Object texture-storage optimization, but a **different mechanism** from atlas-envelope right-sizing:
 
-This is a strong separate mapping/receiving lesson, but it already has an active Environment owner and does not need a competing Cartography framework this pass.
+- exact roughness semantics remain scalar;
+- control: `512x512 RGBA8` while the shader reads only `.r`;
+- candidate: `512x512 L8`, same scalar field and shader semantics;
+- full mip-chain storage: `1,398,100 B -> 349,525 B`;
+- real proof-host saving: `1,048,575 B / 75%`;
+- four retained render pairs: byte-identical, `0` changed pixels.
 
-### Procedural atlas layout remains owner-bounded
+This is strong product evidence but only one texture-channel-collapse mechanism. Cartography does **not** open a UC scalar-map converter from it. A future shared extraction would need another materially independent receiver/producer case and a neutral contract that does not encode Object/roughness policy.
 
-Object Procedural PR #11 now deterministically derives the same two Materials-declared atlas rectangles, padded envelopes and normalized atlas coordinates across two different source-local face bases. It explicitly forbids automatic packing/search/fallback and does not choose production UVs.
+### Object Procedural #11 — source-frame authority rebind
 
-That upstream bounded layout is exactly why Runtime #29 can ask the narrower storage-envelope question without Procedural or Runtime taking Materials authority. No generic atlas packer was opened.
+Procedural has removed duplicated source-orientation authority by deriving two review UV bases from exact Hard-Surface-owned source reference frames while keeping Materials density/origin authority separate. Four prior UV outputs are reproduced exactly and six authority-drift controls fail closed.
 
-### VFX timing reconstruction remains observation-owned
+This strengthens the broader rule that coordinate/reference-frame identity is a consumed dependency, but it does not yet justify a new UC frame ontology. Existing Object ownership already handles the current case.
 
-Map VFX PR #35 has already separated clean timing receipts from intrusive visual capture and is now pursuing telemetry-bound reconstruction from untimed exact source-state images. That remains within the existing observer-instrumentation provenance model from earlier Cartography passes; no duplicate temporal vocabulary is added here.
+### Building / Map Environment — real receiver quotient mapping
+
+Environment now proves that the existing 312-vertex Building consumer occupies the exact same **material-role + transformed-position** partition as Geometry's 312-group diagnostic only after applying the actual Map basis and placement. It explicitly does **not** preserve the 604-source-domain hard-normal identity.
+
+This is a second strong receiving-frame / identity case and should be watched with the Object source-frame rebind. The correct next question is whether PF #38's existing consumed-identity edge can carry an explicit coordinate/reference-frame mapping cleanly before inventing another concept. No framework change is made this pass.
+
+### Art / Visual QA remain independent
+
+Current Art Direction and independent Visual QA moved their highest-priority work to Character review-006. They did not silently accept Object Runtime #29 or #30 by absence of a defect report. Object visual acceptance therefore remains explicitly independent of the shared UC representability repair.
 
 ## Durable placement ledger
 
@@ -204,31 +208,33 @@ Map VFX PR #35 has already separated clean timing receipts from intrusive visual
 - **UC #162** — proposed neutral self-intersection observer; no automatic aesthetic acceptance.
 - **UC #170 / merged PR #178 / merged PR #179** — read-only attribute-aware indexed-surface eligibility observation including explicit cross-source attribute/protected-split grouping; no generic weld/reindex/adoption authority.
 - **UC #174 / merged PR #176** — normalized integer `WEIGHTS_0` receiver parity in neutral UC receiver machinery; producer quantization/adoption remains separate.
-- **PF #38** — experimental evidence/provenance procedure: typed consumed-identity DAG; migration state vs bounded claim verdict; changed/preserved/derived dependencies; parallel representation sets; temporal provenance + observer instrumentation; harness execution vs claim/control verdict; scoped obligations + applicability-domain coverage; and now **logical/semantic payload identity separated from exact storage representation + decode/address mapping identity**.
+- **UC #182 (draft/unmerged)** — explicit rectangular verified material-bundle representability; **receiver capability only**, not atlas right-sizing/packing/adoption.
+- **PF #38** — experimental evidence/provenance procedure: typed consumed-identity DAG; migration state vs bounded claim verdict; changed/preserved/derived dependencies; parallel representation sets; temporal provenance + observer instrumentation; harness execution vs claim/control verdict; scoped obligations + applicability-domain coverage; logical/semantic payload identity separated from exact storage representation + decode/address mapping identity.
 
 ## Explicit non-claims
 
-- No Object source geometry, surface identity, Materials atlas contract, Procedural atlas layout, production UV, production texture or material scalar was changed by Cartography.
-- No Object Runtime #29 code or evidence was rewritten by Cartography; only a return/placement comment was added.
-- No Building/Map indexing, source-intent grouping, Godot normal policy, transport tolerance or Environment representation selection was changed.
-- No Animal GLB bytes, quantizer, rig, motion, producer adoption or visual acceptance was changed.
-- No UC texture compactor, cropper, optimizer or new shared machinery was added; no duplicate UC lane was opened.
-- No PF implementation was added. Issue #38 remains an experimental evidence/provenance proposal, not product authority.
-- No storage saving is generalized into visual equivalence, target-device benefit or adoption.
-- No historical evidence was relabelled or erased by a compact successor.
-- No Art/QA acceptance, target-device performance, CANON, production-readiness or merge authority is claimed.
+- No Object atlas was cropped, repacked, reauthored or adopted by Cartography.
+- No Object Materials density, padding, surface identity, UV, roughness policy or visual threshold was changed.
+- No Object Runtime #29 or #30 implementation/evidence was rewritten.
+- No Object Technical Art transport implementation was copied or replaced by Cartography.
+- No UC #182 code was authored by Cartography; it was inspected and placement-commented only.
+- UC #182 is draft/unmerged at this scan; its green exact-head evidence is not relabelled as merged-main capability.
+- No generic UC compactor, atlas packer, right-sizer, scalar-channel optimizer or automatic representation selector was opened.
+- No PF implementation or new PF abstraction was added; issue #38 remains experimental evidence/provenance work.
+- No memory saving is generalized into visual equivalence, target-device benefit or adoption.
+- No Art/QA verdict, CANON state, production readiness or merge authority moved.
 - `axm-create-me` remains coordination-only.
 - The four AXM roots remain the gate: Truth, Agency / non-domination, Continuity, Wisdom before speed.
 
 ## Next bounded scan
 
-- Watch for a **second independent texture-envelope / storage-rightsizing mechanism** before considering any neutral UC texture observer or transformer.
-- Watch PF #38 only for a domain-agnostic experimental implementation that can represent storage identity without hardcoding Object/Building/Animal semantics.
-- Watch Object #29 for Art Direction / Visual QA and target-device Runtime returns; do not infer adoption from proof-host memory reduction.
-- Watch receiving mappings/coordinate transforms for a second material cross-domain case before extracting another PF identity axis.
-- Keep UC shared machinery growth tied to precise repeated mechanisms, not to broad “optimization” similarity.
+- Watch UC #182 for merge/current-main continuity; if merged, require downstream exact-candidate rebind against the merged head before calling the shared receiver blocker closed on main.
+- Watch for a second independent **rectangular verified-bundle consumer** before broadening the UC contract beyond its current explicit dimensions support.
+- Watch Object Runtime #30 plus another materially different scalar-texture case before considering any shared channel-width observer/transformer.
+- Watch Object source-frame and Building/Map receiving-transform evidence for a repeated coordinate/reference-frame dependency contract; prefer expressing it through existing PF #38 consumed identities if sufficient rather than inventing a new framework concept.
+- Keep product optimization/adoption separate from shared representation eligibility/receiver support.
 
 ## Recovery / provenance
 
-Previous Cartography coordination commit: `dd8c8db3e535893b6ed905fac490d43ac1c1ec27`.
-Previous status blob SHA before this update: `57aa15665b583e1c57bee09a091123b24120c1b4`.
+Previous Cartography coordination commit: `48cce76539df9832c5ca155a595588bda003c357`.
+Previous status blob SHA before this update: `050f4b6a0b83ee90d77a9ff51a8126f28c5d942c`.
