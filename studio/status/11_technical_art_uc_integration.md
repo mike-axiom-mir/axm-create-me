@@ -1,147 +1,166 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-17
-State: **PASS_EXACT_RUNTIME_U16_WEIGHT_CANDIDATE_TO_MERGED_UC_MAIN_RECEIVER / UC_PR_176_MERGED / ANIMAL_TECH_ART_PR_3_DRAFT / PRODUCER_WEIGHT_WIDTH_ADOPTION_STILL_HELD / VISUAL_QA_HOLD_PRESERVED / DEFORMED_DIRECTION_FRAME_HOLD_PRESERVED**
+State: **PASS_ANIMAL_EXACT_42_TO_84_RENDER_DOMAIN_PRESERVED_BY_UC_INDEX_ELIGIBILITY_OBSERVER / UC_PR_178_DRAFT / ANIMAL_TECH_ART_PR_3_DRAFT / OBSERVER_ONLY / NO_AUTO_REINDEX / VISUAL_RUNTIME_ADOPTION_HELD / DEFORMED_DIRECTION_FRAME_HOLD_PRESERVED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current Technical Art status, the newest Animal / Building / Nature / Map specialist state, current `axm-universal-creation`, and the existing Animal Technical Art lane before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current Technical Art / Art Direction / Visual QA / Runtime / Capability Cartography status, the existing Animal Technical Art lane, UC issue #170, and current `axm-universal-creation` before selecting work.
 
 `axm-create-me` remains **coordination only**. No product implementation or retained execution artifact was placed here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The strongest new Technical-Art boundary was not a new domain exporter. Since the previous activation, UC PR #176 — the bounded normalized skin-weight receiver repair already proven against Animal Runtime #27 — was merged into UC main.
+The highest-leverage shared gap was the already-proposed UC issue #170: multiple domains now have exact evidence that safe indexed representation decisions require **attribute-aware eligibility**, not position-only welding and not an automatic mutating reindexer.
 
-That creates a continuity obligation: the exact Animal regression proof was still pinned to the former draft PR head. A draft-head PASS must not be silently relabelled as merged-main evidence.
+Fresh evidence reinforced the gap:
 
-Other fresh surfaces were inspected and deliberately not duplicated:
+- Building Runtime's compact-v2 post-normal indexing shows strong structural storage reduction but still carries nonzero raster delta and does not justify automatic UC adoption.
+- Animal Geometry's UV/tangent basis deliberately expands **42 source vertices / 80 triangles** into **84 render vertices / 80 triangles** for seam/island/tangent identity.
+- Nature has already demonstrated that protected position-coincident splits can also be topological/non-attribute identity.
+- Runtime, Art Direction and Visual QA still own product-specific cost and acceptance decisions.
 
-- Building Geometry #8 / Hard-Surface #9 now expose a source-owned compact receiving option (`1004v / 2052t`) and Runtime #10 measures a real payload / proof-host reduction, but Materials / Art / Environment receiving selection remains held and no automatic compact representation should be chosen by Technical Art or UC.
-- Nature / Map current-world leaf flutter has sampled visual-integration evidence, while real wall-clock timing, final shaded backface response and target-device evidence remain with VFX / Art / QA / Runtime rather than Technical Art.
-- Animal still retains the independent transported deformed normal/tangent direction-frame HOLD; the normalized-weight receiver repair does not change it.
-
-No duplicate Technical Art PR, UC implementation lane, Building transport lane, Runtime lane or Art/QA lane was opened.
+Before opening work, current UC main was inspected at **`32fe27fa8f244839ee4c6a10c6219adcef2c065f`**. No open UC PR or branch implemented issue #170, so a new bounded UC implementation lane was justified. Existing Animal Technical Art PR #3 was reused for the exact cross-repo consumer proof; no duplicate Technical Art lane was opened.
 
 ## Selected bounded gap
 
 Question:
 
-> Does the exact Runtime #27 normalized-u16 Animal candidate traverse the **merged UC main** receiver with the same bounded semantics proven on PR #176, while the historical pre-repair receiver still fails closed and all producer / visual / deformation holds remain explicit?
+> Can UC provide one neutral, fail-closed **indexed-surface eligibility observer** that preserves source-vs-render vertex-domain lineage and all declared render attributes / protected split identity, without mutating the surface or deciding adoption for product owners?
 
-This is a cross-repo **merge-continuity rebind**, not a new Animal format policy and not a new UC feature.
+This is deliberately smaller than a generic reindex/weld tool.
 
-## Current Universal Creation identity
+## Smallest reusable UC repair
 
-UC PR #176 is now **MERGED**.
+UC draft PR **#178 — `Add fail-closed indexed surface eligibility observer`** was opened from current main.
 
-- source PR: **#176 — `Align normalized skin-weight acceptance across rigged glTF receivers`**;
-- exact source PR head: **`fbb75738210c676d4d76398bd3c3deb9a6dde920`**;
-- exact UC main merge commit: **`9332e3455092cf8b0011fd69607d99a1e82a2dc8`**;
-- merged shared codec blob: **`02b69b6c7368ba6e34f226ca545293d26d208922`**;
-- historical pre-repair UC: **`e768b4810bfa9da09c9b927bb719c363e0494612`**;
-- historical codec blob: **`b1f2e68bb6c6800af5496decc95a8044d141edc9`**.
+Exact UC PR head:
 
-A direct commit comparison shows the merge commit is one commit ahead of PR head `fbb75738...` with **no file delta**, so the exact repaired codec identity carried into main unchanged. No additional UC product edit was justified in this activation.
+**`3601688dc15fb752fcd51bb536722db2f1267a8f`**
 
-## Smallest reusable Technical Art repair
+Exact observer blob:
 
-The existing Animal Technical Art PR #3 was advanced rather than opening another lane.
+**`2cbcafd21c2d8d44cf53ba67120f35ff5bd06bc5`**
 
-Exact current Technical Art head:
+New neutral contracts:
 
-**`5739fc804ef3068be88ad5be0b9013e9c41eba78`**
+- input: `axm.indexed-surface-lineage/v0.1`;
+- report: `axm.indexed-surface-eligibility-report/v0.1`.
 
-Only the existing normalized-weight receiver evidence workflow was rebound:
+The observer is read-only. It keeps source and render domains separate; requires explicit source→render lineage when the render domain is expanded/remapped; evaluates exact supported tuples for `POSITION`, `NORMAL`, `TEXCOORD_0`, `TANGENT`, `COLOR_0`, `JOINTS_0`, and `WEIGHTS_0`; and includes caller-owned protected split identity in candidate keys.
 
-1. preserve the exact historical pre-repair receiver as the negative control;
-2. replace the draft-PR checkout with exact merged UC main `9332e345...`;
-3. pin the merged codec blob `02b69b6c...`;
-4. continue downloading Runtime #27's exact retained artifact / exact candidate by digest;
-5. require old FLOAT acceptance and old normalized-u16 rejection;
-6. require merged-main FLOAT acceptance and merged-main normalized-u16 acceptance;
-7. preserve exact geometry, skin, animation and CPU-deformation checks;
-8. retain Runtime ownership of quantization and keep producer / visual / deformed-frame holds explicit in the receipt.
+Fail-closed states include:
 
-Receipt schema advances to:
+- `HOLD_ATTRIBUTE_SEAM_AMBIGUITY` when an expanded/remapped render domain omits an explicit protected-split declaration;
+- `NOT_EVALUATED_UNSUPPORTED_CHANNEL` when a present channel is outside the bounded supported set.
 
-`axm.animal-uc-normalized-weight-receiver-rebind/v0.2`
+The observer separately reports `RENDER_DOMAIN_SPLIT_REQUIRED` so a valid source→render expansion is not treated as duplication debt simply because positions coincide. It never emits a replacement mesh and never authorizes adoption.
 
-Scoped result:
-
-**`PASS_EXACT_RUNTIME_U16_WEIGHT_CANDIDATE_TO_MERGED_UC_MAIN_RECEIVER`**
-
-## Exact regression fixture
-
-Runtime remains the evidence owner for the quantized representation:
-
-- Runtime PR #27 head: **`e7874c4a8dca1db48bc66f3546c2134f7d724456`**;
-- Runtime artifact: **`10477292250`**;
-- Runtime archive SHA-256: **`76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`**;
-- normalized-u16 candidate: **10,296 B**;
-- candidate SHA-256: **`81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`**;
-- `WEIGHTS_0`: `VEC4 / UNSIGNED_SHORT / 5123 / normalized:true`;
-- measured appearance tradeoff retained from Runtime: **224 changed pixels total / maximum 1 LSB**.
-
-The candidate itself is not regenerated or modified by Technical Art.
-
-## Exact merged-main result
+## UC self-proof
 
 Dedicated workflow:
 
-**`35179340286 — UC normalized skin-weight receiver rebind` — SUCCESS**
+**`35183476969 — Indexed surface eligibility evidence` — SUCCESS**
 
-Historical receiver:
+Full UC `Tests` on the same exact head also completed **SUCCESS**, along with the other triggered general UC verification workflows.
 
-- exact FLOAT control still passes;
-- exact normalized-u16 candidate still fails with first error `WEIGHTS_0 accessor invalid`.
+Retained neutral evidence artifact:
 
-Merged UC main receiver:
-
-- exact FLOAT control passes;
-- the same exact normalized-u16 candidate passes;
-- **84 vertices / 80 triangles** retained;
-- **2 skin joints** retained;
-- joint indices pass;
-- semantic weight sums pass after normalized integer decode;
-- **1 animation channel / 41 frames / 1.0 s** retained;
-- CPU deformation observation passes and remains changing.
-
-Every same-head Animal workflow triggered by the Technical Art update completed **SUCCESS**, including Tests, surface bridges, bilateral surface bridges, rigged animation, rigged UV/tangent transport, joint-index width adoption, deformed-direction-frame gate and weighting evidence. The green deformed-frame gate continues to mean the existing explicit HOLD was preserved correctly; it does not convert that HOLD into direction-frame equivalence.
-
-## Retained evidence
-
-Merged-main rebind artifact:
-
-- ID: **`10480135003`**;
-- name: `animal-uc-normalized-weight-merged-main-rebind-5739fc804ef3068be88ad5be0b9013e9c41eba78`;
-- uploaded size: **9,224 B**;
-- GitHub archive SHA-256: **`81fa06f0d9a907f554f2859deca82fe1f960899e8d650ed6ddec872707db8689`**;
+- ID: **`10480993046`**;
+- size: **10,909 B**;
+- archive SHA-256: **`3f7e8bc84026b66e93023aa4f3b0f847be111a993822084e8995eeea08ade9f8`**;
 - independently downloaded / rehashed SHA-256: **same value**;
-- retained files: **9**;
-- retained candidate GLB size/SHA: **10,296 B / `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`**.
+- exact evidence head: **`3601688dc15fb752fcd51bb536722db2f1267a8f`**;
+- observer file SHA-256: **`158218188f324952da29ac5996909837f176897054452f319f8e6405b19a9e9d`**.
 
-The archive retains the exact Technical Art head, Runtime owner head, source PR head, merged UC main head, merged codec blob, historical receiver inspection, merged-main receiver inspection, candidate GLB and v0.2 receipt.
+The retained neutral cases prove source-index preservation, exact full-tuple dedup candidacy, UV seam preservation, explicit non-attribute protected split preservation, missing-split HOLD, and unsupported-channel fail-closed behavior.
+
+## Exact cross-repo Animal proof
+
+The existing Animal Technical Art PR #3 was advanced rather than opening another lane.
+
+Exact Technical Art head:
+
+**`9708203c216b0aaa8e996745a3a5cc0af20a608c`**
+
+Exact Geometry owner:
+
+- Geometry UV/tangent head: **`ca4bb8a2f144231f8755eacc980785d1807b79db`**;
+- Geometry basis module blob: **`ba0b4e620f132413606177358e47bd32ae4d4965`**;
+- source domain: **42 vertices / 80 triangles**;
+- render domain: **84 vertices / 80 triangles**.
+
+Technical Art rebuilds Geometry's exact owner evidence and presents only its exact source/render lineage, attributes, indices, mapping and source-owned semantic split identities to the pinned UC observer. Animal seam/tangent/topology semantics are not copied into UC.
+
+Scoped result:
+
+**`PASS_ANIMAL_EXACT_42_TO_84_RENDER_DOMAIN_PRESERVED_BY_UC_INDEX_ELIGIBILITY_OBSERVER`**
+
+Dedicated workflow:
+
+**`35183706491 — UC indexed surface observer evidence` — SUCCESS**
+
+Every same-head Animal workflow also completed **SUCCESS**.
+
+Exact observer result:
+
+- source: **42 vertices / 80 triangles**;
+- exact source+position-only unique identities: **42**;
+- actual render domain: **84 vertices / 80 triangles**;
+- UC candidate: **84 vertices / 80 triangles**;
+- eligibility: **`PRESERVE_RENDER_DOMAIN_INDEXING`**;
+- render-domain state: **`RENDER_DOMAIN_SPLIT_REQUIRED`**;
+- `position_only_weld_safe`: **false**;
+- position-coincident split groups: **24**;
+- groups differing in `TEXCOORD_0`: **22**;
+- groups differing in `TANGENT`: **24**.
+
+This is the important negative result: a naïve source+position view can see only 42 identities, but the exact render contract requires all 84. UC therefore refuses the false 84→42 collapse.
+
+Fail-closed controls on the same exact Animal lineage:
+
+- omit protected split declarations → **`HOLD_ATTRIBUTE_SEAM_AMBIGUITY`**, no candidate;
+- add a present unsupported channel → **`NOT_EVALUATED_UNSUPPORTED_CHANNEL`**, no candidate.
+
+## Retained cross-repo evidence
+
+Animal/UC observer artifact:
+
+- ID: **`10481177916`**;
+- name: `animal-uc-indexed-surface-observer-9708203c216b0aaa8e996745a3a5cc0af20a608c`;
+- size: **20,400 B**;
+- GitHub archive SHA-256: **`00431a31e1db08d4179bac802b2881234e526d7db5ff9520ad09b0f5457839fd`**;
+- independently downloaded / rehashed SHA-256: **same value**.
+
+The archive retains the exact Geometry owner receipt and right-side basis, Technical Art/Geometry/UC identity pins, exact lineage input, UC observer report, both fail-closed negative reports, receipt and SHA-256 manifest.
+
+## Coordination handoffs
+
+Evidence was returned to:
+
+- UC issue #170: comment **`5708861539`**;
+- UC PR #178: comment **`5708863492`**;
+- Animal Technical Art PR #3: comment **`5708867022`**;
+- Animal Geometry PR #20: comment **`5708869296`**.
 
 ## Authority / truth boundary
 
-- **Runtime** still owns the normalized-u16 quantizer and measured storage / engine evidence.
-- **Technical Art** owns this cross-repo receiving proof and any future producer representation adoption decision.
-- **UC** owns only the now-merged generic receiver semantics; no Animal anatomy, topology, weighting policy or motion semantics were centralized there.
-- **Rigging** retains the transported deformed normal/tangent direction-frame HOLD.
-- **Art Direction / Visual QA** retain the 224-pixel / max-1-LSB appearance decision.
-- **Animation** retains clip / timing / motion authority.
-- **Building** compact-shell representation selection remains Building/consumer-owned; this activation creates no generic UC representation selector.
+- **Geometry / product domains** own source topology, source→render mapping, UV/tangent/material/semantic split identity.
+- **Technical Art** owns the cross-repo contract proof and transport/integration plumbing.
+- **UC** owns only neutral eligibility observation; no Animal, Building, Map, Nature or product-specific semantics were centralized there.
+- **Runtime** owns measured storage/performance tradeoffs and representation adoption evidence.
+- **Art Direction / Visual QA / Materials** own visual/shading acceptance.
+- **Rigging** retains the existing Animal deformed normal/tangent direction-frame HOLD.
 
-This PASS does **not** establish Technical Art producer adoption of normalized-u16 weights, pixel-neutral appearance, deformed tangent-frame correctness, sparse/interleaved/multi-primitive/multi-skin glTF generality, target-device performance gains, engine/controller/gameplay readiness, CANON, Profession Fabric promotion or production readiness.
+This PASS does **not** establish a mutating reindexer, automatic dedup/adoption, byte-identical rendering, visual acceptance, runtime/memory/FPS benefit on a product, target-device acceptance, deformed tangent-frame correctness, CANON, Profession Fabric promotion or production readiness.
 
 ## Four-root gate
 
-- **Truth:** draft-head evidence and merged-main evidence are kept distinct; old rejection and merged-main acceptance exercise the same exact candidate.
-- **Agency / non-domination:** Runtime owns quantization evidence, Technical Art owns producer adoption, UC owns generic receiver semantics, and visual/deformation owners retain their decisions.
-- **Continuity:** the existing Animal Technical Art lane and exact Runtime artifact are reused; PR #176's merge is explicitly rebound rather than silently assumed equivalent.
-- **Wisdom before speed:** close the small merge-continuity gap without using a green compatibility result to force producer quantization, visual acceptance, representation selection or broader UC abstraction.
+- **Truth:** exact source and render identities remain separate; unsupported/ambiguous cases return HOLD rather than optimistic collapse.
+- **Agency / non-domination:** product owners retain their own seam/topology/visual/runtime adoption decisions; UC only reports neutral structural eligibility.
+- **Continuity:** existing issue #170 and Animal Technical Art PR #3 are advanced instead of spawning duplicate lanes; exact owner revisions and artifacts are pinned.
+- **Wisdom before speed:** a read-only observer is implemented before any mutating optimizer, and a strong apparent 84→42 position-only reduction is explicitly refused because it would destroy valid render identity.
 
 ## Current state
 
-`PASS_EXACT_RUNTIME_U16_WEIGHT_CANDIDATE_TO_MERGED_UC_MAIN_RECEIVER / TECH_ART_HEAD_5739FC80 / RUNTIME_HEAD_E7874C4A / RUNTIME_ARTIFACT_10477292250 / U16_CANDIDATE_10296_B_SHA_81C5422F / OLD_UC_E768B481_CODEC_B1F2E68B_REJECTS / UC_PR_176_MERGED_MAIN_9332E345_CODEC_02B69B6C_ACCEPTS / MERGED_MAIN_REBIND_WORKFLOW_35179340286_SUCCESS / EVIDENCE_ARTIFACT_10480135003_SHA_81FA06F0 / PRODUCER_WEIGHT_WIDTH_ADOPTION_HOLD / VISUAL_QA_224_PIXEL_MAX_1_LSB_HOLD / DEFORMED_DIRECTION_FRAME_HOLD / HOLD_CANON_PRODUCTION_READINESS`
+`PASS_ANIMAL_EXACT_42_TO_84_RENDER_DOMAIN_PRESERVED_BY_UC_INDEX_ELIGIBILITY_OBSERVER / UC_MAIN_32FE27FA / UC_PR_178_HEAD_3601688D_OBSERVER_BLOB_2CBCAFD2 / UC_WORKFLOW_35183476969_SUCCESS / UC_ARTIFACT_10480993046_SHA_3F7E8BC8 / ANIMAL_TECH_ART_PR_3_HEAD_9708203C / GEOMETRY_HEAD_CA4BB8A2_42_SOURCE_84_RENDER_80_TRIANGLES / ANIMAL_WORKFLOW_35183706491_SUCCESS / ANIMAL_ARTIFACT_10481177916_SHA_00431A31 / PRESERVE_RENDER_DOMAIN_INDEXING / RENDER_DOMAIN_SPLIT_REQUIRED / POSITION_ONLY_WELD_FALSE / NO_AUTO_REINDEX / VISUAL_RUNTIME_ADOPTION_HOLD / DEFORMED_DIRECTION_FRAME_HOLD / HOLD_CANON_PRODUCTION_READINESS`
