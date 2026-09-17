@@ -1,241 +1,204 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / THIRTIETH BOUNDED RUNTIME PASS / PASS_ANIMAL_GLB_WEIGHT_WIDTH_COMPACTION_RECEIVER_BLOCKER_CLEARED__HOLD_ART_QA_AND_PRODUCER_ADOPTION / EXACT RETAINED RUNTIME CANDIDATE REUSED / WEIGHTS_0 1,344 B -> 672 B / COMPLETE GLB 10,948 B -> 10,296 B / MERGED UC MAIN NOW ACCEPTS / 3,444 RIGGING POSED COMPARISONS WITH MAX 1.489726269e-07 m POSITION DELTA / GODOT POSE RECEIPT DELTA 0.0 / VISUAL DELTA 224 PIXELS TOTAL MAX 1 LSB / NO AUTOMATIC PRODUCER ADOPTION**
+State: **ACTIVE / THIRTY-FIRST BOUNDED RUNTIME PASS / PASS_OBJECT_SERVICE_DARK_ATLAS_HEIGHT_RIGHTSIZE_REDUCES_PROOF_HOST_TEXTURE_MEMORY__HOLD_ART_QA_AND_TARGET_DEVICE / EXACT MATERIALS 512x512 -> RUNTIME 512x384 / 500 PX/M + 16 PX DILATION PRESERVED / MODELED + OBSERVED TEXTURE SAVING 349,528 B / 25.0002146% MIP-CHAIN REDUCTION / DRAW-OBJECT-PRIMITIVE COUNTS UNCHANGED / 33 RENDERED PIXELS TOTAL MAX 1 LSB / NO AUTOMATIC MATERIALS ADOPTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Runtime, Technical Art / UC Integration, Rigging, Environment, Art Direction and Visual Observer evidence across the active constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/12_runtime_optimization.md`, then rescanned current Runtime, Art Direction, Materials / LookDev, Technical Art / UC Integration, Visual Observer QA and active product PRs across the constellation.
 
-`axm-create-me` remains **coordination only**. No product implementation was added here. The measured candidate remains in `mike-axiom-mir/axm-animal-design` Runtime PR #27; the downstream receiver and deformation proofs remain in their owning Technical Art and Rigging lanes.
+`axm-create-me` remains **coordination only**. The bounded implementation/evidence lives in `mike-axiom-mir/axm-object-design`; this file records coordination state only.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Why this lane was selected
 
-The newest Building Runtime work is already correctly narrowed to a target-device question: pass 29 showed that the indexed planar-role Building's higher primitive count does not, by itself, demonstrate a proof-host performance regression. Without representative target hardware, inventing another Building topology/LOD rewrite would duplicate or outrun the evidence.
+The preceding Animal weight-width lane is now correctly narrowed to Art/QA plus producer adoption; changing that candidate again would duplicate a settled representation question. The Building primitive lane remains correctly narrowed to intended-hardware validation; without representative hardware, another topology/LOD rewrite would outrun the evidence.
 
-A fresher cross-constellation change created a better bounded Runtime opportunity. Animal Runtime PR #27 had already measured a real `WEIGHTS_0` import-budget reduction, but correctly stopped at a HOLD because the then-current generic UC rigged glTF receiver rejected normalized integer weights. Since that pass:
+A fresh higher-leverage Runtime gap appeared in Object Materials. Materials PR #6 now has a real Godot 4.7.2 two-surface `service_dark` atlas diagnostic at:
 
-- UC repaired that neutral receiver mismatch and merged it;
-- Technical Art replayed Runtime's **exact retained candidate** against merged UC main;
-- Rigging replayed the same candidate over all authored keys and bounded the deformation error;
-- the original real-Godot Runtime A/B remains available for engine and raster comparison.
+- exact Materials head `4c12a0a57f6aa8778cff41efad321e13567c6c91`;
+- `512×512` atlas;
+- `500 px/m` (`0.002 m/px`);
+- `25` texels per Art-preferred `0.05 m` review unit;
+- `16 px` dilation;
+- linear mipmap anisotropic filtering;
+- repeat disabled;
+- exact reviewed lid-inner rectangle `[16,16,390,240]`;
+- exact reviewed front-service rectangle `[16,288,234,78]`;
+- final Runtime cost explicitly unaccepted by Materials / Art / QA.
 
-The highest-leverage non-duplicated Runtime question therefore became:
+The exact padded island extents only require pixels through `[422,382]`. No competing Runtime texture-atlas budget lane existed. The bounded question was therefore:
 
-> **Is the old receiver incompatibility still a valid blocker for the exact normalized-u16 weight candidate, or can Runtime now narrow the HOLD to the remaining visual and producer-adoption decisions without changing the candidate?**
-
-This pass answers that question from exact retained evidence. It does not create a second quantizer, a second Runtime PR, or a new UC change.
+> **Can Runtime remove only the unused bottom atlas area, preserving the exact Materials texel density, rectangles, padding, generated diagnostic texels and material scalars, while proving a real renderer memory win and recording any raster tradeoff independently?**
 
 ## Owning Runtime lane
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
-Existing draft Runtime PR: **#27 — `Runtime: compact Animal skin weights to normalized u16`**
+Draft Runtime PR: **#29 — `Runtime: right-size service-dark atlas height after padded pack`**
 
-Branch: `studio/runtime-animal-weight-width-budget-001`
+Branch: `studio/runtime-object-service-dark-atlas-height-budget-001`
 
-Exact Runtime head that produced the measured candidate:
+Exact Runtime head:
 
-`e7874c4a8dca1db48bc66f3546c2134f7d724456`
+`ce23d5edeb0766201cfbaff646dda31544cd8f9c`
 
-Original dedicated Runtime workflow:
+Exact stacked Materials head:
 
-`35172575874 — SUCCESS`
+`4c12a0a57f6aa8778cff41efad321e13567c6c91`
 
-Current Runtime scoped result after continuity rebind:
+Dedicated workflow:
 
-**`PASS_ANIMAL_GLB_WEIGHT_WIDTH_COMPACTION_RECEIVER_BLOCKER_CLEARED__HOLD_ART_QA_AND_PRODUCER_ADOPTION`**
+`35197016046 — SUCCESS`
 
-The Runtime branch bytes are unchanged in this pass. The improvement is a **truthful gate reduction after downstream evidence changed**, not a silent rewrite of the historical result.
+Current scoped result:
 
-## Measure-before / candidate representation
+**`PASS_OBJECT_SERVICE_DARK_ATLAS_HEIGHT_RIGHTSIZE_REDUCES_PROOF_HOST_TEXTURE_MEMORY__HOLD_ART_QA_AND_TARGET_DEVICE`**
 
-Exact Technical Art FLOAT control used by Runtime:
+PR #29 remains draft, open and mergeable. No automatic adoption is requested.
 
-- Technical Art producer head: `54c9c11505e798a56619ebc14e9ab41f522eef70`;
-- render domain: **84 vertices / 80 triangles**;
-- `WEIGHTS_0`: FLOAT32 VEC4;
-- exact `WEIGHTS_0` payload: **1,344 B**;
-- complete GLB: **10,948 B**.
+## Measure-before / bounded candidate
 
-Exact Runtime normalized-u16 candidate:
+Control is the exact current Materials review atlas:
 
-- `WEIGHTS_0`: normalized UNSIGNED_SHORT VEC4;
-- exact `WEIGHTS_0` payload: **672 B**;
-- accessor saving: **672 B / 50%**;
-- complete GLB: **10,296 B**;
-- complete-file saving: **652 B / 5.9554%**;
-- candidate SHA-256: `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`;
-- maximum decoded scalar weight error: **`6.656398159820068e-06`**;
-- decoded normalized row-sum error: **`0.0`**;
-- every non-`WEIGHTS_0` accessor payload hash: unchanged.
+- dimensions: **512×512**;
+- base RGBA8 bytes: **1,048,576 B**;
+- modeled full RGBA8 mip chain: **1,398,100 B**.
 
-The Runtime quantizer normalizes each source row and uses deterministic largest-remainder allocation so each four-slot integer row sums exactly to `65535`. Malformed, out-of-range, non-unit and unsupported interleaved cases fail closed. This pass does not broaden that policy.
+Runtime candidate changes only receiving atlas height:
 
-## Historical receiver HOLD remains provenance
+- dimensions: **512×384**;
+- base RGBA8 bytes: **786,432 B**;
+- modeled full RGBA8 mip chain: **1,048,572 B**;
+- base saving: **262,144 B / 25%**;
+- mip-chain saving: **349,528 B / 25.0002146%**.
 
-At the original Runtime pass, UC head:
+Preserved exactly:
 
-`e6826acbc7296ba77d25534c8d3d3770ff3fa747`
+- `500 px/m`;
+- `0.002 m/px`;
+- `25` texels per `0.05 m` review unit;
+- `16 px` dilation;
+- filtering and repeat policy;
+- both source-owned service-surface identities;
+- both surface pixel rectangles and pixel extents;
+- generated diagnostic texels inside the retained atlas area;
+- material scalars.
 
-with generic codec blob:
+The largest required padded extent is `[422,382]`, leaving **90 px horizontal and 2 px vertical spare** in the bounded 512×384 candidate.
 
-`b1f2e68bb6c6800af5496decc95a8044d141edc9`
+Independent inspection of the retained source-atlas PNGs confirms the candidate source image is **pixel-identical to the exact top 384 rows of the 512×512 control source image**. No service-surface texel was reauthored to obtain the reduction.
 
-accepted the FLOAT control but rejected the exact normalized-u16 candidate with:
+## Real proof-host memory result
 
-`WEIGHTS_0 accessor invalid`
+The dedicated workflow runs control and candidate in separate pinned Godot 4.7.2 GL Compatibility / X11 / Mesa llvmpipe processes and samples RenderingServer after real target-host rendering.
 
-Runtime correctly refused to patch or bypass UC from the Animal lane. The earlier result therefore remained:
+Across all four exact Materials pose/context pairs:
 
-`HOLD_ANIMAL_GLB_WEIGHT_WIDTH_COMPACTION__CURRENT_UC_RIGGED_CODEC_FLOAT_ONLY`
+- control texture memory: **10,709,015 B**;
+- candidate texture memory: **10,359,487 B**;
+- observed texture-memory delta: **−349,528 B in every pair**;
+- control video memory: **17,203,995 B**;
+- candidate video memory: **16,854,467 B**;
+- observed video-memory delta: **−349,528 B in every pair**;
+- observed buffer-memory delta: **0 B in every pair**;
+- draw calls: **unchanged per matched pair**;
+- rendered objects: **unchanged per matched pair**;
+- rendered primitives: **unchanged per matched pair**.
 
-That result is **not deleted or relabelled**. It is historical truth about that exact receiver revision.
+The real proof-host texture-memory reduction therefore matches the modeled full-mip-chain saving **exactly** for this representation and renderer boundary.
 
-## Current merged-UC receiver evidence
-
-Technical Art subsequently consumed Runtime's exact retained artifact rather than regenerating an equivalent-looking candidate.
-
-Exact merged-main continuity proof:
-
-- Technical Art head: `5739fc804ef3068be88ad5be0b9013e9c41eba78`;
-- merged UC main: `9332e3455092cf8b0011fd69607d99a1e82a2dc8`;
-- repaired generic codec blob: `02b69b6c7368ba6e34f226ca545293d26d208922`;
-- workflow: `35179340286 — SUCCESS`;
-- retained Technical Art artifact: `10480135003`;
-- archive SHA-256: `81fa06f0d9a907f554f2859deca82fe1f960899e8d650ed6ddec872707db8689`.
-
-Merged UC accepts the **same Runtime candidate SHA-256** while retaining:
-
-- **84 vertices**;
-- **80 triangles**;
-- **2 skin joints**;
-- **41 animation frames / 1.0 s**;
-- valid normalized weight sums;
-- valid joint indices;
-- finite changing CPU deformation.
-
-This is the key current-state change: **the generic receiver incompatibility is no longer the active blocker.**
-
-## Rigging deformation continuity
-
-Rigging independently tested the same candidate against the exact FLOAT control over the complete retained authored-key field.
-
-Exact Rigging evidence:
-
-- Rigging head: `e4ce8c1f4c3deb55220cf962206d51013d0cfe73`;
-- workflow: `35178277752 — SUCCESS`;
-- comparison field: **41 keys × 84 render vertices = 3,444 posed comparisons**;
-- max decoded weight-slot error: **`6.656398159820068e-06`**;
-- max FLOAT-control vs normalized-u16 skinned-position delta: **`1.4897262690003554e-07 m`**;
-- scoped Rigging acceptance bound: **`2e-07 m`**;
-- deliberate `+64` u16-step mutation signal at peak: **`2.704031056959096e-05 m`**, rejected fail-closed;
-- retained artifact: `10478912800`;
-- archive SHA-256: `99a48f48fe1a9c622f1f46a27370a7239df7e17a8dcf9d1c9eb0b32f6a57a088`.
-
-This is strong continuity evidence for the bounded weight representation. It does **not** repair or clear the separate transported deformed NORMAL/TANGENT direction-frame HOLD.
-
-## Real Godot comparison remains authoritative for Runtime
-
-The original Runtime proof remains the owning engine A/B for this representation change. Godot 4.7.2 GL Compatibility imported FLOAT control and normalized-u16 candidate in separate real X11 processes.
-
-Across five retained pose observations per representation:
-
-- maximum control/candidate pose-receipt delta: **`0.0`**;
-- triangle count: unchanged at **80**;
-- material bindings: unchanged;
-- both coverage masks: **byte-identical**.
-
-This pass does not pretend the downstream UC/Rigging evidence replaces that engine observation; it composes the separate evidence boundaries instead.
+This is not extrapolated to mobile, browser, console or a discrete target GPU.
 
 ## Visual tradeoff for Art Direction / Visual Observer QA
 
-The real Runtime renders are not byte-identical.
+The source texels are an exact crop, but the final rendered frames are not byte-identical because the receiving texture height changes UV normalization / sampling arithmetic.
 
-Across the two fixed `960×720` peak-pose views:
+Across four matched `820×620` frames:
 
-- total changed pixels: **224**;
-- view 00: **21** changed pixels;
-- view 01: **203** changed pixels;
-- maximum channel delta: **1 LSB**;
-- coverage masks: **byte-identical**.
+- changed pixels: **33 total**;
+- per pair: **8 / 1 / 16 / 8**;
+- maximum RGB channel delta: **1 LSB**;
+- pixels exceeding 1 LSB: **0**.
 
-Runtime records this as:
+Runtime therefore records:
 
-**`BOUNDED_NONZERO_WEIGHT_QUANTIZATION_RASTER_DELTA__ART_DIRECTION_AND_VISUAL_QA_DECISION_REQUIRED`**
+**`BOUNDED_NONZERO_RASTER_DELTA__ART_DIRECTION_AND_VISUAL_QA_REVIEW_REQUIRED`**
 
-No Art or QA acceptance is inferred from the small magnitude. The fact that the generic receiver is now compatible does not collapse visual authority into Runtime or Technical Art.
+The memory result is not converted into visual approval merely because the difference is tiny.
 
-## Runtime conclusion
+## Fail-closed evidence
 
-The old receiver HOLD can now be narrowed truthfully:
+The exact structural verifier proves every required padded surface lies inside the bounded candidate and rejects a drifted / too-short atlas instead of clipping content.
 
-> **Normalized-u16 `WEIGHTS_0` remains a real 50% accessor / 5.9554% complete-file import-budget win for this exact Animal asset. Merged UC now accepts the exact retained candidate, real Godot imports it with zero pose-receipt delta, and Rigging bounds all-key skinned-position drift below its scoped threshold. The remaining blockers are no longer format compatibility; they are the explicit nonzero raster tradeoff and Technical Art's producer-adoption decision.**
+The workflow also mutates the observed texture-memory result into a non-win and requires the acceptance gate to reject that mutation. Runtime therefore does not call the representation successful from modeled bytes alone.
 
-Therefore Runtime marks the candidate **technically eligible for producer consideration**, but requests **no automatic adoption**.
+## Retained evidence
 
-This is a reusable workflow lesson: when an optimization was previously held by an external receiver contract, preserve the original HOLD, re-run the exact retained candidate when that receiver changes, and narrow only the blocker that new evidence actually closes.
+Artifact:
 
-## Retained Runtime evidence
+- ID: **`10486920335`**;
+- name: `object-runtime-service-dark-atlas-height-budget-ce23d5edeb0766201cfbaff646dda31544cd8f9c`;
+- size: **`1,056,605 B`**;
+- GitHub SHA-256: **`793b9c65caae936af85bb1a2c95f7d1187e6ae44b6c386aa0ea663e47d451def`**;
+- independently downloaded/rehashed SHA-256: **same value**.
 
-Original Runtime artifact remains authoritative:
+The artifact retains the exact Runtime and Materials head bindings, Runtime contract/verifier, Materials atlas payload/build receipt, control/candidate Runtime receipts, both source atlas PNGs, all eight rendered frames and the final comparison receipt.
 
-- artifact ID: **`10477292250`**;
-- size: **`143,833 B`**;
-- archive SHA-256: **`76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`**;
-- independently downloaded/rehashed SHA-256: same value.
+## Reusable learning / placement boundary
 
-No new Runtime artifact was manufactured merely to restate downstream evidence; the candidate bytes are intentionally unchanged.
+Bounded reusable Runtime rule:
+
+> **After physical texture density, island pixel extents and required dilation are fixed, measure the padded occupied bounds before accepting atlas dimensions as runtime cost. Right-size only unused receiving extent, preserve surface texels and material semantics, re-normalize UVs to the receiving texture dimensions, prove the real renderer memory delta, and keep even sub-visible raster differences under independent Art/QA review.**
+
+This is stronger than simply saying “use a smaller texture,” because it preserves the current visual-density decision and source-owned surface identities while removing only proved-unused capacity.
+
+It remains **Object-local evidence**. One atlas does not justify an automatic universal non-power-of-two packing transform in UC or Profession Fabric.
 
 ## Handoffs
 
-- **Runtime PR #27:** PR body advanced from stale current-receiver HOLD to the current merged-receiver state while preserving the old incompatibility as history; current decision recorded in comment `5710311405`.
-- **Technical Art PR #3:** receives the narrowed Runtime state in comment `5710312952`; this is explicitly **not** a producer-adoption request.
-- **Art Direction / Visual Observer QA:** current handoff remains the exact 224-pixel / max-1-LSB real-Godot tradeoff. No visual decision is assumed.
-- **UC:** no new product change requested; merged receiver compatibility is consumed as evidence only.
-- **Rigging:** its all-key deformation proof is consumed without transferring Rigging authority into Runtime.
+- **Runtime PR #29:** exact measured result, evidence identity and visual HOLD are recorded in the PR body.
+- **Materials PR #6:** Runtime handoff recorded in comment `5711006620`, explicitly **not** requesting automatic atlas/UV adoption.
+- **Art Direction / Visual Observer QA:** handoff is the exact four-frame `33 pixels total / max 1 LSB / 0 pixels >1 LSB` tradeoff. Final review authority remains theirs.
+- **Technical Art:** import/transport of any eventually adopted production atlas remains separate; this pass does not pre-approve it.
+- **UC:** unchanged; no optimizer extraction requested.
 
 ## Historical continuity
 
-The complete twenty-ninth Building pass remains preserved in the preceding status version. It showed that the indexed planar-role Building's residual primitive count is not, by itself, evidence of a proof-host slowdown: at 64× and 256× stress the indexed candidate was faster in 35/41 and 38/41 pairs respectively, with 256× paired median `-1.853333 ms`. Runtime therefore kept the target-device gate instead of inventing a topology/LOD rewrite.
+The complete thirtieth Animal pass remains preserved in the preceding status version. It narrowed the normalized-u16 `WEIGHTS_0` candidate after merged UC cleared the old receiver incompatibility while retaining the explicit 224-pixel / max-1-LSB visual HOLD and producer-adoption gate.
 
-The twenty-eighth and twenty-seventh Building passes remain preserved before that: index-before-normal preparation was slower (`832 us -> 981 us`, candidate faster `0/41`), while post-normal indexing retained the substantial storage/buffer win.
+The twenty-ninth Building pass remains preserved before that: its indexed planar-role receiver's higher primitive count was not sufficient evidence of a proof-host slowdown, so Runtime retained the intended-hardware gate instead of inventing another topology rewrite.
 
-The original Animal weight-width HOLD remains preserved in repository and PR history rather than silently rewritten; this pass changes only the **current blocker interpretation** after exact downstream evidence changed.
-
-Earlier Weather, Object, footprint, Animal indexing/joint-width, Building and animation Runtime passes remain historical truth.
+Earlier Building indexing, Animal indexing/joint-width, Weather, Object, footprint and animation Runtime passes remain historical truth and are not silently rewritten here.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- automatic Technical Art producer adoption of normalized-u16 weights;
-- Art Direction or Visual QA acceptance of the 224-pixel / 1-LSB delta;
-- target-device CPU/GPU/FPS improvement;
-- target-device VRAM or heap reduction;
-- import-speed improvement;
-- browser/mobile/console behavior;
-- arbitrary sparse/interleaved glTF safety;
-- arbitrary multi-primitive or multi-skin safety;
-- arbitrary joint/weight layouts;
-- whole-animal readiness;
-- deformed NORMAL/TANGENT direction-frame correctness;
-- collision/physics/gameplay equivalence;
-- UC quantizer extraction or Profession Fabric promotion;
+- final Materials adoption of 512×384;
+- final Art Direction or Visual QA acceptance;
+- final production atlas dimensions or pixels-per-meter;
+- production UV authoring or production texture art;
+- imported texture-compression behavior;
+- arbitrary atlas-layout safety;
+- arbitrary non-power-of-two texture safety on all target platforms;
+- Technical Art transport acceptance;
+- target-device GPU/VRAM/FPS/thermal/battery improvement;
+- browser/mobile/console equivalence;
+- UC extraction or Profession Fabric promotion;
 - CANON;
 - production/game readiness;
 - Runtime / Optimization mastery.
 
 ## Four-root check
 
-**Truth:** the old UC rejection remains explicit historical evidence, while merged UC acceptance is recorded as a later exact fact. Runtime does not call the candidate visually neutral because 224 pixels still change, and it does not claim device performance from storage reduction alone.
+**Truth:** the exact measured 349,528 B renderer texture-memory reduction is recorded together with the nonzero 33-pixel raster delta. Runtime does not call the representation visually identical and does not turn a llvmpipe proof-host result into target-device performance.
 
-**Agency / non-domination:** Runtime owns quantizer and budget evidence only. Technical Art retains producer policy, Art Direction / Visual QA retain visual acceptance, Rigging retains deformation authority, and UC retains neutral receiver semantics.
+**Agency / non-domination:** Runtime owns the memory/budget experiment only. Materials retains atlas/UV production policy, Art Direction and Visual QA retain visual acceptance, Technical Art retains import/transport, and UC remains unchanged.
 
-**Continuity:** the exact Runtime candidate SHA, original artifact, old receiver failure, merged receiver proof and Rigging proof remain separately named. No candidate is regenerated and substituted silently; no previous HOLD is erased.
+**Continuity:** the Runtime PR is stacked exactly on current Materials head `4c12a0a...`; source surface identities, density, padding, material scalars and texel content remain explicit. The previous thirty Runtime passes remain preserved in history.
 
-**Wisdom before speed:** the lane advances only because the exact external blocker changed and was re-proven. Runtime does not turn compatibility into automatic adoption, and it does not reopen unrelated Building or tangent-frame lanes merely to create churn.
+**Wisdom before speed:** the candidate removes only measured unused atlas extent, includes real renderer counters, preserves a fail-closed too-short-atlas control, and stops at Art/QA plus target-device boundaries rather than promoting a global optimizer from one case.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
