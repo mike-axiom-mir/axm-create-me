@@ -1,135 +1,114 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-17
-State: **PASS_OBJECT_RUNTIME_512X384_THROUGH_GENERIC_UC_RECTANGULAR_BUNDLE_TO_REAL_GODOT / UC_PR_182_DRAFT / OBJECT_TECH_ART_PR_28_DRAFT / HOLD_RUNTIME_ADOPTION_TARGET_DEVICE_ART_QA_TANGENT_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_OBJECT_SELECTED_ROUGHNESS_SCALAR_THROUGH_MERGED_UC_ORM_TO_REAL_GODOT / OBJECT_TECH_ART_PR_28_DRAFT_MERGEABLE / UC_PR_182_MERGED / HOLD_RUNTIME_ADOPTION_TARGET_DEVICE_PRODUCTION_TEXTURE_TANGENT_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current specialist status constellation, current Object Technical Art / Runtime / Materials / Art / QA state, and current `axm-universal-creation` before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current specialist constellation, current Object Technical Art / Materials / Runtime / Art / QA state, and current `axm-universal-creation` before selecting work.
 
-`axm-create-me` remains **coordination only**. Product implementation and retained execution evidence stay in owning repositories. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product implementation and retained execution evidence stay in their owning repositories. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Highest-leverage gap / duplication scan
 
-The existing Object Technical Art lane is still PR **#28**. Runtime PR **#29** independently proved a bounded `service_dark` atlas height candidate:
+The existing Object Technical Art lane remains PR **#28**; no duplicate lane was opened.
 
-- Materials authority: **`4c12a0a57f6aa8778cff41efad321e13567c6c91`**;
-- Runtime authority: **`ce23d5edeb0766201cfbaff646dda31544cd8f9c`**;
-- control: **512×512**;
-- candidate: **512×384**;
-- exact required padded extent: **422×382**;
-- candidate spare extent: **90×2**;
-- preserved policy: **500 px/m**, **16 px dilation**, same surface rectangles, same source identities, repeat disabled;
-- modeled full RGBA8 mip-chain saving: **349,528 B / 25.00021457692583%**.
+Materials had advanced `service_dark` beyond Technical Art's earlier neutral roughness transport shim. Exact Materials selected-field authority:
 
-Runtime already owns whether that representation is worth adopting. Technical Art therefore did **not** create another optimizer or another Object transport branch.
+- head: **`0515a2d5ad2c7a1eb545f2b7b327b7367530dfca`**;
+- retained artifact: **`10489059498`**;
+- artifact SHA-256: **`f272d2b55a336640a4271d067c4ee05a0fb8a7dc1402f13350f74a39f24ac99d`**;
+- semantic encoding: **`BASE_LEVEL_R8_SCALAR_VALUES_ROW_MAJOR`**;
+- exact scalar SHA-256: **`b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`**;
+- selected range: **153..183**;
+- exact distinct R8 values: **31**.
 
-The actual integration gap was generic and inside UC: `native_textures.py` already decodes rectangular RGB PNGs, but verified `axm.game-material/v0.1` bundles in `game_material_bridge.py` accepted only one square scalar `size`. That meant the exact Runtime candidate could not enter the otherwise-capable generic UC texture/GLB path.
+Materials owns the response meaning and exact selected scalar field. Runtime owns storage/adoption decisions. Art Direction and Visual Observer QA own final visual acceptance. Therefore Technical Art did not author another roughness model, choose a storage representation, or create an Object-specific UC material policy.
 
-This was the smallest reusable UC receiver gap worth repairing.
+The bounded gap was: prove that the exact Materials-owned scalar identity survives the existing generic verified material bundle -> UC glTF ORM green channel -> real Godot receiver path.
 
-## Smallest reusable UC repair
+## UC state
 
-Created draft UC PR **#182 — `Technical Art: accept explicit rectangular material bundles`**.
+UC PR **#182** is now merged. Current exact UC main consumed by this proof:
 
-Exact UC base:
+**`8eb2fafb329369588198033ea4e14cca4451a6aa`**
 
-**`7f62cda0dd65139366c26bb4e643ed99481f7181`**
+No new UC product change was required for this activation. Current UC already owns the generic verified material bundle, glTF ORM packing/decoding and Godot-target machinery. No Object IDs, roughness response policy, historical PNG format, storage choice, camera rule or adoption threshold was added to UC.
 
-Exact repaired UC head:
+Exact consumed UC blobs retained by the proof include:
 
-**`c8f38b4c3dd0d6183d035147e4816cff6fa6ef82`**
+- `game_material_bridge.py`: `23edf4903cc294defbe08f51f067890f093a8373`;
+- `material_pipeline.py`: `396f2f1f7e4313dd4d3943732dd55a06df814c78`;
+- `native_textures.py`: `f328e81234ffd794de904b2570a873ed23a90dfd`;
+- `procedural_3d.py`: `cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`;
+- `godot_target.py`: `72846b7613b38f7d530500751927ca25d168df9a`.
 
-The change is intentionally limited to three generic UC paths:
+## Smallest reusable Technical Art repair
 
-- `src/axm_uc/game_material_bridge.py`;
-- `src/axm_uc/material_pipeline.py`;
-- `tests/test_game_material_bridge.py`.
+Existing Object Technical Art PR **#28** advanced in place to exact head:
 
-Contract behavior:
+**`1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`**
 
-- legacy square bundles still use `size` unchanged;
-- rectangular bundles may instead declare `dimensions: [width, height]`;
-- exactly one of `size` or `dimensions` is required;
-- each axis remains bounded to **16..512**;
-- every declared map is verified against exact width / height and complete bounded scanline payload;
-- Blender realization consumes verified width / height instead of assuming a square;
-- material quality uses the smaller axis for its minimum-size gate and reports exact dimensions;
-- generated square material recipes are unchanged.
+PR #28 remains **open, draft and mergeable**.
 
-No Object IDs, atlas layout, surface identity, pixels-per-metre policy, padding rule, camera rule, Runtime adoption rule or Art/QA threshold was added to UC.
+The new Object-local evidence path:
 
-UC's full triggered same-head suite is green:
+1. verifies the exact prior square Technical Art transport artifact and exact Materials selected-field artifact by archive digest;
+2. recovers the Materials-owned semantic scalar independently of the historical PNG container;
+3. preserves the previously proven Object source geometry, UVs, base-color transport and neutral AO/metallic transport shims;
+4. writes the exact selected scalar into ORM **green** plus a standalone roughness transport derivative;
+5. sends the verified bundle through current merged UC main;
+6. decodes the emitted GLB with UC's generic texture observer and checks the exact scalar digest on both retained source-surface materials;
+7. reruns the existing Object-local real Godot front-side receiver proof;
+8. rejects a deliberate one-byte scalar mutation before publication.
 
-- Tests — SUCCESS;
-- Actual Godot target verification — SUCCESS;
-- Profession crew verification — SUCCESS;
-- Candidate workspace isolation — SUCCESS;
-- Candidate adoption binding — SUCCESS;
-- Candidate adoption resume — SUCCESS.
+The historical Materials PNG is explicitly evidence, not policy. The bounded receiver accepts only 8-bit non-interlaced L8 or grayscale-equivalent opaque RGBA8 evidence and requires exact recovered scalar identity.
 
-PR #182 remains **open, draft and mergeable**. No merge or CANON claim is made here.
+## Retained failed assumptions
 
-## Existing Object Technical Art lane advanced in place
+Three failed Technical Art runs are intentionally part of the evidence trail rather than hidden:
 
-Object Technical Art PR **#28** was advanced rather than duplicated.
+1. the first observer assumed the historical selected-field PNG was L8; exact evidence showed it is RGBA8 with equal RGB and opaque alpha;
+2. the second observer assumed `bind-textured-asset` returned observer-style `status=PASS`; current UC publisher success is instead `truth_status=VALIDATED_DETERMINISTIC_GLB_ASSET`, `published=true`, with passing pre/post publication validation;
+3. the third observer assumed UC emitted one mesh containing two primitives; current UC correctly preserves the two Object source surfaces as **two meshes with one primitive each**.
 
-Exact Technical Art head:
-
-**`a88ae0baaf75d24ed70ffea7265558056e0a41f7`**
-
-The previous 512×512 proof remains retained and green. Its shared Object-local source-front Godot evidence helper was generalized only enough to accept a bounded transport-result identity and preserve whether the exercised UC product was modified. Default behavior still preserves the earlier unchanged-UC proof.
-
-A new bounded Object Technical Art producer/receiver proof consumes:
-
-- exact Runtime #29 contract/head;
-- exact Materials authority/head and unchanged critical blobs;
-- exact UC PR #182 head;
-- exact Materials padded source atlas reconstructed through the existing owner chain.
-
-The candidate adapter crops only the **top 384 rows** of the exact 512×512 source atlas after Runtime's own padded-extent contract has passed. Pixel coordinates inside retained rows remain unchanged. Because the source diagnostic atlas is fully opaque, the same existing RGBA→RGB transport boundary is applied after proving alpha is uniformly 255.
-
-Neutral normal / ORM / AO / roughness / height companions remain explicit Technical Art transport shims for UC's verified material-bundle contract; they are not Materials content.
+The final repair does not alter those owners. Technical Art records a narrow station-status adapter receipt only after the native UC publication contract is explicitly green, and observes all emitted primitives across the producer-owned mesh structure.
 
 ## Exact cross-repo proof
 
 Dedicated workflow:
 
-**`35202327368 — Object Technical Art runtime-atlas UC transport` — SUCCESS**
+**`35207908611 — Object Technical Art selected roughness semantic UC transport` — SUCCESS**
 
-Every same-head Object companion workflow triggered at `a88ae0ba...` is green:
+Exact result:
 
-- Object Technical Art runtime-atlas UC transport — SUCCESS;
-- Object Technical Art service-dark UC texture transport — SUCCESS;
-- Object hard-surface interface evidence — SUCCESS;
-- Object service-module fit evidence — SUCCESS.
+**`PASS_OBJECT_SERVICE_DARK_SELECTED_ROUGHNESS_SCALAR_TO_CURRENT_UC_TEXTURED_GLB_TO_GODOT_FRONT_VIEWS`**
 
-Exact candidate transport result:
+Selected-field identity after transport:
 
-**`PASS_OBJECT_SERVICE_DARK_RUNTIME_512X384_TO_UC_RECTANGULAR_BUNDLE_TEXTURED_GLB_TO_GODOT_FRONT_VIEWS`**
+- semantic scalar SHA-256: **`b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`**;
+- GLB mesh count: **2**;
+- retained source-surface primitives: **2**;
+- each primitive ORM-green SHA-256: **exact same selected scalar SHA**;
+- each primitive roughness range: **153..183**;
+- each primitive distinct R8 values: **31**;
+- source-surface structure preserved: **true**.
 
-Retained transport measurements:
+Emitted GLB:
 
-- receiving dimensions: **512×384**;
-- maximum required padded extent: **422×382**;
-- spare extent: **90×2**;
-- retained-row RGB channel delta: **0**;
-- source RGBA atlas SHA-256: **`c1bda93316477f0e72422d43d5eb3e1d8cbb0344f3ae64dc1695b51fc2408b66`**;
-- candidate RGB PNG SHA-256: **`a1781bd03c18c94b7973b1cf3f43691dadd6c180da7abf42fc389e7c6b38f1ce`**;
-- rectangular material manifest SHA-256: **`638cad039bbf2201654d12ea68cb0b819675385199afb3c4e379156d87bccfca`**;
-- emitted GLB: **12,016 B**;
-- emitted GLB SHA-256: **`f3fdfea4653919ece79c60e5b6806f6fae2a0436e792281c2d662bfd540e88bf`**.
+- size: **37,140 B**;
+- SHA-256: **`9327291569a04bcb22016dc2ac4292499531b141a19e4bfceb291122e20ac3f4`**.
 
-UC exact receiver observations:
+UC receiver state:
 
-- native geometry and textures: PASS;
-- texture coverage: PASS;
-- UV density: PASS;
-- UV findings: none;
-- lid inner expected density: **498.3171466370374 px/m**;
-- lid inner measured density: **498.31715339156955 px/m**;
-- front service panel expected density: **495.7218906358457 px/m**;
-- front service panel measured density: **495.72194925534416 px/m**.
+- native bind truth status: **`VALIDATED_DETERMINISTIC_GLB_ASSET`**;
+- published: **true**;
+- pre-publish validation: **PASS**;
+- post-publish validation: **PASS**;
+- generic bind observation: **PASS**;
+- generic textured-asset quality: **PASS**;
+- UV status: **MEASURED**;
+- UV findings: **none**.
 
 Real target proof:
 
@@ -143,79 +122,73 @@ Real target proof:
 - target texture bindings decoded: PASS;
 - all target images / asset masks: PASS;
 - visible pixels: **13,910** in each retained source-front view;
-- view-00 channel range: **75**;
-- view-01 channel range: **95**.
+- channel range: **75** and **102**.
 
-## Fail-closed evidence
-
-Two exact negative boundaries are retained in the same workflow:
-
-1. pre-repair UC base `7f62cda0...` rejects the exact rectangular bundle with its legacy square-only material-size contract;
-2. repaired UC rejects an ambiguous manifest that declares both `size` and `dimensions` instead of guessing which field owns authority.
-
-The earlier historical Object target failure with zero visible pixels is also still retained. Its diagnosis remains back-face view selection, not texture failure; the source sidedness was never changed to hide it.
+Negative control: one-byte selected-scalar identity drift is rejected before UC packing/promotion.
 
 ## Retained evidence
 
-Final cross-repo artifact:
+Final artifact:
 
-- artifact ID: **`10488393791`**;
-- name: `object-service-dark-runtime-atlas-uc-transport-a88ae0baaf75d24ed70ffea7265558056e0a41f7`;
-- uploaded size: **105,027 B**;
-- GitHub SHA-256: **`57e81887de193462c0641226b299711da121fc341b1857333d5b898ddbd90b14`**;
+- artifact ID: **`10490650986`**;
+- name: `object-service-dark-selected-roughness-semantic-uc-transport-1bcdbae786e02f3ca46a89e4e0ff608d74f364b4`;
+- uploaded size: **215,677 B**;
+- GitHub SHA-256: **`0e24efcbfefb129ef24c153b50020ac321a9789dbf8c148794dfc45f5c9f5f90`**;
 - independently downloaded / rehashed SHA-256: **same value**;
-- retained files: **42**.
+- retained files: **40**.
 
-The archive includes exact Technical Art / Runtime / UC identity pins, the exact Runtime donor contract and rebuilt receipt, source Materials contracts/payload/atlas, rectangular RGB crop receipt, verified rectangular UC bundle, surface specification, GLB, UC quality report, pre-repair rejection log, ambiguous-manifest rejection log, real Godot request/report/worker evidence, two render captures and coverage masks, and final target receipt.
+The archive contains exact Technical Art / UC identity pins, exact prior Technical Art and Materials artifact checks, Materials selected-field contract/payload/runtime receipt/historical image, exact bundle, standalone roughness derivative, ORM texture, source-surface specification, GLB, UC quality evidence, native-station adapter receipt, scalar mutation rejection, real Godot request/report/worker output, renders/masks and final target receipt.
+
+## Prior continuity retained
+
+The earlier Object 512×384 Runtime-candidate -> generic rectangular UC bundle -> Godot proof remains valid and retained as prior evidence. UC PR #182's merged rectangular bundle machinery remains generic. Runtime still owns whether that 512×384 representation is worth adopting; this activation did not reopen or duplicate that lane.
+
+The earlier Building boundary also remains unchanged: source-intent identity and Godot consumer indexing are distinct, and byte-exact post-index normal transport remains a separate truth boundary.
 
 ## Coordination handoffs
 
-Current evidence was returned to:
+Current evidence returned to:
 
-- Object Technical Art PR #28: comment **`5711726696`**;
-- UC PR #182: comment **`5711728247`**;
-- Object Runtime PR #29: comment **`5711729876`**;
-- Object Materials PR #6: comment **`5711731265`**.
+- Object Technical Art PR #28: comment **`5712459749`**;
+- Object Materials PR #6: comment **`5712461803`**;
+- merged UC PR #182: comment **`5712463463`**.
 
-No competing Runtime, Materials, Procedural, Art or QA lane was opened.
+No competing Materials, Runtime, Procedural, Art or QA lane was opened.
 
 ## Authority / truth boundary
 
 - **Object Geometry / Hard Surface** owns source geometry and surface identity.
-- **Object Materials / Lookdev** owns material meaning, source atlas policy/content, surface rectangles, density and padding policy.
-- **Object Runtime** owns the 512×384 candidate policy, performance interpretation, adoption decision and target-device requirements.
-- **Technical Art** owns cross-repo receiving adaptation, coordinate/material transport plumbing, target-specific evidence views, exact receiver binding and retained integration receipts.
-- **UC** owns only the generic verified material/texture/GLB/target machinery. PR #182 adds generic rectangular bundle representation; it does not learn Object atlas semantics.
-- **Art Direction / Visual Observer QA** own final visual preference and independent acceptance, including Runtime #29's previously reported **33 changed pixels / maximum 1 LSB** tradeoff.
+- **Object Materials / Lookdev** owns material meaning, selected roughness scalar identity and response envelope.
+- **Object Runtime** owns storage representation, memory/performance interpretation and adoption decisions.
+- **Technical Art** owns receiver adaptation, exact material/channel transport, target evidence plumbing and retained cross-repo integration receipts.
+- **UC** owns only generic verified material/texture/glTF/target machinery.
+- **Art Direction / Visual Observer QA** own final visual preference and independent visual acceptance.
 
 ## Explicit non-claims / remaining holds
 
 This PASS does **not** establish:
 
-- production adoption of the 512×384 Runtime candidate;
-- target-device performance or memory behavior beyond Runtime's proof host;
-- Art Direction acceptance of the 33-pixel / max-1-LSB candidate tradeoff;
-- final independent Visual QA acceptance of that candidate;
-- production UV adoption;
+- Runtime adoption of L8, 512×384 or any other production storage choice;
+- target-device performance or memory acceptance;
 - production texture authorship/adoption;
+- production UV adoption;
 - tangent-space production quality or normal-map equivalence;
-- arbitrary rectangular bundle / platform support outside the bounded UC contract;
-- arbitrary Object atlas repacking or automatic atlas-size selection;
-- automatic UC promotion or merge;
+- final Art Direction acceptance of the selected field in production context;
+- final independent Visual QA acceptance;
+- arbitrary Object material transport outside the bounded proof;
+- automatic UC material policy selection;
 - CANON;
 - Profession Fabric promotion;
 - production/game readiness;
 - Technical Art / UC Integration mastery.
 
-The earlier Building boundary remains unchanged: Hard Surface source-intent identity and Godot consumer indexing remain distinct, and byte-exact post-index normal transport remains a separate truth boundary.
-
 ## Four-root gate
 
-- **Truth:** the square-only UC receiver mismatch was reproduced directly; pre-repair rejection and repaired acceptance are both retained, and ambiguous ownership fails closed.
-- **Agency / non-domination:** Runtime keeps the adoption decision; Materials keeps atlas meaning; Art/QA keep visual judgment; Technical Art does not turn a transport PASS into a production decision.
-- **Continuity:** existing Object PR #28 was advanced in place, the original 512×512 proof still passes on the same final head, old failures remain retained, and legacy square UC bundles stay supported.
-- **Wisdom before speed:** the repair is three generic UC files plus bounded Object evidence plumbing; no automatic repacker, Object-specific UC policy or duplicate specialist lane was introduced.
+- **Truth:** three wrong receiving assumptions were allowed to fail and were retained; the final proof binds exact donor identities, exact UC main, exact scalar digest, exact emitted GLB and a real target observation.
+- **Agency / non-domination:** Materials keeps roughness meaning; Runtime keeps storage/adoption; Art/QA keep final visual judgment; Technical Art does not convert transport success into product acceptance.
+- **Continuity:** existing Object PR #28 and existing real-Godot evidence helper were advanced in place; prior 512×512 and 512×384 proofs remain retained; merged UC behavior is consumed rather than silently reimplemented.
+- **Wisdom before speed:** the repair is a bounded Object-local evidence adapter around existing generic UC contracts; no Object roughness semantics were centralized into UC and no duplicate specialist lane was opened.
 
 ## Current state
 
-`PASS_OBJECT_RUNTIME_512X384_TO_GENERIC_UC_RECTANGULAR_BUNDLE_TO_REAL_GODOT / OBJECT_PR_28_HEAD_A88AE0BA_DRAFT_MERGEABLE / UC_PR_182_HEAD_C8F38B4C_DRAFT_MERGEABLE / WORKFLOW_35202327368_SUCCESS / ARTIFACT_10488393791_SHA_57E81887 / MATERIALS_HEAD_4C12A0A5 / RUNTIME_HEAD_CE23D5ED / UC_BASE_7F62CDA0 / RECEIVING_512X384 / PADDED_EXTENT_422X382 / RGB_DELTA_0 / GLB_SHA_F3FDFEA4_12016B / TEXEL_DENSITY_LID_498.317153_FRONT_495.721949 / GODOT_4.7.2_X11_GL_COMPATIBILITY / 13910_VISIBLE_PIXELS_EACH_VIEW / PRE_REPAIR_REJECTED / AMBIGUOUS_DIMENSIONS_REJECTED / HOLD_RUNTIME_ADOPTION_TARGET_DEVICE_ART_QA_TANGENT_CANON_PRODUCTION_READINESS / COORDINATION_ONLY`
+`PASS_OBJECT_SELECTED_ROUGHNESS_SCALAR_TO_MERGED_UC_ORM_TO_REAL_GODOT / OBJECT_PR_28_HEAD_1BCDBAE7_DRAFT_MERGEABLE / UC_MAIN_8EB2FAFB_PR182_MERGED / MATERIALS_SELECTED_HEAD_0515A2D5 / SCALAR_SHA_B8D13C07_RANGE_153_183_VALUES_31 / WORKFLOW_35207908611_SUCCESS / ARTIFACT_10490650986_SHA_0E24EFCB_215677B_40_FILES / GLB_SHA_93272915_37140B / TWO_SOURCE_SURFACE_MESHES_TWO_PRIMITIVES / GODOT_4.7.2_X11_GL_COMPATIBILITY_13910_VISIBLE_PIXELS_EACH_VIEW / ONE_BYTE_SCALAR_DRIFT_REJECTED / HOLD_RUNTIME_ADOPTION_TARGET_DEVICE_PRODUCTION_TEXTURE_TANGENT_ART_QA_CANON_PRODUCTION_READINESS / COORDINATION_ONLY`
