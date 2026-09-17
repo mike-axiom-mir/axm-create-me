@@ -1,274 +1,179 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-17
-State: **PASS_DIRECT_TIMED_CAPTURE_FRAME_IDENTITY_AND_RETAINED_SPATIAL_NONCORRUPTION / FAIL_DIRECT_CAPTURE_RUN_AS_TIMING_PROXY_FOR_CLEAN_NO_CAPTURE_REFERENCE / BLOCKED_FINAL_NATURE_FLUTTER_PERCEPTUAL_TIMING__LOW_INTRUSION_OR_EXTERNAL_CAPTURE_TARGET_DEVICE_AND_ART_DIRECTION_PENDING**
+State: **PASS_CURRENT_WORLD_INDEXED_BUILDING_PLANAR_ROLE_RETAINED_VISUAL_NONCORRUPTION / PASS_BUILDING_PLANAR_ROLE_POST_NORMAL_INDEXING_NO_SIGNIFICANT_RETAINED_RASTER_REGRESSION / BLOCKED_DEFAULT_BUILDING_PLANAR_ROLE_ADOPTION__TARGET_DEVICE_RESIDUAL_PRIMITIVE_COST_TECHNICAL_ART_AND_ENVIRONMENT_ROLLBACK_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current Art Direction / Environment / VFX / Animation / Materials / Runtime / Technical Art state, exact open PR state and newest retained target-host evidence before selecting one bounded independent QA gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current Art Direction, Environment, Runtime and newest open constellation state before choosing one bounded independent QA gate.
 
-`axm-create-me` remains **coordination only**. Visual QA changed no Map, Nature, Weather, Building, Object, Animal, Universal Creation, Profession Fabric, gameplay or product implementation.
+`axm-create-me` remains **coordination only**. Visual QA changed no Map, Building, Materials, Runtime, Technical Art, Universal Creation, gameplay or product implementation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Continuity from previous QA gate
 
-The preceding QA activation at coordination commit `90e1707afaecea0df8c81d3963772338e023a703` remains historical truth:
+The preceding Nature direct-capture gate remains historical truth for its exact VFX evidence:
 
-- clean no-capture Nature wall-clock reference at VFX head `795d9e8862e895e506c756b9ea01cd6228fa7ab7`;
-- `92 / 96` scheduled direct-source slots presented on the proof host;
-- literal full `32 Hz` direct-source delivery failed on that exact run;
-- final perceptual timing stayed blocked because the retained artifact had timing identity but no direct timed visual capture.
+- direct timed PNG identity and retained spatial noncorruption passed;
+- synchronous viewport readback materially changed delivered timing versus the clean no-capture reference;
+- final Nature perceptual timing remains blocked pending lower-intrusion/external capture, target-device evidence and Art Direction.
 
-That activation explicitly requested the smallest next evidence improvement: direct timed visual capture of the exact no-retime reference while preserving source identity and source-drop truth.
+No Nature acceptance is transferred into this Building gate.
 
 ## Fresh constellation / duplication scan
 
-The strongest newly completed unverified visual/runtime claim is now the exact successor produced on Map VFX PR #35:
+The strongest newly completed unverified visual/runtime handoff is now the **indexed Building planar-role current-world receiver** on Map Environment PR #24.
 
-- direct post-draw PNG capture exists for the exact accepted Nature flutter source and current-world receiver;
-- every retained frame is bound to presented slot / cycle / source phase;
-- the VFX owner explicitly reports that synchronous viewport readback materially perturbs delivery and does **not** claim the instrumented run is a faithful timing proxy for the clean reference.
+Art Direction independently prefers the planar-role receiver over both the active segmented receiver and compact-v2 in the retained views, and separately reports no Art-significant degradation from Runtime's post-normal per-surface indexing. Art explicitly held default adoption for independent QA, residual primitive cost and Technical Art.
 
-This outranks other ready QA surfaces for this activation because it directly answers the previous QA blocker and was the newest cross-owner handoff.
+Environment then advanced the same PR to exact head `038925282240441c475651bdc3737d1749c31d06`, binding Runtime's indexed receiver into the full current-world review path and re-gating inherited Weather source-width continuity. The dedicated exact-head workflow completed successfully.
 
-Other current surfaces were inspected and not duplicated:
-
-- Environment PR #24 now has a source-owned Building planar-role current-world receiver at head `b758f9ca...`, with exact active/compact comparators and much smaller proof-host cost than compact-v2; it remains a separate next QA candidate.
-- Building compact-v2 retains Art Direction preference but remains held on cost / exact adoption.
-- Object Animation now has actual `AnimationPlayer.play()` wall-clock captures but retains complete-40-Hz / perceptual holds; separate lane.
-- Object Materials has a source-bound panel UV diagnostic; no production UV adoption claimed.
-- Animal keeps transported deformed direction-frame adoption held.
-- Character remains upstream-held by sampled shoulder intersections.
-
-No duplicate VFX, Environment, Runtime, Animation, Materials, Technical Art or Art implementation lane was opened.
+Other active surfaces were scanned and not duplicated: Nature perceptual timing remains its own capture problem; Animal transported deformed direction frames remain held; Character retains nonzero sampled shoulder intersections; Object has active source-owned articulation/material lanes; UC's indexed-surface observer remains read-only capability evidence rather than Building adoption authority.
 
 ## Exact reviewed identity
 
 Repository: `mike-axiom-mir/axm-map-design`
 
-VFX PR: **#35 — `VFX: characterize current-world Nature flutter wall-clock playback`**
+PR: **#24 — Environment current-world convergence lane**
 
-Exact current PR head:
+Exact reviewed Environment head:
 
-`b56349f4e5a5335b73f39ec32af28dd81f0f6b24`
+`038925282240441c475651bdc3737d1749c31d06`
 
-PR state at review:
+PR state at review: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-**OPEN / DRAFT / UNMERGED / MERGEABLE**
+Exact representation:
 
-Exact accepted Nature source effect:
+`boundary-only-planar-role-rectangle-render-001`
 
-`ecade64227ba1d3d1faf029ca7188ea63c2560ec`
+Pinned owners/donors:
 
-Exact accepted current-world receiver:
+- Building Hard Surface: `93f22e4eeb9bb32516d4b11f8d8bcf47d9792910`;
+- Building Materials: `4179aa1401f5a9114399e2f998c96809d4b8ed2e`;
+- unindexed planar-role Environment parent: `b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464`;
+- Runtime indexing donor: `8d5860c308c244d314ede5b79021e46f35c4040d`;
+- active segmented rollback head: `7713cbe5863c3bc38dabb6236eb4b393401224b6`.
 
-`7713cbe5863c3bc38dabb6236eb4b393401224b6`
-
-Exact clean no-capture reference head:
-
-`795d9e8862e895e506c756b9ea01cd6228fa7ab7`
-
-Presentation contract remains:
-
-`PHASE_LOCKED_LATEST_DUE_DIRECT_SOURCE_STATE_NO_RETIME`
-
-Capture mode under review:
-
-`DIRECT_POST_DRAW_VIEWPORT_READBACK__PNG_ENCODING_DEFERRED_UNTIL_TIMED_WINDOW_END`
-
-Target host:
-
-Godot `4.7.2` / GL Compatibility / X11 proof path.
+Target host: Godot `4.7.2` / GL Compatibility proof path.
 
 ## Exact retained evidence and independent hashing
 
-Direct timed capture artifact:
+Current indexed Environment artifact:
 
-- ID `10481510245`;
-- owner SHA-256 `31d84e4a3870d9afaf49bc12c5da8ced386e6db2dedb058ff15d159cc05bca96`;
-- independently downloaded and rehashed by Visual QA to the exact same digest;
-- `60` retained PNGs: `58` scheduled-state captures plus `2` endpoint witnesses.
+- ID `10482542600`;
+- independently downloaded/rehashed SHA-256 `6661e96c1c766ed799ad80b177a4faaeb57c0fefd8e892ac7cdc03beb731c0bb`;
+- exact `68` retained PNGs over `17 states × 2 cameras × 2 Weather presentation modes`.
 
-Clean no-capture timing artifact:
+Comparators independently downloaded/rehashed:
 
-- ID `10479554477`;
-- independently rehashed SHA-256 `499f364a77a0e145826ea8998fced8550361ab02e18beb244ae36956e0431d8a`.
+- unindexed planar-role artifact `10481340680` -> `96d6bd6a0ed6e6edb0fc129484dd02769f7fd13952ad1a7eabeda8ffe681ee74`;
+- active current-world artifact `10478624997` -> `064388110840c8034fe359bd47db1ceacfb3ed9ade3e56bb03e3210b49de761f`;
+- compact-v2 current-world artifact `10480305129` -> `2d1b747ae9eacf9ee0eb3754ba8fcd27f367e3edf77c3f6a66d700871ff83b94`;
+- prior Runtime indexed artifact `10481695338` -> `5fc6c2e820e6afa8ebade7dad87232d198d3aa7b695e02d64774ba6aa75d349a`.
 
-Prior sampled visual artifact:
+All `68 / 68` current Environment indexed PNGs are byte-identical to the prior exact Runtime indexed PNGs. The Environment successor therefore strengthens the receiving gate without introducing a new raster result.
 
-- ID `10478103666`;
-- independently rehashed SHA-256 `0f7343c5e9c172b5816709cb7121aa44a91838962b51cbf0fa46b1c43565ddea`.
+## Independent indexing-delta reproduction
 
-Accepted split-cull parent:
+Against the exact unindexed planar-role receiver across all 68 matched frames:
 
-- ID `10477476774`;
-- independently rehashed SHA-256 `db67e657dcecb044e7e46b1aeedadc71fcb907c9c3720045f20a753de885f689`.
+- changed pixels: `24..55` per frame;
+- pixels exceeding `1 LSB`: **0 / 68 frames**;
+- maximum channel delta: exactly **1 LSB**;
+- `path_eye`: `54..55` changed pixels/frame;
+- `elevated_oblique`: `24..25` changed pixels/frame.
 
-## Independent frame-identity reproduction
+The sparse one-LSB differences localize to rasterized Building highlight/edge pixels. Enlarged comparison shows no silhouette, material-role, topology or hierarchy change attributable to indexing.
 
-Visual QA recomputed every retained PNG digest from the downloaded direct artifact.
+This is **not** called byte-identical neutrality.
 
-Result:
+## Independent planar-role current-world stability reproduction
 
-- manifest hash mismatches: **0 / 60**;
-- repeated captures of the same source phase inside each camera: **byte-identical across cycles**;
-- phase `16` endpoint witness: **byte-identical to phase `00`** in both cameras;
-- direct phase `00`: **byte-identical to the prior accepted sampled phase-00 frame** in both cameras.
+The planar-role receiver is intentionally a materially different visual representation from active segmented and compact-v2; QA does not relabel it as continuity-equivalent.
 
-Direct unique source-phase coverage:
+Against active segmented:
 
-- `path_eye`: 15 unique repeating phases observed — `0,1,2,3,5,6,7,8,9,10,11,12,13,14,15`;
-- `elevated_oblique`: 10 unique repeating phases observed — `0,1,3,5,7,9,11,13,14,15`.
+- `path_eye`: exactly `25,951` changed pixels and `24,892` pixels >1 LSB in every state/mode; maximum channel delta `179 LSB`;
+- `elevated_oblique`: `14,586..14,588` changed pixels and `13,864..13,869` pixels >1 LSB; maximum channel delta `166 LSB`.
 
-Therefore the direct image identity claim is independently reproduced for what was actually captured. Missing phases are not silently inferred as captured.
+The >1-LSB Building difference mask is **bit-identical across all 17 path-eye states** in both Weather modes. In elevated-oblique, mask intersection/union remains above `99.92%`, with at most `10` XOR pixels versus state 0.
 
-## Independent spatial visual inspection
+Against compact-v2:
 
-Every retained direct frame was inspected through exact phase identity, full-frame difference localization and enlarged foliage review.
+- `path_eye`: `18,717..18,718` changed pixels, `17,108..17,110` >1 LSB, maximum channel delta `175 LSB`;
+- `elevated_oblique`: `13,508..13,514` changed pixels, `12,596..12,599` >1 LSB, maximum channel delta `172 LSB`.
 
-Against each camera's exact direct phase-00 frame, all >1-LSB phase-dependent deltas remain localized to the animated sapling / cast-shadow region:
+Significant-mask stability remains above `99.98%` path-eye and above `99.95%` elevated-oblique, with at most `6` XOR pixels versus state 0.
 
-### `path_eye`
+This strongly supports a static receiver-specific raster difference rather than a state-dependent highlight-pop or Weather-confounded defect.
 
-- union changed bbox: `x=0..276, y=84..478`;
-- non-neutral phase changed-pixel range: `1,622..3,344` pixels >1 LSB;
-- broader Building, Object, route and world remain unchanged above the same threshold.
+## Direct retained-view inspection
 
-### `elevated_oblique`
+Representative states `0 / 8 / 16` were reviewed enlarged in both exact cameras, with the full 17-state candidate sequence also inspected as contact sheets.
 
-- union changed bbox: `x=368..545, y=138..314`;
-- non-neutral phase changed-pixel range: `1,293..2,329` pixels >1 LSB;
-- broader scene remains unchanged above the same threshold.
+No retained-view Building hole, missing face, clipping loss, camera-specific disappearance, hard-edge discontinuity, material-role collapse, or state-dependent highlight pop attributable to the indexed planar-role receiver was reproduced.
 
-Direct inspection reproduces the intended small foliage response and associated moving cast shadow. No new retained-view culling hole, detached crown mass, geometry wedge, clipping loss, Building/Object mutation, route mutation or broad scene rewrite was found.
+The visual language is visibly different: active segmented retains tube-like white highlight bands; compact-v2 reduces that effect; planar-role presents broader, straighter manufactured faces and a calmer frame hierarchy. QA records that difference without taking Art Direction's preference authority.
 
-This is a spatial noncorruption result for the **instrumented direct-capture run only**. It is not naturalness or smoothness acceptance.
+## Inherited Weather isolation
 
-## Independent timing-fidelity comparison
+The current exact Environment successor also retains the source-width Weather gate. Visual QA independently recomputed from the retained runtime receipt:
 
-Visual QA independently parsed both the clean no-capture runtime receipt and the new direct-capture runtime receipt.
+- projected-width observations: `1,224`;
+- maximum residual: `0.00974698571769128 px`;
+- existing gate: `0.05 px`.
 
-### Clean no-capture reference
-
-Overall:
-
-- scheduled: `96`;
-- presented: `92`;
-- skipped: `4`;
-- coverage: **95.8333333333%**.
-
-`path_eye`:
-
-- `47 / 48` presented;
-- mean post-draw interval: `32.0634565 ms`;
-- one skipped source slot.
-
-`elevated_oblique`:
-
-- `45 / 48` presented;
-- mean post-draw interval: `33.7925909 ms`;
-- three skipped source slots.
-
-### Synchronous direct-capture run
-
-Overall:
-
-- scheduled: `96`;
-- presented/captured: `58`;
-- skipped: `38`;
-- coverage: **60.4166666667%**.
-
-`path_eye`:
-
-- `33 / 48` presented;
-- mean post-draw interval: `46.69475 ms`;
-- `15` double-slot advances across `32` observed transitions;
-- mean cadence is about **1.456x** the clean-reference mean interval.
-
-`elevated_oblique`:
-
-- `25 / 48` presented;
-- mean post-draw interval: `61.6454167 ms`;
-- `21` double-slot advances plus `1` triple-slot advance across `24` observed transitions;
-- mean cadence is about **1.824x** the clean-reference mean interval.
-
-The instrumented run loses **35.4167 percentage points** of source-slot coverage relative to the clean reference.
-
-The direct images are therefore valid visual evidence for the stream that was actually instrumented, but that stream is materially different from the clean `92 / 96` reference. Visual QA does not collapse these two streams into one timing claim.
+The Building review therefore does not depend on silently dropping the inherited Weather-width contract.
 
 ## QA verdicts
 
-### PASS — direct frame identity + retained spatial noncorruption
+### PASS — retained current-world visual noncorruption
 
-**`PASS_DIRECT_TIMED_CAPTURE_FRAME_IDENTITY_AND_RETAINED_SPATIAL_NONCORRUPTION`**
-
-Exact meaning:
-
-> At exact VFX head `b56349f4e5a5335b73f39ec32af28dd81f0f6b24`, every retained direct PNG independently matches its manifest digest, repeated same-phase captures are byte-identical within each fixed camera, phase-16 returns exactly to phase-00, and all observed phase-dependent visual change remains localized to the intended sapling / shadow region with no reproduced broad current-world corruption.
-
-### FAIL — direct-capture run as timing proxy for the clean reference
-
-**`FAIL_DIRECT_CAPTURE_RUN_AS_TIMING_PROXY_FOR_CLEAN_NO_CAPTURE_REFERENCE`**
+**`PASS_CURRENT_WORLD_INDEXED_BUILDING_PLANAR_ROLE_RETAINED_VISUAL_NONCORRUPTION`**
 
 Exact meaning:
 
-> The synchronous capture run cannot be used as a faithful temporal proxy for the earlier clean no-capture stream. Coverage changes from `92 / 96` to `58 / 96`, and mean post-draw cadence grows materially in both cameras. The direct PNGs describe the instrumented stream, not the clean reference's delivered timing.
+> At Environment head `038925282240441c475651bdc3737d1749c31d06`, the exact indexed planar-role Building remains fully visible and structurally coherent in the retained 68 current-world observations, with no reproduced hard-edge, hole, clipping, material-role, camera-specific or state-dependent visual regression attributable to the receiver.
 
-This FAIL is against the **measurement-proxy inference**, not against the Nature source effect.
+### PASS — indexing introduces no significant retained raster regression
 
-### BLOCKED — final perceptual timing / naturalness
+**`PASS_BUILDING_PLANAR_ROLE_POST_NORMAL_INDEXING_NO_SIGNIFICANT_RETAINED_RASTER_REGRESSION`**
 
-**`BLOCKED_FINAL_NATURE_FLUTTER_PERCEPTUAL_TIMING__LOW_INTRUSION_OR_EXTERNAL_CAPTURE_TARGET_DEVICE_AND_ART_DIRECTION_PENDING`**
+Exact meaning:
 
-Reasons:
+> Relative to the exact unindexed planar-role parent, post-normal per-surface indexing changes only 24..55 pixels/frame, never exceeds 1 LSB in any retained pixel, and reproduces the same 68 PNGs already retained by the Runtime donor evidence. The result is bounded retained-view QA, not byte-identical equivalence or arbitrary-view safety.
 
-1. the clean no-capture stream still has no direct visual capture with matching delivery behavior;
-2. synchronous viewport readback materially changes source-slot coverage / cadence;
-3. the direct-capture stream contains many double-phase advances and one triple-phase advance;
-4. `frame_post_draw` remains distinct from display scanout;
-5. target-device timing / performance is still absent;
-6. Art Direction owns final motion preference.
+### BLOCKED — default adoption
 
-## Handoffs
+**`BLOCKED_DEFAULT_BUILDING_PLANAR_ROLE_ADOPTION__TARGET_DEVICE_RESIDUAL_PRIMITIVE_COST_TECHNICAL_ART_AND_ENVIRONMENT_ROLLBACK_PENDING`**
 
-### Map VFX PR #35
+Remaining gates:
 
-No source retune, interpolation, filtering or amplitude change is requested from this QA result.
+1. Runtime still owns the exact residual `+180` RenderingServer primitives versus active segmented, despite indexed proof-host buffer memory being `-8,304 B` versus active;
+2. target-device CPU/GPU/FPS/VRAM/heap behavior remains unmeasured;
+3. Technical Art transport/import equivalence remains unproven if the representation leaves the procedural Godot receiver path;
+4. Environment still owns the actual default/rollback decision; active segmented remains the explicit rollback/default baseline.
 
-Preserve both exact streams:
+## Handoff
 
-1. clean no-capture `92 / 96` timing reference;
-2. direct-capture `58 / 96` visual-identity run.
+Map Environment PR #24 received the independent QA verdict on exact head `038925282240441c475651bdc3737d1749c31d06` as review `5231785719`.
 
-The smallest next timing evidence improvement is a **lower-intrusion asynchronous or external capture path** with exact source-slot/frame identity, then compare its coverage/cadence to the clean reference before using it for perceptual timing review.
-
-### Art Direction
-
-The new direct PNGs are safe to inspect for spatial response, but do not infer clean-reference naturalness from their playback cadence. The instrumented run is a different delivery stream.
-
-### Runtime
-
-The slowdown is proof-instrumentation evidence, not target-device performance characterization. No FPS/CPU/GPU/VRAM/thermal/battery verdict transfers.
-
-### Building planar-role candidate
-
-Environment head `b758f9ca006ec5885ff1c2c52e2fb09e9ccdd464` remains a high-priority next independent Visual-QA surface. No Building acceptance is transferred from this Nature result.
+No geometry, materials, lighting or scalar compensation is requested from QA. Preserve active segmented as rollback until the remaining non-QA gates close.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- perceptual naturalness or smoothness of the clean no-capture reference;
-- that the instrumented drop pattern equals the clean-reference drop pattern;
-- display scanout / monitor timing;
-- target-device FPS / CPU / GPU / VRAM / memory / thermal / battery behavior;
-- a need for retiming, interpolation, temporal filtering or amplitude change;
-- arbitrary camera / FOV / resolution / renderer equivalence;
-- final shaded-backface material response beyond the retained accepted receiver;
-- physical wind / plant biomechanics / aerodynamics;
-- gameplay / collision / damage / interaction;
-- Building planar-role QA acceptance;
+- byte-identical indexing neutrality;
+- arbitrary cameras, FOVs, resolutions or renderer equivalence;
+- target-device CPU/GPU/FPS/VRAM/heap acceptance;
+- acceptability of the residual `+180` primitive cost on target hardware;
+- Technical-Art transport/import equivalence;
+- UV/tangent/texture/normal-map/decal equivalence;
+- collision, navigation, physics, manufacturing or gameplay validity;
+- architectural correctness;
+- final Nature flutter perceptual timing;
 - Animal transported direction-frame resolution;
 - Character shoulder-intersection freedom;
 - CANON;
@@ -277,9 +182,9 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** exact frame identity, spatial noncorruption, clean-reference timing and capture-perturbed timing remain four separate facts; no stream is substituted for another.
-- **Agency / non-domination:** VFX owns capture/presentation implementation, Nature owns source effect, Environment owns composition, Art Direction owns preference, Runtime owns target-device cost/performance, and QA owns bounded independent verification only.
-- **Continuity:** exact source head, accepted receiver, clean timing head, direct-capture head, all artifact digests and the preceding QA commit remain pinned and rollbackable.
-- **Wisdom before speed:** keep the accepted source untouched, accept the useful direct visual evidence, reject the false timing-proxy inference, and improve observation before changing motion.
+- **Truth:** the planar-role raster change is large and intentional; the indexing delta is small but real; the storage win and `+180` primitive residual remain separate facts.
+- **Agency / non-domination:** QA verifies bounded evidence only. Art Direction keeps preference; Hard Surface keeps representation intent; Materials keep surface values; Environment keeps adoption/rollback; Runtime keeps cost/performance; Technical Art keeps transport.
+- **Continuity:** active segmented, compact-v2, unindexed planar-role and indexed planar-role remain separately named, pinned and rollbackable; previous Nature QA remains historical evidence for its own exact state.
+- **Wisdom before speed:** accept the strong retained-view QA result without converting proof-host raster evidence into target-device, transport or production claims.
 
 The four AXM roots remain the merge gate.
