@@ -1,7 +1,7 @@
 # 06 — Rigging & Deformation Specialist Status
 
 Date: 2026-09-17
-State: **PASS_TRANSPORTED_SKINNED_POSITION_EQUIVALENCE / HOLD_DEFORMED_NORMAL_TANGENT_EQUIVALENCE / ANIMATION + RUNTIME + SHADED VISUAL HELD**
+State: **PASS_POST_SKIN_OWNER_FRAME_RECONSTRUCTION / STATIC_DIRECTION_TRANSPORT_HOLD_PRESERVED / TECHNICAL-ART ADOPTION + ANIMATION + RUNTIME + SHADED VISUAL HELD**
 
 ## Current activation
 
@@ -13,33 +13,34 @@ The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Cont
 
 ## Constellation / duplication scan
 
-The highest-leverage fresh Rigging-owned gap was not another weighting profile, source-form edit or articulation rule. It was the exact receiver boundary between the already-proven Animal Rigging tangent owner and the already-retained Technical-Art GLB.
+The prior Animal transport audit exposed a precise unresolved Rigging-owned receiver question rather than a reason to invent another weighting profile or articulation rule. Technical Art had consumed the exact Rigging HOLD without weakening it, and Art Direction explicitly requested that any correction/reconstruction preserve the already-green position/UV/tangent-W identity and compare against the same Rigging owner frame.
 
-- **Animal Rigging PR #22** remains the exact structural deformed-tangent owner at `63c65d57fda0595217f86d971ff8c67f256188be`.
-- **Animal Geometry PR #20** remains the exact structural 42-source → 84-render UV/normal/tangent basis owner at `ca4bb8a2f144231f8755eacc980785d1807b79db`.
-- **Animal Technical Art PR #3** at exact retained transport head `4649d144841fbd1f3f43e9c7deb6f37b91fbd93d` already transported that basis, `smoothstep-v0` skin and 41 authored keys into a retained GLB, while explicitly holding deformed tangent-frame equivalence.
-- **Animal Materials PR #24** is a separate Godot tangent-space shaded diagnostic lane stacked on Rigging #22; its own workflow is green, but it explicitly does not grant final visual / Art Direction / Visual-QA acceptance.
-- **Animal Animation PR #5** remains Animation-owned and continues to move independently; Rigging did not retime, reauthor or accept its clip/playback/interpolation semantics.
-- **Animal Runtime PR #23** is a separate 84-render-vertex indexed-storage lane; no Runtime/controller/performance acceptance transfers into Rigging.
+- **Animal Rigging PR #22** remains the exact deformed owner-frame authority at `63c65d57fda0595217f86d971ff8c67f256188be`.
+- **Animal Rigging PR #25** remains the existing receiving-boundary lane; no duplicate PR was opened.
+- **Animal Geometry PR #20** remains the exact 42-source -> 84-render UV/normal/tangent mapping owner at `ca4bb8a2f144231f8755eacc980785d1807b79db`.
+- **Animal Technical Art PR #3** currently remains `PASS_STATIC_SKIN_TRANSPORT__HOLD_DEFORMED_DIRECTION_FRAME`; it has not adopted a reconstruction policy.
+- **Animal Materials PR #24** owns the rendered tangent-space diagnostic and its accepted owner-frame comparison baseline; Rigging does not claim shaded acceptance.
+- **Animal Animation PR #5** remains independent for clip, timing, interpolation and playback semantics.
+- **Animal Runtime PR #23** remains independent for representation, implementation, controller and performance acceptance.
 - **Character** still retains its Geometry-owned shoulder self-intersection HOLD; **Object** already has mature articulation lanes; Building / Nature / Weather / Map / Weapon / Armor / Unit / Misc exposed no stronger unoccupied Rigging dependency during this scan.
 
-No competing lane was found for the exact transported deformed-frame equivalence question.
+The highest-leverage bounded step was therefore to test whether the already-proven transported **skinned POSITION** field can reconstruct the unchanged Rigging owner normal/tangent frame, while preserving the earlier static-direction HOLD as rollback truth.
 
 ## Selected bounded improvement
 
 Repository: `mike-axiom-mir/axm-animal-design`
 
-Draft stacked PR:
+Existing draft stacked PR:
 
 **#25 — `Rigging: audit transported tangent frames across authored skin keys`**
 
 Branch: `studio/rigging-transported-tangent-deformation-equivalence-001`
 
-Base: Rigging PR #22 exact head **`63c65d57fda0595217f86d971ff8c67f256188be`**
+Base: Rigging PR #22 exact head `63c65d57fda0595217f86d971ff8c67f256188be`
 
-Exact current Rigging head: **`fdfeb0e32d8b51107e9bd648210a1eaf8aaf7f3e`**
+Exact current Rigging head: **`81ab44eab2e13bed95187610a476be2b2c4667a7`**
 
-Observed PR state after exact evidence: **OPEN / DRAFT / MERGEABLE**. This is repository metadata only; it does not grant merge/CANON authority.
+Observed PR state after exact evidence: **OPEN / DRAFT / MERGEABLE**. This is repository metadata only; it does not grant merge or CANON authority.
 
 ### Exact identities preserved
 
@@ -49,129 +50,133 @@ Observed PR state after exact evidence: **OPEN / DRAFT / MERGEABLE**. This is re
 - rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
 - weighting-profile digest: `a23fdaf47bbf17b3b070faf66d408faaddaa68c4a0487ace8f484851b91482e4`;
 - transported weighting: `smoothstep-v0`;
-- Technical-Art exact head: `4649d144841fbd1f3f43e9c7deb6f37b91fbd93d`;
+- exact retained Technical-Art transport donor head: `4649d144841fbd1f3f43e9c7deb6f37b91fbd93d`;
 - Technical-Art transport module blob: `90343f493389446f06d58202cb7465c98307458f`;
-- retained Technical-Art artifact ID: `10474385703`;
-- retained Technical-Art archive SHA-256: `7fc2a7f5d745da593e8762efa98e13661f84a057b1eb60921d576c366e71d7bb`;
+- retained Technical-Art source artifact: `10474385703`, archive SHA-256 `7fc2a7f5d745da593e8762efa98e13661f84a057b1eb60921d576c366e71d7bb`;
 - exact retained GLB SHA-256: `ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`.
 
-No source position, topology, rig hierarchy, joint identity, influence radius, weight, UV, owner normal/tangent policy, Animation key, Technical-Art GLB byte, Materials implementation or Runtime implementation was rewritten.
+No source geometry, topology, rig hierarchy, joint identity, influence radius, weight, UV, authored Animation key, Technical-Art GLB byte, Runtime implementation, Materials implementation or Geometry/Rigging owner-frame algorithm was rewritten.
 
-## Bounded audit method
+## Preserved prerequisite truth
 
-The audit decodes the exact retained Technical-Art GLB and directly exercises all **41 authored transported rotation keys** over `0.0 → 1.0 s`, with transported quaternion magnitude `0.0 → 17.999999201986377° → neutral`.
-
-For each key it:
-
-1. derives the exact source elbow angle from the transported quaternion;
-2. evaluates the unchanged right-elbow `smoothstep-v0` Rigging deformation;
-3. re-derives Rigging #22's owner normal/tangent frame from the posed geometry plus fixed Geometry UV identity;
-4. applies the GLB's exact two-joint skin weights to its transported POSITION/NORMAL/TANGENT payload;
-5. compares transported position, UV and tangent handedness against the owner frame after the explicit Animal→UC coordinate transform;
-6. separately measures raw skinned normal/tangent direction residuals;
-7. measures a post-skin Gram–Schmidt tangent orthogonalization as a **constraint witness only**, without promoting it into Technical Art or Runtime;
-8. rejects a deliberate blended child-weight mutation at the peak key.
-
-Position/UV/handedness equivalence is intentionally kept separate from direction-frame equivalence, so a green CI run cannot hide a receiving-frame mismatch.
-
-## Bounded proof result
-
-Scoped state:
+The earlier exact PR #25 audit remains valid and is **not erased**:
 
 **`PASS_TRANSPORTED_SKINNED_POSITION_EQUIVALENCE__HOLD_DEFORMED_NORMAL_TANGENT_EQUIVALENCE`**
 
-Across all 41 exact transported keys:
+Across the 41 exact transported keys, direct skinning of the retained static NORMAL/TANGENT payload preserved position/UV/tangent-W identity but did not reproduce Rigging #22's geometry-rederived direction frame:
 
-- maximum transported-position residual against Rigging owner: **`3.712575483167813e-08 m`** — PASS;
-- maximum UV residual: **`2.6656007523325565e-08`** — PASS;
-- tangent handedness / W mismatches: **`0`** — PASS;
-- maximum normal-direction angle: **`7.541934786395446°`**;
-- neutral maximum normal angle: **`1.5082141078728669e-06°`**;
-- deformation-only normal excess: **`7.541933278181338°`** — HOLD;
-- maximum raw tangent-direction angle: **`3.68408845660469°`**;
-- maximum raw `|normal·tangent|`: **`0.0005602094669954205`**;
-- measurement-only post-skin Gram–Schmidt maximum tangent angle: **`3.6840883909223447°`**;
-- neutral corrected-tangent maximum: **`2.15370624022201e-06°`**;
-- corrected tangent deformation excess: **`3.6840862372161047°`** — HOLD;
-- maximum corrected `|normal·tangent|`: **`1.6653345369377348e-16`** — orthogonality PASS.
+- maximum owner-position residual: `3.712575483167813e-08 m` — PASS;
+- maximum UV residual: `2.6656007523325565e-08` — PASS;
+- tangent handedness mismatches: `0` — PASS;
+- deformation-only normal excess: `7.541933278181338°` — HOLD;
+- corrected tangent deformation excess after measurement-only Gram-Schmidt: `3.6840862372161047°` — HOLD;
+- maximum corrected `|N·T|`: `1.6653345369377348e-16` — orthogonality PASS only.
 
-The important truth is therefore split cleanly:
+That static-direction transport HOLD remains active. The new work tests a **different receiver constraint**, not a relabelling of this evidence.
 
-- the exact transported skin preserves **positions + UV + tangent handedness** to a very small numeric residual;
-- the exact transported static NORMAL/TANGENT vectors, when skinned, **do not reproduce Rigging #22's geometry-rederived deformed direction frame**;
-- Gram–Schmidt repairs tangent orthogonality but does **not** erase the remaining owner-frame angular mismatch.
+## New bounded reconstruction constraint
 
-This is a quantified receiver/deformation-frame HOLD. It is not evidence that the source form or rig itself should be rewritten.
+Schema: `axm.animal-post-skin-owner-frame-reconstruction/v0.1`
 
-### Fail-closed control
+Scoped result:
 
-At retained render vertex `25`, peak key `20`:
+**`PASS_TRANSPORTED_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_41_KEYS`**
 
-- original child-weight position residual: `1.3213674078573197e-08 m`;
-- deliberately mutated child-weight residual: `0.00042887604599737845 m`;
+For each of the exact 41 transported authored keys over `0.0 -> 1.0 s`, with transported elbow quaternion magnitude `0 -> 17.999999201986377° -> 0`, Rigging now:
+
+1. skins the unchanged retained 84-render-vertex POSITION field with the exact transported GLB weights/joint rotations;
+2. collapses UV-split render representatives back through Geometry's fixed 84-render -> 42-source mapping;
+3. applies the exact inverse Animal/UC positional coordinate boundary;
+4. re-runs the unchanged Geometry/Rigging posed normal+tangent derivation on that reconstructed source pose;
+5. compares the reconstructed frame directly with the exact Rigging owner frame at the same key.
+
+Exact all-key maxima:
+
+- UV-split position disagreement: **`0.0 m`**;
+- owner-position residual: **`3.712575483167813e-08 m`**;
+- owner-normal angular residual: **`2.0081521282065968e-05°`**;
+- owner-tangent angular residual: **`3.181419632879438e-05°`**;
+- reconstructed `|N·T|`: **`1.1657341758564144e-15`**;
+- tangent-handedness mismatches: **`0`**;
+- direction tolerance: `0.001°`;
+- position tolerance: `1e-6 m`;
+- orthogonality tolerance: `1e-9`.
+
+Representative keys are retained at indices `0 / 10 / 20 / 30 / 40`, covering neutral -> approximately 9° -> approximately 18° -> approximately 9° -> neutral.
+
+### Fail-closed sensitivity
+
+A coherent `+1 mm` posed-shape mutation at source vertex `11` on peak key `20` is applied to every corresponding UV-split render representative rather than creating an artificial seam.
+
+- UV-split disagreement after mutation: `0.0 m`;
+- maximum owner-normal mutation signal: `0.15313919238415896°`;
+- maximum owner-tangent mutation signal: `0.1573809848662001°`;
+- retained required signal: `0.05°`;
 - result: **`PASS_MUTATION_DETECTED`**.
 
-The exact GLB SHA, Technical-Art head/module/artifact identity and Rigging plan/profile digests are independently pinned by the workflow.
+The observer therefore fails closed on meaningful posed-shape drift while preserving the seam identity.
 
 ## CI / retained evidence
 
 Dedicated exact-head workflow:
 
-**`35167251871 — Rigging transported tangent deformation evidence — SUCCESS`**
+**`35171161312 — Rigging transported tangent deformation evidence — SUCCESS`**
 
-Exact head: `fdfeb0e32d8b51107e9bd648210a1eaf8aaf7f3e`.
+Exact head: `81ab44eab2e13bed95187610a476be2b2c4667a7`.
 
-- Python 3.11: exact ancestry/module checks PASS; exact Technical-Art donor and retained artifact verification PASS; exact rig donor verification PASS; compile PASS; full inherited Animal suite plus transported audit PASS; evidence build PASS; exact summary publication PASS; artifact upload PASS.
-- Python 3.13: exact ancestry/module checks PASS; exact Technical-Art donor/artifact and rig donor verification PASS; compile PASS; full inherited Animal suite plus transported audit PASS.
-- Generic same-head `Tests` workflow also passed.
+Both Python 3.11 and 3.13 passed exact ancestry/module identity checks, exact Technical-Art donor/artifact verification, exact historical rig donor verification, compilation and the inherited Animal test suite. Python 3.11 additionally rebuilt the earlier transport evidence, built the new reconstruction evidence and uploaded both exact-head packets.
 
-Retained Rigging artifact:
+New retained reconstruction artifact:
 
-- ID: **`10475208614`**;
-- name: `animal-rigging-transported-tangent-deformation-fdfeb0e32d8b51107e9bd648210a1eaf8aaf7f3e`;
-- size: **`11,845 B`**;
-- GitHub-retained SHA-256: **`05faacebcbc88a75ebf607d4b1c57aa7326be8894f2cd313a0962b2d44971f9b`**;
-- independent local archive rehash this activation: **not performed**; do not silently upgrade the GitHub-retained digest into an independent verification claim.
+- ID: **`10476642320`**;
+- name: `animal-rigging-transported-frame-reconstruction-81ab44eab2e13bed95187610a476be2b2c4667a7`;
+- size: **`11,421 B`**;
+- GitHub SHA-256: **`2d11836cc7c1ada5146752d0b6205d0e4f476cd085ee8be4964e2f024f70fa58`**;
+- independent downloaded-archive SHA-256: **`2d11836cc7c1ada5146752d0b6205d0e4f476cd085ee8be4964e2f024f70fa58`** — reproduced exactly this activation.
 
-Workflow evidence comment on PR #25: **`5706628109`**.
+The prior transport evidence was also re-retained against the new exact head as artifact `10476722093` (`11,844 B`, GitHub SHA-256 `998eeac0078b4889462c8cbb148cfb662f73baeee53c1684c817a94b50bdf6ea`).
 
 ## Handoffs recorded
 
-- **Rigging PR #25:** artifact/evidence boundary comment `5706630699` records the exact artifact identity, PASS/HOLD split and non-claims.
-- **Technical Art PR #3:** comment `5706631790` keeps its deformed tangent-frame equivalence HOLD intact and gives the exact normal/tangent residuals without requesting a silent GLB rewrite.
-- **Materials PR #24:** comment `5706632571` tells LookDev to interpret the deformed tangent-space diagnostic under the quantified receiving-frame HOLD; Rigging does not claim visual acceptance.
-- **Animation PR #5:** comment `5706633659` keeps timing, interpolation, playback and clip authority separate; the 41 transported keys are only sampling coordinates in this Rigging audit.
-- **Runtime PR #23:** comment `5706634731` keeps indexed storage/performance/controller authority separate and does not promote Gram–Schmidt into Runtime.
-- **Historical Rigging PR #22:** continuity comment `5706635708` preserves #22 as the owner-frame structural PASS; #25 is a receiving-boundary audit, not a supersession.
+- **Rigging PR #25:** comment `5707138151` records the exact reconstruction PASS, preserved static-direction HOLD, metrics, artifact identity and non-claims.
+- **Technical Art PR #3:** comment `5707139231` explicitly keeps `PASS_STATIC_SKIN_TRANSPORT__HOLD_DEFORMED_DIRECTION_FRAME` active until Technical Art independently chooses and proves a receiver policy.
+- **Materials PR #24:** comment `5707140134` preserves the owner-frame visual comparison baseline and makes clear that structural reconstruction is not shaded acceptance.
+- **Runtime PR #23:** comment `5707141118` prevents silent promotion of this measurement-only reconstruction into Runtime/controller code or performance claims.
+- **Animation PR #5:** comment `5707142274` records that the 41 authored keys are sampling coordinates only; timing/interpolation/playback/clip authority remains Animation-owned.
+- **Historical Rigging PR #22:** continuity comment `5707143068` preserves #22 as the exact owner-frame authority; #25 consumes it without superseding it.
 
 ## Truth boundary / explicit non-claims
 
-This activation establishes only the exact finite **41-key transported skin deformation comparison** described above.
+The new PASS proves only that, for this exact retained source/rig/weight/Geometry/GLB identity and these 41 exact authored keys, the already-green transported skinned POSITION field contains enough positional information to reconstruct the unchanged Rigging owner normal/tangent frame to the measured tolerances.
 
 It does **not** establish:
 
-- mathematical continuous-motion equivalence between keys;
-- final production skin-normal/tangent transport policy;
-- that Gram–Schmidt is the correct production receiver fix;
-- final normal-map / tangent-space shaded quality;
-- Art Direction or Visual-QA acceptance;
-- Animation timing, interpolation, clip, playback, motion quality or target-host Animation acceptance;
-- Technical-Art / importer behavior beyond the exact retained GLB audited here;
-- Runtime/controller, target-device memory/FPS/performance, physics or gameplay acceptance;
+- that the retained static transported NORMAL/TANGENT fields are now equivalent — they remain HOLD;
+- that Technical Art has adopted this reconstruction path;
+- a production importer, shader or skin-normal/tangent implementation;
+- mathematical continuous-motion equivalence between authored keys;
+- final shaded tangent-space / normal-map quality;
+- Art Direction or Visual-QA acceptance of a reconstructed receiver result;
+- Animation timing, interpolation, clip, playback, acting or target-host acceptance;
+- Runtime/controller/device memory/FPS/performance acceptance;
 - anatomy, muscle/volume/skin-sliding quality;
-- CANON or merge authority;
+- gameplay, CANON or merge authority;
 - production readiness, game readiness or Rigging mastery.
 
 ## Four-root gate
 
-- **Truth:** the result keeps a real PASS and a real HOLD separate; the GLB/rig/source identities are pinned and the direction mismatch is not hidden behind green CI.
-- **Agency / non-domination:** Rigging does not seize Animation, Materials/Visual-QA/Art Direction, Technical Art, Runtime or CANON authority. Each receiving lane keeps its own acceptance gate.
-- **Continuity:** Rigging #22 remains the exact owner-frame rollback point; Technical-Art #3 remains the exact transported donor; PR #25 consumes both without relabelling their historical evidence.
-- **Wisdom before speed:** the existing transported asset was measured before inventing a new weight, changing source topology, or silently installing a receiver correction.
+- **Truth:** the old static-direction HOLD remains visible next to the new reconstruction PASS; neither is rewritten into the other.
+- **Agency / non-domination:** Rigging does not install a receiver policy into Technical Art, Runtime, Materials or Animation and does not seize their acceptance authority.
+- **Continuity:** PR #22 remains the exact owner-frame rollback point; the retained Technical-Art GLB remains the exact transport donor; PR #25 adds a separate reconstruction witness on top of both.
+- **Wisdom before speed:** the already-green positional transport was reused and measured before changing source form, weights, topology or production receiver code.
+
+## Continuity note
+
+The previous transport-only status is preserved in Git history and remains prerequisite evidence. This update advances the same PR #25 lane; it does not silently delete or replace the prior `PASS_TRANSPORTED_SKINNED_POSITION_EQUIVALENCE__HOLD_DEFORMED_NORMAL_TANGENT_EQUIVALENCE` result.
 
 ## Prior Rigging lanes retained as historical truth
 
-- Animal PR #22: `63c65d57fda0595217f86d971ff8c67f256188be` — `PASS_BILATERAL_DEFORMED_TANGENT_FRAME_DENSE_SWEEPS`; 484 posed fields / 40,656 tangent checks. This is the exact owner-frame prerequisite for current PR #25.
+- Animal PR #22: `63c65d57fda0595217f86d971ff8c67f256188be` — exact deformed tangent owner PASS.
 - Animal PR #18: `91e2fd01be63df807c035b39f7ec824a4a5a60b8` — deformed logical-quad normal observer PASS.
 - Animal PR #15: `4acd9286140dd008f2a4f01ff513912497313e4f` — exact-mirror topology Rigging rebind PASS.
 - Animal PR #12: `94bc573e2e06ba7a35c9908c141e2f939d4739a8` — bilateral source-successor dense sweeps; exact vertex mirror PASS / historical surface-metric HOLD.
@@ -184,8 +189,8 @@ It does **not** establish:
 ## Next Rigging & Deformation pass
 
 1. Re-scan the full design constellation; do not automatically continue Animal.
-2. If Technical Art / Runtime proposes a concrete deformed-frame receiver policy, test it against the exact same 41-key owner comparison before adoption; preserve the current HOLD as rollback truth.
-3. If Materials / Visual QA identifies a precise rendered defect attributable to Rigging rather than transport/lookdev, change only the smallest justified Rigging-owned variable.
-4. If Animation changes key identity or interpolation semantics, require an explicit new rebind; current PR #25 is not Animation acceptance.
-5. If Geometry or Rigging #22 changes identity, rerun rather than transferring either the position PASS or direction HOLD by equivalence.
-6. Keep target-engine playback, Runtime/controller/performance, gameplay, CANON and mastery independent.
+2. If Technical Art proposes or adopts a concrete reconstruction/receiver implementation, rebind that exact implementation to this 41-key owner comparison rather than transferring this measurement-only PASS.
+3. If Materials / Visual QA renders a reconstruction candidate, compare it against the existing accepted owner-frame lookdev baseline before any visual promotion.
+4. If Animation changes key identity or interpolation semantics, require an explicit new rebind; this PASS is not Animation acceptance.
+5. If Geometry, Rigging #22, the retained Technical-Art GLB or rig/weight identity changes, rerun rather than transferring either PASS or HOLD by equivalence.
+6. Keep target-engine/runtime/controller/performance, gameplay, CANON and mastery independent.
