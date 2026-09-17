@@ -3,206 +3,184 @@
 - Date: `2026-09-17`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_RECEIVER_LIFECYCLE_MUTATION_GRANULARITY_MAP / MAP_13_AND_ANIMAL_29_CONTAINER_REUSE_SEPARATED_FROM_SURFACE_REBUILD / NATURE_12_PARAMETER_ONLY_UPDATE_IS_DISTINCT_LAYER / PF_38_REFINED_EVIDENCE_PROCEDURE_ONLY / NO_UC_DYNAMIC_BUFFER_OR_MORPH_EXTRACTION / NO_PRODUCT_AUTHORITY_MOVE / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_SPATIAL_SCALAR_REFERENCE_FEATURE_IDENTITY_MAP / BUILDING_17_CENTER_ANCHOR_AND_OBJECT_5_NEAREST_FACE_ANCHOR_SEPARATED / PF_38_REFINED_EVIDENCE_PROVENANCE_ONLY / NO_UC_OFFSET_CONVERSION_EXTRACTION / NO_PRODUCT_REBIND_OR_AUTHORITY_MOVE / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the 3D Studio campaign and Capability Cartographer standing role, then inspected the newest specialist status, newest commits and live PRs across the active design constellation plus current Universal Creation and Profession Fabric evidence before changing any coordination state.
+Re-read the 3D Studio campaign and Capability Cartographer standing role, then inspected the newest specialist status and live repository / PR evidence across the active design constellation plus current Universal Creation and Profession Fabric state before altering coordination knowledge.
 
-`axm-create-me` remains **coordination only**. No product implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, adoption decision, CANON state, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product implementation, source geometry, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, adoption decision, CANON state, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh continuity since the previous Cartography pass
+## Fresh continuity / overlap scan
 
-The previous pass resolved the duplicated UC #192 implementation race and added the non-authoritative shared-capability execution-claim surface.
+The preceding Cartography pass separated receiver-container reuse, surface/payload lifecycle, mutation granularity and product adoption. That map remains valid and was not widened by cadence.
 
-That coordination result remains valid. No second materially overlapping shared-capability implementation race was found in this scan, so `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` was not widened into a lock or scheduler.
+Fresh shared-system continuity:
 
-Universal Creation has moved forward independently since that pass:
+- Universal Creation main has advanced through merged Physics PR #195 to `68100dbd20b0b4cf792d070a4341696085f3e6bc`;
+- current UC PR #196 is the single active successor Physics lane at head `65b3fc09e462a029a34f8b59c5507f56b7a83bd4` and is unrelated to the spatial-scalar semantic question selected here;
+- merged UC #194 remains the read-only directional texel-density observer; no new product semantic policy has moved into UC;
+- Profession Fabric PR #37 already owns the separate experimental bounded-variation evidence procedure across Nature, Weather and Map, so no duplicate procedural-family abstraction was opened;
+- Profession Fabric issue #38 remains the established experimental evidence/provenance proposal surface. Its existing spatial-field binding vocabulary answers where a field payload applies; it did not yet name the distinct question of which geometric feature a scalar coordinate locates.
 
-- directional texel-density remains merged through UC #194;
-- UC main then advanced through the bounded Physics #191 merge to `452b179cccff8acdde8930f7bde8662e52f86949`;
-- current Physics successor PR #195 is a separate active lane and does not overlap the Runtime lifecycle question selected here.
+Fresh specialist and product evidence remains active without overlap: Character Runtime is working on accessor deduplication, Animal Runtime on `ArrayMesh` lifecycle reuse, Nature/Map on compact-east playback, Building on source/geometry/normal authority, Object on VFX/Procedural review surfaces, and Visual QA on the Object seeded-mote family. Weapon, Armor, Unit and Misc still expose no stronger live product lane requiring invented work.
 
-Fresh Runtime specialist status now closes Animal pass 40 at exact Runtime head `9db88b7629df025be1c157c19ca258e3ff0ce483`, while explicitly naming the still-unproved next layer: surface construction remains `41 -> 41` despite `ArrayMesh` construction falling `41 -> 1`.
+## Selected material cross-repo learning — a spatial scalar is incomplete without its reference feature
 
-## Selected material cross-repo learning — receiver identity and mutation granularity are different capabilities
+The strongest new reusable learning comes from two independent Hard-Surface source contracts that use similarly named `standoff` values with **opposite but valid anchor semantics**.
 
-The new repeated rule is:
+Core rule:
 
-> **Stable receiver-container identity does not prove persistent surface/payload identity; persistent payload identity does not prove bounded-region update capability; a smaller mutation operation does not by itself prove a better product tradeoff or adoption decision.**
+`FIELD_NAME + VALUE + UNITS + FRAME != COMPLETE_SPATIAL_SEMANTICS_WITHOUT_REFERENCE_FEATURE_IDENTITY`
 
-This is now evidenced independently by Map, Animal and Nature Runtime work.
+A scalar offset can be numerically valid and expressed in the correct frame while still being unsafe to transfer if the consumer does not know which geometric feature the value locates.
 
-### Evidence A — Map Runtime #13: one persistent container, surface still recommitted every update
+### Evidence A — Building Hard Surface #17: body-center anchor
 
-Map Runtime PR #13 (`mike-axiom-mir/axm-map-design#13`) at exact head:
+Repository / PR:
 
-`f0c72b9dd4688bdb01ac40aa33f469afffd7ec0a`
+`mike-axiom-mir/axm-building-design#17`
 
-asks one lifecycle question only: whether the synchronized sapling can reuse one `MeshInstance3D`, one `ArrayMesh` and one material instead of reconstructing those resources per authored state.
+Exact current head:
 
-Its retained result is:
+`fbfa3b47048755b45dac91451171d5511c8d4f47`
 
-`PASS_REUSE_SINGLE_SAPLING_ARRAYMESH_RESOURCE_CHURN_CONTRACT`
+Current PR state observed: **OPEN / DRAFT / MERGEABLE**.
 
-Across the measured window:
+The Building utility-panel source owns:
 
-- sapling node constructions: `441 -> 1`;
-- `ArrayMesh` constructions: `441 -> 1`;
-- material constructions: `441 -> 1`;
-- all 18 fixed-camera control/candidate image pairs are byte-identical;
-- proof-host submission observations improve materially.
+- `standoff_from_receiver_origin_m = 0.10 m`;
+- reference meaning: **panel body center** along the receiver outward normal;
+- body depth: `0.08 m`;
+- receiver plate thickness: `0.04 m`;
+- required physical nearest-body-face gap: `0.02 m`.
 
-But the candidate still **clears/recommits the single triangle surface for every exact authored deformation state**.
+Therefore the physical gap is:
 
-Therefore Map proves stable high-level resource identity and reduced construction churn. It does not prove persistent surface-buffer residency or a lower-granularity dynamic vertex update.
+`0.10 - 0.04 - 0.5 * 0.08 = 0.02 m`
 
-### Evidence B — Animal Runtime #29: same boundary on a different deforming receiver
+The retained predecessor exposes why the anchor matters. With the older `0.08 m` body-center standoff, the true nearest-face gap was:
 
-Animal Runtime PR #29 exact measured head:
+`0.08 - 0.04 - 0.5 * 0.08 = 0.00 m`
 
-`9db88b7629df025be1c157c19ca258e3ff0ce483`
+The old `standoff - plate_thickness` check had measured a center-offset surplus, not the declared body-face clearance.
 
-Scoped result:
+Building Hard Surface owns this source interpretation and the corrected geometric relation. No generic system may silently reinterpret the field as a face anchor.
 
-`PASS_ANIMAL_GODOT_ARRAYMESH_RESOURCE_REUSE_41_TO_1__HOLD_DYNAMIC_REGION_SHADED_DEVICE`
+### Evidence B — Object Hard Surface #5: nearest-face anchor
 
-Before/candidate:
+Repository / PR:
 
-- `ArrayMesh.new()` constructions: `41 -> 1`;
-- persistent `ArrayMesh` object identity: proved;
-- surface constructions: **`41 -> 41`**;
-- update path: still `clear_surfaces()` + `add_surface_from_arrays()` for each key;
-- persistent surface-buffer reuse: **not proved**;
-- dynamic vertex/attribute-region update: **not proved**.
+`mike-axiom-mir/axm-object-design#5`
 
-The proof-host median sweep improves `138 -> 116 us` and p95 `156 -> 127 us`, while the exact 41-key receiver readback remains within the inherited Technical Art gates. Fresh shaded A/B, target-device behavior and adoption remain held.
+Exact current head:
 
-This independently reproduces the Map distinction on different geometry, different source semantics and a different receiving chain.
+`e9076b546dab2e12ba2c3649fd0021a62841be10`
 
-### Evidence C — Nature Runtime #12: an already-stable container can still have a materially different mutation layer
+Current PR state observed: **OPEN / DRAFT / MERGEABLE**.
 
-Nature Runtime PR #12 pass 38 exact head:
+The Object utility-module source independently owns:
 
-`6ea4148da61d3806123712e2eaf19613df9ae1eb`
+- `interface.standoff_from_socket_origin_m = 0.03 m`;
+- reference feature: **module nearest host-facing body face**;
+- body local-X interval: `[0.03, 0.125] m`;
+- body depth: `0.095 m`;
+- socket plate thickness: `0.012 m`.
 
-is the decisive third case because its control already has a stable `MeshInstance3D + ArrayMesh + material` from the earlier resource-lifecycle pass.
+Therefore its physical nearest-face clearance is simply:
 
-The control nevertheless regenerates normals and resubmits the full 1,710-corner surface every phase.
+`0.03 - 0.012 = 0.018 m`
 
-Nature then proves a source-specific representation fact: all 17 exact compact-east phase meshes can be represented by one neutral mesh plus one normalized neutral-to-peak blend shape and a phase weight, with maximum source-space representation residual `1.2412670766236366e-16 m`.
+The Object verifier retains the decisive counterfactual: if the same `0.03 m` scalar were incorrectly interpreted as a body-center offset, the nearest face would be `-0.0175 m` and the derived clearance would become `-0.0295 m`. That interpretation is explicitly unauthorized.
 
-The pass-38 candidate therefore changes only one blend weight after initial construction rather than rebuilding the whole surface every phase.
-
-Measured proof-host result:
-
-- stress median submission: `1,237 -> 75 us` (`-93.9369%`);
-- stress p95: `1,349 -> 105 us` (`-92.2165%`);
-- stress total: `510,866 -> 32,515 us` (`-93.6353%`);
-- renderer buffer allocation: `+177,840 B`;
-- unshaded retained evidence: `34/34` byte-identical;
-- simple normal-lit evidence: bounded nonzero difference, with Art/QA still held.
-
-This proves why mutation granularity must be recorded separately from both object identity and the metric vector. The smaller steady-state update produces a strong CPU result but costs buffer memory and changes shaded evidence slightly. It is not an unconditional "better" state.
+Object's numeric result was already correct; the missing source truth was explicit **reference-feature identity**.
 
 ## Bounded reusable map
 
-The repeated evidence supports the following distinction:
+The cross-repo evidence supports a small identity chain rather than a universal offset schema:
 
-| Layer | Question | Current evidence |
-|---|---|---|
-| Receiver container identity | Is the same high-level target-host object reused? | Map #13 and Animal #29: yes |
-| Surface/payload lifecycle | Is the contained surface/payload itself retained rather than rebuilt? | Map #13 and Animal #29: no / not proved |
-| Mutation operator | What exact receiving operation changes state? | Whole-surface recommit in Map/Animal; blend-weight parameter update in Nature pass 38 |
-| Mutation granularity | Whole container, whole surface, attribute region, parameter only, or unknown? | Distinct across the three cases |
-| Resident storage reuse | Is the same underlying receiver storage/buffer proved persistent? | Held/not directly proved by container identity alone |
-| Metric tradeoff | What CPU/memory/raster/device axes improved or regressed? | Existing PF optimization-vector vocabulary remains authoritative |
-| Adoption | Should the product use it? | Product Runtime/producer + Art/QA/device owners only |
+| Identity / state | Question |
+|---|---|
+| `source_scalar_field_identity` | Which exact source field/path, value and units are being consumed? |
+| `source_reference_frame_identity` | Which origin and axis convention express the scalar? |
+| `reference_feature_identity` | Which exact geometric feature does the scalar locate — body center, nearest face, another source-owned feature, or unspecified? |
+| `extent_identity_along_axis` | Does a derived relation require a source-owned extent such as body depth? |
+| `derived_measurement_identity` | Which relation is claimed, and what exact formula / consumed identities produced it? |
+| `reference_feature_binding_state` | `BOUND_EXACT | REFERENCE_FEATURE_MISSING | REFERENCE_FEATURE_MISMATCH | NOT_EVALUATED` |
 
-Core non-transfer rule:
+Non-transfer rules:
 
-`STABLE_RECEIVER_OBJECT_IDENTITY != PERSISTENT_SURFACE_OR_BUFFER_IDENTITY != BOUNDED_UPDATE_CAPABILITY != PRODUCT_ADOPTION`
+- matching field names do not prove matching reference features;
+- matching units and frame directions do not prove matching anchor semantics;
+- matching numeric values do not authorize a shared formula;
+- a body-center anchor may require half-extent conversion while a nearest-face anchor must not receive that conversion;
+- derived clearance evidence does not transfer engineering tolerance, collision, physics, retention, gameplay or visual authority.
 
-## Correct placement — Profession Fabric evidence vocabulary only
+## Correct placement — Profession Fabric evidence/provenance vocabulary only
 
-The shared part is currently **how lifecycle evidence is described**, not one reusable executable updater.
+The repeated capability is currently an **evidence semantics / provenance relationship**, not a reusable product or machine implementation.
 
-Profession Fabric issue #38 is therefore the correct bounded candidate home for a refinement to the experimental evidence/provenance procedure.
+Profession Fabric issue #38 was therefore refined in place rather than creating another framework:
 
-Added Cartography comment:
+`mike-axiom-mir/axm-profession-fabric#38 comment 5720503843`
 
-`5719668182`
+The refinement proposes only the bounded identity/state vocabulary above and explicitly keeps source-owned reference-feature semantics and formulas in Building/Object.
 
-The proposed evidence vocabulary keeps these fields separate:
+This is distinct from the existing PF spatial-field binding record:
 
-1. `receiver_container_identity`;
-2. `container_construction_count`;
-3. `surface_or_payload_lifecycle` such as `REBUILT_EACH_UPDATE | PERSISTENT | UNKNOWN_NOT_OBSERVED`;
-4. exact `update_operator_identity`;
-5. `mutation_granularity` such as `WHOLE_CONTAINER | WHOLE_SURFACE_PAYLOAD | ATTRIBUTE_REGION | PARAMETER_ONLY | UNKNOWN`;
-6. separate `resident_storage_reuse_state = PROVED | HOLD | NOT_EVALUATED`;
-7. the already-proposed `measured_metric_vector[]` remains separate;
-8. source/receiver identities and product adoption remain independent.
+- spatial-field binding asks **where a field payload applies on a receiving domain**;
+- reference-feature identity asks **which geometric feature a scalar coordinate locates inside its declared frame**.
 
-This is evidence vocabulary only. No PF implementation or profession promotion is requested by this pass.
+No PF implementation or profession promotion is requested by this Cartography pass.
 
-## Why Universal Creation is not the correct home yet
+## Why Universal Creation is not the correct home
 
-No UC dynamic-buffer, blend-shape, morph, renderer-lifecycle or target-host mutation lane was opened.
+No UC `standoff`, offset-conversion, clearance, geometry-mutation or automatic-reference-feature lane was opened.
 
-The three product cases share an evidence distinction but use representation- and Godot-specific mechanisms:
+The two products demonstrate exactly why premature centralization would be unsafe: a generic operation cannot know whether to subtract half a body depth, no extent at all, or some other product-owned relation until the source explicitly declares its reference feature.
 
-- Map and Animal keep one `ArrayMesh` while recommitting surfaces;
-- Nature changes its representation so the steady-state operation becomes one blend-shape parameter update.
+There is therefore no neutral executable capability to extract from these two cases without first choosing product semantics. If a future reusable observer is proposed, it must accept explicit source-owned reference-feature/frame inputs and remain unable to infer them from names or values.
 
-That is not yet one neutral executable machine contract. Centralizing a generic updater now would choose target-host/runtime semantics before cross-domain evidence supports a reusable implementation.
-
-A future UC proposal would require a materially repeated neutral machine operation with explicit supported attribute/storage semantics, failure bounds and receiving invariants — not merely three Runtime optimizations that happen to expose the same evidence distinction.
-
-Current UC work remains separate bounded Physics growth; no overlapping lifecycle issue/PR was found.
+Current UC work remains bounded Physics growth in PR #196 and does not overlap this map.
 
 ## Product returns
 
-Cartography returned the bounded distinction without altering product work:
+Cartography returned the placement boundary without altering either product lane:
 
-- Animal Runtime #29 comment: `5719669386`;
-- Nature Runtime #12 comment: `5719670529`;
-- Map Runtime #13 comment: `5719671754`.
+- Building Hard Surface #17 comment `5720505286`;
+- Object Hard Surface #5 comment `5720507350`.
 
-Each product retains its exact mechanism and adoption authority.
+Building retains the center-anchor contract and formula. Object retains the nearest-face anchor contract and formula. Neither comment authorizes downstream rebind, source mutation, consumer adoption, UC extraction or CANON.
 
-## Fresh constellation / overlap scan
+## Fresh constellation snapshot
 
-The newest coordination commits and active PRs were checked before this proposal.
+The live scan was used to avoid mistaking cadence for a missing capability:
 
-- **Character:** current work remains in its own Geometry/Rigging/Animation/Technical-Art/Runtime evidence chains; no competing Runtime lifecycle lane was opened here.
-- **Animal:** Runtime #29 owns the current `41 -> 1` `ArrayMesh` lifecycle measurement; newer Technical Art continuity does not automatically inherit the Runtime timing PASS.
-- **Building:** Hard Surface has corrected nearest-body-face utility-panel clearance; Geometry/Materials/Procedural/Environment are explicitly rebinding to that source successor rather than relabelling historical evidence. No lifecycle extraction was justified from that work.
-- **Nature:** Runtime #12 owns the single-blend-shape CPU-for-buffer-memory tradeoff; Map current-world receiving/playback remains separate.
-- **Weather:** source visual-field semantics remain source-owned; no new lifecycle implementation was invented.
-- **Map:** Runtime #13 remains a distinct historical/current resource-reuse case; current Animation/VFX/QA work is focused on compact-east delivered playback, not this lifecycle mechanism.
-- **Object:** VFX #31 owns the green phase-bound release-mote proof; Runtime #29/#30 remain atlas/storage experiments. No Object mechanism was folded into this lifecycle map.
-- **Universal Creation:** current main includes the merged directional-density observer and merged Physics #191; successor Physics #195 is unrelated to this map.
-- **Profession Fabric:** issue #38 remains the experimental evidence/provenance proposal surface. Existing PF implementation experiments are not promoted by this comment.
-- **Weapon / Armor / Unit / Misc:** no product work was invented to fill cadence.
+- **Character:** Runtime PR #23 remains a bounded bilateral animation-accessor dedup/import-budget lane; no spatial-offset semantic work overlaps this map.
+- **Animal:** Runtime PR #29 remains the current `ArrayMesh` lifecycle lane; Materials/Technical Art continue their tangent/filter/receiver evidence independently.
+- **Building:** Hard Surface #17 owns the selected body-center standoff truth; Geometry #18 exposes UV-axis metrics; Hard Surface #14 / Geometry #13 / Map Technical Art #40 separately own source-normal / quotient / consumer-normal evidence.
+- **Nature:** Animation #13 remains exact-state compact-east playback evidence; no source-coordinate anchor rule is being generalized there.
+- **Weather:** Procedural #3 remains a Weather-local seeded field family and is already represented by PF PR #37's bounded-variation experiment.
+- **Map:** Animation #44 and VFX #43 remain current-world playback/receiving lanes; Runtime and Technical Art have separate owned work.
+- **Object:** Hard Surface #5 owns the selected nearest-face anchor truth; Procedural #11 / VFX #31 / QA own the independent seeded-mote review chain.
+- **Universal Creation:** main `68100dbd...`; active PR #196 is Physics and non-overlapping.
+- **Profession Fabric:** PR #37 remains the bounded-variation procedure experiment; issue #38 remains the evidence/provenance proposal surface and now carries this reference-feature refinement.
+- **Weapon / Armor / Unit / Misc:** no active product PR was found that justified inventing an offset/reference-feature implementation.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that one stable `ArrayMesh` proves one stable GPU buffer;
-- that `clear_surfaces()` / `add_surface_from_arrays()` maps one-to-one to a particular driver allocation behavior;
-- a generic dynamic vertex-buffer API;
-- a generic morph/blend-shape system;
-- that parameter-only updates are always faster or better;
-- that lower mutation granularity dominates buffer-memory, visual, startup or device tradeoffs;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- final Art Direction or Visual QA acceptance;
-- automatic product adoption;
-- PF implementation or promotion;
-- UC extraction;
+- a universal meaning for `standoff`, `offset`, `clearance` or similar field names;
+- automatic inference of a reference feature from a property name, value, unit or frame;
+- automatic conversion between center-, face-, edge-, pivot- or other anchors;
+- engineering tolerance, interference, retention, sealing, load, collision or physics validity;
+- product rebind or adoption;
+- a UC geometry/offset implementation;
+- a PF implementation or profession promotion;
+- Art Direction or Visual QA acceptance;
 - CANON;
 - production/game readiness;
 - mastery;
@@ -214,35 +192,26 @@ The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity
 
 ## Next bounded scan
 
-- If Animal attempts dynamic attribute-region updating, require explicit rebind to the latest proven Technical Art receiver and record whether resident storage reuse is actually observed rather than inferred from API/object identity.
-- If another materially independent runtime proves the same neutral bounded-update operation across different representations/hosts, reassess whether a UC observer or updater is finally justified.
-- Keep PF lifecycle evidence vocabulary separate from the existing optimization metric vector and from product adoption.
-- Continue using the shared-capability execution-claim surface before any new UC/PF implementation to avoid duplicate shared work.
+- If a third materially independent product exposes a scalar whose meaning depends on center/face/pivot/edge/reference-datum identity, compare whether the same evidence vocabulary remains sufficient without hardcoding domain semantics.
+- If downstream consumers begin reading these offsets, require explicit binding to the exact source reference-feature identity before accepting a derived measurement.
+- Do not open a UC converter unless repeated evidence identifies one caller-neutral operation whose inputs include the explicit source-owned anchor/frame identities and whose failure boundary is demonstrably neutral.
+- Continue checking PF #38 and shared-capability execution claims before opening any new cross-repo implementation.
 
 ## Recovery / provenance
 
 Previous Cartography state:
 
-`PASS_SHARED_CAPABILITY_EXECUTION_CLAIM_COORDINATION_MAP`
+`PASS_RECEIVER_LIFECYCLE_MUTATION_GRANULARITY_MAP`
 
 Previous status blob SHA:
 
-`8ded6a18582d30dde5dd0851ed240b3152a5acb7`
-
-Previous Cartography commit:
-
-`26a0115ccaf7f842291627c63eb6fca07b5ee0a9`
-
-Previous coordination addition:
-
-`studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md @ 607eb83f20bb82edf83104a990022cb89aa0d4d7`
+`a2ad329a2c4a151baffbab4ea6e7fa6cbcff0046`
 
 Current PF refinement:
 
-`mike-axiom-mir/axm-profession-fabric#38 comment 5719668182`
+`mike-axiom-mir/axm-profession-fabric#38 comment 5720503843`
 
 Current product returns:
 
-- `mike-axiom-mir/axm-animal-design#29 comment 5719669386`;
-- `mike-axiom-mir/axm-nature-design#12 comment 5719670529`;
-- `mike-axiom-mir/axm-map-design#13 comment 5719671754`.
+- `mike-axiom-mir/axm-building-design#17 comment 5720505286`;
+- `mike-axiom-mir/axm-object-design#5 comment 5720507350`.
