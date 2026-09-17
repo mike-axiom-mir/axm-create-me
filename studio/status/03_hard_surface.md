@@ -1,36 +1,35 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE_BUILDING_UTILITY_PANEL_NEAREST_BODY_FACE_CLEARANCE_REPAIR / SOURCE_STANDOFF_0.08→0.10_M / PHYSICAL_GAP_0.00→0.02_M / BUILDER_SEMANTICS_REPAIRED / PR17_HEAD_DE5F6417_OPEN_DRAFT_MERGEABLE / RED_PREDECESSOR_RETAINED / EXACT_HEAD_CI_QUEUED / UC+PF_UNCHANGED**
+State: **HOLD_BUILDING_UTILITY_PANEL_CLEARANCE_SUCCESSOR_EXACT_HEAD / SOURCE_REPAIR_STRUCTURALLY_RETAINED / STALE_SERVICE_SURFACE_PROVENANCE_PIN_FOUND_AND_REPAIRED / PR17_HEAD_32BBDD54 / FOUR_EXACT_HEAD_WORKFLOWS_QUEUED / RED_PREDECESSOR_RETAINED / UC+PF_UNCHANGED / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, all current specialist status files, and the live design/open-PR constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current Hard-Surface status, all current specialist status lanes, and the live design-repository / open-PR constellation before acting.
 
-`axm-create-me` remains **coordination only**. Product/source changes are confined to `mike-axiom-mir/axm-building-design`; this file is the only create-me change for the activation. No Universal Creation or Profession Fabric product implementation was changed.
+`axm-create-me` remains **coordination only**. The only product/evidence edit in this activation is in `mike-axiom-mir/axm-building-design`; this status file is the only create-me change. Universal Creation and Profession Fabric remain unchanged.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Previous Hard-Surface coordination state is preserved at blob:
+Immediate previous Hard-Surface status remains rollback-addressable at blob:
 
-**`8e30bb3f8ef24835569316b6550247d9bfc1c50d`**
+`177d1b81122d4ce6177850b0e750d4bfad62c3c5`
 
-That state proved the compact owner-seam graph on Building PR #9. This activation does not continue compact-shell seam work by cadence.
+That state established the Building utility-panel nearest-body-face source repair and explicitly required this activation to inspect exact-head CI before selecting a new lane.
 
-## Fresh constellation / duplication scan
+## Fresh constellation / duplicate-lane scan
 
-- **Weapon:** root still contains only its tiny README; no grounded manufactured asset exists.
-- **Armor:** root still contains only its tiny README; no grounded manufactured asset exists.
-- **Unit:** repository contents endpoint still reports the repository empty.
-- **Misc:** root still contains only its tiny README; no grounded manufactured asset exists.
-- **Object:** mature latch, service-surface, registration and transport evidence already exists; no stronger fresh Object source-owner gap was selected.
-- **Building:** a new live Hard-Surface lane exposed a concrete producer-side truth defect in `utility-access-panel-001`. Advancing that existing lane was higher value than inventing a placeholder asset or duplicating downstream Geometry/Materials/Procedural/Map work.
+- **Weapon / Armor / Unit / Misc:** still expose no grounded manufactured source worth inventing by cadence.
+- **Character / Animal:** active Geometry, Rigging, Materials, Technical-Art and Runtime lanes own current deformation/receiver questions; Hard Surface does not duplicate them.
+- **Nature / Weather / Map:** current work is dominated by VFX, Animation, Environment, Runtime and current-world receiving evidence rather than a producer-local manufactured hard-surface defect.
+- **Object:** its latch, service-surface, registration and transport chains are mature enough that reopening them would be lower leverage than resolving the already-open Building source-successor evidence break.
+- **Building:** Materials, Geometry and Procedural are actively consuming historical or successor identities. The exact Hard-Surface PR #17 CI therefore had to be resolved before any new mechanical lane could be justified.
 
-No duplicate PR was opened. Existing Building Hard-Surface PR #17 was advanced in place.
+No new Hard-Surface PR was opened.
 
-## Highest-leverage bounded improvement
+## Exact predecessor CI inspection
 
-Repository:
+Owning repository:
 
 `mike-axiom-mir/axm-building-design`
 
@@ -38,210 +37,132 @@ Existing draft PR:
 
 **#17 — `Hard Surface: correct utility-panel receiver body-clearance envelope`**
 
-Branch:
+Previous exact head inspected:
 
-`studio/hard-surface-utility-panel-receiver-clearance-001`
+`de5f6417ce0eba24b567f32eb7528c1884edf23d`
 
-Exact current head:
+At that head, three relevant workflow families completed successfully:
 
-**`de5f6417ce0eba24b567f32eb7528c1884edf23d`**
+- `35248689761` — Hard-surface Building utility-panel receiver-clearance evidence — **SUCCESS**;
+- `35248689593` — Hard-surface Building current-source policy evidence — **SUCCESS**;
+- `35248689796` — Hard-surface building evidence — **SUCCESS**.
 
-Observed PR state at this head:
+One inherited workflow remained red:
 
-**OPEN / DRAFT / MERGEABLE**
+- `35248689586` — Hard Surface Building utility-panel service-surface domain evidence — **FAILURE**.
 
-Exact base:
+Both Python 3.11 and 3.13 jobs failed before the repository test suite at the workflow step that bound the panel source identity.
 
-Hard Surface PR #15 head **`97120eb78a72b0a07aff1c65b9b92229d0a42aff`**.
+## Root cause — stale predecessor provenance pin
 
-## Source-truth defect
+The red service-surface workflow still required the predecessor PR #15 panel Git blob:
 
-The predecessor source declared:
+`4da242e35a84b20a80f4acf28146be613624e734`
 
-- panel body depth: **`0.08 m`**;
-- receiver plate thickness: **`0.04 m`**;
-- panel center standoff from receiver origin: **`0.08 m`**;
-- required body clearance beyond plate: **`0.02 m`**.
+But PR #17 intentionally changed the owning panel source to exact blob:
 
-The historical builder treated:
+`51b7fa61dd87934a89e033a2fdf5cc3b99992454`
 
-`standoff - plate_thickness`
+The source change is the already-proved standoff correction `0.08 -> 0.10 m`; it does **not** change the local service-surface geometry.
 
-as body clearance. That expression measures only the **body-center surplus beyond the plate**, not the nearest body face. Because the body has `0.08 m` depth, the nearest face lies another `0.04 m` inward.
+The current service-surface domain already truthfully binds the successor source blob and still owns exactly:
 
-Predecessor physical gap:
+- surface ID `utility_panel_outer_service_surface`;
+- local positive-X outer face;
+- origin `[0.04, 0, 0] m`;
+- primary axis `+Y`;
+- secondary axis `+Z`;
+- outward axis `+X`;
+- metric extent `1.10 × 1.50 m`;
+- area `1.65 m²`;
+- source face structure `4 vertices / 2 triangles`.
 
-`0.08 - 0.04 - 0.08/2 = 0.00 m`
+The verifier itself already derives and checks the current panel Git blob. The failure was therefore a stale CI provenance assertion, not evidence of a new geometry, metric-domain or clearance defect.
 
-So the old source violated its own declared `0.02 m` nearest-body-face requirement while appearing to pass a center-offset check.
+## Bounded repair
 
-## Smallest source successor
+Advanced existing PR #17 only.
 
-PR #17 changes the source placement fact only:
+Current exact head:
 
-**`standoff_from_receiver_origin_m: 0.08 -> 0.10`**
+**`32bbdd54f00aaac87ba8139bf932d8aff6109a66`**
 
-Preserved source facts:
+Changed file only:
 
-- proof box: **`0.08 × 1.10 × 1.50 m`**;
-- interface footprint: **`1.10 × 1.50 m`**;
-- four mount points: unchanged;
-- local service-surface identity/frame/metric domain: unchanged;
-- outer service surface: local `+X`, origin `[0.04, 0, 0]`, area **`1.65 m²`**.
+`.github/workflows/hard-surface-utility-panel-service-surface-domain.yml`
 
-Corrected physical gap under both exact service-pavilion receivers:
+Exact predecessor-to-current comparison is **1 commit / 1 file / 3 additions / 3 deletions**.
 
-`0.10 - 0.04 - 0.08/2 = 0.02 m`
+The repair:
 
-Corrected centers:
+1. renames the binding step to make the successor identity explicit;
+2. replaces the stale predecessor panel blob assertion with current exact blob `51b7fa61dd87934a89e033a2fdf5cc3b99992454`;
+3. updates the retained receipt assertion to the same exact successor blob.
 
-- front utility bay: **`[-2.45, -1.10, 1.65]`**;
-- east utility bay: **`[3.90, 0.10, 1.65]`**.
+No source JSON, proof geometry, builder, verifier, tolerance, test threshold, service-surface dimensions, UV/material authority, receiver adoption, Runtime behavior, UC code or PF code changed in this activation.
 
-The source-owned contract remains:
+The historical failed run remains visible and is not relabelled as PASS.
 
-**`axm.building-utility-panel-receiver-clearance-envelope/v0.1`**
-
-## Builder semantic repair
-
-The activation found that changing the source standoff alone still left the established `fit_panel()` builder exposing the old center-only quantity under the misleading field name `body_clearance_beyond_plate_m`.
-
-That ambiguity was repaired at the source builder boundary:
-
-- `body_center_surplus_beyond_plate_m = standoff - plate_thickness`;
-- `body_clearance_beyond_plate_m = standoff - plate_thickness - body_depth/2`.
-
-The builder now validates the **nearest-body-face** gap and keeps the center surplus only as a separately named diagnostic.
-
-At the corrected source:
-
-- center surplus: **`0.06 m`**;
-- physical nearest-body-face clearance: **`0.02 m`**;
-- these values are explicitly asserted to remain different facts.
-
-`tests/test_service_pavilion.py` now requires exact `0.02 m` physical clearance in both orthogonal receiver frames and retains the `0.06 m` center-surplus witness.
-
-## Test-harness repair retained honestly
-
-The first exact-head dedicated run:
-
-**`35247570213 — Hard-surface Building utility-panel receiver-clearance evidence`**
-
-failed on both Python 3.11 and 3.13 during the complete unit-suite step, before receipt/artifact creation.
-
-Inspection found a test-harness-only binary-float mistake in the new per-side footprint-margin assertion. The actual computations are:
-
-- `(1.20 - 1.10) / 2 = 0.04999999999999993`;
-- `(1.60 - 1.50) / 2 = 0.050000000000000044`.
-
-The test incorrectly required exact list equality with `[0.05, 0.05]` despite the verifier already using a `1e-12` numeric tolerance. The repair changes only that assertion to `assertAlmostEqual(..., places=12)` for each axis. No geometry, source value, clearance threshold, authority boundary or negative control was weakened.
-
-The red predecessor remains retained as provenance.
-
-## Workflow binding strengthened
-
-The dedicated workflow now explicitly watches and compiles the source builder and its regression test in addition to the source contract/verifier:
-
-- `tools/build_service_pavilion.py`;
-- `tests/test_service_pavilion.py`;
-- `tools/verify_utility_panel_receiver_clearance_envelope.py`;
-- `tests/test_utility_panel_receiver_clearance_envelope.py`;
-- source/policy/service-surface assets.
-
-This prevents future builder-semantics drift from bypassing the dedicated clearance evidence lane.
-
-## Structural result at exact source values
-
-The bounded source result being tested is:
-
-- receiver plate outer offset: **`0.04 m`**;
-- panel body inner offset: **`0.06 m`**;
-- panel body outer offset: **`0.14 m`**;
-- nearest-body-face gap: **`0.02 m`**;
-- required gap: **`0.02 m`**;
-- clearance slack: **`0.00 m`**;
-- successor center surplus: **`0.06 m`**;
-- predecessor physical gap: **`0.00 m`**;
-- predecessor shortfall: **`0.02 m`**;
-- per-side footprint capacity margin: nominally **`0.05 m / 0.05 m`**.
-
-Fail-closed controls still cover:
-
-1. predecessor `0.08 m` standoff;
-2. body-depth drift to `0.10 m`;
-3. required-gap drift to `0.03 m`;
-4. front plate-thickness drift to `0.05 m`;
-5. silent authority expansion into fastener geometry.
-
-Scoped intended result remains:
-
-**`PASS_SOURCE_OWNED_BUILDING_UTILITY_PANEL_RECEIVER_CLEARANCE_ENVELOPE`**
-
-That result is **not yet promoted to exact-head CI PASS in this status** because the final exact-head workflows are still queued.
-
-## Exact CI state — truthfully pending
-
-Final exact head:
-
-**`de5f6417ce0eba24b567f32eb7528c1884edf23d`**
-
-Dedicated workflow:
-
-**`35248685291 — Hard-surface Building utility-panel receiver-clearance evidence`**
-
-Last observed state:
-
-**QUEUED / no conclusion yet**.
-
-Current-source-policy workflow on the same exact head:
-
-**`35248689593`**
-
-Last observed state:
-
-**QUEUED / no conclusion yet**.
-
-Five workflow runs are associated with this exact head. No green-CI, artifact, rehash or production-readiness claim is made before those workflows actually finish.
-
-## Reusable Hard-Surface learning
+## Reusable Hard-Surface / provenance learning
 
 Building-local rule:
 
-**`BODY_CLEARANCE_MUST_BE_MEASURED_FROM_THE_NEAREST_BODY_FACE__CENTER_OFFSET_MINUS_PLATE_THICKNESS_IS_NOT_BODY_GAP_WHEN_THE_BODY_HAS_DEPTH`**
+**`DERIVED_SERVICE_SURFACE_GEOMETRY_MAY_REMAIN_IDENTICAL_ACROSS_A_SOURCE_SUCCESSOR__EVIDENCE_WORKFLOWS_MUST_REBIND_CURRENT_SOURCE_IDENTITY_INSTEAD_OF_PINNING_A_STALE_PREDECESSOR`**
 
-More generally, three quantities must remain distinct:
+The important distinction is between:
 
-1. **placement datum / body-center standoff**;
-2. **receiver plate outer offset**;
-3. **physical nearest-body-face clearance** after body half-depth is accounted for.
+1. **source identity** — changed because the owning panel source legitimately changed;
+2. **derived local surface geometry** — unchanged and re-proved against the successor;
+3. **consumer adoption** — separate and never automatic.
 
-A center-based transform can be geometrically correct while a clearance claim derived from that center is physically false. Hard Surface should source-own which datum a placement value addresses before downstream systems infer serviceability or fit.
+A derived surface may remain geometrically identical after a source successor, but its evidence cannot keep claiming the predecessor blob as current authority. Conversely, rebinding the source identity does not grant downstream Geometry, Materials, Procedural, Map, Technical Art or Runtime adoption.
 
-This remains **Building-local**. No materially independent Weapon/Armor/Unit/Object/Misc source has yet reproduced the same center-datum clearance defect, so no generic UC/PF mechanism contract is promoted.
+This stays Building-local for now. No UC/PF extraction is justified merely by one successor-rebind incident.
 
-## Propagation / handoffs
+## Current exact-head verification state
 
-- **Building PR #17:** comment `5718048344` records the builder-semantic repair, retained red predecessor, float-test repair and exact queued-CI boundary.
-- **Building Geometry PR #16:** comment `5718050041` records that its local `+X` chart geometry remains historical evidence against PR #15, but exact source identity must not be silently rebound to PR #17 even though local face dimensions are unchanged.
-- **Materials / Procedural / Map / Technical Art / Runtime:** no automatic consumer migration or acceptance transfer. Any successor adoption must explicitly bind the new source identity and retest its own receiver contract.
+Current PR #17 head:
 
-No PR was merged or marked ready for review.
+`32bbdd54f00aaac87ba8139bf932d8aff6109a66`
+
+Fresh exact-head pull-request workflows observed:
+
+- `35251413642` — receiver-clearance evidence — **QUEUED**;
+- `35251413660` — current-source policy evidence — **QUEUED**;
+- `35251413780` — Hard-surface Building evidence — **QUEUED**;
+- `35251413737` — repaired utility-panel service-surface-domain evidence — **QUEUED**.
+
+Because the repaired exact head has not executed yet, this status deliberately remains **HOLD**. No new all-green claim, retained-artifact identity, independent rehash, CANON or production-readiness claim is made.
+
+PR #17 remains **OPEN / DRAFT / UNMERGED**. GitHub mergeability metadata was recalculating immediately after the new commit and is not treated as evidence authority.
+
+## Propagation / handoff
+
+Building PR #17 comment `5718395027` records:
+
+- the exact red inherited workflow;
+- the stale predecessor source pin;
+- the one-file successor-provenance repair;
+- unchanged service-surface geometry/authority;
+- queued current-head workflows;
+- the no-PASS-before-CI boundary.
+
+Geometry PR #16 remains historical exact evidence against PR #15 and is not silently rebound. Procedural PR #4 has an explicit successor-rebind lane of its own and retains separate adoption authority. Materials, Map, Technical Art and Runtime likewise receive no automatic source migration from this Hard-Surface repair.
 
 ## Truth boundary / explicit non-claims
 
 This activation does **not** establish or choose:
 
-- fastener geometry;
-- tooling envelope;
+- new panel geometry;
+- fastener or tooling geometry;
 - hinge/latch/seal design;
-- manufacturing tolerance;
-- structural or engineering loads;
+- manufacturing tolerances or engineering loads;
 - collision/physics correctness;
-- runtime attachment;
 - UV/material adoption;
 - Map/Environment adoption;
-- visual quality or Art/QA acceptance;
-- arbitrary-panel clearance correctness;
+- Runtime/device acceptance;
+- Art Direction / Visual QA acceptance;
+- arbitrary successor-rebind safety;
 - UC/PF implementation;
 - CANON;
 - production/game readiness;
@@ -249,13 +170,13 @@ This activation does **not** establish or choose:
 
 ## Four-root gate
 
-- **Truth:** the zero-clearance predecessor defect, failed CI predecessor, binary-float test mistake and still-queued final CI are all retained explicitly; no pending workflow is called green.
-- **Agency / non-domination:** Hard Surface changes only producer-side placement/clearance semantics. Geometry, Materials, Procedural, Map, Technical Art, Runtime, Art and QA keep their own adoption/acceptance authority.
-- **Continuity:** PR #17 stacks on exact PR #15 rather than rewriting it; PR #16 remains historical exact evidence; the old center-surplus quantity is retained under a truthful new name instead of silently disappearing.
-- **Wisdom before speed:** no empty Weapon/Armor/Unit/Misc repo was filled speculatively, no UC/PF abstraction was promoted from one example, and final PASS is held until exact-head CI finishes.
+- **Truth:** the previous exact head is reported as three green workflow families plus one red inherited workflow, not as all-green. The red failure is localized to a stale source identity pin, and the repaired head remains HOLD while queued.
+- **Agency / non-domination:** Hard Surface repairs only its own evidence binding. Geometry, Procedural, Materials, Technical Art, Map/Environment, Runtime, Art and QA keep their own adoption and acceptance authority.
+- **Continuity:** the predecessor source blob, failed workflow `35248689586`, previous status blob and existing PR #17 history remain explicit and rollbackable. The workflow is rebound rather than historical evidence being rewritten.
+- **Wisdom before speed:** no new asset or mechanism is started while the current exact source-successor lane still has unresolved hosted CI.
 
 ## Next Hard-Surface trigger
 
-First action next activation: inspect exact head `de5f6417...` workflows. If green, retain exact artifact identity and promote this status from ACTIVE to the bounded PASS. If red, repair only the evidenced failure without weakening the nearest-face clearance contract.
+First inspect exact head `32bbdd54...` workflows. If all required workflows complete green, retain the exact artifact identities and promote the source-clearance successor to a bounded PASS. If any workflow is red, repair only the evidenced failure without weakening source identity, nearest-body-face clearance, service-surface geometry or authority boundaries.
 
-Only after this lane is resolved should Hard Surface re-scan the constellation for a different manufactured seam, preferring the first grounded Weapon/Armor/Unit/Misc mechanism if one appears. Do not continue Building by cadence merely because it currently has source material.
+Only after this exact head is resolved should Hard Surface select a different manufactured seam, preferring the first grounded Weapon/Armor/Unit/Misc source if one appears rather than continuing Building by cadence.
