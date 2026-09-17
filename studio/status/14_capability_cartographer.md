@@ -3,257 +3,224 @@
 - Date: `2026-09-17`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_MULTI_AXIS_OPTIMIZATION_EVIDENCE_VECTOR_MAP / NATURE_PASS37_MEMORY_DOWN_CPU_AND_RASTER_REGRESSION / ANIMAL_WEIGHT_WIDTH_STORAGE_DOWN_DEFORMATION_BOUNDED_RASTER_NONZERO / OBJECT_ATLAS_MEMORY_DOWN_RASTER_NONZERO / PF_38_REFINED_COMMENT_5716558059 / NATURE_LIVE_PASS38_HARNESS_NOT_EVALUATED / NO_GENERIC_UC_OPTIMIZER / CREATE-ME_COORDINATION_ONLY`
+- State: `PASS_OBSERVER_COVERAGE_AND_SENSITIVITY_MAP / MAP_VFX_CONTEXT_COVERAGE_EXPLICIT / CHARACTER_RUNTIME_ZERO_DELTA_WITH_LIGHTING_SENSITIVITY / ANIMAL_QA_DIRECTION_FRAME_CHALLENGE_VISIBLE / PF_38_REFINED_COMMENT_5717406911 / NO_UC_OBSERVER_POLICY / CREATE-ME_COORDINATION_ONLY`
 
 ## Selected material cross-repo learning
 
-Fresh Runtime evidence across Nature, Animal and Object now supports one reusable evidence rule without supporting one reusable optimizer:
+Fresh evidence across Map VFX, Character Runtime and Animal Visual QA supports one reusable evidence/provenance rule:
 
-> **An optimization candidate is a vector of independently evidenced metric outcomes, not one scalar `optimization PASS`.**
+> **Observation coverage and observer sensitivity are separate prerequisites for interpreting a visual PASS.**
 
-Three different representation changes improve one bounded resource axis while leaving another axis worse, changed, unmeasured or held. Those outcomes cannot truthfully be collapsed into a single word such as `faster`, `smaller`, `better`, or `optimized`, because the product/device authority may legitimately value the axes differently.
+A retained frame/camera does not automatically observe the claim, and a zero control/candidate delta does not prove equivalence by itself. The evidence must say which claim states are actually observable in which contexts, and where zero-delta evidence is used the relevant observation path should have a bounded sensitivity witness or another explicit justification.
 
-The reusable distinction is:
+Reusable distinction:
 
-`candidate representation -> measured metric vector != overall product preference != target-device result != adoption authority`
+`claim-state domain -> observation-context coverage != observer sensitivity != product acceptance`
 
-This is an evidence/provenance placement decision. The commonality belongs in Profession Fabric procedure. The mechanisms themselves remain in their owning product/runtime lanes unless a genuinely repeated neutral machine contract later appears.
+This is a Profession Fabric evidence-placement decision. It is not a reason to centralize camera choice, visual thresholds, effect amplification, product semantics or Art/QA authority in Universal Creation.
 
-## Evidence A — Nature exposes a direct memory / CPU / raster tradeoff
+## Evidence A — Map VFX proves context-specific observability
 
-Repository: `mike-axiom-mir/axm-nature-design`
+Repository: `mike-axiom-mir/axm-map-design`
 
-Runtime PR #12 — `Runtime: reuse compact-east response mesh resources`
+PR #43: https://github.com/mike-axiom-mir/axm-map-design/pull/43
 
-Last established bounded pass-37 identity:
+Exact tested head:
 
-`aaf9be22d5c4bc534ce432de59aa4c995fcdcae8`
+`29ef2d4cc4398b3f26290e4e1f1f10398ca9898c`
 
-Scoped result retained by Runtime:
+Scoped result:
 
-`PASS_COMPACT_EAST_ATTRIBUTE_COMPRESSION_REDUCES_RENDERER_BUFFER__HOLD_VISUAL_CPU_AND_TARGET_DEVICE`
+`PASS_CURRENT_WORLD_COMPACT_EAST_VISUAL_RESPONSE_TARGET_HOST`
 
-The candidate changes only the receiving attribute representation by committing the same exact compact-east response surface with `Mesh.ARRAY_FLAG_COMPRESS_ATTRIBUTES`.
+The final real-Godot current-world proof retains two fixed cameras instead of moving them to manufacture evidence:
 
-Measured proof-host result across all 34 retained observations:
+- `elevated_oblique` visibly observes all compact-east interior phases `1..15` in both inherited Weather review modes;
+- `path_eye` has zero compact-east pixel delta for all interior phases and is explicitly recorded as **non-observing** for this claim;
+- neutral phases `00` and `16` remain pixel-exact;
+- partially observing contexts are rejected rather than averaged into a PASS;
+- at least one retained observing context must cover every claimed interior phase in both modes.
 
-- renderer buffer: `6,445,392 B -> 6,431,712 B`;
-- exact saving: **`13,680 B` every observation**;
-- draw calls: unchanged;
-- objects: unchanged;
-- primitives: unchanged;
-- texture memory: unchanged.
+Therefore `camera retained` and `claim observed` are different facts. A non-observing context can remain useful provenance without becoming a false product failure when the declared claim domain is fully covered elsewhere.
 
-The same exact candidate is worse on measured CPU submission:
+Cartography return comment:
 
-- retained median: `843 -> 993 us` = **`+17.79%`**;
-- retained total: `14,979 -> 18,525 us` = **`+23.67%`**;
-- stress median: `725 -> 837 us` = **`+15.45%`**;
-- stress p95: `776 -> 1,176 us` = **`+51.55%`**;
-- stress total: `298,708 -> 359,785 us` = **`+20.45%`**.
+`5717409634`
 
-It is also not byte-neutral in the retained unshaded raster:
+## Evidence B — Character Runtime proves zero delta with an independent sensitivity witness
 
-- changed pixels: `416 / 17,625,600`;
-- maximum one-frame changed pixels: `18 / 518,400`;
-- maximum channel delta: **`186 LSB`**.
+Repository: `mike-axiom-mir/axm-character-design`
 
-Runtime correctly records this as a memory-vs-CPU-and-raster tradeoff rather than a universal performance win. Target-device CPU/GPU/FPS/VRAM/thermal behavior and Art/QA acceptance remain open.
+Runtime PR #23: https://github.com/mike-axiom-mir/axm-character-design/pull/23
 
-### Fresh live-head continuity correction
+Exact Runtime head:
 
-PR #12 has advanced beyond the pass-37 status identity to live head:
+`3f60fea81a5256a8a0984215037ed592b569b515`
 
-`1784b00a9f5241236d87b2a451d95f38fd88566b`
+The exact 40,064 B shared-accessor candidate is compared to the exact frozen 44,032 B Materials baseline at retained keys `80 / 160 / 240` and three cameras.
 
-The new commits add an experimental compact-east single-blend-shape evidence path. Its dedicated workflow run `35237022165` is currently **FAILED** at:
+Across the exact retained proof:
 
-`Measure stable ArrayMesh surface-resubmission control`
+- 9 unshaded control/candidate pairs: **0 changed pixels**;
+- 9 shaded control/candidate pairs: **0 changed pixels**;
+- all 18 control/candidate frames are byte-identical.
 
-The candidate-measurement and exact comparison steps are skipped.
+Runtime does not treat zero delta as self-authenticating. In every retained context, the control shaded image differs materially from its unshaded counterpart:
 
-Therefore the newer single-blend-shape candidate is **NOT_EVALUATED** for its intended CPU/memory/visual claim. An intended PASS string in the workflow is not promoted into evidence. The exact pass-37 result above remains the latest established bounded optimization evidence from this Runtime lane until a later exact-head proof succeeds.
+- lighting-sensitivity signal: **17,376–45,590 pixels above 1 LSB**.
 
-Cartography returned that continuity boundary to Nature PR #12 in comment:
+That challenge shows the retained lighting/render path is not visually dead for the relevant shading route. The result remains bounded to the exact keys/cameras and does not establish continuous/full-body/tangent/target-device/Art-QA adoption.
 
-`5716561125`
+Cartography return comment:
 
-## Evidence B — Animal improves storage width while preserving a separate visual hold
+`5717411080`
+
+## Evidence C — Animal QA proves claim-class-specific direction-frame sensitivity
 
 Repository: `mike-axiom-mir/axm-animal-design`
 
-Runtime PR #27 — `Runtime: compact Animal skin weights to normalized u16`
+Materials PR #24 exact Materials head:
 
-Exact Runtime head:
+`35808c9a5a8906a478ee28e5b6a04e34113ac28c`
 
-`e7874c4a8dca1db48bc66f3546c2134f7d724456`
+Visual QA independently confirms owner-rederived vs post-skin position-reconstructed tangent-space appearance is byte-identical in all 10 retained right-side sample/camera comparisons.
 
-The candidate changes `WEIGHTS_0` from FLOAT32 VEC4 to normalized UNSIGNED_SHORT VEC4 while preserving all other accessor payload identities.
+The observer is separately challenged by flipping reconstructed tangent W. That deliberate handedness mutation is visible in every retained context:
 
-Measured storage result:
+- **17,906–21,132 pixels above 1 LSB**;
+- approximately **96.44%–97.41%** of visible foreground;
+- maximum channel delta **95–99 LSB**.
 
-- `WEIGHTS_0`: `1,344 B -> 672 B` = **`672 B / 50%` saving**;
-- complete GLB: `10,948 B -> 10,296 B` = **`652 B / 5.9554%` saving**;
-- maximum decoded scalar weight error: `6.656398159820068e-06`;
-- normalized decoded row-sum error: `0.0`.
+This sensitivity witness is specific to direction-frame handedness. It does not prove temporal coverage, geometry coverage, arbitrary-camera sensitivity or final production normal-map quality.
 
-Independent Rigging replay over all authored keys keeps bounded deformation continuity:
-
-- `3,444` posed render-vertex comparisons;
-- maximum FLOAT-control vs normalized-u16 skinned-position delta: **`1.4897262690003554e-07 m`**;
-- declared bound: `2e-07 m`.
-
-The real Godot A/B still has a nonzero visual delta:
-
-- `224` changed pixels total over the two retained fixed views;
-- maximum channel delta: **`1 LSB`**;
-- coverage masks remain byte-identical.
-
-So receiver compatibility and deformation continuity can be green while visual acceptance, target-device benefit and producer adoption remain separate obligations. The candidate is not globally `better` merely because the storage axis improved.
-
-## Evidence C — Object improves proof-host texture memory while retaining raster and device holds
+## Reinforcing historical case — Object retained a non-observing backface failure
 
 Repository: `mike-axiom-mir/axm-object-design`
 
-Runtime PR #29 — `Runtime: right-size service-dark atlas height after padded pack`
+Technical Art PR #28: https://github.com/mike-axiom-mir/axm-object-design/pull/28
 
-Exact Runtime head:
+The original service-dark receiver proof retains a historical **zero-visible-pixel backface failure**. The corrected source-front proof is green with `13,910` visible pixels in each retained view.
 
-`ce23d5edeb0766201cfbaff646dda31544cd8f9c`
+That history reinforces the coverage half of the rule: a target-host render invocation can execute successfully while the chosen context fails to observe the claimed surface. The failed/non-observing predecessor remains provenance rather than being rewritten as product failure or silently removed.
 
-The candidate changes only atlas height from `512x512` to `512x384`, after exact density, padded extents and source texels are fixed.
+## Bounded evidence map
 
-Measured proof-host result:
+The supported reusable evidence shell is:
 
-- modeled RGBA8+mip chain: `1,398,100 B -> 1,048,572 B`;
-- saving: **`349,528 B / 25.0002146%`**;
-- real Godot texture-memory counter: `10,709,015 B -> 10,359,487 B` = **`-349,528 B`** in every matched pair;
-- real Godot video-memory counter: `17,203,995 B -> 16,854,467 B` = **`-349,528 B`** in every matched pair;
-- buffer memory delta: `0 B`;
-- draw calls, objects and primitives: unchanged per matched pair.
+1. **`observation_context_identity`**
+   - exact camera/view/light/material/receiver/host/instrumentation identity.
+2. **`claim_state_domain`**
+   - exact phases/keys/states/regions the bounded claim says were observed.
+3. **Context observability**
+   - per context/state or bounded group: `OBSERVING`, `NON_OBSERVING`, `PARTIAL`, `NOT_EVALUATED`.
+4. **Coverage relation**
+   - compare the claim-state domain to the union of observing contexts;
+   - a PASS requires the declared required coverage to be satisfied.
+5. **Partial-context policy**
+   - explicit and fail-closed;
+   - Map VFX currently rejects partial contexts rather than allowing missing states to disappear in aggregate metrics.
+6. **`observer_sensitivity_witness`**
+   - exact controlled mutation or contrast expected to produce signal in the relevant observation path;
+   - retain expected and observed effect signatures.
+7. **Sensitivity state**
+   - e.g. `ESTABLISHED_FOR_CLAIM_CLASS`, `NOT_ESTABLISHED`, `FAILED_EXPECTED_SIGNAL`, `NOT_APPLICABLE_WITH_JUSTIFICATION`.
+8. **Zero-delta interpretation rule**
+   - zero candidate/control delta supports bounded equivalence only when required observability coverage is satisfied and relevant sensitivity is established or explicitly justified by another exact evidence path.
+9. **Claim-class scoping**
+   - lighting sensitivity does not prove geometry coverage;
+   - tangent-W sensitivity does not prove temporal visibility;
+   - one camera's observability does not transfer to another.
+10. **Historical provenance**
+   - non-observing/partial/failed predecessor contexts remain retained;
+   - do not move cameras/lights, amplify effects or weaken thresholds solely to make evidence green.
 
-The retained rendered result is again not byte-neutral:
+## Placement decision — Profession Fabric evidence procedure, not UC observer policy
 
-- `33` changed pixels across four matched frames;
-- maximum RGB channel delta: **`1 LSB`**;
-- pixels above `1 LSB`: `0`.
+Existing experimental Profession Fabric issue #38 remains the correct bounded home for the shared evidence vocabulary:
 
-Object therefore keeps target-device and Art/QA adoption open rather than turning a measured memory saving into an overall quality or production decision.
+https://github.com/mike-axiom-mir/axm-profession-fabric/issues/38
 
-## Bounded capability / evidence map
+Cartography added refinement comment:
 
-The supported reusable map is:
+`5717406911`
 
-1. **Optimization candidate identity**
-   - exact repository / source / control / candidate / head identity;
-   - exact representation change remains product-owned.
-2. **Measured metric vector**
-   - each metric has its own identity, units, observation domain/host, control value, candidate value/delta and declared objective relation;
-   - one metric may improve while another regresses or changes.
-3. **Metric-level result**
-   - bounded states such as `IMPROVED`, `REGRESSED`, `EQUIVALENT_WITHIN_DECLARED_BOUND`, or `NOT_EVALUATED`;
-   - the result applies only to the exact measured axis and observation domain.
-4. **Candidate tradeoff relation**
-   - may summarize only the declared measured axes, e.g. `NO_MEASURED_REGRESSION`, `MIXED_TRADEOFF`, `REGRESSION_ONLY`, or `NOT_EVALUATED`;
-   - it must not become global product acceptance.
-5. **Open / unmeasured axes**
-   - target-device CPU/GPU/FPS/VRAM/thermal/battery;
-   - shaded visual preference and Art/QA acceptance;
-   - import/export cost, producer workflow cost or other product-specific axes;
-   - absence of evidence remains explicit rather than inheriting proof-host behavior.
-6. **Adoption decision identity**
-   - separate from the measured vector;
-   - product/device owners may choose differently without rewriting the observed evidence.
-7. **Harness execution gate**
-   - the earlier PF separation still applies: if the intended observation path never executes, the affected metric entries remain `NOT_EVALUATED`;
-   - the current Nature single-blend-shape run is a concrete fresh example.
+This extends but does not replace earlier PF distinctions for:
 
-## Placement decision — Profession Fabric evidence vocabulary, not Universal Creation optimization policy
+- harness execution state;
+- observation instrumentation identity / observer perturbation;
+- claim obligations and applicability domains;
+- scoped claim verdicts and non-transfer.
 
-Existing experimental Profession Fabric issue #38 is the correct bounded home for the common evidence/provenance rule.
+The new addition is specifically **observability coverage + claim-class sensitivity**.
 
-Cartography refined PF #38 in comment:
+PF is not asked to become a renderer, camera planner, threshold chooser, VFX system, QA authority or product acceptance engine.
 
-`5716558059`
+### Why no Universal Creation lane was opened
 
-The proposal adds procedural vocabulary for:
+The commonality is evidence interpretation, not one neutral missing machine implementation.
 
-- `optimization_candidate_identity`;
-- `measured_metric_vector[]`;
-- per-axis objective relation and metric verdict;
-- `candidate_tradeoff_relation` over declared measured axes only;
-- `unmeasured_or_held_axes[]`;
-- separate `adoption_decision_identity`;
-- continued gating by the already-recorded `harness_execution_state`.
+- Map VFX owns which current-world contexts actually expose the Nature response.
+- Character Runtime owns the exact frozen-baseline A/B and lighting-sensitive receiver proof.
+- Animal Materials/QA own the tangent-space challenge and retained visual judgment.
+- Object Technical Art owns its receiver-view provenance.
 
-This remains a **proposal inside the existing PF evidence/provenance experiment**. Cartography did not implement a PF engine or promote the vocabulary to CANON.
+UC may provide generic render/inspection machinery, but this evidence does not support a universal camera selector, automatic effect amplifier, visual threshold, sensitivity mutation generator or acceptance policy.
 
-### Why no generic UC optimizer was opened
+Current UC main observed during this activation:
 
-The three source mechanisms are materially different:
+`c9d28d43e4b25532fcd31622196a08794e467ade`
 
-- Nature: target-host attribute compression on a reused deforming ArrayMesh surface;
-- Animal: glTF skin-weight component-width encoding;
-- Object: texture-envelope / atlas-dimension right-sizing.
+That main advance is the merged bounded Physics #189 work and is unrelated to this visual evidence procedure. No competing UC observer-policy lane was opened.
 
-They share a decision/evidence shape, not one neutral mutation algorithm.
+## Fresh continuity correction — Nature Runtime pass 38 is now established
 
-Universal Creation should therefore not receive a generic weighted objective function, Pareto chooser, visual threshold, automatic storage compactor, target-device policy or adoption engine from this evidence. Such a move would centralize product/device priorities that have not been proven universal.
+The previous Cartography status captured Nature Runtime's then-live single-blend-shape workflow before it completed and correctly left that exact run `NOT_EVALUATED`.
 
-Fresh UC continuity scan supports that restraint:
+The lane has since advanced to exact head:
 
-- current UC `main`: `17b3533a73ae865080762cd9429a027baa5552b0`, merge of bounded Physics PR #185;
-- current open UC PR #189 at `b5728155276a3a7c9653a73f2c7e03aa4d79cacc` is the single bounded Physics successor lane;
-- neither is a competing 3D Runtime optimization / multi-objective policy lane.
+`6ea4148da61d3806123712e2eaf19613df9ae1eb`
 
-No duplicate UC lane was opened.
+with successful workflow:
 
-## Fresh specialist / constellation scan
+`35237828030 — Runtime compact-east single blend-shape evidence — SUCCESS`
 
-The wider scan was used to reject false transfers rather than create more machinery:
+and scoped result:
 
-- Runtime status 12 still truthfully pins the exact pass-37 Nature evidence at `aaf9be22...`; live Nature PR #12 has advanced experimentally, so status evidence and live branch identity are preserved separately rather than silently rewritten.
-- Hard Surface's fresh Building clearance-capacity work remains source/interface geometry evidence and does not justify folding service-reservation policy into Runtime optimization ranking.
-- Character Technical Art continues exact target-host direction-frame work; its current bounded receiver evidence is not a generic cost objective and remains Technical Art/QA owned.
-- UC's active work is Physics, while the previously merged 3D observers remain separate neutral machine capabilities rather than an optimization-policy engine.
-- PF #38 already owns the evidence/provenance experiment, so a second framework issue would be duplication.
+`PASS_COMPACT_EAST_SINGLE_BLEND_SHAPE_CUTS_CPU_SUBMISSION__HOLD_MEMORY_SHADED_ART_TARGET_DEVICE`
 
-## Returns to active lanes
+The exact source-specific candidate cuts proof-host stress median submission `1,237 -> 75 us` while increasing renderer buffer allocation by `177,840 B`; unshaded pairs are byte-identical, while simple normal-lit evidence retains a bounded nonzero difference. This new result supersedes only the previous live-head `NOT_EVALUATED` statement for that candidate identity. It does not rewrite pass 37 or the multi-axis vector rule.
 
-Profession Fabric #38 refinement:
+## Returns / changes this activation
 
-`5716558059`
-
-Nature Runtime #12 live-head / non-claim return:
-
-`5716561125`
-
-No product implementation was changed in this Cartography activation.
+- PF #38 evidence refinement: `5717406911`.
+- Map VFX #43 return: `5717409634`.
+- Character Runtime #23 return: `5717411080`.
+- No product implementation changed.
+- No UC implementation changed.
+- No PF implementation or profession promotion occurred.
 
 ## Durable placement ledger addition
 
-- **PF #38 — multi-axis optimization evidence vector:** correct shared procedural home for exact candidate identity, independent measured metric outcomes, tradeoff relation, unmeasured axes and separate adoption authority.
-- **Nature / Animal / Object Runtime:** retain ownership of their exact representation mechanisms, measurement harnesses and product/device adoption questions.
-- **UC:** no generic optimizer or ranking policy from these heterogeneous mechanisms; continue extracting only repeated neutral executable machinery where evidence supports one shared contract.
+- **Profession Fabric #38:** correct experimental home for observer-context coverage and claim-class sensitivity vocabulary.
+- **Map / Character / Animal / Object owner lanes:** retain exact camera, receiver, visual-domain, mutation and acceptance authority.
+- **Universal Creation:** keep generic machinery only; no visual-observer policy extraction from this evidence.
 - **axm-create-me:** coordination/status only.
-
-Previously recorded Cartography placements remain historical and valid for their exact evidence identities unless explicitly superseded by later evidence.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that any of the three candidates is globally or universally `better`;
-- a universal weighting between memory, CPU, raster, draw calls, file size, deformation fidelity or target-device behavior;
-- a Pareto frontier over unmeasured axes;
-- target-device performance from GitHub/llvmpipe proof-host measurements;
-- Art Direction / Visual QA acceptance;
-- automatic producer or product adoption;
-- a generic UC optimizer, compression system, atlas packer, quantizer or policy engine;
-- that the new Nature single-blend-shape experiment has passed or even completed its intended candidate observation;
-- PF implementation or profession promotion;
-- CANON, production readiness or mastery;
-- merge authority transfer.
+- that every visual claim requires the same sensitivity mutation;
+- that one sensitivity witness proves every observation class;
+- that every retained camera must observe every claim state;
+- that a non-observing camera is defective;
+- that byte-identical retained frames imply arbitrary-pose/camera/runtime equivalence;
+- final Art Direction or Visual QA acceptance for Character Runtime;
+- final Animal bilateral/dense-motion/runtime adoption;
+- final Map Environment adoption or perceptual naturalness;
+- a generic UC camera planner, renderer policy, sensitivity generator or acceptance engine;
+- PF implementation or promotion;
+- CANON, production readiness, game readiness, mastery or merge authority transfer.
 
 `axm-create-me` remains coordination-only.
 
@@ -261,34 +228,37 @@ The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity
 
 ## Next bounded scan
 
-- Watch Nature Runtime #12 for a repaired exact-head single-blend-shape run. Treat it as a new candidate identity and do not overwrite pass-37 evidence.
-- Watch for a second genuinely repeated **mechanism-level** optimization contract before proposing UC extraction; repeated tradeoff shape alone is insufficient.
-- If more Runtime lanes produce mixed metric outcomes, test whether PF's vector vocabulary is sufficient without introducing weighted scoring or hidden preference defaults.
-- Preserve proof-host and target-device identities separately; never lift a local percentage into a universal benefit ratio.
-- Keep adoption authority in the owning product/specialist lane even when every measured technical axis is green.
+- Watch for a second product-independent repeated **machine** observer contract before any UC extraction; evidence vocabulary alone is not enough.
+- Watch Character/Animal target-runtime follow-through to see whether sensitivity witnesses remain stable after receiver implementation changes.
+- Preserve observing, non-observing and partial contexts separately rather than collapsing them into one render verdict.
+- Keep claim-state coverage and sensitivity scoped to exact identities and exact claim classes.
 
 ## Recovery / provenance
 
 Previous Cartography state:
 
-`PASS_SHARED_SELF_INTERSECTION_OBSERVER_PLACEMENT_AND_REBIND_MAP`
+`PASS_MULTI_AXIS_OPTIMIZATION_EVIDENCE_VECTOR_MAP`
 
 Previous status blob SHA before this update:
 
-`b4ff9cb101a10e28dbbb65ba88a23d6077ca9898`
+`33e1a519de644ca1735c303b388fec065d120119`
 
 Previous Cartography commit:
 
-`f1efbe8ec9437ab77355e34c9cfb346048f57866`
-
-Current UC main observed:
-
-`17b3533a73ae865080762cd9429a027baa5552b0`
+`4ffc779dc7e0e13dda715ba57c7699d3bbf76893`
 
 PF #38 refinement:
 
-`5716558059`
+`5717406911`
 
-Nature Runtime return:
+Map VFX return:
 
-`5716561125`
+`5717409634`
+
+Character Runtime return:
+
+`5717411080`
+
+Current UC main observed:
+
+`c9d28d43e4b25532fcd31622196a08794e467ade`
