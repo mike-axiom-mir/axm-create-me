@@ -1,254 +1,219 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-17
-State: **PASS_ANIMAL_TANGENT_SPACE_REPRESENTATIVE_DEFORMATION_VISUAL_NONCORRUPTION / PASS_ANIMAL_TANGENT_HANDEDNESS_MUTATION_RECEIVER_SENSITIVITY / BLOCKED_FINAL_ANIMAL_TANGENT_SPACE_VISUAL_ADOPTION__DEFORMED_TRANSPORT_DIRECTION_FRAME_HOLD_AND_ART_DIRECTION_PENDING**
+State: **PASS_CURRENT_WORLD_NATURE_SPLIT_SURFACE_CULLING_VISUAL_INTEGRATION_GATE / PASS_CURRENT_WORLD_NATURE_FOLIAGE_BACKFACE_RECOVERY_NO_SAMPLED_VISUAL_REGRESSION / BLOCKED_FINAL_NATURE_LOOK__ART_DIRECTION_SHADED_LOOKDEV_FLUTTER_AND_ARBITRARY_VIEW_ACCEPTANCE_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current QA / Art-Direction state, newest open constellation work, exact retained renders and downstream transport evidence before selecting one bounded visual gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current QA / Art Direction / Environment / Materials / Runtime state, newest open design PRs, fresh workflow outputs and exact retained renders before selecting one bounded visual gate.
 
-`axm-create-me` remains **coordination only**. Visual QA changed no Animal source, topology, UVs, normals, tangents, rig, weights, materials, Animation, Runtime, Map, Nature, Building, Universal Creation, Profession Fabric or gameplay/product implementation.
+`axm-create-me` remains **coordination only**. Visual QA changed no Map, Nature, Building, Object, Weather, Animal, Character, Universal Creation, Profession Fabric or gameplay/product implementation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Continuity from previous QA gate
 
-The previous exact QA result on Animal Materials PR #21 remains valid:
+The previous Animal tangent-space result remains valid:
 
-- representative deformed explicit logical-quad normals reduce historical-vs-exact topology shading sensitivity in every retained pose/camera comparison;
-- no retained-context broad visual corruption was found;
-- final normal+tangent adoption was explicitly held for a real tangent-space shaded diagnostic, exact transport evidence and Art Direction.
+- Materials PR #24 owner-frame tangent-space diagnostic is visually noncorrupt across the retained representative deformation envelope;
+- the deliberate tangent-W mutation remains visibly detectable;
+- Art Direction has since accepted that owner-frame diagnostic as the current comparison baseline;
+- final production Animal normal/tangent adoption is still held by the measured deformed transport direction-frame mismatch.
 
-Art Direction subsequently preferred the explicit normal field through representative deformation and named tangent-space shaded appearance on the exact UV/normal/tangent chain as the next Art-facing gate. That makes the new Materials PR #24 the direct unresolved dependency rather than a new speculative lane.
+This activation does not reopen or weaken that chain.
 
 ## Fresh constellation / duplication scan
 
-Highest-consequence completed unverified visual claim selected:
+The strongest completed unverified visual claim is now the **current-world Nature split surface-culling receiver** on Map Environment PR #24.
 
-**Animal Materials PR #24 — deformed tangent-space diagnostic in real Godot.**
+Why it outranks the other ready surfaces:
 
-Why this outranks another lane now:
+- Art Direction explicitly listed Nature leaf/backface target-host treatment as a next gate once complete evidence existed;
+- Map PR #24 now has a fresh exact-head Godot proof that changes current-world Nature culling by existing material role while preserving geometry/material identity and all other world state;
+- the result is directly visible in the real current-world scene, unlike the newer isolated unshaded Nature VFX leaf-flutter candidate;
+- Building boundary-shell compaction has a separate exact 0-pixel hard-normal proof but is not yet adopted into the current world;
+- Map Runtime PR #34 remains a much smaller one-pixel / one-LSB footprint-index tradeoff;
+- Animal still lacks a corrected transported direction-frame receiver;
+- Character remains structurally held by nonzero shoulder intersections.
 
-- PR #24 directly closes the visual-evidence dependency named by the previous QA and Art-Direction holds;
-- it consumes Geometry PR #20's exact seam-aware `42 source -> 84 render / 80 triangle` UV/explicit-normal/tangent domain and Rigging PR #22's exact representative deformed tangent frames;
-- Animation PR #5 has already reused the exact PR #24 renderer unchanged to capture all 41 authored samples, but that downstream sequence should not be visually promoted before the base tangent-space receiver itself is independently accepted;
-- Rigging PR #25 and current Technical Art PR #3 now expose a distinct **production-transport direction-frame HOLD**, so owner-frame lookdev and transported-frame equivalence must remain separate;
-- Animal Runtime PR #26 is a newer joint-index storage experiment and pre-claims no PASS; it does not resolve the appearance question;
-- Nature PR #11 now has real Godot/current-world migration evidence, but its leaf-sidedness/shaded-lookdev boundaries remain separate and it is not the direct dependency blocking the currently selected Animal surface chain;
-- Map Runtime PR #34 remains a much smaller one-pixel/one-LSB footprint indexing tradeoff;
-- Character remains structurally held by nonzero shoulder self-intersections after the newest stitch-edge repair/rebind.
-
-No duplicate Materials, Geometry, Rigging, Technical Art, Animation, Runtime, Art Direction or repair lane was opened.
+No duplicate Environment, Nature, Geometry, Materials, VFX, Runtime or Art lane was opened.
 
 ## Exact reviewed identity
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Repository: `mike-axiom-mir/axm-map-design`
 
-Materials review PR: **#24 — `Materials: render deformed tangent-space diagnostic in Godot`**
+Existing Environment PR: **#24 — `Environment: converge Weather variant with exact Object source`**
 
-Exact Materials head:
+Exact split-culling candidate head:
 
-`e9d5c451b16bd05d2419248f58bef911f83dc1e8`
+`10c6e29790b0b53b20abd603738cb54671af013c`
 
-Pinned owner chain:
+Exact current-world parent:
 
-- Rigging tangent head: `63c65d57fda0595217f86d971ff8c67f256188be`;
-- Geometry UV/tangent head: `ca4bb8a2f144231f8755eacc980785d1807b79db`;
-- render domain: `84` vertices / `80` triangles;
-- sides: LEFT + RIGHT;
-- weighting identities: `smoothstep-v0`, `ease-out-power-0p75-v1`;
-- representative angles: `-60/-30/0/+30/+60°`;
-- cameras: `three_quarter`, `grazing`;
-- shader modes: `flat_tangent_control`, `periodic_tangent_probe`, deliberate `flipped_handedness_mutation`;
-- target host: Godot `4.7.2`, GL Compatibility.
+`b0fa28733d77cad79d78f29e7ef76ccb9ab0b399`
 
-The periodic tangent-space field is source-local procedural diagnostic data, not a production normal map.
+Receiving policy:
+
+- policy ID: `source-woody-back__source-foliage-two-sided-001`;
+- geometry strategy: preserve current `390v / 570t` Nature source geometry;
+- woody surface cull: `CULL_BACK`;
+- foliage surface cull: `CULL_DISABLED`;
+- exact Nature Materials head: `8b2e0523d7a2b210c6404f15bafb08fbedcad4dd`;
+- Geometry PR #10 explicit duplicated leaf-backface candidate is retained as review evidence but **not adopted** by this receiver proof.
+
+The current-world candidate preserves Building, Object, Weather, route, cameras, lighting, dynamic Nature vertices and scalar material family. Only target-host culling by existing Nature material role changes.
 
 ## Retained evidence independently obtained
 
-Exact-head workflow:
+Fresh exact-head workflow:
 
-`35166492817 — Materials Animal tangent-space lookdev` — **SUCCESS**.
+`35172522809 — Environment Nature split surface-culling current-world evidence` — **SUCCESS**.
 
-Retained artifact:
+Candidate artifact:
 
-- ID `10475157597`;
-- size `2,521,229 B`;
-- GitHub SHA-256 `00c01a3728002140b85327f826423eead61e3557d66c79299d1e4fcf00c5ba1b`;
-- independently downloaded and rehashed by Visual QA to the exact same SHA-256;
-- `120` real PNGs = `40` exact pose/camera contexts × `3` shader modes;
-- target-host telemetry, exact payload and machine-readable Materials receipt retained with the renders.
+- ID `10477476774`;
+- GitHub SHA-256 `db67e657dcecb044e7e46b1aeedadc71fcb907c9c3720045f20a753de885f689`;
+- independently downloaded/rehashed by Visual QA to the exact same digest;
+- exact retained head `10c6e29790b0b53b20abd603738cb54671af013c`;
+- 68 real Godot current-world PNGs retained.
 
-The exact diagnostic shader uses a periodic UV-driven tangent-space normal perturbation. The deliberate mutation flips tangent handedness rather than changing source form, topology, pose or camera.
+Exact parent artifact:
 
-## Independent reproduction
+- ID `10474474259`;
+- GitHub SHA-256 `08347ca601af63cdbfd6d421ac86ffbaad110ef1e556c4e961de1b96d7772bf3`;
+- independently downloaded/rehashed by Visual QA to the exact same digest;
+- exact parent head `b0fa28733d77cad79d78f29e7ef76ccb9ab0b399`.
 
-### Coverage / silhouette invariance
+Target host remains Godot `4.7.2`, GL Compatibility.
 
-Visual QA recomputed foreground coverage masks for every exact flat/probe/flipped triple.
+## Independent all-frame reproduction
 
-Across all **40** retained contexts:
+Visual QA recomputed every exact parent/candidate PNG comparison across:
 
-- flat vs exact periodic probe coverage-mask XOR: `0` pixels;
-- exact periodic probe vs flipped-W mutation coverage-mask XOR: `0` pixels;
-- maximum coverage-mask XOR over the complete set: **`0` pixels**.
+- `17` dynamic states;
+- `2` fixed cameras: `path_eye`, `elevated_oblique`;
+- both inherited Weather presentations: thin-line control and source-width candidate;
+- `68` matched frame pairs total.
 
-So the tangent-space response changes shading without changing retained-view silhouette/coverage or introducing a culling disappearance in these contexts.
+Independent changed-pixel result:
 
-### Diagnostic strength
+- `path_eye`: **87–88 changed pixels/frame**;
+- `elevated_oblique`: **319–320 changed pixels/frame**;
+- maximum channel delta reproduces **216 LSB** path-eye and **204 LSB** elevated-oblique.
 
-Exact periodic probe vs flat control:
+This matches the owner report's bounded renderer-visible footprint.
 
-- full-frame changed fraction: **2.388166%–3.113715%**, median **2.864439%**;
-- visible-foreground changed fraction: **91.478%–96.190%**, median **93.750%**;
-- mean absolute foreground-luma change: about **11.52–18.68 LSB**, median **15.53 LSB**.
+### Weather-confound check
 
-The field therefore exercises most of the visible surface. This is not a PASS caused by a nearly invisible diagnostic.
+For each camera/state, Visual QA independently compared the Nature parent→candidate change mask under thin-line Weather against the same Nature parent→candidate change mask under source-width Weather.
 
-### Tangent-handedness sensitivity
+Result:
 
-Deliberate flipped-W mutation vs exact periodic probe:
+- `path_eye`: **0 XOR pixels in all 17 states**;
+- `elevated_oblique`: **0 XOR pixels in all 17 states**.
 
-- full-frame changed fraction: **2.398438%–3.216869%**, median **2.925203%**;
-- visible-foreground changed fraction: **92.197%–98.273%**, median **96.598%**.
+The culling result therefore does not depend on or hide behind the Weather-width presentation in the retained proof.
 
-The mutation remains visibly distinct in every retained context while preserving identical coverage masks. The receiving harness is therefore observably sensitive to tangent handedness rather than silently ignoring W.
+### Foliage recovery classification
 
-### Neutral cross-weighting control
+A conservative green-foliage hue classifier was applied only as a diagnostic over the exact changed pixels.
 
-Visual QA independently reproduced all **12/12** exact `0°` smoothstep-vs-ease-out image comparisons as byte-identical across both sides, both cameras and all three shader modes.
+Across each 17-state Weather mode:
 
-This prevents weighting identity from contaminating the neutral tangent-space comparison.
+- path-eye: `1479 / 1483` changed pixels classify as non-foliage/background -> foliage;
+- elevated-oblique: `5389 / 5426` classify as non-foliage/background/ground -> foliage;
+- sampled foliage -> non-foliage losses: **0**;
+- remaining tiny residual is edge / antialias classification rather than a broad competing color response.
+
+This diagnostic is not a semantic segmentation claim; it supports the direct observation that the new pixels are overwhelmingly recovered leaf coverage rather than unrelated scene change.
 
 ## Direct visual inspection
 
-Visual QA inspected a full contact sheet of all 40 exact periodic-probe contexts and enlarged flat / exact-probe / flipped-W comparison boards for both sides and both fixed cameras.
+Visual QA directly inspected full-frame and enlarged parent/candidate/difference boards at retained states `0 / 8 / 16` in both fixed cameras.
 
-Within these exact retained views, no new evidence was found for:
+Observed result:
 
-- silhouette break;
-- hole or culling loss;
-- broad render corruption;
-- gross normal-map inversion;
-- obvious hard UV seam;
-- gross cap/side transition corruption;
-- spike or clipping loss caused by the tangent-space diagnostic.
+- branch tips that were sparse/bare when their foliage planes faced away now retain visible green leaf blades;
+- woody trunks/branches remain backface-culled and visually stable;
+- no sampled foliage disappearance is introduced;
+- no new culling hole, broad shading break, geometry wedge, clipping defect or world corruption is visible;
+- Building, Object, route and broader composition remain stable;
+- the recovered foliage remains a tiny subordinate scene element rather than becoming a focal blocker.
 
-The exact probe visibly redistributes surface highlight/dark rolloff, while the deliberate handedness mutation produces a clearly different field. This supports a bounded owner-frame visual PASS, not arbitrary-camera seam freedom or final texture quality.
-
-## Downstream production-transport blocker
-
-Rigging PR #25 exact head:
-
-`fdfeb0e32d8b51107e9bd648210a1eaf8aaf7f3e`
-
-Scoped Rigging result:
-
-`PASS_TRANSPORTED_SKINNED_POSITION_EQUIVALENCE__HOLD_DEFORMED_NORMAL_TANGENT_EQUIVALENCE`
-
-The exact transported Technical-Art GLB preserves the tested skinned positions, UV identity and tangent handedness, and post-skin Gram–Schmidt restores normal/tangent perpendicularity. But the transported direction frame does **not** reproduce the geometry-rederived owner frame under deformation:
-
-- maximum normal deformation excess: about **7.541933278°**;
-- maximum corrected tangent-direction deformation excess: about **3.684086237°**.
-
-Current Technical Art PR #3 exact gate head:
-
-`01458a9697406a649b0e1e3bf3997f7ea817a344`
-
-records the receiving boundary as:
-
-`PASS_STATIC_SKIN_TRANSPORT__HOLD_DEFORMED_DIRECTION_FRAME`.
-
-This is why the Materials owner-frame visual PASS cannot silently become a production GLB/deformed-transport visual PASS.
+The effect is small in full-frame view but clear when inspected at the exact affected branch tips. It behaves like intended backface visibility recovery, not a material retune or geometry rewrite.
 
 ## QA verdict
 
-### PASS — representative tangent-space retained visual noncorruption
+### PASS — current-world split surface-culling visual integration
 
-**`PASS_ANIMAL_TANGENT_SPACE_REPRESENTATIVE_DEFORMATION_VISUAL_NONCORRUPTION`**
-
-Exact meaning:
-
-> Across the exact 40 retained side × weighting × representative-pose × fixed-camera contexts at Materials head `e9d5c451...`, the owner-frame periodic tangent-space diagnostic produces a substantial renderer-visible response without changing retained-view coverage/silhouette and without an observed new broad seam, inversion, culling, clipping, cap/side or corruption defect.
-
-### PASS — handedness receiver sensitivity
-
-**`PASS_ANIMAL_TANGENT_HANDEDNESS_MUTATION_RECEIVER_SENSITIVITY`**
+**`PASS_CURRENT_WORLD_NATURE_SPLIT_SURFACE_CULLING_VISUAL_INTEGRATION_GATE`**
 
 Exact meaning:
 
-> The deliberate tangent-W corruption produces a visible, spatially substantial response in all retained contexts while preserving identical coverage, establishing that this exact lookdev harness is meaningfully sensitive to handedness errors.
+> At exact Environment head `10c6e297...`, changing only current Nature receiving cull policy from inherited backface culling to role-split `woody=CULL_BACK / foliage=CULL_DISABLED` restores renderer-visible back-facing foliage in all retained current-world states without an observed new broad visual regression in the two fixed cameras or either inherited Weather presentation.
 
-### BLOCKED — final tangent-space visual adoption
+### PASS — sampled foliage backface recovery without loss
 
-**`BLOCKED_FINAL_ANIMAL_TANGENT_SPACE_VISUAL_ADOPTION__DEFORMED_TRANSPORT_DIRECTION_FRAME_HOLD_AND_ART_DIRECTION_PENDING`**
+**`PASS_CURRENT_WORLD_NATURE_FOLIAGE_BACKFACE_RECOVERY_NO_SAMPLED_VISUAL_REGRESSION`**
+
+Exact meaning:
+
+> Across the retained `68` exact A/B comparisons, the visible delta is overwhelmingly added foliage coverage, with no sampled foliage->non-foliage loss and no Weather-dependent mask drift.
+
+### BLOCKED — final Nature look
+
+**`BLOCKED_FINAL_NATURE_LOOK__ART_DIRECTION_SHADED_LOOKDEV_FLUTTER_AND_ARBITRARY_VIEW_ACCEPTANCE_PENDING`**
 
 Reasons:
 
-1. PR #24 proves the owner-frame lookdev path, not production GLB/deformed direction-frame equivalence;
-2. Rigging PR #25 measures non-trivial transported normal/tangent direction error;
-3. current Technical Art explicitly holds the deformed direction frame rather than hiding that mismatch;
-4. the periodic field is a diagnostic, not a production authored normal map;
-5. Art Direction has not yet accepted this exact tangent-space shaded successor.
-
-This is not a rollback request for Geometry #20, Rigging #22, Materials #24 or the exact-mirror/explicit-normal direction.
-
-## Animation / temporal handoff
-
-Animation PR #5 at exact head `731ce2d8bf3481bde1a9731f361fb9820efcdfc1` reused the PR #24 renderer unchanged and retained `164` real PNGs across all `41` endpoint-inclusive authored samples × `2` sides × `2` cameras, plus four discrete review GIFs. Its target-host gate is `PASS_TARGET_HOST_TANGENT_SPACE_SHADED_AUTHORED_SAMPLE_LOOP_CAPTURED` and the retained artifact independently rehashes to SHA-256 `c6278167079f31a75c7f1e84d99bd68bb474c0b5d4da767d39102868cbb1504e`.
-
-That is useful downstream evidence, but this activation does **not** promote discrete sampled motion quality, interpolation quality or real-time 40 Hz pacing. Temporal visual review remains a separate next gate after the base tangent-space direction and transport boundary are resolved.
+1. QA does not own final Nature aesthetic preference;
+2. the prior current-world winding/generated-normal change remains a separate Art/QA preference surface and is not silently closed by this culling PASS;
+3. the newer Nature VFX PR #11 head `ecade64227ba1d3d1faf029ca7188ea63c2560ec` adds a separate isolated leaf-local micro-flutter candidate that is not part of this current-world proof;
+4. shaded/translucent final foliage lookdev, normals/tangents/UV/textures and arbitrary-view behavior remain unaccepted;
+5. proof-host zero counter/memory delta is characterization only, not target-device performance acceptance.
 
 ## Handoffs
 
+### Environment / Map PR #24
+
+No repair requested. Preserve exact source geometry/material identity and the role-split culling policy as the QA-clean current-world receiving candidate. Do not relabel this as final Nature source policy, target-device acceptance or final art.
+
+Returned exact result to PR #24 as comment `5707320519`.
+
 ### Art Direction
 
-The owner-frame tangent-space diagnostic is now independently clean within the retained representative contexts and is meaningfully sensitive to handedness corruption. Art Direction can judge whether this exact shaded direction is acceptable while preserving the production-transport HOLD.
+The split culling candidate is now ready for preference review. The useful visual question is narrow: keep this source-geometry-preserving foliage two-sided receiver as the current direction, while treating winding/lookdev/flutter as separate decisions.
 
-### Materials
+### Nature Geometry / Materials / VFX
 
-No shader/material retune is requested by QA. Preserve the exact periodic diagnostic and the deliberate W mutation as truthful controls. Do not relabel the owner-frame PASS as transported-frame equivalence.
+No source rewrite requested. Geometry PR #10's duplicated backface candidate remains separate evidence rather than being silently adopted. Materials scalar family remains unchanged. VFX PR #11's newer flutter candidate receives no acceptance from this pass.
 
-### Rigging / Technical Art
+### Runtime
 
-The measured direction-frame mismatch remains the next production-chain blocker. Repair/evaluate it in the owner lanes rather than changing Materials to compensate visually for a transport discrepancy.
-
-### Animation
-
-Keep the 41-sample shaded sequence distinct from base surface acceptance. Once the surface/transport chain advances, QA can separately inspect temporal seam, sampled cadence and pose-to-pose shaded continuity.
-
-### Nature / Map / Character / Runtime
-
-No acceptance transfers. Nature current-world migration, Map footprint indexing, Character shoulder repair and Animal joint-index compaction remain separate surfaces with their own boundaries.
-
-## PR handoff
-
-Returned this independent QA result to Animal Materials PR #24 as comment `5706786060`.
+Owner report shows `0` proof-host draw/object/primitive/buffer/texture delta for this receiving-policy change. That does not establish CPU/GPU/FPS/VRAM/thermal/battery behavior on a target device.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a production normal map or final authored texture quality;
-- final UV packing or texel density;
-- seam-free appearance under arbitrary camera/FOV/light/renderer/display contexts;
-- pixel-neutral tangent-space response;
-- production GLB skin-normal-tangent deformed-frame equivalence;
-- continuous real-valued deformation visual quality;
-- continuous/interpolated Animation motion quality or real-time 40 Hz pacing;
-- target-engine importer/controller/playback equivalence;
-- target-device CPU/GPU/FPS/VRAM/memory acceptance;
-- anatomy, biology, skin sliding or volume preservation;
-- gameplay, collision or interaction readiness;
+- final Nature Art Direction preference;
+- acceptance of the earlier current-world winding/generated-normal visual delta;
+- Geometry PR #10 explicit duplicated leaf-backface geometry adoption;
+- Nature VFX PR #11 `ecade642...` leaf-flutter naturalness or Map receiving equivalence;
+- final foliage translucency, shader, normals, tangents, UVs, textures or botanical correctness;
+- arbitrary camera/FOV/resolution/renderer/display equivalence;
+- target-device CPU/GPU/FPS/VRAM/heap/thermal/battery acceptance;
+- physical wind or plant biomechanics;
+- collision, navigation, interaction or gameplay behavior;
 - CANON;
 - production/game readiness;
 - Visual Observer / QA mastery.
 
 ## Four-root gate
 
-- **Truth:** the exact owner-frame visual evidence is accepted where observed, while the quantified transported direction-frame mismatch and diagnostic-only normal field remain explicit.
-- **Agency / non-domination:** Geometry owns UV/tangent structure, Rigging owns deformation/direction-frame truth, Materials owns lookdev, Technical Art owns transport, Animation owns clip evidence, Art Direction owns preference, and QA owns only independent visual verification.
-- **Continuity:** previous explicit-normal PASS, current tangent-space owner-frame PASS, downstream transport HOLD and future Art/temporal decisions remain separate exact identities with rollback/provenance intact.
-- **Wisdom before speed:** accept the real shaded evidence now without either reopening stronger structure or declaring production tangent-space readiness while the direction-frame transport mismatch is still measured.
+- **Truth:** exact parent/candidate artifacts, all-frame deltas, recovered foliage coverage and the remaining winding/flutter/lookdev/performance holds stay separately visible.
+- **Agency / non-domination:** Map owns receiving composition, Nature owners retain source/material/VFX authority, Runtime owns cost, Art Direction owns preference, and QA owns only the bounded visual verification.
+- **Continuity:** the current source geometry, historical explicit-backface candidate, current parent world and split-culling successor remain distinct exact rollback/provenance points.
+- **Wisdom before speed:** accept the smallest real receiver-side culling improvement that is directly evidenced, without duplicating geometry or bundling unrelated flutter/material/runtime decisions.
 
 The four AXM roots remain the merge gate.
