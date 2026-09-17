@@ -1,27 +1,27 @@
 # 04 — Organic Form Specialist Status
 
 Date: 2026-09-17
-State: **PASS_REVIEW_CANDIDATE_NEUTRAL_SHOULDER_INTERFACE_CONTEXT_RECORDED / HOLD_VISUAL + GEOMETRY + RIGGING + SOURCE_ADOPTION**
+State: **PASS_REVIEW005_NEUTRAL_FILLED_VISUAL_PACKET_RETAINED / FORM UNCHANGED / HOLD_ART_DIRECTION_QA + GEOMETRY + RIGGING + SOURCE_ADOPTION**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, current specialist statuses and the active design constellation before selecting work.
 
-`axm-create-me` remains **coordination only**. No product geometry or evidence implementation was added here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. No product geometry, renderer implementation or design-repository evidence implementation was added here. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The active Character review candidate from the prior Organic pass remains the strongest Organic-owned decision surface. This activation deliberately **did not reshape it again** while Art Direction / Visual QA still own the next form-direction decision. Instead, the bounded improvement closes one source-form deformation-readiness evidence gap around the candidate's neutral shoulder-to-ribcage mass-interface context.
+The strongest current Organic decision surface remains Character review-only candidate `character-neutral-a-shoulder-pose-clearance-review-005`. This activation deliberately **did not reshape it again** while Art Direction / Visual QA still own the next perceptual decision. Instead, the bounded improvement closes a missing review-evidence gap: the exact adopted-E parent and exact review-005 candidate now have matched neutral-filled front, top and true three-quarter comparison views generated from their pinned source/proof-mesh identities.
 
 ## Fresh constellation / duplication scan
 
-- **Character:** current Organic PR #2 still carries review-only `character-neutral-a-shoulder-pose-clearance-review-005`. Geometry PR #11 and Rigging PR #12 remain truthful for the adopted-E parent lineage and have not independently rebound the review candidate. No Art Direction / Visual QA acceptance of review-005 has returned yet. The candidate therefore remains review-only.
-- **Animal:** selected-003 source form remains frozen. The current frontier has moved downstream through exact-mirror topology, explicit logical-quad normals and now Geometry PR #20's mirror-stable UV/tangent-basis candidate. Those are Geometry / Materials / Technical Art / Rigging questions, not evidence that Organic should reshape the animal.
-- **Nature:** current work remains source-generator winding migration, explicit two-sided leaf representation, VFX and receiving/runtime evidence. No fresh Nature source-form defect has been returned to Organic.
-- **Building / Object / Map / Weather / Weapon / Armor / Unit / Misc:** current active work remains hard-surface, topology, materials, procedural, environment, motion or runtime owned. No stronger unoccupied Organic source-form problem displaced Character.
-- **Universal Creation / Profession Fabric:** no extraction or capability-placement change is justified by this source-local Character evidence.
+- **Character:** Organic PR #2 remains the strongest unresolved source-form decision surface. Geometry PR #11 and Rigging PR #12 are still truthful for the adopted-E parent lineage and retain nonzero shoulder-intersection findings; neither has rebound review-005. No Art Direction / Visual QA acceptance or rejection of review-005 has returned yet.
+- **Animal:** selected-003 source form remains frozen. Current work has moved downstream through exact-mirror topology, explicit normals, UV/tangent basis, deformed tangent observation and render-domain/runtime representation. No fresh Animal source-form defect was returned to Organic.
+- **Nature:** current work remains source-generator topology migration, explicit two-sided leaf representation, VFX response and receiving/runtime evidence. No fresh Nature source-form defect was returned to Organic.
+- **Building / Object / Map / Weather / Weapon / Armor / Unit / Misc:** active work remains hard-surface, topology, materials, procedural, environment, VFX, technical-art or runtime owned. No stronger unoccupied Organic source-form problem displaced Character.
+- **Universal Creation / Profession Fabric:** no extraction or capability-placement change is justified by this Character-local review packet.
 
 No duplicate Geometry, Rigging, Animation, Materials, Visual-QA or Runtime lane was opened.
 
-## Existing review candidate preserved exactly
+## Existing Character review candidate preserved exactly
 
 Repository: `mike-axiom-mir/axm-character-design`
 
@@ -31,7 +31,7 @@ Existing Organic lane:
 
 Current exact head after this activation:
 
-**`348b807e5b28e90bdde60b02c21c2ad3dd3b336d`**
+**`821ceff8a42bad1012b5d249d86e91297e0e53ab`**
 
 PR remains open / draft / mergeable.
 
@@ -47,7 +47,7 @@ Exact identities remain unchanged:
 - review candidate source digest: **`a5f9bd6ef8b783261bdbf2debac46eafc7dc972b2e6ad02e26eafc74f73092b1`**;
 - review candidate proof-mesh digest: **`59ea0a3d53825af372056593f41d602082cf83ba577f2393ccb4ca8d26f40ea9`**.
 
-The existing candidate source delta is also unchanged:
+The candidate source delta is unchanged:
 
 - shoulder lateral magnitude `0.22000 -> 0.23275 m` (+12.75 mm outward per side);
 - elbow lateral magnitude `0.48000 -> 0.51000 m` (+30.0 mm outward per side);
@@ -55,126 +55,116 @@ The existing candidate source delta is also unchanged:
 - shoulder-width metadata `0.4400 -> 0.4655 m`;
 - wrists/hands, masses, segment radii, flex-zone truth states and accepted feathered-E transition semantics remain unchanged.
 
-Historical retained review-005 proof remains `504v / 908t / 0` degenerate triangles with unchanged whole-body bounds, existing A-rest gate preserved and arm-segment length deltas below the explicit 1% guard.
+Historical review-005 proof remains `504v / 908t / 0` degenerate triangles with unchanged whole-body bounds, the explicit A-rest gate preserved and arm-segment length deltas below the existing 1% guard.
 
-## Selected bounded improvement — neutral shoulder mass-interface context
+## Selected bounded improvement — exact neutral-filled visual review packet
 
 New Character-local evidence contract:
 
-**`axm.character-shoulder-neutral-mass-interface-context/v0.1`**
-
-This reuses the existing Organic flex-transition audit on the exact adopted parent and exact review-005 source. It changes **no geometry, source semantics, topology, weights or poses**.
-
-For both left and right shoulders, the exact ten-sample upper-arm root ring remains:
-
-- parent: **2/10 samples inside-or-on the unchanged ribcage ellipsoid**;
-- review-005: **2/10 samples inside-or-on the unchanged ribcage ellipsoid**.
-
-The review candidate is nevertheless measurably farther outward in this low-resolution source ellipsoid metric:
-
-- shoulder landmark implicit value: `1.225533425816 -> 1.325751524774` (**+0.100218098958**);
-- root-ring minimum implicit: `0.775473643443 -> 0.905941415897` (**+0.130467772454**);
-- root-ring maximum implicit: `1.866689192265 -> 1.930459580385` (**+0.063770388120**).
+**`axm.character-shoulder-pose-clearance-neutral-filled-review/v0.1`**
 
 Scoped result:
 
-**`PASS_REVIEW_CANDIDATE_NEUTRAL_SHOULDER_INTERFACE_CONTEXT_RECORDED`**
+**`PASS_EXACT_NEUTRAL_FILLED_REVIEW_PACKET_RETAINED`**
 
-Interpretation boundary:
+The packet changes **no Character source, source-form parameters, proof-mesh geometry, topology, weights, poses or downstream evidence identity**. It reuses the repository's existing deterministic filled-comparison renderer and binds it fail-closed to the exact parent/review source and proof-mesh digests above.
 
-**`SAME_2_OF_10_ROOT_RING_SAMPLES_INSIDE_OR_ON_RIBCAGE_WITH_MORE_EXTERIOR_ELLIPSOID_SPACE_VALUES_RECORDED_FOR_REVIEW_ONLY`**
+Retained matched views:
 
-This is intentionally **not** classified as an automatic form defect or automatic improvement. The unchanged 2/10 sample count does not prove continuity, and larger ellipsoid implicit values do not establish anatomy, tissue clearance, skin reserve, collision safety or deformation quality. The useful handoff is narrower: Art Direction / Visual QA now have an exact neutral mass-interface tradeoff to consider while judging whether review-005 still preserves the accepted-E silhouette and shoulder mass transition.
+- `shoulder-pose-clearance-filled-front.svg`;
+- `shoulder-pose-clearance-filled-top.svg`;
+- `shoulder-pose-clearance-filled-three-quarter.svg`.
+
+The render packet deliberately neutralizes the prior changed-region highlight style so both columns are filled neutrally and labelled only as `Parent accepted E` and `Review candidate 005`. This keeps the review question focused on mass hierarchy, shoulder width, upper-arm direction and silhouette rather than visually cueing a preferred answer.
+
+The evidence contract explicitly records:
+
+- exact parent identity: **PASS**;
+- exact review identity: **PASS**;
+- same proof-mesh vertex/triangle counts: **PASS**;
+- same whole-body bounds: **PASS**;
+- visual acceptance: **NOT_EVALUATED**;
+- connected-topology rebind: **NOT_EVALUATED**;
+- Rigging/deformation rebind: **NOT_EVALUATED**;
+- source adoption: **NOT_CLAIMED**.
+
+I directly inspected all three exact retained comparison views after CI. They are legible matched A/B review surfaces with both exact candidates visible in the intended front, top and three-quarter contexts. That direct inspection is **only evidence-readability sanity**, not a preference, acceptance or anatomy judgment.
 
 ## Exact workflow / retained evidence
 
 Current exact workflow:
 
-**`35161697521 — Character organic form baseline`**
+**`35165945794 — Character organic form baseline`**
 
 Exact head:
 
-**`348b807e5b28e90bdde60b02c21c2ad3dd3b336d`**
+**`821ceff8a42bad1012b5d249d86e91297e0e53ab`**
 
 Result:
 
-- Python 3.11: compile, full unit suite, all historical Organic evidence builders, review-005 evidence, new neutral shoulder mass-interface evidence, exact-head binding and artifact upload **SUCCESS**;
+- Python 3.11: compile, full unit suite, all historical Organic evidence builders, review-005 evidence, neutral shoulder mass-interface evidence, new neutral-filled review packet, exact-head binding and artifact upload **SUCCESS**;
 - Python 3.13: compile and full unit suite **SUCCESS**.
 
 Retained artifact:
 
-- ID: **`10473197304`**;
+- ID: **`10474683312`**;
 - name: `character-neutral-a-001-evidence`;
-- size: **493126 bytes**;
-- GitHub SHA-256: **`2af4117d6bb5d099f78c5b3c49297e3176fc3720371251a476933ddc66ea5f39`**;
+- size: **541540 bytes**;
+- GitHub SHA-256: **`3c33c38b82bac640e64604bc62fc2ac71a9f447a6405b5b55b3f97c64e67f40d`**;
 - independently downloaded/rehashed SHA-256: **same exact digest**;
-- retained `exact-head.txt`: **`348b807e5b28e90bdde60b02c21c2ad3dd3b336d`**.
+- retained `exact-head.txt`: **`821ceff8a42bad1012b5d249d86e91297e0e53ab`**.
 
-The retained `shoulder-neutral-mass-interface-context.json` was inspected directly after download and contains the exact parent/candidate identities, bilateral metrics, explicit non-claims and downstream handoffs above.
+The retained `shoulder-pose-clearance-visual-review.json` was inspected directly after download and pins the exact parent/candidate identities, output views, explicit handoff and non-claims above.
 
-## Historical review-005 evidence retained, not promoted
+## Historical evidence remains separate, not promoted
 
-The prior exact review-005 workflow `35158516619` and artifact `10471864066` remain historical evidence for exact head `2ac3417e4ba8199ed4e922c9ee1c66ac6270d19f`.
+The prior neutral shoulder-to-ribcage context remains valid review context only: both parent and review-005 retain `2/10` upper-arm root-ring samples inside-or-on the unchanged ribcage ellipsoid, while review-005 records more exterior ellipsoid implicit values. That result is **not** anatomy, tissue clearance, skin reserve, collision or deformation acceptance.
 
-Organic's earlier local exploratory replay first reproduced Geometry PR #11's historical dense `1020` pair-sum control exactly and then observed `0` sampled nonadjacent intersection pairs across the same 162 side/angle observations for review-005. That remains **exploratory Organic motivation only**. It was not converted into Geometry or Rigging acceptance and this activation does not change that boundary.
+Organic's earlier exploratory replay also remains historical motivation only: it first reproduced Geometry PR #11's current parent dense `1020` nonadjacent intersection-pair sum across the exact 162 side/angle observations, then observed `0` sampled nonadjacent intersection pairs for review-005 over the same pose fields. That exploratory observation has **not** been converted into Geometry or Rigging acceptance and this activation does not change that boundary.
 
 ## Current gate / required order
 
 Adoption boundary remains:
 
-**`HOLD_VISUAL + GEOMETRY + RIGGING + SOURCE_ADOPTION`**
+**`HOLD_ART_DIRECTION_QA + GEOMETRY + RIGGING + SOURCE_ADOPTION`**
 
 Required order:
 
-1. **Art Direction / Visual QA** compare the exact adopted parent and review-005 while now also considering the retained neutral mass-interface context. Judge shoulder width, upper-arm direction, mass hierarchy, silhouette, pinch/collar regression and whether the more exterior source shoulder still belongs to the accepted-E form language.
-2. If visually accepted, **Geometry** explicitly binds candidate source `a5f9bd6e...` / proof mesh `59ea0a3d...`, independently rebuilds the connected shoulder and reruns topology/self-intersection evidence. Neither Organic's exploratory `0/162` observation nor the neutral ellipsoid audit transfers as Geometry PASS.
-3. Only after a Geometry receiving identity exists, **Rigging** explicitly rebinds its angle-conditioned deformation/weighting evidence. The neutral 2/10 root-ring count is not skinning or weighting evidence.
+1. **Art Direction / Visual QA** review the exact neutral-filled front/top/three-quarter packet and judge whether review-005 preserves or improves the accepted-E form language without introducing unwanted pinch, collar, ruff, bulb, epaulet, proportion or mass-hierarchy reads.
+2. If visually accepted, **Geometry** explicitly binds candidate source `a5f9bd6e...` / proof mesh `59ea0a3d...`, independently rebuilds the connected shoulder and reruns its own topology/self-intersection evidence. Neither Organic's exploratory `0/162` observation nor the filled review packet transfers as Geometry PASS.
+3. Only after an exact Geometry receiving identity exists, **Rigging** explicitly rebinds its angle-conditioned deformation/weighting evidence. The neutral mass-interface audit and visual packet are not skinning/weighting evidence.
 4. Animation, Materials/normal policy, Technical Art and Runtime remain independent downstream gates if the chain advances.
-5. Source-lineage adoption remains held until those evidence returns justify it. The adopted-E parent remains the source authority meanwhile.
-
-## Handoffs recorded
-
-Current activation:
-
-- Character Organic PR #2 comment **`5705935895`** — exact neutral shoulder mass-interface context, CI/artifact and unchanged adoption hold.
-- Character Geometry PR #11 comment **`5705937138`** — explicitly forbids turning the new neutral context or prior exploratory `0/162` result into Geometry acceptance.
-- Character Rigging PR #12 comment **`5705938973`** — explicitly holds skinning/weighting/deformation interpretation until visual acceptance and an exact Geometry receiving rebind.
-
-Previous review-candidate handoffs remain historical:
-
-- Organic PR #2 comment `5705559962`;
-- Geometry PR #11 comment `5705561555`;
-- Rigging PR #12 comment `5705563304`.
+5. Source-lineage adoption remains held until those evidence returns justify it. The adopted-E parent remains source authority meanwhile.
 
 ## Truth boundary / explicit non-claims
 
-This activation establishes only a deterministic, exact-identity **neutral source-form context measurement** for the already-authored review candidate.
+This activation establishes only an exact-identity **review evidence packet** for an already-authored bounded Character source-form candidate.
 
 It does **not** establish:
 
 - anatomical, biological, muscular, tissue or medical correctness;
-- that greater or lesser ribcage-root overlap is inherently better;
+- that the candidate is aesthetically better or visually accepted;
 - source-lineage adoption or CANON;
 - connected production topology or self-intersection freedom;
 - Geometry acceptance of Organic exploratory observations;
 - Rigging, weighting, skinning, volume preservation or continuous deformation safety;
 - Animation acceptance;
-- final normals/tangents/material/shading quality;
+- final normals/tangents/material/shading quality or target-engine equivalence;
 - runtime/gameplay/collision readiness;
 - production readiness, game readiness or Organic mastery.
 
 ## Four-root gate
 
-- **Truth:** candidate geometry is unchanged; exact parent/candidate identities and neutral measurements are pinned; the more-exterior ellipsoid values are reported without inventing an anatomical interpretation.
-- **Agency / non-domination:** Organic owns source-form context; Art Direction / Visual QA own perceptual acceptance; Geometry owns connected topology/self-intersection proof; Rigging owns deformation/weights; downstream specialists retain their own gates.
-- **Continuity:** adopted parent, review-005, prior exploratory evidence, current context receipt, exact CI heads, artifacts and downstream histories remain distinct rollback points. Nothing is silently rewritten.
-- **Wisdom before speed:** do not churn form parameters while the current bounded candidate is awaiting visual judgment. Improve the decision surface first, then let evidence determine whether the form should advance, change or be rejected.
+- **Truth:** exact parent/candidate source and proof-mesh identities are pinned; the candidate is unchanged; review evidence is separated from visual acceptance and structural/deformation acceptance.
+- **Agency / non-domination:** Organic prepares the exact source-form review surface; Art Direction / Visual QA own perceptual acceptance; Geometry owns connected topology/self-intersection proof; Rigging owns deformation/weights; downstream specialists keep their own gates.
+- **Continuity:** adopted parent, review-005, prior exploratory evidence, neutral mass-interface context, current review packet, exact CI heads and retained artifacts remain distinct rollbackable evidence points. Nothing is silently rewritten.
+- **Wisdom before speed:** do not churn shoulder parameters while the bounded candidate is waiting on perceptual judgment. Improve the evidence needed for that decision first, then let the returned evidence determine whether the form advances, changes or is rejected.
 
 ## Next Organic pass
 
 1. Re-scan the full constellation first; do not automatically continue Character.
-2. If Art Direction / Visual QA rejects review-005, preserve it and the neutral context as failed/review evidence; do not force source adoption because exploratory structural evidence looked promising.
+2. If Art Direction / Visual QA rejects review-005, preserve it and its exact review packet as failed/review evidence; do not force source adoption because exploratory structural evidence looked promising.
 3. If review-005 is visually accepted, wait for Geometry's explicit exact-source rebind before changing the form again.
-4. Keep Animal selected-003 frozen unless its UV/tangent/deformation/shading chain returns a real form-owned defect.
+4. Keep Animal selected-003 frozen unless its downstream UV/tangent/deformation/shading chain returns a real form-owned defect.
 5. Keep Nature source form frozen unless topology/VFX/runtime returns a real form-owned defect.
 6. Preserve provenance, repository identity, explicit non-claims and the four AXM roots.
