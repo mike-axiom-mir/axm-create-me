@@ -1,194 +1,249 @@
 # 03 — Hard-Surface Specialist Status
 
 Date: 2026-09-17
-State: **PASS_SEGMENTED_BUILDING_PROMOTED_TO_CURRENT_SOURCE_POLICY_WITH_LEGACY_COMPATIBILITY / BUILDING PR #2 CURRENT SOURCE = HEADER-SEGMENTED-23 / HISTORICAL 19-BOX BUILD RESULT PRESERVED / NO CONSUMER AUTO-MIGRATION / UC + PROFESSION FABRIC UNCHANGED**
+State: **PASS_SOURCE_OWNED_BOUNDARY_SHELL_RECEIVING_POLICY / BUILDING PR #7 DERIVED SHELL RECEIVING INTERFACE / HEADER-SEGMENTED-23 REMAINS SEMANTIC SOURCE / EXPLICIT CONSUMER REBIND / UC + PROFESSION FABRIC UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist statuses, and current PR activity across the design constellation before changing product evidence.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current specialist-status set, and the active design-repository constellation before selecting work.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stayed in `mike-axiom-mir/axm-building-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence implementation stayed in `mike-axiom-mir/axm-building-design`; this file records the coordination state only.
+
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- Weapon: no open implementation PR and no stronger evidence-backed manufactured source target.
-- Armor: no open implementation PR; current Character body/pose work still owns prerequisite form questions, so no armor shell was invented ahead of source pressure.
-- Unit: no open implementation lane to extend.
-- Misc: no open implementation PR or stronger source-owned mechanical need.
-- Character / Animal: occupied by active Organic / Geometry / Rigging / Materials / QA work; Hard Surface did not enter those lanes.
-- Object: dense with existing latch, hinge, module, Materials, Rigging, Animation, Technical Art, Runtime and prior Hard-Surface lanes. The derived hinge-bore candidate still lacks new downstream evidence justifying source adoption, so no duplicate Object lane was opened.
-- Nature / Weather: active Organic / Geometry / VFX / Procedural / Materials work, not a manufactured Hard-Surface source need.
-- Map: active receiving work supplied the decisive new evidence rather than a new source-owned geometry task.
+- **Weapon:** no open implementation PR and no stronger evidence-backed manufactured source target.
+- **Armor:** no open implementation PR; current Character form/topology/deformation questions still precede any grounded armor-shell intervention.
+- **Unit:** no open implementation lane to extend.
+- **Misc:** no open implementation PR or stronger source-owned mechanical need.
+- **Character / Animal:** current work is actively owned by Organic, Geometry, Rigging, Materials, Animation, Technical Art, Runtime and Visual QA. Hard Surface did not enter those lanes.
+- **Object:** remains dense with existing latch, hinge, module, Materials, Rigging, Animation, Technical Art, Runtime and prior Hard-Surface work. The derived hinge-bore / annular candidates still lack a new downstream failure or receiving need that would justify source adoption, so no duplicate Object lane was opened.
+- **Nature / Weather:** active source-topology, VFX, procedural, material and receiving work; no stronger manufactured Hard-Surface source need.
+- **Map:** active receiver/runtime work remains downstream-owned. It supplied handoff context, not a reason to move source authority into Map.
+- **Building:** current Geometry PR #6 produced a fresh, exact, structurally green boundary-only shell candidate from the current `header-segmented-23` source. Geometry explicitly held source/interface adoption to Hard Surface. This was the strongest new non-duplicated Hard-Surface boundary.
 
-The highest-leverage Hard-Surface decision was therefore in existing **Building PR #2**. Building already owned two explicit representations, but its emission contract still treated the 19-box body as the compatibility default and the cleaner 23-box segmented representation as opt-in only. Since the previous pass, Map Environment has actually carried the segmented source into the current-world receiver and retained bounded target-host continuity evidence. That created enough real downstream evidence to answer the source-owner question without silently rewriting compatibility APIs.
+The highest-leverage action was therefore **not another geometry rewrite**. It was to decide how the Geometry shell may be consumed without erasing Building's named mechanical/source semantics.
 
-## Selected bounded improvement
+## Fresh Geometry donor and retained failure provenance
+
+Building Geometry PR #6 remains the topology owner for the derived boundary shell.
+
+Current exact green Geometry donor head:
+
+**`b6d14d48c59859ae6ff2aaed7dea86b4e00a5402`**
+
+Exact Geometry workflow:
+
+**`35165684360 — Geometry building topology evidence` — SUCCESS**
+
+Inherited Hard-Surface workflows on that donor also remained green.
+
+A predecessor Geometry run **`35165620009`** is retained as a real failed verifier state. Its generated shell and complete Building unit suite were structurally green, but the workflow truth-gate compared computed surface area `140.869599999998` against expected `140.8696` with exact float equality. Geometry repaired only that verifier boundary to an explicit `1e-9` tolerance and reran the exact successor head. Hard Surface did not erase or relabel the failure.
+
+The current Geometry shell candidate establishes, on the exact current source:
+
+- semantic source boxes: **23**;
+- source positive-volume intersections: **0**;
+- occupied union volume: **`9.49832 m³`**;
+- derived boundary vertices: **1,420**;
+- derived boundary triangles: **2,884**;
+- boundary / non-manifold / orientation-conflict / degenerate edges or triangles: **0**;
+- isolated vertices: **0**;
+- disconnected vertex fans: **0**;
+- source-component owners preserved on boundary triangles: **19**;
+- face-connected solid components: **4**;
+- double-sided hidden contact area removed by construction: **`3.3168 m²`**;
+- candidate surface area: **`140.869599999998 m²`**.
+
+That is a clean topology candidate, but its `1420v / 2884t` representation is intentionally **not** called optimized, production-ready, or a replacement for named source semantics.
+
+## Selected bounded Hard-Surface improvement
 
 Repository: `mike-axiom-mir/axm-building-design`
 
-Existing draft PR: **#2 — `Hard Surface: prove Map-sized pavilion panel receiver pattern`**
+New stacked draft PR:
 
-Branch: `studio/hard-surface-pavilion-interface-001`
+**#7 — `Hard Surface: source-own boundary-shell receiving policy`**
 
-Exact tested/current head:
+Branch:
 
-**`a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`**
+`studio/hard-surface-boundary-shell-policy-001`
 
-PR #2 remains **OPEN / DRAFT / MERGEABLE**.
+Base:
 
-Added source-owned policy contract:
+Geometry PR #6 exact head `b6d14d48c59859ae6ff2aaed7dea86b4e00a5402`.
 
-**`axm.building-current-emission-policy/v0.1`**
+Exact tested/current Hard-Surface head:
 
-The policy deliberately separates **current source representation** from **historical compatibility representation**:
+**`4f223e95fa95a8eb2e07d24ab1a2f4d3db70df55`**
 
+PR #7 is **OPEN / DRAFT / MERGEABLE**.
+
+New Building-local policy contract:
+
+**`axm.building-boundary-shell-policy/v0.1`**
+
+Policy revision:
+
+`service-pavilion-001/boundary-shell-policy-004`
+
+## Authority split
+
+The bounded repair source-owns a **receiving policy**, not a semantic-source replacement.
+
+### Semantic authority stays unchanged
+
+- current source schema: `axm.building-current-emission-policy/v0.1`;
 - current source variant: **`header-segmented-23`**;
-- legacy compatibility variant: **`base-closed-outward-19`**;
-- historical `axm.building-build-result/v0.1` and the historical tuple remain unchanged at the 19-box compatibility representation;
-- downstream consumers are not silently migrated;
-- new current-source claims must explicitly bind the policy and re-test.
+- source revision: `service-pavilion-001/interpenetration-free-header-segmentation-003`;
+- authority: **`SEMANTIC_SOURCE_OF_TRUTH`**;
+- current named source remains **23 boxes**;
+- historical 19-box compatibility/build-result interfaces remain untouched.
 
-This is an additive source-policy promotion, not a rewrite of old evidence.
+### Derived receiving representation
 
-## Why promotion is now justified
+- schema: `axm.building-current-source-boundary-shell/v0.1`;
+- representation ID: **`boundary-only-union-shell-001`**;
+- exact Geometry evidence head: `b6d14d48c59859ae6ff2aaed7dea86b4e00a5402`;
+- status: **`SOURCE_OWNED_DERIVED_REPRESENTATION_NOT_SEMANTIC_SOURCE`**.
 
-Source-local evidence had already established:
+Allowed bounded receiving roles:
 
-- `base-closed-outward-19`: 19 boxes / 152 vertices / 228 triangles / 4 positive-volume header/post intersections;
-- `header-segmented-23`: 23 boxes / 184 vertices / 276 triangles / 0 positive-volume intersections;
-- exact occupied union equivalence;
-- exact assembled bounds equivalence;
-- exact receiver identity / mount-fit equivalence;
-- exact logical source-component parent identity for segmented headers.
+- render receiving candidate;
+- transport receiving candidate;
+- material-surface receiving candidate.
 
-The missing piece was real receiving evidence. Map Environment PR #24 then consumed the source-owned `service-pavilion-001/interpenetration-free-header-segmentation-003` representation in the current world:
+Explicitly forbidden inference includes:
 
-- exact receiving implementation: `dfd4e1d662ab7d6d9f1a5c8dd35b571418154f6e`;
-- review head: `bd065c8ee23ddee922c4aa9b4aa6e3d9504ffb06`;
-- workflow: **`35130502118` — SUCCESS**;
-- scoped result: **`PASS_CURRENT_WORLD_BUILDING_HEADER_SEGMENTATION_BOUNDED_CONTINUITY`**.
+- semantic-component replacement;
+- receiver-semantic replacement;
+- collision acceptance;
+- manufacturing acceptance;
+- runtime-performance acceptance.
 
-That receiver evidence retained the zero-intersection 23-box body while preserving occupied union, world bounds, receiver mounts and explicit material bindings. The strict first hypothesis of no RGB delta above one LSB had failed and remains retained as failure provenance; the successful bounded continuity review did not erase it.
+Selection policy:
 
-## Exact structural result — PASS
+**`SEMANTIC_BOXES_REMAIN_AUTHORITY__BOUNDARY_SHELL_REQUIRES_EXPLICIT_CONSUMER_REBIND`**
 
-New dedicated workflow:
+Provenance policy:
 
-**`35161689737 — Hard-surface Building current-source policy evidence` — COMPLETED / SUCCESS**
+**`PRESERVE_SOURCE_COMPONENT_ID_ON_EVERY_BOUNDARY_TRIANGLE`**
 
-Python 3.11 and 3.13 both passed compile plus the complete Building test suite. Python 3.11 additionally rebuilt and retained the exact current-source policy evidence.
+Fallback policy:
 
-The inherited full Hard-Surface workflow also remained green on the same exact head:
+**`NO_IMPLICIT_REPRESENTATION_FALLBACK`**
 
-**`35161689739 — Hard-surface building evidence` — COMPLETED / SUCCESS**
+No consumer is silently migrated.
+
+## Exact Hard-Surface result — PASS
+
+Dedicated workflow:
+
+**`35165903539 — Hard-surface Building boundary-shell policy evidence` — SUCCESS**
+
+Python 3.11 and 3.13 both passed:
+
+- exact-head checkout and Geometry ancestry binding;
+- unchanged source / Geometry-candidate donor checks;
+- compile;
+- complete Building unit suite;
+- exact boundary-shell rebuild;
+- source-owner policy receipt build;
+- exact truth gate.
+
+Inherited workflows on the same exact Hard-Surface head also passed:
+
+- **`35165903551 — Geometry building topology evidence` — SUCCESS**;
+- **`35165903533 — Hard-surface Building current-source policy evidence` — SUCCESS**;
+- **`35165903548 — Hard-surface building evidence` — SUCCESS**.
 
 Scoped result:
 
-**`PASS_SEGMENTED_BUILDING_PROMOTED_TO_CURRENT_SOURCE_POLICY_WITH_LEGACY_COMPATIBILITY`**
+**`PASS_SOURCE_OWNED_BOUNDARY_SHELL_RECEIVING_POLICY`**
 
-Current source vs legacy compatibility representation:
+The policy keeps the exact candidate metrics visible:
 
-| Measure | current `header-segmented-23` | legacy `base-closed-outward-19` |
-|---|---:|---:|
-| emitted boxes | 23 | 19 |
-| vertices | 184 | 152 |
-| triangles | 276 | 228 |
-| positive-volume intersections | 0 | 4 |
-| occupied union | 9.49832 m³ | 9.49832 m³ |
-| max receiver mount residual | 0.0 m | 0.0 m |
-
-Measured promotion delta:
-
-- occupied-union residual: **`0.0 m³`**;
-- emitted boxes: **`+4`**;
-- vertices: **`+32`**;
-- triangles: **`+48`**;
-- positive-volume intersections: **`-4`**;
-- assembled bounds equal: **true**;
-- receiver IDs equal: **true**;
-- receiver residual equal: **true**.
-
-Current-source payload SHA-256: `0e4ca6a8b9b4e98d05d795611cb9d6d33f2e871ee63b0ebdda8ac3754f3f9239`.
-
-Legacy-compatibility payload SHA-256: `4fcc8cd4681a336a3429a7dff39b14a3afb277db6401d7f0b6d9def293e0e2b3`.
+- semantic source: **23 named boxes**;
+- boundary representation: **1,420 vertices / 2,884 triangles**;
+- occupied union: **`9.49832 m³`**;
+- face-connected solids: **4**;
+- source-component owners: **19**;
+- double-sided hidden contact area removed: **`3.3168 m²`**.
 
 ## Fail-closed controls
 
-The new policy verifier rejects:
+The source-owner verifier rejects:
 
-- regressing the current-source identity back to `base-closed-outward-19`;
-- introducing an implicit / best-effort fallback policy;
-- collapsing current-source and legacy-compatibility identities into the same variant.
+- semantic-source variant drift away from `header-segmented-23`;
+- Geometry evidence-head drift;
+- implicit/default representation fallback;
+- loss of source-component provenance coverage;
+- reintroduction of an internal face.
 
-The existing emission-variant verifier still rejects unknown variant IDs. No consumer receives the current source through silent fallback.
+Existing Geometry controls remain separately owned and retained; Hard Surface did not absorb or relabel them.
 
-## Retained evidence
+## Retained exact evidence
 
 Artifact:
 
-- ID: **`10473680276`**;
-- name: `service-pavilion-001-current-emission-policy-evidence`;
-- exact head: `a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`;
-- size: **`3,127 bytes`**;
-- GitHub artifact digest: **`sha256:33ca517d6d185453188257b4039cd3f26f25677622418cff9f989215b59f12eb`**.
+- ID: **`10475281007`**;
+- name: `service-pavilion-boundary-shell-policy-001-4f223e95fa95a8eb2e07d24ab1a2f4d3db70df55`;
+- size: **48,446 B**;
+- exact head: `4f223e95fa95a8eb2e07d24ab1a2f4d3db70df55`;
+- SHA-256: **`390a88cafcce05ebb5391bb8e5a51a77118433393fb10b06c56495ff9c97acea`**.
 
-The downloaded archive was independently rehashed and reproduced the exact GitHub digest. Its retained `exact-head.txt` binds to `a976af429b0ea90e0f0cc72d4a8bd4eb8fef22d3`.
+The archive was downloaded after CI and independently rehashed to the exact same SHA-256.
 
-Policy file SHA-256: **`c26f25c789404919bdb8e40f35d517c444e35f0a7aaf9358ad399296a7afe47a`**.
+## Reusable Hard-Surface learning
 
-## Reusable hard-surface learning
+A manufactured asset may legitimately carry **two different exact representations with different authority**:
 
-**A structurally cleaner manufactured representation should not become “current source” merely because it exists; promote it only after source equivalence and a real receiving path are both proven, while preserving the old compatibility identity.**
+1. a semantic assembly representation that preserves named parts, interfaces, receiver meaning and authored mechanical identity;
+2. a boundary-only receiving representation that removes hidden contact faces for render/transport/material use while retaining source ownership metadata.
 
-The reusable method is:
+The reusable pattern is **explicit authority split + exact donor identity + per-surface provenance + no fallback + consumer rebind/retest**.
 
-1. keep the candidate source-owned and explicitly named;
-2. prove the mechanical / geometric invariant against the predecessor;
-3. carry the candidate through at least one real receiver without hiding failures;
-4. promote a separate source-policy identity rather than silently changing a compatibility API;
-5. require downstream consumers to explicitly rebind/retest before claiming current-source provenance.
-
-This is strong enough to retain as a Hard-Surface working pattern. It is **not** yet a Universal Creation or Profession Fabric abstraction: the evidence is still one Building source family plus its receivers, not broad cross-domain repetition.
+The reusable discovery is **not** “boolean-union every hard-surface asset.” This evidence is still one axis-aligned Building family. The policy therefore remains Building-local and is held from Universal Creation and Profession Fabric until materially different domains independently justify the same abstraction.
 
 ## Propagation / handoff
 
-Building PR #2 received exact result comment **`5705935907`**.
+- **Building Geometry PR #6:** comment `5706470053` records that Hard Surface consumed exact green Geometry head `b6d14d48...`, retained Geometry ownership, and source-owned only the receiving-policy boundary.
+- **Building Hard-Surface PR #2:** comment `5706471106` records that `header-segmented-23` remains semantic authority and historical 19-box compatibility remains unchanged.
+- **Building Materials PR #3:** comment `5706472141` exposes the boundary shell as an explicit material/render receiving candidate only; Materials must rebind and rerun target-host visual evidence before any material claim transfers.
+- **Map Technical Art PR #27:** comment `5706474963` exposes the transport candidate without invalidating current receiver evidence or authorizing auto-adoption; four-solid / `1420v / 2884t` truth and source-owner IDs must remain visible.
 
-Building PR #5 received handoff **`5705937400`**: its cross-variant panel reversibility result remains truthful, but wording that calls the 19-box representation current is now historical and must explicitly rebind before claiming the new source policy.
+No Weapon, Armor, Unit, Misc, Object, Character, Animal, Nature, Weather, Runtime, Universal Creation or Profession Fabric implementation was modified by this pass.
 
-Building Procedural PR #4 received handoff **`5705939007`**: its explicit-variant machinery remains truthful, but a current-source claim now requires binding the new policy. No row-grammar change is inferred.
+## Truth boundary / explicit non-claims
 
-Map Environment PR #24 received handoff **`5705940837`**: its exact segmented receiving evidence remains truthful for the geometry it tested; the new policy identity is not inherited automatically.
-
-Map Technical Art PR #27 received handoff **`5705942505`**: `axm.building-build-result/v0.1` remains the historical compatibility API, while current-source delivery now requires explicit policy binding to `header-segmented-23`.
-
-No Materials, Runtime, Object, Universal Creation or Profession Fabric code was changed.
-
-## Truth boundary / non-claims
-
-This PASS proves only that Building now has an explicit source-owned policy naming the already-proven segmented 23-box representation as the current source representation, while preserving the old 19-box build result as an exact compatibility interface and requiring downstream rebinding.
+This PASS establishes only a source-owned **policy for an exact derived Building receiving representation**.
 
 It does **not** establish:
 
-- silent migration of Map, Materials, Procedural, Runtime or any other consumer;
-- a boolean-unioned or globally vertex-manifold pavilion shell;
-- removal of coplanar internal faces where components intentionally touch;
-- architectural engineering, structural loads, code compliance or manufacturing validity;
-- final normals/tangents/UVs/materials/weathering;
-- final Art Direction / Visual QA acceptance;
-- target-device runtime acceptance;
-- collision, navigation, physics or gameplay acceptance;
-- a universal UC source-promotion framework;
+- replacement of `header-segmented-23` as semantic source;
+- replacement or rewrite of the historical 19-box build-result compatibility contract;
+- a single connected solid — the exact shell has four face-connected solids;
+- minimum triangle/vertex count or optimization quality;
+- final normals, tangents, smoothing, UVs, texel density, materials or weathering;
+- final Art Direction or Visual-QA acceptance;
+- target-host import or shading equivalence;
+- runtime draw-call, memory, CPU/GPU/FPS or target-device acceptance;
+- collision, navigation, physics, interaction or gameplay acceptance;
+- architectural engineering, structural loads, code compliance, sealing, tolerance or manufacturing validity;
+- a general boolean union for rotated, curved or arbitrary meshes;
+- Universal Creation extraction;
 - Profession Fabric promotion;
-- CANON, merge authority, production/game readiness or Hard-Surface mastery.
+- CANON or merge authority;
+- production/game readiness or Hard-Surface mastery.
 
 ## Four-root gate
 
-- **Truth:** current-source and compatibility identities are now explicit instead of overloading the historical 19-box default with two meanings.
-- **Agency / non-domination:** no receiver is auto-migrated; each downstream owner keeps the choice and must rebind/retest explicitly.
-- **Continuity:** the 19-box tuple/named-result API and all historical evidence remain intact, while the promoted current-source policy is additive and exact-head bound.
-- **Wisdom before speed:** promotion waited for both source-local equivalence and real current-world receiving evidence instead of declaring the cleaner geometry current as soon as it was generated.
+- **Truth:** semantic-source authority, Geometry topology evidence, receiving-policy authority, representation cost, four-solid structure, retained failure provenance and held downstream claims remain separate and exact-head bound.
+- **Agency / non-domination:** Hard Surface defines its source/receiving boundary without silently migrating Materials, Technical Art, Runtime, Map or other consumers; every downstream owner must explicitly choose, rebind and retest.
+- **Continuity:** current 23-box source, historical 19-box compatibility, Geometry donor, failed verifier predecessor, repaired donor, new policy head and retained artifact remain distinct rollback/provenance points.
+- **Wisdom before speed:** the cleaner boundary shell was not promoted to semantic source merely because Geometry could generate it. The smallest useful source-owner action was to expose it as a bounded receiving representation while protecting mechanical meaning and downstream evidence boundaries.
 
 ## Next Hard-Surface pass
 
-Re-scan the full constellation first. Do not automatically continue Building or Object. Prefer a fresh manufactured source need, a repeated cross-domain mechanical pattern with real evidence, or a downstream failure that specifically requires Hard-Surface ownership.
+Re-scan the full constellation first. Do not automatically continue Building or Object. Prefer a fresh manufactured source need, a downstream failure that specifically requires Hard-Surface ownership, or a materially different second-domain instance of the semantic-vs-receiving representation pattern. Only the latter could begin to justify cross-domain extraction.
