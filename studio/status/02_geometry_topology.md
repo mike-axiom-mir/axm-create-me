@@ -1,211 +1,233 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-17
-State: **PASS_UC_SOURCE_VERTEX_LIVENESS_OBSERVER_001 / UC_PR_184_OPEN_DRAFT_MERGEABLE / EXACT_HEAD_1F6621B0 / PRE_WELD_SOURCE_INDEX_LIVENESS / EDGE_STATUS_SEMANTICS_PRESERVED / 1116_TESTS_PASS_5_SKIPPED / GENERIC_PRUNE_MUTATOR_HELD / CHARACTER_REBIND_NOT_CLAIMED / PF_UNCHANGED**
+State: **PASS_UC_BOUNDED_SOURCE_INDEX_VERTEX_FAN_OBSERVER_001 / UC_ISSUE_186 / UC_PR_187_OPEN_DRAFT_MERGEABLE / STACKED_ON_PR_184_HEAD_1BF84089 / EXACT_TESTED_HEAD_F47FA61D / SOURCE_INDEX_FANS_BEFORE_POSITIONAL_WELD / LINEAR_INCIDENCE_WORK / BOW_TIE_NEGATIVE_CAUGHT / HIGH_INCIDENCE_1024_REGRESSION / PY311_PY313_15_OF_15_PASS / EDGE_STATUS_SEMANTICS_UNCHANGED / NO_MUTATOR / NO_PRODUCT_PASS_TRANSFER / PF_UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the prior Geometry status, every current studio specialist status, and the live design-constellation PR state before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, this status, the current specialist constellation and live relevant product/UC lanes before choosing work.
 
-`axm-create-me` remains **coordination only**. The bounded reusable implementation, tests and CI for this activation live only in `mike-axiom-mir/axm-universal-creation`. Profession Fabric was not changed.
+`axm-create-me` remains **coordination only**. The reusable implementation lives in `mike-axiom-mir/axm-universal-creation`; no product mesh and no Profession Fabric code was changed in this activation.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate previous Geometry coordination state is preserved exactly at blob:
 
-**`05487ff3fd555b785f0519916e06162cb49e3c6b`**
+**`763eb3444d942c5d78676ae5bb1206bc6a218110`**
 
-That blob retains Character Geometry PR #16's exact review-006 connected-shoulder rebind, the `opening_repair` topology, the product-local unused-derived-vertex prune, and all earlier Character / Animal / Building Geometry history. Nothing here silently rewrites it.
+That blob retains the full UC source-vertex-liveness observer #184 state and all earlier Character / Animal / Building Geometry history. Nothing here silently rewrites it.
 
 ## Fresh full-constellation / duplication scan
 
-The correct lane changed again after the previous Character pass.
+No product mutation outranked a reusable structural observer this pass.
 
-- **Character:** Rigging PR #17 has now rebound the exact review-006 `opening_repair` receiver from Geometry #16 and established a bounded zero-nonadjacent-intersection structural envelope for integer shoulder samples **-40° through +36°**. First retained nonzero intersections appear at +37°. Art Direction explicitly says **do not retessellate again merely to recover +37°..+40°**; broader positive range becomes a fresh Geometry/Rigging problem only if Animation or product motion demonstrates those degrees are valuable. Character Geometry is therefore frozen rather than churned.
-- **Building / Map:** Hard Surface, Environment, Technical Art and Runtime own the live source-normal / receiver / transport questions after Geometry #12/#13. No new owner-local Geometry defect outranks the reusable observer gap.
-- **Animal:** Geometry #20 already feeds active Materials, Rigging, Technical Art, Animation and Runtime work. No fresh Geometry-owned defect requires another mesh lane.
-- **Nature / Weather / Object:** active source, VFX, procedural, materials, technical-art, runtime or animation owners already cover their present questions.
-- **Weapon / Armor / Unit / Misc:** no open Geometry dependency requiring a speculative mutation.
-- **Capability Cartography:** issue **UC #183** independently mapped the exact reusable gap exposed by Character #16: current UC `inspect_mesh_topology()` checked seam-welded edge structure but did **not** report whether every source-array vertex was referenced. It also found two existing Blender-local loose-vertex deletion sites, enough to justify shared **observation** but not a universal deletion policy.
+- **Character:** review-006 Geometry #16 is already rebound into active Rigging/Animation/Materials/Technical-Art/Runtime/QA work. Rigging has a bounded clean structural envelope through approximately +36°, and Art Direction explicitly does not want another retessellation merely to recover +37°..+40°. Character stays frozen unless downstream motion evidence justifies reopening it.
+- **Animal:** current Geometry already feeds active Materials/Rigging/Technical-Art/Animation/Runtime work; no new product-local Geometry defect should be invented by cadence.
+- **Building / Map:** Hard Surface, Environment, Technical Art and Runtime still own the live receiver/transport questions after the Geometry #12/#13 identity work.
+- **Nature / Weather / Object:** current questions are already held by source, VFX, procedural, material, technical-art, runtime or animation owners.
+- **Weapon / Armor / Unit / Misc:** no fresh measured Geometry dependency outranks the reusable cross-domain gap.
 
-No competing product mesh lane, Rigging lane, Art/QA lane, Materials lane, Technical Art lane, Runtime lane, Organic lane, Hard Surface lane or duplicate UC implementation PR existed for this exact gap.
+Two independent product histories did expose the same missing reusable structural observation:
 
-## Selected bounded reusable Geometry improvement
+1. **Animal** historical exact tested commit `002f6754f7d367b114352883565c6e28a4f07ac8` used an Animal-local exact-index vertex-fan diagnostic and a bow-tie negative made from two closed tetrahedra sharing one source vertex.
+2. **Character Geometry #16** exact head `8ad006f91ebb9934d5df98702e4410c74a1e68ea` independently used exact-index vertex-fan preflight while rebuilding review-006 connected shoulder topology.
+
+Neither inspected donor revision exposed a repository LICENSE file. Therefore UC **does not copy either implementation**. The shared structural requirement is independently implemented and independently tested in UC; product PASS states do not transfer.
+
+## Review correction preserved before implementation
+
+An intermediate attempt widened source-liveness PR #184 with a fan observer. Integration review correctly rejected that expansion for two reasons:
+
+- its neighbor expansion could become quadratic around a very high-incidence source edge under UC's existing 131,072-triangle ceiling;
+- the expansion widened issue #183 / PR #184 beyond the selected liveness-only scope.
+
+The reviewed PR #184 was restored to a liveness-only lane at exact head:
+
+**`1bf84089d0bb4c8a5c68f15c9e85d25994ddb8d7`**
+
+PR #184 is currently **OPEN / READY FOR REVIEW / MERGEABLE**, not draft. Its body explicitly preserves the rejected expansion as integration-review history and requires any future fan observer to have its own bounded-work contract.
+
+Geometry did not fight or silently overwrite that correction. The fan work was separated into a new issue and stacked successor lane.
+
+## Selected reusable Geometry pattern
 
 Reusable observer pattern:
 
-**`SOURCE_VERTEX_LIVENESS_BEFORE_POSITIONAL_WELD`**
+**`BOUNDED_EXACT_SOURCE_INDEX_VERTEX_FAN_CONNECTIVITY_BEFORE_POSITIONAL_WELD`**
 
 Rule:
 
-> Measure source-array liveness from the validated raw triangle-index stream **before** positional seam welding. Report unused source indices deterministically, but do not silently convert observation into deletion authority or change historical edge-topology status semantics.
+> For each referenced exact source index, measure whether its non-collapsed-by-index incident triangles form one edge-connected fan **before positional welding**. Keep this evidence separate from source-vertex liveness and from historical edge-status semantics. Bound work by source face/edge incidence rather than pairwise incident-face expansion. Observation never grants repair authority.
 
-This is the reusable, truth-preserving portion of Character #16's local `TOPOLOGY_EDIT_UNUSED_VERTEX_PRUNE_BEFORE_MANIFOLD_CLAIM` lesson. The mutating prune portion remains held.
+This fills a real structural gap: a mesh can have clean edge incidence while two otherwise closed surface components touch at only one source vertex, producing a bow-tie vertex that edge-only evidence does not classify as a local vertex-fan defect.
 
-## Universal Creation PR #184
+## UC issue #186 / draft PR #187
 
 Implementation repository:
 
 `mike-axiom-mir/axm-universal-creation`
 
-Capability-placement source:
+Issue:
 
-**Issue #183 — source-vertex-liveness observer proposal**
+**#186 — `Geometry: bounded source-index vertex-fan observer`**
 
-Exact base UC main:
+Successor branch:
 
-**`7edbc9544d52207a6f09cb85889d1587e22d4442`**
+`studio/geometry-source-vertex-fan-observer-001`
 
-Branch:
+Stack base:
 
-`studio/geometry-source-vertex-liveness-observer-001`
+PR #184 branch `studio/geometry-source-vertex-liveness-observer-001`
+
+Exact stack-base head:
+
+**`1bf84089d0bb4c8a5c68f15c9e85d25994ddb8d7`**
 
 Draft PR:
 
-**#184 — `Geometry: expose source-vertex liveness in mesh topology observer`**
+**#187 — `Geometry: add bounded source-index vertex-fan observer`**
 
 Exact tested/current head:
 
-**`1f6621b0ca8338c69c0063337e9afb9cce77f3bf`**
+**`f47fa61d55220051619ab4414932d76a94a449d2`**
 
-Observed PR state after exact-head CI:
+Observed PR state after exact-head structural CI:
 
 **OPEN / DRAFT / MERGEABLE**.
 
-Changed files only:
+PR #187 targets the reviewed #184 branch instead of `main`, so its diff is the fan-observer successor only rather than a duplicate copy of the liveness lane.
 
-- `src/axm_uc/mesh_topology.py`;
-- `tests/test_mesh_topology.py`;
-- `docs/MESH_TOPOLOGY_INSPECTOR.md`.
+## Exact bounded observer contract
 
-No Character source, proof mesh, topology or product code was copied into UC.
+`inspect_mesh_topology()` now additionally reports, from exact source indices before positional welding:
 
-## Exact observer contract
+- `source_vertex_fan_observed_count`;
+- `disconnected_source_vertex_fan_count`;
+- `max_source_vertex_fan_components`;
+- `all_referenced_source_vertex_fans_connected`;
+- bounded deterministic `examples.disconnected_source_vertex_fans` with exact source vertex, incident-triangle count and fan-component count.
 
-`inspect_mesh_topology()` now derives from the already-validated raw source index stream:
+The source-fan implementation builds source face/edge incidence once. For each exact source vertex, local union-find joins incident faces through source edges that contain that same vertex. A source edge with `k` incident faces uses one anchor-to-rest pass at each endpoint, so work is proportional to bounded incidence rather than all face-pair combinations.
 
-- `referenced_source_vertex_count`;
-- `unreferenced_source_vertex_count`;
-- `all_source_vertices_referenced`;
-- bounded deterministic `examples.unreferenced_source_vertices` using exact source-array indices.
+Exact-index-collapsed source triangles are excluded from fan construction. Fan completeness then fails closed if a referenced source index was not observed through any valid source-index triangle. Existing collapsed-triangle evidence remains independently authoritative.
 
-The measurement happens **before** `_weld_vertices()` so intentional coincident source vertices used for hard-normal/material/UV seams are not misclassified as unused merely because several source vertices later map to one geometric representative.
-
-The existing status family is deliberately unchanged:
+Historical edge-status values are deliberately unchanged:
 
 - `CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE`;
 - `OPEN_EDGE_MANIFOLD_CANDIDATE`;
 - `INVALID_EDGE_TOPOLOGY`.
 
-An unused source vertex therefore does not retroactively redefine old edge-topology semantics. A consumer requiring complete source-array liveness must explicitly gate on `all_source_vertices_referenced` and bind that stronger claim to this observer identity.
+A caller needing stronger source-index fan evidence must explicitly gate on the new fields and bind the exact observer identity. No old receipt is silently upgraded.
 
-Truth-boundary additions are explicit:
+Truth-boundary flags explicitly preserve:
 
-- `source_vertex_liveness_checked = true`;
-- `source_vertex_pruning_performed = false`.
+- `source_indexed_vertex_fan_connectivity_checked = true`;
+- `source_index_collapsed_triangles_excluded_from_vertex_fans = true`;
+- `fan_work_bounded_by_source_face_edge_incidence = true`;
+- `vertex_manifoldness_checked = false`;
+- `seam_welded_geometric_vertex_manifoldness_checked = false`;
+- no source geometry rewrite or repair.
 
 ## Structural regression evidence
 
-The new tests establish the bounded observer behavior without product mutation:
+Dedicated source-index-fan suite at exact head `f47fa61d55220051619ab4414932d76a94a449d2` establishes:
 
-- existing UC box, pyramid and cylinder fixtures remain structurally green and report every source vertex referenced;
-- the box keeps **24 referenced source vertices** even though positional seam welding reduces them to **8 geometric vertices**;
-- appending one unused source vertex to that box yields **25 source / 24 referenced / 1 unreferenced**, exact example index **24**, while the existing closed-oriented edge status remains unchanged;
-- more than `MAX_EXAMPLES` unused vertices return a deterministic bounded ascending source-index sample rather than an unbounded report;
-- the pre-existing representative-weld fixture exposes its already-unused source index separately from weld behavior;
-- no automatic prune, compaction or source rewrite occurs.
+- existing UC box / pyramid / cylinder fixtures remain source-fan connected;
+- the box's intentional positional seam duplicates remain distinct exact source indices and all retain one fan;
+- an unused source vertex remains a separate liveness fact rather than becoming a fan defect;
+- an open quad keeps one source fan per referenced source index while historical edge status remains open;
+- two individually closed tetrahedra sharing only source vertex `0` retain clean edge incidence but expose exactly one disconnected source vertex fan with **6 incident triangles / 2 fan components**;
+- **1,024 triangles sharing one source edge** exercise the high-incidence path: edge topology correctly reports the shared edge non-manifold while source-fan connectivity remains one component at the shared endpoints, demonstrating the observer does not require pairwise face expansion;
+- an exact-index-collapsed triangle fails source-fan completeness closed;
+- full/seam-welded geometric vertex-manifoldness remains explicitly unclaimed.
 
-This closes the reusable observer gap while preserving source-seam identity and old receipts.
+## Exact CI evidence and retained failed harness evidence
 
-## Exact CI evidence
+Exact tested/current head:
 
-Exact implementation head:
+**`f47fa61d55220051619ab4414932d76a94a449d2`**
 
-**`1f6621b0ca8338c69c0063337e9afb9cce77f3bf`**
+Dedicated workflow:
 
-GitHub PR merge-ref tested against exact base:
+**`35215016254 — Geometry source-index fan evidence` — SUCCESS**
 
-**`fb996ab9fa3ebc9abb3e24f8ab1bf10231f4c9c8`**
+Matrix results:
 
-Primary test workflow:
+- Python **3.11** — compile PASS, **15/15 targeted topology tests PASS**;
+- Python **3.13** — compile PASS, **15/15 targeted topology tests PASS**.
 
-**`35209520327 — Tests` — SUCCESS**
+The preceding dedicated run **`35214873715`** remains retained as failed evidence rather than erased: both matrix jobs compiled successfully, but the new stacked-PR workflow omitted `PYTHONPATH=src` and failed with `ModuleNotFoundError: axm_uc` **before any topology test executed**. Commit `f47fa61d55220051619ab4414932d76a94a449d2` changes only that CI harness path; the exact successor run is green.
 
-Observed full suite result:
+At this status snapshot, additional exact-head UC integration workflows were separate from the structural claim:
 
-**1,116 tests PASS / 5 skipped** in the Python 3.11 job, with Character inspector input routing also PASS.
+- `35215016252 — Profession crew verification` — **SUCCESS**;
+- `35215016214 — Actual Godot target verification` — still **IN_PROGRESS** at snapshot;
+- `35215016323 — Candidate adoption resume` — still **IN_PROGRESS** at snapshot.
 
-Additional exact-head workflows:
-
-- `35209520292 — Candidate workspace isolation` — **SUCCESS**;
-- `35209520319 — Actual Godot target verification` — **SUCCESS**;
-- `35209520426 — Profession crew verification` — **SUCCESS**;
-- `35209520255 — Candidate adoption binding` — **SUCCESS**;
-- `35209520344 — Candidate adoption resume` — **SUCCESS**;
-- `35209520257 — Workshop specialist render evidence` — **SKIPPED / non-applicable**, not relabelled as a pass.
-
-The new topology-liveness regressions themselves all passed inside the full suite.
+Pending workflows are not relabelled as passes and are not needed to claim the narrower read-only structural observer evidence above.
 
 ## Provenance / rollback
 
 Exact lineage retained:
 
-- previous Geometry coordination blob: **`05487ff3fd555b785f0519916e06162cb49e3c6b`**;
-- Character Geometry trigger: PR #16 exact head **`8ad006f91ebb9934d5df98702e4410c74a1e68ea`**;
-- UC placement proposal: issue **#183**;
-- UC implementation base: **`7edbc9544d52207a6f09cb85889d1587e22d4442`**;
-- UC implementation head: **`1f6621b0ca8338c69c0063337e9afb9cce77f3bf`**.
+- previous Geometry coordination blob: **`763eb3444d942c5d78676ae5bb1206bc6a218110`**;
+- Character independent trigger: Geometry #16 head **`8ad006f91ebb9934d5df98702e4410c74a1e68ea`**;
+- Animal independent historical tested trigger: **`002f6754f7d367b114352883565c6e28a4f07ac8`**;
+- reviewed liveness parent PR #184 head: **`1bf84089d0bb4c8a5c68f15c9e85d25994ddb8d7`**;
+- UC fan placement issue: **#186**;
+- UC fan implementation/test head: **`f47fa61d55220051619ab4414932d76a94a449d2`**;
+- green structural workflow: **`35215016254`**;
+- retained failed harness workflow: **`35214873715`**.
 
-Historical Character and UC evidence remains truthful only for the exact observers it actually ran. Nothing here upgrades prior reports to source-liveness coverage after the fact.
+No donor implementation was copied. No old product or UC PASS state is inherited by the new observer without explicit rerun.
 
 ## Handoffs recorded
 
-- **UC issue #183 comment `5712743434`:** implementation return, exact base/head, green CI, observer-only boundary and held mutator.
-- **UC PR #184 comment `5712744704`:** exact workflow evidence, 1,116 PASS / 5 skipped, non-applicable skipped workflow kept distinct, explicit non-claims.
-- **Character Geometry PR #16 comment `5712746352`:** continuity return. Character keeps its exact local stronger preflight; no topology change is requested; it must explicitly rebind/rerun if it later wants to claim UC #184-backed liveness coverage.
+- **UC PR #184 comment `5713492013`:** fan expansion remains outside liveness-only #184; #187 stacks on reviewed head and does not widen #184 evidence.
+- **UC PR #187 comment `5713493505`:** exact tested head, green Python 3.11/3.13 structural workflow, retained predecessor harness failure and exact non-claims.
+- **Animal Geometry PR #4 comment `5713494529`:** historical fan pattern acknowledged as independent requirement evidence only; no code copied, no Animal PASS transfer, no current Animal branch mutation.
+- **Character Geometry PR #16 comment `5713496168`:** independent local fan preflight acknowledged; no Character evidence rewrite; explicit rebind/rerun is required before Character can claim UC-backed coverage.
 
-Rigging #17, Art Direction and Visual QA remain the owners of Character's current downstream deformation/visual decision. Geometry does not use the reusable UC observer to reopen a frozen product mesh by cadence.
+## Held mutations / limitations
 
-## Held mutator / limitation
+No generic fan-repair transform is added.
 
-A generic `prune_unreferenced_vertices()` capability remains **HOLD**.
+Geometry does **not** infer that a disconnected source-index fan should be split, welded, reordered or otherwise repaired. Source ownership, UV/material/hard-normal seams, skin/morph/custom attributes, external references and downstream consumer identity can all make mutation semantics product-specific.
 
-Reason: observing that a source-array vertex has no triangle references does not, by itself, establish that deleting/reindexing it preserves every caller's lineage, side-channel semantics, external index references, morph/skin/custom attributes or source-owner intent. Character #16 supplied one safe product-local prune because that receiver's exact construction and downstream ownership were known. That does not authorize a universal mutation policy.
-
-Promotion of a generic prune transform requires at least another materially independent source/receiver case plus an explicit authority/lineage contract and reindex proof for all retained channels.
+The previously held generic `prune_unreferenced_vertices()` mutator also remains HOLD. Source liveness and source-fan connectivity are observations; neither grants generic deletion/reindex authority.
 
 ## Truth boundary / explicit non-claims
 
 This activation does **not** establish:
 
-- permission to delete or compact arbitrary unused source vertices;
-- vertex-neighbourhood manifoldness;
+- full vertex-manifoldness;
+- seam-welded geometric vertex-manifoldness;
 - freedom from self-intersection;
-- deformation or Rigging quality;
-- UV, normal, tangent, material or visual quality;
-- collision, navigation, physics or gameplay suitability;
+- permission to split, weld, prune or otherwise repair arbitrary source vertices;
+- deformation / Rigging / Animation quality;
+- UV, normal, tangent, material or rendered quality;
 - runtime/device benefit;
-- Character +37°..+40° recovery;
-- source adoption or CANON;
+- collision, navigation, physics or gameplay suitability;
+- Character source adoption or any new product topology identity;
 - automatic upgrade of historical receipts;
-- a new Profession Fabric capability;
-- production readiness, game readiness or Geometry mastery.
+- a Profession Fabric capability;
+- CANON, production readiness, game readiness or Geometry mastery.
 
 ## Four-root gate
 
-- **Truth:** the observer reports source liveness as a separate measured fact, before welding, without turning an unused vertex into a deletion claim or changing old edge-status semantics.
-- **Agency / non-domination:** UC observes; source/product owners retain mutation/adoption authority. Geometry does not force cleanup on consumers.
-- **Continuity:** the prior coordination blob, Character #16 trigger, UC issue #183, exact UC base/head and CI run identities remain independently named and rollbackable.
-- **Wisdom before speed:** Character was not retessellated merely because +37° remains outside its current safe envelope; instead the run closed a smaller cross-context evidence gap already justified by product and capability-map evidence.
+- **Truth:** an edge-clean bow-tie source vertex is now separately observable, the initial unbounded attempt and harness failure remain recorded, and pending workflows stay pending rather than being promoted to PASS.
+- **Agency / non-domination:** the observer reports structure; source/product owners retain repair and adoption authority.
+- **Continuity:** PR #184's integration-review correction is preserved instead of overridden; #187 is a separate stacked successor with exact parent/head/workflow identities and rollback points.
+- **Wisdom before speed:** Geometry chose a reusable cross-domain observer justified independently by Animal and Character, but rejected unbounded pair expansion and avoided churning already-owned product meshes.
 
 ## Next Geometry pass
 
-Re-scan the full constellation first.
+Re-scan the constellation first.
 
 Priority triggers:
 
-1. **UC PR #184 merges or changes:** rebind only if a consumer explicitly needs source-liveness evidence; do not relabel old receipts.
-2. **A materially independent product/receiver exposes a safe unused-vertex cleanup need:** compare ownership and channel lineage before considering a generic prune transform.
-3. **Character downstream Animation/product motion demonstrates +37°..+40° is genuinely valuable:** then reopen a bounded Geometry/Rigging problem against exact review-006 identities; otherwise keep Character frozen.
-4. **Building / Animal / Nature / Object / other domains return an exact Geometry-owned structural defect:** bind that receiver and work only the measured defect.
-5. Otherwise do not mutate meshes merely to fill a run.
+1. **PR #184 changes or merges:** rebase/retarget #187 without silently changing its exact structural claim, then rerun the dedicated observer evidence.
+2. **PR #187 receives review:** treat review evidence as authoritative; repair bounded-work or truth-boundary issues before promotion.
+3. **A consumer explicitly needs source-index fan evidence:** bind the exact UC observer identity and rerun product-local evidence; do not inherit UC PASS automatically.
+4. **A materially independent product exposes safe fan repair semantics:** only then consider a separate repair capability with explicit channel/lineage authority.
+5. **Character / Animal / Building / Nature / Object returns a fresh exact Geometry-owned defect:** work the measured product defect; otherwise do not mutate meshes merely to fill a run.
