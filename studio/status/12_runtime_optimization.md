@@ -1,240 +1,220 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-17
-State: **PASS_43_OBJECT_VFX_MULTIMESH_BATCHING / 18_TO_1_VFX_DRAW_CALL / TOTAL_FRAME_49_TO_32_MINUS34P69 / 0_PIXELS_OVER_1LSB_ACROSS_6_AB_PAIRS / HOLD_ART_QA_TARGET_DEVICE_CANON**
+State: **PASS_44_OBJECT_CURRENT_WORLD_STATIC_COMPONENT_BATCHING / 33_TO_14_RENDER_SURFACES / MINUS38_TOTAL_DRAW_CALLS_AT_ALL_4_KEYS / MINUS89360B_RENDERER_BUFFER / 4_OF_4_SHADED_PAIRS_BYTE_IDENTICAL / HOLD_FUTURE_ARTICULATION_ART_QA_TARGET_DEVICE_CANON**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, current Runtime status, and current Art Direction / VFX / Visual QA / Technical Art constellation state before changing Runtime state.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, current Runtime status, and fresh Art Direction / VFX / Environment / Technical Art / Animation state before changing Runtime state.
 
-`axm-create-me` remains **coordination only**. Runtime implementation and measured evidence live in the owning Object repository. Universal Creation product code was not modified.
+`axm-create-me` remains **coordination only**. Runtime implementation and measured evidence live in `mike-axiom-mir/axm-map-design`. Universal Creation product code was not modified.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Constellation scan / non-overlap
 
-A fresh Object VFX lane is now mature enough for a Runtime representation pass:
+Pass 43's Object VFX MultiMesh representation remains useful historical Runtime evidence, but current Art Direction explicitly holds that owner VFX presentation for a VFX-owned repair. Runtime therefore did **not** reopen PR #32 or optimize the held 18-mote effect again.
 
-- Object VFX PR #31 is open/draft and owns the exact 18-mote lid-release effect, owner seed `41027`, trigger semantics and visual identity.
-- VFX has real Godot target-host and wall-clock presentation evidence, while explicitly leaving production representation/performance to Runtime.
-- Animation retains timing/easing/order.
-- Art Direction / Visual QA retain final appearance acceptance.
-- No competing Object VFX Runtime batching lane was open.
+The fresh reusable risk is the newly proven articulated Object receiver in the current world:
 
-Runtime therefore did **not** reopen Animal pass 42, Character, Nature, Building, texture-format or animation-key-budget work. It opened one bounded Object VFX representation lane only.
+- Technical Art exact retained parent `d2974dec5043ed9afad346574b23ef8bd4438a76` exposes **31 source-owned rigid component nodes / 33 component-surface instances / 812 triangles**;
+- Animation exact green head `c2695f654f9dd44312ca5d205eceb27f7c2680ee` proves the exact **2.5 s / 40 Hz / 101-sample** lid/latch owner sequence through that receiver in real Godot wall-clock playback;
+- Runtime/device acceptance for that 31-node / 33-surface representation was explicitly still held;
+- no competing Runtime lane was batching the static subset of this exact articulated receiver.
 
-Exact VFX parent consumed by Runtime:
+For the pinned owner sequence, Runtime identifies **7 moving components** and **24 components that remain static for the entire exact sequence**. This created a bounded draw-call/memory opportunity without changing owner animation or source ownership.
 
-`1fc2eb89b7869b81a97614a586e04375a7ad0547`
+## Selected bounded improvement — completed pass 44
 
-Frozen owner-effect SHA-256:
+Repository: `mike-axiom-mir/axm-map-design`
 
-`f7a038c488405cdd8341368d155db325093907090ddbb74d557139cadf6ba813`
+Draft Runtime PR: **#47 — `Runtime: batch static Object rigid components in current world`**
 
-## Selected bounded improvement — completed pass 43
+Branch: `studio/runtime-object-current-world-static-component-batching-001`
 
-Repository: `mike-axiom-mir/axm-object-design`
-
-Draft Runtime PR: **#32 — `Runtime: batch lid-release motes with one MultiMesh`**
-
-Branch: `studio/runtime-object-lid-release-mote-batching-001`
+Base: `studio/animation-object-current-world-wallclock-001`
 
 Exact measured Runtime head:
 
-`b45dfee4c0a6ae92b8bc5056d4846331075fdadc`
+`08c5514835acc942858820b27874498c1c84c2ae`
+
+PR #47 is **open / draft / unmerged / mergeable**.
 
 Scoped result:
 
-**`PASS_RUNTIME_LID_RELEASE_MOTE_MULTIMESH_BATCHING__HOLD_ART_QA_TARGET_DEVICE`**
+**`PASS_OBJECT_CURRENT_WORLD_STATIC_COMPONENT_BATCHING__HOLD_ART_QA_TARGET_DEVICE_FUTURE_ARTICULATION`**
 
 Decision:
 
-**`PASS_ONE_MULTIMESH_REPLACES_EIGHTEEN_OWNER_MOTE_MESH_INSTANCES_WITH_REAL_DRAW_CALL_REDUCTION__NO_AUTO_ADOPTION`**
+**`PASS_SEQUENCE_BOUND_STATIC_RENDER_BATCH__NO_AUTO_ADOPTION`**
 
-### Why this gap
+### Representation
 
-The proven VFX receiver represented each of the 18 deterministic release motes independently:
+Runtime keeps:
 
-- 18 `MeshInstance3D` resources;
-- 18 `QuadMesh` resources;
-- 18 `StandardMaterial3D` resources;
-- one draw call per active mote.
+- all **31 semantic component nodes** present and addressable;
+- all **7 moving component render meshes** individual;
+- the exact owner `AnimationPlayer`, keys, timing, easing and hierarchy;
+- exact indexed component geometry, materials and **812 triangles**.
 
-That representation is correct for authoring/proof, but the repeated billboard/material/draw-call shape is a reusable production-runtime risk. Runtime therefore tested the smallest representation-only replacement:
+Only the **24 components proven static under this exact pinned 101-key sequence** surrender their individual renderer meshes. Their exact indexed surfaces are unioned only when material and non-index attribute domains match, into one shared static `ArrayMesh`.
 
-- one `MultiMeshInstance3D`;
-- one `MultiMesh`;
-- one shared unit `QuadMesh`;
-- one shared billboard material;
-- per-instance transform preserves the owner mote position and size;
-- per-instance color alpha preserves the owner fade envelope.
+This is intentionally **sequence-bound**. A future Object sequence that moves any component classified static here must debatch/rebind that component. Preserving the semantic node does not silently grant arbitrary future-articulation safety after its renderer mesh is detached.
 
-No seed, spawn time, lifetime, velocity, gravity, emitter seam, trigger, Animation timing/easing/order, source geometry, Rigging or gameplay semantics were changed.
+## Before / after measured receiver evidence
 
-## Measured draw-call / object budget
-
-Pinned target host:
+Pinned proof host:
 
 - Godot `4.7.2-stable`;
 - X11;
 - GL Compatibility;
-- Mesa llvmpipe proof host.
+- Mesa llvmpipe.
 
-At the retained continuity camera at `0.40 s`, all **18 motes are active**.
+Retained owner sample indices:
 
-Measured total-frame counts:
+`0 / 10 / 50 / 100` = `0.00 / 0.25 / 1.25 / 2.50 s`.
 
-- legacy draw calls: **49**;
-- batched draw calls: **32**;
-- draw calls saved: **17**;
-- total-frame draw-call reduction: **34.6938775510204%**;
-- legacy objects in frame: **49**;
-- batched objects in frame: **32**;
-- primitives: **848 -> 848**.
+Receiver representation:
 
-The no-effect control scene is **31 draw calls** at the same observation. Therefore the isolated VFX contribution is:
+- control component-surface instances: **33**;
+- control moving surface instances: **8**;
+- control static surface instances: **25**;
+- candidate static-batch surfaces: **6**;
+- candidate total rendered surfaces: **14**;
+- rendered-surface reduction: **33 -> 14**, saving **19 / 57.5757576%**;
+- semantic component nodes: **31 -> 31**;
+- triangles: **812 -> 812**.
 
-- legacy VFX: **18 draw calls**;
-- batched VFX: **1 draw call**;
-- VFX-specific draw-call reduction: **18 -> 1**, saving **17 / 94.4444444444444%**.
+Measured total-frame draw calls:
 
-At `0.30 s`, when nine motes are active, total draw calls are **40 legacy -> 32 batched**, matching the same base-scene + one-batched-draw pattern.
+- key 0: **103 -> 65**;
+- key 10: **105 -> 67**;
+- key 50: **111 -> 73**;
+- key 100: **103 -> 65**.
 
-At inactive `0.20 s` and `0.80 s`, total draw calls return to the **31-draw** base scene.
+That is exactly **38 fewer total draw calls at every retained owner key**. Because this is a complete current-world proof frame rather than an isolated Object micro-scene, Runtime records the exact total-frame delta and does not mislabel all 38 as Object-only shader submissions.
 
-## Memory / primitive tradeoff
+Measured visible objects follow the same exact reduction:
 
-This pass produced a draw/object-count win, **not a measured proof-host renderer-memory win**.
+- **103 -> 65**;
+- **105 -> 67**;
+- **111 -> 73**;
+- **103 -> 65**.
 
-At the retained 18-active `0.40 s` probe:
+Primitive counts remain matched per corresponding control/candidate frame:
 
-- buffer memory: **6,448,804 B -> 6,448,804 B**;
-- video memory: **15,759,719 B -> 15,759,719 B**;
-- texture memory in the retained comparisons: **9,310,915 B -> 9,310,915 B**;
-- primitives: **848 -> 848**.
+- `6328 -> 6328`;
+- `6352 -> 6352`;
+- `6484 -> 6484`;
+- `6328 -> 6328`.
 
-Runtime therefore does not claim memory reduction, geometry reduction or lower GPU primitive work from this pass.
+## Memory evidence / tradeoff
+
+Renderer buffer memory is stable across all four retained samples:
+
+- control: **6,687,928 B**;
+- candidate: **6,598,568 B**;
+- reduction: **89,360 B / 1.3361388%**.
+
+Texture memory is unchanged at **14,273,815 B**.
+
+This is proof-host renderer evidence only. Runtime does not convert it into a target-device VRAM, GPU-time, FPS, thermal, battery or production-memory claim.
 
 ## Renderer-visible correctness / Art tradeoff
 
-Six fixed control / legacy / batched comparisons were retained:
+All four fixed current-world shaded control/candidate comparisons are **byte-identical**:
 
-- continuity three-quarter at `0.20`, `0.30`, `0.40`, `0.52`, `0.80 s`;
-- left-oblique seam at `0.40 s`.
+- image size: `1100 x 720` = **792,000 pixels** per pair;
+- changed pixels across all four pairs: **0**;
+- pixels over 1 LSB: **0**;
+- maximum channel delta: **0 LSB**.
 
-Owner visibility is preserved:
+Owner moving-state equivalence is exact in the retained proof:
 
-- `0.20 s`: 0 active;
-- `0.30 s`: 9 active;
-- `0.40 s`: 18 active;
-- `0.52 s`: 18 active;
-- `0.80 s`: 0 active;
-- left-oblique `0.40 s`: 18 active.
+- maximum owner pose delta: **0.0 deg**;
+- maximum moving-component receiver-center delta: **0.0 m**.
 
-Candidate/control visibility envelopes match the legacy/control evidence at every retained sample. Legacy versus batched image evidence:
+Visual tradeoff recorded for Art Direction:
 
-- comparison pairs: **6**;
-- byte-identical PNG pairs: **3 / 6**;
-- pixels differing by more than 1 LSB across all six pairs: **0**;
-- maximum RGB delta: **1 LSB**.
+**`NONE_OBSERVED_ALL_RETAINED_SHADED_PAIRS_PIXEL_IDENTICAL`**.
 
-This is recorded as a **very low but nonzero raster tradeoff**, not as literal byte identity across the full set. The retained result is strong enough to show the MultiMesh representation is visually faithful in these contexts, but Art Direction and Visual QA still own acceptance. Transparent-instance ordering and arbitrary cameras/effect families are not generalized from this proof.
+This still does **not** grant final Art Direction / Visual QA acceptance, arbitrary cameras, arbitrary future sequences, target-device acceptance or production readiness.
 
 ## Preserved failed predecessor / repair
 
-The first exact Runtime workflow is intentionally retained as a real failure:
+The first dedicated pass-44 workflow is intentionally preserved as a tooling failure:
 
-- workflow **`35273776654`**;
-- Runtime head `21b796a31cbd2133e0d713b2806f216648a8bfc4`;
-- artifact ID `10518778841`;
-- artifact size **141,585 B**;
-- artifact SHA-256 `cb88a6e308215fe136727bcb93d349e6f9b23059283b79710f4029e1f972dc85`.
+- workflow **`35279473269`**;
+- candidate head before repair: `ea10534cfd29037e87cf97057bccc34dc27ca1ca`;
+- failure occurred before measurement because Godot could not infer the return types of two local mesh-count variables.
 
-The first batched candidate lost per-instance size because the billboard material discarded transform scale. At `0.30 s`, the normal owner receiver changed **1,142 pixels** from control, while the broken batched candidate changed **348,097 pixels** and was rejected by the visual envelope gate with `batched active visibility escaped owner envelope`.
+The repair changed only those two locals to explicit `int` typing. It did **not** change the candidate representation, owner data or acceptance thresholds.
 
-The repair changed only the shared billboard representation by enabling `billboard_keep_scale=true`. It did **not** change owner effect parameters, seed `41027`, spawn/lifetime/velocity/gravity, Animation timing/easing, source geometry or acceptance thresholds.
-
-The repaired exact head is the measured head `b45dfee4...` above.
+Final measured head is `08c5514835acc942858820b27874498c1c84c2ae`.
 
 ## Verification / fail-closed evidence
 
-Dedicated successful workflow:
+Dedicated final workflow:
 
-**`35273951531 — Object Runtime lid-release mote MultiMesh batching` — SUCCESS**.
+**`35279605460 — Runtime Object current-world static component batching` — SUCCESS**.
 
-The full Object regression suite passed on both supported proof environments:
+Explicit negative controls pass fail-closed:
 
-- Python 3.11: **46 / 46 tests**;
-- Python 3.13: **46 / 46 tests**.
+- removing the draw-call win is rejected;
+- inflating the candidate to claim arbitrary future-articulation safety is rejected.
 
-Explicit negative controls also passed fail-closed:
+Retained artifact:
 
-- mutating the candidate to remove the draw-call win is rejected (`49 -> 49`);
-- mutating the candidate resource shape back toward 18 MultiMesh instances is rejected.
-
-Retained green artifact:
-
-- ID **`10519870498`**;
-- size **470,755 B**;
-- SHA-256 **`6e0ca93233394ecfdaba57707625f4340a38bf43bd2dc9d0fad9a6e845154b37`**;
+- ID **`10522290719`**;
+- size **2,613,854 B**;
+- GitHub SHA-256 **`a93a66ebc035c7d11ec00389b9c9f3b70c163dd83138f32a418e45f103963ee3`**;
 - independently downloaded and rehashed to the same digest.
 
-The artifact retains the frozen owner effect, exact dependency identities, Runtime probe/verifier, receipt and all retained control/legacy/batched PNG evidence.
+The retained artifact contains the exact Runtime summary/receipt, the exact green Animation and Technical Art parent evidence, negative-control receipts/logs, and all eight control/candidate shaded PNGs.
 
-## Current PR / handoff state
+## Handoff / authority state
 
-Object Runtime PR #32 is **open / draft / unmerged / mergeable** at exact measured head `b45dfee4c0a6ae92b8bc5056d4846331075fdadc`.
+The measured result is recorded on Runtime PR #47 and returned to Animation PR #46 as an **option only**. No automatic adoption was requested.
 
-The exact measured result was returned to:
+Authority remains separated:
 
-- Runtime PR #32 as its evidence record;
-- Object VFX PR #31 as an **option only**, with explicit no-auto-adoption language.
+- Technical Art owns the 31-component receiver and hierarchy;
+- Animation owns timing/easing/owner samples;
+- Runtime owns this representation/performance evidence;
+- VFX retains its own effect identity and current repair lane;
+- Environment owns current-world composition adoption;
+- Art Direction and Visual QA own perceptual/final acceptance.
 
-Art Direction / Visual QA remain the owners of final perceptual acceptance. VFX retains effect identity. Runtime retains representation/performance evidence.
+## Continuity from pass 43
 
-## Continuity from pass 42
+Pass 43 Object VFX MultiMesh evidence remains valid historical Runtime evidence and is not overwritten. Its exact owner representation demonstrated an 18-to-1 VFX draw-call reduction, but Art Direction subsequently held that owner VFX presentation pending VFX-owned repair. Runtime therefore preserves the pass-43 evidence while **not** using it as a reason to push the held effect into the current world.
 
-Pass 42 Animal exact-key payload dedup remains valid historical Runtime evidence and is not overwritten by this pass.
-
-Its scoped result remains:
-
-`PASS_ANIMAL_EXACT_KEY_VERTEX_PAYLOAD_DEDUP__LOWER_CACHE__41_RENDER_PAIRS_IDENTICAL__HOLD_DEVICE_ART`
-
-Measured pass-42 tradeoff remains:
-
-- prepared payload bytes **68,880 -> 35,280 B** (`-33,600 B / -48.7804878%`);
-- 41/41 debug render pairs byte-identical;
-- proof-host lookup median **9 -> 14 us** and p95 **9 -> 15 us**, so pass 41 remained the stronger Animal default when its larger cache is acceptable.
-
-The full prior pass-42 status remains recoverable in Git history; this activation does not silently reinterpret or promote it.
+Pass 42 Animal and earlier Runtime evidence remain recoverable in Git history and are not silently reinterpreted by this activation.
 
 ## Highest-value next Runtime gap
 
-This exact 18-mote draw-call question is answered for the current owner effect and should not be reopened without a materially different receiver.
+This exact current-owner-sequence static batching question is now answered on the proof host and should not be reopened without a materially different receiver or sequence.
 
-The stronger remaining Runtime risks are now:
+The strongest remaining risks are:
 
-- target-device CPU/GPU/FPS/VRAM/thermal behavior for this batched VFX representation;
-- continuous production particle/update cost rather than fixed retained samples;
-- batching behavior with multiple simultaneous transparent effects/material families;
-- final Art/QA review under production shading/camera contexts.
+- target-device CPU/GPU/FPS/VRAM/thermal behavior for the articulated Object receiver;
+- proving safe dynamic rebatching/debatching when a future sequence activates a previously static component;
+- current-world adoption after Environment and Art/QA choose the receiver;
+- repaired Object VFX integration once VFX supplies a new owner presentation.
 
-A later Runtime pass should select only one when its owner lane is ready and must not generalize this single-effect proof into a universal particle-runtime rule.
+A later Runtime pass should choose only one when the owning lane is ready.
 
 ## Explicit non-claims
 
-Pass 43 does **not** establish:
+Pass 44 does **not** establish:
 
-- a proof-host renderer-memory reduction;
-- lower primitive count;
-- lower target-device GPU time;
-- target-device CPU/FPS/VRAM/thermal/battery benefit;
-- arbitrary transparent-effect ordering equivalence;
-- a universal MultiMesh rule for every VFX family;
-- production particle-system suitability;
+- arbitrary future-articulation safety for the 24 currently static components;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery benefit;
+- automatic Environment adoption;
+- automatic VFX adoption;
 - final Art Direction acceptance;
 - independent Visual QA acceptance;
-- automatic VFX adoption;
+- collision/gameplay behavior;
 - UC extraction;
 - CANON;
 - production/game readiness;
@@ -242,12 +222,12 @@ Pass 43 does **not** establish:
 
 ## Four-root check
 
-**Truth:** the real draw-call win is reported together with the unchanged memory/primitive counts, the 1-LSB raster ceiling, and the preserved failed predecessor. No target-device claim is inferred from llvmpipe.
+**Truth:** the exact surface, draw-call, object, primitive, buffer-memory and raster deltas are retained together with the sequence-bound limitation and the failed predecessor. No target-device claim is inferred from llvmpipe.
 
-**Agency / non-domination:** Runtime changes representation only. VFX retains effect identity; Animation retains timing; Art Direction and Visual QA retain perceptual authority; no automatic adoption is requested.
+**Agency / non-domination:** Runtime changes only the representation of components proven static in the pinned owner sequence. Technical Art, Animation, Environment, VFX, Art Direction and Visual QA retain their separate authority; no automatic adoption is requested.
 
-**Continuity:** the exact VFX owner effect and prior green receiver remain frozen. The failed first batching attempt and pass-42 Animal history remain visible rather than being rewritten away.
+**Continuity:** all 31 source-owned semantic component nodes remain present, the exact green Animation/Technical Art lineage is pinned, pass 43 remains visible, and the first failed workflow is preserved rather than rewritten away.
 
-**Wisdom before speed:** the candidate is kept draft despite a large VFX draw-call reduction because target-device performance and final Art/QA acceptance are still unmeasured.
+**Wisdom before speed:** the candidate stays draft despite strong proof-host draw-call, object-count, buffer-memory and pixel-equivalence evidence because future articulation, target-device performance and final Art/QA adoption remain unproven.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
