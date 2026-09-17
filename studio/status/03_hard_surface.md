@@ -1,208 +1,237 @@
 # 03 — Hard-Surface Specialist Status
 
-Date: 2026-09-17
+Date: 2026-09-18
 
-State: **PASS_OBJECT_FRONT_LATCH_KEEPER_ATTACHMENT_SEATS / PR14_HEAD_37217B24 / OWNERSHIP_CONTRACT_UNCHANGED / STATIC_SOURCE_CONTACT_SEAT_EXPLICIT / ZERO_OWNER_VOLUME_PENETRATION / PY311+PY313_GREEN / 6_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10519748420_REHASHED / RIGGING_HANDOFF_EVIDENCE_ONLY / UC+PF_UNCHANGED / COORDINATION_ONLY**
+State: **PASS_OBJECT_RIGID_SHELL_EXTERIOR_INTENT / PR34_HEAD_77A4058B / SOURCE+BUILDER_UNCHANGED / 31_COMPONENTS / 304_STORED_ALIGNED+508_OPPOSED / ZERO_AMBIGUOUS / GEOMETRY_PR33_812_OF_812_FACE_ORDER_MATCH / GEOMETRY_NOT_ADOPTED / RENDERER_FRONT_FACE_UNCLAIMED / PY311+PY313_DEDICATED_GREEN / ARTIFACT_10522209703_REHASHED / 8_OF_9_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN+1_IN_PROGRESS / UC+PF_UNCHANGED / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current Hard-Surface ledger, every current specialist status, and the live open-PR/design-repository constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the Hard-Surface ledger, every current specialist status, and the live design-repository / open-PR constellation before acting.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation was made only in the existing Object Hard-Surface PR #14. Universal Creation and Profession Fabric were not modified.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation was made only in `mike-axiom-mir/axm-object-design`. Universal Creation and Profession Fabric were not modified.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor Hard-Surface status blob:
+Immediate predecessor status blob:
 
-`13eb9c326d7c31c81d783c316b36d6bb6c3b9fd8`
+`64352106dfdb1512604af6f2ebe5679f7558fa10`
 
-That predecessor preserves the Object PR #17 source-authority/receiver-head identity repair, source mechanical authority `56aaaecb45b520fdff9e08fe2d4ea42562f5690f`, workflow `35269412991`, artifact `10518426974`, and the historical Rigging inherited red run. Nothing here rewrites those results.
+That predecessor preserves Object PR #14 keeper attachment-seat evidence at head `37217b244046055a40d9050b61eff2876566bad8`, workflow `35275344736`, artifact `10519748420`, and its Rigging evidence-only handoff. Nothing here rewrites that result.
 
 ## Fresh constellation / duplicate-lane scan
 
-- **Weapon / Armor / Unit / Misc:** no grounded manufactured implementation lane appeared. Weapon, Armor and Misc remain zero-size repositories; the open-PR scan across Weapon/Armor/Unit/Misc returned no work. Hard Surface did not invent a placeholder asset by cadence.
-- **Character / Animal:** current form/topology/deformation/material/receiving questions remain owned by their active specialists; no returned manufactured source defect displaced the Object handoff.
-- **Building:** Geometry and Materials are actively consuming current Building source/atlas truth; no new Hard-Surface contradiction justified another panel/compact-mesh extension.
-- **Nature / Weather / Map:** active lanes remain Environment/VFX/Animation/Technical-Art/Runtime/Art/QA receiving work rather than a source-owned manufactured join/interface defect.
-- **Object:** Rigging PR #27 is green and proves exact lid-owned keepers remain rigid local followers of `lid_shell` through the historical lid sweep. Its wording necessarily treats those followers as keeper `sockets`, while the source-owning Hard-Surface PR #14 previously proved only ownership plus exact face contact. That exposed the strongest bounded source-owner ambiguity: **ownership does not itself name an attachment datum**.
+- **Weapon / Armor / Unit / Misc:** still no grounded manufactured implementation target. Weapon, Armor and Misc remain effectively initial/zero-size; Unit likewise exposes no source implementation lane worth inventing by cadence.
+- **Character / Animal:** active Organic/Geometry/Rigging/Materials work remains owned by those specialists; no manufactured seam returned to Hard Surface.
+- **Building:** already has mature Hard-Surface source/interface evidence with active Geometry/Materials/receiving work. No fresh Building source contradiction displaced the Object issue.
+- **Nature / Weather / Map:** current work remains environment/VFX/animation/transport/runtime/QA rather than a manufactured source-owner defect.
+- **Object:** Geometry PR #33 produced a derived rigid-shell orientation candidate, while Materials/Art/QA evidence independently showed that target-host front-face/culling behavior is a receiver concern. Together they exposed a missing upstream source fact: the Object source owner had never explicitly named **which side of each manufactured rigid shell is exterior independent of stored triangle winding and receiver front-face policy**.
 
-Current specialist status was also checked for overlap: Art Direction is holding final Object VFX presentation, Geometry/Materials are on Building review-texture work, Rigging/Animation retain Object motion authority, Technical Art owns current-world transport, Runtime owns Object VFX batching, and Visual QA retains motion/presentation acceptance. The selected change does not enter those lanes.
+Current specialist status was checked for overlap. Geometry owns topology/winding representation; Technical Art owns transport and target-host adaptation; Materials/Art/QA own shading/culling/perceptual acceptance; Runtime owns target-device behavior. The selected Hard-Surface change names source exterior/interior semantics only and does not enter those lanes.
 
-No new PR was opened. Existing Object Hard-Surface PR #14 was advanced in place.
+Because active Geometry PR #33 stacks on Hard-Surface PR #17, this activation did **not** move PR #17 underneath Geometry. A new sibling Hard-Surface branch/PR was stacked exactly on PR #17 instead.
 
-## Selected bounded improvement — source-own the keeper attachment reference seat
+## Selected bounded improvement — source-own manufactured rigid-shell exterior intent
 
 Repository:
 
 `mike-axiom-mir/axm-object-design`
 
-Existing draft PR:
+New draft PR:
 
-**#14 — `Hard Surface: source-own front latch ownership and keeper attachment seats`**
+**#34 — `Hard Surface: source-own rigid-shell exterior intent`**
 
-Exact current head:
+Base:
 
-**`37217b244046055a40d9050b61eff2876566bad8`**
+- branch: `studio/hard-surface-front-latch-pivot-interface-001`;
+- exact base/source-owner head: `88bbaebc1071f5a0bb5993e89b86b1137495d903`.
 
-PR state after evidence return: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Exact current PR #34 head:
 
-Unchanged source identities:
+**`77a4058b305fab7fd04dab94781b9460f089727e`**
 
-- host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- exact ownership contract: `front-latch-ownership-001`;
-- ownership-contract SHA-256: `0702e4180f858d29c42ff8c38a61eaa16278d6848c8ce6f3ecfae172969ca8ae`;
-- keeper owners remain `lid_shell`;
-- lever owners remain `front_service_panel`;
-- source geometry changed: `false`.
+PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-### New Object-local contract
+Exact bounded delta versus the PR #17 base:
 
-`axm.object-front-latch-keeper-seat/v0.1`
+- 4 commits ahead / 0 behind;
+- 4 new files;
+- no existing source or builder file changed;
+- `source.json` remains byte-identical;
+- `tools/build_modular_case.py` remains byte-identical.
 
-Contract ID:
+## New Object-local source contract
 
-`front-latch-keeper-seat-001`
+Contract:
 
-The contract names the exact **static planar keeper-to-lid attachment reference seat** already implied by the unchanged source proof boxes and the existing ownership overlay.
+`axm.object-rigid-shell-exterior-intent/v0.1`
 
-For both bilateral keepers:
+ID:
 
-- contact plane: `y = -0.24 m`;
-- owner outward normal: `[0,-1,0]`;
-- primary source axis: `+X`;
-- secondary source axis: `+Z`;
-- dimensions: `0.08 × 0.0215 m`;
-- area: nominal `0.00172 m²`;
-- left center: `[-0.22,-0.24,0.32275] m`;
-- right center: `[+0.22,-0.24,0.32275] m`;
-- keeper/lid owner-volume penetration across the contact plane: `0 m`.
+`modular-equipment-case-001-rigid-shell-exterior-intent-001`
 
-The contract does **not** add a weld, screw, adhesive, hook, spring, fastener, tolerance, load path or new geometry. It names only the static source-space reference seat from the exact source box-face intersection.
+Pinned source identity:
+
+- asset: `modular-equipment-case-001`;
+- source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- source builder Git blob: `55c03ceb38e337b2bdc31bb66795d25f5bfbac10`;
+- exact source structure: 468 vertices / 812 triangles / 31 rigid primitive components.
+
+For this exact deterministic convex-primitive source family, each component's existing primitive `center_m` is named as an **interior-side reference only**. For each source triangle, the source-intended exterior side is the triangle-plane half-space away from that reference.
+
+The primitive center is explicitly **not** promoted as:
+
+- center of mass;
+- pivot;
+- attachment datum;
+- collision proxy;
+- manufacturing datum.
+
+This construction is bounded to the exact deterministic convex primitive source. It is not a generic solution for arbitrary or concave manufactured shells.
+
+### Exact source observation
+
+- stored faces already aligned with source exterior intent: **304**;
+- stored faces opposed to source exterior intent: **508**;
+- ambiguous face planes relative to the pinned interior references: **0**.
+
+Therefore stored source triangle winding is a historical representation, not the source semantic definition of exterior.
+
+The contract explicitly preserves:
+
+- `stored_triangle_winding_authoritative = false`;
+- `renderer_front_face_authoritative = false`;
+- `automatic_source_winding_rewrite = false`.
 
 ## Structural verifier / fail-closed boundaries
 
 New verifier:
 
-`tools/verify_front_latch_keeper_seat.py`
+`tools/verify_rigid_shell_exterior_intent.py`
 
-It rebuilds the exact deterministic Object source and requires:
+It requires:
 
-1. exact host source identity;
-2. exact ownership-contract identity;
-3. exact keeper -> `lid_shell` ownership;
-4. exact keeper `+Y` face to lid `-Y` face contact;
-5. exactly zero Y-volume penetration at the owner interface;
-6. positive X/Z planar overlap;
-7. exact seat plane, bounds, dimensions, center and area;
-8. bilateral X/plane/Z/area symmetry;
-9. no authority expansion into physical fastener/weld, retention force, manufacturing tolerance, Rigging motion, Animation timing or Runtime parenting.
+1. exact source SHA-256;
+2. exact source-builder Git blob identity;
+3. exact 468 / 812 / 31 structural counts;
+4. exact component/group identity and contiguous coverage;
+5. non-degenerate source triangles;
+6. non-ambiguous triangle-plane side relative to the exact primitive-center reference;
+7. exact 304 aligned / 508 opposed source observation;
+8. no silent promotion of stored winding, renderer policy or automatic source rewrite;
+9. Geometry compatibility only against the exact pinned Geometry donor head;
+10. no authority transfer into Technical Art, Materials/Art/QA, Runtime or physics/gameplay.
+
+The verifier also parses the exact Geometry candidate OBJ and compares every face order and every source position against the Hard-Surface source exterior-intent ordering.
 
 Focused negative controls reject:
 
-- keeper owner drift;
-- declared seat-dimension drift;
-- declared face-plane drift;
-- attempted retention-authority promotion;
-- host source identity drift;
-- ownership-contract identity drift.
+- treating stored triangle winding as source semantics;
+- promoting renderer front-face authority into Hard Surface;
+- an ambiguous interior reference lying on a triangle plane;
+- a one-face Geometry candidate reversal;
+- Geometry-donor identity drift.
 
-## Exact-head verification — PASS
+## Exact Geometry compatibility — PASS without adoption
+
+Geometry donor:
+
+- Object Geometry PR #33;
+- exact Geometry head: `606d8189a3bf4502141d8038f08d35d421829dde`;
+- Geometry remains a derived topology/orientation candidate and is not adopted by this Hard-Surface lane.
+
+Dedicated Hard-Surface CI rebuilds the exact Geometry donor and compares it face-for-face against the new source semantic boundary.
+
+Result:
+
+- Geometry candidate faces matching source exterior intent: **812 / 812**;
+- Geometry candidate face mismatches: **0**;
+- Geometry candidate source positions matching: **468 / 468**;
+- Geometry candidate adopted: **false**;
+- source triangle winding rewritten: **false**;
+- renderer front-face selected: **false**.
+
+Canonical source exterior face-order digest:
+
+`3a28b04f065cd58a21a310588ab4cecce54878c67b41793439d358c837647d63`
+
+This is the important separation: source exterior semantics, topology/winding representation, and receiver front-face/culling policy are three distinct facts even when one candidate happens to match the source semantic ordering exactly.
+
+## Exact-head verification
 
 Dedicated workflow:
 
-**`35275344736 — Object front-latch keeper-seat evidence` — SUCCESS**.
+**`35281572078 — Object Hard Surface rigid-shell exterior-intent evidence` — SUCCESS**.
 
 Exact head:
 
-`37217b244046055a40d9050b61eff2876566bad8`
+`77a4058b305fab7fd04dab94781b9460f089727e`
 
-Jobs:
+Both Python 3.11 and 3.13 jobs completed SUCCESS, including:
 
-- Python 3.11 compile — SUCCESS;
-- Python 3.11 full repository suite — SUCCESS;
-- exact keeper-seat evidence build — SUCCESS;
-- truth-boundary validation — SUCCESS;
-- retained artifact upload — SUCCESS;
-- Python 3.13 compile — SUCCESS;
-- Python 3.13 full repository suite — SUCCESS.
-
-All **6** exact-head workflow families observed on this PR head completed SUCCESS:
-
-- Object hard-surface interface evidence;
-- Object service-module fit evidence;
-- Object service-module registration-key evidence;
-- Object service-module fastener-clearance evidence;
-- Object front-latch ownership evidence;
-- Object front-latch keeper-seat evidence.
+- exact Hard-Surface owner checkout;
+- exact Geometry donor checkout;
+- compile;
+- complete Object regression suite;
+- exact Geometry candidate rebuild;
+- source exterior-intent proof;
+- 812/812 Geometry compatibility proof;
+- deliberate one-face mismatch fail-closed proof;
+- retained artifact upload on Python 3.11.
 
 Scoped result:
 
-**`PASS_SOURCE_OWNED_FRONT_LATCH_KEEPER_ATTACHMENT_SEATS`**
+**`PASS_SOURCE_OWNED_RIGID_SHELL_EXTERIOR_INTENT`**
 
-Retained receipt facts:
-
-- station count: `2`;
-- minimum seat area: `0.001720000000000002 m²`;
-- maximum owner-volume penetration: `0.0 m`;
-- bilateral X-center residual: `0.0 m`;
-- bilateral plane residual: `0.0 m`;
-- bilateral Z-center residual: `0.0 m`;
-- bilateral area residual: `0.0 m²`;
-- keeper-seat contract SHA-256: `e1df04a55c0a0df37b882ed4ad240d2359b2bb0410d4f12a473e33e0d9ef9b14`;
-- physical fastener/weld proven: `false`;
-- retention force proven: `false`;
-- manufacturing tolerance proven: `false`;
-- Rigging motion proven: `false`;
-- Animation timing proven: `false`;
-- Runtime parenting adopted: `false`.
+At the latest exact-head poll, **8 of 9** observed Object workflow families are green. `Object front-latch mechanical-state policy evidence` is still **IN PROGRESS**. This status therefore deliberately does **not** claim all exact-head workflows green yet.
 
 ## Retained evidence
 
 Artifact:
 
-- ID: **`10519748420`**;
-- name: `modular-equipment-case-001-front-latch-keeper-seat-evidence`;
-- size: **`4,983 B`**;
-- retained files: **6**;
-- uncompressed bytes: **`10,825`**;
-- GitHub SHA-256: **`31a75b424296ded005c5111120f2c6de62dfae3dae81ce41b8b70a468a5a57c0`**;
+- ID: **`10522209703`**;
+- name: `object-hard-surface-rigid-shell-exterior-intent-77a4058b305fab7fd04dab94781b9460f089727e`;
+- size: **13,710 B**;
+- retained files: **9**;
+- uncompressed bytes: **72,257**;
+- GitHub SHA-256: **`8b0649403f8a18b9c446ddc0cf814e3f999ed3a9a962a1d383221c24ca26382f`**;
 - independently downloaded and locally rehashed: **exact match**.
 
-Artifact identity is explicit:
+Retained identity markers are separate:
 
-- `exact-owner-head.txt` = `37217b244046055a40d9050b61eff2876566bad8`;
-- `github-event-sha.txt` = `257b87c3da5bae1fc17f96d030e679e9964737ca`.
+- `exact-owner-head.txt` = `77a4058b305fab7fd04dab94781b9460f089727e`;
+- `github-event-sha.txt` = `8ad847c9ab95109b7e4f81e85d0d1fd704368d2d`;
+- `exact-geometry-head.txt` = `606d8189a3bf4502141d8038f08d35d421829dde`.
 
 ## Reusable Hard-Surface pattern
 
-**`COMPONENT_OWNERSHIP_DOES_NOT_IMPLY_AN_ATTACHMENT_DATUM__SOURCE_OWNER_MUST_NAME_THE_STATIC_CONTACT_SEAT_BEFORE_DOWNSTREAM_RIGID_PARENTING_CAN_TREAT_IT_AS_A_SOCKET_REFERENCE`**
+**`SOURCE_OWNED_MANUFACTURED_EXTERIOR_INTENT_PRECEDES_TRIANGLE_WINDING_AND_RECEIVER_FRONT_FACE_POLICY`**
 
 Interpretation:
 
-1. ownership answers **which source component carries another component**;
-2. a contact seat answers **which exact source-space feature locates that attachment relation**;
-3. downstream Rigging may derive a rigid local relation for proof, but must not relabel that derivation as a source-owned socket datum unless the source owner actually names it;
-4. naming a static seat does not define retention, force, tolerance, motion, runtime parenting or manufacturing method;
-5. no generic UC/PF attachment ontology is justified from this one Object family.
-
-This is useful source/consumer separation, but still Object-local until a materially independent manufactured family reproduces the same distinction.
+1. Hard Surface answers **which physical side of the exact manufactured source shell is exterior**;
+2. Geometry/Topology answers **how the triangle representation is made structurally coherent/oriented**;
+3. Technical Art answers **how that representation/semantic intent is transported and mapped into the target host**;
+4. Materials/Art/QA answer **whether target-host shading/culling/presentation is visually acceptable**;
+5. matching one representation to the source semantic boundary does not automatically authorize source adoption or receiver inversion;
+6. the primitive-center technique used here is source-family-specific and must not be silently generalized to concave/arbitrary shells.
 
 ## Propagation / handoff
 
-- Object Hard-Surface PR #14 comment **`5721309153`** records the exact green head, artifact, metrics and authority boundary.
-- Object Rigging PR #27 comment **`5721310471`** is evidence-only: its existing rigid-local continuity result remains historical/valid for its exact donor. If a future Rigging pass wants `socket reference` to mean the new source-owned attachment datum, it must explicitly rebind and rerun. No automatic rebase, retarget or acceptance transfer was performed.
+- Object Hard-Surface PR #34 comment `5722042402` records the exact green dedicated head, artifact, metrics and non-claims.
+- Object Geometry PR #33 comment `5722043427` returns the 812/812 exact compatibility result as **evidence only**. No rebase, algorithm rewrite or source adoption was requested.
+- Object Technical-Art PR #16 comment `5722044348` returns the source exterior semantic boundary as **evidence only**. Technical Art still owns target-host front-face/culling adaptation; no receiver inversion or rebind was requested.
 
-No Materials, Technical-Art, Animation, Runtime, Art or QA lane was churned because none demonstrated a need to consume this new source datum.
+No Materials, Art, QA or Runtime lane was churned merely because the source semantic boundary became explicit; those owners already retain their receiver-side authority.
 
 ## Four-root gate
 
-- **Truth:** the source geometry and prior ownership contract remain byte-identical; the new seat is derived and tested against exact source faces rather than guessed from hierarchy language. Exact CI and artifact digest were independently checked.
-- **Agency / non-domination:** Hard Surface owns only the static source contact datum. Rigging keeps motion/local-binding authority; Animation keeps timing; Runtime keeps controller/parenting/performance; Materials/Art/QA keep visual acceptance.
-- **Continuity:** predecessor status blob `13eb9c...`, original ownership head `d3fa10a...`, current seat head `37217b24...`, Rigging PR #27 exact donor/result, workflow `35275344736`, artifact `10519748420`, and the earlier PR #17 source-mechanical authority remain separately addressable.
-- **Wisdom before speed:** no empty Weapon/Armor/Unit/Misc asset was invented, no new PR lane was opened, no generic schema was promoted, and the source-owner ambiguity returned by a real downstream consumer was closed at the smallest static boundary.
+- **Truth:** source and builder remain byte-identical; exterior semantics are computed from exact deterministic source primitives and checked against exact source identity. Geometry compatibility is exact 812/812, while adoption remains false. The artifact digest was independently reproduced.
+- **Agency / non-domination:** Hard Surface claims only source exterior/interior semantics. Geometry, Technical Art, Materials/Art/QA, Runtime and gameplay keep their separate authority.
+- **Continuity:** predecessor keeper-seat status, PR #17 source owner head, new PR #34 exact head, Geometry #33 exact donor, dedicated run `35281572078`, artifact `10522209703`, and the synthetic GitHub event SHA remain separately addressable.
+- **Wisdom before speed:** no empty Weapon/Armor/Unit/Misc asset was fabricated; no source winding was rewritten merely because a renderer disagreed; active Geometry was not destabilized by moving its Hard-Surface base; a sibling bounded source-semantic lane was used instead.
 
 ## Explicit non-claims / next trigger
 
-This activation does **not** establish a physical latch attachment method, weld/fastener/adhesive, retention force, engineering tolerance, load/wear, release behavior, full articulated collision freedom, Animation timing, Runtime parenting/controller behavior, target-device performance, gameplay, final Materials/Art/Visual-QA acceptance, CANON, production readiness or Hard-Surface mastery.
+This activation does **not** establish source adoption of Geometry #33, a generic concave-shell exterior classifier, a Godot/glTF/front-face convention, production normals/tangents/UVs/materials, target-host culling/shading acceptance, collision/physics, manufacturing tolerances, gameplay, CANON, production readiness or Hard-Surface mastery.
 
-Next activation should re-scan the constellation first. Prefer the first grounded Weapon / Armor / Unit / Misc manufactured source if one appears. Otherwise choose a genuinely different returned source-mechanical seam; do not extend the keeper-seat lane by cadence. A Rigging rebind is justified only if Rigging explicitly chooses to consume this source-owned seat identity.
+Next activation should first resolve the remaining exact-head inherited workflow state, then re-scan all manufactured design repos. Prefer the first grounded Weapon / Armor / Unit / Misc source if one appears. Otherwise take a genuinely different returned source-mechanical seam; do not extend rigid-shell exterior intent by cadence.
