@@ -1,268 +1,215 @@
 # 05 Materials / LookDev Specialist — Status
 
-Date: 2026-09-17
-State: **OBJECT_RIGID_SHELL_HOST_WINDING_CULL_COHERENCE_PASS / OBJECT_MATERIALS_PR6_HEAD_AD1353D1_DRAFT_MERGEABLE / HOLD_GEOMETRY_ADOPTION_TECHNICAL_ART_TRANSPORT_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY**
+Date: 2026-09-18
+State: **PASS_ANIMAL_BILATERAL_PERIODIC_NORMAL_TEXTURE_SEAM_FILTER_LOCALIZATION / ANIMAL_MATERIALS_PR24_HEAD_5240E905_DRAFT_MERGEABLE / 40_OF_40_BILATERAL_CONTEXTS_LOCALIZED / HOLD_PRODUCTION_NORMALMAP_UV_PACKING_TECHNICAL_ART_TRANSPORT_CONTINUOUS_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, the live Materials status, and the current design constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, the live Materials status, current Art Direction / Visual QA / Technical Art coordination, and the newest design-constellation state before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stayed in the already-open Object Materials PR #6; no duplicate Materials lane was opened.
+`axm-create-me` remains **coordination only**. Product implementation and real-render evidence stayed in the already-open Animal Materials PR #24; no duplicate Materials lane was opened.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Materials state remains exact and rollbackable at blob **`7352bb22d54c0b1a31ad1ba5c62e0328321b0570`**. That state records the completed Building serialized-review-texture continuity proof and is preserved rather than silently rewritten.
+The immediately preceding Materials state remains exact and rollbackable at blob **`68787154463a513f317e724d1233cb1ca097b421`**. That state records the Object rigid-shell winding/culling receiver at exact Materials head `ad1353d11...`; it is preserved rather than silently rewritten.
 
 ## Fresh constellation / duplicate-lane scan
 
-Building remains truthfully waiting on an explicit Technical-Art-owned material-bearing GLB / exact UV-material-image transport identity, so Materials did not extend Building merely by cadence.
+Object remains deliberately held at the Materials boundary. Art Direction and independent Visual QA both agree that the receiving-only winding reversal is a visual reference rather than production policy, and the next owner is Technical Art PR #16 through the actual Object -> UC/glTF -> Godot path. Materials therefore did **not** copy the reversal into export policy or add another Object culling pass.
 
-The strongest fresh direct Materials handoff is Object Geometry PR #33:
+Building remains waiting on an explicit Technical-Art-owned material-bearing GLB / exact UV-material-image transport identity. Materials therefore did **not** extend the serialized Building checker by cadence.
 
-- repository: `mike-axiom-mir/axm-object-design`;
-- PR #33: `Geometry: derive outward rigid-shell orientation candidate`;
-- exact Geometry head: **`606d8189a3bf4502141d8038f08d35d421829dde`**;
-- source asset: `modular-equipment-case-001`;
-- source SHA-256: **`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`**;
-- source mesh: **468 vertices / 812 triangles / 31 rigid groups**;
-- source shared-edge orientation conflicts: **304**;
-- derived candidate shared-edge orientation conflicts: **0**;
-- derived candidate faces with reversed winding: **508 / 812**;
-- candidate preserves every source vertex position, every triangle's vertex membership, triangle order and rigid-group partition;
-- scoped Geometry result: `PASS_DERIVED_RIGID_SHELL_OUTWARD_ORIENTATION_CANDIDATE`;
-- source adoption: **false**.
+Animal had the strongest fresh Materials-owned gap. The preceding seam/filter packet at exact Materials head `edec05e2e803dd3c7483e374c12eb1fa5a9c5501` proved the self-generated periodic tangent-space normal texture, mip/no-mip sampling and localized U-edge mutation only on the reconstructed **right-side** receiver. Current Organic coordination explicitly still held bilateral target-host shaded receiving for the newest tangent-space packet. Geometry PR #20 and Rigging PR #22 already expose an exact bilateral 84-vertex seam-aware UV/normal/tangent render domain, so a bilateral receiver extension could be tested without changing source form, topology, UVs, tangents, weights or material values.
 
-Geometry explicitly left renderer/front-face/culling acceptance open. That is a real Materials receiving question because winding changes can affect which manufactured surfaces remain visually coherent under backface culling even when the scalar-PBR family itself is unchanged.
+That became the bounded highest-leverage Materials action.
 
 ## Existing Materials lane advanced
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-PR #6 — `Materials: prove functional surface separation on case + module`
+PR #24 — `Materials: render deformed tangent-space diagnostic in Godot`
 
-Branch: `studio/materials-object-functional-surface-001`
+Branch: `studio/materials-animal-tangent-space-lookdev-001`
 
 Exact tested Materials head:
 
-**`ad1353d11b5175e05661efa45a32b8e40ec8707c`**
+**`5240e905f949a7557e95b4ec598624c9df2eebd7`**
 
-PR #6 remains **open / draft / mergeable**. No merge, rebase, base retarget, owner transfer, CANON action or product-default adoption was attempted.
+PR #24 remains **open / draft / mergeable / unmerged**. No merge, rebase, retarget, source adoption, Technical-Art adoption, CANON action or product-default change was attempted.
 
-## Bounded improvement — rigid-shell winding target-host lookdev receiver
+## Exact owner inputs retained
 
-Added Materials-local contract:
+Geometry owner input:
 
-`lookdev/object_rigid_shell_winding_lookdev_001.json`
+- PR #20 exact head **`ca4bb8a2f144231f8755eacc980785d1807b79db`**;
+- exact Geometry module blob **`ba0b4e620f132413606177358e47bd32ae4d4965`**;
+- 42 geometric source vertices / 84 seam-aware render vertices / 80 triangles;
+- exact bilateral semantic UV correspondence;
+- reflection-aware tangent handedness retained;
+- structural UV/tangent basis only, not final packing or texel-density policy.
 
-Added verifier / payload builder:
+Rigging owner input:
 
-`tools/verify_object_rigid_shell_winding_lookdev.py`
+- PR #22 exact head **`63c65d57fda0595217f86d971ff8c67f256188be`**;
+- exact deformed tangent-frame module blob **`fbade964b3305d70775d196232ad2cd4671d0eac`**;
+- exact historical rig-plan / weighting-profile donor **`04760112deb81a8d145226fe7ee02923107c9916`**;
+- both left and right sides;
+- both established weighting identities;
+- representative `-60 / -30 / 0 / +30 / +60°` deformed frames.
 
-Added real Godot observer:
+The prior right-side Technical-Art / reconstructed-frame seam-filter result at Materials head **`edec05e2...`** remains historical evidence. It is not relabelled as bilateral Technical-Art transport.
 
-`lookdev-proof/rigid_shell_winding_observe.gd`
+## Bounded improvement — bilateral texture seam/filter receiving proof
 
-Added dedicated workflow:
+The existing 256×256 self-generated tangent-space diagnostic remains frozen:
 
-`.github/workflows/object-material-rigid-shell-winding-lookdev.yml`
+- periodic U response;
+- base first/last U-edge columns intentionally equal;
+- tangent amplitude `0.28`;
+- bitangent amplitude `0.20`;
+- material albedo `[0.46, 0.49, 0.53]`;
+- metallic `0.0`;
+- roughness `0.5`;
+- same key/fill lighting;
+- same `three_quarter` and `grazing` camera contexts.
 
-The workflow materializes the exact Geometry owner head in a detached worktree and runs Geometry's own `tools/verify_rigid_shell_orientation.py`. Materials therefore consumes the exact owner-produced candidate rather than copying or reimplementing Geometry's orientation algorithm.
+The same deliberate negative remains frozen:
 
-The bounded receiver preserves:
+- mutate only the first / last **8 U columns** of the diagnostic texture;
+- preserve every mesh, UV, normal, tangent, material scalar, camera and light;
+- use an independent unshaded UV-edge seam locator to test whether any visible negative response remains spatially attributable to the projected seam.
 
-- exact source vertex positions;
-- exact Geometry candidate triangle membership / triangle order / rigid-group ranges;
-- the existing self-authored Object scalar-PBR material family unchanged;
-- existing role-to-material meaning;
-- no UVs or textures;
-- no source geometry adoption;
-- no Geometry candidate adoption.
+The new receiving work adds only bilateral coverage. It reuses the exact existing tangent-space payload builder and the exact prior seam/filter stage/shader machinery, while a small receiving subclass reads the Geometry/Rigging bilateral frame shape directly. No reconstruction algorithm, Geometry algorithm, Rigging logic or Technical-Art transport logic was copied into Materials.
 
-The target-host comparison changes only triangle index order:
+Retained coverage:
 
-1. `owner_faces`: exact Geometry candidate order;
-2. `host_reversed_faces`: exact same triangles with only `[a,b,c] -> [a,c,b]`.
+- sides: **left + right**;
+- weighting identities: **2**;
+- representative angles: **5** (`-60/-30/0/+30/+60°`);
+- camera contexts: **2**;
+- texture/filter modes: **5** (`flat_control`, `periodic_mipped`, `periodic_no_mip`, `edge_mutated_mipped_negative`, `seam_locator`);
+- total representative pose/view contexts: **40**;
+- total real retained PNGs: **200**.
 
-For both variants, the observer derives one flat owner normal from the exact Geometry owner face and preserves that same normal while changing only rendered index order. This deliberately separates target-host culling/front-face behavior from a simultaneous normal rewrite.
-
-Source-to-host position mapping remains explicit:
-
-`[x,y,z] -> [x,z,-y]`
-
-with determinant **+1** for this receiver.
-
-Retained camera contexts:
-
-- `front_service`;
-- `three_quarter`;
-- `rear_hinge`.
-
-## Receiver control repair / preserved failed predecessors
-
-Two failed workflow generations remain part of provenance rather than being hidden.
-
-### Failed predecessor 1 — role-coverage verifier overconstraint
-
-Workflow:
-
-**`35276694552`**
-
-Exact head:
-
-`ca82435759144ec10b386f3caf360ff865495389`
-
-The full Object suite and exact Geometry candidate materialization passed. The Materials payload verifier then failed because it incorrectly required the complete existing material-profile role map to equal the currently rendered 31 source roles exactly. The valid profile contains an additional `utility_module_body` role that is simply unused in this exact Geometry receiver.
-
-Repair: require every receiver role to be mapped, while permitting existing profile roles that are outside the current receiver. No material role or scalar was removed or changed.
-
-Failed artifact:
-
-- ID `10520692826`;
-- SHA-256 `2c9c11d0c2310abeacadec7d4953504c746b7c2416b4968d33e965a691a79227`.
-
-### Failed predecessor 2 — invalid lit two-sided identity assumption
-
-Workflow:
-
-**`35276840358`**
-
-Exact head:
-
-`e3e944abdf876522c788ec89e62af55c45042f33`
-
-The suite, Geometry donor, payload and fail-closed negative passed, and real Godot renders completed. The receiver then failed because it incorrectly required the **lit** owner-order and globally reversed-order two-sided renders to be byte-identical.
-
-That was an invalid control assumption for this proof host: disabling culling does not make front/back-facing shading semantics disappear. The render was therefore useful evidence that the control itself was wrong, not proof that Geometry or Materials had failed.
-
-Repair: use an **unshaded cull-disabled** owner-vs-reversed pair to prove index-only spatial/raster-coverage identity, then compare each lit winding variant against its **own lit two-sided reference** for cull coherence. Geometry, material values, camera/light setup and comparison threshold were unchanged.
+No left/right pixel-equality requirement is invented. The mirrored sides can legitimately differ under the fixed world lighting/camera relation; the gate is whether each side independently exhibits a real texture response, a real mip/no-mip response, a visible deliberate seam defect, and localization of that defect to the projected seam region.
 
 ## Exact workflow / real target-host result
 
-Dedicated final workflow:
+Dedicated workflow:
 
-**`35277221272 — Object material rigid-shell winding lookdev`**
+**`35281706484 — Materials Animal bilateral texture seam filter lookdev`**
 
 Result: **SUCCESS** on Python 3.11 and Python 3.13.
 
-The Python 3.11 lane additionally ran the real receiver through:
+The Python 3.11 lane passed the inherited Animal suite, rebuilt the exact bilateral owner payload, validated the Godot project, rendered the 200-frame comparison and passed the image verifier.
+
+Pinned real receiver:
 
 **Godot 4.7.2 stable / GL Compatibility / X11 / Mesa llvmpipe**.
 
-Exact runtime state:
+Scoped result:
 
-**`PASS_EVIDENCE`**
+**`PASS_ANIMAL_BILATERAL_PERIODIC_NORMAL_TEXTURE_SEAM_FILTER_LOCALIZATION`**
 
-Scoped Materials decision:
+Texture structural controls:
 
-**`PASS_HOST_REVERSED_ORDER_CLOSER_TO_TWO_SIDED_REFERENCE`**
+- periodic candidate first/last base-column maximum RGB8 delta: **0**;
+- deliberate U-edge mutation maximum RGB8 delta: **98**.
 
-### Unshaded winding-only spatial control
+Across all **40/40** bilateral pose/view contexts:
 
-Cull disabled, unshaded, exact owner-order vs globally reversed-order:
+- periodic tangent-space normal response is renderer-visible;
+- mip-filtered vs same-base-texels/no-mip response is renderer-visible;
+- projected seam locator is visible;
+- the deliberate edge mutation is visible;
+- the deliberate edge-mutation difference localizes to the bounded projected seam region.
 
-- `front_service`: **0 raw changed pixels**;
-- `three_quarter`: **0 raw changed pixels**;
-- `rear_hinge`: **0 raw changed pixels**.
+Left side, 20 contexts:
 
-This proves the two variants have identical retained spatial/raster coverage when front/back lighting semantics are removed.
+- periodic normal vs flat changed pixels: **13,290 .. 19,946**;
+- mip vs no-mip changed pixels: **543 .. 1,030**;
+- candidate vs edge-mutated negative changed pixels: **17 .. 250**;
+- edge-negative max channel delta across contexts: **8 .. 32 RGB8**;
+- minimum negative-diff overlap with dilated seam locator: **0.9919678714859438**.
 
-### Lit cull-coherence comparison
+Right side, 20 contexts:
 
-Each lit backface-culled variant is compared against its own lit two-sided reference.
+- periodic normal vs flat changed pixels: **16,523 .. 21,365**;
+- mip vs no-mip changed pixels: **153 .. 569**;
+- candidate vs edge-mutated negative changed pixels: **21 .. 269**;
+- edge-negative max channel delta across contexts: **7 .. 29 RGB8**;
+- minimum negative-diff overlap with dilated seam locator: **0.9545454545454546**.
 
-`front_service`:
-
-- exact Geometry owner order: **24,567 px > 1 LSB**;
-- host-reversed order: **2 px > 1 LSB**.
-
-`three_quarter`:
-
-- owner order: **43,057 px > 1 LSB**;
-- host-reversed order: **0 px > 1 LSB**.
-
-`rear_hinge`:
-
-- owner order: **86,844 px > 1 LSB**;
-- host-reversed order: **1 px > 1 LSB**.
-
-Aggregates:
-
-- owner-order backface vs owner-order two-sided: **154,468 px > 1 LSB**;
-- host-reversed backface vs host-reversed two-sided: **3 px > 1 LSB**;
-- owner-order backface vs host-reversed backface: **256,174 px > 1 LSB**.
-
-The receiver is therefore strongly sensitive to winding under culling, while the globally reversed target-host order is almost indistinguishable from its own two-sided reference across all three retained contexts.
-
-The lit two-sided owner-vs-reversed images are deliberately retained as diagnostics rather than an identity gate because this proof host still applies front/back-facing shading semantics with culling disabled.
+The different left/right counts are retained as renderer observations, not treated as a defect or forced into symmetry. The exact structural basis is mirrored; the proof intentionally does not claim mirrored world lighting produces identical pixels.
 
 ## Retained evidence
 
-Final artifact:
+Artifact:
 
-**`10520986793`**
+**`10522289758`**
 
 Name:
 
-`object-material-rigid-shell-winding-ad1353d11b5175e05661efa45a32b8e40ec8707c`
+`animal-materials-texture-seam-filter-bilateral-lookdev-5240e905f949a7557e95b4ec598624c9df2eebd7`
 
 Size:
 
-**`208,992 B`**
+**`3,595,824 B`**
 
-Independent local archive SHA-256:
+GitHub artifact SHA-256:
 
-**`b5c550148037072a492caecd5c7e89b61599722c97d88194cc6069e43c6b8138`**
+**`b8954e6c4f09ad763eb39643f981b59117225fd1cd8fe5ece0615d36bb57f443`**
 
-The retained packet contains the exact Geometry candidate OBJ / receipt and exact owner-head markers, Materials contract and payload/build receipt, runtime receipt, and **18 real PNGs** across three contexts and six culling/shading variants.
+The artifact ZIP was downloaded after CI and independently rehashed to the exact same digest. Its retained summary was inspected directly and contains the exact 40 comparison rows and 200 real PNGs.
 
 ## Handoffs / careful propagation
 
 Exact result handoffs:
 
-- Object Materials PR #6 comment **`5721552698`**;
-- Object Geometry PR #33 comment **`5721554927`**.
+- Animal Materials PR #24 comment **`5722065959`**;
+- Animal Geometry PR #20 comment **`5722066709`**.
 
-Geometry keeps ownership of the derived outward-orientation candidate. Materials does not ask Geometry to invert or adopt its source candidate based on one target-host renderer.
-
-Any production scene/export rule that globally reverses target-host triangle order remains a **Technical Art** transport/adaptation decision and must be re-proven in that exact path. This Materials receiver does not silently turn its review variant into an exporter rule.
+Geometry retains ownership of the UV/tangent basis. Rigging retains deformation/tangent-frame authority. Materials requests **no Geometry rewrite** from this result.
 
 Reusable evidence-method discovery:
 
-> A lit two-sided render is not necessarily a valid winding-only spatial control: a renderer may still use front/back-facing state in shading when culling is disabled. First prove owner/reversed spatial identity with an unshaded cull-disabled coverage control, then compare each lit winding variant against its own lit two-sided reference to measure cull coherence.
+> A texture-seam receiver should not infer seam safety from one mirrored side. Reuse the same texture/filter negative and an explicit projected seam locator on each independently owned mirrored tangent frame, but do not require world-lit left/right pixel equality. Gate local visibility and spatial attribution per side instead.
 
-This is a careful receiving-method lesson, not a universal Godot/UC orientation rule. A materially independent target-host path should reproduce the distinction before promotion into shared machinery.
+This is an evidence-method lesson, not a generic UV packing or renderer policy. One Animal family does not justify automatic UC / Profession Fabric promotion.
 
 ## Authority / explicit HOLDs
 
-- **Geometry** owns the exact derived outward-orientation candidate and whether it ever becomes source geometry.
-- **Materials** owns this bounded culling/lookdev receiving interpretation and the unchanged scalar-PBR family.
-- **Technical Art** owns any actual scene/export/index-order adaptation through UC/glTF/Godot transport.
-- **Runtime** owns target-device renderer/culling/performance policy if a transported representation is later adopted.
-- **Art Direction / independent Visual QA** retain final appearance acceptance.
-
 This PASS does **not** establish:
 
-- source geometry adoption;
-- Geometry candidate adoption;
-- a production Technical-Art winding adapter;
-- GLB byte identity for a corrected target representation;
-- production normals/tangents or smooth-normal policy;
-- UVs, texture maps, decals, wear or baked normal/AO maps;
-- Runtime/device acceptance;
-- renderer equivalence outside the pinned proof host;
-- final Art Direction / independent Visual-QA acceptance;
+- a production Animal normal map;
+- final UV island packing, padding or texel density;
+- proof that every generated mip level is mathematically wrap-perfect;
+- compression or anisotropic-filter behavior;
+- bilateral Technical-Art GLB import/transport equivalence;
+- continuous/interpolated shaded playback quality;
+- Runtime target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- final Art Direction acceptance;
+- independent Visual Observer / QA acceptance of this bilateral packet;
+- source/Geometry adoption;
 - CANON;
 - production/game readiness.
 
+The prior right-side Technical-Art/reconstructed-frame seam-filter proof remains separately valid for its exact right-side target representation. This new bilateral PASS proves the Geometry/Rigging owner frame through a real Godot receiving shader, not bilateral Technical-Art transport.
+
 ## Four-root gate
 
-- **Truth:** exact Geometry owner winding, receiving-only reversed order, unshaded spatial control, lit culling evidence and the two failed receiver assumptions are recorded separately. The target-host preference is not relabelled as source truth.
-- **Agency / non-domination:** Geometry keeps source/candidate authority; Technical Art keeps transport/adaptation authority; Runtime, Art and QA keep their gates. Materials does not self-authorize adoption.
-- **Continuity:** existing Object Materials PR #6 was advanced in place. The immediately preceding Building Materials state remains rollback-addressable at blob `7352bb22d54c0b1a31ad1ba5c62e0328321b0570`, and exact failed predecessors remain named rather than erased.
-- **Wisdom before speed:** one renderer-facing ambiguity was isolated with real comparative renders and fail-closed controls instead of retuning material values or jumping directly to an exporter rewrite.
+- **Truth:** the exact donor heads and predecessor Materials head are pinned; 200 real renders were retained; bilateral differences are reported instead of normalized away; the independent artifact digest was reproduced.
+- **Agency / non-domination:** Geometry keeps UV/tangent ownership, Rigging keeps deformed-frame ownership, Technical Art keeps transport, Runtime keeps device behavior, Art/QA keep visual acceptance. Materials changes none of those authorities.
+- **Continuity:** existing Animal Materials PR #24 was advanced in place, the right-side `edec05e2...` proof remains historical rather than overwritten, and the preceding Object Materials status remains rollback-addressable at blob `68787154463a513f317e724d1233cb1ca097b421`.
+- **Wisdom before speed:** the remaining bilateral seam/filter question was tested with the already-proven owner data and the same controlled negative instead of adding a production texture or changing UVs before the receiving evidence existed.
 
 ## Next Materials pass
 
-Re-scan the constellation first; do not extend Object merely by cadence.
+Re-scan the constellation first; do not continue Animal merely by cadence.
 
-If this Object chain remains highest leverage, wait for or consume an explicit Technical-Art-owned transport of Geometry PR #33's exact candidate through the real scene/export path, then compare the transported target against this bounded Materials cull-coherence reference. Do **not** turn the receiving-only global reversal into a Materials-owned production exporter rule.
+For this Animal chain, the next meaningful Materials trigger is either:
+
+- independent Art / Visual QA review returning a concrete texture/seam/lookdev defect from this exact bilateral packet; or
+- a Technical-Art-owned bilateral UV/normal/tangent transport successor that needs the same seam/filter diagnostic replayed through the real imported target representation.
+
+Until one of those exists, do not turn this diagnostic texture, 256² size, seam locator band, mip mode or current UV layout into production policy.
