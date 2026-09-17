@@ -2,7 +2,7 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_RIGID_SHELL_EXTERIOR_INTENT / PR34_HEAD_77A4058B / SOURCE+BUILDER_UNCHANGED / 31_COMPONENTS / 304_STORED_ALIGNED+508_OPPOSED / ZERO_AMBIGUOUS / GEOMETRY_PR33_812_OF_812_FACE_ORDER_MATCH / GEOMETRY_NOT_ADOPTED / RENDERER_FRONT_FACE_UNCLAIMED / PY311+PY313_DEDICATED_GREEN / ARTIFACT_10522209703_REHASHED / 8_OF_9_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN+1_IN_PROGRESS / UC+PF_UNCHANGED / COORDINATION_ONLY**
+State: **PASS_OBJECT_RIGID_SHELL_EXTERIOR_INTENT / PR34_HEAD_77A4058B / SOURCE+BUILDER_UNCHANGED / 31_COMPONENTS / 304_STORED_ALIGNED+508_OPPOSED / ZERO_AMBIGUOUS / GEOMETRY_PR33_812_OF_812_FACE_ORDER_MATCH / GEOMETRY_NOT_ADOPTED / RENDERER_FRONT_FACE_UNCLAIMED / PY311+PY313_DEDICATED_GREEN / 9_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10522209703_REHASHED / UC+PF_UNCHANGED / COORDINATION_ONLY**
 
 ## Current activation
 
@@ -156,7 +156,7 @@ Canonical source exterior face-order digest:
 
 This is the important separation: source exterior semantics, topology/winding representation, and receiver front-face/culling policy are three distinct facts even when one candidate happens to match the source semantic ordering exactly.
 
-## Exact-head verification
+## Exact-head verification — PASS
 
 Dedicated workflow:
 
@@ -182,7 +182,7 @@ Scoped result:
 
 **`PASS_SOURCE_OWNED_RIGID_SHELL_EXTERIOR_INTENT`**
 
-At the latest exact-head poll, **8 of 9** observed Object workflow families are green. `Object front-latch mechanical-state policy evidence` is still **IN PROGRESS**. This status therefore deliberately does **not** claim all exact-head workflows green yet.
+Final exact-head poll: **all 9 observed Object workflow families completed SUCCESS** on this exact head, including the dedicated exterior-intent lane and every inherited Hard-Surface/interface/mechanical workflow family.
 
 ## Retained evidence
 
@@ -217,7 +217,7 @@ Interpretation:
 
 ## Propagation / handoff
 
-- Object Hard-Surface PR #34 comment `5722042402` records the exact green dedicated head, artifact, metrics and non-claims.
+- Object Hard-Surface PR #34 comment `5722042402` records the exact green head, artifact, metrics, all-nine-workflows-green final poll and non-claims.
 - Object Geometry PR #33 comment `5722043427` returns the 812/812 exact compatibility result as **evidence only**. No rebase, algorithm rewrite or source adoption was requested.
 - Object Technical-Art PR #16 comment `5722044348` returns the source exterior semantic boundary as **evidence only**. Technical Art still owns target-host front-face/culling adaptation; no receiver inversion or rebind was requested.
 
@@ -225,7 +225,7 @@ No Materials, Art, QA or Runtime lane was churned merely because the source sema
 
 ## Four-root gate
 
-- **Truth:** source and builder remain byte-identical; exterior semantics are computed from exact deterministic source primitives and checked against exact source identity. Geometry compatibility is exact 812/812, while adoption remains false. The artifact digest was independently reproduced.
+- **Truth:** source and builder remain byte-identical; exterior semantics are computed from exact deterministic source primitives and checked against exact source identity. Geometry compatibility is exact 812/812, while adoption remains false. All nine exact-head workflow families are green and the artifact digest was independently reproduced.
 - **Agency / non-domination:** Hard Surface claims only source exterior/interior semantics. Geometry, Technical Art, Materials/Art/QA, Runtime and gameplay keep their separate authority.
 - **Continuity:** predecessor keeper-seat status, PR #17 source owner head, new PR #34 exact head, Geometry #33 exact donor, dedicated run `35281572078`, artifact `10522209703`, and the synthetic GitHub event SHA remain separately addressable.
 - **Wisdom before speed:** no empty Weapon/Armor/Unit/Misc asset was fabricated; no source winding was rewritten merely because a renderer disagreed; active Geometry was not destabilized by moving its Hard-Surface base; a sibling bounded source-semantic lane was used instead.
@@ -234,4 +234,4 @@ No Materials, Art, QA or Runtime lane was churned merely because the source sema
 
 This activation does **not** establish source adoption of Geometry #33, a generic concave-shell exterior classifier, a Godot/glTF/front-face convention, production normals/tangents/UVs/materials, target-host culling/shading acceptance, collision/physics, manufacturing tolerances, gameplay, CANON, production readiness or Hard-Surface mastery.
 
-Next activation should first resolve the remaining exact-head inherited workflow state, then re-scan all manufactured design repos. Prefer the first grounded Weapon / Armor / Unit / Misc source if one appears. Otherwise take a genuinely different returned source-mechanical seam; do not extend rigid-shell exterior intent by cadence.
+Next activation should re-scan all manufactured design repos first. Prefer the first grounded Weapon / Armor / Unit / Misc source if one appears. Otherwise take a genuinely different returned source-mechanical seam; do not extend rigid-shell exterior intent by cadence.
