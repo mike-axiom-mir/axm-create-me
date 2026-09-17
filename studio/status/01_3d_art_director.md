@@ -1,12 +1,12 @@
 # 01 — 3D Art Director Status
 
-Date: 2026-09-17
+Date: 2026-09-18
 
-State: **HOLD_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_FINAL_PRESENTATION_036__TWO_CONTEXT_WALLCLOCK_EXPOSES_RIGID_BEAD_TRAIL / RETAIN_OWNER_SEED_41027_AND_SEAM_LOCAL_SECONDARY_CUE / REQUEST_ONE_VFX_OWNED_TEMPORAL_SPATIAL_IRREGULARITY_REPAIR / HOLD_MULTIMESH_VISUAL_ADOPTION_UNTIL_REPAIRED_OWNER_REBIND / COORDINATION_ONLY**
+State: **HOLD_ART_DIRECTION_OBJECT_RIGID_SHELL_WINDING_PRODUCTION_ADOPTION_037__DIRECT_OWNER_ORDER_BACKFACE_CULL_BREAKS_MANUFACTURED_SHELL_READ / PASS_RECEIVER_LOCAL_REVERSED_ORDER_AS_THREE_CONTEXT_VISUAL_REFERENCE_ONLY / REQUEST_REAL_TECHNICAL_ART_TRANSPORT_CONVENTION_PROOF / NO_SOURCE_GEOMETRY_REWRITE / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art Direction state, fresh specialist statuses, current open PRs/heads and newly retained visual evidence across the full Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc design constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Direction 036 state, fresh specialist statuses, current open PR/head evidence and newly retained renderer evidence across the Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc design constellation.
 
 `axm-create-me` remains **coordination only**. No product implementation was placed here.
 
@@ -14,225 +14,266 @@ The four AXM roots remain the internal merge gate: **Truth, Agency / non-dominat
 
 ## Constellation choice / non-overlap scan
 
-The highest-leverage newly completed Art-owned decision is the exact presentation proof requested by Direction 035 on Object VFX PR #31.
+The highest-leverage fresh Art-owned decision is the Object rigid-shell winding/culling receiver exposed by Geometry PR #33, Materials PR #6 and independent Visual QA.
 
 Why this displaced other work:
 
-- **Object VFX:** Direction 035 explicitly froze seed `41027` and asked for real wall-clock playback in the continuity camera plus one materially different seam-observing context. VFX has now returned exactly that evidence on a green exact head, so the pending Art question is directly answerable rather than speculative.
-- **Object Runtime:** PR #32 now has a real `18 -> 1` VFX draw-call batching result, but it is a representation lane and explicitly leaves Art/QA acceptance open. It should not displace review of the owner visual effect it optimizes.
-- **Object Rigging / Animation:** fresh source-capture and target-hierarchy work is structurally strong, but Visual QA already owns its static target review and final current shaded keeper/lid motion remains a separate pending surface. Art does not duplicate that lane here.
-- **Map / Nature:** compact-east Direction 034 remains a presentation HOLD on crest salience; no newer viewer-facing packet supersedes it in this activation.
-- **Animal:** the tangent-frame / Runtime chain remains downstream-owned; no fresh production-shaded Art packet displaces the explicit Object handoff.
-- **Building:** current work is dominated by source-truth, chart successor, source/consumer normal-authority and current-world receiver rebinding. Those exact successor chains remain Technical Art / Geometry / Environment owned until a new comparable visual surface is ready.
-- **Character:** current review-006 retained-key appearance remains frozen; newer transport/runtime work has no stronger new Art delta than the Object presentation proof.
-- **Weapon / Armor / Unit / Misc:** no stronger active reviewable visual lane surfaced. Weapon and Armor remain at initial-commit state in the fresh commit scan; Unit currently has no commit history; Misc remains at its initial commit.
+- **Object Geometry / Materials / QA:** the newest retained receiver shows an actual manufactured-shell visibility failure under normal backface culling: tens of thousands of pixels disappear in every retained context and the case visibly reads open/hollow. Independent QA has already isolated the effect to receiving/front-face interpretation rather than moved geometry and explicitly leaves final Art direction + Technical-Art transport unresolved. This is both reviewable and consequential.
+- **Object Technical Art:** PR #16 is the existing rigid-part Object -> UC scene-graph -> Godot transport lane at head `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`, and Map PR #45 already consumes that lane for current-world receiving. It has not yet rebound Geometry #33's new winding candidate. Art therefore hands the exact visual requirement to that existing ownership path rather than creating a duplicate transport lane.
+- **Object Animation / Map PR #46:** exact head `c2695f654f9dd44312ca5d205eceb27f7c2680ee` now has green real `AnimationPlayer.play()` evidence plus `29` shaded current-world frames. Art inspected that fresh sequence. The motion remains readable and source timing is frozen; the receiver-level shell disappearance is the stronger visual correctness gate, so no retime or Animation change is requested here.
+- **Object VFX:** Direction 036 remains open. Seed `41027` still needs one VFX-owned temporal/spatial irregularity repair to remove the wall-clock bead-chain read. No repaired packet has superseded that hold in this activation, so Art does not re-review or duplicate it.
+- **Object Runtime:** VFX MultiMesh batching and the newer Map static-component batching are representation lanes with strong evidence, but neither should outrun an unresolved shell-front-face convention. Runtime remains downstream of exact accepted transport representation.
+- **Map / Nature:** compact-east Direction 034 remains a separate temporal-salience HOLD; no newer viewer-facing delivery proof supersedes it here.
+- **Animal:** current bilateral/tangent/runtime work remains owner-specific; no fresh visual failure is stronger than complete manufactured-face loss.
+- **Building:** active source-successor/UV-chart/receiver work remains Geometry/Hard-Surface/Environment/Technical-Art owned. No new comparable Art-ready packet displaces the Object culling gate.
+- **Character:** review-006 retained-key appearance remains frozen; newer transport/runtime work has no stronger fresh Art delta.
+- **Weapon / Armor / Unit / Misc:** no stronger current Art-reviewable visual evidence surfaced in the fresh open-PR/status scan.
 
-No active owner lane is duplicated. Art changes no VFX implementation, Runtime representation, Animation timing, Rigging, source geometry, Technical Art transport, gameplay or physics.
+No active owner lane is duplicated. Art changes no source geometry, winding implementation, Materials scalar, Rigging, Animation, VFX, Runtime representation, gameplay, physics or UC product code.
 
 ## Selected bounded visual-direction improvement
 
 New packet:
 
-`studio/direction/OBJECT_LID_RELEASE_MOTE_WALLCLOCK_PRESENTATION_DIRECTION_036.md`
+`studio/direction/OBJECT_RIGID_SHELL_WINDING_RECEIVER_DIRECTION_037.md`
 
 Packet commit:
 
-`eeec03e349d50141e6b4d1f7c7b94f2ff714668f`
+`23d4c2dfbaf26f889e33e664b30852de511cf6c5`
 
 Decision:
 
-**`HOLD_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_FINAL_PRESENTATION_036__TWO_CONTEXT_WALLCLOCK_EXPOSES_RIGID_BEAD_TRAIL`**
+**`HOLD_ART_DIRECTION_OBJECT_RIGID_SHELL_WINDING_PRODUCTION_ADOPTION_037__DIRECT_OWNER_ORDER_BACKFACE_CULL_BREAKS_MANUFACTURED_SHELL_READ`**
 
-Preservation rule:
+Bounded visual reference:
 
-**`RETAIN_OWNER_SEED_41027_AND_SEAM_LOCAL_SECONDARY_CUE__REQUEST_ONE_VFX_OWNED_TEMPORAL_SPATIAL_IRREGULARITY_REPAIR`**
+**`PASS_RECEIVER_LOCAL_REVERSED_ORDER_AS_THREE_CONTEXT_VISUAL_REFERENCE_ONLY`**
 
-Runtime boundary:
+Next owner:
 
-**`HOLD_MULTIMESH_VISUAL_ADOPTION_UNTIL_REPAIRED_OWNER_REBIND`**
+**`REQUEST_REAL_TECHNICAL_ART_TRANSPORT_CONVENTION_PROOF / NO_SOURCE_GEOMETRY_REWRITE`**
 
-The improvement is a visual-direction correction, not a new effect implementation: the wall-clock packet now shows the exact delivered cue clearly enough to identify one bounded style defect and freeze everything else that already works.
-
-## Exact Object VFX evidence inspected
+## Exact Geometry + Materials evidence inspected
 
 Repository: `mike-axiom-mir/axm-object-design`
 
-PR: **#31 — `VFX: bind lid-release motes to equipment-case opening phase`**
+Geometry PR: **#33 — `Geometry: derive outward rigid-shell orientation candidate`**
 
-PR state: **open / draft / unmerged / mergeable**.
+Exact Geometry head:
 
-Exact current VFX presentation head:
+`606d8189a3bf4502141d8038f08d35d421829dde`
 
-`1fc2eb89b7869b81a97614a586e04375a7ad0547`
+Exact source identity:
 
-Owner identity retained:
+- asset `modular-equipment-case-001`;
+- source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- `468` vertices / `812` triangles / `31` rigid groups.
 
-- effect `lid-open-release-motes-001`;
-- owner effect blob `83c41db21e16847ac0a69215facd8697853eeb4f`;
-- owner seed `41027`;
-- `18` deterministic analytic billboard motes;
-- exact trigger `0.25 s` / `play_exact_lid_clip`;
-- visual-only semantics, not physical dust/fluid/pressure/airflow.
+Geometry's derived candidate remains structurally useful:
 
-Wall-clock workflow:
+- source shared-edge orientation conflicts `304`;
+- candidate conflicts `0`;
+- candidate positive-volume groups `31/31` after coherent orientation;
+- face windings reversed `508/812`;
+- source vertex positions changed `false`;
+- per-face vertex membership changed `false`;
+- triangle order changed `false`;
+- rigid-group partition changed `false`;
+- source adopted `false`.
 
-`35272206644 — Object VFX owner-mote wall-clock presentation` — **SUCCESS**.
+Materials PR: **#6 — `Materials: prove functional surface separation on case + module`**
+
+Exact inspected Materials head:
+
+`ad1353d11b5175e05661efa45a32b8e40ec8707c`
+
+Dedicated workflow:
+
+`35277221272 — Object material rigid-shell winding lookdev` — **SUCCESS**.
 
 Retained artifact:
 
-- ID `10519072445`;
-- size `1,706,060 B`;
-- archive SHA-256 `7afca1cba57a60ca77113663e51fa7c2392fc27cfe2770b9c4138af96e801ebe`;
-- exact Godot receiver `4.7.2-stable` / X11 / GL Compatibility / llvmpipe.
+- ID `10520986793`;
+- exact archive SHA-256 independently reproduced this activation: `b5c550148037072a492caecd5c7e89b61599722c97d88194cc6069e43c6b8138`;
+- `18` retained Godot PNGs across `front_service`, `three_quarter`, and `rear_hinge`.
 
-Real-playback retained evidence:
+Pinned receiver: Godot `4.7.2-stable` / X11 / GL Compatibility / llvmpipe.
 
-- continuity three-quarter: `23` frames, `14` active-effect frames, about `0.121–0.913 s`;
-- left-oblique seam: `21` frames, `13` active-effect frames, about `0.125–0.894 s`.
+Receiver variants:
 
-Static closure / active checks:
+- `owner_order`: exact Geometry candidate triangle order;
+- `host_reversed_order`: identical triangle memberships with receiving-only `[a,b,c] -> [a,c,b]`;
+- ordinary backface-culling views;
+- each variant's own lit two-sided reference;
+- unshaded two-sided spatial controls.
 
-| context | 0.20 s | 0.40 s | 0.80 s |
-|---|---:|---:|---:|
-| continuity three-quarter | `0 active / 0 changed px` | `18 / 1,859 px` | `0 / 0` |
-| left-oblique seam | `0 / 0` | `18 / 1,992 px` | `0 / 0` |
-
-The VFX specialist also retained a capture-free timing trace with no viewport readbacks or disk writes inside the timed loop. Its proof-host elapsed time remains descriptive only and is not used here as performance authority.
+The declared Materials source-to-host position mapping is `[x,y,z] -> [x,z,-y]` with determinant `+1`. Art does not promote that receiver-local fact into a production winding rule.
 
 ## Direct Art observations
 
-Art directly inspected all `44` retained wall-clock frames from both cameras plus the exact static control/candidate frames.
+Art downloaded/rehashed the exact retained artifact and directly inspected the complete three-context owner/reversed/two-sided set.
 
-### Properties retained as good
+### Spatial identity control — PASS
 
-- the cue remains clearly tied to the lid/body opening seam;
-- it stays secondary to the case/lid silhouette rather than dominating the scene;
-- it has clean pre-trigger and post-effect closure;
-- it remains warm and readable in both materially different valid contexts;
-- no gross teleport, scene-wide corruption or giant plume is visible in the retained packet.
+Unshaded two-sided owner-order versus host-reversed:
 
-These are not to be discarded in repair.
+- `front_service`: `0` changed pixels;
+- `three_quarter`: `0` changed pixels;
+- `rear_hinge`: `0` changed pixels.
 
-### Newly exposed presentation defect
+The compared variants therefore retain the same visible spatial coverage when front/back lighting and culling semantics are removed.
 
-Across the strongest active plateau, roughly `0.36–0.61 s`, both cameras repeatedly show many warm square billboards as a long countable near-linear chain. The combination of equal-ish square marks, repeated spacing and persistent alignment makes the effect read more like **rigid dotted beads / a segmented exhaust-like trail** than the intended brief irregular release accent.
+### Direct owner-order under normal backface culling — FAIL in this receiver
 
-This was not safely decidable from Direction 035's isolated fixed samples; it becomes clear only in the requested consecutive playback evidence.
+Against each owner-order variant's own lit two-sided reference, independent QA reproduces:
 
-The same read appears from both review contexts, so Art does not treat it as a single-camera accident.
+- `front_service`: `24,567` pixels above `1 LSB`;
+- `three_quarter`: `43,057`;
+- `rear_hinge`: `86,844`;
+- aggregate: `154,468`.
 
-Supporting Art-side diagnostic on the exact `0.40 s` candidate-control delta masks, pixels above `1 LSB`, 8-connected components:
+Direct inspection confirms this is not a subtle raster discrepancy. Broad manufactured surfaces vanish, the case reads open/hollow in multiple regions, and the three-quarter shell loses the expected closed manufactured-object read.
 
-- continuity: `16` visible effect components; component-centroid cloud is about `99.7420%` one-principal-axis variance;
-- left-oblique: `12` visible effect components; about `99.6156%` one-principal-axis variance.
+Art therefore rejects **direct Geometry-owner order + normal backface culling in this exact Materials receiver** as an acceptable visual target.
 
-The component counts are below 18 because some mote raster regions overlap. This metric only supports the direct visual observation; it is not a universal VFX quality threshold.
+This does not reject Geometry's source-space structural candidate.
 
-## Direction 036 visual contract
+### Receiver-local reversed order under normal backface culling — bounded visual reference PASS
 
-Keep owner seed `41027` as the provenance baseline by default. Do **not** reopen random seed shopping.
+Against each host-reversed variant's own lit two-sided reference, independent QA reproduces:
 
-Keep:
+- `front_service`: `2` pixels above `1 LSB`;
+- `three_quarter`: `0`;
+- `rear_hinge`: `1`;
+- aggregate: `3`.
 
-- warm seam-local secondary hierarchy;
-- current trigger and Animation timing authority;
-- brief active-window character;
-- exact inactive closure;
-- source case/lid identity and existing effect semantics.
+Direct inspection shows coherent closed manufactured-shell coverage across all three retained contexts.
 
-Repair only the excessive temporal/spatial regularity so the active cue no longer presents a long countable bead chain.
+Art therefore accepts that receiving-only reversed result **only as a visual reference for the desired shell read in these exact contexts**. It is not an exporter rule, source rewrite or automatic adaptation policy.
 
-The next version must not solve that by becoming brighter, larger, denser, longer-lived, wider, more scene-dominant, or by moving cameras / retiming Animation.
+## Direction 037 visual contract
 
-Art does not prescribe the implementation knob. VFX retains authority over the smallest effect-owned repair.
+The next real transported Object must retain a coherent closed manufactured-shell read under the target's ordinary culling interpretation.
 
-One candidate is enough.
+Do **not** obtain that by:
 
-## Runtime PR #32 boundary
+- rewriting source triangles solely to satisfy the Materials observer;
+- globally reversing Object/UC/glTF triangles by analogy;
+- disabling production culling to hide the issue;
+- retuning material values, lights or cameras;
+- changing Rigging, Animation, VFX or world placement;
+- silently copying the Materials proof-only reversal into Technical Art.
 
-Repository: `mike-axiom-mir/axm-object-design`
+Preserve Geometry #33's exact candidate as rollbackable structural evidence and preserve both the owner-order failure and the receiving-only success as explicit controls.
 
-PR: **#32 — `Runtime: batch lid-release motes with one MultiMesh`**
+## Highest-leverage next evidence contract — Technical Art
 
-Exact measured Runtime head:
+Use the existing Object rigid-scene Technical-Art lane rather than creating a duplicate policy lane.
 
-`b45dfee4c0a6ae92b8bc5056d4846331075fdadc`
+Existing Technical-Art PR:
 
-Current exact result remains useful:
+**#16 — `Technical Art: carry source-owned rigid parts through UC scene graph`**
 
-- isolated VFX draw calls `18 -> 1` at the retained all-active sample;
-- total frame draw calls `49 -> 32`;
-- primitives unchanged `848 -> 848`;
-- no measured proof-host buffer/video-memory win;
-- six legacy/batched visual pairs have `0` pixels above `1 LSB`, maximum RGB delta `1 LSB`, with `3/6` byte-identical.
+Current exact head:
 
-This is strong representation evidence for the **current exact owner effect**. It does not repair the bead-chain style issue.
+`965fb2f24dbd0b0cbb748d9f8b8712d62966315f`
 
-If VFX changes effect parameters or billboard presentation to satisfy Direction 036, Runtime must rebind its batching proof to that exact repaired owner state before final visual adoption transfers.
+That lane already proves `31` mesh nodes / `812` triangles across Object -> UC scene graph -> Godot import for its historical source identity, and Map PR #45 consumes it in current-world receiving. It is therefore the correct owner to establish whether the new Geometry #33 orientation candidate needs any receiving adaptation in the real transport path.
 
-## Next evidence contract
+Requested successor proof:
 
-VFX should return one repaired owner candidate through:
+1. pin Geometry #33 exact head `606d8189a3bf4502141d8038f08d35d421829dde` and its candidate identity;
+2. preserve exact positions, triangle membership/order and rigid-group identity;
+3. transport through the real Object -> UC/glTF -> Godot path;
+4. retain exact emitted GLB/export identity and real imported target identity;
+5. render shell-observing `front_service`, `three_quarter`, and `rear_hinge` contexts under ordinary backface culling, with a cull-neutral/two-sided control;
+6. determine the real receiving convention there rather than inheriting the Materials proof-only reversal;
+7. if an adaptation is required, state exactly where it occurs and prove it; if no adaptation is needed, retain that evidence and explain the Materials receiver difference;
+8. keep the result independently QA-reviewable before source/transport adoption.
 
-1. the same real wall-clock `AnimationPlayer.play()` path;
-2. the same continuity three-quarter camera;
-3. the same left-oblique seam camera;
-4. pre-trigger / active / post-effect closure;
-5. consecutive frames covering the current problem region, especially around `~0.40 / 0.50 / 0.57–0.60 s`;
-6. exact owner-vs-repair identity and A/B where practical;
-7. independent Visual QA after owner repair.
+Art does not prescribe pre-export vs exporter vs import vs no-adaptation. Technical Art owns that implementation/convention decision.
 
-Acceptance target: preserve seam localization and subordination while removing the long regular bead-chain presentation in both retained contexts.
+## Fresh Object Animation evidence inspected but not selected
+
+Map PR **#46 — `Animation: prove Object current-world wall-clock playback`** remains open/draft at exact head:
+
+`c2695f654f9dd44312ca5d205eceb27f7c2680ee`
+
+Pinned Technical-Art parent:
+
+`d2974dec5043ed9afad346574b23ef8bd4438a76`
+
+Exact owner sequence:
+
+- `lid-latch-open-hold-close-001`;
+- digest `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
+- `2.5 s` / `40 Hz` / `101` samples.
+
+Workflow `35277836297` is SUCCESS. Low-intrusion real playback naturally completed in `2.581473 s` on the proof host, observed `68/101` exact owner sample indices, recorded `0` phase-order violations and exact neutral endpoint drift `0.0 m`. A second real playback retained `29` shaded current-world frames. Artifact `10521646521`, SHA-256 `87b83510d9b521d754c8c4eeced9ef7eba164d4c4d54bf6c6e2baaee449a0f3b`.
+
+Art inspected the sequence for triage. It remains a useful pending visual-review surface, but no timing/weight/style decision is issued here because the shell-culling defect is materially more severe. No Animation retime/easing/key/amplitude change is requested.
+
+## Direction 036 continuity retained
+
+Object VFX Direction 036 remains open and unchanged:
+
+`HOLD_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_FINAL_PRESENTATION_036__TWO_CONTEXT_WALLCLOCK_EXPOSES_RIGID_BEAD_TRAIL`
+
+Owner seed `41027`, seam-local subordinate hierarchy, current trigger/timing and exact closure remain frozen while VFX produces one bounded irregularity repair. Runtime PR #32's `18 -> 1` MultiMesh result remains exact-current-owner evidence and does not become final Art adoption before the repaired owner rebind.
+
+Direction 037 does not supersede or solve that VFX hold.
 
 ## Handoffs
 
-### VFX / Object PR #31
+### Materials / Object PR #6
 
-Make one bounded owner-side irregularity repair. Keep seed `41027`, trigger and Animation timing stable by default. Do not reopen seed family search or enlarge/brighten the effect to force readability.
+Keep the owner-order failure, reversed receiving reference and all controls. Do not retune materials or reinterpret the receiving-only reversal as production authority.
 
-### Runtime / Object PR #32
+### Geometry / Object PR #33
 
-Preserve the current `18 -> 1` result as exact-current-owner evidence. Do not treat it as final Art adoption while Direction 036 is open. Rebind only after the VFX owner has an accepted repaired exact state.
+No source/candidate geometry rewrite requested. Preserve the structural candidate and exact failed/green evidence. Art's failure is receiver-local until real transport resolves the front-face convention.
 
-### Animation
+### Technical Art / Object PR #16
 
-No retiming/easing/order/phase change requested.
+Rebind the exact Geometry #33 orientation candidate through the real rigid-scene Object -> UC/glTF -> Godot path and determine the receiving convention there. Do not copy the Materials proof-only reversal as a global rule.
+
+### Runtime
+
+Do not adopt/optimize a winding representation until the exact real transported representation is established and visually accepted. Target-device culling/performance remains separate.
 
 ### Visual Observer / QA
 
-Review the repaired two-context wall-clock packet independently for bead-chain reduction, seam localization, subordinate hierarchy, active-window continuity and clean closure. Earlier fixed-sample QA remains historical evidence.
+After Technical Art returns real transport evidence, independently recheck shell continuity and the declared adaptation/convention. Current QA remains exact for the Materials receiver only.
 
-### Procedural
+### Animation / VFX
 
-No additional seed generation requested.
-
-### Map / Nature
-
-Direction 034 remains intact and separate. Object Direction 036 does not change compact-east source timing, crest-salience hold or Environment state.
+No change requested to Object owner motion or Direction-036 VFX timing/repair target.
 
 ## Prior Art Direction continuity retained
 
 - Direction 032: compact-east sampled spatial response PASS.
 - Direction 033: compact-east exact-key receiver continuity PASS.
-- Direction 034: final compact-east motion HOLD because a retained proof-host loop erased the authored crest.
-- Direction 035: Object seed `41027` retained as the fixed-sample review baseline; no alternate seed replacement justified.
-- Direction 036: exact requested wall-clock/two-context Object presentation exposes a rigid bead-trail read; final VFX presentation held pending one VFX-owned irregularity repair.
+- Direction 034: final compact-east motion HOLD because one retained proof-host loop erased the authored crest.
+- Direction 035: Object VFX owner seed `41027` retained as the fixed-sample review baseline.
+- Direction 036: Object VFX final presentation HOLD on rigid bead-chain read pending one VFX-owned irregularity repair.
+- Direction 037: Object rigid-shell production winding adoption HOLD; receiving-only reversed order is accepted only as a three-context visual reference while real Technical-Art transport convention remains unproven.
 
-No acceptance transfers between these evidence domains by analogy.
+No acceptance transfers between these domains by analogy.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a universal VFX randomness or centroid-linearity threshold;
-- a required particle implementation/algorithm;
-- physical dust, pressure, airflow, fluid or mechanical-release behavior;
-- production particle-system suitability;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- arbitrary-camera robustness;
+- that Geometry PR #33 is structurally wrong;
+- source adoption of Geometry #33;
+- a universal front-face or winding convention;
+- a universal Object/UC/glTF/Godot index-reversal adapter;
+- where any adaptation belongs in the real transport chain;
+- final production normals/tangents/UVs/textures;
+- arbitrary-camera or renderer equivalence;
+- target-device culling/performance acceptance;
+- final Object VFX or compact-east motion acceptance;
 - gameplay/controller/physics acceptance;
-- final Object VFX adoption;
-- final compact-east motion acceptance;
 - CANON;
 - production/game readiness;
 - any specialist mastery;
@@ -240,12 +281,12 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-**Truth:** Direction 036 is based on the exact new wall-clock evidence Direction 035 requested. Good properties and the newly visible defect are recorded separately; green CI and Runtime efficiency are not inflated into aesthetic acceptance.
+**Truth:** Geometry's structural PASS, the Materials receiver's severe owner-order culling failure, the near-zero reversed receiving mismatch, and the exact unshaded spatial control are all preserved separately. Art does not turn a proof-receiver workaround into transport truth.
 
-**Agency / non-domination:** Art defines the perceptual target but does not seize VFX implementation, Animation timing, Runtime representation, QA, gameplay or physics authority.
+**Agency / non-domination:** Art defines the required closed-shell visual outcome but does not seize Geometry source authority or Technical-Art implementation/convention authority. Materials, Runtime and QA retain their own gates.
 
-**Continuity:** owner seed `41027`, earlier fixed-sample evidence, failed predecessors and Runtime batching proof remain addressable. The next move is one bounded successor repair rather than a silent rewrite or seed reset.
+**Continuity:** Geometry #33, Materials #6, existing Technical-Art PR #16, Map current-world receiving, Direction 036 VFX work and the new Object Animation packet remain separately addressable. No historical PASS is silently rewritten.
 
-**Wisdom before speed:** the studio does not promote/optimize a visually held effect merely because engineering evidence is green. Repair the owner cue first, then rebind downstream representation evidence.
+**Wisdom before speed:** a visually broken manufactured shell is stopped before source adoption or downstream optimization. The real transport owner must prove the receiving convention first.
 
 The four AXM roots remain the merge gate.
