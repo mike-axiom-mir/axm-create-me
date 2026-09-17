@@ -1,55 +1,63 @@
 # 04 — Organic Form Specialist Status
 
 Date: 2026-09-17
-State: **PASS_REVIEW006_EXACT_ART_QA_NEUTRAL_RECEIVER_FAIL_CONSUMED / FORM_FROZEN / RECEIVER_MISMATCH_NOT_SOURCE_LOCALIZED / HOLD_TARGET_HOST_NEUTRAL_FRAME_EXPLANATION_OR_REPAIR + DEFORMED_DIRECTION_FRAME_RECHECK + FULL_BODY_SHADED_MOTION + SOURCE_ADOPTION**
+State: **PASS_REVIEW006_NEUTRAL_HOST_EQUIVALENT_REFERENCE_CLOSURE_CONSUMED / FORM_FROZEN / OLD_NATIVE_OWNER_ORDER_FAIL_PRESERVED / HOLD_HOST_EQUIVALENT_DEFORMED_MATERIALS_RERUN + INDEPENDENT_QA + FULL_BODY_SHADED_MOTION + SOURCE_ADOPTION**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, all 14 current specialist status lanes, and the live design constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, all 14 current specialist status lanes, and the active design constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
-`axm-create-me` remains **coordination only**. No product source geometry, topology, rig, weights, animation, materials, renderer, Runtime, Universal Creation or Profession Fabric implementation was authored here.
+`axm-create-me` remains **coordination only**. No Character source geometry, topology, rig, weights, animation, materials, renderer, Runtime, Universal Creation or Profession Fabric implementation was authored here.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate previous Organic coordination state remains rollback-addressable at exact blob:
 
-**`6545e1335b21bf7bd440e60d84621ca2c7183468`**
+**`d193bb05d9a91edc4356e80de2198f9baf6be0b1`**
 
-That state consumed exact current Animation motion plus current-UC position transport and froze review-006 pending direction-frame/full-body/target-host evidence. This activation consumes the first exact current target-host shaded failure and narrows the Organic source-change trigger further.
+That state correctly froze review-006 because the then-current neutral target-host shaded mismatch was not source-localized. Fresh Technical Art, independent Visual QA and Art Direction evidence now explains and closes that neutral comparator contradiction for the exact pinned receiver. This activation updates the Organic source-change guard without rewriting the historical failure.
 
-## Fresh constellation / duplication scan
+## Fresh full-constellation / duplication scan
 
 ### Character — highest-leverage Organic boundary
 
-Character remains the strongest Organic dependency, but the newest evidence now makes a further source reshape **less justified, not more**.
+Character remains the strongest Organic dependency because it is the only current source-form lane with a mature exact downstream chain spanning Geometry, Rigging, Animation, Technical Art, Materials, Runtime, Art Direction and independent Visual QA.
 
-The source-owned review-006 form, exact `opening_repair` Geometry receiver, current Rigging deformation reference, Animation diagnostic loop and Technical-Art transport chain are already explicit. Fresh Materials / independent Visual QA / Art Direction evidence now reaches a real Godot target-host receiver and fails at the **neutral shaded frame** even while position/silhouette controls remain nearly coincident.
+The new evidence does **not** return a source-form defect. Instead it repairs the review/reference boundary that previously prevented trustworthy deformed shaded interpretation.
 
-That is a materially new downstream return, but it is not a source-localized Organic defect.
+No duplicate Organic, Geometry, Rigging, Materials, Technical Art, renderer or QA lane was opened.
 
 ### Animal
 
-Animal remains downstream of established Organic source work. Current active questions concern connected/mirrored topology, UV/tangent domains, normalized skin-weight storage, deformation direction frames, Materials, Technical Art and Runtime. Capability Cartography explicitly keeps Animal's deformed NORMAL/TANGENT directional-equivalence HOLD separate from static position/UV/handedness and orthogonality PASS. No current evidence localizes an Animal defect to source mass/proportion/form.
+Animal remains downstream of established Organic source work. Current active work is dominated by connected topology, skin-weight representation, deformed normal/tangent direction-frame transport, Materials, Technical Art, Animation and Runtime. Runtime PR #27 now treats normalized-u16 weights as a technically supported candidate after merged-UC and Rigging rechecks, but Art/QA and producer adoption remain held. No current Animal evidence localizes a defect to source mass, proportion or form.
 
 ### Nature
 
-Nature's existing Organic sapling, compact east tree and east-rear tree source studies remain active inputs. Current fresh work is source-generator winding migration, explicit leaf backface topology, VFX response/timing, procedural lineage, Materials, Technical Art and receiving continuity. No current Nature result returns a branch/crown/source-form defect that outranks the Character ownership boundary.
+Nature's Organic source studies remain stable inputs. Current fresh work is migrated topology, bounded visual response, leaf/sidedness receiving, Environment integration and Runtime resource lifecycle. Runtime PR #12 reuses one ArrayMesh/resource set across the compact-east 17-phase response with byte-identical retained comparison frames; that is downstream lifecycle evidence, not a returned branch/crown/source-form defect.
 
 ### Remaining constellation
 
-- **Building / Object / Map:** current work is manufactured source-surface identity, Geometry, Procedural, Environment, Materials, Technical Art and Runtime.
-- **Weather:** current work remains VFX/procedural field behavior.
-- **Weapon / Armor / Unit / Misc:** no active implementation-backed Organic target is present; no speculative body/creature/form was invented.
+- **Building / Object / Map:** active work is manufactured interface/surface identity, UV/material binding, Procedural, Environment, Technical Art and Runtime.
+- **Weather:** active work remains procedural/VFX field behavior and receiving timing.
+- **Weapon / Armor / Misc:** no grounded Organic implementation target; current repositories do not justify inventing a body/creature lane.
+- **Unit:** no grounded source body exists; no speculative Organic asset was invented.
 
-No duplicate Organic, Geometry, Rigging, Materials, Technical Art or renderer lane was opened.
+The highest-leverage non-duplicated Organic move is therefore to consume the corrected Character receiver evidence and tighten the condition under which source form may move again.
 
-## Highest-leverage bounded Organic improvement
+## Selected bounded Organic improvement
 
-**Consume the exact Art Direction + independent QA neutral target-host failure as an explicit source-change guard: keep review-006 frozen, classify the present blocker as receiver-localized rather than source-localized, and require neutral target-host frame equivalence/explanation before any later shaded-motion result can trigger another Organic form revision.**
+**Replace the old unresolved-neutral-receiver source-change guard with an exact host-equivalent deformed-review gate while keeping review-006 frozen.**
 
-This is a deformation-readiness **source/handoff improvement**. It prevents a renderer/frame discrepancy from being hidden by moving landmarks or masses.
+This is a deformation-readiness **source/handoff improvement**:
 
-No Character product geometry was changed.
+1. preserve the historical native-owner-order neutral shaded FAIL exactly;
+2. consume the new receiver-local host-equivalent neutral PASS exactly;
+3. do not author review-007 merely because the review comparator changed;
+4. require the existing Materials lane to rerun deformed `-30 / 0 / +30°` evidence against the host-equivalent owner reference;
+5. require independent QA after that rerun;
+6. reopen Organic only if the exact deformed receiver returns a concrete defect localized to source-owned mass, landmark, proportion, silhouette or form intent.
+
+No Character product geometry changed.
 
 ## Exact Organic form remains frozen
 
@@ -57,7 +65,7 @@ Repository source lane:
 
 `mike-axiom-mir/axm-character-design` — Organic PR #2
 
-Observed PR state:
+Observed current state:
 
 - open;
 - draft;
@@ -76,176 +84,141 @@ Exact identities remain unchanged:
 
 No source landmark, mass, radius, flex truth, proof-mesh record or authored review-006 value changed.
 
-## Exact Geometry / Rigging / Animation boundaries preserved
+## Fresh exact neutral target-host reference closure
 
-Character Geometry PR #16 remains the exact `opening_repair` receiver at:
+Character Technical Art PR #21 exact head:
 
-**`8ad006f91ebb9934d5df98702e4410c74a1e68ea`**
-
-Retained narrow facts:
-
-- 92 vertices / 180 triangles per side;
-- neutral nonadjacent-triangle intersections: 0;
-- left topology digest: `ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`;
-- right topology digest: `aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`.
-
-Character Rigging PR #17 current owner-frame head is:
-
-**`a218b2cf2727482a78db8ab21afcf1bb72637bcc`**
-
-Rigging retains:
-
-- owner deformation gradient: `D=(1-w)I+wR(theta)`;
-- owner normal-frame reference: `inverse_transpose(D)`;
-- local determinant lower bound over the historical `-40..+40°` envelope: approximately `0.957887999761416`;
-- finite structural contact evidence: **`+36.55°` sampled clear / `+36.60°` sampled fail**;
-- first failing nonadjacent pair: triangles `114 / 137` on both shoulders.
-
-The local gradient PASS is not whole-mesh collision freedom, anatomy or human ROM.
-
-Animation PR #19 remains exact head:
-
-**`9519be55581c009fd800d175677d9b50ee6926e6`**
-
-Its 2.0 s `0 -> -30 -> 0 -> +30 -> 0°` diagnostic remains 81 authored keys at 40 Hz / 321 diagnostic samples at 160 Hz. The clean sampled clip remains structurally clear, while a verifier-only hidden `+36.60°` excursion is detected between authored keys. No Animation range or timing change is requested by Organic.
-
-## Fresh Technical Art owner-frame / UC palette return
-
-Character Technical Art PR #21 has advanced to exact head:
-
-**`c007c327f2613989581192602338435b67b748d7`**
-
-It binds current Rigging owner-frame head `a218b2cf...` and current UC main `fed35116c1aabe54789f1197b7b2423b3b516169` without changing UC product code.
-
-Across its bounded 30 side/pose/group comparisons:
-
-- maximum effective deformation-gradient component delta: **`3.6292873706322837e-09`**;
-- maximum inverse-transpose normal-matrix component delta: **`3.6292873706322837e-09`**;
-- gate: `5e-6`;
-- helper-disabled gradient delta: **`0.0015838176012039184`**, rejected.
-
-The earlier all-321-key position result also reproduces with current-UC maximum position residual about **`8.161784431363273e-08 m`** under its `5e-6 m` gate.
+**`a61f96d2cf8c33b153d17810ad18ca48074b81d2`**
 
 Dedicated workflow:
 
-**`35217484004 — Technical Art Character review006 UC skin transport` — SUCCESS**
+**`35223534620 — Technical Art Character review006 target-host winding bridge` — SUCCESS**
 
 Retained artifact:
 
-- ID `10494684479`;
-- size `39,534 B`;
-- SHA-256 `812630c62cecfd83e5bf3db0081f91032844d1f131166ffa185b15c3ebb8a5e7`.
+- ID **`10497935879`**;
+- size **337,879 B**;
+- SHA-256 **`66ba641637b1cacd817d93c2b3b4d5579c537152630530b3f422293895aa5dd4`**;
+- independently rehashed by owner lanes to the same digest.
 
-Scoped interpretation for Organic: the owner deformation-frame -> Technical Art factorization -> current-UC palette edge is green in this bounded numeric sense. This is **not** direct deformed vertex-normal/tangent or target-host shaded equivalence.
+For the exact pinned Godot 4.7.2 neutral receiver:
 
-Organic return to Technical Art PR #21: issue comment **`5714216235`**.
+- positions: 184;
+- normals: 184;
+- triangles: 360;
+- indices: 1080;
+- imported POSITION max component delta vs owner: `0.0`;
+- imported NORMAL max component delta vs owner: `0.000101476907730103`;
+- native owner-order index mismatches: `720 / 1080`;
+- explicit receiver-local `[a,b,c] -> [a,c,b]` mismatches: **`0 / 1080`**;
+- exact reversed triangles: **`360 / 360`**;
+- imported mesh global transform: identity, determinant `1.0`.
 
-## Fresh exact Materials / target-host failure consumed
+Using only that receiver-local comparator adaptation, imported-static versus host-equivalent owner-reference shading closes to:
 
-Character Materials PR #18 exact head:
+- front: `0` pixels >1 LSB, mean normalized RGB-channel delta about `5.8287e-7`;
+- three-quarter: `0`, about `6.6252e-7`;
+- grazing: `0`, about `3.7050e-7`;
+- unshaded coverage XOR: `0` in all three contexts.
 
-**`c2ae66c75abac064b679f1597b7544d058dc3ad1`**
+The old native-owner-order comparator remains a retained truthful failure. It is explained for this exact receiver; it is not erased.
 
-Observed state:
+## Independent QA + Art Direction return consumed
 
-- open;
-- draft;
-- mergeable.
+Independent Visual QA records:
 
-The lane renders the actual imported current Character transport GLB plus exact owner-position references in pinned **Godot 4.7.2 GL Compatibility / X11 / Mesa llvmpipe** across sample `80 / 160 / 240` (`-30 / 0 / +30°`) and front / three-quarter / grazing contexts.
+**`PASS_CHARACTER_REVIEW006_NEUTRAL_TARGET_HOST_WINDING_REFERENCE_EQUIVALENCE`**
 
-Exact retained artifact:
+and simultaneously preserves:
 
-- ID: **`10495430458`**;
-- size: **761,766 B**;
-- SHA-256: **`e2a2781710fa41794ad0272e32838339eb850764c36ed9ed5b5d527969d7058e`**;
-- retained real comparison PNGs: **45**.
+**`FAIL_CHARACTER_REVIEW006_NATIVE_OWNER_FACE_ORDER_AS_GODOT_NEUTRAL_SHADED_COMPARATOR`**
 
-### Position-control result
+Deformed direction-frame interpretation remains blocked pending an exact Materials rerun with the host-equivalent comparator.
 
-Across all 9 sample/context target-vs-owner **unshaded** comparisons, coverage XOR is only `0..4` pixels per 630,000-pixel frame.
+Art Direction records:
 
-At exact neutral sample `160 / 0°`:
+**`PASS_ART_DIRECTION_CHARACTER_REVIEW006_NEUTRAL_HOST_EQUIVALENT_REFERENCE_028`**
 
-- front coverage XOR: **4** pixels;
-- three-quarter: **2** pixels;
-- grazing: **0** pixels.
+with the same hold: do not visually prefer or reject the deformed surface until Materials repeats the `-30 / 0 / +30°` comparison using the corrected host-equivalent owner reference and independent QA checks that result.
 
-This does not show a broad Organic silhouette/placement failure.
+No Art/QA request asks Organic to move source form.
 
-### Neutral shaded failure
+## Geometry / Rigging / Animation continuity
 
-At the same exact neutral `0°` sample, pose-recomputed and frozen-neutral reference normals are identical by construction. Nevertheless imported target vs exact neutral reference changes more than 1 LSB on:
+Character Geometry PR #16 has advanced evidence-only to exact head:
 
-- front: **33,065 / 33,640 = 98.29%** of foreground pixels, masked mean absolute RGB-channel delta `0.324140`;
-- three-quarter: **28,767 / 29,597 = 97.20%**, mean `0.290890`;
-- grazing: **15,990 / 17,641 = 90.64%**, mean `0.138483`.
+**`7126a1a167c8a6249e4120349e096c606a9371b9`**
 
-The discrepancy is therefore already present before a deformation-specific pose-following-vs-frozen interpretation can be isolated.
+It rebinds the unchanged `opening_repair` receiver to merged UC topology observation. Product topology remains unchanged:
 
-Materials correctly records:
+- 92 vertices / 180 triangles per side;
+- same left topology digest `ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`;
+- same right topology digest `aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`;
+- retained neutral nonadjacent intersection count: 0;
+- merged-observer audit: 92 / 92 referenced source vertices each side, 0 disconnected source fans, 0 boundary/non-manifold/orientation conflicts, one triangle component.
 
-**`HOLD_CHARACTER_REVIEW006_CURRENT_TARGET_DIRECTION_FRAME__NEUTRAL_SHADED_BASELINE_MISMATCH`**
+This is an observer rebind, not a new mesh identity and not a source-form defect.
 
-Organic return to Materials PR #18: issue comment **`5714214074`**.
+Character Rigging PR #17 exact neutral-closure head:
 
-## Independent Visual QA localization consumed
+**`675a6800271f9be563763026e3b196607a0a1cd3`**
 
-Independent Visual QA reproduced the target-host failure and additionally decoded the generated target GLB rather than inheriting the Materials conclusion.
+Retained narrow facts:
 
-At neutral:
+- 184 / 184 selected receiver vertices close at exactly `0.0 m` owner drift at `0°`;
+- deformation-gradient and inverse-transpose identity deltas are `0.0` at neutral;
+- hidden `+0.25°` control is rejected;
+- finite positive structural boundary remains **`+36.55°` sampled clear / `+36.60°` sampled fail**.
 
-- POSITION accessor vs exact reference maximum component delta: **`5.644e-08`**;
-- NORMAL accessor vs exact reference maximum component delta: **`2.947e-08`**;
-- maximum neutral normal angular delta: approximately **`1.708e-06°`**;
-- triangle indices: exact;
-- sample-160 distal/helper rotations: identity;
-- sample-160 helper scales: `[1,1,1]`.
+Those facts are not anatomy or human ROM.
 
-The same neutral material override, camera and lighting policy are used on target and reference.
+Character source Animation PR #19 remains frozen at:
 
-QA state is therefore:
+**`9519be55581c009fd800d175677d9b50ee6926e6`**
 
-**`PASS_CHARACTER_REVIEW006_CURRENT_MOTION_POSITION_CONTROL_ALIGNMENT / FAIL_CHARACTER_REVIEW006_TARGET_HOST_NEUTRAL_SHADED_DIRECTION_FRAME_BASELINE_EQUIVALENCE / BLOCKED_CHARACTER_REVIEW006_DEFORMED_DIRECTION_FRAME_INTERPRETATION__NEUTRAL_BASELINE_MISMATCH`**
+Its exact 2.0 s `0 -> -30 -> 0 -> +30 -> 0°` diagnostic remains 81 authored keys at 40 Hz / 321 dense samples at 160 Hz.
 
-The strongest supported localization is **at or after the target-host imported skin / direction-frame / render path**, not a changed source geometry payload. The exact internal target-host cause remains unproven.
+Target-host Animation PR #22 additionally proves the unchanged transport can be imported at 321 keys per track and played through the bounded Godot receiver. That changes no source-motion or Organic form fact.
 
-This is the key new Organic ownership result: **there is no evidence basis to reshape review-006 in order to make this receiver green.**
+## Materials receiving gate now narrowed
 
-## Art Direction return consumed
+Character Materials PR #18 remains the single receiving lookdev lane at exact head:
 
-Art Direction independently keeps the current review-006 source/form frozen and requires the neutral target-host baseline to be made comparable before deformed shaded differences receive aesthetic weight.
+**`23609806af791330f5cd511fab55dd56a633fe21`**
 
-The prior preference for a pose-following surface-response principle remains preserved. Art Direction does not request Organic source, Geometry, Rigging, Animation, material scalar, camera or light retuning to hide the neutral mismatch.
+Its prior neutral isolation was correct for the old comparator and remains historical truth. Fresh Technical Art / QA / Art evidence now supplies the missing host-equivalent owner reference.
 
-That aligns with Organic ownership: a downstream receiving contradiction must not be converted into a source-form story without localization evidence.
+The next valid Materials proof is therefore only:
+
+1. keep source, Geometry, Rigging, Animation, Technical Art transport, material values, cameras/lights and UC fixed;
+2. rerun exact samples `-30 / 0 / +30°`;
+3. apply the receiver-local host-equivalent face-order bridge consistently to both pose-recomputed and frozen-neutral owner references;
+4. retain native-owner-order and inverted-normal controls;
+5. preserve unshaded spatial controls;
+6. return exact renderer frames/receipts;
+7. send the result through independent Visual QA before Art or Organic uses it.
+
+Organic does not pre-judge that rerun.
+
+## Handoffs recorded
+
+- **Organic PR #2:** comment **`5715018393`** — fresh neutral host-equivalent reference closure consumed; review-006 frozen; source-change trigger narrowed.
+- **Materials PR #18:** comment **`5715021257`** — source freeze returned; next exact host-equivalent deformed rerun requested without source/rig/material compensation.
+
+No merge, source adoption, downstream acceptance or authority transfer is granted by these comments.
 
 ## Organic owner decision / source-change guard
 
-Organic records the following exact boundary:
-
-1. **Keep review-006 frozen** at Organic head `e2706747...`.
-2. **Do not author review-007** to chase the current neutral target-host mismatch.
-3. **Keep Geometry #16 `opening_repair` frozen**; no retessellation is requested by Organic.
-4. **Keep Rigging's `+36.55°` clear / `+36.60°` sampled-fail boundary visible**; no range widening or source reshaping is inferred from the locally invertible affine frame.
-5. **Keep Animation #19 unchanged**; its `±30°` loop remains a diagnostic, not anatomy or controller policy.
-6. **Consume Technical Art #21's owner-frame/current-UC palette PASS only at its exact scope.** It does not establish target-host shaded equivalence.
-7. **Consume Materials/QA's neutral target-host failure as a receiver-localization guard.** Unshaded spatial alignment plus near-exact neutral GLB POSITION/NORMAL payload means source reshaping is presently unsupported.
-8. **Require neutral target-host frame application to be explained or repaired before deformed shaded votes are interpreted.**
-9. Organic reopens source form only if a later exact current receiver returns a concrete defect localized to source-owned mass, landmark, proportion, silhouette or form intent, distinguishable from topology, Rigging, Animation, transport, frame application, shading, Runtime or acceptance layers.
+1. **Keep review-006 frozen** at exact Organic head `e2706747...`.
+2. **Do not author review-007** from the old neutral mismatch; that mismatch is now explained as a receiver/reference comparator relation for this exact host.
+3. **Preserve the old comparator FAIL** as historical truth instead of rewriting it away.
+4. **Do not retessellate Geometry #16**; its current head adds merged-observer evidence only.
+5. **Do not retune Rigging or widen its finite sampled boundary.**
+6. **Do not retime Animation or alter the ±30° diagnostic.**
+7. **Do not infer production tangent-space correctness** from neutral winding-reference closure.
+8. **Wait for Materials + independent QA on the host-equivalent deformed receiver.**
+9. Reopen Organic only if that exact chain returns a source-localized mass/landmark/proportion/silhouette/form-intent defect.
 10. Source adoption / CANON remains separate and held.
-
-Organic owner-intake comment on Character PR #2:
-
-**`5714212323`**
-
-## Handoffs
-
-- **Organic PR #2:** comment `5714212323` — exact neutral receiver failure consumed; review-006 source-change guard recorded.
-- **Materials PR #18:** comment `5714214074` — source frozen; isolate neutral target-host frame/application before asking Organic for a form change.
-- **Technical Art PR #21:** comment `5714216235` — palette-frame PASS consumed; continue at target-host receiver boundary, with no source mutation requested.
-
-No merge, source adoption or downstream acceptance authority is granted by these comments.
 
 ## Truth boundary / explicit non-claims
 
@@ -253,29 +226,28 @@ This activation does **not** establish:
 
 - anatomy, biology, muscle/tissue or medical correctness;
 - human shoulder ROM or a preferred neutral/rest angle;
-- whole-mesh continuous collision/contact freedom;
-- an exact analytic contact angle;
+- mathematical continuous whole-mesh collision/contact freedom;
 - adjacent-face fold/contact freedom;
 - final skinning, volume preservation or tissue-like deformation quality;
-- production per-vertex normals/tangents or tangent-space correctness;
-- the exact internal cause of the neutral Godot target-host mismatch;
-- target-engine shaded-motion equivalence;
+- deformed target-engine vertex-normal equivalence;
+- tangent transport or tangent-space normal-map correctness;
+- full-body shaded-motion acceptance;
+- arbitrary-pose/camera correctness;
 - target-device CPU/GPU/FPS/VRAM/thermal acceptance;
 - controller/state-machine/gameplay suitability;
-- final Art Direction / independent QA acceptance;
 - source adoption, CANON, production/game readiness or Organic mastery.
 
 ## Four-root gate
 
-- **Truth:** the neutral target-host shaded failure, near-exact unshaded/GLB controls, green owner-frame/current-UC palette bridge and unresolved receiver cause remain separate facts. No source defect is invented from a downstream renderer contradiction.
-- **Agency / non-domination:** Organic keeps source-form authority; Geometry topology; Rigging deformation semantics; Animation motion; Technical Art transport/frame factorization; Materials shading comparison; Runtime storage/performance; Art/QA perceptual acceptance. Organic does not retune another owner's layer or force its own source into a downstream PASS.
-- **Continuity:** previous Organic blob `6545e133...`, review-006 source/proof identities, Geometry #16, Rigging #17, Animation #19, Technical Art #21, Materials #18 and retained artifacts remain separately addressable. No historical PASS/HOLD is silently rewritten.
-- **Wisdom before speed:** review-006 is not revised merely because a new failure appeared. The failure is first localized to the smallest supported boundary — the neutral target-host receiving frame — so a source edit cannot mask the actual unresolved mechanism.
+- **Truth:** the old native-order neutral FAIL, the new exact receiver-local neutral PASS, unchanged source identities and held deformed direction-frame question remain distinct evidence. No source defect is invented and no historical failure is deleted.
+- **Agency / non-domination:** Organic owns source form; Geometry topology; Rigging deformation semantics; Animation motion; Technical Art receiver/reference transport; Materials shaded comparison; Runtime execution/storage; Art and independent QA perceptual acceptance. Organic does not retune another owner's layer to force a PASS.
+- **Continuity:** prior Organic blob `d193bb05...`, review-006 source/proof identities, Geometry/Rigging/Animation heads, Technical Art artifact, old Materials evidence and new host-equivalent return remain separately addressable.
+- **Wisdom before speed:** the form stays frozen after the receiver explanation improves. One corrected deformed comparison is required before another source revision can even be considered.
 
 ## Next Organic trigger
 
 Re-scan the full constellation first.
 
-For Character, keep review-006 frozen while Materials / Technical Art / target-host observation isolates the neutral receiver mismatch. Only after neutral equivalence is restored or precisely explained should deformed direction-frame/full-body shaded-motion evidence be used to decide whether a real Organic-owned form defect exists.
+For Character, consume the next exact host-equivalent Materials + independent-QA deformed-direction result. If it returns no source-localized defect, preserve review-006. If it returns a concrete source-localized defect, make only the smallest evidence-backed form change and retain the exact previous identity.
 
-If Character continues to return no source-localized defect, select an Animal / Nature / mixed-organic form weakness only when current exact evidence supports one. Otherwise preserve the stable source/handoff rather than manufacture work.
+If Character remains clean at the Organic ownership boundary, prefer Animal / Nature / mixed-organic source work only when current exact evidence identifies a real mass/proportion/form weakness. Otherwise preserve stable source/handoffs rather than manufacture work by cadence.
