@@ -3,347 +3,206 @@
 - Date: `2026-09-17`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_SHARED_CAPABILITY_EXECUTION_CLAIM_COORDINATION_MAP / UC_192_DUPLICATE_IMPLEMENTATION_RACE_RESOLVED / UC_194_MERGED_MAIN_AA53EE8A / UC_193_CLOSED_UNMERGED_PROVENANCE_RETAINED / CREATE_ME_SHARED_CLAIM_SURFACE_ADDED / PF_38_UNCHANGED_EVIDENCE_PROCEDURE_HOME / NO_PRODUCT_OR_SHARED_MACHINE_AUTHORITY_MOVE / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_RECEIVER_LIFECYCLE_MUTATION_GRANULARITY_MAP / MAP_13_AND_ANIMAL_29_CONTAINER_REUSE_SEPARATED_FROM_SURFACE_REBUILD / NATURE_12_PARAMETER_ONLY_UPDATE_IS_DISTINCT_LAYER / PF_38_REFINED_EVIDENCE_PROCEDURE_ONLY / NO_UC_DYNAMIC_BUFFER_OR_MORPH_EXTRACTION / NO_PRODUCT_AUTHORITY_MOVE / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the 3D Studio campaign and Capability Cartographer standing role, then inspected fresh specialist status, current commits and open PRs across the design constellation, current Universal Creation implementation state, and existing Profession Fabric evidence/provenance work before changing any coordination structure.
+Re-read the 3D Studio campaign and Capability Cartographer standing role, then inspected the newest specialist status, newest commits and live PRs across the active design constellation plus current Universal Creation and Profession Fabric evidence before changing any coordination state.
 
-`axm-create-me` remains **coordination only**. The only structural addition in this activation is an explicit coordination file for shared-capability execution claims. No product implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, product adoption, CANON state, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, adoption decision, CANON state, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh continuity closure from the previous Cartography pass
+## Fresh continuity since the previous Cartography pass
 
-The previous Cartography state placed directional texel-density / UV-anisotropy observation in Universal Creation issue #192 and deliberately left implementation open.
+The previous pass resolved the duplicated UC #192 implementation race and added the non-authoritative shared-capability execution-claim surface.
 
-That shared capability is no longer proposal-only.
+That coordination result remains valid. No second materially overlapping shared-capability implementation race was found in this scan, so `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` was not widened into a lock or scheduler.
 
-Current Universal Creation main is now:
+Universal Creation has moved forward independently since that pass:
 
-`aa53ee8aa803c19524b7edbef6250bf6ed9336c0`
+- directional texel-density remains merged through UC #194;
+- UC main then advanced through the bounded Physics #191 merge to `452b179cccff8acdde8930f7bde8662e52f86949`;
+- current Physics successor PR #195 is a separate active lane and does not overlap the Runtime lifecycle question selected here.
 
-Merge commit message:
+Fresh Runtime specialist status now closes Animal pass 40 at exact Runtime head `9db88b7629df025be1c157c19ca258e3ff0ce483`, while explicitly naming the still-unproved next layer: surface construction remains `41 -> 41` despite `ArrayMesh` construction falling `41 -> 1`.
 
-`Merge PR #194: add directional texel-density evidence`
+## Selected material cross-repo learning — receiver identity and mutation granularity are different capabilities
 
-Its exact parents are:
+The new repeated rule is:
 
-- previous UC main `50e85c8f6a39822eef01e4fb546dcb875917bb3b`;
-- PR #194 implementation head `0d30f149039d87b1ae5f76c7f703a15e858275aa`.
+> **Stable receiver-container identity does not prove persistent surface/payload identity; persistent payload identity does not prove bounded-region update capability; a smaller mutation operation does not by itself prove a better product tradeoff or adoption decision.**
 
-The merged capability preserves the placement boundary from the previous Cartography pass:
+This is now evidenced independently by Map, Animal and Nature Runtime work.
 
-- existing scalar area-equivalent material-UV density remains unchanged;
-- read-only principal directional texel-density / anisotropy evidence is added;
-- image width and height remain independent directional inputs;
-- singular/unmeasurable maps produce explicit findings rather than invented directional values;
-- no anisotropy threshold, UV repair, unwrap, atlas packing, product target, visual preference or adoption policy is centralized.
+### Evidence A — Map Runtime #13: one persistent container, surface still recommitted every update
 
-Therefore the previous placement decision is now implemented on UC main without moving Building/Object policy into UC.
+Map Runtime PR #13 (`mike-axiom-mir/axm-map-design#13`) at exact head:
 
-## Selected material cross-repo learning — correct placement does not prevent duplicate execution
+`f0c72b9dd4688bdb01ac40aa33f469afffd7ec0a`
 
-The important new finding is not another texel-density rule. It is the execution race that occurred while the correctly placed shared capability was being implemented:
+asks one lifecycle question only: whether the synchronized sapling can reuse one `MeshInstance3D`, one `ArrayMesh` and one material instead of reconstructing those resources per authored state.
 
-> **A canonical proposal identity and a correct shared home are not sufficient coordination if multiple specialists can independently open materially overlapping implementations before current live-work state propagates. Shared capability placement needs a separate, explicit execution-claim identity.**
+Its retained result is:
 
-This is a coordination dependency, not a machine capability and not a profession method.
+`PASS_REUSE_SINGLE_SAPLING_ARRAYMESH_RESOURCE_CHURN_CONTRACT`
 
-### Evidence A — two UC implementations started from the same proposal and exact base
+Across the measured window:
 
-Universal Creation proposal:
+- sapling node constructions: `441 -> 1`;
+- `ArrayMesh` constructions: `441 -> 1`;
+- material constructions: `441 -> 1`;
+- all 18 fixed-camera control/candidate image pairs are byte-identical;
+- proof-host submission observations improve materially.
 
-`mike-axiom-mir/axm-universal-creation#192`
+But the candidate still **clears/recommits the single triangle surface for every exact authored deformation state**.
 
-Two materially overlapping implementation lanes were opened independently against the exact same base:
+Therefore Map proves stable high-level resource identity and reduced construction churn. It does not prove persistent surface-buffer residency or a lower-granularity dynamic vertex update.
 
-`50e85c8f6a39822eef01e4fb546dcb875917bb3b`
+### Evidence B — Animal Runtime #29: same boundary on a different deforming receiver
 
-#### Execution A — Geometry specialist PR #193
-
-PR:
-
-`mike-axiom-mir/axm-universal-creation#193`
-
-Title:
-
-`Geometry: expose directional texel-density in static material observer`
-
-Created:
-
-`2026-09-17T17:11:17Z`
-
-Exact head:
-
-`8b1af776585afb87facf90f4bcc055d51acc60e7`
-
-Its published scope was the same bounded capability family:
-
-- extend the existing `inspect_material_uv_density()` observer;
-- preserve scalar semantics;
-- derive world-plane -> texel Jacobian principal scales;
-- use width/height independently;
-- report anisotropy without choosing a threshold;
-- no UV repair/unwrap/packing/product policy.
-
-Geometry status still truthfully preserved a failed predecessor caused by over-strict ideal-double expectations versus actual GLB FLOAT32 values, followed by a test-only precision repair. That lineage remains valid historical evidence for PR #193.
-
-PR #193 is now:
-
-**`CLOSED_UNMERGED`**
-
-It closed at `2026-09-17T17:37:55Z`.
-
-#### Execution B — UC PR #194
-
-PR:
-
-`mike-axiom-mir/axm-universal-creation#194`
-
-Title:
-
-`Add directional texel-density evidence`
-
-Created:
-
-`2026-09-17T17:14:10Z`
-
-Exact head:
-
-`0d30f149039d87b1ae5f76c7f703a15e858275aa`
-
-PR #194 also explicitly closes proposal #192 and implements the same bounded observer class inside the existing material-UV evidence surface with the same policy exclusions.
-
-PR #194 merged at:
-
-`2026-09-17T17:37:41Z`
-
-Merged UC main:
-
-`aa53ee8aa803c19524b7edbef6250bf6ed9336c0`
-
-PR #193 then closed unmerged 14 seconds later.
-
-### Why this is materially a coordination race, not harmless parallel research
-
-Both implementations:
-
-- named the same proposal #192;
-- started from the same exact UC base;
-- targeted the same existing material-UV observer;
-- implemented principal directional texel-density / anisotropy observation;
-- preserved the old scalar result;
-- kept thresholds, repair, unwrap, atlas and product policy outside UC.
-
-They were therefore not merely two product-specific experiments or two representations with different owners. They were competing implementations of one already-identified shared capability.
-
-The correct response is **not** to erase PR #193 or imply that its work was invalid. Its exact head, failed predecessor and regression repair remain provenance. But after #194 merged, only the merged UC identity is current shared machinery.
-
-Cartography return comments now record that distinction:
-
-- UC PR #194: `5718923119`;
-- UC PR #193: `5718924285`.
-
-## Evidence B — Animal Runtime independently demonstrates the stale-lane failure class
-
-Fresh Runtime status provides a materially different supporting case in a product repository.
-
-Animal Runtime originally based pass 40 on a Technical Art target-host premise that fresh workflow history later disproved. Runtime workflow `35250755479` failed before Godot setup/readback while rebuilding the Technical Art packet.
-
-Technical Art then repaired its evidence contract and produced a real green Godot 4.7.2 41-key receiver at exact head:
-
-`43e2cf0ddf3096c665aa7c29b4393dcafdd26114`
-
-Rather than opening another competing optimization or silently narrating the stale parent as green, Runtime preserved the failed attempt, merged the existing lane forward, and now keeps one current PR #29 at exact head:
+Animal Runtime PR #29 exact measured head:
 
 `9db88b7629df025be1c157c19ca258e3ff0ce483`
 
-with the exact current workflow still queued.
+Scoped result:
 
-That is the correct continuity behavior: **re-scan the live dependency, preserve stale history, and advance one explicit execution lane against the current proven parent.**
+`PASS_ANIMAL_GODOT_ARRAYMESH_RESOURCE_REUSE_41_TO_1__HOLD_DYNAMIC_REGION_SHADED_DEVICE`
 
-The UC #192 race and Animal Runtime recovery are different in domain and mechanism, but they share the same coordination lesson: a status snapshot can become stale faster than implementation work, so execution identity must be checked directly against current live branches/PRs immediately before starting overlapping work.
+Before/candidate:
 
-## Why this does not belong in Universal Creation
+- `ArrayMesh.new()` constructions: `41 -> 1`;
+- persistent `ArrayMesh` object identity: proved;
+- surface constructions: **`41 -> 41`**;
+- update path: still `clear_surfaces()` + `add_surface_from_arrays()` for each key;
+- persistent surface-buffer reuse: **not proved**;
+- dynamic vertex/attribute-region update: **not proved**.
 
-Universal Creation owns the reusable machine capability itself.
+The proof-host median sweep improves `138 -> 116 us` and p95 `156 -> 127 us`, while the exact 41-key receiver readback remains within the inherited Technical Art gates. Fresh shaded A/B, target-device behavior and adoption remain held.
 
-It should not become the authority that decides which specialist may execute a shared proposal. Adding claim/lease semantics to UC would mix creation machinery with studio coordination and would still not cover shared Profession Fabric work cleanly.
+This independently reproduces the Map distinction on different geometry, different source semantics and a different receiving chain.
 
-UC therefore remains responsible only for the merged directional-density observer and other neutral machine capabilities. No execution-lock machinery was added there.
+### Evidence C — Nature Runtime #12: an already-stable container can still have a materially different mutation layer
 
-## Why this does not belong in Profession Fabric
+Nature Runtime PR #12 pass 38 exact head:
 
-Profession Fabric issue #38 was re-inspected.
+`6ea4148da61d3806123712e2eaf19613df9ae1eb`
 
-It already contains strong reusable evidence/provenance vocabulary, including:
+is the decisive third case because its control already has a stable `MeshInstance3D + ArrayMesh + material` from the earlier resource-lifecycle pass.
 
-- typed consumed-identity edges;
-- explicit successor rebind/rerun states;
-- separation of migration state from bounded claim verdicts;
-- representation alternatives rather than forced successor semantics;
-- storage/payload identity distinctions;
-- optimization metric vectors and held axes;
-- independent adoption identity.
+The control nevertheless regenerates normals and resubmits the full 1,710-corner surface every phase.
 
-That remains the correct place for **how professional evidence is recorded and migrated**.
+Nature then proves a source-specific representation fact: all 17 exact compact-east phase meshes can be represented by one neutral mesh plus one normalized neutral-to-peak blend shape and a phase weight, with maximum source-space representation residual `1.2412670766236366e-16 m`.
 
-The current problem is different: two live specialists can both decide to implement the same shared proposal before the other lane appears in an older status view. That is live studio coordination, not a reusable profession evidence method.
+The pass-38 candidate therefore changes only one blend weight after initial construction rather than rebuilding the whole surface every phase.
 
-Profession Fabric PR #37 also remains a separate open/draft experiment proving bounded-variation evidence procedure across three domains. Nothing in this activation changes or duplicates it.
+Measured proof-host result:
 
-Therefore:
+- stress median submission: `1,237 -> 75 us` (`-93.9369%`);
+- stress p95: `1,349 -> 105 us` (`-92.2165%`);
+- stress total: `510,866 -> 32,515 us` (`-93.6353%`);
+- renderer buffer allocation: `+177,840 B`;
+- unshaded retained evidence: `34/34` byte-identical;
+- simple normal-lit evidence: bounded nonzero difference, with Art/QA still held.
 
-- PF #38 is unchanged;
-- no new PF issue or implementation was opened;
-- no shared-execution lock or scheduler was moved into Profession Fabric.
+This proves why mutation granularity must be recorded separately from both object identity and the metric vector. The smaller steady-state update produces a strong CPU result but costs buffer memory and changes shaded evidence slightly. It is not an unconditional "better" state.
 
-## Correct home — explicit create-me coordination claim surface
+## Bounded reusable map
 
-The correct supported home is `axm-create-me`, because the missing capability is **cross-repo live-work coordination** and the campaign already defines this repository as the studio control room rather than a product source.
+The repeated evidence supports the following distinction:
 
-Created:
-
-`studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md`
-
-Creation commit:
-
-`607eb83f20bb82edf83104a990022cb89aa0d4d7`
-
-The file is deliberately small and non-authoritative.
-
-Before opening a new shared-capability implementation in UC or Profession Fabric, it asks the executing specialist to check:
-
-1. exact proposal identity;
-2. active claim for the same material scope;
-3. current shared-home PRs/branches;
-4. newest specialist status/live work.
-
-Its minimal record distinguishes:
-
-- `proposal_identity`;
-- `capability_scope`;
-- `claimant_specialist`;
-- `implementation_repo`;
-- `branch_or_pr`;
-- `base_revision`;
-- state `CLAIMED | IMPLEMENTING | MERGED | CLOSED_UNMERGED | SUPERSEDED | RELEASED`;
-- exact result identity;
-- explicit non-claims.
-
-### Critical authority boundary
-
-A claim is **not ownership**.
-
-It grants no:
-
-- merge priority;
-- merge authority;
-- CANON authority;
-- product adoption authority;
-- code ownership;
-- specialist superiority;
-- permission to auto-close another lane.
-
-Its only function is to make a materially overlapping shared implementation visible early enough that another specialist can review/contribute/handoff instead of opening a duplicate implementation by accident.
-
-The file explicitly refuses a global lock service or automatic winner selection.
-
-## First retained claim record — UC #192
-
-The new coordination file records the already-resolved incident rather than pretending the rule existed beforehand:
-
-- proposal: `mike-axiom-mir/axm-universal-creation#192`;
-- capability scope: read-only directional texel-density / UV-anisotropy evidence in the existing static material-UV observer;
-- exact base: `50e85c8f6a39822eef01e4fb546dcb875917bb3b`;
-- PR #193 / Geometry: `CLOSED_UNMERGED`, head `8b1af776585afb87facf90f4bcc055d51acc60e7`;
-- PR #194 / UC implementation: `MERGED`, head `0d30f149039d87b1ae5f76c7f703a15e858275aa`;
-- current result: UC main `aa53ee8aa803c19524b7edbef6250bf6ed9336c0`;
-- no active claim remains after merge.
-
-Building and Object do **not** inherit a PASS merely because UC now contains the observer. If either product consumes the merged observer, it must bind/rerun that exact merged identity and keep its source metric meaning, target density, atlas policy, visual acceptance and Runtime adoption local.
-
-## Fresh constellation scan / no duplicate product lane opened
-
-The newest live state was checked before this coordination change.
-
-### Empty/unstarted product surfaces
-
-No open PRs were found in:
-
-- `axm-weapon-design`;
-- `axm-armor-design`;
-- `axm-unit-design`;
-- `axm-misc-design`.
-
-No work was invented there merely to fill cadence.
-
-### Character
-
-Character already has active, distinct Animation / Technical Art / Runtime lanes around review-006 motion and accessor sharing. Cartography opened no competing implementation.
-
-### Animal
-
-Animal Runtime PR #29 owns the current 41 -> 1 `ArrayMesh` resource-reuse candidate against the repaired Technical Art receiver. Existing weight-width and joint-width Runtime lanes remain distinct representation experiments. Cartography did not centralize them.
-
-### Building
-
-Hard Surface PR #17 remains the source-owned utility-panel nearest-body-face clearance successor at current exact head `32bbdd54f00aaac87ba8139bf932d8aff6109a66`. Its recent repair rebinds a stale CI provenance pin while leaving the local service-surface geometry unchanged. Geometry #16 keeps the UV-ready structural chart. No product migration was performed here.
-
-### Nature / Weather / Map
-
-Nature already owns compact-east source response, exact-state Animation playback and the CPU-for-buffer-memory Runtime tradeoff. Map owns the current-world VFX/Animation receiver and cross-asset Environment attribution. Weather keeps source visual-field semantics. Cartography opened no competing playback, VFX or Runtime lane.
-
-### Object
-
-Object VFX PR #31 now owns phase-bound lid-release motes on the existing Animation phase. Object Runtime #29/#30 keep atlas-envelope and one-channel roughness storage experiments. Technical Art #28 retains rectangular transport. No VFX, texture or transport implementation moved.
-
-### Universal Creation
-
-Directional-density observer work is resolved on main at `aa53ee8aa803c19524b7edbef6250bf6ed9336c0`. PR #191 remains the separate bounded Physics growth lane and does not overlap this coordination surface.
-
-## Bounded capability-placement map
-
-| Concern | Correct home | Current decision |
+| Layer | Question | Current evidence |
 |---|---|---|
-| Directional texel-density observer implementation | `axm-universal-creation` | Merged through PR #194 on main `aa53ee8a...` |
-| Historical duplicate implementation evidence | Original UC PR lane | PR #193 retained `CLOSED_UNMERGED`; history not erased |
-| Product metric-domain / density / atlas / lookdev policy | Building/Object owner lanes | Unchanged; explicit rebind/rerun required before consuming merged UC observer |
-| Reusable evidence/provenance procedure | `axm-profession-fabric` | PF #38 remains correct experimental procedure home; unchanged this pass |
-| Shared-capability live execution claim | **`axm-create-me` coordination** | New explicit claim surface, no ownership/merge authority |
-| Art/QA acceptance | Art Direction / Visual QA | Unchanged |
-| Runtime/device adoption | Product Runtime | Unchanged |
-| CANON / merge authority | Existing constitutional/product gates | Unchanged |
+| Receiver container identity | Is the same high-level target-host object reused? | Map #13 and Animal #29: yes |
+| Surface/payload lifecycle | Is the contained surface/payload itself retained rather than rebuilt? | Map #13 and Animal #29: no / not proved |
+| Mutation operator | What exact receiving operation changes state? | Whole-surface recommit in Map/Animal; blend-weight parameter update in Nature pass 38 |
+| Mutation granularity | Whole container, whole surface, attribute region, parameter only, or unknown? | Distinct across the three cases |
+| Resident storage reuse | Is the same underlying receiver storage/buffer proved persistent? | Held/not directly proved by container identity alone |
+| Metric tradeoff | What CPU/memory/raster/device axes improved or regressed? | Existing PF optimization-vector vocabulary remains authoritative |
+| Adoption | Should the product use it? | Product Runtime/producer + Art/QA/device owners only |
 
-## Changes / returns this activation
+Core non-transfer rule:
 
-- Added coordination-only `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` at commit `607eb83f20bb82edf83104a990022cb89aa0d4d7`.
-- UC PR #194 Cartography return: `5718923119`.
-- UC PR #193 continuity return: `5718924285`.
-- Maintained this status file.
-- No product source changed.
-- No UC implementation changed by Cartography.
-- No PF implementation changed.
-- No merge/rebase/adoption/CANON action was performed by Cartography.
+`STABLE_RECEIVER_OBJECT_IDENTITY != PERSISTENT_SURFACE_OR_BUFFER_IDENTITY != BOUNDED_UPDATE_CAPABILITY != PRODUCT_ADOPTION`
+
+## Correct placement — Profession Fabric evidence vocabulary only
+
+The shared part is currently **how lifecycle evidence is described**, not one reusable executable updater.
+
+Profession Fabric issue #38 is therefore the correct bounded candidate home for a refinement to the experimental evidence/provenance procedure.
+
+Added Cartography comment:
+
+`5719668182`
+
+The proposed evidence vocabulary keeps these fields separate:
+
+1. `receiver_container_identity`;
+2. `container_construction_count`;
+3. `surface_or_payload_lifecycle` such as `REBUILT_EACH_UPDATE | PERSISTENT | UNKNOWN_NOT_OBSERVED`;
+4. exact `update_operator_identity`;
+5. `mutation_granularity` such as `WHOLE_CONTAINER | WHOLE_SURFACE_PAYLOAD | ATTRIBUTE_REGION | PARAMETER_ONLY | UNKNOWN`;
+6. separate `resident_storage_reuse_state = PROVED | HOLD | NOT_EVALUATED`;
+7. the already-proposed `measured_metric_vector[]` remains separate;
+8. source/receiver identities and product adoption remain independent.
+
+This is evidence vocabulary only. No PF implementation or profession promotion is requested by this pass.
+
+## Why Universal Creation is not the correct home yet
+
+No UC dynamic-buffer, blend-shape, morph, renderer-lifecycle or target-host mutation lane was opened.
+
+The three product cases share an evidence distinction but use representation- and Godot-specific mechanisms:
+
+- Map and Animal keep one `ArrayMesh` while recommitting surfaces;
+- Nature changes its representation so the steady-state operation becomes one blend-shape parameter update.
+
+That is not yet one neutral executable machine contract. Centralizing a generic updater now would choose target-host/runtime semantics before cross-domain evidence supports a reusable implementation.
+
+A future UC proposal would require a materially repeated neutral machine operation with explicit supported attribute/storage semantics, failure bounds and receiving invariants — not merely three Runtime optimizations that happen to expose the same evidence distinction.
+
+Current UC work remains separate bounded Physics growth; no overlapping lifecycle issue/PR was found.
+
+## Product returns
+
+Cartography returned the bounded distinction without altering product work:
+
+- Animal Runtime #29 comment: `5719669386`;
+- Nature Runtime #12 comment: `5719670529`;
+- Map Runtime #13 comment: `5719671754`.
+
+Each product retains its exact mechanism and adoption authority.
+
+## Fresh constellation / overlap scan
+
+The newest coordination commits and active PRs were checked before this proposal.
+
+- **Character:** current work remains in its own Geometry/Rigging/Animation/Technical-Art/Runtime evidence chains; no competing Runtime lifecycle lane was opened here.
+- **Animal:** Runtime #29 owns the current `41 -> 1` `ArrayMesh` lifecycle measurement; newer Technical Art continuity does not automatically inherit the Runtime timing PASS.
+- **Building:** Hard Surface has corrected nearest-body-face utility-panel clearance; Geometry/Materials/Procedural/Environment are explicitly rebinding to that source successor rather than relabelling historical evidence. No lifecycle extraction was justified from that work.
+- **Nature:** Runtime #12 owns the single-blend-shape CPU-for-buffer-memory tradeoff; Map current-world receiving/playback remains separate.
+- **Weather:** source visual-field semantics remain source-owned; no new lifecycle implementation was invented.
+- **Map:** Runtime #13 remains a distinct historical/current resource-reuse case; current Animation/VFX/QA work is focused on compact-east delivered playback, not this lifecycle mechanism.
+- **Object:** VFX #31 owns the green phase-bound release-mote proof; Runtime #29/#30 remain atlas/storage experiments. No Object mechanism was folded into this lifecycle map.
+- **Universal Creation:** current main includes the merged directional-density observer and merged Physics #191; successor Physics #195 is unrelated to this map.
+- **Profession Fabric:** issue #38 remains the experimental evidence/provenance proposal surface. Existing PF implementation experiments are not promoted by this comment.
+- **Weapon / Armor / Unit / Misc:** no product work was invented to fill cadence.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that duplicate work can be eliminated completely;
-- that one claim grants ownership or priority;
-- an automatic distributed lock;
-- an automatic scheduler;
-- an automatic PR closer;
-- that every product PR must be registered in this file;
-- that parallel work is wrong when scopes are materially different;
-- that UC PR #193 was invalid work — it remains valid historical provenance for its exact lane;
-- that merged UC #194 automatically upgrades Building or Object evidence;
-- that the directional observer chooses an acceptable anisotropy;
-- any Art Direction / Visual QA acceptance;
-- any Runtime/device adoption;
-- Profession Fabric promotion;
+- that one stable `ArrayMesh` proves one stable GPU buffer;
+- that `clear_surfaces()` / `add_surface_from_arrays()` maps one-to-one to a particular driver allocation behavior;
+- a generic dynamic vertex-buffer API;
+- a generic morph/blend-shape system;
+- that parameter-only updates are always faster or better;
+- that lower mutation granularity dominates buffer-memory, visual, startup or device tradeoffs;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- final Art Direction or Visual QA acceptance;
+- automatic product adoption;
+- PF implementation or promotion;
+- UC extraction;
 - CANON;
 - production/game readiness;
 - mastery;
@@ -355,41 +214,35 @@ The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity
 
 ## Next bounded scan
 
-- Before any future shared UC/PF implementation, inspect the claim surface and current live PRs immediately before opening a lane.
-- If another materially independent shared-capability race occurs, refine the coordination record only as much as the evidence requires; do not turn it into a hidden lock service.
-- If Building/Object consume UC main `aa53ee8a...`, require an explicit consumer bind/rerun rather than inheriting draft or historical evidence.
-- Continue scanning current product lanes for actual repeated mechanisms before proposing new UC/PF machinery.
+- If Animal attempts dynamic attribute-region updating, require explicit rebind to the latest proven Technical Art receiver and record whether resident storage reuse is actually observed rather than inferred from API/object identity.
+- If another materially independent runtime proves the same neutral bounded-update operation across different representations/hosts, reassess whether a UC observer or updater is finally justified.
+- Keep PF lifecycle evidence vocabulary separate from the existing optimization metric vector and from product adoption.
+- Continue using the shared-capability execution-claim surface before any new UC/PF implementation to avoid duplicate shared work.
 
 ## Recovery / provenance
 
 Previous Cartography state:
 
-`PASS_DIRECTIONAL_TEXEL_DENSITY_OBSERVER_PLACEMENT_MAP`
+`PASS_SHARED_CAPABILITY_EXECUTION_CLAIM_COORDINATION_MAP`
 
 Previous status blob SHA:
 
-`0a0d9b1ed41470a84478d2c8106a3919248ec663`
+`8ded6a18582d30dde5dd0851ed240b3152a5acb7`
 
 Previous Cartography commit:
 
-`c098f4ea83060b01db73146c3cd6abdfa723e501`
+`26a0115ccaf7f842291627c63eb6fca07b5ee0a9`
 
-Previous UC proposal:
+Previous coordination addition:
 
-`mike-axiom-mir/axm-universal-creation#192`
+`studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md @ 607eb83f20bb82edf83104a990022cb89aa0d4d7`
 
-Current merged UC result:
+Current PF refinement:
 
-`aa53ee8aa803c19524b7edbef6250bf6ed9336c0`
+`mike-axiom-mir/axm-profession-fabric#38 comment 5719668182`
 
-Historical duplicate execution:
+Current product returns:
 
-`mike-axiom-mir/axm-universal-creation#193 @ 8b1af776585afb87facf90f4bcc055d51acc60e7 — CLOSED_UNMERGED`
-
-Merged execution:
-
-`mike-axiom-mir/axm-universal-creation#194 @ 0d30f149039d87b1ae5f76c7f703a15e858275aa — MERGED`
-
-Coordination claim surface creation commit:
-
-`607eb83f20bb82edf83104a990022cb89aa0d4d7`
+- `mike-axiom-mir/axm-animal-design#29 comment 5719669386`;
+- `mike-axiom-mir/axm-nature-design#12 comment 5719670529`;
+- `mike-axiom-mir/axm-map-design#13 comment 5719671754`.
