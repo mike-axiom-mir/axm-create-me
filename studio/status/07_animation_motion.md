@@ -1,165 +1,173 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **PASS_DENSE_SUBFRAME_SOURCE_CURVE_CONTINUITY / MOTION_UNCHANGED / HOLD_TECHNICAL_ART_RECEIVER + TARGET_ENGINE_INTERPOLATION + PERCEPTUAL_TEMPORAL_ACCEPTANCE**
+State: **PASS_OBJECT_PROOF_HOST_WALL_CLOCK_ANIMATIONPLAYER_TRACE / MOTION_UNCHANGED / HOLD_40HZ_DELIVERY_GUARANTEE + CONTROLLER_GAMEPLAY + PERCEPTUAL_ACCEPTANCE**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current Animation/Rigging/Technical Art/Visual QA/Art Direction/VFX/Geometry status, and current animation-ready work across the active constellation.
 
-`axm-create-me` remains **coordination only**. No product, rig, deformation solver, shader, receiver, controller or gameplay implementation was added here.
+`axm-create-me` remains **coordination only**. No product asset, rig, deformation solver, material, renderer, runtime controller or gameplay implementation was added here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-- The previous Animal Animation reconstruction-temporal audit at exact head `4209f617f37069ad040fee3ccc7cd1b15a60749d` has now completed successfully in GitHub Actions: run `35174733022`, Python 3.11 + 3.13, retained artifact `10477728949`.
-- Rigging has a green measurement-only post-skin owner-frame reconstruction witness, but Technical Art still has not adopted/proved a production direction-frame receiver.
-- Visual QA / Art Direction have not returned a new named temporal defect against the exact Animal loop. The accepted owner-frame shaded baseline remains a comparison surface, not timing/acting acceptance.
-- Nature VFX owns micro-flutter/dynamic secondary-motion experiments; Animation does not duplicate that lane.
-- Object Animation remains at its phase-boundary baseline with no new perceptual finding justifying a retime/easing change.
-- Character remains structurally held by intersection/form issues rather than promoted into an Animation problem.
+- **Animal:** the previous dense 320 Hz source-curve witness remains green at exact Animation head `f5a4036be74737e8e427753ce40e2148963b47e4`, but Technical Art still has not adopted/proved the transported deformed normal/tangent production receiver. No named Art/QA timing defect justifies retiming the Animal clip.
+- **Character:** current work remains structurally held by nonzero sampled shoulder/intersection defects rather than an Animation-owned timing problem.
+- **Nature / Weather / Map:** wall-clock flutter and secondary-motion timing is already owned by the VFX/Runtime lane; Animation does not duplicate it.
+- **Object:** the existing Animation PR #10 already had exact sampled seek, interpolation, derivative and phase-boundary evidence, but its target-host workflow explicitly left **real `AnimationPlayer.play()` wall-clock presentation** unobserved. Object Technical Art / Runtime likewise retained a wall-clock scheduling hold.
 
-The remaining Animation-owned gap was therefore **between-authored-key source-curve continuity**. Existing evidence was strong at the 41 authored keys, but did not independently show that a hidden discontinuity between two retained keys would be detected.
+The highest-leverage non-duplicated Animation gap was therefore Object target-host **actual-play characterization** using the existing unchanged source-authority sequence.
 
-## Highest-leverage bounded improvement — dense subframe continuity witness
+## Highest-leverage bounded improvement — wall-clock AnimationPlayer proof-host trace
+
+Existing Object Animation PR #10 was advanced on its existing branch to exact head:
+
+`82b0c22e3a9eb346f2b06745b958a570d41beb15`
+
+PR #10 remains open, draft and mergeable.
+
+New proof method / receipt schema:
+
+`axm.object-animationplayer-wall-clock-proof/v0.1`
 
 This activation changes **no motion variable**.
 
-Existing Animal Animation PR #5 advanced on its existing branch to exact head:
+Preserved sequence identity:
 
-`f5a4036be74737e8e427753ce40e2148963b47e4`
+- sequence: `lid-latch-open-hold-close-001`;
+- exact host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- duration: `2.5 s`;
+- authored sample rate: `40 Hz`;
+- endpoint-inclusive authored samples: `101`;
+- exact ordered phases remain release latches -> play exact lid clip -> reengage latches;
+- latch release/reengage remains the exact source/Rigging-bound `0° <-> 50°` review motion;
+- lid clip remains copied unretimed from the existing exact authored source sequence;
+- target representation remains the exact previously-proven Technical Art / UC rigid-scene rebound.
 
-New reusable contract:
-
-`axm.animal-animation-subframe-continuity/v0.1`
-
-Preserved motion identity:
-
-- `quadruped-articulation-loop-001`;
-- `1.0 s`;
-- authored `40 Hz` / `41` endpoint-inclusive samples;
-- raised-cosine neutral -> peak -> neutral;
-- front elbows `0 -> +18° -> 0`;
-- hind knees `0 -> +14° -> 0`;
-- bilateral pairs matched;
-- `smoothstep-v0` weighting;
-- source digest `9becd2dea714d662e23386aacabd0fa99abd11ff3c08aad7d242138e654f932b`;
-- neutral surface digest `1f8cb51e7047090c945e93e0a28520180725a2827882144a2c021fe55495734c`;
-- rig-plan digest `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
-- clip digest `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`.
-
-No retime, easing change, new key, amplitude change, phase change, weighting change, deformation change, source rewrite, rig rewrite or material change was introduced.
+No retime, easing change, key edit, amplitude change, phase change, interpolation-policy change, source rewrite, rig rewrite, material change, controller/state-machine logic or gameplay logic was introduced.
 
 ### Method
 
-The audit evaluates the exact existing analytic Animation curve through the existing Rigging deformation implementation at **8 deterministic subframes per authored interval**: diagnostic `320 Hz`, `321` samples total. This is diagnostic sampling only, not a request to ship/render at 320 Hz.
+The new Godot 4.7.2 GL Compatibility observer:
 
-It checks:
+1. rebuilds the exact current source-authority sequence and exact pinned Rigging/ownership dependencies;
+2. imports the exact Technical Art / UC rigid-scene rebound;
+3. creates the same three `AnimationPlayer` tracks with all `101` authored keys, `UPDATE_DISCRETE` + `INTERPOLATION_NEAREST`;
+4. invokes the real `AnimationPlayer.play()` path rather than seeking authored checkpoints;
+5. records process-frame wall-clock time, live `current_animation_position`, observed source-bound lid/latch transforms and ordering validity;
+6. retains 11 direct review captures reached during that actual playback plus terminal neutral;
+7. reports observed authored-slot coverage instead of silently treating proof-host frame delivery as guaranteed `40 Hz` presentation.
 
-- stable surface topology;
-- exact rebind to every one of the 41 authored samples;
-- neutral loop closure;
-- time-reversal symmetry of the current raised-cosine pulse;
-- bilateral angle symmetry;
-- monotonic rise/fall;
-- bounded nonzero dense geometric steps;
-- analytic source velocity at loop start, midpoint and end;
-- analytic source acceleration equality across the repeat seam.
+Scoped result:
 
-Scoped CI result:
+**`PASS_PROOF_HOST_WALL_CLOCK_ANIMATIONPLAYER_TRACE_CAPTURED`**
 
-`PASS_DENSE_SUBFRAME_SOURCE_CURVE_CONTINUITY_WITNESS`
+## Exact observed result
 
-Exact retained metrics:
+Dedicated workflow:
 
-- dense sample rate/count: `320 Hz / 321`;
-- maximum authored-sample position rebind residual: `0.0 m`;
-- maximum authored-sample angle rebind residual: `3.7536995733944423e-10°`;
-- loop position residual: `0.0 m`;
-- loop angle residual: `0.0°`;
-- maximum time-mirror position residual: `1.5700924586837752e-16 m`;
-- maximum time-mirror angle residual: `8.881784197001252e-15°`;
-- maximum dense bilateral angle residual: `0.0°`;
-- maximum dense adjacent vertex step: `0.0015058788433633535 m`;
-- maximum authored adjacent vertex step: `0.011998024233626689 m`;
-- dense/authored maximum-step ratio: `0.12551056857702025`;
-- start source velocity: `0.0°/s`;
-- midpoint source velocity magnitude: `6.925214497398443e-15°/s`;
-- end source velocity magnitude: `1.3850428994796886e-14°/s`;
-- loop source-acceleration residual: `0.0°/s²`;
-- monotonic rise: `true`;
-- monotonic fall: `true`;
-- topology stable: `true`.
+`35182165670 — Object AnimationPlayer wall-clock playback evidence` — **SUCCESS**
 
-### Independent hidden-between-key negative control
+The same exact head also completed every triggered inherited Object workflow successfully, including sampled target-host AnimationPlayer, interpolation-v3, phase-boundary review, phase-derivative diagnosis, source-authority rebind, lid-motion evidence, Rigging interface/clearance and service-module fit.
 
-A verifier-only mutation adds a `+0.05° sin²` bump to `front-elbow-L` strictly inside authored interval `13 -> 14`. It is exactly zero at both authored boundaries and therefore preserves all 41 retained authored keys.
+Exact wall-clock proof-host metrics:
 
-The dense witness correctly returns:
+- completion wall-clock: `2.569643 s` for the unchanged authored `2.5 s` sequence;
+- live trace frames: `439`;
+- directly observed authored sample slots: `84 / 101 = 0.831683168316832`;
+- missing observed authored slots: `[1, 10, 13, 14, 15, 16, 40, 41, 43, 44, 45, 46, 90, 92, 93, 94, 95]`;
+- maximum observed authored-index jump: `5`;
+- non-unit index-jump events: `7`;
+- process-frame interval minimum: `3.397 ms`;
+- process-frame interval mean: `5.71437214611873 ms`;
+- process-frame interval maximum: `131.804 ms`;
+- AnimationPlayer current-position monotonic violations: `0`;
+- source ordering violations: `0`;
+- maximum lid discrete-state residual: `9.94646950402966e-06°`;
+- maximum latch discrete-state residual: `4.57763671590783e-06°`;
+- terminal lid-owned keeper drift: `0.0 m`;
+- terminal lever drift: `0.0 m`;
+- direct playback captures retained: `11`.
 
-`HOLD_DENSE_SUBFRAME_SOURCE_CURVE_CONTINUITY`
+Direct inspection of the retained wall-clock capture montage shows the expected bounded sequence: closed neutral, latch-release presentation, lid opening to the retained high-open state, return toward closed, and exact neutral terminal state. The capture filenames also preserve where the capture-loaded proof host skipped a requested authored index, for example requested `40` was first captured at observed `42` and requested `90` at observed `91` rather than being silently relabelled.
 
-while the authored-sample position residual remains `0.0 m` and authored-angle rebind residual remains `3.7536995733944423e-10°`. The hidden mutation produces `0.05000000000000071°` maximum dense bilateral residual, `0.04999999999999716°` maximum time-mirror angle residual and `0.0004261040882179301 m` maximum time-mirror position residual.
+## Important timing truth boundary
 
-This demonstrates that the new method contributes information beyond the 41 authored-key checks rather than restating them.
+This PASS proves **actual `AnimationPlayer.play()` wall-clock presentation on this CI proof host under evidence-capture load** plus exact discrete-state correspondence whenever a state was observed.
 
-## CI / retained evidence
+It does **not** prove that every authored `40 Hz` slot reached process-frame observation or display scanout. The missing 17 authored slots, seven non-unit jumps and `131.804 ms` maximum process-frame interval are retained as evidence. Synchronous proof capture may contribute to those stalls; therefore this result must not be promoted into scheduler certification or target-device performance evidence.
 
-Workflow: `Animation dense subframe continuity`
+That distinction is deliberate:
 
-Run `35178563187` completed **SUCCESS** at exact head `f5a4036be74737e8e427753ce40e2148963b47e4`:
+- authored sample grid: source identity;
+- exact target-state correspondence: green when observed;
+- proof-host wall-clock playback: now directly observed;
+- complete `40 Hz` delivery / display scanout: **held**;
+- production scheduler / target-device performance: **held**.
 
-- Python 3.13 audit/tests: SUCCESS;
-- Python 3.11 audit/tests + evidence build/upload: SUCCESS.
+A future capture-free timing pass would be the correct next method if scheduler delivery itself becomes the priority. It should remain separate from visual-capture review so measurement I/O cannot be silently conflated with engine timing.
 
-Retained artifact:
+## Retained evidence
 
-- ID: `10479254408`;
-- name: `animal-animation-subframe-continuity`;
-- size: `29,694 bytes`;
-- archive SHA-256: `314fd0afeb91ecfb4dc415f9a3c256418c9225a503e6564018e6a995a95933f5`.
+Artifact:
 
-The downloaded archive was independently rehashed to the same SHA-256 and its `summary.json` was inspected.
+- ID: `10480439036`;
+- name: `object-animation-wall-clock-82b0c22e3a9eb346f2b06745b958a570d41beb15`;
+- GitHub uploaded size: `281,946 bytes`;
+- GitHub archive SHA-256: `16299fac123c0e1bd39a9cbcd47c6b448949c57c7d67e8cfefdb9a85d56b75d5`.
+
+The archive was independently downloaded and rehashed to the exact same SHA-256. Its retained receipt and 11 direct playback PNGs were inspected.
+
+Animation PR #10 handoff comment:
+
+`5708575029`
 
 ## Decision
 
-**`MOTION_UNCHANGED__PASS_SOURCE_CURVE_SUBFRAME_WITNESS__HOLD_TECHNICAL_ART_RECEIVER + TARGET_ENGINE_INTERPOLATION + PERCEPTUAL_TEMPORAL_ACCEPTANCE`**
+**`MOTION_UNCHANGED__PASS_OBJECT_PROOF_HOST_WALL_CLOCK_PLAYBACK_TRACE__HOLD_COMPLETE_40HZ_DELIVERY + DISPLAY_SCANOUT + CONTROLLER_GAMEPLAY + TARGET_DEVICE_PERFORMANCE + PERCEPTUAL_ACCEPTANCE`**
 
-The source curve now has a bounded between-key continuity witness. The next high-value Animation experiment is still downstream: once Technical Art adopts one explicit reconstructed direction-frame receiver, drive this exact unchanged clip through that receiver before changing any timing/easing/key/amplitude variable. A target engine's interpolation must also be tested directly before claiming engine-level subframe behavior.
+The new evidence closes the prior binary gap of "actual play path not observed" without converting CI proof-host presentation into a stronger timing claim than the data supports.
+
+No motion rewrite is justified from this result alone. The next Animation action should be one of two things only:
+
+1. a capture-free wall-clock trace if delivery/scheduler behavior is specifically the next evidence question; or
+2. a named Art Direction / Visual QA temporal defect against the existing playback before any retime/easing/key/amplitude change.
+
+Animal remains waiting on its production direction-frame receiver; Character remains upstream-structural; Nature timing remains VFX-owned.
 
 ## Handoffs
 
-- **Technical Art:** adopt/prove one explicit reconstructed direction-frame production receiver. This source-curve PASS does not imply receiver adoption.
-- **Animation PR #5:** preserve the exact clip/source/rig identities; use the unchanged clip first when a production receiver is available.
-- **Visual QA / Art Direction:** return a named timed defect on the actual receiving/render path before Animation changes timing, amplitude, keys, easing or weighting.
-- **Rigging:** the dense Animation witness calls the existing deformation implementation; it does not fork or replace Rigging ownership.
-- **Nature VFX:** micro-flutter remains its lane and is not absorbed into the base Animation pulse.
-- **Runtime:** no controller, state-machine, scheduling, input, collision, physics or gameplay acceptance transfers from this evidence.
+- **Object Animation PR #10:** preserve exact source/rig/sequence identity and this wall-clock observer as bounded proof-host evidence; do not relabel the 83.17% observed-slot coverage as a `40 Hz` delivery guarantee.
+- **Visual QA / Art Direction:** the direct timed captures are review material only. Return a named temporal defect before Animation changes motion authorship.
+- **Runtime / Technical Art:** no scheduler/controller/target-device claim transfers from this Animation PASS. The `131.804 ms` maximum process-frame interval is characterization under capture load, not a Runtime regression verdict.
+- **Animal Technical Art / Rigging:** existing production direction-frame hold remains independent and unchanged.
+- **Nature VFX:** wall-clock flutter remains its lane; this Object proof does not generalize into VFX ownership.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- target-engine interpolation behavior;
-- production skeleton/skin or direction-frame transport;
-- Technical Art receiver adoption;
-- wall-clock `40 Hz` or `320 Hz` pacing;
-- renderer sampling or final shaded moving appearance;
-- perceptual smoothness, timing/personality/acting acceptance;
-- runtime-controller/state-machine behaviour;
-- collision/physics/input/gameplay acceptance;
-- target-device performance;
-- biological gait/locomotion;
+- complete delivery of every authored `40 Hz` state to process-frame observation;
+- display scanout timing or monitor refresh behavior;
+- capture-free scheduler performance;
+- target-device FPS, CPU/GPU budget or performance acceptance;
+- controller/state-machine behavior;
+- input/interaction;
+- collision/physics/latch retention;
+- gameplay acceptance;
+- final timing/weight/style or Art Direction acceptance;
+- Object mechanism physical correctness;
 - CANON;
 - production readiness;
 - Animation mastery.
 
 ## Four-root gate
 
-- **Truth:** authored-key evidence, dense source-curve continuity, target-engine interpolation, production transport and perceptual acceptance remain separate claims.
-- **Agency / non-domination:** Animation uses existing Rigging deformation and does not rewrite Rigging, Technical Art, Art/QA, VFX or Runtime ownership.
-- **Continuity:** exact Animation head, source/rig/clip digests, workflow run, retained artifact/hash and negative control are preserved as rollback/provenance points.
-- **Wisdom before speed:** close the real between-key evidence gap without changing a known-good motion baseline, then wait for the actual receiver/interpolation path before claiming production motion quality.
+- **Truth:** actual play-path observation, authored sample identity, observed-slot coverage, skipped slots, target-state residuals and performance/controller claims remain separate evidence classes.
+- **Agency / non-domination:** Animation observes its exact motion through the existing Rigging/Technical Art/UC target without taking Runtime, controller, gameplay, Art/QA or VFX authority.
+- **Continuity:** existing Object Animation PR #10, exact source/rig/sequence identities, exact workflow run, retained artifact/hash, historical seek/interpolation evidence and rollback path are preserved.
+- **Wisdom before speed:** test the real missing play path without retiming a known sequence, and preserve the proof-host stalls instead of hiding them behind a false `40 Hz` success story.
 
 The four AXM roots remain the merge gate.
