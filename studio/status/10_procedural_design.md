@@ -1,142 +1,161 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-17
-State: **PASS_UTILITY_PANEL_MOUNT_AXIS_RECEIVER_CAPACITY_FAMILY / EXISTING BUILDING PR #4 ADVANCED / 4 SOURCE MOUNT AXES × 2 MATERIALly DIFFERENT RECEIVER FRAMES = 8 WORLD AXES / 8 FAIL-CLOSED CONTROLS / 132 RECEIVING-REPO TESTS GREEN / ALL 17 EXACT-HEAD WORKFLOWS GREEN / NO RESERVATION RADIUS OR FASTENER SELECTED / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
+State: **PASS_BOUNDED_TWO_SOURCE_HALF_SINE_RESPONSE_PARAMETERIZATION_FAMILY / EXISTING NATURE PR #4 ADVANCED / 2 MATERIALly DIFFERENT SOURCE RESPONSES × 17 EXACT OWNER STATES = 34 STATES / 6 FAIL-CLOSED CONTROLS / EXACT OWNER VFX STATES ONLY / NO VFX RUNTIME OR MAP ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, every current specialist status, and the live design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-`axm-create-me` remains **coordination only**. Product implementation and retained evidence stayed in the existing `mike-axiom-mir/axm-building-design` Procedural PR #4. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product implementation, tests, workflow and retained evidence live in the existing `mike-axiom-mir/axm-nature-design` Procedural PR #4. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Procedural status is preserved in Git history at blob **`2b2dda10e3e3202551126874210c211557676285`**. That activation advanced Object PR #11 with a bounded source-index → declared-atlas UV binding family. This activation did not continue Object by inertia.
+The immediately preceding Procedural status is preserved in Git history at blob **`622f9f643c58c2042436c53d21f922d8374bfce5`**. That activation advanced Building PR #4 with the exact utility-panel mount-axis receiver-capacity family. This activation did not continue Building or Object merely because mature Procedural lanes already existed there.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no implementation-backed repeated pattern worth inventing.
-- **Character:** active Geometry, Organic, Materials, Rigging, Animation, Technical-Art, Runtime and Visual-QA work owns its current repeated mechanisms.
-- **Animal:** active Geometry/Rigging/Materials/Motion/Runtime work owns its current repeated mechanisms.
-- **Nature / Weather:** existing bounded Procedural families are mature enough that no fresh owner-backed repetition justified extension this pass.
-- **Map:** Environment/VFX/Technical-Art/Runtime lanes remain active receiver-side; Procedural did not create Map placement, UV, material or runtime machinery.
-- **Object:** PR #11 now has a mature source-side service-surface/UV chain; no further Object continuation was justified merely because the PR is open.
-- **Building:** Hard Surface PR #5 now source-owns four exact utility-panel mount axes and their geometric common clearance capacity, while Building Procedural PR #4 already proves the same panel surface in two materially different receiver frames. The repeated manual handoff is therefore exact source-local mount-axis → receiver-world mount-axis transport, with capacity carried as evidence only.
+- **Weapon / Armor / Unit / Misc:** no implementation-backed repeated pattern justified inventing a generator.
+- **Character:** Geometry, Organic, Rigging, Animation, Materials, Technical Art, Runtime and Visual QA remain active and own the current deformation/target-host gaps.
+- **Animal:** active Geometry/Rigging/Materials/Animation/Runtime lanes already own its current representation and deformation questions.
+- **Building:** the prior Procedural mount-axis/receiver family is green; Hard Surface explicitly holds hardware/radius selection, so no cadence-driven extension was justified.
+- **Weather:** the bounded seeded field family is already established and its receiver compatibility was previously proven.
+- **Map:** Environment/VFX/Technical-Art/Runtime receiver work is active; Procedural did not enter current-world composition or adoption.
+- **Object:** the source-face/UV/atlas/index chain is mature and active downstream ownership remains with Materials/Hard Surface/Runtime/Technical Art.
+- **Nature:** VFX PR #11 now owns the same exact hierarchical half-sine response profile on two materially different source assets, with source-local response ceilings of `0.18 m` and `0.135 m`. Runtime PR #12 independently showed the compact-east 17-state sequence can be represented from neutral/peak plus a scalar half-sine weight, while explicitly holding producer adoption. The repeated deterministic neutral/peak parameterization was therefore the strongest fresh Procedural target.
 
 No new Procedural PR was opened.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-building-design`
+Repository: `mike-axiom-mir/axm-nature-design`
 
-Existing draft PR: **#4 — `Procedural: derive repeated pavilion box rows from exact source`**
+Existing draft PR: **#4 — `Procedural: rebind bounded branch-crown family to migrated Nature lineage`**
 
 Exact tested Procedural head:
 
-**`7551ea504a543d1b8ffed3803e459463bd293e2d`**
+**`33ae6bea96d7808c6d863ff881edaf94fd88c16e`**
 
 Observed PR state: **OPEN / DRAFT / MERGEABLE**.
 
 New bounded family:
 
-**`axm.building-utility-panel-mount-axis-receiver-capacity-family/v0.1`**
+**`axm.nature-half-sine-response-parameterization-family/v0.1`**
 
 Scoped result:
 
-**`PASS_BOUNDED_UTILITY_PANEL_MOUNT_AXIS_RECEIVER_CAPACITY_FAMILY`**
+**`PASS_BOUNDED_TWO_SOURCE_HALF_SINE_RESPONSE_PARAMETERIZATION_FAMILY`**
 
 Decision:
 
-**`PASS_DERIVED_WORLD_MOUNT_AXIS_CAPACITY_FAMILY_ONLY__NO_RESERVATION_FASTENER_TOOLING_OR_ADOPTION`**
+**`PASS_OWNER_VFX_STATE_PARAMETERIZATION_ONLY__NO_VFX_RUNTIME_OR_MAP_ADOPTION`**
 
 ## Why this deserves proceduralization
 
-Hard Surface PR #5 owns one exact source panel with four local Y/Z mount axes:
+VFX PR #11 exact head **`cef2ad78d8e36a55ada5dad07329f1a7125d48de`** already owns the response semantics, source-local amplitude envelopes and exact response states. Both retained sources use the same owner profile:
 
-`[-0.50,-0.70]`, `[0.50,-0.70]`, `[0.50,0.70]`, `[-0.50,0.70]` meters.
+**`HIERARCHICAL_TRUNK_BRANCH_LEAF_HALF_SINE_VISUAL_SWAY`**
 
-Its exact source contract proves a `1.10 × 1.50 m` interface footprint, minimum axis-pair distance `1.0 m`, minimum axis-to-footprint-boundary `0.05 m`, and therefore a **closed common geometric reservation tangency cap of `0.05 m`**, limited by the footprint edge. It explicitly does **not** select a usable reservation radius, fastener, tool envelope or retention method.
+with Weather semantics remaining exactly:
 
-Procedural PR #4 already owns two exact receiver frames for that same outer service surface. Transforming the identical four source mount axes into each receiver is a repeated deterministic operation with two materially different orientations. The smallest useful family therefore transports the owner-backed axes and geometric capacity through those exact frames rather than inventing holes, bolts, tooling or a generic mounting system.
+**`VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`**.
 
-## Exact provenance / ownership
+The repeated manual fact is not how to author wind or deformation. It is that an exact endpoint-inclusive owner sequence can be checked and represented as:
 
-Hard Surface remains source authority at exact PR #5 head **`2a5df5fa720ec939bf0e935f2cb8bc3d94049d89`**:
+`neutral + sin(pi * phase_index / 16) * (peak - neutral)`
 
-- capacity contract `assets/utility_panel_mount_axis_clearance_capacity_001.json` blob **`e8efe188156f4a0e09706d7d2a45b0723b1d3920`**;
-- panel source `assets/utility_access_panel_001.json` blob **`4da242e35a84b20a80f4acf28146be613624e734`**;
-- panel source SHA-256 **`df59fa135abc89f8c85317db1d6b9ce3d03920efc91271de61bfb6289a24c253`**.
+without fitting weights, changing source geometry, changing VFX amplitudes or taking Runtime adoption authority.
 
-The existing Procedural receiver-surface family is pinned at exact profile blob **`fdf9a1933e928959fe6477f83e2b017ea481249d`** and builder blob **`7d196565d3c97368fbe5e701fd1c93d223a73cff`**.
-
-A real two-parent integration commit **`94d64d1e11100a3551c1d7b0ccee10c8003fd8cf`** preserves prior Procedural head `0b1521548e5c6a55def1af3490bc5e4724ff1219` and exact Hard-Surface donor head `2a5df5fa720ec939bf0e935f2cb8bc3d94049d89`. Two later repair commits fixed evidence-harness defects without changing source authority or widening scope; final exact head is `7551ea504a543d1b8ffed3803e459463bd293e2d`.
+The smallest reusable implementation therefore parameterizes only exact owner-provided states and fails closed if the owner sequence does not satisfy that bounded relationship.
 
 ## Smallest reusable implementation
 
-Added inside existing Building Procedural PR #4:
+Added inside existing Nature Procedural PR #4:
 
-- `procedural/service_pavilion_utility_panel_mount_axis_receiver_capacity_001.json`;
-- `tools/build_pavilion_utility_panel_mount_axis_receiver_capacity.py`;
-- `tests/test_pavilion_utility_panel_mount_axis_receiver_capacity.py`;
-- `.github/workflows/procedural-building-utility-panel-mount-axis-receiver-capacity.yml`.
+- `src/axm_nature_design/response_parameter_family.py`;
+- `examples/procedural_half_sine_response_parameterization_family_001.json`;
+- `tools/build_procedural_half_sine_response_parameterization_family_evidence.py`;
+- `tests/test_response_parameter_family.py`;
+- `.github/workflows/procedural-half-sine-response-parameterization.yml`.
 
-The generator re-verifies the exact Hard-Surface capacity contract, preserves source mount-point order as identity, executes the existing service-surface receiver family, transforms each local Y/Z mount origin through the receiver primary/secondary axes, uses the receiver outward axis as the world mount-axis direction, proves rigid pair-distance preservation, proves source 180-degree axis-set symmetry, and canonicalizes output by receiver identity/source mount index.
+The generic Nature-local helper owns only deterministic neutral/peak reconstruction, exact topology/cardinality checks, residual measurement, canonical ordering and family identity. The evidence builder separately pins and executes the exact VFX owner head to produce the source states; the Procedural lane does not copy or re-author VFX deformation logic.
 
-## Materially different retained outputs
+## Multiple materially different outputs
 
-**Front utility bay** uses service-surface origin `[-2.45,-1.12,1.65]`, outward axis `[0,-1,0]`, and yields four world mount-axis origins from `[-2.95,-1.12,0.95]` through the opposite corner near `[-1.95,-1.12,2.35]`.
+The family validates **2 different source responses × 17 exact owner states = 34 exact states**.
 
-**East utility bay** uses service-surface origin `[3.92,0.10,1.65]`, outward axis `[1,0,0]`, and yields four world mount-axis origins from `[3.92,-0.40,0.95]` through the opposite corner near `[3.92,0.60,2.35]`.
+### Sapling west-A
 
-Across the family:
+- source study: `sapling-neutral-001`;
+- response ceiling: **`0.18 m`**;
+- owner peak displacement: **`0.18 m`**;
+- neutral mesh digest: **`47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`**;
+- peak mesh digest: **`6fd4d20c2229122d4c289c6b54eeb0703acba2c6ea1634a2eaf75ed6998ed2c4`**;
+- maximum neutral/peak reconstruction residual across all 17 exact states: **`2.2887833992611187e-16 m`**.
 
-- source mount axes: **4**;
-- receiver frames: **2**;
-- transformed world axes: **8**;
-- distinct world origins: **8**;
-- distinct receiver axis-set identities: **2**;
-- receiver outward-axis dot product: **`0.0`**;
-- maximum rigid pair-distance residual: **`2.220446049250313e-16 m`**;
-- maximum source-capacity recompute residual: **`4.163336342344337e-17 m`**;
-- both receivers preserve the source 180-degree mount-axis set;
-- canonical family digest is order-invariant at **`d30fc69ec30b7f8e8d8a377fc4d51e39f5bf2c8e1811499c149a65c1cee0cbb5`**.
+### Compact east-B
 
-The geometric cap remains **`0.05 m` evidence only**. `reservation_radius_selected=false`, `selected_radius_m=null`, `fastener_geometry_selected=false`, and `tooling_envelope_selected=false`.
+- source study: `compact-east-tree-neutral-001`;
+- response ceiling: **`0.135 m`**;
+- owner peak displacement: **`0.135 m`**;
+- neutral mesh digest: **`420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`**;
+- peak mesh digest: **`c2b121c6dcd8d32c5540d4105e85a704f38b72bf4b869cacb3632268360f97b6`**;
+- maximum neutral/peak reconstruction residual across all 17 exact states: **`1.2412670766236366e-16 m`**.
 
-## Failure bounds and repairs
+Across the family, source identities, neutral mesh identities, peak mesh identities and response ceilings are all distinct. The maximum observed reconstruction residual is **`2.2887833992611187e-16 m`**, far below the bounded `1e-12 m` gate.
 
-Eight controls fail closed: Hard-Surface donor-head drift, capacity-contract blob drift, panel-source blob drift, duplicate receiver identity, any Procedural radius-selection attempt, source-capacity drift, source mount-axis drift, and receiver-frame axis drift.
+Canonical family digest:
 
-CI caught two real harness defects and both were repaired rather than hidden. First, the new builder assumed the existing service-surface builder returned a dict; the existing contract actually returns `(summary, source_receipt, placement_summary)`, so the consumer was corrected to unpack that tuple. Second, the new ordinary unit test attempted exact donor Git-object lookup inside inherited workflows that deliberately use shallow checkouts; exact donor-history proof was moved back to the dedicated full-history workflow/builder boundary, while the unit test now validates the declared pins deterministically. Exact donor/blob lookup remains fail-closed in the dedicated evidence lane.
+**`4c82bd90f0ed44782b412dca0c0dec887c3f042fac5f72235d9a95fd9bd08703`**
+
+Reversing the input case order reproduces the exact same family digest, so output identity is not dependent on iteration order.
+
+## Failure bounds and repair history
+
+Six controls fail closed:
+
+1. exact VFX provider-head drift;
+2. duplicate source/case identity;
+3. 17-state phase cardinality drift;
+4. a deliberate `0.0001 m` non-half-sine phase mutation;
+5. promotion of Weather semantics to `PHYSICAL_WIND_SPEED`;
+6. enabling automatic Runtime adoption.
+
+The first exact-head workflow attempt exposed a real evidence-harness defect: the sapling dense-phase owner summary stores displacement per sample rather than under the compact-east summary's `peak_max_displacement_m` key. The builder was repaired to accept the two truthful owner summary shapes and derive the sapling peak from its exact owner samples instead of forcing one schema or weakening the gate. The failed run remains in workflow history.
 
 ## Exact CI / retained evidence
 
-Exact-head workflow **`35237515132 — Procedural Building utility-panel mount-axis receiver capacity family evidence` completed SUCCESS** on Python 3.11 and 3.13. The Python 3.11 lane ran the complete receiving repository suite: **132 tests, all passing**, then built and truth-gated the family.
+Dedicated exact-head workflow:
 
-All **17 workflows** triggered on exact head `7551ea504a543d1b8ffed3803e459463bd293e2d` completed **SUCCESS**, including inherited Geometry, Hard-Surface and Procedural evidence lanes.
+**`35239651169 — Procedural Nature half-sine response parameter family` — SUCCESS**.
+
+- Python 3.11: compile + full receiving repository tests + exact VFX owner builds + family truth gate + artifact upload: PASS;
+- Python 3.13: compile + full receiving repository tests: PASS;
+- full receiving repository suite in the dedicated lane: **41 tests, all passing**;
+- all **6 workflows** triggered on exact head `33ae6bea96d7808c6d863ff881edaf94fd88c16e` completed **SUCCESS**, including the inherited Nature Organic, Geometry migration and established Procedural workflow.
 
 Retained artifact:
 
-- ID **`10504110706`**;
-- name `service-pavilion-utility-panel-mount-axis-receiver-capacity-001-7551ea504a543d1b8ffed3803e459463bd293e2d`;
-- uploaded size **8,194 B**;
-- SHA-256 **`da9d83c6b4ade28cc9f234dc812a91fe5045a6427dd17508dfc31a0d20b94f99`**;
+- ID **`10503943813`**;
+- name `nature-half-sine-response-parameterization-family-001-33ae6bea96d7808c6d863ff881edaf94fd88c16e`;
+- uploaded size **9,309 B**;
+- SHA-256 **`1e84ddf809b94d2199612bb9175f94936160748e5defd4e2f46f2be0c6eeff1b`**;
 - independently downloaded and rehashed to the exact same SHA-256;
-- archive contains **8 files**, including exact-head/source-head markers, exact owner contract/source, family profile, both receiver outputs and summary.
+- archive contains **6 files**: two per-case receipts, family contract, summary, exact Procedural head and exact VFX provider head.
+
+## Ownership / non-overlap
+
+VFX keeps response profile, source-local envelopes, source state generation and Weather visual-only semantics. Runtime keeps representation/performance/adoption authority; the existing compact-east single-blend-shape evidence is not silently generalized into a runtime mandate. Animation keeps playback/timing. Environment/Map keeps current-world receiving integration. Art Direction / Visual QA keep motion naturalness and final appearance. Procedural owns only the bounded deterministic parameterization/checking family.
 
 ## Explicit non-claims
 
-This PASS does **not** select a mount/hole/reservation radius, choose bolt/screw/pin geometry, establish tooling clearance, retention, tolerance or manufacturing validity, change source or receiver geometry, authorize Map/current-world adoption, prove collision/navigation/gameplay/runtime behavior, establish visual acceptance, promote UC/Profession Fabric, establish CANON, production/game readiness or Procedural Design mastery.
+This PASS does **not** establish universal vegetation morphability, a universal blend-shape rule, physical wind, plant biomechanics, automatic retargeting to arbitrary Nature sources, continuous playback or wall-clock smoothness, final material/leaf-sidedness quality, Map/current-world acceptance, Runtime adoption, target-device CPU/GPU/FPS/VRAM/thermal fitness, gameplay/collision behavior, UC/Profession Fabric promotion, CANON, production/game readiness or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** exact source authority and receiver prerequisites are pinned; multiple materially different receiver outputs, eight controls, 132 tests, all 17 exact-head workflows and independently rehashed retained evidence support the scoped claim; two harness defects are recorded rather than erased.
-- **Agency / non-domination:** Procedural transports source-owned facts but does not choose hardware, radii, tooling, receiver adoption or downstream semantics.
-- **Continuity:** existing Building Procedural PR #4 was advanced in place with a real donor-parent merge; prior Procedural families remain intact and the previous status is preserved in Git history.
-- **Wisdom before speed:** only the repeated exact mount-axis transport was automated. No generic fastening system, manufacturing claim or cross-domain primitive was invented.
-
-## Prior retained Procedural chain
-
-Earlier Object, Nature, Weather and Building Procedural evidence remains intact in their existing PRs. This status compresses prior branches; it does not replace retained evidence or roots.
+- **Truth:** exact owner VFX states are regenerated from the pinned owner head; two materially different source envelopes are measured independently; the failed first harness run is preserved; no runtime or physical claim is inferred.
+- **Agency / non-domination:** Procedural does not seize VFX source-motion semantics, Weather meaning, Animation playback, Runtime representation/adoption, Environment placement or Art/QA acceptance.
+- **Continuity:** the existing Nature Procedural PR #4 is advanced in place; the previous Building status blob is pinned above; prior Nature branch/crown, leaf-backface, leaf-flutter and Map-receiver procedural evidence remains intact.
+- **Wisdom before speed:** the family requires exact owner evidence on more than one materially different source before treating the repeated relationship as reusable, and it fails rather than fitting around an owner mismatch.
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. Extend only when a fresh owner-backed repeated manual pattern exists and Procedural can remove repetition without taking source, material, environment, runtime or visual authority.
+Re-scan the full constellation first. Extend only when a new owner-backed repeated pattern appears. Do not automatically turn this two-source relationship into a generic vegetation/runtime primitive; a third owner-proven source or a concrete downstream request would be a stronger trigger than cadence alone.
