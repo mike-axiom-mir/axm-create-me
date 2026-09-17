@@ -2,7 +2,7 @@
 
 Date: 2026-09-17
 
-State: **PASS_ART_DIRECTION_CHARACTER_REVIEW006_TARGET_HOST_DIRECTION_FRAME_REFERENCE_029 / HOLD_FINAL_CHARACTER_SHADED_MOTION_QUALITY__CURRENT_TARGET_SHADED_RERUN_TANGENT_AND_INDEPENDENT_QA_PENDING / COORDINATION_ONLY**
+State: **PASS_ART_DIRECTION_CHARACTER_REVIEW006_CURRENT_TARGET_ORDINARY_SHADED_RETAINED_KEY_BASELINE_030 / HOLD_FINAL_CHARACTER_SHADED_MOTION_VISUAL_ACCEPTANCE__CONTINUOUS_PLAYBACK_FULL_BODY_TANGENT_SPACE_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
@@ -10,25 +10,25 @@ Re-read:
 
 - `studio/3D_STUDIO_CAMPAIGN.md`;
 - `studio/specialists/01_3d_art_director.md`;
-- prior Art Direction status and Direction 028;
-- newest coordination status from Materials, Technical Art and Visual Observer / QA;
-- current open PR state across the full design constellation;
-- fresh retained Character target-host normal-buffer evidence.
+- prior Art Direction status / Direction 029;
+- fresh Materials, Animation, Technical Art and Visual Observer / QA coordination state;
+- current open PR/evidence state across the full design constellation;
+- the exact Character current-target ordinary-shaded artifact requested by Direction 029.
 
-`axm-create-me` remains **coordination only**. No product build was performed in this repository.
+`axm-create-me` remains **coordination only**. No product source, mesh, rig, animation, material implementation, Runtime implementation or Universal Creation product code was changed here.
 
-The four AXM roots remain the internal merge gate:
+The four AXM roots remain the merge gate:
 
 1. **Truth**;
 2. **Agency / non-domination**;
 3. **Continuity**;
 4. **Wisdom before speed**.
 
-The immediately preceding Art status remains historical truth at blob:
+The preceding Art state remains historical truth at blob:
 
-`39d2ed83347c2c795175b923bb509c3ffc01bc31`
+`9263484e316d6903337fbb28d4fff2f6cd8d4b16`
 
-It established Direction 028: neutral shaded review must use the exact host-equivalent receiver comparator before deformed Character shading can be interpreted.
+It established Direction 029: the actual imported target-host direction frame replaces pose-recomputed/frozen heuristic references as the current Character visual reference, and the next required Art evidence was ordinary shaded motion on that real target.
 
 ## Fresh constellation / duplication scan
 
@@ -44,38 +44,41 @@ The full current design constellation was scanned before selecting work:
 - `axm-weather-design`;
 - `axm-map-design`;
 - `axm-object-design`;
-- `axm-misc-design`.
+- `axm-misc-design`;
+- `axm-universal-creation` and `axm-profession-fabric` were treated only as downstream/shared-system context.
 
-No new Art implementation lane was opened in a product repository.
+No product implementation lane was opened by Art Direction.
 
-The strongest fresh non-duplicated Art gate is Character because the exact blocker left by Direction 028 now has a direct receiver-level answer:
+The strongest fresh non-duplicated Art gate is Character because the exact visual dependency left by Direction 029 is now complete enough to judge:
 
-- Character Materials PR #18 exact head `9978794604d31aff1f326a6a0dedd2d81dccf31f` completed the required host-equivalent current-motion rerun. Neutral closes, but the deformed shaded result is mixed `3/6` pose-recomputed versus `3/6` frozen-neutral and is correctly held rather than retuned.
-- Independent Visual QA reproduced that mixed result and explicitly blocked deformed direction-frame correctness until the imported/skinned target normal transform could be observed directly.
-- Character Technical Art PR #21 exact current head `36744749a592e067a119f3349a499d65f25af134` is open/draft/mergeable and now supplies that direct target-host normal-buffer observation without changing source, Rigging, Animation, Materials, Runtime or UC.
-- Character Rigging PR #17, Animation PR #22 and Runtime PRs remain separate owner lanes; Art does not duplicate deformation, playback or optimization work.
+- Character Materials PR #18 exact head `57da8ac7456c4b90bd79efa9292c969a4ecb01ac` renders the actual imported target under the frozen ordinary review material at `-30 / 0 / +30°` from front / three-quarter / grazing views;
+- independent Visual Observer / QA has separately downloaded/rehashed and passed retained-key visual noncorruption and visible deformation motion while preserving final playback/full-body/tangent/device holds;
+- Character Technical Art has since advanced separately to exact head `a8e2759e72e15a63e50f2cddecf1b407bbfd4224` with exact accessor-sharing storage/transport evidence, but explicitly has no rendered-frame acceptance transfer for that newer GLB;
+- Character Animation remains owner of between-key playback; Art does not duplicate that lane;
+- Animal's current Runtime weight-compaction trade is only `224` changed pixels total at maximum `1 LSB` and remains behind separate tangent/direction-frame work;
+- Nature's optional attribute-compression receiver changes `416` silhouette-edge pixels and saves proof-host renderer buffer at a measurable CPU cost, while final shaded leaf/material/current-world evidence remains held;
+- Building's fresh work is predominantly source/receiver/runtime ownership rather than a newly completed visual comparison;
+- no current evidence justifies reopening Object, Map, Weather, Weapon, Armor, Unit or Misc visual decisions merely by cadence.
 
-Other current work remains narrower or owner-gated and did not displace this finished visual dependency. Animal has active tangent/direction-frame and import-budget work, including a small `224`-pixel / max-`1`-LSB weight-compaction trade still pending Art/QA. Building remains mainly in source-normal/receiver/runtime follow-through. Nature is active in VFX/resource-lifecycle and leaf-sidedness follow-through. Object remains in its own UV/material/runtime chain. No evidence justified reopening those settled Art questions merely by cadence.
+The selected action is therefore to close the exact retained-key Character lookdev gate that Direction 029 requested, while refusing to over-transfer it to continuous motion, full body, tangents or the newer optimized GLB.
 
 ## Selected bounded improvement
 
-**Replace the insufficient pose-recomputed-vs-frozen visual target with the actual target-host direction-frame reference for Character review-006.**
-
 New direction packet:
 
-`studio/direction/CHARACTER_REVIEW006_TARGET_HOST_DIRECTION_FRAME_REFERENCE_DIRECTION_029.md`
+`studio/direction/CHARACTER_REVIEW006_CURRENT_TARGET_SHADED_BASELINE_DIRECTION_030.md`
 
 Direction packet creation commit:
 
-`73d559f0afa7a3b7c2f79beba4b69bdf056afe5a`
+`4a08b05312cca4f90fb946208a2767fff2a21b2c`
 
 Decision:
 
-**`PASS_ART_DIRECTION_CHARACTER_REVIEW006_TARGET_HOST_DIRECTION_FRAME_REFERENCE_029`**
+**`PASS_ART_DIRECTION_CHARACTER_REVIEW006_CURRENT_TARGET_ORDINARY_SHADED_RETAINED_KEY_BASELINE_030`**
 
 Companion hold:
 
-**`HOLD_FINAL_CHARACTER_SHADED_MOTION_QUALITY__CURRENT_TARGET_SHADED_RERUN_TANGENT_AND_INDEPENDENT_QA_PENDING`**
+**`HOLD_FINAL_CHARACTER_SHADED_MOTION_VISUAL_ACCEPTANCE__CONTINUOUS_PLAYBACK_FULL_BODY_TANGENT_SPACE_TARGET_DEVICE_PENDING`**
 
 ## Exact evidence consumed
 
@@ -83,173 +86,174 @@ Repository:
 
 `mike-axiom-mir/axm-character-design`
 
-Technical Art PR #21 exact head:
+Materials PR #18 exact tested head:
 
-`36744749a592e067a119f3349a499d65f25af134`
+`57da8ac7456c4b90bd79efa9292c969a4ecb01ac`
 
-Observed PR metadata:
+PR observed as:
 
 - open;
 - draft;
-- mergeable = true.
+- unmerged;
+- GitHub reports `mergeable = false`.
 
 Dedicated workflow:
 
-`35230401157 — Technical Art Character review006 target-engine direction-frame hypothesis evidence` — **SUCCESS**.
+`35233264441 — Materials Character review006 current target shaded motion reference evidence` — **SUCCESS**.
 
 Retained artifact:
 
-- ID `10500419469`;
-- size `1,738,515 B`;
-- `83` files;
-- archive SHA-256 `2c8741ceb1e7bdb0866ad3505dc1ec37ea26f59c420980f480a4a48011e7374a`;
-- Art Direction downloaded the exact artifact and directly inspected the retained target/reference images.
+- ID `10501109872`;
+- size `1,991,116 B`;
+- `104` files;
+- GitHub/owner SHA-256 `4b00ca11620bbef02a147fbd7c5e2b17bf6cae010f0dc2c1634cb6ff9b5f27ac`;
+- Art Direction independently downloaded and rehashed the ZIP to the same exact digest.
 
-Pinned target/receiver:
+Pinned target GLB:
 
-- target GLB `44,032 B`;
-- target GLB SHA-256 `76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`;
+- `44,032 B`;
+- SHA-256 `76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`.
+
+Renderer / review setup:
+
 - Godot `4.7.2-stable`;
 - GL Compatibility;
-- retained proof host llvmpipe;
-- frame size `900 x 700`.
-
-Retained comparisons:
-
-- `-30° / 0° / +30°`;
-- front / three-quarter / grazing;
-- actual imported target normal buffer;
-- Rigging linear-gradient reference `normalize(D*n0)`;
-- Rigging inverse-transpose reference;
-- Materials pose-recomputed smooth-normal reference;
-- frozen-neutral reference;
-- inverted-linear sensitivity negative;
-- position controls.
-
-## Exact receiver result
-
-Across all six deformed contexts:
-
-- linear-gradient is the nearest retained hypothesis in `6 / 6`;
-- `linear_mean < inverse_mean` in `6 / 6`;
-- maximum target -> linear mean absolute normalized RGB-channel delta is `2.31602102402468e-05`;
-- minimum separation between linear and the best non-Rigging control is `405.938233730633x`;
-- position controls remain clean;
-- the inverted-linear negative remains strongly visible in every deformed context.
-
-Per retained deformed context:
-
-| pose / view | target -> linear | target -> inverse | target -> pose-recomputed | target -> frozen |
-|---|---:|---:|---:|---:|
-| `-30°` front | `1.77790792853132e-05` | `1.79418168470398e-05` | `0.00815929651335917` | `0.00721720804243691` |
-| `-30°` three-quarter | `1.74285707989614e-05` | `1.81761774009966e-05` | `0.00932367796293682` | `0.0117748920057081` |
-| `-30°` grazing | `1.06055428266598e-05` | `1.15833591938386e-05` | `0.00566162981824171` | `0.01536810826007` |
-| `+30°` front | `1.69455811436905e-05` | `1.79777995711784e-05` | `0.00942569946269744` | `0.00813686062534243` |
-| `+30°` three-quarter | `2.31602102402468e-05` | `2.58200665889361e-05` | `0.0124715138152645` | `0.0128324758077639` |
-| `+30°` grazing | `7.39633165244429e-06` | `1.16548255026968e-05` | `0.0155365542179419` | `0.0213309074899411` |
-
-Neutral remains intentionally unresolved between the four owner hypotheses because they coincide at zero deformation.
-
-The exact Technical Art source hypotheses linear-gradient versus inverse-transpose differ by only about `0.0003187` maximum normal component at the retained deformed samples. Under this normal-as-color diagnostic that separation is below one 8-bit display LSB. This activation therefore does **not** use the six-of-six signed ordering to claim a renderer implementation law.
+- X11 / Mesa llvmpipe proof host;
+- `900 x 700` retained frames;
+- neutral review material: albedo `[0.56, 0.43, 0.36]`, metallic `0.0`, roughness `0.62`;
+- samples: `-30° / 0° / +30°` at `0.5 / 1.0 / 1.5 s`;
+- contexts: front / three-quarter / grazing;
+- exact Technical-Art target-normal diagnostic pack retained beside the ordinary-shaded renders.
 
 ## Direct visual observation
 
-Art Direction directly inspected the exact retained normal-buffer frames and a six-context comparison board built from the downloaded artifact.
+Art Direction directly inspected all nine exact ordinary-shaded target frames plus the corresponding unshaded controls.
 
-Observed at ordinary review scale:
+Observed within the bounded shoulder-chain receiver:
 
-- imported target and the two Rigging-derived references read visually coincident across the retained deformed contexts;
-- pose-recomputed and frozen-neutral controls produce visibly larger direction/color differences over the deforming shoulder/upper-arm region;
-- there is no useful aesthetic basis in these images for choosing linear-gradient over inverse-transpose as a technical implementation rule;
-- the evidence is nevertheless more than sufficient to stop treating pose-recomputed and frozen-neutral as competing desired visual targets for this exact imported receiver.
+- shoulder/upper-arm mass remains attached and readable at all three retained keys;
+- no gross hole, detached mass, broad silhouette loss, whole-surface shading-frame inversion or camera-specific disappearance is visible in the retained set;
+- the ordinary shading remains attached to the deformed receiver rather than reading as a stale/global neutral field;
+- `-30°`, neutral and `+30°` are visibly distinct in front, three-quarter and grazing contexts;
+- `+30°` front / three-quarter produces the strongest folded/compressed shoulder read, but no visible catastrophic pinch/opening is present in this low-detail receiver;
+- this receiver is too bounded to support a full-body/final-character quality claim.
 
-The normal-as-color proof remains diagnostic rather than final skin shading.
+Exact Materials/QA motion-versus-neutral observability remains:
+
+| pose / view | changed px >1 LSB / masked | mean normalized RGB delta |
+|---|---:|---:|
+| `-30°` front | `19,353 / 37,892` | `0.1586601511` |
+| `-30°` three-quarter | `17,735 / 33,567` | `0.1577545362` |
+| `-30°` grazing | `8,927 / 19,614` | `0.1296550911` |
+| `+30°` front | `43,320 / 47,398` | `0.2064975893` |
+| `+30°` three-quarter | `37,810 / 41,918` | `0.1968237437` |
+| `+30°` grazing | `22,075 / 23,650` | `0.1706307432` |
+
+Those values demonstrate visible change under the retained proof setup; they are **not** universal aesthetic thresholds.
+
+Independent Visual Observer / QA currently returns:
+
+- `PASS_CHARACTER_REVIEW006_CURRENT_TARGET_ORDINARY_SHADED_RETAINED_VISUAL_NONCORRUPTION`;
+- `PASS_CHARACTER_REVIEW006_CURRENT_TARGET_DEFORMED_MOTION_VISIBILITY_AT_RETAINED_KEYS`;
+- `BLOCKED_FINAL_CHARACTER_REVIEW006_SHADED_MOTION_VISUAL_ACCEPTANCE__CONTINUOUS_PLAYBACK_FULL_BODY_TANGENT_SPACE_TARGET_DEVICE_ART_PENDING`.
+
+Direction 030 supplies the missing bounded Art part for the retained-key baseline while preserving the remaining final hold.
 
 ## Art Direction interpretation
 
-Direction 028 remains correct: the review frame had to be repaired before deformed shading could be interpreted.
+The exact imported target ordinary-shaded response is now the **current bounded Character shoulder-chain visual baseline at the retained keys/cameras**.
 
-The Materials `3/6` versus `3/6` split also remains truthful for its exact two heuristic references. It is not deleted or relabelled as a failure of Materials.
+Freeze for this baseline:
 
-Fresh direct receiver evidence changes the next visual-review contract:
+- actual imported target-host frame;
+- exact target GLB identity above;
+- review material `[0.56, 0.43, 0.36] / 0.0 / 0.62`;
+- retained lights and cameras;
+- retained `-30 / 0 / +30°` key set.
 
-- the **actual imported target-host direction frame** is now the visual reference for Character review-006;
-- Rigging's linear-gradient reference is accepted only as the closest retained diagnostic proxy for this target result;
-- pose-recomputed and frozen-neutral remain history/diagnostic controls, not desired target looks;
-- Art does not authorize material/light/source/rig retuning merely to make screenshots resemble either old control;
-- Art does not choose the renderer's mathematical normal transform from sub-LSB evidence.
+Do **not** retune material, lights, cameras, source form, Geometry, Rigging or Animation merely to imitate the old pose-recomputed/frozen diagnostic controls. Those controls remain historical diagnostics, not desired looks.
 
-This is a review-reference improvement, not a product implementation rewrite.
+The next Character visual gain should come from context rather than another bounded shoulder-chain look mutation:
 
-## Preserved direction / next evidence
+1. continuous shaded playback on the exact current visual state when a receiving proof exists;
+2. body-context/full-body evidence without changing the already-tested shoulder state;
+3. exact tangent/tangent-space transport evidence before production normal-map claims;
+4. target-device Runtime evidence separately;
+5. independent QA on any new receiver.
 
-The next Character visual gate is ordinary shaded motion on the **real imported target** with current state frozen:
+No review-007 is requested by this result.
 
-1. preserve exact source form, selected Geometry, Rigging, Animation, Technical-Art transport, material scalars, cameras and lights;
-2. render the current target through the retained motion under ordinary shaded review, not normal-as-color only;
-3. keep the target normal-buffer proof beside that render as provenance;
-4. keep pose-recomputed / frozen-neutral / inverted controls only as diagnostics;
-5. add useful body-context/full-body views if the exact receiver can do so without changing the tested state;
-6. send the exact result through independent Visual QA;
-7. keep tangent/tangent-space correctness separately held until exact evidence exists.
+## Newer optimized-GLB boundary — no silent PASS transfer
 
-Do not generate review-007 or retune Character merely because the previous heuristic controls disagreed.
+Character Technical Art PR #21 has advanced after the Materials pack to exact head:
+
+`a8e2759e72e15a63e50f2cddecf1b407bbfd4224`
+
+It adopts Runtime's exact bilateral release-scale accessor sharing:
+
+- control GLB: `44,032 B`, SHA `76acbfca...`;
+- candidate GLB: `40,064 B`, SHA `2786a055...`;
+- saving: `3,968 B / 9.011627906976743%`;
+- current UC position and skin-palette equality across all `321` source samples: exact;
+- real Godot imported mesh/animation/skeleton semantic comparisons: exact under its retained probes.
+
+That is strong Technical-Art/transport evidence, **not rendered-frame evidence**. Direction 030 remains bound to the exact 44,032-byte target that was actually rendered. The 40,064-byte candidate must receive an exact frozen-baseline render A/B before inheriting Art visual acceptance if adoption reaches that boundary.
 
 ## Handoffs
 
 ### Character Materials / LookDev PR #18
 
-Preserve the exact host-equivalent `3/6` / `3/6` result as historical evidence. Do not use that split as a reason to retune material scalars. The next shaded comparison should use the actual imported target-host frame as the receiving reference.
-
-### Character Technical Art / UC Integration PR #21
-
-Art accepts the exact retained target-normal observer as the current visual reference for these samples/views. Keep linear-vs-inverse implementation identity held; no universal Godot or UC rule follows.
-
-### Character Rigging / Deformation PR #17
-
-No rig, weighting, safe-envelope or gradient-oracle change requested. The oracle's receiver correspondence does not transfer anatomy, Animation range or production-normal authority.
+Freeze the current review material/lights/cameras for this bounded target. No skin/look retune is requested. Resume only after a concrete Art/QA-owned surface defect or exact tangent-space evidence creates a Materials-owned question.
 
 ### Character Animation / Motion PR #22
 
-Continue playback/interpolation evidence independently. Playback PASS cannot inherit final shaded-motion quality. When motion is reviewed visually, use the real target-host direction frame rather than the old pose/frozen heuristic vote.
+Between-key/playback mechanics remain Animation-owned. A future shaded playback review should use the Direction-030 visual baseline unchanged so Art can judge temporal motion rather than a simultaneous look mutation. Retained-key PASS does not imply continuous shaded-motion PASS.
+
+### Character Technical Art / UC Integration PR #21
+
+Keep tangent/tangent-space held. The newer 40,064-byte accessor-sharing candidate does not inherit Direction 030's visual PASS without a rendered frozen-baseline comparison.
+
+### Character Runtime / Optimization PR #23
+
+No target-device/performance or visual acceptance transfers. If the optimized representation is proposed for adoption, provide the exact rendered A/B instead of relying only on position/palette equality.
 
 ### Visual Observer / QA
 
-Independently reproduce the exact Technical Art target-normal result before Direction 029 becomes jointly verified. Preserve the sub-LSB linear-versus-inverse boundary and do not convert `6/6` ordering into an implementation claim.
+The current independent retained-key PASS is accepted as corroboration. Preserve the final hold until continuous shaded playback, body context/full body, tangent-space and target-device evidence exist.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a universal Godot skin-normal rule;
-- that Godot internally implements `D*n0`;
-- exact linear-gradient versus inverse-transpose implementation identity;
-- production tangents or tangent-space normal-map correctness;
-- final skin/material quality;
-- full-body shaded-motion quality;
-- arbitrary-pose/camera correctness;
-- target-device Runtime/controller/performance acceptance;
+- full-body Character quality;
+- continuous between-key shaded-motion quality;
+- arbitrary-pose or arbitrary-camera correctness;
 - anatomy/biological correctness;
+- production normals/tangents or tangent-space normal-map correctness;
+- final skin/material/UV/texture quality;
+- target-device CPU/GPU/FPS/VRAM/thermal acceptance;
+- rendered-frame equivalence of the newer 40,064-byte exact-accessor-sharing GLB;
 - source adoption;
 - CANON;
 - production/game readiness;
 - Character mastery;
-- Technical Art mastery;
-- Rigging mastery;
 - Materials mastery;
+- Rigging mastery;
 - Animation mastery;
+- Technical Art mastery;
+- Runtime mastery;
 - Visual QA mastery;
 - 3D Art Direction mastery.
 
-A single receiver resolving one visual-review ambiguity is a bounded success, not mastery.
+One coherent bounded receiver at three retained keys is useful evidence, not mastery.
 
-## Four-root check
+## Four-root gate
 
-- **Truth:** the old mixed Materials result remains preserved; the new result is tied to exact PR head, exact target GLB, exact workflow/artifact and direct retained frames; sub-LSB ambiguity is not rounded into certainty.
-- **Agency / non-domination:** Art changes only the visual review reference. Technical Art keeps receiver/transport ownership; Rigging keeps deformation; Materials keeps surfacing; Animation keeps motion; Runtime keeps performance; QA keeps independent verification.
-- **Continuity:** Directions 026–028 remain historical truth. Direction 029 advances only the target-reference contract that the new evidence directly supports.
-- **Wisdom before speed:** no source, rig, material or UC rewrite is authorized when direct receiver observation already resolves the immediate visual-review ambiguity.
+- **Truth:** exact head/artifact/GLB identities, direct visual observations and independent QA are recorded separately; numeric observability is not mislabeled taste; the newer optimized GLB receives no unrendered Art PASS transfer.
+- **Agency / non-domination:** Art owns only the visual baseline. Materials, Animation, Technical Art, Runtime, QA and domain/source owners retain their respective authority.
+- **Continuity:** Directions 026–029 and their historical heuristic evidence remain valid for what they actually tested. Direction 030 closes only the ordinary-shaded retained-key gate Direction 029 requested.
+- **Wisdom before speed:** freeze the working shoulder-chain baseline and move outward to continuous/body-context evidence instead of generating another source/material/rig mutation without a demonstrated defect.
 
 ## Current state
 
-`PASS_ART_DIRECTION_CHARACTER_REVIEW006_TARGET_HOST_DIRECTION_FRAME_REFERENCE_029 / TA_PR21_36744749_DIRECT_TARGET_NORMAL_OBSERVER / WORKFLOW_35230401157_SUCCESS / ARTIFACT_10500419469_SHA_2C8741CE_1738515B_83_FILES / TARGET_GLB_SHA_76ACBFCA_44032B / LINEAR_NEAREST_6_OF_6 / MAX_TARGET_LINEAR_MEAN_2.316021E-05 / MIN_NONRIG_SEPARATION_405.938X / LINEAR_VS_INVERSE_SUB_LSB_IMPLEMENTATION_HOLD / OLD_MATERIALS_3_OF_6_3_OF_6_PRESERVED / HOLD_FINAL_CHARACTER_SHADED_MOTION_QUALITY__CURRENT_TARGET_SHADED_RERUN_TANGENT_AND_INDEPENDENT_QA_PENDING / NO_CANON_NO_PRODUCTION_NO_MASTERY / COORDINATION_ONLY`
+`PASS_ART_DIRECTION_CHARACTER_REVIEW006_CURRENT_TARGET_ORDINARY_SHADED_RETAINED_KEY_BASELINE_030 / MATERIALS_PR18_57DA8AC7 / WORKFLOW_35233264441_SUCCESS / ARTIFACT_10501109872_SHA_4B00CA11_1991116B_104_FILES / TARGET_GLB_44032B_SHA_76ACBFCA / EXACT_-30_0_+30_FRONT_3Q_GRAZING / QA_RETAINED_KEY_NONCORRUPTION_AND_MOTION_PASS / TA_NEW_ACCESSOR_CANDIDATE_A8E2759E_VISUAL_PASS_NOT_TRANSFERRED / HOLD_CONTINUOUS_PLAYBACK_FULL_BODY_TANGENT_SPACE_TARGET_DEVICE / NO_CANON_NO_PRODUCTION_NO_MASTERY / COORDINATION_ONLY`
