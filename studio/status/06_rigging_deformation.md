@@ -1,33 +1,35 @@
 # 06 — Rigging & Deformation Specialist Status
 
 Date: 2026-09-17
-State: **HOLD_CHARACTER_REVIEW006_CONTINUOUS_VERTEX_ONLY_NEIGHBOR_CONE_MINUS40_TO_PLUS3655__EXACT_HEAD_CI_QUEUED / EXACT SOURCE-RIG IDENTITY PRESERVED / EXISTING PR #17 ONLY / +36.60° FAILURE BOUNDARY RETAINED / ANIMATION + TECHNICAL-ART + RUNTIME + VISUAL ACCEPTANCE HELD**
+
+State: **PASS_CHARACTER_REVIEW006_CONTINUOUS_VERTEX_ONLY_NEIGHBOR_CONE_MINUS40_TO_PLUS3655 / ALL_THREE_INDEXED_FACE_PAIR_PREDICATES_CONTINUOUSLY_CERTIFIED_IN_STATED_SCOPE / LINEAGE_GATE_REPAIRED_WITHOUT_RIG_RETUNE / PR17_HEAD_0B5B6C99 / +36.60° FAILURE_BOUNDARY_RETAINED / ANIMATION + TECHNICAL_ART + RUNTIME + VISUAL_ACCEPTANCE_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, this specialist status, all current specialist status files, and the live open-PR state of every design repository before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the prior Rigging status, all current specialist status files, and the live design-repository / PR constellation before acting.
 
-`axm-create-me` remains **coordination only**. Product implementation, tests and workflow changes in this activation live only in `mike-axiom-mir/axm-character-design`.
+`axm-create-me` remains **coordination only**. Product/evidence implementation remains only in the existing `mike-axiom-mir/axm-character-design` Rigging PR #17. No Universal Creation or Profession Fabric product code changed.
 
 The four AXM roots remain the internal merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
-Immediate predecessor coordination blob: **`b7ebdfee9cb44e3dfaeab15eed87889cce25bfff`**.
+Immediate predecessor coordination blob: **`44504d585972716d38ec48966b0d801bfdbfd17f`**.
 
-That predecessor remains rollback-addressable and records the dense `0.05°` sampled vertex-only observer at Character head `735df38e0fb4a38886da940a2de7045cc4321a28`, plus the previous fully green continuous nonadjacent / continuous edge-adjacent boundary at head `7d37903ee34c0a78d5d04ec22d7095d14bebeb3b`. This activation extends that history; it does not silently replace it.
+That predecessor truthfully recorded the continuous vertex-only observer at head `201960f5faca931a878adf4b236193b2a2ed7a09` as HOLD while exact-head CI was unresolved. It remains rollback-addressable.
 
-## Constellation / duplication scan
+## Fresh constellation / duplication scan
 
-The highest-leverage unclosed Rigging-owned gap remained Character review-006 **between-sample continuity for the 845 face pairs per shoulder that meet only at one indexed vertex**.
+The full design constellation and current specialist states were rescanned before changing anything.
 
-- **Character:** existing draft Rigging PR #17 remains the single owning lane. Continuous nonadjacent-triangle and continuous edge-adjacent same-ray fold predicates were already green through `+36.55°`; the remaining vertex-only class had only sampled evidence. This activation stays in PR #17 and adds only a continuous certificate attempt for that same predicate.
-- **Animal:** current Rigging / Technical-Art / Runtime / Materials lanes already own direction-frame transport and target-host questions. No duplicate Animal rigging lane opened.
-- **Object:** mature Rigging PR #27 already owns latch/socket/service-frame articulation. No stronger new owner-local gap displaced Character.
-- **Building:** active Hard-Surface, Geometry, Materials and Procedural lanes own the current utility-panel work; Rigging did not seize it.
-- **Nature / Weather / Map:** current world/effect/playback/receiver work remains owned by Environment, VFX, Animation, Technical Art and Runtime.
-- **Weapon / Armor / Unit:** no current implementation-backed articulated source justified inventing a rig. Their current scan exposed no stronger grounded Rigging defect.
-- **Misc / shared UC:** no source-local articulation defect justified generic machinery or UC policy transfer.
+- **Character:** the existing review-006 Rigging PR #17 remained the strongest non-duplicated Rigging seam. Geometry reports no fresh Character topology defect; Animation PR #22 owns playback; Technical Art PR #21 owns transport/target-host receiving; Art/QA have other current visual gates. No source retune was justified.
+- **Animal:** current Organic / Rigging / Technical-Art / Runtime direction-frame and target-host chain is mature and explicitly keeps source form frozen absent a localized source defect. No duplicate Animal Rigging lane was opened.
+- **Object:** its latch/socket/service-frame articulation chain is already mature. Current Object novelty is VFX, not an unowned Rigging defect.
+- **Building:** current utility-panel work is owned by Hard Surface, Geometry, Materials and Procedural; no articulated source justified Rigging takeover.
+- **Nature / Weather / Map:** current work is Environment / VFX / Animation / Runtime / receiving evidence, not a Rigging-owned source defect.
+- **Weapon / Armor / Unit / Misc:** no implementation-backed articulated source exists that justifies inventing a rig by cadence.
 
-## Owning lane / exact identity
+The highest-leverage action was therefore **not** a new rig or weight retune. It was to finish the already-authored bounded Character vertex-only continuity constraint and repair the exact provenance gate that prevented truthful promotion of its evidence.
+
+## Owning lane / exact source-rig identity
 
 Repository: `mike-axiom-mir/axm-character-design`
 
@@ -37,16 +39,16 @@ Branch: `studio/rigging-character-review006-rebind-001`
 
 Base: `studio/geometry-character-review006-rebind-001`
 
-Exact current head after this activation: **`201960f5faca931a878adf4b236193b2a2ed7a09`**.
+Exact current head: **`0b5b6c99c0f1349d8a1a2198cc69969c5b829236`**.
 
-Observed PR state: **OPEN / DRAFT / MERGEABLE**.
+Observed PR state after current evidence return: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
 Exact source / Geometry / rig identity remains unchanged:
 
 - review-006 source SHA-256: `8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`;
 - proof-mesh SHA-256: `f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`;
 - selected Geometry head: `8ad006f91ebb9934d5df98702e4410c74a1e68ea`;
-- current Geometry evidence-only head: `3519289f99c15ee3b7298b7bd625cf81e32b3c98`;
+- current Geometry evidence-only donor: `3519289f99c15ee3b7298b7bd625cf81e32b3c98`;
 - selected stage: `opening_repair`;
 - topology digest L: `ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`;
 - topology digest R: `aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`;
@@ -57,77 +59,144 @@ Exact source / Geometry / rig identity remains unchanged:
 - profile digest: `49e59bfd7596619a2a19454ca395276097102047af673fc4219694e777a5a719`;
 - exact weight formula: `0.10 * (abs(angle_deg) / 40.0) ** 12`.
 
-No source position, face, selected topology index, joint, weight, owner pose semantics, Animation key/timing, target-host transport, Runtime controller/representation, Materials value or UC implementation changed.
+No source position, face/index topology, joint, weight, profile math, owner pose semantics, Animation key/timing, target-host transport, Runtime behavior, material state or UC implementation changed.
 
-## Selected bounded improvement
+## Preserved failed predecessor — evidence harness, not rig failure
 
-New owner-local observer:
+Previous continuous-vertex workflow:
+
+**`35253264571 — Rigging Character review006 continuous vertex-only evidence`**
+
+Exact predecessor head:
+
+`201960f5faca931a878adf4b236193b2a2ed7a09`
+
+That run established an important distinction:
+
+- Python 3.11 checkout / compile / bounded continuous vertex-only test: **SUCCESS**;
+- Python 3.11 evidence build: **SUCCESS**;
+- Python 3.11 lineage bind: **FAILURE**;
+- Python 3.13 bounded continuous vertex-only test: **SUCCESS**.
+
+The failed gate incorrectly required three exact evidence/profile donors to be ancestors of the current Rigging branch even though repository history shows them as intentional divergent siblings. The selected `opening_repair` Geometry head is the real shared receiving root.
+
+The failure is retained as provenance. It was not relabelled as a deformation failure and was not bypassed by weakening the structural predicate.
+
+## Smallest bounded repair
+
+Current head changes only:
+
+`.github/workflows/rigging-character-review006-continuous-vertex-only.yml`
+
+Repair rule:
+
+1. selected Geometry head `8ad006f...` remains a required ancestor;
+2. current Geometry-evidence donor `3519289f...`, historical Rigging donor `329c485f...` and profile-source donor `62a60ee6...` must exist as exact commits;
+3. those exact divergent donor identities must **not** silently become fabricated Rigging ancestry;
+4. current Geometry-evidence donor must share selected Geometry head `8ad006f...` as the exact merge base;
+5. dense sampled Rigging predecessor `735df38e0fb4a38886da940a2de7045cc4321a28` remains a required ancestor.
+
+No observer math, rig, mesh, topology, joint, weight, contact threshold or motion boundary was modified to make CI green.
+
+## Scoped continuous vertex-only PASS
+
+Observer / contract:
 
 **`axm.character-review006-continuous-vertex-only-neighbor-cone/v0.1`**
 
-Added on the existing Character Rigging branch:
+Scoped result:
 
-- `src/axm_character_design/review006_shoulder_continuous_vertex_only_cone.py` — commit `51a2ab8357ad99e3c8c293a0d1472ece39e633cb`;
-- `tests/test_review006_shoulder_continuous_vertex_only_cone.py` — commit `cab2a569da7299ca23b0f4d1f3556ca85acff477`;
-- `.github/workflows/rigging-character-review006-continuous-vertex-only.yml` — current head `201960f5faca931a878adf4b236193b2a2ed7a09`.
+**`PASS_CHARACTER_REVIEW006_CONTINUOUS_VERTEX_ONLY_NEIGHBOR_CONE_MARGIN_MINUS40_TO_PLUS3655__ALL_INDEXED_NEIGHBOR_CLASSES_CLOSED`**
 
-The observer keeps the exact existing vertex-only positive spherical-cone predicate and closes only the mathematical gap between sampled owner poses. For each adaptive angular interval:
+For each shoulder, all **845 face pairs that meet at exactly one indexed vertex** are continuously certified under the retained positive spherical-cone contact predicate for **every real-valued owner angle from `-40.0°` through `+36.55°`**.
 
-1. pose the unchanged owner rig at the interval midpoint;
-2. compute the exact midpoint cone separation for every one of the **845 vertex-only neighbouring face pairs per shoulder**;
-3. derive conservative outgoing-edge direction motion bounds from the unchanged owner per-vertex speed bounds and a lower-bounded edge length;
-4. lift those endpoint bounds to a conservative whole-cone-arc angular bound using the positive-blend normalization lower bound `cos(alpha/2)`;
-5. require midpoint cone separation to remain greater than both cone-motion bounds plus the existing contact epsilon and strict numerical margin;
-6. fail closed and subdivide any interval that cannot be certified.
+Per side retained proof:
 
-Base interval width is `0.5°`, with adaptive subdivision. The intended guard is every real-valued owner angle from **`-40°` through `+36.55°`**. The existing dense `0.05°` observer is retained as a predecessor rather than rewritten.
+- base intervals: `154`;
+- adaptive subdivisions: `183`;
+- certified intervals: `337`;
+- attempted intervals: `520`;
+- maximum subdivision depth: `6`;
+- minimum certificate slack: **`9.215213950381399e-06 rad` = `0.000527992866666933°`**;
+- bilateral minimum-slack residual: `0.0`.
 
-The retained `[+36.55°, +36.60°]` extension is an explicit negative control: the new observer must reject promotion through the known outside-boundary state rather than smoothing over it.
+Tightest retained certificate witness on both sides:
 
-If exact-head CI eventually validates this observer, the three indexed face-pair contact classes will have separate continuous structural certificates over their stated predicates: nonadjacent, edge-adjacent same-ray fold, and vertex-only cone contact. That stronger statement is **not promoted yet**.
+- interval: `[36.549218749999994°, 36.55°]`;
+- midpoint: `36.549609374999996°`;
+- triangle pair: `115 / 137`;
+- shared vertex: `65`;
+- midpoint cone separation: `3.374891283559192e-05 rad`;
+- conservative moving-cone bound: `2.4532698885210522e-05 rad`;
+- resulting certificate slack: `9.215213950381399e-06 rad`.
 
-## Validation state — HOLD, not PASS
+The explicit `[+36.55°, +36.60°]` extension negative control is rejected on **both** sides as:
 
-Exact current-head workflow state observed after authoring:
+`MIDPOINT_VERTEX_ONLY_CONE_CONTACT`
 
-- `35253264571` — **Rigging Character review006 continuous vertex-only evidence** — QUEUED;
-- `35253264253` — **Rigging Character review006 exact rebind** — QUEUED;
-- `35253264314` — **Character organic form baseline** — QUEUED.
+The separately retained nonadjacent `+36.60°` failure therefore remains outside the guard. The exact first-contact angle is still **not solved**.
 
-All three target exact head `201960f5faca931a878adf4b236193b2a2ed7a09`.
+## Motion-boundary interpretation
 
-Therefore this activation does **not** promote the continuous vertex-only result to PASS and does not invent minimum certificate slack, subdivision depth, bilateral residuals or artifact metadata before CI/evidence completes.
+This closes the local gap left by the prior Rigging passes:
 
-Previous fully green rollback remains authoritative:
+- continuous nonadjacent-triangle clearance is already retained for every real owner angle `-40°..+36.55°`;
+- continuous edge-adjacent same-ray fold/contact clearance is already retained for every real owner angle `-40°..+36.55°`;
+- the new vertex-only neighbouring-face cone predicate is now also continuously certified for every real owner angle `-40°..+36.55°`.
 
-- head: `7d37903ee34c0a78d5d04ec22d7095d14bebeb3b`;
-- workflow: `35240911127` — SUCCESS;
-- artifact ID: `10505493672`;
-- files: 37;
-- size: 56,022 B;
-- SHA-256: `01cf4f933ce02e36fa81e73b86ef27b5797f414b64175b54ac021525d59de2f1`.
+Therefore all three **indexed face-pair classes** now have their own continuous structural certificate over their **stated predicate** throughout that owner interval.
 
-That green rollback already retains continuous nonadjacent-triangle clearance and continuous edge-adjacent same-ray fold clearance for every real owner angle from `-40°` through `+36.55°`. `+36.60°` remains outside the guard with the retained bilateral nonadjacent triangle pair `114 / 137` failure. No exact first-contact angle is claimed.
+This does **not** mean every conceivable physical contact/collision phenomenon is proven, and it does not convert the interval into anatomical shoulder ROM.
+
+Representative boundary evidence retained by the lane remains `-40 / -20 / 0 / +20 / +30 / +36.55°`, with `+36.60°` retained as the outside-boundary failing witness.
+
+## Exact-head CI / retained artifact
+
+Dedicated workflow:
+
+**`35258872742 — Rigging Character review006 continuous vertex-only evidence`**
+
+Exact head:
+
+`0b5b6c99c0f1349d8a1a2198cc69969c5b829236`
+
+Result: **SUCCESS**.
+
+- Python 3.11: continuous test PASS; evidence build PASS; repaired lineage gate PASS; artifact upload PASS;
+- Python 3.13: continuous test PASS.
+
+Retained artifact:
+
+- ID: **`10514605092`**;
+- name: `character-review006-continuous-vertex-only-0b5b6c99c0f1349d8a1a2198cc69969c5b829236`;
+- files: `8`;
+- size: **`3,931 B`**;
+- SHA-256: **`419862702348bd78f020c9e86f3331760b8c14e257d3113c8e5f62c92d3a36d7`**;
+- downloaded and independently rehashed: **exact match**.
+
+The artifact retains the exact current head, selected Geometry head, current Geometry evidence donor, historical Rigging donor, profile-source donor, dense sampled predecessor, machine-readable contract and machine-readable audit.
+
+The broader exact-rebind/full-suite workflow is separate from this scoped certificate and is not silently converted into additional authority here.
 
 ## Handoffs recorded
 
-- **Rigging PR #17:** comment `5718639925` — exact current head, new continuous vertex-only scope, queued exact-head CI, previous green rollback and strict non-claims.
-- **Geometry PR #16:** comment `5718641294` — exact `opening_repair` topology consumed unchanged; no Geometry edit requested; HOLD does not transfer as PASS.
-- **Animation PR #22:** comment `5718643235` — no anatomy/ROM, amplitude, timing, interpolation, playback, clip or visual-motion authority transfers.
-- **Technical Art PR #21:** comment `5718644298` — no target-host skin/inverse-bind/direction-frame/tangent/contact/controller/performance acceptance transfers.
+- **Rigging PR #17:** comment `5719361871` — exact current PASS, metrics, retained failed provenance predecessor and strict authority boundary.
+- **Geometry PR #16:** comment `5719363358` — selected `opening_repair` topology consumed unchanged; exact divergent evidence donor represented truthfully; no topology edit or automatic PASS transfer.
+- **Animation PR #22:** comment `5719364492` — no anatomy/ROM, amplitude, timing, interpolation, playback, looping, target-host delivery or motion-naturalness authority transfers.
+- **Technical Art PR #21:** comment `5719365752` — no skeleton/skin export, inverse-bind, target-host frame/tangent transport, Godot, optimization or Runtime acceptance transfers.
 
 No Runtime handoff implies acceptance. Runtime/controller/device/performance behavior was neither changed nor tested by this activation.
 
-## Truth boundary / explicit non-claims
+## Explicit non-claims
 
 This activation does **not** establish:
 
-- a PASS for the new continuous vertex-only certificate before exact-head CI completes;
-- the exact first-contact angle;
+- the exact first-contact angle inside `(36.55°, 36.60°]`;
 - anatomy or human shoulder range of motion;
-- Animation amplitude, timing, interpolation, playback, looping or clip acceptance;
-- Technical-Art target-host skin, inverse-bind, direction-frame, tangent-space or contact equivalence;
-- Runtime controller, state-machine, renderer, device or performance acceptance;
+- tissue-like deformation or final skinning quality;
+- Animation amplitude, timing, keys, interpolation, playback, looping or clip acceptance;
+- Technical-Art skeleton/skin export, inverse-bind, direction-frame, tangent-space or target-host acceptance;
+- Runtime controller, state-machine, renderer, target-device or performance acceptance;
 - gameplay collision suitability;
 - final Materials / Art Direction / Visual QA acceptance;
 - source adoption or CANON;
@@ -136,13 +205,13 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** current work is recorded as HOLD while exact-head CI is queued; no certificate metrics or artifact evidence are fabricated.
-- **Agency / non-domination:** Rigging does not seize Geometry topology, Animation motion, Technical-Art transport, Runtime behavior, Materials shading, Art preference or QA acceptance.
-- **Continuity:** predecessor status blob `b7ebdfee...`, green rollback `7d37903e...`, exact source/topology/profile identities and earlier Character/Object/Animal evidence remain rollback-addressable.
-- **Wisdom before speed:** the rig was not retuned to force a pass. The remaining mathematical gap was attacked with a narrow fail-closed observer on the existing owner lane, preserving the known `+36.60°` failure instead of hiding it.
+- **Truth:** the red predecessor is retained with its real failure point; the structural observer itself was not blamed for a graph-modeling defect; the current PASS is claimed only after the exact repaired workflow executed and the artifact was independently rehashed.
+- **Agency / non-domination:** Rigging owns only the owner-rig structural constraint. Geometry keeps topology, Animation keeps motion, Technical Art keeps transport/receiving, Runtime keeps controller/device/performance, Materials/Art/QA keep appearance acceptance.
+- **Continuity:** predecessor coordination blob `44504d58...`, failed workflow `35253264571`, dense predecessor `735df38e...`, green prior structural head `7d37903e...`, current head `0b5b6c99...`, source/topology/profile identities and exact artifact remain separately addressable and rollbackable.
+- **Wisdom before speed:** no rig or weight retune was made to manufacture a cleaner story. The smallest evidence/provenance defect was repaired, then the previously authored continuous constraint was allowed to stand or fail on its unchanged math.
 
 The four AXM roots remain the merge gate.
 
 ## Next Rigging trigger
 
-Re-scan the full constellation first. For Character, consume the exact-head result of workflow `35253264571` before promoting this certificate. If it fails, preserve the failure and repair only the observer/math unless evidence proves the source rig itself is wrong. If it passes, retain exact metrics/artifact identity and then reassess whether any higher-leverage rig, weighting, constraint, socket or articulation gap exists elsewhere before extending Character further.
+Re-scan the constellation before any further Character work. Do **not** extend review-006 by cadence now that the three indexed face-pair structural predicates are continuously covered through `+36.55°`. Prefer a genuinely new grounded Rigging / weighting / socket / articulation defect elsewhere, or consume a downstream returned defect that is explicitly localized back to Rigging ownership. Preserve `+36.60°` as the outside-boundary witness unless new source-rig evidence justifies a deliberate owner revision.
