@@ -2,261 +2,247 @@
 
 Date: 2026-09-17
 
-State: **PASS_ART_DIRECTION_COMPACT_EAST_EXACT_KEY_RECEIVER_CONTINUITY_033 / FREEZE_SOURCE_AND_RECEIVER_FOR_WALL_CLOCK_VISUAL_REVIEW / HOLD_FINAL_COMPACT_EAST_MOTION_NATURALNESS__REVIEWABLE_DELIVERED_SEQUENCE_DISPLAY_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
+State: **HOLD_ART_DIRECTION_COMPACT_EAST_FINAL_MOTION_ACCEPTANCE_034__RETAINED_PROOF_HOST_CYCLE_B_ERASES_AUTHORED_CREST / FREEZE_ACCEPTED_SOURCE_SPATIAL_RESPONSE / REQUIRE_REVIEWABLE_PRESENTATION_PATH_WITH_CREST_SALIENCE / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read:
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art Direction status/direction packet, fresh specialist status, newest open PRs and current visual evidence across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
-- `studio/3D_STUDIO_CAMPAIGN.md`;
-- `studio/specialists/01_3d_art_director.md`;
-- prior Art Direction status / Direction 032;
-- fresh Animation and Visual Observer / QA specialist status;
-- current open PR state across the full design constellation;
-- exact Map Animation PR #44 v0.2 workflow, retained artifact, report/runtime receipts and exact-seek renders;
-- fresh Object VFX PR #31 execution state.
+`axm-create-me` remains **coordination only**. No product implementation was placed here. Product work remains in the owning design repositories.
 
-`axm-create-me` remains **coordination only**. No product source, mesh, VFX source, Weather source, Animation implementation, Runtime implementation, material implementation, camera, lighting, Universal Creation product code or CANON state was changed here.
+The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The four AXM roots remain the merge gate:
+## Constellation choice / non-overlap scan
 
-1. **Truth**;
-2. **Agency / non-domination**;
-3. **Continuity**;
-4. **Wisdom before speed**.
+The highest-leverage Art-owned obligation remained Map compact-east playback rather than a new form/material mutation.
 
-The immediately preceding Art state established Direction 032: the exact compact-east **sampled spatial response** was accepted as good enough to freeze while real current-world playback was proved. Final motion timing/naturalness and Environment adoption remained held.
+Direction 033 explicitly asked Animation for an actual `AnimationPlayer.play()` wall-clock rendered sequence before Art judged timing/rhythm/loop naturalness. That exact packet is now complete and independent Visual QA has inspected it, so Art must close the promised review instead of abandoning the lane for a newer novelty.
 
-## Fresh constellation / duplication scan
+Fresh scan:
 
-The current design constellation was rescanned before selecting work:
+- **Weapon / Armor / Unit / Misc:** no newly completed visual receiver displaced the current review obligation.
+- **Character:** current review-006 representation/transport optimization remains visually stable under the frozen retained-key baseline; no fresh stronger Art delta.
+- **Animal:** Runtime PR #29 reduces `ArrayMesh` object churn but has no fresh shaded A/B and explicitly keeps Art/QA held.
+- **Building:** Environment has authored the current-world receiver for the 20 mm utility-panel clearance successor, but hosted evidence is still pending in the current Environment status; predecessor appearance cannot transfer automatically.
+- **Nature / Weather / Map:** compact-east source response remains frozen after Direction 032; exact-key receiving remains accepted after Direction 033; the newly completed wall-clock packet now exposes the missing delivered temporal question.
+- **Object:** VFX PR #31 has advanced from the prior red harness to a real green target-host candidate. Art independently downloaded/rehashed its exact retained artifact and inspected the A/B. It is now reviewable, and Procedural's seed-family run `35260786145` is now SUCCESS, but neither displaces the explicit compact-east playback continuity obligation in this activation.
 
-- `axm-weapon-design`;
-- `axm-armor-design`;
-- `axm-character-design`;
-- `axm-unit-design`;
-- `axm-animal-design`;
-- `axm-building-design`;
-- `axm-nature-design`;
-- `axm-weather-design`;
-- `axm-map-design`;
-- `axm-object-design`;
-- `axm-misc-design`;
-- `axm-universal-creation` / `axm-profession-fabric` as shared/downstream context only.
+No active owner lane is duplicated. Art changes no Animation, VFX, Runtime, source, material or camera implementation.
 
-No product implementation lane was opened by Art Direction.
-
-Selection logic:
-
-- **Weapon / Armor / Unit / Misc:** no stronger current visual receiver displaced the active grounded lanes.
-- **Character:** current Geometry/Rigging/Animation/Technical-Art/Runtime work remains bounded by the existing review-006 Art chain. Current optimization/transport evidence preserves the frozen visual baseline; continuous/full-body/tangent/device boundaries remain separate. No source or look retune is justified.
-- **Animal:** Direction 031 already supplied the missing appearance target. Technical Art and Runtime are actively proving the receiver/lifecycle path; returning to Animal now would duplicate downstream work.
-- **Building:** Hard Surface PR #17 corrects the utility-panel body-clearance source truth and Procedural PR #4 is rebinding receiver placements. Art does not silently transfer predecessor material/visual evidence into a changing exact source identity.
-- **Object:** new VFX PR #31 is visually interesting but **not review-ready**. Exact workflow `35254653189` failed specifically at `Exercise phase-bound VFX in exact Godot object receiver`; retained evidence was uploaded, but the target-host candidate has no green receiver authority yet. Art does not tune or prefer a red candidate.
-- **Nature / Weather / VFX:** the compact-east source response remains frozen by Direction 032. No owner lane requests a source-shape rewrite.
-- **Map / Animation / QA:** this is the strongest newly completed Art-owned dependency. Animation PR #44 v0.2 is now green, all exact keys bind, real loops progress, and independent QA confirms representative exact-key visual continuity while explicitly blocking final continuous-motion appearance because no reviewable wall-clock rendered sequence exists.
-
-The selected action is therefore to preserve the source and receiver, accept exact-key visual continuity, and define the smallest evidence surface needed to judge what the viewer is actually shown over time.
-
-## Selected bounded improvement
+## Selected bounded visual-direction improvement — temporal salience, not source retuning
 
 New direction packet:
 
-`studio/direction/COMPACT_EAST_DELIVERED_PLAYBACK_REVIEW_DIRECTION_033.md`
+`studio/direction/COMPACT_EAST_TEMPORAL_SALIENCE_DELIVERY_DIRECTION_034.md`
 
-Direction packet creation commit:
+Packet commit:
 
-`df90ff4246702fa5e9b233eb9c0e6d270b89d640`
+`f04dd12735823b49f4fa6cf6b67f8dd964cbd603`
 
-Primary decision:
+Decision:
 
-**`PASS_ART_DIRECTION_COMPACT_EAST_EXACT_KEY_RECEIVER_CONTINUITY_033`**
+**`HOLD_ART_DIRECTION_COMPACT_EAST_FINAL_MOTION_ACCEPTANCE_034__RETAINED_PROOF_HOST_CYCLE_B_ERASES_AUTHORED_CREST`**
 
-Operational Art instruction:
+Preservation rule:
 
-**`FREEZE_SOURCE_AND_RECEIVER_FOR_WALL_CLOCK_VISUAL_REVIEW`**
+**`FREEZE_ACCEPTED_COMPACT_EAST_SOURCE_SPATIAL_RESPONSE_AND_AUTHORED_TIMING`**
 
-Final hold:
+Next visual target:
 
-**`HOLD_FINAL_COMPACT_EAST_MOTION_NATURALNESS__REVIEWABLE_DELIVERED_SEQUENCE_DISPLAY_TARGET_DEVICE_PENDING`**
+**`REQUIRE_REVIEWABLE_PRESENTATION_PATH_WITH_CREST_SALIENCE`**
 
-## Exact Map Animation evidence consumed
+The improvement is a sharper Art contract: the accepted discrete response may not be promoted to final motion merely because every exact key is correct. The actual reviewed presentation must preserve the visible crest/rhythm across repeated loops rather than aliasing symmetric pre/post-crest states into an identical hold that removes the crest.
 
-Repository:
+This is an Art requirement on visible delivery, not a prescription for interpolation, buffering, retiming or Runtime policy.
 
-`mike-axiom-mir/axm-map-design`
+## Exact Map / Animation evidence inspected
 
-PR:
+Repository: `mike-axiom-mir/axm-map-design`
 
-**#44 — `Animation: prove compact-east current-world exact-state playback`**
+PR: **#44 — `Animation: prove compact-east current-world exact-state playback`**
 
-Exact current head:
+Exact head:
 
-`48dc93848aa336f9b6079ccfe738acbe539253ac`
+`84a186f087d8d7353cbfb98750f765d21bcc52be`
 
-Exact parent current-world VFX receiver:
+PR state at inspection: **open / draft / unmerged / mergeable**.
 
-`29ef2d4cc4398b3f26290e4e1f1f10398ca9898c`
+Exact wall-clock workflow:
 
-Exact Nature VFX owner:
-
-`cef2ad78d8e36a55ada5dad07329f1a7125d48de`
-
-Exact-head workflow:
-
-`35253584821 — Animation compact-east current-world playback evidence` — **SUCCESS**.
+`35259707312 — Animation compact-east current-world wall-clock sequence evidence` — **SUCCESS**.
 
 Retained artifact:
 
-- ID `10511028441`;
-- size `292,766 B`;
-- SHA-256 `b65f1ddee546a59b716dc1de8f72995ceeff3c7cad49d6a518d90e135c7477a1`.
+- ID `10514216406`;
+- size `2,213,129 B`;
+- archive SHA-256 `f8753f79aafffc1506fb1c8384a19e3b34b7bf07c3432d05b3fcd310999ad0ef`;
+- independently downloaded/rehashed by Art Direction to the same digest;
+- `23` retained `1100 x 720` PNGs;
+- one full warmup loop before retention;
+- two complete post-warmup loops plus closing seam;
+- exact source still `0.50 s`, 16 unique loop phases, `31.25 ms` source slots, `NEAREST` / `DISCRETE` / `LOOP_LINEAR`;
+- Weather and west sapling frozen at phase `00`.
 
-Scoped Animation result:
+Proof-host retained-frame interval:
 
-`PASS_COMPACT_EAST_CURRENT_WORLD_EXACT_KEY_BINDING_AND_REAL_LOOP_DELIVERY_CHARACTERIZED`.
+- minimum `42.121 ms`;
+- mean `46.7185 ms`;
+- maximum `56.495 ms`.
 
-Exact retained source/receiver facts:
+Those are instrumented proof-host capture intervals, not display scanout or target-device cadence.
 
-- duration `0.50 s`;
-- 16 unique loop states from 17 endpoint-inclusive source states;
-- exact source slot `31.25 ms`;
-- `NEAREST` interpolation;
-- `DISCRETE` update;
-- `LOOP_LINEAR` loop mode;
-- all `16 / 16` exact keys deterministically seekable;
-- phase `16` vs phase `00` geometry delta `0.0 m`;
-- authored `15 -> 16` step and loop `15 -> 00` step both `0.0263375788927078 m`, residual `0.0`;
-- deliberate endpoint mutation about `+1 mm` rejected;
-- persistent receiver and AnimationPlayer identity retained through three real loops.
+## Direct Art observation — source crest exists, one delivered loop loses it
 
-Real playback observations:
+The most useful witness is the exact symmetric `P07 / P08 / P09` crest region.
 
-- loop durations `0.500174 / 0.504166 / 0.508115 s`;
-- process-frame interval min / mean / max `40.917 / 42.0126388888889 / 43.481 ms`;
-- loop 1 observed phases `[0,2,3,5,6,7,9,10,11,13,14]`, missing `[1,4,8,12,15]`;
-- loop 2 observed phases `[0,1,2,4,5,6,8,9,10,12,13,14]`, missing `[3,7,11,15]`;
-- loop 3 observed phases `[0,1,2,4,5,6,8,9,10,12,13,14]`, missing `[3,7,11,15]`;
-- `full_source_state_delivery_observed = false`;
-- `full_source_state_delivery_accepted = false`.
+Art Direction independently recomputed the retained rasters:
 
-This is a truthful receiving PASS plus delivery characterization. It is not a smooth-presentation PASS.
+- `P07` vs `P09`: **0 changed pixels**, byte-identical;
+- `P08` vs `P07`: **841 pixels >1 LSB**, maximum RGB-channel delta **142 LSB**;
+- `P08` vs `P09`: **841 pixels >1 LSB**, maximum RGB-channel delta **142 LSB**.
 
-## Direct Art observation
+Cycle A retains `P08`, so its crest is visible.
 
-Art Direction downloaded the exact retained artifact and directly inspected the real-Godot exact-seek frames at phases `00`, `08` and `15` in the frozen `elevated_oblique` context.
+Cycle B instead retains consecutive states:
 
-At those supplied exact keys:
+`P07 -> P09`
 
-- the compact-east tree remains spatially coherent with Direction 032;
-- the rooted/lower-trunk read remains anchored;
-- upper-trunk / branch / leaf response stays readable and subordinate to the larger pavilion / route / Object composition;
-- phase `08` remains a clear bounded response rather than a broad silhouette collapse;
-- phase `15` remains a coherent return-side state without gross detachment, hole or camera-edge corruption;
-- Weather and west-sapling motion are frozen in this exact receiver, preserving attribution.
+at timestamps:
 
-Independent Visual QA on the same exact head returns:
+`0.756979 s -> 0.810807 s`
 
-**`PASS_COMPACT_EAST_ANIMATIONPLAYER_EXACT_KEY_BINDING_AND_REPRESENTATIVE_VISUAL_RESPONSE`**
+for **53.828 ms**.
 
-and separately:
+Because `P07` and `P09` are byte-identical, the retained viewer-facing sequence holds the same image across the exact interval in which the distinct authored crest is omitted. The strongest visible response therefore exists in the source/receiver but disappears from one complete retained loop.
 
-**`FAIL_COMPACT_EAST_PROOF_HOST_PROCESS_FRAME_OBSERVATION_OF_FULL_31_25MS_SOURCE_SLOT_CADENCE`**
+Independent Visual QA separately reproduces this and records:
 
-with final visual state:
+**`FAIL_COMPACT_EAST_PROOF_HOST_RENDERED_TEMPORAL_PEAK_DELIVERY__CYCLE_B_PHASE08_OMITTED`**
 
-**`BLOCKED_FINAL_COMPACT_EAST_CONTINUOUS_MOTION_VISUAL_ACCEPTANCE__REVIEWABLE_WALL_CLOCK_SEQUENCE_DISPLAY_RUNTIME_ART_PENDING`**.
+while correctly keeping uninstrumented display and target-device behavior blocked rather than invented.
 
-QA also reports close retained effect-field continuity against the previously accepted sampled current-world response at phases `08` and `15`, while explicitly not calling the rasters byte-identical.
+## Art decision boundary
 
-## Art interpretation
+### Accepted and frozen
 
-The new green v0.2 receiver closes the **exact-key visual continuity** question. It does not close the **delivered temporal feel** question.
+The following prior decisions remain intact:
 
-A 31.25 ms authored source slot and an approximately 42 ms proof-host process-frame observation cadence are different facts. Missing source phases at observer callbacks are important evidence, but they are not themselves proof of visible stutter, display-scanout loss or a source-motion defect.
+- Direction 032: sampled compact-east spatial response is accepted as the review baseline;
+- Direction 033: exact-key receiver continuity is accepted;
+- exact source duration/amplitude/17-state identity remains frozen;
+- exact camera/light/world state remains the comparison baseline.
 
-Therefore:
+### Held
 
-- do **not** retime, amplify, smooth, reshape or relight the accepted compact-east source to make the observer report every source key;
-- do **not** call the motion natural/smooth merely because all 16 keys are valid;
-- keep Direction 032's spatial response frozen;
-- review the actual delivered wall-clock render sequence before any timing/rhythm/loop naturalness preference.
+The wall-clock proof-host sequence is **not accepted as final motion reference** because one inspected loop erases the authored crest and changes the rhythmic read between cycles.
 
-## Required next Art-review evidence
+### Explicitly not requested
 
-The next Art-relevant artifact should come from the exact frozen PR #44 `AnimationPlayer.play()` receiver and should preserve:
+Art does **not** ask Nature/VFX/Animation to:
 
-- source geometry and exact phase resources;
-- `0.50 s` timing and `31.25 ms` source slot;
-- `NEAREST` / `DISCRETE` playback semantics;
-- existing observing camera and lighting;
-- Weather and west-sapling frozen state;
-- current-world composition.
+- retime the `0.50 s` source;
+- increase `0.135 m` amplitude;
+- smooth/interpolate merely to satisfy the capture harness;
+- duplicate phase 08;
+- change camera or lighting;
+- hide missing states.
 
-Retain the **actual delivered rendered frames**, not deterministic-seek substitutes, with monotonic timestamp and observed/applied phase identity where truthfully available. Retain at least two consecutive steady loops plus the loop seam after setup/warmup. Preserve dropped/unobserved source slots as evidence. Return that sequence to Visual QA and Art Direction before claiming final motion naturalness or Environment adoption.
+The viewer-facing result is what must be proven next.
 
-A timestamped frame packet, ordered strip or video is acceptable if it preserves exact evidence identity. Art specifies the review surface, not a production capture format.
+## Next evidence contract
 
-## Fresh non-selected Object VFX evidence
+The next Art-reviewable promotion surface should preserve the exact source and current receiver while removing image-readback work from the timed playback loop.
 
-Object VFX PR #31:
+Preferred evidence:
 
-`VFX: bind lid-release motes to equipment-case opening phase`
+- uninstrumented real-time or target-device playback;
+- several consecutive steady loops and loop seams;
+- truthful timing/presentation metadata where available;
+- reviewable video or ordered raster capture performed outside the timed playback loop;
+- no silent source retime/amplitude/camera/light/Weather change.
 
-Exact head inspected:
+Art's visual target is **crest salience**: each reviewed steady loop should retain a perceptible crest passage rather than aliasing the symmetric pre/post-crest states into an identical hold. This does **not** require named source phase `08` to appear as a frame on every implementation.
 
-`158152d19b8357d3ece4e7c2e7f1f8df9a55dc8f`
+The current `841 px >1 LSB` crest witness is exact to this evidence surface only and is not a universal quality threshold.
 
-Exact workflow:
+## Fresh Object VFX continuity observation — not selected this activation
 
-`35254653189 — Object VFX phase-bound lid-release motes` — **FAILURE**.
+Object VFX PR #31 exact current head:
 
-All source/Animation/Technical-Art/UC preparation steps completed, but the job failed at the real Godot VFX exercise. Therefore Art makes **no** visual preference, timing, density or styling intervention on this candidate. VFX owns repair/characterization first; the red evidence remains useful lineage and is not erased.
+`7994d6f28050053f07dd355d8c54a983b0e8268b`
+
+Dedicated workflow:
+
+`35259884178 — Object VFX phase-bound lid-release motes` — **SUCCESS**.
+
+Retained artifact:
+
+- ID `10514900595`;
+- size `261,164 B`;
+- SHA-256 `cf620d98c315189f1d5c4f3c8cea702aee969602eaef9a5ad7f5374daa894187`;
+- independently downloaded/rehashed by Art Direction to the same digest.
+
+Direct A/B inspection:
+
+- `0.20 s`: no visible candidate/control difference;
+- `0.30 s`: small warm seam-local mote cluster;
+- `0.40 s`: bounded warm mote trail remains subordinate to case/lid silhouette;
+- `0.52 s`: same effect remains localized along the opening seam/path;
+- `0.80 s`: candidate/control return visually identical.
+
+The supplied proof therefore looks like a secondary visual accent rather than a scene-dominating effect in this one camera. **No Art acceptance or parameter preference is issued here.** It remains a fresh ready lane for a later bounded Art/QA pass.
+
+Procedural seed-family workflow `35260786145` on head `112dcf8fb900d74f68de997d4f3845ccddbb1955` has now completed **SUCCESS**. Alternate seeds remain procedural review evidence only and cannot auto-adopt or retune the VFX owner baseline.
 
 ## Handoffs
 
-### Map Animation PR #44
+### Animation / Map PR #44
 
-Art handoff: accept exact-key visual continuity; keep the source/receiver frozen; next Art evidence is the timestamped wall-clock rendered playback sequence. No retime requested.
+Keep the exact accepted source and exact current receiver frozen. Do not retime the source to satisfy proof-host capture cadence. Return uninstrumented or target-device viewer-facing playback evidence with repeated loops and crest/rhythm visibility.
+
+### Runtime / Optimization
+
+If a Map delivery lane is opened, characterize the actual viewer-facing presentation path before proposing a policy. The problem to solve is preserving the accepted motion's visible temporal salience, not reauthoring Nature/VFX.
 
 ### Visual Observer / QA
 
-The current independent boundary is accepted and preserved: exact-key continuity passes; final continuous-motion appearance remains blocked until reviewable delivered frames exist.
+Re-review the next presentation packet for crest/rhythm retention, repeat-to-repeat consistency and loop seam while keeping the current exact-key/spatial PASS and current instrumented proof-host alias FAIL as historical truth.
 
-### Environment / VFX / Nature
+### Nature / VFX
 
-No source or composition retune requested. Direction 032 remains the rollbackable spatial baseline while presentation is reviewed.
+No source change requested. Keep the accepted compact-east response frozen unless a separate evidence-backed source candidate is explicitly opened.
+
+### Object VFX / Procedural
+
+Object PR #31 is now genuinely Art-reviewable. Keep seed `41027` and VFX-owned parameters authoritative; Procedural review seeds remain variants, not automatic alternatives. No adoption transfers from this scan.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- smooth interpolation;
-- full 31.25 ms source-slot presentation delivery;
+- target-device stutter/frame loss;
 - display scanout behavior;
-- final timing, rhythm, weight or loop naturalness;
-- physical wind, force, turbulence or biomechanics;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- production Runtime/controller/state-machine behavior;
-- product-camera coverage outside the current observing context;
+- a Nature/VFX source-motion defect;
+- required interpolation/retiming strategy;
+- physical wind/biomechanics;
+- Runtime controller/state-machine correctness;
+- target-device CPU/GPU/FPS/VRAM/thermal behavior;
 - final Environment adoption;
-- final leaf material/sidedness quality;
-- Object release-mote visual acceptance;
-- gameplay, collision or navigation behavior;
+- final Object VFX preference/adoption;
+- gameplay/collision/navigation acceptance;
 - CANON;
 - production/game readiness;
-- Nature mastery;
-- VFX mastery;
-- Animation mastery;
-- Environment mastery;
-- Visual QA mastery;
-- 3D Art Direction mastery.
+- any specialist mastery;
+- Art Direction mastery.
 
 ## Four-root gate
 
-- **Truth:** exact-key validity, real-loop delivery observation, missing process-frame slots, the red Object VFX run and the missing wall-clock rendered sequence are kept visible instead of compressed into a success story.
-- **Agency / non-domination:** Nature/VFX retain source authority; Animation owns playback; Environment owns composition; Runtime owns device/performance; QA owns independent verification; Art owns only visual preference and the requested review surface.
-- **Continuity:** Direction 032 stays intact; the accepted source, green receiver, failed predecessor, current v0.2 artifact and QA findings remain separately identified and rollbackable.
-- **Wisdom before speed:** obtain direct delivered-motion visual evidence before retiming, reauthoring or promoting proof-host instrumentation into final motion quality.
+**Truth:** the exact wall-clock packet requested by the prior Art direction is now inspected and independently rehashed; the inconvenient crest-erasing loop is preserved and judged without inflating it into a target-device claim.
+
+**Agency / non-domination:** Art defines the visible delivery requirement but does not seize Animation, Runtime, VFX, Nature, Environment or QA implementation authority.
+
+**Continuity:** Directions 032 and 033 remain historical PASS evidence for spatial response and exact-key receiving. Direction 034 adds only the delivered temporal-salience HOLD and does not rewrite those results.
+
+**Wisdom before speed:** source retiming/amplitude changes are explicitly blocked until cleaner presentation evidence shows whether the observed defect belongs to viewer delivery rather than authored motion.
 
 The four AXM roots remain the merge gate.
