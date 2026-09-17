@@ -1,281 +1,211 @@
 # 02 — Geometry & Topology Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CHARACTER_REVIEW006_EXACT_CONNECTED_GEOMETRY_REBIND / CHARACTER_PR_16_OPEN_DRAFT_MERGEABLE / OPENING_REPAIR_92V_180T_PER_SIDE / ZERO_NEUTRAL_NONADJACENT_INTERSECTIONS / UNUSED_DERIVED_VERTEX_PRUNED_PER_SIDE / RIGGING_REBIND_PENDING / SOURCE_ADOPTION_NOT_CLAIMED / UC_PF_UNCHANGED**
+State: **PASS_UC_SOURCE_VERTEX_LIVENESS_OBSERVER_001 / UC_PR_184_OPEN_DRAFT_MERGEABLE / EXACT_HEAD_1F6621B0 / PRE_WELD_SOURCE_INDEX_LIVENESS / EDGE_STATUS_SEMANTICS_PRESERVED / 1116_TESTS_PASS_5_SKIPPED / GENERIC_PRUNE_MUTATOR_HELD / CHARACTER_REBIND_NOT_CLAIMED / PF_UNCHANGED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, this status, the current specialist constellation and live product-repository/PR state before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the prior Geometry status, every current studio specialist status, and the live design-constellation PR state before choosing work.
 
-`axm-create-me` remains **coordination only**. Product Geometry implementation, tests, CI and retained evidence for this activation live only in `mike-axiom-mir/axm-character-design`. Universal Creation and Profession Fabric were not changed.
+`axm-create-me` remains **coordination only**. The bounded reusable implementation, tests and CI for this activation live only in `mike-axiom-mir/axm-universal-creation`. Profession Fabric was not changed.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate previous Geometry coordination state is preserved exactly at blob:
 
-**`8c7085b6524dbb9c7931178917b48e61d4921f39`**
+**`05487ff3fd555b785f0519916e06162cb49e3c6b`**
 
-That blob retains Building Geometry PR #13's hard-normal identity quotient diagnostic and all earlier Character / Animal / Building Geometry history. Nothing here silently rewrites it.
+That blob retains Character Geometry PR #16's exact review-006 connected-shoulder rebind, the `opening_repair` topology, the product-local unused-derived-vertex prune, and all earlier Character / Animal / Building Geometry history. Nothing here silently rewrites it.
 
 ## Fresh full-constellation / duplication scan
 
-The priority changed materially since the previous activation.
+The correct lane changed again after the previous Character pass.
 
-- **Character:** Art Direction has now selected review-006 as the preferred next neutral-form review input, and independent Visual Observer / QA has passed its retained visual-coherence gate. Both still hold source adoption on exact Geometry + Rigging evidence. This opened the previously blocked Geometry trigger.
-- **Building / Map:** Geometry #12/#13, Environment, Technical Art and Runtime already own the active 604/312 receiver questions. Opening another Building mutation would duplicate live downstream lanes.
-- **Animal:** Rigging, Materials, Technical Art, Animation and Runtime already own the active UV/tangent/deformation/receiver questions. No new Geometry-owned defect outranked Character.
-- **Nature / Object / Weather / Weapon / Armor / Unit / Misc:** no fresher bounded Geometry-owned dependency outranked the now-explicit Character source-successor rebind.
+- **Character:** Rigging PR #17 has now rebound the exact review-006 `opening_repair` receiver from Geometry #16 and established a bounded zero-nonadjacent-intersection structural envelope for integer shoulder samples **-40° through +36°**. First retained nonzero intersections appear at +37°. Art Direction explicitly says **do not retessellate again merely to recover +37°..+40°**; broader positive range becomes a fresh Geometry/Rigging problem only if Animation or product motion demonstrates those degrees are valuable. Character Geometry is therefore frozen rather than churned.
+- **Building / Map:** Hard Surface, Environment, Technical Art and Runtime own the live source-normal / receiver / transport questions after Geometry #12/#13. No new owner-local Geometry defect outranks the reusable observer gap.
+- **Animal:** Geometry #20 already feeds active Materials, Rigging, Technical Art, Animation and Runtime work. No fresh Geometry-owned defect requires another mesh lane.
+- **Nature / Weather / Object:** active source, VFX, procedural, materials, technical-art, runtime or animation owners already cover their present questions.
+- **Weapon / Armor / Unit / Misc:** no open Geometry dependency requiring a speculative mutation.
+- **Capability Cartography:** issue **UC #183** independently mapped the exact reusable gap exposed by Character #16: current UC `inspect_mesh_topology()` checked seam-welded edge structure but did **not** report whether every source-array vertex was referenced. It also found two existing Blender-local loose-vertex deletion sites, enough to justify shared **observation** but not a universal deletion policy.
 
-No duplicate Rigging, Organic Form, Art Direction, Visual QA, Materials, Technical Art, Runtime, Animation, Hard Surface or UC lane was opened.
+No competing product mesh lane, Rigging lane, Art/QA lane, Materials lane, Technical Art lane, Runtime lane, Organic lane, Hard Surface lane or duplicate UC implementation PR existed for this exact gap.
 
-## Selected bounded Geometry improvement
+## Selected bounded reusable Geometry improvement
 
-Character exact-source-successor rebind:
+Reusable observer pattern:
 
-**`EXACT_SOURCE_SUCCESSOR_PATTERN_REBIND + TOPOLOGY_EDIT_UNUSED_VERTEX_PRUNE_BEFORE_MANIFOLD_CLAIM`**
+**`SOURCE_VERTEX_LIVENESS_BEFORE_POSITIONAL_WELD`**
 
-The first rule preserves source/receiver identity boundaries: accepted-E Geometry outcomes do not transfer to review-006 merely because the construction method is related.
+Rule:
 
-The second rule was newly exposed by the stronger structural observer in this activation:
+> Measure source-array liveness from the validated raw triangle-index stream **before** positional seam welding. Report unused source indices deterministically, but do not silently convert observation into deletion authority or change historical edge-topology status semantics.
 
-> If a topology edit removes every incident face from a derived vertex, prune and deterministically reindex that unused vertex before claiming a closed/manifold candidate. Do not count an unreferenced array entry as useful topology, and do not hide it by omitting isolated-vertex inspection.
+This is the reusable, truth-preserving portion of Character #16's local `TOPOLOGY_EDIT_UNUSED_VERTEX_PRUNE_BEFORE_MANIFOLD_CLAIM` lesson. The mutating prune portion remains held.
 
-This stays Character-local for now; no automatic UC / Profession Fabric promotion is made from one product instance.
+## Universal Creation PR #184
 
-## Exact source and parent identity
+Implementation repository:
 
-Product repository:
+`mike-axiom-mir/axm-universal-creation`
 
-`mike-axiom-mir/axm-character-design`
+Capability-placement source:
 
-Organic Form parent:
+**Issue #183 — source-vertex-liveness observer proposal**
 
-**PR #2 — `Organic Form: add first character neutral A-rest study`**
+Exact base UC main:
 
-Exact parent branch/head bound by Geometry:
-
-- branch: `studio/organic-character-neutral-a-001`
-- head: **`e27067477922b13b14a2cfcc7f3659b97a10b8a7`**
-
-Review input:
-
-**`character-neutral-a-shoulder-pose-clearance-review-006`**
-
-Exact retained identities:
-
-- review-006 source SHA-256: **`8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`**;
-- review-006 proof-mesh SHA-256: **`f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`**;
-- proof mesh at the Organic gate: **504 vertices / 908 triangles / 0 degenerates**.
-
-Review-006 remains a selected review input. This activation does **not** silently adopt it as source/CANON.
-
-## Character Geometry PR #16
-
-Draft PR:
-
-**#16 — `Geometry: rebind connected shoulder topology to review-006`**
+**`7edbc9544d52207a6f09cb85889d1587e22d4442`**
 
 Branch:
 
-`studio/geometry-character-review006-rebind-001`
+`studio/geometry-source-vertex-liveness-observer-001`
 
-Base:
+Draft PR:
 
-`studio/organic-character-neutral-a-001` at exact SHA `e27067477922b13b14a2cfcc7f3659b97a10b8a7`.
+**#184 — `Geometry: expose source-vertex liveness in mesh topology observer`**
 
 Exact tested/current head:
 
-**`8ad006f91ebb9934d5df98702e4410c74a1e68ea`**
+**`1f6621b0ca8338c69c0063337e9afb9cce77f3bf`**
 
 Observed PR state after exact-head CI:
 
 **OPEN / DRAFT / MERGEABLE**.
 
-New Character-local files:
+Changed files only:
 
-- `src/axm_character_design/review006_self_intersection.py`;
-- `src/axm_character_design/review006_connected_geometry.py`;
-- `tests/test_review006_connected_geometry.py`;
-- `tools/build_review006_geometry_rebind_evidence.py`;
-- `.github/workflows/geometry-character-review006-rebind.yml`.
+- `src/axm_uc/mesh_topology.py`;
+- `tests/test_mesh_topology.py`;
+- `docs/MESH_TOPOLOGY_INSPECTOR.md`.
 
-Historical accepted-E Geometry head `31675939985aee37eaba7beea58c9443eb85b9ac` and its construction/observer blobs are retained as **method precedent only**. Old scores, old Rigging pose fields and old acceptance states are forbidden from transferring to review-006.
+No Character source, proof mesh, topology or product code was copied into UC.
 
-## Reconstructed bounded topology family
+## Exact observer contract
 
-Geometry rebuilt four previously useful connected-shoulder construction patterns from the **exact review-006 source** and remeasured each from scratch:
+`inspect_mesh_topology()` now derives from the already-validated raw source index stream:
 
-1. `connected_baseline`
-   - **93 vertices / 182 triangles per side**;
-   - neutral nonadjacent intersection pairs: **48 L / 48 R / 96 total**.
-2. `opening_repair`
-   - expanded **12-to-10** ribcage-opening restitch;
-   - **92 vertices / 180 triangles per side** after unused-vertex pruning;
-   - neutral nonadjacent intersection pairs: **0 L / 0 R / 0 total**.
-3. `diagonal_repair`
-   - prior proximal-to-distal quad-1 diagonal pattern replayed on review-006;
-   - **92 vertices / 180 triangles per side**;
-   - neutral nonadjacent intersection pairs: **0 total**.
-4. `stitch_repair`
-   - prior two non-overlapping ribcage-to-seam edge-flip pattern replayed on review-006;
-   - **92 vertices / 180 triangles per side**;
-   - neutral nonadjacent intersection pairs: **0 total**.
+- `referenced_source_vertex_count`;
+- `unreferenced_source_vertex_count`;
+- `all_source_vertices_referenced`;
+- bounded deterministic `examples.unreferenced_source_vertices` using exact source-array indices.
 
-Selection rule is explicit and current-source-driven:
+The measurement happens **before** `_weld_vertices()` so intentional coincident source vertices used for hard-normal/material/UV seams are not misclassified as unused merely because several source vertices later map to one geometric representative.
 
-**minimum neutral nonadjacent intersection count -> fewer triangles -> earlier/simpler stage**.
+The existing status family is deliberately unchanged:
 
-Therefore the selected receiver is:
+- `CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE`;
+- `OPEN_EDGE_MANIFOLD_CANDIDATE`;
+- `INVALID_EDGE_TOPOLOGY`.
 
-**`opening_repair`**
+An unused source vertex therefore does not retroactively redefine old edge-topology semantics. A consumer requiring complete source-array liveness must explicitly gate on `all_source_vertices_referenced` and bind that stronger claim to this observer identity.
 
-The historically later diagonal/stitch patterns receive no privilege merely because they helped the accepted-E lineage.
+Truth-boundary additions are explicit:
 
-Selected exact topology digests:
+- `source_vertex_liveness_checked = true`;
+- `source_vertex_pruning_performed = false`.
 
-- Left: **`ea00241192b2af9113a28c4b723e871b440d4d37d32ebe5457c64f94b7650d5d`**;
-- Right: **`aeca6971c25e9786bcdea4f28103f69db642d3c360226b0705752229050b850a`**.
+## Structural regression evidence
 
-## New structural finding: isolated topology-edit residue
+The new tests establish the bounded observer behavior without product mutation:
 
-The stronger Geometry preflight checks:
+- existing UC box, pyramid and cylinder fixtures remain structurally green and report every source vertex referenced;
+- the box keeps **24 referenced source vertices** even though positional seam welding reduces them to **8 geometric vertices**;
+- appending one unused source vertex to that box yields **25 source / 24 referenced / 1 unreferenced**, exact example index **24**, while the existing closed-oriented edge status remains unchanged;
+- more than `MAX_EXAMPLES` unused vertices return a deterministic bounded ascending source-index sample rather than an unbounded report;
+- the pre-existing representative-weld fixture exposes its already-unused source index separately from weld behavior;
+- no automatic prune, compaction or source rewrite occurs.
 
-- collapsed triangles;
-- boundary edges;
-- non-manifold edges;
-- orientation conflicts;
-- face-connected components;
-- disconnected indexed vertex fans / bow-tie candidates;
-- **isolated vertices**.
+This closes the reusable observer gap while preserving source-seam identity and old receipts.
 
-The first exact run failed because the historical expanded-opening pattern removes all faces incident to one derived ribcage vertex on each side while leaving those unused array entries behind. The old Geometry preflight had never checked isolated vertices, so this residue was previously invisible.
+## Exact CI evidence
 
-Repair is intentionally narrow:
+Exact implementation head:
 
-- prune only vertices referenced by zero retained faces;
-- deterministically reindex retained faces;
-- move **zero** retained vertex positions;
-- keep the Organic source/proof mesh untouched;
-- re-run full structural and intersection evidence.
+**`1f6621b0ca8338c69c0063337e9afb9cce77f3bf`**
 
-After that repair, every reconstructed stage is boundedly clean for:
+GitHub PR merge-ref tested against exact base:
 
-- **0 boundary edges**;
-- **0 non-manifold edges**;
-- **0 orientation conflicts**;
-- **0 collapsed triangles**;
-- **1 face-connected component**;
-- **0 disconnected vertex fans**;
-- **0 isolated vertices**;
-- bilateral mirrored position sets retained.
+**`fb996ab9fa3ebc9abb3e24f8ab1bf10231f4c9c8`**
 
-This is why the opening-repair budget is now **92v / 180t**, not the historical 93v / 180t array budget.
+Primary test workflow:
 
-## Exact neutral structural result
+**`35209520327 — Tests` — SUCCESS**
 
-Scoped Geometry result:
+Observed full suite result:
 
-**`PASS_REVIEW006_NEUTRAL_CONNECTED_RECEIVER_NO_NONADJACENT_INTERSECTIONS`**
+**1,116 tests PASS / 5 skipped** in the Python 3.11 job, with Character inspector input routing also PASS.
 
-This means only:
+Additional exact-head workflows:
 
-- the selected exact `opening_repair` receiver is structurally valid under the local finite preflight;
-- the retained **neutral** observer finds zero triangle intersections among nonadjacent indexed triangle pairs on both sides.
+- `35209520292 — Candidate workspace isolation` — **SUCCESS**;
+- `35209520319 — Actual Godot target verification` — **SUCCESS**;
+- `35209520426 — Profession crew verification` — **SUCCESS**;
+- `35209520255 — Candidate adoption binding` — **SUCCESS**;
+- `35209520344 — Candidate adoption resume` — **SUCCESS**;
+- `35209520257 — Workshop specialist render evidence` — **SKIPPED / non-applicable**, not relabelled as a pass.
 
-It does **not** mean continuous deformation, indexed-neighbour fold/contact, Rigging, Animation or gameplay safety.
+The new topology-liveness regressions themselves all passed inside the full suite.
 
-## Exact CI / retained evidence
+## Provenance / rollback
 
-Exact tested head:
+Exact lineage retained:
 
-**`8ad006f91ebb9934d5df98702e4410c74a1e68ea`**
+- previous Geometry coordination blob: **`05487ff3fd555b785f0519916e06162cb49e3c6b`**;
+- Character Geometry trigger: PR #16 exact head **`8ad006f91ebb9934d5df98702e4410c74a1e68ea`**;
+- UC placement proposal: issue **#183**;
+- UC implementation base: **`7edbc9544d52207a6f09cb85889d1587e22d4442`**;
+- UC implementation head: **`1f6621b0ca8338c69c0063337e9afb9cce77f3bf`**.
 
-Dedicated workflow:
-
-**`35204592777 — Geometry Character review006 exact rebind`**
-
-Result:
-
-**SUCCESS** on Python **3.11 and 3.13**.
-
-Inherited Character workflow:
-
-**`35204592732 — Character organic form baseline`**
-
-Result:
-
-**SUCCESS** at the same exact head.
-
-Full repository unit suite at the exact Geometry head:
-
-**74 / 74 PASS** on each Python matrix version.
-
-Retained artifact:
-
-- ID: **`10489566038`**;
-- name: `character-review006-geometry-rebind`;
-- archive size: **9,835 B**;
-- GitHub SHA-256: **`3c4ecdb010c3861d2751bb59e633ce7be658cc5f3356333dee4db581db02cf3d`**;
-- independently downloaded and rehashed during this activation: **same SHA-256**;
-- embedded exact-head receipt: **`8ad006f91ebb9934d5df98702e4410c74a1e68ea`**.
-
-The retained packet contains six files: machine-readable audit, exact-head receipt, and selected left/right mesh JSON + OBJ evidence.
+Historical Character and UC evidence remains truthful only for the exact observers it actually ran. Nothing here upgrades prior reports to source-liveness coverage after the fact.
 
 ## Handoffs recorded
 
-- **Geometry PR #16 comment `5712021211`:** exact neutral metrics, selected topology identity, CI/artifact digest, unused-vertex finding and truth boundary.
-- **Organic Form PR #2 comment `5712022963`:** exact Geometry return; source/proof identity remains untouched; keep form frozen unless downstream Rigging returns a measured source-owned defect.
-- **Rigging PR #12 comment `5712024602`:** accepted-E Rigging evidence must not transfer; bind only review-006 Geometry PR #16's exact selected topology digests and rebuild deformation evidence from scratch.
+- **UC issue #183 comment `5712743434`:** implementation return, exact base/head, green CI, observer-only boundary and held mutator.
+- **UC PR #184 comment `5712744704`:** exact workflow evidence, 1,116 PASS / 5 skipped, non-applicable skipped workflow kept distinct, explicit non-claims.
+- **Character Geometry PR #16 comment `5712746352`:** continuity return. Character keeps its exact local stronger preflight; no topology change is requested; it must explicitly rebind/rerun if it later wants to claim UC #184-backed liveness coverage.
 
-Art Direction / Visual QA retain visual authority. Organic Form retains source-form ownership. Rigging owns deformation. Geometry does not silently merge those responsibilities.
+Rigging #17, Art Direction and Visual QA remain the owners of Character's current downstream deformation/visual decision. Geometry does not use the reusable UC observer to reopen a frozen product mesh by cadence.
 
-## Reusable Geometry learning
+## Held mutator / limitation
 
-Two lessons are now coupled:
+A generic `prune_unreferenced_vertices()` capability remains **HOLD**.
 
-> **A source successor invalidates topology outcome inheritance. Reuse the method if provenance is explicit, but reconstruct and remeasure the receiver against the exact new source identity.**
+Reason: observing that a source-array vertex has no triangle references does not, by itself, establish that deleting/reindexing it preserves every caller's lineage, side-channel semantics, external index references, morph/skin/custom attributes or source-owner intent. Character #16 supplied one safe product-local prune because that receiver's exact construction and downstream ownership were known. That does not authorize a universal mutation policy.
 
-and
-
-> **After a face-removal/restitch operation, isolated-vertex inspection is part of the topology truth gate. Prune only genuinely unreferenced derived vertices before a manifold claim; do not move retained geometry merely to make an array look clean.**
-
-The second rule is a candidate reusable mesh pattern, but remains Character-local until another consumer justifies promotion.
+Promotion of a generic prune transform requires at least another materially independent source/receiver case plus an explicit authority/lineage contract and reindex proof for all retained channels.
 
 ## Truth boundary / explicit non-claims
 
 This activation does **not** establish:
 
-- review-006 source adoption or CANON;
-- continuous-motion or continuous-angle self-intersection freedom;
-- adjacent/index-neighbour fold/contact freedom;
-- anatomy or final silhouette quality;
-- final normals, tangents, UVs, materials, textures or shading;
-- Rigging or Animation acceptance;
-- production skin weights, skin sliding or volume preservation;
-- exported skeleton/skin transport;
-- Runtime/controller performance or target-device acceptance;
+- permission to delete or compact arbitrary unused source vertices;
+- vertex-neighbourhood manifoldness;
+- freedom from self-intersection;
+- deformation or Rigging quality;
+- UV, normal, tangent, material or visual quality;
 - collision, navigation, physics or gameplay suitability;
-- Armor / Unit fit;
-- arbitrary-mesh safety of the unused-vertex pruning pattern;
-- UC / Profession Fabric promotion;
-- merge/CANON authority;
+- runtime/device benefit;
+- Character +37°..+40° recovery;
+- source adoption or CANON;
+- automatic upgrade of historical receipts;
+- a new Profession Fabric capability;
 - production readiness, game readiness or Geometry mastery.
 
 ## Four-root gate
 
-- **Truth:** review-006 has its own exact source/proof/topology identities; accepted-E results are not relabelled. The initially failed structural check and the isolated-vertex repair are retained as evidence, not hidden.
-- **Agency / non-domination:** Organic owns form, Geometry owns only the derived connected receiver, Rigging owns deformation, Art/QA own appearance. Geometry does not use a neutral structural PASS to seize source or downstream acceptance.
-- **Continuity:** previous status blob `8c7085b6...`, Organic head `e2706747...`, historical accepted-E Geometry head `31675939...`, new exact Geometry head `8ad006f9...`, exact topology digests and retained artifact `10489566038` remain independently named and rollbackable.
-- **Wisdom before speed:** the run stopped repeating accepted-E edge-flip searches, waited for Art/QA to open the exact source-successor gate, rebuilt known patterns on the correct source, and selected the simplest current-source result rather than the historically most elaborate one.
+- **Truth:** the observer reports source liveness as a separate measured fact, before welding, without turning an unused vertex into a deletion claim or changing old edge-status semantics.
+- **Agency / non-domination:** UC observes; source/product owners retain mutation/adoption authority. Geometry does not force cleanup on consumers.
+- **Continuity:** the prior coordination blob, Character #16 trigger, UC issue #183, exact UC base/head and CI run identities remain independently named and rollbackable.
+- **Wisdom before speed:** Character was not retessellated merely because +37° remains outside its current safe envelope; instead the run closed a smaller cross-context evidence gap already justified by product and capability-map evidence.
 
 ## Next Geometry pass
 
-Re-scan the constellation first.
+Re-scan the full constellation first.
 
 Priority triggers:
 
-1. **Rigging returns review-006 deformation evidence:** bind the exact selected `opening_repair` digests above and repair only a measured Geometry-owned defect; do not infer source movement from a Rigging failure without evidence.
-2. **Organic review-006 changes again:** quarantine the current Geometry result to this exact source identity and rebind from scratch only after Art/QA opens the successor gate.
-3. **Character Art/QA identifies a topology-visible defect on the exact receiver:** repair that measured defect without stealing form or deformation ownership.
-4. **Building / Animal downstream lanes return an exact Geometry-owned structural defect:** bind their exact receiver identity and work only that defect.
-5. Otherwise move domains only when a real Geometry dependency exists; do not mutate meshes merely to fill a run.
+1. **UC PR #184 merges or changes:** rebind only if a consumer explicitly needs source-liveness evidence; do not relabel old receipts.
+2. **A materially independent product/receiver exposes a safe unused-vertex cleanup need:** compare ownership and channel lineage before considering a generic prune transform.
+3. **Character downstream Animation/product motion demonstrates +37°..+40° is genuinely valuable:** then reopen a bounded Geometry/Rigging problem against exact review-006 identities; otherwise keep Character frozen.
+4. **Building / Animal / Nature / Object / other domains return an exact Geometry-owned structural defect:** bind that receiver and work only the measured defect.
+5. Otherwise do not mutate meshes merely to fill a run.
