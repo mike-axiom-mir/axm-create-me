@@ -2,156 +2,154 @@
 
 Date: 2026-09-17
 
-State: **PASS_OBJECT_LID_RELEASE_MOTE_OWNER_BASELINE_EXACT_VISUAL_CONTINUITY / PASS_OBJECT_LID_RELEASE_MOTE_SEEDED_FAMILY_RETAINED_FRAME_ACTIVATION_LOCALIZATION_AND_INACTIVE_CLOSURE / BLOCKED_FINAL_OBJECT_LID_RELEASE_MOTE_VISUAL_ACCEPTANCE__PREFERRED_SEED_WALLCLOCK_PLAYBACK_ARBITRARY_CAMERA_TARGET_DEVICE_ART_PENDING**
+State: **PASS_OBJECT_TARGET_LATCH_EXACT_GLB_BOUNDARY_POSE_VISUAL_NONCORRUPTION / PASS_OBJECT_TARGET_LATCH_CAPTURE_VS_BROADPHASE_DISTINCTION_REPRODUCED_FROM_EXACT_TARGET_GLB_GEOMETRY / BLOCKED_FINAL_OBJECT_TARGET_LATCH_MOTION_VISUAL_ACCEPTANCE__WALLCLOCK_SHADED_KEEPER_LID_SEQUENCE_RUNTIME_ART_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding QA state, fresh owner-specialist status, Art Direction status, newest open PRs, and current render/runtime evidence across the design constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding QA status, current Art Direction / Rigging / Animation state, and the newest open visual/runtime claims across the design constellation.
 
-`axm-create-me` remains **coordination only**. QA changed no Object/VFX/Animation/Runtime product implementation, no source geometry, rig, material, effect parameters, owner seed, camera/light, gameplay/controller semantics, Universal Creation product code, or CANON state. The only product-repository action was an independent review return on the existing VFX PR.
+`axm-create-me` remains **coordination only**. QA changed no Object source geometry, Hard-Surface semantics, Rigging implementation, Animation timing, Technical-Art transport, Runtime/controller policy, Materials, Universal Creation product code, gameplay, physics or CANON state. The only product-repository action was an independent review return on the existing Object Rigging PR.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Selection / duplication scan
 
-The strongest newly completed unverified visual surface is the current real-target Object lid-release mote seeded-family review on `mike-axiom-mir/axm-object-design` PR #31.
+The strongest newly completed unverified visual/runtime surface is the current target-host Object front-latch Rigging receiver on `mike-axiom-mir/axm-object-design` PR #23.
 
-Why this displaced the preceding Map playback lane for this activation:
+Why this displaced the preceding Object VFX lane:
 
-- the prior Map wall-clock packet has already received independent QA and Art Direction has now retained its crest-salience HOLD; there is no newer viewer-presentation packet to re-review;
-- Object VFX PR #31 has advanced to a fresh exact-head target-host seeded-family artifact and explicitly leaves independent Visual QA acceptance open;
-- Animal Runtime PR #29 has a newer resource-lifecycle result but explicitly states that a fresh shaded A/B was not run;
-- Building's newest high-activity lanes are presently source/geometry/authority proofs rather than a stronger fresh visual receiver.
+- Object VFX PR #31 already has independent QA fixed-sample acceptance and Art Direction has now frozen owner seed `41027` for the next presentation proof; another fixed-frame seed review would duplicate a closed comparison surface.
+- Map compact-east playback already has independent QA/Art crest-salience evidence and no newer viewer-presentation packet supersedes that result.
+- Object Rigging PR #23 is fresh downstream evidence: it consumes the corrected source-owned proof-volume capture boundary, maps seven boundary-adjacent poses into the actual UC/Godot hierarchy, and explicitly leaves final Visual QA acceptance open.
+- Animal Runtime's newer lifecycle/cache work explicitly keeps fresh production-shaded A/B held; Building's newest work is primarily source/geometry/authority rebinding rather than a stronger fresh visual receiver.
 
-QA therefore reviews Object VFX appearance evidence only. It does not duplicate Procedural seed generation, VFX ownership, Animation timing, Runtime production representation, or Art Direction preference.
+QA therefore reviews the exact transported target latch geometry and its visible/static boundary behavior only. It does not duplicate Hard Surface contact authority, Rigging authorship, Animation timing, Runtime controller/device ownership or Art preference.
 
 ## Exact evidence identity
 
 Repository: `mike-axiom-mir/axm-object-design`
 
-PR: **#31 — `VFX: bind lid-release motes to equipment-case opening phase`**
+PR: **#23 — `Rigging: bind source-owned front latches to UC target hierarchy`**
 
-Exact head inspected: `5f8b7bef1a8a0d1babeba7945962c83cd938529b`.
+Exact head inspected: `e5d4102b0b675cc0dc74d65f7afce1bdbf448726`.
 
-PR state at inspection: **OPEN / DRAFT / UNMERGED / MERGEABLE**. Mergeability is metadata, not visual authority.
+PR state at inspection: **OPEN / DRAFT / UNMERGED / MERGEABLE**. Mergeability is metadata, not acceptance authority.
 
-Current seeded-family workflow:
+Dedicated workflow: `35271210675 — Object target front-latch rig evidence` — **SUCCESS**.
 
-`35266335772 — Object VFX seeded mote family target review` — **SUCCESS**.
+Retained artifact:
 
-Current retained artifact:
+- ID `10518665592`;
+- size `22,222 B`;
+- GitHub SHA-256 `4ac8f36591adf4be0bf1770bee6d9d0e078846142c1b7df6ceee42ae69a30bc8`;
+- independently downloaded/rehashed by QA to the exact same SHA-256.
 
-- ID `10516159313`;
-- size `967,335 B`;
-- archive SHA-256 `8b7bc88219e422abebc22bbb530e915c75517f2b217f67ff98e2f4c068f59d63`;
-- exact current head `5f8b7bef...`.
+Exact retained target GLB:
 
-Historical owner baseline retained separately:
+- SHA-256 `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`;
+- independently rehashed by QA to the exact same digest.
 
-- owner effect head `7994d6f28050053f07dd355d8c54a983b0e8268b`;
-- owner seed `41027`;
-- artifact ID `10514900595`;
-- archive SHA-256 `cf620d98c315189f1d5c4f3c8cea702aee969602eaef9a5ad7f5374daa894187`.
+Current source semantics retained:
 
-QA independently downloaded and rehashed both archives to the exact retained digests above.
+- source Rigging donor `3a17a02528918ec63a46e954e883179f752c8151`;
+- Hard-Surface capture authority `56aaaecb45b520fdff9e08fe2d4ea42562f5690f`;
+- source proof-volume contact/separation transition `9.264790333551197°`;
+- source Z-AABB broad-phase-only transition `48.66480246428277°`;
+- target schedule maps source `0 / +9.25 / +9.30 / +25 / +48.65 / +48.70 / +50°` to target X rotations `0 / -9.25 / -9.30 / -25 / -48.65 / -48.70 / -50°`.
 
-Pinned target remains Godot `4.7.2-stable` / X11 / GL Compatibility / llvmpipe. The candidate remains the same stylized analytic visual cue: 18 deterministic billboard motes, trigger bound to the existing Animation phase at `0.25 s`, with no claim of dust, pressure, airflow, fluid simulation or gameplay event semantics.
+## PASS — exact target GLB boundary-pose visual noncorruption
 
-## PASS — exact owner visual continuity survives the family receiver
+**`PASS_OBJECT_TARGET_LATCH_EXACT_GLB_BOUNDARY_POSE_VISUAL_NONCORRUPTION`**
 
-**`PASS_OBJECT_LID_RELEASE_MOTE_OWNER_BASELINE_EXACT_VISUAL_CONTINUITY`**
+QA reconstructed the seven declared target poses directly from the retained target GLB bytes using the exact target pivots rather than inheriting the owner receipt's transform verdict.
 
-The current family packet includes owner seed `41027` as its baseline member. QA compared it directly against the earlier green owner artifact rather than trusting the new summary.
+The generated geometry diagnostics reproduce:
 
-Across all five retained observation times (`0.20 / 0.30 / 0.40 / 0.52 / 0.80 s`):
+- stable fixed case geometry across all seven poses;
+- bilateral latch-lever motion about the declared target pivots;
+- no detached latch mass;
+- no pivot jump;
+- no bilateral movement mismatch;
+- no gross target-hierarchy geometry corruption;
+- neutral geometry preserved at the zero pose.
 
-- all five owner candidate PNG byte streams are exactly identical to the historical owner candidate PNGs;
-- all five owner control PNG byte streams are exactly identical to the historical owner controls;
-- all four seeded-family controls are byte-identical to one another at every retained time.
+This is direct geometric review evidence from the exact target GLB, not a shaded production render and not final motion-style acceptance.
 
-Therefore the family review surface did not silently reinterpret or redraw the authoritative owner baseline while adding review-only seed variants.
+## PASS — target geometry independently preserves capture vs broad-phase distinction
 
-## PASS — bounded retained-frame activation, localization and inactive closure
+**`PASS_OBJECT_TARGET_LATCH_CAPTURE_VS_BROADPHASE_DISTINCTION_REPRODUCED_FROM_EXACT_TARGET_GLB_GEOMETRY`**
 
-**`PASS_OBJECT_LID_RELEASE_MOTE_SEEDED_FAMILY_RETAINED_FRAME_ACTIVATION_LOCALIZATION_AND_INACTIVE_CLOSURE`**
+The owner Godot receipt intentionally carried source capture/Z-AABB labels as pinned semantics and explicitly did **not** independently re-prove those contact classifications in the target host. QA therefore tested the exact retained target proof boxes directly.
 
-QA independently recomputed the candidate/control raster deltas for every seed and every retained time.
+Because the latch/keeper X intervals continue to overlap through this bounded rotation, the exact box contact question reduces to the target Y/Z oriented-rectangle SAT while the source Z-AABB broad-phase test maps to target-Y AABB overlap.
 
-At `0.20 s` and `0.80 s`:
+Independent exact-GLB result, bilaterally identical:
 
-- all four seeds are byte-identical to their controls;
-- active effect pixels: `0`;
-- no pre-trigger or post-effect raster residue is reproduced.
+- target proof-volume OBB contact → separation transition: **`9.264800006258°`**;
+- source-owned proof-volume transition: `9.264790333551°`;
+- absolute difference: about **`9.67e-06°`**;
+- target-Y AABB overlap → separation transition: **`48.664811045033°`**;
+- source-owned Z-AABB transition: `48.664802464283°`;
+- absolute difference: about **`8.58e-06°`**;
+- target boundary separation between those two events: about **`39.400011°`**.
 
-At the three active samples, the independently recomputed **pixels over 1 LSB** reproduce the owner report exactly:
+The retained boundary poses independently reproduce the intended semantic distinction:
 
-| seed | role | 0.30 s | 0.40 s | 0.52 s |
-|---:|---|---:|---:|---:|
-| `41027` | owner | `1,142` | `1,859` | `1,850` |
-| `17489` | review only | `1,299` | `1,807` | `1,764` |
-| `57203` | review only | `1,148` | `1,777` | `1,746` |
-| `91811` | review only | `1,186` | `1,708` | `1,728` |
+- at `9.25°`, proof volumes still intersect with minimum SAT overlap about `+0.000017502 m`;
+- at `9.30°`, proof volumes are already separated with minimum SAT margin about `-0.000041626 m`, while target-Y AABB overlap is still about `+0.026882522 m`;
+- at `48.65°`, proof volumes remain separated while target-Y AABB overlap is still slightly positive (`~+0.000017242 m`);
+- at `48.70°`, proof volumes remain separated and target-Y AABB overlap has turned negative (`~-0.000040983 m`).
 
-The first active frame also exposes a small measurement-detail fringe at exactly one LSB that the owner's >1-LSB metric intentionally does not count: owner `41027` has `1,183` any-LSB changed pixels versus `1,142` over 1 LSB; seed `57203` has `1,160` versus `1,148`; seed `91811` has `1,249` versus `1,186`; seed `17489` remains `1,299` either way. At `0.40` and `0.52 s`, all nonzero changed pixels are over 1 LSB. This is retained as metric precision, not a defect.
+This closes a narrower downstream truth gap: the exact transported GLB geometry itself preserves the source distinction between true proof-volume release and much later broad-phase axial separation. The tiny transition deltas remain within the expected float/GLB representation scale and do not justify source retuning.
 
-Across all four seeds, the family union remains localized in the supplied camera:
+No new scoped visual FAIL is assigned on this static target geometry surface.
 
-- `0.30 s`: `1,900` any-LSB union pixels / `508,400` frame pixels (`0.3737%`), union bbox `[361,253,591,324)`;
-- `0.40 s`: `2,929 / 508,400` (`0.5761%`), bbox `[364,241,594,311)`;
-- `0.52 s`: `2,916 / 508,400` (`0.5736%`), bbox `[368,228,599,295)`.
+## BLOCKED — final motion / shaded acceptance
 
-Direct inspection shows the effect remains a small seam/lid-local trail in the supplied camera. The review seeds visibly redistribute that trail and are materially non-identical, but QA reproduces no gross case/lid silhouette break, detached case component, whole-frame shift, unrelated scene mutation, or residual effect outside the retained active window.
+**`BLOCKED_FINAL_OBJECT_TARGET_LATCH_MOTION_VISUAL_ACCEPTANCE__WALLCLOCK_SHADED_KEEPER_LID_SEQUENCE_RUNTIME_ART_PENDING`**
 
-No new scoped visual FAIL is assigned on this retained-frame surface.
+The new PASS must not be inflated beyond the exact proof geometry.
 
-## BLOCKED — final visual acceptance and seed preference
+Still unproven here:
 
-**`BLOCKED_FINAL_OBJECT_LID_RELEASE_MOTE_VISUAL_ACCEPTANCE__PREFERRED_SEED_WALLCLOCK_PLAYBACK_ARBITRARY_CAMERA_TARGET_DEVICE_ART_PENDING`**
-
-The current packet is strong fixed-sample evidence, not final effect acceptance.
-
-It does **not** establish:
-
-- which seed is preferable or should replace owner seed `41027`;
-- wall-clock temporal readability, cadence, persistence or motion naturalness between the five retained samples;
-- arbitrary-camera or lighting behavior;
-- production particle representation or target-device CPU/GPU/FPS/VRAM/thermal/battery behavior;
-- physical dust, pressure, airflow, fluid or mechanical-release behavior;
-- gameplay/controller trigger semantics;
-- collision, damage or interaction behavior;
-- final Art Direction preference;
+- Godot collision-engine contact/separation behavior;
+- continuous full-assembly collision freedom between retained poses;
+- physical latch hook/catch retention, forces, fit, tolerance, wear or manufacturing validity;
+- wall-clock `AnimationPlayer` presentation of the current keeper + lever + lid sequence;
+- shaded/material coherence through that full current sequence;
+- final timing, weight, personality or motion naturalness;
+- Runtime controller/state-machine/input behavior;
+- target-device CPU/GPU/FPS/VRAM/thermal behavior;
+- gameplay/physics acceptance;
+- final Art Direction / Materials acceptance;
 - CANON or production/game readiness.
 
-Procedural retains seed-family generation only. VFX retains effect identity, meaning and owner seed. Animation retains timing/easing/order. Runtime retains production/device authority. Art Direction retains aesthetic preference. QA requests no implementation repair from this result.
+The SAT/AABB result is an **offline QA geometric reproduction from the exact retained target GLB**. It is not relabelled as a Godot physics/collision-engine result.
 
 ## Handoff / review return
 
-Independent QA was returned to Object PR #31 exact head `5f8b7bef1a8a0d1babeba7945962c83cd938529b` as review **`5240797008`**.
+Independent QA was returned to Object Rigging PR #23 exact head `e5d4102b0b675cc0dc74d65f7afce1bdbf448726` as review **`5241397816`**.
 
-The useful next promotion evidence is not another seed search by QA. If final VFX acceptance is desired, retain the owner baseline and review candidates without auto-adoption, then provide Art-reviewable wall-clock playback and/or broader camera evidence. Runtime/device proof remains separate.
+No Rigging or source repair is requested from this result. The next useful perceptual proof is not another static boundary pose search; it is a current-source shaded/wall-clock presentation that keeps keeper ownership, latch release, lid motion and reengagement coherent without changing the now-correct capture semantics. Runtime/device and physical-contact proof remain separate owner lanes.
 
 ## Prior retained QA state
 
-The immediately preceding Map playback result remains historical truth and is not rewritten:
+The immediately preceding Object VFX result remains historical truth and is not rewritten:
 
-- `PASS_COMPACT_EAST_WALLCLOCK_SEQUENCE_EVIDENCE_IDENTITY_AND_SPATIAL_COHERENCE`;
-- `FAIL_COMPACT_EAST_PROOF_HOST_RENDERED_TEMPORAL_PEAK_DELIVERY__CYCLE_B_PHASE08_OMITTED`;
-- `BLOCKED_FINAL_COMPACT_EAST_MOTION_NATURALNESS__UNINSTRUMENTED_DISPLAY_TARGET_DEVICE_ART_PENDING`;
-- review `5240143353` on Map PR #44 exact head `84a186f087d8d7353cbfb98750f765d21bcc52be`.
+- `PASS_OBJECT_LID_RELEASE_MOTE_OWNER_BASELINE_EXACT_VISUAL_CONTINUITY`;
+- `PASS_OBJECT_LID_RELEASE_MOTE_SEEDED_FAMILY_RETAINED_FRAME_ACTIVATION_LOCALIZATION_AND_INACTIVE_CLOSURE`;
+- `BLOCKED_FINAL_OBJECT_LID_RELEASE_MOTE_VISUAL_ACCEPTANCE__PREFERRED_SEED_WALLCLOCK_PLAYBACK_ARBITRARY_CAMERA_TARGET_DEVICE_ART_PENDING`;
+- review `5240797008` on Object VFX PR #31 exact head `5f8b7bef1a8a0d1babeba7945962c83cd938529b`.
 
-Art Direction subsequently retained that crest-salience HOLD and kept the compact-east source response frozen. This Object activation does not transfer any Map timing result into the VFX effect.
+Art Direction subsequently retained owner seed `41027` as the next-review baseline and froze further seed search pending presentation proof. This Rigging activation does not overwrite or transfer that VFX decision.
 
-Earlier Character, Animal and Map QA results remain historical evidence in Git history; no acceptance transfers between systems by analogy.
-
-## Explicit non-claims
-
-This activation does **not** establish final Object VFX taste or polish; a preferred/adopted review seed; wall-clock temporal acceptance; arbitrary-camera robustness; production particle implementation; target-device performance; physical effect semantics; gameplay/controller/collision acceptance; final Art Direction acceptance; CANON; game readiness; production readiness; or Visual Observer / QA mastery.
+The earlier Map playback crest-delivery FAIL/BLOCKED, Animal tangent-frame QA, Character direction-frame QA and other retained QA states remain historical evidence in Git history. No acceptance transfers between systems by analogy.
 
 ## Four-root gate
 
-- **Truth:** both current and historical owner archives were independently rehashed; owner raster continuity and every retained seed/time delta were recomputed directly; the small 1-LSB fringe is recorded rather than hidden behind the owner's threshold.
-- **Agency / non-domination:** QA does not select a review seed, retune VFX, seize Art preference, rewrite Animation timing, define Runtime representation, or turn renderability into CANON.
-- **Continuity:** owner seed `41027` reproduces the historical green baseline byte-for-byte; the preceding Map FAIL/BLOCKED evidence is preserved rather than overwritten.
-- **Wisdom before speed:** a clean retained-frame PASS is kept bounded to what was directly observed, while temporal, arbitrary-view and target-device questions remain open instead of being inferred from five screenshots.
+- **Truth:** the owner archive and exact target GLB were independently rehashed; the seven target poses were reconstructed from exact GLB geometry; the two target-side boundary transitions were independently solved rather than inherited from source labels; physics/runtime claims remain explicitly withheld.
+- **Agency / non-domination:** QA does not rewrite Hard-Surface contact semantics, Rigging, Animation timing, Runtime/controller policy, physics, Materials or Art preference and requests no automatic adoption/CANON promotion.
+- **Continuity:** the current source capture correction, target Rigging receiver, prior Object VFX QA, Map crest FAIL and earlier evidence remain separately addressable rather than silently merged into one story.
+- **Wisdom before speed:** the target geometry PASS closes the exact missing downstream semantic question, while shaded motion, wall-clock delivery, physics and device acceptance remain separate instead of being inferred from static proof boxes.
 
 The four AXM roots remain the merge gate.
