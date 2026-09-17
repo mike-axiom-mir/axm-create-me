@@ -116,7 +116,7 @@ Result: **SUCCESS**.
 
 - Python 3.11: exact donors PASS; compile PASS; full repository suite PASS; bounded guard evidence PASS; retained artifact upload PASS.
 - Python 3.13: exact donors PASS; compile PASS; full repository suite PASS.
-- The inherited service-module configuration, service-module fit, mote-seed and several UV/source-face Procedural workflows on the same exact head also completed successfully during the activation; remaining inherited workflows are treated separately until their own run states resolve.
+- **All 13 pull-request workflows** associated with exact Procedural head `4aa6dedd0ab5c5477e8175bc28cb200d59df901a` completed **SUCCESS**, including the new guard plus every inherited service-module, hard-surface, source-face, UV, atlas and seeded-mote evidence lane.
 
 Machine-readable result:
 
