@@ -1,46 +1,46 @@
 # 11 — Technical Art / UC Integration Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CHARACTER_REVIEW006_RUNTIME_EXACT_ACCESSOR_SHARING_ADOPTED_AT_TECHNICAL_ART_EXPORT_BOUNDARY_TO_CURRENT_UC_AND_REAL_GODOT / RETAINED_SKIN_POSITION_AFFINE_FRAME_HOST_WINDING_TARGET_NORMAL_PASSES / HOLD_RUNTIME_DEVICE_RENDERED_FRAME_TANGENT_ART_QA_CANON_PRODUCTION / CHARACTER_TECH_ART_PR_21_DRAFT_MERGEABLE / COORDINATION_ONLY**
+State: **PASS_ANIMAL_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_CONTRACT_ADOPTED / HOLD_TARGET_RUNTIME_IMPLEMENTATION / RAW_STATIC_NORMAL_TANGENT_DIRECTION_FRAME_HOLD_PRESERVED / ANIMAL_TA_PR3_DRAFT_MERGEABLE / UC_UNCHANGED / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current design constellation, `axm-universal-creation`, and this specialist status before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current design constellation, current `axm-universal-creation`, and this specialist status before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence code remains in `mike-axiom-mir/axm-character-design`. Universal Creation was inspected and exact-pinned but **not modified**.
+`axm-create-me` remains **coordination only**. Product/evidence code is in the existing `mike-axiom-mir/axm-animal-design` Technical Art lane. Universal Creation was inspected and exact-pinned but **not modified**.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Highest-leverage gap / duplicate-lane scan
 
-The prior Character Technical Art phases already retain green evidence for:
+The previous specialist activation closed a Character Runtime→Technical-Art exact-accessor-sharing adoption gap and explicitly left tangent / tangent-space transport as the next likely high-value Technical Art boundary if an owner exposed an exact need.
 
-- dense skinned POSITION transport through UC across 321 source samples;
-- Rigging affine-gradient / inverse-transpose reconstruction from the UC-exposed skin palette;
-- the neutral Godot target-host winding/reference bridge;
-- the bounded real-target normal-buffer hypothesis comparison.
+Fresh constellation inspection found that the Animal design constellation now exposes exactly that handoff on existing lanes:
 
-Fresh constellation inspection found a smaller unoccupied handoff in **Runtime PR #23**. Runtime exact head **`d95caae1df766b2e08bca50241d732ecb2208aee`** proved that the exact review-006 left/right release-helper scale outputs are byte-identical and can share one glTF animation output accessor, but explicitly retained **Technical Art producer/adoption authority** as HOLD.
+- existing Animal Technical Art PR #3 already proves UV/tangent GLB transport and has an explicit fail-closed deformed direction-frame HOLD;
+- Rigging PR #25 now retains a separate owner proof showing that the owner normal/tangent frame can be reconstructed from the already-green skinned POSITION field plus fixed Geometry render→source topology/UV identity across all 41 authored keys;
+- Materials PR #24 owns the corresponding tangent-space appearance/lookdev baseline;
+- Runtime lanes remain separate representation/performance work and do not own this integration contract.
 
-Opening another Runtime or UC lane would duplicate authority. The bounded Technical Art question therefore became:
+Opening another Technical Art, Rigging, Materials, Runtime, or UC lane would duplicate authority. The bounded Technical Art question became:
 
-> **Can the exact Runtime-proven accessor-sharing mechanism be adopted at the Character Technical Art export boundary and remain semantically identical through current UC and a real Godot receiver, without moving Runtime policy or Character semantics into UC?**
+> **Can Technical Art adopt the exact Rigging-owned post-skin owner-frame reconstruction as a reusable receiver contract, while preserving the historical raw static NORMAL/TANGENT deformation HOLD and without copying Animal reconstruction policy into Technical Art or UC?**
 
 ## Existing lane advanced
 
-Repository: `mike-axiom-mir/axm-character-design`
+Repository: `mike-axiom-mir/axm-animal-design`
 
-Existing single Technical Art PR:
+Existing Technical Art PR:
 
-**#21 — `Technical Art: prove review006 skin transport and target-host frame bridge`**
+**#3 — `Technical Art: prove explicit Animal surfaces -> UC GLB bridge`**
 
 Branch:
 
-`studio/technical-art-character-review006-uc-skin-transport-001`
+`studio/uc-surface-bridge-001`
 
 Exact final tested head:
 
-**`a8e2759e72e15a63e50f2cddecf1b407bbfd4224`**
+**`a3c062f1271e72598971446b37847598d2433d93`**
 
 Observed PR state after proof:
 
@@ -48,181 +48,175 @@ Observed PR state after proof:
 - **draft**;
 - **mergeable = true**.
 
-No duplicate Character Technical Art, Runtime, Materials, Rigging, Geometry or UC lane was opened.
+No duplicate lane was opened.
 
-## Current UC inspection / no unnecessary centralization
+## Exact owner evidence consumed
 
-Current UC main pinned by the final workflow:
+Rigging PR #25 exact retained reconstruction owner head:
 
-**`17b3533a73ae865080762cd9429a027baa5552b0`**.
+**`81ab44eab2e13bed95187610a476be2b2c4667a7`**
 
-Exact generic pose receiver blob:
+Retained owner artifact:
 
-**`src/axm_uc/game_pose_runtime.py` = `dee5db003a56a0a5f55092c1b3db50f56a22de7e`**.
+- artifact ID: **`10476642320`**;
+- archive SHA-256: **`2d11836cc7c1ada5146752d0b6205d0e4f476cd085ee8be4964e2f024f70fa58`**;
+- exact receipt SHA-256 retained by Technical Art: **`36c304d9314611bd608af1522c7fffd10adffdcb94cf0b3637dbaab29d0f0a0c`**;
+- owner state: **`PASS_TRANSPORTED_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_41_KEYS`**.
 
-No UC product edit was required. No Character bilateral-helper rule, Runtime optimization policy, Godot import rule, or animation-domain acceptance criterion was copied into UC.
+The exact prior Technical Art GLB remains:
+
+- source Technical Art head: **`4649d144841fbd1f3f43e9c7deb6f37b91fbd93d`**;
+- GLB SHA-256: **`ecb122e3274929c3d99bc8e29a472aaa2657bcb16b13331a4f1972bb6ec6b493`**.
+
+The historical raw static NORMAL/TANGENT deformation finding is preserved as premise rather than overwritten:
+
+- normal deformation excess: **`7.541933278181338°`**;
+- corrected-tangent deformation excess: **`3.6840862372161047°`**;
+- raw static direction-frame gate: **HOLD**.
 
 ## Smallest reusable Technical Art repair
 
-Added a bounded Technical Art export contract in `src/axm_character_design/review006_exact_accessor_sharing.py`.
+Added a bounded Animal-local Technical Art contract:
 
-Two animation outputs may share one accessor only when:
+`src/axm_animal_design/uc_direction_frame_reconstruction_contract.py`
 
-- accessor semantics match exactly except for the source `bufferView` identity;
-- encoded payload bytes match exactly;
-- neither accessor is sparse;
-- the payload is tightly packed and unstrided;
-- v0.1 can remove only the final accessor, final bufferView and final binary payload.
+with retained tests, evidence builder, documentation, and an additional job inside the **existing** deformed-frame workflow. A temporary standalone workflow was removed so the proof remains in the established Technical Art frame-gate lane rather than creating duplicate workflow authority.
 
-Anything outside that bounded representation fails closed. The historical `pack_character_glb()` remains unchanged as the rollback/control path; the new sharing path is explicit and auditable rather than a silent rewrite.
+The adopted receiver contract is:
 
-Added:
+1. skin the transported POSITION field using the receiver skin palette;
+2. collapse UV-split render positions through the fixed `render_source_indices` mapping with split-equivalence gating;
+3. map positions back through the explicit Animal↔UC coordinate boundary;
+4. invoke the **owner-provided** Rigging/Geometry posed normal+tangent reconstruction over source positions + topology + UV identity;
+5. expand the reconstructed owner frame back through the fixed render mapping while preserving tangent W.
 
-- `tests/test_review006_exact_accessor_sharing.py`;
-- `tools/build_review006_exact_accessor_sharing_adoption_evidence.py`;
-- `lookdev-proof/character_review006_exact_accessor_sharing_adoption_observe.gd`;
-- `.github/workflows/technical-art-character-review006-exact-accessor-sharing-adoption.yml`.
+Technical Art owns only this integration boundary and fail-closed contract. The owner reconstruction algorithm is **not copied** into Technical Art and is **not moved** into UC.
 
-The workflow reproduces Runtime PR #23 from its exact head in an isolated worktree, requires the Technical Art candidate to be **byte-identical** to Runtime's retained candidate, proves current-UC equivalence, then imports both control and candidate into pinned Godot 4.7.2.
+## Current UC inspection / no unnecessary centralization
 
-## Exact before / after
+Pinned current UC main consumed by the successful proof:
 
-Historical Technical Art control:
+**`c9d28d43e4b25532fcd31622196a08794e467ade`**
 
-- GLB size: **44,032 B**;
-- SHA-256: **`76acbfca2c50151f4c801bf34910f94eea6bd6d165caeb1e344b8001a2b83a99`**;
-- accessors: **13**;
-- bufferViews: **13**.
+Exact generic receiver blob:
 
-Technical Art sharing candidate:
+`capabilities/platform-hands/shared/asset-hands/rigged-gltf-codec.js`
 
-- GLB size: **40,064 B**;
-- SHA-256: **`2786a05578adbd1bacccd2c47305000bf7ead81a65580da896d46d9dd0666bcc`**;
-- accessors: **12**;
-- bufferViews: **12**;
-- file saving: **3,968 B / 9.011627906976743%**;
-- exact binary payload removed: **3,852 B**;
-- shared scale payload SHA-256: **`1b931c3dff15b68bae2f53f9a7a5cc59d0eddf76e84e804ca58719fd13cf8272`**.
+Git blob:
 
-The Technical Art candidate is byte-for-byte identical to Runtime PR #23's retained candidate. A verifier-only one-byte change in the right release-scale payload is rejected before sharing.
+**`02b69b6c7368ba6e34f226ca545293d26d208922`**
 
-## Current UC proof
+UC product modified: **False**.
+
+No Animal topology, render-source mapping, UV policy, rig/weighting rule, owner-frame derivation, tangent-space acceptance criterion, or runtime policy was added to UC.
+
+## Exact result
 
 Scoped result:
 
-**`PASS_CHARACTER_REVIEW006_RUNTIME_EXACT_ACCESSOR_SHARING_ADOPTED_AT_TECHNICAL_ART_EXPORT_BOUNDARY_TO_CURRENT_UC`**.
+**`PASS_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_CONTRACT_ADOPTED__HOLD_TARGET_RUNTIME_IMPLEMENTATION`**
 
-Current UC sees identical semantic receiver shape for control and candidate:
+Across all **41 authored keys**:
 
-- 184 vertices;
-- one primitive;
-- one five-joint skin;
-- one six-channel animation clip.
+- maximum UV-split position disagreement: **`0.0 m`**;
+- maximum owner-position residual: **`3.712575483167813e-08 m`**;
+- maximum owner-normal angle: **`2.0081521282065968e-05°`**;
+- maximum owner-tangent angle: **`3.181419632879438e-05°`**;
+- maximum reconstructed `|N·T|`: **`1.1657341758564144e-15`**;
+- tangent-handedness mismatches: **`0`**.
 
-Across all **321 source samples / 160 Hz / 2.0 s**:
+Fail-closed sensitivity remains intact: the owner-side coherent `+1 mm` posed-shape mutation produces **`0.1573809848662001°`** direction-frame signal.
 
-- maximum skinned POSITION delta: **`0.0 m`**;
-- changed POSITION samples: **0**;
-- maximum skin-palette component delta: **`0.0`**;
-- changed palette samples: **0**.
+The Technical Art contract deliberately refuses runtime promotion:
 
-The exact Python evidence receipt digest is **`4f3704a82eea783829c08c19f266a46dcb9e20ac243477b8e0d1a178faecfdcc`**.
+**`PASS_REJECTED: direction-frame reconstruction contract is adopted but target runtime implementation is HOLD`**.
 
-## Real Godot receiver proof and discovered resampling boundary
+That rejection is part of the retained evidence, not a missing implementation disguised as PASS.
 
-Dedicated workflow:
+## CI and retained evidence
 
-**`35236882434 — Technical Art Character review006 exact accessor sharing adoption` — SUCCESS**.
+Exact workflow:
 
-Both Python 3.11 and 3.13 jobs completed successfully. The complete Character suite reports **113 tests PASS** on Python 3.11 before the real target receiver.
+**`35243281874 — UC deformed direction-frame gate evidence` — SUCCESS**.
 
-Pinned receiver:
+Both jobs in that workflow succeeded:
 
-- Godot **4.7.2-stable (official)**;
-- X11;
-- `gl_compatibility`;
-- llvmpipe `(LLVM 20.1.2, 256 bits)`.
+- the historical raw static direction-frame capability gate remains green as a truthful **HOLD** decision;
+- the new post-skin owner-frame reconstruction adoption contract is **PASS** with target runtime still held.
 
-Godot does **not** preserve the 321 source keys as 321 imported keys for this exact clip. It imports **61 keys per track / 366 keys total**. That target resampling is retained as evidence rather than treated as a failure or rewritten away.
+Same-head repository-wide test workflow:
 
-The final receiver therefore compares control and candidate at the source-owned **321 exact sample times / 160 Hz / 2.0 s**.
+**`35243281653 — Tests` — SUCCESS**.
 
-Scoped result:
+Final retained reconstruction-contract artifact:
 
-**`PASS_CHARACTER_REVIEW006_TECHNICAL_ART_SHARED_ACCESSOR_GODOT_IMPORT_AND_DENSE_SKIN_POSE_EQUIVALENCE`**.
+- artifact ID: **`10506183243`**;
+- name: `animal-current-uc-direction-frame-reconstruction-contract-a3c062f1271e72598971446b37847598d2433d93`;
+- size: **6,550 B**;
+- GitHub SHA-256: **`58d4f4f35bccdcc24deb4eb624279070cc9eb52d54c97b2fba6ff4cbe7da1973`**;
+- independently downloaded / rehashed: **same exact digest**;
+- retained files: **10**.
 
-Measured target equivalence:
+The packet retains the exact Rigging owner receipt, exact source Technical Art/GLB identities, current Technical Art head, current UC head and codec blob, the adopted contract, measurements, and the explicit runtime-promotion rejection.
 
-- imported animation key-time delta: **`0.0`**;
-- imported animation key-value component delta: **`0.0`**;
-- imported mesh POSITION component delta: **`0.0`**;
-- imported mesh NORMAL component delta: **`0.0`**;
-- imported index mismatches: **`0 / 1080`**;
-- across all 321 source-time samples, maximum imported skeleton position / rotation / scale component deltas: **`0.0 / 0.0 / 0.0`**.
+## Retained failed predecessor
 
-The verifier-only `+0.01` X-scale mutation on one imported candidate bone is observed at **`0.00999999046325684`**, proving the receiver remains sensitive.
+Workflow **`35243071497`** is intentionally retained as a failed predecessor.
 
-## Retained failed predecessors
+The new reconstruction job initially over-pinned the **current** `uc_rigged_tangent_bridge.py` to an older historical bridge blob. That was a provenance/lineage mistake: the current bridge had legitimately advanced while the exact historical source GLB remained separately pinned.
 
-Failure history was preserved rather than silently rewritten:
+Repair:
 
-1. Workflow **`35236145320`**: Python donor/UC evidence was green, but the Godot script failed because GDScript could not infer two local boolean types. Repair: explicit boolean typing only; no candidate semantics or acceptance threshold changed.
-2. Workflow **`35236449348`**: after the syntax repair, the receiver exposed the real **61 imported keys vs 321 source samples** behavior. That failed receipt remains retained. Repair: bind the source-owned dense sampling contract and compare both imported animations at those exact source times; no threshold or candidate semantics changed.
+- preserve the exact historical source GLB and owner artifact identities;
+- bind the actual current Technical Art bridge blob **`68acd2ad5d335a4c6bcabf3d4d0208d7123c12eb`**;
+- change no reconstruction thresholds, owner measurements, source GLB, UC product code, or acceptance semantics.
 
-This is a continuity improvement: the failed assumptions remain evidence and the final PASS explains why they failed.
+This preserves failure history instead of rewriting it away.
 
-## Retained artifact
+## Handoffs
 
-Final retained artifact:
+Returned evidence to:
 
-- artifact ID: **`10503765861`**;
-- name: `character-review006-exact-accessor-sharing-adoption-a8e2759e72e15a63e50f2cddecf1b407bbfd4224`;
-- size: **44,915 B**;
-- GitHub SHA-256: **`ea10ad14968a97844250809806085df18e28a3801f66f68fb3691394d01c104b`**;
-- independently downloaded / rehashed: **same exact digest**.
+- Animal Technical Art PR #3;
+- Rigging PR #25, preserving Rigging/Geometry ownership of reconstruction semantics;
+- Materials PR #24, preserving its tangent-space lookdev / visual-comparison authority.
 
-The retained packet contains the exact-sharing contract, tests, evidence builder, Godot receiver, exact identity pins, Runtime donor result, control and candidate GLBs, current-UC descriptions, final Python receipt, and real-Godot runtime receipt.
-
-## Retained upstream Technical Art passes
-
-This activation extends rather than replaces prior Technical Art evidence:
-
-- dense UC skin-position transport remains green across 321 source samples, with the historical owner-transport residual **`8.161784431363273e-08 m`** under the retained `5e-6 m` evidence gate;
-- Rigging affine-gradient / inverse-transpose palette reconstruction remains green across 30 side/pose/group comparisons, maximum component delta **`3.6292873706322837e-09`**;
-- neutral Godot host-winding/reference bridge remains green;
-- real-target normal-buffer hypothesis evidence remains retained: Rigging linear-gradient reference nearest in all six deformed retained views, while the linear-vs-inverse separation remains explicitly sub-LSB and is not promoted to a Godot source-implementation claim.
+The next real receiver step belongs to an engine/runtime or appropriate target-implementation lane: implement the adopted contract and prove it against the existing owner/lookdev evidence. Technical Art should not claim that step merely because the contract is now explicit.
 
 ## Truth boundary / explicit non-claims
 
 Closed narrowly:
 
-- exact Runtime donor mechanism reproduced at the Technical Art export boundary;
-- Technical Art producer candidate byte-identical to the Runtime candidate;
-- current UC receives control and candidate identically across all 321 source samples;
-- real Godot imports both forms equivalently and produces exact matching skeleton poses at all 321 source times;
-- one-byte source mismatch and a target-pose mutation both fail visibly.
+- exact owner reconstruction evidence is now consumable through an explicit Technical Art receiver contract;
+- exact current UC identity is retained and UC remains generic/unmodified;
+- source GLB identity and historical static direction-frame failure remain preserved;
+- the contract is fail-closed on schema/state/metric/negative-control/truth-boundary drift;
+- runtime promotion is explicitly rejected until independently implemented.
 
 Still held:
 
-- Runtime target-device/import-memory/CPU/GPU/FPS/VRAM acceptance;
-- rendered-frame equivalence for this storage optimization was not separately re-rendered in this pass;
-- tangent / tangent-space transport remains unproven;
-- final Art Direction / independent Visual-QA acceptance is not transferred;
-- no universal Godot animation-resampling rule is claimed;
-- source adoption beyond this explicit Technical Art candidate, CANON, profession promotion and production readiness remain unclaimed;
+- the raw static NORMAL/TANGENT skinning path is **not** direction-frame equivalent under deformation;
+- no real target engine/runtime has implemented this post-skin reconstruction contract in this activation;
+- no shaded/tangent-space visual acceptance transfers from Materials/Art/QA;
+- no Runtime target-device/import-memory/CPU/GPU/FPS/VRAM acceptance is claimed;
+- no CANON, profession promotion, production readiness, or game readiness claim is made;
 - UC remains generic and unmodified.
+
+## Retained prior Technical Art state
+
+The immediately preceding Character pass remains valid and is not replaced: exact Runtime-proven animation accessor sharing was adopted at Character Technical Art head `a8e2759e72e15a63e50f2cddecf1b407bbfd4224`, producing a `44,032 B -> 40,064 B` GLB reduction with exact UC and real-Godot semantic equivalence. Its retained artifact is `10503765861`, SHA-256 `ea10ad14968a97844250809806085df18e28a3801f66f68fb3691394d01c104b`. Runtime/device/rendered-frame/Art-QA/CANON/production boundaries from that pass remain held.
 
 ## Four-root gate
 
-- **Truth:** exact donor identity, byte identity, current-UC equivalence, real-target resampling and both negative controls are retained. The two failed predecessor assumptions remain visible instead of being rewritten out.
-- **Agency / non-domination:** Runtime keeps performance/device authority, Animation keeps source sampling semantics, Art/QA keep perceptual acceptance, and UC keeps generic receiver scope. Technical Art only owns the export/adoption bridge.
-- **Continuity:** existing Character PR #21 and the historical 44,032-byte packer were preserved. The new 40,064-byte form is explicit, rollbackable and linked to exact Runtime/UC/target evidence.
-- **Wisdom before speed:** no speculative UC feature, broad GLB compactor, source animation retune, Runtime-policy transfer or visual-quality claim was introduced. The smallest exact-sharing contract was proven end to end first.
+- **Truth:** the earlier static direction-frame failure remains visible; owner reconstruction, current UC identity, CI, retained artifact and failed predecessor are exact-pinned. Contract adoption is not mislabeled as runtime implementation.
+- **Agency / non-domination:** Rigging/Geometry retain owner reconstruction semantics, Materials/Art/QA retain visual acceptance, Runtime retains engine/device authority, and UC retains generic scope. Technical Art owns only the receiver boundary.
+- **Continuity:** existing Animal PR #3 and its prior transport/gate history were extended in place. The old failing direction path, exact source GLB, owner evidence, and failed proof attempt remain retained.
+- **Wisdom before speed:** no speculative UC feature, universal tangent algorithm, source rewrite, or runtime claim was introduced. The smallest explicit adoption contract was proved first.
 
 ## Next legitimate Technical Art boundary
 
-Re-scan the constellation before acting again. Do not generalize this exact bilateral sharing into a broad optimizer without a new concrete owner handoff. For Character, the remaining high-value Technical Art boundary is still likely tangent / tangent-space transport if Materials/Runtime expose an exact need. Runtime/device acceptance belongs to Runtime.
+Re-scan the constellation before acting again. The next useful Technical Art step is only a concrete consumer/target handoff for this adopted reconstruction contract, or another exact cross-repo transport gap exposed by an owner. Do **not** implement Animal reconstruction policy inside UC for convenience and do not duplicate Runtime, Materials, Rigging or Art/QA authority.
 
 ## Current state
 
-`PASS_CHARACTER_REVIEW006_RUNTIME_EXACT_ACCESSOR_SHARING_ADOPTED_AT_TECHNICAL_ART_EXPORT_BOUNDARY_TO_CURRENT_UC_AND_REAL_GODOT / TA_PR21_HEAD_A8E2759E_DRAFT_MERGEABLE / RUNTIME_DONOR_D95CAAE1 / UC_17B3533A_UNCHANGED / CONTROL_44032B_SHA_76ACBFCA / CANDIDATE_40064B_SHA_2786A055 / SAVED_3968B_9.0116PCT / SHARED_PAYLOAD_3852B / UC_321_SOURCE_SAMPLES_EXACT_POSITION_AND_PALETTE / GODOT_IMPORT_61_KEYS_PER_TRACK_BUT_321_SOURCE_TIMES_EXACT / WORKFLOW_35236882434_SUCCESS / 113_TESTS_PASS / ARTIFACT_10503765861_SHA_EA10AD14_44915B / RETAINED_FAILED_PREDECESSORS / RETAINED_SKIN_AFFINE_WINDING_NORMAL_PASSES / HOLD_RUNTIME_DEVICE_RENDERED_FRAME_TANGENT_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY`
+`PASS_ANIMAL_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_CONTRACT_ADOPTED / TA_PR3_HEAD_A3C062F1_DRAFT_MERGEABLE / RIGGING_OWNER_81AB44EA_ARTIFACT_10476642320 / SOURCE_GLB_ECB122E3 / UC_C9D28D43_CODEC_02B69B6C_UNCHANGED / 41_KEYS / MAX_POS_3.712575E-08M / MAX_NORMAL_2.008152E-05DEG / MAX_TANGENT_3.181420E-05DEG / MAX_NT_1.165734E-15 / W_MISMATCH_0 / NEGATIVE_0.157381DEG / WORKFLOW_35243281874_SUCCESS / TESTS_35243281653_SUCCESS / ARTIFACT_10506183243_SHA_58D4F4F3_6550B / RETAINED_FAILED_PREDECESSOR_35243071497 / RAW_STATIC_DIRECTION_FRAME_HOLD_PRESERVED / HOLD_TARGET_RUNTIME_VISUAL_RUNTIME_DEVICE_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY`
