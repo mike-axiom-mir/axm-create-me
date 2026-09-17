@@ -1,205 +1,265 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-17
-State: **PASS_NATURE_FOLIAGE_BACKFACE_SHADED_RESPONSE_DIAGNOSTIC / KEEP_CURRENT_STANDARD_TWOSIDED_REFERENCE / DO_NOT_ADD_MANUAL_FRONT_FACING_NORMAL_FLIP / FINAL ART-QA + ARBITRARY-VIEW + TARGET-DEVICE ACCEPTANCE HELD**
+State: **PASS_BUILDING_COMPACT_V2_SOURCE_OWNER_MATERIAL_REBIND / EXPLICIT_HARD_NORMAL MATERIAL CONTINUITY BOUNDED TO 1 THRESHOLDED PIXEL IN 3 REAL VIEWS / COMPACT V2 REMAINS NON-DEFAULT / FINAL ART-QA + UV-TEXTURE + TRANSPORT + TARGET-DEVICE ACCEPTANCE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, current Materials status, Art Direction, Visual QA, Environment and the newest design-repository PR state before acting. `axm-create-me` remains coordination-only. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, current Materials status, Art Direction, Geometry, Hard Surface, Visual QA, Technical Art and the newest open Materials/design lanes before acting.
 
-The constellation scan did not justify continuing Building compaction by inertia. Geometry PR #8 has since strengthened the Building compact shell from the previously reviewed v0.1 identity to a much larger v0.2 reduction, and Hard Surface PR #9 is now source-owning that exact v2 mesh only as an explicit receiving option with no PASS transfer. That is a valid future Materials rebind once the owner-side chain settles, but it is not the strongest immediate visual blocker.
+`axm-create-me` remains **coordination only**. Product implementation and exact evidence for this activation live in `mike-axiom-mir/axm-building-design`.
 
-The freshest direct Materials handoff is Nature. Visual QA has already passed the current-world role-split receiving change `woody=CULL_BACK / foliage=CULL_DISABLED`, and Art Direction has selected that receiver as the preferred current direction while explicitly holding **shaded backface normal/lighting response**. Art Direction also requested that the scalar family stay fixed and that Materials isolate any real backface-lighting defect rather than compensate it through unrelated color/roughness changes.
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Existing Nature Materials PR #5 is therefore the correct lane. No duplicate Materials PR was opened.
+The complete preceding Nature shaded-backface Materials status remains rollbackable at coordinator content blob **`cad8d19f33171d1ff1815172d79c8b50691336c2`**. Its result remains historical truth:
+
+`PASS_NATURE_FOLIAGE_BACKFACE_SHADED_RESPONSE_DIAGNOSTIC / KEEP_CURRENT_STANDARD_TWOSIDED_REFERENCE / DO_NOT_ADD_MANUAL_FRONT_FACING_NORMAL_FLIP`.
+
+This activation does not weaken or relabel that Nature result.
+
+## Fresh constellation / duplication scan
+
+The scan did **not** justify another Nature material pass. Art Direction is currently holding Nature scalar materials fixed while Animation / Environment / QA review micro-flutter timing and final world appearance.
+
+The strongest fresh Materials dependency was Building:
+
+- Geometry PR #8 strengthened the boundary-shell compaction from the previously reviewed v1 identity (`1402v / 2848t`) to exact compact-v2 (`1004v / 2052t`) at head **`16253e7dd2f8cd590667f9631e4b50fdfcc7280d`**.
+- Hard Surface PR #9 then source-owned that exact compact-v2 identity at head **`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`** only as an explicit, non-default receiving option.
+- Hard Surface explicitly states that historical Materials reference/v1 evidence **does not transfer** to compact-v2 and requires an exact consumer rebind.
+- Runtime PR #10 has a separate neutral one-material cost/render proof, but it does not replace the real five-family Materials receiving check.
+- Existing Building Materials PR #3 already owns the surface-family lane, so no duplicate PR was opened.
+
+Character remains structurally blocked. Animal has active normal/tangent receiver lanes. Object and Map already have their own current Materials lanes. No fresher unowned material/UV/surface-family defect outranked the exact Building compact-v2 receiving gap.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-nature-design`
+Repository: `mike-axiom-mir/axm-building-design`
 
-Existing draft Materials lane:
+Existing Materials lane:
 
-**PR #5 — `Materials: add bounded sapling bark/leaf lookdev profile`**
+**PR #3 — `Materials: prove pavilion functional surface hierarchy`**
 
 Branch:
 
-`studio/materials-sapling-lookdev-001`
+`studio/materials-pavilion-surface-001`
 
-Previous exact head:
+Previous exact Materials head:
 
-`8b2e0523d7a2b210c6404f15bafb08fbedcad4dd`
+`c716655918d1041333187cc9ad12e2186926a00d`
 
 New exact Materials head:
 
-**`0b947868228dde70666a12f2e8f57037cbf7b26f`**
+**`4179aa1401f5a9114399e2f998c96809d4b8ed2e`**
 
-The existing bounded family is held exactly:
+The improvement is deliberately a **source-owner material rebind + real-render continuity proof**, not a look retune.
 
-- `woody`: `#5C3B27FF`, metallic `0`, roughness `0.84`;
-- `foliage`: `#5A823EFF`, metallic `0`, roughness `0.58`;
-- supported source scope remains exactly `sapling-neutral-001`, `compact-east-tree-neutral-001`, `east-rear-tree-neutral-001`;
-- source form, triangle positions, source identity, woody treatment and scalar family are unchanged.
+Pinned identities:
 
-The existing Geometry PR #10 explicit opposite-wound leaf-backface candidate remains an evidence reference only; Materials does not adopt Geometry ownership or request source duplication.
+- semantic source remains **`header-segmented-23`**;
+- reference receiving representation remains **`boundary-only-union-shell-001`**;
+- explicitly selected review receiver is **`boundary-only-union-shell-conforming-compact-v2-001`**;
+- Geometry donor head: **`16253e7dd2f8cd590667f9631e4b50fdfcc7280d`**;
+- Hard-Surface owner-policy head: **`35d0ba62d7e534b3cd00ac69e99386843ffa3f2e`**;
+- selection remains **explicit ID only, no default or implicit fallback**;
+- historical reference/v1 PASS state is **not transferred**.
 
-## Four-way shaded normal diagnostic
+Held unchanged:
 
-Added a dedicated real-render proof host and workflow:
+- exact five-surface Building family;
+- exact 19 source-component → material mappings;
+- all material albedo/metallic/roughness scalars;
+- semantic Building source identity;
+- source geometry ownership.
 
-- `.github/workflows/materials-foliage-backface-shading.yml`;
-- `lookdev-foliage-backface-shading-proof/project.godot`;
-- `lookdev-foliage-backface-shading-proof/observe.gd`.
+Explicit receiving normal policy:
 
-For each exact source and each retained context (`whole_three_quarter`, `crown_back`, `crown_low_grazing`), the proof renders four foliage receiving strategies while woody surfaces, family scalars, camera and lighting remain fixed:
+**`EXPLICIT_PER_TRIANGLE_PLANE_NORMAL__NO_VERTEX_SMOOTHING__HARD_SURFACE_REVIEW`**
 
-1. **`standard_twosided`** — current reference: `StandardMaterial3D` + `CULL_DISABLED`;
-2. **`shader_authored_normal_twosided`** — custom spatial shader, culling disabled, authored normal left unchanged;
-3. **`shader_faceforward_normal_twosided`** — same custom shader but manually negates `NORMAL` when `FRONT_FACING == false`;
-4. **`explicit_backfaces`** — Geometry PR #10 opposite-wound backface reference + backface culling.
+No smooth/generated-normal equivalence is claimed.
 
-The lighting was intentionally made more normal-sensitive than the previous family/sidedness proof: lower ambient plus a stronger asymmetric key and weak fill. This is a diagnostic stress context, not a final Nature lighting prescription.
+## Added exact receiving machinery
 
-No UV, texture, alpha cutout, translucency, transmission, subsurface, normal map, bark detail, leaf thickness or scalar-PBR retune was introduced.
+Added:
 
-## Exact target-host evidence
+- `tools/build_building_material_boundary_shell_compact_v2_evidence.py`;
+- `.github/workflows/building-material-boundary-shell-compaction-v2.yml`.
+
+Updated the existing `lookdev-boundary-shell-compaction-proof/observe.gd` so the same proof host can consume both:
+
+- historical Materials compaction payload v0.1; and
+- exact source-owned compact-v2 payload v0.2.
+
+The old v1 evidence path remains supported and its same-head workflow stayed green.
+
+New fail-closed checks include:
+
+- exact Geometry donor head;
+- exact Hard-Surface owner-policy head/revision;
+- exact compact-v2 representation ID;
+- exact compact-v2 payload digest owned by Hard Surface;
+- exact 19/19 source-component material-owner coverage;
+- no default/fallback adoption;
+- no historical PASS transfer;
+- negative control for a lost source-component material owner;
+- negative control for Hard-Surface compact payload-identity drift.
+
+Both negative controls fail as intended.
+
+## Exact structural receiving result
+
+Build receipt:
+
+**`PASS_BUILDING_COMPACT_V2_SOURCE_OWNER_MATERIAL_REBIND_PACKET`**
+
+Measured receiver budgets:
+
+| Representation | Vertices | Triangles |
+|---|---:|---:|
+| reference boundary shell | 1420 | 2884 |
+| compact v2 | 1004 | 2052 |
+
+Reduction:
+
+- vertices: **-416**;
+- triangles: **-832**;
+- additional reduction vs historical compact v1: **-398 vertices / -796 triangles**.
+
+Material triangle counts:
+
+| Material family | Reference | Compact v2 |
+|---|---:|---:|
+| `frame_galvanized` | 1404 | 1164 |
+| `infill_coating` | 104 | 88 |
+| `roof_membrane` | 676 | 388 |
+| `slab_mineral` | 676 | 388 |
+| `utility_panel_ochre` | 24 | 24 |
+
+Preserved structural/material ownership:
+
+- source-component owners: **19 / 19**;
+- max source-owner boundary-area residual: **0.0 m²**;
+- max planar-patch area residual: **0.0 m²**;
+- signed volume retained within Geometry tolerance;
+- surface-area residual vs donor: approximately **`9.95e-13 m²`**;
+- material scalars changed: **false**;
+- source-component material mapping changed: **false**.
+
+## Exact real-render evidence
 
 Dedicated workflow:
 
-**`35174172611 — Materials foliage backface shading evidence` — SUCCESS**.
+**`35178245608 — Building material compact-v2 source-owner rebind evidence` — SUCCESS**
 
 Target host:
 
-**Godot 4.7.2 / GL Compatibility / Xvfb-X11**.
+**Godot 4.7.2 / GL Compatibility / Xvfb-X11**
 
-The workflow retained **36 real renders**:
+Three exact Materials contexts were rendered as reference/compact pairs:
 
-- 3 exact source forms;
-- 3 fixed contexts;
-- 4 normal/sidedness strategies.
+1. `front_service`;
+2. `east_service`;
+3. `three_quarter`.
 
-Runtime receipt state:
+Each frame is **900 × 650 = 585,000 pixels**.
 
-**`PASS_TARGET_HOST_FOLIAGE_BACKFACE_SHADING_DIAGNOSTIC_CAPTURED`**.
+Measured comparison:
 
-Inherited same-head checks already observed green during this activation include Nature Organic baseline, UC Nature surface bridge, Materials environment-context evidence and Materials leaf-sidedness strategy evidence. Several older Materials workflow families were still queued when this status was written; no green result is claimed for a queued workflow.
+| Context | Thresholded changed pixels | Changed fraction | Max RGB channel delta |
+|---|---:|---:|---:|
+| `front_service` | **1 / 585,000** | **0.00017094%** | **1 LSB** |
+| `east_service` | **0 / 585,000** | **0%** | **0** |
+| `three_quarter` | **0 / 585,000** | **0%** | **0** |
 
-## Measured shading result
+At raw integer-RGB equality the front view contains four one-LSB pixel differences. The existing Materials comparator counts only pixels whose per-channel difference is **greater than** `1/255`; therefore only one of those four is thresholded. This distinction is preserved rather than collapsing “near identical” into “identical.”
 
-Across the 9 exact source/context comparisons:
-
-### Current StandardMaterial two-sided vs explicit opposite-wound reference
-
-- changed-pixel fraction: **0.038442% .. 0.445188%**;
-- mean changed-pixel fraction: **0.168733%**;
-- mean absolute RGB-channel error averaged over the 9 full frames: **`7.73265583941364e-05`**.
-
-### Manual `FRONT_FACING` normal-negation shader vs explicit opposite-wound reference
-
-- changed-pixel fraction: **0.038690% .. 0.269593%**;
-- mean changed-pixel fraction: **0.141617%**;
-- mean absolute RGB-channel error averaged over the 9 full frames: **`6.51412531866285e-04`**.
-
-Although the manual flip changes fewer thresholded pixels on average, those pixels move much more strongly. Its aggregate mean absolute RGB-channel error against the explicit-backface reference is therefore approximately **8.42x larger** than the current StandardMaterial two-sided receiver.
-
-### Current StandardMaterial vs custom shader with authored normal unchanged
-
-- changed-pixel fraction: **0.036706% .. 0.438988%**;
-- mean absolute RGB-channel error averaged over the 9 frames: **`2.838980181733729e-05`**;
-- maximum RGB-channel delta across all nine comparisons: **`0.070588231086731`**.
-
-That control shows the large response shift comes from the manual normal-negation step rather than merely switching from StandardMaterial to the custom shader path.
-
-## Direct visual inspection
-
-Downloaded and independently inspected all retained render families.
-
-Observed result:
-
-- the current `StandardMaterial3D + CULL_DISABLED` receiver and the authored-normal custom-shader control retain the same overall sparse foliage lighting language;
-- the explicit opposite-wound reference remains visually close to the current StandardMaterial receiver in the tested contexts;
-- the manual `FRONT_FACING` normal negation visibly swaps/boosts lighting on several back-facing blades under crown-back views and can create isolated bright leaf reads that are not present in the explicit-backface reference;
-- under low-grazing views the manual flip can reduce some edge differences, which is why this is not framed as a universal renderer theorem;
-- across the full retained set, there is no evidence-based reason to insert the manual normal-negation shader into the current receiver merely because foliage is two-sided.
+Direct visual inspection of all six retained PNGs shows no visible change to the Building material hierarchy or surface-family read in these retained views.
 
 ## Materials decision
 
-**`PASS_NATURE_FOLIAGE_BACKFACE_SHADED_RESPONSE_DIAGNOSTIC`**
-
-with bounded receiving recommendation:
-
-**`KEEP_CURRENT_STANDARD_TWOSIDED_REFERENCE__DO_NOT_ADD_MANUAL_FRONT_FACING_NORMAL_NEGATION_BY_DEFAULT`**.
+**`PASS_COMPACT_V2_EXPLICIT_HARD_NORMAL_MATERIAL_CONTINUITY_BOUNDED_DELTA`**
 
 Exact meaning:
 
-> In this exact Godot 4.7.2 GL Compatibility proof, the current bounded Nature family on `StandardMaterial3D` with foliage culling disabled is already a stronger aggregate shaded match to the explicit opposite-wound leaf-backface reference than a custom shader that manually negates `NORMAL` on `!FRONT_FACING`. The manual flip is therefore rejected as an unjustified default intervention for the current receiver. This does not prove physical botanical correctness or final Nature appearance.
-
-This is a Materials technical receiving result, not final Art Direction or Visual-QA acceptance.
+> Under the exact source-owned compact-v2 representation, unchanged five-family Building material assignment and explicit per-triangle plane normals, the compact receiver preserves the established Materials read in the retained Godot 4.7.2 GL Compatibility contexts to a maximum of one thresholded pixel / one LSB. This is strong evidence that compact-v2 needs no material scalar retune for this hard-normal receiver. It is not evidence that compact-v2 should become the semantic/default source, nor that smooth/generated-normal, UV/texture, transport, runtime-device or final aesthetic equivalence has been established.
 
 ## Retained artifact
 
 Artifact:
 
-- ID **`10478375557`**;
-- name `nature-material-foliage-backface-shading-0b947868228dde70666a12f2e8f57037cbf7b26f`;
-- size **`338,031 B`**;
-- GitHub SHA-256 **`76e1c10fed638d13851f637998160851ba7fad5ac67f2d8d94e9a0bed24f6477`**;
+- ID **`10478593230`**;
+- name `building-material-compact-v2-4179aa1401f5a9114399e2f998c96809d4b8ed2e-fs1-es0-tq0`;
+- size **`410,001 B`**;
+- GitHub SHA-256 **`54f1d3f5a6a6104ae068bc2356ce10470ea6b3334a644f9c7dd21a22c8711d05`**;
 - independently downloaded and rehashed to the exact same digest;
-- retains the exact family/source packet, exact-head binding, runtime receipt, aggregate summary and all 36 PNG renders.
+- retains exact owner policy, material profile, build/runtime receipts, continuity summary and six real PNG renders.
+
+## Same-head workflow state
+
+Materials-side same-head workflows observed green:
+
+- `Building material compact-v2 source-owner rebind evidence`;
+- `Building material boundary-shell compaction evidence` (historical v1);
+- `Building material current-world infill repair evidence`;
+- `Building material topology A-B evidence`;
+- `Building material header segmentation evidence`;
+- `Building material lookdev evidence`.
+
+Two inherited Hard-Surface workflows remain red on this Materials branch in their **owner-specific evidence construction/compatibility steps**, while their repository compile/test steps pass. That red state already existed as a cross-lane integration caveat and is **not** silently rewritten inside Materials. This activation does not claim those owner workflows are green.
 
 ## Reusable learning
 
-The reusable lesson is procedural, not a global foliage shader rule:
+Bounded reusable lesson:
 
-> **Do not assume `cull_disabled` requires a manual backface-normal flip. Compare the actual target renderer's existing two-sided shaded response against an explicit opposite-wound reference under a normal-sensitive light setup before adding shader correction.**
+> **When a source owner introduces a topology-compacted receiving representation, rebind Materials to the exact owner identity before inheriting any earlier visual PASS. Hold the material family constant, declare the normal policy explicitly, and compare the compact receiver against the reference under the real target renderer. Tiny rasterization deltas should be measured, not rounded into “pixel identical.”**
 
-This is now a strong Nature-specific renderer finding, but it should **not** be promoted to Universal Creation or Profession Fabric as a universal rule. Renderer/version/material-model differences can change two-sided normal behavior.
+This is a strong receiving pattern but not a universal UC policy yet. It should be promoted only if repeated across materially different domains/render paths.
 
 ## Handoffs
 
-### Nature Materials PR #5
+### Building Materials PR #3
 
-Record the exact target-host result and keep the scalar family unchanged. No custom faceforward-normal shader is requested for the current receiver.
+Exact result posted with real-render metrics and retained artifact. Keep the five-family material profile unchanged for compact-v2 under the tested hard-normal path.
 
-### Map Environment PR #24
+### Building Hard Surface PR #9
 
-The preferred current-world split-culling receiver can remain on its existing StandardMaterial-style two-sided foliage treatment for the next review step. Materials requests **no** color/roughness compensation and **no** manual backface-normal flip.
+Materials now satisfies the requested exact consumer rebind for the explicitly selected compact-v2 receiving identity. Hard Surface still owns whether/how that derived representation is offered; Materials does not turn it into the semantic/default source.
 
-### Nature Geometry PR #10
+### Building Geometry PR #8
 
-The explicit opposite-wound leaf-backface candidate remains valuable as a bounded reference and future transport fallback. This Materials result does not request Geometry adoption or removal.
+The compact-v2 donor now has a downstream five-family Materials receiving proof. Geometry ownership and its structural truth boundary remain unchanged.
 
-### Art Direction / Visual QA
+### Building Runtime PR #10
 
-The previously held shaded-backface technical question now has exact target-host evidence. Final visual preference, arbitrary-view inspection and current-world acceptance remain theirs rather than being inherited from this isolated Materials proof.
+Materials independently agrees with Runtime's earlier neutral-render observation that compact-v2 introduces only tiny hard-normal raster/shading differences. Runtime/device cost ownership remains Runtime's.
 
-### Runtime / Technical Art
+### Environment / Technical Art / Art Direction / Visual QA
 
-No target-device or transport cost verdict is made. Shader compilation, draw cost, GPU behavior and renderer/backend equivalence remain outside this pass.
+No adoption is requested by this status alone. If compact-v2 is selected for a current-world/transport path, each owner should bind to the exact identity rather than inherit this Materials PASS automatically.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- physically correct thin-leaf optics or botanical shading;
-- translucency, transmission, subsurface scattering or backlighting quality;
-- final normals/tangents/UVs/textures/alpha cutout;
-- final arbitrary camera/FOV/lighting/HDR/display equivalence;
-- final current-world Art Direction / Visual-QA acceptance;
-- Nature VFX flutter acceptance;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- arbitrary renderer or future Godot-version equivalence;
-- Geometry PR #10 adoption or rejection as a future fallback;
+- compact-v2 as semantic source or default receiver;
+- generated/smoothed-normal equivalence;
+- authored normal/tangent transport equivalence;
+- UV unwrap, atlas, texel density, texture, normal-map or decal equivalence;
+- arbitrary camera, FOV, lighting, HDR or renderer equivalence;
+- Environment/current-world adoption;
+- Technical-Art import/export/GLB equivalence;
+- Runtime/device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- final Art Direction or Visual-QA acceptance;
 - CANON;
 - production/game readiness;
 - Materials mastery.
 
 ## Four-root gate
 
-- **Truth:** the current receiver, custom-shader control, manual-normal intervention and explicit-geometry reference remain separate; both changed-pixel counts and aggregate RGB magnitude are recorded so the lower thresholded-pixel count of the manual flip is not misrepresented as a better match.
-- **Agency / non-domination:** Materials owns only the shaded receiving diagnostic. Environment owns scene adoption, Geometry owns source/backface topology, Runtime/Technical Art own cost/transport, and Art Direction / Visual QA retain final visual authority.
-- **Continuity:** PR #5 is advanced rather than duplicated; the prior family/sidedness evidence remains intact; the new diagnostic adds a new exact head and rollbackable artifact without silently relabelling earlier evidence.
-- **Wisdom before speed:** the pass tests the suspected backface-lighting problem directly and rejects an unnecessary custom shader intervention instead of adding shader complexity or retuning the family without evidence.
+- **Truth:** one thresholded changed pixel is reported as one, not rounded to zero; raw one-LSB differences are distinguished from the comparator threshold; exact donor/owner heads and artifact digest are pinned.
+- **Agency / non-domination:** Materials owns only surface receiving continuity. Geometry owns the compact mesh, Hard Surface owns the source receiving identity, Runtime owns runtime/device cost, Environment/Technical Art own adoption/transport, and Art Direction / Visual QA retain final visual authority.
+- **Continuity:** existing Building Materials PR #3 is advanced instead of duplicated; historical v1 and Nature evidence remain rollbackable and still supported; compact-v2 receives a new exact identity rather than silently overwriting earlier PASS state.
+- **Wisdom before speed:** no scalar retune was added merely because topology changed; the pass first proved whether the existing material family actually needed repair, and the evidence says it does not under the tested hard-normal receiver.
 
 ## Next Materials pass
 
-Re-scan the full constellation first. Do not keep extending Nature by inertia. Continue only if Art Direction / Visual QA requests a specific current-world shaded follow-up, a real translucency/texture dependency becomes source-ready, or a renderer/transport owner exposes a new receiving defect. Otherwise consider the now source-owned Building compact-v2 receiver or another fresh material/UV/surface-family gap.
+Re-scan the full constellation first. Do not keep squeezing Building compact-v2 by habit. Continue this lane only if Environment / Technical Art / Art Direction / Visual QA selects the compact-v2 identity and exposes a specific material/normal/UV receiving defect. Otherwise choose the strongest fresh material, UV, texture, shader or surface-family gap elsewhere in the constellation.
