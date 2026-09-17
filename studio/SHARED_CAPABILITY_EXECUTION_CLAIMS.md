@@ -64,6 +64,20 @@ Do not invent a global lock service, automatic winner selection, auto-close beha
 
 No active claim remains for #192 after the merged result. Any product consumer must bind/rerun the merged implementation explicitly; historical product evidence does not migrate by analogy.
 
+### UC #199 — closed-shell orientability / signed-orientation observer
+
+- `proposal_identity`: `mike-axiom-mir/axm-universal-creation#199`
+- `capability_scope`: `opt-in read-only closed-component orientability parity and signed-orientation evidence in the existing mesh-topology observer`
+- `claimant_specialist`: `02 Geometry & Topology`
+- `implementation_repo`: `mike-axiom-mir/axm-universal-creation`
+- `branch_or_pr`: `studio/geometry-closed-shell-orientation-observer-001` (PR not opened yet)
+- `base_revision`: `95b618f6e6028c2ac8c1a106cfa009a3c106f48c`
+- `state`: `CLAIMED`
+- `result_identity`: pending exact implementation head and CI
+- `non_claims`: no automatic winding repair, source adoption, universal outward label, renderer/front-face conversion, normals/tangents rewrite, self-intersection freedom, physical-volume/collision certification, product adoption, CANON, production or game-readiness authority transfers
+
+This claim is collision-avoidance evidence only. It grants no merge priority or authority. Building #6 and Object #33 remain separate product proofs, and any future product consumer must explicitly bind/rerun the shared observer before claiming coverage.
+
 ## Scope boundary
 
 This coordination surface is intentionally limited to **shared-capability execution**. It is not a registry for every product PR, every specialist task, or every experimental branch. Product repositories remain free to carry parallel domain-owned lanes when their scopes differ and their ownership boundaries are explicit.
