@@ -1,239 +1,265 @@
 # 14 — Capability Cartographer Status
 
 Date: 2026-09-17
-State: **PASS_PROTECTED_RENDER_PARTITION_INDEXING_MAP / SECOND MATERIAL SOURCE-TO-RENDER SPLIT DOMAIN FOUND / ATTRIBUTE TUPLE ALONE IS INSUFFICIENT / UC #170 REFINED WITH TOPOLOGY-PARTITION IDENTITY / NATURE + ANIMAL AUTHORITY PRESERVED / GENERIC REINDEX + AUTO-WELD HELD / PROFESSION FABRIC NOT IMPLEMENTATION HOME / NO PRODUCT OR UC CODE MOVE**
+State: **PASS_NORMALIZED_SKIN_WEIGHT_RECEIVER_CONTRACT_MAP / UC INTERNAL RECEIVER DRIFT CONFIRMED / ANIMAL RUNTIME #27 PROVIDES REAL RECEIVING-DOMAIN HOLD / UC #174 OPEN FOR BOUNDED RECEIVER PARITY / QUANTIZER + AUTO-ADOPTION + VISUAL ACCEPTANCE HELD / PROFESSION FABRIC NOT IMPLEMENTATION HOME / NO PRODUCT OR UC CODE MOVE**
 
 ## Current activation
 
 Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/14_capability_cartographer.md`, then rescanned newest coordination commits, specialist status, active design PRs, current Universal Creation and current Profession Fabric before selecting one bounded Cartography action.
 
-`axm-create-me` remains **coordination only**. This activation changes only this Cartography status and evidence-linked proposal comments. No Nature, Animal, Map, Building, Object, Character, Weather, Weapon, Armor, Unit or Misc product code was changed. No Universal Creation implementation, Profession Fabric implementation, acceptance threshold, merge state or CANON state was changed.
+`axm-create-me` remains **coordination only**. This activation changes only this Cartography status plus evidence-linked issue/PR coordination. No Animal, Nature, Map, Building, Object, Character, Weather, Weapon, Armor, Unit or Misc product code was changed. No Universal Creation implementation, Profession Fabric implementation, acceptance threshold, merge state or CANON state was changed.
 
-The previous Cartography result remains historical truth: source/topology vertex identity and render/attribute vertex identity can be different, and safe indexing must reason about the final render domain rather than blindly chasing the smallest vertex count. The new evidence strengthens that rule by proving that **protected render splits are not only attribute seams**.
+The previous protected-render-partition Cartography result remains historical truth at coordination commit:
+
+`16eabb1538c13483c837e81c9645ae182e0a07bb`
+
+That pass remains the active history for UC #170 and the Animal/Nature source-to-render indexing boundary. This activation does not rewrite or merge that result into the new glTF receiver question.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation scan
 
-Newest coordination movement after the prior Cartography pass includes:
+New movement after the prior Cartography pass includes:
 
-- VFX recording a real dynamic Nature leaf-backface Godot proof;
-- Technical Art adding a fail-closed Animal deformed direction-frame transport gate while preserving static skin/UV/handedness PASS and the measured direction-frame HOLD;
-- Environment finishing the Building current-source policy rebind into the current Map world with `68 / 68` byte-identical inherited frames;
-- Building Geometry / Hard Surface producing and source-owning a boundary-only receiving representation while keeping `header-segmented-23` as semantic authority;
-- Animal Runtime preserving indexing inside the 84-vertex tangent-ready render domain instead of collapsing it back to the 42-source-vertex domain;
-- a fresh Animal Runtime PR #26 exploring narrower glTF joint-index component width, which remains a separate import/storage representation question and was not used to justify this Cartography placement decision.
+- Animal Runtime PR #26 proving a bounded `JOINTS_0` component-width reduction and handing producer choice to Technical Art;
+- Animal Technical Art PR #3 adopting that exact joint-index width rule at the producer while reusing current UC unchanged;
+- Animal Runtime PR #27 opening a different storage experiment for `WEIGHTS_0` and discovering that the current UC shared JS rigged-glTF receiver blocks a representation that another current UC receiver already understands;
+- Animal Rigging PR #25 proving a bounded post-skin owner-frame reconstruction while preserving the older direct transported normal/tangent direction-frame HOLD;
+- Nature Procedural PR #4 applying the exact Geometry leaf-backface provider across nine existing procedural outputs without copying the provider;
+- Nature VFX PR #11 adding a bounded deterministic leaf-local flutter candidate with exact neutral endpoints and real Godot evidence.
 
-Weapon, Armor, Unit and Misc still expose no stronger ready cross-repo implementation signal in the current specialist scans. Character remains materially held by nonzero shoulder self-intersection evidence. Object, Map, Building and Nature retain active owner lanes; none needs a new Cartography-owned implementation branch.
+Those Rigging, Nature Procedural and Nature VFX lanes have clear owners and do not need Cartography-owned implementation. The fresh material cross-repo placement signal is the **UC receiver-contract mismatch** exposed by Animal Runtime #27.
 
-## First reference case retained — Animal attribute-semantic render expansion
+## Receiving-domain evidence — Animal Runtime #27
 
-`mike-axiom-mir/axm-animal-design` Geometry PR #20:
+Repository:
 
-- exact head: `ca4bb8a2f144231f8755eacc980785d1807b79db`;
-- source/topology domain: `42` vertices / `80` triangles;
-- render/attribute domain: `84` vertices / `80` triangles;
-- exact source positions and source triangle records reconstruct through the expanded domain;
-- protected split reasons include cylindrical UV seam identity, cap-vs-side surface-island identity and per-wedge polar tangent singularity identity.
+`mike-axiom-mir/axm-animal-design`
 
-Animal Runtime PR #23 exact head `f4b5b637dc0cabb51bcf9f14a44d53f397f300fa` then proves the correct storage boundary for that representation:
+Draft PR:
 
-- preserve the exact 84-vertex seam-aware render domain;
-- keep `240` indices / `80` triangles;
-- do **not** collapse to the 42 source vertices;
-- control storage `240` triangle-corner vertices -> indexed candidate `84` render vertices;
-- observed Godot RenderingServer buffer delta `-3,888 B` in both retained cameras;
-- both A/B PNG pairs byte-identical;
-- deliberate `84 -> 42` stored-vertex mutation rejected fail-closed.
+**#27 — `Runtime: compact Animal skin weights to normalized u16`**
 
-This remains the first clear proof that final render identity can require more vertices than source topology while still benefiting from indexing inside that final domain.
+Exact tested head:
 
-## Fresh second material case — Nature topology-semantic render expansion
+`e7874c4a8dca1db48bc66f3546c2134f7d724456`
 
-`mike-axiom-mir/axm-nature-design` Geometry PR #10:
+Pinned Technical Art parent / control:
 
-**`Geometry: test explicit two-sided leaf blade topology`**
+- Technical Art head: `54c9c11505e798a56619ebc14e9ab41f522eef70`;
+- control GLB SHA-256: `8d9bfb80369bda09eaad786a35833cd5e04da5e608211f53648daaa1cde29566`;
+- control GLB size: `10,948 B`;
+- `WEIGHTS_0`: FLOAT32 VEC4;
+- exact weight payload: `1,344 B`.
 
-Exact head:
+Runtime candidate:
 
-`da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`
+- `WEIGHTS_0`: normalized `UNSIGNED_SHORT / 5123` VEC4;
+- exact weight payload: `672 B`;
+- payload reduction: **`672 B / 50%`**;
+- candidate GLB size: **`10,296 B`**;
+- candidate SHA-256: `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`;
+- maximum decoded scalar weight error: `6.656398159820068e-06`;
+- decoded candidate row-sum error: `0.0` after the deterministic integer allocation;
+- every non-`WEIGHTS_0` accessor payload hash remains unchanged.
 
-This case is materially different from Animal. The split is not introduced by UV/tangent attributes.
+Exact workflow:
 
-For each existing leaf blade, Geometry:
+`35172575874 — Runtime Animal weight width budget evidence` — **SUCCESS**
 
-1. keeps the original four leaf vertices and two front-wound triangles unchanged;
-2. duplicates those four vertices at exactly identical coordinates;
-3. emits two exactly opposite-wound triangles on the duplicate indices;
-4. keeps the duplicate side **disjoint in index space** so the two coplanar sides do not turn the established mesh into indexed non-manifold geometry.
+Retained artifact:
 
-Across each of the three established Nature sources:
+- ID `10477292250`;
+- archive digest `sha256:76455589e0dde3327f72ebff6a117a2ce12ff57edaaf1d0e61304056d03063c3`;
+- exact Runtime head `e7874c4a8dca1db48bc66f3546c2134f7d724456`.
 
-- baseline remains `390` vertices / `570` triangles;
-- candidate becomes `490` vertices / `620` triangles;
-- exactly `100` duplicate leaf vertices / `50` opposite-wound leaf triangles are added;
-- baseline geometry remains an exact prefix;
-- whole-form bounds remain unchanged;
-- candidate retains zero indexed non-manifold edges and zero shared-edge orientation conflicts.
+The workflow is green because the evidence pipeline correctly proves and retains the current HOLD; it is **not** a UC acceptance PASS.
 
-This is therefore a second real source->render expansion family, but its protected identity is **topology/index partition**, not simply a differing per-vertex attribute tuple.
+Real Godot 4.7.2 GL Compatibility imports both control and candidate and keeps the bounded five-pose geometry observations inside the retained tolerance. Current UC's shared JS rigged-glTF receiver rejects the candidate with:
 
-## Fresh downstream proof — the Nature split survives deformation and closes a real renderer gap
+`WEIGHTS_0 accessor invalid`
 
-Nature VFX PR #11 remains the existing VFX lane and now has exact head:
+so Runtime's correct current decision remains:
 
-`4e5211d14286f9c292e769a78971f24d59194141`
+**`HOLD_TECHNICAL_ART_WEIGHT_STORAGE_ADOPTION__CURRENT_UC_RIGGED_CODEC_FLOAT_ONLY`**.
 
-It consumes Geometry PR #10 without reauthoring the leaf topology and carries the exact duplicate-to-front mapping through the established five-state sapling wind deformation.
-
-Direct structural observations:
-
-- all `100` appended duplicate leaf vertices remain position-coincident with their source front vertices at every retained phase;
-- maximum duplicate-position gap: `0.0 m`;
-- exact Geometry candidate identity at neutral `0.0 s` and exact return at `0.5 s`;
-- mirrored source-phase residual: `2.237726045655905e-16 m`;
-- a deliberate `+0.001 m` duplicate-position drift is rejected fail-closed.
-
-Dedicated workflow `35168195467` completed SUCCESS on exact head `4e5211d1...`.
-
-Real Godot 4.7.2 GL Compatibility evidence across five phases and two fixed cameras reports:
-
-- front no-cull vs candidate no-cull: `0` changed pixels in all `10 / 10` comparisons;
-- candidate no-cull vs candidate back-cull: `0` changed pixels in all `10 / 10` comparisons;
-- candidate back-cull vs original front no-cull: `0` changed pixels in all `10 / 10` comparisons;
-- the single-sided front baseline does exhibit real culling loss in both bounded cameras and all five phases;
-- total baseline culling-loss delta across those comparisons: `41,585` changed pixels.
-
-This establishes a bounded renderer fact: the exact disjoint opposite-wound leaf candidate survives the established deformation and closes the observed backface-culling hole in that proof host. It still does **not** decide that explicit duplicate geometry is the preferred production sidedness strategy.
-
-## Selected material cross-repo learning
-
-### Attribute equality is not sufficient for safe vertex/index deduplication
-
-The previous UC #170 refinement correctly proposed:
-
-`source/topology vertex domain -> render/attribute vertex domain -> optional eligible deduplication inside the render domain`
-
-Animal showed that vertices must remain split when declared attributes differ.
-
-Nature now adds the missing rule:
-
-> **Two render vertices can require distinct identity even when their positions — and potentially every currently declared per-vertex attribute — are equal, because the producer is preserving a topological/index partition that must not be welded.**
-
-Therefore the neutral eligibility key cannot be modeled only as a full attribute tuple.
-
-A more accurate representation is:
-
-`complete supported attribute tuple + protected representation-partition identity`
-
-Protected split semantics now have at least two materially evidenced classes:
-
-1. **attribute-semantic splits** — UV seam, surface/island boundary, tangent singularity, split normal, skin/color/morph/custom-channel identity when supported;
-2. **index/topology-semantic splits** — producer-declared disjoint sheet / topology partition identity where welding equal tuples would change edge incidence, indexed component identity or another declared topology invariant.
-
-This is not a claim that every duplicated vertex is protected. The protection must be explicit, provenance-bound and testable. Unknown duplication remains unknown rather than automatically sacred or automatically removable.
-
-## Universal Creation placement refinement
+## Fresh UC cross-repo learning — internal receiver contract drift
 
 Current Universal Creation main inspected this activation:
 
-`eb571ebd67b0e6c82387f1da32700e9be844b2af`
+`e6826acbc7296ba77d25534c8d3d3770ff3fa747`
 
-Its newest main change is unrelated orthogonal/radial physics preflight work. The existing rigged glTF codec remains unchanged in the currently consumed path. No active implementation exists on indexing proposal #170, so Cartography did not duplicate a UC implementation lane.
+Current shared JS receiver:
 
-Existing issue:
+`capabilities/platform-hands/shared/asset-hands/rigged-gltf-codec.js`
 
-**UC #170 — `Proposal: add attribute-aware indexed-surface eligibility report`**
+Exact blob:
 
-New Cartography refinement comment:
+`b1f2e68bb6c6800af5496decc95a8044d141edc9`
 
-**`5706802140`**
+Its current validation requires `WEIGHTS_0` to be:
 
-The issue remains observer/report-first. The proposed `RENDER_DOMAIN_SPLIT_REQUIRED` state should now allow protected split reasons that are not themselves vertex attributes.
+- `VEC4`;
+- component type `5126 / FLOAT`.
 
-Minimum refinement:
+Normalized integer weight accessors are rejected even when their semantic values are otherwise valid.
 
-1. retain exact source/topology and render-domain identities;
-2. retain deterministic source->render mapping where domains differ;
-3. retain complete supported declared attribute tuple;
-4. retain an explicit protected representation-partition identity when producer semantics require disjoint indexing;
-5. do not deduplicate across a protected partition merely because attributes compare equal;
-6. if a candidate attempts such a merge, HOLD and require topology/invariant evidence rather than celebrating a smaller vertex count;
-7. fail closed on unsupported channels or unknown protected-partition semantics;
-8. keep renderer equality, visual acceptance, performance and adoption outside the observer PASS.
+On the **same UC main**, a different neutral receiver already has the broader bounded semantics:
 
-A proposed future negative control is the Nature leaf case: attempt to collapse the explicit opposite-wound duplicate sheet onto the original front index domain and require the candidate to HOLD if the declared disjoint-sheet/topology invariants are lost. **That merged negative control has not yet been executed**, so no result is claimed for it here.
+`src/axm_uc/game_pose_runtime.py`
 
-Cartography also returned the placement boundary to Nature Geometry PR #10 in comment:
+It accepts `WEIGHTS_0` component types:
 
-**`5706803260`**
+- `5126 / FLOAT`;
+- `5121 / UNSIGNED_BYTE`;
+- `5123 / UNSIGNED_SHORT`.
 
-No Nature consumer was migrated and no UC implementation was started.
+For integer weights it requires `normalized: true`, decodes by the correct integer divisor, validates finite `0..1` values and row sums, and then uses semantic float weights for deformation.
 
-## Why this remains UC machinery, not Profession Fabric
+Its current test suite includes:
+
+`test_normalized_integer_weights_are_supported`
+
+which exercises normalized integer `WEIGHTS_0` rather than merely documenting it.
+
+This means the new Animal HOLD does **not** expose a missing Animal-specific trick. It exposes a current UC capability-placement inconsistency:
+
+> **two neutral UC rigged-glTF receiving paths disagree on the accepted representation of the same standard skin-weight semantic.**
+
+The correct reusable layer is therefore **UC receiver semantics / format contract parity**, not Runtime, Technical Art or Profession Fabric.
+
+## Why this is not yet a generic optimizer
+
+Runtime #27 has one bounded real asset and a deterministic quantization candidate, but that does not justify moving the quantizer or a "smallest weight width" policy into UC.
+
+The evidence currently supports only the smaller shared statement:
+
+1. normalized integer glTF skin weights are a valid neutral representation family;
+2. one current UC path already understands them;
+3. another current UC path rejects them;
+4. a real design-domain asset reaches Godot successfully with normalized-u16 weights;
+5. therefore receiver parity is the first shared dependency to repair before discussing producer automation.
+
+Automatic quantization would need materially broader source/skin/layout evidence, explicit error policy and its own ownership contract.
+
+## Visual truth remains separate
+
+Runtime #27's retained fixed-view comparison is **not pixel-neutral**.
+
+Coverage masks remain identical, but:
+
+- `view-00`: `21` changed pixels;
+- `view-01`: `203` changed pixels;
+- total: `224` changed pixels;
+- maximum channel delta: `1` LSB.
+
+That is small bounded evidence, not permission for Cartography or UC to call the candidate visually equivalent. Art Direction / Visual QA retain that decision. UC receiver support would establish only that the representation can be correctly decoded/validated inside its declared contract.
+
+The existing Animal deformed normal/tangent direction-frame HOLD also remains independent. Weight storage-width acceptance cannot be used to relabel or repair that surface.
+
+## Placement action — UC issue #174
+
+No existing active UC issue was found for normalized integer `WEIGHTS_0` receiver parity, and current UC main changes are unrelated physics/preflight work.
+
+Opened:
+
+**UC #174 — `Proposal: unify normalized skin-weight acceptance across UC rigged glTF receivers`**
+
+This is a bounded **receiver-first proposal**, not an implementation claim.
+
+Minimum proposed contract:
+
+1. preserve existing FLOAT `WEIGHTS_0` support;
+2. permit `UNSIGNED_BYTE / 5121` and `UNSIGNED_SHORT / 5123` only with `normalized: true`;
+3. reject normalized FLOAT and non-normalized integer weight accessors;
+4. decode integer weights to semantic float values before existing range/sum validation;
+5. add semantic cross-receiver fixtures for FLOAT, normalized-u8 and normalized-u16;
+6. compare the JS receiver with the already-supporting Python `game_pose_runtime` path instead of inventing a second new interpretation;
+7. preserve fail-closed unsupported sparse/interleaved/extension boundaries unless separately evidenced;
+8. if implemented, rerun the exact Animal Runtime #27 candidate against the exact new UC head.
+
+Explicitly outside #174:
+
+- a generic quantizer;
+- automatic smallest-width selection;
+- automatic Technical Art producer adoption;
+- visual acceptance;
+- arbitrary glTF import support;
+- direction-frame repair;
+- target-device performance;
+- CANON / production readiness.
+
+If receiver parity cannot be added without weakening unrelated fail-closed boundaries, the correct result is to keep the Runtime HOLD rather than force support.
+
+## Downstream handoff
+
+Returned this placement result to Animal Runtime PR #27 in comment:
+
+**`5707323954`**
+
+The handoff explicitly keeps Runtime's current HOLD truthful, forbids copying/bypassing the decoder in Animal, requires an exact-head rerun if UC #174 later changes receiver behavior, and preserves the `224`-pixel / `1`-LSB visual delta as Art/QA evidence rather than format acceptance.
+
+No Technical Art code or producer representation was changed.
+
+## Profession Fabric boundary
 
 Current Profession Fabric main remains:
 
 `941bd05007eb5cd88e773e66c858c62cf9de38a9`
 
-PF issue #38 remains the experimental home for source-successor / rebind **evidence and provenance procedure**. It may record that a render representation changed, which exact identity a consumer uses, and which claims require rerun.
+PF issue #38 remains the experimental home for **source-successor / dependency rebind evidence procedure**. It can describe which consumer must rerun when an identity or representation changes, but it is not the implementation home for glTF binary accessor component types, normalized decoding or receiver validation.
 
-It should not decide whether two vertices may be welded, whether an index partition is topologically necessary, or whether a UV/tangent/sidedness split is a valid render-representation requirement. Those are neutral representation/topology eligibility questions and therefore remain the UC candidate layer, with final domain policy retained by the producer.
-
-No PF implementation, new PF issue or profession promotion was opened.
+No PF issue, implementation or profession promotion was added this activation.
 
 ## Current capability / placement map
 
 | Capability / dependency | Current placement state |
 |---|---|
+| normalized integer `WEIGHTS_0` receiver semantics | **NEW: UC #174 neutral receiver-parity proposal** |
+| Animal normalized-u16 weight compaction candidate | **Animal Runtime #27-owned; HOLD on current UC JS receiver + Art/QA visual decision** |
+| automatic skin-weight quantizer / smallest-width policy | **HOLD extraction; one bounded asset is insufficient** |
+| `JOINTS_0` producer width selection for exact Animal joint domain | **Animal Technical Art-owned adoption; current UC reused unchanged** |
 | source-successor identity migration / typed dependency DAG | **PF issue #38 experimental evidence-procedure candidate** |
-| migration state vs bounded claim verdict | **PF #38 refinement retained** |
-| changed-field -> derived-representation dependency signature | **PF #38 refinement retained** |
 | neutral rigid-frame placement | **shared home confirmed = `axm-sticker-fabric`; UC compatible standalone copy preserved** |
-| nonadjacent triangle self-intersection observer | **UC issue #162 separate candidate; unchanged here** |
-| indexed vertex-fan diagnostic | **HOLD extraction; independent unchanged-method second-domain proof still missing** |
-| indexed surface eligibility | **UC issue #170 observer/report candidate** |
-| source/topology -> render-domain lineage | **UC #170 refinement retained** |
-| attribute-semantic protected split identity | **UC #170 candidate contract; evidenced by Animal** |
-| index/topology-semantic protected partition identity | **NEW UC #170 refinement; evidenced by Nature** |
-| generic mutating reindex transform | **HOLD** |
-| automatic weld across equal attribute tuples | **HOLD / fail-closed when protected partition exists** |
-| Animal UV/tangent render-domain split | **Animal Geometry-owned** |
-| Animal 84-vertex indexed storage proof | **Animal Runtime-owned** |
-| Nature explicit leaf-backface topology | **Nature Geometry-owned** |
-| Nature dynamic leaf-backface renderer proof | **Nature VFX-owned** |
-| production leaf sidedness choice | **Geometry / Materials / Runtime / Art Direction / Visual QA-owned; held** |
+| nonadjacent triangle self-intersection observer | **UC issue #162 separate candidate** |
+| indexed vertex-fan diagnostic | **HOLD extraction; unchanged-method second-domain proof still missing** |
+| indexed surface eligibility / source->render domains | **UC issue #170 observer/report candidate** |
+| attribute-semantic protected split identity | **UC #170 candidate; Animal evidence** |
+| index/topology-semantic protected partition identity | **UC #170 candidate; Nature evidence** |
+| generic mutating reindex / auto-weld | **HOLD** |
+| Animal post-skin owner-frame reconstruction | **Animal Rigging-owned; Technical Art adoption + shaded receiver still held** |
+| Nature leaf-backface family derivation | **Nature Geometry-owned operation, Procedural consumes exact donor** |
+| Nature bounded leaf flutter | **Nature VFX-owned visual candidate; final look/perf/physics held** |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that Animal Geometry PR #20, Animal Runtime PR #23, Nature Geometry PR #10 or Nature VFX PR #11 should merge or become CANON;
-- that every source->render expansion is correct or necessary;
-- that every duplicate vertex is a protected partition;
-- that Nature's explicit duplicate geometry is preferable to a two-sided material/shader or another sidedness strategy;
-- that the unexecuted Nature weld negative control fails in a specific way;
-- automatic generic seam, sheet or topology-partition detection;
-- safe collapse of UV, tangent, normal, material, skin, morph, custom-channel or disjoint-sheet splits;
-- arbitrary-mesh reindex safety;
-- renderer neutrality from structural eligibility;
-- target-device CPU/GPU/FPS/VRAM/heap improvement;
-- a production UC indexing/reindexing transform;
+- that UC #174 is implemented or should merge automatically;
+- that Animal Runtime PR #27 should merge or become CANON;
+- that normalized-u16 is the preferred production weight storage for Animal;
+- that the `224` changed pixels are visually acceptable or unacceptable;
+- pixel-neutral weight quantization;
+- automatic u8/u16 quantization or error-threshold policy;
+- arbitrary sparse/interleaved/multi-skin/multi-primitive glTF safety;
+- target-device CPU/GPU/FPS/VRAM/heap or import-speed improvement;
+- repair of Animal normal/tangent direction-frame transport;
+- any change to UC #170, UC #162 or PF #38;
 - PF implementation or profession promotion;
 - CANON, production readiness, game readiness or Cartography mastery.
 
 ## Next evidence triggers
 
-1. **UC #170 implementation, if it begins:** require both attribute tuple identity and protected representation-partition identity; do not use position/attribute equality alone as a weld license.
-2. **Negative control:** if a neutral observer prototype exists, run the Nature explicit-backface collapse as a real fail-closed topology-partition control rather than assuming the outcome by reasoning alone.
-3. **Runtime / Nature:** if Nature considers the explicit backface candidate for adoption, independently measure the `+100v / +50t` cost and compare against alternative sidedness strategies without transferring VFX's renderer PASS into performance acceptance.
-4. **Materials / Art / QA:** shaded/translucent/tangent/UV leaf appearance remains a fresh claim surface; the unshaded culling proof does not select the final look.
-5. **Technical Art / Animal:** deformed normal/tangent direction-frame HOLD remains separate from the 84-vertex storage PASS; no indexing result repairs it.
-6. Keep PF #38, UC #162, vertex-fan extraction and UC #170 separate unless future evidence proves an actual common contract.
+1. **UC #174 implementation, if it begins:** prove FLOAT + normalized-u8 + normalized-u16 semantic decoding parity without weakening fail-closed unsupported-format boundaries.
+2. **Animal Runtime #27 after UC change:** rerun the exact candidate against the exact new UC receiver; retain the historical current-UC HOLD rather than rewriting it.
+3. **Art Direction / Visual QA:** independently judge the retained 224-pixel / max-1-LSB visual difference if Technical Art ever considers adoption.
+4. **Technical Art:** producer adoption remains blocked until the consumer contract and visual ownership are resolved; no Cartography auto-promotion.
+5. **Generic quantization extraction:** require additional materially different real skins/layouts and explicit error policy before considering UC machinery beyond receiver parity.
+6. Keep UC #174, UC #170, UC #162 and PF #38 separate unless future evidence proves a real common contract.
 
 ## Roots check
 
-- **Truth:** Animal and Nature are kept as different split classes; the Nature weld negative control is proposed but not falsely reported as executed.
-- **Agency / non-domination:** Animal keeps UV/tangent authority, Nature keeps leaf topology/sidedness authority, VFX keeps its bounded renderer evidence, Runtime keeps cost/representation authority, Materials/QA/Art keep final appearance, UC would own only neutral eligibility machinery, and PF remains evidence/provenance procedure.
-- **Continuity:** exact Animal and Nature producer/consumer heads remain distinct evidence identities; no historical receipt is relabelled because a broader representation rule was discovered.
-- **Wisdom before speed:** broaden the observer contract around two materially different real split reasons before centralizing a mutating optimizer or welding equal-looking vertices by convenience.
+- **Truth:** the workflow's green execution is recorded as a truthful HOLD, not mislabeled UC acceptance; current UC's two receiver behaviors are kept distinct; nonzero visual deltas remain visible.
+- **Agency / non-domination:** Runtime owns the optimization experiment, Technical Art owns producer choice, UC owns only neutral receiver semantics, Art/QA own visual acceptance, Rigging keeps deformation-frame truth, and PF keeps evidence-procedure scope.
+- **Continuity:** exact current UC head/blob, Animal parent/head, control/candidate hashes, workflow/artifact identities, prior Cartography commit and downstream comment are retained separately; no historical receipt is relabelled.
+- **Wisdom before speed:** repair the smaller internal receiver-contract gap before centralizing a quantizer or forcing a downstream asset through a decoder that currently rejects it.
