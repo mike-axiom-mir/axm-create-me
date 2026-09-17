@@ -1,265 +1,253 @@
 # 13 — Visual Observer / QA Specialist Status
 
 Date: 2026-09-17
-State: **PASS_CURRENT_WORLD_NATURE_LEAF_FLUTTER_SAMPLED_VISUAL_INTEGRATION_GATE / PASS_CURRENT_WORLD_NATURE_LEAF_FLUTTER_NO_SAMPLED_BROAD_VISUAL_REGRESSION / BLOCKED_FINAL_NATURE_FLUTTER_LOOK__ART_DIRECTION_NATURALNESS_SHADED_BACKFACE_ARBITRARY_VIEW_CONTINUOUS_TIMING_TARGET_DEVICE_PENDING**
+State: **PASS_WALL_CLOCK_PHASE_LOCK_AND_SOURCE_DROP_ACCOUNTING / FAIL_LITERAL_32HZ_DIRECT_SOURCE_FULL_DELIVERY_ON_PROOF_HOST / BLOCKED_FINAL_NATURE_FLUTTER_PERCEPTUAL_TIMING__DIRECT_TIMED_VISUAL_CAPTURE_TARGET_DEVICE_AND_ART_DIRECTION_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current QA / Art Direction state, newly updated Animal / Nature / Map lanes, exact current workflow state and retained target-host evidence before selecting one bounded visual gate.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, current Art Direction / VFX / Animation / Materials / Runtime state, exact open PR state and retained target-host evidence before selecting one bounded QA gate.
 
-`axm-create-me` remains **coordination only**. Visual QA changed no Map, Nature, Weather, Animal, Universal Creation, Profession Fabric or gameplay/product implementation.
+`axm-create-me` remains **coordination only**. Visual QA changed no Map, Nature, Weather, Building, Animal, Universal Creation, Profession Fabric, gameplay or product implementation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Continuity from previous QA gate
 
-The previous current-world Nature sidedness result remains valid:
+The previous Nature result remains valid and is not reopened:
 
-- exact Map Environment head `10c6e29790b0b53b20abd603738cb54671af013c` passed split-surface culling visual integration;
-- Art Direction subsequently accepted `woody=CULL_BACK / foliage=CULL_DISABLED` with the existing `390v / 570t` source geometry as the preferred current-world receiving reference;
-- final Nature look remained held specifically for shaded backface response, flutter, arbitrary views and target-device acceptance.
+- Map Environment head `7713cbe5863c3bc38dabb6236eb4b393401224b6` passed sampled current-world leaf-flutter integration;
+- all 68 retained parent/candidate frame pairs were previously inspected;
+- motion remained localized to foliage, exact neutral endpoints were preserved and no sampled broad visual regression was reproduced;
+- final timing/naturalness remained explicitly blocked because those frames were sampled source phases rather than real delivered wall-clock presentation.
 
-This activation keeps that exact state as the parent/control and does not reopen its culling decision.
+Art Direction then accepted the existing `5°` leaf-local spatial response as the preferred sampled **shape**, while explicitly holding literal timing / naturalness.
 
 ## Fresh constellation / duplication scan
 
-The strongest newly completed unverified visual surface is the **current-world Nature leaf-local micro-flutter receiver** on existing Map Environment PR #24.
+The strongest newly completed unverified visual/runtime claim is the new **current-world Nature leaf-flutter wall-clock direct-source reference** on Map VFX PR #35.
 
-Why it outranks the other ready surfaces:
+Why this outranks other ready surfaces:
 
-- Art Direction explicitly named current-world flutter on top of the accepted split-cull receiver as a next visual gate;
-- Nature VFX PR #11 owns the exact micro-flutter source effect and now also has a completed retained sampled-review surface without retuning the effect;
-- Map Environment PR #24 has completed the previously queued real-Godot current-world receiving proof for the exact 17 VFX source phases while preserving the accepted split-cull baseline;
-- Animal still retains the measured deformed normal/tangent transport HOLD (`7.541933°` normal excess / `3.684086°` corrected tangent excess); recent JOINTS/WEIGHTS storage work does not repair that Art-facing surface;
-- Map Runtime's footprint and Animal normalized-weight deltas are smaller bounded one-pixel/one-LSB or similarly low-consequence codec surfaces;
-- Character remains structurally held by shoulder intersections.
+- VFX PR #35 directly closes the exact timing gap left by the previous QA and Art Direction passes;
+- it drives the already accepted spatial source through monotonic wall clock without interpolation or retiming and records missed direct-source slots instead of hiding them;
+- its exact workflow is complete and successful at the current exact PR head;
+- Building compact-v2 now has strong Materials and Runtime evidence but still lacks downstream Art / current-world / transport adoption, making it the next separate QA candidate rather than a reason to duplicate this timing lane;
+- Animal still retains the transported deformed direction-frame hold;
+- Character remains structurally held by shoulder intersections;
+- Animation's new dense subframe witness is source-curve evidence and explicitly does not claim target-engine interpolation or perceptual timing.
 
-No duplicate Environment, VFX, Materials, Geometry, Runtime or Art lane was opened.
+No duplicate VFX, Environment, Runtime, Materials, Animation or Art implementation lane was opened.
 
 ## Exact reviewed identity
 
 Repository: `mike-axiom-mir/axm-map-design`
 
-Existing Environment PR: **#24 — `Environment: converge Weather variant with exact Object source`**
+VFX PR: **#35 — `VFX: characterize current-world Nature flutter wall-clock playback`**
 
-Exact current-world flutter candidate head:
+Exact VFX head:
+
+`795d9e8862e895e506c756b9ea01cd6228fa7ab7`
+
+Exact accepted Nature effect:
+
+`ecade64227ba1d3d1faf029ca7188ea63c2560ec`
+
+Exact accepted current-world receiver:
 
 `7713cbe5863c3bc38dabb6236eb4b393401224b6`
 
-Exact accepted split-cull parent:
+Exact accepted static split-cull parent:
 
 `10c6e29790b0b53b20abd603738cb54671af013c`
 
-Exact effect donor:
+Presentation contract:
 
-- Nature VFX PR #11 effect head: `ecade64227ba1d3d1faf029ca7188ea63c2560ec`;
-- 17 exact source phases over the inherited `0.50 s` response window;
-- leaf-local plane twist only;
-- authored base/tip remain on the inherited wind response;
-- `5°` source cap;
-- exact neutral endpoints;
-- maximum observed source flutter vertex delta `0.006920423273762265 m`;
-- no added non-leaf motion.
+`PHASE_LOCKED_LATEST_DUE_DIRECT_SOURCE_STATE_NO_RETIME`
 
-New VFX review-only head:
+Bounded source semantics retained:
 
-`9d446359defe1e663d4d9cc683ca0b9cac6bf6c0`
+- 16 unique repeating direct-source phases `00..15`;
+- source phase `16` retained only as the exact neutral endpoint witness;
+- nominal source spacing `31.25 ms`;
+- nominal cycle duration `0.50 s`;
+- 3 complete nominal cycles per fixed camera;
+- no interpolation;
+- no retime;
+- Weather held at exact source phase `00` using source-width presentation;
+- existing `390v / 570t` Nature receiver retained;
+- `woody=CULL_BACK`, `foliage=CULL_DISABLED` retained.
 
-That VFX head adds only deterministic sampled review machinery around the existing effect. It does not retune the effect or silently replace the exact source phases consumed by the Map receiver.
-
-## Exact workflows and retained artifacts
-
-### Current-world Map receiver
+## Exact workflow and retained evidence
 
 Workflow:
 
-`35174899697 — Environment Nature leaf flutter current-world evidence` — **SUCCESS**.
+`35179504496 — VFX Nature leaf flutter wall-clock current-world evidence` — **SUCCESS**.
 
-Exact head:
+Exact timed artifact:
 
-`7713cbe5863c3bc38dabb6236eb4b393401224b6`
-
-Artifact:
-
-- ID `10478103666`;
-- name `environment-nature-leaf-flutter-current-world-001-7713cbe5863c3bc38dabb6236eb4b393401224b6`;
-- size `7,027,056 B`;
-- GitHub SHA-256 `0f7343c5e9c172b5816709cb7121aa44a91838962b51cbf0fa46b1c43565ddea`;
+- ID `10479554477`;
+- GitHub SHA-256 `499f364a77a0e145826ea8998fced8550361ab02e18beb244ae36956e0431d8a`;
 - independently downloaded and rehashed by Visual QA to the exact same digest.
 
-### Exact accepted parent
+The retained timed packet contains the exact runtime receipt / Godot log / summary but **no timed PNG sequence or video**.
 
-Parent artifact:
+For visual attribution QA also independently re-downloaded the already accepted retained imagery:
 
-- ID `10477476774`;
-- exact parent head `10c6e29790b0b53b20abd603738cb54671af013c`;
-- GitHub SHA-256 `db67e657dcecb044e7e46b1aeedadc71fcb907c9c3720045f20a753de885f689`;
-- independently re-downloaded and rehashed by Visual QA to the exact same digest.
+- sampled flutter current-world artifact `10478103666`, SHA-256 `0f7343c5e9c172b5816709cb7121aa44a91838962b51cbf0fa46b1c43565ddea`;
+- accepted split-cull parent artifact `10477476774`, SHA-256 `db67e657dcecb044e7e46b1aeedadc71fcb907c9c3720045f20a753de885f689`.
 
-### VFX sampled review surface
+Target host remains Godot `4.7.2` / GL Compatibility.
 
-Workflow:
+## Independent timing reproduction
 
-`35175510387 — Nature VFX bounded leaf flutter Godot candidate` — **SUCCESS**.
+Visual QA independently parsed every timed record rather than inheriting the VFX summary.
 
-Exact review head:
+Across both fixed-camera runs:
 
-`9d446359defe1e663d4d9cc683ca0b9cac6bf6c0`
+- scheduled direct-source slots: **96**;
+- actually presented: **92**;
+- skipped: **4**;
+- direct-source slot coverage: **95.8333333333%**.
 
-Artifact:
+### `path_eye`
 
-- ID `10478064585`;
-- size `1,184,970 B`;
-- GitHub SHA-256 `7a58288c879112e30a1f0b0cc9bb89210b21d01590dcdd7906ea945cd77a0747`;
-- independently downloaded and rehashed by Visual QA to the exact same digest.
+- scheduled `48`;
+- presented `47`;
+- skipped absolute slot `19`;
+- visible source identity therefore jumps from phase `2` directly to phase `4`, omitting phase `3`;
+- recomputed post-draw intervals: about `28.924..58.852 ms`, median `29.7625 ms`;
+- the one missed slot produces the long retained interval rather than silently slowing the whole cycle.
 
-Target host for the retained imagery remains Godot `4.7.2`, GL Compatibility.
+### `elevated_oblique`
 
-## Independent current-world reproduction
+- scheduled `48`;
+- presented `45`;
+- skipped absolute slots `11`, `23`, `38`;
+- resulting direct-source jumps are phase `10 -> 12`, `6 -> 8`, and `5 -> 7`;
+- recomputed post-draw intervals remain about `32.541..34.945 ms`, median `33.790 ms`.
 
-Visual QA independently compared every exact accepted-parent / flutter-candidate current-world PNG across:
+This is an important distinction: elevated does **not** hide the missed source state as a long hold. It keeps approximately one rendered presentation every ~34 ms and occasionally advances by two source phases to stay wall-clock locked.
 
-- `17` states;
-- `2` fixed cameras: `path_eye`, `elevated_oblique`;
-- `2` inherited Weather presentations: thin-line control and source-width candidate;
-- `68` exact A/B frame pairs total.
+## Independent visual-step attribution
 
-### Exact neutral closure
+Because the timed artifact contains no timed frames, QA did **not** pretend the wall-clock log itself proves perceptual quality.
 
-States `00` and `16` reproduce **0 changed pixels** in both cameras and both Weather presentations.
+Instead QA used the exact retained sampled current-world A/B pair to compute a bounded **flutter-only residual** for every source phase:
 
-The new motion therefore starts and returns to the exact accepted current-world parent appearance at the retained source endpoints.
+`flutter residual = sampled flutter frame - exact split-cull parent frame at the same Weather/source state`
 
-### Interior visible footprint
+Then, for each actual skipped wall-clock transition, QA measured the change between those exact flutter residuals. This removes the large unrelated whole-scene Weather/background term from the source-state comparison.
 
-Across states `01..15`:
+Result relative to the median adjacent authored flutter step in the same camera:
 
-- `path_eye`: `118..242` changed pixels/frame, median `196`;
-- `elevated_oblique`: `123..197`, median `174`;
-- maximum channel delta: `206 LSB` in both views.
+- `path_eye` phase `2 -> 4`: **0.872x** adjacent-step median, **0.691x** adjacent-step maximum;
+- `elevated_oblique` phase `10 -> 12`: **1.358x** median, **0.879x** maximum;
+- `elevated_oblique` phase `6 -> 8`: **1.529x** median, **0.990x** maximum;
+- `elevated_oblique` phase `5 -> 7`: **1.318x** median, **0.853x** maximum.
 
-At the retained `900 × 880 = 792,000` frame size, this is only:
+Interpretation:
 
-- `path_eye`: about `0.0149..0.0306%` of the full frame;
-- `elevated_oblique`: about `0.0155..0.0249%`.
+- three elevated double-phase jumps are stronger than the *median* adjacent step;
+- none exceeds the strongest adjacent flutter step already present in the authored sampled response;
+- the path-eye skip is actually below its adjacent-step median;
+- therefore the four missed states do not by themselves prove a catastrophic visual jump, but they also cannot be relabelled as smooth/direct 32 Hz delivery.
 
-The current-world flutter is therefore real but intentionally **very subtle at normal scene scale**. The PASS below is not a claim that the effect is strongly readable or aesthetically sufficient.
+These residual-energy comparisons are attribution diagnostics, **not display pixel deltas and not perceptual smoothness scores**.
 
-### Weather-confound check
+## Generated diagnostic replay boundary
 
-For every camera/state, QA independently compared the accepted-parent -> flutter change mask under thin-line Weather against the same change mask under source-width Weather.
+QA generated inspection-only replay aids from exact retained evidence:
 
-Maximum XOR disagreement is **3 pixels**.
+- a skip-event montage showing the previously presented source state, the omitted direct source state and the next presented state;
+- ideal-versus-measured cadence review GIFs for both fixed cameras.
 
-That tiny edge/rasterization residual is not a broad Weather-dependent motion shift; the flutter attribution remains localized to Nature.
+To hold Weather fixed for diagnosis, these aids reconstruct each sampled flutter phase by adding the exact sampled flutter A/B residual to the accepted Weather-phase-00 parent.
 
-### Sampled temporal-energy check
+This is useful because the previous QA pass independently found only at most 3 pixels of Weather-mode disagreement in the flutter attribution mask.
 
-QA also measured inter-frame change over the foliage inspection regions against the inherited whole-sapling parent motion.
+However the reconstruction is still explicitly **derived diagnostic imagery, not a direct capture of PR #35's timed run and not display-scanout evidence**.
 
-The flutter adds only a small local temporal increment overall, but its largest sampled local step is concentrated near the middle of the response window:
-
-- path-eye state `08 -> 09`: local mean absolute step rises about `0.5353 -> 0.8075` RGB-LSB-equivalent average over the bounded crop (`~1.51×`);
-- elevated state `07 -> 08`: about `0.5294 -> 0.7829` (`~1.48×`).
-
-This is not classified as a defect here: the changed area remains tiny and directly corresponds to the intended local twist. It **does** prevent QA from silently upgrading sampled noncorruption into natural-motion / smooth-playback acceptance.
-
-## Direct visual inspection
-
-Visual QA directly inspected:
-
-- full current-world frames;
-- enlarged accepted-parent / flutter / difference boards at states `0 / 4 / 8 / 12 / 16` in both fixed cameras;
-- the exact source-level VFX sampled-review artifact;
-- 4×-slowed parent-versus-flutter review loops for both current-world cameras.
-
-Observed result:
-
-- all visible changes remain on the tiny foliage region associated with the west sapling motion;
-- trunk/branch form remains stable;
-- no sampled culling hole, geometry wedge, detached leaf block, clipping failure, broad color/material shift or scene corruption appears;
-- Building, Object, route, accepted Nature culling treatment and broader composition remain visually stable;
-- exact neutral seam closure is visible at both retained endpoints;
-- the VFX review keeps opposing local leaf-twist directions rather than moving the whole crown in one same-direction twist;
-- at full scene scale the added effect is very small and is easier to inspect in enlarged A/B or playback than in a single normal-size frame.
-
-No obvious sampled renderer defect was reproduced.
+Direct inspection of the derived skip montage does not show a gross culling hole, detached leaf mass, geometry wedge or crown-scale pop at any of the four omitted-state transitions. The spatial effect remains very small. That observation is intentionally not promoted into naturalness or final smoothness acceptance.
 
 ## QA verdict
 
-### PASS — sampled current-world visual integration
+### PASS — wall-clock phase-lock / source-drop accounting
 
-**`PASS_CURRENT_WORLD_NATURE_LEAF_FLUTTER_SAMPLED_VISUAL_INTEGRATION_GATE`**
-
-Exact meaning:
-
-> At exact Map Environment head `7713cbe5863c3bc38dabb6236eb4b393401224b6`, the exact bounded VFX leaf-local micro-flutter source phases execute inside the accepted current-world split-cull receiver, produce localized renderer-visible foliage motion in all 15 interior retained phases, and return exactly to the accepted parent appearance at both retained endpoints.
-
-### PASS — no sampled broad visual regression
-
-**`PASS_CURRENT_WORLD_NATURE_LEAF_FLUTTER_NO_SAMPLED_BROAD_VISUAL_REGRESSION`**
+**`PASS_WALL_CLOCK_PHASE_LOCK_AND_SOURCE_DROP_ACCOUNTING`**
 
 Exact meaning:
 
-> Across all 68 retained current-world A/B frame pairs, Visual QA observed no new broad scene corruption, trunk/branch mutation, culling loss, geometry wedge, detached foliage mass, clipping failure or unrelated Building/Object/route drift attributable to the flutter candidate.
+> At exact VFX head `795d9e8862e895e506c756b9ea01cd6228fa7ab7`, the current-world proof records monotonic phase-locked latest-due direct-source presentation truthfully, preserves nominal source-cycle timing rather than silently stretching the effect, and exposes every missed source slot in the retained runtime evidence.
 
-### BLOCKED — final flutter / Nature look
+### FAIL — literal direct-source 32 Hz full delivery on this proof host
 
-**`BLOCKED_FINAL_NATURE_FLUTTER_LOOK__ART_DIRECTION_NATURALNESS_SHADED_BACKFACE_ARBITRARY_VIEW_CONTINUOUS_TIMING_TARGET_DEVICE_PENDING`**
+**`FAIL_LITERAL_32HZ_DIRECT_SOURCE_FULL_DELIVERY_ON_PROOF_HOST`**
+
+Exact meaning:
+
+> The exact proof host does not present all scheduled direct-source states at the inherited `31.25 ms` cadence. It presents `92 / 96` scheduled slots, with one skipped slot in `path_eye` and three in `elevated_oblique`. Therefore full literal direct-source 32 Hz delivery is false for this exact host/run.
+
+This FAIL does **not** reject the spatial flutter source and does **not** authorize retiming/interpolation automatically.
+
+### BLOCKED — final perceptual timing / naturalness
+
+**`BLOCKED_FINAL_NATURE_FLUTTER_PERCEPTUAL_TIMING__DIRECT_TIMED_VISUAL_CAPTURE_TARGET_DEVICE_AND_ART_DIRECTION_PENDING`**
 
 Reasons:
 
-1. QA does not own final motion aesthetic preference;
-2. the current-world evidence is sampled source-phase evidence, not real wall-clock pacing;
-3. continuous interpolation between source phases is not proven;
-4. sampled mid-window temporal deltas are locally stronger than the inherited parent motion, even though the area is tiny, so naturalness should be judged in the intended final playback path rather than inferred from still PASSes;
-5. the current Nature scalar/lookdev state is not final shaded foliage/backface material response;
-6. only two fixed cameras / one proof host are covered;
-7. proof-host stability does not establish target-device CPU/GPU/FPS/VRAM/thermal/battery cost.
+1. the exact wall-clock artifact retains timing identities/logs but no direct timed visual capture;
+2. derived replay aids cannot substitute for observing the actual rendered timed stream;
+3. proof-host `RenderingServer.frame_post_draw` is not display scanout;
+4. the four source drops create real double-phase advances, including three elevated transitions above median adjacent flutter-step energy;
+5. no target-device timing/performance evidence exists;
+6. final motion preference belongs to Art Direction, not QA.
 
 ## Handoffs
 
-### Map Environment PR #24
+### Map VFX PR #35
 
-No repair requested. Preserve the exact accepted split-cull parent as the comparison baseline and keep the flutter receiver isolated from unrelated Building/Object/Weather/material changes.
+No source retune requested from this QA pass.
 
-Returned the independent result to PR #24 as comment `5707865725`.
-
-### Nature VFX PR #11
-
-The exact effect has a QA-clean sampled current-world integration boundary. Do not interpret that as naturalness, physical wind, interpolation or wall-clock acceptance. The new sampled-review surface is useful evidence and should remain provenance-bound to the unchanged effect.
+The smallest next evidence improvement is a **direct timed visual capture** of this exact no-retime reference under the same fixed Weather/cameras, with retained per-frame/slot identity. Preserve the current source, spatial amplitude and source-drop log so any later retime/interpolation candidate can be compared cleanly.
 
 ### Art Direction
 
-The candidate is ready for a **narrow motion-preference review**: is this amount/cadence of micro-flutter useful in the current sparse stylized Nature language? QA specifically does not answer that aesthetic question.
+Do not infer naturalness from the 95.83% slot coverage or from the derived replay. The exact no-retime reference now has a truthful runtime characterization, but final timing preference remains blocked until the directly timed visual result can be reviewed.
 
 ### Runtime
 
-Continuous presentation cadence and target-device cost remain separate. Do not infer runtime smoothness from nominal `0.03125 s` source sample spacing or browser/review playback.
+The proof-host run establishes only this host's delivery behavior. Target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance remains separate.
+
+### Building compact-v2
+
+Building compact-v2 Materials/Runtime evidence remains a separate next Visual-QA candidate. No acceptance is transferred from this Nature timing result.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- final Art Direction preference for flutter amount, frequency or visibility;
-- natural wind, plant biomechanics or physical correctness;
-- continuous interpolation / C1 motion quality;
-- real wall-clock 32 Hz playback or frame pacing;
+- perceptual naturalness, smoothness or lack of shimmer;
+- display scanout timing;
+- final flutter cadence/frequency;
+- need for interpolation, retiming or temporal filtering;
+- target-device FPS/CPU/GPU/VRAM/thermal/battery behavior;
+- physical wind, plant biomechanics or aerodynamics;
 - arbitrary camera/FOV/resolution/renderer/display equivalence;
-- final shaded two-sided leaf normal/lighting response;
-- final normals, tangents, UVs, textures, translucency/transmission or alpha treatment;
-- target-device CPU/GPU/FPS/VRAM/heap/thermal/battery acceptance;
-- collision, navigation, interaction or gameplay behavior;
-- resolution of Animal's transported deformed direction-frame HOLD;
+- final foliage material / shaded backface response;
+- gameplay/collision/damage/interaction behavior;
+- Environment adoption beyond the exact accepted receiver;
+- resolution of Animal's transported direction-frame HOLD;
+- Character shoulder-intersection freedom;
+- Building compact-v2 Art/current-world/transport acceptance;
 - CANON;
 - production/game readiness;
 - Visual Observer / QA mastery.
 
 ## Four-root gate
 
-- **Truth:** exact parent, effect donor, review head, current-world head, all-frame deltas, subtle scene-scale footprint and remaining timing/look/performance holds stay distinct.
-- **Agency / non-domination:** VFX owns effect semantics, Environment owns receiving composition, Art Direction owns preference, Runtime owns timing/cost, and QA owns only bounded visual verification.
-- **Continuity:** accepted split-cull parent remains the exact rollback/reference; the flutter effect donor, review-only successor and current-world receiver retain separate identities.
-- **Wisdom before speed:** accept the small real sampled integration win without inflating it into naturalness, final look, physical wind or runtime readiness before those proofs exist.
+- **Truth:** 92/96 delivery, exact skipped slot identities, derived visual diagnostics and missing direct timed capture remain separate facts.
+- **Agency / non-domination:** VFX owns timing implementation, Environment owns composition, Art Direction owns preference, Runtime owns target-device performance, and QA owns bounded verification only.
+- **Continuity:** exact effect, accepted receiver, exact timed head, all three retained artifact digests and prior sampled QA remain separately pinned and rollbackable.
+- **Wisdom before speed:** reject the false full-32-Hz claim without overreacting to four small dropped states, and require the smallest direct visual proof before changing source timing or amplitude.
 
 The four AXM roots remain the merge gate.
