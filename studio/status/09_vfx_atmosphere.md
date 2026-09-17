@@ -1,17 +1,17 @@
 # 09 — VFX / Atmosphere Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / PASS_BOUNDED_DETERMINISTIC_LEAF_FLUTTER_GODOT_VISUAL_CANDIDATE / SHADED LOOKDEV + PERCEPTUAL NATURALNESS + CONTINUOUS TIMING + MAP RECEIVING + PHYSICS + GAMEPLAY + TARGET_PERF + FINAL_ART HELD**
+State: **ACTIVE / PASS_RETAINED_GODOT_SAMPLED_LEAF_FLUTTER_REVIEW_SURFACE / NEW EXACT-HEAD CI QUEUED / PERCEPTUAL NATURALNESS + CURRENT-WORLD MAP EQUIVALENCE + WALL-CLOCK TIMING + PHYSICS + GAMEPLAY + TARGET PERF + FINAL ART HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/09_vfx_atmosphere.md`, then inspected the current open design-repository lanes before choosing one bounded visual improvement.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/09_vfx_atmosphere.md`, then inspected current status and open PRs across the design repositories.
 
-The highest-leverage non-duplicated gap was no longer basic leaf sidedness: Geometry PR #10 already owns the explicit two-sided leaf topology, while Nature VFX PR #11 had already proved that exact candidate survives the inherited sapling wind deformation and Godot backface culling. The next useful VFX-only question was whether the otherwise rigid leaf planes could receive a small deterministic local motion layer without reauthoring the established whole-sapling response, Weather semantics, topology, Materials/lookdev, gameplay or physics.
+The highest-leverage non-duplicated VFX step was **not another leaf-motion retune**. Art Direction currently prefers the split-cull current-world Nature receiver and explicitly keeps the isolated leaf-flutter candidate separate pending motion judgment; Map Environment already has a current-world receiver lane for the prior exact VFX source phases. Weather/Runtime and Geometry/Materials lanes are also active. Wisdom-before-speed therefore favors making the exact existing micro-flutter evidence directly reviewable before inventing another effect.
 
-This activation therefore stayed inside existing Nature draft PR #11 and added a **bounded deterministic leaf-local micro-flutter candidate**. No new Map Weather, Runtime, Geometry, Materials, Rigging or Animation lane was opened. `axm-create-me` remains coordination-only.
+This activation stayed inside existing Nature draft PR #11 and added a **self-contained sampled temporal A/B review surface** for the bounded leaf-flutter candidate. `axm-create-me` remains coordination-only.
 
-## Exact source lineage retained
+## Exact lineage
 
 Nature VFX PR #11 branch:
 
@@ -19,58 +19,80 @@ Nature VFX PR #11 branch:
 
 Current exact head:
 
+`9d446359defe1e663d4d9cc683ca0b9cac6bf6c0`
+
+The prior exact real-Godot leaf-flutter effect head remains:
+
 `ecade64227ba1d3d1faf029ca7188ea63c2560ec`
 
-PR #11 is open, draft, unmerged and mergeable.
+PR #11 remains open, draft and unmerged. The current head only adds review/evidence machinery; it does **not** reauthor the established VFX source effect.
 
-Pinned Geometry leaf donor:
+Pinned Geometry leaf donor remains:
 
 - Geometry PR #10 head: `da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`;
 - migrated front mesh digest: `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`;
 - explicit leaf-backface candidate digest: `e0b423bd4ff20251a960655441f97e36277da2f5b88a832ecfc5ccfe404bbbea`;
-- baseline counts: `390` vertices / `570` triangles;
-- candidate counts: `490` vertices / `620` triangles;
-- exact additional Geometry domain: `100` duplicated leaf vertices / `50` opposite-wound leaf triangles.
+- baseline: `390` vertices / `570` triangles;
+- explicit two-sided candidate: `490` vertices / `620` triangles.
 
-The inherited VFX response remains unchanged: hierarchical trunk / branch / leaf half-sine visual sway, Weather visual direction `[1.0, 0.35]`, `0.50 s` response window, lower anchor `z <= 0.92 m`, peak displacement ceiling `0.18 m`, and existing hierarchy caps. This pass does not rewrite that response.
+Inherited VFX source remains unchanged: 25 leaf blades, local twist around each leaf base→tip axis, deterministic per-leaf phase offset `0.73 rad`, `5°` twist cap, three cycles under the inherited `0.50 s` response envelope, `0.0085 m` maximum permitted added leaf-side displacement, zero added non-leaf displacement, and exact neutral endpoints.
 
-## Bounded leaf-local candidate
+## Reviewability improvement
 
-Added on Nature PR #11:
+Added on PR #11:
 
-- `tools/build_sapling_leaf_flutter_candidate.py`;
-- `target-proof-vfx/observe_leaf_flutter_candidate.gd`;
-- `.github/workflows/vfx-leaf-flutter-candidate.yml`.
+- `tools/build_sapling_leaf_flutter_review.py`;
+- CI integration in `.github/workflows/vfx-leaf-flutter-candidate.yml`.
 
-The candidate is deliberately narrow:
+The review builder consumes the exact retained real-Godot proof rather than synthesizing new visual states. It:
 
-- each of the 25 authored leaf blades keeps its inherited deformed base and tip;
-- only the two side vertices of each blade receive a local rotation around the authored base-to-tip axis;
-- deterministic per-leaf phase offset is `0.73 rad` by stable leaf order;
-- maximum local twist cap is `5.0°`;
-- the visual phase function executes three deterministic cycles over the inherited `0.50 s` response window, under a `sin(pi * normalized_time)` envelope;
-- endpoints are exact source identity at `0.0 s` and `0.50 s`;
-- 17 direct source phases are evaluated at `0.03125 s` source spacing;
-- maximum permitted additional flutter displacement is `0.0085 m`;
-- trunk, branches and all other non-leaf vertices must receive `0.0 m` added flutter displacement;
-- all 100 explicit leaf-backface duplicate vertices must remain exactly co-located with their source front vertices;
-- a deliberate `+0.001 m` duplicate detachment is required to fail closed.
+- verifies all `68` retained `720x720` Godot PNG SHA-256 values against the target-host receipt;
+- embeds those exact PNGs into one self-contained HTML review file;
+- presents baseline versus flutter side-by-side for both `ground_oblique` and `crown_overhead`;
+- supports play/pause, phase scrub, step and review-speed controls;
+- repeats phases `00..15` only;
+- preserves phase `16` as the exact neutral endpoint/seam witness equal to phase `00`, avoiding an artificial duplicate-neutral dwell in repeated playback;
+- labels the `0.03125 s` phase spacing as nominal source/sample spacing only, never as browser wall-clock or target-performance evidence;
+- records a diagnostic twist-direction balance so accidental whole-crown same-direction twisting fails review assumptions early.
 
-The `0.03125 s` phase spacing is **source-evaluation spacing only**. It is not a 32 Hz wall-clock delivery or performance claim.
+## Bounded local verification against retained exact Godot evidence
 
-## Retained failed provenance
+The new review builder was executed against the exact retained artifact from VFX head `ecade64227ba1d3d1faf029ca7188ea63c2560ec`.
 
-The first exact-head workflow for this candidate is retained as a real failure rather than hidden:
+Result:
 
-**Workflow `35171766707` @ `ad71dbebca0fad79ab2990b18903fb4e83bcc7f1` — FAIL before Godot.**
+**`PASS_BOUNDED_LEAF_FLUTTER_SAMPLED_REVIEW_SURFACE`**
 
-The candidate's endpoint angle was mathematically zero, but the builder still ran vector normalization and Rodrigues rotation. That preserved the visible shape while changing floating-point bytes enough to break the required exact neutral digest identity. The proof correctly remained red.
+Measured facts:
 
-The repair changed only endpoint handling: when normalized time is exactly `0.0` or `1.0`, the builder now returns the inherited source state directly instead of executing a zero-angle floating-point transform. No topology, camera, motion cap, interior phase, acceptance threshold, inherited wind response or visual amplitude was weakened.
+- exact retained Godot capture hashes verified: `68 / 68`;
+- source phases: `17`;
+- repeating review frames per cycle: `16` (`00..15`);
+- endpoint witness: phase `16`;
+- source/sample spacing: `0.03125 s`;
+- source response window: `0.50 s`;
+- phase `00 == 16` pixel seam: exact in both fixed cameras;
+- across all 15 interior source phases, minimum leaves twisting positive: `12 / 25`;
+- across all 15 interior source phases, minimum leaves twisting negative: `12 / 25`;
+- maximum absolute mean leaf twist over the crown: `0.1563132021218969°`.
 
-## Exact-head PASS
+The sign-balance measurement is only a diagnostic against accidental whole-crown synchronized twist. It does **not** establish natural wind or aesthetic quality.
 
-Dedicated workflow:
+## Exact-head CI status
+
+Current PR head `9d446359defe1e663d4d9cc683ca0b9cac6bf6c0` has the updated workflow queued.
+
+Dedicated leaf-flutter workflow:
+
+**`35175510387 — Nature VFX bounded leaf flutter Godot candidate` — QUEUED**
+
+Therefore the current `9d446359...` head is **not promoted to exact-head CI PASS yet**. The prior renderer result at `ecade642...` remains the authoritative real-Godot effect proof until the new exact-head workflow completes.
+
+The separate Map current-world receiver run for the prior exact VFX source phases was also still queued when inspected (`35174899697`). No current-world flutter equivalence claim is made here.
+
+## Prior authoritative real-Godot effect evidence retained
+
+Exact prior effect workflow:
 
 **`35172007804 — Nature VFX bounded leaf flutter Godot candidate` — SUCCESS**
 
@@ -78,101 +100,69 @@ Exact tested head:
 
 `ecade64227ba1d3d1faf029ca7188ea63c2560ec`
 
-Source result:
+Retained source result:
 
 **`PASS_BOUNDED_DETERMINISTIC_LEAF_FLUTTER_SOURCE_CANDIDATE`**
 
-Measured source facts:
-
-- `17` direct phases over the existing `0.50 s` response window;
-- `25` authored leaf blades;
-- maximum observed local twist: `4.994808359469084°` under the `5.0°` cap;
-- maximum observed added leaf-side displacement: `0.006920423273762265 m` under the `0.0085 m` cap;
-- maximum added non-leaf displacement: `0.0 m`;
-- maximum explicit front/back duplicate separation: `0.0 m`;
-- exact baseline/candidate identity at both neutral endpoints;
-- interior source states are distinct from the no-flutter baseline;
-- deliberate duplicate-backface detachment is rejected fail-closed;
-- the full receiving Nature test suite remains green (`33` tests in the exact-head workflow).
-
-Target-host result:
+Retained target-host result:
 
 **`PASS_BOUNDED_DETERMINISTIC_LEAF_FLUTTER_GODOT_VISUAL_CANDIDATE`**
 
-Real target-host scope:
+Relevant measured facts remain unchanged:
 
-- Godot `4.7.2-stable (official)`;
-- GL Compatibility on Mesa llvmpipe CI software rendering;
-- two fixed `720x720` views: `ground_oblique` and `crown_overhead`;
-- `17` source phases;
-- inherited no-flutter explicit-two-sided candidate versus flutter candidate;
-- `68` direct retained Godot PNGs total;
-- neutral opaque unshaded material with backface culling, deliberately isolating renderer-visible geometry motion from final lookdev.
+- maximum observed local twist `4.994808359469084°` under the `5°` cap;
+- maximum added leaf-side displacement `0.006920423273762265 m` under the `0.0085 m` cap;
+- maximum added non-leaf displacement `0.0 m`;
+- maximum explicit front/back duplicate separation `0.0 m`;
+- `68` direct Godot captures over 17 phases, baseline/flutter and two fixed views;
+- all `15/15` interior phases renderer-visible in each bounded view;
+- maximum baseline-vs-flutter changed pixels: `135` ground / `506` crown;
+- exact neutral endpoint and neutral return identity in both views.
 
-Measured renderer evidence:
+Artifact `10477092023` remains the retained exact effect proof with SHA-256 `3dce960891515e12d21be8b494c86be82ad8ba868d7e7042c388c67921dbd596`.
 
-- all `15/15` interior phases are renderer-visible against the inherited no-flutter baseline in `ground_oblique`;
-- all `15/15` interior phases are renderer-visible against the inherited no-flutter baseline in `crown_overhead`;
-- maximum baseline-vs-flutter changed pixels: `135` in `ground_oblique`, `506` in `crown_overhead`;
-- maximum baseline-vs-flutter mean absolute RGB: `0.000150462966121268` in `ground_oblique`, `0.000563957487832306` in `crown_overhead`;
-- phase `00` baseline vs flutter: `0` changed pixels in both views;
-- phase `16` baseline vs flutter: `0` changed pixels in both views;
-- flutter neutral return phase `00 -> 16`: `0` changed pixels in both views;
-- every adjacent flutter source phase is visually distinct in both bounded views;
-- midpoint phase `08` is renderer-visible in both bounded views.
+## Retained failure provenance
 
-These measurements support only a narrow statement: the candidate adds a **small, localized, deterministic leaf-plane motion that reaches the real Godot renderer while preserving exact neutral endpoints and the established non-leaf response**. The effect is intentionally subtle; the pixel deltas are evidence that it exists, not evidence that it looks natural or better.
-
-## Retained artifact
-
-Exact-head artifact:
-
-- artifact ID: `10477092023`;
-- name: `sapling-leaf-flutter-candidate-ecade64227ba1d3d1faf029ca7188ea63c2560ec`;
-- size: `870,310 B`;
-- GitHub SHA-256: `3dce960891515e12d21be8b494c86be82ad8ba868d7e7042c388c67921dbd596`;
-- `109` retained files, including source-phase payloads, source summary, exact-head bindings, Geometry donor evidence, Godot host log, target-host receipt and all direct PNG captures.
+The earlier exact-head workflow `35171766707` remains a real retained FAIL: a mathematically zero-angle endpoint transform still changed floating-point bytes and broke exact neutral digest identity. The repair only bypassed the zero-angle transform at the exact endpoints; it did not loosen topology, motion amplitude, cameras or acceptance gates.
 
 ## Truth boundary / handoffs
 
-This is **bounded visual/render evidence**, not gameplay, physics or final-art evidence.
+This activation improves **reviewability of bounded visual evidence**. It does not add a new physical, gameplay or performance claim.
 
 Still held:
 
-- whether the leaf-local motion actually reads as natural flutter rather than noise or nervous motion — Visual QA / Art Direction;
-- shaded leaf material, translucency, normals/tangents/UV appearance and final Nature lookdev — Materials / Art Direction;
-- whether this local motion should be accepted, reduced, retimed or omitted in production — VFX + Art Direction / Visual QA review;
-- continuous interpolation and wall-clock playback timing;
-- runtime cost and target-device CPU/GPU/FPS/VRAM behavior;
-- Map/current-world receiving-scene equivalence;
-- physical wind, plant biomechanics, forces, velocity or aerodynamic correctness;
+- whether the local flutter reads as natural, attractive, calm or noisy — Visual QA / Art Direction;
+- current-world / Map receiving equivalence — Map Environment;
+- shaded leaf material, translucency, normals/tangents/UV appearance — Materials / Art Direction;
+- continuous interpolation and actual wall-clock playback smoothness;
+- Runtime CPU/GPU/FPS/VRAM cost and target-device performance;
+- physical wind, biomechanics, forces or aerodynamics;
 - gameplay, collision, damage or interaction behavior;
 - arbitrary cameras, renderers and hardware;
 - CANON, production readiness or VFX mastery.
 
-Geometry PR #10 remains the source owner for leaf-sidedness topology. This pass consumes its exact candidate without changing it. Materials/Art retain final appearance ownership. Runtime retains timing and cost ownership. No merge or CANON authority is assumed.
+Geometry retains topology ownership. Materials/Art retain appearance and aesthetic acceptance. Runtime retains timing/performance ownership. Visual QA retains perceptual judgment. No merge or CANON authority is assumed.
 
-## Retained earlier evidence
+## Earlier evidence retained
 
 Earlier Nature VFX evidence remains valid and is not replaced:
 
 - migrated response source rebind: workflow `35153768937`;
 - five-state woody Godot culling proof: workflow `35159265484`;
 - dense 17-state direct-source Godot receiver: workflow `35163387415`;
-- dynamic explicit leaf-backface Godot culling recovery: workflow `35168195467`, head `4e5211d14286f9c292e769a78971f24d59194141`, artifact `10476260724`.
+- dynamic explicit leaf-backface culling recovery: workflow `35168195467`, head `4e5211d14286f9c292e769a78971f24d59194141`, artifact `10476260724`;
+- leaf-local micro-flutter real-Godot candidate: workflow `35172007804`, head `ecade64227ba1d3d1faf029ca7188ea63c2560ec`, artifact `10477092023`.
 
-The prior dynamic leaf-backface gate established that Geometry PR #10's exact disjoint opposite-wound leaf faces can remain position-bound to the established VFX deformation and recover the observed single-sided backface-culling loss in two bounded Godot views. The new flutter candidate builds on that exact lineage rather than rewriting it.
-
-The Map opacity-normalized Weather experiment remains historical evidence. Its authored 32 Hz / 31.25 ms wall-clock delivery remains unproven.
+The historical Map opacity-normalized Weather experiment remains separate. Its authored 32 Hz / 31.25 ms wall-clock delivery remains unproven.
 
 ## Four-root check
 
-**Truth:** the failed exact-neutral attempt is retained; source-space, renderer-space, perceptual, physical, gameplay and performance claims remain explicitly separated.
+**Truth:** exact retained PNGs are reused and hash-checked; sampled browser sequencing is explicitly not promoted to wall-clock, naturalness, physics, gameplay or performance evidence; queued CI is reported as queued rather than green.
 
-**Agency / non-domination:** Geometry retains topology ownership; Materials/Art retain look and acceptance; Runtime retains timing/performance authority; Visual QA retains perceptual judgment; no merge or CANON authority is assumed.
+**Agency / non-domination:** Art/QA retain perceptual authority; Geometry retains topology; Materials retain lookdev; Map Environment retains current-world equivalence; Runtime retains timing/performance; no merge/CANON authority is assumed.
 
-**Continuity:** Nature VFX PR #11, the migrated response, Geometry PR #10 exact candidate, prior culling proof and earlier dense-phase evidence remain authoritative. The new micro-motion layer is additive and bounded rather than a silent replacement.
+**Continuity:** the existing `ecade642...` effect proof is preserved intact. The new `9d446359...` head adds review tooling around that evidence rather than silently changing the effect while evaluation is pending.
 
-**Wisdom before speed:** one small visual hypothesis was built with exact provenance, endpoint identity, source caps, a fail-closed negative control and direct Godot evidence instead of expanding into another broad effects lane.
+**Wisdom before speed:** because the active gap is evaluation rather than another unsupported retune, this pass increases evidence quality and reviewability instead of adding motion complexity prematurely.
 
 The four AXM roots remain the merge gate.
