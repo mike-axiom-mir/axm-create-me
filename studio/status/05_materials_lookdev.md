@@ -1,30 +1,30 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-17
-State: **PASS_OBJECT_FRONT_SERVICE_PANEL_UV_SOURCE_IDENTITY_REBIND / HARD-SURFACE SOURCE ID CONSUMED WITHOUT UV-MATERIAL ADOPTION / 12 OF 12 REAL RENDERS BYTE-IDENTICAL TO PRIOR SELECTOR-ONLY REVIEW / PRODUCTION UV-TEXTURE-DECAL + ART-QA + IMPORT-RUNTIME ACCEPTANCE HELD**
+State: **PASS_OBJECT_SERVICE_DARK_TWO_SURFACE_PHYSICAL_UV_DENSITY_FAMILY_REVIEW / 0.05 M-UV SCALE HELD ACROSS TWO SOURCE-OWNED SERVICE SURFACES / UV-BEARING CONTROL BYTE-IDENTICAL / 3X DENSITY DEFECT VISIBLY REJECTABLE / PRODUCTION UV-TEXTURE-ART-QA-RUNTIME ACCEPTANCE HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, current Materials status, newest specialist coordination state, and the live open design-repository constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, current Materials status, newest specialist coordination state, and the live design-repository constellation before acting.
 
 `axm-create-me` remains **coordination only**. Product implementation and exact evidence for this activation live in `mike-axiom-mir/axm-object-design`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Object UV-diagnostic status remains rollbackable at coordinator content blob **`ba77d8a9750e18252b184809f91b9dc3958b6865`**. Its selector-only result and artifact remain historical truth and were not silently rewritten.
+The immediately preceding coordinator state remains rollbackable at blob **`768c2ad9a712d05140d3ef472c590e70c808af7e`**. Its result, `PASS_OBJECT_FRONT_SERVICE_PANEL_UV_SOURCE_IDENTITY_REBIND`, remains historical truth and was not silently rewritten.
 
 ## Fresh constellation / duplication scan
 
-The strongest newly actionable Materials handoff was Object Hard Surface PR #26, not another scalar/look pass:
+The strongest bounded Materials-owned gap was not another scalar/PBR retune:
 
-- **Building:** current Art Direction prefers the planar-role receiver with the five-role Materials profile held fixed. Remaining blockers are independent QA, residual primitive cost, Technical Art transport and Environment adoption; no material retune is requested.
-- **Nature:** shaded-backface Materials diagnostics are already established. Current blocker is perceptual flutter timing / capture behavior, owned by VFX / QA / Runtime / Art rather than Materials.
-- **Animal:** an active Materials tangent-space lane already owns the deformed direction-frame receiving problem; opening another lane would duplicate it.
-- **Character:** appearance promotion remains upstream-blocked by nonzero shoulder-intersection evidence.
-- **Map:** downstream Building/Nature world transfer is actively owned by Environment/Runtime/QA.
-- **Object:** Materials PR #6 is still the single Materials lane. Its prior UV diagnostic deliberately stopped at a selector because no source-owned face semantic existed at that time.
+- **Building:** current five-role planar look is already retained through Geometry/Art/QA receiving checks; remaining work is mostly transport/runtime/environment rather than a material-family defect.
+- **Nature:** the bounded foliage backface response is already established; current perceptual/timing work belongs to VFX/QA/Runtime/Art.
+- **Animal:** the active Materials tangent-space lane already owns deformed tangent-space receiving evidence; another lane would duplicate it.
+- **Character:** appearance remains upstream-limited by structural/intersection evidence.
+- **Map/world:** downstream environment transfer already has specialist owners.
+- **Object:** Materials PR #6 remains the single Materials lane. Two exact source-owned service surfaces now exist: `front_service_panel_outer_service_surface` and `lid_inner_service_surface`. The first already had a source-bound `0.05 m/UV` isotropic Materials review candidate; the second already had an existing-family `service_dark` material review but no matching UV-density candidate.
 
-Hard Surface PR #26 has now supplied exactly that missing semantic, making an explicit receiving rebind the smallest highest-leverage Materials task.
+That made **cross-surface physical UV-density coherence inside the existing `service_dark` family** the smallest highest-leverage Materials improvement.
 
 ## Selected bounded improvement
 
@@ -38,183 +38,223 @@ Branch:
 
 `studio/materials-object-functional-surface-001`
 
-Exact Materials head tested:
+Exact tested Materials head:
 
-**`d41442af978dd73fc8c2f1dfa50dad59f04f9cf5`**
+**`ad2378f18be55efa1f8e6dba9d8823c6b5d500e1`**
 
 Observed PR state after CI:
 
 **OPEN / DRAFT / MERGEABLE**.
 
-The bounded change is an explicit **Materials receiving overlay**, not a rewrite of the historical UV review:
+Added only to the existing Object Materials lane:
 
-- added `lookdev/front_service_panel_uv_source_identity_rebind_001.json`;
-- added `tools/verify_front_service_panel_uv_source_identity_rebind.py`;
-- added `.github/workflows/object-front-service-panel-uv-source-rebind.yml`.
+- `lookdev/service_dark_uv_density_family_001.json`;
+- `tools/build_object_service_dark_uv_density_family_evidence.py`;
+- `lookdev-proof/inner_lid_uv_family_observe.gd`;
+- `.github/workflows/object-service-dark-uv-density-family.yml`.
 
-The original selector-only `lookdev/front_service_panel_uv_review_001.json` remains unchanged at its historical identity.
+No source geometry, source surface identity, material scalar, motion donor, or existing historical review was rewritten.
 
-## Exact historical Materials review preserved
+## Exact two-surface family contract
 
-Pinned prior review:
+Shared material family:
 
-- PR #6 head: **`04c521a5a7e31bef54093c818108fd6c2080ca0e`**;
-- path: `lookdev/front_service_panel_uv_review_001.json`;
-- Git blob: **`c473d20a466b97ea2e7d513a4efe78533245de77`**;
-- schema: `axm.object-front-service-panel-uv-review/v0.1`;
-- target: `front_service_panel / service_panel / box`;
-- selector: `source_local_min_y_face`;
-- historical `source_surface_identity_owned = false` remains intact;
-- material: `service_dark`;
-- UV candidate: source `+X -> U`, source `+Z -> V`, **`0.05 m / UV`** isotropic;
-- deliberate negative: same U density with **3× V density**.
+**`service_dark`**
 
-The old review is kept selector-only because that was true when it was made.
+Unchanged scalar-PBR identity:
 
-## Exact new Hard-Surface source identity consumed
+- albedo `#252B2FFF`;
+- metallic `0.18`;
+- roughness `0.66`.
 
-Pinned source owner:
+Shared physical UV review scale:
 
-- Hard-Surface PR #26 head: **`fcae744a8bdbcb765c32758e9da03fe54ffe4dbc`**;
-- path: `assets/modular-equipment-case-001/front-service-panel-outer-surface-identity-001.json`;
-- Git blob: **`503b0179f20351a66668cbad3122e5dea26957b9`**;
-- contract SHA-256: **`031352b65fd497f6d62f20bc61236a78196819d74383b52c607d05ba5601a908`**;
-- schema: `axm.object-hard-surface-surface-identity/v0.1`;
-- source surface ID: **`front_service_panel_outer_service_surface`**;
+**`0.05 m / UV` on U and V**.
+
+The family rule is physical scale plus a source-local basis for each face, not one global orientation.
+
+### Existing front-service reference
+
+Source-owned surface:
+
+**`front_service_panel_outer_service_surface`**
+
 - semantic: `exterior_service_surface`;
-- owner component: `front_service_panel`;
-- selector: `source_local_min_y_face`;
-- exact scope: **2 triangles / 4 unique vertices**;
-- source material assignment: **`UNASSIGNED`**;
-- source UV assignment: **`UNASSIGNED`**;
-- Materials UV review candidate adopted: **false**.
+- owner: `front_service_panel`;
+- face basis: source `+X -> U`, source `+Z -> V`;
+- scale: `0.05 m/UV` isotropic;
+- source material assignment: `UNASSIGNED`;
+- source UV assignment: `UNASSIGNED`;
+- production UV adoption: false.
 
-The source contract itself pins the historical Materials review that motivated the semantic promotion. The receiving verifier checks that cycle explicitly instead of pretending the newer source identity existed earlier.
+### New inner-lid family member
 
-## Authority boundary
+Source-owned surface:
 
-The new binding records:
+**`lid_inner_service_surface`**
 
-- Hard Surface owns the source face identity;
-- Materials does **not** author or rename that source identity;
-- Hard Surface does **not** assign the material or production UV;
-- Materials continues to own only the existing lookdev UV candidate/evidence;
-- `service_dark` scalar values are unchanged;
-- source geometry is unchanged;
+- semantic: `interior_service_surface`;
+- owner: `lid_shell`;
+- selector: `source_local_min_z_face`;
+- face basis: source `+X -> U`, source `+Y -> V`;
+- source face size: **`0.78 m × 0.48 m`**;
+- source face area: **`0.3744 m²`**;
+- shared isotropic scale: **`0.05 m/UV`**;
+- candidate UV span: **`15.6 × 9.6`**;
+- source material assignment remains `UNASSIGNED`;
 - production UV adoption remains false.
 
-This separates source semantics from appearance authority instead of collapsing them into one lane.
+### Deliberate negative control
 
-## Fail-closed verification
+To prove the observer can detect a family-density break:
 
-The new verifier requires the exact Materials review head/blob, exact Hard-Surface owner head/blob/contract digest, exact surface/component/role/kind/selector, exact 2-triangle / 4-vertex scope, unchanged material/UV authority fields, and the unchanged `0.05 m/UV` Materials candidate.
+- U remains `0.05 m/UV`;
+- V becomes `1/60 m/UV`;
+- V density is therefore exactly **3×** the intended density;
+- UV span becomes **`15.6 × 28.8`**;
+- physical-density anisotropy is **3.0** instead of **1.0**.
 
-A deliberate mutation of the materialized source surface ID is rejected by the dedicated workflow. This proves the rebind is tied to the exact source semantic rather than merely matching the same primitive selector again.
+The checker is procedural and generated from UV coordinates. No texture asset is introduced.
 
-## Exact CI + real-render evidence
+## Structural / fail-closed result
+
+Builder result:
+
+**`PASS_OBJECT_SERVICE_DARK_TWO_SURFACE_PHYSICAL_UV_DENSITY_FAMILY_PACKET`**
+
+The builder fail-closes on:
+
+- both exact source-owned surface identities and semantics;
+- `service_dark` material identity;
+- front-panel source-bound UV review identity;
+- inner-lid source-owned existing-family review identity;
+- per-face source-local UV bases;
+- exact `0.05 m/UV` family scale;
+- exact `3.0` anisotropy negative;
+- unchanged `UNASSIGNED` source material/UV authority;
+- no external texture/material assets;
+- no production UV adoption or scalar retune.
+
+A deliberate mutation from `0.05` to `0.051 m/UV` is rejected by CI as intended.
+
+## Exact CI + renderer evidence
 
 Dedicated workflow:
 
-**`35185491074 — Object front service-panel UV source-identity rebind evidence` — SUCCESS**
+**`35190171825 — Object service-dark UV density family evidence` — SUCCESS**
 
-- Python 3.11: PASS;
-- Python 3.13: PASS;
-- complete Object test suite: PASS in both matrix jobs;
-- exact Hard-Surface donor materialized and digest-checked;
-- source-surface-ID drift negative: rejected as intended;
-- historical UV diagnostic packet rebuilt unchanged;
-- target renderer: **Godot 4.7.2 / GL Compatibility / Xvfb-X11**;
-- existing three-context UV diagnostic rerendered on the exact successor head.
+- Python 3.11 job: SUCCESS;
+- Python 3.13 job: SUCCESS;
+- complete Object suite: **31 tests PASS** on the real-render job;
+- exact Animation/Rigging/latch-ownership donor chain rebuilt;
+- exact source-owned inner-lid surface identity materialized and verified;
+- family-density drift negative rejected;
+- renderer: **Godot 4.7.2 GL Compatibility / X11 / Xvfb**;
+- CI GPU boundary: Mesa llvmpipe software OpenGL;
+- retained evidence covers `50° / 100° × three-quarter / front-interior`.
 
-Same-head inherited workflows were also green at final observation:
+Target-host result:
 
-- Object material lookdev evidence;
-- Object front service-panel UV review evidence;
-- Object inner-lid material review evidence;
-- Object service-module fit evidence;
-- Object hard-surface interface evidence.
+**`PASS_TARGET_HOST_SERVICE_DARK_TWO_SURFACE_PHYSICAL_UV_DENSITY_FAMILY_AB_READY`**
 
-## Real-render continuity comparison
+## Representation-neutrality proof
 
-Downloaded both exact artifacts:
+For every retained pose/context pair, Materials compares:
 
-1. prior selector-only artifact `10480478823`;
-2. new source-identity rebind artifact `10481772065`.
+1. `legacy_review`: existing `service_dark` inner-lid review with no UV array;
+2. `uv_uniform`: exact same geometry/material plus the proposed UV array, still using uniform `service_dark` shading.
 
-All **12 / 12 corresponding PNGs are byte-identical** between the two archives.
+CI comparison:
 
-Therefore the source-identity rebind introduces **zero visual retune**. The retained real-render metrics remain exactly:
+- **0 thresholded changed pixels in all 4 / 4 pairs**.
 
-### Observer neutrality — historical BoxMesh vs split-face uniform
+Independent post-CI artifact inspection strengthened this:
 
-- `front_service`: **0 / 508,400 changed pixels**;
-- `three_quarter`: **0 / 508,400**;
-- `grazing_service`: **0 / 508,400**.
+- **4 / 4 decoded image pairs are pixel-identical**;
+- **4 / 4 PNG pairs are byte-identical**.
 
-### Isotropic UV candidate vs split-uniform
+Therefore merely adding the review UV coordinates does not alter the retained image before diagnostic shading is applied.
 
-- `front_service`: **30,366 / 508,400 = 5.972856%**;
-- `three_quarter`: **9,617 / 508,400 = 1.891621%**;
-- `grazing_service`: **4,887 / 508,400 = 0.961251%**.
+## Real-render isotropic candidate visibility
 
-### Deliberate 3× V-density defect vs isotropic candidate
+`uv_uniform` -> `0.05 m/UV` isotropic procedural checker:
 
-- `front_service`: **9,502 / 508,400 = 1.869001%**;
-- `three_quarter`: **3,114 / 508,400 = 0.612510%**;
-- `grazing_service`: **1,595 / 508,400 = 0.313729%**.
+| pose / context | changed pixels |
+|---|---:|
+| `50° / three-quarter` | `33,720 / 508,400 = 6.632573%` |
+| `50° / front-interior` | `46,678 / 508,400 = 9.181353%` |
+| `100° / three-quarter` | `51,133 / 508,400 = 10.057632%` |
+| `100° / front-interior` | `60,609 / 508,400 = 11.921518%` |
 
-The material/UV visual evidence is unchanged; only the provenance/ownership boundary is stronger.
+Total candidate-changed pixels:
+
+**`192,140`**.
+
+Direct inspection shows square/equal-scale checker cells on the lid surface in both retained camera contexts and both open poses.
+
+## Deliberate density defect visibility
+
+Isotropic candidate -> deliberate same-U / 3×-V-density negative:
+
+| pose / context | changed pixels |
+|---|---:|
+| `50° / three-quarter` | `11,115 / 508,400 = 2.186271%` |
+| `50° / front-interior` | `15,463 / 508,400 = 3.041503%` |
+| `100° / three-quarter` | `16,985 / 508,400 = 3.340873%` |
+| `100° / front-interior` | `20,028 / 508,400 = 3.939418%` |
+
+Total negative-control changed pixels:
+
+**`63,591`**.
+
+The compressed V pattern is clearly distinguishable in every retained context, so the observer is not merely proving that “some UV exists”; it can reject the intended family-density/anisotropy defect.
 
 ## Materials decision
 
-**`PASS_OBJECT_FRONT_SERVICE_PANEL_UV_SOURCE_IDENTITY_REBIND`**
+**`PASS_OBJECT_SERVICE_DARK_TWO_SURFACE_PHYSICAL_UV_DENSITY_FAMILY_REVIEW`**
 
 Exact meaning:
 
-> The previously proven `0.05 m/UV` isotropic Materials review candidate can now bind explicitly to Hard Surface's exact source-owned `front_service_panel_outer_service_surface` without rewriting the historical selector-only review, changing source geometry, changing the `service_dark` material family, assigning a source material slot, or adopting production UVs. The full real-render evidence is byte-identical to the prior review, so the improvement is source integrity and downstream composability rather than appearance change.
+> The already-proven `0.05 m/UV` physical review scale can coherently cover both source-owned Object service surfaces that currently use the `service_dark` Materials family candidate, provided each face maps its own source-local tangent axes into U/V. The front panel uses source X/Z while the inward lid uses source X/Y. Equal physical scale and isotropy are the reusable family rule; a globally hard-coded UV orientation is not.
+
+This is a Materials review-family result only. It does not promote either candidate into source truth or production UVs.
 
 ## Retained artifact
 
-New artifact:
+Artifact:
 
-- ID **`10481772065`**;
-- name `object-front-service-panel-uv-source-rebind-001-d41442af978dd73fc8c2f1dfa50dad59f04f9cf5`;
-- size **`620,176 B`**;
-- GitHub SHA-256 **`e68ac91a92bb9731f1da4e5afc88128dd96a11e08822c18029b8893994ad8575`**;
+- ID **`10483567286`**;
+- name `object-service-dark-uv-density-family-001-ad2378f18be55efa1f8e6dba9d8823c6b5d500e1`;
+- size **`1,175,322 B`**;
+- GitHub SHA-256 **`c9d392babc20c10843b38f2f083b88a93174e519fff87057e74b20553c68ece5`**;
 - independently downloaded and rehashed to the exact same digest;
-- retains the Materials rebind overlay, exact Hard-Surface donor contract, owner head/blob witnesses, historical UV review, rebind receipt, UV payload/runtime receipts and 12 real PNG renders.
+- contains contract, donor-facing review bindings, exact payload/build receipt/runtime receipt and all retained real-render PNGs.
 
-Prior artifact remains:
+## Handoff
 
-- ID `10480478823`;
-- SHA-256 `d9664846a427f4aa95c5854b78d7b3062166c701aa529a9fe17a7fe0f4fe4ca4`.
+Object Materials PR #6 comment **`5710099304`** records the exact family contract, CI/run evidence, per-context render deltas, artifact and explicit non-claims.
 
-## Handoffs
+No source-owner, Technical Art, Runtime, Art Direction or Visual-QA authority was silently transferred.
 
-- Object Materials PR #6 comment **`5709225272`**: exact rebind PASS, workflow, donor identities, artifact and 12/12 byte-identical render comparison.
-- Object Hard-Surface PR #26 comment **`5709227304`**: downstream consumer confirms exact source identity is now consumed without taking Hard-Surface material/UV authority.
-
-No Technical Art, Runtime, Art Direction or Visual-QA acceptance was inferred or silently transferred.
-
-## Reusable learning
+## Reusable learning / propagation boundary
 
 Bounded reusable lesson:
 
-> **When a downstream lookdev pass predates source-owned face semantics, do not rewrite the old evidence. Preserve the historical selector-only review, add a separate exact receiving rebind once the source owner promotes the face identity, and rerun the real renderer. If the rerender is byte-identical, provenance improved without hiding a visual change.**
+> **For a material family spanning differently oriented manufactured faces, define texel/UV scale in physical units and choose the U/V basis per source-owned surface. First prove that adding the UV-bearing representation is render-neutral under uniform shading, then apply a procedural diagnostic and an intentionally wrong density control.**
 
-Object now has more than one example of this source-owner -> Materials-rebind pattern, but the examples are still within one asset family. That is not enough evidence to promote a universal UC / Profession Fabric surface-UV ontology automatically.
+This is now supported by two independently source-owned service surfaces inside one Object asset family. That is useful enough to preserve as an Object Materials family contract, but still too narrow to justify silently promoting a universal UC / Profession-Fabric UV ontology.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
 - production UV authoring or adoption;
-- final texel density for production texture content;
-- a source material-slot assignment;
+- final production texel density;
+- atlas packing, seams or arbitrary automatic unwrap;
+- source material-slot assignment;
 - texture, decal, wear, normal-map, AO-map or baked-detail content;
-- arbitrary-surface automatic unwrap or atlas packing;
-- normal/tangent transport correctness for texture-space shading;
-- final Object GLB/import equivalence;
+- tangent-space texture transport correctness;
+- final OBJ/GLB/import equivalence;
 - Runtime shader, draw, memory or target-device cost acceptance;
 - physically measured coating correctness;
 - final Art Direction or Visual-QA acceptance;
@@ -224,11 +264,11 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** the old review remains truthfully selector-only; the new source identity is pinned separately by exact head/blob/digest; 12/12 real renders are byte-identical rather than merely described as visually similar.
-- **Agency / non-domination:** Hard Surface retains source-surface authority; Materials retains lookdev UV authority only; Technical Art owns transport; Runtime owns cost; Art Direction / Visual QA own final appearance acceptance.
-- **Continuity:** the existing Object Materials PR #6 is advanced instead of duplicated, the prior artifact/status remain pinned and rollbackable, and no historical evidence is silently relabeled.
-- **Wisdom before speed:** the source identity is consumed and verified before any production UV, texture or decal work is allowed to build on it.
+- **Truth:** both source-owned surface identities remain separately pinned; old evidence remains historical; uniform UV-bearing controls are byte-identical before diagnostic shading; renderer limitations are explicit.
+- **Agency / non-domination:** Hard Surface retains source-surface authority; Materials owns only the bounded lookdev family candidate; Technical Art owns transport; Runtime owns cost; Art Direction / Visual QA own final appearance acceptance.
+- **Continuity:** existing Object Materials PR #6 was advanced instead of duplicated; preceding status is pinned by blob; no previous UV/material result is relabeled as production truth.
+- **Wisdom before speed:** physical family coherence and a deliberately wrong density control are proven before texture/decal authoring or production unwrap work is allowed to build on the candidate.
 
 ## Next Materials pass
 
-Re-scan the full constellation first. Do not keep expanding this panel by inertia. Continue Object only if a source owner or downstream consumer exposes a concrete texture/decal/transport/material defect. Otherwise take the strongest fresh Materials-owned gap elsewhere.
+Re-scan the full constellation first. Do not extend Object by inertia. Continue this family only if source ownership or a downstream consumer exposes a concrete seam, texel-density, tangent-space, texture/decal or import defect. Otherwise take the strongest fresh Materials-owned gap elsewhere.
