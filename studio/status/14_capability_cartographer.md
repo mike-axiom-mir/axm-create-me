@@ -3,226 +3,222 @@
 - Date: `2026-09-17`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_REPRESENTATION_EQUIVALENCE_RELATION_IDENTITY_MAP / BUILDING_SOURCE_604_VS_RECEIVER_312_SEPARATED / ANIMAL_SOURCE_42_RENDER_84_INDEX_240_TO_84_PRESERVED / UC_179_NEUTRAL_OBSERVER_SUFFICIENT / PF_38_REFINED_EVIDENCE_PROVENANCE_ONLY / NO_NEW_UC_OR_PRODUCT_IMPLEMENTATION / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_CLOSED_SHELL_ORIENTABILITY_SIGNED_ORIENTATION_PLACEMENT_MAP / BUILDING_OBJECT_REPEAT_THRESHOLD_MET / UC_199_PROPOSED_READ_ONLY_OBSERVER / EXISTING_TOPOLOGY_GAP_CONFIRMED / RENDERER_FRONT_FACE_POLICY_SEPARATED / NO_PRODUCT_OR_PF_IMPLEMENTATION / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the 3D Studio campaign and Capability Cartographer standing role, then inspected current coordination state, specialist status, current product PRs, Universal Creation continuity and Profession Fabric evidence before altering coordination knowledge.
+Re-read the 3D Studio campaign and Capability Cartographer standing role, then rescanned specialist status, current product PRs, Universal Creation main/open lanes, Profession Fabric continuity and the shared-capability execution-claim registry before changing coordination state.
 
-`axm-create-me` remains **coordination only**. No product mesh, render domain, receiver implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, adoption decision, CANON state, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product geometry, winding, renderer policy, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, source adoption, CANON state, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh continuity / overlap scan
+## Fresh overlap / placement scan
 
-The previous Cartography pass separated scalar field/frame/reference-feature semantics. That map remains valid and was not widened by cadence.
+Shared-system continuity at this activation:
 
-Fresh shared-system state:
+- Universal Creation current main: `95b618f6e6028c2ac8c1a106cfa009a3c106f48c` (merged Physics PR #197);
+- active UC successor PR #198 is Physics at current reported head `933076a54d897702617d4ff8352b857185c0595a` and does not overlap mesh shell-orientation observation;
+- open UC PR #151 is the animated island-boat/material lane and PR #153 is bounded unwrap/bake work; neither owns this scope;
+- no open UC issue was found for closed-shell orientability / signed-orientation observation;
+- `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` contains no active claim for this scope;
+- Profession Fabric issue #38 remains the evidence/provenance procedure surface and PF PR #37 remains the separate bounded-variation experiment; neither should absorb indexed-mesh orientation algorithms.
 
-- Universal Creation PR #196 has merged to current main `e9eed3d9eb66392992cc18c8884bfade0d3b8efd`;
-- active UC PR #197 is the single successor Physics lane at `2f1521e06120bb46eb9b98ac460508fe5d40ba89` and does not overlap the representation-equivalence question selected here;
-- merged UC PR #179 already provides the neutral indexed-surface observer distinction needed here: `SOURCE_VERTEX_AND_ATTRIBUTES` versus opt-in `ATTRIBUTES_AND_PROTECTED_SPLITS`;
-- the current merged UC `src/axm_uc/indexed_surface_eligibility.py` still states that cross-source candidates are diagnostic only and do not authorize semantic welding or product adoption;
-- Profession Fabric issue #38 remains the established experimental evidence/provenance proposal surface;
-- the coordination-only shared-capability execution-claim registry contains no active claim covering a new representation-equivalence implementation, so no shared implementation lane was opened.
+No shared implementation lane was opened. This pass creates a bounded UC **proposal only**.
 
-Fresh specialist/product state used in the scan:
+## Selected material cross-repo learning
 
-- Geometry status is currently advancing Building review-atlas evidence without consuming UC GLB density evidence by analogy;
-- Technical Art status has made the Building 604-source-class versus 312-consumer boundary executable on existing Map PR #40;
-- Runtime status has independently completed Object VFX MultiMesh batching and retains Animal representation work as separate history;
-- Map PR #45 is a new Object rigid-part receiving bridge and already owns that articulation/hierarchy problem;
-- Object PR #32 owns the fresh VFX batching representation result;
-- these active lanes were not duplicated.
+The repeated structural question has now crossed the shared-machine proposal threshold:
 
-## Selected material cross-repo learning — grouping counts do not define semantic equivalence
+**`EDGE_CLOSURE != ORIENTABILITY != GLOBAL_SIGNED_ORIENTATION != RECEIVER_FRONT_FACE_POLICY`**
 
-The strongest reusable learning is now supported by two materially different products with opposite representation shapes:
+These are four distinct evidence layers:
 
-**A representation can be safely compacted only relative to an explicit equivalence relation in an explicit domain.** The same numeric act of “merging vertices/groups” may be valid inside one receiver/render domain and invalid against source semantics.
+1. **edge closure / manifold-candidate structure** — are triangle edges bounded as expected;
+2. **orientability / local winding coherence** — can face parities be made mutually consistent across a connected closed component;
+3. **global signed orientation in a declared coordinate frame** — once coherent, what algebraic signed-volume orientation does that exact component have;
+4. **receiver front-face / culling interpretation** — how a target renderer interprets winding after transport.
 
-Core rule:
+A PASS in one layer does not transfer to the next.
 
-`GROUP_COUNT_OR_POSITION_EQUALITY != EQUIVALENCE_RELATION_IDENTITY`
+## Evidence A — Building supplies the first closed positive-volume product family
 
-The exact equality key, protected splits, dropped authoritative attributes and domain of the relation must remain explicit.
+Repository: `mike-axiom-mir/axm-building-design`
 
-## Evidence A — Building / Map: valid receiver quotient, explicitly not source equivalence
+Geometry PR #6 exact current head:
 
-### Building source authority
+`b6d14d48c59859ae6ff2aaed7dea86b4e00a5402`
 
-Building Hard Surface PR #14 exact head:
+The Building lane derives a boundary-only reference shell from the current source-owned segmented pavilion representation while keeping the semantic 23-box source authoritative.
 
-`7b86b1a9da1ef8dc670ca01cf4918728e68ece92`
+Exact retained result:
 
-Its source-owned planar-role policy keeps **604 source-authorized render equivalence classes** under a hard-normal-sensitive identity. Building Geometry PR #13 exact head:
+- derived shell: `1420 vertices / 2884 triangles`;
+- face-connected solid components: `4`;
+- boundary edges: `0`;
+- non-manifold edges: `0`;
+- orientation-conflict edges: `0`;
+- degenerate triangles: `0`;
+- disconnected indexed vertex fans: `0`;
+- occupied union volume: `9.49832 m^3`;
+- candidate signed volume: `9.49832 m^3`;
+- source adoption: not claimed.
 
-`7dfb1153dc5f80bcbf1b48803f044236d4ebb030`
+Building explicitly recorded that one source family was insufficient to promote its structural pattern into UC. That restraint is preserved.
 
-also exposes a smaller **312 role+position quotient**, but classifies that quotient as:
+## Evidence B — Object supplies the independent second case and exposes the missing distinction
 
-`DERIVED_ATTRIBUTE_DROPPING_PARTITION_NOT_SOURCE_EQUIVALENT`
+Repository: `mike-axiom-mir/axm-object-design`
 
-Exact loss evidence:
+Geometry PR #33 exact current head:
 
-- source-authorized classes: `604`;
-- derived quotient groups: `312`;
-- source identities removed: `292`;
-- quotient groups crossing source hard-normal boundaries: `188`;
-- dropped source-authoritative attribute: `EXACT_CARDINAL_HARD_NORMAL`.
+`606d8189a3bf4502141d8038f08d35d421829dde`
 
-So `312` is not a cheaper spelling of the same source equivalence relation.
+Source asset remains `468 vertices / 812 triangles / 31 rigid groups`.
 
-### Real receiving representation
+The decisive observations are:
 
-Map Technical Art PR #40 current exact head:
+- all exact source groups are closed by edge incidence;
+- the 17 box groups are coherently negative-volume;
+- the 14 cylinder groups contain `304` same-direction shared-edge orientation conflicts;
+- signed volume is treated as decisive only after local orientation coherence is established;
+- derived candidate conflicts: `304 -> 0`;
+- candidate groups with positive signed volume: `31 / 31`;
+- face windings reversed: `508 / 812`;
+- source positions changed: false;
+- per-face vertex membership changed: false;
+- triangle order changed: false;
+- group partition changed: false;
+- source adopted: false.
 
-`53493eb60efec35b1756ea8ab0a7f0bee11e2003`
+This proves why closure alone is insufficient in two different ways: a shell can be closed yet locally inconsistent, or closed and locally coherent yet globally signed in the opposite orientation.
 
-Exact workflow `35267127221` completed SUCCESS with:
+## Reuse pressure — exact Geometry helper is already being consumed downstream
 
-`PASS_BUILDING_312_GODOT_CONSUMER_NORMAL_IDENTITY_BOUND_TO_SOURCE_HARD_NORMAL_AUTHORITY__HOLD_NORMAL_NUMERIC_EXACTNESS_RUNTIME_VISUAL`
+Object Procedural PR #11 current head:
 
-The real Godot receiver truthfully uses the 312-group representation only as its **own consumer domain**. It explicitly declares:
+`bdcc35bc663ec5166aaf7d6eeefd715707c33482`
 
-- `EXACT_CARDINAL_HARD_NORMAL` is dropped from the source relation;
-- consumer normal identity is per-material `SurfaceTool.generate_normals()` followed by `SurfaceTool.index()`;
-- stored vertices `312`;
-- indices `1008`;
-- triangles `336`;
-- material surfaces `5`;
-- source-equivalence claim `false`;
-- source-hard-normal-preservation claim `false`.
+Its newest oriented service-module configuration successor consumes the **exact pinned Geometry #33 orientation helper** rather than copying the solver. Across four retained configuration outputs, generated module shells move from negative to positive signed volume with all 12 faces flipped per generated module instance, while historical outputs remain addressable and product/source authority does not transfer.
 
-The measured post-index normal repack remains separately non-byte-exact at `120 / 1008` corners, maximum component delta `0.00011304020881702792`, maximum angular delta `0.006869404718583788°`, with no generic tolerance inferred.
+That reuse is still inside Object and is not counted as a third product. It does, however, demonstrate that the Geometry operation is already useful outside the exact source candidate that first exposed it.
 
-This is a legitimate receiver-local quotient precisely because its semantic scope is named rather than smuggled back into source authority.
+## Existing UC gap confirmed
 
-## Evidence B — Animal: render-domain expansion must survive later indexing
+Current UC `src/axm_uc/mesh_topology.py` already provides strong neutral observation:
 
-Animal supplies the complementary shape.
+- source vertex liveness;
+- source-index vertex-fan connectivity;
+- positional seam welding for structural observation;
+- collapsed triangle detection;
+- boundary and non-manifold edge counts;
+- `orientation_conflict_edge_count`;
+- connected triangle-component count;
+- `closed_by_edge_incidence`;
+- `orientation_consistent_by_shared_edge`.
 
-Geometry PR #20 exact render identity:
+It intentionally performs no topology repair.
 
-`ca4bb8a2f144231f8755eacc980785d1807b79db`
+The missing neutral observation is narrower:
 
-The geometric source remains:
+1. if input winding is inconsistent, UC does not currently say whether the closed component is **orientable** under a consistent face-parity assignment;
+2. if input winding is already coherent, UC does not report the component's **global signed orientation** in the declared input frame.
 
-- `42` source vertices;
-- `80` triangles.
+Therefore a coherently inward closed shell can satisfy the existing `CLOSED_ORIENTED_EDGE_MANIFOLD_CANDIDATE` status without the global sign being reported.
 
-The UV/tangent-ready representation necessarily expands to **84 render vertices** because side UV seam, cap/side islands, polar tangent singularities and tangent handedness require explicit render-domain splits.
+UC already has internal signed-volume calculation inside fabrication/cutter machinery, but that is not exposed as a general read-only topology observation. The gap is therefore real without requiring product semantics to define it.
 
-Animal Runtime PR #23 exact tested head:
+## Receiver-policy separation — Object Materials prevents over-generalization
 
-`f4b5b637dc0cabb51bcf9f14a44d53f397f300fa`
+Object Materials PR #6 exact tested head:
 
-Scoped result:
+`ad1353d11b5175e05661efa45a32b8e40ec8707c`
 
-`PASS_ANIMAL_TANGENT_READY_INDEXED_PAYLOAD_REDUCTION`
+Its real Godot receiver shows why a shared source/topology observer must stop before renderer policy. With the same exact Geometry candidate and unchanged material values, the retained target host is strongly winding-sensitive under backface culling:
 
-Its real Godot A/B safely changes:
+- owner-order culled vs owner-order two-sided aggregate: `154,468 px > 1 LSB`;
+- host-reversed culled vs host-reversed two-sided aggregate: only `3 px > 1 LSB`;
+- unshaded cull-disabled owner-order vs reversed-order spatial controls remain `0` raw changed pixels in all three retained cameras.
 
-- control: `240` stored triangle-corner vertices, no indices;
-- candidate: exact `84` seam-aware render vertices + `240` indices;
-- triangles/surface remain `80 / 1`;
-- modeled payload `11,520 -> 4,992 B` (`-6,528 B / -56.6667%`);
-- RenderingServer buffer `6,417,912 -> 6,414,024 B` (`-3,888 B`);
-- draw/object/primitive/texture deltas `0 / 0 / 0 / 0`;
-- both retained `960x720` A/B PNG pairs byte-identical.
+Materials therefore retains a target-host receiving preference without relabelling it as source truth. Technical Art still owns any production transport/index-order adapter.
 
-The decisive negative is explicit: a fake **`84 -> 42`** stored-vertex collapse fails closed. Source vertex identity is therefore too coarse for the final UV/tangent render domain.
+This gives the placement stop line:
 
-Animal proves the inverse-looking rule to Building:
+**UC may observe graph orientability and signed orientation; it must not choose target renderer front-face semantics.**
 
-- first **split** source identities when render semantics require a finer relation;
-- then deduplicate only inside the final attribute-complete render relation;
-- never use the numerically smaller source domain as permission to erase required render splits.
+## Placement action — Universal Creation proposal #199
 
-## Cross-repo map
+Opened:
 
-The two cases support a bounded relation model:
+`mike-axiom-mir/axm-universal-creation#199`
 
-| Identity / state | Meaning |
-|---|---|
-| `representation_domain_identity` | Exact source, render or receiver domain being grouped |
-| `equivalence_relation_identity` | Stable identity for the grouping relation itself |
-| `equivalence_key_fields` | Exact attributes/contracts participating in equality |
-| `protected_split_identity` | Caller/domain-owned split identity equality must not cross |
-| `dropped_authoritative_fields` | Source-owned fields intentionally omitted by a derived quotient |
-| `relation_kind` | Evidence label such as `SOURCE_PRESERVING`, `RENDER_DOMAIN_EXPANSION`, `WITHIN_DOMAIN_DEDUP`, `ATTRIBUTE_DROPPING_QUOTIENT` |
-| `mapping_cardinality` | Exact source/render/receiver cardinalities and mapping shape |
-| `information_loss_state` | Whether the relation drops source-authoritative meaning and whether reversal is established |
-| `semantic_equivalence_scope` | `SOURCE_EQUIVALENT | RECEIVER_LOCAL_EQUIVALENT | NOT_SOURCE_EQUIVALENT | NOT_EVALUATED` |
+Title:
 
-Non-transfer rules:
+`Proposal: expose closed-shell orientability and signed-orientation evidence`
 
-1. same count does not prove the same equivalence relation;
-2. same positions do not prove the same equivalence relation;
-3. a valid receiver-local quotient does not become source-authoritative equivalence;
-4. source-vertex identity does not authorize collapsing render-domain seams/splits;
-5. successful indexing/dedup proves only the exact relation and downstream evidence actually tested;
-6. changing equality key, protected splits or dropped authoritative fields creates a new consumed identity for affected claims.
+The proposed scope is an **opt-in read-only extension** of the existing topology observer. A future implementation may report, per eligible connected component:
 
-## Universal Creation placement — existing neutral observer is sufficient
+- exact component identity/digest;
+- closure state;
+- current shared-edge orientation state;
+- `ORIENTABLE | NON_ORIENTABLE | NOT_EVALUATED`;
+- deterministic parity-solution identity/digest when orientable;
+- diagnostic face-flip count relative to exact input;
+- current signed volume only when exact input is already closed/coherent;
+- coherent-candidate signed volume only after a valid parity solution exists;
+- explicit coordinate-frame / handedness convention for the sign;
+- bounded failure states for open, non-manifold, disconnected/unsupported, near-zero algebraic volume or work-budget cases.
 
-No new UC feature was opened.
+The proposal explicitly preserves existing topology status semantics and forbids automatic winding repair, source migration, renderer front-face conversion, normals/tangents rewriting, self-intersection repair, physical-volume certification, product adoption or CANON.
 
-Merged UC PR #179 already provides the right machine boundary. Current merged main `e9eed3d9eb66392992cc18c8884bfade0d3b8efd` still exposes:
+Important wording boundary:
 
-- default `SOURCE_VERTEX_AND_ATTRIBUTES` — source-lineage-preserving grouping;
-- opt-in `ATTRIBUTES_AND_PROTECTED_SPLITS` — render/receiver tuple grouping only with explicit caller-declared protected split identity;
-- explicit non-claim that cross-source candidates authorize semantic welding or product adoption.
+A positive signed-volume candidate is **diagnostic**, not universally named `outward`. Signed-volume orientation depends on the declared frame/chirality and still does not prove self-intersection freedom or a renderer's front-face convention.
 
-This is enough neutral machinery to **observe** candidate grouping. It intentionally does not own Building hard-normal semantics, Animal UV/tangent split semantics, product adoption or source equivalence policy.
+## Profession Fabric placement
 
-Opening another UC equivalence/dedup lane would duplicate existing machinery and risk centralizing product meaning.
+No new PF refinement was needed this pass.
 
-## Profession Fabric placement — evidence/provenance vocabulary only
+PF issue #38 already owns provenance/rebind procedure and exact consumed-identity vocabulary. The new repeated operation is deterministic indexed-mesh graph/orientation mathematics, so the correct candidate home is UC rather than PF.
 
-Profession Fabric issue #38 was refined in place:
-
-`mike-axiom-mir/axm-profession-fabric#38 comment 5721190963`
-
-The refinement adds only the explicit representation-equivalence relation identity vocabulary above beneath the existing representation/storage/dependency model.
-
-PF must not choose weld keys, define seams, generate normals, mutate topology, select product representations or authorize adoption. It records which relation a claim actually consumed.
-
-No PF implementation or profession promotion is requested by this Cartography pass.
+PF would only record a future consumer's old/new UC observer identity and required rerun; it should not implement the orientation solver or choose winding semantics.
 
 ## Product returns
 
-The cross-repo boundary was returned without modifying either product lane:
+Returned the shared-placement decision without modifying product code:
 
-- Animal Runtime #23 comment `5721193053`;
-- Map Technical Art #40 comment `5721197259`.
+- Object Geometry PR #33 comment `5721855724`;
+- Building Geometry PR #6 comment `5721858733`.
 
-Animal keeps its 84-vertex render-domain identity and exact Runtime PASS. Building/Map keep the 604-source / 312-consumer separation and current normal-exactness/runtime/visual HOLDs.
+Both comments preserve historical evidence and state that a future UC implementation would require explicit product rebind/rerun before shared-observer coverage could be claimed.
 
-## Fresh constellation snapshot / avoided duplication
+No comment was added merely by cadence to Materials or Procedural; their current statuses already contain the relevant authority separation and exact helper-consumption evidence.
 
-- **Building:** Hard Surface #14 and Geometry #13 already own the source hard-normal equivalence and attribute-dropping quotient; Geometry #18 now works on review-atlas sampling, a different evidence class.
-- **Map:** Technical Art #40 already owns the exact Godot/UC receiver grouping and normal-generation bridge; no sibling Technical Art lane was opened. Animation #44, VFX #43 and new Object rigid-part bridge #45 are different scopes.
-- **Animal:** Geometry #20 owns the 42->84 seam-aware render split; Runtime #23 owns 240->84 indexing and the fake 84->42 negative. Current Runtime #29 and Materials #24 are different lifecycle/tangent-space lanes.
-- **Object:** Runtime #32 has independently completed one-MultiMesh VFX batching; that is a representation/performance result, not an equivalence-policy implementation and was not folded into this map.
-- **Nature / Weather / Character / Weapon / Armor / Unit / Misc:** no fresher lane justified replacing the selected evidence or inventing an equivalence implementation.
-- **Universal Creation:** current main `e9eed3d9...`; active PR #197 is Physics and non-overlapping.
-- **Profession Fabric:** PR #37 remains the distinct bounded-variation evidence experiment; issue #38 remains the correct proposal surface for this evidence vocabulary.
+## Bounded cross-repo map
+
+| Layer | Correct home | Current evidence | Explicitly not implied |
+|---|---|---|---|
+| edge closure / current orientation conflicts | UC neutral topology observer | existing `mesh_topology.py` | orientability repair or global sign |
+| parity orientability / signed-orientation observation | **UC proposal #199** | Building #6 + Object #33 | source repair/adoption |
+| product source winding decision | owning Building/Object source + Geometry/Hard Surface | product receipts | automatic UC adoption |
+| target-host front-face/culling rule | Materials / Technical Art receiver | Object Materials #6 | source truth |
+| provenance / rebind history | Profession Fabric #38 procedure vocabulary | existing PF proposal | mesh algorithms |
+| shared-work collision avoidance | `axm-create-me` execution-claim coordination | no active #199 implementation claim | ownership / merge priority |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- one universal vertex equivalence relation;
-- automatic inference of weld/dedup keys;
-- automatic collapse from render/receiver identity to source identity;
-- automatic render-domain expansion from source semantics;
-- arbitrary-mesh welding/indexing safety;
-- byte-exact normal preservation in the Building consumer;
-- final Animal UV/tangent visual acceptance;
-- a new UC implementation;
+- a universal automatic winding repair;
+- source adoption of Object Geometry #33;
+- source adoption of Building's derived boundary shell;
+- that positive signed volume alone proves geometric outwardness for arbitrary/self-intersecting meshes;
+- renderer front-face correctness from source signed orientation;
+- target-host transport correctness;
+- normals/tangents/UV/material acceptance;
+- physical volume, collision, manufacturing or gameplay validity;
+- a UC implementation of proposal #199;
 - a PF implementation or profession promotion;
-- product adoption;
 - Art Direction / Visual QA acceptance;
 - CANON;
 - production/game readiness;
@@ -231,30 +227,33 @@ This activation does **not** establish:
 
 `axm-create-me` remains coordination-only.
 
-The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+## Four-root gate
 
-## Next bounded scan
+**Truth:** Building and Object are kept as separate exact product proofs, and the existing UC observer's real boundary is named precisely. Signed orientation is not inflated into renderer or physical truth.
 
-- If a third independent product presents a different grouping relation, check whether the relation vocabulary survives without product-specific fields.
-- If a consumer changes equality key, protected split declaration or dropped authoritative field, require exact claim rebind/rerun rather than count-based inheritance.
-- Do not open a UC mutator/welder merely because the observer can compute a candidate; mutation authority requires materially independent safety evidence beyond diagnostic grouping.
-- Continue checking `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` before any shared implementation work.
+**Agency / non-domination:** source owners retain source winding/adoption authority; Geometry owns product structural candidates; Materials/Technical Art retain receiver conventions; UC is proposed only as a neutral observer; PF retains provenance procedure only.
+
+**Continuity:** Building #6, Object #33, Object Procedural #11, Materials #6 and current UC main remain exact and rollback-addressable. Historical receipts are not retroactively upgraded by opening #199.
+
+**Wisdom before speed:** the second independent product case now justifies a proposal, but not an implementation or auto-repair system. The smallest observer boundary is proposed first.
+
+The four AXM roots remain the merge gate.
 
 ## Recovery / provenance
 
 Previous Cartography state:
 
-`PASS_SPATIAL_SCALAR_REFERENCE_FEATURE_IDENTITY_MAP`
+`PASS_REPRESENTATION_EQUIVALENCE_RELATION_IDENTITY_MAP`
 
 Previous status blob SHA:
 
-`ac36809ebb2b5f9a78c3339c494b5b656281dd44`
+`bfd7524f9d65489604c3983124f95234bda48675`
 
-Current PF refinement:
+New shared proposal:
 
-`mike-axiom-mir/axm-profession-fabric#38 comment 5721190963`
+`mike-axiom-mir/axm-universal-creation#199`
 
-Current product returns:
+Product returns:
 
-- `mike-axiom-mir/axm-animal-design#23 comment 5721193053`;
-- `mike-axiom-mir/axm-map-design#40 comment 5721197259`.
+- `mike-axiom-mir/axm-object-design#33 comment 5721855724`;
+- `mike-axiom-mir/axm-building-design#6 comment 5721858733`.
