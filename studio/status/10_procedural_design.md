@@ -1,196 +1,165 @@
 # 10 — Procedural Design Specialist Status
 
-Date: 2026-09-17
-State: **PASS_OBJECT_SEEDED_VFX_PARAMETER_FAMILY / EXACT PROCEDURAL CI GREEN / FOUR MATERIAL PARAMETER OUTPUTS / FOUR REAL TARGET-HOST REVIEW OUTPUTS / OWNER SEED REMAINS AUTHORITATIVE / NO DUPLICATE GENERATOR / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
+Date: 2026-09-17  
+State: **PASS_OBJECT_SERVICE_MODULE_STANDOFF_SEMANTIC_GUARD / EXISTING PARAMETRIC FAMILY REPAIRED / FOUR MATERIAL OUTPUTS PRESERVED / SIX FAIL-CLOSED CONTROLS / EXACT CI GREEN / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, every current specialist status, and live repository state across all eleven design repositories: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, every current specialist status, and live repository/PR state across all eleven design repositories: Character, Animal, Nature, Object, Building, Weapon, Armor, Unit, Weather, Map and Misc.
 
-`axm-create-me` remains **coordination only**. Product implementation and test evidence remain in the owning design repository. The internal merge gate remains **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
-
-This activation did **not** create a new generator merely because another hour passed. The bounded repeated pattern selected in the previous activation — deterministic per-mote seed expansion for Object VFX — had exact CI still pending. That was the first truth boundary to close. It has now completed successfully, and VFX has independently exercised the exact same four-family handoff in the real target host. No implementation defect was found that justified changing the generator.
+`axm-create-me` remains coordination-only. Product implementation, tests and retained evidence remain in the owning design repository. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** live repositories still expose no grounded repeated implementation pattern that warrants inventing a Procedural family.
-- **Character:** active Geometry, Rigging, Animation, Materials, Technical-Art and Runtime work owns the current shoulder/deformation/transport boundaries. No Procedural takeover is justified.
-- **Animal:** active Geometry/Rigging/Materials/Technical-Art/Runtime work owns current tangent, transport and representation questions. Runtime's newest ArrayMesh resource-reuse result is explicitly a Runtime lifecycle question, not a Procedural generator gap.
-- **Building:** current Geometry/Hard-Surface/Environment work is advancing directional UV/receiver evidence. Existing Procedural placement/clearance/seam families remain sufficient; no new family is justified by the latest owner evidence.
-- **Nature:** existing bounded variation and half-sine response families remain adequate; no new owner-backed repeat is stronger than the Object verification closure.
-- **Weather:** the existing bounded seeded field family already covers its present procedural variation surface.
-- **Map:** Environment, Animation, Runtime, Art and QA currently own receiver/presentation timing questions. Procedural does not enter those acceptance lanes.
-- **Object:** the exact seeded mote family was the active unresolved Procedural boundary. Its own exact-head workflow is now green, and VFX PR #31 has independently consumed all four declared family members in the real Godot receiver without changing the owner effect or adopting a review seed.
+- **Weapon / Armor / Unit / Misc:** no current implementation-backed repeated pattern strong enough to justify inventing a Procedural lane.
+- **Character:** current Geometry/Rigging/Animation/Materials/Technical-Art/Runtime work owns the active deformation and transport boundaries; no Procedural takeover.
+- **Animal:** current Organic/Geometry/Rigging/Materials/Runtime work owns source, tangent, deformation and representation questions. Runtime's payload/resource reuse is a Runtime representation problem, not a new Procedural family.
+- **Nature:** existing bounded variation and owner-response families already cover the current repeated creation surface.
+- **Weather:** existing bounded seeded field family remains sufficient.
+- **Map:** current Environment/Animation/VFX/Runtime/Art/QA lanes own receiver/playback/acceptance work; Procedural does not enter those lanes.
+- **Building:** existing placement, clearance-rebind and seam-component families remain sufficient. The newest Hard-Surface standoff work is source-owner semantics and does not justify another Building generator.
+- **Object:** the previous seeded-mote family is closed at its declared scope. A different, fresh issue is now owner-backed: Hard Surface PR #5 explicitly identifies the service-module standoff scalar's reference feature as the **nearest host-facing module body face**, while the older Procedural service-module configuration family had consumed the same module geometry without pinning that newly explicit semantic identity.
+
+The selected work is therefore a **repair of the existing Object configuration family**, not another generator or seed family.
 
 ## Selected bounded repeated pattern
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-object-design`  
+Existing Procedural draft PR: **#11 — `Procedural: bounded Object procedural and seeded variation families`**  
+Exact Procedural head: **`4aa6dedd0ab5c5477e8175bc28cb200d59df901a`**
 
-Existing Procedural draft PR: **#11 — `Procedural: bounded Object procedural and seeded variation families`**
+Existing parametric family retained:
 
-Exact Procedural head:
+**`axm.object-service-module-configuration-family/v0.1`**
 
-**`112dcf8fb900d74f68de997d4f3845ccddbb1955`**
+New bounded semantic guard:
 
-Contract:
+**`axm.object-service-module-standoff-reference-guard/v0.1`**
 
-**`axm.object-lid-release-mote-seeded-variation-family/v0.1`**
+The repeated pattern is the same exact module being generated across the existing `empty`, `left-only`, `right-only` and `bilateral` configuration cases. Those outputs all depend on the same source standoff scalar. Hard Surface has now made the scalar's reference feature explicit, so Procedural must fail closed if that semantic identity drifts rather than continuing to place geometry from a field name alone.
 
-Exact frozen VFX owner content:
+## Exact source-owner provenance
 
-- owner head: **`7994d6f28050053f07dd355d8c54a983b0e8268b`**;
-- owner effect blob: **`83c41db21e16847ac0a69215facd8697853eeb4f`**;
-- effect id: `lid-open-release-motes-001`;
-- owner baseline seed: **`41027`**;
-- particle count: **18**;
-- exact Animation phase: `play_exact_lid_clip` at **0.25 s**;
-- semantics: `STYLIZED_VISUAL_RELEASE_MOTES_NOT_DUST_OR_FLUID_SIMULATION`.
+Hard Surface remains the source owner.
 
-The reusable generator remains unchanged because no defect was found. It expands the exact owner `hash01` contract over seed + mote index + eight fixed salts, emits normalized seam coordinates and owner-range scalar samples, and forbids owner parameter/timing/semantic retuning, seam-world guessing, hidden fallback, automatic VFX adoption and automatic Runtime adoption.
+Exact owner head:
 
-## Exact Procedural verification — closed
+**`e9076b546dab2e12ba2c3649fd0021a62841be10`**
 
-Workflow:
+Exact owner policy:
 
-**`35260786145 — Object lid-release mote seeded variation family evidence`**
+`assets/modular-equipment-case-001/utility-module-001-standoff-reference.json`
 
-Result: **SUCCESS**.
+Exact policy Git blob:
 
-Python 3.11 completed the full evidence path:
+**`d8e3b9bbc4157b7f3c7f750f19e58de470b8f1ea`**
 
-- exact VFX owner checkout and identity verification;
-- full repository test suite;
-- exact family rebuild;
-- variation-pressure assertions;
-- fail-closed controls;
-- retained evidence upload.
+Pinned source semantics:
 
-Python 3.13 independently completed compile + full repository suite successfully.
+- field: `interface.standoff_from_socket_origin_m`;
+- reference feature: `module_nearest_host_facing_body_face`;
+- module local +X maps to each socket outward normal;
+- standoff: **0.03 m**;
+- body depth: **0.095 m**;
+- generated body local-X interval: **[0.03, 0.125] m**;
+- socket plate thickness: **0.012 m**;
+- physical nearest-body-face clearance beyond plate: **0.018 m** on both `left_service` and `right_service`.
 
-All **12** pull-request workflow runs associated with exact Procedural head `112dcf8...` completed **SUCCESS**, including the inherited Object configuration, extraction, UV, atlas, registration and hard-surface evidence lanes.
+Procedural does not copy ownership of these semantics. The guard consumes the exact owner head/policy identity and checks the existing generated geometry against it.
 
-Retained Procedural artifact:
+## Smallest repair
 
-- ID **`10513933710`**;
-- name `object-lid-release-mote-seeded-variation-family-001-evidence`;
-- size **22,438 B**;
-- GitHub SHA-256 **`a64a33d14a0450efa412b48a2a4ceb09b2514d331a4884c4f583ee0a78ee57fd`**;
-- independently downloaded and rehashed to the exact same digest;
-- 11 retained files.
+Added only the bounded consumer-side pieces needed to make the existing family semantically explicit:
 
-Machine-readable result:
+- `assets/modular-equipment-case-001/service-module-standoff-reference-guard-001.json`;
+- `tools/verify_service_module_configuration_standoff_guard.py`;
+- `tests/test_service_module_configuration_standoff_guard.py`;
+- `.github/workflows/object-service-module-standoff-reference-guard.yml`.
 
-**`PASS_BOUNDED_LID_RELEASE_MOTE_SEEDED_VARIATION_FAMILY`**
-
-Decision:
-
-**`PASS_DERIVED_SEEDED_MOTE_PARAMETER_FAMILY_ONLY__NO_VFX_RUNTIME_OR_VISUAL_ADOPTION`**
-
-Canonical family digest:
-
-**`172c8913d9cf9ed3b624fc50995d1c0ef57b5ae4b057d7df178b65c9807e3e18`**
+The repair reuses the existing Procedural configuration builder and the exact shared Sticker Fabric rigid-frame placement dependency. It does not fork the assembler, create a second attachment system, change the source module, or change retained geometry.
 
 ## Multiple materially different outputs
 
-The exact family contains four bounded seed cases:
+The exact existing configuration pressure remains intact:
 
-1. `owner-seed-41027` — exact owner baseline;
-2. `review-seed-17489` — review only;
-3. `review-seed-57203` — review only;
-4. `review-seed-91811` — review only.
+| configuration | instances | exact mesh digest |
+|---|---:|---|
+| `empty` | 0 | `d485a11fd819e6f90c2d1842b0534178093270d8cc4de18744ebcd10bd377351` |
+| `left-only` | 1 | `7f2472dccd1947e907caf22f9cd749cf0e123a5d9f152b21687d3c4d16cd7628` |
+| `right-only` | 1 | `7d07222483966ebd4281881f7552f499b3e0342a7f245c593532a9ed63987940` |
+| `bilateral` | 2 | `23d985839dede2b51a588276e1431bb1f01ad36f87c81bfadfb6ba0946f890cc` |
 
-Each expands to **18** mote parameter rows. The retained evidence proves **4/4 distinct mote-table digests**, and every one of the six seed pairs differs across **18/18 mote rows**. This is not a single lucky case.
+Evidence proves **4/4 distinct configuration digests**, **4/4 distinct mesh digests**, and exact retained historical mesh identities. Requesting bilateral occupancy in reverse parameter order reproduces the same canonical bilateral configuration and mesh.
 
-The exact fail-closed evidence retains six explicit controls:
+## Failure bounds
 
-- owner-head drift;
-- owner-effect blob drift;
-- duplicate seed;
-- owner-parameter-retune enablement;
-- hash-salt drift;
-- automatic VFX adoption enablement.
+Six retained controls fail closed as `HOLD_STANDOFF_SEMANTIC_GUARD`:
 
-All return `HOLD_INVALID_LID_RELEASE_MOTE_SEEDED_VARIATION_FAMILY` rather than falling back to a near configuration.
+1. Hard Surface owner-head drift;
+2. owner policy-blob drift;
+3. reference-feature relabel to body-center semantics;
+4. declared body-interval drift;
+5. downstream-rebind authority expansion;
+6. source standoff scalar drift.
 
-## Downstream owner-side target-host review
+Failure policy:
 
-After the Procedural family was authored, Object VFX PR #31 advanced from frozen owner head `7994d6f...` to review head:
+**`FAIL_CLOSED_ON_OWNER_HEAD_OR_POLICY_IDENTITY_DRIFT__NO_SEMANTIC_GUESSING__NO_FALLBACK_REFERENCE_FEATURE__NO_OUTPUT_REWRITE`**
 
-**`5f8b7bef1a8a0d1babeba7945962c83cd938529b`**
+## Exact verification
 
-The commit difference is one added evidence workflow only:
+Workflow:
 
-`.github/workflows/object-vfx-lid-release-mote-seed-family-target-review.yml`
-
-The VFX-owned effect JSON remains byte-identical to owner blob `83c41db...`; no mote count, color, range, timing, anchor, Animation phase, material, source geometry or gameplay/controller semantics changed.
-
-VFX workflow:
-
-**`35266335772 — Object VFX seeded mote family target review`**
+**`35272886987 — Object service-module standoff reference guard evidence`**
 
 Result: **SUCCESS**.
 
-Scoped result:
+- Python 3.11: exact donors PASS; compile PASS; full repository suite PASS; bounded guard evidence PASS; retained artifact upload PASS.
+- Python 3.13: exact donors PASS; compile PASS; full repository suite PASS.
+- The inherited service-module configuration, service-module fit, mote-seed and several UV/source-face Procedural workflows on the same exact head also completed successfully during the activation; remaining inherited workflows are treated separately until their own run states resolve.
 
-**`PASS_TARGET_HOST_LID_RELEASE_MOTE_SEEDED_FAMILY_REVIEW_SURFACE`**
+Machine-readable result:
+
+**`PASS_PROCEDURAL_CONFIGURATION_STANDOFF_SEMANTIC_GUARD`**
 
 Decision:
 
-**`PASS_REVIEW_VARIATIONS_RENDERABLE__OWNER_SEED_REMAINS_AUTHORITATIVE__NO_AUTO_ADOPTION`**
+**`PASS_EXISTING_CONFIGURATION_FAMILY_WITH_EXPLICIT_HARD_SURFACE_STANDOFF_REFERENCE_GUARD__NO_SOURCE_REWRITE_OR_ADOPTION`**
 
-Retained VFX target-review artifact:
+Retained artifact:
 
-- ID **`10516159313`**;
-- size **967,335 B**;
-- GitHub SHA-256 **`8b7bc88219e422abebc22bbb530e915c75517f2b217f67ff98e2f4c068f59d63`**;
-- independently downloaded and rehashed to the exact same digest.
+- ID **`10519228462`**;
+- name `object-service-module-standoff-reference-guard-001-evidence`;
+- size **6,820 B**;
+- SHA-256 **`4b3666f5dd2bd1e16e732704f57c7647803c5c7b0be3f5e92517f300f1b0dabb`**;
+- independently downloaded and rehashed to the exact same digest;
+- **7 retained files**.
 
-The real Godot 4.7.2 receiver exercised all four exact Procedural variants. At inactive samples `0.20 s` and `0.80 s`, all four are pixel-identical to control with zero active motes. At active samples `0.30 / 0.40 / 0.52 s`, all four candidate raster identities are distinct.
+## Coordination return
 
-Exact active changed-pixel observations:
+Procedural PR #11 activation comment: **`5721015487`**.  
+Hard Surface PR #5 downstream compatibility comment: **`5721016769`**.
 
-| seed | role | 0.30 s | 0.40 s | 0.52 s |
-|---:|---|---:|---:|---:|
-| `41027` | owner | `9 / 1,142 px` | `18 / 1,859 px` | `18 / 1,850 px` |
-| `17489` | review only | `10 / 1,299 px` | `18 / 1,807 px` | `18 / 1,764 px` |
-| `57203` | review only | `9 / 1,148 px` | `18 / 1,777 px` | `18 / 1,746 px` |
-| `91811` | review only | `10 / 1,186 px` | `18 / 1,708 px` | `18 / 1,728 px` |
-
-The owner seed `41027` reproduces the prior green VFX baseline rasters and metrics exactly. The three review seeds therefore prove only target-host renderability and material non-identity under the same owner ranges. They are **not ranked or adopted**.
-
-## Current bounded action / repair decision
-
-No new Object Procedural implementation commit was made in this activation. That is intentional.
-
-The existing generator passed exact-head CI without a defect, all four outputs are materially distinct, and the VFX owner has now exercised the same exact family in its real receiver. Creating a second seeded generator, adding more seeds, selecting a winner, or copying VFX's renderer into Procedural would duplicate lanes and weaken ownership boundaries rather than improve the system.
-
-The correct repair was to close the stale `QUEUED` truth state, independently verify both retained artifacts, return exact evidence to Procedural PR #11 and VFX PR #31, and keep the family bounded.
-
-Procedural PR #11 evidence closure comment: **`5720238516`**.
-
-VFX PR #31 Procedural handback comment: **`5720240263`**.
+No authority was transferred by either comment.
 
 ## Ownership / non-overlap
 
-- **Procedural Design:** deterministic bounded seed expansion and its exact family/failure contract.
-- **VFX:** effect identity/meaning, owner seed `41027`, target-host renderer and effect-side receiving evidence.
-- **Animation:** phase/timing/easing/order authority.
-- **Runtime:** production particle representation, controller integration and performance/device acceptance.
-- **Art Direction / Visual QA:** perceptual preference and final visual acceptance.
-
-No review seed can auto-adopt through this family or through the VFX review workflow.
+- **Hard Surface:** owns source module geometry, standoff field meaning, reference feature and physical source-space clearance semantics.
+- **Procedural Design:** owns only the bounded deterministic configuration family and this consumer-side semantic guard.
+- **Sticker Fabric:** remains the exact shared rigid-frame placement helper dependency.
+- **Rigging / Animation / Runtime / Art / QA:** retain their existing receiving, motion, runtime and acceptance authorities.
 
 ## Explicit non-claims
 
-This PASS does **not** establish a preferred seed, better-looking motes, production particle runtime, physical dust/pressure/airflow/fluid behavior, gameplay interaction, target-device CPU/GPU/FPS/VRAM/thermal/battery behavior, Art Direction acceptance, independent Visual QA acceptance, a universal random/VFX framework, UC/Profession Fabric promotion, CANON, production/game readiness, or Procedural Design mastery.
+This PASS does **not** prove engineering tolerance, fasteners/tooling, retention/load, wear/sealing, full-mesh collision, physics, Runtime attach/detach, gameplay, final Materials/Art acceptance, target-device performance, automatic downstream rebind, UC/Profession Fabric promotion, CANON, production readiness, or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** the previously queued Procedural run is now recorded as actual SUCCESS; artifact identities and independent hashes are explicit; downstream VFX target-host review is reported at its exact head without turning renderability into preference.
-- **Agency / non-domination:** review variants cannot auto-adopt; Procedural does not seize VFX, Animation, Runtime, Art or QA authority.
-- **Continuity:** existing Object Procedural PR #11 remains the lane; owner seed `41027`, exact owner effect blob and historical queued-state comment remain preserved rather than rewritten.
-- **Wisdom before speed:** no generator was changed after a clean exact verification, and no fifth seed/family was invented just to create activity.
+- **Truth:** a previously implicit semantic dependency is now explicit and pinned to exact owner head + policy blob; exact geometry identities did not change.
+- **Agency / non-domination:** Procedural consumes Hard Surface semantics but cannot rewrite or reinterpret them, and cannot auto-adopt into downstream lanes.
+- **Continuity:** the existing Object Procedural PR and existing configuration family remain the lane; historical mesh identities are preserved rather than silently regenerated under a new meaning.
+- **Wisdom before speed:** no duplicate generator was created. The smallest useful repair was a source-owner semantic guard across the already-existing materially different outputs.
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. Treat this seed family as **closed at its current bounded scope** unless an owner-side semantic change creates a real need to rebind it. Prefer a genuinely different repeated creation problem over adding more review seeds or copying VFX receiver logic into Procedural.
+Re-scan the full constellation first. Do not extend this guard unless Hard Surface changes the owner policy or source geometry. Prefer a genuinely different repeated creation problem over further Object service-module layering.
