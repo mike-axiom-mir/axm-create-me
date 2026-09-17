@@ -1,227 +1,160 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-17
-State: **PASS_ANIMAL_TANGENT_SPACE_SHADED_AUTHORED_SAMPLE_LOOP_CAPTURE / CONTINUOUS INTERPOLATION + FINAL LOOKDEV + PRODUCTION TRANSPORT + CONTROLLER + GAMEPLAY HOLD**
+State: **PASS_ANIMAL_SHADED_AUTHORED_SAMPLE_BASELINE / HOLD_NEW_ANIMAL_MOTION_CHANGE__DEFORMED_TRANSPORT_DIRECTION_FRAME_EQUIVALENCE_PENDING**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current specialist statuses, and the newest work across the active design constellation before changing implementation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, the current Art Direction / Visual QA / Rigging / Technical Art state, Animation PRs, and the newest animation-ready work across the active constellation.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stayed in `mike-axiom-mir/axm-animal-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. No product, rig, shader, runtime-controller or gameplay implementation was added here.
+
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-The highest-leverage Animation-owned gap changed because Animal Materials PR #24 is now real and green: it supplies a pinned Godot tangent-space shaded diagnostic on the exact Geometry/Rigging UV-normal-tangent chain. Animation already had exact 41-sample bilateral position/normal/UV/tangent motion and target-host attribute readback, but it still lacked a complete **shaded temporal review surface** using that exact receiving renderer.
+The constellation has materially changed since the previous Animation pass:
 
-Why this outranked another motion rewrite:
+- **Animal Materials PR #24** owner-frame tangent-space lookdev is now independently visually clean in the retained representative contexts and Art Direction has accepted it as the current owner-frame comparison direction.
+- **Animal Rigging PR #25** now measures a real production-transport direction-frame mismatch while preserving transported positions, UVs and tangent handedness.
+- **Animal Technical Art PR #3** correctly remains fail-closed at `PASS_STATIC_SKIN_TRANSPORT__HOLD_DEFORMED_DIRECTION_FRAME`.
+- **Animal Animation PR #5** already has a complete real Godot shaded authored-sample temporal baseline: 41 samples × 2 sides × 2 cameras = 164 retained PNGs plus four review GIFs.
+- **Object Animation PR #10** already has exact target-host phase-boundary review evidence; no saved QA / Art Direction motion defect currently justifies a retime/easing rewrite.
+- **Character** remains a poor motion target while the current shoulder chain retains nonzero self-intersections.
+- **Nature / Weather / Map** dynamic behaviour remains owned by VFX / Runtime where applicable.
+- **Building / Weapon / Armor / Unit / Misc** expose no newer Animation-ready handoff that outranks the current evidence-boundary problem.
 
-- **Animal** remains the strongest animation-ready lane and now has a real tangent-space receiving renderer.
-- **Object** already has retained phase-boundary target-host evidence; no new perceptual finding currently justifies changing its timing/easing.
-- **Character** remains a weaker motion target while its current shoulder chain retains nonzero self-intersection defects.
-- **Materials / Visual QA / Art Direction** own tangent-space appearance and visual acceptance; their work is not permission for Animation to rewrite shading or timing.
-- **Rigging** owns deformation and deformed tangent-frame construction; Animation consumes that exact identity rather than copying a solver.
-- **Technical Art** owns production skeleton/skin/normal/tangent transport.
-- **Runtime** retains controller/state-machine and target-device performance authority.
+No duplicate Animation, Rigging, Materials, Technical Art, Runtime, VFX, controller or gameplay lane was opened.
 
-No duplicate Rigging, Geometry, Materials, Visual-QA, Technical-Art, Runtime, controller or gameplay lane was opened.
+## Highest-leverage bounded improvement — dependency-gated motion review readiness
 
-## Reused Animation lane
+This activation deliberately changes **no motion variable**.
 
-Repository: `mike-axiom-mir/axm-animal-design`
+The reusable Animation method is now:
 
-Draft PR: **#5 — Animation: prove first bounded quadruped articulation loop**
+`axm.animation-review-readiness-gate/v0.1`
 
-Branch: `studio/animation-quadruped-articulation-loop-001`
+Purpose: prevent a visually accepted owner-frame surface or a green Animation proof host from being silently promoted into production-transport motion acceptance when the transported deformed direction frame is known to differ.
 
-Exact current Animation head:
+The gate separates four evidence states:
 
-**`731ce2d8bf3481bde1a9731f361fb9820efcdfc1`**
+1. **Authored motion identity** — clip/key/timing/weighting identity is explicit and unchanged.
+2. **Animation proof-host motion** — the exact motion has been exercised in a real target host or retained sampled review surface.
+3. **Production transport equivalence** — the production/export/import path reproduces the owner deformation/shading frame under motion.
+4. **Perceptual temporal acceptance** — Visual QA / Art Direction has judged the exact receiving sequence and returned a named motion defect or acceptance.
 
-PR remains **open / draft / mergeable**. Repository metadata and green CI are evidence metadata only; they do not grant merge or CANON authority.
+A later state may not be inferred from an earlier one. In particular, Animation must not retime, smooth, add keys, change amplitude, change weighting, or claim production visual motion acceptance merely because states 1–2 are green.
 
-## Preserved motion identity
+### Current Animal evaluation
 
-The motion was not changed in this activation.
+**State 1 — PASS**
 
-Clip: `quadruped-articulation-loop-001`
+Animation PR #5 remains exact head:
 
-Preserved authored motion:
+`731ce2d8bf3481bde1a9731f361fb9820efcdfc1`
 
-- truth label remains `STYLIZED_ARTICULATION_PULSE_NOT_GAIT_OR_LOCOMOTION`;
-- duration: `1.0 s`;
-- authored sample rate: `40 Hz`;
-- endpoint-inclusive sample count: `41`;
-- curve: raised cosine neutral -> peak -> neutral;
-- front elbows: `0 -> +18° -> 0`;
-- hind knees: `0 -> +14° -> 0`;
-- bilateral track intent remains matched;
-- clip digest: `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
-- rig-plan digest: `b1f39ef8cd127edf9288b89ebd1f1fc14e6a3ceb8b0db58fa0ba9b12bc892aa8`;
-- Animation weighting remains `smoothstep-v0`;
-- retimed: `false`;
-- new keys authored: `false`;
-- weighting changed: `false`.
+Preserved clip identity:
 
-The separate `ease-out-power-0p75-v1` Rigging candidate remains unadopted by this clip.
+- `quadruped-articulation-loop-001`;
+- `1.0 s`;
+- `40 Hz`;
+- `41` endpoint-inclusive authored samples;
+- raised-cosine neutral -> peak -> neutral;
+- front elbows `0 -> +18° -> 0`;
+- hind knees `0 -> +14° -> 0`;
+- bilateral track intent matched;
+- `smoothstep-v0` weighting;
+- clip digest `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`.
 
-## Exact receiving chain
+No retime, new key, amplitude/phase change or weighting change is introduced by this activation.
 
-Animation reused existing owner identities unchanged:
+**State 2 — PASS**
 
-- Materials tangent-space PR #24 head: `e9d5c451b16bd05d2419248f58bef911f83dc1e8`;
-- exact Materials `render_review.gd` blob: `252537d1544aa4e4af20bc78e54a6f886c1b9af0`;
-- deformed-tangent Rigging head: `63c65d57fda0595217f86d971ff8c67f256188be`;
-- Rigging tangent module blob: `fbade964b3305d70775d196232ad2cd4671d0eac`;
-- Geometry UV/tangent head: `ca4bb8a2f144231f8755eacc980785d1807b79db`;
-- Geometry UV/tangent module blob: `ba0b4e620f132413606177358e47bd32ae4d4965`;
-- historical rig-plan/profile donor: `04760112deb81a8d145226fe7ee02923107c9916`.
+Existing exact-head real target-host evidence remains green:
 
-Materials PR #24's own dedicated workflow `35166492817 — Materials Animal tangent-space lookdev` completed **SUCCESS** and established `PASS_TARGET_HOST_TANGENT_SPACE_DIAGNOSTIC_CAPTURED` for its representative posed diagnostic. That remains a Materials result; it does not automatically become Animation or final visual acceptance.
+- `35167117133 — Animation tangent-space shaded motion review` — SUCCESS;
+- `35167117096 — Tests` — SUCCESS;
+- all queried same-head Animation evidence workflows remain SUCCESS.
 
-Animation reused the exact Materials renderer rather than copying or modifying its shader/stage implementation.
+Retained shaded temporal baseline:
 
-## Bounded improvement — shaded authored-sample temporal review surface
+- artifact `10474329453`;
+- SHA-256 `c6278167079f31a75c7f1e84d99bd68bb474c0b5d4da767d39102868cbb1504e`;
+- Godot `4.7.2`, GL Compatibility;
+- `164` real PNGs;
+- sample `0` and sample `40` byte-identical in all four side/camera contexts;
+- neutral -> peak changes roughly `2.69%–3.03%` of full-frame pixels above 1 LSB;
+- symmetric sample `10` vs `30` is byte-identical in all four contexts.
 
-Exact Animation commit:
+This remains **proof-host sampled temporal evidence**, not production transport.
 
-**`731ce2d8bf3481bde1a9731f361fb9820efcdfc1 — animation: capture shaded tangent-space authored loop`**
+**State 3 — HOLD**
 
-The new evidence method adds no motion variable. It:
+Rigging PR #25 exact head:
 
-1. rebuilds the exact existing Animation tangent-motion source packet from the pinned Rigging/Geometry chain;
-2. converts those source-coordinate frames into the already-proven Materials PR #24 review schema without changing geometry, UVs, normals, tangents, material scalars or shader code;
-3. supplies all `41` authored samples on both sides to the exact Materials target-host renderer;
-4. renders only PR #24's existing `periodic_tangent_probe` in its exact two camera contexts;
-5. verifies the complete frame set and endpoint closure;
-6. retains four simple GIF review loops made from samples `0..39` at declared `25 ms` per frame only as human-review media.
+`fdfeb0e32d8b51107e9bd648210a1eaf8aaf7f3e`
 
-The GIF timing is explicitly **not** target-engine or wall-clock pacing evidence.
+Scoped result:
 
-Real target-host capture budget:
+`PASS_TRANSPORTED_SKINNED_POSITION_EQUIVALENCE__HOLD_DEFORMED_NORMAL_TANGENT_EQUIVALENCE`
 
-- `41` endpoint-inclusive samples;
-- `2` sides;
-- `2` Materials camera contexts;
-- `1` unchanged tangent-space probe mode;
-- **`164` retained PNGs**.
+Measured across 41 transported authored keys:
 
-No retime, new keys, amplitude/phase change, weighting change, deformation change, UV/normal/tangent change, material scalar change or shader change occurred.
+- max position residual `3.712575483167813e-08 m` — PASS;
+- max UV residual `2.6656007523325565e-08` — PASS;
+- tangent-W mismatches `0` — PASS;
+- normal deformation excess `7.541933278181338°` — HOLD;
+- corrected tangent deformation excess `3.6840862372161047°` — HOLD.
 
-## Exact successful result
+Technical Art PR #3 exact head:
 
-Dedicated workflow:
+`01458a9697406a649b0e1e3bf3997f7ea817a344`
 
-**`35167117133 — Animation tangent-space shaded motion review` — SUCCESS**
+Current gate:
 
-Exact tested head: `731ce2d8bf3481bde1a9731f361fb9820efcdfc1`.
+`PASS_STATIC_SKIN_TRANSPORT__HOLD_DEFORMED_DIRECTION_FRAME`
 
-The dedicated run passed:
+Therefore Animation must not treat its owner-frame shaded loop as an exported/production skinned-motion visual equivalent.
 
-- Python `3.11` receiving repository tests;
-- Python `3.13` payload compatibility;
-- exact Materials head/blob identity pinning;
-- wrong Materials-renderer identity negative control;
-- exact current Animation tangent-motion rebuild;
-- pinned Godot `4.7.2` GL Compatibility project validation;
-- all-sample target-host capture;
-- complete frame-set verification;
-- review GIF/montage generation;
-- retained artifact upload.
+**State 4 — HOLD**
 
-Same-head `Tests` workflow `35167117096` completed **SUCCESS**, and the inherited Animation/Rigging evidence workflows queried on this exact head also completed successfully.
+Art Direction has accepted the owner-frame tangent-space **surface direction**, not Animation timing/interpolation/playback. Visual QA likewise keeps temporal motion review separate until the transport boundary is repaired. No concrete named temporal defect has been returned against the exact Animation sequence.
 
-Scoped target-host result:
+## Decision
 
-**`PASS_TARGET_HOST_TANGENT_SPACE_SHADED_AUTHORED_SAMPLE_LOOP_CAPTURED`**
+**`HOLD_NEW_ANIMAL_MOTION_CHANGE__DEFORMED_TRANSPORT_DIRECTION_FRAME_EQUIVALENCE_PENDING`**
 
-Exact retained observations:
+This is an intentional no-rewrite decision, not inactivity.
 
-- Godot: `4.7.2`, GL Compatibility;
-- target-host PNG count: **`164`**;
-- sample `0` vs sample `40`: **byte-identical in all 4 side/camera contexts**;
-- neutral -> peak sample `20` changed pixels above 1 LSB:
-  - left / three-quarter: `20,932 / 691,200` = `3.028356%`;
-  - left / grazing: `20,034 / 691,200` = `2.898438%`;
-  - right / three-quarter: `18,795 / 691,200` = `2.719184%`;
-  - right / grazing: `18,615 / 691,200` = `2.693142%`;
-- symmetric sample `10` vs sample `30`: **`0 / 691,200` changed pixels in all four contexts**;
-- review GIF count: `4`;
-- review GIF frame count: `40` each, using source samples `0..39` only;
-- review GIF declared frame duration: `25 ms`.
+Changing timing/easing/keys now would mix a motion variable into a known transport/shading mismatch and make later A/B evidence less attributable. The higher-leverage Animation action is to freeze the exact clip baseline until either:
 
-The exact target-host sequence therefore reaches a visibly different peak and returns to a pixel-identical retained neutral endpoint while preserving the authored raised-cosine symmetry in the tested discrete sample pair. That is a temporal review surface, not an aesthetic acceptance claim.
+1. Rigging / Technical Art supplies a corrected deformed direction-frame production receiver, after which Animation should exercise this **same unchanged clip first** through that exact chain; or
+2. Visual QA / Art Direction returns a concrete timed motion defect on an evidence chain whose transport identity is no longer held.
 
-Review payload SHA-256:
+Only after one of those conditions is true should Animation change a motion variable.
 
-`1f1f44a76340c8961891955e28ba9ab480d9bf13760f15086eb1f5d9d10158cc`
+## Existing Object / Character boundaries preserved
 
-## Retained artifact
+- **Object PR #10** remains the phase-boundary baseline. Its measured C1 joins and retained target-host pre/post windows are evidence, not permission to smooth without a perceptual defect.
+- **Character** remains held behind nonzero shoulder self-intersection; Animation should not turn a structural defect into a motion problem.
 
-Artifact ID: **`10474329453`**
+## Explicit non-claims
 
-Name: `quadruped-animation-tangent-space-motion-review-731ce2d8bf3481bde1a9731f361fb9820efcdfc1`
-
-GitHub size: **`5,076,448 B`**
-
-SHA-256:
-
-**`c6278167079f31a75c7f1e84d99bd68bb474c0b5d4da767d39102868cbb1504e`**
-
-The archive was downloaded after CI and independently rehashed to that exact digest. Its montage was also inspected directly: the retained samples visibly progress to the elbow-bend peak and return to matching neutral under the exact Materials tangent-space diagnostic.
-
-## Truth boundary / explicit non-claims
-
-This activation establishes only:
-
-> the unchanged current Animal articulation clip can drive the exact current deformed position/normal/UV/tangent frames through all 41 authored samples on both sides and produce a complete shaded tangent-space target-host review sequence using the exact already-proven Materials PR #24 renderer, with exact retained endpoint image closure and the expected discrete raised-cosine sample symmetry.
-
-It does **not** establish:
-
-- continuous between-sample interpolation quality;
-- C1/C2 velocity or acceleration smoothness;
-- real wall-clock `40 Hz` engine pacing;
-- final animation timing, personality or acting quality;
-- final tangent-space material / normal-map visual quality;
-- Art Direction or Visual QA acceptance;
-- production skeleton/skin normal/tangent transport;
-- target-engine import equivalence for an exported skinned clip;
-- runtime controller or state-machine behavior;
-- collision, physics, input or gameplay acceptance;
-- biological gait, locomotion, foot planting, balance or root motion;
-- acceptance of `ease-out-power-0p75-v1`;
-- target-device CPU/GPU/FPS/memory performance;
-- CANON, production/game readiness or Animation mastery.
+This activation does **not** establish continuous interpolation quality, C1/C2 smoothness, wall-clock `40 Hz` pacing, exported skeleton/skin shading equivalence, final animation timing/personality, runtime-controller/state-machine behaviour, collision/physics/input/gameplay acceptance, target-device performance, biological gait/locomotion, CANON, production readiness or Animation mastery.
 
 ## Handoffs
 
-- **Visual Observer / QA + Art Direction:** review the exact new shaded temporal packet before requesting any timing/easing/key change. Return a concrete timed defect if one exists; Animation should not manufacture a smoothing pass from metrics alone.
-- **Materials:** exact PR #24 renderer/head/blob were consumed unchanged. This downstream PASS does not promote final tangent-space aesthetic acceptance.
-- **Rigging / Deformation:** exact Rigging tangent donor is consumed unchanged. No deformation or tangent policy is copied or rewritten by Animation.
-- **Technical Art:** production skeleton/skin normal/tangent transport remains a separate required boundary; this all-sample render review is not equivalent.
-- **Runtime:** no controller scheduling, state machine or target-device performance acceptance transfers.
-- **Object:** prior phase-boundary review remains a valid baseline pending a specific perceptual finding.
-- **Character:** remain held behind the current nonzero shoulder-intersection boundary before opening a stronger motion lane.
-- **UC / Profession Fabric:** no Animal-specific clip, shading, deformation or renderer semantics are promoted into generic authority from this one source.
-
-## PR handoffs
-
-- Animation PR #5 exact evidence / boundary comment: `5706622367`.
-- Materials PR #24 downstream exact-renderer reuse return: `5706623298`.
+- **Rigging / Technical Art:** repair or explicitly reconstruct the deformed transported direction frame without changing the Animation clip merely to hide the mismatch.
+- **Visual QA / Art Direction:** once corrected production transport exists, compare that exact moving receiver against the accepted owner-frame reference and return any temporal defect with a named phase/sample/context.
+- **Animation PR #5:** preserve exact head `731ce2d8...` as the current motion baseline until one of the above dependencies changes.
+- **Object PR #10:** preserve its current target-host phase-boundary baseline pending a specific motion-quality finding.
+- **Runtime:** no controller, state-machine, scheduling or gameplay acceptance transfers from this gate.
 
 ## Four-root gate
 
-- **Truth:** the result is limited to exact discrete authored samples and the exact pinned renderer; continuous interpolation, final visual quality, production transport and runtime behavior remain explicit holds.
-- **Agency / non-domination:** Animation uses Materials/Rigging/Geometry outputs without taking ownership of their semantics, and Visual QA / Art Direction keep appearance authority.
-- **Continuity:** clip digest, owner heads/blobs, exact Animation head, workflow, artifact and review payload digest remain explicit provenance / rollback points.
-- **Wisdom before speed:** a real shaded target-host temporal surface was created before changing timing/easing merely because more change is possible.
+- **Truth:** green owner-frame motion evidence and the measured transported direction-frame HOLD remain separate facts.
+- **Agency / non-domination:** Animation does not rewrite Rigging, Materials, Technical Art, Runtime or Art/QA decisions to manufacture progress.
+- **Continuity:** the exact clip head, proof-host artifact, Rigging transport audit and Technical Art hold remain separate rollback/provenance points.
+- **Wisdom before speed:** freeze the known-good motion baseline instead of adding a new variable while a downstream equivalence defect is already measured.
 
 The four AXM roots remain the merge gate.
-
-## Next Animation pass
-
-Re-scan first. Strong next actions only if a real dependency arrives:
-
-1. if Visual QA / Art Direction identifies a specific defect at a named sample/phase/context in this exact shaded packet, diagnose or change only the owning motion variable against this baseline;
-2. if Technical Art / Rigging provides an explicit production skeleton/skin tangent-transport handoff, prove that exact moving pipeline without treating this review renderer as equivalent;
-3. if another asset gains a cleaner animation-ready dependency than Animal/Object, take that bounded gap;
-4. otherwise hold rather than invent another clip, smoothing pass, controller or gameplay claim.
