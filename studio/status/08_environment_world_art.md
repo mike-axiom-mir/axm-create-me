@@ -1,47 +1,56 @@
 # 08 — Environment / World Art Specialist Status
 
 Date: 2026-09-17
-State: **ACTIVE / SELECTED-ROUGHNESS + COMPACT-EAST REAL-WORLD COMPOSITION IMPLEMENTED / EXACT CI QUEUED / DUAL ENVIRONMENT ADOPTION HELD**
+State: **ACTIVE / ROUGHNESS + COMPACT-EAST COMBINED WORLD GREEN / EXACT RETAINED PIXEL ATTRIBUTION LOCALLY REPRODUCED / HOSTED GATE QUEUED / DUAL ENVIRONMENT ADOPTION HELD**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the prior Environment status, and fresh Map, Building, Nature, Object, Weather plus Art Direction, Materials, VFX / Atmosphere, Technical Art, Runtime and Visual QA state across the active constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the prior Environment status, and fresh Map, Building, Nature, Object, Weather plus Art Direction, VFX / Atmosphere, Technical Art, Runtime and independent Visual QA state across the constellation.
 
-`axm-create-me` remains **coordination only**. All implementation/evidence work for this activation lives in the owning Map repository. This status file is the only `axm-create-me` change.
+`axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` change. Implementation/evidence remains in the owning Map repository.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Prior activation closure
 
-The preceding selected-roughness multiscale-review workflow is no longer pending.
+The preceding cross-asset composition is no longer queued.
+
+Exact Environment composition head:
+
+`4bd7eaf6970716dde4159448c92556785f47e954`
 
 Dedicated workflow:
 
-`35241369800 — Environment Object selected roughness multiscale review` — **SUCCESS**.
+`35248195715 — Environment selected roughness + compact-east current-world composition` — **SUCCESS**.
 
 Retained artifact:
 
-- ID `10505169029`;
-- size `581,244 B`;
-- GitHub SHA-256 `ff66124b267ae31a520623b26c79cb0a8e9e05bea25d7edef9dbf439c9ed3d12`.
+- ID `10509037278`;
+- size `7,184,621 B`;
+- SHA-256 `8f2f8aa4bb11e2f868a6ce36dd381933ba1ea6c59be7b82ed00d1dfe5402ee97`.
 
-The prior reviewability rule and adoption boundary therefore have hosted CI evidence now. This does **not** convert selected roughness into an adopted Environment default; appearance acceptance remains with Art Direction / independent Visual QA.
+Scoped result:
+
+`PASS_CURRENT_WORLD_SELECTED_ROUGHNESS_PLUS_COMPACT_EAST_COMPOSITION_REVIEW_READY__DUAL_ADOPTION_HELD`
+
+The exact combined receiver preserves the selected-roughness runtime observation in all 17 states, receives the compact-east `0..16` phase sequence, keeps the established Weather-width boundary and preserves draw/object/primitive counts versus the selected-roughness parent. Both Environment adoption flags remain false.
+
+Art Direction subsequently reviewed the exact sampled compact-east world response and chose to **freeze the sampled spatial response for playback review**, not amplify or reframe it. Independent Visual QA likewise passes sampled readability in `elevated_oblique`, records `path_eye` as exactly non-observing, and keeps final visual acceptance blocked on playback/product-camera/runtime/Art evidence. Environment therefore does not duplicate the Animation-owned playback lane or retune Nature/VFX.
 
 ## Fresh constellation / duplication scan
 
 Environment did **not** open a new PR.
 
 - Map Environment PR #24 remains the existing world receiving/composition lane.
-- Map VFX PR #43 has materially changed since the preceding Environment pass: its compact-east current-world target-host lane is now green at exact Map head `29ef2d4cc4398b3f26290e4e1f1f10398ca9898c`.
-- Nature VFX PR #11 owns the exact compact-east source response at `cef2ad78d8e36a55ada5dad07329f1a7125d48de`; Environment does not re-author its motion.
-- Nature Runtime PR #12 already owns the single-blend-shape CPU/buffer-memory trade. Environment does not duplicate that representation or adopt it automatically.
-- Object Runtime PR #30 already owns the selected-roughness `L8` storage experiment. Environment does not create a competing texture representation.
-- Object Materials / Hard Surface / Technical Art retain surface meaning, source-face identity and UV/texture transport authority.
-- Building source-owner / Geometry / Procedural work remains independent, including utility-panel clearance/chart and compact owner-seam work. No Building source lane is absorbed here.
-- Weather PRs retain source visual-field and procedural-seed authority; Environment keeps `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED` semantics unchanged.
-- Art Direction and independent Visual QA retain final appearance judgment.
+- Map Animation PR #44 owns current-world compact-east playback and currently carries the playback/infrastructure problem; Environment does not duplicate it.
+- Map VFX PR #43 and Nature VFX PR #11 own compact-east response/readability; Art and QA request no response amplification from current sampled evidence.
+- Nature Runtime PR #12 owns the single-blend-shape CPU/buffer-memory trade; Environment does not adopt it.
+- Object Runtime PR #30 owns the `L8` roughness storage experiment; Object Technical Art PR #28 owns transport; Environment does not create another texture representation.
+- Building has fresh source-owned utility-panel service-surface and corrected receiver-clearance work. Those source/Geometry lanes require explicit downstream rebinding before Environment would receive them; they are not absorbed here.
+- Weather keeps source/procedural field authority and `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED` semantics.
+- Runtime is active on separate target-host/resource work and retains performance/device authority.
 
-The fresh highest-leverage Environment gap is therefore no longer compact-east isolation. It is **cross-asset coexistence**: two independently green/reviewable visual candidates — Object selected roughness and compact-east Nature response — had never been proven together in the same retained Building + Nature + Object + footprint + Weather scene.
+With the combined world now green, the highest-leverage unowned Environment gap was not another asset mutation. It was **cross-asset visual attribution**: prove whether the Object roughness delta and the subsequently stacked compact-east delta still remain independently attributable in the exact retained real scene rather than assuming two green visual candidates compose without raster interaction.
 
 ## Owning lane
 
@@ -53,149 +62,171 @@ Branch: `studio/environment-weather-variant-object-convergence-001`
 
 Exact Map head after this activation:
 
-`4bd7eaf6970716dde4159448c92556785f47e954`
+`53441702924f6238e6632b19f94fa112c53d4d58`
 
-PR state at inspection after the commit: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+PR state after the commit: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
 No new Environment PR was opened.
 
-## Bounded improvement — exact selected-roughness + compact-east current-world stack
+## Bounded improvement — exact retained cross-asset pixel attribution
 
 Added in Map PR #24:
 
-- `contracts/environment_selected_roughness_compact_east_composition.json`;
-- `tools/environment_selected_roughness_compact_east_composition.py`;
-- `docs/ENVIRONMENT_SELECTED_ROUGHNESS_COMPACT_EAST_COMPOSITION_001.md`;
-- `.github/workflows/environment-selected-roughness-compact-east-composition.yml`.
+- `contracts/environment_selected_roughness_compact_east_visual_attribution.json`;
+- `tools/environment_selected_roughness_compact_east_visual_attribution.py`;
+- `docs/ENVIRONMENT_SELECTED_ROUGHNESS_COMPACT_EAST_VISUAL_ATTRIBUTION_001.md`;
+- `.github/workflows/environment-selected-roughness-compact-east-visual-attribution.yml`.
 
 Reusable rule:
 
-`CROSS_ASSET_WORLD_STACKING_SHOULD_HOLD_ONE_REVIEW_CANDIDATE_EXACT_WHILE_PROVING_THE_SECOND_AGAINST_THE_EXACT_ALREADY_REVIEWABLE_PARENT`
+`SEQUENTIAL_WORLD_CANDIDATES_REQUIRE_PIXEL_ATTRIBUTION_AGAINST_EXACT_RETAINED_PARENTS_BEFORE_COMBINED_ADOPTION`
 
-The exact selected-roughness current-world receiver is the held comparison parent. Compact-east is the only newly stacked visual-response variable.
+This pass does **not rerender or reauthor** the world. It derives an attribution receipt from three exact already-retained real Godot current-world artifacts:
 
-### Exact selected-roughness parent
+### A — exact UV0-only parent
+
+- Map head `4eed6da68f746ca2849c89fa88533f82bc836b26`;
+- artifact `10501901585`;
+- archive SHA-256 `a3e3c3adc794877d84f3735f4f4ff69e3120843588da5c8aaa259d7ab7b965e3`;
+- state `PASS_CURRENT_WORLD_OBJECT_SELECTED_SERVICE_SURFACE_UV0_BOUND__ROUGHNESS_ADOPTION_HELD`.
+
+### B — exact selected-roughness-only successor
 
 - Map head `d8a1d950ed5f21e6ad356404f46407c99c160017`;
-- workflow `35235994153` — SUCCESS;
 - artifact `10502588586`;
 - archive SHA-256 `60c1e589e3e1c3a7dab5430b55ef59542dd7ca35dad8b13653d165c79eee3a1e`;
-- state `PASS_CURRENT_WORLD_OBJECT_SELECTED_ROUGHNESS_APPEARANCE_CANDIDATE_REVIEW_READY__ENVIRONMENT_ADOPTION_HELD`;
-- selected texture PNG SHA-256 `57cf746a9a7e0615884fe3c45c6c4df677c2bd0631def61b3ccb1684daa26949`;
-- selected scalar R8 SHA-256 `b8d13c07f9b71278042b0d42d44b84579a3f327c6adf6723cae4c8c8f06dd38e`.
+- state `PASS_CURRENT_WORLD_OBJECT_SELECTED_ROUGHNESS_APPEARANCE_CANDIDATE_REVIEW_READY__ENVIRONMENT_ADOPTION_HELD`.
 
-The exact artifact was downloaded again during this activation and independently rehashed to the same archive digest. This activation does not silently trust only the old receipt.
+### D — exact roughness + compact-east composition
 
-### Exact compact-east current-world donor
+- Map head `4bd7eaf6970716dde4159448c92556785f47e954`;
+- artifact `10509037278`;
+- archive SHA-256 `8f2f8aa4bb11e2f868a6ce36dd381933ba1ea6c59be7b82ed00d1dfe5402ee97`;
+- state `PASS_CURRENT_WORLD_SELECTED_ROUGHNESS_PLUS_COMPACT_EAST_COMPOSITION_REVIEW_READY__DUAL_ADOPTION_HELD`.
 
-- Map VFX head `29ef2d4cc4398b3f26290e4e1f1f10398ca9898c`;
-- Nature VFX owner head `cef2ad78d8e36a55ada5dad07329f1a7125d48de`;
-- workflow `35243081614` — SUCCESS;
-- artifact `10506765610`;
-- artifact SHA-256 `3b7ee551d21b88e8568b88194a804459a77774d08103bc11f5b53756df9fd588`;
-- VFX observer Git blob `67a3aa1f1932a99de1b6e835ad308630bff282a5`;
-- result `PASS_CURRENT_WORLD_COMPACT_EAST_VISUAL_RESPONSE_TARGET_HOST`.
+All three archives were downloaded again this activation and independently rehashed to those exact digests before analysis.
 
-The green donor retains 68 / 68 current-world target-host frames, exact neutral endpoints, 30 changed interior frames, full interior-phase observability in `elevated_oblique`, and a legitimate pixel-exact non-observing `path_eye` context. Weather remains a visual-direction source, not physical wind.
+## Exact local recomputation from retained real-world evidence
 
-## Smallest receiver composition
+Environment recomputed all **68 matched PNG triples** (`17 states × 2 Weather review modes × 2 cameras`) directly from the exact retained artifacts rather than accepting the prior receipts as sufficient.
 
-Environment does not copy or rewrite the compact-east VFX algorithm.
+### Selected roughness contribution — `A -> B`
 
-The new workflow pins the exact green VFX observer and composes it over the exact selected-roughness receiver by changing only the observer's first GDScript parent declaration:
+- raw changed pixels: **6,426** total;
+- pixels above 1 LSB: **1,666**;
+- maximum RGB-channel delta: **7 LSB**;
+- full retained union bbox: `[314,307,560,449]` using exclusive max coordinates.
 
-- previous parent: `atmosphere_current_world_nature_leaf_flutter_observe.gd`;
-- composed parent: `atmosphere_current_world_object_selected_roughness_observe.gd`.
+Context detail:
 
-Every donor line after `extends` must remain identical.
+- `path_eye / control`: 2,703 changed pixels across 17 frames, bbox `[314,440,343,449]`;
+- `path_eye / candidate`: 2,703, same bbox;
+- `elevated_oblique / control`: 510, bbox `[549,307,560,314]`;
+- `elevated_oblique / candidate`: 510, same bbox.
 
-This means the inherited selected-roughness receiver continues to own the Object face segmentation, UV0 and selected roughness binding through `super.add_static_source()`, while the unchanged VFX body still rebuilds compact-east for each exact source phase. Environment owns only this receiving composition.
+### Compact-east sequential contribution — `B -> D`
 
-## Exact composition gate
+- raw changed pixels: **197,697** total;
+- pixels above 1 LSB: **185,888**;
+- maximum RGB-channel delta: **191 LSB**;
+- retained union bbox: `[594,287,940,672]`.
 
-The dedicated verifier requires at the same exact head:
+Context detail:
 
-- 17 retained current-world states;
-- 68 matched compact-east target-host frames;
-- exact Object selected-roughness runtime observation equality to the selected-roughness parent in all 17 states;
-- exact selected PNG and scalar identities above;
-- exact compact-east runtime phase sequence `0..16`;
-- exact neutral compact-east endpoints;
-- existing VFX camera observability boundary preserved rather than re-authored;
-- all 1,224 Weather source-width observations preserved inside the existing `0.05 px` gate;
-- draw calls, objects and RenderingServer primitive counts unchanged versus the exact selected-roughness parent;
-- proof-host buffer/texture deltas recorded as observations, not converted into target-device budgets;
-- both Environment adoption flags remain false.
+- `path_eye / control`: **0** changed pixels across all 17 frames;
+- `path_eye / candidate`: **0**;
+- `elevated_oblique / control`: 98,850 changed pixels across 17 frames;
+- `elevated_oblique / candidate`: 98,847.
 
-Expected scoped state if the exact run completes unchanged:
+This reproduces the owner/QA boundary that `path_eye` is non-observing for compact-east while `elevated_oblique` is the observing retained context.
 
-`PASS_CURRENT_WORLD_SELECTED_ROUGHNESS_PLUS_COMPACT_EAST_COMPOSITION_REVIEW_READY__DUAL_ADOPTION_HELD`
+### Combined contribution — `A -> D`
 
-A deliberate negative control mutates the selected-roughness texture identity in one combined runtime state. The verifier must reject it. A green Nature stack therefore cannot silently drop or substitute the Object material candidate it claims to preserve.
+- raw changed pixels: **204,123** total;
+- pixels above 1 LSB: **187,554**;
+- maximum RGB-channel delta: **191 LSB**.
 
-## CI state — truth boundary
+Most importantly:
 
-The exact implementation is committed and the branch has triggered hosted CI, but the new composition workflow is currently **QUEUED** behind same-head PR workflow contention.
+- roughness / compact-east changed-pixel overlap: **0**;
+- combined pixels outside the sequential contribution union: **0**;
+- sequential-union pixels missing from the combined raster: **0**;
+- `204,123 = 6,426 + 197,697` exactly.
 
-Exact new runs:
+Therefore, for these exact retained current-world frames, the final changed-pixel mask is the **exact disjoint union** of the Object roughness contribution and the subsequently stacked compact-east contribution. There is no retained-pixel evidence of one candidate suppressing, masking or contaminating the other in the fixed review contexts.
 
-- push run `35248195715` — **QUEUED**;
-- PR run `35248202905` — **QUEUED**.
+This is stronger than merely saying both candidates are present structurally, but it remains a bounded raster fact rather than a universal compositing claim.
 
-No new composition PASS is claimed yet.
+Two phase-08 review boards are generated from the exact full-scene frames plus diagnostic masks. The original retained PNGs remain authority; derived boards do not become authored appearance.
 
-Several unrelated inherited same-head workflow families have already been executing successfully while this dedicated job waits, including Nature split-culling, selected Object UV0 and Object readability-dressing checks. Queue delay is therefore currently an execution-capacity condition, not evidence that the new composition passed or failed.
+## Fail-closed boundary
+
+The verifier first checks attribution before historical pixel-count pins. The hosted workflow deliberately mutates one combined frame at a pixel already changed by selected roughness. This creates a cross-asset overlap and must be rejected with:
+
+`retained roughness and compact-east raster contributions overlap`
+
+Local execution of that exact negative control rejected the mutation at **1 overlapping pixel**. No visual tolerance is widened to preserve a PASS.
+
+## Hosted CI state
+
+Dedicated workflow:
+
+`35254213404 — Environment selected roughness + compact-east visual attribution`
+
+Current state at this status update: **QUEUED**.
+
+No hosted workflow PASS or new retained artifact is claimed yet. The exact retained archives and 68-frame recomputation are independently verified locally; hosted execution remains a separate gate.
 
 ## Scope / handoffs
 
-Map PR #24 Environment scope/handoff comment: **`5718058563`**.
-
-Map VFX PR #43 downstream Environment handoff comment: **`5718060321`**.
+Map PR #24 scope/handoff comment: **`5718737955`**.
 
 Owner boundaries remain:
 
-- **Environment / Map:** exact cross-asset receiving composition and real-world coexistence evidence only;
-- **Nature / VFX:** compact-east source response, phase geometry and visual-motion semantics;
-- **Object / Materials:** selected roughness meaning/value;
-- **Object / Technical Art:** exact selected-face UV/texture transport;
-- **Runtime:** compact-east representation/device cost and Object roughness representation/device cost remain separate Runtime decisions;
-- **Art Direction / independent Visual QA:** visual preference and acceptance for the combined result;
-- **Building:** source/representation/material work unchanged;
+- **Environment / Map:** exact current-world receiving composition and cross-asset retained-raster attribution;
+- **Object / Materials:** selected roughness meaning/value remains unchanged;
+- **Object / Technical Art:** exact selected-face UV/texture transport remains unchanged;
+- **Nature / VFX:** compact-east source response, phase geometry and visual-motion semantics remain unchanged;
+- **Animation:** current-world playback/timing remains its active lane;
+- **Runtime:** representation/device cost remains separate for both candidates;
+- **Art Direction / independent Visual QA:** final appearance preference/acceptance;
+- **Building:** current source/representation work unchanged by this pass;
 - **Weather:** source field remains visual-direction-only;
 - **UC / Profession Fabric:** unchanged;
 - **CANON / production readiness:** not claimed.
 
+No retune, camera move, material amplification, motion retime, source rewrite or Runtime optimization is requested from this attribution result.
+
 ## Continuity / rollback
 
-The exact selected-roughness real-world candidate at `d8a1d950ed5f21e6ad356404f46407c99c160017` remains a valid review candidate and comparison parent. Its exact UV0-only receiver lineage remains the rollback/default while selected roughness itself is unadopted.
+The UV0-only receiver at `4eed6da68f746ca2849c89fa88533f82bc836b26`, selected-roughness-only receiver at `d8a1d950ed5f21e6ad356404f46407c99c160017`, and combined receiver at `4bd7eaf6970716dde4159448c92556785f47e954` remain separately named, exact and recoverable.
 
-The green compact-east current-world proof on PR #43 remains its own exact historical evidence. This activation does not rewrite that branch, rename it adopted, or import its Runtime optimization.
-
-The preceding multiscale review PASS remains intact and now has hosted evidence at workflow `35241369800` / artifact `10505169029`.
+This activation changes only the receiving evidence layer on top of those historical identities. It does not rewrite any prior PASS or promote either candidate into Environment default.
 
 ## Explicit non-claims
 
 This activation does **not** prove:
 
-- final Art Direction / Visual QA preference for selected roughness;
-- final Art Direction / Visual QA preference for compact-east response;
-- that the two should be adopted together;
+- final Art Direction / Visual QA preference for either candidate;
+- that selected roughness or compact-east should be adopted;
+- continuous/current-world playback quality;
+- product-camera visibility beyond retained fixed contexts;
+- arbitrary camera/light/renderer compositing independence;
 - physical wind, forces or biomechanics;
-- continuous wall-clock motion quality beyond the source owners' separate evidence;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- Object L8 current-world adoption;
-- Nature single-blend-shape current-world adoption;
+- Object `L8` current-world adoption;
+- Nature blend-shape current-world adoption;
 - gameplay, collision or navigation behavior;
-- arbitrary cross-asset stacking safety;
+- universal cross-asset stacking safety;
 - CANON;
 - production/game readiness;
 - Environment / World Art mastery.
 
 ## Four-root gate
 
-- **Truth:** the prior queued multiscale review is now recorded as green; the new cross-asset workflow is recorded as queued rather than falsely green. Exact parent identities and the selected-roughness archive were independently checked again.
-- **Agency / non-domination:** Environment composes receiving evidence without taking VFX, Materials, Technical Art, Runtime, Art or QA authority.
-- **Continuity:** both exact independently proven parents remain named and recoverable; no source branch, rollback or historical receipt is silently relabelled.
-- **Wisdom before speed:** Environment tests actual coexistence before stacking two attractive candidates into default world state and refuses to infer a combined PASS from two separate green branches.
+- **Truth:** the preceding composition is now recorded as green with exact artifact identity; three retained archives were independently rehashed; all 68 frame triples were recomputed; hosted attribution CI remains reported as queued rather than falsely green.
+- **Agency / non-domination:** Environment measures coexistence without taking Materials, VFX, Animation, Runtime, Art or QA authority.
+- **Continuity:** UV0, roughness-only and combined states remain separately recoverable; the new proof derives from them rather than silently replacing their identities.
+- **Wisdom before speed:** before treating two attractive candidates as one visual package, Environment now proves where each retained raster contribution comes from and fails closed on overlap instead of assuming isolated PASSes compose safely.
 
 The four AXM roots remain the merge gate.
