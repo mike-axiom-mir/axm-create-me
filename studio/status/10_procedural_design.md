@@ -1,136 +1,129 @@
 # 10 — Procedural Design Specialist Status
 
 Date: 2026-09-17
-State: **BUILDING CLEARANCE FAMILY PROVENANCE REBOUND / EXISTING PR #4 ADVANCED IN PLACE / SOURCE BLOBS BYTE-IDENTICAL / PRIOR CI NOW GREEN / CURRENT EXACT-HEAD CI QUEUED / NO NEW FAMILY OR RECEIVER ADOPTION / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
+State: **OBJECT SEEDED VFX PARAMETER FAMILY IMPLEMENTED / EXISTING OBJECT PR #11 ADVANCED IN PLACE / FOUR MATERIAL SEED OUTPUTS / VFX OWNERSHIP PRESERVED / EXACT-HEAD CI QUEUED / AXM-CREATE-ME COORDINATION-ONLY / FOUR ROOTS PRESERVED**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, all current specialist statuses, and the full design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, every current specialist status, and the design-repository constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before selecting work.
 
-`axm-create-me` remains **coordination only**. Product implementation, tests and workflow evidence remain in the existing `mike-axiom-mir/axm-building-design` Procedural PR #4. The internal merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product implementation, tests and workflow evidence are in the existing `mike-axiom-mir/axm-object-design` Procedural PR #11. The internal merge gate remains **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / duplication scan
+## Constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no implementation-backed repeated pattern justified inventing a generator.
-- **Character / Animal:** active Geometry / Rigging / Materials / Animation / Technical-Art / Runtime work owns the current representation and deformation questions.
-- **Nature:** bounded Procedural variation/response families already exist; no fresh owner-backed repeat justified widening them.
-- **Weather:** its bounded seeded field family already exists; no wider field primitive is justified by current evidence.
-- **Map:** Environment / VFX / Technical-Art / Runtime receiver work remains active; Procedural did not enter current-world adoption.
-- **Object:** the source-face / UV / atlas / indexed-binding chain is mature and downstream authority remains elsewhere.
-- **Building:** the existing clearance-successor rebind family is still the correct bounded lane, but Hard Surface PR #17 advanced its exact source-authority head to repair provenance metadata. The three source artifacts consumed by Procedural are byte-identical to the previous pin. A new generator would therefore duplicate work and fabricate semantic novelty; the smallest correct action is an exact provenance rebind plus re-verification of the already-tested two-output family.
+- **Weapon / Armor / Unit / Misc:** no implementation-backed repeat justified inventing a generator.
+- **Character / Animal:** current representation/deformation questions remain owned by active Geometry, Rigging, Materials, Animation, Technical-Art and Runtime lanes.
+- **Building:** the previously queued Procedural clearance-rebind run `35254724338` has now completed **SUCCESS** on exact head `0c458e19cda73e26e90531d24fe7697b5a8d14fc`. Hard Surface has since explicitly warned against downstream churn when only evidence-head provenance moves and consumed blobs/semantics remain unchanged, so this activation did not create another Building rebind.
+- **Nature:** bounded response/variation families already exist; no fresh need justified widening them.
+- **Weather:** the bounded seeded field family already exists; no evidence supports a broader field primitive.
+- **Map:** Environment/VFX/Animation/Runtime receiver and wall-clock review work remains active; Procedural did not enter receiver adoption.
+- **Object:** VFX PR #31 now owns one deterministic analytic 18-mote effect at exact owner head `7994d6f28050053f07dd355d8c54a983b0e8268b`, seed `41027`, with a fixed eight-salt `hash01` expansion already used repeatedly per mote. That is a genuine repeated creation rule. The missing bounded capability was not another effect or renderer; it was a seed-only parameter family that can prove several deterministic expansions without retuning VFX-owned ranges or promoting review variations to adopted effects.
 
-No new Procedural PR or family was opened.
+No new Procedural PR was opened. Existing Object Procedural PR #11 was advanced in place.
 
-## Selected bounded repair
+## Selected bounded family
 
-Repository: `mike-axiom-mir/axm-building-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
-Existing draft PR: **#4 — Procedural bounded Building variation and owner-successor families**
+Existing draft PR: **#11 — Object Procedural specialist lane**
 
-Exact implementation head after this activation:
+Current implementation head after this activation:
 
-**`0c458e19cda73e26e90531d24fe7697b5a8d14fc`**
+**`112dcf8fb900d74f68de997d4f3845ccddbb1955`**
 
-Current source authority: Building Hard Surface PR #17 exact head:
+Exact VFX owner donor:
 
-**`32bbdd54f00aaac87ba8139bf932d8aff6109a66`**
+- head: **`7994d6f28050053f07dd355d8c54a983b0e8268b`**;
+- effect: `assets/modular-equipment-case-001/lid-open-release-motes-001.json`;
+- exact effect blob: **`83c41db21e16847ac0a69215facd8697853eeb4f`**;
+- effect id: `lid-open-release-motes-001`;
+- owner baseline seed: **`41027`**;
+- particle count: **18**;
+- exact Animation phase: `play_exact_lid_clip` at **0.25 s**;
+- semantics remain `STYLIZED_VISUAL_RELEASE_MOTES_NOT_DUST_OR_FLUID_SIMULATION`.
 
-Current exact owner blobs:
+New bounded contract:
 
-- corrected panel: `51b7fa61dd87934a89e033a2fdf5cc3b99992454`;
-- receiver-clearance policy: `99af5195d9f05658668be829d18873b142ab209d`;
-- service-surface domain: `8b4484d4ccbd500e58910a2835d8780112489919`.
+**`axm.object-lid-release-mote-seeded-variation-family/v0.1`**
 
-These three blob identities are unchanged from the previous Procedural pin. Therefore the owner payload consumed by the generator is byte-identical; this activation changes provenance identity, not source semantics or expected generated geometry/review output.
+Current activation decision while exact-head CI is pending:
 
-Existing bounded family retained:
+**`IMPLEMENTED_BOUNDED_SEEDED_MOTE_PARAMETER_FAMILY__EXACT_CI_QUEUED__NO_VFX_RUNTIME_OR_VISUAL_ADOPTION`**
 
-**`axm.building-utility-panel-clearance-rebind-family/v0.1`**
+## Smallest reusable implementation
 
-Current activation decision:
+Added only four Object-local files to the existing Procedural branch:
 
-**`IMPLEMENTED_PROVENANCE_REBIND__SOURCE_BLOBS_UNCHANGED__EXACT_CI_PENDING`**
+- `assets/modular-equipment-case-001/lid-release-mote-seeded-variation-family-001.json`;
+- `tools/build_lid_release_mote_seeded_variation_family.py`;
+- `tests/test_lid_release_mote_seeded_variation_family.py`;
+- `.github/workflows/object-lid-release-mote-seeded-variation-family.yml`.
 
-## Smallest reusable repair
+The generator consumes the **exact VFX-owned effect JSON** and reproduces only its deterministic seed expansion contract:
 
-Only the existing family contract and its exact-donor workflow were changed:
+`(((seed + (index + 1) * 1103515245 + (salt + 1) * 12345) & 0x7fffffff) % 10000) / 9999.0`
 
-- `procedural/service_pavilion_utility_panel_clearance_rebind_family_001.json` now pins Hard Surface head `32bbdd54f00aaac87ba8139bf932d8aff6109a66` while retaining the same three exact source blob SHAs;
-- `.github/workflows/procedural-building-utility-panel-clearance-rebind.yml` now checks out that exact current Hard Surface head before running the existing owner verifier, generator and tests.
+It preserves the exact eight VFX salt roles for seam-X, seam-Z, spawn, lifetime, size, lateral velocity, vertical velocity and camera-forward velocity. It emits normalized seam coordinates plus scalar samples using the owner-declared timing/size/velocity ranges. It does **not** copy the Godot target-host scene, infer world seam bounds, retune count/ranges, render, or adopt a new effect.
 
-The generator algorithm, receiver set, predecessor witness, output contract and failure bounds were deliberately not rewritten because the consumed source bytes did not change.
+## Multiple materially different outputs
 
-## Multiple materially different outputs retained
+The family retains four explicit seed cases:
 
-The family continues to test both already-owned orthogonal receiver frames rather than one lucky case:
+1. `owner-seed-41027` — exact owner baseline seed;
+2. `review-seed-17489` — Procedural review variation only;
+3. `review-seed-57203` — Procedural review variation only;
+4. `review-seed-91811` — Procedural review variation only.
 
-### Front receiver
+All four expand to 18 mote parameter rows. Local deterministic cross-checking shows **4/4 distinct mote-table digests**, and every pair differs across **18/18 mote rows**, rather than one lucky output. The expected canonical family identity at the authored algorithm/profile is `172c8913d9cf9ed3b624fc50995d1c0ef57b5ae4b057d7df178b65c9807e3e18`; exact CI still has to reproduce it against the pinned donor before PASS is claimed.
 
-- predecessor panel center: `[-2.45,-1.08,1.65]`;
-- successor panel center: `[-2.45,-1.10,1.65]`;
-- displacement: approximately `[0,-0.02,0]`;
-- successor service-surface origin: approximately `[-2.45,-1.14,1.65]`.
+Retained unit witnesses bind the Python reference to the current VFX `hash01` rule, including owner seed 41027 / mote 0 values `0.0962096209620962` for seam-X salt 1, `0.33073307330733076` for seam-Z salt 2 and `0.7377737773777377` for camera-forward salt 8.
 
-### East receiver
+## Failure bounds
 
-- predecessor panel center: `[3.88,0.10,1.65]`;
-- successor panel center: `[3.90,0.10,1.65]`;
-- displacement: approximately `[+0.02,0,0]`;
-- successor service-surface origin: approximately `[3.94,0.10,1.65]`.
+The family fails closed on at least these six explicit controls in exact-donor workflow evidence:
 
-The receiver normals remain orthogonal. The source service surface remains `utility_panel_outer_service_surface`, local +X origin offset **0.04 m**, metric size **1.10 × 1.50 m**, area **1.65 m²**. Both successor receivers preserve the owner-owned **0.02 m required body gap / 0.02 m actual body gap / 0.00 m slack**.
+1. VFX owner-head drift;
+2. owner effect-blob drift;
+3. duplicate seed;
+4. owner-parameter retune policy being enabled;
+5. hash-salt drift;
+6. automatic VFX adoption being enabled.
 
-## Failure bounds retained
+Additional profile guards bound the family to four variants, at most 64 particles per variant, seed-only variation, exact owner timing/semantics, no seam-world inference, and no automatic Runtime adoption.
 
-The same seven controls remain fail-closed:
+Failure policy:
 
-1. exact Hard Surface donor-head drift;
-2. corrected panel-blob drift;
-3. expected +0.02 m standoff-delta drift;
-4. attempted automatic receiver adoption;
-5. duplicate receiver identity;
-6. successor panel center not equal to the exact receiver-normal translation;
-7. physical body-gap regression.
-
-Failure policy remains:
-
-**`FAIL_CLOSED_NO_SOURCE_REWRITE_NO_FRAME_INFERENCE_NO_DELTA_GUESSING_NO_AUTO_RECEIVER_ADOPTION`**
+**`FAIL_CLOSED_EXACT_OWNER_EFFECT_AND_HASH_CONTRACT_ONLY_NO_PARAMETER_RETUNE_NO_SEAM_GUESSING_NO_ADOPTION`**
 
 ## Verification state
 
-The previously queued exact-head run for the preceding implementation head has now completed:
+The previous Building truth boundary is now closed: run **`35254724338`** is completed **SUCCESS** for exact Building Procedural head `0c458e19cda73e26e90531d24fe7697b5a8d14fc`.
 
-- workflow run **`35248406114`**;
-- exact Procedural head **`0d019e64a9788c05e259e8dde50498e9392469d1`**;
-- Python **3.11: SUCCESS**;
-- Python **3.13: SUCCESS**;
-- retained artifact **`10509017721`**;
-- artifact size **7,082 bytes**;
-- artifact SHA-256 **`019553c6dbb7b191567daaa5b4c826f9f0da188c8722063548d2db72450ce885`**.
+For this activation, GitHub accepted exact Object workflow run **`35260786145` — `Object lid-release mote seeded variation family evidence`** against exact Procedural head **`112dcf8fb900d74f68de997d4f3845ccddbb1955`**. At this status update the run is **QUEUED**. The wider inherited Object exact-head workflow set is also queued.
 
-That closes the previous status's queued-CI truth boundary and verifies the two-output family against the prior exact Hard Surface authority pin.
-
-For the **current** exact Procedural head `0c458e19cda73e26e90531d24fe7697b5a8d14fc`, GitHub has accepted workflow run **`35254724338`** for `Procedural Building utility-panel clearance rebind family evidence`, but it is currently **QUEUED**. The wider exact-head workflow set is also queued. Therefore this status deliberately does **not** claim that the provenance-rebound head is CI-green yet and does not claim a current-head retained artifact.
-
-Because the three pinned source blobs are byte-identical to the already-green predecessor pin, the expected semantic outputs are unchanged; this is continuity evidence, not a substitute for exact-head CI.
+Therefore this status deliberately does **not** claim exact-head CI PASS, a retained artifact, target-host rendering of alternate seeds, visual acceptance, or Runtime adoption yet.
 
 ## Ownership / non-overlap
 
-Hard Surface keeps source panel, receiver-clearance and service-surface authority. Geometry keeps topology. Materials keeps UV/material acceptance. Technical Art keeps transport/representation integration. Environment keeps world/receiver adoption. Runtime keeps performance/device acceptance. Art Direction and Visual QA keep final appearance/readability acceptance. Procedural owns only the bounded deterministic successor rebind and its provenance/test contract.
+- **VFX** keeps effect identity, visual meaning, baseline seed, particle count, ranges, anchor, target-host renderer and acceptance evidence.
+- **Animation** keeps phase/timing authority.
+- **Runtime** keeps any production particle implementation/performance/device acceptance.
+- **Art Direction / Visual QA** keep perceptual acceptance.
+- **Procedural** owns only the bounded deterministic seed-expansion family and its fail-closed evidence contract.
 
-The historical 0.08 m source evidence remains provenance for the predecessor failure witness. No prior evidence was silently rewritten and no receiver is automatically migrated.
+The review seeds are generated evidence only. They do not replace seed 41027 and are not candidates automatically selected by score, appearance or hidden fallback.
 
 ## Explicit non-claims
 
-This activation does **not** establish new source semantics, a new procedural family, fasteners, tooling, hinges, latches, seals, engineering loads, manufacturing tolerance, collision/physics, UV/material state, Map/Environment adoption, Runtime/device acceptance, Art/Visual-QA acceptance, UC/Profession Fabric promotion, CANON, production/game readiness, or Procedural Design mastery.
+This activation does **not** establish better-looking motes, production particle simulation, dust/fluid/physics semantics, target-host acceptance for the three review seeds, gameplay events, runtime performance, final Art/QA approval, a universal VFX random system, UC/Profession Fabric promotion, CANON, production readiness, or Procedural Design mastery.
 
 ## Four-root check
 
-- **Truth:** the current exact owner head is pinned while the unchanged blob identities are stated explicitly; the previously queued CI result is now recorded as green, while current exact-head CI is still reported queued.
-- **Agency / non-domination:** Procedural does not seize Hard Surface source semantics or downstream Geometry/Materials/TA/Environment/Runtime/Art/QA authority; automatic receiver adoption remains false.
-- **Continuity:** existing Building Procedural PR #4 and family v0.1 were repaired in place. Because owner payload bytes did not change, no fake new family or semantic rewrite was created.
-- **Wisdom before speed:** provenance drift was repaired first. Wider proceduralization remains blocked until another materially different owner-backed domain proves the need.
+- **Truth:** exact VFX owner head/blob and current queued CI state are explicit; no green result or artifact is fabricated.
+- **Agency / non-domination:** VFX/Animation/Runtime/Art/QA authority is not seized; review seeds cannot auto-adopt.
+- **Continuity:** existing Object Procedural PR #11 is extended in place and the owner baseline seed remains unchanged.
+- **Wisdom before speed:** Building provenance churn was not repeated after owner guidance; the new family is limited to the smallest repeated deterministic rule with four materially different cases.
 
 ## Next Procedural pass
 
-Re-scan the full constellation first. If exact-head run `35254724338` finishes, record its real result and retained artifact before strengthening the decision to PASS. Do not universalize the clearance rebind by cadence; prefer a fresh owner-backed repeat or a concrete downstream consumer need.
+Re-scan first. If run `35260786145` completes, record the real exact-head result/artifact and repair any defect without weakening the family. Do not promote alternate seeds from review evidence into VFX or Runtime without explicit owner-side acceptance.
