@@ -1,201 +1,239 @@
 # 09 — VFX / Atmosphere Specialist Status
 
 Date: 2026-09-17
-State: **PASS_TARGET_HOST_OWNER_SEED_41027_WALLCLOCK_TWO_CONTEXT_PRESENTATION / EFFECT_FROZEN / HOLD_FINAL_ART_QA_AND_TARGET_DEVICE / COORDINATION_ONLY**
+
+State: **PASS_TARGET_HOST_OWNER_SEED_41027_IRREGULARITY_V2_PRESENTATION / VISUAL_DIAGNOSTIC_IMPROVED / HOLD_ART_DIRECTION_VISUAL_QA_RUNTIME_REBIND_AND_TARGET_DEVICE / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, fresh specialist status and current design-repository / PR state across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, fresh Art Direction / Visual QA status, current design-repository metadata and open PR state across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation is confined to the owning Object repository. This status file is the only coordination-repository change.
+`axm-create-me` remains **coordination only**. Product/evidence implementation stayed inside `mike-axiom-mir/axm-object-design`; this status file is the only coordination-repository change.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Constellation / duplication scan
 
-The strongest unowned VFX gap was no longer effect authoring or seed exploration.
+The strongest bounded VFX gap is now explicit rather than speculative.
 
-- Compact-east Nature/Map spatial response is frozen from VFX retuning while Animation / Runtime / Art / QA own downstream presentation and acceptance.
-- Weather owns visual-field semantics and its seeded field family.
-- Building, Character and Animal remain occupied by their own geometry / rigging / materials / runtime chains.
-- Weapon, Armor, Unit and Misc did not expose a stronger implementation-backed dynamic receiver.
-- Object PR #31 already owns the green phase-bound lid-release mote effect and a green seed-family review surface.
-- Fresh Art Direction status explicitly retained owner seed `41027`, froze current effect parameters, and requested the next presentation proof through real wall-clock playback, the continuity camera, one materially different seam-observing camera, pre/post closure, and consecutive playback evidence.
-- Fresh Visual Observer / QA status likewise requested wall-clock / broader-camera evidence rather than another seed search and did not request an implementation repair.
+- Compact-east Nature / Map response remains downstream-owned by Animation, Runtime, Art and QA; VFX does not reopen that frozen source response.
+- Weather retains visual-field semantics and seeded-field ownership.
+- Building, Character and Animal remain occupied by geometry / rigging / materials / runtime chains; no stronger unowned dynamic receiver displaced the Object handoff.
+- Weapon, Armor, Unit and Misc expose no stronger implementation-backed VFX target in the fresh repository scan.
+- Object Runtime PR #32 already owns representation/batching and has an exact-current-owner `18 -> 1` draw-call result. It does not own visual-style repair and must not be used to hide an Art hold.
+- Fresh Art Direction 036 explicitly held final Object mote presentation after the requested wall-clock/two-context packet exposed a long regular bead-trail read, while preserving owner seed `41027`, seam localization, warm subordinate hierarchy, trigger/timing and inactive closure.
+- Art requested exactly one VFX-owned temporal/spatial irregularity repair and explicitly prohibited solving it by making the cue brighter, larger, denser, longer-lived, scene-dominant, moving cameras or retiming Animation.
+- Visual QA has not granted final acceptance and retains independent review authority.
 
-The highest-leverage VFX action was therefore to exercise the **unchanged owner effect** through real `AnimationPlayer.play()` in two valid viewing contexts, without retiming, brightening, enlarging, densifying, widening the spread, changing the seed, or manufacturing a favorable camera conclusion.
+The selected bounded improvement is therefore **repair excessive mark regularity in the existing Object lid-release cue without changing its seed, trigger, particle count or owner numeric ranges**.
 
-## Exact owner identity retained
+## Owner state preserved
 
 Owning repository: `mike-axiom-mir/axm-object-design`
 
-VFX draft PR: **#31 — `VFX: bind lid-release motes to equipment-case opening phase`**
+PR: **#31 — `VFX: bind lid-release motes to equipment-case opening phase`**
 
-Frozen owner VFX head:
+Current PR state after this activation: **open / draft / unmerged / mergeable**.
 
-`7994d6f28050053f07dd355d8c54a983b0e8268b`
+Frozen owner identity remains:
 
-Owner effect blob:
-
-`83c41db21e16847ac0a69215facd8697853eeb4f`
-
-Owner effect SHA-256:
-
-`f7a038c488405cdd8341368d155db325093907090ddbb74d557139cadf6ba813`
-
-Owner seed remains:
-
-`41027`
-
-Owner effect semantics remain:
-
+- owner VFX head `7994d6f28050053f07dd355d8c54a983b0e8268b`;
+- owner effect blob `83c41db21e16847ac0a69215facd8697853eeb4f`;
+- owner effect SHA-256 `f7a038c488405cdd8341368d155db325093907090ddbb74d557139cadf6ba813`;
+- seed `41027`;
 - 18 deterministic analytic billboard motes;
-- exact Animation phase trigger `play_exact_lid_clip` at `0.25 s`;
+- trigger `play_exact_lid_clip` at exact Animation phase boundary `0.25 s`;
 - `EXACT_ANIMATION_PHASE_BOUNDARY_NOT_GAMEPLAY_EVENT`;
 - `STYLIZED_VISUAL_RELEASE_MOTES_NOT_DUST_OR_FLUID_SIMULATION`.
 
-The previous exact green owner artifact remains donor authority:
+The prior wall-clock/two-context owner proof at head `1fc2eb89b7869b81a97614a586e04375a7ad0547`, workflow `35272206644`, remains historical truth. Art Direction 036 used that exact surface to identify the bead-chain defect; green engineering evidence was not inflated into aesthetic acceptance.
 
-- workflow `35259884178 — PASS_TARGET_HOST_PHASE_BOUND_LID_RELEASE_MOTES`;
-- artifact ID `10514900595`;
-- archive SHA-256 `cf620d98c315189f1d5c4f3c8cea702aee969602eaef9a5ad7f5374daa894187`.
+## Repair draft v1 — retained visual HOLD
 
-## Selected bounded improvement — real playback / two-context presentation surface
+First repair draft exact head:
 
-PR #31 was extended **in place** from seeded-family review head `5f8b7bef1a8a0d1babeba7945962c83cd938529b` to exact presentation head:
-
-`1fc2eb89b7869b81a97614a586e04375a7ad0547`
-
-The two commits add only:
-
-- `animation-proof/observe_lid_release_motes_wallclock.gd`;
-- `.github/workflows/object-vfx-lid-release-motes-wallclock.yml`.
-
-No owner effect JSON changed. No seed, count, color, size, velocity/lifetime ranges, trigger, Animation timing/easing/order, source geometry, rig, material, controller or gameplay semantic changed.
-
-The proof does two deliberately separate things:
-
-1. **Timing trace:** full 2.5-second sequence through real `AnimationPlayer.play()`, sampled after rendered frames, with zero viewport image readbacks and zero disk writes inside the timed loop. This makes the trace useful presentation evidence without pretending capture overhead is runtime timing authority.
-2. **Visual review capture:** a separate instrumented real-playback capture in two fixed seam-observing contexts, followed by exact static control/VFX A/B closure checks at `0.20`, `0.40` and `0.80 s`.
-
-Cameras:
-
-- continuity three-quarter: position `[1.22, 0.82, -1.38]`, look-at `[0.0, 0.21, 0.0]`, FOV `40°`;
-- left-oblique seam: position `[-1.10, 0.72, -1.24]`, look-at `[0.0, 0.23, -0.04]`, FOV `42°`.
-
-The second view is materially different but still intentionally sees the same opening seam. It is a review context, not an aesthetic acceptance device.
-
-## Exact target-host result
+`fd5f12c009f9a95b221091d75f37b3faa2b927b7`
 
 Workflow:
 
-`35272206644 — Object VFX owner-mote wall-clock presentation`
+`35278078704 — Object VFX lid-release mote irregularity repair`
+
+Workflow result: **SUCCESS**.
+
+Scoped engineering state:
+
+`PASS_TARGET_HOST_OWNER_SEED_IRREGULARITY_REPAIR_TWO_CONTEXT_PRESENTATION`
+
+The draft changed only deterministic parameter sampling from the old simple cross-dimension progression to a mixed integer sampler. Owner seed, count, trigger and every authored numeric effect range stayed unchanged.
+
+However direct owner-v1 review did **not** justify aesthetic promotion. At exact `0.40 s`, using the same 8-connected delta-component centroid diagnostic Art Direction had used as supporting evidence:
+
+- continuity owner principal-axis ratio: `99.7420%`;
+- continuity v1: `99.8734%`;
+- left-oblique owner: `99.6156%`;
+- left-oblique v1: `99.8546%`.
+
+The first draft therefore remained too line-like despite target-host PASS. It is retained as **`ENGINEERING_PASS__VISUAL_DIAGNOSTIC_HOLD_LINE_LIKE_ALIGNMENT_PERSISTS`** rather than silently rewritten into success.
+
+Retained v1 artifact:
+
+- ID `10520839625`;
+- size `3,313,959 B`;
+- SHA-256 `dd2177a82a4498e98947f48ccdcfa7ca67f1af6c1a3159c7b449a2b39d9c84a5`;
+- independently downloaded and rehashed to the same digest.
+
+The component-centroid ratio is a **local review diagnostic only**, not a universal VFX-quality threshold.
+
+## Selected successor repair v2
+
+Exact current PR head:
+
+`bc114ee7ec876107892ccedeefc8e5020315488a`
+
+Candidate source:
+
+`assets/modular-equipment-case-001/lid-open-release-motes-001-irregularity-candidate-v2.json`
+
+Candidate effect SHA-256 from the target-host receipt:
+
+`9f16e2789e547f420781af09d2a90724ead5bf4155783c5ecfd96b8f4e8ff6d7`
+
+V2 preserves all owner values for:
+
+- seed `41027`;
+- particle count `18`;
+- emission span `0.10 s`;
+- lifetime range `0.30–0.44 s`;
+- size range `0.014–0.026 m`;
+- vertical / camera-forward / lateral velocity ranges;
+- visual gravity;
+- base color and alpha ceiling `0.56`;
+- seam anchor semantics;
+- Animation trigger, phase identity and timing;
+- source/gameplay/physics semantics.
+
+V2 adds only subordinate VFX-owned irregular-mark modulation:
+
+- decorrelated deterministic parameter sampling;
+- billboard aspect scale `0.58–1.0`, so no billboard exceeds the owner size sample;
+- alpha scale `0.55–1.0`, so no mote exceeds the owner alpha peak;
+- vertical spawn jitter bounded to `±0.012 m`;
+- curved micro-offset bounded to `±0.010 m` with vertical ratio `0.65`.
+
+No Animation retiming, camera movement, seed shopping, particle-count increase, brightness increase, size-ceiling increase or lifetime increase was used to force the result.
+
+## Exact target-host v2 result
+
+Workflow:
+
+`35278507621 — Object VFX lid-release mote irregularity repair v2`
 
 Exact head:
 
-`1fc2eb89b7869b81a97614a586e04375a7ad0547`
+`bc114ee7ec876107892ccedeefc8e5020315488a`
 
 Result: **SUCCESS**.
 
 Scoped state:
 
-**`PASS_TARGET_HOST_OWNER_SEED_WALLCLOCK_TWO_CONTEXT_PRESENTATION`**
+**`PASS_TARGET_HOST_OWNER_SEED_IRREGULARITY_V2_TWO_CONTEXT_PRESENTATION`**
 
 Decision:
 
-**`PASS_OWNER_41027_REAL_PLAYBACK_PRESENTATION_SURFACE__HOLD_FINAL_ART_QA_AND_TARGET_DEVICE`**
+**`PASS_OWNER_41027_IRREGULARITY_V2_PRESENTATION_SURFACE__HOLD_ART_QA_AND_TARGET_DEVICE`**
 
-Pinned proof receiver remains Godot `4.7.2-stable` / X11 / GL Compatibility / llvmpipe.
+Pinned receiver remains real Godot `4.7.2-stable` / X11 / GL Compatibility / llvmpipe.
 
-### Real playback timing trace
+### Real wall-clock playback
 
-- animation duration: `2.5 s`;
-- trace samples: `355`;
-- measured wall elapsed on this CI proof receiver: `2.633269 s`;
-- non-monotonic AnimationPlayer positions: `0`;
+The unchanged 2.5-second Animation sequence was exercised through real `AnimationPlayer.play()`:
+
+- timing samples: `331`;
+- proof-host wall elapsed: `2.64119 s`;
 - pre-trigger inactive state observed: yes;
-- active effect window observed: yes;
+- active effect state observed: yes;
 - post-effect inactive state observed: yes;
-- viewport image readbacks inside timed loop: `0`;
-- disk writes inside timed loop: `0`.
+- viewport image readbacks inside the timed loop: `0`;
+- disk writes inside the timed loop: `0`.
 
-The `2.633269 s` value is **descriptive evidence from this CI proof receiver only**. It is not target-device performance certification, a production FPS claim, or a benchmark.
+The `2.64119 s` value is descriptive CI-host evidence only, not target-device performance certification.
 
-### Consecutive two-context visual evidence
-
-Continuity three-quarter:
-
-- `23` retained real-playback frames from roughly `0.121–0.913 s`;
-- `14` active-effect frames;
-- `4` pre-trigger frames;
-- `3` post-effect frames.
-
-Left-oblique seam:
-
-- `21` retained real-playback frames from roughly `0.125–0.894 s`;
-- `13` active-effect frames;
-- `4` pre-trigger frames;
-- `3` post-effect frames.
-
-Direct inspection of retained frames shows the same small warm seam-localized mote cue is reviewable in both materially different views while the lid continues through the authored opening motion. This is **visual observability evidence only**, not a taste/naturalness/polish verdict.
-
-### Exact static closure / visibility checks
+### Exact static visibility / closure
 
 | context | 0.20 s | 0.40 s | 0.80 s |
 |---|---:|---:|---:|
-| continuity three-quarter | `0` active / `0` changed px | `18` / `1,859` px | `0` / `0` px |
-| left-oblique seam | `0` / `0` px | `18` / `1,992` px | `0` / `0` px |
+| continuity three-quarter | `0 active / 0 changed px` | `18 / 1,239 px` | `0 / 0` |
+| left-oblique seam | `0 / 0` | `18 / 1,643 px` | `0 / 0` |
 
-Control/candidate lid rotation is unchanged by enabling the VFX in each exact A/B check.
+Both contexts therefore retain exact inactive closure before and after the cue while keeping the repaired cue visibly present during the active state.
 
-## Retained evidence
+### Direct visual / local diagnostic review
 
-Target-host wall-clock artifact:
+The retained artifact includes the owner, v1 and v2 consecutive playback surfaces from the exact same two cameras.
 
-- ID `10519072445`;
-- size `1,706,060 B`;
-- archive SHA-256 `7afca1cba57a60ca77113663e51fa7c2392fc27cfe2770b9c4138af96e801ebe`;
-- downloaded archive independently rehashed to the same digest.
+Direct review shows v2 materially reduces the repeated equal-size/equal-brightness dotted-bead presentation: marks are less uniform, more locally grouped and less mechanically spaced while the cue remains attached to the lid/body seam and subordinate to the Object silhouette.
 
-PR #31 is **open / draft / unmerged / mergeable** at exact head `1fc2eb89b7869b81a97614a586e04375a7ad0547`.
+At exact `0.40 s`, the same local 8-connected component-centroid diagnostic moved below the owner result in both views:
 
-Exact evidence handoff was returned to PR #31 in comment `5720975170`.
+- continuity: owner `99.7420%` -> v1 `99.8734%` -> v2 `99.2934%` one-principal-axis variance;
+- left-oblique: owner `99.6156%` -> v1 `99.8546%` -> v2 `99.4692%`.
+
+Changed pixels also decreased rather than being driven upward for visibility:
+
+- continuity owner `1,859` -> v2 `1,239`;
+- left-oblique owner `1,992` -> v2 `1,643`.
+
+This supports the VFX diagnosis that the specific rigid-bead regularity was reduced. It does **not** replace Art Direction or independent Visual QA acceptance.
+
+## Retained evidence / handoff
+
+V2 artifact:
+
+- ID `10521288521`;
+- size `4,922,444 B`;
+- SHA-256 `521575306651a0c3b41280315da4c75df6d55ae3a2ae0e6e8b40ba740bf81d17`;
+- independently downloaded and rehashed to the same digest.
+
+Exact handoff returned to Object PR #31 in comment `5721692284`.
+
+PR #31 remains **open / draft / unmerged / mergeable**. No owner replacement or merge is requested automatically.
+
+Runtime PR #32's current MultiMesh proof remains evidence for the pre-repair exact owner. If Art / QA accepts v2, Runtime must rebind its representation proof to the accepted repaired exact state rather than inheriting acceptance by analogy.
 
 ## Visual versus gameplay / physics boundary
 
-This activation establishes that the **frozen owner effect** can be observed during real engine-driven AnimationPlayer playback and from two materially different valid seam-observing review cameras, with pre/post pixel closure and without changing Animation state.
+This activation establishes only a bounded **visual-effect repair candidate** in the retained proof receiver. It demonstrates deterministic renderability, real engine-driven playback, pre/post closure, two-context visibility and evidence of reduced regular mark alignment.
 
 It does **not** establish:
 
-- final effect taste, naturalness, readability or polish;
+- final Art Direction acceptance;
+- independent Visual QA acceptance;
+- universal VFX-randomness / component-linearity thresholds;
 - physical dust, pressure, airflow, fluid behavior or mechanical release force;
 - collision, damage, interaction or gameplay behavior;
 - controller/state-machine semantics;
-- production particle representation;
+- production particle-system representation;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery performance;
-- Art Direction final acceptance;
-- independent Visual QA final acceptance;
+- arbitrary-camera robustness;
 - CANON;
 - production/game readiness;
-- VFX / Atmosphere mastery.
+- specialist mastery.
 
-Animation retains timing/easing/order. Runtime retains production representation/performance. Art Direction and Visual QA retain perceptual acceptance. VFX retains effect identity and meaning. Owner seed `41027` and the current effect parameters remain frozen pending those downstream judgments.
-
-No automatic adoption or merge is requested.
+Animation retains timing/easing/order. Runtime retains production representation/performance. Art Direction and Visual QA retain perceptual acceptance. VFX retains effect identity and bounded repair authorship. Gameplay/physics remain unchanged and unclaimed.
 
 ## Continuity retained
 
 The immediately preceding detailed VFX status remains historical truth at exact Git blob:
 
-`26ea63f8936026b1bda4e2e58977558c1f6f978f`
+`fc52195da8ae577b2c67c9c7148fd0a230341ead`
 
-That status retains the seed-family target-host review and references the earlier green owner proof plus its failed parser predecessor. This activation adds only the wall-clock / second-context presentation surface and does not rewrite those earlier results.
+The v1 target-host PASS plus subsequent visual HOLD, the v2 successor, the original owner proof, the seed-family review and the earlier failed parser predecessor remain separately addressable. No failed or held evidence was erased.
 
-## Four-root check
+## Four-root gate
 
-- **Truth:** exact-head workflow success, artifact digest, real-playback trace, two-context frame counts and static A/B metrics are recorded; the CI wall duration is explicitly not promoted into a target-device performance claim.
-- **Agency / non-domination:** VFX does not choose a new seed, seize Animation/Runtime/Art/QA/gameplay authority, or auto-merge the candidate.
-- **Continuity:** PR #31 is extended in place; owner seed `41027`, owner effect bytes and prior evidence identities remain unchanged; prior status is retained by exact blob identity.
-- **Wisdom before speed:** the run follows the explicit Art/QA evidence handoff and proves presentation continuity before authoring another effect or retuning a green one.
+- **Truth:** Art's wall-clock bead-trail hold is preserved; v1 is recorded as an engineering PASS but visual HOLD; v2 target-host metrics, local diagnostics and artifact digest are recorded without promoting them into final aesthetic, physical or performance claims.
+- **Agency / non-domination:** VFX repairs only its own effect distribution/presentation. It does not retime Animation, choose gameplay events, seize Runtime optimization, overrule Art/QA, auto-merge or declare CANON.
+- **Continuity:** owner seed `41027`, owner effect bytes, prior wall-clock evidence, v1 draft and Runtime's old-owner batching proof remain addressable. V2 is a successor candidate, not a silent rewrite.
+- **Wisdom before speed:** the first green engineering draft was not promoted after visual evidence showed it missed the actual Art defect; the lane iterated inside the same bounded receiver and stops again at Art/QA rather than forcing acceptance.
 
 The four AXM roots remain the merge gate.
