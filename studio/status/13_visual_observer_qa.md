@@ -2,161 +2,182 @@
 
 Date: 2026-09-18
 
-State: **PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_CURRENT_WORLD_VISUAL_QA__LOCALIZED_STABLE_SUBORDINATE__68_PAIRS / PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DEPATTERNS_CHECKER__TWO_EXISTING_CAMERAS / BLOCKED_FINAL_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_ADOPTION__ENVIRONMENT_REBIND_TARGET_DEVICE_CLOSE_RANGE_SURFACE_STACK_PENDING / COORDINATION_ONLY**
+State: **PASS_OBJECT_HINGE_SUCCESSOR002_FULL_RECEIVER_VISUAL_COHERENCE__NO_MISSING_OR_INSIDE_OUT_SURFACE_REPRODUCED / FAIL_OBJECT_HINGE_SUCCESSOR002_REAR_HIERARCHY_SUBORDINATION__FIVE_KNUCKLE_HIGHLIGHT_STRIPE_DOMINATES_BRIGHTEST_PIXELS / PASS_OBJECT_HINGE_SUCCESSOR002_SIDE_THREE_QUARTER_HIERARCHY__NO_TOP1PCT_HINGE_DOMINANCE / BLOCKED_FINAL_OBJECT_HINGE_SUCCESSOR002_VISUAL_ADOPTION__ART_MATERIAL_RESPONSE_CLOSE_RANGE_RUNTIME_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, this QA ledger, current Art Direction state, and newest open PR/workflow state across the active 3D constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding Visual QA ledger, current Art Direction, Materials, Environment, Technical Art, Rigging, Animation and Runtime status, and current Object Materials PR state before selecting this review.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation changes no Building source/Geometry, UV mapping, material parameters, Environment scene, Runtime representation, gameplay, Universal Creation product code or CANON state. Product-repository action is limited to an independent review return on the existing Building Materials PR.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation changes no Object geometry, material values, UVs, textures, Technical Art transport, Animation, Runtime representation, camera, lighting, gameplay, Universal Creation product code or CANON state. Product-repository action is limited to one independent review return on the existing Object Materials PR.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
+Immediate predecessor QA status blob: `4b00434940d7eb9c0f6fc5ca181df1599e879de1`. It records the Building utility-panel production-surface PASS/PASS/BLOCKED result and remains rollback-addressable. This activation does not rewrite it.
+
 ## Selection / duplicate-lane scan
 
-The strongest consequential unverified visual surface is the exact Building utility-panel production-surface successor requested by Art Direction after the earlier checker diagnostic.
+The strongest consequential unverified visual claim is the exact Object hinge successor002 **full-receiver hierarchy** packet returned by Materials after Art Direction 044 held isolated-hinge evidence.
 
 Selected surface:
 
-- repository: `mike-axiom-mir/axm-building-design`;
-- PR #3 — `Materials: prove pavilion functional surface hierarchy`;
-- exact reviewed head: `75bf511be8a89778ab40868707a68e80a210608a`;
-- PR at review: OPEN / DRAFT / UNMERGED / MERGEABLE;
-- successor: `utility_panel_ochre_production_surface_001`.
+- repository: `mike-axiom-mir/axm-object-design`;
+- PR #6 — `Materials: prove functional surface separation on case + module`;
+- exact reviewed head: **`90789442be09aac60125f9423d1d5f7d65c1c1a3`**;
+- PR at review: **OPEN / DRAFT / UNMERGED / MERGEABLE**;
+- exact owner workflow: `35310535089 — Object material hinge successor002 full receiver review` — **SUCCESS**;
+- exact owner artifact: `10533132418`.
 
-Why selected:
+Why selected without duplicating another specialist lane:
 
-- Direction 043 explicitly freezes this exact Materials successor for independent QA before Environment adoption;
-- the preceding checker/current-world QA is already closed and remains diagnostic-only rather than production visual language;
-- Map Runtime #52 already has a separate exact representation result for this successor and is not an unoccupied visual lane;
-- the immediately preceding Animal 19-key retained-view QA is closed and is not reopened;
-- Character target-host playback current exact head remains workflow-red, so there is no fresh completed visual claim to inherit or relabel;
-- fresh Nature motion work remains bounded diagnostic/source evidence rather than a stronger returned finished appearance gate.
+- Art Direction 044 explicitly froze the current `hardware_steel` scalars after isolated-cull review and asked for this exact complete-object hierarchy proof before full visual adoption;
+- Materials has now supplied all 31 receiver nodes / 1,052 triangles in three retained complete-object views without retuning the positive material family;
+- Map Runtime PR #47 already has a separate exact successor static-batching result with 4/4 shaded retained pairs byte-identical, so its strongest remaining boundary is Runtime/target-device rather than the unresolved visual hierarchy question here;
+- the Building production successor has already passed independent QA and its Environment rebind now has owner/Art/QA/Runtime identity convergence, so reopening it would duplicate a closed visual lane;
+- Nature Technical Art, Rigging and Animation have fresh exact continuity / socket / diagnostic-motion evidence, but those lanes explicitly do not yet return a stronger finished target-host motion/look surface than this Object full-receiver packet;
+- the preceding Object isolated-hinge Art question remains historical evidence and is not reopened as an isolated proof.
 
 No duplicate implementation lane was opened.
 
 ## Exact evidence identity
 
-Art Direction's exact owner artifact was independently downloaded and inspected:
+Independent QA downloaded and directly inspected the exact retained owner artifact:
 
-- artifact ID: `10531260523`;
-- artifact SHA-256: `75369c8d71ce5491eec2e058ecacc56948ca94662cc0b34d123b82273f2b4b8b`;
-- successor PNG SHA-256: `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
-- current-world source Environment identity carried by the packet: `595df99daf866b5e3dcaa4be87eeb650af637919`;
-- two retained cameras: `path_eye`, `elevated_oblique`;
-- two Weather branches: candidate/control;
-- 17 retained phases each;
-- total scalar/checker/successor current-world comparisons independently remeasured: `68`.
+- artifact ID: **`10533132418`**;
+- artifact SHA-256 independently reproduced: **`af712862f420a4a070c2a731136ba123f87cc40d1aca4613100a7a60d9b5dc84`**;
+- exact Materials head: `90789442be09aac60125f9423d1d5f7d65c1c1a3`;
+- exact Technical Art donor: `f430d00d98e694dcf8302fd4df3c64a074f6f30e`;
+- exact successor002 rebound GLB SHA-256: `f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`;
+- renderer: Godot `4.7.2-stable`, GL Compatibility, X11, llvmpipe;
+- three retained complete-object contexts: `full_rear_three_quarter`, `full_rear_grazing`, `full_side_three_quarter`;
+- every retained candidate/control frame: exactly `31` visible mesh nodes / `1,052` triangles.
 
-The QA pass uses the exact retained PNGs rather than inheriting Art preference or Materials headline metrics.
+Positive material family remains unchanged from Art Direction 044:
 
-## PASS — production successor localized, stable and subordinate in retained current-world views
+- role: `hardware_steel`;
+- albedo `#9AA3A8FF`;
+- metallic `0.88`;
+- roughness `0.32`.
 
-**`PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_CURRENT_WORLD_VISUAL_QA__LOCALIZED_STABLE_SUBORDINATE__68_PAIRS`**
+The five exact hinge control nodes remain:
 
-Independent exact-PNG remeasurement across all 68 scalar/successor pairs:
+- `hinge_body_b0`;
+- `hinge_lid_l0`;
+- `hinge_body_b1`;
+- `hinge_lid_l1`;
+- `hinge_body_b2`.
 
-- scalar -> successor pixels above 1 LSB: **`182,257` aggregate**;
-- maximum scalar -> successor RGB-channel delta: **`10 LSB`**;
-- every retained pair contains a measurable successor delta;
-- no whole-world shift or unrelated-scene delta was reproduced.
+QA uses the exact retained candidate, five-hinge-neutral control and whole-object unshaded frames rather than inheriting Materials or Art conclusions.
 
-Phase/localization challenge:
+## PASS — complete-receiver visual/culling coherence
 
-### `path_eye`
+**`PASS_OBJECT_HINGE_SUCCESSOR002_FULL_RECEIVER_VISUAL_COHERENCE__NO_MISSING_OR_INSIDE_OUT_SURFACE_REPRODUCED`**
 
-- exact successor support above 1 LSB: **`3,696 px` in every one of the 17 phases** in both Weather branches;
-- fixed support bbox: `[388,309,739,389]`;
-- minimum Jaccard of the >1-LSB support mask versus phase 00: **`1.0`**;
-- minimum consecutive-phase support Jaccard: **`1.0`**.
+Direct inspection of all three complete-object candidate views reproduces a coherent hinge receiver:
 
-### `elevated_oblique`
+- no gross missing hinge shell;
+- no inside-out ordinary-cull failure;
+- no detached knuckle chain;
+- no unrelated material mutation;
+- no whole-scene shift;
+- no evidence that the full-receiver packet silently hid surrounding case/lid/service surfaces.
 
-- candidate-Weather successor support: `1,662..1,666 px` across the 17 phases;
-- fixed support bbox: `[612,222,879,328]`;
-- minimum Jaccard versus phase 00: **`0.9975990396`**;
-- minimum consecutive-phase Jaccard: **`0.9987995198`**;
-- control-Weather support remains `1,665..1,666 px`, with minimum phase-00 Jaccard `0.9993997599`.
+The five-hinge neutral control changes the exact hinge material response while holding the surrounding receiver visible, and the whole-object unshaded control independently proves the complete receiver footprint. The visual hierarchy finding below is therefore not a missing-surface/culling false positive.
 
-The few support-pixel changes in the elevated view remain inside the same fixed service-panel projection and do not form a moving material footprint or phase-dependent UV flicker.
+## FAIL — rear / hinge-facing hierarchy subordination
 
-Direct inspection reproduces no receiver escape, detached panel, UV explosion, whole-scene shift, obvious retained-scale banding/tiling, unrelated-world corruption or service-surface hierarchy regression. The warm ochre panel remains visibly present but subordinate to the frame, dark infill/roof and route hierarchy.
+**`FAIL_OBJECT_HINGE_SUCCESSOR002_REAR_HIERARCHY_SUBORDINATION__FIVE_KNUCKLE_HIGHLIGHT_STRIPE_DOMINATES_BRIGHTEST_PIXELS`**
 
-## PASS — checker is visibly removed without erasing the panel identity
+Art Direction 044 asked whether successor002 reads as integrated functional hardware in the complete Object or as an over-bright / over-repetitive focal stripe. Independent QA reproduces the latter in both retained rear / hinge-facing contexts.
 
-**`PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DEPATTERNS_CHECKER__TWO_EXISTING_CAMERAS`**
+The exact five-hinge material-delta support is used only as a receiver-local mask; luminance statistics are then measured on the unchanged candidate frame relative to the remaining visible object.
 
-Independent aggregate measurements:
+### `full_rear_three_quarter`
 
-- scalar -> checker pixels above 1 LSB: **`239,530`**;
-- checker -> production successor pixels above 1 LSB: **`249,892`**;
-- scalar -> successor pixels above 1 LSB: **`182,257`**.
+- visible-object pixels: `235,617`;
+- hinge material-delta support: `11,365 px = 4.8235%` of the visible object;
+- hinge share of the **brightest 1%** of visible-object pixels: **`88.8%`**;
+- area-normalized brightest-1% overrepresentation: about **`18.4x`**;
+- hinge mean luminance: `0.4938`; non-hinge mean: `0.3062`;
+- hinge p95 luminance: `1.0000`; non-hinge p95: `0.4441`;
+- fully-white pixels: hinge `2,408`, non-hinge `303`;
+- context-relative high-brightness hinge components above the non-hinge p99 luminance: **5**;
+- horizontal centroid-spacing coefficient of variation for those five components: **`0.139`**.
 
-The exact checker retains an obvious calibration-grid read in both existing cameras. The production successor removes that grid/symbol read while preserving the same ochre service-panel identity and the same current-world lighting relation. QA reproduced no new replacement pattern that becomes a stronger focal point than the panel's functional role.
+Direct read: the five knuckles form a repeated bright bar/stripe across the rear edge and become the strongest high-frequency highlight rhythm in the frame.
 
-This PASS is independent visual QA of the retained presentation; it does not inherit Art Direction's preference as evidence.
+### `full_rear_grazing`
 
-## Source-texture precision retained
+- visible-object pixels: `252,794`;
+- hinge support: `7,527 px = 2.9775%`;
+- hinge share of the brightest 1%: **`84.3%`**;
+- area-normalized brightest-1% overrepresentation: about **`28.3x`**;
+- hinge mean luminance: `0.3846`; non-hinge mean: `0.2852`;
+- hinge p95 luminance: `0.9410`; non-hinge p95: `0.4911`;
+- context-relative high-brightness hinge components: **5**;
+- horizontal centroid-spacing coefficient of variation: **`0.234`**.
 
-The exact `512 x 512 RGBA8` successor source was also inspected directly:
+Direct read: the same five-part highlight chain remains the dominant repeated bright rhythm even though the candidate steel is numerically darker than the neutral diagnostic control.
 
-- alpha: exactly `255` everywhere;
-- exact RGB triplets present: **`26`**;
-- channel ranges: `R 104..118`, `G 84..96`, `B 54..62`;
-- maximum adjacent source-channel step: **`2 LSB`**;
-- all four `256 x 256` quadrant byte hashes are distinct;
-- no exact 64/128/256-pixel repetition was found on X or Y in direct shift checks.
+The fact that the candidate is darker than the neutral control is preserved, but it does **not** close the hierarchy question: the candidate still concentrates most of the highest-luminance pixels into the repeated hinge chain in both retained rear views.
 
-The small exact palette is deliberately recorded rather than hidden. QA did **not** reproduce distracting banding in the retained current-world cameras, but this evidence is not sufficient to grant arbitrary close-range/magnified anti-banding acceptance. That remains inside the final HOLD below.
+The top-1% and component-spacing measurements are **supporting diagnostics only**, not universal AXM aesthetic thresholds. The FAIL is grounded in the direct repeated-focal-stripe read and scoped only to these exact rear / hinge-facing retained contexts.
 
-## No new scoped FAIL reproduced
+## PASS — side three-quarter does not reproduce the rear hierarchy failure
 
-Within the exact retained current-world evidence, QA did not reproduce a visual defect severe enough to classify as a current-world regression. The successor is measurably distinct from scalar, removes the checker language, remains localized, and stays stable through the retained phase field.
+**`PASS_OBJECT_HINGE_SUCCESSOR002_SIDE_THREE_QUARTER_HIERARCHY__NO_TOP1PCT_HINGE_DOMINANCE`**
 
-QA therefore does not invent a FAIL from the source texture's deliberately restricted palette. The restriction remains explicit as a close-range evidence gap.
+For `full_side_three_quarter`:
 
-## BLOCKED — final Building utility-panel production-surface adoption
+- visible-object pixels: `272,067`;
+- hinge support: `9,372 px = 3.4447%`;
+- hinge share of the brightest 1%: **`0.0%`**;
+- no hinge component exceeds the non-hinge 99th-percentile luminance in this retained view;
+- hinge mean luminance: `0.4068`; non-hinge mean: `0.3626`;
+- hinge p95: `0.5082`; non-hinge p95: `0.4110`.
 
-**`BLOCKED_FINAL_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_ADOPTION__ENVIRONMENT_REBIND_TARGET_DEVICE_CLOSE_RANGE_SURFACE_STACK_PENDING`**
+The orange/service-side feature and broader shell hierarchy keep the hinge from becoming the dominant highlight system here. QA therefore does not inflate the rear-view FAIL into a global arbitrary-camera claim.
 
-This activation does **not** establish:
+## BLOCKED — final Object hinge successor002 visual adoption
 
-- Environment adoption of successor 001;
-- arbitrary-camera, arbitrary-FOV, arbitrary-resolution, arbitrary-renderer or arbitrary-lighting equivalence;
-- close-range or magnified anti-banding / anti-posterization acceptance;
-- final production normal, roughness, weathering, decal or damage stack;
-- final UV packing, padding, atlas or texel-density policy;
-- physically measured surface response;
-- target-device CPU/GPU/FPS/VRAM/texture-memory/thermal/battery acceptance;
-- collision/navigation/gameplay readiness;
-- CANON or production/game readiness;
-- Materials, Environment, Runtime or QA mastery.
+**`BLOCKED_FINAL_OBJECT_HINGE_SUCCESSOR002_VISUAL_ADOPTION__ART_MATERIAL_RESPONSE_CLOSE_RANGE_RUNTIME_TARGET_DEVICE_PENDING`**
 
-The exact successor may now return to the existing Map Environment PR #51 rebind lane. QA does not authorize opening a duplicate Environment lane or silently adopting it.
+QA does **not** prescribe the repair. The exact next authority belongs to Art Direction + Materials: decide whether the rear-facing focal-stripe result is acceptable, or whether the same exact hardware role needs a bounded response such as material-response adjustment. QA does not authorize geometry edits, camera/light/exposure changes, or material retuning merely to make the metric green.
+
+Still not established:
+
+- arbitrary-camera or arbitrary-FOV hierarchy acceptance;
+- final hinge albedo / metallic / roughness values;
+- final UVs, textures, normal maps, wear, decals or manufacturing finish;
+- close-range surface response;
+- articulated contact, collision, retention, friction, strength or manufacturing behavior;
+- Runtime / target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- gameplay readiness;
+- default source / Technical Art adoption;
+- CANON;
+- production/game readiness;
+- Materials, Art Direction or Visual QA mastery.
 
 ## Independent review return
 
-QA returned the exact result to Building Materials PR #3 as review **`5244398076`**, anchored to head `75bf511be8a89778ab40868707a68e80a210608a`.
+QA returned the exact result to Object Materials PR #6 as review **`5244682857`**, anchored to exact head `90789442be09aac60125f9423d1d5f7d65c1c1a3`.
 
-No material retune, texture edit, Environment mutation, Runtime policy change, merge or CANON promotion was requested.
+No material value, texture, geometry, UV, transport, camera, light, exposure, Runtime policy, merge or CANON state was changed by this review.
 
 ## Prior retained QA continuity
 
-The immediately preceding Animal Runtime result remains exact historical truth and is not rewritten:
+The immediately preceding Building production-surface result remains exact historical truth and is not rewritten:
 
-- `PASS_ANIMAL_RUNTIME_19_KEY_RETAINED_VIEW_VISUAL_NONREGRESSION__WORST_SAMPLE_SILHOUETTE_DRIFT_MAX_1PX`;
-- `PASS_ANIMAL_RUNTIME_19_KEY_RETAINED_PEAK_POSE_RASTER_IDENTITY__VIEW02_BYTE_IDENTICAL`;
-- final arbitrary-camera / continuous-playback / target-device / tangent-space adoption remained held.
+- `PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_CURRENT_WORLD_VISUAL_QA__LOCALIZED_STABLE_SUBORDINATE__68_PAIRS`;
+- `PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DEPATTERNS_CHECKER__TWO_EXISTING_CAMERAS`;
+- final Environment/device/close-range/final-surface-stack adoption remained held at that QA step; Environment has since created its own exact current-world rebind without turning that historical QA result into CANON authority.
 
-The earlier Building checker QA also remains historical truth: it passed transport/readability/localization as diagnostic evidence, while Art Direction subsequently classified that checker as calibration-only and requested this production successor. The new PASS does not rewrite or erase the checker evidence; it answers the successor-specific visual question.
-
-Earlier Object VFX/Runtime, corrected rigid-shell culling, compact-east temporal delivery, Object latch, Animal tangent-frame, Character shaded-motion and other historical PASS/FAIL/BLOCKED results remain bound to their exact reviewed heads. No acceptance transfers by analogy.
+Earlier Animal 19-key, Object VFX-v2 / Runtime MultiMesh, corrected rigid-shell culling, Object latch, compact-east temporal delivery, Animal tangent-frame, Character shaded-motion and other PASS/FAIL/BLOCKED results remain bound to their exact reviewed heads. No acceptance transfers by analogy.
 
 ## Four-root gate
 
-- **Truth:** the exact artifact identities, 68-frame measurements, strong checker removal, subtle successor delta, limited 26-color source palette and remaining evidence gaps are all preserved separately.
-- **Agency / non-domination:** QA judges retained visual evidence only and does not seize Materials authoring, Art preference, Environment adoption, Runtime/device policy or CANON authority.
-- **Continuity:** scalar control, checker diagnostic, successor 001, exact Materials head, previous Map/Animal/Object results and rollback evidence remain separately addressable; no historical state is silently rewritten.
-- **Wisdom before speed:** the bounded current-world visual gate closes because evidence supports it, while close-range presentation, Environment adoption, production surface stack and target-device behavior remain held instead of being inferred from two favorable cameras.
+- **Truth:** both the coherent receiver PASS and the rear hierarchy FAIL are retained together; the side-view non-failure prevents a false global claim; the exact artifact/head identities and luminance/spacing diagnostics remain inspectable.
+- **Agency / non-domination:** QA judges the retained visual result only. It does not seize Materials authoring, Art Direction preference, Technical Art transport, Runtime/device, merge or CANON authority.
+- **Continuity:** the isolated-hinge Direction 044 result, full-receiver Materials packet, previous Building QA state and older Object evidence remain separately recoverable; no prior state is silently rewritten.
+- **Wisdom before speed:** stop at the smallest demonstrated defect. Do not rewrite hinge geometry, camera, lighting or material family globally from two rear-view hierarchy failures; return the exact evidence to Art Direction + Materials and require a bounded response before final visual adoption.
 
 The four AXM roots remain the merge gate.
