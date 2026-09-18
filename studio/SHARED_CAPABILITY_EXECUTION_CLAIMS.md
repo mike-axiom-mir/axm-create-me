@@ -72,11 +72,12 @@ No active claim remains for #192 after the merged result. Any product consumer m
 - `implementation_repo`: `mike-axiom-mir/axm-universal-creation`
 - `branch_or_pr`: `PR #200` / `studio/geometry-closed-shell-orientation-observer-001`
 - `base_revision`: `95b618f6e6028c2ac8c1a106cfa009a3c106f48c`
-- `state`: `IMPLEMENTING`
-- `result_identity`: exact current implementation head `51fa006cd3d08648a5965c09eaf55d2936b1ee2c`; dedicated workflow `35281398491` SUCCESS on Python 3.11 and 3.13; inherited source-index-fan workflow `35281398747` SUCCESS; PR open/draft/mergeable
+- `state`: `MERGED`
+- `result_identity`: PR #200 final reconciled head `316e9c2a59e92046af309667fe21b956676b7286`; merged UC main / merge commit `13a823349a568db266099564d6f5d8d7bac48b2b`
+- `historical_green_evidence`: implementation head `51fa006cd3d08648a5965c09eaf55d2936b1ee2c`; dedicated workflow `35281398491` SUCCESS on Python 3.11 and 3.13; inherited source-index-fan workflow `35281398747` SUCCESS before final reconciliation
 - `non_claims`: no automatic winding repair, source adoption, universal outward label, renderer/front-face conversion, normals/tangents rewrite, self-intersection freedom, physical-volume/collision certification, product adoption, CANON, production or game-readiness authority transfers
 
-This claim is collision-avoidance evidence only. It grants no merge priority or authority. Building #6 and Object #33 remain separate product proofs, and any future product consumer must explicitly bind/rerun an exact merged shared observer before claiming coverage.
+No active claim remains for #199 after the merged result. Building #6 and Object #33 remain separate product proofs, and any product consumer must explicitly pin `13a823349a568db266099564d6f5d8d7bac48b2b` or a later containing UC revision and rerun its own evidence before claiming coverage.
 
 ## Scope boundary
 
