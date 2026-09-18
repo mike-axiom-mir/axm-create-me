@@ -2,13 +2,13 @@
 
 Date: 2026-09-18
 
-State: **FAIL_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_051_REAR_GRAZING_REGRESSION / PASS_LOCAL_REAR_THREE_QUARTER_REDUCTION_ONLY / FREEZE_SUCCESSOR002_7E868A_M088_R032_REVIEW_REFERENCE / STOP_SECOND_NORMAL_CANDIDATE_OR_NORMAL_SWEEP / REQUEST_INDEPENDENT_QA / CORRECT_CANDIDATE_GLB_IDENTITY_TO_9BBCB244 / NATURE_DIRECTION050_CURRENT_OWNER_RUNTIME_REBIND_STILL_PENDING / HOLD_SOURCE_DEFAULT_FINAL_NORMAL_TANGENT_DEVICE_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_NATURE_CURRENT_OWNER_RIGID_NODE_FIXED_VIEW_REFERENCE_052 / PASS_NATURE_CURRENT_OWNER_RENDERED_SUPPORT_IDENTITY_NINE_WITNESSES / HOLD_CURRENT_OWNER_SHADER_TRANSFER_NO_VISUAL_OBJECTIVE_OR_RUNTIME_WIN / REQUEST_INDEPENDENT_QA_ARTIFACT_10545219394 / OBJECT_DIRECTION051_QA_CONFIRMED_FAIL_AND_PARAMETER_CHASE_REMAINS_STOPPED / HOLD_FINAL_NATURE_LOOKDEV_TANGENT_NORMAL_PLAYBACK_DEVICE_NEWER_BRIDGE_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the prior Art status, current specialist status, newest open PRs/heads, CI and fresh visual evidence across the design constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, all current `studio/status/01..14` specialist ledgers, current open PR/commit activity across the full design constellation, and fresh retained visual/runtime evidence before selecting one bounded Art-owned return.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation remains in owning design repositories.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. No product implementation was added here.
 
 The four AXM roots remain the merge gate:
 
@@ -17,224 +17,169 @@ The four AXM roots remain the merge gate:
 - **Continuity**
 - **Wisdom before speed**
 
-The preceding exact Art status is preserved in Git history at blob:
+The immediately preceding Art status is preserved at blob:
 
-**`8c600807d17659f380124bf7f65935365a6a464e`**
+**`fc3ab0689a29e5d1969426e8037b9e4658ca7110`**
 
-That status records Direction 050 Nature predecessor-chain fixed-view visual equivalence and the one pending current-owner Runtime rebind. It is not rewritten into current-owner acceptance.
+That status records Direction 051's Object analytic-radial hinge-normal rejection, the frozen successor002 / `#7E868A` / `m0.88` / `r0.32` faceted-normal review reference, the stop on another immediate normal/material/source parameter chase, and the still-pending Nature Direction-050 current-owner Runtime rebind. Nothing from Direction 051 is silently rewritten.
 
 ## Full-constellation / duplicate-lane scan
 
-The strongest newly completed Art-owned return is now **Object Technical Art PR #16** because it directly answers Direction 048 with the one analytic-radial outer-cylinder hinge-normal candidate Art requested.
+The strongest newly completed Art-owned return is now **Nature Runtime PR #20**, because it directly answers Direction 050's requested one exact-current-owner shaded rebind and has already converged with the current Environment receiver without claiming Art acceptance.
 
-Other active work was not duplicated:
+Other current work was not duplicated:
 
-- **Nature:** Direction 050's exact current-owner shaded Runtime rebind on existing PR #20 remains pending. Fresh Map Environment spatial-readiness evidence does not substitute for that shaded A/B.
-- **Animal:** bilateral tangent-space texture/seam/filter diagnostics have fresh independent QA, but production texture/mip/playback/TA/Runtime/Art/device gates remain in their owning lanes.
-- **Building:** Direction 049 remains accepted for the `0.10 m` utility-panel clearance successor; no cadence rerender or retune is justified.
-- **Weather:** Direction 041 normalized temporal exposure remains an experiment, not preferred presentation.
-- **Object:** no second material, phase, hard-surface or normal implementation lane is opened. The exact returned Technical-Art candidate is reviewed in place.
-- **Character / Weapon / Armor / Unit / Misc / Map / UC / Profession Fabric:** current fresh work does not provide a more complete, higher-leverage Art-owned visual return than the exact Object Direction-048 response.
+- **Object:** independent Visual QA has now confirmed Direction 051 on exact artifact `10544549523`: the analytic-radial candidate is isolated/real, improves absolute rear-three-quarter near-white count locally, but fails rear-grazing non-regression (`0 -> 473` near-white hinge pixels). QA explicitly opens no second normal/material/source chase. Object stays frozen.
+- **Nature Geometry / Rigging / VFX / Procedural:** the new analytic bridge lineage is real progress but remains a diagnostic source/receiver lineage with connected topology, production skinning, target-host transfer and Art/QA acceptance held. Direction 052 does not inherit onto that newer owner chain.
+- **Nature Materials:** current shaded proof-normal receive is green on its exact older carrier, but final tangent/normal-map/lookdev and current-owner production material acceptance remain held. No material retune is opened from a representation comparison.
+- **Building:** Direction 049's `0.10 m` utility-panel clearance successor and Direction 043 production surface remain the accepted Art references; no rerender/retune justified.
+- **Animal:** bilateral tangent-space evidence remains QA-bounded while the separate Runtime key-reduction physical-owner-angle semantic issue remains held; no Art adoption is forced.
+- **Character:** current Animation/Rigging continuous structural composition is green but final motion-quality/target-host Art review is still downstream; no stronger completed visual return displaced Nature.
+- **Weather:** Direction 041 normalized temporal exposure remains experimental, not preferred presentation.
+- **Map / Environment:** current Map PR #53 already consumes the exact Nature current-owner Runtime decision while keeping Environment adoption false and Art/QA/device authority held. No duplicate world render is needed merely for Art ceremony.
+- **Weapon / Armor / Unit / Misc:** no fresher grounded Art-owned visual return outranked the exact Nature Direction-050 response.
+- **UC / Profession Fabric / Cartography:** current work is capability/evidence placement, not a stronger visual-direction surface; no domain policy is moved into shared machinery.
 
 No duplicate product lane was opened.
 
-## Direction 051
+## Direction 052
 
 Packet:
 
-`studio/direction/OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_DISPOSITION_DIRECTION_051.md`
+`studio/direction/NATURE_CURRENT_OWNER_RIGID_CONTROL_VISUAL_DISPOSITION_DIRECTION_052.md`
 
 Packet commit:
 
-**`4b701f6fedf0afe7b1e53c286ed82991c605c4e5`**
+**`3ae7b994770b98d5debb1e33440fac787410e7a3`**
 
 Decisions:
 
-- **`FAIL_ART_DIRECTION_OBJECT_HINGE_ANALYTIC_RADIAL_OUTER_NORMAL_051__REAR_GRAZING_NEAR_WHITE_BAND_REGRESSION`**
-- **`PASS_LOCAL_REAR_THREE_QUARTER_BRIGHTNESS_REDUCTION_ONLY_051`**
-- **`FREEZE_OBJECT_HINGE_SUCCESSOR002_7E868A_M088_R032_AS_CURRENT_REVIEW_REFERENCE_051`**
-- **`STOP_OBJECT_HINGE_SECOND_NORMAL_CANDIDATE_AND_NORMAL_SWEEP_051`**
-- **`REQUEST_INDEPENDENT_VISUAL_QA_ON_EXACT_ARTIFACT_10544549523_051`**
-- **`HOLD_SOURCE_DEFAULT_FINAL_NORMAL_TANGENT_RUNTIME_DEVICE_CANON_PRODUCTION_051`**
+- **`PASS_ART_DIRECTION_NATURE_CURRENT_OWNER_RIGID_NODE_RECEIVER_FIXED_VIEW_REFERENCE_052`**
+- **`PASS_ART_DIRECTION_NATURE_CURRENT_OWNER_CONTROL_CANDIDATE_RENDERED_SUPPORT_IDENTITY_NINE_WITNESSES_052`**
+- **`HOLD_ART_DIRECTION_NATURE_CURRENT_OWNER_SHADER_TRANSFER_052__NO_VISUAL_OBJECTIVE_OR_RUNTIME_WIN`**
+- **`REQUEST_INDEPENDENT_VISUAL_QA_CURRENT_OWNER_ARTIFACT_10545219394_052`**
+- **`HOLD_FINAL_NATURE_LOOKDEV_TANGENT_NORMAL_NATURAL_PLAYBACK_DEVICE_NEWER_BRIDGE_CANON_PRODUCTION_052`**
 
-## Exact Object Technical Art evidence
+## Exact Nature evidence reviewed
 
 Repository:
 
-`mike-axiom-mir/axm-object-design`
+`mike-axiom-mir/axm-nature-design`
 
-Existing Technical Art PR:
+Existing Runtime PR:
 
-**#16**
+**#20**
 
-Exact head:
+Exact Runtime head:
 
-**`36f653ef0409a66d5d00def18a8f9dccd00c3336`**
+**`c8a017c5b401f7c48a170ee2b0a0a78b4c9c2caa`**
+
+Exact receiver owner chain:
+
+- Technical Art `02c5223dd9288c12607f0553e2f1103be38ae71f`;
+- Animation `5cacd61e22433b0c33f29111827283b81cc0ba0d`;
+- Rigging `69640e558f0c1ac59d4d0e3155676e0967a03d04`;
+- UC `7ddefca57b153fab02c1f54f38de22148cb52c1b`.
 
 Dedicated workflow:
 
-**`35341930670 — Object Technical Art hinge analytic radial normal review — SUCCESS`**
+**`35342311604 — Runtime current Nature owner transfer gate — SUCCESS`**
 
 Retained artifact:
 
-- ID **`10544549523`**
-- GitHub payload size **546,554 B**
-- **74 files**
-- **3,507,597 B** uncompressed
-- archive SHA-256 **`3e07517a8cd390e68c032d6e8dd78bcd593c801cecc549ba64f2e68f0fa0b2ce`**
+- ID **`10545219394`**;
+- GitHub payload size **163,365 B**;
+- **31** files / **267,396 B** uncompressed;
+- SHA-256 **`9ad5ed930a1aa4cd8649cc2c339540dcd3097ce8433f2d14f1cbc9908b4c17a5`**;
 - independently downloaded and rehashed by Art to that exact digest.
 
-Frozen control:
+Target host:
 
-- successor002 synchronized hinge source;
-- control GLB SHA-256 **`f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`**;
-- `hardware_steel #7E868AFF`;
-- metallic `0.88`;
-- roughness `0.32`;
-- `31` mesh nodes / `1052` triangles;
-- `480` hinge triangles.
+Godot **4.7.2 stable official**, GL Compatibility.
 
-Candidate delta is bounded to:
+## Runtime decision consumed without authority inflation
 
-- five hinge outer cylindrical side surfaces;
-- **120** outer-side triangles;
-- **360** changed normal entries;
-- no position/index/topology/hierarchy/material/UV/transform/camera/light/exposure change;
-- all three control/candidate hinge silhouette masks pixel-identical.
+The exact current Technical-Art control is already a rigid parent-node representation driven by one `4 B` scalar and no CPU position-buffer mutation.
 
-## Source-integrity correction
+The diagnostic shader candidate also uses `4 B` semantic driver state per visible sample. Fresh semantic saving is therefore **`0 B / sample`**.
 
-The retained artifact itself establishes the exact candidate GLB SHA-256 as:
+Runtime reports equal control/candidate peak counters:
 
-**`9bbcb24415ee38c3c30a79e63584f3f6ca7b9a7446f358d9b32b322370aa1d14`**
+- 12 draw calls;
+- 12 objects;
+- 620 primitives;
+- 6,437,232 B buffer memory;
+- 5,243,715 B texture memory;
+- 11,680,947 B video memory.
 
-Art independently hashed the retained `candidate-analytic-radial-normal.glb` to that value.
+Runtime decision:
 
-The same value is present in:
+**`KEEP_CURRENT_TA_RIGID_NODE_CONTROL__HOLD_PREDECESSOR_SHADER_TRANSFER`**.
 
-- the build receipt;
-- the review payload;
-- the runtime receipt;
-- the retained index.
+Art does not convert those representation counters into a device-performance claim. They matter only because there is no measured Runtime gain that would justify accepting a new visual difference for optimization.
 
-Technical Art coordination text currently states `cdf9b04d...` as the candidate GLB. That string conflicts with the retained artifact and is therefore **not** used as the exact candidate identity by Art.
+## Independent Art raster review
 
-Handoff: Technical Art should correct its own coordination status/comment while preserving the retained product artifact unchanged.
+Nine exact retained current-owner pairs were inspected:
 
-## Direct visual review
+`0, 5, 10, 15, 20, 25, 30, 35, 39`.
 
-### Rear three-quarter — partial local improvement, not closure
+Aggregate Runtime counts independently reproduced by Art:
 
-Control -> analytic-radial candidate:
+- total pixels: **5,670,000**;
+- raw changed pixels: **8,176**;
+- pixels >1 LSB: **8,156**;
+- whole-frame fraction >1 LSB: **0.143844797%**;
+- maximum channel delta: **44 LSB**;
+- observer discrimination sample `0 -> 10`: **1,459 pixels >1 LSB**.
 
-- near-white hinge pixels `L >= 0.90`: **`1625 -> 1343`**
-- fully white hinge pixels: **`1384 -> 1137`**
-- near-white connected components: **`7 -> 7`**
-- hinge share at/above visible p99: **`0.5587159691 -> 0.5857687421`**
-- pixels >1 LSB: **`7,631`**
+### Art-localized visual result
 
-Direct read: the knuckles become more cylindrically smooth and absolute near-white count falls, but the same five-part rear highlight rail remains visually prominent. Its relative share of the brightest frame tail increases rather than becoming clearly subordinate.
+The exact retained background is RGB `[11,13,15]`.
 
-Result:
+Art independently measures **0 exact rendered-support XOR pixels in every one of the nine pairs**. The control and diagnostic shader therefore retain identical non-background rendered support in all nine fixed views.
 
-**`PASS_LOCAL_REAR_THREE_QUARTER_BRIGHTNESS_REDUCTION_ONLY`**
+The >1-LSB difference is not sparse global noise. It is consistently localized to the moving `north-low` branch and is almost entirely one coherent 8-connected component in every retained pair:
 
-not a hierarchy repair PASS.
+- largest component: **897–911 pixels**;
+- largest component share of all >1-LSB pixels: **99.778–100%**;
+- >1-LSB pixels as a fraction of exact rendered object support: approximately **6.30–6.40%** in every retained witness;
+- localized sequence envelope: approximately `x=348..452`, `y=262..352` in the `900x700` retained frame.
 
-### Rear grazing — decisive regression
+Direct inspection reproduces no missing branch, no branch teleport, no rendered-support displacement and no unrelated receiver corruption. The candidate changes coherent branch shading while preserving the retained support/silhouette.
 
-Control -> analytic-radial candidate:
+Art explicitly does **not** infer a final normal/tangent cause from that visual localization.
 
-- near-white hinge pixels: **`0 -> 473`**
-- fully white hinge pixels: **`0 -> 325`**
-- near-white connected components: **`0 -> 4`**
-- hinge mean luminance: **`0.3287587604 -> 0.3416016993`**
-- pixels >1 LSB: **`5,735`**
+## Art disposition
 
-Direct read: the faceted control has restrained broken highlights; the analytic-radial candidate creates a broader near-white band across multiple knuckles.
+The exact current Technical-Art **rigid-node receiver** becomes the current-owner Art fixed-view reference for this lineage.
 
-This is the non-regression failure that rejects the candidate for the originating visual objective.
+The diagnostic shader transfer remains held because:
 
-### Side three-quarter — reference preserved
+1. it supplies no fresh measured current-owner Runtime budget win;
+2. it supplies no stated visual objective improvement in silhouette, proportion, detail hierarchy or material language;
+3. it introduces a coherent new branch-shading response rather than the sparse one-pixel predecessor residuals accepted in Direction 050;
+4. preserving the simpler selected receiver is the stronger continuity choice until a new measured reason justifies another representation.
 
-- near-white hinge pixels: **`0 -> 0`**
-- hinge share at/above visible p99: **`0 -> 0`**
-- pixels >1 LSB: **`6,357`**
-
-The candidate is therefore not globally broken. It is specifically unsuitable as the requested hierarchy repair because one important rear context improves partially while another regresses.
-
-### Evidence is discriminating
-
-Across all three complete-object A/B contexts:
-
-- raw changed pixels: **`21,558`**
-- pixels >1 LSB: **`19,723`**
-
-The FAIL is a visual-direction verdict on a real changed candidate, not a no-op or missing-evidence result.
-
-## Bounded Art action
-
-The current review reference is restored/frozen to:
-
-- successor002 synchronized geometry;
-- `hardware_steel #7E868AFF`;
-- metallic `0.88`;
-- roughness `0.32`;
-- existing faceted control normals.
-
-No second analytic-normal candidate is requested.
-
-No smoothing-angle sweep, weighted-normal blend sweep, custom-normal sculpting, material scalar retune, phase search, source geometry rewrite, lighting change or camera change is authorized merely to continue chasing the same defect.
-
-This is deliberate: roughness, base value, source facet phase and now full analytic-radial outer normals have each produced bounded evidence. Another immediate scalar/normal search would be lower-information churn.
-
-The next Object hinge move is **HOLD** until:
-
-1. independent Visual QA reviews exact artifact `10544549523`; and/or
-2. an owning specialist returns a materially new causal hypothesis that is not another variation of the already-tested parameter families.
-
-## CI truth
-
-The dedicated normal-review workflow is green.
-
-The exact PR head is **not** globally relabelled green.
-
-Fresh same-head workflow scan shows:
-
-- `35341930670` — Object Technical Art hinge analytic radial normal review — **SUCCESS**
-- `35341930680` — historical Object Technical Art hinge successor002 transport — **FAILURE** at its inherited cumulative-diff guard after additive Direction-048 files, as Technical Art already records;
-- `35341930710` — Object front-latch keeper-seat evidence — **FAILURE** in `Build exact keeper-seat evidence`; its full repository suite step passes before that evidence-build failure;
-- the other inspected same-head Object service-module / hard-surface / rigid-scene / registration / front-face / current-UC continuity workflows are green.
-
-Art does not hide or reinterpret the red checks. Direction 051 relies only on the exact successful normal-review artifact.
+This is not a generic anti-shader rule and not a claim that the diagnostic candidate is broken in arbitrary contexts.
 
 ## Exact handoffs
 
-### Object Technical Art PR #16
+### Nature Runtime PR #20
 
-Art return must:
+Keep `CURRENT_TA_RIGID_PARENT_NODE_TRANSFORM` selected. Do not reopen the predecessor shader transfer from Direction 052. No new Runtime implementation is requested.
 
-- retain candidate `9bbcb244...` and artifact `10544549523` as a failed visual hypothesis;
-- not promote analytic-radial outer normals into source/default policy;
-- not build a second normal candidate or normal sweep from this direction;
-- correct the stale/incorrect `cdf9b04d...` candidate digest in Technical-Art coordination text;
-- preserve the same-head red workflows as separate truth.
+### Map Environment PR #53
+
+The Art-owned exact-current-owner fixed-view gate is now satisfied for the rigid-node receiver already selected by Runtime and already spatially converged by Environment. Do not rerender an unchanged world merely to restate this evidence. Final Environment adoption remains held on independent QA plus existing lookdev/device/owner boundaries.
 
 ### Visual Observer / QA
 
-Independent QA should review exact artifact `10544549523` without inheriting Art's preference. The challenge is whether the candidate truly subordinates the five-knuckle rear hierarchy without introducing a new grazing highlight failure, not merely whether the pixel delta is real.
+Review exact artifact `10545219394` independently and challenge the retained-support identity / coherent-local-shading localization without inheriting Art preference. No product mutation is requested.
 
-### Materials / Hard Surface
+### Materials / Technical Art / Rigging / Animation
 
-No new tuning is requested.
-
-Direction 047's `#7E868A / m0.88 / r0.32` partial material reference and Direction 048's successor002 source disposition stay frozen. Roughness, value, phase and source geometry are not reopened by this FAIL.
-
-### Nature Runtime
-
-Direction 050 remains separately pending on existing Nature Runtime PR #20: one exact-current-owner shaded rebind using Technical Art `02c5223d...`, Animation `5cacd61e...`, Rigging `69640e55...`, UC `7ddefca5...`.
-
-This Object decision does not transfer or pre-judge that pending Nature packet.
+No retune is requested. Current exact receiver material, transport and motion ownership remain frozen for this review. The newer analytic-bridge Rigging lineage does not inherit Direction 052.
 
 ## Prior continuity retained
 
@@ -245,42 +190,45 @@ This Object decision does not transfer or pre-judge that pending Nature packet.
 - D042 Building checker remains diagnostic-only.
 - D043 Building utility-panel production successor remains the preferred production-facing surface direction.
 - D044 isolated Object hinge material/cull coherence remains PASS.
-- D045 complete-object rear hinge hierarchy remains the originating FAIL.
+- D045 complete-object rear hinge hierarchy remains the originating Object FAIL.
 - D046 roughness `0.48` remains a preserved failed negative.
 - D047 `#7E868A / m0.88 / r0.32` remains the best partial Object hinge material reference.
-- D048 rejects facet-phase successor003 and requests exactly one analytic-radial Technical-Art normal candidate.
+- D048 rejects facet-phase successor003.
 - D049 accepts Building `0.10 m` clearance successor with D043 production surface frozen.
-- D050 accepts the exact Nature predecessor-chain fixed-view representation only and holds transfer to the newer current-owner chain.
-- D051 rejects the analytic-radial Object normal candidate for the hierarchy objective, preserves its local improvement as evidence, restores successor002 control as review reference, and stops immediate normal-parameter searching.
+- D050 accepts the predecessor Nature fixed-view representation only and requests current-owner rebind.
+- D051 rejects Object analytic-radial outer normals, freezes the faceted successor002 control and stops immediate parameter searching; independent QA now confirms that bounded rejection.
+- D052 accepts the exact Nature current-owner rigid-node receiver as the fixed-view Art reference and holds the no-win diagnostic shader transfer.
 
 No acceptance transfers by analogy across changed owner chains, subjects, representations or domains.
 
 ## Explicit non-claims
 
-Direction 051 does **not** establish:
+Direction 052 does **not** establish:
 
-- that analytic radial normals are generally wrong;
-- that faceted control normals are final production normals;
-- a universal p99/highlight acceptance threshold;
-- final Object source/default normal or tangent authority;
-- final Materials approval;
+- final Nature lookdev, bark or foliage quality;
+- final source/default normal or tangent authority;
+- normal-map / tangent-space correctness;
+- natural AnimationPlayer wall-clock playback or frame pacing;
+- physical wind semantics;
+- connected branch/trunk topology or production skinning;
+- acceptance of current newer analytic-bridge Rigging owners;
 - arbitrary camera/light/renderer/resolution equivalence;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- gameplay, collision, physics or manufacturing validity;
+- measured target-device CPU/GPU frame-time superiority;
+- target-device FPS/VRAM/heap/thermal/battery acceptance;
+- final Map/default-world adoption;
+- gameplay, collision or physics readiness;
 - CANON;
 - production/game readiness;
-- Technical Art, Materials, Hard Surface, QA, any specialist, or Art Direction mastery.
-
-One bounded failure is evidence about this exact Object receiver/material/light/view set only.
+- Runtime, Technical Art, Materials, Environment, QA, Art Direction or any specialist mastery.
 
 ## Four-root gate
 
-**Truth:** exact artifact bytes, visual metrics, direct observation, candidate-digest discrepancy and same-head red CI remain explicit.
+**Truth:** exact owner identities, artifact bytes, Runtime budget result, whole-frame raster counts, exact rendered-support identity and coherent local residual are explicit and separated from causal or production claims.
 
-**Agency / non-domination:** Technical Art retains receiver/normal-transport authority, Hard Surface retains source geometry, Materials retains lookdev, QA remains independent, and Art owns only visual-direction disposition.
+**Agency / non-domination:** Runtime keeps budget/representation authority, Technical Art keeps receiver/transport authority, Materials keep lookdev, Rigging/Animation keep motion ownership, QA remains independent, and Art owns only visual direction.
 
-**Continuity:** failed roughness/value/phase/normal experiments remain addressable; the best current review reference is restored rather than silently rewritten; Direction 050 remains pending separately.
+**Continuity:** the Direction-050 predecessor proof remains exact history; the current rigid-node control is preserved rather than replaced by a zero-win shader transfer; Object Direction-051 and newer Nature bridge lineages remain independently addressable.
 
-**Wisdom before speed:** stop the low-information parameter chase instead of opening another normal/material/source sweep after four bounded hypotheses have already produced clear tradeoffs.
+**Wisdom before speed:** when the current receiver already removes the predecessor Runtime cost, do not add custom shader complexity plus a coherent new shading response merely because an older optimization once helped. Keep the simpler measured receiver and wait for a real new visual/runtime trigger.
 
 The four AXM roots remain the merge gate.
