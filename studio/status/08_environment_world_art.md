@@ -2,197 +2,181 @@
 
 Date: 2026-09-18
 
-State: **PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SUCCESSOR_ENVIRONMENT_CURRENT_WORLD_REBIND / OWNER_ART_QA_RUNTIME_IDENTITIES_CONVERGED / CURRENT_ENVIRONMENT_RECEIVING_CHOICE_SET / FINAL_ADOPTION_HELD / COORDINATION_ONLY**
+State: **PASS_CURRENT_WORLD_NATURE_FIVE_PRIMARY_BRANCH_DIAGNOSTIC_SWEEP_FITS_EXISTING_EAST_REAR_RESERVATION / MAP_PR53_HEAD_23DECCA / SPATIAL_RECEIVE_READY / VISUAL_WIND_RUNTIME_ENV_ADOPTION_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the preceding Environment status, and fresh Map / Building / Nature / Object / Weather plus Materials / Art Direction / Visual Observer-QA / Runtime coordination state.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the preceding Environment status, and fresh Map / Building / Nature / Object / Weather plus Art Direction / Visual Observer-QA / Technical Art / Runtime coordination state.
 
-`axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` mutation in this activation. No renderer, product implementation, material source, geometry, UV, Runtime representation, camera, light, Nature, Object, Weather, gameplay or CANON implementation was added here.
+`axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` mutation in this activation. Product/evidence code lives in its owning Map repository lane.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Predecessor status blob:
+Predecessor Environment state remains preserved in Git history: PR #51 exact head `4826db5d3a595bbeefdfd58d5541b2d78247e290` had already accepted the exact reviewed Building utility-panel production successor as the current Environment receiving choice while keeping final adoption held.
 
-`dd563e4c8698e61902af1885e957b6d6019439ee`
+## Fresh constellation scan
 
-The predecessor HOLD is preserved in Git history. It required an exact independent Visual QA review and explicitly required a **new Environment rebind** after that review rather than silently editing the HOLD into adoption authority. This activation follows that boundary.
+### Map / Building
 
-## Fresh constellation change
+Map PR #51 remains the exact Environment parent and is unchanged by this activation. Its Building state remains the current `184v / 276t / 5-surface` `header-segmented-23` receiver with corrected utility-panel placement and the exact owner-reviewed production surface. PR #49 remains its direct Environment parent and PR #24 remains historical rollback lineage.
 
-The last missing exact owner gate is now green.
+No fresh Building seam justified another Environment mutation.
 
-Independent Visual Observer / QA reviewed the exact Building Materials production successor:
+### Object
 
-- Building Materials PR #3 exact head `75bf511be8a89778ab40868707a68e80a210608a`;
-- independent review ID `5244398076`, anchored to that exact commit;
-- owner current-world artifact `10531260523`, SHA-256 `75369c8d71ce5491eec2e058ecacc56948ca94662cc0b34d123b82273f2b4b8b`;
-- production PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
-- result `PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_CURRENT_WORLD_VISUAL_QA__LOCALIZED_STABLE_SUBORDINATE__68_PAIRS`;
-- depattern result `PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DEPATTERNS_CHECKER__TWO_EXISTING_CAMERAS`;
-- `68` retained scalar/successor frame pairs across `path_eye` and `elevated_oblique`, both retained Weather branches and all 17 phases;
-- scalar -> successor `182,257` pixels above 1 LSB, maximum `10 LSB`;
-- no grid/checker read, receiver escape, UV explosion, detached-panel read, gross tiling/banding or hierarchy regression in those retained views;
-- arbitrary close-range anti-banding remains outside the accepted evidence boundary.
+Independent Visual Observer / QA currently keeps the newer Object hinge-successor lane held for final adoption: full-receiver coherence is green, but rear-view hierarchy/subordination is still not accepted and close-range material / Runtime target-device gates remain outside Environment authority.
 
-The exact same owner identity was already green in the other required lanes:
+Environment therefore did **not** pull that Object successor into the world or start a duplicate Object lane.
 
-### Materials owner
+### Nature
 
-- PR #3 head `75bf511be8a89778ab40868707a68e80a210608a`;
-- workflow `35303626025` — **SUCCESS**;
-- result `PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_SUCCESSOR_CURRENT_WORLD_THREE_WAY_REVIEW_READY__HOLD_ART_QA_ENV_RUNTIME_ADOPTION`;
-- surface `utility_panel_ochre_production_surface_001`;
-- PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
-- RGBA8 SHA-256 `408a6eaecf99fa328487785f85d089c93da2b84c3ae9ead0bf6e1f8d2a0bdcad`;
-- metallic / roughness `0.18 / 0.62`;
-- owner current-world three-way `68` frames per variant, successor visible in `68 / 68`, owner localization minimum `1.0`.
+Technical Art PR #3 is now green for the exact five-primary-branch one-branch-at-a-time diagnostic target receiver:
 
-### Art Direction
+- Technical Art head `b83c7d71759213d96c57874282e60705402540f5`;
+- Animation head `b0771b3319b783103c8e4677d062c00419df7559`;
+- pinned Rigging head `898529f602893c8f6be179bd3e9b6821fc099904`;
+- UC head `5c772b65eeba75abd0eb7a6c9c471b2d9975019d`;
+- exact source digest `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`;
+- exact neutral mesh digest `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
+- 12-node / 620-triangle target receiver;
+- five independent branch clips × 41 samples = 205 exact samples;
+- Godot 4.7.2 target receiver proof green;
+- simultaneous multi-branch motion, wind/VFX behavior, Runtime/device and Art/QA remain explicitly unproven.
 
-- coordination commit `fe39317b1e32f38a52994bb7ae40a8a8a0c42c67`;
-- packet `studio/direction/BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DIRECTION_043.md`;
-- result `PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_SUCCESSOR_001_043`;
-- exact same Materials head and production PNG identity;
-- accepted for direction `true`;
-- final adoption `false`.
+Runtime also has a separate green Nature moving-window optimization for the existing 390-vertex receiver, but that lane still holds target-host shaded / Art-QA / device acceptance and is not silently combined here.
 
-### Runtime representation
+The newer Rigging shared-driver / VFX chain is also **not** substituted for the exact Technical Art chain above; it still requires an explicit TA/Animation/VFX/Runtime rebind path before Environment may receive it.
 
-- Map Runtime PR #52 exact head `cb4a4c7b4b8e77eba1195f0032d318d27588fd12`;
-- workflow `35304987658` — **SUCCESS**;
-- exact same production successor PNG rebound;
-- `68 / 68` RGBA8 -> RGB8 retained pairs byte-identical;
-- changed pixels `0`;
-- full-mip texture footprint `1,398,100 B -> 1,048,575 B`;
-- exact saving `349,525 B`;
-- Runtime target-device acceptance remains `false`.
+### Weather
+
+Weather source ownership remains stable: PR #2 owns the visual-only baseline semantics and PR #3 owns the bounded seeded field family. Existing Map source-width receiver evidence already covers the retained Weather family without turning visual direction into physical wind. No Weather source or adoption change was required for this activation.
 
 ## Highest-leverage bounded Environment improvement
 
-Environment did **not** author another texture, rerender the same 68-frame world, retune cameras, move assets, duplicate QA judgment, or start another composition lane.
+The fresh owner handoff made one Environment-owned question higher leverage than another render or another source edit:
 
-The exact owner Materials workflow already rendered the production successor inside the retained multi-asset current world, and independent QA / Art / Runtime now converge on that same exact identity. Re-rendering merely to repeat the answer would add work without adding truth.
+**Can every exact Technical Art / Animation branch sample fit inside the existing east-rear Map reservation at the current world placement without moving the tree or disturbing the rest of the world?**
 
-Instead Environment added a new explicit, fail-closed **current-world rebind** on existing Map PR #51.
+Environment opened stacked Map PR #53:
 
-Result:
+`Environment: prove Nature branch motion fits east-rear reservation`
 
-`PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SUCCESSOR_ENVIRONMENT_CURRENT_WORLD_REBIND__OWNER_ART_QA_RUNTIME_IDENTITIES_CONVERGED__FINAL_ADOPTION_HELD`
+Exact head:
+
+`23decca57561ed8b77b3fa2e4d32faf854876d06`
+
+Base:
+
+- Map PR #51 branch;
+- exact base head `4826db5d3a595bbeefdfd58d5541b2d78247e290`.
+
+PR #53 is **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+
+The lane adds only a deterministic Environment composition gate, contract, documentation and workflow. It does **not** mutate the world scene.
 
 Reusable rule:
 
-**`ENVIRONMENT_REBIND_MAY_ACCEPT_AN_EXACT_REVIEWED_WORLD_SUCCESSOR_ONLY_WHEN_OWNER_ART_QA_AND_RUNTIME_IDENTITIES_CONVERGE__CURRENT_WORLD_RECEIVING_DOES_NOT_TRANSFER_TARGET_DEVICE_CLOSE_RANGE_OR_CANON_AUTHORITY`**
+**`DYNAMIC_NATURE_RECEIVERS_MUST_PROVE_THE_FULL_OWNER_SAMPLE_SWEEP_FITS_THE_EXISTING_WORLD_RESERVATION_BEFORE_ENVIRONMENT_REBIND__FITTING_THE_RESERVATION_DOES_NOT_GRANT_VISUAL_WIND_RUNTIME_OR_CANON_AUTHORITY`**
 
-New PR #51 files:
+## Exact result
 
-- `contracts/environment_building_utility_panel_production_successor_current_world_rebind.json`;
-- `tools/environment_building_utility_panel_production_successor_current_world_rebind.py`;
-- `docs/ENVIRONMENT_BUILDING_UTILITY_PANEL_PRODUCTION_SUCCESSOR_CURRENT_WORLD_REBIND_001.md`;
-- `.github/workflows/environment-building-utility-panel-production-successor-current-world-rebind.yml`.
+Result:
 
-The verifier requires exact convergence of:
-
-- the Materials owner head, artifact and production PNG;
-- the exact Art Direction packet/result;
-- the exact independent QA review ID, commit and reviewed image/artifact identity;
-- the exact Runtime run/head and representation measurements;
-- the retained Environment lineage and held multi-asset world identity.
-
-Its negative control deliberately fabricates the QA commit identity and must fail. This prevents a stale or unrelated review from becoming Environment receiving authority.
-
-## Hosted evidence
-
-Map PR #51 exact head:
-
-`4826db5d3a595bbeefdfd58d5541b2d78247e290`
-
-PR #51 remains **OPEN / DRAFT / UNMERGED / MERGEABLE**, directly stacked on unchanged Environment PR #49 head `07f04aa9b5d1620907240acb12c97759fd7c77f4`.
+`PASS_CURRENT_WORLD_NATURE_FIVE_PRIMARY_BRANCH_DIAGNOSTIC_SWEEP_FITS_EXISTING_EAST_REAR_RESERVATION__VISUAL_WIND_RUNTIME_ADOPTION_HELD`
 
 Hosted workflow:
 
-`35311238794 — Environment Building production successor current-world rebind`
+`35316390727 — Environment Nature five-branch reservation fit`
 
 Conclusion: **SUCCESS**.
 
-All substantive steps passed:
-
-1. exact Environment head / lineage verification;
-2. exact Materials owner artifact download and SHA binding;
-3. exact independent QA review + Runtime run fetch;
-4. exact Art Direction packet checkout;
-5. cross-owner convergence verifier;
-6. fail-closed fabricated-QA negative;
-7. evidence retention.
-
 Retained artifact:
 
-- ID `10532604901`;
-- size `11,720 B`;
-- digest `sha256:18d80b8783e71a9588cf86bb383eaf8ec8e803f35002a363557c2fda8fb427f3`.
+- ID `10535301248`;
+- size `9,939 B`;
+- SHA-256 `e472eeba90743100f64db3af54d2b8c5a10f4b92c65269103c71b299a1390dbc`.
 
-## Current Environment receiving choice
+The verifier reconstructs all `205` exact one-branch-at-a-time TA owner samples from the exact rigid GLB/oracle and the existing east-rear current-world placement.
 
-The exact production successor above is now the **current Environment receiving choice on PR #51**.
+Complete-sweep world bounds:
 
-That means Environment may compose with this exact reviewed production image identity instead of the diagnostic checker when PR #51 is the chosen candidate state.
+- min `[5.356427915746688, 1.322085834521753, -1.9174166698832096e-08] m`;
+- max `[6.822386084253311, 2.6783013306957404, 4.090100405190043] m`.
 
-It does **not** mean final product / CANON adoption.
+Existing Environment reservation remains sufficient:
 
-Scalar and checker controls remain retained as diagnostic / rollback evidence rather than being rewritten away.
+- minimum non-ground reserved-envelope margin: `0.10643941574668858 m`;
+- numeric ground residual: `-1.9174166698832096e-08 m`, inside the existing `1e-6 m` numeric tolerance;
+- no Environment placement change required.
 
-## Real-world composition identity held
+Independent coarse composition guards remain positive across the complete exact sweep:
 
-The rebind is grounded in the already-rendered real current-world evidence spanning multiple asset classes:
+- readable-path X separation: `3.8564279157466883 m`;
+- Building Y separation: `3.4016986693042597 m`;
+- compact-east Nature Y separation: `4.067127964443227 m`;
+- articulated Object X separation: `8.357930889164301 m`.
 
-- Building `header-segmented-23`, `184 vertices / 276 triangles / 5 surfaces`, corrected utility-panel placement;
-- articulated Object at exact owner sample `40`;
-- current compact-east Nature receiver;
-- current east-rear Nature receiver;
-- current Weather source-width presentation;
-- existing +20 mm Environment Object service-frame successor;
-- existing `path_eye` and `elevated_oblique` cameras;
-- existing lighting.
+The exact retained current-world identity remains held through the parent evidence:
 
-No unrelated Building / Object / Nature / Weather / dressing / camera / light identity was changed by this rebind.
+- current Building production receive;
+- articulated Object;
+- compact-east Nature receiver;
+- east-rear Nature receiver;
+- 17 Weather states / current source-width presentation;
+- +20 mm Environment Object service dressing;
+- existing cameras and lighting.
 
-Direct Environment parent PR #49 remains unchanged. Historical Environment PR #24 remains rollback lineage.
+A fail-closed negative contracts the rear Environment reservation by `0.20 m` and is correctly rejected with `-0.034228831 m` escape.
 
-## Scope / handoff recorded
+## Scope / handoffs recorded
 
-Map PR #51 handoff comment:
+Nature Technical Art PR #3:
 
-`5725695555`
+- comment `5726312104`;
+- records exact TA/Animation/Rigging/UC identities consumed, the 205-sample spatial PASS, workflow/artifact, and the no-authority-transfer boundary.
 
-It records the exact owner / Art / QA / Runtime identity convergence, hosted workflow and artifact, held world composition, production successor as the current Environment receiving choice, checker/scalar rollback continuity, and the remaining authority boundaries.
+Map parent PR #51:
 
-## Remaining holds
+- comment `5726313648`;
+- records that PR #51 is unchanged and remains the parent/rollback point while PR #53 proves only Nature spatial receive readiness.
+
+Nature Rigging PR #14:
+
+- comment `5726315890`;
+- records that the newer shared-driver head is **not** consumed by this PASS and still needs an explicit downstream rebind chain.
+
+## Decision / remaining holds
+
+`spatial_receive_ready=true` for the exact pinned TA/Animation receiver above.
 
 `environment_adoption=false` remains explicit.
 
 Still **not** established:
 
+- visual quality / Art Direction acceptance of the branch motion in the current world;
+- independent Visual QA acceptance of that motion;
+- simultaneous multi-branch motion;
+- natural wind timing or VFX behavior;
+- adoption of the newer Rigging shared-driver / VFX chain;
+- Runtime target-host shaded equivalence for a new Environment rebind;
 - Runtime target-device acceptance;
-- generic RGB8 policy outside this exact successor;
-- arbitrary close-range anti-banding acceptance;
-- final normal / roughness / weathering / decal surface-stack acceptance;
-- Building source-geometry or source-UV authority expansion;
-- arbitrary-camera equivalence;
-- gameplay, collision or navigation readiness;
+- collision or navigation readiness;
+- gameplay readiness;
+- arbitrary-camera behavior;
 - CANON;
 - production/game readiness;
 - Environment mastery.
 
-Those gates are not inferred from current-world receiving success.
+The next legitimate Environment step is **not** to move the tree or enlarge its reservation. The exact diagnostic receiver already fits. A future receive should use the exact owner chain that actually closes the remaining TA/Animation/VFX/Runtime boundary, then create a real current-world visual review surface without borrowing approval from this spatial PASS.
 
 ## Four-root check
 
-**Truth:** the previous HOLD was not silently flipped. A fresh exact rebind receipt was created only after the independent QA review existed, and the hosted negative proves a fabricated QA identity is rejected. Current-world receiving is distinguished from target-device, close-range and final-product adoption.
+**Truth:** the gate evaluates the full exact 205-sample owner sweep and retains a negative control that genuinely fails when the reservation is too small. The tiny ground residual is reported as numerical tolerance, not hidden or retold as physical clearance.
 
-**Agency / non-domination:** Materials still owns the surface, Art Direction owns direction, Visual QA owns independent visual judgment, Runtime owns target-device / representation authority, and Environment owns only world-composition receiving. No one lane is allowed to self-grant the others' authority.
+**Agency / non-domination:** Environment owns only the world reservation and receiving decision. Technical Art keeps transport authority; Animation keeps timing/motion authority; Rigging keeps deformation ownership; VFX/Weather keep visual-response semantics; Runtime keeps device/performance authority; Art/QA keep visual judgment.
 
-**Continuity:** the scalar/checker controls remain retained; PR #49 remains the direct Environment parent; PR #24 remains historical rollback; the prior HOLD remains in Git history; exact source/artifact/image identities are carried forward rather than rewritten.
+**Continuity:** PR #53 is stacked exactly on PR #51. Building, Object, compact-east Nature, Weather, dressing, cameras and lights stay held. PR #49 and PR #24 remain rollback lineage. Newer Nature owner chains are not silently substituted for the pinned one.
 
-**Wisdom before speed:** because the exact owner three-way already rendered the successor in the real multi-asset world, Environment did not spend another lane duplicating the same 68-frame render. It added the smallest missing proof: an executable convergence/rebind boundary that says precisely what is accepted now and what is still held.
+**Wisdom before speed:** because Technical Art had already proven all 205 target-engine samples, Environment did not duplicate that target-host proof or invent a new wind controller. It answered the smallest missing world-composition question first: whether the complete proven motion can physically fit the existing reservation without a world rewrite.
 
 The four AXM roots remain the merge gate.
