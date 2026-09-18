@@ -2,148 +2,137 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_RUNTIME_DYNAMIC_WINDOW_CURRENT_UC_GODOT_PARTIAL_VERTEX_RECEIVER / NATURE_TA_PR3_HEAD_DA60CD49_DRAFT_MERGEABLE / RUNTIME_OWNER_6D89E1FC / TESTED_UC_5C5D2CFD / FRESH_UC_724DDE63_PROCEDURAL3D_BYTE_IDENTICAL / 390_VERTICES_570_TRIANGLES / WINDOW_110_370 / 3120B_PARTIAL_VS_4680B_FULL / 33_333333_PERCENT_REDUCTION / FIVE_OF_FIVE_RENDER_IDENTICAL / RUN_35318777686_SUCCESS / ARTIFACT_10535719088_274329B_24_FILES_SHA_A2E62A18 / UC_PRODUCT_UNCHANGED / HOLD_DEVICE_PERFORMANCE_PHYSICAL_WIND_TIMING_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_NATURE_RUNTIME_SHADER_NORMAL_TRANSPORT_CURRENT_UC_GODOT / NATURE_TA_PR3_HEAD_1CD1784C_DRAFT_MERGEABLE / RUNTIME_PASS54_520068E1 / CURRENT_RUNTIME_208CB302_SHADER_BUILDER_BLOB_IDENTICAL / CURRENT_UC_520584C8 / 390_VERTICES_390_NORMALS_570_TRIANGLES / TEN_VERTEX_ID_RUNS / FIVE_POSES / CORRECTED_0_PIXELS_GT1_LSB_VS_POSITION_ONLY_NEGATIVE_11027 / RUN_35327290926_SUCCESS / ARTIFACT_10539392132_SHA_0CE6615B / UC_PRODUCT_UNCHANGED / HOLD_TANGENTS_LOOKDEV_DEVICE_PERF_TIMING_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, the Nature design constellation, Runtime/VFX/Rigging ownership, the existing Nature Technical Art lane, and fresh `axm-universal-creation`.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, the Nature design constellation, current Runtime / Animation / VFX ownership, the existing Nature Technical Art lane, and fresh `axm-universal-creation`.
 
-`axm-create-me` remains **coordination only**. Product and target-evidence changes stayed on the existing Nature Technical Art PR #3. The merge gate remains **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product, renderer, target-observer, and test implementation stayed in the existing Nature Technical Art PR #3. The merge gate remains **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Highest-leverage bounded gap
 
 Selected path:
 
-**Runtime-owned Nature dynamic position window -> existing Nature Technical Art target receiver -> generic UC GLB -> real Godot 4.7.2 `ArrayMesh.surface_update_vertex_region` partial update**.
+**Runtime pass-54 compressed position-only shader carrier -> Technical Art proof-normal direction transport -> generic current UC GLB -> real Godot 4.7.2 target observation**.
 
-Runtime already owned the smaller update packet. The missing Technical Art fact was whether that exact packet/window could update a real imported target receiver while remaining equivalent to a corresponding full target-host control, without teaching UC what Nature, wind, a branch, or Runtime update policy means.
+Runtime had already proved the compressed one-surface shader carrier and explicitly retained **deformed normal/tangent correctness as unproven**. Its generated shader transformed `VERTEX` only. The missing cross-repo Technical Art contract was therefore renderer-facing normal-direction transport, not another Runtime representation lane and not a new UC capability.
 
-No duplicate Runtime, VFX, Geometry, or UC lane was opened.
+The current Animation/Runtime rebind lane was already active elsewhere, so this activation did not duplicate it.
 
-## Exact lane and owner/test pins
+## Exact lane and pins
 
 Repository: `mike-axiom-mir/axm-nature-design`
 
 Existing Technical Art PR #3:
 - branch `studio/uc-nature-surface-bridge-001`;
-- exact successful head **`da60cd491ac7f9ac04f918dd000f464a627b3316`**;
+- exact successful head **`1cd1784cbc2d0fb5ffdf23e9e2d9a50b50d90641`**;
 - state: **open / draft / unmerged / mergeable**.
 
 Consumed identities:
-- Runtime owner **`6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`**;
-- VFX owner **`ba1c12dd527f1ecc6a0eb4bc0b4322f15ccad475`**;
-- Rigging owner **`754797a815266a643c6b08f1606eb76ba95dd8c6`**;
-- tested generic UC donor **`5c5d2cfdc3aa4e9462fd4d5ec5bc7874f12674a4`**;
-- source digest **`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**;
-- migrated mesh digest **`aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`**;
-- UC surface SHA-256 **`c4babaacd8cf9c7f07366db83d4462d73304f5b1a1dd23a0a444e5b4b8bc9c28`**;
-- tested-UC receiver GLB SHA-256 **`d19515a6bbb9905aaf4a36f50453cc07f9c7be2ab9dc10a7ebbca97f8fbcd01f`**.
+- Runtime semantic owner **`6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`**;
+- exact Runtime pass-54 shader candidate **`520068e1167f369b24e749831954f9bda1cd7aec`**;
+- Runtime shader-builder blob **`3214d7198d20e80a2cb7da81eb31c272092f1fd0`**;
+- current Runtime PR #20 head observed after selection **`208cb30243c9b464ff1d1c4fd0f606b220af4ea6`**;
+- the same shader-builder blob at that current Runtime head is still **`3214d7198d20e80a2cb7da81eb31c272092f1fd0`**;
+- fresh/current UC main **`520584c87071837e8dc1ff9a39da140f5efa229d`**;
+- UC `src/axm_uc/procedural_3d.py` blob **`cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`**;
+- current-UC receiver GLB SHA-256 **`d19515a6bbb9905aaf4a36f50453cc07f9c7be2ab9dc10a7ebbca97f8fbcd01f`**.
+
+The newer Runtime head adds the Runtime-owned current-Animation rebind. Technical Art records the unchanged shader-builder blob only as transport continuity; it does **not** inherit or seize the newer Animation/Runtime semantic claim.
 
 ## Smallest reusable repair
 
 No UC product code changed.
 
-The final repair touched the existing Nature-local target observer `target-proof/observe_dynamic_window_update.gd`.
+Added Nature-local Technical Art tooling that consumes the exact Runtime-generated shader instead of duplicating its five-group / ten-run selection logic. It fails closed if the Runtime shader shape drifts, if Runtime starts writing `NORMAL` itself, or if the bounded proof is inflated into generic Nature/UC normal policy.
 
-The failed comparison had used source/oracle FLOAT positions for all 390 vertices in the full control, while the partial control retained Godot-imported target positions outside Runtime's `[110,370)` window. Real Godot import is only a bounded numeric observation of the UC FLOAT payload, not exact source-float identity, so those 130 out-of-window positions could differ slightly even though Runtime did not own them.
+The existing Runtime position transform is preserved exactly. Technical Art adds only proof-normal direction transport:
+- source/target map remains `[x,y,z] <-> [x,z,y]`;
+- use the **same source-space axis and angle** as the Runtime vertex transform;
+- rotate the normal as a direction vector;
+- **do not apply pivot translation** to the normal;
+- normalize after transport.
 
-The repaired receiver contract starts both controls from the same exact Godot-imported target baseline:
-- full target control = imported neutral target positions with only Runtime's exact dynamic window overlaid;
-- partial target control = the same imported neutral target positions plus that same window packet through `surface_update_vertex_region` at the exact byte offset.
+The debug material is explicitly `TECHNICAL_ART_NORMAL_DIRECTION_DEBUG_ONLY_NOT_NATURE_LOOKDEV`; it is unshaded and cull-disabled to isolate normal direction. The proof normals remain Technical-Art-generated receiver evidence, **not source or Materials authority**.
 
-The host-normalized full control is still compared to the owner/oracle control under the original unchanged **`0.0001 m`** import-observation envelope. No threshold was weakened, no owner geometry was rewritten, and target-host quantization was not promoted into source, Geometry, Runtime, or UC authority.
+## Exact real-target oracle
 
-The same `ArrayMesh` receiver resource is reused between the full and partial paths with `Mesh.ARRAY_FLAG_USE_DYNAMIC_UPDATE`.
+The exact current-UC receiver contains:
+- **390 positions**;
+- **390 normals**;
+- **570 triangles**;
+- one surface;
+- Runtime moving window `[110,370)` represented by **10 exact `VERTEX_ID` runs** across five groups.
 
-## Runtime window contract
+Real Godot starts from the actual imported receiver and evaluates the exact Runtime witnesses **`-5 / -2.5 / 0 / +2.5 / +5 deg`**.
 
-- receiver: **390 vertices / 570 triangles**;
-- position stride: **12 B**;
-- Runtime-owned half-open window: **`[110,370)` = 260 vertices**;
-- byte offset: **1320 B**;
-- partial packet: **3120 B**;
-- full packet: **4680 B**;
-- saved bytes per position update: **1560 B**;
-- packet reduction: **33.33333333333333%**.
+For every witness it renders three paths:
+1. CPU analytic control using the imported neutral positions and normals;
+2. exact Runtime shader carrier plus the Technical Art normal-direction correction;
+3. retained negative: exact Runtime position-only deformation with normals left static.
 
-Existing negatives continue to reject window mutation and authority inflation into device/performance claims.
+This makes the observer discriminating without pretending the proof material is Nature lookdev.
 
-## Retained failed predecessors
+## Exact target-host result
 
-Workflow **`35317762026`** on TA head `4515630b...`: structural evidence passed but real Godot exposed a **91 / 630000 pixel** difference at `-5°`, maximum channel delta `1`. This revealed the source/oracle-vs-imported-baseline mismatch.
-
-Workflow **`35318601870`** on intermediate head `2ee0a266...`: reusing one receiver resource still produced the same 91-pixel discrepancy, proving resource identity was not the defect.
-
-Both failures remain historical evidence; neither was rewritten as green.
-
-## Exact real-target result
-
-Dedicated workflow **`35318777686` — SUCCESS** on Python 3.11 and 3.13. The Python 3.11 lane exercised real **Godot 4.7.2**, GL Compatibility, headless target rendering.
+Dedicated workflow **`35327290926` — SUCCESS**. The exact-head build, owner/UC identity checks, authority-inflation negative, pinned Godot 4.7.2 setup, real target render, receipt validation, and evidence retention all passed.
 
 Target state:
 
-**`PASS_NATURE_EAST_REAR_CURRENT_UC_GODOT_PARTIAL_VERTEX_WINDOW_RECEIVER`**
+**`PASS_NATURE_RUNTIME_SHADER_NORMAL_TRANSPORT_CURRENT_UC_GODOT`**
 
-Observed facts:
-- imported vertices **390**;
-- imported triangles **570**;
-- imported-neutral max owner/oracle distance **`2.8440980705202183e-06 m`**;
-- imported-neutral max component delta **`1.9073486328125e-06 m`**;
-- **389 / 390** imported vertices differ at exact-float level, therefore exact source numeric identity is explicitly **not claimed**;
-- unchanged import-observation envelope **`0.0001 m`**;
-- real target API `ArrayMesh.surface_update_vertex_region`;
-- exact window `[110,370)`, offset 1320 B, partial 3120 B, full 4680 B;
-- all **5 / 5** retained driver poses: full-vs-partial **0 changed pixels**, max channel delta **0**, byte-identical rendered output.
+Across five 630,000-pixel target comparisons:
+- corrected Technical Art path: **0 pixels >1 LSB total** versus CPU normal control;
+- corrected maximum channel delta: **1 LSB**;
+- corrected absolute channel-delta sum: **454**;
+- Runtime position-only negative: **11,027 pixels >1 LSB total**;
+- negative maximum channel delta: **11 LSB** at ±5 degrees;
+- negative absolute channel-delta sum: **110,566**;
+- all **4 / 4 nonzero witnesses** discriminate in favor of corrected normal transport;
+- neutral remains observationally equivalent for both paths, as expected.
 
-This is an exact receiving-path proof for the five retained static driver witnesses. It is not a device-performance, physical-wind, continuous-animation, collision, or final-visual proof.
+The corrected path still has a small number of 1-LSB changed pixels (454 channel-delta sum over all poses), so exact pixel-byte identity is **not** claimed. The accepted bounded claim is zero pixels above 1 LSB and strong discrimination against the position-only negative.
+
+## Retained failed predecessors
+
+Workflow **`35326746797`** on TA head `347ec6dc...`: the builder packet itself was green, but the retained workflow verifier asked for stale key `uc.normals` instead of emitted `uc.normal_count`; Godot was skipped. Artifact **`10538164699`**, SHA-256 **`0fd1557ffd6a56988368dda9525a8fcfebc760c4e4fc729b9df5e158a087ecb0`**.
+
+Workflow **`35326929818`** on TA head `93e184d2...`: static validation and Godot setup were green, but the target observer stopped on a GDScript warning-as-error because a pixel-delta local inferred `Variant`. The repair was only an explicit `int` type. Artifact **`10538439656`**, SHA-256 **`391d9ac0bd11e714d0d443a2aab19f962e57204a3f1465c87c60f0f0a445c40f`**.
+
+Neither repair changed geometry, Runtime semantics, UC code, acceptance thresholds, or the target oracle.
 
 ## Same-head continuity
 
-On exact TA head **`da60cd491ac7f9ac04f918dd000f464a627b3316`**, all observed workflow families completed SUCCESS:
-- Nature baseline `35318777759`;
-- UC Nature surface bridge `35318777757`;
-- UC Nature source migration rebind `35318777758`;
-- UC Nature topology + target culling `35318777752`;
-- Nature primary-branch Animation target `35318777761`;
-- UC Nature dynamic-window target receiver `35318777686`.
+At final inspection, all **14 observed checks** on exact TA head **`1cd1784c...`** were completed with **no failure**, including baseline tests, UC bridge/source/topology paths, prior Animation target, prior Runtime dynamic-window receiver, and the new normal-transport target proof.
 
-The new Runtime-window target proof therefore does not revoke the earlier static, culling, source-migration, or Animation receiver evidence.
-
-## Fresh UC continuity boundary
-
-The target workflow is pinned to tested UC **`5c5d2cfdc3aa4e9462fd4d5ec5bc7874f12674a4`**.
-
-Fresh UC main is **`724dde638763253ba1d4cf93d13aaa9a4981e4bf`**. Its `src/axm_uc/procedural_3d.py` remains exact Git blob **`cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`**, byte-identical to the executable publisher module used by the tested donor. This is a module-continuity fact only; no fresh-current-main Godot rerun is claimed.
-
-**UC product code was not modified by Technical Art, and no Nature, Runtime, wind, branch, or Godot policy was centralized into UC.**
+The newest Runtime PR #20 head is not silently substituted into this exact target receipt. Its shader-builder executable blob is byte-identical, which is recorded as continuity only; its newer current-Animation rebind remains Runtime/Animation-owned.
 
 ## Retained successful evidence
 
-Artifact **`10535719088`**:
-- name `nature-east-rear-dynamic-window-target-da60cd491ac7f9ac04f918dd000f464a627b3316`;
-- **274,329 B**;
-- **24 files**;
-- uncompressed retained payload **447,744 B**;
-- SHA-256 **`a2e62a185a8f03adbdab1c09ebbb74fbdd8772a3f19c86f6e34df0e85e3a86bd`**;
-- local downloaded ZIP was independently rehashed to that same digest.
+Artifact **`10539392132`**:
+- name `nature-runtime-shader-normal-transport-1cd1784cbc2d0fb5ffdf23e9e2d9a50b50d90641`;
+- GitHub payload **443,086 B**;
+- **34 files**;
+- **521,177 B uncompressed**;
+- SHA-256 **`0ce6615bdff5d3a437ae964d5d18a2624444535b8bd9d9379d5902172564e6f7`**;
+- downloaded ZIP independently rehashed to the exact same digest.
 
-Correction note: the immediately preceding coordination-only status commit `a4a3bfff12c96787c67fe8a0389d1ee71d91b62d` carried stale artifact size/count/digest values from an earlier response snapshot. The GitHub artifact metadata and the downloaded archive agree on the values above; this entry supersedes that metadata without changing the technical PASS.
+The retained package includes all **15 target renders** (CPU control / corrected / position-only negative for five poses), exact heads/blob identities, source tooling, both diagnostic shaders, GLB, carrier oracle, Technical Art packet, Godot receipt, and logs.
 
-## Handoff / authority boundary
+## Authority boundary / HOLDs
 
-Technical Art proves only the exact target-host receiving contract for the Runtime-owned dynamic window.
-
-Nature owns source/form semantics. Rigging owns deformable partitions. Animation owns motion timing/clips. VFX owns physical/visual wind response. Runtime owns update scheduling, controller policy, device/performance budgets. Technical Art owns cross-repo identity binding, target representation, import/export, and exact receiver observation. Environment/Map owns receiving-world adoption. Art Direction and independent Visual QA own final look acceptance. UC remains generic capability infrastructure.
-
-## HOLDs
+Technical Art clears only the renderer-facing **proof-normal direction transport** blocker for the exact pass-54 shader carrier and current generic UC receiver.
 
 Still HOLD:
-- target-device frame-time / bandwidth / memory performance;
-- physical wind behavior and VFX acceptance;
-- continuous wall-clock Animation/VFX scheduling through this exact packet path;
-- collision, navigation, gameplay, or physics suitability;
-- final Nature material / foliage sidedness / lookdev;
+- tangent transport;
+- source- or Materials-authoritative final normals;
+- final Nature material / foliage / lookdev behavior;
 - Art Direction / independent Visual-QA acceptance;
+- physical wind/VFX semantics;
+- continuous Animation/VFX timing through this exact normal path;
+- target-device CPU/GPU/FPS/VRAM/heap/thermal/battery performance;
+- collision, navigation, gameplay, or physics suitability;
 - Map/default-world adoption;
 - CANON;
 - production/game readiness;
@@ -151,18 +140,18 @@ Still HOLD:
 
 ## Four-root check
 
-**Truth:** failed predecessors, target import quantization, tested UC, fresh UC module continuity, successful run, and non-claims are retained. The stale artifact metadata was explicitly corrected rather than silently kept.
+**Truth:** exact pass/fail runs, one-LSB residuals, discriminating negative, current/exact owner identities, and non-claims are explicit.
 
-**Agency / non-domination:** Runtime/VFX/Rigging/Animation/Environment/Art authority remains with its owner. Technical Art does not promote a receiver proof into downstream adoption, performance, visual, or CANON authority.
+**Agency / non-domination:** Runtime keeps shader representation/scheduling authority; Animation/VFX/Materials/Art/Map keep their domains. Technical Art does not turn a receiver proof into adoption or visual authority.
 
-**Continuity:** exact heads, source/mesh/surface/GLB identities, byte window, same-head regressions, failed runs, successful run, artifact ID and corrected digest are bound.
+**Continuity:** exact TA/Runtime/UC heads, executable blobs, GLB identity, failed predecessors, successful run, target metrics, and artifact digest are retained.
 
-**Wisdom before speed:** reused Nature PR #3 and generic UC publication; repaired only the target-host baseline contract exposed by evidence; no duplicate lane, no threshold weakening, no Nature centralization in UC.
+**Wisdom before speed:** repaired the smallest receiver-facing seam on the existing PR #3, reused the exact Runtime carrier, left UC generic, and refused to duplicate the active Runtime/Animation lane.
 
 ## Prior activation preserved
 
-The immediately prior full Animation-target status remains recoverable in `axm-create-me` git at commit **`226ecf05c52d80c15d99f80e1cf20e74d6fec771`**. It proved the five-primary-branch Animation -> UC -> real Godot receiver on TA head `b83c7d71...`, workflow `35312845639`, with 12 nodes / 620 triangles / 5 clips / 205 samples and retained artifact `10534795193`. That path reran successfully on the current TA head as workflow `35318777761`.
+The immediately preceding dynamic-window partial-update status remains recoverable in `axm-create-me` Git history. It proved `ArrayMesh.surface_update_vertex_region` equivalence on TA head `da60cd49...`, workflow `35318777686`, with 390 vertices / 570 triangles, exact `[110,370)` window, 3120 B partial packet versus 4680 B full control, and 5 / 5 byte-identical full-vs-partial renders.
 
 ## Current state
 
-`PASS_NATURE_RUNTIME_DYNAMIC_WINDOW_CURRENT_UC_GODOT_PARTIAL_VERTEX_RECEIVER / NATURE_TA_PR3_HEAD_DA60CD49_DRAFT_MERGEABLE / RUNTIME_OWNER_6D89E1FC / SOURCE_178CD8CF / MESH_AA9D450A / TESTED_UC_5C5D2CFD / FRESH_UC_724DDE63_PROCEDURAL3D_BLOB_CDB654D4_IDENTICAL / RECEIVER_GLB_D19515A6 / 390_VERTICES_570_TRIANGLES / WINDOW_110_370_260_VERTICES / OFFSET_1320B / PARTIAL_3120B_FULL_4680B_REDUCTION_1560B_33_333333_PERCENT / IMPORT_MAX_DISTANCE_2_844098E-6M / FIVE_OF_FIVE_FULL_PARTIAL_RENDER_BYTE_IDENTICAL / FAILED_RUNS_35317762026_35318601870_RETAINED / RUN_35318777686_SUCCESS / SAME_HEAD_SIX_WORKFLOW_FAMILIES_SUCCESS / ARTIFACT_10535719088_274329B_24_FILES_SHA_A2E62A18 / UC_PRODUCT_UNCHANGED / HOLD_DEVICE_PERFORMANCE_PHYSICAL_WIND_TIMING_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY`
+`PASS_NATURE_RUNTIME_SHADER_NORMAL_TRANSPORT_CURRENT_UC_GODOT / NATURE_TA_PR3_HEAD_1CD1784C_DRAFT_MERGEABLE / RUNTIME_OWNER_6D89E1FC / RUNTIME_PASS54_520068E1 / CURRENT_RUNTIME_208CB302_SHADER_BUILDER_BLOB_3214D719_IDENTICAL / CURRENT_UC_520584C8_PROCEDURAL3D_BLOB_CDB654D4 / RECEIVER_GLB_D19515A6 / 390_POSITIONS_390_NORMALS_570_TRIANGLES / TEN_VERTEX_ID_RUNS_FIVE_GROUPS / FIVE_DRIVER_POSES / CORRECTED_GT1_LSB_0_MAX_1_ABS454 / POSITION_ONLY_NEGATIVE_GT1_LSB_11027_MAX_11_ABS110566 / FOUR_OF_FOUR_NONZERO_DISCRIMINATING / FAILED_RUNS_35326746797_35326929818_RETAINED / RUN_35327290926_SUCCESS / ARTIFACT_10539392132_443086B_34_FILES_SHA_0CE6615B / ALL_14_OBSERVED_SAME_HEAD_CHECKS_NO_FAILURE / UC_PRODUCT_UNCHANGED / HOLD_TANGENTS_LOOKDEV_DEVICE_PERF_TIMING_CANON_PRODUCTION / COORDINATION_ONLY`
