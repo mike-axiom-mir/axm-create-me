@@ -2,170 +2,207 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_HINGE_SUCCESSOR002_CURRENT_UC_GODOT_TRIANGLE_TRANSPORT / OBJECT_TA_PR16_HEAD_F430D00D_DRAFT_MERGEABLE / HARD_SURFACE_A6D18B9F / GEOMETRY_96ABB283 / RIGGING_CF377074 / TESTED_UC_9609998D / CURRENT_UC_3028557D_EXECUTABLE_PATH_IDENTICAL / RUN_35304458319_SUCCESS / ARTIFACT_10531541834_SHA_5E1134D0 / HOLD_DEFAULT_ANIMATION_RUNTIME_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_NATURE_CURRENT_SOURCE_METADATA_SUCCESSOR_CURRENT_UC_GODOT_CULLING_CONTINUITY / NATURE_TA_PR3_HEAD_7F387A8C_DRAFT_UNMERGED_CURRENTLY_NONMERGEABLE / GEOMETRY_PR9_9B451BA1 / CURRENT_SOURCE_178CD8CF / PREDECESSOR_SOURCE_0ADF2CDE / CURRENT_UC_CE70D717 / RUN_35308354130_SUCCESS / ARTIFACT_10532088388_310432B_27_FILES_SHA_69479258 / UC_PRODUCT_UNCHANGED / HOLD_ADOPTION_MAP_DEFORMATION_RUNTIME_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current Technical Art status, active Object Hard-Surface / Geometry / Rigging / Animation / Runtime lanes, Object Technical Art PR #16, and fresh `axm-universal-creation` before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, this specialist status, the active Nature Technical Art / Geometry / Rigging / Animation lanes, current Runtime and Visual-QA status, the broader design constellation, and fresh `axm-universal-creation` before changing product evidence.
 
-`axm-create-me` remains **coordination only**. Product/evidence changes stayed on the existing Object Technical Art PR #16. The merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product/evidence changes stayed on the existing Nature Technical Art PR #3. The merge gate remains the four AXM roots: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Highest-leverage bounded gap selected
 
-The previous activation had already placed the source-owned phase-invariant bored hinge successor-002 onto the existing Object Technical Art receiver lane, but its exact workflow `35301316247` failed late in the real-Godot verification step.
+Nature Technical Art PR #3 already proved the explicit Nature source-generator winding migration through UC and Godot, but that proof was bound to an older Geometry/source-migration identity:
 
-That failed run retained enough evidence to diagnose the actual boundary instead of opening another lane or weakening a gate:
+- old source-migration donor: `4ddbe66e5c02d22407ef773d5346a2fe6f349a2d`;
+- old east-rear source digest: `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`;
+- old tested UC: `21e206fad99d53f6f01a9d3093b49e590cff7032`.
 
-- the Technical Art structural/current-UC rebind was green;
-- real Godot 4.7.2 imported the exact GLB and returned the expected five hinge components;
-- lid-owned knuckles moved under the review lid transform while body-owned knuckles stayed fixed;
-- the verifier failed only because it demanded imported triangle indices be byte-equal to the pre-import surface indices.
+Geometry PR #9 has since advanced to exact head **`9b451ba1f65281f550a6754e18574f7ab2951e28`** and explicitly rebound the migrated generator to the current Organic source successor. The current east-rear source digest is now **`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**. The owner-side source change is one exact metadata declaration only:
 
-The real target arrays showed a consistent receiver-local per-triangle transform:
+- id: `north-top-branch-flex`;
+- center: `[0.01, 0.0, 3.16]`;
+- radius: `0.12 m`;
+- status: `DECLARED_NOT_DEFORMATION_TESTED`.
 
-**`[a,b,c] -> [a,c,b]`**
+Geometry independently proved that this metadata successor still produces the same migrated east-rear mesh digest `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`, but Technical Art had not yet rebound that **new source identity** through its receiver bridge, fresh UC, and the real Godot culling observer. Transferring the previous TA PASS automatically would violate exact-input continuity.
 
-for every imported triangle in all five successor knuckles.
+The selected gap was therefore:
 
-The smallest non-overlapping repair was therefore to correct the **Technical Art evidence verifier** so it binds that exact receiving-path transform explicitly. No hinge source geometry, owner semantics, Geometry topology, Rigging authority, Animation, Runtime, UC product code, acceptance tolerance or visual threshold changed.
+**current Nature source metadata successor -> current Geometry migrated generator -> existing Technical Art bridge -> fresh UC -> real Godot target culling continuity.**
 
-## Exact identities
+This does not duplicate Geometry, Rigging or Animation work and does not interpret flex semantics.
 
-Technical Art:
+## Exact Technical Art lane
 
-- repository: `mike-axiom-mir/axm-object-design`;
-- existing PR #16 branch: `studio/technical-art-rigid-scene-handoff-001`;
-- exact tested head: **`f430d00d98e694dcf8302fd4df3c64a074f6f30e`**;
-- PR state after verification: **open / draft / unmerged / mergeable**.
+Repository: `mike-axiom-mir/axm-nature-design`
 
-Owner chain retained exactly:
+Existing PR #3:
 
-- Hard Surface successor-002 head: **`a6d18b9fe729304dc4d95d962ed27527adce211f`**;
-- Geometry successor topology head: **`96abb2830ddabca9ed270b42a9447534d007ce64`**;
-- Rigging successor compatibility head: **`cf377074f70ce7f7e386f1378c51705b3db4d305`**;
-- predecessor Technical Art head: **`dad13ce23a0fd8e0ec3e612ac1e72f01c5155284`**;
-- exact successor OBJ SHA-256: **`432c0474e3bd37f3017efc2ea146c98a3c1db943c471cfc0068ff2ff34e2ba22`**.
+- branch: `studio/uc-nature-surface-bridge-001`;
+- exact tested head: **`7f387a8cedb0c58f9951549c47835fadcdf12c1f`**;
+- state: **open / draft / unmerged**;
+- GitHub currently reports the PR **non-mergeable against its older stacked base**. This activation intentionally did not broaden into a rebase or lineage rewrite because the scoped integration proof is independent of that coordination problem.
 
-Universal Creation:
+Same-head workflow families observed after the final commit all completed SUCCESS:
 
-- exact UC used by the successful workflow: **`9609998db6677391766e9ee7ff53a5b9b08a3cb9`**;
-- fresh UC main inspected after the target proof: **`3028557dbd01a1423210ab0b2a3b7f9bedc5e226`**;
-- `src/axm_uc/rigid_scene_graph.py` exact Git blob at both heads: **`fada5e5e06e110b48c7c9886e6a7f73c5c3a2d44`**;
-- `src/axm_uc/procedural_3d.py` exact Git blob at both heads: **`cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`**;
-- therefore the executable UC modules used by this path are byte-identical between the exact tested UC and fresh current UC main;
-- **UC product code was not modified.**
+- `35308354180` — Nature organic form baseline;
+- `35308354229` — UC nature surface bridge evidence;
+- `35308354137` — UC nature topology + target culling evidence;
+- **`35308354130` — UC Nature source migration rebind evidence**.
 
 ## Smallest reusable repair
 
-Only `tools/verify_object_hinge_successor002_godot_transport.py` changed on the existing Technical Art branch.
+Only existing Technical Art evidence tooling changed:
 
-The verifier now:
+- `tools/build_uc_source_migration_rebind_evidence.py`;
+- `.github/workflows/uc-nature-source-migration-rebind.yml`.
 
-- keeps the unchanged **1e-6 m** POSITION transport gate;
-- keeps the exact five-component / 480-triangle requirement;
-- requires the imported target indices to match the exact per-triangle receiver-local transform `[a,b,c] -> [a,c,b]`;
-- explicitly requires that imported indices are **not falsely relabelled byte-equal to source indices**;
-- records the transform as an exact-path receiving fact;
-- explicitly records `universal_godot_winding_rule_claimed=false` and `generic_godot_or_uc_hinge_policy_claimed=false`.
+No Nature source file, Geometry generator, Rigging, Animation, Runtime, target observer, or UC product module was changed.
 
-This is evidence plumbing, not a universal renderer rule and not a new UC convention.
+The repaired evidence contract now:
 
-## Preserved failed predecessor
+1. binds exact current Geometry/source-migration head `9b451ba1...`;
+2. binds exact current source digest `178cd8cf...`;
+3. verifies the exact new `north-top-branch-flex` declaration;
+4. reconstructs the predecessor source by removing **only** that declaration;
+5. requires the reconstructed predecessor digest to equal exact historical source digest `0adf2cde...`;
+6. rebuilds predecessor and current source through the **same current Geometry generator**;
+7. requires both to produce exact migrated mesh digest `aa9d450a...`;
+8. runs both through the existing Technical Art Nature bridge;
+9. requires predecessor/current Technical Art surface payloads to be byte-equivalent;
+10. publishes both through exact fresh UC and requires predecessor/current GLBs to be byte-equivalent;
+11. records `automatic_downstream_adoption=false`, `technical_art_interprets_flex_semantics=false`, and `nature_flex_semantics_moved_to_uc=false`;
+12. retains the historical pre-migration source/mesh separately for the Godot culling A/B.
 
-Workflow **`35301316247`** at Technical Art head **`dc4a1dfd5eb9b9b59a8cd5391eb33fcb6d3912dd`** remains a genuine FAILURE.
+A deliberate negative changes only the owner flex radius from `0.12` to `0.13`; the contract rejects it as **`PASS_REJECTED_OWNER_METADATA_DRIFT`** rather than treating similar-looking metadata as equivalent.
 
-Its retained artifact:
+## Exact source-successor continuity
 
-- ID **`10530121989`**;
-- size **110,037 B**;
-- SHA-256 **`8749de44c37539bead8ad75b87baed1e55821f59681d27e94171d62bf8be740f`**.
+Scoped metadata-successor state:
 
-The failed run is preserved because it exposed the real distinction between pre-import surface index order and the exact Godot receiving representation. No threshold was loosened and no failed evidence was rewritten as green.
+**`PASS_NATURE_EAST_REAR_METADATA_SUCCESSOR_TRANSPORT_EQUIVALENCE`**
 
-## Exact current-UC + real-Godot proof
+Exact identities:
 
-Workflow:
+- current source digest: **`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**;
+- reconstructed predecessor source digest: **`0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`**;
+- current and predecessor generated migrated mesh digest: **`aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`**;
+- current and predecessor Technical Art surface digest: **`38f0d93dd079a1acff2e409dcfe0c18379b73a3f39d6674c95d6629d3c87d718`**;
+- current and predecessor fresh-UC GLB SHA-256: **`5c17b1bd220e4c2cdf40bad2bae50d209974e4faf2879c9076b4cdcf03ff7e8c`**;
+- migrated mesh byte-equivalent: **true**;
+- TA surface byte-equivalent: **true**;
+- current-UC GLB byte-equivalent: **true**.
 
-**`35304458319 — Object Technical Art hinge successor002 transport`: SUCCESS**
+This equivalence is deliberately narrow: it proves this exact owner metadata successor does not change the static geometry transport payload. It does **not** declare flex metadata generally irrelevant or authorize any deformation behavior.
 
-Both Python **3.11** and **3.13** jobs passed the bounded delta gate, complete Object regression suite, exact owner rebuilds, exact Rigging artifact bind, current-UC scene rebuild, successor replacement, and both fail-closed controls. The Python 3.11 lane additionally downloaded pinned Godot **4.7.2-stable**, imported the exact successor GLB, observed target arrays, and passed the repaired exact-path transport verifier.
+## Fresh Universal Creation boundary
 
-Scoped final result:
+Exact UC consumed by the successful workflow:
 
-**`PASS_OBJECT_HINGE_SUCCESSOR002_CURRENT_UC_GODOT_TRIANGLE_TRANSPORT`**
+**`ce70d717e381df6ca8a27c0c9fabe9d48bb1b23c`**
 
-Exact target facts:
+Relevant executable identities retained by the evidence:
 
-- successor hinge components: **5**;
-- triangles per knuckle: **96**;
-- aggregate successor hinge triangles: **480**;
-- target GLB SHA-256: **`f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`**;
-- exact imported index relation for all five components: **`[a,b,c] -> [a,c,b]`**;
-- source indices equal after import: **false** for every component;
-- maximum POSITION transport delta: **`6.329547414113401e-07 m`**, inside the unchanged `1e-6 m` gate;
-- review lid transform: **50° about target X**;
-- lid-owned hinge movement: **`0.413619339466095 m`** for both lid knuckles;
-- body-owned hinge movement: **`0.0 m`** for all three body knuckles;
-- Godot parentage/import state: **`PASS_OBJECT_HINGE_SUCCESSOR002_CURRENT_UC_GODOT_IMPORT_PARENTAGE`**.
+- `src/axm_uc/mesh_topology.py` blob: **`b82c812d9c98799d0ccefa416ba2bd8d813245ee`**;
+- `src/axm_uc/procedural_3d.py` blob: **`cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`**.
 
-The exact earlier structural receipt remains green as:
+The earlier TA proof used a different `mesh_topology.py` blob, so this activation did not infer current-UC continuity from module identity. It executed the full current path again against exact current UC. `procedural_3d.py` remains byte-identical to the earlier proven revision, while `mesh_topology.py` has advanced.
 
-**`PASS_OBJECT_HINGE_SUCCESSOR002_TA_SCENE_REBIND_TO_CURRENT_UC__HOLD_DEFAULT_RUNTIME_VISUAL`**
+**UC product code was not modified.** Nature source, branch, cap, leaf or flex semantics remain outside UC.
 
-with 26 unrelated primitives preserved byte-semantically, closed-state localization error `0.0 m`, and binary geometry payload preserved through the generic UC rigid-scene rebind.
+## Exact fresh-UC structural result
 
-## Fail-closed evidence
+Overall structural state retained by the existing target-observer contract:
 
-The exact successful workflow retains both deliberate negatives:
+**`PASS_SOURCE_GENERATED_MIGRATED_NATURE_THROUGH_CURRENT_UC_GLB`**
 
-- successor OBJ byte drift is rejected;
-- an authority-inflated contract that attempts `automatic_downstream_adoption=true` is rejected.
+All three current source-generated migrated Nature meshes remain green through fresh UC:
 
-The repaired target verifier also fails if the observed Godot index stream is neither source-identical nor the exact receiver-local transform expected for this receiving path.
+- `sapling-neutral-001`: mesh `47dd4d82651138299d05071df3e8a410f21f673ab8d42b936d7222eb5351b862`, 620 emitted triangles, 0 source orientation conflicts;
+- `compact-east-tree-neutral-001`: mesh `420135f6effbadb1b344675948b9ddc471dcb83177702888f0b32327c5121c18`, 620 emitted triangles, 0 source orientation conflicts;
+- `east-rear-tree-neutral-001`: mesh `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`, 620 emitted triangles, 0 source orientation conflicts.
+
+The historical east-rear control remains exact source digest `0adf2cde...`, mesh digest `d7fc5dea...`, with **260** source shared-edge orientation conflicts before the Geometry migration.
+
+## Real target-host proof
+
+Pinned target host: **Godot 4.7.2-stable (official)**.
+
+Exact target state:
+
+**`PASS_SOURCE_GENERATED_MIGRATION_TARGET_CULLING_REPRODUCED`**
+
+The target imports the exact fresh-UC GLBs and reproduces the earlier culling distinction on the **current source identity**:
+
+- `ground_oblique`, culling disabled, historical vs current migrated: **0 changed pixels**;
+- `high_oblique`, culling disabled, historical vs current migrated: **0 changed pixels**;
+- `ground_oblique`, backface culling, historical vs current migrated: **827 changed pixels**;
+- `high_oblique`, backface culling, historical vs current migrated: **1,225 changed pixels**;
+- current migrated backface-culling vs its own culling-disabled control: **0 changed pixels** in both views;
+- historical backface-culling vs its own disabled control: **827 / 1,225 changed pixels**.
+
+This proves the exact current source successor survives the Geometry -> TA -> fresh UC -> Godot path without losing the already-proven migrated culling behavior. It does not prove global outward-normal correctness or Map receiving-scene acceptance.
 
 ## Retained evidence
 
-Successful artifact:
+Workflow: **`35308354130` — SUCCESS**
 
-- ID: **`10531541834`**;
-- name: `object-technical-art-hinge-successor002-f430d00d98e694dcf8302fd4df3c64a074f6f30e`;
-- GitHub size: **111,795 B**;
-- archive contents: **37 files**;
-- GitHub SHA-256: **`5e1134d0ebdf786d04ae789a841493ce9cf684f16aedd7dbad597f2e02b3ad5e`**;
+Artifact:
+
+- ID: **`10532088388`**;
+- name: `nature-uc-source-migration-rebind-7f387a8cedb0c58f9951549c47835fadcdf12c1f`;
+- GitHub payload size: **310,432 B**;
+- archive contents: **27 files**;
+- GitHub SHA-256: **`6947925804caa7fcb9de843eb5a66c580fd15fe9d2d3990c970dfde99924a626`**;
 - independently downloaded/rehashed SHA-256: **exact same digest**.
 
-The retained packet includes the exact contract, exact owner receipts and successor OBJ, exact tested UC identity, baseline and successor surfaces/manifests/GLBs, Technical Art scene receipt, real-Godot target receipt, imported target arrays, final target transport receipt, both fail-closed controls and exact Technical Art head.
+The retained packet includes exact head bindings, current/predecessor source-successor evidence, current-UC executable blob identities, all three current source-generated GLBs/surfaces, the reconstructed predecessor-metadata GLB/surface, historical control GLB/surface, deliberate negative-control log, Godot target receipt, and eight retained culling comparison PNGs.
 
 ## Authority / non-overlap boundary
 
-- **Hard Surface:** source-successor geometry and source mechanical intent.
-- **Geometry:** successor topology-class evidence.
-- **Rigging:** coaxial/radial compatibility and rig authority.
-- **Technical Art:** exact receiver replacement, generic UC scene transport binding, target-host parentage/index/POSITION evidence and receiver-local convention recording.
-- **Animation:** motion timing/interpolation/adoption remains separate.
-- **Runtime / physics:** controller/device/performance/collision/physics acceptance remains separate.
-- **Art Direction / independent Visual QA:** appearance acceptance remains separate.
-- **Universal Creation:** generic surface + rigid scene machinery only; no Object hinge or Godot-domain policy added.
+- **Organic Form:** owns source form and the meaning of flex declarations.
+- **Geometry:** owns the source-generator winding migration and source-identity topology rebind.
+- **Rigging:** owns articulation/deformation socket evidence; it does not inherit this TA transport PASS automatically.
+- **Animation:** owns timing/playback. Current Animation evidence remains a separate exact-input lineage and is not silently promoted by this activation.
+- **Technical Art:** owns exact source/receiver provenance binding, Nature -> UC surface transport, target-host import/culling observation and fail-closed integration evidence.
+- **Environment / Map:** owns actual receiving-scene replacement, composition and default adoption.
+- **Runtime:** owns target-device/runtime/controller/performance acceptance.
+- **Art Direction / independent Visual QA:** owns visual acceptance.
+- **Universal Creation:** remains generic topology inspection + deterministic publication machinery; no Nature-specific policy added.
 - **`axm-create-me`:** coordination/status only.
 
 ## Explicit HOLDs
 
-This PASS clears the **successor-002 exact receiver -> generic UC -> Godot target transport evidence defect**. It does **not** make successor-002 the default Object source, automatically adopt it downstream, prove the current Animation sequence over this exact successor representation, prove Runtime/physics/device behavior, prove full articulated collision or axial retention, establish a universal Godot winding/front-face rule, provide final Materials/Art/Visual-QA acceptance, authorize CANON, or mark production/game readiness.
+This PASS clears the **current source metadata successor -> current Geometry migrated bytes -> Technical Art bridge -> fresh UC -> exact Godot culling continuity gap**.
+
+Still HOLD:
+
+- source/default merge or adoption;
+- Map receiving-scene replacement and normal/culling acceptance;
+- interpreting the new flex declaration as source/biological ROM;
+- Rigging/VFX/Animation deformation adoption over this exact migrated lineage;
+- final normals/tangents/UVs/material/lookdev;
+- target-device Runtime/performance;
+- collision/navigation/gameplay suitability;
+- final Art Direction / independent Visual QA;
+- CANON;
+- production/game readiness.
 
 ## Prior lineage preserved
 
-The preceding Building current-receiver UV/image status remains preserved in git history at status blob **`d114866d7857719db48fe9552ca324e295718a1a`**. No earlier Building PASS/HOLD is revoked; this activation changes the current specialist focus because the existing Object Technical Art lane had a concrete failed target proof that could be repaired without duplicating another specialist's work.
+The previous Object hinge successor-002 TA status remains preserved in git history at status blob **`b641fa0c44f43861bfa1db649605d4379d48c15e`**. Its scoped PASS is not revoked. This activation moved to Nature because the design constellation exposed a newer exact-input continuity gap on an already-existing Technical Art lane.
 
 ## Four-root check
 
-**Truth:** preserved the failed predecessor, diagnosed the actual target representation, kept source/import index identity distinct and reran real Godot before promotion.
+**Truth:** did not inherit the old TA PASS onto a changed source identity; rebuilt the current source, reconstructed and verified the exact predecessor relation, executed fresh UC, reran real Godot, retained a deliberate negative, and preserved the historical control.
 
-**Agency / non-domination:** owner domains remain separate; no source default, downstream adoption, Runtime, visual or CANON authority was silently granted.
+**Agency / non-domination:** Organic/Geometry/Rigging/Animation/Environment/Runtime/Art authority remains separate; no flex meaning, source default, visual acceptance or downstream adoption was silently granted.
 
-**Continuity:** exact owner heads, successor bytes, UC executable blobs, failed and successful workflows, GLB identity, target arrays and retained archive are all bound.
+**Continuity:** exact current/predecessor source digests, current Geometry head, fresh UC head/blobs, TA head, mesh/surface/GLB identities, Godot observations, workflow and artifact are all bound.
 
-**Wisdom before speed:** one verifier-only repair closed a real evidence defect instead of changing geometry, loosening thresholds, rewriting UC, or starting a duplicate lane.
+**Wisdom before speed:** reused the existing Nature TA lane and bridge, adding only the missing provenance/equivalence contract and CI binding instead of changing source geometry, teaching UC Nature semantics, opening a duplicate lane, or broadening into a risky rebase.
 
 ## Current state
 
-`PASS_OBJECT_HINGE_SUCCESSOR002_CURRENT_UC_GODOT_TRIANGLE_TRANSPORT / OBJECT_TA_PR16_HEAD_F430D00D_DRAFT_MERGEABLE / HARD_SURFACE_A6D18B9F / GEOMETRY_96ABB283 / RIGGING_CF377074 / TESTED_UC_9609998D / CURRENT_UC_3028557D_RIGID_SCENE_BLOB_FADA5E5E_PROCEDURAL3D_BLOB_CDB654D4_IDENTICAL / 5_KNUCKLES_480_TRIANGLES / MAX_POSITION_DELTA_6.329547E-7M / TARGET_INDEX_TRANSFORM_ABC_TO_ACB_EXACT / SOURCE_INDEX_BYTE_EQUALITY_FALSE / LID_MOVEMENT_0.413619339M / BODY_MOVEMENT_0 / RUN_35304458319_SUCCESS / ARTIFACT_10531541834_111795B_37_FILES_SHA_5E1134D0 / UC_PRODUCT_UNCHANGED / HOLD_DEFAULT_ANIMATION_RUNTIME_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY`
+`PASS_NATURE_CURRENT_SOURCE_METADATA_SUCCESSOR_CURRENT_UC_GODOT_CULLING_CONTINUITY / NATURE_TA_PR3_HEAD_7F387A8C / GEOMETRY_PR9_9B451BA1 / CURRENT_SOURCE_178CD8CF / PREDECESSOR_SOURCE_0ADF2CDE / MIGRATED_MESH_AA9D450A_IDENTICAL / TA_SURFACE_38F0D93D_IDENTICAL / UC_GLB_5C17B1BD_IDENTICAL / CURRENT_UC_CE70D717_MESH_TOPOLOGY_BLOB_B82C812D_PROCEDURAL3D_BLOB_CDB654D4 / GODOT_4_7_2 / BACKFACE_DELTA_827_1225 / MIGRATED_BACK_VS_DISABLED_0_0 / RUN_35308354130_SUCCESS / ARTIFACT_10532088388_310432B_27_FILES_SHA_69479258 / UC_PRODUCT_UNCHANGED / PR_DRAFT_UNMERGED_CURRENTLY_NONMERGEABLE / HOLD_ADOPTION_MAP_DEFORMATION_RUNTIME_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY`
