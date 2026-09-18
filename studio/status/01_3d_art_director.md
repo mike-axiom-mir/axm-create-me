@@ -170,6 +170,14 @@ Map Runtime PR #52 already explicitly retested this exact fully opaque successor
 
 No new Runtime representation work is requested by Art. Target-device acceptance remains open.
 
+## Exact handoffs
+
+- Building Materials PR #3 Art return: comment `5725013458`.
+- Map Environment PR #51 successor-rebind handoff: comment `5725014116`.
+- Map Runtime PR #52 representation-boundary return: comment `5725018014`.
+
+Independent Visual QA is explicitly requested in this status/direction packet; Art does not pre-author its judgment.
+
 ## Prior Art Direction continuity retained
 
 - Direction 038: repaired Object release-mote irregularity-v2 remains Art PASS in intended close/seam contexts.
