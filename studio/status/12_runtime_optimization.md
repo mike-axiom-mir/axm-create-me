@@ -1,36 +1,50 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-18
-State: **PASS_49_BUILDING_UTILITY_PANEL_OPAQUE_ALPHA_ELISION_RGB8 / RGBA8_MIPS_1398100_TO_RGB8_1048575 / TEXTURE_MEM_SAVE_349525_EXACT_ALL_68 / 68_OF_68_PIXEL_IDENTICAL / NON_OPAQUE_NEGATIVE_FAIL_CLOSED / HOLD_ART_QA_TARGET_DEVICE_GENERIC_POLICY**
+State: **PASS_50_BUILDING_PRODUCTION_SURFACE_OPAQUE_ALPHA_ELISION_RGB8_REBIND / RGBA8_MIPS_1398100_TO_RGB8_1048575 / TEXTURE_MEM_SAVE_349525_EXACT_ALL_68 / 68_OF_68_PIXEL_IDENTICAL / NON_OPAQUE_NEGATIVE_FAIL_CLOSED / SECOND_EXACT_SAME_SURFACE_OWNER_INSTANCE / HOLD_ART_QA_TARGET_DEVICE_GENERIC_POLICY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the preceding Runtime status, and fresh Art Direction / Animation / Technical Art / Environment / Visual QA state before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the preceding Runtime status, and fresh Art Direction / Materials / Visual QA / open-PR state before selecting work.
 
 `axm-create-me` remains **coordination only**. Runtime implementation and evidence for this pass live in `mike-axiom-mir/axm-map-design`. Universal Creation product code was not modified.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / non-overlap scan
+## Fresh constellation / duplicate-lane scan
 
-Pass 48 already owns Object static-component successor continuity in Map Runtime PR #47, so Runtime did **not** open a duplicate batching lane. Object VFX MultiMesh remains separately bounded and independently visually accepted on its retained evidence, Animal key reduction remains held for its own Art/QA boundary, and current Weather presentation remains an Art/VFX question rather than a Runtime retune request.
+Pass 49 already owns the Building utility-panel opaque-alpha representation in Map Runtime PR #52, so Runtime did **not** open a second texture-memory lane. Pass 48's Object static-component successor continuity remains in PR #47; Object VFX MultiMesh, Animal key reduction, joint-index width and earlier lanes remain separately bounded and were not reopened.
 
-The strongest fresh Runtime-owned gap came from Environment PR #51. Environment has now consumed the exact Technical Art + Materials utility-panel UV/image binding in the real current Map/Godot world and retained a 68-pair A/B. That evidence explicitly measured the new exact texture cost as:
+The fresh owner change came from Building Materials PR #3. Art Direction had explicitly held the checker as diagnostic material language and said that, if a later production-surface successor remained fully opaque, Runtime could explicitly rebind and retest the pass-49 RGB8 rule rather than infer transfer by ancestry.
 
-- `+576 B` renderer buffer memory;
-- `+1,398,100 B` texture memory at every observation.
+Materials has now produced exactly that successor:
 
-Environment deliberately left Runtime/device acceptance false. The exact owner image is a `512 × 512` PNG whose decoded RGBA8 identity is already owner-bound by Technical Art.
+`utility_panel_ochre_production_surface_001`
 
-Runtime therefore selected a narrow reusable import/runtime-budget question instead of changing art, UVs, material values or world composition:
+Exact Materials head:
 
-**Can the exact receiving texture safely drop an unused alpha channel if — and only if — every owner alpha sample is proven fully opaque?**
+`75bf511be8a89778ab40868707a68e80a210608a`
 
-## Selected bounded improvement — pass 49
+Materials evidence establishes:
+
+- `512 × 512 RGBA8`;
+- serialized PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
+- decoded RGBA8 SHA-256 `408a6eaecf99fa328487785f85d089c93da2b84c3ae9ead0bf6e1f8d2a0bdcad`;
+- all `262,144` alpha samples equal `255`;
+- same utility-panel scalar metallic `0.18` / roughness `0.62` and existing Technical-Art UV transport;
+- exact current-world three-way workflow `35303626025` — SUCCESS;
+- retained owner artifact `10531260523`, SHA-256 `75369c8d71ce5491eec2e058ecacc56948ca94662cc0b34d123b82273f2b4b8b`;
+- Runtime acceptance explicitly remained false in the owner handoff.
+
+That made one bounded Runtime question both fresh and non-duplicative:
+
+**Does pass 49's opaque-alpha RGB8 receiving representation still produce the same measured memory saving and exact retained raster when rebound to the new Materials-owned production surface?**
+
+## Selected bounded improvement — pass 50
 
 Repository: `mike-axiom-mir/axm-map-design`
 
-New draft Runtime PR: **#52 — `Runtime: elide opaque utility-panel alpha channel`**
+Existing draft Runtime PR: **#52 — `Runtime: elide opaque utility-panel alpha channel`**
 
 Runtime branch:
 
@@ -38,95 +52,97 @@ Runtime branch:
 
 Exact tested Runtime head:
 
+`cb4a4c7b4b8e77eba1195f0032d318d27588fd12`
+
+Runtime parent / historical pass-49 head:
+
 `1afa51cb89b536db0d2434328722a1521febe0ad`
 
-Exact Environment parent head:
+Exact Materials owner head:
 
-`595df99daf866b5e3dcaa4be87eeb650af637919`
+`75bf511be8a89778ab40868707a68e80a210608a`
 
-At final verification PR #52 is **open / draft / unmerged / mergeable**.
+At final verification PR #52 remains **open / draft / unmerged / mergeable**.
 
 Scoped result:
 
-**`PASS_BUILDING_UTILITY_PANEL_RGB8_TEXTURE_MEMORY_REDUCTION__RASTER_EQUIVALENT_RETAINED_68__HOLD_ART_QA_TARGET_DEVICE_GENERIC_POLICY`**
+**`PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_RGB8_REBIND__EXACT_349525B_TEXTURE_SAVE_ALL_68__PIXEL_IDENTICAL__HOLD_ART_QA_TARGET_DEVICE_GENERIC_POLICY`**
 
-The change is receiving representation only. It does not reauthor the source PNG, UV mapping, Building geometry, material metallic/roughness, Environment composition, cameras, Weather, Nature or articulated Object state.
+This pass changes receiving representation only. It does not reauthor the Materials source PNG, production-surface recipe, UV mapping, Building geometry, metallic/roughness values, Environment composition, cameras, Weather, Nature or articulated Object state.
 
-## Measure-before — exact owner and Environment baseline
+## Measure-before — exact production owner and RGBA8 baseline
 
-Exact Environment baseline:
+The exact production-surface owner remains fully opaque:
 
-- PR #51 head `595df99daf866b5e3dcaa4be87eeb650af637919`;
-- workflow `35300420073` — SUCCESS;
-- artifact ID `10529154954`;
-- artifact SHA-256 `3e102488b5e85766ddae4b6b83e44a6347171cbd8d8f6961486c8c3774a608c7`;
-- exact material-bound current-world scene texture memory `15,671,915 B` at every retained observation;
-- exact material texture contribution above the scalar control `1,398,100 B`.
-
-Exact owner texture identity:
-
-- dimensions: `512 × 512`;
-- serialized PNG SHA-256 `e932cdd94d370184c7361862d5064149cc193e3a8fd80b269cab6543c0919198`;
-- decoded RGBA8 SHA-256 `02f8f464eabc734a3be687a7706edf8b8f62ece834fa981c8c993fbb8227bb4b`;
-- decoded RGB8 SHA-256 `f515fe2a52a5356e1e8e1dfe560e20b53c3dff184047a05059d189ae6cd60192`;
-- alpha samples inspected: **262,144 / 262,144**;
+- alpha sample count: **262,144**;
 - alpha minimum: **255**;
 - alpha maximum: **255**.
 
-Therefore the exact owner texture contains no meaningful alpha information in this representation.
+Runtime independently derives and hash-binds the RGB8 payload:
 
-Raw payload facts before target-host measurement:
+- decoded RGB8 SHA-256 `222f72229db1f79e8222f536d4124655c14f9fe96fc316cddfe13c8decc294ae`.
+
+Raw representation budgets before Godot measurement:
 
 - RGBA8 base level: `1,048,576 B`;
 - RGB8 base level: `786,432 B`;
 - RGBA8 full mip chain: `1,398,100 B`;
 - RGB8 full mip chain: `1,048,575 B`;
-- theoretical exact payload saving: **349,525 B / 25%**.
+- candidate full-mip saving: **349,525 B / 25%**.
 
-These numbers were treated only as a candidate budget opportunity until real Godot evidence completed.
+The exact Materials current-world RGBA8 baseline measures scene texture memory at **15,671,915 B** for every retained observation. The theoretical payload math was not promoted until the fresh Runtime/Godot A/B completed.
 
-## Runtime representation
+## Runtime representation / continuity gate
 
-Pass 49 adds a bounded receiver path that:
+Pass 50 reuses the pass-49 rule only after rebinding every relevant identity:
 
-1. hash-binds the exact serialized owner PNG;
-2. reloads and hash-binds the exact RGBA8 owner payload;
-3. checks every alpha byte and rejects the representation if any sample is not `255`;
-4. converts only the receiving `Image` to RGB8;
-5. hash-binds the exact RGB8 payload;
-6. regenerates the full mip chain;
-7. uses the same UVs, material scalars and current-world receiver as the Environment RGBA8 baseline.
+1. exact Materials production-surface head;
+2. exact owner serialized PNG;
+3. exact decoded RGBA8 payload;
+4. exact derived RGB8 payload;
+5. all-alpha-255 precondition;
+6. exact existing current-world Technical-Art UV/image transport;
+7. exact current-world world/camera/light/Object/Nature/Weather dependencies;
+8. fresh RGBA8 baseline frames from the Materials owner artifact.
 
-No generic “opaque textures should be RGB8” policy is inferred from this one asset.
+The candidate converts only the receiving Godot `Image` from RGBA8 to RGB8 and regenerates the same full mip chain.
+
+No checker raster or checker acceptance is reused as visual proof for the new production surface.
 
 ## Real Godot before / after evidence
 
 Dedicated workflow:
 
-**`35301057478 — Runtime Building utility-panel RGB8 alpha elision` — SUCCESS**.
+**`35304987658 — Runtime Building production-surface RGB8 alpha elision` — SUCCESS**.
+
+Exact workflow head:
+
+`cb4a4c7b4b8e77eba1195f0032d318d27588fd12`
 
 Pinned proof host:
 
 - Godot `4.7.2`;
 - GL Compatibility / X11;
-- same retained current-world composition and the same 68 observation/render slots as the exact Environment baseline.
+- exact Materials production-surface current-world baseline;
+- same retained 68 observation/render slots.
 
 Measured result at **all 68 retained observations**:
 
 - scene texture memory: **`15,671,915 B → 15,322,390 B`**;
 - exact saving: **`349,525 B` every time**;
-- retained proof-host total texture-memory reduction: **2.2303%**;
-- exact utility-panel texture full-mip footprint: **`1,398,100 B → 1,048,575 B`**, **25% lower**;
-- renderer buffer-memory delta: **`0 B`**;
-- draw calls: **unchanged**;
-- objects in frame: **unchanged**;
-- primitives in frame: **unchanged**.
+- retained proof-host scene texture-memory reduction: **2.2303%**;
+- exact owner texture full-mip footprint: **`1,398,100 B → 1,048,575 B`**, **25% lower**;
+- scene buffer-memory delta: **`0 B`** at every observation;
+- observed buffer-memory states remain exactly `6,686,200 B` and `6,688,504 B` before/after according to frame state;
+- draw-call delta: **0**;
+- objects-in-frame delta: **0**;
+- primitives-in-frame delta: **0**.
 
-The measured renderer saving exactly matches the alpha-channel payload removed from the full mip chain. Runtime does not reinterpret that proof-host result as target-device VRAM/FPS acceptance.
+The measured scene texture-memory saving exactly equals the removed alpha-channel mip payload. This is proof-host evidence only; no target-device VRAM/FPS/thermal claim is inferred.
 
 ## Visual tradeoff for Art Direction / Visual QA
 
-The exact RGBA8 Environment baseline and RGB8 Runtime candidate were compared over all **68 retained current-world PNG pairs**.
+Fresh RGBA8 Materials-owner frames and RGB8 Runtime frames were compared over all **68 exact current-world pairs**.
 
 Observed:
 
@@ -137,76 +153,90 @@ Observed:
 
 Recorded visual tradeoff:
 
-**`NONE_OBSERVED__68_OF_68_RETAINED_CURRENT_WORLD_PAIRS_BYTE_IDENTICAL__ART_QA_AND_TARGET_DEVICE_STILL_HELD`**
+**`NONE_OBSERVED__68_OF_68_PRODUCTION_SURFACE_CURRENT_WORLD_PAIRS_BYTE_IDENTICAL__ART_QA_TARGET_DEVICE_HELD`**
 
-The real tradeoff is semantic rather than raster-visible: the candidate is valid only while this exact owner texture is fully opaque. A future source revision with meaningful alpha must retain an alpha-capable representation and must not inherit this PASS.
+The remaining tradeoff is representational/semantic rather than raster-visible: the alpha channel is absent in the Runtime representation. That is valid only while the exact owner texture proves fully opaque. Any owner revision with meaningful alpha must reject this path and retain an alpha-capable representation.
 
-Art Direction and independent Visual QA are not forced to adopt or promote the candidate simply because retained proof pixels are identical.
+Art Direction and independent Visual QA retain acceptance authority. Pixel identity does not auto-promote the production material, Environment adoption or CANON.
 
 ## Fail-closed evidence
 
-The dedicated workflow includes a deliberate negative control that changes one alpha sample from `255` to `254` before the representation gate.
+The workflow deliberately mutates one owner alpha sample from `255` to `254` before the representation gate.
 
-The verifier rejects it with:
+The candidate is rejected with:
 
 `RGB8_ALPHA_PRECONDITION_REJECTED_NON_OPAQUE_TEXTURE`
 
-Therefore this PASS cannot be reproduced by silently dropping meaningful alpha.
+Therefore the second successful owner instance does not weaken the pass-49 safety boundary.
 
-## Retained exact pass-49 evidence
+## Retained exact pass-50 evidence
 
-Green artifact:
+Green Runtime artifact:
 
-- ID **`10529517880`**;
-- size **`6,393,786 B`**;
-- SHA-256 **`825fd23fe2df986cc7b2cb856986d36b426a30e76546d7999e19d0f3bed7d41f`**;
-- independently downloaded and rehashed to the exact same digest after workflow completion.
+- ID **`10530522907`**;
+- size **`11,987,986 B`**;
+- GitHub artifact digest SHA-256 **`a5aa3b66eeff1698cf2544a18478058ddd21aa26ce0881598197c2a01953f9e3`**;
+- independently downloaded after workflow completion and rehashed to the exact same archive digest.
 
-The retained artifact contains the exact-head receipt, bounded contract, Runtime report, Godot log, alpha negative-control log and all 68 RGB8 candidate current-world renders.
+The retained artifact contains the exact-head receipt, bounded contract, Runtime report, Godot log, fail-closed alpha control, the exact owner PNG, all 68 RGBA8 owner baseline frames and all 68 RGB8 Runtime candidate frames.
+
+## Reuse evidence without policy inflation
+
+Pass 50 matters because this is now a **second exact fully-opaque owner texture on the same Building service surface**, not merely the checker repeated under a new label. The owner pixels and source identities differ while the same bounded representation result reproduces:
+
+- identical `349,525 B` scene texture-memory saving;
+- identical zero structural metric change;
+- exact 68/68 raster identity;
+- the same fail-closed alpha precondition.
+
+This improves confidence that the optimization is reusable **under the explicit condition** rather than an accident of checker pixels.
+
+It still does **not** justify a fleet-wide texture import rule. Two owner instances on one surface family are insufficient evidence for arbitrary asset classes, alpha semantics, renderer backends, platform compression formats or content pipelines.
 
 ## Authority / handoff
 
 - Building / Geometry retain source geometry and surface authority.
-- Materials retains owner texture/material meaning and replacement policy.
+- Materials retains production-surface source art/material meaning and replacement policy.
 - Technical Art retains exact UV/image receiving transport authority.
 - Environment retains world composition and adoption authority.
-- Runtime owns this bounded receiving representation and measured proof-host memory evidence.
+- Runtime owns only this bounded receiving representation and measured proof-host budget evidence.
 - Art Direction / Visual QA retain appearance acceptance authority.
 - target-device CPU/GPU/FPS/VRAM/heap/thermal/battery acceptance remains open.
-- Universal Creation remains untouched; no generic RGB8 rule was added.
+- Universal Creation remains untouched; no generic RGB8 or fleet import rule was added.
 - `axm-create-me` remains coordination/status only.
 
 PR #52 requests no automatic adoption.
 
-## Continuity from pass 48 and earlier
+## Continuity from pass 49 and earlier
 
-Pass 48 remains intact in Map Runtime PR #47: it proved that the current Object successor still has exact 31-component / 7-moving / 24-static eligibility inputs while explicitly forbidding transfer of pass-44 performance and visual numbers. That lane still requires a fresh current-successor batching A/B if reopened.
+Pass 49 remains exact historical evidence for the diagnostic checker at Runtime head `1afa51cb89b536db0d2434328722a1521febe0ad`: the same `349,525 B` saving, 68/68 byte-identical frames and non-opaque negative control are retained rather than rewritten.
 
-Pass 47 Object VFX-v2 MultiMesh remains separately valid on its exact owner/runtime lineage and now has independent retained-view Visual QA acceptance; target-device/production-runtime adoption remains held.
+Pass 48 remains intact in Map Runtime PR #47: current Object successor eligibility is still 31 components / 7 moving / 24 static, while pass-44 performance and visual counters are not transferred forward without fresh measurement.
 
-Pass 46 Animal key reduction remains a bounded Art/QA review candidate with measurable silhouette tradeoff. Pass 45 joint-index width, pass 44 historical Object static batching, passes 40–43 and all earlier Runtime evidence remain recoverable and are not rewritten by pass 49.
+Pass 47 Object VFX-v2 MultiMesh, pass 46 Animal key reduction, pass 45 joint-index width, pass 44 historical Object static batching, passes 40–43 and all earlier Runtime evidence remain separately recoverable.
 
 ## Highest-value next Runtime gap
 
-Do **not** generalize pass 49 into a fleet-wide RGB8 conversion rule from one opaque texture.
+Do **not** spend another pass repeating RGB8 on the same utility-panel family unless owner semantics materially change.
 
-The next high-value Runtime choice should be selected from fresh owner evidence, with two currently legitimate candidates:
+The strongest currently known next Runtime candidates are:
 
-- return to PR #47 and perform the already-authorized fresh current-successor static-batching Godot A/B; or
-- test the exact pass-49 representation on a real target/device path if such a target becomes available, before converting proof-host memory savings into device/FPS/VRAM claims.
+- return to Map Runtime PR #47 and perform the already-authorized fresh current-successor Object static-batching Godot A/B, including new draw/object/memory counters and shaded raster evidence; or
+- obtain target/device evidence for an already-green representation before converting proof-host savings into CPU/GPU/FPS/VRAM/thermal claims.
 
-A broader alpha-elision import rule should only be proposed after repeated owner textures demonstrate the same opaque-alpha condition and the rule can fail closed on alpha-bearing cases.
+A broader alpha-elision import policy should wait for evidence across genuinely different texture owners/assets and must preserve a fail-closed meaningful-alpha path.
 
 ## Explicit non-claims
 
-Pass 49 does **not** establish:
+Pass 50 does **not** establish:
 
-- Art Direction or independent Visual QA adoption;
+- Art Direction or independent Visual QA acceptance of the Materials production surface;
+- Environment adoption;
+- Materials or Technical-Art adoption of the Runtime representation;
 - target-device CPU/GPU/FPS/VRAM/heap/thermal/battery improvement;
-- a generic PNG/RGB8 import policy;
+- a generic PNG/RGB8 importer rule;
+- a fleet-wide alpha-elision policy;
 - safety for any texture with meaningful alpha;
-- Environment / Materials / Technical-Art adoption;
-- source-image replacement or reauthoring;
 - texture compression quality or platform-specific GPU format policy;
 - arbitrary renderer/back-end equivalence;
 - CANON;
@@ -215,12 +245,12 @@ Pass 49 does **not** establish:
 
 ## Four-root check
 
-**Truth:** the exact owner alpha domain is measured before representation change, theoretical payload math is separated from real Godot measurement, and the target-device boundary remains explicit.
+**Truth:** the new Materials owner identity and alpha domain are measured before representation reuse, theoretical payload math is separated from real Godot measurement, and the exact proof-host/device boundary remains explicit.
 
-**Agency / non-domination:** Runtime changes only its receiving representation, does not rewrite Materials/Technical-Art/Environment authority, and does not force Art/QA or generic UC adoption.
+**Agency / non-domination:** Runtime does not rewrite Materials art, Technical-Art transport, Environment adoption or Art/QA authority, and does not turn two bounded examples into a generic policy.
 
-**Continuity:** exact Environment parent, owner PNG/RGBA/RGB identities, workflow, negative control and retained evidence are hash-bound; pass 48 and earlier Runtime lanes remain independently recoverable.
+**Continuity:** pass 49 remains recoverable as checker evidence; pass 50 hash-binds a new production owner, workflow, baseline and artifact without silently inheriting old raster proof.
 
-**Wisdom before speed:** one measured unused channel is removed under a strict fail-closed precondition instead of introducing a broad texture optimization policy from a single asset.
+**Wisdom before speed:** the same small optimization is re-proven on the real owner successor because the owner semantics changed, then expansion stops instead of manufacturing a fleet-wide rule from two same-surface examples.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
