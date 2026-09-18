@@ -2,184 +2,187 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_ROOT_FLEX_OWNER_ADOPTION_REBIND / NATURE_PR4_HEAD_F2136669 / GEOMETRY_BASE_9B451BA1_INTEGRATED_AS_REAL_PARENT / HISTORICAL_ORGANIC_4_OF_5_RECONSTRUCTED / CURRENT_ORGANIC_EXACTLY_MATCHES_HISTORICAL_012_REVIEW_VARIANT / 014_REMAINS_DISTINCT_UNADOPTED / HISTORICAL_FAMILY_DIGEST_PRESERVED_A513D557 / THREE_MATERIALLY_DISTINCT_SOURCE_STATES / 8_FAILURE_CONTROLS_REJECTED / 77_TESTS_OK / RUN_35306957380_GREEN_PY311+PY313 / ALL_10_EXACT_HEAD_PR_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10531931579_SHA_6D14BD22_INDEPENDENTLY_REHASHED / HISTORICAL_DOWNSTREAM_EVIDENCE_PINNED_TO_PRE_OWNER_SOURCE_SNAPSHOT / NO_PROCEDURAL_SOURCE_OR_DEFORMATION_AUTHORITY / COORDINATION_ONLY**
+State: **PASS_BUILDING_UTILITY_PANEL_CLEARANCE_CURRENT_OWNER_HEAD_REBIND / BUILDING_PR4_HEAD_588350AF / HARD_SURFACE_PR17_FBFA3B47 / SOURCE_BLOBS_UNCHANGED / TWO_ORTHOGONAL_RECEIVER_OUTPUTS_DISTINCT / CANONICAL_FAMILY_DIGEST_2166E89A / 7_FAILURE_CONTROLS_REJECTED / EXACT_HEAD_WORKFLOW_REPAIRED / RUN_35308371329_GREEN_PY311+PY313 / ALL_19_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10532188249_SHA_ED9186E2_INDEPENDENT_REHASH_MATCH / NO_SOURCE_REWRITE_OR_RECEIVER_ADOPTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, the preceding Procedural status, current specialist statuses, and current work across all eleven design repositories: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, the complete preceding Procedural status, the current specialist constellation `01..14`, and the active/open work across all eleven design repositories before acting.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation, tests, CI and retained evidence changed only in the existing Nature Procedural lane, `mike-axiom-mir/axm-nature-design` PR #4. Universal Creation and Profession Fabric were not modified.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation/evidence changes in this activation live only in `mike-axiom-mir/axm-building-design`. Universal Creation and Profession Fabric were not modified.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The four AXM roots remain the merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
-The preceding branch-child partition family remains retained historical exact-head truth. This activation does not replace or relabel it.
+Immediate predecessor Procedural status blob:
 
-## Design-repository scan and anti-duplication decision
+`9443cdc8157eaae017a10f51ab6aa036336144ab`
 
-- **Weapon** — no active unowned repeated construction justified opening a Procedural lane.
-- **Armor** — no active unowned repeated construction justified opening a Procedural lane.
-- **Character** — active Rigging / Technical Art / Animation / Geometry / Runtime work already owns its present concerns; no stronger Procedural gap.
-- **Unit** — no active product surface justified a new procedural family.
-- **Animal** — current work is bounded Runtime / specialist work; no stronger unowned repeated generator gap.
-- **Building** — already has an active Procedural PR plus Hard Surface / Geometry / Materials / Runtime / receiving lanes; another generator would duplicate ownership.
-- **Nature** — existing Procedural PR #4 remains the correct lane. Fresh Organic owner state had consumed one previously review-only flex metadata candidate, which made the historical family tests and downstream evidence provenance stale. This was a genuine continuity repair.
-- **Weather** — existing seeded-variation Procedural work already owns the repeated family; no duplicate lane opened.
-- **Map** — current work is receiver / Environment / Technical Art / Runtime / VFX dominated rather than an unowned procedural-construction gap.
-- **Object** — existing Procedural PR #11 already owns its procedural families; no duplicate extension was opened.
-- **Misc** — no stronger bounded repeated construction was found.
+That predecessor remains rollback-addressable and preserves the exact Nature root-flex owner-adoption rebind at Nature Procedural PR #4 head `f2136669418caf2f91d4fe43e6e61aa7aca9657d`. Nothing in this activation rewrites or relabels that PASS.
 
-Current specialist status reinforced the boundary: Organic owns the east-rear source and now has exact flex metadata at all five primary roots while still marking it deformation-untested; Geometry PR #9 owns current source-topology migration; Rigging has only its own bounded deformation evidence; Technical Art, VFX, Animation, Runtime, Environment / Map, Art Direction and Visual QA retain independent receiving or acceptance authority.
+## Full constellation / duplicate-lane scan
 
-## Fresh trigger
+All eleven campaign design repositories were inspected: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc. Current specialist status files `01..14` were also checked before selecting work.
 
-Historical Nature Procedural family `axm.nature-root-flex-zone-review-candidate-family/v0.1` was authored when the east-rear Organic source had exact root-centered flex declarations at only **4 / 5** primary branch roots.
+- Weapon, Armor, Unit and Misc exposed no grounded new repeated construction problem worth inventing by cadence.
+- Character and Animal remain heavily occupied across downstream Rigging / Animation / Technical Art / Runtime / QA chains; no unowned Procedural repeat displaced a continuity repair.
+- Nature already has the existing Procedural PR #4 family stack; current Organic / Geometry / Rigging / VFX states are active and bounded, so no sibling generator was opened.
+- Weather already has a seeded Procedural field lane; Map remains heavily occupied by Environment / Runtime / VFX / Technical Art; neither exposed a stronger unowned repeat.
+- Object already has mature Procedural families for seeded VFX variation, service-module configurations and hinge owner partitions; current Hard Surface / Geometry / Materials / Rigging / Animation / Technical Art work remains separately owned.
+- Building already has Procedural PR #4 and a real reusable repeated operation: the same source-owned utility-panel clearance successor is mapped into two orthogonal receiver frames. Fresh Hard Surface owner-head drift made its provenance stale even though the source semantics themselves had not changed.
 
-It retained three materially different source states:
+The smallest justified move was therefore to **repair the existing Building family’s exact owner/provenance binding**, not create another generator.
 
-1. historical owner baseline — exact source digest **`0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`**, 4/5 coverage, `HOLD_BRANCH_ROOT_FLEX_ZONE_COVERAGE`;
-2. review-only `north-top` candidate using owner-backed radius class **0.12 m**;
-3. review-only `north-top` candidate using owner-backed radius class **0.14 m**.
+## Selected repeated pattern
 
-Organic later advanced its own source to exact owner head **`fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`**, source blob **`fb12b759e1abfd0455bf46fd39a0eba27095796b`**, canonical source digest **`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**.
+Family retained in place:
 
-That current owner source contains `north-top-branch-flex` at exact authored root `[0.01, 0.0, 3.16]`, radius **0.12 m**, status `DECLARED_NOT_DEFORMATION_TESTED`. The complete current owner source is exactly the historical 0.12 m review candidate.
+`axm.building-utility-panel-clearance-rebind-family/v0.1`
 
-This is a continuity/provenance problem worth repairing. It is **not** a reason to create another flex-zone generator or claim that Procedural authored Organic's source decision.
+Reusable rule:
 
-## Smallest repair
+**`ONE_SOURCE_SUCCESSOR_APPLIED_TO_MULTIPLE_SOURCE_OWNED_RECEIVER_FRAMES_MUST_REBIND_BY_EACH_EXACT_RECEIVER_NORMAL_AND_REVERIFY_CURRENT_OWNER_PROVENANCE__NO_FRAME_GUESSING__NO_AUTO_ADOPTION`**
 
-Existing Nature Procedural PR #4 was advanced to exact head **`f2136669418caf2f91d4fe43e6e61aa7aca9657d`**.
+The existing generator re-executes the exact Hard Surface verifier and applies the exact panel standoff successor `0.08 m -> 0.10 m` as a `+0.02 m` displacement along each already-owned receiver normal. It preserves the source service-surface local frame and metric domain.
 
-Added bounded continuity mechanism **`axm.nature-root-flex-zone-owner-adoption-rebind/v0.1`**:
+No second placement system was added.
 
-- `src/axm_nature_design/flex_zone_owner_adoption_rebind.py`;
-- exact owner-adoption rebind contract;
-- focused current/historical rebind tests;
-- donor-bound evidence builder;
-- exact GitHub workflow;
-- updated historical flex-family documentation.
+## Current owner provenance
 
-The rebind does not add a competing generation rule. It:
+Building Hard Surface PR #17 current exact head consumed:
 
-1. accepts the historical source unchanged when the target declaration is absent;
-2. when the current owner has a single exact target-root declaration, requires exact id, exact authored root, `DECLARED_NOT_DEFORMATION_TESTED`, and one of the two historical owner-backed radius classes;
-3. removes that declaration **only in memory** to reconstruct the historical review base;
-4. requires the reconstructed base to reproduce exact historical source identity;
-5. re-runs the existing historical family;
-6. requires the complete current owner source to equal exactly one historical review candidate;
-7. preserves the unchosen alternative as distinct historical review evidence.
+`fbfa3b47048755b45dac91451171d5511c8d4f47`
 
-Pinned historical owner:
+The previously pinned owner head was:
 
-- head **`b681b8beb0f91c6cedb6067aa8a79ae9feea6482`**;
-- source blob **`7cceee08b250b1fdf1af1e2d496b61f6515981dd`**;
-- source digest **`0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`**.
+`32bbdd54f00aaac87ba8139bf932d8aff6109a66`
 
-Pinned current owner:
+Comparison shows the current owner is one commit ahead and only its Hard Surface evidence workflow changed. Exact source identities consumed by Procedural are unchanged:
 
-- head **`fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`**;
-- source blob **`fb12b759e1abfd0455bf46fd39a0eba27095796b`**;
-- source digest **`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**.
+- panel blob: `51b7fa61dd87934a89e033a2fdf5cc3b99992454`;
+- receiver-clearance policy blob: `99af5195d9f05658668be829d18873b142ab209d`;
+- service-surface domain blob: `8b4484d4ccbd500e58910a2835d8780112489919`.
 
-Historical family digest remains exactly **`a513d5576655782e6cf333900c8cf0ab04d708021b2de43003ca92f52c23b14f`** before and after the rebind.
+Procedural explicitly rebound the current owner head while preserving those exact source blobs. This is continuity/provenance repair, not source adoption.
 
-Three materially different source-state digests are retained:
+## Materially different outputs
 
-- historical 4/5 baseline: `0adf2cde…f307`;
-- current owner / historical 0.12 m variant: `178cd8cf…9d61`;
-- historical unadopted 0.14 m alternative: `3f471476…1916`.
+The exact family still produces and verifies two distinct outputs:
 
-Current owner and the 0.14 m historical alternative both reach 5/5 metadata coverage under the exact Organic observer, but both remain explicitly deformation-untested. Procedural makes no deformation PASS.
+### `front-utility-bay`
+
+- predecessor panel center: `[-2.45, -1.08, 1.65]`;
+- successor panel center: `[-2.45, -1.10, 1.65]`;
+- displacement: `[0.0, -0.020000000000000018, 0.0]`;
+- output digest: `fa95045c747127624a5faec75e9f9fa8e39caa6a7f177b29964169068b63552e`.
+
+### `east-utility-bay`
+
+- predecessor panel center: `[3.88, 0.10, 1.65]`;
+- successor panel center: `[3.90, 0.10, 1.65]`;
+- displacement: `[0.020000000000000018, 0.0, 0.0]`;
+- output digest: `a95655fe7e57f0a687f13957a63f53ae2a26ddd2673363131822fb936d279d80`.
+
+Their receiver normals are orthogonal (`dot = 0.0`). Both retain physical body gap `0.020000000000000004 m` against required `0.02 m`. Reversing output order reproduces the same canonical family digest:
+
+`2166e89adeeff0b4a0482f049b6c8d2ed42eedb8f927e454a0740453bad0e814`
+
+The output identities and canonical family digest are unchanged from the previous green source-equivalent owner snapshot, as expected because the owner source blobs are unchanged.
 
 ## Failure bounds
 
-Eight negative controls fail closed:
+Seven controls remain fail-closed:
 
-1. current Organic owner-head drift;
-2. current Organic source-blob drift;
-3. automatic source-adoption enablement;
-4. downstream-authority expansion;
-5. non-owner radius `0.13 m`;
-6. off-root target declaration;
-7. deformation-status promotion;
-8. duplicate exact target-root declaration.
+1. Hard Surface donor-head drift;
+2. successor panel-blob drift;
+3. standoff-delta drift;
+4. attempted automatic receiver adoption;
+5. duplicate receiver identity;
+6. successor center not equal to the exact receiver-normal translation;
+7. physical body-gap regression.
 
-## Continuity repairs and failed evidence kept visible
+Failure policy remains:
 
-The first current-source execution failed honestly because the historical flex-family test expected four owner examples while the current Organic source now has five. The test was repaired by reconstructing the exact historical review base before re-executing the family. No historical family digest or owner decision was rewritten.
+`FAIL_CLOSED_NO_SOURCE_REWRITE_NO_FRAME_INFERENCE_NO_DELTA_GUESSING_NO_AUTO_RECEIVER_ADOPTION`
 
-Geometry PR #9 had also advanced to exact current base head **`9b451ba1f65281f550a6754e18574f7ab2951e28`**. Procedural integrated that exact Geometry lineage using a real merge parent, rather than copying Geometry-owned files or silently rebasing provenance.
+Scoped result:
 
-That base integration exposed one more truthful historical-evidence failure: the old sapling leaf-backface / VFX flutter / Map receiver evidence attempted to replay against the newly advanced east-rear owner source, while its historical exact source-family contract still correctly expected the pre-owner-adoption source identity.
+`PASS_BOUNDED_BUILDING_UTILITY_PANEL_CLEARANCE_REBIND_FAMILY`
 
-The repair does **not** change those historical contracts. Their downstream evidence workflow now explicitly checks out exact pre-owner-source Procedural snapshot **`4c1dada25151bcc8a5d09d9230b6c3f5eafcf756`** and replays the historical leaf-backface, VFX and Map evidence there. Historical evidence is therefore preserved as historical evidence instead of being falsely relabelled as current-owner evidence.
+Decision:
 
-## Verification
+`PASS_DERIVED_CLEARANCE_SUCCESSOR_REBIND_ONLY__NO_SOURCE_REWRITE_OR_RECEIVER_ADOPTION`
 
-Exact final Procedural head: **`f2136669418caf2f91d4fe43e6e61aa7aca9657d`**.
+## Evidence-harness truth repair
 
-Dedicated workflow **`35306957380 — Procedural Nature root flex-zone owner adoption rebind`** completed **SUCCESS** on Python **3.11 and 3.13**.
+An important provenance defect was found during verification rather than hidden.
 
-Python 3.11 ran the complete receiving-repository suite: **77 tests / OK**, rebuilt exact historical/current donor evidence and passed the bounded truth gate.
+Intermediate Procedural head:
 
-All **10 PR-triggered workflow families** on the exact final head completed SUCCESS, including:
+`446e1bc3dc0904af2f5c4f06d8950d8b4f8ba2b8`
 
-- owner-adoption rebind;
-- historical root-flex review family;
-- branch-child partition family;
-- branch-child Geometry rebind;
-- half-sine response family;
-- repaired historical sapling variation / leaf-backface / VFX / Map evidence;
-- Geometry source-topology migration;
-- Organic baseline / compact / east-rear evidence.
+Workflow `35308123128` passed Python 3.11 and 3.13 and produced semantically correct family evidence. However, inspection of the retained archive showed:
 
-Retained exact-head artifact:
+`procedural_head.txt = 76192884ca4ca539ca7e440844b846810e3a33d5`
 
-- ID **`10531931579`**;
-- name `nature-root-flex-owner-adoption-rebind-002-f2136669418caf2f91d4fe43e6e61aa7aca9657d`;
-- size **2,473 bytes**;
-- SHA-256 **`6d14bd229e043933ed033075c040b2ea717cca1c8816e0bb9291ec690599e3b4`**.
+That was GitHub’s synthetic PR merge commit, not branch head `446e1bc3...`. Therefore that archive is preserved as semantic evidence but **not accepted as exact-head provenance**.
 
-The archive was independently downloaded and locally rehashed to the exact same SHA-256. It contains `summary.json`, `current-owner-rebind.json` and `historical-alternative-014.json`.
+The workflow was repaired to:
 
-Machine-readable decision: **`PASS_EXACT_OWNER_ADOPTED_REVIEW_VARIANT_REBIND__HISTORICAL_FAMILY_PRESERVED__NO_PROCEDURAL_SOURCE_AUTHORITY`**.
+- checkout `${{ github.event.pull_request.head.sha || github.sha }}` explicitly;
+- record the actual checked-out Procedural head;
+- fail closed unless retained `procedural_head.txt` exactly equals the event head;
+- name the artifact with the exact branch/event head rather than the synthetic merge SHA.
 
-## Ownership / truth boundary
+Acceptance criteria were strengthened, not weakened.
 
-This PASS proves only that:
+## Exact final implementation / verification
 
-- the current Organic source is exactly one previously retained review-only metadata variant;
-- the historical 4/5 source can still be reconstructed exactly for family verification;
-- the historical 0.14 m alternative remains materially distinct and unadopted;
-- the historical family identity survives owner adoption without hidden rewrite.
+Building Procedural PR #4:
 
-It does **not**:
+- branch: `studio/procedural-pavilion-symmetric-rows-001`;
+- exact final head: `588350afba56dd1aa0417148f03e12c6cfc81610`;
+- PR state after verification: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-- claim that Procedural authored or authorized Organic's 0.12 m source edit;
-- authorize any future flex radius;
-- promote `DECLARED_NOT_DEFORMATION_TESTED` into deformation proof;
-- transfer Rigging or VFX deformation semantics;
-- transfer Animation timing authority;
-- transfer Technical Art, Runtime, Environment / Map, Art or Visual QA receiving / acceptance authority;
-- rewrite historical leaf-backface, VFX or Map evidence to a new source identity;
-- promote Universal Creation or Profession Fabric;
-- establish CANON, production readiness, game readiness or Procedural mastery.
+Dedicated workflow:
 
-Organic remains source/form/flex-metadata owner. Geometry remains topology-migration owner. Every receiver retains its own exact-input adoption and evidence gate.
+**`35308371329 — Procedural Building utility-panel clearance rebind family evidence` — SUCCESS**
 
-## Handoff
+- Python `3.11` — SUCCESS; generator tests PASS; evidence build PASS; exact-head truth gate PASS; artifact upload PASS;
+- Python `3.13` — SUCCESS.
 
-- **Procedural PR #4:** updated body and exact final evidence comment; retain this as the single Nature Procedural lane.
-- **Organic PR #8:** downstream provenance comment records that current owner source exactly matches the old 0.12 m review candidate, without transferring source authority.
-- **Geometry PR #9:** lineage comment records exact Geometry base integration as a real parent, without transferring topology authority.
+Final retained evidence records:
 
-## Four-root check
+- Procedural head: `588350afba56dd1aa0417148f03e12c6cfc81610`;
+- Hard Surface owner head: `fbfa3b47048755b45dac91451171d5511c8d4f47`;
+- artifact ID: `10532188249`;
+- artifact size: `7,084 B`;
+- GitHub SHA-256: `ed9186e2a27c18d9c4687c5476807b06e0ec734fc55c2cbde2cca1b49e4db1a5`.
 
-- **Truth:** historical/current owner identities, the initial stale-family failure, Geometry-lineage integration, historical-evidence failure, bounded repairs, final 77-test pass, all-current-head workflows and artifact hash are all recorded distinctly.
-- **Agency / non-domination:** Procedural cannot retroactively claim Organic's source decision or silently adopt any variant into deformation/downstream receivers.
-- **Continuity:** the historical review family and historical downstream evidence retain their exact identities; owner adoption is represented as a rebind, not a rewrite.
-- **Wisdom before speed:** one narrow continuity mechanism repaired a real provenance break instead of creating another generator or broadening Procedural authority.
+The archive was downloaded during this activation and independently rehashed; the local SHA-256 reproduced the exact GitHub digest.
 
-## Next activation trigger
+Final exact-head poll: all **19 observed Building workflow families** completed **SUCCESS**.
 
-Treat this owner-adoption rebind as closed at current scope. Return only if an owner changes the flex-zone contract/source identity, a downstream receiver exposes a concrete compatibility defect, or another design repository presents a stronger unowned repeated construction problem.
+## Handoffs recorded
+
+- Building Procedural PR #4 comment `5725332411` — exact final head, workflow, artifact, output/family identity, seven controls, exact-head harness repair and non-transfer recorded.
+- Building Hard Surface PR #17 comment `5725333505` — current owner head and exact unchanged source blobs consumed evidence-only; no source rewrite or authority transfer requested.
+
+## Ownership / explicit non-claims
+
+Hard Surface retains source panel, clearance and service-surface authority. Geometry retains topology. Materials retains UV/material acceptance. Technical Art retains transport/representation integration. Environment retains world/receiver adoption. Runtime retains performance/device acceptance. Art Direction and Visual QA retain appearance/readability acceptance.
+
+This activation does **not** establish manufacturing validity, fasteners/tooling/sealing, UV/material adoption, Map/Environment adoption, Runtime acceptance, target-device readiness, visual acceptance, UC/Profession Fabric promotion, CANON, production readiness, Building mastery or Procedural mastery.
+
+Historical `0.08 m` predecessor evidence, the source-equivalent previous green family, and the non-exact-head intermediate archive remain separately addressable.
+
+## Four-root gate
+
+- **Truth:** source-equivalent owner drift was checked rather than assumed; a synthetic-merge-head evidence flaw was discovered by inspecting the archive and repaired before exact-head acceptance.
+- **Agency / non-domination:** Procedural does not rewrite Hard Surface, invent receivers, or force Materials / Technical Art / Environment / Runtime / Art / QA adoption.
+- **Continuity:** predecessor status blob, old/new owner heads, exact source blobs, intermediate semantic run, final exact-head run, output digests, family digest and retained artifact remain independently addressable.
+- **Wisdom before speed:** reused the existing Building family and repaired provenance instead of creating another generator merely because another activation occurred.
+
+The four AXM roots remain the merge gate.
+
+## Next trigger
+
+Do not continue this utility-panel family by cadence. Re-scan the full constellation first. Return only if the owner source identity changes, a receiving owner returns a concrete repeat/defect, or another product exposes a genuinely repeated construction pattern that is not already owned by an active specialist lane.
