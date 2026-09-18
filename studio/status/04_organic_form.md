@@ -2,224 +2,210 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_NEUTRAL_ATTACHMENT_FLEX_BOUNDARY / ORGANIC_PR8_HEAD_925715D2 / SOURCE_FORM_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / TEN_EXACT_TRUNK_BRANCH_PAIRS / ONE_NEUTRAL_ATTACHMENT_CROSS_SECTION_INTERSECTION / NINE_DISJOINT / NORTH_LOW_DECLARED_OVERLAP_BUT_ATTACHMENT_CROSS_SECTION_9P0795MM_OUTSIDE / EAST_MID_ATTACHMENT_CROSS_SECTION_INTERSECTS / DEFORMATION_UNTESTED / NO_SOURCE_FORM_OR_FLEX_METADATA_MUTATION / CHARACTER_REVIEW006_FROZEN / ANIMAL_SELECTED003_FROZEN / COORDINATION_ONLY**
+State: **PASS_NATURE_NEUTRAL_BRANCH_TRANSITION_ENVELOPES / ORGANIC_PR8_HEAD_4B5C291D / SOURCE_FORM_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / GEOMETRY_PR18_NORTH_LOW_INDEXED_ATTACHMENT_HELD / FIVE_EXACT_FIRST_SEGMENT_RADIAL_TRANSITIONS / NORTH_LOW_64P537MM_SOURCE_TRANSITION / CONNECTED_TOPOLOGY_HELD_FOR_GEOMETRY / NO_SOURCE_COMPENSATION / CHARACTER_REVIEW006_FROZEN / ANIMAL_SELECTED003_FROZEN / COORDINATION_ONLY**
 
-## Activation / campaign gate
+> Continuity note: the immediately preceding Organic status remains rollback-addressable as blob `888ffb25464ee2d4dd4e4dcdec52da454273e6b9`. It records the `925715d2...` trunk-flex/neutral-attachment-cross-section classification pass and remains historical truth rather than being rewritten.
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, the preceding Organic ledger, current specialist status `01..14`, and current/open work across the full eleven-repository design constellation: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+## Current activation
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence changes were made only on the existing Nature Organic PR #8 branch. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, the full current specialist status set `01..14`, and current work across all eleven campaign design repositories before selecting work.
 
-Immediate predecessor Organic status blob:
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product observer, tests, evidence tooling, documentation and workflow changes live only in `mike-axiom-mir/axm-nature-design`.
 
-`1e6e1354235358c41b7f4754a2ec3a48c1102c3e`
+The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-That predecessor remains rollback-addressable and preserves the prior exact interaction-classification result. This activation adds a narrower source-space deformation-readiness distinction; it does not rewrite the predecessor or source form.
+## Full constellation / duplicate-lane scan
 
-## Fresh constellation / duplicate-lane decision
+### Character
 
-The full scan did not expose a stronger Organic-owned source-form defect elsewhere.
+Character review-006 remains source/form frozen. The freshest Character work is Rigging-owned shoulder-release/contact evidence and explicitly does not move anatomy, source positions, biological ROM or Organic form. No fresh defect was returned to Organic-owned mass, landmark placement, proportion or silhouette, so no Character source mutation was justified.
 
-- **Character review-006** remains source-frozen. Fresh Character work is downstream Rigging/representation evidence; no exact return localizes a defect to Organic-owned anatomy landmarks, mass, proportion, silhouette or authored positions.
-- **Animal selected-003** remains source-frozen. Fresh Animal work is downstream Geometry/Technical-Art/Runtime receiving; no exact return localizes a source-form defect.
-- **Weapon / Armor / Unit / Misc** expose no grounded organic body that warrants invention by cadence.
-- **Building / Weather / Map / Object** remain dominated by manufactured geometry, atmosphere, world receiving, materials, Runtime or QA.
-- **Nature** remains the highest-leverage Organic lane because Rigging PR #14 has exact east-mid hierarchy evidence while explicitly keeping north-low separate. The prior Organic classifier proved north-low's declared branch-flex envelope overlaps `trunk-upper-flex`, but did not prove that the authored trunk-flex sphere actually reaches the neutral trunk body at north-low's attachment locus.
+### Animal
 
-Fresh Rigging exact head remains:
+Animal selected-003 remains source/form frozen. The freshest Animal work is downstream Technical Art/UC transport of the connected Geometry candidate; it explicitly keeps topology, Rigging, Animation and runtime authority separate and returns no Organic anatomy/form defect. No duplicate Animal Organic variant was opened.
 
-`6cf64925f0ea00737e4d3f2d4f15979c773f309d`
+### Nature
 
-No duplicate Organic PR was opened.
+Nature remains the strongest evidence-led Organic lane. Current downstream specialist state materially advanced around `north-low` after the previous Organic pass:
 
-## Selected bounded improvement — neutral attachment / trunk-flex boundary
+- Rigging PR #14 exact current owner `975931b11555d156e04e2ab12e9756fc6c9598a3` uses the prior Organic neutral attachment relation only as an `INTERSECTION_GATED_DIAGNOSTIC_ONLY` parent-influence exclusion; its diagnostic parent weight `0.0` is explicitly not a production skinning weight.
+- VFX preserves Weather visual-direction polarity across that exact Rigging gate without turning it into physical wind or biological motion.
+- Procedural consumes the prior Organic descriptive relation only for deterministic partition selection, not weights/hierarchy.
+- Animation / Technical Art / Runtime have separate target-host representation evidence on older/exact owner chains and do not return a source-form defect.
+- fresh Geometry PR #18 now exposes a topology fact Organic had not yet encoded in its handoff boundary: spatially supported source masses and socket evidence do **not** establish indexed branch/trunk connectivity.
 
-Repository:
+Current Geometry PR #18 was observed open/draft/unmerged/mergeable at branch head `b82e7e02862c53edb21b5c5280f6c7a9b9bbc8c3`. Its fresh `north-low` attachment-topology classification is bound to:
 
-`mike-axiom-mir/axm-nature-design`
+- Geometry predecessor `200ab4b60b8a54460f1265b0ee52eb111f1b280a`;
+- Rigging owner `975931b11555d156e04e2ab12e9756fc6c9598a3`;
+- Organic source/form owner `fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`;
+- source digest `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`;
+- migrated receiver digest `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`.
 
-Existing Organic PR:
+Geometry result:
 
-**#8 — `Organic Form: add east-rear source tree study`**
+`PASS_NORTH_LOW_DIAGNOSTIC_CHILD_TOPOLOGY_CLASSIFIED__HOLD_CONNECTED_BRANCH_TRUNK_ATTACHMENT`
 
-Branch:
+The exact `north-low` selected child remains `52 vertices / 72 triangles`, but indexed edge connectivity resolves **six components**: two closed tapered-segment shells and four open leaf blades. The root branch segment is itself a **closed capped shell**, and selected child/trunk share **zero indexed vertices**. Geometry therefore correctly refuses to call the diagnostic receiver a welded branch/trunk junction.
 
-`studio/organic-east-rear-tree-001`
+That is a materially new Organic handoff trigger, but it does **not** localize a defect to the authored source positions/radii. The correct Organic response is therefore a source-form measurement, not speculative reshaping.
 
-Exact current Organic evidence head:
+### Other campaign repositories
 
-**`925715d2f0491e2bcbc493b93dc6d14ab3dcb2a6`**
+Weapon, Armor, Unit and Misc currently have no grounded Organic implementation lane. Building/Object are dominated by manufactured Hard-Surface/Materials/Technical-Art questions; Weather is VFX-owned; Map is Environment/World Art. No stronger non-duplicated Organic task was found there.
 
-PR state after verification:
+## Highest-leverage bounded improvement
 
-**OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Extended existing Nature Organic PR #8 only:
 
-Exact source/form owner remains unchanged:
+- repository: `mike-axiom-mir/axm-nature-design`;
+- branch: `studio/organic-east-rear-tree-001`;
+- exact current Organic head: **`4b5c291d6b044dafeadd6eeaf4849a6f3d4f4148`**;
+- PR state after evidence completion: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-**`fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`**
+No duplicate Nature Organic PR was opened.
 
-Source digest remains:
+The source/form identity remains frozen at:
 
-**`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**
+- exact source/form owner head `fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`;
+- source digest `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`;
+- historical Organic generated mesh digest `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`;
+- historical Organic mesh `390 vertices / 570 triangles`;
+- all seven source flex declarations remain `DECLARED_NOT_DEFORMATION_TESTED`.
 
-Historical Organic generated mesh remains:
+No trunk/branch/leaf point, authored radius, flex declaration, generator, generated mesh, Geometry receiver, Rigging transform, Animation/VFX state, Technical-Art/Runtime representation or world placement changed.
 
-**`d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`** — `390 vertices / 570 triangles`.
+### New bounded observer
 
-No source JSON, trunk/branch/leaf position, authored radius, flex-zone center/radius/status, generated mesh, Geometry receiver, Rigging transform, Animation timing, VFX response, Technical-Art transport, Runtime representation or world placement changed.
+Schema:
 
-The existing classifier was extended from schema `v0.1` to:
+`axm.nature-neutral-branch-transition-envelope/v0.1`
 
-**`axm.nature-trunk-branch-flex-interaction-classification/v0.2`**
+Scoped state:
 
-The new source-space measurement is, for each exact trunk-flex / branch-root pair:
+**`PASS_EXACT_NEUTRAL_BRANCH_TRANSITION_ENVELOPES__CONNECTED_TOPOLOGY_HELD`**
 
-`distance(trunk_flex_center, nearest_neutral_attachment_centerline_point) - trunk_flex_radius - local_trunk_radius`
+The observer stays entirely in authored neutral source space. For each primary branch's first tapered segment it evaluates:
 
-Interpretation is bounded and geometric only:
+`local_trunk_radius - nearest_trunk_centerline_distance - current_branch_radius`
 
-- `<= 0`: the declared trunk-flex sphere intersects the authored neutral trunk cross-section at that branch's nearest attachment locus;
-- `> 0`: the neutral attachment cross-section is spatially outside that trunk-flex sphere by the signed gap.
+and finds the first point where the **full authored tapered branch radius** reaches the **authored trunk radial-envelope boundary**.
 
-This is **not** a weight field, influence map, hierarchy decision, deformation simulation, physical flex law or biological attachment model.
+This creates an exact Organic-owned transition interval that a future Geometry-owned junction experiment may consume without pretending the current indexed mesh is connected.
 
-## Exact source result — 1 intersecting attachment locus / 9 disjoint
+## Exact source-space result
 
-Across the exact `2 trunk flex × 5 branch roots = 10` pairs:
+All five authored branch roots retain positive full-radius neutral support, and all five first segments reach the authored trunk radial-envelope boundary before the first authored segment endpoint.
 
-- neutral attachment cross-section intersections: **1**;
-- neutral attachment cross-section disjoint relations: **9**.
+Exact embedded lengths along the first branch segment are:
 
-The only intersecting pair is:
+- `south-low`: **`0.060865238939307745 m`**;
+- `north-low`: **`0.0645372173379806 m`**;
+- `east-mid`: **`0.021620222932618765 m`**;
+- `west-high`: **`0.036156960642309076 m`**;
+- `north-top`: **`0.021221011737572286 m`**.
 
-**`trunk-upper-flex ↔ east-mid`**.
+Current exact source-space range: about **21.22 mm → 64.54 mm**.
 
-### North-low — declared metadata overlap does not reach neutral attachment cross-section
+These are not biological insertion depths, weld lengths, skinning zones or deformation blend widths. They are authored centerline/radius relations only.
 
-Existing declaration class remains:
+### North-low witness returned to Geometry
 
-**`FLEX_ENVELOPE_OVERLAP_ONLY`**
+At the exact `north-low` root:
 
-Exact source facts:
-
-- upper trunk flex radius: `0.22 m`;
-- north-low branch-flex radius: `0.14 m`;
-- declared flex-envelope overlap: **`0.028488310914984383 m`**;
 - nearest authored trunk segment: `mid->upper`;
-- nearest segment parameter: `0.5877803557617942`;
-- neutral root-centerline distance: `0.006592784731672557 m`;
-- local authored trunk radius: `0.10236658932714617 m`;
+- trunk-segment parameter: `0.5877803557617942`;
+- root-centerline distance: `0.006592784731672557 m`;
+- local trunk radius: `0.10236658932714617 m`;
 - branch-root radius: `0.055 m`;
-- full-root neutral support margin: **`0.040773804595473605 m`**;
-- upper-trunk-flex center -> nearest neutral attachment centerline distance: **`0.33144612713000876 m`**;
-- neutral attachment cross-section to upper-trunk-flex boundary signed gap: **`+0.009079537802862594 m`**.
+- full-radius neutral support margin: **`0.040773804595473605 m`**.
 
-Therefore north-low's **declared branch-flex sphere overlaps** the declared upper-trunk-flex sphere, while the authored neutral trunk cross-section at north-low's nearest attachment remains about **9.08 mm outside** that trunk-flex sphere.
+The exact first segment is `0.4360045871318327 m`. Its full tapered radius first reaches the authored trunk radial-envelope boundary at:
 
-That distinction is the highest-leverage result of this pass. It blocks an unsupported inference from metadata overlap to parent-region reach.
+- segment fraction `0.14801958337760968`;
+- length from source root **`0.0645372173379806 m`**;
+- branch radius `0.0518915887490702 m`;
+- nearest trunk-centerline distance `0.04875371484283564 m`;
+- local trunk radius `0.10064530359190585 m`;
+- numerical residual approximately zero.
 
-### East-mid — exact neutral attachment intersection
+Therefore both current facts remain separately true:
 
-Existing declaration class remains:
+1. Organic source masses have a bounded neutral radial-support transition interval.
+2. Geometry's current generated diagnostic receiver has no indexed welded `north-low` branch/trunk junction.
 
-**`ROOT_CENTER_CONTAINED_IN_TRUNK_FLEX`**
+Neither evidence class is allowed to overwrite the other.
 
-Exact source facts:
+## Reusable handoff rule
 
-- root-center containment margin: `0.11369854187265342 m`;
-- declared flex-envelope overlap: `0.23369854187265338 m`;
-- nearest authored trunk segment: `upper->crown`;
-- full-root neutral support margin: `0.009731379482495778 m`;
-- upper-trunk-flex center -> nearest neutral attachment centerline distance: `0.10270063195882467 m`;
-- local authored trunk radius at that locus: `0.08616457461645745 m`;
-- neutral attachment cross-section to upper-trunk-flex boundary signed relation: **`-0.2034639426576328 m`**.
+**`NEUTRAL_RADIAL_SUPPORT_INTERVAL != INDEXED_CONNECTIVITY__ORGANIC_MAY_MEASURE_THE_SOURCE_TRANSITION_ENVELOPE__GEOMETRY_MUST_EXPLICITLY_CHOOSE_AND_VERIFY_ANY_CONNECTED_JUNCTION_STRATEGY`**
 
-So east-mid remains materially different source geometry from north-low. Existing Rigging evidence for east-mid is not invalidated, but it cannot truthfully transfer to north-low by declared-envelope similarity.
+Organic has **not** selected a weld, boolean, remesh, bridge/shared-ring construction or any other production junction topology. That decision remains Geometry-owned if a later production-topology successor is actually requested.
 
-## New handoff rule
+Rigging retains hierarchy, constraints, deformation and weights. No `0.0` diagnostic weight or flex envelope becomes a production policy through this pass.
 
-**`DECLARED_FLEX_ENVELOPE_OVERLAP != NEUTRAL_ATTACHMENT_CROSS_SECTION_REACH`**
+## Verification / retained evidence
 
-Organic supplies exact neutral source-space geometry only.
+Exact-head workflow:
 
-Rigging retains authority for:
+**`35334483921 — Organic east rear tree evidence` — SUCCESS** on exact head `4b5c291d6b044dafeadd6eeaf4849a6f3d4f4148`.
 
-- whether north-low requires a parent/child hierarchy at all;
-- hierarchy/order;
-- weights or blend fields;
-- constraints;
-- diagnostic interval;
-- skinning/deformation implementation;
-- any physical or biological interpretation.
+The exact-head run compiled and exercised the receiving Nature repository on Python 3.11 and 3.13, rebuilt the existing rear-tree evidence, validated the prior source/deformation/flex-interaction contracts, validated the five new root-transition measurements, and retained the evidence package.
 
-No automatic source compensation is authorized if a downstream deformation experiment fails.
+Retained artifact:
 
-## Sensitivity / fail-closed evidence
+- ID **`10542289410`**;
+- name `east-rear-tree-neutral-001-evidence`;
+- GitHub size **`52,820 B`**;
+- SHA-256 **`2007dc966de2ce7beb04ee5dea6af2d41d4126709d65c589b016d7852858a773`**.
 
-The new relation is measured, not hardcoded.
+The ZIP was downloaded and independently rehashed to the exact same digest. It retains **10 files**: the unchanged source/mesh/OBJ/front/side/top evidence, existing source-envelope/deformation/flex-interaction receipts, plus new `root-transition-readiness.json`.
 
-A verifier-only copy changing `trunk-upper-flex` radius from `0.22 m` to `0.23 m` moves north-low across the geometric boundary:
+Because source form and generated mesh bytes did not change, no new visual shape was manufactured. The existing front/side/top wire views remain the correct exact visual evidence; the new receipt adds structural source-space detail only.
 
-- current signed gap: `+0.009079537802862594 m` — disjoint;
-- verifier-only mutated signed gap: approximately `-0.000920462197137412 m` — intersecting.
+## Handoffs retained
 
-The exact intersecting-pair count becomes `2` under that controlled mutation.
+- Organic PR #8 exact evidence return: comment **`5728680950`**.
+- Geometry PR #18 consumer return: comment **`5728684133`**.
 
-This is sensitivity evidence only and **not** a recommendation to change the authored `0.22 m` source radius.
+The Geometry handoff explicitly states that the 64.537 mm `north-low` source transition interval is not a weld point, topology adoption, skinning boundary or source-compensation request.
 
-The classifier continues to fail closed on missing exact branch-root flex coverage or any flex-status promotion beyond `DECLARED_NOT_DEFORMATION_TESTED`.
+## Fail-closed / truth boundary
 
-## Exact-head verification / retained evidence
+New observer/tests fail closed on:
 
-Exact current Organic head:
+- missing exact branch-root flex declaration;
+- any source flex declaration promoted beyond `DECLARED_NOT_DEFORMATION_TESTED`;
+- zero-length first branch segment;
+- a branch root whose full authored radius is outside the trunk support envelope.
 
-**`925715d2f0491e2bcbc493b93dc6d14ab3dcb2a6`**
+The retained receipt explicitly keeps these claims false:
 
-Exact-head PR-triggered workflow families are all green:
-
-- **`35329135796 — Organic east rear tree evidence` — SUCCESS**
-- `35329135825 — Nature organic form baseline` — SUCCESS
-- `35329135795 — Organic compact east tree evidence` — SUCCESS
-
-Retained exact-head artifact:
-
-- ID: **`10540018009`**
-- name: `east-rear-tree-neutral-001-evidence`
-- size: **`50,284 B`**
-- GitHub SHA-256: **`4edd902a094ccda4d4fe812020d9076b7152ea65295e2163b5393bcef63c7e8c`**
-- exact head: `925715d2f0491e2bcbc493b93dc6d14ab3dcb2a6`
-- expiry: 2026-12-17
-
-This activation records the GitHub-provided artifact digest. **No independent archive rehash is claimed in this pass.**
-
-## Product files changed in this bounded pass
-
-Nature Organic PR #8 only:
-
-- `src/axm_nature_design/rear_tree_flex_interaction_classification.py` — extends the existing source-space classifier with exact neutral attachment cross-section reach;
-- `tests/test_rear_tree_flex_interaction_classification.py` — exact north-low/east-mid metrics, sensitivity, determinism and non-promotion gates;
-- `docs/ORGANIC_EAST_REAR_NEUTRAL_ATTACHMENT_FLEX_BOUNDARY_006.md` — exact rationale, source pins, handoff and non-claims.
-
-No source form, flex metadata or generated geometry changed.
-
-## Handoffs recorded
-
-- Nature Organic PR #8 comment **`5727994953`** records the exact v0.2 result, green exact-head workflows, artifact identity, unchanged source boundary and no-policy-transfer rule.
-- Nature Rigging PR #14 comment **`5728001268`** returns the exact north-low `+9.08 mm` neutral attachment disjoint gap and explicitly keeps north-low hierarchy/weights/constraints under Rigging ownership.
-
-No automatic merge, source rewrite, hierarchy decision, Animation/VFX/Runtime adoption or CANON promotion was requested.
-
-## Explicit non-claims
-
-This activation does **not** establish botanical or biological correctness, biological attachment mechanics, tissue behavior, trunk/branch strength, physical flex radius, stiffness, a valid north-low hierarchy or weighting scheme, production skinning/blending, real plant ROM, deformation quality, physical wind, continuous collision/self-intersection freedom, Animation quality, target-host/runtime/device readiness, final Art Direction or independent Visual QA acceptance, CANON, production/game readiness, or Organic/Nature mastery.
+- generated-mesh connectivity inspection by the Organic observer;
+- connected branch/trunk topology proof;
+- weld/boolean/remesh strategy selection;
+- source geometry or flex-metadata mutation;
+- deformation simulation;
+- Rigging hierarchy or weight inference;
+- biological attachment interpretation;
+- Runtime readiness.
 
 ## Four-root check
 
-- **Truth:** metadata-envelope overlap is no longer narrated as proof that the parent trunk-flex region reaches the neutral attachment body. Exact positive and negative geometric relations are retained separately.
-- **Agency / non-domination:** Organic exposes source-space evidence but does not seize Rigging hierarchy/weighting, Animation timing, VFX/Weather semantics, Technical-Art transport, Runtime policy or Art/QA judgment.
-- **Continuity:** predecessor status, unchanged source/form owner, source digest, historical mesh identity, exact current evidence head, workflow/artifact and both handoff comments remain independently addressable.
-- **Wisdom before speed:** no source radius was changed merely to make north-low look like east-mid. The geometry is measured first; downstream policy remains held until its owner has evidence.
+**Truth:** the fresh Geometry disconnected-topology result and the Organic neutral radial-support interval are recorded as different evidence classes; neither is promoted into the other.
 
-## Next trigger
+**Agency / non-domination:** Organic does not seize Geometry junction design, Rigging weights/hierarchy, Animation/VFX motion, Technical-Art transport, Runtime device behavior, or Art/QA judgment.
 
-Re-scan the full constellation first. Do not extend Nature by cadence. A legitimate next Organic source mutation requires a downstream defect specifically localized to Organic-owned anatomy/form, mass, proportion, silhouette, branch/leaf/trunk placement, authored positions/radii or flex metadata after topology, hierarchy, transport, coordinate-sign, motion, representation and presentation explanations are separated.
+**Continuity:** existing Organic PR #8, exact source/form owner, source digest, generated mesh identity, visual evidence and the immediately preceding status blob remain preserved. No source compensation was made merely because Geometry exposed a production-topology HOLD.
+
+**Wisdom before speed:** the smallest reusable source-form handoff was measured first. A production junction is not invented until an owning Geometry experiment actually needs one.
+
+The four AXM roots remain the merge gate.
+
+## Next legitimate Organic trigger
+
+Do not reshape this tree or invent a connected junction by cadence. Re-open source form only if downstream evidence returns a defect specifically localized to Organic-owned centerlines/radii/mass/proportion/landmarks, or if Geometry explicitly requests a source-form junction change after separating topology strategy from the current diagnostic receiver.
+
+Character review-006 and Animal selected-003 remain frozen until similarly localized evidence appears.
+
+No botanical/biological correctness, tissue mechanics, trunk/branch strength, physical flex law, valid plant ROM, connected production topology, production skinning/weights, deformation quality, physical wind, continuous collision freedom, target-host/device readiness, final Art/QA acceptance, CANON, production/game readiness, or Organic mastery is claimed.
