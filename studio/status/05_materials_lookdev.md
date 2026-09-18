@@ -2,243 +2,175 @@
 
 Date: 2026-09-18
 
-State: **PASS_EVIDENCE_MECHANICS__FAIL_OBJECT_HINGE_SUCCESSOR003_RELATIVE_FACET_PHASE_VISUAL_REPAIR / OBJECT_MATERIALS_PR6_HEAD_4E641198_DRAFT_UNMERGED / EXACT_RIGGING_OWNER_BOUND / REAR_3Q_NEAR_WHITE_1625_TO_1633_IOU_0P990226 / REAR_GRAZING_REGRESSION_0_TO_158_NEAR_WHITE / SIDE_3Q_NONREGRESSION / HOLD_ART_QA_SOURCE_DEFAULT_TA_RUNTIME_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_NATURE_TA_PROOF_NORMAL_DIRECTION_SURVIVES_SHADED_MATERIAL_RECEIVER__PASS54_EXACT_CARRIER_ONLY / NATURE_MATERIALS_PR5_HEAD_7EBBD685_DRAFT_UNMERGED / CORRECTED_0_PIXELS_GT_1_LSB / POSITION_ONLY_NEGATIVE_17487_PIXELS_GT_1_LSB / HOLD_FINAL_REGION_TANGENT_NORMALMAP_ART_ENV_RUNTIME_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, the current specialist-status constellation, active Object / Building lanes and the latest Art Direction / Visual QA / Hard Surface / Rigging returns before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, this status, and the current Art Direction / Technical Art / Runtime / Visual QA constellation before acting.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product contract/test changes and real-render evidence remain in the existing Object Materials lane.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product evidence and renderer-facing work remain in the existing Nature Materials lane.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Materials status is preserved exactly at blob **`f50ee286a0bfb43e9ffc730cd0ca0f23038a670c`**. It records the Building utility-panel clearance-successor proof at Materials PR #3 exact head `eb31efc1639f58f2797bac44ce7f1bad774841ef`. That Building result and its downstream holds remain history and are not rewritten.
+The immediately preceding Materials status is preserved exactly at blob **`50eb8fa1c18de8ca89f52e481892780a9059a45a`**. It records the Object successor003 relative-facet-phase visual FAIL and its explicit HOLD; that Object result remains history and is not rewritten.
 
 ## Selection / full-constellation scan
 
-Building was **not** continued by cadence. Its Art-accepted utility-panel surface has already been rebound onto the current `0.10 m` source clearance successor; independent Visual QA passed the isolated local receiver and explicitly left the next legitimate step to Environment / downstream adoption rather than another Materials variant.
+Object was **not** continued by cadence. Its last bounded Materials result showed that the single Art-authorized successor003 `body 0° / lid +15°` source-phase candidate failed to repair the retained hinge highlight hierarchy and introduced a rear-grazing regression. The next legitimate Object move remains with Art Direction / independent Visual QA unless they return a genuinely new bounded Materials-owned degree of freedom.
 
-Object now had the strongest fresh Materials-owned receiver seam:
+Building was also not reopened. Its material successor and current-receiver transport have already progressed to downstream Environment / Art / QA gates; no fresh bounded Materials defect displaced the open Nature receiver question.
 
-- Art Direction 047 froze the best current `hardware_steel` review reference at **`#7E868AFF / metallic 0.88 / roughness 0.32`** after scalar material tuning failed to remove the rear-three-quarter synchronized hinge highlight footprint;
-- Art authorized exactly **one** Hard-Surface-owned relative 12-gon facet-phase successor and explicitly requested Materials to rebind it under the frozen material/camera/light conditions;
-- Hard Surface PR #25 returned successor003 structurally green at exact head `ef1dfc2f2c1adbe3c90ba089c66ac09d223df25c`: body-owned knuckles remain at `0°`, lid-owned knuckles use `+15°`, with no phase sweep;
-- Rigging PR #27 subsequently returned exact compatibility head `0974a97af10fedf62a5803a88921faf96f3448d5`, proving that the source `+15°` lid phase composes exactly once through the unchanged +X `0..110°` hinge domain;
-- Visual QA's last Object note explicitly held the successor003 visual question until Materials produced an exact receiving render packet.
+Nature had the strongest unfinished Materials-owned seam: Technical Art already supplied an exact position+normal transport proof, and Materials had authored the real shaded receiving observer on existing Nature PR #5, but the prior activation ended before the exact-head workflow result was available. This activation consumed that exact result rather than opening another lane or retuning the material family.
 
-Weapon / Armor / Character / Unit / Animal / Nature / Weather / Map / Misc did not expose a stronger completed, unowned Materials defect than this explicit Art-returned Object seam. No new Materials PR was opened.
+No new Materials PR was opened.
 
-## Existing Materials lane advanced
+## Existing Materials lane
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-nature-design`
 
-PR #6 — `Materials: prove functional surface separation on case + module`
+PR #5 — `Materials: add bounded sapling bark/leaf lookdev profile`
 
-Branch: `studio/materials-object-functional-surface-001`
+Branch: `studio/materials-sapling-lookdev-001`
 
-Exact final tested Materials head:
+Exact tested Materials head:
 
-**`4e6411988444939241e420e38792f2e48b284d7f`**
+**`7ebbd685c912deb8a9c89fd981c3845784233884`**
 
-PR state after this activation: **open / draft / mergeable / unmerged**. No merge, rebase, retarget, source/default adoption or owner transfer was performed.
+PR state: **open / draft / mergeable / unmerged**. No merge, rebase, retarget, source/default adoption or authority transfer was performed.
 
-## Bounded improvement
+## Bounded improvement closed
 
-The real successor003 A/B machinery already existed on this Materials lane, but its first exact render packet had been created before the later Rigging owner return was explicitly bound into the Materials contract.
+The bounded question is:
 
-This activation therefore made one narrow receiver/provenance improvement:
+> Does Technical Art's corrected position+normal transport preserve the intended normal direction when received by a real lit Materials shader on the exact PASS54 Nature carrier, rather than only in structural/debug evidence?
 
-1. added exact Rigging owner identity to `lookdev/object_hinge_successor003_relative_facet_phase_material_review_001.json`;
-2. added a fail-closed unit test that requires the exact Rigging head/artifact/result/source-phase identity while preserving all downstream acceptance booleans as false;
-3. reran the **same** frozen real-render A/B.
+The proof intentionally keeps the existing scalar Nature families and transport owner chain fixed and compares three paths:
 
-Exact newly bound Rigging owner:
+1. CPU position+normal control;
+2. corrected Technical-Art position+normal transport;
+3. position-only transport as the deliberate negative.
 
-- PR #27 head: **`0974a97af10fedf62a5803a88921faf96f3448d5`**;
-- retained artifact: **`10539181299`**;
-- artifact SHA-256: **`85afbaa5fd948ed5135826fbe0d8c842b6917545c2d897e2756dc098dbc1731b`**;
-- result: `PASS_HINGE_RELATIVE_FACET_PHASE_SUCCESSOR_RIG_PHASE_COMPOSITION_CONTINUOUS_0_TO_110`;
-- successor003 head: `ef1dfc2f2c1adbe3c90ba089c66ac09d223df25c`;
-- successor003 contract blob: `e7a44523ea80e567a745cd61af7fd7005757cc12`;
-- joint: `rear-lid-hinge-001`;
-- axis: `[1,0,0]`;
-- opening sign: `-1`;
-- source angle domain: `[0°,110°]`;
-- body phase: `0°`;
-- lid phase: `+15°`;
-- visual authority: false.
+The proof uses:
 
-No material scalar, UV, texture, Hard-Surface source byte, Technical-Art control GLB, camera, light, exposure or renderer parameter changed.
+- exact receiver: **390 vertices / 390 normals / 570 triangles / 10 runtime VERTEX_ID runs**;
+- contexts: `three_quarter`, `low_grazing`;
+- five shared driver witnesses: `-5°, -2.5°, 0°, +2.5°, +5°`;
+- woody family: `#5C3B27FF`, roughness `0.84`, metallic `0.0`;
+- foliage family: `#5A823EFF`, roughness `0.58`, metallic `0.0`;
+- culling disabled only to remove sidedness as a variable in this proof host;
+- no normal map and no tangent-space shading.
 
-A direct archive comparison confirms all **12 retained PNGs are byte-identical** between the first unbound exact-head packet (`5509084a...`) and this Rigging-bound exact-head packet. The new result therefore changes provenance completeness, not the rendered image.
+No material scalar, geometry, GLB, transport math, camera, light, renderer or acceptance threshold was retuned after the proof was authored.
 
-## Exact owner / provenance chain
+## Exact provenance chain
 
-### Frozen Materials review reference
+Retained packet binds:
 
-- predecessor Materials reference head: `134e9a7622868acbd184519eade15996ab20fbbe`;
-- `hardware_steel` albedo: **`#7E868AFF`**;
-- metallic: **`0.88`**;
-- roughness: **`0.32`**;
-- no more scalar search under Direction 047.
-
-### Hard Surface successor003
-
-- PR #25 exact head: **`ef1dfc2f2c1adbe3c90ba089c66ac09d223df25c`**;
-- artifact: **`10538130737`**;
-- SHA-256: **`b3d684146ca109f968f330a2b32e2923e2425c6a187db92987c3773fdbd9d016`**;
-- candidate: 5 closed annular knuckles / 240 vertices / 480 triangles;
-- body phase `0°`, lid phase `+15°`;
-- all source dimensions, ownership, axial placement, bore and stop envelopes remain frozen.
-
-### Technical Art baseline
-
-- PR #16 exact baseline head: `f430d00d98e694dcf8302fd4df3c64a074f6f30e`;
-- baseline artifact: `10531541834`;
-- control successor002 GLB SHA-256: `f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`;
-- generic UC head: `9609998db6677391766e9ee7ff53a5b9b08a3cb9`.
-
-Materials re-executes the pinned Technical-Art helpers only to construct this local review carrier. No Technical-Art successor003 transport adoption is claimed.
+- Materials head: **`7ebbd685c912deb8a9c89fd981c3845784233884`**;
+- Technical Art head: **`1cd1784cbc2d0fb5ffdf23e9e2d9a50b50d90641`**;
+- Runtime owner head: **`6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`**;
+- Runtime candidate head: **`520068e1167f369b24e749831954f9bda1cd7aec`**;
+- UC head: **`520584c87071837e8dc1ff9a39da140f5efa229d`**;
+- exact material-family blob: **`6b9b7ffd760bd169657b9e3dd73689d334ee2dd7`**.
 
 ## Dedicated workflow / real renderer
 
 Workflow:
 
-**`35328613501 — Object material hinge successor003 relative-facet-phase review`**
+**`35339871895 — Materials Nature shaded normal receive evidence`**
 
 Result: **SUCCESS**.
 
-The complete Object suite and exact bounded contract checks passed; the real-render lane completed in:
+Renderer:
 
-**Godot 4.7.2-stable official / GL Compatibility / X11 / Mesa llvmpipe (LLVM 20.1.2, 256 bits)**.
+**Godot 4.7.2-stable official / GL Compatibility**.
 
-Complete receiver identity remains:
+Retained artifact:
 
-- **31 visible mesh nodes**;
-- **1,052 triangles**;
-- exact hinge subset: 5 nodes / **480 triangles**.
+- ID: **`10544826020`**;
+- name: `nature-material-shaded-normal-receive-7ebbd685c912deb8a9c89fd981c3845784233884`;
+- size: **`1,069,440 B`**;
+- archive SHA-256: **`6d746f56666bd47b03d3a4c6eb57f23879405a54b9715662b862a74ad25089a5`**;
+- retained real renders: **60 PNGs**.
 
-Aggregate control-vs-candidate image delta across the three retained views: **10,282 pixels >1 LSB**.
+The archive was downloaded and independently rehashed to the same digest.
 
-Evidence state from the runtime packet is `PASS_EVIDENCE`; that state is deliberately kept separate from the visual hypothesis verdict below.
+## Real-render result
 
-## Real-render comparison / visual verdict
+Runtime receipt state:
 
-### Primary witness — rear three-quarter: FAIL repair
+**`PASS_NATURE_TA_PROOF_NORMAL_DIRECTION_SURVIVES_SHADED_MATERIAL_RECEIVER__PASS54_EXACT_CARRIER_ONLY`**
 
-Frozen successor002 control -> successor003 `+15°` lid-phase candidate:
+Across both lighting/view contexts, both existing scalar material families and all non-neutral driver witnesses:
 
-- near-white hinge pixels (`L >= 0.90`): **`1,625 -> 1,633`**;
-- near-white intersection-over-union: **`0.9902260232`**;
-- fully-white hinge pixels: **`1,384 -> 1,392`**;
-- hinge share at/above visible p99: `0.558716 -> 0.548374`;
-- changed pixels >1 LSB: **`3,285`**.
+- corrected position+normal vs CPU position+normal control: **0 pixels >1 LSB aggregate**;
+- corrected absolute channel delta sum: **938**;
+- position-only negative vs CPU control: **17,487 pixels >1 LSB aggregate**;
+- position-only negative absolute channel delta sum: **266,474**;
+- corrected path is better in all **16/16 non-zero driver/material/context comparisons**;
+- neutral-equivalence checks: **4**;
+- active-driver checks: **4**;
+- active-material-context checks: **2**.
 
-The candidate is renderer-visible, but it leaves essentially the same synchronized near-white footprint and slightly increases the near-white / fully-white pixel count. The one source-phase hypothesis therefore does **not** close the retained rear-three-quarter defect.
+The corrected path differs from the CPU control only by 1-LSB raster noise while the position-only negative becomes visibly and numerically wrong once the shared driver moves away from neutral. The shader/material receiver is demonstrably active: the control itself changes substantially between neutral and `+5°`, and woody/foliage families remain visibly distinct.
 
-The exact current near-white connected-component accounting is retained as evidence rather than forced to match the earlier five-main-knuckle shorthand: control records 7 components with sizes `[683,460,325,54,52,40,11]`; candidate records 6 `[683,460,325,59,54,52]`. The dominant footprint remains almost identical, as shown by the `0.990226` IoU.
+## Failure history preserved
 
-### Rear grazing: FAIL non-regression
+Two predecessor failures remain part of the evidence trail:
 
-- near-white hinge pixels: **`0 -> 158`**;
-- fully-white hinge pixels: **`0 -> 158`**;
-- hinge share at/above visible p99: `0.582348 -> 0.615688`;
-- hinge mean luminance: `0.328759 -> 0.335695`;
-- changed pixels >1 LSB: **`2,998`**.
+1. the proof-host GDScript incorrectly used a three-argument `String.replace` call;
+2. after that repair, the shader splice computed the `fragment()` index before shortening the render-mode text, producing a malformed generated fragment signature.
 
-The candidate introduces a new compact near-white/full-white hinge highlight in a view that previously had none.
-
-### Side three-quarter: PASS non-regression witness
-
-- near-white hinge pixels: **`0 -> 0`**;
-- fully-white hinge pixels: **`0 -> 0`**;
-- hinge share at/above visible p99: **`0.0 -> 0.0`**;
-- p95 luminance remains `0.418826`;
-- changed pixels >1 LSB: **`3,999`**.
-
-The source phase is visibly different at pixel level while preserving the previously good side-view highlight hierarchy.
+The final repair changed only those implementation mechanics. It did **not** change material values, geometry, GLB bytes, transport math, cameras, lights, renderer or acceptance thresholds.
 
 ## Materials decision
 
-**`PASS_EVIDENCE_MECHANICS__FAIL_OBJECT_HINGE_SUCCESSOR003_RELATIVE_FACET_PHASE_VISUAL_REPAIR__HOLD_FINAL_OBJECT_HINGE_VISUAL_ADOPTION`**
+**`PASS_NATURE_TA_PROOF_NORMAL_DIRECTION_SURVIVES_SHADED_MATERIAL_RECEIVER__PASS54_EXACT_CARRIER_ONLY`**
 
 Meaning:
 
-> The exact single Art-authorized `+15°` lid-vs-body regular-12-gon facet-phase successor is structurally and Rigging compatible and is cleanly visible in the frozen Materials proof host, but it does not materially break the retained rear-three-quarter near-white hinge footprint and it creates a rear-grazing highlight regression. It is therefore not promoted as the visual repair.
+> On this exact PASS54 Nature carrier and this exact Godot proof host, Technical Art's corrected position+normal transport preserves the CPU-control shaded response across the retained driver/material/view comparisons, while the deliberate position-only transport diverges under non-neutral motion.
 
-No second phase candidate is opened. No base-value, roughness, metallic, texture, normal, wear, UV, camera, lighting or exposure search is reopened. A different repair degree of freedom requires a fresh Art Direction return.
+This is a receiving/transport proof, not a final Nature lookdev acceptance.
 
-## Retained exact evidence
-
-Artifact:
-
-- ID: **`10539708977`**;
-- name: `object-material-hinge-successor003-relative-facet-phase-4e6411988444939241e420e38792f2e48b284d7f`;
-- size: **`344,018 B`**;
-- archive SHA-256: **`198c64aefb86cbda32ff3996855cf829711f7de1371946ea5e01b64a0e25eabf`**;
-- expiry: 2026-10-18.
-
-The archive was independently downloaded and rehashed to the exact same digest.
-
-Exact handoffs:
-
-- Object Materials PR #6 result comment: **`5727932688`**;
-- Object Hard-Surface PR #25 downstream visual return: **`5727935025`**;
-- Object Rigging PR #27 receiver return: **`5727937112`**.
-
-The Hard-Surface and Rigging returns explicitly preserve their structural/compatibility PASSes; the failed visual hypothesis is not relabelled as a source or rig failure.
-
-## Same-head workflow truth
-
-The dedicated successor003 Materials workflow is green, and the relevant Materials/Hard-Surface interface workflows observed on this exact head are green.
-
-One inherited owner workflow remains red:
-
-- `35328614050 — Object service-module fit evidence` — **FAILURE**.
-
-This is the already identified stale receiver/base provenance signal: Object Materials PR #6 still stacks from older Hard-Surface base identity `9a052431...`, while the current Hard-Surface service-module owner PR #5 is `e9076b546dab2e12ba2c3649fd0021a62841be10` and carries a complete four-commit source-authority update including a new standoff-reference verifier.
-
-That unrelated owner lane is not weakened, cherry-picked or silently repaired inside this bounded visual activation. If branch reconciliation is later chosen, the complete advanced owner payload must be reconciled as a unit and retested.
+Exact handoff was posted back to Nature Materials PR #5 as comment **`5729930689`**.
 
 ## Reusable discovery / careful propagation
 
-Two narrow evidence lessons are retained:
+One narrow evidence pattern is retained:
 
-1. **A source-space facet-orientation hypothesis must be judged under the exact frozen material/light/view receiver, not inferred from structural viability.** Here a substantial source-phase change was clearly renderer-visible but did not move the critical near-white footprint enough and introduced a second-view regression.
-2. **When a downstream owner return arrives after a visual receiver was first built, bind that exact owner identity and rerun without visual retuning.** Byte-identical retained PNGs across the unbound and Rigging-bound packets prove that the provenance repair itself did not alter appearance.
+**When validating a moving normal transport through a material receiver, compare corrected transport against an independently posed position+normal control and keep a position-only negative under the same material, camera, light and driver witnesses.** A zero/near-zero corrected delta is meaningful only when the negative and the receiver itself are demonstrably active.
 
-These are evidence-discipline patterns only. They are not promoted into generic UC/PF source, material or renderer policy from one Object case.
+This is an evidence-discipline pattern, not a generic UC/PF normal or material policy from one Nature case.
 
 ## Authority / explicit HOLDs
 
 This activation does **not** establish:
 
-- successor003 source/default adoption;
-- a second or optimal facet-phase value;
-- final `hardware_steel` material values;
-- final UVs, textures, normals, wear, decals or manufacturing finish;
-- Technical-Art successor003 transport adoption;
-- Animation adoption;
-- Runtime / target-device CPU/GPU/FPS/VRAM/thermal acceptance;
-- physics, collision, load, wear or manufacturing acceptance;
-- final Art Direction acceptance;
-- independent Visual QA acceptance;
-- arbitrary renderer equivalence;
+- final woody/foliage region assignment;
+- tangent transport;
+- normal-map or tangent-space shading correctness;
+- production UVs/textures or bark/leaf microdetail;
+- final foliage sidedness policy beyond this proof-host variable isolation;
+- final Nature lookdev or Art Direction acceptance;
+- Environment / map adoption;
+- target-device CPU/GPU/FPS/VRAM/thermal acceptance;
+- physical wind or final animation timing;
+- arbitrary-renderer equivalence;
+- a generic UC material/normal policy;
 - CANON;
 - production/game readiness;
-- Materials, Hard Surface, Rigging or any specialist mastery.
+- Materials, Technical Art, Runtime or any specialist mastery.
 
 ## Next legitimate gate
 
-Return this exact Rigging-bound render packet to **Art Direction + independent Visual QA**.
+Return this exact shaded-normal receiving proof to the relevant downstream owner only if it helps a concrete Nature integration question. Materials should **not** automatically add texture/normal-map complexity or invent final region assignment from this transport result.
 
-Materials should not invent another phase, material scalar or surface variant automatically. If Art/QA choose a new bounded repair degree of freedom, re-scan the full constellation and act only inside the resulting explicit Materials-owned seam.
-
-The separate stale Object service-module base remains a branch-integration/provenance issue and should be reconciled only as a complete owner payload, not opportunistically folded into this visual result.
+On the next activation, re-scan the full constellation and choose a fresh bounded Materials-owned seam rather than continuing Nature by cadence.
 
 ## Four-root gate
 
-- **Truth:** workflow success is separated from visual failure; exact owner heads/artifacts, renderer, per-view metrics, PNG identity, retained digest and inherited stale-base red workflow are explicit.
-- **Agency / non-domination:** Materials did not seize Hard Surface, Rigging, Technical Art, Runtime, Art/QA, merge, source-default or CANON authority and did not open an unauthorized second candidate.
-- **Continuity:** preceding Materials status blob `f50ee286a0bfb43e9ffc730cd0ca0f23038a670c`, Building history, the frozen `#7E868A / m0.88 / r0.32` reference and all owner artifacts remain rollback-addressable.
-- **Wisdom before speed:** one exact owner-returned hypothesis was provenance-completed and rerendered before any further search; the negative result stops the lane instead of encouraging parameter fishing.
+- **Truth:** exact workflow, owner heads, retained artifact, renderer, quantitative corrected/negative comparison and implementation-only predecessor failures are explicit; no aesthetic or production claim is smuggled into the transport PASS.
+- **Agency / non-domination:** Materials did not seize Technical Art, Runtime, Art/QA, Environment, merge, source-default or CANON authority.
+- **Continuity:** preceding Materials status blob `50eb8fa1c18de8ca89f52e481892780a9059a45a`, Object history and all exact Nature owner/artifact identities remain rollback-addressable.
+- **Wisdom before speed:** the previously pending exact-head evidence was consumed and closed before opening another variant, and the result stops at the proven shaded-receiver boundary instead of expanding into texture or normal-map scope.
