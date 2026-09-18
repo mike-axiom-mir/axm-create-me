@@ -2,159 +2,129 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_RUNTIME_VFX_V2_MULTIMESH_VISUAL_EQUIVALENCE__SIX_RETAINED_PAIRS / PASS_OBJECT_RUNTIME_VFX_V2_OWNER_CONTINUITY__FOUR_PINNED_DONOR_BOUND_SAMPLES / BLOCKED_FINAL_OBJECT_RELEASE_MOTE_RUNTIME_ADOPTION__TARGET_DEVICE_PRODUCTION_PARTICLE_RUNTIME_PENDING / COORDINATION_ONLY**
+State: **PASS_MAP_BUILDING_UTILITY_PANEL_CURRENT_WORLD_VISUAL_LOCALIZATION_AND_PHASE_STABILITY__68_MATCHED_PAIRS / PASS_MAP_BUILDING_UTILITY_PANEL_OWNER_BOUND_TEXTURE_READABILITY__PATH_EYE_AND_ELEVATED_OBLIQUE / BLOCKED_FINAL_MAP_BUILDING_UTILITY_PANEL_MATERIAL_ADOPTION__ART_DIRECTION_RUNTIME_TARGET_DEVICE_PRODUCTION_SURFACE_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding Visual QA status, fresh Art Direction and Runtime status, and newest open PRs across the active 3D constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding Visual QA status, fresh Art Direction / Environment / Runtime state, and newest open PRs across the active 3D constellation.
 
-`axm-create-me` remains **coordination only**. QA changed no Object VFX source, Runtime representation, Animation timing, Environment camera, source geometry/material/rig, gameplay/physics, Universal Creation product code or CANON state. Product-repository action is limited to an independent review return on the existing Object Runtime PR.
+`axm-create-me` remains **coordination only**. QA changed no Building source, Geometry, UV contract, material values, Technical Art transport, Environment composition, Object/Nature/Weather state, Runtime representation, gameplay/physics, Universal Creation product code or CANON state. Product-repository action is limited to an independent review return on the existing Map Environment PR.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Selection / duplication scan
 
-The strongest fresh unverified visual/runtime claim is Object Runtime PR #32's exact repaired-VFX-v2 MultiMesh rebind at head `f7408712a90e5b0b7f3043f577580d912d8d0527`.
+The strongest complete unverified visual surface selected this activation is Map Environment PR #51's exact owner-bound Building utility-panel material in the current real Godot world at head `595df99daf866b5e3dcaa4be87eeb650af637919`.
 
 Why selected:
 
-- the immediately preceding QA activation independently passed Object VFX irregularity-v2 in the two owner close/seam contexts at exact VFX head `bc114ee7ec876107892ccedeefc8e5020315488a` and explicitly left Runtime v2 rebind as the next adoption gate;
-- Runtime has now rebound its existing 18-billboard -> one-MultiMesh lane to those exact owner bytes, preserving the repaired irregularity-v2 source instead of silently inheriting the older pre-v2 result;
-- Art Direction 040 explicitly records independent QA of this Runtime representation as downstream while avoiding duplicate source-style review;
-- Animal Runtime PR #30's 41 -> 19 animation-key tradeoff remains an important queued QA surface, but Object Runtime #32 directly closes the current Object VFX blocker created by the preceding QA activation;
-- fresh Map Environment, Object Geometry/Hard-Surface and other structural lanes either retain their own owner reviews or do not expose a stronger immediate visual/runtime adoption gate.
-
-QA therefore reviews only the exact Runtime representation A/B and exact owner continuity. It does not reopen the source effect, seed, timing, camera framing or wide-Map visibility question.
+- Environment explicitly leaves exact current-world appearance/readability to Art Direction + independent Visual QA;
+- the packet contains a complete 68-pair / 136-frame real Godot A/B with both current cameras, both Weather branches and all 17 retained phases;
+- the immediately preceding Object VFX-v2 Runtime representation already received independent QA and is not reopened;
+- Art Direction's Weather temporal-exposure lane is independently owned and is not duplicated here;
+- Animal 19-key Runtime tradeoff remains queued, but the Building panel is the freshest complete multi-asset current-world appearance handoff;
+- Map Runtime PR #52 is a child representation optimization over this exact material receiver. Its dedicated workflow completed green during this activation, but that representation result cannot answer whether the underlying owner-bound material itself is visually coherent/readable. PR #52 therefore remains a separate later QA surface rather than replacing this upstream appearance gate.
 
 ## Exact evidence identity
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-map-design`
 
-PR: **#32 — `Runtime: batch lid-release motes with one MultiMesh`**
+PR: **#51 — `Environment: review Building utility-panel material in current world`**
 
-Exact Runtime head: **`f7408712a90e5b0b7f3043f577580d912d8d0527`**.
+Exact head: **`595df99daf866b5e3dcaa4be87eeb650af637919`**.
 
-Exact repaired VFX-v2 owner head: **`bc114ee7ec876107892ccedeefc8e5020315488a`**.
+At review time PR #51 remains **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-At review time PR #32 remains **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Dedicated workflow: `35300420073 — Environment Building utility-panel material current-world A-B` — **SUCCESS**.
 
-Dedicated Runtime workflow: **`35293235512 — Object Runtime lid-release mote v2 MultiMesh rebind` — SUCCESS**.
+Retained artifact:
 
-Retained Runtime artifact:
+- ID `10529154954`;
+- expected and independently reproduced SHA-256 `3e102488b5e85766ddae4b6b83e44a6347171cbd8d8f6961486c8c3774a608c7`;
+- 136 real Godot PNGs: 68 scalar-control + 68 exact owner-bound material candidate frames.
 
-- ID **`10527058339`**;
-- size **`476,207 B`**;
-- expected / independently reproduced SHA-256 **`4855242783de6fd828aaf7dd9f232815d74c9f4bab676c639b17f46fe1935795`**.
+The exact receiver keeps Building geometry, the 184v / 276t / five-surface partition, articulated Object state, +20 mm service dressing, both current Nature bodies, Weather source-width presentation, cameras and lighting fixed. Only the `utility_panel_ochre` surface receives the exact Technical Art UV/image binding.
 
-Exact repaired VFX-v2 owner artifact independently rehashes to **`521575306651a0c3b41280315da4c75df6d55ae3a2ae0e6e8b40ba740bf81d17`**.
+## PASS — localized current-world visual delivery and phase stability
 
-The source-owned effect remains seed `41027`, 18 motes and the repaired irregularity-v2 presentation. Runtime changes representation only.
+**`PASS_MAP_BUILDING_UTILITY_PANEL_CURRENT_WORLD_VISUAL_LOCALIZATION_AND_PHASE_STABILITY__68_MATCHED_PAIRS`**
 
-## PASS — exact owner continuity survives the Runtime rebind
+QA independently remeasured all 68 control/candidate PNG pairs using exact 8-bit RGB deltas:
 
-**`PASS_OBJECT_RUNTIME_VFX_V2_OWNER_CONTINUITY__FOUR_PINNED_DONOR_BOUND_SAMPLES`**
+- raw changed pixels total: **269,415**;
+- pixels above 1 LSB total: **239,530**;
+- maximum channel delta: **48 LSB**;
+- pairs with >1-LSB change: **68 / 68**.
 
-QA independently compared the retained repaired-VFX-v2 donor packet against Runtime's legacy/control path at the four owner-bound samples:
+Per retained phase:
 
-- continuity `0.20 s`;
-- continuity `0.40 s`;
-- continuity `0.80 s`;
-- left-oblique seam `0.40 s`.
+- `path_eye`: exactly **4,878 pixels >1 LSB** in every phase, bounded to `[388,309,739,389]`;
+- `elevated_oblique`: exactly **2,167 pixels >1 LSB** in every phase, bounded to `[612,223,880,328]`.
 
-For all four samples:
+For both Weather modes and both cameras, the >1-LSB material-delta mask is identical across all 17 phases: Jaccard **1.0** against phase 00 for every phase. QA therefore reproduced no phase-dependent material flicker, wandering UV/material footprint, or unrelated world delta.
 
-- donor candidate and Runtime legacy PNG are byte-identical;
-- donor control and Runtime control PNG are byte-identical.
+Representative phase-08 component inspection also keeps the effect concentrated in the intended utility-panel regions rather than turning into a whole-world raster shift.
 
-This proves the Runtime A/B is anchored to the exact visually approved repaired owner packet rather than a regenerated lookalike or historical pre-v2 presentation.
+## PASS — owner-bound texture is readable in both existing current-world cameras
 
-## PASS — MultiMesh visual equivalence on all six retained Runtime pairs
+**`PASS_MAP_BUILDING_UTILITY_PANEL_OWNER_BOUND_TEXTURE_READABILITY__PATH_EYE_AND_ELEVATED_OBLIQUE`**
 
-**`PASS_OBJECT_RUNTIME_VFX_V2_MULTIMESH_VISUAL_EQUIVALENCE__SIX_RETAINED_PAIRS`**
+Direct retained-frame inspection shows a clear owner-bound regular panel pattern in both existing cameras. Relative to the scalar ochre control, the candidate reads as a structured dark/light grid/check surface on the utility-panel faces.
 
-QA independently remeasured all six legacy-versus-MultiMesh retained PNG pairs:
+QA reproduced no:
 
-| context / time | active motes | raw changed pixels | pixels >1 LSB | max channel delta |
-| --- | ---: | ---: | ---: | ---: |
-| continuity 0.20 s | 0 | 0 | 0 | 0 LSB |
-| continuity 0.30 s | 11 | 3 | 0 | 1 LSB |
-| continuity 0.40 s | 18 | 22 | 0 | 1 LSB |
-| continuity 0.52 s | 18 | 7 | 0 | 1 LSB |
-| continuity 0.80 s | 0 | 0 | 0 | 0 LSB |
-| left-oblique seam 0.40 s | 18 | 25 | 0 | 1 LSB |
+- gross Building geometry break;
+- UV explosion or obvious receiver wrap failure;
+- detached or missing utility-panel surface;
+- material bleed onto the galvanized frame or dark infill;
+- whole-scene shift;
+- unrelated Object/Nature/Weather corruption;
+- phase-dependent panel flicker in the retained observations.
 
-Aggregate exact-PNG result:
+The pattern is visibly high-frequency and regular. That is recorded as a real appearance characteristic, not promoted to an aesthetic preference. Art Direction still owns whether this is the preferred/final Building look.
 
-- six pairs inspected;
-- **2/6 byte-identical**;
-- **57 raw changed pixels total**;
-- **0 pixels >1 LSB total**;
-- maximum channel delta **1 LSB**.
+## BLOCKED — final Building panel material adoption
 
-The four non-identical pair deltas are isolated 1-LSB raster samples. Direct close inspection reproduces no coherent mote displacement, billboard scale/aspect loss, alpha-envelope change, missing-mote region, rigid equal-bead regression, case/lid corruption or inactive closure failure.
+**`BLOCKED_FINAL_MAP_BUILDING_UTILITY_PANEL_MATERIAL_ADOPTION__ART_DIRECTION_RUNTIME_TARGET_DEVICE_PRODUCTION_SURFACE_PENDING`**
 
-The observer is not comparing empty frames: at exact `0.40 s`, candidate/control still reproduces the repaired owner effect with **1,239 changed pixels** in continuity and **1,643 changed pixels** in the seam context.
+This activation does **not** establish:
 
-QA therefore accepts the retained-view Runtime representation as visually equivalent to the legacy owner receiver for this exact bounded effect.
+- final Art Direction preference or final lookdev acceptance;
+- Building source/Geometry equivalence for Technical Art's non-service-face receiver-fill UVs;
+- production UV quality, texel-density policy, texture-content, decals, wear or final material authoring;
+- arbitrary camera, resolution, FOV, renderer or lighting equivalence;
+- target-device CPU/GPU/FPS/VRAM/texture-memory/thermal behavior;
+- gameplay, collision or navigation readiness;
+- Environment adoption;
+- CANON or production/game readiness.
 
-## Runtime evidence boundary
+The exact `+576 B` buffer and `+1,398,100 B` texture-memory observation remains Runtime evidence only. QA does not convert it into a device/performance PASS.
 
-The exact retained Runtime receipt reports at `0.40 s` continuity with all 18 motes active:
+## Fresh child Runtime lane boundary
 
-- total frame draws **49 -> 32**;
-- isolated VFX contribution **18 -> 1 draw call**;
-- objects in frame **49 -> 32**;
-- primitives **848 -> 848**;
-- buffer memory unchanged;
-- video memory unchanged.
-
-QA verifies the evidence identity and the retained A/B presentation, but this is **not** target-device performance acceptance and does not become a universal transparent-VFX batching rule.
-
-## BLOCKED — final Object release-mote Runtime adoption
-
-**`BLOCKED_FINAL_OBJECT_RELEASE_MOTE_RUNTIME_ADOPTION__TARGET_DEVICE_PRODUCTION_PARTICLE_RUNTIME_PENDING`**
-
-The exact repaired owner presentation now has bounded Art + independent QA acceptance, and the exact one-MultiMesh Runtime representation now has bounded independent visual-equivalence acceptance.
-
-Final Runtime adoption remains separately held because this activation does **not** establish:
-
-- arbitrary-camera or arbitrary-context equivalence;
-- arbitrary transparent-effect ordering/equivalence;
-- production particle-runtime suitability;
-- target-device CPU/GPU/FPS/VRAM/heap/thermal/battery behavior;
-- gameplay/controller/collision/damage/interaction semantics;
-- CANON or production readiness.
-
-No automatic producer/UC adoption follows from the retained proof-host draw-call win.
+Map Runtime PR #52, exact head `1afa51cb89b536db0d2434328722a1521febe0ad`, completed its dedicated RGB8 alpha-elision workflow successfully during this activation. It is a separate representation-only child of PR #51. No visual/device/adoption claim from PR #52 transfers automatically through this PR #51 appearance PASS, and this activation does not review or adopt the RGB8 candidate.
 
 ## Independent review return
 
-QA returned the exact result to Object Runtime PR #32 as review **`5243410891`**, anchored to exact head **`f7408712a90e5b0b7f3043f577580d912d8d0527`**.
+QA returned the exact result to Map Environment PR #51 as review **`5243819655`**, anchored to exact head `595df99daf866b5e3dcaa4be87eeb650af637919`.
 
-No VFX retune, source amplification, Animation retime, seed change, camera change, Runtime rewrite, merge, UC mutation or CANON promotion was requested.
+No source/material retune, camera change, UV rewrite, Runtime rewrite, merge, UC mutation or CANON promotion was requested.
 
 ## Prior retained QA continuity
 
-The immediately preceding Object VFX source-presentation result remains exact historical truth and is not rewritten:
+The immediately preceding Object Runtime VFX-v2 result remains exact historical truth and is not rewritten:
 
-- `PASS_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_CLOSE_PRESENTATION__RIGID_EQUAL_BEAD_TRAIL_SUFFICIENTLY_BROKEN__TWO_OWNER_CONTEXTS`;
-- `PASS_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_LOCALITY_AND_STATIC_CLOSURE__TWO_OWNER_CONTEXTS`;
-- the exact source head remains `bc114ee7ec876107892ccedeefc8e5020315488a`;
-- the earlier wide-Map zero-raster result remains valid only for those wide contexts and does not negate the close-presentation PASS.
+- `PASS_OBJECT_RUNTIME_VFX_V2_MULTIMESH_VISUAL_EQUIVALENCE__SIX_RETAINED_PAIRS`;
+- `PASS_OBJECT_RUNTIME_VFX_V2_OWNER_CONTINUITY__FOUR_PINNED_DONOR_BOUND_SAMPLES`;
+- final target-device / production-particle-runtime adoption remains held.
 
-The earlier Technical-Art rigid-shell culling result also remains exact historical truth:
-
-- corrected transport ordinary-cull visual coherence PASS;
-- unadapted transport ordinary-cull visual coherence FAIL;
-- final rigid-shell production adoption remains separately held.
-
-Earlier compact-east cadence/crest failures, Object latch proofs, Animal tangent-frame evidence, Character shaded-motion evidence and all separate HOLDs remain bound to their exact historical heads. No acceptance transfers by analogy.
+The earlier Object VFX source-presentation PASS, corrected rigid-shell culling PASS / unadapted FAIL, compact-east cadence/crest failures, Object latch proofs, Animal tangent-frame evidence, Character shaded-motion evidence and all separate HOLDs remain bound to their exact historical heads. No acceptance transfers by analogy.
 
 ## Four-root gate
 
-- **Truth:** exact owner bytes, exact Runtime artifact, all six A/B pairs, the 57 raw 1-LSB residuals and the still-open target-device/production-runtime boundary are recorded separately.
-- **Agency / non-domination:** QA accepts the retained visual representation but does not seize VFX source authority, Runtime target-device policy, Animation timing, gameplay semantics or UC placement.
-- **Continuity:** the historical pre-v2 Runtime evidence, repaired v2 owner presentation, exact donor rebind and current Runtime PASS remain independently addressable and recoverable.
-- **Wisdom before speed:** the studio accepts the measured representation only where direct evidence supports it, while stopping before target-device or production-runtime claims.
+- **Truth:** all 68 exact A/B pairs, the real visible panel pattern, phase-stable localization and still-open aesthetic/device boundaries are recorded separately.
+- **Agency / non-domination:** QA accepts only observable localization/readability and does not seize Building Materials, Technical Art UV/source semantics, Environment adoption, Runtime/device or Art Direction authority.
+- **Continuity:** PR #49 remains the Environment parent, PR #24 remains historical rollback/default, PR #51 remains an explicit successor, and PR #52 remains a distinct child representation lane.
+- **Wisdom before speed:** the studio closes the current-world visual-coherence question on direct evidence but stops before aesthetic preference, production-surface or device claims.
 
 The four AXM roots remain the merge gate.
