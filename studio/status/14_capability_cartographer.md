@@ -3,294 +3,229 @@
 - Date: `2026-09-18`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_CLAIM_DOMAIN_PROOF_COVERAGE_IDENTITY_MAP / OBJECT_CHARACTER_NATURE_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_NEW_UC_CERTIFIER / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_CI_REVISION_BINDING_IDENTITY_MAP / BUILDING_ANIMAL_MAP_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_NEW_UC_EXTRACTION / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the active 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, current product PRs across the design constellation, current Universal Creation main/open work, Profession Fabric #38, and the shared-capability execution registry.
+Re-read the active 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, newest coordination commits, open product PRs across the design constellation, current Universal Creation main/open work, Profession Fabric #38 / open PF experiments, and the shared-capability execution registry.
 
-`axm-create-me` remains **coordination only**. No product source, proof mechanism, Rigging implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product implementation, CI implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
+Previous Cartography status blob remains historical and rollback-addressable:
+
+`81e174c28ef18e93ba1eb5ab89c730e99fff1d59`
+
 ## Fresh continuity / overlap scan
 
-The previous activation mapped:
+Since the preceding proof-coverage map, specialist state materially advanced Building Procedural, Nature Technical Art, Nature Rigging/VFX, Object Geometry/Hard-Surface/Materials/Animation/Technical-Art, Map Runtime, Environment and Art Direction.
 
-`STORAGE_CAPACITY != SEMANTIC_INFORMATION`
+The strongest fresh repeated cross-repo distinction is:
 
-and refined Profession Fabric #38 without opening a generic UC compactor. That exact previous state remains historical truth at status blob:
-
-`c592bf4205b800db55e5aab92196e309b9fbbc8e`
-
-Fresh specialist state materially advanced Nature Geometry/Rigging/VFX and Object Hard-Surface/Technical-Art evidence while Character Rigging and Object Rigging retain strong current continuous certificates. The strongest cross-repo repeat this pass is an evidence-coverage distinction:
-
-**`WITNESS_SET_IDENTITY != CLAIM_DOMAIN_IDENTITY != COVERAGE_ARGUMENT_IDENTITY`**
+**`CI_RUN_OR_ARTIFACT_IDENTITY != CHECKED_OUT_REVISION_IDENTITY != CLAIM_SUBJECT_REVISION_IDENTITY`**
 
 More precisely:
 
-**A finite set of representative or diagnostic states does not by itself justify a continuous-domain claim. Continuous coverage is valid only when a separately identified analytic, structural, interval or exhaustive coverage argument proves the named property over the declared domain under explicit preconditions. The same lane may have continuous coverage for one property while sibling properties remain sampled, held or not evaluated.**
+**A workflow can execute successfully while its default pull-request checkout is GitHub's synthetic merge revision. That run may remain useful semantic or merge-preview evidence, but it must not be silently promoted into an exact branch-head claim unless the actually executed workspace revision and retained artifact binding are proven to match the declared exact subject revision under the workflow's policy. Artifact naming identity is also not sufficient on its own.**
 
-Current Universal Creation `main` is:
+This is adjacent to, but distinct from, the already-mapped `harness_execution_state`: the harness may execute correctly and still be bound to the wrong revision identity.
 
-`3028557dbd01a1423210ab0b2a3b7f9bedc5e226`
+## Evidence A — Building Procedural exact-head provenance defect and repair
 
-Open UC PR #205 is the continuing Physics growth lane at head:
+Repository: `mike-axiom-mir/axm-building-design`
 
-`596a56ee4ce839e27931937c43d3aae6a104052b`
+Existing Procedural PR: `#4 — Procedural: bounded Building variation and owner-successor families`
 
-It adds a deterministic radial-envelope classification-matrix self-test inside the existing bounded Physics contract. It does not own generic proof-domain provenance for product claims and does not overlap this Cartography refinement.
+Current exact head:
 
-The shared execution registry contains only closed/merged UC #192 and #199 records. There is **no active shared-capability execution claim** covering this scope.
+`588350afba56dd1aa0417148f03e12c6cfc81610`
 
-## Selected material cross-repo learning
+During its current-owner rebind, intermediate workflow `35308123128` passed Python 3.11/3.13 and the family semantics at intended branch head:
 
-### Evidence A — Object Rigging: representative poses are witnesses; structural containment is the continuous proof
+`446e1bc3dc0904af2f5c4f06d8950d8b4f8ba2b8`
 
-Repository:
+But archive inspection showed:
 
-`mike-axiom-mir/axm-object-design`
+`procedural_head.txt = 76192884ca4ca539ca7e440844b846810e3a33d5`
 
-Existing Rigging PR:
+That retained identity was GitHub's synthetic PR merge commit rather than the intended branch head. Building correctly preserved the run as semantic evidence but refused to use it as exact-head provenance.
 
-`#27 — Rigging: bind lid-owned latch keeper sockets through lid sweep`
+The workflow was then repaired to:
 
-Exact current head:
+- explicitly checkout `${{ github.event.pull_request.head.sha || github.sha }}`;
+- record the actual checked-out revision;
+- fail closed unless retained `procedural_head.txt` equals the event head;
+- name the retained artifact using the exact branch/event head rather than silently treating the synthetic merge identity as product head.
 
-`cf377074f70ce7f7e386f1378c51705b3db4d305`
+Final exact-head workflow `35308371329` is green and retains current branch head `588350af...`, with artifact `10532188249` and archive SHA-256 `ed9186e2a27c18d9c4687c5476807b06e0ec734fc55c2cbde2cca1b49e4db1a5`.
 
-Current bounded successor result:
+This proves the defect class without invalidating the semantic content of the earlier run.
 
-`PASS_PHASE_INVARIANT_BORED_KNUCKLE_SUCCESSOR_RIG_1MM_RADIAL_NONCONTACT_CONTINUOUS_0_TO_110`
+## Evidence B — Animal Technical Art independently hit the same revision-binding defect
 
-Representative owner poses remain:
+Repository: `mike-axiom-mir/axm-animal-design`
 
-`0 / 15 / 30 / 45 / 60 / 75 / 90 / 105 / 110°`
+Existing Technical Art PR: `#3 — Technical Art: prove explicit Animal surfaces -> UC GLB bridge`
 
-But those samples do **not** establish the continuous claim. The certificate is structural:
+The PR has since advanced to live head:
 
-- exact pin circumradius: `0.009 m`;
-- exact successor bore inradius: `0.009999999999999998 m`;
-- phase-independent radial lower bound: `0.0009999999999999992 m`;
-- exact coaxial centerline precondition retained;
-- every point of the exact regular pin lies inside the 9 mm circumdisk;
-- the exact regular bore contains the 10 mm centered in-disk;
-- therefore arbitrary relative polygon phase retains the same radial lower bound;
-- because lid articulation rotates about the same +X axis, the certificate applies continuously to every real owner angle in `[0°,110°]`.
+`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
 
-The same certificate explicitly does **not** establish axial stop/contact/retention, loads, bearing/manufacturing fit, full collision, Animation timing, Technical-Art transport, Runtime/device behavior, final visual acceptance or adoption.
+Its retained connected-Geometry transport phase records the independent historical defect:
 
-Object therefore demonstrates:
+- earlier green workflow `35111455304` retained GitHub's synthetic PR merge commit in `technical-art-head.txt` rather than the intended real PR head;
+- the implementation result was preserved, but that receipt was not accepted as final exact-head evidence;
+- the workflow was repaired to explicitly checkout `${{ github.event.pull_request.head.sha || github.sha }}`;
+- final exact-head workflow `35111609808` retained historical branch head `ab227a89cf0d7da81e34f0a3af523724bda9fc60`.
 
-`REPRESENTATIVE_POSES` are regression/review witnesses;
+The live PR advancing later does not rewrite this evidence. Building Procedural and Animal Technical Art therefore establish the repeat threshold across different repositories, specialists and product mechanisms.
 
-`STRUCTURAL_CONTAINMENT + COAXIAL_PRECONDITION` is the coverage argument for the exact radial property.
+## Evidence C — Map Runtime shows valid coexistence of run/artifact and claim identities
 
-## Evidence B — Character Rigging: finite adaptive intervals can certify a continuous domain without becoming sampled-motion evidence
+Repository: `mike-axiom-mir/axm-map-design`
 
-Repository:
+Existing Runtime PR: `#47 — Runtime: batch static Object rigid components in current world`
 
-`mike-axiom-mir/axm-character-design`
+Current exact measured Runtime head:
 
-Existing Rigging PR:
+`d2df5a7eb03b806eb991028d3ed5e3bfaa755bca`
 
-`#17 — Rigging: rebind review-006 shoulder release to opening repair`
+GitHub currently reports PR merge-preview identity:
 
-Exact current head:
+`c30d08da3aa9ec3b325abd8c3c9a31bf7945a030`
 
-`0b5b6c99c0f1349d8a1a2198cc69969c5b829236`
+Pass 51 intentionally notes that the retained artifact name contains the PR workflow merge SHA, while retained `SUMMARY.json` separately records the exact measured Runtime branch head `d2df5a7...`.
 
-Scoped result:
+That is a useful positive boundary case: both identities may be retained, but one must not silently substitute for the other. The semantic Runtime claim remains bound to its declared measured branch-head identity and exact successor inputs, while the merge-preview/artifact naming identity remains provenance metadata.
 
-`PASS_CHARACTER_REVIEW006_CONTINUOUS_VERTEX_ONLY_NEIGHBOR_CONE_MARGIN_MINUS40_TO_PLUS3655__ALL_INDEXED_NEIGHBOR_CLASSES_CLOSED`
-
-The exact retained proof covers all `845` vertex-only neighboring face pairs per shoulder for every real owner angle in:
-
-`[-40.0°, +36.55°]`
-
-Finite certificate construction:
-
-- `154` base intervals;
-- `183` adaptive subdivisions;
-- `337` certified intervals;
-- maximum subdivision depth `6`;
-- `520` attempted intervals;
-- minimum certificate slack `9.215213950381399e-06 rad` (`0.000527992866666933°`).
-
-The key distinction is that these finite intervals are **certificate partitions**, not a sampled animation proxy. Each retained interval carries a bound that closes the predicate over all real values inside that interval. The explicit `[+36.55°, +36.60°]` extension challenge fails on both sides as `MIDPOINT_VERTEX_ONLY_CONE_CONTACT`, and the lane correctly refuses to invent an exact first-contact angle.
-
-Character therefore demonstrates another valid proof mode with the same evidence/provenance need:
-
-`ADAPTIVE_INTERVAL_CERTIFICATE != DENSE_SAMPLED_WITNESS_SET`.
-
-## Evidence C — Nature Rigging: representative poses coexist with narrower algebraic continuous invariants
-
-Repository:
-
-`mike-axiom-mir/axm-nature-design`
-
-Existing Rigging PR:
-
-`#14 — Rigging: rebind east-rear north-top socket to Geometry receiver`
-
-Exact current head:
-
-`f792d2369675d532be478e17c7a07f441d817c7c`
-
-The lane rebinds the exact migrated Geometry receiver and re-executes representative poses:
-
-`-5 / -2.5 / 0 / +2.5 / +5°`
-
-for the exact north-top selected child (`52 vertices / 72 triangles`) against `338` fixed receiver vertices.
-
-Its continuous statement is deliberately narrower than a collision or clearance claim. Under the unchanged rigid Rodrigues transform around the exact pivot/axis and the exact selected-child/fixed partition, structural invariants such as pivot/fixed identity, pairwise distances inside the rigid child and axis-projection relations hold for every real angle in:
-
-`[-5°, +5°]`.
-
-The lane still explicitly leaves collision/self-intersection freedom, blended attachment, biomechanics, stress/strength, wind/VFX response, Animation playback, Technical-Art adoption, Runtime acceptance and final visual acceptance unproved.
-
-Nature therefore shows that one claim record may truthfully contain:
-
-- representative pose witnesses;
-- continuous algebraic coverage for exact rigid-transform invariants;
-- `NOT_EVALUATED` or explicit non-claims for sibling properties over the same angle interval.
+This pass freshly measures `33 -> 14` render surfaces, `103 -> 65` proof-host draw calls/objects at all retained samples, `-89,360 B` renderer buffer memory and `4/4` byte-identical shaded pairs, while continuing to hold target-device, arbitrary-future-articulation and Art/QA authority. Cartography does not alter those Runtime claims.
 
 ## Cross-repo capability map
 
-The reusable evidence shape is:
+Reusable evidence shape:
 
-`claim_property_identity`
+`claim_subject_revision_identity`
 
-+ `claim_domain_identity`
++ `ci_trigger_identity`
 
-+ `witness_set_identity`
++ `checkout_ref_identity`
 
-+ `proof_coverage_mode`
++ `workspace_commit_identity`
 
-+ `coverage_argument_identity`
++ optional `workspace_tree_identity`
 
-+ `coverage_preconditions`
++ `artifact_revision_binding_identity`
 
-→ `coverage_state`
+-> `revision_binding_relation`
 
-→ optional `boundary_or_extension_challenge_identity`
+-> `claim_revision_scope`
 
-→ bounded claim verdict + explicit sibling non-claims.
+-> bounded claim verdict + historical/merge-preview non-transfer.
 
 Suggested evidence-only fields:
 
-- `claim_property_identity` — exact predicate/property covered; coverage does not transfer to sibling properties;
-- `claim_domain_identity` — exact discrete set, interval, phase space or other bounded domain the claim names;
-- `witness_set_identity` — exact sampled/representative states retained for diagnostics, review or regression;
-- `proof_coverage_mode = EXHAUSTIVE_DISCRETE | ANALYTIC_INVARIANT | STRUCTURAL_CONTAINMENT | INTERVAL_CERTIFICATE | SAMPLED_WITNESS_ONLY | OTHER_EXPLICIT`;
-- `coverage_argument_identity` — exact code/contract/receipt/artifact that connects evidence to the declared domain;
-- `coverage_preconditions` — exact receiver/source identities and mathematical/structural assumptions required by the argument;
-- `coverage_state = FULL_DECLARED_DOMAIN | PARTIAL_DOMAIN | WITNESS_ONLY | NOT_EVALUATED`;
-- `boundary_or_extension_challenge_identity` — explicit out-of-domain/failing evidence when available;
-- `non_claims` — properties or domains not covered by that certificate.
+- `claim_subject_revision_identity` — exact repo/ref/head whose semantics the claim names;
+- `ci_trigger_identity` — event type plus exact PR/base/head metadata available at run start;
+- `checkout_ref_identity` — exact ref/commit requested by the workflow;
+- `workspace_commit_identity` — actual checked-out commit that executes;
+- `workspace_tree_identity` — optional exact tree identity when commit ancestry alone is insufficient;
+- `artifact_revision_binding_identity` — revision explicitly written inside the retained evidence packet; artifact name alone is not authoritative;
+- `revision_binding_relation = EXACT_SUBJECT | SYNTHETIC_MERGE_PREVIEW | OTHER_DECLARED | MISMATCH | NOT_RECORDED`;
+- `claim_revision_scope = EXACT_HEAD | MERGE_PREVIEW | OTHER_EXPLICIT`.
 
 Core non-transfer rules:
 
-1. A dense or representative sample sequence must not be silently promoted to continuous proof.
-2. A legitimate analytic/structural/interval certificate must not be downgraded to “only sampled” merely because it retains representative witnesses.
-3. Continuous coverage for one property does not transfer to collision, visual, physical, behavioral or sibling semantic properties merely because they share the same state interval.
-4. Coverage depends on its exact preconditions; source/receiver/axis/pivot/topology/predicate changes require fresh proof where consumed.
+1. A green synthetic-merge run must not silently become exact branch-head evidence.
+2. A semantically useful merge-preview run may be retained as such; discovering the mismatch does not require deleting or rewriting it.
+3. Artifact/run naming based on a workflow merge SHA does not itself establish which revision a semantic result claims.
+4. `EXACT_HEAD` evidence should fail closed unless the declared policy proves the executed workspace revision and retained artifact binding correspond to the exact subject revision.
+5. A later live PR head does not rewrite an older exact receipt; old and current identities remain separately addressable.
+6. Revision-binding truth does not transfer product acceptance, Art/QA, adoption, CANON or merge authority.
 
 ## Placement action — Profession Fabric #38
 
-Refined the existing experimental Profession Fabric evidence/provenance proposal with comment:
+Refined existing experimental Profession Fabric issue #38 with comment:
 
-`5724923086`
+`5725396730`
 
-This refinement intentionally extends PF #38's existing applicability-domain vocabulary rather than duplicating it. The missing distinction was the **mode and evidence identity that justify coverage of that domain** versus the witnesses retained inside it.
+The refinement adds revision-binding evidence vocabulary only. It does not turn Profession Fabric into a CI engine, Git ref resolver or workflow executor.
 
-No PF code was implemented and no profession was promoted.
+This placement is distinct from the existing `harness_execution_state` refinement: a harness can reach and execute its intended observer successfully while still being attached to a synthetic merge rather than the exact subject head.
 
-The executable mechanisms remain in their owning product repositories because they are materially different:
+PF PR #37 remains the separate open/draft bounded-variation procedure experiment at head:
 
-- Object Rigging owns exact polygon/set-containment and coaxial phase-invariance mechanics;
-- Character Rigging owns the adaptive spherical-cone interval verifier;
-- Nature Rigging owns rigid-transform articulation/invariant proof.
+`ddb71acd9c7b463088d25385d528936a074cca3c`
+
+It does not overlap this revision-binding scope, so no new PF implementation lane was opened.
 
 ## Why no Universal Creation lane was opened
 
-This pass does not expose one repeated neutral executable certifier:
+Current Universal Creation `main` is:
 
-- Object uses geometric set containment and phase invariance;
-- Character uses adaptive interval bounds over a shoulder-specific vertex-only cone predicate;
-- Nature uses algebraic rigid-transform invariants.
+`ce70d717e381df6ca8a27c0c9fabe9d48bb1b23c`
 
-The repeat is the **evidence/provenance distinction** between witness sets, declared domains and coverage arguments, not one machine algorithm. Opening a UC `continuous-proof engine` now would conflate different predicates and proof mechanisms and would outrun the evidence.
+That is merged PR #205, which strengthened the bounded radial-envelope Physics evidence with a 196-case classification matrix without widening physical/semantic claims.
 
-Current UC main `3028557d...` and active #205 Physics work are unrelated to this scope.
+Current open UC successor PR #206 is:
+
+- head `973e89274fde50a132e03e11edeea225d71f9f7b`;
+- scope: radial-envelope representation-invariance self-test across the established Physics matrix.
+
+UC #151 and #153 remain separate older game-asset / unwrap-bake work. None of those lanes owns CI revision-binding provenance.
+
+The repeated capability mapped here is an **evidence/provenance discipline**, not neutral creation, geometry, renderer or runtime machinery. Opening a UC ref-resolution/check-out lane would be the wrong home.
+
+The shared-capability execution registry was checked before placement. Its retained UC #192 and #199 records are both closed/merged, with **no active shared implementation claim** overlapping this scope.
 
 ## Product returns
 
-Evidence-only returns were placed without changing product code:
+Evidence-only feedback was returned without changing product code:
 
-- Profession Fabric #38 comment `5724923086`;
-- Object Rigging PR #27 comment `5724924010`;
-- Character Rigging PR #17 comment `5724924730`;
-- Nature Rigging PR #14 comment `5724926306`.
+- Profession Fabric #38 comment `5725396730`;
+- Building Procedural PR #4 comment `5725397737`;
+- Animal Technical Art PR #3 comment `5725398511`;
+- Map Runtime PR #47 comment `5725399137`.
 
-Each return preserves local executable mechanism and authority while recording only the cross-domain evidence distinction.
+Each return preserves local workflow/evidence ownership and records only the cross-repo provenance distinction.
 
-## Bounded placement table
+## Placement decision
 
-| Layer | Correct home | Current evidence | Explicitly not implied |
-|---|---|---|---|
-| phase-invariant bored-knuckle radial certificate | Object Rigging PR #27 | structural pin/bore containment + coaxial precondition | axial retention/contact, loads, full collision, adoption |
-| continuous vertex-only neighbor-cone certificate | Character Rigging PR #17 | adaptive interval certificate + extension negative control | anatomy, gameplay collision, exact first-contact angle, production acceptance |
-| rigid root-socket invariant coverage | Nature Rigging PR #14 | rigid Rodrigues transform + exact pivot/axis/partition | collision freedom, wind/VFX, blended skinning, biomechanics |
-| claim-domain / proof-coverage vocabulary | Profession Fabric #38 experimental proposal | comment `5724923086` | generic proof engine, auto-acceptance or domain semantics |
-| generic executable shared certifier | Universal Creation only after one neutral mechanism repeats | **not evidenced this pass** | unifying unrelated proof mechanisms by label |
-| shared execution collision state | `axm-create-me` coordination registry | no active overlapping claim | ownership or merge priority |
+| Layer | Correct home | Decision |
+|---|---|---|
+| Product workflow implementation | owning product repository | stays local; no workflow copied or moved |
+| Exact source/product semantics | owning design repo/specialist | unchanged |
+| Revision-binding evidence vocabulary | Profession Fabric #38 experimental evidence procedure | refined by comment only |
+| Neutral creation/runtime machinery | Universal Creation | no extraction justified |
+| Duplicate-lane prevention | `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` | checked; no active overlap |
+| Cross-repo coordination/status | `axm-create-me` | this status only |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a generic continuous-proof engine;
-- that dense sampling proves all real values between samples;
-- that every analytic/interval certificate is sound outside its exact preconditions;
-- Object axial stop/contact/retention, loads or full collision;
-- Character anatomy, gameplay collision or exact first-contact angle;
-- Nature collision, attachment clearance, blended skinning, wind response or biomechanics;
-- Animation, Technical-Art, Runtime/device or Art/QA adoption from these Rigging certificates;
-- a new UC implementation;
-- a PF implementation or profession promotion;
+- that every historical workflow using a PR merge checkout is invalid;
+- that synthetic merge evidence is useless;
+- that exact-head checkout is always the only correct CI scope;
+- a universal GitHub Actions implementation;
+- automatic workflow rewrites across repositories;
+- PF implementation or profession promotion;
+- UC implementation;
+- product adoption or source authority changes;
+- Art Direction or Visual QA acceptance;
+- target-device readiness;
 - CANON;
 - production/game readiness;
-- mastery;
-- merge-authority transfer.
+- specialist or merge authority.
 
-`axm-create-me` remains coordination-only.
+## Four-root check
 
-## Four-root gate
+**Truth:** semantic success and revision identity are recorded separately; synthetic merge evidence is neither hidden nor falsely relabelled exact-head.
 
-**Truth:** the map prevents finite witnesses from being narrated as continuous proof and requires the exact coverage argument/preconditions to be named. It equally prevents legitimate structural/interval certificates from being misreported as mere sampling.
+**Agency / non-domination:** no product workflow is automatically rewritten and no receiving owner loses decision authority.
 
-**Agency / non-domination:** product Rigging lanes retain their mechanisms and acceptance boundaries; PF receives evidence vocabulary only; UC is not expanded simply because several products use the word `continuous`.
+**Continuity:** historical synthetic-merge receipts, repaired exact-head receipts, later live heads, artifact identities and product-local non-claims remain separately recoverable.
 
-**Continuity:** previous Cartography state, exact product heads, representative witnesses, certificate mechanisms, failing extension controls and explicit non-claims remain separately addressable. Historical sampled evidence is not rewritten into a stronger proof mode.
+**Wisdom before speed:** reused existing PF #38 evidence vocabulary rather than opening a new framework or incorrect UC implementation from a provenance problem.
 
-**Wisdom before speed:** the three-domain repeat justifies extracting the evidence distinction now, while withholding a generic shared machine implementation until a genuinely reusable executable proof mechanism repeats.
-
-The four AXM roots remain the gate.
-
-## Recovery / provenance
-
-Previous Cartography state:
-
-`PASS_CONDITIONAL_REPRESENTATION_CAPACITY_ELISION_MAP`
-
-Previous status blob SHA:
-
-`c592bf4205b800db55e5aab92196e309b9fbbc8e`
-
-Current Cartography returns:
-
-- PF #38 comment `5724923086`;
-- Object Rigging PR #27 comment `5724924010`;
-- Character Rigging PR #17 comment `5724924730`;
-- Nature Rigging PR #14 comment `5724926306`.
+The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the gate.
