@@ -2,230 +2,215 @@
 
 Date: 2026-09-18
 
-State: **PASS_BUILDING_UTILITY_PANEL_MATERIAL_CURRENT_WORLD_AB / MAP_ENV_PR51_595DF99 / 68_MATCHED_REAL_GODOT_FRAME_PAIRS / EXACT_TA_PLUS_MATERIALS_BINDING / ADOPTION_HELD / PR49_PARENT_UNCHANGED / PR24_ROLLBACK / COORDINATION_ONLY**
+State: **HOLD_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_REBIND / MATERIALS_OWNER_THREE_WAY_RED_35303406313 / REAL_GODOT_RENDER_REACHED / LOCALIZATION_MASK_SEMANTICS_DIAGNOSED / MAP_PR51_UNCHANGED / RUNTIME_CHECKER_PASS_NOT_TRANSFERRED / ADOPTION_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, prior Environment status, and fresh specialist state across Art Direction, Technical Art / UC Integration, Materials / Lookdev, Runtime, VFX, Procedural and the current Map / Building / Nature / Object / Weather receiving constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the preceding Environment status, and fresh Art Direction / Visual QA / Runtime / Materials / Technical Art plus current Map / Building / Nature / Object / Weather state.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation is confined to `mike-axiom-mir/axm-map-design`; this status file is the only create-me mutation in this activation.
+`axm-create-me` remains **coordination only**. No product implementation, renderer code, material source, geometry, UV, Runtime representation, camera, light, Nature, Object, Weather or gameplay code was added here. This status file is the only `axm-create-me` mutation in this activation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
+Predecessor Environment status blob:
+
+`82352464bfb892afc8c2a581faeb203915012ae0`
+
+The previous exact Environment result remains historical truth:
+
+- Map Environment PR #51 exact head `595df99daf866b5e3dcaa4be87eeb650af637919`;
+- `35300420073 — Environment Building utility-panel material current-world A-B` — SUCCESS;
+- 68 matched current-world scalar/checker pairs / 136 real Godot PNGs;
+- exact Technical Art + Materials checker transport;
+- `environment_adoption=false`;
+- PR #49 direct parent unchanged;
+- PR #24 historical rollback/default.
+
+Nothing in this activation rewrites that evidence.
+
 ## Fresh constellation change
 
-The previous PR #51 HOLD was no longer current.
+Art Direction has now reviewed PR #51's exact owner-bound checker in the real world and split two conclusions correctly:
 
-Technical Art PR #40 has now provided the exact missing current-receiver UV/image handoff at head:
+- transport/readability is acceptable for the exact retained current-world proof;
+- the checker is a **diagnostic control**, not finished production material language.
 
-`1434bc4a64faa04db10f47723c37ab7925aaa163`
+Art Direction requested one Materials-owned production-intent successor while preserving the same Environment world, cameras, lights, receiver, UV transport and checker as control.
 
-That handoff binds the owner utility-panel UV/image identity into the active Building receiver while preserving:
+Independent Visual QA separately keeps the PR #51 checker localized and phase-stable across all 68 exact matched pairs, but likewise does not convert that diagnostic readability into final look acceptance.
 
-- current Building variant `header-segmented-23`;
-- `184 vertices / 276 triangles / 5 surfaces`;
-- corrected utility-panel placement;
-- exact service-face owner UVs;
-- exact serialized review image identity;
-- Environment / Art / QA / Runtime adoption held.
+Runtime PR #52 remains a valid checker-specific representation child:
 
-Technical Art keeps the non-service-face projection explicitly bounded as:
+- exact head `1afa51cb89b536db0d2434328722a1521febe0ad`;
+- exact Environment parent `595df99daf866b5e3dcaa4be87eeb650af637919`;
+- 68 / 68 retained checker RGBA8 -> RGB8 pairs byte-identical;
+- exact utility-panel full-mip footprint `1,398,100 B -> 1,048,575 B`;
+- exact saving `349,525 B / 25%` for that checker image representation;
+- transfer to a future distinct production image is explicitly not automatic.
 
-`TECHNICAL_ART_RECEIVER_FILL_ONLY__NOT_SOURCE_OR_GEOMETRY_EQUIVALENCE`
+## Fresh Materials owner state
 
-Building Materials PR #3 has independently advanced to exact head:
+Building Materials PR #3 has now advanced beyond the preceding checker proof.
 
-`0ae911792929eaa38b2c2f32239ebfdce8967251`
+Exact Materials head inspected:
 
-and proves the exact Technical Art transport against the owner review texture, including source-coverage equality and UV-density sensitivity. Materials authority remains separate; no Environment retune was authorized.
+`09aec5f4f41a8c07a96f31b2c485f5e02cb2567f`
 
-Environment therefore did not repeat the old readiness HOLD and did not create another UV or Materials lane.
+Fresh owner additions include one deterministic production-intent utility-panel surface successor plus a same-world scalar / checker / successor three-way workflow pinned to exact Environment PR #51 and exact Technical Art receiver transport.
+
+Generated successor identity retained in the failed owner artifact:
+
+- dimensions `512 x 512`;
+- exact PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
+- exact RGBA8 SHA-256 `408a6eaecf99fa328487785f85d089c93da2b84c3ae9ead0bf6e1f8d2a0bdcad`;
+- fully opaque alpha;
+- generated neighbor-channel delta maximum `2 LSB`;
+- base family remains around source ochre `[111,90,58]` with broad/medium bounded deterministic variation;
+- material metallic / roughness remain `0.18 / 0.62`.
+
+This is owner-authored evidence, not Environment adoption.
 
 ## Highest-leverage bounded Environment improvement
 
-Environment stayed on existing stacked Map PR **#51**, direct child of reviewed Environment PR #49.
+Environment did **not** duplicate the Materials authoring lane, open a second texture lane, retune the successor, or mutate PR #51 underneath already-reviewed checker evidence.
 
-PR #51 is now titled:
+Instead, Environment independently triaged the exact failed Materials current-world three-way and turned the failure into a reusable receiving-evidence rule.
 
-`Environment: review Building utility-panel material in current world`
+Fresh owner workflow:
 
-Exact head:
+`35303406313 — Building material utility-panel production surface current-world three-way`
+
+Exact conclusion: **FAILURE**.
+
+Important boundary: the workflow did successfully complete the exact real Godot current-world render step. It failed later at:
+
+`Verify exact same-world scalar checker production three-way`
+
+Retained failed-run artifact:
+
+- ID `10531275639`;
+- size `18,315,741 B`;
+- GitHub SHA-256 `4f88fead523e04d9f31e2707641d89095d133f1cad95d0fda9d81aff366919fa`;
+- independently downloaded and rehashed to the exact same digest;
+- retained `exact-head.txt` = `09aec5f4f41a8c07a96f31b2c485f5e02cb2567f`.
+
+Environment locally reran the retained verifier against the exact artifact and reproduced the exact failure:
+
+`successor raster delta escaped checker-localized panel region: 0.8312312312312312`
+
+## Diagnosis — patterned checker threshold was being used as surface support
+
+The failing verifier uses the checker's **>1-LSB changed-pixel mask** as the receiving-surface localization mask for the production successor.
+
+That is not the same thing as the rendered utility-panel surface boundary. The checker itself is a high-frequency pattern, so its thresholded changed-pixel mask contains holes where the checker response is <=1 LSB. A quieter production successor can legitimately change pixels inside the same receiver where the patterned checker does not cross that threshold.
+
+Exact retained current-world measurements:
+
+### `path_eye`
+
+- checker >1-LSB changed pixels per retained frame: `4,878`;
+- successor >1-LSB changed pixels per retained frame: `3,696`;
+- checker >1-LSB bbox: `[388,309,739,389]`;
+- successor >1-LSB bbox: `[388,309,739,389]`;
+- successor >1-LSB overlap with checker >1-LSB support: `0.9426406926406926`;
+- successor >1-LSB overlap with checker **raw >0** support: `0.9886363636363636`.
+
+### `elevated_oblique`
+
+- checker >1-LSB changed pixels per retained frame: `2,167`;
+- successor >1-LSB changed pixels: `1,662..1,666` depending on retained frame;
+- checker >1-LSB bbox: `[612,223,880,328]`;
+- checker raw >0 bbox: `[612,222,880,328]`;
+- successor >1-LSB bbox: `[612,222,879,328]`;
+- successor >1-LSB overlap with checker >1-LSB support: `0.8312312312312312..0.8317307692307693`;
+- successor >1-LSB overlap with checker **raw >0** support: `0.9849939975990396..0.9861695730607336`.
+
+Across all 68 retained frames:
+
+- checker total >1-LSB changed pixels: `239,530`;
+- successor total >1-LSB changed pixels: `182,257`;
+- checker -> successor total >1-LSB changed pixels: `249,892`;
+- checker maximum scalar delta: `48 LSB`;
+- successor maximum scalar delta: `10 LSB`.
+
+The production successor therefore has a much lower scalar-control peak delta than the diagnostic checker and its changed-pixel bboxes remain in the same utility-panel regions. The current evidence does **not** prove a world/receiver escape.
+
+Environment still does **not** call the Materials run green. The owner verifier remains red and its negative control was skipped after the failed verification step.
+
+## Reusable composition / receiving rule
+
+**`LOCALIZATION_SUPPORT_MUST_DESCRIBE_THE_RECEIVER_SURFACE__A_PATTERNED_DIAGNOSTIC_THRESHOLD_MASK_MUST_NOT_BE_MISTAKEN_FOR_THE_SURFACE_BOUNDARY`**
+
+The owner-side repair should choose a receiver-valid support definition — preferably a geometry-derived service-panel support mask, or a carefully bounded raw-observability support from the diagnostic control — while preserving:
+
+- exact successor visibility;
+- exact owner image identity;
+- exact same-world structural equality;
+- the existing `0.98` localization guard rather than lowering it merely to make CI green;
+- lower-than-checker diagnostic contrast distinction;
+- fail-closed negative control.
+
+Environment does not author that Materials verifier decision.
+
+## Environment composition decision
+
+Map Environment PR #51 remains **unchanged** at exact head:
 
 `595df99daf866b5e3dcaa4be87eeb650af637919`
 
-PR state at final verification: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+At this activation it remains **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Direct parent remains PR #49 head:
+Environment does not rebind the red Materials successor into PR #51 and does not create another Map child while the owner packet is unresolved.
+
+Direct parent PR #49 remains unchanged at:
 
 `07f04aa9b5d1620907240acb12c97759fd7c77f4`
 
-Historical Environment PR #24 remains the older rollback/default lineage.
-
-The bounded improvement consumes the exact Technical Art + Materials handoffs inside the already-retained real Map/Godot world and compares:
-
-- control: current scalar `utility_panel_ochre` receiver;
-- candidate: same current receiver with exact Technical Art UV0 + exact serialized Materials review texture.
-
-The A/B is captured at the already-proven articulated Object owner sample **40 / 1.0 s** so the scene remains meaningfully multi-asset rather than collapsing to an isolated Building proof.
-
-Held exact across control and candidate:
-
-- Building geometry, 184v / 276t / five-surface partition and corrected panel placement;
-- articulated Object motion state;
-- reviewed +20 mm Environment Object service dressing from PR #49;
-- compact-east Nature;
-- east-rear Nature;
-- Weather source-width presentation;
-- existing cameras and lighting.
-
-Only the `utility_panel_ochre` surface receives the exact owner-backed TA UV/image binding.
-
-Reusable rule:
-
-**`OWNER_BOUND_UV_IMAGE_TRANSPORT_MAY_ENTER_THE_REAL_WORLD_ONLY_AS_AN_EXPLICIT_A_B_RECEIVER_SUCCESSOR_WITH_UNRELATED_WORLD_IDENTITIES_AND_ROLLBACK_HELD`**
-
-## Exact owner identities consumed
-
-Technical Art:
-
-- head `1434bc4a64faa04db10f47723c37ab7925aaa163`;
-- artifact `10527699865`;
-- artifact SHA-256 `5c19c82f8e216a1e5032784751819447215b21ab2ef6e4f52e03a9da2a855c06`;
-- exact serialized PNG SHA-256 `e932cdd94d370184c7361862d5064149cc193e3a8fd80b269cab6543c0919198`;
-- exact decoded RGBA8 SHA-256 `02f8f464eabc734a3be687a7706edf8b8f62ece834fa981c8c993fbb8227bb4b`.
-
-Building Materials:
-
-- head `0ae911792929eaa38b2c2f32239ebfdce8967251`;
-- artifact `10528878803`;
-- artifact SHA-256 `48921552847b2833e410daff45fe1c376acbf9381ecc9cbab48ff4e76e6ea818`;
-- utility-panel metallic `0.18`;
-- utility-panel roughness `0.62`.
-
-Environment does not reinterpret those owner values or promote Technical Art receiver-fill into Building / Geometry source truth.
-
-## Exact hosted proof
-
-Dedicated workflow:
-
-**`35300420073 — Environment Building utility-panel material current-world A-B`**
-
-Result: **SUCCESS**.
-
-Scoped result:
-
-**`PASS_CURRENT_WORLD_BUILDING_UTILITY_PANEL_MATERIAL_BOUND_RECEIVER__VISIBLE_DELTA_CHARACTERIZED__ADOPTION_HELD`**
-
-Retained artifact:
-
-- ID `10529154954`;
-- size `12,297,831 B`;
-- GitHub digest `sha256:3e102488b5e85766ddae4b6b83e44a6347171cbd8d8f6961486c8c3774a608c7`.
-
-The artifact was independently downloaded and rehashed to the exact same SHA-256:
-
-`3e102488b5e85766ddae4b6b83e44a6347171cbd8d8f6961486c8c3774a608c7`
-
-It retains **136 real Godot 4.7.2 PNGs** — 68 control and 68 candidate — plus both runtime receipts, exact contract, composition receipt, verification report and negative-control log.
-
-## Real-world A/B result
-
-Across the **68 matched frame pairs**:
-
-- raw changed pixels: **269,415**;
-- changed pixels above 1 LSB: **239,530**;
-- maximum RGB-channel delta: **48 LSB**;
-- frames with any delta: **68 / 68**;
-- frames with >1-LSB delta: **68 / 68**;
-- no aesthetic minimum-delta threshold was invented.
-
-The observed changed-pixel envelope across the retained frames is bounded by the two inherited views:
-
-- elevated-oblique changes occupy the Building panel region around `x=612..880, y=222..328`;
-- path-eye changes occupy the Building panel region around `x=388..739, y=309..389`.
-
-This is observability evidence only. It is not Art Direction or independent Visual QA acceptance.
-
-## Preserved failure trail and verifier repair
-
-The first hosted A/B attempt, workflow `35300214030`, is intentionally preserved as a failure rather than rewritten away.
-
-Both real-world renders succeeded, but the first verifier rejected the pair because it demanded byte-for-byte equality for process/presentation metrics that are expected to change when an exact texture is added.
-
-Inspection showed **204 total runtime differences**, exactly:
-
-- 68 PNG capture-byte values;
-- 68 `buffer_mem_bytes` values;
-- 68 `texture_mem_bytes` values.
-
-There were no other structural/runtime identity differences after the bounded material receipt and process-local instance handles were excluded.
-
-The verifier was repaired by **characterizing those metrics separately**, not by weakening authored/source identity checks.
-
-Across all 68 observations the exact material binding adds:
-
-- `+576` buffer bytes;
-- `+1,398,100` texture-memory bytes;
-- PNG capture-size delta from `+4,835` to `+9,575` bytes, mean `+7,219.264705882353` bytes.
-
-These values are retained as evidence for Runtime. Environment does **not** convert them into a device/performance PASS.
-
-The final verifier proves all unrelated current-world identity remains exact outside the bounded material-binding receipt and those explicit presentation metrics.
-
-## Negative control
-
-The final hosted workflow deliberately mutates the serialized review image after exact staging.
-
-The candidate observer fails closed with:
-
-`Environment Building material serialized PNG identity drift`
-
-Therefore the PASS cannot be reproduced by silently substituting another image.
-
-## Scope / handoffs recorded
-
-Handoffs recorded after the green exact-head result:
-
-- Map Environment PR #51 comment `5724387880`;
-- Map Technical Art PR #40 comment `5724388724`;
-- Building Materials PR #3 comment `5724389494`;
-- parent Environment PR #49 lineage comment `5724390261`.
-
-Next authority is deliberately split:
-
-- **Art Direction + independent Visual QA:** judge the appearance/readability of this exact real-world A/B;
-- **Runtime:** judge target-device/performance implications of the exact receiver/image path and retained process metrics;
-- **Technical Art / Building Geometry:** retain UV/receiver/source-boundary authority;
-- **Building Materials:** retain material-value/texture-authority;
-- **Environment:** retain only receiving/composition responsibility.
-
-No further Environment enlargement, camera change, material retune, Geometry rewrite or automatic adoption is justified without new owner evidence.
-
-## Explicit non-claims
+Historical Environment PR #24 remains rollback/default lineage.
 
 `environment_adoption=false` remains fixed.
 
+## Scope / handoffs recorded
+
+Fresh handoffs recorded this activation:
+
+- Building Materials PR #3 comment `5724789856` — exact failed-run reproduction, localization-mask diagnosis, and owner-side repair boundary;
+- Map Environment PR #51 comment `5724791053` — PR #51 held exact; no production-surface rebind until owner three-way is green;
+- Map Runtime PR #52 comment `5724792532` — checker RGB8 evidence stays valid for the checker but does not transfer to the distinct production successor by analogy.
+
+Next legitimate flow:
+
+1. **Materials owner** repairs or replaces the localization-support semantics without weakening the evidence guard and returns an exact green three-way packet.
+2. **Art Direction + independent Visual QA** judge that exact production successor rather than inheriting checker preference.
+3. **Runtime** explicitly rebinds/retests the exact production image if its receiving representation is to be optimized; checker memory numbers do not transfer merely because both images are opaque.
+4. **Environment** may then assess adoption/receiving continuity against the exact accepted owner packet while preserving PR #49 composition and rollback.
+
+No Environment scene mutation is justified before those owner gates close.
+
+## Explicit non-claims
+
 This activation does **not** establish:
 
-- Art Direction acceptance;
+- Materials owner PASS for the production successor;
+- Art Direction preference for the production successor;
 - independent Visual QA acceptance;
-- Runtime/device acceptance;
-- Building source/Geometry equivalence for TA receiver-fill UVs;
+- Runtime/device acceptance or RGB8 transfer to the successor;
+- Environment adoption;
+- source Geometry / UV policy expansion;
+- arbitrary-camera or renderer equivalence;
 - gameplay, collision or navigation readiness;
 - CANON;
 - production/game readiness;
 - Environment mastery.
 
-PR #49 remains the exact direct parent and PR #24 remains the historical rollback/default. No source lane or repo identity was collapsed into the coordination repository.
-
 ## Four-root check
 
-**Truth:** the previous blocker was retired only after exact Technical Art and Materials evidence existed. The first A/B verifier failure is retained and diagnosed precisely; final success is tied to exact heads, workflow, artifact, hashes and real-Godot frame evidence.
+**Truth:** the fresh owner run is recorded as red despite successful real-scene rendering. Environment reproduced the exact failing assertion from the retained artifact and separated a likely support-mask semantics defect from a claim that the art itself escaped the panel.
 
-**Agency / non-domination:** Environment does not seize UV, Geometry, Materials, Art/QA or Runtime authority. Receiver-local fill remains explicitly non-source. Adoption remains false.
+**Agency / non-domination:** Environment does not edit Materials authoring/verifier policy, does not seize Art/QA judgment, and does not transfer Runtime acceptance. The owner responsible for the red gate keeps authority to repair it.
 
-**Continuity:** PR #51 stays stacked on unchanged PR #49; PR #24 remains rollback lineage; all upstream donor heads and artifacts remain separately addressable; the change is additive and reversible.
+**Continuity:** PR #51, PR #49 and PR #24 remain exact and recoverable. The checker PASS, successor failed run, Runtime checker optimization and fresh diagnosis remain separate evidence identities rather than being silently merged.
 
-**Wisdom before speed:** Environment advanced the exact receiving boundary once owners supplied it, then separated structural identity from expected presentation metrics instead of either blocking valid work forever or weakening verification to manufacture a PASS.
+**Wisdom before speed:** the studio does not respond to a red gate by weakening `0.98`, retuning art to satisfy an accidental mask, or advancing adoption. It diagnoses the measurement boundary first and hands the smallest repair back to the correct owner.
 
 The four AXM roots remain the merge gate.
