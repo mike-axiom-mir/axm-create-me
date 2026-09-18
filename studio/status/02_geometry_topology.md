@@ -2,139 +2,124 @@
 
 Date: 2026-09-18
 
-State: `PASS_OBJECT_RELATIVE_FACET_PHASE_SUCCESSOR_GENUS1_TOPOLOGY_REBIND / OBJECT_GEOMETRY_PR37_HEAD_480A0492 / HARD_SURFACE_PR25_OWNER_EF1DFC2F / SUCCESSOR003_E7A44523 / 240V_480T_5_COMPONENTS / 5X_GENUS1 / 144_BODY_VERTICES_UNCHANGED / 96_LID_VERTICES_PHASE_ROTATED / CONNECTIVITY_AND_OWNER_GROUPS_IDENTICAL / CI_35328458524_SUCCESS_311_313_87_TESTS / HARD_SURFACE_SAME_HEAD_CI_35328458111_SUCCESS / ARTIFACT_10539783452_GITHUB_SHA256_994DDEC5BA697643FC134FAE534F381799781DCFDCB362EDECD6D27D5458072 / SOURCE_SPACE_ONLY / TECHNICAL_ART_RECEIVER_RUNTIME_GAMEPLAY_HELD / COORDINATION_ONLY`
+State: `PASS_NATURE_NORTH_LOW_DIAGNOSTIC_TOPOLOGY_CLASSIFIED / HOLD_CONNECTED_BRANCH_TRUNK_ATTACHMENT / NATURE_GEOMETRY_PR18_HEAD_D32A4155 / RIGGING_OWNER_975931B1 / 52V_72T / 6_EDGE_COMPONENTS / 2_CLOSED_SEGMENTS_4_OPEN_LEAVES / 0_SHARED_INDEXED_VERTICES_WITH_TRUNK / CI_35334023021_SUCCESS_311_313_112_TESTS / HISTORICAL_GEOMETRY_CONTINUITY_GREEN / ARTIFACT_10541434206_SHA256_B443AB83AA492C2824C2FB5568BA7315D61121B3625B7BE8220280D2BC4B8AD7 / SOURCE_RIGGING_UNCHANGED / PRODUCTION_JUNCTION_SKINNING_TARGET_HOST_RUNTIME_GAMEPLAY_HELD / COORDINATION_ONLY`
 
 ## Current bounded lane
 
-Geometry re-read the 3D Studio campaign and Geometry / Topology charter, then inspected the current design constellation before selecting work. Character, Animal and Building already have active Geometry lanes; Nature's previous Geometry hierarchy lane has no new source or motion identity requiring another Geometry pass; Weather and Map did not expose a stronger unoccupied topology defect; Weapon, Armor, Unit and Misc did not expose a grounded open Geometry trigger.
+Geometry re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, current specialist statuses, newest open PRs and the product design constellation before selecting work.
 
-Object supplied the strongest fresh trigger. Hard Surface PR #25 advanced the source-owned bored-knuckle candidate from successor002 to successor003. The five 12-segment through-bore knuckles retain dimensions, axial placement and owner grouping, but the two lid-owned complete annular cross-sections rotate by `+15°` relative to the three body-owned `0°` cross-sections. Hard Surface explicitly does not authorize automatic Geometry adoption, so the prior successor002 Geometry PASS could not transfer merely because the connectivity was intended to remain stable.
+The strongest fresh unoccupied Geometry trigger was Nature Rigging PR #14 at exact owner `975931b11555d156e04e2ab12e9756fc6c9598a3`. Rigging added a grounded `north-low` upper-trunk parent-influence exclusion gate while explicitly withholding production skinning, surface attachment and whole-tree deformation claims. That created a claim-boundary question owned by Geometry: what indexed connectivity class does the exact `north-low` child partition actually have?
 
-Geometry therefore opened a new successor-specific lane instead of rewriting historical PR #35/#36 evidence.
+Geometry reused existing Nature Geometry PR #18. No duplicate lane was opened.
 
-Product repository: `mike-axiom-mir/axm-object-design`
+Product repository: `mike-axiom-mir/axm-nature-design`
 
-- Geometry PR: `#37` — `Geometry: rebind successor003 relative facet phase to genus-1 topology`
-- branch: `studio/geometry-object-hinge-relative-facet-phase-topology-003`
-- exact tested Geometry head: `480a0492aad026d6d3ab0229e98c94f5adc928df`
-- exact Hard Surface PR #25 donor/base: `ef1dfc2f2c1adbe3c90ba089c66ac09d223df25c`
-- successor002 contract blob: `7e078189d5c80508b28932563326cd5629c4efa6`
-- successor003 contract blob: `e7a44523ea80e567a745cd61af7fd7005757cc12`
-- successor003 builder/verifier blob: `bcb816c97cf5ae50afe38e295fb01a931f0034a5`
-- historical successor002 Geometry evidence identity retained separately: `d69b9f730edd00f8ed668665cb009a74c2da813a`
-- PR state at final metadata refresh: open / draft / unmerged; mergeability is GitHub-calculated and may briefly report pending after metadata edits, so no merge-readiness claim is made from that transient field.
+- Geometry PR: `#18` — `Geometry: classify north-low attachment topology across Rigging exclusion gate`
+- branch: `studio/geometry-east-rear-simultaneous-socket-001`
+- exact tested Geometry head: `d32a41558910d78595042fb638a785714f825806`
+- previous exact Geometry head: `200ab4b60b8a54460f1265b0ee52eb111f1b280a`
+- exact Rigging owner: `975931b11555d156e04e2ab12e9756fc6c9598a3`
+- explicit two-parent lineage merge: `f26c538ddafa247895046bc27a44da766a5215b0`
+- Organic source owner: `fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`
+- source digest: `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`
+- migrated receiver digest: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`
+- PR state at final refresh: open / draft / unmerged / mergeable.
 
-`axm-create-me` remains coordination-only. Product contracts, verifier, tests and workflow live only in `mike-axiom-mir/axm-object-design`.
+`axm-create-me` remains coordination-only. Product observer, tests, contract, documentation and CI live only in `mike-axiom-mir/axm-nature-design`.
 
 ## Reusable Geometry rule
 
-`OWNER_GROUP_FACET_PHASE_CHANGE_PRESERVES_THROUGH_BORE_TOPOLOGY_ONLY_AFTER_EXACT_SOURCE_SUCCESSOR_REBIND__STRUCTURAL_CLASS_DOES_NOT_TRANSFER_RECEIVER_ACCEPTANCE`
+`SPATIAL_OR_RIGGING_ATTACHMENT_EVIDENCE_MUST_DECLARE_INDEXED_CONNECTIVITY_CLASS_BEFORE_CONNECTED_TOPOLOGY_PASS_TRANSFER`
 
-A metric/phase change that intentionally leaves indexed connectivity untouched still creates a new source identity. Geometry must rebind the exact successor and independently re-prove the claimed topology class before transferring a Geometry PASS. Even after that structural class is re-proven, target-host, material, rigging, animation, runtime, collision or visual acceptance do not transfer automatically.
+Spatial support, socket pivots, flex-envelope relations and transform inheritance are different evidence classes from indexed mesh connectivity. A downstream lane must not silently promote one class into a welded/connected topology claim.
 
 ## Exact structural evidence
 
-The Geometry verifier consumes the exact Hard-Surface source builder rather than reconstructing a separate lookalike implementation. It rebuilds a zero-phase successor002 reference and exact successor003, then compares source-space structure.
+Geometry re-executes the exact Rigging owner and exact current Nature receiver instead of copying prior PASS state.
 
-Observed successor003 delta:
+The exact `north-low` Rigging child partition remains:
 
-- total hinge vertices: `240`;
-- total hinge triangles: `480`;
-- body-owned knuckles: `3`, exact phase `0°`;
-- lid-owned knuckles: `2`, exact phase `+15°`;
-- unchanged body-owned vertex positions: `144`;
-- changed lid-owned vertex positions: `96`;
-- maximum changed-position delta: `0.005482100073242167 m`;
-- face connectivity identical to reconstructed successor002: yes;
-- group order and ownership identical to reconstructed successor002: yes.
+- `52` selected vertices;
+- `72` selected triangles;
+- selected vertex support exactly equals its owned triangle support;
+- source and migrated receiver identity unchanged.
 
-Each of the five knuckles independently proves:
+Indexed edge connectivity resolves **6 components**, not one connected manifold:
 
-- `48` referenced vertices;
-- `96` triangles;
-- `144` unique edges;
-- `1` triangle component;
-- `0` boundary edges;
-- `0` non-manifold edges;
-- `0` shared-edge winding conflicts;
-- `0` degenerate triangles;
-- `0` isolated referenced vertices;
-- exactly one incident face-fan per referenced vertex;
-- Euler characteristic `χ = 0`;
-- orientable genus `1`.
+- two closed capped tapered-segment shells, each `18 vertices / 32 triangles / 48 edges / 0 boundary edges / 0 non-manifold edges / Euler χ=2`;
+- four open leaf-blade components, each `4 vertices / 2 triangles / 5 edges / 4 boundary edges / Euler χ=1`.
 
-Aggregate successor003 result:
-
-- `240` vertices;
-- `480` triangles;
-- `720` component-local edges;
-- `5` components;
-- Euler-characteristic sum `0`;
-- orientable-genus sum `5`.
+The root region `branch:north-low:0` is itself a closed capped shell. The `north-low` selected child and trunk triangles share **0 indexed vertices**.
 
 Result:
 
-`PASS_OBJECT_RELATIVE_FACET_PHASE_SUCCESSOR_GENUS1_TOPOLOGY_REBIND`
+`PASS_NORTH_LOW_DIAGNOSTIC_CHILD_TOPOLOGY_CLASSIFIED__HOLD_CONNECTED_BRANCH_TRUNK_ATTACHMENT`
 
-The historical successor002 Geometry PASS is explicitly not transferred; successor003 earns a new exact-source PASS.
+This does not invalidate Rigging's parent-influence exclusion result. It prevents that transform-policy evidence from being silently relabelled as a welded production branch/trunk mesh.
 
 ## Hosted verification
 
-Dedicated exact-head workflow `35328458524 — Object Geometry relative facet-phase topology rebind evidence` completed **SUCCESS**.
+Dedicated exact-head workflow `35334023021 — Geometry east rear north-low attachment topology` completed **SUCCESS** on Python `3.11` and `3.13`.
 
-- Python `3.11`: exact Hard-Surface donor and four-file Geometry-only delta gate PASS; compile PASS; complete Object suite PASS; exact receipt rebuild PASS; truth gate PASS; retained-artifact upload PASS.
-- Python `3.13`: exact donor/delta gate PASS; compile PASS; complete Object suite PASS.
-- complete Object suite: `87 / 87` tests green.
-- same-head inherited Hard-Surface hinge-construction workflow `35328458111`: **SUCCESS**.
+- exact Geometry predecessor ancestry gate: PASS;
+- exact Rigging owner ancestry/blob gate: PASS;
+- compile: PASS;
+- full receiving repository suite: **112 / 112 tests green** on Python 3.11; Python 3.13 full suite also green;
+- exact Geometry evidence rebuild: PASS;
+- bounded-result assertions: PASS;
+- fail-closed promotion controls: PASS;
+- retained artifact upload: PASS.
 
-Fail-closed controls reject source-successor blob drift, genus expectation weakening, historical Geometry PASS transfer, Geometry-side Technical-Art receiver promotion, and source-builder/verifier identity drift.
+Fail-closed controls reject Rigging-owner drift, Geometry-predecessor drift, connected branch/trunk attachment promotion, production-topology promotion, production-skinning acceptance and Runtime acceptance.
 
 Retained artifact:
 
-- artifact id: `10539783452`;
-- name: `object-geometry-relative-facet-phase-topology-480a0492aad026d6d3ab0229e98c94f5adc928df`;
-- size: `8,560 B`;
-- files: `6`;
-- GitHub SHA-256: `994ddec5ba697643fc134fae534f381799781dcfdccb362edecd6d27d5458072`.
+- artifact id: `10541434206`;
+- name: `nature-north-low-attachment-topology-d32a41558910d78595042fb638a785714f825806`;
+- size: `10,590 B`;
+- retained files: `10`;
+- GitHub SHA-256: `b443ab83aa492c2824c2fb5568ba7315d61121b3625b7be8220280d2bc4b8ad7`;
+- downloaded ZIP independently rehashed to the same SHA-256.
 
-No independent local ZIP rehash is claimed this pass; the digest above is GitHub's retained-artifact digest.
+Historical Geometry continuity at the same exact head is green:
 
-## Constellation boundary and handoffs
+- `35334022983` — shared-driver continuous clearance: SUCCESS;
+- `35334022974` — shared-driver static rebind: SUCCESS;
+- `35334023119` — simultaneous socket audit: SUCCESS;
+- `35334023001` — upper-trunk / east-mid hierarchy rebind: SUCCESS;
+- `35334023003` — source topology migration: SUCCESS;
+- `35334023057` — Nature baseline: SUCCESS;
+- `35334023088` — Organic east-rear evidence: SUCCESS;
+- `35334023126` — compact east tree evidence: SUCCESS.
 
-The current Object constellation already contains independent successor003 work outside Geometry, and Geometry does not overwrite it:
+An earlier successor-head continuous-clearance run failed only because its exact changed-file allowlist had not yet admitted the legitimate additive Rigging/Geometry successor files. The failure remains visible. The three historical Geometry exact-delta guards were extended to the exact current 42-file successor diff without removing structural/source/blob checks.
 
-- Hard Surface PR #25 owns successor003 source form and facet phase at exact head `ef1dfc2f...`;
-- Rigging PR #27 independently proves successor003 articulation compatibility at exact current head `0974a97af10fedf62a5803a88921faf96f3448d5`;
-- Animation PR #10 independently has successor003 motion evidence at exact current head `dd492d8157526f4fe4327b0e8c5bfb99cc455735`;
-- Materials PR #6 contains an independent successor003 relative-facet-phase material-review lane at its current branch head;
-- Technical Art PR #16 remains the target-host transport/receiver owner and has not automatically inherited successor003 acceptance.
+## Handoffs
 
-The retained Geometry receipt includes downstream booleans as Geometry-lane non-transfer/authority flags. They must not be read as global claims that another specialist has done no successor003 work. In particular, `rigging_successor003_revalidated=false` means Geometry did not perform or adopt Rigging's proof; Rigging PR #27 has its own independent PASS.
+Fresh handoffs are recorded:
 
-Fresh handoffs:
+- Geometry PR #18 comment `5728626160` — exact topology result, CI, artifact and nonclaims;
+- Rigging PR #14 comment `5728627921` — transform-policy ownership preserved; indexed connectivity boundary added;
+- Organic PR #8 comment `5728629443` — no automatic generator rewrite; a future production junction requires explicit source ownership and a fresh Geometry rebind;
+- Technical Art PR #3 comment `5728630897` — target-host spatial attachment cannot inherit a welded indexed-topology claim.
 
-- Geometry PR #37 comment `5727884462` — exact structural proof, CI, retained artifact and nonclaims;
-- Hard Surface PR #25 comment `5727885786` — source ownership preserved; Geometry only observes successor003;
-- Materials PR #6 comment `5727887156` — source topology evidence only, no visual/material adoption claim;
-- Technical Art PR #16 comment `5727888452` — predecessor target-host receiver PASS not transferred to successor003;
-- Rigging PR #27 comment `5727933536` — Geometry proof is independent and does not replace Rigging's successor003 articulation proof.
+PR #18 metadata is refreshed at the exact current head and preserves historical Geometry work rather than rewriting it.
 
 ## Truth boundary / explicit nonclaims
 
-The current PASS proves only that the exact Hard-Surface successor003 source-owned five-knuckle candidate preserves the expected indexed closed orientable genus-1 through-bore topology class, with exact connectivity and owner grouping retained while the two lid-owned complete annular cross-sections carry the exact source-owned `+15°` facet phase.
+The current PASS proves only the indexed connectivity class of the exact current source-space `north-low` diagnostic child partition under the exact current source/Rigging identities.
 
-It does **not** prove:
+It does **not** choose or prove:
 
-- that successor003 is the default or adopted source;
-- that the phase change improves the hinge visually;
-- final normals, shading, UV, material or art-direction quality;
-- Technical-Art successor003 receiver transport or Godot front-face behavior;
-- target-host winding adaptation;
-- Rigging or Animation behavior by Geometry (those specialists own their independent evidence);
+- a production weld, boolean, remesh or branch-junction strategy;
+- default/source adoption of connected branch-trunk topology;
+- botanical tissue continuity, structural strength or manufacturing validity;
+- production skin weights or deformation quality;
+- arbitrary self-intersection or physical collision freedom;
+- Animation/VFX acceptance;
+- target-host / renderer transport;
 - Runtime/controller/device behavior;
-- arbitrary self-intersection freedom;
-- physical collision or gameplay collision suitability;
-- manufacturing fit, bearing/load behavior or retention;
+- gameplay suitability;
 - CANON;
 - production readiness;
 - game readiness;
@@ -142,22 +127,22 @@ It does **not** prove:
 
 ## Continuity / rollback
 
-Immediate predecessor coordination status blob: `2ff01c1d220e50b2178024ced3ea5a2b079bd301`.
+Immediate predecessor coordination status blob: `0966e6a7c5c3609a4e086cd67eed445c3fb6abd7`.
 
-That predecessor preserves the Nature Geometry PR #18 hierarchy rebind at exact product head `200ab4b60b8a54460f1265b0ee52eb111f1b280a`. The earlier Nature receipt, exact owner pins, CI and rollback history remain addressable there; this Object pass does not rewrite them.
+That predecessor preserves the Object Geometry PR #37 successor003 genus-1 topology rebind at exact product head `480a0492aad026d6d3ab0229e98c94f5adc928df`. It remains separately rollback-addressable and is not overwritten by this Nature pass.
 
-Historical Object Geometry successor002 evidence at `d69b9f730edd00f8ed668665cb009a74c2da813a` remains separately addressable and was not relabelled as successor003 evidence.
+Within Nature, previous PR #18 exact heads and receipts for simultaneous sockets, static shared-driver witnesses, continuous cross-branch clearance and upper-trunk/east-mid hierarchy remain explicit in product history. The new two-parent merge preserves both prior Geometry and exact Rigging successor ancestry.
 
-Product repo identity, exact source/blob provenance, prior receipts and rollback addresses remain explicit. The four AXM roots remain the merge gate: Truth, Agency / non-domination, Continuity, Wisdom before speed.
+Product repo identity, exact source/blob provenance, failed evidence, prior receipts and rollback addresses remain visible. The four AXM roots remain the merge gate: Truth, Agency / non-domination, Continuity, Wisdom before speed.
 
 ## Next legitimate Geometry trigger
 
-Do not continue changing this hinge merely because another specialist pass occurs. Re-enter this Object lane only if:
+Do not rewrite this diagnostic Nature topology merely because another specialist pass occurs. Re-enter only if:
 
-- Hard Surface changes successor003 source identity, topology, segment count, owner grouping or facet-phase semantics again;
-- Technical Art explicitly rebinds successor003 and returns a concrete target-host topology/transport defect owned by Geometry;
-- a downstream specialist exposes a specific structural defect rather than only requesting adoption;
-- merge/rebase changes exact source ancestry or tested receiver identity;
+- Organic/source ownership explicitly changes the branch/trunk junction representation;
+- Rigging changes the exact selected partition or returns a Geometry-owned connectivity defect;
+- Technical Art returns a concrete target-host topology/transport discrepancy requiring source-space Geometry analysis;
+- merge/rebase changes exact tested source ancestry or receiver identity;
 - another product exposes a stronger unoccupied, evidence-backed Geometry defect.
 
-Otherwise scan the constellation and leave this source-space Geometry PASS intact.
+Otherwise leave this bounded classification intact and continue scanning the full constellation.
