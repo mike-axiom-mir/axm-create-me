@@ -2,38 +2,26 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_BORED_HINGE_AXIAL_STOP_GEOMETRIC_CAPTURE_COMPATIBILITY / PR25_HEAD_5E20651B / RIGGING_RETURN_CF377074_CONSUMED / 2.647238MM_PHASE_INDEPENDENT_STOP_OVERLAP / 7.284442MM_OUTER_SHELL_CONTAINMENT / 14MM_EXISTING_AXIAL_GAP_PRESERVED / 66_TESTS_GREEN_PY311+PY313 / 8_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10528543456_GITHUB_DIGEST_ONLY / SOURCE+SUCCESSOR002+STOP_CONTRACT_UNCHANGED / NO_AUTO_ADOPTION / UC+PF_UNCHANGED / COORDINATION_ONLY**
+State: **PASS_OBJECT_BORED_HINGE_BILATERAL_AXIAL_BRACKET_GEOMETRY / PR25_HEAD_540FD532 / 14MM_STATIC_GAP_EACH_SIDE / 28MM_TOTAL_STATIC_FREE_SPAN / RADIAL_CAPTURE_PREREQUISITE_PRESERVED / 72_TESTS_GREEN_PY311+PY313 / 8_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10530694239_GITHUB_DIGEST_ONLY / HISTORICAL_RED_PRESERVED / NO_CONTACT_OR_RETENTION_AUTHORITY / UC+PF_UNCHANGED / COORDINATION_ONLY**
 
 ## Activation summary
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, all current specialist status files, and the live design-repository / open-PR constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist status, and the live design-repository/open-PR constellation before selecting work.
 
 `mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation was made only in `mike-axiom-mir/axm-object-design`. Universal Creation and Profession Fabric were not modified.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor status blob: `61e0b6fd20237def280dd52390d6cf8db02550c2`. Its successor-002 result at `a6d18b9fe729304dc4d95d962ed27527adce211f` remains historical truth and was not rewritten.
+Immediate predecessor status blob: `a43f5295422d3c93f328b81f33ea7fc34ae8ed15`. Its exact Object capture result at `5e20651b00984eb64d3cbee815aa4fa3fafa848c` remains historical truth and was not rewritten.
 
 ## Fresh constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no grounded manufactured implementation source or active Hard-Surface implementation lane appeared. No placeholder asset was invented to satisfy cadence.
-- **Building:** mature Hard-Surface / Geometry / Materials / Technical-Art chain remains active; no fresher source-owned mechanical defect displaced the Object return.
-- **Character / Animal / Nature / Weather / Map:** current work remains owned by their active Organic / Geometry / Rigging / Materials / Environment / VFX / Technical-Art / Runtime / QA lanes. No duplicate lane was opened.
-- **Object:** Rigging returned one exact unresolved source-owner seam after adopting the phase-invariant bored-knuckle successor: axial-stop contact/collar retention/full-component collision was intentionally still unestablished.
+- **Weapon / Armor / Unit / Misc:** no grounded manufactured implementation source or active Hard-Surface implementation lane appeared; no placeholder asset was invented by cadence.
+- **Building:** current work is already occupied by its mature Materials / Environment / Runtime / Technical-Art chain; no fresher source-mechanical defect displaced the Object return.
+- **Character / Animal / Nature / Weather / Map:** active work remains owned by the current Organic / Geometry / Procedural / VFX / Environment / Runtime / QA lanes. No duplicate lane was opened.
+- **Object:** existing Hard-Surface PR #25 remained the correct source-owner lane. Rigging PR #27 explicitly preserved `AXIAL_STOP_CONTACT_COLLAR_RETENTION_OR_FULL_COMPONENT_COLLISION_NOT_ESTABLISHED`, while the prior Hard-Surface pass had proved only radial stop-to-bore capture. The next missing source fact was therefore whether the exact bilateral stop inward faces geometrically bracket the complete five-knuckle stack at all.
 
-The returned Object seam was therefore the highest-leverage bounded Hard-Surface task.
-
-## Returned Rigging evidence
-
-Object Rigging PR #27:
-
-- exact head: `cf377074f70ce7f7e386f1378c51705b3db4d305`;
-- workflow: `35295344713` — SUCCESS;
-- retained artifact: `10527372668`;
-- artifact SHA-256: `f16d8cab9850b0e8162343e7e92c455741a101e6e4927adc69478fb032c73acc`;
-- explicit HOLD: `AXIAL_STOP_CONTACT_COLLAR_RETENTION_OR_FULL_COMPONENT_COLLISION_NOT_ESTABLISHED`.
-
-Hard Surface did not reinterpret that HOLD as a failure. It separated the source-owned radial geometry question from Rigging/Runtime contact and retention authority.
+This is a source-owned static geometry question inside the Hard-Surface role, not a Rigging/contact/physics question.
 
 ## Selected bounded improvement
 
@@ -41,84 +29,109 @@ Repository: `mike-axiom-mir/axm-object-design`
 
 Existing draft PR advanced in place:
 
-**#25 — `Hard Surface: prove phase-invariant bored hinge and stop capture`**
+**#25 — `Hard Surface: prove phase-invariant bored hinge stop capture and axial bracket`**
 
 Branch: `studio/hard-surface-hinge-pin-bore-clearance-001`
 
-Exact current head: **`5e20651b00984eb64d3cbee815aa4fa3fafa848c`**
+Exact current head: **`540fd532f4a1840c0205fabaa432e61977b2c896`**
 
 PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Added source-owned compatibility contract:
+Added source-owned contract:
 
-`axm.object-hinge-bored-knuckle-axial-stop-capture/v0.1`
+`axm.object-hinge-bored-knuckle-axial-stop-bracket/v0.1`
 
 ID:
 
-`modular-equipment-case-001/hinge-bored-knuckle-axial-stop-capture-001`
+`modular-equipment-case-001/hinge-bored-knuckle-axial-stop-bracket-001`
 
-The contract binds two already-existing, separately verified facts without rewriting either donor:
+It binds, without rewriting them:
 
-1. phase-invariant bored-knuckle successor 002 at exact owner head `a6d18b9fe729304dc4d95d962ed27527adce211f`;
-2. existing bilateral axial-stop collar contract, blob `ded14bcde58be76f339608e659173905e66e64c1`.
+1. the historical equipment-case source;
+2. phase-invariant bored-knuckle successor 002 at owner head `a6d18b9fe729304dc4d95d962ed27527adce211f`, blob `7e078189d5c80508b28932563326cd5629c4efa6`;
+3. the existing axial-stop contract, blob `ded14bcde58be76f339608e659173905e66e64c1`;
+4. the prior radial-capture contract, blob `193fe78d0a8ad63af5c92a83624807b435a8da08`.
 
-Historical `source.json`, successor 002, and the axial-stop contract remain unchanged.
+Historical `source.json`, successor 002 geometry, stop geometry, Rigging, Animation, Technical Art, Runtime, UC and PF remain unchanged.
 
-## Exact geometry result
+## Exact static geometry result
 
-Existing source facts:
+Source hinge axis: `+X`.
 
-- circular stop radius: `0.013 m`;
-- source pin circumradius: `0.009 m`;
-- successor-002 bore circumradius: `0.010352761804100828 m`;
-- outer knuckle circumradius: `0.021 m`;
-- regular 12-gon outer-knuckle inradius: `0.020284442352070435 m`;
-- successor-002 guaranteed phase-independent pin/bore radial clearance: `0.0009999999999999992 m`.
+Existing source relations:
 
-Derived source-owned compatibility witnesses:
+- pin length: `0.70 m`;
+- left/right stop centres: `-0.347 / +0.347 m`;
+- stop thickness: `0.006 m`;
+- exact stop outward faces: `-0.35 / +0.35 m` — the source pin endpoints;
+- exact stop inward faces: `-0.344 / +0.344 m`;
+- complete five-knuckle stack extrema: `-0.33 / +0.33 m`;
+- complete knuckle-stack span: `0.66 m`;
+- stop inward-face bracket span: `0.688 m`;
+- left/right static gap: `0.013999999999999957 m` each;
+- bilateral gap symmetry residual: `0.0 m`;
+- total static bracket free span: `0.027999999999999914 m`.
 
-- **phase-independent stop-to-bore radial capture overlap:** `0.013 - 0.010352761804100828 = 0.0026472381958991716 m`;
-- **outer-knuckle radial containment margin:** `0.020284442352070435 - 0.013 = 0.007284442352070436 m`;
-- existing source-space stop-to-outer-knuckle axial gap remains **`0.013999999999999957 m`**;
-- bilateral stop symmetry residual remains `0.0 m`.
+The prior radial prerequisite remains independently true:
 
-Because the stop is represented only by its existing circular radial envelope, no stop polygon phase is invented. The successor bore phase remains explicitly `UNSPECIFIED`.
+- phase-independent stop-to-bore capture overlap: `0.0026472381958991716 m`;
+- outer-knuckle radial containment margin: `0.007284442352070436 m`.
 
 Scoped result:
 
-**`PASS_SOURCE_OWNED_BORED_HINGE_AXIAL_STOP_GEOMETRIC_CAPTURE_COMPATIBILITY`**
+**`PASS_SOURCE_OWNED_BORED_HINGE_BILATERAL_AXIAL_BRACKET_GEOMETRY`**
 
-Interpretation: the circular stop envelope extends beyond the maximum successor bore opening radius for every bore polygon phase while remaining inside the minimum radial extent of the regular outer knuckle shell. This is **geometric compatibility only**.
+Interpretation: both exact stop inward faces lie outside the complete source knuckle stack on opposite sides of the +X hinge axis, with 14 mm of static source-space gap on each side, while the previously proven radial-capture relation remains positive.
+
+This is **static source geometry only**. A positive bracket gap is deliberately kept separate from contact or retention authority.
 
 ## Verification / fail-closed evidence
 
-Added in Object PR #25:
+Added or extended in Object PR #25:
 
-- `assets/modular-equipment-case-001/hinge-bored-knuckle-axial-stop-capture-001.json`;
-- `tools/verify_hinge_bored_knuckle_axial_stop_capture.py`;
-- `tests/test_hinge_bored_knuckle_axial_stop_capture.py`;
-- extended `.github/workflows/object-hinge-pin-bore-clearance.yml` to rebuild and retain the new compatibility evidence rather than creating a duplicate workflow family.
+- `assets/modular-equipment-case-001/hinge-bored-knuckle-axial-stop-bracket-001.json`;
+- `tools/verify_hinge_bored_knuckle_axial_stop_bracket.py`;
+- `tests/test_hinge_bored_knuckle_axial_stop_bracket.py`;
+- existing `.github/workflows/object-hinge-pin-bore-clearance.yml` extended to rebuild and retain the bracket proof after all prior hinge prerequisites.
 
-The new verifier re-proves both prerequisite contracts before evaluating compatibility. Fail-closed coverage rejects:
+Focused controls reject:
 
-- zero / negative stop-to-bore capture overlap;
-- loss of stop containment inside the outer-knuckle minimum radius;
-- axial-stop identity drift;
-- invented fixed bore phase;
-- Rigging/retention authority expansion.
+- a complete knuckle stack that grows beyond the left stop's inward bracket face while the stop remains seated at the pin endpoint;
+- stop endpoint-seating drift;
+- radial-capture donor identity drift;
+- retention-force authority expansion;
+- invented axial-translation-model authority.
 
-No acceptance threshold was weakened to obtain PASS.
+The bracket verifier also re-runs the exact radial-capture prerequisite before PASS.
 
-## Exact-head CI — PASS
+## Honest first-draft red / repair
+
+First draft exact head: `ead59351137bef9a5aed891837bd37277816c620`.
+
+Workflow `35306265672` went red honestly. Python 3.11 ran the full **72-test** suite with **one error and one failure**:
+
+1. the verifier returned stop outward-face metrics but the new contract had not explicitly declared them;
+2. the first negative control moved a stop, so the older endpoint-seating assertion failed before the intended bracket assertion could be reached.
+
+These were evidence-harness defects, not source geometry changes. They were repaired by:
+
+- declaring exact outward faces `-0.35 / +0.35 m` in the contract;
+- changing the negative control to grow only a copied source knuckle stack beyond the left bracket while leaving the stop exactly seated.
+
+The historical red run remains preserved and is not relabelled as PASS.
+
+## Exact final CI — PASS
+
+Final exact head: `540fd532f4a1840c0205fabaa432e61977b2c896`.
 
 Dedicated workflow:
 
-**`35298727237 — Object hinge construction evidence` — SUCCESS**
+**`35306443299 — Object hinge construction evidence` — SUCCESS**
 
-Exact head: `5e20651b00984eb64d3cbee815aa4fa3fafa848c`.
-
-- Python 3.11: compile PASS; full repository suite **66/66 PASS**; historical bore/annular/owner/successor chain PASS; successor 002 PASS; axial-stop prerequisite PASS; new capture compatibility PASS; retained upload PASS.
+- Python 3.11: compile PASS; full Object repository suite **72/72 PASS**; all historical hinge prerequisite builders/verifiers PASS; new bracket verifier PASS; retained evidence upload PASS.
 - Python 3.13: compile PASS; full repository suite PASS.
+- fail-closed bracket control: `HOLD:left stop inward face does not bracket complete knuckle stack`.
+- retention-authority expansion remains rejected.
 
 Final exact-head poll: all **8 observed Object workflow families** completed SUCCESS:
 
@@ -135,45 +148,42 @@ Final exact-head poll: all **8 observed Object workflow families** completed SUC
 
 Artifact:
 
-- ID: **`10528543456`**;
-- name: `modular-equipment-case-001-hinge-phase-invariant-successor-and-stop-capture-evidence`;
-- size: **29,088 B**;
-- GitHub SHA-256: **`07ba63414d4932bab47ff62624d9eb0d6394037e66eb81a8ae2de1360cd90a06`**;
-- exact workflow/head: `35298727237` / `5e20651b00984eb64d3cbee815aa4fa3fafa848c`.
+- ID: **`10530694239`**;
+- name: `modular-equipment-case-001-hinge-phase-invariant-successor-stop-capture-and-bracket-evidence`;
+- size: **32,526 B**;
+- GitHub SHA-256: **`aa40809a39bbe1ef934eed3ab9d53fc8897008ee526459bc3f1f32c520500058`**;
+- exact workflow/head: `35306443299` / `540fd532f4a1840c0205fabaa432e61977b2c896`.
 
 This activation records GitHub's retained digest only. **No independent local artifact rehash is claimed.**
 
 ## Reusable Hard-Surface pattern
 
-**`AXIAL_STOP_CAPTURE_AGAINST_A_FACETED_BORE_REQUIRES_POSITIVE_PHASE_INDEPENDENT_RADIAL_OVERLAP__A_CIRCULAR_STOP_ENVELOPE_MUST_EXCEED_BORE_CIRCUMRADIUS_AND_REMAIN_INSIDE_OUTER_KNUCKLE_INRADIUS`**
+**`RADIAL_COLLAR_CAPTURE_DOES_NOT_ESTABLISH_AXIAL_RETENTION__SOURCE_MUST_PROVE_STOP_INWARD_FACES_BRACKET_THE_COMPLETE_KNUCKLE_STACK_AND_KEEP_STATIC_GAP_SEPARATE_FROM_CONTACT_AUTHORITY`**
 
 Bounded interpretation:
 
-1. an axial stop cannot be called geometrically capturing merely because it overhangs the pin;
-2. for a faceted bore with unspecified relative phase, the stop envelope must exceed the **maximum bore opening radius**, not a same-phase face distance;
-3. the stop must also remain within the **minimum available outer-shell radius** if the proof is to stay inside the knuckle cross-section;
-4. this proves a radial geometry relationship only — not contact response, retention force or full collision;
-5. receivers still require exact rebind/retest; source-owned compatibility does not silently grant downstream adoption.
-
-One Object hinge does not justify a generic UC hinge/retention implementation or Profession Fabric promotion.
+1. proving a stop overlaps a bore radially does not say where it sits axially relative to the moving/fixed knuckle stack;
+2. source geometry should name and prove both inward stop faces against the complete axial stack, not infer retention from a radius alone;
+3. a positive static gap is a geometry fact, not evidence that contact occurs or that the mechanism retains load;
+4. receiver contact/translation/retention logic remains a separate authority and must explicitly rebind/retest;
+5. one Object hinge does not justify a generic UC hinge/retention implementation or Profession Fabric promotion.
 
 ## Handoffs recorded
 
-- Object Hard-Surface PR #25 comment **`5724176045`** records exact head, geometry metrics, CI/artifact and non-claims.
-- Object Rigging PR #27 comment **`5724177950`** returns the compatibility **evidence-only**. Existing Rigging evidence remains truthful and is not auto-rebound.
-- PR #25 title/body were refreshed to remove the stale `a6d18b9f...` “current head” claim and make the new exact head / truth boundary explicit.
+- Object Hard-Surface PR #25 comment **`5725103500`** records the exact new head, static-bracket metrics, historical red/repair, exact CI/artifact and non-claims.
+- Object Rigging PR #27 comment **`5725105219`** returns the new bracket relation **evidence-only**. Existing Rigging evidence remains truthful; no branch was rebased or auto-retargeted.
 
-No downstream branch was rebased or auto-migrated.
+If Rigging later chooses to model axial travel/contact/retention, it must explicitly bind exact Hard-Surface head `540fd532...` and retest rather than inherit this PASS.
 
 ## Four-root gate
 
-- **Truth:** radial geometry compatibility is now named separately from physical contact/retention/full collision. The Rigging HOLD remains intact rather than being relabelled as solved.
-- **Agency / non-domination:** Hard Surface did not invent pin ownership/spin law or force Rigging/Animation/TA/Runtime adoption.
-- **Continuity:** historical host source, predecessor successor, successor 002, stop contract, Rigging return, new compatibility contract, exact workflow and artifact remain separately addressable.
-- **Wisdom before speed:** the lane moved only because a quantified receiver return exposed a real source-owner gap; no empty Weapon/Armor/Unit/Misc asset or generic shared machinery was invented by cadence.
+- **Truth:** the historical first-draft red is preserved; static axial bracketing is named separately from contact/retention/full collision.
+- **Agency / non-domination:** Hard Surface did not invent pin-stop attachment, translation behavior, pin ownership/spin law or force downstream adoption.
+- **Continuity:** historical source, successor 002, stop contract, prior radial-capture proof, new bracket contract, exact red/final heads, workflows and retained artifact remain separately addressable.
+- **Wisdom before speed:** the lane moved only because a real receiver truth boundary exposed a source-owned geometry question; no empty Weapon/Armor/Unit/Misc work or generic shared machinery was manufactured by cadence.
 
 ## Explicit non-claims / next trigger
 
-This activation does **not** establish actual stop contact resolution, retention force, pin physical ownership or spin law, manufacturing tolerance/class of fit, bearing behavior, friction, lubrication, load transfer, strength, fatigue, wear, sealing, service procedure, machinability, deformation, full articulated/component collision, Rigging/Animation/Technical-Art/Runtime adoption, physics/gameplay, final visual acceptance, CANON, production readiness or Hard-Surface mastery.
+This activation does **not** establish that the pin and collars are a rigid physical subassembly, actual stop-to-knuckle contact, an axial-translation model, contact response, retention force, pin physical ownership or spin law, manufacturing tolerance/class of fit, bearing behavior, friction, lubrication, load transfer, strength, fatigue, wear, service procedure, full articulated/component collision, Rigging/Animation/Technical-Art/Runtime adoption, physics/gameplay, final visual acceptance, CANON, production readiness or Hard-Surface mastery.
 
-Re-scan the full manufactured constellation before the next pass. Prefer a grounded Weapon / Armor / Unit / Misc source if one appears. Otherwise require another fresh returned source-mechanical defect or explicit receiver adoption question. Do **not** continue extending this hinge merely because the capture compatibility is green.
+Re-scan the manufactured constellation before the next pass. Prefer a grounded Weapon / Armor / Unit / Misc source if one appears. Otherwise require a new returned source-mechanical defect or explicit receiver-adoption question. **Do not continue extending this hinge merely because the bracket proof is green.**
