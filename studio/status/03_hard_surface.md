@@ -2,161 +2,144 @@
 
 Date: 2026-09-18
 
-State: **PASS_STRUCTURALLY_VALID_VISUALLY_REJECTED_SOURCE_SUCCESSOR_DISPOSITION / OBJECT_PR25_EXACT_HEAD_5D8F767A / ART_DIRECTION_048_PHASE_HYPOTHESIS_REJECTED / SUCCESSOR002_REVIEW_REFERENCE_FROZEN / NO_PHASE_SWEEP_OR_SECOND_SOURCE_CANDIDATE / TECHNICAL_ART_PR16_NEXT_OWNER / NO_SOURCE_GEOMETRY_MUTATION / WEAPON+ARMOR+UNIT+MISC_NO_GROUNDED_TRIGGER / BUILDING_SOURCE_LANE_PRESERVED / ALL_8_OBJECT_EXACT_HEAD_WORKFLOWS_GREEN / UC+PF_UNCHANGED / COORDINATION_ONLY**
+State: **HOLD_NO_NEW_SOURCE_GEOMETRY_TRIGGER / BUILDING_DIRECTION049_FRESH_RECEIVER_ACCEPTANCE_RETURN / BUILDING_PR17_EXACT_HEAD_FBFA3B47_GREEN / OBJECT_DIRECTION048_TECHNICAL_ART_NORMAL_CANDIDATE_STILL_PENDING / OBJECT_PR25_EXACT_HEAD_5D8F767A_GREEN / RECEIVER_DISPOSITION_DOES_NOT_AUTO_PROMOTE_SOURCE / WEAPON+ARMOR+UNIT+MISC_NO_GROUNDED_TRIGGER / NO_DESIGN_REPO_MUTATION / UC+PF_UNCHANGED / COORDINATION_ONLY**
 
-## Activation summary
+## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current specialist-status constellation, the manufactured design repositories and the newest Object / Building returns before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, this status, current specialist coordination, and the active design constellation before choosing work.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product evidence changed only in `mike-axiom-mir/axm-object-design` on existing Hard-Surface PR #25. No Universal Creation or Profession Fabric implementation changed.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. No product geometry, topology, materials, Rigging, Animation, Technical Art, Runtime, Environment, UC or Profession Fabric implementation is stored here.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / duplicate-lane scan
+Immediate predecessor status blob: `3ed4d379326a68a0f33234de8f77ae69437daa54`. That status preserves Object successor003 as structurally valid but visually rejected, keeps successor002 as the frozen Object visual-review reference, and routes the next Object hypothesis to Technical Art PR #16. Nothing from that history is rewritten here.
 
-- **Weapon / Armor / Unit / Misc:** no newly grounded manufactured source requirement displaced the live Object return. No asset or mechanism was invented for cadence.
-- **Building:** PR #17 remains the current Hard-Surface source owner for the corrected `0.10 m` utility-panel standoff / `0.02 m` nearest-body-face clearance. Newer Building work is downstream Materials / Environment / QA receiving, not a new Hard-Surface source defect.
-- **Object:** the exact Direction-047 successor003 receiving A/B has now returned from Materials and Art. This is the strongest fresh Hard-Surface-relevant result because it directly disposes the previously authorized one-source-candidate experiment.
-- Other design families remain owned by their active Geometry / Organic / Rigging / Animation / VFX / Materials / Technical Art / Environment / Procedural / Runtime / Art / QA lanes. No duplicate manufactured implementation lane was opened.
+## Constellation / duplicate-lane scan
 
-## Fresh receiving truth — Art Direction 048
+### Manufactured source-owner lanes
 
-The exact successor003 receiving A/B exists at:
+**Building** remains a valid Hard-Surface source-owner family, but no new source defect was returned. Hard Surface PR #17 remains open/draft/unmerged/mergeable at exact head:
 
-- Object Materials PR #6 exact head: `5509084acbaca2a7d45f072203b98174c621d5ef`;
-- workflow: `35327655651 — Object material hinge successor003 relative-facet-phase review` — SUCCESS;
-- retained artifact: `10539926744`;
-- artifact SHA-256: `a0b33464768670b1f9d204ba1ac2e0a5a54327a6ddc5d681132fd68306469309`;
-- Art packet: `studio/direction/OBJECT_HINGE_SHADING_NORMAL_DIRECTION_048.md` at coordination commit `f55363657ae63f88460559b3f0f210cd70a7cb57`.
+`fbfa3b47048755b45dac91451171d5511c8d4f47`
 
-Art Direction 048 result:
+Its source-owned clearance successor is unchanged: panel standoff `0.08 -> 0.10 m`, turning the exact nearest-body-face gap from `0.00 -> 0.02 m` under the declared `0.04 m` receiver plate and `0.08 m` body depth.
 
-- **FAIL** primary rear three-quarter: near-white hinge pixels `1625 -> 1633`, mask IoU `0.9902260232`; the repeated bright rail remains visually dominant;
-- **FAIL** rear-grazing non-regression: near-white `0 -> 158`, fully-white `0 -> 158`;
-- **PASS** side reference: near-white remains `0 -> 0`.
-
-Therefore the one relative-facet-phase hypothesis changed real pixels but did **not** repair the target visual defect and introduced a new grazing regression.
-
-Direction 048 explicitly freezes the current visual review reference back to:
-
-- source successor002 synchronized knuckle phase;
-- `hardware_steel #7E868A`;
-- metallic `0.88`;
-- roughness `0.32`.
-
-It explicitly forbids a phase sweep or second phase candidate for this defect and returns the next one-variable question to existing Object Technical Art PR #16 as one review-only analytic-radial outer-cylinder normal candidate.
-
-## Bounded Hard-Surface improvement — retain the failed source-successor disposition
-
-Hard Surface did **not** mutate source geometry again.
-
-Existing Object PR #25 is now:
-
-`Hard Surface: retain hinge phase successor and review disposition`
-
-Exact current head:
+**Object** remains the other mature manufactured source-owner family. Hard Surface PR #25 remains at exact head:
 
 `5d8f767af79b744b6f3d31ce91dc4c908b3a440b`
 
-PR state after update: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Successor003 remains retained as a structurally valid `0° body / +15° lid` facet-phase candidate but is rejected for the current highlight objective by Art Direction 048. Successor002 plus `hardware_steel #7E868A / metallic 0.88 / roughness 0.32` remains the frozen visual-review reference. No second phase candidate or phase sweep is authorized.
 
-Successor003 remains byte-addressable and structurally valid at its exact original contract blob:
+### Empty / ungrounded manufactured lanes
 
-`e7a44523ea80e567a745cd61af7fd7005757cc12`
+- `axm-weapon-design`: README-only on main; no open PR.
+- `axm-armor-design`: README-only on main; no open PR.
+- `axm-unit-design`: repository remains empty; no open PR.
+- `axm-misc-design`: README-only on main; no open PR.
 
-Nothing rewrites its authored `body 0° / lid +15°` geometry or its earlier structural PASS.
+Hard Surface does not fabricate a weapon, armor, unit or miscellaneous asset merely to satisfy cadence.
 
-Instead, added a separate source-owner review-disposition contract:
+### Other design families / specialist ownership
 
-`assets/modular-equipment-case-001/hinge-bored-knuckle-relative-facet-phase-disposition-048.json`
+Character, Animal, Nature, Weather and Map have active specialist-owned Geometry/Rigging/Animation/VFX/Runtime/Environment work. None returned a manufactured-source defect owned by Hard Surface. Object Geometry PR #37 independently re-proves successor003's genus-1 through-bore topology; that is Geometry evidence, not permission for Hard Surface to reopen the rejected visual candidate. Building Geometry/Materials/Environment similarly retain their own exact successor rebinds and reviews without transferring source authority.
 
-Schema:
+## Fresh highest-leverage return — Building Art Direction 049
 
-`axm.object-source-successor-review-disposition/v0.1`
+A real downstream decision arrived after the previous Hard-Surface activation.
 
-The disposition pins:
+Art Direction 049 directly reviewed the fresh Building clearance-successor packet and independent QA on exact Materials head:
 
-- exact successor003 semantic ID and blob;
-- exact Art-048 coordination packet identity;
-- exact Materials head / workflow / artifact ID / artifact digest;
-- exact returned rear-three-quarter, rear-grazing and side witnesses;
-- successor003 remains structurally valid and retained;
-- `adopted_for_current_visual_repair = false`;
-- `phase_sweep_authorized = false`;
-- `second_phase_candidate_authorized = false`;
-- `source_geometry_rewrite_authorized = false`;
-- current review reference = successor002 + `#7E868A / m0.88 / r0.32`;
-- next owner = Technical Art PR #16;
-- no Hard-Surface geometry mutation is requested.
+`eb31efc1639f58f2797bac44ce7f1bad774841ef`
 
-A dedicated verifier and fail-closed test suite reject attempts to relabel the visually failed candidate as adopted, reopen a phase sweep, authorize a second phase candidate, silently replace the frozen review reference with successor003, drift the Materials evidence digest, recapture the next owner into Hard Surface, or change successor003's exact authored phase identity.
+with exact Environment convergence head:
 
-Scoped disposition result:
+`be5815257c9bf4dd688f3ee297ea8c53ecd1984d`
 
-`PASS_SOURCE_SUCCESSOR_REVIEW_DISPOSITION_RETAINED`
+Scoped Art result:
 
-## Exact verification
+`PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_CLEARANCE_SUCCESSOR_049`
 
-Dedicated workflow:
+The review accepts the exact `0.10 m` standoff / `0.02 m` body-gap successor as the current Building visual-review reference while explicitly freezing the previously selected production surface. No material retune and no new Hard-Surface geometry variation is requested.
 
-`35328892896 — Object hinge construction evidence` — **SUCCESS**.
+Direction packet:
 
-- Python 3.11: compile PASS, complete Object repository suite PASS, historical hinge chain PASS, successor003 structural re-proof PASS, new Direction-048 disposition verifier PASS, retained artifact upload PASS.
-- Python 3.13: compile PASS and complete Object repository suite PASS.
-- All **8 observed exact-head Object workflow families** completed **SUCCESS** at `5d8f767a...`.
+`studio/direction/BUILDING_UTILITY_PANEL_CLEARANCE_SUCCESSOR_DIRECTION_049.md`
 
-Retained artifact:
+at create-me commit:
 
-- ID `10539699458`;
-- name `modular-equipment-case-001-hinge-relative-facet-phase-successor-evidence`;
-- size `43,138 B`;
-- GitHub SHA-256 `4cb4d707513cb54aa59cb0864b242615aa3afc51c7b9078407adeb74ff1ab67e`;
-- exact head `5d8f767af79b744b6f3d31ce91dc4c908b3a440b`.
+`58cc1aaa04a597927185f5c61ebdf57f73ef6534`
 
-No independent local archive rehash is claimed in this activation; the digest above is GitHub-retained metadata.
+The Environment convergence workflow `35330825201` is green and already proves the exact current owner/material/placement/QA identities converge onto the existing retained world subject without inventing another world rerender. Art therefore closes the fresh-Art-head hold without granting Environment final adoption.
 
-## Reusable pattern
+## Structural verification retained
 
-`A_STRUCTURALLY_VALID_SOURCE_SUCCESSOR_CAN_FAIL_ITS_RECEIVING_OBJECTIVE__RETAIN_THE_EXACT_FAILED_SUCCESSOR_AND_REVIEW_RECEIPT__FREEZE_THE_LAST_ACCEPTABLE_REFERENCE__AND_DO_NOT_SEARCH_ANOTHER_SOURCE_DEGREE_OF_FREEDOM_WITHOUT_A_NEW_OWNER_RETURN`
+No design-repository bytes changed in this activation, so no new product CI result is manufactured.
 
-Operational meaning:
+The exact current Hard-Surface owner heads were rechecked instead:
 
-1. A structural PASS answers viability, not whether the candidate accomplishes the receiver's intended visual or functional objective.
-2. When the receiver rejects a structurally valid source successor, keep both truths: preserve the successful structural experiment and separately record the failed receiving disposition.
-3. Do not delete or silently rewrite the failed candidate; exact failure evidence is useful future provenance.
-4. Freeze the last acceptable receiving reference explicitly rather than letting a rejected candidate become the de-facto current state.
-5. A failed one-variable experiment does not authorize searching that source degree of freedom. A second candidate requires a fresh owner return.
-6. Route the next bounded question to the owner named by the receiving evidence rather than keeping work in Hard Surface by cadence.
+### Building PR #17 — `fbfa3b47...`
 
-This pattern is general evidence/provenance discipline for manufactured source-successor work. It is not promoted into UC/PF from this single product family.
+All four observed exact-head workflow families remain **SUCCESS**:
 
-## Propagation
+- `35257532608` — Hard-surface Building current-source policy evidence;
+- `35257532627` — Hard-surface Building utility-panel receiver-clearance evidence;
+- `35257532679` — Hard-surface building evidence;
+- `35257532543` — Hard Surface Building utility-panel service-surface domain evidence.
 
-Object Hard-Surface PR #25 received exact result comment `5727948568`.
+### Object PR #25 — `5d8f767a...`
 
-Object Technical Art PR #16 received evidence-only source-disposition handoff `5727950711`.
+All eight observed exact-head Object workflow families remain **SUCCESS**, including hinge construction `35328892896`, axial-stop, service-module fit/registration/fastener-clearance, front-latch ownership/pivot and hard-surface interface evidence.
 
-The Technical Art handoff does not pre-approve the analytic-radial-normal candidate and does not transfer source/default, Materials, Geometry, Rigging, Animation, Runtime, Art, QA, merge or CANON authority.
+The current Object Technical Art PR #16 still has no post-Direction-048 analytic-radial hinge-normal receiving A/B. Independent Visual QA likewise records that exact candidate as pending. Hard Surface therefore does not pre-judge or duplicate that lane.
 
-No downstream branch was rebased or auto-retargeted by Hard Surface.
+## Reusable cross-family discovery
 
-## Truth / authority boundary
+Building and Object now provide complementary evidence for one useful source-successor governance pattern:
 
-This activation does **not** claim:
+**`RECEIVER_ACCEPTANCE_OR_REJECTION_IS_A_DISPOSITION_ON_AN_EXACT_SOURCE_SUCCESSOR__IT_DOES_NOT_AUTOMATICALLY_PROMOTE_REWRITE_OR_DEFAULT_THAT_SOURCE__KEEP_SOURCE_IDENTITY_RECEIVER_DECISION_AND_OWNER_ADOPTION_SEPARATE`**
 
-- successor003 is structurally invalid — it remains structurally valid;
-- successor003 visually repairs the hinge — Art explicitly rejected it for that objective;
-- successor002 is adopted as source/default — it is only the frozen visual review reference;
-- Art's near-white counts or IoU are universal aesthetic thresholds;
-- analytic radial normals will solve the defect;
-- final normals, tangents, materials, UVs, textures, bevels or silhouette treatment;
-- manufacturing fit, retention, contact, load, wear, fatigue or collision validity;
-- Runtime / target-device acceptance;
-- CANON, production readiness, game readiness or specialist mastery;
-- UC / Profession Fabric promotion.
+Why this is now grounded rather than abstract:
 
-## Next valid trigger
+- **Object successor003:** structurally valid, independently rebound by Geometry/Rigging/Animation, but visually rejected for the targeted Art objective. The exact failed successor remains retained; source/default adoption does not follow from structural validity.
+- **Building clearance successor:** structurally green and now freshly Art-accepted in the reviewed receiver, but that Art PASS still does not silently merge the source, establish CANON, or grant final Environment/Runtime/production authority.
 
-Hard Surface should **not** produce another hinge phase or source-geometry candidate for the current highlight issue. Wait for the exact Technical Art PR #16 normal-only review return. Re-enter Object geometry only if that or another receiver returns a concrete source-mechanical requirement.
+Therefore both PASS and FAIL downstream dispositions are evidence about an exact source identity, not hidden source-owner mutations.
 
-Weapon / Armor / Unit / Misc remain eligible only when grounded manufactured source evidence appears. Building remains eligible only on a new source-truth defect or exact receiver requirement. UC/PF remain unchanged until materially independent evidence justifies extraction.
+## Careful propagation
+
+Building Hard Surface PR #17 received source-owner return comment **`5728603012`** recording Direction 049, the exact current Hard-Surface head, the cross-family disposition rule and the remaining authority boundaries.
+
+No Object comment was added because there is no new Object Technical-Art return to propagate. No rebase, merge, branch retarget, source/default promotion, UC extraction or Profession Fabric extraction was performed.
+
+## Authority / truth boundary
+
+This activation does **not** establish:
+
+- automatic adoption or merge of the Building clearance successor;
+- target-device Runtime acceptance for Building;
+- arbitrary close-range / anti-banding acceptance;
+- final Building normal/roughness/weathering/decal surface stack;
+- final Environment adoption;
+- a repaired Object hinge highlight;
+- Object Technical-Art analytic-radial-normal acceptance;
+- another Object facet phase, geometry search or source successor;
+- any Weapon / Armor / Unit / Misc source asset;
+- manufacturing loads, tolerances, seals, bearing behavior or physical retention beyond exact existing scoped proofs;
+- CANON;
+- production/game readiness;
+- Hard-Surface mastery.
+
+## Next legitimate Hard-Surface trigger
+
+Do not continue Building or Object by cadence.
+
+Re-enter only when one of these becomes true:
+
+1. Object Technical Art / Art / QA returns a concrete source-mechanical requirement after the Direction-048 normal-only experiment;
+2. Building or another receiver exposes a new exact source-truth defect rather than only downstream adoption work;
+3. Weapon, Armor, Unit or Misc gains a grounded manufactured source or explicit receiver requirement;
+4. another materially independent manufactured family demonstrates a mechanical pattern that genuinely warrants cross-family source-owner work.
+
+Until then, keeping both source-owner lanes frozen is the highest-integrity Hard-Surface action.
+
+The four AXM roots remain the merge gate.
