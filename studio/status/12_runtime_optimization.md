@@ -1,262 +1,261 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-18
-State: **PASS_53_NATURE_GODOT_PARTIAL_VERTEX_WINDOW / IMPORT_COMPRESSED_STRIDE_8_3120B / MUTABLE_FLOAT32_STRIDE_12_4680B_PLUS1560B_50_PERCENT_STORAGE / UPDATE_4680_TO_3120_B_SAVE_1560_B_33_3333_PERCENT / FIVE_OF_FIVE_READBACK_EXACT / FIVE_OF_FIVE_SHADED_BYTE_IDENTICAL / V1_LAYOUT_ASSUMPTION_FAILED_PRESERVED / V2_RUN_35318912330_SUCCESS / HOLD_NORMAL_TANGENT_ART_QA_TARGET_DEVICE**
+State: **PASS_54_NATURE_COMPRESSED_VERTEX_ID_SHADER_DRIVER / 10_EXACT_RUNS_TILE_110_370 / IMPORT_COMPRESSED_3120B_RETAINED / PASS53_MUTABLE_4680B_AVOIDED_SAVE_1560B_33_3333_PERCENT / SEMANTIC_DRIVER_3120_TO_4_B_99_8718_PERCENT_NOT_GPU_TRANSPORT / FIVE_FIXED_VIEW_PAIRS_ZERO_PIXELS_GT1LSB_MAX1LSB / FIRST_SHADER_COMPILE_FAILURE_PRESERVED_REPAIRED / RUN_35323459480_SUCCESS / HOLD_NORMAL_TANGENT_ART_QA_TARGET_DEVICE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the pass-52 Runtime ledger, current Art Direction / Technical Art / Animation / VFX state, Nature PR activity and fresh target-host evidence before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, current Runtime evidence and fresh Art Direction / Technical Art / Animation / VFX / Visual QA / Capability Cartography state before selecting work.
 
-`axm-create-me` remains **coordination only**. Runtime implementation and retained evidence for this pass live in `mike-axiom-mir/axm-nature-design`. Universal Creation product code was not modified.
+`axm-create-me` remains **coordination only**. Runtime implementation and evidence for this pass live in `mike-axiom-mir/axm-nature-design`. Universal Creation product code was not modified.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / duplicate-lane scan
+## Duplicate-lane / highest-risk scan
 
-Pass 52 explicitly identified the next legitimate Nature Runtime step: consume the exact existing `[110,370)` moving window in a real target-host receiver, measure actual partial-buffer behavior, and produce shaded control/candidate evidence rather than repeating source-space packing work.
+Pass 53 already proved the exact Nature `[110,370)` partial vertex-update window in Godot 4.7.2, but measurement exposed an opposing cost: the imported compressed receiver stores all 390 positions in **3,120 B**, while the mutable float32 `ArrayMesh` required for `surface_update_vertex_region()` stores the same positions in **4,680 B**. The pass therefore saved update bytes but paid **+1,560 B / +50%** position storage versus the imported receiver.
 
-Technical Art PR #3 has since added an exact current-UC receiver path for this Runtime owner chain. Its first real-Godot attempt exposed a concrete Runtime-relevant failure at the transport boundary rather than an Art, Animation or VFX defect: the imported GLB's actual vertex-position layout did not match the source-side float32 packet assumption.
+That unresolved storage/CPU-update tradeoff was more reusable and higher-risk than reopening Object batching, Object VFX MultiMesh, Building RGB8, Animal key reduction or another already-proven Runtime lane. The existing Nature Runtime PR #20 already owns this exact representation seam, so no duplicate PR/lane was opened.
 
-Other fresh lanes remain separately owned:
-
-- Art Direction is currently driving an Object hinge material-hierarchy repair, not a Runtime representation change;
-- Animation has a newer five-socket simultaneous diagnostic loop on a newer Rigging owner pair, which this exact target-host proof does **not** auto-inherit;
-- VFX retains the static five-socket visual-response semantics and does not own Runtime transport;
-- Object batching, Object VFX MultiMesh, Building RGB8, Animal key reduction and earlier Runtime lanes already have bounded evidence and were not reopened.
+Fresh Animation/VFX work is on newer owner chains and remains separately owned. This pass does **not** silently inherit those newer timing/wind semantics.
 
 Selected bounded question:
 
-**Can Godot 4.7.2 execute the exact pass-52 Nature dynamic window as a real partial vertex-region update, and what target-host storage/visual tradeoff appears when the imported layout is measured instead of assumed?**
+**Can the exact pass-53 Nature receiver retain Godot's compressed imported position storage and move only the already-authorized rigid branch deformation into a bounded vertex-shader driver, avoiding the mutable float32 storage penalty and CPU position-buffer rewrite while keeping fresh fixed-view raster evidence within a tight gate?**
 
-## Selected bounded improvement — pass 53
+## Selected bounded improvement — pass 54
 
 Repository: `mike-axiom-mir/axm-nature-design`
 
 Existing draft Runtime PR: **#20 — `Runtime: exploit east-rear dynamic vertex window in Godot`**
 
-Branch:
+Branch: `studio/runtime-east-rear-dynamic-prefix-001`
 
-`studio/runtime-east-rear-dynamic-prefix-001`
-
-Exact final Runtime head:
-
-**`422fbd87efc8ab3f94b69ad3d00b511e2395c4b6`**
+Exact final Runtime head: **`520068e1167f369b24e749831954f9bda1cd7aec`**
 
 At final verification PR #20 is **open / draft / unmerged / mergeable**.
 
-Exact bounded owner chain consumed:
+Exact pinned predecessor / donors retained by the workflow:
 
-- pass-52 Runtime predecessor: `6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`;
+- pass-52 Runtime owner: `6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`;
 - Technical Art receiver donor: `b96f794325f825188b6fd9a920e3fb575e43e467`;
-- VFX owner: `ba1c12dd527f1ecc6a0eb4bc0b4322f15ccad475`;
-- Rigging owner: `754797a815266a643c6b08f1606eb76ba95dd8c6`;
 - Universal Creation donor: `5c5d2cfdc3aa4e9462fd4d5ec5bc7874f12674a4`.
 
 Scoped result:
 
-**`PASS_NATURE_EAST_REAR_RUNTIME_WINDOW_GODOT_PARTIAL_VERTEX_UPDATE`**
+**`PASS_NATURE_EAST_REAR_RUNTIME_FRAGMENTED_VERTEX_ID_SHADER_DRIVER`**
 
-## Measure-before result — imported layout falsified the first assumption
+## Measure-before result — second simplifying assumption falsified
 
-Pass 52's source-space packet is float32 Vector3 data:
+The exact receiver remains:
 
-- total positions: **390**;
-- full float32 position packet: **4,680 B**;
-- moving window: exact source indices **`[110,370)`** = **260 vertices**;
-- dynamic float32 packet: **3,120 B**;
-- source-side saving: **1,560 B / 33.3333333333333%**;
-- geometry reindexed: **false**;
-- index buffer changed: **false**.
+- vertices: **390**;
+- moving vertices: **260**;
+- fixed vertices: **130**;
+- moving union: exact source indices **`[110,370)`**;
+- five authorized rigid branch groups of **52 vertices each**.
 
-The first target-host path did not assume that this layout survived import. Godot 4.7.2 measured the exact current-UC GLB and exposed:
+Runtime first tested the simplest possible shader lookup: one contiguous `VERTEX_ID` range per branch group. Real owner data falsified that assumption.
 
+The five groups are each split across two contiguous runs, producing **10 exact runs** that tile `[110,370)` with no gaps or overlap:
+
+- south-low: `[110,146)` and `[290,306)`;
+- north-low: `[146,182)` and `[306,322)`;
+- east-mid: `[182,218)` and `[322,338)`;
+- west-high: `[218,254)` and `[338,354)`;
+- north-top: `[254,290)` and `[354,370)`.
+
+The failed one-range-per-group hypothesis is retained explicitly in the oracle. Runtime did not reindex the mesh merely to make the shader lookup prettier.
+
+## Representation change and budget
+
+The bounded candidate keeps the exact imported compressed receiver and applies the already-owned five rigid branch transforms in a Godot spatial vertex shader selected by those 10 exact `VERTEX_ID` runs.
+
+Measured receiver state:
+
+- vertex count: **390**;
+- surface count: **1**;
 - imported vertex-position stride: **8 B**;
-- imported position-buffer size: **3,120 B** for all 390 vertices;
 - imported positions compressed: **true**;
-- imported position offset: **0 B**.
+- candidate position storage: **3,120 B**;
+- geometry reindexed: **false**;
+- surface count changed: **false**;
+- CPU position buffer mutated per pose: **false**.
 
-Therefore the source-side `12 B` float32 stride / `1,320 B` offset cannot be applied directly to the compressed imported vertex buffer. This is a real boundary discovered by measurement, not a reason to weaken the target oracle.
+Compared with pass 53:
 
-The first v1 target-host workflow failed on that assumption and remains retained in Git/history. Runtime did not hide or relabel it as a pass.
+- pass-53 mutable float32 position storage: **4,680 B**;
+- pass-54 compressed position storage: **3,120 B**;
+- storage avoided: **1,560 B / 33.3333333333333%** versus the pass-53 mutable representation.
 
-## Smallest target-host repair
+The per-pose representation also changes from a CPU position packet to one shared driver value:
 
-Runtime creates a mutable dynamic-update `ArrayMesh` from the exact imported arrays before applying float32 position updates.
+- pass-53 partial float32 position packet: **3,120 B**;
+- pass-54 shader semantic driver value: **4 B**;
+- semantic payload difference: **3,116 B / 99.8717948717949%**.
 
-Measured mutable receiver:
+Truth boundary: **4 B is the semantic driver value, not a measured GPU command-transport byte count.** Runtime does not claim the host/API sends exactly four bytes or that the GPU update path is free.
 
-- mutable position stride: **12 B**;
-- mutable position offset: **0 B**;
-- mutable position buffer: **4,680 B**;
-- positions compressed: **false**;
-- dynamic-update flag: **true**;
-- API: **`ArrayMesh.surface_update_vertex_region()`**.
+## Structural tradeoff
 
-Exact control/candidate:
+The memory/CPU-side representation win moves work into the vertex shader.
 
-- control full update: **4,680 B**;
-- candidate byte offset: **1,320 B**;
-- candidate partial update: **3,120 B**;
-- candidate saving per mutable position update: **1,560 B / 33.3333333333333%**.
+Measured/bounded shader structure:
 
-Important measured tradeoff:
+- exact `VERTEX_ID` runs: **10**;
+- upper bound: up to **10 range tests per vertex** plus rigid rotation math;
+- no mesh reindexing to reduce those tests;
+- no claim of lower target-device GPU time;
+- no claim that shader branching is free.
 
-- imported compressed position storage: **3,120 B**;
-- mutable float32 position storage: **4,680 B**;
-- Runtime mutable-storage cost: **+1,560 B / +50%** versus imported compressed positions.
+This is the central Art/Runtime tradeoff for review: compressed storage and no CPU position rewrite are preserved, but additional vertex-stage control flow is introduced.
 
-This pass is therefore **not a memory win**. It proves a smaller per-update transfer/working packet on the mutable path while explicitly paying extra mutable position storage.
+## First real-Godot shader attempt failed and is preserved
 
-Direct mutation of Godot's compressed imported position buffer is **not proven**.
+The first generated Godot shader used an early `return` inside `void vertex()`. Godot 4.7.2 rejected that shader syntax. The failed attempt produced fallback/mismatched raster evidence and remains preserved in workflow/Git history; it was not relabelled as a pass.
 
-## Real Godot target-host equivalence
+Smallest repair:
+
+- changed only generated control flow from an early-return form to `if (apply_driver >= 0.5) { ... }` around the deformation block;
+- did **not** change owner geometry;
+- did **not** change the 10-run lookup;
+- did **not** change pivots, axes, sign polarity, driver witnesses or visual thresholds.
+
+This repair produced exact final Runtime head `520068e1167f369b24e749831954f9bda1cd7aec`.
+
+## Real Godot target-host evidence
+
+Workflow:
+
+**`35323459480 — Runtime east rear compressed shader driver` — SUCCESS**
 
 Target host:
 
-- Godot **4.7.2-stable official**;
+- Godot **4.7.2 stable official**;
 - GL Compatibility;
 - llvmpipe proof host;
-- five retained shared-driver witnesses: `-5 / -2.5 / 0 / +2.5 / +5°`.
+- five retained driver witnesses: `-5 / -2.5 / 0 / +2.5 / +5°`.
 
-Across all five witnesses:
+Receipt observations:
 
-- maximum owner-window packet component delta: **`0.0 m`**;
-- maximum full-control readback vs Runtime expected: **`0.0 m`**;
-- maximum partial-candidate readback vs Runtime expected: **`0.0 m`**;
-- maximum control vs candidate readback delta: **`0.0 m`**;
-- maximum static control vs candidate delta: **`0.0 m`**;
-- maximum candidate movement from neutral: **`0.092465803027153 m`**.
+- CPU analytic control vs mutable control readback maximum component delta: **`0.0 m`**;
+- CPU analytic vs exact owner maximum component delta: **`0.0000624656677246094 m`**, retained as imported-compression observation;
+- candidate GPU vertex positions were **not** directly read back;
+- shader representation evidence therefore relies on exact receiver/oracle binding plus fresh rendered A/B, not a fake GPU-position-readback claim.
 
-The imported compressed neutral receiver differs from source-owner values by at most **`6.22272491455078e-05 m`**, retained explicitly as an import-compression observation rather than narrated as exact source numeric identity.
+## Fresh visual tradeoff for Art Direction / Visual QA
 
-## Visual tradeoff for Art Direction / Visual QA
+Five fixed-view CPU-control vs compressed shader-driver pairs were rendered and compared.
 
-Runtime captured five fixed-view shaded full-control vs partial-candidate pairs using the same proof material, camera and light.
-
-Fresh exact comparison:
+Across **3,150,000 pixels** total:
 
 - pairs: **5 / 5**;
-- changed pixels: **0** across every pair;
+- changed pixels: **228** total;
 - pixels >1 LSB: **0**;
-- maximum channel delta: **0 LSB**;
-- therefore all five retained A/B pairs are **byte-identical**.
+- maximum channel delta: **1 LSB**;
+- fraction of pixels >1 LSB: **0.0**;
+- neutral pair pixels >1 LSB: **0**.
 
-The observer is discriminating rather than static: neutral full-control vs `+5°` full-control changes **4,478 pixels >1 LSB**.
+Per pair changed pixels at exactly 1 LSB maximum:
 
-Recorded Art/QA boundary:
+- `-5°`: 46;
+- `-2.5°`: 46;
+- `0°`: 44;
+- `+2.5°`: 49;
+- `+5°`: 43.
 
-- proof material only, not final Nature lookdev;
-- normals/tangents were intentionally not updated in either path;
+The observer is discriminating: shader candidate neutral vs `+5°` changes **4,438 pixels >1 LSB**.
+
+Recorded visual tradeoff:
+
+- no >1-LSB difference was observed in the five retained control/candidate pairs;
+- tiny 1-LSB raster variation exists, so this is **not** called byte-identical;
+- proof material only;
 - deformed normal/tangent correctness remains unproven;
-- final material/foliage/sidedness acceptance remains unproven;
+- final Nature material/foliage/sidedness acceptance remains unproven;
 - Art Direction / independent Visual QA remain **HOLD**;
 - target-device acceptance remains **HOLD**.
 
-Runtime does not convert byte-identical representation A/B into appearance authority.
+Runtime does not convert a bounded raster-equivalence PASS into visual authority.
 
-## Fail-closed evidence
+## Fail-closed / continuity evidence
 
-The target-host verifier deliberately shifts the candidate update offset by exactly one float32 Vector3: **`+12 B`**.
+The shader oracle rejects a deliberately shifted first run start (`110 -> 111`) rather than silently accepting a broken ownership map.
 
-That mutation fails the Runtime target-host gate with:
+The run map must tile the exact `[110,370)` moving domain and is capped at **64** authorized ranges; current exact count is **10**.
 
-- maximum control/candidate component mismatch above **`1.25 m`**;
-- maximum static control/candidate drift about **`0.469 m`**;
-- candidate offset observed as **1,332 B** rather than 1,320 B.
+The workflow pins the exact Runtime predecessor, Technical Art receiver donor and Universal Creation donor, and verifies the exact final candidate head before generating evidence.
 
-This demonstrates that the successful result depends on the exact `[110,370)` mutable byte window rather than merely calling the partial-update API.
+The earlier pass-53 mutable-buffer path remains intact and recoverable. Pass 54 does not rewrite pass 53; it removes the measured mutable-storage/CPU-update tradeoff through a distinct representation while preserving the old evidence as control/history.
 
-Source-window drift and authority-inflation controls from the preceding lane remain separately retained.
+## Retained exact pass-54 evidence
 
-## Workflow lineage and CI repair
+Artifact:
 
-The historical v1 target-host workflow assumed the imported receiver retained the source-side 12-byte float32 position layout. Real Godot falsified that assumption. The failed v1 state remains recoverable in Git and its earlier workflow evidence is not erased.
-
-After v2 established the measured imported/mutable layout distinction, the obsolete v1 workflow was changed to **manual-only historical pointer** so its known-invalid assumption no longer makes every new Runtime head red. The active automatic verifier is the v2 workflow.
-
-Final exact-head same-lane checks observed green:
-
-- `35318912330 — Runtime east rear target-host dynamic window v2` — **SUCCESS**;
-- Runtime east rear existing dynamic window — **SUCCESS**;
-- Geometry source topology migration evidence — **SUCCESS**;
-- Organic east rear tree evidence — **SUCCESS**;
-- Organic compact east tree evidence — **SUCCESS**;
-- Nature organic form baseline — **SUCCESS**.
-
-No target threshold or owner identity was weakened to obtain the v2 PASS.
-
-## Retained exact pass-53 evidence
-
-Final artifact:
-
-- ID **`10536666073`**;
-- name `nature-east-rear-runtime-target-host-v2-422fbd87efc8ab3f94b69ad3d00b511e2395c4b6`;
-- size **`279,115 B`**;
-- GitHub artifact SHA-256 **`093fbb836308f830c2ead5e0d46a9058fa86e12d77178da31e9f10e15f8ff57c`**;
+- ID **`10538630039`**;
+- name `nature-east-rear-runtime-shader-driver-520068e1167f369b24e749831954f9bda1cd7aec`;
+- size **`261,166 B`**;
+- SHA-256 **`1a19c89fa6ebd5ca0c553fcd02c4bcd08ce1c88c67a47f74d3e2e6a7fce3332c`**;
 - independently downloaded and rehashed to the exact same digest.
 
-Retained evidence includes the exact owner heads, current-UC GLB/oracle, preflight receipt, real-Godot receipt, five control renders, five candidate renders, pixel comparison, positive/negative Godot logs, implementation, contract, workflow and updated Runtime design note.
+Retained evidence includes the receiver build/oracle, fragmented-run shader oracle, generated shader, Godot receipt/log, five control renders, five shader-driver renders, visual comparison, exact donor/head identities, implementation and workflow.
 
 ## Authority / handoff
 
 - Organic / Geometry / Rigging source ownership remains unchanged.
 - VFX retains visual-response semantics.
 - Animation retains timing/motion authority.
-- Technical Art retains receiver/transport authority.
-- Runtime owns the bounded mutable receiver / partial-update representation and target-host performance-structure evidence.
+- Technical Art retains receiver/import/transport authority.
+- Runtime owns this bounded compressed-receiver / shader-driver representation evidence.
 - Art Direction / Visual QA retain visual acceptance authority.
 - target-device CPU/GPU/FPS/VRAM/heap/thermal/battery acceptance remains open.
 - Universal Creation remains unchanged and generic.
 - `axm-create-me` remains coordination/status only.
 
-A no-adoption-request Runtime handoff was returned to Technical Art PR #3 with the measured import-compression boundary, mutable-storage cost and exact target-host result. PR #20 requests no automatic merge or CANON promotion.
+PR #20 requests no automatic merge or CANON promotion.
 
-## Newer Animation/Rigging boundary
+## Continuity from pass 53 and earlier
 
-Current Nature Animation has independently advanced to a simultaneous five-socket diagnostic loop on a newer Rigging owner chain. Pass 53 does **not** silently transfer this target-host PASS to that newer simultaneous-motion pair.
+Pass 53 remains exact historical evidence for the real Godot mutable partial-update path:
 
-This exact target-host proof remains bound to:
+- imported compressed storage: **3,120 B**;
+- mutable float32 storage: **4,680 B**;
+- mutable storage cost: **+1,560 B / +50%**;
+- partial update packet: **3,120 B** vs full **4,680 B**;
+- five real-Godot readback witnesses at **0.0 m** control/candidate delta;
+- five shaded full-vs-partial pairs byte-identical;
+- exact pass-53 head: `422fbd87efc8ab3f94b69ad3d00b511e2395c4b6`;
+- workflow `35318912330` SUCCESS;
+- artifact `10536666073`, SHA-256 `093fbb836308f830c2ead5e0d46a9058fa86e12d77178da31e9f10e15f8ff57c`.
 
-- Rigging `754797a8...`;
-- VFX `ba1c12dd...`;
-- Runtime predecessor `6d89e1fc...`;
-- Technical Art receiver donor `b96f7943...`.
-
-A future simultaneous-motion target-host/Runtime proof must rebind explicitly to the newer Animation/Rigging identities rather than inheriting by similarity.
-
-## Continuity from pass 52 and earlier
-
-Pass 52 remains exact historical evidence for discovering the existing `[110,370)` moving window, the **4,680→3,120 B** source-side packet reduction, five exact source-space poses, and the ~5.29% Python proof-host preparation observation.
-
-Pass 53 does not rewrite it. It closes the specific target-host blocker pass 52 left open and adds the newly discovered import-compression tradeoff.
-
-Pass 51 Object static batching, pass 50/49 Building RGB8, pass 47 Object VFX MultiMesh, pass 46 Animal key reduction, pass 45 joint-index width and earlier Runtime lanes remain separately recoverable and were not reopened.
+Pass 52 remains exact evidence for discovering the existing `[110,370)` moving window. Object static batching, Object VFX MultiMesh, Building RGB8, Animal animation-key reduction, joint-index width and earlier Runtime lanes remain separately recoverable and were not reopened.
 
 ## Highest-value next Runtime gap
 
-Do **not** repeat the exact target-host partial-window proof or claim memory reduction from this representation.
+Do **not** repeat this exact compressed shader-driver proof or narrate semantic-driver bytes as measured bus/API traffic.
 
-The highest-value next steps are now:
+The strongest next Runtime step is now one of:
 
-1. real target-device CPU/GPU/FPS/VRAM/heap/thermal/battery evidence for a bounded Runtime candidate; or
-2. when the owning chain is ready, an explicit rebind of this target-host machinery to the current simultaneous Nature Animation/Rigging pair, without importing its timing/wind semantics into Runtime.
+1. **real target-device evidence** comparing pass-53 mutable CPU updates versus pass-54 compressed shader driving: CPU/GPU frame time, FPS stability, VRAM/heap, thermal/battery where available; or
+2. when the owning chain is ready, an explicit rebind to the current newer simultaneous Nature Animation/Rigging receiver, with owner identities pinned and no silent transfer of motion semantics.
 
-If neither lane is available, select a genuinely new runtime budget seam elsewhere in the constellation.
+If neither is available, select a genuinely new runtime budget seam elsewhere.
 
 ## Explicit non-claims
 
-Pass 53 does **not** establish:
+Pass 54 does **not** establish:
 
-- direct partial updates of Godot's compressed imported position buffer;
-- a memory reduction versus the imported compressed receiver;
-- a generic vegetation update/import policy;
-- safety for deformation outside exact vertices `[110,370)`;
+- that a 4-byte semantic float equals actual GPU command-transport traffic;
+- lower target-device GPU time or energy use;
+- free/zero-cost shader range tests;
+- direct GPU vertex-position readback equivalence;
+- a generic vegetation shader-driver/import policy;
+- safety outside exact receiver/domain `[110,370)` and the five pinned rigid groups;
 - continuous timed wind playback;
 - physical wind semantics;
 - deformed normal/tangent correctness;
 - final Nature material/lookdev/foliage/sidedness acceptance;
-- target-device CPU/GPU/FPS/VRAM/heap/thermal/battery improvement;
-- current newer simultaneous Animation/Rigging target-host acceptance;
+- current newer simultaneous Animation/Rigging acceptance;
 - gameplay/collision/physics readiness;
 - Art Direction or independent Visual QA acceptance;
 - CANON;
@@ -265,12 +264,12 @@ Pass 53 does **not** establish:
 
 ## Four-root check
 
-**Truth:** Runtime measured the target host before assuming buffer layout. Godot's 8-byte compressed import invalidated the first 12-byte direct-update assumption; that failure remains retained. The final PASS reports both the 33.33% mutable update-packet saving and the opposing +50% mutable position-storage cost.
+**Truth:** pass 54 preserved two falsifications instead of hiding them: branch groups were not single `VERTEX_ID` ranges, and the first Godot shader form did not compile. The final report distinguishes semantic payload from measured transport and reports the added shader control-flow cost.
 
 **Agency / non-domination:** Runtime does not rewrite Organic, Geometry, Rigging, VFX, Animation, Technical Art, Art/QA or Universal Creation authority. No automatic adoption, merge or CANON request is made.
 
-**Continuity:** pass 52, the failed v1 target-host assumption, the Technical Art donor, active v2 verifier, exact final head/workflow/artifact, earlier Runtime passes and newer Animation/Rigging work all remain separately identified and recoverable.
+**Continuity:** pass 52, pass 53, the failed shader attempt, exact 10-run map, final Runtime head/workflow/artifact and earlier Runtime lanes remain separately identified and recoverable.
 
-**Wisdom before speed:** the first target-host failure was treated as information, not hidden. Runtime repaired only the measured layout boundary, retired only the obsolete auto-run while preserving its history, and stops before target-device or newer-owner claims.
+**Wisdom before speed:** Runtime stayed inside the existing PR, measured the real owner layout before optimizing, repaired only the compiler-boundary defect, and stops before target-device or newer-owner claims.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
