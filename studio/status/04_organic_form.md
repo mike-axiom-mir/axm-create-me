@@ -2,9 +2,9 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_NORTH_LOW_CONTINUOUS_BRIDGE_SPAN_SOURCE_SEMANTIC_BOUNDARY / ORGANIC_PR8_HEAD_8533E9D5_DOCS_ONLY / SOURCE_FORM_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / GEOMETRY_PR18_MERGED_14D05FDA / PROCEDURAL_PR4_1BBEB682 / RIGGING_PR14_EFE99261 / 8_OF_8_PAIRED_SPANS_CONTINUOUS_POSITIVE / DERIVED_SPAN_NOT_SOURCE_MARGIN_OR_ROM / CONNECTED_TOPOLOGY_SKINNING_TRIANGLE_FOLDOVER_COLLISION_HELD / CHARACTER_REVIEW006_FROZEN / ANIMAL_SELECTED003_FROZEN / COORDINATION_ONLY**
+State: **PASS_NATURE_NORTH_LOW_CONTINUOUS_BRIDGE_SPAN_SOURCE_SEMANTIC_BOUNDARY / ORGANIC_PR8_HEAD_8533E9D5_DOCS_ONLY / CURRENT_HEAD_CI_6_OF_6_COMPLETE_NO_FAILURES_OBSERVED / ARTIFACT_10549796091_SHA_3A53C789 / SOURCE_FORM_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / GEOMETRY_PR18_MERGED_14D05FDA / PROCEDURAL_PR4_1BBEB682 / RIGGING_PR14_EFE99261 / 8_OF_8_PAIRED_SPANS_CONTINUOUS_POSITIVE / DERIVED_SPAN_NOT_SOURCE_MARGIN_OR_ROM / CONNECTED_TOPOLOGY_SKINNING_TRIANGLE_FOLDOVER_COLLISION_HELD / CHARACTER_REVIEW006_FROZEN / ANIMAL_SELECTED003_FROZEN / COORDINATION_ONLY**
 
-> Continuity note: immediate predecessor status blob `5f6ac0e9c1e0c683704c52d80dbb0c03ec3d35d1` remains rollback-addressable. It records the prior Geometry analytic-bridge source-fidelity return at Organic head `6620138f108efb5261a90c971bec221b7fa104a9` and its exact-head green evidence. This activation extends that chain; it does not rewrite it.
+> Continuity note: immediate predecessor coordination blob `4fbf0f900a3f862940e9f88d8863e5b54a52e023` records this same activation while exact-head workflows were still running. The preceding completed status blob `5f6ac0e9c1e0c683704c52d80dbb0c03ec3d35d1` records the prior Geometry analytic-bridge source-fidelity return at Organic head `6620138f108efb5261a90c971bec221b7fa104a9`. Both remain rollback-addressable; neither is silently rewritten.
 
 ## Current activation
 
@@ -14,25 +14,15 @@ Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`,
 
 The four AXM roots remain the merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
-## Full constellation / duplicate-lane scan
+## Full constellation / duplicate-lane decision
 
-### Character
+**Character review-006 remains source/form frozen.** Fresh work is downstream Geometry, Rigging, Animation, Technical Art, Materials and Runtime evidence. Current Character Rigging continuously certifies named indexed-neighbour structural predicates and current Animation binds a frozen diagnostic curve inside that owner envelope, but no return localizes a defect to Organic-owned anatomy, mass, landmarks, proportion, silhouette or authored positions. No Character Organic successor is justified.
 
-Character review-006 remains source/form frozen. Fresh work is downstream: Geometry retains the selected `opening_repair` receiver, current Rigging continuously certifies its named indexed-neighbour structural predicates over its exact owner interval, Animation binds a frozen diagnostic curve to that current Rigging envelope, and Technical Art / Materials / Runtime continue target/import/representation work. None of those current returns localizes a defect to Organic-owned anatomy, mass, landmark placement, proportion, silhouette, or authored source positions. No new Character Organic source successor is justified.
+**Animal selected-003 remains source/form frozen.** Fresh work remains downstream tangent-frame, Materials, Rigging, Animation, Technical-Art and Runtime representation evidence. The current 19-key Runtime candidate still carries a Rigging owner-angle semantic HOLD; that is a motion/representation tolerance question, not evidence that source anatomy or authored form is wrong. No Animal Organic successor is justified.
 
-### Animal
+**Nature remains the strongest Organic seam.** Its exact `north-low` handoff has advanced from a neutral analytic bridge candidate to a continuous Rigging connector-span certificate. The evidence is positive rather than source-defective. The new risk is semantic: a smallest derived bridge span could be misread as Organic attachment thickness, source support margin, flex radius or biological/source ROM. The highest-leverage Organic improvement is therefore to bind the receiver evidence to exact source/form identity while separating unlike quantities, not to reshape the tree.
 
-Animal selected-003 remains source/form frozen. Fresh work remains downstream tangent-frame, Materials, Rigging, Animation, Technical-Art and Runtime representation evidence. The current Runtime 19-key candidate also carries a Rigging owner-angle semantic HOLD; that is a motion/representation tolerance question, not evidence that source anatomy or authored form is wrong. No duplicate Animal Organic lane is justified.
-
-### Nature
-
-Nature remains the strongest Organic seam because its exact `north-low` source/form handoff has materially advanced from a neutral analytic bridge candidate to a continuous Rigging connector-span certificate.
-
-The fresh evidence is positive rather than source-defective. The risk is semantic: the new smallest derived bridge span can be accidentally misread as an Organic attachment thickness, source support margin, flex radius, or biological/source ROM. The highest-leverage Organic improvement is therefore to bind the continuous receiver evidence to exact source/form identity while separating unlike quantities, not to reshape the tree.
-
-### Other campaign repositories
-
-Weapon, Armor, Unit and Misc expose no grounded Organic source lane. Building/Object remain manufactured Hard-Surface / Geometry / Materials / Technical-Art dominated. Weather remains Weather/VFX-owned and Map remains Environment/World-Art-owned. No stronger non-duplicated Organic form defect was found.
+Weapon, Armor, Unit and Misc expose no grounded Organic source lane. Building/Object remain manufactured Hard-Surface / Geometry / Materials / Technical-Art dominated; Weather remains Weather/VFX-owned; Map remains Environment/World-Art-owned.
 
 ## Existing Nature Organic lane
 
@@ -46,7 +36,7 @@ Exact current Organic head:
 
 **`8533e9d5ed7be60cab06ed5caba06018e0fe71a6`**
 
-Current change is documentation/evidence only:
+Current product-side change is documentation/evidence only:
 
 `docs/ORGANIC_EAST_REAR_BRIDGE_CONTINUOUS_SPAN_SOURCE_BOUNDARY_010.md`
 
@@ -74,9 +64,9 @@ Exact retained `north-low` Organic measurements remain source-form facts only:
 
 These are not weld allowances, skinning bounds, tissue thicknesses, stiffness values, physical clearances or biological insertion depths.
 
-## Fresh downstream evidence bound read-only
+## Exact downstream evidence consumed read-only
 
-### Geometry — merged analytic bridge donor
+### Geometry
 
 Merged Nature Geometry PR #18 exact head:
 
@@ -88,7 +78,7 @@ Bridge module blob:
 
 Geometry retains the bounded analytic branch/trunk bridge candidate. Its indexed trunk remains uncut and the connected branch/trunk junction remains held.
 
-### Procedural — topology-free projector
+### Procedural
 
 Nature Procedural PR #4 exact head:
 
@@ -104,13 +94,13 @@ Canonical family digest:
 
 Procedural reproduces Geometry's real eight `north-low` trunk-envelope projection samples with maximum numeric delta `0.0`, while retaining no Organic form meaning and no Geometry topology authority.
 
-### Rigging — fresh continuous paired-span certificate
+### Rigging
 
 Nature Rigging PR #14 exact current head:
 
 `efe99261459858636dbe65b16cbe1d5ad2b93a56`
 
-Scoped result:
+Scoped Rigging result:
 
 `PASS_NORTH_LOW_ANALYTIC_BRIDGE_PAIRED_SPAN_CONTINUOUS_NONCOLLAPSE_MINUS5_TO_PLUS5__HOLD_TRIANGLE_FOLDOVER_COLLISION`
 
@@ -140,47 +130,43 @@ The `0.01530331190226083 m` minimum is a property of one exact **derived analyti
 
 Likewise Rigging's `[-5,+5]°` interval remains a diagnostic receiver interval. Organic does not adopt it as botanical/source ROM.
 
-The strongest source decision is therefore:
+Source decision:
 
 **`ORGANIC_SOURCE_FORM_FROZEN__NO_COMPENSATORY_RESHAPE_FROM_DERIVED_BRIDGE_SPAN`**
 
-The current downstream receiver evidence returns no defect localized to Organic-owned mass, centerlines, radii, branch placement, proportion, silhouette, source positions or flex metadata.
+The current downstream evidence returns no defect localized to Organic-owned mass, centerlines, radii, branch placement, proportion, silhouette, source positions or flex metadata.
+
+## Exact-head verification
+
+The current Organic commit `8533e9d5...` is documentation-only.
+
+Fresh exact-head poll observed **6 workflow runs** attached to this head. All six completed; no failure conclusion and no still-in-progress run was observed. Dedicated Organic workflow:
+
+**`35349577426 — Organic east rear tree evidence — SUCCESS`**
+
+Retained exact-head artifact:
+
+- ID: **`10549796091`**;
+- name: `east-rear-tree-neutral-001-evidence`;
+- size: **`55,979 B`**;
+- GitHub SHA-256: **`3a53c78910a19f61b810fecd0fd2cea6d613328e99a2a00dbe4519248e60162a`**;
+- exact head: `8533e9d5ed7be60cab06ed5caba06018e0fe71a6`.
+
+This activation does **not** claim an independent local rehash of that archive. The digest above is GitHub's retained artifact digest.
+
+The immediately preceding Organic head `6620138f...` remains a separate completed exact-head evidence point with artifact `10546632016`, SHA-256 `52bad36f207382c8e396ad552d73ac6c147d4f02e7ed0a02eb22cb5f4fce47ff`.
 
 ## Handoffs retained
 
-Fresh handoffs:
-
 - Organic PR #8 comment **`5730582374`** — exact source/receiver semantic boundary and no-source-compensation decision;
-- Rigging PR #14 comment **`5730584529`** — current continuous-span PASS consumed read-only; no source ROM/attachment-thickness transfer;
+- Rigging PR #14 comment **`5730584529`** — continuous paired-span PASS consumed read-only; no source ROM or attachment-thickness transfer;
 - Procedural PR #4 comment **`5730585905`** — projector remains topology-free and semantically neutral; no Procedural change requested.
 
-Prior Geometry / Organic / Rigging / Procedural evidence remains separately addressable and is not rewritten by these comments.
+No downstream branch was merged, rebased, retargeted or automatically adopted by Organic.
 
-## Current-head verification state
+## Explicit nonclaims
 
-The current Organic commit `8533e9d5...` is documentation-only. The first exact-head workflow poll observed **6 workflow runs** attached to this head. At the time of this status write, `35349577426 — Organic east rear tree evidence` was **in progress**. No green current-head CI or current-head artifact hash is claimed until those workflows complete.
-
-The immediately preceding Organic head `6620138f...` remains the latest completed exact-head Organic evidence point with all three Organic workflows green and retained artifact `10546632016`, SHA-256 `52bad36f207382c8e396ad552d73ac6c147d4f02e7ed0a02eb22cb5f4fce47ff`.
-
-## Explicit truth boundary / nonclaims
-
-This activation does **not** establish:
-
-- botanical or biological correctness;
-- biological attachment mechanics;
-- tissue strength, stiffness, stress or physical flex law;
-- biological or source ROM;
-- continuous bridge-triangle nondegeneracy or orientation preservation;
-- foldover, collision or self-intersection freedom;
-- indexed trunk cut, weld, boolean, remesh or connected branch/trunk topology;
-- production skinning, weights or blended deformation;
-- physical wind;
-- Animation/VFX/Technical-Art/Runtime acceptance for the current analytic bridge successor;
-- target-host/device readiness;
-- final Art Direction / independent Visual QA acceptance;
-- CANON;
-- production/game readiness;
-- Organic, Geometry, Rigging, Procedural or studio mastery.
+This activation does **not** establish botanical or biological correctness; biological attachment mechanics; tissue strength, stiffness, stress or physical flex law; biological/source ROM; continuous bridge-triangle nondegeneracy or orientation preservation; foldover, collision or self-intersection freedom; indexed trunk cut, weld, boolean, remesh or connected branch/trunk topology; production skinning, weights or blended deformation; physical wind; Animation/VFX/Technical-Art/Runtime acceptance for the current analytic bridge successor; target-host/device readiness; final Art Direction or independent Visual-QA acceptance; CANON; production/game readiness; or Organic/Geometry/Rigging/Procedural/studio mastery.
 
 ## Four-root check
 
@@ -188,7 +174,7 @@ This activation does **not** establish:
 
 **Agency / non-domination:** Organic keeps source/form meaning only; Geometry keeps topology; Procedural keeps neutral deterministic projection math; Rigging keeps deformation constraints; downstream specialists keep their own acceptance authority.
 
-**Continuity:** source owner/digest, prior transition/exit-frame evidence, merged Geometry donor, current Procedural and Rigging identities, predecessor Organic status blob and failed Rigging packaging run remain preserved and addressable.
+**Continuity:** source owner/digest, prior transition/exit-frame evidence, merged Geometry donor, current Procedural and Rigging identities, both predecessor Organic status blobs and the failed Rigging packaging run remain preserved and addressable.
 
 **Wisdom before speed:** the tree is not reshaped merely because a derived receiver has a new minimum distance. The smallest useful action is to separate metrics and preserve exact handoff semantics before anyone treats receiver geometry as source truth.
 
