@@ -1,27 +1,27 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-18
-State: **IN_PROGRESS_CHARACTER_CONTINUOUS_OWNER_ENVELOPE_BIND__CI_35345150493_QUEUED__NO_PASS_CLAIM / CHARACTER_ANIMATION_PR19_BD7C5792 / EXACT_CURRENT_RIGGING_PR17_0B5B6C99 / FROZEN_2S_40HZ_81_KEY_CLIP / NO_RUNTIME_CONTROLLER_GAMEPLAY_TRANSFER / COORDINATION_ONLY**
+State: **PASS_CHARACTER_CONTINUOUS_OWNER_ENVELOPE_BIND / CHARACTER_ANIMATION_PR19_BD7C5792 / EXACT_CURRENT_RIGGING_PR17_0B5B6C99 / FROZEN_2S_40HZ_81_KEY_CLIP / THREE_RIGGING_STRUCTURAL_PREDICATES_COMPOSED / NO_TARGET_RUNTIME_GAMEPLAY_TRANSFER / COORDINATION_ONLY**
 
-> Continuity note: the immediately preceding Animation status is preserved exactly in Git as blob `b97a49c847c519e79d993fb232b588cb80314f37`. It records Animal Animation PR #5's Runtime 19-key target-playback HOLD/PASS at head `304c2c81d6f7c604b59cfb550639939194f4a3b5`. That evidence remains historical truth and is not rewritten by this Character activation.
+> Continuity note: the immediately preceding in-progress Animation status is preserved exactly in Git as blob `95eb1402eb93843400eb5cafb4397c6517b2f611`. That status itself preserves the preceding Animal Animation status by blob `b97a49c847c519e79d993fb232b588cb80314f37`. No prior evidence is silently rewritten.
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/07_animation_motion.md`, then inspected the current Animation, Rigging, Technical Art, Runtime and Visual-QA status plus open Animation-ready lanes across the constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/07_animation_motion.md`, then inspected current Animation-ready work plus Rigging, Technical Art, Runtime and Visual-QA status across the constellation.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. The implementation and verification work for this activation lives only in `mike-axiom-mir/axm-character-design`.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation, verifier, CI and retained evidence for this activation live in `mike-axiom-mir/axm-character-design`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplicate-lane decision
 
-Animal remains intentionally held on the unresolved Runtime half-angle versus physical owner-angle policy. Nature, Object, Map and Wreckline already have active or retained Animation lanes. Character already has one active Animation lane, PR #19, so no second Character lane was opened.
+Animal remains intentionally held on the unresolved Runtime half-angle versus physical-owner-angle policy. Nature, Object, Map and Wreckline already have active or retained Animation lanes. Character already had one active Animation lane, PR #19, so no duplicate Character lane was opened.
 
-The fresh handoff came from current Character Rigging PR #17 exact head `0b5b6c99c0f1349d8a1a2198cc69969c5b829236`. Rigging left the owner deformation map unchanged but added continuous structural certificates across all three indexed face-pair classes over the owner-angle interval `[-40.0°, +36.55°]`, while explicitly granting **no Animation acceptance**.
+The fresh handoff was Character Rigging PR #17 exact current head `0b5b6c99c0f1349d8a1a2198cc69969c5b829236`. Rigging retained the same owner deformation identity but added continuous structural certificates across all three indexed face-pair classes over `[-40.0°, +36.55°]`, while explicitly withholding Animation acceptance.
 
-Animation therefore extended existing Character Animation PR #19 in place with one bounded method question:
+Animation therefore extended existing Character Animation PR #19 in place with the bounded question:
 
-> Can the exact frozen Animation shoulder curve be composed with the exact current Rigging continuous owner-angle certificates, by exact source/mesh/profile identity and analytic scalar-range inclusion, without rewriting either lane or pretending that Rigging's structural proof is target-engine/controller/gameplay acceptance?
+> Does the exact frozen Character shoulder curve remain inside the exact current Rigging continuously certified owner-angle interval for every time on that curve, under exact source/mesh/Geometry/topology/profile identity, without rewriting either lane or inflating the result into target-host, Runtime or gameplay acceptance?
 
 ## Current Character Animation lane
 
@@ -31,15 +31,17 @@ Draft PR: **#19 — `Animation: add bounded review006 shoulder diagnostic loop`*
 
 Branch: `studio/animation-character-review006-shoulder-diagnostic-001`.
 
-Current head after this activation's two commits: **`bd7c5792b902dd6203d5d3386e53c90fda4cd65f`**.
+Exact tested Animation head: **`bd7c5792b902dd6203d5d3386e53c90fda4cd65f`**.
 
-Current Rigging owner inspected: PR #17 exact head **`0b5b6c99c0f1349d8a1a2198cc69969c5b829236`**.
+Observed after evidence completion: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Original Animation parent remains `fa16c44b1a488d43842470fc9f30c5fb5e98cab6`; the frozen Animation implementation blob remains `7d0d630256f5f142f882cbc7212679585668d9e8` and its retained evidence builder blob remains `3584633acaa10f48a824b2c1db00b4ca52443dd0`.
+Exact current Rigging owner consumed: PR #17 head **`0b5b6c99c0f1349d8a1a2198cc69969c5b829236`**.
+
+Original Animation parent remains `fa16c44b1a488d43842470fc9f30c5fb5e98cab6`. The frozen Animation implementation blob remains `7d0d630256f5f142f882cbc7212679585668d9e8`; its prior evidence-builder blob remains `3584633acaa10f48a824b2c1db00b4ca52443dd0`.
 
 ## Bounded reusable Animation method
 
-New evidence contract:
+Contract:
 
 **`axm.character-animation-continuous-owner-envelope-bind/v0.1`**
 
@@ -48,75 +50,114 @@ Files added on the existing Animation branch:
 - `tools/build_review006_shoulder_animation_continuous_owner_bind.py`;
 - `.github/workflows/animation-character-review006-continuous-owner-bind.yml`.
 
-The method does not copy or reimplement Rigging's certificates. CI rebuilds the frozen Animation motion evidence on the Animation head, creates a detached worktree at exact current Rigging head `0b5b6c99...`, reruns Rigging's three continuous certificate observers there, and then composes only the exact identities and certified scalar ranges.
+Reusable rule:
 
-Frozen Animation identity remains:
+**`WHEN_AN_EXACT_ANIMATION_SCALAR_CURVE_IS_FROZEN_AND_RIGGING_LATER_PROVES_A_CONTINUOUS_OWNER_ENVELOPE__REBUILD_BOTH_EXACT_IDENTITIES__PROVE_THE_CURVE_RANGE_ANALYTICALLY__COMPOSE_ONLY_THE_OWNER_PREDICATES_WHOSE_CERTIFICATES_COVER_THAT_RANGE__AND_DO_NOT_TRANSFER_TARGET_RUNTIME_OR_GAMEPLAY_AUTHORITY`**
+
+Frozen Animation identity remains unchanged:
 
 - clip digest: `887c8848bbb2559099da0ec88218020909b25dd0103f5eb47d2f9e413c23bda1`;
 - duration: **2.0 s**;
 - authored cadence: **40 Hz**;
-- authored keys: **81 endpoint-inclusive**;
-- dense diagnostic: **160 Hz / 321 samples**;
+- endpoint-inclusive authored keys: **81**;
+- dense source/deformation diagnostic: **160 Hz / 321 samples**;
 - phase targets: `0° -> -30° -> 0° -> +30° -> 0°`;
 - source curve: four-phase quintic smootherstep;
-- source curve, topology, joints, weights and Rigging profile modified: **false**.
+- source curve retimed or reauthored: **false**;
+- source geometry, topology, joints, weights or Rigging profile changed: **false**.
 
-The analytic Animation-owned scalar bound is `[-30°, +30°]`: for each phase `u in [0,1]`, `s(u)=6u^5-15u^4+10u^3` has derivative `30u^2(u-1)^2 >= 0`, so the curve cannot overshoot its endpoint targets. The intended composition therefore has a **10.0° negative-side margin** and **6.55° positive-side margin** inside Rigging's exact `[-40°, +36.55°]` continuously certified owner interval.
+For each phase, the exact scalar curve uses `s(u)=6u^5-15u^4+10u^3` for `u in [0,1]`. Its derivative is `30u^2(u-1)^2 >= 0`, so each phase is monotone between its exact endpoint targets and cannot overshoot them. The full frozen Animation curve therefore remains analytically bounded to **`[-30.0°, +30.0°]`**.
 
-The proof also fails closed on a verifier-only widened `+37°` curve and on a verifier-only profile-identity mismatch. Neither mutation touches the source clip or Rigging bytes.
+Current Rigging exact head `0b5b6c99...` was rebuilt in a detached worktree and re-proved these exact continuous owner guards over **`[-40.0°, +36.55°]`**:
 
-## Exact verification state
+- nonadjacent triangles: minimum retained certificate slack **`1.4186122188356475e-07 m`** per side;
+- indexed edge-adjacent same-ray-fold predicate: minimum retained slack **`1.272146258012197e-05 rad`** per side;
+- indexed vertex-only-neighbour predicate: minimum retained slack **`9.215213950381399e-06 rad`** per side.
+
+The exact curve is contained in all three guards with **10.0° negative-side margin** and **6.55° positive-side margin**. The separate retained first sampled nonadjacent failure at `+36.60°` remains outside the guard; no exact first-contact angle is inferred.
+
+## Exact verification
 
 Dedicated workflow:
 
-**`35345150493 — Animation Character review006 continuous owner-envelope bind`**.
+**`35345150493 — Animation Character review006 continuous owner-envelope bind` — SUCCESS**.
 
-At the time this status was written both Python 3.11 and 3.13 jobs are **QUEUED**, not completed. Therefore **no new PASS is claimed yet**.
+Verification results:
 
-The workflow is configured to:
+- Python **3.11**: complete Character suite PASS; frozen 321-sample Animation evidence rebuilt; exact current Rigging continuous certificates rebuilt; composition PASS; fail-closed controls PASS; artifact retained.
+- Python **3.13**: complete Character suite PASS.
+- frozen implementation/evidence-builder Git-blob identity checks: PASS.
+- exact source digest match: PASS.
+- exact proof-mesh digest match: PASS.
+- exact Geometry head match: PASS.
+- exact topology digest match: PASS.
+- exact Rigging profile digest match: PASS.
+- continuous scalar range containment: PASS.
 
-1. verify the frozen Animation implementation and evidence-builder Git blobs;
-2. compile and run the complete Character suite on Python 3.11 and 3.13;
-3. rebuild the exact 321-sample Animation dense-motion evidence;
-4. fetch exact current Rigging head `0b5b6c99...` into a detached worktree;
-5. rerun current Rigging continuous nonadjacent, edge-adjacent and vertex-only certificates;
-6. require exact source / proof-mesh / Geometry / topology / profile identity equality;
-7. prove the frozen `[-30°, +30°]` curve is contained in all three current `[-40°, +36.55°]` continuous Rigging guards;
-8. reject `+37°` widening and profile-identity mutation controls;
-9. upload retained exact-head evidence only from the Python 3.11 lane.
+Scoped result:
 
-Until that workflow returns green and the retained receipt is inspected, the state remains **IN PROGRESS / NO PASS CLAIM**.
+**`PASS_CHARACTER_REVIEW006_ANIMATION_CURVE_INSIDE_CURRENT_CONTINUOUS_RIG_OWNER_ENVELOPE`**.
 
-## Preserved prior motion evidence
+The prior actual-motion observer was also rerun rather than merely cited:
 
-Character PR #19's earlier exact-head evidence at `9519be55581c009fd800d175677d9b50ee6926e6` remains valid for its exact identity:
+- all **321 / 321** dense source/deformation samples remain structurally PASS;
+- maximum nonadjacent intersection pairs: **0 / 0** left/right;
+- bilateral mirror: PASS;
+- authored 40 Hz keys remain an exact subset: **0.0°** residual;
+- loop residual: **0.0 m** per side;
+- maximum adjacent dense vertex step: **`0.0037858562693203314 m`** per side;
+- source-curve velocity and acceleration at phase joins remain analytically zero at the curve level.
 
-- scoped result `PASS_CHARACTER_REVIEW006_DENSE_SHOULDER_DIAGNOSTIC_LOOP`;
-- all 321 dense samples structurally pass with zero nonadjacent intersection pairs;
-- bilateral mirror preserved;
-- loop residual `0.0 m`;
-- maximum adjacent dense vertex step `0.0037858562693203314 m` per side;
-- hidden between-authored-key `+36.60°` overshoot is detected and rejected.
+The retained hidden-subframe control also still fails closed: a proof-local `sin²` bump leaves all authored 40 Hz keys unchanged but reaches `+36.60°` at `1.2625 s`, producing one nonadjacent pair on each side; the dense observer rejects it.
 
-This activation does not rewrite that sampled result into a continuous proof. The new method composes a separate, current Rigging-owned continuous structural certificate only if CI confirms exact identity and range inclusion.
+Two new composition controls also fail closed:
+
+- verifier-only widened curve `[-30°, +37°]`: rejected for escaping the exact Rigging continuous interval;
+- verifier-only Rigging profile identity mismatch: rejected.
+
+## Retained evidence
+
+Artifact ID: **`10546709791`**.
+
+Artifact name: `character-review006-animation-continuous-owner-bind-bd7c5792b902dd6203d5d3386e53c90fda4cd65f`.
+
+Files: **9**.
+
+GitHub payload size: **43,490 B**.
+
+SHA-256: **`73b19047331cc5ff2dd6dd7ffba7d0491ffe6b24bf00f6c3682ec04180f61cd6`**.
+
+The ZIP was downloaded after CI and independently rehashed to that exact digest. `result.json`, `current-rigging-continuous-receipt.json`, and the rebuilt Animation summary were inspected directly.
 
 ## Truth boundary / explicit nonclaims
 
-No new target-engine interpolation or playback result has been established in this activation. No Technical-Art transport, Runtime controller/state-machine/input/device behavior, wall-clock cadence, gameplay collision/physics, anatomy/biological ROM, target-device performance, final motion style, Art Direction / Visual QA acceptance, CANON, game readiness or production readiness is claimed.
+This PASS upgrades only one thing: for this exact frozen scalar Animation curve, every time lies inside the exact current Rigging owner interval continuously certified for the three named structural predicates.
 
-Even if the new workflow turns green, the continuous claim is intentionally narrow: it can establish only that this exact frozen scalar Animation curve remains inside the exact current Rigging continuous structural predicates for nonadjacent, indexed edge-adjacent same-ray-fold and indexed vertex-only-neighbour face pairs. It does not prove every deformation-quality predicate continuously.
+It does **not** establish:
 
-Animation retains timing/curve authority. Rigging retains owner deformation and continuous structural-certificate authority. Technical Art retains transport authority. Runtime retains controller/device/performance authority. Art Direction and Visual QA retain visual and motion-quality acceptance authority.
+- every possible deformation-quality predicate continuously;
+- anatomy, biological shoulder ROM or a controller motion limit;
+- target-engine interpolation or playback for this current Animation/Rigging pair;
+- Technical-Art skeleton/skin/tangent/normal transport acceptance;
+- wall-clock 40 Hz delivery or display cadence;
+- Runtime controller, state-machine, input or device behavior;
+- gameplay acceptance, gameplay collision or physics;
+- target-device CPU/GPU/FPS/VRAM/thermal performance;
+- final timing, personality, gesture, locomotion or animation-style quality;
+- Art Direction or independent Visual-QA acceptance;
+- CANON, game readiness or production readiness.
+
+Animation retains clip/timing/curve authority. Rigging retains owner deformation and structural-certificate authority. Technical Art retains transport authority. Runtime retains controller/device/performance authority. Art Direction and Visual QA retain appearance and motion-quality acceptance authority.
 
 ## Four-root gate
 
-- **Truth:** current Rigging evidence is consumed by exact head and exact identity; queued CI is recorded as queued rather than called green.
-- **Agency / non-domination:** Animation composes Rigging-owned evidence without taking Rigging, Technical-Art, Runtime, gameplay or Art/QA authority.
-- **Continuity:** the exact 2.0 s / 40 Hz / 81-key Character clip and its earlier sampled evidence stay frozen; the preceding Animal status is preserved by exact Git blob.
-- **Wisdom before speed:** the stronger continuous claim is held until the dedicated exact-head workflow actually completes and its receipt can be inspected.
+- **Truth:** exact current Rigging head was rerun, the frozen Animation motion was rerun, all identity gates and fail-closed controls are retained, and the continuous claim is limited to the exact predicates actually certified.
+- **Agency / non-domination:** Animation consumes Rigging evidence without taking Rigging, Technical-Art, Runtime, gameplay or Art/QA authority.
+- **Continuity:** the exact 2.0 s / 40 Hz / 81-key Character clip is untouched; the prior in-progress and Animal states remain recoverable by exact Git blobs.
+- **Wisdom before speed:** no current-target-host or controller claim is borrowed from older Technical-Art evidence merely because it would make the result sound broader.
 
 The four AXM roots remain the merge gate.
 
 ## Next Animation trigger
 
-First inspect workflow `35345150493`. If it is green, retain and inspect the artifact, update PR #19 and Rigging PR #17 with the bounded handoff, and promote only the exact continuous owner-envelope composition claim. If it fails, repair proof plumbing or identity assumptions only; do not change the frozen motion or Rigging evidence to force green. If the current Rigging identity moves again before verification, treat this attempt as stale rather than silently rebasing the claim.
+Do not widen this PASS into target-host playback or controller/gameplay acceptance. A Character successor is justified only if Technical Art explicitly binds this exact current `bd7c5792... / 0b5b6c99...` pair to a target receiver, if Art/QA returns a motion-quality decision, or if Rigging changes owner identity again. Otherwise move to the freshest unowned Animation seam elsewhere in the constellation rather than duplicating this lane.
