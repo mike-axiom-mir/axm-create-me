@@ -2,200 +2,179 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_NORTH_LOW_PARENT_EXCLUSION_CURRENT_UC_GODOT_TARGET / TA_PR3_HEAD_02C5223D_OPEN_DRAFT_MERGEABLE / ANIMATION_PR26_HEAD_5CACD61E / RIGGING_PR14_HEAD_69640E55_MERGE_CONFLICTED / CURRENT_UC_7DDEFCA5 / RUN_35336912571_SUCCESS / GODOT_4_7_2 / 12_NODES_620_TRIANGLES / 41_SAMPLES_40_VISIBLE / MAX_TARGET_RESIDUAL_2_989754E-06_M / PARENT_STRESS_COMMAND_NOT_RECEIVER_MOTION / FORBIDDEN_LEAK_DELTA_0_045460679_M / ARTIFACT_10542513318_SHA_7B991DFD / UC_PRODUCT_UNCHANGED / HOLD_CONNECTED_ATTACHMENT_SKINNING_UPPER_TRUNK_DEFORMATION_RUNTIME_DEVICE_LOOKDEV_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_OBJECT_DIRECTION_048_ANALYTIC_RADIAL_NORMAL_REVIEW_EVIDENCE_READY / OBJECT_TA_PR16_HEAD_36F653EF_OPEN_DRAFT_MERGEABLE / RUN_35341930670_SUCCESS / GODOT_4_7_2 / FROZEN_SUCCESSOR002_CONTROL_REBUILT_BYTE_IDENTICAL / 31_NODES_1052_TRIANGLES / HINGE_480_TRIANGLES / OUTER_SIDE_120_TRIANGLES / 360_NORMAL_ENTRIES_CHANGED_ONLY / THREE_COMPLETE_OBJECT_AB_CONTEXTS / SILHOUETTE_MASKS_PIXEL_IDENTICAL / ART_ACCEPTANCE_NOT_CLAIMED / VISUAL_QA_NOT_CLAIMED / CURRENT_UC_376B5C49_UNCHANGED / ARTIFACT_10544549523_SHA_3E07517A / HOLD_ART_DIRECTION_VISUAL_QA_SOURCE_DEFAULT_FINAL_NORMAL_TANGENT_RUNTIME_DEVICE_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, this specialist status, the current Nature Animation / Rigging / Technical Art constellation, and fresh `axm-universal-creation`.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, this specialist status, current specialist constellation, Object owner lanes, and fresh `axm-universal-creation`.
 
 `axm-create-me` remains **coordination only**. The four merge roots remain **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Highest-leverage bounded gap selected
 
-Current Animation PR #26 explicitly left target-host playback/receiving as a Technical Art HOLD after proving the exact `north-low` parent-exclusion temporal successor. The cleanest bounded seam was therefore:
+Current Art Direction packet `studio/direction/OBJECT_HINGE_SHADING_NORMAL_DIRECTION_048.md` had one explicit unresolved Technical Art handoff: build **one review-only analytic-radial outer-cylinder hinge-normal candidate** on the already frozen Object hinge successor002, with geometry, facet phase, material values, camera/light/FOV/exposure and source/default adoption held fixed.
 
-**current Animation PR #26 -> current Rigging PR #14 detached-child representation -> existing Technical Art receiver -> current generic UC -> real Godot 4.7.2**.
+The existing Object Technical Art lane was reused:
+- repository `mike-axiom-mir/axm-object-design`;
+- PR #16;
+- branch `studio/technical-art-rigid-scene-handoff-001`;
+- prior green Technical Art baseline `f430d00d98e694dcf8302fd4df3c64a074f6f30e`;
+- prior exact successor002 artifact `10531541834`;
+- frozen successor002 control GLB SHA-256 `f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`.
 
-No new Rigging, Animation or Runtime lane was opened. No Nature semantics were moved into UC.
+No duplicate Hard Surface, Geometry, Materials, Rigging, Animation or Runtime lane was opened.
 
-Exact owner chain consumed:
-- Animation PR #26: `5cacd61e22433b0c33f29111827283b81cc0ba0d`;
-- Rigging PR #14: `69640e558f0c1ac59d4d0e3155676e0967a03d04`;
-- Geometry attachment donor: `d32a41558910d78595042fb638a785714f825806`;
-- Organic/source digest: `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`;
-- migrated mesh digest: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
-- current UC main: `7ddefca57b153fab02c1f54f38de22148cb52c1b`.
+## Exact owner chain consumed
+
+- Art Direction coordination packet at create-me head `f55363657ae63f88460559b3f0f210cd70a7cb57`, packet blob `910871c06902d9c5bb42a2246aa07bdfaa029045`;
+- Hard Surface Direction-048 disposition at exact head `5d8f767af79b744b6f3d31ce91dc4c908b3a440b`, blob `289d7cb333ca5adb2d87e71feab451fd864249c3`;
+- frozen source successor `modular-equipment-case-001/hinge-bored-knuckle-phase-invariant-source-successor-002`;
+- frozen relative owner phase `SYNCHRONIZED_PREDECESSOR_PHASE`;
+- Materials review owner at exact head `5509084acbaca2a7d45f072203b98174c621d5ef`, review blob `ce6c29e19967013b1eea3276e378689f926ef6e0`;
+- frozen hardware steel `#7E868AFF`, metallic `0.88`, roughness `0.32`;
+- exact generic UC head `376b5c49a8bdbff344fe20e61cd89a73b8a96c75`;
+- UC `procedural_3d.py` blob `cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`;
+- UC `rigid_scene_graph.py` blob `fada5e5e06e110b48c7c9886e6a7f73c5c3a2d44`.
+
+**UC product code was not modified and no Object normal policy was added to UC.**
 
 ## Smallest reusable repair
 
-The existing Nature Technical Art receiver already had the right generic structure: **12 nodes / 620 triangles**, with static woody/foliage plus five pivot-local woody branches and foliage children. That receiver was reused rather than replaced.
+Added only review/integration machinery on existing Object Technical Art PR #16:
+- `contracts/object_hinge_successor002_analytic_radial_normal_review_048.json`;
+- `tools/build_object_hinge_successor002_analytic_radial_normal_review.py`;
+- `rigid-proof/hinge_radial_normal_review_observe.gd`;
+- `.github/workflows/object-technical-art-hinge-radial-normal-review.yml`.
 
-Added only Nature-local integration machinery on existing Technical Art PR #3:
-- `contracts/nature-north-low-parent-exclusion-target-002.json`;
-- `tools/build_uc_north_low_parent_exclusion_target_evidence.py`;
-- `target-proof/observe_north_low_parent_exclusion.gd`;
-- `.github/workflows/uc-nature-north-low-parent-exclusion-target.yml`.
+Candidate rule is deliberately narrow:
+- hinge axis remains target `+X`;
+- body knuckle axis center comes from the existing receiver `lid_shell` translation;
+- lid knuckle axis center remains local `[0,0,0]`;
+- only outer-cylinder triangle corners are re-normalized to analytic radial direction `normalize([0, y-axis_y, z-axis_z])`;
+- outer-cylinder triangle classification requires all three corners at maximum YZ radial distance and nonzero X span;
+- end caps, through-bore inner walls, non-hinge normals, positions, indices, topology, node ownership, front-face/culling transport, UVs, materials, transforms, facet count, phase, roughness/metallic and review cameras/lights remain frozen.
 
-The contract binds current owner identities and refuses authority inflation. The target oracle preserves the existing coordinate boundary:
+Exact bounded scope verified:
+- 5 hinge knuckles;
+- 96 triangles per knuckle / 480 hinge triangles total;
+- 24 outer-side triangles per knuckle / **120 total**;
+- 72 changed normal entries per knuckle / **360 total**;
+- maximum changed normal component versus faceted control `0.13052620172124302`.
 
-`source [x,y,z] -> UC [x,z,y]`, determinant `-1`, therefore `target_angle_deg = -north_low_child_angle_deg`.
+The builder first rebuilds the prior successor002 control through the exact current UC modules and requires byte-for-byte equality with the frozen control GLB before constructing the candidate.
 
-The current Rigging/Animation rule remains intact:
-- `north-low` is `DETACHED_DIAGNOSTIC_CHILD_SOCKET_ONLY`;
-- diagnostic parent weight is `0.0`;
-- upper-trunk parent influence is disabled for this detached child;
-- the sampled upper-trunk parent-stress command is retained as command evidence but is **not** converted into child receiver motion.
+## Exact successful path
 
-UC remains generic. Exact executable blobs used:
-- `src/axm_uc/procedural_3d.py`: `cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`;
-- `src/axm_uc/rigid_scene_graph.py`: `fada5e5e06e110b48c7c9886e6a7f73c5c3a2d44`.
+Exact Technical Art head:
 
-**UC product code was not modified.**
+**`36f653ef0409a66d5d00def18a8f9dccd00c3336`**
 
-## Retained predecessor failure
-
-Workflow **`35336567138`** on Technical Art head **`cd1437289620e224af4d290e6d0763e8ce39146b`** is retained.
-
-The receiving branch tests and exact Rigging rerun passed, but the exact Animation prerequisite failed before target construction. The integration workflow had invoked the Animation verifier from the Technical Art checkout without explicitly binding its default `--source` to the exact Animation checkout.
-
-The repair changed only that evidence-input path to:
-
-`.animation/examples/east_rear_tree_neutral_001.json`
-
-No geometry, Rigging semantics, Animation sample schedule, UC code, acceptance tolerance or target oracle changed.
-
-Failed predecessor artifact:
-- ID `10543082468`;
-- payload `19,590 B`;
-- SHA-256 `3b38279b27643a3b9af5a6bc7a9d841938859595bc009d5d0f336ff5f8715af8`;
-- downloaded ZIP independently reproduced the same digest.
-
-## Successful exact path
-
-Exact Technical Art PR #3 head:
-
-**`02c5223dd9288c12607f0553e2f1103be38ae71f`**
-
-PR state at final inspection: **open / draft / unmerged / mergeable**.
+PR #16 at inspection remains **open / draft / unmerged / mergeable**.
 
 Dedicated workflow:
 
-**`35336912571 — UC Nature north-low parent-exclusion target receiver — SUCCESS`**
+**`35341930670 — Object Technical Art hinge analytic radial normal review — SUCCESS`**
 
-Every bounded step completed successfully:
-- exact Technical Art / Animation / Rigging / UC head binding;
-- receiving Technical Art test suite;
-- exact current Rigging family rerun;
-- exact current Animation parent-exclusion rerun;
-- current receiver + UC GLB construction;
-- bounded evidence validation;
-- parent-command leak negative;
-- detached-attachment authority-inflation negative;
-- pinned Godot 4.7.2 installation;
-- real target import and all exact samples;
-- target receipt validation;
-- retained artifact upload.
+Build state:
 
-Target state:
+**`PASS_OBJECT_HINGE_SUCCESSOR002_ANALYTIC_RADIAL_OUTER_NORMAL_REVIEW_CARRIER_READY`**
 
-**`PASS_NATURE_NORTH_LOW_PARENT_EXCLUSION_CURRENT_UC_GODOT_TARGET`**
+Real-target state:
 
-## Real-target measurements
+**`PASS_EVIDENCE_READY_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_REVIEW_048`**
 
-Pinned target: **Godot 4.7.2 stable official, GL Compatibility**.
+Decision remains explicitly:
 
-Exact receiver:
-- **12 nodes**;
-- **620 triangles**;
-- north-low foliage -> north-low woody parent edge verified;
-- exact current-UC rigid GLB SHA-256: `3e3283a1f623ee8fc19bb00cf2fbe0a2cb3941da46bc913a062bf5bc19ad1d15`.
+**`EVIDENCE_READY_NOT_VISUAL_ACCEPTANCE`**
 
-Exact Animation exercise:
-- **41 endpoint-inclusive samples**;
-- **40 visible repeat samples**;
-- current child command domain retains `0 -> -5 -> 0 -> +5 -> 0°`;
-- parent-stress command reaches **2.5°**;
-- parent-stress command is nonzero in **38** target samples;
-- observed Animation parent-command leak remains **`0.0 m`**.
+Fresh UC reproduced the frozen successor002 control byte-for-byte:
+- control GLB SHA-256 `f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`;
+- candidate GLB SHA-256 `cdf9b04de7dca8faf590c43646bd977cd35d795936f158775553462203a9a7a1`;
+- receiver remained **31 mesh nodes / 1052 triangles**;
+- scene ownership remained unchanged.
 
-Target transport:
-- maximum imported local witness delta: **`2.93034281639848e-06 m`**;
-- maximum target sample position residual: **`2.98975373880239e-06 m`**;
-- unchanged target gate: **`5e-06 m`**;
-- maximum witness motion from neutral: **`0.0908999219536781 m`**;
-- pre-target analytic handedness residual: **`3.4509297231519513e-10 m`**.
+## Real Godot A/B evidence
 
-The target therefore cannot pass through a static/no-motion receiver.
+Pinned target: **Godot 4.7.2 stable official, GL Compatibility**, viewport `900 x 680`.
 
-## Fail-closed discrimination
+All three Art Direction complete-object contexts were rendered as control and candidate, plus control/candidate hinge-only masks:
+- `full_rear_three_quarter`;
+- `full_rear_grazing`;
+- `full_side_three_quarter`.
 
-Two Technical Art negatives are retained:
+All control/candidate hinge silhouette masks are **pixel-identical**, proving the candidate changed review normals rather than geometry/silhouette.
 
-1. Applying `upper_trunk_parent_stress_command_deg` as extra detached-child receiver rotation fails closed. Maximum forbidden residual:
+Aggregate full-object A/B discrimination:
+- raw changed pixels: **21,558**;
+- changed pixels >1 LSB: **19,723**.
 
-**`0.0454606786146869 m`**.
+Per-context measured A/B differences:
+- rear grazing: **5,735 pixels >1 LSB**, max RGB-channel delta `0.47450977563858`;
+- rear three-quarter: **7,631 pixels >1 LSB**, max RGB-channel delta `0.560784310102463`;
+- side three-quarter: **6,357 pixels >1 LSB**, max RGB-channel delta `0.164705883711576`.
 
-2. Mutating the current detached authority from `DETACHED_DIAGNOSTIC_CHILD_SOCKET_ONLY` to a connected-production claim is rejected before publication.
+Retained hierarchy metrics deliberately show the candidate is not automatically accepted. For example:
+- rear grazing hinge near-white pixels move from `0` control to `473` candidate, with `4` near-white connected components;
+- rear three-quarter near-white hinge pixels move from `1,625` control to `1,343` candidate, with both at `7` components;
+- side three-quarter remains `0` near-white hinge pixels in both.
 
-Current Animation's owner-side wrong-parent counterfactual is also retained at:
+Those observations are evidence for Art Direction / independent Visual QA, not a Technical Art visual-quality verdict.
 
-**`0.03696489957767319 m`**.
+## Fail-closed controls
 
-These controls prevent a convenient target implementation from silently rewriting the Rigging/Animation attachment rule.
+Two negatives are retained:
+1. a frozen geometry position mutation is rejected before candidate publication;
+2. an attempted Technical Art authority inflation to claim Art acceptance is rejected.
 
-## Retained successful evidence
+The contract also keeps smoothing-angle search, custom-normal sculpting, phase sweep, second phase candidate, source geometry rewrite, automatic downstream adoption and UC/PF promotion unauthorized.
 
-Artifact **`10542513318`**:
-- name `nature-north-low-parent-exclusion-target-02c5223dd9288c12607f0553e2f1103be38ae71f`;
-- GitHub payload size **83,411 B**;
-- **26 retained files**;
-- SHA-256 **`7b991dfd749ac758ece3c2c6ea320d10cfed5ff38c822c7ed88342461226a932`**;
-- downloaded ZIP independently rehashed to the exact same digest.
+## Retained evidence
 
-The package retains exact owner evidence, Geometry attachment contract, flat and rigid UC GLBs, receiver surface/manifest, current target oracle, real-Godot receipt/log, both Technical Art negatives, exact heads/blobs and workflow/tool source.
+Successful artifact **`10544549523`**:
+- name `object-technical-art-hinge-radial-normal-review-36f653ef0409a66d5d00def18a8f9dccd00c3336`;
+- GitHub payload size **546,554 B**;
+- **74 files**, **3,507,597 B uncompressed**;
+- SHA-256 **`3e07517a8cd390e68c032d6e8dd78bcd593c801cecc549ba64f2e68f0fa0b2ce`**;
+- downloaded ZIP independently reproduced the exact digest.
 
-## Current constellation / continuity
+It retains owner pins, prior exact Technical Art evidence, control/candidate surfaces and GLBs, build/runtime receipts, both negatives, exact three-context control/candidate PNGs, hinge masks, workflow/tool source and retained index.
 
-Technical Art PR #3 is now exact head `02c5223d...` and remains **open / draft / mergeable**.
+## Current CI truth / inherited historical guard
 
-Animation PR #26 remains the exact sampled owner consumed here at `5cacd61e...`.
+The new Direction-048 workflow is green, but same-head historical workflow `Object Technical Art hinge successor002 transport` run **`35341930680`** is red at its initial bounded-delta guard on both Python 3.11 and 3.13. It did not reach owner/UC/Godot execution.
 
-Rigging PR #14 remains exact head `69640e55...` and is still **open / draft / unmerged / merge-conflicted**. That integration conflict is not hidden or silently repaired by this target proof. This activation clears only the Technical Art target-host transport HOLD for this exact detached lineage.
+That red check is an inherited proof-lane bookkeeping issue: the older workflow compares the **entire cumulative PR diff** against the five files that existed at its prior exact proof, so the newly added Direction-048 review files make that historical equality guard fail even though those prior five proof files were not changed by this activation.
 
-Fresh UC main is exactly the tested head `7ddefca5...`; no fresh-head continuity inference is needed for this run.
+This status does **not** relabel that red check as green or hide it. The prior exact successor002 proof remains retained at head `f430d00d...` / artifact `10531541834`; the new Direction-048 path has its own exact successful proof at head `36f653ef...` / artifact `10544549523`.
 
-Handoffs were returned to Animation PR #26 and Rigging PR #14, and PR #3's coordination body was updated to the exact successful result.
+## Prior retained activation
+
+The previous Nature `north-low` parent-exclusion target-host proof remains retained in Git history and artifact `10542513318` at Technical Art PR #3 head `02c5223d...`. This Object activation does not rewrite or promote that separate Nature lineage.
 
 ## Authority boundary / next HOLDs
 
 This activation does **not** prove or adopt:
-- connected branch-trunk attachment;
-- production skinning/blending;
-- upper-trunk deformation receiving in the target;
-- physical wind/VFX or biological motion;
-- Runtime controller/input/state-machine behavior;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery performance;
-- collision/navigation/gameplay/physics;
-- source/Materials-authoritative final normals or tangents;
-- final Nature material/lookdev;
-- Art Direction or independent Visual-QA acceptance;
-- Map/default-world adoption;
+- Art Direction acceptance of the analytic-radial candidate;
+- independent Visual-QA acceptance;
+- Object source/default normal adoption;
+- final owner-authoritative normal/tangent basis;
+- any additional smoothing-angle/custom-normal/phase/material search;
+- Rigging/Animation behavior changes;
+- Runtime/device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
 - CANON;
 - production/game readiness;
 - Technical Art mastery.
 
-The earlier exact Runtime proof-normal direction transport remains retained for its own lineage; it is not silently promoted onto this newer Animation/Rigging successor.
-
 ## Four-root check
 
-**Truth:** predecessor failure retained; exact owner identities, target measurements, negatives, merge conflict and non-claims are explicit.
+**Truth:** exact owners, UC blobs, successful and red same-head workflows, measured A/B deltas, silhouette invariance, negatives and non-claims are explicit.
 
-**Agency / non-domination:** Rigging keeps attachment authority, Animation keeps temporal semantics, Technical Art owns only receiver/transport proof, and UC remains generic.
+**Agency / non-domination:** Hard Surface keeps source geometry/phase authority, Materials keeps lookdev values, Art Direction and Visual QA keep visual acceptance, Technical Art owns only receiver/review transport, and UC remains generic.
 
-**Continuity:** exact heads, executable blobs, GLB digest, failed and successful runs, target receipt and independently rehashed artifact are retained.
+**Continuity:** prior successor002 control is rebuilt byte-identically before candidate construction; exact heads, GLB digests, receipts, target renders and retained artifact are pinned.
 
-**Wisdom before speed:** reused the existing receiver and repaired one evidence-input seam instead of creating a new lane, weakening a gate or centralizing Nature policy in UC.
+**Wisdom before speed:** built one requested review candidate on the existing lane instead of opening a new normal-search family, mutating source geometry, weakening evidence, or centralizing Object policy in UC.
 
 ## Current state
 
-`PASS_NATURE_NORTH_LOW_PARENT_EXCLUSION_CURRENT_UC_GODOT_TARGET / TA_PR3_HEAD_02C5223D_OPEN_DRAFT_MERGEABLE / ANIMATION_5CACD61E / RIGGING_69640E55_MERGE_CONFLICTED / CURRENT_UC_7DDEFCA5 / FAIL_35336567138_SOURCE_BINDING_RETAINED / RUN_35336912571_SUCCESS / GODOT_4_7_2 / 12_NODES_620_TRIANGLES / 41_SAMPLES_40_VISIBLE / GLB_SHA_3E3283A1 / MAX_LOCAL_IMPORT_DELTA_2_930343E-06_M / MAX_TARGET_RESIDUAL_2_989754E-06_M_UNDER_5E-06 / MAX_WITNESS_MOTION_0_090899922_M / PARENT_STRESS_2_5_DEG_NONZERO_38_SAMPLES_NOT_RECEIVER_MOTION / FORBIDDEN_PARENT_AS_CHILD_DELTA_0_045460679_M / PASS_REJECTED_ATTACHMENT_AUTHORITY_INFLATION / ARTIFACT_10542513318_83411B_26_FILES_SHA_7B991DFD / UC_BLOBS_CDB654D4_FADA5E5E_UNCHANGED / HOLD_CONNECTED_ATTACHMENT_SKINNING_UPPER_TRUNK_DEFORMATION_WIND_RUNTIME_DEVICE_FINAL_NORMALS_TANGENTS_LOOKDEV_VISUAL_QA_CANON_PRODUCTION / COORDINATION_ONLY`
+`PASS_OBJECT_DIRECTION_048_REVIEW_EVIDENCE_READY_NOT_VISUAL_ACCEPTANCE / TA_PR16_HEAD_36F653EF_OPEN_DRAFT_MERGEABLE / RUN_35341930670_SUCCESS / SAME_HEAD_HISTORICAL_RUN_35341930680_RED_BOUNDED_CUMULATIVE_DIFF_GUARD / GODOT_4_7_2 / CONTROL_GLB_F81A9BCC / CANDIDATE_GLB_CDF9B04D / 31_NODES_1052_TRIANGLES / HINGE_480_TRIANGLES / OUTER_SIDE_120_TRIANGLES / 360_NORMAL_ENTRIES_CHANGED_ONLY / THREE_CONTEXTS / 19723_PIXELS_GT_1LSB / SILHOUETTE_MASKS_PIXEL_IDENTICAL / ARTIFACT_10544549523_546554B_74_FILES_SHA_3E07517A / UC_376B5C49_BLOBS_CDB654D4_FADA5E5E_UNCHANGED / HOLD_ART_DIRECTION_VISUAL_QA_SOURCE_DEFAULT_FINAL_NORMAL_TANGENT_RUNTIME_DEVICE_CANON_PRODUCTION / COORDINATION_ONLY`
