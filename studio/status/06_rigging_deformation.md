@@ -2,41 +2,35 @@
 
 Date: 2026-09-18
 
-State: **PASS_NORTH_LOW_ANALYTIC_BRIDGE_ENDPOINT_PIN_DIAGNOSTIC__HOLD_CONNECTED_TOPOLOGY_PRODUCTION_SKINNING / NATURE_RIGGING_PR14_HEAD_0BB186B4_OPEN_DRAFT_UNMERGED_MERGEABLE / GEOMETRY_BRIDGE_DONOR_14D05FDA_PINNED / 8_BRANCH_ENDPOINTS_FOLLOW_EXISTING_SOCKET / 8_ANALYTIC_TRUNK_ENDPOINTS_RECEIVER_FIXED / 0_INTERIOR_VERTICES / DIAGNOSTIC_ENDPOINT_OWNERSHIP_1P0_0P0_NOT_PRODUCTION_SKIN_WEIGHTS / FIVE_POSE_BOUNDARY_EVIDENCE / CONTINUOUS_ENDPOINT_MAP_MINUS5_TO_PLUS5_ONLY / CONTINUOUS_BRIDGE_FOLDOVER_COLLISION_HELD / RUN_35345251922_GREEN_PY311+PY313 / 158_TESTS_OK / ARTIFACT_10546925185_19865B_13_FILES_SHA_C2DEC438 / ANIMATION_TA_RUNTIME_ART_QA_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
+State: **PASS_NORTH_LOW_ANALYTIC_BRIDGE_PAIRED_SPAN_CONTINUOUS_NONCOLLAPSE_MINUS5_TO_PLUS5__HOLD_TRIANGLE_FOLDOVER_COLLISION / NATURE_RIGGING_PR14_HEAD_EFE99261_OPEN_DRAFT_UNMERGED_MERGEABLE / ENDPOINT_PREDECESSOR_5CA11B15 / GEOMETRY_BRIDGE_DONOR_14D05FDA / 8_OF_8_PAIRED_SPANS_CONTINUOUS_POSITIVE / GLOBAL_MIN_0P01530331190226083M_PAIR1_AT_PLUS2P381944209DEG / FIVE_DIRECT_WITNESSES / CLOSED_FORM_RESIDUAL_8P3267E-17M / RUN_35347887289_GREEN_PY311+PY313 / 162_TESTS_OK / ARTIFACT_10546954783_16856B_13FILES_SHA_9905F66F / INITIAL_PACKAGING_FAILURE_35347492258_RETAINED_AND_REPAIRED / 15_OF_18_EXACT_HEAD_WORKFLOWS_GREEN_3_HISTORICAL_GEOMETRY_LINEAGE_GUARDS_RED_PRE_SUBSTANTIVE / CONNECTED_TOPOLOGY_PRODUCTION_SKINNING_TRIANGLE_FOLDOVER_COLLISION_ANIMATION_TA_RUNTIME_ART_QA_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, all current `01..14` specialist status ledgers, and current open work across all eleven campaign design repositories before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, all current `01..14` specialist status ledgers, and current work across all eleven campaign design repositories before selecting one bounded Rigging successor.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/proof code, tests, documentation and CI for this activation live only in `mike-axiom-mir/axm-nature-design`.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/proof code, tests, contracts, documentation and CI for this activation live only in `mike-axiom-mir/axm-nature-design`.
 
 The four AXM roots remain the merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
-Immediately preceding Rigging status blob remains historical and rollback-addressable:
+Immediate predecessor Rigging status blob remains rollback-addressable:
 
-**`11c9b068b017a5458e2b21a9da1ac0b7f98eb1b2`**
+**`da3ca96ac623479030c1b757c1d148456d3b244a`**
 
-That predecessor records the Animal Runtime 41-key -> 19-key owner-angle semantic HOLD at Animal Rigging PR #25 head `0bdddceb1ccac52732d0a2c71e877a8f31976305`. It remains unresolved and is not weakened, adopted or rewritten by this Nature successor.
+That predecessor records the exact north-low analytic-bridge endpoint-pin diagnostic, including the prior distinction between continuous endpoint mapping and representative-only bridge-shape evidence. It remains historical truth and is not rewritten by this successor.
 
-The prior Nature detached-socket Rigging owner also remains exact history:
-
-**`69640e558f0c1ac59d4d0e3155676e0967a03d04`** — `PASS_NORTH_LOW_DETACHED_CHILD_SOCKET_ATTACHMENT_REPRESENTATION_GATE_DIAGNOSTIC`.
+Earlier Rigging history also remains separately addressable, including the unresolved Animal Runtime physical-owner-angle/key-budget semantic HOLD, the detached north-low attachment gate, previous Nature hierarchy/socket work, and Object/Character/Animal Rigging evidence.
 
 ## Full constellation / duplicate-lane scan
 
-All eleven design repositories were inspected before choosing the bounded successor.
+All eleven campaign design repositories were inspected before choosing the bounded successor.
 
-- **Weapon:** no open Rigging receiver displaced the current Nature seam.
-- **Armor:** no open Rigging receiver displaced the current Nature seam.
-- **Character:** existing deformation/shoulder work remains tied to its established Geometry/self-intersection lineage; no cleaner new receiver was returned.
-- **Unit:** no open Rigging receiver displaced the current Nature seam.
-- **Animal:** Runtime key-budget physical-owner-angle semantics remain a deliberate HOLD; no new exact candidate resolves that ambiguity yet.
-- **Building:** active work remains hard-surface / receiving-structure dominated rather than a new articulation defect.
-- **Nature:** Geometry PR #18 returned a new exact north-low analytic bridge candidate around the already-owned detached socket and explicitly held Rigging/deformation ownership. This is the strongest fresh Rigging-owned seam.
-- **Weather:** current work remains source/VFX-direction semantics, not Rigging authority.
-- **Map:** active work remains environment/world/material composition rather than a new rig receiver.
-- **Object:** hinge articulation/phase work already has mature exact Rigging ownership; remaining adoption is downstream.
-- **Misc:** no open Rigging receiver displaced Nature.
+- **Weapon / Armor / Unit / Misc:** no fresh unoccupied Rigging receiver displaced the Nature seam.
+- **Character:** existing deformation work remains tied to its established Geometry/self-intersection lineage; no cleaner new Rigging handoff was returned.
+- **Animal:** the Runtime physical-owner-angle/key-budget semantic seam remains deliberately unresolved; no new exact candidate resolves that ambiguity.
+- **Building:** current work remains receiving-structure/hard-surface dominated rather than a new articulation or weighting defect.
+- **Nature:** Geometry's exact analytic bridge plus the existing Rigging endpoint map expose one still-open continuous constraint: representative poses had not established that the eight branch/trunk connector spans remain non-zero between samples.
+- **Weather / Map:** current work remains Weather/VFX/world receiving semantics, not Rigging authority.
+- **Object:** hinge Rigging/articulation is mature; current blockers are downstream visual/adoption questions rather than a cleaner new Rigging defect.
 
 Nature Rigging PR #14 already owns the east-rear branch/socket lane. **No duplicate Rigging PR was opened.**
 
@@ -48,147 +42,171 @@ Existing draft PR: **#14 — `Rigging: prove five east-rear primary branch root 
 
 Branch: `studio/rigging-east-rear-root-socket-001`
 
-Exact current head:
+Exact current tested head:
 
-**`0bb186b4e22ab8911dd93675754690b68da99802`**
+**`efe99261459858636dbe65b16cbe1d5ad2b93a56`**
 
-Observed PR state after evidence completion: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Observed PR state after evidence completion and PR-body refresh: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Immediate Rigging predecessor:
+Exact endpoint predecessor:
 
-**`69640e558f0c1ac59d4d0e3155676e0967a03d04`**
+**`5ca11b1577b6f4f4a2ee2b34f08ae02aa23aa079`**
 
-Predecessor attachment-representation module blob:
+Endpoint module blob:
 
-**`de00694e103b975f9a25a72a50054821b469b528`**
+**`352e7c83e57779aef327390f5250875e26a7b610`**
 
-Fresh exact Geometry donor:
+Exact Geometry analytic-bridge donor:
 
-- Geometry PR #18 donor head: **`14d05fdabc943376c231308001d00eb87dc23430`**;
-- module `rear_tree_geometry_north_low_trunk_bridge_candidate.py` blob: **`47ba57110f43b0f3f1f29582b46a90505fa4515c`**;
-- contract `east-rear-north-low-analytic-trunk-bridge-geometry-007.json` blob: **`047daa7d5764f53cb42aa14b8bec82f3150bd809`**;
-- exact source JSON blob: **`fb12b759e1abfd0455bf46fd39a0eba27095796b`**;
-- Geometry result consumed: `PASS_NORTH_LOW_ANALYTIC_TRUNK_SURFACE_LOOP_AND_BRIDGE_PATCH__HOLD_INDEXED_TRUNK_CUT_CONNECTED_JUNCTION`.
+- merged Geometry PR #18 head: **`14d05fdabc943376c231308001d00eb87dc23430`**;
+- bridge module blob: **`47ba57110f43b0f3f1f29582b46a90505fa4515c`**;
+- source JSON blob: **`fb12b759e1abfd0455bf46fd39a0eba27095796b`**;
+- exact current Organic evidence dependency blob: **`be31e22283d43dcb4e6e8bda870760fa67ab1628`**.
 
-The previous Rigging head is an ancestor of the Geometry donor. The existing Rigging branch was therefore fast-forwarded through the exact donor with no force update, preserving exact history and resolving the previous merge-conflict state by lineage continuity rather than by a silent rewrite.
+The existing endpoint predecessor remains exact: 8 branch-boundary vertices follow the existing `north-low` rigid child socket, 8 analytic trunk-boundary vertices remain fixed, bridge interior vertex count is 0, and the existing child diagnostic interval stays `[-5,+5]°`.
+
+No source geometry, Geometry bridge topology, socket pivot/axis, endpoint ownership, production weights, pose domain, Animation timing or Runtime behavior was changed.
 
 ## Selected bounded Rigging improvement
 
 Scoped result:
 
-**`PASS_NORTH_LOW_ANALYTIC_BRIDGE_ENDPOINT_PIN_DIAGNOSTIC__HOLD_CONNECTED_TOPOLOGY_PRODUCTION_SKINNING`**
+**`PASS_NORTH_LOW_ANALYTIC_BRIDGE_PAIRED_SPAN_CONTINUOUS_NONCOLLAPSE_MINUS5_TO_PLUS5__HOLD_TRIANGLE_FOLDOVER_COLLISION`**
 
 Constraint:
 
-**`ANALYTIC_BRIDGE_TWO_BOUNDARY_DIAGNOSTIC_PIN`**
+**`ANALYTIC_BRIDGE_PAIRED_SPAN_CONTINUOUS_NONCOLLAPSE_CERTIFICATE`**
 
-The exact Geometry bridge candidate contains:
+Reusable rule:
 
-- `8` branch-side transition-boundary vertices;
-- `8` analytic trunk-side boundary vertices;
-- `0` interior bridge vertices;
-- `16` bridge triangles.
+**`RIGID_ENDPOINT_TO_FIXED_ENDPOINT_SPAN_MINIMUM_CAN_BE_CERTIFIED_CONTINUOUSLY_FROM_TRIGONOMETRIC_STATIONARY_POINTS`**
 
-Rigging adds only explicit diagnostic deformation ownership:
+The predecessor already proved that every branch endpoint follows one continuous rigid Rodrigues transform while every analytic trunk endpoint is identity-mapped. For each one-to-one connector, Rigging now derives exact squared span length as:
 
-- branch boundary -> existing exact `north-low` child socket, diagnostic endpoint ownership **`1.0`**;
-- analytic trunk boundary -> fixed receiver boundary, diagnostic endpoint ownership **`0.0`**;
-- no interior vertices -> no invented interior skin-weight field.
+`d(theta)^2 = K + 2*A*cos(theta) + 2*B*sin(theta)`.
 
-The `1.0 / 0.0` values are **diagnostic endpoint ownership only**. They are not production skin weights, not a welded-junction policy and not botanical mechanics.
+Over a closed angular interval, the minimum can occur only at an interval endpoint or where the derivative is zero:
 
-The existing north-low pivot, source-derived axis, detached-child representation and `[-5,+5]°` diagnostic child interval remain unchanged.
+`theta = atan2(B,A) + k*pi`.
 
-## Representative poses and motion boundary
+The verifier evaluates that complete finite candidate set independently for all eight exact paired spans over the existing `[-5,+5]°` interval. This is a continuous analytic certificate; it is not inferred from a denser sample schedule.
 
-Retained representative child commands:
+## Representative poses and exact continuous boundary
+
+Retained direct Rodrigues witnesses remain:
 
 **`-5 / -2.5 / 0 / +2.5 / +5°`**
 
-Exact-head retained measurements:
+Exact successful-head measurements:
 
-- witness count: **5**;
-- maximum branch endpoint residual: **`0.0 m`**;
-- maximum analytic trunk endpoint drift: **`0.0 m`**;
-- maximum branch-boundary edge-length drift: **`2.220446049250313e-16 m`**;
-- maximum trunk-boundary edge-length drift: **`0.0 m`**;
-- minimum sampled bridge-triangle area: **`0.0002835486192312407 m²`**;
-- minimum sampled paired bridge span: **`0.0153042226061514 m`**;
-- forbidden branch-fixed counterfactual at +5°: **`0.0072236547517556225 m`**;
-- forbidden trunk-follows-child counterfactual at +5°: **`0.010112337666493451 m`**.
+- paired connector spans certified: **8 / 8**;
+- continuous child domain: **`[-5,+5]°`**, unchanged;
+- global continuous minimum span: **`0.01530331190226083 m`**;
+- responsible pair index: **`1`**;
+- responsible child angle: **`+2.3819442094628398°`**;
+- minimum span among the five retained representative poses: **`0.015304222606151399 m`**;
+- maximum closed-form vs direct Rodrigues witness residual: **`8.326672684688674e-17 m`**.
 
-The endpoint mapping is continuous for every real child command inside the already-owned `[-5,+5]°` interval: the branch boundary uses one continuous rigid Rodrigues transform around the unchanged socket pivot/axis while the analytic trunk boundary is identity-mapped.
+The true continuous minimum occurs between retained witness poses and is approximately **`9.10703890569e-7 m` (~0.91 µm)** below the representative minimum. That is material evidence that the new continuous certificate is not merely a restatement of the five-pose predecessor check.
 
-This continuous certificate applies **only to endpoint mapping**. The retained triangle-area/span checks are representative-pose checks. Continuous bridge nondegeneracy, foldover freedom, collision freedom and self-intersection freedom remain unproved.
+All eight continuous minima remain strictly positive under the retained Rigging tolerance. The exact endpoint predecessor is re-executed before this certificate is accepted.
 
-## Fail-closed truth controls
+This proof applies only to **paired connector length non-collapse**. It does not prove either adjacent bridge triangle stays continuously nondegenerate or orientation-preserving, and it does not prove foldover, collision or self-intersection freedom.
 
-The bounded observer rejects:
+## Fail-closed controls
 
-- Rigging predecessor identity drift;
-- Geometry bridge donor identity drift;
-- branch endpoint diagnostic ownership drift away from `1.0`;
-- trunk endpoint diagnostic ownership drift away from `0.0`;
-- representative pose schedule rewrite/widening;
-- promotion to connected branch/trunk indexed topology;
-- promotion to production skinning/blending;
-- promotion of representative bridge checks into continuous foldover/collision proof;
+The new gate rejects:
+
+- exact endpoint-predecessor head drift;
+- widening or rewriting the `[-5,+5]°` child domain;
+- promotion of paired-span non-collapse into continuous triangle nondegeneracy;
+- promotion into foldover/collision clearance;
+- promotion into connected branch/trunk topology;
+- promotion into production skinning/blending;
 - Animation acceptance;
 - Technical-Art target-host acceptance;
 - Runtime acceptance.
 
-The exact detached-socket predecessor, parent-exclusion predecessor and exact Geometry bridge donor are re-executed rather than copied as narrative.
+Tests also compare the analytic stationary-point minimum against a dense numerical oracle, but that dense sampling is test discrimination only and is not the basis of the continuous claim.
+
+## Preserved failure and smallest repair
+
+Initial implementation head:
+
+**`89df9ef9c596f53479c368d1671adbc60a9ee2d9`**
+
+Initial workflow:
+
+**`35347492258 — Rigging east rear north-low continuous bridge paired span` — FAILURE**
+
+The substantive proof path was already green there: exact identity gates passed, the complete receiving suite passed, and the verifier produced the same continuous minimum values. The run then failed its retained-evidence truth gate because the workflow copied the static contract into the same artifact filename as the generated evidence, silently overwriting the generated receipt before inspection.
+
+That failure remains visible and is not relabelled as proof success.
+
+Final repair head:
+
+**`efe99261459858636dbe65b16cbe1d5ad2b93a56`**
+
+Repair scope: artifact packaging only. The static contract is now retained under a distinct `contract-...json` filename so it cannot overwrite generated evidence. No source, Geometry, socket, proof math, pose range, acceptance threshold or downstream authority changed.
 
 ## Exact-head hosted CI and retained evidence
 
-Dedicated workflow:
+Final dedicated workflow:
 
-**`35345251922 — Rigging east rear north-low analytic bridge endpoint` — SUCCESS**
+**`35347887289 — Rigging east rear north-low continuous bridge paired span` — SUCCESS**
 
-- Python 3.11: SUCCESS;
-- Python 3.13: SUCCESS;
-- exact predecessor / donor ancestry and blob gates: SUCCESS;
-- full receiving repository suite on Python 3.11: **158 tests / OK**;
-- retained evidence build: SUCCESS;
-- bounded truth gate: SUCCESS.
+- Python 3.11: **SUCCESS**;
+- Python 3.13: **SUCCESS**;
+- exact endpoint / Geometry / source identity gates: **SUCCESS**;
+- full receiving repository suite: **162 tests / OK**;
+- generated evidence truth gate: **SUCCESS**;
+- retained artifact upload: **SUCCESS**.
 
 Retained artifact:
 
-- ID: **`10546925185`**;
-- name: `nature-north-low-analytic-bridge-endpoint-rigging-0bb186b4e22ab8911dd93675754690b68da99802`;
-- archive size: **`19,865 B`**;
+- ID: **`10546954783`**;
+- name: `nature-north-low-continuous-bridge-span-rigging-efe99261459858636dbe65b16cbe1d5ad2b93a56`;
+- archive size: **`16,856 B`**;
 - retained files: **13**;
-- SHA-256: **`c2dec438d2fd7be52b8d37d86b12197f67cc336a1656d0b2e70068ac1514aa6b`**.
+- SHA-256: **`9905f66f0ef0597689377b14aadc004b0f448572d3db6579d7d28302eab30312`**.
 
-The exact archive was downloaded, independently rehashed to the same digest and inspected directly. It retains exact heads, Geometry donor/contract, Rigging contract/observer/verifier/tests/workflow and the measured evidence payload.
+The exact archive was downloaded independently, rehashed to the same digest and inspected directly. The generated evidence reproduces the result, all exact continuous measurements and the explicit false downstream/nonclaim flags.
 
-### Exact-head inherited workflow note
+## Exact-head inherited workflow note
 
-This long-lived stacked Nature branch also triggers historical Geometry workflows whose own identity guards intentionally pin older predecessor deltas. At this exact head, at least these inherited historical workflows fail **before substantive tests** at their lineage/delta binding steps:
+On exact current head `efe99261...`, **18** observed PR-triggered workflow families completed:
 
-- `Geometry east rear shared-driver continuous clearance`;
-- `Geometry east rear simultaneous socket audit`.
+- **15 SUCCESS**;
+- **3 FAILURE**.
 
-Those red historical guards are not hidden and are not reinterpreted as a failure of the new bounded Rigging endpoint constraint. Their dedicated successor Geometry/Rigging workflows remain separate authority. The new dedicated Rigging workflow and full receiving unit suite are green.
+The three red workflows are inherited historical Geometry lineage/delta guards that stop before substantive successor testing because this long-lived stacked branch has advanced beyond their originally pinned predecessor states:
+
+1. `Geometry east rear simultaneous socket audit`;
+2. `Geometry east rear shared-driver continuous clearance`;
+3. `Geometry east rear shared-driver static rebind`.
+
+Those historical red guards are explicit and retained. They are not reinterpreted as failures of the new Rigging certificate. Current Rigging endpoint/parent/attachment/socket/hierarchy/composition workflows, current analytic-bridge Geometry/attachment/owner-transition/topology-migration workflows and current Organic evidence workflows are green.
 
 ## Handoffs recorded
 
-- Nature Rigging PR #14 — comment **`5730092539`**: exact result, pose measurements, continuous endpoint boundary and no downstream acceptance transfer.
-- Nature Geometry PR #18 — comment **`5730093573`**: Geometry keeps indexed trunk-cut / connected-junction / topology authority; a connected successor requires an explicit Rigging rebind.
-- Nature Organic PR #8 — comment **`5730094777`**: source/form/flex authority unchanged; any source-frame change invalidates automatic transfer.
-- Nature Animation PR #26 — comment **`5730096224`**: timing/interpolation/playback acceptance does not transfer; consume exact `0bb186b4...` only through an explicit rebind/retest.
-- Nature Technical Art PR #3 — comment **`5730097713`**: current Godot receiver proof pins the older Rigging owner; target-host adoption of this bridge requires a new exact rebind.
-- Nature Runtime PR #20 — comment **`5730098746`**: no controller/device/performance acceptance transfers; measure the actual exact target representation if adopted.
+- Nature Rigging PR #14 — comment **`5730419974`**: exact continuous result, workflow/artifact identity, retained packaging failure and strict boundary.
+- merged Nature Geometry PR #18 — comment **`5730421633`**: Geometry retains indexed cut / connected topology / bridge-triangle authority; continuous paired-span PASS does not transfer topology acceptance.
+- Nature Organic PR #8 — comment **`5730422848`**: source/form identity unchanged; source changes invalidate automatic transfer.
+- Nature Animation PR #26 — comment **`5730424008`**: timing/interpolation/cadence/playback acceptance does not transfer; exact current Rigging head requires explicit Animation rebind/retest if consumed.
+- Nature Technical Art PR #3 — comment **`5730425145`**: current TA receiver remains older-chain evidence; target-host adoption of this bridge requires exact rebind.
+- Nature Runtime PR #20 — comment **`5730427566`**: no controller/device/performance or representation acceptance transfers; measure the exact receiver if adopted.
+- Nature VFX PR #29 — comment **`5730428947`**: its exact older endpoint-donor Weather review remains valid for its own identity; current Rigging successor is not silently relabelled as VFX-tested.
 
 ## Explicit non-claims
 
 This result does **not** establish:
 
+- continuous bridge triangle nondegeneracy or orientation preservation;
+- continuous foldover, collision or self-intersection freedom;
 - an indexed trunk cut or welded/connected branch-trunk topology;
-- continuous connected surface deformation;
+- continuous connected-surface deformation;
 - production skinning, blended weights or an interior weight field;
 - botanical mechanics, tissue/stress/strength validity or biological/source ROM;
-- continuous bridge triangle nondegeneracy, foldover, collision or self-intersection freedom;
 - simultaneous whole-tree deformation acceptance;
 - physical wind or VFX adoption;
 - Animation timing, interpolation, cadence or playback acceptance;
@@ -201,13 +219,13 @@ This result does **not** establish:
 
 ## Four-root gate
 
-**Truth:** exact predecessor, Geometry donor, source, blobs, branch head, hosted workflow and retained artifact are pinned. The distinction between continuous endpoint mapping and sampled bridge-shape evidence remains explicit, and inherited historical red lineage guards are not hidden.
+**Truth:** exact predecessor/donor/source identities, the interior continuous minimum, five direct witnesses, hosted CI, artifact digest and the initial packaging failure remain explicit. A positive connector length is not promoted into a surface/collision proof.
 
-**Agency / non-domination:** Organic retains source/form authority; Geometry retains bridge/topology authority; Rigging owns only the diagnostic endpoint deformation constraint; Animation, VFX, Technical Art, Runtime and Art/QA retain their own acceptance boundaries.
+**Agency / non-domination:** Organic retains source/form authority; Geometry retains bridge/topology authority; Rigging owns only this bounded connector-length constraint; Animation, VFX, Technical Art, Runtime and Art/QA retain their own acceptance boundaries.
 
-**Continuity:** predecessor status blob `11c9b068b017a5458e2b21a9da1ac0b7f98eb1b2`, prior Animal owner-angle HOLD, prior Nature detached-socket gate and earlier Object/Character/Animal rigging evidence remain rollback-addressable. No prior result is silently rewritten.
+**Continuity:** predecessor status blob `da3ca96ac623479030c1b757c1d148456d3b244a`, prior endpoint proof, prior Nature socket/hierarchy evidence, unresolved Animal owner-angle HOLD and older Object/Character/Animal results remain rollback-addressable. The failed first packaging run is preserved instead of erased.
 
-**Wisdom before speed:** Rigging fills only the exact new endpoint-ownership gap created by Geometry's analytic bridge candidate. It does not pretend an analytic trunk loop is an indexed connected junction, invent production weights, or claim continuous surface/collision behavior from five witnesses.
+**Wisdom before speed:** Rigging closes exactly the continuous connector-length gap exposed by the five-pose predecessor, using a finite analytic proof rather than widening the pose grid or inventing connected topology/production weights. It stops before the still-unproved triangle/foldover/collision and downstream acceptance boundaries.
 
 ## Next legitimate Rigging trigger
 
@@ -215,12 +233,10 @@ Do not widen this result by cadence.
 
 A future successor requires one of:
 
-- Geometry produces an exact indexed trunk cut / connected-junction successor, then Rigging explicitly rebinds and designs/tests a real connected weighting/deformation policy;
-- Animation explicitly binds exact Rigging head `0bb186b4...` and returns a deformation/timing interaction defect that is actually Rigging-owned;
-- Technical Art returns a target-host deformation/transport defect for this exact bridge representation;
-- Runtime returns a measured target representation/controller issue tied to this exact owner;
+- Geometry returns an exact indexed trunk cut / connected-junction successor, after which Rigging can explicitly rebind and design/test a real connected weighting/deformation policy;
+- Animation, Technical Art, Runtime or VFX explicitly binds exact Rigging head `efe99261...` and returns a concrete defect that is actually Rigging-owned;
 - Organic changes the exact source/root/exit-frame identity and requests a rebind;
-- the unresolved Animal Runtime owner-angle metric seam is concretely resolved with a new exact candidate;
-- a stronger newly grounded rig, weighting, constraint, socket or articulation defect appears elsewhere in the eleven-repository constellation.
+- the unresolved Animal Runtime physical-owner-angle seam receives a new exact candidate;
+- another repository exposes a stronger newly grounded rig, weighting, constraint, socket or articulation gap.
 
-Any successor must preserve exact source/rig identity, the distinction between diagnostic endpoint ownership and production skin weights, failed/held evidence, downstream authority boundaries and all four AXM roots.
+Any successor must preserve exact source/rig identity, failed/held evidence, downstream authority boundaries and all four AXM roots.
