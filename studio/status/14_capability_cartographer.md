@@ -3,216 +3,220 @@
 - Date: `2026-09-18`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_EXECUTABLE_DEPENDENCY_CLOSURE_IDENTITY_MAP / BUILDING_ANIMAL_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_NEW_UC_EXTRACTION / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_ELIGIBILITY_VS_MEASURED_OUTCOME_IDENTITY_MAP / RUNTIME_BUILDING_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_NEW_UC_EXTRACTION / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status/coordination commits, current product PRs across the design constellation, current Universal Creation main/open work, Profession Fabric #38 continuity, and the shared-capability execution-claim registry.
+Re-read the 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, current product PRs across the design constellation, current Universal Creation main/open work, Profession Fabric #38 continuity, and the shared-capability execution-claim registry.
 
-`axm-create-me` remains **coordination only**. No product source, material, receiver, exporter, Runtime optimization, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product source, receiver, material, Runtime optimizer, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh continuity / overlap scan
 
-The preceding Cartography activation mapped temporal representation lineage and refined Profession Fabric #38 without opening generic UC temporal machinery. That state remains historical truth.
+The preceding Cartography activation mapped executable dependency-closure identity and refined Profession Fabric #38 without extracting a generic resolver. That exact state remains historical truth at prior Cartography blob:
 
-Fresh studio commits after that pass materially advanced Technical Art, Building material receiving, Object hinge/orientation work, Nature material/deformation work, Environment, VFX and related owner lanes. The strongest new repeated cross-repo gap is narrower than those domain changes: **how a receiving specialist proves that a shared executable observer/receiver is still the same executable behavior when the shared repository head advances**.
+`9385003ec5b275d1183e4356370cbd6d766a41c5`
+
+Fresh studio state materially advanced Runtime, Building Technical Art, Materials, Procedural, Art Direction and QA. The strongest repeated cross-repo learning is not another machine primitive. It is an evidence-transfer boundary:
+
+**`PREREQUISITE_OR_ELIGIBILITY_CONTINUITY != MEASURED_OUTCOME_CONTINUITY`**
+
+A successor can be proven eligible for the same experiment/rebind while old counters, pixels, target-host results, device evidence or adoption verdicts remain historical and require a fresh measurement receipt.
 
 Current Universal Creation `main` is:
 
-`3e6e51402fdb681b4bbed1bc7e816939b06a83b5`
+`bb3885c38cf1661971f8a5a4bb99e88a54e0f5d7`
 
-That commit merges unrelated bounded Physics PR #201 on top of prior merged geometry/orientation work. Open UC PR #202 is the continuing Physics lane and does not overlap the executable-evidence identity scope selected here.
+That commit merged unrelated bounded Physics PR #202. Open UC PR #203 is the continuing Physics lane; open PRs #151 and #153 are unrelated asset/unwrap work. None overlaps this evidence/provenance distinction.
 
-The shared execution registry contains only merged/closed records for UC #192 and #199; there is **no active shared-capability implementation claim** covering dependency-closure provenance. No new shared execution claim is needed because this pass opens no UC/PF implementation lane.
+The shared execution registry still contains only merged/closed records for UC #192 and #199. There is **no active shared-capability implementation claim** covering this scope, and this activation opens no UC/PF implementation lane.
 
 ## Selected material cross-repo learning
 
-Fresh Building Technical Art plus existing independent Animal Technical Art/Runtime evidence cross the repeat threshold for:
-
-**`REPOSITORY_OR_HEAD_IDENTITY != ENTRY_MODULE_IDENTITY != EXECUTABLE_DEPENDENCY_CLOSURE_IDENTITY != PRODUCT_OR_RECEIVER_CLAIM_CONTINUITY`**
-
-A receiving proof can pin the exact entry file and still miss a behavior-changing imported dependency. Conversely, an exact dependency closure can support bounded executable-semantic continuity without becoming a fresh target-host, visual, Runtime/device, adoption or CANON claim.
-
-## Evidence A — Building material observer exposes the entry-only blind spot
-
-Receiving repository:
-
-`mike-axiom-mir/axm-map-design`
-
-Existing Technical Art PR:
-
-`#40 — Technical Art: prove Building post-normal indexing against UC observer`
-
-Exact current Technical Art head:
-
-`457c086d27f3a9c010b365fe75d54b8f812b01ef`
-
-State at inspection: **OPEN / DRAFT / MERGEABLE**.
-
-The Building owner chain remains explicit and separate:
-
-- Hard Surface: `fbfa3b47048755b45dac91451171d5511c8d4f47`;
-- Geometry: `02944a9f10528a051603df3a6fd7b3183730773f`;
-- Materials: `5f096369eee2ef44275ea8f1c7dc1b6e564e71c8`.
-
-The receiving proof had pinned UC's material observer entry module, but the entry imports executable helpers from another UC module. Fresh Technical Art status proves the complete declared local executable closure is exactly:
-
-- `src/axm_uc/material_uv_evidence.py` → blob `bc7aa2ffc2c598d75a78739c70fd349138f511e2`;
-- `src/axm_uc/asset_geometry.py` → blob `628c862a46b46f814a67521e9558e343dfe000a1`.
-
-The tested UC material-observer head is:
-
-`13a823349a568db266099564d6f5d8d7bac48b2b`
-
-Fresh current UC is:
-
-`3e6e51402fdb681b4bbed1bc7e816939b06a83b5`
-
-The tested head is an ancestor of current and the two declared executable closure members retain identical Git blobs. Crucially, the new Technical Art closure binder deliberately mutates only `asset_geometry.py` while leaving the entry module unchanged, and the evidence gate rejects that state. That directly demonstrates that **entry-file equality was insufficient**.
-
-Dedicated closure workflow:
-
-`35292755029 — Technical Art Building material UC receiver closure continuity` — **SUCCESS**.
-
-Scoped result:
-
-`PASS_BUILDING_MATERIAL_CURRENT_UC_EXECUTABLE_RECEIVER_CLOSURE_AND_OBSERVATION_IDENTICAL_TO_TESTED_RECEIVER`
-
-The positive and aspect-blind-negative UC observation reports are identical across tested/current UC. The separate same-head real Godot workflow `35292755078` remains a different receiving claim and is not relabelled by the closure result.
-
-This case therefore proves both sides of the rule:
-
-1. entry identity alone can miss executable semantic drift;
-2. exact declared closure identity can support a bounded current-UC executable-continuity claim while target-host execution/adoption remains separate.
-
-## Evidence B — Animal independently uses closure continuity for a different UC receiver
+### Evidence A — Map Runtime proves eligibility continuity while forbidding output transfer
 
 Repository:
 
-`mike-axiom-mir/axm-animal-design`
+`mike-axiom-mir/axm-map-design`
 
 Existing Runtime PR:
 
-`#26 — Runtime: compact Animal glTF joint indices to byte width`
+`#47 — Runtime: batch static Object rigid components in current world`
 
-The Runtime candidate itself remains exact historical evidence at head:
+Exact pass-48 Runtime head:
 
-`3b9bcbc6b038e0b6782987134b567350274aacfd`
+`f42edfccfd77202d17c1e94487930af07fd1d755`
 
-Its current Technical Art producer adoption is separately recorded at:
+Current receiving chain:
 
-`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
+- Animation successor: `343668b80acd52367e3427f3ef97d1662625c18f`;
+- Technical Art successor: `e085437f6cc958bbf7c5c6464578923d542962b0`;
+- owner Animation: `c688936a84f80f292e43587c9d3386bd717f8178`.
 
-Animal's same-head Technical Art receiver-dependency workflow:
+Pass 48 proves the static-batching **eligibility inputs** survive exactly onto the current successor:
 
-`35261179289`
+- rigid component map: byte-identical;
+- component-map SHA-256: `94edd332308593df020bc5c796950292d2963fbe7f19de0c9fadc9ab6b6905d6`;
+- owner-motion subset: exact;
+- canonical motion-subset SHA-256: `da5eec826861ee4501a12e76eacd9d448e5fb8bf9c7f45d2db781a63a2fcdea2`;
+- semantic components: `31`;
+- moving closure: `7`;
+- static classification: `24`.
 
-retains:
+Dedicated continuity workflow:
 
-`PASS_CURRENT_UC_RIGGED_RECEIVER_DEPENDENCY_CLOSURE_IDENTICAL_TO_TESTED_RECEIVER`
+`35297014999 — Runtime Object static batching successor continuity` — **SUCCESS**.
 
-That proof covers a **different shared executable capability** from Building: the generic rigged glTF receiving/codec path rather than material/UV observation. It verifies the declared codec dependency closure between tested/current UC and deliberately rejects a codec-blob mutation.
+Retained artifact:
 
-Animal correctly states the boundary already: this is **dependency continuity, not a new target-device or rendered A/B claim**. The owning Runtime real-engine A/B, deformed-frame hold, target-device acceptance and producer/product authority remain separate.
+- ID `10527669972`;
+- SHA-256 `2ca2a9df94cb998b1816fb9b74afcde563202adfa3e65f587843adffbdc39e2d`.
 
-The independent mechanism/domain difference is enough for the evidence distinction to cross the repeat threshold without pretending the two receivers are one implementation.
+That scoped PASS authorizes only **reusing the same 7-moving / 24-static classification as the starting point for a fresh current-receiver Runtime rebind**.
+
+It explicitly does **not** transfer pass-44's historical measured outputs:
+
+- rendered component surfaces `33 -> 14`;
+- draw calls `-38` at each retained key;
+- renderer buffer memory `-89,360 B`;
+- four retained shaded A/B pairs byte-identical.
+
+Runtime records:
+
+- `prior_runtime_counter_transfer_authorized = false`;
+- `prior_visual_acceptance_transfer_authorized = false`.
+
+Fresh current-successor Godot counters, shaded A/B and target-device evidence remain required.
+
+This gives a clean distinction between **eligibility continuity** and **measurement continuity** inside one Runtime lane.
+
+## Evidence B — Building receiver binding makes a downstream test possible without making its result current
+
+The second independent case comes from the Building material receiving chain.
+
+Environment PR #51 exact head:
+
+`787ad51687da2df52c9f6191d1778a7f66cbd3db`
+
+correctly held the current `184v / 276t / 5-surface` Building receiver because semantic role + corrected panel placement did not yet provide exact UV0/image transport. Environment did not invent planar UVs or auto-adopt the detached proof carrier.
+
+Technical Art PR #40 has now advanced to exact head:
+
+`1434bc4a64faa04db10f47723c37ab7925aaa163`
+
+and closes that missing prerequisite with an exact current-receiver binding:
+
+- front utility-panel service-face indices: `[172,174,175,173]`;
+- east utility-panel service-face indices: `[180,182,183,181]`;
+- owner UV corners through the active region: `(0.15625,0.03125)`, `(0.84375,0.03125)`, `(0.84375,0.96875)`, `(0.15625,0.96875)`;
+- owner directional target remains `320 / 320 texels/m`;
+- receiver-local depth fill is explicitly `TECHNICAL_ART_RECEIVER_FILL_ONLY__NOT_SOURCE_OR_GEOMETRY_EQUIVALENCE`.
+
+Dedicated workflow:
+
+`35296960441 — Technical Art Building current-receiver utility-panel UV image binding evidence` — **SUCCESS**.
+
+Retained artifact:
+
+- ID `10527699865`;
+- SHA-256 `5c19c82f8e216a1e5032784751819447215b21ab2ef6e4f52e03a9da2a855c06`.
+
+The exact proof reaches current UC and real Godot, including exact image/UV transport and approximately isotropic `320 texels/m` observation. But its scoped state remains:
+
+`PASS_CURRENT_184V_RECEIVER_SERVICE_FACE_UV_IMAGE_BINDING_TO_CURRENT_UC_AND_REAL_GODOT__HOLD_ENVIRONMENT_VISUAL_RUNTIME_ADOPTION`
+
+Therefore the new Technical-Art result makes the exact current receiver **eligible for Environment's next real current-world material A/B**. It does not itself turn Environment visual adoption, Runtime/device evidence, Art/QA verdicts or CANON into current PASSes.
+
+This is materially different from the Runtime batching mechanism but has the same evidence graph shape: a missing prerequisite becomes exact, enabling a downstream experiment without pre-answering that experiment.
 
 ## Cross-repo capability map
 
-The bounded evidence chain is now:
+The bounded evidence chain is:
 
-`repository_revision_identity`
+`prerequisite_identity[]`
 
-→ `executable_entry_identity`
+→ `eligibility_evidence_identity`
 
-→ `dependency_closure_resolution_policy_identity`
+→ `eligibility_state`
 
-→ `declared_dependency_closure_identity`
+→ `authorized_next_action`
 
-→ `closure_member_identity[]`
+→ fresh `measurement_receipt_identity`
 
-→ `closure_equivalence_state`
+→ bounded `measurement_claim_identity[]`
 
-→ bounded `continuity_claim_scope[]`
+→ independent adoption / Art / QA / device / CANON records.
 
-→ independent target/product claim records.
+Suggested evidence-only concepts:
 
-Suggested evidence-only fields/concepts:
+- `prerequisite_identity[]` — exact producer/receiver facts required before the downstream evaluation is meaningful;
+- `eligibility_state = ELIGIBLE_FOR_REBIND_OR_RERUN | INELIGIBLE | INCOMPLETE | NOT_EVALUATED`;
+- `eligibility_evidence_identity` — exact head/workflow/artifact that proves the eligibility state;
+- `authorized_next_action` — e.g. `REBIND_FROM_SAME_CLASSIFICATION`, `RUN_CURRENT_WORLD_A_B`, `NO_ACTION`;
+- `measurement_claim_identity[]` — exact measured outputs such as pixels, draw calls, memory, host behavior or review verdicts;
+- `measurement_receipt_identity` — exact receiver/host/observer/context where those outputs were measured;
+- `measurement_transfer_state = FRESH_CURRENT | HISTORICAL_ONLY_RERUN_REQUIRED | TRANSFER_EXPLICITLY_PROVEN | NOT_APPLICABLE`.
 
-- `executable_entry_identity` — exact repo/head/path/blob for the invoked entry;
-- `dependency_closure_resolution_policy_identity` — exact rule used to discover in-scope executable dependencies;
-- `declared_dependency_closure_identity` — stable digest/identity of the resolved closure;
-- `closure_member[]` — exact repo/path/blob plus dependency edge(s);
-- `external_runtime_dependency_scope` — interpreter / stdlib / third-party / native dependencies explicitly included or excluded;
-- `closure_equivalence_state = EXACT_IDENTICAL | CHANGED_REBIND_REQUIRED | INCOMPLETE_UNRESOLVED | NOT_EVALUATED`;
-- `continuity_claim_scope` — exact bounded claim(s) whose executable semantics are covered by this closure proof.
+Core non-transfer rule:
 
-Core non-transfer rules:
-
-1. repository ancestry/head relation alone is not executable continuity;
-2. entry-file blob equality alone is not executable continuity when imported local dependencies participate;
-3. exact declared closure equality supports only claims whose relevant executable semantics are fully covered by that closure;
-4. dynamic/unresolved/out-of-scope dependencies must remain explicit rather than being silently treated as identical;
-5. closure equality does not establish fresh target-host execution, visual equivalence, performance, target-device fitness, product adoption, Art/QA acceptance, CANON or production readiness.
+**Exact prerequisite continuity may authorize the next rerun/rebind, but it does not relabel historical measured outputs as current unless their own measurement dependencies and transfer are explicitly proven.**
 
 ## Placement action — Profession Fabric #38
 
-Refined the existing Profession Fabric issue #38 evidence/provenance proposal with comment:
+Refined the existing experimental Profession Fabric evidence/provenance proposal with comment:
 
-`5723380166`
+`5723918291`
 
-The refinement adds executable dependency-closure identity beneath existing receiver/representation/provenance records. It does **not** add a generic migration engine or product implementation to PF.
+The refinement adds explicit prerequisite/eligibility identity and measurement-transfer state beneath the existing typed dependency DAG, migration-vs-claim distinction, representation-set model, temporal provenance and executable-closure provenance.
 
-This is the correct current home because the repeated capability is **how professional evidence binds executable semantics across revision changes**, not a missing product feature inside the observed UC machinery.
+This is the correct home because the repeated capability is **how evidence distinguishes readiness-to-test from the result-of-testing**. It is not batching machinery, UV transport machinery, Environment policy or a missing Universal Creation product feature.
 
-The fresh Building `technical_art_python_dependency_closure.py` remains Technical Art-owned evidence tooling. Although it is described as domain-neutral, one explicit standalone implementation plus one independent closure discipline is not yet enough reason to move code into PF. The procedure/vocabulary is repeated; implementation extraction remains held pending real reuse pressure.
+No PF code was implemented and no profession was promoted.
 
-## Why no new Universal Creation lane was opened
+## Why no Universal Creation lane was opened
 
-Universal Creation is the **object being continuity-checked** in both current cases:
+Universal Creation has no missing neutral machine capability evidenced by this repeat:
 
-- Building checks the material/UV observer closure;
-- Animal checks the rigged receiver/codec closure.
+- Runtime's case concerns whether an existing Object batching experiment is eligible to be rerun on a successor receiver;
+- Building's case concerns whether Environment now has enough exact receiving identity to run its own current-world material A/B.
 
-Neither case exposes missing UC product machinery. Opening a UC dependency-provenance feature would conflate shared machine behavior with external evidence about that behavior.
-
-Current UC main `3e6e5140...` is healthy for the relevant Building closure and has unrelated Physics work continuing in PR #202. No overlapping UC capability lane was created.
+UC remains only one observed dependency in the Building proof. Current UC main `bb3885c3...` is unrelated Physics growth beyond the relevant material-observer closure. Opening a UC lane would conflate evidence lifecycle with creation/observation machinery.
 
 ## Product returns
 
 Evidence-only returns were placed without changing product code:
 
-- Map Technical Art PR #40 comment `5723381067`;
-- Animal Runtime PR #26 comment `5723381970`.
+- Map Runtime PR #47 comment `5723919333`;
+- Map Technical Art PR #40 comment `5723920237`.
 
-The Map return preserves the distinction between executable-closure continuity and same-head real-Godot evidence. The Animal return preserves the distinction between rigged-codec closure continuity and the owning Runtime/target-device/deformation claims.
+The Runtime return preserves the distinction between exact classification eligibility and historical pass-44 measurements. The Technical-Art return preserves the distinction between exact Building receiver readiness and downstream Environment/Runtime/Art/QA adoption.
 
 ## Bounded placement table
 
 | Layer | Correct home | Current evidence | Explicitly not implied |
 |---|---|---|---|
-| Building owner geometry/UV/material meaning | Building owner lanes | Hard Surface / Geometry / Materials exact heads | UC/PF semantic ownership |
-| Building shared-observer receiving proof | Map Technical Art PR #40 | exact 2-file UC closure + mutation rejection + identical reports | Environment/Runtime/Art/QA adoption |
-| Animal rigged receiver continuity | Animal Technical Art/Runtime evidence | workflow `35261179289` in PR #26 chain | deformed-frame/device/CANON acceptance |
-| executable dependency-closure evidence vocabulary | Profession Fabric #38 experimental procedure | comment `5723380166` | closure resolver implementation or automatic rebind |
-| generic shared product machinery | Universal Creation only when a real reusable machine gap exists | **no new gap opened this pass** | evidence/provenance ownership |
+| Object static-batching mechanism and classification | Map Runtime PR #47 | exact `31 / 7 / 24` successor eligibility | current draw/memory/pixel/device PASS |
+| Building current-receiver UV/image binding | Map Technical Art PR #40 | exact service-face binding through UC + real Godot | Environment visual adoption or production UV policy |
+| Building world adoption / scene A/B | Map Environment PR #51 | now has a proven prerequisite available | automatic PASS before fresh Environment execution |
+| prerequisite/eligibility vs measurement-transfer evidence vocabulary | Profession Fabric #38 experimental procedure | comment `5723918291` | generic rerun engine, auto-adoption or product policy |
+| generic shared product machinery | Universal Creation only when a real neutral machine gap exists | **no new gap this pass** | evidence/provenance ownership |
 | shared implementation collision state | `axm-create-me` coordination registry | no active overlapping claim | ownership or merge priority |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a universal Python/module dependency resolver;
-- completeness for dynamic imports, native libraries, interpreter/runtime packages or third-party dependencies outside a declared scope;
-- fresh target-host execution merely because a closure is identical;
-- visual equivalence;
-- Runtime/device performance;
-- product adoption;
-- Building/Animal semantic transfer;
+- fresh Runtime draw-call or buffer-memory improvement on the current Object successor;
+- fresh Object static-batching visual equivalence on the current successor;
+- target-device Runtime acceptance;
+- Environment adoption of the Building material binding;
+- final Building visual/material acceptance;
+- production UV/texture policy;
 - a new UC implementation;
 - a PF implementation or profession promotion;
+- automatic rerun/adoption machinery;
 - CANON;
 - production/game readiness;
 - mastery;
@@ -222,13 +226,13 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-**Truth:** the exact Building blind spot is demonstrated by a dependency-only mutation that leaves the entry blob untouched; the Animal closure result is kept separate from its Runtime/render claims; unresolved dependency classes are not called covered.
+**Truth:** exact unchanged prerequisites are recorded separately from historical measured outputs; the Building receiving prerequisite PASS is not mislabeled as Environment adoption.
 
-**Agency / non-domination:** Building and Animal owners retain their product semantics and adoption authority; Technical Art retains the current closure binder; PF receives evidence vocabulary only; UC is not expanded merely because it is being observed.
+**Agency / non-domination:** Runtime retains batching/device authority, Technical Art retains transport authority, Environment retains world adoption, Art/QA retain review authority, PF receives evidence vocabulary only, and UC is not expanded without a machine gap.
 
-**Continuity:** tested/current UC heads, exact closure-member blobs, product heads, workflow identities and prior temporal Cartography state remain separately addressable. No old PASS is silently relabelled current by repository ancestry alone.
+**Continuity:** prior Cartography blob, exact Runtime historical/current identities, Building Environment/Technical-Art heads, workflow/artifact identities and historical measurements remain separately addressable. No old PASS is silently relabelled current.
 
-**Wisdom before speed:** the repeated evidence distinction is extracted first while executable tooling stays where it is already proven. No generic shared resolver is created until repeated implementation reuse actually justifies it.
+**Wisdom before speed:** the map authorizes only the next evidence-producing action when prerequisites are green; it does not skip the expensive/meaningful downstream measurement merely because eligibility is exact.
 
 The four AXM roots remain the gate.
 
@@ -236,14 +240,14 @@ The four AXM roots remain the gate.
 
 Previous Cartography state:
 
-`PASS_TEMPORAL_REPRESENTATION_LINEAGE_MAP`
+`PASS_EXECUTABLE_DEPENDENCY_CLOSURE_IDENTITY_MAP`
 
 Previous status blob SHA:
 
-`e42d40f9c0e88109ca3d5f6633e6a3b19b2b7b4f`
+`9385003ec5b275d1183e4356370cbd6d766a41c5`
 
 Current Cartography returns:
 
-- PF #38 comment `5723380166`;
-- Map Technical Art #40 comment `5723381067`;
-- Animal Runtime #26 comment `5723381970`.
+- PF #38 comment `5723918291`;
+- Map Runtime PR #47 comment `5723919333`;
+- Map Technical Art PR #40 comment `5723920237`.
