@@ -2,161 +2,180 @@
 
 Date: 2026-09-18
 
-State: **HOLD_BUILDING_UTILITY_PANEL_PRODUCTION_SUCCESSOR_ENVIRONMENT_REBIND / MATERIALS_OWNER_GREEN / ART_DIRECTION_GREEN / RUNTIME_REPRESENTATION_GREEN / INDEPENDENT_VISUAL_QA_PENDING / MAP_PR51_SCENE_UNCHANGED / ADOPTION_HELD / COORDINATION_ONLY**
+State: **PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SUCCESSOR_ENVIRONMENT_CURRENT_WORLD_REBIND / OWNER_ART_QA_RUNTIME_IDENTITIES_CONVERGED / CURRENT_ENVIRONMENT_RECEIVING_CHOICE_SET / FINAL_ADOPTION_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the preceding Environment status, and fresh Map / Building / Nature / Object / Weather plus Materials / Art Direction / Visual QA / Runtime / VFX / Procedural coordination state.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the preceding Environment status, and fresh Map / Building / Nature / Object / Weather plus Materials / Art Direction / Visual Observer-QA / Runtime coordination state.
 
-`axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` mutation in this activation. No product implementation, renderer, material source, geometry, UV, Runtime representation, camera, light, Nature, Object, Weather, gameplay or CANON data was added here.
+`axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` mutation in this activation. No renderer, product implementation, material source, geometry, UV, Runtime representation, camera, light, Nature, Object, Weather, gameplay or CANON implementation was added here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Predecessor Environment status blob:
+Predecessor status blob:
 
-`539e6984b47f30bb659d02388669a43272944c4c`
+`dd563e4c8698e61902af1885e957b6d6019439ee`
 
-That predecessor activation — including the exact red Materials run `35303406313`, retained failure artifact and localization-support diagnosis — remains preserved in Git history. This activation does not rewrite or erase it; it records the later owner-lane closure and the new exact Environment boundary.
+The predecessor HOLD is preserved in Git history. It required an exact independent Visual QA review and explicitly required a **new Environment rebind** after that review rather than silently editing the HOLD into adoption authority. This activation follows that boundary.
 
 ## Fresh constellation change
 
-The Materials blocker diagnosed in the preceding Environment activation is now legitimately closed by the Materials owner rather than by Environment weakening the guard.
+The last missing exact owner gate is now green.
 
-Exact fresh Building Materials production successor:
+Independent Visual Observer / QA reviewed the exact Building Materials production successor:
 
-- repository: `mike-axiom-mir/axm-building-design`;
-- PR #3;
-- exact head `75bf511be8a89778ab40868707a68e80a210608a`;
+- Building Materials PR #3 exact head `75bf511be8a89778ab40868707a68e80a210608a`;
+- independent review ID `5244398076`, anchored to that exact commit;
+- owner current-world artifact `10531260523`, SHA-256 `75369c8d71ce5491eec2e058ecacc56948ca94662cc0b34d123b82273f2b4b8b`;
+- production PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
+- result `PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_CURRENT_WORLD_VISUAL_QA__LOCALIZED_STABLE_SUBORDINATE__68_PAIRS`;
+- depattern result `PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DEPATTERNS_CHECKER__TWO_EXISTING_CAMERAS`;
+- `68` retained scalar/successor frame pairs across `path_eye` and `elevated_oblique`, both retained Weather branches and all 17 phases;
+- scalar -> successor `182,257` pixels above 1 LSB, maximum `10 LSB`;
+- no grid/checker read, receiver escape, UV explosion, detached-panel read, gross tiling/banding or hierarchy regression in those retained views;
+- arbitrary close-range anti-banding remains outside the accepted evidence boundary.
+
+The exact same owner identity was already green in the other required lanes:
+
+### Materials owner
+
+- PR #3 head `75bf511be8a89778ab40868707a68e80a210608a`;
 - workflow `35303626025` — **SUCCESS**;
 - result `PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_SUCCESSOR_CURRENT_WORLD_THREE_WAY_REVIEW_READY__HOLD_ART_QA_ENV_RUNTIME_ADOPTION`;
-- exact surface `utility_panel_ochre_production_surface_001`;
-- production PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
-- decoded RGBA8 SHA-256 `408a6eaecf99fa328487785f85d089c93da2b84c3ae9ead0bf6e1f8d2a0bdcad`;
+- surface `utility_panel_ochre_production_surface_001`;
+- PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
+- RGBA8 SHA-256 `408a6eaecf99fa328487785f85d089c93da2b84c3ae9ead0bf6e1f8d2a0bdcad`;
 - metallic / roughness `0.18 / 0.62`;
-- retained scalar / checker / production three-way: `68` real current-world frames per variant;
-- successor visible in `68 / 68` frames;
-- scalar -> successor `182,257` pixels above 1 LSB, maximum `10 LSB`;
-- owner localization minimum `1.0`.
+- owner current-world three-way `68` frames per variant, successor visible in `68 / 68`, owner localization minimum `1.0`.
 
-This closes the owner-verifier red state without transferring adoption authority to Environment.
-
-Art Direction has also now reviewed the **same exact Materials head and production PNG identity**:
+### Art Direction
 
 - coordination commit `fe39317b1e32f38a52994bb7ae40a8a8a0c42c67`;
 - packet `studio/direction/BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DIRECTION_043.md`;
 - result `PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_SUCCESSOR_001_043`;
-- accepted for direction: `true`;
-- final adoption: `false`.
+- exact same Materials head and production PNG identity;
+- accepted for direction `true`;
+- final adoption `false`.
 
-Runtime has separately rebound the same exact production successor rather than inheriting the old checker optimization:
+### Runtime representation
 
 - Map Runtime PR #52 exact head `cb4a4c7b4b8e77eba1195f0032d318d27588fd12`;
 - workflow `35304987658` — **SUCCESS**;
-- exact successor PNG SHA-256 rebound: `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
+- exact same production successor PNG rebound;
 - `68 / 68` RGBA8 -> RGB8 retained pairs byte-identical;
-- changed pixels: `0`;
+- changed pixels `0`;
 - full-mip texture footprint `1,398,100 B -> 1,048,575 B`;
 - exact saving `349,525 B`;
-- target-device acceptance remains `false`.
-
-The remaining owner gate is independent Visual Observer / QA. The previous QA PASS belongs to the diagnostic checker evidence and does **not** transfer to this distinct production successor by analogy. No exact independent Visual QA receipt for the production successor was found in the fresh constellation state.
+- Runtime target-device acceptance remains `false`.
 
 ## Highest-leverage bounded Environment improvement
 
-Environment did **not** mutate PR #51's real scene, author another material, duplicate Art/QA judgment, or create a second world-composition lane.
+Environment did **not** author another texture, rerender the same 68-frame world, retune cameras, move assets, duplicate QA judgment, or start another composition lane.
 
-Instead it added one exact, executable cross-owner **adoption-readiness convergence gate** to the existing PR #51 branch.
+The exact owner Materials workflow already rendered the production successor inside the retained multi-asset current world, and independent QA / Art / Runtime now converge on that same exact identity. Re-rendering merely to repeat the answer would add work without adding truth.
 
-New scoped result:
+Instead Environment added a new explicit, fail-closed **current-world rebind** on existing Map PR #51.
 
-`HOLD_BUILDING_UTILITY_PANEL_PRODUCTION_SUCCESSOR_ENVIRONMENT_REBIND__INDEPENDENT_VISUAL_QA_PENDING`
+Result:
+
+`PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SUCCESSOR_ENVIRONMENT_CURRENT_WORLD_REBIND__OWNER_ART_QA_RUNTIME_IDENTITIES_CONVERGED__FINAL_ADOPTION_HELD`
 
 Reusable rule:
 
-**`WORLD_ADOPTION_REQUIRES_EXACT_IDENTITY_CONVERGENCE_ACROSS_OWNER_ART_QA_RUNTIME_RECEIPTS__MISSING_ONE_GATE_HOLDS_REBIND_WITHOUT_DISCARDING_GREEN_EVIDENCE`**
+**`ENVIRONMENT_REBIND_MAY_ACCEPT_AN_EXACT_REVIEWED_WORLD_SUCCESSOR_ONLY_WHEN_OWNER_ART_QA_AND_RUNTIME_IDENTITIES_CONVERGE__CURRENT_WORLD_RECEIVING_DOES_NOT_TRANSFER_TARGET_DEVICE_CLOSE_RANGE_OR_CANON_AUTHORITY`**
 
-New Map PR #51 files:
+New PR #51 files:
 
-- `contracts/environment_building_utility_panel_production_successor_adoption_readiness.json`;
-- `tools/environment_building_utility_panel_production_successor_adoption_readiness.py`;
-- `docs/ENVIRONMENT_BUILDING_UTILITY_PANEL_PRODUCTION_SUCCESSOR_ADOPTION_READINESS_001.md`;
-- `.github/workflows/environment-building-utility-panel-production-successor-adoption-readiness.yml`.
+- `contracts/environment_building_utility_panel_production_successor_current_world_rebind.json`;
+- `tools/environment_building_utility_panel_production_successor_current_world_rebind.py`;
+- `docs/ENVIRONMENT_BUILDING_UTILITY_PANEL_PRODUCTION_SUCCESSOR_CURRENT_WORLD_REBIND_001.md`;
+- `.github/workflows/environment-building-utility-panel-production-successor-current-world-rebind.yml`.
 
-The gate pins exact Materials, Art Direction and Runtime identities and makes the absent independent QA receipt machine-visible. It fails closed if QA acceptance is fabricated. If a legitimate exact QA PASS is later inserted, the old HOLD verifier intentionally refuses to become silent adoption authority; the lane must advance to a **new Environment rebind/current-world review**.
+The verifier requires exact convergence of:
+
+- the Materials owner head, artifact and production PNG;
+- the exact Art Direction packet/result;
+- the exact independent QA review ID, commit and reviewed image/artifact identity;
+- the exact Runtime run/head and representation measurements;
+- the retained Environment lineage and held multi-asset world identity.
+
+Its negative control deliberately fabricates the QA commit identity and must fail. This prevents a stale or unrelated review from becoming Environment receiving authority.
 
 ## Hosted evidence
 
-Map PR #51 exact head after this bounded improvement:
+Map PR #51 exact head:
 
-`7f65a180f55041e413588c08e9ffb448df78c1fe`
+`4826db5d3a595bbeefdfd58d5541b2d78247e290`
 
-PR #51 remains **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+PR #51 remains **OPEN / DRAFT / UNMERGED / MERGEABLE**, directly stacked on unchanged Environment PR #49 head `07f04aa9b5d1620907240acb12c97759fd7c77f4`.
 
 Hosted workflow:
 
-`35307430530 — Environment Building production successor adoption readiness`
+`35311238794 — Environment Building production successor current-world rebind`
 
-Conclusion: **SUCCESS** on exact head `7f65a180f55041e413588c08e9ffb448df78c1fe`.
+Conclusion: **SUCCESS**.
+
+All substantive steps passed:
+
+1. exact Environment head / lineage verification;
+2. exact Materials owner artifact download and SHA binding;
+3. exact independent QA review + Runtime run fetch;
+4. exact Art Direction packet checkout;
+5. cross-owner convergence verifier;
+6. fail-closed fabricated-QA negative;
+7. evidence retention.
 
 Retained artifact:
 
-- ID `10532081875`;
-- name `environment-building-production-successor-readiness-7f65a180f55041e413588c08e9ffb448df78c1fe`;
-- size `3,626 B`;
-- digest `sha256:4c3371aa141bb2766dddaaf4e3fe61ef11e4e696940227204955e22e0e06c3a5`.
+- ID `10532604901`;
+- size `11,720 B`;
+- digest `sha256:18d80b8783e71a9588cf86bb383eaf8ec8e803f35002a363557c2fda8fb427f3`.
 
-The workflow verifies the honest HOLD on Python 3.11 and 3.13, runs a fail-closed negative that attempts to self-declare QA acceptance without an independent review id/evidence digest, and binds the retained packet to the exact branch head.
+## Current Environment receiving choice
 
-This is an Environment coordination/integration PASS for the **HOLD contract**, not a visual-adoption PASS.
+The exact production successor above is now the **current Environment receiving choice on PR #51**.
 
-## Real-world composition retained unchanged
+That means Environment may compose with this exact reviewed production image identity instead of the diagnostic checker when PR #51 is the chosen candidate state.
 
-The convergence gate remains grounded in the already-rendered current-world evidence and does not replace it with an isolated asset test.
+It does **not** mean final product / CANON adoption.
 
-Held world identity:
+Scalar and checker controls remain retained as diagnostic / rollback evidence rather than being rewritten away.
+
+## Real-world composition identity held
+
+The rebind is grounded in the already-rendered real current-world evidence spanning multiple asset classes:
 
 - Building `header-segmented-23`, `184 vertices / 276 triangles / 5 surfaces`, corrected utility-panel placement;
-- articulated Object at owner sample `40`;
-- current compact-east and east-rear Nature receivers;
+- articulated Object at exact owner sample `40`;
+- current compact-east Nature receiver;
+- current east-rear Nature receiver;
 - current Weather source-width presentation;
+- existing +20 mm Environment Object service-frame successor;
 - existing `path_eye` and `elevated_oblique` cameras;
-- existing lighting;
-- existing +20 mm Environment Object service dressing;
-- checker retained as diagnostic / rollback evidence.
+- existing lighting.
 
-The fresh Materials owner three-way is the real-scene evidence source: `68` frames each for scalar, checker and production successor. Environment does not rerender or retune that evidence merely to restate convergence.
+No unrelated Building / Object / Nature / Weather / dressing / camera / light identity was changed by this rebind.
 
-Direct Environment parent PR #49 remains unchanged at exact head:
-
-`07f04aa9b5d1620907240acb12c97759fd7c77f4`
-
-Historical Environment PR #24 remains rollback/default lineage.
-
-`environment_adoption=false` remains fixed.
+Direct Environment parent PR #49 remains unchanged. Historical Environment PR #24 remains rollback lineage.
 
 ## Scope / handoff recorded
 
 Map PR #51 handoff comment:
 
-`5725209105`
+`5725695555`
 
-The handoff records the exact Materials / Art Direction / Runtime convergence, the still-missing independent Visual QA gate, the hosted convergence workflow/artifact, held world identity, and the explicit no-adoption boundary.
+It records the exact owner / Art / QA / Runtime identity convergence, hosted workflow and artifact, held world composition, production successor as the current Environment receiving choice, checker/scalar rollback continuity, and the remaining authority boundaries.
 
-Next legitimate flow:
+## Remaining holds
 
-1. **Visual Observer / QA** independently reviews the exact production successor at Materials head `75bf511be8a89778ab40868707a68e80a210608a` and PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c` against the retained scalar/checker controls.
-2. If that **exact** review closes green, Environment creates a **new exact rebind/current-world review**; this HOLD packet must not be silently edited into adoption authority.
-3. Runtime target-device acceptance remains separate even though the exact RGB8 receiving representation is byte-identical in retained evidence.
-4. Building Materials, Technical Art, Geometry, Art Direction, Visual QA and Runtime retain their existing ownership. Environment owns only world-composition receiving/adoption sequencing.
+`environment_adoption=false` remains explicit.
 
-## Explicit non-claims
+Still **not** established:
 
-This activation does **not** establish:
-
-- independent Visual QA acceptance of the production successor;
-- Environment rebind or adoption;
 - Runtime target-device acceptance;
-- generic RGB8 policy;
+- generic RGB8 policy outside this exact successor;
+- arbitrary close-range anti-banding acceptance;
+- final normal / roughness / weathering / decal surface-stack acceptance;
 - Building source-geometry or source-UV authority expansion;
 - arbitrary-camera equivalence;
 - gameplay, collision or navigation readiness;
@@ -164,14 +183,16 @@ This activation does **not** establish:
 - production/game readiness;
 - Environment mastery.
 
+Those gates are not inferred from current-world receiving success.
+
 ## Four-root check
 
-**Truth:** completed owner evidence is preserved as green, but the one missing independent QA gate remains explicitly red/pending instead of being inferred away. Hosted SUCCESS means the HOLD contract is correctly enforced, not that adoption happened.
+**Truth:** the previous HOLD was not silently flipped. A fresh exact rebind receipt was created only after the independent QA review existed, and the hosted negative proves a fabricated QA identity is rejected. Current-world receiving is distinguished from target-device, close-range and final-product adoption.
 
-**Agency / non-domination:** Environment does not seize Materials, Art Direction, Visual QA, Runtime, Technical Art or Geometry authority. The missing QA owner retains the right to accept or reject the exact visual successor.
+**Agency / non-domination:** Materials still owns the surface, Art Direction owns direction, Visual QA owns independent visual judgment, Runtime owns target-device / representation authority, and Environment owns only world-composition receiving. No one lane is allowed to self-grant the others' authority.
 
-**Continuity:** PR #51 keeps its real scene unchanged; PR #49 remains its exact composition parent; PR #24 remains historical rollback; checker and production-successor evidence remain distinct identities. The preceding red-run diagnosis remains recoverable at predecessor blob `539e6984b47f30bb659d02388669a43272944c4c`.
+**Continuity:** the scalar/checker controls remain retained; PR #49 remains the direct Environment parent; PR #24 remains historical rollback; the prior HOLD remains in Git history; exact source/artifact/image identities are carried forward rather than rewritten.
 
-**Wisdom before speed:** with three exact downstream identities converged, the studio still waits for the fourth independent gate rather than treating near-completion as permission to adopt. The gate is reusable precisely because it turns that restraint into executable evidence.
+**Wisdom before speed:** because the exact owner three-way already rendered the successor in the real multi-asset world, Environment did not spend another lane duplicating the same 68-frame render. It added the smallest missing proof: an executable convergence/rebind boundary that says precisely what is accepted now and what is still held.
 
 The four AXM roots remain the merge gate.
