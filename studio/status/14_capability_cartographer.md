@@ -1,206 +1,120 @@
-# Capability Cartographer Status
+# 14 — Capability Cartographer — Studio Status
 
-- Date: `2026-09-18`
-- Standing role: `studio/specialists/14_capability_cartographer.md`
-- Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_CLAIM_IMPACT_REEXECUTION_BOUNDARY_MAP / MAP_BUILDING_NATURE_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / PROVENANCE_ONLY_REUSE_AND_TARGETED_RERUN_SEPARATED / NO_GENERIC_UC_RERUN_ENGINE / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+Date: 2026-09-18
 
-## Current activation
+State: `PASS_DESCRIPTIVE_RELATION_CONSUMER_POLICY_SEPARATION_MAP / NATURE_CHARACTER_REPEAT_THRESHOLD_MET / PF38_REFINEMENT_PROPOSAL_RECORDED_COORDINATION_ONLY / NO_NEW_UC_POLICY_ENGINE / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
 
-Re-read the active 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, current/open product work across the design constellation, current Universal Creation main/open work, Profession Fabric #38, and the shared-capability execution registry.
+## Activation / campaign gate
 
-`axm-create-me` remains **coordination only**. No product implementation, source semantics, renderer/observer implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/14_capability_cartographer.md`, current specialist status, newest relevant product PRs, current Universal Creation state, Profession Fabric #38 history, and `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` before selecting one bounded cross-repo learning.
+
+`mike-axiom-mir/axm-create-me` remains coordination-only. No product implementation, Universal Creation implementation, Profession Fabric implementation, merge state, CANON state or specialist authority moved here.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediately preceding Cartography status blob remains historical and rollback-addressable:
+Immediate predecessor Cartography status remains rollback-addressable at coordination commit `f7552e53c325bbc4a83721f3c711007fea6c8947`; this pass does not rewrite its claim-impact / re-execution result.
 
-`9a18bfd3a0b7badb54b40f8480e104809fe75560`
+## Material cross-repo learning
 
-## Fresh cross-repo learning
+**`OWNER_DESCRIPTIVE_RELATION != CONSUMER_DERIVATION != DIAGNOSTIC_POLICY != PRODUCTION_POLICY`**
 
-The strongest fresh repeated boundary is:
+A source-owning specialist can publish an exact descriptive relation that multiple downstream consumers may legitimately use in different ways. The relation may be reusable evidence, but a downstream consumer's interpretation or action is not part of the source fact and must not silently flow sideways into sibling consumers or backward into source truth.
 
-**`REVISION_DELTA != CLAIM_RELEVANT_SEMANTIC_DELTA != OBSERVATION_SUBJECT_DELTA != REEXECUTION_REQUIREMENT`**.
+This is narrower than the existing PF #38 typed dependency-DAG rule. The missing distinction is the **semantic role of the consumed edge**: an exact identity can be shared while the authority to turn that identity into a selection, diagnostic gate, candidate policy or production policy remains consumer-owned.
 
-A repository or evidence-head advance is neither automatic permission to reuse historical measurements nor automatic reason to rerun an expensive observer. The rerun/reuse decision must be scoped to the exact claimed property and the inputs that can affect that property.
+## Evidence A — Nature: one owner fact, two materially different consumers
 
-This refines the earlier PF #38 rule that eligibility continuity is not measured-outcome continuity. The new evidence supplies both sides of the missing decision: one exact case where a provenance-only advance can reuse an existing observation, and independent cases where unchanged bytes at one layer still require fresh execution because the semantic claim subject changed.
+Nature Organic PR #8 exact current evidence head `925715d2f0491e2bcbc493b93dc6d14ab3dcb2a6` extends the source-space interaction classifier without changing source form. For `trunk-upper-flex -> north-low`, declared flex envelopes overlap by `0.028488310914984383 m`, while the neutral attachment cross-section remains `+0.009079537802862594 m` outside the upper-trunk flex boundary. Organic explicitly states that this classifier is not a hierarchy, weight field, influence map, deformation simulation or physical flex law.
 
-## Evidence A — Map Environment proves a bounded provenance-only rebind without duplicate rerender
+Nature Procedural PR #4 current head `98109ffcab764a586a03bdc8c13b65e7378c0b3a` consumes that exact relation family and derives deterministic owner-relation subset outputs while keeping source, Rigging, Animation, VFX and Runtime authority outside Procedural. Procedural can answer which deterministic subset belongs to a declared relation class without deciding parent influence, weights or kinematics.
 
-Repository: `mike-axiom-mir/axm-map-design`
+Nature Rigging PR #14 current head `975931b11555d156e04e2ab12e9756fc6c9598a3` consumes the same Organic relation for a different purpose. It applies `INTERSECTION_GATED_DIAGNOSTIC_ONLY` and tests north-low parent influence at diagnostic weight `0.0`. That zero is explicitly not a production skinning weight. Nine parent×child witnesses show zero gated parent-command leak, while the forbidden inherited-parent counterfactual changes output by up to `0.03696489957767331 m`, so the diagnostic gate is materially discriminating rather than bookkeeping.
 
-Environment PR: `#51 — Environment: review Building utility-panel material in current world`
+The fan-out is therefore:
 
-Current exact Environment head: `73a15a5edff3e56c776fe0eb8559d925dc3c89b1`.
+`Organic descriptive relation -> Procedural selection derivation`
 
-Fresh Building Materials head `eb31efc1639f58f2797bac44ce7f1bad774841ef` and current Building Procedural head `588350afba56dd1aa0417148f03e12c6cfc81610` advanced the evidence/provenance chain. Environment did **not** automatically manufacture another current-world render.
+`Organic descriptive relation -> Rigging diagnostic influence gate`
 
-Its dedicated convergence workflow `35326110905` instead proves the claim-relevant world subject is unchanged:
+Neither consumer output rewrites Organic truth, and neither consumer authorizes the sibling consumer.
 
-- exact production PNG remains `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
-- corrected receiver centers remain front `[-2.45,-1.10,1.65]` and east `[3.90,0.10,1.65]`;
-- current Procedural re-executes the same exact two placement outputs/digests;
-- the bounded Building receiver and unrelated Building/Nature/Object/Weather world identities remain pinned;
-- the already-retained production successor remains visible in all `68/68` real-world frames.
+## Evidence B — Character independently repeats the boundary
 
-Retained convergence artifact `10539004116` / SHA-256 `3600436f017e2fc4572c96f8bf9108cd3aaa6ce16200be214b82bc23f093e741` binds the new provenance to the historical observation.
+Character Organic PR #2 remains open/draft at current head `e27067477922b13b14a2cfcc7f3659b97a10b8a7`. Its retained flex-transition audit records exact source endpoint radius steps and neutral mass-interface root-ring overlap while explicitly marking mass-interface overlap `RECORDED_NOT_DEFORMATION_GATE`.
 
-This is not a new visual PASS. It is an explicit proof that the **same semantic observation subject** is still being referenced under newer evidence heads. `environment_adoption=false`, Art/QA authority, Runtime/device authority and CANON remain held.
+The retained shoulder observation is source geometry / handoff evidence only: shallow neutral overlap is not automatically a defect, does not prescribe more overlap, and does not predict deformation failure. Geometry and Rigging must decide their own receiving actions against the exact source identity.
 
-## Evidence B — Building Materials proves unchanged surface bytes can still require a fresh render
+That independent product family confirms the reusable rule is not Nature-specific: **descriptive source relations are evidence inputs, not implicit downstream policy.**
 
-Repository: `mike-axiom-mir/axm-building-design`
+## Bounded PF #38 proposal
 
-Materials PR: `#3 — Materials: prove pavilion functional surface hierarchy`
+Profession Fabric remains the supported home only for reusable evidence/provenance vocabulary if issue #38 becomes executable. Nature and Character source semantics remain product-owned.
 
-Current exact Materials head: `eb31efc1639f58f2797bac44ce7f1bad774841ef`.
+Proposed bounded additions beneath the existing typed consumed-edge record:
 
-The Art-selected utility-panel surface bytes and scalars remain unchanged, but Hard Surface changed source-owned panel standoff `0.08 -> 0.10 m`, changing the nearest-body-face gap `0.00 -> 0.02 m`.
-
-That placement change alters the rendered claim subject even though the material payload did not change. Materials therefore correctly reran the real Godot observation instead of transferring old visual evidence by byte equality.
-
-Fresh historical/current placement differences are:
-
-- front: `3,963` pixels >1 LSB;
-- east: `3,243` pixels >1 LSB;
-- three-quarter: `2,996` pixels >1 LSB;
-- aggregate: `10,202` pixels >1 LSB.
-
-The separate current lit-vs-unshaded control remains strongly active (`555,878` pixels >1 LSB aggregate). This is direct evidence that **same material bytes != same rendered observation subject** when placement semantics changed.
-
-## Evidence C — Nature Geometry proves unchanged mesh bytes can still require a semantic-domain re-execution
-
-Repository: `mike-axiom-mir/axm-nature-design`
-
-Geometry PR: `#18 — Geometry: rebind east-mid child topology across trunk hierarchy`
-
-Current exact Geometry head: `200ab4b60b8a54460f1265b0ee52eb111f1b280a`.
-
-The source receiver remains unchanged at `390` vertices / `570` triangles, but the Rigging semantic owner/state domain advanced to hierarchy head `6cf64925f0ea00737e4d3f2d4f15979c773f309d`.
-
-Geometry correctly re-executes the exact current hierarchy rather than inheriting its predecessor PASS from mesh identity. Its current result preserves the `east-mid` child structural/topology isometry across the declared hierarchy domain while explicitly refusing to transfer the historical five-child continuous clearance claim.
-
-This is the independent non-render form of the same rule: **unchanged storage/source representation at one layer does not answer whether a claim-relevant semantic owner or state domain changed.**
-
-## Cross-repo capability map
-
-Reusable evidence shape:
-
-`change_event_identity + claim_property_identity + predecessor_claim_subject_identity + successor_claim_subject_identity + claim_relevant_input_projection_identity -> per_input_relation[] -> semantic_delta_state + observation_subject_relation -> reuse_or_reexecution_state -> continuity_receipt_identity? + historical_observation_identity?`.
-
-Suggested per-input relations:
-
-- `EXACT_IDENTICAL`;
-- `EQUIVALENT_FOR_CLAIM_WITH_PROOF`;
-- `CHANGED`;
-- `NOT_EVALUATED`.
-
-Suggested semantic/subject states:
-
-- `PROVEN_NONE_FOR_CLAIM`;
-- `CLAIM_RELEVANT_CHANGE`;
-- `UNKNOWN`;
-- `SAME_SUBJECT`;
-- `CHANGED_SUBJECT`.
-
-Suggested action states:
-
-- `PROVENANCE_REBIND_REUSE_EXISTING_OBSERVATION`;
-- `TARGETED_REEXECUTION_REQUIRED`;
-- `FULL_REEXECUTION_REQUIRED`;
-- `HOLD_NOT_EVALUATED`.
+- `descriptive_relation_identity` — exact owner repo/head/contract/blob or receipt;
+- `descriptive_relation_scope` — exact entities/domain/space in which the relation was measured;
+- `source_authority_identity` — owner of the fact;
+- `consumer_identity` — exact downstream lane consuming it;
+- `consumer_derivation_identity` — exact selection/gate/transform/receipt using it;
+- `consumer_semantic_role` — descriptive selection, diagnostic gate, candidate policy, production policy, or another explicitly named bounded role;
+- `policy_authority_identity` where the consumer output is prescriptive;
+- `policy_state` — distinguish at least `NO_POLICY`, `DIAGNOSTIC_ONLY`, `CANDIDATE`, `ADOPTED` when meaningful to the owning domain;
+- fail-closed `sibling_transfer_authorized` and `upstream_rewrite_authorized`;
+- explicit non-claims for source mutation, sibling adoption, production policy, Art/QA, CANON and merge authority.
 
 Core non-transfer rules:
 
-1. A head/revision advance alone neither requires rerender/re-execution nor authorizes evidence transfer.
-2. Reuse without rerun requires a claim-specific proof that every observation-relevant input/context is unchanged or property-equivalent and that the retained observation already measured the same semantic subject.
-3. Equality of a convenient subset such as texture bytes, mesh bytes, dimensions or entry-module identity is insufficient when placement, semantic owner, transform, state domain, composition or observer context changed.
-4. A claim-relevant change requires re-executing the affected claim; unrelated domains should not be rerun merely by ancestry.
-5. A provenance-only rebind must preserve the historical observation identity and add a convergence receipt rather than relabelling it as a newly produced measurement.
-6. Any reuse remains bounded to the declared property and does not transfer Art/QA, Runtime/device, adoption, CANON or merge authority.
+1. `DESCRIPTIVE_RELATION_PASS != DOWNSTREAM_POLICY_PASS`.
+2. `PROCEDURAL_SELECTION != RIGGING_WEIGHT_OR_HIERARCHY`.
+3. `DIAGNOSTIC_GATE != PRODUCTION_POLICY`.
+4. A consumer may derive from exact owner truth without acquiring authority to rewrite that truth.
+5. A sibling consumer must bind the owner relation independently; it must not inherit another consumer's policy merely because both start from the same descriptive identity.
 
-## Placement action — Profession Fabric #38
+No PF implementation or profession promotion is authorized by this map.
 
-Refined existing experimental Profession Fabric issue #38 with comment `5727723895`.
+## Universal Creation placement decision
 
-The refinement adds evidence/provenance vocabulary for:
+No UC lane is justified.
 
-- exact predecessor/successor change-event identity;
-- exact claim/property identity;
-- predecessor/successor observation-subject identity;
-- claim-relevant input projection and per-input relation;
-- semantic-delta / observation-subject relation;
-- historical observation identity;
-- bounded reuse-vs-targeted-reexecution state;
-- continuity/convergence receipt identity;
-- independent authority/adoption transfer state.
+Current UC `main` is `57467114a95b7fbee22c9b82b9d64f29ab0a395e`, merged from bounded radial-envelope Physics work. Open UC PR #211 is the unrelated Physics successor; #151 and #153 remain separate asset/unwrap lanes and do not overlap this evidence-policy distinction.
 
-This refines the earlier `measurement_transfer_state` vocabulary rather than replacing it. In particular, `TRANSFER_EXPLICITLY_PROVEN` now has a concrete positive condition: claim-impact continuity itself must be evidenced.
+The repeated capability is not one neutral executable transform. Nature's source classifier, Procedural subset derivation, Rigging diagnostic gate and Character neutral-interface audit are materially different product mechanisms. Centralizing them as a generic UC policy engine would erase domain assumptions and move authority into the wrong layer.
 
-PF remains evidence/provenance procedure vocabulary only. It does not become a renderer, geometry verifier, rerun scheduler, dependency resolver, product owner or acceptance authority.
+`studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` contains no active overlapping shared implementation claim; retained UC #192 and #199 records are already closed/merged.
 
-## Why no new Universal Creation lane was opened
+## Fresh constellation context / non-duplication
 
-Current Universal Creation main is `520584c87071837e8dc1ff9a39da140f5efa229d`.
+Fresh specialist work was also checked before selecting this map:
 
-Current open UC PR #210 is the unrelated Physics successor lane `Physics hourly growth lane XXXV` at head `a833e273b05e3bd3da0e8182e4051695e0398945`, adding deterministic radial-envelope extremum witnesses.
+- Nature Animation repaired exact-key target replay while explicitly refusing automatic rebase to the newest Rigging head;
+- Nature Technical Art repaired current-Animation target-boundary evidence while preserving sparse raster differences and downstream holds;
+- Nature independent QA passed retained proof-normal direction transport on an exact earlier carrier while holding tangents/current-owner/lookdev/device adoption;
+- Object's structurally green successor003 was visually rejected for the intended hinge-highlight repair and handed to the existing Technical Art normal-only experiment rather than another source sweep.
 
-The repeated learning here is not missing neutral product machinery. Map uses a world/provenance convergence gate, Building uses a real renderer A/B, and Nature Geometry uses a hierarchy/topology re-execution. Their executable mechanisms are materially different; the shared thing is the **evidence decision about whether a changed revision changes the claim subject**.
+Those active lanes were not duplicated by Cartography.
 
-A generic UC rerun/equivalence engine would erase domain-specific impact assumptions and would outrun the evidence.
+## Tooling incident / repaired provenance
 
-The shared-capability execution registry was checked before placement. Retained UC #192 and #199 are closed/merged; there is **no active shared implementation claim overlapping this scope**.
+During an attempted PF #38 comment write, an incorrect issue-creation action was invoked repeatedly. Five empty Profession Fabric issues, **#39 through #43**, were created accidentally. Each was immediately retitled `Accidental empty issue — closed` and closed with state reason `not_planned`; no body, implementation, claim, code move or adoption authority was added.
 
-## Product returns
+Because the intended comment action was not safely completed after that incident, **no new PF #38 comment is claimed this pass**. The PF refinement above is recorded only in this coordination status. The accidental issues remain visible closed provenance rather than being hidden.
 
-Evidence-only feedback was returned without changing product code:
+## Decision / state
 
-- Profession Fabric #38 comment `5727723895`;
-- Map Environment PR #51 comment `5727725509`;
-- Building Materials PR #3 comment `5727727398`;
-- Nature Geometry PR #18 comment `5727730503`.
+`PASS_DESCRIPTIVE_RELATION_CONSUMER_POLICY_SEPARATION_MAP`
 
-No product-local implementation, threshold, semantic owner or acceptance result moved.
+Supported placement:
 
-## Placement decision
+- **Product repos:** own descriptive source relations and all domain-specific derivations/policies.
+- **Profession Fabric:** candidate home for neutral evidence vocabulary separating descriptive relations from consumer policies, if #38 later advances.
+- **Universal Creation:** no new capability justified.
+- **axm-create-me:** coordination map only.
 
-| Layer | Correct home | Decision |
-|---|---|---|
-| current-world Building observation reuse/convergence | Map Environment | existing observation preserved; provenance rebound only after exact convergence proof |
-| changed utility-panel placement visual observation | Building Materials | fresh renderer A/B correctly required |
-| changed Nature hierarchy/state-domain structural claim | Nature Geometry | fresh exact-owner re-execution correctly required; old clearance held |
-| claim-impact / reuse-vs-rerun evidence vocabulary | Profession Fabric #38 | refined by comment only |
-| generic product rerun/equivalence engine | Universal Creation | not supported; no lane opened |
-| duplicate-lane prevention | `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` | checked; no active overlap |
-| cross-repo coordination/status | `axm-create-me` | this status only |
+No product algorithm, source authority, Procedural selection ownership, Rigging hierarchy/weight authority, Animation/VFX/Runtime behavior, PF/UC implementation, Art/QA verdict, CANON state, adoption authority or merge authority moved.
 
-## Explicit non-claims
+## Next legitimate trigger
 
-This activation does **not** establish:
+Re-scan before further propagation. Advance this map only if another independent product or consumer demonstrates a materially different descriptive-relation-to-policy edge, or if PF #38 explicitly moves from proposal vocabulary into an implementation experiment. Do not open a generic policy engine by cadence.
 
-- a generic theorem that unchanged heads or files permit observation reuse;
-- automatic transitive evidence transfer across repositories;
-- that payload-byte equality proves semantic equality;
-- that source-mesh equality proves state-domain equality;
-- that provenance convergence transfers Art/QA or Runtime/device verdicts;
-- a generic UC rerun, equivalence or impact-analysis engine;
-- PF implementation or profession promotion;
-- new UC implementation;
-- automatic downstream adoption;
-- CANON;
-- production/game readiness;
-- specialist or merge authority.
-
-## Four-root check
-
-**Truth:** positive no-rerun evidence and negative rerun-required evidence are both retained; head change is not narrated as semantic change, and byte equality is not narrated as semantic continuity.
-
-**Agency / non-domination:** product owners keep semantic and acceptance authority; PF only records evidence vocabulary; UC is not given a new product mandate without a demonstrated neutral mechanism.
-
-**Continuity:** historical observations remain exact historical identities, and provenance-only rebinds add convergence receipts instead of rewriting old evidence into new measurements.
-
-**Wisdom before speed:** expensive observations are not duplicated when claim-impact continuity is proven, while genuine semantic/domain changes still trigger targeted re-execution rather than being waved through by superficial identity checks.
-
-The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the gate.
+The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
