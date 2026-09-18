@@ -2,11 +2,11 @@
 
 Date: 2026-09-18
 
-State: **PASS_ANIMAL_SELECTED003_DENSE_DEFORMATION_READINESS_GUARD / ORGANIC_PR8_04540A7E_EVIDENCE_ONLY / SOURCE_FORM_UNCHANGED_FROM_4DF3024B / RIGGING_D0C27DB3_321_SUBFRAME_OWNER_FRAME_PASS_CONSUMED / MATERIALS_5240E905_40_OF_40_BILATERAL_SEAM_FILTER_PASS_CONSUMED / STATIC_DIRECTION_TRANSPORT_HOLD_PRESERVED / NO_SOURCE_LOCALIZED_FORM_DEFECT_RETURNED / HOLD_CONTINUOUS_TARGET_HOST_SHADED_MOTION + ART_QA + SOURCE_ADOPTION / NATURE_ORIENTATION_GUARD_PRESERVED / CHARACTER_REVIEW006_FROZEN_CONTINUITY / COORDINATION_ONLY**
+State: **HOLD_NATURE_EAST_REAR_BRANCH_ROOT_FLEX_ZONE_COVERAGE / PASS_NEUTRAL_ATTACHMENT_SUPPORT_5_OF_5 / NATURE_ORGANIC_PR8_B681B8BE_EVIDENCE_ONLY / SOURCE_FORM_UNCHANGED_FROM_A4E5EE01 / SOURCE_DIGEST_0ADF2CDE_UNCHANGED / FLEX_ROOT_COVERAGE_4_OF_5 / NORTH_TOP_MISSING_EXPLICIT / MIN_NEUTRAL_SUPPORT_MARGIN_0.001012586854M / WORKFLOW_35290801462_GREEN / ARTIFACT_10526285484_REHASHED / GEOMETRY_PR9_LINEAGE_PRESERVED / ANIMAL_SELECTED003_FROZEN / CHARACTER_REVIEW006_FROZEN / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, the immediately preceding Organic status, all current specialist status files, and the live design constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`, the immediately preceding Organic status, every current specialist status file, and the live design constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before acting.
 
 `mike-axiom-mir/axm-create-me` remains **coordination only**. No product mesh, source JSON, topology, rig, weights, material, Animation, Runtime, target-host or Universal Creation implementation was placed here.
 
@@ -14,169 +14,178 @@ The four AXM roots remain the internal merge gate: **Truth, Agency / non-dominat
 
 Immediate predecessor Organic status blob:
 
-`8f0b229f43d88023149019d9c94bc87b5bc795a1`
+`a473d394ba960bc4b04f106fa1759ae91d533c05`
 
-That predecessor remains rollback-addressable and preserves the Nature source-form-identity versus topology/winding/front-face guard. Nothing in this activation rewrites that Nature result, Animal's earlier render-domain separation, or Character review-006 continuity.
+That predecessor remains rollback-addressable. It preserves the Animal selected-003 dense-deformation source-change guard, Nature form-versus-orientation guard, and Character review-006 frozen continuity. Nothing here rewrites those results.
 
 ## Fresh full-constellation / duplication scan
 
-- **Weapon / Armor / Unit / Misc:** no open implementation-backed Organic lane surfaced. No placeholder organic asset was invented by cadence.
-- **Character:** review-006 remains frozen. Current exact Rigging PR #17 continuous structural evidence closes all three currently defined indexed face-pair predicate classes over its stated `-40°..+36.55°` interval, but returns no source-owned mass, landmark, proportion, silhouette or local-form defect.
-- **Animal:** selected-003 now has materially stronger downstream deformation evidence than at the preceding Organic activation. Rigging PR #25 has advanced to dense 321-sample post-skin owner-frame reconstruction across the exact normalized-u16 positional candidate, while Materials PR #24 has advanced to a bilateral 40-context real-Godot seam/filter localization proof. Neither result returns a defect localized to Organic source form.
-- **Nature:** the east-rear source remains frozen. Geometry PR #9 still owns the exact source-generator winding migration; the preceding Organic form-versus-front-face source-change guard remains valid. No fresh Nature receiver localized a remaining defect to source mass, trunk/branch/leaf placement, proportion or silhouette.
-- **Building:** current work remains the derived boundary-only shell / receiving chain; no organic source owner exists in that lane.
-- **Weather / Map / Object:** current work is procedural field, current-world receiving, VFX, Environment, Hard Surface, Geometry, Technical Art, Runtime, Art and QA. These provide useful ownership counterexamples but no Organic source defect.
+- **Weapon / Armor / Unit / Misc:** no open implementation-backed Organic lane surfaced. No placeholder organic work was invented by cadence.
+- **Character:** review-006 remains frozen. Current downstream work includes Runtime/Technical-Art representation and exact retained render evidence, but no fresh return localizes a defect to Organic-owned mass, landmark placement, proportion, silhouette or source position.
+- **Animal:** selected-003 remains frozen. Animation has now proven real Godot `AnimationPlayer` quaternion interpolation equivalence for the retained 41-key motion, while Runtime PR #30 separately proposes a `41 -> 19` serialized-key representation with a bounded nonzero visual tradeoff. Those are motion/representation questions, not a source-form defect.
+- **Nature:** selected. The east-rear source already declares deformation-readiness intent through explicit flex zones, yet source inspection exposed one concrete Organic-owned omission: there are five primary branch roots but exact root-centered flex metadata covers only four. That is a source-form/deformation-readiness question not owned by Geometry, Rigging, VFX, Runtime or Environment.
+- **Building:** current work remains manufactured shell/clearance/receiving evidence; no organic source owner exists in that lane.
+- **Weather / Map / Object:** active work remains procedural field, Environment, VFX, Hard Surface, Geometry, Technical Art, Runtime, Art and QA. No stronger source-local Organic defect displaced the Nature gap.
 
-No duplicate Organic PR was opened.
+No duplicate Organic PR was opened. The existing Nature Organic PR #8 was advanced in place.
 
-## Selected bounded improvement — Animal selected-003 deformation-readiness source-change guard
+## Selected bounded improvement — Nature east-rear neutral attachment / flex-zone coverage evidence
 
-The highest-leverage Organic improvement is not another elbow reshape. It is to bind the fresh exact dense deformation and bilateral shaded receiving returns to the existing Organic source lineage so source form cannot be used as compensation for transport, frame, seam/filter or Runtime defects.
+Repository:
 
-Reusable guard:
+`mike-axiom-mir/axm-nature-design`
 
-**`DENSE_DEFORMATION_OR_DIRECTION_FRAME_OR_SEAM_FILTER_FAILURE_MUST_NOT_BE_COMPENSATED_BY_SOURCE_FORM_EDIT_UNLESS_AN_EXACT_RETURN_LOCALIZES_THE_DEFECT_TO_ORGANIC_FORM`**
+Existing Organic PR:
 
-### Organic-owned product action
+**#8 — `Organic Form: add east-rear source tree study`**
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Branch:
 
-Existing Organic PR #8: `Organic Form: source-own selected elbow successor with retained review lineage`
+`studio/organic-east-rear-tree-001`
 
-Pre-guard source/evidence head:
+Source/form head before this evidence pass:
 
-`4df3024b4c459675422565501a46f622acf229a9`
+`a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`
 
-Current Organic evidence-only head after this activation:
+Current evidence-only Organic head:
 
-`04540a7e18794a782ae394e736715f30212e9b8a`
+`b681b8beb0f91c6cedb6067aa8a79ae9feea6482`
 
-Added only:
+Exact source identity remains unchanged:
 
-`docs/ORGANIC_SELECTED003_DEFORMATION_READINESS.md`
+- study: `east-rear-tree-neutral-001`;
+- source digest: `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307`;
+- historical baseline mesh digest: `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`;
+- `390` vertices / `570` triangles;
+- five authored primary branch chains;
+- six existing flex zones, all still `DECLARED_NOT_DEFORMATION_TESTED`.
 
-No source geometry or product implementation changed.
+No source point, branch point, radius, leaf blade, flex-zone declaration, source topology, receiving context, Weather field, rig, material, Animation or Runtime representation changed.
 
-The selected-003 bilateral Organic identity remains exact:
+### Added bounded observer
 
-- profile: `quadruped-front-elbow-bilateral-form-successor-003`;
-- profile digest: `565b65aa44e4759c2f08f9e7cf4b0650b646700773735aa0351e803fbd0d30d4`;
-- bend-plane radius remains `0.090 -> 0.0885 m`;
-- outward joint-axis support remains `x1.03`;
-- maximum neutral displacement remains `0.002608891428 m`;
-- source symmetry/mirror evidence remains the existing Organic PR #8 result.
+New contract:
 
-No vertex position, path point, source radius, topology index, rig hierarchy, weight, UV, normal, tangent, material, Animation key or Runtime representation changed.
+`axm.nature-rear-tree-deformation-readiness/v0.1`
 
-## Fresh exact Rigging return consumed
+Files added/extended on the existing Organic branch:
 
-Animal Rigging PR #25 exact head:
+- `src/axm_nature_design/rear_tree_deformation_readiness.py`;
+- `tests/test_rear_tree_deformation_readiness.py`;
+- `docs/ORGANIC_EAST_REAR_DEFORMATION_READINESS_001.md`;
+- existing `tools/build_rear_tree.py` now retains `deformation-readiness.json`;
+- existing `organic-east-rear-tree.yml` fail-closes on the exact current HOLD and retains the new report.
 
-`d0c27db357b015a1ff270de294e39c1a44e3931d`
+For every authored primary branch root, the observer:
 
-Scoped Rigging result:
+1. finds the closest point on each authored trunk centerline segment;
+2. chooses the exact nearest source segment;
+3. linearly interpolates the authored trunk radius at that segment parameter;
+4. computes `local trunk radius - centerline distance - branch root radius`;
+5. separately checks whether an exact root-centered flex zone exists;
+6. preserves every flex zone as explicitly deformation-untested.
 
-**`PASS_DENSE_U16_POST_SKIN_OWNER_FRAME_RECONSTRUCTION_321_SUBFRAMES__STATIC_DIRECTION_TRANSPORT_HOLD_PRESERVED`**
+This is a **neutral source-form attachment check only**. It does not simulate bending, stress, tissue, wind or rigging.
 
-The retained observer evaluates **321 deterministic samples at 320 Hz** across the unchanged `0.0–1.0 s` motion field.
+## Exact neutral attachment observations
 
-Across all samples:
+All five primary branch roots retain positive support margin in the bounded source centerline/radius model:
 
-- normalized-u16 candidate -> source-owner position residual: `1.5796813028884773e-07 m` maximum;
-- candidate -> owner normal residual: `2.0651470426957462e-05°` maximum;
-- candidate -> owner tangent residual: `7.516320424995851e-05°` maximum;
-- candidate reconstructed maximum `|N·T|`: `1.5543122344752192e-15`;
-- candidate -> owner handedness mismatches: `0`;
-- UV-split collapse disagreement: `0.0 m`;
-- dense recomputed position delta versus Animation receipt: `0.0 m`.
+| branch root | nearest trunk segment | centerline distance m | local trunk radius m | branch root radius m | neutral support margin m | exact root flex zone |
+|---|---|---:|---:|---:|---:|---|
+| `south-low` | `mid->upper` | `0.005015058530562258` | `0.10989327146171693` | `0.058` | `0.04687821293115466` | `south-low-branch-flex` |
+| `north-low` | `mid->upper` | `0.006592784731672557` | `0.10236658932714617` | `0.055` | `0.040773804595473605` | `north-low-branch-flex` |
+| `east-mid` | `upper->crown` | `0.027433195133961665` | `0.08616457461645745` | `0.049` | `0.009731379482495778` | `east-mid-branch-flex` |
+| `west-high` | `upper->crown` | `0.010569554445271008` | `0.07460251046025104` | `0.045` | `0.019032956014980035` | `west-high-branch-flex` |
+| `north-top` | `crown->tip` | `0.019635236227957948` | `0.05964782308223911` | `0.039` | `0.0010125868542811625` | **missing** |
 
-Rigging retained artifact:
+Therefore:
 
-- ID `10524005062`;
-- archive SHA-256 `34401136eb020856fa605684b23ef79f8392a248db5893d4bb7c0e8085cf479f`.
+- neutral branch-root support: **`5 / 5`** at this bounded source-form level;
+- exact branch-root flex-zone coverage: **`4 / 5`**;
+- missing root: **`north-top`** at `[0.01, 0.0, 3.16] m`;
+- minimum neutral support margin: **`0.0010125868542811625 m`**, also at `north-top`.
 
-The historical direct static direction-frame transport result remains separately held and is **not** erased by the reconstruction PASS:
+Scoped Organic result:
 
-- normal excess: `7.541933278181338°`;
-- corrected tangent excess: `3.6840862372161047°`.
+**`HOLD_BRANCH_ROOT_FLEX_ZONE_COVERAGE`**
 
-Organic therefore has no evidence basis to move source mass or silhouette to hide that transport-layer distinction.
+This HOLD is intentional. Organic did **not** invent a production north-top flex-zone radius merely to make the gate green. A candidate-only test control demonstrates that an exact root-centered unproven declaration would close only the metadata-coverage HOLD, but that control is not source authorization and establishes no deformation quality.
 
-## Fresh exact Materials return consumed
+## Exact-head verification
 
-Animal Materials PR #24 exact head:
+Dedicated workflow:
 
-`5240e905f949a7557e95b4ec598624c9df2eebd7`
+**`35290801462 — Organic east rear tree evidence` — SUCCESS**
 
-Scoped Materials result:
+Exact workflow head:
 
-**`PASS_ANIMAL_BILATERAL_PERIODIC_NORMAL_TEXTURE_SEAM_FILTER_LOCALIZATION`**
+`b681b8beb0f91c6cedb6067aa8a79ae9feea6482`
 
-The real Godot 4.7.2 packet retains **40/40 bilateral pose/view contexts** across:
+The workflow compiles and runs the full Nature receiving repository test suite on Python 3.11 / 3.13, rebuilds the exact rear-tree evidence, validates the current source envelope and exact deformation-readiness HOLD, and retains the evidence packet.
 
-- left + right sides;
-- two weighting identities;
-- `-60/-30/0/+30/+60°` representative angles;
-- two cameras.
+Retained artifact:
 
-Every retained context shows renderer-visible periodic tangent-space response, mip/no-mip response, deliberate U-edge mutation, and localization of that mutation to the projected seam region. This remains Materials-owned evidence about tangent-space receiving and filtering. It does not return a source mass/proportion/silhouette defect.
+- ID `10526285484`;
+- name `east-rear-tree-neutral-001-evidence`;
+- uploaded size `47,102 B`;
+- GitHub SHA-256 `7c10dcf4cd7dc8bc8533911b2c2db29f6b89d0753e8897863f0e147d93ddd353`;
+- independently downloaded archive rehashed to the exact same SHA-256;
+- retained packet contains `deformation-readiness.json`, existing source/mesh/evidence JSON, OBJ and front/side/top wire evidence.
 
-## Organic source-change decision
+Fail-closed controls include a detached branch root, an illicit promoted flex status, deterministic replay, and a candidate-only exact-root coverage closure. Acceptance bounds were not weakened to obtain the green run.
 
-Selected-003 remains **frozen**.
+## Geometry / topology lineage boundary
 
-Organic reopens this Animal source only when an exact downstream witness survives the separate topology, Rigging/weight, direction-frame transport/reconstruction, UV/tangent, material/filter and Runtime/receiver explanations and then localizes the remaining defect to one or more Organic-owned properties:
+Nature Geometry PR #9 remains a separate owner lane. Its migrated east-rear mesh digest remains:
 
-- mass distribution;
-- landmark placement;
-- proportion;
-- neutral or posed silhouette;
-- bend-plane radius/support intent;
-- exact source positions or source-authored form parameters.
+`aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`
 
-Until such evidence exists, source reshaping is a fail-closed ownership violation rather than a repair.
+The current Organic evidence pass does not alter source JSON, source digest or triangle winding, so no Geometry rebind is required now.
+
+Future continuity rule: if Organic later adds a north-top flex-zone declaration, the source JSON digest changes even if generated vertex positions and triangles remain byte-identical. Any downstream evidence pinning the exact source digest must explicitly rebind rather than silently inheriting the old source identity.
 
 ## Handoffs recorded
 
-- Animal Organic PR #8 comment **`5722477552`** records the evidence-only head, exact dense Rigging return, exact bilateral Materials return and frozen-source decision.
-- Animal Rigging PR #25 comment **`5722478341`** records that Organic consumed the 321-sample result without taking deformation authority or converting it into a source-form change.
-- Animal Materials PR #24 comment **`5722479223`** records that Organic consumed the 40/40 bilateral seam/filter result without taking Materials authority or reshaping source form to hide receiving behavior.
+- Nature Organic PR #8 comment **`5723089601`** records the exact evidence-only head, `5/5` neutral support, `4/5` flex-root coverage, exact missing `north-top` witness, successful workflow/artifact and ownership boundaries.
+- Nature Geometry PR #9 comment **`5723090806`** records that no topology rebind is required in this pass and establishes the future source-digest rebind rule if Organic flex metadata changes.
+
+Rigging / VFX may consume the neutral source attachment measurements only. They receive **no** bend-range, wind-response, skinning, deformation-quality or acceptance authority from this result. Environment / Art / QA / Runtime receive no automatic acceptance.
 
 ## Preserved Organic continuity
 
-### Nature east-rear
+### Animal selected-003
 
-Nature Organic PR #8 source head `a4e5ee011e1d87f47866a7e6c6f4e66f57b6af12`, source digest `0adf2cde8cfc355ec21b6fb06c6759b753300164b5f72ba029dc1b8c6d2ef307` and historical mesh digest `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48` remain frozen. Geometry's migrated mesh `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31` remains a distinct topology lineage, not a rewrite of Organic source identity.
+Animal selected-003 remains frozen. Its Organic evidence-only head remains `04540a7e18794a782ae394e736715f30212e9b8a`, source/form predecessor `4df3024b4c459675422565501a46f622acf229a9`, and profile digest `565b65aa44e4759c2f08f9e7cf4b0650b646700773735aa0351e803fbd0d30d4`. The dense Rigging owner-frame reconstruction and bilateral Materials seam/filter PASS remain owned downstream; the historical static direction-frame transport HOLD remains preserved.
 
 ### Character review-006
 
-Character review-006 remains frozen at Organic PR #2 head `e27067477922b13b14a2cfcc7f3659b97a10b8a7`, source SHA-256 `8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`, proof-mesh SHA-256 `f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`. No fresh downstream owner returns a source-form defect.
+Character review-006 remains frozen at Organic PR #2 head `e27067477922b13b14a2cfcc7f3659b97a10b8a7`, source SHA-256 `8e9252ede4d257509e4eacb595f1c234aa100a42dc46a54b7b45550f2619c5e1`, proof-mesh SHA-256 `f173b2af9b7bf69ca78bce2ec2daa07a083748590d9ae9e99443962a6d1aa8e7`. Current Character representation work returns no Organic source-form defect.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- biological or anatomical correctness;
-- real-animal range of motion;
-- tissue-like deformation;
-- final skinning quality;
-- continuous target-host shaded-motion acceptance;
-- production UV/tangent/normal-map quality;
-- target-engine interpolation equivalence;
-- target-device Runtime readiness or performance;
-- gameplay/collision suitability;
-- Art Direction or independent Visual-QA final acceptance;
+- botanical or biological correctness;
+- real branch strength, tissue mechanics, stress or failure behavior;
+- valid plant range of motion;
+- deformation or wind quality;
+- Rigging or Animation acceptance;
+- self-intersection freedom under motion;
+- production topology, normals, tangents, UVs or materials;
+- target-host or target-device Runtime readiness;
+- Map composition or final visual acceptance;
 - source adoption / CANON;
 - production/game readiness;
-- Organic Form mastery.
+- Organic Form or Nature mastery.
 
 ## Four-root gate
 
-- **Truth:** exact Organic, Rigging and Materials heads and measured residuals remain distinct; the static direction-transport HOLD is preserved rather than hidden by the dense reconstruction PASS.
-- **Agency / non-domination:** Organic keeps source-form authority only. Rigging, Materials, Technical Art, Animation, Runtime, Art and QA retain their own acceptance decisions.
-- **Continuity:** predecessor Organic blob `8f0b229f...`, Animal pre-guard head `4df3024b...`, current evidence-only head `04540a7e...`, Nature lineage and Character review-006 remain separately addressable.
-- **Wisdom before speed:** no new elbow variant was invented because the automation ran. The smallest useful improvement is a precise deformation-readiness source-change guard grounded in fresh dense and bilateral evidence.
+- **Truth:** the measured neutral attachment support, missing metadata coverage and green exact-head CI are reported separately. A source-form HOLD is not relabeled as deformation success.
+- **Agency / non-domination:** Organic owns only source-form and source metadata decisions. Geometry, Rigging, VFX, Animation, Technical Art, Runtime, Environment, Art and QA keep their own acceptance authority.
+- **Continuity:** predecessor Organic blob `a473d394...`, Nature source/form head `a4e5ee01...`, evidence-only head `b681b8be...`, Geometry's distinct migrated mesh, Animal selected-003 and Character review-006 remain separately addressable.
+- **Wisdom before speed:** the missing north-top declaration was exposed and bounded instead of inventing a radius or claiming deformation readiness merely to close a gate.
 
 ## Next trigger
 
-Re-scan the constellation first. Prefer a real returned source-local Organic defect in Character, Animal, Nature or a mixed organic asset. Do not mutate source form for topology, winding, rig/weight, direction-frame, UV/tangent, material/filter, storage, Runtime or renderer-policy failures. If an exact downstream owner returns a defect in mass, proportion, silhouette, landmark/branch placement, support intent or another Organic-owned form property after those layers are separated, make the smallest source-form repair and preserve exact before/after structural and visual evidence.
+Re-scan the constellation first. If exact Organic evidence can justify a minimal north-top source-metadata declaration without inventing deformation semantics, make that change explicitly and force all source-digest-dependent receivers to rebind. Otherwise leave the source frozen until Rigging/VFX or another exact downstream owner returns a defect specifically localized to Organic-owned form or source metadata. Do not reshape or retag source form to compensate for topology, winding, transport, shading, Runtime or presentation failures.
