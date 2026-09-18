@@ -2,247 +2,190 @@
 
 Date: 2026-09-18
 
-State: **PASS_CURRENT_WORLD_NATURE_SHARED_DRIVER_SIMULTANEOUS_SAMPLED_SWEEP_FITS_EXISTING_EAST_REAR_RESERVATION / MAP_PR53_HEAD_3D891D8B / 41_OF_41_EXACT_SOURCE_MOTION_SAMPLES_FIT / MIN_NON_GROUND_MARGIN_0P055587337M / WORLD_UNCHANGED / TARGET_HOST_VISUAL_WIND_RUNTIME_ENV_ADOPTION_HELD / COORDINATION_ONLY**
+State: **PASS_CURRENT_WORLD_BUILDING_UTILITY_PANEL_PRODUCTION_CLEARANCE_PROVENANCE_CONVERGENCE / MAP_PR51_HEAD_73A15A5E / SEMANTIC_WORLD_CONTENT_UNCHANGED / LATEST_BUILDING_OWNER_PROVENANCE_REBOUND / NO_DUPLICATE_RERENDER / REVIEW_AUTHORITY_HELD / ENVIRONMENT_ADOPTION_FALSE / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the preceding Environment status, current Map PRs, and fresh Building / Nature / Object / Weather plus Art Direction / Rigging / Animation / VFX / Technical Art / Runtime / Visual Observer-QA coordination state.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the preceding Environment status, current Map PRs, and fresh Building / Nature / Object / Weather plus Art Direction / Animation / Rigging / Technical Art / Runtime / Visual-QA coordination state.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` mutation in this activation. Product/evidence code remains in its owning Map repository lane.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` mutation in this activation. Product/evidence code remains in the owning Map repository lane.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Environment result remains preserved exactly at Map PR #53 head `23decca57561ed8b77b3fa2e4d32faf854876d06`: it proved the older Technical-Art / Animation one-branch-at-a-time Nature receiver fit the existing east-rear reservation across `205` exact samples. That proof is not rewritten or silently transferred to the newer owner chain.
+The immediately preceding Nature result remains preserved on Map PR #53 at exact head `3d891d8b5a6eb3d1abbfc2a339dca757a3226698`: all 41 exact simultaneous shared-driver source-motion samples fit the existing east-rear reservation. That PASS is not rewritten and its target-host / wind / Art-QA / Runtime holds remain intact.
 
 ## Fresh constellation / duplicate-lane scan
 
 ### Map / current world
 
-Environment PR #51 remains the unchanged parent at exact head `4826db5d3a595bbeefdfd58d5541b2d78247e290`. It retains the reviewed Building production utility-panel receive while keeping final Environment adoption held. PR #49 remains earlier Environment lineage and PR #24 remains historical rollback lineage.
+Map PR #51 remains the active Building Environment lane and was reused rather than opening a duplicate PR. Its prior exact head was `4826db5d3a595bbeefdfd58d5541b2d78247e290`; PR #49 and historical PR #24 remain rollback lineage.
 
-Existing Map PR #53 was reused. No duplicate Environment PR was opened.
+Retained real current-world evidence already contains the corrected utility-panel placement inside the active `header-segmented-23` Building receiver and keeps the multi-asset world intact across Building, two Nature receivers, articulated Object, Environment service dressing and the 17-state Weather presentation.
 
-### Building
+### Building — fresh seam selected
 
-Fresh Building owner work remains separate from this pass. Hard Surface PR #17 corrects the utility-panel nearest-body-face clearance source semantics (`0.08 -> 0.10 m` standoff) and explicitly requires downstream rebind rather than automatic migration. Geometry PR #18 provides the corresponding current-source service-surface chart rebind without granting Map/Materials/receiver adoption.
+Building Materials PR #3 advanced to exact head:
 
-Environment does not silently pull that source successor into the current world. The existing Building receive remains held exactly for this Nature composition proof.
+`eb31efc1639f58f2797bac44ce7f1bad774841ef`
+
+with dedicated workflow:
+
+`35324926942 — Building material production-surface clearance-successor review` — **SUCCESS**.
+
+Fresh retained artifact:
+
+- ID `10538777520`;
+- size `355,524 B`;
+- SHA-256 `2ea191b56c46007122bc46b3a6e9ddc661318d41999e5b9f970445408fb84bb0`.
+
+That exact owner packet binds the already-selected production surface to the current source-owned utility-panel clearance successor without changing the production bytes:
+
+- PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
+- RGBA8 SHA-256 `408a6eaecf99fa328487785f85d089c93da2b84c3ae9ead0bf6e1f8d2a0bdcad`;
+- metallic `0.18`;
+- roughness `0.62`;
+- front successor center `[-2.45,-1.10,1.65] m`;
+- east successor center `[3.90,0.10,1.65] m`;
+- exact physical body gap `0.02 m` for both receivers;
+- fresh Building-local placement shift remains observable with `10,202` pixels above 1 LSB.
+
+Hard Surface PR #17 remains source authority at exact evidence head `fbfa3b47048755b45dac91451171d5511c8d4f47`; the semantic source head remains `32bbdd54f00aaac87ba8139bf932d8aff6109a66`.
+
+Geometry PR #18 remains current at `02944a9f10528a051603df3a6fd7b3183730773f`.
+
+Procedural PR #4 is current-green at exact evidence head `588350afba56dd1aa0417148f03e12c6cfc81610`, re-executing the same two exact receiver outputs and canonical family digest `2166e89adeeff0b4a0482f049b6c8d2ed42eedb8f927e454a0740453bad0e814`.
+
+The Map current-world runtime still recorded older Procedural evidence head `0c458e19cda73e26e90531d24fe7697b5a8d14fc`. Because exact placement semantics and material bytes were unchanged, the highest-leverage Environment problem was stale provenance, not a new visual candidate.
+
+### Nature
+
+Nature's newer simultaneous shared-driver source-motion successor still fits spatially, but Technical Art's exact target-host chain has not yet become a green current-owner transfer. Environment therefore did not duplicate the Nature target-host lane or alter its reservation.
 
 ### Object
 
-Object has fresh source/Geometry/Technical-Art work around successor002 hinge bores, receiver winding/topology and material hierarchy. Art Direction and independent Visual QA currently keep the hinge material successor visually blocked after the roughness-only repair worsened hierarchy. Environment therefore does not substitute the newer Object successor into the world or duplicate its specialist lanes.
-
-The current articulated Object identity remains only a held separation guard in this pass.
+Object successor002 hinge/material hierarchy remains inside its existing owner / Art-QA lane. Environment did not substitute that successor into the world.
 
 ### Weather
 
-Weather PR #2 remains the visual-direction-only source baseline and PR #3 remains the bounded seeded-field family. No fresh Weather source change requires an Environment composition mutation here. Existing current-world Weather identity remains held across all 17 retained states, and visual direction is not promoted to physical wind.
-
-### Nature — fresh owner seam selected
-
-The materially new Environment-relevant handoff is Nature's exact simultaneous shared-driver successor.
-
-Rigging PR #14 is current-green at exact head:
-
-`b4b480b415047fea90b4740f7702ced0dba9142d`
-
-with result:
-
-`PASS_FIVE_SOCKET_SHARED_DRIVER_RIG_COMPOSITION_CONTINUOUS_PARAMETER_MINUS5_TO_PLUS5`.
-
-It owns five pairwise-disjoint branch children, `260` moving vertices / `130` fixed vertices, exact command signs `+ / - / + / - / +`, and one continuous diagnostic parameter over `[-5,+5]°`. It does not own timing, wind, target-host, Runtime or Art/QA acceptance.
-
-Animation PR #22 is current-green at exact head:
-
-`bfb66da82bc358b14e52711bbdef7b58e4c943af`
-
-with result:
-
-`PASS_FIVE_SOCKET_SHARED_DRIVER_SIMULTANEOUS_DIAGNOSTIC_LOOP_SAMPLED_MOTION`.
-
-It preserves the prior Nature timing identity as a `1.0 s`, `40 Hz`, `41` endpoint-inclusive sampled diagnostic loop with all five Rigging children moving simultaneously through the same shared parameter. This is source-mesh motion evidence, not natural/physical wind or target-engine playback.
-
-Technical Art PR #3 and Runtime PR #20 both explicitly state that their current target-host passes remain bound to older Nature owner chains and do **not** auto-transfer to this newer simultaneous Animation/Rigging pair. VFX PR #19 likewise remains a static signed visual-response envelope, not timed motion.
-
-That creates one clean Environment-owned question that did not exist during the previous pass:
-
-**Does the exact new simultaneous owner motion still fit the existing east-rear Environment reservation at the unchanged current-world placement?**
+Weather PR #2 remains the visual-direction-only atmospheric baseline and PR #3 the bounded seeded-field family. No fresh Weather source semantic change required a new Environment composition mutation. Weather remains visual context rather than physical wind authority.
 
 ## Highest-leverage bounded improvement
 
-Environment extended existing Map PR #53 rather than opening another lane.
+Environment extended existing Map PR #51 with a reusable **owner-evidence-head provenance convergence gate**.
 
-PR:
+Current exact Map PR #51 head:
 
-`mike-axiom-mir/axm-map-design#53 — Environment: prove Nature branch motion fits east-rear reservation`
+`73a15a5edff3e56c776fe0eb8559d925dc3c89b1`
 
-Current exact head:
+Observed PR state after the change:
 
-`3d891d8b5a6eb3d1abbfc2a339dca757a3226698`
+**OPEN / DRAFT / UNMERGED**.
 
-Observed state after verification:
+New bounded files:
 
-**OPEN / DRAFT / UNMERGED / MERGEABLE**.
+- `contracts/environment_building_utility_panel_production_clearance_provenance_convergence.json`;
+- `tools/environment_building_utility_panel_production_clearance_provenance_convergence.py`;
+- `docs/ENVIRONMENT_BUILDING_UTILITY_PANEL_PRODUCTION_CLEARANCE_PROVENANCE_CONVERGENCE_001.md`;
+- `.github/workflows/environment-building-utility-panel-production-clearance-provenance-convergence.yml`.
 
-Base remains unchanged Environment PR #51 head:
-
-`4826db5d3a595bbeefdfd58d5541b2d78247e290`.
-
-New bounded files on PR #53:
-
-- `tools/environment_nature_shared_driver_reservation_fit.py`;
-- `contracts/environment_nature_shared_driver_reservation_fit.json`;
-- `docs/ENVIRONMENT_NATURE_SHARED_DRIVER_RESERVATION_FIT_002.md`;
-- `.github/workflows/environment-nature-shared-driver-reservation-fit.yml`.
-
-The prior v0.1 one-branch-at-a-time proof remains present on the same PR as historical evidence.
-
-No world scene, tree placement, Environment reservation, Building, Object, compact-east Nature, Weather, camera or light was changed.
+No Building geometry, panel placement, material bytes, Object, Nature, Weather, service dressing, path, camera or light changed.
 
 Reusable rule:
 
-**`SOURCE_MOTION_SUCCESSORS_MAY_REUSE_AN_EXISTING_WORLD_RESERVATION_ONLY_AFTER_THE_EXACT_NEW_SIMULTANEOUS_OWNER_SWEEP_IS_RETESTED__SPATIAL_FIT_DOES_NOT_TRANSFER_TARGET_HOST_WIND_VISUAL_OR_RUNTIME_ACCEPTANCE`**
+**`EVIDENCE_HEAD_ADVANCE_MAY_REBIND_ENVIRONMENT_PROVENANCE_WITHOUT_RERENDER_ONLY_WHEN_EXACT_WORLD_PLACEMENT_MATERIAL_BYTES_AND_UNRELATED_SCENE_IDENTITIES_ARE_ALREADY_PROVEN_EQUAL__REVIEW_AUTHORITY_DOES_NOT_TRANSFER_BY_HEAD`**
 
-## Exact proof method
+## Exact proof
 
-The new gate pins:
+The gate joins three independently retained evidence packets:
 
-- Environment parent head `4826db5d3a595bbeefdfd58d5541b2d78247e290`;
-- predecessor Environment proof head `23decca57561ed8b77b3fa2e4d32faf854876d06`;
-- Animation owner `bfb66da82bc358b14e52711bbdef7b58e4c943af`;
-- Rigging owner `b4b480b415047fea90b4740f7702ced0dba9142d`;
-- Nature source digest `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`;
-- neutral mesh digest `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
-- current Map Building/Object/Nature/Weather/Environment-dressing identity through the retained parent evidence.
+1. current Map PR #51 real-world A/B artifact `10533098763` / SHA-256 `3ddb618651555b541925a4f3f153395243644d8e36979a322b0cdb8a8f7d495d`;
+2. prior production-surface real current-world three-way artifact `10531260523` / SHA-256 `75369c8d71ce5491eec2e058ecacc56948ca94662cc0b34d123b82273f2b4b8b`;
+3. fresh Building Materials clearance-successor artifact `10538777520` / SHA-256 `2ea191b56c46007122bc46b3a6e9ddc661318d41999e5b9f970445408fb84bb0`.
 
-It rebuilds the exact `390v / 570t` Nature mesh from the current Animation owner, executes all `41` exact simultaneous Animation samples through Rigging's own five-child composition, derives the existing Map placement only as the already-proven pure translation from the neutral receiver, and evaluates every resulting world-space bound against the unchanged east-rear reservation.
+It verifies:
 
-It also retains coarse Environment-only separation guards against the readable path, Building, compact-east Nature and the articulated Object. These are composition guards, not collision/navigation/gameplay claims.
+- exact current receiver remains `184 vertices / 276 triangles / 5 surfaces`;
+- exact corrected front/east panel centers match fresh owner outputs;
+- exact production PNG/RGBA8 bytes match the previously reviewed current-world successor;
+- retained real-world production successor remains visible in `68/68` frames;
+- prior scalar→production world delta remains `182,257` pixels above 1 LSB;
+- 34 current Environment runtime states were rechecked across control/candidate packets;
+- unrelated current-world Weather / Object / compact-east Nature identities match between retained real-world packets;
+- fresh Procedural output digests match the same semantic placements already embodied in the world;
+- no authority flag is promoted.
 
 ## Exact result
 
 Scoped result:
 
-`PASS_CURRENT_WORLD_NATURE_SHARED_DRIVER_SIMULTANEOUS_SAMPLED_SWEEP_FITS_EXISTING_EAST_REAR_RESERVATION__TARGET_HOST_VISUAL_WIND_RUNTIME_ADOPTION_HELD`
+`PASS_CURRENT_WORLD_BUILDING_UTILITY_PANEL_PRODUCTION_CLEARANCE_PROVENANCE_CONVERGENCE__NO_WORLD_RERENDER_REQUIRED__REVIEW_AUTHORITY_HELD`
 
 Dedicated workflow:
 
-`35320276780 — Environment Nature shared-driver reservation fit`
+`35326110905 — Environment Building production-clearance provenance convergence`
 
-Conclusion: **SUCCESS** on exact PR head `3d891d8b5a6eb3d1abbfc2a339dca757a3226698`.
-
-All workflow steps completed green, including both fail-closed negatives.
+Conclusion: **SUCCESS**.
 
 Retained artifact:
 
-- ID `10536274221`;
-- size `10,256 B`;
-- GitHub SHA-256 `7260c5c1b14442112df02e3584ea51dd6c06b0a1f76dc96be7c0ba4113dbbea0`;
-- downloaded archive independently rehashed to the exact same SHA-256;
-- eight retained files / `46,301 B` uncompressed.
+- ID `10539004116`;
+- size `7,868 B`;
+- GitHub SHA-256 `3600436f017e2fc4572c96f8bf9108cd3aaa6ce16200be214b82bc23f093e741`;
+- archive independently downloaded and rehashed to the exact same digest.
 
-All **41 / 41** exact simultaneous source-motion samples fit the unchanged current Environment reservation.
+The fail-closed negative deliberately replaces the expected production PNG identity with all zeros and is rejected with `AssertionError: fresh owner production PNG identity drift`.
 
-Measured simultaneous-sweep facts:
+This establishes a narrow but reusable distinction:
 
-- duration: `1.0 s`;
-- sampled review cadence: `40 Hz`;
-- shared diagnostic interval: `[-5,+5]°`;
-- minimum non-ground reserved-envelope margin: **`0.05558733745325384 m`**;
-- limiting witness: sample `10`, `0.25 s`, shared driver `+5°`;
-- limiting local branch angles: `south +5 / north-low -5 / east +5 / west-high -5 / north-top +5°`;
-- ground residual: **`-1.0234868508263162e-16 m`**, treated only as floating-point zero under the existing `1e-6 m` Environment tolerance;
-- union world min: `[5.306589905542162, 1.3421088762192808, -1.0234868508263162e-16] m`;
-- union world max: `[6.873238162546746, 2.6748251422364095, 4.090100386015876] m`.
+- **semantic world content did not change**;
+- **latest owner provenance did advance**;
+- therefore a duplicate world rerender is not evidence of extra truth;
+- provenance may be rebound only because exact material bytes, exact placement and unrelated scene identities converge;
+- Art Direction, independent Visual QA and Runtime/device authority do not silently move to the new evidence head.
 
-Full-successor coarse separation guards remain positive:
+## Scope / handoffs
 
-- readable-path X separation: **`3.806589905542162 m`**;
-- Building Y separation: **`3.4051748577635905 m`**;
-- compact-east Nature Y separation: **`4.087151006140754 m`**;
-- articulated Object X separation: **`8.308092878959776 m`**.
+Map PR #51 comment `5727571165` records the exact Environment result, workflow, artifact, semantic equality and held authorities.
 
-The retained world still spans multiple asset types through the parent evidence:
+Building Materials PR #3 comment `5727573575` records that no material retune is requested and that Environment consumed the fresh owner packet only as provenance continuity.
 
-- current Building production receive;
-- articulated Object;
-- compact-east Nature;
-- east-rear Nature;
-- 17 Weather states;
-- Environment dressing;
-- existing composition/camera/light identity.
+Building Procedural PR #4 comment `5727575790` records the stale→fresh evidence-head reconciliation while preserving generator/source authority.
 
-## Fail-closed evidence
-
-Two negatives remain explicit:
-
-1. Contracting only the rear reservation edge by `0.20 m` is rejected with an exact **`-0.030752642 m`** escape. The successful fit therefore depends on the real current reservation rather than a verifier that always passes.
-2. Attempting to promote this source-mesh spatial proof to target-host acceptance is rejected with `source-mesh Environment spatial fit cannot claim target-host acceptance`.
-
-No threshold, owner identity, reservation, animation range or scene placement was weakened to obtain PASS.
-
-## Scope / handoffs recorded
-
-Map PR #53:
-
-- comment **`5726842504`**;
-- records exact new head, workflow/artifact, margins, world guards, no scene mutation and held authorities.
-
-Nature Animation PR #22:
-
-- comment **`5726843796`**;
-- records the exact source-motion consumer result without converting the diagnostic loop into wind/natural motion or changing timing/amplitude/polarity.
-
-Nature Rigging PR #14:
-
-- comment **`5726845192`**;
-- records downstream spatial fit without changing pivots/axes/partitions/range or promoting biological ROM / collision / target-host authority.
-
-Nature Technical Art PR #3:
-
-- comment **`5726846849`**;
-- records that the new simultaneous owner pair spatially fits, while current TA target-host evidence remains bound to older owner identities and must be explicitly rebound/retested.
-
-Map parent PR #51:
-
-- comment **`5726854103`**;
-- preserves parent/rollback continuity and confirms no Building/current-world adoption change.
-
-PR #53 body now carries both the retained pass-1 one-branch-at-a-time proof and this pass-2 simultaneous successor rather than overwriting history.
+Building Hard Surface PR #17 comment `5727578246` records that exact source placement semantics remain unchanged and no Hard-Surface mutation is requested.
 
 ## Decision / remaining holds
 
-`spatial_receive_ready_for_exact_source_motion_successor=true`.
+`latest_owner_provenance_rebound=true`.
 
-`environment_adoption=false` remains explicit.
+`current_world_semantic_content_changed=false`.
+
+`environment_adoption=false`.
 
 This PASS does **not** establish:
 
-- Technical Art target-host transport/playback for the newer `bfb66da8... / b4b480b4...` pair;
-- continuous target-engine playback or wall-clock delivery;
-- natural vegetation motion or physical wind;
-- VFX adoption of the timed loop;
-- Art Direction acceptance of the moving tree in the current world;
-- independent Visual QA acceptance;
-- Runtime/controller/device/performance acceptance for the new owner pair;
-- continuous branch collision/self-intersection clearance;
-- collision, navigation, gameplay or physics readiness;
-- automatic receipt of the fresh Building utility-panel clearance successor;
-- automatic receipt of newer Object successor002 source/material/receiver work;
+- Art Direction acceptance transfer to the new Materials evidence head;
+- independent Visual QA transfer to the new Materials evidence head;
+- Runtime target-device acceptance;
+- arbitrary close-range / anti-banding acceptance;
+- new UV, normal, wear, decal or atlas authority;
+- automatic receipt of Object successor002;
+- Nature target-host / natural-wind acceptance;
+- physical Weather;
+- collision, navigation or gameplay readiness;
 - CANON;
 - production/game readiness;
 - Environment mastery.
 
-The next legitimate Environment receive is **not** to move the tree or enlarge the reservation: the exact simultaneous source-motion successor already fits. The next needed owner boundary is an explicit Technical-Art target-host rebind to the exact current Animation/Rigging pair. After that, Environment can receive the exact target-host motion into the real multi-asset world and create a visual review surface while Art/QA and Runtime retain their independent gates.
+The next Environment action should be triggered by a **real semantic owner change** or a newly green target-host handoff. Evidence-only owner-head movement that preserves exact world content should use this convergence rule rather than creating duplicate renders.
 
 ## Four-root check
 
-**Truth:** the previous 205-sample one-branch-at-a-time PASS remains preserved and is not transferred by similarity. The new 41-sample simultaneous owner is independently replayed. Exact margins, a floating-point ground residual, artifact identity and two real fail-closed negatives are retained.
+**Truth:** exact byte identity, exact source-owned placement, exact retained real-world packets, exact owner heads and a real negative control are checked. No rerender is presented as new evidence when the semantic world is unchanged.
 
-**Agency / non-domination:** Environment owns only spatial composition/reservation receiving. Rigging owns kinematics; Animation owns timing; Technical Art owns target-host transport; VFX/Weather own visual-response semantics; Runtime owns controller/device/performance; Building/Object/Nature source owners retain source identity; Art Direction and Visual QA retain appearance judgment.
+**Agency / non-domination:** Hard Surface, Geometry, Procedural, Materials, Art Direction, Visual QA and Runtime retain their own authority. Environment updates only world provenance and composition continuity.
 
-**Continuity:** PR #53 is extended rather than replaced, remains stacked exactly on PR #51, and keeps pass-1 evidence alongside pass-2. Building, Object, Weather, compact-east Nature, dressing, cameras and lights remain held. PR #49 / #24 remain rollback lineage.
+**Continuity:** existing Map PR #51 is extended rather than replaced; PR #53 Nature evidence, PR #49 Environment parent and PR #24 rollback lineage remain preserved.
 
-**Wisdom before speed:** the new source-motion owner was not treated as automatically equivalent to the old Technical-Art receiver. Environment answered only the newly missing spatial question and stopped before target-host, wind, visual-quality, Runtime/device or gameplay claims.
+**Wisdom before speed:** the fresh Materials head was not auto-adopted by ancestry, and the same semantic world was not expensively rerendered merely to create motion in the logs. Exact convergence was proven first and all review/adoption boundaries remain held.
 
 The four AXM roots remain the merge gate.
