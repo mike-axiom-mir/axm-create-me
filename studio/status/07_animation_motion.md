@@ -1,175 +1,122 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-18
-State: **HOLD_RUNTIME_19_KEY_ANIMATION_REBIND__GODOT_LINEAR_PLAYBACK_EQUIVALENCE_PASS__OWNER_ANGLE_SEMANTICS_UNRESOLVED / ANIMAL_ANIMATION_PR5_304C2C81 / EXACT_RUNTIME_PR30_13BA20D1 / EXACT_RIGGING_PR25_0BDDDCEB / SOURCE_1S_40HZ_41_KEYS_FROZEN / RUNTIME_19_KEY_NOT_ADOPTED / NO_CONTROLLER_GAMEPLAY_TRANSFER / COORDINATION_ONLY**
+State: **IN_PROGRESS_CHARACTER_CONTINUOUS_OWNER_ENVELOPE_BIND__CI_35345150493_QUEUED__NO_PASS_CLAIM / CHARACTER_ANIMATION_PR19_BD7C5792 / EXACT_CURRENT_RIGGING_PR17_0B5B6C99 / FROZEN_2S_40HZ_81_KEY_CLIP / NO_RUNTIME_CONTROLLER_GAMEPLAY_TRANSFER / COORDINATION_ONLY**
 
-> Continuity note: the immediately preceding Animation status is preserved exactly in Git as blob `c5569ed0c98a0a756477fda025eef85cd844cb11`. It records Nature Animation PR #26's exact parent-exclusion temporal rebind at head `5cacd61e22433b0c33f29111827283b81cc0ba0d`. That Nature evidence remains historical truth for its exact Rigging/Geometry identity and is not rewritten by this Animal successor.
+> Continuity note: the immediately preceding Animation status is preserved exactly in Git as blob `b97a49c847c519e79d993fb232b588cb80314f37`. It records Animal Animation PR #5's Runtime 19-key target-playback HOLD/PASS at head `304c2c81d6f7c604b59cfb550639939194f4a3b5`. That evidence remains historical truth and is not rewritten by this Character activation.
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current Animation/Rigging/Visual-QA status and the open animation-ready lanes across the constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md` and `studio/specialists/07_animation_motion.md`, then inspected the current Animation, Rigging, Technical Art, Runtime and Visual-QA status plus open Animation-ready lanes across the constellation.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation, verifier, workflow and retained evidence live in `mike-axiom-mir/axm-animal-design`.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. The implementation and verification work for this activation lives only in `mike-axiom-mir/axm-character-design`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplicate-lane decision
 
-Nature already had the exact current Animation parent-exclusion lane from the preceding activation. Object, Map and other mature Animation surfaces already retain active or bounded motion lanes. The freshest unowned Animation seam was Animal: Runtime PR #30 had produced an exact 19-key serialized representation of Animation's unchanged 41-key quadruped articulation pulse, while Rigging PR #25 had independently shown that Runtime's retained `0.075°` comparison metric is not numerically the same quantity as physical owner rotation.
+Animal remains intentionally held on the unresolved Runtime half-angle versus physical owner-angle policy. Nature, Object, Map and Wreckline already have active or retained Animation lanes. Character already has one active Animation lane, PR #19, so no second Character lane was opened.
 
-Animation therefore extended existing **Animal Animation PR #5 in place** rather than opening another Animal lane.
+The fresh handoff came from current Character Rigging PR #17 exact head `0b5b6c99c0f1349d8a1a2198cc69969c5b829236`. Rigging left the owner deformation map unchanged but added continuous structural certificates across all three indexed face-pair classes over the owner-angle interval `[-40.0°, +36.55°]`, while explicitly granting **no Animation acceptance**.
 
-The selected question was deliberately narrow:
+Animation therefore extended existing Character Animation PR #19 in place with one bounded method question:
 
-> Can the exact 41-key Animation control and exact 19-key Runtime candidate be replayed through the same real Godot `AnimationPlayer` interpolation path while preserving source motion identity and keeping the unresolved half-angle-versus-physical-angle policy visible rather than silently adopting the candidate?
+> Can the exact frozen Animation shoulder curve be composed with the exact current Rigging continuous owner-angle certificates, by exact source/mesh/profile identity and analytic scalar-range inclusion, without rewriting either lane or pretending that Rigging's structural proof is target-engine/controller/gameplay acceptance?
 
-## Current Animation lane
+## Current Character Animation lane
 
-Repository: `mike-axiom-mir/axm-animal-design`.
+Repository: `mike-axiom-mir/axm-character-design`.
 
-Draft PR: **#5 — `Animation: prove first bounded quadruped articulation loop`**.
+Draft PR: **#19 — `Animation: add bounded review006 shoulder diagnostic loop`**.
 
-Branch: `studio/animation-quadruped-articulation-loop-001`.
+Branch: `studio/animation-character-review006-shoulder-diagnostic-001`.
 
-Exact current Animation head: **`304c2c81d6f7c604b59cfb550639939194f4a3b5`**.
+Current head after this activation's two commits: **`bd7c5792b902dd6203d5d3386e53c90fda4cd65f`**.
 
-Observed after evidence completion: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Current Rigging owner inspected: PR #17 exact head **`0b5b6c99c0f1349d8a1a2198cc69969c5b829236`**.
 
-Exact source Animation predecessor consumed by Runtime: `eb21e0e0fd888bbb5fa41c73a6c0f1c731f662c2`.
-
-Exact Runtime donor: PR #30 head `13ba20d198d2b7c5e428167745d59927b3084004`.
-
-Exact Rigging owner: PR #25 head `0bdddceb1ccac52732d0a2c71e877a8f31976305`.
+Original Animation parent remains `fa16c44b1a488d43842470fc9f30c5fb5e98cab6`; the frozen Animation implementation blob remains `7d0d630256f5f142f882cbc7212679585668d9e8` and its retained evidence builder blob remains `3584633acaa10f48a824b2c1db00b4ca52443dd0`.
 
 ## Bounded reusable Animation method
 
-Contract:
+New evidence contract:
 
-**`axm.animal-animation-runtime-key-budget-rebind/v0.1`**
+**`axm.character-animation-continuous-owner-envelope-bind/v0.1`**
 
-Reusable rule:
+Files added on the existing Animation branch:
 
-**`WHEN_RUNTIME_REDUCES_ANIMATION_KEYS_ANIMATION_MUST_REPLAY_THE_EXACT_CONTROL_AND_CANDIDATE_UNDER_THE_SAME_TARGET_INTERPOLATION_AND_KEEP_STORAGE_METRIC_SEMANTICS_SEPARATE_FROM_PHYSICAL_OWNER_ANGLE_BEFORE_ANY_ADOPTION`**
+- `tools/build_review006_shoulder_animation_continuous_owner_bind.py`;
+- `.github/workflows/animation-character-review006-continuous-owner-bind.yml`.
 
-Source motion remains frozen:
+The method does not copy or reimplement Rigging's certificates. CI rebuilds the frozen Animation motion evidence on the Animation head, creates a detached worktree at exact current Rigging head `0b5b6c99...`, reruns Rigging's three continuous certificate observers there, and then composes only the exact identities and certified scalar ranges.
 
-- clip digest: `407903cbc5fe8803fc6a749e128b7736ebf139b414e61f77d9bbd32fc46f427b`;
-- duration: **1.0 s**;
+Frozen Animation identity remains:
+
+- clip digest: `887c8848bbb2559099da0ec88218020909b25dd0103f5eb47d2f9e413c23bda1`;
+- duration: **2.0 s**;
 - authored cadence: **40 Hz**;
-- endpoint-inclusive authored keys: **41**;
-- interpolation: **glTF LINEAR rotation**;
-- source retimed: **false**;
-- source authored keys modified: **false**;
-- Runtime candidate modified: **false**.
+- authored keys: **81 endpoint-inclusive**;
+- dense diagnostic: **160 Hz / 321 samples**;
+- phase targets: `0° -> -30° -> 0° -> +30° -> 0°`;
+- source curve: four-phase quintic smootherstep;
+- source curve, topology, joints, weights and Rigging profile modified: **false**.
 
-Exact transport identities:
+The analytic Animation-owned scalar bound is `[-30°, +30°]`: for each phase `u in [0,1]`, `s(u)=6u^5-15u^4+10u^3` has derivative `30u^2(u-1)^2 >= 0`, so the curve cannot overshoot its endpoint targets. The intended composition therefore has a **10.0° negative-side margin** and **6.55° positive-side margin** inside Rigging's exact `[-40°, +36.55°]` continuously certified owner interval.
 
-- 41-key control GLB SHA-256: `81c5422f8cf13ca65a253d3b05ebcf88fc0b20601dfb466b3c92f0d5e28dafcb`;
-- 19-key Runtime candidate GLB SHA-256: `a8a32b58ad3bad44176a676b00f5cf1c20d1a2ec6da275b683d8f73a69088d6b`;
-- Runtime artifact `10525970648`, archive SHA-256 `ad071f58796b606d707168af9619d988a497ba1a745dda8ac62b42e7f814b996`;
-- Rigging artifact `10544932693`, archive SHA-256 `36b870c7a3fd4c609fd4a1af2d03e444e8004422541a5809607650a45547f485`.
+The proof also fails closed on a verifier-only widened `+37°` curve and on a verifier-only profile-identity mismatch. Neither mutation touches the source clip or Rigging bytes.
 
-Animation's independent reference explicitly names Runtime's retained quantity as a quaternion shortest-chord **half-angle** metric and separately computes the shortest physical relative-rotation angle, which is exactly 2x that quantity for unit rotation quaternions.
-
-## Exact verification
+## Exact verification state
 
 Dedicated workflow:
 
-**`35342772170 — Animation Runtime key-budget rebind evidence` — SUCCESS**.
+**`35345150493 — Animation Character review006 continuous owner-envelope bind`**.
 
-Exact-head repository workflow:
+At the time this status was written both Python 3.11 and 3.13 jobs are **QUEUED**, not completed. Therefore **no new PASS is claimed yet**.
 
-**`35342772100 — Tests` — SUCCESS** on Python **3.11 and 3.13**.
+The workflow is configured to:
 
-The dedicated receiving job also ran the full inherited Animal suite on Python 3.11: **42 / 42 tests passed**.
+1. verify the frozen Animation implementation and evidence-builder Git blobs;
+2. compile and run the complete Character suite on Python 3.11 and 3.13;
+3. rebuild the exact 321-sample Animation dense-motion evidence;
+4. fetch exact current Rigging head `0b5b6c99...` into a detached worktree;
+5. rerun current Rigging continuous nonadjacent, edge-adjacent and vertex-only certificates;
+6. require exact source / proof-mesh / Geometry / topology / profile identity equality;
+7. prove the frozen `[-30°, +30°]` curve is contained in all three current `[-40°, +36.55°]` continuous Rigging guards;
+8. reject `+37°` widening and profile-identity mutation controls;
+9. upload retained exact-head evidence only from the Python 3.11 lane.
 
-Real target observer:
+Until that workflow returns green and the retained receipt is inspected, the state remains **IN PROGRESS / NO PASS CLAIM**.
 
-- Godot: **4.7.2**;
-- track: `TYPE_ROTATION_3D`;
-- interpolation: `INTERPOLATION_LINEAR`;
-- proof mode: deterministic dual-`AnimationPlayer` seek/readback, **not wall-clock pacing**;
-- dense diagnostic samples: **321 / 321** at **320 Hz** reference density.
+## Preserved prior motion evidence
 
-Scoped state:
+Character PR #19's earlier exact-head evidence at `9519be55581c009fd800d175677d9b50ee6926e6` remains valid for its exact identity:
 
-**`HOLD_RUNTIME_19_KEY_ANIMATION_REBIND__GODOT_LINEAR_PLAYBACK_EQUIVALENCE_PASS__OWNER_ANGLE_SEMANTICS_UNRESOLVED`**.
+- scoped result `PASS_CHARACTER_REVIEW006_DENSE_SHOULDER_DIAGNOSTIC_LOOP`;
+- all 321 dense samples structurally pass with zero nonadjacent intersection pairs;
+- bilateral mirror preserved;
+- loop residual `0.0 m`;
+- maximum adjacent dense vertex step `0.0037858562693203314 m` per side;
+- hidden between-authored-key `+36.60°` overshoot is detected and rejected.
 
-Measured Godot results:
-
-- maximum observed Runtime half-angle metric: **`0.0547224738589885°`**;
-- independent half-angle reference maximum: **`0.05472043982868231°`**;
-- maximum observed physical relative rotation: **`0.109444947717977°`**;
-- independent physical reference maximum: **`0.10944087965736463°`**;
-- worst sample: **index 152 / 0.475 s**;
-- retained authored peak at **0.500 s**: physical control/candidate delta **`0.0°`**;
-- max control AnimationPlayer/reference physical residual: **`0.0000152727675075693°`**;
-- max candidate AnimationPlayer/reference physical residual: **`0.000024042483959665°`**;
-- max pair/reference physical residual: **`0.0000199271976521476°`**.
-
-The exact semantic split therefore remains visible:
-
-- Runtime half-angle metric `< 0.075°`: **true**;
-- physical relative rotation `> 0.075°`: **true**.
-
-Animation does **not** decide which angular quantity Runtime/Rigging policy intended to bound. The 19-key representation remains **not adopted by Animation**.
-
-Verifier sensitivity control: a proof-local `+0.25°` mutation of the retained candidate peak key produced **`0.250002128717593°`** physical signal and failed closed. Neither source bytes nor exact Runtime candidate bytes were changed.
-
-## Preserved failure / repair trail
-
-Predecessor workflow `35342313138` intentionally remains visible as a failed proof attempt. The donor Runtime artifact stores both top-level `control.glb` / `candidate.glb` and byte-identical copies under `control/asset.glb` / `candidate/asset.glb`; the first artifact locator incorrectly treated duplicate byte identity as an error before motion testing could begin.
-
-The repair changed only proof plumbing: it selects the canonical top-level files and independently re-verifies their exact SHA-256 identities. No source clip, key count, timing, amplitude, interpolation, rig, weighting, Runtime candidate, tolerance or authority boundary changed.
-
-## Retained evidence
-
-Artifact ID: **`10546040522`**.
-
-Artifact name: `animal-animation-runtime-key-budget-rebind-304c2c81d6f7c604b59cfb550639939194f4a3b5`.
-
-Files: **9**.
-
-GitHub payload size: **54,333 B**.
-
-SHA-256: **`20f9c32aad83d8e5b28748a38c5d71289bb605421af35c3eda84a7622dacfdd0`**.
-
-The ZIP was downloaded after CI and independently rehashed to the exact same digest. The retained Godot receipt and independent 321-sample reference payload were inspected directly.
-
-Bounded handoffs were returned to:
-
-- Animation PR #5 — comment `5729756328`;
-- Runtime PR #30 — comment `5729758414`;
-- Rigging PR #25 — comment `5729760117`.
+This activation does not rewrite that sampled result into a continuous proof. The new method composes a separate, current Rigging-owned continuous structural certificate only if CI confirms exact identity and range inclusion.
 
 ## Truth boundary / explicit nonclaims
 
-This HOLD/PASS proves deterministic target-host **representation playback equivalence** for the exact 41-key control and exact 19-key Runtime candidate while preserving the unresolved owner-angle semantic difference.
+No new target-engine interpolation or playback result has been established in this activation. No Technical-Art transport, Runtime controller/state-machine/input/device behavior, wall-clock cadence, gameplay collision/physics, anatomy/biological ROM, target-device performance, final motion style, Art Direction / Visual QA acceptance, CANON, game readiness or production readiness is claimed.
 
-It does **not** establish:
+Even if the new workflow turns green, the continuous claim is intentionally narrow: it can establish only that this exact frozen scalar Animation curve remains inside the exact current Rigging continuous structural predicates for nonadjacent, indexed edge-adjacent same-ray-fold and indexed vertex-only-neighbour face pairs. It does not prove every deformation-quality predicate continuously.
 
-- Animation adoption of the Runtime 19-key representation;
-- resolution of the `0.075°` Runtime/Rigging tolerance policy;
-- wall-clock 40 Hz delivery or display cadence;
-- Runtime controller, state-machine, input or device behavior;
-- gameplay acceptance, collision or physics;
-- target-device CPU/GPU/FPS/VRAM/thermal performance;
-- final timing, weight, personality, gait, locomotion or animation style quality;
-- Art Direction or independent Visual QA acceptance of the key reduction;
-- arbitrary key-reduction safety for other clips;
-- CANON, game readiness or production readiness.
-
-Animation retains clip/timing/interpolation authority. Rigging retains physical deformation/owner-angle authority. Runtime retains storage/controller/device/performance authority. Art Direction and Visual QA retain appearance and motion-quality acceptance authority.
+Animation retains timing/curve authority. Rigging retains owner deformation and continuous structural-certificate authority. Technical Art retains transport authority. Runtime retains controller/device/performance authority. Art Direction and Visual QA retain visual and motion-quality acceptance authority.
 
 ## Four-root gate
 
-- **Truth:** exact source/candidate/Rigging identities, independent reference math, real Godot readback, failed first proof, negative control, full tests and retained artifact are recorded; the metric mismatch is not renamed into a PASS.
-- **Agency / non-domination:** Animation validates the Runtime representation without taking Runtime or Rigging policy authority and without silently adopting the reduced representation.
-- **Continuity:** the exact 1.0 s / 40 Hz / 41-key source clip remains unchanged and the preceding Nature status remains recoverable by exact Git blob.
-- **Wisdom before speed:** representation adoption is held until the owner-angle meaning is explicitly resolved rather than relaxing a threshold to obtain green status.
+- **Truth:** current Rigging evidence is consumed by exact head and exact identity; queued CI is recorded as queued rather than called green.
+- **Agency / non-domination:** Animation composes Rigging-owned evidence without taking Rigging, Technical-Art, Runtime, gameplay or Art/QA authority.
+- **Continuity:** the exact 2.0 s / 40 Hz / 81-key Character clip and its earlier sampled evidence stay frozen; the preceding Animal status is preserved by exact Git blob.
+- **Wisdom before speed:** the stronger continuous claim is held until the dedicated exact-head workflow actually completes and its receipt can be inspected.
 
 The four AXM roots remain the merge gate.
 
 ## Next Animation trigger
 
-Do **not** silently promote Runtime PR #30's 19-key representation from this HOLD/PASS. A successor is justified when Runtime/Rigging explicitly resolve which angular quantity `0.075°` is intended to bound, when Art/QA returns an acceptance decision on the visible key-reduction tradeoff, or when another specialist returns a fresher bounded Animation-owned seam. If none of those occur, move to the freshest unowned motion/transition problem elsewhere in the constellation rather than duplicating this lane.
+First inspect workflow `35345150493`. If it is green, retain and inspect the artifact, update PR #19 and Rigging PR #17 with the bounded handoff, and promote only the exact continuous owner-envelope composition claim. If it fails, repair proof plumbing or identity assumptions only; do not change the frozen motion or Rigging evidence to force green. If the current Rigging identity moves again before verification, treat this attempt as stale rather than silently rebasing the claim.
