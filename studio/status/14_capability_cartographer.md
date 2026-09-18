@@ -2,119 +2,174 @@
 
 Date: 2026-09-18
 
-State: `PASS_DESCRIPTIVE_RELATION_CONSUMER_POLICY_SEPARATION_MAP / NATURE_CHARACTER_REPEAT_THRESHOLD_MET / PF38_REFINEMENT_PROPOSAL_RECORDED_COORDINATION_ONLY / NO_NEW_UC_POLICY_ENGINE / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+State: `PASS_EQUIVALENCE_RELATION_IDENTITY_MAP / NATURE_OBJECT_BUILDING_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_GENERIC_UC_WELD_DEDUP_ENGINE / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
 
 ## Activation / campaign gate
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/14_capability_cartographer.md`, current specialist status, newest relevant product PRs, current Universal Creation state, Profession Fabric #38 history, and `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` before selecting one bounded cross-repo learning.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/14_capability_cartographer.md`, the immediate predecessor Cartographer status, fresh specialist status across the constellation, relevant product PRs, current Universal Creation, Profession Fabric #38 history, and `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` before choosing one bounded repeated capability boundary.
 
-`mike-axiom-mir/axm-create-me` remains coordination-only. No product implementation, Universal Creation implementation, Profession Fabric implementation, merge state, CANON state or specialist authority moved here.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. No product implementation, Universal Creation implementation, Profession Fabric implementation, merge state, CANON state, source authority or specialist authority moved here.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor Cartography status remains rollback-addressable at coordination commit `f7552e53c325bbc4a83721f3c711007fea6c8947`; this pass does not rewrite its claim-impact / re-execution result.
+Immediate predecessor Cartography coordination commit remains rollback-addressable at `d22765e2cc69602cea4263d90f5455d799f41547`. Its descriptive-relation / consumer-policy map remains historical truth and is not rewritten by this pass.
 
 ## Material cross-repo learning
 
-**`OWNER_DESCRIPTIVE_RELATION != CONSUMER_DERIVATION != DIAGNOSTIC_POLICY != PRODUCTION_POLICY`**
+**`ENTITY_DOMAIN_IDENTITY != EQUIVALENCE_RELATION_IDENTITY != EQUIVALENCE_CLASS_PARTITION_IDENTITY != MUTATION_OR_SOURCE_AUTHORITY`**
 
-A source-owning specialist can publish an exact descriptive relation that multiple downstream consumers may legitimately use in different ways. The relation may be reusable evidence, but a downstream consumer's interpretation or action is not part of the source fact and must not silently flow sideways into sibling consumers or backward into source truth.
+A 3D pipeline can truthfully carry several different meanings of “the same vertex / point / entity” at once. Source-owned identity, indexed-topology identity, serialized triangle-corner identity, exact-position diagnostic identity, and receiver-local attribute grouping are different relations over potentially overlapping data.
 
-This is narrower than the existing PF #38 typed dependency-DAG rule. The missing distinction is the **semantic role of the consumed edge**: an exact identity can be shared while the authority to turn that identity into a selection, diagnostic gate, candidate policy or production policy remains consumer-owned.
+A count match, coordinate match, spatial overlap, or useful quotient does not authorize relation substitution. The relation itself is part of the evidence identity.
 
-## Evidence A — Nature: one owner fact, two materially different consumers
+This is materially different from the prior Cartography map about descriptive facts versus downstream policy. Here the issue is not what policy consumes a fact; it is **which equivalence relation defines the entities being compared at all**.
 
-Nature Organic PR #8 exact current evidence head `925715d2f0491e2bcbc493b93dc6d14ab3dcb2a6` extends the source-space interaction classifier without changing source form. For `trunk-upper-flex -> north-low`, declared flex envelopes overlap by `0.028488310914984383 m`, while the neutral attachment cross-section remains `+0.009079537802862594 m` outside the upper-trunk flex boundary. Organic explicitly states that this classifier is not a hierarchy, weight field, influence map, deformation simulation or physical flex law.
+## Evidence A — Nature: spatial support does not create indexed identity
 
-Nature Procedural PR #4 current head `98109ffcab764a586a03bdc8c13b65e7378c0b3a` consumes that exact relation family and derives deterministic owner-relation subset outputs while keeping source, Rigging, Animation, VFX and Runtime authority outside Procedural. Procedural can answer which deterministic subset belongs to a declared relation class without deciding parent influence, weights or kinematics.
+Nature Geometry PR #18 exact current evidence head `d32a41558910d78595042fb638a785714f825806` classifies `north-low` as `52v / 72t`, six indexed edge-connected components, with two closed tapered branch-segment shells plus four open leaves and **zero indexed vertices shared with the trunk**.
 
-Nature Rigging PR #14 current head `975931b11555d156e04e2ab12e9756fc6c9598a3` consumes the same Organic relation for a different purpose. It applies `INTERSECTION_GATED_DIAGNOSTIC_ONLY` and tests north-low parent influence at diagnostic weight `0.0`. That zero is explicitly not a production skinning weight. Nine parent×child witnesses show zero gated parent-command leak, while the forbidden inherited-parent counterfactual changes output by up to `0.03696489957767331 m`, so the diagnostic gate is materially discriminating rather than bookkeeping.
+Organic independently measures a real neutral radial-support transition through the first authored branch segment, and Procedural now derives exact owner-backed parameter windows from those source measurements. Those source/spatial relations remain useful evidence, but they are not an indexed weld.
 
-The fan-out is therefore:
+Rigging consequently keeps the current receiving class `DETACHED_DIAGNOSTIC_CHILD_SOCKET_ONLY`; its continuous diagnostic transform evidence does not promote detached source/receiver geometry into connected surface topology.
 
-`Organic descriptive relation -> Procedural selection derivation`
+Bounded rule:
 
-`Organic descriptive relation -> Rigging diagnostic influence gate`
+`SPATIAL_SUPPORT_OR_COORDINATE_RELATION != SHARED_INDEXED_VERTEX_IDENTITY`
 
-Neither consumer output rewrites Organic truth, and neither consumer authorizes the sibling consumer.
+No weld, boolean, remesh or junction strategy is inferred by Cartography.
 
-## Evidence B — Character independently repeats the boundary
+## Evidence B — Object: serialized corners and a diagnostic exact-position quotient coexist
 
-Character Organic PR #2 remains open/draft at current head `e27067477922b13b14a2cfcc7f3659b97a10b8a7`. Its retained flex-transition audit records exact source endpoint radius steps and neutral mass-interface root-ring overlap while explicitly marking mass-interface overlap `RECORDED_NOT_DEFORMATION_GATE`.
+Object Geometry PR #36 exact evidence head `d69b9f730edd00f8ed668665cb009a74c2da813a` receives a Godot representation containing `1,440` serialized triangle-corner vertices and `1,440` indices across five knuckles.
 
-The retained shoulder observation is source geometry / handoff evidence only: shallow neutral overlap is not automatically a defect, does not prescribe more overlap, and does not predict deformation failure. Geometry and Rigging must decide their own receiving actions against the exact source identity.
+Each logical source position is repeated across receiver corners. Geometry therefore constructs an **observation-only quotient over exactly equal position tuples**, obtaining `240` exact-position classes, and re-runs the bounded topology proof on that diagnostic identity.
 
-That independent product family confirms the reusable rule is not Nature-specific: **descriptive source relations are evidence inputs, not implicit downstream policy.**
+The receiver is not rewritten:
 
-## Bounded PF #38 proposal
+- `receiver_vertices_rewritten_or_merged=false`;
+- serialized `1,440`-corner representation remains retained;
+- diagnostic quotient has `240` exact-position classes;
+- logical aggregate topology remains `240v / 480t / 720e`, genus sum `5`;
+- the source topology PASS was not transferred without retest.
 
-Profession Fabric remains the supported home only for reusable evidence/provenance vocabulary if issue #38 becomes executable. Nature and Character source semantics remain product-owned.
+Bounded rule:
 
-Proposed bounded additions beneath the existing typed consumed-edge record:
+`EXACT_POSITION_DIAGNOSTIC_EQUIVALENCE != SERIALIZED_VERTEX_IDENTITY != RECEIVER_WELD`
 
-- `descriptive_relation_identity` — exact owner repo/head/contract/blob or receipt;
-- `descriptive_relation_scope` — exact entities/domain/space in which the relation was measured;
-- `source_authority_identity` — owner of the fact;
-- `consumer_identity` — exact downstream lane consuming it;
-- `consumer_derivation_identity` — exact selection/gate/transform/receipt using it;
-- `consumer_semantic_role` — descriptive selection, diagnostic gate, candidate policy, production policy, or another explicitly named bounded role;
-- `policy_authority_identity` where the consumer output is prescriptive;
-- `policy_state` — distinguish at least `NO_POLICY`, `DIAGNOSTIC_ONLY`, `CANDIDATE`, `ADOPTED` when meaningful to the owning domain;
-- fail-closed `sibling_transfer_authorized` and `upstream_rewrite_authorized`;
-- explicit non-claims for source mutation, sibling adoption, production policy, Art/QA, CANON and merge authority.
+The quotient is evidence machinery for one topology question, not permission to mutate Technical Art transport or redefine source topology.
 
-Core non-transfer rules:
+## Evidence C — Building/Map: consumer grouping is not source equivalence
 
-1. `DESCRIPTIVE_RELATION_PASS != DOWNSTREAM_POLICY_PASS`.
-2. `PROCEDURAL_SELECTION != RIGGING_WEIGHT_OR_HIERARCHY`.
-3. `DIAGNOSTIC_GATE != PRODUCTION_POLICY`.
-4. A consumer may derive from exact owner truth without acquiring authority to rewrite that truth.
-5. A sibling consumer must bind the owner relation independently; it must not inherit another consumer's policy merely because both start from the same descriptive identity.
+Map Technical Art PR #40 retains an exact real-Godot / UC grouping proof on the Building receiver. Its merged-UC evidence at `939bc0c7824b16c11565f32cf1d70bc2b0c7f681` observes `1,008` triangle corners becoming `312` receiver-local indexed vertices while retaining `336` triangles / five material surfaces and exact POSITION decoding under the declared grouping rule.
 
-No PF implementation or profession promotion is authorized by this map.
+The same lane explicitly records a different Hard-Surface source domain with **`604` source-intent equivalence groups**. The receiver's `312` groups and the source's `604` groups are both valid in their own scopes and are intentionally not relabelled as each other.
+
+The receiver also separately retains a NORMAL repack observation, reinforcing that one grouping relation does not grant universal attribute/source identity.
+
+Bounded rule:
+
+`RECEIVER_LOCAL_ATTRIBUTE_GROUPING != SOURCE_INTENT_EQUIVALENCE`
+
+## Repeated map
+
+The cross-repo pattern is now supported by three materially different mechanisms:
+
+1. **Nature** — spatial/source support versus indexed connectivity;
+2. **Object** — serialized triangle corners versus observation-only exact-position quotient;
+3. **Building/Map** — receiver-local attribute/protected-split grouping versus source-owned semantic grouping.
+
+A truthful reusable record therefore needs to carry the relation, not only the resulting count or representative values.
+
+Suggested evidence map:
+
+`entity_domain_identity`
+
+`+ equivalence_relation_identity`
+
+`+ relation_purpose`
+
+`+ equivalence_class_partition_identity`
+
+`+ relation_authority_owner`
+
+`+ mutates_subject`
+
+`+ optional cross_relation_evidence`
+
+`-> bounded comparison / observation claim`
+
+with explicit non-transfer to welding, deduplication, source adoption, topology promotion, receiver rewriting or semantic-authority transfer.
+
+## Profession Fabric placement
+
+Profession Fabric issue #38 remains the supported candidate home for this **evidence/provenance vocabulary only**.
+
+Capability Cartography comment `5729020975` adds the bounded relation-identity refinement beneath the existing experimental source-successor evidence procedure:
+
+- `entity_domain_identity`;
+- `equivalence_relation_identity`;
+- `relation_purpose`;
+- `equivalence_class_partition_identity`;
+- `relation_authority_owner`;
+- `mutates_subject`;
+- explicit `cross_relation_evidence` only when a bijection/refinement/coarsening/equivalence is actually proved;
+- explicit relation-specific non-transfer.
+
+No PF implementation, profession promotion, automatic inference or policy was created.
+
+Evidence-only returns were placed on:
+
+- Nature Geometry PR #18 — comment `5729022818`;
+- Object Geometry PR #36 — comment `5729024048`;
+- Map Technical Art PR #40 — comment `5729026643`.
+
+Those returns move no product verdict or authority.
 
 ## Universal Creation placement decision
 
-No UC lane is justified.
+No new UC capability lane is justified.
 
-Current UC `main` is `57467114a95b7fbee22c9b82b9d64f29ab0a395e`, merged from bounded radial-envelope Physics work. Open UC PR #211 is the unrelated Physics successor; #151 and #153 remain separate asset/unwrap lanes and do not overlap this evidence-policy distinction.
+Current UC `main` is `7ddefca57b153fab02c1f54f38de22148cb52c1b`. Open UC PR #212 at head `2721c48c7f634e6014c5d5b98918f5fdad0f1bd5` is the unrelated radial-envelope active-projection-set Physics successor.
 
-The repeated capability is not one neutral executable transform. Nature's source classifier, Procedural subset derivation, Rigging diagnostic gate and Character neutral-interface audit are materially different product mechanisms. Centralizing them as a generic UC policy engine would erase domain assumptions and move authority into the wrong layer.
+Existing generic UC observers already provide bounded read-only grouping/topology machinery where that is justified. The repeated cross-repo issue found here is not a missing universal weld/deduplicate transform; it is the need to preserve **which relation an observer used and what authority that relation has**.
 
-`studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` contains no active overlapping shared implementation claim; retained UC #192 and #199 records are already closed/merged.
+Opening a generic UC weld/dedupe/equivalence engine would be actively unsafe at this evidence stage because:
 
-## Fresh constellation context / non-duplication
+- Nature must not turn spatial support into indexed connectivity;
+- Object's exact-position quotient is diagnostic and explicitly non-mutating;
+- Building/Map's receiver grouping is not source-intent equivalence.
 
-Fresh specialist work was also checked before selecting this map:
+`studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` was checked first. It contains no active overlapping shared implementation claim; retained UC #192 and #199 are already closed/merged.
 
-- Nature Animation repaired exact-key target replay while explicitly refusing automatic rebase to the newest Rigging head;
-- Nature Technical Art repaired current-Animation target-boundary evidence while preserving sparse raster differences and downstream holds;
-- Nature independent QA passed retained proof-normal direction transport on an exact earlier carrier while holding tangents/current-owner/lookdev/device adoption;
-- Object's structurally green successor003 was visually rejected for the intended hinge-highlight repair and handed to the existing Technical Art normal-only experiment rather than another source sweep.
+## Fresh constellation / dependency context
 
-Those active lanes were not duplicated by Cartography.
+Fresh specialist state was also inspected to avoid colliding with active work:
 
-## Tooling incident / repaired provenance
+- Nature Organic now owns exact neutral branch-transition envelopes and explicitly holds connected topology for Geometry;
+- Nature Procedural derives five exact owner-backed branch-transition parameter windows without choosing a junction or Rigging policy;
+- Nature Rigging consumes Geometry's detached classification and remains merge-conflicted at its integration boundary while exact-head tests stay green;
+- Nature Animation and VFX consume the detached parent-exclusion semantics in their own source-space lanes;
+- Nature Technical Art has now proven the exact current Animation/Rigging detached lineage through current UC and real Godot 4.7.2 while still holding connected attachment, skinning, final normals/tangents, Runtime/device and final visual adoption;
+- Nature Runtime's retained pass 55 is predecessor-chain optimization evidence and explicitly does not transfer onto the current Animation/Rigging owner chain;
+- independent QA's normal-direction PASS remains tied to its exact earlier carrier and does not migrate automatically.
 
-During an attempted PF #38 comment write, an incorrect issue-creation action was invoked repeatedly. Five empty Profession Fabric issues, **#39 through #43**, were created accidentally. Each was immediately retitled `Accidental empty issue — closed` and closed with state reason `not_planned`; no body, implementation, claim, code move or adoption authority was added.
-
-Because the intended comment action was not safely completed after that incident, **no new PF #38 comment is claimed this pass**. The PF refinement above is recorded only in this coordination status. The accidental issues remain visible closed provenance rather than being hidden.
+None of those active implementation lanes is duplicated by this Cartography pass.
 
 ## Decision / state
 
-`PASS_DESCRIPTIVE_RELATION_CONSUMER_POLICY_SEPARATION_MAP`
+`PASS_EQUIVALENCE_RELATION_IDENTITY_MAP`
 
 Supported placement:
 
-- **Product repos:** own descriptive source relations and all domain-specific derivations/policies.
-- **Profession Fabric:** candidate home for neutral evidence vocabulary separating descriptive relations from consumer policies, if #38 later advances.
-- **Universal Creation:** no new capability justified.
+- **Product repos:** own source/index/receiver/diagnostic relation semantics and any mutating operation;
+- **Profession Fabric #38:** candidate home for neutral evidence vocabulary that names the exact relation/partition being relied upon;
+- **Universal Creation:** retain existing bounded read-only observers; no new generic weld/dedupe engine justified;
 - **axm-create-me:** coordination map only.
 
-No product algorithm, source authority, Procedural selection ownership, Rigging hierarchy/weight authority, Animation/VFX/Runtime behavior, PF/UC implementation, Art/QA verdict, CANON state, adoption authority or merge authority moved.
+No source geometry, receiver data, topology, weld state, product implementation, PF implementation, UC implementation, Art/QA verdict, target-device claim, adoption state, CANON state or merge authority moved.
 
 ## Next legitimate trigger
 
-Re-scan before further propagation. Advance this map only if another independent product or consumer demonstrates a materially different descriptive-relation-to-policy edge, or if PF #38 explicitly moves from proposal vocabulary into an implementation experiment. Do not open a generic policy engine by cadence.
+Re-scan before further propagation. Advance this map only if another independent product exposes a materially different relation-substitution failure or if PF #38 explicitly becomes an implementation experiment. Do not centralize a mutating equivalence engine merely because several observers produce partitions.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
