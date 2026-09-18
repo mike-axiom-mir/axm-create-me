@@ -2,158 +2,166 @@
 
 Date: 2026-09-18
 
-State: **PASS_BUILDING_MATERIAL_CURRENT_UC_EXECUTABLE_RECEIVER_CLOSURE_AND_OBSERVATION_IDENTICAL_TO_TESTED_RECEIVER / MAP_TA_PR40_HEAD_457C086D_DRAFT_MERGEABLE / TESTED_UC_13A82334 / CURRENT_UC_3E6E5140 / MATERIAL_UV_BLOB_BC7AA2FF / ASSET_GEOMETRY_BLOB_628C862A / RUN_35292755029_SUCCESS / ARTIFACT_10526083225_SHA_A835E4D7 / PRIOR_REAL_GODOT_EVIDENCE_RETAINED / HOLD_VISUAL_RUNTIME_ENVIRONMENT_ADOPTION_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_BUILDING_MATERIAL_EXACT_OWNER_TO_REAL_GODOT / PASS_CURRENT_UC_EXECUTABLE_RECEIVER_CLOSURE_CONTINUITY / MAP_TA_PR40_HEAD_457C086D_DRAFT_MERGEABLE / TESTED_UC_13A82334 / CURRENT_UC_3E6E5140 / SAME_HEAD_REAL_GODOT_RUN_35292755078 / CLOSURE_RUN_35292755029 / TARGET_ARTIFACT_10527162239_SHA_D760A61C / CLOSURE_ARTIFACT_10526083225_SHA_A835E4D7 / HOLD_VISUAL_RUNTIME_ENVIRONMENT_ADOPTION_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current specialist constellation, active Building lanes, and fresh `axm-universal-creation` before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, active Building owner lanes, the receiving Map Technical Art lane, and fresh `axm-universal-creation` before acting.
 
-`axm-create-me` remains **coordination only**. The implementation/evidence repair is confined to the existing Map Technical Art PR #40 in `mike-axiom-mir/axm-map-design`. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Implementation/evidence changes remain in the existing Map Technical Art PR #40. The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Highest-leverage bounded gap
+## Bounded gap selected
 
-The Building owner chain had just gained a successful exact path:
+The Building constellation already had the correct ownership split:
 
-**Hard Surface service surface → Geometry UV chart → Materials retained checker → Technical Art material-bearing GLB → generic UC material-UV observer → real Godot 4.7.2 import.**
+**Hard Surface owns service-surface source geometry → Geometry owns UV chart/sampling → Materials owns retained checker/material meaning → Technical Art owns material-bearing GLB and exact receiver transport → UC remains a generic observer → Godot is a target receiver.**
 
-That exact path succeeded on Technical Art head `4dc7f9cd8570a5088b4c0bad8dc8cb6456893f7a`, workflow `35290342135`, and retained artifact `10525973134`.
+The new exact path had one provenance blind spot: `src/axm_uc/material_uv_evidence.py` imports executable helpers from `src/axm_uc/asset_geometry.py`, while the Building workflow pinned only the entry-module blob. Dependency semantics could therefore drift while the entry blob stayed unchanged.
 
-The remaining provenance gap was narrower than a new material/UV feature: `src/axm_uc/material_uv_evidence.py` imports executable helpers from `src/axm_uc/asset_geometry.py`, but the new Building workflow pinned only the entry module blob. If the dependency changed while the entry blob stayed identical, receiver semantics could drift without the old identity gate detecting it.
+The repair stayed on existing Map Technical Art PR #40 and added only reusable Technical Art receiving-evidence plumbing. No Building, Geometry, Materials, Runtime, Environment, or UC product policy was centralized or duplicated.
 
-This activation therefore did **not** reopen Materials, Geometry, Runtime, Environment, or UC. It repaired only the receiving evidence contract on the existing Technical Art lane.
-
-## Exact lane and UC identities
+## Exact identities
 
 Technical Art:
 
 - repository: `mike-axiom-mir/axm-map-design`;
-- PR: **#40 — Technical Art: prove Building post-normal indexing against UC observer**;
-- branch: `studio/technical-art-building-planar-role-uc-index-bridge-001`;
+- PR #40 branch: `studio/technical-art-building-planar-role-uc-index-bridge-001`;
 - exact tested head: **`457c086d27f3a9c010b365fe75d54b8f812b01ef`**;
 - state at verification: **open / draft / mergeable**.
 
+Owner chain:
+
+- Hard Surface head: **`fbfa3b47048755b45dac91451171d5511c8d4f47`**;
+- Geometry head: **`02944a9f10528a051603df3a6fd7b3183730773f`**;
+- Materials head: **`5f096369eee2ef44275ea8f1c7dc1b6e564e71c8`**;
+- retained Materials PNG SHA-256: **`e932cdd94d370184c7361862d5064149cc193e3a8fd80b269cab6543c0919198`**;
+- retained/reloaded RGBA8 SHA-256: **`02f8f464eabc734a3be687a7706edf8b8f62ece834fa981c8c993fbb8227bb4b`**.
+
 Universal Creation:
 
-- previously tested Building material-observer head: **`13a823349a568db266099564d6f5d8d7bac48b2b`**;
+- tested material-observer head: **`13a823349a568db266099564d6f5d8d7bac48b2b`**;
 - fresh current UC head: **`3e6e51402fdb681b4bbed1bc7e816939b06a83b5`**;
-- tested head is an ancestor of current head;
-- current UC is six commits ahead, with intervening changes confined to unrelated physics-core/report files;
-- `src/axm_uc/material_uv_evidence.py` Git blob at both heads: **`bc7aa2ffc2c598d75a78739c70fd349138f511e2`**;
-- `src/axm_uc/asset_geometry.py` Git blob at both heads: **`628c862a46b46f814a67521e9558e343dfe000a1`**;
+- tested head is an ancestor of current;
+- current is six commits ahead, with intervening changes confined to unrelated physics/report paths;
+- `src/axm_uc/material_uv_evidence.py` blob at both heads: **`bc7aa2ffc2c598d75a78739c70fd349138f511e2`**;
+- `src/axm_uc/asset_geometry.py` blob at both heads: **`628c862a46b46f814a67521e9558e343dfe000a1`**;
 - **UC product code was not modified.**
 
 ## Smallest reusable repair
 
-Added Technical Art-owned `tools/technical_art_python_dependency_closure.py` plus one bounded continuity workflow.
+Added `tools/technical_art_python_dependency_closure.py` plus one bounded continuity workflow.
 
-The binder is domain-neutral evidence plumbing. It:
+The binder is domain-neutral Technical Art evidence tooling. It recursively discovers tracked local Python imports inside one declared package root, binds each file by exact Git-blob identity, and fails closed on working-tree drift, package/repository escape, ambiguous relative imports, and dynamic imports. Standard-library/third-party runtime identity remains outside the claim.
 
-1. starts from one declared Python receiver entry point;
-2. recursively resolves tracked local Python imports inside one declared package root;
-3. binds every discovered source file by exact Git-blob identity;
-4. rejects working-tree drift, repository/package escape, ambiguous relative imports, and dynamic imports rather than guessing;
-5. leaves standard-library and third-party runtime identity outside the claim;
-6. does not modify the inspected repository or decide Building/Materials policy.
+For UC's material observer, the complete local executable closure is exactly two files:
 
-For the current UC material observer, the complete local executable closure is exactly two files:
+- `material_uv_evidence.py` → **`bc7aa2ffc2c598d75a78739c70fd349138f511e2`**;
+- `asset_geometry.py` → **`628c862a46b46f814a67521e9558e343dfe000a1`**.
 
-- `src/axm_uc/material_uv_evidence.py` → `bc7aa2ffc2c598d75a78739c70fd349138f511e2`;
-- `src/axm_uc/asset_geometry.py` → `628c862a46b46f814a67521e9558e343dfe000a1`.
+A deliberate dependency-only mutation of `asset_geometry.py` is rejected even though the entry module is untouched, directly proving the old entry-only pin had a real blind spot.
 
-A deliberate dependency-only mutation to `asset_geometry.py` is rejected even though the entry-module blob remains unchanged. The original file is then restored and rebound successfully.
+## Same-head owner → GLB → UC → real Godot proof
 
-## Exact retained-carrier continuity proof
+The pre-existing Building material bridge workflow automatically reran on exact TA head `457c086d...` and remained green:
 
-The continuity workflow binds and downloads the prior exact owner→UC→Godot artifact rather than regenerating or visually redesigning the carrier:
+**`35292755078 — Technical Art Building utility-panel material GLB bridge evidence`: SUCCESS**
 
-- prior workflow: **`35290342135`**;
-- prior artifact: **`10525973134`**;
-- prior artifact SHA-256: **`ac798346537af3ba9b7f999571232a054ca12fdaba1904a4127a074fd1976f46`**;
-- exact material-bearing GLB SHA-256: **`dc65fec67aa6aba4e4a14895b38122ae89b6eafba7f256b07c1a7c9e344bbd68`**.
+Python 3.11 and 3.13 contract jobs passed, and the exact-owner-to-target path passed in real **Godot 4.7.2 GL Compatibility**.
 
-The prior packet is required to retain:
+Scoped result:
 
-- `PASS_EXACT_OWNER_UV_MATERIAL_IMAGE_TO_CURRENT_UC_AND_REAL_GODOT__HOLD_VISUAL_RUNTIME_ADOPTION`;
-- real Godot receiver state `PASS_TARGET_HOST_IMPORTED_MATERIAL_BEARING_GLB`.
+**`PASS_EXACT_OWNER_UV_MATERIAL_IMAGE_TO_CURRENT_UC_AND_REAL_GODOT__HOLD_VISUAL_RUNTIME_ADOPTION`**
 
-The exact positive carrier and its aspect-blind negative are then observed independently through both the tested UC closure and fresh current UC closure.
+Exact carrier:
+
+- GLB SHA-256: **`dc65fec67aa6aba4e4a14895b38122ae89b6eafba7f256b07c1a7c9e344bbd68`**;
+- one surface / four vertices / four UVs / six indices;
+- UV corners: `(0.15625, 0.03125)`, `(0.84375, 0.03125)`, `(0.84375, 0.96875)`, `(0.15625, 0.96875)`;
+- imported image: **512 × 512**, **1,048,576 RGBA8 bytes**, exact retained RGBA8 digest;
+- imported material: StandardMaterial3D with albedo texture, metallic ≈ **0.18**, roughness ≈ **0.62**;
+- target state: **`PASS_TARGET_HOST_IMPORTED_MATERIAL_BEARING_GLB`**.
+
+UC observation on this exact carrier remains ~**320 / 320 texels per metre**. The aspect-blind negative remains ~**341.333 / 465.455 texels per metre**, exposing the intended anisotropy distinction.
+
+Same-head target artifact:
+
+- ID: **`10527162239`**;
+- size: **`47,057 B`**;
+- files: **28**;
+- GitHub SHA-256: **`d760a61cd95f756de7e0143096bb7923a0dfbaff0d480ccff9a17dfd19f0c70c`**;
+- independently downloaded SHA-256: **exact same digest**.
+
+## Fresh current-UC executable receiver continuity
+
+Separate bounded continuity workflow:
+
+**`35292755029 — Technical Art Building material UC receiver closure continuity`: SUCCESS**
 
 Scoped result:
 
 **`PASS_BUILDING_MATERIAL_CURRENT_UC_EXECUTABLE_RECEIVER_CLOSURE_AND_OBSERVATION_IDENTICAL_TO_TESTED_RECEIVER`**
 
-Exact observation continuity:
+It reuses the exact carrier bytes and observes them independently through tested UC `13a82334...` and fresh current UC `3e6e5140...`.
 
-- tested and current positive UC reports: **identical**;
-- tested and current aspect-blind-negative UC reports: **identical**;
+Exact continuity:
+
+- tested/current positive reports: **identical**;
+- tested/current aspect-blind-negative reports: **identical**;
 - positive directional density: **320.0 / 320.0 texels per metre**;
 - positive anisotropy: **1.0**;
 - negative directional density: **341.3333333333333 / 465.45454545454544 texels per metre**;
 - negative anisotropy: **1.3636363636363638**.
 
-No new Godot claim is manufactured here. The real-target receipt is retained from the exact unchanged carrier, while this activation proves the UC executable receiver closure and observation remain unchanged on fresh current UC.
-
-## Exact workflow and retained evidence
-
-Workflow:
-
-**`35292755029 — Technical Art Building material UC receiver closure continuity`: SUCCESS**
-
-Important fail-closed negative:
-
-- a comment-only mutation to the dependency `asset_geometry.py` causes the closure binder to reject the working tree as different from tracked HEAD;
-- the negative therefore proves the earlier entry-only pin would have had a real blind spot that the new closure contract closes.
-
-Retained artifact:
+Closure artifact:
 
 - ID: **`10526083225`**;
-- name: `technical-art-building-material-uc-receiver-closure-457c086d27f3a9c010b365fe75d54b8f812b01ef`;
 - size: **`106,473 B`**;
 - files: **43**;
 - GitHub SHA-256: **`a835e4d7299c68c5e9ac708ade47b17578ffc9a35b2c9758b987bd4307c80df4`**;
 - independently downloaded SHA-256: **exact same digest**.
 
-The packet retains the reusable closure binder, tested/current closure receipts, exact UC intervening-path set, exact prior carrier and negative, tested/current UC observations, the prior exact-path/Godot receipts, and the final continuity receipt.
+The target-host run is not relabelled as a fresh current-UC Godot runtime test: Godot receives the unchanged exact carrier, while the second proof establishes that current UC's complete local material-observer executable closure and resulting observations are identical to the tested receiver.
+
+## Same-head regression context
+
+Relevant existing Technical Art workflows on exact TA head `457c086d...` are green, including:
+
+- Building utility-panel material GLB bridge: **`35292755078` — SUCCESS**;
+- Building material UC receiver closure continuity: **`35292755029` — SUCCESS**;
+- Building planar-role UC index bridge: **`35292755021` — SUCCESS**.
+
+This does not promote unrelated owner lanes or claim that every future workflow is green.
 
 ## Authority / non-overlap boundary
 
-- **Hard Surface:** owns the service-surface source geometry/domain.
-- **Geometry:** owns the UV chart and sampling handoff.
-- **Materials / Lookdev:** owns checker values, material meaning, density target, appearance, and future replacement policy.
-- **Technical Art:** owns the material-bearing transport package and exact receiver/evidence plumbing.
-- **Environment:** owns receiving-world adoption/rollback.
-- **Runtime:** owns cost, performance and target-device acceptance.
-- **Art Direction / independent Visual QA:** own appearance acceptance.
-- **Universal Creation:** remains generic observer machinery; no Building rule or Materials policy was added.
+- **Hard Surface:** source service-surface geometry/domain.
+- **Geometry:** UV chart and directional sampling handoff.
+- **Materials / LookDev:** checker values, material meaning, review-density target, appearance, replacement policy.
+- **Technical Art:** material-bearing package, coordinate/data transport, receiver/evidence plumbing.
+- **Environment:** receiving-world adoption/rollback.
+- **Runtime:** runtime cost and target-device acceptance.
+- **Art Direction / independent Visual QA:** appearance acceptance.
+- **Universal Creation:** generic observation only; no Building/Materials policy added.
 - **`axm-create-me`:** coordination/status only.
 
 ## Explicit HOLDs
 
-This PASS does **not** establish:
-
-- production UV adoption or source replacement;
-- final material/look quality;
-- Environment default adoption;
-- Runtime/device CPU/GPU/FPS/VRAM/thermal acceptance;
-- a universal texture-density target;
-- a universal Godot material/import policy;
-- CANON;
-- production or game readiness.
+This PASS does **not** establish production UV/source adoption, final look quality, Environment default adoption, Runtime/device CPU/GPU/FPS/VRAM/thermal acceptance, a universal texel-density target, a universal Godot material/import policy, CANON, or production/game readiness.
 
 ## Prior lineage preserved
 
-The previous Object continuity state remains valid historical evidence in its owning Object TA PR #16 and retained artifact `10525954724`; this Building activation does not overwrite or reinterpret it.
+The previous Object Technical Art continuity state remains valid in Object TA PR #16 and retained artifact `10525954724`; this Building activation does not overwrite or reinterpret it.
 
 ## Four-root check
 
-**Truth:** the gap is described as an executable dependency-provenance hole, not a material or visual defect; current UC observation equality is measured on the exact retained carrier, and the prior real-Godot receipt is retained rather than falsely rerun/relabelled.
+**Truth:** the gap was an executable dependency-provenance hole, not a visual defect. The dependency-only negative is retained, exact carrier bytes are bound, real target evidence is same-head and the current-UC continuity claim is kept distinct from the target-host claim.
 
-**Agency / non-domination:** source, Geometry, Materials, Environment, Runtime, Art/QA and Technical Art keep separate authority. UC remains a generic observer.
+**Agency / non-domination:** Hard Surface, Geometry, Materials, Technical Art, Environment, Runtime and Art/QA keep separate acceptance authority; UC remains generic.
 
-**Continuity:** the exact previously proven carrier, prior target-host receipts, tested UC head, fresh current UC head, complete local receiver closure, and retained artifact lineage are all bound explicitly.
+**Continuity:** owner heads, exact carrier, exact Materials pixel identity, tested/current UC heads, complete executable closure, same-head Godot receipt and both retained archives are explicit.
 
-**Wisdom before speed:** one small reusable receiver-closure contract closes the blind spot instead of duplicating material logic, reopening owner lanes, or centralizing Building knowledge in UC.
+**Wisdom before speed:** one small reusable closure binder closes the blind spot instead of duplicating material logic or centralizing Building semantics into UC.
 
 ## Current state
 
-`PASS_BUILDING_MATERIAL_CURRENT_UC_EXECUTABLE_RECEIVER_CLOSURE_AND_OBSERVATION_IDENTICAL_TO_TESTED_RECEIVER / MAP_TA_PR40_HEAD_457C086D_DRAFT_MERGEABLE / TESTED_UC_13A82334_ANCESTOR / CURRENT_UC_3E6E5140 / ENTRY_BLOB_BC7AA2FF / DEPENDENCY_BLOB_628C862A / CLOSURE_2_FILES_IDENTICAL / POSITIVE_320_320 / NEGATIVE_341P333_465P455_ANISO_1P363636 / RUN_35292755029_SUCCESS / ARTIFACT_10526083225_106473B_43_FILES_SHA_A835E4D7 / PRIOR_REAL_GODOT_RECEIPT_RETAINED / UC_PRODUCT_UNCHANGED / HOLD_VISUAL_RUNTIME_ENVIRONMENT_ADOPTION_CANON_PRODUCTION / COORDINATION_ONLY`
+`PASS_BUILDING_MATERIAL_EXACT_OWNER_TO_REAL_GODOT / PASS_CURRENT_UC_EXECUTABLE_RECEIVER_CLOSURE_CONTINUITY / MAP_TA_PR40_HEAD_457C086D_DRAFT_MERGEABLE / TESTED_UC_13A82334_ANCESTOR / CURRENT_UC_3E6E5140 / CLOSURE_2_FILES_IDENTICAL / CARRIER_DC65FEC6 / PNG_E932CDD9 / RGBA_02F8F464 / SAME_HEAD_REAL_GODOT_RUN_35292755078_SUCCESS / CLOSURE_RUN_35292755029_SUCCESS / TARGET_ARTIFACT_10527162239_47057B_28_FILES_SHA_D760A61C / CLOSURE_ARTIFACT_10526083225_106473B_43_FILES_SHA_A835E4D7 / UC_PRODUCT_UNCHANGED / HOLD_VISUAL_RUNTIME_ENVIRONMENT_ADOPTION_CANON_PRODUCTION / COORDINATION_ONLY`
