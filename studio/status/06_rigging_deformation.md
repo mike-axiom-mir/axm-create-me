@@ -2,254 +2,216 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_UPPER_TRUNK_EAST_MID_PARENT_CHILD_SOCKET_REBASE_CONTINUOUS_PRODUCT_DOMAIN_DIAGNOSTIC / NATURE_PR14_HEAD_6CF64925_OPEN_DRAFT_MERGEABLE / ORGANIC_INTERACTION_DONOR_F8D103A9_PINNED / RIGGING_PREDECESSOR_B4B480B4_PRESERVED / EAST_MID_CONTAINMENT_MARGIN_0P113698542M / PARENT_INTERVAL_MINUS2P5_TO_PLUS2P5_DIAGNOSTIC_ONLY / CHILD_INTERVAL_MINUS5_TO_PLUS5_UNCHANGED / 9_REPRESENTATIVE_PARENT_CHILD_WITNESSES / MAX_CONJUGATION_RESIDUAL_8P951E-16M / STALE_FRAME_NEGATIVE_ERROR_0P002052633M / RUN_35320682410_GREEN_PY311+PY313 / 77_TESTS_OK / ALL_7_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10536851843_13807B_SHA_44D246DB_INDEPENDENT_REHASH_MATCH / TRUNK_SKINNING_SURFACE_ATTACHMENT_NORTH_LOW_POLICY_ANIMATION_RUNTIME_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
+State: **PASS_OBJECT_HINGE_RELATIVE_FACET_PHASE_SUCCESSOR_RIG_PHASE_COMPOSITION_CONTINUOUS_0_TO_110 / OBJECT_PR27_HEAD_0974A97A_OPEN_DRAFT_MERGEABLE / HARD_SURFACE_SUCCESSOR003_EF1DFC2F_BLOB_E7A44523_PINNED / PREDECESSOR_RIGGING_CF377074_PRESERVED / HISTORICAL_LID_RIG_4B72C991_PRESERVED / BODY_PHASE_0DEG_LID_PHASE_PLUS15DEG / EXACT_PLUS_X_SIGN_MINUS1_DOMAIN_0_TO_110_UNCHANGED / 9_REPRESENTATIVE_POSES / MAX_OUTER_COMPOSITION_RESIDUAL_3P469E-18M / MAX_BORE_COMPOSITION_RESIDUAL_2P936E-18M / FIXED_BODY_DRIFT_0M / PHASE_INDEPENDENT_RADIAL_LOWER_BOUND_0P001M / RUN_35324869415_GREEN_PY311+PY313 / 82_TESTS_OK / ALL_17_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10539181299_12583B_SHA_85AFBAA5 / SOURCE_DEFAULT_VISUAL_ANIMATION_TA_RUNTIME_PIN_OWNERSHIP_COLLISION_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, current activity across all eleven design repositories, and the complete specialist-status constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the full specialist-status constellation, and current work across all eleven design repositories before acting.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product code, tests, contracts, verifier and workflow changed only in `mike-axiom-mir/axm-nature-design`.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product code, tests, contract, verifier and CI workflow changed only in `mike-axiom-mir/axm-object-design`.
 
 Four-root merge gate remains unchanged: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
 Immediately preceding Rigging status blob remains historical and rollback-addressable:
 
-`cef464998ae33a9359c4d72de68ddc49a911cf93`
+**`32e7db1d772dc409eb82c1412dcfe246c405139f`**
 
-That predecessor snapshot retains the exact five-socket shared-driver composition PASS at Rigging head `b4b480b415047fea90b4740f7702ced0dba9142d` and all earlier Nature/Object/Animal/Character Rigging lineage. This activation extends that lane; it does not rewrite predecessor truth.
+That predecessor snapshot preserves the Nature result at Rigging PR #14 exact head `6cf64925f0ea00737e4d3f2d4f15979c773f309d`: `PASS_UPPER_TRUNK_EAST_MID_PARENT_CHILD_SOCKET_REBASE_CONTINUOUS_PRODUCT_DOMAIN_DIAGNOSTIC`. It is not relabelled or invalidated by this Object activation.
 
 ## Constellation / duplicate-lane scan
 
-The strongest fresh Rigging-owned seam was Nature Organic's new exact flex-interaction handoff.
+The strongest fresh Rigging-owned receiver seam was Object Hard-Surface PR #25's new source-owned relative facet-phase successor.
 
-- Weapon / Armor / Unit / Misc still have no grounded open articulation/weight/socket receiver stronger than Nature.
-- Character and Animal retain mature bounded Rigging evidence; newest activity did not return a fresher Rigging defect.
-- Object remains dominated by Hard Surface / Materials / visual follow-up; its existing hinge/latch Rigging is already mature and no new source-owned Rigging seam displaced Nature.
-- Building / Weather / Map are currently owned primarily by Geometry, Environment, VFX, Procedural, Runtime or composition evidence.
-- Nature's prior five-socket Rigging owner `b4b480b4...` is actively consumed downstream by Animation/VFX, so that owner was preserved rather than rewritten.
-- Nature Organic PR #8 advanced to exact readiness donor `f8d103a9f0a1e457539919a45c605c1edb8b9a7f` and explicitly exposed a new source-owned hierarchy question: `trunk-upper-flex` spatially contains the exact `east-mid` branch-root flex center while leaving hierarchy/weights/constraints to Rigging.
-- The existing Nature Rigging PR #14 was reused. **No duplicate Rigging PR was opened.**
+- Weapon / Armor / Unit / Misc: no stronger grounded current articulation/weight/socket receiver.
+- Character / Animal: mature bounded Rigging evidence remains; no fresher returned Rigging defect displaced Object.
+- Nature: latest upper-trunk/east-mid hierarchy proof remains valid at exact head `6cf64925...`; current downstream work did not justify widening its diagnostic intervals.
+- Building / Weather / Map: current activity is primarily Geometry, Environment, VFX, Procedural or Runtime owned.
+- Object Hard-Surface PR #25 advanced to exact source-owner successor003 and explicitly leaves Rigging authority false, requiring receivers to rebind/retest rather than inherit prior compatibility.
+- Existing Object Rigging PR #27 was therefore reused. **No duplicate Rigging lane was opened.**
 
 ## Owning lane and exact identities
 
-Repository: `mike-axiom-mir/axm-nature-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
-Existing draft PR: **#14 — `Rigging: prove five east-rear primary branch root sockets`**
+Existing draft PR: **#27 — `Rigging: preserve source-owned hinge facet phase through lid articulation`**
 
-Branch: `studio/rigging-east-rear-root-socket-001`
+Branch: `studio/rigging-lid-keeper-socket-bind-004`
 
 Exact current head:
 
-**`6cf64925f0ea00737e4d3f2d4f15979c773f309d`**
+**`0974a97af10fedf62a5803a88921faf96f3448d5`**
 
 Observed state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Preserved exact lineage:
+Pinned source / rig identity:
 
-- Organic source owner: `fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`;
-- source digest: `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`;
-- current Organic interaction/readiness donor: `f8d103a9f0a1e457539919a45c605c1edb8b9a7f`;
-- exact Organic source JSON blob: `fb12b759e1abfd0455bf46fd39a0eba27095796b`;
-- exact Organic readiness module blob: `0e787e5724c29878a86a425b43a39d5120bf1086`;
-- exact Organic interaction document blob: `d103856df817d1b3c3ea7938fe8ac4067d7de0c9`;
-- Geometry migrated receiver owner: `9b451ba1f65281f550a6754e18574f7ab2951e28`;
-- migrated mesh digest: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
-- Rigging predecessor / five-socket shared-driver owner: `b4b480b415047fea90b4740f7702ced0dba9142d`.
+- exact host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- Hard-Surface successor003 head: `ef1dfc2f2c1adbe3c90ba089c66ac09d223df25c`;
+- successor003 contract blob: `e7a44523ea80e567a745cd61af7fd7005757cc12`;
+- successor003 source-owner result: `PASS_SOURCE_OWNED_HINGE_RELATIVE_FACET_PHASE_SUCCESSOR`;
+- Rigging predecessor head: `cf377074f70ce7f7e386f1378c51705b3db4d305`;
+- predecessor result: `PASS_PHASE_INVARIANT_BORED_KNUCKLE_SUCCESSOR_RIG_1MM_RADIAL_NONCONTACT_CONTINUOUS_0_TO_110`;
+- historical lid-rig head: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- historical lid-plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
+- joint: `rear-lid-hinge-001`;
+- axis: exact source `+X` `[1,0,0]`;
+- opening sign: `-1`;
+- source angle domain: `[0°,110°]`;
+- moving lid knuckles: `l0 / l1`;
+- fixed body knuckles: `b0 / b1 / b2`.
 
-No source JSON, source flex declaration, Geometry receiver, existing `east-mid` child pivot/axis/partition, five-socket shared-driver Rigging semantics, Animation, VFX, Technical Art or Runtime implementation was rewritten.
+No source geometry, successor003 geometry, historical rig, parent partition, joint axis, sign or motion domain was rewritten.
 
-## Fresh Organic relation consumed
+## Fresh source relation consumed
 
-Organic's exact neutral interaction map records:
+Hard Surface owns a regular 12-gon facet-phase candidate with:
 
-- `trunk-upper-flex` center / exact `upper` trunk point: `[-0.04, 0.02, 2.35] m`;
-- trunk flex radius: `0.22 m`;
-- `east-mid-branch-flex` center / exact existing child socket: `[-0.01, 0.0, 2.45] m`;
-- child flex radius: `0.12 m`;
-- neutral center distance: `0.10630145812734658 m`;
-- east-mid root-center containment margin: `0.11369854187265342 m`;
-- declared flex-envelope overlap margin: `0.23369854187265338 m`;
-- both source statuses remain `DECLARED_NOT_DEFORMATION_TESTED`.
+- body-owned knuckle phase: **`0°`**;
+- lid-owned knuckle phase: **`+15°`**;
+- sector period: **`30°`**;
+- outer and bore cross-sections rotated together;
+- source pin circumradius: `0.009 m`;
+- successor bore circumradius: `0.010352761804100828 m`;
+- phase-independent pin/bore radial lower bound: **`0.0009999999999999992 m`**;
+- automatic default replacement: false;
+- automatic downstream adoption: false;
+- Rigging parenting authority: false.
 
-Organic also reports a `trunk-upper-flex ↔ north-low` **envelope overlap** while the `north-low` root center remains outside the trunk flex radius. This activation deliberately does **not** infer that the east-mid policy applies to north-low.
+Hard Surface explicitly does **not** claim that this phase candidate repairs the retained visual highlight issue. Rigging does not promote that hypothesis.
 
 ## Selected bounded improvement
 
-New contract:
+New Rigging contract:
 
-**`axm.nature-upper-trunk-east-mid-hierarchical-socket-rigging/v0.1`**
+**`axm.object-hinge-relative-facet-phase-rig-compatibility/v0.1`**
 
 Scoped result:
 
-**`PASS_UPPER_TRUNK_EAST_MID_PARENT_CHILD_SOCKET_REBASE_CONTINUOUS_PRODUCT_DOMAIN_DIAGNOSTIC`**
+**`PASS_HINGE_RELATIVE_FACET_PHASE_SUCCESSOR_RIG_PHASE_COMPOSITION_CONTINUOUS_0_TO_110`**
 
-The parent pivot is the exact source `upper` trunk point.
+The bounded constraint is:
 
-The parent diagnostic bend-plane axis is derived only from exact source trunk geometry:
+> Apply the exact source-owner cross-section phase once, then apply the unchanged historical lid rotation about the same exact +X centerline.
 
-`normalize(cross(normalize(upper - mid), normalize(crown - upper)))`
+Body knuckles remain under `body_shell`; lid knuckles remain under `lid_shell`. Pin axial phase and pin physical owner remain **UNSPECIFIED**.
 
-Measured axis:
+## Continuous motion-boundary proof
 
-`[0.3938933016302511, 0.9190843704705859, -0.011488554630882322]`
+For every real source lid angle `theta ∈ [0°,110°]`, the historical Rigging sign applies lid rotation `-theta` about +X. The source-owned lid cross-section begins at `+15°` about the same axis.
 
-Parent diagnostic interval:
+Because both operations are rotations around the same exact axis:
 
-**`[-2.5,+2.5]°`**
+**`R_x(-theta) · R_x(+15°) = R_x(+15° - theta)`**
 
-Representative parent angles:
+for every real `theta` in the existing owner domain.
 
-**`-2.5 / 0 / +2.5°`**
+Therefore the source-owned `+15°` lid facet phase is applied exactly once and preserved as an additive source offset through the full continuous Rigging interval. The proof does not require inventing a new motion curve or Animation semantics.
 
-This interval is Rigging verification scope only. It is **not** inferred from the source `0.22 m` flex radius and is not source/biological ROM.
+Representative source-angle witnesses:
 
-The child remains the exact previously proven `east-mid` socket from the five-primary-branch Rigging family:
+**`0 / 15 / 30 / 45 / 60 / 75 / 90 / 105 / 110°`**
 
-- unchanged pivot;
-- unchanged source-derived child axis;
-- unchanged `52` selected vertices / `72` selected triangles;
-- unchanged child diagnostic interval `[-5,+5]°`.
+Corresponding historical applied lid rotations:
 
-The new hierarchy rule is only:
+**`0 / -15 / -30 / -45 / -60 / -75 / -90 / -105 / -110°`**
 
-**transport the child pivot and child axis through the parent trunk frame before applying the existing child-local rotation.**
+Corresponding unwrapped lid cross-section phase:
 
-## Continuous product-domain proof
+**`+15 / 0 / -15 / -30 / -45 / -60 / -75 / -90 / -95°`**
 
-For every real parent angle in `[-2.5,+2.5]°`, the parent motion is one rigid Rodrigues rotation around the exact upper-trunk pivot. Therefore:
+Measured maxima across retained witnesses:
 
-- parent-pivot → east-mid-socket distance is invariant;
-- Organic's exact `0.11369854187265342 m` containment margin is invariant;
-- Organic's exact `0.23369854187265338 m` declared flex-overlap margin is invariant;
-- child pivot and child axis are transported by the same rigid parent transform.
+- outer same-axis composition residual: **`3.469446951953614e-18 m`**;
+- bore same-axis composition residual: **`2.9359420293276878e-18 m`**;
+- fixed-body phase drift: **`0.0 m`**;
+- retained phase-independent radial lower bound: **`0.0009999999999999992 m`**.
 
-For every real child angle in the existing `[-5,+5]°` interval, the child remains one rigid rotation around that transported frame.
-
-Rigid-transform conjugation gives, throughout the complete closed parent × child diagnostic product domain:
-
-`parent(child_local(neutral)) == child_about_transported_frame(parent(neutral))`
-
-This proves the **hierarchy/rebase constraint** continuously. It does not prove trunk mesh skinning, surface attachment, collision, Animation or Runtime.
-
-## Representative proof
-
-Retained witnesses:
-
-**3 parent angles × 3 child angles = 9 parent/child poses**
-
-Measured maxima:
-
-- hierarchy-conjugation residual: **`8.95090418262362e-16 m`**;
-- rigid-child pairwise-distance drift: **`7.771561172376096e-16 m`**;
-- transported child-axis projection drift: **`1.942890293094024e-16 m`**;
-- trunk → child center-distance drift: **`6.938893903907228e-17 m`**;
-- containment-margin drift: **`6.938893903907228e-17 m`**;
-- declared flex-overlap-margin drift: **`5.551115123125783e-17 m`**;
-- maximum parent-driven child-socket travel: **`0.004625681258855116 m`**.
-
-Fail-closed negative:
-
-- applying the child rotation after parent motion around the **stale neutral child pivot/axis** diverges from the correct transported-frame result by **`0.002052633068192501 m`**.
-
-That negative control proves the parent-frame rebase is materially required rather than a bookkeeping label.
+The continuous radial certificate remains the predecessor/source-owner guarantee for concentric regular 12-gon radial cross-sections; Rigging does not extend it into axial contact, full-component collision or bearing/load claims.
 
 ## Fail-closed controls
 
-The new verifier rejects all nine attempted drifts/promotions:
+The verifier rejects all of these attempted drifts/promotions:
 
-1. exact Rigging predecessor drift;
-2. exact Organic readiness donor drift;
-3. parent diagnostic interval widening;
-4. source/biological ROM promotion;
-5. trunk mesh deformation / skin-weighting promotion;
-6. branch/trunk surface-attachment promotion;
-7. promotion of the separate `north-low` overlap to resolved;
-8. Animation acceptance promotion;
-9. Runtime acceptance promotion.
+1. collapse lid source phase from `+15°` to `0°`;
+2. double-apply lid source phase as `+30°`;
+3. change moving lid knuckles from `l0/l1`;
+4. widen the Rigging motion domain beyond `0..110°`;
+5. silently adopt successor003 as default geometry;
+6. silently claim Animation acceptance;
+7. silently claim Runtime acceptance.
 
-No source threshold, flex radius, receiver identity or prior child socket was weakened to obtain PASS.
+No source threshold, prior Rigging range or downstream authority was weakened to obtain PASS.
 
 ## Exact-head CI and retained evidence
 
 Dedicated workflow:
 
-**`35320682410 — Rigging east rear upper-trunk east-mid hierarchy` — SUCCESS**
+**`35324869415 — Object relative-facet-phase hinge Rigging compatibility` — SUCCESS**
 
 - Python `3.11`: SUCCESS;
 - Python `3.13`: SUCCESS;
-- full repository suite: **`77 tests / OK`**;
-- exact predecessor and Organic donor identity gates: PASS;
-- exact Organic interaction facts were recomputed from donor code/source before Rigging verification.
+- full Object repository suite: **`82 tests / OK`**;
+- exact successor003 head/blob gates: PASS;
+- predecessor Rigging reconstruction: PASS;
+- successor003 Hard-Surface evidence reconstruction: PASS;
+- bounded truth-boundary assertions: PASS.
 
-All **seven** pull-request workflow families observed on exact head `6cf64925...` completed successfully:
-
-- Rigging east rear upper-trunk east-mid hierarchy;
-- Rigging east rear shared-driver composition;
-- Rigging east rear root socket evidence;
-- Geometry source topology migration evidence;
-- Organic east rear tree evidence;
-- Organic compact east tree evidence;
-- Nature organic form baseline.
+All **17** pull-request workflow families observed on exact Rigging head `0974a97a...` completed successfully; no exact-head red workflow is hidden.
 
 Retained artifact:
 
-- ID: **`10536851843`**;
-- name: `nature-east-rear-rigging-upper-trunk-east-mid-hierarchy-6cf64925f0ea00737e4d3f2d4f15979c773f309d`;
+- ID: **`10539181299`**;
+- name: `object-hinge-relative-facet-phase-rig-compatibility-0974a97af10fedf62a5803a88921faf96f3448d5`;
 - files: **9**;
-- archive size: **`13,807 B`**;
-- GitHub SHA-256: **`44d246dbc47b866e180eb0a156cc70f4b3a4b5278bff8eb724ff68ca605f2787`**;
-- archive downloaded and independently rehashed during this activation;
-- independent SHA-256 exactly reproduced the GitHub digest.
+- archive size: **`12,583 B`**;
+- GitHub SHA-256: **`85afbaa5fd948ed5135826fbe0d8c842b6917545c2d897e2756dc098dbc1731b`**;
+- retention through 2026-10-18 per GitHub artifact metadata.
 
 ## Handoffs recorded
 
-- Rigging PR #14 — comment **`5726882154`**: exact head/result, representative residuals, negative control, workflow/artifact and HOLD boundaries.
-- Organic PR #8 — comment **`5726883668`**: exact interaction map consumed without source rewrite or flex-radius reinterpretation; north-low remains separate HOLD.
-- Animation PR #22 — comment **`5726885140`**: current Animation loop remains truthful for prior Rigging owner `b4b480b4...`; no automatic trunk hierarchy/timing transfer.
-- Technical Art PR #3 — comment **`5726886666`**: no target-host acceptance transfers; future receiver must explicitly rebind this exact Rigging head plus a timed Animation owner.
-- Runtime PR #20 — comment **`5726887953`**: no controller/device/performance acceptance transfers.
-- Geometry PR #18 — comment **`5726889298`**: prior finite geometry observations are not promoted to the new trunk-hierarchy collision claim.
+- Rigging PR #27 — comment **`5727425615`**: exact result, identities, residuals, CI/artifact and strict non-claims.
+- Hard-Surface PR #25 — comment **`5727427606`**: successor003 consumed exactly, no source rewrite/default adoption or visual promotion.
+- Materials PR #6 — comment **`5727429028`**: visual hypothesis remains unproven; rebind exact successor003 + Rigging head and rerender the same Direction-047 rear-three-quarter comparison before claiming repair.
+- Animation PR #10 — comment **`5727430646`**: no timing/easing/playback acceptance transfers; successor003 consumption requires exact rebind and rerun.
+- Technical-Art PR #16 — comment **`5727434261`**: no target-host/GLB/UC acceptance transfers; phase-bearing geometry transport must be independently rebound and verified.
+- Runtime PR #13 — comment **`5727435612`**: no target-host/device/resource acceptance transfers; older Runtime proof remains pinned to its own representation identity.
 
 ## Explicit non-claims
 
 This PASS does **not** establish:
 
-- trunk mesh deformation;
-- production trunk or branch skin weights;
-- branch/trunk surface attachment, seam quality or blended weighting;
-- the separate `north-low` overlap policy;
-- simultaneous trunk + five-primary-branch motion;
-- continuous child-child, child-trunk or child-receiver collision/self-intersection freedom;
-- plant biomechanics, stiffness, stress, strength or physical wind;
-- source-authored or biological ROM;
-- Animation timing, interpolation, looping, playback or motion quality;
-- Technical-Art target-host transport;
-- Runtime/controller/input/device/performance acceptance;
-- physics/gameplay suitability;
+- successor003 default/source adoption;
+- that the `+15°` relative facet phase fixes the retained rear-three-quarter highlight defect;
+- pin parent, spin law, axial phase or physical ownership;
+- axial retention/contact, bearing behavior, friction, lubrication, loads, strength, fatigue, wear, manufacturing tolerance or class of fit;
+- full-component articulated collision;
+- Animation timing, easing, interpolation, playback or motion quality;
+- Technical-Art target-host / UC / GLB adoption;
+- Runtime controller, input, device or performance acceptance;
 - Materials, Art Direction or independent Visual QA acceptance;
 - CANON or production/game readiness;
-- generic Nature/UC rig architecture;
+- generic Object/UC rig architecture;
 - Rigging mastery.
 
 ## Four-root gate
 
-**Truth:** exact source, Organic interaction donor, Geometry receiver and Rigging predecessor identities are pinned; diagnostic intervals remain diagnostic; a kinematic hierarchy proof is not relabelled as trunk deformation, Animation, collision or Runtime acceptance.
+**Truth:** exact source, source-successor, predecessor Rigging and historical lid-rig identities are pinned. A same-axis Rigging compatibility proof is not relabelled as visual repair, Animation, target-host, Runtime, full collision or production acceptance.
 
-**Agency / non-domination:** Organic retains source authority; Geometry, Animation, VFX, Technical Art and Runtime retain their own downstream acceptance gates. No specialist is forced to inherit this PASS.
+**Agency / non-domination:** Hard Surface retains source ownership; Materials/Art/QA retain visual acceptance; Animation retains motion acceptance; Technical Art retains target-host transport; Runtime retains controller/device/performance authority. No downstream specialist is forced to inherit this PASS.
 
-**Continuity:** predecessor status blob `cef464998ae33a9359c4d72de68ddc49a911cf93` remains rollback-addressable; existing Rigging PR #14 and exact prior east-mid socket are extended rather than replaced.
+**Continuity:** predecessor status blob `32e7db1d772dc409eb82c1412dcfe246c405139f` remains rollback-addressable; the prior Nature result remains historical; existing Object Rigging PR #27 and exact historical lid rig are extended rather than replaced.
 
-**Wisdom before speed:** the pass resolves only the contained-root hierarchy ambiguity that Organic grounded. It does not jump directly to whole-tree skinning, transfer the rule to north-low, or invent timing/wind/runtime semantics.
+**Wisdom before speed:** this activation answers only the newly grounded source-facet-phase/Rigging compatibility question. It does not widen the hinge range, invent pin semantics, or skip the required Materials/Art/QA visual rerender.
 
 ## Next legitimate Rigging trigger
 
-Do not widen either diagnostic interval merely because this pass is green.
+Do not widen this proof merely because it is green.
 
-Fresh grounded candidates now include:
+Fresh legitimate next work requires one of:
 
-- a separate policy for the Organic-returned `trunk-upper-flex ↔ north-low` envelope overlap, where the branch root center is **outside** the trunk flex radius;
-- exact trunk mesh weighting/deformation if a source/Geometry/Technical-Art receiver grounds the affected vertex domain and seam criteria;
-- any downstream Animation/Technical-Art/Geometry return that exposes a transform, weighting, collision or attachment defect against exact head `6cf64925...`;
-- a stronger newly source-owned rig/socket receiver in another design repository.
+- a Materials/Art/QA return showing a deformation/articulation defect after exact successor003 rerender;
+- Animation/Technical-Art/Runtime rebind feedback exposing an exact transform/transport mismatch against Rigging head `0974a97a...`;
+- a newly source-owned pin/socket/constraint relationship that explicitly leaves Rigging authority open;
+- a stronger grounded weighting/deformation receiver from Character, Animal, Nature or another design repository.
 
-Each must be rescanned against the full constellation before opening or extending a lane.
+Each must be rescanned against the full constellation before extending or opening a lane.
