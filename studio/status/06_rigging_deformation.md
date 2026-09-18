@@ -2,31 +2,27 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_BORED_KNUCKLE_RIG_RADIAL_NONCONTACT_CONTINUOUS_0_TO_110 / HOLD_SOURCE_STATIC_1MM_AS_CONTINUOUS_MOTION_CLEARANCE_PIN_PHASE_UNSPECIFIED / OBJECT_PR27_HEAD_38F32EFE / HARD_SURFACE_SUCCESSOR_178D93E8_PINNED / HISTORICAL_LID_RIG_4B72C991_PINNED / CI_35291646970_GREEN_311_313 / 15_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10526546016_SHA_A20238E8 / SOURCE_GEOMETRY_ADOPTION_ANIMATION_TA_RUNTIME_PHYSICS_VISUAL_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
+State: **PASS_PHASE_INVARIANT_BORED_KNUCKLE_SUCCESSOR_RIG_1MM_RADIAL_NONCONTACT_CONTINUOUS_0_TO_110 / OBJECT_PR27_HEAD_CF377074 / HARD_SURFACE_SUCCESSOR002_A6D18B9F_BLOB_7E078189 / PREDECESSOR_RIG_38F32EFE_AND_HISTORICAL_LID_RIG_4B72C991_PINNED / PIN_PHASE_AND_PHYSICAL_OWNER_UNSPECIFIED / CI_35295344713_GREEN_311_313 / 16_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10527372668_SHA_F16D8CAB_INDEPENDENTLY_REHASHED / NO_AUTOMATIC_SOURCE_ADOPTION / ANIMATION_TA_RUNTIME_PHYSICS_VISUAL_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the prior Rigging status, every current specialist status file, and all eleven design repositories before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the complete prior Rigging status, all current specialist status files `01..13`, and the active constellation across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before acting.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stayed inside the existing `mike-axiom-mir/axm-object-design` Rigging PR #27. No Universal Creation, Profession Fabric, Animation, Technical-Art, Runtime or `axm-create-me` product implementation changed.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation stayed inside the existing `mike-axiom-mir/axm-object-design` Rigging PR #27. Universal Creation, Profession Fabric, Animation, Technical Art, Runtime and product source owners were not modified here.
 
 The four AXM roots remain the internal merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
-Immediate predecessor Rigging status blob: **`d79a69b4cc4e23832a790835c408750566de280d`**. It records the exact prior Object hinge-knuckle parent-binding PASS at head `16b32c5ac6d52d768d64f0fac9fedfe4ee9f24fe`. That evidence remains historical truth and is not rewritten by this activation.
+Immediate predecessor Rigging status blob: **`3d705d7b86dc999d3d93c7ab5a9e04594d90cdd6`**. That predecessor remains the exact successor-001 result at Rigging head `38f32efe4a1b053f77255c31bee021646156e4ad`: positive arbitrary-phase radial non-contact through `0..110°`, but only `0.0006933324366016139 m` guaranteed while the source's ~`1 mm` same-phase value remained held as a continuous arbitrary-phase claim. Nothing here rewrites that historical result.
 
-## Fresh constellation / duplication scan
+## Fresh constellation / duplicate-lane scan
 
-All eleven design repositories and current specialist statuses were inspected.
+The fresh non-duplicated trigger was the explicit Hard-Surface return on Object PR #25. Hard Surface authored a new alternate **phase-invariant source successor 002** at exact head `a6d18b9fe729304dc4d95d962ed27527adce211f`, changing only the bore radius needed to satisfy the earlier Rigging handoff while retaining source ownership and `automatic_downstream_adoption=false`.
 
-- **Weapon / Armor / Unit / Misc:** no grounded articulated source exists that would justify inventing a new Rigging lane.
-- **Character:** review-006 already carries mature continuous deformation/contact evidence over its stated predicates; no fresh returned Character Rigging defect displaced the new source-owner handoff.
-- **Animal:** the 321-subframe normalized-u16 post-skin owner-frame question remains closed at its stated scope; no stronger new Rigging defect was returned.
-- **Building / Nature / Weather / Map:** current active gaps remain primarily Geometry, Hard Surface, Materials, Environment, VFX, Procedural or receiving/runtime questions.
-- **Object:** Hard-Surface PR #25 returned an explicit receiver-owned handoff at exact head `178d93e8976a741271d7f47ab4865519de925657`: the already-proven faceting-aware annular hinge-knuckle candidate is now a source-owned **alternate successor**, with `automatic_downstream_adoption=false` and an explicit requirement that Rigging/Technical Art/Runtime rebind and retest rather than inherit the source PASS.
+No new Rigging PR was opened. Existing Object PR #27 already owns this exact hinge-compatibility receiver question and was advanced in place.
 
-This is exactly the fresh trigger the prior Rigging status required. No new PR was opened. Existing Object Rigging PR #27 was advanced in place.
+The remaining constellation did not justify pre-emption during selection: Character and Animal retained mature exact deformation/receiver evidence; Building/Map/Object downstream lanes remained owner-specific; Weapon/Armor/Unit/Misc exposed no grounded new articulated source. A **new Nature Organic metadata return appeared during this activation** after selection: east-rear primary-root flex metadata is now 5/5 with `north-top` at owner-selected `0.12 m`, explicitly `DECLARED_NOT_DEFORMATION_TESTED`. That is a legitimate future Rigging trigger, but it was not mixed into this already-bounded Object activation. No second lane was opened by cadence.
 
-## Owning lane and exact identities
+## Owning lane and exact identity
 
 Repository: `mike-axiom-mir/axm-object-design`
 
@@ -34,165 +30,162 @@ Existing draft PR: **#27 — `Rigging: bind lid-owned latch keeper sockets throu
 
 Branch: `studio/rigging-lid-keeper-socket-bind-004`
 
-Exact current Rigging head: **`38f32efe4a1b053f77255c31bee021646156e4ad`**.
+Exact current Rigging head: **`cf377074f70ce7f7e386f1378c51705b3db4d305`**.
 
-Observed PR state after the change: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Observed state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Pinned identities:
+Pinned continuity:
 
-- exact historical Object source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- exact predecessor Rigging head: `16b32c5ac6d52d768d64f0fac9fedfe4ee9f24fe`;
-- historical lid Rigging donor: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
+- historical host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- predecessor Rigging head: `38f32efe4a1b053f77255c31bee021646156e4ad`;
+- historical lid rig head: `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`;
 - lid rig-plan digest: `0ad6dc2ca22676cf301579932e599a441eb7c4bccce31991d1b727aeb22ac422`;
-- exact joint: `rear-lid-hinge-001`;
-- exact source hinge axis: `+X`;
-- exact source rig range: `0..110°`;
+- joint: `rear-lid-hinge-001`;
+- exact source axis: `+X`;
+- opening sign: `-1`;
+- owner range: `0..110°`;
 - moving lid knuckles: `l0 / l1`;
-- fixed body knuckles: `b0 / b1 / b2`;
-- Hard-Surface source-successor head: `178d93e8976a741271d7f47ab4865519de925657`;
-- successor contract Git blob: `beaf16f588450a3b298e2e581b590c5dc0c07380`;
-- annular-mesh Git blob: `39a52ad5ba8497a8a524d764bbf6744bb11cf54a`;
-- owner-stack Git blob: `e4e7c95769c0827a6a019afd672ff4b20cd13541`;
-- source successor contract: `axm.object-hinge-bored-knuckle-source-successor/v0.1` / `modular-equipment-case-001/hinge-bored-knuckle-source-successor-001`.
+- fixed body knuckles: `b0 / b1 / b2`.
 
-No historical source bytes, owner labels, hinge axis/origin, joint sign/range, existing parent partition, Animation clip, Technical-Art target hierarchy, Runtime representation, physics or visual asset was retuned.
+Exact new Hard-Surface source owner:
+
+- head: **`a6d18b9fe729304dc4d95d962ed27527adce211f`**;
+- contract blob: **`7e078189d5c80508b28932563326cd5629c4efa6`**;
+- schema: `axm.object-hinge-bored-knuckle-phase-invariant-source-successor/v0.1`;
+- successor id: `modular-equipment-case-001/hinge-bored-knuckle-phase-invariant-source-successor-002`;
+- predecessor source successor: `178d93e8976a741271d7f47ab4865519de925657`;
+- pin circumradius unchanged: `0.009 m`;
+- regular polygon segment count unchanged: `12`;
+- successor-002 bore circumradius: `0.010352761804100828 m`;
+- pin relative axial phase: **UNSPECIFIED**;
+- pin physical owner: **UNSPECIFIED**;
+- automatic default replacement: false;
+- automatic downstream adoption: false.
+
+Rigging did not rewrite source geometry. It consumed the exact new source-owner successor as a receiver candidate while preserving historical and predecessor identities separately.
 
 ## Bounded Rigging improvement
 
-Added Rigging compatibility overlay:
+Added:
 
-`axm.object-hinge-bored-knuckle-rig-compatibility/v0.1`
+- `assets/modular-equipment-case-001/hinge-phase-invariant-bored-knuckle-rig-compatibility-002.json`;
+- `tools/verify_hinge_phase_invariant_bored_knuckle_rig_compatibility.py`;
+- `tests/test_hinge_phase_invariant_bored_knuckle_rig_compatibility.py`;
+- `.github/workflows/object-hinge-phase-invariant-bored-knuckle-rig-compatibility.yml`.
 
-The bounded receiver decision is deliberately narrower than geometry adoption:
+Scoped contract:
 
-- exact bored-knuckle source-successor identity is bound to the current Rigging evidence;
-- successor geometry remains **not auto-adopted**;
-- pin centerline is constrained to remain exactly coaxial with the source +X hinge line, with no translational drift;
-- pin axial phase remains **UNSPECIFIED**;
-- pin physical owner remains **UNSPECIFIED**;
-- the existing `l0/l1` moving and `b0/b1/b2` fixed parent partition is re-proved rather than inherited by story;
-- Animation, Technical Art, Runtime, physics, manufacturing and visual authority remain false.
+**`axm.object-hinge-phase-invariant-bored-knuckle-rig-compatibility/v0.1`**
 
 Scoped result:
 
-**`PASS_BORED_KNUCKLE_SUCCESSOR_RIG_RADIAL_NONCONTACT_CONTINUOUS_0_TO_110`**
+**`PASS_PHASE_INVARIANT_BORED_KNUCKLE_SUCCESSOR_RIG_1MM_RADIAL_NONCONTACT_CONTINUOUS_0_TO_110`**
 
-Truth-critical motion-clearance gate:
+The receiving Rigging constraint stays minimal: the pin centerline must remain exactly coaxial with the source +X hinge line with no translation. Rigging does not choose pin axial phase, spin law, physical owner or parent.
 
-**`HOLD_SOURCE_STATIC_1MM_AS_CONTINUOUS_MOTION_CLEARANCE__PIN_PHASE_UNSPECIFIED`**
+## Continuous 1 mm radial certificate
 
-## Continuous radial motion-boundary certificate
+For a regular 12-gon bore, the centered inradius is:
 
-The exact source-successor uses regular 12-segment coaxial pin/bore cross-sections:
+`Rb * cos(pi / 12)`
 
-- pin circumradius: **`0.009 m`**;
-- bore circumradius: **`0.010035276180410082 m`**;
-- bore inradius `Rb*cos(pi/12)`: **`0.009693332436601613 m`**;
-- Hard-Surface neutral/same-phase clearance: **`0.0009999999999999992 m`** (~`1.0 mm`);
-- phase-independent radial clearance lower bound: **`0.0006933324366016139 m`** (~`0.693332 mm`).
+With successor-002:
 
-The proof does not need a guessed pin parent or axial-spin rule. Every point of the exact regular pin lies inside its centered circumdisk of radius `0.009 m`; every point of the exact regular bore boundary contains a centered disk of radius `0.009693332436601613 m`. Therefore **every possible relative axial phase** retains at least:
+- bore circumradius `Rb = 0.010352761804100828 m`;
+- bore inradius = **`0.009999999999999998 m`**;
+- exact pin circumradius = `0.009 m`;
+- phase-independent radial lower bound = **`0.0009999999999999992 m`**.
 
-`0.009693332436601613 - 0.009 = 0.0006933324366016139 m`
+Every point of the regular pin lies inside its centered 9 mm circumdisk, while the regular bore contains the centered 10 mm in-disk. Therefore the lower bound is independent of relative polygon phase.
 
-of radial cross-section separation while the exact coaxial centerline constraint is preserved.
+Because the exact existing Rigging constraint keeps those centerlines coaxial while the lid rotates about the same +X axis, the same radial bound holds for **every real owner angle in `[0°,110°]`**, not merely sampled poses.
 
-Because that bound is independent of lid angle and relative phase, it applies continuously to **every real source angle in `[0°,110°]`**. It is not a sampled-only claim.
+Representative source witnesses retained:
 
-Representative retained source poses are **`0 / 15 / 30 / 45 / 60 / 75 / 90 / 105 / 110°`**. At every witness the existing Rigging identity remains exact: `l0/l1` are the lid-moving knuckles, `b0/b1/b2` remain fixed, the source axis is +X, and no pin phase is assumed.
+`0 / 15 / 30 / 45 / 60 / 75 / 90 / 105 / 110°`
 
-## Why the 1 mm value remains HOLD for motion
+Applied lid Rigging angles under the unchanged opening sign:
 
-The source-owned `0.001 m` value remains truthful for the exact neutral/same-phase Hard-Surface construction. Rigging does **not** silently promote that static geometric metric to an all-motion requirement.
+`0 / -15 / -30 / -45 / -60 / -75 / -90 / -105 / -110°`
 
-The phase-independent guarantee is lower by **`0.0003066675633983853 m`** and retains about **`69.33324366016145%`** of the neutral/same-phase value. Because the current Rigging evidence deliberately leaves pin axial phase unspecified, the exact operational clearance above the phase-independent lower bound is not claimed.
+At every witness, `l0/l1` remain lid-moving, `b0/b1/b2` remain body-fixed, no pin phase is assumed, and the same phase-independent lower bound is recorded.
 
-This is **not** labelled a Hard-Surface defect and no source geometry was changed. A useful source-owner handoff was recorded instead: if a future requirement demands a full `1.0 mm` guarantee under arbitrary relative axial phase while preserving the same `0.009 m` pin and 12-gon construction, the bore circumradius would need to be at least **`0.010352761804100828 m`**. That would be a new Hard-Surface source decision requiring independent wall/topology/fit review, so Rigging did not make it.
+## Historical HOLD is closed only by a new source identity
+
+The prior `HOLD_SOURCE_STATIC_1MM_AS_CONTINUOUS_MOTION_CLEARANCE__PIN_PHASE_UNSPECIFIED` remains correct for source successor 001. Its bore circumradius `0.010035276180410082 m` gives only `0.0006933324366016139 m` arbitrary-phase clearance.
+
+Successor 002 is a distinct Hard-Surface source identity. Its larger bore radius raises the arbitrary-phase lower bound to ~1 mm. Rigging does **not** reinterpret successor 001 or pretend the previous HOLD was wrong; the new PASS exists because the source owner deliberately supplied a new alternate successor and Rigging rebound it exactly.
 
 ## Fail-closed evidence
 
-The verifier and tests reject:
+The exact verifier retains negative controls for:
 
-- source-successor head/blob drift;
-- annular or owner-stack donor identity drift;
-- predecessor Rigging identity drift;
-- silent automatic downstream/source-successor adoption;
-- a silent invented pin phase such as `FIXED_TO_BODY`;
-- annular geometry drift that invalidates the exact source-owned construction metric;
-- historical lid-rig/owner partition drift;
-- downstream authority expansion.
+- substituting predecessor bore geometry, which fails the new 1 mm arbitrary-phase requirement;
+- automatic source-successor adoption;
+- inventing `FIXED_TO_BODY` or another pin phase;
+- silently claiming successor geometry adopted as production/default;
+- expanding Animation authority from false to true.
 
-The retained receipt records the negative controls instead of hiding them.
+All fail closed while the positive exact-source path passes.
 
 ## Exact-head CI / retained evidence
 
 Dedicated workflow:
 
-**`35291646970 — Object bored hinge Rigging compatibility`**
+**`35295344713 — Object phase-invariant bored hinge Rigging compatibility` — SUCCESS**.
 
-Result: **SUCCESS**.
-
-- Python 3.11: exact receiving-lineage gate PASS; exact Hard-Surface source-successor/blob gates PASS; exact source-successor evidence rebuilt PASS; complete inherited Object regression suite PASS; new Rigging compatibility receipt PASS; fail-closed controls PASS; truth-boundary assertions PASS; retained artifact upload PASS.
-- Python 3.13: exact donor/lineage gates PASS; exact source-successor evidence rebuild PASS; complete inherited Object regression suite PASS.
-- All **15 observed exact-head Object workflow families** completed **SUCCESS** at head `38f32efe4a1b053f77255c31bee021646156e4ad`.
+- Python 3.11: exact lineage/source/blob gates PASS; exact Hard-Surface predecessor and successor evidence rebuilt PASS; complete Object regression suite PASS; predecessor Rigging receipt rebuilt PASS; new phase-invariant receiver receipt PASS; bounded truth gates PASS; artifact upload PASS.
+- Python 3.13: exact lineage/source/blob gates PASS; source evidence rebuild PASS; complete Object regression suite PASS.
+- All **16 observed pull-request workflow families** on exact head `cf377074f70ce7f7e386f1378c51705b3db4d305` completed **SUCCESS**.
 
 Retained artifact:
 
-- ID: **`10526546016`**;
-- name: `object-hinge-bored-knuckle-rig-compatibility-38f32efe4a1b053f77255c31bee021646156e4ad`;
-- size: **`9,903 B`**;
-- files: **11**;
-- GitHub SHA-256: **`a20238e8cdf3c254cb611d006b0a133447e00ca66ce583536d3e11a614a2c300`**;
-- exact archive downloaded and independently rehashed to the same digest.
-
-The packet retains the exact current head, predecessor Rigging head, historical lid plan, source-successor head/contract/receipt, annular contract, owner-stack contract, Rigging compatibility contract and final receipt.
+- ID: **`10527372668`**;
+- name: `object-hinge-phase-invariant-bored-knuckle-rig-compatibility-cf377074f70ce7f7e386f1378c51705b3db4d305`;
+- size: **`10,199 B`**;
+- files: **8**;
+- GitHub SHA-256: **`f16d8cab9850b0e8162343e7e92c455741a101e6e4927adc69478fb032c73acc`**;
+- exact archive downloaded and independently rehashed to the same SHA-256.
 
 ## Handoffs recorded
 
-- **Rigging PR #27:** comment `5723188882` — exact current source-successor compatibility result, continuous phase-independent clearance certificate, CI/artifact and non-claims.
-- **Hard-Surface PR #25:** comment `5723190183` — exact successor consumed without source rewrite; `1 mm` remains neutral/same-phase only; optional future `0.010352761804100828 m` arbitrary-phase bore requirement handed back as a source-owner decision, not silently changed.
-- **Animation PR #10:** comment `5723191162` — compatibility evidence only; no timing/easing/clip or Animation adoption transferred.
-- **Technical Art PR #16:** comment `5723191965` — no target-host geometry adoption transferred; explicit exact successor rebind/rerun is required if TA chooses the annular geometry.
-- **Runtime PR #13:** comment `5723192858` — no Runtime/controller/device/physics acceptance; any future successor-consuming runtime representation must rebind its exact downstream identity.
+- Rigging PR #27 — comment **`5723644329`**: exact PASS, source/rig identities, continuous certificate, artifact and truth boundary.
+- Hard Surface PR #25 — comment **`5723645579`**: successor 002 consumed exactly; no source rewrite/default adoption; downstream authorities retained.
+- Animation PR #10 — comment **`5723646514`**: no Animation acceptance transfer; any successor-002 use requires explicit Animation rebind/rerun.
+- Technical Art PR #16 — comment **`5723647439`**: no target-host transport/adoption transfer; exact TA rebind required before use.
+- Runtime PR #13 — comment **`5723648338`**: no controller/device/performance/physics acceptance; exact Runtime rebind required before use.
 
-## Historical continuity retained
+## Authority / explicit non-claims
 
-Immediate predecessor status blob `d79a69b4...` remains the complete prior Object parent-binding status. Its exact result is still valid at predecessor head `16b32c5ac6d52d768d64f0fac9fedfe4ee9f24fe`:
+This PASS establishes only source-successor-to-existing-Rigging **radial cross-section compatibility** under the exact coaxial constraint.
 
-- `PASS_SOURCE_OWNED_HINGE_KNUCKLE_PARENT_BINDING_CONTINUOUS_0_TO_110`;
-- workflow `35286878183`;
-- artifact `10524432727`;
-- SHA-256 `5b38047a079b3380c2631dbd20a956626f3e1d56b17ac65b7bc31687cc5ab26d`.
+It does **not** establish:
 
-The earlier keeper-seat phase at Object Rigging head `9d5fb18d8eb2222694e86025641256a30f57c485` also remains exact with workflow `35277266066`, artifact `10521630508`, SHA-256 `9590b5a24b4211bf86c14aff1e311c38ebfc74d51574826849b5ac6b395d3948`. Prior Animal and Character Rigging evidence remains separately addressable in Git history. Nothing in this activation relabels those scopes.
-
-## Explicit non-claims
-
-This activation does **not** establish:
-
-- actual successor geometry adoption into a production rig or source default;
-- pin parent, axial spin law or physical ownership;
-- a continuous `1 mm` operational clearance;
-- axial-stop/collar contact or retention;
-- bearing behavior, friction, lubrication, load transfer, tolerance class, strength, fatigue, wear or manufacturing fit;
-- full-component collision freedom;
-- Animation timing, easing, interpolation, wall-clock playback, style or Animation acceptance;
-- Technical-Art target-host hierarchy/geometry adoption or export/import acceptance;
+- production/default adoption of successor-002 geometry;
+- pin parent, axial spin law or physical owner;
+- axial stop/contact, collar retention or full-component collision;
+- bearing behavior, friction, lubrication, load transfer, tolerance class, fatigue, wear or manufacturing fit;
+- Animation timing, interpolation, playback, clip quality or Animation acceptance;
+- Technical-Art GLB/scene-graph/coordinate transport or target-host adoption;
 - Runtime/controller/state-machine/input/device/performance acceptance;
 - physics/gameplay behavior;
-- final Materials / Art Direction / Visual QA acceptance;
-- arbitrary hinges or generic UC hinge/bearing promotion;
-- source default adoption or CANON;
-- production/game readiness;
+- final Materials, Art Direction or Visual QA acceptance;
+- arbitrary-hinge or UC-general policy;
+- CANON or production/game readiness;
 - Rigging mastery.
 
 ## Four-root gate
 
-- **Truth:** exact source, successor, annular, owner-stack, historical rig and predecessor Rigging identities are pinned. The continuous radial claim is analytic and phase-independent; the larger `1 mm` motion claim stays explicitly held.
-- **Agency / non-domination:** Hard Surface retains source-successor geometry authority; Rigging owns only its compatibility/constraint evidence; Animation keeps motion performance; Technical Art keeps transport/target-host adoption; Runtime keeps controller/device/performance; Art/QA keep perceptual acceptance.
-- **Continuity:** the fresh successor is consumed without rewriting the historical source, parent-binding result or older keeper/latch phases; every prior result remains separately addressable.
-- **Wisdom before speed:** the returned source-owner seam was tested in the existing Object Rigging lane, and the proof was deliberately made independent of an invented pin parent/phase instead of forcing a premature mechanism model.
+**Truth:** successor 001's 0.693332 mm arbitrary-phase result and successor 002's ~1 mm result remain separate exact identities; the new source, historical rig, predecessor Rigging head, workflow, artifact and negative controls are pinned.
+
+**Agency / non-domination:** Hard Surface retains source geometry authority. Rigging accepts only its bounded constraint evidence. Animation, Technical Art, Runtime, physics/gameplay and Art/QA keep independent acceptance authority.
+
+**Continuity:** no prior source, rig, HOLD or PASS is silently rewritten. The existing PR lane was advanced in place, prior Rigging head `38f32efe...` remains rollback-addressable, and successor 002 remains an alternate rather than forced default.
+
+**Wisdom before speed:** one explicit returned receiver seam was closed with an analytic phase-independent proof and exact CI. A second late-arriving Nature flex trigger was recorded but not mixed into this activation.
+
+The four AXM roots remain the merge gate.
 
 ## Next trigger
 
-Do **not** extend Object PR #27 again merely by cadence. Re-scan current owners first. The next Rigging action should require a fresh returned rig/weight/constraint/socket/articulation defect or an explicit downstream adoption/rebind request not already answered by this exact retained evidence.
+Re-scan the full constellation before the next Rigging activation. Do not extend this Object hinge again merely by cadence. A legitimate fresh trigger now exists in Nature Organic PR #8: the east-rear tree has five exact root-centered flex-zone metadata declarations, including owner-selected `north-top` radius `0.12 m`, while deformation remains explicitly untested. If that remains unoccupied on the next scan, the smallest Rigging-owned next step is to bind those exact source declarations into one bounded deformation/weight/constraint experiment without inventing Animation/VFX/Runtime acceptance.
