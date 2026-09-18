@@ -2,34 +2,34 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_FIVE_PRIMARY_BRANCH_ROOT_SOCKET_RIGID_CHILD_FAMILY_GEOMETRY_RECEIVER_DIAGNOSTIC_MINUS5_TO_PLUS5 / NATURE_PR14_HEAD_898529F6_OPEN_DRAFT_MERGEABLE / ORGANIC_PR8_FDC9D2B6_SOURCE_178CD8CF / GEOMETRY_PR9_9B451BA1_RECEIVER_AA9D450A / PROCEDURAL_PR4_342385C8_SELECTION_HANDOFF_ONLY / RIGGING_PREDECESSOR_F792D236_REPRODUCED / 5_BRANCHES_25_REPRESENTATIVE_POSES / EACH_52_CHILD_VERTICES_72_TRIANGLES_338_FIXED / CHILD_PARTITIONS_PAIRWISE_DISJOINT / FAMILY_FIXED+PIVOT_DRIFT_0 / PAIRWISE_4.996E-16M / AXIS_PROJECTION_1.908E-16M / RUN_35307194044_GREEN_311_313 / 5_EXACT_HEAD_PR_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10532211321_18374B_12_FILES_SHA_DC931439_INDEPENDENTLY_REHASHED / SIMULTANEOUS_MULTI_BRANCH_COLLISION_ATTACHMENT_BIO_ROM_ANIMATION_TA_RUNTIME_VISUAL_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
+State: **PASS_NATURE_FIVE_SOCKET_SHARED_DRIVER_POLARITY_BINDING_DIAGNOSTIC_MINUS5_TO_PLUS5 / NATURE_PR14_HEAD_754797A8_OPEN_DRAFT_MERGEABLE / RIGGING_PREDECESSOR_898529F6_PRESERVED / VFX_PR17_EF7B35AF_EXACT_SIGN_MAP_DONOR / COMMAND_MULTIPLIERS_PLUS_MINUS_PLUS_MINUS_PLUS / SHARED_DRIVER_REPRESENTATIVES_MINUS5_MINUS2P5_0_PLUS2P5_PLUS5 / NO_AXIS_PIVOT_PARTITION_SOURCE_GEOMETRY_OR_RANGE_CHANGE / PY311+PY313_GREEN / FULL_SUITE_61_TESTS_OK_311 / RUN_35310814965 / ALL_5_EXACT_HEAD_PR_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10533127869_26530B_18_FILES_SHA_6E426E86_INDEPENDENT_REHASH_MATCH / GEOMETRY_PR18_FINITE_SIMULTANEOUS_AUDIT_PRESERVED_SEPARATELY / ANIMATION_TA_RUNTIME_VFX_MOTION_CONTINUOUS_COLLISION_CANON_PRODUCTION_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the complete preceding Rigging status, every current specialist status `01..14`, and current open work across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/06_rigging_deformation.md`, the complete preceding Rigging ledger, the current specialist status set, and current design-lane activity across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before acting.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation, tests, workflow changes and retained proof were made only in `mike-axiom-mir/axm-nature-design`.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product code, tests, contracts, verifier logic, workflow changes and retained evidence were changed only in `mike-axiom-mir/axm-nature-design`.
 
 The four AXM roots remain the merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
-Immediate predecessor Rigging status blob: **`6953238b4853d9c3fe3c7ecad6000db31a08329e`**. Its exact `north-top` Geometry-receiver rebind at Rigging head `f792d2369675d532be478e17c7a07f441d817c7c` remains preserved and is explicitly re-run by the new family proof rather than silently generalized.
+Immediate predecessor Rigging status blob: **`219ebb7f31b56f283125989974892af3820a4417`**. That predecessor records the exact five-primary-root independent articulation family at Rigging head `898529f602893c8f6be179bd3e9b6821fc099904`. It remains rollback-addressable and is consumed/re-run here rather than silently rewritten.
 
-## Fresh constellation / duplication scan
+## Fresh constellation / duplicate-lane scan
 
-The highest-leverage non-duplicated seam was Nature's newly grounded five-root receiver handoff.
+The strongest new Rigging-owned seam came back from Nature VFX, not from widening an already-green articulation test by cadence.
 
-- Weapon, Armor, Unit and Misc still expose no source-grounded articulated receiver that justifies inventing a Rigging lane.
-- Character and Animal already have mature deformation/receiver chains; no fresh returned defect displaced the Nature handoff.
-- Object's current keeper/hinge/socket questions are mature at their stated Rigging scopes; widening them by cadence would duplicate work.
-- Building, Map and Weather are currently advancing Geometry/Materials/Environment/VFX/Technical-Art/Runtime surfaces rather than a fresh Rigging-owned articulation defect.
-- Nature Organic PR #8 source-declares five primary branch flex/root zones while keeping them truthfully `DECLARED_NOT_DEFORMATION_TESTED`.
-- Nature Geometry PR #9 owns the migrated receiver identity.
-- Nature Procedural PR #4 now has an exact Geometry-rebound deterministic family of five pairwise-disjoint child selections, while explicitly retaining `automatic_rigging_adoption=false`.
-- Prior Rigging had independently tested only `north-top` on that receiver.
+- Weapon / Armor / Unit / Misc still expose no stronger grounded articulated receiver that justifies inventing a Rigging lane.
+- Character and Animal retain mature deformation/receiver chains; no fresh returned Rigging defect displaced Nature.
+- Object's current hinge/latch/socket Rigging work is mature at its stated scope; no new source-owned articulation trigger outranked the Nature return.
+- Building / Map / Weather are presently dominated by Geometry, Materials, Environment, Procedural, Technical-Art, Runtime or VFX concerns rather than an unowned Rigging deformation defect.
+- Hard Surface's current full-constellation status is explicitly HOLD for no new grounded source-owner trigger.
+- Nature Organic keeps all five exact flex/root declarations truthfully `DECLARED_NOT_DEFORMATION_TESTED`.
+- Nature Geometry PR #18 now separately proves triangle-closed simultaneous composition at 33 finite witness states and zero cross-branch nonadjacent-triangle intersections across 330 child-pair/state observations, but explicitly does **not** prove the continuous simultaneous interval.
+- Nature VFX PR #17 returned a precise coordinate-sign fact on the exact five Rigging sockets: the local angle polarity relative to one shared Weather visual direction is **mixed**, not global.
 
-That combination creates a precise receiver-side Rigging question: independently re-run the already-proven rigid-child articulation policy across all five exact source-declared roots, consuming the deterministic selection handoff without inheriting Procedural authority or fabricating sibling deformation acceptance.
+That VFX result creates a bounded Rigging interface defect: a future shared signed driver cannot safely assume that local `+angle` means the same world-space directional sense for every independently source-derived branch axis.
 
-The existing Nature Rigging PR #14 was reused, avoiding a duplicate lane.
+The existing Nature Rigging PR #14 was reused. No duplicate Rigging PR was opened.
 
 ## Owning lane and exact lineage
 
@@ -43,222 +43,258 @@ Branch:
 
 `studio/rigging-east-rear-root-socket-001`
 
-Exact current Rigging head:
+Exact current head:
 
-**`898529f602893c8f6be179bd3e9b6821fc099904`**
+**`754797a815266a643c6b08f1606eb76ba95dd8c6`**
 
-Observed state after verification:
+Observed state after final verification:
 
 **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Exact identities consumed and preserved:
+Exact identities preserved/consumed:
 
 - Organic source owner PR #8 head: **`fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`**;
 - Organic source digest: **`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**;
-- Geometry receiver PR #9 head: **`9b451ba1f65281f550a6754e18574f7ab2951e28`**;
+- Geometry migrated receiver PR #9: **`9b451ba1f65281f550a6754e18574f7ab2951e28`**;
 - Geometry migrated mesh digest: **`aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`**;
-- historical Organic mesh digest: `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`;
-- Rigging predecessor: **`f792d2369675d532be478e17c7a07f441d817c7c`**;
-- Procedural PR #4 exact donor head: **`342385c867050dc8e8f7312c63235a68bdd92d3d`**;
-- Procedural Geometry-rebind contract blob: **`73e38d08f426efb742e1d66b992ede04737ed576`**;
-- Procedural partition module blob: `7b522f6c379d8cae1d1e9d95e941ac108cfc003b`;
-- Procedural family module blob: `3c502029900916bb62cda8c501144e0a5ea5c076`.
+- exact five-socket Rigging predecessor: **`898529f602893c8f6be179bd3e9b6821fc099904`**;
+- exact VFX five-socket sign-map donor PR #17: **`ef7b35af27d5ca98a6447c1e33be07863e387305`**;
+- VFX contract: `contracts/east-rear-primary-branch-weather-direction-vfx-sign-family-002.json`;
+- VFX contract blob: **`b06b5f6862c6c88ec5642e3bdbccfe0d3e65655f`**;
+- VFX module: `src/axm_nature_design/rear_tree_vfx_weather_sign_family.py`;
+- VFX module blob: **`ae674ee8f6109d478446fbcd5348bcbee04b01e7`**;
+- VFX Weather donor remains `[1.0, 0.35]` with semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
 
-Procedural contributes exact selection identity only. Its authority is not transferred into Rigging, and its PASS is not relabelled as deformation proof.
+The VFX donor is consumed only as an exact review-only sign-compatibility handoff. No Weather or VFX motion semantics transfer into Rigging.
 
-## Selected bounded Rigging improvement
+## Selected bounded improvement — shared-driver polarity constraint
 
 Scoped result:
 
-**`PASS_FIVE_PRIMARY_BRANCH_ROOT_SOCKET_RIGID_CHILD_FAMILY_GEOMETRY_RECEIVER_DIAGNOSTIC_MINUS5_TO_PLUS5`**
+**`PASS_FIVE_SOCKET_SHARED_DRIVER_POLARITY_BINDING_DIAGNOSTIC_MINUS5_TO_PLUS5`**
 
-A new Rigging-owned family evaluator independently retests exactly these five source identities in canonical order:
+New Rigging contract:
 
-1. `south-low`;
-2. `north-low`;
-3. `east-mid`;
-4. `west-high`;
-5. `north-top`.
+**`axm.nature-five-socket-shared-driver-polarity-binding/v0.1`**
 
-For each branch independently, Rigging:
+The five source-derived local axes are unchanged. Rigging adds only this command-space multiplier map:
 
-- uses the exact branch root / source flex center as the joint pivot;
-- preserves the source flex radius/status;
-- derives the bend-plane axis from `local trunk tangent × first branch tangent`;
-- selects exactly two branch segments plus that branch's four leaf blades;
-- requires **52 selected vertices / 72 selected triangles / 338 fixed vertices**;
-- evaluates representative poses **`-5 / -2.5 / 0 / +2.5 / +5°`**;
-- uses one rigid Rodrigues transform around the exact pivot/axis;
-- identity-maps every unselected receiver vertex for that single-branch probe;
-- proves fixed-receiver, pivot, child pairwise-distance and child axis-projection invariants;
-- re-runs the historical `north-top` predecessor and requires its pivot, axis, partition and measurements to reproduce rather than transfer silently.
+| socket | multiplier | shared `+5°` -> local | shared `-5°` -> local |
+|---|---:|---:|---:|
+| `south-low` | `+1` | `+5°` | `-5°` |
+| `north-low` | `-1` | `-5°` | `+5°` |
+| `east-mid` | `+1` | `+5°` | `-5°` |
+| `west-high` | `-1` | `-5°` | `+5°` |
+| `north-top` | `+1` | `+5°` | `-5°` |
 
-The five selected child vertex sets are pairwise disjoint. Total retained representative evaluations: **25**.
+Exact mapping:
 
-## Exact branch identities and representative proof
+`local_angle_deg = command_sign_multiplier * shared_driver_deg`
 
-All source flex declarations remain **`DECLARED_NOT_DEFORMATION_TESTED`** in the Organic source; Rigging evidence does not rewrite that source truth state.
+The shared diagnostic command remains bounded to exactly **`[-5°, +5°]`**.
 
-### `south-low`
+Representative shared commands are:
 
-- pivot: `[0.01, -0.01, 1.82] m`;
-- flex radius: `0.14 m`;
-- source-derived axis: `[0.6908581060349167, 0.7225811823324384, 0.024321025161433293]`;
-- maximum fixed drift: `0.0 m`;
-- maximum pivot drift: `0.0 m`;
-- maximum selected pairwise-distance drift: `4.440892098500626e-16 m`;
-- maximum axis-projection drift: `1.9081958235744878e-16 m`;
-- maximum selected displacement at probe boundary: `0.09244560732260372 m`.
+**`-5 / -2.5 / 0 / +2.5 / +5°`**.
 
-### `north-low`
+Their exact local mappings are:
 
-- pivot: `[-0.01, 0.01, 2.02] m`;
-- flex radius: `0.14 m`;
-- source-derived axis: `[-0.6396043189352323, -0.7685041689247308, -0.017540169460596295]`;
-- fixed/pivot drift: `0.0 m`;
-- maximum pairwise-distance drift: `4.440892098500626e-16 m`;
-- maximum axis-projection drift: `1.3877787807814457e-16 m`;
-- maximum selected displacement: `0.09089971978466785 m`.
+- shared `-5°` -> `[-5, +5, -5, +5, -5]°`;
+- shared `-2.5°` -> `[-2.5, +2.5, -2.5, +2.5, -2.5]°`;
+- shared `0°` -> `[0, 0, 0, 0, 0]°`;
+- shared `+2.5°` -> `[+2.5, -2.5, +2.5, -2.5, +2.5]°`;
+- shared `+5°` -> `[+5, -5, +5, -5, +5]°`.
 
-### `east-mid`
+The positive shared boundary therefore selects the exact VFX review-only preferred local witness on every socket while preserving the Rigging-owned local axis itself.
 
-- pivot: `[-0.01, 0.0, 2.45] m`;
-- flex radius: `0.12 m`;
-- source-derived axis: `[-0.34157607264717443, 0.9383389315027856, 0.05334637964419742]`;
-- fixed/pivot drift: `0.0 m`;
-- maximum pairwise-distance drift: `4.440892098500626e-16 m`;
-- maximum axis-projection drift: `1.5265566588595902e-16 m`;
-- maximum selected displacement: `0.08988267464049263 m`.
+## Motion boundary / continuous constraint proof
 
-### `west-high`
+This successor does **not** widen the previous Rigging deformation domain.
 
-- pivot: `[0.0, 0.0, 2.76] m`;
-- flex radius: `0.12 m`;
-- source-derived axis: `[0.32840894090376604, -0.943085852418337, -0.05231292863953796]`;
-- fixed/pivot drift: `0.0 m`;
-- maximum pairwise-distance drift: **`4.996003610813204e-16 m`**;
-- maximum axis-projection drift: `8.326672684688674e-17 m`;
-- maximum selected displacement: `0.08598785059361483 m`.
+For each socket independently, multiplier `m` is exactly `+1` or `-1`, so for every real shared command `u` in `[-5,+5]`:
 
-### `north-top`
+- `local(u) = m*u`;
+- `|local(u)| = |u|`;
+- `local(0) = 0`;
+- the mapping is bijective over the same closed interval;
+- the mapping is continuous and exactly invertible;
+- no local angle leaves the predecessor Rigging interval;
+- no pivot, axis, selected child partition or deformation transform changes.
 
-- pivot: `[0.01, 0.0, 3.16] m`;
-- flex radius: `0.12 m`;
-- source-derived axis: `[-0.9474626512202783, 0.3176985346541243, -0.037177488097823036]`;
-- fixed/pivot drift: `0.0 m`;
-- maximum pairwise-distance drift: `4.440892098500626e-16 m`;
-- maximum axis-projection drift: `7.632783294297951e-17 m`;
-- maximum selected displacement: `0.08199084165462486 m`.
+Every retained representative maps to one of the already-proven predecessor Rigging poses. Each socket therefore remains exactly:
 
-Family maxima:
+- **52 selected vertices**;
+- **72 selected triangles**;
+- **338 fixed vertices**;
+- same exact source-owned pivot;
+- same exact source-derived axis;
+- same rigid Rodrigues child transform for the local diagnostic pose.
 
-- fixed receiver drift: **`0.0 m`**;
-- pivot drift: **`0.0 m`**;
-- selected pairwise-distance drift: **`4.996003610813204e-16 m`**;
-- selected axis-projection drift: **`1.9081958235744878e-16 m`**;
-- selected displacement: **`0.09244560732260372 m`**.
+This continuous statement proves the **command mapping**, not continuous simultaneous five-branch collision freedom or Animation playback.
 
-## Motion boundary / continuity statement
+## VFX evidence consumed without authority transfer
 
-The interval remains exactly:
+Exact VFX PR #17 result:
 
-**`[-5°, +5°] — RIGGING_VERIFICATION_PROBE_ONLY_NOT_SOURCE_OR_BIOLOGICAL_ROM`**.
+**`PASS_FIVE_SOCKET_WEATHER_VISUAL_DIRECTION_SIGN_MAP`**
 
-For each branch **considered independently**, every real angle in that interval uses one rigid rotation around that exact source-owned root and source-derived axis, with all unselected vertices identity-mapped. Therefore pivot location, fixed receiver positions, selected pairwise distances and selected axis projection are analytical continuous invariants throughout the interval for that branch.
+Review-only preferred local endpoint by socket:
 
-This stronger continuous statement is limited to those structural invariants. It does **not** establish:
+- `south-low`: `+5°`, preferred downwind centroid projection `+0.016588762432268866 m`, signed witness separation `0.03451964526385527 m`;
+- `north-low`: `-5°`, preferred projection `+0.017583768804344528 m`, separation `0.03345999264645084 m`;
+- `east-mid`: `+5°`, preferred projection `+0.03324277426140488 m`, separation `0.06959613443259174 m`;
+- `west-high`: `-5°`, preferred projection `+0.034787596961003905 m`, separation `0.06655861846137989 m`;
+- `north-top`: `+5°`, preferred projection `+0.019556427432932226 m`, separation `0.040790451394453475 m`.
 
-- simultaneous multi-branch deformation;
-- branch-to-trunk blended attachment quality;
-- production skin weighting;
-- collision/self-intersection freedom;
-- source-authored or biological ROM.
+VFX's family state is `PER_SOCKET_SIGN_MAP_REQUIRED`. Rigging consumes that exact sign relationship only. It does not interpret those values as force, speed, biological response, amplitude, cadence or motion adoption.
 
-## Fail-closed evidence
+## Separate Geometry simultaneous evidence preserved
 
-The family proof rejects:
+Nature Geometry PR #18 exact head:
 
-- Organic source digest drift;
-- Geometry receiver-head or migrated-mesh identity drift;
-- Procedural donor-head drift;
-- reduction or reordering of the exact five-branch family;
-- child-partition overlap;
-- pivot drift;
-- source flex radius/status drift;
-- diagnostic interval widening/retiming;
-- promotion of the diagnostic probe to source/biological ROM;
-- transfer of Procedural or Geometry authority into Rigging;
-- Animation acceptance claims;
-- Runtime acceptance claims.
+**`76c89348d63fd3523f81287767fc37527d6a8fcb`**
 
-Nine verifier-side negative controls were retained and all were rejected as intended. No threshold was weakened to obtain PASS.
+Geometry separately proves:
+
+- five triangle-closed child partitions;
+- neutral + all `32` simultaneous `±5°` extreme corners = `33` finite receiver states;
+- canonical-vs-reverse application order maximum vertex delta `0.0 m`;
+- globally fixed maximum vertex drift `0.0 m`;
+- pivot maximum drift `0.0 m`;
+- `330` attributable child-pair/state nonadjacent-intersection observations;
+- `0` cross-branch intersections in those finite observations.
+
+Rigging explicitly **does not** promote that finite Geometry PASS to every interior simultaneous angle combination, continuous collision freedom, physical collision, Animation playback or Runtime acceptance.
+
+## Fail-closed controls
+
+The new Rigging verifier rejects all of the following:
+
+1. replacing the mixed VFX sign map with one uniform global sign;
+2. VFX donor-head drift;
+3. widening/reshaping the exact representative shared-driver field;
+4. promoting the sign adapter to VFX/Weather motion adoption;
+5. promoting visual direction to physical wind;
+6. claiming Animation acceptance;
+7. claiming Runtime acceptance;
+8. claiming simultaneous multi-branch motion.
+
+All eight negative controls were rejected as intended. No threshold, pivot, axis, range or source identity was weakened to obtain PASS.
+
+## Product changes
+
+Current bounded successor adds/updates only Rigging-owned evidence/interface files on PR #14:
+
+- `src/axm_nature_design/rear_tree_rigging_shared_driver_polarity.py`;
+- `tests/test_rear_tree_rigging_shared_driver_polarity.py`;
+- `contracts/east-rear-primary-branch-shared-driver-polarity-rigging-004.json`;
+- `tools/verify_rear_tree_rigging_shared_driver_polarity.py`;
+- `docs/RIGGING_EAST_REAR_SHARED_DRIVER_POLARITY_004.md`;
+- `.github/workflows/rigging-east-rear-root-socket.yml`.
+
+No Organic source JSON, Geometry receiver, existing Rigging pivot/axis/partition implementation, VFX donor file, Animation file or Runtime file was rewritten.
 
 ## Exact-head CI and retained evidence
 
+Exact current head:
+
+**`754797a815266a643c6b08f1606eb76ba95dd8c6`**
+
 Dedicated workflow:
 
-**`35307194044 — Rigging east rear root socket evidence` — SUCCESS** at exact head `898529f602893c8f6be179bd3e9b6821fc099904`.
+**`35310814965 — Rigging east rear root socket evidence` — SUCCESS**.
 
-- Python 3.11: exact Organic / Geometry / predecessor Rigging / Procedural donor gates PASS; compile PASS; full repository tests PASS; predecessor Geometry-rebind evidence rebuild PASS; five-root family evidence build PASS; retained negative-control/truth assertions PASS; artifact upload PASS.
-- Python 3.13: exact lineage/blob gates PASS; compile PASS; full repository tests PASS.
+Matrix:
 
-All **five** pull-request workflow families observed on exact head `898529f...` completed successfully: Rigging, Geometry migration, Organic east-rear, Organic compact-east and Nature baseline. No red exact-head PR workflow family is being hidden.
+- Python `3.11` — SUCCESS;
+- Python `3.13` — SUCCESS.
 
-Retained Rigging artifact:
+Python 3.11 additionally reports:
 
-- ID: **`10532211321`**;
-- name: `nature-east-rear-primary-branch-rigging-family-898529f602893c8f6be179bd3e9b6821fc099904`;
-- GitHub archive size: **`18,374 B`**;
-- files: **12**;
-- GitHub SHA-256: **`dc931439ced38350f646353c8904c8448b871696cfd8ac326d1b3beef737349e`**;
-- exact archive downloaded and independently rehashed to the same SHA-256;
-- archive independently inspected and contains the generated family evidence, current/historical contracts, documentation and exact head/source/Geometry/Rigging/Procedural identity receipts.
+- exact Organic / Geometry / predecessor Rigging / Procedural / VFX lineage gates PASS;
+- compile PASS;
+- full repository discovery: **61 tests / OK**;
+- predecessor Geometry-rebind proof rebuilt;
+- predecessor five-root Rigging family proof rebuilt;
+- new shared-driver polarity proof PASS;
+- all eight failure controls rejected;
+- retained artifact upload PASS.
+
+All **five** pull-request workflow families observed on exact head `754797a...` completed successfully:
+
+- Rigging east rear root socket evidence;
+- Geometry source topology migration evidence;
+- Organic east rear tree evidence;
+- Organic compact east tree evidence;
+- Nature organic form baseline.
+
+No red exact-head PR workflow family is being hidden.
+
+Retained artifact:
+
+- ID: **`10533127869`**;
+- name: `nature-east-rear-rigging-shared-driver-polarity-754797a815266a643c6b08f1606eb76ba95dd8c6`;
+- files: **18**;
+- archive size: **26,530 B**;
+- uncompressed retained contents: `88,483 B`;
+- GitHub SHA-256: **`6e426e86a420946556cbc17b7f6bd5cf70f0317727fb4031981c3703d06ed723`**;
+- exact archive downloaded and independently rehashed during this activation;
+- independent SHA-256 exactly reproduced the GitHub digest above.
 
 ## Handoffs recorded
 
-- Nature Rigging PR #14 — comment **`5725186128`**: exact current head/result, family measurements, workflow/artifact and strict non-claims.
-- Nature Organic PR #8 — comment **`5725187050`**: all five source declarations were independently tested downstream without rewriting Organic source state or promoting the diagnostic probe to source ROM.
-- Nature Geometry PR #9 — comment **`5725187792`**: exact migrated receiver was consumed and retested; Geometry authority was not transferred.
-- Nature Procedural PR #4 — comment **`5725188364`**: exact five-selection Geometry-rebind handoff was consumed as selection input only; `automatic_rigging_adoption=false` remains preserved.
-- Nature Animation PR #15 — comment **`5725189086`**: current Animation lane still uses its own historical receiver / prior Rigging identity; the new five-root PASS does not transfer until Animation explicitly rebinds and reruns.
+- Nature Rigging PR #14 — comment **`5725627090`**: exact head/result, polarity map, green workflow, artifact hash and strict non-claims.
+- Nature VFX PR #17 — comment **`5725627920`**: exact review-only sign-map donor consumed as command-sign input only; no VFX/Weather motion or physical-wind authority transfer.
+- Nature Geometry PR #18 — comment **`5725629371`**: finite simultaneous receiver audit preserved separately; no automatic continuous/simultaneous Rigging promotion.
+- Nature Animation PR #15 — comment **`5725630072`**: shared-driver polarity interface returned for explicit future rebind/retest only; no clip/timing/interpolation/playback adoption.
+- Nature Technical Art PR #3 — comment **`5725631227`**: current static target-host evidence does not inherit the new deformation/constraint PASS; future deformed target-host work must bind/retest exact Rigging/Animation identities.
 
-No unrelated VFX/Runtime lane was repurposed, and no downstream acceptance was fabricated.
+No Runtime lane was repurposed and no downstream acceptance was fabricated.
 
 ## Authority / explicit non-claims
 
-This PASS establishes only independent Rigging structural articulation evidence for five exact source-declared primary branch roots on one exact Geometry receiver under one exact diagnostic interval.
+This PASS establishes only a deterministic sign-normalized shared diagnostic command interface over five unchanged Rigging sockets.
 
 It does **not** establish:
 
-- production skin weights or blended deformation;
-- source-authored or biological range of motion;
-- branch attachment, stress, strength, fatigue or botanical validity;
+- source-authored or biological ROM;
+- plant biomechanics, branch strength, stress, fatigue or attachment validity;
+- production skin weighting or blended branch-root deformation;
+- physical wind, force, drag, turbulence or VFX motion;
 - simultaneous multi-branch motion;
-- self-intersection, collision or clearance freedom;
-- VFX wind response;
-- Animation timing, interpolation, looping, playback or motion quality;
+- every interior simultaneous branch-angle combination;
+- continuous child-child or child-receiver collision/self-intersection freedom;
+- Animation timing, interpolation, cadence, looping, playback or motion quality;
 - Technical-Art transport, scene-graph binding or target-host acceptance;
 - Runtime/controller/input/device/performance acceptance;
+- physics/gameplay suitability;
 - Materials, Art Direction or independent Visual QA acceptance;
-- gameplay or physics behavior;
-- generic Nature/UC rig architecture;
 - CANON or production/game readiness;
+- generic Nature/UC rig architecture;
 - Rigging mastery.
 
 ## Four-root gate
 
-**Truth:** five sibling root sockets are now independently tested instead of inferred from `north-top`. The exact source, receiver, predecessor and Procedural selection identities are pinned. The source `DECLARED_NOT_DEFORMATION_TESTED` state is preserved rather than rewritten, and sampled witness poses are not confused with the separately justified rigid-transform continuous structural invariant.
+**Truth:** VFX's mixed local polarity is preserved exactly rather than flattened into a convenient global sign. The adapter's proof is limited to deterministic command mapping over an unchanged Rigging interval. Geometry's finite simultaneous evidence is not relabelled as continuous motion/collision evidence, and Animation/Runtime acceptance is not implied.
 
-**Agency / non-domination:** Organic retains source/form authority; Geometry retains topology; Procedural retains deterministic selection-family authority; Animation retains timing/playback; VFX retains wind/effect response; Technical Art retains transport; Runtime retains controller/device/performance; Art/QA retain visual acceptance. Rigging consumes exact handoffs without taking those domains.
+**Agency / non-domination:** Organic retains source/form authority; Geometry retains topology and finite simultaneous receiver evidence; VFX retains visual-direction compatibility; Rigging owns only the command-space constraint/articulation interface; Animation retains timing/playback; Technical Art retains target-host transport; Runtime retains controller/device/performance; Art/QA retain perceptual acceptance.
 
-**Continuity:** the previous `north-top` Geometry-receiver result remains addressable at exact head `f792d236...` and is explicitly re-run by the family evaluator. Exact donors, blobs, digests, evidence artifact and handoff comments are retained; no silent rewrite or automatic sibling transfer is used.
+**Continuity:** the predecessor Rigging status blob, Organic source identity, Geometry receiver, predecessor Rigging head, VFX donor head/blobs, current product head, workflow, artifact/hash and handoff comment IDs remain separately addressable. No historical PASS is silently rewritten.
 
-**Wisdom before speed:** the pass closes one newly grounded five-root receiver gap without widening the diagnostic interval, inventing skin weights, guessing plant biomechanics, or pulling downstream Animation/Runtime semantics into Rigging merely because the structural probe is green.
+**Wisdom before speed:** the smallest real repair is a five-value sign adapter, not an axis rewrite, source reshape, new rig family, invented wind solver or premature Animation/Runtime hookup. The implementation stops at the narrowest proven boundary.
 
 The four AXM roots remain the merge gate.
 
 ## Next trigger
 
-Treat this exact five-primary-branch single-branch diagnostic family as closed at its stated scope.
+Do **not** keep extending this exact polarity adapter by cadence. Re-scan the full constellation first.
 
-Do not widen ±5°, infer simultaneous deformation, invent blended weights, or claim Animation/Runtime acceptance by cadence. Re-scan the full design constellation next activation. Legitimate next Rigging work requires a fresh returned defect or a newly grounded source/receiver identity for weighting, constraint, socket or articulation; otherwise preserve this proof rather than manufacture work.
+Return to this Nature Rigging lane only for a genuinely new grounded trigger, such as:
+
+- Animation explicitly rebinding a five-socket shared driver and returning a deformation/timing defect;
+- Technical Art providing an exact deformed target-host receiver that needs Rigging identity verification;
+- Geometry or QA returning a concrete interior-angle, child-vs-fixed-receiver or attachment defect that localizes to Rigging-owned pivots/axes/weights/constraints;
+- an exact source or receiver identity change requiring a fresh rebind;
+- a real weighting/blended-root implementation becoming available for bounded deformation testing.
+
+Until then, the shared-driver polarity constraint is complete at its stated scope and should remain separate from Animation and Runtime acceptance.
