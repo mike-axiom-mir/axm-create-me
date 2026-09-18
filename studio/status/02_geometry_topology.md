@@ -2,48 +2,47 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_BORED_KNUCKLE_SUCCESSOR_GENUS1_TOPOLOGY_REBIND / OBJECT_PR35_HEAD_07F68D8E / HARD_SURFACE25_DONOR_178D93E8 / 5_OF_5_CLOSED_ORIENTABLE_VERTEX_MANIFOLDS / EACH_48V_96T_144E_CHI0_GENUS1 / AGGREGATE_240V_480T_GENUS_SUM5 / CLOSED_SOLID_GENUS0_NEGATIVE_REJECTED / PY311+PY313_GREEN / ARTIFACT_10527940122_SHA_EA5070AD_INDEPENDENTLY_REHASHED / NO_MESH_MUTATION / DOWNSTREAM_ADOPTION_RUNTIME_GAMEPLAY_HOLD / COORDINATION_ONLY**
+State: **PASS_OBJECT_PHASE_INVARIANT_BORED_KNUCKLE_SUCCESSOR_GENUS1_TOPOLOGY_REBIND / OBJECT_PR36_HEAD_96ABB283 / HARD_SURFACE25_DONOR_A6D18B9F / PREDECESSOR_GEOMETRY35_07F68D8E_PASS_NOT_TRANSFERRED / BORE_RADIUS_0.010035276_TO_0.010352762 / 120_OF_240_VERTEX_POSITIONS_CHANGED / FACE_CONNECTIVITY_AND_GROUP_PARTITION_IDENTICAL / 5_OF_5_CLOSED_ORIENTABLE_VERTEX_MANIFOLDS / EACH_48V_96T_144E_CHI0_GENUS1 / AGGREGATE_240V_480T_GENUS_SUM5 / CLOSED_SOLID_GENUS0_NEGATIVE_REJECTED / PY311+PY313_GREEN / RUN_35298445873 / ARTIFACT_10529151563_SHA_081F62B8_METADATA_ONLY / SOURCE_UNCHANGED_BY_GEOMETRY / DOWNSTREAM_ADOPTION_RUNTIME_GAMEPLAY_HOLD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the immediately preceding Geometry ledger, fresh Capability Cartography / Hard-Surface / Technical-Art state, and the open design-repository constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the complete immediately preceding Geometry ledger, current Hard-Surface / Rigging state and the open design-repository constellation before acting.
 
 `mike-axiom-mir/axm-create-me` remains **coordination only**. The only implementation/evidence changes in this activation live in `mike-axiom-mir/axm-object-design`. Universal Creation and Profession Fabric were not modified.
 
 The complete preceding Geometry state is preserved and rollback-addressable at blob:
 
-`69d34cb6e55982fa499f5eea9ecea02927bcad9f`
+`14fa64d3ebf555482d5c93ac5856165679322f4f`
 
-That predecessor remains the exact Object whole-source winding/source-exterior + merged-UC observer rebind at PR #33 head `444e6a10be53e883e8aee0a75b2b93b74cee3dbd`. Nothing here relabels or replaces it.
+That predecessor remains the exact successor-001 through-bore topology proof at Object Geometry PR #35 head `07f68d8e3df57ecf4ae3b8fb86fdb3bca5683747`. Nothing here relabels or transfers its PASS.
 
 The four AXM roots remain the gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
 ## Fresh constellation / duplicate-lane scan
 
-- Character and Animal already have occupied Geometry/Rigging/Materials/Technical-Art chains; no new measured topology defect displaced the selected source-successor trigger.
-- Building has occupied Geometry/UV/material receiving work and fresh Technical-Art exact-receiver evidence; its next topology action still needs a new structural trigger rather than cadence.
-- Nature / Weather / Map remain predominantly Environment/VFX/Technical-Art/Runtime receiver work; no fresh mesh-topology source defect justified a sibling Geometry lane.
+- Character and Animal already have occupied Geometry plus downstream specialist chains; no measured defect displaced the selected Object source-successor trigger.
+- Building already has occupied Geometry/UV/material receiving work and requires a fresh exact source or receiver defect before more Geometry work.
+- Nature / Weather / Map remain primarily Environment/VFX/Technical-Art/Runtime receiver lanes; no fresh mesh-topology defect justified a sibling Geometry lane.
 - Weapon / Armor / Unit / Misc still expose no sufficiently grounded current source for a non-placeholder Geometry implementation.
-- Universal Creation current activity is unrelated bounded Physics work; no active shared Geometry implementation claim overlaps this product-local task.
-- Profession Fabric / Capability Cartography currently focus executable dependency-closure evidence vocabulary, not mesh topology.
-- Object Geometry PR #33 remains occupied by the historical whole-object winding/source-exterior + UC orientation-observer result. It is not reused as if it already covered a new source representation.
-- **Fresh trigger:** Object Hard Surface PR #25 now explicitly source-owns the previously derived faceting-aware annular hinge knuckles as an alternate bored-knuckle source successor. Its own rule requires downstream receivers to bind the exact successor and retest rather than inherit a prior PASS.
-- Object Rigging PR #27 has independently rebound that same successor for continuous radial non-contact evidence. That does not establish Geometry topology class and therefore does not duplicate this lane.
+- Universal Creation currently has no active shared Geometry lane that duplicates this product-local rebind.
+- Object Geometry PR #35 remains exact historical evidence for bored-knuckle source successor 001.
+- **Fresh trigger:** Object Hard Surface PR #25 advanced the source-owned bored-knuckle representation to distinct phase-invariant source successor 002, changing the 12-segment annular bore circumradius from `0.010035276180410082 m` to `0.010352761804100828 m` while explicitly keeping automatic downstream adoption false.
+- Object Rigging PR #27 has independently rebound successor 002 for motion/clearance evidence. That does not establish the indexed topology class and therefore does not duplicate this Geometry lane.
 
-The highest-leverage unoccupied Geometry seam was therefore the topology-class meaning of the new source-owned through-bore representation: **closed edges alone do not prove that each knuckle really has the declared through-hole topology or valid indexed vertex neighborhoods**.
+The highest-leverage unoccupied Geometry seam was therefore continuity under a **metric-only source successor**: even when the generator and connectivity are intended to stay the same, the predecessor Geometry PASS cannot be inherited by analogy.
 
 ## Selected reusable pattern
 
-**`SOURCE_OWNED_THROUGH_BORE_REQUIRES_CLOSED_VERTEX_MANIFOLD_AND_EXPECTED_EULER_GENUS_EVIDENCE_BEFORE_GEOMETRY_REBIND`**
+**`SOURCE_SUCCESSOR_METRIC_ONLY_CHANGE_STILL_REQUIRES_EXACT_TOPOLOGY_CLASS_REBIND_BEFORE_PASS_TRANSFER`**
 
 Rule:
 
-1. a source-owner representation change that introduces a through-bore must be rebound by exact source-successor identity;
-2. edge closure/manifold edge counts are necessary but not sufficient to establish the intended topology class;
-3. each connected shell must also have valid indexed vertex fans and the expected Euler characteristic / orientable genus;
-4. a structurally closed genus-0 solid must not be allowed to satisfy a genus-1 through-bore claim;
-5. Geometry may observe this topology without changing the source successor or forcing receiver adoption;
-6. Rigging, Technical Art, Runtime, physics/gameplay and Art/QA retain their own evidence and acceptance gates.
+1. a distinct source-successor identity requires a distinct Geometry rebind even if the source owner describes the change as metric-only;
+2. rebuild predecessor and successor through the exact pinned generator rather than copying old receipts;
+3. prove that the declared geometric change is real while connectivity/group partition remain unchanged;
+4. independently re-establish the expected topology class on the successor;
+5. preserve predecessor PASS as historical provenance rather than transferring or relabelling it;
+6. Geometry observes only: source adoption and downstream specialist acceptance remain independently owned.
 
 ## Product implementation lane
 
@@ -53,19 +52,19 @@ Repository:
 
 New bounded stacked draft PR:
 
-**#35 — `Geometry: prove bored-knuckle successor through-bore topology class`**
+**#36 — `Geometry: rebind phase-invariant bored knuckles to genus-1 topology`**
 
 Branch:
 
-`studio/geometry-object-hinge-bore-topology-001`
+`studio/geometry-object-hinge-phase-invariant-bore-topology-002`
 
 Exact Hard-Surface base / donor:
 
-`178d93e8976a741271d7f47ab4865519de925657`
+`a6d18b9fe729304dc4d95d962ed27527adce211f`
 
-Exact current tested Geometry head:
+Exact tested Geometry head:
 
-`07f68d8e3df57ecf4ae3b8fb86fdb3bca5683747`
+`96abb2830ddabca9ed270b42a9447534d007ce64`
 
 Observed state after verification:
 
@@ -73,163 +72,142 @@ Observed state after verification:
 
 Only four Geometry evidence files were added:
 
-- `assets/modular-equipment-case-001/hinge-bored-knuckle-topology-rebind-001.json`;
-- `tools/verify_hinge_bored_knuckle_topology_rebind.py`;
-- `tests/test_hinge_bored_knuckle_topology_rebind.py`;
-- `.github/workflows/object-geometry-hinge-bored-knuckle-topology.yml`.
+- `assets/modular-equipment-case-001/hinge-phase-invariant-bored-knuckle-topology-rebind-002.json`;
+- `tools/verify_hinge_phase_invariant_bored_knuckle_topology_rebind.py`;
+- `tests/test_hinge_phase_invariant_bored_knuckle_topology_rebind.py`;
+- `.github/workflows/object-geometry-hinge-phase-invariant-bored-knuckle-topology.yml`.
 
-The exact Hard-Surface source-successor, historical/default source and annular generator were not rewritten.
+No source JSON, source-successor contract, annular generator, historical Geometry contract or downstream implementation was rewritten.
 
-## Exact source-successor provenance
+## Exact source / predecessor provenance
 
-Hard Surface PR #25 donor:
+Pinned identities:
 
-- exact head: `178d93e8976a741271d7f47ab4865519de925657`;
-- source-successor contract blob: `beaf16f588450a3b298e2e581b590c5dc0c07380`;
-- annular-mesh contract blob: `39a52ad5ba8497a8a524d764bbf6744bb11cf54a`;
-- legacy host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
-- source successor semantics: `SOURCE_OWNED_ALTERNATE_HINGE_KNUCKLE_GEOMETRY_EXPLICIT_RECEIVER_REBIND_REQUIRED`;
-- automatic default replacement: false;
-- automatic downstream adoption: false;
-- historical host source rewritten: false.
+- Hard Surface PR #25 donor head: `a6d18b9fe729304dc4d95d962ed27527adce211f`;
+- source successor 002 contract blob: `7e078189d5c80508b28932563326cd5629c4efa6`;
+- annular generator blob: `7665d904d33dea2904b55b1ebd85a6e81621ad50`;
+- predecessor annular contract blob: `39a52ad5ba8497a8a524d764bbf6744bb11cf54a`;
+- predecessor Geometry PR #35 exact head: `07f68d8e3df57ecf4ae3b8fb86fdb3bca5683747`;
+- predecessor Geometry contract blob: `4a27f5c179870a1fcf96d74a0c6d133cf8676b42`;
+- legacy host source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`.
 
-Hard Surface continues to own bore/faceting/source-successor intent. Geometry binds that exact identity for structural observation only.
+Historical Geometry PASS transfer is explicitly false.
 
 ## Structural evidence
 
 Scoped result:
 
-**`PASS_OBJECT_BORED_KNUCKLE_SUCCESSOR_GENUS1_TOPOLOGY_REBIND`**
+**`PASS_OBJECT_PHASE_INVARIANT_BORED_KNUCKLE_SUCCESSOR_GENUS1_TOPOLOGY_REBIND`**
 
-The verifier reconstructs the exact annular successor through the existing Hard-Surface mesh generator rather than copying or editing mesh bytes.
+The verifier rebuilds both predecessor and successor through the exact pinned annular generator.
 
-For **each of the five 12-segment source-owned annular knuckles**:
+Measured geometric continuity:
+
+- predecessor bore circumradius: `0.010035276180410082 m`;
+- successor bore circumradius: `0.010352761804100828 m`;
+- delta: `0.0003174856236907459 m`;
+- exactly `120` of the `240` generated vertex positions change, corresponding to the inner-ring positions across five 12-segment knuckles;
+- maximum vertex displacement equals the declared bore-radius delta;
+- all `480` face records remain identical;
+- all rigid knuckle group partitions remain identical.
+
+The successor is then independently re-observed. For **each of five knuckles**:
 
 - referenced vertices: `48`;
 - triangles: `96`;
 - unique edges: `144`;
-- edge-connected triangle components: `1`;
+- triangle components: `1`;
 - boundary edges: `0`;
 - non-manifold edges: `0`;
 - shared-edge orientation conflicts: `0`;
 - degenerate triangles: `0`;
 - isolated indexed vertices: `0`;
 - maximum incident face-fan components at any referenced vertex: `1`;
-- Euler characteristic: `48 - 144 + 96 = 0`;
+- Euler characteristic: `0`;
 - orientable genus: `1`;
 - closed orientable indexed vertex-manifold: true.
 
-Aggregate exact successor structure:
+Aggregate successor structure:
 
 - vertices: `240`;
 - triangles: `480`;
-- per-component unique-edge sum: `720`;
+- component-local unique-edge sum: `720`;
 - disconnected knuckle shells: `5`;
 - Euler-characteristic sum: `0`;
 - orientable-genus sum: `5`.
 
-No source-successor geometry changed in the Geometry lane.
-
-### Closed-solid negative topology-class control
-
-A deliberate 12-segment closed solid cylinder is also observed. It remains a legitimate closed orientable indexed vertex-manifold:
-
-- `26` vertices;
-- `48` triangles;
-- `72` unique edges;
-- `0` boundary edges;
-- `0` non-manifold edges;
-- `0` orientation conflicts;
-- one vertex fan per vertex;
-- Euler characteristic `2`;
-- genus `0`.
-
-The through-bore gate rejects it with:
-
-`CLOSED_MANIFOLD_BUT_GENUS0_NOT_THROUGH_BORE_GENUS1`
-
-This is the key added structural evidence: **being closed/manifold is not enough to prove the source semantics of one through-bore**.
+The retained closed 12-segment solid-cylinder counterexample remains a valid closed orientable vertex-manifold with `chi=2`, genus `0`, and is rejected by the through-bore topology gate. This prevents ordinary manifold closure from being mistaken for the declared one-through-bore topology class.
 
 ## Exact-head verification
 
 Dedicated workflow:
 
-**`35294352116 — Object Geometry bored-knuckle topology evidence` — SUCCESS**.
+**`35298445873 — Object Geometry phase-invariant bored-knuckle topology evidence` — SUCCESS**.
 
 Exact head:
 
-`07f68d8e3df57ecf4ae3b8fb86fdb3bca5683747`
+`96abb2830ddabca9ed270b42a9447534d007ce64`
 
 Matrix:
 
 - Python `3.11` — SUCCESS;
 - Python `3.13` — SUCCESS.
 
-Both jobs passed:
-
-- exact Hard-Surface donor ancestry / blob checks;
-- Geometry-only delta gate;
-- compile;
-- complete Object repository unittest suite.
-
-Python 3.11 additionally rebuilt the exact topology receipt and retained the evidence archive.
+Both jobs passed exact donor/predecessor provenance binding, Geometry-only delta gating, compile, and the complete Object repository unittest suite. Python 3.11 additionally rebuilt the exact successor-002 topology receipt and uploaded retained evidence.
 
 ## Retained evidence
 
 Artifact ID:
 
-`10527940122`
+`10529151563`
 
 Artifact name:
 
-`object-geometry-bored-knuckle-topology-07f68d8e3df57ecf4ae3b8fb86fdb3bca5683747`
+`object-geometry-phase-invariant-bored-knuckle-topology-96abb2830ddabca9ed270b42a9447534d007ce64`
 
 Size:
 
-`5,722 B`
+`8,526 B`
 
-GitHub SHA-256:
+GitHub artifact SHA-256 metadata:
 
-`ea5070ad56eb87392ccc18326537388b4da7b0921bf514bad2c59d213e43c255`
+`081f62b84f557e496a464f8c0cfd3586fb8844695518b92b5ffd29de632de843`
 
-The archive was downloaded in this activation and independently rehashed to the exact same SHA-256:
-
-`ea5070ad56eb87392ccc18326537388b4da7b0921bf514bad2c59d213e43c255`
-
-The retained receipt independently records the five genus-1 groups, aggregate genus sum 5, the closed genus-0 negative control rejection, exact donor head, no mesh mutation and no downstream adoption.
+This activation did **not** independently download and rehash the archive bytes, so only GitHub's artifact digest is claimed here.
 
 ## Handoffs recorded
 
-- Hard Surface PR #25 — comment `5723500199`: exact Geometry topology-class result returned without changing source ownership, dimensions/clearance or adoption policy.
-- Rigging PR #27 — comment `5723500817`: complementary topology evidence only; no retune and no broadening of its independently proven continuous radial compatibility claim.
-- historical Object Geometry PR #33 — comment `5723501834`: preserves its whole-object historical-source result and explicitly forbids PASS transfer between the two Geometry lanes.
-- Object Technical Art PR #16 — comment `5723505155`: evidence-only notice; no transport/front-face/scene-graph adoption implied, and any successor use still requires an exact TA rebind.
+- Object Geometry PR #36 — comment `5724079857`: exact PASS result recorded without widening authority.
+- Object Hard Surface PR #25 — comment `5724081425`: exact source-successor receiver result returned; no source retune/adoption request.
+- Object Rigging PR #27 — comment `5724082487`: complementary source-local topology evidence only; no motion/clearance authority transfer.
+- Object Technical Art PR #16 — comment `5724084193`: no scene-graph/transport adoption implied; exact future rebind required.
+- historical Object Geometry PR #35 — comment `5724085080`: successor-001 PASS preserved as historical provenance and explicitly not transferred.
 
 No Materials, Runtime, physics/gameplay, Art or QA acceptance was requested.
 
 ## Provenance / rollback
 
-Rollback anchors remain explicit:
+Rollback anchors:
 
-- immediately preceding Geometry coordination status blob: `69d34cb6e55982fa499f5eea9ecea02927bcad9f`;
-- previous whole-object merged-UC Geometry head: `444e6a10be53e883e8aee0a75b2b93b74cee3dbd`;
-- exact new Hard-Surface source-successor donor: `178d93e8976a741271d7f47ab4865519de925657`;
-- exact current topology-rebind Geometry head: `07f68d8e3df57ecf4ae3b8fb86fdb3bca5683747`;
+- immediately preceding Geometry coordination status blob: `14fa64d3ebf555482d5c93ac5856165679322f4f`;
+- historical source-successor-001 Geometry head: `07f68d8e3df57ecf4ae3b8fb86fdb3bca5683747`;
+- exact source-successor-002 Hard-Surface donor: `a6d18b9fe729304dc4d95d962ed27527adce211f`;
+- exact current successor-002 Geometry head: `96abb2830ddabca9ed270b42a9447534d007ce64`;
 - retained workflow/artifact/digest above.
 
-Nothing in this activation deletes, rewrites or silently relabels the historical source, PR #33 candidate, Hard-Surface source-successor evidence or Rigging compatibility evidence.
+Nothing in this activation deletes, rewrites or silently relabels the historical source, successor 001 Geometry evidence, source-owner contract, Rigging evidence or Technical-Art evidence.
 
 ## Four-root gate
 
-- **Truth:** the Geometry claim is narrower than “closed mesh”: the exact indexed topology class is measured, and a closed genus-0 counterexample is retained to prove the distinction. No manufacturing, collision or readiness claim is smuggled in.
-- **Agency / non-domination:** Hard Surface remains source-owner; Geometry does not force default replacement or downstream adoption; Rigging and Technical Art keep independent acceptance authority.
-- **Continuity:** historical/default source, Hard-Surface successor, prior Geometry whole-object evidence, new exact branch/head, exact donor blobs, workflow, artifact digest and predecessor status blob all remain separately addressable.
-- **Wisdom before speed:** a real source-owner trigger justified one bounded topology-class rebind. No new UC/PF abstraction was opened from one Object hinge, and no unrelated product lane was touched.
+- **Truth:** successor 002 received a fresh exact topology observation instead of inheriting predecessor PASS; the metric change and the unchanged connectivity are both executable evidence.
+- **Agency / non-domination:** Hard Surface retains source/adoption authority; Geometry does not force downstream consumption; Rigging and Technical Art keep independent acceptance gates.
+- **Continuity:** predecessor Geometry evidence, new donor/head, exact blobs, workflow, artifact metadata, handoffs and prior status blob remain separately addressable.
+- **Wisdom before speed:** one real source-identity change justified one bounded rebind; no unrelated product lane or premature shared abstraction was opened.
 
 The four AXM roots remain the gate.
 
 ## Explicit non-claims / next trigger
 
-This activation does **not** establish default source replacement, manufacturing tolerance/class of fit, bearing behavior, arbitrary self-intersection freedom, continuous articulated collision, normals/tangents/UV/material quality, Rigging adoption, Technical-Art transport adoption, Runtime/device acceptance, physics/gameplay collision suitability, visual acceptance, CANON, production readiness, game readiness or Geometry mastery.
+This activation does **not** establish default source replacement, manufacturing fit or bearing behavior, arbitrary self-intersection freedom, continuous articulated collision, normals/tangents/UV/material quality, Rigging adoption, Technical-Art transport adoption, Runtime/device acceptance, physics/gameplay collision suitability, visual acceptance, CANON, production readiness, game readiness or Geometry mastery.
 
-Do not continue extending this hinge by cadence. The next Geometry activation should rescan the full constellation and prefer a genuinely new measured structural seam. Return to this Object successor only if a receiver exposes a concrete topology failure, the source successor itself changes identity/geometry, or a materially new shared topology contract requires exact re-observation.
+Do not continue extending this hinge by cadence. The next Geometry activation should rescan the constellation and prefer a genuinely new measured structural seam. Return to this Object representation only if the source successor changes identity/geometry again, a receiver exposes a concrete topology defect, or a materially new shared topology contract requires exact re-observation.
