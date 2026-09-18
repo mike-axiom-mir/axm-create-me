@@ -1,13 +1,13 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-18
-State: **PASS_55_NATURE_ANIMATION_LOOP_OVER_COMPRESSED_SHADER_DRIVER / RUNTIME_PR20_HEAD_B9AD7622_OPEN_DRAFT_UNMERGED_MERGEABLE / GODOT_4_7_2 / 40_VISIBLE_SAMPLES / COMPRESSED_3120B_RETAINED_VS_MUTABLE_4680B / LOOP_SEMANTIC_PAYLOAD_124800B_TO_160B_SAVE_124640B_99_8718_PERCENT_NOT_GPU_TRANSPORT / NINE_FRESH_CAPTURE_PAIRS_38_OF_5670000_PIXELS_GT1LSB_MAX181LSB / WINDOW_DRIFT_NEGATIVE_REJECTED / RUN_35331735668_SUCCESS / ARTIFACT_10541306354_SHA_07949132 / CURRENT_ANIMATION_5CACD61E_AND_RIGGING_69640E55_NOT_COVERED / HOLD_CURRENT_OWNER_TARGET_HOST_NORMAL_TANGENT_ART_QA_DEVICE_PERF_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_56_CURRENT_TA_RIGID_NODE_CONTROL__HOLD_PREDECESSOR_SHADER_TRANSFER_NO_INCREMENTAL_BUDGET_WIN / NATURE_RUNTIME_PR20_HEAD_C8A017C5_OPEN_DRAFT_UNMERGED_MERGEABLE / GODOT_4_7_2 / EXACT_TA_02C5223D_ANIM_5CACD61E_RIG_69640E55_UC_7DDEFCA5 / 41_SAMPLES_40_VISIBLE / CONTROL_4B_VS_SHADER_4B_ZERO_FRESH_SEMANTIC_SAVING / DRAW12_OBJECT12_PRIM620_MEMORY_COUNTERS_EQUAL / NINE_PAIRS_8156_OF_5670000_PIXELS_GT1LSB_MAX44LSB / STALE_3120B_BASELINE_NEGATIVE_REJECTED / RUN_35342311604_SUCCESS / ARTIFACT_10545219394_SHA_9AD5ED93 / NEWER_RIGGING_0BB186B4_NOT_COVERED / HOLD_ART_QA_TARGET_DEVICE_CONNECTED_ATTACHMENT_FINAL_NORMAL_TANGENT_CANON_PRODUCTION / COORDINATION_ONLY**
 
-> Continuity note: the immediately preceding Runtime status is preserved exactly in Git as blob `bf421303707e3d226be67dc351235a0843ba614e`. It records pass 54 at Runtime head `520068e1167f369b24e749831954f9bda1cd7aec`, including the 10-run compressed `VERTEX_ID` shader-driver representation, its first shader compile failure and repair, five retained fixed-view pairs, and all pass-52/pass-53 continuity. Nothing in pass 55 rewrites that evidence.
+> Continuity note: the immediately preceding Runtime status is preserved exactly in Git as blob `e614135425016b1db73c76ab52b8b3d594f537c6`. It records pass 55 at exact Runtime head `b9ad7622d5b9f3f0a1434dbe534da5397d83226c`, including the predecessor compressed-shader loop proof and its sparse raster outliers. Pass 56 does not rewrite that evidence; it evaluates a different exact Technical-Art receiver chain and reaches a different representation decision.
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, current Runtime evidence, and fresh Art Direction / Rigging / Animation / Technical Art / Visual Observer status across the constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the prior Runtime ledger, current Nature Runtime PR #20, and fresh Art Direction, Rigging, Animation, Technical Art, Environment and independent Visual Observer / QA status across the constellation.
 
 `mike-axiom-mir/axm-create-me` remains **coordination only**. Runtime implementation/evidence remains in `mike-axiom-mir/axm-nature-design`. Universal Creation product code was not modified.
 
@@ -15,13 +15,15 @@ The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Cont
 
 ## Duplicate-lane / highest-risk selection
 
-The existing Nature Runtime PR #20 already owns the compressed-shader representation. Pass 54 had proven five static driver witnesses but explicitly left the authored Animation loop unbound. A new Runtime lane would duplicate ownership, so this activation stayed inside PR #20 and evaluated the dedicated Animation-successor rebind already present there.
+Pass 55 left one explicit next trigger: after Technical Art bound the then-current Nature owner chain, remeasure the existing Runtime shader representation against the actual receiving representation rather than assuming the predecessor 3,120 B dynamic-packet baseline still existed.
 
-The selected bounded question was:
+Technical Art PR #3 returned exactly that receiver at head `02c5223dd9288c12607f0553e2f1103be38ae71f`, pinned to Animation `5cacd61e22433b0c33f29111827283b81cc0ba0d`, Rigging `69640e558f0c1ac59d4d0e3155676e0967a03d04`, and UC `7ddefca57b153fab02c1f54f38de22148cb52c1b`.
 
-**Can the exact 40 visible authored samples from the pinned Animation owner drive the existing compressed shader representation while preserving the current Animation target-position packets as control, without rebuilding the receiver into the larger mutable float32 representation?**
+The existing Nature Runtime PR #20 already owned the shader/dynamic-window lane, so no duplicate Runtime PR was opened. The bounded question was:
 
-This was the highest-risk reusable seam because it tests the representation across the whole authored visible loop rather than only five isolated witnesses, while preserving the exact existing Runtime lane.
+**Does transferring the predecessor compressed shader driver onto the exact Technical-Art rigid-node receiver produce a fresh measurable budget win, or is the already-current rigid-node control the stronger Runtime representation?**
+
+This is a reusable optimization result because it prevents an apparently "more optimized" representation from being adopted when the current receiver has already removed the old CPU vertex-packet cost.
 
 ## Exact bounded owner chain
 
@@ -31,207 +33,226 @@ Existing draft Runtime PR: **#20 — `Runtime: exploit east-rear dynamic vertex 
 
 Branch: `studio/runtime-east-rear-dynamic-prefix-001`
 
-Exact successful Runtime head:
+Exact tested Runtime head:
 
-**`b9ad7622d5b9f3f0a1434dbe534da5397d83226c`**
+**`c8a017c5b401f7c48a170ee2b0a0a78b4c9c2caa`**
 
 Observed PR state: **open / draft / unmerged / mergeable**.
 
-Exact identities consumed by the successful target-host proof:
+Exact receiving identities:
 
-- Animation semantic owner: `d9899fc42afab432d0da6f9ecc3568dc90b7acbf`;
-- Rigging owner used by that Animation oracle: `b4b480b415047fea90b4740f7702ced0dba9142d`;
-- Runtime dynamic-window owner: `6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`;
-- Technical Art receiver donor: `da60cd491ac7f9ac04f918dd000f464a627b3316`;
-- Universal Creation donor: `5c5d2cfdc3aa4e9462fd4d5ec5bc7874f12674a4`.
+- Technical Art: `02c5223dd9288c12607f0553e2f1103be38ae71f`;
+- Technical Art artifact: `10542513318`, SHA-256 `7b991dfd749ac758ece3c2c6ea320d10cfed5ff38c822c7ed88342461226a932`;
+- Animation: `5cacd61e22433b0c33f29111827283b81cc0ba0d`;
+- Rigging: `69640e558f0c1ac59d4d0e3155676e0967a03d04`;
+- Universal Creation: `7ddefca57b153fab02c1f54f38de22148cb52c1b`.
 
-Target host: **Godot 4.7.2 stable official**.
+Target host: **Godot 4.7.2 stable official, GL Compatibility**.
 
-Scoped target receipt state:
+Scoped result:
 
-**`PASS_RUNTIME_CURRENT_ANIMATION_LOOP_OVER_COMPRESSED_SHADER_DRIVER`**
+**`PASS_CURRENT_OWNER_RUNTIME_REBIND_MEASURED__HOLD_PREDECESSOR_SHADER_TRANSFER_NO_INCREMENTAL_BUDGET_WIN`**
 
-## Retained failed attempts and minimal repair boundary
+Runtime decision:
 
-Pass 55 was not declared green while the dedicated workflow was red.
+**`KEEP_CURRENT_TA_RIGID_NODE_CONTROL__HOLD_PREDECESSOR_SHADER_TRANSFER`**
 
-Two target-boundary failures are retained upstream:
+## Measure-before result — the old baseline no longer exists
 
-1. Runtime head `208cb30243c9b464ff1d1c4fd0f606b220af4ea6` reached a JSON boundary where the exact `[110,370]` window was present but an untyped parsed Array was compared directly with an inferred integer Array. The receiving comparison was normalized elementwise; no owner window or threshold changed.
-2. Runtime head `70f9f522267b82127318e52029e9e657c0737a46` completed the real-Godot exercise but the validator requested `candidate_imported_position_stride_bytes` while the observer emitted the existing truthful field `candidate_imported_vertex_stride_bytes`. Exact successful head `b9ad7622...` adds the compatibility alias with the same measured `8 B` value; no Runtime representation or acceptance gate changed.
+The exact current Technical-Art receiver is:
 
-These failures remain evidence rather than being silently rewritten as success.
+- **12 nodes**;
+- **620 triangles**;
+- `north-low` foliage parented under `north-low` woody;
+- all imported surfaces compressed;
+- summed imported position storage **14,880 B** across the complete 12-node receiver.
 
-## Measure-before / representation budget
+Most importantly, the current control representation is already:
 
-The successful target receiver measures:
+**`CURRENT_TA_RIGID_PARENT_NODE_TRANSFORM`**
 
-- vertices: **390**;
-- surfaces: **1**;
-- moving window: **`[110,370)`** / 260 vertices;
-- imported compressed candidate position stride: **8 B**;
-- imported compressed candidate position storage: **3,120 B**;
-- mutable CPU-control position storage: **4,680 B**;
-- compressed storage retained instead of mutable control storage: **1,560 B avoided**;
-- CPU dynamic packet per visible sample: **3,120 B**;
-- shader semantic driver value per visible sample: **4 B**;
-- candidate CPU position buffer mutated per sample: **false**.
+It consumes one scalar semantic driver per visible sample and does **not** mutate a CPU position buffer.
 
-Animation exercise:
+Measured control vs diagnostic shader candidate:
 
-- endpoint-inclusive authored samples: **41**;
-- visible authored samples checked: **40 / 40**;
-- maximum mutable-control dynamic readback component delta: **`0.0 m`**.
+- endpoint-inclusive samples checked: **41 / 41**;
+- visible repeat samples: **40**;
+- maximum current rigid-node control position residual: **`2.98975373880239e-06 m`** under the unchanged `5e-06 m` gate;
+- maximum retained parent-stress command magnitude: **2.5°**;
+- control semantic driver: **4 B / visible sample**;
+- shader candidate semantic driver: **4 B / visible sample**;
+- fresh semantic payload saving: **0 B / visible sample**;
+- control CPU position buffer mutation per sample: **false**;
+- candidate CPU position buffer mutation per sample: **false**;
+- control north-low node transforms per sample: **1**;
+- candidate custom shader instances: **2**.
 
-Across the 40 visible samples:
+Therefore the predecessor `3,120 B` dynamic-position packet is **not** the current baseline and cannot truthfully be reused to manufacture a new saving claim.
 
-- mutable CPU position-control semantic payload: **124,800 B**;
-- shader semantic-driver values: **160 B**;
-- semantic payload avoided: **124,640 B / 99.8717948717949%**.
+## Runtime counters — no fresh performance-budget win
 
-Truth boundary: the `4 B` driver value is **semantic representation accounting**, not measured GPU command/bus/API transport. This pass does not claim that the GPU path transfers exactly 4 bytes or that target-device frame time improves by 99.87%.
+Peak control counters:
+
+- draw calls: **12**;
+- objects: **12**;
+- primitives: **620**;
+- buffer memory: **6,437,232 B**;
+- texture memory: **5,243,715 B**;
+- video memory: **11,680,947 B**.
+
+Peak diagnostic shader counters are exactly the same:
+
+- draw calls: **12**;
+- objects: **12**;
+- primitives: **620**;
+- buffer memory: **6,437,232 B**;
+- texture memory: **5,243,715 B**;
+- video memory: **11,680,947 B**.
+
+The shader candidate therefore provides **no current-owner draw-call, object, primitive, buffer-memory, texture-memory, video-memory, or semantic-payload win** in this bounded proof. It also adds custom vertex-stage work, so Runtime does not transfer it merely because the predecessor shader was useful against an older representation.
+
+This is a deliberate optimization disposition: **keeping the simpler current Technical-Art rigid-node control is the measured better Runtime choice for this exact receiver.**
 
 ## Fresh visual tradeoff for Art Direction / Visual QA
 
-Nine fixed-view control-versus-shader pairs were retained at sample indices:
+Nine fixed-view control-versus-diagnostic-shader pairs were retained at sample indices:
 
 `0, 5, 10, 15, 20, 25, 30, 35, 39`.
 
 Across **5,670,000 pixels**:
 
-- raw changed pixels: **1,703**;
-- pixels >1 LSB: **38**;
-- fraction >1 LSB: **`6.701940035273369e-06`** (~`0.000670194%`);
-- maximum observed channel delta: **181 LSB**;
-- observer discrimination, shader sample 0 versus sample 10: **4,438 pixels >1 LSB**.
+- raw changed pixels: **8,176**;
+- pixels >1 LSB: **8,156**;
+- fraction >1 LSB: **`0.0014384479717813052`** (~**0.143845%**);
+- maximum observed channel delta: **44 LSB**;
+- observer discrimination, candidate sample 0 versus sample 10: **1,459 pixels >1 LSB**.
 
 Per-pair pixels >1 LSB:
 
-- sample 0: `6`;
-- sample 5: `1`;
-- sample 10: `3`;
-- sample 15: `1`;
-- sample 20: `6`;
-- sample 25: `4`;
-- sample 30: `7`;
-- sample 35: `4`;
-- sample 39: `6`.
+- sample 0: `912`;
+- sample 5: `909`;
+- sample 10: `907`;
+- sample 15: `909`;
+- sample 20: `912`;
+- sample 25: `898`;
+- sample 30: `902`;
+- sample 35: `898`;
+- sample 39: `909`.
 
-Recorded Art/Runtime tradeoff:
+The visual comparator remains within the bounded Runtime gate, but **visual similarity does not create a performance win**. Because the shader candidate saves nothing and adds custom vertex work, there is no Runtime reason to ask Art/QA to adopt it.
 
-- the large majority of the fixed-view raster is equivalent under the bounded gate;
-- sparse edge pixels do exceed 1 LSB and some reach **181 LSB**, so pass 55 is **not** called pixel-identical or near-zero-max-delta;
-- the candidate retains the extra vertex-stage range tests and rigid rotation math from pass 54;
-- candidate GPU vertex positions were not directly read back;
-- proof normals/tangents for this whole loop remain unproven;
-- final Nature lookdev and Art Direction / independent Visual QA acceptance remain **HOLD**;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance remains **HOLD**.
-
-The observer is demonstrably discriminating because sample 0 versus sample 10 changes 4,438 pixels above 1 LSB.
+The legitimate Art/QA review subject is therefore the exact **current Technical-Art rigid-node receiver selected by Runtime**, not the predecessor shader carrier. Art Direction / independent Visual QA acceptance, final tangent correctness and final Nature lookdev remain held.
 
 ## Fail-closed evidence
 
-The exact current-Animation rebind rejects a deliberately drifted dynamic window `[110,371]`:
+The dedicated gate deliberately mutates the current control baseline back to the stale predecessor `3,120 B` packet assumption.
 
-**`PASS_REJECTED_CURRENT_ANIMATION_WINDOW_DRIFT`**
+That negative is rejected as:
 
-The PASS therefore depends on the exact `[110,370)` receiver ownership window rather than merely exercising the shader path.
+**`PASS_REJECTED_STALE_PREDECESSOR_3120B_BASELINE_TRANSFER`**
+
+The pass therefore depends on measuring the actual current receiver rather than borrowing a historical optimization baseline.
 
 ## Dedicated workflow and retained artifact
 
 Dedicated workflow:
 
-**`35331735668 — Runtime east rear current Animation shader rebind` — SUCCESS**
+**`35342311604 — Runtime current Nature owner transfer gate` — SUCCESS**
 
-All other observed Runtime/Organic/Geometry continuity workflows on exact head `b9ad7622...` also completed successfully.
+All observed same-head Runtime/Organic/Geometry continuity workflows also completed successfully on exact head `c8a017c5...`.
 
 Retained artifact:
 
-- ID: **`10541306354`**;
-- name: `nature-runtime-current-animation-shader-rebind-b9ad7622d5b9f3f0a1434dbe534da5397d83226c`;
-- GitHub payload size: **901,689 B**;
-- retained files: **39**;
-- uncompressed retained payload: **2,294,205 B**;
-- SHA-256: **`07949132fb8d80499112db4db1c03a30697669d4a88eb28422cea3e44916bbbb`**.
+- ID: **`10545219394`**;
+- name: `nature-runtime-current-owner-transfer-gate-01c3ea81a4c2e10d4e5346dd94c69faf1e05c513`;
+- GitHub payload size: **163,365 B**;
+- retained files: **31**;
+- uncompressed retained payload: **267,396 B**;
+- SHA-256: **`9ad5ed930a1aa4cd8649cc2c339540dcd3097ce8433f2d14f1cbc9908b4c17a5`**.
 
-The artifact was downloaded and independently rehashed to the exact same digest. It contains the exact owner/oracle outputs, receiver GLB, Runtime shader, Godot receipt/log, 18 target images, visual comparison, negative control, workflow and observer implementation.
+The artifact was downloaded and independently rehashed to the exact same digest. It retains the exact owner contract, Technical-Art receipts/oracle, Godot receipt/log, 18 control/candidate PNGs, visual comparison, negative control, shader, observer and workflow source.
+
+## Cross-specialist convergence already observed
+
+Environment / World Art has already consumed this exact Runtime decision on Map PR #53 without inflating it into shader adoption:
+
+- Environment head `24e6f7c966a4bd2df9eb714013139d6303eae42f`;
+- workflow `35345816562` SUCCESS;
+- Environment retains the exact current Technical-Art rigid-node receiver in the already-proven world reservation;
+- predecessor shader transfer remains false because `4 B - 4 B = 0 B` fresh saving;
+- Art/QA, device behavior, natural wind, connected attachment, CANON and production authority remain held.
+
+This is the correct downstream interpretation of pass 56.
 
 ## Current-owner supersession boundary
 
-This exact pass-55 proof was built against Animation owner `d9899fc4...` / Rigging owner `b4b480b4...`.
+Pass 56 is exact for the Technical-Art receiver chain `02c5223d... / 5cacd61e... / 69640e55... / 7ddefca5...`.
 
-The constellation has since advanced materially:
+The constellation has already advanced Rigging PR #14 to exact head:
 
-- current Rigging status owns Nature PR #14 head **`69640e558f0c1ac59d4d0e3155676e0967a03d04`**, with the `north-low` receiver explicitly classified as **`DETACHED_DIAGNOSTIC_CHILD_SOCKET_ONLY`** and no automatic Runtime acceptance transfer;
-- current Animation status owns Nature PR #26 head **`5cacd61e22433b0c33f29111827283b81cc0ba0d`**, pinned to Rigging `69640e55...`, preserving the 1 s / 40 Hz / 41-sample child track under the newer parent-exclusion gate;
-- Animation explicitly states that the older target-host proof must **not** transfer to this newer chain by similarity and asks for Technical Art adoption before a fresh target-host pass.
+**`0bb186b4e22ab8911dd93675754690b68da99802`**
 
-Therefore pass 55 is now retained as a **green exact predecessor-chain Runtime proof**, not a claim about the newest Nature Animation/Rigging pair.
+That newer Rigging head adds an analytic-bridge endpoint-pin diagnostic and explicitly states that Technical-Art target-host adoption and Runtime acceptance do **not** transfer automatically.
 
-Runtime does not jump around Technical Art ownership. A future current-owner target-host rebind is legitimate only after Technical Art explicitly adopts/binds the exact `Animation 5cacd61e... / Rigging 69640e55... / Geometry` chain, or after another specialist returns an exact Runtime-owned defect on that chain.
+Therefore pass 56 does **not** claim the new `0bb186b4...` bridge successor is target-host or Runtime accepted. A future Runtime rebind is legitimate only after Technical Art / Animation explicitly adopt the newer owner identity into a receiver, or another specialist returns a concrete Runtime-owned defect on that exact chain.
 
 ## Authority / handoff
 
-- Geometry retains topology authority.
 - Rigging retains attachment/deformation authority.
-- Animation retains timing and sampled-motion authority.
+- Animation retains timing / curve / sampled-motion authority.
 - Technical Art retains target-host receiver/import/adoption authority.
-- Runtime owns only the bounded representation/budget evidence above.
+- Runtime owns only the measured representation/budget decision above.
+- Environment may consume the exact selected receiver without changing Runtime authority.
 - Art Direction / Visual QA retain appearance acceptance authority.
 - Universal Creation stays generic and unchanged.
 - no automatic merge, CANON or production promotion is requested.
 
 ## Prior Runtime continuity retained
 
-Pass 54 remains exact historical evidence for the compressed shader-driver representation on five retained driver witnesses:
+Pass 55 remains exact predecessor-chain shader-loop evidence at head `b9ad7622...` and artifact `10541306354`.
 
-- exact Runtime head `520068e1167f369b24e749831954f9bda1cd7aec`;
-- 10 exact `VERTEX_ID` runs tile `[110,370)`;
-- compressed position storage `3,120 B` versus pass-53 mutable `4,680 B`;
-- per-pose semantic driver `4 B` versus `3,120 B` mutable position packet;
-- five fixed-view pairs with `0` pixels >1 LSB and max `1 LSB`;
-- workflow `35323459480` SUCCESS;
-- artifact `10538630039`, SHA-256 `1a19c89fa6ebd5ca0c553fcd02c4bcd08ce1c88c67a47f74d3e2e6a7fce3332c`.
+Pass 54 remains the five-witness compressed shader-driver proof; pass 53 remains the real-Godot mutable partial-update control; pass 52 remains the source-space `[110,370)` dynamic-window discovery.
 
-Pass 53 remains the real-Godot mutable partial-update control; pass 52 remains the source-space `[110,370)` window discovery. Object static batching, Object VFX MultiMesh, Building RGB8, Animal animation-key reduction and earlier Runtime lanes remain separately recoverable and were not reopened.
+Object static batching, Object VFX MultiMesh, Building RGB8, Animal animation-key reduction and earlier Runtime lanes remain separately recoverable and were not reopened.
 
 ## Highest-value next Runtime trigger
 
-Do **not** rerun pass 55 against the old owner chain merely by cadence.
+Do **not** rerun this current-owner transfer gate by cadence.
 
 The strongest legitimate next Runtime step is one of:
 
-1. after Technical Art explicitly adopts the newest Nature owner chain, rebind the compressed shader representation to exact current Animation `5cacd61e...` / Rigging `69640e55...` and rerun target-host representation + raster evidence without transferring pass-55 acceptance; or
-2. obtain real target-device evidence comparing the mutable CPU-update and compressed shader-driver representations: CPU/GPU frame time, FPS stability, VRAM/heap and thermal/battery where available; or
+1. real target-device evidence for a currently selected representation: CPU/GPU frame time, FPS stability, VRAM/heap and thermal/battery where available;
+2. after Technical Art explicitly binds the newer Nature Rigging `0bb186b4...` bridge successor into a target receiver, measure that exact representation without transferring pass-56 acceptance;
 3. if neither trigger exists, select a genuinely new unowned Runtime budget seam elsewhere in the constellation.
+
+The existing rigid-node receiver should remain selected until a fresh measured reason justifies replacing it.
 
 ## Explicit non-claims
 
-Pass 55 does **not** establish:
+Pass 56 does **not** establish:
 
-- measured GPU command-transport savings equal to the semantic payload reduction;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery improvement;
+- that custom vertex shaders are generally worse than node transforms;
+- a generic vegetation Runtime policy;
+- measured target-device CPU/GPU frame-time superiority of the rigid-node path;
+- target-device FPS/VRAM/thermal/battery acceptance;
 - natural `AnimationPlayer` wall-clock playback or Runtime state-machine/controller acceptance;
-- current Rigging `69640e55...` or Animation `5cacd61e...` acceptance;
-- welded/connected Nature topology or production skinning;
-- physical wind or biological motion;
-- proof-normal or tangent correctness over the full loop;
-- final Nature material/lookdev acceptance;
+- connected branch/trunk topology or production skinning;
+- current Rigging `0bb186b4...` acceptance;
+- final normal/tangent correctness or Nature lookdev;
 - Art Direction or independent Visual QA acceptance;
-- Map/default-world adoption;
+- Map/default-world final adoption;
 - CANON;
 - production/game readiness;
-- generic vegetation Runtime policy;
 - Runtime / Optimization mastery.
 
 ## Four-root check
 
-**Truth:** the two failed target-boundary attempts remain visible, the green exact head/run/artifact are pinned, sparse 181-LSB edge outliers are reported rather than softened, and semantic payload is not relabelled as measured GPU transport.
+**Truth:** the current receiver was measured before transferring the historical shader optimization; the old `3,120 B` baseline was explicitly rejected, exact equal counters and the nontrivial raster delta remain visible, and a green workflow is not relabelled as shader adoption.
 
-**Agency / non-domination:** Runtime stays inside its existing lane, does not rewrite Animation/Rigging/Technical-Art authority, and does not transfer this proof onto the newer owner chain.
+**Agency / non-domination:** Runtime stays inside its existing lane, keeps Technical Art / Rigging / Animation / Environment / Art / QA authorities separate, and does not pull the newer Rigging bridge into Runtime without an explicit receiver handoff.
 
-**Continuity:** pass 52, pass 53, pass 54, both pass-55 predecessor failures, exact successful pass-55 evidence and the newer Rigging/Animation owners remain separately identified and rollback-addressable.
+**Continuity:** pass 52 through pass 55 remain exact history, the new pass-56 artifact is pinned and independently rehashed, Environment's downstream consumption is exact, and the newer Rigging successor is separately identified rather than silently folded into this proof.
 
-**Wisdom before speed:** close the now-green exact predecessor-chain proof, but stop before duplicating Technical Art or claiming current-owner/device acceptance.
+**Wisdom before speed:** the best optimization here is to avoid adding a custom shader that produces zero fresh budget win. Keep the simpler current receiver, preserve the predecessor shader as recoverable evidence, and wait for a real new target/device or owner-chain trigger.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
