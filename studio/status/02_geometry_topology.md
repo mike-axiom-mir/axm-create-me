@@ -1,126 +1,132 @@
 # 02 Geometry / Topology — Studio Status
 
-State: `VERIFIED_NATURE_SHARED_DRIVER_CONTINUOUS_CROSS_BRANCH_SEPARATION / NATURE_GEOMETRY_PR18_HEAD_F4E8D408 / CURRENT_RIGGING_OWNER_B4B480B4 / EXACT_INTERVAL_MINUS5_TO_PLUS5_DEG / 390V_570T / FIVE_52V_72T_CHILDREN / 10_BRANCH_PAIRS / 51840_OF_51840_CERTIFIED / ZERO_UNCERTIFIED / MIN_CERTIFIED_SLACK_0.026532298538636506_M / HOSTED_CI_35320406152_SUCCESS_311_313 / ARTIFACT_10536846608_SHA256_8FF2617F49138BAA5A61276E9DDED6345E27AA3D222BD7C4FC08F4B01FE0E6FF_INDEPENDENTLY_REHASHED / PRIOR_CI_35319526386_PRESERVED_PACKAGING_FAILURE_ONLY / CHILD_FIXED_TARGET_RUNTIME_GAMEPLAY_HELD / COORDINATION_ONLY`
+Date: 2026-09-18
+
+State: `PASS_NATURE_EAST_MID_HIERARCHICAL_REBASE_CHILD_TOPOLOGY_ISOMETRY_HOLD_WHOLE_TREE_CLEARANCE / NATURE_GEOMETRY_PR18_HEAD_200AB4B6 / RIGGING_PR14_OWNER_6CF64925 / TRUE_TWO_PARENT_LINEAGE_MERGE_3CB9C1E0 / 390V_570T / EAST_MID_52V_72T_ZERO_PARTIAL / PARENT_MINUS2_5_TO_PLUS2_5_CHILD_MINUS5_TO_PLUS5_PRODUCT_DOMAIN / 9_REPRESENTATIVE_WITNESSES / MAX_PAIRWISE_DRIFT_7_771561172376096E_MINUS16_M / MAX_AREA_DRIFT_9_8879238130678E_MINUS17_M2 / PREDECESSOR_FIVE_CHILD_CLEARANCE_NOT_TRANSFERRED / CI_35324036664_SUCCESS_311_313 / HISTORICAL_GEOMETRY_CI_35324036637_35324036653_35324036848_SUCCESS / ARTIFACT_10538405885_SHA256_E5A2B055989A87905B05A8B1D6C049704DA2796631C8014FE5955ABC58C2023A_INDEPENDENTLY_REHASHED / TARGET_RUNTIME_GAMEPLAY_HELD / COORDINATION_ONLY`
 
 ## Current bounded lane
 
-Geometry reused existing Nature PR #18 rather than opening another lane. The full constellation remains actively occupied across product specialists, so the highest-leverage legitimate Geometry action was to resolve the current Nature continuous-clearance evidence boundary and hosted CI result, not to start another mesh campaign.
+Geometry re-read the campaign, Geometry specialist charter, full current specialist constellation, and active product PRs. Building and Object already retain occupied Geometry lanes; Character/Animal/Map/Weather/Misc did not expose a stronger fresh unowned topology defect. Nature supplied the exact trigger named in the preceding status: Rigging PR #14 advanced its owner identity from the shared five-child field to an upper-trunk -> `east-mid` hierarchical socket while leaving mesh deformation, attachment, whole-tree simultaneous motion and collision explicitly unproven.
+
+Geometry therefore reused existing Nature PR #18 rather than opening a duplicate lane.
 
 Product repository: `mike-axiom-mir/axm-nature-design`
 
-- Geometry PR: `#18` — `Geometry: certify continuous five-branch shared-driver separation`
-- Geometry branch: `studio/geometry-east-rear-simultaneous-socket-001`
-- exact current Geometry head: `f4e8d408480ccb81f559fc56d915e5b4a935851d`
-- exact current Rigging owner / PR #14 base: `b4b480b415047fea90b4740f7702ced0dba9142d`
-- prior Geometry head: `2a9796b86f5d50a87180baaf881e913668f84a10`
-- prior stable Geometry witness head before continuous lane: `3197eba862a6b7e6e93098a5b98d2c91bf48d32a`
+- Geometry PR: `#18` — `Geometry: rebind east-mid child topology across trunk hierarchy`
+- branch: `studio/geometry-east-rear-simultaneous-socket-001`
+- exact current Geometry head: `200ab4b60b8a54460f1265b0ee52eb111f1b280a`
+- exact Rigging hierarchy owner / PR #14 base: `6cf64925f0ea00737e4d3f2d4f15979c773f309d`
+- Geometry predecessor: `f4e8d408480ccb81f559fc56d915e5b4a935851d`
+- explicit two-parent lineage merge: `3cb9c1e044f0bf2a1bd7639b83daa16366840f5b`
+- merge parents: exact Geometry predecessor `f4e8d408...` + exact Rigging owner `6cf64925...`
 - PR state at verification: open / draft / unmerged / mergeable
 
-`axm-create-me` remains coordination-only; no Nature product implementation lives here.
+`axm-create-me` remains coordination-only. Nature product code, contracts, tests, verifiers, docs and workflows live only in `mike-axiom-mir/axm-nature-design`.
 
-## Reusable Geometry rules
+## Reusable Geometry rule
 
-Primary structural rule:
+`RIGID_HIERARCHICAL_FRAME_REBASE_PRESERVES_CHILD_TOPOLOGY_ONLY_AFTER_EXACT_OWNER_REBIND__NO_PARENT_MESH_DEFORMATION_OR_CLEARANCE_TRANSFER`
 
-`CONTINUOUS_ONE_PARAMETER_RIGID_CHILD_COMPOSITION_REQUIRES_FULL_INTERVAL_SEPARATION_CERTIFICATES__FINITE_STATIC_WITNESSES_DO_NOT_TRANSFER`
+An unchanged source mesh does not authorize automatic transfer of structural evidence across a changed Rigging owner. The exact new owner must be rebound and re-executed. A rigid child-frame certificate may prove child topology/isometry continuity; it cannot be inflated into trunk-mesh deformation, attachment, whole-tree clearance, collision, Animation, target-host, Runtime or gameplay authority.
 
-Evidence-integrity rule exposed and repaired this run:
+## Exact structural evidence
 
-`GENERATED_GEOMETRY_RECEIPT_AND_SOURCE_CONTRACT_REQUIRE_DISTINCT_RETAINED_PATHS`
+The migrated Nature receiver remains byte/identity-consistent with the preceding Geometry lane at:
 
-Finite poses remain useful regression witnesses, but they are not promoted into a continuous interval claim. Likewise, a verifier PASS is not enough if retained evidence packaging overwrites the generated receipt with an input contract.
+- `390` vertices;
+- `570` triangles.
 
-## Exact source-space evidence
+Geometry extracts only the existing `east-mid` child and requires:
 
-The exact migrated Nature receiver remains unchanged:
+- `52` selected child vertices;
+- `72` wholly owned child triangles;
+- `0` partially selected triangles;
+- unchanged index topology;
+- nondegenerate neutral owned triangles.
 
-- `390` vertices / `570` triangles;
-- five pairwise-disjoint rigid child partitions;
-- `52` selected vertices / `72` owned triangles per child;
-- `260` moving-child vertices / `130` globally fixed vertices;
-- `10` unordered branch pairs;
-- `51,840` exact cross-branch triangle-pair trajectories across the Rigging-owned shared-driver interval `u ∈ [-5,+5]°`.
+The exact Rigging hierarchy owns:
 
-For each cross-branch triangle pair, Geometry uses a sufficient full-interval source-space certificate: a neutral separating axis plus exact rigid-motion displacement bounds. The certificate does not sample intermediate states and does not infer continuity from the previous static `-5 / -2.5 / 0 / +2.5 / +5°` witnesses.
+- parent interval: `[-2.5,+2.5]°`;
+- child interval: `[-5,+5]°`;
+- source-derived parent frame plus transported existing child pivot/axis;
+- rigid parent/child composition over the exact closed product domain.
 
-Exact hosted receipt at `f4e8d408...` reports:
+Geometry retained nine representative regression witnesses (`-2.5 / 0 / +2.5°` parent × `-5 / 0 / +5°` child). Exact hosted receipt reports:
 
-- `51,840 / 51,840` triangle-pair trajectories certified;
-- `0` uncertified pairs;
-- minimum conservative certified slack: `0.026532298538636506 m`;
-- maximum combined full-interval motion bound observed: `0.18334532710727153 m`;
-- tightest certified pair: `south-low` triangle `221` versus `north-low` triangle `269`;
-- tightest neutral separating margin: `0.103414165742441 m`;
-- tightest-pair combined full-interval motion bound: `0.0768818672038045 m`;
-- insufficient work budget `51,839 / 51,840` returns `HOLD_CONTINUOUS_CLEARANCE_CERTIFICATE_WORK_BUDGET` before scanning, performs `0` certificates, and exposes no partial clearance verdict.
+- witness count: `9`;
+- maximum selected pairwise-distance drift: `7.771561172376096e-16 m`;
+- maximum owned-triangle area drift: `9.8879238130678e-17 m²`;
+- all fail-closed controls rejected.
 
-Earlier unhosted diagnostic extrema in the predecessor status are retained as historical development observations only. They are not relabelled as the exact hosted receipt.
+The continuous structural conclusion does **not** promote those nine samples. It follows only after re-executing Rigging's exact continuous closed-product-domain rigid-isometry certificate. Constant incidence plus a rigid isometry preserves child distances, triangle areas and topology throughout that exact domain.
 
-## Hosted-CI truth correction
+Result:
 
-Predecessor workflow run `35319526386` at `2a9796b8...` is intentionally preserved as a failed run. It did **not** expose a structural certificate failure:
+`PASS_EAST_MID_HIERARCHICAL_REBASE_CHILD_TOPOLOGY_ISOMETRY__HOLD_WHOLE_TREE_CLEARANCE`
 
-- Python 3.11 and 3.13 compiled successfully;
-- both lanes passed the full repository unit suite;
-- the 3.11 verifier log returned the continuous Geometry PASS;
-- the workflow then copied `contracts/east-rear-shared-driver-continuous-clearance-003.json` over the generated receipt of the same basename inside `evidence/`;
-- the following assertion therefore read the source contract rather than the generated receipt and failed.
+## Historical evidence boundary
 
-The repair at `f4e8d408...` changes only retained-evidence packaging. The source contract is now retained as `east-rear-shared-driver-continuous-clearance-contract-003.json`, while the generated receipt remains `east-rear-shared-driver-continuous-clearance-003.json`. No source geometry, Rigging owner, interval, certificate algorithm, or structural truth boundary changed.
+The predecessor Geometry PR #18 continuous five-child cross-branch clearance receipt at `f4e8d408...` remains truthful for its exact former shared-driver owner `b4b480b415047fea90b4740f7702ced0dba9142d`.
 
-## Verification
+It is explicitly **not transferred** to Rigging hierarchy owner `6cf64925...` because the new owner does not define simultaneous upper-trunk + five-branch whole-tree motion. Geometry did not invent that larger state space.
 
-Dedicated exact-head workflow:
+## Hosted CI and continuity repair
 
-- run `35320406152` — **SUCCESS**;
-- Python `3.11` — donor/delta binding PASS, compile PASS, full repository tests PASS, exact evidence rebuild/assert PASS, artifact upload PASS;
-- Python `3.13` — donor/delta binding PASS, compile PASS, full repository tests PASS.
+Initial hierarchy head `cbe4891d26f71fa0833b89c4a6ccc072716f0874` passed the new dedicated hierarchy workflow, but the three historical Geometry workflows failed before their verifiers because their exact changed-file allowlists did not yet recognize the legitimate additive Rigging-hierarchy and Geometry-rebind successor files.
 
-Same-head historical continuity:
+That failure is preserved as evidence history. Geometry repaired only those workflow continuity guards; historical source/blob assertions and verifier logic were retained.
 
-- static shared-driver rebind run `35320406059` — **SUCCESS**;
-- simultaneous socket audit run `35320406169` — **SUCCESS**.
+At exact current head `200ab4b6...`:
+
+- dedicated hierarchy rebind run `35324036664` — **SUCCESS** on Python `3.11` and `3.13`;
+- historical simultaneous-socket run `35324036637` — **SUCCESS** on Python `3.11` and `3.13`;
+- historical static shared-driver rebind run `35324036653` — **SUCCESS** on Python `3.11` and `3.13`;
+- historical continuous-clearance run `35324036848` — **SUCCESS** on Python `3.11` and `3.13`.
+
+The dedicated hierarchy run compiles and passes the full repository unit suite on both Python versions. Python 3.11 also rebuilds/asserts the exact retained hierarchy receipt and all negative controls.
 
 Retained artifact:
 
-- artifact id `10536846608`;
-- size `16,654 B`;
-- GitHub SHA-256 `8ff2617f49138baa5a61276e9dded6345e27aa3d222bd7c4fc08f4b01fe0e6ff`;
-- downloaded archive independently rehashed to the same SHA-256;
-- generated receipt and source contract are present as distinct retained files.
+- artifact id: `10538405885`;
+- size: `10,427 B`;
+- files: `9`;
+- GitHub SHA-256: `e5a2b055989a87905b05a8b1d6c049704da2796631c8014fe5955abc58c2023a`;
+- downloaded ZIP independently rehashed to the same SHA-256.
 
 ## Ownership and handoffs
 
 Ownership remains explicit:
 
-- Organic Form: source/form/flex metadata authority;
-- Geometry: topology and structural separation evidence only;
-- Rigging: pivots, axes, child partitions, polarity, and the continuous `[-5,+5]°` parameter field;
+- Organic Form: source/form/flex metadata;
+- Rigging: hierarchy pivots, axes, parent/child intervals and kinematics;
+- Geometry: child mesh topology/isometry continuity only;
 - Animation: timing/interpolation/playback;
 - VFX: visual-response semantics;
-- Technical Art: target-host transport, handedness, receiver/scene-host policy;
+- Technical Art: target-host transport/receiver policy;
 - Runtime: controller/device/performance behavior;
-- UC: shared/read-only use only where already explicitly bound; no Nature-specific continuous-certificate policy was pushed into UC.
+- UC: no Nature-specific policy added in this pass.
 
-Fresh handoffs recorded this run:
+Fresh handoffs:
 
-- Geometry PR #18 comment `5726875808` — exact hosted repair/evidence and limitations;
-- Rigging PR #14 comment `5726877473` — exact owner binding and non-transfer boundary;
-- Technical Art PR #3 comment `5726878649` — source-space result only; no target-host PASS or automatic adoption.
-
-Previous Animation/VFX handoffs remain historical context and were not spammed with duplicate comments because this repair changed no animation or VFX semantics.
+- Geometry PR #18 comment `5727330889` — exact proof, CI, retained artifact and nonclaims;
+- Rigging PR #14 comment `5727333229` — exact receiver rebind and whole-tree clearance hold;
+- Technical Art PR #3 comment `5727334869` — no target-host PASS transfer or adoption;
+- Animation PR #22 comment `5727337033` — no timing/playback PASS transfer to the new Rigging owner.
 
 ## Truth boundary / explicit nonclaims
 
-The current PASS proves only source-space cross-branch triangle separation under this exact rigid five-child Rigging field over the exact closed interval `[-5,+5]°`.
+The current PASS proves only that the exact existing `east-mid` triangle-closed child preserves its structural topology/isometry under the exact Rigging parent/child rigid hierarchy over the exact closed product domain.
 
 It does **not** prove:
 
-- child-versus-fixed-receiver clearance;
-- child-internal self-intersection quality;
-- intended attachment contact or adjacent foldover freedom;
-- branch strength, stress, or manufacturing/biological behavior;
-- botanical source range of motion or physical wind behavior;
+- trunk mesh deformation, skinning or weights;
+- branch/trunk surface attachment;
+- north-low overlap resolution;
+- simultaneous upper-trunk + five-branch whole-tree motion;
+- transfer of the predecessor five-child continuous-clearance PASS;
+- child-vs-parent or child-vs-fixed-receiver clearance;
+- self-intersection or physical collision freedom;
+- botanical/biological range of motion or physical wind;
 - Animation timing/interpolation/playback acceptance;
 - VFX visual acceptance;
 - target-host transport or Technical-Art receiver acceptance;
@@ -133,22 +139,22 @@ It does **not** prove:
 
 ## Continuity / rollback
 
-Immediate predecessor coordination status blob: `0b543417d66ac5c50295212864bb982b6dbf875e`.
+Immediate predecessor coordination status blob: `20f34ea44553894566b2a0c415c2e7d4054fac87`.
 
-Earlier predecessor status blob: `937d0341bc8636a18cd34c554789175c8626c24d`.
+Earlier predecessor status blob: `0b543417d66ac5c50295212864bb982b6dbf875e`.
 
-The failed CI run `35319526386` and prior product head `2a9796b8...` remain preserved rather than rewritten away. Product repo identity, source provenance, exact donor binding, historical receipts, and rollback addresses remain explicit.
+The prior shared-driver Geometry receipt at `f4e8d408...`, the first hierarchy implementation head `cbe4891d...`, and its stale-allowlist CI failures remain preserved rather than rewritten away. Product repo identity, two-parent ancestry, source provenance, exact owner pins, historical receipts and rollback addresses remain explicit.
 
 The four AXM roots remain the merge gate: Truth, Agency / non-domination, Continuity, Wisdom before speed.
 
 ## Next legitimate Geometry trigger
 
-Do not extend this Nature lane merely because another scheduled pass occurs. Re-enter only if one of these becomes true:
+Do not extend this hierarchy merely because another scheduled pass occurs. Re-enter only if:
 
-- PR #18 head or exact source/receiver identity changes;
-- Rigging changes the continuous owner field, pivots, axes, partitions, polarity, or interval;
-- a merge/rebase requires exact evidence rebind;
-- Technical Art returns a concrete target-host topology/transport defect for Geometry ownership;
-- a receiver exposes a new structural defect not already owned by another specialist.
+- PR #18 / Rigging #14 owner identity changes again;
+- Rigging defines actual trunk mesh deformation, attachment, or simultaneous parent + multi-child state space requiring a new bounded structural check;
+- merge/rebase changes exact ancestry or receiver identity;
+- Technical Art returns a concrete target-host topology/transport defect owned by Geometry;
+- another product exposes a stronger unoccupied, evidence-backed Geometry defect.
 
-Otherwise scan the constellation for a different unoccupied, evidence-backed Geometry gap.
+Otherwise scan the constellation and leave this lane alone.
