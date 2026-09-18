@@ -2,29 +2,35 @@
 
 Date: 2026-09-18
 
-State: **PASS_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_READABILITY_REVIEW_SURFACE / EXACT_VISUAL_CANDIDATE_DD4A8522_UNCHANGED / MAP_PR25_REVIEW_HEAD_4E65EA8F / RUN_35292001358_SUCCESS / HOLD_ART_QA_WEATHER_TEMPORAL_VALUE / HOLD_INDEPENDENT_QA_OBJECT_V2_CLOSE_REVIEW / HOLD_RUNTIME_REBINDS_TARGET_DEVICE_ADOPTION / COORDINATION_ONLY**
+State: **PASS_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_AB_BLINK_REVIEW_SURFACE / EXACT_VISUAL_CANDIDATE_DD4A8522_UNCHANGED / MAP_PR25_REVIEW_HEAD_9B32DBDF / RUN_35296171608_SUCCESS / HOLD_ART_QA_WEATHER_TEMPORAL_VALUE / OBJECT_V2_OWNER_ART_QA_PASS / OBJECT_RUNTIME_V2_REBIND_PASS__HOLD_RUNTIME_QA_TARGET_DEVICE / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the immediately preceding VFX status, fresh Art Direction / Visual Observer-QA / Animation / Environment / Procedural / Technical Art / Runtime / Capability-Cartography status, and current open work across all eleven design repositories: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the preceding VFX status, fresh Art Direction / Visual Observer-QA / Runtime state, and current open work across all eleven design repositories: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
-`axm-create-me` remains **coordination only**. Product/evidence code was added only to `mike-axiom-mir/axm-map-design`; this file is the only create-me change.
+`axm-create-me` remains **coordination only**. Product/evidence code changed only in `mike-axiom-mir/axm-map-design`; this status file is the only create-me mutation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / duplication scan
+## Fresh constellation / duplicate-lane scan
 
 No new source retune is justified.
 
-- **Object VFX:** irregularity-v2 remains frozen at Object PR #31 exact effect head `bc114ee7ec876107892ccedeefc8e5020315488a`. Art Direction 038 has passed the close/seam presentation and explicitly accepts the existing Map wide-camera zero-raster result as a non-target-scale / non-intrusion context. Independent QA close review and any Runtime rebind remain downstream. VFX does not brighten, enlarge, densify, widen, lengthen, move cameras or seed-shop it.
-- **Nature / compact-east:** source response remains frozen. Animation / Runtime / Art / QA own the remaining presentation gates.
-- **Weather:** source semantics and deterministic seeded field generation remain Weather / Procedural-owned. Existing Map PR #25 already contains the strongest live VFX candidate: source-width presentation plus the opacity-normalized two-tap temporal-exposure successor.
-- **Environment / Technical Art / Materials / Runtime:** current Object service-clearance, transport/orientation, shading and optimization work are separate owner lanes and are not VFX scope.
-- **Weapon / Armor / Character / Unit / Animal / Building / Misc:** no fresher VFX-owned handoff displaced the Weather review question.
+- **Weapon:** no open design PR; no fresh VFX handoff.
+- **Armor:** no open design PR; no fresh VFX handoff.
+- **Character:** open Runtime PR #23 is exact accessor dedup/import-budget evidence; it changes no VFX/atmosphere state and remains Runtime/Art/QA-owned.
+- **Unit:** no open design PR; no fresh VFX handoff.
+- **Animal:** open Runtime PR #30 is the 41 -> 19 animation-key representation tradeoff. Art Direction 040 froze its 19-key candidate as a review reference; VFX does not duplicate Animation/Runtime/QA ownership.
+- **Building:** open Geometry PR #18 is a utility-panel chart successor rebind; no dynamic-effect need displaces the live Weather review question.
+- **Nature:** open Animation PR #13 still owns exact-state compact-east playback / loop-seam evidence downstream of the frozen VFX response. VFX does not retime or amplify it.
+- **Weather:** Procedural PR #3 still owns the bounded seeded field family and source semantics. No Weather-source mutation is requested.
+- **Map:** VFX PR #25 remains the live Weather presentation lane. VFX PR #50 retains the Object-v2 wide-camera zero-raster fact; Art Direction has accepted that as a non-target-scale / non-intrusion context, so no automatic amplification is allowed.
+- **Object:** the exact irregularity-v2 owner at PR #31 head `bc114ee7ec876107892ccedeefc8e5020315488a` has now independently passed both Art Direction and Visual Observer / QA in the intended close/seam views. Runtime PR #32 has rebound its one-MultiMesh representation to those exact v2 bytes at `f7408712a90e5b0b7f3043f577580d912d8d0527`, measuring `18 -> 1` isolated VFX draw call and <=1 LSB retained A/B; independent Runtime-representation QA / target-device evidence remains separate. Fresh Object PR #35 is Geometry bored-knuckle topology and does not create a VFX ownership gap.
+- **Misc:** no open design PR; no fresh VFX handoff.
 
-The highest-leverage unoccupied VFX improvement was therefore **effect-readability evidence for the already-green Weather candidate**, not another effect variant.
+The highest-leverage unoccupied VFX action remains **effect readability for the exact Weather candidate already awaiting perceptual judgment**, not another lag / opacity / seed / width / density / camera variant.
 
-## Selected bounded improvement — attribution-only Weather readability review
+## Selected bounded improvement — exact A/B blink review surface
 
 Owning repository: `mike-axiom-mir/axm-map-design`
 
@@ -32,182 +38,126 @@ Existing draft PR: **#25 — `VFX: carry source-authored Weather width into curr
 
 Branch: `studio/vfx-weather-source-width-current-world-001`
 
-Exact unchanged visual candidate donor:
+Exact unchanged visual candidate:
 
 `dd4a85223ba70f7086db2fdc292e4cb57ac38e47`
 
-Review-only branch head:
+New review-only branch head:
 
-`4e65ea8f167ea884c1dee8718c66ff28d806cfc2`
+`9b32dbdf62ea4e83e30f8fdb3e775817e44fb6d5`
 
-PR state at verification: **open / draft / unmerged / mergeable**.
+The only new product-repo files are:
 
-The new review head adds only:
+- `tools/environment_weather_width_temporal_exposure_ab_blink_review.py`;
+- `.github/workflows/vfx-weather-source-width-temporal-exposure-ab-blink-review.yml`.
 
-- `tools/environment_weather_width_temporal_exposure_readability.py`;
-- `.github/workflows/vfx-weather-source-width-temporal-exposure-readability.yml`.
+They do **not** change Weather source data, seed, source widths, configured `15.625 ms` lag, transmittance-normalized opacity mapping, tap weights, density, cameras, lighting, world composition, Nature motion, gameplay or physics.
 
-It does **not** change Weather source data, seed, source widths, lag, tap weights, transmittance-normalized opacity mapping, density, cameras, lighting, world composition, sapling motion or any gameplay/physics state.
+## Why this review surface was needed
 
-## Reused exact real-host evidence
+The previous review at exact head `4e65ea8f167ea884c1dee8718c66ff28d806cfc2` quantified the unchanged candidate's sparse raster contribution but still required a reviewer to manually locate subtle A/B differences across retained frames.
 
-The review deliberately consumes the already-retained real Godot 4.7.2 normalized-candidate packet instead of rerendering a changed effect that does not exist.
+This pass adds a deterministic offline HTML review page that can:
 
-Exact donor workflow:
+- blink exact retained control/candidate images;
+- hold a 50/50 overlay;
+- isolate control or candidate;
+- show fixed per-sample changed-pixel / changed-fraction / maximum-channel metrics.
 
-`35147580525 — VFX Weather opacity-normalized temporal exposure evidence — SUCCESS`
+The page uses only exact retained real-Godot PNGs from the already-green normalized-candidate artifact. It does not synthesize, recolor, sharpen, magnify or otherwise alter the source review frames.
 
-Exact donor artifact:
+Selected review phases are `0`, `125`, `312.5` and `500 ms` in both existing fixed cameras. These include zero-lag equivalence plus each camera's retained peak changed-pixel witness from the preceding readability review.
 
-- ID `10466759303`;
-- candidate head `dd4a85223ba70f7086db2fdc292e4cb57ac38e47`;
-- size `7,963,651 B`;
-- SHA-256 `957a8b6afa54a6a8200597cb1276260390515c6db4129a24dfec76d084fbedf8`.
-
-The review workflow downloads that exact artifact, reconstructs its retained image layout, re-runs the full opacity-normalized verifier against the same hash-bound PNG / raw RGBA evidence, then computes deterministic raster-attribution metrics across all retained pairs.
-
-This preserves the prior exact candidate result:
-
-**`PASS_OPACITY_NORMALIZED_TEMPORAL_EXPOSURE_VISUAL_CANDIDATE`**.
-
-The earlier corrected temporal finding also remains unchanged: median inter-frame RGB is only about **0.028% lower** than control in `path_eye` and **0.380% lower** in `elevated_oblique`. VFX still does not claim a strong smoothing improvement.
-
-## Exact readability-review result
+## Exact verification result
 
 Dedicated workflow:
 
-**`35292001358 — VFX Weather normalized exposure readability review` — SUCCESS**.
-
-Exact review head:
-
-`4e65ea8f167ea884c1dee8718c66ff28d806cfc2`
+**`35296171608 — VFX Weather normalized exposure A-B blink review` — SUCCESS**.
 
 Scoped state:
 
-**`PASS_OPACITY_NORMALIZED_TEMPORAL_EXPOSURE_READABILITY_REVIEW_SURFACE`**
+**`PASS_OPACITY_NORMALIZED_TEMPORAL_EXPOSURE_AB_BLINK_REVIEW_SURFACE`**
 
 Decision:
 
 **`REVIEW_SURFACE_ONLY_NO_ART_OR_QA_PREFERENCE`**
 
-All workflow stages passed:
+All gates passed:
 
-- exact review-head / donor ancestry binding;
-- Python compilation;
-- exact retained real-Godot donor download;
-- retained evidence layout rebind;
-- full normalized candidate contract recomputation;
-- all `18` fixed-context control/candidate pairs hash-bound and measured (`2 cameras × 9 phases`);
-- zero-lag brightness-equivalence preservation;
-- direct visual delta at every nonzero review phase;
-- deliberate receiving-head identity mutation fails closed;
-- review artifact upload.
+- exact candidate `dd4a852...` and prior readability head `4e65ea8f...` are ancestors of the review head;
+- exact retained real-Godot normalized-candidate artifact is re-downloaded;
+- previous readability contract recomputes green;
+- all `2 cameras × 4 selected phases × 2 modes = 16` copied PNGs rehash to their exact retained frame identities;
+- every selected nonzero phase has direct visual delta;
+- selected zero-lag pairs remain within `1 RGB LSB`;
+- deliberate selected-frame SHA identity corruption fails closed;
+- evidence artifact upload succeeds.
 
-## Direct visual-attribution measurements
+Useful retained witnesses remain:
 
-The review measures **where and how much** the already-rendered candidate differs from control. It does not assign aesthetic value.
+- `elevated_oblique`, `125 ms`: **1,727 changed pixels / 0.21806%** of the 1100×720 frame, max retained per-channel delta `121 LSB`;
+- `path_eye`, `312.5 ms`: **1,510 changed pixels / 0.19066%**, max retained per-channel delta `119 LSB`;
+- zero lag: `1,607` / `1,347` changed pixels respectively, but maximum RGB delta is only **1 LSB** in both cameras, preserving the normalized brightness-equivalence finding.
 
-`path_eye`:
+The earlier corrected temporal result remains unchanged: median inter-frame RGB is only about **0.028% lower** than control in `path_eye` and **0.380% lower** in `elevated_oblique`. VFX still does **not** claim a strong smoothing improvement.
 
-- mean changed pixels: **`1464.778`** / `792,000` = **`0.18495%`**;
-- maximum: **`1510`** = **`0.19066%`** at **`312.5 ms`**;
-- minimum: `1347` at zero lag;
-- union changed-pixel bbox: **`[0,49,1099,282]`**.
-
-`elevated_oblique`:
-
-- mean changed pixels: **`1663`** / `792,000` = **`0.20997%`**;
-- maximum: **`1727`** = **`0.21806%`** at **`125 ms`**;
-- minimum: `1607` at zero lag;
-- union changed-pixel bbox: **`[60,193,1099,580]`**.
-
-At phase `0 ms`, the retained candidate/control pairs still remain inside the prior normalized brightness-equivalence gate: maximum RGB difference is only **1 LSB** in both cameras. The nonzero changed-pixel count at phase 0 is therefore low-amplitude raster variation, not evidence of a meaningful static brightness shift.
-
-The later phases show direct visible raster contribution while staying sparse relative to the full frame. VFX records that fact without converting it into an aesthetic threshold or preference.
-
-## Retained review artifact
+## Retained evidence
 
 Artifact:
 
-- ID **`10527111249`**;
-- name `environment-weather-source-width-temporal-exposure-readability-001-4e65ea8f167ea884c1dee8718c66ff28d806cfc2`;
-- size **`3,885 B`**;
-- GitHub SHA-256 **`622c28066955e6991b6063cfadb74abf9edbe71a2e3a53092519cd17ed101d91`**;
-- downloaded archive independently rehashed to the same SHA-256;
-- retained files: `candidate-head.txt`, `review-head.txt`, `readability.json`, `readability.svg`.
+- ID **`10527802147`**;
+- name `environment-weather-source-width-temporal-exposure-ab-blink-review-001-9b32dbdf62ea4e83e30f8fdb3e775817e44fb6d5`;
+- size **`1,416,828 B`**;
+- GitHub SHA-256 **`a0e66029badb8ff36233ee1415d8081c7b68a613ad246bac4ddfa9e695dccb3d`**;
+- downloaded archive independently rehashed to the exact same SHA-256;
+- retained files: candidate/review head pins, `ab_blink_review.json`, offline `ab_blink_review.html`, and 16 exact selected control/candidate PNGs.
 
-Map PR #25 handoff comment: **`5723238004`**.
+Map PR #25 handoff comment: **`5723740482`**.
 
-## Why this is useful without source churn
+PR #25 remains **open / draft / unmerged**; no automatic adoption or merge was requested.
 
-The normalized candidate already removed the prior half-opacity attribution confound, but its perceptual value remains uncertain. A new lag / opacity / density / width / seed / camera variation would be parameter churn before Art / independent QA answer the current question.
+## Object VFX continuity correction
 
-The new review surface instead gives those downstream specialists a deterministic map of the candidate's actual retained raster contribution while keeping the visual candidate byte-for-byte attributable to exact donor head `dd4a852...`.
+The immediately preceding VFX status was stale on Object downstream state. Fresh coordination now establishes:
 
-This is a VFX evidence-method improvement, not an automatic adoption or a substitute for human perceptual review.
+- exact owner VFX head `bc114ee7...` is Art Direction PASS **and** independent Visual Observer / QA PASS in `continuity_three_quarter` and `left_oblique_seam`;
+- Map wide-camera zero-raster evidence remains exact historical truth and is accepted as non-target-scale / non-intrusion evidence, not a reason to amplify the source;
+- Runtime exact v2 rebind head `f7408712...` is green with one-MultiMesh representation and <=1-LSB retained A/B;
+- final Runtime-representation QA and target-device acceptance remain open.
 
-## Object VFX continuity
-
-Object PR #31 remains frozen at exact irregularity-v2 effect head:
-
-`bc114ee7ec876107892ccedeefc8e5020315488a`
-
-Frozen owner identity remains:
-
-- seed `41027`;
-- `18` motes;
-- trigger `0.25 s`;
-- exact Animation timing/easing/order unchanged;
-- owner color/alpha ceiling unchanged;
-- owner size/lifetime/velocity ranges unchanged;
-- semantics `EXACT_ANIMATION_PHASE_BOUNDARY_NOT_GAMEPLAY_EVENT`;
-- semantics `STYLIZED_VISUAL_RELEASE_MOTES_NOT_DUST_OR_FLUID_SIMULATION`.
-
-Art Direction 038 remains:
-
-**`PASS_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_CLOSE_PRESENTATION_038`**
-
-and:
-
-**`ACCEPT_EXISTING_CURRENT_WORLD_ZERO_RASTER_AS_NON_TARGET_SCALE_CONTEXT__NO_SOURCE_AMPLIFICATION`**.
-
-Independent Visual QA close review remains genuinely unresolved in current coordination; Runtime rebind and target-device evidence remain downstream.
+No source retune follows from that correction.
 
 ## Explicit truth boundary
 
-The new Weather PASS establishes only a deterministic **review surface** over retained real-Godot evidence for the exact normalized VFX candidate.
-
-It does **not** establish:
+This PASS establishes only an **offline perceptual-review surface over exact retained real-Godot Weather frames**. It does not establish:
 
 - human-perceived smoothness;
-- aesthetic superiority or Art Direction preference;
-- independent Visual QA acceptance;
+- aesthetic superiority, Art Direction preference or independent Visual QA acceptance;
 - authored Weather `32 Hz` target-device delivery;
-- arbitrary-camera / arbitrary-resolution / arbitrary-FOV equivalence;
-- physical wind, precipitation, airflow, dust, pressure or fluid behavior;
+- arbitrary-camera / resolution / FOV equivalence;
+- physical wind, precipitation, airflow, pressure, dust or fluid behavior;
 - collision, damage, interaction or gameplay-event semantics;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery performance;
 - Runtime adoption;
-- final Object v2 QA acceptance;
 - CANON;
 - production/game readiness;
 - VFX mastery.
 
-Weather keeps source semantics. Animation keeps timing/easing/order. Environment keeps composition/cameras. Runtime keeps production representation/performance. Art Direction and independent Visual QA keep perceptual acceptance. VFX owns only bounded effect/presentation identity and truthful visual evidence. Gameplay/physics remain unchanged and unclaimed.
+Weather keeps source semantics. Animation keeps timing/easing/order. Environment keeps composition/cameras. Runtime keeps production representation/performance. Art Direction and independent Visual QA keep perceptual acceptance. VFX owns bounded effect/presentation identity and truthful effect-readability evidence only.
 
 ## Continuity retained
 
 The immediately preceding detailed VFX status is preserved at exact Git blob:
 
-`f8f15156d5a0a70fbd11ef4b3f547971d8525ad3`
+`483583590d94fc4eb9d8b4a47fdf3b9b015c6023`
 
-That predecessor preserves the full normalized-candidate derivation, exact formula / width evidence, corrected weak-smoothing result, Object Art Direction 038 continuity and prior handoff state. Earlier Object owner, seed-family, wall-clock, v1/v2 repair, current-world zero-raster, Weather source-width, strict wall-clock failures, latest-due fallback and temporal-exposure evidence remain recoverable in their owning PR histories. No failed or weaker result is silently rewritten.
+That predecessor preserves the full attribution-only readability review, normalized-candidate evidence identity and earlier Object continuity state. The current status corrects only the now-resolved Object Art/QA + Runtime-rebind downstream facts; it does not silently rewrite historical evidence.
 
 ## Four-root gate
 
-- **Truth:** the new review does not turn sparse raster deltas into a claim of perceptual smoothing or aesthetic quality. It re-verifies the exact retained normalized evidence and preserves the corrected weak-smoothing result.
-- **Agency / non-domination:** VFX does not retune Weather against Art/QA, amplify Object against Direction 038, seize Weather source semantics, Runtime/device authority, Environment cameras, Animation timing or gameplay/physics authority.
-- **Continuity:** exact candidate donor `dd4a852...`, review-only child head `4e65ea8f...`, donor artifact, review artifact, PR identity, Object v2 identity and predecessor status blob remain separately addressable.
-- **Wisdom before speed:** instead of opening another parameter variant, this activation improves observability of the exact candidate already awaiting perceptual judgment.
+- **Truth:** exact retained frames remain byte-identifiable; A/B visibility is not converted into a smoothing or aesthetic claim; stale Object downstream state is explicitly corrected rather than carried forward.
+- **Agency / non-domination:** VFX does not retune Weather against Art/QA, amplify Object against accepted scale hierarchy, seize Weather source semantics, Runtime/device authority, Environment camera authority, Animation timing or gameplay/physics authority.
+- **Continuity:** exact candidate `dd4a852...`, preceding review `4e65ea8f...`, current review `9b32dbdf...`, donor/review artifacts, Object owner v2 identity and predecessor status blob remain separately recoverable.
+- **Wisdom before speed:** this pass improves human observability of the exact candidate already awaiting judgment instead of adding another parameter variant or effect lane.
 
 The four AXM roots remain the merge gate.
