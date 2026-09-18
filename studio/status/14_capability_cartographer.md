@@ -2,7 +2,7 @@
 
 Date: 2026-09-18
 
-State: `PASS_EQUIVALENCE_RELATION_IDENTITY_MAP / NATURE_OBJECT_BUILDING_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_GENERIC_UC_WELD_DEDUP_ENGINE / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+State: `PASS_METRIC_SEMANTIC_QUANTITY_IDENTITY_MAP / ANIMAL_BUILDING_NATURE_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_GENERIC_UC_METRIC_NORMALIZER / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
 
 ## Activation / campaign gate
 
@@ -12,164 +12,155 @@ Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/14_capability_cartog
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor Cartography coordination commit remains rollback-addressable at `d22765e2cc69602cea4263d90f5455d799f41547`. Its descriptive-relation / consumer-policy map remains historical truth and is not rewritten by this pass.
+Immediate predecessor Cartography coordination commit remains rollback-addressable at `3fd2d8f7e1b463a7b0e582bf8c7e86e117def398`. Its equivalence-relation identity map remains historical truth and is not rewritten by this pass.
 
 ## Material cross-repo learning
 
-**`ENTITY_DOMAIN_IDENTITY != EQUIVALENCE_RELATION_IDENTITY != EQUIVALENCE_CLASS_PARTITION_IDENTITY != MUTATION_OR_SOURCE_AUTHORITY`**
+**`METRIC_LABEL_IDENTITY != OBSERVABLE_SEMANTIC_IDENTITY != DERIVATION_IDENTITY != UNIT_OR_BASIS_IDENTITY != THRESHOLD_IDENTITY`**
 
-A 3D pipeline can truthfully carry several different meanings of “the same vertex / point / entity” at once. Source-owned identity, indexed-topology identity, serialized triangle-corner identity, exact-position diagnostic identity, and receiver-local attribute grouping are different relations over potentially overlapping data.
+A numeric value may be exactly reproducible and carry a familiar unit while still describing a different observable from the one a downstream claim needs. Metric semantics therefore include the exact observable, derivation/operator, inputs/reference domain, coordinate/basis where relevant, and threshold ownership — not only the number, label or unit.
 
-A count match, coordinate match, spatial overlap, or useful quotient does not authorize relation substitution. The relation itself is part of the evidence identity.
+This is materially different from the preceding equivalence-relation map. That map asked which entities are being considered equivalent; this pass asks **what quantity is actually being measured or bounded once the entities are fixed**.
 
-This is materially different from the prior Cartography map about descriptive facts versus downstream policy. Here the issue is not what policy consumes a fact; it is **which equivalence relation defines the entities being compared at all**.
+## Evidence A — Animal: matching degree units do not make two angle metrics equivalent
 
-## Evidence A — Nature: spatial support does not create indexed identity
+Animal Rigging PR #25 remains open/draft at exact head `0bdddceb1ccac52732d0a2c71e877a8f31976305` and consumes the exact Runtime PR #30 donor `13ba20d198d2b7c5e428167745d59927b3084004` for the 19-key candidate.
 
-Nature Geometry PR #18 exact current evidence head `d32a41558910d78595042fb638a785714f825806` classifies `north-low` as `52v / 72t`, six indexed edge-connected components, with two closed tapered branch-segment shells plus four open leaves and **zero indexed vertices shared with the trunk**.
+Runtime's retained `qerr_deg` threshold is `0.075°`. Rigging reproduces the exact Runtime maximum as `0.05472043982868231°`, but inspection of the metric shows that value is a **quaternion-space half-angle distance**, not the shortest physical / owner-command rotation.
 
-Organic independently measures a real neutral radial-support transition through the first authored branch segment, and Procedural now derives exact owner-backed parameter windows from those source measurements. Those source/spatial relations remain useful evidence, but they are not an indexed weld.
-
-Rigging consequently keeps the current receiving class `DETACHED_DIAGNOSTIC_CHILD_SOCKET_ONLY`; its continuous diagnostic transform evidence does not promote detached source/receiver geometry into connected surface topology.
+For the same exact worst sample, the physical / owner-command residual is `0.10944087965736671°`. The candidate still stays inside the broader structural command envelope and all 321 sampled control/candidate owner poses pass the existing structural pose gate, but Rigging correctly keeps adoption **HOLD** rather than treating the matching degree symbol as semantic equivalence or rewriting Runtime's threshold.
 
 Bounded rule:
 
-`SPATIAL_SUPPORT_OR_COORDINATE_RELATION != SHARED_INDEXED_VERTEX_IDENTITY`
+`SAME_NUMERIC_UNIT != SAME_OBSERVABLE`
 
-No weld, boolean, remesh or junction strategy is inferred by Cartography.
+and:
 
-## Evidence B — Object: serialized corners and a diagnostic exact-position quotient coexist
+`THRESHOLD_VALUE + UNIT != THRESHOLD_SEMANTICS`
 
-Object Geometry PR #36 exact evidence head `d69b9f730edd00f8ed668665cb009a74c2da813a` receives a Godot representation containing `1,440` serialized triangle-corner vertices and `1,440` indices across five knuckles.
+The threshold belongs to the metric definition and its owning claim domain.
 
-Each logical source position is repeated across receiver corners. Geometry therefore constructs an **observation-only quotient over exactly equal position tuples**, obtaining `240` exact-position classes, and re-runs the bounded topology proof on that diagnostic identity.
+## Evidence B — Building: same metres, different geometric quantity
 
-The receiver is not rewritten:
+Building Hard Surface PR #17 remains open/draft at exact head `fbfa3b47048755b45dac91451171d5511c8d4f47`.
 
-- `receiver_vertices_rewritten_or_merged=false`;
-- serialized `1,440`-corner representation remains retained;
-- diagnostic quotient has `240` exact-position classes;
-- logical aggregate topology remains `240v / 480t / 720e`, genus sum `5`;
-- the source topology PASS was not transferred without retest.
+The predecessor source had:
+- panel body depth `0.08 m`;
+- receiver plate thickness `0.04 m`;
+- center standoff `0.08 m`;
+- required nearest-body-face gap `0.02 m`.
 
-Bounded rule:
+The historical builder evaluated `standoff - plate_thickness = 0.04 m` and labelled that value body clearance. But because the standoff positions the **body center**, nearest-body-face gap is instead:
 
-`EXACT_POSITION_DIAGNOSTIC_EQUIVALENCE != SERIALIZED_VERTEX_IDENTITY != RECEIVER_WELD`
+`standoff - plate_thickness - body_depth / 2`
 
-The quotient is evidence machinery for one topology question, not permission to mutate Technical Art transport or redefine source topology.
+which gives `0.00 m` on the predecessor. The bounded source correction changes only standoff `0.08 -> 0.10 m`, making the actual nearest-body-face gap exactly `0.02 m`.
 
-## Evidence C — Building/Map: consumer grouping is not source equivalence
-
-Map Technical Art PR #40 retains an exact real-Godot / UC grouping proof on the Building receiver. Its merged-UC evidence at `939bc0c7824b16c11565f32cf1d70bc2b0c7f681` observes `1,008` triangle corners becoming `312` receiver-local indexed vertices while retaining `336` triangles / five material surfaces and exact POSITION decoding under the declared grouping rule.
-
-The same lane explicitly records a different Hard-Surface source domain with **`604` source-intent equivalence groups**. The receiver's `312` groups and the source's `604` groups are both valid in their own scopes and are intentionally not relabelled as each other.
-
-The receiver also separately retains a NORMAL repack observation, reinforcing that one grouping relation does not grant universal attribute/source identity.
+Both quantities are expressed in metres. They are nevertheless different observables because their derivations and reference surfaces differ.
 
 Bounded rule:
 
-`RECEIVER_LOCAL_ATTRIBUTE_GROUPING != SOURCE_INTENT_EQUIVALENCE`
+`CENTER_OFFSET_SURPLUS_M != NEAREST_BODY_FACE_GAP_M`
+
+Hard Surface keeps source-owned operand/reference-surface semantics; Cartography does not extract this clearance formula into UC.
+
+## Evidence C — Nature: representation bytes are not measured transport bytes
+
+Nature Runtime PR #20 has advanced beyond the retained shader-driver rebind evidence and is now at exact head `f93c25cedf71496fd6b7c9d4bb1a98ac91f867a9`. This Cartography map does not relabel the newer head or request a duplicate rerun.
+
+The retained exact Runtime evidence at `b9ad7622d5b9f3f0a1434dbe534da5397d83226c` compares a `3,120 B` mutable CPU position packet with a `4 B` semantic shader-driver value, a `3,116 B / 99.8717948717949%` semantic-payload difference. Runtime and independent QA both explicitly keep that as **representation accounting**, not measured GPU command/bus/API transport and not target-device frame-time improvement.
+
+Bounded rule:
+
+`REPRESENTATION_BYTE_COUNT != MEASURED_TRANSPORT_TRAFFIC != PERFORMANCE_RESULT`
+
+A byte unit does not authorize transfer between those observables.
 
 ## Repeated map
 
-The cross-repo pattern is now supported by three materially different mechanisms:
+The repeated boundary is now supported by three materially different mechanisms:
 
-1. **Nature** — spatial/source support versus indexed connectivity;
-2. **Object** — serialized triangle corners versus observation-only exact-position quotient;
-3. **Building/Map** — receiver-local attribute/protected-split grouping versus source-owned semantic grouping.
+1. **Animal** — quaternion-space error metric versus physical owner rotation;
+2. **Building** — center-offset surplus versus nearest-surface geometric clearance;
+3. **Nature** — semantic representation bytes versus unmeasured runtime transport/performance.
 
-A truthful reusable record therefore needs to carry the relation, not only the resulting count or representative values.
+A bounded cross-lane evidence record therefore needs at minimum:
 
-Suggested evidence map:
+- `metric_identity` and `metric_label`;
+- `observable_semantic_identity`;
+- `derivation_or_operator_identity`;
+- `input_identity[]` and exact reference surface/domain where relevant;
+- `unit_identity`;
+- `coordinate_or_basis_identity` where relevant;
+- optional `denominator_or_reference_identity` for ratios/percentages;
+- `threshold_identity`, including threshold owner and the observable it constrains;
+- `comparison_compatibility_state = SAME_OBSERVABLE | TRANSFORM_EXPLICITLY_PROVEN | DIFFERENT_OBSERVABLE | NOT_EVALUATED`;
+- `claim_transfer_state` plus explicit non-claims.
 
-`entity_domain_identity`
+Stop rules:
 
-`+ equivalence_relation_identity`
-
-`+ relation_purpose`
-
-`+ equivalence_class_partition_identity`
-
-`+ relation_authority_owner`
-
-`+ mutates_subject`
-
-`+ optional cross_relation_evidence`
-
-`-> bounded comparison / observation claim`
-
-with explicit non-transfer to welding, deduplication, source adoption, topology promotion, receiver rewriting or semantic-authority transfer.
+1. Matching unit symbols or labels do **not** prove matching observables.
+2. A threshold belongs to its metric definition, not merely to its numeric value and unit.
+3. Cross-metric conversion must be explicit and proven; naming similarity or a convenient factor does not transfer authority.
+4. Representation/storage accounting must not be promoted to bus/command/performance measurement without observing that quantity.
+5. Geometry metrics must name the exact operands/reference surfaces used by the derivation.
 
 ## Profession Fabric placement
 
 Profession Fabric issue #38 remains the supported candidate home for this **evidence/provenance vocabulary only**.
 
-Capability Cartography comment `5729020975` adds the bounded relation-identity refinement beneath the existing experimental source-successor evidence procedure:
-
-- `entity_domain_identity`;
-- `equivalence_relation_identity`;
-- `relation_purpose`;
-- `equivalence_class_partition_identity`;
-- `relation_authority_owner`;
-- `mutates_subject`;
-- explicit `cross_relation_evidence` only when a bijection/refinement/coarsening/equivalence is actually proved;
-- explicit relation-specific non-transfer.
-
-No PF implementation, profession promotion, automatic inference or policy was created.
+Capability Cartography comment `5729648795` adds the metric-semantic identity refinement under the existing experimental source-successor procedure.
 
 Evidence-only returns were placed on:
 
-- Nature Geometry PR #18 — comment `5729022818`;
-- Object Geometry PR #36 — comment `5729024048`;
-- Map Technical Art PR #40 — comment `5729026643`.
+- Animal Rigging PR #25 — comment `5729650508`;
+- Building Hard Surface PR #17 — comment `5729653939`;
+- Nature Runtime PR #20 — comment `5729655777`.
 
-Those returns move no product verdict or authority.
+Those returns move no product verdict or authority. No PF implementation, profession promotion, automatic metric conversion or policy was created.
 
 ## Universal Creation placement decision
 
 No new UC capability lane is justified.
 
-Current UC `main` is `7ddefca57b153fab02c1f54f38de22148cb52c1b`. Open UC PR #212 at head `2721c48c7f634e6014c5d5b98918f5fdad0f1bd5` is the unrelated radial-envelope active-projection-set Physics successor.
+Current UC `main` at this scan is `376b5c49a8bdbff344fe20e61cd89a73b8a96c75`, the merge of PR #212's unrelated bounded radial-envelope active-projection-set Physics successor. The current open Physics successor is likewise unrelated to this evidence/provenance distinction.
 
-Existing generic UC observers already provide bounded read-only grouping/topology machinery where that is justified. The repeated cross-repo issue found here is not a missing universal weld/deduplicate transform; it is the need to preserve **which relation an observer used and what authority that relation has**.
+The executable mechanisms here remain materially different and product/domain-owned:
 
-Opening a generic UC weld/dedupe/equivalence engine would be actively unsafe at this evidence stage because:
+- Animal interprets a quaternion-derived error metric against a physical owner-angle question;
+- Building derives a source-local clearance from exact body/plate reference surfaces;
+- Nature accounts semantic representation payload separately from unmeasured transport/performance.
 
-- Nature must not turn spatial support into indexed connectivity;
-- Object's exact-position quotient is diagnostic and explicitly non-mutating;
-- Building/Map's receiver grouping is not source-intent equivalence.
+A generic UC metric normalizer, threshold converter or automatic claim-relabeling engine would erase the semantic distinction rather than expose a demonstrated neutral creation/observation primitive.
 
 `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` was checked first. It contains no active overlapping shared implementation claim; retained UC #192 and #199 are already closed/merged.
 
 ## Fresh constellation / dependency context
 
-Fresh specialist state was also inspected to avoid colliding with active work:
+Fresh specialist state was inspected to avoid colliding with active work:
 
-- Nature Organic now owns exact neutral branch-transition envelopes and explicitly holds connected topology for Geometry;
-- Nature Procedural derives five exact owner-backed branch-transition parameter windows without choosing a junction or Rigging policy;
-- Nature Rigging consumes Geometry's detached classification and remains merge-conflicted at its integration boundary while exact-head tests stay green;
-- Nature Animation and VFX consume the detached parent-exclusion semantics in their own source-space lanes;
-- Nature Technical Art has now proven the exact current Animation/Rigging detached lineage through current UC and real Godot 4.7.2 while still holding connected attachment, skinning, final normals/tangents, Runtime/device and final visual adoption;
-- Nature Runtime's retained pass 55 is predecessor-chain optimization evidence and explicitly does not transfer onto the current Animation/Rigging owner chain;
-- independent QA's normal-direction PASS remains tied to its exact earlier carrier and does not migrate automatically.
-
-None of those active implementation lanes is duplicated by this Cartography pass.
+- Animal Rigging already owns the current 19-key owner-angle interpretation HOLD and no Cartography implementation lane duplicates it;
+- Building Hard Surface already owns the source-local clearance correction and downstream rebind remains explicit rather than automatic;
+- Nature Runtime has advanced to newer current-owner transfer work, so this map references only the exact retained representation-accounting evidence it actually needs;
+- Nature Technical Art and independent QA retain separate target-host and visual evidence boundaries and are not used to manufacture a device-performance claim;
+- current UC Physics work is unrelated;
+- the shared-capability registry has no active overlapping implementation claim.
 
 ## Decision / state
 
-`PASS_EQUIVALENCE_RELATION_IDENTITY_MAP`
+`PASS_METRIC_SEMANTIC_QUANTITY_IDENTITY_MAP`
 
 Supported placement:
 
-- **Product repos:** own source/index/receiver/diagnostic relation semantics and any mutating operation;
-- **Profession Fabric #38:** candidate home for neutral evidence vocabulary that names the exact relation/partition being relied upon;
-- **Universal Creation:** retain existing bounded read-only observers; no new generic weld/dedupe engine justified;
+- **Product repos:** own metric definitions, formulas/operators, reference domains, threshold intent and domain acceptance;
+- **Profession Fabric #38:** candidate home for neutral evidence vocabulary that binds numbers to exact observable semantics and threshold scope;
+- **Universal Creation:** no new generic metric-normalization/threshold-conversion layer justified;
 - **axm-create-me:** coordination map only.
 
-No source geometry, receiver data, topology, weld state, product implementation, PF implementation, UC implementation, Art/QA verdict, target-device claim, adoption state, CANON state or merge authority moved.
+No product implementation, metric formula, threshold authority, source geometry, PF implementation, UC implementation, Art/QA verdict, target-device claim, adoption state, CANON state or merge authority moved.
 
 ## Next legitimate trigger
 
-Re-scan before further propagation. Advance this map only if another independent product exposes a materially different relation-substitution failure or if PF #38 explicitly becomes an implementation experiment. Do not centralize a mutating equivalence engine merely because several observers produce partitions.
+Re-scan before further propagation. Advance toward executable shared machinery only if a genuinely neutral metric transform repeats under explicitly compatible observable semantics and domain-independent tests. Until then, keep this as PF evidence vocabulary and preserve product-owned formulas/thresholds.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
