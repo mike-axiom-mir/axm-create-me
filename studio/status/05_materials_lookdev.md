@@ -1,21 +1,23 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-18
-State: **PASS_BUILDING_TA_GLB_MATERIAL_RECEIVING_CONTINUITY / BUILDING_MATERIALS_PR3_HEAD_38260F31_DRAFT_UNMERGED / 3_REAL_CONTEXTS / HOLD_PRODUCTION_UV_TEXTURE_ENV_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_BUILDING_CURRENT_RECEIVER_DUAL_PANEL_MATERIAL_LOOKDEV_CONTINUITY / BUILDING_MATERIALS_PR3_HEAD_0AE91179_DRAFT_UNMERGED / 3_REAL_CONTEXTS / HOLD_PRODUCTION_UV_TEXTURE_ENV_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, this live status, and current Art Direction / Technical Art / Runtime / Visual-QA coordination before acting. `axm-create-me` remains coordination-only; implementation and evidence stayed in the existing Building Materials lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, this live status, and current Art Direction / Geometry / Hard Surface / Technical Art / Environment / Visual-QA coordination before acting. `axm-create-me` remains coordination-only; implementation and evidence stayed in the existing Building Materials lane.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Materials status is preserved exactly at blob **`6a2682d85c70b26ecb86b661b4861a36b3e36698`**. It records the Nature scalar-axis isolation result and is not silently rewritten.
+The immediately preceding Materials status is preserved exactly at blob **`70c6500c275a192b5da9c96630d36f5a4484ef5b`**. It records the earlier single proof-carrier Technical-Art GLB receiving result and is not silently rewritten.
 
 ## Constellation / duplicate-lane scan
 
-- **Nature** is green on the bounded color/roughness isolation question and should not be extended merely by cadence.
-- **Object** is correctly waiting on a concrete Art / independent-QA defect or materially changed Technical-Art transport.
-- **Building** held the strongest newly opened Materials-owned gap. The prior Materials status explicitly held at the point where a Technical-Art-owned material-bearing GLB with exact UV/material/image transport identity was needed. Technical Art PR #40 has now produced that exact carrier plus an aspect-blind negative, while explicitly holding final visual acceptance. The smallest honest Materials step was therefore to receive those exact bytes in the real review renderer and compare them against the already-proven Materials owner reference.
+- **Nature** remains green on the bounded color/roughness-axis isolation question; no fresh Materials-owned defect justified extending it by cadence.
+- **Animal** remains green on the bilateral texture seam/filter localization proof; production packing, textures and Technical-Art transport remain held.
+- **Object** has fresh Hard-Surface/Geometry source-successor work, but the current owner chain is still structural/downstream-ready rather than exposing a stronger immediate Materials receiver defect than Building.
+- **Weapon / Armor / Unit / Misc** still lack a stronger grounded owner-ready Materials seam in the current coordination state.
+- **Building** became the highest-leverage bounded lane because Technical Art PR #40 advanced from the previous proof-carrier GLB to an exact UV0/image binding for the two utility-panel service faces on Environment PR #51's current `184v / 276t / 5-surface` Building receiver. Environment had explicitly held world-material adoption pending that boundary.
 
 No new Materials PR was opened. Existing Building Materials PR #3 was advanced in place.
 
@@ -29,38 +31,40 @@ Branch: `studio/materials-pavilion-surface-001`
 
 Exact tested Materials head:
 
-**`38260f31a49766ec27746b785934248176796d59`**
+**`0ae911792929eaa38b2c2f32239ebfdce8967251`**
+
+PR state after the proof: **open / draft / mergeable / unmerged**.
 
 Materials did not merge, rebase, retarget, or treat mergeability as authority.
 
 Pinned predecessor Materials head:
 
-**`5f096369eee2ef44275ea8f1c7dc1b6e564e71c8`** — serialized review-texture proof.
+**`38260f31a49766ec27746b785934248176796d59`** — previous exact Technical-Art proof-carrier receiving PASS.
 
-Pinned owner inputs:
+Pinned current owners:
 
+- Environment PR #51: **`787ad51687da2df52c9f6191d1778a7f66cbd3db`**;
 - Hard Surface PR #17: **`fbfa3b47048755b45dac91451171d5511c8d4f47`**;
 - Geometry PR #18: **`02944a9f10528a051603df3a6fd7b3183730773f`**;
-- Technical Art repo `mike-axiom-mir/axm-map-design`, PR #40: **`457c086d27f3a9c010b365fe75d54b8f812b01ef`**.
+- Technical Art repo `mike-axiom-mir/axm-map-design`, PR #40: **`1434bc4a64faa04db10f47723c37ab7925aaa163`**.
 
-Technical Art retains GLB packaging/transport ownership; Hard Surface retains source-surface geometry; Geometry retains chart and directional-sampling ownership.
+Technical Art retains current-receiver UV/image transport ownership; Environment retains the full current-world receiver and adoption decision; Hard Surface retains service-face geometry/frame ownership; Geometry retains chart/directional-sampling ownership.
 
-## Bounded improvement — exact Technical-Art GLB receiving proof
+## Bounded improvement — current receiver dual-panel Materials receiving proof
 
-Materials added a receiving contract and Godot observer that re-execute the exact Technical-Art bridge from pinned owner inputs, verify exact GLB/image/material identities, then compare three contexts:
+Technical Art's fresh bridge binds exactly the two current receiver outer service faces to the existing Materials review image and Geometry chart while preserving the surrounding Environment receiver.
 
-- `front`;
-- `oblique`;
-- `grazing`.
+Materials therefore added one receiving contract + real Godot observer that:
 
-Per context the proof retains four real images:
+1. re-executes the exact Technical-Art bridge from pinned owner inputs;
+2. imports the untouched two-service-face Technical-Art positive carrier and verifies exact positions, UVs, indices, scalar material values and decoded image identity;
+3. compares the imported positive against an exact Materials-native copy under an identical unshaded receiver to isolate transport/projected-coverage continuity;
+4. on that same native geometry, compares the owner active-region UVs against a deliberate full-square aspect-blind UV negative while keeping positions, normals, material scalars, texture, cameras and lighting unchanged;
+5. independently proves the lit receiver is visually active.
 
-1. Materials owner-native surface, exact serialized checker, unshaded;
-2. exact Technical-Art positive GLB, unshaded with the same owner texture receiver;
-3. exact Technical-Art positive GLB, imported material and lighting;
-4. exact Technical-Art aspect-blind negative GLB, imported material and lighting.
+The full Environment `184v / 276t / 5-surface` receiver was **not** mutated or adopted by Materials.
 
-Frozen Materials review values remain unchanged:
+Frozen review identities remain unchanged:
 
 - serialized checker PNG SHA-256: **`e932cdd94d370184c7361862d5064149cc193e3a8fd80b269cab6543c0919198`**;
 - decoded 512×512 RGBA8 SHA-256: **`02f8f464eabc734a3be687a7706edf8b8f62ece834fa981c8c993fbb8227bb4b`**;
@@ -68,112 +72,110 @@ Frozen Materials review values remain unchanged:
 - metallic: **0.18**;
 - roughness: **0.62**.
 
-Exact Technical-Art carriers:
+Exact Technical-Art positive current-receiver carrier SHA-256:
 
-- positive GLB SHA-256: **`dc65fec67aa6aba4e4a14895b38122ae89b6eafba7f256b07c1a7c9e344bbd68`**;
-- aspect-blind negative GLB SHA-256: **`31bd3f48440f0889d1f54cf23dbf26184b574f07da6ce7ae683381bc402763ef`**.
+**`2d7990c5e699af23e03afeffbebdfc36bc5516b33886702c3b1d7fa3df4a26ef`**
 
-Materials edited neither GLB and copied no Technical-Art packaging ownership.
+Materials edited no Technical-Art carrier and copied no transport ownership.
 
 ## Exact workflow / target-host result
 
 Dedicated workflow:
 
-**`35295420787 — Building material utility-panel Technical Art GLB receiving evidence`**
+**`35299346372 — Building material utility-panel current-receiver lookdev evidence`**
 
 Result: **SUCCESS** on Python 3.11 and 3.13 plus the real target-host review lane.
 
 Pinned receiver:
 
-**Godot 4.7.2 stable / GL Compatibility / X11 / Mesa llvmpipe (LLVM 20.1.2, 256 bits)**.
+**Godot 4.7.2 stable / GL Compatibility / X11 / Mesa llvmpipe proof host**.
 
 Scoped Materials result:
 
-**`PASS_TARGET_HOST_BUILDING_UTILITY_PANEL_TA_GLB_MATERIAL_RECEIVING_CONTINUITY`**
+**`PASS_TARGET_HOST_BUILDING_CURRENT_RECEIVER_DUAL_PANEL_MATERIAL_LOOKDEV_CONTINUITY`**
 
 Decision:
 
-**`PASS_EXACT_TA_GLB_PRESERVES_OWNER_TEXTURE_UV_COVERAGE_AND_LIT_PHYSICAL_DENSITY_DISTINCTION__HOLD_ENV_RUNTIME_ART_QA_ADOPTION`**
+**`PASS_EXACT_TA_CURRENT_RECEIVER_SERVICE_FACES_PRESERVE_OWNER_COVERAGE_AND_PHYSICAL_DENSITY_DISTINCTION__HOLD_ENV_RUNTIME_ART_QA_ADOPTION`**
 
-Exact positive import inspection:
+Exact imported positive inspection:
 
 - 1 surface;
-- 4 vertices;
-- 4 UVs;
-- 6 indices;
+- 8 vertices;
+- 8 UVs;
+- 12 indices;
 - imported image 512×512 RGBA8 with exact owner decoded-image SHA;
 - metallic ≈ `0.18`;
 - roughness ≈ `0.62`.
 
-### Transport continuity
+### Transport continuity — imported TA carrier vs exact native owner coverage
 
-Materials owner-native unshaded versus exact Technical-Art positive GLB unshaded:
+Under the identical unshaded receiver:
 
-- front: **0 raw changed pixels**;
-- oblique: **0 raw changed pixels**;
-- grazing: **0 raw changed pixels**.
+- `front_receiver`: **0 raw changed pixels / 0 >1 LSB**;
+- `east_receiver`: **0 / 0**;
+- `dual_oblique`: **0 / 0**.
 
-This is pixel-identical in all three retained contexts and closes the previously open bounded Materials question: on this proof host, the exact Technical-Art carrier preserves the owner surface/UV/texture coverage needed by the existing Materials review chain.
+The exact current-receiver service-face transport is therefore pixel-identical to Materials-native owner coverage in all three retained contexts on this proof host.
 
-### Observer sensitivity / physical-density distinction
+### UV-density observer sensitivity
 
-Exact positive lit versus exact Technical-Art aspect-blind negative lit, pixels changed by more than 1 LSB:
+Exact Materials-native physical-density candidate vs same-native-geometry full-square aspect-blind UV negative, pixels changed by more than 1 LSB:
 
-- front: **110,262 px**;
-- oblique: **91,154 px**;
-- grazing: **38,819 px**;
-- total: **240,235 px**.
+- `front_receiver`: **130,036 px**, max RGB-channel delta **0.215686**;
+- `east_receiver`: **126,544 px**, max delta **0.211765**;
+- `dual_oblique`: **11,997 px**, max delta **0.215686**;
+- total: **268,577 px**.
 
-Maximum RGB-channel delta is **0.078431** in every retained context.
+The lit material path is independently active versus unshaded:
 
-The imported material/lighting path is independently active. Positive unshaded -> positive lit changes:
+- `front_receiver`: **209,152 px**;
+- `east_receiver`: **203,428 px**;
+- `dual_oblique`: **13,557 px**.
 
-- front: **184,736 px**;
-- oblique: **151,903 px**;
-- grazing: **64,815 px**.
-
-Therefore the transport-zero result is not explained by a visually inert receiver.
+Therefore the zero transport delta is not a false zero from an inert observer.
 
 ## Failed predecessor preserved
 
-Workflow run **`35295234945`** at Materials head **`f2397e2306181d0d9ddc6c0505752107fde798e9`** failed after exact-owner checks, exact PNG reproduction and exact Technical-Art GLB reproduction had already passed.
+Workflow run **`35299029429`** at Materials head **`abc319a21ae93aab6e7171789525aaa8dafd7c19`** preserved all exact owner checks, PNG rebuild and Technical-Art bridge reproduction, then failed before rendering because Godot treated one `Variant`-inferred local in the new comparison helper as a warning-as-error.
 
-Cause: the new Materials workflow looked for local receipt key `negative_control`, while the Technical-Art receipt correctly exposes `negative_artifact`.
+Repair: exact Materials head **`0ae911792929eaa38b2c2f32239ebfdce8967251`** makes the delta explicitly `float` and uses `maxf`.
 
-Repair: exact Materials head **`38260f31a49766ec27746b785934248176796d59`** changes only that receipt-key lookup. No source geometry, UV, texture, material scalar, camera, light, negative carrier, comparison threshold, or Technical-Art byte was retuned to obtain the PASS.
+No owner head/blob, source geometry, UV, texture, scalar material value, camera, light, GLB, comparison threshold or acceptance boundary was changed to obtain the PASS.
 
 ## Retained evidence
 
 Artifact ID:
 
-**`10527432632`**
+**`10528878803`**
 
 Name:
 
-`building-utility-panel-ta-glb-material-receiving-38260f31a49766ec27746b785934248176796d59`
+`building-utility-panel-current-receiver-material-lookdev-0ae911792929eaa38b2c2f32239ebfdce8967251`
 
 Size:
 
-**`401,577 B`**
+**`492,191 B`**
 
 SHA-256:
 
-**`5a8a7302fd7b91cb15cc5eff1c566316614d39deed9949a65c2df1451e059bdb`**
+**`48921552847b2833e410daff45fe1c376acbf9381ecc9cbab48ff4e76e6ea818`**
 
-The ZIP was downloaded after CI and independently rehashed to the exact same digest. It retains the exact head, receiving contract, observer, rebuilt owner PNG, Technical-Art bridge receipt, positive/negative GLBs, Materials runtime receipt, and **12 real PNGs** across the three contexts.
+The retained ZIP was downloaded after CI and independently rehashed to the exact same digest. It contains 19 files: exact head, receiving contract, observer, rebuilt owner PNG, exact current-receiver positive GLB, Technical-Art bridge receipt, Materials runtime receipt and 12 real PNGs across the three contexts.
 
 Exact handoffs:
 
-- Building Materials PR #3 comment: **`5723663961`**;
-- Technical Art PR #40 return comment: **`5723665417`**.
+- Building Materials PR #3 comment: **`5724227636`**;
+- Technical Art PR #40 return comment: **`5724229015`**;
+- Environment PR #51 handoff comment: **`5724230980`**.
 
 ## Reusable discovery / careful propagation
 
 Useful receiving method:
 
-> When a transport boundary claims exact UV/material/image continuity, separate byte/structure proof from visual receiving proof. First compare an owner-native and imported carrier under an unshaded identical receiver to isolate projected coverage, then independently prove the imported material path is active and retain a deliberately wrong UV carrier as a visible negative.
+> For an owner-bound current-world material transport, first compare imported transport against exact native owner coverage under an identical unshaded receiver. Then, on the same native geometry, introduce one UV-only negative while keeping material/texture/cameras/lights frozen. This separates transport identity from material-density visibility without granting world adoption.
 
-This method is evidence discipline, not a universal material policy. Nothing was promoted into Universal Creation, Hard Surface, Geometry, Technical Art, Environment or Runtime.
+This is evidence discipline, not a universal material or atlas policy. Nothing was promoted into Universal Creation, Environment, Runtime or another design repo.
 
 ## Authority / explicit HOLDs
 
@@ -182,8 +184,8 @@ This PASS does **not** establish:
 - production UV adoption, seam layout, packing, padding or atlas policy;
 - `320 px/m` as a project-wide production texel-density rule;
 - production color/normal/roughness/weathering texture art;
-- automatic adoption of the Technical-Art carrier into the product;
-- Environment adoption or scene-wide lighting validity;
+- adoption of the Technical-Art service-face binding into the full Environment receiver;
+- Environment scene-wide material/lighting validity;
 - Forward+, browser/native, Blender/Cycles or arbitrary-renderer equivalence;
 - Runtime target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
 - final Art Direction acceptance;
@@ -194,13 +196,13 @@ This PASS does **not** establish:
 
 ## Four-root gate
 
-- **Truth:** exact owner heads/blobs, positive and negative GLB digests, exact image identity, failed predecessor, real-render metrics and independently rehashed artifact are retained; a transport-continuity PASS is not mislabeled as production acceptance.
+- **Truth:** exact owner heads/blobs, positive carrier digest, image identity, failed predecessor, real-render metrics and independently rehashed artifact are retained; a bounded current-receiver PASS is not mislabeled as Environment or production acceptance.
 - **Agency / non-domination:** Materials does not seize Hard Surface, Geometry, Technical Art, Environment, Runtime, Art Direction or independent QA authority and does not merge/adopt by implication.
-- **Continuity:** existing Building Materials PR #3 was advanced in place; the immediately preceding Nature state remains exact at blob `6a2682d85c70b26ecb86b661b4861a36b3e36698`.
-- **Wisdom before speed:** Materials waited for the owner-ready material-bearing GLB, preserved the first failed workflow, repaired only the evidence-key mismatch, and tested the exact carrier before adding new texture complexity.
+- **Continuity:** existing Building Materials PR #3 was advanced in place; the immediately preceding Materials state remains exact at blob `70c6500c275a192b5da9c96630d36f5a4484ef5b`.
+- **Wisdom before speed:** Materials waited for the exact current-receiver binding, preserved the first failed workflow, repaired only the typed comparison helper, then proved transport continuity and UV sensitivity separately before claiming anything stronger.
 
 ## Next Materials pass
 
 Re-scan the constellation first; do not continue Building by cadence.
 
-A legitimate next Building Materials trigger would be a concrete Art/independent-QA defect, an Environment/Runtime receiving defect that is genuinely Materials-owned, or a new owner-ready surface-detail interface that permits one bounded material question without silently turning review values into production policy.
+A legitimate next Building Materials trigger is now downstream and explicit: Environment may choose to consume the exact Technical-Art binding into a real current-world material-bearing A/B. Materials should return only if that world-context comparison exposes a concrete material/UV/texture/shader defect, or if Art / independent QA identifies a bounded Materials-owned issue. Otherwise move to the strongest fresh owner-ready surface question elsewhere in the constellation.
