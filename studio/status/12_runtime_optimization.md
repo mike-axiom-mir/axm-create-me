@@ -1,228 +1,212 @@
 # 12 — Runtime / Optimization Specialist Status
 
 Date: 2026-09-18
-State: **PASS_51_OBJECT_STATIC_BATCHING_EXACT_SUCCESSOR_REBIND / 31_NODES_PRESERVED / 33_TO_14_RENDER_SURFACES / DRAW_CALLS_103_TO_65_ALL_4 / BUFFER_SAVE_89360 / 4_OF_4_SHADED_PIXEL_IDENTICAL / FUTURE_ARTICULATION_FAIL_CLOSED / HOLD_ART_QA_TARGET_DEVICE**
+State: **PASS_52_NATURE_EXISTING_DYNAMIC_WINDOW / 390_TOTAL_260_MOVING_130_FIXED / ORIGINAL_INDICES_110_TO_369 / POSITION_PACKET_4680_TO_3120_B / SAVE_1560_B_33_3333_PERCENT / NO_REINDEX / FIVE_OF_FIVE_POSES_EXACT / PROOF_HOST_MEDIAN_PREP_MINUS_5_29_PERCENT_OBSERVATIONAL / HOLD_TARGET_HOST_SHADED_ART_QA_DEVICE**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the preceding Runtime status, and fresh Art Direction / Visual QA / Animation / Technical Art / open-PR state before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/12_runtime_optimization.md`, the prior Runtime status, and fresh Art Direction / Technical Art / VFX / open-PR state before selecting work.
 
-`axm-create-me` remains **coordination only**. Runtime implementation and retained evidence for this pass live in `mike-axiom-mir/axm-map-design`. Universal Creation product code was not modified.
+`axm-create-me` remains **coordination only**. Runtime implementation and retained evidence for this pass live in `mike-axiom-mir/axm-nature-design`. Universal Creation product code was not modified.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplicate-lane scan
 
-Pass 50 completed the second exact utility-panel RGB8 rebind and explicitly said not to spend another Runtime pass repeating that same-surface family unless owner semantics change. The strongest already-authorized gap was therefore Map Runtime PR #47: pass 48 had proven that the current Object successor still contains the exact same 31-component hierarchy and exact 7-moving / 24-static classification, but it intentionally refused to transfer pass-44 performance or visual numbers forward by ancestry.
+Pass 51 closed the exact-current-successor Object static-batching proof-host gap and explicitly said not to repeat that same receiver without a material owner/device change. No real target-device lane was available in the fresh constellation scan.
 
-Runtime therefore **continued existing PR #47** instead of opening a duplicate Object batching lane. Object VFX MultiMesh, Animal key reduction, joint-index width, Building alpha elision and other Runtime lanes remain separately bounded and were not reopened.
+Fresh Nature VFX PR #19 exposed a genuinely new Runtime seam: the current east/rear five-socket receiver has exact Rigging/VFX ownership of which vertices move under the retained shared-driver field, but Runtime/controller and device behavior remained explicitly open. Existing Nature Runtime work is on the different compact-east asset, so this did not duplicate an owned east/rear Runtime lane.
 
-Selected question:
+Selected bounded question:
 
-**Does the exact current Animation / Technical-Art Object successor still realize the static-batching draw-call / object / buffer-memory win, with fresh shaded A/B evidence, when measured rather than inherited?**
+**Can Runtime reduce the per-update position working set for the exact five-socket east/rear receiver without changing source geometry, Rigging/VFX semantics, or index order?**
 
-## Selected bounded improvement — pass 51
+## Selected bounded improvement — pass 52
 
-Repository: `mike-axiom-mir/axm-map-design`
+Repository: `mike-axiom-mir/axm-nature-design`
 
-Existing draft Runtime PR: **#47 — `Runtime: batch static Object rigid components in current world`**
+Draft Runtime PR: **#20 — `Runtime: exploit east-rear existing dynamic vertex window`**
 
 Runtime branch:
 
-`studio/runtime-object-current-world-static-component-batching-001`
+`studio/runtime-east-rear-dynamic-prefix-001`
 
-Exact measured Runtime head:
+Exact green Runtime head:
 
-`d2df5a7eb03b806eb991028d3ed5e3bfaa755bca`
+`6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`
 
-Exact successor inputs:
+Exact VFX owner input:
 
-- Animation head: `343668b80acd52367e3427f3ef97d1662625c18f`;
-- Technical Art head: `e085437f6cc958bbf7c5c6464578923d542962b0`;
-- owner Animation head: `c688936a84f80f292e43587c9d3386bd717f8178`;
-- owner sequence: `lid-latch-open-hold-close-001`;
-- exact owner sample field: `101` keys at `40 Hz` over `2.5 s`;
-- retained Runtime samples: `0 / 10 / 50 / 100`.
+`ba1c12dd527f1ecc6a0eb4bc0b4322f15ccad475`
 
-At final verification PR #47 remains **open / draft / unmerged / mergeable**.
+At final verification PR #20 is **open / draft / unmerged / mergeable**.
 
 Scoped result:
 
-**`PASS_OBJECT_STATIC_BATCHING_SUCCESSOR_REBIND__HOLD_ART_QA_TARGET_DEVICE_FUTURE_ARTICULATION`**
+**`PASS_EAST_REAR_EXISTING_DYNAMIC_WINDOW_POSITION_PACKET_REDUCTION`**
 
-## Measure-before — exact current successor control
+## Measure-before discovery — stronger than the first candidate
 
-Pass 48 already established that the current successor retains the exact source classification inputs:
+The exact receiver contains:
 
-- semantic component nodes: **31**;
-- moving components under the pinned owner sequence: **7**;
-- exact-sequence-static components: **24**;
-- control component-surface instances: **33**;
-- Object triangles: **812**.
+- total generated vertices: **390**;
+- exact moving vertices across the five Rigging/VFX child partitions: **260**;
+- exact fixed vertices: **130**;
+- five branch partitions: **52 moving vertices each**;
+- retained shared-driver witnesses: **`-5 / -2.5 / 0 / +2.5 / +5°`**.
 
-Pass 51 did **not** reuse pass-44 counter values as current truth. It downloaded/hash-bound the exact green successor Animation evidence and exact current world dependencies, overlaid that exact successor receiver into the Runtime proof host, then performed a fresh control/candidate Godot measurement.
+Runtime's first candidate at head `786cebc316b68e1d8cb0c8254cbfe9244f6a386c` repacked the 260 movers into a synthetic dynamic prefix. That candidate was green, but its own retained evidence exposed the more important fact: the complete moving union was already exactly **one contiguous original-index run `[110,370)`**.
 
-The retained summary explicitly records:
+Reindexing therefore added machinery without adding the desired contiguity. Runtime did not silently promote it. The first candidate remains recoverable as historical evidence:
 
-`historical_pass44_counter_transfer_used: false`
+- workflow **`35312645268`** — SUCCESS;
+- artifact **`10534745098`**;
+- artifact SHA-256 **`8f01b4da8941f2f0c0cb49326d2850a6ca78eab80fe24246dc5876d8e4bc5fc9`**.
 
-and:
+Runtime reset the implementation branch to the exact VFX owner and replaced the redundant repack with the smaller direct-window representation. The final evidence explicitly records the superseded candidate and why it was removed.
 
-`fresh_successor_godot_measurement: true`
+## Final bounded representation
 
-## Bounded representation
+The exact existing source-index layout is used directly:
 
-Runtime preserves all **31 semantic component nodes** and all **7 moving component render meshes**. Only the render meshes of the **24 components proven static across the exact pinned 101-key owner sequence** are detached and merged by compatible material / attribute domain into one shared static `ArrayMesh`.
+- static original-index prefix: **`[0,110)`**;
+- dynamic original-index window: **`[110,370)`** = **260 vertices**;
+- static original-index suffix: **`[370,390)`**;
+- geometry reindexed: **false**;
+- index buffer changed: **false**;
+- dynamic window regions: **1**.
 
-Fresh representation counts:
+Position-only float32 budget:
 
-- control component-surface instances: **33**;
-- static batch surfaces: **6**;
-- candidate rendered surfaces: **14**;
-- triangles: **812 → 812**.
+- control full-position packet: **4,680 B**;
+- candidate dynamic-window packet: **3,120 B**;
+- exact saving: **1,560 B / 33.33333333333333%** per position update.
 
-The representation tradeoff remains intentionally sequence-bound: a future animation that moves any of those 24 components must debatch or rebuild/rebind the receiver and produce fresh evidence. Preserving the semantic nodes does not grant arbitrary future articulation safety.
+This is a deterministic representation/working-set result. It is **not** yet evidence that a specific target host performs one physical partial-buffer upload.
 
-## Real Godot before / after evidence
+## Exact pose equivalence
+
+The final verifier rebuilds the exact current control and candidate for every retained VFX witness.
+
+Observed across all five witnesses:
+
+- candidate dynamic positions: **260**;
+- maximum control/candidate vertex-component delta: **`0.0 m`**;
+- source geometry changed: **false**;
+- index buffer changed: **false**.
+
+The candidate therefore preserves the exact full-control source-space positions for the retained field while preparing only the exact moving window.
+
+## Proof-host CPU observation — not an acceptance gate
 
 Dedicated workflow:
 
-**`35308517691 — Runtime Object static batching successor rebind` — SUCCESS**.
+**`35312977462 — Runtime east rear existing dynamic window` — SUCCESS**.
 
-Pinned proof host:
+Both Python **3.11** and **3.13** full receiving-repository jobs are green. The retained Python 3.11 evidence records 1,200 alternating measured iterations after 100 warmups:
 
-- Godot `4.7.2`;
-- GL Compatibility / X11;
-- exact current successor receiver;
-- same retained owner samples `0 / 10 / 50 / 100`.
+- control median preparation: **1,744,663 ns**;
+- candidate median preparation: **1,652,312 ns**;
+- observed median delta: **-92,351 ns / ~5.29%**;
+- control p95: **1,778,687 ns**;
+- candidate p95: **1,682,017 ns**;
+- observed p95 reduction: **~5.43%**.
 
-Fresh measured result at **every retained sample**:
-
-- total proof-host draw calls: **`103 → 65`**;
-- draw calls saved: **38 / 36.8932%**;
-- objects in frame: **`103 → 65`**;
-- objects saved: **38 / 36.8932%**;
-- primitives in frame: **`6,328 → 6,328`**;
-- renderer buffer memory: **`6,687,928 B → 6,598,568 B`**;
-- exact buffer-memory saving: **`89,360 B / 1.3361%`**;
-- texture memory: **`14,273,815 B → 14,273,815 B`**;
-- maximum owner pose delta: **`0.0°`**;
-- maximum moving-component position delta: **`0.0 m`**.
-
-The proof host also reports one static-batch construction observation of `950 µs`; this is not promoted into a generalized load-time or frame-time claim.
-
-These fresh successor values happen to reproduce the historical pass-44 retained-sample savings, but they are now independently measured on the exact current receiver rather than transferred by lineage.
+This timing is explicitly labelled **`PYTHON_PROOF_HOST_CPU_PREPARATION_OBSERVATION_NOT_TARGET_DEVICE`** and is not used as the PASS gate. No target-device CPU/GPU/FPS claim is inferred from it.
 
 ## Visual tradeoff for Art Direction / Visual QA
 
-Fresh fixed-view shaded control/candidate pairs were rendered on the exact successor at all four retained samples.
+Recorded source-space tradeoff:
 
-Observed:
+- source geometry changed: **false**;
+- index buffer changed: **false**;
+- five retained static-pose position delta: **`0.0 m`**.
 
-- byte-identical pairs: **4 / 4**;
-- total changed pixels: **0**;
-- pixels above 1 LSB: **0**;
-- maximum channel delta: **0 LSB**.
+No target-host shaded control/candidate A/B was produced in this bounded pass. Art Direction / Visual QA therefore remain **HOLD_TARGET_HOST_SHADED_OR_RECEIVING_SCENE_REVIEW** for any receiving-scene adoption.
 
-Recorded visual tradeoff:
-
-**`NONE_OBSERVED_ALL_RETAINED_SHADED_PAIRS_PIXEL_IDENTICAL`**
-
-This is strong retained-view evidence, but it does **not** auto-grant Art Direction or independent Visual QA acceptance. The unresolved tradeoff is semantic / future-use: the batch is valid only for the exact owner-motion domain that proves those 24 components static. A new sequence can invalidate that classification without changing current screenshots.
+Runtime does not convert exact source-space positional identity into renderer-equivalence or appearance authority.
 
 ## Fail-closed evidence
 
-The dedicated successor workflow deliberately tests and rejects:
+The final verifier deliberately rejects:
 
-- removal of the draw-call reduction;
-- shaded visual regression above the one-LSB gate;
-- authority inflation to arbitrary future articulation.
+- branch-family reduction;
+- dynamic-window boundary drift;
+- promotion back to geometry reindexing;
+- generic vegetation-policy promotion;
+- target-host partial-upload authority promotion;
+- target-device performance promotion;
+- Art/QA authority promotion;
+- Animation/wind authority promotion.
 
-The verifier also requires:
+All failure controls rejected correctly.
 
-- exact successor Animation / Technical-Art identities;
-- exact 31-component count;
-- exact 7-moving / 24-static classification;
-- all semantic nodes preserved;
-- candidate rendered surface count below 33;
-- lower draw calls and lower objects at every retained sample;
-- unchanged primitive count and texture memory;
-- bounded owner pose / moving-center equality;
-- Art/QA and target-device authority remain false.
+## Retained exact pass-52 evidence
 
-## Retained exact pass-51 evidence
+Final green artifact:
 
-Green Runtime artifact:
+- ID **`10534536077`**;
+- name `nature-east-rear-runtime-dynamic-window-6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`;
+- size **`6,049 B`**;
+- GitHub artifact SHA-256 **`5ceae7088cddbf7ebdb12ac8c767201b6f07d2ed0c854c31d186a2dc9419d049`**;
+- independently downloaded and rehashed to the exact same archive digest.
 
-- ID **`10532666686`**;
-- name `runtime-object-static-batching-successor-rebind-c30d08da3aa9ec3b325abd8c3c9a31bf7945a030`;
-- size **`576,918 B`**;
-- GitHub artifact digest SHA-256 **`aeedef5ea6b153a8384016bbaa078a54058018d0f0d501b234fcefc422721592`**;
-- independently downloaded after workflow completion and rehashed to the exact same archive digest.
-
-The artifact name contains the PR workflow merge SHA used by GitHub Actions naming; the retained `SUMMARY.json` independently records the exact tested Runtime branch head as `d2df5a7eb03b806eb991028d3ed5e3bfaa755bca`.
-
-Retained evidence includes:
-
-- exact-head summary and Runtime receipt;
-- exact green successor Animation receipt / component map / receiver plan;
-- Godot log and verifier output;
-- four fresh control PNGs and four fresh candidate PNGs;
-- fail-closed draw-call, visual-regression and future-articulation controls;
-- exact successor observer/source-bind receipts.
+Retained evidence includes the final evidence JSON, exact Runtime head, exact VFX owner head, contract, and Runtime design note. The evidence also preserves the first green-but-redundant repack candidate's exact workflow/artifact identity rather than erasing that development path.
 
 ## Authority / handoff
 
-- Technical Art retains semantic component hierarchy / receiving authority.
-- Animation retains owner sequence, timing, easing and motion authority.
-- Runtime owns only this bounded render-submission representation and proof-host performance evidence.
-- Object / Materials / Environment / VFX source ownership is unchanged.
+- Organic / Geometry / Rigging source ownership is unchanged.
+- VFX retains visual response direction/amplitude-envelope ownership.
+- Animation retains timing/motion authority.
+- Runtime owns only the bounded position-update representation and proof-host preparation evidence.
 - Art Direction / Visual QA retain appearance acceptance authority.
+- Technical Art retains target-host transport/receiver authority.
 - target-device CPU/GPU/FPS/VRAM/heap/thermal/battery acceptance remains open.
 - Universal Creation remains untouched.
 - `axm-create-me` remains coordination/status only.
 
-PR #47 requests no automatic adoption or merge.
+A no-adoption-request Runtime handoff was added to VFX PR #19. PR #20 requests no automatic merge or CANON promotion.
 
-## Continuity from pass 50 and earlier
+## Continuity from pass 51 and earlier
 
-Pass 50 remains exact historical evidence for the Building production utility-panel RGB8 rebind at `cb4a4c7b4b8e77eba1195f0032d318d27588fd12`; pass 49 remains its diagnostic-checker predecessor.
+Pass 51 remains exact historical evidence for current-successor Object static batching at Runtime head `d2df5a7eb03b806eb991028d3ed5e3bfaa755bca`: **33→14 rendered surfaces, 103→65 draw calls at all four retained samples, -89,360 B renderer buffer memory, 4/4 shaded pairs byte-identical**.
 
-Pass 48 remains the exact current-successor classification continuity gate at Runtime head `f42edfccfd77202d17c1e94487930af07fd1d755`. Pass 51 closes the specific fresh-counter / fresh-shaded-A/B gap pass 48 deliberately left open.
+Pass 50/49 Building RGB8, pass 47 Object VFX MultiMesh, pass 46 Animal animation-key reduction, pass 45 joint-index width, and earlier Runtime lanes remain separately recoverable and were not reopened.
 
-Pass 44 remains independently recoverable historical evidence on the older Object receiver rather than being rewritten into pass 51. Pass 47 Object VFX-v2 MultiMesh, pass 46 Animal key reduction, pass 45 joint-index width, passes 40–43 and all earlier Runtime evidence remain separately recoverable.
+Pass 52 adds a fresh Nature seam and does not generalize its exact `[110,370)` ownership into arbitrary vegetation assets.
 
 ## Highest-value next Runtime gap
 
-Do **not** spend another pass re-running this same Object static-batching proof on the same exact successor without a material owner/receiver change.
+Do **not** spend another pass repacking or rediscovering this same exact Nature moving set. The final result shows that no reindex is needed.
 
-The highest-value unresolved boundary now is **real target/device evidence** for an already-green representation: CPU frame cost, GPU/frame submission behavior, FPS stability, VRAM/heap behavior and thermal/battery impact on an actual target class. Proof-host draw-call and buffer-memory wins are now strong enough that repeating synthetic current-world A/Bs would add less information than measuring a real device boundary.
+The next stronger step on this lane is a **real target-host receiver proof** that consumes the unchanged `[110,370)` window directly and measures actual partial-buffer update behavior plus shaded control/candidate identity. After that, real target-device CPU/GPU/FPS/VRAM/thermal/battery evidence remains the highest-value unresolved boundary.
 
-If no target device lane is available, the next Runtime pass should select a genuinely new high-risk reusable budget seam rather than expanding this exact-sequence batching result into a generic policy.
+If those receiving/device lanes are unavailable, select a genuinely new runtime budget seam rather than promoting this one exact tree into a generic policy.
 
 ## Explicit non-claims
 
-Pass 51 does **not** establish:
+Pass 52 does **not** establish:
 
-- safety for arbitrary future Object animations;
-- permission to batch a component that moves outside the pinned owner sequence;
-- Art Direction or independent Visual QA acceptance;
-- Environment or VFX adoption;
+- a generic vegetation packing/update policy;
+- safety for future deformation outside exact vertices `[110,370)`;
+- target-host partial-buffer upload behavior;
+- Godot/engine shaded equivalence;
+- draw-call or GPU-time improvement;
 - target-device CPU/GPU/FPS/VRAM/heap/thermal/battery improvement;
-- generalized load-time benefit from the single `950 µs` proof-host batch-build observation;
-- a generic component-batching policy for other assets;
+- Animation timing or physical wind semantics;
+- Art Direction or independent Visual QA acceptance;
 - CANON;
 - production/game readiness;
 - Runtime / Optimization mastery.
 
 ## Four-root check
 
-**Truth:** pass 48's structural eligibility was not misrepresented as a performance result; pass 51 performs a fresh exact-successor Godot A/B and reports absolute counters, unchanged metrics and evidence boundaries separately.
+**Truth:** Runtime measured the exact moving set before promoting a representation. When the first green candidate revealed that reindexing was unnecessary, it was preserved as historical evidence and removed from the final candidate rather than narrated as useful work.
 
-**Agency / non-domination:** Runtime preserves all 31 semantic nodes, owner Animation authority, Technical-Art receiving ownership and Art/QA decision authority; no automatic merge/adoption is requested.
+**Agency / non-domination:** Runtime does not rewrite source, Rigging, VFX, Animation, Technical-Art or Art/QA authority and requests no automatic adoption or merge.
 
-**Continuity:** historical pass 44 remains historical, pass 48 remains the successor eligibility gate, and pass 51 hash-binds the current receiver and retains new proof rather than silently rewriting old evidence.
+**Continuity:** exact VFX owner lineage is pinned, both the superseded first candidate and the smaller final successor are recoverable by commit/workflow/artifact identity, and earlier Runtime passes remain untouched.
 
-**Wisdom before speed:** Runtime closes the already-known highest-value evidence gap on the existing lane, stops once it is green, and does not manufacture arbitrary future-articulation or target-device claims from proof-host success.
+**Wisdom before speed:** Runtime chose the simpler representation after evidence showed it was sufficient, stopped at the exact proven boundary, and did not inflate a deterministic 33.33% position-packet reduction or ~5.29% Python proof-host observation into target-host/device claims.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the merge gate.
