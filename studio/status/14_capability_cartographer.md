@@ -3,293 +3,262 @@
 - Date: `2026-09-18`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_CONDITIONAL_REPRESENTATION_CAPACITY_ELISION_MAP / BUILDING_ANIMAL_CHARACTER_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_GENERIC_UC_COMPACTOR / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_CLAIM_DOMAIN_PROOF_COVERAGE_IDENTITY_MAP / OBJECT_CHARACTER_NATURE_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_NEW_UC_CERTIFIER / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, current product PRs across the design constellation, current Universal Creation main/open work, Profession Fabric #38 continuity, and the shared-capability execution-claim registry.
+Re-read the active 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, current product PRs across the design constellation, current Universal Creation main/open work, Profession Fabric #38, and the shared-capability execution registry.
 
-`axm-create-me` remains **coordination only**. No product source, material, Runtime optimizer, Technical-Art exporter, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product source, proof mechanism, Rigging implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh continuity / overlap scan
 
-The preceding Cartography activation mapped:
+The previous activation mapped:
 
-`PREREQUISITE_OR_ELIGIBILITY_CONTINUITY != MEASURED_OUTCOME_CONTINUITY`
+`STORAGE_CAPACITY != SEMANTIC_INFORMATION`
 
-and refined Profession Fabric #38 without opening a new shared implementation lane. That exact state remains historical truth at prior Cartography status blob:
+and refined Profession Fabric #38 without opening a generic UC compactor. That exact previous state remains historical truth at status blob:
 
-`626bc0a1deeab6da935919960d2a7f994043c1f0`
+`c592bf4205b800db55e5aab92196e309b9fbbc8e`
 
-Fresh studio state materially advanced Building Runtime while Object Geometry/Hard-Surface, Nature Rigging/Procedural, Animation, VFX and Environment also moved. The strongest new repeat is not another product mechanic or a new generic optimizer. It is a representation/provenance boundary:
+Fresh specialist state materially advanced Nature Geometry/Rigging/VFX and Object Hard-Surface/Technical-Art evidence while Character Rigging and Object Rigging retain strong current continuous certificates. The strongest cross-repo repeat this pass is an evidence-coverage distinction:
 
-**`STORAGE_CAPACITY != SEMANTIC_INFORMATION`**
+**`WITNESS_SET_IDENTITY != CLAIM_DOMAIN_IDENTITY != COVERAGE_ARGUMENT_IDENTITY`**
 
 More precisely:
 
-**A stored representation may be narrowed, elided or deduplicated only when the exact current payload proves the removed capacity carries no distinct semantic information under the declared representation contract. That proof does not transfer to a future payload/domain/contract change.**
+**A finite set of representative or diagnostic states does not by itself justify a continuous-domain claim. Continuous coverage is valid only when a separately identified analytic, structural, interval or exhaustive coverage argument proves the named property over the declared domain under explicit preconditions. The same lane may have continuous coverage for one property while sibling properties remain sampled, held or not evaluated.**
 
 Current Universal Creation `main` is:
 
-`9609998db6677391766e9ee7ff53a5b9b08a3cb9`
+`3028557dbd01a1423210ab0b2a3b7f9bedc5e226`
 
-Open UC PR #204 is the continuing bounded Physics lane. Open PR #151 remains the animated-island-boat asset/material lane and #153 remains the bounded offline unwrap/bake lane. None owns a generic representation-capacity compactor or overlaps this evidence/provenance map.
+Open UC PR #205 is the continuing Physics growth lane at head:
 
-The shared execution registry still contains only closed/merged implementation records for UC #192 and #199. There is **no active shared-capability execution claim** covering this scope.
+`596a56ee4ce839e27931937c43d3aae6a104052b`
+
+It adds a deterministic radial-envelope classification-matrix self-test inside the existing bounded Physics contract. It does not own generic proof-domain provenance for product claims and does not overlap this Cartography refinement.
+
+The shared execution registry contains only closed/merged UC #192 and #199 records. There is **no active shared-capability execution claim** covering this scope.
 
 ## Selected material cross-repo learning
 
-### Evidence A — Building Runtime: unused alpha capacity can be elided only while opacity is exact
+### Evidence A — Object Rigging: representative poses are witnesses; structural containment is the continuous proof
 
 Repository:
 
-`mike-axiom-mir/axm-map-design`
+`mike-axiom-mir/axm-object-design`
 
-Existing Runtime PR:
+Existing Rigging PR:
 
-`#52 — Runtime: elide opaque utility-panel alpha channel`
+`#27 — Rigging: bind lid-owned latch keeper sockets through lid sweep`
 
 Exact current head:
 
-`1afa51cb89b536db0d2434328722a1521febe0ad`
+`cf377074f70ce7f7e386f1378c51705b3db4d305`
 
-PR state:
+Current bounded successor result:
 
-`OPEN / DRAFT / UNMERGED / MERGEABLE`
+`PASS_PHASE_INVARIANT_BORED_KNUCKLE_SUCCESSOR_RIG_1MM_RADIAL_NONCONTACT_CONTINUOUS_0_TO_110`
 
-The exact owner-bound texture is `512 × 512`. Runtime proves:
+Representative owner poses remain:
 
-- exact owner PNG retained;
-- exact RGB samples retained;
-- all `262,144 / 262,144` alpha samples equal `255`;
-- receiving representation alone changes `RGBA8 -> RGB8`;
-- full-mip payload changes `1,398,100 B -> 1,048,575 B`;
-- exact saving is `349,525 B / 25%` for this texture representation.
+`0 / 15 / 30 / 45 / 60 / 75 / 90 / 105 / 110°`
 
-Dedicated workflow:
+But those samples do **not** establish the continuous claim. The certificate is structural:
 
-`35301057478 — Runtime Building utility-panel RGB8 alpha elision` — **SUCCESS**.
+- exact pin circumradius: `0.009 m`;
+- exact successor bore inradius: `0.009999999999999998 m`;
+- phase-independent radial lower bound: `0.0009999999999999992 m`;
+- exact coaxial centerline precondition retained;
+- every point of the exact regular pin lies inside the 9 mm circumdisk;
+- the exact regular bore contains the 10 mm centered in-disk;
+- therefore arbitrary relative polygon phase retains the same radial lower bound;
+- because lid articulation rotates about the same +X axis, the certificate applies continuously to every real owner angle in `[0°,110°]`.
 
-Real Godot current-world evidence across all `68` retained observations:
+The same certificate explicitly does **not** establish axial stop/contact/retention, loads, bearing/manufacturing fit, full collision, Animation timing, Technical-Art transport, Runtime/device behavior, final visual acceptance or adoption.
 
-- scene texture memory `15,671,915 B -> 15,322,390 B` at every observation;
-- exact scene saving `349,525 B` at every observation;
-- buffer-memory delta `0 B`;
-- draw calls unchanged;
-- objects-in-frame unchanged;
-- primitives-in-frame unchanged;
-- `68 / 68` RGBA8/RGB8 frame pairs byte-identical;
-- total changed pixels `0`;
-- maximum channel delta `0 LSB`.
+Object therefore demonstrates:
 
-The decisive negative is semantic rather than visual: mutate one alpha sample to `254` and the representation rule rejects with:
+`REPRESENTATIVE_POSES` are regression/review witnesses;
 
-`RGB8_ALPHA_PRECONDITION_REJECTED_NON_OPAQUE_TEXTURE`
+`STRUCTURAL_CONTAINMENT + COAXIAL_PRECONDITION` is the coverage argument for the exact radial property.
 
-So the correct rule is **not** `utility-panel textures are RGB`. It is: the exact current alpha channel carries no varying semantic information and can therefore be elided in this receiver representation. A future source with meaningful alpha must retain an alpha-capable representation.
-
-## Evidence B — Animal Runtime / Technical Art: numeric width is capacity, decoded joint indices are semantics
-
-Repository:
-
-`mike-axiom-mir/axm-animal-design`
-
-Existing Runtime PR:
-
-`#26 — Runtime: compact Animal glTF joint indices to byte width`
-
-Original exact measured Runtime head:
-
-`3b9bcbc6b038e0b6782987134b567350274aacfd`
-
-The exact control stores:
-
-- `JOINTS_0 = UNSIGNED_SHORT VEC4`;
-- maximum stored joint index `1`;
-- JOINTS payload `672 B`;
-- complete GLB `11,148 B`.
-
-Runtime proves the exact semantic domain is only `0..1`, then narrows storage to:
-
-- `JOINTS_0 = UNSIGNED_BYTE VEC4`;
-- decoded joint rows exact and unchanged;
-- every non-JOINTS accessor payload hash unchanged;
-- JOINTS payload `336 B` (`-336 B / -50%`);
-- complete GLB `10,812 B` (`-336 B / -3.0139935%`).
-
-Dedicated Runtime workflow:
-
-`35168507611 — Runtime Animal joint-index width budget evidence` — **SUCCESS**.
-
-Real Godot evidence retains:
-
-- maximum control/candidate pose-receipt delta `0.0`;
-- triangle count `80` unchanged;
-- material bindings identical;
-- `2 / 2` fixed peak-pose frame pairs byte-identical;
-- `2 / 2` coverage pairs byte-identical;
-- changed pixels `0`.
-
-The current producer-side follow-on is equally important. Technical Art exact head:
-
-`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
-
-adopts the bounded rule:
-
-`smallest legal glTF unsigned component from exact emitted JOINTS_0 domain`
-
-with explicit out-of-domain behavior:
-
-- value above byte range -> fall back to `UNSIGNED_SHORT`;
-- value above glTF unsigned-short domain -> reject.
-
-Thus a green u8 result for one asset is not evidence that u8 is the semantic type of joints. The semantic information is the exact joint-index domain; storage width is conditional capacity.
-
-## Evidence C — Character Technical Art: duplicate storage can disappear only under exact semantic + byte identity
+## Evidence B — Character Rigging: finite adaptive intervals can certify a continuous domain without becoming sampled-motion evidence
 
 Repository:
 
 `mike-axiom-mir/axm-character-design`
 
-Existing Technical Art PR:
+Existing Rigging PR:
 
-`#21 — Technical Art: prove review006 skin transport and target-host frame bridge`
+`#17 — Rigging: rebind review-006 shoulder release to opening repair`
 
-Exact current Technical Art head:
+Exact current head:
 
-`a8e2759e72e15a63e50f2cddecf1b407bbfd4224`
+`0b5b6c99c0f1349d8a1a2198cc69969c5b829236`
 
-The bounded exporter shares two animation output accessors only when:
+Scoped result:
 
-- accessor semantics match exactly;
-- encoded payload bytes match exactly;
-- representation is non-sparse, tightly packed and unstrided;
-- the removable accessor/view/payload is the supported final bounded region.
+`PASS_CHARACTER_REVIEW006_CONTINUOUS_VERTEX_ONLY_NEIGHBOR_CONE_MARGIN_MINUS40_TO_PLUS3655__ALL_INDEXED_NEIGHBOR_CLASSES_CLOSED`
 
-Exact result:
+The exact retained proof covers all `845` vertex-only neighboring face pairs per shoulder for every real owner angle in:
 
-- control GLB `44,032 B`;
-- candidate GLB `40,064 B`;
-- file saving `3,968 B / 9.011627906976743%`;
-- duplicate binary payload removed `3,852 B`;
-- accessors / bufferViews `13 -> 12`.
+`[-40.0°, +36.55°]`
 
-Current UC receives both representations with exact semantic equality over all `321` source samples. Real Godot 4.7.2 legitimately resamples the source animation to `61` imported keys per track, so Technical Art compares at the original `321` source times and retains:
+Finite certificate construction:
 
-- imported animation key time delta `0.0`;
-- imported animation key value component delta `0.0`;
-- imported POSITION delta `0.0`;
-- imported NORMAL delta `0.0`;
-- index mismatches `0 / 1080`;
-- imported skeleton pose position/rotation/scale deltas all `0.0`.
+- `154` base intervals;
+- `183` adaptive subdivisions;
+- `337` certified intervals;
+- maximum subdivision depth `6`;
+- `520` attempted intervals;
+- minimum certificate slack `9.215213950381399e-06 rad` (`0.000527992866666933°`).
 
-A verifier-only one-byte mismatch in the duplicate animation payload is rejected before sharing.
+The key distinction is that these finite intervals are **certificate partitions**, not a sampled animation proxy. Each retained interval carries a bound that closes the predicate over all real values inside that interval. The explicit `[+36.55°, +36.60°]` extension challenge fails on both sides as `MIDPOINT_VERTEX_ONLY_CONE_CONTACT`, and the lane correctly refuses to invent an exact first-contact angle.
 
-Again the reusable fact is not `duplicate animation outputs should be deduplicated`. It is: exact semantic identity plus exact supported representation identity proves that **this** stored duplicate carries no additional information.
+Character therefore demonstrates another valid proof mode with the same evidence/provenance need:
+
+`ADAPTIVE_INTERVAL_CERTIFICATE != DENSE_SAMPLED_WITNESS_SET`.
+
+## Evidence C — Nature Rigging: representative poses coexist with narrower algebraic continuous invariants
+
+Repository:
+
+`mike-axiom-mir/axm-nature-design`
+
+Existing Rigging PR:
+
+`#14 — Rigging: rebind east-rear north-top socket to Geometry receiver`
+
+Exact current head:
+
+`f792d2369675d532be478e17c7a07f441d817c7c`
+
+The lane rebinds the exact migrated Geometry receiver and re-executes representative poses:
+
+`-5 / -2.5 / 0 / +2.5 / +5°`
+
+for the exact north-top selected child (`52 vertices / 72 triangles`) against `338` fixed receiver vertices.
+
+Its continuous statement is deliberately narrower than a collision or clearance claim. Under the unchanged rigid Rodrigues transform around the exact pivot/axis and the exact selected-child/fixed partition, structural invariants such as pivot/fixed identity, pairwise distances inside the rigid child and axis-projection relations hold for every real angle in:
+
+`[-5°, +5°]`.
+
+The lane still explicitly leaves collision/self-intersection freedom, blended attachment, biomechanics, stress/strength, wind/VFX response, Animation playback, Technical-Art adoption, Runtime acceptance and final visual acceptance unproved.
+
+Nature therefore shows that one claim record may truthfully contain:
+
+- representative pose witnesses;
+- continuous algebraic coverage for exact rigid-transform invariants;
+- `NOT_EVALUATED` or explicit non-claims for sibling properties over the same angle interval.
 
 ## Cross-repo capability map
 
-The shared evidence shape is:
+The reusable evidence shape is:
 
-`semantic_payload_identity`
+`claim_property_identity`
 
-+ `reference_representation_identity`
++ `claim_domain_identity`
 
-+ `capacity_precondition_identity`
++ `witness_set_identity`
 
-→ exact `precondition_evidence_identity`
++ `proof_coverage_mode`
 
-→ `candidate_representation_identity`
++ `coverage_argument_identity`
 
-→ bounded `semantic_equivalence_scope`
++ `coverage_preconditions`
 
-→ explicit `out_of_domain_behavior`
+→ `coverage_state`
 
-→ independent producer / Runtime / Art / QA / device / adoption state.
+→ optional `boundary_or_extension_challenge_identity`
+
+→ bounded claim verdict + explicit sibling non-claims.
 
 Suggested evidence-only fields:
 
-- `semantic_payload_identity` — exact source/producer payload or decoded semantic domain represented;
-- `reference_representation_identity` — exact wider/current storage representation;
-- `candidate_representation_identity` — exact narrowed/elided/shared-storage alternative;
-- `capacity_elision_kind = UNUSED_CHANNEL | NARROWER_VALUE_DOMAIN | EXACT_DUPLICATE_STORAGE | OTHER_EXPLICIT`;
-- `capacity_precondition_identity` — executable condition that must hold for this exact candidate;
-- `precondition_evidence_identity` — exact head/workflow/artifact/receipt proving the condition;
-- `semantic_equivalence_scope` — decoded rows, receiver poses, retained pixels or another explicitly named scope rather than one generic `equivalent=true`;
-- `out_of_domain_behavior = FALLBACK_WIDER | REJECT | NOT_SUPPORTED`;
-- `invalidation_trigger` — exact source/payload/domain/representation-contract changes that require fresh proof;
-- `adoption_state` kept separate from the evidence result.
+- `claim_property_identity` — exact predicate/property covered; coverage does not transfer to sibling properties;
+- `claim_domain_identity` — exact discrete set, interval, phase space or other bounded domain the claim names;
+- `witness_set_identity` — exact sampled/representative states retained for diagnostics, review or regression;
+- `proof_coverage_mode = EXHAUSTIVE_DISCRETE | ANALYTIC_INVARIANT | STRUCTURAL_CONTAINMENT | INTERVAL_CERTIFICATE | SAMPLED_WITNESS_ONLY | OTHER_EXPLICIT`;
+- `coverage_argument_identity` — exact code/contract/receipt/artifact that connects evidence to the declared domain;
+- `coverage_preconditions` — exact receiver/source identities and mathematical/structural assumptions required by the argument;
+- `coverage_state = FULL_DECLARED_DOMAIN | PARTIAL_DOMAIN | WITNESS_ONLY | NOT_EVALUATED`;
+- `boundary_or_extension_challenge_identity` — explicit out-of-domain/failing evidence when available;
+- `non_claims` — properties or domains not covered by that certificate.
 
-Core non-transfer rule:
+Core non-transfer rules:
 
-**Today's unused representation capacity must not become tomorrow's silently unavailable semantic channel.**
+1. A dense or representative sample sequence must not be silently promoted to continuous proof.
+2. A legitimate analytic/structural/interval certificate must not be downgraded to “only sampled” merely because it retains representative witnesses.
+3. Continuous coverage for one property does not transfer to collision, visual, physical, behavioral or sibling semantic properties merely because they share the same state interval.
+4. Coverage depends on its exact preconditions; source/receiver/axis/pivot/topology/predicate changes require fresh proof where consumed.
 
 ## Placement action — Profession Fabric #38
 
 Refined the existing experimental Profession Fabric evidence/provenance proposal with comment:
 
-`5724496720`
+`5724923086`
 
-The refinement adds conditional representation-capacity evidence beneath the existing representation-set / dependency / claim vocabulary. It deliberately does **not** create one optimizer, one storage policy or one adoption rule.
-
-This is the correct current home because the repeat is the **evidence discipline that proves when a narrower representation remains semantically faithful and when that proof expires**. The executable operations themselves are materially different and remain with their owning product specialists:
-
-- Building/Map Runtime owns alpha-channel elision and proof-host memory measurement;
-- Animal Runtime + Technical Art own JOINTS width measurement/adoption;
-- Character Technical Art owns exact accessor sharing at its exporter boundary.
+This refinement intentionally extends PF #38's existing applicability-domain vocabulary rather than duplicating it. The missing distinction was the **mode and evidence identity that justify coverage of that domain** versus the witnesses retained inside it.
 
 No PF code was implemented and no profession was promoted.
 
+The executable mechanisms remain in their owning product repositories because they are materially different:
+
+- Object Rigging owns exact polygon/set-containment and coaxial phase-invariance mechanics;
+- Character Rigging owns the adaptive spherical-cone interval verifier;
+- Nature Rigging owns rigid-transform articulation/invariant proof.
+
 ## Why no Universal Creation lane was opened
 
-The repeat does not yet expose one neutral executable transform:
+This pass does not expose one repeated neutral executable certifier:
 
-- RGBA8 -> RGB8 removes a provably constant image channel;
-- u16 -> u8 narrows an exact integer value domain with legal fallback;
-- duplicate animation accessor sharing removes exact duplicate storage under a format/layout contract.
+- Object uses geometric set containment and phase invariance;
+- Character uses adaptive interval bounds over a shoulder-specific vertex-only cone predicate;
+- Nature uses algebraic rigid-transform invariants.
 
-UC already has narrower representation capabilities where the repeated **machine operation** itself is evidenced, such as attribute-aware mesh representation observation and bounded rigged-glTF receiver semantics. Those do not justify a generic cross-format `make smaller` engine.
+The repeat is the **evidence/provenance distinction** between witness sets, declared domains and coverage arguments, not one machine algorithm. Opening a UC `continuous-proof engine` now would conflate different predicates and proof mechanisms and would outrun the evidence.
 
-Current UC `main` `9609998...` and open PR #204/#151/#153 are unrelated to this proposed evidence vocabulary. Opening a generic UC compactor now would conflate three format-specific mechanisms and outrun the evidence.
+Current UC main `3028557d...` and active #205 Physics work are unrelated to this scope.
 
 ## Product returns
 
 Evidence-only returns were placed without changing product code:
 
-- Profession Fabric #38 comment `5724496720`;
-- Map Runtime PR #52 comment `5724497604`;
-- Animal Runtime PR #26 comment `5724498398`;
-- Character Technical Art PR #21 comment `5724499192`.
+- Profession Fabric #38 comment `5724923086`;
+- Object Rigging PR #27 comment `5724924010`;
+- Character Rigging PR #17 comment `5724924730`;
+- Nature Rigging PR #14 comment `5724926306`.
 
-Each return preserves the exact local executable rule and authority while recording only the cross-domain evidence distinction.
+Each return preserves local executable mechanism and authority while recording only the cross-domain evidence distinction.
 
 ## Bounded placement table
 
 | Layer | Correct home | Current evidence | Explicitly not implied |
 |---|---|---|---|
-| opaque-alpha receiver transform | Map Runtime PR #52 | exact all-opaque precondition + RGB8 current-world A/B | generic RGB8 material policy, future alpha safety, device acceptance |
-| JOINTS numeric-width policy | Animal Runtime / Technical Art PR #26 lineage | exact `0..1` domain + u8 equality + fallback/reject behavior | u8 semantic joint type, arbitrary glTF compaction, target-device acceptance |
-| exact animation accessor sharing | Character Technical Art PR #21 | exact semantic/byte duplicate + current UC/Godot equality | arbitrary deduplication, sparse/interleaved generality, Runtime adoption |
-| conditional representation-capacity evidence vocabulary | Profession Fabric #38 experimental proposal | comment `5724496720` | generic compactor, auto-selection, domain policy or acceptance |
-| generic shared machine implementation | Universal Creation only after one neutral executable transform repeats | **not evidenced this pass** | cross-format optimization-by-analogy |
+| phase-invariant bored-knuckle radial certificate | Object Rigging PR #27 | structural pin/bore containment + coaxial precondition | axial retention/contact, loads, full collision, adoption |
+| continuous vertex-only neighbor-cone certificate | Character Rigging PR #17 | adaptive interval certificate + extension negative control | anatomy, gameplay collision, exact first-contact angle, production acceptance |
+| rigid root-socket invariant coverage | Nature Rigging PR #14 | rigid Rodrigues transform + exact pivot/axis/partition | collision freedom, wind/VFX, blended skinning, biomechanics |
+| claim-domain / proof-coverage vocabulary | Profession Fabric #38 experimental proposal | comment `5724923086` | generic proof engine, auto-acceptance or domain semantics |
+| generic executable shared certifier | Universal Creation only after one neutral mechanism repeats | **not evidenced this pass** | unifying unrelated proof mechanisms by label |
 | shared execution collision state | `axm-create-me` coordination registry | no active overlapping claim | ownership or merge priority |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- a generic RGB8 texture policy;
-- a generic smallest-width glTF optimizer;
-- a generic binary/accessor deduplicator;
-- arbitrary format-preserving compression;
-- target-device CPU/GPU/FPS/VRAM/thermal improvement;
-- Environment/Materials/Technical-Art adoption of the Building Runtime candidate;
-- Art Direction or independent Visual QA acceptance beyond the exact retained evidence already owned by each lane;
+- a generic continuous-proof engine;
+- that dense sampling proves all real values between samples;
+- that every analytic/interval certificate is sound outside its exact preconditions;
+- Object axial stop/contact/retention, loads or full collision;
+- Character anatomy, gameplay collision or exact first-contact angle;
+- Nature collision, attachment clearance, blended skinning, wind response or biomechanics;
+- Animation, Technical-Art, Runtime/device or Art/QA adoption from these Rigging certificates;
 - a new UC implementation;
 - a PF implementation or profession promotion;
-- automatic representation selection or migration;
 - CANON;
 - production/game readiness;
 - mastery;
@@ -299,13 +268,13 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-**Truth:** the map distinguishes semantic information from spare storage capacity and requires exact precondition evidence before any narrowing/elision claim. The retained negative controls remain first-class evidence rather than being hidden behind successful size reductions.
+**Truth:** the map prevents finite witnesses from being narrated as continuous proof and requires the exact coverage argument/preconditions to be named. It equally prevents legitimate structural/interval certificates from being misreported as mere sampling.
 
-**Agency / non-domination:** Runtime and Technical Art retain their local representation/adoption authority; Art/QA/device owners keep acceptance; PF receives evidence vocabulary only; UC is not expanded merely because three different optimizations all make files/memory smaller.
+**Agency / non-domination:** product Rigging lanes retain their mechanisms and acceptance boundaries; PF receives evidence vocabulary only; UC is not expanded simply because several products use the word `continuous`.
 
-**Continuity:** the prior Cartography blob, exact product heads, wider reference representations, candidate identities, workflows/artifacts, fallback/rejection rules and historical receipts remain separately addressable. A future source/domain change invalidates only the claims that actually consume the old precondition.
+**Continuity:** previous Cartography state, exact product heads, representative witnesses, certificate mechanisms, failing extension controls and explicit non-claims remain separately addressable. Historical sampled evidence is not rewritten into a stronger proof mode.
 
-**Wisdom before speed:** the shared lesson is extracted now because three materially different domains repeat the evidence shape, but a generic machine implementation is intentionally withheld because the executable transforms are still different.
+**Wisdom before speed:** the three-domain repeat justifies extracting the evidence distinction now, while withholding a generic shared machine implementation until a genuinely reusable executable proof mechanism repeats.
 
 The four AXM roots remain the gate.
 
@@ -313,15 +282,15 @@ The four AXM roots remain the gate.
 
 Previous Cartography state:
 
-`PASS_ELIGIBILITY_VS_MEASURED_OUTCOME_IDENTITY_MAP`
+`PASS_CONDITIONAL_REPRESENTATION_CAPACITY_ELISION_MAP`
 
 Previous status blob SHA:
 
-`626bc0a1deeab6da935919960d2a7f994043c1f0`
+`c592bf4205b800db55e5aab92196e309b9fbbc8e`
 
 Current Cartography returns:
 
-- PF #38 comment `5724496720`;
-- Map Runtime PR #52 comment `5724497604`;
-- Animal Runtime PR #26 comment `5724498398`;
-- Character Technical Art PR #21 comment `5724499192`.
+- PF #38 comment `5724923086`;
+- Object Rigging PR #27 comment `5724924010`;
+- Character Rigging PR #17 comment `5724924730`;
+- Nature Rigging PR #14 comment `5724926306`.
