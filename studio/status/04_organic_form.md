@@ -2,7 +2,7 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_NORTH_TOP_DEFORMATION_READINESS_GEOMETRY_MIGRATED_RECEIVER_CONTINUITY / ORGANIC_SOURCE_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / GEOMETRY_MESH_AA9D450A / RIGGING_MIGRATED_REBIND_F792D236 / CHILD_PARTITION_52V72T338_FIXED_STABLE / FLEX_METADATA_5_OF_5_DECLARED_UNTESTED / NORTH_TOP_ONLY_RIGGING_TESTED / ANIMATION_AND_VFX_REMAIN_HISTORICAL_RECEIVER_LINEAGE / NO_SIBLING_PASS_TRANSFER / NO_SOURCE_LOCALIZED_DEFECT_RETURNED / ANIMAL_SELECTED003_FROZEN / CHARACTER_REVIEW006_FROZEN / COORDINATION_ONLY**
+State: **PASS_NATURE_FIVE_ROOT_DOWNSTREAM_DEFORMATION_HANDOFF / ORGANIC_EVIDENCE_HEAD_2BB05BDE / SOURCE_FORM_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / GEOMETRY_RECEIVER_9B451BA1_AA9D450A / RIGGING_FIVE_ROOT_898529F6 / ALL_5_ROOTS_RIGGING_DIAGNOSTIC_TESTED / VFX_FIVE_SOCKET_SIGN_MAP_EF7B35AF / PER_SOCKET_POLARITY_REQUIRED / SOURCE_FLEX_5_OF_5_DECLARED_UNTESTED / NO_SOURCE_LOCALIZED_DEFECT_RETURNED / ANIMAL_SELECTED003_FROZEN / CHARACTER_REVIEW006_FROZEN / COORDINATION_ONLY**
 
 ## Current activation
 
@@ -14,33 +14,37 @@ The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Cont
 
 Immediate predecessor Organic status blob:
 
-`4cfa0df399f72b42d190ffaae67ad9b1b6954674`
+`da96b7958b41300a12eba8888edb5bf1dddf6a7c`
 
-That predecessor remains rollback-addressable and preserves the exact prior state in which `north-top` had a bounded Rigging PASS only on the historical Organic generated mesh while the Geometry-migrated receiver still required explicit rebind/retest.
+That predecessor remains rollback-addressable and preserves the exact prior state in which only `north-top` had been explicitly rebound/retested on the Geometry-migrated receiver and sibling pass transfer remained prohibited.
 
 ## Full-constellation / duplicate-lane decision
 
 The current design constellation and specialist ledgers were compared before selecting work.
 
-- **Character review-006:** source remains frozen; fresh work is downstream structural/receiver evidence and returns no source-localized defect in Organic mass, landmarks, proportion, silhouette or authored positions.
-- **Animal selected-003:** source remains frozen; fresh work is receiver/Runtime/QA continuity and returns no Organic-owned form defect.
-- **Nature east-rear tree:** strongest fresh Organic-adjacent evidence. Geometry has rebound the current Organic source metadata to its migrated topology, and Rigging has now explicitly retested the exact `north-top` branch socket on that migrated receiver.
-- **Weapon / Armor / Unit / Misc:** no stronger grounded Organic implementation lane was found.
-- **Building / Weather / Map / Object:** active work is predominantly manufactured geometry, materials, environment, VFX, Technical Art, Runtime or other receiving concerns rather than a returned Organic source-form defect.
+- **Character review-006:** source remains frozen at Organic PR #2 head `e27067477922b13b14a2cfcc7f3659b97a10b8a7`; fresh work is downstream structural/receiver evidence and returns no source-localized defect in Organic mass, landmarks, proportion, silhouette or authored positions.
+- **Animal selected-003:** source remains frozen; current Organic evidence head `04540a7e18794a782ae394e736715f30212e9b8a`, source/form predecessor `4df3024b4c459675422565501a46f622acf229a9`; fresh work returns no Organic-owned form defect.
+- **Nature east-rear tree:** strongest fresh Organic-adjacent evidence. Rigging expanded the current Geometry-receiver diagnostic from `north-top` only to all five exact primary branch roots, while VFX returned an exact per-socket visual-direction sign map rather than a single global polarity.
+- **Weapon / Armor / Unit / Misc:** no stronger grounded Organic implementation lane was found in the current scan.
+- **Building / Weather / Map / Object:** active evidence is predominantly manufactured geometry, materials, environment, VFX, Technical Art, Runtime or other receiving concerns rather than a returned Organic source-form defect.
 
 No duplicate Organic PR was opened and no source was edited merely because another activation occurred.
 
-## Selected bounded improvement — close the exact receiver-lineage HOLD, not the source
+## Selected bounded improvement — strengthen the five-root downstream handoff, not the source form
 
 Repository context:
 
 `mike-axiom-mir/axm-nature-design`
 
-Organic source owner:
+Organic owner PR:
 
 **PR #8 — `Organic Form: add east-rear source tree study`**
 
-Exact Organic head remains:
+Current evidence-only Organic PR head after this activation:
+
+`2bb05bde9ee16cae4671b9f7b9acf6781f7ce1f9`
+
+Exact source/form predecessor consumed by downstream evidence remains:
 
 `fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`
 
@@ -54,133 +58,137 @@ Historical Organic generated mesh remains:
 
 with `390` vertices / `570` triangles.
 
-Current Geometry migrated mesh:
+Current Geometry migrated receiver remains:
 
-`aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`
+- Geometry PR #9 head: `9b451ba1f65281f550a6754e18574f7ab2951e28`
+- migrated mesh SHA-256: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`
 
-Geometry PR #9 current exact head consumed here:
+Git comparison from source/form head `fdc9d2b6...` to current Organic evidence head `2bb05bde...` contains exactly one added evidence file:
 
-`9b451ba1f65281f550a6754e18574f7ab2951e28`
+`docs/ORGANIC_EAST_REAR_DOWNSTREAM_DEFORMATION_HANDOFF_002.md`
 
-The Organic source still contains exactly five primary branch roots with exact root-centered flex metadata:
+No source JSON, branch/trunk/leaf form, source positions/radii, flex metadata, generated mesh, workflow, Geometry, Rigging, VFX, Animation or Runtime byte was changed by the Organic lane.
 
-- `south-low` — `0.14 m`;
-- `north-low` — `0.14 m`;
-- `east-mid` — `0.12 m`;
-- `west-high` — `0.12 m`;
-- `north-top` — `0.12 m` at `[0.01, 0.0, 3.16] m`.
+New Organic packet status:
 
-Every owner declaration remains exactly:
+**`PASS_FIVE_ROOT_DOWNSTREAM_STRUCTURAL_HANDOFF__ORGANIC_SOURCE_FROZEN__SOURCE_FLEX_SEMANTICS_REMAIN_UNTESTED`**
 
-`DECLARED_NOT_DEFORMATION_TESTED`
+New bounded gate:
 
-The neutral Organic observer remains `PASS_NEUTRAL_BRANCH_ROOT_SUPPORT__DEFORMATION_UNTESTED`, with positive neutral support and exact root-centered flex metadata at `5 / 5` roots. The weakest neutral support margin remains `0.0010125868542811625 m` at `north-top`.
+**`FIVE_ROOT_STRUCTURAL_DIAGNOSTIC_COMPLETE__PER_SOCKET_VISUAL_DIRECTION_POLARITY_EXPLICIT__ORGANIC_SOURCE_FORM_FROZEN__NO_AUTOMATIC_SOURCE_COMPENSATION`**
 
-No trunk/branch point, radius, leaf placement, silhouette, crown form, flex radius, source position or generated Organic mesh was changed this activation.
+## Organic source-side readiness remains explicit and unchanged
 
-## Fresh Geometry + Rigging continuity return consumed
+The source contains exactly five primary branch roots with exact root-centered flex metadata. Every source declaration remains exactly `DECLARED_NOT_DEFORMATION_TESTED`.
 
-Nature Rigging PR #14 current exact head:
+| primary root | source flex radius | neutral Organic support margin |
+|---|---:|---:|
+| `south-low` | `0.14 m` | `0.046878212931 m` |
+| `north-low` | `0.14 m` | `0.040773804595 m` |
+| `east-mid` | `0.12 m` | `0.009731379482 m` |
+| `west-high` | `0.12 m` | `0.019032956015 m` |
+| `north-top` | `0.12 m` | `0.0010125868542811625 m` |
 
-`f792d2369675d532be478e17c7a07f441d817c7c`
+The neutral Organic observer remains `PASS_NEUTRAL_BRANCH_ROOT_SUPPORT__DEFORMATION_UNTESTED`.
 
-The prior Rigging proof at head `87ce8b2ff10937abec4432e1c6d5a7114a076cdb` was bound to historical Organic mesh `d7fc5dea...`. The current Rigging head explicitly rebinds/retests the exact `north-top` owner root against Geometry PR #9 migrated mesh `aa9d450a...`.
+No branch point, trunk point, radius, leaf placement, silhouette, crown mass, flex radius, source position or source-generated mesh was changed this activation.
 
-Scoped current result:
+## Fresh Rigging return consumed — all five exact roots now structurally probed on the current Geometry receiver
 
-**`PASS_NATURE_NORTH_TOP_ROOT_SOCKET_GEOMETRY_MIGRATED_RECEIVER_REBIND_MINUS5_TO_PLUS5`**
+Nature Rigging PR #14 exact head:
 
-Exact bounded facts consumed by Organic:
+`898529f602893c8f6be179bd3e9b6821fc099904`
 
-- Organic owner = PR #8 head `fdc9d2b6...`, source digest `178cd8cf...`;
-- Geometry receiver = PR #9 head `9b451ba1...`, migrated mesh digest `aa9d450a...`;
-- exact pivot/root = `north-top` at `[0.01, 0.0, 3.16] m`;
-- owner flex metadata = `0.12 m / DECLARED_NOT_DEFORMATION_TESTED`;
-- selected child partition remains exactly `52` vertices / `72` triangles;
-- fixed receiver remains exactly `338` vertices;
-- diagnostic interval = `-5° .. +5°`;
-- maximum fixed-vertex drift = `0 m`;
-- maximum pivot drift = `0 m`;
-- maximum selected pairwise-distance drift = `4.440892098500626e-16 m`;
-- maximum selected axis-projection residual = `7.632783294297951e-17 m`;
-- maximum selected displacement = `0.08199084165462486 m`;
-- workflow `35303871196` succeeded with `46` tests;
-- retained artifact `10530936884`, `8,168 B`, SHA-256 `bffdb10ee51791341e74ce21305a478ca2f2d48dfc700b0f7fc5287f21eb985b`, independently rehashed exact by the Rigging lane.
+Scoped result:
 
-This closes the prior **historical Organic mesh → current Geometry migrated receiver** continuity HOLD for this exact `north-top` Rigging diagnostic scope only.
+**`PASS_FIVE_PRIMARY_BRANCH_ROOT_SOCKET_RIGID_CHILD_FAMILY_GEOMETRY_RECEIVER_DIAGNOSTIC_MINUS5_TO_PLUS5`**
 
-Rigging returned no defect localized to Organic-owned mass, proportion, silhouette, branch placement, source positions/radii or flex metadata. Organic therefore does not reshape the tree.
+All five exact Organic-declared primary roots are now independently tested on Geometry receiver `9b451ba1... / aa9d450a...` under the Rigging-owned diagnostic interval `[-5,+5]°`, with representative poses `-5 / -2.5 / 0 / +2.5 / +5°`.
 
-## Procedural identity continuity consumed without authority transfer
+For every root independently:
 
-Nature Procedural PR #4 current head is `4c1dada25151bcc8a5d09d9230b6c3f5eafcf756`. Its exact child-partition family was established at `08475569ad5b9a226c656dcb0650849143612617`.
+- selected child partition = `52` vertices / `72` triangles;
+- fixed receiver = `338` vertices;
+- fixed receiver drift = `0.0 m`;
+- pivot drift = `0.0 m`;
+- source declaration remains `DECLARED_NOT_DEFORMATION_TESTED`.
 
-For each of the five primary branch roots, the deterministic generated child address remains:
+Per-root retained Rigging measurements:
 
-- `52` selected vertices;
-- `72` selected triangles;
-- `338` fixed vertices.
+| root | max pairwise drift | max axis-projection drift | max selected displacement |
+|---|---:|---:|---:|
+| `south-low` | `4.440892098500626e-16 m` | `1.9081958235744878e-16 m` | `0.09244560732260372 m` |
+| `north-low` | `4.440892098500626e-16 m` | `1.3877787807814457e-16 m` | `0.09089971978466785 m` |
+| `east-mid` | `4.440892098500626e-16 m` | `1.5265566588595902e-16 m` | `0.08988267464049263 m` |
+| `west-high` | `4.996003610813204e-16 m` | `8.326672684688674e-17 m` | `0.08598785059361483 m` |
+| `north-top` | `4.440892098500626e-16 m` | `7.632783294297951e-17 m` | `0.08199084165462486 m` |
 
-All five child identities remain distinct and pairwise-disjoint at their selected vertex sets. Organic consumes this only as deterministic region identity / future experiment addressability. It grants Procedural no source-form, rigging or deformation authority.
+Rigging workflow `35307194044` succeeded. Retained artifact `10532211321` is `18,374 B`, SHA-256 `dc931439ced38350f646353c8904c8448b871696cfd8ac326d1b3beef737349e`, independently rehashed by the Rigging lane.
 
-For `north-top`, the same `52v / 72t / 338 fixed` child identity is retained through the migrated Rigging receiver proof. That continuity is useful evidence, not a sibling deformation claim.
+This closes the prior sibling structural-diagnostic gap on the exact current Geometry receiver. It does **not** rewrite Organic source flex metadata into source-authored ROM or deformation truth.
 
-## Per-root deformation-readiness matrix
+Rigging returned no defect localized to Organic-owned mass, branch placement, proportion, silhouette, source positions/radii, neutral-support intent or source-authored flex metadata. Organic therefore does not reshape the tree.
 
-| primary root | Organic neutral support | exact flex metadata | deterministic child partition | current migrated-receiver Rigging probe | Organic decision |
-|---|---|---|---|---|---|
-| `south-low` | PASS | `0.14 m`, untested | `52v / 72t / 338 fixed` | **NOT TESTED** | source frozen; no inherited `north-top` PASS |
-| `north-low` | PASS | `0.14 m`, untested | `52v / 72t / 338 fixed` | **NOT TESTED** | source frozen; no inherited `north-top` PASS |
-| `east-mid` | PASS | `0.12 m`, untested | `52v / 72t / 338 fixed` | **NOT TESTED** | source frozen; no inherited `north-top` PASS |
-| `west-high` | PASS | `0.12 m`, untested | `52v / 72t / 338 fixed` | **NOT TESTED** | source frozen; no inherited `north-top` PASS |
-| `north-top` | PASS; weakest margin `0.0010125868542811625 m` | `0.12 m`, untested | `52v / 72t / 338 fixed` | PASS at exact current Geometry migrated receiver, `-5°..+5°` diagnostic | source frozen; downstream blended/clearance/animation questions remain |
+## Fresh VFX compatibility return consumed — local polarity is per socket, not global
 
-The `north-top` downstream PASS does **not** silently rewrite the source-owner metadata. All five source declarations remain `DECLARED_NOT_DEFORMATION_TESTED`, because no physical plant flex law, biological ROM or production deformation semantics were established.
+Nature VFX PR #17 exact head:
 
-## New reusable Organic boundary
+`ef7b35af27d5ca98a6447c1e33be07863e387305`
 
-The previous per-root rule remains:
+Scoped result:
 
-**`PER_ROOT_DEFORMATION_EVIDENCE_MUST_REMAIN_BOUND_TO_EXACT_SOURCE_ROOT + FLEX_DECLARATION + CHILD_PARTITION + DOWNSTREAM_PROBE_IDENTITY__NO_SIBLING_PASS_TRANSFER`**
+**`PASS_FIVE_SOCKET_WEATHER_VISUAL_DIRECTION_SIGN_MAP`**
 
-This activation adds the receiver-lineage rule:
+Decision:
 
-**`DEFORMATION_READINESS_TRANSFER_STOPS_AT_EACH_EXACT_OWNER/RECEIVER_BOUNDARY__SOURCE_FORM_CONTINUITY + PARTITION_CONTINUITY + EXPLICIT_RIGGING_REBIND MAY_CLOSE_THAT_RECEIVER_LINEAGE_HOLD_FOR_THAT_EXACT_ROOT_ONLY__NO_SIBLING_PASS_TRANSFER__NO_DOWNSTREAM_ANIMATION_OR_VFX_AUTO_TRANSFER`**
+**`PASS_REVIEW_ONLY_FIVE_SOCKET_SIGN_MAP_NO_MOTION_ADOPTION`**
 
-This protects source integrity in both directions: an old receiver PASS cannot be silently promoted to a new topology lineage, and a new receiver PASS cannot be used to overwrite the source owner or sibling roots.
+Weather donor remains Weather PR #2 head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`, exact accepted visual direction `[1.0, 0.35]`, semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
 
-## Downstream lineage boundary remains open
+The exact review-only per-socket local sign map is mixed:
 
-Nature Animation PR #15 exact tested head:
+| root | local sign | preferred downwind centroid projection | signed witness separation |
+|---|---:|---:|---:|
+| `south-low` | `+5°` | `+0.016588762432268866 m` | `0.03451964526385527 m` |
+| `north-low` | `-5°` | `+0.017583768804344528 m` | `0.03345999264645084 m` |
+| `east-mid` | `+5°` | `+0.03324277426140488 m` | `0.06959613443259174 m` |
+| `west-high` | `-5°` | `+0.034787596961003905 m` | `0.06655861846137989 m` |
+| `north-top` | `+5°` | `+0.019556427432932226 m` | `0.040790451394453475 m` |
 
-`74354ff851538d4d8aba9332900ae40218415eaf`
+Family polarity state:
 
-Its current bounded pulse evidence is still tied to historical Rigging head:
+`PER_SOCKET_SIGN_MAP_REQUIRED`
 
-`87ce8b2ff10937abec4432e1c6d5a7114a076cdb`
+VFX workflow `35308053641` succeeded. Retained artifact `10532351624` is `16,529 B`, SHA-256 `afa8dee21a1a7f31f515eff6ecf7081ad5b3eadc3b48a6bd18bf697d7dca12fd`.
 
-and historical Organic mesh:
+This is downstream coordinate / visual-direction compatibility only. Organic does not copy the `+/-` signs into source flex semantics, does not define physical wind response from them, and does not reshape branches to force a uniform polarity family.
 
-`d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`
+## Stronger Organic ownership / continuity boundary
 
-Therefore:
+The reusable source-protection rule is now:
 
-**`CURRENT_MIGRATED_RIGGING_PASS != CURRENT_MIGRATED_ANIMATION_PASS`**
+**`DOWNSTREAM_DEFORMATION_EVIDENCE_MAY_ADVANCE READINESS WITHOUT SOURCE MUTATION__RIGGING_STRUCTURAL PASS + VFX COORDINATE SIGN MAP DO NOT REWRITE ORGANIC ROM OR FLEX SEMANTICS__REOPEN SOURCE ONLY ON A LOCALIZED ORGANIC DEFECT`**
 
-Animation must explicitly rebind/replay before its prior motion evidence can be claimed on Rigging `f792d236...` / Geometry mesh `aa9d450a...`.
+Operationally:
 
-Nature VFX PR #16 remains chained through the historical Animation lineage. Its directional compatibility evidence does not auto-transfer to the current migrated Rigging receiver either.
+- **Organic Form** owns source mass, proportion, silhouette, branch/leaf placement, neutral support intent, source positions/radii and source-authored flex metadata.
+- **Geometry** owns migrated topology / receiver identity.
+- **Rigging** owns the five independent rigid-child structural diagnostic probes; its `[-5,+5]°` interval is not source or biological ROM.
+- **VFX** owns bounded visual-direction sign compatibility; its socket polarity is not Organic source semantics or motion adoption.
+- **Animation** retains timing, interpolation, cadence, simultaneous motion and playback authority. No five-root Animation PASS is claimed here.
+- **Technical Art** retains target-host transport / representation authority.
+- **Runtime** retains controller, device and performance authority.
+- **Art Direction / Visual QA** retain perceptual acceptance.
 
-This is a continuity HOLD only. It is not an Organic defect and does not justify source compensation.
+The evidence-only PR head `2bb05bde...` must not be confused with the exact source/form owner bytes consumed downstream at `fdc9d2b6... / 178cd8cf...`.
 
 ## Exact handoffs recorded this activation
 
-- Nature Organic PR #8 comment `5725107584` — consumed current migrated Rigging rebind; source frozen; exact `north-top` scope; siblings and owner metadata remain untested.
-- Nature Rigging PR #14 comment `5725108264` — Organic accepts receiver-continuity closure for `north-top` only; no source compensation and no sibling transfer.
-- Nature Animation PR #15 comment `5725109020` — current Animation evidence remains historical-lineage-bound; explicit rebind/replay required before migrated-receiver claim transfer.
-- Nature Procedural PR #4 comment `5725109715` — deterministic partition identity consumed only as addressability; no source/deformation authority.
+- Nature Organic PR #8 — consumed five-root Rigging and five-socket VFX returns, retained source freeze and new bounded gate.
+- Nature Rigging PR #14 — Organic accepted the exact five-root structural diagnostic as downstream evidence only; no source compensation or ROM promotion.
+- Nature VFX PR #17 — Organic accepted the mixed per-socket visual-direction sign map without transferring it into source flex semantics or motion.
 
-Existing Rigging-origin handoffs remain independently addressable: PR #14 comment `5724789278`, Geometry PR #9 comment `5724790224`, Organic PR #8 comment `5724790851`, Procedural PR #4 comment `5724791382`.
+Comment IDs remain recorded in the respective PR conversations and should be treated as part of the exact handoff ledger rather than reconstructed from memory.
 
 ## Preserved Organic continuity
 
@@ -201,30 +209,29 @@ Fresh Character work does not justify a source-form edit.
 This activation does **not** establish:
 
 - botanical or biological correctness;
-- branch strength, tissue mechanics, stress, fatigue or failure behavior;
-- a physical law for the `0.12 m` / `0.14 m` flex metadata;
+- branch strength, stress, tissue mechanics, fatigue or failure behavior;
+- physical validity of the `0.12 m` / `0.14 m` flex radii;
 - real plant range of motion;
-- production skin weights, blended deformation or attachment quality;
-- motion self-intersection, collision or clearance freedom;
-- transfer of the `north-top` result to the four sibling roots;
-- Animation acceptance on the current migrated receiver;
-- physical wind response or VFX validity on the migrated receiver;
-- production topology, normals, tangents, UVs or materials;
-- target-host, target-device or Runtime readiness;
+- production skinning, weights or blended branch-trunk attachment;
+- simultaneous five-branch deformation;
+- collision, clearance or self-intersection freedom;
+- physical wind, drag, turbulence, force, timing, cadence or amplitude;
+- Animation acceptance or VFX motion adoption;
+- target-host or target-device Runtime readiness;
 - final Art Direction or independent Visual QA acceptance;
 - CANON;
 - production/game readiness;
-- Organic Form or Nature mastery.
+- Organic Form, Rigging, VFX or Nature mastery.
 
 ## Four-root gate
 
-- **Truth:** exact Organic source identity, historical Organic mesh, current Geometry receiver, exact current Rigging head, deterministic child partition and downstream historical lineages are recorded separately; no PASS is widened beyond its evidence.
-- **Agency / non-domination:** Organic does not force source changes to compensate for downstream ownership, Rigging does not rewrite Organic metadata, Procedural does not gain deformation authority, and Animation/VFX keep their own acceptance boundaries.
-- **Continuity:** predecessor blob `4cfa0df3...`, Organic head `fdc9d2b6...`, source digest `178cd8cf...`, historical mesh `d7fc5dea...`, current Geometry mesh `aa9d450a...`, current Rigging head `f792d236...`, historical Rigging head `87ce8b2f...`, Animation head `74354ff8...`, Animal selected-003 and Character review-006 remain independently addressable.
-- **Wisdom before speed:** close the exact receiver-lineage gap that evidence actually solved, freeze the source, and leave four siblings plus downstream Animation/VFX unpromoted rather than manufacturing green status.
+- **Truth:** source/form identity, evidence-only head, historical Organic mesh, current Geometry receiver, exact Rigging head and exact VFX head remain separately recorded; no downstream PASS is widened into biological, source-semantic or production truth.
+- **Agency / non-domination:** Organic does not force a source edit to compensate for downstream ownership; Rigging and VFX do not silently rewrite Organic metadata; Animation, Technical Art, Runtime, Art Direction and QA retain their own acceptance boundaries.
+- **Continuity:** predecessor status blob `da96b795...`, Organic source/form head `fdc9d2b6...`, evidence head `2bb05bde...`, source digest `178cd8cf...`, historical mesh `d7fc5dea...`, Geometry receiver `9b451ba1... / aa9d450a...`, Rigging `898529f6...`, VFX `ef7b35af...`, Animal selected-003 and Character review-006 remain independently addressable.
+- **Wisdom before speed:** consume the exact five-root and per-socket evidence that now exists, freeze the source because no source-localized defect returned, and leave Animation/physical/deformation semantics unpromoted rather than manufacturing a broader green status.
 
 ## Next trigger
 
 Re-scan the full constellation first.
 
-Do not create sibling Organic/Rigging work merely to fill the matrix. A next Organic source mutation requires a real downstream witness that survives topology, receiver, representation, transport and presentation explanations and localizes the remaining defect to Organic-owned mass, proportion, silhouette, branch/leaf placement, neutral support intent, exact source positions/radii or source-authored flex metadata.
+Do not create another Organic source variant merely to maintain cadence. Reopen Organic source-form work only when an exact downstream experiment survives topology, transport, representation, coordinate-sign, Animation/VFX and presentation explanations and localizes the remaining defect specifically to Organic-owned mass, proportion, silhouette, branch/leaf placement, neutral-support intent, source positions/radii or source-authored flex metadata.
