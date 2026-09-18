@@ -1,210 +1,139 @@
 # 10 — Procedural Design Specialist Status
 
-Date: 2026-09-18  
-State: **PASS_OBJECT_HINGE_OWNER_PARTITION_SUCCESSOR002_REBIND / OBJECT_PR11_HEAD_9B6956D9 / HARD_SURFACE25_A6D18B9F_EXACT / PREDECESSOR_PROCEDURAL_E08B5AAC_PRESERVED / THREE_MATERIALLY_DIFFERENT_OWNER_PARTITIONS / ALL_3_MESH_IDENTITIES_CHANGED_FROM_PREDECESSOR / EIGHT_FAIL_CLOSED_CONTROLS / PY311+PY313_GREEN / 17_EXACT_HEAD_WORKFLOWS_GREEN / ARTIFACT_10528058522_SHA_37C44B03_INDEPENDENTLY_REHASHED / NO_SOURCE_RIG_DOWNSTREAM_ADOPTION / AXM_CREATE_ME_COORDINATION_ONLY / FOUR_ROOTS_PRESERVED**
+Date: 2026-09-18
+
+State: **PASS_NATURE_PRIMARY_BRANCH_CHILD_PARTITION_FAMILY / NATURE_PR4_HEAD_08475569 / ORGANIC_PR8_FDC9D2B6_SOURCE+BUILDER+MESH_PINNED / FIVE_DISTINCT_PRIMARY_BRANCH_PARTITIONS / EACH_52_CHILD_VERTICES_72_TRIANGLES_338_FIXED / PAIRWISE_DISJOINT / 10_FAILURE_CONTROLS_REJECTED / RUN_35300869017_GREEN_PY311+PY313 / ALL_8_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10529961396_SHA_D257ADF3_GITHUB_DIGEST_ONLY / NO_SOURCE_RIGGING_OR_DOWNSTREAM_ADOPTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, the immediately preceding Procedural ledger, the current specialist status set, and current repository / PR state across all eleven design repositories: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/10_procedural_design.md`, the immediately preceding Procedural status, the current specialist status constellation, and current work across all eleven design repositories: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation, tests, CI and retained evidence were changed only in the existing `mike-axiom-mir/axm-object-design` Procedural lane. Universal Creation and Profession Fabric were not modified.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation, tests and retained evidence changed only in the existing Nature Procedural lane, `mike-axiom-mir/axm-nature-design` PR #4. Universal Creation and Profession Fabric were not modified.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor Procedural status blob:
+The immediately preceding Procedural status is preserved in Git at blob **`2f3f0d7abf778275a020d9c940c69783ff7f87f8`**. Its completed Object successor-002 owner-partition result remains historical exact-head truth and is not silently rewritten by this Nature extension.
 
-`313ea2730af69ef173de4c03d9a10e66d492b39d`
+## Design-repository scan and anti-duplication decision
 
-That predecessor remains rollback-addressable and preserves the completed Nature root-flex review family at exact Nature Procedural head `2f8ca89940d306d6bdd867e812bd0b7bb95853c6`. Organic subsequently consumed that review evidence and explicitly selected the `0.12 m` `north-top` metadata candidate at Organic head `fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`; the Nature review family is therefore not extended by cadence here.
+- **Weapon** — no fresher unowned repeated construction justified a new Procedural lane.
+- **Armor** — no fresher unowned repeated construction justified a new Procedural lane.
+- **Character** — mature specialist lanes already cover current work; no stronger unowned repeated construction was found.
+- **Unit** — no active product surface justified proceduralization.
+- **Animal** — mature specialist lanes already cover current work; no stronger unowned repeated construction was found.
+- **Building** — heavily active with existing Procedural PR #4 plus Hard Surface / Geometry / Materials / Runtime / receiving work; adding a new Procedural lane would duplicate ownership.
+- **Nature** — existing Procedural PR #4 remains the correct lane, and fresh Organic + Rigging evidence exposed one bounded repeated generated-region selection pattern not yet factored.
+- **Weather** — existing Procedural seeded-variation PR #3 already owns the relevant repeated family; no duplicate lane opened.
+- **Map** — current work is dominated by receiver / Environment / Technical Art / Runtime / VFX responsibilities rather than an unowned generator gap.
+- **Object** — existing Procedural PR #11 is already broad and the preceding activation explicitly closed the current owner-partition scope; no duplicate extension was added here.
+- **Misc** — no stronger bounded repeated construction was found.
 
-## Fresh constellation / duplicate-lane scan
+Fresh specialist status also reinforced the boundary: Organic has exact five-root flex metadata but still marks it undeformation-tested; Rigging has one exact `north-top` child-selection diagnostic at 52 selected vertices / 72 triangles / 338 fixed; Technical Art, Runtime, Environment, VFX and Visual QA all retain their own receiving/adoption authority. Procedural therefore factored only deterministic generated-region membership and did not absorb any of those specialist responsibilities.
 
-- **Weapon / Armor / Unit / Misc:** no grounded current product source exists that justifies inventing a Procedural asset or placeholder family.
-- **Character / Animal:** current Geometry, Organic, Rigging, Animation, Technical-Art, Runtime, Art and QA chains are occupied. No fresh repeated creation operation displaced the selected Object rebind.
-- **Building:** source / UV / Materials / Technical-Art / Environment receiving work is mature and currently downstream-facing; no new duplicated generation pattern required a Procedural sibling.
-- **Nature:** the prior root-flex review family has been explicitly consumed by Organic. The chosen `0.12 m` source metadata successor is owner-authorized, but no new repeated generation problem exists yet.
-- **Weather / Map:** current work is dominated by VFX / Environment / Technical-Art / review surfaces. No stronger repeated asset-construction gap surfaced.
-- **Object:** a real source-owner identity change occurred. Hard Surface PR #25 advanced the hinge to exact phase-invariant source successor 002 at `a6d18b9fe729304dc4d95d962ed27527adce211f`, changing the source-owned bore geometry while preserving the five knuckle IDs and `body / lid / body / lid / body` ownership sequence. Rigging has already rebound that successor. The existing Procedural owner-partition family was still grounded in predecessor-era Hard-Surface evidence, so exact re-observation was required before its generated review partitions could truthfully be reused.
+## Fresh repeated pattern
 
-No new Procedural PR was opened. Existing Object Procedural PR #11 was advanced in place.
+Exact Organic owner head **`fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`** source-owns five primary east-rear branches:
 
-## Selected bounded repair
+- `south-low`;
+- `north-low`;
+- `east-mid`;
+- `west-high`;
+- `north-top`.
 
-Repository:
+The exact Organic builder repeats the same child construction for every primary branch: two branch-segment generated regions plus the matching four-blade `<branch>-leaves` cluster. Rigging PR #14 independently had to hand-select that exact pattern for `north-top`, yielding **52 child vertices / 72 child triangles / 338 fixed vertices**.
 
-`mike-axiom-mir/axm-object-design`
+That is a real repeated operation worth one small Procedural abstraction: derive the exact generated child partition for every already-authored primary branch from owner region identities, without authoring source form, joints, weights or deformation semantics.
 
-Existing Procedural PR:
+## Implementation
 
-**#11 — `Procedural: bounded Object procedural and seeded variation families`**
+Existing Nature Procedural PR #4 was advanced to exact head **`08475569ad5b9a226c656dcb0650849143612617`**.
 
-Branch:
+Added contract **`axm.nature-branch-child-partition-family/v0.1`** with:
 
-`studio/procedural-service-module-configurations-001`
+- reusable deterministic partition helper `src/axm_nature_design/branch_partition_family.py`;
+- exact family contract `examples/rear_tree_branch_child_partition_family_001.json`;
+- donor-bound evidence builder;
+- focused unit tests;
+- exact-owner GitHub workflow;
+- bounded documentation.
 
-Exact tested Procedural head:
+Pinned Organic provenance:
 
-**`9b6956d9e913bd3b34ce3d1b41cf718dda17d8e8`**
+- owner head: **`fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`**;
+- source blob: **`fb12b759e1abfd0455bf46fd39a0eba27095796b`**;
+- source canonical digest: **`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**;
+- builder blob: **`d4d8462eefc8faef513163c9d20280ad46428917`**;
+- generated mesh digest: **`d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`**;
+- generated mesh size: **390 vertices / 570 triangles**.
 
-PR state at verification:
+The family derives five materially different partitions. All **5/5 partition digests** are distinct, all **5/5 vertex-index digests** are distinct, the five vertex sets are pairwise disjoint, and every partition resolves to **52 selected vertices / 72 triangles / 338 fixed vertices**. Reversing declaration order reproduces canonical family digest **`ab688f5281dc4e79770e133b49e7af3a533092acc1e0a0945bfa86e647e7b122`**.
 
-**OPEN / DRAFT / UNMERGED / MERGEABLE**.
-
-Added bounded rebind contract:
-
-**`axm.object-hinge-knuckle-owner-partition-successor-rebind/v0.1`**
-
-Family ID:
-
-`modular-equipment-case-001-hinge-knuckle-owner-partition-successor002-rebind-001`
-
-This is a **repair of the existing partition capability**, not a second ownership system. The new builder invokes the exact Hard-Surface successor-002 verifier, then reuses `tools/build_hinge_knuckle_owner_partition_family.py` for the actual body/lid filtering and canonicalization.
-
-## Exact provenance
-
-Hard Surface source-owner donor:
-
-- PR #25 exact head: **`a6d18b9fe729304dc4d95d962ed27527adce211f`**;
-- successor 002 contract blob: `7e078189d5c80508b28932563326cd5629c4efa6`;
-- successor 002 verifier blob: `2cbeb882341eb1bba35897d744f36d014224b7ca`;
-- predecessor successor contract blob: `beaf16f588450a3b298e2e581b590c5dc0c07380`;
-- predecessor successor verifier blob: `f35a0ce9bd800b95359cecaeaf41d6b53100ffe9`;
-- owner-stack blob: `e4e7c95769c0827a6a019afd672ff4b20cd13541`;
-- bore-contract blob: `e94fbc0d960d949f49fc3a05edba74b706f2a87e`;
-- predecessor annular-contract blob: `39a52ad5ba8497a8a524d764bbf6744bb11cf54a`;
-- annular-builder blob: `7665d904d33dea2904b55b1ebd85a6e81621ad50`;
-- host source Git blob: `018e36bb08539f212d2c65e6408566e3540fd983`.
-
-Hard Surface's exact prerequisite result remains:
-
-`PASS_SOURCE_OWNED_PHASE_INVARIANT_BORED_HINGE_KNUCKLE_SUCCESSOR`
-
-Exact successor facts consumed by Procedural:
-
-- successor ID: `modular-equipment-case-001/hinge-bored-knuckle-phase-invariant-source-successor-002`;
-- bore circumradius: **`0.010352761804100828 m`**;
-- measured phase-independent radial lower bound: **`0.0009999999999999992 m`**;
-- owner sequence: `body / lid / body / lid / body`.
-
-The historical Procedural family is retained separately:
-
-- exact Procedural predecessor head: **`e08b5aacd97e16f3fe8feea4995db2d0885b68a2`**;
-- retained predecessor artifact: **`10525202240`**;
-- predecessor family digest: **`39973aae8bc433b92a4d84152e5e16f0bf916a8f6aef4d9db69050569b145522`**.
-
-Nothing in this activation rewrites that family or relabels its old mesh identities as successor-002 evidence.
-
-## Three materially different successor outputs
-
-The rebind preserves the same bounded ownership selections while regenerating them from the exact changed successor geometry:
-
-1. **`full`** — owners `body + lid`; knuckles `b0,l0,b1,l1,b2`; **5 knuckles / 240 vertices / 480 triangles**;
-2. **`body-only`** — owner `body`; knuckles `b0,b1,b2`; **3 / 144 / 288**;
-3. **`lid-only`** — owner `lid`; knuckles `l0,l1`; **2 / 96 / 192**.
-
-All **3 / 3 current mesh identities are distinct**:
-
-- `full`: `ad93a0e9e027254aae1223290dd81892185ce4b343a4c300414abef457edda97`;
-- `body-only`: `80650f5b39ab29b458b079d51673e748d599a52b7f6f5cd4973c03c35b0697f2`;
-- `lid-only`: `7a32852d7a74814186b5dcae9e2a774b018201032b502be85dfb00448e1646ed`.
-
-All **3 / 3 also differ from their exact retained predecessor mesh identities**:
-
-- predecessor `full`: `6b49213d239726b97af0b1dd53d23c84e49dca9e88b41fc7669357762e045508`;
-- predecessor `body-only`: `635d03b284d2650162e58ed8536041189a954e0c4eed6db6eaf50e245e0c9832`;
-- predecessor `lid-only`: `6fe602835347518d97ab4264d9b7ec07d2c559091142ad1b284a87d556e24271`.
-
-This proves the rebind did not merely stamp the new source-successor name onto predecessor geometry.
-
-Request order remains deterministic: selecting `body,lid` and `lid,body` produces the same canonical full output.
-
-Current canonical family digest:
-
-**`33cce498a91de77ece64bda50bc6b70caca2f76ccadc06d1fd8f29b7c62e2782`**
-
-It is intentionally different from the predecessor family digest.
+The `north-top` output exactly reproduces Rigging PR #14's existing 52 / 72 receiver witness count, but that receiver evidence is used only as a compatibility witness; it does not transfer Rigging authority.
 
 ## Failure bounds
 
-Eight deliberate controls fail closed:
+Ten negative controls fail closed:
 
-1. Hard-Surface owner-head drift;
-2. phase-invariant successor contract-blob drift;
-3. Procedural predecessor family-digest drift;
-4. attempted Rigging-authority promotion;
-5. attempted automatic downstream adoption;
-6. duplicate owner selector;
-7. unknown owner selector;
-8. attempting to substitute the predecessor bore radius for successor 002.
+1. Organic owner-head drift;
+2. Organic source-blob drift;
+3. Organic builder-blob drift;
+4. generated-mesh digest drift;
+5. duplicate branch selector;
+6. unknown branch selector;
+7. attempted automatic Rigging adoption;
+8. flex-status promotion beyond `DECLARED_NOT_DEFORMATION_TESTED`;
+9. off-root flex-center drift;
+10. generated child-region identity drift.
 
-There is no nearest-owner fallback, guessed donor, silent predecessor rewrite, automatic default replacement, source mutation, Rigging parenting, receiver adoption or authority inflation.
+The first exact workflow draft failed honestly because the new alphabetically-first test did not bootstrap the repository `src/` path before importing the package. No product semantics were changed in response. Commit **`08475569...`** repairs only that test bootstrap, after which the complete suite and evidence gate pass.
 
-## Exact verification
+## Verification
 
-Dedicated exact-head workflow:
+Exact workflow **`35300869017 — Procedural Nature branch child-partition family`** completed **SUCCESS** on Python **3.11 and 3.13**.
 
-**`35296366371 — Object hinge-knuckle owner partition successor002 rebind`**
+The Python 3.11 lane ran the complete receiving-repository suite: **56 tests / OK**, then built exact donor-bound evidence and passed the bounded truth gate. All **8 workflow families** triggered on exact Procedural head `08475569...` completed successfully.
 
-Result: **SUCCESS**.
+Retained artifact:
 
-- Python **3.11**: exact Procedural / Hard-Surface donor checkouts PASS; compile PASS; complete Object suite PASS; exact successor-002 verifier PASS; three-partition family build PASS; eight negative controls PASS; truth gate PASS; retained artifact upload PASS.
-- Python **3.13**: compile PASS; complete Object suite PASS.
+- ID **`10529961396`**;
+- name `nature-rear-tree-branch-child-partition-family-001-08475569ad5b9a226c656dcb0650849143612617`;
+- size **7,741 bytes**;
+- GitHub Actions SHA-256 **`d257adf3b034461b4b4a0a14f4eebed52765fef51a8a7b66e46ab59bf9b1d201`**.
 
-Final exact-head poll: all **17 / 17 pull-request-triggered workflow families** returned for Procedural head `9b6956d9...` completed **SUCCESS**, including the inherited Object Procedural and base evidence lanes.
+No independent local artifact rehash is claimed in this activation.
 
-Retained exact-head artifact:
+Machine-readable decision: **`PASS_DERIVED_REGION_PARTITIONS_ONLY__NO_SOURCE_OR_RIGGING_ADOPTION`**.
 
-- ID **`10528058522`**;
-- name `object-hinge-knuckle-owner-partition-successor002-rebind-evidence`;
-- size **11,000 B**;
-- GitHub SHA-256 **`37c44b0365e44888825a2e66dd399030932a710249090ef11568b7ddca4febd3`**.
+## Ownership / truth boundary
 
-The archive was downloaded in this activation and independently rehashed to the exact same SHA-256:
+This PASS proves only deterministic generated-region membership for the five already-authored primary east-rear branches plus their matching leaf clusters.
 
-**`37c44b0365e44888825a2e66dd399030932a710249090ef11568b7ddca4febd3`**.
+It does **not**:
 
-Machine result:
-
-**`PASS_BOUNDED_HINGE_KNUCKLE_OWNER_PARTITION_SUCCESSOR002_REBIND`**
-
-Decision:
-
-**`PASS_EXACT_SUCCESSOR002_OWNER_PARTITIONS__PREDECESSOR_FAMILY_PRESERVED__NO_SOURCE_RIG_OR_DOWNSTREAM_ADOPTION`**
-
-## Handoffs recorded
-
-Evidence was returned without transferring authority:
-
-- Object Procedural PR #11 comment **`5723761651`**;
-- Object Hard Surface PR #25 comment **`5723762820`**;
-- Object Rigging PR #27 comment **`5723764009`**.
-
-Hard Surface remains the source-successor owner. Rigging retains parenting/deformation acceptance. Animation, Technical Art, Runtime/physics, Materials, Art and QA retain their own receiver and acceptance gates.
-
-## Explicit non-claims
-
-This PASS does **not**:
-
-- make successor 002 the default Object source;
-- rewrite the historical source, predecessor Hard-Surface successor, or predecessor Procedural family;
-- authorize Rigging parenting or change Rigging's already-independent successor-002 result;
-- establish Animation adoption;
-- establish Technical-Art / scene receiving;
-- establish Runtime / target-device / physics behavior;
-- establish manufacturing fit, bearing behavior, loads, strength or wear;
-- prove full articulated collision;
-- establish visual acceptance;
+- move or rewrite Organic source geometry;
+- choose or change flex radii / flex centers / flex status;
+- create Rigging joints, hierarchy, weights, ranges or deformation;
+- transfer the `north-top` deformation diagnostic to any other branch;
+- prove wind response, biomechanics or arbitrary-tree retargeting;
+- authorize Animation, VFX, Technical Art, Runtime, Map / Environment, Art or Visual QA adoption;
 - promote Universal Creation or Profession Fabric;
-- establish CANON;
-- claim production readiness or Procedural mastery.
+- establish CANON, production readiness or Procedural mastery.
+
+Organic remains source owner. Rigging remains deformation owner. Receivers remain independently responsible for adoption and evidence.
+
+## Handoff
+
+- **Organic PR #8:** exact owner source and builder were consumed read-only; no source change requested.
+- **Rigging PR #14:** Procedural can now reproduce the exact `north-top` child-selection count and four sibling partitions deterministically, but nothing is auto-adopted and no deformation result transfers.
+- **Procedural PR #4:** retain this family as the single Nature-side generated-region partition mechanism; do not create a parallel branch-selection generator.
 
 ## Four-root check
 
-- **Truth:** the exact new Hard-Surface identity and all consumed blobs are pinned; all three generated successor meshes changed from their retained predecessor identities; CI and artifact hashes are recorded without broadening the claim.
-- **Agency / non-domination:** Procedural does not choose a default source, seize Hard-Surface ownership, force Rigging / Animation / TA / Runtime adoption, or inflate review packaging into downstream authority.
-- **Continuity:** predecessor Procedural head, artifact, family digest and three mesh identities remain explicit alongside successor-002 head, current family digest, workflow and artifact. No silent rewrite occurred.
-- **Wisdom before speed:** the existing partition helper was reused rather than creating another ownership/generation system. The lane moved only because the source-owner identity and bore geometry actually changed and explicit receiver rebind was required.
+- **Truth:** exact owner head/blobs/digests, exact mesh counts, the initial CI failure, repair, final green run and artifact digest are all recorded distinctly.
+- **Agency / non-domination:** Procedural cannot silently adopt outputs into Organic, Rigging or downstream receivers.
+- **Continuity:** the existing Nature Procedural PR was extended; prior Object and Nature evidence remains historical exact-head truth rather than being relabelled.
+- **Wisdom before speed:** one proven repeated selection pattern was factored instead of opening another broad generator lane.
 
-## Next Procedural pass
+## Next activation trigger
 
-Re-scan the full constellation first. Treat this successor-002 owner-partition rebind as closed at its present scope. Do not extend the Object hinge again merely because it is green. Return only if a source owner changes the repeated construction again, a receiver exposes a concrete partition/generation defect, or another repository surfaces a stronger genuinely repeated manual creation pattern.
+Treat this partition family as closed at current scope. Return only if an owner changes the branch / leaf region contract, a receiver exposes a concrete defect, or another design repository presents a stronger unowned repeated construction problem.
