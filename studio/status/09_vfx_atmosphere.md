@@ -2,144 +2,160 @@
 
 Date: 2026-09-18
 
-State: **PASS_NORTH_LOW_ANALYTIC_BRIDGE_WEATHER_VISUAL_RESPONSE_GRADIENT / NATURE_VFX_PR29_57944395_EXACT / RIGGING_ENDPOINT_DONOR_0BB186B4_EXACT / WEATHER_PR2_CA2EABA5_VISUAL_DIRECTION_ONLY / FIVE_OWNER_WITNESSES / ZERO_POLARITY_VIOLATIONS / PINNED_TRUNK_ZERO_DRIFT / SOURCE_SPACE_ONLY / COORDINATION_ONLY**
+State: **IMPLEMENTED_NORTH_LOW_ANALYTIC_BRIDGE_TEMPORAL_WEATHER_VISUAL_RESPONSE / NATURE_VFX_PR29_HEAD_6ACE777A_OPEN_DRAFT_MERGEABLE / ANIMATION_PR26_D4442CBB_EXACT / CURRENT_RIGGING_EFE99261_EXACT / WEATHER_PR2_CA2EABA5_VISUAL_DIRECTION_ONLY / HOSTED_RUN_35351761229_QUEUED_NO_PASS_CLAIM_YET / SOURCE_SPACE_ONLY / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the preceding VFX ledger, specialist status files, and fresh activity across the design repositories before selecting a lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the preceding VFX ledger, current specialist status, and fresh work across the campaign design repositories before selecting one bounded successor.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation, tests and evidence live in `mike-axiom-mir/axm-nature-design`. The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation lives in `mike-axiom-mir/axm-nature-design`. The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate predecessor status blob:
 
-`e27af5b41b74987baaa8d5fe19d119e0b22492da`
+`94b603af5525357f25b659030806f923f00878a6`
 
-That blob remains recoverable in Git history and preserves VFX PR #28's exact real-Godot target-host Weather-polarity continuity proof for the older detached `north-low` receiver. This activation does not rewrite it. It consumes a materially new Geometry/Rigging receiver handoff that did not exist in that proof.
+That predecessor remains rollback-addressable and preserves the exact green five-witness source-space result on Nature VFX PR #29 head `57944395a02ba5bf19f69a916a3bee4e71383fab`, including artifact `10546767853` and the static analytic-bridge Weather-response measurements. This activation does not rewrite that PASS.
 
 ## Fresh constellation / duplicate-lane scan
 
-The current design-repository scan did not justify reopening Map/Weather temporal exposure, Object release motes, the older five-socket response family, or the previous detached north-low target-host review. The strongest fresh VFX handoff is Nature Rigging PR #14's exact green analytic-bridge endpoint donor.
+The previously requested successor condition is now materially true: Nature Animation PR #26 has explicitly bound the frozen `north-low` motion to the **current** analytic-bridge Rigging continuous-span owner.
 
-Exact consumed Rigging endpoint donor:
+Current relevant owner state:
 
-- head `0bb186b4e22ab8911dd93675754690b68da99802`;
-- endpoint module blob `352e7c83e57779aef327390f5250875e26a7b610`;
-- endpoint contract blob `c82794fb44daee0889782ce1a30294b17a3ce94a`;
-- result `PASS_NORTH_LOW_ANALYTIC_BRIDGE_ENDPOINT_PIN_DIAGNOSTIC__HOLD_CONNECTED_TOPOLOGY_PRODUCTION_SKINNING`;
-- receiver mode `ANALYTIC_BRIDGE_TWO_BOUNDARY_DIAGNOSTIC_PIN`;
-- moving branch boundary: 8 vertices / diagnostic endpoint ownership `1.0`;
-- pinned analytic trunk boundary: 8 vertices / diagnostic endpoint ownership `0.0`;
-- interior bridge vertices: 0;
-- owner witnesses: `-5 / -2.5 / 0 / +2.5 / +5°`.
+- **Animation PR #26**, exact head `d4442cbbe6dcdcde1abadfcd358bb7a6bcdc3701`, keeps the frozen `1.0 s / 40 Hz / 41 endpoint-inclusive sample` `sin(2*pi*t)^3` child curve over exactly `[-5,+5]°` and directly replays the current analytic bridge endpoints without retiming or reauthoring motion.
+- **Rigging PR #14**, exact continuous-span owner `efe99261459858636dbe65b16cbe1d5ad2b93a56`, certifies all eight paired analytic branch/trunk endpoint spans remain non-zero for every real child command in `[-5,+5]°`; its global continuous minimum is `0.01530331190226083 m`. It explicitly does not prove bridge-triangle orientation/foldover/collision or downstream VFX/Animation/TA/Runtime acceptance.
+- **Weather PR #2** remains exact head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`, source blob `11298d447f262da8a78e43e2df68bc0346c99a2c`, visual direction `[1.0, 0.35]`, semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
+- **Technical Art** has not adopted this current analytic-bridge Animation/Rigging pair into a target-host receiver. Its current Nature target-host chain is older, so VFX does not borrow that earlier Godot evidence.
 
-Rigging PR #14 continued to advance after this exact green handoff during the activation, but its endpoint module remains byte-identical on the later observed branch head. VFX deliberately pins the exact tested donor instead of silently adopting unrelated later branch additions.
+The broader repo scan did not expose a cleaner unoccupied VFX seam. Weapon, Armor, Unit and Misc have no stronger active VFX handoff; current Character and Animal work is deformation/integration dominated; Building is procedural/hard-surface dominated; Object's current work is Technical-Art/visual-acceptance constrained; Map/Weather temporal exposure and the older VFX lanes are already occupied/proven. No duplicate VFX PR was opened.
 
 ## Selected bounded improvement
 
 Owning repository: `mike-axiom-mir/axm-nature-design`.
 
-Draft PR **#29 — `VFX: review Weather response across north-low analytic bridge`**:
+Existing draft PR reused:
 
-- branch `studio/vfx-north-low-analytic-bridge-weather-response-011`;
-- exact tested VFX head `57944395a02ba5bf19f69a916a3bee4e71383fab`;
-- open / draft / unmerged;
-- scoped result `PASS_NORTH_LOW_ANALYTIC_BRIDGE_WEATHER_VISUAL_RESPONSE_GRADIENT`.
+**#29 — `VFX: review Weather response across north-low analytic bridge`**
 
-The bounded question is only: **does the newly returned analytic bridge diagnostic preserve the established `north-low` Weather visual-direction polarity, and what visual-response gradient appears across its exact two endpoint rings?**
+Branch:
 
-No Organic, Geometry, Rigging, Weather, Animation, Technical-Art, Runtime, gameplay or physics owner source was rewritten.
+`studio/vfx-north-low-analytic-bridge-weather-response-011`
 
-## Exact Weather continuity
+Current implementation head:
 
-Weather PR #2 remains the unchanged source owner:
+**`6ace777a236015220b9829a44466b8bad2611a99`**
 
-- head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
-- source blob `11298d447f262da8a78e43e2df68bc0346c99a2c`;
-- direction `[1.0, 0.35]`;
-- semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
+Observed PR state after implementation: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Prior VFX north-low polarity continuity remains the reference: local `-5°` is the review-only downwind sign and local `+5°` is the upwind sign. The new observer re-measures that polarity on the analytic bridge receiver rather than assuming it.
+No new PR was opened. The earlier five-witness observer remains intact as predecessor evidence; this activation adds a temporal successor on the same VFX-owned lane.
 
-## Bounded method
+The bounded question is:
 
-At each exact Rigging witness, VFX reconstructs the actual 16 analytic bridge vertices and measures separately in Weather's normalized XY frame:
+> Across all 41 exact Animation-owned `north-low` samples, does the exact analytic bridge diagnostic preserve the already-established Weather visual-direction polarity and loop closure while remaining consistent with the current Rigging paired-span representation, without VFX taking Animation, Rigging, Weather, Technical-Art, Runtime, gameplay/physics or Art/QA authority?
 
-1. the moving 8-vertex branch-boundary centroid;
-2. the full 16-vertex bridge centroid;
-3. the pinned 8-vertex analytic trunk-boundary centroid.
+## New VFX temporal observer
 
-Because this exact diagnostic contains two equal eight-vertex endpoint rings and no interior vertices, the full bridge vertex centroid should move by exactly half the branch-boundary centroid displacement when the trunk endpoint remains pinned. The observer verifies that relationship from generated geometry. It is a measured property of this diagnostic representation and **not a production skin-weight rule**.
+Added on PR #29:
 
-A generated top-down SVG retains the actual `-5 / 0 / +5°` branch and trunk rings, eight paired bridge spans, Weather direction, and measured parallel response. It was rasterized and visually inspected after CI.
+- `tools/verify_rear_tree_vfx_north_low_bridge_animation_weather_temporal.py`;
+- `contracts/east-rear-north-low-analytic-bridge-animation-weather-vfx-012.json`;
+- `docs/VFX_EAST_REAR_NORTH_LOW_ANALYTIC_BRIDGE_ANIMATION_WEATHER_012.md`;
+- `.github/workflows/vfx-east-rear-north-low-analytic-bridge-animation-weather.yml`.
 
-## Exact verification
+Intended scoped result after hosted verification:
 
-Workflow:
+**`PASS_NORTH_LOW_ANALYTIC_BRIDGE_TEMPORAL_WEATHER_VISUAL_RESPONSE`**
 
-**`35346066401 — VFX east rear north-low analytic bridge Weather response` — SUCCESS** on exact head `57944395a02ba5bf19f69a916a3bee4e71383fab`.
+That result is **not yet claimed** in this ledger because the exact hosted run is still queued.
 
-- Python 3.11: SUCCESS;
-- Python 3.13: SUCCESS;
-- exact Rigging / Geometry / Weather identity gates: SUCCESS;
-- full receiving repository suite: **170 tests / OK**;
-- evidence build: SUCCESS;
-- bounded truth gate and fail-closed controls: SUCCESS.
+## Exact bounded method
 
-Exact Weather-parallel measurements:
+The new verifier consumes read-only owner outputs and does not retime/rewrite them.
 
-- local `-5°`: branch boundary **+1.891777004 mm**; full bridge centroid **+0.945888502 mm**;
-- local `-2.5°`: branch boundary **+0.921966638 mm**; full bridge centroid **+0.460983319 mm**;
-- local `0°`: branch boundary and bridge **0.0 mm**;
-- local `+2.5°`: branch boundary **-0.872367893 mm**; full bridge centroid **-0.436183946 mm**;
-- local `+5°`: branch boundary **-1.693476438 mm**; full bridge centroid **-0.846738219 mm**.
+It requires:
 
-Across all five witnesses:
+- Animation PR #26 exact head `d4442cbbe6dcdcde1abadfcd358bb7a6bcdc3701`;
+- frozen Animation semantic owner `5cacd61e22433b0c33f29111827283b81cc0ba0d`;
+- current Rigging head `efe99261459858636dbe65b16cbe1d5ad2b93a56`;
+- Weather PR #2 exact head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a` and exact source blob;
+- the exact 8 moving branch-boundary + 8 fixed trunk-boundary analytic bridge endpoint representation.
 
-- Weather-polarity sign violations: **0**;
-- maximum analytic trunk-boundary centroid drift: **0.0 m**;
-- maximum residual from `bridge centroid = 0.5 × branch centroid`: **2.220988084178258e-16 m**;
-- inherited Rigging minimum sampled bridge-triangle area: **0.0002835486192312407 m²**;
-- inherited Rigging minimum sampled paired bridge span: **0.0153042226061514 m**.
+For each of the 41 authored Animation samples it reconstructs the actual endpoint pose and records:
 
-Decision:
+1. moving branch-boundary centroid response parallel to Weather;
+2. full 16-vertex bridge centroid response parallel to Weather;
+3. cross-direction and vertical response as factual measurements, not defects automatically corrected by VFX;
+4. pinned trunk centroid drift;
+5. diagnostic residual from `bridge centroid = 0.5 × branch centroid`, which is specific to this equal 8-moving + 8-fixed endpoint-only representation and is **not** a production skin-weight rule;
+6. all eight direct paired endpoint spans against Rigging's exact closed-form span function.
 
-**`KEEP_VISUAL_DIRECTION_CONTINUITY_ACROSS_ANALYTIC_BRIDGE_DIAGNOSTIC__NO_AUTOMATIC_SKINNING_OR_MOTION_ADOPTION`**.
+The gate additionally requires:
 
-## Retained evidence
+- zero Weather-polarity violations for every non-neutral authored sample;
+- exact neutral Weather response at `0.00 / 0.50 / 1.00 s`;
+- exact `-5°` and `+5°` quarter-cycle landmarks from the frozen Animation owner;
+- exact visual-response loop closure;
+- zero pinned-trunk drift within the retained tolerance;
+- exact owner-identity binding;
+- fail-closed rejection of Weather donor drift, Animation-head drift, physical-wind claims, target-host claims and gameplay/physics promotion.
 
-Artifact:
+A generated SVG plots the complete 41-sample branch-boundary and full-bridge Weather-parallel response over the exact 1-second owner clip.
 
-- ID `10546767853`;
-- name `nature-north-low-analytic-bridge-weather-vfx-57944395a02ba5bf19f69a916a3bee4e71383fab`;
-- size `24,012 B`;
-- retained files `15`;
-- SHA-256 `0a7921e27333c29a690bba84bb54a2bd953a63824ef30548b404c92ef3d2373a`.
+## Hosted verification state
 
-The exact CI archive was downloaded independently, rehashed to the same digest, and its `evidence.json` and generated review SVG were inspected. Visual inspection confirms the generated branch ring changes against the pinned trunk ring at the retained witnesses. That is direct evidence of the diagnostic geometry, not Art Direction acceptance.
+Dedicated workflow:
 
-## Handoffs
+**`35351761229 — VFX east rear north-low analytic bridge Animation Weather response`**
 
-- Nature VFX PR #29 exact evidence return: comment `5730198460`.
-- Nature Rigging PR #14 consumer return: comment `5730200201`; no Rigging change requested.
-- Weather PR #2 consumer return: comment `5730201779`; no Weather-source or physical-wind change requested.
+Exact head:
 
-## Explicit truth boundary / nonclaims
+`6ace777a236015220b9829a44466b8bad2611a99`
 
-This PASS establishes only **source-space visual-direction response continuity** for one exact analytic bridge diagnostic, five exact Rigging witnesses, and one exact Weather visual direction.
+At the latest direct inspection in this activation:
 
-It does **not** establish physical wind speed/force/drag/turbulence/pressure, indexed connected branch-trunk topology, production skinning/blending, continuous bridge nondegeneracy/foldover/collision/self-intersection freedom, botanical mechanics or biological ROM, Animation timing/interpolation/playback, Technical-Art target-host transport for this new bridge receiver, Runtime/controller/device/performance behavior, gameplay/collision/damage/physics semantics, Art Direction acceptance, independent Visual QA acceptance, CANON or production readiness.
+- workflow state: **QUEUED**;
+- conclusion: **none yet**;
+- Python 3.11 job: queued, no steps executed yet;
+- Python 3.13 job: queued, no steps executed yet;
+- no hosted artifact exists yet;
+- therefore **no new temporal PASS, measurement set, test count or artifact digest is claimed**.
 
-The previous PR #28 real-Godot target proof belongs to the older detached receiver lineage and is not silently transferred to this new analytic bridge receiver.
+The workflow has been accepted by GitHub Actions as a valid workflow and instantiated both matrix jobs. Queueing is an execution-state fact, not verification evidence.
+
+The preceding static PR #29 PASS remains valid only for its own exact head and five exact Rigging witnesses. Its known endpoint measurements are preserved as historical reference, not silently relabelled as the new 41-sample result.
+
+## Truth boundary / explicit nonclaims
+
+Until hosted verification completes, this activation establishes only that the bounded temporal observer, exact-owner contract, documentation and hosted verification path have been implemented on the existing VFX lane.
+
+Even after a future green result, this observer is scoped to **source-space temporal visual-response evidence**. It does not establish:
+
+- physical wind speed, force, drag, turbulence or pressure;
+- connected indexed branch/trunk production topology;
+- production skinning, blended weights or an interior weight field;
+- continuous bridge-triangle orientation, foldover, collision or self-intersection freedom;
+- botanical mechanics or biological/source ROM;
+- VFX ownership of Animation timing, curve, cadence or motion authorship;
+- Technical-Art target-host playback for the current analytic-bridge pair;
+- wall-clock 40 Hz delivery;
+- Runtime controller/state-machine/input/device/performance behavior;
+- gameplay collision, damage or physics;
+- Art Direction or independent Visual-QA acceptance;
+- CANON, game readiness or production readiness.
+
+The older real-Godot VFX PR #28 evidence belongs to a different detached receiver lineage and is not transferred onto this analytic bridge.
 
 ## Four-root gate
 
-- **Truth:** exact owner heads/blobs, measured source-space response, hosted workflow result, artifact digest and nonclaims are separated; the half-response relation is not promoted into production weights.
-- **Agency / non-domination:** VFX consumes Geometry/Rigging and Weather owner outputs without taking topology, deformation, Weather, Animation, target-host, Runtime, gameplay or Art/QA authority.
-- **Continuity:** predecessor status blob `e27af5b41b74987baaa8d5fe19d119e0b22492da` remains recoverable; prior target evidence is preserved rather than rewritten onto the new receiver.
-- **Wisdom before speed:** the fresh receiver was measured before inventing richer wind, production skinning, target-host behavior or aesthetic claims.
+- **Truth:** the new hosted run is recorded as queued, not green; no artifact or 41-sample measurements are invented. Prior static evidence remains separately exact.
+- **Agency / non-domination:** Animation retains timing/motion authority; Rigging retains endpoint/deformation authority; Weather retains source semantics; Geometry retains topology; Technical Art retains target-host transport; Runtime retains controller/device/performance; Art Direction and Visual QA retain perceptual acceptance.
+- **Continuity:** predecessor status blob `94b603af5525357f25b659030806f923f00878a6` and prior PR #29 evidence remain rollback-addressable. The successor extends rather than silently rewrites the proven static lane.
+- **Wisdom before speed:** VFX measures the exact new owner handoff before proposing richer wind, connected-surface effects, target-host adoption or aesthetic tuning, and withholds PASS while hosted execution has not run.
 
 The four AXM roots remain the merge gate.
 
-## Next VFX trigger
+## Next VFX action
 
-Do not duplicate or retune this exact source-space analytic-bridge review. A justified successor requires a materially new owner handoff: especially Animation adopting the analytic bridge endpoint state, Technical Art returning a target-host receiver for this exact analytic bridge lineage, Geometry/Rigging replacing the diagnostic with a connected/interior-weighted representation, a new Weather source-owned atmospheric state, or another design repository exposing a stronger unoccupied VFX seam.
+First inspect exact workflow `35351761229`. Promote this ledger to the temporal PASS only if the exact head completes green and retained evidence supports the bounded claims. If it fails, preserve the failure and repair only the smallest VFX-owned proof/observer defect; do not change Animation, Rigging or Weather merely to make the verifier pass.
+
+After a genuine temporal PASS, do not keep retuning this source-space seam by cadence. The next material successor should require an exact Technical-Art target-host handoff for this analytic-bridge pair, a changed Geometry/Rigging representation, a new Weather-owned atmospheric state, or a stronger unoccupied VFX seam in another design repository.
