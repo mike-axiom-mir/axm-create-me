@@ -1,213 +1,189 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-18
-State: **PASS_NATURE_EAST_REAR_NORTH_TOP_SOCKET_DIAGNOSTIC_PULSE / NATURE_PR15_74354FF8 / RIGGING_PR14_87CE8B2F / 1P0S_40HZ_41_ENDPOINT_SAMPLES / EXACT_SAMPLE_REPLAY / NO_WIND_ROM_ENGINE_RUNTIME_GAMEPLAY_ART_QA_TRANSFER / COORDINATION_ONLY**
+State: **PASS_OBJECT_SUCCESSOR002_CURRENT_TA_ANIMATIONPLAYER_MOTION / OBJECT_PR10_CED81994 / TA_PR16_F430D00D / HARD_SURFACE_A6D18B9F / RIGGING_CF377074 / TESTED_UC_9609998D / 2P5S_40HZ_101_ENDPOINT_SAMPLES / 101_EXACT_SEEKS_PLUS_NATURAL_PLAYBACK / NO_RUNTIME_CONTROLLER_GAMEPLAY_PHYSICS_DEVICE_ART_QA_TRANSFER / COORDINATION_ONLY**
 
-> Continuity note: the immediately preceding Object successor-002 Animation status is preserved exactly in Git as blob `9b1f089169c9cb226ff0c03d3f21a5c5f7ae3e10`. Its Object PR #10 result at `a00c285c67457a8ca15e53f0dde784d7ae439795`, and all earlier Character, Animal, Nature, Object, Map and Wreckline Animation evidence, remain exact historical truth. This activation adds one fresh bounded Nature time-domain diagnostic; it does not rewrite or broaden those results.
+> Continuity note: the immediately preceding Nature Animation status is preserved exactly in Git as blob `5f3661089734005ca82498471a83182a28a41484`. Its Nature PR #15 result at `74354ff851538d4d8aba9332900ae40218415eaf`, and all earlier Character, Animal, Nature, Object, Map and Wreckline Animation evidence, remain exact historical truth. This activation adds one fresh bounded Object receiver-consumption proof; it does not rewrite or broaden those results.
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, the preceding Animation status, and fresh Rigging, Technical Art, VFX, Runtime, Environment, Art Direction and Visual Observer / QA state before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, the preceding Animation status, and fresh Rigging, Technical Art, VFX, Runtime, Art Direction and Visual Observer / QA state before selecting work.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives in `mike-axiom-mir/axm-nature-design`. Universal Creation product code was not changed.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives in `mike-axiom-mir/axm-object-design`. Universal Creation product code was not changed.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-Existing Animation lanes were already mature or waiting on other owners:
+Existing Animation lanes were already active or bounded:
 
-- Object PR #10 owns equipment-case mechanical motion and successor rebinding;
-- Animal PR #5 owns the quadruped pulse and Godot interpolation equivalence;
-- Map / compact-east PR #44 owns current-world discrete playback characterization;
-- Wreckline Animation PR #4 owns its bounded module motion;
-- no fresh Character, Runtime, VFX, Technical-Art or Art/QA finding justified reopening those lanes.
+- Object PR #10 owns the equipment-case mechanical sequence and successor rebinding, so the current work extended that lane rather than opening a duplicate;
+- Animal PR #5 already owns quadruped pulse / Godot quaternion interpolation equivalence;
+- Map / compact-east owns current-world discrete playback characterization;
+- Nature PR #15 already owns the east-rear diagnostic socket pulse; current Nature Rigging has since advanced its receiver identity, while VFX still explicitly does not adopt that diagnostic as wind motion;
+- Runtime's fresh work is outside Animation ownership and does not grant controller or gameplay authority;
+- current Art Direction / Visual Observer work does not identify a stronger Animation-owned defect on this Object sequence.
 
-The fresh owner-ready seam was Nature Rigging PR #14 at exact head `87ce8b2ff10937abec4432e1c6d5a7114a076cdb`. Rigging had proved the east-rear `north-top` branch-root socket as a rigid-child articulation over **`-5°..+5°`**, but explicitly left Animation timing, loop/playback and motion quality unclaimed.
+The highest-leverage fresh seam was Technical Art Object PR #16 at exact head `f430d00d98e694dcf8302fd4df3c64a074f6f30e`. TA had transported Hard Surface successor-002 through the current UC target host and retained an exact Godot-consumable receiver, but explicitly left **current Animation sequence playback over that exact successor representation** unproven.
 
-Exact consumed Rigging / Organic identity:
-
-- repository `mike-axiom-mir/axm-nature-design`;
-- Rigging PR #14 head `87ce8b2ff10937abec4432e1c6d5a7114a076cdb`;
-- Rigging result `PASS_NORTH_TOP_ROOT_SOCKET_RIGID_CHILD_ARTICULATION_DIAGNOSTIC_MINUS5_TO_PLUS5`;
-- Organic owner head `fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`;
-- source digest `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`;
-- generated-mesh lineage `d7fc5deaa1c12d1d8c7d7b6dc95bf1e8544ce26140ee2e4a7d2c67a2c4133e48`;
-- pivot `[0.01, 0.0, 3.16] m`;
-- child partition 52 vertices / 72 triangles;
-- fixed partition 338 vertices;
-- Rigging interval semantics `RIGGING_VERIFICATION_PROBE_ONLY_NOT_SOURCE_OR_BIOLOGICAL_ROM`.
-
-Geometry PR #9's migrated-winding lineage remains separate and was **not** silently adopted.
+This was a stronger bounded handoff than creating another motion candidate: it connects an already-owned frozen Animation sequence to the current TA successor receiver while preserving every source/rig identity and downstream authority boundary.
 
 ## Selected bounded improvement
 
-Repository: `mike-axiom-mir/axm-nature-design`
+Repository: `mike-axiom-mir/axm-object-design`
 
-New draft Animation PR: **#15 — `Animation: exercise east-rear root socket with bounded diagnostic pulse`**
+Existing draft Animation PR: **#10 — `Animation: prove bounded equipment-case lid open-hold-close clip`**
 
-Branch: `studio/animation-east-rear-root-socket-pulse-001`
+Branch: `studio/animation-object-lid-open-close-001`
 
-Base: exact Rigging branch/head `studio/rigging-east-rear-root-socket-001@87ce8b2ff10937abec4432e1c6d5a7114a076cdb`.
-
-Exact tested Animation head: **`74354ff851538d4d8aba9332900ae40218415eaf`**.
+Exact tested Animation head: **`ced81994e592b087bd3c89c7b4a9e26ca7f96368`**.
 
 Observed PR state after evidence completion: **open / draft / mergeable / unmerged**.
 
-Reusable contract:
+Reusable contract / observer surface:
 
-**`axm.nature-animation-root-socket-diagnostic-pulse/v0.1`**
+**`axm.object-animation-successor002-current-ta-motion/v0.1`**
 
-Clip:
+The method binds the existing exact Animation source sequence to TA's exact retained successor-002 receiver artifact, executes all 101 authored states through real Godot `AnimationPlayer`, then performs a separate natural playback observation. It fails closed on receiver/source/rig identity drift and deliberately wrong imported hinge parentage.
 
-**`north-top-root-socket-diagnostic-pulse-001`**
+## Exact consumed identity
 
-Truth label:
+Technical Art receiver:
 
-**`ANIMATION_DIAGNOSTIC_SOCKET_PULSE_NOT_WIND_NOT_BIOLOGICAL_ROM_NOT_CONTROLLER`**
+- TA PR #16 exact head: `f430d00d98e694dcf8302fd4df3c64a074f6f30e`;
+- retained TA artifact: `10531541834`;
+- TA artifact archive SHA-256: `5e1134d0ebdf786d04ae789a841493ce9cf684f16aedd7dbad597f2e02b3ad5e`;
+- TA result: `PASS_OBJECT_HINGE_SUCCESSOR002_CURRENT_UC_GODOT_TRIANGLE_TRANSPORT` plus scene-rebind result `PASS_OBJECT_HINGE_SUCCESSOR002_TA_SCENE_REBIND_TO_CURRENT_UC__HOLD_DEFAULT_RUNTIME_VISUAL`;
+- rebound GLB SHA-256: `f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`.
 
-## Motion definition and preserved ownership
+Pinned owner lineage:
 
-The bounded Animation candidate is deliberately diagnostic rather than aesthetic or physical:
+- Hard Surface successor-002 head: `a6d18b9fe729304dc4d95d962ed27527adce211f`;
+- Geometry head carried by TA: `96abb2830ddabca9ed270b42a9447534d007ce64`;
+- Rigging receiver head: `cf377074f70ce7f7e386f1378c51705b3db4d305`;
+- tested UC head: `9609998db6677391766e9ee7ff53a5b9b08a3cb9`.
 
-- duration **`1.0 s`**;
-- sampled review rate **`40 Hz`**;
-- **41 endpoint-inclusive samples / 40 visible repeat samples**;
-- curve `angle_deg = 5 * sin(2*pi*t)^3`;
-- exact semantic landmarks:
-  - `0.00 s -> 0°`;
-  - `0.25 s -> +5°`;
-  - `0.50 s -> 0°`;
-  - `0.75 s -> -5°`;
-  - `1.00 s -> 0°`;
-- duplicate endpoint retained only as a neutral seam witness.
+The historical source sequence remains pinned by digest `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`.
 
-The **1.0 s / 40 Hz** choice is an Animation diagnostic candidate only. It is not claimed as natural vegetation timing, wind cadence, source intent or production timing.
+## Motion definition preserved unchanged
 
-Animation does not widen or relabel Rigging's `-5..+5°` diagnostic interval. Organic source bytes, Rigging pivot, source-derived axis, child/fixed partitions and Rigging evidence bytes are pinned unchanged from exact parent head.
+This activation does **not** author a new clip. It reuses the existing Object sequence unchanged:
+
+- duration: **`2.5 s`**;
+- authored source sampling: **`40 Hz`**;
+- **101 endpoint-inclusive samples**;
+- lid peak: **`100°`** inside the Rigging-owned `0..110°` envelope;
+- same latch-release → lid-open/hold/close → latch-reengage ordering;
+- same keys, easing, amplitudes, source geometry, ownership partition and rig constraints;
+- no retiming or reauthoring to fit the target host.
+
+The Godot observation uses `NEAREST + DISCRETE` authored-sample playback for exact seek verification. The separate natural run is an observation of this proof host, not a claim that all 40 Hz source slots were displayed or delivered on a target device.
 
 ## Evidence method
 
-The exact-head workflow first pins Rigging ancestry and requires no changes to:
+Dedicated workflow:
 
-- `examples/east_rear_tree_neutral_001.json`;
-- `src/axm_nature_design/organic_form.py`;
-- `src/axm_nature_design/rear_tree_rigging.py`;
-- the exact Rigging contract.
+**`35307562980 — Object Animation successor002 current-TA motion` — SUCCESS**.
 
-It then compiles, runs the full Nature unit suite under Python 3.11 and 3.13, reruns the exact Rigging prerequisite and replays the same source-owned pivot/axis rigid-child transform through all 41 Animation sample times on the actual generated mesh.
+The workflow:
 
-The Animation evidence requires:
-
-- every sample remains inside Rigging's exact diagnostic bound;
-- all 338 fixed vertices remain exact;
-- the source-owned pivot remains exact;
-- child pairwise distances and rotation-axis projection remain invariant;
-- endpoint neutral closure;
-- the visible repeat wrap step equals the authored final adjacent step;
-- bidirectional angular antisymmetry;
-- a separate replay of Rigging's exact `-5/-2.5/0/+2.5/+5°` witnesses reproduces Rigging metrics within `1e-12`;
-- a deterministic five-pose SVG derived from the actual generated child vertices remains parseable.
-
-Fail-closed tests reject duration retiming, sample-rate retiming, amplitude widening, wind-motion promotion, biological/source-ROM promotion, Runtime-controller acceptance and gameplay acceptance.
+1. checks out exact Hard Surface, Rigging, lid-rig, latch-rig and latch-ownership donors;
+2. runs the inherited Object suite (**50 tests / PASS** under Python 3.11);
+3. rebuilds the unchanged 101-key source sequence and verifies its exact digest;
+4. rebuilds the existing successor-bound Animation input without changing timing, keys, easing or amplitude;
+5. downloads TA artifact `10531541834`, independently verifies its archived SHA-256 in CI, binds TA head / Hard Surface / Rigging / UC identity and the rebound GLB digest;
+6. runs pinned Godot **4.7.2 stable**;
+7. proves deliberately parenting body-owned `hinge_body_b1` beneath the moving lid fails closed;
+8. executes all 101 authored seeks on the exact imported receiver and records actual imported mesh world-vertex motion;
+9. runs a separate natural `AnimationPlayer.play()` pass to confirm the receiver traverses the open hold and returns to neutral;
+10. retains the exact binding, receiver, receipts, positive/negative logs and observer in a 12-file artifact.
 
 ## Exact-head result
 
-Dedicated workflow:
+Scoped result:
 
-**`35303605179 — Animation east rear root socket diagnostic pulse` — SUCCESS**.
+**`PASS_OBJECT_ANIMATION_SUCCESSOR002_CURRENT_TA_ANIMATIONPLAYER_MOTION`**.
 
-Both Python **3.11 and 3.13** jobs passed. The exact-head full Nature suite reported **46 tests / PASS**. The same exact head also received SUCCESS from the Nature organic baseline, Organic compact-east and Organic east-rear workflows.
+Sampled 101/101 authored-state evidence:
 
-Scoped Animation result:
+- maximum lid-angle seek disagreement: **`0.00000336505404163745°`**;
+- fixed body-knuckle maximum world-vertex drift: **`0.0 m`**;
+- moving lid-knuckle maximum world-vertex travel: **`0.0321742556989193 m`**;
+- endpoint world-vertex closure: **`0.0 m`**;
+- peak authored lid angle: **`100.0°`**;
+- AnimationPlayer track/key count: **1 track / 101 keys**;
+- interpolation/update mode: **`NEAREST / DISCRETE_AUTHORED_SAMPLES`**.
 
-**`PASS_NORTH_TOP_ROOT_SOCKET_DIAGNOSTIC_PULSE_SAMPLED_MOTION`**.
+Separate natural playback observation on the CI proof host:
 
-Measured evidence:
+- playback completed naturally: **yes**;
+- measured elapsed wall time: **`2.484452 s`**;
+- process observations: **362**;
+- observed peak lid angle: **`100.000000506024°`**;
+- body-knuckle maximum world-vertex drift: **`0.0 m`**;
+- lid-knuckle maximum world-vertex travel: **`0.0321742556989193 m`**;
+- final endpoint world-vertex closure: **`0.0 m`**.
 
-- maximum fixed vertex drift: **`0.0 m`**;
-- maximum pivot vertex drift: **`0.0 m`**;
-- maximum selected pairwise-distance drift: **`5.551115123125783e-16 m`**;
-- maximum selected axis-projection drift: **`6.245004513516506e-17 m`**;
-- maximum selected vertex displacement: **`0.08199084165462486 m`**;
-- maximum adjacent angular step: **`0.8892750610692999°`**;
-- maximum adjacent selected-vertex step: **`0.014586963922195387 m`**;
-- endpoint closure: **`0.0 m`**;
-- visible repeat-wrap step: **`0.0003139789127640059 m`**;
-- authored final adjacent step: **`0.0003139789127640059 m`**;
-- wrap-step residual: **`0.0 m`**;
-- maximum Rigging witness metric residual: **`0.0`**;
-- angular antisymmetry error: **`2.6645352591003757e-15°`**.
+The `2.484452 s` CI measurement is **not** relabelled as target-device timing, display scanout, exact 40 Hz source-slot delivery or production Runtime performance.
 
-This is sampled mathematical/source-mesh Animation evidence. It is **not** target-engine `AnimationPlayer` playback or wall-clock/display evidence.
+## Preserved failed predecessor
 
-## Preserved failed first run
+Workflow **`35307374742`** is retained as a failed first implementation attempt.
 
-Initial exact head `e8b15e4af1b46f32219465f81cb3a7ba1a23f179`, workflow **`35303559338`**, failed after reaching the full repository unit suite.
+It reached the exact current TA receiver and inherited tests, but the new observer attempted to prove moving lid-owned knuckles using each mesh's AABB center. Those centers lie on or near the hinge axis, so a rotating knuckle can have effectively stationary center while its vertices genuinely rotate. The run correctly failed with `CURRENT_TA_MOTION_MISMATCH lid-owned successor hinge did not receive sampled lid motion` rather than accepting a weak metric.
 
-Failure cause: the deterministic SVG review test counted the broad substring `t=` and therefore matched unrelated SVG attributes as well as the five intended pose labels. The test observed **12** occurrences instead of 5.
+Repair was confined to Animation observer/verifier plumbing: motion observation was changed from AABB-center displacement to maximum actual imported **world-vertex displacement**, matching Technical Art's own target observation style. Source motion, geometry, owner heads, rig constraints, 2.5 s timing, 40 Hz authored grid, 101 keys and downstream authority boundaries were unchanged.
 
-Repair: only the observer test assertion changed to count the exact pose-label suffix ` deg</text>`.
+The failed run's retained artifact remains preserved as ID `10532141762`, archive SHA-256 `df8f767a94235b9877f2d371f18de21d0f1764c2ac1abeb9eee718df603da9f3`.
 
-Source, Rigging identity, timing, curve, amplitude, transform, evidence tolerances and acceptance boundaries were **not** changed to obtain the green result.
+## Retained exact-head evidence
 
-## Retained evidence
+Final artifact ID: **`10532460766`**.
 
-Artifact ID: **`10530750853`**.
+Artifact name: `object-animation-successor002-current-ta-ced81994e592b087bd3c89c7b4a9e26ca7f96368`.
 
-Artifact name: `nature-east-rear-root-socket-animation-74354ff851538d4d8aba9332900ae40218415eaf`.
+Size: **`41,791 B`**.
 
-Size: **`10,698 B`**.
+GitHub archive SHA-256: **`0a341d3217a2be9cbb9fdf1fe223303df7d6673d879f096057fb3b79376f5dde`**.
 
-GitHub archive SHA-256: **`f29bceac83c1a7951ba407b79f443f055c0365de6f071ed1080c91a96a75bc80`**.
+Twelve files were retained, including the exact Animation observer, exact successor-bound input and structural receipt, rebuilt source sequence evidence, exact TA binding, exact TA head witness, TA scene/target receipts, rebound GLB, positive receipt and positive/negative Godot logs.
 
-Six files were retained: exact Animation head witness, exact Rigging parent witness, JSON evidence, bounded contract, Animation documentation and deterministic five-pose SVG.
-
-No independent local archive rehash is claimed in this activation.
+No separate local archive rehash is claimed in this activation; the final digest is the retained GitHub artifact digest. The TA input artifact itself was rehashed inside the successful workflow before consumption.
 
 ## Handoffs
 
-Animation PR #15 received exact evidence return comment **`5724767237`**.
+Animation PR #10 received exact evidence return comment **`5725217476`**.
 
-Rigging PR #14 received bounded Animation-consumption return comment **`5724768396`**. Rigging's diagnostic interval and authority remain unchanged; no biological/source ROM or downstream acceptance was inferred.
+Technical Art PR #16 received bounded Animation-consumption return comment **`5725218297`**.
 
-No VFX wind adoption, Technical-Art transport adoption or Runtime controller adoption was requested or implied by this pass.
+The TA handoff explicitly states that this closes Animation's current-receiver motion observation only. It does not grant TA/default production adoption, Runtime controller/state-machine/input acceptance, gameplay/physics authority or Art/QA acceptance.
 
 ## Truth boundary / explicit nonclaims
 
-This PASS proves only that **one deterministic sampled Animation diagnostic can exercise the exact Rigging PR #14 north-top socket bidirectionally across a 1.0 s / 40 Hz candidate, preserve the retained rigid/fixed invariants, close exactly to neutral, and repeat without a hidden larger seam step**.
+This PASS proves only that **the exact frozen Object Animation lid sequence can drive the exact retained Technical Art successor-002 receiver in Godot 4.7.2 across all 101 authored sample times, preserving the intended fixed-body / moving-lid hinge partition and exact neutral closure, and can also complete one natural proof-host playback**.
 
 It does **not** establish:
 
-- source or biological range of motion;
-- physical wind or plant biomechanics;
-- VFX response adoption;
-- target-engine `AnimationPlayer` playback or interpolation equivalence;
-- wall-clock 40 Hz source-slot/display delivery;
-- Runtime controller, state-machine or input behavior;
-- collision, clearance, physics or gameplay acceptance;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery behavior;
-- final timing, naturalness or motion style;
+- complete delivery/display of all 40 Hz source slots during natural wall-clock playback;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery performance;
+- Runtime controller, state-machine, input or interaction behavior;
+- collision, physics, latch force/retention or gameplay acceptance;
+- source-successor default or production adoption;
+- final timing, weight, style or naturalness;
 - Art Direction / independent Visual Observer QA acceptance;
 - CANON or production readiness.
 
-Animation retains only bounded timing/curve/sampled-motion evidence authority. Organic Form retains source/form/flex metadata, Geometry retains its separate topology lineage, Rigging retains articulation ownership, VFX retains wind/effect response, Technical Art retains target-host transport, Runtime retains controller/device/performance, and gameplay/physics/Art/QA retain their own acceptance authority.
-
-## Preserved Animation continuity
-
-The immediately preceding Object successor-002 result at `a00c285c...`, Object current-TA target-host result at `8415e2d8...`, Object hinge-parent result at `aaacdb05...`, Animal Godot quaternion interpolation equivalence at `eb21e0e0...`, Object/Map wall-clock successor replay at `343668b8...`, Map compact-east playback characterization, earlier Nature compact-east discrete/linear characterization, Character density/loop evidence and Wreckline motion work all remain separately scoped to their exact historical heads.
-
-No acceptance transfers across those lanes by analogy.
+Animation retains only bounded clip/playback evidence authority. Hard Surface retains successor geometry/interface authority, Geometry retains topology authority, Rigging retains articulation/ownership authority, Technical Art retains target-host transport and receiver authority, Runtime retains controller/device/performance authority, and gameplay/physics/Art/QA retain their own acceptance authority.
 
 ## Four-root gate
 
-- **Truth:** exact Rigging/source identity is pinned; the diagnostic interval is not relabelled as biological ROM or wind; the failed first run remains visible.
-- **Agency / non-domination:** Animation adds one bounded candidate without taking Organic, Rigging, VFX, Technical Art, Runtime, gameplay/physics or Art/QA authority.
-- **Continuity:** prior Animation state is preserved by exact Git blob and the new lane stacks directly on the owner-ready Rigging head instead of silently replacing source truth.
-- **Wisdom before speed:** the studio chose a fresh non-duplicate seam, added fail-closed semantic guards and stopped at sampled evidence rather than cascading a diagnostic candidate into Runtime or production receivers.
+- **Truth:** exact owner heads, TA artifact digest, rebound GLB digest, frozen sequence digest, failed first observer and final measured residuals remain explicit; proof-host wall time is not inflated into device/display evidence.
+- **Agency / non-domination:** Animation consumes the exact TA receiver without taking Hard Surface, Geometry, Rigging, TA, Runtime, gameplay/physics or Art/QA authority.
+- **Continuity:** the prior Nature status is preserved by exact Git blob; existing Object PR #10 is extended rather than replaced by a duplicate lane; the historical sequence is reused byte/identity-bound instead of silently rewritten.
+- **Wisdom before speed:** the first weak AABB-center observation was allowed to fail, then repaired to real vertex-motion evidence without loosening source truth or cascading acceptance downstream.
 
 The four AXM roots remain the merge gate.
 
 ## Next Animation trigger
 
-Do not promote this diagnostic to wind or production motion from this result. Reopen the Nature lane only when VFX/Art Direction supplies a concrete motion intent to test, Technical Art provides a target-host receiver for this exact east-rear socket, Rigging/Organic materially changes the socket/source identity, or Visual QA reports a concrete Animation-owned temporal defect. Runtime controller/state-machine, gameplay, physics and device acceptance remain downstream and separate.
+Do not promote this result to Runtime/controller/gameplay or source-successor default adoption. Reopen this Object receiver seam only if Technical Art materially changes the exact successor receiver, Hard Surface/Rigging materially changes source/ownership identity, or Art/Visual QA reports a concrete Animation-owned temporal defect. Nature's newer Rigging receiver remains a separate possible future Animation rebind only when that seam outranks other fresh owner-ready work and does not duplicate VFX/Art authority.
