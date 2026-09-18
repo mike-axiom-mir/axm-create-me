@@ -2,7 +2,7 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_OWNER_RELATION_BRANCH_SUBSET_FAMILY / NATURE_PR4_HEAD_98109FFC / ORGANIC_PR8_HEAD_925715D2_EXACT / PARTITION_FAMILY_AB688F52_PRESERVED / THREE_MATERIALLY_DIFFERENT_OUTPUTS / 10_FAILURE_CONTROLS_REJECTED / 106_TESTS_OK / RUN_35331432360_GREEN_PY311+PY313 / ALL_14_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10541725069_SHA_12A56805_INDEPENDENT_REHASH_MATCH / NO_SOURCE_RIGGING_WEIGHT_MOTION_OR_DOWNSTREAM_ADOPTION / COORDINATION_ONLY**
+State: **PASS_NATURE_BRANCH_TRANSITION_PARAMETER_FAMILY / NATURE_PR4_HEAD_B3283E25 / ORGANIC_PR8_TRANSITION_OWNER_4B5C291D_EXACT / FIVE_MATERIALLY_DIFFERENT_WINDOWS / FAMILY_D742E72E / 11_FAILURE_CONTROLS_REJECTED / 115_TESTS_OK / RUN_35336533548_GREEN_PY311+PY313 / ALL_15_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10543163598_SHA_E1F3370D / NO_JUNCTION_RIGGING_WEIGHT_OR_DOWNSTREAM_ADOPTION / COORDINATION_ONLY**
 
 ## Current activation
 
@@ -14,149 +14,165 @@ The four AXM roots remain the merge gate: **Truth; Agency / non-domination; Cont
 
 Immediate predecessor status blob:
 
-`62291e78d1a7102d98eea294aafeac4d85de194b`
+`fb0c0b863e9414d4fb6d399e0d5d58c7e577e2e3`
 
-That predecessor remains rollback-addressable and preserves the prior Object successor003 owner-partition rebind at Object Procedural head `a641240d1b17748e858c3f45962b3647ca1a4d8e`.
+That predecessor remains rollback-addressable and preserves the Nature owner-relation subset family at Procedural head `98109ffcab764a586a03bdc8c13b65e7378c0b3a`, digest `a6389edcafe69456f69b55c4f717177740708251460253cff29784d88311e7d4`.
 
 ## Full constellation / duplicate-lane scan
 
 All eleven campaign design repositories were inspected: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc. Current specialist statuses `01..14` were also checked.
 
-The strongest fresh justified Procedural trigger was in Nature, not another Object phase variant or a new lane invented by cadence. Object Hard Surface has now retained successor003 as a structurally valid but visually rejected experiment and explicitly handed the next hinge-highlight investigation to Technical Art, so Procedural did not open another phase generator or optimizer there.
+No stronger unowned trigger justified a new lane. Object successor003 remains structurally valid but visually rejected and already belongs to Technical Art for the next hinge-highlight investigation. Current Nature Geometry/Rigging/Animation/VFX/Runtime lanes already own their topology, kinematic, temporal, response and receiving questions. Procedural did not duplicate any of those responsibilities.
 
-Nature Organic PR #8 instead advanced an exact source-space interaction classification over the same five primary east-rear-tree branch roots already covered by the existing Procedural branch-child partition family. The owner report now contains ten exact trunk-flex/branch pairs and distinguishes three useful relation classes without assigning Rigging policy: one branch whose neutral attachment cross-section intersects a trunk flex zone, one branch with declared flex-envelope overlap while the neutral attachment cross-section remains disjoint, and the remaining branches whose neutral attachment cross-sections are disjoint.
+The strongest fresh repeat was instead in Nature Organic PR #8: the exact owner now measures the same bounded neutral-support relation on all five primary east/rear-tree branch roots. Each branch starts at `u=0` with full-radius neutral support inside the authored trunk radial envelope and exits that envelope somewhere inside its first tapered segment. Re-copying those five source-derived intervals manually into future Geometry / Geometry-Nodes or other explicit consumer experiments would duplicate numbers and invite provenance drift.
 
-Multiple downstream lanes can need those same exact branch-child regions regrouped by the owner-authored relation truth. The smallest justified Procedural abstraction is therefore a deterministic relation-to-existing-partition subset family. It does not recompute Organic geometry classification and does not infer or assign Rigging weights.
+The smallest justified abstraction is therefore a deterministic parameter family over the owner report, not a topology generator, optimizer, weight system or deformation solver.
 
 No duplicate Nature Procedural PR was created. Existing Nature Procedural PR #4 remains the single lane.
 
-## Exact owner and predecessor provenance
+## Exact owner provenance
 
-Current Organic interaction owner:
+Organic transition owner:
 
 - repository: `mike-axiom-mir/axm-nature-design`;
 - PR: `#8`;
-- exact head: `925715d2f0491e2bcbc493b93dc6d14ab3dcb2a6`;
-- classifier: `src/axm_nature_design/rear_tree_flex_interaction_classification.py`;
-- classifier Git blob: `be31e22283d43dcb4e6e8bda870760fa67ab1628`;
-- owner report schema: `axm.nature-trunk-branch-flex-interaction-classification/v0.2`;
-- exact owner state: `PASS_EXACT_TRUNK_BRANCH_FLEX_INTERACTION_CLASSES__DEFORMATION_UNTESTED`;
-- exact pair count: `10` = two trunk flex zones × five branch roots.
+- exact owner head: `4b5c291d6b044dafeadd6eeaf4849a6f3d4f4148`;
+- observer: `src/axm_nature_design/rear_tree_root_transition_readiness.py`;
+- observer Git blob: `1e8323b9bf6495a9f19704c217808300f3b46757`;
+- report schema: `axm.nature-neutral-branch-transition-envelope/v0.1`;
+- report state: `PASS_EXACT_NEUTRAL_BRANCH_TRANSITION_ENVELOPES__CONNECTED_TOPOLOGY_HELD`.
 
-The unchanged Organic source form consumed by the historical partition family remains pinned separately at exact source owner head:
+Unchanged Organic source identity:
 
-`fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`
-
-Exact source identity:
-
+- source owner head: `fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`;
 - path: `examples/east_rear_tree_neutral_001.json`;
 - Git blob: `fb12b759e1abfd0455bf46fd39a0eba27095796b`;
-- canonical source digest: `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`.
+- canonical digest: `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`.
 
-The already-existing Procedural branch-child partition family is preserved unchanged with exact digest:
+Organic still explicitly holds connected topology for Geometry and does not select weld/boolean/remesh strategy, alter source geometry, infer Rigging hierarchy/weights, simulate deformation, claim biological attachment or claim Runtime readiness.
 
-`ab688f5281dc4e79770e133b49e7af3a533092acc1e0a0945bfa86e647e7b122`
-
-That predecessor still provides the five exact deterministic branch selections `south-low / north-low / east-mid / west-high / north-top`, each at `52` selected vertices / `72` selected triangles / `338` fixed vertices.
-
-## Selected bounded family — owner-relation branch subsets
+## Selected bounded family — branch transition parameter windows
 
 New schema:
 
-`axm.nature-branch-child-owner-relation-subset-family/v0.1`
+`axm.nature-branch-transition-parameter-family/v0.1`
 
 Relation boundary:
 
-`DERIVED_OWNER_RELATION_SELECTION_ONLY_NOT_SOURCE_RIGGING_ANIMATION_VFX_OR_RUNTIME_AUTHORITY`
+`DERIVED_OWNER_TRANSITION_PARAMETER_WINDOWS_ONLY_NOT_JUNCTION_RIGGING_WEIGHT_OR_DOWNSTREAM_AUTHORITY`
 
-The family consumes the exact current Organic owner report and composes only over the already-proven Procedural branch-child partitions. It reuses the existing subset composer rather than duplicating union logic.
+For each owner branch, Procedural retains only:
 
-Three materially different retained outputs:
+- start parameter `u=0`;
+- exact Organic-owned neutral-support exit `u`;
+- exact owner-measured physical transition length;
+- neutral start / midpoint / end sample anchors;
+- owner root/end radius and exact flex-zone identity/status as provenance context;
+- explicit false authority flags for source mutation, junction choice, connected-topology claims, Rigging, production weights and downstream adoption.
 
-1. `neutral-attachment-intersecting` → `east-mid` only → `52` vertices / `72` triangles / `338` fixed vertices.
-2. `declared-overlap-neutral-disjoint` → `north-low` only → `52` vertices / `72` triangles / `338` fixed vertices.
-3. `neutral-attachment-disjoint` → `south-low + north-low + west-high + north-top` → `208` vertices / `288` triangles / `182` fixed vertices.
+Five materially different exact owner-backed outputs:
 
-The first two outputs deliberately have equal counts but different exact selection identities and different exact vertex-index identities; they are therefore materially different source-derived selections rather than count aliases. Across all three outputs there are `3/3` distinct selection digests and `3/3` distinct vertex-index digests.
+1. `south-low` — `u_max=0.13755075785472692`, length `0.060865238939307745 m`.
+2. `north-low` — `u_max=0.14801958337760968`, length `0.0645372173379806 m`.
+3. `east-mid` — `u_max=0.04877293495372903`, length `0.02162022293261876 m`.
+4. `west-high` — `u_max=0.08456756400847554`, length `0.036156960642309076 m`.
+5. `north-top` — `u_max=0.051317800063048286`, length `0.021221011737572286 m`.
 
-Reversing both Organic report row order and Procedural output declaration order reproduces the same canonical family identity.
+All `5/5` parameter digests, `5/5` physical lengths and `5/5` normalized windows are distinct. Reversing both owner row order and declaration order reproduces the same canonical family identity.
 
-Canonical owner-relation subset-family digest:
+Canonical family digest:
 
-`a6389edcafe69456f69b55c4f717177740708251460253cff29784d88311e7d4`
+`d742e72e2a5f8be868465d91c286ca8fd6509789936c14a595b4cc18a57fb096`
 
 ## Failure bounds
 
-Ten retained controls fail closed:
+Eleven retained controls fail closed:
 
-1. Organic interaction-owner head drift;
-2. Organic classifier Git-blob drift;
+1. Organic owner-head drift;
+2. Organic observer Git-blob drift;
 3. Organic source Git-blob drift;
-4. Organic owner-report state drift;
-5. owner pair-count drift;
-6. owner relation-selection drift;
-7. predecessor Procedural partition-family digest drift;
-8. attempted production-weight authority promotion;
-9. attempted automatic Rigging adoption;
-10. attempted owner truth-boundary widening into inferred hierarchy/weighting.
+4. owner report state drift;
+5. branch-count / branch-set drift;
+6. owner transition-length drift;
+7. owner normalized-fraction drift;
+8. connected-topology truth promotion;
+9. junction-strategy promotion;
+10. automatic Rigging adoption;
+11. production-weight authority promotion.
 
-No fallback classification, nearest relation, silent source mutation, hidden weight inference, automatic downstream adoption or authority widening is permitted.
+The family also requires at least three materially different outputs and rejects non-finite/out-of-first-segment transition windows.
 
-## Exact implementation / verification
+## Verification and repaired evidence precision defect
 
-Nature Procedural PR #4 remains the single existing Nature Procedural lane:
+Initial implementation commit:
+
+`123a587be494983ce5f55a72ca3a03f4718d287e`
+
+Initial workflow `35336260131` was **not accepted as a PASS**. Both compile and the complete receiving suite were green, including **115 tests / OK**, but the Python 3.11 evidence step rejected `east-mid` because the evidence script compared a serialized owner float with a status-derived decimal using raw equality.
+
+That was a verification precision defect, not a family semantic failure: the family validator already used the exact bounded owner-drift tolerance `1e-12`. The failed run remains preserved in workflow history.
+
+Repair commit:
+
+`b3283e255bfffb2979889fd542a93e35be2a4b03`
+
+The repair changed only the evidence/truth-gate float comparison to the same `1e-12` tolerance. It did **not** change owner data, parameter-family semantics, authority boundaries or retained outputs.
+
+Final dedicated workflow:
+
+**`35336533548 — Procedural Nature branch transition parameter family` — SUCCESS**
+
+- Python `3.11` — SUCCESS; exact Procedural head checkout PASS; exact Organic owner checkout PASS; compile PASS; complete receiving suite **115 tests / OK**; exact owner report rebuild PASS; five-output family evidence PASS; all 11 negative controls PASS; exact-head truth gate PASS; artifact upload PASS.
+- Python `3.13` — SUCCESS; compile and complete receiving suite PASS.
+
+Exact-head workflow poll found **15/15 observed PR-triggered workflow families completed SUCCESS** on `b3283e255bfffb2979889fd542a93e35be2a4b03`.
+
+Nature Procedural PR #4 remains:
 
 - branch: `studio/procedural-sapling-family-001`;
-- exact current head: `98109ffcab764a586a03bdc8c13b65e7378c0b3a`;
-- PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
-
-Dedicated workflow:
-
-**`35331432360 — Procedural Nature owner relation subset family` — SUCCESS**
-
-- Python `3.11` — SUCCESS; exact Procedural head checkout PASS; exact historical Organic source-owner checkout PASS; exact current Organic interaction-owner checkout PASS; compile PASS; complete Nature receiving repository suite **106 tests / OK**; exact predecessor branch-partition evidence rebuild PASS; exact current Organic interaction classification PASS; three-output family evidence PASS; 10 failure controls PASS; exact-head truth gate PASS; artifact upload PASS;
-- Python `3.13` — SUCCESS; compile and complete Nature receiving repository suite PASS.
-
-Exact-head workflow poll found **14/14 observed PR-triggered workflow families completed SUCCESS** on `98109ffcab764a586a03bdc8c13b65e7378c0b3a`.
+- exact head: `b3283e255bfffb2979889fd542a93e35be2a4b03`;
+- state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
 Retained artifact:
 
-- ID: `10541725069`;
-- name: `nature-rear-tree-owner-relation-subset-family-001-98109ffcab764a586a03bdc8c13b65e7378c0b3a`;
-- size: `13,266 B`;
-- GitHub SHA-256: `12a5680593cbb6f2f5d9bb402da80b71b7c9975fdccdf77d2d8ef75dbb8ec04b`.
+- ID: `10543163598`;
+- name: `nature-rear-tree-branch-transition-parameter-family-001-b3283e255bfffb2979889fd542a93e35be2a4b03`;
+- size: `7,884 B`;
+- GitHub SHA-256: `e1f3370d174b125b77788e678975671f3c59bb22b1bf3b585f247c9ad9e15a13`.
 
-The archive was downloaded in this activation and independently rehashed; the local SHA-256 reproduced the exact GitHub digest. It retains `contract.json`, `family.json`, `owner_report.json`, `partition_family.json` and `summary.json`.
+No independent local artifact rehash is claimed in this activation.
 
 Decision:
 
-`PASS_DERIVED_OWNER_RELATION_SUBSETS_ONLY__NO_SOURCE_RIGGING_WEIGHT_MOTION_OR_DOWNSTREAM_ADOPTION`
+`PASS_DERIVED_OWNER_TRANSITION_PARAMETER_WINDOWS__NO_JUNCTION_RIGGING_WEIGHT_OR_DOWNSTREAM_ADOPTION`
+
+Evidence/provenance notes were returned to Procedural PR #4 and Organic PR #8 without transferring authority.
 
 ## Ownership / explicit non-claims
 
-Procedural owns only deterministic reuse/composition of exact already-proven branch-child partitions under exact owner-authored relation classes.
+Procedural owns only deterministic canonicalization of the exact Organic-authored transition intervals into reusable parameter windows.
 
-- Organic Form retains source geometry, flex-zone declarations, source-space interaction classification and biological/form meaning.
-- Geometry retains topology and receiver migration authority.
-- Rigging retains hierarchy, joints, deformation, weighting, production weight selection and motion constraints. An Organic diagnostic relation is not a Procedural production-weight policy.
+- Organic Form retains source geometry, radii/centerlines, transition measurements, flex declarations and form meaning.
+- Geometry retains connected topology and junction-strategy choice.
+- Rigging retains hierarchy, joints, skinning, production weights, deformation and motion constraints.
 - Animation retains timing and sampled motion.
-- VFX retains wind/response semantics.
+- VFX retains response/wind semantics.
 - Technical Art retains target-host transport and representation.
 - Runtime retains update/device/performance behavior.
 - Environment/Map retain world placement and receiving-state authority.
 - Art Direction and independent Visual QA retain perceptual acceptance.
 
-This PASS does **not** recompute Organic classification, infer a rig hierarchy, promote any diagnostic zero to production weight, prove deformation or physical wind, authorize target-host/world adoption, establish UC/PF promotion, CANON, production readiness, Nature mastery or Procedural mastery.
+This PASS does **not** generate or choose a weld/bridge/boolean/remesh/shared-ring junction, prove indexed trunk/branch connectivity, mutate source geometry, assign hierarchy or weights, simulate deformation, prove biological attachment, authorize downstream adoption, establish UC/PF promotion, CANON, production readiness, Nature mastery or Procedural mastery.
 
 ## Four-root gate
 
-- **Truth:** exact owner/source/predecessor identities, three materially distinct outputs, complete test results, failure controls and independently rehashed artifact are retained and falsifiable.
-- **Agency / non-domination:** Organic and downstream specialist authorities remain separate; no weight, motion or adoption is forced.
-- **Continuity:** the predecessor partition family and immediate predecessor Procedural status remain rollback-addressable and unchanged.
-- **Wisdom before speed:** the existing partition/subset machinery was reused to encode one real repeated relation-selection need rather than opening a duplicate lane or inventing a larger generic rig-policy system.
+- **Truth:** exact owner/source identities, five materially different outputs, one preserved failed verification run, the narrow repair, full tests, failure controls and retained artifact digest remain falsifiable.
+- **Agency / non-domination:** no owner or downstream specialist is forced to adopt the family; every authority boundary remains explicit.
+- **Continuity:** the predecessor status/family remains rollback-addressable, the first failed run is preserved rather than rewritten, and the final repair changes only evidence precision handling.
+- **Wisdom before speed:** one small source-derived parameter family was added instead of opening another lane or expanding into topology, rigging or optimization before an owner explicitly needs it.
 
 The four AXM roots remain the merge gate.
 
 ## Next trigger
 
-Do not extend by cadence. Re-scan the full constellation first. Return only if an owner source/classification changes, another materially independent repeated relation-selection case appears, an existing Procedural family needs a truthful rebind/repair, or another design repository exposes a stronger genuinely repeated unowned construction pattern.
+Do not extend by cadence. Re-scan the full constellation first. Return only if an owner measurement/source changes, an explicit consumer needs a truthful rebind, another materially independent repeated parameterization appears, or another design repository exposes a stronger genuinely repeated unowned construction pattern.
