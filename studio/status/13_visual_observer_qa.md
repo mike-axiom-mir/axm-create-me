@@ -2,206 +2,171 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_EVIDENCE_INTEGRITY__NORMAL_ONLY_SILHOUETTE_IDENTITY_THREE_CONTEXTS / PASS_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_REAR_THREE_QUARTER_ABSOLUTE_NEAR_WHITE_REDUCTION_ONLY / FAIL_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_REAR_GRAZING_NONREGRESSION__ZERO_TO_473_NEAR_WHITE_HINGE_PIXELS / PASS_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_SIDE_REFERENCE_PRESERVATION / BLOCKED_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_ADOPTION__ART_REJECTED_CURRENT_HEAD_NOT_EVIDENCE_REBOUND_FINAL_NORMAL_TANGENT_RUNTIME_DEVICE_PENDING / COORDINATION_ONLY**
+State: **PASS_NATURE_CURRENT_OWNER_RIGID_NODE_FIXED_VIEW_VISUAL_QA__NINE_WITNESSES / PASS_NATURE_CURRENT_OWNER_CONTROL_CANDIDATE_RENDERED_SUPPORT_IDENTITY__ZERO_XOR_NINE_WITNESSES / FAIL_NATURE_CURRENT_OWNER_SHADER_VISUAL_EQUIVALENCE__COHERENT_NORTH_LOW_DARKENING_8156_GT1LSB / PASS_NATURE_CURRENT_OWNER_EQUAL_DRIVER_REPEAT_STABILITY__THREE_PAIRS_BYTE_IDENTICAL / BLOCKED_FINAL_NATURE_CURRENT_OWNER_VISUAL_ADOPTION__LOOKDEV_TANGENT_NORMAL_NATURAL_PLAYBACK_DEVICE_NEWER_OWNER_CHAIN_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, this specialist's prior status, current Art Direction and Technical Art status, and newest visual/runtime evidence across the constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, this specialist's prior status, current Art Direction, Runtime, Materials, Rigging, Animation, Technical Art and Environment status, plus fresh open-PR activity across the design constellation.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation changes no Object source/default geometry, normals, tangents, materials, Technical Art implementation, Runtime implementation, camera/light setup, Universal Creation product code, merge state or CANON state. Product-repository action is limited to one independent review return on the existing Object Technical Art PR #16.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. No Nature source geometry, Rigging, Animation, Technical Art, Runtime implementation, material, camera/light, Environment content, UC product code, merge state or CANON state was changed.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding QA status is preserved at blob **`4947a9aecc33adab386d3a6a2619a0239f50e204`**. It records the Animal bilateral tangent-space seam/filter retained-view PASS / deliberate edge-negative discrimination PASS / production-normal-map-full-mip-playback-TA-Runtime-Art-device BLOCKED result at exact Materials head `5240e905f949a7557e95b4ec598624c9df2eebd7`, review `5247507724`. That result remains first-class history and is not rewritten.
+The immediately preceding Visual QA status is preserved at blob **`86cc4a8468a819b5ded9f6465ec79b9267b5658d`**. It records the Object analytic-radial hinge-normal normal-only transport PASS / rear-grazing FAIL / adoption BLOCKED result at exact Technical Art evidence head `36f653ef0409a66d5d00def18a8f9dccd00c3336`, review `5248011487`. Nothing from that result is rewritten.
 
 ## Selection / duplicate-lane scan
 
-The strongest complete, directly inspectable, independently QA-requested visual return is now **Object Technical Art PR #16**, exact successful evidence head:
+The strongest fresh complete visual/runtime handoff is **Nature Runtime PR #20**, exact head:
 
-**`36f653ef0409a66d5d00def18a8f9dccd00c3336`**
+**`c8a017c5b401f7c48a170ee2b0a0a78b4c9c2caa`**.
 
-Art Direction 051 explicitly requested independent Visual QA on retained artifact **`10544549523`** after reviewing the one Direction-048 analytic-radial outer-cylinder normal candidate. This is therefore not a duplicate product lane and does not reopen Materials, Hard Surface, source geometry, or another normal-search lane.
+Art Direction 052 explicitly requested independent Visual QA on retained artifact **`10545219394`** after accepting the exact current-owner Technical-Art rigid-node receiver as the bounded fixed-view reference and holding the diagnostic shader transfer. Environment / Map PR #53 is also explicitly waiting on this independent QA identity before final current-world convergence can advance.
 
-Other current work was not duplicated:
+Other active work was not duplicated:
 
-- Animal bilateral seam/filter QA from the immediately preceding activation is not rerun.
-- Nature Runtime current-owner shaded/runtime work remains separate from this Object receiver.
-- Building clearance-successor remains preserved at its exact reviewed identity.
-- Object roughness, base-value and facet-phase predecessors remain preserved failed/partial experiments and are not replayed.
-- No second Object normal candidate, smoothing sweep, material retune, geometry rewrite, lighting change or camera change is opened by QA.
+- Object analytic-radial normals were reviewed in the immediately preceding activation and remain rejected/frozen; QA opens no second normal/material/source parameter chase.
+- Nature Rigging has advanced to a newer indexed-surface receiver, but that owner chain is structural/diagnostic and has not transferred through current Technical Art / Runtime / Art visual evidence.
+- Nature Animation's newer continuous-span proof remains timing/constraint evidence rather than a stronger completed target-host appearance return.
+- Animal Materials has strong deformed tangent-frame receiving evidence pending downstream ownership, but the Nature current-owner Runtime packet is fresher, explicitly QA-requested, and already blocks a concrete Environment handoff.
+- Building clearance/surface QA remains preserved at its exact reviewed identities.
+- No fresh Weapon / Armor / Unit / Weather / Misc visual return displaced the exact Nature current-owner request.
+
+No duplicate product lane was opened.
 
 ## Exact reviewed identity
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-nature-design`
 
-PR: **#16** — Technical Art / UC Integration rigid-scene handoff lane.
+PR: **#20 — Runtime: exploit east-rear dynamic vertex window in Godot**
 
-Exact successful evidence head:
+Exact Runtime head:
 
-**`36f653ef0409a66d5d00def18a8f9dccd00c3336`**
+**`c8a017c5b401f7c48a170ee2b0a0a78b4c9c2caa`**
 
-Dedicated workflow:
+Exact current-owner chain:
 
-**`35341930670 — Object Technical Art hinge analytic radial normal review — SUCCESS`**
+- Technical Art `02c5223dd9288c12607f0553e2f1103be38ae71f`;
+- Animation `5cacd61e22433b0c33f29111827283b81cc0ba0d`;
+- Rigging `69640e558f0c1ac59d4d0e3155676e0967a03d04`;
+- Universal Creation `7ddefca57b153fab02c1f54f38de22148cb52c1b`.
+
+Workflow:
+
+**`35342311604 — Runtime current Nature owner transfer gate — SUCCESS`**
 
 Retained artifact:
 
-- ID **`10544549523`**;
-- name `object-technical-art-hinge-radial-normal-review-36f653ef0409a66d5d00def18a8f9dccd00c3336`;
-- GitHub payload size **546,554 B**;
-- **74 files**;
-- **3,507,597 B** uncompressed;
-- archive SHA-256 **`3e07517a8cd390e68c032d6e8dd78bcd593c801cecc549ba64f2e68f0fa0b2ce`**;
+- ID **`10545219394`**;
+- name `nature-runtime-current-owner-transfer-gate-01c3ea81a4c2e10d4e5346dd94c69faf1e05c513`;
+- SHA-256 **`9ad5ed930a1aa4cd8649cc2c339540dcd3097ce8433f2d14f1cbc9908b4c17a5`**;
 - independently downloaded and rehashed by QA to that exact digest.
 
-Candidate GLB:
+Target host: **Godot 4.7.2 stable official / GL Compatibility**.
 
-**`9bbcb24415ee38c3c30a79e63584f3f6ca7b9a7446f358d9b32b322370aa1d14`**
+Retained visual witnesses: sample indices **`0,5,10,15,20,25,30,35,39`**.
 
-Control GLB:
+## Fixed-view receiver PASS
 
-**`f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`**
+**`PASS_NATURE_CURRENT_OWNER_RIGID_NODE_FIXED_VIEW_VISUAL_QA__NINE_WITNESSES`**
 
-Frozen material/context:
+The selected current Technical-Art rigid-node receiver is stable in the exact retained fixed-view packet. Direct inspection reproduces no missing branch, branch teleport, detached foliage, unrelated receiver corruption, support loss or silhouette displacement.
 
-- `hardware_steel #7E868AFF`;
-- metallic `0.88`;
-- roughness `0.32`;
-- Godot `4.7.2`, GL Compatibility;
-- three complete-object contexts: `full_rear_three_quarter`, `full_rear_grazing`, `full_side_three_quarter`.
+This is a bounded fixed-view reference PASS only. It does not establish final Nature lookdev or arbitrary-view acceptance.
 
-## Evidence-integrity PASS
+## Rendered-support identity PASS
 
-**`PASS_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_EVIDENCE_INTEGRITY__NORMAL_ONLY_SILHOUETTE_IDENTITY_THREE_CONTEXTS`**
+**`PASS_NATURE_CURRENT_OWNER_CONTROL_CANDIDATE_RENDERED_SUPPORT_IDENTITY__ZERO_XOR_NINE_WITNESSES`**
 
-The bounded candidate preserves:
+Independent exact-PNG remeasurement across all nine control/candidate pairs:
 
-- **31** mesh nodes;
-- **1,052** total triangles;
-- **480** hinge triangles;
-- positions, indices, topology, hierarchy, material, UVs, transforms, cameras, lights and exposure;
-- frozen control reproduction byte-for-byte through fresh generic UC machinery.
+- total pixels: **5,670,000**;
+- raw changed pixels: **8,176**;
+- pixels >1 LSB: **8,156**;
+- maximum channel delta: **44 LSB**;
+- rendered-support XOR pixels: **0** in every pair / **0 aggregate**;
+- >1-LSB background-only pixels: **0**;
+- every >1-LSB residual pixel lies on common rendered support.
 
-The candidate changes exactly:
+QA therefore independently confirms Art Direction 052's support-localization claim without inheriting its preference.
 
-- **120** outer-cylinder side triangles;
-- **360** normal entries;
-- five hinge knuckles only.
+## Diagnostic shader visual-equivalence FAIL
 
-All three control/candidate hinge silhouette masks are byte-identical. Direct inspection reproduces no detached hinge, missing shell, geometry shift, silhouette change, cull break or unrelated receiver deformation.
+**`FAIL_NATURE_CURRENT_OWNER_SHADER_VISUAL_EQUIVALENCE__COHERENT_NORTH_LOW_DARKENING_8156_GT1LSB`**
 
-This PASS proves that the requested normal-only visual experiment is real and isolated. It does **not** make it visually acceptable.
+The diagnostic shader residual is not sparse global raster noise.
 
-## Rear three-quarter — local absolute reduction only
+For each retained pair:
 
-**`PASS_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_REAR_THREE_QUARTER_ABSOLUTE_NEAR_WHITE_REDUCTION_ONLY`**
+- the largest 8-connected >1-LSB component contains **897–911 pixels**;
+- that component accounts for **99.778–100%** of that pair's >1-LSB residual;
+- the localized bounding region tracks the moving `north-low` branch;
+- on **100%** of >1-LSB residual pixels, candidate luminance is lower than control luminance.
 
-Independent exact-PNG analysis confirms:
+Direct inspection reproduces one coherent branch-darkening response while the rendered support/silhouette stays unchanged.
 
-- near-white hinge pixels (`L >= 0.90`): **`1,625 -> 1,343`**;
-- fully-white hinge pixels under the retained observer rule: **`1,384 -> 1,137`**;
-- near-white connected components remain **`7 -> 7`**;
-- retained owner hinge share at/above visible p99 rises **`0.558716 -> 0.585769`**;
-- exact raw changed pixels: **7,920**.
+This FAIL is scoped only to **visual equivalence with the selected rigid-node reference**. It is not a generic claim that shaders are invalid, nor a claim that the diagnostic shader is broken for every objective.
 
-Direct read: the faceted bands become smoother and absolute near-white area decreases, but the repeated five-knuckle highlight rail remains visually prominent. This is a local brightness reduction, not closure of the originating hierarchy defect.
+Runtime separately measures the current control and diagnostic shader at the same `4 B/sample` semantic-driver payload and equal retained peak counters, so this packet provides no measured visual/runtime reason to replace the selected rigid-node control with the shader candidate.
 
-## Rear grazing — decisive non-regression FAIL
+## Equal-driver repeat stability PASS
 
-**`FAIL_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_REAR_GRAZING_NONREGRESSION__ZERO_TO_473_NEAR_WHITE_HINGE_PIXELS`**
+**`PASS_NATURE_CURRENT_OWNER_EQUAL_DRIVER_REPEAT_STABILITY__THREE_PAIRS_BYTE_IDENTICAL`**
 
-Independent exact-PNG analysis confirms:
+Independent comparisons show the equal-driver retained state pairs:
 
-- near-white hinge pixels: **`0 -> 473`**;
-- fully-white hinge pixels: **`0 -> 325`**;
-- near-white connected components: **`0 -> 4`**;
-- hinge mean luminance: approximately **`0.328759 -> 0.341602`**;
-- exact raw changed pixels: **5,871**.
+- `0 / 20`;
+- `5 / 15`;
+- `25 / 35`
 
-The new near-white support is not a bookkeeping artifact: direct inspection shows the analytic-radial candidate creating a broader bright cylindrical band across several knuckles where the faceted control has restrained broken highlights.
+are byte-identical in both control and candidate PNGs.
 
-This is the consequential failure for the exact visual objective. The candidate therefore does **not** earn adoption as the rear-hierarchy repair.
-
-## Side three-quarter — reference preserved
-
-**`PASS_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_SIDE_REFERENCE_PRESERVATION`**
-
-Independent evidence confirms:
-
-- near-white hinge pixels remain **`0 -> 0`**;
-- hinge share at/above visible p99 remains **`0 -> 0`**;
-- exact raw changed pixels: **7,767**.
-
-The candidate is therefore not globally broken. The rejection is bounded to its failure to solve the intended rear hierarchy without introducing the grazing regression.
-
-## Independent pixel accounting
-
-Across all three retained complete-object A/Bs, exact PNG comparison reproduces **21,558 raw changed pixels aggregate**.
-
-Using exact integer PNG channel codes, QA counts **19,686 pixels with a maximum channel difference greater than one code value**. The retained Godot in-memory receipt reports **19,723 pixels >1 LSB**. The 37-pixel bookkeeping difference comes from the in-memory float `> 1/255` threshold classifying some one-code-value differences just above the nominal boundary. It does not change the direct visual result or the FAIL disposition.
-
-QA keeps that measurement distinction explicit rather than silently relabelling the two thresholds equivalent.
-
-## Current PR-head continuity boundary
-
-PR #16 has since advanced to current head:
-
-**`089e31b9f0e921b728378af728783c4f453c9fbc`**
-
-The immutable visual verdict above is intentionally anchored to successful evidence head `36f653ef...` / artifact `10544549523`.
-
-At current head `089e31b9...`, the analytic-radial workflow run **`35346551627`** fails at its old cumulative bounded-delta guard before owner/UC/Godot execution. The current branch is six commits ahead of the historical successor002 baseline and now contains two additional sibling-lane files beyond the four Direction-048 files: the successor002 lane workflow repair and generic TA evidence-lane continuity helper. The current failed run's artifact `10547576128` therefore contains staging/source files only, not a fresh current-head visual proof.
-
-Technical Art separately repaired the historical successor002 lane itself and correctly preserved the analytic-radial candidate as rejected visual evidence. QA does not transfer the successful `36f653ef...` visual artifact to `089e31b9...` by analogy.
+QA therefore reproduces no hidden retained phase-state drift in the exact packet. This is not natural wall-clock playback/frame-pacing acceptance.
 
 ## Final adoption boundary
 
-**`BLOCKED_OBJECT_HINGE_ANALYTIC_RADIAL_NORMAL_ADOPTION__ART_REJECTED_CURRENT_HEAD_NOT_EVIDENCE_REBOUND_FINAL_NORMAL_TANGENT_RUNTIME_DEVICE_PENDING`**
+**`BLOCKED_FINAL_NATURE_CURRENT_OWNER_VISUAL_ADOPTION__LOOKDEV_TANGENT_NORMAL_NATURAL_PLAYBACK_DEVICE_NEWER_OWNER_CHAIN_PENDING`**
 
-Independent QA agrees with the evidence-supported rejection of this exact candidate for the originating hierarchy objective.
+This activation does **not** establish:
 
-This review does **not** establish:
-
-- that analytic radial normals are generally wrong;
-- that faceted control normals are final production normals;
-- a universal p99 or `L >= 0.90` aesthetic threshold;
-- final Object source/default normal or tangent authority;
-- arbitrary camera/light/renderer/resolution equivalence;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- gameplay, collision, physics or manufacturing validity;
+- final Nature bark / foliage / material quality;
+- final source/default normal, tangent or tangent-space correctness;
+- natural `AnimationPlayer` wall-clock playback or frame pacing;
+- acceptance transfer to newer Rigging / Geometry owner chains;
+- arbitrary camera/light/renderer/FOV/resolution equivalence;
+- measured target-device CPU/GPU/FPS/VRAM/heap/thermal/battery acceptance;
+- physical wind semantics;
+- connected topology / production skinning;
+- gameplay / collision / physics readiness;
 - CANON;
 - production/game readiness;
 - specialist mastery.
 
-QA does not authorize or request another normal candidate, smoothing-angle sweep, weighted-normal blend sweep, custom-normal sculpt, material scalar retune, facet-phase search, geometry rewrite, lighting change or camera workaround merely to chase the same defect.
+No shader retune, material retune, geometry rewrite, camera/light change or owner-lineage shortcut is requested by QA.
 
 ## Exact handoff
 
-Object Technical Art PR #16 received independent QA review **`5248011487`**, anchored to exact evidence head `36f653ef0409a66d5d00def18a8f9dccd00c3336`.
+Nature Runtime PR #20 received independent Visual QA review **`5248539167`**, anchored to exact head `c8a017c5b401f7c48a170ee2b0a0a78b4c9c2caa`.
 
-The review records the isolated normal-only transport PASS, rear-three-quarter local reduction, decisive rear-grazing regression, preserved side reference, exact artifact/candidate identities, and current-head non-transfer boundary.
-
-No Technical Art, Hard Surface, Materials, Runtime, Art Direction, merge or CANON authority transfers with this review.
+Environment / Map may consume this exact QA identity alongside Direction 052 and Runtime's selected `CURRENT_TA_RIGID_PARENT_NODE_TRANSFORM` without treating QA as device, newer-owner, CANON or final-production authority.
 
 ## Continuity retained
 
-- Animal bilateral tangent-space seam/filter QA remains valid for exact Materials head `5240e905f949a7557e95b4ec598624c9df2eebd7`, review `5247507724`.
-- Nature Runtime current-Animation shader-rebind QA remains valid for exact head `b9ad7622d5b9f3f0a1434dbe534da5397d83226c`, review `5247011606`.
-- Nature Technical Art proof-normal direction QA remains valid for exact head `1cd1784cbc2d0fb5ffdf23e9e2d9a50b50d90641`; tangent remains open there.
-- Building clearance-successor QA remains valid for exact Building Materials head `eb31efc1639f58f2797bac44ce7f1bad774841ef`.
-- Earlier Object hinge material/roughness/base-value/phase results remain retained at their exact heads as separate failed/partial hypotheses.
-- Direction 051's stop on immediate second-normal parameter chasing is respected; QA opens no duplicate repair lane.
+- Object analytic-radial normal QA remains valid at exact evidence head `36f653ef...`, review `5248011487`.
+- Animal bilateral seam/filter QA remains valid at Materials head `5240e905...`, review `5247507724`.
+- Nature predecessor current-Animation shader QA remains valid at exact Runtime head `b9ad7622...`, review `5247011606`; it does not transfer by analogy to this current-owner result.
+- Nature proof-normal direction QA remains valid at exact Technical Art head `1cd1784c...`; tangent remains open there.
+- Building clearance-successor QA remains valid at exact Building Materials head `eb31efc...`.
 
-Nothing is silently rewritten; prior exact heads, artifacts, reviews and negative results remain rollback-addressable.
+Nothing is silently rewritten; exact heads, artifacts, reviews, negatives and supersession boundaries remain rollback-addressable.
 
 ## Four-root gate
 
-**Truth:** normal-only transport success, local rear-three-quarter improvement, decisive rear-grazing regression, integer-vs-float threshold bookkeeping and current-head workflow state remain separate explicit claims.
+**Truth:** support identity, coherent shading difference, equal-driver repeat identity, Runtime no-win measurements and unresolved lookdev/device boundaries remain separate explicit claims.
 
-**Agency / non-domination:** QA validates evidence without taking Technical Art, Hard Surface, Materials, Runtime, Art Direction, merge or CANON authority and does not prescribe another parameter chase.
+**Agency / non-domination:** QA validates evidence without taking Runtime, Technical Art, Rigging, Animation, Environment, Art Direction, merge or CANON authority.
 
-**Continuity:** the exact successful evidence head/artifact is preserved even though the long-lived PR advanced; prior Animal/Nature/Building/Object QA remains addressable rather than rewritten.
+**Continuity:** predecessor evidence remains exact and this current-owner result is bound only to `c8a017c5...` / artifact `10545219394`.
 
-**Wisdom before speed:** reject this exact candidate for its real grazing regression and stop there instead of converting a partial local improvement into adoption or opening another low-information normal/material sweep.
+**Wisdom before speed:** keep the already-selected simpler rigid-node receiver when the alternative brings a coherent visual difference but no measured current-owner Runtime benefit; do not open another tuning loop without a new evidence-backed objective.
 
 The four AXM roots remain the merge gate.
