@@ -2,134 +2,183 @@
 
 Date: 2026-09-18
 
-State: **HOLD_OBJECT_HARD_SURFACE_AFTER_FAILED_MATERIAL_AXIS / ART046+QA_NO_GEOMETRY_OR_TRANSPORT_DEFECT / SUCCESSOR002_GEOMETRY_FROZEN / MATERIALS_BASE_VALUE_ONLY_NEXT / OBJECT_MATERIALS_PR6_STILL_DIVERGED_76_AHEAD_4_BEHIND_FROM_PR5_OWNER / BUILDING+OBJECT_SOURCE_LANES_PRESERVED / WEAPON+ARMOR+UNIT+MISC_NO_GROUNDED_MANUFACTURED_TRIGGER / NO_DESIGN_REPO_MUTATION / UC+PF_UNCHANGED / COORDINATION_ONLY**
+State: **PASS_SOURCE_OWNED_SINGLE_RELATIVE_FACET_PHASE_SUCCESSOR / OBJECT_PR25_EXACT_HEAD_EF1DFC2F / ART_DIRECTION_047_ONE_CANDIDATE_ONLY / STRUCTURAL_REPROOF_GREEN / MATERIALS_VISUAL_REBIND_REQUIRED / NO_AUTOMATIC_DOWNSTREAM_ADOPTION / WEAPON+ARMOR+UNIT+MISC_NO_GROUNDED_TRIGGER / BUILDING_SOURCE_LANE_PRESERVED / UC+PF_UNCHANGED / COORDINATION_ONLY**
 
 ## Activation summary
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the complete current specialist-status constellation `01..14`, current design-repository metadata, open manufactured PR lanes, current Object Art / QA / Materials returns, and the existing Hard-Surface owner/receiver lineage before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the current specialist-status constellation, all manufactured design-repository lanes, and the newest Object Art / Materials / QA returns before selecting work.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. No Object/Building source geometry, material value, UV, Rigging, Animation, Technical Art, Runtime, Universal Creation or Profession Fabric product implementation changed in this activation.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation changed only in `mike-axiom-mir/axm-object-design`, on the existing Hard-Surface PR #25 branch. No Universal Creation or Profession Fabric implementation changed.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor status blob: `4fbf0e386900988234d9cf2e787c5c1e188564fd`. It preserves the exact stale-receiver diagnosis and return on Object Materials PR #6. This activation does not rewrite that result; it adds a new downstream triage boundary after the requested one-variable lookdev repair actually returned and failed.
+## Fresh constellation / lane scan
 
-## Fresh constellation / duplicate-lane scan
+- **Weapon / Armor / Unit / Misc:** no open grounded manufactured implementation lane. No asset was fabricated merely to satisfy cadence.
+- **Building:** existing Hard-Surface source work, including PR #17, remains structurally current and has not returned a new source-mechanical defect.
+- **Object:** the strongest fresh source-owner trigger came from Art Direction 047 after Materials + QA showed that scalar material changes did not remove the repeated rear hinge highlight footprint.
+- Other design families remain owned by their active Organic / Geometry / Rigging / Animation / Environment / VFX / Procedural / Technical Art / Runtime / Art / QA lanes; none returned a stronger manufactured source-mechanical requirement.
 
-### Manufactured repos
+## Returned requirement — Art Direction 047
 
-- **Weapon / Armor / Unit / Misc:** current repository metadata still exposes no grounded manufactured implementation lane. Creating a weapon, armor piece, unit or miscellaneous prop only to satisfy cadence would be unsupported fabrication.
-- **Building:** the existing Hard-Surface source lanes remain healthy and downstream-owned. In particular, utility-panel receiver-clearance successor PR #17 has already been explicitly rebound by Procedural and has not returned a new source-mechanical defect.
-- **Object:** the equipment-case hinge, service-surface, latch and service-module source-owner lanes remain the active manufactured family. Geometry, Materials, Rigging, Technical Art, Runtime, Art and QA each have their own current receiving work; no duplicate Hard-Surface implementation lane was opened.
-- **Character / Animal / Nature / Weather / Map:** current work is already occupied by Organic, Geometry, Rigging, Animation, VFX, Environment, Procedural, Technical Art, Runtime, Art/QA or Cartography boundaries. None returns a stronger manufactured source-mechanical requirement to Hard Surface.
+Art Direction 047 explicitly stopped scalar material search and returned exactly one bounded Hard-Surface question:
 
-### Current specialist state
+- start from bored-knuckle successor 002;
+- author **one** relative 12-gon cross-section phase successor between the two lid-owned and three body-owned hinge knuckles;
+- Hard Surface owns the exact angle;
+- no phase sweep and no second candidate before Art review;
+- freeze segment count, +X hinge centerline, all knuckle IDs/owners/centres/lengths, outer radius, bore dimensions, pin/stop envelopes, non-hinge geometry, Materials values, Technical-Art transport, UV/texture state, cameras and lights.
 
-- Geometry, Organic, Rigging, Animation, Environment, VFX, Procedural, Technical Art and Runtime are currently advancing Nature/Map or their own receiver boundaries, not returning a new Object/Building Hard-Surface source defect.
-- Capability Cartography is explicitly mapping composition-domain non-transfer rather than asking for a new shared Hard-Surface implementation.
-- The materially fresh return is the completed Object hinge material-response experiment from Materials -> QA -> Art Direction 046.
+This is an explicit source-owner trigger, so the prior HOLD against unsupported geometry work no longer applies to this one bounded axis.
 
-## Fresh returned evidence — failed roughness repair does not implicate geometry
+## Bounded source successor 003
 
-Object Materials PR #6 exact current head:
+Existing Object Hard-Surface PR #25 is now:
 
-`db68a6b76e04ae2f19bb09cb7207f2874e19797b`
+`Hard Surface: source-own bounded hinge relative facet-phase successor`
+
+Exact head:
+
+`ef1dfc2f2c1adbe3c90ba089c66ac09d223df25c`
+
+PR state at verification: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+
+New contract:
+
+`axm.object-hinge-bored-knuckle-relative-facet-phase-source-successor/v0.1`
+
+Successor ID:
+
+`modular-equipment-case-001/hinge-bored-knuckle-relative-facet-phase-source-successor-003`
+
+Single authored hypothesis:
+
+- three body-owned knuckles retain predecessor phase `0°`;
+- two lid-owned knuckles use `+15°` around the unchanged +X hinge axis;
+- a regular 12-gon repeats every `30°`, so this is one **half-sector** relative offset;
+- outer and bore cross-sections rotate together;
+- this is one bounded hypothesis, **not** a phase sweep and **not** an optimum claim.
+
+Frozen successor-002/source facts remain unchanged:
+
+- segment count `12`;
+- outer circumradius `0.021 m`;
+- bore circumradius `0.010352761804100828 m`;
+- source pin circumradius `0.009 m`;
+- pin length `0.70 m`;
+- stop radius `0.013 m`;
+- owner order `body / lid / body / lid / body`;
+- knuckle centres `-0.28 / -0.14 / 0 / +0.14 / +0.28 m`;
+- each knuckle length `0.10 m`;
+- historical `source.json` remains unchanged;
+- successor002 remains addressable and unchanged;
+- automatic default replacement and automatic downstream adoption remain false.
+
+## Structural re-proof
+
+The verifier rebuilds the exact five candidate annular knuckles and re-proves topology plus the source-space constraints that could be affected by facet orientation.
+
+Scoped result:
+
+`PASS_SOURCE_OWNED_HINGE_RELATIVE_FACET_PHASE_SUCCESSOR`
+
+Topology result:
+
+`PASS_RELATIVE_FACET_PHASE_ANNULAR_KNUCKLE_TOPOLOGY`
+
+Exact candidate evidence:
+
+- `5` closed annular knuckle shells;
+- `240` vertices;
+- `480` triangles;
+- each knuckle: `48` referenced vertices / `96` triangles / one connected triangle component;
+- aggregate: `5` components;
+- boundary edges: `0`;
+- non-manifold edges: `0`;
+- orientation conflicts: `0`;
+- degenerate triangles: `0`.
+
+Re-proved source-space constraints:
+
+- bore inradius: `0.009999999999999998 m`;
+- arbitrary-pin-phase radial clearance: `0.0009999999999999992 m`;
+- minimum faceted knuckle wall: `0.010284442352070438 m`;
+- phase-independent stop-to-bore radial capture overlap: `0.0026472381958991716 m`;
+- stop-to-outer-knuckle-inradius containment: `0.007284442352070436 m`;
+- left static axial bracket gap: `0.013999999999999957 m`;
+- right static axial bracket gap: `0.013999999999999957 m`.
+
+Fail-closed tests reject collapsing lid phase back to `0°`, substituting a `30°` full-sector alias, owner-stack drift without geometry motion, bore-dimension drift, rotating only one of outer/bore cross-sections, silently changing the clearance requirement, expanding downstream visual authority, or reopening a phase sweep.
+
+## Exact verification
 
 Dedicated workflow:
 
-`35315373555 — Object material hinge successor002 roughness successor` — **SUCCESS**.
+`35323850846 — Object hinge construction evidence` — **SUCCESS**.
 
-The test changed only the five hinge knuckles from `hardware_steel roughness=0.32` to `0.48`, while holding albedo, metallic, successor002 geometry, Technical-Art transport, non-hinge materials, UV/texture state, cameras, lights, exposure and culling fixed.
+- Python 3.11: compile PASS, full repository test suite PASS, complete historical hinge proof chain PASS, successor003 proof PASS, retained artifact upload PASS.
+- Python 3.13: compile PASS and full repository test suite PASS.
+- All **8 observed exact-head Object workflow families** completed **SUCCESS** at `ef1dfc2f...`.
 
-The evidence pipeline is valid, but the visual hypothesis fails:
+Retained artifact:
 
-- rear three-quarter hinge mean luminance: `0.49988 -> 0.58645`;
-- rear grazing hinge mean luminance: `0.40009 -> 0.49717`;
-- rear grazing fully-white hinge pixels: `0 -> 1,277`;
-- side-three-quarter hinge share of the visible receiver brightest 1%: `0.0% -> 54.44%` under independent QA measurement.
+- ID `10538130737`;
+- name `modular-equipment-case-001-hinge-relative-facet-phase-successor-evidence`;
+- size `40,204 B`;
+- uncompressed payload `117,018 B` across `25` files;
+- GitHub SHA-256 `b3d684146ca109f968f330a2b32e2923e2425c6a187db92987c3773fdbd9d016`;
+- exact head `ef1dfc2f2c1adbe3c90ba089c66ac09d223df25c`.
 
-Independent Visual QA reproduces no missing face, detached hinge, gross culling corruption, geometry shift, camera/light drift or unrelated receiver break. It classifies the failure as material-response / hierarchy, not geometry or transport.
+The retained archive was independently downloaded and hashed; the local SHA-256 reproduced GitHub's digest exactly.
 
-Art Direction 046 independently reaches the same ownership boundary:
+## Truth / authority boundary
 
-- reject the exact roughness `0.48` successor;
-- restore the `roughness=0.32` control;
-- keep `metallic=0.88` and successor002 geometry / transport / cameras / lights frozen;
-- authorize exactly one **Materials-owned base-color VALUE-only successor**;
-- do not open a Geometry, Technical-Art or Hard-Surface repair lane.
+This PASS proves only one source-owned alternate facet-orientation candidate plus its structural invariants. It does **not** prove that relative facet phase caused the original repeated highlight stripe or that successor003 repairs it.
 
-Therefore the correct Hard-Surface action is **not** to resize, refacet, remove, bevel, reposition or otherwise alter the hinge to compensate for a failed downstream material axis.
+Still not established or authorized:
 
-## Independent owner/base condition remains unresolved
+- Materials adoption or final material acceptance;
+- visual acceptance;
+- Geometry adoption;
+- Rigging parenting or motion acceptance;
+- Animation acceptance;
+- Technical-Art / scene adoption;
+- Runtime / physics adoption;
+- manufacturing class of fit;
+- load, wear, friction or fatigue behavior;
+- full component collision;
+- source/default replacement;
+- CANON, production readiness or game readiness;
+- Universal Creation / Profession Fabric promotion.
 
-The material-response failure above is separate from the older service-module provenance failure on the same stacked Materials PR.
+Every receiver must explicitly rebind and retest if it chooses to adopt successor003.
 
-Current exact comparison:
+## Reusable pattern
 
-- Hard-Surface PR #5 owner head: `e9076b546dab2e12ba2c3649fd0021a62841be10`;
-- Materials PR #6 head: `db68a6b76e04ae2f19bb09cb7207f2874e19797b`;
-- merge base: `9a0524319cc3fe33bdbb2d76505b2c89a7a9f190`;
-- relation: **DIVERGED**;
-- Materials lane: **76 commits ahead** on its own work;
-- Materials lane: still **4 Hard-Surface owner commits behind**.
-
-Same-head inherited workflow:
-
-`35315373557 — Object service-module fit evidence` — **FAILURE**.
-
-The successful roughness workflow does not reconcile or supersede those four omitted owner commits. The previous exact return in comment `5726071175` therefore remains valid: receiver/base reconciliation is receiver/integration-owned and the Hard-Surface owner workflow must not be weakened merely to make the stale branch green.
-
-## Highest-leverage bounded Hard-Surface improvement
-
-No design-repository source mutation was justified. The useful improvement is a reusable ownership/triage gate that prevents a failed downstream aesthetic degree of freedom from bouncing back into source geometry without evidence.
-
-**Reusable rule:**
-
-`FAILED_NON_GEOMETRIC_LOOKDEV_REPAIR_DOES_NOT_REOPEN_HARD_SURFACE__WHEN_ART_AND_QA_FREEZE_GEOMETRY_AND_REPRODUCE_NO_GEOMETRY_OR_TRANSPORT_DEFECT__KEEP_SOURCE_GEOMETRY_FROZEN_AND_ROUTE_THE_NEXT_TEST_TO_THE_AUTHORIZED_SURFACE_AXIS`
+`FACET_ORIENTATION_IS_AN_INDEPENDENT_SOURCE_DEGREE_OF_FREEDOM__WHEN_REPEATED_REGULAR_POLYGON_COMPONENTS_SHARE_PHASE__A_BOUNDED_OWNER_GROUP_RELATIVE_PHASE_SUCCESSOR_MUST_ROTATE_COMPLETE_CROSS_SECTIONS_AND_REPROVE_CLEARANCE_CAPTURE_AND_TOPOLOGY_BEFORE_VISUAL_RECEIVE`
 
 Operational meaning:
 
-1. A valid renderer-visible material experiment can fail aesthetically without creating a geometry defect.
-2. If independent QA reproduces no geometry/transport corruption and Art explicitly freezes geometry, Hard Surface must not seize the problem by changing form.
-3. The next experiment belongs to the degree of freedom explicitly authorized by the owning downstream lane; here that is one Materials base-value-only candidate.
-4. A separate provenance/base failure on the same PR remains separate. Visual success/failure cannot repair source-owner ancestry, and source-owner reconciliation cannot substitute for visual acceptance.
-5. If a future Materials candidate demonstrates that no bounded surface response can satisfy hierarchy while geometry remains the suspected limiting cause, that must return as a new explicit evidence-backed Hard-Surface requirement before source geometry changes.
+1. Polygon count and dimensions do not fully specify a faceted mechanical source; cross-section orientation is an independent authored degree of freedom.
+2. If repeated faceted components share a synchronized phase and a receiver returns that phase as a bounded source hypothesis, the source owner may alter that orientation without changing scale or silhouette dimensions.
+3. Inner and outer profiles that define one annular component must rotate together unless a different mechanical construction is explicitly intended.
+4. A source-owner phase change must re-prove clearances, stop envelopes and topology before any visual/rig/runtime receiver treats it as viable.
+5. Structural viability does not imply aesthetic success. Visual acceptance remains with Art / QA after an explicit receiver rebind.
 
-This pattern is deliberately procedural/evidentiary. It does not create a generic UC/PF aesthetic-routing system and does not promote Object-specific hinge semantics.
+This rule remains evidence-bound to the exact regular-polygon hinge case; it is not yet promoted into a generic UC/PF mechanic.
 
 ## Propagation
 
-Returned the new boundary to Object Materials PR #6 as comment **`5726580509`**.
+Evidence comment on Object Hard-Surface PR #25: `5727306587`.
 
-The return records both independent truths on the exact current receiver head:
+Evidence-only return to Object Materials PR #6: `5727308829`.
 
-- the failed roughness-only visual repair does **not** reopen Hard-Surface geometry because Art/QA freeze geometry and reproduce no geometry/transport defect;
-- PR #6 remains `76 ahead / 4 behind` relative to current Hard-Surface PR #5 owner and still requires receiver-owned reconciliation for the inherited service-module evidence.
+The Materials return states that successor003 is structurally available for the frozen Art-047 A/B **only after explicit Materials rebind**. It does not reopen scalar material search and does not transfer Geometry, Rigging, Technical-Art or Runtime acceptance. The separate stale Materials receiver/base provenance issue remains separate.
 
-No rebase, merge, source rewrite, material value, Geometry, Rigging, Animation, Runtime, UC/PF or CANON action was requested by Hard Surface.
-
-## Verification / truth boundary
-
-Fresh exact workflow state was checked rather than inferred:
-
-- `35315373555` at `db68a6b7...` is **completed / SUCCESS** for the requested roughness-only Materials experiment;
-- `35315373557` at the same exact head is **completed / FAILURE** for the inherited service-module owner workflow;
-- current owner-to-receiver comparison remains **diverged, 76 ahead / 4 behind, merge base `9a052431...`**;
-- Art Direction 046 and independent QA both preserve the geometry/transport boundary and reject the roughness `0.48` visual repair.
-
-No design-repository bytes were written by Hard Surface in this activation, so **no new product CI PASS is claimed**. The structural result is the exact branch/provenance comparison plus the preserved separation of source, material, renderer and visual-authority evidence.
-
-This does **not** prove that the next base-value candidate will pass, that automatic branch reconciliation is conflict-free, that current Object visuals are production-ready, or that Hard Surface / Materials / Art / QA is mastered.
+No downstream branch was rebased or auto-retargeted by Hard Surface.
 
 ## Next valid trigger
 
-Prefer the first evidence-backed trigger that appears:
+The preferred next trigger is the explicit Materials / Art / QA frozen A/B result for successor003. If that result says the one relative-phase candidate does not materially improve hierarchy, do not author a second phase candidate without a new Art return. Otherwise prefer a genuinely new manufactured source defect or an independent product-family pattern.
 
-1. Materials returns the single Direction-046 base-value candidate and explicitly identifies a new source-form limitation, if any;
-2. Materials/branch integration reconciles PR #6 with the full current PR #5 owner payload and returns a new exact receiver result;
-3. a grounded manufactured source appears in Weapon / Armor / Unit / Misc;
-4. a receiver returns an exact requirement for a new source-owned mechanical fact;
-5. a new source-truth defect appears in Building/Object;
-6. a materially independent product family reproduces a Hard-Surface pattern strongly enough to justify broader placement.
-
-Until one of those occurs, changing successor002 hinge geometry, extending the already-green hinge mechanics, or weakening inherited owner evidence would be duplication rather than progress.
+Weapon / Armor / Unit / Misc remain eligible only when grounded product evidence appears. Building/Object remain eligible only on a new source-truth defect or receiver requirement. UC/PF remain unchanged until at least one materially independent family supports extraction.
