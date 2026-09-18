@@ -3,248 +3,201 @@
 - Date: `2026-09-18`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_PAYLOAD_SEMANTIC_FRAME_TRANSFORM_IDENTITY_MAP / ANIMAL_MAP_OBJECT_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / ADAPTATION_STAGE_AND_ORIENTATION_EQUIVALENCE_SEPARATED / NO_NEW_UC_EXTRACTION / UC200_ACTIVE_NONOVERLAP / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_TEMPORAL_REPRESENTATION_LINEAGE_MAP / ANIMAL_CHARACTER_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / UC199_MERGED_REGISTRY_CLOSED / NO_NEW_UC_TEMPORAL_EXTRACTION / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, current product PRs, Universal Creation main/open shared lanes, Profession Fabric continuity and the shared-capability execution-claim registry before changing coordination state.
+Re-read the 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status/commits, open product PRs across the design constellation, current Universal Creation main/open shared lanes, Profession Fabric #38/#37 continuity, and the shared-capability execution-claim registry.
 
-`axm-create-me` remains **coordination only**. No product geometry, coordinate adapter, winding, receiver implementation, Animation source motion, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product motion, key reducer, import behavior, receiver implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, specialist authority, adoption authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh shared-work / overlap scan
+## Fresh continuity / overlap scan
 
-Current shared-system continuity:
-
-- Universal Creation current merged main observed in the fresh scan: `7be1a28c43a88c7e40f7d0c039aefd753d5e70d9` (merged Physics PR #198; unrelated to frame-semantics evidence).
-- UC issue #199 now has one active implementation lane, PR #200, exact head `51fa006cd3d08648a5965c09eaf55d2936b1ee2c`, open/draft/mergeable. Its dedicated workflow `35281398491` and inherited topology workflow `35281398747` are green. The coordination registry already marks that scope `IMPLEMENTING`.
-- PR #200 is the previous Cartography run's closed-shell orientability / signed-orientation observer scope. It does not own source-to-transport-to-host frame adapters or rotation representation semantics.
-- The shared-capability registry contains no active implementation claim for the frame-semantics scope selected here.
-- Profession Fabric PR #37 remains the separate experimental bounded-variation evidence procedure. It does not implement frame conversion.
-- Profession Fabric issue #38 already contains the experimental provenance/rebind vocabulary for coordinate frames and directional fields; therefore the correct action here is a bounded vocabulary refinement, not a second PF framework or implementation lane.
-
-No new UC issue, UC PR, PF PR or execution claim was opened.
+- Universal Creation PR #200 has now **merged**. Final reconciled PR head: `316e9c2a59e92046af309667fe21b956676b7286`; merge/current-main identity observed: `13a823349a568db266099564d6f5d8d7bac48b2b`.
+- The shared execution registry was stale at `IMPLEMENTING`; this pass corrected UC #199 to `MERGED` and preserved the earlier exact green head/workflow evidence rather than rewriting it.
+- Registry correction commit: `d0a8f9b7d295cca59621eb7deba4446d8c983e1f`.
+- Current open UC PR #201 is the unrelated persistent Physics lane. Existing open UC #151/#153 are also unrelated to the temporal evidence selected here.
+- Profession Fabric PR #37 remains the independent bounded-variation evidence-procedure experiment; PF #35 remains the experimental 3D game-asset specialist body. Neither is a temporal key/import implementation.
+- PF issue #38 already owns the experimental temporal source/evaluation/presentation/instrumentation/delivery provenance vocabulary and the generic representation-set vocabulary. The fresh gap is a bounded bridge between those two existing evidence models, not a new PF framework.
+- No active shared-capability execution claim overlaps the temporal representation scope selected here.
 
 ## Selected material cross-repo learning
 
-Fresh Animal + Object/Map evidence now crosses the repeat threshold for a narrower transform/provenance rule:
+Fresh Animal Runtime + Character Technical Art evidence crosses the repeat threshold for a narrower temporal-provenance rule:
 
-**`SAME_FRAME_TRANSFORM != SAME_TRANSFORM_LAW_FOR_EVERY_PAYLOAD_CLASS`**
+**`AUTHORED_TEMPORAL_SOURCE != STORED_OR_IMPORTED_TEMPORAL_REPRESENTATION != DIAGNOSTIC_EVALUATION_SCHEDULE != PRESENTATION_OR_DELIVERY`**
 
-A coordinate conversion is not fully specified by saying which XYZ basis maps to which. Evidence must also preserve **what semantic quantity is being transformed**, **which rule is used for that quantity**, and **whether an earlier stage already applied a handedness/sign adaptation**.
+The missing identity is the **temporal representation at a particular pipeline stage**. A clip can preserve source-owned duration/cadence/curve authority while a Runtime optimizer or target importer changes the number/times/encoding of stored keys. Conversely, a different key count is not by itself evidence of retiming or motion failure.
 
-The practical failure mode is double or wrong adaptation: positions may look correct while face orientation or rotations are wrong because a downstream consumer reused the point/vector rule for an oriented or axial quantity.
-
-## Evidence A — Animal static surface transport
+## Evidence A — Animal Runtime serialized-key candidate
 
 Repository: `mike-axiom-mir/axm-animal-design`
 
-Technical Art PR #3 current head:
+Runtime PR #30 exact head:
 
-`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
+`13ba20d198d2b7c5e428167745d59927b3084004`
 
-The retained Animal bridge explicitly maps the Animal source convention:
+Scoped result:
 
-`+X forward, +Y left, +Z up`
+`PASS_RUNTIME_ANIMAL_ANIMATION_KEY_BUDGET__VISUAL_TRADEOFF_RECORDED__HOLD_ART_QA_TARGET_DEVICE`
 
-to UC's portable Y-up / +Z-forward surface convention.
+The source-owned clip stays unchanged at:
 
-That conversion changes handedness. Technical Art therefore also reverses triangle winding while transporting the exact product surface. The important distinction is not merely that both operations happen in one adapter; it is that they are **different semantic consequences of the same declared frame map**:
+- `1.0 s` duration;
+- `40 Hz` authored cadence;
+- `41` endpoint-inclusive authored keys.
 
-- source positions are coordinate values transformed into the target frame;
-- oriented triangle order carries orientation/chirality information and therefore cannot be treated as a position payload;
-- source/product topology authority does not move merely because a transport adapter reverses target-side winding.
+Runtime creates a separate serialized candidate:
 
-The bridge preserves its own exact producer identities and does not convert this receiving operation into source adoption, visual acceptance or a generic UC policy.
+- serialized keys `41 -> 19`;
+- animation accessor `820 -> 380 B`;
+- GLB `10,296 -> 9,852 B`;
+- exact candidate is evaluated over `321 samples / 320 Hz` **diagnostic density**;
+- maximum dense quaternion residual `0.0547204398°` under a Runtime `0.075°` gate;
+- worst diagnostic point `0.475 s`;
+- authored peak `0.50 s` remains explicitly retained.
 
-## Evidence B — Object owner motion into the current-world Godot receiver
+The source clip is explicitly **not retimed or rewritten**. The real Godot receiver records small nonzero shaded/coverage differences at the worst-time sample, so Art/QA and target-device adoption remain held.
 
-Repository: `mike-axiom-mir/axm-map-design`
+This demonstrates that **serialized representation identity is separate from source temporal identity and separate again from the diagnostic comparison schedule**.
 
-Technical Art PR #45 current exact head:
+## Evidence B — Character target import resamples key storage without changing the bounded motion claim
 
-`e085437f6cc958bbf7c5c6464578923d542962b0`
+Repository: `mike-axiom-mir/axm-character-design`
 
-The fresh real-host failure exposed the dynamic version of the same semantic distinction.
+Technical Art PR #21 exact current head:
 
-The owner/UC path uses:
+`a8e2759e72e15a63e50f2cddecf1b407bbfd4224`
 
-`source [x,y,z] -> UC/glTF [x,z,y]`
+The real Godot `4.7.2-stable` receiver legitimately resamples the incoming `160 Hz` Character animation to:
 
-which changes handedness. The existing owner motion plan already encodes the corresponding angle-sign consequence.
+- `61` imported keys per track;
+- `366` imported keys total.
 
-The actual current-world Godot host uses:
+The retained failed predecessor had assumed receiver key-count preservation and exposed this as a real evidence-model error rather than weakening the gate.
 
-`source [x,y,z] -> Godot [x,z,-y]`
+The repaired proof compares both target imports at the original:
 
-which is a proper rotation.
+- `321` source times;
+- `160 Hz`;
+- `2.0 s` domain.
 
-The old bridge silently treated these receiver frames as if the same scalar angle convention could simply pass through. Real Godot then failed the rigid-placement invariants even though the underlying owner motion was unchanged.
+On that explicit comparison domain the retained skeleton pose position/rotation/scale deltas are `0.0`, while a verifier-only `+0.01` bone-scale mutation is detected.
 
-The bounded Technical-Art repair remains product/receiver-owned:
-
-`UC_GLTF_TO_GODOT_CURRENT_WORLD_REFLECTION_Z__NEGATE_OWNER_ROTATION_ANGLE_AFTER_WORLD_AXIS_PLACEMENT`
-
-It:
-
-1. keeps the owner and UC/glTF frame identity explicit;
-2. keeps the actual Godot host frame explicit;
-3. reflects receiver Z into the host convention;
-4. maps the already world-placed owner hinge axis into that host frame;
-5. negates the already-handedness-adjusted owner angle exactly once;
-6. leaves UC product code unchanged.
-
-Final workflow `35279024982` succeeds. Retained receiver observations include quaternion errors `0.0`, neutral/endpoint closure with zero drift, owner latch `-50°` appearing as Godot-host `+50°`, and owner lid `+100°` appearing as Godot-host `-100°` at the retained samples.
-
-This is direct evidence that **adaptation stage identity matters**: a sign change that is already present in an upstream owner/transport plan must not be applied a second time merely because another frame boundary also exists downstream.
-
-## Evidence C — Animation independently selects the correct orientation comparison primitive
-
-Repository: `mike-axiom-mir/axm-map-design`
-
-Animation PR #48 exact current head:
-
-`343668b80acd52367e3427f3ef97d1662625c18f`
-
-Animation explicitly replays the frozen Object owner sequence on the exact `e085...` Technical-Art receiver instead of inheriting its older wall-clock PASS by ancestry.
-
-The important Cartography evidence is its observer repair:
-
-- scalar source/host Euler-X comparison was too weak for the adapted receiver;
-- Animation now compares the **actual pivot quaternions** with quaternions generated from Technical Art's already-adapted target plan about the exact host axis;
-- it does **not** apply another frame/sign conversion;
-- exact owner timing, keys, easing and amplitudes remain frozen.
-
-Workflow `35283767586` succeeds with maximum receiver-frame quaternion disagreement `0.0°`, correct phase order, peak traversal and endpoint closure. The same receipt explicitly keeps `74 / 101` observed source slots as incomplete display/source-slot coverage rather than relabelling it complete 40 Hz delivery.
-
-This independently demonstrates another part of the rule: **orientation equivalence has its own representation/observer identity**. Scalar Euler equality is not the general acceptance primitive for a receiver whose orientation has already been adapted into another frame.
+This demonstrates the receiver-side mirror rule: **an imported key schedule is a receiver representation identity, not source cadence authority**.
 
 ## Cross-repo capability map
 
-The reusable evidence chain is now:
+The bounded temporal chain is now:
 
-`source_frame_identity`
+`temporal_source_identity`
 
-→ `frame_transform_identity + parity/chirality`
+→ zero or more `temporal_representation_identity(stage)` nodes
 
-→ `payload_semantic_class`
+→ `evaluation_schedule_identity`
 
-→ `payload_transform_rule_identity`
+→ `presentation_policy_identity`
 
-→ `adaptation_stage_identity`
+→ `observation_instrumentation_identity`
 
-→ `receiver_frame_application_identity`
+→ `observed_delivery_receipt`
 
-→ `orientation/geometry observation-space identity`
+→ bounded claim verdict(s).
 
-→ bounded claim verdict.
+A temporal representation node should preserve, when applicable:
 
-The following distinctions must stay explicit:
+- exact repo/head/artifact/contract identity;
+- `representation_stage` such as source-authored, transport-serialized, Runtime-optimized or receiver-imported;
+- exact predecessor identity;
+- key-time set identity;
+- key-value encoding identity;
+- interpolation semantics identity;
+- transform relation such as exact repack, bounded approximation, receiver resample/import or not-evaluated;
+- exact comparison-domain identity used to establish any equivalence/error claim;
+- source/adoption non-transfer.
 
-- `POINT_POSITION` / ordinary positional coordinate;
-- `POLAR_DIRECTION` where appropriate;
-- `NORMAL_COVECTOR` / normal-specific transform rule;
-- `TANGENT_PLUS_HANDEDNESS` where tangent sign semantics exist;
-- `ORIENTED_TRIANGLE_ORDER` / winding parity;
-- `ROTATION_ORIENTATION` / matrix, quaternion or axis-angle semantics.
+## Placement action — Profession Fabric #38
 
-The transform matrix alone does not prove those semantic rules are interchangeable.
+Refined the existing PF #38 evidence/provenance proposal with comment:
 
-## Profession Fabric placement action
+`5722883549`
 
-Refined existing Profession Fabric issue #38 with comment:
+The refinement adds **temporal representation lineage** to the already-existing temporal and representation-set vocabulary rather than creating another framework.
 
-`5722327764`
+Bounded non-transfer rules recorded there:
 
-The refinement extends the already-existing frame/directional evidence vocabulary with:
+1. serialized/imported key count is not authored cadence;
+2. reducing or resampling keys does not silently rewrite source timing authority;
+3. diagnostic density is not a stored representation unless explicitly produced as one;
+4. a receiver may use a different internal key set while a bounded claim is tested on an explicit comparison domain;
+5. representation equivalence does not establish wall-clock delivery, display cadence, perceptual acceptance or target-device benefit;
+6. Runtime/receiver evidence does not itself adopt a candidate.
 
-- `frame_transform_identity`;
-- `frame_transform_parity` (`PROPER | IMPROPER | NOT_EVALUATED`, or exact determinant sign when applicable);
-- `payload_semantic_class`;
-- `payload_transform_rule_identity`;
-- `orientation_representation_identity`;
-- `adaptation_stage_identity`;
-- `orientation_equivalence_observer_identity`;
-- explicit separation from renderer front-face/culling policy.
+PF receives vocabulary/provenance only. It does not become a scheduler, reducer, importer, interpolator or perceptual authority.
 
-The bounded non-transfer rules are:
+## Why no Universal Creation temporal lane was opened
 
-1. position equivalence does not prove orientation equivalence;
-2. one frame map does not authorize one transform law for every payload class;
-3. improper frame conversion can affect oriented topology and rotation/axial semantics differently from points/directions;
-4. an adaptation already encoded upstream must not be applied again downstream;
-5. scalar Euler equality is not sufficient where the claim is full orientation equivalence;
-6. coordinate-frame parity still does not choose a renderer's front-face/culling policy.
+The repeated **evidence distinction** is strong; the executable mechanisms are not yet one neutral machine contract:
 
-This is **evidence/provenance vocabulary only**. PF does not receive an executable frame adapter, target-host rule or product acceptance authority.
+- Animal PR #30 owns a bounded product Runtime key-removal candidate under an Animal-specific motion/error/visual review chain;
+- Character PR #21 observes target-host Godot import/resampling and proves target equivalence at source times;
+- the existing PF temporal model already distinguishes evaluation and delivery from source timing.
 
-## Why no new Universal Creation lane was opened
-
-The evidence is repeated, but the executable mechanisms are not yet one neutral implementation contract:
-
-- Animal's adapter is a product-source → portable-surface transport boundary and includes target-side winding treatment;
-- Map Technical Art's adapter is an owner/UC-glTF → Godot current-world receiving boundary with already-adapted rotation semantics;
-- Animation is an observer/replay consumer of that exact receiver, not a third frame-conversion implementation.
-
-UC should remain generic until multiple materially different receivers need the same neutral executable transform machinery. At this point the shared reusable result is the **semantic contract/evidence identity**, which belongs in PF #38.
-
-Current UC PR #200 remains active for the separate closed-shell orientation observer; no sibling implementation was opened or disturbed.
+A UC temporal reducer/import abstraction here would conflate two materially different mechanisms and would risk moving product or receiver policy into the shared machine. No UC issue, PR or shared execution claim was opened.
 
 ## Product returns
 
-Returned the map without changing product code:
+Evidence-only returns were placed without changing product code:
 
-- Profession Fabric issue #38 comment `5722327764`;
-- Map Technical Art PR #45 comment `5722328940`;
-- Animal Technical Art PR #3 comment `5722329946`;
-- Map Animation PR #48 comment `5722331146`.
+- Animal Runtime PR #30 comment `5722885205`;
+- Character Technical Art PR #21 comment `5722886885`.
 
-No source, receiver, motion, frame adapter, renderer policy or acceptance threshold was changed by Cartography.
+No Animation source clip, Runtime reduction threshold, Character exporter, Godot importer, receiver schedule, Art/QA state or adoption decision changed.
 
 ## Bounded placement table
 
 | Layer | Correct home | Current evidence | Explicitly not implied |
 |---|---|---|---|
-| product/source coordinate convention | owning product source / Technical Art boundary | Animal PR #3; Object owner data | global UC convention adoption |
-| exact product/receiver adapter | owning Technical Art lane | Animal #3; Map #45 | shared engine extraction |
-| receiver orientation comparison | owning Animation/QA evidence lane | Map Animation #48 | retime, controller or Art acceptance |
-| reusable semantic transform/provenance vocabulary | Profession Fabric #38 experimental procedure | current Cartography refinement | executable adapter or automatic conversion |
-| generic neutral executable transform machinery | Universal Creation only after stronger repeat evidence | **not opened this pass** | host-specific frame policy |
-| renderer front-face/culling policy | Materials / Technical Art receiver | prior Object receiving evidence | source/coordinate truth |
-| shared-work collision avoidance | `axm-create-me` coordination registry | UC #200 active only | ownership / merge priority |
+| authored clip/cadence/curve authority | owning Animation/source domain | Animal Animation #5; Character source/Animation chain | imported/serialized key-count identity |
+| product Runtime serialization candidate | owning Runtime lane | Animal Runtime #30 | source retime or adoption |
+| target importer/internal key representation | target Technical Art / receiver evidence | Character TA #21 | source cadence rewrite |
+| diagnostic comparison schedule | evidence-producing specialist | Animal #30; Character #21 | engine/display cadence |
+| reusable temporal representation provenance vocabulary | Profession Fabric #38 experimental procedure | comment `5722883549` | reducer/importer implementation |
+| generic neutral temporal machinery | Universal Creation only after stronger executable repeat evidence | **not opened this pass** | product/receiver policy |
+| shared-work collision state | `axm-create-me` coordination registry | UC #199 corrected to MERGED | ownership or merge priority |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- one universal source/host coordinate convention;
-- one universal automatic coordinate adapter;
-- a generic quaternion/Euler conversion policy;
-- automatic winding repair or source winding adoption;
-- normal/tangent production correctness merely from the new vocabulary;
-- target-renderer front-face/culling correctness;
-- Animation retiming or full 101-slot display delivery;
-- Runtime/controller/device acceptance;
-- Art Direction / independent Visual QA acceptance;
-- a UC implementation for frame conversion;
+- a universal animation key reducer;
+- a universal importer/resampler;
+- equivalence of all 19-key/61-key representations;
+- source retiming;
+- target-display or wall-clock cadence;
+- perceptual acceptance of Animal Runtime #30;
+- target-device performance benefit;
+- automatic product adoption;
+- a UC temporal implementation;
 - a PF implementation or profession promotion;
 - CANON;
 - production/game readiness;
 - mastery;
-- merge authority transfer.
+- merge-authority transfer.
 
 `axm-create-me` remains coordination-only.
 
 ## Four-root gate
 
-**Truth:** the real Map/TA failure is preserved; the distinction is based on exact receiver evidence, not inferred from green position transport. Animal's historical handedness/winding bridge remains its own product proof, and Animation's `74/101` wall-clock observation is not inflated into full cadence delivery.
+**Truth:** Animal's nonzero bounded candidate residual/visual difference remains visible; Character's failed key-count-preservation assumption remains historical evidence; diagnostic Hz is not relabelled authored or delivered Hz.
 
-**Agency / non-domination:** Animal and Map Technical Art keep adapter ownership; Animation keeps playback/orientation observation; Runtime, Environment, Materials, Art and QA keep their existing authority. PF receives vocabulary only; UC is not expanded without stronger implementation evidence.
+**Agency / non-domination:** Animation retains source timing authority; Runtime owns its candidate; Technical Art owns receiver evidence; Art/QA and target-device gates remain separate; PF receives vocabulary only and UC is not expanded without stronger machine evidence.
 
-**Continuity:** prior frame/directional PF vocabulary is extended rather than replaced. Existing Animal and Map histories, failed receivers, exact donor heads, UC #199/#200 execution claim, and all earlier Cartography maps remain addressable.
+**Continuity:** the existing PF temporal and representation-set models are extended rather than replaced. UC #199's merge state is corrected in the existing coordination registry without erasing its prior implementation head/workflow lineage.
 
-**Wisdom before speed:** the repeated semantic bug is captured at the smallest reusable layer first. No generic conversion engine is invented from two adapters with different receiving responsibilities.
+**Wisdom before speed:** the smallest repeated semantic gap is recorded first. No generic retimer/importer is invented from one product optimizer and one target-host importer.
 
 The four AXM roots remain the merge gate.
 
@@ -252,21 +205,21 @@ The four AXM roots remain the merge gate.
 
 Previous Cartography state:
 
-`PASS_CLOSED_SHELL_ORIENTABILITY_SIGNED_ORIENTATION_PLACEMENT_MAP`
+`PASS_PAYLOAD_SEMANTIC_FRAME_TRANSFORM_IDENTITY_MAP`
 
 Previous status blob SHA:
 
-`7b61ba3a36f3851658e0d934febd3207b85d0dbe`
+`57428a070d8d59dad5ad73996f17e180471e6f8f`
 
-Previous shared proposal continuity:
+Current coordination correction:
 
-- UC issue #199 remains the proposal identity;
-- UC PR #200 is the single active implementation claim at head `51fa006cd3d08648a5965c09eaf55d2936b1ee2c`;
-- no product consumer inherits #200 until an exact merged UC identity exists and it explicitly rebinds/reruns.
+- shared execution registry previous blob: `72294407a46f952b8764057faee9748e6c8f9c19`;
+- registry update commit: `d0a8f9b7d295cca59621eb7deba4446d8c983e1f`;
+- UC #199 / PR #200 state now `MERGED` at UC main `13a823349a568db266099564d6f5d8d7bac48b2b`;
+- no product consumer inherits that merged observer without explicit rebind/rerun.
 
 Current Cartography returns:
 
-- PF #38 comment `5722327764`;
-- Map TA #45 comment `5722328940`;
-- Animal TA #3 comment `5722329946`;
-- Map Animation #48 comment `5722331146`.
+- PF #38 comment `5722883549`;
+- Animal Runtime #30 comment `5722885205`;
+- Character Technical Art #21 comment `5722886885`.
