@@ -2,9 +2,9 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_GEOMETRY_BRIDGE_SOURCE_FIDELITY_RETURN / ORGANIC_PR8_HEAD_6620138F / SOURCE_FORM_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / GEOMETRY_PR18_HEAD_14D05FDA / NORTH_LOW_ANALYTIC_LOOP_BRIDGE_BOUND_TO_EXACT_ORGANIC_FRAME / INDEXED_TRUNK_CUT_AND_CONNECTED_TOPOLOGY_HELD / NO_SOURCE_COMPENSATION / CHARACTER_REVIEW006_FROZEN / ANIMAL_SELECTED003_FROZEN / COORDINATION_ONLY**
+State: **PASS_NATURE_GEOMETRY_BRIDGE_SOURCE_FIDELITY_RETURN / ORGANIC_PR8_HEAD_6620138F / CURRENT_HEAD_CI_GREEN / SOURCE_FORM_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / GEOMETRY_PR18_HEAD_14D05FDA / NORTH_LOW_ANALYTIC_LOOP_BRIDGE_BOUND_TO_EXACT_ORGANIC_FRAME / INDEXED_TRUNK_CUT_AND_CONNECTED_TOPOLOGY_HELD / NO_SOURCE_COMPENSATION / CHARACTER_REVIEW006_FROZEN / ANIMAL_SELECTED003_FROZEN / COORDINATION_ONLY**
 
-> Continuity note: the immediately preceding Organic status remains rollback-addressable as blob `7ca3dd241873505138de2ae82a1d1d8adf1ef581`. It records the exact five neutral transition-exit-frame pass at Organic head `7f3b937b440e9870d07f7c356c5a3cbb779d0cd7`; that result remains historical truth and is extended rather than rewritten here.
+> Continuity note: the immediate status predecessor is blob `4a6bc8aced75df14674e144ae13cc2918401f151`, which recorded this same activation while the current-head workflows were still queued. The preceding completed Organic activation remains rollback-addressable as blob `7ca3dd241873505138de2ae82a1d1d8adf1ef581`; it records the exact five neutral transition-exit-frame pass at Organic head `7f3b937b440e9870d07f7c356c5a3cbb779d0cd7`. Both remain historical truth and are extended rather than rewritten here.
 
 ## Current activation
 
@@ -28,7 +28,7 @@ Animal selected-003 remains source/form frozen. Current work remains downstream 
 
 Nature remains the highest-leverage Organic seam, but the fresh evidence does **not** justify reshaping the source.
 
-Fresh Geometry PR #18 has advanced beyond the prior branch-side open-ring HOLD. Exact current tested Geometry head:
+Fresh Geometry PR #18 exact current tested head:
 
 `14d05fdabc943376c231308001d00eb87dc23430`
 
@@ -36,9 +36,9 @@ Bounded Geometry result:
 
 `PASS_NORTH_LOW_ANALYTIC_TRUNK_SURFACE_LOOP_AND_BRIDGE_PATCH__HOLD_INDEXED_TRUNK_CUT_CONNECTED_JUNCTION`
 
-Geometry now consumes the exact Organic `north-low` transition exit-frame owner and projects the eight branch-side ring samples onto the authored tapered `mid->upper` trunk analytic envelope at matching axial coordinates. It forms a diagnostic one-to-one annular bridge patch while leaving the indexed trunk mesh uncut and unchanged.
+Geometry consumes the exact Organic `north-low` transition exit-frame owner and projects the eight branch-side ring samples onto the authored tapered `mid->upper` trunk analytic envelope at matching axial coordinates. It forms a diagnostic one-to-one annular bridge patch while leaving the indexed trunk mesh uncut and unchanged.
 
-This is exactly the point where Organic source authority could be accidentally inverted: a useful derived Geometry receiver candidate must not silently become new source truth. The highest-leverage Organic improvement is therefore an explicit source-fidelity return and no-backpropagation gate, not another transition observer, branch edit, flex edit, or topology proposal.
+This is the point where Organic source authority could be accidentally inverted: a useful derived Geometry receiver candidate must not silently become new source truth. The highest-leverage Organic improvement is therefore an explicit source-fidelity return and no-backpropagation gate, not another transition observer, branch edit, flex edit, or topology proposal.
 
 ### Other design repositories
 
@@ -55,9 +55,7 @@ Extended the existing Nature Organic PR #8 only:
 - PR remains OPEN / DRAFT / UNMERGED / MERGEABLE;
 - new retained product-side document: `docs/ORGANIC_EAST_REAR_GEOMETRY_BRIDGE_SOURCE_FIDELITY_009.md`.
 
-No duplicate Organic PR was opened.
-
-No source or mesh mutation was made.
+No duplicate Organic PR was opened. No source or mesh mutation was made.
 
 Exact source/form identity remains:
 
@@ -118,19 +116,29 @@ Retained related boundaries:
 
 Organic owns source form. Geometry owns indexed topology / cuts / bridges / weld-remesh choices and connected-junction verification. Rigging owns hierarchy, joints, constraints, skinning, weights and deformation acceptance. Animation/VFX own motion / response semantics. Technical Art / Runtime own target-host/device evidence. Art Direction / independent QA own perceptual acceptance.
 
-## Verification state
+## Exact current-head verification
 
-The product-side change at `6620138f...` is documentation-only; source, observers, tests, workflows and mesh bytes are unchanged from exact passing head `7f3b937b...`.
+The product-side change at `6620138f108efb5261a90c971bec221b7fa104a9` is documentation-only; source, observers, tests, workflows and mesh bytes are unchanged from the prior exact passing structural/evidence head `7f3b937b...`.
 
-At status-write time, the three push-triggered workflows for current documentation head `6620138f108efb5261a90c971bec221b7fa104a9` have been observed queued:
+All three current-head workflows completed successfully:
 
-- `35344295096 — Organic east rear tree evidence`;
-- `35344295032 — Nature organic form baseline`;
-- `35344295085 — Organic compact east tree evidence`.
+- **`35344295096 — Organic east rear tree evidence` — SUCCESS**;
+- `35344295032 — Nature organic form baseline` — SUCCESS;
+- `35344295085 — Organic compact east tree evidence` — SUCCESS.
 
-No current-head CI success is claimed until those runs complete. The prior exact passing structural/evidence head and artifact remain retained truth rather than being silently transferred.
+Current-head retained east-rear evidence artifact:
 
-## Handoffs / next trigger
+- ID **`10546632016`**;
+- name `east-rear-tree-neutral-001-evidence`;
+- size **`55,979 B`**;
+- GitHub SHA-256 **`52bad36f207382c8e396ad552d73ac6c147d4f02e7ed0a02eb22cb5f4fce47ff`**.
+
+The artifact ZIP was downloaded in this activation and independently rehashed to the same SHA-256. No artifact/source/mesh change is inferred from the documentation-only commit beyond what the green exact-head workflows actually re-executed.
+
+## Handoffs retained
+
+- Organic PR #8 source-fidelity return comment: **`5729924271`**;
+- Geometry PR #18 Organic consumer return comment: **`5729925626`**.
 
 Geometry PR #18 owns the next indexed-trunk-cut / connected-junction decision. Organic does not choose or pre-authorize a cut, weld, boolean, remesh, shared ring, bridge adoption, source rewrite, or Rigging rebind.
 
@@ -163,7 +171,7 @@ Explicitly still false / unclaimed:
 
 **Agency / non-domination:** Organic does not seize Geometry topology, Rigging policy, Animation/VFX semantics, Technical-Art transport, Runtime/device behavior, Art/QA judgment or merge/CANON authority.
 
-**Continuity:** Organic PR #8, source/form owner, source digest, historical mesh identity, prior transition evidence and predecessor status blob remain preserved. The new document extends the chain without rewriting source history.
+**Continuity:** Organic PR #8, source/form owner, source digest, historical mesh identity, prior transition evidence and predecessor status blobs remain preserved. The new document extends the chain without rewriting source history.
 
 **Wisdom before speed:** source reshaping is refused because Geometry returned no localized Organic defect. The source/receiver authority gate is made explicit before the derived bridge can accidentally back-propagate into authored form.
 
