@@ -2,173 +2,174 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_SUCCESSOR002_LANE_SCOPED_CONTINUITY_REPAIR / OBJECT_TA_PR16_HEAD_089E31B9_OPEN_DRAFT / RUN_35346552170_SUCCESS / PY311_PY313 / GODOT_4_7_2_TARGET_REPROVED / 4_PROTECTED_PAYLOAD_FILES_BYTE_IDENTICAL_TO_F430D00D / MUTATION_NEGATIVE_REJECTED / ARTIFACT_10547786134_SHA_A601905F / CURRENT_UC_722B0925_INSPECTED_UNCHANGED_GENERIC_3D_BLOBS / DIRECTION048_CANDIDATE_DIGEST_CORRECTED_TO_9BBCB244 / ART_DIRECTION_DIRECTION051_REJECTS_CANDIDATE_AND_FREEZES_CONTROL / HOLD_ART_QA_SOURCE_DEFAULT_FINAL_NORMAL_TANGENT_RUNTIME_DEVICE_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_NATURE_NORTH_LOW_INDEXED_BRIDGE_CURRENT_UC_GODOT_ENDPOINT_REGION_TRANSPORT / NATURE_TA_PR3_HEAD_32B0768C_OPEN_DRAFT / RUN_35353489746_SUCCESS / PY311_PY313 / GODOT_4_7_2 / 16V_16T / MOVING_0_8_FIXED_8_16 / 96B_PARTIAL_192B_FULL / 5_EXACT_RIGGING_POSES / FULL_PARTIAL_RENDER_BYTE_IDENTICAL / OWNER_CONTINUOUS_MIN_SPAN_0P010575309M / TARGET_MIN_SPAN_0P010628111M / ARTIFACT_10550833260_SHA_57A21ACE / CURRENT_UC_F7434152_EXACT_TESTED / HOLD_ANIMATION_INDEXED_ADOPTION_CONNECTED_TOPOLOGY_SKINNING_FOLDOVER_COLLISION_RUNTIME_DEVICE_FINAL_SHADING_QA_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current Technical Art status, current Art Direction / Visual QA / Runtime constellation, active Object and Nature Technical Art lanes, and fresh `axm-universal-creation`.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, the current specialist constellation, active Nature Technical Art / Geometry / Rigging / Animation lanes, and fresh `axm-universal-creation`.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation remains in owning design repositories. The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product and evidence implementation stays in the owning design repository. The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The preceding Direction-048 Technical Art status is preserved in Git history. This activation does not rewrite its retained artifact or visual evidence.
+The preceding Object successor002 lane-continuity status is preserved in Git history; this activation does not rewrite that retained evidence.
 
 ## Highest-leverage bounded gap selected
 
-Object Technical Art PR #16 had a real evidence-lane coexistence defect. The historical workflow `Object Technical Art hinge successor002 transport` still compared the **entire cumulative PR diff** against the five files that existed when successor002 was first proved. Later unrelated additive Technical Art evidence lanes therefore made the old workflow fail before owner / UC / Godot execution even when its own successor002 payload was unchanged.
+The current Nature north-low indexed diagnostic had exact owner evidence through Geometry and Rigging, but no Technical Art proof that the already-owned 8+8 indexed bridge could pass through generic current UC and survive a real target-host partial endpoint update without silently becoming connected topology, Animation, Runtime, or production-skinning authority.
 
-Historical false-red retained:
+Existing lane reused:
 
-- run **`35341930680`**;
-- exact head `36f653ef0409a66d5d00def18a8f9dccd00c3336`;
-- both Python lanes stopped at the cumulative bounded-delta equality guard;
-- owner, UC and Godot execution were never reached in that run.
+- repository `mike-axiom-mir/axm-nature-design`;
+- Technical Art PR #3;
+- branch `studio/uc-nature-surface-bridge-001`.
 
-This is a Technical Art evidence-contract/tooling defect, not an Object geometry or UC product defect. No duplicate domain lane was opened.
+No duplicate Geometry, Rigging, Animation, Runtime, VFX, or UC lane was opened.
 
-## Smallest reusable repair
+## Exact owner lineage
 
-Existing Object Technical Art lane reused:
+Geometry donor:
 
-- repository `mike-axiom-mir/axm-object-design`;
-- PR #16;
-- branch `studio/technical-art-rigid-scene-handoff-001`.
+- head `8ab552710df21567cfd601af99181918e2cfadb3`;
+- result `PASS_NORTH_LOW_EXACT_INDEXED_TRUNK_SURFACE_REBIND__HOLD_INDEXED_CUT_CONNECTED_JUNCTION`;
+- module blob `af43e49bf6f14c050a3930d3258bc4ee50c0a9f3`;
+- contract blob `081e2a610a6938cb12c501b7f8a907e590a7214c`.
 
-Added one generic Technical Art helper:
+Rigging owner:
 
-`tools/verify_ta_evidence_lane_continuity.py`
+- head `5c0c06be96996bad464846071b2a55622be14620`;
+- result `PASS_NORTH_LOW_INDEXED_SURFACE_RECEIVER_RIGGING_REBIND_AND_CONTINUOUS_PAIRED_SPAN_NONCOLLAPSE_MINUS5_TO_PLUS5__HOLD_INDEXED_CUT_CONNECTED_JUNCTION_TRIANGLE_FOLDOVER_COLLISION`;
+- module blob `538f03e4b1bd84fdde2711b866f890aa396188a3`;
+- contract blob `097933b32ecb2cf3f4e0e99d8863036341024646`;
+- continuous owner minimum paired span `0.010575309141317374 m` at `+1.728569241124476°`;
+- representative owner minimum paired span `0.010628815523363611 m`.
 
-Schema/result:
+The exact source blob remains `fb12b759e1abfd0455bf46fd39a0eba27095796b` in both owner checkouts.
 
-- `axm.ta-evidence-lane-continuity/v0.1`;
-- `PASS_TA_EVIDENCE_LANE_PROTECTED_FILES_UNCHANGED`.
+Current/tested UC:
 
-The helper deliberately protects only named files belonging to a previously proven evidence lane while allowing unrelated additive sibling lanes on the same long-lived branch. It requires the baseline commit to remain an ancestor, compares baseline commit bytes, current committed bytes and current worktree bytes, and emits a retained receipt.
+- head `f7434152295bc9a3d57c59767481b2ef042ec675`;
+- `src/axm_uc/procedural_3d.py` blob `cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`.
 
-The successor002 workflow now pins four payload files byte-for-byte to previously green Technical Art head:
+This UC head was also fresh `main` at final inspection, so no fresh-head continuity inference is needed.
 
-**`f430d00d98e694dcf8302fd4df3c64a074f6f30e`**
+## Smallest reusable Technical Art repair
 
-Protected payload:
+Nature-local additions on the existing Technical Art lane:
 
-1. `contracts/object_hinge_successor002_ta_transport_rebind.json` — SHA-256 `f5ef584cc4e418463990706d7767556c4946b028ac2cf917072613b3b8183677`;
-2. `rigid-proof/successor002_observe.gd` — SHA-256 `da80aabc23470123f669f20bb597e4e884ed6e620d025f8a20e94edb9feeb409`;
-3. `tools/build_object_hinge_successor002_ta_transport_rebind.py` — SHA-256 `68eb1e3b45fcdb18b139dc211c322358e9e7c6058e6434216f0b24df8c765ea7`;
-4. `tools/verify_object_hinge_successor002_godot_transport.py` — SHA-256 `ed627603ac6553dc632c183d4ad790d83ea47172d8aabfac92783deadb8724cb`.
+- `src/axm_nature_design/uc_indexed_bridge_receiver.py`;
+- `tools/build_uc_indexed_bridge_target_evidence.py`;
+- `contracts/nature-north-low-indexed-bridge-target-003.json`;
+- `target-proof/observe_indexed_bridge_endpoint_region.gd`;
+- `.github/workflows/uc-nature-indexed-bridge-target.yml`.
 
-This replaces only the brittle PR-wide equality test. It does **not** weaken the successor002 owner, geometry, Rigging, UC, target-host, tolerance or authority gates.
+The adapter transports only the exact owner evidence into generic `axm.surface-3d/v0.1`:
 
-## Fail-closed self-test
+- 16 vertices / 16 triangles;
+- moving source/target region `[0,8]`;
+- fixed source/target region `[8,16]`;
+- 12-byte POSITION stride;
+- partial moving packet 96 B at byte offset 0;
+- full POSITION packet 192 B;
+- source `[x,y,z] -> UC [x,z,y]`, determinant `-1`, with triangle winding reversed exactly once.
 
-Every workflow run deliberately mutates one protected successor002 contract in the worktree and requires the continuity guard to reject it before restoring the exact committed file.
+Neutral normals are explicitly **Technical Art proof normals only**. They use equal-weight unit-face averaging solely to satisfy UC's fail-closed face-winding/normal consistency check without modifying owner geometry or topology. Final Nature normal/tangent authority remains held.
 
-Retained negative:
+The exact Geometry evidence is re-executed in its own checkout and passed as serialized data into the exact Rigging owner checkout. This avoids copying newer Geometry domain code into the older exact Rigging owner or into UC.
 
-**`PASS_PROTECTED_SUCCESSOR002_LANE_MUTATION_REJECTED`**
+**UC product code was not modified. No Nature, branch, indexed-topology, Rigging, Animation, Runtime, Godot, or Technical Art target policy moved into UC.**
 
-The existing successor byte-drift and automatic-downstream-adoption negatives also remain unchanged and green.
+## Retained predecessor failures and bounded repairs
+
+Three predecessor failures remain retained rather than relabelled:
+
+1. `35352284107` — the first Technical Art builder tried to import the newer Geometry module from the exact older Rigging checkout. Repair: pass re-executed exact Geometry evidence as data to Rigging instead of duplicating/importing domain code across owner snapshots.
+2. `35352881628` — current UC correctly rejected the first area-weighted proof normals because several diagnostic faces disagreed with their shared vertex normals. Repair: equal-weight unit-face proof normals plus a local fail-closed face-dot self-check; geometry, topology, indices and UC were unchanged.
+3. `35353127324` — Python 3.13 and all pre-target gates were green, but real Godot stopped at a JSON Array equality false-negative for `[0,8]` / `[8,16]`. Repair: validate array cardinality and compare `int(...)` elements explicitly. No oracle, tolerance, geometry, owner behavior, or target acceptance threshold changed.
 
 ## Exact successful path
 
-Exact current Technical Art head:
+Exact Technical Art head:
 
-**`089e31b9f0e921b728378af728783c4f453c9fbc`**
+`32b0768ca5608cf278f7135903e7916f780eaac8`
 
-PR #16 remains **open / draft / unmerged** at inspection.
+Dedicated workflow:
 
-Dedicated rerun:
+`35353489746 — UC Nature indexed bridge target receiver — SUCCESS`
 
-**`35346552170 — Object Technical Art hinge successor002 transport — SUCCESS`**
+Both Python 3.11 and 3.13 passed exact owner binding, the full Rigging suite, current-UC publication/verification, receiver contract verification and three fail-closed negatives. Python 3.11 additionally exercised pinned **Godot 4.7.2 stable official** in GL Compatibility.
 
-Both Python 3.11 and 3.13 lanes passed the new lane-continuity guard, owner reconstruction, exact Rigging artifact binding, successor002 Technical Art rebind, and existing fail-closed controls. Python 3.11 additionally reran pinned **Godot 4.7.2** and retained target-host evidence.
+Pre-target result:
 
-Real-target result reproduced:
+`PASS_NATURE_NORTH_LOW_INDEXED_BRIDGE_CURRENT_UC_TARGET_RECEIVER_READY`
 
-**`PASS_OBJECT_HINGE_SUCCESSOR002_CURRENT_UC_GODOT_TRIANGLE_TRANSPORT`**
+Real-target result:
 
-Measured retained facts:
+`PASS_NATURE_NORTH_LOW_INDEXED_BRIDGE_CURRENT_UC_GODOT_ENDPOINT_REGION_TRANSPORT`
 
-- 5 hinge components;
-- 96 triangles each / **480 aggregate hinge triangles**;
-- target-host receiver-local triangle transform remains exact `[a,b,c] -> [a,c,b]` for this receiving path;
-- maximum POSITION transport delta **`6.329547414113401e-07 m`** under the existing `1e-6 m` gate;
-- lid witnesses move **`0.413619339466095 m`** under the retained 50-degree review transform;
-- all three body witnesses remain **`0.0 m`**;
-- source indices are still explicitly **not** relabelled byte-equal after Godot import.
+Measured target facts:
 
-The current exact head also showed **22 completed observed checks with no failure conclusion present**. This statement is limited to checks attached to this exact head; it does not erase historical failed runs on older heads.
+- imported vertices: 16;
+- imported triangles: 16;
+- imported-neutral maximum owner/oracle distance: `2.0977981876058e-06 m` under the bounded `1e-4 m` import-observation gate;
+- five exact Rigging representative poses exercised: `-5, -2.5, 0, +2.5, +5°`;
+- full 192 B update versus first-eight-vertex 96 B partial update: **0 changed pixels / max channel delta 0** in every one of the five 630,000-pixel control/candidate pairs;
+- all four non-zero poses are strongly discriminating from neutral: 22,758 / 17,854 / 17,782 / 22,256 changed pixels respectively;
+- minimum target-host paired span across the five representative poses: `0.0106281107291579 m`, remaining above the retained `0.009 m` target floor;
+- exact source numeric identity after Godot import is **not** claimed; the proof uses the actual imported receiver baseline for the fixed half.
+
+The owner continuous minimum `0.010575309141317374 m` remains a Rigging analytic certificate, not a claim that Technical Art exhaustively rendered every continuous angle.
+
+## Fail-closed controls
+
+Every workflow run rejects:
+
+- widening the moving endpoint region from 8 to 9 vertices;
+- promoting this diagnostic into connected indexed trunk topology;
+- promoting this target transport into Animation adoption/playback.
+
+Retained marker:
+
+`PASS_REJECTED_ENDPOINT_REGION_DRIFT_CONNECTED_TOPOLOGY_AND_ANIMATION_AUTHORITY_INFLATION`
 
 ## Retained evidence
 
-Artifact **`10547786134`**:
+Artifact `10550833260`:
 
-- name `object-technical-art-hinge-successor002-089e31b9f0e921b728378af728783c4f453c9fbc`;
-- GitHub payload size **114,760 B**;
-- **40 files**;
-- **1,564,312 B uncompressed**;
-- SHA-256 **`a601905faa86306e82e10b293756b07814f12af33d0cda5d154b03c9d3f8773c`**;
-- downloaded archive independently reproduced that exact digest.
+- name `nature-north-low-indexed-bridge-target-32b0768ca5608cf278f7135903e7916f780eaac8`;
+- GitHub payload size `179,806 B`;
+- 30 files;
+- `272,797 B` uncompressed;
+- SHA-256 `57a21aced26617a6ce9e22c704d21de9edd60da51737a31667c8752d81acaffa`;
+- downloaded archive independently reproduced the exact same digest.
 
-The artifact retains the continuity receipt, deliberate mutation negative, exact owner receipts, successor002 rebind artifacts, Godot arrays/receipt, and the generic guard source used by the run.
-
-## Current UC inspection
-
-Fresh `axm-universal-creation` main at inspection:
-
-**`722b0925635960b48c02247e6e0381380f3f7d7e`**
-
-Its newest merge is bounded physics radial-envelope active-set verification. The generic 3D modules relevant to this Object transport remain byte-identical to the earlier family:
-
-- `src/axm_uc/procedural_3d.py` blob **`cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`**;
-- `src/axm_uc/rigid_scene_graph.py` blob **`fada5e5e06e110b48c7c9886e6a7f73c5c3a2d44`**.
-
-The repaired historical successor002 workflow intentionally continues to pin its originally proved UC `9609998d...`; this activation repairs lane-continuity bookkeeping, not the owner/UC lineage. Fresh-UC inspection therefore does **not** masquerade as a new current-UC successor002 rerun.
-
-**UC product code was not modified. No Object, hinge, Godot or Technical Art evidence-lane policy was centralized into UC.**
-
-## Direction-048 source-integrity correction and current Art disposition
-
-The preceding Technical Art coordination status carried a stale candidate GLB identity `cdf9b04d...`. That value is corrected here.
-
-The retained Direction-048 artifact `10544549523` independently hashes:
-
-`candidate-analytic-radial-normal.glb` -> **`9bbcb24415ee38c3c30a79e63584f3f6ca7b9a7446f358d9b32b322370aa1d14`**.
-
-Current Art Direction Direction 051 has since reviewed the real candidate and records:
-
-- **FAIL** for the rear-grazing near-white-band regression;
-- only a local rear-three-quarter brightness-reduction PASS;
-- freeze the synchronized successor002 control as the current review reference;
-- stop a second normal candidate / normal sweep;
-- request independent Visual QA;
-- no source/default adoption.
-
-Technical Art does not override that visual decision. The corrected digest is coordination truth only; the retained product artifact is unchanged.
+It retains the exact owner modules/contracts/source, current-UC GLB and surface, target oracle, pre-target receipt, Godot target receipt, all control/candidate/neutral images, negative-control marker, exact heads, observer and builder/adapter sources.
 
 ## Authority boundary / HOLDs
 
-This activation proves evidence-lane coexistence and reruns the exact historical successor002 receiver path. It does **not** prove or adopt:
+This activation proves only the exact indexed diagnostic endpoint-region transport for the pinned Geometry/Rigging lineage. It does **not** prove or adopt:
 
-- Art Direction acceptance of the rejected analytic-radial candidate;
-- independent Visual-QA acceptance;
-- Object source/default normal adoption;
-- final owner-authoritative normals or tangents;
-- Rigging/Animation/Runtime behavior changes;
-- collision, physics or gameplay;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- Animation transfer, timing, interpolation, or playback over this indexed successor;
+- connected indexed cut/junction topology;
+- production skinning or weighting;
+- continuous triangle foldover/collision safety;
+- Runtime/controller/device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- physical wind/VFX behavior;
+- collision/gameplay/physics;
+- final Nature normals/tangents/materials/lookdev;
+- Art Direction or independent Visual-QA acceptance;
+- Map/default-world adoption;
 - CANON;
-- production/game readiness;
-- Technical Art mastery.
+- production/game readiness.
 
 ## Four-root check
 
-**Truth:** the prior false-red run remains retained; the exact cause, protected files, mutation negative, fresh successful rerun, target measurements, artifact digest and Direction-048 digest correction are explicit.
+**Truth:** all three predecessor failures remain explicit, the current-UC rejection was respected rather than bypassed, Godot import is treated as bounded numeric observation rather than source-byte identity, and the final exact workflow/artifact are pinned.
 
-**Agency / non-domination:** Object/domain owners retain source authority, Art Direction and Visual QA retain visual acceptance, Runtime retains device/behavior authority, and Technical Art owns only its integration/evidence plumbing.
+**Agency / non-domination:** Geometry and Rigging retain domain authority; Animation, Runtime, Art and Visual QA retain theirs; Technical Art owns only its receiver/transport evidence; UC receives no Nature policy.
 
-**Continuity:** historical successor002 payload files are byte-pinned to the exact previously green head while later sibling evidence lanes may coexist without causing a false failure.
+**Continuity:** the existing Nature TA PR #3 is reused, exact owner heads/blobs are pinned, and the successful path consumes rather than recreates their evidence.
 
-**Wisdom before speed:** repaired one reusable guard rather than deleting old evidence, weakening owner gates, opening another domain lane, or moving branch-specific policy into UC.
+**Wisdom before speed:** each failure was repaired at the smallest boundary that caused it—evidence plumbing, proof-normal construction, then target receipt typing—without weakening UC verification, owner semantics, target tolerances, or authority gates.
 
 ## Current state
 
-`PASS_OBJECT_SUCCESSOR002_LANE_SCOPED_CONTINUITY_REPAIR / TA_PR16_HEAD_089E31B9_OPEN_DRAFT / RUN_35346552170_SUCCESS / PY311_PY313 / GODOT_4_7_2 / PROTECTED_4_FILES_BYTE_IDENTICAL_TO_F430D00D / MUTATION_NEGATIVE_REJECTED / 480_HINGE_TRIANGLES / MAX_POSITION_DELTA_6P3295E-7M / ARTIFACT_10547786134_114760B_40_FILES_SHA_A601905F / CURRENT_UC_722B0925_BLOBS_CDB654D4_FADA5E5E_UNCHANGED / DIRECTION048_CANDIDATE_GLB_CORRECT_9BBCB244 / DIRECTION051_ART_REJECTS_CANDIDATE_FREEZES_CONTROL / HOLD_ART_QA_SOURCE_DEFAULT_FINAL_NORMAL_TANGENT_RUNTIME_DEVICE_CANON_PRODUCTION / COORDINATION_ONLY`
+`PASS_NATURE_NORTH_LOW_INDEXED_BRIDGE_CURRENT_UC_GODOT_ENDPOINT_REGION_TRANSPORT / TA_PR3_HEAD_32B0768C_OPEN_DRAFT / RUN_35353489746_SUCCESS / PY311_PY313 / GODOT_4_7_2 / 16V_16T / MOVING_0_8_FIXED_8_16 / 96B_PARTIAL_192B_FULL / FIVE_RIGGING_POSES_FULL_PARTIAL_RENDER_IDENTICAL / TARGET_MIN_SPAN_0P010628111M / ARTIFACT_10550833260_179806B_30_FILES_SHA_57A21ACE / UC_F7434152_CDB654D4_EXACT_TESTED / HOLD_ANIMATION_INDEXED_ADOPTION_CONNECTED_TOPOLOGY_SKINNING_FOLDOVER_COLLISION_RUNTIME_DEVICE_FINAL_SHADING_QA_CANON_PRODUCTION / COORDINATION_ONLY`
