@@ -2,127 +2,153 @@
 
 Date: 2026-09-18
 
-State: **PASS_CURRENT_WORLD_NATURE_CURRENT_OWNER_RUNTIME_RIGID_CONTROL_CONVERGENCE / MAP_PR53_HEAD_24E6F7C9_OPEN_DRAFT_UNMERGED_MERGEABLE / EXACT_CURRENT_OWNER_CHAIN_TA_02C5223D_ANIM_5CACD61E_RIG_69640E55_UC_7DDEFCA5 / RUNTIME_PR20_C8A017C5_GREEN / KEEP_CURRENT_TA_RIGID_NODE_CONTROL / HOLD_PREDECESSOR_SHADER_TRANSFER_ZERO_FRESH_BUDGET_WIN / EXISTING_41_SAMPLE_12_NODE_620_TRIANGLE_WORLD_FIT_RETAINED / ART_QA_DEVICE_FINAL_ADOPTION_HELD / ENVIRONMENT_ADOPTION_FALSE / COORDINATION_ONLY**
+State: **CANDIDATE_CURRENT_WORLD_NATURE_CURRENT_OWNER_ART_DIRECTION_CONVERGENCE / MAP_PR53_HEAD_0AD6DAE6_OPEN_DRAFT_UNMERGED_MERGEABLE / EXACT_CURRENT_OWNER_CHAIN_TA_02C5223D_ANIM_5CACD61E_RIG_69640E55_UC_7DDEFCA5 / RUNTIME_C8A017C5_KEEP_RIGID_CONTROL_SHADER_HELD / ART_DIRECTION_052_GREEN_ON_EXACT_RIGID_RECEIVER / INDEPENDENT_CURRENT_OWNER_QA_PENDING / NEW_ENVIRONMENT_WORKFLOW_35351067090_QUEUED / ENVIRONMENT_ADOPTION_FALSE / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, the prior Environment ledger, current Map PRs, and fresh Building / Nature / Object / Weather plus Art Direction / Runtime / Visual Observer QA status across the constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, this Environment ledger, and current Building / Nature / Object / Weather / Map plus Art Direction / Runtime / Visual Observer QA state across the constellation.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` mutation in this activation. Product/evidence implementation remains in the owning Map repository lane.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. This status file is the only `axm-create-me` mutation in this activation. Product/evidence work remains in the owning Map lane.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplicate-lane scan
 
-Building remains mature on Map PR #51: the reviewed production utility-panel receive and exact-current-owner QA/Art convergence remain established while target-device, close-range/final surface stack and final Environment adoption remain held. No Building rerender or material retune was justified.
+- **Building:** current production utility-panel world receive remains established on Map PR #51. No fresh semantic Building change justified a new Environment scene or rerender.
+- **Object:** newer successor003 / hinge-normal owner work remains outside the accepted current-world receiver chain. Environment does not silently replace the retained articulated Object.
+- **Weather:** no fresh semantic world change justified a new Environment lane. The retained `17` Weather states remain presentation evidence, not physical wind.
+- **Nature:** this is the fresh highest-leverage seam. Runtime already selected the exact current Technical-Art rigid-node receiver and held the shader diagnostic because it produces `0 B/sample` fresh semantic saving. Art Direction has now advanced to Direction 052 on that exact same current-owner subject.
 
-Object's newest analytic-radial hinge-normal hypothesis is Art Direction FAIL for the originating hierarchy objective; successor002 remains the frozen review reference and independent QA is still separate. Environment does not substitute that failed Object candidate into the world.
+Newer Nature analytic-bridge / indexed-branch owner work remains outside Direction 052 and is not inherited by similarity.
 
-Weather has no fresh semantic world change requiring a scene mutation. The retained 17-state Weather presentation remains presentation evidence, not physical wind.
+## Fresh owner handoff
 
-Nature is the fresh highest-leverage seam. The prior Environment pass already proved the exact current Technical-Art `north-low` target receiver fits the existing east-rear reservation in the real multi-asset world. Since then Runtime PR #20 advanced to exact head `c8a017c5b401f7c48a170ee2b0a0a78b4c9c2caa` and evaluated the same exact current owner chain rather than the older predecessor chain.
+Art Direction 052 is coordination commit:
 
-Opening another Map lane or rerendering unchanged world content would duplicate evidence, so Environment reused existing Map PR #53 and selected one bounded representation/provenance integration question.
+`3ae7b994770b98d5debb1e33440fac787410e7a3`
+
+Packet:
+
+`studio/direction/NATURE_CURRENT_OWNER_RIGID_CONTROL_VISUAL_DISPOSITION_DIRECTION_052.md`
+
+Exact Map PR #53 Direction handoff comment:
+
+`5730429977`
+
+Direction 052 establishes, for the exact current owner chain only:
+
+- `PASS_ART_DIRECTION_NATURE_CURRENT_OWNER_RIGID_NODE_RECEIVER_FIXED_VIEW_REFERENCE_052`;
+- `PASS_ART_DIRECTION_NATURE_CURRENT_OWNER_CONTROL_CANDIDATE_RENDERED_SUPPORT_IDENTITY_NINE_WITNESSES_052`;
+- nine exact witness indices `[0, 5, 10, 15, 20, 25, 30, 35, 39]`;
+- aggregate `8,156` pixels above `1 LSB` across those retained pairs;
+- `0` rendered-support XOR pixels in each compared pair;
+- Runtime fresh semantic saving remains `0 B/sample`.
+
+It simultaneously preserves:
+
+- `HOLD_ART_DIRECTION_NATURE_CURRENT_OWNER_SHADER_TRANSFER_052__NO_VISUAL_OBJECTIVE_OR_RUNTIME_WIN`;
+- `REQUEST_INDEPENDENT_VISUAL_QA_CURRENT_OWNER_ARTIFACT_10545219394_052`;
+- `HOLD_FINAL_NATURE_LOOKDEV_TANGENT_NORMAL_NATURAL_PLAYBACK_DEVICE_NEWER_BRIDGE_CANON_PRODUCTION_052`.
+
+Independent Visual Observer QA has **not** yet closed that exact current-owner Nature handoff, so Environment does not transfer older Nature QA by analogy.
 
 ## Highest-leverage bounded improvement
 
-Environment added an **exact-current-owner Runtime representation convergence gate** to Map PR #53.
+Environment reused existing **Map PR #53** rather than opening another lane or rerendering unchanged world content.
 
-Exact current Map PR #53 head:
+Exact current Map PR #53 candidate head:
 
-`24e6f7c966a4bd2df9eb714013139d6303eae42f`
+`0ad6dae6c649f82470e0e653518b73e4100cae32`
 
 Observed PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-The gate pins the already-proven Environment receiver and the fresh Runtime owner decision to the same exact Nature chain:
+The new bounded improvement is an executable **current-owner Art Direction convergence gate**. It consumes the exact retained real-world Environment/Runtime evidence and asks one narrow question: may Direction 052 be attached to the already-proven receiving-world subject without pretending that Art acceptance grants independent QA, device, newer-owner, CANON or final Environment authority?
 
-- Technical Art: `02c5223dd9288c12607f0553e2f1103be38ae71f`;
-- Technical Art artifact: `10542513318`, SHA-256 `7b991dfd749ac758ece3c2c6ea320d10cfed5ff38c822c7ed88342461226a932`;
-- Animation: `5cacd61e22433b0c33f29111827283b81cc0ba0d`;
-- Rigging: `69640e558f0c1ac59d4d0e3155676e0967a03d04`;
-- Universal Creation donor: `7ddefca57b153fab02c1f54f38de22148cb52c1b`.
+Candidate scoped result:
 
-Fresh Runtime owner evidence consumed:
-
-- Nature Runtime PR #20 head `c8a017c5b401f7c48a170ee2b0a0a78b4c9c2caa`;
-- owner contract `contracts/east-rear-runtime-current-owner-transfer-003.json`;
-- schema `axm.nature-runtime-current-owner-rigid-node-vs-shader/v0.1`;
-- workflow `35342311604 — Runtime current Nature owner transfer gate`: **SUCCESS**;
-- artifact `10545219394`, SHA-256 `9ad5ed930a1aa4cd8649cc2c339540dcd3097ce8433f2d14f1cbc9908b4c17a5`;
-- target `Godot 4.7.2 GL Compatibility`.
-
-The fresh Runtime comparison is intentionally not promoted beyond its own result:
-
-- current control: `CURRENT_TA_RIGID_PARENT_NODE_TRANSFORM`;
-- diagnostic candidate: `CURRENT_OWNER_SHADER_REBIND_DIAGNOSTIC_ONLY`;
-- control semantic driver state: `4 B` per visible sample;
-- shader candidate semantic driver state: `4 B` per visible sample;
-- fresh semantic saving: `0 B` per visible sample;
-- minimum saving required for transfer: `1 B` per visible sample;
-- exact Runtime decision: `KEEP_CURRENT_TA_RIGID_NODE_CONTROL__HOLD_PREDECESSOR_SHADER_TRANSFER`.
-
-That decision resolves a real integration ambiguity: a green Runtime workflow does **not** mean the shader successor should enter the Environment. The exact current Technical-Art rigid-node receiver remains the receiving representation because the fresh shader candidate provides no current-owner budget win.
+`PASS_CURRENT_WORLD_NATURE_CURRENT_OWNER_ART_DIRECTION_CONVERGENCE__INDEPENDENT_QA_DEVICE_FINAL_ADOPTION_HELD`
 
 Reusable rule:
 
-**`EXACT_RUNTIME_REPRESENTATION_DECISIONS_MAY_CONVERGE_WITH_AN_ALREADY_PROVEN_WORLD_RECEIVER_ONLY_WHEN_OWNER_CHAIN_TARGET_RECEIVER_AND_BUDGET_DECISION_MATCH__A_GREEN_RUNTIME_GATE_DOES_NOT_PROMOTE_A_HELD_SHADER_OR_TRANSFER_ART_QA_DEVICE_CANON_AUTHORITY`**
+**`ART_DIRECTION_MAY_CONVERGE_WITH_AN_ALREADY_PROVEN_WORLD_RECEIVER_WITHOUT_RERENDER_ONLY_WHEN_EXACT_OWNER_CHAIN_SELECTED_REPRESENTATION_REVIEW_ARTIFACT_AND_DIRECTION_IDENTITY_MATCH__QA_DEVICE_FINAL_ADOPTION_DO_NOT_TRANSFER`**
 
-## Exact proof
+## Exact pinned identities
 
-Scoped result:
+Retained Environment predecessor:
 
-`PASS_CURRENT_WORLD_NATURE_CURRENT_OWNER_RUNTIME_RIGID_CONTROL_CONVERGENCE__PREDECESSOR_SHADER_TRANSFER_HELD__VISUAL_DEVICE_FINAL_ADOPTION_HELD`
-
-Dedicated Environment workflow:
-
-`35345816562 — Environment Nature current-owner Runtime representation convergence`
-
-Conclusion: **SUCCESS** on exact Environment head `24e6f7c966a4bd2df9eb714013139d6303eae42f`.
-
-Retained artifact:
-
-- ID `10547430147`;
-- GitHub payload size `8,282 B`;
+- head `24e6f7c966a4bd2df9eb714013139d6303eae42f`;
+- result `PASS_CURRENT_WORLD_NATURE_CURRENT_OWNER_RUNTIME_RIGID_CONTROL_CONVERGENCE__PREDECESSOR_SHADER_TRANSFER_HELD__VISUAL_DEVICE_FINAL_ADOPTION_HELD`;
+- artifact `10547430147`;
 - SHA-256 `5ad71182960bbd6502f954cadf43c69623d41c4413edf09eba8a35b7e5f8bc9b`.
 
-The new verifier reuses the exact retained predecessor Environment artifact rather than manufacturing a second scene proof. It verifies:
+Exact current Nature owner chain:
 
-- the Environment target receiver and Runtime decision share the exact current owner chain;
-- the retained target receiver remains `12 nodes / 620 triangles / 41` endpoint-inclusive samples;
-- all `17` Weather states and the multi-asset world scope `[Building, Object, Nature, Weather, Environment dressing]` remain represented;
-- the prior spatial PASS remains non-mutating and non-adopting;
-- the existing minimum non-ground reservation margin remains positive;
-- all readable-path / Building / compact-east Nature / articulated Object separation guards remain positive;
-- `4 B - 4 B = 0 B`, below the exact `1 B` Runtime transfer minimum;
-- Runtime's exact rigid-control / shader-hold decision is retained rather than reinterpreted.
+- Technical Art `02c5223dd9288c12607f0553e2f1103be38ae71f`;
+- Animation `5cacd61e22433b0c33f29111827283b81cc0ba0d`;
+- Rigging `69640e558f0c1ac59d4d0e3155676e0967a03d04`;
+- Universal Creation `7ddefca57b153fab02c1f54f38de22148cb52c1b`;
+- Runtime `c8a017c5b401f7c48a170ee2b0a0a78b4c9c2caa`;
+- Runtime artifact `10545219394`, SHA-256 `9ad5ed930a1aa4cd8649cc2c339540dcd3097ce8433f2d14f1cbc9908b4c17a5`.
 
-Retained world measurements remain the prior exact target-receiver evidence:
+Selected receiving representation remains:
 
-- minimum transport-adjusted non-ground reservation margin: `0.08348887247861114 m`;
-- transport-adjusted ground residual: `-4.999992062093592e-06 m`;
-- readable-path separation: `3.833477372478611 m`;
-- Building separation: `3.4512500540000004 m`;
-- compact-east Nature separation: `4.125600183921474 m`;
-- articulated Object separation: `8.334980345896223 m`.
+`CURRENT_TA_RIGID_PARENT_NODE_TRANSFORM`
 
-No tree placement, reservation, Building, Object, Nature placement, Weather state, Environment dressing, camera or light changed in this pass.
+Held diagnostic representation remains:
 
-Fail-closed controls are green:
+`CURRENT_OWNER_SHADER_REBIND_DIAGNOSTIC_ONLY`
 
-- attempting to promote the held shader candidate is rejected;
-- attempting to inflate Runtime convergence into Art Direction or independent Visual QA acceptance is rejected.
+## Real multi-asset evidence retained
+
+No new world render is justified because the exact reviewed owner chain, selected representation, Runtime artifact and world composition are unchanged.
+
+The convergence gate reuses the retained real-world evidence subject rather than creating a duplicate render. That evidence still spans:
+
+`[Building, Object, Nature, Weather, Environment dressing]`
+
+and retains:
+
+- `17` Weather states;
+- exact `41` current-owner Nature samples;
+- `12-node / 620-triangle` target receiver;
+- minimum transport-adjusted non-ground reservation margin `0.08348887247861114 m`;
+- transport-adjusted ground residual `-4.999992062093592e-06 m`;
+- readable-path separation `3.833477372478611 m`;
+- Building separation `3.4512500540000004 m`;
+- compact-east Nature separation `4.125600183921474 m`;
+- articulated Object separation `8.334980345896223 m`.
+
+No tree placement, reservation, Building, Object, Nature placement, Weather state, Environment dressing, camera or light changed.
+
+## New executable gate / current verification state
+
+New Map PR #53 files:
+
+- `contracts/environment_nature_current_owner_art_direction_convergence.json`;
+- `tools/environment_nature_current_owner_art_direction_convergence.py`;
+- `docs/ENVIRONMENT_NATURE_CURRENT_OWNER_ART_DIRECTION_CONVERGENCE_005.md`;
+- `.github/workflows/environment-nature-current-owner-art-direction-convergence.yml`.
+
+The verifier checks exact predecessor and owner identities, retained multi-asset world scope, selected rigid representation, held shader transfer, exact Direction 052 comment identity and evidence metrics. It also fails closed on attempts to claim independent Visual QA or final Environment adoption from Art Direction.
+
+Current exact-head workflow runs are **queued**, not yet claimed green:
+
+- push run `35351067090`;
+- PR run `35351070790`.
+
+Therefore the candidate result above is **not yet recorded as a completed PASS**. The prior Runtime-convergence PASS remains the latest completed Environment proof until an exact-head Art-convergence workflow completes SUCCESS.
 
 ## Scope / handoffs
 
-Map PR #53 comment `5730112553` records the exact Runtime/Environment convergence, retained world fit, green workflow/artifact and held authorities.
+Map PR #53 comment `5730788948` records this exact candidate scope, identities, reused world evidence, queued CI state and authority boundaries.
 
-Nature Runtime PR #20 comment `5730114079` records that Environment consumes Runtime's exact current-owner decision without reinterpreting workflow green as shader adoption.
+Primary handoff:
 
-Parent/current-world Map PR #51 comment `5730115414` records continuity: no Building/current-world semantic content changed and no parent-world authority widened.
+- **Visual Observer / QA:** independently review exact current-owner Runtime artifact `10545219394`; Direction 052 acceptance is not QA acceptance.
 
-Art Direction status still records Direction 050 as waiting for current-owner Runtime evidence. Runtime has now returned current-owner evidence, but its truthful disposition is **keep the rigid Technical-Art control and hold the shader transfer**. Environment does not convert that into Art acceptance. The legitimate visual subject for a future Art/QA review is therefore the exact current Technical-Art rigid-node receiver selected by Runtime; the predecessor shader remains diagnostic/held unless an owner returns a new bounded reason to reopen it.
+No new implementation request is sent to Runtime, Technical Art, Animation or Rigging. Runtime's exact `CURRENT_TA_RIGID_PARENT_NODE_TRANSFORM` selection remains intact; the shader remains held.
 
-Independent Visual Observer QA's retained Nature review still belongs to predecessor Runtime head `b9ad7622...` and does not transfer to current Runtime head `c8a017c5...`.
+Parent/current-world Building content on Map PR #51 remains unchanged. The prior Nature spatial and Runtime convergence evidence on PR #53 remains retained and addressable.
 
 ## Decision / remaining holds
 
@@ -131,6 +157,10 @@ Independent Visual Observer QA's retained Nature review still belongs to predece
 `current_world_receiver_representation=CURRENT_TA_RIGID_PARENT_NODE_TRANSFORM`.
 
 `predecessor_shader_transfer=false`.
+
+`art_direction_current_owner_rigid_receiver=true` **as owner Art evidence**, pending successful Environment convergence CI.
+
+`independent_visual_qa_current_owner=false`.
 
 `world_scene_changed=false`.
 
@@ -142,34 +172,30 @@ Independent Visual Observer QA's retained Nature review still belongs to predece
 
 Still **not** established:
 
-- exact-current-owner Art Direction acceptance;
+- completed exact-head Environment Art-convergence CI;
 - exact-current-owner independent Visual QA acceptance;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery behavior;
-- a fresh current-owner GPU/transport win for the shader candidate;
-- natural / physical wind or final vegetation motion quality;
-- connected branch/trunk topology or production skinning;
-- final normals/tangents/lookdev;
-- collision, navigation or gameplay readiness;
+- final normals/tangents/lookdev and natural playback quality;
+- transfer of the newer analytic-bridge / indexed-branch Nature owner lineage;
+- collision/navigation/gameplay readiness;
 - CANON;
 - production/game readiness;
 - Environment mastery.
 
-The next legitimate Environment receive is after exact-current-owner Art/QA returns on the **rigid Technical-Art receiver selected by Runtime**, or after a real owner semantic changes the receiver, representation budget, placement or world envelope. Do not rerun the same spatial or representation gate merely by cadence.
+The next legitimate Environment receive is either: (1) successful completion of this exact-head Art-convergence gate, followed by independent QA on the exact current-owner artifact; or (2) a real owner semantic change to the receiver, representation, placement or world envelope. Do not rerun the same spatial proof merely by cadence.
 
 ## Continuity retained
 
-The immediately preceding Environment status remains recoverable in Git history at blob `60f02bb65b60f4cbb28aa9bdaf2a67168f1ca31f`. It records the full target-receiver reservation proof, including the earlier failed publication-hash attempt and repair, workflow `35341368715`, artifact `10545461660`, and all exact spatial measurements.
-
-Older one-branch, simultaneous source-motion and current target-host reservation evidence on PR #53 remain separately addressable. Map PR #51 Building/current-world evidence remains unchanged. No earlier PASS or FAIL was silently rewritten.
+The immediately preceding completed Environment state remains recoverable in Git history at blob `63c184a086f80f19c52c300b49ec1da97c62390e`. It records exact Runtime convergence workflow `35345816562`, artifact `10547430147`, selected rigid control, held shader transfer and all retained spatial measurements. Older target-receiver and source-motion evidence remains separately retained on PR #53. No earlier PASS or FAIL was silently rewritten.
 
 ## Four-root check
 
-**Truth:** fresh Runtime head/run/artifact, the exact zero-budget-win decision, retained world margins, held shader transfer and still-missing current-owner visual/device acceptance are explicit. Runtime green is not relabelled shader adoption.
+**Truth:** Art Direction 052 is recorded exactly, but queued Environment CI is not relabelled as green and independent QA is not fabricated.
 
-**Agency / non-domination:** Runtime retains representation/budget authority; Technical Art retains target-host receiver authority; Animation/Rigging retain motion/attachment authority; Art Direction and independent QA retain visual acceptance; Environment owns only bounded world integration and representation receiving.
+**Agency / non-domination:** Art Direction owns art acceptance; Visual Observer / QA keeps independent review authority; Runtime keeps representation/budget authority; Technical Art / Animation / Rigging keep their owner domains; Environment owns only bounded receiving-world convergence.
 
-**Continuity:** existing Map PR #53 was extended rather than replaced, the prior exact target-receiver artifact is reused as evidence, and predecessor shader / old QA results remain retained at their exact identities rather than being overwritten.
+**Continuity:** existing Map PR #53 and the retained real multi-asset artifact are reused. No duplicate lane, scene rewrite or silent owner substitution was introduced.
 
-**Wisdom before speed:** Environment consumes the fresh Runtime decision once, avoids a redundant world render, keeps the no-win shader held, and stops before visual/device/CANON/final adoption inflation.
+**Wisdom before speed:** no redundant rerender is manufactured for an unchanged subject; the reusable provenance gate is added once and stops at the first unresolved independent boundary.
 
 The four AXM roots remain the merge gate.
