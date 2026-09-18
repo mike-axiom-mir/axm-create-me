@@ -2,183 +2,144 @@
 
 Date: 2026-09-18
 
-State: **PASS_NORTH_LOW_WEATHER_POLARITY_CURRENT_GODOT_TARGET_REVIEW / NATURE_VFX_PR28_409DEDA6_EXACT / TECH_ART_PR3_02C5223D_EXACT / SOURCE_VFX_PR27_E6704C31_EXACT / WEATHER_PR2_CA2EABA5_VISUAL_DIRECTION_ONLY / REAL_GODOT_4_7_2 / 41_OWNER_SAMPLES / 41_OF_41_SOURCE_TARGET_SIGN_PHASE_AGREEMENT / ZERO_WEATHER_SIGN_VIOLATIONS / ENDPOINT_CLOSED / COORDINATION_ONLY**
+State: **PASS_NORTH_LOW_ANALYTIC_BRIDGE_WEATHER_VISUAL_RESPONSE_GRADIENT / NATURE_VFX_PR29_57944395_EXACT / RIGGING_ENDPOINT_DONOR_0BB186B4_EXACT / WEATHER_PR2_CA2EABA5_VISUAL_DIRECTION_ONLY / FIVE_OWNER_WITNESSES / ZERO_POLARITY_VIOLATIONS / PINNED_TRUNK_ZERO_DRIFT / SOURCE_SPACE_ONLY / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the preceding VFX ledger, and fresh design-repository / PR activity before selecting this lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the preceding VFX ledger, specialist status files, and fresh activity across the design repositories before selecting a lane.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. The VFX implementation, tests, target observer, evidence workflow and review surface live in the owning design repository `mike-axiom-mir/axm-nature-design`. The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation, tests and evidence live in `mike-axiom-mir/axm-nature-design`. The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate predecessor status blob:
 
-`ffc3089c792e3be1ad069a346737d4ec9aa78459`
+`e27af5b41b74987baaa8d5fe19d119e0b22492da`
 
-That exact blob remains recoverable in Git history. It preserves VFX PR #27's sampled source-space north-low Weather-response proof under parent stress and the full predecessor chain. This activation consumes the materially new Technical-Art target receiver named as the prior justified next trigger rather than silently replacing the source-space result.
+That blob remains recoverable in Git history and preserves VFX PR #28's exact real-Godot target-host Weather-polarity continuity proof for the older detached `north-low` receiver. This activation does not rewrite it. It consumes a materially new Geometry/Rigging receiver handoff that did not exist in that proof.
 
 ## Fresh constellation / duplicate-lane scan
 
-The fresh design-repository scan did not justify reopening already-developed Weather/Map temporal-exposure review, Object release-mote VFX, or another source-space Nature sign/response lane. The strongest new owner handoff is Nature **Technical Art PR #3**, which now provides a green exact current UC / GLB / real-Godot 4.7.2 receiver for the same detached `north-low` diagnostic state across all 41 exact owner samples.
+The current design-repository scan did not justify reopening Map/Weather temporal exposure, Object release motes, the older five-socket response family, or the previous detached north-low target-host review. The strongest fresh VFX handoff is Nature Rigging PR #14's exact green analytic-bridge endpoint donor.
 
-That closes the previously explicit VFX evidence gap and creates one narrow non-duplicated question: **does the established source-space Weather visual-direction polarity survive the exact Technical-Art -> UC -> imported Godot target receiver across the full owner loop?**
+Exact consumed Rigging endpoint donor:
+
+- head `0bb186b4e22ab8911dd93675754690b68da99802`;
+- endpoint module blob `352e7c83e57779aef327390f5250875e26a7b610`;
+- endpoint contract blob `c82794fb44daee0889782ce1a30294b17a3ce94a`;
+- result `PASS_NORTH_LOW_ANALYTIC_BRIDGE_ENDPOINT_PIN_DIAGNOSTIC__HOLD_CONNECTED_TOPOLOGY_PRODUCTION_SKINNING`;
+- receiver mode `ANALYTIC_BRIDGE_TWO_BOUNDARY_DIAGNOSTIC_PIN`;
+- moving branch boundary: 8 vertices / diagnostic endpoint ownership `1.0`;
+- pinned analytic trunk boundary: 8 vertices / diagnostic endpoint ownership `0.0`;
+- interior bridge vertices: 0;
+- owner witnesses: `-5 / -2.5 / 0 / +2.5 / +5°`.
+
+Rigging PR #14 continued to advance after this exact green handoff during the activation, but its endpoint module remains byte-identical on the later observed branch head. VFX deliberately pins the exact tested donor instead of silently adopting unrelated later branch additions.
 
 ## Selected bounded improvement
 
-Owning implementation repository:
+Owning repository: `mike-axiom-mir/axm-nature-design`.
 
-`mike-axiom-mir/axm-nature-design`
+Draft PR **#29 — `VFX: review Weather response across north-low analytic bridge`**:
 
-VFX receiving lane:
+- branch `studio/vfx-north-low-analytic-bridge-weather-response-011`;
+- exact tested VFX head `57944395a02ba5bf19f69a916a3bee4e71383fab`;
+- open / draft / unmerged;
+- scoped result `PASS_NORTH_LOW_ANALYTIC_BRIDGE_WEATHER_VISUAL_RESPONSE_GRADIENT`.
 
-- draft PR **#28 — `VFX: prove north-low Weather response through current Godot target`**;
-- branch `studio/vfx-north-low-godot-weather-target-010`;
-- exact tested head **`409deda6a578b00e34634e6052d2a747f41c5218`**;
-- exact base / Technical-Art owner head **`02c5223dd9288c12607f0553e2f1103be38ae71f`**;
-- observed state after verification: **open / draft / unmerged / mergeable**;
-- scoped result **`PASS_NORTH_LOW_WEATHER_POLARITY_CURRENT_GODOT_TARGET_REVIEW`**.
+The bounded question is only: **does the newly returned analytic bridge diagnostic preserve the established `north-low` Weather visual-direction polarity, and what visual-response gradient appears across its exact two endpoint rings?**
 
-Only VFX-owned contract, observer, verifier/review builder, docs and workflow material were added. No Animation timing, Rigging articulation, Technical-Art receiver, Universal Creation machinery, Weather source, Runtime, gameplay or physics owner source was rewritten.
+No Organic, Geometry, Rigging, Weather, Animation, Technical-Art, Runtime, gameplay or physics owner source was rewritten.
 
-## Exact donors and continuity
+## Exact Weather continuity
 
-### Technical Art target receiver
+Weather PR #2 remains the unchanged source owner:
 
-Nature Technical Art PR #3 exact consumed head:
+- head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
+- source blob `11298d447f262da8a78e43e2df68bc0346c99a2c`;
+- direction `[1.0, 0.35]`;
+- semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
 
-`02c5223dd9288c12607f0553e2f1103be38ae71f`
+Prior VFX north-low polarity continuity remains the reference: local `-5°` is the review-only downwind sign and local `+5°` is the upwind sign. The new observer re-measures that polarity on the analytic bridge receiver rather than assuming it.
 
-Exact green predecessor workflow/artifact:
+## Bounded method
 
-- workflow **`35336912571`**;
-- artifact **`10542513318`**;
-- artifact SHA-256 **`7b991dfd749ac758ece3c2c6ea320d10cfed5ff38c822c7ed88342461226a932`**;
-- real-Godot predecessor state **`PASS_NATURE_NORTH_LOW_PARENT_EXCLUSION_CURRENT_UC_GODOT_TARGET`**;
-- exact sample count **41**.
+At each exact Rigging witness, VFX reconstructs the actual 16 analytic bridge vertices and measures separately in Weather's normalized XY frame:
 
-VFX consumes this receiver byte-for-byte and does not modify Technical-Art transport ownership.
+1. the moving 8-vertex branch-boundary centroid;
+2. the full 16-vertex bridge centroid;
+3. the pinned 8-vertex analytic trunk-boundary centroid.
 
-### Source-space VFX predecessor
+Because this exact diagnostic contains two equal eight-vertex endpoint rings and no interior vertices, the full bridge vertex centroid should move by exactly half the branch-boundary centroid displacement when the trunk endpoint remains pinned. The observer verifies that relationship from generated geometry. It is a measured property of this diagnostic representation and **not a production skin-weight rule**.
 
-Nature VFX PR #27 exact predecessor:
+A generated top-down SVG retains the actual `-5 / 0 / +5°` branch and trunk rings, eight paired bridge spans, Weather direction, and measured parallel response. It was rasterized and visually inspected after CI.
 
-`e6704c311818561f47d503615427a06b37f1c0d1`
+## Exact verification
 
-Exact predecessor workflow/artifact:
+Workflow:
 
-- workflow **`35335957299`**;
-- artifact **`10543017723`**;
-- SHA-256 **`942e4b1b0671075eff47f6c7cca8976f6ff6a6c3e0784a26c91aa96a9b505759`**;
-- result **`PASS_NORTH_LOW_DETACHED_TEMPORAL_WEATHER_RESPONSE_PARENT_STRESS_DISCRIMINATION`**;
-- source-space centroid Weather-polarity sign violations **0**;
-- source centroid `-5°` downwind peak **+0.017583768804344528 m**;
-- source centroid `+5°` upwind peak **-0.01587622384210631 m**.
+**`35346066401 — VFX east rear north-low analytic bridge Weather response` — SUCCESS** on exact head `57944395a02ba5bf19f69a916a3bee4e71383fab`.
 
-The source centroid and target imported witness are different observables. This activation compares only sign/phase continuity; numeric magnitude identity is explicitly not claimed.
+- Python 3.11: SUCCESS;
+- Python 3.13: SUCCESS;
+- exact Rigging / Geometry / Weather identity gates: SUCCESS;
+- full receiving repository suite: **170 tests / OK**;
+- evidence build: SUCCESS;
+- bounded truth gate and fail-closed controls: SUCCESS.
 
-### Weather donor
+Exact Weather-parallel measurements:
 
-Weather PR #2 exact donor remains unchanged:
+- local `-5°`: branch boundary **+1.891777004 mm**; full bridge centroid **+0.945888502 mm**;
+- local `-2.5°`: branch boundary **+0.921966638 mm**; full bridge centroid **+0.460983319 mm**;
+- local `0°`: branch boundary and bridge **0.0 mm**;
+- local `+2.5°`: branch boundary **-0.872367893 mm**; full bridge centroid **-0.436183946 mm**;
+- local `+5°`: branch boundary **-1.693476438 mm**; full bridge centroid **-0.846738219 mm**.
 
-- head **`ca2eaba519e8449835b0ea6ef944b7080c3caa6a`**;
-- source blob **`11298d447f262da8a78e43e2df68bc0346c99a2c`**;
-- exact visual direction **`[1.0, 0.35]`**;
-- semantics **`VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`**.
+Across all five witnesses:
 
-Source-to-target basis remains `[x,y,z] -> [x,z,y]`, so the VFX observer maps the Weather direction into target space as `[1.0, 0.0, 0.35]` before normalization. Weather semantics remain Weather-owned.
+- Weather-polarity sign violations: **0**;
+- maximum analytic trunk-boundary centroid drift: **0.0 m**;
+- maximum residual from `bridge centroid = 0.5 × branch centroid`: **2.220988084178258e-16 m**;
+- inherited Rigging minimum sampled bridge-triangle area: **0.0002835486192312407 m²**;
+- inherited Rigging minimum sampled paired bridge span: **0.0153042226061514 m**.
 
-## Bounded real-target method
+Decision:
 
-The VFX workflow downloads the exact retained Technical-Art target packet and exact source-space VFX predecessor packet, checks their identities, checks out the exact Weather donor, pins Godot **4.7.2-stable**, and imports the exact Technical-Art rigid GLB through `GLTFDocument` in a real Godot process.
-
-For all 41 exact owner samples, the target observer:
-
-1. uses the exact Technical-Art target oracle and imported `north-low` witness;
-2. applies the target receiver angle already owned by the Technical-Art oracle;
-3. projects the actual imported witness displacement into Weather-parallel, Weather-cross and source-vertical coordinates;
-4. verifies the imported target witness against the Technical-Art expected target position under the unchanged **5 micrometer** gate;
-5. requires the established VFX polarity at every nonzero sample and exact neutral closure;
-6. records the same-phase parent-stress command only as context and does not reinterpret it as wind;
-7. compares target-witness and source-centroid curves only for sign/phase continuity;
-8. fails closed on Weather donor drift and attempted authority promotion into physical wind, Runtime performance, gameplay/physics, or Art/QA acceptance.
-
-## Exact measured result
-
-Dedicated repaired workflow:
-
-**`35341116575 — VFX north-low Weather response current Godot target` — SUCCESS** on exact head `409deda6a578b00e34634e6052d2a747f41c5218`.
-
-Python 3.11 and 3.13 both passed. On the same exact head, the receiving repository's organic baseline, UC surface bridge and UC topology/target-culling workflows also completed successfully.
-
-Exact retained measurements:
-
-- target owner samples reviewed: **41**;
-- source-target sign/phase agreement: **41 / 41**;
-- target Weather-polarity sign violations: **0**;
-- source Weather-polarity sign violations: **0**;
-- target witness downwind Weather-parallel peak: **+0.0296405348926783 m**;
-- target witness upwind Weather-parallel peak: **-0.0263761729001999 m**;
-- source centroid downwind peak retained for comparison: **+0.017583768804344528 m**;
-- source centroid upwind peak retained for comparison: **-0.01587622384210631 m**;
-- maximum imported local witness delta: **0.00000293034281639848 m**;
-- maximum target sample position residual: **0.00000298975373880239 m**;
-- maximum Weather-parallel target-vs-analytic residual: **0.0000000568106770515442 m**;
-- endpoint closure: **0.0 m**;
-- maximum simultaneous owner parent-stress command: **2.5°**;
-- samples with nonzero parent-stress command: **38**.
-
-Bounded decision:
-
-**`KEEP_ESTABLISHED_NORTH_LOW_WEATHER_POLARITY_THROUGH_EXACT_CURRENT_GODOT_TARGET_RECEIVER`**.
-
-The exact current target receiver therefore preserves the source VFX sign/phase relationship throughout the 41-sample owner loop. This is the first exact real-Godot target-host VFX continuity proof for this detached north-low Weather-direction state.
-
-## Transparent proof-harness repair
-
-The first custom workflow run, **`35340945368`**, is intentionally retained as a failed proof-harness run. Its real-Godot observer had already emitted the green target state, but the Python review compared the JSON vector `[1.0, 0.349999994039536]` against `[1.0, 0.35]` with strict list equality and rejected Godot's normal float32 serialization.
-
-Repair commit / final tested head:
-
-`409deda6a578b00e34634e6052d2a747f41c5218`
-
-The repair changes only the review harness to accept target-vector serialization within **1e-6**, while the explicit Weather-drift negative control still rejects `0.36`. No geometry, target receiver, Weather semantics, Animation timing, branch angle, visual effect, or measured target response changed.
+**`KEEP_VISUAL_DIRECTION_CONTINUITY_ACROSS_ANALYTIC_BRIDGE_DIAGNOSTIC__NO_AUTOMATIC_SKINNING_OR_MOTION_ADOPTION`**.
 
 ## Retained evidence
 
 Artifact:
 
-- ID **`10544728314`**;
-- name `nature-vfx-north-low-weather-target-409deda6a578b00e34634e6052d2a747f41c5218`;
-- size **34,879 B**;
-- SHA-256 **`47d4d23192defd84d366631210749d07f6f3bb4ef0e7dd8fae899c0ba19ef534`**.
+- ID `10546767853`;
+- name `nature-north-low-analytic-bridge-weather-vfx-57944395a02ba5bf19f69a916a3bee4e71383fab`;
+- size `24,012 B`;
+- retained files `15`;
+- SHA-256 `0a7921e27333c29a690bba84bb54a2bd953a63824ef30548b404c92ef3d2373a`.
 
-The exact CI archive was downloaded after verification and independently rehashed to the same digest. It retains `evidence.json`, the exact real-Godot target receipt, the source-space predecessor evidence, Technical-Art predecessor receipt, exact donor/head receipts, negative-control result, target observer, review builder, contract, docs, workflow and generated review SVG.
+The exact CI archive was downloaded independently, rehashed to the same digest, and its `evidence.json` and generated review SVG were inspected. Visual inspection confirms the generated branch ring changes against the pinned trunk ring at the retained witnesses. That is direct evidence of the diagnostic geometry, not Art Direction acceptance.
 
 ## Handoffs
 
-- Nature VFX PR #28 exact evidence return: comment **`5729521531`**.
-- Nature Technical Art PR #3 consumer return: comment **`5729522935`**; no receiver/transport change requested.
-- Nature VFX PR #27 predecessor continuity return: comment **`5729524038`**.
-- Weather PR #2 receiving-context return: comment **`5729525268`**; no Weather-source or physical-wind change requested.
+- Nature VFX PR #29 exact evidence return: comment `5730198460`.
+- Nature Rigging PR #14 consumer return: comment `5730200201`; no Rigging change requested.
+- Weather PR #2 consumer return: comment `5730201779`; no Weather-source or physical-wind change requested.
 
 ## Explicit truth boundary / nonclaims
 
-This PASS establishes only **real-Godot target-host visual-direction response continuity** for one exact detached diagnostic receiver, one exact owner loop, one exact Weather visual direction, and one exact retained Technical-Art target receiver.
+This PASS establishes only **source-space visual-direction response continuity** for one exact analytic bridge diagnostic, five exact Rigging witnesses, and one exact Weather visual direction.
 
-It does **not** establish or adopt physical wind speed/force/drag/turbulence/pressure, precipitation physics, botanical/biological or natural motion quality, connected production skinning, continuous collision or surface continuity, wall-clock 40 Hz delivery, Runtime/controller/device/performance behavior, gameplay/collision/damage/physics semantics, Art Direction acceptance, independent Visual QA acceptance, CANON or production readiness.
+It does **not** establish physical wind speed/force/drag/turbulence/pressure, indexed connected branch-trunk topology, production skinning/blending, continuous bridge nondegeneracy/foldover/collision/self-intersection freedom, botanical mechanics or biological ROM, Animation timing/interpolation/playback, Technical-Art target-host transport for this new bridge receiver, Runtime/controller/device/performance behavior, gameplay/collision/damage/physics semantics, Art Direction acceptance, independent Visual QA acceptance, CANON or production readiness.
 
-The generated curve review is a visual evidence surface over measured target and source response. It compares **sign/phase continuity only**; the source 52-vertex centroid and target imported witness have different amplitudes because they are different observables.
+The previous PR #28 real-Godot target proof belongs to the older detached receiver lineage and is not silently transferred to this new analytic bridge receiver.
 
 ## Four-root gate
 
-- **Truth:** exact donors, target receiver, Godot version, run identities, failed proof-harness predecessor, repair scope, measured residuals and artifact digest are recorded separately from nonclaims; target visual response is not promoted into wind physics or gameplay.
-- **Agency / non-domination:** VFX consumes Weather, Rigging/Animation, Technical-Art and UC outputs without taking their source semantics, articulation/timing, transport, Runtime policy, gameplay authority or Art/QA judgment.
-- **Continuity:** predecessor status remains recoverable by exact blob `ffc3089c792e3be1ad069a346737d4ec9aa78459`; PR #27's source-space result is preserved and compared rather than silently rewritten, and the failed first target review remains visible.
-- **Wisdom before speed:** the exact target-host gap named by the predecessor was closed before inventing another effect, receiver, physical wind model or production claim.
+- **Truth:** exact owner heads/blobs, measured source-space response, hosted workflow result, artifact digest and nonclaims are separated; the half-response relation is not promoted into production weights.
+- **Agency / non-domination:** VFX consumes Geometry/Rigging and Weather owner outputs without taking topology, deformation, Weather, Animation, target-host, Runtime, gameplay or Art/QA authority.
+- **Continuity:** predecessor status blob `e27af5b41b74987baaa8d5fe19d119e0b22492da` remains recoverable; prior target evidence is preserved rather than rewritten onto the new receiver.
+- **Wisdom before speed:** the fresh receiver was measured before inventing richer wind, production skinning, target-host behavior or aesthetic claims.
 
 The four AXM roots remain the merge gate.
 
 ## Next VFX trigger
 
-Do **not** retime, retune or physically reinterpret this north-low loop automatically. The current source-space and exact target-host Weather-polarity continuity question is now covered.
-
-A justified next successor requires a materially new owner handoff: for example a richer target-host visual/deformation receiver that can support perceptual Art/QA review, a changed Rigging/Animation receiver, a new Weather source-owned atmosphere state, or another design repository exposing a higher-leverage unoccupied VFX seam. Consume that owner state rather than duplicating this now-proven lane.
+Do not duplicate or retune this exact source-space analytic-bridge review. A justified successor requires a materially new owner handoff: especially Animation adopting the analytic bridge endpoint state, Technical Art returning a target-host receiver for this exact analytic bridge lineage, Geometry/Rigging replacing the diagnostic with a connected/interior-weighted representation, a new Weather source-owned atmospheric state, or another design repository exposing a stronger unoccupied VFX seam.
