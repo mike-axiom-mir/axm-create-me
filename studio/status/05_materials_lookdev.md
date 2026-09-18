@@ -1,35 +1,25 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-18
-State: **PASS_OBJECT_HINGE_SUCCESSOR002_TARGET_MATERIAL_BACKFACE_CULL_COHERENCE / OBJECT_MATERIALS_PR6_HEAD_8CA1372_DRAFT_UNMERGED / EXACT_TA_GLB_REAL_GODOT_3_CONTEXTS / HOLD_SOURCE_TA_DEFAULT_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_OBJECT_HINGE_SUCCESSOR002_FULL_RECEIVER_MATERIAL_REVIEW_EVIDENCE_READY / OBJECT_MATERIALS_PR6_HEAD_9078944_DRAFT_UNMERGED / 31_NODE_REAL_GODOT_3_CONTEXTS / HOLD_ART_QA_DEFAULT_RUNTIME_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, this live status, current Art Direction, Visual Observer / QA, Geometry and Technical Art before acting. `axm-create-me` remains coordination-only; product code and render evidence stayed in the existing Object Materials lane.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, this live status, current Art Direction and independent Visual Observer / QA state, plus the relevant Object Materials and Technical Art lanes before acting.
+
+`axm-create-me` remains coordination-only. Product code, contracts, verifiers and render evidence stay in the existing Object Materials lane.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The immediately preceding Materials status is preserved exactly at blob **`1a6cca523db7c2dbb014386c78ba46cc5bbf6985`**. It records the Building production-surface successor 001 three-way proof and is not silently rewritten. Building is now correctly held for Art Direction + independent Visual QA rather than being polished further by cadence.
+The immediately preceding Materials status is preserved exactly at blob **`2f793c89721ccb5d784ec6ecadcfd699d861bc20`**. It records the isolated successor002 material/cull receiving PASS at exact Materials head `8ca13722200a8153f6930f0ef5ba2408786d962e`; it is not silently rewritten.
 
-## Why Object was selected now
+## Why Object was selected again without cadence drift
 
-This was a fresh owner-ready seam rather than a cadence extension. Technical Art PR #16 now exposes an exact current-UC / Godot transport for the Object hinge successor002, while its truth boundary explicitly leaves final Materials / Art / Visual-QA acceptance open.
+This was a fresh downstream return, not automatic continuation. Art Direction 044 accepted the isolated hinge material/cull reference but explicitly held complete-object adoption because the prior proof hid unrelated meshes on a black field. Art requested one bounded full-receiver shaded review using the **same exact successor002 transport and unchanged material family**, with all `31` receiver nodes visible and no retune merely to force a preferred hierarchy result.
 
-Pinned Technical Art chain:
+That request is directly inside Materials / LookDev ownership and does not duplicate Technical Art PR #16, which continues to own the exact current-UC / Godot carrier and receiver-local parity transform.
 
-- Technical Art PR #16 exact head: **`f430d00d98e694dcf8302fd4df3c64a074f6f30e`**;
-- Hard-Surface successor002 owner: **`a6d18b9fe729304dc4d95d962ed27527adce211f`**;
-- Geometry owner: **`96abb2830ddabca9ed270b42a9447534d007ce64`**;
-- Rigging owner: **`cf377074f70ce7f7e386f1378c51705b3db4d305`**;
-- exact UC head: **`9609998db6677391766e9ee7ff53a5b9b08a3cb9`**.
-
-Technical Art artifact:
-
-- artifact ID: **`10531541834`**;
-- archive SHA-256: **`5e1134d0ebdf786d04ae789a841493ce9cf684f16aedd7dbad597f2e02b3ad5e`**;
-- exact successor002 rebound GLB SHA-256: **`f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`**.
-
-Technical Art proves all five successor hinge knuckles cross the current UC scene transport into Godot 4.7.2 with the receiver-local per-triangle transform `[a,b,c] -> [a,c,b]`, 480 aggregate hinge triangles, and POSITION error bounded below `1e-6 m`. It does not grant Materials, Runtime, Art Direction, QA, CANON, or default-adoption authority.
+Building is held for its existing Environment / downstream adoption path after independent QA; Animal, Nature and the preceding Object isolated cull question already have bounded evidence. The full-receiver hierarchy packet was therefore the strongest fresh owner-ready Materials gap.
 
 ## Existing Materials lane advanced
 
@@ -41,21 +31,45 @@ Branch: `studio/materials-object-functional-surface-001`
 
 Exact final tested Materials head:
 
-**`8ca13722200a8153f6930f0ef5ba2408786d962e`**
+**`90789442be09aac60125f9423d1d5f7d65c1c1a3`**
 
-PR state after the proof: **open / draft / mergeable / unmerged**. No merge, rebase, retarget, source adoption, or Technical-Art ownership transfer was performed.
+PR state after this proof: **open / draft / mergeable / unmerged**. No merge, rebase, retarget, source adoption or owner transfer was performed.
 
-The unchanged Object material profile remains the owner for surface values. Both `hinge_knuckle_body` and `hinge_knuckle_lid` still resolve to **`hardware_steel`**:
+## Exact owner / provenance chain
 
-- albedo `#9AA3A8FF`;
-- metallic **0.88**;
-- roughness **0.32**.
+Technical Art PR #16 remains the transport owner:
 
-No UV, texture, scalar-PBR, geometry, camera, light, or transport-parity value was retuned for this pass.
+- exact TA head: **`f430d00d98e694dcf8302fd4df3c64a074f6f30e`**;
+- TA artifact ID: **`10531541834`**;
+- TA artifact archive SHA-256: **`5e1134d0ebdf786d04ae789a841493ce9cf684f16aedd7dbad597f2e02b3ad5e`**;
+- exact successor002 rebound GLB SHA-256: **`f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`**;
+- Hard-Surface owner: **`a6d18b9fe729304dc4d95d962ed27527adce211f`**;
+- Geometry owner: **`96abb2830ddabca9ed270b42a9447534d007ce64`**;
+- Rigging owner: **`cf377074f70ce7f7e386f1378c51705b3db4d305`**;
+- exact UC owner: **`9609998db6677391766e9ee7ff53a5b9b08a3cb9`**;
+- target-host triangle transform remains Technical-Art-owned: `GODOT_4_7_2_GLTFDOCUMENT_RECEIVER_LOCAL_[a,b,c]_TO_[a,c,b]`.
 
-## Bounded improvement — exact successor002 material/cull receiving proof
+Materials downloaded and revalidated those exact TA receipts and GLB bytes. Materials did **not** edit the GLB or copy/reimplement the Technical Art triangle transform.
 
-Materials added one exact receiving review for the Technical-Art-owned successor002 GLB. The review deliberately isolates only the five hinge knuckle nodes:
+Exact source/material identities remain unchanged:
+
+- Object source SHA-256: `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- Object material profile SHA-256: `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`.
+
+## Bounded improvement — complete-object material hierarchy packet
+
+Materials added one exact full-receiver lookdev contract, verifier, real-render observer and dedicated workflow on the existing PR #6 branch.
+
+The positive keeps:
+
+- all **31** imported mesh nodes visible;
+- all **1,052** imported triangles present;
+- ordinary backface culling;
+- the unchanged Object material-role family;
+- the exact TA GLB bytes;
+- fixed cameras, lights and exposure for each comparison.
+
+The exact successor002 hinge subset remains five nodes / **480 triangles**:
 
 - `hinge_body_b0`;
 - `hinge_lid_l0`;
@@ -63,130 +77,128 @@ Materials added one exact receiving review for the Technical-Art-owned successor
 - `hinge_lid_l1`;
 - `hinge_body_b2`.
 
-The full imported receiver is still required to remain exactly **31 mesh nodes / 1,052 triangles**. Only the five hinge nodes are shown for this diagnostic, totaling exactly **480 triangles**; unrelated receiver nodes are hidden for review isolation rather than deleted or rewritten.
+Two bounded controls were added without changing the positive:
 
-Materials compares four variants on the **same exact GLB bytes** and unchanged material family:
+1. **five-hinge neutral control** — only those five exact hinge nodes use the already-existing neutral-proof material; every surrounding case/lid/service material remains unchanged;
+2. **whole-object unshaded control** — the same exact complete receiver is rendered unshaded to prove the material receiver is visually active.
 
-1. ordinary backface culling — positive;
-2. culling disabled — same-geometry reference;
-3. front-face culling — deliberate negative control;
-4. ordinary backface culling with the same exact geometry rendered unshaded — material-activity control.
+No UV, texture, geometry, positive material scalar, camera, light, exposure or TA transport parameter was retuned.
 
-Technical Art retains transport and receiver-local parity ownership. Materials does not copy or reimplement the Technical Art triangle-transform algorithm and does not edit the GLB.
+## Dedicated workflow / real renderer
 
-## Dedicated workflow and real renderer
+Workflow:
 
-Dedicated workflow:
+**`35310535089 — Object material hinge successor002 full receiver review`**
 
-**`35307026263 — Object material hinge successor002 transport lookdev`**
+Result: **SUCCESS**.
 
-Exact tested head:
-
-**`8ca13722200a8153f6930f0ef5ba2408786d962e`**
-
-Result: **SUCCESS** on Python 3.11 and 3.13 plus the real-render lane.
+- Python 3.11: complete contract/suite validation, exact TA artifact download, payload build, pinned real renderer, render verification and artifact retention all succeeded;
+- Python 3.13: static contract/suite and negative-control validation succeeded.
 
 Renderer:
 
 **Godot 4.7.2-stable (official) / GL Compatibility / X11 / llvmpipe (LLVM 20.1.2, 256 bits)**.
 
-Scoped result:
+Scoped decision:
 
-**`PASS_OBJECT_HINGE_SUCCESSOR002_TARGET_MATERIAL_BACKFACE_CULL_COHERENCE`**
+**`PASS_OBJECT_HINGE_SUCCESSOR002_FULL_RECEIVER_MATERIAL_REVIEW_EVIDENCE_READY`**
 
-Three retained hinge contexts were rendered: `hinge_rear`, `hinge_three_quarter`, and `hinge_grazing`.
+Three complete-object contexts were retained:
 
-Ordinary backface culling versus the same exact two-sided reference:
+- `full_rear_three_quarter`;
+- `full_rear_grazing`;
+- `full_side_three_quarter`.
 
-- rear: **0 pixels >1 LSB**;
-- three-quarter: **0**;
-- grazing: **0**;
-- aggregate: **0**.
+Every candidate/control frame reports exactly **31 visible mesh nodes / 1,052 triangles**.
 
-Deliberate front-cull negative versus two-sided:
+## Exact comparison evidence
 
-- rear: **15,017 pixels >1 LSB**;
-- three-quarter: **11,639**;
-- grazing: **14,635**;
-- aggregate: **41,291**.
+Candidate unchanged material family vs the exact five-hinge neutral control, pixels above 1 LSB:
 
-Ordinary lit backface material versus the same exact backface geometry unshaded:
+- rear three-quarter: **11,365 / 235,617 visible pixels = 4.8235%**;
+- rear grazing: **7,527 / 252,794 = 2.9775%**;
+- side three-quarter: **9,372 / 272,067 = 3.4447%**;
+- aggregate changed support: **28,264 pixels**.
 
-- rear: **19,360 pixels >1 LSB**;
-- three-quarter: **14,305**;
-- grazing: **17,764**;
-- aggregate: **51,429**.
+On that changed support, the current `hardware_steel` hinge candidate is numerically less luminous than the neutral control in all three retained contexts:
 
-The ordinary backface and two-sided PNGs are pixel-identical in every retained context while the deliberately wrong front-cull control removes a large visible portion of the hinge and the material-vs-unshaded control confirms the scalar-PBR receiver is not inert. This is strong bounded evidence that the exact Technical-Art successor002 transport presents the five hinge surfaces coherently to the current Materials receiver under ordinary backface culling.
+- rear three-quarter: candidate **0.4938** vs neutral **0.6665**;
+- rear grazing: candidate **0.3846** vs neutral **0.5468**;
+- side three-quarter: candidate **0.4068** vs neutral **0.7849**.
 
-## Failed predecessor preserved and repaired narrowly
+That is a measurement only. Materials does **not** convert it into final aesthetic acceptance or infer arbitrary-camera hierarchy from three retained views.
 
-The first dedicated workflow run is preserved rather than hidden:
+Candidate vs whole-object unshaded control changes:
 
-- exact head: **`1dbf20d1855fe23432d29d89d7c58b1b6bd2009b`**;
-- workflow: **`35306938057`**;
-- retained artifact ID: **`10532131168`**;
-- archive SHA-256: **`5a2a84cebc60f6758eb837ae1fc7a6b4d110d2f3ff43c5923328c0cb48fc244c`**.
+- rear three-quarter: **235,617 pixels >1 LSB**;
+- rear grazing: **252,794**;
+- side three-quarter: **272,067**;
+- aggregate: **760,478 pixels**.
 
-That run successfully downloaded and verified the exact Technical Art artifact, built the Materials payload, ran the Object suite, and produced the same real Godot render receipt with the same scoped PASS metrics. Final Python validation failed only because the verifier incorrectly assumed JSON object key order would remain equal to the authored camera order; Godot serialized the comparison object in a different valid key order.
+The shaded material family is therefore strongly active; the hinge-control delta is not an inert-observer false positive.
 
-Repair commit:
-
-**`8ca13722200a8153f6930f0ef5ba2408786d962e`**
-
-The repair changed only that evidence-plumbing assumption from ordered-key equality to camera-key set equality. No owner byte, GLB, material value, UV, texture, camera, light, cull mode, renderer, comparison threshold, or visual output was changed to obtain the final green run.
+Direct retained-image inspection shows the successor002 hinge rhythm in complete-object context rather than isolation. The current steel is visibly darker than the neutral diagnostic control and remains spatially localized to the five hinge knuckles. Final judgment of whether that rhythm is sufficiently integrated/subordinate belongs to Art Direction and independent Visual QA.
 
 ## Retained exact evidence
 
 Successful artifact:
 
-- ID: **`10530614943`**;
-- name: `object-material-hinge-successor002-transport-8ca13722200a8153f6930f0ef5ba2408786d962e`;
-- size: **109,111 B**;
-- archive SHA-256: **`8d8a5f29dfa2e15830cc48dd09228e869bc298eb70e483c8a276df98cbe80798`**.
+- ID: **`10533132418`**;
+- name: `object-material-hinge-successor002-full-receiver-90789442be09aac60125f9423d1d5f7d65c1c1a3`;
+- size: **272,599 B**;
+- archive SHA-256: **`af712862f420a4a070c2a731136ba123f87cc40d1aca4613100a7a60d9b5dc84`**;
+- expiry recorded by GitHub Actions: 2026-10-18.
 
-The retained ZIP was independently downloaded and rehashed to the exact same digest. It contains the exact Materials contract/verifier/observer, exact-head binding, exact Technical-Art owner receipts and GLB, built Materials payload/receipt, runtime receipt, and all 12 real PNGs.
+The retained ZIP was independently downloaded and rehashed to the exact same digest. `exact-head` inside the packet binds the evidence to `90789442be09aac60125f9423d1d5f7d65c1c1a3`.
 
 Exact handoffs:
 
-- Object Materials PR #6 result comment: **`5725163602`**;
-- Object Technical Art PR #16 receiving-feedback comment: **`5725164461`**.
+- Object Materials PR #6 result comment: **`5725589154`**;
+- Object Technical Art PR #16 receiving return: **`5725590376`**.
+
+## Same-head inherited workflow truth
+
+The dedicated full-receiver Materials workflow is green. A separate inherited workflow, `35310535054 — Object service-module fit evidence`, remains red on its Python 3.11 evidence-build step while its Python 3.13 structural lane and full repository tests pass. That workflow is not used as evidence for this Materials result and was not repaired here because it belongs to an older independent service-module fit lane; expanding this activation into that lane would violate the bounded ownership/anti-duplication rule.
 
 ## Reusable discovery / careful propagation
 
-The reusable lesson is narrow and evidentiary:
+The reusable method is narrow:
 
-When Technical Art proves exact target-host triangle transport, Materials should test the **exact transported bytes** under the actual material/cull receiver instead of inferring that geometry transport automatically implies shaded-surface coherence. A useful bounded trio is ordinary backface culling, the same exact two-sided reference, and an intentionally wrong front-cull negative; add an unshaded same-geometry control to prove the material receiver itself is active.
+When an isolated material/cull proof passes but Art cannot judge hierarchy because surrounding surfaces are hidden, **expand context before retuning material values**. Keep the exact carrier and material family frozen, render the complete receiver, and introduce one diagnostic control that changes only the questioned surface family. A whole-object unshaded control can separately prove that the receiver/material path is active.
 
-Also: JSON object key order is not evidence. Verification should compare declared semantic key sets unless order is itself part of the contract.
+This separates three questions cleanly:
 
-These discoveries are not promoted into a universal Godot winding rule, UC material policy, or Object default. The observed `[a,b,c] -> [a,c,b]` behavior remains owned and scoped by the exact Technical Art / Godot transport evidence.
+1. transport / receiver validity — already Technical-Art-owned here;
+2. material-family visual effect — Materials evidence here;
+3. hierarchy / aesthetic acceptance — Art Direction + independent Visual QA.
+
+Do not promote the current hinge-control percentages, luminance relation, cameras or neutral material into a universal AXM threshold or UC policy.
 
 ## Authority / explicit HOLDs
 
 This PASS does **not** establish:
 
-- default adoption of source hinge successor002;
-- default adoption of Technical Art PR #16 transport in Object;
-- a universal Godot or UC winding/culling rule;
-- final hinge UVs, textures, normal maps, wear or decals;
-- new or production-approved material scalars;
-- Runtime / physics / collision / target-device acceptance;
-- final Art Direction acceptance;
+- Art Direction acceptance of full-case successor002 hierarchy;
 - independent Visual Observer / QA acceptance;
+- default source adoption of successor002;
+- default Technical Art transport adoption;
+- final hinge material values, UVs, textures, normal maps, wear, decals or manufacturing finish;
+- arbitrary camera, FOV, lighting, renderer or resolution equivalence;
+- Runtime / physics / collision / target-device acceptance;
+- a universal Godot / UC winding or material rule;
 - CANON;
 - production/game readiness;
 - Materials mastery.
 
 ## Four-root gate
 
-- **Truth:** exact owner heads, artifact/GLB hashes, real target-host renderer, failed predecessor, repair boundary, per-context pixel evidence and independently rehashed successful evidence are recorded. Geometry transport is not mislabeled as material acceptance, and this Materials PASS is not mislabeled as production adoption.
-- **Agency / non-domination:** Materials does not seize Hard Surface, Geometry, Rigging, Technical Art, Runtime, Art Direction, Visual QA, CANON or merge authority.
-- **Continuity:** existing Object Materials PR #6 was advanced in place; no duplicate lane was opened. The prior Building Materials status remains exact at blob `1a6cca523db7c2dbb014386c78ba46cc5bbf6985` rather than being silently rewritten.
-- **Wisdom before speed:** the pass followed a fresh Technical-Art-ready seam, consumed exact transport bytes, used positive/reference/negative/material-activity controls, preserved the failed verifier predecessor, and repaired only evidence plumbing before declaring the bounded PASS.
+- **Truth:** exact owner heads, archive/GLB hashes, real target-host renderer, full 31-node visibility, three-context render metrics, independent artifact rehash and the unrelated same-head red workflow are recorded separately. Evidence-ready is not mislabeled as aesthetic acceptance.
+- **Agency / non-domination:** Materials does not seize Technical Art transport/parity, Hard Surface, Geometry, Rigging, Runtime, Art Direction, independent QA, merge or CANON authority.
+- **Continuity:** the existing Object Materials PR #6 was advanced in place; the preceding isolated-cull status remains exact at blob `2f793c89721ccb5d784ec6ecadcfd699d861bc20`; source/material/TA identities remain pinned and recoverable.
+- **Wisdom before speed:** the Art-requested missing context was supplied before generating material variants. Current steel scalars remain frozen until downstream visual review demonstrates an actual defect.
 
 ## Next Materials pass
 
-Re-scan the full constellation first; do **not** keep extending Object by cadence.
+Re-scan the full constellation first; do **not** continue Object by cadence.
 
-For this exact successor002 transport, the next legitimate gates belong to downstream owners: Art Direction / independent Visual QA if a visual judgment is requested, Runtime if target-device or physics behavior is requested, and source / Technical Art owners if default adoption is considered. Materials should return only if those gates expose a concrete material, UV, texture, shader, surface-family, or renderer-facing defect. Otherwise select the strongest fresh owner-ready Materials seam elsewhere in the constellation.
+For this exact successor002 packet, the next legitimate gates are **Art Direction + independent Visual Observer / QA** on artifact `10533132418`. Materials should return only if those owners expose a concrete material/UV/texture/shader/surface-family defect. Otherwise select the strongest fresh owner-ready Materials seam elsewhere.
