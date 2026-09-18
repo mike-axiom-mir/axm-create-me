@@ -2,221 +2,214 @@
 
 Date: 2026-09-18
 
-State: `PASS_CAPABILITY_HOME_SCOPE_LADDER_MAP / NATURE_EXACT_DUPLICATE_PRIMITIVE_CONFIRMED / BUILDING_OBJECT_PRODUCT_LOCAL_PRECEDENTS / NATURE_LOCAL_NEUTRAL_HELPER_PROPOSAL / PF38_INSPECTED_NO_CHANGE / NO_UC_EXTRACTION / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+State: `PASS_EVIDENCE_LANE_CONTINUITY_SCOPE_MAP / OBJECT_NATURE_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / OBJECT_LOCAL_PROTOTYPE_CONFIRMED / GENERIC_PF_VERIFIER_DEFERRED / NO_UC_EXTRACTION / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
 
 ## Activation / campaign gate
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/14_capability_cartographer.md`, the immediate predecessor Cartographer status, fresh specialist status across the design constellation, newest relevant product PRs, current Universal Creation, Profession Fabric #38, and `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` before choosing one bounded placement decision.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/14_capability_cartographer.md`, the immediate predecessor Cartographer status, newest specialist status across the design constellation, current relevant product PRs, current Universal Creation, Profession Fabric #38 and `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` before selecting one bounded cross-repo learning.
 
 `mike-axiom-mir/axm-create-me` remains **coordination only**. No product implementation, Universal Creation implementation, Profession Fabric implementation, source authority, specialist authority, adoption state, merge state or CANON state moved here.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor Cartography coordination commit remains rollback-addressable at `6d8bf5a61b194572b2922e85d056e75455d85e9b`. Its metric-semantic quantity map remains historical truth and is not rewritten by this pass.
+Immediate predecessor Cartography coordination commit remains rollback-addressable at:
 
-## Material cross-repo learning / capability-placement decision
+`64d55012e2760777fdf1e18aee6dc361f696fd6e`
 
-**`REPEAT_SCOPE_IDENTITY != REUSE_HOME_SCOPE != AUTHORITY_HOME`**
+Its capability-home-scope ladder remains historical truth and is not rewritten by this pass.
 
-and, more operationally:
+## Material cross-repo learning
 
-**`INTRA_PRODUCT_EXACT_BEHAVIOR_REPEAT -> PRODUCT_LOCAL_SHARED_PRIMITIVE_CANDIDATE`**
+Fresh Object + Nature evidence repeats a workflow/evidence distinction strongly enough to name explicitly:
 
-while:
+**`BRANCH_REVISION_IDENTITY != EVIDENCE_LANE_IDENTITY != LANE_PROTECTED_PAYLOAD_IDENTITY != CUMULATIVE_PR_DELTA_IDENTITY`**
 
-**`UC_PROMOTION -> INDEPENDENT_CROSS_PRODUCT_REPEAT + NEUTRAL_CONTRACT + DOMAIN_INDEPENDENT_TESTS`**
+A long-lived specialist PR may contain several independent evidence lanes. A historically proven lane can remain byte/semantic-identical while the cumulative branch/PR diff grows because unrelated sibling evidence is added. If a historical workflow guards its lane by requiring the **entire current PR delta** to equal the old lane's original file set, unrelated sibling work can create a pre-substantive false red.
 
-A repeated deterministic calculation can be real, exact and worth factoring before it is universal. The scope in which repetition is demonstrated determines the strongest supported home. Exact reuse across two specialist consumers inside one product does not by itself prove a cross-product Universal Creation capability, and factoring neutral math does not move source/topology/rigging/acceptance authority out of the owning domains.
+That red remains real evidence about the current guard/lineage state. It is not automatically a product regression, and it must not be erased. The correct repair boundary is the exact lane payload and required dependencies, unless the claim itself explicitly requires branch-global exclusivity.
 
-This is materially different from the preceding metric-semantic map. That pass asked what quantity a number measures. This pass asks **where a demonstrated capability is allowed to live once equivalent behavior has actually repeated**.
+This is distinct from the existing Profession Fabric `harness_execution_state`: that vocabulary records whether the intended observer executed. The fresh distinction asks whether the **precondition itself is scoped to the evidence lane it claims to protect**.
 
-## Evidence A — Nature: exact duplicated primitive is now demonstrated, not merely suspected
+## Evidence A — Object Technical Art #16: positive lane-scoped repair already exists
 
-Nature Geometry PR #18 is now merged at exact head:
+Object Technical Art PR #16 current head:
 
-`14d05fdabc943376c231308001d00eb87dc23430`
+`089e31b9f0e921b728378af728783c4f453c9fbc`
 
-Its Geometry-owned bridge candidate contains a private `_project_ring_vertex_to_tapered_trunk(...)` step. Before Geometry authors any annular bridge topology, that helper:
+Technical Art identified that historical successor002 transport used a brittle whole-PR cumulative-delta equality guard. Later unrelated Technical-Art evidence lanes therefore made the old workflow fail before owner / UC / Godot execution even though the successor002 payload itself had not changed.
 
-1. resolves an exact authored tapered trunk segment;
-2. measures the sample axial coordinate on the segment;
-3. rejects outside-segment and centerline-degenerate samples;
-4. interpolates local trunk radius at the preserved axial coordinate;
-5. radially projects the point to the analytic tapered envelope;
-6. reports segment `t`, centerline point, local radius, projected point, surface residual and bridge span.
+The existing Object-local repair adds:
 
-Geometry then uses the projected loop to build its `8`-quad / `16`-triangle annular bridge candidate. Ring identity, bridge faces, indexed trunk cut, weld/remesh and connected-junction authority remain Geometry-owned.
+`tools/verify_ta_evidence_lane_continuity.py`
 
-Nature Procedural PR #4 remains open/draft/mergeable at exact head:
+Schema/result:
 
-`1bbeb682be6aefcfb87f240cddd5985897aa8f15`
+`axm.ta-evidence-lane-continuity/v0.1`
 
-It now exposes the repeated topology-free calculation as `project_point_to_tapered_trunk(...)` inside schema:
+`PASS_TA_EVIDENCE_LANE_PROTECTED_FILES_UNCHANGED`
 
-`axm.nature-branch-transition-trunk-envelope-projection-family/v0.1`
+It protects four exact successor002 payload files against prior green head:
 
-The Procedural evidence builder checks out exact Geometry head `14d05fda...`, extracts the **real eight north-low branch-side boundary samples** and their existing Geometry projection rows, then runs those exact samples through the Procedural projector.
+`f430d00d98e694dcf8302fd4df3c64a074f6f30e`
 
-Result:
+while allowing unrelated additive sibling lanes. It requires baseline ancestry, exact committed/current-worktree bytes, and a deliberate protected-file mutation negative. It does **not** weaken owner, UC, target-host or authority gates.
 
-- real shared samples compared: **8 / 8**;
-- exact trunk segment: `mid->upper`;
-- maximum numeric delta across shared projection fields: **`0.0`**;
-- compatibility state: `MATCH_WITHIN_TOLERANCE`;
-- the Procedural family additionally exercises five materially different Organic-owned branch exits;
-- five projection digests and five projected-surface identities remain materially distinct.
+Dedicated current-head workflow:
 
-This crosses the threshold from “similar-looking code” to **evidence-backed duplicated behavior inside one product repository**.
+`35346552170 — Object Technical Art hinge successor002 transport` — **SUCCESS**.
 
-Bounded conclusion:
+This is the strongest executable prototype for the repeated pattern, but it remains Object Technical-Art-local for now.
 
-`NATURE_GEOMETRY_CONSUMER + NATURE_PROCEDURAL_CONSUMER + EXACT_REAL_SAMPLE_EQUIVALENCE -> NATURE_LOCAL_NEUTRAL_PRIMITIVE_HOME_SUPPORTED`
+## Evidence B — Object QA: same branch still contains a sibling false-red historical lane
 
-It does **not** imply:
+Independent Visual QA keeps the analytic-radial visual verdict anchored to successful evidence head:
 
-`-> PROCEDURAL_TOPOLOGY_AUTHORITY`
+`36f653ef0409a66d5d00def18a8f9dccd00c3336`
 
-or:
+and artifact:
 
-`-> UNIVERSAL_CREATION_PROMOTION`
+`10544549523`.
 
-## Evidence B — Building: repeated deterministic transform stays product-local
+At current PR #16 head `089e31b9...`, analytic-radial workflow:
 
-Building Procedural PR #4 remains open/draft at exact head `588350afba56dd1aa0417148f03e12c6cfc81610`.
+`35346551627`
 
-Its utility-panel clearance family applies the exact source-owned Hard-Surface standoff successor as the same deterministic `+0.02 m` displacement over two materially different orthogonal receiver frames:
+fails its older cumulative bounded-delta guard **before owner / UC / Godot visual execution** because later sibling-lane files now exist on the long-lived branch.
 
-- front receiver displacement `[0,-0.02,0]`;
-- east receiver displacement `[+0.02,0,0]`.
+QA correctly refuses to transfer the older visual artifact to the current head by analogy. Therefore:
 
-Both outputs retain the required physical `0.02 m` body gap, receiver semantics remain source/Building-owned, and the lane explicitly declines UC/PF promotion.
+- repairing the over-broad guard would only permit a fresh current-head execution;
+- it would not turn historical visual evidence into current-head evidence;
+- it would not reverse Art Direction / independent QA's retained rejection of the candidate.
 
-This is a useful home-scope precedent: **one product can legitimately own a reusable deterministic family without pretending it is universal machinery**.
+The same Object head also has a different red workflow, keeper-seat `35346551798`, caused by a genuine source-owner reconciliation gap: PR #16 still binds historical Hard-Surface head `d3fa10a...` while current keeper-seat owner is `37217b24...`. That red must **not** be repaired by continuity bookkeeping.
 
-Cartography added evidence-only placement return comment `5730335144`. No Building code, source rule, verdict or merge state moved.
+This separates three identities on one branch: valid lane continuity, stale/over-broad guard scope, and real source-owner rebind debt.
 
-## Evidence C — Object: bounded configuration reuse also stays product-local
+## Evidence C — Nature Rigging #14: independent repeated pre-substantive historical reds
 
-Object Procedural PR #11 remains open/draft. Its retained exact service-module configuration proof uses one deterministic placement operation across the exact Object-owned socket configurations:
+Nature Rigging PR #14 current head:
 
-- empty;
-- left-only;
-- right-only;
-- bilateral.
+`5c0c06be96996bad464846071b2a55622be14620`
 
-The family transforms the exact existing module through exact source-owned frames, rejects unknown/duplicate occupancy, forbids receiving scale/extra rotation, and explicitly says it is **not** a universal attachment system.
+has a green dedicated indexed-receiver successor:
 
-This is a second independent product precedent for the same placement rule: repeatability is enough for local factoring, while domain-owned frames/configuration semantics stay local until a genuinely neutral cross-product contract repeats.
+`35350817831 — Rigging east rear north-low indexed surface rebind` — **SUCCESS**, complete receiving suite **166 tests / OK**.
 
-Cartography added evidence-only placement return comment `5730336579`. No Object code, socket authority, configuration bound, verdict or merge state moved.
+The same exact head has **19** observed workflow families:
 
-## Bounded Nature structural proposal
+- **16 SUCCESS**;
+- **3 FAILURE**.
 
-The strongest supported home for the fresh Nature duplicate is **inside `mike-axiom-mir/axm-nature-design`**, below the two specialist consumers and above neither specialist's authority.
+All three failures are inherited historical Geometry lineage/delta guards that stop before substantive successor tests because the long-lived Rigging branch advanced beyond the owner state those workflows originally pinned:
 
-If a product owner later chooses to remove the duplicate implementation, the smallest safe neutral helper should contain only the topology-free numeric operation. Conceptually its inputs should be explicit geometric values such as:
+1. `Geometry east rear simultaneous socket audit`;
+2. `Geometry east rear shared-driver continuous clearance`;
+3. `Geometry east rear shared-driver static rebind`.
 
-- tapered segment start/end positions;
-- tapered segment start/end radii;
-- one source-space sample point;
-- explicit numeric tolerance.
+Rigging correctly preserves those reds without reinterpreting them as failures of the new indexed-receiver deformation result.
 
-Its outputs may contain only the derived numeric projection receipt:
+This independently repeats the same evidence-lane problem outside Object. No Nature workflow was changed by Cartography.
 
-- segment `t` / axial coordinate;
-- centerline point;
-- interpolated local radius;
-- input radial distance;
-- projected surface point;
-- axial/surface residuals;
-- projection span.
+## Profession Fabric placement
 
-It should **not** own:
+Profession Fabric issue #38 was inspected before refinement. Existing vocabulary already covers source-successor dependency edges, migration state vs claim verdict, `harness_execution_state`, revision binding, claim-impact/reexecution, observer coverage/sensitivity, metric semantics and other evidence boundaries.
 
-- Organic branch IDs, biological/form meaning or source adoption;
-- Geometry boundary-ring identity, bridge faces, trunk cut, weld/remesh or connected topology;
-- Procedural family membership, variation policy or downstream adoption;
-- Rigging/Animation/VFX/Technical-Art/Runtime semantics;
-- Art/QA acceptance.
+Cartography added issue #38 comment:
 
-Geometry and Procedural may each retain thin domain adapters/provenance gates around the shared numeric helper. Existing exact Geometry and Procedural receipts remain predecessor truth; a later deduplication must rerun both receiving evidence surfaces before deleting the duplicate code.
+**`5731028685`**
 
-Capability Cartography does **not** own that product refactor, so no cleanup PR or code move was opened here.
+with one bounded extension rather than a new framework. Proposed fields:
 
-Evidence-only returns:
+- `evidence_lane_identity`;
+- `lane_baseline_revision_identity`;
+- `lane_protected_payload_identity[]`;
+- `continuity_guard_scope = PROTECTED_PAYLOAD | DECLARED_DIFF_SLICE | FULL_BRANCH_DELTA | OTHER_EXPLICIT`;
+- `branch_accumulation_policy = LANE_SCOPED_ADDITIVE_SIBLINGS_ALLOWED | BRANCH_EXCLUSIVE | OTHER_EXPLICIT`;
+- optional `unrelated_sibling_delta_identity[]`;
+- `lane_continuity_state = UNCHANGED | DRIFTED | NOT_EVALUATED`;
+- `guard_scope_compatibility = FIT_FOR_CLAIM | OVERBROAD_FALSE_RED_RISK | UNDERSCOPED_FALSE_GREEN_RISK | NOT_EVALUATED`;
+- existing `harness_execution_state` and claim verdict remain separate.
 
-- Nature Procedural PR #4 — comment `5730332008`;
-- merged Nature Geometry PR #18 — comment `5730333703`.
+Core rule:
 
-## Universal Creation placement decision
+**A full cumulative-PR equality guard is justified only when the claim itself requires branch-global exclusivity. Lane-scoped continuity may permit unrelated additive siblings, but protected payload/dependency drift remains fail-closed and fresh observation is still required whenever the claim requires current-subject execution.**
 
-No new UC projection/extraction lane is justified.
+### Why no PF implementation yet
 
-Current UC `main` at this scan is:
+The executable protected-payload helper has been demonstrated concretely in Object. Nature independently repeats the failure class, but has not yet implemented the same neutral repair.
 
-`722b0925635960b48c02247e6e0381380f3f7d7e`
+Therefore the correct current state is:
 
-Current open UC PR #214 is the unrelated Physics successor `chatgpt/hourly-physics-growth-39`, head `2ffc6e1235526a07c0f1d7c69de0382b89600350`, adding signed projection-margin diagnostics around the existing two-projection radial-envelope proof.
+`PF_EVIDENCE_VOCABULARY_SUPPORTED`
 
-UC also already contains `axm.uc-exact-projection-geometry/v0.2`, but inspection matters more than the shared word “projection”: that module normalizes **2D physics constraint** mounts/joints/axis/direction locks and limits into projection/radial interval groups. It does not perform 3D point-to-tapered-surface projection, does not know Nature source segments, and explicitly exists as read-only proof geometry for downstream physics decisions.
+but:
 
-Therefore:
+`GENERIC_PF_CONTINUITY_VERIFIER_DEFERRED_PENDING_SECOND_IMPLEMENTATION`
 
-`NAME_SIMILARITY("projection") != CAPABILITY_EQUIVALENCE`
+A later generic PF verifier becomes justified only after at least one independent second implementation demonstrates the same protected-payload contract without Object-specific schema/paths or specialist semantics.
 
-Opening or extending UC solely because both operations are called projection would violate the exact semantic boundary this studio is trying to preserve.
+Current PF PR #37 remains a separate bounded-variation procedure experiment and is not duplicated.
 
-A later UC candidate becomes justified only if at least one **independent second design product** demonstrates the same neutral tapered-segment point-projection contract (or a clearly more general neutral primitive that subsumes it) under domain-independent tests without importing Nature IDs, topology rules or authority semantics.
+## Universal Creation placement
 
-## Profession Fabric placement decision
+No Universal Creation lane is justified.
 
-Profession Fabric issue #38 was inspected; it remains an open **experimental evidence/provenance procedure** with the existing Cartography refinements.
+Current UC main at scan:
 
-No new #38 comment or PF implementation was added this pass.
+`f7434152295bc9a3d57c59767481b2ef042ec675`
 
-Reason: the fresh finding is primarily **executable capability home selection and code-duplication scope**, not a new source-successor/claim-evidence semantic. Forcing it into PF #38 would mix an implementation-placement decision into an evidence-provenance procedure and would add framework surface without a demonstrated need.
+merged PR #214's unrelated radial-envelope projection-margin diagnostics. Current open UC PR #215 head:
 
-PF remains the supported home for reusable evidence/provenance procedures. It does not become the home of the tapered-envelope projector.
+`f3139ecbe2dc9ec0bdd5812882b016e244f79c8b`
 
-## Shared execution / overlap scan
+continues unrelated Physics receipt verification.
 
-`studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` was checked before making any placement proposal.
+The repeated capability here is CI/evidence-lane continuity discipline, not neutral geometry, rendering, runtime or creation machinery. Moving it into UC would put evidence policy in the wrong home.
 
-It contains no active overlapping shared implementation claim. Retained UC #192 and #199 are already closed/merged historical records.
+## Shared execution / overlap check
 
-No new execution claim was created because Cartography opened no UC/PF implementation lane.
+`studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` was checked. Its retained UC #192 and #199 implementation claims are already closed/merged. No active PF/UC shared implementation claim overlaps this scope.
 
-Fresh constellation work was also respected:
+No shared execution claim was created because no PF or UC implementation lane was opened.
 
-- Nature Geometry #18 has already merged; its exact receipt remains the Geometry predecessor/witness rather than being rewritten;
-- Nature Procedural #4 is the single existing Procedural lane and remains the correct active place for its family evidence;
-- Nature Rigging/Animation/Technical Art successors own their separate current downstream questions and were not duplicated;
-- Building/Object Procedural lanes remain product-local precedents only, not donors whose semantics are copied into Nature.
+## Evidence-only returns
+
+Cartography returned the bounded finding without moving product authority:
+
+- Profession Fabric #38 — comment **`5731028685`**;
+- Object Technical Art PR #16 — comment **`5731030696`**;
+- Nature Rigging PR #14 — comment **`5731032667`**.
+
+Object return explicitly preserves the distinction between successor002 continuity PASS, analytic-radial pre-observation false red, and genuine keeper-seat owner-rebind failure.
+
+Nature return explicitly preserves all three historical red runs and proposes no workflow weakening; any later owner repair must first name exact historical payload/dependency identities and rerun the intended observer.
 
 ## Decision / state
 
-`PASS_CAPABILITY_HOME_SCOPE_LADDER_MAP`
+`PASS_EVIDENCE_LANE_CONTINUITY_SCOPE_MAP`
 
 Supported placement:
 
-- **Nature product repo:** correct current home for a future topology-free shared tapered-envelope numeric helper, if the product owners choose to deduplicate;
-- **Geometry / Procedural specialist layers:** retain their separate authority, adapters and evidence around that helper;
-- **Building / Object product repos:** independent precedents showing bounded deterministic families may remain product-local;
-- **Profession Fabric #38:** inspected and intentionally unchanged; no new evidence vocabulary required from this finding;
-- **Universal Creation:** no extraction until independent cross-product neutral-contract repeat exists;
+- **Object Technical Art:** existing executable prototype remains local and valid;
+- **Nature:** repeated failure class is now mapped, but no automatic workflow repair is authorized;
+- **Profession Fabric #38:** correct current home for the evidence/provenance vocabulary refinement;
+- **generic PF verifier:** deferred until a second independent implementation proves neutral reuse;
+- **Universal Creation:** no extraction;
 - **axm-create-me:** coordination map/status only.
 
-No product implementation, file move, source rule, topology rule, Procedural family policy, PF implementation, UC implementation, Art/QA verdict, downstream adoption, CANON state or merge authority moved.
+No historical failure was deleted or relabelled. No product implementation, source-owner gate, Geometry/Rigging authority, Technical-Art transport authority, Art/QA verdict, PF implementation, UC implementation, adoption, CANON state or merge authority moved.
 
 ## Next legitimate trigger
 
-Re-scan before any further propagation. Re-enter this placement decision if one of the following happens:
+Re-enter this map only if one of the following happens:
 
-1. a Nature owner deliberately starts a local deduplication and needs the exact consumer/evidence boundary checked;
-2. a second independent design repository demonstrates the same neutral tapered-segment point-projection behavior under its own real data;
-3. the Nature projector can be generalized without importing Nature source schema/IDs and that generalized contract is independently exercised by at least two products;
-4. a product consumer reveals that the apparently shared math has hidden domain assumptions, in which case keep the implementations separate and preserve the failed extraction attempt as evidence.
+1. a Nature owner repairs one of the three inherited historical workflows with exact lane-scoped protected-payload continuity and preserves all required donor/owner gates;
+2. a second independent product implements the same neutral continuity helper pattern;
+3. Object repairs the analytic-radial historical workflow and fresh current-head execution proves whether the old visual result reproduces, without transferring the historical verdict by analogy;
+4. a proposed lane-scoped guard is shown to be under-scoped and creates a false green, in which case retain that failed extraction and strengthen the contract;
+5. another product exposes a stronger repeated historical-lane/cumulative-branch mismatch.
 
-Until one of those triggers occurs, do **not** promote this into UC merely because the math is reusable or the function name sounds generic.
+Until then, do **not** centralize the Object helper merely because its API looks generic, and do not make historical workflows green by weakening real owner/revision/authority gates.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
