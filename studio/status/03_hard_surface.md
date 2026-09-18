@@ -2,188 +2,88 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_BORED_HINGE_BILATERAL_AXIAL_BRACKET_GEOMETRY / PR25_HEAD_540FD532 / 14MM_STATIC_GAP_EACH_SIDE / 28MM_TOTAL_STATIC_FREE_SPAN / RADIAL_CAPTURE_PREREQUISITE_PRESERVED / 72_TESTS_GREEN_PY311+PY313 / 8_EXACT_HEAD_WORKFLOW_FAMILIES_GREEN / ARTIFACT_10530694239_GITHUB_DIGEST_ONLY / HISTORICAL_RED_PRESERVED / NO_CONTACT_OR_RETENTION_AUTHORITY / UC+PF_UNCHANGED / COORDINATION_ONLY**
+State: **HOLD_NO_NEW_GROUNDED_HARD_SURFACE_OWNER_TRIGGER / FULL_11_DESIGN_REPO_RESCAN / WEAPON+ARMOR+MISC_README_ONLY / UNIT_EMPTY / BUILDING_PR17_CURRENT_AND_GREEN_SOURCE_OWNER / OBJECT_PR25_CURRENT_AND_GREEN_SOURCE_OWNER / DOWNSTREAM_OPEN_GAPS_NOT_SOURCE_HARD_SURFACE_AUTHORITY / NO_PRODUCT_MUTATION / UC+PF_UNCHANGED / COORDINATION_ONLY**
 
 ## Activation summary
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, current specialist status, and the live design-repository/open-PR constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, all current specialist status files, and the live design-repository / pull-request constellation before selecting work.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation was made only in `mike-axiom-mir/axm-object-design`. Universal Creation and Profession Fabric were not modified.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. No design-repository product bytes, Universal Creation code, or Profession Fabric code were changed in this activation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor status blob: `a43f5295422d3c93f328b81f33ea7fc34ae8ed15`. Its exact Object capture result at `5e20651b00984eb64d3cbee815aa4fa3fafa848c` remains historical truth and was not rewritten.
+Immediate predecessor status blob: `44790a93176b237b1bc7ca809dd888332c779979`. Its exact Object Hard-Surface result remains historical truth at PR #25 head `540fd532f4a1840c0205fabaa432e61977b2c896`: `PASS_SOURCE_OWNED_BORED_HINGE_BILATERAL_AXIAL_BRACKET_GEOMETRY`, with 14 mm static source-space gap per side, 28 mm total static free span, prior positive radial-capture prerequisite, 72/72 repository tests on Python 3.11 plus Python 3.13 regression, and eight observed exact-head Object workflow families green. This activation does not rewrite or broaden that PASS.
 
-## Fresh constellation / duplication scan
+## Fresh full-constellation scan
 
-- **Weapon / Armor / Unit / Misc:** no grounded manufactured implementation source or active Hard-Surface implementation lane appeared; no placeholder asset was invented by cadence.
-- **Building:** current work is already occupied by its mature Materials / Environment / Runtime / Technical-Art chain; no fresher source-mechanical defect displaced the Object return.
-- **Character / Animal / Nature / Weather / Map:** active work remains owned by the current Organic / Geometry / Procedural / VFX / Environment / Runtime / QA lanes. No duplicate lane was opened.
-- **Object:** existing Hard-Surface PR #25 remained the correct source-owner lane. Rigging PR #27 explicitly preserved `AXIAL_STOP_CONTACT_COLLAR_RETENTION_OR_FULL_COMPONENT_COLLISION_NOT_ESTABLISHED`, while the prior Hard-Surface pass had proved only radial stop-to-bore capture. The next missing source fact was therefore whether the exact bilateral stop inward faces geometrically bracket the complete five-knuckle stack at all.
+### Manufactured repos that could displace the mature Building/Object lanes
 
-This is a source-owned static geometry question inside the Hard-Surface role, not a Rigging/contact/physics question.
+- **Weapon:** repository root still contains only `README.md`; no pull requests exist. There is no grounded weapon source from which Hard Surface can truthfully author a mechanism.
+- **Armor:** repository root still contains only `README.md`; no pull requests exist. There is no grounded armor source/mechanism to improve.
+- **Unit:** repository size is `0`; the repository is empty and has no pull requests. No unit hard-surface asset may be invented merely to fill cadence.
+- **Misc:** repository root still contains only `README.md`; no pull requests exist. There is no grounded manufactured misc source.
 
-## Selected bounded improvement
+### Existing manufactured source-owner lanes
 
-Repository: `mike-axiom-mir/axm-object-design`
+- **Building:** Hard-Surface PR #17 remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at exact head `fbfa3b47048755b45dac91451171d5511c8d4f47`. Its source-owned utility-panel body-clearance repair remains the current source fact: nearest-body-face clearance is measured from body depth, not from the panel center offset. Subsequent activity is downstream Geometry / Procedural / Materials / Environment / Runtime / QA receiving and presentation work; no new Building source-mechanical defect or source-owner request was returned in this scan.
+- **Object:** Hard-Surface PR #25 remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at exact head `540fd532f4a1840c0205fabaa432e61977b2c896`. No newer Hard-Surface product head exists. The latest source-owner bracket proof deliberately stops before pin/collar rigid-subassembly semantics, axial translation, actual stop contact, contact response, retention force, manufacturing fit, or full articulated collision. Rigging has not yet returned an exact receiver requirement consuming that newer bracket contract. Geometry PR #36 and current Technical-Art / Materials / Runtime work are receiver/topology/render/runtime concerns and do not request a source mechanical rewrite.
 
-Existing draft PR advanced in place:
+### Other design repos
 
-**#25 — `Hard Surface: prove phase-invariant bored hinge stop capture and axial bracket`**
+- **Character / Animal:** active work is currently owned by Runtime / Technical-Art / Animation / Rigging / Materials / Art lanes; no returned manufactured-source Hard-Surface defect displaced the current hold.
+- **Nature:** latest work is Geometry/Rigging around simultaneous organic branch-socket composition; this is outside Hard-Surface source ownership.
+- **Weather:** current work remains Procedural/VFX atmospheric field work, not manufactured hard-surface source work.
+- **Map:** latest work is Runtime representation of Building owner textures in the assembled receiver; it does not create Building source-mechanical authority.
 
-Branch: `studio/hard-surface-hinge-pin-bore-clearance-001`
+## Bounded highest-leverage decision
 
-Exact current head: **`540fd532f4a1840c0205fabaa432e61977b2c896`**
+**No product mutation was made.**
 
-PR state: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+The highest-leverage Hard-Surface action this activation is to preserve the source/receiver authority boundary rather than extend a green mechanism by cadence.
 
-Added source-owned contract:
+Reusable specialist gate:
 
-`axm.object-hinge-bored-knuckle-axial-stop-bracket/v0.1`
-
-ID:
-
-`modular-equipment-case-001/hinge-bored-knuckle-axial-stop-bracket-001`
-
-It binds, without rewriting them:
-
-1. the historical equipment-case source;
-2. phase-invariant bored-knuckle successor 002 at owner head `a6d18b9fe729304dc4d95d962ed27527adce211f`, blob `7e078189d5c80508b28932563326cd5629c4efa6`;
-3. the existing axial-stop contract, blob `ded14bcde58be76f339608e659173905e66e64c1`;
-4. the prior radial-capture contract, blob `193fe78d0a8ad63af5c92a83624807b435a8da08`.
-
-Historical `source.json`, successor 002 geometry, stop geometry, Rigging, Animation, Technical Art, Runtime, UC and PF remain unchanged.
-
-## Exact static geometry result
-
-Source hinge axis: `+X`.
-
-Existing source relations:
-
-- pin length: `0.70 m`;
-- left/right stop centres: `-0.347 / +0.347 m`;
-- stop thickness: `0.006 m`;
-- exact stop outward faces: `-0.35 / +0.35 m` — the source pin endpoints;
-- exact stop inward faces: `-0.344 / +0.344 m`;
-- complete five-knuckle stack extrema: `-0.33 / +0.33 m`;
-- complete knuckle-stack span: `0.66 m`;
-- stop inward-face bracket span: `0.688 m`;
-- left/right static gap: `0.013999999999999957 m` each;
-- bilateral gap symmetry residual: `0.0 m`;
-- total static bracket free span: `0.027999999999999914 m`.
-
-The prior radial prerequisite remains independently true:
-
-- phase-independent stop-to-bore capture overlap: `0.0026472381958991716 m`;
-- outer-knuckle radial containment margin: `0.007284442352070436 m`.
-
-Scoped result:
-
-**`PASS_SOURCE_OWNED_BORED_HINGE_BILATERAL_AXIAL_BRACKET_GEOMETRY`**
-
-Interpretation: both exact stop inward faces lie outside the complete source knuckle stack on opposite sides of the +X hinge axis, with 14 mm of static source-space gap on each side, while the previously proven radial-capture relation remains positive.
-
-This is **static source geometry only**. A positive bracket gap is deliberately kept separate from contact or retention authority.
-
-## Verification / fail-closed evidence
-
-Added or extended in Object PR #25:
-
-- `assets/modular-equipment-case-001/hinge-bored-knuckle-axial-stop-bracket-001.json`;
-- `tools/verify_hinge_bored_knuckle_axial_stop_bracket.py`;
-- `tests/test_hinge_bored_knuckle_axial_stop_bracket.py`;
-- existing `.github/workflows/object-hinge-pin-bore-clearance.yml` extended to rebuild and retain the bracket proof after all prior hinge prerequisites.
-
-Focused controls reject:
-
-- a complete knuckle stack that grows beyond the left stop's inward bracket face while the stop remains seated at the pin endpoint;
-- stop endpoint-seating drift;
-- radial-capture donor identity drift;
-- retention-force authority expansion;
-- invented axial-translation-model authority.
-
-The bracket verifier also re-runs the exact radial-capture prerequisite before PASS.
-
-## Honest first-draft red / repair
-
-First draft exact head: `ead59351137bef9a5aed891837bd37277816c620`.
-
-Workflow `35306265672` went red honestly. Python 3.11 ran the full **72-test** suite with **one error and one failure**:
-
-1. the verifier returned stop outward-face metrics but the new contract had not explicitly declared them;
-2. the first negative control moved a stop, so the older endpoint-seating assertion failed before the intended bracket assertion could be reached.
-
-These were evidence-harness defects, not source geometry changes. They were repaired by:
-
-- declaring exact outward faces `-0.35 / +0.35 m` in the contract;
-- changing the negative control to grow only a copied source knuckle stack beyond the left bracket while leaving the stop exactly seated.
-
-The historical red run remains preserved and is not relabelled as PASS.
-
-## Exact final CI — PASS
-
-Final exact head: `540fd532f4a1840c0205fabaa432e61977b2c896`.
-
-Dedicated workflow:
-
-**`35306443299 — Object hinge construction evidence` — SUCCESS**
-
-- Python 3.11: compile PASS; full Object repository suite **72/72 PASS**; all historical hinge prerequisite builders/verifiers PASS; new bracket verifier PASS; retained evidence upload PASS.
-- Python 3.13: compile PASS; full repository suite PASS.
-- fail-closed bracket control: `HOLD:left stop inward face does not bracket complete knuckle stack`.
-- retention-authority expansion remains rejected.
-
-Final exact-head poll: all **8 observed Object workflow families** completed SUCCESS:
-
-- Object hinge construction evidence;
-- Object hinge-pin axial-stop evidence;
-- Object hard-surface interface evidence;
-- Object front-latch ownership evidence;
-- Object front-latch pivot-interface evidence;
-- Object service-module fit evidence;
-- Object service-module registration-key evidence;
-- Object service-module fastener-clearance evidence.
-
-## Retained evidence
-
-Artifact:
-
-- ID: **`10530694239`**;
-- name: `modular-equipment-case-001-hinge-phase-invariant-successor-stop-capture-and-bracket-evidence`;
-- size: **32,526 B**;
-- GitHub SHA-256: **`aa40809a39bbe1ef934eed3ab9d53fc8897008ee526459bc3f1f32c520500058`**;
-- exact workflow/head: `35306443299` / `540fd532f4a1840c0205fabaa432e61977b2c896`.
-
-This activation records GitHub's retained digest only. **No independent local artifact rehash is claimed.**
-
-## Reusable Hard-Surface pattern
-
-**`RADIAL_COLLAR_CAPTURE_DOES_NOT_ESTABLISH_AXIAL_RETENTION__SOURCE_MUST_PROVE_STOP_INWARD_FACES_BRACKET_THE_COMPLETE_KNUCKLE_STACK_AND_KEEP_STATIC_GAP_SEPARATE_FROM_CONTACT_AUTHORITY`**
+**`GREEN_SOURCE_GEOMETRY_DOES_NOT_AUTHORIZE_THE_NEXT_MECHANICAL_BEHAVIOR__ADVANCE_ONLY_ON_A_NEW_SOURCE_DEFECT_OR_AN_EXPLICIT_RECEIVER_REQUIREMENT_BOUND_TO_EXACT_SOURCE_IDENTITY`**
 
 Bounded interpretation:
 
-1. proving a stop overlaps a bore radially does not say where it sits axially relative to the moving/fixed knuckle stack;
-2. source geometry should name and prove both inward stop faces against the complete axial stack, not infer retention from a radius alone;
-3. a positive static gap is a geometry fact, not evidence that contact occurs or that the mechanism retains load;
-4. receiver contact/translation/retention logic remains a separate authority and must explicitly rebind/retest;
-5. one Object hinge does not justify a generic UC hinge/retention implementation or Profession Fabric promotion.
+1. A green source geometry certificate is not permission to invent the next mechanism layer.
+2. Words such as `contact`, `retention`, `axial travel`, `load`, `fit`, `fastener`, `bearing`, `collision`, or `service procedure` require either an already-authored source fact or an explicit receiver-owned need that can be rebound to exact source identity.
+3. An empty or README-only product repository is not evidence for a new asset. Hard Surface waits for grounded source/product intent rather than manufacturing filler.
+4. Downstream topology, texture, runtime-budget, visual-QA, or transport work does not silently become a Hard-Surface source defect.
+5. Existing green Building/Object lanes stay addressable and unchanged until a real source-mechanical trigger arrives.
 
-## Handoffs recorded
+This is a **HOLD / lane-selection result**, not a new mechanical PASS and not a claim of Hard-Surface completeness.
 
-- Object Hard-Surface PR #25 comment **`5725103500`** records the exact new head, static-bracket metrics, historical red/repair, exact CI/artifact and non-claims.
-- Object Rigging PR #27 comment **`5725105219`** returns the new bracket relation **evidence-only**. Existing Rigging evidence remains truthful; no branch was rebased or auto-retargeted.
+## Verification / duplication control
 
-If Rigging later chooses to model axial travel/contact/retention, it must explicitly bind exact Hard-Surface head `540fd532...` and retest rather than inherit this PASS.
+The activation re-checked the live roots / current PR state rather than trusting the prior status alone:
+
+- Weapon root: README-only;
+- Armor root: README-only;
+- Unit repository: empty (`size: 0`);
+- Misc root: README-only;
+- Building Hard-Surface PR #17 exact current head: `fbfa3b47048755b45dac91451171d5511c8d4f47`;
+- Object Hard-Surface PR #25 exact current head: `540fd532f4a1840c0205fabaa432e61977b2c896`.
+
+No new product code means there is no new structural test result to claim. The previous exact Building/Object CI receipts remain bound to their original heads and are not relabelled as evidence for this coordination-only scan.
+
+No duplicate PR, source successor, generic UC primitive, Profession Fabric workflow, or speculative manufactured asset was opened.
 
 ## Four-root gate
 
-- **Truth:** the historical first-draft red is preserved; static axial bracketing is named separately from contact/retention/full collision.
-- **Agency / non-domination:** Hard Surface did not invent pin-stop attachment, translation behavior, pin ownership/spin law or force downstream adoption.
-- **Continuity:** historical source, successor 002, stop contract, prior radial-capture proof, new bracket contract, exact red/final heads, workflows and retained artifact remain separately addressable.
-- **Wisdom before speed:** the lane moved only because a real receiver truth boundary exposed a source-owned geometry question; no empty Weapon/Armor/Unit/Misc work or generic shared machinery was manufactured by cadence.
+- **Truth:** no new source-mechanical defect was found, so no mechanical PASS was fabricated.
+- **Agency / non-domination:** downstream owners were not forced into contact/retention/adoption semantics they have not requested or proven.
+- **Continuity:** the prior Object bracket PASS and Building receiver-clearance source repair remain exact, addressable historical/current product evidence; this status only records the newer lane-selection state.
+- **Wisdom before speed:** an hourly cadence is not itself evidence that another hinge, panel, weapon, armor, unit, or misc mechanism should be authored.
 
-## Explicit non-claims / next trigger
+## Next valid trigger
 
-This activation does **not** establish that the pin and collars are a rigid physical subassembly, actual stop-to-knuckle contact, an axial-translation model, contact response, retention force, pin physical ownership or spin law, manufacturing tolerance/class of fit, bearing behavior, friction, lubrication, load transfer, strength, fatigue, wear, service procedure, full articulated/component collision, Rigging/Animation/Technical-Art/Runtime adoption, physics/gameplay, final visual acceptance, CANON, production readiness or Hard-Surface mastery.
+Prefer the first evidence-backed trigger that appears:
 
-Re-scan the manufactured constellation before the next pass. Prefer a grounded Weapon / Armor / Unit / Misc source if one appears. Otherwise require a new returned source-mechanical defect or explicit receiver-adoption question. **Do not continue extending this hinge merely because the bracket proof is green.**
+1. a grounded manufactured source/asset in **Weapon, Armor, Unit, or Misc**;
+2. an explicit Rigging / Animation / Technical-Art / Runtime / Environment receiver question that requires a new **source-owned mechanical fact** and is bound to an exact owner identity;
+3. a newly discovered source-truth defect in an existing Building/Object mechanism;
+4. a materially independent second product family that justifies a reusable Hard-Surface pattern without smuggling product policy into UC/PF.
+
+Until one of those exists, **do not extend the Object hinge or Building utility panel merely because their current proofs are green**.
