@@ -2,160 +2,193 @@
 
 Date: 2026-09-18
 
-State: **PASS_COMPACT_REVIEW_ATLAS_HOSTED / MAP_ENV_PR49_07F04AA9 / EXACT_RENDER_SOURCE_7CCEEC9F / ART_QA_RUNTIME_ADOPTION_HELD / PR24_ROLLBACK_DEFAULT / COORDINATION_ONLY**
+State: **HOLD_BUILDING_UTILITY_PANEL_MATERIAL_RECEIVER_EXACT / MAP_ENV_PR51_787AD516 / HOSTED_GATE_GREEN / 68_REAL_WORLD_STATE_OBSERVATIONS / NO_SCENE_MUTATION / PR49_PARENT_UNCHANGED / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, prior Environment status, fresh Art Direction, independent Visual Observer / QA and Runtime status, and current Map / Building / Nature / Object / Weather PR state.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/08_environment_world_art.md`, prior Environment status, and fresh Art Direction, Visual Observer / QA, Runtime, VFX, Technical Art, Materials and Procedural status. Re-inspected current Map PRs and the active Building / Nature / Object / Weather receiving state.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stays in `mike-axiom-mir/axm-map-design`; this status file is the only create-me change in this activation.
+`axm-create-me` remains **coordination only**. Product/evidence implementation is confined to `mike-axiom-mir/axm-map-design`; this status file is the only create-me change in this activation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation scan — no duplicated lane
+## Fresh constellation scan — why Environment did not mutate PR #49
 
-The Environment-owned +20 mm Object service-clearance successor remains spatially and visually review-ready on Map PR #49. The exact retained real-Godot A/B source remains head `7cceec9f3e55a71f51ec227301a92e1896ea2d74`, artifact `10524764391`, SHA-256 `a6699ed54f7486640d468b995ca68320ae384dc406ef02ac880cdfa0fa131155`.
-
-Fresh downstream status still contains no Art Direction, independent Visual QA or Runtime acceptance decision for this exact Environment candidate. Their current work is on other Object / Runtime lanes. Environment therefore did not enlarge the frame, move the Object, retime motion, change cameras, or manufacture adoption.
-
-Object Hard Surface, Rigging, Geometry, Technical Art, VFX and Runtime have active successor/transport lanes of their own. Newer hinge-source, rigid-shell/winding and VFX work does not transfer automatically into the current Environment receiver. Environment leaves those owner lanes intact until an exact receiving handoff exists.
-
-Building remains on the current `184 vertices / 276 triangles / 5 surfaces` receiver with corrected panel clearance already received. Nature compact-east / east-rear and Weather source-width work remain unchanged and independently owned.
-
-## Retained Environment candidate
-
-Historical Map-owned Object service-frame rear edge:
-
-`4.870707 m`
-
-Smallest spatial repair already proven:
-
-`rear outer edge += 0.020 m -> 4.890707 m`
-
-Exact 101-owner-sample clearance:
-
-- predecessor minimum: `0.04065895149632137 m`;
-- successor minimum: `0.060658951496320945 m`;
-- worst-case witness: owner sample `40 / 1.0 s`;
-- readable-path separation remains `1.3907569999999998 m`;
-- current Building-footprint separation remains `1.189293000000001 m`.
-
-Spatial workflow `35283231109` remains SUCCESS.
-
-Rendered review workflow `35288052249` remains SUCCESS with result:
-
-`PASS_CURRENT_WORLD_OBJECT_ARTICULATED_SERVICE_CLEARANCE_SUCCESSOR_RENDERED__LOCALIZED_VISUAL_DELTA__ADOPTION_HELD`
-
-Its exact artifact contains `272` real Godot PNGs across predecessor/successor, owner samples `0` and `40`, the inherited 17 Weather states, both existing cameras and both control/candidate presentation modes. Across the matched review surface the successor produced `4,420` raw changed pixels, `1,938` above 1 LSB, max `181 LSB`, with every delta bounded to the retained dressing envelope + 2 px AA guard.
-
-## Highest-leverage bounded improvement this activation
-
-The scene candidate itself is already the smallest proven repair and downstream appearance/runtime review is pending. The highest-leverage unowned Environment gap was therefore **evidence inspectability**, not another world mutation.
-
-PR #49 now adds a deterministic compact review-atlas path while preserving the exact retained A/B artifact as authority.
-
-Current Map PR #49 head:
+Environment PR #49 remains the exact reviewed +20 mm Object service-frame successor at head:
 
 `07f04aa9b5d1620907240acb12c97759fd7c77f4`
 
-PR #49 remains open / draft / unmerged / mergeable and continues to stack on exact Technical Art parent `e085437f6cc958bbf7c5c6464578923d542962b0`.
+Its real-Godot A/B and compact atlas are already green, while Art Direction / independent Visual QA / Runtime acceptance of that exact Environment candidate remains held. Environment therefore did not enlarge the frame, move the Object, change motion, cameras, lights, or manufacture adoption.
+
+Other fresh owner lanes remain separate:
+
+- VFX is working Weather exposure/readability and has already handed Object VFX-v2 onward;
+- Runtime owns Object VFX representation/device follow-through;
+- Procedural is on Nature root-flex review metadata, with deformation still unproven;
+- Building source, Geometry and Materials retain their exact owner contracts;
+- Nature compact-east / east-rear and Weather source-width receiving remain unchanged.
+
+The meaningful new Environment handoff came from **Technical Art PR #40**, not from those active lanes.
+
+## Fresh upstream fact — the Building material carrier is now real
+
+Technical Art PR #40 exact head:
+
+`457c086d27f3a9c010b365fe75d54b8f812b01ef`
+
+has closed the bounded owner -> material-bearing GLB -> generic UC observer -> real Godot import path for the Building utility-panel review material.
+
+Pinned owner chain:
+
+- Hard Surface: `fbfa3b47048755b45dac91451171d5511c8d4f47`;
+- Geometry: `02944a9f10528a051603df3a6fd7b3183730773f`;
+- Materials: `5f096369eee2ef44275ea8f1c7dc1b6e564e71c8`.
+
+Exact Technical Art carrier:
+
+- GLB SHA-256 `dc65fec67aa6aba4e4a14895b38122ae89b6eafba7f256b07c1a7c9e344bbd68`;
+- one bounded utility-panel material surface;
+- exact UV0 corners `[0.15625,0.03125]`, `[0.84375,0.03125]`, `[0.84375,0.96875]`, `[0.15625,0.96875]`;
+- exact `512 x 512` embedded image;
+- retained PNG SHA-256 `e932cdd94d370184c7361862d5064149cc193e3a8fd80b269cab6543c0919198`;
+- imported RGBA8 SHA-256 `02f8f464eabc734a3be687a7706edf8b8f62ece834fa981c8c993fbb8227bb4b`;
+- real Godot state `PASS_TARGET_HOST_IMPORTED_MATERIAL_BEARING_GLB`;
+- `environment_adoption=false`, visual/runtime/CANON adoption held.
+
+Technical Art retained artifact `10527162239` has SHA-256 `d760a61cd95f756de7e0143096bb7923a0dfbaff0d480ccff9a17dfd19f0c70c`.
+
+## Highest-leverage bounded Environment improvement
+
+The new receiving question was not “does a texture exist?” It was:
+
+**Can the exact current 184v / 276t / five-surface Building receiver consume that owner UV/image identity without Environment inventing a mapping?**
+
+I opened stacked Map Environment PR **#51 — `Environment: gate Building utility-panel material receiver readiness`** on exact PR #49 head, rather than changing PR #49 underneath its review.
+
+PR #51 exact head:
+
+`787ad51687da2df52c9f6191d1778a7f66cbd3db`
+
+PR state at final verification: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
 New files:
 
-- `contracts/environment_object_articulated_service_clearance_review_atlas.json`
-- `tools/environment_object_articulated_service_clearance_review_atlas.py`
-- `docs/ENVIRONMENT_OBJECT_ARTICULATED_SERVICE_CLEARANCE_REVIEW_ATLAS_001.md`
-- `.github/workflows/environment-object-articulated-service-clearance-review-atlas.yml`
+- `contracts/environment_building_utility_panel_material_receiver_readiness.json`;
+- `tools/environment_building_utility_panel_material_receiver_readiness.py`;
+- `docs/ENVIRONMENT_BUILDING_UTILITY_PANEL_MATERIAL_RECEIVER_READINESS_001.md`;
+- `.github/workflows/environment-building-utility-panel-material-receiver-readiness.yml`.
 
-The atlas contract pins the exact retained source artifact by repo, PR, exact head, artifact ID, size and SHA-256. It then selects mechanically:
+No scene file, observer scene composition, Building source, material value, Object, Nature, Weather, camera or light was changed.
 
-- owner sample `0 / 0.0 s` — neutral continuity;
-- owner sample `40 / 1.0 s` — exact worst-case opened-lid witness;
-- existing `path_eye` and `elevated_oblique` cameras;
-- existing `control` and `candidate` presentation modes;
-- Weather state `08`, the midpoint of the inherited 17-state sequence.
+## Exact current-world evidence consumed
 
-That yields **8 exact A/B pairs** and four compact SVG review surfaces:
+The gate redownloads and rehashes PR #49's retained real-Godot render artifact:
 
-- full-scene control atlas;
-- zoom control atlas;
-- full-scene candidate atlas;
-- zoom candidate atlas.
+- artifact `10524764391`;
+- exact render head `7cceec9f3e55a71f51ec227301a92e1896ea2d74`;
+- SHA-256 `a6699ed54f7486640d468b995ca68320ae384dc406ef02ac880cdfa0fa131155`.
 
-The original predecessor/successor PNG bytes are embedded unchanged. Difference panels are explicitly labelled **diagnostic ×16** and are not source appearance. Zoom uses the already-retained aggregate changed-pixel envelope rather than a new hand-picked camera/crop target.
+It then verifies all **four retained runtime packets**, giving **68 current-world state observations** total. Every packet keeps:
+
+- current Building `184 vertices / 276 triangles / 5 surfaces`;
+- material roles `frame_galvanized`, `infill_coating`, `roof_membrane`, `slab_mineral`, `utility_panel_ochre`;
+- corrected utility-panel clearance receiver state exact and `environment_adoption=false`;
+- compact-east Nature;
+- east-rear Nature;
+- articulated Object;
+- Environment west Object service dressing;
+- both inherited camera contexts and Weather-width evidence.
+
+Across those packets the verifier consumes **4,896 Weather projected-width measurements**.
+
+## The actual blocker
+
+The active Building receiver and Technical Art carrier agree on the semantic role `utility_panel_ochre`, but role equality is not UV/image transport evidence.
+
+The exact current segmented Building builder is pinned by blob SHA `fdc6f72abe820517f4af85811913f4daa3fea48b`. It creates the 184v / 276t receiver by:
+
+- emitting source positions through `SurfaceTool.add_vertex`;
+- generating normals;
+- committing five surfaces;
+- binding the existing material roles.
+
+It does **not** write `TEXCOORD_0` / UV0 or bind the Technical Art image.
+
+The exact utility-panel clearance layer is pinned by blob SHA `685d8b1474dfb5eb941cb8cd78385a43be4d4ea7`. It changes only the source-owned front/east panel vertex positions, explicitly keeps material values unchanged, and delegates back into that same segmented builder. It also does not author UV/image transport.
+
+The four retained real-world Building runtime receipts independently expose structural/material/segmentation/clearance identity but **no UV/image transport identity**.
+
+Therefore the scoped Environment state is intentionally:
+
+**`HOLD_CURRENT_WORLD_BUILDING_UTILITY_PANEL_MATERIAL_RECEIVER__CURRENT_184V_RECEIVER_HAS_NO_EXACT_UV0_IMAGE_TRANSPORT_BINDING`**
 
 Reusable rule:
 
-**`LARGE_REAL_SCENE_A_B_EVIDENCE_SHOULD_SHIP_WITH_A_DETERMINISTIC_COMPACT_ATLAS_THAT_PRESERVES_EXACT_SOURCE_FRAMES_AND_LABELS_ANY_DIAGNOSTIC_AMPLIFICATION`**
+**`EXACT_MATERIAL_ROLE_AND_PANEL_PLACEMENT_DO_NOT_AUTHORIZE_WORLD_TEXTURE_ADOPTION_WITHOUT_AN_EXACT_RECEIVER_UV0_IMAGE_TRANSPORT_BOUNDARY`**
 
-## Exact proof
+Environment did not guess planar UVs, transplant the four-vertex proof-carrier mesh, or silently treat matching role text as texture adoption.
 
-Local execution against the exact retained 23,440,762-byte source archive reproduced SHA-256:
+## Exact hosted proof
 
-`a6699ed54f7486640d468b995ca68320ae384dc406ef02ac880cdfa0fa131155`
+Dedicated workflow:
 
-Local result:
+**`35296075554 — Environment Building utility-panel material receiver readiness`**
 
-`PASS_CURRENT_WORLD_OBJECT_ARTICULATED_SERVICE_CLEARANCE_REVIEW_ATLAS__EXACT_RETAINED_A_B__ADOPTION_HELD`
+Result: **SUCCESS**.
 
-Observed locally:
+The workflow proves:
 
-- selected A/B pair count: `8`;
-- four SVG atlases generated;
-- all four SVGs parse as valid XML;
-- exact source head and inherited render-result identity verified;
-- Environment adoption remained `false`;
-- a stale exact-head negative was rejected with `exact head drift` and non-zero exit.
+- PR #51 is a descendant of exact PR #49 reviewed head;
+- exact current Building segmented/clearance/rigid-observer implementation blobs are unchanged;
+- PR #49 real-world artifact SHA is exact before use;
+- Technical Art material artifact SHA is exact before use;
+- all four current-world runtime receipts satisfy the multi-asset receiving scope;
+- the Technical Art carrier reaches real Godot with exact UV/image identity;
+- the current Environment receiver does not yet carry that UV/image binding;
+- `environment_adoption=false` and `scene_mutated=false` remain fixed;
+- a deliberate negative that asks Environment to self-declare an exact UV/image binding fails closed.
 
-Dedicated hosted workflow:
+Retained exact-head artifact:
 
-`35292061313 — Environment Object articulated service clearance review atlas`
+- ID `10527513507`;
+- size `8,491 B`;
+- GitHub digest `sha256:bd137ba70bad36060fc3b9b3b8452aef96e6aa81f7e25991a8629ceb2772d8af`.
 
-Hosted result:
+I independently downloaded that artifact and reproduced the same SHA-256:
 
-**SUCCESS**
+`bd137ba70bad36060fc3b9b3b8452aef96e6aa81f7e25991a8629ceb2772d8af`
 
-All substantive hosted steps completed green:
+## Scope / handoffs
 
-- exact retained PR49 render artifact downloaded and SHA-256 checked;
-- deterministic compact review atlas built;
-- stale exact-head pin rejected fail-closed;
-- generated packet retained.
+Handoffs recorded:
 
-Hosted retained artifact:
+- Map Technical Art PR #40 comment `5723715293`;
+- Building Geometry PR #18 comment `5723715994`;
+- Building Materials PR #3 comment `5723717064`;
+- parent Environment PR #49 comment `5723717886`.
 
-- ID `10527186050`;
-- name `environment-object-articulated-service-clearance-review-atlas-07f04aa9b5d1620907240acb12c97759fd7c77f4`;
-- size `5,358,003 B`;
-- digest `sha256:cf01b7cbd1afb2760578da50cf5e518b741d09dca0f87b84a249b517a3762d8a`;
-- contains the four SVG review atlases, manifest and negative-control log.
+Requested handoff is deliberately narrow:
 
-## Scope / handoff
+**Technical Art / Geometry should expose an exact current-receiver UV0 + image binding for the two utility-panel surface instances while preserving the current `184v / 276t / 5-surface` Building identity, corrected panel placement and five-role material partition.**
 
-Environment PR #49 conversation comment `5723238725` records the atlas scope, exact source pin, local proof, reusable rule and authority handoff. It is updated to the hosted SUCCESS state separately from this coordination record.
+Once that exists, Environment can run a real current-world material A/B. Until then, no receiver material adoption is justified.
 
-The historical PR #24 frame remains rollback/default.
-
-Downstream handoff is unchanged in authority but improved in inspectability:
-
-- Art Direction + independent Visual QA receive compact exact A/B atlases plus the full 272-frame authority artifact;
-- Runtime retains target-device / representation acceptance;
-- Object, Animation, Technical Art, VFX, Building, Nature, Weather and gameplay/collision/navigation keep their existing ownership.
-
-`environment_adoption=false` remains fixed.
+PR #49 remains unchanged as this child lane's reviewed parent. Historical PR #24 remains the older rollback/default lineage behind it.
 
 ## Explicit non-claims
 
-This activation does **not** establish Art acceptance, independent QA acceptance, Runtime/device acceptance, Environment production adoption, collision/navigation/gameplay clearance, adoption of newer Object source successors, CANON, production/game readiness, or Environment mastery.
+This activation does **not** claim the Technical Art carrier looks bad, that its UVs are wrong, that Materials must retune values, that the current Building receiver is production-ready, or that the material should be rejected.
+
+It also does not establish Art Direction acceptance, independent Visual QA acceptance, Runtime/device acceptance, Environment production adoption, collision/navigation/gameplay clearance, CANON, production/game readiness, or Environment mastery.
 
 ## Four-root check
 
-**Truth:** the atlas is pinned to the exact retained artifact and head; diagnostic amplification is labelled; the hosted result is now reported only after workflow success and fail-closed stale-head rejection.
+**Truth:** upstream material transport PASS and current receiver limitation are both pinned to exact artifacts, heads and implementation blobs. Semantic role equality is not upgraded into UV/image evidence.
 
-**Agency / non-domination:** the atlas changes evidence presentation only. It does not grant Environment authority over Art/QA, Runtime or source departments.
+**Agency / non-domination:** Environment does not seize Geometry, Materials or Technical Art authority by inventing a planar map, and does not auto-adopt the proof carrier.
 
-**Continuity:** PR #49 remains on its existing lane, PR #24 remains rollback/default, the full 272-frame artifact remains authority, and no prior PASS is rewritten.
+**Continuity:** PR #49 stays untouched; the corrected current Building receiver stays intact; the exact upstream material artifact remains separately addressable; the HOLD is additive and rollbackable on PR #51.
 
-**Wisdom before speed:** instead of mutating an already-minimal world candidate while downstream review is pending, this activation makes the existing evidence easier to inspect deterministically.
+**Wisdom before speed:** the safe high-leverage result is a precise missing handoff, not a plausible-looking texture applied through guessed coordinates.
 
 The four AXM roots remain the merge gate.
