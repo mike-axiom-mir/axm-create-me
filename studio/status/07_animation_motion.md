@@ -1,23 +1,23 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-18
-State: **PASS_OBJECT_GODOT_HINGE_KNUCKLE_PARENT_MOTION_REBIND / OBJECT_PR10_AAACDB05 / 101_AUTHORED_KEYS / RIGGING_16B32C5A / L0_L1_LID_PARENT / B0_B1_B2_BODY_FIXED / BORED_SUCCESSOR_178D93E8_NOT_ADOPTED / SOURCE_MOTION_FROZEN / TA_RUNTIME_PHYSICS_GAMEPLAY_ART_QA_HELD / COORDINATION_ONLY**
+State: **PASS_OBJECT_CURRENT_TA_TARGET_HOST_DISCRETE_REPLAY / OBJECT_PR10_8415E2D8 / TA_PR16_DAD13CE2 / PREDECESSOR_TA_965FB2F2_CONTINUITY_GATED / UC_6DC46598 / 3X101_KEYS / SOURCE_MOTION_FROZEN / WALLCLOCK_RUNTIME_PHYSICS_GAMEPLAY_ART_QA_HELD / COORDINATION_ONLY**
 
-> Continuity note: earlier Character, Animal, Nature, Object and Map Animation heads, workflows, retained artifacts, failed observer attempts and authority boundaries remain preserved in Git history and their owning PR evidence. The immediately preceding Animal result `PASS_GODOT_ANIMATIONPLAYER_GLTF_LINEAR_QUATERNION_INTERPOLATION_EQUIVALENCE` at Animal PR #5 head `eb21e0e0fd888bbb5fa41c73a6c0f1c731f662c2` remains valid for its exact retained glTF channel and is not rewritten by this Object activation.
+> Continuity note: earlier Character, Animal, Nature, Object and Map Animation heads, workflows, retained artifacts, failed observer attempts and authority boundaries remain preserved in Git history and their owning PR evidence. The immediately preceding Object hinge-knuckle parent-motion PASS at Object PR #10 head `aaacdb053a3ca66218287d7746ce85adc3d244c0` remains valid for its historical source/Rigging partition; this activation does not rewrite or broaden it.
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, this status, and fresh Art Direction, Rigging/Deformation, Hard Surface, Technical Art, Runtime/Optimization, Environment and Visual Observer/QA coordination before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, this status, and fresh specialist / PR state across the constellation before choosing work.
 
 `axm-create-me` remains **coordination only**. Product/evidence implementation lives in `mike-axiom-mir/axm-object-design`. The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh constellation / duplication scan
 
-Character, Animal, Nature and the current-world Map/Object playback lanes already have substantial exact-head motion evidence. Runtime's Animal 41→19-key candidate remains Runtime-owned, Nature's source-slot presentation remains a presentation/device boundary rather than permission to retime, and current Visual Observer/QA does not report a new Animation-owned motion defect.
+Character, Animal, Nature and the current-world Object/Map motion lanes already have substantial exact-head evidence. Visual Observer / QA did not report a fresh Animation-owned motion defect, and Runtime/controller authority remains downstream and separate.
 
-The fresh non-duplicated seam came from Object Rigging PR #27. Rigging exact head `16b32c5ac6d52d768d64f0fac9fedfe4ee9f24fe` proved the source-owned rear-hinge parent partition continuously across `0..110°`: moving lid knuckles `l0/l1`, fixed body knuckles `b0/b1/b2`, exact owner-stack head `172dd9ff5ed1fee3a21cd460c607f07ee0da7520`, owner-stack blob `e4e7c95769c0827a6a019afd672ff4b20cd13541`, and historical lid-rig donor `4b72c9918c5fc1e89bd18a0be24fb4afac6e7775`. Rigging explicitly returned actual Animation parent-motion use to Animation.
+The fresh non-duplicated seam was Technical Art's current Object rigid-scene receiver. Existing Object Animation target-host evidence was still pinned to Technical Art head `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`, while current draft Technical Art PR #16 had advanced to exact head `dad13ce23a0fd8e0ec3e612ac1e72f01c5155284`. The current TA head is nine commits ahead of the predecessor. Those commits add Technical-Art orientation/front-face evidence, but exact receiver transfer was not assumed merely because the branch looked compatible.
 
-Hard Surface has also authored a newer bored-knuckle source successor at exact head `178d93e8976a741271d7f47ab4865519de925657`, but that successor explicitly keeps `animation_authorized=false` and `automatic_downstream_adoption=false`. This activation therefore **does not adopt or rewrite to that successor**.
+The existing Object Animation PR #10 was therefore extended in place. No duplicate Animation PR or new motion lane was opened.
 
 ## Selected bounded improvement
 
@@ -27,142 +27,158 @@ Existing draft Animation PR: **#10 — `Animation: prove bounded equipment-case 
 
 Branch: `studio/animation-object-lid-open-close-001`
 
-Exact tested Animation head: **`aaacdb053a3ca66218287d7746ce85adc3d244c0`**.
+Exact tested Animation head: **`8415e2d8af09f5f0b402b9aa6e22c06667a93d64`**.
 
 Observed PR state: **open / draft / mergeable / unmerged**.
 
-No new Animation PR was opened.
+Current exact Technical Art receiver:
+
+- TA PR #16 exact head: `dad13ce23a0fd8e0ec3e612ac1e72f01c5155284`;
+- predecessor TA head: `965fb2f24dbd0b0cbb748d9f8b8712d62966315f`;
+- exact UC donor: `6dc465987e01362264f88b7cef4213609ae50763`;
+- exact rebound rigid-scene GLB SHA-256: `9788bc7d405b1837961409de20bc9f76d72facae63726cdc7bf7a3ffd2ac3914`.
 
 Frozen source/motion identity:
 
 - asset `modular-equipment-case-001`;
-- historical host source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- host source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
 - sequence `lid-latch-open-hold-close-001`;
 - sequence digest `0a3523cf792264f610881552fd2ebd438aabdfd05e30e92af9dbb33ded1fa2d3`;
 - duration `2.5 s`;
 - authored sample rate `40 Hz`;
-- `101` endpoint-inclusive source samples;
-- exact lid articulation joint `rear-lid-hinge-001`, +X source axis, opening sign `-1`;
-- exact Rigging parent authority `16b32c5ac6d52d768d64f0fac9fedfe4ee9f24fe`;
-- exact owner partition: moving `l0/l1`, fixed `b0/b1/b2`.
+- `101` endpoint-inclusive samples;
+- three target-host `AnimationPlayer` tracks: lid plus bilateral latch pivots;
+- exact source/UC coordinate relation remains `source [x,y,z] -> UC/glTF [x,z,y]`, with target +X rotation carrying the handedness-conversion sign.
 
-Retimed: **false**. Authored keys changed: **false**. Easing changed: **false**. Amplitudes changed: **false**. Historical source geometry changed: **false**. Rig parent partition changed: **false**. New bored-knuckle successor adopted: **false**.
+Retimed: **false**. Authored keys changed: **false**. Easing changed: **false**. Amplitudes changed: **false**. Source geometry changed: **false**. Rig ownership changed: **false**. Runtime/controller authority changed: **false**.
 
 ## Reusable method improvement
 
-Added bounded contract:
+The existing target-host contract remains `axm.object-animationplayer-target-proof/v0.1`; motion semantics and the Godot observer did not need a new contract version. The reusable improvement is an explicit **receiver-successor continuity gate** before replaying unchanged Animation evidence on a newer Technical Art exact head.
 
-**`axm.object-animation-hinge-knuckle-parent-motion-rebind/v0.1`**
+The updated workflow now requires all of the following before the Godot motion proof can run:
 
-The proof has two independent sides:
+1. the current TA exact head must descend from the previously proven TA head;
+2. source, front-latch ownership, rigid-scene builder and target observer blobs must be byte-identical between predecessor and current TA heads;
+3. the current TA receiver must be rebuilt against the exact pinned UC commit;
+4. the rebuilt rebound GLB must match the independently pinned expected SHA-256;
+5. only then may the unchanged 101-sample Animation sequence be rebound and observed in real Godot.
 
-1. Python binds the unchanged 101-key Animation sequence to the exact current Rigging parent evidence, validates source/sequence/rig/owner-stack identities, independently computes expected world witnesses for all five hinge knuckles at every authored sample, and explicitly fails if the newer Hard Surface bored-knuckle successor is silently promoted.
-2. Godot 4.7.2 builds a proof-local `body_shell` + `lid_shell` hierarchy with the exact Rigging owner partition and drives the unchanged lid motion through a real `AnimationPlayer` `lid_shell:rotation:x` track using all 101 authored keys with `INTERPOLATION_NEAREST` / discrete authored-sample update. It seeks every exact sample and compares actual child world positions against the independent Python witnesses.
+Continuity blob identities that passed:
 
-A verifier-only wrong-parent mutation reassigns body-owned `b1` under the moving lid and must fail closed. This is a proof-local Godot receiver built from exact source/Rigging identity; it is **not** Technical Art production-receiver parenting acceptance.
+- `source.json`: `018e36bb08539f212d2c65e6408566e3540fd983`;
+- `front-latch-ownership-001.json`: `220b653a582b7d1c0e11d814615eb650979fbaf7`;
+- `build_object_uc_rigid_scene_handoff.py`: `ea51448581da2a7caae1c3e534191bee3002dd3f`;
+- `rigid-proof/observe.gd`: `fcd48586f04ab8f38e2950067d1c26e3bee78d8d`.
 
-## Preserved failed attempts
+This pattern permits evidence reuse only after exact successor continuity is proven; it does not silently promote a newer receiver because it shares a branch or asset name.
 
-The evidence lane preserves three observer/workflow failures instead of rewriting them away:
+## Exact green result
 
-- workflow `35292000545`: expected-negative shell/result-capture plumbing failed before the intended bounded negative proof could be accepted;
-- workflow `35292218205` at `bef1ea96c7fcdf734d7a9902bc86c964cadbce16`: real Godot parser rejected two untyped local observations (`observed`, `residual`); repaired with explicit `Vector3` / `float` typing only;
-- workflow `35292408933` at `993a9679eead15833bbdfac24426a6b799880ac4`: real Godot reached the observer, but the proof queried `global_position` before the newly created Node3Ds had entered the SceneTree, producing a false zero-world-position mismatch at sample 0. Repaired by deferring only the observer execution until tree readiness.
+Dedicated workflow: **`35295638365 — Object AnimationPlayer target-host evidence` — SUCCESS**.
 
-No source geometry, timing, sample count, easing, amplitude, parent partition, acceptance threshold or newer-source adoption changed to turn those failures green.
-
-## Exact green Godot result
-
-Dedicated workflow: **`35292499234 — Object Animation hinge knuckle parent motion rebind v2` — SUCCESS**.
-
-Exact branch evidence head: **`aaacdb053a3ca66218287d7746ce85adc3d244c0`**.
+Exact branch evidence head: **`8415e2d8af09f5f0b402b9aa6e22c06667a93d64`**.
 
 Scoped result:
 
-**`PASS_OBJECT_ANIMATION_GODOT_HINGE_KNUCKLE_PARENT_MOTION_REBIND`**.
+**`PASS_TARGET_HOST_DISCRETE_ANIMATIONPLAYER_SAMPLED_SEEK`** on current TA head `dad13ce23a0fd8e0ec3e612ac1e72f01c5155284`.
 
 The complete exact-head workflow passed:
 
-- full inherited Object suite: **50 tests**;
-- unchanged 101-key lid/latch Animation sequence rebuild;
-- exact Rigging parent receipt rebuild;
-- structural parent-motion rebind input;
-- fail-closed newer-source-successor adoption control;
-- pinned Godot 4.7.2 execution;
-- wrong-parent real `AnimationPlayer` negative control;
-- positive real `AnimationPlayer` seek/readback across all 101 authored samples;
-- bounded truth-boundary validation;
+- Technical Art predecessor -> successor ancestry and byte-identity gate;
+- Python 3.11 full inherited Object suite: **50 tests**;
+- Python 3.13 full inherited Object suite: **50 tests**;
+- exact current TA rigid-scene rebuild against UC `6dc465987e01362264f88b7cef4213609ae50763`;
+- exact rebound GLB byte-identity check;
+- unchanged lid clip and ordered latch/lid sequence rebuild;
+- exact cross-repo source/sequence/rig/TA identity gate;
+- pinned Godot **4.7.2** target-host execution;
+- retained sampled-state render evidence and receipt validation;
 - retained artifact upload.
 
-Measured positive Godot evidence:
+Current TA receiver evidence retained by the workflow:
 
-- observed authored samples: **`101 / 101`**;
-- `AnimationPlayer` tracks: **`1`**;
-- track keys: **`101`**;
-- interpolation: **`NEAREST`**;
-- update policy: **`DISCRETE_AUTHORED_SAMPLES`**;
-- peak lid open angle: **`100.0°`** at sample **`40`**;
-- maximum world-position residual against independent expected witnesses: **`0.0000000298023223876953 m`**;
-- maximum fixed body-knuckle world drift: **`0.0 m`**;
-- maximum moving lid-knuckle world travel from neutral: **`0.032173864543438 m`**;
-- endpoint parent-motion closure: **`0.0 m`**;
-- structural Animation↔Rig sign residual: **`0.0°`**;
-- structural axial-X residual: **`0.0 m`**;
-- structural moving-knuckle hinge-radius residual: **`2.42861286636753e-17 m`**.
+- rigid-scene result: `PASS_OBJECT_SOURCE_OWNED_RIGID_PARTS_THROUGH_UC_SCENE_GRAPH`;
+- mesh nodes: `31`;
+- triangles: `812`;
+- lid-owned direct children: `hinge_lid_l0`, `hinge_lid_l1`, `latch_0_keeper`, `latch_1_keeper`;
+- fixed front-service-panel levers: `latch_0_lever`, `latch_1_lever`;
+- UC rigid-scene binary geometry payload preserved: **true**.
 
-The wrong-parent mutation failed closed in real Godot: moving body-owned `b1` under the lid produced a detected **`0.000119448159 m`** world-position mismatch at sample `11`.
+Measured positive Godot Animation evidence:
+
+- `AnimationPlayer` tracks: **3**;
+- keys per track: **101 / 101 / 101**;
+- interpolation: **NEAREST**;
+- update mode: **DISCRETE_AUTHORED_SAMPLES**;
+- maximum lid sampled-seek error: **`0.00000762939453125°`**;
+- maximum latch sampled-seek error: **`0.000003814697265625°`**;
+- proof-local pivot-wrapper neutral drift: **`0.0 m`**;
+- release keeper drift: **`0.0 m`**;
+- minimum release lever movement: **`0.0401843525469303 m`**;
+- minimum keeper movement at peak lid state: **`0.770640730857849 m`**;
+- endpoint keeper drift: **`0.0 m`**;
+- endpoint lever drift: **`0.0 m`**;
+- closed -> release changed pixels: **`1,735`**;
+- closed -> peak changed pixels: **`92,810`**;
+- closed -> endpoint changed pixels: **`0`**.
+
+Ten retained target-host review frames cover authored sample indices `0, 5, 10, 25, 40, 50, 60, 90, 95, 100`, including neutral, latch release, opening, peak/hold, close, reengagement and exact neutral return.
 
 ## Retained exact evidence
 
-Artifact ID: **`10526757709`**.
+Artifact ID: **`10527637547`**.
 
-Artifact name: `object-animation-hinge-knuckle-parent-motion-v2-aaacdb053a3ca66218287d7746ce85adc3d244c0`.
+Artifact name: `object-animationplayer-target-8415e2d8af09f5f0b402b9aa6e22c06667a93d64`.
 
-Size: **`23,773 B`**.
+Size: **`266,688 B`**.
 
-Archive SHA-256: **`306f463e9e3353e54b2a2ca49b901d133153cbcd6ab0b0ea25803e79a265a3df`**.
+Archive SHA-256: **`f12373db7c41027aff4c6dabbf44f901631c6a019f1a12995f2eca750fa10707`**.
 
-The artifact was downloaded after CI and independently rehashed to the same digest. It retains the contract, structural receipt, Godot input, exact Rigging receipt, unchanged Animation sequence evidence, real Godot positive receipt and wrong-parent failure log.
+The artifact was downloaded after CI and independently rehashed to the same digest. It retains the frozen source sequence, exact current TA rebound GLB and handoff receipt, exact Rigging receipt, AnimationPlayer target receipt and the ten sampled render frames.
+
+The predecessor target-host artifact on TA head `965fb2f24dbd0b0cbb748d9f8b8712d62966315f` remains separately preserved as artifact `10526497245`; it is not rewritten into the current result.
 
 ## Truth boundary / authority
 
-This PASS proves only that, on the **historical source identity pinned above**, the exact Rigging `l0/l1` lid-owned versus `b0/b1/b2` body-owned parent partition receives the unchanged 101 authored Object Animation samples correctly in a proof-local Godot 4.7.2 `AnimationPlayer` hierarchy.
+This PASS proves only that the **unchanged authored discrete Object Animation sequence** can be rebound to the exact current Technical Art rigid-scene receiver and sought through a real Godot 4.7.2 `AnimationPlayer` while preserving the verified source-owned keeper hierarchy, exact source/TA/UC identity and proof-local latch-pivot binding.
 
 It does **not** establish:
 
-- adoption of Hard Surface's newer bored-knuckle source successor;
-- Technical Art production target-host parent wiring;
-- wall-clock 40 Hz delivery or display scanout;
-- a production Runtime controller/state machine/input path;
-- collision, physics or latch-force behavior;
+- continuous interpolation quality between authored samples;
+- wall-clock `40 Hz` presentation or display scanout;
+- a production Runtime controller, state machine or input path;
+- collision, physics, mechanical retention or latch force;
 - gameplay or interaction acceptance;
 - target-device CPU/GPU/FPS/thermal behavior;
 - final motion weight, timing style or naturalness;
-- Art Direction or independent Visual Observer/QA acceptance;
+- Art Direction or independent Visual Observer / QA acceptance;
 - CANON or production readiness.
 
-Animation retains only motion/clip/playback evidence authority. Rigging retains structural parent/deformation constraints; Hard Surface retains source successor ownership; Technical Art retains producer/receiver transport; Runtime retains controller/device/performance; gameplay, physics and Art/QA retain their own acceptance authority.
+The latch pivot wrappers used by the Animation proof remain **proof-local**, derived from exact Rigging evidence. This result does not claim that Technical Art has adopted those wrappers as its production articulation implementation.
+
+Animation retains only motion/clip/playback evidence authority. Rigging retains articulation/deformation constraints; Hard Surface retains source ownership; Technical Art retains transport/receiver construction; Runtime retains controller/device/performance; gameplay, physics and Art/QA retain their own acceptance authority.
 
 ## Preserved Animation continuity
 
-- Animal PR #5 Godot quaternion interpolation equivalence remains PASS at `eb21e0e0fd888bbb5fa41c73a6c0f1c731f662c2`, with 321 diagnostic samples and no wall-clock/runtime/gameplay acceptance.
-- Object/Map PR #48 e085 wall-clock replay remains PASS at exact head `343668b80acd52367e3427f3ef97d1662625c18f` for its exact Technical Art receiver.
-- Object PR #10 capture-timeline rebind at `c688936a84f80f292e43587c9d3386bd717f8178` remains PASS without retime; this activation extends the same PR rather than replacing that evidence.
+- Object PR #10 hinge-knuckle parent-motion PASS at `aaacdb053a3ca66218287d7746ce85adc3d244c0` remains valid for its exact historical source/Rigging partition.
+- Object PR #10 predecessor target-host sampled-seek PASS on TA head `965fb2f24dbd0b0cbb748d9f8b8712d62966315f` remains preserved; this activation adds exact current-TA continuity rather than replacing it.
+- Animal PR #5 Godot quaternion interpolation equivalence remains PASS at `eb21e0e0fd888bbb5fa41c73a6c0f1c731f662c2`.
+- Object/Map PR #48 wall-clock replay remains separately scoped to its own exact Technical Art receiver and is not transferred here.
 - Map PR #44 compact-east exact-key/real-loop characterization remains PASS while full 31.25 ms source-slot presentation remains held.
 - Nature PR #13 exact-state DISCRETE and single-shape LINEAR characterization remain preserved.
 - Character PR #22 exact-density target-host and repeated-loop evidence remain preserved.
-- Earlier Animal discrete, dense-subframe, normalized-u16, bilateral and shaded-motion evidence remains separately scoped.
 - Wreckline mechanical-motion work remains separate and was not duplicated.
 
 ## Four-root gate
 
-- **Truth:** actual Godot failures, the wrong-parent negative and the historical/newer-source distinction remain explicit; evidence was repaired rather than motion retimed or authority inflated.
-- **Agency / non-domination:** Animation does not seize Hard Surface, Rigging, Technical Art, Runtime, physics/gameplay or Art/QA authority.
-- **Continuity:** historical source, exact sequence, Rigging parent evidence, newer unconsumed source successor and earlier Animation results remain separately addressable.
-- **Wisdom before speed:** the smallest fresh structural-to-motion seam was closed while every authored motion variable stayed frozen.
+- **Truth:** exact predecessor/current TA identities, byte continuity, current GLB digest, real Godot output and the nonclaims remain explicit; no receiver transfer was assumed without proof.
+- **Agency / non-domination:** Animation does not seize Rigging, Hard Surface, Technical Art, Runtime, physics/gameplay or Art/QA authority.
+- **Continuity:** predecessor evidence remains addressable, the successor receiver is explicitly bound, and the unchanged source/motion identity is preserved across the handoff.
+- **Wisdom before speed:** the smallest fresh receiver-continuity seam was closed without retiming or reauthoring a motion that already had valid exact-source evidence.
 
 The four AXM roots remain the merge gate.
 
 ## Next Animation trigger
 
-Do not retime or rewrite this Object motion from this result. Reopen the hinge-parent lane only if Rigging explicitly rebinds/adopts the newer bored-knuckle successor, Technical Art materially changes the receiving hierarchy, or Art/QA reports a concrete motion defect. Runtime controller/state-machine and gameplay acceptance remain downstream and separate.
+Do not retime or rewrite this Object motion from this result. Reopen this receiver-continuity lane only if Technical Art materially changes source/ownership/rigid-scene construction or receiving hierarchy, Rigging/Hard Surface explicitly authorize a newer source articulation for Animation, or Art/QA reports a concrete motion defect. Runtime controller/state-machine, gameplay, physics and target-device acceptance remain downstream and separate.
