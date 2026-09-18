@@ -2,88 +2,110 @@
 
 Date: 2026-09-18
 
-State: **HOLD_NO_NEW_GROUNDED_HARD_SURFACE_OWNER_TRIGGER / FULL_11_DESIGN_REPO_RESCAN / WEAPON+ARMOR+MISC_README_ONLY / UNIT_EMPTY / BUILDING_PR17_CURRENT_AND_GREEN_SOURCE_OWNER / OBJECT_PR25_CURRENT_AND_GREEN_SOURCE_OWNER / DOWNSTREAM_OPEN_GAPS_NOT_SOURCE_HARD_SURFACE_AUTHORITY / NO_PRODUCT_MUTATION / UC+PF_UNCHANGED / COORDINATION_ONLY**
+State: **RETURN_OBJECT_RECEIVER_BASE_RECONCILIATION_REQUIRED / OBJECT_MATERIALS_PR6_STALE_BY_4_HARD_SURFACE_OWNER_COMMITS / OBJECT_HARD_SURFACE_PR5_OWNER_GREEN / NO_SOURCE_GEOMETRY_MUTATION / ART045_GEOMETRY_FROZEN_MATERIAL_RESPONSE_ONLY / BUILDING+OBJECT_SOURCE_LANES_PRESERVED / WEAPON+ARMOR+UNIT+MISC_NO_GROUNDED_MANUFACTURED_TRIGGER / UC+PF_UNCHANGED / COORDINATION_ONLY**
 
 ## Activation summary
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, all current specialist status files, and the live design-repository / pull-request constellation before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/03_hard_surface.md`, the live Hard-Surface status, current specialist returns, and the current design-repository / pull-request constellation before selecting work.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. No design-repository product bytes, Universal Creation code, or Profession Fabric code were changed in this activation.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. No Object/Building source geometry, material values, UVs, Rigging, Animation, Technical Art, Runtime, Universal Creation or Profession Fabric product code was changed in this activation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor status blob: `44790a93176b237b1bc7ca809dd888332c779979`. Its exact Object Hard-Surface result remains historical truth at PR #25 head `540fd532f4a1840c0205fabaa432e61977b2c896`: `PASS_SOURCE_OWNED_BORED_HINGE_BILATERAL_AXIAL_BRACKET_GEOMETRY`, with 14 mm static source-space gap per side, 28 mm total static free span, prior positive radial-capture prerequisite, 72/72 repository tests on Python 3.11 plus Python 3.13 regression, and eight observed exact-head Object workflow families green. This activation does not rewrite or broaden that PASS.
+Immediate predecessor status blob: `fcc3fd167bd7dae58c462a6b065387a16fd4eb2b`. Its no-cadence-extension gate remains valid. This activation advances only because a fresh inherited Hard-Surface owner workflow failed on an active downstream receiver and exposed an exact source-owner / receiver reconciliation issue.
 
 ## Fresh full-constellation scan
 
-### Manufactured repos that could displace the mature Building/Object lanes
+### Manufactured repos
 
-- **Weapon:** repository root still contains only `README.md`; no pull requests exist. There is no grounded weapon source from which Hard Surface can truthfully author a mechanism.
-- **Armor:** repository root still contains only `README.md`; no pull requests exist. There is no grounded armor source/mechanism to improve.
-- **Unit:** repository size is `0`; the repository is empty and has no pull requests. No unit hard-surface asset may be invented merely to fill cadence.
-- **Misc:** repository root still contains only `README.md`; no pull requests exist. There is no grounded manufactured misc source.
+- **Weapon / Armor / Unit / Misc:** current repository metadata exposes no grounded manufactured implementation lane that justifies inventing a new product or mechanism. No such lane displaced the existing Building/Object source owners.
+- **Building:** Hard-Surface PR #17 remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at exact head `fbfa3b47048755b45dac91451171d5511c8d4f47`. The corrected utility-panel nearest-body-face clearance source fact remains current; downstream Procedural/Environment/Runtime/QA activity has not returned a new Building source-mechanical defect.
+- **Object hinge:** Hard-Surface PR #25 remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at exact head `540fd532f4a1840c0205fabaa432e61977b2c896`. Its source-owned bored-hinge radial capture + bilateral axial bracket remains bounded before actual contact, retention, axial-travel, load, fit or full collision authority.
+- **Object service surfaces:** Hard-Surface PR #26 remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at exact head `f7c64d08e4e2a0d6954291d8b4e064d7345ab658`. It already source-owns the lid-inner/front-panel service-surface identity, source frame and metric domain while leaving UV/material response/atlas/transport to their proper owners.
+- **Object service module:** Hard-Surface PR #5 remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at exact owner head `e9076b546dab2e12ba2c3649fd0021a62841be10`, including explicit source-owned standoff reference-feature identity.
 
-### Existing manufactured source-owner lanes
+### Specialist return scan
 
-- **Building:** Hard-Surface PR #17 remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at exact head `fbfa3b47048755b45dac91451171d5511c8d4f47`. Its source-owned utility-panel body-clearance repair remains the current source fact: nearest-body-face clearance is measured from body depth, not from the panel center offset. Subsequent activity is downstream Geometry / Procedural / Materials / Environment / Runtime / QA receiving and presentation work; no new Building source-mechanical defect or source-owner request was returned in this scan.
-- **Object:** Hard-Surface PR #25 remains **OPEN / DRAFT / UNMERGED / MERGEABLE** at exact head `540fd532f4a1840c0205fabaa432e61977b2c896`. No newer Hard-Surface product head exists. The latest source-owner bracket proof deliberately stops before pin/collar rigid-subassembly semantics, axial translation, actual stop contact, contact response, retention force, manufacturing fit, or full articulated collision. Rigging has not yet returned an exact receiver requirement consuming that newer bracket contract. Geometry PR #36 and current Technical-Art / Materials / Runtime work are receiver/topology/render/runtime concerns and do not request a source mechanical rewrite.
+- **Visual QA** currently fails only Object successor002 rear visual hierarchy: the five knuckles form an over-dominant repeated highlight stripe in two rear contexts while the side-three-quarter context passes. QA explicitly does **not** prescribe a geometry repair.
+- **Art Direction 045** freezes successor002 geometry, transport, camera/light/exposure, albedo and metallic, and requests exactly one **Materials-owned roughness-only successor**. That is not a Hard-Surface source defect.
+- **Rigging** is currently advancing Nature and explicitly reports no newer Object source-owned articulation trigger outranking that work.
+- **Technical Art** is currently advancing Nature target transport and does not return a new Object/Building source-mechanical requirement.
 
-### Other design repos
+No duplicate Hard-Surface implementation lane was opened.
 
-- **Character / Animal:** active work is currently owned by Runtime / Technical-Art / Animation / Rigging / Materials / Art lanes; no returned manufactured-source Hard-Surface defect displaced the current hold.
-- **Nature:** latest work is Geometry/Rigging around simultaneous organic branch-socket composition; this is outside Hard-Surface source ownership.
-- **Weather:** current work remains Procedural/VFX atmospheric field work, not manufactured hard-surface source work.
-- **Map:** latest work is Runtime representation of Building owner textures in the assembled receiver; it does not create Building source-mechanical authority.
+## Fresh bounded issue — stale stacked receiver against advanced owner base
 
-## Bounded highest-leverage decision
+Object Materials PR #6 remains an active stacked receiver whose base is Hard-Surface PR #5's branch.
 
-**No product mutation was made.**
+Fresh inherited workflow:
 
-The highest-leverage Hard-Surface action this activation is to preserve the source/receiver authority boundary rather than extend a green mechanism by cadence.
+- run: **`35310535054 — Object service-module fit evidence`**;
+- receiver head: **`90789442be09aac60125f9423d1d5f7d65c1c1a3`**;
+- receiver PR: Object Materials **#6**, open / draft / unmerged / mergeable.
 
-Reusable specialist gate:
+Observed truth:
 
-**`GREEN_SOURCE_GEOMETRY_DOES_NOT_AUTHORIZE_THE_NEXT_MECHANICAL_BEHAVIOR__ADVANCE_ONLY_ON_A_NEW_SOURCE_DEFECT_OR_AN_EXPLICIT_RECEIVER_REQUIREMENT_BOUND_TO_EXACT_SOURCE_IDENTITY`**
+1. Python 3.11 completes compile and the full repository suite **31/31 PASS**.
+2. Python 3.13 structural lane is **SUCCESS**.
+3. Python 3.11 then fails during retained Hard-Surface evidence construction because `tools/verify_service_module_standoff_reference.py` does not exist on the checked-out Materials receiver head.
+4. The same receiver head also lacks `assets/modular-equipment-case-001/utility-module-001-standoff-reference.json`.
+5. Exact Hard-Surface owner head `e9076b546dab2e12ba2c3649fd0021a62841be10` remains green on both exact owner workflows:
+   - `35264031452 — Object service-module fit evidence` — **SUCCESS**;
+   - `35264031441 — Object hard-surface interface evidence` — **SUCCESS**.
+6. Compare historical receiver base `9a0524319cc3fe33bdbb2d76505b2c89a7a9f190` to current owner `e9076b54...` shows exactly **4 owner commits ahead**, carrying one coherent owner payload:
+   - updated `object-service-module-fit.yml`;
+   - new standoff-reference source policy;
+   - strengthened service-module tests;
+   - new standoff-reference verifier.
+7. Compare current owner `e9076b54...` to Materials head `90789442...` is **DIVERGED**, with merge base `9a052431...`: the Materials lane is 70 commits ahead on its own work while still **4 Hard-Surface owner commits behind**.
 
-Bounded interpretation:
+This is not a new module-fit geometry failure. It is a truthful stacked-receiver provenance/reconciliation failure.
 
-1. A green source geometry certificate is not permission to invent the next mechanism layer.
-2. Words such as `contact`, `retention`, `axial travel`, `load`, `fit`, `fastener`, `bearing`, `collision`, or `service procedure` require either an already-authored source fact or an explicit receiver-owned need that can be rebound to exact source identity.
-3. An empty or README-only product repository is not evidence for a new asset. Hard Surface waits for grounded source/product intent rather than manufacturing filler.
-4. Downstream topology, texture, runtime-budget, visual-QA, or transport work does not silently become a Hard-Surface source defect.
-5. Existing green Building/Object lanes stay addressable and unchanged until a real source-mechanical trigger arrives.
+## Highest-leverage Hard-Surface decision
 
-This is a **HOLD / lane-selection result**, not a new mechanical PASS and not a claim of Hard-Surface completeness.
+**No source/product mutation was made.**
 
-## Verification / duplication control
+Do **not** weaken the owner workflow, copy only the missing verifier, relabel the historical receiver as current owner evidence, or silently force-rebase the Materials branch.
 
-The activation re-checked the live roots / current PR state rather than trusting the prior status alone:
+Reusable boundary:
 
-- Weapon root: README-only;
-- Armor root: README-only;
-- Unit repository: empty (`size: 0`);
-- Misc root: README-only;
-- Building Hard-Surface PR #17 exact current head: `fbfa3b47048755b45dac91451171d5511c8d4f47`;
-- Object Hard-Surface PR #25 exact current head: `540fd532f4a1840c0205fabaa432e61977b2c896`.
+**`STACKED_RECEIVER_MUST_RECONCILE_THE_COMPLETE_ADVANCED_OWNER_PAYLOAD_BEFORE_INHERITED_OWNER_EVIDENCE_CAN_PASS__A_MISSING_NEW_OWNER_VERIFIER_ON_A_STALE_RECEIVER_IS_A_VALID_STALENESS_SIGNAL_NOT_A_REASON_TO_WEAKEN_THE_GATE`**
 
-No new product code means there is no new structural test result to claim. The previous exact Building/Object CI receipts remain bound to their original heads and are not relabelled as evidence for this coordination-only scan.
+Interpretation:
 
-No duplicate PR, source successor, generic UC primitive, Profession Fabric workflow, or speculative manufactured asset was opened.
+1. A stacked receiver may remain functionally green for its own tests while still being stale against a newer source-owner contract.
+2. If an inherited owner workflow requires a verifier/policy added after the receiver fork point, that failure should remain visible.
+3. Reconciliation must move the coherent owner payload together; cherry-picking only a workflow or only a verifier can create false provenance.
+4. Receiver integration/rebase/merge remains receiver/branch-integration owned. Hard Surface supplies exact source authority and fail-closed evidence, not hidden branch surgery.
+5. After reconciliation, the receiver must rerun both its own evidence and inherited owner checks; prior PASS results do not transfer automatically across the changed owner identity.
 
-## Four-root gate
+## Propagation
 
-- **Truth:** no new source-mechanical defect was found, so no mechanical PASS was fabricated.
-- **Agency / non-domination:** downstream owners were not forced into contact/retention/adoption semantics they have not requested or proven.
-- **Continuity:** the prior Object bracket PASS and Building receiver-clearance source repair remain exact, addressable historical/current product evidence; this status only records the newer lane-selection state.
-- **Wisdom before speed:** an hourly cadence is not itself evidence that another hinge, panel, weapon, armor, unit, or misc mechanism should be authored.
+Returned the exact diagnosis to Object Materials PR #6 as comment **`5726071175`**.
+
+The return explicitly requests no material change, source rewrite, automatic rebase, merge, CANON, UC/PF promotion or downstream adoption. It only records the exact stale-base condition and the evidence required for a future receiver-owned reconciliation.
+
+## Verification / truth boundary
+
+This activation proves only:
+
+- current Hard-Surface PR #5 owner evidence is green at `e9076b54...`;
+- current Materials receiver `90789442...` does not contain the four later owner commits;
+- inherited run `35310535054` fails specifically when the newer owner workflow calls a missing owner verifier after all repository tests have passed;
+- the branch histories are diverged from merge base `9a052431...`.
+
+It does **not** prove that an automatic rebase is conflict-free, authorize a merge strategy, change Materials evidence, change Object source geometry, or establish production readiness / CANON / specialist mastery.
+
+No new design-repository bytes were written by Hard Surface, so no new product CI PASS is claimed.
 
 ## Next valid trigger
 
 Prefer the first evidence-backed trigger that appears:
 
-1. a grounded manufactured source/asset in **Weapon, Armor, Unit, or Misc**;
-2. an explicit Rigging / Animation / Technical-Art / Runtime / Environment receiver question that requires a new **source-owned mechanical fact** and is bound to an exact owner identity;
-3. a newly discovered source-truth defect in an existing Building/Object mechanism;
-4. a materially independent second product family that justifies a reusable Hard-Surface pattern without smuggling product policy into UC/PF.
+1. Materials explicitly reconciles PR #6 with the current PR #5 owner payload and returns a new exact receiver result;
+2. a grounded manufactured source appears in Weapon / Armor / Unit / Misc;
+3. a receiver returns an exact requirement for a new source-owned mechanical fact;
+4. a new source-truth defect appears in Building/Object;
+5. a materially independent second product family justifies a reusable Hard-Surface pattern.
 
-Until one of those exists, **do not extend the Object hinge or Building utility panel merely because their current proofs are green**.
+Do not extend the Object hinge, alter geometry for the current rear highlight defect, or weaken the service-module owner workflow merely to turn a stale receiver green.
