@@ -2,11 +2,11 @@
 
 Date: 2026-09-18
 
-State: **PASS_FIVE_SOCKET_WEATHER_VISUAL_DIRECTION_SIGN_MAP / NATURE_PR17_HEAD_EF7B35AF / RIGGING_PR14_898529F6_EXACT / WEATHER_PR2_CA2EABA5_VISUAL_DIRECTION_ONLY / PER_SOCKET_SIGN_MAP_REQUIRED / NO_MOTION_ADOPTION / NO_PHYSICAL_WIND_CLAIM / COORDINATION_ONLY**
+State: **PASS_FIVE_SOCKET_SHARED_DRIVER_VISUAL_RESPONSE_ENVELOPE / NATURE_PR19_HEAD_BA1C12DD / RIGGING_PR14_754797A8_EXACT / VFX_PR17_EF7B35AF_SIGN_DONOR / WEATHER_PR2_CA2EABA5_VISUAL_DIRECTION_ONLY / STATIC_RESPONSE_NOT_MOTION / NO_FINAL_AMPLITUDE_OR_PHYSICAL_WIND / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the immediately preceding VFX status, and fresh design-repository state before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the immediately preceding VFX status, current Rigging / Animation / Technical Art / Runtime / Art Direction / Visual Observer state, current open-PR activity across the design constellation, and the fresh return on Nature VFX PR #17 before selecting work.
 
 `mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives only in `mike-axiom-mir/axm-nature-design`; this status file is the only `axm-create-me` mutation.
 
@@ -14,36 +14,43 @@ The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Cont
 
 Immediate predecessor VFX status blob:
 
-`94c91ddb20df115024dbe2db426006dbdaee9ee5`
+`4d8da22a4617c1083afe8473ab90782dbd61ea34`
 
-That predecessor remains exact Git history and preserves the earlier Weather/Map temporal-exposure review, Object irregularity-v2 downstream evidence, and the first single-socket Nature/Weather sign proof at VFX PR #16. This activation does not silently rewrite any of those results.
+That predecessor remains exact Git history and preserves VFX PR #17's five-socket Weather visual-direction sign map, all prior Weather/Map temporal-exposure evidence, Object irregularity-v2 evidence, and all earlier VFX handoffs. This activation does not silently rewrite those results.
 
 ## Fresh constellation / duplicate-lane scan
 
-The existing major VFX lanes remain bounded by their current owners:
+The current major VFX/effect lanes remain bounded by their existing owners:
 
-- **Weather / Map temporal exposure:** the opacity-normalized candidate and its A/B/source-cadence review surfaces already answer the current perceptual question; measured smoothing benefit remains small, so no new lag / opacity / density / width / seed / camera variant is justified.
-- **Object lid-release motes:** irregularity-v2 has passed intended close/seam Art and independent-QA review and Runtime already has a downstream v2 receiving implementation. Reopening the effect would duplicate accepted/frozen ownership.
-- **Nature compact-east:** source-response VFX remains frozen from retuning while Animation / Runtime / Art / QA own downstream playback and acceptance.
-- **Character / Animal / Building / Weapon / Armor / Unit / Misc:** current visible work remains primarily source, geometry, rigging, animation, material, runtime or evidence work rather than an unowned VFX defect.
+- **Weather / Map temporal exposure:** opacity-normalized temporal exposure already has exact A/B and source-cadence review surfaces; the measured smoothing benefit remains small and Art Direction still does not prefer it over the existing single-tap default. No further lag / opacity / density / seed / width variant is justified.
+- **Object lid-release motes:** irregularity-v2 already passed intended close/seam Art and independent-QA review; Runtime has downstream receiving evidence. Reopening brightness, count, lifetime or spread would duplicate a closed effect question.
+- **Nature compact-east:** source response remains frozen from VFX retuning while Animation / Runtime / Art / QA own downstream playback and acceptance.
+- **Object / Building / Map current fresh returns:** current work is dominated by material hierarchy, Technical-Art transport, Runtime batching, Environment rebind or target-device questions rather than an unowned VFX defect.
+- **Character / Animal / Weapon / Armor / Unit / Misc:** no stronger completed unowned VFX/atmosphere defect displaced the fresh Nature return.
 
-The materially new VFX seam is **Nature Rigging PR #14** at exact head:
+The materially new VFX seam came from **Nature Rigging PR #14**, which consumed exact VFX PR #17 and advanced to head:
 
-`898529f602893c8f6be179bd3e9b6821fc099904`.
+`754797a815266a643c6b08f1606eb76ba95dd8c6`
 
-It now proves five exact, pairwise-disjoint east/rear primary-branch child sockets:
+with result:
 
-` south-low / north-low / east-mid / west-high / north-top `
+`PASS_FIVE_SOCKET_SHARED_DRIVER_POLARITY_BINDING_DIAGNOSTIC_MINUS5_TO_PLUS5`.
 
-Each child is independently tested as a 52-vertex / 72-triangle rigid diagnostic receiver across exact `-5 / -2.5 / 0 / +2.5 / +5°` Rigging witnesses. Rigging explicitly does **not** claim wind/VFX behavior or simultaneous multi-branch motion.
+Rigging preserved all five source-derived pivots/axes/child partitions and added only a command-space sign adapter:
 
-VFX PR #16 had already resolved Weather visual-direction sign compatibility for `north-top` alone. Therefore the highest-leverage non-duplicative VFX question became:
+- `south-low +1`;
+- `north-low -1`;
+- `east-mid +1`;
+- `west-high -1`;
+- `north-top +1`.
 
-> does the same local `+/-` angle sign work for the newly proven four sibling sockets, or does a future Weather-to-Nature receiver need a per-socket polarity map?
+That closes the local-sign ambiguity from VFX PR #17 without authoring wind motion. It creates a new VFX-owned question that was previously blocked:
 
-That matters because blindly applying one global local-angle sign can make some sockets move opposite the intended world-space visual direction even when every local Rigging transform is individually valid.
+> does one shared signed diagnostic command now produce a coherent signed **visual spatial response** across all five generated branch receivers relative to Weather's exact visual direction, before Animation timing or Runtime behavior is introduced?
 
-## Selected bounded improvement — five-socket Weather visual-direction sign map
+That is higher leverage than opening another effect variant because it verifies the cross-asset reactive hook produced by the VFX→Rigging learning loop.
+
+## Selected bounded improvement — five-socket shared-driver visual response envelope
 
 Owning implementation repository:
 
@@ -51,19 +58,19 @@ Owning implementation repository:
 
 New draft VFX PR:
 
-**#17 — `VFX: map Weather visual-direction signs across five branch sockets`**
+**#19 — `VFX: prove five-socket shared-driver visual response envelope`**
 
 Branch:
 
-`studio/vfx-primary-branch-weather-direction-sign-family-002`
+`studio/vfx-shared-driver-response-envelope-003`
 
-Exact Rigging parent/base:
+Exact Rigging base:
 
-`studio/rigging-east-rear-root-socket-001` @ `898529f602893c8f6be179bd3e9b6821fc099904`
+`studio/rigging-east-rear-root-socket-001` @ `754797a815266a643c6b08f1606eb76ba95dd8c6`
 
 Exact tested VFX head:
 
-`ef7b35af27d5ca98a6447c1e33be07863e387305`
+`ba1c12dd527f1ecc6a0eb4bc0b4322f15ccad475`
 
 PR state after verification:
 
@@ -71,14 +78,14 @@ PR state after verification:
 
 New bounded files:
 
-- `src/axm_nature_design/rear_tree_vfx_weather_sign_family.py`;
-- `tools/verify_rear_tree_vfx_weather_sign_family.py`;
-- `tests/test_rear_tree_vfx_weather_sign_family.py`;
-- `contracts/east-rear-primary-branch-weather-direction-vfx-sign-family-002.json`;
-- `docs/VFX_EAST_REAR_WEATHER_DIRECTION_SIGN_FAMILY_002.md`;
-- `.github/workflows/vfx-east-rear-weather-direction-sign-family.yml`.
+- `src/axm_nature_design/rear_tree_vfx_shared_driver_response.py`;
+- `tests/test_rear_tree_vfx_shared_driver_response.py`;
+- `tools/verify_rear_tree_vfx_shared_driver_response.py`;
+- `contracts/east-rear-shared-driver-vfx-response-envelope-003.json`;
+- `docs/VFX_EAST_REAR_SHARED_DRIVER_RESPONSE_ENVELOPE_003.md`;
+- `.github/workflows/vfx-east-rear-shared-driver-response-envelope.yml`.
 
-No inherited Organic, Geometry, Procedural or Rigging owner file was modified.
+No Organic source, Geometry receiver, Rigging pivot/axis/partition, Rigging shared-driver binding, Weather source, Animation file, Technical-Art file, Runtime file or Universal Creation product file was modified.
 
 ## Exact donors and source integrity
 
@@ -86,163 +93,149 @@ No inherited Organic, Geometry, Procedural or Rigging owner file was modified.
 
 - repository `mike-axiom-mir/axm-nature-design`;
 - PR #14;
-- exact head `898529f602893c8f6be179bd3e9b6821fc099904`;
-- exact branch family `south-low / north-low / east-mid / west-high / north-top`;
-- exact child size per branch: **52 vertices / 72 triangles**;
-- exact diagnostic interval: `[-5,+5]°`;
-- semantics remain `RIGGING_VERIFICATION_PROBE_ONLY_NOT_SOURCE_OR_BIOLOGICAL_ROM`;
-- no simultaneous multi-branch motion claim is transferred to VFX.
+- exact head `754797a815266a643c6b08f1606eb76ba95dd8c6`;
+- result `PASS_FIVE_SOCKET_SHARED_DRIVER_POLARITY_BINDING_DIAGNOSTIC_MINUS5_TO_PLUS5`;
+- exact shared diagnostic field `[-5,-2.5,0,+2.5,+5]°`;
+- exact command multipliers `+1 / -1 / +1 / -1 / +1` across `south-low / north-low / east-mid / west-high / north-top`;
+- no final amplitude, wind motion, Animation or Runtime semantics transferred.
 
-### VFX predecessor
+### VFX sign-map predecessor
 
-- Nature VFX PR #16;
-- exact head `1976c5a4ff0a51b5f3ee4bfd323dbb6f89c34787`;
-- prior scope: `north-top` only;
-- prior exact review-only sign: `+5°`;
-- prior measurements are required to reproduce exactly before the five-socket successor can PASS.
+- Nature VFX PR #17;
+- exact head `ef7b35af27d5ca98a6447c1e33be07863e387305`;
+- result `PASS_FIVE_SOCKET_WEATHER_VISUAL_DIRECTION_SIGN_MAP`;
+- exact contract blob `b06b5f6862c6c88ec5642e3bdbccfe0d3e65655f`;
+- exact module blob `ae674ee8f6109d478446fbcd5348bcbee04b01e7`.
+
+PR #19 does not replace PR #17; it consumes the sign relationship only through the independently rebound Rigging command interface.
 
 ### Weather visual-direction donor
 
 - repository `mike-axiom-mir/axm-weather-design`;
 - PR #2;
 - exact head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
-- source `examples/wind_atmosphere_baseline_001.json`;
 - source blob `11298d447f262da8a78e43e2df68bc0346c99a2c`;
-- exact `wind_xy = [1.0, 0.35]`;
+- exact `wind_xy=[1.0,0.35]`;
 - semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
 
-VFX consumes only that source-owned visual direction. Weather source state is not mutated or promoted into physical wind.
+VFX consumes only this source-owned visual direction. It remains non-physical.
 
 ## Bounded method
 
 The VFX successor:
 
-1. re-runs the exact five-socket Rigging prerequisite;
+1. runs the exact current Rigging shared-driver prerequisite;
 2. rebuilds the actual generated Nature mesh;
-3. uses each exact Rigging socket's source-owned pivot and source-derived local bend axis;
-4. evaluates only exact `-5° / 0° / +5°` witnesses independently per socket;
-5. computes the selected-child XY centroid displacement;
-6. projects that displacement onto normalized Weather visual direction `[1.0,0.35]`;
-7. requires neutral `0°` projection to remain zero for every socket;
-8. requires the `-5°` and `+5°` witnesses to be measurably separable for every socket;
-9. records whichever signed witness has the larger downwind centroid projection as a **review-only local polarity**;
-10. requires `north-top` to reproduce the exact PR #16 values before accepting the family result;
-11. retains a deterministic review SVG using the actual generated selected vertices;
-12. leaves automatic Animation adoption and automatic VFX-motion adoption false.
+3. uses all five exact Rigging-owned pairwise-disjoint 52-vertex child partitions;
+4. evaluates only inherited shared diagnostic values `-5 / -2.5 / 0 / +2.5 / +5°`;
+5. maps the shared command through Rigging's exact per-socket multiplier without changing any local axis/pivot/range;
+6. composes the five child transforms into a **static simultaneous review pose** for each shared command;
+7. measures each branch centroid and the combined 260-selected-vertex family centroid along normalized Weather visual direction `[1.0,0.35]`;
+8. requires positive shared commands to project every branch downwind, negative commands to project every branch oppositely, and neutral to remain exact;
+9. requires the 130-vertex fixed receiver to remain exact;
+10. retains a deterministic top-down centroid-vector SVG generated from the actual deformed generated geometry;
+11. keeps final amplitude, Animation motion, simultaneous multi-branch motion, Technical-Art target-host acceptance, Runtime adoption and physical wind explicitly false.
 
-Fail-closed controls reject:
-
-- Weather visual-direction drift;
-- branch-family reduction;
-- diagnostic widening/replacement;
-- physical-wind promotion;
-- biological-response promotion;
-- Animation-adoption promotion;
-- Runtime/controller promotion;
-- gameplay promotion;
-- simultaneous multi-branch-motion promotion.
+The simultaneous composition here is a finite **static pose review**, not an Animation or Runtime motion claim. Geometry's separate finite simultaneous intersection evidence remains separate authority.
 
 ## Exact verification result
 
 Dedicated workflow:
 
-**`35308053641 — VFX east rear Weather-direction five-socket sign family` — SUCCESS**.
+**`35311673827 — VFX east rear shared-driver response envelope` — SUCCESS**.
 
-Both Python 3.11 and Python 3.13 jobs passed exact-parent pinning, compile and full receiving-repository unit-test discovery. Python 3.11 ran **58 tests** successfully and additionally generated, truth-gated and uploaded the exact retained evidence packet.
+Both Python 3.11 and Python 3.13 jobs passed exact donor/owner pinning, compile and full receiving-repository unit-test discovery. The Python 3.11 job additionally generated, truth-gated and uploaded the retained evidence packet.
+
+All same-head workflow families observed on exact head `ba1c12dd...` completed SUCCESS:
+
+- VFX east rear shared-driver response envelope;
+- Geometry source topology migration evidence;
+- Organic east rear tree evidence;
+- Organic compact east tree evidence;
+- Nature organic form baseline.
 
 Scoped result:
 
-**`PASS_FIVE_SOCKET_WEATHER_VISUAL_DIRECTION_SIGN_MAP`**
+**`PASS_FIVE_SOCKET_SHARED_DRIVER_VISUAL_RESPONSE_ENVELOPE`**
 
-Decision:
+Exact family-centroid projection along Weather visual direction:
 
-**`PASS_REVIEW_ONLY_FIVE_SOCKET_SIGN_MAP_NO_MOTION_ADOPTION`**
+- shared `-5°` -> **`-0.02463310246135535 m`**;
+- shared `-2.5°` -> **`-0.01229308022111286 m`**;
+- shared `0°` -> **`0.0 m`**;
+- shared `+2.5°` -> **`+0.012222737625089394 m`**;
+- shared `+5°` -> **`+0.02435186597839093 m`**.
 
-Family polarity:
+Exact per-branch projection at shared `+5°`:
 
-**`PER_SOCKET_SIGN_MAP_REQUIRED`**
+- `south-low`: `+0.016588762432268866 m`;
+- `north-low`: `+0.017583768804344528 m`;
+- `east-mid`: `+0.03324277426140488 m`;
+- `west-high`: `+0.034787596961003905 m`;
+- `north-top`: `+0.019556427432932226 m`.
 
-Measured review-only local angle map:
+Exact per-branch projection at shared `-5°`:
 
-- `south-low` → **`+5°`**; preferred downwind centroid projection `+0.016588762432268866 m`; signed witness separation `0.03451964526385527 m`;
-- `north-low` → **`-5°`**; preferred projection `+0.017583768804344528 m`; separation `0.03345999264645084 m`;
-- `east-mid` → **`+5°`**; preferred projection `+0.03324277426140488 m`; separation `0.06959613443259174 m`;
-- `west-high` → **`-5°`**; preferred projection `+0.034787596961003905 m`; separation `0.06655861846137989 m`;
-- `north-top` → **`+5°`**; preferred projection `+0.019556427432932226 m`; separation `0.040790451394453475 m`.
+- `south-low`: `-0.017930882831586403 m`;
+- `north-low`: `-0.01587622384210631 m`;
+- `east-mid`: `-0.03635336017118687 m`;
+- `west-high`: `-0.03177102150037599 m`;
+- `north-top`: `-0.02123402396152125 m`.
 
-All five neutral `0°` projections are exactly zero within the retained tolerance.
+At shared `+2.5°`, all five branch projections are positive; at shared `-2.5°`, all five are negative; all five neutral projections are exactly zero. The selected union is exactly **260 vertices** and the remaining **130 fixed vertices** show zero drift.
 
-`north-top` reproduces the predecessor exactly:
+The response is intentionally not claimed perfectly antisymmetric; measured positive/negative magnitudes differ slightly because these are real rotations about source-derived branch axes, not a fabricated linear response curve.
 
-- `-5°`: `-0.02123402396152125 m`;
-- `0°`: `0.0 m`;
-- `+5°`: `+0.019556427432932226 m`;
-- separation: `0.040790451394453475 m`;
-- preferred review-only sign: `+5°`.
+## Visual evidence versus motion / physics claims
 
-## Visual / geometry evidence versus motion / physics claims
+The retained `review.svg` was generated from the actual generated geometry and directly inspected after artifact download. It shows neutral-to-deformed centroid vectors for all five sockets at shared `-5°` and `+5°` alongside the exact Weather visual-direction arrow. The sign relationship visible in the SVG matches the numeric measurements.
 
-The retained review SVG is generated from the **actual selected generated vertices** for all five sockets at exact `-5° / 0° / +5°` witnesses with the exact Weather visual-direction arrow. It is deterministic review geometry, not a gameplay render and not an Art Direction acceptance artifact.
+This is **generated-geometry visual review evidence**, not a target-host game render and not an Art Direction acceptance artifact.
 
-The most important finding is the mixed local polarity:
-
-`+ / - / + / - / +`
-
-for `south-low / north-low / east-mid / west-high / north-top` respectively.
-
-This does **not** mean `north-low` or `west-high` should physically bend "against wind." It means those sockets' independently source-derived local Rigging axes use the opposite angle sign to produce a positive projection along the same world-space Weather visual direction. A future Weather-to-Nature receiver therefore must be **axis-aware / per-socket-polarity-aware** and must not assume one global local `+5°` or `-5°` convention.
-
-No motion curve, cadence, amplitude, wind strength, gust response or simultaneous branch movement was authored here.
+No real-time motion was authored or executed. No claim is made that the five branches can move simultaneously through the continuous interval without collision, that the diagnostic amplitude looks natural, or that a target host/device will render or perform this response acceptably.
 
 ## Retained evidence
 
 Artifact:
 
-- ID **`10532351624`**;
-- name `nature-east-rear-weather-direction-vfx-sign-family-ef7b35af27d5ca98a6447c1e33be07863e387305`;
-- retained files: **9**;
-- size **`16,529 B`**;
-- GitHub SHA-256 **`afa8dee21a1a7f31f515eff6ecf7081ad5b3eadc3b48a6bd18bf697d7dca12fd`**.
+- ID **`10533588185`**;
+- name `nature-east-rear-vfx-shared-driver-response-ba1c12dd527f1ecc6a0eb4bc0b4322f15ccad475`;
+- size **`9,899 B`**;
+- GitHub SHA-256 **`f33e2aa68e57db4e659e7dbbf42a5292c6d2319b05fb8a554e61c8fc5ea26b6b`**.
 
-Retained contents include:
+The exact artifact archive was downloaded after workflow completion and independently rehashed; the digest reproduced exactly.
 
-- exact tested head;
-- exact Rigging parent pin;
-- exact VFX predecessor pin;
-- exact Weather donor-head/source-blob pins;
-- bounded contract;
-- evidence JSON;
-- generated five-socket review SVG;
-- documentation.
+Retained contents include exact tested head, exact Rigging/VFX/Weather donor witnesses, contract, evidence JSON, documentation and generated review SVG.
 
 ## Handoffs
 
-Rigging PR #14 received VFX consumer-return comment **`5725281689`** describing the mixed polarity result without requesting any Rigging-axis or diagnostic-limit change.
+- Nature VFX PR #19 received exact-head evidence review `5244602734` with green workflow, exact measurements, artifact identity and truth boundary.
+- Nature Rigging PR #14 received consumer return `5244603521`; no axis/pivot/range change requested.
+- Nature Animation PR #15 received bounded future-consumer handoff `5244603982`; no timing/cadence/amplitude/motion adoption requested.
+- Nature VFX PR #17 received continuity return `5244604791`; its sign-map evidence remains preserved rather than rewritten.
+- Weather PR #2 received downstream consumer return `5244605350`; no Weather source/speed/force/physical-wind change requested.
 
-VFX predecessor PR #16 received continuity comment **`5725282609`**, explicitly preserving its one-socket evidence and recording exact `north-top` reproduction.
-
-Weather PR #2 received downstream-consumer comment **`5725283311`**, preserving Weather's visual-only semantics and requesting no Weather source/timing/speed/force change.
-
-Nature VFX PR #17 contains the exact green run, five-socket map, artifact identity and truth boundary. No merge or automatic adoption was requested.
+No merge or automatic adoption was requested.
 
 ## Explicit truth boundary / nonclaims
 
-This PASS establishes only a **per-socket signed visual-direction compatibility map** between:
+This PASS establishes only a coherent signed **static visual spatial-response envelope** between:
 
-- one exact source-owned Weather visual direction; and
-- five exact independent Nature Rigging diagnostic sockets on the actual generated child geometry.
+- one exact Weather visual direction;
+- one exact Rigging sign-normalized shared diagnostic command interface; and
+- five exact generated Nature branch child receivers.
 
 It does **not** establish or adopt:
 
 - physical wind, force, drag, turbulence or pressure;
-- Weather visual speed as a physical wind magnitude;
-- gust strength, cadence, phase or timing;
-- a final vegetation amplitude;
-- a final vegetation Animation clip;
-- simultaneous multi-branch motion;
-- biological or biomechanical response;
-- Runtime controller/state-machine behavior;
-- target-engine vegetation/VFX implementation;
+- Weather visual speed as physical magnitude;
+- final vegetation amplitude or source/biological ROM;
+- gust timing, phase, cadence or frequency;
+- Animation timing, interpolation, looping, naturalness or playback;
+- simultaneous multi-branch **motion**;
+- continuous collision/self-intersection freedom;
+- Technical-Art target-host deformation/scene-graph acceptance;
+- Runtime controller/input/device/performance behavior;
 - collision, damage, gameplay or interaction semantics;
 - target-device CPU/GPU/FPS/VRAM/thermal/battery performance;
 - Art Direction acceptance;
@@ -251,19 +244,19 @@ It does **not** establish or adopt:
 - production/game readiness;
 - VFX mastery.
 
-Weather retains source semantics. Rigging retains articulation and diagnostic limits. Animation retains timing and motion authorship. Runtime retains controller/device/performance authority. Art Direction and independent Visual QA retain perceptual acceptance. VFX owns only this bounded compatibility map.
+Weather retains source semantics. Rigging retains articulation and constraint ownership. Animation retains timing and motion authorship. Geometry retains structural/intersection authority. Technical Art retains target-host transport. Runtime retains controller/device/performance authority. Art Direction and independent Visual QA retain perceptual acceptance.
 
 ## Four-root gate
 
-- **Truth:** exact Rigging, predecessor-VFX and Weather identities are pinned; the mixed sign map is reported as coordinate/visual-direction compatibility only, not promoted into wind motion or physics.
-- **Agency / non-domination:** VFX consumes owner evidence without seizing Weather semantics, Rigging axes/limits, Animation authorship, Runtime policy, gameplay/physics authority or Art/QA judgment.
-- **Continuity:** predecessor VFX PR #16 is explicitly reproduced rather than overwritten; the new PR #17, exact five-socket Rigging parent and retained evidence remain separately recoverable and attributable.
-- **Wisdom before speed:** the studio resolved the real coordinate-sign ambiguity across the newly available socket family instead of guessing a global sign and building a visually impressive but potentially inverted wind-motion system.
+- **Truth:** exact donor heads/blobs and current Rigging head are pinned; measured real generated-geometry projections are reported directly; static pose evidence is not inflated into motion, physics or target-host evidence.
+- **Agency / non-domination:** VFX consumes owner contracts without seizing Weather semantics, Rigging articulation, Geometry collision authority, Animation timing, Technical-Art transport, Runtime policy or Art/QA judgment.
+- **Continuity:** predecessor VFX PR #17 remains exact and separately recoverable; the new successor is stacked on the current Rigging head and preserves all prior lane results rather than silently replacing them.
+- **Wisdom before speed:** the studio verifies one shared reactive visual interface across the exact five-socket family before spending effort on timing, prettier motion, target-host implementation or stronger wind semantics.
 
 The four AXM roots remain the merge gate.
 
 ## Next VFX trigger
 
-Do **not** convert this sign map into automatic Nature wind motion.
+Do **not** convert this static response envelope into wind Animation automatically.
 
-A next Weather-to-Nature dynamic pass is justified only after an explicit owning handoff defines one bounded visual-response question such as timing/cadence/amplitude or a target-host receiving context. That successor may consume this proven per-socket polarity map, but Animation/Rigging/Weather/Runtime/Art/QA retain their own authority and must independently verify any adopted motion.
+A next Nature dynamic VFX pass is justified only after an owning Animation or Technical-Art handoff exposes a concrete bounded receiving question: for example, a five-socket time-domain candidate bound to this exact shared-driver interface, or a target-host deformation receiver that can be visually observed without VFX inventing Animation timing or Runtime policy.
