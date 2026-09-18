@@ -2,191 +2,242 @@
 
 Date: 2026-09-18
 
-State: **PASS_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_SOURCE_CADENCE_REVIEW_SURFACE / EXACT_VISUAL_CANDIDATE_DD4A8522_UNCHANGED / MAP_PR25_REVIEW_HEAD_47EF4F9A / RUN_35300201459_SUCCESS / HOLD_ART_QA_WEATHER_TEMPORAL_VALUE / KEEP_DIRECTION_005_SINGLE_TAP_DEFAULT / OBJECT_V2_OWNER_ART_QA_PASS / OBJECT_RUNTIME_V2_INDEPENDENT_QA_PASS__HOLD_TARGET_DEVICE / COORDINATION_ONLY**
+State: **PASS_NATURE_WEATHER_VISUAL_DIRECTION_SOCKET_SIGN_COMPATIBILITY / NATURE_PR16_HEAD_1976C5A4 / ANIMATION_PARENT_74354FF8_UNCHANGED / WEATHER_PR2_CA2EABA5_VISUAL_DIRECTION_ONLY / REVIEW_SIGN_PLUS5_DEG / NO_MOTION_ADOPTION / NO_PHYSICAL_WIND_CLAIM / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the immediately preceding VFX status, fresh Art Direction 041, fresh Visual Observer / QA state, and current open work across all eleven design repositories: Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/09_vfx_atmosphere.md`, the immediately preceding VFX status, fresh Art Direction / Visual Observer-QA / Animation state, and the current open design-repository constellation before selecting work.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation changed only in `mike-axiom-mir/axm-map-design`; this status file is the only create-me mutation.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product/evidence implementation for this activation lives only in `mike-axiom-mir/axm-nature-design`; this status file is the only `axm-create-me` mutation.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate predecessor VFX status blob:
 
-`15ecd0c1bd0b1288a679c08b75808229fe1321f0`
+`9c9d0e95aa66fdeba12cc98a09dbbb607aef0463`
 
-The predecessor remains exact historical truth and preserves the A/B blink review, prior attribution/readability evidence and earlier Object downstream state. This activation does not silently rewrite it.
+That predecessor remains exact Git history and preserves the Weather source-cadence review at Map PR #25, the earlier A/B/readability evidence, and the Object irregularity-v2 downstream state. This activation does not silently rewrite any of those results.
 
 ## Fresh constellation / duplicate-lane scan
 
-No new source retune or new effect family is justified.
+The studio already has bounded owners for the earlier active VFX lanes:
 
-- **Weapon / Armor / Unit / Misc:** no fresh VFX handoff displaces the active Weather temporal-review question.
-- **Character:** current open work is Runtime / Animation / Technical-Art / Materials representation and transport; VFX does not duplicate those owners.
-- **Animal:** the bounded `41 -> 19` animation-key Runtime candidate remains a Runtime / Art / QA review lane. No VFX mutation follows.
-- **Building:** current geometry/material transport work still exposes no stronger dynamic-effect need than the Weather temporal handoff.
-- **Nature:** compact-east source response remains frozen from VFX retuning while Animation / Runtime / Art / QA own downstream playback and acceptance.
-- **Weather:** Procedural PR #3 retains source/seed/field semantic ownership. VFX changes no Weather source state.
-- **Map:** PR #25 remains the live Weather receiving/presentation lane. Existing Object wide-camera zero-raster evidence remains accepted as non-target-scale/non-intrusion evidence and is not a reason to amplify Object VFX.
-- **Object:** irregularity-v2 owner `bc114ee7ec876107892ccedeefc8e5020315488a` remains Art + independent QA PASS in intended close/seam contexts. Runtime exact-v2 MultiMesh head `f7408712a90e5b0b7f3043f577580d912d8d0527` now also has independent visual-equivalence QA PASS. Target-device / production-particle-runtime adoption remains separately held.
+- **Weather / Map:** the opacity-normalized temporal-exposure candidate remains a non-destructive experiment and is still held from promotion over Direction-005 because the measured temporal gain is tiny; the viewer-facing source-cadence A/B surface already answers the current Art-review request. No new lag / opacity / seed / width / density / camera variant is justified.
+- **Object:** irregularity-v2 has passed the intended close/seam Art and independent-QA review, and Runtime has an exact-v2 receiving implementation under its own downstream gates. Reopening Object VFX would duplicate accepted/frozen ownership.
+- **Nature compact-east:** earlier source-response work remains frozen from VFX retuning while Animation / Runtime / Art / QA own downstream playback and acceptance.
+- **Character / Animal / Building / Weapon / Armor / Unit / Misc:** current open work remains dominated by source, rigging, animation, technical-art, material, runtime or evidence concerns rather than an unowned VFX defect.
 
-Fresh Art Direction 041 is the strongest direct VFX handoff. It explicitly keeps the exact normalized two-tap Weather candidate as a non-destructive experiment but **does not promote it over Direction 005 single-tap source-width**, because meaningful perceptual temporal gain has not been demonstrated. Art explicitly asks that VFX stop parameter retuning and, if the lane continues, provide a truthful viewer-facing playback A/B using the same source sequence, cameras and world conditions.
+The materially new seam is **Nature Animation PR #15** at exact head `74354ff851538d4d8aba9332900ae40218415eaf`. It now provides a green, exact east-rear `north-top` Rigging child socket exercised through a bounded diagnostic `-5..+5°` pulse while explicitly preserving the truth label:
 
-The highest-leverage unoccupied VFX action is therefore a **source-cadence viewer-facing A/B evidence surface for the already-frozen candidate**, not another lag / opacity / seed / width / density / lighting / camera variant.
+`ANIMATION_DIAGNOSTIC_SOCKET_PULSE_NOT_WIND_NOT_BIOLOGICAL_ROM_NOT_CONTROLLER`.
 
-## Selected bounded improvement — exact source-cadence A/B review surface
+Separately, Weather PR #2 already owns exact source visual direction `wind_xy=[1.0,0.35]` with semantics:
 
-Owning repository: `mike-axiom-mir/axm-map-design`
+`VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
 
-Existing draft PR: **#25 — `VFX: carry source-authored Weather width into current-world proof`**
+That creates one useful VFX-owned ambiguity without requiring a new effect family: **which sign of the exact Rigging diagnostic socket actually moves the generated Nature child farther downwind in XY relative to the exact Weather visual direction?**
 
-Branch: `studio/vfx-weather-source-width-current-world-001`
+Resolving that sign now prevents a later Weather-to-Nature hookup from guessing or silently flipping the receiving motion while still leaving wind strength, timing, amplitude and final motion with their proper owners.
 
-Exact unchanged visual candidate:
+## Selected bounded improvement — Weather visual-direction / Nature socket sign compatibility
 
-`dd4a85223ba70f7086db2fdc292e4cb57ac38e47`
+Owning implementation repository:
 
-New review-only head:
+`mike-axiom-mir/axm-nature-design`
 
-`47ef4f9a7cf4fa8a696ec9febd3e3193cd8a3ea6`
+New draft VFX PR:
 
-New review-only files:
+**#16 — `VFX: resolve Weather visual-direction sign for east-rear socket`**
 
-- `tools/environment_weather_width_temporal_exposure_playback_review.py`;
-- `environment-proof/atmosphere_current_world_weather_width_temporal_exposure_playback_review_observe.gd`;
-- `docs/ENVIRONMENT_WEATHER_SOURCE_WIDTH_TEMPORAL_EXPOSURE_SOURCE_CADENCE_REVIEW_001.md`;
-- `.github/workflows/vfx-weather-source-width-temporal-exposure-source-cadence-review.yml`.
+Branch:
 
-The workflow pins the exact normalized-candidate code/document blobs from `dd4a852...` and fails if those owner bytes drift. No Weather source data, seed, source width, opacity semantics, `15.625 ms` lag, tap weights, density, cameras, lighting, world composition, Nature motion, Runtime scheduling, gameplay or physics state changed.
+`studio/vfx-east-rear-weather-direction-sign-001`
 
-## What the review adds
+Base / exact Animation parent:
 
-The previous exact A/B blink surface was excellent for locating sparse spatial differences, but its selected still frames do not answer Art Direction 041's temporal-review request.
+`studio/animation-east-rear-root-socket-pulse-001` @ `74354ff851538d4d8aba9332900ae40218415eaf`
 
-This pass captures the unchanged single-tap reference and unchanged normalized two-tap candidate through the same real Godot 4.7.2 GL Compatibility receiver at **all 17 authored source-evaluation phases**:
+Exact tested VFX head:
 
-`0, 31.25, 62.5, …, 500 ms`.
+`1976c5a4ff0a51b5f3ee4bfd323dbb6f89c34787`
 
-Both fixed `1100×720` cameras are retained:
+PR state after verification:
 
-- `path_eye`;
-- `elevated_oblique`.
+**open / draft / unmerged / mergeable**.
 
-Each exact phase retains:
+New bounded files:
 
-- single-tap control PNG + raw RGBA8;
-- normalized two-tap candidate PNG + raw RGBA8;
-- current and lagged source brackets;
-- all 36 normalized opacity rows;
-- control and candidate projected-width receipts;
-- Weather and sapling resource identity.
+- `contracts/east-rear-weather-direction-vfx-sign-001.json`;
+- `src/axm_nature_design/rear_tree_vfx_weather_sign.py`;
+- `tests/test_rear_tree_vfx_weather_sign.py`;
+- `tools/verify_rear_tree_vfx_weather_sign.py`;
+- `docs/VFX_EAST_REAR_WEATHER_DIRECTION_SIGN_001.md`;
+- `.github/workflows/vfx-east-rear-weather-direction-sign.yml`.
 
-The artifact also contains an offline HTML viewer that advances the exact retained frame pairs against a **nominal 32 Hz review clock**. Playback is one-shot by default, so no unproven end-to-start loop seam is introduced as if it were authored content.
+No inherited Nature source, Rigging or Animation owner file was modified.
 
-The browser page is a review convenience only. Browser/display cadence is not measured and is not part of the PASS.
+## Exact donors and source integrity
+
+### Nature Animation owner
+
+- repository `mike-axiom-mir/axm-nature-design`;
+- PR #15;
+- exact head `74354ff851538d4d8aba9332900ae40218415eaf`;
+- exact diagnostic witnesses used here: `-5° / 0° / +5°` only;
+- exact selected Rigging child partition: **52 vertices**;
+- Animation diagnostic remains **not wind** and is not adopted by VFX.
+
+### Weather visual-direction donor
+
+- repository `mike-axiom-mir/axm-weather-design`;
+- PR #2;
+- exact head `ca2eaba519e8449835b0ea6ef944b7080c3caa6a`;
+- source `examples/wind_atmosphere_baseline_001.json`;
+- source blob `11298d447f262da8a78e43e2df68bc0346c99a2c`;
+- source digest `b33feba47b0a0f9a99ec439e32a87ff6d4cb2dacffe33ba78f8b646c3a1be8d6`;
+- exact `wind_xy = [1.0, 0.35]`;
+- semantics `VISUAL_DIRECTION_ONLY_NOT_PHYSICAL_WIND_SPEED`.
+
+VFX consumes only that visual direction. Weather source state is not modified or reinterpreted as physical force.
+
+## Bounded method
+
+The VFX verifier:
+
+1. re-runs the exact Animation prerequisite and fails if its truth label drifts;
+2. rebuilds the actual generated Nature mesh and exact Rigging receiver;
+3. reuses the exact Animation-local Rodrigues pose transform rather than introducing a second motion transform;
+4. evaluates only the exact Rigging witnesses `-5°`, `0°`, and `+5°`;
+5. computes the selected-child XY centroid and each selected vertex's XY displacement;
+6. projects those displacements onto the normalized Weather visual direction;
+7. requires neutral `0°` projection to remain zero;
+8. requires the signed `-5°` / `+5°` witnesses to be measurably separable;
+9. retains whichever exact signed witness has the larger centroid downwind projection as a **review-only sign compatibility result**;
+10. leaves automatic Animation adoption and automatic VFX-motion adoption false.
+
+Fail-closed tests reject:
+
+- Weather donor direction drift;
+- widening or replacing the exact Rigging diagnostic witnesses;
+- physical-wind claims;
+- biological-response claims;
+- Animation-adoption claims;
+- Runtime-controller claims;
+- gameplay claims.
 
 ## Exact verification result
 
 Dedicated workflow:
 
-**`35300201459 — VFX Weather normalized exposure source-cadence review` — SUCCESS**.
+**`35303882023 — VFX east rear Weather-direction socket sign` — SUCCESS**.
 
-Scoped state:
+Both Python 3.11 and Python 3.13 jobs passed:
 
-**`PASS_OPACITY_NORMALIZED_TEMPORAL_EXPOSURE_SOURCE_CADENCE_REVIEW_SURFACE`**
+- exact-parent / owner-byte pinning;
+- compile;
+- full repository unit-test discovery.
+
+Python 3.11 additionally built and uploaded the exact retained evidence packet.
+
+Scoped result:
+
+**`PASS_EAST_REAR_WEATHER_VISUAL_DIRECTION_SOCKET_SIGN_COMPATIBILITY`**
 
 Decision:
 
-**`REVIEW_SURFACE_ONLY_NO_ART_OR_QA_PREFERENCE`**
+**`PASS_SIGN_COMPATIBILITY_ONLY_NO_MOTION_ADOPTION`**
 
-All gates passed, including:
+Measured exact selected-child centroid projections:
 
-- exact candidate `dd4a852...` is an ancestor of the review head;
-- normalized candidate tool, observer and documentation blobs match the exact frozen candidate identities;
-- exact PR #22 Weather receiver parent and Weather variation donor rebuild green;
-- real Godot renders all `17 × 2 cameras × 2 modes = 68` retained PNG/RGBA frame pairs;
-- all 17 current source brackets and half-interval lagged brackets remain exact;
-- all normalized transmittance rows verify with maximum formula error `9.43689570931383e-16`;
-- equal-source reconstruction error remains below `1e-15`;
-- combined alpha never exceeds the larger source alpha;
-- **3,672** projected-width observations pass with maximum residual **`0.00974698571769128 px`**;
-- Weather and sapling resource identities remain stable;
-- phase-0 brightness equivalence remains inside the existing normalized bound;
-- deliberate retained-frame SHA mutation fails closed.
+- `-5°`: **`-0.02123402396152125 m`** downwind;
+- `0°`: **`0.0 m`**;
+- `+5°`: **`+0.019556427432932226 m`** downwind;
+- signed `-5° ↔ +5°` separation: **`0.040790451394453475 m`**.
 
-## Source-cadence temporal result
+Therefore the bounded review-only downwind-alignment sign for this exact Weather visual direction and this exact Nature socket is:
 
-This new complete 32-source-evaluation-point review still does **not** reveal a strong measured smoothing gain.
+**`+5°`**.
 
-At the exact authored 31.25 ms source cadence:
+Automatic Animation adoption: **false**.
 
-- `path_eye`: control median inter-frame mean-absolute RGB `0.0882245370 LSB`; candidate `0.0880279882 LSB`; candidate/control ratio **`0.9977721751`**, about **0.223% lower**;
-- `elevated_oblique`: control `0.0601515152 LSB`; candidate `0.0600220960 LSB`; ratio **`0.9978484467`**, about **0.215% lower**.
+Automatic VFX motion adoption: **false**.
 
-Across all 17 exact phases the normalized candidate remains spatially sparse relative to control:
+## Visual evidence versus motion / physics claims
 
-- `path_eye`: mean **1,469.76 changed pixels / 0.18558%** of the 1100×720 frame;
-- `elevated_oblique`: mean **1,667.71 / 0.21057%**.
+The retained SVG was directly inspected after the green workflow. It shows the exact generated 52-vertex child at `-5° / 0° / +5°` in XY together with the exact Weather visual-direction arrow. The `+5°` witness visibly corresponds to the positive centroid displacement along that arrow, while `-5°` moves the centroid in the opposite signed direction.
 
-At phase zero the raw changed-pixel counts remain nonzero due only to tiny raster differences, with maximum channel delta **1 LSB**, preserving the prior brightness-equivalence finding. At later phases the direct A/B footprint is real and localized.
+That visual/geometry result is useful because it removes one receiving-orientation ambiguity. It is **not** a proof that the tree should actually sway to `+5°`, and it is not evidence for wind force, drag, stiffness, damping, gust response, biological behavior or natural-looking motion.
 
-VFX therefore keeps the same truthful interpretation as Art Direction 041: the candidate adds a slight temporal/spatial trailing footprint, but current image metrics still do **not** demonstrate a meaningful perceptual smoothing advantage. This activation does not promote it over Direction 005.
+The existing Animation pulse remains a diagnostic pulse. VFX did not retime it, widen it, change its amplitude, change its curve, or call it wind.
 
 ## Retained evidence
 
 Artifact:
 
-- ID **`10529825758`**;
-- name `environment-weather-source-width-temporal-exposure-source-cadence-review-001-47ef4f9a7cf4fa8a696ec9febd3e3193cd8a3ea6`;
-- size **`13,485,084 B`**;
-- GitHub SHA-256 **`19081d1d71298d3cbca8b0e49ec2caa8414c781059ac1adeb5a2a6db53fba33e`**;
-- downloaded archive independently rehashed to the exact same SHA-256;
-- retained content includes exact head/candidate pins, real-Godot runtime receipt, target-host report, all exact control/candidate frames/raw buffers and `playback_review.html`.
+- ID **`10531306346`**;
+- name `nature-east-rear-weather-direction-vfx-sign-1976c5a4ff0a51b5f3ee4bfd323dbb6f89c34787`;
+- size **`8,123 B`**;
+- GitHub SHA-256 **`65fe45d68358db20baf1894678c08b87ef93cb6a45dd0f96a226255ce97cf492`**.
 
-Map PR #25 handoff comment: **`5724365561`**.
+The downloaded archive was independently rehashed to the exact same SHA-256.
 
-PR #25 remains **open / draft / unmerged / mergeable** at exact review head `47ef4f9a...`. No merge or automatic adoption was requested.
+Retained contents include:
 
-## Downstream handoff
+- exact tested head;
+- exact Animation parent pin;
+- exact Weather donor-head and source-blob pins;
+- bounded contract;
+- evidence JSON;
+- review SVG;
+- documentation.
 
-### Art Direction / independent Visual Observer-QA
+## Handoffs
 
-Review the exact source-cadence A/B as a complete 0–500 ms sequence rather than isolated stills. Do not inherit VFX preference; VFX has none here. The useful question is whether the slight broadened/trailing footprint creates any coherent cadence benefit or artifact that the tiny frame-delta ratios do not capture.
+Animation PR #15 received bounded VFX-consumer return comment **`5724800619`**. It explicitly says the diagnostic pulse remains not-wind and no Animation change is requested.
 
-### Runtime
+Weather PR #2 received bounded downstream-consumer return comment **`5724801331`**. It preserves Weather source ownership and visual-only semantics.
 
-No scheduler, interpolation, buffering, frame-pacing or target-device implementation follows from this evidence. Direction 005 single-tap source-width remains the current visual default until Art/QA say otherwise.
+Nature VFX PR #16 itself contains the exact green run, measured sign result, artifact identity and truth boundary. No merge or automatic adoption was requested.
 
-### Weather / Environment / Nature
+## Explicit truth boundary / nonclaims
 
-No source semantics, seed, width, density, lighting, camera, composition or Nature motion change follows.
+This PASS establishes only a **signed visual-direction relationship** between:
 
-## Explicit truth boundary
+- one exact source-owned Weather visual direction; and
+- one exact Nature Rigging diagnostic socket on the actual generated selected child geometry.
 
-This PASS establishes only a **real-Godot, exact-source-cadence visual review surface** for the unchanged control and unchanged normalized candidate.
+It does **not** establish or adopt:
 
-It does **not** establish:
-
-- actual browser/display 32 Hz delivery;
-- target-device scheduling, CPU/GPU/FPS/VRAM/thermal/battery performance;
-- human-perceived smoothness;
-- aesthetic superiority, Art Direction preference or independent Visual QA acceptance;
-- physical wind, precipitation, airflow, pressure, dust or fluid behavior;
-- collision, damage, interaction or gameplay-event semantics;
-- arbitrary-camera / resolution / FOV equivalence;
-- Runtime adoption;
+- physical wind, force, drag, turbulence or pressure;
+- gust strength or wind magnitude;
+- Weather timing, cadence or phase;
+- a final vegetation amplitude;
+- a final vegetation Animation clip;
+- the existing Animation diagnostic pulse as wind motion;
+- biological or biomechanical response;
+- Runtime controller/state-machine behavior;
+- target-engine particle or vegetation implementation;
+- collision, damage, gameplay or interaction semantics;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery performance;
+- Art Direction acceptance;
+- independent Visual Observer / QA acceptance;
 - CANON;
 - production/game readiness;
 - VFX mastery.
 
-Weather keeps source semantics. Animation keeps authored motion authority. Environment keeps composition/cameras. Runtime keeps scheduling, production representation and performance authority. Art Direction and independent Visual QA keep perceptual acceptance. VFX owns only bounded effect/presentation evidence and effect readability.
+Weather retains source semantics. Rigging retains articulation and its diagnostic interval. Animation retains timing and motion authorship. Runtime retains controller/device/performance authority. Art Direction and independent Visual QA retain perceptual acceptance. VFX owns only this bounded sign-compatibility evidence.
 
 ## Four-root gate
 
-- **Truth:** all 17 exact source-cadence phases are retained and hash-bound; tiny inter-frame improvements are recorded as tiny rather than promoted into a smoothness claim; nominal browser playback is separated from measured delivery.
-- **Agency / non-domination:** VFX does not retune Weather against Art direction, seize Weather source semantics, Runtime/device policy, Environment cameras, Nature/Animation ownership, gameplay/physics authority or independent QA judgment.
-- **Continuity:** exact candidate `dd4a852...`, prior blink-review head `9b32dbdf...`, current source-cadence review head `47ef4f9a...`, evidence artifacts and predecessor status blob remain separately recoverable.
-- **Wisdom before speed:** the pass answers the actual outstanding temporal-review question with fuller evidence instead of manufacturing a larger visible delta through another parameter variant.
+- **Truth:** exact Animation and Weather donor identities are pinned; the measured `+5°` sign is reported only as geometric visual-direction compatibility, not promoted into a wind-motion or physics claim.
+- **Agency / non-domination:** VFX consumes owner evidence without seizing Weather semantics, Rigging limits, Animation authorship, Runtime policy, gameplay/physics authority or Art/QA judgment.
+- **Continuity:** the predecessor VFX status, Weather source-cadence work, existing diagnostic Animation, exact donor heads, new PR #16 and retained evidence all remain separately recoverable and attributable.
+- **Wisdom before speed:** the studio resolved the smallest real cross-domain ambiguity first instead of guessing a wind-driven motion curve or retuning an already-owned effect lane.
 
 The four AXM roots remain the merge gate.
+
+## Next VFX trigger
+
+Do **not** turn this `+5°` sign result into automatic Nature motion.
+
+A next Weather-to-Nature dynamic pass is justified only after an explicit owning handoff defines a bounded visual-response question such as timing/cadence/amplitude or a target-host receiving context. At that point VFX may use `+5°` as the already-proven directional sign while still requiring Animation/Rigging/Art/QA/Runtime to retain their own authority.
