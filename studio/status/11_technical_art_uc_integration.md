@@ -2,246 +2,222 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_FIVE_PRIMARY_BRANCH_ANIMATION_CURRENT_UC_GODOT_TARGET_RECEIVER / NATURE_TA_PR3_HEAD_B83C7D71_DRAFT_MERGEABLE / ANIMATION_PR15_B0771B33 / EXACT_RIGGING_OWNER_898529F6 / NEWER_RIGGING_754797A8_NOT_AUTO_ADOPTED / CURRENT_UC_5C772B65 / 12_RECEIVER_NODES / 620_TRIANGLES / 5_CLIPS_205_SAMPLES / MAX_TARGET_RESIDUAL_3_658895E-6M / RUN_35312845639_SUCCESS / ARTIFACT_10534795193_76163B_20_FILES_SHA_1206A7D9 / UC_PRODUCT_UNCHANGED / HOLD_NEWER_RIGGING_REBIND_SIMULTANEOUS_WIND_RUNTIME_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_NATURE_RUNTIME_DYNAMIC_WINDOW_CURRENT_UC_GODOT_PARTIAL_VERTEX_RECEIVER / NATURE_TA_PR3_HEAD_DA60CD49_DRAFT_MERGEABLE / RUNTIME_OWNER_6D89E1FC / VFX_OWNER_BA1C12DD / RIGGING_OWNER_754797A8 / TESTED_UC_5C5D2CFD / FRESH_UC_724DDE63_PROCEDURAL3D_BYTE_IDENTICAL / 390_VERTICES_570_TRIANGLES / WINDOW_110_370 / 3120B_PARTIAL_VS_4680B_FULL / 33_333333_PERCENT_REDUCTION / FIVE_OF_FIVE_RENDER_IDENTICAL / RUN_35318777686_SUCCESS / ARTIFACT_10535719088_SHA_07CDAE25 / UC_PRODUCT_UNCHANGED / HOLD_DEVICE_PERFORMANCE_PHYSICAL_WIND_TIMING_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist statuses, the Nature design constellation, the active Nature Technical Art / Rigging / Animation lanes, and fresh `axm-universal-creation`.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/11_technical_art_uc_integration.md`, current specialist status, the Nature design constellation, Runtime/VFX/Rigging ownership, the active Nature Technical Art lane, and fresh `axm-universal-creation`.
 
-`axm-create-me` remains **coordination only**. Product/evidence changes stayed on the existing Nature Technical Art PR #3. The merge gate remains **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+`axm-create-me` remains **coordination only**. Product and target-evidence changes stayed on the existing Nature Technical Art PR #3. The merge gate remains **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Highest-leverage bounded gap
 
-Animation PR #15 exact head **`b0771b3319b783103c8e4677d062c00419df7559`** already proves five independent primary-branch diagnostic pulse clips, but correctly leaves target-engine playback to Technical Art. That Animation head pins exact Rigging owner **`898529f602893c8f6be179bd3e9b6821fc099904`**.
-
 Selected path:
 
-**exact current Animation five-branch family -> exact pinned Rigging partitions/pivots -> Nature-local Technical Art target receiver -> current generic UC surface publication + rigid scene graph -> real Godot 4.7.2 import and 205-sample target observation**.
+**Runtime-owned Nature dynamic position window -> existing Nature Technical Art target receiver -> generic UC GLB -> real Godot 4.7.2 `ArrayMesh.surface_update_vertex_region` partial update**.
 
-This was selected instead of Runtime, VFX or newer-Rigging work because Animation had an explicit Technical-Art target-host blocker and the existing TA lane already owned the import/export/receiver boundary.
+The missing target fact was not whether Runtime could describe a smaller packet; that owner contract already existed. The missing Technical Art boundary was whether the exact Runtime-owned window could update a real imported target receiver while remaining equivalent to the corresponding full target-host control, without teaching UC what Nature, wind, a branch, or a Runtime update policy means.
 
-## Exact lane
+This reused the existing Nature TA PR #3 rather than opening a duplicate Runtime, VFX, Geometry, or UC lane.
+
+## Exact lane and owner chain
 
 Repository: `mike-axiom-mir/axm-nature-design`
 
 Existing Technical Art PR #3:
 - branch: `studio/uc-nature-surface-bridge-001`;
-- exact tested head: **`b83c7d71759213d96c57874282e60705402540f5`**;
-- state: **open / draft / unmerged / mergeable**.
+- exact tested/successful head: **`da60cd491ac7f9ac04f918dd000f464a627b3316`**;
+- state at this activation: **open / draft / unmerged / mergeable**.
 
-Exact owner chain consumed:
-- Animation PR #15: **`b0771b3319b783103c8e4677d062c00419df7559`**;
-- Rigging owner pinned by that Animation head: **`898529f602893c8f6be179bd3e9b6821fc099904`**;
-- current source digest: **`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**;
-- migrated Geometry receiver digest: **`aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`**.
-
-Important continuity boundary: Rigging PR #14 has independently advanced to exact head **`754797a815266a643c6b08f1606eb76ba95dd8c6`** with a VFX-derived shared-command polarity adapter. This Technical Art proof does **not** bypass Animation and silently consume that newer Rigging successor. The current Animation head still binds `898529...`; any Animation rebind to `754797...` remains Animation-owned.
+Exact owner/test pins consumed:
+- Runtime owner: **`6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`**;
+- VFX owner: **`ba1c12dd527f1ecc6a0eb4bc0b4322f15ccad475`**;
+- Rigging owner: **`754797a815266a643c6b08f1606eb76ba95dd8c6`**;
+- tested generic UC donor: **`5c5d2cfdc3aa4e9462fd4d5ec5bc7874f12674a4`**;
+- Nature source digest: **`178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`**;
+- migrated mesh digest: **`aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`**;
+- UC surface SHA-256: **`c4babaacd8cf9c7f07366db83d4462d73304f5b1a1dd23a0a444e5b4b8bc9c28`**;
+- exact tested-UC receiver GLB SHA-256: **`d19515a6bbb9905aaf4a36f50453cc07f9c7be2ab9dc10a7ebbca97f8fbcd01f`**.
 
 ## Smallest reusable repair
 
-No UC core code changed.
+No UC product code changed.
 
-Technical Art added a Nature-local receiver adapter, contract, evidence builder, target observer, and dedicated workflow on the existing PR #3 lane:
-- `src/axm_nature_design/uc_primary_branch_receiver.py`;
-- `contracts/nature-primary-branch-animation-target-001.json`;
-- `tools/build_uc_primary_branch_animation_target_evidence.py`;
-- `target-proof/observe_primary_branch_animation.gd`;
-- `.github/workflows/uc-nature-primary-branch-animation-target.yml`.
+The repair stayed in the existing Technical Art target observer:
 
-The adapter does **not** redefine Rigging selections or Animation timing. It consumes the exact five Rigging partitions and emits pivot-local target-receiver surfaces:
-- `static-woody`;
-- `static-foliage`;
-- five `<branch>-woody` roots;
-- five `<branch>-foliage` children.
+`target-proof/observe_dynamic_window_update.gd`
 
-Total receiver primitives/nodes: **12**.
+The first target implementation compared:
+- a full packet containing all 390 source/oracle FLOAT positions; against
+- a partial packet that changed only Runtime's `[110,370)` window on top of Godot's imported target arrays.
 
-Each branch preserves its exact owner partition:
-- **52 selected vertices**;
-- **72 source front triangles**;
-- exact source-owned pivot;
-- exact source-derived axis.
+That comparison was subtly invalid because Godot import is only a bounded numeric observation of the UC FLOAT payload, not exact source-float identity. The 130 out-of-window vertices therefore differed slightly between the two controls even though neither belonged to Runtime's update window.
 
-The five branch foliage nodes are parented under their matching woody branch roots. The full neutral partitioned receiver is required to be canonical world-geometry-equivalent to the existing static Technical Art bridge. Both remain exactly **620 emitted triangles**.
+The correct receiving contract now starts **both** controls from the same exact Godot-imported target baseline:
+- full target control = imported neutral target positions with only Runtime's exact dynamic window overlaid;
+- partial target control = the same imported neutral target positions plus the same window packet through `surface_update_vertex_region` at the exact byte offset.
 
-UC receives only a generic surface specification plus a caller-authored rigid scene graph manifest. UC does not infer Nature branch identities, pivot semantics, timing, wind, biological motion, target-host policy, or visual acceptance.
+The full target control is still compared back to the owner/oracle control under the original unchanged **`0.0001 m`** bounded target-import observation envelope. No target threshold was weakened, no owner geometry was rewritten, and no target-host quantization was promoted into source, Geometry, Runtime, or UC authority.
 
-## Coordinate / motion transport contract
+The same `ArrayMesh` receiver resource is reused between full and partial updates and is created with `Mesh.ARRAY_FLAG_USE_DYNAMIC_UPDATE`.
 
-Established Nature source -> UC mapping remains:
+## Runtime window contract
 
-**`[x,y,z] -> [x,z,y]`**, determinant **`-1`**.
+Exact receiver:
+- vertices: **390**;
+- triangles: **570**;
+- position stride: **12 bytes**;
+- Runtime-owned half-open vertex window: **`[110,370)`** = **260 vertices**;
+- byte offset: **1320**;
+- partial position packet: **3120 B**;
+- full position packet: **4680 B**;
+- saved position bytes per update: **1560 B**;
+- packet reduction: **33.33333333333333%**.
 
-Because the coordinate transform changes handedness, Technical Art binds the exact receiver-path motion adapter:
+Negative controls continue to reject Runtime-window mutation and attempts to inflate this evidence into target-device/performance authority.
 
-**`target_angle_deg = -source_owner_angle_deg`**.
+## Retained failed predecessors
 
-Across all exact Animation owner samples, maximum analytic source-owner -> target-receiver transport residual is:
+Two failed target predecessors remain retained as evidence.
 
-**`6.506468688699198e-10 m`**.
+### `4515630bdc5e71acf8b558ac6b98944fe1ab8514` / run `35317762026`
 
-Fail-closed controls:
-- attempting to claim simultaneous multi-branch acceptance is rejected;
-- disabling the angle negation is rejected as **`PASS_REJECTED_UNNEGATED_TARGET_ANGLE__MAX_RESIDUAL_0.184715240_M`**.
+Python 3.13 structural evidence passed, while the Python 3.11 real-Godot target lane failed at the `-5°` witness: full source/oracle control versus partial imported-target control differed by **91 / 630000 pixels**, maximum channel delta **1**.
 
-The wrong-sign path therefore has a discriminating maximum residual of **`0.184715239690143 m`** and cannot accidentally pass as an equivalent target transform.
+This exposed the actual boundary error: source/oracle values outside Runtime's dynamic window had been written back into the full control while the partial control retained Godot-imported values there.
 
-## Current UC boundary
+Retained artifact:
+- ID `10535184615`;
+- 59,636 B;
+- SHA-256 `8c1a3731f6d0e9bafc61b4b2ac2e2bd87f1fc811cd33038ebe4b262e23a9a903`.
 
-Exact current UC consumed:
+### `2ee0a2668c9631324df64604cecec9f61dc8d58a` / run `35318601870`
 
-**`5c772b65eeba75abd0eb7a6c9c471b2d9975019d`**
+A narrower intermediate repair proved that reusing one target receiver resource was not sufficient; it retained the same 91-pixel discrepancy because the full control still used source-derived out-of-window positions.
 
-Exact executable identities retained:
-- `src/axm_uc/procedural_3d.py`: blob **`cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`**;
-- `src/axm_uc/rigid_scene_graph.py`: blob **`fada5e5e06e110b48c7c9886e6a7f73c5c3a2d44`**.
+Retained artifact:
+- ID `10536370948`;
+- 59,696 B;
+- SHA-256 `1de8cf37a55a162eb5679016b584b79e4959c87926626fa90047d509730b00b2`.
 
-The generic UC publisher and rigid-scene rebind are reused unchanged. The rigid-scene rebind retains identical binary geometry payload. **UC product code was not modified and no Nature domain semantics were moved into UC.**
-
-Exact current-UC rebound receiver GLB SHA-256:
-
-**`3e3283a1f623ee8fc19bb00cf2fbe0a2cb3941da46bc913a062bf5bc19ad1d15`**.
-
-Other retained identities:
-- flat UC GLB SHA-256: `8b54e331cdb60dd7f39b7d8a9d6f5e83cf807174d02344a59ed0dcdc1b8ff967`;
-- surface SHA-256: `97fe66f870811179c44e1864f727fdc764a5ba641c714410e86679e8fe3a6c19`;
-- manifest SHA-256: `5cbf0fb12fda3580d99d629b453a9c3f9ace2b3f87fe72faaf23a045396bcd4d`.
-
-## Pre-target result
-
-Scoped pre-target state:
-
-**`PASS_NATURE_FIVE_PRIMARY_BRANCH_ANIMATION_CURRENT_UC_TARGET_RECEIVER_READY`**
-
-Verified:
-- five exact branch identities in canonical order;
-- 12 surface primitives / 12 rebound receiver nodes;
-- 5 branch foliage -> woody parent edges;
-- 620 emitted triangles;
-- neutral receiver exact-equivalent to the existing static TA bridge;
-- five exact Animation clips;
-- 41 endpoint-inclusive samples per clip;
-- total owner samples: **205**;
-- UC graph rebind leaves binary geometry unchanged.
-
-## Retained failed predecessor
-
-First dedicated workflow run **`35312651834`** is deliberately retained as a failed predecessor.
-
-Its structural, owner, UC, analytic handedness, and negative-control stages all passed. The real-Godot stage then exposed an observer timing defect: `global_transform` was read from an imported node during `SceneTree._initialize()` before the receiver had completed entry into the tree. Godot returned `!is_inside_tree()` and the observer produced a false large residual.
-
-This was **not** repaired by changing geometry, owner samples, UC, tolerances or the target oracle. The smallest repair changed only observer scheduling:
-- add the imported receiver to the target tree;
-- wait one process frame;
-- fail if it still is not inside the SceneTree;
-- then perform the exact same target checks.
-
-The failed artifact remains historical evidence rather than being overwritten.
+Neither predecessor was hidden or converted into a PASS.
 
 ## Exact real-target result
 
-Dedicated exact workflow:
+Dedicated workflow:
 
-**`35312845639` — SUCCESS**
+**`35318777686` — SUCCESS**
 
-Real target:
-- **Godot 4.7.2-stable (official)**;
-- GL Compatibility path;
-- direct `GLTFDocument` import of the exact current-UC receiver GLB;
-- direct imported-array and transform observation;
-- no visual-quality acceptance inferred.
+Both Python 3.11 and Python 3.13 lanes succeeded. The Python 3.11 lane exercised real **Godot 4.7.2**, GL Compatibility, headless target rendering.
 
 Target state:
 
-**`PASS_NATURE_FIVE_PRIMARY_BRANCH_ANIMATION_CURRENT_UC_GODOT_TARGET_RECEIVER`**
+**`PASS_NATURE_EAST_REAR_CURRENT_UC_GODOT_PARTIAL_VERTEX_WINDOW_RECEIVER`**
 
-Verified in real Godot:
-- receiver nodes: **12**;
-- branch parent edges: **5**;
-- receiver triangles: **620**;
-- independent branch clips: **5**;
-- exact samples exercised: **205**;
-- all unrelated branch roots remain at their original transform while each one-branch-at-a-time clip is exercised;
-- maximum imported local witness delta: **`3.59275622940913e-06 m`**;
-- maximum target sample position residual: **`3.65889513886941e-06 m`**;
-- unchanged position gate: **`5e-06 m`**.
+Real-target facts:
+- exact tested-UC GLB imported: yes;
+- imported vertices: **390**;
+- imported triangles: **570**;
+- imported-neutral maximum owner/oracle distance: **`2.8440980705202183e-06 m`**;
+- imported-neutral maximum component delta: **`1.9073486328125e-06 m`**;
+- **389 / 390** imported vertices differ at exact-float level, so exact source numeric identity is deliberately **not** claimed;
+- unchanged target-import observation envelope: **`0.0001 m`**;
+- real target API: **`ArrayMesh.surface_update_vertex_region`**;
+- dynamic receiver flag: **`Mesh.ARRAY_FLAG_USE_DYNAMIC_UPDATE`**;
+- exact partial window: **`[110,370)`**;
+- exact partial byte offset: **1320**;
+- exact partial packet: **3120 B**;
+- exact full packet: **4680 B**;
+- all **5 / 5** retained driver poses: full-vs-partial **0 changed pixels**, maximum channel delta **0**, byte-identical rendered output.
 
-Per-branch maximum target residuals:
-- south-low: `4.29815202096506e-07 m`;
-- north-low: `2.98975373880239e-06 m`;
-- east-mid: `2.09296354114485e-06 m`;
-- west-high: `8.98528924153652e-07 m`;
-- north-top: `3.65889513886941e-06 m`.
-
-Per-branch retained witness motion from neutral reaches approximately:
-- south-low: `0.0924455896 m`;
-- north-low: `0.0908999220 m`;
-- east-mid: `0.0898826793 m`;
-- west-high: `0.0859880298 m`;
-- north-top: `0.0819907114 m`.
-
-The proof therefore cannot pass through a static/no-motion receiver path.
+This proves exact receiving-path equivalence for the retained five static driver witnesses on one real Godot target-host receiver. It does **not** prove physical wind, wall-clock animation, collision, device performance, or final visual quality.
 
 ## Same-head continuity
 
-On exact TA head **`b83c7d71759213d96c57874282e60705402540f5`**, all five observed workflow families completed SUCCESS:
-- Nature organic form baseline — run `35312845661`;
-- UC Nature source migration rebind evidence — run `35312845635`;
-- UC Nature primary branch Animation target receiver — run `35312845639`;
-- UC nature surface bridge evidence — run `35312845659`;
-- UC nature topology + target culling evidence — run `35312845717`.
+On exact TA head **`da60cd491ac7f9ac04f918dd000f464a627b3316`**, all observed workflow families completed successfully:
+- Nature baseline gate — `35318777759`;
+- UC Nature surface bridge — `35318777757`;
+- UC Nature source migration rebind — `35318777758`;
+- UC Nature topology + target culling — `35318777752`;
+- Nature primary-branch Animation target — `35318777761`;
+- UC Nature dynamic-window target receiver — `35318777686`.
 
-This preserves prior static/culling evidence while adding the new Animation target receiver path.
+The new Runtime-window target proof therefore did not revoke the earlier static, culling, source-migration, or Animation target receiver evidence on this head.
+
+## Fresh UC continuity boundary
+
+The target workflow is pinned honestly to tested UC **`5c5d2cfdc3aa4e9462fd4d5ec5bc7874f12674a4`**.
+
+Fresh UC main has since advanced to:
+
+**`724dde638763253ba1d4cf93d13aaa9a4981e4bf`**
+
+Current main still carries `src/axm_uc/procedural_3d.py` as exact Git blob:
+
+**`cdb654d4d0f68a4ca7539d98a985d7a70cf7ee36`**
+
+which is byte-identical to the tested donor's executable publisher module used by this path. This is an executable-module continuity fact only; it is **not** presented as a fresh-current-main Godot rerun.
+
+**UC product code was not modified by Technical Art, and no Nature, Runtime, branch, wind, or Godot policy was centralized into UC.**
 
 ## Retained successful evidence
 
-Artifact:
-- ID **`10534795193`**;
-- name `nature-primary-branch-animation-target-b83c7d71759213d96c57874282e60705402540f5`;
-- **20 files**;
-- **76,163 B**;
-- SHA-256 **`1206a7d92cacab1eb77de14728e09785010069898bcb01766f64faac0fae21cc`**;
+Successful target artifact:
+- ID **`10535719088`**;
+- name `nature-east-rear-dynamic-window-target-evidence-py3.11`;
+- **59,908 B** archive payload;
+- **46 retained files**;
+- 531,701 B uncompressed;
+- SHA-256 **`07cdae2576337c8d1ffd0dc7745492ac990ac86d3a99eeb42465c0d416586104`**;
 - independently downloaded and rehashed to the exact same digest.
 
-The packet retains exact TA / Animation / Rigging / UC heads, exact owner evidence, receiver contract/tooling, surface/manifest/flat+rebound GLBs, target oracle, wrong-sign negative log, Godot observer and target receipt.
+The packet retains the exact owner/test heads, runtime-window contract, UC surface/GLB evidence, target observer, target oracle, five full/partial rendered pairs, receipts, and failed-path context.
 
-## Handoff / ownership
+## Handoff / authority boundary
 
-Handoff was returned to Animation PR #15.
+Technical Art now proves only the exact target-host receiving contract for the Runtime-owned dynamic window.
 
-The blocker **“provide an exact current target-host Nature receiver for this Animation playback family”** is cleared for exact Animation head `b0771b...` and its pinned Rigging owner `898529...`.
-
-No downstream owner is forced to adopt it automatically. Animation still owns any rebind to the newer Rigging shared-command successor `754797a...`; VFX owns physical/visual wind semantics; Runtime owns controller/device/performance; Environment/Map owns receiving-world adoption; Art Direction and independent Visual QA own final visual acceptance.
+Ownership remains separate:
+- Nature owns source/form semantics;
+- Rigging owns deformable partition/selection authority;
+- Animation owns motion timing/clips;
+- VFX owns physical/visual wind response;
+- Runtime owns update scheduling, controller policy, device/performance budgets;
+- Technical Art owns cross-repo identity binding, target representation, import/export, and exact receiver observation;
+- Environment/Map owns receiving-world/default adoption;
+- Art Direction and independent Visual QA own final look acceptance;
+- UC remains generic capability infrastructure, not a Nature policy store.
 
 ## Authority and HOLDs
 
 Still HOLD:
-- automatic transfer from newer Rigging head `754797a...` into the current Animation/TA path;
-- simultaneous multi-branch motion acceptance;
-- physical wind or VFX response;
-- source or biological range of motion;
-- natural timing/cadence;
-- wall-clock/display-delivery behavior;
-- Runtime controller / target-device performance;
-- collision / navigation / gameplay / physics suitability;
+- target-device frame-time / bandwidth / memory performance;
+- physical wind behavior and VFX acceptance;
+- continuous wall-clock Animation/VFX scheduling through this exact packet path;
+- collision, navigation, gameplay, or physics suitability;
+- final Nature material / foliage sidedness / lookdev;
+- Art Direction or independent Visual-QA acceptance;
 - Map/default-world adoption;
-- final material/lookdev and Art/Visual-QA acceptance;
 - CANON;
 - production/game readiness;
 - Technical Art mastery.
 
-## Prior lineage and four-root check
+## Four-root check
 
-The previous Nature current-source metadata-successor / current-UC / Godot culling PASS remains preserved in git and is not revoked.
+**Truth:** two failed predecessors, Godot import quantization, exact tested UC, fresh UC module continuity, the successful run, and non-claims are all recorded. No target-import float equivalence was fabricated.
 
-**Truth:** exact Animation owner, pinned Rigging owner, current UC, wrong-sign negative, real Godot and the failed predecessor are all retained; no clean-looking history was fabricated.
+**Agency / non-domination:** Runtime/VFX/Rigging/Animation/Environment/Art authority remains with its owner. Technical Art does not promote a receiving proof into downstream adoption, performance, visual, or CANON authority.
 
-**Agency / non-domination:** no newer Rigging successor, simultaneous motion, wind, Runtime, visual, adoption or CANON authority was silently absorbed.
+**Continuity:** exact heads, source/mesh/surface/GLB identities, window offsets/byte counts, same-head regressions, failed runs, successful run, and retained artifact digest are bound.
 
-**Continuity:** exact heads, executable UC blobs, source/mesh/GLB/surface/manifest identities, 205 target samples, workflows and archive are bound.
+**Wisdom before speed:** reused existing Nature PR #3 and generic UC publication; fixed only the target-host baseline contract revealed by evidence; no duplicate lane, no threshold weakening, no Nature centralization in UC.
 
-**Wisdom before speed:** reused the existing Nature TA lane and existing generic UC mechanisms; repaired only the target receiver/observer contract and the observed scheduling defect; no duplicate lane, no threshold weakening, no UC Nature centralization.
+## Prior activation preserved
+
+The immediately prior full status was committed in `axm-create-me` at **`226ecf05c52d80c15d99f80e1cf20e74d6fec771`** and remains recoverable in git without rewrite.
+
+That activation proved the Nature five-primary-branch Animation -> generic UC -> real Godot target receiver on exact TA head **`b83c7d71759213d96c57874282e60705402540f5`**, workflow **`35312845639`**, with **12 receiver nodes / 620 triangles / 5 clips / 205 samples**, maximum target residual **`3.65889513886941e-06 m`** under the unchanged `5e-06 m` gate, and retained artifact **`10534795193`**, 76,163 B / 20 files, SHA-256 **`1206a7d92cacab1eb77de14728e09785010069898bcb01766f64faac0fae21cc`**. That evidence remains valid and is also rerun successfully on the current TA head as workflow `35318777761`.
 
 ## Current state
 
-`PASS_NATURE_FIVE_PRIMARY_BRANCH_ANIMATION_CURRENT_UC_GODOT_TARGET_RECEIVER / NATURE_TA_PR3_HEAD_B83C7D71_DRAFT_MERGEABLE / ANIMATION_PR15_B0771B33 / EXACT_RIGGING_OWNER_898529F6 / NEWER_RIGGING_754797A8_NOT_AUTO_ADOPTED / SOURCE_178CD8CF / MESH_AA9D450A / CURRENT_UC_5C772B65 / UC_BLOBS_CDB654D4_FADA5E5E / RECEIVER_GLB_3E3283A1 / 12_NODES_5_PARENT_EDGES_620_TRIANGLES / 5_CLIPS_205_SAMPLES / MAX_LOCAL_DELTA_3_592756E-6M / MAX_TARGET_RESIDUAL_3_658895E-6M_GATE_5E-6M / WRONG_SIGN_RESIDUAL_0_18471524M / FAILED_PREDECESSOR_RUN_35312651834_RETAINED / RUN_35312845639_SUCCESS / SAME_HEAD_FIVE_WORKFLOW_FAMILIES_SUCCESS / ARTIFACT_10534795193_76163B_20_FILES_SHA_1206A7D9 / UC_PRODUCT_UNCHANGED / HOLD_NEWER_RIGGING_REBIND_SIMULTANEOUS_WIND_RUNTIME_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY`
+`PASS_NATURE_RUNTIME_DYNAMIC_WINDOW_CURRENT_UC_GODOT_PARTIAL_VERTEX_RECEIVER / NATURE_TA_PR3_HEAD_DA60CD49_DRAFT_MERGEABLE / RUNTIME_OWNER_6D89E1FC / VFX_OWNER_BA1C12DD / RIGGING_OWNER_754797A8 / SOURCE_178CD8CF / MESH_AA9D450A / TESTED_UC_5C5D2CFD / FRESH_UC_724DDE63_PROCEDURAL3D_BLOB_CDB654D4_IDENTICAL / RECEIVER_GLB_D19515A6 / 390_VERTICES_570_TRIANGLES / WINDOW_110_370_260_VERTICES / OFFSET_1320B / PARTIAL_3120B_FULL_4680B_REDUCTION_1560B_33_333333_PERCENT / IMPORT_MAX_DISTANCE_2_844098E-6M / FIVE_OF_FIVE_FULL_PARTIAL_RENDER_BYTE_IDENTICAL / FAILED_RUNS_35317762026_35318601870_RETAINED / RUN_35318777686_SUCCESS / SAME_HEAD_SIX_WORKFLOW_FAMILIES_SUCCESS / ARTIFACT_10535719088_59908B_46_FILES_SHA_07CDAE25 / UC_PRODUCT_UNCHANGED / HOLD_DEVICE_PERFORMANCE_PHYSICAL_WIND_TIMING_VISUAL_CANON_PRODUCTION / COORDINATION_ONLY`
