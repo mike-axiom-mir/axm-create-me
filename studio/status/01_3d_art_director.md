@@ -2,160 +2,196 @@
 
 Date: 2026-09-18
 
-State: **FAIL_ART_DIRECTION_OBJECT_HINGE_ROUGHNESS048_046__BROADENED_SPECULAR_BAND_WORSENS_HIERARCHY / RESTORE_R032_CONTROL / REQUEST_ONE_BASE_VALUE_ONLY_HARDWARE_STEEL_SUCCESSOR / HOLD_FINAL_VISUAL_ADOPTION / COORDINATION_ONLY**
+State: **PASS_ART_DIRECTION_OBJECT_HINGE_BASE_VALUE082_PARTIAL_REFERENCE_047 / FAIL_REAR_THREE_QUARTER_FIVE_PART_HIGHLIGHT_FOOTPRINT_CLOSURE / FREEZE_7E868A_M088_R032_REVIEW_REFERENCE / REQUEST_ONE_HARD_SURFACE_LID_VS_BODY_RELATIVE_FACET_PHASE_ONLY_SUCCESSOR / HOLD_FINAL_VISUAL_ADOPTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art status, current specialist status, open PRs, current commits and retained visual evidence across the design constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art ledger, current specialist status `02..14`, current/open design-repository PRs, exact Object Materials/QA returns and retained visual evidence across the full design constellation.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. No Object product mesh/material implementation, texture, UV, rig, animation, VFX, Runtime representation, gameplay system or Universal Creation product code was added here.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation adds one Art Direction packet and updates this status file. It does not add Object product geometry, materials, UVs, textures, Technical-Art transport, runtime code, gameplay, source/default adoption, merge state or CANON state here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Direction 045 remains exact history and is not silently rewritten. It requested one bounded roughness-only `hardware_steel` successor; Direction 046 judges that returned evidence.
+Direction 046 remains exact history and is not silently rewritten. It rejected the one `roughness=0.48` hinge repair, restored `roughness=0.32`, and authorized exactly one base-color VALUE-only successor with all other named variables frozen. Direction 047 judges that exact returned successor and chooses the next bounded visual question.
 
 ## Full-constellation / duplicate-lane scan
 
-The highest-leverage unowned Art gate is the direct return from Direction 045 on Object Materials PR #6.
+The strongest completed unowned Art return is the direct response to Direction 046 on Object Materials PR #6, plus the independent Visual Observer / QA challenge of that exact same packet.
 
-- **Object Materials:** returned exactly one roughness-only hinge successor at head `db68a6b76e04ae2f19bb09cb7207f2874e19797b`, with complete real-Godot evidence. The owner lane explicitly stopped after that one candidate and returned the failed hierarchy result to Art/QA rather than silently tuning further.
-- **Visual Observer / QA:** independently reviewed the exact same Object head/artifact and returned the same bounded failure direction; QA did not authorize a new material degree of freedom.
-- **Object Technical Art / Geometry / Hard Surface:** the exact carrier, parity/culling path and successor002 geometry remain coherent and are not implicated by this material-response regression. No duplicate repair lane is opened there.
-- **Nature:** Animation, VFX, Map Environment, Rigging, Geometry, Technical Art and Runtime have fresh motion/socket/space/representation work in their existing owner lanes. Those are active specialist surfaces rather than a stronger returned Art-owned gate, so Art does not duplicate them.
-- **Building:** Direction 043's utility-panel production-intent successor remains downstream-owned after its retained Art review.
-- **Weather:** Direction 041 remains intact: normalized temporal exposure stays an experiment, not the preferred default.
-- **Animal:** Direction 040 remains the bounded 19-key Runtime review reference with broader adoption still separately held.
-- **Object VFX / rigid shell:** Directions 038–039 remain intact and are not reopened.
-- **Weapon / Armor / Unit / Misc / Character:** no stronger completed unowned Art-ready return displaced the exact Object Materials response.
+- **Object Materials:** existing PR #6 returned exactly one value-only `hardware_steel` successor at head `134e9a7622868acbd184519eade15996ab20fbbe`; Materials stopped after one candidate and did not scalar-search for a pass.
+- **Visual Observer / QA:** independently inspected the exact same head/artifact. It passes evidence integrity, rear-grazing improvement and side-reference preservation, but finds the rear-three-quarter near-white mask unchanged with the same five connected knuckle highlights.
+- **Object Hard Surface:** existing hinge source-successor PR #25 remains the source owner for successor002. This is the correct future owner for one bounded facet-phase source test; no duplicate hinge PR is opened.
+- **Object Geometry / Rigging / Technical Art:** their current structural/clearance/transport results are not blamed for the present appearance defect and no parallel repair is started. Any future source successor must explicitly rebind/reprove where their authority requires it.
+- **Nature:** Geometry, Organic, Rigging, Animation, VFX, Technical Art, Runtime, Procedural and Map Environment are actively advancing the current five-socket motion/receiver chain. Their newest work remains structural, source-space, target-receiver or representation evidence with Art/QA still held; Art does not duplicate those live lanes.
+- **Building:** Directions 042–043 remain the utility-panel material direction; current Procedural/Geometry/Runtime work is downstream/representation ownership, not a stronger completed Art return.
+- **Animal:** Direction 040 remains the bounded 19-key Runtime visual-tradeoff reference; no stronger new Art-ready return displaced the Object hinge issue.
+- **Weather:** Direction 041 remains intact; normalized temporal exposure remains an experiment, not the preferred presentation.
+- **Object VFX / rigid shell:** Directions 038–039 remain intact; current Runtime/transport work is separately owned.
+- **Character / Weapon / Armor / Unit / Misc:** current open work does not provide a stronger completed unowned visual-direction gate than the exact Object Materials/QA return.
+- **Capability Cartographer:** current work maps shared transport/authority placement and does not create an Art-owned product lane.
 
 No duplicate implementation lane was opened.
 
-## Direction 046
+## Direction 047
 
 Packet:
 
-`studio/direction/OBJECT_HINGE_ROUGHNESS048_REJECTION_DIRECTION_046.md`
+`studio/direction/OBJECT_HINGE_RELATIVE_FACET_PHASE_DIRECTION_047.md`
 
 Packet commit:
 
-**`f2803615caf5688837410ceb3102fcdec50cdb1f`**
+**`8a751070c0d02ff772ef78a514ac4e1d0c3568ea`**
 
 Decision:
 
-**`FAIL_ART_DIRECTION_OBJECT_HINGE_ROUGHNESS048_046__BROADENED_SPECULAR_BAND_WORSENS_HIERARCHY`**
+**`PASS_ART_DIRECTION_OBJECT_HINGE_BASE_VALUE082_PARTIAL_REFERENCE_047`**
 
-**`RESTORE_OBJECT_HINGE_HARDWARE_STEEL_ROUGHNESS_032_CONTROL`**
+**`FAIL_ART_DIRECTION_OBJECT_HINGE_BASE_VALUE082_REAR_THREE_QUARTER_HIGHLIGHT_FOOTPRINT_CLOSURE_047`**
 
-**`REQUEST_ONE_BASE_VALUE_ONLY_HARDWARE_STEEL_SUCCESSOR__R032_M088_GEOMETRY_TRANSPORT_CAMERA_LIGHT_FROZEN`**
+**`FREEZE_OBJECT_HINGE_REVIEW_REFERENCE__7E868A_M088_R032__NO_MORE_SCALAR_SEARCH`**
 
-**`HOLD_FINAL_OBJECT_HINGE_SUCCESSOR002_VISUAL_ADOPTION__ART_QA_RUNTIME_TARGET_DEVICE_PENDING`**
+**`REQUEST_ONE_OBJECT_HARD_SURFACE_LID_VS_BODY_KNUCKLE_RELATIVE_FACET_PHASE_ONLY_SUCCESSOR_047`**
 
-## Exact evidence identity
+**`HOLD_FINAL_OBJECT_HINGE_SUCCESSOR002_VISUAL_ADOPTION__SOURCE_REPROOF_RENDER_QA_RUNTIME_TARGET_DEVICE_PENDING`**
+
+## Exact reviewed identity
 
 Repository: `mike-axiom-mir/axm-object-design`
 
 Existing Materials PR: **#6**.
 
-Exact Materials head: **`db68a6b76e04ae2f19bb09cb7207f2874e19797b`**.
+Exact Materials head: **`134e9a7622868acbd184519eade15996ab20fbbe`**.
 
-Dedicated workflow: `35315373555 — Object material hinge successor002 roughness successor` — **SUCCESS**.
+PR remains open / draft / mergeable / unmerged.
 
-Retained artifact independently downloaded, rehashed and inspected by Art Direction:
+Dedicated workflow:
 
-- artifact ID **`10534614828`**;
-- size **`259,394 B`**;
-- archive SHA-256 **`ece743ffc1735a9aa4eb5ce1b569b9a3e269d1ce3b667a329394df04c527220a`**.
+**`35319563489 — Object material hinge successor002 base-value successor` — SUCCESS**.
 
-Renderer: Godot `4.7.2-stable` / GL Compatibility / llvmpipe.
+Retained artifact independently downloaded/rehashed and inspected:
 
-Complete receiver: **31 mesh nodes / 1,052 triangles**.
+- artifact ID **`10536492694`**;
+- size **`369,384 B`**;
+- archive SHA-256 **`7f20f3285dff37dcb6d769870d687699bde0f9d579c8c453913a7308daa5756a`**;
+- renderer: Godot `4.7.2-stable` / GL Compatibility / X11 / Mesa llvmpipe;
+- exact receiver: **31 visible mesh nodes / 1,052 triangles**;
+- evidence contains 12 retained PNGs spanning control, failed roughness negative, value successor and hinge masks across the three complete-object views.
 
-Single tested material change on the five hinge knuckles:
+Exact one-variable comparison:
 
-- control: albedo `#9AA3A8FF`, metallic `0.88`, roughness `0.32`;
-- successor: same albedo, same metallic, roughness `0.48`;
-- geometry, UVs, textures, Technical-Art transport, all non-hinge materials, cameras, lights, exposure and culling frozen;
-- no broad scalar sweep.
+- control: `#9AA3A8FF`, metallic `0.88`, roughness `0.32`;
+- preserved failed negative: `#9AA3A8FF`, metallic `0.88`, roughness `0.48`;
+- current value successor: **`#7E868AFF`**, metallic `0.88`, roughness `0.32`;
+- one declared transform: each control RGB8 channel × `0.82`, rounded;
+- only the five exact hinge nodes change;
+- geometry, UVs, textures, Technical-Art carrier/parity/culling, all non-hinge materials, cameras/FOV/lights/exposure remain frozen.
 
-The evidence pipeline passes and the exact change is visible: **`20,431` aggregate pixels >1 LSB** across the three retained control/successor pairs. That pipeline PASS is preserved independently of the Art FAIL.
+Materials return comment: **`5726789907`**.
+
+Independent QA review on the same exact Materials head: **`5245562753`**.
 
 ## Exact observations
 
-### Rear three-quarter
+### Rear grazing — PASS as a partial material repair
 
-- hinge mean luminance: `0.49988 -> 0.58645`;
-- hinge p95 remains `1.0`;
-- hinge share at/above visible p99 remains `0.59941`;
-- changed pixels >1 LSB: `6,504`.
+Control -> value successor:
 
-Direct read: the repeated bright chain remains strong; the intended subordination is not achieved.
+- hinge mean luminance `0.400087 -> 0.333742`;
+- hinge p95 `0.939880 -> 0.788606`;
+- hinge share at/above visible p99 `0.736965 -> 0.582907`;
+- fully-white hinge pixels remain `0 -> 0`;
+- independent QA near-white hinge pixels at `L >= 0.90`: **`748 -> 55`**.
 
-### Rear grazing
+Direct Art read: the broad glaring band is materially reduced and the hinge remains readable as metal.
 
-- hinge mean luminance: `0.40009 -> 0.49717`;
-- hinge p95: `0.93988 -> 1.0`;
-- hinge share at/above visible p99: `0.73696 -> 0.81621`;
-- fully-white hinge pixels: `0 -> 1,277`;
-- changed pixels >1 LSB: `4,876`.
+### Side three-quarter — PASS non-regression reference
 
-Direct read: this is the clearest regression. The previously discrete knuckle highlights broaden into a stronger near-white repeated band.
+- hinge mean luminance `0.410350 -> 0.341283`;
+- hinge p95 `0.512110 -> 0.423581`;
+- hinge share at/above visible p99 remains **`0.0 -> 0.0`**;
+- independent QA finds no hinge pixels at `L >= 0.90`.
 
-### Side three-quarter
+Direct Art read: knuckle separation and metallic response remain visible; Direction 046's roughness-0.48 side regression is not reproduced.
 
-- hinge mean luminance: `0.41035 -> 0.48588`;
-- hinge p95: `0.51211 -> 0.61856`;
-- hinge share at/above visible p99: `0.0 -> 0.54439`;
-- changed pixels >1 LSB: `9,051`.
+### Rear three-quarter — FAIL closure of the original repeated-highlight defect
 
-Direct read: the roughness successor breaks Direction 045's retained side-three-quarter non-dominance reference. This is a meaningful non-regression failure, not merely a missed rear-view improvement.
+Owner metrics move directionally:
 
-These diagnostics are observations for this exact receiver/camera/renderer packet, not universal AXM thresholds.
+- hinge mean luminance `0.499883 -> 0.450622`;
+- hinge share at/above visible p99 `0.599410 -> 0.558716`;
+- owner fully-white count reduces.
 
-## Independent QA consumed without authority transfer
+But independent QA isolates the actual repeated stripe:
 
-Visual Observer / QA independently reviewed the same exact Materials head and artifact, including independent archive hash reproduction. Its bounded conclusion agrees that the `roughness=0.48` candidate worsens rear-grazing hierarchy and loses the retained side reference.
+- hinge pixels at `L >= 0.90`: **`1,625 -> 1,625`**;
+- control and successor `hinge ∩ L>=0.90` masks are **pixel-identical**;
+- both remain the same **five connected knuckle highlight components**.
 
-Art does not turn that QA verdict into Art authority. The direct Art inspection plus exact owner evidence independently support rejecting `0.48`; QA retains its own acceptance authority for future returned evidence.
+Direct Art inspection agrees: value darkening reduces surrounding/midtone pull but leaves the same synchronized five-part near-white top-edge rhythm. Direction 046 therefore produced a genuine partial repair, not a completed rear hierarchy repair.
 
-## One bounded highest-leverage improvement
+The near-white/p95/p99/component diagnostics remain bounded observations for this exact packet. They are not promoted to universal aesthetic thresholds.
 
-**Restore hinge roughness to the exact `0.32` control. Do not adopt `0.48`.**
+## One bounded highest-leverage visual-direction improvement
 
-Authorize exactly **one Materials-owned base-color VALUE-only successor** for `hardware_steel` on the five hinge knuckles.
+### Freeze the best current material review reference
+
+Keep the exact value successor for the next comparison:
+
+**`#7E868AFF / metallic 0.88 / roughness 0.32`**.
+
+Do not run another base-value search, roughness change, metallic change, texture/normal/wear addition, camera move, light change or exposure change merely to force the rear-three-quarter stripe to disappear.
+
+This freezes a **review reference**, not final/default material adoption.
+
+### Move the next attributable question to source-owned facet orientation
+
+Working visual hypothesis, not established mechanism:
+
+> because a substantial uniform base-value change leaves the exact rear-three-quarter near-white mask spatially unchanged, the remaining five-part stripe may be driven by synchronized regular-12-gon exterior facet orientation under the frozen key light rather than by the material midtone scalar itself.
+
+Use the existing Object Hard-Surface PR #25. Author exactly **one** source successor from successor002 that changes only:
+
+**one shared relative 12-gon cross-section phase offset between the two lid-owned hinge knuckles and the three body-owned hinge knuckles.**
+
+Hard Surface owns the exact offset angle. No phase sweep and no second phase candidate are authorized before Art review.
 
 Freeze:
 
-- roughness `0.32`;
-- metallic `0.88`;
-- current cool-neutral steel hue/chroma relationship; only overall base-color value may move;
-- successor002 geometry / five knuckle identities;
-- Technical-Art carrier, parity and ordinary backface-culling path;
-- UVs / textures;
-- all non-hinge materials;
-- cameras / FOV / lights / exposure;
-- same three complete-object contexts.
+- successor002 five-knuckle identities and axial ordering;
+- segment count `12`;
+- hinge +X centerline;
+- axial centers/spans/lengths;
+- all outer radial dimensions;
+- successor002 bore dimensions;
+- pin/stop envelopes;
+- ownership (`2` lid / `3` body);
+- all non-hinge Object geometry;
+- later Materials review value `#7E868A / m0.88 / r0.32`;
+- Technical-Art transport/front-face/culling policy;
+- UV/texture state;
+- cameras/FOV/lights/exposure.
 
-Materials owns the exact new base-color value. Art does not prescribe a numeric value and does not authorize a scalar sweep.
+No radial resize, axial shift, segment-count change, smoothing/bevel rewrite, bore change, stop change, silhouette redesign or material change is authorized by Art Direction 047.
+
+Hard Surface must explicitly re-prove its own affected source/clearance/capture constraints. Existing Geometry/Rigging/Technical-Art PASS does not transfer automatically to the new source identity. If the one phase-only successor cannot be authored/proven within those owner constraints, preserve HOLD rather than opening another degree of freedom.
+
+When and only when that exact source successor returns, the existing Materials lane should rebind it and compare current synchronized-phase successor002 against the one phase-only successor using the same exact `#7E868A / m0.88 / r0.32` and the same three full-object views. Rear three-quarter is the primary failure witness; rear grazing and side three-quarter are non-regression witnesses.
 
 Visual intent:
 
-> reduce the repeated high-brightness rear-edge pull without broadening the highlight footprint, while preserving recognizably metallic steel, through-bore readability, knuckle separation and the side-three-quarter hierarchy.
+> break or materially reduce the synchronized five-part near-white rear-three-quarter stripe while preserving metallic identity, through-bore readability, knuckle separation, rear-grazing improvement and side hierarchy.
 
-Where practical, the next evidence packet should preserve the exact three-state comparison:
+Art/QA will judge that returned render directly. No numeric threshold is predeclared as universal acceptance.
 
-1. `roughness=0.32` control;
-2. failed `roughness=0.48` negative reference;
-3. one value-only successor at `roughness=0.32` / metallic `0.88`.
+## Exact handoffs
 
-If that one candidate cannot improve hierarchy without making the hinge dead, muddy, plastic-like or unreadable, preserve the failure and HOLD. A further degree of freedom requires a new Art decision rather than silent multi-variable tuning.
+Object Materials PR #6 receives a Direction-047 freeze/hold return: preserve `#7E868A / m0.88 / r0.32` as the current partial review reference; do not scalar-tune further; wait for an exact Hard-Surface successor before any new render rebind.
 
-## Exact handoff
+Object Hard-Surface PR #25 receives the one-source-successor request above on its existing hinge lane. No duplicate Hard-Surface PR is authorized.
 
-Object Materials PR #6 received Art review **`5245176382`**, anchored to exact Materials head `db68a6b76e04ae2f19bb09cb7207f2874e19797b`.
+Geometry, Rigging and Technical Art are **not** pre-activated by Art here. Their exact rebinds become owner decisions only after Hard Surface produces one exact source successor and identifies which of their contracts require retest.
 
-The review rejects roughness `0.48`, restores `0.32`, requests one value-only successor, freezes all other listed variables, preserves the failed packet as a negative reference, and explicitly retains independent QA after the next exact Materials return.
-
-No Geometry, Hard Surface, Technical Art, Rigging, Animation, Runtime, QA, merge or CANON authority was transferred.
+Independent Visual QA remains the downstream challenger after the returned exact render packet. Runtime/target-device remains separately held.
 
 ## Prior Art Direction continuity retained
 
@@ -166,27 +202,31 @@ No Geometry, Hard Surface, Technical Art, Rigging, Animation, Runtime, QA, merge
 - Direction 042: Building checker remains diagnostic transport evidence, not production material language.
 - Direction 043: Building utility-panel production successor remains the preferred reviewed direction for its exact current-world representation; downstream adoption remains separately owned.
 - Direction 044: isolated Object hinge material/cull coherence remains PASS.
-- Direction 045: complete-object rear hierarchy remains FAIL while the original side-three-quarter control remains a preserved non-regression reference. Direction 046 does not erase it; it records that the requested first repair axis failed.
+- Direction 045: complete-object rear hierarchy remains FAIL while the original side-three-quarter control remains a preserved non-regression reference.
+- Direction 046: roughness `0.48` remains a preserved failed negative; roughness `0.32` remains restored. Direction 047 does not erase that result.
 
-No acceptance transfers across domains, representations or changed owner identities by analogy.
+No acceptance transfers across domains, representations or changed source identities by analogy.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that a lower base-color value will pass;
-- the exact next base color before Materials authors/tests it;
-- a universal PBR rule that increasing roughness always worsens hierarchy;
-- a universal rule that darker metal is preferable;
-- final `hardware_steel` values;
-- final hinge textures, UVs, normal maps, wear, decals or manufacturing finish;
-- arbitrary camera / FOV / lighting / renderer / resolution equivalence;
-- articulated contact, collision, retention, friction, strength or manufacturing behavior;
-- Runtime / target-device performance;
+- that facet phase is proven to be the cause of the rear-three-quarter stripe;
+- that any particular relative phase angle will pass;
+- the exact next phase angle before Hard Surface authors/tests it;
+- default/source adoption of successor002 or a future phase successor;
+- `#7E868A` as final `hardware_steel` albedo;
+- final metallic or roughness values;
+- final UVs, textures, normals, wear, decals or manufacturing finish;
+- automatic transfer of existing clearance/topology/Rigging/Technical-Art evidence to a phase successor;
+- arbitrary camera/FOV/light/renderer/resolution equivalence;
+- Runtime/target-device CPU/GPU/FPS/VRAM/thermal acceptance;
+- collision, retention, friction, load, fatigue or manufacturing behavior;
 - gameplay readiness;
 - source/default adoption;
 - CANON;
 - production/game readiness;
+- Hard-Surface mastery;
 - Materials mastery;
 - Visual QA mastery;
 - any specialist mastery;
@@ -194,12 +234,12 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-**Truth:** preserve the green evidence pipeline and the failed visual result together. `roughness=0.48` is not called successful merely because its workflow passes.
+**Truth:** preserve both facts: the value successor genuinely improves rear grazing/side behavior, and the rear-three-quarter five-part near-white footprint remains unchanged. Evidence readiness is not relabelled as visual closure.
 
-**Agency / non-domination:** Art defines the bounded visual question; Materials owns the exact value-only successor; QA owns independent challenge; Technical Art, Geometry, Runtime, merge and CANON authorities remain untouched.
+**Agency / non-domination:** Art defines one bounded visual question. Hard Surface owns the exact source successor; Materials owns later receiving; QA owns independent challenge; Geometry/Rigging/Technical Art/Runtime/merge/CANON authority remains separate.
 
-**Continuity:** Direction 045, the exact `0.32` control, the failed `0.48` successor and the successful side reference all remain rollback-addressable and visible. Nothing is silently rewritten.
+**Continuity:** Direction 045's original defect, Direction 046's failed roughness experiment, the exact `#7E868A` partial repair and all source/artifact identities remain visible and rollback-addressable. Nothing is silently rewritten.
 
-**Wisdom before speed:** restore the demonstrated better control and test one new attributable degree of freedom before touching metallic level, geometry, lighting, camera, textures or broader surface language.
+**Wisdom before speed:** stop scalar tuning once the critical highlight footprint proves spatially unchanged and test one narrowly attributable facet-orientation hypothesis before opening broader geometry or shading changes.
 
 The four AXM roots remain the merge gate.
