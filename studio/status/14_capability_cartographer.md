@@ -3,39 +3,45 @@
 - Date: `2026-09-18`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_ELIGIBILITY_VS_MEASURED_OUTCOME_IDENTITY_MAP / RUNTIME_BUILDING_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_NEW_UC_EXTRACTION / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_CONDITIONAL_REPRESENTATION_CAPACITY_ELISION_MAP / BUILDING_ANIMAL_CHARACTER_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_GENERIC_UC_COMPACTOR / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
 Re-read the 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, current product PRs across the design constellation, current Universal Creation main/open work, Profession Fabric #38 continuity, and the shared-capability execution-claim registry.
 
-`axm-create-me` remains **coordination only**. No product source, receiver, material, Runtime optimizer, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product source, material, Runtime optimizer, Technical-Art exporter, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Fresh continuity / overlap scan
 
-The preceding Cartography activation mapped executable dependency-closure identity and refined Profession Fabric #38 without extracting a generic resolver. That exact state remains historical truth at prior Cartography blob:
+The preceding Cartography activation mapped:
 
-`9385003ec5b275d1183e4356370cbd6d766a41c5`
+`PREREQUISITE_OR_ELIGIBILITY_CONTINUITY != MEASURED_OUTCOME_CONTINUITY`
 
-Fresh studio state materially advanced Runtime, Building Technical Art, Materials, Procedural, Art Direction and QA. The strongest repeated cross-repo learning is not another machine primitive. It is an evidence-transfer boundary:
+and refined Profession Fabric #38 without opening a new shared implementation lane. That exact state remains historical truth at prior Cartography status blob:
 
-**`PREREQUISITE_OR_ELIGIBILITY_CONTINUITY != MEASURED_OUTCOME_CONTINUITY`**
+`626bc0a1deeab6da935919960d2a7f994043c1f0`
 
-A successor can be proven eligible for the same experiment/rebind while old counters, pixels, target-host results, device evidence or adoption verdicts remain historical and require a fresh measurement receipt.
+Fresh studio state materially advanced Building Runtime while Object Geometry/Hard-Surface, Nature Rigging/Procedural, Animation, VFX and Environment also moved. The strongest new repeat is not another product mechanic or a new generic optimizer. It is a representation/provenance boundary:
+
+**`STORAGE_CAPACITY != SEMANTIC_INFORMATION`**
+
+More precisely:
+
+**A stored representation may be narrowed, elided or deduplicated only when the exact current payload proves the removed capacity carries no distinct semantic information under the declared representation contract. That proof does not transfer to a future payload/domain/contract change.**
 
 Current Universal Creation `main` is:
 
-`bb3885c38cf1661971f8a5a4bb99e88a54e0f5d7`
+`9609998db6677391766e9ee7ff53a5b9b08a3cb9`
 
-That commit merged unrelated bounded Physics PR #202. Open UC PR #203 is the continuing Physics lane; open PRs #151 and #153 are unrelated asset/unwrap work. None overlaps this evidence/provenance distinction.
+Open UC PR #204 is the continuing bounded Physics lane. Open PR #151 remains the animated-island-boat asset/material lane and #153 remains the bounded offline unwrap/bake lane. None owns a generic representation-capacity compactor or overlaps this evidence/provenance map.
 
-The shared execution registry still contains only merged/closed records for UC #192 and #199. There is **no active shared-capability implementation claim** covering this scope, and this activation opens no UC/PF implementation lane.
+The shared execution registry still contains only closed/merged implementation records for UC #192 and #199. There is **no active shared-capability execution claim** covering this scope.
 
 ## Selected material cross-repo learning
 
-### Evidence A — Map Runtime proves eligibility continuity while forbidding output transfer
+### Evidence A — Building Runtime: unused alpha capacity can be elided only while opacity is exact
 
 Repository:
 
@@ -43,180 +49,247 @@ Repository:
 
 Existing Runtime PR:
 
-`#47 — Runtime: batch static Object rigid components in current world`
+`#52 — Runtime: elide opaque utility-panel alpha channel`
 
-Exact pass-48 Runtime head:
+Exact current head:
 
-`f42edfccfd77202d17c1e94487930af07fd1d755`
+`1afa51cb89b536db0d2434328722a1521febe0ad`
 
-Current receiving chain:
+PR state:
 
-- Animation successor: `343668b80acd52367e3427f3ef97d1662625c18f`;
-- Technical Art successor: `e085437f6cc958bbf7c5c6464578923d542962b0`;
-- owner Animation: `c688936a84f80f292e43587c9d3386bd717f8178`.
+`OPEN / DRAFT / UNMERGED / MERGEABLE`
 
-Pass 48 proves the static-batching **eligibility inputs** survive exactly onto the current successor:
+The exact owner-bound texture is `512 × 512`. Runtime proves:
 
-- rigid component map: byte-identical;
-- component-map SHA-256: `94edd332308593df020bc5c796950292d2963fbe7f19de0c9fadc9ab6b6905d6`;
-- owner-motion subset: exact;
-- canonical motion-subset SHA-256: `da5eec826861ee4501a12e76eacd9d448e5fb8bf9c7f45d2db781a63a2fcdea2`;
-- semantic components: `31`;
-- moving closure: `7`;
-- static classification: `24`.
-
-Dedicated continuity workflow:
-
-`35297014999 — Runtime Object static batching successor continuity` — **SUCCESS**.
-
-Retained artifact:
-
-- ID `10527669972`;
-- SHA-256 `2ca2a9df94cb998b1816fb9b74afcde563202adfa3e65f587843adffbdc39e2d`.
-
-That scoped PASS authorizes only **reusing the same 7-moving / 24-static classification as the starting point for a fresh current-receiver Runtime rebind**.
-
-It explicitly does **not** transfer pass-44's historical measured outputs:
-
-- rendered component surfaces `33 -> 14`;
-- draw calls `-38` at each retained key;
-- renderer buffer memory `-89,360 B`;
-- four retained shaded A/B pairs byte-identical.
-
-Runtime records:
-
-- `prior_runtime_counter_transfer_authorized = false`;
-- `prior_visual_acceptance_transfer_authorized = false`.
-
-Fresh current-successor Godot counters, shaded A/B and target-device evidence remain required.
-
-This gives a clean distinction between **eligibility continuity** and **measurement continuity** inside one Runtime lane.
-
-## Evidence B — Building receiver binding makes a downstream test possible without making its result current
-
-The second independent case comes from the Building material receiving chain.
-
-Environment PR #51 exact head:
-
-`787ad51687da2df52c9f6191d1778a7f66cbd3db`
-
-correctly held the current `184v / 276t / 5-surface` Building receiver because semantic role + corrected panel placement did not yet provide exact UV0/image transport. Environment did not invent planar UVs or auto-adopt the detached proof carrier.
-
-Technical Art PR #40 has now advanced to exact head:
-
-`1434bc4a64faa04db10f47723c37ab7925aaa163`
-
-and closes that missing prerequisite with an exact current-receiver binding:
-
-- front utility-panel service-face indices: `[172,174,175,173]`;
-- east utility-panel service-face indices: `[180,182,183,181]`;
-- owner UV corners through the active region: `(0.15625,0.03125)`, `(0.84375,0.03125)`, `(0.84375,0.96875)`, `(0.15625,0.96875)`;
-- owner directional target remains `320 / 320 texels/m`;
-- receiver-local depth fill is explicitly `TECHNICAL_ART_RECEIVER_FILL_ONLY__NOT_SOURCE_OR_GEOMETRY_EQUIVALENCE`.
+- exact owner PNG retained;
+- exact RGB samples retained;
+- all `262,144 / 262,144` alpha samples equal `255`;
+- receiving representation alone changes `RGBA8 -> RGB8`;
+- full-mip payload changes `1,398,100 B -> 1,048,575 B`;
+- exact saving is `349,525 B / 25%` for this texture representation.
 
 Dedicated workflow:
 
-`35296960441 — Technical Art Building current-receiver utility-panel UV image binding evidence` — **SUCCESS**.
+`35301057478 — Runtime Building utility-panel RGB8 alpha elision` — **SUCCESS**.
 
-Retained artifact:
+Real Godot current-world evidence across all `68` retained observations:
 
-- ID `10527699865`;
-- SHA-256 `5c19c82f8e216a1e5032784751819447215b21ab2ef6e4f52e03a9da2a855c06`.
+- scene texture memory `15,671,915 B -> 15,322,390 B` at every observation;
+- exact scene saving `349,525 B` at every observation;
+- buffer-memory delta `0 B`;
+- draw calls unchanged;
+- objects-in-frame unchanged;
+- primitives-in-frame unchanged;
+- `68 / 68` RGBA8/RGB8 frame pairs byte-identical;
+- total changed pixels `0`;
+- maximum channel delta `0 LSB`.
 
-The exact proof reaches current UC and real Godot, including exact image/UV transport and approximately isotropic `320 texels/m` observation. But its scoped state remains:
+The decisive negative is semantic rather than visual: mutate one alpha sample to `254` and the representation rule rejects with:
 
-`PASS_CURRENT_184V_RECEIVER_SERVICE_FACE_UV_IMAGE_BINDING_TO_CURRENT_UC_AND_REAL_GODOT__HOLD_ENVIRONMENT_VISUAL_RUNTIME_ADOPTION`
+`RGB8_ALPHA_PRECONDITION_REJECTED_NON_OPAQUE_TEXTURE`
 
-Therefore the new Technical-Art result makes the exact current receiver **eligible for Environment's next real current-world material A/B**. It does not itself turn Environment visual adoption, Runtime/device evidence, Art/QA verdicts or CANON into current PASSes.
+So the correct rule is **not** `utility-panel textures are RGB`. It is: the exact current alpha channel carries no varying semantic information and can therefore be elided in this receiver representation. A future source with meaningful alpha must retain an alpha-capable representation.
 
-This is materially different from the Runtime batching mechanism but has the same evidence graph shape: a missing prerequisite becomes exact, enabling a downstream experiment without pre-answering that experiment.
+## Evidence B — Animal Runtime / Technical Art: numeric width is capacity, decoded joint indices are semantics
+
+Repository:
+
+`mike-axiom-mir/axm-animal-design`
+
+Existing Runtime PR:
+
+`#26 — Runtime: compact Animal glTF joint indices to byte width`
+
+Original exact measured Runtime head:
+
+`3b9bcbc6b038e0b6782987134b567350274aacfd`
+
+The exact control stores:
+
+- `JOINTS_0 = UNSIGNED_SHORT VEC4`;
+- maximum stored joint index `1`;
+- JOINTS payload `672 B`;
+- complete GLB `11,148 B`.
+
+Runtime proves the exact semantic domain is only `0..1`, then narrows storage to:
+
+- `JOINTS_0 = UNSIGNED_BYTE VEC4`;
+- decoded joint rows exact and unchanged;
+- every non-JOINTS accessor payload hash unchanged;
+- JOINTS payload `336 B` (`-336 B / -50%`);
+- complete GLB `10,812 B` (`-336 B / -3.0139935%`).
+
+Dedicated Runtime workflow:
+
+`35168507611 — Runtime Animal joint-index width budget evidence` — **SUCCESS**.
+
+Real Godot evidence retains:
+
+- maximum control/candidate pose-receipt delta `0.0`;
+- triangle count `80` unchanged;
+- material bindings identical;
+- `2 / 2` fixed peak-pose frame pairs byte-identical;
+- `2 / 2` coverage pairs byte-identical;
+- changed pixels `0`.
+
+The current producer-side follow-on is equally important. Technical Art exact head:
+
+`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
+
+adopts the bounded rule:
+
+`smallest legal glTF unsigned component from exact emitted JOINTS_0 domain`
+
+with explicit out-of-domain behavior:
+
+- value above byte range -> fall back to `UNSIGNED_SHORT`;
+- value above glTF unsigned-short domain -> reject.
+
+Thus a green u8 result for one asset is not evidence that u8 is the semantic type of joints. The semantic information is the exact joint-index domain; storage width is conditional capacity.
+
+## Evidence C — Character Technical Art: duplicate storage can disappear only under exact semantic + byte identity
+
+Repository:
+
+`mike-axiom-mir/axm-character-design`
+
+Existing Technical Art PR:
+
+`#21 — Technical Art: prove review006 skin transport and target-host frame bridge`
+
+Exact current Technical Art head:
+
+`a8e2759e72e15a63e50f2cddecf1b407bbfd4224`
+
+The bounded exporter shares two animation output accessors only when:
+
+- accessor semantics match exactly;
+- encoded payload bytes match exactly;
+- representation is non-sparse, tightly packed and unstrided;
+- the removable accessor/view/payload is the supported final bounded region.
+
+Exact result:
+
+- control GLB `44,032 B`;
+- candidate GLB `40,064 B`;
+- file saving `3,968 B / 9.011627906976743%`;
+- duplicate binary payload removed `3,852 B`;
+- accessors / bufferViews `13 -> 12`.
+
+Current UC receives both representations with exact semantic equality over all `321` source samples. Real Godot 4.7.2 legitimately resamples the source animation to `61` imported keys per track, so Technical Art compares at the original `321` source times and retains:
+
+- imported animation key time delta `0.0`;
+- imported animation key value component delta `0.0`;
+- imported POSITION delta `0.0`;
+- imported NORMAL delta `0.0`;
+- index mismatches `0 / 1080`;
+- imported skeleton pose position/rotation/scale deltas all `0.0`.
+
+A verifier-only one-byte mismatch in the duplicate animation payload is rejected before sharing.
+
+Again the reusable fact is not `duplicate animation outputs should be deduplicated`. It is: exact semantic identity plus exact supported representation identity proves that **this** stored duplicate carries no additional information.
 
 ## Cross-repo capability map
 
-The bounded evidence chain is:
+The shared evidence shape is:
 
-`prerequisite_identity[]`
+`semantic_payload_identity`
 
-→ `eligibility_evidence_identity`
++ `reference_representation_identity`
 
-→ `eligibility_state`
++ `capacity_precondition_identity`
 
-→ `authorized_next_action`
+→ exact `precondition_evidence_identity`
 
-→ fresh `measurement_receipt_identity`
+→ `candidate_representation_identity`
 
-→ bounded `measurement_claim_identity[]`
+→ bounded `semantic_equivalence_scope`
 
-→ independent adoption / Art / QA / device / CANON records.
+→ explicit `out_of_domain_behavior`
 
-Suggested evidence-only concepts:
+→ independent producer / Runtime / Art / QA / device / adoption state.
 
-- `prerequisite_identity[]` — exact producer/receiver facts required before the downstream evaluation is meaningful;
-- `eligibility_state = ELIGIBLE_FOR_REBIND_OR_RERUN | INELIGIBLE | INCOMPLETE | NOT_EVALUATED`;
-- `eligibility_evidence_identity` — exact head/workflow/artifact that proves the eligibility state;
-- `authorized_next_action` — e.g. `REBIND_FROM_SAME_CLASSIFICATION`, `RUN_CURRENT_WORLD_A_B`, `NO_ACTION`;
-- `measurement_claim_identity[]` — exact measured outputs such as pixels, draw calls, memory, host behavior or review verdicts;
-- `measurement_receipt_identity` — exact receiver/host/observer/context where those outputs were measured;
-- `measurement_transfer_state = FRESH_CURRENT | HISTORICAL_ONLY_RERUN_REQUIRED | TRANSFER_EXPLICITLY_PROVEN | NOT_APPLICABLE`.
+Suggested evidence-only fields:
+
+- `semantic_payload_identity` — exact source/producer payload or decoded semantic domain represented;
+- `reference_representation_identity` — exact wider/current storage representation;
+- `candidate_representation_identity` — exact narrowed/elided/shared-storage alternative;
+- `capacity_elision_kind = UNUSED_CHANNEL | NARROWER_VALUE_DOMAIN | EXACT_DUPLICATE_STORAGE | OTHER_EXPLICIT`;
+- `capacity_precondition_identity` — executable condition that must hold for this exact candidate;
+- `precondition_evidence_identity` — exact head/workflow/artifact/receipt proving the condition;
+- `semantic_equivalence_scope` — decoded rows, receiver poses, retained pixels or another explicitly named scope rather than one generic `equivalent=true`;
+- `out_of_domain_behavior = FALLBACK_WIDER | REJECT | NOT_SUPPORTED`;
+- `invalidation_trigger` — exact source/payload/domain/representation-contract changes that require fresh proof;
+- `adoption_state` kept separate from the evidence result.
 
 Core non-transfer rule:
 
-**Exact prerequisite continuity may authorize the next rerun/rebind, but it does not relabel historical measured outputs as current unless their own measurement dependencies and transfer are explicitly proven.**
+**Today's unused representation capacity must not become tomorrow's silently unavailable semantic channel.**
 
 ## Placement action — Profession Fabric #38
 
 Refined the existing experimental Profession Fabric evidence/provenance proposal with comment:
 
-`5723918291`
+`5724496720`
 
-The refinement adds explicit prerequisite/eligibility identity and measurement-transfer state beneath the existing typed dependency DAG, migration-vs-claim distinction, representation-set model, temporal provenance and executable-closure provenance.
+The refinement adds conditional representation-capacity evidence beneath the existing representation-set / dependency / claim vocabulary. It deliberately does **not** create one optimizer, one storage policy or one adoption rule.
 
-This is the correct home because the repeated capability is **how evidence distinguishes readiness-to-test from the result-of-testing**. It is not batching machinery, UV transport machinery, Environment policy or a missing Universal Creation product feature.
+This is the correct current home because the repeat is the **evidence discipline that proves when a narrower representation remains semantically faithful and when that proof expires**. The executable operations themselves are materially different and remain with their owning product specialists:
+
+- Building/Map Runtime owns alpha-channel elision and proof-host memory measurement;
+- Animal Runtime + Technical Art own JOINTS width measurement/adoption;
+- Character Technical Art owns exact accessor sharing at its exporter boundary.
 
 No PF code was implemented and no profession was promoted.
 
 ## Why no Universal Creation lane was opened
 
-Universal Creation has no missing neutral machine capability evidenced by this repeat:
+The repeat does not yet expose one neutral executable transform:
 
-- Runtime's case concerns whether an existing Object batching experiment is eligible to be rerun on a successor receiver;
-- Building's case concerns whether Environment now has enough exact receiving identity to run its own current-world material A/B.
+- RGBA8 -> RGB8 removes a provably constant image channel;
+- u16 -> u8 narrows an exact integer value domain with legal fallback;
+- duplicate animation accessor sharing removes exact duplicate storage under a format/layout contract.
 
-UC remains only one observed dependency in the Building proof. Current UC main `bb3885c3...` is unrelated Physics growth beyond the relevant material-observer closure. Opening a UC lane would conflate evidence lifecycle with creation/observation machinery.
+UC already has narrower representation capabilities where the repeated **machine operation** itself is evidenced, such as attribute-aware mesh representation observation and bounded rigged-glTF receiver semantics. Those do not justify a generic cross-format `make smaller` engine.
+
+Current UC `main` `9609998...` and open PR #204/#151/#153 are unrelated to this proposed evidence vocabulary. Opening a generic UC compactor now would conflate three format-specific mechanisms and outrun the evidence.
 
 ## Product returns
 
 Evidence-only returns were placed without changing product code:
 
-- Map Runtime PR #47 comment `5723919333`;
-- Map Technical Art PR #40 comment `5723920237`.
+- Profession Fabric #38 comment `5724496720`;
+- Map Runtime PR #52 comment `5724497604`;
+- Animal Runtime PR #26 comment `5724498398`;
+- Character Technical Art PR #21 comment `5724499192`.
 
-The Runtime return preserves the distinction between exact classification eligibility and historical pass-44 measurements. The Technical-Art return preserves the distinction between exact Building receiver readiness and downstream Environment/Runtime/Art/QA adoption.
+Each return preserves the exact local executable rule and authority while recording only the cross-domain evidence distinction.
 
 ## Bounded placement table
 
 | Layer | Correct home | Current evidence | Explicitly not implied |
 |---|---|---|---|
-| Object static-batching mechanism and classification | Map Runtime PR #47 | exact `31 / 7 / 24` successor eligibility | current draw/memory/pixel/device PASS |
-| Building current-receiver UV/image binding | Map Technical Art PR #40 | exact service-face binding through UC + real Godot | Environment visual adoption or production UV policy |
-| Building world adoption / scene A/B | Map Environment PR #51 | now has a proven prerequisite available | automatic PASS before fresh Environment execution |
-| prerequisite/eligibility vs measurement-transfer evidence vocabulary | Profession Fabric #38 experimental procedure | comment `5723918291` | generic rerun engine, auto-adoption or product policy |
-| generic shared product machinery | Universal Creation only when a real neutral machine gap exists | **no new gap this pass** | evidence/provenance ownership |
-| shared implementation collision state | `axm-create-me` coordination registry | no active overlapping claim | ownership or merge priority |
+| opaque-alpha receiver transform | Map Runtime PR #52 | exact all-opaque precondition + RGB8 current-world A/B | generic RGB8 material policy, future alpha safety, device acceptance |
+| JOINTS numeric-width policy | Animal Runtime / Technical Art PR #26 lineage | exact `0..1` domain + u8 equality + fallback/reject behavior | u8 semantic joint type, arbitrary glTF compaction, target-device acceptance |
+| exact animation accessor sharing | Character Technical Art PR #21 | exact semantic/byte duplicate + current UC/Godot equality | arbitrary deduplication, sparse/interleaved generality, Runtime adoption |
+| conditional representation-capacity evidence vocabulary | Profession Fabric #38 experimental proposal | comment `5724496720` | generic compactor, auto-selection, domain policy or acceptance |
+| generic shared machine implementation | Universal Creation only after one neutral executable transform repeats | **not evidenced this pass** | cross-format optimization-by-analogy |
+| shared execution collision state | `axm-create-me` coordination registry | no active overlapping claim | ownership or merge priority |
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- fresh Runtime draw-call or buffer-memory improvement on the current Object successor;
-- fresh Object static-batching visual equivalence on the current successor;
-- target-device Runtime acceptance;
-- Environment adoption of the Building material binding;
-- final Building visual/material acceptance;
-- production UV/texture policy;
+- a generic RGB8 texture policy;
+- a generic smallest-width glTF optimizer;
+- a generic binary/accessor deduplicator;
+- arbitrary format-preserving compression;
+- target-device CPU/GPU/FPS/VRAM/thermal improvement;
+- Environment/Materials/Technical-Art adoption of the Building Runtime candidate;
+- Art Direction or independent Visual QA acceptance beyond the exact retained evidence already owned by each lane;
 - a new UC implementation;
 - a PF implementation or profession promotion;
-- automatic rerun/adoption machinery;
+- automatic representation selection or migration;
 - CANON;
 - production/game readiness;
 - mastery;
@@ -226,13 +299,13 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-**Truth:** exact unchanged prerequisites are recorded separately from historical measured outputs; the Building receiving prerequisite PASS is not mislabeled as Environment adoption.
+**Truth:** the map distinguishes semantic information from spare storage capacity and requires exact precondition evidence before any narrowing/elision claim. The retained negative controls remain first-class evidence rather than being hidden behind successful size reductions.
 
-**Agency / non-domination:** Runtime retains batching/device authority, Technical Art retains transport authority, Environment retains world adoption, Art/QA retain review authority, PF receives evidence vocabulary only, and UC is not expanded without a machine gap.
+**Agency / non-domination:** Runtime and Technical Art retain their local representation/adoption authority; Art/QA/device owners keep acceptance; PF receives evidence vocabulary only; UC is not expanded merely because three different optimizations all make files/memory smaller.
 
-**Continuity:** prior Cartography blob, exact Runtime historical/current identities, Building Environment/Technical-Art heads, workflow/artifact identities and historical measurements remain separately addressable. No old PASS is silently relabelled current.
+**Continuity:** the prior Cartography blob, exact product heads, wider reference representations, candidate identities, workflows/artifacts, fallback/rejection rules and historical receipts remain separately addressable. A future source/domain change invalidates only the claims that actually consume the old precondition.
 
-**Wisdom before speed:** the map authorizes only the next evidence-producing action when prerequisites are green; it does not skip the expensive/meaningful downstream measurement merely because eligibility is exact.
+**Wisdom before speed:** the shared lesson is extracted now because three materially different domains repeat the evidence shape, but a generic machine implementation is intentionally withheld because the executable transforms are still different.
 
 The four AXM roots remain the gate.
 
@@ -240,14 +313,15 @@ The four AXM roots remain the gate.
 
 Previous Cartography state:
 
-`PASS_EXECUTABLE_DEPENDENCY_CLOSURE_IDENTITY_MAP`
+`PASS_ELIGIBILITY_VS_MEASURED_OUTCOME_IDENTITY_MAP`
 
 Previous status blob SHA:
 
-`9385003ec5b275d1183e4356370cbd6d766a41c5`
+`626bc0a1deeab6da935919960d2a7f994043c1f0`
 
 Current Cartography returns:
 
-- PF #38 comment `5723918291`;
-- Map Runtime PR #47 comment `5723919333`;
-- Map Technical Art PR #40 comment `5723920237`.
+- PF #38 comment `5724496720`;
+- Map Runtime PR #52 comment `5724497604`;
+- Animal Runtime PR #26 comment `5724498398`;
+- Character Technical Art PR #21 comment `5724499192`.
