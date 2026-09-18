@@ -1,155 +1,162 @@
 # 07 — 3D Animation & Motion Specialist Status
 
 Date: 2026-09-18
-State: **PASS_NATURE_SHARED_DRIVER_ANIMATIONPLAYER_OVER_TA_DYNAMIC_WINDOW_RECEIVER / NATURE_ANIMATION_PR22_E89DB4CD / FROZEN_1S_40HZ_41_ENDPOINT_SAMPLES / REAL_GODOT_4_7_2 / 40_VISIBLE_AUTHORED_KEYS / RENDER_IDENTITY_TARGET_CORRESPONDENCE / NO_TA_CURRENT_PAIR_ADOPTION / NO_RUNTIME_GAMEPLAY_TRANSFER / COORDINATION_ONLY**
+State: **PASS_NORTH_LOW_PARENT_EXCLUSION_TEMPORAL_REBIND_SAMPLED_DIAGNOSTIC_MOTION / NATURE_ANIMATION_PR26_5CACD61E / CURRENT_RIGGING_69640E55 / FROZEN_1S_40HZ_41_SAMPLE_CHILD_TRACK / DETACHED_DIAGNOSTIC_CHILD_SOCKET_ONLY / ZERO_TEMPORAL_PARENT_LEAK / NO_TARGET_HOST_RUNTIME_GAMEPLAY_TRANSFER / COORDINATION_ONLY**
 
-> Continuity note: the immediately preceding Animation status is preserved exactly in Git as blob `7a506d2636591f4d5a4c41888ce0c6114eba0600`. It records the green Object successor-003 relative-facet-phase motion rebind at Object Animation PR #10 head `dd492d8157526f4fe4327b0e8c5bfb99cc455735`. Earlier Character, Animal, Nature, Object, Map and Wreckline Animation evidence remains historical truth and is not rewritten here.
+> Continuity note: the immediately preceding Animation status is preserved exactly in Git as blob `245493fd85afb746f3b46375b2c4eba03264f39a`. It records Nature Animation PR #22's exact older shared-driver -> Technical Art dynamic-window Godot playback proof at head `e89db4cd53387a477fc98353caa1cdbd47b82ac6`. That older target-host evidence remains historical truth for its exact owner chain and is not rewritten or promoted to the newer Rigging/Geometry identity.
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current Animation status, current Rigging and Technical Art ownership, and the open Animation-ready lanes before selecting work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/07_animation_motion.md`, current Animation/Rigging/Technical-Art status and open animation-ready lanes across the constellation before selecting work.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product observer, verifier, workflow and retained evidence live only in `mike-axiom-mir/axm-nature-design`.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation, verifier, workflow and retained evidence live in `mike-axiom-mir/axm-nature-design`.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Fresh constellation / duplicate-lane scan
+## Fresh constellation / duplicate-lane decision
 
-The current Nature Rigging lane has advanced beyond the shared-driver owner consumed by Animation: Rigging PR #14 is now at `975931b11555d156e04e2ab12e9756fc6c9598a3` with newer hierarchy/influence diagnostics and explicitly transfers no Animation acceptance. Technical Art PR #3 is open at `1cd1784cbc2d0fb5ffdf23e9e2d9a50b50d90641` and retains target-host/renderer authority.
+Character, Animal, Object and Map already retain active or mature Animation lanes. Nature had the freshest exact owner change: Rigging PR #14 advanced from the older five-socket owner consumed by Animation PR #22 to current exact head `69640e558f0c1ac59d4d0e3155676e0967a03d04`, after Geometry classified `north-low` as a detached diagnostic child with zero indexed branch/trunk sharing.
 
-Animation already had an unfinished, bounded target-host seam on existing Nature Animation PR #22. That seam was higher leverage than opening another Nature lane or prematurely consuming the newer Rigging hierarchy, because PR #22's sampled motion was already green while its real-Godot target replay had stopped in observer plumbing.
+Current Rigging result:
 
-Therefore this activation extended **existing Nature Animation PR #22 only** and kept the motion/rig/source identity frozen.
+`PASS_NORTH_LOW_DETACHED_CHILD_SOCKET_ATTACHMENT_REPRESENTATION_GATE_DIAGNOSTIC`
 
-## Existing lane extended
+Current exact Rigging constraint:
+
+`DETACHED_DIAGNOSTIC_CHILD_SOCKET_ONLY`
+
+The `north-low` diagnostic parent weight is `0.0`; upper-trunk parent influence is excluded for this exact detached representation. Rigging explicitly leaves Animation timing/playback unaccepted.
+
+The highest-leverage fresh Animation question was therefore temporal: **does the already-authored north-low child track remain unchanged when a bounded parent command is present but the current Rigging gate requires zero inherited parent influence?**
+
+The older Nature Animation PR #22 was closed unmerged after the successor passed, preserving its historical evidence while avoiding two active Nature Animation lanes.
+
+## Current Animation lane
 
 Repository: `mike-axiom-mir/axm-nature-design`.
 
-Draft PR: **#22 — `Animation: sample five-socket shared-driver diagnostic loop`**.
+Draft PR: **#26 — `Animation: rebind north-low timing to parent-exclusion gate`**.
 
-Branch: `studio/animation-east-rear-shared-driver-loop-004`.
+Branch: `studio/animation-north-low-parent-exclusion-temporal-rebind-005`.
 
-Exact tested head: **`e89db4cd53387a477fc98353caa1cdbd47b82ac6`**.
+Base / exact current Rigging owner: `69640e558f0c1ac59d4d0e3155676e0967a03d04`.
+
+Exact Animation head: **`5cacd61e22433b0c33f29111827283b81cc0ba0d`**.
 
 Observed after evidence completion: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-No competing Nature Animation PR was opened.
+Previous Animation timing owner retained read-only: `e89db4cd53387a477fc98353caa1cdbd47b82ac6`.
 
-## Frozen source-motion identity
+Geometry attachment donor retained read-only: `d32a41558910d78595042fb638a785714f825806`.
 
-Reusable target-replay contract:
+## Bounded reusable Animation method
 
-**`axm.nature-animation-five-socket-ta-window-replay/v0.1`**
+Contract:
 
-The existing shared-driver motion remains unchanged:
+**`axm.nature-animation-north-low-parent-exclusion-temporal-rebind/v0.1`**
 
-- Animation predecessor / sampled-motion owner: `bfb66da82bc358b14e52711bbdef7b58e4c943af`;
-- exact Rigging owner consumed by this lane: `b4b480b415047fea90b4740f7702ced0dba9142d`;
+Reusable rule:
+
+**`WHEN_RIGGING_EXCLUDES_PARENT_INFLUENCE_BY_EXACT_ATTACHMENT_IDENTITY_ANIMATION_MUST_REPLAY_THE_EXISTING_CHILD_TIMING_WITH_A_BOUNDED_PARENT_COMMAND_STRESS_TRACK_AND_FAIL_ON_ANY_TEMPORAL_PARENT_LEAK`**
+
+The existing north-low child motion identity is frozen:
+
 - duration: **1.0 s**;
-- authored cadence: **40 Hz**;
+- authored sampled cadence: **40 Hz**;
 - endpoint-inclusive samples: **41**;
-- visible repeating authored samples: **40**;
-- amplitude remains **±5°** under the existing five-socket shared driver;
-- endpoint sample 40 remains an exact sample-0 closure.
+- visible repeat samples: **40**;
+- normalized timing curve: `sin(2*pi*t)^3`;
+- previous shared-driver landmarks: `0 -> +5 -> 0 -> -5 -> 0°`;
+- exact inherited north-low polarity therefore remains child `0 -> -5 -> 0 -> +5 -> 0°`.
 
-No source mesh, socket, pivot, axis, Rigging partition, polarity, timing, amplitude, easing or authored sample was changed during the repair sequence.
+Animation adds only a same-phase **diagnostic parent-command stress track**:
 
-## Exact target receiver consumed
+`0 -> +2.5 -> 0 -> -2.5 -> 0°`
 
-This bounded Animation proof reuses the already-proven Technical Art dynamic-window transport identity without claiming current-pair Technical Art adoption:
+That parent channel is command-only evidence. This pass does not define or animate an upper-trunk deformation receiver.
 
-- Technical Art donor: `da60cd491ac7f9ac04f918dd000f464a627b3316`;
-- Runtime donor: `6d89e1fc0f8dc5e2ef6c57fc99c1dc6b1727780f`;
-- Universal Creation donor: `5c5d2cfdc3aa4e9462fd4d5ec5bc7874f12674a4`;
-- receiver vertices: **390**;
-- mutable dynamic vertex window: **`[110,370)`**, 260 vertices;
-- mutable position stride: **12 bytes**;
-- byte offset: **1320**;
-- byte length: **3120**.
+At every sample the accepted detached-child output must equal the child-only transform. Separately, a deliberately wrong inherited-parent counterfactual is evaluated so the observer must demonstrate sensitivity to the hierarchy error rather than pass vacuously.
 
-The older Technical Art witness poses are not promoted into current Animation/Rigging pose authority. They are used only for the transport/receiver identity they actually proved.
+No source mesh, Geometry identity, Rigging pivot/axis/child partition, diagnostic interval, previous child timing, amplitude or easing was rewritten.
 
-## Repair trail preserved
-
-The failure sequence was kept visible instead of rewriting history:
-
-1. Earlier target replay stopped on a JSON/GDScript window-identity comparison even though the oracle contained the correct `[110,370)` window. The observer comparison was repaired by explicit integer element checks.
-2. Real Godot then reached the renderer but a representative sample-0 candidate diverged from its independently built full-control image.
-3. Re-arming the exact key after neutral reset did not remove the mismatch, so diagnostic state was retained instead of changing motion.
-4. The retained diagnostic proved the real cause: while screenshot settling awaited process/render frames, the live `AnimationPlayer` advanced from requested key 0 through keys `1..6` before capture. The source packet and requested key were not the defect.
-5. The observer was repaired to **pause the player after exact-key seek and before render settling**. No source motion or acceptance threshold changed.
-6. Real Godot then passed, but the workflow validator still expected obsolete CPU-readback fields from an earlier observer design. The validator was updated to verify the current render-identity evidence rather than pretending unsupported post-update CPU readback existed.
-7. Finally, evidence retention was repaired so the positive target receipt remains canonical while the wrong-byte-offset negative control is retained separately rather than overwriting the PASS receipt.
-
-## Exact evidence
+## Exact verification
 
 Dedicated workflow:
 
-**`35331531811 — Animation Nature shared-driver target replay` — SUCCESS**.
+**`35335500801 — Animation east rear north-low parent-exclusion temporal rebind` — SUCCESS**.
 
-The complete Nature suite, exact donor binding, receiver rebuild, current Animation packet oracle, authority-inflation negative controls, pinned Godot 4.7.2 replay, PASS validation, wrong-byte-offset negative control and retained-evidence upload all completed successfully.
+Both Python **3.11** and **3.13** jobs passed. The full receiving Nature repository suite passed **101 / 101 tests**.
 
-Scoped target result:
+Scoped result:
 
-**`PASS_NATURE_SHARED_DRIVER_ANIMATIONPLAYER_OVER_TA_DYNAMIC_WINDOW_RECEIVER`**.
+**`PASS_NORTH_LOW_PARENT_EXCLUSION_TEMPORAL_REBIND_SAMPLED_DIAGNOSTIC_MOTION`**.
 
-Measured retained values from real **Godot 4.7.2-stable (official)**:
+Measured over all **41** authored samples on the actual generated `north-low` 52-vertex child:
 
-- visible authored samples checked: **40 / 40**;
-- endpoint sample 40 checked as exact sample 0: **true**;
-- AnimationPlayer bridge-index mismatches: **0**;
-- representative target render checks: **5** at samples `0 / 10 / 20 / 30 / 39`;
-- maximum full-control-vs-AnimationPlayer partial-update changed pixels across those five checks: **0**;
-- all five representative control/candidate renders are byte-identical;
-- positive peak versus neutral: **4,647 changed pixels**, max channel delta **187**;
-- negative peak versus neutral: **4,703 changed pixels**, max channel delta **188**;
-- natural replay observed **2 loop wraps** and all **40 distinct authored indices**;
-- observed process-change timing is retained only as diagnostic data and is **not** a 40 Hz wall-clock/display claim.
+- maximum accepted parent-command leak: **`0.0 m`**;
+- endpoint closure: **`0.0 m`**;
+- repeat-seam residual: **`0.0 m`**;
+- maximum rigid-child pairwise-distance drift: **`4.996003610813204e-16 m`**;
+- maximum child-axis projection drift: **`1.249000902703301e-16 m`**;
+- child-track antisymmetry error: **`2.6645352591003757e-15°`**;
+- maximum selected-vertex displacement: **`0.09089971978466785 m`**;
+- maximum adjacent sampled step: **`0.01617193952736831 m`**;
+- forbidden inherited-parent socket travel: **`0.014461068684499487 m`**;
+- forbidden inherited-parent output delta: **`0.03696489957767319 m`**.
 
-The wrong-target-byte-offset control (`+12` bytes) fails closed as `FAIL_NATURE_SHARED_DRIVER_ANIMATIONPLAYER_TARGET_REPLAY`.
+The forbidden inherited-parent path is therefore materially discriminating while the accepted current-Rigging path retains zero parent-command leak.
 
-## Retained artifact
+All **12** fail-closed controls rejected as required: duration drift, sample-rate drift, child-amplitude drift, parent-stress widening, inherited-parent motion, wind promotion, biological-ROM promotion, connected-attachment promotion, production-skinning promotion, target-engine promotion, Runtime-controller promotion and gameplay promotion.
 
-Artifact ID: **`10540959124`**.
+## Retained evidence
 
-Artifact name: `nature-shared-driver-animation-target-replay-e89db4cd53387a477fc98353caa1cdbd47b82ac6`.
+Artifact ID: **`10542373189`**.
 
-GitHub payload size: **297,466 B**.
+Artifact name: `nature-north-low-parent-exclusion-animation-5cacd61e22433b0c33f29111827283b81cc0ba0d`.
 
-GitHub artifact SHA-256: **`93bba2d6490ef6f46b727089ac65a71d8ebc4d9dc49261784d27ddd555cffd2f`**.
+Files: **16**.
 
-The ZIP was downloaded after CI and independently rehashed to the exact same digest. The retained canonical PASS receipt, separately retained positive receipt and wrong-offset negative receipt were inspected directly.
+GitHub payload size: **22,766 B**.
+
+SHA-256: **`369fb241a1628c81e0aec13da3e5d5a1ea70b2928cbe077d2a9f172825d8944d`**.
+
+The ZIP was downloaded after CI, independently rehashed to the exact same digest, and its retained evidence receipt was inspected directly.
+
+Bounded evidence was returned to Animation PR #26 and Rigging PR #14. Historical Animation PR #22 was explicitly closed **unmerged**, with its old-pair target-host proof retained as provenance rather than duplicated as an active lane.
 
 ## Truth boundary / explicit nonclaims
 
-This PASS proves only that the **existing frozen five-socket shared-driver sampled Animation** can drive the exact retained Technical Art dynamic-window receiver through a real proof-local Godot 4.7.2 `AnimationPlayer`, with target correspondence observed by independent full-control versus partial-update render identity at bounded representative samples and natural loop traversal observed separately.
+This PASS proves only sampled source-mesh temporal compatibility of the frozen `north-low` child track with the current exact Rigging parent-exclusion / detached-attachment representation.
 
 It does **not** establish:
 
-- Technical Art adoption of the current Animation/Rigging pair;
-- adoption of current Rigging PR #14 head `975931b1...` or its newer hierarchy/influence semantics;
-- full 40 Hz wall-clock source-slot delivery or display cadence;
-- target-device CPU/GPU/FPS/VRAM/thermal performance;
-- Runtime controller, state-machine, input or device behavior;
+- welded or connected branch/trunk topology;
+- connected surface continuity;
+- production skinning or production parent weights;
 - natural vegetation motion, physical wind or biological ROM;
-- continuous collision, self-intersection freedom or physics;
-- gameplay acceptance;
+- continuous collision or self-intersection freedom;
+- Godot or other target-engine playback for this current pair;
+- Technical Art adoption of this current Animation/Rigging pair;
+- wall-clock 40 Hz source-slot or display delivery;
+- Runtime controller, state-machine, input or device behavior;
+- target-device CPU/GPU/FPS/VRAM/thermal performance;
+- physics or gameplay acceptance;
 - VFX motion adoption;
 - final motion style or aesthetic acceptance;
 - Art Direction or independent Visual QA acceptance;
-- CANON or production readiness.
+- CANON, game readiness or production readiness.
 
-Technical Art retains production receiver/target-host authority; Runtime retains controller/device/performance authority; Rigging retains hierarchy/deformation authority; gameplay/physics and Art/QA remain with their owning lanes.
+Rigging retains attachment/deformation authority; Geometry retains topology authority; Technical Art retains target-host transport/adoption authority; Runtime retains controller/device/performance authority; VFX and Art/QA retain their separate acceptance surfaces.
 
 ## Four-root gate
 
-- **Truth:** the exact sampled owner, receiver donors, real Godot result, negative control and retained artifact are pinned; renderer evidence is not relabelled as Runtime or gameplay acceptance.
-- **Agency / non-domination:** Animation consumes the older proven TA transport only for this bounded proof and does not silently adopt current Rigging/TA successors or seize downstream authority.
-- **Continuity:** existing Nature Animation PR #22 and its frozen 1 s / 40 Hz / 41-sample identity were repaired in place rather than replaced; the preceding Object status remains recoverable exactly as blob `7a506d26...`.
-- **Wisdom before speed:** observer and evidence-packaging defects were isolated and repaired without retiming the clip or weakening acceptance boundaries.
+- **Truth:** exact current Rigging/Geometry identities, previous Animation timing identity, all 41 sampled states, discriminating wrong-parent counterfactual, full repository tests and retained artifact are pinned; source-mesh evidence is not relabelled as target-host or gameplay evidence.
+- **Agency / non-domination:** Animation consumes the exact owner constraints without rewriting Rigging, Geometry, VFX, Technical Art or Runtime authority.
+- **Continuity:** the previous child timing is preserved exactly, the older PR #22 target-host evidence remains recoverable, and the current successor is a bounded rebind rather than a silent rewrite.
+- **Wisdom before speed:** current detached-attachment semantics were consumed before attempting another target-host transfer; production skinning, connected topology and Runtime/gameplay claims remain held.
 
 The four AXM roots remain the merge gate.
 
 ## Next Animation trigger
 
-Do **not** automatically rebase this PASS onto current Rigging `975931b1...`; that lane now carries newer hierarchy/influence semantics requiring a fresh Animation-owned motion decision. A future pass should consume that newer Rigging owner only if a bounded non-duplicated Animation question is still open, or otherwise move to the freshest unowned motion/transition seam elsewhere in the constellation.
+Do **not** transfer PR #22's older Godot target-host PASS onto PR #26 by similarity. A future target-host pass is justified only after Technical Art explicitly adopts this exact current `Animation 5cacd61e... / Rigging 69640e55... / Geometry d32a4155...` chain, or after another specialist returns a new bounded Animation-owned seam. Otherwise move to the freshest unowned motion/transition problem elsewhere in the constellation.
