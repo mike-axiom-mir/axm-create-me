@@ -3,177 +3,181 @@
 - Date: `2026-09-18`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_COMPOSITION_DOMAIN_NONTRANSFER_MAP / NATURE_MAP_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / DOWNSTREAM_REBIND_SEQUENCE_EXPLICIT / NO_GENERIC_UC_COMPOSITION_CERTIFIER / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_TRANSPORT_SUBSTRATE_SEMANTIC_AUTHORITY_SEPARATION_MAP / NATURE_OBJECT_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / CURRENT_TARGET_EXECUTION_FAILURE_PRESERVED / EXISTING_UC_TRANSPORT_HOME_CONFIRMED / NO_NEW_SHARED_EXECUTION / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
 Re-read the active 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, current/open product work across the design constellation, current Universal Creation main/open work, Profession Fabric #38 / #37, and the shared-capability execution registry.
 
-`axm-create-me` remains **coordination only**. No product implementation, Rigging/Animation/Technical-Art/Environment semantics, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product implementation, Rigging/Animation/Technical-Art/Environment/VFX semantics, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediately preceding Cartography status blob remains historical and rollback-addressable:
 
-`f0444687b9143292c668e32239b43e360e995103`
+`af2e970f17cd8be3e2d02431e38a2fcbc5930660`
 
-## Fresh continuity / overlap scan
+## Fresh cross-repo learning
 
-The preceding Cartography activation mapped measurement-attribution / contrast identity. Since then, the strongest fresh cross-repo dependency distinction is:
+The strongest fresh repeated boundary is:
 
-**`COMPONENT_CLAIM_SET != COMPOSITION_SUBJECT != JOINT_STATE_DOMAIN != COMPOSED_CLAIM`**.
+**`TRANSPORT_SUBSTRATE_IDENTITY != SEMANTIC_AUTHORITY_IDENTITY != EXPECTED_ORACLE_IDENTITY != TARGET_EXECUTION_RECEIPT_IDENTITY`**.
 
-More precisely:
+A receiver, adapter, scene-graph transform or import path can remain reusable as a **carrier** while the product/domain semantic owner changes. Reusing the carrier does not authorize reusing predecessor pose/material/motion semantics, and successful construction of a fresh current oracle does not itself prove target execution.
 
-**A set of individually valid component or branch receipts does not automatically prove the composition in which those components are active together. The exact composition relation — activation pattern, shared-parameter mapping, ordering/commutativity assumptions and joint-state domain — is a consumed identity of its own. When that relation changes, downstream evidence remains truthful for its old composition domain but must not silently transfer to the new one.**
+This is distinct from the previous composition-domain map. The prior activation established that component-wise PASS does not transfer to a changed joint-state composition. This activation identifies a second edge inside the downstream rebind: **mechanism continuity is not meaning continuity**.
 
-This is distinct from earlier proof-coverage cartography. Coverage asks whether a claim is supported over a declared domain. This activation identifies a dependency that determines **which domain exists at all**: one-at-a-time component slices and a simultaneous joint-state trajectory are different evidence subjects even when they reuse the same source geometry, child identities and timing family.
-
-## Evidence A — Nature Technical Art retains an exact one-at-a-time target domain
+## Evidence A — Nature Animation now separates current meaning from predecessor TA semantics
 
 Repository: `mike-axiom-mir/axm-nature-design`
 
-Existing Technical Art PR: `#3 — Technical Art: prove Nature -> current UC -> target receiver handoff`
+Current Animation PR: `#22 — Animation: sample five-socket shared-driver diagnostic loop`
 
-Retained exact target-host proof head: `b83c7d71759213d96c57874282e60705402540f5`
+Current exact head: `281bbe6bb1e7b71086f94d5fc67b8d08a7de333b`
 
-That proof is intentionally component-wise:
+Current source/shared-driver loop remains green. The latest two commits after the earlier target-replay attempt explicitly repair semantic-oracle lineage:
 
-- exact Animation owner `b0771b3319b783103c8e4677d062c00419df7559`;
-- exact Rigging owner `898529f602893c8f6be179bd3e9b6821fc099904`;
-- five independent primary-branch clips;
-- `41` samples per clip / `205` target samples total;
-- unrelated branch roots remain neutral while each branch is exercised;
-- real Godot 4.7.2 target observation passes under the exact receiver/coordinate adapter;
-- simultaneous multi-branch motion is explicitly held.
+- `d73494035f695722cf74ff8063ceb5d0bfb9fa07` — preserve predecessor pose divergence as evidence;
+- `281bbe6bb1e7b71086f94d5fc67b8d08a7de333b` — treat old TA poses as transport predecessor only.
 
-The current PR head has since advanced to `05ad62cb9a7efcd55464b17b1039cc77a13a4562`; that current head includes other Technical-Art work and does not rewrite the exact historical composition domain of the retained `b83c7d...` target proof.
+The target-replay verifier no longer requires current motion to equal a predecessor TA pose oracle. It now records that the predecessor TA pose semantics are **not** inherited as current authority and rebuilds a current replay oracle from the exact current Animation/Rigging pair.
 
-Therefore the existing target PASS remains exact truth for **five one-branch-at-a-time target trajectories**, not for one simultaneous five-branch trajectory.
+This is the correct direction: the TA/Runtime/UC receiver may be reused as a transport substrate while the current semantic oracle is freshly derived from the current owner.
 
-## Evidence B — Nature Rigging + Animation create a materially new simultaneous composition subject
+## Evidence B — the missing edge has moved from oracle construction to real target execution
 
-Nature Rigging PR #14 has advanced to exact green owner `b4b480b415047fea90b4740f7702ced0dba9142d`.
+Current Animation target-replay workflow: `35320579412` on exact head `281bbe6...`.
 
-It now owns a true five-socket simultaneous kinematic composition over one shared continuous diagnostic parameter:
+The run successfully:
 
-- branch identities: `south-low / north-low / east-mid / west-high / north-top`;
-- exact command multipliers: `+1 / -1 / +1 / -1 / +1`;
-- exact shared diagnostic interval: `[-5,+5]°`;
-- all five pairwise-disjoint child partitions participate together;
-- composition-order independence is part of the Rigging evidence;
-- timing/playback, target-host, wind, continuous collision and Runtime remain held.
+- checks out the exact Animation head;
+- binds exact Animation and Rigging identities;
+- checks out the exact Technical-Art, Runtime and Universal-Creation receiver donors;
+- rebuilds the exact Technical-Art dynamic-window receiver;
+- **builds the exact current Animation target replay oracle successfully**;
+- passes the fail-closed receiver-drift / authority-inflation gate;
+- installs pinned Godot 4.7.2.
 
-Current Animation PR #22, `Animation: sample five-socket shared-driver diagnostic loop`, exact tested head `bfb66da82bc358b14e52711bbdef7b58e4c943af`, preserves the previous timing identity (`1.0 s`, `40 Hz`, `41` endpoint-inclusive samples, `u(t)=5*sin(2*pi*t)^3`) but applies it to this **new simultaneous receiver semantics**. The verifier executes all 41 samples over the actual generated source mesh with all five children active together, and retains exact fixed/pivot/rigidity/axis/order/loop checks.
+It then fails at the later step:
 
-This is the key new composition identity. The source mesh and timing family can remain familiar while the claim subject changes from `five independent component trajectories` to `one simultaneous joint-state trajectory`.
+`Exercise exact current loop through real AnimationPlayer`.
 
-Animation explicitly still holds target-engine playback, so the new composition cannot inherit Technical Art's older target PASS.
+Target validation is therefore skipped, while retained provenance is still uploaded. This is a useful typed failure: current source semantics and current-oracle construction are no longer the missing dependency; **real target execution/observation is**.
 
-## Evidence C — Map Environment #53 is correctly bound to the old component domain
+The source/shared-driver workflow `35320579469` remains green on the same exact head, so the red target workflow must not be narrated as a source-motion failure.
 
-Repository: `mike-axiom-mir/axm-map-design`
+## Evidence C — Universal Creation already has the correct neutral transport home
 
-Current Environment PR: `#53 — Environment: prove Nature branch motion fits east-rear reservation`
+Current UC main: `724dde638763253ba1d4cf93d13aaa9a4981e4bf`.
 
-Exact tested head: `23decca57561ed8b77b3fa2e4d32faf854876d06`
+The merged `src/axm_uc/rigid_scene_graph.py` contract is `axm.rigid-scene-graph/v0.1` and is intentionally neutral. Its receipt explicitly records:
 
-Its donor chain is explicit: Nature TA `b83c7d...`, Animation `b0771b...`, Rigging `898529...`, UC `5c772b65...`.
+- caller-authored node names / parents / transforms remain caller-authored;
+- UC does **not** infer domain ownership;
+- mesh/material bytes are not reauthored by the scene-graph rebind;
+- animation clips, runtime/gameplay and host visual quality are not proven by the rebind.
 
-Environment reconstructs the exact `5 x 41 = 205` **one-branch-at-a-time** target samples in the current-world reservation and proves that exact sweep fits, with retained positive separation guards and explicit failure on a contracted reservation.
+That contract is strong placement evidence: generic bounded transport/rebinding belongs in UC, while the meaning of the hierarchy, pose or motion stays with the product/domain owner.
 
-Critically, PR #53 already states that **simultaneous multi-branch motion is not claimed**, and that newer shared-driver Rigging/VFX/Runtime lanes are not silently substituted. Its PASS is therefore not invalidated by the new Nature composition. It remains truthful for the old target-domain identity.
+Current open UC PR #209 is an unrelated Physics successor lane (`radial-envelope direction-scale representation invariance`) based on this current main. No new UC lane is justified by the Nature failure.
 
-What changes is the dependency map: a simultaneous Environment claim now has one missing upstream edge.
+## Independent repeat — Object already consumes neutral UC transport without surrendering product semantics
 
-## Independent repeat — Map #24 already requires explicit composition evidence
+Repository: `mike-axiom-mir/axm-object-design`
 
-Map Environment PR #24 provides an independent composition precedent outside the Nature branch mechanism. It began from two separately proven receiving states: exact Object source replacement inside the baseline Weather sequence, and exact Weather variant inside the world that still carried the Object proxy.
+Object Technical Art PR #16 uses the merged UC rigid-scene-graph capability to transport source-authored rigid hierarchy into the target representation while Object retains the authored keeper/lid/lever semantics.
 
-The PR explicitly refused to infer that both changes coexist correctly merely because each sibling state was green. It created a fresh combined-world composition proof, exact composition digest and target-host run.
+This is materially independent from Nature's shared-driver motion, but it supports the same placement rule:
 
-This is materially different execution from Nature's shared-driver kinematics, but it supports the same evidence rule: **component/sibling PASSes are inputs to a composition claim, not substitutes for the composition claim.**
+**generic transport may be shared; domain meaning must not silently migrate with the carrier.**
+
+Cartography returned this as evidence only; no Object implementation or ownership was moved.
+
+## Coordination correction from the previous activation
+
+The prior dependency map said a simultaneous Map Environment successor would follow a fresh TA target rebind. Since then, Map Environment #53 has already advanced its **source-space** simultaneous reservation proof: all 41 simultaneous source-motion samples fit the existing east-rear reservation with positive margin.
+
+That does not remove the target-host gap. It narrows it:
+
+- source-space simultaneous Environment fit now exists;
+- current Animation semantic oracle construction now exists;
+- real current Animation target execution still fails;
+- therefore no target-host Environment/VFX successor may inherit a PASS yet.
+
+Nature VFX #23 was returned this exact update: its target-host HOLD remains correct, but the upstream failure is no longer oracle construction; it is real AnimationPlayer execution.
 
 ## Cross-repo capability map
 
 Reusable evidence shape:
 
-`component_claim_identity[] + composition_subject_identity + composition_operator_identity + activation_relation_identity + joint_state_domain_identity + optional ordering_or_commutativity_evidence_identity + composition_precondition_identity[] -> composition_evidence_state -> downstream transfer/rebind state -> exact composed claim + explicit non-claims`.
+`semantic_authority_identity + transport_substrate_identity + transport_contract_identity + predecessor_oracle_identity? + current_oracle_identity + oracle_lineage_relation -> transport_semantic_binding_state -> target_execution_receipt_identity -> downstream claim/adoption state`.
 
 Suggested states:
 
-- `COMPONENT_ONLY` — component/sibling receipts exist, but the combined subject is not observed;
-- `COMPOSITION_REBIND_REQUIRED` — a composition identity changed and a downstream consumer is still bound to the predecessor relation;
-- `COMPOSED_OBSERVED` — exact combined subject/domain was freshly exercised;
-- `COMPOSITION_EQUIVALENCE_PROVEN` — a bounded property-specific argument establishes that an older/newer composition relation is equivalent for that exact claim; this must never be assumed by matching component identities alone.
+- `TRANSPORT_REUSABLE_SEMANTICS_REBIND_REQUIRED` — carrier is reusable, current meaning not yet rebound;
+- `PREDECESSOR_ORACLE_ONLY` — historical expected values retained, not current authority;
+- `TRANSPORT_AND_CURRENT_SEMANTICS_BOUND` — exact current owner and freshly derived oracle are bound to the carrier;
+- `TARGET_EXECUTION_FAILED` — binding/oracle is current but host execution fails or cannot complete;
+- `TARGET_OBSERVED` — exact current binding is freshly exercised in the host;
+- `EQUIVALENCE_PROVEN_FOR_PROPERTY` — a bounded property-specific proof allows an older/newer oracle or transport relation to transfer for that property only.
 
 Core non-transfer rules:
 
-1. `forall i: PASS(component_i)` does not imply `PASS(compose(component_i))` without separate compositionality evidence for the exact property/domain.
-2. One-at-a-time component slices are not silently equivalent to a simultaneous joint-state trajectory.
-3. A new composition identity does not retroactively invalidate historical component receipts; it creates typed downstream rebind requirements.
-4. Matching geometry, branch IDs or timing does not erase a changed activation relation.
-5. Ordering/commutativity evidence, when relevant, belongs to the composition relation and must not be inferred from per-component passes.
-6. Downstream consumers may remain valid on predecessor composition domains while a successor domain is partially migrated.
-7. Composition evidence does not automatically transfer target-host, collision, Runtime/device, Art/QA, gameplay, CANON or production authority.
-
-## Missing dependency / bounded proposal
-
-The smallest evidence-linked dependency sequence is now:
-
-`Nature Rigging simultaneous owner b4b480b4... -> Nature Animation simultaneous sampled motion bfb66da8... -> fresh Nature Technical Art simultaneous target receiver/rebind -> fresh Map Environment reservation fit against that exact target receiver`.
-
-Technical Art should reuse the existing Nature-local target/UC machinery where valid, but must bind the exact new Rigging/Animation composition identity and freshly observe the joint state in the real target. No UC core change is implied.
-
-Only after that exact target receiver exists can Map truthfully decide whether its existing reservation remains valid for the simultaneous composition. Environment #53 remains an exact predecessor-domain PASS and should not be rewritten.
+1. Stable receiver/adapter code does not make a predecessor semantic oracle current authority.
+2. Fresh current-oracle construction does not imply target execution success.
+3. Target execution failure does not retroactively invalidate green source semantics or a correctly bounded transport contract.
+4. Generic UC transport may preserve caller-authored hierarchy/transforms without owning why those relations exist.
+5. Matching geometry, node names, timing family, receiver window or adapter code is insufficient to prove semantic-authority continuity.
+6. A newer Rigging hierarchy owner (currently `6cf64925f0ea00737e4d3f2d4f15979c773f309d`) remains a separate future semantic dependency until a consumer explicitly binds it; transport continuity does not auto-adopt it.
+7. None of this transfers Art/QA, target-device, gameplay, CANON, product adoption or merge authority.
 
 ## Placement action — Profession Fabric #38
 
-Refined existing experimental Profession Fabric issue #38 with comment `5726417880`.
+Refined existing experimental Profession Fabric issue #38 with comment `5727049382`.
 
-The refinement adds **composition-domain identity / componentwise non-transfer** vocabulary only. It does not make Profession Fabric a composition engine, Rigging system, scheduler, target-host adapter, world-fit solver or acceptance authority.
+The refinement adds evidence/provenance vocabulary for:
 
-This composes cleanly with earlier PF #38 dependency-DAG vocabulary: a consumer edge must record not only which producer identity it consumed, but also which **composition relation / activation domain** that identity represented when the claim was measured.
+- `semantic_authority_identity`;
+- `transport_substrate_identity`;
+- `transport_contract_identity`;
+- predecessor/current oracle identity and lineage relation;
+- `transport_semantic_binding_state`;
+- exact target-execution receipt identity.
 
-PF PR #37 remains the distinct open/draft bounded-variation evidence-procedure experiment at exact head `ddb71acd9c7b463088d25385d528936a074cca3c`. It does not implement this composition scope, so no overlapping PF implementation lane was opened.
+This is vocabulary only. PF does not become a receiver, scene-graph engine, AnimationPlayer harness, motion solver or acceptance authority.
 
-## Why no Universal Creation lane was opened
+No overlapping Profession Fabric implementation lane was opened.
 
-Current Universal Creation `main` is `5c5d2cfdc3aa4e9462fd4d5ec5bc7874f12674a4`, the merge of PR #207 adding bounded radial-envelope positive-scale covariance evidence.
+## Why no new Universal Creation lane was opened
 
-Current open UC PR #208 is a successor Physics lane for radial-envelope interval-inclusion monotonicity. Open UC #151/#153 remain the separate animated-boat and bounded unwrap/bake lanes. None overlaps this Cartography scope.
+The current Nature failure is not evidence of a missing universal scene-graph feature. UC already owns a bounded neutral rigid-scene-graph transport contract that leaves semantic ownership with the caller.
 
-Universal Creation already provides generic rigid scene-graph and publication machinery used by Technical Art, but the repeated evidence does not justify a universal composition certifier:
+Nature's remaining problem is product integration/execution evidence over an exact current Animation/Rigging semantic pair inside the real host. Extracting a new universal “semantic rebind engine” from one failing consumer would outrun the evidence and risk erasing domain assumptions.
 
-- Nature's executable relation is shared-driver five-socket kinematics plus Animation sampling;
-- Map #24's executable relation is combined receiving-world state;
-- Map #53's current gap is downstream world-envelope observation after an upstream target rebind.
-
-Those mechanisms are materially different. The reusable layer currently stops at evidence/provenance vocabulary in PF #38 and an explicit dependency map.
-
-The shared-capability execution registry was checked before placement. Retained UC #192 and #199 records are both closed/merged; **no active shared implementation claim overlaps this scope**.
+The shared-capability execution registry was checked before placement. Retained UC #192 and #199 are closed/merged and there is **no active shared implementation claim overlapping this scope**.
 
 ## Product returns
 
 Evidence-only feedback was returned without changing product code:
 
-- Profession Fabric #38 comment `5726417880`;
-- Nature Animation PR #22 comment `5726422217`;
-- Nature Technical Art PR #3 comment `5726423755`;
-- Map Environment PR #53 comment `5726420192`.
+- Profession Fabric #38 comment `5727049382`;
+- Nature Animation PR #22 comment `5727051769`;
+- Nature Technical Art PR #3 comment `5727053991`;
+- Object Technical Art PR #16 comment `5727056355`;
+- Nature VFX PR #23 dependency update `5727062060`.
 
-Each return preserves the predecessor PASSes and marks only the new composition/rebind boundary. No product-local implementation, threshold, semantic owner or acceptance result was moved.
+No product-local implementation, threshold, semantic owner or acceptance result was moved.
 
 ## Placement decision
 
 | Layer | Correct home | Decision |
 |---|---|---|
-| simultaneous five-socket kinematics | Nature Rigging | remains product/domain-owned |
-| simultaneous timing / sampled motion | Nature Animation | remains product/domain-owned |
-| target transport / receiver observation | Nature Technical Art | fresh successor rebind required on existing lane; no automatic transfer |
-| current-world reservation composition | Map Environment | predecessor-domain PASS preserved; simultaneous successor rerun waits on TA |
-| composition-domain / componentwise-nontransfer evidence vocabulary | Profession Fabric #38 | refined by comment only |
-| generic universal composition certifier | Universal Creation | **not justified**; executable mechanisms differ |
+| current Nature kinematic/motion meaning | Nature Rigging + Animation | remains domain-owned |
+| target receiver / real-host execution | Nature Technical Art / Animation integration lane | current oracle binding improved; target execution still red |
+| neutral rigid scene-graph transport | Universal Creation | existing home confirmed; no new UC lane |
+| transport-vs-semantic-authority evidence vocabulary | Profession Fabric #38 | refined by comment only |
+| source-space simultaneous reservation fit | Map Environment | successor proof already exists; target-host transfer still held |
+| VFX target-host successor | Nature VFX | HOLD remains correct; dependency reason updated |
 | duplicate-lane prevention | `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` | checked; no active overlap |
 | cross-repo coordination/status | `axm-create-me` | this status only |
 
@@ -181,29 +185,28 @@ Each return preserves the predecessor PASSes and marks only the new composition/
 
 This activation does **not** establish:
 
-- that the new simultaneous Nature composition already passes Godot/target-host playback;
-- that Environment's existing east-rear reservation fits the simultaneous trajectory;
-- continuous collision/self-intersection/clearance freedom for the simultaneous motion;
-- physical wind/biomechanics or natural timing;
+- that the current simultaneous Nature motion passes real Godot AnimationPlayer playback;
+- that the newer Rigging hierarchy `6cf64925...` has been consumed by Animation or Technical Art;
+- that source-space Environment fit equals target-host Environment fit;
+- continuous target-host collision/clearance freedom;
 - Runtime controller or target-device performance;
 - Art Direction / independent Visual QA acceptance;
-- a universal composition algebra or certifier;
-- automatic downstream rebinding;
+- a universal semantic rebind/oracle engine;
 - PF implementation or profession promotion;
-- UC implementation;
-- product source-authority transfer;
+- new UC implementation;
+- automatic downstream rebinding;
 - CANON;
 - production/game readiness;
 - specialist or merge authority.
 
 ## Four-root check
 
-**Truth:** the old one-at-a-time TA/Map PASSes remain exact truth for their declared domains, while the new simultaneous Animation subject is named as a different claim rather than being silently smuggled into those receipts.
+**Truth:** the exact current oracle-build success and exact real-host execution failure are both preserved; neither is inflated into the other.
 
-**Agency / non-domination:** Rigging, Animation, Technical Art and Environment keep their distinct semantic and acceptance authority; Cartography identifies dependencies but does not force adoption or implementation.
+**Agency / non-domination:** Rigging/Animation retain semantic authority, TA retains receiving/integration authority, UC remains neutral transport, PF remains evidence vocabulary, and Cartography does not seize product decisions.
 
-**Continuity:** old and new owner heads, activation relations, target receipts and downstream state remain separately addressable. New composition evidence creates rebind edges instead of erasing predecessor history.
+**Continuity:** predecessor TA pose semantics remain historical evidence instead of being silently rewritten as current authority; current semantic owners, transport donors, oracle lineage and execution receipts remain separately addressable.
 
-**Wisdom before speed:** the repeated rule is strong enough to refine PF evidence vocabulary and dependency mapping, but not to invent a universal UC composition engine or to bypass the missing Technical Art target step.
+**Wisdom before speed:** existing neutral UC machinery is reused conceptually where its contract fits; no new shared engine is invented merely because one current target execution is red.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the gate.
