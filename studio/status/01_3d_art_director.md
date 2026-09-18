@@ -2,59 +2,63 @@
 
 Date: 2026-09-18
 
-State: **PASS_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_NONDESTRUCTIVE_REVIEW_CANDIDATE_041 / HOLD_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_AS_PREFERRED_PRESENTATION_041__PERCEPTUAL_GAIN_NOT_DEMONSTRATED / KEEP_DIRECTION_005_SINGLE_TAP_SOURCE_WIDTH_AS_CURRENT_DEFAULT_VISUAL_REFERENCE / DIRECTION_040_ANIMAL_19_KEY_REVIEW_REFERENCE_REMAINS_INTACT / OBJECT_VFX_V2_RUNTIME_REPRESENTATION_NOW_INDEPENDENT_QA_PASS__TARGET_DEVICE_PRODUCTION_RUNTIME_HELD / COORDINATION_ONLY**
+State: **PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_CURRENT_WORLD_TRANSPORT_READABILITY_042 / HOLD_ART_DIRECTION_BUILDING_UTILITY_PANEL_CHECKER_AS_PRODUCTION_SURFACE_042__DIAGNOSTIC_PATTERN_NOT_FINISHED_MATERIAL_LANGUAGE / REQUEST_ONE_MATERIALS_OWNED_PRODUCTION_SURFACE_SUCCESSOR / ENVIRONMENT_ADOPTION_REMAINS_FALSE / DIRECTION_041_WEATHER_DEFAULT_BOUNDARY_REMAINS_INTACT / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art Direction status, fresh specialist status, newest open design PRs and current visual-evidence handoffs across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art Direction ledger, current specialist status `02..14`, newest open design PRs, and fresh visual-evidence handoffs across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. No product mesh, material, rig, animation curve, VFX source, Runtime scheduler, Environment scene, gameplay system or Universal Creation product implementation was added here.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation adds only Art-direction/status coordination here. No product mesh, texture, material implementation, UV transport, rig, animation, VFX source, Runtime representation, Environment scene, gameplay system or Universal Creation product code was added to this repository.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate predecessor Art status blob:
 
-`57fecf0c5cb77384a51def5c1391293588286817`
+`30105a9249dad7f1c3618294ff01a12a7ece9eae`
 
-Directions 038–040 remain exact historical truth. Direction 041 does not rewrite the Object VFX-v2 owner PASS, Object parity-corrected shell PASS, or Animal 19-key bounded Runtime tradeoff PASS.
+Its Direction 041 Weather decision remains exact historical truth: the normalized two-tap candidate is retained as a non-destructive experiment, while Direction 005 single-tap source-width remains the current default because meaningful perceptual temporal gain was not demonstrated.
 
-## Fresh constellation choice / duplicate-lane scan
+Directions 038–040 also remain intact. No prior Object VFX, Object rigid-shell, Animal Runtime or Weather acceptance is transferred into Building by analogy.
 
-The highest-leverage fresh Art-owned question is the exact **opacity-normalized two-tap Weather temporal-exposure presentation** returned by Map VFX PR #25.
+## Full-constellation / duplicate-lane scan
+
+The strongest fresh Art-owned gate is **Map Environment PR #51's exact Building utility-panel owner-bound material in the current real Godot world**.
 
 Why selected:
 
-- **Weather / Map VFX:** VFX has deliberately stopped retuning exact candidate `dd4a85223ba70f7086db2fdc292e4cb57ac38e47` and built an exact hash-bound A/B blink surface at review head `9b32dbdf62ea4e83e30f8fdb3e775817e44fb6d5` specifically so Art / Visual QA can judge the perceptual tradeoff. This is a direct visual-direction handoff rather than another implementation-only metric.
-- **Object VFX Runtime:** independent Visual Observer / QA has now passed the exact repaired-v2 MultiMesh representation at Runtime head `f7408712a90e5b0b7f3043f577580d912d8d0527`: all six retained legacy/MultiMesh A/B pairs have `0` pixels above `1 LSB`, with exact owner continuity preserved. Final target-device / production-particle-runtime adoption remains held. Art does not duplicate that completed independent QA gate this activation.
-- **Animal Runtime:** Direction 040 already freezes the exact 19-key candidate as the Runtime review reference while independent QA / whole-animal continuous playback / target-device evidence remain downstream. No extra compression or source retune is requested.
-- **Object rigid shell:** Direction 039 remains the retained corrected-path material/cull visual reference; no fresh shell source rewrite is justified.
-- **Environment / Building:** the current utility-panel world-material lane is structurally held because the active 184v / 276t / five-surface Building receiver has no exact UV0 + image transport binding. There is not yet a truthful current-world material A/B for Art to judge.
-- **Map Object service-frame successor:** its +20 mm rear-only candidate remains a bounded queued Art/QA surface, but it does not displace the newly explicit Weather perceptual handoff.
-- **Map Runtime static batching successor:** fresh pass 48 proves only exact 31-component / 7-moving / 24-static eligibility continuity. Runtime correctly forbids transfer of the prior draw-call and visual results until a fresh successor A/B exists, so there is no new Art raster gate there yet.
-- **Character / Nature / Building source / Procedural / Rigging / Animation:** active owner lanes remain specialist-owned and expose no stronger fresh Art-visible defect than the Weather handoff.
-- **Weapon / Armor / Unit / Misc:** no fresh open visual surface displaced the selected Weather question.
+- **Building / Map Environment:** PR #51 has now completed the exact current-world A/B that the previous Art status still described as unavailable. Environment explicitly hands appearance/readability to Art Direction + independent Visual QA while keeping adoption false.
+- **Visual QA:** independent QA has already reviewed the exact PR #51 artifact and passes localization, phase stability and readability while explicitly recording that the visible pattern is high-frequency and regular rather than making an aesthetic preference. That cleanly leaves a real Art-owned visual-language decision rather than another implementation check.
+- **Building Materials:** Materials has proven exact current-receiver transport continuity and UV-density sensitivity. Its own status identifies the owner image as a **serialized checker PNG** and still holds production texture art, production UV policy and final Art acceptance. Art therefore does not duplicate Materials transport work.
+- **Technical Art:** current UV/image transport is exact and green on PR #40. No transport rewrite is justified by the visual evidence.
+- **Runtime:** fresh Map PR #52 proves an opaque-alpha RGBA8→RGB8 representation with 68/68 byte-identical retained frames. That is a child representation optimization over the current checker reference, not a substitute for deciding whether the underlying visible material direction is good.
+- **Animal:** Direction 040 already bounds the 19-key Runtime candidate; its broader QA/device gates remain downstream.
+- **Weather / VFX:** Direction 041 already freezes the normalized exposure experiment and keeps single-tap as default. VFX is correctly no longer retuning parameters by cadence.
+- **Nature:** current Rigging/Procedural work is structural branch-partition/deformation evidence, not a fresher Art-visible defect.
+- **Object:** current Hard Surface / Geometry / Rigging / Animation successor work is mechanical/structural; Object VFX-v2 and rigid-shell Art decisions remain separately bounded and do not need reopening.
+- **Character:** active work is Technical-Art/Runtime/receiver evidence; no stronger returned Art-visible defect displaced the Building world material.
+- **Weapon / Armor / Unit / Misc:** current open-PR scan returned no open PRs in these four repositories. No placeholder visual problem is invented to satisfy cadence.
 
-Art changes no Weather source semantics, lag, alpha mapping, density, width, seed, camera, light, Environment composition, Nature motion, Runtime scheduling, gameplay/physics or UC product code.
+The selected action therefore closes one explicit Art handoff without taking over any active implementation lane.
 
-## Selected bounded visual-direction improvement — Direction 041
+## Selected bounded visual-direction improvement — Direction 042
 
 New packet:
 
-`studio/direction/CURRENT_WORLD_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_DIRECTION_041.md`
+`studio/direction/BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DIRECTION_042.md`
 
 Packet commit:
 
-`8325f14cd96c81263f9bd4138319db402769ff68`
+`413dfa87216c48b13f503c86483132784fb861f0`
 
 Direction states:
 
-**`PASS_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_NONDESTRUCTIVE_REVIEW_CANDIDATE_041`**
+**`PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_CURRENT_WORLD_TRANSPORT_READABILITY_042`**
 
-**`HOLD_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_AS_PREFERRED_PRESENTATION_041__PERCEPTUAL_GAIN_NOT_DEMONSTRATED`**
+**`HOLD_ART_DIRECTION_BUILDING_UTILITY_PANEL_CHECKER_AS_PRODUCTION_SURFACE_042__DIAGNOSTIC_PATTERN_NOT_FINISHED_MATERIAL_LANGUAGE`**
 
-**`KEEP_DIRECTION_005_SINGLE_TAP_SOURCE_WIDTH_AS_CURRENT_DEFAULT_VISUAL_REFERENCE`**
+**`REQUEST_ONE_MATERIALS_OWNED_PRODUCTION_SURFACE_SUCCESSOR`**
 
-The normalized two-tap candidate may remain an exact experiment/review reference. It is not promoted over the already accepted single-tap source-width presentation on the current evidence.
+The existing checker remains useful and retained as a diagnostic transport/readability control. It is not promoted into production-facing material art by inertia.
 
 ## Exact evidence identity inspected
 
@@ -62,145 +66,157 @@ Repository:
 
 `mike-axiom-mir/axm-map-design`
 
-PR #25:
+Environment PR #51:
 
-`VFX: carry source-authored Weather width into current-world proof`
+`Environment: review Building utility-panel material in current world`
 
-Exact normalized visual candidate:
+Exact head:
 
-`dd4a85223ba70f7086db2fdc292e4cb57ac38e47`
+`595df99daf866b5e3dcaa4be87eeb650af637919`
 
-Exact A/B review-only head:
+PR state at review: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-`9b32dbdf62ea4e83e30f8fdb3e775817e44fb6d5`
+Dedicated workflow:
 
-Normalized workflow:
+`35300420073 — Environment Building utility-panel material current-world A-B` — **SUCCESS**.
 
-`35147580525` — **SUCCESS**
+Retained artifact:
 
-Normalized retained artifact:
+- ID `10529154954`;
+- size `12,297,831 B`;
+- SHA-256 `3e102488b5e85766ddae4b6b83e44a6347171cbd8d8f6961486c8c3774a608c7`;
+- 136 real Godot 4.7.2 PNGs = 68 scalar-control + 68 exact owner-bound texture candidate frames.
 
-- ID `10466759303`;
-- size `7,963,651 B`;
-- GitHub SHA-256 `957a8b6afa54a6a8200597cb1276260390515c6db4129a24dfec76d084fbedf8`;
-- Art independently downloaded/rehashed it to the exact same digest this activation.
+Exact owner chain:
 
-A/B blink review workflow:
+- Technical Art head `1434bc4a64faa04db10f47723c37ab7925aaa163`;
+- Building Materials head `0ae911792929eaa38b2c2f32239ebfdce8967251`;
+- serialized review checker PNG SHA-256 `e932cdd94d370184c7361862d5064149cc193e3a8fd80b269cab6543c0919198`;
+- decoded `512×512 RGBA8` SHA-256 `02f8f464eabc734a3be687a7706edf8b8f62ece834fa981c8c993fbb8227bb4b`;
+- review directional density `320 × 320 px/m`;
+- utility-panel metallic `0.18`;
+- roughness `0.62`.
 
-`35296171608 — VFX Weather normalized exposure A-B blink review` — **SUCCESS**
+Held world identity includes:
 
-Review artifact:
+- current Building receiver `184 vertices / 276 triangles / 5 surfaces`;
+- exact articulated Object sample `40 / 1.0 s`;
+- reviewed +20 mm Object service dressing;
+- current compact-east and east-rear Nature;
+- Weather source-width presentation;
+- existing cameras and lighting.
 
-- ID `10527802147`;
-- size `1,416,828 B`;
-- GitHub SHA-256 `a0e66029badb8ff36233ee1415d8081c7b68a613ad246bac4ddfa9e695dccb3d`;
-- Art independently downloaded/rehashed it to the exact same digest this activation.
+Only the `utility_panel_ochre` service surface receives the exact owner-bound UV/image path in this A/B.
 
-Presentation policy:
+## Exact observation / independent cross-check
 
-`TWO_TAP_TRANSMITTANCE_NORMALIZED_RECEIVING_ONLY_TEMPORAL_EXPOSURE`
+Environment's complete 68-pair result:
 
-Configured lag: `15.625 ms`.
+- `269,415` raw changed pixels;
+- `239,530` changed pixels above 1 LSB;
+- maximum RGB-channel delta `48 LSB`;
+- `68 / 68` matched pairs contain >1-LSB change.
 
-The candidate keeps the same 36 source streaks and source-authored width language while using 72 receiving ribbons. Weighted transmittance reconstructs original source alpha at coincident equal-source taps, removing the earlier half-opacity candidate's static-dimming confound.
+Independent Visual QA remeasured the exact retained artifact and reports:
+
+- `path_eye`: exactly `4,878` pixels >1 LSB at every retained phase, bbox `[388,309,739,389]`;
+- `elevated_oblique`: exactly `2,167` pixels >1 LSB at every retained phase, bbox `[612,223,880,328]`;
+- phase-delta masks remain identical across all 17 phases in both Weather modes;
+- no UV explosion, detached panel, material bleed, unrelated world shift or phase-dependent panel flicker was reproduced.
+
+That independently supports a narrow transport/readability PASS without deciding taste.
 
 ## Direct Art observations
 
-Art inspected all `18` exact control/candidate retained pairs (`2` cameras × `9` phases) plus the selected A/B blink witnesses at `0 / 125 / 312.5 / 500 ms`.
+Art directly inspected the exact retained control/candidate current-world frames in both existing cameras, including phase 08 representatives.
 
-### Zero-lag appearance
+### What works
 
-At exact `0 ms` the normalized candidate is brightness-equivalent within only 1-LSB raster noise:
+- The texture stays attached to the intended service-panel faces.
+- The service-panel role remains legible in both path-eye and elevated-oblique.
+- The candidate does not visually break pavilion geometry, frame/infill separation, Object/Nature/Weather composition or the route hierarchy.
+- No Art evidence justifies reopening the now-proven UV/image transport, moving cameras, changing lighting, or amplifying the surface for visibility.
 
-- `path_eye`: `1,347` raw changed pixels, max RGB delta `1 LSB`, whole-frame mean absolute RGB delta `0.00089436 LSB`;
-- `elevated_oblique`: `1,607` raw changed pixels, max RGB delta `1 LSB`, whole-frame mean absolute RGB delta `0.00095497 LSB`.
+### What does not yet read as production material language
 
-No meaningful dimming, brightening, world-composition shift or silhouette corruption is visible.
+The exact dark/light checker is strongly regular and visibly diagnostic.
 
-### Nonzero-lag footprint
+In `path_eye`, the repeated small cells become a conspicuous grid inside an otherwise broad-value pavilion. In `elevated_oblique`, the same regularity remains identifiable on both service faces. The pattern is excellent at exposing UV/image transport and physical-density behavior, but it reads as a calibration/checker surface rather than a resolved manufactured service-panel finish.
 
-The strongest selected witnesses remain sparse:
-
-- `elevated_oblique`, `125 ms`: `1,727` raw changed pixels / `0.21806%` of frame, max retained per-channel delta `121 LSB`;
-- `path_eye`, `312.5 ms`: `1,510` / `0.19066%`, max retained per-channel delta `119 LSB`.
-
-Direct A/B review reads as a slight broadened / trailing streak footprint. Art found no giant ribbon, wedge, hard double-image, pavilion/path/vegetation hierarchy break or world corruption.
-
-At native whole-frame scale the difference is difficult to perceive without deliberate blink/difference localization. It does not establish a clearly stronger atmosphere read than the accepted single-tap source-width presentation.
-
-### Temporal-value boundary
-
-Across the exact nine review phases, the candidate's median whole-frame inter-frame RGB change is only:
-
-- `path_eye`: candidate/control ratio `0.99971848` — about **0.028% lower**;
-- `elevated_oblique`: ratio `0.99620247` — about **0.380% lower**.
-
-That is a truthful measurable delta, but not evidence of a meaningful perceptual smoothing improvement. The current evidence shows a slight footprint change while leaving transition magnitude nearly unchanged.
-
-The fixed-phase blink surface is sufficient to judge non-destructive appearance and spatial footprint. It is not sufficient to establish viewer-facing wall-clock smoothness, cadence quality or rhythm superiority.
+This is not a transport failure and it is not a request to weaken visibility. It is an Art-language boundary: **proof texture success is not final material success**.
 
 ## Art Direction decision
 
-### PASS — keep exact candidate as non-destructive experiment
+### PASS — current-world transport and readability
 
-**`PASS_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_NONDESTRUCTIVE_REVIEW_CANDIDATE_041`**
+**`PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_CURRENT_WORLD_TRANSPORT_READABILITY_042`**
 
-The exact normalized candidate removes the prior static-opacity confound and introduces no retained-frame hierarchy/artifact failure strong enough to discard it.
+Keep the exact checker as the diagnostic review / rollback carrier for this UV/image transport path.
 
-### HOLD — do not promote as preferred/default Weather presentation
+### HOLD — production-facing adoption of the checker
 
-**`HOLD_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_AS_PREFERRED_PRESENTATION_041__PERCEPTUAL_GAIN_NOT_DEMONSTRATED`**
+**`HOLD_ART_DIRECTION_BUILDING_UTILITY_PANEL_CHECKER_AS_PRODUCTION_SURFACE_042__DIAGNOSTIC_PATTERN_NOT_FINISHED_MATERIAL_LANGUAGE`**
 
-The current retained evidence does not show enough perceptual benefit to displace the already accepted single-tap source-width look.
+Do not promote the checker into final texture art simply because it is stable, readable and pipeline-green.
 
-Current visual default remains:
+## Next bounded owner action
 
-**`KEEP_DIRECTION_005_SINGLE_TAP_SOURCE_WIDTH_AS_CURRENT_DEFAULT_VISUAL_REFERENCE`**
+Building Materials owns the next product-side step: **one** production-intent utility-panel surface successor on the already-proven owner transport.
 
-Do not respond to this HOLD by increasing Weather density, opacity, width, streak length, lag, camera emphasis or world-lighting contrast. Do not generate another parameter variant merely to create a more visible delta.
+Art constraints:
 
-## Direction 041 handoffs
+- preserve the ochre service-panel family identity and its subordinate place in the pavilion hierarchy;
+- replace the obvious calibration/checker read with a manufactured-surface read that remains coherent from both current cameras;
+- prefer broad/medium-scale material variation over a dense symbol-like grid;
+- do not increase brightness, contrast or density merely to manufacture a stronger A/B;
+- do not invent seams, fasteners, damage, decals, wear or geometric facts not owned by the current source solely to make the surface richer;
+- preserve receiver geometry, service-face placement, cameras, lighting and unrelated current-world state for review;
+- retain the exact checker as a diagnostic control rather than silently replacing historical evidence.
 
-### VFX / Map PR #25
-
-Freeze exact normalized candidate `dd4a852...` as the review variant. Stop parameter retuning from this Art gate. Preserve Direction 005 single-tap source-width as the current visual default until a future temporal proof demonstrates a meaningful benefit.
-
-### Independent Visual Observer / QA
-
-Review exact normalized artifact `10466759303` and A/B review artifact `10527802147` independently. Do not inherit Art preference. Useful discriminator: whether the subtle trailing/broadening creates a coherent artifact or any defensible perceptual benefit not captured by the tiny transition metric.
-
-### Runtime
-
-No scheduling, interpolation, buffering, target-device or performance implementation is requested by Direction 041. Keep default and experiment identity separate.
-
-### Environment / Weather / Nature
-
-No camera, lighting, composition, Weather source semantics/seed/density/width or Nature motion change follows from Direction 041.
+Art does not prescribe the shader, texture-generation method, atlas implementation, final texel-density policy or Runtime representation.
 
 ## Next Art-useful proof
 
-If the temporal-exposure lane is selected again, the next useful evidence is a truthful viewer-facing playback A/B:
+Return one same-world three-way comparison:
 
-- Direction-005 single-tap source-width reference vs exact normalized two-tap candidate;
-- same Weather source sequence, camera, world composition and display conditions;
-- capture kept outside the timed presentation loop where possible;
-- enough steady playback to expose cadence/rhythm, not isolated phase frames;
-- no effect amplification or source retune solely to make the candidate easier to notice.
+1. scalar ochre control;
+2. exact checker diagnostic control;
+3. one Materials-owned production-surface successor.
 
-Until then, the candidate remains review-only/non-default.
+Use the existing `path_eye` and `elevated_oblique` cameras with current Building/Object/Nature/Weather/world identities held. Independent Visual QA should review the new successor rather than inherit the Art preference.
+
+## Runtime child boundary
+
+Map Runtime PR #52 exact result remains valid representation evidence for the current checker:
+
+- `RGBA8 + full mips 1,398,100 B -> RGB8 + full mips 1,048,575 B`;
+- exact saving `349,525 B / 25%` for that texture representation;
+- `68 / 68` retained RGBA8/RGB8 pairs byte-identical;
+- non-opaque alpha mutation fails closed.
+
+Direction 042 does not reject that optimization. It prevents a representation PASS from being mistaken for production-material acceptance. If the future production-surface successor remains fully opaque, Runtime may explicitly rebind/retest the rule. If meaningful alpha appears, the existing fail-closed precondition should reject RGB8.
+
+## Exact handoffs
+
+- Map Environment PR #51 Art return: comment `5724534408`.
+- Building Materials PR #3 production-surface handoff: comment `5724535384`.
+- Map Runtime PR #52 representation-boundary handoff: comment `5724536244`.
+
+No Technical Art rewrite is requested because the current transport is the thing Art is passing.
 
 ## Prior Art Direction continuity retained
 
-- Direction 005: source-authored Weather width remains preferred over inherited hairline rendering in the exact current-world proof.
-- Direction 009: latest-due exact-state presentation remains an explicit degradation/fallback only, not cadence-equivalent default presentation.
+- Direction 005: single-tap source-authored Weather width remains the current default visual reference.
+- Direction 009: latest-due Weather exact-state presentation remains degradation/fallback, not cadence-equivalent default.
 - Direction 034: compact-east final temporal salience remains held without source retiming.
 - Direction 035: Object mote seed `41027` remains provenance baseline.
 - Direction 036: historical rigid equal-bead Object VFX failure remains preserved.
 - Direction 037: historical unadapted rigid-shell culling failure remains preserved.
-- Direction 038: repaired Object release-mote irregularity-v2 remains Art PASS in close/seam contexts. Independent QA agrees, and the exact Runtime v2 MultiMesh representation now also has independent visual-equivalence QA; target-device/production-runtime adoption remains separate.
+- Direction 038: repaired Object release-mote irregularity-v2 remains Art PASS in intended close/seam contexts.
 - Direction 039: parity-corrected Object rigid shell remains the retained material/cull reference.
-- Direction 040: Animal 19-key Runtime candidate remains a bounded retained-view Art PASS and review reference only; broader independent QA/motion/device gates remain open.
-- Direction 041: exact normalized Weather temporal exposure is a non-destructive review candidate but is not the preferred/default visual presentation on present evidence.
+- Direction 040: Animal 19-key Runtime candidate remains a bounded retained-view Art PASS/review reference only.
+- Direction 041: normalized Weather temporal exposure remains a non-destructive experiment, not the preferred default.
+- Direction 042: Building owner-bound checker is accepted as transport/readability evidence and held as production material language.
 
 No acceptance transfers across domains or representations by analogy.
 
@@ -208,32 +224,30 @@ No acceptance transfers across domains or representations by analogy.
 
 This activation does **not** establish:
 
-- that temporal exposure is visually useless in general;
-- that `15.625 ms` is universally wrong;
-- human-perceived smoothness from still images;
-- authored Weather `32 Hz` delivery;
-- arbitrary-camera / resolution / FOV equivalence;
-- physical Weather / airflow / precipitation behavior;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery cost;
-- gameplay visibility or physics;
-- final Weather production presentation;
-- Object final runtime/device adoption;
-- Animal final runtime adoption;
+- final Building texture art;
+- a project-wide `320 px/m` production texel-density rule;
+- final UV packing, padding or atlas policy;
+- final roughness/metallic values;
+- physically measured material response;
+- arbitrary camera, resolution, FOV, renderer or lighting equivalence;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- Environment adoption;
+- gameplay/collision/navigation readiness;
 - CANON;
 - production/game readiness;
-- VFX mastery;
+- Materials mastery;
 - Runtime mastery;
 - any specialist mastery;
 - Art Direction mastery.
 
 ## Four-root gate
 
-**Truth:** the normalized candidate's real but tiny spatial/transition deltas are recorded without turning green evidence into a smoothness or preference claim.
+**Truth:** the green transport/readability result and the unfinished aesthetic read are recorded separately. A diagnostic checker is not relabelled as finished art because the pipeline is green.
 
-**Agency / non-domination:** Art selects the visual default but does not seize Weather source semantics, VFX implementation, Runtime scheduling/device authority, Environment composition or independent QA judgment.
+**Agency / non-domination:** Art selects the visual direction but does not seize Materials authoring, Technical Art transport, Environment adoption, Runtime/device or independent QA authority.
 
-**Continuity:** Direction 005 remains the current visual default; the exact normalized candidate and historical predecessor remain separately recoverable. Directions 038–040 remain independently intact.
+**Continuity:** Direction 041 and all earlier accepted/held states remain intact. Scalar control, checker diagnostic, PR #49 parent and PR #24 rollback remain separately recoverable. No prior evidence is silently rewritten.
 
-**Wisdom before speed:** the studio stops retuning a barely perceptible experimental delta and asks for evidence that can answer the actual temporal question before adding or promoting more presentation machinery.
+**Wisdom before speed:** stop polishing or amplifying the diagnostic checker. Use the proven transport for one production-intent Materials successor and compare that exact successor in the current world before expanding texture complexity.
 
 The four AXM roots remain the merge gate.
