@@ -2,162 +2,180 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_HINGE_ROUGHNESS048_ONE_VARIABLE_EVIDENCE_INTEGRITY__FROZEN_RECEIVER_AND_RENDER_CONTEXT / FAIL_OBJECT_HINGE_ROUGHNESS048_REAR_HIERARCHY_REPAIR__BRIGHT_STRIPE_PERSISTS_AND_REAR_GRAZING_INTENSIFIES / FAIL_OBJECT_HINGE_ROUGHNESS048_SIDE_REFERENCE_PRESERVATION__HINGE_ENTERS_BRIGHTEST1PCT / BLOCKED_FINAL_OBJECT_HINGE_SUCCESSOR002_VISUAL_ADOPTION__ART_MATERIALS_NEXT_RESPONSE_CLOSE_RANGE_RUNTIME_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
+State: **PASS_OBJECT_HINGE_BASE_VALUE082_ONE_VARIABLE_EVIDENCE_INTEGRITY__FROZEN_RECEIVER_CONTEXT / PASS_OBJECT_HINGE_BASE_VALUE082_REAR_GRAZING_DIRECTIONAL_REPAIR__NEAR_WHITE_FOOTPRINT_COLLAPSES / PASS_OBJECT_HINGE_BASE_VALUE082_SIDE_REFERENCE_PRESERVATION__NO_TOP1PCT_HINGE_DOMINANCE / FAIL_OBJECT_HINGE_BASE_VALUE082_REAR_THREE_QUARTER_HIGHLIGHT_FOOTPRINT_SUBORDINATION__FIVE_NEAR_WHITE_KNUCKLE_COMPONENTS_PERSIST / BLOCKED_FINAL_OBJECT_HINGE_SUCCESSOR002_VISUAL_ADOPTION__ART_NEXT_DECISION_CLOSE_RANGE_RUNTIME_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, this specialist's prior status, current Art Direction and fresh open PR/workflow state across the design constellation before selecting the review.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, this specialist's prior status, current Art Direction, Materials status, open PRs/workflows and fresh visual/runtime claims across the design constellation before selecting the review.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation changes no Object geometry, material values, UVs, textures, Technical Art transport, Animation, Runtime representation, camera, lighting, gameplay, Universal Creation product code, merge state or CANON state. Product-repository action is limited to one independent review return on the existing Object Materials PR.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation changes no Object geometry, material value, UV, texture, Technical Art transport, Animation, Runtime representation, camera, lighting, gameplay, Universal Creation product code, merge state or CANON state. Product-repository action is limited to one independent review return on the existing Object Materials PR.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Immediate predecessor QA status blob: **`27453fcebcbcd4e8899324a703d5a733db5e95c9`**. It records the exact full-receiver coherence PASS, rear hierarchy FAIL, side-three-quarter PASS and final-adoption BLOCKED result at Materials head `90789442be09aac60125f9423d1d5f7d65c1c1a3`. That result remains rollback-addressable and is not rewritten.
+The immediately preceding QA status is preserved at blob **`34062ce08d3ad86fbe8930583af2c2ec8f92f9d4`**. It records the failed `roughness=0.48` successor at exact Materials head `db68a6b76e04ae2f19bb09cb7207f2874e19797b`, review **`5245090483`**. That failure remains first-class evidence and is not silently rewritten.
 
 ## Selection / duplicate-lane scan
 
-The strongest consequential unverified visual claim is the **single roughness-only Object hinge successor** returned directly in response to Art Direction 045 and the preceding independent QA failure.
+The most consequential complete unverified visual return was the direct response to Art Direction 046 on the existing Object Materials PR #6.
 
-Selected surface:
+Art Direction 046 rejected the `roughness=0.48` repair, restored the exact `roughness=0.32` control and requested exactly one Materials-owned **base-color VALUE-only** successor for the five `hardware_steel` hinge knuckles while freezing metallic `0.88`, hue/chroma relationship, geometry, Technical-Art transport/parity/culling, UVs/textures, all non-hinge materials, cameras/FOV/lights/exposure and the same three full-receiver contexts.
 
-- repository: `mike-axiom-mir/axm-object-design`;
-- PR #6 — `Materials: prove functional surface separation on case + module`;
-- exact reviewed head: **`db68a6b76e04ae2f19bb09cb7207f2874e19797b`**;
-- PR at review: **OPEN / DRAFT / UNMERGED / MERGEABLE**;
-- exact dedicated workflow: **`35315373555 — Object material hinge successor002 roughness successor` — SUCCESS**;
-- exact owner artifact: **`10534614828`**.
+Fresh Materials work returned exactly that bounded surface at head `134e9a7622868acbd184519eade15996ab20fbbe`. No second Materials lane was opened. Nature/Map Runtime and Technical-Art work remains in its own active owner lanes; previously closed Object VFX/Runtime, Building production-surface and Animal key-budget QA gates were not duplicated.
 
-Why selected without duplicating another lane:
+## Exact reviewed identity
 
-- Art Direction 045 explicitly requested exactly one attributable `hardware_steel` roughness-only successor after the prior QA rear-highlight failure, with albedo, metallic, geometry, transport, cameras, lights and exposure frozen;
-- Materials has now returned that exact response at the current head and explicitly ran no broad scalar sweep or second candidate;
-- Nature's fresh Rigging / Animation / VFX / Runtime work remains structural, source-space, diagnostic-motion or target-device-bound and does not yet provide a stronger finished perceptual target-host question;
-- Building's production utility-panel successor has already passed its independent visual gate and is in downstream Environment/Runtime ownership;
-- Map/Object static batching and RGB8 texture work already report exact retained raster equivalence and are primarily Runtime/device boundaries rather than unresolved appearance claims;
-- this review therefore advances the exact existing Art→Materials→QA handoff instead of reopening any historical Object hinge or Building lane.
+Repository: `mike-axiom-mir/axm-object-design`
 
-No duplicate implementation lane was opened.
+PR: **#6** — existing Materials / LookDev lane
 
-## Exact evidence identity
+Exact reviewed Materials head:
 
-Independent QA downloaded and directly inspected the exact retained owner artifact:
+**`134e9a7622868acbd184519eade15996ab20fbbe`**
 
-- artifact ID: **`10534614828`**;
-- artifact SHA-256 independently reproduced: **`ece743ffc1735a9aa4eb5ce1b569b9a3e269d1ce3b667a329394df04c527220a`**;
-- exact Materials head: `db68a6b76e04ae2f19bb09cb7207f2874e19797b`;
-- exact Technical Art donor: `f430d00d98e694dcf8302fd4df3c64a074f6f30e`;
-- exact successor002 target GLB SHA-256: `f81a9bccd9de1033476da4e5bbea3871b01e2ebf9fb65fcf909447fd14c43e40`;
-- renderer: Godot `4.7.2-stable`, GL Compatibility, X11, Mesa llvmpipe;
-- exact receiver: `31` visible mesh nodes / `1,052` triangles;
-- retained contexts: `full_rear_three_quarter`, `full_rear_grazing`, `full_side_three_quarter`.
+PR state at review: **open / draft / mergeable / unmerged**.
 
-Art-requested frozen comparison:
+Dedicated workflow:
 
-- control `hardware_steel`: albedo `#9AA3A8FF`, metallic `0.88`, roughness `0.32`;
-- successor `hardware_steel`: same albedo, same metallic, roughness **`0.48`**;
-- successor applies only to the five exact hinge knuckles;
-- geometry, UVs, textures, Technical Art transport, all non-hinge materials, ordinary culling, cameras, FOV, lights and exposure remain frozen;
-- no roughness sweep and no second successor are present.
+**`35319563489 — Object material hinge successor002 base-value successor` — SUCCESS**
 
-The owner evidence pipeline is structurally green and explicitly labels the packet `EVIDENCE_READY`, not Art/QA acceptance.
+Retained artifact:
 
-## PASS — one-variable evidence integrity
+- ID **`10536492694`**;
+- name `object-material-hinge-successor002-base-value-134e9a7622868acbd184519eade15996ab20fbbe`;
+- size **369,384 B**;
+- archive SHA-256 **`7f20f3285dff37dcb6d769870d687699bde0f9d579c8c453913a7308daa5756a`**;
+- independently downloaded and rehashed to that exact digest;
+- all **12 retained PNGs** independently rehash to the identities declared by the owner runtime receipt.
 
-**`PASS_OBJECT_HINGE_ROUGHNESS048_ONE_VARIABLE_EVIDENCE_INTEGRITY__FROZEN_RECEIVER_AND_RENDER_CONTEXT`**
+Renderer boundary remains **Godot 4.7.2-stable / GL Compatibility / X11 / Mesa llvmpipe**.
 
-The retained packet satisfies the requested attribution boundary. Independent PNG inspection reproduces **`20,431` pixels >1 LSB** across the three control/successor pairs, so the change is renderer-visible and not a no-op.
+Exact receiver remains **31 visible mesh nodes / 1,052 triangles**.
 
-No gross missing face, inside-out culling defect, detached hinge, geometry shift, camera/light change or unrelated receiver corruption was reproduced. The failure below is therefore a material-response / hierarchy result rather than a geometry or transport false positive.
+## Exact one-variable material comparison
 
-## FAIL — requested rear hierarchy repair does not succeed
+Restored control:
 
-**`FAIL_OBJECT_HINGE_ROUGHNESS048_REAR_HIERARCHY_REPAIR__BRIGHT_STRIPE_PERSISTS_AND_REAR_GRAZING_INTENSIFIES`**
+- albedo `#9AA3A8FF` = RGB8 `[154,163,168]`;
+- metallic `0.88`;
+- roughness `0.32`.
 
-### `full_rear_three_quarter`
+Preserved failed roughness negative:
 
-Independent exact-PNG remeasurement:
+- albedo `#9AA3A8FF`;
+- metallic `0.88`;
+- roughness `0.48`.
 
-- control→successor changed pixels >1 LSB: **`6,504`**;
-- hinge mean luminance: **`0.49988 -> 0.58645`**;
-- hinge p95 luminance: **`1.0 -> 1.0`**;
-- hinge share of visible-object brightest 1%: **`59.94% -> 59.94%`**;
-- fully-white hinge pixels: **`1,625 -> 1,625`**.
+Current value-only successor:
 
-Direct read: the five-knuckle rear highlight stripe remains clearly present. The roughness-only successor does not soften it into subordinate functional hardware.
+- albedo **`#7E868AFF`** = RGB8 `[126,134,138]`;
+- metallic `0.88` — frozen;
+- roughness `0.32` — restored/frozen;
+- one declared transform only: round each control RGB8 channel × `0.82`;
+- applies only to the five exact hinge nodes.
 
-### `full_rear_grazing`
+Geometry, UVs, textures, Technical-Art carrier/parity, all non-hinge materials, cameras/FOV/lights/exposure and render method remain frozen.
 
-- control→successor changed pixels >1 LSB: **`4,876`**;
-- hinge mean luminance: **`0.40009 -> 0.49717`**;
-- hinge p95: **`0.93988 -> 1.0`**;
-- hinge share of visible-object brightest 1%: **`73.70% -> 81.62%`**;
-- fully-white hinge pixels: **`0 -> 1,277`**.
+Independent exact-PNG control-versus-successor measurement reproduces **29,942 pixels >1 LSB aggregate** across the three retained contexts. The candidate is therefore strongly observable; this is not an empty comparison.
 
-Direct read: this view moves in the opposite direction from Direction 045's intent. The successor produces a stronger, whiter repeated hinge response rather than a broader/softer subordinate response.
+## Scoped verdicts
 
-Across the exact hinge-support mask, every hinge pixel whose luminance changes by more than one 8-bit LSB moves **brighter**, not darker, in both rear contexts. This is supporting evidence only; it is not a universal statement about metallic roughness behavior.
+### PASS — evidence integrity
 
-## FAIL — previously useful side hierarchy reference is not preserved
+**`PASS_OBJECT_HINGE_BASE_VALUE082_ONE_VARIABLE_EVIDENCE_INTEGRITY__FROZEN_RECEIVER_CONTEXT`**
 
-**`FAIL_OBJECT_HINGE_ROUGHNESS048_SIDE_REFERENCE_PRESERVATION__HINGE_ENTERS_BRIGHTEST1PCT`**
+The returned packet is attributable to exactly the one material degree of freedom Art authorized. The failed `r=0.48` negative is retained rather than erased.
 
-For `full_side_three_quarter`:
+### PASS — rear grazing directional repair
 
-- changed pixels >1 LSB: **`9,051`**;
-- hinge mean luminance: **`0.41035 -> 0.48588`**;
-- hinge share of the visible object's brightest 1%: **`0.0% -> 54.44%`**;
-- hinge p95 rises from about `0.51211` to `0.62080` under independent exact-PNG measurement.
+**`PASS_OBJECT_HINGE_BASE_VALUE082_REAR_GRAZING_DIRECTIONAL_REPAIR__NEAR_WHITE_FOOTPRINT_COLLAPSES`**
 
-The prior full-receiver QA used this view as the non-failing hierarchy reference. The roughness-0.48 successor makes the hinge materially more prominent here and therefore does not preserve that reference.
+Owner-context measurements:
 
-Percentile figures are receiver/context diagnostics, **not** universal AXM aesthetic thresholds. The direct visual result and the direction of change are the primary evidence.
+- hinge mean luminance `0.400087 -> 0.333742`;
+- hinge p95 `0.939880 -> 0.788606`;
+- hinge share at/above visible p99 `0.736965 -> 0.582907`;
+- fully-white hinge pixels stay `0 -> 0`.
 
-## BLOCKED — final Object hinge successor002 visual adoption
+Independent near-white diagnostic targeted to the already-described stripe:
 
-**`BLOCKED_FINAL_OBJECT_HINGE_SUCCESSOR002_VISUAL_ADOPTION__ART_MATERIALS_NEXT_RESPONSE_CLOSE_RANGE_RUNTIME_TARGET_DEVICE_PENDING`**
+- hinge pixels at luminance `>= 0.90`: **`748 -> 55`**.
 
-Per Direction 045, QA does **not** silently search another roughness, add albedo/metallic changes, alter geometry, or modify camera/light/exposure to force a pass. The exact one-variable candidate failed its intended visual repair and should return to Art Direction + Materials as a bounded failed successor / HOLD.
+Direct inspection agrees: the rear-grazing chain becomes materially less glaring and the broad near-white response created by the failed `r=0.48` negative is gone.
 
-Still not established:
+### PASS — side reference preserved
 
-- what the next exact material response should be;
-- arbitrary-camera / FOV / renderer / resolution / lighting hierarchy acceptance;
-- close-range surface-stack quality;
+**`PASS_OBJECT_HINGE_BASE_VALUE082_SIDE_REFERENCE_PRESERVATION__NO_TOP1PCT_HINGE_DOMINANCE`**
+
+- hinge share of the visible object's brightest 1% remains **`0.0% -> 0.0%`**;
+- no hinge pixels reach the independent `L >= 0.90` diagnostic band;
+- the side view does not reproduce the hierarchy regression caused by `r=0.48`.
+
+Direct inspection retains recognizable knuckle separation and visible metallic response in this exact reference view.
+
+### FAIL — rear three-quarter highlight-footprint subordination remains unresolved
+
+**`FAIL_OBJECT_HINGE_BASE_VALUE082_REAR_THREE_QUARTER_HIGHLIGHT_FOOTPRINT_SUBORDINATION__FIVE_NEAR_WHITE_KNUCKLE_COMPONENTS_PERSIST`**
+
+The successor improves midtone/overall brightness but does not close the original focal-stripe defect in the rear-three-quarter context.
+
+Owner-context measurements do move directionally:
+
+- hinge mean luminance `0.499883 -> 0.450622`;
+- hinge share at/above visible p99 `0.599410 -> 0.558716`;
+- owner fully-white hinge count decreases.
+
+However, an independent absolute near-white footprint diagnostic shows the actual repeated top stripe is essentially unchanged:
+
+- hinge pixels at luminance `>= 0.90`: **`1,625 -> 1,625`**;
+- the control and successor `hinge ∩ L>=0.90` masks are **pixel-identical**;
+- both resolve as the same **five** connected knuckle highlight components.
+
+Direct inspection matches that result: the top edge still reads as the same repeated five-part bright stripe, despite lower midtone value and somewhat reduced saturation. The candidate is therefore a genuine **partial repair**, not a full closure of Direction 046's rear hierarchy question.
+
+`L>=0.90`, brightest-1% and component counts are supporting diagnostics for this exact defect/context only. They are **not** AXM-wide aesthetic thresholds or PBR rules.
+
+## Final adoption boundary
+
+**`BLOCKED_FINAL_OBJECT_HINGE_SUCCESSOR002_VISUAL_ADOPTION__ART_NEXT_DECISION_CLOSE_RANGE_RUNTIME_TARGET_DEVICE_PENDING`**
+
+QA does not authorize a second base value, metallic change, roughness change, texture/normal/wear addition, lighting/camera adjustment or geometry edit to force a pass. The exact partial result returns to Art Direction + Materials for the next bounded decision.
+
+Still unproven / explicitly held:
+
+- arbitrary camera / FOV / light / renderer / resolution hierarchy;
+- close-range production surface-stack quality;
 - final UVs, textures, normal maps, wear, decals or manufacturing finish;
-- articulated contact, collision, retention, friction, strength or manufacturing behavior;
-- Runtime / target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- gameplay readiness;
-- source / Technical Art default adoption;
-- CANON;
+- articulation contact, retention, friction, strength or physical mechanism behavior;
+- target-device Runtime CPU/GPU/FPS/VRAM/thermal behavior;
+- source/default adoption;
+- merge/CANON;
 - production/game readiness;
-- Materials, Art Direction or Visual QA mastery.
+- specialist mastery.
 
-A same-head inherited `Object service-module fit evidence` workflow is red while the dedicated roughness-successor workflow and its complete Object suite are green. This QA does not convert the selected visual result into whole-PR readiness and makes no claim about that separate inherited workflow.
+## Exact handoff
 
-## Independent review return
+Object Materials PR #6 received independent QA review **`5245562753`**, anchored to exact head `134e9a7622868acbd184519eade15996ab20fbbe`.
 
-QA returned this exact result to Object Materials PR #6 as review **`5245090483`**, anchored to exact head `db68a6b76e04ae2f19bb09cb7207f2874e19797b`.
+The review preserves the valid one-variable experiment, passes rear-grazing improvement and side-reference preservation, fails only the still-unresolved rear-three-quarter repeated-highlight footprint, and returns the partial result without prescribing the next material scalar.
 
-No Materials value, texture, geometry, UV, transport, camera, light, exposure, Runtime policy, merge or CANON state was changed by this review.
+No Geometry, Hard Surface, Technical Art, Rigging, Animation, Runtime, Art Direction, merge or CANON authority transfers with this review.
 
-## Prior retained QA continuity
+## Continuity retained
 
-The immediate predecessor full-receiver result remains exact historical truth:
+- Full-receiver control at `90789442be09aac60125f9423d1d5f7d65c1c1a3`: rear hierarchy FAIL, side reference PASS.
+- Failed roughness successor at `db68a6b76e04ae2f19bb09cb7207f2874e19797b`: evidence integrity PASS; rear repair FAIL; side-reference preservation FAIL.
+- Current base-value successor at `134e9a7622868acbd184519eade15996ab20fbbe`: rear grazing PASS; side reference PASS; rear-three-quarter highlight footprint still FAIL.
 
-- complete-receiver/culling coherence PASS at `90789442...`;
-- rear-facing repeated-highlight hierarchy FAIL at `90789442...`;
-- side-three-quarter hierarchy PASS at `90789442...`;
-- final visual adoption BLOCKED.
-
-The new roughness-0.48 result does not rewrite that predecessor. It proves only that the one requested material-response successor fails to repair the rear hierarchy and additionally regresses the previously useful side reference.
-
-Earlier Building production-surface, Animal 19-key, Object VFX-v2 / Runtime MultiMesh, corrected rigid-shell culling, Object latch and other PASS/FAIL/BLOCKED results remain bound to their exact reviewed heads. No acceptance transfers by analogy.
+Nothing is silently rewritten. Each prior exact head/artifact/review remains rollback-addressable.
 
 ## Four-root gate
 
-- **Truth:** the evidence-pipeline PASS and visual-repair FAILs are retained together. The exact artifact/head identities, direct images and independent metrics remain inspectable; a successful workflow is not relabelled as visual success.
-- **Agency / non-domination:** QA does not choose the next roughness or seize Materials/Art/Technical-Art/Runtime/merge/CANON authority.
-- **Continuity:** Direction 045, the prior 0.32 control, this failed 0.48 successor and earlier full-receiver QA remain separately rollback-addressable.
-- **Wisdom before speed:** stop after the single attributable repair failed. Do not launch an unbounded scalar search or broaden degrees of freedom without a new evidence-backed Art/Materials decision.
+**Truth:** green workflow/evidence readiness is kept separate from the remaining visible rear-three-quarter defect.
+
+**Agency / non-domination:** QA challenges the evidence without seizing Materials tuning authority or Art acceptance authority; no hidden second candidate is requested or authored.
+
+**Continuity:** the original full-receiver failure, failed roughness experiment and current partial repair all remain explicit and addressable.
+
+**Wisdom before speed:** one bounded experiment is judged on its actual retained visual result before any extra material degree of freedom is opened.
 
 The four AXM roots remain the merge gate.
