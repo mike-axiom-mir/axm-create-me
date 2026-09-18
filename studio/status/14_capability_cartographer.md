@@ -3,200 +3,232 @@
 - Date: `2026-09-18`
 - Standing role: `studio/specialists/14_capability_cartographer.md`
 - Campaign contract: `studio/3D_STUDIO_CAMPAIGN.md`
-- State: `PASS_CI_REVISION_BINDING_IDENTITY_MAP / BUILDING_ANIMAL_MAP_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_NEW_UC_EXTRACTION / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
+- State: `PASS_MEASUREMENT_ATTRIBUTION_CONTRAST_IDENTITY_MAP / NATURE_OBJECT_MAP_REPEAT_THRESHOLD_MET / PF38_EVIDENCE_VOCABULARY_REFINED / NO_GENERIC_UC_ATTRIBUTION_ENGINE / NO_SHARED_EXECUTION_OVERLAP / CREATE_ME_COORDINATION_ONLY`
 
 ## Current activation
 
-Re-read the active 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, newest coordination commits, open product PRs across the design constellation, current Universal Creation main/open work, Profession Fabric #38 / open PF experiments, and the shared-capability execution registry.
+Re-read the active 3D Studio campaign and Capability Cartographer standing role, then rescanned newest specialist status, open product PRs across the design constellation, current Universal Creation main/open work, Profession Fabric #38 / #37, and the shared-capability execution registry.
 
-`axm-create-me` remains **coordination only**. No product implementation, CI implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
+`axm-create-me` remains **coordination only**. No product implementation, observer implementation, Universal Creation implementation, Profession Fabric implementation, Art/QA verdict, CANON state, adoption authority, specialist authority or merge authority moved into this repository.
 
 The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-Previous Cartography status blob remains historical and rollback-addressable:
+Immediately preceding Cartography status blob remains historical and rollback-addressable:
 
-`81e174c28ef18e93ba1eb5ab89c730e99fff1d59`
+`601fea807c9e31ccbf61e4c64b7e05fa85eea6b9`
 
 ## Fresh continuity / overlap scan
 
-Since the preceding proof-coverage map, specialist state materially advanced Building Procedural, Nature Technical Art, Nature Rigging/VFX, Object Geometry/Hard-Surface/Materials/Animation/Technical-Art, Map Runtime, Environment and Art Direction.
+The preceding Cartography activation mapped CI revision binding. Since then, the strongest fresh repeated distinction appears across Nature Geometry, Object Materials and Map Environment:
 
-The strongest fresh repeated cross-repo distinction is:
-
-**`CI_RUN_OR_ARTIFACT_IDENTITY != CHECKED_OUT_REVISION_IDENTITY != CLAIM_SUBJECT_REVISION_IDENTITY`**
+**`AGGREGATE_MEASUREMENT_IDENTITY != ATTRIBUTION_CONTRAST_IDENTITY != ATTRIBUTED_CLAIM_IDENTITY`**
 
 More precisely:
 
-**A workflow can execute successfully while its default pull-request checkout is GitHub's synthetic merge revision. That run may remain useful semantic or merge-preview evidence, but it must not be silently promoted into an exact branch-head claim unless the actually executed workspace revision and retained artifact binding are proven to match the declared exact subject revision under the workflow's policy. Artifact naming identity is also not sufficient on its own.**
+**A measurement can be correct for the domain it observed while still being too confounded to support a narrower interaction/cause-of-difference claim. A bounded controlled contrast or decomposition can support a narrower attribution only within its exact held-constant set and metric assumptions; it does not become general causal proof.**
 
-This is adjacent to, but distinct from, the already-mapped `harness_execution_state`: the harness may execute correctly and still be bound to the wrong revision identity.
+This is adjacent to, but distinct from, the already-mapped observer coverage/sensitivity, measurement-receipt and claim-scope vocabularies. Coverage answers whether the observer sees the claimed domain. Sensitivity answers whether the observer can respond to a relevant signal. This activation maps a third question: whether the observed signal is attributable to the exact interaction/property being claimed rather than to retained background or another changed factor.
 
-## Evidence A — Building Procedural exact-head provenance defect and repair
+## Evidence A — Nature Geometry #18: global intersection observation is not child-child attribution
 
-Repository: `mike-axiom-mir/axm-building-design`
+Repository:
 
-Existing Procedural PR: `#4 — Procedural: bounded Building variation and owner-successor families`
+`mike-axiom-mir/axm-nature-design`
 
-Current exact head:
+Existing Geometry PR:
 
-`588350afba56dd1aa0417148f03e12c6cfc81610`
+`#18 — Geometry: audit simultaneous five-branch composition corners`
 
-During its current-owner rebind, intermediate workflow `35308123128` passed Python 3.11/3.13 and the family semantics at intended branch head:
+Exact tested head:
 
-`446e1bc3dc0904af2f5c4f06d8950d8b4f8ba2b8`
+`76c89348d63fd3523f81287767fc37527d6a8fcb`
 
-But archive inspection showed:
+Current Geometry coordination status records a `390v / 570t` migrated receiver, five triangle-closed child partitions, 33 bounded witnesses and 330 branch-pair/state UC observations.
 
-`procedural_head.txt = 76192884ca4ca539ca7e440844b846810e3a33d5`
+The important attribution correction is preserved explicitly. A first whole-receiver diagnostic observed approximately `1705–1707` nonadjacent-triangle intersections per witness. That observation remained valid, but Geometry correctly refused to relabel it as a simultaneous five-child motion defect or verdict because disconnected authored components already meet spatially in the neutral receiver. The aggregate count mixed retained background contacts with the interaction of interest.
 
-That retained identity was GitHub's synthetic PR merge commit rather than the intended branch head. Building correctly preserved the run as semantic evidence but refused to use it as exact-head provenance.
+The accepted child-child method therefore changes the **observation design**, not the underlying product source:
 
-The workflow was then repaired to:
+1. observe each exact 72-triangle child alone;
+2. observe the other child alone;
+3. observe their exact 144-triangle combination;
+4. derive `cross_child = combined - left_solo - right_solo`;
+5. repeat for all 10 unordered child pairs over all 33 retained witnesses.
 
-- explicitly checkout `${{ github.event.pull_request.head.sha || github.sha }}`;
-- record the actual checked-out revision;
-- fail closed unless retained `procedural_head.txt` equals the event head;
-- name the retained artifact using the exact branch/event head rather than silently treating the synthetic merge identity as product head.
+Across all `330` pair/state observations the attributable cross-child nonadjacent-intersection count is `0`. The whole-receiver aggregate remains retained historical evidence; it was not deleted or rewritten merely because a better-attributed claim became available.
 
-Final exact-head workflow `35308371329` is green and retains current branch head `588350af...`, with artifact `10532188249` and archive SHA-256 `ed9186e2a27c18d9c4687c5476807b06e0ec734fc55c2cbde2cca1b49e4db1a5`.
+This is a strong negative/positive pair for Cartography: **valid aggregate observation, invalid narrow attribution; then explicit bounded contrast/decomposition, valid narrow attribution at the exact witness family.** Continuous interval, child-vs-fixed, physical collision and downstream acceptance remain held.
 
-This proves the defect class without invalidating the semantic content of the earlier run.
+## Evidence B — Object Materials #6: different controls answer different attribution questions
 
-## Evidence B — Animal Technical Art independently hit the same revision-binding defect
+Repository:
 
-Repository: `mike-axiom-mir/axm-animal-design`
+`mike-axiom-mir/axm-object-design`
 
-Existing Technical Art PR: `#3 — Technical Art: prove explicit Animal surfaces -> UC GLB bridge`
+Existing Materials PR:
 
-The PR has since advanced to live head:
+`#6 — Materials: prove functional surface separation on case + module`
 
-`1ca28d29c7e1aaa095c11aaa6085716669230cb3`
+Current GitHub PR head:
 
-Its retained connected-Geometry transport phase records the independent historical defect:
+`90789442be09aac60125f9423d1d5f7d65c1c1a3`
 
-- earlier green workflow `35111455304` retained GitHub's synthetic PR merge commit in `technical-art-head.txt` rather than the intended real PR head;
-- the implementation result was preserved, but that receipt was not accepted as final exact-head evidence;
-- the workflow was repaired to explicitly checkout `${{ github.event.pull_request.head.sha || github.sha }}`;
-- final exact-head workflow `35111609808` retained historical branch head `ab227a89cf0d7da81e34f0a3af523724bda9fc60`.
+The source-owner-bound Materials phase at retained ancestor:
 
-The live PR advancing later does not rewrite this evidence. Building Procedural and Animal Technical Art therefore establish the repeat threshold across different repositories, specialists and product mechanisms.
+`bcfe25f6ab56996a14c9744723ba015920308eab`
 
-## Evidence C — Map Runtime shows valid coexistence of run/artifact and claim identities
+is contained in the current PR ancestry. That phase makes the attribution distinction explicit through separate controls:
 
-Repository: `mike-axiom-mir/axm-map-design`
+- candidate material family vs neutral proof material on the owner-bound representation measures the **surface-family material effect**;
+- owner-bound candidate material vs the previous fixed-keeper representation holds material values fixed and isolates the **visible effect of consuming the source-owned keeper attachment**.
 
-Existing Runtime PR: `#47 — Runtime: batch static Object rigid components in current world`
+The second contrast shows the intended localized keeper movement under articulation without converting that result into latch mechanism, collision, retention or release proof. The motion donor, ownership donor and material profile remain separately pinned.
 
-Current exact measured Runtime head:
+The later full-receiver Materials proof at current head reinforces the same rule through another pair of non-interchangeable controls:
 
-`d2df5a7eb03b806eb991028d3ed5e3bfaa755bca`
+- the five-hinge neutral control localizes the questioned hinge material family while preserving surrounding case/lid/service materials;
+- the whole-object unshaded control establishes that the material/shading receiving path is active.
 
-GitHub currently reports PR merge-preview identity:
+Both controls can be green and still support different claim classes. A responsive observer is therefore not automatically an attributable observer for every possible cause of a visual delta.
 
-`c30d08da3aa9ec3b325abd8c3c9a31bf7945a030`
+## Evidence C — Map Environment #51: expected metric differences are not structural world drift
 
-Pass 51 intentionally notes that the retained artifact name contains the PR workflow merge SHA, while retained `SUMMARY.json` separately records the exact measured Runtime branch head `d2df5a7...`.
+Repository:
 
-That is a useful positive boundary case: both identities may be retained, but one must not silently substitute for the other. The semantic Runtime claim remains bound to its declared measured branch-head identity and exact successor inputs, while the merge-preview/artifact naming identity remains provenance metadata.
+`mike-axiom-mir/axm-map-design`
 
-This pass freshly measures `33 -> 14` render surfaces, `103 -> 65` proof-host draw calls/objects at all retained samples, `-89,360 B` renderer buffer memory and `4/4` byte-identical shaded pairs, while continuing to hold target-device, arbitrary-future-articulation and Art/QA authority. Cartography does not alter those Runtime claims.
+Existing Environment PR:
+
+`#51 — Environment: review Building utility-panel material in current world`
+
+Current exact PR head:
+
+`4826db5d3a595bbeefdfd58d5541b2d78247e290`
+
+The retained current-world material A/B ancestor is:
+
+`595df99daf866b5e3dcaa4be87eeb650af637919`
+
+Git ancestry confirms current PR #51 is eight commits ahead of that exact ancestor, so this evidence remains part of the current lane's provenance.
+
+The first hosted material A/B verifier failed because it treated every measured candidate/control difference as structural-world identity drift. Inspection showed the `204` differences were exactly:
+
+- `68` capture-byte values;
+- `68` buffer-memory values;
+- `68` texture-memory values.
+
+The repaired verifier keeps structural world identity equality separate while characterizing the material-specific expected costs: `+576 B` buffer and `+1,398,100 B` texture per observation, plus the retained PNG capture-size delta. The observation itself did not become more truthful after the repair; its **semantic attribution** became correct.
+
+This establishes a third, materially different mechanism from the same class: Nature uses interaction decomposition over triangle counts, Object uses controlled rendered A/Bs with separately pinned factors, and Map classifies observed metric fields into invariant structural state versus expected representation/presentation cost.
 
 ## Cross-repo capability map
 
 Reusable evidence shape:
 
-`claim_subject_revision_identity`
+`measurement_subject_identity`
 
-+ `ci_trigger_identity`
++ `observation_domain_identity`
 
-+ `checkout_ref_identity`
++ `background_or_baseline_measurement_identity[]`
 
-+ `workspace_commit_identity`
++ `contrast_design_identity`
 
-+ optional `workspace_tree_identity`
++ `held_constant_identity[]`
 
-+ `artifact_revision_binding_identity`
++ `attribution_operator_identity`
 
--> `revision_binding_relation`
+-> `attribution_state`
 
--> `claim_revision_scope`
+-> `attributed_claim_identity`
 
--> bounded claim verdict + historical/merge-preview non-transfer.
+-> explicit non-claims / transfer boundary.
 
 Suggested evidence-only fields:
 
-- `claim_subject_revision_identity` — exact repo/ref/head whose semantics the claim names;
-- `ci_trigger_identity` — event type plus exact PR/base/head metadata available at run start;
-- `checkout_ref_identity` — exact ref/commit requested by the workflow;
-- `workspace_commit_identity` — actual checked-out commit that executes;
-- `workspace_tree_identity` — optional exact tree identity when commit ancestry alone is insufficient;
-- `artifact_revision_binding_identity` — revision explicitly written inside the retained evidence packet; artifact name alone is not authoritative;
-- `revision_binding_relation = EXACT_SUBJECT | SYNTHETIC_MERGE_PREVIEW | OTHER_DECLARED | MISMATCH | NOT_RECORDED`;
-- `claim_revision_scope = EXACT_HEAD | MERGE_PREVIEW | OTHER_EXPLICIT`.
+- `measurement_subject_identity` — exact interaction/property whose narrow attribution is being claimed;
+- `observation_domain_identity` — whole receiver, selected child pair, surface subset, frame set, ROI, metric-field set, or other exact observed domain;
+- `background_or_baseline_measurement_identity[]` — known retained contributions that must not be silently assigned to the subject;
+- `contrast_design_identity` — exact control/candidate, solo/combined, predecessor/successor or field-classification design used to narrow the claim;
+- `held_constant_identity[]` — exact source/receiver/material/motion/camera/host/instrumentation identities intentionally unchanged across the contrast;
+- `attribution_operator_identity` — explicit domain-owned rule used to derive the narrow evidence, such as `combined - left_solo - right_solo`, matched A/B difference, or semantic field classification;
+- `attribution_state = ATTRIBUTABLE_WITHIN_DECLARED_CONTRAST | AGGREGATE_ONLY | CONFOUNDED | NOT_EVALUATED`;
+- `attributed_claim_identity` — exact bounded property supported by that contrast, kept separate from broader mechanism/causality claims.
 
 Core non-transfer rules:
 
-1. A green synthetic-merge run must not silently become exact branch-head evidence.
-2. A semantically useful merge-preview run may be retained as such; discovering the mismatch does not require deleting or rewriting it.
-3. Artifact/run naming based on a workflow merge SHA does not itself establish which revision a semantic result claims.
-4. `EXACT_HEAD` evidence should fail closed unless the declared policy proves the executed workspace revision and retained artifact binding correspond to the exact subject revision.
-5. A later live PR head does not rewrite an older exact receipt; old and current identities remain separately addressable.
-6. Revision-binding truth does not transfer product acceptance, Art/QA, adoption, CANON or merge authority.
+1. A correct global/aggregate metric may remain unusable for a narrower interaction claim.
+2. Observer sensitivity is necessary in some claim classes but does not by itself establish attribution.
+3. A one-factor controlled contrast can support bounded attribution only when the declared held-constant identities and observation scope actually remain fixed.
+4. Domain-specific subtraction/decomposition must not be promoted into a universal algebraic rule. Nature's `combined - left - right` is valid only under Nature's exact disjoint child/metric assumptions.
+5. Different controls may answer different questions and must not collapse into one generic `control PASS`.
+6. Baseline/background contributions remain provenance; narrowing attribution must not erase the aggregate observation that exposed the confound.
+7. Bounded contrast attribution does not establish universal causality, arbitrary-state equivalence, Art/QA preference, adoption, CANON or production readiness.
 
 ## Placement action — Profession Fabric #38
 
 Refined existing experimental Profession Fabric issue #38 with comment:
 
-`5725396730`
+`5725888437`
 
-The refinement adds revision-binding evidence vocabulary only. It does not turn Profession Fabric into a CI engine, Git ref resolver or workflow executor.
+The refinement adds measurement-attribution / contrast identity vocabulary only. It does not make Profession Fabric a geometry observer, image-difference engine, causal-inference engine, renderer, metric classifier or product acceptance authority.
 
-This placement is distinct from the existing `harness_execution_state` refinement: a harness can reach and execute its intended observer successfully while still being attached to a synthetic merge rather than the exact subject head.
+This extends rather than replaces earlier PF #38 vocabulary:
 
-PF PR #37 remains the separate open/draft bounded-variation procedure experiment at head:
+- observer coverage/sensitivity says whether an observation path can see/respond to the relevant claim class;
+- measurement receipt/provenance says what exact receiver/host/instrumentation produced the numbers;
+- this activation's attribution vocabulary says what narrower subject, if any, those numbers can legitimately be assigned to under an exact contrast.
+
+PF PR #37 remains the distinct open/draft bounded-variation evidence-procedure experiment at exact head:
 
 `ddb71acd9c7b463088d25385d528936a074cca3c`
 
-It does not overlap this revision-binding scope, so no new PF implementation lane was opened.
+It does not implement this attribution scope, so no overlapping PF implementation lane was opened.
 
 ## Why no Universal Creation lane was opened
 
 Current Universal Creation `main` is:
 
-`ce70d717e381df6ca8a27c0c9fabe9d48bb1b23c`
+`5c772b65eeba75abd0eb7a6c9c471b2d9975019d`
 
-That is merged PR #205, which strengthened the bounded radial-envelope Physics evidence with a 196-case classification matrix without widening physical/semantic claims.
+That is the merge of PR #206, adding bounded radial-envelope representation-invariance evidence without widening physical/semantic claims.
 
-Current open UC successor PR #206 is:
+Current open UC PR #207 is:
 
-- head `973e89274fde50a132e03e11edeea225d71f9f7b`;
-- scope: radial-envelope representation-invariance self-test across the established Physics matrix.
+- head `967b656a772b2c042ba13183907ca9f166aa684f`;
+- scope: bounded radial-envelope positive-scale covariance over the established Physics matrix.
 
-UC #151 and #153 remain separate older game-asset / unwrap-bake work. None of those lanes owns CI revision-binding provenance.
+Neither overlaps this Cartography scope.
 
-The repeated capability mapped here is an **evidence/provenance discipline**, not neutral creation, geometry, renderer or runtime machinery. Opening a UC ref-resolution/check-out lane would be the wrong home.
+More importantly, the repeated evidence class does **not** yet expose one neutral executable attribution mechanism suitable for UC:
 
-The shared-capability execution registry was checked before placement. Its retained UC #192 and #199 records are both closed/merged, with **no active shared implementation claim** overlapping this scope.
+- Nature's executable method is pairwise triangle-intersection decomposition;
+- Object's is renderer A/B under separately frozen semantic donors;
+- Map's is semantic classification of process/presentation metrics against structural world invariants.
+
+Opening a generic UC “causal inference”, universal difference engine or attribution operator would erase those domain assumptions and outrun the evidence. The reusable layer currently stops at evidence/provenance vocabulary in PF #38.
+
+The shared-capability execution registry was checked before placement. Retained UC #192 and #199 records are both closed/merged; **no active shared implementation claim overlaps this scope**.
 
 ## Product returns
 
 Evidence-only feedback was returned without changing product code:
 
-- Profession Fabric #38 comment `5725396730`;
-- Building Procedural PR #4 comment `5725397737`;
-- Animal Technical Art PR #3 comment `5725398511`;
-- Map Runtime PR #47 comment `5725399137`.
+- Profession Fabric #38 comment `5725888437`;
+- Nature Geometry PR #18 comment `5725889954`;
+- Object Materials PR #6 comment `5725891111`;
+- Map Environment PR #51 comment `5725892261`.
 
-Each return preserves local workflow/evidence ownership and records only the cross-repo provenance distinction.
+Each return records only the cross-repo attribution distinction. Product-local algorithms, renderer setup, metric interpretation, source semantics and acceptance remain owned where they already live.
 
 ## Placement decision
 
 | Layer | Correct home | Decision |
 |---|---|---|
-| Product workflow implementation | owning product repository | stays local; no workflow copied or moved |
-| Exact source/product semantics | owning design repo/specialist | unchanged |
-| Revision-binding evidence vocabulary | Profession Fabric #38 experimental evidence procedure | refined by comment only |
-| Neutral creation/runtime machinery | Universal Creation | no extraction justified |
+| Nature intersection/decomposition implementation | Nature Geometry | remains product/domain-owned |
+| Object material/ownership comparison implementation | Object Materials | remains product/domain-owned |
+| Map world/metric classification implementation | Map Environment | remains product/domain-owned |
+| Attribution/contrast evidence vocabulary | Profession Fabric #38 experimental evidence procedure | refined by comment only |
+| Generic neutral attribution/causal engine | Universal Creation | **not justified**; executable mechanisms differ |
 | Duplicate-lane prevention | `studio/SHARED_CAPABILITY_EXECUTION_CLAIMS.md` | checked; no active overlap |
 | Cross-repo coordination/status | `axm-create-me` | this status only |
 
@@ -204,28 +236,30 @@ Each return preserves local workflow/evidence ownership and records only the cro
 
 This activation does **not** establish:
 
-- that every historical workflow using a PR merge checkout is invalid;
-- that synthetic merge evidence is useless;
-- that exact-head checkout is always the only correct CI scope;
-- a universal GitHub Actions implementation;
-- automatic workflow rewrites across repositories;
+- a universal causal-inference procedure;
+- that every A/B difference identifies one cause;
+- that every aggregate metric must be decomposed;
+- one generic subtraction rule across geometry, rendering and runtime metrics;
+- continuous five-branch Nature collision freedom;
+- Object latch mechanism, collision, retention or release behavior;
+- final Object material/Art/QA acceptance;
+- Map target-device performance or final Building material adoption;
+- automatic observer/control generation;
 - PF implementation or profession promotion;
 - UC implementation;
-- product adoption or source authority changes;
-- Art Direction or Visual QA acceptance;
-- target-device readiness;
+- product source-authority transfer;
 - CANON;
 - production/game readiness;
 - specialist or merge authority.
 
 ## Four-root check
 
-**Truth:** semantic success and revision identity are recorded separately; synthetic merge evidence is neither hidden nor falsely relabelled exact-head.
+**Truth:** valid aggregate observations remain valid even when too confounded for a narrower claim; bounded contrasts state exactly what is isolated and what remains background/non-claim.
 
-**Agency / non-domination:** no product workflow is automatically rewritten and no receiving owner loses decision authority.
+**Agency / non-domination:** no product owner is forced to adopt a universal control, metric or attribution rule; each domain retains its own semantics and acceptance authority.
 
-**Continuity:** historical synthetic-merge receipts, repaired exact-head receipts, later live heads, artifact identities and product-local non-claims remain separately recoverable.
+**Continuity:** whole-receiver counts, older representations, failed verifiers, repaired contrasts, exact donor identities and current successor heads remain separately recoverable rather than rewritten into one cleaner story.
 
-**Wisdom before speed:** reused existing PF #38 evidence vocabulary rather than opening a new framework or incorrect UC implementation from a provenance problem.
+**Wisdom before speed:** repeated evidence was strong enough to refine PF vocabulary, but the executable mechanisms are too different to justify a generic UC attribution/causal engine.
 
 The four AXM roots — **Truth, Agency / non-domination, Continuity, Wisdom before speed** — remain the gate.
