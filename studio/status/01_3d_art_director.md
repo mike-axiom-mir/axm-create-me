@@ -2,242 +2,209 @@
 
 Date: 2026-09-18
 
-State: **PASS_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_CLOSE_PRESENTATION_038 / ACCEPT_EXISTING_CURRENT_WORLD_ZERO_RASTER_AS_NON_TARGET_SCALE_CONTEXT__NO_SOURCE_AMPLIFICATION / HOLD_FINAL_OBJECT_RELEASE_MOTE_ADOPTION__INDEPENDENT_QA_V2_CLOSE_REVIEW_RUNTIME_REBIND_TARGET_DEVICE_PENDING / OBJECT_WINDING_DIRECTION_037_RETAINS_SEPARATE_RENDERED_MATERIALS_QA_HOLD / COORDINATION_ONLY**
+State: **PASS_ART_DIRECTION_OBJECT_TA_PARITY_CORRECTED_RIGID_SHELL_RETAINED_MATERIAL_CULL_REFERENCE_039 / DIRECTION_037_RENDERED_CULL_HOLD_CLOSED_FOR_EXACT_TA_PATH / FREEZE_CORRECTED_TRANSPORT_AS_VISUAL_REFERENCE__RETAIN_UNADAPTED_NEGATIVE / HOLD_FINAL_OBJECT_RIGID_SHELL_ADOPTION__RUNTIME_TARGET_DEVICE_PRODUCTION_SURFACE_SOURCE_ADOPTION_PENDING / DIRECTION_038_OBJECT_VFX_V2_REMAINS_SEPARATE_PASS_WITH_QA_RUNTIME_DEVICE_HOLD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, this status, fresh Technical Art / VFX / Materials / Visual-QA coordination, current open PR/head evidence, and newly retained visual evidence across the Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc design constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the immediately preceding Art Direction status, all current specialist status files, newest coordination commits, open design-repository PRs and retained visual evidence across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before choosing work.
 
-`axm-create-me` remains **coordination only**. No product implementation was placed here.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. No product mesh, material, transport adapter, Runtime implementation, renderer policy, source rewrite, gameplay or Universal Creation product implementation was added here.
 
 The four AXM roots remain the internal merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Constellation choice / non-overlap scan
+Immediate predecessor Art status blob:
 
-The highest-leverage fresh Art-owned decision is the repaired Object lid-release-mote presentation and its newly exposed scale-context question.
+`161708f01e5bcc2311de8c54d8ad9ff09eeb20b5`
 
-Why this displaced other work:
+That predecessor preserves Direction 038 exactly. Nothing in Direction 039 rewrites its Object VFX v2 close-presentation PASS or its independent-QA / Runtime-rebind / target-device HOLD.
 
-- **Object VFX / Map receiving / QA:** Direction 036 explicitly requested one bounded VFX-owned irregularity repair. Object PR #31 has now returned v2 at exact head `bc114ee7ec876107892ccedeefc8e5020315488a`, and Map PR #50 independently proves that exact v2 executes phase-correctly in the current-world Object receiver while contributing zero raster pixels in both existing wide Map review cameras. Independent QA explicitly handed the receiving-context decision back to Art Direction. This is therefore a fresh, reviewable Art-owned question rather than another implementation lane.
-- **Object rigid-shell Direction 037:** Technical Art has now answered the requested transport-convention question on existing PR #16 at exact head `7fa10bff981e49c9ea3396b83c4c6d731a90d146`. It proves the determinant-`-1` source→UC boundary and exact one-time parity correction at that boundary, with real Godot imported-index differentiation across all 31 groups. Final rendered production-material/culling coherence is still separately held for Materials / Art / QA. Reimplementing or re-deriving that transport would duplicate Technical Art, so this activation does not do so.
-- **Object Runtime:** PR #32's MultiMesh proof remains bound to the pre-v2 held owner presentation. It is useful downstream evidence, but should rebind only after exact v2 Art/QA acceptance rather than driving style.
-- **Animal Materials:** the fresh bilateral seam/filter packet is a strong Materials-owned PASS over 40 bilateral pose/view contexts, but still explicitly holds final Art / independent QA / Technical-Art transport. No stronger Art defect is exposed there than the VFX receiving-context decision already waiting on Art.
-- **Map / Nature compact-east:** Direction 034 remains a separate temporal-salience HOLD. No newer target-device/viewer-delivery packet supersedes it in this activation.
-- **Building / Character / Animal Technical Art / Runtime:** active owner-specific geometry, transport, tangent, receiver and runtime lanes remain in their existing ownership paths. No duplicate Art implementation is opened.
-- **Weapon / Armor / Unit / Misc:** no fresher Art-reviewable evidence surfaced that displaces the explicit Object VFX Art decision.
+## Fresh constellation choice / duplicate-lane scan
 
-Art changes no VFX product parameters, Animation timing, Environment cameras, Runtime representation, geometry, materials, Rigging, gameplay, physics or UC product code.
+The highest-leverage fresh Art-owned question is the **Object rigid-shell exact Technical-Art transport under ordinary backface culling**.
 
-## Selected bounded visual-direction improvement
+Why this displaced other reviewable work:
+
+- **Object rigid shell / Direction 037:** Direction 037 exposed a whole-object visual correctness blocker: a direct owner-order receiver lost large manufactured shell regions under ordinary culling. Art deliberately refused to mutate source geometry or prescribe a universal winding rule and returned the missing real transport question to the existing Technical Art lane. Technical Art has now answered that exact question, Materials has rendered the exact corrected and unadapted Technical-Art GLBs under the unchanged Object material family, and independent QA has returned an exact-path visual verdict. This is a direct returned Art dependency and closes a gross shell-disappearance blocker rather than starting a new lane.
+- **Object VFX / Direction 038:** repaired irregularity-v2 remains Art-PASS in its owner close/seam contexts. Independent QA of that exact close packet plus Runtime v2 rebind and target-device evidence remain separate downstream gates. No further VFX source retune is requested here.
+- **Animal Runtime:** PR #30 now offers a 41 -> 19 serialized-key candidate with a recorded small nonzero visual tradeoff and explicit Art/QA/device HOLD. It remains reviewable but is a bounded representation tradeoff, not a whole-asset missing-surface blocker.
+- **Map Environment:** PR #49 now has a rendered articulated service-clearance successor ready for Art/QA. That is a local dressing-edge repair and remains queued; Art does not duplicate Environment's implementation.
+- **Animal Animation / Rigging / Materials:** interpolation, dense deformation and bilateral seam/filter evidence have materially advanced, but their current returns preserve their own owner-specific shaded-motion / target-host / Art-QA holds rather than exposing a stronger urgent Art defect.
+- **Weather / Nature / compact-east:** Weather's opacity-normalized temporal-exposure candidate remains a separate VFX/Art-QA question; compact-east Direction 034 remains held on real delivered temporal salience rather than source retiming.
+- **Character / Building:** active Technical-Art, Runtime, Materials and receiving lanes remain in their current ownership paths; no duplicate Art implementation is opened.
+- **Weapon / Armor / Unit / Misc:** no fresher implementation-backed visual surface displaced the returned Direction-037 obligation.
+
+Art changes no Geometry candidate, Hard-Surface source semantics, Technical-Art parity implementation, material scalar, Runtime representation, camera, lighting, Animation, Rigging, physics, gameplay or UC product code.
+
+## Selected bounded visual-direction improvement — Direction 039
 
 New packet:
 
-`studio/direction/OBJECT_LID_RELEASE_MOTE_V2_PRESENTATION_DIRECTION_038.md`
+`studio/direction/OBJECT_RIGID_SHELL_TA_TRANSPORT_MATERIAL_CULL_DIRECTION_039.md`
 
 Packet commit:
 
-`1411459aef11c5f55ebefae5787d1d39f019f190`
+`6bbc2a684e637988f88c42363c2ee040806bfeaf`
 
 Selected visual direction:
 
-**`PASS_ART_DIRECTION_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_CLOSE_PRESENTATION_038`**
+**`PASS_ART_DIRECTION_OBJECT_TA_PARITY_CORRECTED_RIGID_SHELL_RETAINED_MATERIAL_CULL_REFERENCE_039`**
 
-Scale-context decision:
+Direction-037 continuity result:
 
-**`ACCEPT_EXISTING_CURRENT_WORLD_ZERO_RASTER_AS_NON_TARGET_SCALE_CONTEXT__NO_SOURCE_AMPLIFICATION`**
+**`DIRECTION_037_RENDERED_CULL_HOLD_CLOSED_FOR_EXACT_TA_PATH`**
+
+Reference policy:
+
+**`FREEZE_CORRECTED_TRANSPORT_AS_VISUAL_REFERENCE__RETAIN_UNADAPTED_NEGATIVE`**
 
 Final adoption state:
 
-**`HOLD_FINAL_OBJECT_RELEASE_MOTE_ADOPTION__INDEPENDENT_QA_V2_CLOSE_REVIEW_RUNTIME_REBIND_TARGET_DEVICE_PENDING`**
+**`HOLD_FINAL_OBJECT_RIGID_SHELL_ADOPTION__RUNTIME_TARGET_DEVICE_PRODUCTION_SURFACE_SOURCE_ADOPTION_PENDING`**
 
-## Exact Object VFX v2 evidence inspected
+## Exact evidence identity inspected
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository:
 
-PR #31: `VFX: bind lid-release motes to equipment-case opening phase`
+`mike-axiom-mir/axm-object-design`
 
-Exact irregularity-v2 head:
+Materials PR #6:
 
-`bc114ee7ec876107892ccedeefc8e5020315488a`
+`Materials: prove functional surface separation on case + module`
 
-Workflow:
+Exact Materials head:
 
-`35278507621`
+`2f92ff49e1099068a8e21b358b9abdede5e0f971`
 
-Scoped VFX result:
-
-`PASS_TARGET_HOST_OWNER_SEED_IRREGULARITY_V2_TWO_CONTEXT_PRESENTATION`
-
-Retained v2 artifact:
-
-- ID `10521288521`;
-- size `4,922,444 B`;
-- expected SHA-256 `521575306651a0c3b41280315da4c75df6d55ae3a2ae0e6e8b40ba740bf81d17`;
-- archive independently downloaded and rehashed by Art this activation to that exact digest.
-
-Frozen owner identity remains:
-
-- seed `41027`;
-- `18` motes;
-- trigger `0.25 s`;
-- Animation timing/easing/order unchanged;
-- owner color/alpha ceiling unchanged;
-- owner size/lifetime/velocity ranges unchanged;
-- source case/lid identity unchanged;
-- source semantics remain stylized visual release motes, not dust/fluid/pressure simulation and not gameplay-event semantics.
-
-V2's bounded repair stays within that envelope and adds subordinate irregular-mark modulation only: billboard aspect not larger than owner size, alpha not greater than owner peak, <=12 mm vertical spawn jitter, <=10 mm curved micro-offset, and decorrelated parameter sampling.
-
-## Direct Art observations — v2 close presentation
-
-Art directly inspected the retained **consecutive real-playback** sequences in:
-
-- `continuity_three_quarter`;
-- `left_oblique_seam`;
-
-and compared the retained original owner baseline, the failed v1 repair, and v2 around the original problem window at approximately 0.40 / 0.50 / 0.60 s.
-
-### Historical owner / v1 negative retained
-
-The original owner presentation exposes the Direction-036 defect: a long countable sequence of similarly sized/bright warm square billboards reads as a rigid dotted bead/exhaust trail.
-
-The first v1 repair remains a useful retained negative. It did not materially remove that line-like read and its local 0.40 s component-centroid diagnostic became more line-dominant than owner in both views.
-
-No failed result is rewritten green.
-
-### V2 — bounded Art PASS
-
-Direct consecutive-frame inspection shows v2 keeps the desired properties:
-
-- seam-local origin and trajectory;
-- warm secondary accent subordinate to the case/lid;
-- clean pre/post closure;
-- no scene-dominating plume;
-- no gross teleport or unrelated scene corruption.
-
-The repaired active marks no longer read as one uniform equal-bead chain. Uneven relative size/brightness plus small vertical/curved offsets break the old repetitive dotted-exhaust presentation into a less regular set of short subordinate release marks while keeping the same small spatial role.
-
-Some directional continuity remains because the emitter is physically seam-derived. That is acceptable. Direction 036 asked to remove the **rigid equal-bead presentation**, not to erase source locality.
-
-Supporting 0.40 s diagnostic, retained only as supporting evidence:
-
-- `continuity_three_quarter`: owner ~`99.7420%` line-dominance -> v2 ~`99.2934%`;
-- `left_oblique_seam`: owner ~`99.6156%` -> v2 ~`99.4692%`.
-
-These values are not universal VFX thresholds and are not the basis of the Art PASS.
-
-Exact v2 target-host active/closure observations retained by VFX:
-
-- continuity 0.20 / 0.40 / 0.80 s: `0 / 1239 / 0` changed pixels;
-- left-oblique 0.20 / 0.40 / 0.80 s: `0 / 1643 / 0` changed pixels;
-- `18` active motes at 0.40 s;
-- real `AnimationPlayer.play()` trace reaches pre/active/post states.
-
-## Exact Map receiving evidence + Art scale decision
-
-Repository: `mike-axiom-mir/axm-map-design`
-
-PR #50: `VFX: prove repaired Object release motes in current-world playback`
-
-Exact head:
-
-`ce1b63f11467f497ca6077452338ba9fa36422ca`
-
-Exact v2 donor:
-
-`bc114ee7ec876107892ccedeefc8e5020315488a`
-
-Workflow:
-
-`35283582833 — VFX Object release motes current-world proof` — **SUCCESS**.
-
-Independent Visual QA verifies two separate facts:
-
-1. phase-bound receiving and inactive closure are real in the articulated current-world receiver; and
-2. every retained v2/control pair from the two existing current-world cameras is byte- and pixel-identical.
-
-At active retained samples:
-
-- `path_eye` 0.30 / 0.40 / 0.52 s: `11 / 18 / 18` active motes and `0 / 0 / 0` changed pixels;
-- `elevated_oblique` 0.30 / 0.40 / 0.52 s: `11 / 18 / 18` active and `0 / 0 / 0` changed pixels.
-
-The case itself is visible; the micro cue is not resolved from those wide contexts.
-
-### Art Direction decision
-
-For this exact cue, the two existing Map cameras are **non-target scale contexts** for close VFX quality. Their zero-raster result is retained as useful **non-intrusion** evidence, not treated as a reason to enlarge the source cue.
-
-The effect is intentionally a small secondary seam release accent and carries no gameplay-event, collision, damage or physical-warning semantics that would require world-scale readability.
-
-Therefore:
-
-- do **not** brighten, enlarge, densify, widen or lengthen v2 to make those cameras show positive pixels;
-- do **not** move the existing Map cameras to manufacture an observability PASS;
-- do **not** reopen seed shopping;
-- use the owner close/seam contexts as the actual aesthetic presentation surface for this micro-effect.
-
-This is exact-scope only. It is not a general policy that invisible VFX is acceptable.
-
-## Direction 038 handoffs
-
-### Object VFX / PR #31
-
-Hold exact v2 `bc114ee7...`. No further source retune is requested by Art Direction 038. Preserve owner seed `41027`, 18-mote count, trigger, Animation timing, owner envelope ceilings, locality and closure while independent QA reviews the exact v2 close packet.
-
-### Map VFX / PR #50
-
-Keep the exact current-world result. It now serves as:
-
-- real phase-bound v2 execution/closure evidence in the articulated receiver; and
-- wide-context non-intrusion evidence.
-
-Do not modify VFX or Environment cameras to create raster visibility there.
-
-### Independent Visual Observer / QA
-
-Re-review exact Object v2 artifact `10521288521` / SHA `521575306651a0c3b41280315da4c75df6d55ae3a2ae0e6e8b40ba740bf81d17` in the two owner close/seam contexts against the retained Direction-036 owner/v1 negatives. Confirm or reject only the bounded claim that the rigid equal-bead trail is sufficiently broken while locality, hierarchy and closure remain intact.
-
-Do not require Map `path_eye` / `elevated_oblique` visibility as the close-presentation gate.
-
-### Runtime / Object PR #32
-
-Current exact head `b45dfee4c0a6ae92b8bc5056d4846331075fdadc` is bound to the pre-v2 held owner presentation and retains a real proof-host draw/object-count win:
-
-- isolated VFX draw calls `18 -> 1`;
-- total frame draw calls `49 -> 32`;
-- six retained legacy/MultiMesh comparisons: `0` pixels above 1 LSB, max delta 1 LSB.
-
-Preserve that as historical Runtime evidence. Do not call it v2 adoption. If independent QA confirms exact v2, rebind this existing Runtime lane to v2 and reproduce visual equivalence/cost without changing VFX style.
-
-## Direction 037 fresh continuity — transport question answered, visual adoption still held
-
-Object Technical Art PR #16 has now answered the specific transport-convention handoff created by Direction 037.
-
-Exact TA head:
+Exact Technical Art PR #16 donor:
 
 `7fa10bff981e49c9ea3396b83c4c6d731a90d146`
 
-Exact owner inputs retained:
+Exact upstream identities retained:
 
-- Geometry #33 `606d8189a3bf4502141d8038f08d35d421829dde`;
-- Hard Surface #34 `77a4058b305fab7fd04dab94781b9460f089727e`;
-- UC `7be1a28c43a88c7e40f7d0c039aefd753d5e70d9`, generic unchanged.
+- Object source SHA-256 `49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`;
+- Geometry orientation lineage `606d8189a3bf4502141d8038f08d35d421829dde`;
+- Hard-Surface exterior-intent donor `77a4058b305fab7fd04dab94781b9460f089727e`;
+- current UC donor consumed by Technical Art `7be1a28c43a88c7e40f7d0c039aefd753d5e70d9`;
+- existing Object material-profile SHA-256 `dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`.
 
-TA proves the real source→UC coordinate map has determinant `-1`; the parity-correct path reverses all `812` already exterior-authorized triangles exactly once at that boundary while the unadapted negative reverses none. Real Godot imported-index observation distinguishes the two exact variants across all `31/31` groups with matching absolute signed-volume magnitudes.
+Technical Art exact current-UC outputs:
 
-Two earlier renderer silhouette observers remain honestly failed/insensitive rather than being relabeled green.
+- parity-corrected GLB SHA-256 `c3326180d7626b224e16d372c2ff5f6fe47a6c9d13241d8225cea7629e58bd83`;
+- unadapted negative GLB SHA-256 `708926421688fbc9cc727aadb21023b4e543b174ac1434fd5387d732c2d498a2`.
 
-This satisfies Direction 037's **transport-convention question**, but it does **not** close Direction 037's rendered visual gate. Final ordinary-cull coherence with the production-facing material receiver still requires Materials / Art / independent QA. Art does not duplicate TA's parity adapter or convert its exact-path rule into a universal Godot/glTF rule.
+Materials workflow:
+
+`35286641818 — Object material rigid-shell transport lookdev` — **SUCCESS**.
+
+Retained artifact:
+
+- ID `10524537275`;
+- size `269,596 B`;
+- GitHub SHA-256 `d11527607ef3bb725d27431b3f0272158832d0df61d244c83f1921002d208629`;
+- Art independently downloaded the archive this activation, reproduced the exact byte size, and rehashed it to the exact same SHA-256.
+
+The retained packet contains 18 real-Godot PNGs plus exact Technical-Art GLBs and receipts. Art directly inspected all three retained material/culling contexts and independently recomputed the relevant integer PNG comparisons.
+
+## Direct Art observations
+
+Retained contexts:
+
+- `front_service`;
+- `three_quarter`;
+- `rear_hinge`.
+
+The review keeps the same 31 mesh/material groups and 812 triangles. Existing Object scalar-PBR values are unchanged. No UV or texture change participates in this gate.
+
+### Spatial attribution control — PASS
+
+Parity-corrected versus unadapted **two-sided unshaded** renders are pixel-identical in all three contexts:
+
+- `front_service`: `0` changed pixels;
+- `three_quarter`: `0` changed pixels;
+- `rear_hinge`: `0` changed pixels.
+
+Therefore the ordinary-cull difference is not being explained by a changed projected shape or camera move in this retained proof.
+
+### Parity-corrected Technical-Art path under ordinary culling — Art PASS
+
+Art independently compared each corrected ordinary-backface-cull render against the same corrected GLB's own two-sided lit reference.
+
+Pixels above 1 LSB:
+
+- `front_service`: **0**;
+- `three_quarter`: **1**;
+- `rear_hinge`: **1**;
+- aggregate: **2**.
+
+Direct native and enlarged inspection shows the manufactured case remains visually closed and coherent in all three contexts. The two nonzero samples are isolated single edge/raster pixels and do not form a coherent missing face, hollow region, detached component or silhouette break.
+
+This supports the bounded Art claim that the **exact Technical-Art parity-corrected current-UC path preserves the intended closed manufactured-shell read under the current Object material family and ordinary backface culling in these three retained contexts**.
+
+### Exact unadapted negative — retained FAIL
+
+Art independently compared each unadapted ordinary-cull render against the same unadapted GLB's two-sided lit reference.
+
+Pixels above 1 LSB:
+
+- `front_service`: **119,850**;
+- `three_quarter`: **85,440**;
+- `rear_hinge`: **56,526**;
+- aggregate: **261,816**.
+
+Maximum RGB-channel deltas reach `225 / 242 / 248` LSB respectively.
+
+Direct inspection reproduces the Direction-037 qualitative failure: large manufactured shell regions disappear and the case reads hollow/broken. This is not a subtle shading preference. The unadapted packet therefore remains a useful exact negative and is not deleted once the corrected path passes.
+
+## Independent Visual Observer / QA agreement
+
+Visual Observer / QA separately reviewed the exact same Materials head, Technical-Art donor, workflow and retained artifact and returned:
+
+- `PASS_OBJECT_TA_PARITY_CORRECTED_TRANSPORT_ORDINARY_CULL_VISUAL_COHERENCE__THREE_RETAINED_CONTEXTS`;
+- `PASS_OBJECT_TA_TRANSPORT_UNSHADED_SPATIAL_IDENTITY__THREE_RETAINED_CONTEXTS`;
+- `FAIL_OBJECT_TA_UNADAPTED_TRANSPORT_ORDINARY_CULL_VISUAL_COHERENCE__THREE_RETAINED_CONTEXTS`.
+
+QA keeps final Object rigid-shell visual adoption blocked on the remaining Art / Runtime / target-device / production-surface boundaries. Direction 039 answers only the Art portion of that returned exact-path gate.
+
+## Direction 039 handoffs
+
+### Materials / Object PR #6
+
+Freeze exact Materials head `2f92ff49...` and the current scalar-PBR family as the retained visual reference for this exact transport/culling question. No albedo, metallic or roughness retune is requested to solve winding/front-face behavior.
+
+Future production-surface changes may proceed in Materials-owned lanes, but they must preserve the closed-shell ordinary-cull behavior instead of masking a transport problem with two-sided rendering.
+
+### Technical Art / Object PR #16
+
+The exact parity-corrected path at `7fa10bff...` is now the Art-preferred current-UC receiving reference for this Object shell. Preserve the exact unadapted negative as a discriminator. Do not promote this one Object determinant/parity result into a universal Godot, glTF or UC winding rule without materially independent evidence.
+
+### Runtime / target-device owner
+
+The next useful receiving question is **target-device preservation of the exact corrected visual reference**, not another source or material mutation.
+
+Consume the exact corrected GLB / current material reference under ordinary culling and report the renderer/culling path actually used, any coherent shell-region loss or culling change, and device performance metrics only where the target-device harness can measure them honestly. Representation optimization remains Runtime-owned and must stay separate from visual adoption.
+
+Art does not open or hijack an unrelated Runtime product PR merely to satisfy cadence.
+
+### Geometry / Hard Surface
+
+No Art-requested source mutation follows from Direction 039. Geometry's candidate and Hard Surface's exterior semantics remain provenance/owner evidence. Source adoption remains outside Art authority.
+
+### Independent Visual Observer / QA
+
+No duplicate QA rerun is requested for the exact `2f92ff49...` packet. Re-enter only if Runtime/device representation, production-surface state, transport bytes or review contexts materially change.
+
+The separately queued Object VFX v2 close-presentation QA from Direction 038 remains a different gate and is not superseded by this shell decision.
 
 ## Prior Art Direction continuity retained
 
 - Direction 032: compact-east sampled spatial response PASS.
 - Direction 033: compact-east exact-key receiver continuity PASS.
-- Direction 034: final compact-east motion HOLD because one retained proof-host loop erased the authored crest.
-- Direction 035: Object VFX owner seed `41027` retained as the fixed-sample review baseline.
-- Direction 036: Object VFX owner presentation HOLD on rigid bead-chain read; now specifically answered by Direction 038 v2 close-presentation PASS.
-- Direction 037: Object rigid-shell production winding adoption HOLD; TA transport convention is now proven for the exact path, while final rendered Materials/Art/QA coherence remains held.
-- Direction 038: repaired Object VFX v2 close presentation PASS; existing wide Map zero-raster result accepted as non-target scale/non-intrusion evidence; final adoption held on independent QA, Runtime rebind and target-device evidence.
+- Direction 034: final compact-east motion HOLD because one retained proof-host loop erased the authored crest; no source retiming requested.
+- Direction 035: Object release-mote owner seed `41027` retained as fixed-sample baseline.
+- Direction 036: Object release-mote wall-clock presentation HOLD on rigid equal-bead trail.
+- Direction 037: Object rigid-shell production winding/receiver adoption HOLD after direct owner-order ordinary-cull shell loss; Technical Art transport convention requested rather than source rewrite.
+- Direction 038: repaired Object release-mote irregularity-v2 close presentation PASS; wide Map zero-raster accepted as non-target-scale/non-intrusion evidence; final VFX adoption still held on independent QA, Runtime rebind and target device.
+- Direction 039: exact Technical-Art parity-corrected Object rigid-shell path now passes retained material/cull Art review and closes Direction 037's rendered/cull HOLD **for this exact path only**; final Object shell adoption remains downstream-held.
 
 No acceptance transfers between domains by analogy.
 
@@ -245,19 +212,16 @@ No acceptance transfers between domains by analogy.
 
 This activation does **not** establish:
 
-- independent Visual QA acceptance of the close v2 packet;
-- final VFX adoption;
-- production particle-system representation;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery behavior;
-- arbitrary-camera visibility;
-- required world-scale visibility;
-- physical dust, pressure, airflow or fluid behavior;
-- collision, damage, interaction or gameplay-event semantics;
-- final Environment adoption;
-- final Runtime adoption;
-- final Object rigid-shell rendered/culling acceptance;
-- source adoption of Geometry #33;
-- a universal front-face/winding convention;
+- source adoption of Geometry's orientation candidate;
+- a universal signed-volume, outward, clockwise/counter-clockwise, glTF, Godot or renderer front-face convention;
+- final production UV, texture, decal, wear, normal, AO or tangent-space surface quality;
+- arbitrary-camera or arbitrary-renderer equivalence;
+- Godot Forward+, browser, mobile, console or other engine/backend equivalence;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- Runtime adoption;
+- physics, collision, manufacturing or gameplay suitability;
+- final Object asset acceptance;
+- completion of the separate Object VFX v2 QA/Runtime/device gate;
 - final compact-east motion acceptance;
 - CANON;
 - production/game readiness;
@@ -266,12 +230,12 @@ This activation does **not** establish:
 
 ## Four-root gate
 
-**Truth:** v2 close improvement, the failed/held owner-v1 lineage, Map's complete zero-raster result, TA's exact-path parity proof and the remaining rendered winding HOLD are all preserved as separate facts. No zero-raster result is narrated as visible success and no structural PASS is inflated into final visual acceptance.
+**Truth:** the corrected and unadapted outcomes remain separate exact facts. The severe unadapted shell failure remains retained; the corrected PASS is bounded to exact bytes, renderer path and three contexts; remaining downstream gates stay explicit.
 
-**Agency / non-domination:** Art chooses the hierarchy and correct review context but does not seize VFX implementation, Environment camera ownership, Animation timing, Runtime representation, Technical-Art transport or QA authority.
+**Agency / non-domination:** Art selects the visual reference but does not seize Geometry source authority, Hard-Surface exterior semantics, Technical-Art implementation, Materials authorship, Runtime/device policy or QA independence.
 
-**Continuity:** owner seed, timing, v1 failure, Direction 036, exact v2, Map receiving, Runtime's old-owner optimization, Direction 037 and TA's completed parity bridge all remain independently addressable. No historical state is silently overwritten.
+**Continuity:** Direction 037 is not silently rewritten. Its failure, missing transport question, Technical-Art parity bridge, Materials replay, independent QA verdict and Direction 039 decision remain separately addressable by exact identities. Direction 038 remains independently intact.
 
-**Wisdom before speed:** the studio keeps a subtle micro-cue subtle rather than inflating it to satisfy an unsuitable wide-camera metric, while still requiring independent QA and Runtime/device evidence before adoption and keeping the separate rigid-shell rendered gate open.
+**Wisdom before speed:** the studio closes one real whole-object blocker with direct returned evidence, freezes the good reference, preserves the failure control and moves downstream to device/production-surface validation instead of churning source geometry or inventing a global winding rule from one successful asset.
 
 The four AXM roots remain the merge gate.
