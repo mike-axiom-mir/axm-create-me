@@ -2,223 +2,238 @@
 
 Date: 2026-09-18
 
-State: **PASS_ART_DIRECTION_ANIMAL_RUNTIME_19_KEY_RETAINED_VIEW_TRADEOFF_040 / FREEZE_19_KEY_CANDIDATE_AS_RUNTIME_REVIEW_REFERENCE__DO_NOT_RETUNE_SOURCE_ANIMATION / HOLD_FINAL_ANIMAL_KEY_BUDGET_ADOPTION__INDEPENDENT_QA_WHOLE_ANIMAL_CONTINUOUS_MOTION_TARGET_DEVICE_PENDING / DIRECTION_039_OBJECT_SHELL_REFERENCE_REMAINS_INTACT / DIRECTION_038_OBJECT_VFX_V2_NOW_ART_AND_QA_PASS__RUNTIME_V2_REBIND_QA_DEVICE_HELD / COORDINATION_ONLY**
+State: **PASS_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_NONDESTRUCTIVE_REVIEW_CANDIDATE_041 / HOLD_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_AS_PREFERRED_PRESENTATION_041__PERCEPTUAL_GAIN_NOT_DEMONSTRATED / KEEP_DIRECTION_005_SINGLE_TAP_SOURCE_WIDTH_AS_CURRENT_DEFAULT_VISUAL_REFERENCE / DIRECTION_040_ANIMAL_19_KEY_REVIEW_REFERENCE_REMAINS_INTACT / OBJECT_VFX_V2_RUNTIME_REPRESENTATION_NOW_INDEPENDENT_QA_PASS__TARGET_DEVICE_PRODUCTION_RUNTIME_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the immediately preceding Art Direction status, fresh specialist status, newest coordination commits, current open design-repository PRs and retained visual evidence across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc before choosing work.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art Direction status, fresh specialist status, newest open design PRs and current visual-evidence handoffs across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. No product mesh, rig, material, animation curve, Runtime reducer, receiver implementation, gameplay system or Universal Creation product implementation was added here.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. No product mesh, material, rig, animation curve, VFX source, Runtime scheduler, Environment scene, gameplay system or Universal Creation product implementation was added here.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate predecessor Art status blob:
 
-`8f91200a0443b11a85dc22e378e89bc5dd3fc586`
+`57fecf0c5cb77384a51def5c1391293588286817`
 
-Direction 039 remains exact historical truth. Nothing in Direction 040 rewrites its Object parity-corrected rigid-shell PASS, its retained unadapted negative or its downstream Runtime/device/production-surface holds.
+Directions 038–040 remain exact historical truth. Direction 041 does not rewrite the Object VFX-v2 owner PASS, Object parity-corrected shell PASS, or Animal 19-key bounded Runtime tradeoff PASS.
 
 ## Fresh constellation choice / duplicate-lane scan
 
-The highest-leverage fresh Art-owned question is the **Animal Runtime 41 -> 19 serialized animation-key visual tradeoff** at exact Runtime PR #30 head `13ba20d198d2b7c5e428167745d59927b3084004`.
+The highest-leverage fresh Art-owned question is the exact **opacity-normalized two-tap Weather temporal-exposure presentation** returned by Map VFX PR #25.
 
-Why this displaced other reviewable work:
+Why selected:
 
-- **Object VFX:** Direction 038's irregularity-v2 owner presentation has now independently passed Visual Observer / QA at exact VFX head `bc114ee7ec876107892ccedeefc8e5020315488a`. Runtime has also rebound its existing MultiMesh lane to those exact owner bytes at Runtime head `f7408712a90e5b0b7f3043f577580d912d8d0527`, with `18 -> 1` isolated VFX draw call and no retained A/B pixel above 1 LSB. Independent QA of the Runtime representation and target-device evidence remain downstream. Art does not duplicate that active QA lane or reopen source style.
-- **Object rigid shell:** Direction 039 already closes the exact Technical-Art corrected-path material/cull visual gate. No fresh source/material rewrite is requested.
-- **Animal Runtime PR #30:** Runtime explicitly returns a **nonzero silhouette/deformation approximation** for Art/QA rather than auto-adopting it. The candidate materially reduces stored keys while keeping the authored Animation source untouched, so this is a real bounded perceptual tradeoff rather than an implementation-only metric.
-- **Map Environment PR #49:** the +20 mm rear-only service-frame successor now has exact real-Godot A/B evidence and a deterministic compact atlas ready for Art/QA. Its visual delta is intentionally local and remains queued; Art does not mutate Environment's already-minimal candidate merely to satisfy cadence.
-- **Character:** current Technical-Art / Runtime receiver work remains in owner lanes; no stronger fresh visible defect displaced the Animal returned tradeoff.
-- **Building:** current Geometry, Materials and receiving work remains specialist-owned; the boundary-only reference shell is not an automatic visual/runtime adoption surface.
-- **Nature / Weather / compact-east:** existing Organic, VFX, playback and source-variation lanes retain their own Art/QA or temporal holds. Direction 034 still forbids retiming compact-east merely to satisfy proof-host source-slot observation.
-- **Weapon / Armor / Unit / Misc:** no open PR surface in the fresh repository scan displaced the returned Animal tradeoff.
+- **Weather / Map VFX:** VFX has deliberately stopped retuning exact candidate `dd4a85223ba70f7086db2fdc292e4cb57ac38e47` and built an exact hash-bound A/B blink surface at review head `9b32dbdf62ea4e83e30f8fdb3e775817e44fb6d5` specifically so Art / Visual QA can judge the perceptual tradeoff. This is a direct visual-direction handoff rather than another implementation-only metric.
+- **Object VFX Runtime:** independent Visual Observer / QA has now passed the exact repaired-v2 MultiMesh representation at Runtime head `f7408712a90e5b0b7f3043f577580d912d8d0527`: all six retained legacy/MultiMesh A/B pairs have `0` pixels above `1 LSB`, with exact owner continuity preserved. Final target-device / production-particle-runtime adoption remains held. Art does not duplicate that completed independent QA gate this activation.
+- **Animal Runtime:** Direction 040 already freezes the exact 19-key candidate as the Runtime review reference while independent QA / whole-animal continuous playback / target-device evidence remain downstream. No extra compression or source retune is requested.
+- **Object rigid shell:** Direction 039 remains the retained corrected-path material/cull visual reference; no fresh shell source rewrite is justified.
+- **Environment / Building:** the current utility-panel world-material lane is structurally held because the active 184v / 276t / five-surface Building receiver has no exact UV0 + image transport binding. There is not yet a truthful current-world material A/B for Art to judge.
+- **Map Object service-frame successor:** its +20 mm rear-only candidate remains a bounded queued Art/QA surface, but it does not displace the newly explicit Weather perceptual handoff.
+- **Map Runtime static batching successor:** fresh pass 48 proves only exact 31-component / 7-moving / 24-static eligibility continuity. Runtime correctly forbids transfer of the prior draw-call and visual results until a fresh successor A/B exists, so there is no new Art raster gate there yet.
+- **Character / Nature / Building source / Procedural / Rigging / Animation:** active owner lanes remain specialist-owned and expose no stronger fresh Art-visible defect than the Weather handoff.
+- **Weapon / Armor / Unit / Misc:** no fresh open visual surface displaced the selected Weather question.
 
-Art changes no Runtime reducer, Animation key data, interpolation, rig weights, material scalar, camera, lighting, Technical-Art transport, physics, gameplay or UC product code.
+Art changes no Weather source semantics, lag, alpha mapping, density, width, seed, camera, light, Environment composition, Nature motion, Runtime scheduling, gameplay/physics or UC product code.
 
-## Selected bounded visual-direction improvement — Direction 040
+## Selected bounded visual-direction improvement — Direction 041
 
 New packet:
 
-`studio/direction/ANIMAL_RUNTIME_KEY_BUDGET_VISUAL_TRADEOFF_DIRECTION_040.md`
+`studio/direction/CURRENT_WORLD_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_DIRECTION_041.md`
 
 Packet commit:
 
-`3daa80ae3dd62832ee42f1913fe04f50e452123a`
+`8325f14cd96c81263f9bd4138319db402769ff68`
 
-Selected visual direction:
+Direction states:
 
-**`PASS_ART_DIRECTION_ANIMAL_RUNTIME_19_KEY_RETAINED_VIEW_TRADEOFF_040`**
+**`PASS_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_NONDESTRUCTIVE_REVIEW_CANDIDATE_041`**
 
-Reference policy:
+**`HOLD_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_AS_PREFERRED_PRESENTATION_041__PERCEPTUAL_GAIN_NOT_DEMONSTRATED`**
 
-**`FREEZE_19_KEY_CANDIDATE_AS_RUNTIME_REVIEW_REFERENCE__DO_NOT_RETUNE_SOURCE_ANIMATION`**
+**`KEEP_DIRECTION_005_SINGLE_TAP_SOURCE_WIDTH_AS_CURRENT_DEFAULT_VISUAL_REFERENCE`**
 
-Final adoption state:
-
-**`HOLD_FINAL_ANIMAL_KEY_BUDGET_ADOPTION__INDEPENDENT_QA_WHOLE_ANIMAL_CONTINUOUS_MOTION_TARGET_DEVICE_PENDING`**
+The normalized two-tap candidate may remain an exact experiment/review reference. It is not promoted over the already accepted single-tap source-width presentation on the current evidence.
 
 ## Exact evidence identity inspected
 
 Repository:
 
-`mike-axiom-mir/axm-animal-design`
+`mike-axiom-mir/axm-map-design`
 
-Runtime PR #30:
+PR #25:
 
-`Runtime: reduce Animal animation key import budget`
+`VFX: carry source-authored Weather width into current-world proof`
 
-Exact Runtime head:
+Exact normalized visual candidate:
 
-`13ba20d198d2b7c5e428167745d59927b3084004`
+`dd4a85223ba70f7086db2fdc292e4cb57ac38e47`
 
-Exact Animation owner head:
+Exact A/B review-only head:
 
-`eb21e0e0fd888bbb5fa41c73a6c0f1c731f662c2`
+`9b32dbdf62ea4e83e30f8fdb3e775817e44fb6d5`
 
-Dedicated workflow:
+Normalized workflow:
 
-`35288829261 — Runtime Animal animation key budget evidence` — **SUCCESS**.
+`35147580525` — **SUCCESS**
 
-Retained artifact:
+Normalized retained artifact:
 
-- ID `10525970648`;
-- size `175,311 B`;
-- GitHub SHA-256 `ad071f58796b606d707168af9619d988a497ba1a745dda8ac62b42e7f814b996`;
-- Art independently downloaded the archive this activation, reproduced the exact byte size and rehashed it to the exact same SHA-256 before judging the visual evidence.
+- ID `10466759303`;
+- size `7,963,651 B`;
+- GitHub SHA-256 `957a8b6afa54a6a8200597cb1276260390515c6db4129a24dfec76d084fbedf8`;
+- Art independently downloaded/rehashed it to the exact same digest this activation.
 
-Exact representation result:
+A/B blink review workflow:
 
-- serialized rotation keys: `41 -> 19`;
-- removed keys: `22 / 53.6585366%`;
-- animation accessor bytes: `820 -> 380 B`, saving `440 B / 53.6585366%`;
-- complete GLB: `10,296 -> 9,852 B`, saving `444 B / 4.3123543%`;
-- candidate SHA-256 `a8a32b58ad3bad44176a676b00f5cf1c20d1a2ec6da275b683d8f73a69088d6b`;
-- dense diagnostic evaluation: `321` samples / `320 Hz`;
-- maximum quaternion residual `0.0547204398°`;
-- mean residual `0.0176527597°`;
-- worst diagnostic time `0.475 s`;
-- authored peak `0.50 s` remains an explicitly retained source key;
-- source Animation retimed: **false**;
-- source-authored keys modified: **false**.
+`35296171608 — VFX Weather normalized exposure A-B blink review` — **SUCCESS**
 
-The real Godot 4.7.2 / GL Compatibility / llvmpipe receiver retains `80` triangles and unchanged material bindings. Maximum retained pose-bounds delta is `0.0004068017 m` (~`0.407 mm`).
+Review artifact:
+
+- ID `10527802147`;
+- size `1,416,828 B`;
+- GitHub SHA-256 `a0e66029badb8ff36233ee1415d8081c7b68a613ad246bac4ddfa9e695dccb3d`;
+- Art independently downloaded/rehashed it to the exact same digest this activation.
+
+Presentation policy:
+
+`TWO_TAP_TRANSMITTANCE_NORMALIZED_RECEIVING_ONLY_TEMPORAL_EXPOSURE`
+
+Configured lag: `15.625 ms`.
+
+The candidate keeps the same 36 source streaks and source-authored width language while using 72 receiving ribbons. Weighted transmittance reconstructs original source alpha at coincident equal-source taps, removing the earlier half-opacity candidate's static-dimming confound.
 
 ## Direct Art observations
 
-Art directly inspected all six retained images: three shaded A/B views and their three coverage masks.
+Art inspected all `18` exact control/candidate retained pairs (`2` cameras × `9` phases) plus the selected A/B blink witnesses at `0 / 125 / 312.5 / 500 ms`.
 
-### Worst-time view 00 — bounded drift accepted
+### Zero-lag appearance
 
-At exact `0.475 s`:
+At exact `0 ms` the normalized candidate is brightness-equivalent within only 1-LSB raster noise:
 
-- raw changed pixels: `9,850`;
-- pixels >1 LSB: `152`;
-- coverage changes: `59` pixels;
-- shaded maximum RGB-channel delta: `244 LSB` at changed foreground/background edge coverage.
+- `path_eye`: `1,347` raw changed pixels, max RGB delta `1 LSB`, whole-frame mean absolute RGB delta `0.00089436 LSB`;
+- `elevated_oblique`: `1,607` raw changed pixels, max RGB delta `1 LSB`, whole-frame mean absolute RGB delta `0.00095497 LSB`.
 
-Direct native and enlarged review localizes the difference to a very small silhouette/edge displacement around the lower bend and outer side. The form remains continuous and readable. No joint inversion, detached segment, gross volume collapse, changed motion phase or coherent shading break is visible.
+No meaningful dimming, brightening, world-composition shift or silhouette corruption is visible.
 
-### Worst-time view 01 — bounded drift accepted
+### Nonzero-lag footprint
 
-At the same exact `0.475 s` witness:
+The strongest selected witnesses remain sparse:
 
-- raw changed pixels: `8,967`;
-- pixels >1 LSB: `564`;
-- coverage changes: `81` pixels;
-- shaded maximum RGB-channel delta: `244 LSB` at changed coverage edges.
+- `elevated_oblique`, `125 ms`: `1,727` raw changed pixels / `0.21806%` of frame, max retained per-channel delta `121 LSB`;
+- `path_eye`, `312.5 ms`: `1,510` / `0.19066%`, max retained per-channel delta `119 LSB`.
 
-This alternate view makes the small silhouette shift easier to locate, but it still reads as a tiny interpolation approximation rather than a changed animation idea. The bend, taper, lower flare and overall pose hierarchy remain coherent.
+Direct A/B review reads as a slight broadened / trailing streak footprint. Art found no giant ribbon, wedge, hard double-image, pavilion/path/vegetation hierarchy break or world corruption.
 
-### Authored peak `0.50 s` — exact retained identity
+At native whole-frame scale the difference is difficult to perceive without deliberate blink/difference localization. It does not establish a clearly stronger atmosphere read than the accepted single-tap source-width presentation.
 
-At exact `0.50 s`, the shaded control/candidate pair is byte-identical and the coverage pair is also byte-identical:
+### Temporal-value boundary
 
-- raw changed pixels: `0`;
-- pixels >1 LSB: `0`;
-- coverage changes: `0`;
-- maximum channel delta: `0`.
+Across the exact nine review phases, the candidate's median whole-frame inter-frame RGB change is only:
 
-This is an important retained control because the authored peak remains a real source key rather than being approximated away.
+- `path_eye`: candidate/control ratio `0.99971848` — about **0.028% lower**;
+- `elevated_oblique`: ratio `0.99620247` — about **0.380% lower**.
+
+That is a truthful measurable delta, but not evidence of a meaningful perceptual smoothing improvement. The current evidence shows a slight footprint change while leaving transition magnitude nearly unchanged.
+
+The fixed-phase blink surface is sufficient to judge non-destructive appearance and spatial footprint. It is not sufficient to establish viewer-facing wall-clock smoothness, cadence quality or rhythm superiority.
 
 ## Art Direction decision
 
-For this exact simplified Animal deformation proof surface, the 19-key Runtime representation preserves the intended pose read strongly enough that the measured worst-time drift is acceptable as a **bounded Runtime representation tradeoff**.
+### PASS — keep exact candidate as non-destructive experiment
 
-The current 19-key candidate may proceed as the **Runtime review reference** for independent QA and broader receiving evidence.
+**`PASS_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_NONDESTRUCTIVE_REVIEW_CANDIDATE_041`**
 
-Art does **not** authorize deleting, rewriting or retiming the authored 41-key Animation source. It does not authorize reducing below 19 keys, widening the `0.075°` reducer bound, changing interpolation/easing, altering rig weights or changing material/lighting parameters to chase more compression.
+The exact normalized candidate removes the prior static-opacity confound and introduces no retained-frame hierarchy/artifact failure strong enough to discard it.
 
-## Direction 040 handoffs
+### HOLD — do not promote as preferred/default Weather presentation
 
-### Runtime / Animal PR #30
+**`HOLD_ART_DIRECTION_WEATHER_NORMALIZED_TEMPORAL_EXPOSURE_AS_PREFERRED_PRESENTATION_041__PERCEPTUAL_GAIN_NOT_DEMONSTRATED`**
 
-Freeze exact Runtime head `13ba20d...`, the current 19-key candidate and the retained 41-key control as the A/B reference. Do not squeeze the channel further from this Art PASS.
+The current retained evidence does not show enough perceptual benefit to displace the already accepted single-tap source-width look.
 
-This decision accepts only the current retained-view visual tradeoff. Runtime/device import cost, CPU/GPU/FPS/VRAM/thermal and production representation remain Runtime-owned.
+Current visual default remains:
+
+**`KEEP_DIRECTION_005_SINGLE_TAP_SOURCE_WIDTH_AS_CURRENT_DEFAULT_VISUAL_REFERENCE`**
+
+Do not respond to this HOLD by increasing Weather density, opacity, width, streak length, lag, camera emphasis or world-lighting contrast. Do not generate another parameter variant merely to create a more visible delta.
+
+## Direction 041 handoffs
+
+### VFX / Map PR #25
+
+Freeze exact normalized candidate `dd4a852...` as the review variant. Stop parameter retuning from this Art gate. Preserve Direction 005 single-tap source-width as the current visual default until a future temporal proof demonstrates a meaningful benefit.
 
 ### Independent Visual Observer / QA
 
-Review exact artifact `10525970648` independently rather than inheriting this Art PASS. Preserve the exact worst-time `0.475 s` witnesses and exact authored `0.50 s` peak control.
+Review exact normalized artifact `10466759303` and A/B review artifact `10527802147` independently. Do not inherit Art preference. Useful discriminator: whether the subtle trailing/broadening creates a coherent artifact or any defensible perceptual benefit not captured by the tiny transition metric.
 
-The useful discriminator is whether the 19-key candidate introduces any coherent pose, silhouette or shading defect beyond the already-recorded tiny edge drift in the two worst-time views.
+### Runtime
 
-### Animation
+No scheduling, interpolation, buffering, target-device or performance implementation is requested by Direction 041. Keep default and experiment identity separate.
 
-No retime, interpolation change, easing change or authored-key rewrite is requested. The 41-key owner animation remains Animation truth/source. The 19-key file is only a Runtime receiving representation.
+### Environment / Weather / Nature
 
-### Rigging / Materials / Technical Art
+No camera, lighting, composition, Weather source semantics/seed/density/width or Nature motion change follows from Direction 041.
 
-No Art-requested source, deformation, shading or transport mutation follows from Direction 040. Any future whole-animal/current-world receiver must prove its own continuity; acceptance does not transfer automatically from this simplified proof body.
+## Next Art-useful proof
 
-## Remaining final-adoption gates
+If the temporal-exposure lane is selected again, the next useful evidence is a truthful viewer-facing playback A/B:
 
-- independent Visual QA on exact 19-key retained evidence;
-- materially broader **whole-animal/current-world** visual evidence rather than only the simplified deformation proof body;
-- continuous playback evidence capable of revealing rhythm/stepping regressions, not only static exact-time frames;
-- honest target-device/import/runtime measurement when an actual target-device surface exists;
-- preservation of the 41-key authored source and rollback path.
+- Direction-005 single-tap source-width reference vs exact normalized two-tap candidate;
+- same Weather source sequence, camera, world composition and display conditions;
+- capture kept outside the timed presentation loop where possible;
+- enough steady playback to expose cadence/rhythm, not isolated phase frames;
+- no effect amplification or source retune solely to make the candidate easier to notice.
+
+Until then, the candidate remains review-only/non-default.
 
 ## Prior Art Direction continuity retained
 
-- Direction 034: final compact-east motion remains held on delivered temporal salience; no source retiming requested.
-- Direction 035: Object release-mote owner seed `41027` remains provenance baseline.
-- Direction 036: historical rigid equal-bead presentation failure remains preserved.
-- Direction 037: historical direct owner-order shell-culling failure remains preserved.
-- Direction 038: repaired Object release-mote irregularity-v2 close presentation remains Art PASS; independent Visual QA now agrees on exact owner head `bc114ee7...`; Runtime has rebound its MultiMesh representation to v2, while Runtime-representation QA / target-device evidence remain separate.
-- Direction 039: exact Technical-Art parity-corrected Object rigid-shell path remains the retained material/cull visual reference and the unadapted path remains an exact negative.
-- Direction 040: exact Animal 19-key Runtime candidate passes bounded retained-view Art tradeoff review only; final adoption remains held.
+- Direction 005: source-authored Weather width remains preferred over inherited hairline rendering in the exact current-world proof.
+- Direction 009: latest-due exact-state presentation remains an explicit degradation/fallback only, not cadence-equivalent default presentation.
+- Direction 034: compact-east final temporal salience remains held without source retiming.
+- Direction 035: Object mote seed `41027` remains provenance baseline.
+- Direction 036: historical rigid equal-bead Object VFX failure remains preserved.
+- Direction 037: historical unadapted rigid-shell culling failure remains preserved.
+- Direction 038: repaired Object release-mote irregularity-v2 remains Art PASS in close/seam contexts. Independent QA agrees, and the exact Runtime v2 MultiMesh representation now also has independent visual-equivalence QA; target-device/production-runtime adoption remains separate.
+- Direction 039: parity-corrected Object rigid shell remains the retained material/cull reference.
+- Direction 040: Animal 19-key Runtime candidate remains a bounded retained-view Art PASS and review reference only; broader independent QA/motion/device gates remain open.
+- Direction 041: exact normalized Weather temporal exposure is a non-destructive review candidate but is not the preferred/default visual presentation on present evidence.
 
-No acceptance transfers between domains by analogy.
+No acceptance transfers across domains or representations by analogy.
 
 ## Explicit non-claims
 
 This activation does **not** establish:
 
-- that `19` serialized keys are universally optimal for Animal clips;
-- that `0.075°` is a universal visual tolerance;
-- arbitrary-camera equivalence;
-- whole-animal visual acceptance;
-- final deformation, normal, tangent-space or material quality;
-- continuous-motion naturalness or absence of stepping;
-- target-device CPU/GPU/FPS/VRAM/import-time/thermal improvement;
-- gameplay/controller acceptance;
-- permission to alter or delete the authored 41-key source;
-- automatic reducer use for other characters, animals or clips;
+- that temporal exposure is visually useless in general;
+- that `15.625 ms` is universally wrong;
+- human-perceived smoothness from still images;
+- authored Weather `32 Hz` delivery;
+- arbitrary-camera / resolution / FOV equivalence;
+- physical Weather / airflow / precipitation behavior;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery cost;
+- gameplay visibility or physics;
+- final Weather production presentation;
+- Object final runtime/device adoption;
+- Animal final runtime adoption;
 - CANON;
 - production/game readiness;
-- Animal mastery;
+- VFX mastery;
 - Runtime mastery;
 - any specialist mastery;
 - Art Direction mastery.
 
 ## Four-root gate
 
-**Truth:** the nonzero worst-time silhouette drift is retained rather than hidden behind one residual number. The authored peak's byte-identical frame is recorded separately. The PASS is bounded to exact bytes, retained views and this candidate.
+**Truth:** the normalized candidate's real but tiny spatial/transition deltas are recorded without turning green evidence into a smoothness or preference claim.
 
-**Agency / non-domination:** Art judges the visible tradeoff but does not seize Animation source authority, Runtime implementation/device authority, Rigging deformation authority or QA independence.
+**Agency / non-domination:** Art selects the visual default but does not seize Weather source semantics, VFX implementation, Runtime scheduling/device authority, Environment composition or independent QA judgment.
 
-**Continuity:** the 41-key authored control remains authoritative and recoverable. The 19-key candidate remains a separately identified receiving representation with exact provenance and rollback. Directions 038 and 039 remain independently intact.
+**Continuity:** Direction 005 remains the current visual default; the exact normalized candidate and historical predecessor remain separately recoverable. Directions 038–040 remain independently intact.
 
-**Wisdom before speed:** a `53.6585%` serialized-key reduction is accepted only after direct worst-case visual review, while further compression and production adoption are stopped pending broader visual, QA and device evidence.
+**Wisdom before speed:** the studio stops retuning a barely perceptible experimental delta and asks for evidence that can answer the actual temporal question before adding or promoting more presentation machinery.
 
 The four AXM roots remain the merge gate.
