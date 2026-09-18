@@ -2,241 +2,203 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_SHARED_DRIVER_STATIC_INTERIOR_REBIND / NATURE_GEOMETRY_PR18_HEAD_3197EBA8 / PRIOR_GEOMETRY_76C89348 / RIGGING_SHARED_DRIVER_754797A8 / VFX_STATIC_RESPONSE_BA1C12DD / 5_EXACT_STATIC_STATES / 3_PRIOR_OVERLAP_2_NEW_INTERIOR / 50_BRANCH_PAIR_STATE_UC_OBSERVATIONS / ZERO_CROSS_BRANCH_INTERSECTIONS / ORDER_FIXED_PIVOT_DRIFT_ZERO / PY311+PY313_GREEN / RUN_35314643615 / PREDECESSOR_33_STATE_RUN_35314643584_GREEN / ARTIFACT_10534613561_SHA_617E75E9_INDEPENDENT_REHASH_MATCH / CONTINUOUS_INTERVAL_AND_SIMULTANEOUS_MOTION_NOT_PROVEN / COORDINATION_ONLY**
+State: **IMPLEMENTING_NATURE_SHARED_DRIVER_CONTINUOUS_CROSS_BRANCH_SEPARATION / NATURE_GEOMETRY_PR18_HEAD_2A9796B8 / CURRENT_RIGGING_OWNER_B4B480B4 / EXACT_INTERVAL_MINUS5_TO_PLUS5_DEG / 390V_570T / FIVE_52V_72T_CHILDREN / 10_BRANCH_PAIRS / 51840_CROSS_BRANCH_TRIANGLE_PAIR_TRAJECTORIES / INDEPENDENT_EXACT_RECONSTRUCTION_ZERO_UNCERTIFIED / MIN_CONSERVATIVE_SLACK_APPROX_0.0265323070_M / HOSTED_CI_RUN_35319526386_QUEUED / NO_CI_PASS_OR_ARTIFACT_CLAIM_YET / CHILD_FIXED_TARGET_RUNTIME_GAMEPLAY_HELD / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the complete preceding Geometry ledger, and fresh specialist state across the design constellation before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/02_geometry_topology.md`, the preceding Geometry status, and fresh open specialist lanes across the design constellation before acting.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation and evidence changes live only in `mike-axiom-mir/axm-nature-design`. Universal Creation is consumed read-only at an exact merged commit and was not modified.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. Product implementation/evidence changes are confined to `mike-axiom-mir/axm-nature-design`. No Nature-specific policy was moved into Universal Creation.
 
-The immediately preceding Geometry status is preserved exactly at blob:
+Immediately preceding Geometry coordination status is preserved exactly at blob:
 
-`b07a1766bcd449b770962dbb2a9416a9ec61d475`
+`937d0341bc8636a18cd34c554789175c8626c24d`
 
-That predecessor records Nature Geometry PR #18 at `76c89348...`: neutral plus all 32 independent `±5°` simultaneous corners, 330 attributable branch-pair/state observations, zero cross-branch nonadjacent-triangle intersections, and explicit refusal to promote finite corner evidence to the continuous interval. Nothing in this activation rewrites or relabels that evidence.
+That predecessor records PR #18 at `3197eba862a6b7e6e93098a5b98d2c91bf48d32a`: five exact static shared-driver poses, two genuinely new interior `±2.5°` witnesses, 50 branch-pair/state UC observations, zero attributable cross-branch intersections, green Python 3.11/3.13 CI, and an explicit HOLD on continuous clearance. Nothing here rewrites or relabels that evidence.
 
 The four AXM roots remain the merge gate: **Truth; Agency / non-domination; Continuity; Wisdom before speed**.
 
-## Fresh constellation / duplicate-lane scan
+## Fresh constellation / non-duplication decision
 
-The existing Geometry families remain occupied or bounded: Object successor-002 receiver topology remains on Object Geometry PR #36; Building UV/topology remains under its existing owner chain; Character/Animal retain established deformation/self-intersection evidence; Nature source-topology migration remains on Geometry PR #9; no stronger current Weapon, Armor, Unit, Weather, Map or Misc structural defect displaced the new Nature return.
+Existing Geometry ownership remains occupied/bounded elsewhere: Object receiver topology is on Object Geometry #36; Building chart/topology remains on its existing Geometry chain; Character/Animal have active exact deformation/contact evidence; Nature source-topology migration remains on Geometry #9. No new competing Nature Geometry lane was opened.
 
-The materially new Geometry trigger came from a downstream owner chain after the prior PR #18 PASS:
+The materially new trigger is Nature Rigging PR #14 current exact head:
 
-- Nature Rigging PR #14 advanced to exact head `754797a815266a643c6b08f1606eb76ba95dd8c6` and added one shared diagnostic command with exact local-angle sign multipliers `+1 / -1 / +1 / -1 / +1` across `south-low / north-low / east-mid / west-high / north-top`. Pivots, axes, child partitions and the diagnostic `[-5°, +5°]` interval remain unchanged. Rigging explicitly does **not** claim simultaneous motion.
-- Nature VFX PR #19 exact head `ba1c12dd527f1ecc6a0eb4bc0b4322f15ccad475` consumes that sign-normalized command for five exact **static simultaneous review poses** at `[-5°, -2.5°, 0°, +2.5°, +5°]`. VFX explicitly labels them static visual-response review, not motion, and leaves structural/intersection authority with Geometry.
-- Animation PR #15 remains one-branch-at-a-time and is still bound to the older Rigging owner; it does not authorize shared-driver simultaneous playback.
-- Technical Art PR #3 now has a real Godot target receiver for the older Animation/Rigging chain, but explicitly does not auto-adopt the newer Rigging shared-driver successor.
-- Runtime PR #20 observes the same five shared-driver witness values for a bounded source-index working-set result, without geometry reindexing and without target-host upload authority.
+`b4b480b415047fea90b4740f7702ced0dba9142d`
 
-Prior Geometry #18 covered neutral plus every five-branch `±5°` corner. Therefore exactly three VFX states — shared `-5°`, neutral, shared `+5°` — can overlap prior Geometry witnesses. The interior `±2.5°` shared-command states are new exact simultaneous poses. Letting the VFX PASS inherit Geometry clearance for those interior states would violate the evidence boundary.
+Rigging now owns a continuous one-parameter simultaneous kinematic field over the same five pairwise-disjoint branch children for every real `u ∈ [-5,+5]°`, while explicitly holding continuous collision/self-intersection clearance. Animation #22 and VFX #23 consume that current owner for timing/response under their own authority; Technical Art #3 remains correctly bound to the older one-branch-at-a-time owner chain and does not silently inherit the newer shared-driver state.
+
+The prior Geometry lane proves finite corners/static witnesses only. Promoting those samples to every real interior `u` would violate the evidence boundary.
 
 ## Selected reusable pattern
 
-**`DOWNSTREAM_STATIC_SHARED_DRIVER_INTERIOR_WITNESSES_REQUIRE_EXACT_GEOMETRY_REBIND_BEFORE_INTERSECTION_PASS_TRANSFER`**
+**`CONTINUOUS_ONE_PARAMETER_RIGID_CHILD_COMPOSITION_REQUIRES_FULL_INTERVAL_SEPARATION_CERTIFICATES__FINITE_STATIC_WITNESSES_DO_NOT_TRANSFER`**
 
-Rule:
+Bounded rule:
 
-1. when a downstream owner introduces an exact static pose family inside a previously bounded deformation range, endpoint/corner Geometry evidence does not automatically cover new interior poses;
-2. preserve source, receiver, pivots, axes and owner semantics exactly, then replay the downstream witness set under Geometry authority;
-3. distinguish poses that are exact duplicates of prior Geometry evidence from genuinely new interior witnesses;
-4. rerun the same attribution-safe structural/intersection observer for every exact new downstream witness rather than transferring an upstream PASS;
-5. keep static-pose evidence separate from continuous-path, simultaneous-motion, child-vs-fixed-receiver, adjacent-contact and physical-collision claims.
+1. preserve exact source, receiver, five child partitions, pivots, axes, polarity and owner interval;
+2. do not infer a continuous Geometry result from endpoint/corner/static samples;
+3. derive a sufficient full-interval separation certificate for every exact cross-child triangle pair;
+4. fail closed before scanning if the exact certificate work budget is unavailable;
+5. keep source-space triangle separation distinct from physical collision, child-vs-fixed receiver, target-host transport, Runtime/device behavior and gameplay.
 
-## Product lane reused — no duplicate PR
+## Existing product lane reused
 
 Repository:
 
 `mike-axiom-mir/axm-nature-design`
 
-Existing Geometry PR reused:
+Existing PR reused:
 
-**#18 — `Geometry: audit simultaneous five-branch composition corners`**
+**#18 — `Geometry: certify continuous five-branch shared-driver separation`**
 
 Branch:
 
 `studio/geometry-east-rear-simultaneous-socket-001`
 
-Exact tested current head:
+Current exact head:
 
-`3197eba862a6b7e6e93098a5b98d2c91bf48d32a`
+`2a9796b86f5d50a87180baaf881e913668f84a10`
 
-Observed current PR state:
+Observed PR state:
 
 **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-The prior exact Geometry head `76c89348d63fd3523f81287767fc37527d6a8fcb` remains an ancestor and retains its original source module/verifier evidence. The successor adds one bounded static shared-driver rebind package and explicitly extends the predecessor CI delta guard so both predecessor and successor Geometry evidence remain green at the same current head.
+To preserve lineage rather than replaying stale-base evidence, the Geometry branch explicitly merged the exact current Rigging owner into the existing PR lane. Merge commit:
 
-## Exact owner / donor lineage
+`37bfb081fb9f56ca95a1f7f8a5a5e74e72bbb1b9`
 
-Unchanged Nature source/receiver chain:
+Parents preserve both:
 
-- Organic source owner: `fdc9d2b6ee729728551e22fd3eafa23ad60b6c7a`;
-- source digest: `178cd8cfb1a859bff411f60e13154109528062cf0ad2384b343d406cc0cc9d61`;
-- Geometry migrated receiver owner: `9b451ba1f65281f550a6754e18574f7ab2951e28`;
-- receiver digest: `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
-- receiver: `390` vertices / `570` triangles;
-- five child partitions: `52` selected vertices / `72` triangles each;
-- selected union: `260` vertices;
-- globally fixed vertices: `130`;
-- child partitions remain triangle-closed with `0` partial-selected triangles and `0` cross-owner triangles.
+- prior Geometry head `3197eba862a6b7e6e93098a5b98d2c91bf48d32a`;
+- current Rigging owner `b4b480b415047fea90b4740f7702ced0dba9142d`.
 
-Exact new donors:
+No Organic source file or Rigging owner implementation was rewritten by Geometry.
 
-- Rigging PR #14: `754797a815266a643c6b08f1606eb76ba95dd8c6`;
-- Rigging contract: `contracts/east-rear-primary-branch-shared-driver-polarity-rigging-004.json`;
-- VFX PR #19: `ba1c12dd527f1ecc6a0eb4bc0b4322f15ccad475`;
-- VFX contract: `contracts/east-rear-shared-driver-vfx-response-envelope-003.json`;
-- exact shared command values: `[-5.0, -2.5, 0.0, 2.5, 5.0]°`;
-- exact local mapping: `local_angle_deg = command_sign_multiplier * shared_driver_deg`;
-- exact multipliers: `south-low +1`, `north-low -1`, `east-mid +1`, `west-high -1`, `north-top +1`;
-- donor semantics: static review / sign binding only; no simultaneous-motion authority.
+## Exact receiver identity
 
-Shared observer:
+The unchanged migrated receiver remains:
 
-- repository: `mike-axiom-mir/axm-universal-creation`;
-- exact merged commit: `ce70d717e381df6ca8a27c0c9fabe9d48bb1b23c`;
-- path: `src/axm_uc/mesh_self_intersection.py`;
-- use: read-only bounded nonadjacent-triangle observation; no Nature-specific UC mutation or policy transfer.
+- digest `aa9d450a78fef722672ea9af0f9aca98b4c1a0ca3705661784f5f61f3e9b6a31`;
+- `390` vertices / `570` triangles;
+- five child partitions;
+- `52` selected vertices / `72` owned triangles per child;
+- `260` selected/moving child vertices;
+- `130` globally fixed vertices;
+- `10` unordered child pairs;
+- pairwise-disjoint selected vertex ownership;
+- prior triangle-closed ownership evidence retained.
 
-## Exact static shared-driver structural result
+Exact Rigging field remains:
 
-Geometry reconstructs all five exact downstream static poses from the unchanged neutral receiver and exact owner pivots/axes/partitions.
+- shared parameter `u ∈ [-5,+5]°`;
+- local signs `south-low +1 / north-low -1 / east-mid +1 / west-high -1 / north-top +1`;
+- exact current owner head `b4b480b415047fea90b4740f7702ced0dba9142d`.
 
-Measured:
+## Continuous source-space certificate
 
-- exact static state count: `5`;
-- prior Geometry witness overlaps: `3` — shared `-5°`, neutral, shared `+5°`;
-- genuinely new interior Geometry witnesses: `2` — shared `-2.5°`, shared `+2.5°`;
-- maximum canonical-vs-reverse five-child composition delta: `0.0 m`;
-- maximum globally fixed vertex drift: `0.0 m`;
-- maximum pivot drift: `0.0 m`;
-- source receiver and index topology remain unchanged.
+New Geometry module:
 
-Structural result:
+`src/axm_nature_design/rear_tree_geometry_shared_driver_continuous_clearance.py`
 
-`PASS_SHARED_DRIVER_STATIC_WITNESS_STRUCTURE_REBOUND`.
+Contract:
 
-This proves exact static composition identity for these five witnesses only.
+`contracts/east-rear-shared-driver-continuous-clearance-003.json`
 
-## Exact child-child intersection rebind
+Verifier:
 
-Geometry reused the predecessor attribution-safe observer method rather than inventing a new intersection algorithm.
+`tools/verify_rear_tree_geometry_shared_driver_continuous_clearance.py`
 
-For every exact static shared-driver state and all 10 unordered child pairs:
+For each exact cross-branch triangle pair at neutral Geometry:
 
-1. observe the exact 72-triangle left child;
-2. observe the exact 72-triangle right child;
-3. observe their exact 144-triangle combination;
-4. compute `cross_child = combined - left_solo - right_solo`.
+1. constructs deterministic proof-safe separating-axis candidates from triangle normals, edge cross-products and coplanar edge-normal candidates;
+2. retains a positive neutral projection gap when one exists;
+3. computes each triangle's maximum perpendicular radius from its exact Rigging axis;
+4. bounds every point of that rigid triangle over the complete owner interval using `2 * r_max * sin(5°/2)`;
+5. requires the neutral fixed-axis gap to exceed the sum of the two full-interval motion bounds plus the Geometry epsilon.
 
-Exact observation family:
+If that inequality holds, the same fixed world-space axis remains separating for every real parameter in the closed interval. This is a sufficient source-space Geometry certificate, not a sampled-motion inference and not a physical collision claim.
 
-- states: `5`;
-- unordered child pairs per state: `10`;
-- branch-pair/state observations: `50`;
-- maximum attributable cross-branch nonadjacent-triangle intersection count: **`0`**;
-- cross-hit rows: **none**.
+Exact work family:
 
-Observer result:
+- branch pairs: `10`;
+- triangles per child: `72`;
+- cross-branch triangle-pair trajectories: `51,840`.
 
-`PASS_FIVE_SHARED_DRIVER_STATIC_WITNESSES_NO_CROSS_BRANCH_NONADJACENT_TRIANGLE_INTERSECTION`.
+Independent exact reconstruction of the current source/receiver and current Rigging transform field completed during this activation:
 
-A fail-closed pair-budget control requests one fewer check than the exact 144-triangle pair observer requires. UC returns HOLD before scanning, performs `0` pair checks and exposes no partial verdict.
+- certified trajectories: `51,840 / 51,840`;
+- uncertified trajectories: `0`;
+- minimum conservative certified slack: approximately `0.026532307046695805 m`;
+- maximum combined full-interval triangle motion bound observed: approximately `0.1464686902950282 m`;
+- tightest observed pair: `south-low` triangle `211` vs `north-low` triangle `273`;
+- tightest neutral separating margin: approximately `0.03028427124983213 m`;
+- tightest combined full-interval bound: approximately `0.003751964203136329 m`.
 
-## Failed evidence retained and repaired honestly
+The work-budget negative asks for `51,839` certificates when `51,840` are required and returns HOLD before scanning with zero performed certificates and no partial clearance verdict.
 
-Two successor heads remain visible as failed development evidence rather than being rewritten into the final PASS.
+Additional fail-closed controls reject exact Rigging-head drift, interval widening, child-vs-fixed-receiver promotion, physical-collision/gameplay promotion, and target-host/Runtime promotion.
 
-### `3f0c9d7b94e850fe1498d72f34070cf2d58cec2d`
+## CI / evidence state
 
-The actual Geometry verifier completed successfully and printed the intended result: 5 states, 3 prior overlaps, 2 new interior witnesses, 50 branch-pair/state observations, zero cross-branch hits. The workflow then failed because the evidence packaging step copied the contract into `evidence/` under the same filename as the generated receipt, overwriting that receipt before the final assertion stage. The failure was therefore retained as a packaging defect, not relabelled as a structural failure or PASS.
+Dedicated workflow:
 
-### `75b7556b4dae7137411f4948e2e673a39de5467c`
+`Geometry east rear shared-driver continuous clearance`
 
-The packaging collision was repaired by giving the retained contract a distinct filename. That successor then exposed a second continuity issue: the historical 33-state workflow still had an exact-delta guard that knew only the original six PR #18 files, so it correctly rejected the newly added bounded Geometry successor files. Rather than disable the predecessor workflow, current head `3197eba8...` explicitly extends its delta guard to the same Geometry-only successor set. The original 33-state structural verifier/source remain unchanged and run again successfully.
+Current run:
 
-No threshold, intersection method, owner semantics or structural acceptance gate was weakened to obtain the final green state.
+`35319526386`
 
-## Exact-head verification
+Exact current head:
 
-Current exact head:
+`2a9796b86f5d50a87180baaf881e913668f84a10`
 
-`3197eba862a6b7e6e93098a5b98d2c91bf48d32a`
+At the time of this status write both Python `3.11` and `3.13` jobs are **QUEUED**. Therefore:
 
-Dedicated successor workflow:
+- **no hosted-CI SUCCESS is claimed**;
+- **no retained artifact ID/digest is claimed**;
+- independent exact structural reconstruction is recorded separately from hosted CI;
+- the lane remains `IMPLEMENTING`, not promoted to final PASS.
 
-**`35314643615 — Geometry east rear shared-driver static rebind` — SUCCESS**
-
-- Python `3.11` — SUCCESS;
-- Python `3.13` — SUCCESS;
-- full receiving-repository suite: `62` tests PASS in the retained 3.11 job;
-- exact donor commit/contract binding PASS;
-- exact five-state receipt and fail-closed controls PASS.
-
-Historical predecessor workflow at the same head:
-
-**`35314643584 — Geometry east rear simultaneous socket audit` — SUCCESS**
-
-- Python `3.11` — SUCCESS;
-- Python `3.13` — SUCCESS;
-- original 33-state / 330-observation structural result is therefore still executable at the successor head.
-
-Other observed same-head Nature workflows are green:
-
-- Geometry source topology migration evidence — SUCCESS;
-- Organic east/rear tree evidence — SUCCESS;
-- Organic compact east tree evidence — SUCCESS;
-- Nature organic form baseline — SUCCESS.
-
-## Retained successor evidence
-
-Artifact:
-
-- ID: `10534613561`;
-- name: `nature-east-rear-shared-driver-static-geometry-3197eba862a6b7e6e93098a5b98d2c91bf48d32a`;
-- size: `11,446 B`;
-- files: `11`;
-- GitHub SHA-256: `617e75e9b61dd5d82e8273c10cfd4eacd29c6372f6827665da9974bd646d87be`.
-
-The exact archive was downloaded during this activation and independently rehashed; local SHA-256 reproduced the GitHub digest exactly.
-
-Retained packet includes exact Geometry/prior/Rigging/VFX/UC head witnesses, the generated receipt, distinct Geometry contract, exact Rigging and VFX donor contracts, documentation and verifier log.
+The predecessor Geometry workflows were updated only to recognize the legitimate current Rigging ancestor plus the complete Geometry-only successor file set. Their historical structural algorithms/results remain unchanged.
 
 ## Handoffs recorded
 
-- Geometry PR #18 — comment `5726070242`: exact successor result, 50 observations, green current/predecessor workflows, artifact digest, failed-head provenance and non-claims.
-- Rigging PR #14 — comment `5726071726`: exact shared-driver sign adapter consumed read-only; no pivot/axis/partition/range rewrite and no simultaneous-motion or ROM authority transfer.
-- VFX PR #19 — comment `5726073245`: exact five static VFX poses returned with new Geometry evidence for interior `±2.5°`; no motion, continuous-clearance, target-host or visual-acceptance transfer.
-- Technical Art PR #3 — comment `5726074480`: current TA receiver remains bound to the older owner chain and must explicitly rebind if it later consumes the newer shared-driver successor; this source-space PASS does not transfer automatically.
+- Geometry PR #18 — comment `5726765321`: exact current candidate, reusable rule, independent 51,840-pair certificate result, CI queued, non-claims.
+- Rigging PR #14 — comment `5726767627`: exact continuous owner consumed read-only; no pivot/axis/partition/polarity/interval rewrite or authority transfer.
+- Animation PR #22 — comment `5726769373`: Geometry interval proof does not alter timing/interpolation/playback; finite Animation samples are not used as the continuous proof.
+- VFX PR #23 — comment `5726771073`: no Weather/VFX semantics, physical wind or appearance authority transfer.
+- Technical Art PR #3 — comment `5726772340`: current TA proof remains on the older owner chain; any newer shared-driver target-host receive requires its own exact rebind/re-observation.
 
-No merge, adoption, source rewrite or downstream authority transfer is requested.
+No merge, source adoption, receiver adoption or CANON promotion is requested.
 
 ## Provenance / rollback
 
 Rollback anchors:
 
-- immediately preceding Geometry coordination status blob: `b07a1766bcd449b770962dbb2a9416a9ec61d475`;
-- prior exact Geometry PR #18 head: `76c89348d63fd3523f81287767fc37527d6a8fcb`;
-- failed successor heads retained: `3f0c9d7b94e850fe1498d72f34070cf2d58cec2d`, `75b7556b4dae7137411f4948e2e673a39de5467c`;
-- current exact Geometry head: `3197eba862a6b7e6e93098a5b98d2c91bf48d32a`;
-- exact Rigging donor: `754797a815266a643c6b08f1606eb76ba95dd8c6`;
-- exact VFX donor: `ba1c12dd527f1ecc6a0eb4bc0b4322f15ccad475`;
-- exact shared UC observer commit: `ce70d717e381df6ca8a27c0c9fabe9d48bb1b23c`;
-- workflows, artifact and digest above.
+- immediately preceding coordination status blob: `937d0341bc8636a18cd34c554789175c8626c24d`;
+- prior Geometry head: `3197eba862a6b7e6e93098a5b98d2c91bf48d32a`;
+- current Rigging owner: `b4b480b415047fea90b4740f7702ced0dba9142d`;
+- merge preserving both histories: `37bfb081fb9f56ca95a1f7f8a5a5e74e72bbb1b9`;
+- current Geometry head: `2a9796b86f5d50a87180baaf881e913668f84a10`;
+- dedicated queued workflow run: `35319526386`.
+
+Historical finite-witness evidence remains addressable at the predecessor status blob and prior Geometry commits; it is not relabelled as continuous evidence.
 
 ## Four-root gate
 
-- **Truth:** the two new interior poses were not allowed to inherit endpoint/corner evidence; packaging and CI-lineage failures remain explicitly failed historical heads; the final PASS reports only what the exact static observations show.
-- **Agency / non-domination:** Rigging keeps articulation/sign-interface authority, VFX keeps visual-response semantics, Animation keeps timing/motion, Technical Art keeps target-host transport, Runtime keeps device/performance, and UC remains a neutral read-only observer.
-- **Continuity:** prior Geometry head, prior 33-state workflow, two failed successor heads, exact donors, final current head, artifact and coordination predecessor remain separately addressable; predecessor coverage was kept executable instead of being disabled to make the successor green.
-- **Wisdom before speed:** Geometry reused the existing PR and observer method, added only the two truly new interior pose witnesses implied by the downstream exact static family, and stopped before continuous or runtime claims.
-
-The four AXM roots remain the merge gate.
+- **Truth:** finite static witnesses were not promoted to a continuous claim; the independent exact certificate is separated from still-queued hosted CI, and no artifact is invented.
+- **Agency / non-domination:** Rigging retains kinematic ownership, Animation timing, VFX response, Technical Art transport, Runtime device/performance, and Art/QA perceptual acceptance.
+- **Continuity:** old Geometry head/status remain rollback-addressable, current Rigging is explicitly merged into the same Geometry lane, and no prior PASS is silently rewritten.
+- **Wisdom before speed:** one exact continuous structural seam was selected; Geometry stops at source-space cross-child separation rather than expanding into fixed-receiver, collision, target-host or gameplay authority.
 
 ## Explicit non-claims / next trigger
 
-This activation does **not** establish continuous shared-driver clearance over `[-5°, +5°]`, simultaneous multi-branch motion, child-versus-fixed-receiver clearance, adjacent foldover/contact freedom, physical collision, branch stress/attachment, source/biological ROM, Animation timing or playback, physical wind, Technical-Art shared-driver target-host rebind, Runtime/controller/device behavior, physics/gameplay suitability, final material/visual quality, CANON, production readiness, game readiness, Nature mastery, or Geometry mastery.
+This activation does **not** establish child-versus-fixed-receiver clearance, child-internal self-intersection freedom, intended attachment contact/foldover behavior, branch stress/strength, botanical/source ROM, physical wind, Animation timing/playback, target-host transport, Technical-Art shared-driver adoption, Runtime/controller/device behavior, physics/gameplay collision suitability, visual acceptance, CANON, production readiness, game readiness, Nature mastery or Geometry mastery.
 
-Do not extend this exact static witness family merely by cadence. Return to this Nature lane only if a downstream owner introduces a genuinely new exact pose/path/receiver identity, a concrete structural defect appears, or an explicit target-host/shared-driver rebind creates a new Geometry-owned question. Otherwise rescan the full constellation for the next measured structural seam.
+Do not extend the exact source-space child-child certificate merely by cadence. Next legitimate Geometry action is one of:
+
+1. resolve the exact hosted CI result for head `2a9796b8...` and repair only if it exposes a concrete defect;
+2. re-enter if source/receiver/Rigging interval identity changes;
+3. accept a concrete Geometry-owned child-vs-fixed-receiver or target-host structural return from an owning lane;
+4. otherwise rescan the full constellation for a different measured structural seam.
