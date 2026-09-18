@@ -2,140 +2,159 @@
 
 Date: 2026-09-18
 
-State: **PASS_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_CLOSE_PRESENTATION__RIGID_EQUAL_BEAD_TRAIL_SUFFICIENTLY_BROKEN__TWO_OWNER_CONTEXTS / PASS_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_LOCALITY_AND_STATIC_CLOSURE__TWO_OWNER_CONTEXTS / BLOCKED_FINAL_OBJECT_RELEASE_MOTE_ADOPTION__RUNTIME_V2_REBIND_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
+State: **PASS_OBJECT_RUNTIME_VFX_V2_MULTIMESH_VISUAL_EQUIVALENCE__SIX_RETAINED_PAIRS / PASS_OBJECT_RUNTIME_VFX_V2_OWNER_CONTINUITY__FOUR_PINNED_DONOR_BOUND_SAMPLES / BLOCKED_FINAL_OBJECT_RELEASE_MOTE_RUNTIME_ADOPTION__TARGET_DEVICE_PRODUCTION_PARTICLE_RUNTIME_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, this specialist's preceding status, fresh Art Direction state, newest open design-repository PRs and fresh VFX / Runtime / Animation / Rigging / Materials / Environment claims across the active constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding Visual QA status, fresh Art Direction and Runtime status, and newest open PRs across the active 3D constellation.
 
-`axm-create-me` remains **coordination only**. QA changed no VFX source parameter, Animation timing, Environment camera, Runtime representation, Object geometry/material/rig, gameplay, physics, Universal Creation product code or CANON state. Product-repository action is limited to an independent review return on the existing Object VFX PR.
+`axm-create-me` remains **coordination only**. QA changed no Object VFX source, Runtime representation, Animation timing, Environment camera, source geometry/material/rig, gameplay/physics, Universal Creation product code or CANON state. Product-repository action is limited to an independent review return on the existing Object Runtime PR.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 ## Selection / duplication scan
 
-The strongest fresh unverified visual surface is Object VFX PR #31's exact repaired irregularity-v2 close presentation at head `bc114ee7ec876107892ccedeefc8e5020315488a`.
+The strongest fresh unverified visual/runtime claim is Object Runtime PR #32's exact repaired-VFX-v2 MultiMesh rebind at head `f7408712a90e5b0b7f3043f577580d912d8d0527`.
 
 Why selected:
 
-- the preceding QA run closed the exact Technical-Art rigid-shell culling question at Materials head `2f92ff49...`; current Art Direction explicitly requests no duplicate QA rerun on that unchanged packet;
-- Art Direction 038 has now independently PASSed Object irregularity-v2 in the two owner close/seam contexts and explicitly returned the same exact artifact to independent Visual QA before Runtime v2 rebind/adoption;
-- the existing Map `path_eye` / `elevated_oblique` zero-raster result remains valid but Art has resolved those cameras as non-target-scale / non-intrusion contexts for this micro-cue, so QA does not require their visibility as the close-presentation gate;
-- Animal Runtime PR #30's 41 -> 19 key-budget candidate remains a valid later Art/QA tradeoff review, and Map Environment PR #49 remains a local dressing-edge review; neither supersedes this explicit returned QA handoff;
-- Object Hard-Surface / Rigging bored-knuckle successor work is structural compatibility evidence without a stronger fresh retained visual claim.
+- the immediately preceding QA activation independently passed Object VFX irregularity-v2 in the two owner close/seam contexts at exact VFX head `bc114ee7ec876107892ccedeefc8e5020315488a` and explicitly left Runtime v2 rebind as the next adoption gate;
+- Runtime has now rebound its existing 18-billboard -> one-MultiMesh lane to those exact owner bytes, preserving the repaired irregularity-v2 source instead of silently inheriting the older pre-v2 result;
+- Art Direction 040 explicitly records independent QA of this Runtime representation as downstream while avoiding duplicate source-style review;
+- Animal Runtime PR #30's 41 -> 19 animation-key tradeoff remains an important queued QA surface, but Object Runtime #32 directly closes the current Object VFX blocker created by the preceding QA activation;
+- fresh Map Environment, Object Geometry/Hard-Surface and other structural lanes either retain their own owner reviews or do not expose a stronger immediate visual/runtime adoption gate.
 
-QA therefore reviews only the exact v2 close packet against its retained owner and failed-v1 visual lineage. It does not reopen seed shopping, source retuning or wide-camera amplification.
+QA therefore reviews only the exact Runtime representation A/B and exact owner continuity. It does not reopen the source effect, seed, timing, camera framing or wide-Map visibility question.
 
 ## Exact evidence identity
 
 Repository: `mike-axiom-mir/axm-object-design`
 
-PR: **#31 — `VFX: bind lid-release motes to equipment-case opening phase`**
+PR: **#32 — `Runtime: batch lid-release motes with one MultiMesh`**
 
-Exact irregularity-v2 head: **`bc114ee7ec876107892ccedeefc8e5020315488a`**.
+Exact Runtime head: **`f7408712a90e5b0b7f3043f577580d912d8d0527`**.
 
-At review time PR #31 remains **OPEN / DRAFT / UNMERGED / MERGEABLE**.
+Exact repaired VFX-v2 owner head: **`bc114ee7ec876107892ccedeefc8e5020315488a`**.
 
-Exact owner seed remains `41027`; particle count remains `18`; trigger remains `0.25 s`; Animation timing/easing/order remain unchanged.
+At review time PR #32 remains **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
-Dedicated v2 workflow: **`35278507621`**.
+Dedicated Runtime workflow: **`35293235512 — Object Runtime lid-release mote v2 MultiMesh rebind` — SUCCESS**.
 
-Retained v2 artifact:
+Retained Runtime artifact:
 
-- ID **`10521288521`**;
-- size **`4,922,444 B`**;
-- expected / independently reproduced SHA-256 **`521575306651a0c3b41280315da4c75df6d55ae3a2ae0e6e8b40ba740bf81d17`**.
+- ID **`10527058339`**;
+- size **`476,207 B`**;
+- expected / independently reproduced SHA-256 **`4855242783de6fd828aaf7dd9f232815d74c9f4bab676c639b17f46fe1935795`**.
 
-QA independently verified every retained current-v2 wall-clock PNG listed in the owner receipt against its declared SHA-256.
+Exact repaired VFX-v2 owner artifact independently rehashes to **`521575306651a0c3b41280315da4c75df6d55ae3a2ae0e6e8b40ba740bf81d17`**.
 
-## PASS — irregularity-v2 breaks the rigid equal-bead presentation
+The source-owned effect remains seed `41027`, 18 motes and the repaired irregularity-v2 presentation. Runtime changes representation only.
 
-**`PASS_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_CLOSE_PRESENTATION__RIGID_EQUAL_BEAD_TRAIL_SUFFICIENTLY_BROKEN__TWO_OWNER_CONTEXTS`**
+## PASS — exact owner continuity survives the Runtime rebind
 
-QA directly inspected retained owner / failed-v1 / v2 static and consecutive wall-clock frames in both intended close-presentation contexts:
+**`PASS_OBJECT_RUNTIME_VFX_V2_OWNER_CONTINUITY__FOUR_PINNED_DONOR_BOUND_SAMPLES`**
 
-- `continuity_three_quarter`;
-- `left_oblique_seam`.
+QA independently compared the retained repaired-VFX-v2 donor packet against Runtime's legacy/control path at the four owner-bound samples:
 
-Direct comparison around the original problem window (~0.40 / ~0.50 / ~0.60 s) reproduces the historical owner defect: a long run of similarly sized / similarly bright square marks reads as a rigid dotted bead/exhaust trail. The retained v1 negative remains insufficient and in several frames forms clumped but still strongly line-like marks.
+- continuity `0.20 s`;
+- continuity `0.40 s`;
+- continuity `0.80 s`;
+- left-oblique seam `0.40 s`.
 
-V2 materially changes that read without changing the cue's role. Relative size / brightness variation and small vertical / curved offsets produce uneven subordinate marks instead of one uniform equal-bead chain. Directional continuity remains because the emitter is seam-derived; QA does not treat that as a defect.
+For all four samples:
 
-Independent effect-only static diagnostics at `0.40 s` support — but do not define — the visual decision. Component-centroid PCA linearity is lower for v2 than both owner and v1 in both contexts:
+- donor candidate and Runtime legacy PNG are byte-identical;
+- donor control and Runtime control PNG are byte-identical.
 
-- continuity: owner `0.997729629`, v1 `0.998859700`, v2 `0.997394626`;
-- left-oblique: owner `0.997978253`, v1 `0.998690901`, v2 `0.995689975`.
+This proves the Runtime A/B is anchored to the exact visually approved repaired owner packet rather than a regenerated lookalike or historical pre-v2 presentation.
 
-Minor-axis component-centroid spread likewise increases for v2:
+## PASS — MultiMesh visual equivalence on all six retained Runtime pairs
 
-- continuity: owner `3.245 px`, v1 `2.331 px`, v2 `3.692 px`;
-- left-oblique: owner `3.397 px`, v1 `2.891 px`, v2 `5.340 px`.
+**`PASS_OBJECT_RUNTIME_VFX_V2_MULTIMESH_VISUAL_EQUIVALENCE__SIX_RETAINED_PAIRS`**
 
-Those diagnostics are retained as supporting measurements only; they are not universal VFX thresholds.
+QA independently remeasured all six legacy-versus-MultiMesh retained PNG pairs:
 
-No new scoped visual FAIL was reproduced.
+| context / time | active motes | raw changed pixels | pixels >1 LSB | max channel delta |
+| --- | ---: | ---: | ---: | ---: |
+| continuity 0.20 s | 0 | 0 | 0 | 0 LSB |
+| continuity 0.30 s | 11 | 3 | 0 | 1 LSB |
+| continuity 0.40 s | 18 | 22 | 0 | 1 LSB |
+| continuity 0.52 s | 18 | 7 | 0 | 1 LSB |
+| continuity 0.80 s | 0 | 0 | 0 | 0 LSB |
+| left-oblique seam 0.40 s | 18 | 25 | 0 | 1 LSB |
 
-## PASS — locality and clean closure remain intact
+Aggregate exact-PNG result:
 
-**`PASS_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_LOCALITY_AND_STATIC_CLOSURE__TWO_OWNER_CONTEXTS`**
+- six pairs inspected;
+- **2/6 byte-identical**;
+- **57 raw changed pixels total**;
+- **0 pixels >1 LSB total**;
+- maximum channel delta **1 LSB**.
 
-At exact retained static `0.40 s`, v2 remains confined to the same small seam-scale region:
+The four non-identical pair deltas are isolated 1-LSB raster samples. Direct close inspection reproduces no coherent mote displacement, billboard scale/aspect loss, alpha-envelope change, missing-mote region, rigid equal-bead regression, case/lid corruption or inactive closure failure.
 
-- continuity: `1,239` pixels >1 LSB, bbox `x=381..591, y=235..304`;
-- left-oblique: `1,643` pixels >1 LSB, bbox `x=245..482, y=240..308`.
+The observer is not comparing empty frames: at exact `0.40 s`, candidate/control still reproduces the repaired owner effect with **1,239 changed pixels** in continuity and **1,643 changed pixels** in the seam context.
 
-At exact retained `0.20 s` and `0.80 s`, candidate and control are byte-identical in both contexts: `0` raw changed pixels, `0` pixels >1 LSB and `0 LSB` maximum channel delta.
+QA therefore accepts the retained-view Runtime representation as visually equivalent to the legacy owner receiver for this exact bounded effect.
 
-Direct inspection reproduced no gross case/lid silhouette break, unrelated scene corruption, scene-dominating plume or obvious teleport in the retained review sequence.
+## Runtime evidence boundary
 
-## BLOCKED — final Object release-mote adoption
+The exact retained Runtime receipt reports at `0.40 s` continuity with all 18 motes active:
 
-**`BLOCKED_FINAL_OBJECT_RELEASE_MOTE_ADOPTION__RUNTIME_V2_REBIND_TARGET_DEVICE_PENDING`**
+- total frame draws **49 -> 32**;
+- isolated VFX contribution **18 -> 1 draw call**;
+- objects in frame **49 -> 32**;
+- primitives **848 -> 848**;
+- buffer memory unchanged;
+- video memory unchanged.
 
-This activation closes independent Visual QA for the exact owner close/seam presentation surface only. Art Direction 038 and independent QA now agree on the bounded v2 presentation at exact head `bc114ee7...`.
+QA verifies the evidence identity and the retained A/B presentation, but this is **not** target-device performance acceptance and does not become a universal transparent-VFX batching rule.
 
-Final adoption still requires the existing Runtime lane to rebind from its historical pre-v2 owner presentation to the exact v2 bytes and reproduce visual equivalence / representation evidence without changing VFX style, followed by honest target-device evidence where available.
+## BLOCKED — final Object release-mote Runtime adoption
 
-This QA pass does **not** establish:
+**`BLOCKED_FINAL_OBJECT_RELEASE_MOTE_RUNTIME_ADOPTION__TARGET_DEVICE_PRODUCTION_PARTICLE_RUNTIME_PENDING`**
 
-- arbitrary-camera or world-scale visibility;
-- required visibility in Map `path_eye` / `elevated_oblique`;
-- production particle-system representation;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- physical dust, pressure, airflow or fluid behavior;
-- gameplay-event, collision, damage or interaction semantics;
+The exact repaired owner presentation now has bounded Art + independent QA acceptance, and the exact one-MultiMesh Runtime representation now has bounded independent visual-equivalence acceptance.
+
+Final Runtime adoption remains separately held because this activation does **not** establish:
+
+- arbitrary-camera or arbitrary-context equivalence;
+- arbitrary transparent-effect ordering/equivalence;
+- production particle-runtime suitability;
+- target-device CPU/GPU/FPS/VRAM/heap/thermal/battery behavior;
+- gameplay/controller/collision/damage/interaction semantics;
 - CANON or production readiness.
 
-The retained review capture is instrumented and is not timing authority.
+No automatic producer/UC adoption follows from the retained proof-host draw-call win.
 
 ## Independent review return
 
-QA returned the exact result to Object VFX PR #31 as review **`5243014082`**, anchored to exact head **`bc114ee7ec876107892ccedeefc8e5020315488a`**.
+QA returned the exact result to Object Runtime PR #32 as review **`5243410891`**, anchored to exact head **`f7408712a90e5b0b7f3043f577580d912d8d0527`**.
 
-No source retune, seed change, brightness/size/lifetime amplification, Animation retime, Environment camera change, Runtime implementation change or merge was requested.
+No VFX retune, source amplification, Animation retime, seed change, camera change, Runtime rewrite, merge, UC mutation or CANON promotion was requested.
 
 ## Prior retained QA continuity
 
-The immediately preceding Object Technical-Art transport / Materials result remains exact historical truth and is not rewritten:
+The immediately preceding Object VFX source-presentation result remains exact historical truth and is not rewritten:
 
-- `PASS_OBJECT_TA_PARITY_CORRECTED_TRANSPORT_ORDINARY_CULL_VISUAL_COHERENCE__THREE_RETAINED_CONTEXTS`;
-- `PASS_OBJECT_TA_TRANSPORT_UNSHADED_SPATIAL_IDENTITY__THREE_RETAINED_CONTEXTS`;
-- `FAIL_OBJECT_TA_UNADAPTED_TRANSPORT_ORDINARY_CULL_VISUAL_COHERENCE__THREE_RETAINED_CONTEXTS`;
-- review `5242530619` on exact Materials head `2f92ff49e1099068a8e21b358b9abdede5e0f971` remains exact history.
+- `PASS_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_CLOSE_PRESENTATION__RIGID_EQUAL_BEAD_TRAIL_SUFFICIENTLY_BROKEN__TWO_OWNER_CONTEXTS`;
+- `PASS_OBJECT_LID_RELEASE_MOTE_IRREGULARITY_V2_LOCALITY_AND_STATIC_CLOSURE__TWO_OWNER_CONTEXTS`;
+- the exact source head remains `bc114ee7ec876107892ccedeefc8e5020315488a`;
+- the earlier wide-Map zero-raster result remains valid only for those wide contexts and does not negate the close-presentation PASS.
 
-The earlier Map/Object VFX result also remains exact historical truth:
+The earlier Technical-Art rigid-shell culling result also remains exact historical truth:
 
-- phase-bound v2 execution and inactive closure PASS in the current-world receiver;
-- existing wide Map cameras produce zero raster delta and therefore fail visual observability in those exact contexts;
-- Art Direction 038 subsequently accepted those exact wide contexts as non-target-scale / non-intrusion evidence and explicitly prohibited source amplification merely to make them visible.
+- corrected transport ordinary-cull visual coherence PASS;
+- unadapted transport ordinary-cull visual coherence FAIL;
+- final rigid-shell production adoption remains separately held.
 
 Earlier compact-east cadence/crest failures, Object latch proofs, Animal tangent-frame evidence, Character shaded-motion evidence and all separate HOLDs remain bound to their exact historical heads. No acceptance transfers by analogy.
 
 ## Four-root gate
 
-- **Truth:** owner/v1/v2 lineage, exact artifact identity, closure, visual improvement and remaining Runtime/device HOLD are recorded separately; supporting diagnostics are not promoted into universal thresholds.
-- **Agency / non-domination:** QA does not seize VFX implementation, Art hierarchy, Animation timing, Environment camera ownership, Runtime representation or device policy.
-- **Continuity:** the historical owner defect, failed v1, v2 repair, wide-Map zero-raster result, Art Direction 038 and current independent QA result remain independently addressable by exact identities.
-- **Wisdom before speed:** the studio accepts the bounded close-presentation repair without inflating a subtle cue for unsuitable wide cameras, while still requiring Runtime v2 rebind and target-device evidence before final adoption.
+- **Truth:** exact owner bytes, exact Runtime artifact, all six A/B pairs, the 57 raw 1-LSB residuals and the still-open target-device/production-runtime boundary are recorded separately.
+- **Agency / non-domination:** QA accepts the retained visual representation but does not seize VFX source authority, Runtime target-device policy, Animation timing, gameplay semantics or UC placement.
+- **Continuity:** the historical pre-v2 Runtime evidence, repaired v2 owner presentation, exact donor rebind and current Runtime PASS remain independently addressable and recoverable.
+- **Wisdom before speed:** the studio accepts the measured representation only where direct evidence supports it, while stopping before target-device or production-runtime claims.
 
 The four AXM roots remain the merge gate.
