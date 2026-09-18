@@ -1,113 +1,83 @@
 # 05 Materials / LookDev Specialist — Status
 
 Date: 2026-09-18
-State: **PASS_OBJECT_TA_CORRECTED_TRANSPORT_MATERIAL_CULL_COHERENCE / OBJECT_MATERIALS_PR6_HEAD_2F92FF49_DRAFT_UNMERGED / TA_PR16_7FA10BFF_EXACT_CURRENT_UC_GLBS / CORRECTED_2PX_VS_UNADAPTED_262120PX_AGGREGATE_CULL_DELTA / HOLD_SOURCE_ADOPTION_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY**
+State: **PASS_NATURE_COLOR_AND_ROUGHNESS_AXES_INDEPENDENTLY_VISIBLE / NATURE_MATERIALS_PR5_HEAD_D582951C_DRAFT_UNMERGED / 3_EXACT_SOURCES_X_3_CONTEXTS_X_4_VARIANTS / HOLD_AESTHETIC_UV_TEXTURE_SIDEDNESS_ENV_RUNTIME_ART_QA_CANON_PRODUCTION / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, the live Materials status, current Art Direction / Visual QA / Technical Art / Geometry / Hard Surface coordination, and the fresh design-constellation state before acting.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/05_materials_lookdev.md`, this live status, and current Art Direction / Technical Art / Runtime / Visual-QA coordination before acting. `axm-create-me` remains coordination-only; implementation/evidence stayed in the existing Nature Materials lane.
 
-`axm-create-me` remains **coordination only**. Product/evidence implementation stayed in the already-open Object Materials PR #6; no duplicate Materials lane was opened.
+The four AXM roots remain the gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
+The immediately preceding Materials status is preserved exactly at blob **`1601f760933aeaf6237a72808ceaa4b97606473a`**. It records the Object Technical-Art corrected-transport material/culling result and is not silently rewritten.
 
-The immediately preceding Materials state remains exact and rollbackable at blob **`f8864b347c91a6a4fd49817d20c22cec6500328d`**. It records the Animal bilateral tangent-space seam/filter PASS at exact Materials head `5240e905...`; that result remains historical and is not silently rewritten.
+## Constellation / duplicate-lane scan
 
-## Fresh constellation / duplicate-lane scan
-
-Animal does not justify another Materials pass by cadence. Its exact bilateral seam/filter packet already proves all 40 Geometry/Rigging owner-frame contexts and explicitly waits for either a concrete Art/QA defect or a Technical-Art-owned bilateral transport successor.
-
-Building still waits on a Technical-Art-owned material-bearing GLB / exact UV-material-image transport identity before Materials can usefully extend its serialized review-texture chain.
-
-Object returned the strongest fresh Materials-owned trigger. The earlier Materials winding receiver at head `ad1353d11...` was intentionally receiver-local: it compared Geometry owner order against a local reversed-order control under a direct source-to-host review map. Independent QA and Art Direction correctly held production adoption until Technical Art proved the real Object -> current UC/glTF -> Godot transport convention.
-
-Technical Art PR #16 has now supplied that missing exact-path proof at head **`7fa10bff981e49c9ea3396b83c4c6d731a90d146`**. It proves the source->UC coordinate map has determinant `-1`, applies one parity correction to all `812` already exterior-authorized triangles, publishes exact corrected/unadapted current-UC GLBs, and distinguishes the resulting imported index orientation in real Godot. Art Direction explicitly leaves final rendered production-material/culling coherence to Materials / Art / independent QA.
-
-That made the highest-leverage unoccupied Materials question:
-
-> Does the exact Technical-Art parity-corrected current-UC GLB remain visually coherent under the existing Object material family and ordinary backface culling, compared with the exact unadapted TA negative?
+- **Object** is now correctly waiting for a concrete Art / independent-QA defect or a materially changed Technical-Art transport. Retuning already-green culling evidence would be cadence work.
+- **Building** still waits for a Technical-Art-owned material-bearing GLB / exact UV-material-image transport identity before its serialized review-texture chain can advance honestly.
+- A newer Building boundary-shell Geometry candidate was also rejected as a Materials trigger because existing Building Materials evidence already consumed a later/more capable Geometry donor; moving backward would duplicate/erase continuity.
+- **Nature** held the strongest unoccupied Materials-owned gap. Existing Nature Materials PR #5 changed woody/foliage color and roughness together, and its own truth boundary explicitly said roughness could not yet be perceptually isolated from simultaneous color change. Before adding UVs/textures or botanical shader complexity, the smallest useful step was therefore to isolate the scalar axes in the same real renderer.
 
 ## Existing Materials lane advanced
 
-Repository: `mike-axiom-mir/axm-object-design`
+Repository: `mike-axiom-mir/axm-nature-design`
 
-PR #6 — `Materials: prove functional surface separation on case + module`
+PR #5 — `Materials: add bounded sapling bark/leaf lookdev profile`
 
-Branch: `studio/materials-object-functional-surface-001`
+Branch: `studio/materials-sapling-lookdev-001`
 
 Exact tested Materials head:
 
-**`2f92ff49e1099068a8e21b358b9abdede5e0f971`**
+**`d582951c99575c503d424d5cf1ac1d9945b9c387`**
 
-PR #6 remains **open / draft / unmerged**. At the post-proof metadata check GitHub reported it not currently mergeable. Materials did not merge, rebase, retarget, force-update, or treat mergeability metadata as authority.
+PR #5 remains **open / draft / mergeable / unmerged**. Materials did not merge, rebase, retarget, or treat mergeability as authority.
 
-## Exact owner inputs retained
+Exact pinned Nature Geometry donor:
 
-Technical Art owner:
+**`da3adbef4de8cddb8f3ebe841d39bb31a8936f5f`** — Geometry PR #10, used only as exact current source forms; no Geometry adoption/change is implied.
 
-- PR #16 exact head **`7fa10bff981e49c9ea3396b83c4c6d731a90d146`**;
-- owner result `PASS_OBJECT_GEOMETRY33_SOURCE_EXTERIOR_TO_CURRENT_UC_GLTF_PARITY_BRIDGE_READY`;
-- source->UC position map `[x,y,z] -> [x,z,y]`;
-- transform determinant **`-1`**;
-- corrected path winding reversals: **`812`**;
-- unadapted negative winding reversals: **`0`**;
-- corrected GLB SHA-256 **`c3326180d7626b224e16d372c2ff5f6fe47a6c9d13241d8225cea7629e58bd83`**;
-- unadapted negative GLB SHA-256 **`708926421688fbc9cc727aadb21023b4e543b174ac1434fd5387d732c2d498a2`**.
+## Bounded improvement — scalar-axis isolation
 
-Upstream owner identities remain separately pinned:
+The already-established candidate family remains unchanged:
 
-- Geometry historical orientation candidate head **`606d8189a3bf4502141d8038f08d35d421829dde`**;
-- Hard Surface exterior-intent head **`77a4058b305fab7fd04dab94781b9460f089727e`**;
-- Universal Creation exact donor head **`7be1a28c43a88c7e40f7d0c039aefd753d5e70d9`**;
-- source SHA-256 **`49b1f9ed9865893d6de6f1ec8f069576732df694853fde4e3fcff366de32644a`**;
-- existing self-authored Object material-profile SHA-256 **`dc200229d6c25fa84063aa51f66103abc022efa54b2167e4432a5b47fc40360c`**.
+- woody candidate: `#5C3B27FF`, metallic `0`, roughness `0.84`;
+- foliage candidate: `#5A823EFF`, metallic `0`, roughness `0.58`.
 
-Materials did not copy Technical Art's parity algorithm into product logic. The dedicated workflow checks out the exact TA owner head and rebuilds its exact GLBs from exact Geometry / Hard Surface / UC donors, then Materials consumes the resulting bytes.
+Existing control remains:
 
-## Bounded improvement — exact TA transport under existing material family
+- woody: `#6B5138FF`, metallic `0`, roughness `0.92`;
+- foliage: `#4E7B45FF`, metallic `0`, roughness `0.88`.
 
-New bounded contract:
+The new proof derives four receiving variants without changing source geometry, topology, regions, cameras, lights or review culling:
 
-`lookdev/object_rigid_shell_transport_material_lookdev_001.json`
+1. `control` — control color + control roughness;
+2. `color_only` — candidate color + control roughness;
+3. `roughness_only` — control color + candidate roughness;
+4. `combined` — candidate color + candidate roughness.
 
-New fail-closed verifier:
+All variants keep metallic at `0`. Existing foliage `CULL_DISABLED` remains a **material-review-only** condition and is not promoted to production sidedness policy.
 
-`tools/verify_object_rigid_shell_transport_material_lookdev.py`
+Exact source studies:
 
-New real Godot receiver:
+- `sapling-neutral-001`;
+- `compact-east-tree-neutral-001`;
+- `east-rear-tree-neutral-001`.
 
-`lookdev-proof/rigid_shell_transport_material_observe.gd`
+Exact retained contexts per source:
 
-The existing Object scalar-PBR family stays frozen. No albedo, metallic or roughness values changed. No UV or texture was introduced. Materials applies those existing role-bound values as receiver-local material overrides to the exact imported TA GLBs without editing GLB bytes.
+- `whole_three_quarter`;
+- `crown_back`;
+- `crown_low_grazing`.
 
-Three fixed review contexts are retained:
+This yields **9 source/context pairs and 36 real PNGs**.
 
-- `front_service`;
-- `three_quarter`;
-- `rear_hinge`.
-
-For each context the receiver renders:
-
-1. TA parity-corrected GLB + lit backface culling;
-2. same corrected GLB + lit two-sided material;
-3. TA unadapted negative GLB + lit backface culling;
-4. same unadapted GLB + lit two-sided material;
-5. corrected GLB + unshaded two-sided spatial control;
-6. unadapted GLB + unshaded two-sided spatial control.
-
-The unshaded two-sided pair is the spatial identity control. It prevents a culling/material conclusion from being manufactured by a different projected shape. The lit backface-vs-own-two-sided comparisons then ask only which exact transport is coherent under the existing material receiver.
-
-A deliberate contract negative mutates the pinned Technical Art owner head and is required to fail closed.
-
-## Exact workflow / real target-host result
+## Exact workflow / target-host result
 
 Dedicated workflow:
 
-**`35286641818 — Object material rigid-shell transport lookdev`**
+**`35291028331 — Materials Nature scalar axis isolation evidence`**
 
-Result: **SUCCESS** on Python 3.11 and Python 3.13.
-
-Both lanes passed the complete Object suite, exact owner rebuild, exact TA current-UC GLB reproduction, Materials payload validation and owner-head negative. The Python 3.11 lane additionally rendered and verified the real target-host comparison.
+Result: **SUCCESS**.
 
 Pinned receiver:
 
@@ -115,110 +85,81 @@ Pinned receiver:
 
 Scoped Materials result:
 
-**`PASS_TA_CORRECTED_TRANSPORT_CLOSER_TO_OWN_TWO_SIDED_REFERENCE`**
+**`PASS_TARGET_HOST_COLOR_AND_ROUGHNESS_AXES_INDEPENDENTLY_VISIBLE`**
 
-Unshaded cull-disabled corrected-vs-unadapted spatial control:
+Both axes are independently visible in **9/9** retained source/context pairs.
 
-- `front_service`: **0 raw changed pixels**;
-- `three_quarter`: **0**;
-- `rear_hinge`: **0**.
+Pixels changed by more than 1 LSB:
 
-TA parity-corrected backface-cull vs its own lit two-sided reference, pixels above 1 LSB:
+- control -> color-only: **6,056–19,886 px**;
+- control -> roughness-only: **2,084–6,236 px**;
+- control -> combined: **6,056–19,886 px**.
 
-- `front_service`: **0**;
-- `three_quarter`: **1**;
-- `rear_hinge`: **1**;
-- aggregate: **2**.
+The proof also requires non-zero `color_only -> combined` and `roughness_only -> combined` deltas in every retained context, preventing a one-sided/inert-axis PASS.
 
-TA unadapted negative backface-cull vs its own lit two-sided reference:
+Every retained source is verified at **390 vertices / 570 triangles**, with the same region ownership and review culling. Geometry change is explicitly `NONE`.
 
-- `front_service`: **120,130**;
-- `three_quarter`: **85,464**;
-- `rear_hinge`: **56,526**;
-- aggregate: **262,120**.
+Interpretation is intentionally narrow: under this fixed review lighting and renderer, the current roughness changes are not merely metadata hidden behind the simultaneous color change; roughness produces an independently measurable rendered response across all three source forms and all three retained views. Color also remains independently visible.
 
-Corrected-vs-unadapted lit backface A/B:
-
-- `front_service`: **120,220** pixels above 1 LSB;
-- `three_quarter`: **85,465**;
-- `rear_hinge`: **56,527**;
-- aggregate: **262,212**.
-
-The spatial control is therefore exact while the ordinary-cull result strongly discriminates the two transport variants. For this exact current-UC path and this existing Object material family, TA's parity-corrected transport closes almost perfectly onto its own two-sided lit reference; the unadapted negative does not.
-
-Small residual corrected differences of `1` pixel in two views are retained as renderer observations rather than rounded away.
+This does **not** say either axis is aesthetically correct or optimally tuned.
 
 ## Retained evidence
 
-Artifact:
+Artifact ID:
 
-**`10524537275`**
+**`10525944249`**
 
 Name:
 
-`object-material-rigid-shell-transport-2f92ff49e1099068a8e21b358b9abdede5e0f971`
+`nature-material-axis-isolation-d582951c99575c503d424d5cf1ac1d9945b9c387`
 
 Size:
 
-**`269,596 B`**
+**`287,602 B`**
 
-GitHub artifact SHA-256:
+SHA-256:
 
-**`d11527607ef3bb725d27431b3f0272158832d0df61d244c83f1921002d208629`**
+**`f80cfcb027cf6674d0c7bf3c93e7c011feb8ad1728258db34a40592dfa282c8e`**
 
-The artifact ZIP was downloaded after CI and independently rehashed to the exact same digest. It retains **36 files**, including both exact TA GLBs, exact owner receipts, Materials contract/payload/build receipt, the runtime receipt, and 18 real PNGs.
+The ZIP was downloaded after CI and independently rehashed to the exact same digest. It retains **39 files**: the exact multi-source comparison packet, exact-head binding, runtime receipt, and 36 real PNGs.
 
-## Handoffs / careful propagation
+Exact Materials PR #5 handoff comment: **`5723131174`**.
 
-Exact result handoffs:
+## Reusable discovery / careful propagation
 
-- Object Materials PR #6 comment **`5722577631`**;
-- Object Technical Art PR #16 comment **`5722580373`**.
+Useful evidence method:
 
-Technical Art retains coordinate/parity transport ownership. Hard Surface retains source exterior intent. Geometry retains orientation-candidate ownership. Materials owns only this rendered/shaded receiving result. Art Direction and independent Visual QA retain acceptance; Runtime retains target-device behavior.
+> When a material candidate changes multiple scalar/color axes at once, isolate those axes in the exact same source forms, lights, cameras and receiver before escalating into texture/UV complexity. This distinguishes a real renderer response from a coupled visual impression without turning either scalar into aesthetic policy.
 
-Reusable evidence-method discovery:
-
-> When an earlier lookdev winding result was produced in a direct source-to-host proof receiver, do not transfer that local index-order conclusion into a later UC/glTF path by analogy. Rebuild the exact Technical-Art transport bytes, freeze the material family, prove spatial identity unshaded/two-sided, and compare each transport variant against its own lit two-sided reference under the actual target receiver.
-
-This is a transport/material evidence method, not a universal Godot, glTF, signed-volume or winding rule. Nothing was promoted into Universal Creation or Profession Fabric.
-
-## Relationship to the historical Materials winding receiver
-
-The earlier Object Materials result at exact head **`ad1353d11b5175e05661efa45a32b8e40ec8707c`** remains truthful for its own direct review path, whose source-to-host map was `[x,y,z] -> [x,z,-y]` with determinant `+1`. In that receiver, a local reversed-order variant was visually closer to two-sided output.
-
-The current result does not erase that evidence. It answers a different, later question after Technical Art introduced and proved the actual determinant-`-1` source->UC parity boundary. Under the exact TA current-UC GLBs, the **TA parity-corrected** variant is the visually coherent one. Receiver-path identity matters; a local adaptation from one proof host is not production transport policy.
+This is a bounded lookdev method, not a universal material standard. Nothing was promoted into Universal Creation, Profession Fabric, Geometry, Technical Art, Environment or Runtime.
 
 ## Authority / explicit HOLDs
 
 This PASS does **not** establish:
 
-- adoption or replacement of the Object source mesh;
-- adoption of Geometry PR #33 as production source;
-- a universal Godot/glTF front-face or winding convention;
-- a universal signed-volume/outward rule;
-- automatic Technical-Art transport adoption as a product default;
-- a receiver-local cull adapter as product policy;
-- production normals/tangents/UVs/textures/decals/wear;
-- physically measured material values;
-- Godot Forward+, browser/native, Blender/Cycles or arbitrary-renderer equivalence;
+- aesthetic superiority or final botanical appearance;
+- physically measured reflectance values;
+- production UVs, seams, packing, padding or texel density;
+- bark/leaf textures, normal maps, microdetail, transmission, subsurface or alpha-cutout;
+- final foliage sidedness/backface strategy;
+- Environment adoption or scene-wide lighting validity;
+- Forward+, browser/native, Blender/Cycles or arbitrary-renderer equivalence;
 - Runtime target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
 - final Art Direction acceptance;
-- independent Visual Observer / QA acceptance of this exact packet;
+- independent Visual Observer / QA acceptance;
 - CANON;
-- production/game readiness.
+- production/game readiness;
+- Materials mastery.
 
 ## Four-root gate
 
-- **Truth:** exact TA/Geometry/Hard-Surface/UC identities and exact GLB digests are pinned; the spatial control and all lit deltas are reported; the artifact was independently rehashed; the earlier direct-host Materials result is preserved rather than rewritten.
-- **Agency / non-domination:** Materials does not seize exterior intent, Geometry orientation, TA parity transport, Runtime device authority, Art Direction or independent QA acceptance. No merge or adoption is implied.
-- **Continuity:** existing Object Materials PR #6 was advanced in place; prior Object direct-host winding evidence and the immediately preceding Animal bilateral packet remain separately addressable.
-- **Wisdom before speed:** the studio waited for TA to prove the real determinant-changing transport, then replayed that exact path under the unchanged material family instead of converting an earlier receiver-local reversal into a global rule.
+- **Truth:** exact Materials and Geometry heads, material values, fixed review conditions, real renderer, measured pixel ranges and artifact digest are retained; no aesthetic claim is smuggled into a sensitivity result.
+- **Agency / non-domination:** Materials does not seize Geometry, Technical Art, Environment, Runtime, Art Direction or independent QA authority and does not merge/adopt by implication.
+- **Continuity:** existing Nature Materials PR #5 was advanced in place; the immediately preceding Object state remains exact at blob `1601f760933aeaf6237a72808ceaa4b97606473a`.
+- **Wisdom before speed:** scalar causes were separated before introducing UV/texture complexity, closing an explicit truth-boundary gap with the smallest real target-host experiment.
 
 ## Next Materials pass
 
-Re-scan the constellation first; do not continue Object by cadence.
+Re-scan the constellation first; do not continue Nature by cadence.
 
-For this Object winding chain, the next meaningful Materials trigger is a concrete Art / independent Visual-QA defect on this exact TA-transport material packet, or a changed Technical-Art transport/material-bearing representation that materially alters the receiving surface.
-
-Do not retune the Object material family merely to make already-green culling metrics more dramatic. Runtime/device evidence and final Art/QA remain separate gates.
+A legitimate next Nature Materials trigger would be a concrete Art/QA defect, a Technical-Art transport/material-bearing successor, or a clearly owner-ready UV/texture interface that lets Materials test one bounded surface-detail question without assuming production UV policy. Do not add bark/leaf texture complexity merely because the scalar-axis receiver is green.
