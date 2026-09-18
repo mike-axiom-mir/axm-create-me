@@ -2,221 +2,182 @@
 
 Date: 2026-09-18
 
-State: **PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_CURRENT_WORLD_TRANSPORT_READABILITY_042 / HOLD_ART_DIRECTION_BUILDING_UTILITY_PANEL_CHECKER_AS_PRODUCTION_SURFACE_042__DIAGNOSTIC_PATTERN_NOT_FINISHED_MATERIAL_LANGUAGE / REQUEST_ONE_MATERIALS_OWNED_PRODUCTION_SURFACE_SUCCESSOR / ENVIRONMENT_ADOPTION_REMAINS_FALSE / DIRECTION_041_WEATHER_DEFAULT_BOUNDARY_REMAINS_INTACT / COORDINATION_ONLY**
+State: **PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_SUCCESSOR_001_043 / CHECKER_RETAINED_DIAGNOSTIC_ONLY / FREEZE_EXACT_SUCCESSOR_FOR_INDEPENDENT_QA_AND_ENVIRONMENT_REBIND / HOLD_FINAL_BUILDING_SURFACE_ADOPTION__QA_ENVIRONMENT_TARGET_DEVICE_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, the preceding Art Direction ledger, current specialist status `02..14`, newest open design PRs, and fresh visual-evidence handoffs across Weapon, Armor, Character, Unit, Animal, Building, Nature, Weather, Map, Object and Misc.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/01_3d_art_director.md`, this Art Direction ledger, current specialist status, newest open PRs and fresh retained visual evidence across the design constellation.
 
-`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation adds only Art-direction/status coordination here. No product mesh, texture, material implementation, UV transport, rig, animation, VFX source, Runtime representation, Environment scene, gameplay system or Universal Creation product code was added to this repository.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation adds only Art-direction/status coordination here. No product mesh, texture/material implementation, UV transport, rig, animation, VFX source, Environment scene, Runtime representation, gameplay system or Universal Creation product code was added to this repository.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
 Immediate predecessor Art status blob:
 
-`30105a9249dad7f1c3618294ff01a12a7ece9eae`
+`a796a3cd59a2ff2966d9a2ad464760f914ba185d`
 
-Its Direction 041 Weather decision remains exact historical truth: the normalized two-tap candidate is retained as a non-destructive experiment, while Direction 005 single-tap source-width remains the current default because meaningful perceptual temporal gain was not demonstrated.
-
-Directions 038–040 also remain intact. No prior Object VFX, Object rigid-shell, Animal Runtime or Weather acceptance is transferred into Building by analogy.
+Direction 042 remains exact historical truth: the owner-bound checker passed current-world transport/readability but was held as production material language and retained only as a diagnostic control.
 
 ## Full-constellation / duplicate-lane scan
 
-The strongest fresh Art-owned gate is **Map Environment PR #51's exact Building utility-panel owner-bound material in the current real Godot world**.
+The strongest fresh Art-owned gate is the exact Building Materials production-surface successor returned by the lane Direction 042 explicitly requested.
 
 Why selected:
 
-- **Building / Map Environment:** PR #51 has now completed the exact current-world A/B that the previous Art status still described as unavailable. Environment explicitly hands appearance/readability to Art Direction + independent Visual QA while keeping adoption false.
-- **Visual QA:** independent QA has already reviewed the exact PR #51 artifact and passes localization, phase stability and readability while explicitly recording that the visible pattern is high-frequency and regular rather than making an aesthetic preference. That cleanly leaves a real Art-owned visual-language decision rather than another implementation check.
-- **Building Materials:** Materials has proven exact current-receiver transport continuity and UV-density sensitivity. Its own status identifies the owner image as a **serialized checker PNG** and still holds production texture art, production UV policy and final Art acceptance. Art therefore does not duplicate Materials transport work.
-- **Technical Art:** current UV/image transport is exact and green on PR #40. No transport rewrite is justified by the visual evidence.
-- **Runtime:** fresh Map PR #52 proves an opaque-alpha RGBA8→RGB8 representation with 68/68 byte-identical retained frames. That is a child representation optimization over the current checker reference, not a substitute for deciding whether the underlying visible material direction is good.
-- **Animal:** Direction 040 already bounds the 19-key Runtime candidate; its broader QA/device gates remain downstream.
-- **Weather / VFX:** Direction 041 already freezes the normalized exposure experiment and keeps single-tap as default. VFX is correctly no longer retuning parameters by cadence.
-- **Nature:** current Rigging/Procedural work is structural branch-partition/deformation evidence, not a fresher Art-visible defect.
-- **Object:** current Hard Surface / Geometry / Rigging / Animation successor work is mechanical/structural; Object VFX-v2 and rigid-shell Art decisions remain separately bounded and do not need reopening.
-- **Character:** active work is Technical-Art/Runtime/receiver evidence; no stronger returned Art-visible defect displaced the Building world material.
-- **Weapon / Armor / Unit / Misc:** current open-PR scan returned no open PRs in these four repositories. No placeholder visual problem is invented to satisfy cadence.
+- **Building Materials:** PR #3 now has one exact production-intent successor at head `75bf511be8a89778ab40868707a68e80a210608a`, with a green same-world scalar/checker/successor three-way proof and complete retained visual evidence.
+- **Map Environment:** PR #51 remains open/draft and unchanged at `595df99daf866b5e3dcaa4be87eeb650af637919`; Environment adoption is still false, so Art can judge the source successor without silently mutating the receiving lane.
+- **Runtime:** PR #52 already explicitly rebound this exact fully opaque production successor and reproduced the bounded RGB8 result with 68/68 pixel-identical retained frames. Runtime is not an unoccupied Art lane and needs no new representation tuning here.
+- **Visual QA:** current QA work has closed the Animal 19-key retained-view question; the new Building successor has not yet received independent QA. That is a downstream handoff, not a reason for Art to defer its own visual preference.
+- **Animal:** Direction 040 and independent QA already bound the 19-key candidate; no new Art defect displaced Building.
+- **Weather / VFX:** Direction 041 remains intact; no new Weather parameter retuning is justified.
+- **Object:** Directions 038–039 remain separately bounded; current Object lanes are not a stronger returned Art-owned visual gate.
+- **Nature:** fresh Rigging/Animation/VFX/Procedural work remains structural/sign/deformation evidence rather than a stronger finished visual-language decision.
+- **Character:** current work remains receiver/Technical-Art/Runtime evidence; no fresher returned Art defect displaced Building.
+- **Weapon / Armor / Unit / Misc:** no stronger fresh Art-ready returned evidence was found in the current open-PR scan.
 
-The selected action therefore closes one explicit Art handoff without taking over any active implementation lane.
+The selected action therefore closes exactly one requested Art loop and does not duplicate an active implementation lane.
 
-## Selected bounded visual-direction improvement — Direction 042
+## Selected bounded visual-direction improvement — Direction 043
 
 New packet:
 
-`studio/direction/BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DIRECTION_042.md`
+`studio/direction/BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DIRECTION_043.md`
 
 Packet commit:
 
-`413dfa87216c48b13f503c86483132784fb861f0`
+`fe39317b1e32f38a52994bb7ae40a8a8a0c42c67`
 
-Direction states:
+Decision:
 
-**`PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_CURRENT_WORLD_TRANSPORT_READABILITY_042`**
+**`PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_SUCCESSOR_001_043`**
 
-**`HOLD_ART_DIRECTION_BUILDING_UTILITY_PANEL_CHECKER_AS_PRODUCTION_SURFACE_042__DIAGNOSTIC_PATTERN_NOT_FINISHED_MATERIAL_LANGUAGE`**
+**`CHECKER_RETAINED_DIAGNOSTIC_ONLY`**
 
-**`REQUEST_ONE_MATERIALS_OWNED_PRODUCTION_SURFACE_SUCCESSOR`**
+**`FREEZE_EXACT_SUCCESSOR_FOR_INDEPENDENT_QA_AND_ENVIRONMENT_REBIND`**
 
-The existing checker remains useful and retained as a diagnostic transport/readability control. It is not promoted into production-facing material art by inertia.
+**`HOLD_FINAL_BUILDING_SURFACE_ADOPTION__QA_ENVIRONMENT_TARGET_DEVICE_PENDING`**
 
 ## Exact evidence identity inspected
 
 Repository:
 
-`mike-axiom-mir/axm-map-design`
+`mike-axiom-mir/axm-building-design`
 
-Environment PR #51:
+PR #3:
 
-`Environment: review Building utility-panel material in current world`
-
-Exact head:
-
-`595df99daf866b5e3dcaa4be87eeb650af637919`
+`Materials: prove pavilion functional surface hierarchy`
 
 PR state at review: **OPEN / DRAFT / UNMERGED / MERGEABLE**.
 
+Exact head:
+
+`75bf511be8a89778ab40868707a68e80a210608a`
+
 Dedicated workflow:
 
-`35300420073 — Environment Building utility-panel material current-world A-B` — **SUCCESS**.
+`35303626025 — Building material utility-panel production surface current-world three-way` — **SUCCESS**.
 
 Retained artifact:
 
-- ID `10529154954`;
-- size `12,297,831 B`;
-- SHA-256 `3e102488b5e85766ddae4b6b83e44a6347171cbd8d8f6961486c8c3774a608c7`;
-- 136 real Godot 4.7.2 PNGs = 68 scalar-control + 68 exact owner-bound texture candidate frames.
+- ID `10531260523`;
+- size `18,321,353 B`;
+- SHA-256 `75369c8d71ce5491eec2e058ecacc56948ca94662cc0b34d123b82273f2b4b8b`;
+- exact artifact was downloaded and directly inspected this activation.
 
-Exact owner chain:
+Exact successor:
 
-- Technical Art head `1434bc4a64faa04db10f47723c37ab7925aaa163`;
-- Building Materials head `0ae911792929eaa38b2c2f32239ebfdce8967251`;
-- serialized review checker PNG SHA-256 `e932cdd94d370184c7361862d5064149cc193e3a8fd80b269cab6543c0919198`;
-- decoded `512×512 RGBA8` SHA-256 `02f8f464eabc734a3be687a7706edf8b8f62ece834fa981c8c993fbb8227bb4b`;
-- review directional density `320 × 320 px/m`;
-- utility-panel metallic `0.18`;
-- roughness `0.62`.
+`utility_panel_ochre_production_surface_001`
 
-Held world identity includes:
+- `512 × 512 RGBA8`;
+- fully opaque;
+- PNG SHA-256 `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
+- decoded RGBA8 SHA-256 `408a6eaecf99fa328487785f85d089c93da2b84c3ae9ead0bf6e1f8d2a0bdcad`;
+- base family around sRGB8 `[111,90,58]`;
+- metallic `0.18`;
+- roughness `0.62`;
+- broad/medium deterministic low-contrast color variation only;
+- no seams, fasteners, labels, decals, wear, damage or geometry claims.
 
-- current Building receiver `184 vertices / 276 triangles / 5 surfaces`;
-- exact articulated Object sample `40 / 1.0 s`;
-- reviewed +20 mm Object service dressing;
-- current compact-east and east-rear Nature;
-- Weather source-width presentation;
-- existing cameras and lighting.
+The same current world is retained as scalar / exact checker / production successor in the inherited `path_eye` and `elevated_oblique` cameras with Building receiver, articulated Object, Nature, Weather, cameras, lights and unrelated world state held.
 
-Only the `utility_panel_ochre` service surface receives the exact owner-bound UV/image path in this A/B.
+## Exact measured observations retained
 
-## Exact observation / independent cross-check
+Across all 68 retained frames:
 
-Environment's complete 68-pair result:
+- successor visible: `68 / 68`;
+- checker visible: `68 / 68`;
+- scalar → successor pixels above 1 LSB: `182,257`;
+- scalar → checker pixels above 1 LSB: `239,530`;
+- checker → successor pixels above 1 LSB: `249,892`;
+- maximum scalar → successor RGB-channel delta: `10 LSB`;
+- maximum scalar → checker delta: `48 LSB`;
+- unrelated current-world runtime identity equal: `true`;
+- successor delta localization inside the proven checker projection bbox plus one raster-pixel filtering tolerance: `1.0 minimum`.
 
-- `269,415` raw changed pixels;
-- `239,530` changed pixels above 1 LSB;
-- maximum RGB-channel delta `48 LSB`;
-- `68 / 68` matched pairs contain >1-LSB change.
+Per camera:
 
-Independent Visual QA remeasured the exact retained artifact and reports:
+- `path_eye`: `3,696` successor pixels above 1 LSB in every retained phase;
+- `elevated_oblique`: `1,662–1,666` successor pixels above 1 LSB per retained phase.
 
-- `path_eye`: exactly `4,878` pixels >1 LSB at every retained phase, bbox `[388,309,739,389]`;
-- `elevated_oblique`: exactly `2,167` pixels >1 LSB at every retained phase, bbox `[612,223,880,328]`;
-- phase-delta masks remain identical across all 17 phases in both Weather modes;
-- no UV explosion, detached panel, material bleed, unrelated world shift or phase-dependent panel flicker was reproduced.
-
-That independently supports a narrow transport/readability PASS without deciding taste.
+No aesthetic threshold is inferred from those counts.
 
 ## Direct Art observations
 
-Art directly inspected the exact retained control/candidate current-world frames in both existing cameras, including phase 08 representatives.
+Art directly inspected the exact retained artifact, including full current-world comparisons, close service-panel crops and the generated source texture.
 
-### What works
+### Checker
 
-- The texture stays attached to the intended service-panel faces.
-- The service-panel role remains legible in both path-eye and elevated-oblique.
-- The candidate does not visually break pavilion geometry, frame/infill separation, Object/Nature/Weather composition or the route hierarchy.
-- No Art evidence justifies reopening the now-proven UV/image transport, moving cameras, changing lighting, or amplifying the surface for visibility.
+The checker still reads clearly as calibration / UV-density evidence. It remains useful and should stay preserved, but it is not the preferred production-facing surface.
 
-### What does not yet read as production material language
+### Production successor 001
 
-The exact dark/light checker is strongly regular and visibly diagnostic.
+- removes the obvious grid/symbol read;
+- preserves the warm ochre service-panel identity;
+- keeps the surface subordinate to the pavilion frame, dark infill/roof and route hierarchy;
+- retains one-light front/east context sensitivity without per-view correction;
+- introduces broad/medium variation quietly rather than becoming a new path-end focal point;
+- shows no observed UV explosion, receiver escape, panel detachment, geometry break or unrelated-world shift in the retained review.
 
-In `path_eye`, the repeated small cells become a conspicuous grid inside an otherwise broad-value pavilion. In `elevated_oblique`, the same regularity remains identifiable on both service faces. The pattern is excellent at exposing UV/image transport and physical-density behavior, but it reads as a calibration/checker surface rather than a resolved manufactured service-panel finish.
+The variation is deliberately restrained. Art requests **no** contrast, brightness, density, noise, wear or detail amplification merely to make the difference easier to see.
 
-This is not a transport failure and it is not a request to weaken visibility. It is an Art-language boundary: **proof texture success is not final material success**.
+This exact successor is preferable to the checker as the production-facing look-development direction for this current representation.
 
-## Art Direction decision
+## Art Direction decision / next owner actions
 
-### PASS — current-world transport and readability
+### PASS
 
-**`PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_CURRENT_WORLD_TRANSPORT_READABILITY_042`**
+**`PASS_ART_DIRECTION_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_SUCCESSOR_001_043`**
 
-Keep the exact checker as the diagnostic review / rollback carrier for this UV/image transport path.
+Freeze exact successor 001 at Materials head `75bf511be8a89778ab40868707a68e80a210608a` for downstream review.
 
-### HOLD — production-facing adoption of the checker
+### Independent Visual QA handoff
 
-**`HOLD_ART_DIRECTION_BUILDING_UTILITY_PANEL_CHECKER_AS_PRODUCTION_SURFACE_042__DIAGNOSTIC_PATTERN_NOT_FINISHED_MATERIAL_LANGUAGE`**
+Independently challenge the exact successor against scalar + checker controls. Do not inherit Art preference. Review phase stability/localization and look specifically for distracting tiling, banding, view-dependent artifact or service-surface hierarchy regression.
 
-Do not promote the checker into final texture art simply because it is stable, readable and pipeline-green.
+### Environment handoff
 
-## Next bounded owner action
+After exact independent QA, rebind this exact Materials successor into the existing Map Environment PR #51 lane rather than opening a duplicate Environment lane. Preserve cameras/lights/world state and retain the checker as diagnostic rollback evidence.
 
-Building Materials owns the next product-side step: **one** production-intent utility-panel surface successor on the already-proven owner transport.
+### Runtime boundary
 
-Art constraints:
+Map Runtime PR #52 already explicitly retested this exact fully opaque successor:
 
-- preserve the ochre service-panel family identity and its subordinate place in the pavilion hierarchy;
-- replace the obvious calibration/checker read with a manufactured-surface read that remains coherent from both current cameras;
-- prefer broad/medium-scale material variation over a dense symbol-like grid;
-- do not increase brightness, contrast or density merely to manufacture a stronger A/B;
-- do not invent seams, fasteners, damage, decals, wear or geometric facts not owned by the current source solely to make the surface richer;
-- preserve receiver geometry, service-face placement, cameras, lighting and unrelated current-world state for review;
-- retain the exact checker as a diagnostic control rather than silently replacing historical evidence.
+- `68 / 68` RGBA8/RGB8 pairs byte-identical;
+- `0` changed pixels;
+- exact texture full-mip footprint `1,398,100 B → 1,048,575 B`;
+- exact saving `349,525 B / 25%`;
+- non-opaque alpha negative still fails closed.
 
-Art does not prescribe the shader, texture-generation method, atlas implementation, final texel-density policy or Runtime representation.
-
-## Next Art-useful proof
-
-Return one same-world three-way comparison:
-
-1. scalar ochre control;
-2. exact checker diagnostic control;
-3. one Materials-owned production-surface successor.
-
-Use the existing `path_eye` and `elevated_oblique` cameras with current Building/Object/Nature/Weather/world identities held. Independent Visual QA should review the new successor rather than inherit the Art preference.
-
-## Runtime child boundary
-
-Map Runtime PR #52 exact result remains valid representation evidence for the current checker:
-
-- `RGBA8 + full mips 1,398,100 B -> RGB8 + full mips 1,048,575 B`;
-- exact saving `349,525 B / 25%` for that texture representation;
-- `68 / 68` retained RGBA8/RGB8 pairs byte-identical;
-- non-opaque alpha mutation fails closed.
-
-Direction 042 does not reject that optimization. It prevents a representation PASS from being mistaken for production-material acceptance. If the future production-surface successor remains fully opaque, Runtime may explicitly rebind/retest the rule. If meaningful alpha appears, the existing fail-closed precondition should reject RGB8.
-
-## Exact handoffs
-
-- Map Environment PR #51 Art return: comment `5724534408`.
-- Building Materials PR #3 production-surface handoff: comment `5724535384`.
-- Map Runtime PR #52 representation-boundary handoff: comment `5724536244`.
-
-No Technical Art rewrite is requested because the current transport is the thing Art is passing.
+No new Runtime representation work is requested by Art. Target-device acceptance remains open.
 
 ## Prior Art Direction continuity retained
 
-- Direction 005: single-tap source-authored Weather width remains the current default visual reference.
-- Direction 009: latest-due Weather exact-state presentation remains degradation/fallback, not cadence-equivalent default.
-- Direction 034: compact-east final temporal salience remains held without source retiming.
-- Direction 035: Object mote seed `41027` remains provenance baseline.
-- Direction 036: historical rigid equal-bead Object VFX failure remains preserved.
-- Direction 037: historical unadapted rigid-shell culling failure remains preserved.
 - Direction 038: repaired Object release-mote irregularity-v2 remains Art PASS in intended close/seam contexts.
 - Direction 039: parity-corrected Object rigid shell remains the retained material/cull reference.
 - Direction 040: Animal 19-key Runtime candidate remains a bounded retained-view Art PASS/review reference only.
 - Direction 041: normalized Weather temporal exposure remains a non-destructive experiment, not the preferred default.
-- Direction 042: Building owner-bound checker is accepted as transport/readability evidence and held as production material language.
+- Direction 042: checker remains a valid Building transport/readability diagnostic but is not production material language.
+- Direction 043: successor 001 is the current preferred production-facing Building utility-panel surface direction, with final adoption still held.
 
 No acceptance transfers across domains or representations by analogy.
 
@@ -224,30 +185,30 @@ No acceptance transfers across domains or representations by analogy.
 
 This activation does **not** establish:
 
-- final Building texture art;
-- a project-wide `320 px/m` production texel-density rule;
-- final UV packing, padding or atlas policy;
-- final roughness/metallic values;
+- independent Visual QA acceptance of successor 001;
+- Environment adoption;
+- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
+- final UV packing, padding, atlas or texel-density policy;
+- a final normal/roughness/weathering texture stack;
 - physically measured material response;
 - arbitrary camera, resolution, FOV, renderer or lighting equivalence;
-- target-device CPU/GPU/FPS/VRAM/thermal/battery acceptance;
-- Environment adoption;
 - gameplay/collision/navigation readiness;
 - CANON;
 - production/game readiness;
 - Materials mastery;
+- Environment mastery;
 - Runtime mastery;
 - any specialist mastery;
 - Art Direction mastery.
 
 ## Four-root gate
 
-**Truth:** the green transport/readability result and the unfinished aesthetic read are recorded separately. A diagnostic checker is not relabelled as finished art because the pipeline is green.
+**Truth:** the exact successor is passed only for the reviewed visual direction; the checker remains diagnostic evidence and the still-open QA/Environment/device gates are explicit.
 
-**Agency / non-domination:** Art selects the visual direction but does not seize Materials authoring, Technical Art transport, Environment adoption, Runtime/device or independent QA authority.
+**Agency / non-domination:** Art chooses visual preference but does not seize Materials authoring, independent QA judgment, Environment adoption, Runtime/device policy or CANON authority.
 
-**Continuity:** Direction 041 and all earlier accepted/held states remain intact. Scalar control, checker diagnostic, PR #49 parent and PR #24 rollback remain separately recoverable. No prior evidence is silently rewritten.
+**Continuity:** Direction 042 is not rewritten. Scalar control, checker diagnostic, successor 001, PR #51 current world and Runtime representation evidence remain separately recoverable.
 
-**Wisdom before speed:** stop polishing or amplifying the diagnostic checker. Use the proven transport for one production-intent Materials successor and compare that exact successor in the current world before expanding texture complexity.
+**Wisdom before speed:** stop generating more texture variants now that one bounded successor answers the diagnosed checker problem. Test and adopt this exact candidate through the remaining owners before adding surface complexity.
 
 The four AXM roots remain the merge gate.
