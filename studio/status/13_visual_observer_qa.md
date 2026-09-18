@@ -2,161 +2,161 @@
 
 Date: 2026-09-18
 
-State: **PASS_ANIMAL_RUNTIME_19_KEY_RETAINED_VIEW_VISUAL_NONREGRESSION__WORST_SAMPLE_SILHOUETTE_DRIFT_MAX_1PX / PASS_ANIMAL_RUNTIME_19_KEY_RETAINED_PEAK_POSE_RASTER_IDENTITY__VIEW02_BYTE_IDENTICAL / BLOCKED_FINAL_ANIMAL_ANIMATION_KEY_REDUCTION_ADOPTION__ARBITRARY_CAMERA_CONTINUOUS_PLAYBACK_TARGET_DEVICE_PRODUCTION_TANGENT_SPACE_PENDING / COORDINATION_ONLY**
+State: **PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_CURRENT_WORLD_VISUAL_QA__LOCALIZED_STABLE_SUBORDINATE__68_PAIRS / PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DEPATTERNS_CHECKER__TWO_EXISTING_CAMERAS / BLOCKED_FINAL_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_ADOPTION__ENVIRONMENT_REBIND_TARGET_DEVICE_CLOSE_RANGE_SURFACE_STACK_PENDING / COORDINATION_ONLY**
 
 ## Current activation
 
-Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, the preceding Visual QA status, fresh Art Direction / Runtime state, and newest open PRs across the active 3D constellation.
+Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/13_visual_observer_qa.md`, this QA ledger, current Art Direction state, and newest open PR/workflow state across the active 3D constellation.
 
-`axm-create-me` remains **coordination only**. QA changed no Animal source, Geometry, Rigging, weights, Animation curve/timing, Technical Art transport, Runtime reducer, material/shader, gameplay/controller logic, Universal Creation product code or CANON state. Product-repository action is limited to an independent review return on the existing Animal Runtime PR.
+`mike-axiom-mir/axm-create-me` remains **coordination only**. This activation changes no Building source/Geometry, UV mapping, material parameters, Environment scene, Runtime representation, gameplay, Universal Creation product code or CANON state. Product-repository action is limited to an independent review return on the existing Building Materials PR.
 
 The four AXM roots remain the merge gate: **Truth, Agency / non-domination, Continuity, Wisdom before speed**.
 
-## Selection / duplication scan
+## Selection / duplicate-lane scan
 
-The strongest consequential unverified visual/runtime surface selected this activation is Animal Runtime PR #30's exact **41 -> 19 serialized animation-key** candidate at head `13ba20d198d2b7c5e428167745d59927b3084004`.
+The strongest consequential unverified visual surface is the exact Building utility-panel production-surface successor requested by Art Direction after the earlier checker diagnostic.
+
+Selected surface:
+
+- repository: `mike-axiom-mir/axm-building-design`;
+- PR #3 — `Materials: prove pavilion functional surface hierarchy`;
+- exact reviewed head: `75bf511be8a89778ab40868707a68e80a210608a`;
+- PR at review: OPEN / DRAFT / UNMERGED / MERGEABLE;
+- successor: `utility_panel_ochre_production_surface_001`.
 
 Why selected:
 
-- the previous Map Building utility-panel current-world appearance gate is already independently reviewed and is not reopened;
-- Art Direction has now separately accepted the Animal 19-key candidate only as a bounded retained-view review direction while explicitly leaving independent QA and target-device gates downstream;
-- Runtime explicitly records a small nonzero shaded/silhouette tradeoff at the worst retained time rather than pixel identity, so this is a real perceptual QA question rather than a structural-only handoff;
-- Map Runtime PR #52's RGB8 child has 68/68 byte-identical retained frames and remains a separate representation/device-policy question, so it is less consequential visually than the Animal candidate's measured deformation drift;
-- current Nature Animation/VFX lanes are diagnostic/sign-compatibility surfaces and do not displace this already-complete real Godot A/B;
-- Object VFX-v2 Runtime, Object rigid-shell winding/culling, Object latch, Map Building material, compact-east temporal delivery and prior Character/Animal review surfaces already have bounded independent QA and are not duplicated.
+- Direction 043 explicitly freezes this exact Materials successor for independent QA before Environment adoption;
+- the preceding checker/current-world QA is already closed and remains diagnostic-only rather than production visual language;
+- Map Runtime #52 already has a separate exact representation result for this successor and is not an unoccupied visual lane;
+- the immediately preceding Animal 19-key retained-view QA is closed and is not reopened;
+- Character target-host playback current exact head remains workflow-red, so there is no fresh completed visual claim to inherit or relabel;
+- fresh Nature motion work remains bounded diagnostic/source evidence rather than a stronger returned finished appearance gate.
+
+No duplicate implementation lane was opened.
 
 ## Exact evidence identity
 
-Repository: `mike-axiom-mir/axm-animal-design`
+Art Direction's exact owner artifact was independently downloaded and inspected:
 
-PR: **#30 — `Runtime: reduce Animal animation key import budget`**
+- artifact ID: `10531260523`;
+- artifact SHA-256: `75369c8d71ce5491eec2e058ecacc56948ca94662cc0b34d123b82273f2b4b8b`;
+- successor PNG SHA-256: `fdf56d0c0b2e65a181a23cb5db4067555f188cce28ef2479fd5a71c8e11d220c`;
+- current-world source Environment identity carried by the packet: `595df99daf866b5e3dcaa4be87eeb650af637919`;
+- two retained cameras: `path_eye`, `elevated_oblique`;
+- two Weather branches: candidate/control;
+- 17 retained phases each;
+- total scalar/checker/successor current-world comparisons independently remeasured: `68`.
 
-Exact head: **`13ba20d198d2b7c5e428167745d59927b3084004`**.
+The QA pass uses the exact retained PNGs rather than inheriting Art preference or Materials headline metrics.
 
-At review time PR #30 remains **OPEN / DRAFT / UNMERGED**.
+## PASS — production successor localized, stable and subordinate in retained current-world views
 
-Dedicated workflow: `35288829261 — Runtime Animal animation key budget evidence` — **SUCCESS** on the exact reviewed head.
+**`PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_CURRENT_WORLD_VISUAL_QA__LOCALIZED_STABLE_SUBORDINATE__68_PAIRS`**
 
-Retained artifact:
+Independent exact-PNG remeasurement across all 68 scalar/successor pairs:
 
-- ID `10525970648`;
-- expected and independently reproduced SHA-256 `ad071f58796b606d707168af9619d988a497ba1a745dda8ac62b42e7f814b996`;
-- exact control and candidate GLBs;
-- three shaded retained control/candidate view pairs plus three corresponding coverage-mask pairs;
-- exact Godot receipts, build/runtime receipts and fail-closed source-identity negative control.
+- scalar -> successor pixels above 1 LSB: **`182,257` aggregate**;
+- maximum scalar -> successor RGB-channel delta: **`10 LSB`**;
+- every retained pair contains a measurable successor delta;
+- no whole-world shift or unrelated-scene delta was reproduced.
 
-Runtime candidate facts remain owner evidence, not QA-authored policy:
+Phase/localization challenge:
 
-- serialized animation keys: `41 -> 19` (`-53.6585%`);
-- animation accessor: `820 -> 380 B`;
-- complete GLB: `10,296 -> 9,852 B` (`-444 B / -4.31235%`);
-- dense diagnostic samples: `321`;
-- maximum retained quaternion residual: `0.05472043982868231°`;
-- mean residual: `0.017652759664455314°`;
-- worst retained diagnostic time: `0.475 s`;
-- authored peak `0.500 s` remains an explicit retained key;
-- maximum retained pose-bounds delta: `0.000406801700592041 m`.
+### `path_eye`
 
-The source-authored clip is not retimed or rewritten by this Runtime representation.
+- exact successor support above 1 LSB: **`3,696 px` in every one of the 17 phases** in both Weather branches;
+- fixed support bbox: `[388,309,739,389]`;
+- minimum Jaccard of the >1-LSB support mask versus phase 00: **`1.0`**;
+- minimum consecutive-phase support Jaccard: **`1.0`**.
 
-## PASS — worst-sample retained-view visual non-regression
+### `elevated_oblique`
 
-**`PASS_ANIMAL_RUNTIME_19_KEY_RETAINED_VIEW_VISUAL_NONREGRESSION__WORST_SAMPLE_SILHOUETTE_DRIFT_MAX_1PX`**
+- candidate-Weather successor support: `1,662..1,666 px` across the 17 phases;
+- fixed support bbox: `[612,222,879,328]`;
+- minimum Jaccard versus phase 00: **`0.9975990396`**;
+- minimum consecutive-phase Jaccard: **`0.9987995198`**;
+- control-Weather support remains `1,665..1,666 px`, with minimum phase-00 Jaccard `0.9993997599`.
 
-QA independently remeasured the exact retained PNGs rather than inheriting Runtime's headline metrics.
+The few support-pixel changes in the elevated view remain inside the same fixed service-panel projection and do not form a moving material footprint or phase-dependent UV flicker.
 
-### View 00 — `0.475 s`
+Direct inspection reproduces no receiver escape, detached panel, UV explosion, whole-scene shift, obvious retained-scale banding/tiling, unrelated-world corruption or service-surface hierarchy regression. The warm ochre panel remains visibly present but subordinate to the frame, dark infill/roof and route hierarchy.
 
-- shaded raw changed pixels: `9,850`;
-- shaded pixels above 1 LSB: `152`;
-- coverage XOR: `59 px`;
-- coverage lost/gained: `36 / 23 px`;
-- largest 8-connected silhouette-XOR component: `3 px`;
-- maximum control/candidate silhouette-boundary displacement: **`1.0 px`**;
-- coverage centroid shift: about `0.041 px`;
-- common-coverage/interior shaded pixels above 1 LSB: `93`;
-- common-coverage maximum channel delta: **`5 LSB`**;
-- background-only pixels above 1 LSB: `0`.
+## PASS — checker is visibly removed without erasing the panel identity
 
-### View 01 — `0.475 s`
+**`PASS_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_DEPATTERNS_CHECKER__TWO_EXISTING_CAMERAS`**
 
-- shaded raw changed pixels: `8,967`;
-- shaded pixels above 1 LSB: `564`;
-- coverage XOR: `81 px`;
-- coverage lost/gained: `32 / 49 px`;
-- largest 8-connected silhouette-XOR component: `2 px`;
-- maximum control/candidate silhouette-boundary displacement: **`1.0 px`**;
-- coverage centroid shift: about `0.083 px`;
-- common-coverage/interior shaded pixels above 1 LSB: `483`;
-- common-coverage maximum channel delta: **`17 LSB`**;
-- background-only pixels above 1 LSB: `0`.
+Independent aggregate measurements:
 
-Direct retained-frame inspection reproduces a real but very small worst-sample deformation/silhouette difference. QA reproduced no gross shape break, detached region, coherent multi-pixel contour jump, whole-frame shift, background corruption, missing limb mass, or unrelated render corruption.
+- scalar -> checker pixels above 1 LSB: **`239,530`**;
+- checker -> production successor pixels above 1 LSB: **`249,892`**;
+- scalar -> successor pixels above 1 LSB: **`182,257`**.
 
-The owner report's `244/255` maximum channel deltas are not hidden: they occur where a one-pixel silhouette sample switches background <-> model. They are therefore not relabelled as broad interior shading error. The nonzero tradeoff remains real and explicitly recorded; this PASS does **not** claim byte-equivalence at `0.475 s`.
+The exact checker retains an obvious calibration-grid read in both existing cameras. The production successor removes that grid/symbol read while preserving the same ochre service-panel identity and the same current-world lighting relation. QA reproduced no new replacement pattern that becomes a stronger focal point than the panel's functional role.
 
-## PASS — retained authored peak remains raster-identical
+This PASS is independent visual QA of the retained presentation; it does not inherit Art Direction's preference as evidence.
 
-**`PASS_ANIMAL_RUNTIME_19_KEY_RETAINED_PEAK_POSE_RASTER_IDENTITY__VIEW02_BYTE_IDENTICAL`**
+## Source-texture precision retained
 
-At retained view 02 / authored peak `0.500 s`:
+The exact `512 x 512 RGBA8` successor source was also inspected directly:
 
-- shaded control/candidate image: byte-identical;
-- coverage control/candidate image: byte-identical;
-- raw changed pixels: `0`;
-- coverage XOR: `0`;
-- maximum channel delta: `0 LSB`.
+- alpha: exactly `255` everywhere;
+- exact RGB triplets present: **`26`**;
+- channel ranges: `R 104..118`, `G 84..96`, `B 54..62`;
+- maximum adjacent source-channel step: **`2 LSB`**;
+- all four `256 x 256` quadrant byte hashes are distinct;
+- no exact 64/128/256-pixel repetition was found on X or Y in direct shift checks.
 
-This is consistent with Runtime deliberately preserving the peak as an authored key. It is a retained-view observation only, not proof that every authored or interpolated time is visually identical.
+The small exact palette is deliberately recorded rather than hidden. QA did **not** reproduce distracting banding in the retained current-world cameras, but this evidence is not sufficient to grant arbitrary close-range/magnified anti-banding acceptance. That remains inside the final HOLD below.
 
 ## No new scoped FAIL reproduced
 
-The visual delta requested for independent QA is nonzero, but within these exact retained fixed views QA did not reproduce a defect severe enough to classify as a retained-view visual regression. The silhouette displacement is bounded to one raster pixel at the measured worst time, with tiny disconnected XOR components and no gross form break.
+Within the exact retained current-world evidence, QA did not reproduce a visual defect severe enough to classify as a current-world regression. The successor is measurably distinct from scalar, removes the checker language, remains localized, and stays stable through the retained phase field.
 
-QA therefore does **not** invent a FAIL merely because the representation is approximate. The approximation remains visible in evidence and stays inside the final-adoption HOLD below.
+QA therefore does not invent a FAIL from the source texture's deliberately restricted palette. The restriction remains explicit as a close-range evidence gap.
 
-## BLOCKED — final Animal animation-key reduction adoption
+## BLOCKED — final Building utility-panel production-surface adoption
 
-**`BLOCKED_FINAL_ANIMAL_ANIMATION_KEY_REDUCTION_ADOPTION__ARBITRARY_CAMERA_CONTINUOUS_PLAYBACK_TARGET_DEVICE_PRODUCTION_TANGENT_SPACE_PENDING`**
+**`BLOCKED_FINAL_BUILDING_UTILITY_PANEL_PRODUCTION_SURFACE_ADOPTION__ENVIRONMENT_REBIND_TARGET_DEVICE_CLOSE_RANGE_SURFACE_STACK_PENDING`**
 
 This activation does **not** establish:
 
-- arbitrary-camera, arbitrary-FOV or arbitrary-resolution visual equivalence;
-- continuous wall-clock playback smoothness, frame pacing or temporal naturalness;
-- target-device CPU/GPU/FPS/VRAM/heap/import-time/thermal/battery improvement;
-- a generic key-reduction tolerance or policy for unrelated clips/assets;
-- deformed normal/tangent direction-frame correctness or production normal-map quality;
-- acceptance of every interpolated time between retained samples;
-- gait, locomotion, foot planting, balance, biological or biomechanical correctness;
-- gameplay/controller/state-machine/input/collision readiness;
-- Technical Art producer adoption;
-- CANON or production/game readiness.
+- Environment adoption of successor 001;
+- arbitrary-camera, arbitrary-FOV, arbitrary-resolution, arbitrary-renderer or arbitrary-lighting equivalence;
+- close-range or magnified anti-banding / anti-posterization acceptance;
+- final production normal, roughness, weathering, decal or damage stack;
+- final UV packing, padding, atlas or texel-density policy;
+- physically measured surface response;
+- target-device CPU/GPU/FPS/VRAM/texture-memory/thermal/battery acceptance;
+- collision/navigation/gameplay readiness;
+- CANON or production/game readiness;
+- Materials, Environment, Runtime or QA mastery.
 
-The current candidate therefore remains a bounded import-budget representation with a retained-view QA PASS, not a final production animation policy.
+The exact successor may now return to the existing Map Environment PR #51 rebind lane. QA does not authorize opening a duplicate Environment lane or silently adopting it.
 
 ## Independent review return
 
-QA returned the exact result to Animal Runtime PR #30 as review **`5244083088`**, anchored to exact head `13ba20d198d2b7c5e428167745d59927b3084004`.
+QA returned the exact result to Building Materials PR #3 as review **`5244398076`**, anchored to head `75bf511be8a89778ab40868707a68e80a210608a`.
 
-No Runtime threshold change, key retune, source Animation edit, Art-direction change, merge, UC mutation or CANON promotion was requested.
+No material retune, texture edit, Environment mutation, Runtime policy change, merge or CANON promotion was requested.
 
 ## Prior retained QA continuity
 
-The immediately preceding Map Building utility-panel result remains exact historical truth and is not rewritten:
+The immediately preceding Animal Runtime result remains exact historical truth and is not rewritten:
 
-- `PASS_MAP_BUILDING_UTILITY_PANEL_CURRENT_WORLD_VISUAL_LOCALIZATION_AND_PHASE_STABILITY__68_MATCHED_PAIRS`;
-- `PASS_MAP_BUILDING_UTILITY_PANEL_OWNER_BOUND_TEXTURE_READABILITY__PATH_EYE_AND_ELEVATED_OBLIQUE`;
-- final production-surface / Art / Runtime-device adoption remained held at that reviewed head.
+- `PASS_ANIMAL_RUNTIME_19_KEY_RETAINED_VIEW_VISUAL_NONREGRESSION__WORST_SAMPLE_SILHOUETTE_DRIFT_MAX_1PX`;
+- `PASS_ANIMAL_RUNTIME_19_KEY_RETAINED_PEAK_POSE_RASTER_IDENTITY__VIEW02_BYTE_IDENTICAL`;
+- final arbitrary-camera / continuous-playback / target-device / tangent-space adoption remained held.
 
-Art Direction has since separately held that exact checker as diagnostic rather than production material language and requested one Materials-owned production-surface successor. That is Art authority and does not alter the prior QA transport/readability PASS.
+The earlier Building checker QA also remains historical truth: it passed transport/readability/localization as diagnostic evidence, while Art Direction subsequently classified that checker as calibration-only and requested this production successor. The new PASS does not rewrite or erase the checker evidence; it answers the successor-specific visual question.
 
-The earlier Object VFX source/Runtime PASSes, corrected rigid-shell culling PASS / unadapted FAIL, compact-east cadence/crest failures, Object latch proofs, Animal tangent-frame evidence, Character shaded-motion evidence and all separate HOLDs remain bound to their exact historical heads. No acceptance transfers by analogy.
+Earlier Object VFX/Runtime, corrected rigid-shell culling, compact-east temporal delivery, Object latch, Animal tangent-frame, Character shaded-motion and other historical PASS/FAIL/BLOCKED results remain bound to their exact reviewed heads. No acceptance transfers by analogy.
 
 ## Four-root gate
 
-- **Truth:** the 19-key candidate's tiny but nonzero worst-time silhouette/interior raster drift is preserved quantitatively; peak identity and worst-time non-identity are recorded separately.
-- **Agency / non-domination:** QA judges only the retained visual evidence and does not seize Runtime optimization policy, Animation authorship, Technical Art producer adoption, Art Direction, device acceptance or CANON authority.
-- **Continuity:** exact Runtime head, workflow, artifact digest, owner metrics, independent measurements and prior Map/Object/Animal evidence remain separately addressable; no historical PASS/HOLD is silently rewritten.
-- **Wisdom before speed:** the retained fixed-view visual gate is closed because evidence supports it, while broader temporal/device/tangent-space adoption remains blocked instead of being inferred from one favorable A/B.
+- **Truth:** the exact artifact identities, 68-frame measurements, strong checker removal, subtle successor delta, limited 26-color source palette and remaining evidence gaps are all preserved separately.
+- **Agency / non-domination:** QA judges retained visual evidence only and does not seize Materials authoring, Art preference, Environment adoption, Runtime/device policy or CANON authority.
+- **Continuity:** scalar control, checker diagnostic, successor 001, exact Materials head, previous Map/Animal/Object results and rollback evidence remain separately addressable; no historical state is silently rewritten.
+- **Wisdom before speed:** the bounded current-world visual gate closes because evidence supports it, while close-range presentation, Environment adoption, production surface stack and target-device behavior remain held instead of being inferred from two favorable cameras.
 
 The four AXM roots remain the merge gate.
