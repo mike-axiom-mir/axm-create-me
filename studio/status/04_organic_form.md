@@ -2,7 +2,7 @@
 
 Date: 2026-09-18
 
-State: **PASS_NATURE_TRUNK_BRANCH_INTERACTION_CLASSIFICATION / ORGANIC_PR8_HEAD_A9532B60 / SOURCE_FORM_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / TEN_EXACT_TRUNK_BRANCH_PAIRS / ONE_ROOT_CENTER_CONTAINED / ONE_FLEX_ENVELOPE_OVERLAP_ONLY / EIGHT_DISJOINT / NORTH_LOW_OVERLAP_ONLY_NOT_EAST_MID_POLICY / NEUTRAL_ATTACHMENT_SUPPORT_EXPLICIT / DEFORMATION_UNTESTED / NO_SOURCE_FORM_OR_FLEX_METADATA_MUTATION / CHARACTER_REVIEW006_FROZEN / ANIMAL_SELECTED003_FROZEN / COORDINATION_ONLY**
+State: **PASS_NATURE_NEUTRAL_ATTACHMENT_FLEX_BOUNDARY / ORGANIC_PR8_HEAD_925715D2 / SOURCE_FORM_FROZEN_FDC9D2B6 / SOURCE_DIGEST_178CD8CF / TEN_EXACT_TRUNK_BRANCH_PAIRS / ONE_NEUTRAL_ATTACHMENT_CROSS_SECTION_INTERSECTION / NINE_DISJOINT / NORTH_LOW_DECLARED_OVERLAP_BUT_ATTACHMENT_CROSS_SECTION_9P0795MM_OUTSIDE / EAST_MID_ATTACHMENT_CROSS_SECTION_INTERSECTS / DEFORMATION_UNTESTED / NO_SOURCE_FORM_OR_FLEX_METADATA_MUTATION / CHARACTER_REVIEW006_FROZEN / ANIMAL_SELECTED003_FROZEN / COORDINATION_ONLY**
 
 ## Activation / campaign gate
 
@@ -12,29 +12,27 @@ Re-read `studio/3D_STUDIO_CAMPAIGN.md`, `studio/specialists/04_organic_form.md`,
 
 Immediate predecessor Organic status blob:
 
-`746c3b36fd2bd9348a11422eb64ab54bf83350f0`
+`1e6e1354235358c41b7f4754a2ec3a48c1102c3e`
 
-That predecessor remains rollback-addressable and preserves the exact neutral `2 trunk flex × 5 branch flex` interaction map at Organic head `f8d103a9f0a1e457539919a45c605c1edb8b9a7f`. This activation sharpens one relation class required by fresh downstream Rigging evidence; it does not rewrite the predecessor.
+That predecessor remains rollback-addressable and preserves the prior exact interaction-classification result. This activation adds a narrower source-space deformation-readiness distinction; it does not rewrite the predecessor or source form.
 
 ## Fresh constellation / duplicate-lane decision
 
 The full scan did not expose a stronger Organic-owned source-form defect elsewhere.
 
-- **Character review-006** remains source-frozen. Fresh Character work is downstream receiving/representation; no exact return localizes a defect to Organic-owned anatomy landmarks, mass, proportion, silhouette or authored positions.
-- **Animal selected-003** remains source-frozen. Fresh Animal work is downstream deformation/transport/runtime evidence; no exact return localizes a source-form defect.
+- **Character review-006** remains source-frozen. Fresh Character work is downstream Rigging/representation evidence; no exact return localizes a defect to Organic-owned anatomy landmarks, mass, proportion, silhouette or authored positions.
+- **Animal selected-003** remains source-frozen. Fresh Animal work is downstream Geometry/Technical-Art/Runtime receiving; no exact return localizes a source-form defect.
 - **Weapon / Armor / Unit / Misc** expose no grounded organic body that warrants invention by cadence.
-- **Building / Weather / Map / Object** remain dominated by manufactured geometry, atmosphere, world receiving, materials, topology, Runtime or QA.
-- **Nature** has the strongest fresh Organic trigger because Rigging PR #14 consumed the source-contained `east-mid` relation and explicitly left the separate `north-low` overlap unresolved.
+- **Building / Weather / Map / Object** remain dominated by manufactured geometry, atmosphere, world receiving, materials, Runtime or QA.
+- **Nature** remains the highest-leverage Organic lane because Rigging PR #14 has exact east-mid hierarchy evidence while explicitly keeping north-low separate. The prior Organic classifier proved north-low's declared branch-flex envelope overlaps `trunk-upper-flex`, but did not prove that the authored trunk-flex sphere actually reaches the neutral trunk body at north-low's attachment locus.
 
-Fresh Rigging exact head:
+Fresh Rigging exact head remains:
 
 `6cf64925f0ea00737e4d3f2d4f15979c773f309d`
 
-Rigging proves a bounded parent-frame rebase diagnostic for `trunk-upper-flex ↔ east-mid`, where the exact branch root center is inside the authored trunk-flex envelope. Rigging correctly does **not** transfer that policy to `north-low`, whose declared flex envelope overlaps but whose exact branch-root center is outside the trunk-flex radius.
+No duplicate Organic PR was opened.
 
-The highest-leverage Organic action was therefore to classify the source-owned relation exactly and bind it to neutral attachment evidence before any north-low hierarchy/weighting decision. No duplicate Organic PR was opened.
-
-## Selected bounded improvement — exact interaction classes
+## Selected bounded improvement — neutral attachment / trunk-flex boundary
 
 Repository:
 
@@ -50,7 +48,7 @@ Branch:
 
 Exact current Organic evidence head:
 
-**`a9532b60d5742d8e1ef97e47d7bc42d625eefb18`**
+**`925715d2f0491e2bcbc493b93dc6d14ab3dcb2a6`**
 
 PR state after verification:
 
@@ -70,156 +68,158 @@ Historical Organic generated mesh remains:
 
 No source JSON, trunk/branch/leaf position, authored radius, flex-zone center/radius/status, generated mesh, Geometry receiver, Rigging transform, Animation timing, VFX response, Technical-Art transport, Runtime representation or world placement changed.
 
-New source-readiness schema:
+The existing classifier was extended from schema `v0.1` to:
 
-**`axm.nature-trunk-branch-flex-interaction-classification/v0.1`**
+**`axm.nature-trunk-branch-flex-interaction-classification/v0.2`**
 
-Scoped result:
+The new source-space measurement is, for each exact trunk-flex / branch-root pair:
 
-**`PASS_EXACT_TRUNK_BRANCH_FLEX_INTERACTION_CLASSES__DEFORMATION_UNTESTED`**
+`distance(trunk_flex_center, nearest_neutral_attachment_centerline_point) - trunk_flex_radius - local_trunk_radius`
 
-All exact trunk-flex / branch-root-flex pairs are placed into one of three source-geometry classes:
+Interpretation is bounded and geometric only:
 
-- `ROOT_CENTER_CONTAINED_IN_TRUNK_FLEX`
-- `FLEX_ENVELOPE_OVERLAP_ONLY`
-- `DISJOINT`
+- `<= 0`: the declared trunk-flex sphere intersects the authored neutral trunk cross-section at that branch's nearest attachment locus;
+- `> 0`: the neutral attachment cross-section is spatially outside that trunk-flex sphere by the signed gap.
 
-Current exact distribution across all ten pairs:
+This is **not** a weight field, influence map, hierarchy decision, deformation simulation, physical flex law or biological attachment model.
 
-- root-center-contained: **1**
-- flex-envelope-overlap-only: **1**
-- disjoint: **8**
+## Exact source result — 1 intersecting attachment locus / 9 disjoint
 
-## Exact source evidence — north-low is not east-mid
+Across the exact `2 trunk flex × 5 branch roots = 10` pairs:
 
-### North-low — `FLEX_ENVELOPE_OVERLAP_ONLY`
+- neutral attachment cross-section intersections: **1**;
+- neutral attachment cross-section disjoint relations: **9**.
 
-Exact pair:
+The only intersecting pair is:
 
-`trunk-upper-flex ↔ north-low-branch-flex`
+**`trunk-upper-flex ↔ east-mid`**.
+
+### North-low — declared metadata overlap does not reach neutral attachment cross-section
+
+Existing declaration class remains:
+
+**`FLEX_ENVELOPE_OVERLAP_ONLY`**
+
+Exact source facts:
 
 - upper trunk flex radius: `0.22 m`;
-- north-low branch flex radius: `0.14 m`;
-- trunk-flex center -> branch-root center distance: `0.3315116890850156 m`;
-- branch-root center is **outside** the trunk-flex radius by `0.1115116890850156 m`;
-- declared flex envelopes overlap by `0.028488310914984383 m`.
-
-The branch itself remains positively attached in the authored neutral source:
-
+- north-low branch-flex radius: `0.14 m`;
+- declared flex-envelope overlap: **`0.028488310914984383 m`**;
 - nearest authored trunk segment: `mid->upper`;
-- segment parameter: `0.5877803557617942`;
+- nearest segment parameter: `0.5877803557617942`;
 - neutral root-centerline distance: `0.006592784731672557 m`;
 - local authored trunk radius: `0.10236658932714617 m`;
 - branch-root radius: `0.055 m`;
-- full-root neutral support margin: **`0.040773804595473605 m`**.
+- full-root neutral support margin: **`0.040773804595473605 m`**;
+- upper-trunk-flex center -> nearest neutral attachment centerline distance: **`0.33144612713000876 m`**;
+- neutral attachment cross-section to upper-trunk-flex boundary signed gap: **`+0.009079537802862594 m`**.
 
-This is the critical distinction: the source says the **declared flex envelopes overlap**, not that north-low's exact root is inside the upper-trunk flex envelope.
+Therefore north-low's **declared branch-flex sphere overlaps** the declared upper-trunk-flex sphere, while the authored neutral trunk cross-section at north-low's nearest attachment remains about **9.08 mm outside** that trunk-flex sphere.
 
-### East-mid — `ROOT_CENTER_CONTAINED_IN_TRUNK_FLEX`
+That distinction is the highest-leverage result of this pass. It blocks an unsupported inference from metadata overlap to parent-region reach.
 
-Exact pair:
+### East-mid — exact neutral attachment intersection
 
-`trunk-upper-flex ↔ east-mid-branch-flex`
+Existing declaration class remains:
 
-- trunk-flex center -> branch-root center distance: `0.10630145812734658 m`;
-- east-mid root center lies inside the `0.22 m` trunk-flex radius by **`0.11369854187265342 m`**;
+**`ROOT_CENTER_CONTAINED_IN_TRUNK_FLEX`**
+
+Exact source facts:
+
+- root-center containment margin: `0.11369854187265342 m`;
 - declared flex-envelope overlap: `0.23369854187265338 m`;
 - nearest authored trunk segment: `upper->crown`;
-- full-root neutral support margin: **`0.009731379482495778 m`**.
+- full-root neutral support margin: `0.009731379482495778 m`;
+- upper-trunk-flex center -> nearest neutral attachment centerline distance: `0.10270063195882467 m`;
+- local authored trunk radius at that locus: `0.08616457461645745 m`;
+- neutral attachment cross-section to upper-trunk-flex boundary signed relation: **`-0.2034639426576328 m`**.
 
-This is materially different source geometry from north-low. Rigging's current east-mid parent-frame PASS therefore cannot truthfully transfer to north-low by overlap similarity.
+So east-mid remains materially different source geometry from north-low. Existing Rigging evidence for east-mid is not invalidated, but it cannot truthfully transfer to north-low by declared-envelope similarity.
 
 ## New handoff rule
 
-**`FLEX_ENVELOPE_OVERLAP_ONLY != ROOT_CENTER_CONTAINMENT__DOWNSTREAM_HIERARCHY_POLICY_MUST_BIND_EXACT_INTERACTION_CLASS__NO_POLICY_TRANSFER_BY_OVERLAP_ALONE`**
+**`DECLARED_FLEX_ENVELOPE_OVERLAP != NEUTRAL_ATTACHMENT_CROSS_SECTION_REACH`**
 
-Organic supplies the exact source relation and neutral attachment facts only.
+Organic supplies exact neutral source-space geometry only.
 
 Rigging retains authority for:
 
-- north-low parent/child hierarchy;
+- whether north-low requires a parent/child hierarchy at all;
+- hierarchy/order;
 - weights or blend fields;
 - constraints;
-- parent-frame policy;
 - diagnostic interval;
 - skinning/deformation implementation;
 - any physical or biological interpretation.
 
-Existing east-mid Rigging evidence remains truthful for its exact domain and is not invalidated.
+No automatic source compensation is authorized if a downstream deformation experiment fails.
 
 ## Sensitivity / fail-closed evidence
 
-The classifier is not a fixed label generator.
+The new relation is measured, not hardcoded.
 
-A verifier-only copy reducing `trunk-upper-flex` from `0.22 m` to `0.10 m` changes the exact class distribution from:
+A verifier-only copy changing `trunk-upper-flex` radius from `0.22 m` to `0.23 m` moves north-low across the geometric boundary:
 
-`1 contained / 1 overlap-only / 8 disjoint`
+- current signed gap: `+0.009079537802862594 m` — disjoint;
+- verifier-only mutated signed gap: approximately `-0.000920462197137412 m` — intersecting.
 
-to:
+The exact intersecting-pair count becomes `2` under that controlled mutation.
 
-`0 contained / 1 overlap-only / 9 disjoint`.
+This is sensitivity evidence only and **not** a recommendation to change the authored `0.22 m` source radius.
 
-Under that controlled source-metadata mutation:
-
-- `north-low` changes from `FLEX_ENVELOPE_OVERLAP_ONLY` to `DISJOINT`;
-- `east-mid` changes from `ROOT_CENTER_CONTAINED_IN_TRUNK_FLEX` to `FLEX_ENVELOPE_OVERLAP_ONLY`.
-
-The classifier also fails closed on missing exact branch-root flex coverage or any flex-status promotion beyond `DECLARED_NOT_DEFORMATION_TESTED`.
+The classifier continues to fail closed on missing exact branch-root flex coverage or any flex-status promotion beyond `DECLARED_NOT_DEFORMATION_TESTED`.
 
 ## Exact-head verification / retained evidence
 
 Exact current Organic head:
 
-**`a9532b60d5742d8e1ef97e47d7bc42d625eefb18`**
+**`925715d2f0491e2bcbc493b93dc6d14ab3dcb2a6`**
 
-Observed PR-triggered workflow families are all green:
+Exact-head PR-triggered workflow families are all green:
 
-- **`35324414239 — Organic east rear tree evidence` — SUCCESS**
-- `35324414250 — Nature organic form baseline` — SUCCESS
-- `35324414252 — Organic compact east tree evidence` — SUCCESS
-
-The dedicated workflow runs the full receiving repository unit suite on Python 3.11 and 3.13. The new interaction-classification tests are discovered by that suite, including exact class counts, north-low/east-mid measurements, sensitivity, determinism and non-promotion controls.
+- **`35329135796 — Organic east rear tree evidence` — SUCCESS**
+- `35329135825 — Nature organic form baseline` — SUCCESS
+- `35329135795 — Organic compact east tree evidence` — SUCCESS
 
 Retained exact-head artifact:
 
-- ID: **`10538267223`**
+- ID: **`10540018009`**
 - name: `east-rear-tree-neutral-001-evidence`
-- size: **`49,930 B`**
-- SHA-256: **`4eb11b2201a455a01259f5c98be2b610dedc672ded3513d82e5c197e000c4f6c`**
-- exact head: `a9532b60d5742d8e1ef97e47d7bc42d625eefb18`
+- size: **`50,284 B`**
+- GitHub SHA-256: **`4edd902a094ccda4d4fe812020d9076b7152ea65295e2163b5393bcef63c7e8c`**
+- exact head: `925715d2f0491e2bcbc493b93dc6d14ab3dcb2a6`
 - expiry: 2026-12-17
 
-The artifact was downloaded and independently rehashed; the local digest reproduced GitHub's exact SHA-256. It contains nine retained files, including the new **`flex-interaction-classification.json`** alongside source, mesh, deformation-readiness receipt, OBJ and front/side/top wire evidence. The retained JSON was parsed directly and reproduces the exact `1 / 1 / 8` class distribution plus the north-low/east-mid structural measurements above.
+This activation records the GitHub-provided artifact digest. **No independent archive rehash is claimed in this pass.**
 
 ## Product files changed in this bounded pass
 
 Nature Organic PR #8 only:
 
-- `src/axm_nature_design/rear_tree_flex_interaction_classification.py` — additive source interaction classifier;
-- `tests/test_rear_tree_flex_interaction_classification.py` — exact current metrics, sensitivity, determinism and non-promotion gates;
-- `docs/ORGANIC_EAST_REAR_INTERACTION_CLASSIFICATION_005.md` — rationale and ownership handoff;
-- `tools/build_rear_tree.py` — retains the classifier receipt in the existing Organic artifact.
+- `src/axm_nature_design/rear_tree_flex_interaction_classification.py` — extends the existing source-space classifier with exact neutral attachment cross-section reach;
+- `tests/test_rear_tree_flex_interaction_classification.py` — exact north-low/east-mid metrics, sensitivity, determinism and non-promotion gates;
+- `docs/ORGANIC_EAST_REAR_NEUTRAL_ATTACHMENT_FLEX_BOUNDARY_006.md` — exact rationale, source pins, handoff and non-claims.
 
-No source form or source flex metadata changed.
+No source form, flex metadata or generated geometry changed.
 
 ## Handoffs recorded
 
-- Nature Organic PR #8 comment **`5727351355`** records the exact classification result, green workflow, independently rehashed artifact and no-source-mutation boundary.
-- Nature Rigging PR #14 comment **`5727353639`** returns north-low as `FLEX_ENVELOPE_OVERLAP_ONLY` and explicitly blocks copying the east-mid contained-root policy by similarity.
+- Nature Organic PR #8 comment **`5727994953`** records the exact v0.2 result, green exact-head workflows, artifact identity, unchanged source boundary and no-policy-transfer rule.
+- Nature Rigging PR #14 comment **`5728001268`** returns the exact north-low `+9.08 mm` neutral attachment disjoint gap and explicitly keeps north-low hierarchy/weights/constraints under Rigging ownership.
 
 No automatic merge, source rewrite, hierarchy decision, Animation/VFX/Runtime adoption or CANON promotion was requested.
 
 ## Explicit non-claims
 
-This activation does **not** establish botanical or biological correctness, tissue mechanics, trunk/branch strength, physical flex radius, stiffness, a valid north-low hierarchy or weighting scheme, production skinning/blending, real plant ROM, physical wind, continuous collision/self-intersection freedom, deformation quality, Animation quality, target-host/runtime/device readiness, final Art Direction or independent Visual QA acceptance, CANON, production/game readiness, or Organic/Nature mastery.
+This activation does **not** establish botanical or biological correctness, biological attachment mechanics, tissue behavior, trunk/branch strength, physical flex radius, stiffness, a valid north-low hierarchy or weighting scheme, production skinning/blending, real plant ROM, deformation quality, physical wind, continuous collision/self-intersection freedom, Animation quality, target-host/runtime/device readiness, final Art Direction or independent Visual QA acceptance, CANON, production/game readiness, or Organic/Nature mastery.
 
 ## Four-root check
 
-- **Truth:** the exact source identities, interaction classes, branch attachment measurements, green exact-head CI and independently rehashed retained receipt are explicit. Flex overlap is not retold as root containment or deformation quality.
-- **Agency / non-domination:** Organic exposes source geometry but does not seize Rigging hierarchy/weighting, Animation timing, VFX/Weather semantics, Technical-Art transport, Runtime policy or Art/QA judgment.
-- **Continuity:** predecessor blob/head, unchanged source/form owner, source digest, historical mesh identity, exact current evidence head, workflow, artifact and handoff comments remain independently addressable.
-- **Wisdom before speed:** the unresolved north-low source relation is classified before a rig policy is invented. A green east-mid diagnostic is not generalized into a sibling rule without evidence.
+- **Truth:** metadata-envelope overlap is no longer narrated as proof that the parent trunk-flex region reaches the neutral attachment body. Exact positive and negative geometric relations are retained separately.
+- **Agency / non-domination:** Organic exposes source-space evidence but does not seize Rigging hierarchy/weighting, Animation timing, VFX/Weather semantics, Technical-Art transport, Runtime policy or Art/QA judgment.
+- **Continuity:** predecessor status, unchanged source/form owner, source digest, historical mesh identity, exact current evidence head, workflow/artifact and both handoff comments remain independently addressable.
+- **Wisdom before speed:** no source radius was changed merely to make north-low look like east-mid. The geometry is measured first; downstream policy remains held until its owner has evidence.
 
 ## Next trigger
 
-Re-scan the full constellation first. Do not extend Nature by cadence. A legitimate next Organic source change requires a downstream defect specifically localized to Organic-owned anatomy/form, mass, proportion, silhouette, branch/leaf/trunk placement, authored positions/radii or flex metadata after topology, hierarchy, transport, coordinate-sign, motion, representation and presentation explanations are separated.
+Re-scan the full constellation first. Do not extend Nature by cadence. A legitimate next Organic source mutation requires a downstream defect specifically localized to Organic-owned anatomy/form, mass, proportion, silhouette, branch/leaf/trunk placement, authored positions/radii or flex metadata after topology, hierarchy, transport, coordinate-sign, motion, representation and presentation explanations are separated.
