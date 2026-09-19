@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://axm.invalid/schemas/specialist-tool-manifest.v0.1.json",
+  "title": "AXM specialist tool manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "tool_id",
+    "status",
+    "owner",
+    "implementation",
+    "invocation",
+    "contracts",
+    "determinism",
+    "dependencies",
+    "evidence_scopes",
+    "authority",
+    "hold_conditions",
+    "nonclaims",
+    "layers"
+  ],
+  "properties": {
+    "schema": {
+      "const": "axm.specialist-tool-manifest/v0.1"
+    },
+    "tool_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)+$"
+    },
+    "status": {
+      "enum": ["DESCRIBED", "AI_CALLABLE", "HUMAN_WRAPPED", "INTENT_COMPILED", "HOLD"]
+    },
+    "owner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["specialist", "repository"],
+      "properties": {
+        "specialist": {"type": "string", "minLength": 1},
+        "repository": {"type": "string", "minLength": 1}
+      }
+    },
+    "implementation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repository", "identity_policy", "entrypoint"],
+      "properties": {
+        "repository": {"type": "string", "minLength": 1},
+        "identity_policy": {"const": "receipt_exact_git_head"},
+        "release_head": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "entrypoint": {"type": "string", "minLength": 1}
+      }
+    },
+    "invocation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "command", "network_required"],
+      "properties": {
+        "mode": {"const": "non_interactive"},
+        "command": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "network_required": {"type": "boolean"}
+      }
+    },
+    "contracts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["request_schema", "result_schema", "receipt_schema"],
+      "properties": {
+        "request_schema": {"type": "string", "minLength": 1},
+        "result_schema": {"type": "string", "minLength": 1},
+        "receipt_schema": {"type": "string", "minLength": 1}
+      }
+    },
+    "determinism": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["declared", "seed_policy", "runtime_assumptions"],
+      "properties": {
+        "declared": {"type": "boolean"},
+        "seed_policy": {"type": "string", "minLength": 1},
+        "runtime_assumptions": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["repository", "exact_identity", "role", "authority"],
+        "properties": {
+          "repository": {"type": "string", "minLength": 1},
+          "exact_identity": {"type": "string", "minLength": 1},
+          "role": {"type": "string", "minLength": 1},
+          "authority": {"enum": ["owner", "donor", "observer", "adapter", "receiver"]}
+        }
+      }
+    },
+    "evidence_scopes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": ["structural", "visual", "runtime", "interaction", "gameplay", "art_direction"]
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["owns", "does_not_own"],
+      "properties": {
+        "owns": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "does_not_own": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      }
+    },
+    "hold_conditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"}
+    },
+    "nonclaims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"}
+    },
+    "layers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ai", "human", "intent"],
+      "properties": {
+        "ai": {"enum": ["absent", "candidate", "verified", "hold"]},
+        "human": {"enum": ["absent", "candidate", "verified", "hold"]},
+        "intent": {"enum": ["absent", "candidate", "verified", "hold"]}
+      }
+    }
+  }
+}
