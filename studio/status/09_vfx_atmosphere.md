@@ -188,3 +188,11 @@ A justified successor now requires a materially new owner handoff, especially:
 - Geometry/Rigging replacing the endpoint-only diagnostic with a connected/interior-weighted representation;
 - Weather exposing a new source-owned atmospheric state that changes the visual question;
 - or another design repository exposing a stronger unoccupied VFX seam.
+
+## Convergence addendum — 2026-09-19
+
+Weather PRs #2/#3 are now merged in exact order at Weather main
+`be6ea1991435d7bcf1d35af29199bbb4b2e779f4`, with post-merge 13-test and receipt verification.
+Nature VFX #29 still belongs to the older analytic receiver and Map #25/#35 retain their named
+timing/visual gates. No Weather structural PASS is converted into current-world or perceptual VFX
+acceptance.

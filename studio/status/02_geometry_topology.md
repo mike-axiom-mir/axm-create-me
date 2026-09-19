@@ -246,3 +246,12 @@ Do not extend PR #30 merely by cadence. Re-enter only if:
 - another product exposes a stronger unoccupied evidence-backed Geometry defect.
 
 Until then, preserve PR #30 as an indexed-surface binding proof, not as a production junction.
+
+## Convergence addendum — 2026-09-19
+
+Building's previously separate closed/outward box, compact-shell, indexed-role and normal-boundary
+Geometry ancestry is now contained by accepted Building main
+`adae0a212a0790a433b388e2bb8aba5f5856d604`. The combined suite exposed and repaired changed exact
+candidate/quotient identities before merge; equal vertex/triangle/group counts were not accepted as
+equal provenance. This does not change Nature PR #30's connected-junction HOLD or promote Building
+Materials, visual or Runtime acceptance.

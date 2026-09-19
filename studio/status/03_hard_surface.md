@@ -152,3 +152,11 @@ Re-enter product mutation only when one of these becomes true:
 5. a materially independent manufactured family reproduces a mechanical/source-receiver pattern strongly enough to justify broader source-owner work.
 
 Until then, source geometry remains frozen. The four AXM roots remain the merge gate.
+
+## Convergence addendum — 2026-09-19
+
+The Building source line through PRs #2, #15 and #17 is now contained by Building main
+`adae0a212a0790a433b388e2bb8aba5f5856d604`. PR #17 head `fbfa3b47048755b45dac91451171d5511c8d4f47`
+remains the exact current panel/clearance source owner; PR #15 head `97120eb78a72b0a07aff1c65b9b92229d0a42aff`
+remains the historical predecessor. Object source ownership and its keeper-seat gate are unchanged.
+No new Hard-Surface form, visual, material or physical claim was added.
