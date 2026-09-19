@@ -30,11 +30,11 @@ replace GitHub, or centralize domain knowledge into Create-Me or Universal Creat
 
 ## Visual contract
 
-- **Identity:** a future-luminous workshop control room where source truth is easier to see than hype.
-- **Signature:** the environment dependency rail visibly separates accepted sources from held consumers.
-- **Palette:** graphite/ink surfaces; cyan coordination; green accepted main; amber holds; grey absence.
-- **Shape:** engineered asymmetric corners and thin provenance lines rather than generic rounded cards.
-- **Motion:** hover/focus feedback only; reduced-motion preferences are respected.
+- **Identity:** a luxurious future-expedition deck where exploring the studio feels adventurous while source truth remains easier to see than hype.
+- **Signature:** a 15-node source constellation opens the experience; the cinematic world viewport and dependency rail then separate accepted sources from held consumers.
+- **Palette:** deep obsidian and midnight glass; cyan coordination; green accepted main; amber holds; grey absence; restrained violet depth.
+- **Shape:** instrument rings, luminous frames, engineered asymmetric corners, and thin provenance lines rather than generic rounded cards.
+- **Motion:** slow ambient orbit and scan effects plus hover/focus depth; reduced-motion preferences are respected.
 - **Detail budget:** strongest detail sits in actual retained previews and exact identity/gate information.
 - **Anti-defaults:** no fake live telemetry, invented metrics, stock imagery, automatic promotion, or generic admin-dashboard copy.
 

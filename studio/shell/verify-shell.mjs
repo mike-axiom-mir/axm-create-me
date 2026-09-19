@@ -60,13 +60,14 @@ for (const [name, file] of state.seats) {
 const html = read("index.html").toString("utf8");
 const css = read("styles.css").toString("utf8");
 const app = read("app.js").toString("utf8");
-for (const requiredId of ["domain-grid", "domain-search", "status-breakdown", "seat-grid", "domain-dialog", "dialog-content"]) {
+for (const requiredId of ["domain-grid", "domain-search", "status-breakdown", "source-constellation", "seat-grid", "domain-dialog", "dialog-content"]) {
   assert(html.includes(`id="${requiredId}"`), `index.html is missing #${requiredId}`);
 }
 assert(!/(?:src|href)=["']https?:\/\//.test(html), "the offline shell must not load remote page assets");
 assert(css.includes("prefers-reduced-motion"), "reduced-motion behavior is required");
 assert(app.includes("navigator.clipboard.writeText"), "identity copy behavior is missing");
 assert(app.includes("activeFilter"), "domain filtering behavior is missing");
+assert(app.includes("renderConstellation"), "source constellation rendering is missing");
 
 console.log(`PASS: ${state.domains.length} repositories, ${state.seats.length} seats, ${state.domains.filter(({ preview }) => preview).length} local previews`);
 console.log(`PASS: states ${JSON.stringify(expectedCounts)}`);

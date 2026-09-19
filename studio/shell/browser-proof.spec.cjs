@@ -15,6 +15,9 @@ test("renders and exercises the bounded studio shell", async ({ page }, testInfo
   await page.goto("/studio/shell/");
   await expect(page).toHaveTitle("AXM 3D Studio · Create-Me Shell");
   await expect(page.locator(".domain-card")).toHaveCount(15);
+  await expect(page.locator(".source-node")).toHaveCount(15);
+  await expect(page.getByLabel("Four AXM roots")).toContainText("Truth");
+  await expect(page.getByLabel("Four AXM roots")).toContainText("Wisdom");
   await expect(page.locator("#status-breakdown")).toContainText("2accepted");
   await expect(page.locator("#status-breakdown")).toContainText("6held");
   const visibleImageHealth = await page.locator("img:visible").evaluateAll((images) =>
@@ -69,6 +72,7 @@ test("renders and exercises the bounded studio shell", async ({ page }, testInfo
     viewport: testInfo.project.use.viewport,
     checked: [
       "initial 15-card render",
+      "15-node source constellation and four-root compass render",
       "all visible images loaded",
       "accepted filter returns 2 cards",
       "axm-nature-design search returns 1 card",

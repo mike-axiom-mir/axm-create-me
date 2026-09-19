@@ -41,10 +41,22 @@
     document.querySelector("#recorded-at").textContent = `STATE ${state.recordedAt.slice(0, 10)}`;
   }
 
+  function renderConstellation() {
+    const container = document.querySelector(".source-nodes");
+    container.innerHTML = state.domains.map((domain, index) => {
+      const ring = index % 3;
+      const positions = [5, 5, 5];
+      const position = Math.floor(index / 3);
+      const angle = (360 / positions[ring]) * position + (ring * 24);
+      return `<span class="source-node ${escapeHtml(domain.state)} ring-${ring + 1}" style="--angle:${angle}deg;--delay:${index * -0.31}s" title="${escapeHtml(domain.name)}"></span>`;
+    }).join("");
+  }
+
   function cardFor(domain, index) {
     const card = template.content.firstElementChild.cloneNode(true);
     card.dataset.state = domain.state;
     card.dataset.domain = domain.id;
+    card.style.setProperty("--card-order", index);
     card.setAttribute("aria-label", `Inspect ${domain.name}: ${domain.label}`);
     card.querySelector(".card-index").textContent = String(index + 1).padStart(2, "0");
     const badge = card.querySelector(".state-badge");
@@ -143,6 +155,7 @@
   `).join("");
 
   renderSummary();
+  renderConstellation();
   renderDomains();
   window.AXMStudioShell = Object.freeze({ openDomain, state });
 })();
