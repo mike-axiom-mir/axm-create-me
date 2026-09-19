@@ -278,3 +278,30 @@ proof family is not sufficient cross-executor/cross-domain promotion evidence.
    candidate; rerun deformation, visual and device gates in that order.
 5. Decide Nature's connected indexed branch/trunk junction in Geometry, then rebind Rigging ->
    Animation/VFX -> Technical Art -> Map without transferring analytic evidence by analogy.
+
+
+## Post-record live-drift addendum — 2026-09-19T23:31:32Z
+
+This addendum preserves the earlier record rather than rewriting it as if later work had already
+existed at `2026-09-19T18:04:32Z`.
+
+- A fresh census found the Character, Animal, Nature, Object, Building, Map, Weather, Weapon,
+  Armor, Unit, Misc, Profession Fabric, Wreckline and Sticker Fabric default heads and open-PR
+  populations unchanged from the bounded post-convergence state recorded above.
+- Universal Creation advanced independently to main
+  `9381bd850a32c9c76a9aff4a04d4687f5a87b1ae`. PRs #151, #215, #216 and #217 merged; #153 closed
+  unmerged after its bounded mechanism was reconciled by #217; #218 is now the sole open UC PR.
+- UC #218 exact head `3051be9cf033983605a3d8beca24687141567a74` is `KEEP_CURRENT` as independent growth, not a
+  Studio merge dependency. Its exact-head CI is green except for the intentionally skipped
+  optional workshop-render job; no Studio consumer or acceptance claim is rebound by that fact.
+- The Studio-demonstrated generic UC capability set remains limited to the two observers already
+  named above. Newer UC main capabilities may be evaluated by a future exact consumer rebind, but
+  are not adopted here by containment or recency.
+- Create-Me's read-only 3D Studio shell PR #3 was accepted by the user and merged at
+  `2caa4b6a7ea8a8481c5e7898d2c69e3f07948b81`. It changes presentation only and is a rollback
+  point for the pre-drift shell state.
+
+Four-root result: Truth required correcting the stale UC card; Agency keeps all UC and product
+adoption decisions with their owners; Continuity retains the original freeze and later drift as
+separate timed facts; Wisdom limits the repair to provenance and does not pull UC growth into the
+Studio convergence path.
