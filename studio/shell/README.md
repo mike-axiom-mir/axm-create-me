@@ -9,6 +9,10 @@ assets are local.
 Run `node verify-shell.mjs` from this directory to check the bounded data contract, local assets,
 exact source identities, and every linked Studio status record.
 
+Pull requests also run `browser-proof.spec.cjs` in Chromium at 1440 × 1000 and 390 × 844. The
+workflow exercises filtering, search, exact-identity inspection, and dialog closure, then retains
+fresh overview/detail screenshots and an observation receipt for each viewport.
+
 ## Job
 
 The shell makes the current 3D specialist constellation understandable without changing its state.
