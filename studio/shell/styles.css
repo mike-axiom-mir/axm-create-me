@@ -125,6 +125,7 @@ h1 em { color: var(--cyan); font-style: normal; font-weight: 500; }
 .card-visual { position: relative; height: 210px; overflow: hidden; background: linear-gradient(145deg, #0a1420, #132236); border-bottom: 1px solid var(--line); }
 .card-visual::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 60%, rgba(7,16,27,.75)); pointer-events: none; }
 .card-visual img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+.card-visual img[hidden] { display: none; }
 .domain-card:hover .card-visual img { transform: scale(1.025); }
 .no-preview { position: absolute; inset: 0; display: grid; place-items: center; color: #6f8294; font-size: 10px; font-weight: 900; letter-spacing: .15em; }
 .no-preview[hidden] { display: none; }
