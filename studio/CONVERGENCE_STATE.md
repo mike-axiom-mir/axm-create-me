@@ -279,7 +279,6 @@ proof family is not sufficient cross-executor/cross-domain promotion evidence.
 5. Decide Nature's connected indexed branch/trunk junction in Geometry, then rebind Rigging ->
    Animation/VFX -> Technical Art -> Map without transferring analytic evidence by analogy.
 
-
 ## Post-record live-drift addendum — 2026-09-19T23:31:32Z
 
 This addendum preserves the earlier record rather than rewriting it as if later work had already
