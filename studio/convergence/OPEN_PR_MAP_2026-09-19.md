@@ -326,3 +326,23 @@ open PRs were inspected and classified before any decision involving that reposi
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | `axm-sticker-fabric` | [#4](https://github.com/mike-axiom-mir/axm-sticker-fabric/pull/4) | `55772eaca5fc037ad32d312097fe6ab62b617590` | `main` @ `3aa93b0132eea9becefb20c716c6ec1a023ad28b` | Sticker Fabric domain owner | Registry/composition graph, Microforge, named interfaces and structural selection capture | Exact-head Sticker Fabric core run `35013984758` succeeded; 44-test cross-platform claim retained in the PR | 3D Studio adoption, visual/physical claims, and relevance to the bounded Building donor contract | None in the current Studio lineage; Building pins main `3aa93b...` | None proved | **KEEP_CURRENT** | Retain outside this convergence merge. It is growth work, not required glue for the accepted 3D lineage. |
 | `axm-sticker-fabric` | [#5](https://github.com/mike-axiom-mir/axm-sticker-fabric/pull/5) | `33cd3212efa2526c4711fe3b8f81bf67722341ab` | `main` @ `3aa93b0132eea9becefb20c716c6ec1a023ad28b` | Sticker Fabric domain owner | Dimension-aware math-first sticker families | Exact-head Sticker Fabric core run `35001800122` succeeded | 3D Studio product adoption, physical realism, and any need in the accepted Building donor contract | None in the current Studio lineage | None proved | **KEEP_CURRENT** | Retain outside this convergence merge. Do not pull unrelated math-family growth into the recovery pass. |
+
+## Post-record live-drift addendum — 2026-09-19T23:31:32Z
+
+The immutable freeze above remains a record of what was open at `2026-09-19T17:19:32Z`.
+A fresh repository and open-PR census found no product-domain population drift after the
+bounded Weather/Building convergence. Universal Creation did change independently after the
+freeze:
+
+- UC main advanced from `5a4904f4b87a0b05ff5fda7a4878a1c516ca5053` to
+  `9381bd850a32c9c76a9aff4a04d4687f5a87b1ae` through merged PRs #151, #215, #216 and #217.
+- UC #153 closed unmerged; PR #217 records the successor reconciliation of its bounded
+  unwrap/bake mechanism with the newer optional Blender routes.
+- None of those changes rebinds a Studio product consumer or transfers product semantics,
+  visual acceptance, runtime acceptance or adoption authority into UC.
+- The only currently open UC PR is #218, classified below. Its successful workflows prove the
+  stated UC-local contract only; they do not create a Studio dependency or adoption result.
+
+| Repo | PR | Exact head | Base / parent | Specialist owner | Capability | Evidence | Still unproved | Newer dependants | Supersession | Classification | Recommended convergence action |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `axm-universal-creation` | [#218](https://github.com/mike-axiom-mir/axm-universal-creation/pull/218) | `3051be9cf033983605a3d8beca24687141567a74` | `main` @ `9381bd850a32c9c76a9aff4a04d4687f5a87b1ae` | UC domain owner | Retain and deduplicate semantic creator atoms | Exact-head runs `35472451612`, `35472451637`, `35472451641`, `35472451652`, `35472451663`, `35472451671` and `35472451631` succeeded; the optional workshop render workflow was skipped | Studio adoption, cross-domain semantic equivalence, visual/runtime acceptance, CANON and any product authority | None in the current Studio lineage | None proved | **KEEP_CURRENT** | Retain as an independent UC growth lane. Do not merge it merely to advance Studio convergence. |

@@ -1,6 +1,6 @@
 window.AXM_STUDIO_STATE = Object.freeze({
-  recordedAt: "2026-09-19T18:59:57Z",
-  controlRoomHead: "ec84bf9a309a8b7a6bb24852e0e991a5a951fda6",
+  recordedAt: "2026-09-19T23:31:32Z",
+  controlRoomHead: "2caa4b6a7ea8a8481c5e7898d2c69e3f07948b81",
   truthBoundary:
     "Read-only convergence view. A visible preview does not promote a candidate, close a gate, or transfer domain authority.",
   domains: [
@@ -136,16 +136,16 @@ window.AXM_STUDIO_STATE = Object.freeze({
       repo: "axm-universal-creation",
       owner: "Generic capability provider",
       state: "support",
-      label: "No new merge",
-      source: "main · 5a4904f4b87a0b05ff5fda7a4878a1c516ca5053",
-      sourceUrl: "https://github.com/mike-axiom-mir/axm-universal-creation/commit/5a4904f4b87a0b05ff5fda7a4878a1c516ca5053",
+      label: "Current provider",
+      source: "main · 9381bd850a32c9c76a9aff4a04d4687f5a87b1ae",
+      sourceUrl: "https://github.com/mike-axiom-mir/axm-universal-creation/commit/9381bd850a32c9c76a9aff4a04d4687f5a87b1ae",
       preview: "assets/previews/universal-creation.png",
-      summary: "Shared observers and representative retained asset output.",
+      summary: "Current shared provider identity with representative retained output.",
       capability: "Directional texel-density and opt-in closed-shell orientation observation.",
-      blocker: "UC does not own product shapes, targets, repair policy, or visual acceptance.",
+      blocker: "Newer UC lanes exist on main, but no Studio domain has rebound to or adopted them here.",
       next: "Remain an optional observer; add no domain semantics for shell convenience.",
       dependsOn: [],
-      proof: "Representative existing image; no new 3D Studio capability was promoted.",
+      proof: "Exact current main identity; preview remains representative and no new Studio capability was promoted.",
       repoUrl: "https://github.com/mike-axiom-mir/axm-universal-creation"
     },
     {
