@@ -1,0 +1,36 @@
+name: Studio shell
+
+on:
+  pull_request:
+    paths:
+      - "studio/shell/**"
+      - "studio/status/**"
+      - "studio/convergence/**"
+      - "studio/CONVERGENCE_STATE.md"
+      - ".github/workflows/studio-shell.yml"
+  push:
+    branches: [main]
+    paths:
+      - "studio/shell/**"
+      - "studio/status/**"
+      - "studio/convergence/**"
+      - "studio/CONVERGENCE_STATE.md"
+      - ".github/workflows/studio-shell.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify bounded shell contract
+        run: node studio/shell/verify-shell.mjs
