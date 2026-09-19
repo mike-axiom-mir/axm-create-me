@@ -1,0 +1,64 @@
+name: Studio shell
+
+on:
+  pull_request:
+    paths:
+      - "studio/shell/**"
+      - "studio/status/**"
+      - "studio/convergence/**"
+      - "studio/CONVERGENCE_STATE.md"
+      - ".github/workflows/studio-shell.yml"
+  push:
+    branches: [main]
+    paths:
+      - "studio/shell/**"
+      - "studio/status/**"
+      - "studio/convergence/**"
+      - "studio/CONVERGENCE_STATE.md"
+      - ".github/workflows/studio-shell.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify bounded shell contract
+        run: node studio/shell/verify-shell.mjs
+
+  render:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      AXM_PR_HEAD: ${{ github.event.pull_request.head.sha || github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install bounded browser runner
+        run: |
+          npm install --no-save @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Exercise and capture the real shell
+        run: npx playwright test --config studio/shell/playwright.config.cjs
+      - name: Preserve browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: studio-shell-browser-evidence-${{ github.event.pull_request.head.sha || github.sha }}
+          path: studio/shell/evidence/
+          if-no-files-found: error
+          retention-days: 30
