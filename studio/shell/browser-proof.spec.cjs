@@ -23,7 +23,7 @@ test("renders and exercises the bounded studio shell", async ({ page }, testInfo
   await page.getByRole("button", { name: "All", exact: true }).click();
 
   const search = page.getByPlaceholder("Find a specialist…");
-  await search.fill("Nature");
+  await search.fill("axm-nature-design");
   await expect(page.locator(".domain-card")).toHaveCount(1);
   await expect(page.getByRole("button", { name: /Inspect Nature/ })).toBeVisible();
   await search.fill("");
@@ -54,7 +54,7 @@ test("renders and exercises the bounded studio shell", async ({ page }, testInfo
     checked: [
       "initial 15-card render",
       "accepted filter returns 2 cards",
-      "Nature search returns 1 card",
+      "axm-nature-design search returns 1 card",
       "Character dialog exposes exact identity",
       "dialog closes"
     ],
