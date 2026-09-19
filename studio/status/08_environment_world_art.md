@@ -199,3 +199,11 @@ The immediately preceding completed Environment state remains recoverable in Git
 **Wisdom before speed:** no redundant rerender is manufactured for an unchanged subject; the reusable provenance gate is added once and stops at the first unresolved independent boundary.
 
 The four AXM roots remain the merge gate.
+
+## Convergence addendum — 2026-09-19
+
+Weather main is now `be6ea1991435d7bcf1d35af29199bbb4b2e779f4` and Building main is now
+`adae0a212a0790a433b388e2bb8aba5f5856d604`. No Map Environment branch was promoted by those
+source merges. Map #24 still needs a clean current-world retest; #27/#45/#53 need explicit
+Building/Object/Nature rebinds, and the named visual/runtime gates remain open. The Environment
+status above remains historical evidence for its exact receiver only.

@@ -208,3 +208,11 @@ The four AXM roots remain the merge gate.
 ## Next trigger
 
 Do not extend by cadence alone. Re-scan the full constellation first. Return only if an independent Geometry / Geometry-Nodes consumer reuses this indexed projector, another product independently repeats the same primitive strongly enough to justify capability promotion, Organic changes the owner/source transition contract, the receiver polygon convention changes, or another design repository exposes a stronger genuinely repeated unowned construction pattern.
+
+## Convergence addendum — 2026-09-19
+
+Weather's bounded seeded field family is now in Weather main `be6ea1991435d7bcf1d35af29199bbb4b2e779f4`.
+Building-local Procedural ancestry is now in Building main
+`adae0a212a0790a433b388e2bb8aba5f5856d604` after exact receiver/provenance repair and a 173-test
+exact-donor gate on Python 3.11/3.13. Nature PR #4 remains open and bounded as recorded above;
+neither merged product family demonstrates a generic UC/PF promotion by itself.

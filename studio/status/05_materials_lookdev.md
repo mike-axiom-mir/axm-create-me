@@ -184,3 +184,10 @@ On the next activation, re-scan the full constellation and choose a fresh bounde
 - **Agency / non-domination:** Materials did not seize Rigging reconstruction, Technical Art transport, Runtime, Art/QA, merge, source-default or CANON authority.
 - **Continuity:** preceding Materials status blob `8230e952f62854a6ed098d1683d01b508fa583ed`, Nature history and all exact Animal owner/artifact identities remain rollback-addressable.
 - **Wisdom before speed:** an already-completed exact-head real-render proof was consumed, independently rehashed and handed back to its owners before opening any new texture or scalar search.
+
+## Convergence addendum — 2026-09-19
+
+Building main is now `adae0a212a0790a433b388e2bb8aba5f5856d604`; Building Materials PR #3 still
+pins pre-convergence source/topology and retains failed inherited workflows. It is therefore
+`NEEDS_REBIND`, not accepted by the Building structural merge. Existing Animal Materials evidence
+above is unchanged. No visual PASS was transferred across the Building provenance change.
