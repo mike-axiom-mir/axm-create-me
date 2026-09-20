@@ -34,7 +34,7 @@
         <p class="hero-intro">Create-Me coordinates the 3D specialists without absorbing their authority. Every preview below stays bound to its exact source and unresolved gate.</p>
         <div class="hero-actions">
           <a class="primary-action" href="#vertical-slice"><span>Enter the world slice</span><i aria-hidden="true">↘</i></a>
-          <a class="secondary-action" href="#domain-grid"><span>Explore the constellation</span><i aria-hidden="true">↓</i></a>
+          <a class="secondary-action" href="#tool-registry"><span>Open verified tools</span><i aria-hidden="true">↓</i></a>
         </div>
         <div class="hero-ledger" aria-label="Current repository state summary">
           <span><b>02</b> accepted</span>
@@ -65,7 +65,7 @@
           <div class="source-nodes"></div>
         </div>
         <div class="status-breakdown" id="status-breakdown"></div>
-        <p class="source-stamp">CONTROL HEAD <code>ec84bf9a309a</code></p>
+        <p class="source-stamp">CONTROL HEAD <code id="control-head"></code></p>
       </div>
     </section>
 
@@ -120,10 +120,25 @@
       </div>
     </section>
 
+    <section class="tool-registry section" id="tool-registry" aria-labelledby="tools-title">
+      <div class="section-heading">
+        <div class="section-title">
+          <span class="section-index" aria-hidden="true">02</span>
+          <div>
+          <p class="eyebrow">VERIFIED MACHINE CONTRACTS</p>
+          <h2 id="tools-title">One real tool.<br>No pretend automation.</h2>
+          </div>
+        </div>
+        <p class="section-note">Create-Me discovers, explains, and plans. The specialist repository still owns execution and every domain decision.</p>
+      </div>
+      <div class="tool-summary" id="tool-summary" aria-label="Specialist tool layer summary"></div>
+      <div class="tool-grid" id="tool-grid"></div>
+    </section>
+
     <section class="domains section" aria-labelledby="domains-title">
       <div class="section-heading domain-heading">
         <div class="section-title">
-          <span class="section-index" aria-hidden="true">02</span>
+          <span class="section-index" aria-hidden="true">03</span>
           <div>
           <p class="eyebrow">DOMAIN OWNERS</p>
           <h2 id="domains-title">Specialist repositories</h2>
@@ -147,7 +162,7 @@
     <section class="seats section" aria-labelledby="seats-title">
       <div class="section-heading">
         <div class="section-title">
-          <span class="section-index" aria-hidden="true">03</span>
+          <span class="section-index" aria-hidden="true">04</span>
           <div>
           <p class="eyebrow">CROSS-DOMAIN CREW</p>
           <h2 id="seats-title">Studio seats</h2>
@@ -178,6 +193,11 @@
   <dialog class="domain-dialog" id="domain-dialog" aria-labelledby="dialog-title">
     <form method="dialog"><button class="dialog-close" aria-label="Close specialist details">×</button></form>
     <div id="dialog-content"></div>
+  </dialog>
+
+  <dialog class="domain-dialog tool-dialog" id="tool-dialog" aria-labelledby="tool-dialog-title">
+    <form method="dialog"><button class="dialog-close" aria-label="Close tool details">×</button></form>
+    <div id="tool-dialog-content"></div>
   </dialog>
 
   <template id="domain-card-template">
