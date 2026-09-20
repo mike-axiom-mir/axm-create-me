@@ -173,3 +173,57 @@ This activation proves only the exact indexed diagnostic endpoint-region transpo
 ## Current state
 
 `PASS_NATURE_NORTH_LOW_INDEXED_BRIDGE_CURRENT_UC_GODOT_ENDPOINT_REGION_TRANSPORT / TA_PR3_HEAD_32B0768C_OPEN_DRAFT / RUN_35353489746_SUCCESS / PY311_PY313 / GODOT_4_7_2 / 16V_16T / MOVING_0_8_FIXED_8_16 / 96B_PARTIAL_192B_FULL / FIVE_RIGGING_POSES_FULL_PARTIAL_RENDER_IDENTICAL / TARGET_MIN_SPAN_0P010628111M / ARTIFACT_10550833260_179806B_30_FILES_SHA_57A21ACE / UC_F7434152_CDB654D4_EXACT_TESTED / HOLD_ANIMATION_INDEXED_ADOPTION_CONNECTED_TOPOLOGY_SKINNING_FOLDOVER_COLLISION_RUNTIME_DEVICE_FINAL_SHADING_QA_CANON_PRODUCTION / COORDINATION_ONLY`
+
+
+## Object TA #16 keeper-seat convergence repair — 2026-09-20
+
+Object Technical Art PR #16 remains open draft. Its current exact head is
+`b9848c62b2adde84e9e0afc219088113216799d6`, based on the current Hard-Surface
+keeper-seat owner head `37217b244046055a40d9050b61eff2876566bad8`.
+
+The repair preserved both histories:
+
+- integration PR #38 merged the complete four-file keeper-seat owner payload into the TA branch as
+  `de1cd4e148728fbfab7aaffdec0b3b0d56b6e6ca`;
+- repair PR #39 replaced only Direction 048's obsolete whole-branch diff equality guard with the
+  existing Object-local protected-payload continuity verifier and merged as
+  `b9848c62b2adde84e9e0afc219088113216799d6`;
+- pre-repair TA rollback remains `089e31b9f0e921b728378af728783c4f453c9fbc`.
+
+The exact final head completed all 11 observed workflow families successfully. The source-owner
+keeper-seat gate, UC rigid scene, current-UC orientation continuity, Geometry/front-face transport,
+successor002 transport, and analytic-radial evidence replay all reran on the same exact head.
+
+Retained final-head artifacts include:
+
+- keeper-seat `10595566611`, SHA-256
+  `da298fa00d9e82dd4f77e075cc1d14a57725172747c7b79aa00c8a1c3683a37f`;
+- UC rigid scene `10595113363`, SHA-256
+  `7556732c2677f076e4ac121a190965f35d01ce77e1f26df53869068980543f2f`;
+- current-UC continuity `10594384401`, SHA-256
+  `e32386927939d167e15b8c42b4b0e956b37f1ea3bf9515e172a4f7daab8c37f6`;
+- successor002 transport `10595711396`, SHA-256
+  `79ebafbc643e70279cdb2d29b75859a5cb86315e909f1d46e11211023a854aab`;
+- front-face transport `10595876120`, SHA-256
+  `450ce6b53976c881f586c33e7502677524a265f09763c2287a589bf0901d141a`;
+- analytic-radial replay `10595576725`, SHA-256
+  `61986ea193c977214343c8e4a2a8bb7c43f80ff166eb242dddd4a55bd910548c`.
+
+Historical integration run `35479915582` remains retained: it failed because the special
+owner-to-receiver PR workflow checked out the owner head alone and therefore could not contain the
+TA builder. The actual combined TA head later reran the same UC rigid-scene family successfully.
+This history is not relabelled as a pass.
+
+The analytic-radial outer-normal candidate remains rejected by Art Direction 051 and independent
+Visual QA. The fresh workflow only proves that its exact evidence remains reproducible; it does not
+reverse that visual decision.
+
+Current classification:
+
+`KEEP_CURRENT / DOWNSTREAM_REBIND_REQUIRED`
+
+PR #16 is now the current truthful Technical-Art receiver base, not an accepted Object main.
+Rigging PR #18, current latch target Rigging PR #23, Animation, later Technical-Art bridges, Runtime,
+and Map still require explicit rebinds where they pin historical TA or source identities. No
+source/default adoption, target-device acceptance, CANON, production readiness, or mastery is
+claimed.
