@@ -51,7 +51,7 @@ for (const domain of state.domains) {
   }
 }
 
-assert.deepEqual(state.tools.map(({ toolId }) => toolId).sort(), ["axm.building.materials.packet", "axm.map.object.receiver.packet"], "the registry must expose exactly the two verified AI-callable specialist tools");
+assert.equal(state.tools.map(({ toolId }) => toolId).sort().join(","), "axm.building.materials.packet,axm.map.object.receiver.packet", "the registry must expose exactly the two verified AI-callable specialist tools");
 assert.equal(new Set(state.tools.map(({ toolId }) => toolId)).size, state.tools.length, "tool IDs must be unique");
 for (const tool of state.tools) {
   const ownerDomain = state.domains.find(({ repo }) => repo === tool.repo);
