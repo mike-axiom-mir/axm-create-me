@@ -176,6 +176,12 @@
           <span>EXECUTION BOUNDARY</span>
           <strong>Create-Me plans and reads receipts. ${escapeHtml(tool.executionOwnerRepo)} executes and retains authority.</strong>
         </div>
+        ${tool.humanInterface ? `<div class="execution-boundary">
+          <span>HUMAN WRAPPER</span>
+          <strong>${escapeHtml(tool.humanInterface.label)} · ${escapeHtml(tool.humanInterface.contractBinding)}</strong>
+          <code>${escapeHtml(tool.humanInterface.entrypoint)} · ${escapeHtml(tool.humanInterface.listenAddress)}</code>
+          <small>${escapeHtml(tool.humanInterface.proof)}</small>
+        </div>` : ""}
         <div class="request-result-grid">
           <section><span>Request contract</span><ul>${listMarkup(tool.request)}</ul></section>
           <div class="command-channel"><span>OWNER COMMAND</span><code>${escapeHtml(tool.command)}</code></div>
@@ -200,6 +206,7 @@
         <div class="dialog-actions">
           <a href="${escapeHtml(tool.manifestUrl)}" target="_blank" rel="noreferrer">Open exact manifest ↗</a>
           <a class="repo-action" href="${escapeHtml(tool.workflowUrl)}" target="_blank" rel="noreferrer">Evidence run ↗</a>
+          ${tool.humanWorkflowUrl ? `<a class="repo-action" href="${escapeHtml(tool.humanWorkflowUrl)}" target="_blank" rel="noreferrer">Human UI proof ↗</a>` : ""}
           <button type="button" data-copy-source="${escapeHtml(tool.sourceHead)}">Copy source head</button>
         </div>
       </div>`;

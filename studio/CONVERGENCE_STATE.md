@@ -684,3 +684,77 @@ Runtime/visual evidence non-transitive; Agency keeps source, motion, Environment
 authority with their owners; Continuity retains old heads/failures and exact rollback identities;
 Wisdom adds one thin deterministic packet contract only after the downstream chain was freshly
 rebound and measured.
+
+
+## Map Object receiver human-wrapper addendum — 2026-09-20T05:14:00Z
+
+This addendum records stage 2 of the Map Object receiver specialist tool: a bounded human interface
+over the already-verified deterministic contract. It does not add a second creation path, does not
+promote intent compilation, and does not transfer execution authority into Create-Me.
+
+### Exact owner implementation and evidence
+
+- prior AI-only rollback head: `abeaa79b7f69e114a5457f00e6e62c7ca4167d4a`;
+- current human-wrapped owner head: `b0e7be908b2fe5a4b05c7f167f5dc27cef3b13dd`;
+- current manifest blob: `9c79f8fc6aa1844ce784d20f8acbfd09caf117d0`;
+- manifest status: `AI_CALLABLE_HUMAN_WRAPPED`;
+- layers: AI **verified**, Human **verified**, Intent **absent**;
+- deterministic owner-tool run `35491105884`: SUCCESS;
+- deterministic tool artifact `10598713335`, SHA-256 `81c235357a052324ad9297d4b7fff41349debf1fa592d3c88a02cf29c210a212`;
+- exact desktop/mobile human-wrapper run `35491108283`: SUCCESS;
+- human-wrapper artifact `10598847966`, SHA-256 `ebb2ad8c0a795aef4008b8c3213692009627b282b85c00f2f7f73ccf6c650373`.
+
+The human surface is `tools/serve_map_object_receiver_ui.py` plus the local browser files under
+`tooling/human/map-object-receiver/`. The server binds to `127.0.0.1` only. It accepts the same
+five-field request contract, writes that request to a temporary JSON file, and invokes the existing
+`tools/run_map_object_receiver_tool.py` subprocess with the exact evidence files. Packet generation
+is not duplicated in the browser or bridge.
+
+### Browser proof
+
+Both 1440×1000 desktop and 390×844 mobile drove the exact loopback bridge successfully.
+
+The retained proof exercised two bounded requests:
+
+1. owner sample 40 / 1.0 s, repaired +20 mm service frame, current-sequence 7-moving / 24-static
+   batching: PASS, ~60.659 mm minimum clearance, 14 render surfaces;
+2. owner sample 0 / neutral, historical service frame, unbatched representation: PASS, historical
+   clearance miss retained honestly, 33 render surfaces.
+
+The receipt returned by the same owner runner reports Human `verified`. The wrapper itself owns no
+new geometry, motion, Environment, Runtime, or aesthetic semantics.
+
+### Preserved failure trail
+
+- the first human-workflow attempt retained a checkout failure caused by a literal backslash before
+  the GitHub exact-head expression;
+- the next browser run retained a selector-only failure after the repaired/batched scenario had
+  already passed on both viewports; the test had required the accessible label to equal the single
+  word `Historical` despite its explanatory text;
+- inherited Animation/tool exact-delta guards also produced retained reds when legitimate downstream
+  files were added. They were repaired to protect the exact Animation payload blobs instead of
+  forbidding descendants. Final Animation continuity and deterministic tool runs are green.
+
+No failed evidence was deleted or relabelled.
+
+### Create-Me boundary
+
+Create-Me may display that the Map tool has a verified human wrapper and may link to its exact owner
+entrypoint and evidence. Create-Me still does **not** execute the tool. Execution and evidence
+retention remain in `axm-map-design`.
+
+The Building Materials tool remains AI-only; its Human layer stays absent. No other specialist gains
+a human interface by analogy.
+
+Intent compilation remains absent and is the later third layer, not inferred from the existence of a
+form.
+
+### Holds unchanged
+
+Object final Art Direction / independent Visual QA, Environment production adoption, target-device
+Runtime performance, arbitrary future articulation, gameplay/physics/collision/navigation, CANON,
+and production readiness remain open.
+
+Four-root result: Truth keeps the UI bound to the same exact request/runner/receipt; Agency keeps
+execution and domain decisions in Map; Continuity preserves the AI-only rollback and all failed
+runs; Wisdom adds one thin human surface only after the machine contract was proven.

@@ -313,22 +313,33 @@ window.AXM_STUDIO_STATE = Object.freeze({
       id: "map-object-receiver-packet",
       toolId: "axm.map.object.receiver.packet",
       name: "Map Object Receiver Packet",
-      status: "AI_CALLABLE",
+      status: "AI_CALLABLE_HUMAN_WRAPPED",
       owner: "Technical Art / UC Integration",
       repo: "axm-map-design",
-      source: "verified branch · abeaa79b7f69e114a5457f00e6e62c7ca4167d4a",
-      sourceHead: "abeaa79b7f69e114a5457f00e6e62c7ca4167d4a",
-      verifiedHead: "abeaa79b7f69e114a5457f00e6e62c7ca4167d4a",
-      sourceUrl: "https://github.com/mike-axiom-mir/axm-map-design/commit/abeaa79b7f69e114a5457f00e6e62c7ca4167d4a",
+      source: "verified branch · b0e7be908b2fe5a4b05c7f167f5dc27cef3b13dd",
+      sourceHead: "b0e7be908b2fe5a4b05c7f167f5dc27cef3b13dd",
+      verifiedHead: "b0e7be908b2fe5a4b05c7f167f5dc27cef3b13dd",
+      sourceUrl: "https://github.com/mike-axiom-mir/axm-map-design/commit/b0e7be908b2fe5a4b05c7f167f5dc27cef3b13dd",
       manifestPath: "tooling/map-object-receiver-packet.manifest.json",
-      manifestBlob: "4a7342b8b84a44190747df08aec48c9b397d1193",
-      manifestUrl: "https://github.com/mike-axiom-mir/axm-map-design/blob/abeaa79b7f69e114a5457f00e6e62c7ca4167d4a/tooling/map-object-receiver-packet.manifest.json",
-      workflowUrl: "https://github.com/mike-axiom-mir/axm-map-design/actions/runs/35487122907",
+      manifestBlob: "9c79f8fc6aa1844ce784d20f8acbfd09caf117d0",
+      manifestUrl: "https://github.com/mike-axiom-mir/axm-map-design/blob/b0e7be908b2fe5a4b05c7f167f5dc27cef3b13dd/tooling/map-object-receiver-packet.manifest.json",
+      workflowUrl: "https://github.com/mike-axiom-mir/axm-map-design/actions/runs/35491105884",
+      humanWorkflowUrl: "https://github.com/mike-axiom-mir/axm-map-design/actions/runs/35491108283",
+      humanArtifactId: "10598847966",
+      humanArtifactDigest: "sha256:ebb2ad8c0a795aef4008b8c3213692009627b282b85c00f2f7f73ccf6c650373",
       evidenceScopes: ["structural"],
       layers: {
         ai: "verified",
-        human: "absent",
+        human: "verified",
         intent: "absent"
+      },
+      humanInterface: {
+        label: "Verified loopback browser wrapper",
+        entrypoint: "tools/serve_map_object_receiver_ui.py",
+        listenAddress: "127.0.0.1",
+        contractBinding: "same request schema / same deterministic runner",
+        executionOwnerRepo: "axm-map-design",
+        proof: "Desktop 1440×1000 and mobile 390×844 both invoked the exact owner runner through the loopback bridge."
       },
       command: "python tools/run_map_object_receiver_tool.py --request <request.json> --component-map <map.json> --motion-plan <plan.json> --environment-report <environment.json> --runtime-receipt <runtime.json> --out <output-dir>",
       request: [
@@ -346,6 +357,7 @@ window.AXM_STUDIO_STATE = Object.freeze({
       plan: [
         "Read the owner manifest and verify its exact blob identity.",
         "Bind the request to the exact current Map/Object evidence identities.",
+        "Use the verified owner-side human wrapper when a person selects the bounded request fields; it invokes the same deterministic runner.",
         "Route execution to axm-map-design; Create-Me does not execute it.",
         "Read the structural packet and exact receipt without transferring visual or proof-host Runtime authority.",
         "Keep Art/QA, Environment adoption, target-device Runtime and future-articulation gates with their owners."
@@ -381,7 +393,7 @@ window.AXM_STUDIO_STATE = Object.freeze({
         "No arbitrary future-articulation safety",
         "No gameplay, physics, collision/navigation, CANON or production readiness"
       ],
-      proof: "Exact head abeaa79b7f69e114a5457f00e6e62c7ca4167d4a: deterministic packet invocation and alternate selection PASS; stale donor and unknown-field negatives reject closed at workflow 35487122907. Visual and Runtime donor evidence stays non-transitive.",
+      proof: "Exact head b0e7be908b2fe5a4b05c7f167f5dc27cef3b13dd: deterministic tool run 35491105884 PASS (artifact 10598713335, 81c235357a052324ad9297d4b7fff41349debf1fa592d3c88a02cf29c210a212); desktop/mobile human-wrapper run 35491108283 PASS (artifact 10598847966, ebb2ad8c0a795aef4008b8c3213692009627b282b85c00f2f7f73ccf6c650373). The wrapper emits the same request contract and invokes the same owner runner; visual and Runtime donor evidence stays non-transitive.",
       executionOwnerRepo: "axm-map-design",
       executionLabel: "Map",
       createMeCanExecute: false
