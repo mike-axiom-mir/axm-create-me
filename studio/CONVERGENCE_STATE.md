@@ -2,7 +2,7 @@
 
 Recorded: `2026-09-19T18:04:32Z`
 
-Latest append-only update: `2026-09-20T00:08:31Z`
+Latest append-only update: `2026-09-20T00:48:39Z`
 
 State: **BOUNDED CONVERGENCE COMPLETED FOR WEATHER AND BUILDING; THE WIDER STUDIO
 REMAINS PARTIALLY HELD.** This record does not claim that every domain is integrated,
@@ -411,3 +411,87 @@ Fabric remains a candidate home for reusable evidence procedures, not product se
    rerun deformation, visual and device gates in that order.
 5. Decide Nature's connected indexed branch/trunk junction in Geometry, then rebind Rigging ->
    Animation/VFX -> Technical Art -> Map without transferring analytic evidence by analogy.
+
+
+## Create-Me specialist-tool registry addendum — 2026-09-20T00:48:39Z
+
+This addendum completes the prior action to expose the accepted Building Materials tool through
+Create-Me. It changes discovery and explanation only. It does not add specialist execution,
+a human editing layer, intent compilation, or any new Building capability.
+
+### Repository and PR action
+
+- `axm-create-me` PR #7 exact head `0a840ad44155053f3475dec8904bc70e77524421`
+  merged as `879fb598cbb0c99f3b306021c7788870103916aa`.
+- The shell's retained control-room input is prior accepted Create-Me main
+  `f742ed67478ada463eee098909e8943958558209`; it is an ancestor and rollback point, not a
+  disguised claim that the page generated its own identity.
+- The accepted specialist owner remains `axm-building-design` main
+  `0df875379df67d7d940accc98c61e6071b733a65`. Its manifest blob is
+  `bc1889a08379fcc319a2891164269d68190ea0ff`, and its verified convergence head remains
+  `496c5a070b56acad7c319bc52caf0d52679c5b00`.
+
+### Registry boundary and visible state
+
+Create-Me now shows one registry entry, `axm.building.materials.packet`, with the exact owner,
+source head, manifest, structural evidence scope, request/result boundary, explicit HOLD
+conditions, nonclaims, and a read-only five-step plan. The visible execution rail is:
+
+request -> Building owner -> receipt.
+
+The registry deliberately reports:
+
+- AI-callable layer: **verified**;
+- human layer: **absent**;
+- intent layer: **absent**;
+- Create-Me execution: **disabled by contract**;
+- execution authority: `axm-building-design`.
+
+No material values or Building semantics were copied into Create-Me. The shell contains an index
+and plan view; the specialist repository retains the implementation and invocation command.
+
+### Exact-head verification and retained evidence
+
+- Local structural shell gate PASS on the six-file change.
+- Local Playwright interaction/render PASS at 1440x1000 and 390x844.
+- Exact PR head workflow run `35479627476`: `verify` PASS and `render` PASS.
+- Retained browser artifact `10595730646`, digest
+  `17d392a2d3407fc90c54b299b954edb58700334e9734f61d6e236a41e1947362`, contains desktop
+  and mobile overview, tool-detail, existing domain-detail, observations, and failure traces if
+  produced.
+- Direct screenshot observation found the execution boundary and all three layer states visible
+  without observed clipping in the tested desktop and mobile viewports. This is interface evidence,
+  not Building art, environment, gameplay, or device-runtime acceptance.
+
+### What remains open
+
+Final Building aesthetic acceptance, physical-material validation, Map/environment adoption,
+production target-device Runtime, every other specialist tool conversion, all human editing
+surfaces, and deterministic intent compilation remain open. No other domain becomes AI-callable by
+analogy.
+
+### Rollback and four-root check
+
+Rollback points are pre-registry Create-Me main
+`f742ed67478ada463eee098909e8943958558209`, exact registry PR head
+`0a840ad44155053f3475dec8904bc70e77524421`, and merged registry main
+`879fb598cbb0c99f3b306021c7788870103916aa`.
+
+- **Truth:** exact owner/source/manifest/evidence identities and absent layers are visible.
+- **Agency / non-domination:** execution and Building decisions remain in the Building owner.
+- **Continuity:** the earlier shell and convergence record remain intact with explicit rollback.
+- **Wisdom before speed:** one proven tool is exposed; no mass conversion or intent automation was
+  added.
+
+### Next five highest-leverage convergence actions
+
+1. Repair Object TA #16 against source owners #14/#17, including the real keeper-seat gate; then
+   rebind existing Animation/TA/Runtime consumers upstream-to-downstream.
+2. Reconcile Map #24/#27/#45/#53 with accepted Weather, Building, Object and indexed Nature owners;
+   keep visual and runtime gates separate.
+3. Rebind Animal Animation/Runtime to the current Rigging owner and 31-key physical-angle candidate;
+   rerun deformation, visual and device gates in that order.
+4. Decide Nature's connected indexed branch/trunk junction in Geometry, then rebind Rigging ->
+   Animation/VFX -> Technical Art -> Map without transferring analytic evidence by analogy.
+5. Keep the Building tool at AI-callable only until a later task explicitly justifies a human
+   interface; intent compilation remains last and must not be inferred from UI availability.
