@@ -51,6 +51,27 @@ for (const domain of state.domains) {
   }
 }
 
+assert.equal(state.tools.length, 1, "the registry must expose only the one accepted specialist tool");
+assert.equal(new Set(state.tools.map(({ toolId }) => toolId)).size, state.tools.length, "tool IDs must be unique");
+for (const tool of state.tools) {
+  const ownerDomain = state.domains.find(({ repo }) => repo === tool.repo);
+  assert(ownerDomain, `${tool.toolId} must point to a represented specialist repository`);
+  assert.equal(tool.status, "AI_CALLABLE", `${tool.toolId} has an unsupported registry status`);
+  assert.deepEqual({ ...tool.layers }, { ai: "verified", human: "absent", intent: "absent" }, `${tool.toolId} must report each interface layer honestly`);
+  assert.deepEqual([...tool.evidenceScopes], ["structural"], `${tool.toolId} must not widen structural evidence`);
+  assert.equal(tool.executionOwnerRepo, tool.repo, `${tool.toolId} execution authority must stay with its owner`);
+  assert.equal(tool.createMeCanExecute, false, `${tool.toolId} must remain read-only in Create-Me`);
+  assert.match(tool.sourceHead, /^[0-9a-f]{40}$/);
+  assert.match(tool.verifiedHead, /^[0-9a-f]{40}$/);
+  assert.match(tool.manifestBlob, /^[0-9a-f]{40}$/);
+  assert(provenance.includes(tool.sourceHead), `${tool.toolId} accepted source is absent from convergence evidence`);
+  assert(provenance.includes(tool.verifiedHead), `${tool.toolId} verified head is absent from convergence evidence`);
+  assert.match(tool.sourceUrl, new RegExp(`^https://github\\.com/mike-axiom-mir/${tool.repo}/commit/${tool.sourceHead}$`));
+  assert.match(tool.manifestUrl, new RegExp(`^https://github\\.com/mike-axiom-mir/${tool.repo}/blob/${tool.sourceHead}/`));
+  assert.match(tool.workflowUrl, new RegExp(`^https://github\\.com/mike-axiom-mir/${tool.repo}/actions/runs/\\d+$`));
+  assert(tool.plan.some((step) => step.includes("does not execute")), `${tool.toolId} plan must expose the shell execution boundary`);
+}
+
 assert.equal(state.seats.length, 14, "all 14 cross-domain Studio seats must be linked");
 for (const [name, file] of state.seats) {
   assert(name && file, "seat entries need a name and status file");
@@ -60,7 +81,7 @@ for (const [name, file] of state.seats) {
 const html = read("index.html").toString("utf8");
 const css = read("styles.css").toString("utf8");
 const app = read("app.js").toString("utf8");
-for (const requiredId of ["domain-grid", "domain-search", "status-breakdown", "source-constellation", "seat-grid", "domain-dialog", "dialog-content"]) {
+for (const requiredId of ["domain-grid", "domain-search", "status-breakdown", "source-constellation", "control-head", "tool-registry", "tool-summary", "tool-grid", "tool-dialog", "tool-dialog-content", "seat-grid", "domain-dialog", "dialog-content"]) {
   assert(html.includes(`id="${requiredId}"`), `index.html is missing #${requiredId}`);
 }
 assert(!/(?:src|href)=["']https?:\/\//.test(html), "the offline shell must not load remote page assets");
@@ -68,8 +89,11 @@ assert(css.includes("prefers-reduced-motion"), "reduced-motion behavior is requi
 assert(app.includes("navigator.clipboard.writeText"), "identity copy behavior is missing");
 assert(app.includes("activeFilter"), "domain filtering behavior is missing");
 assert(app.includes("renderConstellation"), "source constellation rendering is missing");
+assert(app.includes("renderTools"), "tool registry rendering is missing");
+assert(app.includes("openTool"), "tool detail behavior is missing");
 
 console.log(`PASS: ${state.domains.length} repositories, ${state.seats.length} seats, ${state.domains.filter(({ preview }) => preview).length} local previews`);
+console.log(`PASS: ${state.tools.length} accepted specialist tool, read-only in Create-Me`);
 console.log(`PASS: states ${JSON.stringify(expectedCounts)}`);
 console.log(`PASS: convergence control head ${state.controlRoomHead}`);
 console.log("PASS: every source identity is present in retained convergence evidence");

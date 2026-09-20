@@ -1,6 +1,6 @@
 window.AXM_STUDIO_STATE = Object.freeze({
-  recordedAt: "2026-09-19T23:31:32Z",
-  controlRoomHead: "2caa4b6a7ea8a8481c5e7898d2c69e3f07948b81",
+  recordedAt: "2026-09-20T00:37:31Z",
+  controlRoomHead: "f742ed67478ada463eee098909e8943958558209",
   truthBoundary:
     "Read-only convergence view. A visible preview does not promote a candidate, close a gate, or transfer domain authority.",
   domains: [
@@ -80,18 +80,18 @@ window.AXM_STUDIO_STATE = Object.freeze({
       id: "building",
       name: "Building",
       repo: "axm-building-design",
-      owner: "Hard Surface → Geometry → Procedural",
+      owner: "Hard Surface → Geometry → Procedural → Materials",
       state: "accepted",
       label: "Accepted main",
-      source: "main · adae0a212a0790a433b388e2bb8aba5f5856d604",
-      sourceUrl: "https://github.com/mike-axiom-mir/axm-building-design/commit/adae0a212a0790a433b388e2bb8aba5f5856d604",
+      source: "main · 0df875379df67d7d940accc98c61e6071b733a65",
+      sourceUrl: "https://github.com/mike-axiom-mir/axm-building-design/commit/0df875379df67d7d940accc98c61e6071b733a65",
       preview: "assets/previews/building.png",
-      summary: "Service pavilion with two source-owned utility receivers.",
-      capability: "Merged source, topology, procedural, and exact provenance repair line.",
-      blocker: "Materials must rebind to current source; target-device Runtime remains open.",
-      next: "Rebind Materials #3 to current main without changing the accepted structural source.",
+      summary: "Service pavilion with source-bound geometry, procedural assembly, and a verified five-material packet.",
+      capability: "Merged source, topology, procedural, Materials, and first deterministic AI-callable specialist tool line.",
+      blocker: "Final aesthetic acceptance, environment adoption, and target-device Runtime remain open.",
+      next: "Expose the exact tool receipt here, then let Map and Runtime consume this identity without changing Building authority.",
       dependsOn: ["Sticker Fabric neutral frame helper"],
-      proof: "173-test integrated gate plus fresh 152-vertex / 228-outward-triangle reconstruction.",
+      proof: "190 exact-donor tests with zero skips plus exact-head Godot 4.7.2 A/B render; structural scope only.",
       repoUrl: "https://github.com/mike-axiom-mir/axm-building-design"
     },
     {
@@ -266,6 +266,47 @@ window.AXM_STUDIO_STATE = Object.freeze({
       dependsOn: [],
       proof: "Exact donor identity verified by Building's integrated gate.",
       repoUrl: "https://github.com/mike-axiom-mir/axm-sticker-fabric"
+    }
+  ],
+  tools: [
+    {
+      id: "building-materials-packet",
+      toolId: "axm.building.materials.packet",
+      name: "Building Materials Packet",
+      status: "AI_CALLABLE",
+      owner: "Materials / LookDev",
+      repo: "axm-building-design",
+      source: "main · 0df875379df67d7d940accc98c61e6071b733a65",
+      sourceHead: "0df875379df67d7d940accc98c61e6071b733a65",
+      verifiedHead: "496c5a070b56acad7c319bc52caf0d52679c5b00",
+      sourceUrl: "https://github.com/mike-axiom-mir/axm-building-design/commit/0df875379df67d7d940accc98c61e6071b733a65",
+      manifestPath: "tooling/building-materials-packet.manifest.json",
+      manifestBlob: "bc1889a08379fcc319a2891164269d68190ea0ff",
+      manifestUrl: "https://github.com/mike-axiom-mir/axm-building-design/blob/0df875379df67d7d940accc98c61e6071b733a65/tooling/building-materials-packet.manifest.json",
+      workflowUrl: "https://github.com/mike-axiom-mir/axm-building-design/actions/runs/35477806689",
+      evidenceScopes: ["structural"],
+      layers: {
+        ai: "verified",
+        human: "absent",
+        intent: "absent"
+      },
+      command: "python tools/run_building_materials_tool.py --request <request.json>",
+      request: ["exact Building source identity", "material profile", "topology role bindings"],
+      result: ["deterministic material packet", "source-bound receipt", "validation or explicit HOLD"],
+      plan: [
+        "Read the owner manifest and verify its exact blob identity.",
+        "Bind the request to the accepted Building source head.",
+        "Route execution to axm-building-design; Create-Me does not execute it.",
+        "Read the structural receipt and preserve any HOLD condition.",
+        "Route visual, environment, and runtime gates to their owners."
+      ],
+      owns: ["bounded material values", "surface assignments", "packet and receipt schema"],
+      doesNotOwn: ["Building source geometry", "art-direction acceptance", "environment adoption", "target-device runtime"],
+      holdConditions: ["source identity mismatch", "dirty source tree", "profile or topology validation failure"],
+      nonclaims: ["No final visual acceptance", "No physical-material validation", "No environment or gameplay adoption", "No production device acceptance"],
+      proof: "190 exact-donor tests passed with zero skips; exact-head Godot 4.7.2 A/B render passed at workflow run 35477806689.",
+      executionOwnerRepo: "axm-building-design",
+      createMeCanExecute: false
     }
   ],
   seats: [
