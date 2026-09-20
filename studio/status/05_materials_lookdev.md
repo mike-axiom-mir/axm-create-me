@@ -191,3 +191,37 @@ Building main is now `adae0a212a0790a433b388e2bb8aba5f5856d604`; Building Materi
 pins pre-convergence source/topology and retains failed inherited workflows. It is therefore
 `NEEDS_REBIND`, not accepted by the Building structural merge. Existing Animal Materials evidence
 above is unchanged. No visual PASS was transferred across the Building provenance change.
+
+## Convergence addendum — 2026-09-20T00:08:31Z
+
+The preceding Materials status remains preserved at blob
+`885fea78d01bed77fcd0465ad3aee573ac316f12`. Its Animal result and authority boundaries are
+unchanged.
+
+Building Materials PR #3 head `eb31efc1639f58f2797bac44ce7f1bad774841ef` was rebound through
+integration PR #20 rather than discarded or silently treated as current. PR #20 exact final head
+`496c5a070b56acad7c319bc52caf0d52679c5b00` merged as Building main
+`0df875379df67d7d940accc98c61e6071b733a65`; PR #3 is closed as `SUPERSEDED` with its branch,
+ancestry, comments, artifacts, and failed runs retained.
+
+Fresh exact-head evidence:
+
+- 190 exact-donor tests PASS with zero skips on Python 3.11 and 3.13;
+- all 14 final-head workflows PASS;
+- current-source Godot 4.7.2 A/B render PASS in front, east, and three-quarter contexts;
+- final-head artifact `10594932198`, digest
+  `37bbbdce02fd27a165d2fae52879f4808e81414f12c9557aeb46a6ef2f77ea5d`;
+- same 19-component silhouette and receiver placement, with visibly distinct five-material
+  candidate assignments; the east-facing panel remains dark under the proof lighting.
+
+The existing deterministic packet builder is now exposed as the bounded tool
+`axm.building.materials.packet`. Its status is `AI_CALLABLE` for structural material-packet
+generation only. It fails closed on source-head drift, dirty tracked source, unknown request
+fields, invalid profile/topology, and accidental output replacement. Exact Git and file identities
+are written to every result receipt.
+
+This does **not** grant final visual/art-direction acceptance, physical surface validation,
+Environment or Map adoption, target-device Runtime acceptance, gameplay acceptance, CANON, or
+production readiness. The human layer and intent layer are both absent. The next legitimate tool
+integration gate is a Create-Me read-only registry/plan view that consumes this exact manifest and
+receipt without copying Building material semantics or creating another execution path.

@@ -2,6 +2,8 @@
 
 Recorded: `2026-09-19T18:04:32Z`
 
+Latest append-only update: `2026-09-20T00:08:31Z`
+
 State: **BOUNDED CONVERGENCE COMPLETED FOR WEATHER AND BUILDING; THE WIDER STUDIO
 REMAINS PARTIALLY HELD.** This record does not claim that every domain is integrated,
 visually accepted, runtime accepted, CANON, production-ready, game-ready, or mastered.
@@ -304,3 +306,107 @@ Four-root result: Truth required correcting the stale UC card; Agency keeps all 
 adoption decisions with their owners; Continuity retains the original freeze and later drift as
 separate timed facts; Wisdom limits the repair to provenance and does not pull UC growth into the
 Studio convergence path.
+
+## Building Materials and specialist-tool addendum — 2026-09-20T00:08:31Z
+
+This addendum supersedes only the stale Building Materials action in the earlier record. It does
+not rewrite the original freeze, old Materials evidence, or the wider held domains.
+
+### Repositories and PR actions
+
+- `axm-create-me` PR #5 exact head `79f3d25c5b3a61b8c440182d503388bc0df7942d` merged as
+  `9544b335075b5c0e620a714d2943c90c4b4ab8e1`. It adds the shared specialist-tool architecture
+  and machine-readable manifest schema; it does not promote any product capability by itself.
+- `axm-building-design` PR #20 exact final head
+  `496c5a070b56acad7c319bc52caf0d52679c5b00` merged as
+  `0df875379df67d7d940accc98c61e6071b733a65`.
+- Building Materials PR #3 exact head `eb31efc1639f58f2797bac44ce7f1bad774841ef`
+  was closed as `SUPERSEDED` only after PR #20 preserved it as merge ancestry and recorded its
+  historical evidence. Its branch, PR discussion, artifacts, and failed runs were not deleted.
+- Building open PR population moved from two to one. Runtime PR #10 remains open and held.
+
+### Accepted bounded Building lineage
+
+Building main is now `0df875379df67d7d940accc98c61e6071b733a65`:
+
+source pavilion #2 -> service-surface predecessor #15 -> clearance source owner #17 -> historical
+clearance receiver #18 -> contained topology/normal/Procedural ancestry in #4 -> exact provenance
+repair #19 -> retained Materials lineage #3 rebound through convergence #20.
+
+PR #20 kept accepted current Building source bytes while preserving the Materials parent. The
+current material packet binds 19 components, 228 outward triangles, zero inward triangles, current
+front/east receiver centers, and 0.02 m panel-body clearance. Historical 0.08 m and earlier 0.04 m
+measurements remain historical evidence, not equal-provenance substitutes.
+
+### Verification and retained visual evidence
+
+- Local exact-donor suite before publication: 190 tests PASS, zero skips.
+- PR head `496c5a07...`: all 14 triggered workflows PASS.
+- Current integrated run `35477806639`: Python 3.11 and 3.13 exact-donor jobs PASS with 190 tests.
+- Current-source Godot run `35477806689`: structural rebind and Godot 4.7.2 A/B render PASS in
+  front, east, and three-quarter contexts.
+- Final-head visual artifact `10594932198`, digest
+  `37bbbdce02fd27a165d2fae52879f4808e81414f12c9557aeb46a6ef2f77ea5d`, retains six PNGs,
+  material payload, structural receipt, and target-host runtime receipt.
+- The final-head PNGs are byte-identical to the independently inspected first-head images. Visible
+  evidence preserves the silhouette, openings, frame spacing, and both receiver placements while
+  the candidate adds a darker five-material hierarchy and ochre service panels. The east-facing
+  panel is dark under the proof light; no final aesthetic acceptance is inferred.
+
+The post-merge commit has the verified PR tree. No production target-device workflow was inferred
+from the Godot proof host.
+
+### First bounded AI-callable specialist tool
+
+`axm.building.materials.packet` is the first tool registered as `AI_CALLABLE`. Its implementation,
+request schema, result schema, manifest, tests, and fail-closed controls remain in
+`axm-building-design`. It performs only deterministic structural material-packet generation.
+
+It rejects source-head mismatch, dirty tracked source, unknown request fields, invalid profile or
+topology, and accidental replacement without explicit permission. Its receipt binds the exact Git
+head and implementation, builder, manifest, request, payload, and receipt digests.
+
+The human layer is `absent`; the intent layer is `absent`. Visual/art-direction acceptance,
+physical material validation, Environment adoption, Map integration, target-device Runtime,
+gameplay, CANON, and final Materials acceptance remain open. No other specialist is promoted by
+analogy.
+
+### UC / Profession Fabric boundary
+
+No Building material values, component assignments, receiver semantics, or source ownership moved
+to UC or Profession Fabric. Create-Me owns discovery/orchestration contracts only. UC remains an
+optional generic observer/adapter provider at its previously demonstrated boundaries; Profession
+Fabric remains a candidate home for reusable evidence procedures, not product semantics.
+
+### Rollback and retained identities
+
+- pre-Materials Building main: `adae0a212a0790a433b388e2bb8aba5f5856d604`;
+- retained historical Materials head: `eb31efc1639f58f2797bac44ce7f1bad774841ef`;
+- verified convergence head: `496c5a070b56acad7c319bc52caf0d52679c5b00`;
+- merged bounded Building main: `0df875379df67d7d940accc98c61e6071b733a65`;
+- pre-tool-architecture Create-Me main: `a37e24bc372962e40d502b28f9d8e1445575c34d`;
+- merged tool-architecture Create-Me main: `9544b335075b5c0e620a714d2943c90c4b4ab8e1`.
+
+### Four-root check
+
+- **Truth:** the tool claims structural packet generation only; exact identities, visual receipts,
+  dark east-light behavior, and open acceptance gates remain explicit.
+- **Agency / non-domination:** Materials does not own Building geometry, Art, Environment, Runtime,
+  or intent; Create-Me does not absorb domain semantics.
+- **Continuity:** PR #3 is preserved in ancestry and history; exact pre/post merge rollback points
+  and both old and fresh artifacts remain addressable.
+- **Wisdom before speed:** one proven existing builder received thin contracts after source rebind;
+  no mass conversion, speculative material family, human UI, or intent automation was added.
+
+### Next five highest-leverage convergence actions
+
+1. Give Create-Me a read-only registry/plan view for the accepted Building Materials manifest and
+   receipt before building any editing UI; keep invocation in the Building owner repository.
+2. Repair Object TA #16 against source owners #14/#17, including the real keeper-seat gate; then
+   rebind existing Animation/TA/Runtime consumers upstream-to-downstream.
+3. Reconcile Map #24/#27/#45/#53 with accepted Weather, Building, Object and indexed Nature owners;
+   keep visual and runtime gates separate.
+4. Rebind Animal Animation/Runtime to the current Rigging owner and 31-key physical-angle candidate;
+   rerun deformation, visual and device gates in that order.
+5. Decide Nature's connected indexed branch/trunk junction in Geometry, then rebind Rigging ->
+   Animation/VFX -> Technical Art -> Map without transferring analytic evidence by analogy.
