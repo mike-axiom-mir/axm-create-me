@@ -20,9 +20,13 @@ test("renders and exercises the bounded studio shell", async ({ page }, testInfo
   await expect(page.locator("#tool-summary")).toContainText("AI callable");
   await expect(page.locator("#tool-summary")).toContainText("human wrapped");
   await expect(page.locator("#tool-summary")).toContainText("intent compiled");
-  await expect(page.locator(".tool-card")).toContainText(/ai\s*verified/i);
-  await expect(page.locator(".tool-card")).toContainText(/human\s*absent/i);
-  await expect(page.locator(".tool-card")).toContainText(/intent\s*absent/i);
+  const toolCards = page.locator(".tool-card");
+  for (let index = 0; index < 2; index += 1) {
+    const card = toolCards.nth(index);
+    await expect(card).toContainText(/ai\s*verified/i);
+    await expect(card).toContainText(/human\s*absent/i);
+    await expect(card).toContainText(/intent\s*absent/i);
+  }
   await expect(page.getByLabel("Four AXM roots")).toContainText("Truth");
   await expect(page.getByLabel("Four AXM roots")).toContainText("Wisdom");
   await expect(page.locator("#status-breakdown")).toContainText("2accepted");
