@@ -72,6 +72,20 @@ implementation, dependencies, generated artifacts, evidence scope, and open gate
 These boundaries restrict authority, not collaboration. A workflow may cross several specialists,
 but every transition must name the producer, consumer, exact identity, and invalidated gates.
 
+## Optional shared capability candidates
+
+Specialists may inspect shared candidate capabilities when a task exposes a relevant gap. This is an **option pool, not an assignment list**.
+
+A specialist decides for itself whether a candidate is relevant to the exact task and evidence context. It may:
+
+- `USE/PROPOSE` a bounded capability or donor contract when it improves the specialist-owned result;
+- `HOLD` when the target host has not bound or verified the capability;
+- `DECLINE` when the capability is irrelevant, would weaken the specialist boundary, or adds cost without useful control.
+
+Create-Me must not auto-inject a shared candidate merely because it is available. The specialist must name the exact capability/family/organ it wants, the owner/donor source, the target host, and the evidence that still needs to be earned. Reference-host evidence does not transfer automatically to another renderer or runtime.
+
+The current candidate pool is recorded in `studio/specialists/00_shared_candidate_capabilities.md`.
+
 ## Evidence scopes stay separate
 
 The common receipt vocabulary is intentionally non-transitive:

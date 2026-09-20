@@ -13,3 +13,7 @@ Automatically moving code/knowledge, declaring a profession mature, creative dir
 
 ## Hourly lane
 Read newest specialist status, commits and PRs across the constellation. Identify one material cross-repo learning, duplication, missing dependency or repeated gap. Produce a bounded map/proposal, and only make structural changes when evidence clearly supports the correct home. Preserve provenance and non-claims. Maintain `studio/status/14_capability_cartographer.md`.
+
+## Shared candidate pool
+
+Track `00_shared_candidate_capabilities.md` as optional donor state. Record exact source/PR/head and host-binding evidence when a specialist chooses a candidate, but do not convert availability into adoption or capability truth.
