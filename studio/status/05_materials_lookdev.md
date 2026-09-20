@@ -208,6 +208,7 @@ Fresh exact-head evidence:
 
 - 190 exact-donor tests PASS with zero skips on Python 3.11 and 3.13;
 - all 14 final-head workflows PASS;
+- post-merge Building main `0df87537...`: 190 exact-donor tests PASS locally with zero skips;
 - current-source Godot 4.7.2 A/B render PASS in front, east, and three-quarter contexts;
 - final-head artifact `10594932198`, digest
   `37bbbdce02fd27a165d2fae52879f4808e81414f12c9557aeb46a6ef2f77ea5d`;

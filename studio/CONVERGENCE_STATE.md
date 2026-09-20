@@ -353,8 +353,9 @@ measurements remain historical evidence, not equal-provenance substitutes.
   the candidate adds a darker five-material hierarchy and ochre service panels. The east-facing
   panel is dark under the proof light; no final aesthetic acceptance is inferred.
 
-The post-merge commit has the verified PR tree. No production target-device workflow was inferred
-from the Godot proof host.
+The post-merge commit has the verified PR tree and a fresh local exact-commit donor-bound run at
+`0df87537...` completed all 190 tests with zero skips. No production target-device workflow was
+inferred from the Godot proof host.
 
 ### First bounded AI-callable specialist tool
 
