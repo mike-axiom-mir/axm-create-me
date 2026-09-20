@@ -142,7 +142,7 @@
           <div class="execution-rail" aria-label="Request routed to specialist owner and returned as a receipt">
             <span><small>INPUT</small><b>request.json</b></span>
             <i aria-hidden="true">→</i>
-            <span class="rail-owner"><small>OWNER</small><b>Building</b></span>
+            <span class="rail-owner"><small>OWNER</small><b>${escapeHtml(tool.executionLabel || tool.repo)}</b></span>
             <i aria-hidden="true">→</i>
             <span><small>OUTPUT</small><b>receipt.json</b></span>
           </div>
@@ -192,7 +192,7 @@
           <section><span>Nonclaims</span><ul>${listMarkup(tool.nonclaims)}</ul></section>
         </div>
         <div class="identity-stack">
-          <span><small>Accepted source</small><code>${escapeHtml(tool.source)}</code></span>
+          <span><small>Tool source</small><code>${escapeHtml(tool.source)}</code></span>
           <span><small>Verified PR head</small><code>${escapeHtml(tool.verifiedHead)}</code></span>
           <span><small>Manifest blob</small><code>${escapeHtml(tool.manifestBlob)}</code></span>
           <span><small>Evidence scope</small><code>${escapeHtml(tool.evidenceScopes.join(", "))}</code></span>

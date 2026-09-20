@@ -51,7 +51,7 @@ for (const domain of state.domains) {
   }
 }
 
-assert.equal(state.tools.length, 1, "the registry must expose only the one accepted specialist tool");
+assert.deepEqual(state.tools.map(({ toolId }) => toolId).sort(), ["axm.building.materials.packet", "axm.map.object.receiver.packet"], "the registry must expose exactly the two verified AI-callable specialist tools");
 assert.equal(new Set(state.tools.map(({ toolId }) => toolId)).size, state.tools.length, "tool IDs must be unique");
 for (const tool of state.tools) {
   const ownerDomain = state.domains.find(({ repo }) => repo === tool.repo);
@@ -60,11 +60,12 @@ for (const tool of state.tools) {
   assert.deepEqual({ ...tool.layers }, { ai: "verified", human: "absent", intent: "absent" }, `${tool.toolId} must report each interface layer honestly`);
   assert.deepEqual([...tool.evidenceScopes], ["structural"], `${tool.toolId} must not widen structural evidence`);
   assert.equal(tool.executionOwnerRepo, tool.repo, `${tool.toolId} execution authority must stay with its owner`);
+  assert(tool.executionLabel, `${tool.toolId} needs a visible execution label`);
   assert.equal(tool.createMeCanExecute, false, `${tool.toolId} must remain read-only in Create-Me`);
   assert.match(tool.sourceHead, /^[0-9a-f]{40}$/);
   assert.match(tool.verifiedHead, /^[0-9a-f]{40}$/);
   assert.match(tool.manifestBlob, /^[0-9a-f]{40}$/);
-  assert(provenance.includes(tool.sourceHead), `${tool.toolId} accepted source is absent from convergence evidence`);
+  assert(provenance.includes(tool.sourceHead), `${tool.toolId} tool source is absent from convergence evidence`);
   assert(provenance.includes(tool.verifiedHead), `${tool.toolId} verified head is absent from convergence evidence`);
   assert.match(tool.sourceUrl, new RegExp(`^https://github\\.com/mike-axiom-mir/${tool.repo}/commit/${tool.sourceHead}$`));
   assert.match(tool.manifestUrl, new RegExp(`^https://github\\.com/mike-axiom-mir/${tool.repo}/blob/${tool.sourceHead}/`));
@@ -93,7 +94,7 @@ assert(app.includes("renderTools"), "tool registry rendering is missing");
 assert(app.includes("openTool"), "tool detail behavior is missing");
 
 console.log(`PASS: ${state.domains.length} repositories, ${state.seats.length} seats, ${state.domains.filter(({ preview }) => preview).length} local previews`);
-console.log(`PASS: ${state.tools.length} accepted specialist tool, read-only in Create-Me`);
+console.log(`PASS: ${state.tools.length} verified AI-callable specialist tools, read-only in Create-Me`);
 console.log(`PASS: states ${JSON.stringify(expectedCounts)}`);
 console.log(`PASS: convergence control head ${state.controlRoomHead}`);
 console.log("PASS: every source identity is present in retained convergence evidence");

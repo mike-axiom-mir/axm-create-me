@@ -306,6 +306,84 @@ window.AXM_STUDIO_STATE = Object.freeze({
       nonclaims: ["No final visual acceptance", "No physical-material validation", "No environment or gameplay adoption", "No production device acceptance"],
       proof: "190 exact-donor tests passed with zero skips; exact-head Godot 4.7.2 A/B render passed at workflow run 35477806689.",
       executionOwnerRepo: "axm-building-design",
+      executionLabel: "Building",
+      createMeCanExecute: false
+    },
+    {
+      id: "map-object-receiver-packet",
+      toolId: "axm.map.object.receiver.packet",
+      name: "Map Object Receiver Packet",
+      status: "AI_CALLABLE",
+      owner: "Technical Art / UC Integration",
+      repo: "axm-map-design",
+      source: "verified branch · abeaa79b7f69e114a5457f00e6e62c7ca4167d4a",
+      sourceHead: "abeaa79b7f69e114a5457f00e6e62c7ca4167d4a",
+      verifiedHead: "abeaa79b7f69e114a5457f00e6e62c7ca4167d4a",
+      sourceUrl: "https://github.com/mike-axiom-mir/axm-map-design/commit/abeaa79b7f69e114a5457f00e6e62c7ca4167d4a",
+      manifestPath: "tooling/map-object-receiver-packet.manifest.json",
+      manifestBlob: "4a7342b8b84a44190747df08aec48c9b397d1193",
+      manifestUrl: "https://github.com/mike-axiom-mir/axm-map-design/blob/abeaa79b7f69e114a5457f00e6e62c7ca4167d4a/tooling/map-object-receiver-packet.manifest.json",
+      workflowUrl: "https://github.com/mike-axiom-mir/axm-map-design/actions/runs/35487122907",
+      evidenceScopes: ["structural"],
+      layers: {
+        ai: "verified",
+        human: "absent",
+        intent: "absent"
+      },
+      command: "python tools/run_map_object_receiver_tool.py --request <request.json> --component-map <map.json> --motion-plan <plan.json> --environment-report <environment.json> --runtime-receipt <runtime.json> --out <output-dir>",
+      request: [
+        "exact current component, motion, Environment and Runtime evidence",
+        "owner sample index 0–100",
+        "historical or +20 mm Environment service frame",
+        "unbatched or current-sequence 24-static batching"
+      ],
+      result: [
+        "deterministic current receiver packet",
+        "exact component and owner-sample selection",
+        "bounded Environment/Runtime representation selection",
+        "source-bound receipt or explicit fail-closed HOLD"
+      ],
+      plan: [
+        "Read the owner manifest and verify its exact blob identity.",
+        "Bind the request to the exact current Map/Object evidence identities.",
+        "Route execution to axm-map-design; Create-Me does not execute it.",
+        "Read the structural packet and exact receipt without transferring visual or proof-host Runtime authority.",
+        "Keep Art/QA, Environment adoption, target-device Runtime and future-articulation gates with their owners."
+      ],
+      owns: [
+        "receiver packet schema",
+        "exact dependency validation",
+        "bounded owner-sample selection",
+        "Environment service-frame selection",
+        "current-sequence static-batching selection"
+      ],
+      doesNotOwn: [
+        "Object source geometry or Animation authorship",
+        "Environment production adoption",
+        "Art Direction or Visual QA acceptance",
+        "target-device Runtime performance",
+        "future arbitrary articulation",
+        "gameplay, physics, collision/navigation or CANON"
+      ],
+      holdConditions: [
+        "dependency byte or exact identity mismatch",
+        "unknown or out-of-range request field",
+        "dirty tracked owner repository",
+        "Object Art/QA rejection remains open",
+        "Environment adoption remains false",
+        "target-device Runtime acceptance remains open",
+        "future sequence moves a component currently classified static"
+      ],
+      nonclaims: [
+        "No final visual acceptance",
+        "No Environment production adoption",
+        "No target-device performance certification",
+        "No arbitrary future-articulation safety",
+        "No gameplay, physics, collision/navigation, CANON or production readiness"
+      ],
+      proof: "Exact head abeaa79b7f69e114a5457f00e6e62c7ca4167d4a: deterministic packet invocation and alternate selection PASS; stale donor and unknown-field negatives reject closed at workflow 35487122907. Visual and Runtime donor evidence stays non-transitive.",
+      executionOwnerRepo: "axm-map-design",
+      executionLabel: "Map",
       createMeCanExecute: false
     }
   ],

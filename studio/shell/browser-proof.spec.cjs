@@ -16,7 +16,7 @@ test("renders and exercises the bounded studio shell", async ({ page }, testInfo
   await expect(page).toHaveTitle("AXM 3D Studio · Create-Me Shell");
   await expect(page.locator(".domain-card")).toHaveCount(15);
   await expect(page.locator(".source-node")).toHaveCount(15);
-  await expect(page.locator(".tool-card")).toHaveCount(1);
+  await expect(page.locator(".tool-card")).toHaveCount(2);
   await expect(page.locator("#tool-summary")).toContainText("AI callable");
   await expect(page.locator("#tool-summary")).toContainText("human wrapped");
   await expect(page.locator("#tool-summary")).toContainText("intent compiled");
@@ -37,7 +37,7 @@ test("renders and exercises the bounded studio shell", async ({ page }, testInfo
     fullPage: false
   });
 
-  await page.getByRole("button", { name: "Inspect tool & plan" }).click();
+  await page.locator(".tool-card").filter({ hasText: "Building Materials Packet" }).getByRole("button", { name: "Inspect tool & plan" }).click();
   const toolDialog = page.locator("#tool-dialog");
   await expect(toolDialog).toBeVisible();
   await expect(toolDialog.getByRole("heading", { name: "Building Materials Packet" })).toBeVisible();
@@ -53,6 +53,22 @@ test("renders and exercises the bounded studio shell", async ({ page }, testInfo
   await expect(toolDialog.getByRole("link", { name: "Open exact manifest ↗" })).toBeVisible();
   await expect(toolDialog.getByRole("link", { name: "Evidence run ↗" })).toBeVisible();
   await expect(toolDialog.getByRole("button", { name: "Copy source head" })).toBeVisible();
+  await toolDialog.getByRole("button", { name: "Close tool details" }).click();
+  await expect(toolDialog).toBeHidden();
+  const mapToolCard = page.locator(".tool-card").filter({ hasText: "Map Object Receiver Packet" });
+  await expect(mapToolCard).toContainText("axm.map.object.receiver.packet");
+  await expect(mapToolCard).toContainText(/ai\s*verified/i);
+  await mapToolCard.getByRole("button", { name: "Inspect tool & plan" }).click();
+  await expect(toolDialog).toBeVisible();
+  await expect(toolDialog.getByRole("heading", { name: "Map Object Receiver Packet" })).toBeVisible();
+  await expect(toolDialog).toContainText("axm-map-design executes and retains authority");
+  await expect(toolDialog).toContainText("abeaa79b7f69e114a5457f00e6e62c7ca4167d4a");
+  await expect(toolDialog).toContainText("Object Art/QA rejection remains open");
+  await expect(toolDialog).toContainText("target-device Runtime acceptance remains open");
+  await page.screenshot({
+    path: path.join(evidenceDir, `${testInfo.project.name}-map-tool-detail.png`),
+    fullPage: false
+  });
   await toolDialog.getByRole("button", { name: "Close tool details" }).click();
   await expect(toolDialog).toBeHidden();
 
