@@ -2,7 +2,7 @@
 
 Recorded: `2026-09-19T18:04:32Z`
 
-Latest append-only update: `2026-09-20T00:48:39Z`
+Latest append-only update: `2026-09-20T01:01:06Z`
 
 State: **BOUNDED CONVERGENCE COMPLETED FOR WEATHER AND BUILDING; THE WIDER STUDIO
 REMAINS PARTIALLY HELD.** This record does not claim that every domain is integrated,
@@ -495,3 +495,113 @@ Rollback points are pre-registry Create-Me main
    Animation/VFX -> Technical Art -> Map without transferring analytic evidence by analogy.
 5. Keep the Building tool at AI-callable only until a later task explicitly justifies a human
    interface; intent compilation remains last and must not be inferred from UI availability.
+
+
+## Object Technical Art receiver repair addendum — 2026-09-20T01:01:06Z
+
+This addendum records a branch-level convergence repair in `axm-object-design`. It does not merge
+Object to default main, accept the whole Object domain, or erase any historical failure or rejected
+visual candidate.
+
+### Exact lineage and PR actions
+
+- Hard-Surface keeper-seat owner PR #14 remains open draft at exact head
+  `37217b244046055a40d9050b61eff2876566bad8`.
+- Technical Art PR #16 pre-repair head was
+  `089e31b9f0e921b728378af728783c4f453c9fbc`; it was 21 TA commits ahead and four owner
+  commits behind the current keeper-seat owner, with common ancestor
+  `d3fa10a270faae7925811f44f03381fe5c5d0215`.
+- Integration PR #38 merged the complete four-file owner payload into the existing TA branch as
+  `de1cd4e148728fbfab7aaffdec0b3b0d56b6e6ca`. It did not copy fragments or weaken the
+  keeper-seat verifier.
+- Guard-repair PR #39 exact head `7c0bf1cb119f5ceed9db600670f04d4b7db3478c`
+  merged into the TA branch as current PR #16 head
+  `b9848c62b2adde84e9e0afc219088113216799d6`.
+- PR #16 remains open draft and is now based on current owner head
+  `37217b244046055a40d9050b61eff2876566bad8`.
+
+Hard-Surface PR #17 remains the source mechanical-interface/capture owner at its own exact lineage.
+PR #16 does not absorb that mechanical authority. Current downstream latch target Rigging PR #23
+still pins historical TA/source donors and therefore remains a separate rebind gate.
+
+### Failure diagnosis and repair boundary
+
+The original current-head keeper-seat failure `35346551798` was real: TA #16 lacked the complete
+current owner contract, verifier, tests, and workflow. The four-file source payload was merged
+unchanged.
+
+Integration PR #38 run `35479915582` is retained as historical context. Its UC job checked out the
+special PR's owner head `37217b24...` rather than a combined tree, so the TA builder was absent and
+the job failed with an exact missing-file error. This was not relabelled as a receiver PASS. The
+resulting combined TA head reran and passed that UC family.
+
+After owner integration, ten of eleven families passed. The remaining Direction 048 red was the
+previously documented whole-branch cumulative-diff false positive: unrelated keeper-seat and sibling
+TA evidence made an old exact-file-set equality guard fail before visual execution. PR #39 reused
+the already-proven Object-local `axm.ta-evidence-lane-continuity/v0.1` helper to protect only the
+three immutable Direction 048 payload files, added a deliberate protected-file mutation negative,
+and left every owner/UC/Godot/evidence gate intact.
+
+### Exact final-head verification
+
+All 11 observed workflow families completed SUCCESS on exact PR #16 head
+`b9848c62b2adde84e9e0afc219088113216799d6`:
+
+- keeper-seat run `35480153206`, artifact `10595566611`, digest
+  `da298fa00d9e82dd4f77e075cc1d14a57725172747c7b79aa00c8a1c3683a37f`;
+- UC rigid-scene run `35480153210`, artifact `10595113363`, digest
+  `7556732c2677f076e4ac121a190965f35d01ce77e1f26df53869068980543f2f`;
+- current-UC continuity run `35480153195`, artifact `10594384401`, digest
+  `e32386927939d167e15b8c42b4b0e956b37f1ea3bf9515e172a4f7daab8c37f6`;
+- successor002 run `35480153215`, artifact `10595711396`, digest
+  `79ebafbc643e70279cdb2d29b75859a5cb86315e909f1d46e11211023a854aab`;
+- front-face run `35480153204`, artifact `10595876120`, digest
+  `450ce6b53976c881f586c33e7502677524a265f09763c2287a589bf0901d141a`;
+- normal-evidence replay `35480153191`, artifact `10595576725`, digest
+  `61986ea193c977214343c8e4a2a8bb7c43f80ff166eb242dddd4a55bd910548c`.
+
+The remaining inherited Hard-Surface interface, service-module fit, registration, clearance, and
+front-latch ownership workflow families also completed SUCCESS on that head.
+
+### Preserved failure and acceptance state
+
+Art Direction 051 and independent Visual QA still reject the analytic-radial outer-normal candidate.
+The fresh successful replay proves reproducibility only. Successor002 remains the frozen visual
+control. No rejected visual evidence became accepted evidence.
+
+Current PR #16 classification is:
+
+`KEEP_CURRENT / DOWNSTREAM_REBIND_REQUIRED`
+
+It is the strongest truthful current Technical-Art receiver base, not an accepted Object main.
+Rigging #18, latch target Rigging #23, Animation, later TA bridges, Runtime, and Map consumers still
+require explicit identity rebind and their invalidated gates must rerun.
+
+### Rollback and four-root check
+
+Rollback points:
+
+- pre-owner-rebind TA: `089e31b9f0e921b728378af728783c4f453c9fbc`;
+- owner-integrated TA: `de1cd4e148728fbfab7aaffdec0b3b0d56b6e6ca`;
+- guard-repair candidate: `7c0bf1cb119f5ceed9db600670f04d4b7db3478c`;
+- current repaired TA: `b9848c62b2adde84e9e0afc219088113216799d6`.
+
+- **Truth:** the real source-owner failure and the separate false-red guard are distinguished; the
+  rejected visual verdict remains rejected.
+- **Agency / non-domination:** Hard Surface retains keeper-seat/mechanical authority; TA retains only
+  transport/receiver authority; Art/QA retain visual acceptance.
+- **Continuity:** both parent histories, failed runs, previous green artifacts, and exact rollback
+  heads remain addressable.
+- **Wisdom before speed:** the repair merged four owner files and changed one workflow guard; it did
+  not redesign geometry, normals, UC, or downstream behavior.
+
+### Next five highest-leverage convergence actions
+
+1. Rebind Object Rigging #18 and current latch target Rigging #23 to repaired TA #16
+   `b9848c62...`, preserving separate lid and latch authority.
+2. Rebind Object Animation and later TA/Runtime consumers upstream-to-downstream; rerun only gates
+   invalidated by the new receiver identity.
+3. Reconcile Map #24/#27/#45/#53 with accepted Weather/Building and current Object/Nature owners;
+   keep visual and runtime gates separate.
+4. Rebind Animal Animation/Runtime to the current Rigging owner and 31-key physical-angle candidate.
+5. Decide Nature's connected indexed branch/trunk junction before rebinding its downstream chain.
