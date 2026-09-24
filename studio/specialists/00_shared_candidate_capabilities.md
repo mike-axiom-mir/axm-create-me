@@ -14,11 +14,11 @@ Candidate capability:
 - explicit known-loss/fallback contracts;
 - surface behavior is kept separate from texture/channel values.
 
-Current donor/integration lanes:
+Current donor/integration state:
 
-- `axm-material-surface-fabric` PR #28 — shared material-response home + interactive reference lab;
-- `axm-universal-creation` PR #219 — fail-closed response contract/resolver;
-- `axm-avatar-machine` PR #3 — Blueprint material-response intent with Blender binding still held until host-specific evidence exists.
+- `axm-material-surface-fabric` main — material-response home + interactive reference lab, merged via PR #28;
+- `axm-universal-creation` main — fail-closed response contract/resolver, merged via PR #219;
+- `axm-avatar-machine` main — Blueprint material-response intent from merged PR #3; host-specific binding evidence remains scoped rather than inherited automatically.
 
 ### Specialist choice rule
 
