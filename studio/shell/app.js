@@ -142,7 +142,7 @@
           <div class="execution-rail" aria-label="Request routed to specialist owner and returned as a receipt">
             <span><small>INPUT</small><b>request.json</b></span>
             <i aria-hidden="true">→</i>
-            <span class="rail-owner"><small>OWNER</small><b>Building</b></span>
+            <span class="rail-owner"><small>OWNER</small><b>${escapeHtml(tool.executionLabel || tool.repo)}</b></span>
             <i aria-hidden="true">→</i>
             <span><small>OUTPUT</small><b>receipt.json</b></span>
           </div>
@@ -176,6 +176,12 @@
           <span>EXECUTION BOUNDARY</span>
           <strong>Create-Me plans and reads receipts. ${escapeHtml(tool.executionOwnerRepo)} executes and retains authority.</strong>
         </div>
+        ${tool.humanInterface ? `<div class="execution-boundary">
+          <span>HUMAN WRAPPER</span>
+          <strong>${escapeHtml(tool.humanInterface.label)} · ${escapeHtml(tool.humanInterface.contractBinding)}</strong>
+          <code>${escapeHtml(tool.humanInterface.entrypoint)} · ${escapeHtml(tool.humanInterface.listenAddress)}</code>
+          <small>${escapeHtml(tool.humanInterface.proof)}</small>
+        </div>` : ""}
         <div class="request-result-grid">
           <section><span>Request contract</span><ul>${listMarkup(tool.request)}</ul></section>
           <div class="command-channel"><span>OWNER COMMAND</span><code>${escapeHtml(tool.command)}</code></div>
@@ -192,7 +198,7 @@
           <section><span>Nonclaims</span><ul>${listMarkup(tool.nonclaims)}</ul></section>
         </div>
         <div class="identity-stack">
-          <span><small>Accepted source</small><code>${escapeHtml(tool.source)}</code></span>
+          <span><small>Tool source</small><code>${escapeHtml(tool.source)}</code></span>
           <span><small>Verified PR head</small><code>${escapeHtml(tool.verifiedHead)}</code></span>
           <span><small>Manifest blob</small><code>${escapeHtml(tool.manifestBlob)}</code></span>
           <span><small>Evidence scope</small><code>${escapeHtml(tool.evidenceScopes.join(", "))}</code></span>
@@ -200,6 +206,7 @@
         <div class="dialog-actions">
           <a href="${escapeHtml(tool.manifestUrl)}" target="_blank" rel="noreferrer">Open exact manifest ↗</a>
           <a class="repo-action" href="${escapeHtml(tool.workflowUrl)}" target="_blank" rel="noreferrer">Evidence run ↗</a>
+          ${tool.humanWorkflowUrl ? `<a class="repo-action" href="${escapeHtml(tool.humanWorkflowUrl)}" target="_blank" rel="noreferrer">Human UI proof ↗</a>` : ""}
           <button type="button" data-copy-source="${escapeHtml(tool.sourceHead)}">Copy source head</button>
         </div>
       </div>`;

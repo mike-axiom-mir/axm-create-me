@@ -51,26 +51,45 @@ for (const domain of state.domains) {
   }
 }
 
-assert.equal(state.tools.length, 1, "the registry must expose only the one accepted specialist tool");
+assert.equal(state.tools.map(({ toolId }) => toolId).sort().join(","), "axm.building.materials.packet,axm.map.object.receiver.packet", "the registry must expose exactly the two verified AI-callable specialist tools");
 assert.equal(new Set(state.tools.map(({ toolId }) => toolId)).size, state.tools.length, "tool IDs must be unique");
 for (const tool of state.tools) {
   const ownerDomain = state.domains.find(({ repo }) => repo === tool.repo);
   assert(ownerDomain, `${tool.toolId} must point to a represented specialist repository`);
-  assert.equal(tool.status, "AI_CALLABLE", `${tool.toolId} has an unsupported registry status`);
-  assert.deepEqual({ ...tool.layers }, { ai: "verified", human: "absent", intent: "absent" }, `${tool.toolId} must report each interface layer honestly`);
+  assert(["AI_CALLABLE", "AI_CALLABLE_HUMAN_WRAPPED"].includes(tool.status), `${tool.toolId} has an unsupported registry status`);
+  assert.equal(tool.layers.ai, "verified", `${tool.toolId} AI layer must remain verified`);
+  assert.equal(tool.layers.intent, "absent", `${tool.toolId} intent layer must remain absent`);
+  assert(["absent", "verified"].includes(tool.layers.human), `${tool.toolId} human layer has an unsupported state`);
   assert.deepEqual([...tool.evidenceScopes], ["structural"], `${tool.toolId} must not widen structural evidence`);
   assert.equal(tool.executionOwnerRepo, tool.repo, `${tool.toolId} execution authority must stay with its owner`);
+  assert(tool.executionLabel, `${tool.toolId} needs a visible execution label`);
   assert.equal(tool.createMeCanExecute, false, `${tool.toolId} must remain read-only in Create-Me`);
   assert.match(tool.sourceHead, /^[0-9a-f]{40}$/);
   assert.match(tool.verifiedHead, /^[0-9a-f]{40}$/);
   assert.match(tool.manifestBlob, /^[0-9a-f]{40}$/);
-  assert(provenance.includes(tool.sourceHead), `${tool.toolId} accepted source is absent from convergence evidence`);
+  assert(provenance.includes(tool.sourceHead), `${tool.toolId} tool source is absent from convergence evidence`);
   assert(provenance.includes(tool.verifiedHead), `${tool.toolId} verified head is absent from convergence evidence`);
   assert.match(tool.sourceUrl, new RegExp(`^https://github\\.com/mike-axiom-mir/${tool.repo}/commit/${tool.sourceHead}$`));
   assert.match(tool.manifestUrl, new RegExp(`^https://github\\.com/mike-axiom-mir/${tool.repo}/blob/${tool.sourceHead}/`));
   assert.match(tool.workflowUrl, new RegExp(`^https://github\\.com/mike-axiom-mir/${tool.repo}/actions/runs/\\d+$`));
   assert(tool.plan.some((step) => step.includes("does not execute")), `${tool.toolId} plan must expose the shell execution boundary`);
 }
+const buildingTool = state.tools.find(({ toolId }) => toolId === "axm.building.materials.packet");
+const mapTool = state.tools.find(({ toolId }) => toolId === "axm.map.object.receiver.packet");
+assert(buildingTool && mapTool, "both registered tools must be addressable by ID");
+assert.equal(buildingTool.status, "AI_CALLABLE");
+assert.deepEqual({ ...buildingTool.layers }, { ai: "verified", human: "absent", intent: "absent" }, "Building must remain AI-only");
+assert.equal(mapTool.status, "AI_CALLABLE_HUMAN_WRAPPED");
+assert.deepEqual({ ...mapTool.layers }, { ai: "verified", human: "verified", intent: "absent" }, "Map must expose the verified human wrapper without inventing intent");
+assert.equal(state.tools.filter(({ layers }) => layers.human === "verified").length, 1, "exactly one specialist tool is human-wrapped");
+assert(mapTool.humanInterface, "Map human wrapper metadata is required");
+assert.equal(mapTool.humanInterface.entrypoint, "tools/serve_map_object_receiver_ui.py");
+assert.equal(mapTool.humanInterface.listenAddress, "127.0.0.1");
+assert.equal(mapTool.humanInterface.contractBinding, "same request schema / same deterministic runner");
+assert.equal(mapTool.humanInterface.executionOwnerRepo, "axm-map-design");
+assert.match(mapTool.humanWorkflowUrl, /^https:\/\/github\.com\/mike-axiom-mir\/axm-map-design\/actions\/runs\/\d+$/);
+assert.match(mapTool.humanArtifactId, /^\d+$/);
+assert.match(mapTool.humanArtifactDigest, /^sha256:[0-9a-f]{64}$/);
 
 assert.equal(state.seats.length, 14, "all 14 cross-domain Studio seats must be linked");
 for (const [name, file] of state.seats) {
@@ -93,7 +112,7 @@ assert(app.includes("renderTools"), "tool registry rendering is missing");
 assert(app.includes("openTool"), "tool detail behavior is missing");
 
 console.log(`PASS: ${state.domains.length} repositories, ${state.seats.length} seats, ${state.domains.filter(({ preview }) => preview).length} local previews`);
-console.log(`PASS: ${state.tools.length} accepted specialist tool, read-only in Create-Me`);
+console.log(`PASS: ${state.tools.length} verified AI-callable specialist tools, read-only in Create-Me`);
 console.log(`PASS: states ${JSON.stringify(expectedCounts)}`);
 console.log(`PASS: convergence control head ${state.controlRoomHead}`);
 console.log("PASS: every source identity is present in retained convergence evidence");
